@@ -5,21 +5,21 @@
     
     
     
-    <link>/</link>
+    <link>https://simeononsecurity.pl/</link>
     <description>Recent content on simeononsecurity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Jul 2020 20:15:14 -0500</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://simeononsecurity.pl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Optimizing and Hardening Windows 10 Deployments</title>
-      <link>/posts/optimizing-and-hardening-windows10-deployments/</link>
+      <link>https://simeononsecurity.pl/posts/optimizing-and-hardening-windows10-deployments/</link>
       <pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate>
       
-      <guid>/posts/optimizing-and-hardening-windows10-deployments/</guid>
+      <guid>https://simeononsecurity.pl/posts/optimizing-and-hardening-windows10-deployments/</guid>
       <description>
         
           
@@ -38,10 +38,10 @@ Windows 10 is an invasive and insecure operating system out of the box. Organiza
     
     <item>
       <title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title>
-      <link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link>
+      <link>https://simeononsecurity.pl/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link>
       <pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate>
       
-      <guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid>
+      <guid>https://simeononsecurity.pl/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid>
       <description>
         
           

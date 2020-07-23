@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/optimizing-and-hardening-windows10-deployments/</loc>
+    <loc>https://simeononsecurity.pl/posts/optimizing-and-hardening-windows10-deployments/</loc>
     <lastmod>2020-07-22T20:15:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://simeononsecurity.pl/posts/</loc>
     <lastmod>2020-07-22T20:15:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://simeononsecurity.pl/</loc>
     <lastmod>2020-07-22T20:15:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</loc>
+    <loc>https://simeononsecurity.pl/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</loc>
     <lastmod>2020-07-22T17:46:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://simeononsecurity.pl/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://simeononsecurity.pl/tags/</loc>
   </url>
   
 </urlset>
