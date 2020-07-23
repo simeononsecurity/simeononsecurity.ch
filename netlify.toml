@@ -15,6 +15,6 @@
 	X-Robots-Tag  = "index,follow"
 	X-Xss-Protection = "1; mode=block"
   	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src 'none'; upgrade-insecure-requests"
-	Server = "Not Your Every Day Server"
+	Server = "simeononsecurity"
 
     
