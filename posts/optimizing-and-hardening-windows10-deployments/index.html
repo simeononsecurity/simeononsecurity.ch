@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Optimizing and Hardening Windows 10 Deployments :: simeononsecurity — In-depth tech news and tutorials</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Optimizing and Hardening Windows 10 Deployments
+Download all the required files from the GitHub Repository
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/optimizing-and-hardening-windows10-deployments/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Optimizing and Hardening Windows 10 Deployments"/>
+<meta name="twitter:description" content="Optimizing and Hardening Windows 10 Deployments
+Download all the required files from the GitHub Repository
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system."/>
+
+
+
+<meta property="og:title" content="Optimizing and Hardening Windows 10 Deployments" />
+<meta property="og:description" content="Optimizing and Hardening Windows 10 Deployments
+Download all the required files from the GitHub Repository
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/optimizing-and-hardening-windows10-deployments/" />
+<meta property="article:published_time" content="2020-07-22T20:15:14-05:00" />
+<meta property="article:modified_time" content="2020-07-22T20:15:14-05:00" /><meta property="og:site_name" content="simeononsecurity" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">simeononsecurity</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/posts">Posts</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title"><a href="/posts/optimizing-and-hardening-windows10-deployments/">Optimizing and Hardening Windows 10 Deployments</a></h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-07-22
+        </span>
+
+        
+          
+        
+      
+
+      
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p><strong>Optimizing and Hardening Windows 10 Deployments</strong></p>
+<p>Download all the required files from the <a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden">GitHub Repository</a></p>
+<p>Windows 10 is an invasive and insecure operating system out of the box.
+Organizations like <a href="https://PrivacyTools.io">PrivacyTools.io</a>, <a href="https://microsoft.com">Microsoft</a> and the
+<a href="https://public.cyber.mil">Department of Defense</a> have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.</p>
+<p>A list of script and tools this collection utilizes:</p>
+<p>1.) <a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0</a></p>
+<p>2.) <a href="https://public.cyber.mil/stigs/gpo/">Cyber.mil - Group Policy Objects</a></p>
+<p>3.) <a href="https://github.com/Sycnex/Windows10Debloater">Sycnex - Windows10Debloater</a></p>
+<p>4.) <a href="https://github.com/TheVDIGuys/Windows_10_VDI_Optimize">TheVDIGuys - Windows 10 VDI Optimize</a></p>
+<p>Additional configurations were considered from:</p>
+<p><a href="https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps">Disable TCP Timestamps</a></p>
+<p><a href="https://kb.cert.org/vuls/id/573168/">IE Scripting Engine Memory Corruption</a></p>
+<p><a href="https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities">Specture and Meltdown Mitigations</a></p>
+<p><a href="https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/">SSL Hardening</a></p>
+<p><a href="https://docs.microsoft.com/en-us/windows/privacy/">Windows 10 Privacy</a></p>
+<p><a href="https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services">Managing Windows 10 Telemetry and Callbacks</a></p>
+<p><a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909">Windows 10 VDI Reccomendations</a></p>
+<p>The script we will be using must be launched from the directory containing all the other files from the <a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden">GitHub Repository</a></p>
+<p>In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:</p>
+<pre><code>.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows_10_VDI&quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+
+</code></pre><p>In order to enable the SSL Hardening you must uncomment the line below:</p>
+<pre><code>.\Scripts\&quot;Security, Hardening, and Mitigation&quot;s\&quot;SSL Hardening Registries.ps1&quot;
+
+</code></pre><p>The script we will be using is called <strong>&ldquo;installallstandalone.ps1&rdquo;</strong> and its contents are:</p>
+<pre><code>######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
+.\LGPO\LGPO.exe /g &quot;.\Scripts\Security, Hardening, and Mitigations\Windows Baseline\Microsoft Edge v80\GPOs&quot;
+.\LGPO\LGPO.exe /g &quot;.\Scripts\Security, Hardening, and Mitigations\Windows Baseline\Office365-ProPlus-Sept2019-FINAL\GPOs&quot;
+.\LGPO\LGPO.exe /g &quot;.\Scripts\Security, Hardening, and Mitigations\Windows Baseline\Windows 10 1909 Baseline\GPOs&quot;
+.\LGPO\LGPO.exe /g &quot;.\GPO Backup for Mass Import&quot;
+
+mkdir C:\temp\
+mkdir &quot;C:\temp\Windows Defender&quot;
+copy-item -Path .\Files\DOD_EP_V3.xml -Destination &quot;C:\temp\Windows Defender&quot; -Force -Recurse
+copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions -Force -Recurse
+
+#Package Management Scripts
+#.\Scripts\&quot;Package Management and Windows Updates&quot;\installrsat.ps1
+.\Scripts\&quot;Package Management and Windows Updates&quot;\chocoautomatewindowsupdates.ps1
+
+#Security Scripts
+.\Scripts\&quot;Security, Hardening, and Mitigations&quot;\&quot;disable tcp timestamps.bat&quot;
+.\Scripts\&quot;Security, Hardening, and Mitigations&quot;\&quot;IE Scripting Engine Memory Corruption.bat&quot;
+.\Scripts\&quot;Security, Hardening, and Mitigations&quot;\&quot;specture meltdown mitigations.bat&quot;
+
+#Security Scripts Testing Required
+#Only enable after testing in your environment
+#.\Scripts\&quot;Security, Hardening, and Mitigation&quot;s\&quot;SSL Hardening Registries.ps1&quot;
+
+#Debloating Scripts
+.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\ultimate performance mode.ps1
+.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\startupcleantelem.ps1
+.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\optimizevmvirtalization.ps1
+.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows 10 Debloater&quot;\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
+
+#ONLY ENABLE IF ON VM
+#.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows_10_VDI&quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+</code></pre><p>The script may be lauched from the extracted GitHub download like this:</p>
+<pre><code>.\W10-Optimize-and-Harden-master\installallstandalone.ps1
+</code></pre>
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/">
+                  <span class="button__text">Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">simeononsecurity</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
