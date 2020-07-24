@@ -1,62 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>simeononsecurity</title>
-    
-    
-    
-    <link>/</link>
-    <description>Recent content on simeononsecurity</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2020 20:15:14 -0500</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Optimizing and Hardening Windows 10 Deployments</title>
-      <link>/posts/optimizing-and-hardening-windows10-deployments/</link>
-      <pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate>
-      
-      <guid>/posts/optimizing-and-hardening-windows10-deployments/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Optimizing and Hardening Windows 10 Deployments
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 22 Jul 2020 20:15:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+Optimizing and Hardening Windows 10 Deployments
 Download all the required files from the GitHub Repository
-Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title>
-      <link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link>
-      <pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate>
-      
-      <guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.</description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
+Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts
 Download all supporting files from the GitHub Repository
- In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems. Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.
-          
-        
-        </description>
-    </item>
-    
-  </channel>
-</rss>
+ In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems. Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.</description></item></channel></rss>
