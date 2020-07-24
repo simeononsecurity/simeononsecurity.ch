@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Optimizing and Hardening Windows 10 Deployments
 Download all the required files from the GitHub Repository
-Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system."/>
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="/posts/optimizing-and-hardening-windows10-deployments/" />
@@ -31,14 +31,14 @@ Windows 10 is an invasive and insecure operating system out of the box. Organiza
 <meta name="twitter:title" content="Optimizing and Hardening Windows 10 Deployments"/>
 <meta name="twitter:description" content="Optimizing and Hardening Windows 10 Deployments
 Download all the required files from the GitHub Repository
-Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system."/>
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system."/>
 
 
 
 <meta property="og:title" content="Optimizing and Hardening Windows 10 Deployments" />
 <meta property="og:description" content="Optimizing and Hardening Windows 10 Deployments
 Download all the required files from the GitHub Repository
-Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system." />
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/optimizing-and-hardening-windows10-deployments/" />
 <meta property="article:published_time" content="2020-07-22T20:15:14-05:00" />
@@ -138,15 +138,17 @@ Windows 10 is an invasive and insecure operating system out of the box. Organiza
     <div class="post-content">
       
       <p><strong>Optimizing and Hardening Windows 10 Deployments</strong></p>
-<p>Download all the required files from the <a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden">GitHub Repository</a></p>
+<p>Download all the required files from the <a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository</a></p>
 <p>Windows 10 is an invasive and insecure operating system out of the box.
 Organizations like <a href="https://PrivacyTools.io">PrivacyTools.io</a>, <a href="https://microsoft.com">Microsoft</a> and the
-<a href="https://public.cyber.mil">Department of Defense</a> have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.</p>
+<a href="https://public.cyber.mil">Department of Defense</a> have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.</p>
 <p>A list of script and tools this collection utilizes:</p>
 <p>1.) <a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0</a></p>
 <p>2.) <a href="https://public.cyber.mil/stigs/gpo/">Cyber.mil - Group Policy Objects</a></p>
 <p>3.) <a href="https://github.com/Sycnex/Windows10Debloater">Sycnex - Windows10Debloater</a></p>
 <p>4.) <a href="https://github.com/TheVDIGuys/Windows_10_VDI_Optimize">TheVDIGuys - Windows 10 VDI Optimize</a></p>
+<p>5.) <a href="https://github.com/builtbybel/sharpapp">Mirinsoft - SharpApp</a></p>
+<p>6.) <a href="https://github.com/builtbybel/debotnet">Mirinsoft - debotnet</a></p>
 <p>Additional configurations were considered from:</p>
 <p><a href="https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps">Disable TCP Timestamps</a></p>
 <p><a href="https://kb.cert.org/vuls/id/573168/">IE Scripting Engine Memory Corruption</a></p>
@@ -154,8 +156,8 @@ Organizations like <a href="https://PrivacyTools.io">PrivacyTools.io</a>, <a hre
 <p><a href="https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/">SSL Hardening</a></p>
 <p><a href="https://docs.microsoft.com/en-us/windows/privacy/">Windows 10 Privacy</a></p>
 <p><a href="https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services">Managing Windows 10 Telemetry and Callbacks</a></p>
-<p><a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909">Windows 10 VDI Reccomendations</a></p>
-<p>The script we will be using must be launched from the directory containing all the other files from the <a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden">GitHub Repository</a></p>
+<p><a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909">Windows 10 VDI Recomendations</a></p>
+<p>The script we will be using must be launched from the directory containing all the other files from the <a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository</a></p>
 <p>In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:</p>
 <pre><code>.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows_10_VDI&quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
 
@@ -164,14 +166,21 @@ Organizations like <a href="https://PrivacyTools.io">PrivacyTools.io</a>, <a hre
 
 </code></pre><p>The script we will be using is called <strong>&ldquo;installallstandalone.ps1&rdquo;</strong> and its contents are:</p>
 <pre><code>######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
-.\LGPO\LGPO.exe /g &quot;.\Scripts\Security, Hardening, and Mitigations\Windows Baseline\Microsoft Edge v80\GPOs&quot;
-.\LGPO\LGPO.exe /g &quot;.\Scripts\Security, Hardening, and Mitigations\Windows Baseline\Office365-ProPlus-Sept2019-FINAL\GPOs&quot;
-.\LGPO\LGPO.exe /g &quot;.\Scripts\Security, Hardening, and Mitigations\Windows Baseline\Windows 10 1909 Baseline\GPOs&quot;
-.\LGPO\LGPO.exe /g &quot;.\GPO Backup for Mass Import&quot;
+#Microsoft Security Baselines
+.\LGPO\LGPO.exe /g .\GPOs\Microsoft\&quot;Windows 10 1909 Baseline&quot;\GPOs
+.\LGPO\LGPO.exe /g .\GPOs\Microsoft\&quot;Microsoft Edge v80&quot;\GPOs
+.\LGPO\LGPO.exe /g .\GPOs\Microsoft\Office365-ProPlus-Sept2019-FINAL\GPOs
+#Cyber.mil GPOs
+.\LGPO\LGPO.exe /g .\GPOs\Cyber.mil
+#SIMEONONSECURITY GPOS
+.\LGPO\LGPO.exe /g .\GPOs\simeononsecurity
 
+#Windows 10 Defenter Exploit Guard Configuration File
 mkdir C:\temp\
 mkdir &quot;C:\temp\Windows Defender&quot;
 copy-item -Path .\Files\DOD_EP_V3.xml -Destination &quot;C:\temp\Windows Defender&quot; -Force -Recurse
+
+#Copy  Policy Definitions for gpedit.msc
 copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions -Force -Recurse
 
 #Package Management Scripts
@@ -188,14 +197,17 @@ copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions 
 #.\Scripts\&quot;Security, Hardening, and Mitigation&quot;s\&quot;SSL Hardening Registries.ps1&quot;
 
 #Debloating Scripts
+
+#ONLY ENABLE IF ON VM
+#.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows_10_VDI&quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+
 .\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\ultimate performance mode.ps1
 .\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\startupcleantelem.ps1
 .\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\optimizevmvirtalization.ps1
 .\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows 10 Debloater&quot;\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
-
-#ONLY ENABLE IF ON VM
-#.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\&quot;Windows_10_VDI&quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
-</code></pre><p>The script may be lauched from the extracted GitHub download like this:</p>
+.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\sharpapp\sharpappscripts.ps1
+.\Scripts\&quot;Debloating, Optimization, and Privacy&quot;\debotnet\debotnetscripts.ps1
+</code></pre><p><strong>The script may be lauched from the extracted GitHub download like this:</strong></p>
 <pre><code>.\W10-Optimize-and-Harden-master\installallstandalone.ps1
 </code></pre>
     </div>

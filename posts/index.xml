@@ -30,7 +30,7 @@
         
           Optimizing and Hardening Windows 10 Deployments
 Download all the required files from the GitHub Repository
-Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have reccomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.
+Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft and the Department of Defense have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.
           
         
         </description>
