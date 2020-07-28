@@ -1,31 +1,409 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 10:15:03 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Toolkit and Recommendations</title><link>/recommendations/</link><pubDate>Mon, 27 Jul 2020 20:03:03 -0500</pubDate><guid>/recommendations/</guid><description>
-What&amp;rsquo;s in SimeonOnSecurity&amp;rsquo;s toolkit? Book Recommendations: Extreme Privacy - Michael Bazzell
-Open Source Intelligence Techniques - Michael Bazzell
-CCNA Routing and Switching Portable Command Guide - Scott Empson
-Practical Network Automation - Abhishek Ratan
-Practical Ansible 2 - Daniel Oh
-Red Team Field Manual - Ben Clark
-Blue Team Field Manual - Alan J White
-The Hacker Playbook 3 - Peter Kim</description></item><item><title>Hardening Apache Web Server</title><link>/posts/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate><guid>/posts/hardening-apache/</guid><description>
-A collection of example configurations and scripts to aid system administrators in hardening Apache web servers. Apache, out of the box, is surprisingly insecure. Many best practices and security configurations have to be configured manually before rolling Apache out in a production environment. You may use this GitHub repository as a starting point towards securing your Apache instances.
-Installing ModSecurity with OWASP Core Rule Set Step 1: Update Repositories On Ubuntu/ Debian:</description></item><item><title>CVE-2020-1350 KB4569509 DNS Server Vulnerability</title><link>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</link><pubDate>Sat, 25 Jul 2020 21:09:37 -0500</pubDate><guid>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</guid><description>
-KB4569509: Guidance for DNS Server Vulnerability CVE-2020-1350 Introduction On July 14, 2020, Microsoft released a security update for the issue that is described in CVE-2020-1350 | Windows DNS Server Remote Code Execution Vulnerability. This advisory describes a Critical Remote Code Execution (RCE) vulnerability that affects Windows servers that are configured to run the DNS Server role. We strongly recommend that server administrators apply the security update at their earliest convenience.</description></item><item><title>About</title><link>/about/</link><pubDate>Sat, 25 Jul 2020 19:47:00 -0500</pubDate><guid>/about/</guid><description>
-Contact Details  SimeonOnSecurity does not have publically available contact details at this time. You may follow our RSS feed or our GitHub at this time.
-What is SimeonOnSecurity?  SimeonOnSecurity (SOS) is a security and automation blog that&amp;rsquo;s goal is to bring you all the behind the scenes technical content not normally found online. This blog serves as Simeon&amp;rsquo;s show of work and his all around enthusiasm for the field.</description></item><item><title>Brave ADMX Templates</title><link>/posts/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:39 -0500</pubDate><guid>/posts/brave-admx-templates/</guid><description>
-BraveADMX Proper ADMX Templates for the Brave Browser
-These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only
-Download the required files from the GitHub Repository
-Modified Google Chrome Policy Definitions according to: Brave Group Policy
-Note: Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;
-How to install 1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo; 2.) Profit?</description></item><item><title>Chromium ADMX Templates</title><link>/posts/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/posts/chromium-admx-templates/</guid><description>
-ChromiumADMX Proper ADMX Template for the Chromium Browser
-These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only
-Download the required files from the GitHub Repository
-Modified Google Chrome Policy Definitions according to: Chromium Policy Templates
-Note: Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;
-How to install 1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo; 2.) Profit?</description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
-Optimizing and Hardening Windows 10 Deployments Download all the required files from the GitHub Repository
-Windows 10 is an invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft,
-Department of Defense, and the National Security Agency have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.</description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
-Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts Download all supporting files from the GitHub Repository
- In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems. Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>SimeonOnSecurity 2020</copyright><lastBuildDate>Mon, 27 Jul 2020 10:15:03 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Toolkit and Recommendations</title><link>/recommendations/</link><pubDate>Mon, 27 Jul 2020 20:03:03 -0500</pubDate><guid>/recommendations/</guid><description>
+&lt;h2 id="whats-in-simeononsecuritys-toolkit">What&amp;rsquo;s in SimeonOnSecurity&amp;rsquo;s toolkit?&lt;/h2>
+&lt;h3 id="book-recommendations">Book Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3g4BrxG">Extreme Privacy - Michael Bazzell&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/39zbWlV">Open Source Intelligence Techniques - Michael Bazzell&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3hFK7eo">CCNA Routing and Switching Portable Command Guide - Scott Empson&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3hE5Tzd">Practical Network Automation - Abhishek Ratan&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/332hwfo">Practical Ansible 2 - Daniel Oh&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2BBC3fp">Red Team Field Manual - Ben Clark&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/30Z5il4">Blue Team Field Manual - Alan J White&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2D6F47L">The Hacker Playbook 3 - Peter Kim&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="vpn-recommendations">VPN Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://mullvad.net/en/">Mullvad VPN&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://protonvpn.com/">ProtonVPN&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="email-providers">EMail Providers:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://protonmail.com/">ProtonMail&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tutanota.com/">Tutanota&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="hackers-toolkit-recommendations">Hackers Toolkit Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2EqDyOx">CanaKit Raspberry Pi 4&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2P0W3uX">AURSINC WiFi Deauther Watch ESP8266&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/330FAPG">Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3fcHWxq">GlobalSat BU-353-S4 USB GPS Receiver&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3g83cFx">Proxmark3 V3.0 ID DEV Kits M1&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2OXVj9Q">HackRF One&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/302Egd9">RTL-SDR RTL2832U&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/39vChkK">BaoFeng BF-F8HP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3g5PTFV">GL.iNet GL-AR750S-Ext&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2X1S2KZ">Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2OXAxHw">YubiKey 5 NFC&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/30RFE1x">GoTrust Idem Card - FIDO2 &amp;amp; U2F BLE and NFC Security Key&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="standalone-microphone-recommendations">Standalone Microphone Recommendations:&lt;/h3>
+&lt;p>Below $100&lt;/p>
+&lt;ul>
+&lt;li>$80 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Below $500&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$200 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a>+ &lt;a href="https://amzn.to/2ux8kA6">Focusrite Scarlett Solo (3rd Gen)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$325 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a> + &lt;a href="https://amzn.to/37oB6BC">GoXLR Mini&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Below $1500&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$1300 | &lt;a href="https://amzn.to/36m9Gel">Shure SM7B Cardioid Dynamic Microphone&lt;/a> + &lt;a href="https://amzn.to/2tFgUwY">RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a> + &lt;a href="https://amzn.to/2TUBi7W">Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a> + &lt;a href="https://amzn.to/2tOcQdF">GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$1400 | &lt;a href="https://amzn.to/37s5uep">Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D&lt;/a> + &lt;a href="https://amzn.to/36mRhxV">Electro-Voice 309A&lt;/a> + &lt;a href="https://amzn.to/2tFgUwY">RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a> + &lt;a href="https://amzn.to/2TUBi7W">Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a> + &lt;a href="https://amzn.to/2tOcQdF">GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="headset-recommendations">Headset Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>Preferably purchased with a headphone DAC like the &lt;a href="https://amzn.to/312xdQJ">FiiO E10K&lt;/a> or &lt;a href="https://amzn.to/2uzpo8B">FiiO K3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Below $100&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$50 | &lt;a href="https://amzn.to/2TVE252">Audio-Technica ATH M20x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$70 | &lt;a href="https://amzn.to/3aGF2Qs">Audio-Technica ATH M30x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$99 | &lt;a href="https://amzn.to/2RMkYDv">Audio-Technica ATH M40x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$65 | &lt;a href="https://amzn.to/2RngkNb">Philips SHP9500&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>$100-$300&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$149 | &lt;a href="https://amzn.to/2GozWu9">Audio-Technica ATH M50x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$145 | &lt;a href="https://amzn.to/2GozWu9">Philips Audio Fidelio X2HR&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$149 | &lt;a href="https://amzn.to/30P8jDY">beyerdynamic DT 770 PRO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$149 | &lt;a href="https://amzn.to/37r9SdI">beyerdynamic DT 990 PRO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$299 | &lt;a href="https://amzn.to/30QLDDj">Sennheiser HD 600&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="webcam-recommendations">Webcam Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>$99 | &lt;a href="https://amzn.to/37P4FMN">Logitech C922x Pro Stream Webcam&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$160 | &lt;a href="https://amzn.to/2uQPjcn">Logitech BRIO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$170 | &lt;a href="https://amzn.to/2SQUWAA">Logitech StreamCam&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Hardening Apache Web Server</title><link>/posts/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate><guid>/posts/hardening-apache/</guid><description>
+&lt;h3 id="a-collection-of-example-configurations-and-scripts-to-aid-system-administrators-in-hardening-apache-web-servers">A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.&lt;/h3>
+&lt;p>Apache, out of the box, is surprisingly insecure. Many best practices and security configurations have to be configured manually before rolling Apache out in a production environment. You may use this GitHub repository as a starting point towards securing your Apache instances.&lt;/p>
+&lt;h2 id="installing-modsecurity-with-owasp-core-rule-set">Installing ModSecurity with OWASP Core Rule Set&lt;/h2>
+&lt;h3 id="step-1-update-repositories">Step 1: Update Repositories&lt;/h3>
+&lt;p>&lt;strong>On Ubuntu/ Debian:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo apt-get update -y
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>On CentOS/RHEL:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo yum update -y
+&lt;/code>&lt;/pre>&lt;h3 id="step-2-installing-modsecurity-for-apache">Step 2: Installing ModSecurity for Apache&lt;/h3>
+&lt;p>&lt;strong>On Ubuntu/ Debian:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo apt-get install -y libapache2-modsecurity
+sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>On CentOS/RHEL:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo yum install -y mod_security
+sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-3-configure-modsecurity">Step 3: Configure ModSecurity&lt;/h3>
+&lt;p>ModSecurity by default is only configured to log events from the default rules. We&amp;rsquo;ll have to edit the configuration file to modify the rules to detect and block malicious traffic.&lt;/p>
+&lt;p>&lt;strong>Copy and rename the file:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo cp /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Change the ModSecurity detection mode by editing the configuration file:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo nano /etc/modsecurity/modsecurity.conf
+&lt;/code>&lt;/pre>&lt;p>Change &amp;ldquo;DetectionOnly&amp;rdquo; to &amp;ldquo;On&amp;rdquo;&lt;/p>
+&lt;pre>&lt;code>SecRuleEngine DetectionOnly
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>SecRuleEngine On
+&lt;/code>&lt;/pre>&lt;p>If you&amp;rsquo;re using nano you may hit &lt;strong>CTRL+X&lt;/strong>, then &lt;strong>Y&lt;/strong> and &lt;strong>Enter&lt;/strong> to save and exit.&lt;/p>
+&lt;p>&lt;strong>Restart Apache&lt;/strong>&lt;/p>
+&lt;p>On Ubuntu\ Debian:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>On CentOS\ RHEL:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-4-downloading-and-installing-owasp-modsecurity-core-rule-set">Step 4: Downloading and Installing OWASP ModSecurity Core Rule Set&lt;/h3>
+&lt;pre>&lt;code>cd /apache/conf
+wget https://github.com/coreruleset/coreruleset/archive/v3.3.0.tar.gz
+tar -xvzf v3.3.0.tar.gz
+sudo ln -s coreruleset-3.3.0 /apache/conf/crs
+cp crs/crs-setup.conf.example crs/crs-setup.conf
+rm v3.3.0.tar.gz
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Restart Apache&lt;/strong>&lt;/p>
+&lt;p>On Ubuntu\ Debian:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>On CentOS\ RHEL:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-5-additional-reading-material">Step 5: Additional Reading Material&lt;/h3>
+&lt;p>&lt;strong>Additional installation instructions:&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://owasp.org/www-project-modsecurity-core-rule-set/">Install OWASP ModSecurity Core Rule Set&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://phoenixnap.com/kb/setup-configure-modsecurity-on-apache">Install ModSecurity&lt;/a>&lt;/p>
+&lt;h2 id="ssl-certificates">SSL Certificates&lt;/h2>
+&lt;h3 id="self-signed">Self Signed&lt;/h3>
+&lt;p>Following the instructions from &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04">Digital Ocean&lt;/a>&lt;/p>
+&lt;p>For this tutorial, I&amp;rsquo;m assuming you&amp;rsquo;re going to be using the &lt;strong>example.com.conf&lt;/strong> file from the repository.&lt;/p>
+&lt;h4 id="step-1-create-the-ssl-certificate">Step 1: Create the SSL certificate&lt;/h4>
+&lt;pre>&lt;code>sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Fill out the prompts appropriately. The most important line is the one that requests the Common Name (e.g. server FQDN or YOUR name). You need to enter the domain name associated with your server or, more likely, your server’s public IP address.&lt;/strong>
+If using for the IP access only certificate in the example.com.conf please use &lt;strong>&amp;ldquo;NA&amp;rdquo;&lt;/strong> for all values where posible.&lt;/p>
+&lt;h4 id="perfect-forward-secrecy-configuration">Perfect Forward Secrecy Configuration&lt;/h4>
+&lt;pre>&lt;code>sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+&lt;/code>&lt;/pre>&lt;h3 id="automate-with-letsencrypt-and-certbot">Automate with LetsEncrypt and Certbot&lt;/h3>
+&lt;p>Following the tutorial from &lt;a href="https://certbot.eff.org/lets-encrypt/ubuntubionic-apache.html">Certbot&lt;/a>&lt;/p>
+&lt;h4 id="step-1-install-certbot">Step 1: Install Certbot&lt;/h4>
+&lt;pre>&lt;code>sudo apt-get update -y
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install -y certbot python3-certbot-apache
+&lt;/code>&lt;/pre>&lt;h3 id="step-2-choose-how-youd-like-to-run-certbot">Step 2: Choose how you&amp;rsquo;d like to run Certbot&lt;/h3>
+&lt;h5 id="either-get-and-install-your-certificates">Either get and install your certificates&amp;hellip;&lt;/h5>
+&lt;pre>&lt;code>sudo certbot --apache
+&lt;/code>&lt;/pre>&lt;h5 id="or-just-get-a-certificate">Or, just get a certificate&lt;/h5>
+&lt;pre>&lt;code>sudo certbot certonly --apache
+&lt;/code>&lt;/pre>&lt;h4 id="step-3-test-automatic-renewal">Step 3: Test automatic renewal&lt;/h4>
+&lt;pre>&lt;code>sudo certbot renew --dry-run
+&lt;/code>&lt;/pre></description></item><item><title>CVE-2020-1350 KB4569509 DNS Server Vulnerability</title><link>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</link><pubDate>Sat, 25 Jul 2020 21:09:37 -0500</pubDate><guid>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</guid><description>
+&lt;h1 id="kb4569509-guidance-for-dns-server-vulnerability-cve-2020-1350httpssupportmicrosoftcomen-ushelp4569509windows-dns-server-remote-code-execution-vulnerability">&lt;a href="https://support.microsoft.com/en-us/help/4569509/windows-dns-server-remote-code-execution-vulnerability">KB4569509: Guidance for DNS Server Vulnerability CVE-2020-1350&lt;/a>&lt;/h1>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>On July 14, 2020, Microsoft released a security update for the issue that is described in CVE-2020-1350 | Windows DNS Server Remote Code Execution Vulnerability. This advisory describes a Critical Remote Code Execution (RCE) vulnerability that affects Windows servers that are configured to run the DNS Server role. We strongly recommend that server administrators apply the security update at their earliest convenience.&lt;/p>
+&lt;p>A registry-based workaround can be used to help protect an affected Windows server, and it can be implemented without requiring an administrator to restart the server. Because of the volatility of this vulnerability, administrators may have to implement the workaround before they apply the security update in order to enable them to update their systems by using a standard deployment cadence.&lt;/p>
+&lt;h2 id="workaround">Workaround&lt;/h2>
+&lt;p>&lt;strong>Optional:&lt;/strong> Download the workaround script from the &lt;a href="https://github.com/simeononsecurity/CVE-2020-1350-Fix">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>To work around this vulnerability, make the following registry change to restrict the size of the largest inbound TCP-based DNS response packet that&amp;rsquo;s allowed:&lt;/p>
+&lt;p>Subkey: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters&lt;/p>
+&lt;p>Value: TcpReceivePacketSize&lt;/p>
+&lt;p>Type: DWORD&lt;/p>
+&lt;p>Value data: 0xFF00&lt;/p>
+&lt;p>&lt;strong>Notes:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>The default (also maximum) Value data = 0xFFFF.
+The recommended Value data = 0xFF00 (255 bytes less than the maximum).
+You must restart the DNS Service for the registry change to take effect. To do this, run the following command at an elevated command prompt:
+&lt;/code>&lt;/pre>
+&lt;p>          &lt;code>net stop dns &amp;amp;&amp;amp; net start dns&lt;/code>&lt;/p>
+&lt;h2 id="important-information-about-this-workaround">Important information about this workaround&lt;/h2>
+&lt;p>TCP-based DNS response packets that exceed the recommended value will be dropped without error. Therefore, it is possible that some queries might not be answered. This could cause an unanticipated failure. A DNS server will be negatively impacted by this workaround only if it receives valid TCP responses that are greater than allowed in the previous mitigation (more than 65,280 bytes).&lt;/p>
+&lt;p>The reduced value is unlikely to affect standard deployments or recursive queries. However, a non-standard use-case may exist in a given environment. To determine whether the server implementation will be adversely affected by this workaround, you should enable diagnostic logging, and capture a sample set that is representative of your typical business flow. Then, you will have to review the log files to identify the presence of anomalously large TCP response packets&lt;/p>
+&lt;p>For more information, see &lt;a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800669%28v=ws.11%29">DNS Logging and Diagnostics&lt;/a>.&lt;/p></description></item><item><title>About</title><link>/about/</link><pubDate>Sat, 25 Jul 2020 19:47:00 -0500</pubDate><guid>/about/</guid><description>
+&lt;h2 id="contact-details">Contact Details&lt;/h2>
+&lt;p>      SimeonOnSecurity does not have publically available contact details at this time.
+You may follow our &lt;a href="https://simeononsecurity.com/sitemap.xml">RSS feed&lt;/a> or our &lt;a href="https://github.com/simeononsecurity">GitHub&lt;/a> at this time.&lt;/p>
+&lt;h2 id="what-is-simeononsecurity">What is SimeonOnSecurity?&lt;/h2>
+&lt;p>     SimeonOnSecurity (SOS) is a security and automation blog that&amp;rsquo;s goal is to bring you all the behind the scenes technical content not normally found online. This blog serves as Simeon&amp;rsquo;s show of work and his all around enthusiasm for the field.&lt;/p>
+&lt;h2 id="who-is-simeon">Who is Simeon?&lt;/h2>
+&lt;p>     Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is a tinkerer, a hobbiest, and all around geek and nerd. Simeon got his first start working with a laptop that couldn&amp;rsquo;t even run Windows XP stably at the age of 12. Troubleshooting and fixing issues as they arrised, Simeon couldn&amp;rsquo;t get enough. Years later, Simeon now has an in home datacenter and lab that rivels most small businesses compute and storage power.&lt;/p></description></item><item><title>Brave ADMX Templates</title><link>/posts/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:39 -0500</pubDate><guid>/posts/brave-admx-templates/</guid><description>
+&lt;h1 id="braveadmx">BraveADMX&lt;/h1>
+&lt;p>Proper ADMX Templates for the Brave Browser&lt;/p>
+&lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/BraveADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Modified Google Chrome Policy Definitions according to:
+&lt;a href="https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy">Brave Group Policy&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong>
+Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;&lt;/p>
+&lt;h2 id="how-to-install">How to install&lt;/h2>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
+2.) Profit?&lt;/p></description></item><item><title>Chromium ADMX Templates</title><link>/posts/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/posts/chromium-admx-templates/</guid><description>
+&lt;h1 id="chromiumadmx">ChromiumADMX&lt;/h1>
+&lt;p>Proper ADMX Template for the Chromium Browser&lt;/p>
+&lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/ChromiumADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Modified Google Chrome Policy Definitions according to:
+&lt;a href="https://www.chromium.org/administrators/policy-templates">Chromium Policy Templates&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong>
+Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p>
+&lt;h2 id="how-to-install">How to install&lt;/h2>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
+2.) Profit?&lt;/p></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+&lt;h1 id="optimizing-and-hardening-windows-10-deployments">Optimizing and Hardening Windows 10 Deployments&lt;/h1>
+&lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Windows 10 is an invasive and insecure operating system out of the box.
+Organizations like &lt;a href="https://PrivacyTools.io">PrivacyTools.io&lt;/a>, &lt;a href="https://microsoft.com">Microsoft&lt;/a>, &lt;a href="https://public.cyber.mil">Cyber.mil&lt;/a>, the &lt;a href="https://dod.gov">Department of Defense&lt;/a>, and the &lt;a href="https://www.nsa.gov/">National Security Agency&lt;/a> have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.&lt;/p>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure">Standards&lt;/a> for a highly secure Windows 10 device&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Latest &lt;a href="https://www.microsoft.com/en-us/software-download/windows10">Windows 10 stable version&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> System is &lt;a href="https://support.microsoft.com/en-gb/help/4027667/windows-10-update">fully up to date&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> (default activated) internal Windows Defender protection instead of external &amp;ldquo;Security&amp;rdquo; solutions&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Latest Driver and Program updates&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> No &amp;ldquo;Tuning&amp;rdquo; tools&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Only necessary tools which you realy need&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-secure-launch-and-smm-protection#requirements-met-by-system-guard-enabled-machines">Hardware Requirements&lt;/a> for &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows">System Guard&lt;/a> / &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-hardware-based-isolation">Hardware-based Isolation&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/requirements-and-deployment-planning-guidelines-for-virtualization-based-protection-of-code-integrity#baseline-protections">Hardware Requirements&lt;/a> for &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/memory-integrity">Memory integrity&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/reqs-wd-app-guard">Hardware Requirements&lt;/a> for Windows &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview">Defender Application Guard&lt;/a> (WDAG)&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-requirements">Hardware Requirements&lt;/a> for Windows &lt;a href="https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-how-it-works">Defender Credential Guard&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="a-list-of-scripts-and-tools-this-collection-utilizes">A list of scripts and tools this collection utilizes:&lt;/h2>
+&lt;p>1.) &lt;a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0&lt;/a>&lt;/p>
+&lt;p>2.) &lt;a href="https://public.cyber.mil/stigs/gpo/">Cyber.mil - Group Policy Objects&lt;/a>&lt;/p>
+&lt;p>3.) &lt;a href="https://github.com/Sycnex/Windows10Debloater">Sycnex - Windows10Debloater&lt;/a>&lt;/p>
+&lt;p>4.) &lt;a href="https://github.com/TheVDIGuys/Windows_10_VDI_Optimize">TheVDIGuys - Windows 10 VDI Optimize&lt;/a>&lt;/p>
+&lt;p>5.) &lt;a href="https://github.com/builtbybel/sharpapp">Mirinsoft - SharpApp&lt;/a>&lt;/p>
+&lt;p>6.) &lt;a href="https://github.com/builtbybel/debotnet">Mirinsoft - debotnet&lt;/a>&lt;/p>
+&lt;p>7.) &lt;a href="https://github.com/nsacyber/BitLocker-Guidance">NSACyber - Bitlocker Guidance&lt;/a>&lt;/p>
+&lt;p>8.) &lt;a href="https://github.com/0x6d69636b/windows_hardening">0x6d69636b - Windows Hardening&lt;/a>&lt;/p>
+&lt;h2 id="additional-configurations-were-considered-from">Additional configurations were considered from:&lt;/h2>
+&lt;p>&lt;a href="https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance">NSACyber - Hardware-and-Firmware-Security-Guidance&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm">NSACyber - Application Whitelisting Using Microsoft AppLocker&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps">Whonix - Disable TCP Timestamps&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://kb.cert.org/vuls/id/573168/">CERT - IE Scripting Engine Memory Corruption&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/">Dirteam - SSL Hardening&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities">Microsoft - Specture and Meltdown Mitigations&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/privacy/">Microsoft - Windows 10 Privacy&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services">Microsoft - Managing Windows 10 Telemetry and Callbacks&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909">Microsoft - Windows 10 VDI Recomendations&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\W10-Optimize-and-Harden-master\installallstandalone.ps1
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Or with the optional executable&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\W10-Optimize-and-Harden-master\installallstandalone.exe
+&lt;/code>&lt;/pre>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>&lt;strong>In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>In order to enable the SSL Hardening you must uncomment the line below:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\Scripts\&amp;quot;Security, Hardening, and Mitigation&amp;quot;\&amp;quot;SSL Hardening Registries.ps1&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>The script we will be using is called &lt;strong>&amp;ldquo;installallstandalone.ps1&amp;rdquo;&lt;/strong> and its contents are:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
+#Windows 10 Defenter Exploit Guard Configuration File
+mkdir C:\temp\
+mkdir &amp;quot;C:\temp\Windows Defender&amp;quot;
+copy-item -Path .\Files\DOD_EP_V3.xml -Destination &amp;quot;C:\temp\Windows Defender&amp;quot; -Force -Recurse
+#Copy Policy Definitions for gpedit.msc
+copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions -Force -Recurse
+#Package Management Scripts
+#.\Scripts\&amp;quot;Package Management and Windows Updates&amp;quot;\installrsat.ps1
+.\Scripts\&amp;quot;Package Management and Windows Updates&amp;quot;\chocoautomatewindowsupdates.ps1
+#Security Scripts
+.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;disable tcp timestamps.bat&amp;quot;
+.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;IE Scripting Engine Memory Corruption.bat&amp;quot;
+.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;specture meltdown mitigations.bat&amp;quot;
+.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\HardeningKitty\soskitty.ps1
+#Security Scripts Testing Required
+#Only enable after testing in your environment
+#.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;SSL Hardening Registries.ps1&amp;quot;
+#Debloating Scripts
+#ONLY ENABLE IF ON VM
+#.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows 10 Debloater&amp;quot;\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows 10 telemetry.ps1&amp;quot;
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\ultimate performance mode.ps1
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\optimizevmvirtalization.ps1
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\startupcleantelem.ps1
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sharpapp\sharpappscripts.ps1
+.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\debotnet\debotnetscripts.ps1
+#GPO Configurations
+#Microsoft Security Baselines
+.\LGPO\LGPO.exe /g .\GPOs\Microsoft\&amp;quot;Windows 10 1909 Baseline&amp;quot;\GPOs
+.\LGPO\LGPO.exe /g .\GPOs\Microsoft\&amp;quot;Microsoft Edge v80&amp;quot;\GPOs
+.\LGPO\LGPO.exe /g .\GPOs\Microsoft\Office365-ProPlus-Sept2019-FINAL\GPOs
+#Cyber.mil GPOs
+.\LGPO\LGPO.exe /g .\GPOs\Cyber.mil
+#NSACyber GPOs
+.\LGPO\LGPO.exe /g .\GPOs\NSACyber\Computer
+#SIMEONONSECURITY GPOS
+.\LGPO\LGPO.exe /g .\GPOs\simeononsecurity
+&lt;/code>&lt;/pre></description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
+&lt;h1 id="automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts">Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts&lt;/h1>
+&lt;p>Download all supporting files from the &lt;a href="https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>     In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
+Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.&lt;/p>
+&lt;h2 id="how-to-set-up-the-shutdown-script">How to set up the shutdown script&lt;/h2>
+&lt;p>We have chosen to set it up as a shutdown script to avoid having to reboot twice.
+We will be following the tutorial from &lt;a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789190(v=ws.11)">Microsoft&lt;/a> to do this.&lt;/p>
+&lt;p>In the windows gui perform the following steps:&lt;/p>
+&lt;p>1.) Open the Local Group Policy Editor by hitting &lt;strong>&amp;ldquo;Win + R&amp;rdquo;&lt;/strong> and typing &lt;strong>&amp;ldquo;gpedit.msc&amp;rdquo;&lt;/strong> followed by &lt;strong>&amp;ldquo;Ctrl + Shift + Enter&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>2.) Navigate to Computer &lt;strong>Configuration\Windows Settings\Scripts (Startup/Shutdown).&lt;/strong>&lt;/p>
+&lt;p>3.) In the results pane, double-click Shutdown.&lt;/p>
+&lt;p>4.) Select the powershell tab&lt;/p>
+&lt;p>5.) In the Shutdown Properties dialog box, click Add.&lt;/p>
+&lt;p>6.) In the Script Name box, type the path to the script, or click Browse to search &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;rdquo; in the Netlogon shared folder on the domain controller.&lt;/p>
+&lt;p>7.) Reboot&lt;/p>
+&lt;p>8.) Profit?&lt;/p>
+&lt;p>Now in the future, all an administrator has to do is reboot the computer to perform windows updates.&lt;/p>
+&lt;p>The same steps can be performed in GPO to acomplish the same thing on multiple Windows machines at the same time.&lt;/p>
+&lt;h2 id="how-the-script-works">How the script works&lt;/h2>
+&lt;p>&lt;strong>The script we will be working with today titled &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;quot;:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n useFipsCompliantChecksums
+choco upgrade all
+choco install pswindowsupdate
+Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Get-WuInstall -AcceptAll -IgnoreReboot
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>From &lt;a href="https://chocolatey.org/install">Chocolatey&lt;/a>, the script below installs the Chocolatey package manager:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Folowed by a couple prefered Chocolatey configuration changes;&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n useFipsCompliantChecksums
+choco upgrade all
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Lastly we will install and run &lt;a href="https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4">PSWindowsUpdates&lt;/a> to install all of the available windows updates.&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco install pswindowsupdate
+Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Get-WuInstall -AcceptAll -IgnoreReboot
+&lt;/code>&lt;/pre></description></item></channel></rss>
