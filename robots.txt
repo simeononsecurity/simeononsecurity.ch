@@ -1,5 +1,5 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://simeononsecurity.ch/sitemap.xml
-Sitemap: https://simeononsecurity.com/sitemap.xml
+User-agent: *
+Disallow: 
+Crawl-delay: 120
+Sitemap: /sitemap.xml
+Sitemap: /index.xml

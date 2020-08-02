@@ -1,3 +1,6 @@
+[build]
+publish = "public"
+command = "hugo -D -E -F --gc --minify"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.

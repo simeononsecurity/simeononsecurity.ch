@@ -1,0 +1,122 @@
+languageCode = "en-us"
+title = "simeononsecurity"
+theme = "hellofriend"
+baseurl = "/"
+paginate = 5
+canonifyURLs = true
+disableAliases = true
+disableHugoGeneratorInject = true
+enableEmoji = true
+relativeURLs = true
+[caches]
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = 1
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = 1
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = 1
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = 1
+  [caches.modules]
+    dir = ":cacheDir/modules"
+    maxAge = 1
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = false
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      decimals = -1
+      keepCSS2 = true
+    [minify.tdewolff.html]
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+    [minify.tdewolff.json]
+    [minify.tdewolff.svg]
+      decimals = -1
+    [minify.tdewolff.xml]
+      keepWhitespace = false
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+
+  # Show reading time in minutes for posts
+  showReadingTime = true
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  rssFullText = true
+
+[languages]
+  [languages.en]
+    title = "simeononsecurity"
+    subtitle = "a security and automation blog"
+    keywords = "python python,compliance windows 10,cybersecurity hardening,automation hardening,python hardening,compliance compliance,compliance automation,automation compliance,compliance hardening,powershell security,windows 10 python,automation automation,automation windows 10,security hardening,windows 10 automation,powershell compliance,windows 10 powershell,security powershell,windows 10 cybersecurity,windows 10 hardening,automation python,security python,hardening powershell,compliance cybersecurity,cybersecurity security,python windows 10,windows 10 security,automation powershell,hardening compliance,security security,windows 10 compliance,hardening cybersecurity,powershell automation,security windows 10,python powershell,compliance powershell,powershell python,security cybersecurity,hardening windows 10,cybersecurity compliance,hardening python,hardening automation,security automation,powershell powershell,security compliance,hardening security,windows 10 windows 10,python compliance,powershell cybersecurity,compliance security,cybersecurity python,automation security,cybersecurity cybersecurity,compliance python,cybersecurity windows 10,cybersecurity powershell,python security,python cybersecurity,hardening hardening,automation cybersecurity,python automation,powershell windows 10,powershell hardening,cybersecurity automation,"
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Learn more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "simeononsecurity"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+	  [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+	  [[languages.en.menu.main]]
+        identifier = "Recommendations"
+        name = "Recommendations"
+        url = "/recommendations"
+	  [[languages.en.menu.main]]
+        identifier = "Sitemap"
+        name = "Sitemap"
+        url = "/sitemap.xml"		
+		
+    #  [[languages.en.menu.main]]
+    #    identifier = "showcase"
+    #    name = "Showcase"
+    #    url = "/showcase"
