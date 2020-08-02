@@ -1,0 +1,24 @@
+[build]
+publish = "public"
+command = "hugo -D -E -F --gc --minify"
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+  	Access-Control-Allow-Origin = "https://simeononsecurity.ch https://simeononsecurity.com" 
+	Cache-Control = "Public, no-transform, max-age=31536000"
+	Expect-Ct = "enforce, max-age=300, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
+	Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none', camera 'none', display-capture 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none; publickey-credentials-get 'none; usb 'none'; vr 'none'; wake-lock 'none'; xr-spatial-tracking 'none'"
+	Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+	Referrer-Policy	= "no-referrer"
+	X-DNS-Prefetch-Control = "off"
+	X-Content-Type-Options = "nosniff"
+	X-Frame-Options	= "DENY"
+	X-Robots-Tag  = "index,follow"
+	X-Xss-Protection = "1; mode=block"
+  	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src 'none'; upgrade-insecure-requests"
+	Server = "simeononsecurity"
+
+    
