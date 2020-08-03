@@ -387,7 +387,7 @@ You may follow our &lt;a href=&#34;https://simeononsecurity.com/sitemap.xml&#34;
 &lt;h2 id=&#34;what-is-simeononsecurity&#34;&gt;What is SimeonOnSecurity?&lt;/h2&gt;
 &lt;p&gt;     SimeonOnSecurity (SOS) is a security and automation blog that&amp;rsquo;s goal is to bring you all the behind the scenes technical content not normally found online. This blog serves as Simeon&amp;rsquo;s show of work and his all around enthusiasm for the field.&lt;/p&gt;
 &lt;h2 id=&#34;who-is-simeon&#34;&gt;Who is Simeon?&lt;/h2&gt;
-&lt;p&gt;     Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is  a tinkerer, a hobbiest, and all around geek and nerd. Simeon got his first start working with a laptop that couldn&amp;rsquo;t even run Windows XP stably at the age of 12. Troubleshooting and fixing issues as they arrised, Simeon couldn&amp;rsquo;t get enough. Years later, Simeon now has an in home datacenter and lab that rivels most small businesses compute and storage power.&lt;/p&gt;
+&lt;p&gt;     Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is a tinkerer, a hobbyist, and all around geek and nerd. Simeon got his first start working with a laptop that couldn&amp;rsquo;t even run Windows XP stably at the age of 12. Troubleshooting and fixing issues as they arised, Simeon couldn&amp;rsquo;t get enough. Years later, Simeon now has an in home data-center and lab that rivals most small businesses compute and storage power.&lt;/p&gt;
 
         
         </description>
@@ -466,41 +466,130 @@ Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo
         
         &lt;h1 id=&#34;optimizing-and-hardening-windows-10-deployments&#34;&gt;Optimizing and Hardening Windows 10 Deployments&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Download all the required files from the &lt;a href=&#34;https://github.com/smiltech/W10-Optimize-and-Harden&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 10 is an invasive and insecure operating system out of the box.
+&lt;p&gt;Windows 10 is an invasive and insecure operating system out of the box. 
 Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.io&lt;/a&gt;, &lt;a href=&#34;https://microsoft.com&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://public.cyber.mil&#34;&gt;Cyber.mil&lt;/a&gt;, the &lt;a href=&#34;https://dod.gov&#34;&gt;Department of Defense&lt;/a&gt;, and the &lt;a href=&#34;https://www.nsa.gov/&#34;&gt;National Security Agency&lt;/a&gt; have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.&lt;/p&gt;
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements:&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Windows 10 Professional or Windows 10 Enterprise (&lt;strong&gt;Prefered&lt;/strong&gt;)
+&lt;ul&gt;
+&lt;li&gt;Windows 10 Home does not allow for GPO configurations.&lt;/li&gt;
+&lt;li&gt;Windows 10 &amp;ldquo;N&amp;rdquo; Editions are not tested.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure&#34;&gt;Standards&lt;/a&gt; for a highly secure Windows 10 device&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Latest &lt;a href=&#34;https://www.microsoft.com/en-us/software-download/windows10&#34;&gt;Windows 10 stable version&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; System is &lt;a href=&#34;https://support.microsoft.com/en-gb/help/4027667/windows-10-update&#34;&gt;fully up to date&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; (default activated) internal Windows Defender protection instead of external &amp;ldquo;Security&amp;rdquo; solutions&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Latest Driver and Program updates&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; No &amp;ldquo;Tuning&amp;rdquo; tools&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Only necessary tools which you realy need&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-secure-launch-and-smm-protection#requirements-met-by-system-guard-enabled-machines&#34;&gt;Hardware Requirements&lt;/a&gt; for &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows&#34;&gt;System Guard&lt;/a&gt; / &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-hardware-based-isolation&#34;&gt;Hardware-based Isolation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/requirements-and-deployment-planning-guidelines-for-virtualization-based-protection-of-code-integrity#baseline-protections&#34;&gt;Hardware Requirements&lt;/a&gt; for &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/memory-integrity&#34;&gt;Memory integrity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/reqs-wd-app-guard&#34;&gt;Hardware Requirements&lt;/a&gt; for Windows &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview&#34;&gt;Defender Application Guard&lt;/a&gt; (WDAG)&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-requirements&#34;&gt;Hardware Requirements&lt;/a&gt; for Windows &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-how-it-works&#34;&gt;Defender Credential Guard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; System is &lt;a href=&#34;https://support.microsoft.com/en-gb/help/4027667/windows-10-update&#34;&gt;fully up to date&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently Windows 10 &lt;strong&gt;v1909&lt;/strong&gt; or &lt;strong&gt;v2004&lt;/strong&gt;. Run the &lt;a href=&#34;https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant&#34;&gt;Windows 10 Upgrade Assistant&lt;/a&gt; to be update and verify latest major release.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hardware Requirements
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/requirements-and-deployment-planning-guidelines-for-virtualization-based-protection-of-code-integrity#baseline-protections&#34;&gt;Hardware Requirements for Memory Integrity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/reqs-wd-app-guard&#34;&gt;Hardware Requirements for Windows Defender Application Guard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-requirements&#34;&gt;Hardware Requirements for Windows Defender Credential Guard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recommended-reading-material&#34;&gt;Recommended reading material:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-secure-launch-and-smm-protection#requirements-met-by-system-guard-enabled-machines&#34;&gt;System Guard Secure Launch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows&#34;&gt;System Guard Root of Trust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-hardware-based-isolation&#34;&gt;Hardware-based Isolation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/memory-integrity&#34;&gt;Memory integrity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview&#34;&gt;Windows Defender Application Guard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-how-it-works&#34;&gt;Windows Defender Credential Guard&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;a-list-of-scripts-and-tools-this-collection-utilizes&#34;&gt;A list of scripts and tools this collection utilizes:&lt;/h2&gt;
-&lt;p&gt;1.) &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=55319&#34;&gt;Microsoft Security Compliance Toolkit 1.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.) &lt;a href=&#34;https://public.cyber.mil/stigs/gpo/&#34;&gt;Cyber.mil - Group Policy Objects&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.) &lt;a href=&#34;https://github.com/Sycnex/Windows10Debloater&#34;&gt;Sycnex - Windows10Debloater&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.) &lt;a href=&#34;https://github.com/TheVDIGuys/Windows_10_VDI_Optimize&#34;&gt;TheVDIGuys - Windows 10 VDI Optimize&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;5.) &lt;a href=&#34;https://github.com/builtbybel/sharpapp&#34;&gt;Mirinsoft - SharpApp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;6.) &lt;a href=&#34;https://github.com/builtbybel/debotnet&#34;&gt;Mirinsoft - debotnet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;7.) &lt;a href=&#34;https://github.com/nsacyber/BitLocker-Guidance&#34;&gt;NSACyber - Bitlocker Guidance&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;8.) &lt;a href=&#34;https://github.com/0x6d69636b/windows_hardening&#34;&gt;0x6d69636b - Windows Hardening&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=55319&#34;&gt;Microsoft Security Compliance Toolkit 1.0&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://public.cyber.mil/stigs/gpo/&#34;&gt;Cyber.mil - Group Policy Objects&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Sycnex/Windows10Debloater&#34;&gt;Sycnex - Windows10Debloater&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/TheVDIGuys/Windows_10_VDI_Optimize&#34;&gt;TheVDIGuys - Windows 10 VDI Optimize&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/builtbybel/sharpapp&#34;&gt;Mirinsoft - SharpApp&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/builtbybel/debotnet&#34;&gt;Mirinsoft - debotnet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/nsacyber/BitLocker-Guidance&#34;&gt;NSACyber - Bitlocker Guidance&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/0x6d69636b/windows_hardening&#34;&gt;0x6d69636b - Windows Hardening&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;additional-configurations-were-considered-from&#34;&gt;Additional configurations were considered from:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance&#34;&gt;NSACyber - Hardware-and-Firmware-Security-Guidance&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm&#34;&gt;NSACyber - Application Whitelisting Using Microsoft AppLocker&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps&#34;&gt;Whonix - Disable TCP Timestamps&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://kb.cert.org/vuls/id/573168/&#34;&gt;CERT - IE Scripting Engine Memory Corruption&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/&#34;&gt;Dirteam - SSL Hardening&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities&#34;&gt;Microsoft - Specture and Meltdown Mitigations&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/privacy/&#34;&gt;Microsoft - Windows 10 Privacy&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services&#34;&gt;Microsoft - Managing Windows 10 Telemetry and Callbacks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909&#34;&gt;Microsoft - Windows 10 VDI Recomendations&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;stigssrgs-applied&#34;&gt;STIGS/SRGs Applied:&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;*&amp;rdquo; = Loosely Applied&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip&#34;&gt;Windows 10 V1R23&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip&#34;&gt;Windows Defender Antivirus V1R9&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip&#34;&gt;Windows Firewall V1R7&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip&#34;&gt;Internet Explorer 11 V1R19&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip&#34;&gt;Google Chrome V1R19&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip&#34;&gt;Firefox V4R29*&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip&#34;&gt;Adobe Reader Pro DC Continous V1R2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Office_365_ProPlus_V1R2_STIG.zip&#34;&gt;Microsoft Office 2019/Office 365 Pro Plus V1R2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_Microsoft_Office_2016_V1R2_Overview.pdf&#34;&gt;Microsoft Office 2016 V1R2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MicrosoftOffice2013_V1R5_Overview.zip&#34;&gt;Microsoft Office 2013 V1R5&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;how-to-run-the-script&#34;&gt;How to run the script&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;The script may be lauched from the extracted GitHub download like this:&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;.\W10-Optimize-and-Harden-master\installallstandalone.ps1
@@ -515,15 +604,13 @@ Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;The script we will be using is called &lt;strong&gt;&amp;ldquo;installallstandalone.ps1&amp;rdquo;&lt;/strong&gt; and its contents are:&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
-
+$ErrorActionPreference= &#39;silentlycontinue&#39;
 
 #Windows 10 Defenter Exploit Guard Configuration File
-mkdir C:\temp\
-mkdir &amp;quot;C:\temp\Windows Defender&amp;quot;
-copy-item -Path .\Files\DOD_EP_V3.xml -Destination &amp;quot;C:\temp\Windows Defender&amp;quot; -Force -Recurse
+start-job -ScriptBlock {mkdir C:\temp\; mkdir &amp;quot;C:\temp\Windows Defender&amp;quot;; copy-item -Path .\Files\DOD_EP_V3.xml -Destination &amp;quot;C:\temp\Windows Defender&amp;quot; -Force -Recurse -ErrorAction SilentlyContinue}
 
 #Copy  Policy Definitions for gpedit.msc
-copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions -Force -Recurse
+start-job -ScriptBlock {copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions -Force -Recurse -ErrorAction SilentlyContinue}
 
 #Package Management Scripts
 #.\Scripts\&amp;quot;Package Management and Windows Updates&amp;quot;\installrsat.ps1
@@ -534,6 +621,7 @@ copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions 
 .\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;IE Scripting Engine Memory Corruption.bat&amp;quot;
 .\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;specture meltdown mitigations.bat&amp;quot;
 .\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\HardeningKitty\soskitty.ps1
+.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\FireFoxConfInstall.ps1
 
 #Security Scripts Testing Required
 #Only enable after testing in your environment
