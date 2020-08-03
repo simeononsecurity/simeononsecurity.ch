@@ -13,4 +13,4 @@ You may follow our [RSS feed](https://simeononsecurity.com/sitemap.xml) or our [
 
 
 ## Who is Simeon?
-     Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is  a tinkerer, a hobbyist, and all around geek and nerd. Simeon got his first start working with a laptop that couldn't even run Windows XP stably at the age of 12. Troubleshooting and fixing issues as they arrised, Simeon couldn't get enough. Years later, Simeon now has an in home datacenter and lab that rivels most small businesses compute and storage power. 
+     Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is a tinkerer, a hobbyist, and all around geek and nerd. Simeon got his first start working with a laptop that couldn't even run Windows XP stably at the age of 12. Troubleshooting and fixing issues as they arised, Simeon couldn't get enough. Years later, Simeon now has an in home data-center and lab that rivals most small businesses compute and storage power.
