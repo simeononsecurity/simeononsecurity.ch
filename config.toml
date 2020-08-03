@@ -59,7 +59,7 @@ relativeURLs = true
   defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 2
 
   # Show reading time in minutes for posts
   showReadingTime = true
