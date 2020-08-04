@@ -5,6 +5,8 @@ draft: false
 ---
 # Optimizing and Hardening Windows 10 Deployments
 
+**75% Works offline. Working to make it fully independent from internet connections** 
+
 **Download all the required files from the [GitHub Repository](https://github.com/smiltech/W10-Optimize-and-Harden)**
 
 Windows 10 is an invasive and insecure operating system out of the box. 
@@ -70,8 +72,6 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 
 
 ## STIGS/SRGs Applied:
-
-"*" = Loosely Applied
  
 - [Windows 10 V1R23](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip)
 
@@ -83,7 +83,7 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 
 - [Google Chrome V1R19](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip)
 
-- [Firefox V4R29*](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip)
+- [Firefox V4R29*](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip) - **WIP**
 
 - [Adobe Reader Pro DC Continous V1R2](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip)
 
@@ -99,11 +99,6 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 **The script may be lauched from the extracted GitHub download like this:**
 ```
 .\W10-Optimize-and-Harden-master\installallstandalone.ps1
-```
-**Or with the optional executable**
-
-```
-.\W10-Optimize-and-Harden-master\installallstandalone.exe
 ```
 The script we will be using must be launched from the directory containing all the other files from the [GitHub Repository](https://github.com/smiltech/W10-Optimize-and-Harden)
 
@@ -124,6 +119,9 @@ The script we will be using must be launched from the directory containing all t
 ```
 ######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
 $ErrorActionPreference= 'silentlycontinue'
+
+#Unblock all files required for script
+start-job -ScriptBlock {ls *.ps*1 -recurse | Unblock-File}
 
 #Copy Files to Required Directories
 #Install PowerShell Modules
