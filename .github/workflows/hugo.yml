@@ -12,6 +12,14 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
       -
+        name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+        node-version: '10.x'   
+      - 
+      name: Install Dependencies
+      run: npm install
+      -
         name: Run Hugo
         uses: crazy-max/ghaction-hugo@v1
         with:
