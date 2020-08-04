@@ -16,7 +16,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.7'
-          check-latest: true 
       - 
         name: Install Dependencies
         run: npm install && npm i yarn && yarn
