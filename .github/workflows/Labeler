@@ -1,0 +1,7 @@
+- name: Labeler
+  uses: actions/labeler@v3-preview
+  with:
+    # The GITHUB_TOKEN secret
+    repo-token: # optional
+    # The path for the label configurations
+    configuration-path: # optional, default is .github/labeler.yml
