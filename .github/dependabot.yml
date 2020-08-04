@@ -9,3 +9,5 @@ updates:
     directory: "/themes/hellofriend/" # Location of package manifests
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 10
+    versioning-strategy: 10
