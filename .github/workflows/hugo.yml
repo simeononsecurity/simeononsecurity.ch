@@ -16,7 +16,7 @@ jobs:
         uses: crazy-max/ghaction-hugo@v1
         with:
           version: latest
-          extended: false
+          extended: true
           args: --cleanDestinationDir -D -E -F --gc --minify --verbose
       -
         name: Deploy to GitHub Pages
