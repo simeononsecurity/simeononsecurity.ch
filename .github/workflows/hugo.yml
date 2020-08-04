@@ -19,9 +19,7 @@ jobs:
           check-latest: true 
       - 
         name: Install Dependencies
-        run: npm install
-        run: npm i yarn
-        run: yarn
+        run: npm install && npm i yarn && yarn
       -
         name: Run Hugo
         uses: crazy-max/ghaction-hugo@v1
