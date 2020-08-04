@@ -17,8 +17,10 @@ jobs:
         with:
         node-version: '10.x'   
       - 
-      name: Install Dependencies
-      run: npm install
+        name: Install Dependencies
+        run: npm install
+        run: npm i yarn
+        run: yarn
       -
         name: Run Hugo
         uses: crazy-max/ghaction-hugo@v1
