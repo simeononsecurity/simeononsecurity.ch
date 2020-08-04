@@ -27,7 +27,7 @@
     "css-loader": "^1.0.1",
     "cssnano": "^4.1.8",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^2.10.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
