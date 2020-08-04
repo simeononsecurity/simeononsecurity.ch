@@ -32,7 +32,7 @@ jobs:
         if: success() && github.event_name != 'pull_request'
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: gh-pages
+          target_branch: master
           build_dir: public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
