@@ -5,20 +5,19 @@ draft: false
 ---
 # Optimizing and Hardening Windows 10 Deployments
 
-**Now Works offline.**
-
 **Download all the required files from the [GitHub Repository](https://github.com/smiltech/W10-Optimize-and-Harden)**
 
 Windows 10 is an invasive and insecure operating system out of the box. 
-Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.
+Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many physical attacks on a system.
 
 ## Requirements:
-- [X] Windows 10 Professional or Windows 10 Enterprise (**Prefered**)
+- [X] Windows 10 Enterprise (**Preferred**) or Windows 10 Professional
   - Windows 10 Home does not allow for GPO configurations. 
   - Windows 10 "N" Editions are not tested.
 - [x] [Standards](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure) for a highly secure Windows 10 device
 - [x] System is [fully up to date](https://support.microsoft.com/en-gb/help/4027667/windows-10-update)
-  - Currently Windows 10 **v1909** or **v2004**. Run the [Windows 10 Upgrade Assistant](https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant) to be update and verify latest major release.
+  - Currently Windows 10 **v1909** or **v2004**. 
+  - Run the [Windows 10 Upgrade Assistant](https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant) to be update and verify latest major release.
 - [X] Hardware Requirements
   - [Hardware Requirements for Memory Integrity](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/requirements-and-deployment-planning-guidelines-for-virtualization-based-protection-of-code-integrity#baseline-protections) 
   - [Hardware Requirements for Windows Defender Application Guard](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/reqs-wd-app-guard)
@@ -49,6 +48,10 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 - [NSACyber - Bitlocker Guidance](https://github.com/nsacyber/BitLocker-Guidance)
 
 - [0x6d69636b - Windows Hardening](https://github.com/0x6d69636b/windows_hardening)
+
+- [SysInternals - AccessChk](https://docs.microsoft.com/en-us/sysinternals/downloads/accesschk)
+
+- [W4H4WK - Debloat Windows 10](https://github.com/W4RH4WK/Debloat-Windows-10/tree/master/scripts)
 
 ## Additional configurations were considered from:
 
@@ -81,10 +84,6 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 
 - [Internet Explorer 11 V1R19](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip)
 
-- [Google Chrome V1R19](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip)
-
-- [Firefox V4R29*](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip) - **WIP**
-
 - [Adobe Reader Pro DC Continous V1R2](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip)
 
 - [Microsoft Office 2019/Office 365 Pro Plus V1R2](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Office_365_ProPlus_V1R2_STIG.zip)
@@ -93,6 +92,13 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 
 - [Microsoft Office 2013 V1R5](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MicrosoftOffice2013_V1R5_Overview.zip)
 
+- [Google Chrome V1R19](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip)
+
+- [Firefox V4R29](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip) - **WIP**
+
+- [Microsoft .Net Framework 4 V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip) - **WIP**
+
+- [Oracle JRE 8 V1R5](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip)
 
 ## How to run the script
 
@@ -101,6 +107,7 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 .\W10-Optimize-and-Harden-master\installallstandalone.ps1
 ```
 The script we will be using must be launched from the directory containing all the other files from the [GitHub Repository](https://github.com/smiltech/W10-Optimize-and-Harden)
+
 
 **In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:**
 ```
@@ -132,7 +139,7 @@ ls *.ps*1 -recurse | Unblock-File
 start-job -ScriptBlock {mkdir C:\temp\; mkdir "C:\temp\Windows Defender"; copy-item -Path .\Files\DOD_EP_V3.xml -Destination "C:\temp\Windows Defender" -Force -Recurse -ErrorAction SilentlyContinue} 
 
 #Install Required PSModules
-.\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
+.\Files\Scripts\"Package Management and Windows Updates"\sos-installpsmodules.ps1
 
 ##Install Latest Windows Updates
 start-script -ScriptBlock {Install-WindowsUpdate -MicrosoftUpdate -AcceptAll; Get-WuInstall -AcceptAll -IgnoreReboot; Get-WuInstall -AcceptAll -Install -IgnoreReboot}
@@ -147,6 +154,7 @@ start-script -ScriptBlock {Install-WindowsUpdate -MicrosoftUpdate -AcceptAll; Ge
 .\Files\Scripts\"Security, Hardening, and Mitigations"\sos-IE-Scripting-Engine-Memory-Corruption.bat
 .\Files\Scripts\"Security, Hardening, and Mitigations"\sos-specture-meltdown-mitigations.bat
 .\Files\Scripts\"Security, Hardening, and Mitigations"\sos-FireFoxConfInstall.ps1
+.\Files\Scripts\"Security, Hardening, and Mitigations"\sos-install-java-config.ps1
 .\Files\Scripts\"Security, Hardening, and Mitigations"\HardeningKitty\sos-kitty.ps1
 
 #Debloating Scripts
@@ -170,6 +178,4 @@ start-script -ScriptBlock {Install-WindowsUpdate -MicrosoftUpdate -AcceptAll; Ge
 #SIMEONONSECURITY GPOS
 .\Files\LGPO\LGPO.exe /g .\Files\GPOs\simeononsecurity
 ```
-
-
 
