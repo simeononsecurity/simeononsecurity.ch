@@ -9,10 +9,47 @@
     <description>Recent content on simeononsecurity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2020 10:15:03 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 21:54:53 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Oracle Jre 8 Stig</title>
+      <link>/posts/oracle-jre-8-stig/</link>
+      <pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate>
+      
+      <guid>/posts/oracle-jre-8-stig/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;h1 id=&#34;automate-oracle-jre-8-stigs&#34;&gt;Automate Oracle JRE 8 STIGS&lt;/h1&gt;
+&lt;p&gt;Finally a script to apply the JRE 8 STIG. You&amp;rsquo;re Welcome ;).&lt;/p&gt;
+&lt;p&gt;Download the required files from the &lt;a href=&#34;https://github.com/simeononsecurity/JAVA-STIG-Script&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;stigssrgs-applied&#34;&gt;STIGS/SRGs Applied:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip&#34;&gt;Oracle JRE 8 V1R5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/MyITGuy/9628895&#34;&gt;MyITGuy - deployment.properties&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://stu.cbu.edu/java/docs/technotes/guides/deploy/properties.html&#34;&gt;cbu.edu - Java Technotes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-run-the-script&#34;&gt;How to run the script&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The script may be lauched from the extracted GitHub download like this:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.\sos-install-java-config.ps1
+&lt;/code&gt;&lt;/pre&gt;
+        
+        </description>
+    </item>
     
     <item>
       <title>Toolkit and Recommendations</title>
@@ -465,6 +502,7 @@ Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo
         
         
         &lt;h1 id=&#34;optimizing-and-hardening-windows-10-deployments&#34;&gt;Optimizing and Hardening Windows 10 Deployments&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Now Works offline.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Download all the required files from the &lt;a href=&#34;https://github.com/smiltech/W10-Optimize-and-Harden&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Windows 10 is an invasive and insecure operating system out of the box. 
 Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.io&lt;/a&gt;, &lt;a href=&#34;https://microsoft.com&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://public.cyber.mil&#34;&gt;Cyber.mil&lt;/a&gt;, the &lt;a href=&#34;https://dod.gov&#34;&gt;Department of Defense&lt;/a&gt;, and the &lt;a href=&#34;https://www.nsa.gov/&#34;&gt;National Security Agency&lt;/a&gt; have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.&lt;/p&gt;
@@ -557,7 +595,6 @@ Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;stigssrgs-applied&#34;&gt;STIGS/SRGs Applied:&lt;/h2&gt;
-&lt;p&gt;&amp;ldquo;*&amp;rdquo; = Loosely Applied&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip&#34;&gt;Windows 10 V1R23&lt;/a&gt;&lt;/p&gt;
@@ -575,7 +612,7 @@ Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.
 &lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip&#34;&gt;Google Chrome V1R19&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip&#34;&gt;Firefox V4R29*&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip&#34;&gt;Firefox V4R29*&lt;/a&gt; - &lt;strong&gt;WIP&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip&#34;&gt;Adobe Reader Pro DC Continous V1R2&lt;/a&gt;&lt;/p&gt;
@@ -593,63 +630,66 @@ Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.
 &lt;h2 id=&#34;how-to-run-the-script&#34;&gt;How to run the script&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;The script may be lauched from the extracted GitHub download like this:&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;.\W10-Optimize-and-Harden-master\installallstandalone.ps1
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Or with the optional executable&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\W10-Optimize-and-Harden-master\installallstandalone.exe
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The script we will be using must be launched from the directory containing all the other files from the &lt;a href=&#34;https://github.com/smiltech/W10-Optimize-and-Harden&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+&lt;pre&gt;&lt;code&gt;.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;In order to enable the SSL Hardening you must uncomment the line below:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\Scripts\&amp;quot;Security, Hardening, and Mitigation&amp;quot;\&amp;quot;SSL Hardening Registries.ps1&amp;quot;
+&lt;pre&gt;&lt;code&gt;.\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;The script we will be using is called &lt;strong&gt;&amp;ldquo;installallstandalone.ps1&amp;rdquo;&lt;/strong&gt; and its contents are:&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
+#Continue on error
 $ErrorActionPreference= &#39;silentlycontinue&#39;
 
+#Require elivation for script run
+Write-Output &amp;quot;Elevating priviledges for this process&amp;quot;
+do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
+
+#Unblock all files required for script
+ls *.ps*1 -recurse | Unblock-File
+
 #Windows 10 Defenter Exploit Guard Configuration File
-start-job -ScriptBlock {mkdir C:\temp\; mkdir &amp;quot;C:\temp\Windows Defender&amp;quot;; copy-item -Path .\Files\DOD_EP_V3.xml -Destination &amp;quot;C:\temp\Windows Defender&amp;quot; -Force -Recurse -ErrorAction SilentlyContinue}
+start-job -ScriptBlock {mkdir C:\temp\; mkdir &amp;quot;C:\temp\Windows Defender&amp;quot;; copy-item -Path .\Files\DOD_EP_V3.xml -Destination &amp;quot;C:\temp\Windows Defender&amp;quot; -Force -Recurse -ErrorAction SilentlyContinue} 
 
-#Copy  Policy Definitions for gpedit.msc
-start-job -ScriptBlock {copy-item -Path .\PolicyDefinitions\* -Destination C:\Windows\PolicyDefinitions -Force -Recurse -ErrorAction SilentlyContinue}
+#Install Required PSModules
+.\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
 
-#Package Management Scripts
-#.\Scripts\&amp;quot;Package Management and Windows Updates&amp;quot;\installrsat.ps1
-.\Scripts\&amp;quot;Package Management and Windows Updates&amp;quot;\chocoautomatewindowsupdates.ps1
+##Install Latest Windows Updates
+start-script -ScriptBlock {Install-WindowsUpdate -MicrosoftUpdate -AcceptAll; Get-WuInstall -AcceptAll -IgnoreReboot; Get-WuInstall -AcceptAll -Install -IgnoreReboot}
+
+#Optional Scripts 
+#.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-ssl-hardening.ps1
+#.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
 
 #Security Scripts
-.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;disable tcp timestamps.bat&amp;quot;
-.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;IE Scripting Engine Memory Corruption.bat&amp;quot;
-.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;specture meltdown mitigations.bat&amp;quot;
-.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\HardeningKitty\soskitty.ps1
-.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\FireFoxConfInstall.ps1
-
-#Security Scripts Testing Required
-#Only enable after testing in your environment
-#.\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\&amp;quot;SSL Hardening Registries.ps1&amp;quot;
+.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-installadmxtemplates.ps1
+.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-disable-tcp-timestamps.bat
+.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-IE-Scripting-Engine-Memory-Corruption.bat
+.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-specture-meltdown-mitigations.bat
+.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-FireFoxConfInstall.ps1
+.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\HardeningKitty\sos-kitty.ps1
 
 #Debloating Scripts
-
-#ONLY ENABLE IF ON VM
-#.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
-
-.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows 10 Debloater&amp;quot;\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
-.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;ultimate performance mode.ps1&amp;quot;
-.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\optimizevmvirtalization.ps1
-.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\startupcleantelem.ps1
-.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sharpapp\sharpappscripts.ps1
-.\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\debotnet\debotnetscripts.ps1
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows 10 Debloater&amp;quot;\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sos-ultimate-performance-mode.ps1
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sos-optimizevmvirtalization.ps1
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sos-startupcleantelem.ps1
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sharpapp\sos-sharpappscripts.ps1
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\debotnet\sos-debotnetscripts.ps1
+.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\W4H4Wk\sos-w4h4wk.ps1
 
 #GPO Configurations
 #Microsoft Security Baselines
-.\LGPO\LGPO.exe /g .\GPOs\Microsoft\&amp;quot;Windows 10 1909 Baseline&amp;quot;\GPOs
-.\LGPO\LGPO.exe /g .\GPOs\Microsoft\&amp;quot;Microsoft Edge v80&amp;quot;\GPOs
-.\LGPO\LGPO.exe /g .\GPOs\Microsoft\Office365-ProPlus-Sept2019-FINAL\GPOs
+.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Microsoft\&amp;quot;Windows 10 1909 Baseline&amp;quot;\GPOs
+.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Microsoft\&amp;quot;Microsoft Edge v80&amp;quot;\GPOs
+.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Microsoft\Office365-ProPlus-Sept2019-FINAL\GPOs
 #Cyber.mil GPOs
-.\LGPO\LGPO.exe /g .\GPOs\Cyber.mil
+.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Cyber.mil
 #NSACyber GPOs
-.\LGPO\LGPO.exe /g .\GPOs\NSACyber\Computer
+.\Files\LGPO\LGPO.exe /g .\Files\GPOs\NSACyber\Computer
 #SIMEONONSECURITY GPOS
-.\LGPO\LGPO.exe /g .\GPOs\simeononsecurity
+.\Files\LGPO\LGPO.exe /g .\Files\GPOs\simeononsecurity
 &lt;/code&gt;&lt;/pre&gt;
         
         </description>
