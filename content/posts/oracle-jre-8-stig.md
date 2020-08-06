@@ -1,7 +1,7 @@
 ---
-title: "Oracle Jre 8 Stig"
+title: "Automating Oracle JRE 8 STIG"
 date: 2020-08-05T21:54:53-05:00
-draft: true
+draft: false
 ---
 
 # Automate Oracle JRE 8 STIGS
