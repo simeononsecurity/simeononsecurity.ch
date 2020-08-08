@@ -104,6 +104,10 @@ relativeURLs = true
         name = "Posts"
         url = "/posts"
 	  [[languages.en.menu.main]]
+        identifier = "Recommendations"
+        name = "Recommendations"
+        url = "/recommendations"
+	  [[languages.en.menu.main]]
         identifier = "Contact Us"
         name = "Contact Us"
         url = "/contactus"
@@ -111,10 +115,6 @@ relativeURLs = true
         identifier = "about"
         name = "About"
         url = "/about"
-	  [[languages.en.menu.main]]
-        identifier = "Recommendations"
-        name = "Recommendations"
-        url = "/recommendations"
 	  [[languages.en.menu.main]]
         identifier = "Privacy"
         name = "Privacy"
