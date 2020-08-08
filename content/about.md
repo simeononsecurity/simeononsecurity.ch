@@ -4,10 +4,6 @@ date: 2020-07-25T19:47:00-05:00
 draft: false
 ---
 
-## Contact Details
-      SimeonOnSecurity does not have publically available contact details at this time.
-You may follow our [RSS feed](https://simeononsecurity.com/sitemap.xml) or our [GitHub](https://github.com/simeononsecurity) at this time.
-
 ## What is SimeonOnSecurity?
      SimeonOnSecurity (SOS) is a security and automation blog that's goal is to bring you all the behind the scenes technical content not normally found online. This blog serves as Simeon's show of work and his all around enthusiasm for the field.
 
