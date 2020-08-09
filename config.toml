@@ -24,31 +24,6 @@ relativeURLs = true
   [caches.modules]
     dir = ":cacheDir/modules"
     maxAge = 1
-[minify]
-  disableCSS = false
-  disableHTML = false
-  disableJS = false
-  disableJSON = false
-  disableSVG = false
-  disableXML = false
-  minifyOutput = false
-  [minify.tdewolff]
-    [minify.tdewolff.css]
-      decimals = -1
-      keepCSS2 = true
-    [minify.tdewolff.html]
-      keepConditionalComments = true
-      keepDefaultAttrVals = true
-      keepDocumentTags = true
-      keepEndTags = true
-      keepQuotes = false
-      keepWhitespace = false
-    [minify.tdewolff.js]
-    [minify.tdewolff.json]
-    [minify.tdewolff.svg]
-      decimals = -1
-    [minify.tdewolff.xml]
-      keepWhitespace = false
 
 [params]
   # dir name of your blog content (default is `content/posts`).
@@ -107,14 +82,14 @@ relativeURLs = true
         identifier = "Recommendations"
         name = "Recommendations"
         url = "/recommendations"
-	  [[languages.en.menu.main]]
-        identifier = "Contact Us"
-        name = "Contact Us"
-        url = "/contactus"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+	  [[languages.en.menu.main]]
+        identifier = "Contact Us"
+        name = "Contact Us"
+        url = "/contactus"
 	  [[languages.en.menu.main]]
         identifier = "Privacy"
         name = "Privacy"
