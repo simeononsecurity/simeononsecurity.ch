@@ -1,400 +1,425 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>simeononsecurity</title>
-    
-    
-    
-    <link>/</link>
-    <description>Recent content on simeononsecurity</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2020 21:54:53 -0500</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Oracle Jre 8 Stig</title>
-      <link>/posts/oracle-jre-8-stig/</link>
-      <pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate>
-      
-      <guid>/posts/oracle-jre-8-stig/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h1 id=&#34;automate-oracle-jre-8-stigs&#34;&gt;Automate Oracle JRE 8 STIGS&lt;/h1&gt;
-&lt;p&gt;Finally a script to apply the JRE 8 STIG. You&amp;rsquo;re Welcome ;).&lt;/p&gt;
-&lt;p&gt;Download the required files from the &lt;a href=&#34;https://github.com/simeononsecurity/JAVA-STIG-Script&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;stigssrgs-applied&#34;&gt;STIGS/SRGs Applied:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip&#34;&gt;Oracle JRE 8 V1R5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;sources&#34;&gt;Sources:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/MyITGuy/9628895&#34;&gt;MyITGuy - deployment.properties&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://stu.cbu.edu/java/docs/technotes/guides/deploy/properties.html&#34;&gt;cbu.edu - Java Technotes&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;how-to-run-the-script&#34;&gt;How to run the script&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;The script may be lauched from the extracted GitHub download like this:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\sos-install-java-config.ps1
-&lt;/code&gt;&lt;/pre&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Toolkit and Recommendations</title>
-      <link>/recommendations/</link>
-      <pubDate>Mon, 27 Jul 2020 20:03:03 -0500</pubDate>
-      
-      <guid>/recommendations/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h2 id=&#34;whats-in-simeononsecuritys-toolkit&#34;&gt;What&amp;rsquo;s in SimeonOnSecurity&amp;rsquo;s toolkit?&lt;/h2&gt;
-&lt;h3 id=&#34;vpn-recommendations&#34;&gt;VPN Recommendations:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://mullvad.net/en/&#34;&gt;Mullvad VPN&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://protonvpn.com/&#34;&gt;ProtonVPN&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;email-providers&#34;&gt;EMail Providers:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://protonmail.com/&#34;&gt;ProtonMail&lt;/a&gt; - &lt;strong&gt;Prefered&lt;/strong&gt; - E2E Encrypted EMail&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tutanota.com/&#34;&gt;Tutanota&lt;/a&gt; - E2E Encrypted EMail&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;sipdid-providers&#34;&gt;SIP/DID Providers:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://voip.ms&#34;&gt;VOIP.MS&lt;/a&gt; - &lt;strong&gt;Prefered&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://mysudo.com/&#34;&gt;MySudo&lt;/a&gt; - &lt;strong&gt;Prefered&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://hangouts.google.com&#34;&gt;Google Hangouts&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;messengers-and-sms-providers&#34;&gt;Messengers and SMS Providers:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.signal.org/&#34;&gt;Signal&lt;/a&gt; - &lt;strong&gt;Prefered&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://wire.com/en/&#34;&gt;Wire&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://wickr.com/&#34;&gt;Wicker&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;service-providers&#34;&gt;Service Providers:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4&#34;&gt;Abine DeleteMe&lt;/a&gt; - Delete your records from major data brokers&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dnt.abine.com/#/ref_register/pC8ZbvQtt&#34;&gt;Abine Blur&lt;/a&gt; - Password manager, identity masking, and one-time-use debit cards&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://privacy.com/join/SU86Y&#34;&gt;Privacy.com&lt;/a&gt; - &lt;strong&gt;Prefered&lt;/strong&gt; - Generate one-time-use debit cards&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;bitwarden.com&#34;&gt;BitWarden&lt;/a&gt; - &lt;strong&gt;Prefered&lt;/strong&gt; - E2E Encrypted Online Password Manager&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;book-recommendations&#34;&gt;Book Recommendations:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/3g4BrxG&#34;&gt;Extreme Privacy - Michael Bazzell&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/39zbWlV&#34;&gt;Open Source Intelligence Techniques - Michael Bazzell&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/3hFK7eo&#34;&gt;CCNA Routing and Switching Portable Command Guide - Scott Empson&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/3hE5Tzd&#34;&gt;Practical Network Automation - Abhishek Ratan&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/332hwfo&#34;&gt;Practical Ansible 2 - Daniel Oh&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2BBC3fp&#34;&gt;Red Team Field Manual - Ben Clark&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/30Z5il4&#34;&gt;Blue Team Field Manual - Alan J White&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2D6F47L&#34;&gt;The Hacker Playbook 3 - Peter Kim&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;hackers-toolkit-recommendations&#34;&gt;Hackers Toolkit Recommendations:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2EqDyOx&#34;&gt;CanaKit Raspberry Pi 4&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2P0W3uX&#34;&gt;AURSINC WiFi Deauther Watch ESP8266&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/330FAPG&#34;&gt;Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/3fcHWxq&#34;&gt;GlobalSat BU-353-S4 USB GPS Receiver&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/3g83cFx&#34;&gt;Proxmark3 V3.0 ID DEV Kits M1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2OXVj9Q&#34;&gt;HackRF One&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/302Egd9&#34;&gt;RTL-SDR RTL2832U&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/39vChkK&#34;&gt;BaoFeng BF-F8HP&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/3g5PTFV&#34;&gt;GL.iNet GL-AR750S-Ext&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2X1S2KZ&#34;&gt;Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2OXAxHw&#34;&gt;YubiKey 5 NFC&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/30RFE1x&#34;&gt;GoTrust Idem Card - FIDO2 &amp;amp; U2F BLE and NFC Security Key&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://hackerwarehouse.com/product/chameleon-tiny/&#34;&gt;Chameleon Tiny&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://hackerwarehouse.com/product/rfid-detector-diagnostic-card/&#34;&gt;RFID Detector / Diagnostic Card&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://hackerwarehouse.com/product/hunter-cat/&#34;&gt;Hunter Cat&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;standalone-microphone-recommendations&#34;&gt;Standalone Microphone Recommendations:&lt;/h3&gt;
-&lt;p&gt;Below $100&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$80 | &lt;a href=&#34;https://amzn.to/2GkpbZA&#34;&gt;Samson Q2U&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Below $500&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$200 | &lt;a href=&#34;https://amzn.to/2GkpbZA&#34;&gt;Samson Q2U&lt;/a&gt;+ &lt;a href=&#34;https://amzn.to/2ux8kA6&#34;&gt;Focusrite Scarlett Solo (3rd Gen)&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$325 | &lt;a href=&#34;https://amzn.to/2GkpbZA&#34;&gt;Samson Q2U&lt;/a&gt; + &lt;a href=&#34;https://amzn.to/37oB6BC&#34;&gt;GoXLR Mini&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Below $1500&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$1300 | &lt;a href=&#34;https://amzn.to/36m9Gel&#34;&gt;Shure SM7B Cardioid Dynamic Microphone&lt;/a&gt; + &lt;a href=&#34;https://amzn.to/2tFgUwY&#34;&gt;RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a&gt; +  &lt;a href=&#34;https://amzn.to/2TUBi7W&#34;&gt;Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a&gt; + &lt;a href=&#34;https://amzn.to/2tOcQdF&#34;&gt;GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$1400 | &lt;a href=&#34;https://amzn.to/37s5uep&#34;&gt;Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D&lt;/a&gt;  + &lt;a href=&#34;https://amzn.to/36mRhxV&#34;&gt;Electro-Voice 309A&lt;/a&gt; + &lt;a href=&#34;https://amzn.to/2tFgUwY&#34;&gt;RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a&gt; +  &lt;a href=&#34;https://amzn.to/2TUBi7W&#34;&gt;Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a&gt; + &lt;a href=&#34;https://amzn.to/2tOcQdF&#34;&gt;GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;headset-recommendations&#34;&gt;Headset Recommendations:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Preferably purchased with a headphone DAC like the &lt;a href=&#34;https://amzn.to/312xdQJ&#34;&gt;FiiO E10K&lt;/a&gt;  or &lt;a href=&#34;https://amzn.to/2uzpo8B&#34;&gt;FiiO K3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Below $100&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$50 | &lt;a href=&#34;https://amzn.to/2TVE252&#34;&gt;Audio-Technica ATH M20x&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$70 | &lt;a href=&#34;https://amzn.to/3aGF2Qs&#34;&gt;Audio-Technica ATH M30x&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$99 | &lt;a href=&#34;https://amzn.to/2RMkYDv&#34;&gt;Audio-Technica ATH M40x&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$65 | &lt;a href=&#34;https://amzn.to/2RngkNb&#34;&gt;Philips SHP9500&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$100-$300&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$149 | &lt;a href=&#34;https://amzn.to/2GozWu9&#34;&gt;Audio-Technica ATH M50x&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$145 | &lt;a href=&#34;https://amzn.to/2GozWu9&#34;&gt;Philips Audio Fidelio X2HR&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$149 | &lt;a href=&#34;https://amzn.to/30P8jDY&#34;&gt;beyerdynamic DT 770 PRO&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$149 | &lt;a href=&#34;https://amzn.to/37r9SdI&#34;&gt;beyerdynamic DT 990 PRO&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$299 | &lt;a href=&#34;https://amzn.to/30QLDDj&#34;&gt;Sennheiser HD 600&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;webcam-recommendations&#34;&gt;Webcam Recommendations:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$99 | &lt;a href=&#34;https://amzn.to/37P4FMN&#34;&gt;Logitech C922x Pro Stream Webcam&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$160 | &lt;a href=&#34;https://amzn.to/2uQPjcn&#34;&gt;Logitech BRIO&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$170 | &lt;a href=&#34;https://amzn.to/2SQUWAA&#34;&gt;Logitech StreamCam&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Hardening Apache Web Server</title>
-      <link>/posts/hardening-apache/</link>
-      <pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate>
-      
-      <guid>/posts/hardening-apache/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h3 id=&#34;a-collection-of-example-configurations-and-scripts-to-aid-system-administrators-in-hardening-apache-web-servers&#34;&gt;A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.&lt;/h3&gt;
-&lt;p&gt;Apache, out of the box, is surprisingly insecure. Many best practices and security configurations have to be configured manually before rolling Apache out in a production environment. You may use this GitHub repository as a starting point towards securing your Apache instances.&lt;/p&gt;
-&lt;h2 id=&#34;installing-modsecurity-with-owasp-core-rule-set&#34;&gt;Installing ModSecurity with OWASP Core Rule Set&lt;/h2&gt;
-&lt;h3 id=&#34;step-1-update-repositories&#34;&gt;Step 1: Update Repositories&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;On Ubuntu/ Debian:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get update -y
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;On CentOS/RHEL:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo yum update -y
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-2-installing-modsecurity-for-apache&#34;&gt;Step 2: Installing ModSecurity for Apache&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;On Ubuntu/ Debian:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install -y libapache2-modsecurity
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 10 Aug 2020 10:08:10 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>WMI Filters</title><link>/posts/wmi-filters/</link><pubDate>Mon, 10 Aug 2020 10:08:10 -0500</pubDate><guid>/posts/wmi-filters/</guid><description>
+&lt;h1 id="wmi-filters">WMI Filters&lt;/h1>
+&lt;p>&lt;strong>A collection of WMI filters to assist with Windows Group Policy deployments&lt;/strong>&lt;/p>
+&lt;h2 id="how-to-install-and-use-wmi-filters">How to install and use WMI Filters:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-wmi-filters-for-the-gpo">Create WMI Filters for the GPO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.rebeladmin.com/2018/02/group-policy-wmi-filters-nutshell/">Group Policy: WMI Filters in a nutshell&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Terms and Conditions</title><link>/termsandconditions/</link><pubDate>Sat, 08 Aug 2020 15:31:48 -0500</pubDate><guid>/termsandconditions/</guid><description>
+&lt;h1 id="terms-and-conditions">Terms and Conditions&lt;/h1>
+&lt;p>Welcome to SimeonOnSecurity!&lt;/p>
+&lt;p>These terms and conditions outline the rules and regulations for the use of SimeonOnSecurity&amp;rsquo;s Website, located at &lt;a href="https://SimeonOnSecurity.com">https://SimeonOnSecurity.com&lt;/a>.&lt;/p>
+&lt;p>By accessing this website we assume you accept these terms and conditions. Do not continue to use SimeonOnSecurity if you do not agree to take all of the terms and conditions stated on this page.&lt;/p>
+&lt;p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: &amp;ldquo;Client&amp;rdquo;, &amp;ldquo;You&amp;rdquo; and &amp;ldquo;Your&amp;rdquo; refers to you, the person log on this website and compliant to the Company’s terms and conditions. &amp;ldquo;The Company&amp;rdquo;, &amp;ldquo;Ourselves&amp;rdquo;, &amp;ldquo;We&amp;rdquo;, &amp;ldquo;Our&amp;rdquo; and &amp;ldquo;Us&amp;rdquo;, refers to our Company. &amp;ldquo;Party&amp;rdquo;, &amp;ldquo;Parties&amp;rdquo;, or &amp;ldquo;Us&amp;rdquo;, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.&lt;/p>
+&lt;h2 id="cookies">Cookies&lt;/h2>
+&lt;p>We employ the use of cookies. By accessing SimeonOnSecurity, you agreed to use cookies in agreement with the SimeonOnSecurity&amp;rsquo;s Privacy Policy.&lt;/p>
+&lt;p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.&lt;/p>
+&lt;h2 id="license">License&lt;/h2>
+&lt;p>Unless otherwise stated, SimeonOnSecurity and/or its licensors own the intellectual property rights for all material on SimeonOnSecurity. All intellectual property rights are reserved. You may access this from SimeonOnSecurity for your own personal use subjected to restrictions set in these terms and conditions.&lt;/p>
+&lt;p>You must not:
+Republish material from SimeonOnSecurity Sell, rent or sub-license material from SimeonOnSecurity Reproduce, duplicate or copy material from SimeonOnSecurity Redistribute content from SimeonOnSecurity&lt;/p>
+&lt;p>This Agreement shall begin on the date hereof.&lt;/p>
+&lt;p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. SimeonOnSecurity does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of SimeonOnSecurity,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, SimeonOnSecurity shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.&lt;/p>
+&lt;p>SimeonOnSecurity reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.&lt;/p>
+&lt;p>You warrant and represent that:
+You are entitled to post the Comments on our website and have all necessary licenses and consents to do so; The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party; The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.&lt;/p>
+&lt;p>You hereby grant SimeonOnSecurity a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.&lt;/p>
+&lt;h2 id="hyperlinking-to-our-content">Hyperlinking to our Content&lt;/h2>
+&lt;p>The following organizations may link to our Website without prior written approval:
+Government agencies; Search engines; News organizations; Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.&lt;/p>
+&lt;p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.&lt;/p>
+&lt;p>We may consider and approve other link requests from the following types of organizations:
+commonly-known consumer and/or business information sources; dot.com community sites; associations or other groups representing charities; online directory distributors; internet portals; accounting, law and consulting firms; and educational institutions and trade associations.&lt;/p>
+&lt;p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of SimeonOnSecurity; and (d) the link is in the context of general resource information.&lt;/p>
+&lt;p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.&lt;/p>
+&lt;p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to SimeonOnSecurity. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.&lt;/p>
+&lt;p>Approved organizations may hyperlink to our Website as follows:
+By use of our corporate name; or By use of the uniform resource locator being linked to; or By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.&lt;/p>
+&lt;p>No use of SimeonOnSecurity&amp;rsquo;s logo or other artwork will be allowed for linking absent a trademark license agreement.&lt;/p>
+&lt;h2 id="iframes">iFrames&lt;/h2>
+&lt;p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.&lt;/p>
+&lt;h2 id="content-liability">Content Liability&lt;/h2>
+&lt;p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.&lt;/p>
+&lt;h2 id="your-privacy">Your Privacy&lt;/h2>
+&lt;p>Please read Privacy Policy&lt;/p>
+&lt;h2 id="reservation-of-rights">Reservation of Rights&lt;/h2>
+&lt;p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.&lt;/p>
+&lt;h2 id="removal-of-links-from-our-website">Removal of links from our website&lt;/h2>
+&lt;p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.&lt;/p>
+&lt;p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.&lt;/p>
+&lt;h2 id="disclaimer">Disclaimer&lt;/h2>
+&lt;p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:
+limit or exclude our or your liability for death or personal injury; limit or exclude our or your liability for fraud or fraudulent misrepresentation; limit any of our or your liabilities in any way that is not permitted under applicable law; or exclude any of our or your liabilities that may not be excluded under applicable law.&lt;/p>
+&lt;p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.&lt;/p>
+&lt;p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p></description></item><item><title>Privacy Policy</title><link>/privacypolicy/</link><pubDate>Sat, 08 Aug 2020 15:24:07 -0500</pubDate><guid>/privacypolicy/</guid><description>
+&lt;h1 id="privacy-policy-for-simeononsecurity">Privacy Policy for SimeonOnSecurity&amp;lt;&lt;/h1>
+&lt;p>At SimeonOnSecurity, accessible from &lt;a href="https://SimeonOnSecurity.ch">https://SimeonOnSecurity.ch&lt;/a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by SimeonOnSecurity and how we use it.&lt;/p>
+&lt;p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.&lt;/p>
+&lt;p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in SimeonOnSecurity. This policy is not applicable to any information collected offline or via channels other than this website.&lt;/p>
+&lt;h2 id="consent">Consent&lt;/h2>
+&lt;p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.&lt;/p>
+&lt;h2 id="information-we-collect">Information we collect&lt;/h2>
+&lt;p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.
+When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.&lt;/p>
+&lt;h2 id="how-we-use-your-information">How we use your information&lt;/h2>
+&lt;p>We use the information we collect in various ways, including to:&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="log-files">Log Files&lt;/h2>
+&lt;p>SimeonOnSecurity follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&amp;rsquo; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&amp;rsquo; movement on the website, and gathering demographic information. Our Privacy Policy was created with the help of the &lt;!-- raw HTML omitted -->Privacy Policy Generator&lt;!-- raw HTML omitted --> and the &lt;!-- raw HTML omitted -->Online Privacy Policy Generator&lt;!-- raw HTML omitted -->.&lt;/p>
+&lt;h2 id="cookies-and-web-beacons">Cookies and Web Beacons&lt;/h2>
+&lt;p>Like any other website, SimeonOnSecurity uses &amp;lsquo;cookies&amp;rsquo;. These cookies are used to store information including visitors&amp;rsquo; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&amp;rsquo; experience by customizing our web page content based on visitors&amp;rsquo; browser type and/or other information.&lt;/p>
+&lt;p>For more general information on cookies, please read &lt;!-- raw HTML omitted -->&amp;quot;What Are Cookies&amp;quot;&lt;!-- raw HTML omitted -->.&lt;/p>
+&lt;h2 id="google-doubleclick-dart-cookie">Google DoubleClick DART Cookie&lt;/h2>
+&lt;p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to &lt;a href="http://www.website.com">www.website.com&lt;/a> and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – &lt;!-- raw HTML omitted -->&lt;a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="our-advertising-partners">Our Advertising Partners&lt;/h2>
+&lt;p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="advertising-partners-privacy-policies">Advertising Partners Privacy Policies&lt;/h2>
+&lt;p>You may consult this list to find the Privacy Policy for each of the advertising partners of SimeonOnSecurity.&lt;/p>
+&lt;p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on SimeonOnSecurity, which are sent directly to users&amp;rsquo; browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.&lt;/p>
+&lt;p>Note that SimeonOnSecurity has no access to or control over these cookies that are used by third-party advertisers.&lt;/p>
+&lt;h2 id="third-party-privacy-policies">Third Party Privacy Policies&lt;/h2>
+&lt;p>SimeonOnSecurity&amp;rsquo;s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.&lt;/p>
+&lt;p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers&amp;rsquo; respective websites.&lt;/p>
+&lt;h2 id="ccpa-privacy-rights-do-not-sell-my-personal-information">CCPA Privacy Rights (Do Not Sell My Personal Information)&lt;/h2>
+&lt;p>Under the CCPA, among other rights, California consumers have the right to:
+Request that a business that collects a consumer&amp;rsquo;s personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.
+Request that a business delete any personal data about the consumer that a business has collected.
+Request that a business that sells a consumer&amp;rsquo;s personal data, not sell the consumer&amp;rsquo;s personal data.
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.&lt;/p>
+&lt;h2 id="gdpr-data-protection-rights">GDPR Data Protection Rights&lt;/h2>
+&lt;p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.
+The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
+The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
+The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
+The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.&lt;/p>
+&lt;h2 id="childrens-information">Children&amp;rsquo;s Information&lt;/h2>
+&lt;p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.&lt;/p>
+&lt;p>SimeonOnSecurity does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.&lt;/p></description></item><item><title>Contact Us</title><link>/contactus/</link><pubDate>Sat, 08 Aug 2020 15:23:58 -0500</pubDate><guid>/contactus/</guid><description>
+&lt;h2 id="contact-details">Contact Details&lt;/h2>
+&lt;p>      SimeonOnSecurity does not have publically available contact details at this time.
+You may follow our &lt;a href="https://simeononsecurity.com/sitemap.xml">RSS feed&lt;/a> or our &lt;a href="https://github.com/simeononsecurity">GitHub&lt;/a> at this time.&lt;/p></description></item><item><title>Automating Oracle JRE 8 STIG</title><link>/posts/oracle-jre-8-stig/</link><pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate><guid>/posts/oracle-jre-8-stig/</guid><description>
+&lt;h1 id="automate-oracle-jre-8-stigs">Automate Oracle JRE 8 STIGS&lt;/h1>
+&lt;p>Finally a script to apply the JRE 8 STIG. You&amp;rsquo;re Welcome ;).&lt;/p>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/JAVA-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip">Oracle JRE 8 V1R5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="sources">Sources:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://gist.github.com/MyITGuy/9628895">MyITGuy - deployment.properties&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://stu.cbu.edu/java/docs/technotes/guides/deploy/properties.html">cbu.edu - Java Technotes&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-install-java-config.ps1
+&lt;/code>&lt;/pre></description></item><item><title>Toolkit and Recommendations</title><link>/recommendations/</link><pubDate>Mon, 27 Jul 2020 20:03:03 -0500</pubDate><guid>/recommendations/</guid><description>
+&lt;h2 id="whats-in-simeononsecuritys-toolkit">What&amp;rsquo;s in SimeonOnSecurity&amp;rsquo;s toolkit?&lt;/h2>
+&lt;h3 id="vpn-recommendations">VPN Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://mullvad.net/en/">Mullvad VPN&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://protonvpn.com/">ProtonVPN&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="email-providers">EMail Providers:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://protonmail.com/">ProtonMail&lt;/a> - &lt;strong>Prefered&lt;/strong> - E2E Encrypted EMail&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tutanota.com/">Tutanota&lt;/a> - E2E Encrypted EMail&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="sipdid-providers">SIP/DID Providers:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://voip.ms">VOIP.MS&lt;/a> - &lt;strong>Prefered&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://mysudo.com/">MySudo&lt;/a> - &lt;strong>Prefered&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://hangouts.google.com">Google Hangouts&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="messengers-and-sms-providers">Messengers and SMS Providers:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.signal.org/">Signal&lt;/a> - &lt;strong>Prefered&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wire.com/en/">Wire&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wickr.com/">Wicker&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="service-providers">Service Providers:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4">Abine DeleteMe&lt;/a> - Delete your records from major data brokers&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dnt.abine.com/#/ref_register/pC8ZbvQtt">Abine Blur&lt;/a> - Password manager, identity masking, and one-time-use debit cards&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://privacy.com/join/SU86Y">Privacy.com&lt;/a> - &lt;strong>Prefered&lt;/strong> - Generate one-time-use debit cards&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="bitwarden.com">BitWarden&lt;/a> - &lt;strong>Prefered&lt;/strong> - E2E Encrypted Online Password Manager&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="book-recommendations">Book Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3g4BrxG">Extreme Privacy - Michael Bazzell&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/39zbWlV">Open Source Intelligence Techniques - Michael Bazzell&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3hFK7eo">CCNA Routing and Switching Portable Command Guide - Scott Empson&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3hE5Tzd">Practical Network Automation - Abhishek Ratan&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/332hwfo">Practical Ansible 2 - Daniel Oh&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2BBC3fp">Red Team Field Manual - Ben Clark&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/30Z5il4">Blue Team Field Manual - Alan J White&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2D6F47L">The Hacker Playbook 3 - Peter Kim&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="hackers-toolkit-recommendations">Hackers Toolkit Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2EqDyOx">CanaKit Raspberry Pi 4&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2P0W3uX">AURSINC WiFi Deauther Watch ESP8266&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/330FAPG">Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3fcHWxq">GlobalSat BU-353-S4 USB GPS Receiver&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3g83cFx">Proxmark3 V3.0 ID DEV Kits M1&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2OXVj9Q">HackRF One&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/302Egd9">RTL-SDR RTL2832U&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/39vChkK">BaoFeng BF-F8HP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/3g5PTFV">GL.iNet GL-AR750S-Ext&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2X1S2KZ">Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/2OXAxHw">YubiKey 5 NFC&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://amzn.to/30RFE1x">GoTrust Idem Card - FIDO2 &amp;amp; U2F BLE and NFC Security Key&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://hackerwarehouse.com/product/chameleon-tiny/">Chameleon Tiny&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://hackerwarehouse.com/product/rfid-detector-diagnostic-card/">RFID Detector / Diagnostic Card&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://hackerwarehouse.com/product/hunter-cat/">Hunter Cat&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="standalone-microphone-recommendations">Standalone Microphone Recommendations:&lt;/h3>
+&lt;p>Below $100&lt;/p>
+&lt;ul>
+&lt;li>$80 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Below $500&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$200 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a>+ &lt;a href="https://amzn.to/2ux8kA6">Focusrite Scarlett Solo (3rd Gen)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$325 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a> + &lt;a href="https://amzn.to/37oB6BC">GoXLR Mini&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Below $1500&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$1300 | &lt;a href="https://amzn.to/36m9Gel">Shure SM7B Cardioid Dynamic Microphone&lt;/a> + &lt;a href="https://amzn.to/2tFgUwY">RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a> + &lt;a href="https://amzn.to/2TUBi7W">Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a> + &lt;a href="https://amzn.to/2tOcQdF">GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$1400 | &lt;a href="https://amzn.to/37s5uep">Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D&lt;/a> + &lt;a href="https://amzn.to/36mRhxV">Electro-Voice 309A&lt;/a> + &lt;a href="https://amzn.to/2tFgUwY">RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a> + &lt;a href="https://amzn.to/2TUBi7W">Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a> + &lt;a href="https://amzn.to/2tOcQdF">GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="headset-recommendations">Headset Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>Preferably purchased with a headphone DAC like the &lt;a href="https://amzn.to/312xdQJ">FiiO E10K&lt;/a> or &lt;a href="https://amzn.to/2uzpo8B">FiiO K3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Below $100&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$50 | &lt;a href="https://amzn.to/2TVE252">Audio-Technica ATH M20x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$70 | &lt;a href="https://amzn.to/3aGF2Qs">Audio-Technica ATH M30x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$99 | &lt;a href="https://amzn.to/2RMkYDv">Audio-Technica ATH M40x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$65 | &lt;a href="https://amzn.to/2RngkNb">Philips SHP9500&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>$100-$300&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$149 | &lt;a href="https://amzn.to/2GozWu9">Audio-Technica ATH M50x&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$145 | &lt;a href="https://amzn.to/2GozWu9">Philips Audio Fidelio X2HR&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$149 | &lt;a href="https://amzn.to/30P8jDY">beyerdynamic DT 770 PRO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$149 | &lt;a href="https://amzn.to/37r9SdI">beyerdynamic DT 990 PRO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$299 | &lt;a href="https://amzn.to/30QLDDj">Sennheiser HD 600&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="webcam-recommendations">Webcam Recommendations:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>$99 | &lt;a href="https://amzn.to/37P4FMN">Logitech C922x Pro Stream Webcam&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$160 | &lt;a href="https://amzn.to/2uQPjcn">Logitech BRIO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$170 | &lt;a href="https://amzn.to/2SQUWAA">Logitech StreamCam&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Hardening Apache Web Server</title><link>/posts/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate><guid>/posts/hardening-apache/</guid><description>
+&lt;h3 id="a-collection-of-example-configurations-and-scripts-to-aid-system-administrators-in-hardening-apache-web-servers">A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.&lt;/h3>
+&lt;p>Apache, out of the box, is surprisingly insecure. Many best practices and security configurations have to be configured manually before rolling Apache out in a production environment. You may use this GitHub repository as a starting point towards securing your Apache instances.&lt;/p>
+&lt;h2 id="installing-modsecurity-with-owasp-core-rule-set">Installing ModSecurity with OWASP Core Rule Set&lt;/h2>
+&lt;h3 id="step-1-update-repositories">Step 1: Update Repositories&lt;/h3>
+&lt;p>&lt;strong>On Ubuntu/ Debian:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo apt-get update -y
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>On CentOS/RHEL:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo yum update -y
+&lt;/code>&lt;/pre>&lt;h3 id="step-2-installing-modsecurity-for-apache">Step 2: Installing ModSecurity for Apache&lt;/h3>
+&lt;p>&lt;strong>On Ubuntu/ Debian:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo apt-get install -y libapache2-modsecurity
 sudo systemctl restart apache2
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;On CentOS/RHEL:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo yum install -y mod_security
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>On CentOS/RHEL:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo yum install -y mod_security
 sudo systemctl restart httpd.service
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-3-configure-modsecurity&#34;&gt;Step 3: Configure ModSecurity&lt;/h3&gt;
-&lt;p&gt;ModSecurity by default is only configured to log events from the default rules. We&amp;rsquo;ll have to edit the configuration file to modify the rules to detect and block malicious traffic.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Copy and rename the file:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo cp /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Change the ModSecurity detection mode by editing the configuration file:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo nano /etc/modsecurity/modsecurity.conf
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Change &amp;ldquo;DetectionOnly&amp;rdquo; to &amp;ldquo;On&amp;rdquo;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;SecRuleEngine DetectionOnly
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;SecRuleEngine On
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you&amp;rsquo;re using nano you may hit &lt;strong&gt;CTRL+X&lt;/strong&gt;, then &lt;strong&gt;Y&lt;/strong&gt; and &lt;strong&gt;Enter&lt;/strong&gt; to save and exit.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Restart Apache&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On Ubuntu\ Debian:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo systemctl restart apache2
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On CentOS\ RHEL:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo systemctl restart httpd.service
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-4-downloading-and-installing-owasp-modsecurity-core-rule-set&#34;&gt;Step 4: Downloading and Installing OWASP ModSecurity Core Rule Set&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;cd /apache/conf
+&lt;/code>&lt;/pre>&lt;h3 id="step-3-configure-modsecurity">Step 3: Configure ModSecurity&lt;/h3>
+&lt;p>ModSecurity by default is only configured to log events from the default rules. We&amp;rsquo;ll have to edit the configuration file to modify the rules to detect and block malicious traffic.&lt;/p>
+&lt;p>&lt;strong>Copy and rename the file:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo cp /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Change the ModSecurity detection mode by editing the configuration file:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo nano /etc/modsecurity/modsecurity.conf
+&lt;/code>&lt;/pre>&lt;p>Change &amp;ldquo;DetectionOnly&amp;rdquo; to &amp;ldquo;On&amp;rdquo;&lt;/p>
+&lt;pre>&lt;code>SecRuleEngine DetectionOnly
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>SecRuleEngine On
+&lt;/code>&lt;/pre>&lt;p>If you&amp;rsquo;re using nano you may hit &lt;strong>CTRL+X&lt;/strong>, then &lt;strong>Y&lt;/strong> and &lt;strong>Enter&lt;/strong> to save and exit.&lt;/p>
+&lt;p>&lt;strong>Restart Apache&lt;/strong>&lt;/p>
+&lt;p>On Ubuntu\ Debian:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>On CentOS\ RHEL:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-4-downloading-and-installing-owasp-modsecurity-core-rule-set">Step 4: Downloading and Installing OWASP ModSecurity Core Rule Set&lt;/h3>
+&lt;pre>&lt;code>cd /apache/conf
 wget https://github.com/coreruleset/coreruleset/archive/v3.3.0.tar.gz
 tar -xvzf v3.3.0.tar.gz
 sudo ln -s coreruleset-3.3.0 /apache/conf/crs
 cp crs/crs-setup.conf.example crs/crs-setup.conf
 rm v3.3.0.tar.gz
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Restart Apache&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On Ubuntu\ Debian:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo systemctl restart apache2
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On CentOS\ RHEL:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo systemctl restart httpd.service
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-5-additional-reading-material&#34;&gt;Step 5: Additional Reading Material&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Additional installation instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://owasp.org/www-project-modsecurity-core-rule-set/&#34;&gt;Install OWASP ModSecurity Core Rule Set&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://phoenixnap.com/kb/setup-configure-modsecurity-on-apache&#34;&gt;Install ModSecurity&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ssl-certificates&#34;&gt;SSL Certificates&lt;/h2&gt;
-&lt;h3 id=&#34;self-signed&#34;&gt;Self Signed&lt;/h3&gt;
-&lt;p&gt;Following the instructions from &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04&#34;&gt;Digital Ocean&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For this tutorial, I&amp;rsquo;m assuming you&amp;rsquo;re going to be using the &lt;strong&gt;example.com.conf&lt;/strong&gt; file from the repository.&lt;/p&gt;
-&lt;h4 id=&#34;step-1-create-the-ssl-certificate&#34;&gt;Step 1: Create the SSL certificate&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Fill out the prompts appropriately. The most important line is the one that requests the Common Name (e.g. server FQDN or YOUR name). You need to enter the domain name associated with your server or, more likely, your server’s public IP address.&lt;/strong&gt;
-If using for the IP access only certificate in the example.com.conf please use &lt;strong&gt;&amp;ldquo;NA&amp;rdquo;&lt;/strong&gt; for all values where posible.&lt;/p&gt;
-&lt;h4 id=&#34;perfect-forward-secrecy-configuration&#34;&gt;Perfect Forward Secrecy Configuration&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;automate-with-letsencrypt-and-certbot&#34;&gt;Automate with LetsEncrypt and Certbot&lt;/h3&gt;
-&lt;p&gt;Following the tutorial from &lt;a href=&#34;https://certbot.eff.org/lets-encrypt/ubuntubionic-apache.html&#34;&gt;Certbot&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;step-1-install-certbot&#34;&gt;Step 1: Install Certbot&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get update -y
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Restart Apache&lt;/strong>&lt;/p>
+&lt;p>On Ubuntu\ Debian:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>On CentOS\ RHEL:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-5-additional-reading-material">Step 5: Additional Reading Material&lt;/h3>
+&lt;p>&lt;strong>Additional installation instructions:&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://owasp.org/www-project-modsecurity-core-rule-set/">Install OWASP ModSecurity Core Rule Set&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://phoenixnap.com/kb/setup-configure-modsecurity-on-apache">Install ModSecurity&lt;/a>&lt;/p>
+&lt;h2 id="ssl-certificates">SSL Certificates&lt;/h2>
+&lt;h3 id="self-signed">Self Signed&lt;/h3>
+&lt;p>Following the instructions from &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04">Digital Ocean&lt;/a>&lt;/p>
+&lt;p>For this tutorial, I&amp;rsquo;m assuming you&amp;rsquo;re going to be using the &lt;strong>example.com.conf&lt;/strong> file from the repository.&lt;/p>
+&lt;h4 id="step-1-create-the-ssl-certificate">Step 1: Create the SSL certificate&lt;/h4>
+&lt;pre>&lt;code>sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Fill out the prompts appropriately. The most important line is the one that requests the Common Name (e.g. server FQDN or YOUR name). You need to enter the domain name associated with your server or, more likely, your server’s public IP address.&lt;/strong>
+If using for the IP access only certificate in the example.com.conf please use &lt;strong>&amp;ldquo;NA&amp;rdquo;&lt;/strong> for all values where posible.&lt;/p>
+&lt;h4 id="perfect-forward-secrecy-configuration">Perfect Forward Secrecy Configuration&lt;/h4>
+&lt;pre>&lt;code>sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+&lt;/code>&lt;/pre>&lt;h3 id="automate-with-letsencrypt-and-certbot">Automate with LetsEncrypt and Certbot&lt;/h3>
+&lt;p>Following the tutorial from &lt;a href="https://certbot.eff.org/lets-encrypt/ubuntubionic-apache.html">Certbot&lt;/a>&lt;/p>
+&lt;h4 id="step-1-install-certbot">Step 1: Install Certbot&lt;/h4>
+&lt;pre>&lt;code>sudo apt-get update -y
 sudo apt-get install software-properties-common
 sudo add-apt-repository universe
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install -y certbot python3-certbot-apache
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-2-choose-how-youd-like-to-run-certbot&#34;&gt;Step 2: Choose how you&amp;rsquo;d like to run Certbot&lt;/h3&gt;
-&lt;h5 id=&#34;either-get-and-install-your-certificates&#34;&gt;Either get and install your certificates&amp;hellip;&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt;sudo certbot --apache
-&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;or-just-get-a-certificate&#34;&gt;Or, just get a certificate&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt;sudo certbot certonly --apache
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;step-3-test-automatic-renewal&#34;&gt;Step 3: Test automatic renewal&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;sudo certbot renew --dry-run
-&lt;/code&gt;&lt;/pre&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>CVE-2020-1350 KB4569509 DNS Server Vulnerability</title>
-      <link>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</link>
-      <pubDate>Sat, 25 Jul 2020 21:09:37 -0500</pubDate>
-      
-      <guid>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h1 id=&#34;kb4569509-guidance-for-dns-server-vulnerability-cve-2020-1350httpssupportmicrosoftcomen-ushelp4569509windows-dns-server-remote-code-execution-vulnerability&#34;&gt;&lt;a href=&#34;https://support.microsoft.com/en-us/help/4569509/windows-dns-server-remote-code-execution-vulnerability&#34;&gt;KB4569509: Guidance for DNS Server Vulnerability CVE-2020-1350&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;On July 14, 2020, Microsoft released a security update for the issue that is described in CVE-2020-1350 | Windows DNS Server Remote Code Execution Vulnerability. This advisory describes a Critical Remote Code Execution (RCE) vulnerability that affects Windows servers that are configured to run the DNS Server role. We strongly recommend that server administrators apply the security update at their earliest convenience.&lt;/p&gt;
-&lt;p&gt;A registry-based workaround can be used to help protect an affected Windows server, and it can be implemented without requiring an administrator to restart the server. Because of the volatility of this vulnerability, administrators may have to implement the workaround before they apply the security update in order to enable them to update their systems by using a standard deployment cadence.&lt;/p&gt;
-&lt;h2 id=&#34;workaround&#34;&gt;Workaround&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Optional:&lt;/strong&gt; Download the workaround script from the &lt;a href=&#34;https://github.com/simeononsecurity/CVE-2020-1350-Fix&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;To work around this vulnerability, make the following registry change to restrict the size of the largest inbound TCP-based DNS response packet that&amp;rsquo;s allowed:&lt;/p&gt;
-&lt;p&gt;Subkey: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters&lt;/p&gt;
-&lt;p&gt;Value: TcpReceivePacketSize&lt;/p&gt;
-&lt;p&gt;Type: DWORD&lt;/p&gt;
-&lt;p&gt;Value data: 0xFF00&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;The default (also maximum) Value data = 0xFFFF.
-
+&lt;/code>&lt;/pre>&lt;h3 id="step-2-choose-how-youd-like-to-run-certbot">Step 2: Choose how you&amp;rsquo;d like to run Certbot&lt;/h3>
+&lt;h5 id="either-get-and-install-your-certificates">Either get and install your certificates&amp;hellip;&lt;/h5>
+&lt;pre>&lt;code>sudo certbot --apache
+&lt;/code>&lt;/pre>&lt;h5 id="or-just-get-a-certificate">Or, just get a certificate&lt;/h5>
+&lt;pre>&lt;code>sudo certbot certonly --apache
+&lt;/code>&lt;/pre>&lt;h4 id="step-3-test-automatic-renewal">Step 3: Test automatic renewal&lt;/h4>
+&lt;pre>&lt;code>sudo certbot renew --dry-run
+&lt;/code>&lt;/pre></description></item><item><title>CVE-2020-1350 KB4569509 DNS Server Vulnerability</title><link>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</link><pubDate>Sat, 25 Jul 2020 21:09:37 -0500</pubDate><guid>/posts/cve-2020-1350_kb4569509_dns_server_vulnerability/</guid><description>
+&lt;h1 id="kb4569509-guidance-for-dns-server-vulnerability-cve-2020-1350httpssupportmicrosoftcomen-ushelp4569509windows-dns-server-remote-code-execution-vulnerability">&lt;a href="https://support.microsoft.com/en-us/help/4569509/windows-dns-server-remote-code-execution-vulnerability">KB4569509: Guidance for DNS Server Vulnerability CVE-2020-1350&lt;/a>&lt;/h1>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>On July 14, 2020, Microsoft released a security update for the issue that is described in CVE-2020-1350 | Windows DNS Server Remote Code Execution Vulnerability. This advisory describes a Critical Remote Code Execution (RCE) vulnerability that affects Windows servers that are configured to run the DNS Server role. We strongly recommend that server administrators apply the security update at their earliest convenience.&lt;/p>
+&lt;p>A registry-based workaround can be used to help protect an affected Windows server, and it can be implemented without requiring an administrator to restart the server. Because of the volatility of this vulnerability, administrators may have to implement the workaround before they apply the security update in order to enable them to update their systems by using a standard deployment cadence.&lt;/p>
+&lt;h2 id="workaround">Workaround&lt;/h2>
+&lt;p>&lt;strong>Optional:&lt;/strong> Download the workaround script from the &lt;a href="https://github.com/simeononsecurity/CVE-2020-1350-Fix">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>To work around this vulnerability, make the following registry change to restrict the size of the largest inbound TCP-based DNS response packet that&amp;rsquo;s allowed:&lt;/p>
+&lt;p>Subkey: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters&lt;/p>
+&lt;p>Value: TcpReceivePacketSize&lt;/p>
+&lt;p>Type: DWORD&lt;/p>
+&lt;p>Value data: 0xFF00&lt;/p>
+&lt;p>&lt;strong>Notes:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>The default (also maximum) Value data = 0xFFFF.
 The recommended Value data = 0xFF00 (255 bytes less than the maximum).
-
 You must restart the DNS Service for the registry change to take effect. To do this, run the following command at an elevated command prompt:
-<<<<<<< HEAD
 &lt;/code>&lt;/pre>
 &lt;p>          &lt;code>net stop dns &amp;amp;&amp;amp; net start dns&lt;/code>&lt;/p>
 &lt;h2 id="important-information-about-this-workaround">Important information about this workaround&lt;/h2>
@@ -599,365 +624,22 @@ We will be following the tutorial from &lt;a href="https://docs.microsoft.com/en
 &lt;h2 id="how-the-script-works">How the script works&lt;/h2>
 &lt;p>&lt;strong>The script we will be working with today titled &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;quot;:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-=======
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;          &lt;code&gt;net stop dns &amp;amp;&amp;amp; net start dns&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;important-information-about-this-workaround&#34;&gt;Important information about this workaround&lt;/h2&gt;
-&lt;p&gt;TCP-based DNS response packets that exceed the recommended value will be dropped without error. Therefore, it is possible that some queries might not be answered. This could cause an unanticipated failure. A DNS server will be negatively impacted by this workaround only if it receives valid TCP responses that are greater than allowed in the previous mitigation (more than 65,280 bytes).&lt;/p&gt;
-&lt;p&gt;The reduced value is unlikely to affect standard deployments or recursive queries. However, a non-standard use-case may exist in a given environment. To determine whether the server implementation will be adversely affected by this workaround, you should enable diagnostic logging, and capture a sample set that is representative of your typical business flow. Then, you will have to review the log files to identify the presence of anomalously large TCP response packets&lt;/p&gt;
-&lt;p&gt;For more information, see &lt;a href=&#34;https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800669%28v=ws.11%29&#34;&gt;DNS Logging and Diagnostics&lt;/a&gt;.&lt;/p&gt;
-
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sat, 25 Jul 2020 19:47:00 -0500</pubDate>
-      
-      <guid>/about/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h2 id=&#34;contact-details&#34;&gt;Contact Details&lt;/h2&gt;
-&lt;p&gt;      SimeonOnSecurity does not have publically available contact details at this time.
-You may follow our &lt;a href=&#34;https://simeononsecurity.com/sitemap.xml&#34;&gt;RSS feed&lt;/a&gt; or our &lt;a href=&#34;https://github.com/simeononsecurity&#34;&gt;GitHub&lt;/a&gt; at this time.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-simeononsecurity&#34;&gt;What is SimeonOnSecurity?&lt;/h2&gt;
-&lt;p&gt;     SimeonOnSecurity (SOS) is a security and automation blog that&amp;rsquo;s goal is to bring you all the behind the scenes technical content not normally found online. This blog serves as Simeon&amp;rsquo;s show of work and his all around enthusiasm for the field.&lt;/p&gt;
-&lt;h2 id=&#34;who-is-simeon&#34;&gt;Who is Simeon?&lt;/h2&gt;
-&lt;p&gt;     Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is a tinkerer, a hobbyist, and all around geek and nerd. Simeon got his first start working with a laptop that couldn&amp;rsquo;t even run Windows XP stably at the age of 12. Troubleshooting and fixing issues as they arised, Simeon couldn&amp;rsquo;t get enough. Years later, Simeon now has an in home data-center and lab that rivals most small businesses compute and storage power.&lt;/p&gt;
-
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Brave ADMX Templates</title>
-      <link>/posts/brave-admx-templates/</link>
-      <pubDate>Sat, 25 Jul 2020 19:30:39 -0500</pubDate>
-      
-      <guid>/posts/brave-admx-templates/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h1 id=&#34;braveadmx&#34;&gt;BraveADMX&lt;/h1&gt;
-&lt;p&gt;Proper ADMX Templates for the Brave Browser&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Download the required files from the &lt;a href=&#34;https://github.com/simeononsecurity/BraveADMX&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Modified Google Chrome Policy Definitions according to:
-&lt;a href=&#34;https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy&#34;&gt;Brave Group Policy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;&lt;/p&gt;
-&lt;h2 id=&#34;how-to-install&#34;&gt;How to install&lt;/h2&gt;
-&lt;p&gt;1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
-2.) Profit?&lt;/p&gt;
-
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Chromium ADMX Templates</title>
-      <link>/posts/chromium-admx-templates/</link>
-      <pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate>
-      
-      <guid>/posts/chromium-admx-templates/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h1 id=&#34;chromiumadmx&#34;&gt;ChromiumADMX&lt;/h1&gt;
-&lt;p&gt;Proper ADMX Template for the Chromium Browser&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Download the required files from the &lt;a href=&#34;https://github.com/simeononsecurity/ChromiumADMX&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Modified Google Chrome Policy Definitions according to:
-&lt;a href=&#34;https://www.chromium.org/administrators/policy-templates&#34;&gt;Chromium Policy Templates&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p&gt;
-&lt;h2 id=&#34;how-to-install&#34;&gt;How to install&lt;/h2&gt;
-&lt;p&gt;1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
-2.) Profit?&lt;/p&gt;
-
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Optimizing and Hardening Windows 10 Deployments</title>
-      <link>/posts/optimizing-and-hardening-windows10-deployments/</link>
-      <pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate>
-      
-      <guid>/posts/optimizing-and-hardening-windows10-deployments/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h1 id=&#34;optimizing-and-hardening-windows-10-deployments&#34;&gt;Optimizing and Hardening Windows 10 Deployments&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Now Works offline.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Download all the required files from the &lt;a href=&#34;https://github.com/smiltech/W10-Optimize-and-Harden&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows 10 is an invasive and insecure operating system out of the box. 
-Organizations like &lt;a href=&#34;https://PrivacyTools.io&#34;&gt;PrivacyTools.io&lt;/a&gt;, &lt;a href=&#34;https://microsoft.com&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://public.cyber.mil&#34;&gt;Cyber.mil&lt;/a&gt;, the &lt;a href=&#34;https://dod.gov&#34;&gt;Department of Defense&lt;/a&gt;, and the &lt;a href=&#34;https://www.nsa.gov/&#34;&gt;National Security Agency&lt;/a&gt; have recomended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetery, macros, removing bloatware, and preventing many physical attacks on a system.&lt;/p&gt;
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Windows 10 Professional or Windows 10 Enterprise (&lt;strong&gt;Prefered&lt;/strong&gt;)
-&lt;ul&gt;
-&lt;li&gt;Windows 10 Home does not allow for GPO configurations.&lt;/li&gt;
-&lt;li&gt;Windows 10 &amp;ldquo;N&amp;rdquo; Editions are not tested.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure&#34;&gt;Standards&lt;/a&gt; for a highly secure Windows 10 device&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; System is &lt;a href=&#34;https://support.microsoft.com/en-gb/help/4027667/windows-10-update&#34;&gt;fully up to date&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Currently Windows 10 &lt;strong&gt;v1909&lt;/strong&gt; or &lt;strong&gt;v2004&lt;/strong&gt;. Run the &lt;a href=&#34;https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant&#34;&gt;Windows 10 Upgrade Assistant&lt;/a&gt; to be update and verify latest major release.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hardware Requirements
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/requirements-and-deployment-planning-guidelines-for-virtualization-based-protection-of-code-integrity#baseline-protections&#34;&gt;Hardware Requirements for Memory Integrity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/reqs-wd-app-guard&#34;&gt;Hardware Requirements for Windows Defender Application Guard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-requirements&#34;&gt;Hardware Requirements for Windows Defender Credential Guard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;recommended-reading-material&#34;&gt;Recommended reading material:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-secure-launch-and-smm-protection#requirements-met-by-system-guard-enabled-machines&#34;&gt;System Guard Secure Launch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows&#34;&gt;System Guard Root of Trust&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-hardware-based-isolation&#34;&gt;Hardware-based Isolation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/memory-integrity&#34;&gt;Memory integrity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview&#34;&gt;Windows Defender Application Guard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-how-it-works&#34;&gt;Windows Defender Credential Guard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;a-list-of-scripts-and-tools-this-collection-utilizes&#34;&gt;A list of scripts and tools this collection utilizes:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=55319&#34;&gt;Microsoft Security Compliance Toolkit 1.0&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://public.cyber.mil/stigs/gpo/&#34;&gt;Cyber.mil - Group Policy Objects&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Sycnex/Windows10Debloater&#34;&gt;Sycnex - Windows10Debloater&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/TheVDIGuys/Windows_10_VDI_Optimize&#34;&gt;TheVDIGuys - Windows 10 VDI Optimize&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/builtbybel/sharpapp&#34;&gt;Mirinsoft - SharpApp&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/builtbybel/debotnet&#34;&gt;Mirinsoft - debotnet&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/nsacyber/BitLocker-Guidance&#34;&gt;NSACyber - Bitlocker Guidance&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/0x6d69636b/windows_hardening&#34;&gt;0x6d69636b - Windows Hardening&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;additional-configurations-were-considered-from&#34;&gt;Additional configurations were considered from:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance&#34;&gt;NSACyber - Hardware-and-Firmware-Security-Guidance&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm&#34;&gt;NSACyber - Application Whitelisting Using Microsoft AppLocker&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps&#34;&gt;Whonix - Disable TCP Timestamps&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://kb.cert.org/vuls/id/573168/&#34;&gt;CERT - IE Scripting Engine Memory Corruption&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/&#34;&gt;Dirteam - SSL Hardening&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities&#34;&gt;Microsoft - Specture and Meltdown Mitigations&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/privacy/&#34;&gt;Microsoft - Windows 10 Privacy&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services&#34;&gt;Microsoft - Managing Windows 10 Telemetry and Callbacks&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909&#34;&gt;Microsoft - Windows 10 VDI Recomendations&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;stigssrgs-applied&#34;&gt;STIGS/SRGs Applied:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip&#34;&gt;Windows 10 V1R23&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip&#34;&gt;Windows Defender Antivirus V1R9&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip&#34;&gt;Windows Firewall V1R7&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip&#34;&gt;Internet Explorer 11 V1R19&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip&#34;&gt;Google Chrome V1R19&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip&#34;&gt;Firefox V4R29*&lt;/a&gt; - &lt;strong&gt;WIP&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip&#34;&gt;Adobe Reader Pro DC Continous V1R2&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Office_365_ProPlus_V1R2_STIG.zip&#34;&gt;Microsoft Office 2019/Office 365 Pro Plus V1R2&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_Microsoft_Office_2016_V1R2_Overview.pdf&#34;&gt;Microsoft Office 2016 V1R2&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MicrosoftOffice2013_V1R5_Overview.zip&#34;&gt;Microsoft Office 2013 V1R5&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;how-to-run-the-script&#34;&gt;How to run the script&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;The script may be lauched from the extracted GitHub download like this:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\W10-Optimize-and-Harden-master\installallstandalone.ps1
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The script we will be using must be launched from the directory containing all the other files from the &lt;a href=&#34;https://github.com/smiltech/W10-Optimize-and-Harden&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
-
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;In order to enable the SSL Hardening you must uncomment the line below:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
-
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;The script we will be using is called &lt;strong&gt;&amp;ldquo;installallstandalone.ps1&amp;rdquo;&lt;/strong&gt; and its contents are:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;######SCRIPT FOR FULL INSTALL AND CONFIGURE ON STANDALONE MACHINE#####
-#Continue on error
-$ErrorActionPreference= &#39;silentlycontinue&#39;
-
-#Require elivation for script run
-Write-Output &amp;quot;Elevating priviledges for this process&amp;quot;
-do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
-
-#Unblock all files required for script
-ls *.ps*1 -recurse | Unblock-File
-
-#Windows 10 Defenter Exploit Guard Configuration File
-start-job -ScriptBlock {mkdir C:\temp\; mkdir &amp;quot;C:\temp\Windows Defender&amp;quot;; copy-item -Path .\Files\DOD_EP_V3.xml -Destination &amp;quot;C:\temp\Windows Defender&amp;quot; -Force -Recurse -ErrorAction SilentlyContinue} 
-
-#Install Required PSModules
-.\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
-
-##Install Latest Windows Updates
-start-script -ScriptBlock {Install-WindowsUpdate -MicrosoftUpdate -AcceptAll; Get-WuInstall -AcceptAll -IgnoreReboot; Get-WuInstall -AcceptAll -Install -IgnoreReboot}
-
-#Optional Scripts 
-#.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-ssl-hardening.ps1
-#.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows_10_VDI&amp;quot;\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
-
-#Security Scripts
-.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-installadmxtemplates.ps1
-.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-disable-tcp-timestamps.bat
-.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-IE-Scripting-Engine-Memory-Corruption.bat
-.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-specture-meltdown-mitigations.bat
-.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\sos-FireFoxConfInstall.ps1
-.\Files\Scripts\&amp;quot;Security, Hardening, and Mitigations&amp;quot;\HardeningKitty\sos-kitty.ps1
-
-#Debloating Scripts
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\&amp;quot;Windows 10 Debloater&amp;quot;\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sos-ultimate-performance-mode.ps1
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sos-optimizevmvirtalization.ps1
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sos-startupcleantelem.ps1
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\sharpapp\sos-sharpappscripts.ps1
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\debotnet\sos-debotnetscripts.ps1
-.\Files\Scripts\&amp;quot;Debloating, Optimization, and Privacy&amp;quot;\W4H4Wk\sos-w4h4wk.ps1
-
-#GPO Configurations
-#Microsoft Security Baselines
-.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Microsoft\&amp;quot;Windows 10 1909 Baseline&amp;quot;\GPOs
-.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Microsoft\&amp;quot;Microsoft Edge v80&amp;quot;\GPOs
-.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Microsoft\Office365-ProPlus-Sept2019-FINAL\GPOs
-#Cyber.mil GPOs
-.\Files\LGPO\LGPO.exe /g .\Files\GPOs\Cyber.mil
-#NSACyber GPOs
-.\Files\LGPO\LGPO.exe /g .\Files\GPOs\NSACyber\Computer
-#SIMEONONSECURITY GPOS
-.\Files\LGPO\LGPO.exe /g .\Files\GPOs\simeononsecurity
-&lt;/code&gt;&lt;/pre&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title>
-      <link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link>
-      <pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate>
-      
-      <guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;h1 id=&#34;automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts&#34;&gt;Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts&lt;/h1&gt;
-&lt;p&gt;Download all supporting files from the &lt;a href=&#34;https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;     In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
-Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-set-up-the-shutdown-script&#34;&gt;How to set up the shutdown script&lt;/h2&gt;
-&lt;p&gt;We have chosen to set it up as a shutdown script to avoid having to reboot twice.
-We will be following the tutorial from &lt;a href=&#34;https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789190(v=ws.11)&#34;&gt;Microsoft&lt;/a&gt; to do this.&lt;/p&gt;
-&lt;p&gt;In the windows gui perform the following steps:&lt;/p&gt;
-&lt;p&gt;1.) Open the Local Group Policy Editor by hitting &lt;strong&gt;&amp;ldquo;Win + R&amp;rdquo;&lt;/strong&gt; and typing &lt;strong&gt;&amp;ldquo;gpedit.msc&amp;rdquo;&lt;/strong&gt; followed by &lt;strong&gt;&amp;ldquo;Ctrl + Shift + Enter&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2.) Navigate to Computer &lt;strong&gt;Configuration\Windows Settings\Scripts (Startup/Shutdown).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;3.) In the results pane, double-click Shutdown.&lt;/p&gt;
-&lt;p&gt;4.) Select the powershell tab&lt;/p&gt;
-&lt;p&gt;5.) In the Shutdown Properties dialog box, click Add.&lt;/p&gt;
-&lt;p&gt;6.) In the Script Name box, type the path to the script, or click Browse to search &amp;ldquo;&lt;em&gt;chocoautomatewindowsupdates.ps1&lt;/em&gt;&amp;rdquo; in the Netlogon shared folder on the domain controller.&lt;/p&gt;
-&lt;p&gt;7.) Reboot&lt;/p&gt;
-&lt;p&gt;8.) Profit?&lt;/p&gt;
-&lt;p&gt;Now in the future, all an administrator has to do is reboot the computer to perform windows updates.&lt;/p&gt;
-&lt;p&gt;The same steps can be performed in GPO to acomplish the same thing on multiple Windows machines at the same time.&lt;/p&gt;
-&lt;h2 id=&#34;how-the-script-works&#34;&gt;How the script works&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;The script we will be working with today titled &amp;ldquo;&lt;em&gt;chocoautomatewindowsupdates.ps1&lt;/em&gt;&amp;quot;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))
->>>>>>> parent of 028625b... New posts
 choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n useFipsCompliantChecksums
 choco upgrade all
 choco install pswindowsupdate
 Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
-Install-WindowsUpdate -MicrosoftUpdate -AcceptAll 
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
 Get-WuInstall -AcceptAll -IgnoreReboot
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;From &lt;a href=&#34;https://chocolatey.org/install&#34;&gt;Chocolatey&lt;/a&gt;, the script below installs the Chocolatey package manager:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Folowed by a couple prefered Chocolatey configuration changes;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;choco feature enable -n=allowGlobalConfirmation
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>From &lt;a href="https://chocolatey.org/install">Chocolatey&lt;/a>, the script below installs the Chocolatey package manager:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Folowed by a couple prefered Chocolatey configuration changes;&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n useFipsCompliantChecksums
 choco upgrade all
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Lastly we will install and run &lt;a href=&#34;https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4&#34;&gt;PSWindowsUpdates&lt;/a&gt; to install all of the available windows updates.&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;choco install pswindowsupdate
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Lastly we will install and run &lt;a href="https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4">PSWindowsUpdates&lt;/a> to install all of the available windows updates.&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco install pswindowsupdate
 Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
-Install-WindowsUpdate -MicrosoftUpdate -AcceptAll 
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
 Get-WuInstall -AcceptAll -IgnoreReboot
-&lt;/code&gt;&lt;/pre&gt;
-        
-        </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre></description></item></channel></rss>
