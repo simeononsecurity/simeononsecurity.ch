@@ -1,11 +1,5 @@
 {
-  "parser": "babel",
+  "parser": "babylon",
   "printWidth": 100,
-  "trailingComma": "all",
-  "overrides": [{
-    "files": ".html",
-    "options": {
-      "parser": "html"
-    }
-  }]
+  "trailingComma": "all"
 }

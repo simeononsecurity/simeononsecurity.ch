@@ -11,13 +11,18 @@
       text-align: center;
       margin: 0 auto;
       padding: 5px 10px;
-      background: var(--background);
-      color: var(--color-secondary);
+      background: var(--light-background);
+      color: var(--light-color-secondary);
       font-size: .8rem;
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: .1em;
       z-index: 1;
+
+      .dark-theme & {
+        background: var(--dark-background);
+        color: var(--dark-color-secondary);
+      }
     }
 
     hr {
@@ -47,7 +52,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: var(--background-secondary);
+  background: var(--light-background-secondary);
   font-size: 1rem;
   font-weight: 600;
   border-radius: 8px;
@@ -55,6 +60,10 @@
   padding: 0;
   cursor: pointer;
   appearance: none;
+
+  .dark-theme & {
+    background: var(--dark-background-secondary);
+  }
 
   + .button {
     margin-left: 10px;

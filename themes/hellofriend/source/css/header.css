@@ -1,10 +1,14 @@
 .header {
-  background: var(--header);
+  background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   padding: 20px;
+
+  .dark-theme & {
+    background: #252627;
+  }
 
   &__right {
     display: flex;
