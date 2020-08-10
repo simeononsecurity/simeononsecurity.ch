@@ -44,7 +44,7 @@
     "postcss-url": "^7.3.2",
     "prettier-eslint-cli": "^4.7.1",
     "ramda": "^0.25.0",
-    "style-loader": "^0.21.0",
+    "style-loader": "^1.2.1",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "url-loader": "^1.0.1",
     "webpack": "^4.16.1",
