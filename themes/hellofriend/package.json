@@ -1,59 +1,7 @@
 {
   "name": "hello-friend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "author": "Radosław Kozieł <@panr> <radoslaw.koziel@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "dev": "webpack --mode=development --watch",
-    "build": "webpack --mode=production"
-  },
-  "browserslist": [
-    "last 2 versions",
-    ">1%",
-    "not dead"
-  ],
-  "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
-    "@babel/plugin-transform-runtime": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-stage-2": "^7.0.0",
-    "babel-eslint": "^9.0.0",
-    "babel-loader": "^8.0.5",
-    "browserslist": "^4.13.0",
-    "clean-webpack-plugin": "^3.0.0",
-    "clipboard": "^2.0.4",
-    "css-loader": "^4.2.1",
-    "cssnano": "^4.1.8",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "husky": "^4.2.5",
-    "postcss": "^7.0.32",
-    "postcss-browser-reporter": "^0.6.0",
-    "postcss-cli": "^6.1.1",
-    "postcss-import": "^12.0.1",
-    "postcss-loader": "^3.0.0",
-    "postcss-mixins": "^6.2.1",
-    "postcss-nested": "^4.2.3",
-    "postcss-preset-env": "^6.7.0",
-    "postcss-reporter": "^6.0.1",
-    "postcss-url": "^8.0.0",
-    "prettier-eslint-cli": "^5.0.0",
-    "ramda": "^0.27.1",
-    "style-loader": "^1.2.1",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "url-loader": "^4.1.0",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn build && git add . && git commit --amend --no-edit"
-    }
-  }
+  "license": "MIT"
 }
