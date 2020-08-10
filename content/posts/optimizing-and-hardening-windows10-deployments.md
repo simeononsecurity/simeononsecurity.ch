@@ -111,20 +111,20 @@ This script is designed for operation in both **DoD** and **Personal Use** envir
 ## How to run the script
 
 **The script may be lauched from the extracted GitHub download like this:**
-```
+```shell
 .\W10-Optimize-and-Harden-master\installallstandalone.ps1
 ```
 The script we will be using must be launched from the directory containing all the other files from the [GitHub Repository](https://github.com/smiltech/W10-Optimize-and-Harden)
 
 
 **In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:**
-```
+```shell
 .\Files\Scripts\"Debloating, Optimization, and Privacy"\"Windows_10_VDI"\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
 
 ```
 
 **In order to enable the SSL Hardening you must uncomment the line below:**
-```
+```shell
 .\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
 
 ```
