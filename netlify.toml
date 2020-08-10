@@ -1,11 +1,6 @@
 [build]
 publish = "public"
-command = "
-yarn init
-yarn add -D @babel/core @babel/preset-env \
-    @babel/register babel-loader \
-    browser-sync webpack webpack-cli gulp gulp-cli
-hugo -D -E -F --gc --minify"
+command = "hugo -D -E -F --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.74.3"
