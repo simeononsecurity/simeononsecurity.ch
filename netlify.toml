@@ -11,6 +11,8 @@ hugo -D -E -F --gc --minify"
 HUGO_VERSION = "0.74.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+NODE_VERSION = "14.7.0"
+NPM_FLAGS = "@babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
