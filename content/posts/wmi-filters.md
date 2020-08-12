@@ -1,5 +1,5 @@
 ---
-title: "Wmi Filters"
+title: "WMI Filters"
 date: 2020-08-11T13:35:00-05:00
 draft: false
 ---
