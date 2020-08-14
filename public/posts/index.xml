@@ -152,24 +152,34 @@ You must restart the DNS Service for the registry change to take effect. To do t
 &lt;p>The reduced value is unlikely to affect standard deployments or recursive queries. However, a non-standard use-case may exist in a given environment. To determine whether the server implementation will be adversely affected by this workaround, you should enable diagnostic logging, and capture a sample set that is representative of your typical business flow. Then, you will have to review the log files to identify the presence of anomalously large TCP response packets&lt;/p>
 &lt;p>For more information, see &lt;a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800669%28v=ws.11%29">DNS Logging and Diagnostics&lt;/a>.&lt;/p></description></item><item><title>Brave ADMX Templates</title><link>/posts/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:39 -0500</pubDate><guid>/posts/brave-admx-templates/</guid><description>
 &lt;h1 id="braveadmx">BraveADMX&lt;/h1>
-&lt;p>Proper ADMX Templates for the Brave Browser&lt;/p>
+&lt;p>Brave, as a company, has failed to release ADMX templates for the brave browser siteing pushing pure registries as the only supported option.
+As the Brave Browser is build off of Chromium, it should support most, if not all, the same policies from the Chromium and Google Chrome ADMX templates.
+With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Brave Browser&amp;rsquo;s registry path. After some initial troubleshooting and testing, the templatates seem to work.&lt;/p>
 &lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files.&lt;/h2>
 &lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/BraveADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="notes">Notes&lt;/h2>
 &lt;p>Modified Google Chrome Policy Definitions according to:
 &lt;a href="https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy">Brave Group Policy&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong>
 Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong>
+Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
 &lt;h2 id="how-to-install">How to install&lt;/h2>
 &lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
 2.) Profit?&lt;/p></description></item><item><title>Chromium ADMX Templates</title><link>/posts/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/posts/chromium-admx-templates/</guid><description>
 &lt;h1 id="chromiumadmx">ChromiumADMX&lt;/h1>
 &lt;p>Proper ADMX Template for the Chromium Browser&lt;/p>
+&lt;p>Brave, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.
+With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Chromium Browser&amp;rsquo;s registry path and placed in tandum in the Google ADMX Folder in GPO.&lt;/p>
 &lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/ChromiumADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Modified Google Chrome Policy Definitions according to:
 &lt;a href="https://www.chromium.org/administrators/policy-templates">Chromium Policy Templates&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong>
 Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong>
+Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
 &lt;h2 id="how-to-install">How to install&lt;/h2>
 &lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
 2.) Profit?&lt;/p></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
