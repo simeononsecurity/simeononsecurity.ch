@@ -1,7 +1,7 @@
 ---
 title: "Chromium ADMX Templates"
 date: 2020-07-25T19:30:33-05:00
-draft: true
+draft: false
 ---
 
 # ChromiumADMX
@@ -21,15 +21,14 @@ With that in mind, we've modified the Google Chrome ADMX templates to reflect th
 Modified Google Chrome Policy Definitions according to:
 [Chromium Policy Templates](https://www.chromium.org/administrators/policy-templates)
 
-**Note:**
-Replaced "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" with "HKEY_LOCAL_MACHINE\Software\Policies\Chromium\"
+**Note:** Replaced "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" with "HKEY_LOCAL_MACHINE\Software\Policies\Chromium\"
 
-**Note:**
-Do not install SOS'es Chromium and Brave Browser ADMX templates at the same time.
+**Note:** Do not install SOS'es Chromium and Brave Browser ADMX templates at the same time.
 
 ## How to install
 
 1.) Copy all files except readme.md to "C:\Windows\PolicyDefinitions" and/or "\\\domain.tld\domain\Policies\PolicyDefinitions"
+
 2.) Profit?
 
 
