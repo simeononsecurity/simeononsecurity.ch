@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 14:37:16 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Branding</title><link>/posts/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 14:37:16 -0500</pubDate><guid>/posts/windows-10-branding/</guid><description>
 &lt;h1 id="setup-branding-on-windows-10-and-server-20162019-systems">Setup branding on Windows 10 and Server 2016/2019 Systems&lt;/h1>
-&lt;p>Many organizations have a need or want to control the branding of a Windows system. This includeds the desktop wallpaper, the users avatar, the Windows lockscreen, and sometimes the OEM Logo.
-In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particullarly easy. But, with the aide of the linked script, we can partially automate it and make the process much easier.&lt;/p>
+&lt;p>Many organizations have a need or want to control the branding of a Windows system.
+This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo.
+In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particularly easy.
+But, with the aide of the linked script, we can partially automate it and make the process much easier.&lt;/p>
 &lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
 &lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Branding-Script">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="how-to-set-up-the-branding-files">How to set up the branding files&lt;/h2>
@@ -134,7 +136,7 @@ If you make a request, we have one month to respond to you. If you would like to
 &lt;p>      SimeonOnSecurity does not have publically available contact details at this time.
 You may follow our &lt;a href="https://simeononsecurity.com/sitemap.xml">RSS feed&lt;/a> or our &lt;a href="https://github.com/simeononsecurity">GitHub&lt;/a> at this time.&lt;/p></description></item><item><title>Automating Oracle JRE 8 STIG</title><link>/posts/oracle-jre-8-stig/</link><pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate><guid>/posts/oracle-jre-8-stig/</guid><description>
 &lt;h1 id="automate-oracle-jre-8-stigs">Automate Oracle JRE 8 STIGS&lt;/h1>
-&lt;p>The Oracle JRE STIGs aren&amp;rsquo;t so straight forward, requireing administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIGing using group policy.&lt;/p>
+&lt;p>The Oracle JRE STIGs aren’t so straight forward, requiring administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIG-ing using group policy.&lt;/p>
 &lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
 &lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/JAVA-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
 &lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
@@ -467,28 +469,26 @@ With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to 
 &lt;h2 id="notes">Notes&lt;/h2>
 &lt;p>Modified Google Chrome Policy Definitions according to:
 &lt;a href="https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy">Brave Group Policy&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Note:&lt;/strong>
-Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;&lt;/p>
-&lt;p>&lt;strong>Note:&lt;/strong>
-Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
 &lt;h2 id="how-to-install">How to install&lt;/h2>
-&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
-2.) Profit?&lt;/p></description></item><item><title>Chromium ADMX Templates</title><link>/posts/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/posts/chromium-admx-templates/</guid><description>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;&lt;/p>
+&lt;p>2.) Profit?&lt;/p></description></item><item><title>Chromium ADMX Templates</title><link>/posts/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/posts/chromium-admx-templates/</guid><description>
 &lt;h1 id="chromiumadmx">ChromiumADMX&lt;/h1>
 &lt;p>Proper ADMX Template for the Chromium Browser&lt;/p>
 &lt;p>Brave, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.
 With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Chromium Browser&amp;rsquo;s registry path and placed in tandum in the Google ADMX Folder in GPO.&lt;/p>
 &lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
 &lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/ChromiumADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="notes">Notes&lt;/h2>
 &lt;p>Modified Google Chrome Policy Definitions according to:
 &lt;a href="https://www.chromium.org/administrators/policy-templates">Chromium Policy Templates&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Note:&lt;/strong>
-Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p>
-&lt;p>&lt;strong>Note:&lt;/strong>
-Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
 &lt;h2 id="how-to-install">How to install&lt;/h2>
-&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;
-2.) Profit?&lt;/p></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;&lt;/p>
+&lt;p>2.) Profit?&lt;/p></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
 &lt;h1 id="optimizing-and-hardening-windows-10-deployments">Optimizing and Hardening Windows 10 Deployments&lt;/h1>
 &lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>We are seeking help with the following &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">.Net issue&lt;/a>&lt;/strong>&lt;/p>

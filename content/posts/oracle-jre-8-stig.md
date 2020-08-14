@@ -6,7 +6,7 @@ draft: false
 
 # Automate Oracle JRE 8 STIGS
 
-The Oracle JRE STIGs aren't so straight forward, requireing administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIGing using group policy.
+The Oracle JRE STIGs aren’t so straight forward, requiring administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIG-ing using group policy.
 
 ## Download the required files
 

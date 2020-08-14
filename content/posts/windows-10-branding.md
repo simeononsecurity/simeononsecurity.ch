@@ -6,8 +6,10 @@ draft: false
 
 # Setup branding on Windows 10 and Server 2016/2019 Systems
 
-Many organizations have a need or want to control the branding of a Windows system. This includeds the desktop wallpaper, the users avatar, the Windows lockscreen, and sometimes the OEM Logo.
-In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particullarly easy. But, with the aide of the linked script, we can partially automate it and make the process much easier.
+Many organizations have a need or want to control the branding of a Windows system. 
+This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo. 
+In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particularly easy. 
+But, with the aide of the linked script, we can partially automate it and make the process much easier.
 
 ## Download the required files
 
