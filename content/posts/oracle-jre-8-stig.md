@@ -6,7 +6,9 @@ draft: false
 
 # Automate Oracle JRE 8 STIGS
 
-Finally a script to apply the JRE 8 STIG. You're Welcome ;).
+The Oracle JRE STIGs aren't so straight forward, requireing administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIGing using group policy.
+
+## Download the required files
 
 Download the required files from the [GitHub Repository](https://github.com/simeononsecurity/JAVA-STIG-Script)
 
