@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 14:37:16 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Branding</title><link>/posts/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 14:37:16 -0500</pubDate><guid>/posts/windows-10-branding/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 19:17:57 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
+&lt;h1 id="firefox-stig-script">FireFox STIG Script&lt;/h1>
+&lt;p>The &lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a> isn&amp;rsquo;t the easiest of STIGs to apply.
+This script will implement most of the required FireFox policies. In the future, the FireFox ADMX templates and GPO&amp;rsquo;s will be applied in this script.&lt;/p>
+&lt;p>&lt;strong>Work In Progress&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/FireFox-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-firefoxstig.ps1
+&lt;/code>&lt;/pre></description></item><item><title>Windows 10 Branding</title><link>/posts/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 14:37:16 -0500</pubDate><guid>/posts/windows-10-branding/</guid><description>
 &lt;h1 id="setup-branding-on-windows-10-and-server-20162019-systems">Setup branding on Windows 10 and Server 2016/2019 Systems&lt;/h1>
 &lt;p>Many organizations have a need or want to control the branding of a Windows system.
 This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo.
