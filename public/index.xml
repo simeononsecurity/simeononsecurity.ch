@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 19:17:57 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2020 03:32:03 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Firefox Privacy Script</title><link>/posts/firefox-privacy-script/</link><pubDate>Mon, 17 Aug 2020 03:32:03 -0500</pubDate><guid>/posts/firefox-privacy-script/</guid><description>
+&lt;h1 id="firefox-privacy-script">FireFox Privacy Script&lt;/h1>
+&lt;p>Organizations like &lt;a href="https://www.privacytools.io/browsers/#about_config">PrivacyTools.io&lt;/a> and &lt;a href="https://ffprofile.com/">ffprofile&lt;/a> have suggested changes to make FireFox more secure and private.
+These changes cover suggested browser extentions, blocking telemetry, disabling 3rd-party cookies, disabling trackers, etc.&lt;/p>
+&lt;p>This script will take the pregenerated FireFox configuration files and install them in the proper directories on a Windows system.&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/FireFox-Privacy-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-firefoxprivacy.ps1
+&lt;/code>&lt;/pre></description></item><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
 &lt;h1 id="firefox-stig-script">FireFox STIG Script&lt;/h1>
 &lt;p>The &lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a> isn&amp;rsquo;t the easiest of STIGs to apply.
 This script will implement most of the required FireFox policies. In the future, the FireFox ADMX templates and GPO&amp;rsquo;s will be applied in this script.&lt;/p>
@@ -563,12 +573,6 @@ Organizations like &lt;a href="https://PrivacyTools.io">PrivacyTools.io&lt;/a>, 
 &lt;p>&lt;a href="https://github.com/nsacyber/BitLocker-Guidance">NSACyber - Bitlocker Guidance&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://github.com/0x6d69636b/windows_hardening">0x6d69636b - Windows Hardening&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://docs.microsoft.com/en-us/sysinternals/downloads/accesschk">SysInternals - AccessChk&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
 &lt;p>&lt;a href="https://github.com/W4RH4WK/Debloat-Windows-10/tree/master/scripts">W4H4WK - Debloat Windows 10&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul>
@@ -635,7 +639,7 @@ Organizations like &lt;a href="https://PrivacyTools.io">PrivacyTools.io&lt;/a>, 
 &lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip">Microsoft .Net Framework 4 V1R9&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip">Microsoft .Net Framework 4 V1R9&lt;/a> - &lt;strong>Work in Progress&lt;/strong>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip">Oracle JRE 8 V1R5&lt;/a>&lt;/p>
@@ -643,13 +647,13 @@ Organizations like &lt;a href="https://PrivacyTools.io">PrivacyTools.io&lt;/a>, 
 &lt;/ul>
 &lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
 &lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">.&lt;span style="color:#ae81ff">\W&lt;/span>10-Optimize-and-Harden-master&lt;span style="color:#ae81ff">\i&lt;/span>nstallallstandalone.ps1
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/p>
-&lt;p>&lt;strong>In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">.&lt;span style="color:#ae81ff">\F&lt;/span>iles&lt;span style="color:#ae81ff">\S&lt;/span>cripts&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>Debloating, Optimization, and Privacy&lt;span style="color:#e6db74">&amp;#34;\&amp;#34;Windows_10_VDI&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\1&lt;/span>909_WindowsUpdateEnabled&lt;span style="color:#ae81ff">\W&lt;/span>in10_1909_VDI_Optimize.ps1
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>In order to enable the SSL Hardening you must uncomment the line below:&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">.&lt;span style="color:#ae81ff">\F&lt;/span>iles&lt;span style="color:#ae81ff">\S&lt;/span>cripts&lt;span style="color:#ae81ff">\P&lt;/span>ackage Management and Windows Updates&lt;span style="color:#ae81ff">\s&lt;/span>os-installpsmodules.ps1
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
+&lt;pre>&lt;code>.\W10-Optimize-and-Harden-master\optimize-standalone.ps1
+&lt;/code>&lt;/pre>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>&lt;strong>In order to enable the Windows 10 VDI Optimizations you must run the alternative script&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\W10-Optimize-and-Harden-master\optmize-vdi.ps1
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>In order to enable the SSL Hardening you must uncomment the line below:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\Files\Optional\&amp;quot;SSL Hardening Registries.ps1&amp;quot;
+&lt;/code>&lt;/pre></description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
 &lt;h1 id="automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts">Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts&lt;/h1>
 &lt;p>Download all supporting files from the &lt;a href="https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates">GitHub Repository&lt;/a>&lt;/p>
 &lt;p>     In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
