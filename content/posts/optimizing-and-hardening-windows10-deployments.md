@@ -55,10 +55,6 @@ This script is designed for operation in both **DoD** and **Personal Use** envir
 
 - [NSACyber - Bitlocker Guidance](https://github.com/nsacyber/BitLocker-Guidance)
 
-- [0x6d69636b - Windows Hardening](https://github.com/0x6d69636b/windows_hardening)
-
-- [SysInternals - AccessChk](https://docs.microsoft.com/en-us/sysinternals/downloads/accesschk)
-
 - [W4H4WK - Debloat Windows 10](https://github.com/W4RH4WK/Debloat-Windows-10/tree/master/scripts)
 
 ## Additional configurations were considered from:
@@ -104,27 +100,27 @@ This script is designed for operation in both **DoD** and **Personal Use** envir
 
 - [Firefox V4R29](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip)
 
-- [Microsoft .Net Framework 4 V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip)
+- [Microsoft .Net Framework 4 V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip) - **Work in Progress**
 
 - [Oracle JRE 8 V1R5](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip)
 
 ## How to run the script
 
 **The script may be lauched from the extracted GitHub download like this:**
-```shell
-.\W10-Optimize-and-Harden-master\installallstandalone.ps1
 ```
-The script we will be using must be launched from the directory containing all the other files from the [GitHub Repository](https://github.com/smiltech/W10-Optimize-and-Harden)
+.\W10-Optimize-and-Harden-master\optimize-standalone.ps1
+```
+The script we will be using must be launched from the directory containing all the other files from the [GitHub Repository](https://github.com/simeononsecurity/W10-Optimize-and-Harden)
 
 
-**In order to enable the Windows 10 VDI Optimizations you must uncomment the line below:**
-```shell
-.\Files\Scripts\"Debloating, Optimization, and Privacy"\"Windows_10_VDI"\1909_WindowsUpdateEnabled\Win10_1909_VDI_Optimize.ps1
+**In order to enable the Windows 10 VDI Optimizations you must run the alternative script**
+```
+.\W10-Optimize-and-Harden-master\optmize-vdi.ps1
 
 ```
 
 **In order to enable the SSL Hardening you must uncomment the line below:**
-```shell
-.\Files\Scripts\Package Management and Windows Updates\sos-installpsmodules.ps1
+```
+.\Files\Optional\"SSL Hardening Registries.ps1"
 
 ```
