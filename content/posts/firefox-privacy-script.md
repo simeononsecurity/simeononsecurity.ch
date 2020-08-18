@@ -1,5 +1,5 @@
 ---
-title: "Firefox Privacy Script"
+title: "FireFox Privacy Script"
 date: 2020-08-17T03:32:03-05:00
 draft: false
 ---
