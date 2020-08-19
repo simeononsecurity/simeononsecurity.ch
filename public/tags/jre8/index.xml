@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JRE8 on simeononsecurity</title><link>/tags/jre8/</link><description>Recent content in JRE8 on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 05 Aug 2020 21:54:53 -0500</lastBuildDate><atom:link href="/tags/jre8/index.xml" rel="self" type="application/rss+xml"/><item><title>Automating Oracle JRE 8 STIG</title><link>/posts/oracle-jre-8-stig/</link><pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate><guid>/posts/oracle-jre-8-stig/</guid><description>
+&lt;h1 id="automate-oracle-jre-8-stigs">Automate Oracle JRE 8 STIGS&lt;/h1>
+&lt;p>The Oracle JRE STIGs aren’t so straight forward, requiring administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIG-ing using group policy.&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/JAVA-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip">Oracle JRE 8 V1R5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="sources">Sources:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://gist.github.com/MyITGuy/9628895">MyITGuy - deployment.properties&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://stu.cbu.edu/java/docs/technotes/guides/deploy/properties.html">cbu.edu - Java Technotes&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-install-java-config.ps1
+&lt;/code>&lt;/pre></description></item></channel></rss>

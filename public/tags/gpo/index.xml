@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GPO on simeononsecurity</title><link>/tags/gpo/</link><description>Recent content in GPO on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Aug 2020 13:35:00 -0500</lastBuildDate><atom:link href="/tags/gpo/index.xml" rel="self" type="application/rss+xml"/><item><title>WMI Filters</title><link>/posts/wmi-filters/</link><pubDate>Tue, 11 Aug 2020 13:35:00 -0500</pubDate><guid>/posts/wmi-filters/</guid><description>
+&lt;h1 id="wmi-filters">WMI Filters&lt;/h1>
+&lt;p>A collection of WMI filters to assist with Windows Group Policy deployments&lt;/p>
+&lt;p>When deploying GPOs, Microsoft reccomends to use WMI filters to speed up the process and isolate policies in large domains.
+WMI Filters allow you to specify GPOs down to a specific piece of software or Windows version with the potential to get significantly much more complex.
+The linked GitHub Repository includes some of the most commonly used WMI filters so that you don&amp;rsquo;t have to create them.&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>Download the files from the &lt;a href="https://github.com/simeononsecurity/WMI-Filters">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-install-and-use-wmi-filters">How to install and use WMI Filters:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-wmi-filters-for-the-gpo">Create WMI Filters for the GPO&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.rebeladmin.com/2018/02/group-policy-wmi-filters-nutshell/">Group Policy: WMI Filters in a nutshell&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Brave ADMX Templates</title><link>/posts/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:39 -0500</pubDate><guid>/posts/brave-admx-templates/</guid><description>
+&lt;h1 id="braveadmx">BraveADMX&lt;/h1>
+&lt;p>Brave, as a company, has failed to release ADMX templates for the brave browser siteing pushing pure registries as the only supported option.
+As the Brave Browser is build off of Chromium, it should support most, if not all, the same policies from the Chromium and Google Chrome ADMX templates.
+With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Brave Browser&amp;rsquo;s registry path. After some initial troubleshooting and testing, the templatates seem to work.&lt;/p>
+&lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files.&lt;/h2>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/BraveADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;p>Modified Google Chrome Policy Definitions according to:
+&lt;a href="https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy">Brave Group Policy&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
+&lt;h2 id="how-to-install">How to install&lt;/h2>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;&lt;/p>
+&lt;p>2.) Profit?&lt;/p></description></item><item><title>Chromium ADMX Templates</title><link>/posts/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/posts/chromium-admx-templates/</guid><description>
+&lt;h1 id="chromiumadmx">ChromiumADMX&lt;/h1>
+&lt;p>Proper ADMX Template for the Chromium Browser&lt;/p>
+&lt;p>Brave, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.
+With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Chromium Browser&amp;rsquo;s registry path and placed in tandum in the Google ADMX Folder in GPO.&lt;/p>
+&lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/ChromiumADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;p>Modified Google Chrome Policy Definitions according to:
+&lt;a href="https://www.chromium.org/administrators/policy-templates">Chromium Policy Templates&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
+&lt;h2 id="how-to-install">How to install&lt;/h2>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;&lt;/p>
+&lt;p>2.) Profit?&lt;/p></description></item></channel></rss>

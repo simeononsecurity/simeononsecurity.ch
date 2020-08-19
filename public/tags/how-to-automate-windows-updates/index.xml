@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>How To Automate Windows Updates on simeononsecurity</title><link>/tags/how-to-automate-windows-updates/</link><description>Recent content in How To Automate Windows Updates on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 14:37:16 -0500</lastBuildDate><atom:link href="/tags/how-to-automate-windows-updates/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Branding</title><link>/posts/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 14:37:16 -0500</pubDate><guid>/posts/windows-10-branding/</guid><description>
+&lt;h1 id="setup-branding-on-windows-10-and-server-20162019-systems">Setup branding on Windows 10 and Server 2016/2019 Systems&lt;/h1>
+&lt;p>Many organizations have a need or want to control the branding of a Windows system.
+This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo.
+In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particularly easy.
+But, with the aide of the linked script, we can partially automate it and make the process much easier.&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Branding-Script">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="how-to-set-up-the-branding-files">How to set up the branding files&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Replace all images with your branding images
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> OEM logo must be either 95x95 or 120x20 and in &amp;ldquo;.bmp&amp;rdquo; format&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Generate the User Image along with 32x32, 40x40, 48x48, 192x192 variants.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Generate or copy user image for guest image.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;pre>&lt;code>.\sos-copybranding.ps1
+&lt;/code>&lt;/pre>&lt;h2 id="this-script-utilizes-the-following-tool">This script utilizes the following tool:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0 - LGPO&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
+&lt;h1 id="automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts">Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts&lt;/h1>
+&lt;p>Download all supporting files from the &lt;a href="https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>     In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
+Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.&lt;/p>
+&lt;h2 id="how-to-set-up-the-shutdown-script">How to set up the shutdown script&lt;/h2>
+&lt;p>We have chosen to set it up as a shutdown script to avoid having to reboot twice.
+We will be following the tutorial from &lt;a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789190(v=ws.11)">Microsoft&lt;/a> to do this.&lt;/p>
+&lt;p>In the windows gui perform the following steps:&lt;/p>
+&lt;p>1.) Open the Local Group Policy Editor by hitting &lt;strong>&amp;ldquo;Win + R&amp;rdquo;&lt;/strong> and typing &lt;strong>&amp;ldquo;gpedit.msc&amp;rdquo;&lt;/strong> followed by &lt;strong>&amp;ldquo;Ctrl + Shift + Enter&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>2.) Navigate to Computer &lt;strong>Configuration\Windows Settings\Scripts (Startup/Shutdown).&lt;/strong>&lt;/p>
+&lt;p>3.) In the results pane, double-click Shutdown.&lt;/p>
+&lt;p>4.) Select the powershell tab&lt;/p>
+&lt;p>5.) In the Shutdown Properties dialog box, click Add.&lt;/p>
+&lt;p>6.) In the Script Name box, type the path to the script, or click Browse to search &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;rdquo; in the Netlogon shared folder on the domain controller.&lt;/p>
+&lt;p>7.) Reboot&lt;/p>
+&lt;p>8.) Profit?&lt;/p>
+&lt;p>Now in the future, all an administrator has to do is reboot the computer to perform windows updates.&lt;/p>
+&lt;p>The same steps can be performed in GPO to acomplish the same thing on multiple Windows machines at the same time.&lt;/p>
+&lt;h2 id="how-the-script-works">How the script works&lt;/h2>
+&lt;p>&lt;strong>The script we will be working with today titled &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;quot;:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n useFipsCompliantChecksums
+choco upgrade all
+choco install pswindowsupdate
+Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Get-WuInstall -AcceptAll -IgnoreReboot
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>From &lt;a href="https://chocolatey.org/install">Chocolatey&lt;/a>, the script below installs the Chocolatey package manager:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Folowed by a couple prefered Chocolatey configuration changes;&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n useFipsCompliantChecksums
+choco upgrade all
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Lastly we will install and run &lt;a href="https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4">PSWindowsUpdates&lt;/a> to install all of the available windows updates.&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco install pswindowsupdate
+Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Get-WuInstall -AcceptAll -IgnoreReboot
+&lt;/code>&lt;/pre></description></item></channel></rss>

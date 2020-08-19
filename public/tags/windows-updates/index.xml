@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Updates on simeononsecurity</title><link>/tags/windows-updates/</link><description>Recent content in Windows Updates on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 14:37:16 -0500</lastBuildDate><atom:link href="/tags/windows-updates/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Branding</title><link>/posts/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 14:37:16 -0500</pubDate><guid>/posts/windows-10-branding/</guid><description>
+&lt;h1 id="setup-branding-on-windows-10-and-server-20162019-systems">Setup branding on Windows 10 and Server 2016/2019 Systems&lt;/h1>
+&lt;p>Many organizations have a need or want to control the branding of a Windows system.
+This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo.
+In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particularly easy.
+But, with the aide of the linked script, we can partially automate it and make the process much easier.&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Branding-Script">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="how-to-set-up-the-branding-files">How to set up the branding files&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Replace all images with your branding images
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> OEM logo must be either 95x95 or 120x20 and in &amp;ldquo;.bmp&amp;rdquo; format&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Generate the User Image along with 32x32, 40x40, 48x48, 192x192 variants.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Generate or copy user image for guest image.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;pre>&lt;code>.\sos-copybranding.ps1
+&lt;/code>&lt;/pre>&lt;h2 id="this-script-utilizes-the-following-tool">This script utilizes the following tool:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0 - LGPO&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+&lt;h1 id="optimizing-and-hardening-windows-10-deployments">Optimizing and Hardening Windows 10 Deployments&lt;/h1>
+&lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>We are seeking help with the following &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">.Net issue&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="introduction">Introduction:&lt;/h2>
+&lt;p>Windows 10 is an invasive and insecure operating system out of the box.
+Organizations like &lt;a href="https://PrivacyTools.io">PrivacyTools.io&lt;/a>, &lt;a href="https://microsoft.com">Microsoft&lt;/a>, &lt;a href="https://public.cyber.mil">Cyber.mil&lt;/a>, the &lt;a href="https://dod.gov">Department of Defense&lt;/a>, and the &lt;a href="https://www.nsa.gov/">National Security Agency&lt;/a> have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many physical attacks on a system.&lt;/p>
+&lt;h2 id="notes">Notes:&lt;/h2>
+&lt;p>This script is designed for operation in both &lt;strong>DoD&lt;/strong> and &lt;strong>Personal Use&lt;/strong> environments. With that in mind, certain settings are not implemented. This script is not designed to bring a system to 100% compliance. Rather it should be used as a stepping stone to complete most, if not all, the configuration changes that can be scripted while skipping past issues like branding and banners where those should not be implemented even in a hardened personal use environment.&lt;/p>
+&lt;h2 id="requirements">Requirements:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Windows 10 Enterprise (&lt;strong>Preferred&lt;/strong>) or Windows 10 Professional
+&lt;ul>
+&lt;li>Windows 10 Home does not allow for GPO configurations.&lt;/li>
+&lt;li>Windows 10 &amp;ldquo;N&amp;rdquo; Editions are not tested.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure">Standards&lt;/a> for a highly secure Windows 10 device&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> System is &lt;a href="https://support.microsoft.com/en-gb/help/4027667/windows-10-update">fully up to date&lt;/a>
+&lt;ul>
+&lt;li>Currently Windows 10 &lt;strong>v1909&lt;/strong> or &lt;strong>v2004&lt;/strong>.&lt;/li>
+&lt;li>Run the &lt;a href="https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant">Windows 10 Upgrade Assistant&lt;/a> to be update and verify latest major release.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Hardware Requirements
+&lt;ul>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/requirements-and-deployment-planning-guidelines-for-virtualization-based-protection-of-code-integrity#baseline-protections">Hardware Requirements for Memory Integrity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/reqs-wd-app-guard">Hardware Requirements for Windows Defender Application Guard&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-requirements">Hardware Requirements for Windows Defender Credential Guard&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="recommended-reading-material">Recommended reading material:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-secure-launch-and-smm-protection#requirements-met-by-system-guard-enabled-machines">System Guard Secure Launch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows">System Guard Root of Trust&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-hardware-based-isolation">Hardware-based Isolation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/memory-integrity">Memory integrity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview">Windows Defender Application Guard&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-how-it-works">Windows Defender Credential Guard&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="a-list-of-scripts-and-tools-this-collection-utilizes">A list of scripts and tools this collection utilizes:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://public.cyber.mil/stigs/gpo/">Cyber.mil - Group Policy Objects&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/Sycnex/Windows10Debloater">Sycnex - Windows10Debloater&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/TheVDIGuys/Windows_10_VDI_Optimize">TheVDIGuys - Windows 10 VDI Optimize&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/builtbybel/sharpapp">Mirinsoft - SharpApp&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/builtbybel/debotnet">Mirinsoft - debotnet&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/nsacyber/BitLocker-Guidance">NSACyber - Bitlocker Guidance&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/W4RH4WK/Debloat-Windows-10/tree/master/scripts">W4H4WK - Debloat Windows 10&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="additional-configurations-were-considered-from">Additional configurations were considered from:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance">NSACyber - Hardware-and-Firmware-Security-Guidance&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm">NSACyber - Application Whitelisting Using Microsoft AppLocker&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps">Whonix - Disable TCP Timestamps&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://kb.cert.org/vuls/id/573168/">CERT - IE Scripting Engine Memory Corruption&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/">Dirteam - SSL Hardening&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities">Microsoft - Specture and Meltdown Mitigations&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/privacy/">Microsoft - Windows 10 Privacy&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services">Microsoft - Managing Windows 10 Telemetry and Callbacks&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909">Microsoft - Windows 10 VDI Recomendations&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip">Windows 10 V1R23&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip">Windows Defender Antivirus V1R9&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip">Windows Firewall V1R7&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip">Internet Explorer 11 V1R19&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip">Adobe Reader Pro DC Continous V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Office_365_ProPlus_V1R2_STIG.zip">Microsoft Office 2019/Office 365 Pro Plus V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_Microsoft_Office_2016_V1R2_Overview.pdf">Microsoft Office 2016 V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MicrosoftOffice2013_V1R5_Overview.zip">Microsoft Office 2013 V1R5&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip">Google Chrome V1R19&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip">Microsoft .Net Framework 4 V1R9&lt;/a> - &lt;strong>Work in Progress&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip">Oracle JRE 8 V1R5&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\W10-Optimize-and-Harden-master\optimize-standalone.ps1
+&lt;/code>&lt;/pre>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>&lt;strong>In order to enable the Windows 10 VDI Optimizations you must run the alternative script&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\W10-Optimize-and-Harden-master\optmize-vdi.ps1
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>In order to enable the SSL Hardening you must uncomment the line below:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\Files\Optional\&amp;quot;SSL Hardening Registries.ps1&amp;quot;
+&lt;/code>&lt;/pre></description></item><item><title>Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts</title><link>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 17:46:00 -0500</pubDate><guid>/posts/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><description>
+&lt;h1 id="automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts">Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts&lt;/h1>
+&lt;p>Download all supporting files from the &lt;a href="https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates">GitHub Repository&lt;/a>&lt;/p>
+&lt;p>     In today&amp;rsquo;s modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
+Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine.&lt;/p>
+&lt;h2 id="how-to-set-up-the-shutdown-script">How to set up the shutdown script&lt;/h2>
+&lt;p>We have chosen to set it up as a shutdown script to avoid having to reboot twice.
+We will be following the tutorial from &lt;a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789190(v=ws.11)">Microsoft&lt;/a> to do this.&lt;/p>
+&lt;p>In the windows gui perform the following steps:&lt;/p>
+&lt;p>1.) Open the Local Group Policy Editor by hitting &lt;strong>&amp;ldquo;Win + R&amp;rdquo;&lt;/strong> and typing &lt;strong>&amp;ldquo;gpedit.msc&amp;rdquo;&lt;/strong> followed by &lt;strong>&amp;ldquo;Ctrl + Shift + Enter&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>2.) Navigate to Computer &lt;strong>Configuration\Windows Settings\Scripts (Startup/Shutdown).&lt;/strong>&lt;/p>
+&lt;p>3.) In the results pane, double-click Shutdown.&lt;/p>
+&lt;p>4.) Select the powershell tab&lt;/p>
+&lt;p>5.) In the Shutdown Properties dialog box, click Add.&lt;/p>
+&lt;p>6.) In the Script Name box, type the path to the script, or click Browse to search &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;rdquo; in the Netlogon shared folder on the domain controller.&lt;/p>
+&lt;p>7.) Reboot&lt;/p>
+&lt;p>8.) Profit?&lt;/p>
+&lt;p>Now in the future, all an administrator has to do is reboot the computer to perform windows updates.&lt;/p>
+&lt;p>The same steps can be performed in GPO to acomplish the same thing on multiple Windows machines at the same time.&lt;/p>
+&lt;h2 id="how-the-script-works">How the script works&lt;/h2>
+&lt;p>&lt;strong>The script we will be working with today titled &amp;ldquo;&lt;em>chocoautomatewindowsupdates.ps1&lt;/em>&amp;quot;:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n useFipsCompliantChecksums
+choco upgrade all
+choco install pswindowsupdate
+Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Get-WuInstall -AcceptAll -IgnoreReboot
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>From &lt;a href="https://chocolatey.org/install">Chocolatey&lt;/a>, the script below installs the Chocolatey package manager:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Folowed by a couple prefered Chocolatey configuration changes;&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n useFipsCompliantChecksums
+choco upgrade all
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Lastly we will install and run &lt;a href="https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4">PSWindowsUpdates&lt;/a> to install all of the available windows updates.&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>choco install pswindowsupdate
+Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Get-WuInstall -AcceptAll -IgnoreReboot
+&lt;/code>&lt;/pre></description></item></channel></rss>

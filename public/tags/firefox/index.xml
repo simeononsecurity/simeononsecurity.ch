@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FireFox on simeononsecurity</title><link>/tags/firefox/</link><description>Recent content in FireFox on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2020 03:32:03 -0500</lastBuildDate><atom:link href="/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>FireFox Privacy Script</title><link>/posts/firefox-privacy-script/</link><pubDate>Mon, 17 Aug 2020 03:32:03 -0500</pubDate><guid>/posts/firefox-privacy-script/</guid><description>
+&lt;h1 id="firefox-privacy-script">FireFox Privacy Script&lt;/h1>
+&lt;p>Organizations like &lt;a href="https://www.privacytools.io/browsers/#about_config">PrivacyTools.io&lt;/a> and &lt;a href="https://ffprofile.com/">ffprofile&lt;/a> have suggested changes to make FireFox more secure and private.
+These changes cover suggested browser extentions, blocking telemetry, disabling 3rd-party cookies, disabling trackers, etc.&lt;/p>
+&lt;p>This script will take the pregenerated FireFox configuration files and install them in the proper directories on a Windows system.&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/FireFox-Privacy-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-firefoxprivacy.ps1
+&lt;/code>&lt;/pre></description></item><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
+&lt;h1 id="firefox-stig-script">FireFox STIG Script&lt;/h1>
+&lt;p>The &lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a> isn&amp;rsquo;t the easiest of STIGs to apply.
+This script will implement most of the required FireFox policies. In the future, the FireFox ADMX templates and GPO&amp;rsquo;s will be applied in this script.&lt;/p>
+&lt;p>&lt;strong>Work In Progress&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/FireFox-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-firefoxstig.ps1
+&lt;/code>&lt;/pre></description></item></channel></rss>
