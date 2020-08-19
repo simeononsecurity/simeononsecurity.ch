@@ -2,7 +2,7 @@
 title: "Windows 10 Branding"
 date: 2020-08-14T14:37:16-05:00
 draft: false
-tags: ['Automation', 'How To Automate Windows Updates', 'Windows Updates', 'Windows 10', 'Powershell', 'Script']
+tags: ['Automation', 'Branding', 'Windows Branding', 'Customization', 'Windows Customization', 'Windows 10', 'Powershell', 'Script']
 ---
 
 # Setup branding on Windows 10 and Server 2016/2019 Systems
