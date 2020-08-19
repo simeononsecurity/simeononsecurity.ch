@@ -2,6 +2,7 @@
 title: "Optimizing and Hardening Windows 10 Deployments"
 date: 2020-07-22T20:15:14-05:00
 draft: false
+tags: ['Automation', 'How To Automate Windows STIG', 'Windows Updates', 'Compliance', 'Windows 10 STIG', 'Windows 10 Hardening', 'Windows 10', 'Powershell', 'Script']
 ---
 # Optimizing and Hardening Windows 10 Deployments
 

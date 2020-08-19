@@ -1,7 +1,8 @@
 ---
 title: "Brave ADMX Templates"
 date: 2020-07-25T19:30:39-05:00
-draft: true
+draft: false
+tags: ['ADMX', 'ADMX Templates', 'Brave Browser', 'Group Policy', 'GPO']
 ---
 
 # BraveADMX

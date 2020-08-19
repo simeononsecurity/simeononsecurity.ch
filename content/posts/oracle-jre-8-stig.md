@@ -2,6 +2,7 @@
 title: "Automating Oracle JRE 8 STIG"
 date: 2020-08-05T21:54:53-05:00
 draft: false
+tags: ['JAVA', 'STIG', 'JAVA STIG', 'JRE', 'JRE8', 'JRE STIG', 'Compliance', 'Automation', 'Powershell', 'Script']
 ---
 
 # Automate Oracle JRE 8 STIGS

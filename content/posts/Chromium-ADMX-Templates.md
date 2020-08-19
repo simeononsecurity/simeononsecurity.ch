@@ -2,6 +2,7 @@
 title: "Chromium ADMX Templates"
 date: 2020-07-25T19:30:33-05:00
 draft: false
+tags: ['ADMX', 'ADMX Templates', 'Chromium Browser', 'Chromium', 'Group Policy', 'GPO']
 ---
 
 # ChromiumADMX
