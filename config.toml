@@ -47,10 +47,10 @@ relativeURLs = true
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
     # leave empty to disable, enter display text to enable
-    lastModDisplay = ""
+    lastModDisplay = "Modified:"
 
     [languages.en.params.logo]
-      logoText = "simeononsecurity"
+      logoText = "simeononsecurity/"
       logoHomeLink = "/"
     # or
     #
@@ -70,23 +70,6 @@ relativeURLs = true
         identifier = "about"
         name = "About"
         url = "/about"
-	  [[languages.en.menu.main]]
-        identifier = "Contact Us"
-        name = "Contact Us"
-        url = "/contactus"
-	  [[languages.en.menu.main]]
-        identifier = "Privacy"
-        name = "Privacy"
-		url = "/privacypolicy"
-	  [[languages.en.menu.main]]
-        identifier = "Termsandconditions"
-        name = "Terms"
-        url = "/termsandconditions"
-	  [[languages.en.menu.main]]
-        identifier = "Sitemap"
-        name = "Sitemap"
-        url = "/sitemap.xml"		
-		
     #  [[languages.en.menu.main]]
     #    identifier = "showcase"
     #    name = "Showcase"
