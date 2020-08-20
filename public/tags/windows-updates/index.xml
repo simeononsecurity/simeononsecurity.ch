@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Updates on simeononsecurity</title><link>/tags/windows-updates/</link><description>Recent content in Windows Updates on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 14:37:16 -0500</lastBuildDate><atom:link href="/tags/windows-updates/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Branding</title><link>/posts/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 14:37:16 -0500</pubDate><guid>/posts/windows-10-branding/</guid><description>
-&lt;h1 id="setup-branding-on-windows-10-and-server-20162019-systems">Setup branding on Windows 10 and Server 2016/2019 Systems&lt;/h1>
-&lt;p>Many organizations have a need or want to control the branding of a Windows system.
-This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo.
-In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particularly easy.
-But, with the aide of the linked script, we can partially automate it and make the process much easier.&lt;/p>
-&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
-&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Branding-Script">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
-&lt;h2 id="how-to-set-up-the-branding-files">How to set up the branding files&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Replace all images with your branding images
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> OEM logo must be either 95x95 or 120x20 and in &amp;ldquo;.bmp&amp;rdquo; format&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Generate the User Image along with 32x32, 40x40, 48x48, 192x192 variants.&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Generate or copy user image for guest image.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
-&lt;pre>&lt;code>.\sos-copybranding.ps1
-&lt;/code>&lt;/pre>&lt;h2 id="this-script-utilizes-the-following-tool">This script utilizes the following tool:&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit 1.0 - LGPO&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Updates on simeononsecurity</title><link>/tags/windows-updates/</link><description>Recent content in Windows Updates on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 22 Jul 2020 20:15:14 -0500</lastBuildDate><atom:link href="/tags/windows-updates/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
 &lt;h1 id="optimizing-and-hardening-windows-10-deployments">Optimizing and Hardening Windows 10 Deployments&lt;/h1>
 &lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>We are seeking help with the following &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">.Net issue&lt;/a>&lt;/strong>&lt;/p>
