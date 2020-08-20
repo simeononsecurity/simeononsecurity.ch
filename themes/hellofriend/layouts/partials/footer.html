@@ -3,7 +3,7 @@
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
-      {{ partial "logo.html" . }}
+	<center>
 	  <div><span><a href="/privacypolicy/" target="_blank" rel="noopener">Privacy</a></span></div>
       <div><span><a href="/termsandconditions/" target="_blank" rel="noopener">Terms</a></span></span></div>
       <div><span><a href="/contactus/" target="_blank" rel="noopener">Contact</a></span></span></div>
@@ -11,6 +11,7 @@
 	  <div class="copyright">
         <span>© {{ now.Year }}</span>
       </div>
+	</center>
     {{end}}
   </div>
 </footer>
