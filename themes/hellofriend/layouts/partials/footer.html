@@ -3,15 +3,14 @@
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
-	<center>
+	  <div><span><a href="/contactus/" target="_blank" rel="noopener">Contact</a></span></span></div>
 	  <div><span><a href="/privacypolicy/" target="_blank" rel="noopener">Privacy</a></span></div>
       <div><span><a href="/termsandconditions/" target="_blank" rel="noopener">Terms</a></span></span></div>
-      <div><span><a href="/contactus/" target="_blank" rel="noopener">Contact</a></span></span></div>
       <div><span><a href="/sitemap.xml" target="_blank" rel="noopener">Sitemap</a></span></span></div>
+	  <div><span><a href="/index.xml" target="_blank" rel="noopener">RSS</a></span></span></div>
 	  <div class="copyright">
-        <span>© {{ now.Year }}</span>
+        <span>© {{ now.Year }} SimeonOnSecurity</span>
       </div>
-	</center>
     {{end}}
   </div>
 </footer>
