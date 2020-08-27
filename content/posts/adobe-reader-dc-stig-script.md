@@ -5,7 +5,7 @@ draft: false
 tags: ['Adobe', 'STIG', 'Adobe Reader DC', 'Adobe Reader', 'Adobe Reader', 'Adobe Reader STIG', 'Compliance', 'Automation', 'Powershell', 'Script']
 ---
 
-# Automate Oracle Adobe Reader 8 STIGS
+# Automate Adobe Reader Pro DC STIG
 
 Apply the Adobe Reader Pro DC STIGs in one simple script.
 
