@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on simeononsecurity</title><link>/tags/automation/</link><description>Recent content in Automation on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 16:50:08 -0500</lastBuildDate><atom:link href="/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Reader DC STIG Script</title><link>/posts/adobe-reader-dc-stig-script/</link><pubDate>Thu, 27 Aug 2020 16:50:08 -0500</pubDate><guid>/posts/adobe-reader-dc-stig-script/</guid><description>
-&lt;h1 id="automate-oracle-adobe-reader-8-stigs">Automate Oracle Adobe Reader 8 STIGS&lt;/h1>
+&lt;h1 id="automate-adobe-reader-pro-dc-stig">Automate Adobe Reader Pro DC STIG&lt;/h1>
 &lt;p>Apply the Adobe Reader Pro DC STIGs in one simple script.&lt;/p>
 &lt;h1 id="notes">Notes&lt;/h1>
 &lt;p>&lt;strong>This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.&lt;/strong>&lt;/p>
