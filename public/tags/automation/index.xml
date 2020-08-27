@@ -10,7 +10,7 @@
 &lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
 &lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>.\sos-adobe-stig.ps1
-&lt;/code>&lt;/pre></description></item><item><title>Stiging Standalone Windows Systems</title><link>/posts/stiging-standalone-windows-systems/</link><pubDate>Wed, 26 Aug 2020 11:59:03 -0500</pubDate><guid>/posts/stiging-standalone-windows-systems/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>STIGing Standalone Windows Systems</title><link>/posts/stiging-standalone-windows-systems/</link><pubDate>Wed, 26 Aug 2020 11:59:03 -0500</pubDate><guid>/posts/stiging-standalone-windows-systems/</guid><description>
 &lt;h1 id="stiging-standalone-windows-10-systems">STIGing Standalone Windows 10 Systems&lt;/h1>
 &lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>We are seeking help with the following &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">.Net issue&lt;/a>&lt;/strong>&lt;/p>
