@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STIG on simeononsecurity</title><link>/tags/stig/</link><description>Recent content in STIG on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 19:17:57 -0500</lastBuildDate><atom:link href="/tags/stig/index.xml" rel="self" type="application/rss+xml"/><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STIG on simeononsecurity</title><link>/tags/stig/</link><description>Recent content in STIG on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 16:50:08 -0500</lastBuildDate><atom:link href="/tags/stig/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Reader DC STIG Script</title><link>/posts/adobe-reader-dc-stig-script/</link><pubDate>Thu, 27 Aug 2020 16:50:08 -0500</pubDate><guid>/posts/adobe-reader-dc-stig-script/</guid><description>
+&lt;h1 id="automate-oracle-adobe-reader-8-stigs">Automate Oracle Adobe Reader 8 STIGS&lt;/h1>
+&lt;p>Apply the Adobe Reader Pro DC STIGs in one simple script.&lt;/p>
+&lt;h1 id="notes">Notes&lt;/h1>
+&lt;p>&lt;strong>This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.&lt;/strong>&lt;/p>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip">Adobe Reader Pro DC Continous V1R2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-adobe-stig.ps1
+&lt;/code>&lt;/pre></description></item><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
 &lt;h1 id="firefox-stig-script">FireFox STIG Script&lt;/h1>
 &lt;p>The &lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a> isn&amp;rsquo;t the easiest of STIGs to apply.
 This script will implement most of the required FireFox policies. In the future, the FireFox ADMX templates and GPO&amp;rsquo;s will be applied in this script.&lt;/p>
