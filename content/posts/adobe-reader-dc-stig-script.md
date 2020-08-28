@@ -9,7 +9,7 @@ tags: ['Adobe', 'STIG', 'Adobe Reader DC', 'Adobe Reader', 'Adobe Reader', 'Adob
 
 Apply the Adobe Reader Pro DC STIGs in one simple script.
 
-# Notes
+## Notes:
 
 **This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.**
 
