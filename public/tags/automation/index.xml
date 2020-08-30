@@ -12,6 +12,8 @@
 &lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip">Adobe Reader Pro DC Classic V1R3&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul>
+&lt;h2 id="download-the-script">Download the script:&lt;/h2>
+&lt;p>You may download the script from the &lt;a href="https://github.com/simeononsecurity/Adobe-Reader-DC-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
 &lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
 &lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>.\sos-adobe-stig.ps1
