@@ -5,7 +5,12 @@
 &lt;p>&lt;strong>This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.&lt;/strong>&lt;/p>
 &lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip">Adobe Reader Pro DC Continous V1R2&lt;/a>&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Classic_V1R3_STIG.zip">Adobe Reader Pro DC Continous V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip">Adobe Reader Pro DC Classic V1R3&lt;/a>&lt;/p>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
 &lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
