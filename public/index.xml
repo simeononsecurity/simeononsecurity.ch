@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 16:50:08 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Reader DC STIG Script</title><link>/posts/adobe-reader-dc-stig-script/</link><pubDate>Thu, 27 Aug 2020 16:50:08 -0500</pubDate><guid>/posts/adobe-reader-dc-stig-script/</guid><description>
 &lt;h1 id="automate-adobe-reader-pro-dc-stig">Automate Adobe Reader Pro DC STIG&lt;/h1>
 &lt;p>Apply the Adobe Reader Pro DC STIGs in one simple script.&lt;/p>
-&lt;h1 id="notes">Notes&lt;/h1>
+&lt;h2 id="notes">Notes:&lt;/h2>
 &lt;p>&lt;strong>This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.&lt;/strong>&lt;/p>
 &lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
 &lt;ul>
@@ -14,7 +14,7 @@
 &lt;/ul>
 &lt;h2 id="download-the-script">Download the script:&lt;/h2>
 &lt;p>You may download the script from the &lt;a href="https://github.com/simeononsecurity/Adobe-Reader-DC-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
-&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
 &lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>.\sos-adobe-stig.ps1
 &lt;/code>&lt;/pre></description></item><item><title>STIGing Standalone Windows Systems</title><link>/posts/stiging-standalone-windows-systems/</link><pubDate>Wed, 26 Aug 2020 11:59:03 -0500</pubDate><guid>/posts/stiging-standalone-windows-systems/</guid><description>
