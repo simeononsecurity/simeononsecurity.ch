@@ -1,6 +1,7 @@
 ---
 title: "WMI Filters"
 date: 2020-08-11T13:35:00-05:00
+toc: true
 draft: false
 tags: ['WMI', 'WMI Filters', 'Windows Management Instrumentation', 'Group Policy', 'GPO']
 ---

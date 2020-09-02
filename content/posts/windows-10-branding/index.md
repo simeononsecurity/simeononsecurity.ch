@@ -1,6 +1,7 @@
 ---
 title: "Windows 10 Branding"
 date: 2020-08-14T14:37:16-05:00
+toc: true
 draft: false
 tags: ['Automation', 'Branding', 'Windows Branding', 'Customization', 'Windows Customization', 'Windows 10', 'Powershell', 'Script']
 ---

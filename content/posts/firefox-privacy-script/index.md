@@ -1,6 +1,7 @@
 ---
 title: "FireFox Privacy Script"
 date: 2020-08-17T03:32:03-05:00
+toc: true
 draft: false
 tags: ['FireFox', 'Privacy', 'FireFox Privacy', 'Automation', 'Powershell', 'Script']
 ---

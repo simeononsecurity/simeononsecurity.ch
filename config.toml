@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "simeononsecurity"
-theme = "hellofriend"
+theme = "soshellofriend"
 baseurl = "/"
 paginate = 5
 canonifyURLs = true
@@ -13,6 +13,7 @@ relativeURLs = true
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
+  contentdir = "content"
 
   # "light" or "dark"
   defaultTheme = "dark"
@@ -21,11 +22,11 @@ relativeURLs = true
   showMenuItems = 3
 
   # Show reading time in minutes for posts
-  showReadingTime = true
+  #showReadingTime = true
 
   # Show table of contents at the top of your posts (defaults to false)
   # Alternatively, add this param to post front matter for specific posts
-  toc = true
+  #toc = true
 
   # Show full page content in RSS feed items
   #(default is Description or Summary metadata in the front matter)

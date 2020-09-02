@@ -1,6 +1,7 @@
 ---
 title: "FireFox STIG Script"
 date: 2020-08-15T19:17:57-05:00
+toc: true
 draft: false
 tags: ['FireFox', 'STIG', 'FireFox STIG', 'Compliance', 'Automation', 'Powershell', 'Script']
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts"
 date: 2020-07-22T17:46:00-05:00
+toc: true
 draft: false
 tags: ['Automation', 'How To Automate Windows Updates', 'Windows Updates', 'Windows 10', 'Powershell', 'Script']
 ---
