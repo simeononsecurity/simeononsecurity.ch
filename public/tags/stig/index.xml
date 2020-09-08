@@ -17,6 +17,27 @@
 &lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
 &lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>.\sos-adobe-stig.ps1
+&lt;/code>&lt;/pre></description></item><item><title>Dot NET STIG Script</title><link>/posts/dot-net-stig-script/</link><pubDate>Thu, 20 Aug 2020 22:14:22 -0500</pubDate><guid>/posts/dot-net-stig-script/</guid><description>
+&lt;h1 id="automate-the-net-framework-4-stig">Automate the .NET Framework 4 STIG&lt;/h1>
+&lt;p>Applying the .NET STIG is definitely not straightforward. For many administrators it can take hours to fully implement on a single system. This script applies the required registry changes and modifies the machine.config file to implement FIPS and other controls as required.&lt;/p>
+&lt;p>&lt;strong>Work in Progress&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>DO NOT APPLY IN PRODUCTION&lt;/strong>&lt;/p>
+&lt;h2 id="notes">Notes:&lt;/h2>
+&lt;p>This script can not and will not ever get the .NET stig to 100% compliance.
+Manual intervention is required for any .NET application or IIS Site.&lt;/p>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip">Microsoft .Net Framework 4 V1R9&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="sources">Sources:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/dotnet/framework/">Microsoft .NET Framework Documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="download-the-required-files">Download the required files:&lt;/h2>
+&lt;p>You may download the required files from the &lt;a href="https://raw.githubusercontent.com/simeononsecurity/.NET-STIG-Script/">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-scripta">How to run the scripta;&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-.net-4-stig.ps1
 &lt;/code>&lt;/pre></description></item><item><title>FireFox STIG Script</title><link>/posts/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 19:17:57 -0500</pubDate><guid>/posts/firefox-stig-script/</guid><description>
 &lt;h1 id="firefox-stig-script">FireFox STIG Script&lt;/h1>
 &lt;p>The &lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a> isn&amp;rsquo;t the easiest of STIGs to apply.
