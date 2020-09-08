@@ -8,6 +8,7 @@ disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
 relativeURLs = true
+enableGitInfo = true
 
 [params]
   #Google Analytics Tag
@@ -81,3 +82,8 @@ relativeURLs = true
     #    identifier = "showcase"
     #    name = "Showcase"
     #    url = "/showcase"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
