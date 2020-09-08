@@ -265,8 +265,8 @@ sudo apt-get install -y certbot python3-certbot-apache
 &lt;pre>&lt;code>sudo certbot certonly --apache
 &lt;/code>&lt;/pre>&lt;h4 id="step-3-test-automatic-renewal">Step 3: Test automatic renewal&lt;/h4>
 &lt;pre>&lt;code>sudo certbot renew --dry-run
-&lt;/code>&lt;/pre></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
-&lt;h1 id="optimizing-and-hardening-windows-10-deployments">Optimizing and Hardening Windows 10 Deployments&lt;/h1>
+&lt;/code>&lt;/pre></description></item><item><title>Optimize, Harden, and Debloat Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+&lt;h1 id="optimize-harden-and-debloat-windows-10-deployments">Optimize, Harden, and Debloat Windows 10 Deployments&lt;/h1>
 &lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>We are seeking help with the following &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">.Net issue&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="introduction">Introduction:&lt;/h2>

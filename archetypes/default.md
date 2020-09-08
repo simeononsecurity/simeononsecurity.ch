@@ -7,6 +7,5 @@ toc: true
 #<!--- images :
 #- site-feature-image.jpg --->
 #series: "series"
-
 ---
 

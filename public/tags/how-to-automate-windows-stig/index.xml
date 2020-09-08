@@ -109,8 +109,8 @@ Organizations like &lt;a href="https://microsoft.com">Microsoft&lt;/a>, &lt;a hr
 &lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
 &lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>.\secure-standalone.ps1
-&lt;/code>&lt;/pre>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script">GitHub Repository&lt;/a>&lt;/p></description></item><item><title>Optimizing and Hardening Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
-&lt;h1 id="optimizing-and-hardening-windows-10-deployments">Optimizing and Hardening Windows 10 Deployments&lt;/h1>
+&lt;/code>&lt;/pre>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script">GitHub Repository&lt;/a>&lt;/p></description></item><item><title>Optimize, Harden, and Debloat Windows 10 Deployments</title><link>/posts/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><guid>/posts/optimizing-and-hardening-windows10-deployments/</guid><description>
+&lt;h1 id="optimize-harden-and-debloat-windows-10-deployments">Optimize, Harden, and Debloat Windows 10 Deployments&lt;/h1>
 &lt;p>&lt;strong>Download all the required files from the &lt;a href="https://github.com/smiltech/W10-Optimize-and-Harden">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>We are seeking help with the following &lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">.Net issue&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="introduction">Introduction:&lt;/h2>
