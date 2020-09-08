@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 16:50:08 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Reader DC STIG Script</title><link>/posts/adobe-reader-dc-stig-script/</link><pubDate>Thu, 27 Aug 2020 16:50:08 -0500</pubDate><guid>/posts/adobe-reader-dc-stig-script/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><link>/</link><description>Recent content on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Sep 2020 15:13:17 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>STIG Compliant GPOs and Importing them in a Windows Domain</title><link>/posts/stig-compliant-domain-prep/</link><pubDate>Tue, 08 Sep 2020 15:13:17 -0500</pubDate><guid>/posts/stig-compliant-domain-prep/</guid><description>
+&lt;h1 id="stig-compliant-domain-prep">STIG Compliant Domain Prep&lt;/h1>
+&lt;p>Import all the GPOs provided by SimeonOnSecurity to assist in making your domain compliant with all applicable STIGs and SRGs.&lt;/p>
+&lt;h2 id="notes">Notes:&lt;/h2>
+&lt;p>&lt;strong>This script is designed for use in Enterprise environments&lt;/strong>&lt;/p>
+&lt;h2 id="additional-configurations-were-considered-from">Additional configurations were considered from:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance">NSACyber - Hardware-and-Firmware-Security-Guidance&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm">NSACyber - Application Whitelisting Using Microsoft AppLocker&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps">Whonix - Disable TCP Timestamps&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://kb.cert.org/vuls/id/573168/">CERT - IE Scripting Engine Memory Corruption&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/">Dirteam - SSL Hardening&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities">Microsoft - Specture and Meltdown Mitigations&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/privacy/">Microsoft - Windows 10 Privacy&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services">Microsoft - Managing Windows 10 Telemetry and Callbacks&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909">Microsoft - Windows 10 VDI Recomendations&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip">Windows 10 V1R23&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip">Windows Defender Antivirus V1R9&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip">Windows Firewall V1R7&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip">Internet Explorer 11 V1R19&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Classic_V1R3_STIG.zip">Adobe Reader Pro DC Continous V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Continuous_V1R2_STIG.zip">Adobe Reader Pro DC Classic V1R3&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Office_365_ProPlus_V1R2_STIG.zip">Microsoft Office 2019/Office 365 Pro Plus V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_Microsoft_Office_2016_V1R2_Overview.pdf">Microsoft Office 2016 V1R2&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MicrosoftOffice2013_V1R5_Overview.zip">Microsoft Office 2013 V1R5&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Google_Chrome_V1R19_STIG.zip">Google Chrome V1R19&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">Firefox V4R29&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip">Microsoft .Net Framework 4 V1R9&lt;/a> - &lt;strong>Work in Progress&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip">Oracle JRE 8 V1R5&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script&lt;/h2>
+&lt;p>&lt;strong>The script may be launched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-stig-compliant-domain-prep.ps1
+&lt;/code>&lt;/pre>&lt;p>The script we will be using must be launched from the directory containing all the other files from the &lt;a href="https://github.com/simeononsecurity/STIG-Compliant-Domain-Prep">GitHub Repository&lt;/a>&lt;/p></description></item><item><title>Adobe Reader DC STIG Script</title><link>/posts/adobe-reader-dc-stig-script/</link><pubDate>Thu, 27 Aug 2020 16:50:08 -0500</pubDate><guid>/posts/adobe-reader-dc-stig-script/</guid><description>
 &lt;h1 id="automate-adobe-reader-pro-dc-stig">Automate Adobe Reader Pro DC STIG&lt;/h1>
 &lt;p>Apply the Adobe Reader Pro DC STIGs in one simple script.&lt;/p>
 &lt;h2 id="notes">Notes:&lt;/h2>
