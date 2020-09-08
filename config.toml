@@ -8,7 +8,6 @@ disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
 relativeURLs = true
-#googleAnalytics = "UA-173461240-1"
 
 [params]
   # dir name of your blog content (default is `content/posts`).
