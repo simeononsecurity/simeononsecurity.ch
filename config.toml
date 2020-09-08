@@ -8,9 +8,14 @@ disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
 relativeURLs = true
-googleAnalytics = "UA-173461240-1"
 
 [params]
+  #Google Analytics Tag
+  googleAnalytics = "UA-173461240-1"
+
+  #Site Post Cover
+  images = ["/img/banner.png"]
+
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
