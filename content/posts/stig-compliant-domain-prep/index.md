@@ -1,5 +1,5 @@
 ---
-title: "STIG Compliant GPOs and Importing them in a Windows Domain"
+title: "STIG Compliant GPOs and Importing them into a Windows Domain"
 date: 2020-09-08T15:13:17-05:00
 draft: false
 tags: ['Windows Domain', 'Group Policy Objects', 'Compliance', 'Automation', 'Powershell', 'GPO', 'Active Directory', 'Remote Server Administration Tools', 'RSAT', 'Windows Server', 'Domain Controller', 'STIG', 'SRG']
@@ -14,27 +14,6 @@ Import all the GPOs provided by SimeonOnSecurity to assist in making your domain
 ## Notes:
 
 **This script is designed for use in Enterprise environments**
-
-## Additional configurations were considered from:
-
-- [NSACyber - Hardware-and-Firmware-Security-Guidance](https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance)
-
-- [NSACyber - Application Whitelisting Using Microsoft AppLocker](https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm)
-
-- [Whonix - Disable TCP Timestamps](https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps)
-
-- [CERT - IE Scripting Engine Memory Corruption](https://kb.cert.org/vuls/id/573168/)
-
-- [Dirteam - SSL Hardening](https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/)
-
-- [Microsoft - Specture and Meltdown Mitigations](https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities)
-
-- [Microsoft - Windows 10 Privacy](https://docs.microsoft.com/en-us/windows/privacy/)
-
-- [Microsoft - Managing Windows 10 Telemetry and Callbacks](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)
-
-- [Microsoft - Windows 10 VDI Recomendations](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909)
-
 
 ## STIGS/SRGs Applied:
  
@@ -64,7 +43,27 @@ Import all the GPOs provided by SimeonOnSecurity to assist in making your domain
 
 - [Oracle JRE 8 V1R5](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip)
 
-## How to run the script
+## Additional configurations were considered from:
+
+- [NSACyber - Hardware-and-Firmware-Security-Guidance](https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance)
+
+- [NSACyber - Application Whitelisting Using Microsoft AppLocker](https://apps.nsa.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm)
+
+- [Whonix - Disable TCP Timestamps](https://www.whonix.org/wiki/Disable_TCP_and_ICMP_Timestamps)
+
+- [CERT - IE Scripting Engine Memory Corruption](https://kb.cert.org/vuls/id/573168/)
+
+- [Dirteam - SSL Hardening](https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/)
+
+- [Microsoft - Specture and Meltdown Mitigations](https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities)
+
+- [Microsoft - Windows 10 Privacy](https://docs.microsoft.com/en-us/windows/privacy/)
+
+- [Microsoft - Managing Windows 10 Telemetry and Callbacks](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)
+
+- [Microsoft - Windows 10 VDI Recomendations](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909)
+
+## How to run the script:
 
 **The script may be launched from the extracted GitHub download like this:**
 ```
