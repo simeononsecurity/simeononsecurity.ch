@@ -1,0 +1,7 @@
+{
+  "name": "hello-friend",
+  "version": "2.0.0",
+  "main": "index.js",
+  "author": "Radosław Kozieł <@panr> <radoslaw.koziel@gmail.com>",
+  "license": "MIT"
+}

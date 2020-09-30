@@ -1,46 +1,46 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
-<meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
-<meta name="robots" content="index,follow" content="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="{{ if or (.IsHome) (.IsPage) }}{{ .Site.Params.tagline }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
+<meta name="keywords" content="{{ .Site.Params.keywords }}"/>
+<meta name="robots" content="noodp"/>
 <link rel="canonical" href="{{ .Permalink }}" />
-<meta name="author" content="SimeonOnSecurity"/>
-<meta name="revisit-after" content="1 days"/>
-<meta name="distribution" content="article"/>
-<meta name="copyright" content="SimeonOnSecurity"/>  
-<meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="SimeonOnSecurity"/>
-<meta property="og:image" content="/img/banner.png"/>
-<meta property="og:url" content="https://simeononsecurity.ch"/>
 
-<!-- head custom -->
-{{- partial "prepended_head.html" . }}
-
-<!-- Theme CSS -->
-{{ $css := resources.Get "css/style.css" }}
-{{ $opts := dict "inlineImports" true }}
-{{ $style := $css | resources.PostCSS $opts | minify }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
-
-<!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="stylesheet" href="{{ "style.css" | absURL }}">
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/style.css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
+{{ partial "inject.stylesheet.html" . }}
 
 <!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
-<link rel="icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon"/>
-
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
 
 <!-- Twitter Card -->
-{{ template "_internal/twitter_cards.html" . }}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ end }}" />
+<meta name="twitter:description" content="{{ if or (.IsHome) }}{{ $.Site.Params.tagline }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+<meta name="twitter:site" content="{{ $.Site.Params.twitter }}" />
+<meta name="twitter:creator" content="{{ $.Site.Params.twitter }}" />
+<meta name="twitter:image" content="{{ with .Params.Cover }}{{ $.Site.BaseURL }}img/post/{{ . }}{{ else }}{{ $.Site.BaseURL }}img/default.jpg{{ end }}">
 
 <!-- OG data -->
-{{ template "_internal/opengraph.html" . }}
+<meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ end }}">
+<meta property="og:description" content="{{ if or (.IsHome) (.IsPage) }}{{ $.Site.Params.tagline }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Title }}" />
+<meta property="og:image" content="{{ with .Params.Cover }}{{ $.Site.BaseURL }}img/post/{{ . }}{{ else }}{{ $.Site.BaseURL }}img/default.jpg{{ end }}">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+{{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
+{{ if isset .Params "date" }}<meta property="article:published_time" content="{{ time .Date }}" />{{ end }}
 
-<!-- RSS | JSON -->
-{{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-{{ end -}}
+<!-- RSS -->
+{{ if .RSSLink }}
+<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
 
-<!-- head custom -->
-{{- partial "extended_head.html" . }}
+<!-- JSON Feed -->
+{{ if .OutputFormats.Get "json" }}
+<link href="{{ if .OutputFormats.Get "json" }}{{ .Site.BaseURL }}feed.json{{ end }}" rel="alternate" type="application/json" title="{{ .Site.Title }}" />
+{{ end }}
