@@ -2,6 +2,13 @@
   "name": "hello-friend",
   "version": "2.0.0",
   "main": "index.js",
-  "author": "Radosław Kozieł <@panr> <radoslaw.koziel@gmail.com>",
-  "license": "MIT"
+  "author": "Radosław Kozieł <@panr>",
+  "license": "MIT",
+  "description": "![Hello Friend](https://github.com/panr/hugo-theme-hello-friend/blob/master/images/screenshot.png?raw=true)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
+  }
 }
