@@ -1,7 +1,8 @@
----
+﻿---
 title: "Toolkit and Recommendations"
 date: 2020-07-27T20:03:03-05:00
 draft: false
+toc: true
 ---
 
 ## What's in SimeonOnSecurity's toolkit?

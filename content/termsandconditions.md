@@ -2,6 +2,7 @@
 title: "Terms and Conditions"
 date: 2020-08-08T15:31:48-05:00
 draft: false
+toc: true
 ---
 
 
