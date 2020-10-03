@@ -7,7 +7,6 @@ toc: true
 
 ## What's in SimeonOnSecurity's toolkit?
 
-
 ### VPN Recommendations:
 
 - [Mullvad VPN](https://mullvad.net/en/) 
@@ -38,7 +37,7 @@ toc: true
 
 ### Service Providers:
 
-- [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) - Delete your records from major data brokers
+- [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) - **Prefered** Delete your records from major data brokers
 
 - [Abine Blur](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) - Password manager, identity masking, and one-time-use debit cards
 
@@ -96,6 +95,36 @@ toc: true
 
 - [Hunter Cat](https://hackerwarehouse.com/product/hunter-cat/)
 
+### Learning Platforms:
+#### Free resources:
+- [Cisco](https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html)
+
+- [CodeAcademy](https://www.codecademy.com/)
+
+- [Cybrary](https://www.cybrary.it/)
+
+- [FedVTE](https://fedvte.usalearning.gov/)
+
+- [HackTheBox](https://www.hackthebox.eu/)
+
+- [Juniper](https://learningportal.juniper.net/juniper/default.aspx)
+
+- [Microsoft](https://docs.microsoft.com/en-us/learn/)
+
+- [TryHackMe](https://tryhackme.com/)
+
+- [VMWare](https://www.vmware.com/education-services/learning-zone.html)
+
+#### Paid resources:
+- [Linkedin Learning](https://www.lynda.com/)
+
+- [Pluralsight](https://www.pluralsight.com/) - **Preferred**
+
+- [RedHat](https://www.redhat.com/en/services/training-and-certification)
+
+- [Udemy](https://www.udemy.com/)
+
+
 ### Standalone Microphone Recommendations:
 Below $100
 
@@ -138,7 +167,6 @@ $100-$300
 - $149 | [beyerdynamic DT 990 PRO](https://amzn.to/37r9SdI)
        
 - $299 | [Sennheiser HD 600](https://amzn.to/30QLDDj)
-      
           
 ### Webcam Recommendations:
 
