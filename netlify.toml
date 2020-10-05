@@ -3,11 +3,11 @@ publish = "public"
 command = ""
 
 [context.production.environment]
-HUGO_VERSION = "0.74.3"
+HUGO_VERSION = "0.75.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-NODE_VERSION = "14.7.0"
-NPM_FLAGS = "--save-dev @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url"
+NODE_VERSION = "14.13.0"
+NPM_FLAGS = "--save-dev @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
@@ -25,7 +25,7 @@ NPM_FLAGS = "--save-dev @babel/cli @babel/core @babel/preset-env browserslist cl
 	X-Frame-Options	= "DENY"
 	X-Robots-Tag  = "index,follow"
 	X-Xss-Protection = "1; mode=block"
-  	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src 'none'; upgrade-insecure-requests"
+  	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src https: data:; upgrade-insecure-requests"
 	Server = "simeononsecurity"
 
     
