@@ -18,11 +18,11 @@ jobs:
           node-version: '14.7'
       - 
         name: Install Dependencies
-        run: npm install && npm i yarn && yarn && npm install -D @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url
+        run: npm install && npm i yarn && yarn && npm install -D @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url && yarn add -D @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url
       -
         name: Run Hugo
         uses: crazy-max/ghaction-hugo@v1
         with:
           version: latest
           extended: true
-          args: --cleanDestinationDir -D -E -F
+          args: --cleanDestinationDir -D -E -F --gc --minify
