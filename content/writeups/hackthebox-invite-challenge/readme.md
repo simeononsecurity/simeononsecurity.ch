@@ -29,7 +29,7 @@ Reviewing the javascript and the makeInviteCode function, you'll discover that y
 You can do the following to get the Base64 encoded invite code:
 
 **Windows**:
-```ps
+```powershell
 Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate"
 ```
 **Linux**: 
