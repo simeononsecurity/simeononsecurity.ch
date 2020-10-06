@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Toolkit and Recommendations"
 date: 2020-07-27T20:03:03-05:00
 draft: false
