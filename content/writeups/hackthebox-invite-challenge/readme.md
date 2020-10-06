@@ -4,7 +4,7 @@ draft: false
 toc: true
 ---
 
-# HackTheBox Invite Challenge - Windows
+# HackTheBox - Invite Challenge
 
 ## What is Hack the Box ?
 
@@ -35,6 +35,8 @@ Which will generate the following content:
 ```
 {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVVItTE9PS0lORy1GT1I=","format":"encoded"},"0":200}
 ```
+
+
 
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
 
