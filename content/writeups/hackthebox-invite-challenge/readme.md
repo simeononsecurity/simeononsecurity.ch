@@ -37,7 +37,7 @@ Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate"
 curl -X POST "https://www.hackthebox.eu/api/invite/generate"
 ```
 Which will generate the following content:
-```
+```json
 {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVVItTE9PS0lORy1GT1I=","format":"encoded"},"0":200}
 ```
 
