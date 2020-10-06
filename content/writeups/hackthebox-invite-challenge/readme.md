@@ -32,17 +32,14 @@ You can do the following to get the Base64 encoded invite code:
 ```ps
 Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate"
 ```
-
-Which will generate the following content:
-```
-{"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVVItTE9PS0lORy1GT1I=","format":"encoded"},"0":200}
-```
-
 **Linux**: 
 ```bash
 curl -X POST "https://www.hackthebox.eu/api/invite/generate"
 ```
-
+Which will generate the following content:
+```
+{"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVVItTE9PS0lORy1GT1I=","format":"encoded"},"0":200}
+```
 
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
 
