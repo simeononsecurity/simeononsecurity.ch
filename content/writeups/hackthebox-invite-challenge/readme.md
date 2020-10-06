@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox Invite Challenge - Windows"
+title: "HackTheBox - Invite Challenge"
 draft: false
 toc: true
 ---
@@ -26,7 +26,9 @@ On the "Elements" tab, you'll find a script **[inviteapi.min.js](https://www.hac
 
 Reviewing the javascript and the makeInviteCode function, you'll discover that you need to send an **HTTP POST** to **/api/invite/generate** to get an invite code.
 
-In windows you can do the following to get the Base64 encoded invite code:
+You can do the following to get the Base64 encoded invite code:
+
+Windows:
 ```ps
 Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate"
 ```
@@ -36,6 +38,10 @@ Which will generate the following content:
 {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVVItTE9PS0lORy1GT1I=","format":"encoded"},"0":200}
 ```
 
+Linux: 
+```bash
+curl -X POST "https://www.hackthebox.eu/api/invite/generate"
+```
 
 
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
