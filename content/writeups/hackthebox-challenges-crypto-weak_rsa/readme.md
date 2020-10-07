@@ -1,9 +1,9 @@
 ---
 title: "HackTheBox - Challenge - Crypto - Weak RSA"
 draft: false
+tags: ['HackTheBox', 'Challenges', 'Crypto', 'Weak RSA', 'RsaCtfTool']
 toc: true
 ---
-
 
 # HackTheBox - Challenge - Crypto - Weak RSA
 
@@ -29,7 +29,7 @@ python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc
   
 Simply put, this tool finds the flag easily for you in an automated fashion.
 
-Flag Example:
+### Flag Example:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```
