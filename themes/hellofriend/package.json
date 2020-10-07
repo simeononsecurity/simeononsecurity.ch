@@ -42,7 +42,7 @@
     "postcss-mixins": "^6.2.1",
     "postcss-nested": "^4.2.3",
     "postcss-preset-env": "^6.7.0",
-    "postcss-reporter": "^6.0.1",
+    "postcss-reporter": "^7.0.1",
     "postcss-url": "^8.0.0",
     "prettier-eslint-cli": "^5.0.0",
     "ramda": "^0.27.1",
