@@ -1,3 +1,10 @@
+---
+title: "HackTheBox - Challenge - Crypto - Weak RSA"
+draft: false
+toc: true
+---
+
+
 # HackTheBox - Challenge - Crypto - Weak RSA
 
 The HTB "Weak RSA" Crypto is an easy challenge based on the RSA cipher.
