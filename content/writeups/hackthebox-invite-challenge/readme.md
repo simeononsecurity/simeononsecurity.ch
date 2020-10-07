@@ -2,6 +2,7 @@
 title: "HackTheBox - Invite Challenge"
 draft: false
 toc: true
+tags: ['HackTheBox', 'Invite Challenge', 'Invite']
 ---
 
 # HackTheBox - Invite Challenge
