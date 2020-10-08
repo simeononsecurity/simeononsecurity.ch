@@ -25,7 +25,6 @@ Take the converted file to [DialABC](http://www.dialabc.com/sound/detect/index.h
 ```
  
 Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-
 If you separate out the number you get the following:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
