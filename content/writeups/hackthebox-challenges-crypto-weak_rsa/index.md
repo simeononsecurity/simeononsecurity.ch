@@ -3,6 +3,7 @@ title: "HackTheBox - Challenge - Crypto - Weak RSA"
 draft: false
 tags: ['HackTheBox', 'Challenges', 'Crypto', 'Weak RSA', 'RsaCtfTool']
 toc: true
+series: "HackTheBox"
 ---
 
 # HackTheBox - Challenge - Crypto - Weak RSA
