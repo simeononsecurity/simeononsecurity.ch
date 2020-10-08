@@ -4,7 +4,6 @@ date: 2020-10-07T16:57:03-05:00
 draft: false
 tags: ['HackTheBox', 'Challenges', 'Crypto', 'Decode']
 toc: true
-series: "HackTheBox"
 ---
 
 # HackTheBox - Challenges - Crypto - Decode
