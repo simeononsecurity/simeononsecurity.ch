@@ -8,7 +8,7 @@ draft: false
 - LockHeed Martin Cyber Grand Challenge 2020
 	- 2020/10/09 - 2020/10/18
 	- Placed: 15th / 387
-- National Cyber League - (Ongoing)
+- National Cyber League
 	- Fall 2020
 		- Gym 
 			- 2020/09/14 - 2020/12/08
