@@ -5,7 +5,7 @@ draft: false
 
 # CTF Rankings 
 
-- LockHeed Martin Cyber Grand Challenge 
+- LockHeed Martin Cyber Grand Challenge 2020
 	- 2020/10/09 - 2020/10/18
 	- Placed: 15th / 387
 - National Cyber League - (Ongoing)
