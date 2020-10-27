@@ -21,6 +21,6 @@ draft: false
 			- 2020/10/23 - 2020/10/25
 			- Placed: 136th / 6050
 			- TBD
-		- Team 
+		- Team (SimeonOnSecurity.ch)
 			- 2020/11/06 - 2020/11/08
 			- TBD
