@@ -13,12 +13,13 @@ draft: false
 		- Gym 
 			- 2020/09/14 - 2020/12/08
 			- TBD
-			- Currently: 51st / 6034
+			- Currently: 52nd / 6034
 		- Preseason 
 			- 2020/10/12 - 2020/10/19
 			- Placed: 98th / 6028
 		- Individual 
 			- 2020/10/23 - 2020/10/25
+			- Placed: 136th / 6050
 			- TBD
 		- Team 
 			- 2020/11/06 - 2020/11/08
