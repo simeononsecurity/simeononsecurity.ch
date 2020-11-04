@@ -55,5 +55,61 @@ Discord Server</description></item><item><title>CTF Ranks</title><link>/ctfranks
 Provided Files: You are provided with the following files:
 flag.enc key.pub Walk-through: At first glance, you&amp;rsquo;d think you can decrypt the flag with the public key.
 For that, we might use the OpenSSL package to decrypt the flag. This time it&amp;rsquo;s a bit different and you&amp;rsquo;ll find that the OpenSSL package won&amp;rsquo;t work for this challenge.</description></item><item><title>HackTheBox - Invite Challenge</title><link>/writeups/hackthebox-invite-challenge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-invite-challenge/</guid><description>HackTheBox - Invite Challenge What is Hack the Box ? HackTheBox is an online platform to test and advance your skills in penetration testing and cyber security.
-How do you join Hack the box ? To create an account on HackTheBox (HTB) you have to complete the invite challenge, or hack yourself the way in. Don&amp;rsquo;t worry though it isn&amp;rsquo;t hard and this article will aid you incompleting the challenge.</description></item><item><title>STIGing Standalone Windows Servers</title><link>/posts/stiging-standalone-windows-servers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/stiging-standalone-windows-servers/</guid><description>STIGing Standalone Windows Servers Download all the required files from the GitHub Repository
-Introduction: Windows Server 2012, 2016, and 2019 are insecure operating systems out of the box and requires many changes to insure FISMA compliance. Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended and required configuration changes to lockdown, harden, and secure the operating system and ensure government compliance. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many physical attacks on a system.</description></item><item><title>Toolkit and Recommendations</title><link>/recommendations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/</guid><description>What&amp;rsquo;s in SimeonOnSecurity&amp;rsquo;s toolkit? Browser Plugins: VPN Providers: EMail Providers: SIP/DID/VOIP Providers: Messenge Clients: Service Providers: Books: Hackers Toolkit: Learning Resources: Standalone Microphones: Headsets: Webcams:</description></item></channel></rss>
+How do you join Hack the box ? To create an account on HackTheBox (HTB) you have to complete the invite challenge, or hack yourself the way in. Don&amp;rsquo;t worry though it isn&amp;rsquo;t hard and this article will aid you incompleting the challenge.</description></item><item><title>Recommended Books</title><link>/recommendations/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/books/</guid><description>Extreme Privacy - Michael Bazzell
+Open Source Intelligence Techniques - Michael Bazzell
+CCNA Routing and Switching Portable Command Guide - Scott Empson
+Practical Network Automation - Abhishek Ratan
+Practical Ansible 2 - Daniel Oh
+Red Team Field Manual - Ben Clark
+Blue Team Field Manual - Alan J White
+The Hacker Playbook 3 - Peter Kim</description></item><item><title>Recommended Browser Plugins</title><link>/recommendations/browser_plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/browser_plugins/</guid><description>Note: The only daily-driver browser I recommend is FireFox. Alternatively you should be using the TOR Browser. Do not install plugins in the TOR browser.
+U-Block Origin - Prefered - A great Open-Source AD blocker. HTTPS Everywhere - Prefered - Forces your browser to load sites over HTTPS rather than HTTP Decentraleyes - Local CDN Emulator ClearURLs - Dynamically removes tracking tags from links CanvasBlocker - Prevents JavaScript Fingerprinting Multi Account Containers - Allows for isolated brower sessions Terms of Service, Didn&amp;rsquo;t Read - Informs user of shady ToS Bitwarden - Secure Open-Source Cloud Password Manager Privacy Badger - Learns and blocks trackers</description></item><item><title>Recommended eMail Providers</title><link>/recommendations/email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/email/</guid><description> ProtonMail - Preferred - E2E Encrypted EMail
+Tutanota - E2E Encrypted EMail</description></item><item><title>Recommended Hacker Hardware</title><link>/recommendations/hacker_hardware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/hacker_hardware/</guid><description>CanaKit Raspberry Pi 4
+AURSINC WiFi Deauther Watch ESP8266
+Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz
+GlobalSat BU-353-S4 USB GPS Receiver
+Proxmark3 V3.0 ID DEV Kits M1
+HackRF One
+RTL-SDR RTL2832U
+BaoFeng BF-F8HP
+GL.iNet GL-AR750S-Ext
+Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC
+YubiKey 5 NFC
+GoTrust Idem Card - FIDO2 &amp;amp; U2F BLE and NFC Security Key</description></item><item><title>Recommended Learning Resources</title><link>/recommendations/learning_resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/learning_resources/</guid><description>Free resources: Cisco
+CodeAcademy
+Cybrary
+FedVTE
+HackTheBox
+Juniper
+Microsoft
+TryHackMe
+VMWare
+Paid resources: Linkedin Learning
+Pluralsight - Preferred
+RedHat
+Udemy</description></item><item><title>Recommended Messengers</title><link>/recommendations/messengers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/messengers/</guid><description> Signal - Preferred
+Wire
+Wicker</description></item><item><title>Recommended Services</title><link>/recommendations/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/services/</guid><description> Abine DeleteMe - Preferred Delete your records from major data brokers
+Abine Blur - Password manager, identity masking, and one-time-use debit cards
+Privacy.com - Preferred - Generate one-time-use debit cards
+BitWarden - Preferred - E2E Encrypted Online Password Manager</description></item><item><title>Recommended Stand-Alone Headsets</title><link>/recommendations/headsets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/headsets/</guid><description>Preferably purchased with a headphone DAC like the FiiO E10K or FiiO K3 Below $100
+$50 | Audio-Technica ATH M20x
+$70 | Audio-Technica ATH M30x
+$99 | Audio-Technica ATH M40x
+$65 | Philips SHP9500
+$100-$300
+$149 | Audio-Technica ATH M50x
+$145 | Philips Audio Fidelio X2HR
+$149 | beyerdynamic DT 770 PRO</description></item><item><title>Recommended Stand-Alone Microphones</title><link>/recommendations/microphones/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/microphones/</guid><description>Below $100
+$80 | Samson Q2U Below $500
+$200 | Samson Q2U+ Focusrite Scarlett Solo (3rd Gen)
+$325 | Samson Q2U + GoXLR Mini
+Below $1500
+$1300 | Shure SM7B Cardioid Dynamic Microphone + RODE PSA 1 Swivel Mount Studio Microphone Boom Arm + Cloud Microphones Cloudlifter CL-1 Mic Activator + GoXLR - Mixer, Sampler, &amp;amp; Voice FX
+$1400 | Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D + Electro-Voice 309A + RODE PSA 1 Swivel Mount Studio Microphone Boom Arm + Cloud Microphones Cloudlifter CL-1 Mic Activator + GoXLR - Mixer, Sampler, &amp;amp; Voice FX</description></item><item><title>Recommended VOIP Providers</title><link>/recommendations/voip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/voip/</guid><description> VOIP.MS - Preferred
+MySudo - Preferred
+Google Hangouts</description></item><item><title>Recommended VPN Providers</title><link>/recommendations/vpns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/vpns/</guid><description> Mullvad VPN
+ProtonVPN</description></item><item><title>Recommended Webcams</title><link>/recommendations/webcams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/webcams/</guid><description> $99 | Logitech C922x Pro Stream Webcam
+$160 | Logitech BRIO
+$170 | Logitech StreamCam</description></item><item><title>STIGing Standalone Windows Servers</title><link>/posts/stiging-standalone-windows-servers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/stiging-standalone-windows-servers/</guid><description>STIGing Standalone Windows Servers Download all the required files from the GitHub Repository
+Introduction: Windows Server 2012, 2016, and 2019 are insecure operating systems out of the box and requires many changes to insure FISMA compliance. Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended and required configuration changes to lockdown, harden, and secure the operating system and ensure government compliance. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many physical attacks on a system.</description></item></channel></rss>
