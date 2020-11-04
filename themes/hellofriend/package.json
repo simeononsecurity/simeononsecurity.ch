@@ -36,7 +36,7 @@
     "mini-css-extract-plugin": "^1.2.1",
     "postcss": "^8.1.2",
     "postcss-browser-reporter": "^0.6.0",
-    "postcss-cli": "^8.1.0",
+    "postcss-cli": "^8.2.0",
     "postcss-import": "^13.0.0",
     "postcss-loader": "^4.0.4",
     "postcss-mixins": "^7.0.1",
