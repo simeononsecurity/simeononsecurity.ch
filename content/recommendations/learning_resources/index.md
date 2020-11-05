@@ -44,10 +44,10 @@ toc: true
 
 #### Government Resources (For Military, Government Civilians, or Goverment Contractors Only)
 
-- [RMF Knowledge Service](https://rmfks.osd.mil/) - Learn all things RMF - **Requires CAC**
-
 - [Cyber.mil](https://cyber.mil/) - Resource for STIGs/SRGs and PKI/SSO documentation - **Requires CAC for FOUO**
 
 - [DISA CSD Patch Site](https://patches.csd.disa.mil/) - DoD Upstream WSUS, ACAS, SHB, and ESS/HBSS patches and software - **Requires CAC**
 
 - [DoD Home Use Anti-Virus Program](https://patches.csd.disa.mil/SecureDownload.aspx?sfs=asset&fGuid=218814) - **Requires CAC**
+
+- [RMF Knowledge Service](https://rmfks.osd.mil/) - Learn all things RMF - **Requires CAC**
