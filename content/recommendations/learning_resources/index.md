@@ -42,7 +42,7 @@ toc: true
 
 - [Udemy](https://www.udemy.com/) - a general learning platform.
 
-#### Government Resources (For Military, Government Civilians, or Goverment Contractors Only)
+#### Government Resources (For Military, Government Civilians, or Goverment Contractors Only):
 
 - [Cyber.mil](https://cyber.mil/) - Resource for STIGs/SRGs and PKI/SSO documentation - **Requires CAC for FOUO**
 
