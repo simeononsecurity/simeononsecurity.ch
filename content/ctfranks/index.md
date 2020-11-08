@@ -21,8 +21,8 @@ draft: false
 			- 2020/10/23 - 2020/10/25
 			- Placed Overall: 134th / 6010
 			- Placed Gold: 126th / 680
-			- TBD
 		- Team (SimeonOnSecurity.ch)
 			- 2020/11/06 - 2020/11/08
 			- Placed Overall: 24th / 958
 			- Placed Gold: 22nd / 122
+			- TBD
