@@ -8,5 +8,5 @@ $Files = $ExtractShell.Namespace($ZipFile).Items()
 $ExtractShell.NameSpace($Destination).CopyHere($Files)
 Invoke-WebRequest -Uri $Url -OutFile $ZipFile
 Write-Output "Extracting ZIP..... This might take a little while"
-Start-Process $Destination
+Start-Process $Destination\"$github"-master
 PowerShell.exe -ExecutionPolicy Bypass -File C:\temp\"$github"-master\$scriptname
