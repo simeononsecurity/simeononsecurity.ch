@@ -9,4 +9,7 @@ $Files = $ExtractShell.Namespace($ZipFile).Items()
 $ExtractShell.NameSpace($Destination).CopyHere($Files)
 Write-Output "Extracting ZIP..... This might take a little while"
 CD $Destination\"$github"-master
-PowerShell.exe -ExecutionPolicy Bypass -File C:\temp\"$github"-master"\"$scriptname"
+PowerShell.exe -ExecutionPolicy Bypass -File C:\temp\"$github"-master\"$scriptname"
+
+
+
