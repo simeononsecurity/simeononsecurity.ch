@@ -1,6 +1,6 @@
 $github = "W10-Optimize-and-Harden"
 $Url = "https://github.com/simeononsecurity/$github/archive/master.zip"
-$scriptname = "installallstandalone.ps1"
+$scriptname = "optimize-standalone.ps1"
 $ZipFile = "C:\temp\" + $(Split-Path -Path $Url -Leaf)
 $Destination= "C:\temp\"
 Invoke-WebRequest -Uri $Url -OutFile $ZipFile
