@@ -30,8 +30,6 @@ draft: false
 
 - [TryHackMe](https://tryhackme.com/) - Guided CTF challenges. (Has paid membership)
 
-- [User-level Security Awareness Training](https://public.cyber.mil/cyber-training/training-catalog/)
-
 - [VMWare](https://www.vmware.com/education-services/learning-zone.html) - Learn VMware ESXi, Horizon, and Cloud Technologies for free!
 
 #### Paid resources:
