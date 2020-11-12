@@ -1,7 +1,6 @@
 ---
 title: "Recommended Learning Resources"
 draft: false
-toc: true
 ---
 
 #### Free resources:
@@ -25,6 +24,8 @@ toc: true
 
 - [Mosse Cyber Security Institute](https://platform.mosse-institute.com/#/) - Free Cyber Security Labs (Has paid offerings)
 
+- [PenTesterLab](https://pentesterlab.com/) - Hands on Pentesting Labs (Has paid offerings)
+
 - [STIG and SRG training](https://public.cyber.mil/training/srgs-and-stigs-training/) - Minimal training on STIGs and SRGs (Requires Adobe Flash)
 
 - [TryHackMe](https://tryhackme.com/) - Guided CTF challenges. (Has paid membership)
@@ -34,6 +35,9 @@ toc: true
 - [VMWare](https://www.vmware.com/education-services/learning-zone.html) - Learn VMware ESXi, Horizon, and Cloud Technologies for free!
 
 #### Paid resources:
+
+- [CyberWarfare](https://cyberwarfare.live/) (Red and Purple-Team Labs and Certifications)
+
 - [Linkedin Learning](https://www.lynda.com/) - a general learning platform. (Check with your school, they might offer free membership)
 
 - [Pluralsight](https://www.pluralsight.com/) - **Preferred** a general learning platform with **High Quality** video content. (Check with your school, they might offer free membership
@@ -42,12 +46,10 @@ toc: true
 
 - [Udemy](https://www.udemy.com/) - a general learning platform.
 
-#### Government Resources (For Military, Government Civilians, or Goverment Contractors Only):
+#### Government Resources (For US Military, Government Civilians, or Goverment Contractors Only):
 
 - [Cyber.mil](https://cyber.mil/) - Resource for STIGs/SRGs and PKI/SSO documentation - **Requires CAC for FOUO**
 
 - [DISA CSD Patch Site](https://patches.csd.disa.mil/) - DoD Upstream WSUS, ACAS, SHB, and ESS/HBSS patches and software - **Requires CAC**
-
-- [DoD Home Use Anti-Virus Program](https://patches.csd.disa.mil/SecureDownload.aspx?sfs=asset&fGuid=218814) - **Requires CAC**
 
 - [RMF Knowledge Service](https://rmfks.osd.mil/) - Learn all things RMF - **Requires CAC**
