@@ -47,7 +47,7 @@
     "prettier-eslint-cli": "^5.0.0",
     "ramda": "^0.27.1",
     "style-loader": "^1.2.1",
-    "uglifyjs-webpack-plugin": "^2.2.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
     "url-loader": "^4.1.0",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
