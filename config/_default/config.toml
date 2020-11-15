@@ -72,7 +72,7 @@ enableGitInfo = true
         url = "/blog"
 	  [[languages.en.menu.main]]
         identifier = "CTF Rankings"
-        name = "CTF Rankigns"
+        name = "CTF Rankings"
         url = "/ctfranks"
 	  [[languages.en.menu.main]]
         identifier = "GitHub"
