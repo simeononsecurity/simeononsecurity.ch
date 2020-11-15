@@ -19,7 +19,7 @@ enableGitInfo = true
 
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "github"
   contentdir = "content"
 
   # "light" or "dark"
@@ -70,6 +70,10 @@ enableGitInfo = true
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+	  [[languages.en.menu.main]]
+        identifier = "GitHub"
+        name = "GitHub"
+        url = "/github"
 	  [[languages.en.menu.main]]
         identifier = "Writeups"
         name = "Writeups"
