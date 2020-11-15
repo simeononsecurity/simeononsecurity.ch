@@ -29,6 +29,22 @@ NODE_VERSION = "14"
   	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src https: data:; upgrade-insecure-requests"
 	Server = "simeononsecurity"
 
-	
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+	[plugins.inputs]
+
+	# The base url of your site (optional, default = main URL set in Netlify)
+	baseUrl = "https://simeononsecurity.ch"
+
+	# Path to the sitemap URL (optional, default = /sitemap.xml)
+	sitemapPath = "/sitemap.xml"
+
+	# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+	providers = [
+		"google",
+		"bing",
+		"yandex"
+	]
 
     
