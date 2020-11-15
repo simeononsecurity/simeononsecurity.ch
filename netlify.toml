@@ -7,7 +7,7 @@ HUGO_VERSION = "0.78.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 NODE_VERSION = "14"
-NPM_FLAGS = "npm install --save-dev -D babel/cli babel/core babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended"
+NPM_FLAGS = "npm install --save-dev -g -D babel/cli babel/core babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
