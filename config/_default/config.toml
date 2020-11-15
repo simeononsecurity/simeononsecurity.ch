@@ -26,7 +26,7 @@ enableGitInfo = true
   defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
 
   # Show reading time in minutes for posts
   #showReadingTime = true
@@ -67,9 +67,13 @@ enableGitInfo = true
 
     [languages.en.menu]
 	  [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
+        identifier = "Blog"
+        name = "Blog"
+        url = "/blog"
+	  [[languages.en.menu.main]]
+        identifier = "CTF Rankings"
+        name = "CTF Rankigns"
+        url = "/ctfranks"
 	  [[languages.en.menu.main]]
         identifier = "GitHub"
         name = "GitHub"
@@ -83,7 +87,7 @@ enableGitInfo = true
         name = "Recommendations"
         url = "/recommendations"
       [[languages.en.menu.main]]
-        identifier = "about"
+        identifier = "About"
         name = "About"
         url = "/about"
     #  [[languages.en.menu.main]]

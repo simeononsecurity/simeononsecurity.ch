@@ -1,13 +1,13 @@
 [build]
 publish = "public"
-command = ""
+command = "hugo --cleanDestinationDir -D -E -F --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.75.1"
+HUGO_VERSION = "0.78.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-NODE_VERSION = "14.13.0"
-NPM_FLAGS = "--save-dev @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url"
+NODE_VERSION = "14"
+NPM_FLAGS = "npm install -D @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended --save-dev"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
