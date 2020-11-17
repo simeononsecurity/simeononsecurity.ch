@@ -1,9 +1,9 @@
 # Redirect domain aliases to primary domain
-https://simeononsecurity.com* https://simeononsecurity.ch/:splat 301!
+https://simeononsecurity.com* https://simeononsecurity.ch/ 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/:splat  301!
+https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/ 301!
 
 #redirect /posts to /github
 #moved /posts to /github to create /blog to seperate content
-/posts* /github
+/posts/* /github/* 301!
