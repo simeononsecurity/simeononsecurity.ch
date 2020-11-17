@@ -1,9 +1,8 @@
 ---
 title: "CTF Ranks"
 draft: false
+toc: true
 ---
-
-# CTF Rankings 
 
 - LockHeed Martin Cyber Grand Challenge 2020
 	- 2020/10/09 - 2020/10/18
@@ -25,4 +24,3 @@ draft: false
 			- 2020/11/06 - 2020/11/08
 			- Placed Overall: 31st / 957
 			- Placed Gold: 28th / 121
-			- TBD
