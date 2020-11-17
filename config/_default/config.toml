@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "simeononsecurity"
 theme = "soshellofriend"
 baseurl = "/"
-paginate = 2
+paginate = 5
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -26,7 +26,7 @@ enableGitInfo = true
   defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+  showMenuItems = 6
 
   # Show reading time in minutes for posts
   #showReadingTime = true
