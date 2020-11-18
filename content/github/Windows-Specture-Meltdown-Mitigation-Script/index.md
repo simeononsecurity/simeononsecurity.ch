@@ -3,7 +3,7 @@ title: "Windows Spectre Meltdown Mitigation Script"
 date: 2020-06-18
 toc: true
 draft: false
-tags: ['CVE-2017-5715', 'CVE-2017-5753', 'CVE-2017-5754', 'CVE-2018-3639', 'CVE-2018-11091','CVE-2018-12126', 'CVE-2018-12127', 'CVE-2018-12130', 'Branch Target Injection', 'Bounds Check Bypass', 'Rogue Data Cache Load', 'Speculative Store Bypass', 'Microarchitectural Data Sampling Uncacheable Memory', 'MDSUM', 'Microarchitectural Store Buffer Data Sampling, 'MSBDS', 'Microarchitectural Fill Buffer Data Sampling', 'MFBDS', 'Microarchitectural Load Port Data Sampling', 'MLPDS', 'PowerShell', 'Automation']
+tags: ['CVE-2017-5715', 'CVE-2017-5753', 'CVE-2017-5754', 'CVE-2018-3639', 'CVE-2018-11091','CVE-2018-12126', 'CVE-2018-12127', 'CVE-2018-12130', 'Branch Target Injection', 'Bounds Check Bypass', 'Rogue Data Cache Load', 'Speculative Store Bypass', 'Microarchitectural Data Sampling Uncacheable Memory', 'MDSUM', 'Microarchitectural Store Buffer Data Sampling', 'MSBDS', 'Microarchitectural Fill Buffer Data Sampling', 'MFBDS', 'Microarchitectural Load Port Data Sampling', 'MLPDS', 'PowerShell', 'Automation']
 ---
 #### https://support.microsoft.com/en-us/help/4073119/protect-against-speculative-execution-side-channel-vulnerabilities-in
 **Simple script to implement protections against speculative execution side-channel vulnerabilities in Windows systems.**
