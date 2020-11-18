@@ -1,11 +1,37 @@
 ---
-title: "Contact Us"
+title: "Contact Details"
 draft: false
 ---
 
 <h2 id="contact-details">Contact Details</h2>
-<p> SimeonOnSecurity <span class="hljs-keyword">does</span> <span class="hljs-keyword">not</span> have publicly available contact details <span class="hljs-keyword">at</span> this <span class="hljs-built_in">time</span>.</p>
-<p> You may follow our <a href="https://simeononsecurity.com/sitemap.xml">RSS feed</a> or our <a href="https://github.com/simeononsecurity">GitHub</a> at this time.</p>
+<p> SimeonOnSecurity does not disclose contact information publically. Please use the form below for business requests and security concerns. </p>
 
-<h2 id="discord"><a href="https://discord.gg/dcCyuMkY">Discord Server</a></h2>
-<iframe src="https://discordapp.com/widget?id=762530227511099432&theme=dark" width="600" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<h3>Social Media</h3>
+<p> You may follow our <a href="https://simeononsecurity.com/sitemap.xml">RSS feed</a>, our <a href="https://github.com/simeononsecurity">GitHub</a>, or our <a href="https://discord.gg/dcCyuMkY">Discord</a> at this time.</p>
+<iframe src="https://discordapp.com/widget?id=762530227511099432&theme=dark" width="600" height="150" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+<h3>Contact Form</h3>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+    <p>
+    <label>Your Phone Number: <input type="tel" name="tel" /></label>
+  </p>
+  <p>
+    <label>Subject: <select name="subject[]" multiple>
+      <option value="Business">Business</option>
+      <option value="Security Concern">Security Concern</option>
+	  <option value="Suggestions">Suggestions</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
