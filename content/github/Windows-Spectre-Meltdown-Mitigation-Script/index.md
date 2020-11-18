@@ -26,9 +26,9 @@ We have not yet received any information to indicate that these vulnerabilities 
 - CVE-2018-12127 – “Microarchitectural Fill Buffer Data Sampling (MFBDS)”
 - CVE-2018-12130 – “Microarchitectural Load Port Data Sampling (MLPDS)”
 
-UPDATED ON AUGUST 6, 2019 On August 6, 2019 Intel released details about a Windows kernel information disclosure vulnerability. This vulnerability is a variant of the Spectre Variant 1 speculative execution side channel vulnerability and has been assigned CVE-2019-1125.
+**UPDATED ON AUGUST 6, 2019** On August 6, 2019 Intel released details about a Windows kernel information disclosure vulnerability. This vulnerability is a variant of the Spectre Variant 1 speculative execution side channel vulnerability and has been assigned CVE-2019-1125.
 
-UPDATED ON NOVEMBER 12, 2019 On November 12, 2019, Intel published a technical advisory around Intel® Transactional Synchronization Extensions (Intel® TSX) Transaction Asynchronous Abort vulnerability that is assigned CVE-2019-11135. Microsoft has released updates to help mitigate this vulnerability and the OS protections are enabled by default for Windows Client OS Editions.
+**UPDATED ON NOVEMBER 12, 2019** On November 12, 2019, Intel published a technical advisory around Intel® Transactional Synchronization Extensions (Intel® TSX) Transaction Asynchronous Abort vulnerability that is assigned CVE-2019-11135. Microsoft has released updates to help mitigate this vulnerability and the OS protections are enabled by default for Windows Client OS Editions.
 
 ## Recommended actions
 Customers should take the following actions to help protect against the vulnerabilities:
@@ -37,3 +37,14 @@ Customers should take the following actions to help protect against the vulnerab
 - Apply the applicable firmware (microcode) update that is provided by the device manufacturer.
 - Evaluate the risk to your environment based on the information that is provided on Microsoft Security Advisories: ADV180002, ADV180012, ADV190013 and information provided in this Knowledge Base article.
 - Take action as required by using the advisories and registry key information that are provided in this Knowledge Base article.
+
+## Download the required files:
+
+Download the required files from the [GitHub Repository](https://github.com/simeononsecurity/Windows-Spectre-Meltdown-Mitigation-Script)
+
+## How to run the script:
+
+**The script may be lauched from the extracted GitHub download like this:**
+```
+.\sos-spectre-meltdown-mitigations.ps1
+```
