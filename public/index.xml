@@ -56,13 +56,15 @@ Who is Simeon?
  Simeon is a Systems Administrator by day and Cyber Security and Privacy Enthusiast by night. He is a tinkerer, a hobbyist, and all around geek and nerd.</description></item><item><title>Admin</title><link>/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/admin/</guid><description>You're not supposed to know about this page
 Really? You tried to hack a static website? XD</description></item><item><title>Contact Details</title><link>/contactus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/contactus/</guid><description>
 Contact Details
-SimeonOnSecurity does not disclose contact information publically. Please use the form below for business request and security concerns. You may follow our RSS feed, our GitHub at this time.
-Discord Server
+SimeonOnSecurity does not disclose contact information publically. Please use the form below for business requests and security concerns. Social Media
+You may follow our RSS feed, our GitHub, or our Discord at this time.
 Contact Form
 Your Name:
 Your Email:
-Your Role: Leader
-Follower
+Your Phone Number:
+Subject: Business
+Security Concern
+Suggestions
 Message:
 Send</description></item><item><title>CTF Ranks</title><link>/ctfranks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ctfranks/</guid><description> LockHeed Martin Cyber Grand Challenge 2020 2020/10/09 - 2020/10/18 Placed: 15th / 387 National Cyber League Fall 2020 Gym 2020/09/14 - 2020/12/08 TBD Currently: 52nd / 6085 Preseason 2020/10/12 - 2020/10/19 Placed: 98th / 6028 Individual 2020/10/23 - 2020/10/25 Placed Overall: 134th / 6010 Placed Gold: 126th / 680 Team (SimeonOnSecurity.ch) 2020/11/06 - 2020/11/08 Placed Overall: 31st / 957 Placed Gold: 28th / 121</description></item><item><title>HackTheBox - Challenge - Crypto - Weak RSA</title><link>/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><description>HackTheBox - Challenge - Crypto - Weak RSA The HTB &amp;ldquo;Weak RSA&amp;rdquo; Crypto is an easy challenge based on the RSA cipher.
 Provided Files: You are provided with the following files:
