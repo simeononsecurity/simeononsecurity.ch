@@ -5,7 +5,7 @@ toc: true
 draft: false
 tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Applocker', 'Applocker', 'Application Controll', 'Windows Hardening']
 ---
-Ultimate Applocker Hardening Confguration Script.
+Ultimate Applocker Hardening Configuration Script.
 
 ## What does this script do?
 - Locks down system resources to bare minumum needed for basic OS functionality
