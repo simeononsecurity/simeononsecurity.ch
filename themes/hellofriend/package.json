@@ -38,7 +38,7 @@
     "postcss-browser-reporter": "^0.6.0",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^13.0.0",
-    "postcss-loader": "^4.0.4",
+    "postcss-loader": "^4.1.0",
     "postcss-mixins": "^7.0.1",
     "postcss-nested": "^5.0.1",
     "postcss-preset-env": "^6.7.0",
