@@ -1,6 +1,6 @@
-$github = "W10-Optimize-and-Harden"
+$github = "Windows-Optimize-Harden-Debloat"
 $Url = "https://github.com/simeononsecurity/$github/archive/master.zip"
-$scriptname = "optimize-standalone.ps1"
+$scriptname = "sos-optimize-windows.ps1"
 $ZipFile = "C:\temp\" + $(Split-Path -Path $Url -Leaf)
 $Destination= "C:\temp\"
 Invoke-WebRequest -Uri $Url -OutFile $ZipFile
