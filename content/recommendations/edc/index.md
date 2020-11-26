@@ -57,3 +57,5 @@ I'll recommend a few in different price points within their categories with a fe
 - [SanDisk 16GB Ultra Fit USB 3.1 Low-Profile Flash Drive](https://amzn.to/3fCcb2k) - $35/5
 - [Baofeng DM-1701](https://amzn.to/3la1ci2) - $100
 - [BaoFeng UV-5RTP Tri-Power](https://amzn.to/379KOJb) - $45
+- [Lever Gear CableKit](https://amzn.to/2HEIiSw) - $12
+
