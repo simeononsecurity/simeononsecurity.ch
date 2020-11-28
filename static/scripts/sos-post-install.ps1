@@ -11,6 +11,7 @@ Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$f
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll 
 Get-WuInstall -AcceptAll -IgnoreReboot
 
+Start-Job -Scriptblock {
 Write-Host "Installing Browsers"
 choco install googlechrome firefox chromium microsoft-edge tor-Browser flashplayerppapi flashplayerplugin
 
@@ -46,7 +47,7 @@ choco install officeproplus2013 adobereader
 
 Write-Host "Installing VMware"
 choco install vmwareworkstation vmware-horizon-client vmware-powercli-psmodule vmrc
-
+}
 Write-Host "Configuring Windows - Optimizations, Debloating, and Hardening"
 iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
 
