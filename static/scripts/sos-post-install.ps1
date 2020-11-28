@@ -50,5 +50,6 @@ choco install officeproplus2013 adobereader
 Write-Host "Installing VMware"
 choco install vmwareworkstation vmware-horizon-client vmware-powercli-psmodule vmrc
 }
+
 Write-Host "Configuring Windows - Optimizations, Debloating, and Hardening"
 iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
