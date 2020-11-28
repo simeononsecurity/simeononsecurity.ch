@@ -30,7 +30,7 @@ Write-Host "Installing Hugo and Node Stack Tools"
 choco install hugo hugo-extended nodejs.install
 
 Write-Host "Installing IDE and Dev Tools"
-choco install vscode visualstudio2019enterprise notepadplusplus.install python pip 
+choco install vscode vscodium visualstudio2019enterprise notepadplusplus.install python pip 
 
 Write-Host "Installing GIT Tools"
 choco install github-desktop gh git.install git-lfx gnupg gpg4win openssh markdownmonster postman
