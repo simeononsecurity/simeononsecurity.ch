@@ -21,7 +21,7 @@ Write-Host "Installing Java"
 choco install jre8
 
 Write-Host "Installing Networking and Administration Tools"
-choco install putty.install winscp.install teamviewer sysinternals driverbooster openvpn wireguard etcher rufus.install cheatengine sleuthkit sandboxie.install veracrypt wireshark nmap windirstat mysql.workbench cpu-z.install winbox rsat hxd ida-free ghidra adb universal-adb-drivers
+choco install putty winscp.install teamviewer sysinternals driverbooster openvpn wireguard etcher rufus.install cheatengine sleuthkit sandboxie.install veracrypt wireshark nmap windirstat mysql.workbench cpu-z.install winbox rsat hxd ida-free ghidra adb universal-adb-drivers
 
 Write-Host "Installing Terminals"
 choco install powershell powershellhere-elevated powershell.portable microsoft-windows-terminal docker-cli azure-cli awstools.powershell awscli kubernetes-cli powertoys
@@ -39,7 +39,7 @@ Write-Host "Installing Game Clients"
 choco install steam 
 
 Write-Host "Installing Chat Clients"
-choco install microsoft-teams.install rocketchat discord.install discord-canary pidgin
+choco install microsoft-teams.install rocketchat discord discord-canary pidgin
 
 Write-Host "Installing Misc."
 choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install obs-studio burp-suite-free-edition 
