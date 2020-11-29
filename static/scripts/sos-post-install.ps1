@@ -1,19 +1,14 @@
-
 Write-Host "Installing Chocolatey"
 # Ensure we can run everything
 Set-ExecutionPolicy Bypass -Scope Process -Force
 # Setting up directories for values
-New-Item -Path "$env:SystemDrive\choco-setup" -ItemType Directory -Force
-New-Item -Path "$env:SystemDrive\choco-setup\files" -ItemType Directory -Force
-New-Item -Path "$env:SystemDrive\choco-setup\packages" -ItemType Directory -Force
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n=useFipsCompliantChecksums
-choco config set cacheLocation $env:ALLUSERSPROFILE\choco-cache
+choco feature enable -n=useEnhancedExitCodes
 choco config set commandExecutionTimeoutSeconds 14400
 choco config set --name="'cacheLocation'" --value="'C:\temp\chococache'"
 choco config set --name="'proxyBypassOnLocal'" --value="'true'"
-choco feature enable --name="'useEnhancedExitCodes'"
 choco upgrade all
 
 Start-Job -Name "Install Windows Updates" -ScriptBlock {
