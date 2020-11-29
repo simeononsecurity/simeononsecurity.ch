@@ -9,7 +9,7 @@ choco feature enable -n=useEnhancedExitCodes
 choco config set commandExecutionTimeoutSeconds 14400
 choco config set --name="'cacheLocation'" --value="'C:\temp\chococache'"
 choco config set --name="'proxyBypassOnLocal'" --value="'true'"
-choco upgrade all
+Start-Job -Name "Update all Chocolatey Packages" -ScripBlock {choco upgrade all}
 
 Start-Job -Name "Install Windows Updates" -ScriptBlock {
 Write-Host "Install Latest Windows Updates"
