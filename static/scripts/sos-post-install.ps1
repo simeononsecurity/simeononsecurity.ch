@@ -50,6 +50,9 @@ choco install microsoft-teams.install rocketchat discord discord-canary pidgin
 Write-Host "Installing Misc."
 choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install obs-studio burp-suite-free-edition 
 
+Write-host "Installing PatchMyPCHome"
+choco install patch-my-pc --ignore-checksum
+
 Write-Host "Installing Office Suite and Document Readers"
 choco install officeproplus2013 adobereader
 
