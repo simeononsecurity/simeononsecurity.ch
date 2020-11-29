@@ -30,29 +30,37 @@ Write-Host "Installing Networking and Administration Tools"
 choco install putty winscp.install teamviewer sysinternals driverbooster openvpn wireguard etcher rufus.install cheatengine sleuthkit sandboxie.install veracrypt wireshark nmap windirstat mysql.workbench cpu-z.install winbox rsat hxd ida-free ghidra adb universal-adb-drivers
 
 Write-Host "Installing Terminals"
-choco install powershell powershellhere-elevated powershell.portable microsoft-windows-terminal docker-cli azure-cli awstools.powershell awscli kubernetes-cli powertoys
+choco install powershell4 powershell powershellhere-elevated powershell.portable microsoft-windows-terminal docker-desktop docker-compose docker-cli azure-cli awstools.powershell awscli kubernetes-cli powertoys
 
 Write-Host "Installing Hugo and Node Stack Tools"
 choco install hugo hugo-extended nodejs.install
 
 Write-Host "Installing IDE and Dev Tools"
-choco install vscode vscodium visualstudio2019enterprise notepadplusplus.install python pip 
+choco install vscode vscodium vscode-ansible vscode-puppet vscode-ruby vscode-python chocolatey-vscode vscode-prettier vscode-java vscode-yaml vscode-haskell vscode-mongo vscode-arduino vscode-beautify vscode-intellicode vscode-pull-request-github vscode-kubernetes-tools vscode-autofilename vscode-codespellchecker vscode-icons vscode-csharp visualstudio2019enterprise visualstudio2017-powershelltools dsc.powershellcommunity notepadplusplus.install python pip 
 
 Write-Host "Installing GIT Tools"
 choco install github-desktop gh git.install git-lfx gnupg gpg4win openssh markdownmonster postman
+
+Write-Host "Installing Windows Subsystem for Linux"
+choco install wsl wsl2
+#choco install wsl-ubuntu-2004 wsl-debiangnulinux wsl-kalilinux
 
 Write-Host "Installing Game Clients"
 choco install steam 
 
 Write-Host "Installing Chat Clients"
-choco install microsoft-teams.install rocketchat discord discord-canary pidgin
+choco install microsoft-teams.install rocketchat discord pidgin
 
-Write-Host "Installing Misc."
-choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install obs-studio burp-suite-free-edition 
+Write-Host "Installing OBS"
+choco install obs-studio obs-ndi
 
 Write-host "Installing PatchMyPCHome"
 choco install patch-my-pc --ignore-checksum
 
+Write-Host "Installing Misc."
+choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install burp-suite-free-edition 
+
+#Large Installs
 Write-Host "Installing Office Suite and Document Readers"
 choco install officeproplus2013 adobereader
 
