@@ -1,5 +1,5 @@
 # Redirect domain aliases to primary domain
-https://simeononsecurity.com* https://simeononsecurity.ch/ 301!
+# https://simeononsecurity.com* https://simeononsecurity.ch/ 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/ 301!
