@@ -30,7 +30,8 @@ Write-Host "Installing Networking and Administration Tools"
 choco install putty winscp.install teamviewer sysinternals driverbooster openvpn wireguard etcher rufus.install cheatengine sleuthkit sandboxie.install veracrypt wireshark nmap windirstat mysql.workbench cpu-z.install winbox rsat hxd ida-free ghidra adb universal-adb-drivers
 
 Write-Host "Installing Terminals"
-choco install powershell4 powershell powershellhere-elevated powershell.portable microsoft-windows-terminal docker-desktop docker-compose docker-cli azure-cli awstools.powershell awscli kubernetes-cli powertoys
+choco install powershell4 powershell powershellhere-elevated powershell.portable microsoft-windows-terminal powertoys
+#choco install docker-desktop docker-compose docker-cli azure-cli awstools.powershell awscli kubernetes-cli 
 
 Write-Host "Installing Hugo and Node Stack Tools"
 choco install hugo hugo-extended nodejs.install
@@ -49,7 +50,8 @@ Write-Host "Installing Game Clients"
 choco install steam 
 
 Write-Host "Installing Chat Clients"
-choco install microsoft-teams.install rocketchat discord pidgin
+choco install rocketchat discord pidgin
+#choco install microsoft-teams.install
 
 Write-Host "Installing OBS"
 choco install obs-studio obs-ndi
