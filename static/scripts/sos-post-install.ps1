@@ -60,7 +60,7 @@ Write-host "Installing PatchMyPCHome"
 choco install patch-my-pc --ignore-checksum
 
 Write-Host "Installing Misc."
-choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install burp-suite-free-edition 
+choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install burp-suite-free-edition screentogif
 
 #Large Installs
 Write-Host "Installing Office Suite and Document Readers"
