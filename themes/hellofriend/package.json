@@ -40,7 +40,7 @@
     "postcss-import": "^13.0.0",
     "postcss-loader": "^4.1.0",
     "postcss-mixins": "^7.0.1",
-    "postcss-nested": "^5.0.1",
+    "postcss-nested": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "postcss-reporter": "^7.0.2",
     "postcss-url": "^10.1.1",
