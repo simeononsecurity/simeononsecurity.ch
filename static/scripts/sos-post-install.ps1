@@ -37,10 +37,12 @@ Write-Host "Installing Hugo and Node Stack Tools"
 choco install hugo hugo-extended nodejs.install
 
 Write-Host "Installing IDE and Dev Tools"
-choco install vscode vscodium vscode-ansible vscode-puppet vscode-ruby vscode-python chocolatey-vscode vscode-prettier vscode-java vscode-yaml vscode-haskell vscode-mongo vscode-arduino vscode-beautify vscode-intellicode vscode-pull-request-github vscode-kubernetes-tools vscode-autofilename vscode-codespellchecker vscode-icons vscode-csharp visualstudio2019enterprise visualstudio2017-powershelltools dsc.powershellcommunity notepadplusplus.install python pip 
+choco install vscode vscodium vscode-ansible vscode-puppet vscode-ruby vscode-python chocolatey-vscode vscode-prettier vscode-java vscode-yaml vscode-haskell vscode-mongo vscode-arduino vscode-beautify vscode-intellicode vscode-pull-request-github vscode-kubernetes-tools vscode-autofilename vscode-codespellchecker vscode-icons vscode-csharp dsc.powershellcommunity notepadplusplus.install python pip 
+#choco install visualstudio2019enterprise visualstudio2017-powershelltools
 
 Write-Host "Installing GIT Tools"
-choco install github-desktop gh git.install git-lfx gnupg gpg4win openssh markdownmonster postman
+choco install github-desktop gh git.install git-lfx gnupg gpg4win openssh 
+#choco install postman markdownmonster 
 
 Write-Host "Installing Windows Subsystem for Linux"
 choco install wsl wsl2
