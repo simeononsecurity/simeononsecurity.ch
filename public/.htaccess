@@ -1,0 +1,189 @@
+## Enable compression for common file types
+## --------------------------------------------------------
+<IfModule mod_deflate.c>
+  <IfModule mod_filter.c>
+    # Plaintext, HTML, JavaScript, CSS, XML and fonts
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+    AddOutputFilterByType DEFLATE application/x-font
+    AddOutputFilterByType DEFLATE application/x-font-opentype
+    AddOutputFilterByType DEFLATE application/x-font-otf
+    AddOutputFilterByType DEFLATE application/x-font-truetype
+    AddOutputFilterByType DEFLATE application/x-font-ttf
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE font/opentype
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE image/x-icon
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/xml
+
+    # Remove browser bugs
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+    Header append Vary User-Agent
+  </IfModule>
+</IfModule>
+## Enable Keep-Alive connections
+## --------------------------------------------------------
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+</ifModule>
+## Set browser cache time to live
+## --------------------------------------------------------
+# 1 YEAR - fonts
+<FilesMatch "\.(woff2|woff|eot|ttf)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# 3 MONTHS - images don't change except in strange cases
+<FilesMatch "\.(png|svg|ico|jpg|jpeg|gif|pdf)$">
+    Header set Cache-Control "max-age=7884000, public"
+</FilesMatch>
+<FilesMatch "^manifest\.json$">
+    # Manifest file used for Favicons by RealFaviconGenerator
+    Header set Cache-Control "max-age=7884000, public"
+</FilesMatch>
+
+# 2 WEEKS - possible to be changed
+<FilesMatch "\.(css|txt|js)$">
+    Header set Cache-Control "max-age=1209600, public"
+</FilesMatch>
+
+# NEVER CACHE - notice the extra directives
+<FilesMatch "\.(php|py|cgi|pl)$">
+    Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
+</FilesMatch>
+######REWRITE HEADERS######
+RewriteEngine on
+RewriteRule ^.*\.js$ - [env=headerjs:1]
+Header set Content-type application/javascript env=headerjs
+RewriteEngine on
+RewriteRule ^.*\.css$ - [env=headercss:1]
+Header set Content-type text/css env=headercss
+RewriteEngine on
+RewriteRule ^.*\ico$ - [env=headerico:1]
+Header set Content-type image/x-icon  env=headerico
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+<IfModule mod_headers.c>
+<FilesMatch "\.(bmp|cur|gif|ico|jpe?g|a?png|svgz?|webp)$">
+    SetEnvIf Origin ":" IS_CORS
+    Header set Access-Control-Allow-Origin "*" env=IS_CORS
+</FilesMatch>
+</IfModule>
+<IfModule mod_headers.c>
+    <FilesMatch "\.(eot|otf|tt[cf]|woff2?)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
+<IfModule mod_headers.c>
+    Header set Timing-Allow-Origin: "*"
+</IfModule>
+
+
+######GLOBAL HEADERS######
+Header always set Server "Server"
+Header always set Feature-Policy "microphone 'none';geolocation 'none';vr 'none';usb 'none';accelerometer 'none';display-capture 'none';gyroscope 'none';magnetometer 'none';midi 'none';payment 'none';sync-xhr 'self'"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "no-referrer"
+Header always set Upgrade-Insecure-Requests "1"
+Header always set Access-Control-Max-Age "600"
+Header always set X-DNS-Prefetch-Control "off"
+Header always unset "X-Powered-By"
+Header unset "X-Powered-By"
+Header always unset "ETag"
+Header unset "ETag"
+
+#####INTERNET EXPLORER UPGRADE#####
+<IfModule mod_headers.c>
+    Header set X-UA-Compatible "IE=edge" "expr=%{CONTENT_TYPE} =~ m#text/html#i"
+</IfModule>
+<IfModule mod_headers.c>
+	Header set X-UA-Compatible "IE=Edge,chrome=1"
+		# mod_headers can't match by content-type, but we don't want to this header on everything
+		<FilesMatch "\.(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+			Header unset X-UA-Compatible
+		</FilesMatch>
+</IfModule>
+
+#####FILE CONCATENATION######
+ <IfModule mod_include.c>
+     <FilesMatch "\.combined\.js$">
+         Options +Includes
+         AddOutputFilterByType INCLUDES application/javascript \
+                                        application/x-javascript \
+                                        text/javascript
+         SetOutputFilter INCLUDES
+     </FilesMatch>
+     <FilesMatch "\.combined\.css$">
+         Options +Includes
+         AddOutputFilterByType INCLUDES text/css
+         SetOutputFilter INCLUDES
+     </FilesMatch>
+ </IfModule>
+ 
+ #####SECURITY REWRITES REDIRECTS AND DIRECTORY OPTIONS#####
+<Directory />
+Options -Indexes
+AllowOverride None
+</Directory>
+<IfModule mod_autoindex.c>
+Options -Indexes
+</IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
+    RewriteCond %{SCRIPT_FILENAME} -d [OR]
+    RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteRule "(^|/)\." - [F]
+</IfModule>
+<IfModule mod_authz_core.c>
+    <FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|orig|psd|sh|sql|sw[op])|~)$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+Alias /robots.txt /var/www/html/public/robots.txt
+<Location "/var/www/html/public/robots.txt">
+    Order deny,allow
+    Allow from all
+</Location>
+<IfModule php5_module>
+	php_value session.cookie_httponly true
+</IfModule>
+<IfModule mod_mime.c>
+    AddCharset utf-8 .appcache \
+                     .bbaw \
+                     .css \
+                     .htc \
+                     .ics \
+                     .js \
+                     .json \
+                     .manifest \
+                     .map \
+                     .markdown \
+                     .md \
+                     .mjs \
+                     .topojson \
+                     .vtt \
+                     .vcard \
+                     .vcf \
+                     .webmanifest \
+                     .xloc
+</IfModule>
+
+
+######LOGGING FORMAT WITH CLOUDFLARE TRUE IP PASSTHROUGH#####
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\" %{CF-Ray}i" cf_custom
+
