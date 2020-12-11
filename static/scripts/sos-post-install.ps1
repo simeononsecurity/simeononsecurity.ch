@@ -1,3 +1,4 @@
+Start-Job -Name "Install and Configure Chocolatey" -ScriptBlock {
 Write-Host "Installing Chocolatey"
 # Ensure we can run everything
 Set-ExecutionPolicy Bypass -Scope Process -Force
@@ -9,6 +10,7 @@ choco feature enable -n=useEnhancedExitCodes
 choco config set commandExecutionTimeoutSeconds 14400
 choco config set --name="'cacheLocation'" --value="'C:\temp\chococache'"
 choco config set --name="'proxyBypassOnLocal'" --value="'true'"
+}
 Start-Job -Name "Update all Chocolatey Packages" -ScriptBlock {choco upgrade all}
 
 Start-Job -Name "Install Windows Updates" -ScriptBlock {
@@ -19,7 +21,7 @@ Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
 Get-WuInstall -AcceptAll -IgnoreReboot
 }
 
-Start-Job -Name "Install Software" -Scriptblock {
+Start-Job -Name "Install Software Part 1" -Scriptblock {
 Write-Host "Installing Browsers"
 choco install googlechrome firefox chromium microsoft-edge tor-Browser flashplayerppapi flashplayerplugin
 
@@ -64,7 +66,9 @@ choco install patch-my-pc --ignore-checksum
 Write-Host "Installing Misc."
 choco install installroot 7zip.install vlc winlogbeat gimp curl k-litecodecpackfull ossec-client suricata clamav audacity audacity-lame autohotkey handbreak.install burp-suite-free-edition screentogif teracopy
 #choco install greenshot
+}
 
+Start-Job -Name "Install Software Part 2" -Scriptblock {
 #Large Installs
 Write-Host "Installing Office Suite and Document Readers"
 choco install officeproplus2013 adobereader
