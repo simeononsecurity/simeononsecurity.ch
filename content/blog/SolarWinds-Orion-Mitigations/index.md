@@ -3,7 +3,7 @@ title: 'SolarWinds Orion Supply Chain Compromised, C2, and Mitigations'
 date: 2020-12-14
 toc: true
 draft: false
-tags: ['Command and Controll', 'SolarWinds', 'SolarWinds C2', 'SolarWinds Orion', 'SolarWinds Supply Chain', 'Supply Chain', 'C2', 'Command and Control', 'Mitigations', 'Guidance', 'Threat Intelligence']
+tags: ['SolarWinds', 'SolarWinds C2', 'SolarWinds Orion', 'SolarWinds Supply Chain', 'Supply Chain', 'C2', 'Command and Control', 'Mitigations', 'Guidance', 'Threat Intelligence']
 ---
 
 For guidance on the solarwinds issue please see [DHS](https://cyber.dhs.gov/ed/21-01/), [SolarWinds](https://www.solarwinds.com/securityadvisory), [FireEYE](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html), [MSRC](https://msrc-blog.microsoft.com/2020/12/13/customer-guidance-on-recent-nation-state-cyber-attacks/), and [Microsoft](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:MSIL/Solorigate.B!dha). 
