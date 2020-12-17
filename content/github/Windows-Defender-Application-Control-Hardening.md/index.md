@@ -18,7 +18,6 @@ tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team
 - [Microsoft - Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
 
 ## Explanation:
-## Explanation:
 - **Default Policies:**
     - The "Default" policies use only the default features available in the WDAC-Toolkit.
 - **Recommended Policies:**
