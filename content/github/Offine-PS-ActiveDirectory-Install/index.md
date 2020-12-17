@@ -1,5 +1,5 @@
 ---
-title: "Dot NET STIG Script"
+title: "Install RSAT ActiveDirectory PowerShell Module Offline"
 date: 2020-08-20T22:14:22-05:00
 draft: false
 toc: true
