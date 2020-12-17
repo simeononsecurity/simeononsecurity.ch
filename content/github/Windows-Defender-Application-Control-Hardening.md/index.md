@@ -36,7 +36,9 @@ tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team
     - ```WDAC_V1_Recommended_Enforced.xml```
 
 Update the following line in the script to use the policy that you desire:
+
 ```Set-RuleOption -FilePath "C:\temp\Windows Defender\WDAC_V1_Recommended_Enforced.xml" -Option 0```
+
 Alternatively, you may use [Group Policy to enforce the WDAC policies](Deploy Windows Defender Application Control policies by using Group Policy).
 
 ## How to run the script:
