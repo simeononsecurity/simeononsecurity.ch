@@ -1,18 +1,16 @@
-
+---
+title: 'Harden Windows with Windows Defender Application Control (WDAC)'
+date: 2020-12-16
+toc: true
+draft: false
+tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Defender STIG Script', 'Windows Defender', 'Windows Defender Hardening', 'Windows Defender STIG', 'Defender STIG', 'Windows Defender Application Control', 'WDAC', 'Windows Defender Exploit Protection', 'WDEP', 'Windows Defender Attack Surface Reduction', 'ASR']
+---
 
 # Windows-Defender-Application-Control-Hardening
  Harden Windows with Windows Defender Application Control (WDAC) 
 
 ## A list of scripts and tools this collection utilizes:
 - [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit)
-
----
-title: 'Harden Windows with Windows Defender Application Control (WDAC) '
-date: 2020-12-16
-toc: true
-draft: false
-tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Defender STIG Script', 'Windows Defender', 'Windows Defender Hardening', 'Windows Defender STIG', 'Defender STIG', 'Windows Defender Application Control', 'WDAC', 'Windows Defender Exploit Protection', 'WDEP', 'Windows Defender Attack Surface Reduction', 'ASR']
----
 
 ## Additional configurations were considered from:
 - [Microsoft - Recommended block rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
