@@ -5,6 +5,11 @@ toc: true
 draft: false
 tags: ['Automation', 'How To Automate Windows STIG', 'Windows Updates', 'Compliance', 'Windows 10 STIG', 'Windows 10 Hardening', 'Windows 10', 'Powershell', 'Script']
 ---
+# Optimize, Harden, and Debloat Windows 10 Deployments
+
+**Download all the required files from the [GitHub Repository](https://github.com/smiltech/Windows-Optimize-Harden-Debloat)**
+
+**We are seeking help with the following [.Net issue](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/3)** 
 
 ## Introduction:
 Windows 10 is an invasive and insecure operating system out of the box. 
@@ -22,7 +27,7 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
   - Windows 10 "N" Editions are not tested.
 - [X] [Standards](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure) for a highly secure Windows 10 device
 - [X] System is [fully up to date](https://support.microsoft.com/en-gb/help/4027667/windows-10-update)
-  - Currently Windows 10 **v1909** or **v2004**. 
+  - Currently Windows 10 **v1909**, **v2004**, or **20H2**. 
   - Run the [Windows 10 Upgrade Assistant](https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant) to update and verify latest major release.
 - [X] Bitlocker must be suspended or turned off prior to implementing this script, it can be enabled again after rebooting.
   - Follow-up runs of this script can be run without disabling bitlocker.
@@ -46,10 +51,13 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 - [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
 
 ## Additional configurations were considered from:
+- [BuiltByBel - PrivateZilla](https://github.com/builtbybel/privatezilla)
 - [CERT - IE Scripting Engine Memory Corruption](https://kb.cert.org/vuls/id/573168/)
 - [Dirteam - SSL Hardening](https://dirteam.com/sander/2019/07/30/howto-disable-weak-protocols-cipher-suites-and-hashing-algorithms-on-web-application-proxies-ad-fs-servers-and-windows-servers-running-azure-ad-connect/)
 - [Microsoft - Managing Windows 10 Telemetry and Callbacks](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)
 - [Microsoft - Reduce attack surfaces with attack surface reduction rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
+- [Microsoft - Recommended block rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
+- [Microsoft - Recommended driver block rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)
 - [Microsoft - Specture and Meltdown Mitigations](https://support.microsoft.com/en-us/help/4072698/windows-server-speculative-execution-side-channel-vulnerabilities)
 - [Microsoft - Windows 10 Privacy](https://docs.microsoft.com/en-us/windows/privacy/)
 - [Microsoft - Windows 10 VDI Recomendations](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909)
@@ -60,6 +68,7 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 - [NSACyber - Bitlocker Guidance](https://github.com/nsacyber/BitLocker-Guidance)
 - [NSACyber - Hardware-and-Firmware-Security-Guidance](https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance)
 - [NSACyber - Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)
+- [UnderGroundWires - Privacy.S**Y](https://github.com/undergroundwires/privacy.sexy)
 - [Sycnex - Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 - [The-Virtual-Desktop-Team - Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool)
 - [TheVDIGuys - Windows 10 VDI Optimize](https://github.com/TheVDIGuys/Windows_10_VDI_Optimize)
@@ -83,12 +92,6 @@ Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https
 - [Windows Firewall V1R7](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip)
 
 ## How to run the script
-
-### Automated Install:
-**The script may be launched from the extracted GitHub download like this:**
-```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
-```
 ### Manual Install:
 If manually downloaded, the script must be launched from an administrative powershell in the directory containing all the files from the [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 ```powershell
@@ -96,3 +99,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Get-ChildItem -Recurse *.ps1 | Unblock-File
 .\sos-optimize-windows.ps1
 ```
+### Automated Install:
+The script may be launched from the extracted GitHub download like this:
+```powershell
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
+```
+<img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 
+Windows-Optimize-Harden-Debloat automatic install">
