@@ -39,7 +39,7 @@ curl -X POST "https://www.hackthebox.eu/api/invite/generate"
 ```
 Which will generate the following content:
 ```json
-{"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVVItTE9PS0lORy1GT1I=","format":"encoded"},"0":200}
+{"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200}
 ```
 
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
