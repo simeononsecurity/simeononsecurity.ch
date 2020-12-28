@@ -31,15 +31,18 @@ A great list of awesome self-hosted tools and software. I plan to continue readi
 
 #### HomelabOS
 - [https://homelabos.com/](https://homelabos.com/)
+
 An interesting HomeLab setup making home services really eazy to set up. I'm not a fan of self-hosting. But something like this makes for an eazy set up for lightly-technical users.
 I might recommend this to some people. I don't personally wish to use something like it. All-in-one packages are generally harder to lock-down and secure.
 
 #### DockSTARTer
 - [https://dockstarter.com/](https://dockstarter.com/)
+
 Similar to HomeLabOS (above), provides a simplified way to deploy self-hosted services and has some future potential. HomelabOS seems to have better support. 
 
 ## nikitavoloboev/privacy-respecting 
 - [https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
+
 A great list of privacy respecting services and software. I already [recommend](https://simeononsecurity.ch/recommendations) some of the linked items. I plan to continue reading into the items in the list.
 
 
