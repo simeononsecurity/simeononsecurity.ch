@@ -6,8 +6,6 @@ toc: true
 draft: false
 tags: []
 ---
-- []()
-
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
