@@ -78,6 +78,10 @@ enableGitInfo = true
         identifier = "GitHub"
         name = "GitHub"
         url = "/github"
+	[[languages.en.menu.main]]
+        identifier = "TIL"
+        name = "TIL"
+        url = "/til"
 	  [[languages.en.menu.main]]
         identifier = "Writeups"
         name = "Writeups"
