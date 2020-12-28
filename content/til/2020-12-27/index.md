@@ -7,22 +7,22 @@ tags: []
 ---
 
 # Today I learned / Read About...
-** What SimeonOnSecurity learned about and found interesting today **
+**What SimeonOnSecurity learned about and found interesting today**
 
 ## Awesome Security
-- (https://github.com/sbilly/awesome-security)[https://github.com/sbilly/awesome-security]
+- [https://github.com/sbilly/awesome-security](https://github.com/sbilly/awesome-security)
 
 A great list of awesome security tools. I plan to continue reading into the items in the list.
 
 
 ## PSScriptAnalyzer
-- (https://github.com/PowerShell/PSScriptAnalyzer)[https://github.com/PowerShell/PSScriptAnalyzer]
+- [https://github.com/PowerShell/PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
 
 A static code checker for PowerSell Modules and scripts. I plan on working with it into my module and script development workflow.
 
 
 ## personal-security-checklist 
-- (https://github.com/Lissy93/personal-security-checklist)[https://github.com/Lissy93/personal-security-checklist]
+- [https://github.com/Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
 
 A great resource to send to people beginning to take privacy and security seriously. I have some criticisms and potentially I'll make my own version.
 
