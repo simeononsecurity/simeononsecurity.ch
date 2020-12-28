@@ -9,35 +9,35 @@ tags: []
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
-### Awesome Security:
+## Awesome Security:
 - [https://github.com/sbilly/awesome-security](https://github.com/sbilly/awesome-security)
 - A great list of awesome security tools. I plan to continue reading into the items in the list.
 
-### PSScriptAnalyzer:
+## PSScriptAnalyzer:
 - [https://github.com/PowerShell/PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
 - A static code checker for PowerSell Modules and scripts. I plan on working with it into my module and script development workflow.
 
-### personal-security-checklist:
+## personal-security-checklist:
 - [https://github.com/Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
 - A great resource to send to people beginning to take privacy and security seriously. I have some criticisms and potentially I'll make my own version.
 
-### Awesome Selfhosted:
+## Awesome Selfhosted:
 - [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - A great list of awesome self-hosted tools and software. I plan to continue reading into the items in the list.
 
-### HomelabOS:
+## HomelabOS:
 - [https://homelabos.com/](https://homelabos.com/)
 - An interesting HomeLab setup making home services really eazy to set up. I'm not a fan of self-hosting. But something like this makes for an eazy set up for lightly-technical users. I might recommend this to some people. I don't personally wish to use something like it. All-in-one packages are generally harder to lock-down and secure.
 
-### DockSTARTer:
+## DockSTARTer:
 - [https://dockstarter.com/](https://dockstarter.com/)
 - Similar to HomeLabOS (above), provides a simplified way to deploy self-hosted services and has some future potential. HomelabOS seems to have better support. 
 
-### FreedomBox:
+## FreedomBox:
 - [https://freedombox.org/](https://freedombox.org/)
 - FreedomBox is a private server for non-experts: it lets you install and configure server applications with only a few clicks. It runs on cheap hardware of your choice, uses your internet connection and power, and is under your control. 
 - Similar to both HomeLabOS and DockSTARTer, FreedomBox is a solution to self-host privacy-oriented services rapidly.
 
-### nikitavoloboev/privacy-respecting:
+## nikitavoloboev/privacy-respecting:
 - [https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
 - A great list of privacy respecting services and software. I already [recommend](https://simeononsecurity.ch/recommendations) some of the linked items. I plan to continue reading into the items in the list.
