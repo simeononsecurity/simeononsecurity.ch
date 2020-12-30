@@ -1,5 +1,5 @@
 $github = "Windows-Optimize-Debloat"
-$Url = "https://github.com/simeononsecurity/$github/archive/master.zip"
+$Url = "https://github.com/simeononsecurity/$github/archive/main.zip"
 $scriptname = "sos-optimize-windows.ps1"
 $ZipFile = "C:\temp\" + $(Split-Path -Path $Url -Leaf)
 $Destination= "C:\temp\"
