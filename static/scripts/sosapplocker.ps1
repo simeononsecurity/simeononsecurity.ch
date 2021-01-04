@@ -14,6 +14,8 @@ Write-Output "Executing "+"$Scriptname"
 Set-Location $Destination\"$github"-main
 PowerShell.exe -ExecutionPolicy Bypass -File C:\temp\"$github"-main\"$scriptname"
 Write-Output "Finished"
+Write-Output "Please visit https://github.com/simeononsecurity/$github/ and star the repo if this was useful for you."
+
 
 
 
