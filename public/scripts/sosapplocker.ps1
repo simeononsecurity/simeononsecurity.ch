@@ -1,6 +1,6 @@
-$github = "Windows-Optimize-Debloat"
+$github = "Applocker-Hardening"
 $Url = "https://github.com/simeononsecurity/$github/archive/main.zip"
-$scriptname = "sos-optimize-windows.ps1"
+$scriptname = "sos-applockerhardening.ps1 "
 $ZipFile = "C:\temp\" + $(Split-Path -Path $Url -Leaf)
 $Destination= "C:\temp\"
 New-Item "C:\" -Name "temp" -ItemType "directory" -Force
