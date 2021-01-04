@@ -1,7 +1,7 @@
 ---
 
 title: "Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies"
-date: 2020-01-04
+date: 2021-01-04
 toc: true
 draft: false
 tags: []
