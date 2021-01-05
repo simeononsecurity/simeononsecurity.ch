@@ -19,6 +19,7 @@ tags: []
 - [SimeonOnSecurity - Windows-Defender-Application-Control-Hardening](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening)
 
 ## Videos of Interest:
+- [Disrupt - Earth's Deadliest Computer Virus](https://www.youtube.com/watch?v=6w3wr691uss)
 - [John Hammond - How to move FAST in the Linux Terminal](https://www.youtube.com/watch?v=5-_bUD6oMok)
 - [Microsoft 365 - Microsoft Defender Application Control](https://www.youtube.com/watch?v=r2m156VWg_c)
 - [ShortCircuit - My Dongle is HUGE!](https://www.youtube.com/watch?v=N2r10vOzxh4)
