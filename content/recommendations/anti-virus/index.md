@@ -17,15 +17,11 @@ Ordered Top-Down, Best to Worst, by category.
 ## Home Use:
 
 ### Windows:
-
 #### Paid:
-
 - [Bitdefender - INTERNET SECURITY](https://amzn.to/3nfig7d)
 - [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro)
 - [Avast Premium Security](https://amzn.to/2MA7jR2)
-
 #### Free:
-
 - [Bitdefender - Antivirus Free Edition](https://www.bitdefender.com/solutions/free.html)
 - [Avira - Free Antivirus for Windows](https://www.avira.com/en/free-antivirus-windows)
 - [Avast - Free Antivirus](https://www.avast.com/en-us/index)
@@ -33,27 +29,18 @@ Ordered Top-Down, Best to Worst, by category.
   - Recommended: [SimeonOnSecurity - Windows Defender Hardening](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 
 ### Linux:
-
 #### Paid:
-
 - [ESET NOD32 ANTIVIRUS FOR LINUX DESKTOP](https://www.eset.com/int/home/antivirus-linux)
-
 #### Free:
-
 - [ClamAV](https://www.clamav.net/)
 
 ### MacOS:
-
 #### Paid:
-
 - [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro)
 - [Avast Premium Security](https://amzn.to/2MA7jR2)
-
 #### Free:
-
 - [Avira - Free Antivirus for Mac](https://www.avira.com/en/free-antivirus-mac)
 - [Avast - Free Antivirus](https://www.avast.com/en-us/index)
 
 ## Business Use:
-
-** Placeholder: ** Work being completed.
+**Placeholder:** Work being completed.
