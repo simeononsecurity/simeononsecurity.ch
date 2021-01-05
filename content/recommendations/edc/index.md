@@ -16,7 +16,7 @@ I'll recommend a few in different price points within their categories with a fe
 - [Kizer Cutlery Begleiter Folding Pocket Knife](https://amzn.to/369xAx1) - $169
 
 ## Flashlights:
-- [RovyVon A1](https://amzn.to/37foii2)
+- [RovyVon A1](https://amzn.to/37foii2) - $28
 - [Streamlight 88039 ProTac](https://amzn.to/3larxMH) - $30
 - [Olight S2 Cree XM-L2](https://amzn.to/3nT0XJM) - $49
 - [OLIGHT S2R II](https://amzn.to/3me6muz) - $55
