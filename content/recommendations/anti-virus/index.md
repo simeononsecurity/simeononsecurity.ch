@@ -4,7 +4,7 @@ draft: false
 toc: true
 ---
 
-Rankings are based on SimeonOnSecurity's professional opinion and basic testing against malicious samples provided by [VirusTotal](https://www.virustotal.com/gui/). These recommendations **do not** take into account vendors privacy policies or related practicies and only cover the AV capibilities, detection, user experience, and performance.
+Rankings are based on SimeonOnSecurity's professional opinion and basic testing against malicious samples provided by [VirusTotal](https://www.virustotal.com/gui/). These recommendations **do not** take into account vendors privacy policies or related practices and only cover the AV capabilities, detection, user experience, and performance.
 
 **Notes:**
 
