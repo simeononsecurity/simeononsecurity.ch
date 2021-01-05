@@ -3,7 +3,7 @@ title: "Recommended Every Day Carry (EDC)"
 draft: false
 toc: true
 ---
-The typical every day carry (EDC) consists of a few basic tools. Typically, they are a knife or blade, a flashlight, a watch, and a pen.
+The typical every day carry (EDC) consists of a few basic tools. Typically, those are a knife or blade, a flashlight, a watch, and a pen.
 I'll recommend a few in different price points within their categories with a few extras below.
 
 ## Knife/Blades:
