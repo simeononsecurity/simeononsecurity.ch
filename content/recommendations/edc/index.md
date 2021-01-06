@@ -47,7 +47,7 @@ I'll recommend a few in different price points within their categories with a fe
 ### Cases/Sleaves/Protection:
 - [Silent Pocket Faraday Bag](https://amzn.to/39irFaJ) - $60
 - [Leather Pocket Protector](https://amzn.to/3o5V6Bb) - $8/2
-## Charging Devices:
+### Charging Devices:
 - [Anker PowerCore 20100](https://amzn.to/35em2Yi) - $45
 - [Anker PowerCore 10000](https://amzn.to/38eJR4a) - $23
 - [Anker PowerCore 5000](https://amzn.to/3olpoA7) - $18
