@@ -53,11 +53,11 @@ I'll recommend a few in different price points within their categories with a fe
 - [Anker PowerCore 5000](https://amzn.to/3olpoA7) - $18
 - [Minlu 3-in-1 Retractible Charging Cable](https://amzn.to/3rWNPGo) - $10
 - [RAVPower 60W 6-Port Charging Station](https://amzn.to/2Xed20V) - $30
-## Digital Storage:
+### Digital Storage:
 - [SanDisk Extreme](https://amzn.to/38hXkbq) - Varies
 - [SanDisk Ultra Fit 3.1](https://amzn.to/3nimxXE) - Varies
 - [SanDisk Ultra Dual Drive](https://amzn.to/3ni9rtn) - Varies
-## Face Masks:
+### Face Masks:
 - [Outdoor Research Essential Face Mask](https://amzn.to/2JU21yU) - $20
 ### Multitools:
 - [LEATHERMAN, Skeletool](https://amzn.to/2V6RYZm) - $70
@@ -76,7 +76,7 @@ I'll recommend a few in different price points within their categories with a fe
 ### Wallets:
 - [Silent Pocket Bi-Fold Wallet](https://amzn.to/3ldXFz0) - $60
 - [Silent Pocket Napa](https://amzn.to/3hKMdea) - $17
-### Other:
+### Others:
 - [Dog Whistle](https://amzn.to/39jFrtC) - $10
 - [Lever Gear CableKit](https://amzn.to/2HEIiSw) - $12
 - [Stainless Steel Comb](https://amzn.to/3fG5rQY) - $12
