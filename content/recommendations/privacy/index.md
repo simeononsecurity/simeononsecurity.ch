@@ -24,7 +24,7 @@ toc: true
 - [IntelTechniques.com - Personal Data Removal Workbook](https://inteltechniques.com/data/workbook.pdf) - Learn how to remove your information from the many databrokers.
 - [Lissy93 - personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - Covers Physical Security, Digital Security, and Digital Hygiene.
 - 
-### File Complaints and Report Fraud:
+## File Complaints and Report Fraud:
 - [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report)
 - [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1) - Identity Theft, SPAM, Online Scams, etc.
 - [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) - Cyber Crimes, Hacks, Digital Theft, etc.
