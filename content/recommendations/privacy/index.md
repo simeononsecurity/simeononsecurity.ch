@@ -4,6 +4,7 @@ draft: false
 toc: true
 ---
 
+## Why does Privacy Matter?
 *"Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks associated with the war on data."* - [Lissy93](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
 
 ## Learn More:
