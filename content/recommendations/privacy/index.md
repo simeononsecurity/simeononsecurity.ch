@@ -45,9 +45,5 @@ toc: true
 - [JustDeleteAccount](https://www.justdeleteaccount.com/) - Provides documentation on how to delete your account from various services.
 - [JustDeleteMe](https://justdeleteme.xyz/) - **Prefered** - Provides documentation on how to delete your account from various services.
 - [VanishList](https://vanishlist.ml/) - Provides documentation on how to delete your account from the most common services.
-  
-### Online Password Managers:
-- [BitWarden](bitwarden.com) - **Preferred** - E2E Encrypted Online Password Manager 
-
 
 
