@@ -8,20 +8,20 @@ toc: true
 
 # Learn More:
 ## Privacy Rights:
-- [PrivacyRights.org - Resources](https://privacyrights.org/resources)
+- [PrivacyRights.org - Resources](https://privacyrights.org/resources) - Learn your privacy rights.
 
 ## Family, Children, and Teens:
-- [FTC - Protecting Kids Online](https://www.consumer.ftc.gov/topics/protecting-kids-online)
-- [NetSmartz - Resources](https://www.missingkids.org/netsmartz/resources)
+- [FTC - Protecting Kids Online](https://www.consumer.ftc.gov/topics/protecting-kids-online) - Resources for teaching your children about digital security.
+- [NetSmartz - Resources](https://www.missingkids.org/netsmartz/resources) - Resources for protecting your family online.
 
 ## Identity Theft Protection and Assistance:
-- [Free Credit Report](https://www.annualcreditreport.com/index.action)
-- [IntelTechniques.com - Credit Freeze Guide](https://inteltechniques.com/data/workbook.pdf)
+- [Free Credit Report](https://www.annualcreditreport.com/index.action) - Get your free annual credit report from the three major credit agencies.
+- [IntelTechniques.com - Credit Freeze Guide](https://inteltechniques.com/data/workbook.pdf) - Learn how to freeze your credit with the major and minor credit agancies.
 
 ## Digital Security and Hygiene:
-- [Michael Horowitz - Defensive Computing Checklist](https://defensivecomputingchecklist.com/)
-- [IntelTechniques.com - Personal Data Removal Workbook](https://inteltechniques.com/data/workbook.pdf)
-- [Lissy93 - personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
+- [Michael Horowitz - Defensive Computing Checklist](https://defensivecomputingchecklist.com/) - Learn how to be generally secure, become aware of the active threats out there.
+- [IntelTechniques.com - Personal Data Removal Workbook](https://inteltechniques.com/data/workbook.pdf) - Learn how to remove your information from the many databrokers.
+- [Lissy93 - personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - Covers Physical Security, Digital Security, and Digital Hygiene.
 - 
 # File Complaints and Report Fraud:
 - [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report)
