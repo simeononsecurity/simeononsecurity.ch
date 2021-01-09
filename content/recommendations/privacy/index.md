@@ -38,6 +38,13 @@ toc: true
 - [Abine Blur](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) - **Alternate** Password manager, identity masking, and one-time-use debit cards
 - [Privacy.com](https://privacy.com/join/SU86Y) - **Preferred** - Generate one-time-use debit cards
 
+## Account Management:
+- [Deseat.Me](https://app.deseat.me) - Assists you in submitting GDPR requests for account deletion.
+- [AccountKiller](https://www.accountkiller.com/en) - Provides documentation on how to delete your account from various services.
+- [JustDeleteAccount](https://www.justdeleteaccount.com/) - Provides documentation on how to delete your account from various services.
+- [JustDeleteMe](https://justdeleteme.xyz/) - **Prefered** - Provides documentation on how to delete your account from various services.
+- [VanishList](https://vanishlist.ml/) - Provides documentation on how to delete your account from the most common services.
+  
 ## Online Password Managers:
 - [BitWarden](bitwarden.com) - **Preferred** - E2E Encrypted Online Password Manager 
 
