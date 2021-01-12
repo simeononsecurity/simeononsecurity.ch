@@ -12,6 +12,8 @@ I'll recommend a few in different price points within their categories with a fe
 - [Kershaw Leek](https://amzn.to/3fBCsxX) - $55
 - [Spyderco Tenacious](https://amzn.to/37eIxN1) - $55
 - [TPT Slide](https://amzn.to/3l9h9EY) - $85
+- [Benchmade - Mini Griptilian 556](https://amzn.to/3sfKaUi) - $90
+- [Benchmade - Griptilian 551](https://amzn.to/3skv7sA) - $140
 - [Spyderco Para Military 2](https://amzn.to/3q1CbsN) - $165
 - [Kizer Cutlery Begleiter Folding Pocket Knife](https://amzn.to/369xAx1) - $169
 ## Flashlights:
@@ -59,6 +61,7 @@ I'll recommend a few in different price points within their categories with a fe
 - [SanDisk Ultra Dual Drive](https://amzn.to/3ni9rtn) - Varies
 ### Face Masks:
 - [Outdoor Research Essential Face Mask](https://amzn.to/2JU21yU) - $20
+- [Defender Safety- ASTM Level 3 Face Mask](https://amzn.to/2LMe3dX) - $30/50
 ### Multitools:
 - [LEATHERMAN, Skeletool](https://amzn.to/2V6RYZm) - $70
 - [LEATHERMAN, One Hand Tool (OHT)](https://amzn.to/3b7sCDM) - $90
