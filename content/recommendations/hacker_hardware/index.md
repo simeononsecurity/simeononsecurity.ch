@@ -4,6 +4,9 @@ draft: false
 toc: true
 ---
 
+## Hak5 
+- [Basically everything from Hak5](https://shop.hak5.org/)
+
 ## RFID/NFC Hacking:
 - [Chameleon Tiny](https://hackerwarehouse.com/product/chameleon-tiny/)
 - [Hunter Cat](https://hackerwarehouse.com/product/hunter-cat/)
