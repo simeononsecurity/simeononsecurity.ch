@@ -13,7 +13,9 @@ toc: true
 ## WiFi Hacking:
 - [AURSINC WiFi Deauther Watch ESP8266](https://amzn.to/2P0W3uX)
 - [Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz](https://amzn.to/330FAPG)
+- [Alfa Long-Range Dual-Band AC1900 2.4GHz/5GHz](https://amzn.to/39xzZlh)
 - [GlobalSat BU-353-S4 USB GPS Receiver](https://amzn.to/3fcHWxq)
+- [WiFi Pineapple](https://shop.hak5.org/products/wifi-pineapple)
 
 ## Wireless Hacking:
 - [HackRF One](https://amzn.to/2OXVj9Q)
