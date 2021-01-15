@@ -51,6 +51,6 @@ toc: true
 - [eLearnSecurity Certifications](https://elearnsecurity.com/) - Cost effective if you're going for multiple certifications at once. But, eLearnSecurity is pretty new and the certifications aren't really recongnised yet.
 - [Hurricane Electric IPv6 Sage](https://ipv6.he.net/certification/) - Free certification, somewhat easy, good resume filler. 
 - [Python Institute's PCEP/PCAP/PCPP](https://pythoninstitute.org/certification/) - Good to have, but isn't gonna get you a job by itself. Offers free training for the first two certifications.
-- [Splunk Certifications](https://www.splunk.com/en_us/training.html) - You're better off learning the material and passing on the certifications.
+- [Splunk Certifications](https://www.splunk.com/en_us/training.html) - You're better off learning the material and skipping the certifications.
 - [W3 Schools Python/SQL/PHP/JAVA](https://www.w3schools.com/CERT/default.asp) - Good to have, but isn't gonna get you a job by itself. 
 - [Wireshark's WCNA](https://www.wcnacertification.com/) - Good to have, but isn't gonna get you a job by itself.
