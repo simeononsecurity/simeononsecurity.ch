@@ -22,7 +22,7 @@ toc: true
 - [CompTIA's Network+](https://www.comptia.org/certifications/network)
 - [CompTIA's Security+](https://www.comptia.org/certifications/security)
 ### Associate Level:
-**Note:** Typically you only need one of these certifications. Multiple are still useful and valueable.
+**Note:** Typically, you only need one of these certifications. Multiple are still useful and valueable.
 - [CompTIA's Linux+](https://www.comptia.org/certifications/linux)
 - [CompTIA's CySA+](https://www.comptia.org/certifications/cybersecurity-analyst)
 - [Cisco's CCNA](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html)
