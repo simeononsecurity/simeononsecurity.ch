@@ -8,7 +8,7 @@ toc: true
 
 **Notes:**
 - This should apply everywhere in the US, but outside the US these are likely to change.
-- There may be other certs out there that are worth it to get in a specific category, but the ones listed are because they have the widest recognition. 
+- There may be other certs out there that are worth in a specific category that aren't listed here, but the ones here are listed over others because they have the widest recognition. 
 - While the certifications listed here are a mix of Networking, Windows, Linux, Hacking, and Management certifications, all of these are directly related to positions in Cyber and will greatly benefit you to have them.
 
 ## Learning Resources:
