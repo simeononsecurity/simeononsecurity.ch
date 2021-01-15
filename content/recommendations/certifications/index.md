@@ -3,8 +3,7 @@ title: "Recommended Certifications"
 draft: false
 toc: true
 ---
-
-# Certifications that are worth your time
+There are many Cyber and IT related certifications out there, but most are argueably a waste of time over others. Some will enable you to land a job, while others wont. This list consists of the certifications that SimeonOnSecurity recommends for those seeking to enter the IT and CyberSecurity job force.
 
 **Notes:**
 - This should apply everywhere in the US, but outside the US these are likely to change.
