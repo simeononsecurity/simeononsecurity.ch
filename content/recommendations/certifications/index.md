@@ -47,7 +47,7 @@ toc: true
 - [Offensive Security's OSEE](https://www.offensive-security.com/awe-osee/)
 - [Red Hat Certified Engineer (RHCE)](https://www.redhat.com/en/services/certification/rhce)
 
-## Notable mentions:
+## Notable Mentions:
 - [eLearnSecurity Certifications](https://elearnsecurity.com/) - Cost effective if you're going for multiple certifications at once. But, eLearnSecurity is pretty new and the certifications aren't really recongnised yet.
 - [Hurricane Electric IPv6 Sage](https://ipv6.he.net/certification/) - Free certification, somewhat easy, good resume filler. 
 - [Python Institute's PCEP/PCAP/PCPP](https://pythoninstitute.org/certification/) - Good to have, but isn't gonna get you a job by itself. Offers free training for the first two certifications.
