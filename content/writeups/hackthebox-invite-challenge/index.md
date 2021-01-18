@@ -5,7 +5,7 @@ toc: true
 tags: ['HackTheBox', 'Invite Challenge', 'Invite', 'HackTheBox Invite Challenge', 'HTB Invite Challenge', 'Windows', 'Linux']
 ---
 
-# HackTheBox - Invite Challenge
+# HackTheBox - Invite Challenge (Windows/Linux)
 
 ## What is Hack the Box ?
 
