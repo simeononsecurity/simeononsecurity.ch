@@ -1,8 +1,8 @@
 ---
-title: "HackTheBox - Invite Challenge"
+title: "HackTheBox - Invite Challenge (Windows/Linux)"
 draft: false
 toc: true
-tags: ['HackTheBox', 'Invite Challenge', 'Invite']
+tags: ['HackTheBox', 'Invite Challenge', 'Invite', 'HackTheBox Invite Challenge', 'HTB Invite Challenge', 'Windows', 'Linux']
 ---
 
 # HackTheBox - Invite Challenge
@@ -31,7 +31,7 @@ You can do the following to get the Base64 encoded invite code:
 
 **Windows**:
 ```powershell
-Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate"
+Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON
 ```
 **Linux**: 
 ```bash
