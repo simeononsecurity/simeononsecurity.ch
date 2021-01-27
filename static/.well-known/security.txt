@@ -1,3 +1,5 @@
+#https://tools.ietf.org/html/draft-foudil-securitytxt-10
+
 Contact: https://simeononsecurity.ch/contactus/
 Acknowledgments: https://simeononsecurity.ch/hof/
 Preferred-Languages: en
