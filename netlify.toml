@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --cleanDestinationDir -D -E -F --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.78.2"
+HUGO_VERSION = "0.78"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 NODE_VERSION = "14"
@@ -17,9 +17,10 @@ NODE_VERSION = "14"
   	Access-Control-Allow-Origin = "https://simeononsecurity.ch https://simeononsecurity.com" 
 	Cache-Control = "Public, no-transform, max-age=31536000"
 	Expect-Ct = "enforce, max-age=300, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
-	Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none', camera 'none', display-capture 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none; publickey-credentials-get 'none; usb 'none'; vr 'none'; wake-lock 'none'; xr-spatial-tracking 'none'"
+	#Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none', camera 'none', display-capture 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none; publickey-credentials-get 'none; usb 'none'; vr 'none'; wake-lock 'none'; xr-spatial-tracking 'none'"
 	Permissions-Policy = "microphone=(),geolocation=(),vr=(),usb=(),accelerometer=(),display-capture=(),gyroscope=(),magnetometer=(),midi=(),payment=(),sync-xhr=(self)"
 	Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+	Upgrade-Insecure-Requests = "1"
 	Referrer-Policy	= "no-referrer"
 	X-DNS-Prefetch-Control = "off"
 	X-Content-Type-Options = "nosniff"
@@ -27,6 +28,8 @@ NODE_VERSION = "14"
 	X-Robots-Tag  = "all"
 	X-Xss-Protection = "1; mode=block"
   	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src https: data:; upgrade-insecure-requests"
+	Cross-Origin-Embedder-Policy-Report-Only = '(unsafe-none|require-corp); report-to="default"'
+	Cross-Origin-Opener-Policy-Report-Only: '(same-origin|same-origin-allow-popups|unsafe-none); report-to="default"'
 	Server = "simeononsecurity"
 
 [[plugins]]
