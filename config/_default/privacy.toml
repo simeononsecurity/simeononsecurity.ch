@@ -1,22 +1,24 @@
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
     anonymizeIP = true
     disable = false
     respectDoNotTrack = true
     useSessionStorage = false
   [privacy.instagram]
-    disable = false
+    disable = true
     simple = true
+    disableInlineCSS = true
   [privacy.twitter]
-    disable = false
+    disable = true
     enableDNT = true
     simple = true
+    disableInlineCSS = true
   [privacy.vimeo]
-    disable = false
+    disable = true
     enableDNT = true
     simple = true
   [privacy.youtube]
-    disable = false
+    disable = true
     privacyEnhanced = true
