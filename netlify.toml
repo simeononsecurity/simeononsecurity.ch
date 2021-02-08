@@ -29,7 +29,7 @@ NODE_VERSION = "14"
 	X-Xss-Protection = "1; mode=block"
   	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: *; frame-src https: data:; upgrade-insecure-requests"
 	Cross-Origin-Embedder-Policy-Report-Only = '(unsafe-none|require-corp); report-to="default"'
-	Cross-Origin-Opener-Policy-Report-Only: '(same-origin|same-origin-allow-popups|unsafe-none); report-to="default"'
+	Cross-Origin-Opener-Policy-Report-Only = '(same-origin|same-origin-allow-popups|unsafe-none); report-to="default"'
 	Server = "simeononsecurity"
 
 [[plugins]]
