@@ -19,7 +19,7 @@ enableGitInfo = true
 
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "github"
+  contentTypeName = "writeups"
   contentdir = "content"
 
   # "light" or "dark"
@@ -102,4 +102,7 @@ enableGitInfo = true
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 1
+
+
+enableRobotsTXT = "true"
