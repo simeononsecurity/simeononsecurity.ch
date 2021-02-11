@@ -54,6 +54,7 @@ enableGitInfo = true
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
+    enableRobotsTXT = "true"
     # leave empty to disable, enter display text to enable
     lastModDisplay = "Modified:"
 
@@ -103,6 +104,3 @@ enableGitInfo = true
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 1
-
-
-enableRobotsTXT = "true"
