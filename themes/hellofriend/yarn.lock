@@ -3291,10 +3291,10 @@ globals@^11.1.0, globals@^11.7.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
-globby@^11.0.0, globby@^11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.1.tgz#9a2bf107a068f3ffeabc49ad702c79ede8cfd357"
-  integrity sha512-iH9RmgwCmUJHi2z5o2l3eTtGBtXek1OYlHrbcxOYugyHLmAsZrPj43OtHThd62Buh/Vv6VyCBD2bdyWcGNQqoQ==
+globby@^11.0.0, globby@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.2.tgz#1af538b766a3b540ebfb58a32b2e2d5897321d83"
+  integrity sha512-2ZThXDvvV8fYFRVIxnrMQBipZQDr7MxKAmQK1vujaj9/7eF0efG7BPUKJ7jP7G5SLF37xKDXvO4S/KKLj/Z0og==
   dependencies:
     array-union "^2.1.0"
     dir-glob "^3.0.1"
@@ -5214,14 +5214,14 @@ postcss-minify-selectors@^4.0.2:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-postcss-mixins@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-7.0.2.tgz#9c5b9db70aa74095402062b3cf38431259b58971"
-  integrity sha512-er22AZ/2C1P+jZOL4ZExVEz0XuPWJWWy7SySbb2HWFmAgXG8F4qaOmMaRTdLfSK1AbgWxRT+KQ8GQ2i5kOn1aw==
+postcss-mixins@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-7.0.3.tgz#99dd2671b4f7f118d176e7b358f98fc3527439ba"
+  integrity sha512-YLiJbOBiFmj3dX0gfo74fPDKtRvcQSntzgyqwD1noW1dne6sAJkuCtoOlGaFX8dLxcv9+qkOA6Uh1Ae0/6C56w==
   dependencies:
-    globby "^11.0.1"
+    globby "^11.0.2"
     postcss-js "^3.0.3"
-    postcss-simple-vars "^6.0.1"
+    postcss-simple-vars "^6.0.3"
     sugarss "^3.0.3"
 
 postcss-modules-extract-imports@^3.0.0:
@@ -5512,10 +5512,10 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
     uniq "^1.0.1"
     util-deprecate "^1.0.2"
 
-postcss-simple-vars@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-simple-vars/-/postcss-simple-vars-6.0.1.tgz#7733415a7b57f5cb9b5a15cdd6b0546c505e7ad6"
-  integrity sha512-P1M+APrquBXOPKtk/LlWptuPBwTCjMgxZxv1lkpjG9RdOx8ewi8USOclPCt75xG7UT7viDUB3p3qy2ffPBefjQ==
+postcss-simple-vars@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-simple-vars/-/postcss-simple-vars-6.0.3.tgz#e66516c7fe980da3498f4a8ad400b9c53861806c"
+  integrity sha512-fkNn4Zio8vN4vIig9IFdb8lVlxWnYR769RgvxCM6YWlFKie/nQaOcaMMMFz/s4gsfHW4/5bJW+i57zD67mQU7g==
 
 postcss-svgo@^4.0.2:
   version "4.0.2"
