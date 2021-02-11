@@ -1,7 +1,8 @@
 User-agent: *
-Disallow: /admin
-User-agent: ia_archiver
-Disallow: /
+Disallow: /404/
+
+
+Disallow: /admin/
+
 
 Sitemap: /sitemap.xml
-Sitemap: /index.xml
