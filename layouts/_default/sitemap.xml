@@ -1,7 +1,7 @@
+{{ with .Params.robotsdisallow }}<meta name="robots" content="noindex, nofollow, noarchive">{{ else }}<meta name="robots" content="index, follow, archive">{{ end }
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{ range .Data.Pages }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range .Data.Pages }}{{ if not .Params.robotsdisallow }}
   <url>
     <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
     <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
@@ -17,6 +17,11 @@
                 hreflang="{{ .Lang }}"
                 href="{{ .Permalink }}"
                 />{{ end }}
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="{{ .Permalink }}"
+                />
   </url>
-  {{ end }}
+  {{ end }}{{ end }}
 </urlset>
