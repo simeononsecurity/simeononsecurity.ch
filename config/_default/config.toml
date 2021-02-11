@@ -101,6 +101,6 @@ enableGitInfo = true
     #    url = "/showcase"
 
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 1
