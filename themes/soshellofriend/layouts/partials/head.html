@@ -1,18 +1,3 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
-<meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
-<meta name="robots" content="index,follow" content="all"/>
-<link rel="canonical" href="{{ .Permalink }}" />
-<meta name="author" content="SimeonOnSecurity"/>
-<meta name="revisit-after" content="1 days"/>
-<meta name="distribution" content="article"/>
-<meta name="copyright" content="SimeonOnSecurity"/>  
-<meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="SimeonOnSecurity"/>
-<meta property="og:image" content="/img/banner.png"/>
-<meta property="og:url" content="https://simeononsecurity.ch"/>
-
 <!-- head custom -->
 {{- partial "prepended_head.html" . }}
 
@@ -29,7 +14,6 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
 <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
 <link rel="icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon"/>
-
 
 <!-- Twitter Card -->
 {{ template "_internal/twitter_cards.html" . }}

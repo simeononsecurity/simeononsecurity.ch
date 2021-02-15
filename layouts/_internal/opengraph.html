@@ -1,15 +1,7 @@
-<!--
-If you want to include any custom html at the beginning of </head> before scripts or links are declared,
-put it in /layouts/partials/prepended_head.html. Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/prepended_head.html doesn't exist.
--->
-{{ template "_internal/twitter_cards.html" . }}
-
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="SimeonOnSecurity"/>
 {{ with $.Params.images }}{{ range first 6 . -}}
 <meta property="og:image" content="{{ . | absURL }}" />
 {{ end }}{{ else -}}
@@ -61,12 +53,5 @@ put it in /layouts/partials/prepended_head.html. Do not put anything in this fil
 <meta property="article:tag" content="{{ . }}" />{{ end }}{{ end }}
 {{- end }}{{ end }}
 
-<meta name="robots" content="index,follow" content="all"/>
-<meta name="revisit-after" content="1 days"/>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
-<meta name="robots" content="index,follow" content="all"/>
-<meta name="revisit-after" content="1 days"/>
-<meta name="distribution" content="article"/>
-<meta name="copyright" content="SimeonOnSecurity"/>  
+{{- /* Facebook Page Admin ID for Domain Insights */}}
+{{- with .Site.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
