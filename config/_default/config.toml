@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "simeononsecurity"
-theme = "hellofriend"
+theme = "soshellofriend"
 baseurl = "/"
 paginate = 5
 canonifyURLs = true
