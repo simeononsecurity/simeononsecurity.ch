@@ -1,3 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Domain Scans on simeononsecurity</title><link>/tags/domain-scans/</link><description>Recent content in Domain Scans on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/domain-scans/index.xml" rel="self" type="application/rss+xml"/><item><title>VirusTotal PowerShell Modules</title><link>/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>/github/virustotal-ps/</guid><description>A collection of PowerShell Modules for Interacting with the VirusTotal API
-Notes:
-You&amp;rsquo;ll need your VirusTotal API key, which can be found on your Shodan Account Examples of the APIs used in the modules may be found on the VirusTotal Developers Page Download and Install Download the modules from the GitHub Repository Install all the modules Get-ChildItem -Recurse *.ps1 | Import-Module</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Domain Scans on simeononsecurity</title><link>/tags/domain-scans/</link><description>Recent content in Domain Scans on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/domain-scans/index.xml" rel="self" type="application/rss+xml"/><item><title>VirusTotal PowerShell Modules</title><link>/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>/github/virustotal-ps/</guid><description>
+&lt;p>A collection of PowerShell Modules for Interacting with the VirusTotal API&lt;/p>
+&lt;p>&lt;strong>Notes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>You&amp;rsquo;ll need your VirusTotal API key, which can be found on your &lt;a href="https://www.virustotal.com/gui/">Shodan Account&lt;/a>&lt;/li>
+&lt;li>Examples of the APIs used in the modules may be found on the &lt;a href="https://developers.virustotal.com/reference#getting-started">VirusTotal Developers Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="download-and-install">Download and Install&lt;/h2>
+&lt;ul>
+&lt;li>Download the modules from the &lt;a href="https://github.com/simeononsecurity/VirusTotal-PS">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>Install all the modules&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-ps" data-lang="ps">&lt;span style="color:#a6e22e">Get-ChildItem&lt;/span> &lt;span style="color:#a6e22e">-Recurse&lt;/span> &lt;span style="color:#a6e22e">*.ps1&lt;/span> &lt;span style="color:#a6e22e">|&lt;/span> &lt;span style="color:#a6e22e">Import-Module&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

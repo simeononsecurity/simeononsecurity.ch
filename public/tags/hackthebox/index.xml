@@ -1,16 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HackTheBox on simeononsecurity</title><link>/tags/hackthebox/</link><description>Recent content in HackTheBox on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 18:31:06 -0500</lastBuildDate><atom:link href="/tags/hackthebox/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenges - Crypto - Bank Heist</title><link>/writeups/hackthebox-challenges-crypto-bank_heist/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-bank_heist/</guid><description>HackTheBox - Challenges - Crypto - Bank Heist Provided Files: For this challenge you&amp;rsquo;re provided with the following cipher text:
-444333 99966688 277733 7773323444664 84433 22244474433777, 99966688 277733 666552999. 99966688777 777744277733 666333 84433 443344477778 4447777 44466 99966688777 4466688777733. 84433 5533999 8666 84433 55566622255 4447777 22335556669. 4666 8666 727774447777.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HackTheBox on simeononsecurity</title><link>/tags/hackthebox/</link><description>Recent content in HackTheBox on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 18:31:06 -0500</lastBuildDate><atom:link href="/tags/hackthebox/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenges - Crypto - Bank Heist</title><link>/writeups/hackthebox-challenges-crypto-bank_heist/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-bank_heist/</guid><description>
+&lt;h1 id="hackthebox---challenges---crypto---bank-heist">HackTheBox - Challenges - Crypto - Bank Heist&lt;/h1>
+&lt;h2 id="provided-files">Provided Files:&lt;/h2>
+&lt;p>For this challenge you&amp;rsquo;re provided with the following cipher text:&lt;/p>
+&lt;pre>&lt;code>444333 99966688 277733 7773323444664 84433 22244474433777, 99966688 277733 666552999. 99966688777 777744277733 666333 84433 443344477778 4447777 44466 99966688777 4466688777733. 84433 5533999 8666 84433 55566622255 4447777 22335556669. 4666 8666 727774447777.
 47777888 995559888 4555 47777888 44999988 666555997 : 8555444888477744488866888648833369!!
-Walk Through: Very clearly, this is either a T9 or Multitap cipher.
-Multitap is the cipher in this instance though.</description></item><item><title>HackTheBox - Challenges - Crypto - Call</title><link>/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-call/</guid><description>HackTheBox - Challenges - Crypto - Call Provided Files: You are provided one file:
-sound.mp3 Walk Through: Playing the sound.mp3, you&amp;rsquo;ll hear a familiar sound. If you&amp;rsquo;re not familiar the sounds you&amp;rsquo;re hearing are hearing DTMF (dual tone multi frequency) tones. The same tones you used to hear while dialing on a pay phone or while getting through automated teller menus.
-Each tone has a specific frequency. You could get the numbers manually, but who has the time for that?</description></item><item><title>HackTheBox - Challenges - Crypto - Decode</title><link>/writeups/hackthebox-challenges-crypto-decode/</link><pubDate>Wed, 07 Oct 2020 16:57:03 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-decode/</guid><description>HackTheBox - Challenges - Crypto - Decode Provided Files: In this challenge you are provided two strings of information.
-993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
-and
-gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
-Walk Through: At first glance it appears this is some sort of key and some cipher text. After searching around, you&amp;rsquo;ll find that it is a Fernet cypher. Asecuritysite.com has a great tool to decode it for you.
-The plain text from the above information gives you a base64 encoded string</description></item><item><title>HackTheBox - Challenge - Crypto - Weak RSA</title><link>/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><description>HackTheBox - Challenge - Crypto - Weak RSA The HTB &amp;ldquo;Weak RSA&amp;rdquo; Crypto is an easy challenge based on the RSA cipher.
-Provided Files: You are provided with the following files:
-flag.enc key.pub Walk-through: At first glance, you&amp;rsquo;d think you can decrypt the flag with the public key.
-For that, we might use the OpenSSL package to decrypt the flag. This time it&amp;rsquo;s a bit different and you&amp;rsquo;ll find that the OpenSSL package won&amp;rsquo;t work for this challenge.</description></item><item><title>HackTheBox - Invite Challenge (Windows/Linux)</title><link>/writeups/hackthebox-invite-challenge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-invite-challenge/</guid><description>HackTheBox - Invite Challenge (Windows/Linux) What is Hack the Box ? HackTheBox is an online platform to test and advance your skills in penetration testing and cyber security.
-How do you join Hack the box ? To create an account on HackTheBox (HTB) you have to complete the invite challenge, or hack yourself the way in. Don&amp;rsquo;t worry though it isn&amp;rsquo;t hard and this article will aid you incompleting the challenge.</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;h2 id="walk-through">Walk Through:&lt;/h2>
+&lt;p>Very clearly, this is either a T9 or Multitap cipher.&lt;br>
+Multitap is the cipher in this instance though. &lt;a href="https://www.dcode.fr/multitap-abc-cipher">Decode.fr&lt;/a> has a tool to decode this.&lt;/p>
+&lt;p>You&amp;rsquo;ll get this plain text:&lt;/p>
+&lt;pre>&lt;code>IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
+&lt;/code>&lt;/pre>&lt;p>What is that junk at the end you might ask? Well it&amp;rsquo;s actually an atbash cipher text.&lt;/p>
+&lt;pre>&lt;code>GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
+&lt;/code>&lt;/pre>&lt;p>We&amp;rsquo;ll use &lt;a href="https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&amp;amp;input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X">CyberChef&lt;/a> to decipher one more time. Then you have your flag. Whoot!&lt;/p>
+&lt;h3 id="flag-example">Flag Example:&lt;/h3>
+&lt;pre>&lt;code>HTB{XXXXXXXXXXXXXXXXX}
+&lt;/code>&lt;/pre></description></item><item><title>HackTheBox - Challenges - Crypto - Call</title><link>/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-call/</guid><description>
+&lt;h1 id="hackthebox---challenges---crypto---call">HackTheBox - Challenges - Crypto - Call&lt;/h1>
+&lt;h2 id="provided-files">Provided Files:&lt;/h2>
+&lt;p>You are provided one file:&lt;/p>
+&lt;ul>
+&lt;li>sound.mp3&lt;/li>
+&lt;/ul>
+&lt;h2 id="walk-through">Walk Through:&lt;/h2>
+&lt;p>Playing the &lt;strong>sound.mp3&lt;/strong>, you&amp;rsquo;ll hear a familiar sound. If you&amp;rsquo;re not familiar the sounds you&amp;rsquo;re hearing are hearing &lt;strong>DTMF&lt;/strong> (dual tone multi frequency) tones. The same tones you used to hear while dialing on a pay phone or while getting through automated teller menus.&lt;/p>
+&lt;p>Each tone has a specific frequency. You could get the numbers manually, but who has the time for that? &lt;a href="http://www.dialabc.com/sound/detect/index.html">DialABC&lt;/a> has a great tool for this, but doesn&amp;rsquo;t support mp3 files. First, you&amp;rsquo;ll have to convert it to .wav with this &lt;a href="https://online-audio-converter.com/">tool&lt;/a>&lt;/p>
+&lt;p>Take the converted file to &lt;a href="http://www.dialabc.com/sound/detect/index.html">DialABC&lt;/a> and you&amp;rsquo;ll get the following output:&lt;/p>
+&lt;pre>&lt;code>2331434783711923431767372331117714113
+&lt;/code>&lt;/pre>&lt;p>Take notice that if you listen to the audio file carefully or open it in &lt;strong>Audacity&lt;/strong> or &lt;strong>Sonic Visualizer&lt;/strong> that, with one exception, the numbers are paired in groups of two.
+If you separate out the number you get the following:&lt;/p>
+&lt;pre>&lt;code>23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
+&lt;/code>&lt;/pre>&lt;p>Organized like this, you might be confused and think that it might be HEX. It isn&amp;rsquo;t.&lt;br>
+Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?&amp;hellip;.
+They are all prime numbers. Which should bring you to try the lesser known &lt;strong>prime number cipher&lt;/strong>.&lt;/p>
+&lt;p>We&amp;rsquo;ll use &lt;a href="https://www.dcode.fr/prime-numbers-cipher">Decode.fr&lt;/a> to complete this challenge.&lt;br>
+Submit the cipher text from before we separated it out and you&amp;rsquo;ll get the flag.&lt;/p>
+&lt;pre>&lt;code>2331434783711923431767372331117714113
+&lt;/code>&lt;/pre>&lt;h3 id="flag-example">Flag Example:&lt;/h3>
+&lt;pre>&lt;code>HTB{xxxxxxxxxxxxxxxxxxx}
+&lt;/code>&lt;/pre></description></item><item><title>HackTheBox - Challenges - Crypto - Decode</title><link>/writeups/hackthebox-challenges-crypto-decode/</link><pubDate>Wed, 07 Oct 2020 16:57:03 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-decode/</guid><description>
+&lt;h1 id="hackthebox---challenges---crypto---decode">HackTheBox - Challenges - Crypto - Decode&lt;/h1>
+&lt;h2 id="provided-files">Provided Files:&lt;/h2>
+&lt;p>In this challenge you are provided two strings of information.&lt;/p>
+&lt;pre>&lt;code>993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
+&lt;/code>&lt;/pre>&lt;p>and&lt;/p>
+&lt;pre>&lt;code>gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
+&lt;/code>&lt;/pre>&lt;h2 id="walk-through">Walk Through:&lt;/h2>
+&lt;p>At first glance it appears this is some sort of key and some cipher text.
+After searching around, you&amp;rsquo;ll find that it is a Fernet cypher.
+&lt;a href="https://asecuritysite.com/encryption/ferdecode">Asecuritysite.com&lt;/a> has a great tool to decode it for you.&lt;/p>
+&lt;p>The plain text from the above information gives you a base64 encoded string&lt;/p>
+&lt;pre>&lt;code>RCdgTl45OFs8O3tGMlZVNTRRPythcUw6bVxJNmlYJmYkMEBSeFBfdSldeHFwdW5tM3Fwb2htZmUrTGJnZl9eXSNhYFleV1Z6VFNyUVZVTnJMUVBPTkdrS0QsSEFlKERDPDtfPz5+fTVZOTg3dzUuUjJyMC8oJyZKKikoJyYlfHtBeX53djx6eXhxWTZ0c1VUcG9oLnk=
+&lt;/code>&lt;/pre>&lt;p>To decode this, we&amp;rsquo;ll use the tool provided from &lt;a href="https://www.base64decode.org/">base64decode.org&lt;/a>&lt;/p>
+&lt;p>Decoding again gives you the following:&lt;/p>
+&lt;pre>&lt;code>D'`N^98[&amp;lt;;{F2VU54Q?+aqL:m\I6iX&amp;amp;f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNrLQPONGkKD,HAe(DC&amp;lt;;_?&amp;gt;
+&lt;/code>&lt;/pre>&lt;p>This was a new one for me. But you&amp;rsquo;ll find after some careful research that it is a Malboge cipher.
+Decoding it with &lt;a href="http://malbolge.doleczek.pl/">this&lt;/a> tool will give you the flag.&lt;/p>
+&lt;h3 id="flag-ex">Flag Ex:&lt;/h3>
+&lt;pre>&lt;code>HTB{x_xxx_xxxx}
+&lt;/code>&lt;/pre></description></item><item><title>HackTheBox - Challenge - Crypto - Weak RSA</title><link>/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><description>
+&lt;h1 id="hackthebox---challenge---crypto---weak-rsa">HackTheBox - Challenge - Crypto - Weak RSA&lt;/h1>
+&lt;p>The HTB &amp;ldquo;Weak RSA&amp;rdquo; Crypto is an easy challenge based on the RSA cipher.&lt;/p>
+&lt;h2 id="provided-files">Provided Files:&lt;/h2>
+&lt;p>&lt;strong>You are provided with the following files:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>flag.enc&lt;/li>
+&lt;li>key.pub&lt;/li>
+&lt;/ul>
+&lt;h2 id="walk-through">Walk-through:&lt;/h2>
+&lt;p>At first glance, you&amp;rsquo;d think you can decrypt the flag with the public key.&lt;br>
+For that, we might use the OpenSSL package to decrypt the flag.
+This time it&amp;rsquo;s a bit different and you&amp;rsquo;ll find that the OpenSSL package won&amp;rsquo;t work for this challenge.&lt;/p>
+&lt;p>We&amp;rsquo;ll use an automated RSA attack tool. A common python script is the &lt;a href="https://github.com/Ganapati/RsaCtfTool">RsaCtfTool&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Simply put, this tool finds the flag easily for you in an automated fashion.&lt;/p>
+&lt;h3 id="flag-example">Flag Example:&lt;/h3>
+&lt;pre>&lt;code>HTB{XXXXXX_XXXXXXX_XXXXXX}
+&lt;/code>&lt;/pre></description></item><item><title>HackTheBox - Invite Challenge (Windows/Linux)</title><link>/writeups/hackthebox-invite-challenge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-invite-challenge/</guid><description>
+&lt;h1 id="hackthebox---invite-challenge-windowslinux">HackTheBox - Invite Challenge (Windows/Linux)&lt;/h1>
+&lt;h2 id="what-is-hack-the-box-">What is Hack the Box ?&lt;/h2>
+&lt;p>HackTheBox is an online platform to test and advance your skills in penetration testing and cyber security.&lt;/p>
+&lt;h2 id="how-do-you-join-hack-the-box-">How do you join Hack the box ?&lt;/h2>
+&lt;p>To create an account on HackTheBox (HTB) you have to complete the invite challenge, or hack yourself the way in. Don&amp;rsquo;t worry though it isn&amp;rsquo;t hard and this article will aid you incompleting the challenge.&lt;/p>
+&lt;p>First, go to the &lt;a href="https://hackthebox.eu">HackTheBox Website&lt;/a> and click on the join button.&lt;/p>
+&lt;p>You&amp;rsquo;ll be presented with a box clearly asking for an invite code.&lt;/p>
+&lt;p>You can clearly see a text box asking us for an invite code.&lt;/p>
+&lt;p>Hit either &amp;ldquo;F12&amp;rdquo; on your keyboard or &amp;ldquo;Ctrl + Shift + I&amp;rdquo; to open your browsers developer tools.&lt;/p>
+&lt;p>On the &amp;ldquo;Elements&amp;rdquo; tab, you&amp;rsquo;ll find a script &lt;strong>&lt;a href="https://www.hackthebox.eu/js/inviteapi.min.js">inviteapi.min.js&lt;/a>&lt;/strong>.&lt;/p>
+&lt;p>Reviewing the javascript and the makeInviteCode function, you&amp;rsquo;ll discover that you need to send an &lt;strong>HTTP POST&lt;/strong> to &lt;strong>/api/invite/generate&lt;/strong> to get an invite code.&lt;/p>
+&lt;p>You can do the following to get the Base64 encoded invite code:&lt;/p>
+&lt;p>&lt;strong>Windows&lt;/strong>:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-powershell" data-lang="powershell">Invoke-WebRequest -Method POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu//api/invite/generate&amp;#34;&lt;/span> | ConvertFrom-JSON
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Linux&lt;/strong>:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">curl -X POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu/api/invite/generate&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which will generate the following content:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">{&lt;span style="color:#f92672">&amp;#34;success&amp;#34;&lt;/span>:&lt;span style="color:#ae81ff">1&lt;/span>,&lt;span style="color:#f92672">&amp;#34;data&amp;#34;&lt;/span>:{&lt;span style="color:#f92672">&amp;#34;code&amp;#34;&lt;/span>:&lt;span style="color:#e6db74">&amp;#34;Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;#34;format&amp;#34;&lt;/span>:&lt;span style="color:#e6db74">&amp;#34;encoded&amp;#34;&lt;/span>},&lt;span style="color:#f92672">&amp;#34;0&amp;#34;&lt;/span>:&lt;span style="color:#ae81ff">200&lt;/span>}
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you take the encoded invite code to &lt;a href="https://www.base64decode.org/">base64decode.org&lt;/a>, you&amp;rsquo;ll get your FLAG the invite code!&lt;/p></description></item></channel></rss>

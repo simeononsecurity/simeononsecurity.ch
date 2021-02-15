@@ -1,11 +1,190 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell Script on simeononsecurity</title><link>/tags/powershell-script/</link><description>Recent content in PowerShell Script on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/powershell-script/index.xml" rel="self" type="application/rss+xml"/><item><title>Harden Windows with Windows Defender Application Control (WDAC)</title><link>/github/windows-defender-application-control-hardening/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>/github/windows-defender-application-control-hardening/</guid><description>Windows-Defender-Application-Control-Hardening Harden Windows with Windows Defender Application Control (WDAC)
-A list of scripts and tools this collection utilizes: MicrosoftDocs - WDAC-Toolkit Additional configurations were considered from: Microsoft - Recommended block rules Microsoft - Recommended driver block rules Microsoft - Windows Defender Application Control Explanation: XML vs. BIN: Simply put, the &amp;ldquo;XML&amp;rdquo; policies are for applying to a machine locally and the &amp;ldquo;BIN&amp;rdquo; files are for enforcing them with either Group Policy or Microsoft Intune.</description></item><item><title>Install RSAT ActiveDirectory PowerShell Module Offline</title><link>/github/offine-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>/github/offine-ps-activedirectory-install/</guid><description>Offine-PS-ActiveDirectory-Install Install the PowerShell RSAT ActiveDirectory Module Offline
-How to install: Download the script From the extracted folder, run .\sos-offlinepsadinstall.ps1 #Require elivation for script run #Requires -RunAsAdministrator #Copy Files #Install PowerShell Modules Copy-Item -Path .\Files\ActiveDirectory -Destination &amp;#34;C:\Windows\System32\WindowsPowerShell\v1.0\Modules\&amp;#34; -Force -Recurse #Install Required DLLs Copy-Item -Path .\Files\WinSxS\* -Destination &amp;#34;C:\Windows\WinSxS\&amp;#34; -Force -Recurse #Unblock New PowerShell Modules and DLLs Get-ChildItem &amp;#34;C:\Windows\System32\WindowsPowerShell\v1.0\Modules\ActiveDirectory\&amp;#34; -recurse | Unblock-File Unblock-File -Path &amp;#34;C:\Windows\WinSxS\Microsoft.ActiveDirectory.Management.resources.dll&amp;#34; Unblock-File -Path &amp;#34;C:\Windows\WinSxS\Microsoft.ActiveDirectory.Management.dll&amp;#34; #Install PowerShell Modules and DLLs Import-Module -Name ActiveDirectory -Force -Global Import-Module &amp;#34;C:\Windows\WinSxS\Microsoft.</description></item><item><title>Hardening Windows Systems with Applocker</title><link>/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>/github/applocker-hardening/</guid><description>Ultimate Applocker Hardening Configuration Script.
-What does this script do? Locks down system resources to bare minumum needed for basic OS functionality Recommended reading: api0cradle/UltimateAppLockerByPassList) Microsoft Recommended Block Rules MotiBa/AppLocker NSA Cyber Bitlocker Gidance Download the required files: Download the required files from the GitHub Repository
-How to run the script: The script may be lauched from the extracted GitHub download like this:
-.\sos-applockerhardening.ps1</description></item><item><title>Hardening Windows Terminals. Command Prompt and PowerShell</title><link>/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><guid>/github/windows-terminal-hardening/</guid><description>Scripts and Documentation for Hardening Windows Command Prompt and PowerShell
-What does this script do? Disables Command Prompt Disables PowerShell v2 Disables WSMAN and PSRemoting Enables PowerShell Constrained Language Mode Enables PowerShell Logging Recommended Reading: PowerShell Best Practices PowerShell Constrained Language Mode Securing PowerShell in the Enterprise Windows Defender Hardening Download the required files: Download the required files from the GitHub Repository
-How to run the script: The script may be lauched from the extracted GitHub download like this:</description></item><item><title>Automating the Windows Defender STIG</title><link>/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><guid>/github/windows-defender-stig-script/</guid><description>STIGS/SRGs Applied: Windows Defender Antivirus V1R9 Download the required files: Download the required files from the GitHub Repository
-How to run the script: The script may be lauched from the extracted GitHub download like this:
-.\sos-windowsdefenderstig.ps1</description></item><item><title>Hardening Windows Defender</title><link>/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><guid>/github/windows-defender-hardening/</guid><description>What does this script do? Enables Cloud-delivered Protections Enables Controlled Folder Access Enables Network Protections Enables Intrusion Prevention System Enables Windows Defender Application Control Policies Enables Windows Defender Attack Surface Reduction Rules Enables Windows Defender Exploit Protections Implements all requirements listed in the Windows Defender Antivirus STIG Download the required files: Download the required files from the GitHub Repository
-How to run the script: The script may be lauched from the extracted GitHub download like this:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell Script on simeononsecurity</title><link>/tags/powershell-script/</link><description>Recent content in PowerShell Script on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/powershell-script/index.xml" rel="self" type="application/rss+xml"/><item><title>Harden Windows with Windows Defender Application Control (WDAC)</title><link>/github/windows-defender-application-control-hardening/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>/github/windows-defender-application-control-hardening/</guid><description>
+&lt;h1 id="windows-defender-application-control-hardening">Windows-Defender-Application-Control-Hardening&lt;/h1>
+&lt;p>Harden Windows with Windows Defender Application Control (WDAC)&lt;/p>
+&lt;h2 id="a-list-of-scripts-and-tools-this-collection-utilizes">A list of scripts and tools this collection utilizes:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/MicrosoftDocs/WDAC-Toolkit">MicrosoftDocs - WDAC-Toolkit&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="additional-configurations-were-considered-from">Additional configurations were considered from:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules">Microsoft - Recommended block rules&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules">Microsoft - Recommended driver block rules&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide">Microsoft - Windows Defender Application Control&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="explanation">Explanation:&lt;/h2>
+&lt;h3 id="xml-vs-bin">XML vs. BIN:&lt;/h3>
+&lt;ul>
+&lt;li>Simply put, the &lt;strong>&amp;ldquo;XML&amp;rdquo;&lt;/strong> policies are for applying to a machine locally and the &lt;strong>&amp;ldquo;BIN&amp;rdquo;&lt;/strong> files are for enforcing them with either &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy">Group Policy&lt;/a> or &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune">Microsoft Intune&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="policy-descriptions">Policy Descriptions:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Default Policies:&lt;/strong>
+&lt;ul>
+&lt;li>The &amp;ldquo;Default&amp;rdquo; policies use only the default features available in the WDAC-Toolkit.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Recommended Policies:&lt;/strong>
+&lt;ul>
+&lt;li>The &amp;ldquo;Recommended&amp;rdquo; policies use the default features as well as Microsoft&amp;rsquo;s recommended &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules">blocks&lt;/a> and &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules">driver block&lt;/a> rules.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Audit Policies:&lt;/strong>
+&lt;ul>
+&lt;li>The &amp;ldquo;Audit&amp;rdquo; policies, just log exceptions to the rules. This is for testing in your environment, so that you may modify the policies, at will, to fit your environments needs.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Enforced Policies:&lt;/strong>
+&lt;ul>
+&lt;li>The &amp;ldquo;Enforced&amp;rdquo; policies will not allow any exceptions to the rules, applications, drivers, dlls, etc. will be blocked if they do not comply.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="available-policies">Available Policies:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>XML:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Audit Only:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>WDAC_V1_Default_Audit.xml&lt;/code>&lt;/li>
+&lt;li>&lt;code>WDAC_V1_Recommended_Audit.xml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Enforced:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>WDAC_V1_Default_Enforced.xml&lt;/code>&lt;/li>
+&lt;li>&lt;code>WDAC_V1_Recommended_Enforced.xml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>BIN:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Audit Only:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>WDAC_V1_Default_Audit.bin&lt;/code>&lt;/li>
+&lt;li>&lt;code>WDAC_V1_Recommended_Audit.bin&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Enforced:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>WDAC_V1_Default_Enforced.bin&lt;/code>&lt;/li>
+&lt;li>&lt;code>WDAC_V1_Recommended_Enforced.bin&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Update the following line in the script to use the policy that you desire locally:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-powershell" data-lang="powershell">$PolicyPath = &lt;span style="color:#e6db74">&amp;#34;C:\temp\Windows Defender\WDAC_V1_Recommended_Enforced.xml&amp;#34;&lt;/span>
+&lt;span style="color:#66d9ef">ForEach&lt;/span> ($PolicyNumber &lt;span style="color:#66d9ef">in&lt;/span> (1..10)) {
+Write-Host &lt;span style="color:#e6db74">&amp;#34;Importing WDAC Policy Option $PolicyNumber&amp;#34;&lt;/span>
+Set-RuleOption -FilePath $PolicyPath -Option $PolicyNumber
+}
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Alternatively, you may use &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy">Group Policy&lt;/a> or &lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune">Microsoft Intune&lt;/a> to enforce the WDAC policies.&lt;/p>
+&lt;h2 id="auditing">Auditing:&lt;/h2>
+&lt;p>You can view the WDAC event logs in event viewer under:&lt;/p>
+&lt;p>&lt;code>Applications and Services Logs\Microsoft\Windows\CodeIntegrity\Operational&lt;/code>&lt;/p>
+&lt;h2 id="recommended-reading">Recommended Reading:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies">Microsoft - Audit Windows Defender Application Control Policies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy">Microsoft - Deploy Windows Defender Application Control policies by using Group Policy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune">Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies">Microsoft - Enforce Windows Defencer Application Control Policies&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
+&lt;h3 id="manual-install">Manual Install:&lt;/h3>
+&lt;p>If manually downloaded, the script must be launched from an administrative powershell in the directory containing all the files from the &lt;a href="https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main.zip">GitHub Repository&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-ps" data-lang="ps">&lt;span style="color:#a6e22e">Set-ExecutionPolicy&lt;/span> &lt;span style="color:#a6e22e">-ExecutionPolicy&lt;/span> &lt;span style="color:#a6e22e">RemoteSigned&lt;/span> &lt;span style="color:#a6e22e">-Force&lt;/span>
+&lt;span style="color:#a6e22e">Get-ChildItem&lt;/span> &lt;span style="color:#a6e22e">-Recurse&lt;/span> &lt;span style="color:#a6e22e">*.ps1&lt;/span> &lt;span style="color:#a6e22e">|&lt;/span> &lt;span style="color:#a6e22e">Unblock-File&lt;/span>
+&lt;span style="color:#a6e22e">.\sos-wdachardening.ps1&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Install RSAT ActiveDirectory PowerShell Module Offline</title><link>/github/offine-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><guid>/github/offine-ps-activedirectory-install/</guid><description>
+&lt;h1 id="offine-ps-activedirectory-install">Offine-PS-ActiveDirectory-Install&lt;/h1>
+&lt;p>Install the PowerShell RSAT ActiveDirectory Module Offline&lt;/p>
+&lt;h3 id="how-to-install">How to install:&lt;/h3>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/simeononsecurity/Offine-PS-ActiveDirectory-Install/archive/master.zip">Download the script&lt;/a>&lt;/li>
+&lt;li>From the extracted folder, run &lt;code>.\sos-offlinepsadinstall.ps1&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="color:#75715e">#Require elivation for script run&lt;/span>
+&lt;span style="color:#75715e">#Requires -RunAsAdministrator&lt;/span>
+&lt;span style="color:#75715e">#Copy Files&lt;/span>
+&lt;span style="color:#75715e">#Install PowerShell Modules&lt;/span>
+Copy-Item -Path .\Files\ActiveDirectory -Destination &lt;span style="color:#e6db74">&amp;#34;C:\Windows\System32\WindowsPowerShell\v1.0\Modules\&amp;#34;&lt;/span> -Force -Recurse
+&lt;span style="color:#75715e">#Install Required DLLs&lt;/span>
+Copy-Item -Path .\Files\WinSxS\* -Destination &lt;span style="color:#e6db74">&amp;#34;C:\Windows\WinSxS\&amp;#34;&lt;/span> -Force -Recurse
+&lt;span style="color:#75715e">#Unblock New PowerShell Modules and DLLs&lt;/span>
+Get-ChildItem &lt;span style="color:#e6db74">&amp;#34;C:\Windows\System32\WindowsPowerShell\v1.0\Modules\ActiveDirectory\&amp;#34;&lt;/span> -recurse | Unblock-File
+Unblock-File -Path &lt;span style="color:#e6db74">&amp;#34;C:\Windows\WinSxS\Microsoft.ActiveDirectory.Management.resources.dll&amp;#34;&lt;/span>
+Unblock-File -Path &lt;span style="color:#e6db74">&amp;#34;C:\Windows\WinSxS\Microsoft.ActiveDirectory.Management.dll&amp;#34;&lt;/span>
+&lt;span style="color:#75715e">#Install PowerShell Modules and DLLs&lt;/span>
+Import-Module -Name ActiveDirectory -Force -Global
+Import-Module &lt;span style="color:#e6db74">&amp;#34;C:\Windows\WinSxS\Microsoft.ActiveDirectory.Management.resources.dll&amp;#34;&lt;/span> -Force -Global
+Import-Module &lt;span style="color:#e6db74">&amp;#34;C:\Windows\WinSxS\Microsoft.ActiveDirectory.Management.dll&amp;#34;&lt;/span> -Force -Global
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Hardening Windows Systems with Applocker</title><link>/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>/github/applocker-hardening/</guid><description>
+&lt;p>Ultimate Applocker Hardening Configuration Script.&lt;/p>
+&lt;h2 id="what-does-this-script-do">What does this script do?&lt;/h2>
+&lt;ul>
+&lt;li>Locks down system resources to bare minumum needed for basic OS functionality&lt;/li>
+&lt;/ul>
+&lt;h2 id="recommended-reading">Recommended reading:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/api0cradle/UltimateAppLockerByPassList">api0cradle/UltimateAppLockerByPassList)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules">Microsoft Recommended Block Rules&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/MotiBa/AppLocker">MotiBa/AppLocker&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/nsacyber/AppLocker-Guidance">NSA Cyber Bitlocker Gidance&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="download-the-required-files">Download the required files:&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Applocker-Hardening">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-applockerhardening.ps1
+&lt;/code>&lt;/pre></description></item><item><title>Hardening Windows Terminals. Command Prompt and PowerShell</title><link>/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><guid>/github/windows-terminal-hardening/</guid><description>
+&lt;p>Scripts and Documentation for Hardening Windows Command Prompt and PowerShell&lt;/p>
+&lt;h2 id="what-does-this-script-do">What does this script do?&lt;/h2>
+&lt;ul>
+&lt;li>Disables Command Prompt&lt;/li>
+&lt;li>Disables PowerShell v2&lt;/li>
+&lt;li>Disables WSMAN and PSRemoting&lt;/li>
+&lt;li>Enables PowerShell Constrained Language Mode&lt;/li>
+&lt;li>Enables PowerShell Logging&lt;/li>
+&lt;/ul>
+&lt;h2 id="recommended-reading">Recommended Reading:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.digitalshadows.com/blog-and-research/powershell-security-best-practices/">PowerShell Best Practices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://devblogs.microsoft.com/powershell/powershell-constrained-language-mode/">PowerShell Constrained Language Mode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise">Securing PowerShell in the Enterprise&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/simeononsecurity/Windows-Defender-Hardening">Windows Defender Hardening&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="download-the-required-files">Download the required files:&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Terminal-Hardening">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-windowsterminalhardening.ps1
+&lt;/code>&lt;/pre></description></item><item><title>Automating the Windows Defender STIG</title><link>/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><guid>/github/windows-defender-stig-script/</guid><description>
+&lt;h2 id="stigssrgs-applied">STIGS/SRGs Applied:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip">Windows Defender Antivirus V1R9&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="download-the-required-files">Download the required files:&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Defender-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-windowsdefenderstig.ps1
+&lt;/code>&lt;/pre></description></item><item><title>Hardening Windows Defender</title><link>/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><guid>/github/windows-defender-hardening/</guid><description>
+&lt;h2 id="what-does-this-script-do">What does this script do?&lt;/h2>
+&lt;ul>
+&lt;li>Enables Cloud-delivered Protections&lt;/li>
+&lt;li>Enables Controlled Folder Access&lt;/li>
+&lt;li>Enables Network Protections&lt;/li>
+&lt;li>Enables Intrusion Prevention System&lt;/li>
+&lt;li>Enables Windows Defender Application Control Policies&lt;/li>
+&lt;li>Enables Windows Defender Attack Surface Reduction Rules&lt;/li>
+&lt;li>Enables Windows Defender Exploit Protections&lt;/li>
+&lt;li>Implements all requirements listed in the &lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip">Windows Defender Antivirus STIG&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="download-the-required-files">Download the required files:&lt;/h2>
+&lt;p>Download the required files from the &lt;a href="https://github.com/simeononsecurity/Windows-Defender-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
+&lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
+&lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.\sos-windowsdefenderhardening.ps1
+&lt;/code>&lt;/pre></description></item></channel></rss>

@@ -1,3 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chromium Browser on simeononsecurity</title><link>/tags/chromium-browser/</link><description>Recent content in Chromium Browser on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2020 19:30:33 -0500</lastBuildDate><atom:link href="/tags/chromium-browser/index.xml" rel="self" type="application/rss+xml"/><item><title>Chromium ADMX Templates</title><link>/github/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/github/chromium-admx-templates/</guid><description>ChromiumADMX Proper ADMX Template for the Chromium Browser
-Brave, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates. With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Chromium Browser&amp;rsquo;s registry path and placed in tandum in the Google ADMX Folder in GPO.
-These Policy Definitions are in a Pre-Alpha state.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chromium Browser on simeononsecurity</title><link>/tags/chromium-browser/</link><description>Recent content in Chromium Browser on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2020 19:30:33 -0500</lastBuildDate><atom:link href="/tags/chromium-browser/index.xml" rel="self" type="application/rss+xml"/><item><title>Chromium ADMX Templates</title><link>/github/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/github/chromium-admx-templates/</guid><description>
+&lt;h1 id="chromiumadmx">ChromiumADMX&lt;/h1>
+&lt;p>Proper ADMX Template for the Chromium Browser&lt;/p>
+&lt;p>Brave, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.
+With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Chromium Browser&amp;rsquo;s registry path and placed in tandum in the Google ADMX Folder in GPO.&lt;/p>
+&lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
+&lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
+&lt;p>&lt;strong>Download the required files from the &lt;a href="https://github.com/simeononsecurity/ChromiumADMX">GitHub Repository&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;p>Modified Google Chrome Policy Definitions according to:
+&lt;a href="https://www.chromium.org/administrators/policy-templates">Chromium Policy Templates&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Replaced &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome&amp;rdquo; with &amp;ldquo;HKEY_LOCAL_MACHINE\Software\Policies\Chromium&amp;quot;&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Do not install SOS&amp;rsquo;es Chromium and Brave Browser ADMX templates at the same time.&lt;/p>
+&lt;h2 id="how-to-install">How to install&lt;/h2>
+&lt;p>1.) Copy all files except readme.md to &amp;ldquo;C:\Windows\PolicyDefinitions&amp;rdquo; and/or &amp;ldquo;\\domain.tld\domain\Policies\PolicyDefinitions&amp;rdquo;&lt;/p>
+&lt;p>2.) Profit?&lt;/p></description></item></channel></rss>

@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atbash on simeononsecurity</title><link>/tags/atbash/</link><description>Recent content in Atbash on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 18:31:06 -0500</lastBuildDate><atom:link href="/tags/atbash/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenges - Crypto - Bank Heist</title><link>/writeups/hackthebox-challenges-crypto-bank_heist/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-bank_heist/</guid><description>HackTheBox - Challenges - Crypto - Bank Heist Provided Files: For this challenge you&amp;rsquo;re provided with the following cipher text:
-444333 99966688 277733 7773323444664 84433 22244474433777, 99966688 277733 666552999. 99966688777 777744277733 666333 84433 443344477778 4447777 44466 99966688777 4466688777733. 84433 5533999 8666 84433 55566622255 4447777 22335556669. 4666 8666 727774447777.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atbash on simeononsecurity</title><link>/tags/atbash/</link><description>Recent content in Atbash on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 18:31:06 -0500</lastBuildDate><atom:link href="/tags/atbash/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenges - Crypto - Bank Heist</title><link>/writeups/hackthebox-challenges-crypto-bank_heist/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-bank_heist/</guid><description>
+&lt;h1 id="hackthebox---challenges---crypto---bank-heist">HackTheBox - Challenges - Crypto - Bank Heist&lt;/h1>
+&lt;h2 id="provided-files">Provided Files:&lt;/h2>
+&lt;p>For this challenge you&amp;rsquo;re provided with the following cipher text:&lt;/p>
+&lt;pre>&lt;code>444333 99966688 277733 7773323444664 84433 22244474433777, 99966688 277733 666552999. 99966688777 777744277733 666333 84433 443344477778 4447777 44466 99966688777 4466688777733. 84433 5533999 8666 84433 55566622255 4447777 22335556669. 4666 8666 727774447777.
 47777888 995559888 4555 47777888 44999988 666555997 : 8555444888477744488866888648833369!!
-Walk Through: Very clearly, this is either a T9 or Multitap cipher.
-Multitap is the cipher in this instance though.</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;h2 id="walk-through">Walk Through:&lt;/h2>
+&lt;p>Very clearly, this is either a T9 or Multitap cipher.&lt;br>
+Multitap is the cipher in this instance though. &lt;a href="https://www.dcode.fr/multitap-abc-cipher">Decode.fr&lt;/a> has a tool to decode this.&lt;/p>
+&lt;p>You&amp;rsquo;ll get this plain text:&lt;/p>
+&lt;pre>&lt;code>IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
+&lt;/code>&lt;/pre>&lt;p>What is that junk at the end you might ask? Well it&amp;rsquo;s actually an atbash cipher text.&lt;/p>
+&lt;pre>&lt;code>GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
+&lt;/code>&lt;/pre>&lt;p>We&amp;rsquo;ll use &lt;a href="https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&amp;amp;input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X">CyberChef&lt;/a> to decipher one more time. Then you have your flag. Whoot!&lt;/p>
+&lt;h3 id="flag-example">Flag Example:&lt;/h3>
+&lt;pre>&lt;code>HTB{XXXXXXXXXXXXXXXXX}
+&lt;/code>&lt;/pre></description></item></channel></rss>

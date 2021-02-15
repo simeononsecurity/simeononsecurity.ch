@@ -1,2 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SSL on simeononsecurity</title><link>/tags/ssl/</link><description>Recent content in SSL on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 10:15:03 -0700</lastBuildDate><atom:link href="/tags/ssl/index.xml" rel="self" type="application/rss+xml"/><item><title>Hardening Apache Web Server</title><link>/github/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate><guid>/github/hardening-apache/</guid><description>A collection of example configurations and scripts to aid system administrators in hardening Apache web servers. Apache, out of the box, is surprisingly insecure. Many best practices and security configurations have to be configured manually before rolling Apache out in a production environment. You may use this GitHub repository as a starting point towards securing your Apache instances.
-Installing ModSecurity with OWASP Core Rule Set Step 1: Update Repositories On Ubuntu/ Debian:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SSL on simeononsecurity</title><link>/tags/ssl/</link><description>Recent content in SSL on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 10:15:03 -0700</lastBuildDate><atom:link href="/tags/ssl/index.xml" rel="self" type="application/rss+xml"/><item><title>Hardening Apache Web Server</title><link>/github/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate><guid>/github/hardening-apache/</guid><description>
+&lt;h3 id="a-collection-of-example-configurations-and-scripts-to-aid-system-administrators-in-hardening-apache-web-servers">A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.&lt;/h3>
+&lt;p>Apache, out of the box, is surprisingly insecure. Many best practices and security configurations have to be configured manually before rolling Apache out in a production environment. You may use this GitHub repository as a starting point towards securing your Apache instances.&lt;/p>
+&lt;h2 id="installing-modsecurity-with-owasp-core-rule-set">Installing ModSecurity with OWASP Core Rule Set&lt;/h2>
+&lt;h3 id="step-1-update-repositories">Step 1: Update Repositories&lt;/h3>
+&lt;p>&lt;strong>On Ubuntu/ Debian:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo apt-get update -y
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>On CentOS/RHEL:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo yum update -y
+&lt;/code>&lt;/pre>&lt;h3 id="step-2-installing-modsecurity-for-apache">Step 2: Installing ModSecurity for Apache&lt;/h3>
+&lt;p>&lt;strong>On Ubuntu/ Debian:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo apt-get install -y libapache2-modsecurity
+sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>On CentOS/RHEL:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo yum install -y mod_security
+sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-3-configure-modsecurity">Step 3: Configure ModSecurity&lt;/h3>
+&lt;p>ModSecurity by default is only configured to log events from the default rules. We&amp;rsquo;ll have to edit the configuration file to modify the rules to detect and block malicious traffic.&lt;/p>
+&lt;p>&lt;strong>Copy and rename the file:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo cp /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Change the ModSecurity detection mode by editing the configuration file:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>sudo nano /etc/modsecurity/modsecurity.conf
+&lt;/code>&lt;/pre>&lt;p>Change &amp;ldquo;DetectionOnly&amp;rdquo; to &amp;ldquo;On&amp;rdquo;&lt;/p>
+&lt;pre>&lt;code>SecRuleEngine DetectionOnly
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>SecRuleEngine On
+&lt;/code>&lt;/pre>&lt;p>If you&amp;rsquo;re using nano you may hit &lt;strong>CTRL+X&lt;/strong>, then &lt;strong>Y&lt;/strong> and &lt;strong>Enter&lt;/strong> to save and exit.&lt;/p>
+&lt;p>&lt;strong>Restart Apache&lt;/strong>&lt;/p>
+&lt;p>On Ubuntu\ Debian:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>On CentOS\ RHEL:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-4-downloading-and-installing-owasp-modsecurity-core-rule-set">Step 4: Downloading and Installing OWASP ModSecurity Core Rule Set&lt;/h3>
+&lt;pre>&lt;code>cd /apache/conf
+wget https://github.com/coreruleset/coreruleset/archive/v3.3.0.tar.gz
+tar -xvzf v3.3.0.tar.gz
+sudo ln -s coreruleset-3.3.0 /apache/conf/crs
+cp crs/crs-setup.conf.example crs/crs-setup.conf
+rm v3.3.0.tar.gz
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Restart Apache&lt;/strong>&lt;/p>
+&lt;p>On Ubuntu\ Debian:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart apache2
+&lt;/code>&lt;/pre>&lt;p>On CentOS\ RHEL:&lt;/p>
+&lt;pre>&lt;code>sudo systemctl restart httpd.service
+&lt;/code>&lt;/pre>&lt;h3 id="step-5-additional-reading-material">Step 5: Additional Reading Material&lt;/h3>
+&lt;p>&lt;strong>Additional installation instructions:&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://owasp.org/www-project-modsecurity-core-rule-set/">Install OWASP ModSecurity Core Rule Set&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://phoenixnap.com/kb/setup-configure-modsecurity-on-apache">Install ModSecurity&lt;/a>&lt;/p>
+&lt;h2 id="ssl-certificates">SSL Certificates&lt;/h2>
+&lt;h3 id="self-signed">Self Signed&lt;/h3>
+&lt;p>Following the instructions from &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04">Digital Ocean&lt;/a>&lt;/p>
+&lt;p>For this tutorial, I&amp;rsquo;m assuming you&amp;rsquo;re going to be using the &lt;strong>example.com.conf&lt;/strong> file from the repository.&lt;/p>
+&lt;h4 id="step-1-create-the-ssl-certificate">Step 1: Create the SSL certificate&lt;/h4>
+&lt;pre>&lt;code>sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Fill out the prompts appropriately. The most important line is the one that requests the Common Name (e.g. server FQDN or YOUR name). You need to enter the domain name associated with your server or, more likely, your server’s public IP address.&lt;/strong>
+If using for the IP access only certificate in the example.com.conf please use &lt;strong>&amp;ldquo;NA&amp;rdquo;&lt;/strong> for all values where posible.&lt;/p>
+&lt;h4 id="perfect-forward-secrecy-configuration">Perfect Forward Secrecy Configuration&lt;/h4>
+&lt;pre>&lt;code>sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+&lt;/code>&lt;/pre>&lt;h3 id="automate-with-letsencrypt-and-certbot">Automate with LetsEncrypt and Certbot&lt;/h3>
+&lt;p>Following the tutorial from &lt;a href="https://certbot.eff.org/lets-encrypt/ubuntubionic-apache.html">Certbot&lt;/a>&lt;/p>
+&lt;h4 id="step-1-install-certbot">Step 1: Install Certbot&lt;/h4>
+&lt;pre>&lt;code>sudo apt-get update -y
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install -y certbot python3-certbot-apache
+&lt;/code>&lt;/pre>&lt;h3 id="step-2-choose-how-youd-like-to-run-certbot">Step 2: Choose how you&amp;rsquo;d like to run Certbot&lt;/h3>
+&lt;h5 id="either-get-and-install-your-certificates">Either get and install your certificates&amp;hellip;&lt;/h5>
+&lt;pre>&lt;code>sudo certbot --apache
+&lt;/code>&lt;/pre>&lt;h5 id="or-just-get-a-certificate">Or, just get a certificate&lt;/h5>
+&lt;pre>&lt;code>sudo certbot certonly --apache
+&lt;/code>&lt;/pre>&lt;h4 id="step-3-test-automatic-renewal">Step 3: Test automatic renewal&lt;/h4>
+&lt;pre>&lt;code>sudo certbot renew --dry-run
+&lt;/code>&lt;/pre></description></item></channel></rss>

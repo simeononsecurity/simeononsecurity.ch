@@ -1,3 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DTMF on simeononsecurity</title><link>/tags/dtmf/</link><description>Recent content in DTMF on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 18:31:06 -0500</lastBuildDate><atom:link href="/tags/dtmf/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenges - Crypto - Call</title><link>/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-call/</guid><description>HackTheBox - Challenges - Crypto - Call Provided Files: You are provided one file:
-sound.mp3 Walk Through: Playing the sound.mp3, you&amp;rsquo;ll hear a familiar sound. If you&amp;rsquo;re not familiar the sounds you&amp;rsquo;re hearing are hearing DTMF (dual tone multi frequency) tones. The same tones you used to hear while dialing on a pay phone or while getting through automated teller menus.
-Each tone has a specific frequency. You could get the numbers manually, but who has the time for that?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DTMF on simeononsecurity</title><link>/tags/dtmf/</link><description>Recent content in DTMF on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 18:31:06 -0500</lastBuildDate><atom:link href="/tags/dtmf/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenges - Crypto - Call</title><link>/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 18:31:06 -0500</pubDate><guid>/writeups/hackthebox-challenges-crypto-call/</guid><description>
+&lt;h1 id="hackthebox---challenges---crypto---call">HackTheBox - Challenges - Crypto - Call&lt;/h1>
+&lt;h2 id="provided-files">Provided Files:&lt;/h2>
+&lt;p>You are provided one file:&lt;/p>
+&lt;ul>
+&lt;li>sound.mp3&lt;/li>
+&lt;/ul>
+&lt;h2 id="walk-through">Walk Through:&lt;/h2>
+&lt;p>Playing the &lt;strong>sound.mp3&lt;/strong>, you&amp;rsquo;ll hear a familiar sound. If you&amp;rsquo;re not familiar the sounds you&amp;rsquo;re hearing are hearing &lt;strong>DTMF&lt;/strong> (dual tone multi frequency) tones. The same tones you used to hear while dialing on a pay phone or while getting through automated teller menus.&lt;/p>
+&lt;p>Each tone has a specific frequency. You could get the numbers manually, but who has the time for that? &lt;a href="http://www.dialabc.com/sound/detect/index.html">DialABC&lt;/a> has a great tool for this, but doesn&amp;rsquo;t support mp3 files. First, you&amp;rsquo;ll have to convert it to .wav with this &lt;a href="https://online-audio-converter.com/">tool&lt;/a>&lt;/p>
+&lt;p>Take the converted file to &lt;a href="http://www.dialabc.com/sound/detect/index.html">DialABC&lt;/a> and you&amp;rsquo;ll get the following output:&lt;/p>
+&lt;pre>&lt;code>2331434783711923431767372331117714113
+&lt;/code>&lt;/pre>&lt;p>Take notice that if you listen to the audio file carefully or open it in &lt;strong>Audacity&lt;/strong> or &lt;strong>Sonic Visualizer&lt;/strong> that, with one exception, the numbers are paired in groups of two.
+If you separate out the number you get the following:&lt;/p>
+&lt;pre>&lt;code>23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
+&lt;/code>&lt;/pre>&lt;p>Organized like this, you might be confused and think that it might be HEX. It isn&amp;rsquo;t.&lt;br>
+Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?&amp;hellip;.
+They are all prime numbers. Which should bring you to try the lesser known &lt;strong>prime number cipher&lt;/strong>.&lt;/p>
+&lt;p>We&amp;rsquo;ll use &lt;a href="https://www.dcode.fr/prime-numbers-cipher">Decode.fr&lt;/a> to complete this challenge.&lt;br>
+Submit the cipher text from before we separated it out and you&amp;rsquo;ll get the flag.&lt;/p>
+&lt;pre>&lt;code>2331434783711923431767372331117714113
+&lt;/code>&lt;/pre>&lt;h3 id="flag-example">Flag Example:&lt;/h3>
+&lt;pre>&lt;code>HTB{xxxxxxxxxxxxxxxxxxx}
+&lt;/code>&lt;/pre></description></item></channel></rss>

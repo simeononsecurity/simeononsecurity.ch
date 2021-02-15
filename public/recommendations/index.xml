@@ -1,14 +1,530 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recommendations on simeononsecurity</title><link>/recommendations/</link><description>Recent content in Recommendations on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/recommendations/index.xml" rel="self" type="application/rss+xml"/><item><title>Recommended Anti-Virus</title><link>/recommendations/anti-virus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/anti-virus/</guid><description>Rankings are based on SimeonOnSecurity&amp;rsquo;s professional opinion and basic testing against malicious samples provided by VirusTotal. These recommendations do not take into account vendors privacy policies or related practices and only cover the AV capabilities, detection, user experience, and performance.
-Notes:
-Generally speaking, AV is not required on Linux or MacOS. It is not recommended to use any VPN or password manager thay may be provided with the AV suite.</description></item><item><title>Recommended Books</title><link>/recommendations/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/books/</guid><description>Educational: Automation: Automate the Boring Stuff with Python - Al Sweigart Practical Ansible 2 - Daniel Oh Practical Network Automation - Abhishek Ratan Coding: Python Crash Course - Eric Matthes Cyber Security: Blue Team Field Manual - Alan J White Hash Crack - Joshua Picolet Operator Handbook - Joshua Picolet Red Team Field Manual - Ben Clark The Art of Deception - Kevin Mitnick The Art of Intrusion - Kevin Mitnick The Art of Invisibility - Kevin Mitnick The Hacker Playbook 3 - Peter Kim Tribe of Hackers - Marcus J.</description></item><item><title>Recommended Browser Plugins</title><link>/recommendations/browser_plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/browser_plugins/</guid><description>Note: The only daily-driver browser I recommend is FireFox. Alternatively you should be using the TOR Browser. Do not install plugins in the TOR browser.
-U-Block Origin - Prefered - A great Open-Source AD blocker. HTTPS Everywhere - Prefered - Forces your browser to load sites over HTTPS rather than HTTP Decentraleyes - Local CDN Emulator ClearURLs - Dynamically removes tracking tags from links CanvasBlocker - Prevents JavaScript Fingerprinting Multi Account Containers - Allows for isolated brower sessions Terms of Service, Didn&amp;rsquo;t Read - Informs user of shady ToS Bitwarden - Secure Open-Source Cloud Password Manager Privacy Badger - Learns and blocks trackers</description></item><item><title>Recommended Certifications</title><link>/recommendations/certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/certifications/</guid><description>There are many Cyber and IT related certifications out there, but most are argueably a waste of time over others. Some will enable you to land a job, while others wont. This list consists of the certifications that SimeonOnSecurity recommends for those seeking to enter the IT and CyberSecurity job force.
-Notes:
-This should apply everywhere in the US, but outside the US these are likely to change. There may be other certs out there that are worth in a specific category that aren&amp;rsquo;t listed here, but the ones here are listed over others because they have the widest recognition.</description></item><item><title>Recommended eMail Providers</title><link>/recommendations/email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/email/</guid><description> ProtonMail - Preferred - E2E Encrypted EMail
-Tutanota - E2E Encrypted EMail</description></item><item><title>Recommended Every Day Carry (EDC)</title><link>/recommendations/edc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/edc/</guid><description>The typical every day carry (EDC) consists of a few basic tools. Typically, those are a knife or blade, a flashlight, a watch, and a pen. I&amp;rsquo;ll recommend a few in different price points within their categories with a few extras below.
-Knife/Blades: CRKT Squid Folding Pocket Knife - $15 Gerber EAB Pocket Knife - $18 Kershaw Leek - $55 Spyderco Tenacious - $55 TPT Slide - $85 Benchmade - Mini Griptilian 556 - $90 Benchmade - Griptilian 551 - $140 Spyderco Para Military 2 - $165 Kizer Cutlery Begleiter Folding Pocket Knife - $169 Flashlights: RovyVon A1 - $28 Streamlight 88039 ProTac - $30 Olight S2 Cree XM-L2 - $49 OLIGHT S2R II - $55 Olight Warrior - $80 Watches: AURSINC WiFi Deauther Wristband - $50 Timex Men&amp;rsquo;s Expedition Scout 40 - $50 Orient Bambino - $100 Orient Mako II - $120 Suunto Core - $120 Nixon Regulus SS - $200 Casio Men&amp;rsquo;s Pro Trek PRW-3500T-7CR - $269 Suunto Core, Brushed Steel - $280 Casio Men&amp;rsquo;s Pro Trek PRW-50T-7ACR - $300 Bulova Moonwatch - $510 Pens: Zebra Pen F-301 - $20/12 Zebra Pen 29411 F-701 $8 Fisher Space Pen Bullet Pen - $25 Fisher Space AG7 Original Astronaut Space Pen - $50 BIG IDEA DESIGN Ti Arto EDC - $95 Ti Ultra Pen - $250 Extra: Bags/Backpacks: 5.</description></item><item><title>Recommended Hacker Hardware</title><link>/recommendations/hacker_hardware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/hacker_hardware/</guid><description>Hak5 Basically everything from Hak5 RFID/NFC Hacking: Chameleon Tiny Hunter Cat Proxmark3 V3.0 ID DEV Kits M1 RFID Detector / Diagnostic Card WiFi Hacking: AURSINC WiFi Deauther Watch ESP8266 Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz Alfa Long-Range Dual-Band AC1900 2.4GHz/5GHz GlobalSat BU-353-S4 USB GPS Receiver WiFi Pineapple Wireless Hacking: HackRF One RTL-SDR RTL2832U Other: BaoFeng BF-F8HP CanaKit Raspberry Pi 4 GL.iNet GL-AR750S-Ext GoTrust Idem Card - FIDO2 &amp;amp; U2F BLE and NFC Security Key Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC YubiKey 5 NFC</description></item><item><title>Recommended Learning Resources</title><link>/recommendations/learning_resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/learning_resources/</guid><description>General Information Technology: Cybrary - A great, mostly free, cyber and IT learning resource. LinkedIn Learning - a general learning platform. (Check with your school, they might offer free membership) Pluralsight - Preferred a general learning platform with High Quality video content. (Check with your school, they might offer a free membership. Udemy - a general learning platform. Cyber Security: CyberWarfare (Red and Purple-Team Labs and Certifications) HackTheBox - Black-Box CTF Challenges (Has paid membership) INE - Free, and Paid, High Quality Cyber Security labs and training Immersive Labs - Free Cyber Security Labs (Free for active students)(Has paid offerings) Mosse Cyber Security Institute - Free Cyber Security Labs (Has paid offerings) PenTesterLab - Hands on Pentesting Labs (Has paid offerings) TryHackMe - Guided CTF challenges.</description></item><item><title>Recommended Messengers</title><link>/recommendations/messengers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/messengers/</guid><description> Signal - Preferred
-Wire
-Wicker</description></item><item><title>Recommended Privacy Resources</title><link>/recommendations/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/privacy/</guid><description>Why does Privacy Matter? &amp;ldquo;Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks associated with the war on data.</description></item><item><title>Recommended Security Content Creators</title><link>/recommendations/creators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/creators/</guid><description>Note: Check out SecurityCreators if you like this page. This list only includes people actively watched by SimeonOnSecurity.
-ippSec: YouTube Twitter John Hammond: Twitch YouTube Twitter GitHub LiveOverflow: Twitch YouTube Twitter Website NahamSec: Twitch YouTube Twitter Rob Fuller: Twitch Twitter GitHub Website TheBlindHacker: Twitch Twitter</description></item><item><title>Recommended Services</title><link>/recommendations/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/services/</guid><description>Privacy Services: Abine DeleteMe - Preferred Delete your records from major data brokers OneRep- Alternate Delete your records from major data brokers Masking Information: Abine Blur - Alternate Password manager, identity masking, and one-time-use debit cards Privacy.com - Preferred - Generate one-time-use debit cards Online Password Managers: BitWarden - Preferred - E2E Encrypted Online Password Manager</description></item><item><title>Recommended Stand-Alone Headsets</title><link>/recommendations/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/audio/</guid><description>Headsets: Preferably purchased with a headphone DAC like the FiiO E10K or FiiO K3 Below $100: $50 | Audio-Technica ATH M20x $70 | Audio-Technica ATH M30x $99 | Audio-Technica ATH M40x $65 | Philips SHP9500 $100-$300: $149 | Audio-Technica ATH M50x $145 | Philips Audio Fidelio X2HR $149 | beyerdynamic DT 770 PRO $149 | beyerdynamic DT 990 PRO $299 | Sennheiser HD 600 Microphones: Below $100: $80 | Samson Q2U Below $500: $200 | Samson Q2U+ Focusrite Scarlett Solo (3rd Gen) $325 | Samson Q2U + GoXLR Mini Below $1500: $1300 | Shure SM7B Cardioid Dynamic Microphone + RODE PSA 1 Swivel Mount Studio Microphone Boom Arm + Cloud Microphones Cloudlifter CL-1 Mic Activator + GoXLR - Mixer, Sampler, &amp;amp; Voice FX $1400 | Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D + Electro-Voice 309A + RODE PSA 1 Swivel Mount Studio Microphone Boom Arm + Cloud Microphones Cloudlifter CL-1 Mic Activator + GoXLR - Mixer, Sampler, &amp;amp; Voice FX</description></item><item><title>Recommended VOIP Providers</title><link>/recommendations/voip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/voip/</guid><description> VOIP.MS - Preferred
-MySudo - Preferred
-Google Hangouts</description></item><item><title>Recommended VPN Providers</title><link>/recommendations/vpns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/vpns/</guid><description> Mullvad VPN
-ProtonVPN</description></item><item><title>Recommended Webcams</title><link>/recommendations/webcams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/webcams/</guid><description>Traditional Webcams: $99 | Logitech C922x Pro Stream Webcam $160 | Logitech StreamCam $180 | Logitech BRIO Webcam with DSLR Upgrade Path: $180ish | Elgato CamLink 4K + Used - Go Pro Hero 3/4 + Mini-HDMI to HDMI Cable + Mini-USB 2.0 Type B Charger</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recommendations on simeononsecurity</title><link>/recommendations/</link><description>Recent content in Recommendations on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/recommendations/index.xml" rel="self" type="application/rss+xml"/><item><title>Recommended Anti-Virus</title><link>/recommendations/anti-virus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/anti-virus/</guid><description>
+&lt;p>Rankings are based on SimeonOnSecurity&amp;rsquo;s professional opinion and basic testing against malicious samples provided by &lt;a href="https://www.virustotal.com/gui/">VirusTotal&lt;/a>. These recommendations &lt;strong>do not&lt;/strong> take into account vendors privacy policies or related practices and only cover the AV capabilities, detection, user experience, and performance.&lt;/p>
+&lt;p>&lt;strong>Notes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Generally speaking, AV is not required on Linux or MacOS.&lt;/li>
+&lt;li>It is &lt;strong>not recommended&lt;/strong> to use any VPN or password manager thay may be provided with the AV suite.
+&lt;ul>
+&lt;li>Please see our recommendations for VPN providers &lt;a href="https://simeononsecurity.ch/recommendations/vpns/">here&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Ordered Top-Down, Best to Worst, by category.&lt;/p>
+&lt;h2 id="home-use">Home Use:&lt;/h2>
+&lt;h3 id="windows">Windows:&lt;/h3>
+&lt;h4 id="paid">Paid:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3nfig7d">Bitdefender - INTERNET SECURITY&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avira.com/en/antivirus-pro">Avira - Antivirus Pro&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2MA7jR2">Avast Premium Security&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="free">Free:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.bitdefender.com/solutions/free.html">Bitdefender - Antivirus Free Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avira.com/en/free-antivirus-windows">Avira - Free Antivirus for Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avast.com/en-us/index">Avast - Free Antivirus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.microsoft.com/en-us/windows/comprehensive-security">Microsoft - Windows Defender&lt;/a>
+&lt;ul>
+&lt;li>Recommended: &lt;a href="https://github.com/simeononsecurity/Windows-Defender-Hardening">SimeonOnSecurity - Windows Defender Hardening&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux">Linux:&lt;/h3>
+&lt;h4 id="paid-1">Paid:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.eset.com/int/home/antivirus-linux">ESET NOD32 ANTIVIRUS FOR LINUX DESKTOP&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="free-1">Free:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.clamav.net/">ClamAV&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="macos">MacOS:&lt;/h3>
+&lt;h4 id="paid-2">Paid:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.avira.com/en/antivirus-pro">Avira - Antivirus Pro&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2MA7jR2">Avast Premium Security&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="free-2">Free:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.avira.com/en/free-antivirus-mac">Avira - Free Antivirus for Mac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avast.com/en-us/index">Avast - Free Antivirus&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="business-use">Business Use:&lt;/h2>
+&lt;p>&lt;strong>Placeholder:&lt;/strong> Work being completed.&lt;/p></description></item><item><title>Recommended Books</title><link>/recommendations/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/books/</guid><description>
+&lt;h2 id="educational">Educational:&lt;/h2>
+&lt;h3 id="automation">Automation:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/334bQRa">Automate the Boring Stuff with Python - Al Sweigart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/332hwfo">Practical Ansible 2 - Daniel Oh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3hE5Tzd">Practical Network Automation - Abhishek Ratan&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="coding">Coding:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3pNHOLc">Python Crash Course - Eric Matthes&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="cyber-security">Cyber Security:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/30Z5il4">Blue Team Field Manual - Alan J White&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3pRdEGG">Hash Crack - Joshua Picolet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fkWD2V">Operator Handbook - Joshua Picolet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2BBC3fp">Red Team Field Manual - Ben Clark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3kU5cTs">The Art of Deception - Kevin Mitnick&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/334cDl0">The Art of Intrusion - Kevin Mitnick&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2IZv8QF">The Art of Invisibility - Kevin Mitnick&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2D6F47L">The Hacker Playbook 3 - Peter Kim&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2UNr8VS">Tribe of Hackers - Marcus J. Carey&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="networking">Networking:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3hFK7eo">CCNA Routing and Switching Portable Command Guide - Scott Empson&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="open-source-intelligance">Open-Source Intelligance:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/39zbWlV">Open Source Intelligence Techniques - Michael Bazzell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="operating-systems">Operating Systems:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/36TjdvP">Linux Command Line and Shell Scripting Bible - Richard Blum and Christine Bresnahan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2Hl7kWG">Linux Pocket Guide - Daniel J. Barrett&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="privacy">Privacy:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3g4BrxG">Extreme Privacy - Michael Bazzell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3pLEVud">Make Your Own Living Trust - Denis Clifford Attorney&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="other">Other:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/35UMYgF">This Book Was Self-Published - Michael Bazzell&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Browser Plugins</title><link>/recommendations/browser_plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/browser_plugins/</guid><description>
+&lt;p>&lt;strong>Note:&lt;/strong> The only daily-driver browser I recommend is FireFox.
+Alternatively you should be using the TOR Browser. Do not install plugins in the TOR browser.&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/gorhill/uBlock">U-Block Origin&lt;/a> - &lt;strong>Prefered&lt;/strong> - A great Open-Source AD blocker.&lt;/li>
+&lt;li>&lt;a href="https://www.eff.org/https-everywhere">HTTPS Everywhere&lt;/a> - &lt;strong>Prefered&lt;/strong> - Forces your browser to load sites over HTTPS rather than HTTP&lt;/li>
+&lt;li>&lt;a href="https://decentraleyes.org/">Decentraleyes&lt;/a> - Local CDN Emulator&lt;/li>
+&lt;li>&lt;a href="https://gitlab.com/KevinRoebert/ClearUrls">ClearURLs&lt;/a> - Dynamically removes tracking tags from links&lt;/li>
+&lt;li>&lt;a href="https://github.com/kkapsner/CanvasBlocker">CanvasBlocker&lt;/a> - Prevents JavaScript Fingerprinting&lt;/li>
+&lt;li>&lt;a href="https://github.com/mozilla/multi-account-containers">Multi Account Containers&lt;/a> - Allows for isolated brower sessions&lt;/li>
+&lt;li>&lt;a href="https://tosdr.org/downloads.html">Terms of Service, Didn&amp;rsquo;t Read&lt;/a> - Informs user of shady ToS&lt;/li>
+&lt;li>&lt;a href="https://bitwarden.com/">Bitwarden&lt;/a> - Secure Open-Source Cloud Password Manager&lt;/li>
+&lt;li>&lt;a href="https://privacybadger.org/">Privacy Badger&lt;/a> - Learns and blocks trackers&lt;/li>
+&lt;/ol></description></item><item><title>Recommended Certifications</title><link>/recommendations/certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/certifications/</guid><description>
+&lt;p>There are many Cyber and IT related certifications out there, but most are argueably a waste of time over others. Some will enable you to land a job, while others wont. This list consists of the certifications that SimeonOnSecurity recommends for those seeking to enter the IT and CyberSecurity job force.&lt;/p>
+&lt;p>&lt;strong>Notes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>This should apply everywhere in the US, but outside the US these are likely to change.&lt;/li>
+&lt;li>There may be other certs out there that are worth in a specific category that aren&amp;rsquo;t listed here, but the ones here are listed over others because they have the widest recognition.&lt;/li>
+&lt;li>While the certifications listed here are a mix of Networking, Windows, Linux, Hacking, and Management certifications, all of these are directly related to positions in Cyber and will greatly benefit you to have them.&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-resources">Learning Resources:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://simeononsecurity.ch/recommendations/books/">Books&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://simeononsecurity.ch/recommendations/learning_resources/">Training&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="certifications">Certifications:&lt;/h2>
+&lt;h3 id="entry-level">Entry Level:&lt;/h3>
+&lt;p>&lt;strong>Note:&lt;/strong> These certifications are for entry-level professionals. They are the baseline of a good IT/Cyber skill set. You should be very familiar with all the information required to get these certs at every level.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.comptia.org/certifications/a">CompTIA&amp;rsquo;s A+&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.comptia.org/certifications/network">CompTIA&amp;rsquo;s Network+&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.comptia.org/certifications/security">CompTIA&amp;rsquo;s Security+&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="associate-level">Associate Level:&lt;/h3>
+&lt;p>&lt;strong>Note:&lt;/strong> Typically, you only need one of these certifications. Multiple are still useful and valueable.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.comptia.org/certifications/linux">CompTIA&amp;rsquo;s Linux+&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.comptia.org/certifications/cybersecurity-analyst">CompTIA&amp;rsquo;s CySA+&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html">Cisco&amp;rsquo;s CCNA&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.juniper.net/us/en/training/certification/certification-tracks/sp-routing-switching-track?tab=jnciajunos">Junipers&amp;rsquo;s JNCIA&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/">EC-Council&amp;rsquo;s CEH&lt;/a>&lt;/li>
+&lt;li>Microsoft&amp;rsquo;s MCSA (Replaced)&lt;/li>
+&lt;/ul>
+&lt;h3 id="professional-level">Professional Level:&lt;/h3>
+&lt;p>&lt;strong>Note:&lt;/strong> This is where you should strive to be at the very least. These certs are pretty great to have.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html">Cisco&amp;rsquo;s CCNP Enterprise&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.comptia.org/certifications/comptia-advanced-security-practitioner">CompTIA&amp;rsquo;s CASP+&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.isc2.org/Certifications/CISSP#">ISC^2&amp;rsquo;s CISSP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.juniper.net/us/en/training/certification/certification-tracks/sp-routing-switching-track?tab=jncip-sp">Juniper&amp;rsquo;s JNCIP-SP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.offensive-security.com/pwk-oscp/">Offensive Security&amp;rsquo;s OSCP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.redhat.com/en/services/certification/rhcsa">Red Hat Certified System Administrator (RHCSA)&lt;/a>&lt;/li>
+&lt;li>Microsoft&amp;rsquo;s MCSE (Replaced)&lt;/li>
+&lt;/ul>
+&lt;h3 id="expert-level">Expert Level:&lt;/h3>
+&lt;p>&lt;strong>Note:&lt;/strong> These are expert certifications. These set you out from the crowd and set you up to potentially become a subject matter expert (SME). This is where the real money is at.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-enterprise-infrastructure.html">Cisco&amp;rsquo;s CCIE Enterprise&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.eccouncil.org/programs/licensed-penetration-tester-lpt-master/">EC-Council&amp;rsquo;s LPT&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.isc2.org/Certifications/CISSP-Concentrations">ISC^2&amp;rsquo;s CISSP ISSAP/ISSEP/ISSMP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.juniper.net/us/en/training/certification/certification-tracks/sp-routing-switching-track?tab=jnciesp">Juniper&amp;rsquo;s JNCIE-SP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.offensive-security.com/awe-osee/">Offensive Security&amp;rsquo;s OSEE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.redhat.com/en/services/certification/rhce">Red Hat Certified Engineer (RHCE)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="notable-mentions">Notable Mentions:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://elearnsecurity.com/">eLearnSecurity Certifications&lt;/a> - Cost effective if you&amp;rsquo;re going for multiple certifications at once. But, eLearnSecurity is pretty new and the certifications aren&amp;rsquo;t really recongnised yet.&lt;/li>
+&lt;li>&lt;a href="https://ipv6.he.net/certification/">Hurricane Electric IPv6 Sage&lt;/a> - Free certification, somewhat easy, good resume filler.&lt;/li>
+&lt;li>&lt;a href="https://pythoninstitute.org/certification/">Python Institute&amp;rsquo;s PCEP/PCAP/PCPP&lt;/a> - Good to have, but isn&amp;rsquo;t gonna get you a job by itself. Offers free training for the first two certifications.&lt;/li>
+&lt;li>&lt;a href="https://www.splunk.com/en_us/training.html">Splunk Certifications&lt;/a> - You&amp;rsquo;re better off learning the material and skipping the certifications.&lt;/li>
+&lt;li>&lt;a href="https://www.w3schools.com/CERT/default.asp">W3 Schools Python/SQL/PHP/JAVA&lt;/a> - Good to have, but isn&amp;rsquo;t gonna get you a job by itself.&lt;/li>
+&lt;li>&lt;a href="https://www.wcnacertification.com/">Wireshark&amp;rsquo;s WCNA&lt;/a> - Good to have, but isn&amp;rsquo;t gonna get you a job by itself.&lt;/li>
+&lt;/ul></description></item><item><title>Recommended eMail Providers</title><link>/recommendations/email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/email/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://protonmail.com/">ProtonMail&lt;/a> - &lt;strong>Preferred&lt;/strong> - E2E Encrypted EMail&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tutanota.com/">Tutanota&lt;/a> - E2E Encrypted EMail&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Every Day Carry (EDC)</title><link>/recommendations/edc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/edc/</guid><description>
+&lt;p>The typical every day carry (EDC) consists of a few basic tools. Typically, those are a knife or blade, a flashlight, a watch, and a pen.
+I&amp;rsquo;ll recommend a few in different price points within their categories with a few extras below.&lt;/p>
+&lt;h2 id="knifeblades">Knife/Blades:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2J58ruG">CRKT Squid Folding Pocket Knife&lt;/a> - $15&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/37aQwdN">Gerber EAB Pocket Knife&lt;/a> - $18&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fBCsxX">Kershaw Leek&lt;/a> - $55&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/37eIxN1">Spyderco Tenacious&lt;/a> - $55&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3l9h9EY">TPT Slide&lt;/a> - $85&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3sfKaUi">Benchmade - Mini Griptilian 556&lt;/a> - $90&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3skv7sA">Benchmade - Griptilian 551&lt;/a> - $140&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3q1CbsN">Spyderco Para Military 2&lt;/a> - $165&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/369xAx1">Kizer Cutlery Begleiter Folding Pocket Knife&lt;/a> - $169&lt;/li>
+&lt;/ul>
+&lt;h2 id="flashlights">Flashlights:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/37foii2">RovyVon A1&lt;/a> - $28&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3larxMH">Streamlight 88039 ProTac&lt;/a> - $30&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3nT0XJM">Olight S2 Cree XM-L2&lt;/a> - $49&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3me6muz">OLIGHT S2R II&lt;/a> - $55&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3q4w2MA">Olight Warrior&lt;/a> - $80&lt;/li>
+&lt;/ul>
+&lt;h2 id="watches">Watches:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3mamayD">AURSINC WiFi Deauther Wristband&lt;/a> - $50&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fFEwVr">Timex Men&amp;rsquo;s Expedition Scout 40&lt;/a> - $50&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3la0Wj4">Orient Bambino&lt;/a> - $100&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3leLJNw">Orient Mako II&lt;/a> - $120&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2JkU31a">Suunto Core&lt;/a> - $120&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/39j8ZHV">Nixon Regulus SS&lt;/a> - $200&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3m5JMEm">Casio Men&amp;rsquo;s Pro Trek PRW-3500T-7CR&lt;/a> - $269&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/39iaqq1">Suunto Core, Brushed Steel&lt;/a> - $280&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3l7k1Ch">Casio Men&amp;rsquo;s Pro Trek PRW-50T-7ACR&lt;/a> - $300&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3663CKa">Bulova Moonwatch&lt;/a> - $510&lt;/li>
+&lt;/ul>
+&lt;h2 id="pens">Pens:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2V3L475">Zebra Pen F-301&lt;/a> - $20/12&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/37g04UU">Zebra Pen 29411 F-701&lt;/a> $8&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3mbtYjw">Fisher Space Pen Bullet Pen&lt;/a> - $25&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/33kXewQ">Fisher Space AG7 Original Astronaut Space Pen&lt;/a> - $50&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3o4sk3P">BIG IDEA DESIGN Ti Arto EDC&lt;/a> - $95&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3lhmTwI">Ti Ultra Pen&lt;/a> - $250&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra">Extra:&lt;/h2>
+&lt;h3 id="bagsbackpacks">Bags/Backpacks:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/37dNzJw">5.11 RUSH MOAB 10 Sling Bag&lt;/a> - $75&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2Xftle4">5.11 Rapid Origin Tactical Backpack&lt;/a> - $85&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3rZyXa7">Silent Pocket Faraday Waterproof Backpack&lt;/a> - $250&lt;/li>
+&lt;/ul>
+&lt;h3 id="casessleavesprotection">Cases/Sleaves/Protection:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/39irFaJ">Silent Pocket Faraday Bag&lt;/a> - $60&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3o5V6Bb">Leather Pocket Protector&lt;/a> - $8/2&lt;/li>
+&lt;/ul>
+&lt;h3 id="charging-devices">Charging Devices:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/35em2Yi">Anker PowerCore 20100&lt;/a> - $45&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/38eJR4a">Anker PowerCore 10000&lt;/a> - $23&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3olpoA7">Anker PowerCore 5000&lt;/a> - $18&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3rWNPGo">Minlu 3-in-1 Retractible Charging Cable&lt;/a> - $10&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2Xed20V">RAVPower 60W 6-Port Charging Station&lt;/a> - $30&lt;/li>
+&lt;/ul>
+&lt;h3 id="digital-storage">Digital Storage:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/38hXkbq">SanDisk Extreme&lt;/a> - Varies&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3nimxXE">SanDisk Ultra Fit 3.1&lt;/a> - Varies&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3ni9rtn">SanDisk Ultra Dual Drive&lt;/a> - Varies&lt;/li>
+&lt;/ul>
+&lt;h3 id="face-masks">Face Masks:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2JU21yU">Outdoor Research Essential Face Mask&lt;/a> - $20&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2LMe3dX">Defender Safety- ASTM Level 3 Face Mask&lt;/a> - $30/50&lt;/li>
+&lt;/ul>
+&lt;h3 id="multitools">Multitools:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2V6RYZm">LEATHERMAN, Skeletool&lt;/a> - $70&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3b7sCDM">LEATHERMAN, One Hand Tool (OHT)&lt;/a> - $90&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3mdmb4F">Victorinox Swisscard&lt;/a> - $30&lt;/li>
+&lt;/ul>
+&lt;h3 id="prybars">Prybars:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2Jc1zLY">Titanium Pry Bar&lt;/a> - $55&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/37badSL">BIG IDEA DESIGN Bit Bar&lt;/a> - $125&lt;/li>
+&lt;/ul>
+&lt;h3 id="radios">Radios:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/379KOJb">BaoFeng UV-5RTP Tri-Power&lt;/a> - $45&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3la1ci2">Baofeng DM-1701&lt;/a> - $100&lt;/li>
+&lt;/ul>
+&lt;h3 id="security-devices">Security Devices:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2JMRXre">Wallet Shim&lt;/a> - $10&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3o2rgxb">6 PCS Training Multitool Set Kit (Pocket Lockpick Set)&lt;/a> - $15&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/36bUF26">Yubico Security Key NFC&lt;/a> - $27&lt;/li>
+&lt;/ul>
+&lt;h3 id="wallets">Wallets:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3ldXFz0">Silent Pocket Bi-Fold Wallet&lt;/a> - $60&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3hKMdea">Silent Pocket Napa&lt;/a> - $17&lt;/li>
+&lt;/ul>
+&lt;h3 id="others">Others:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/39jFrtC">Dog Whistle&lt;/a> - $10&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2HEIiSw">Lever Gear CableKit&lt;/a> - $12&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fG5rQY">Stainless Steel Comb&lt;/a> - $12&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fCcb2k">SanDisk 16GB Ultra Fit USB 3.1 Low-Profile Flash Drive&lt;/a> - $35/5&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Hacker Hardware</title><link>/recommendations/hacker_hardware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/hacker_hardware/</guid><description>
+&lt;h2 id="hak5">Hak5&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://shop.hak5.org/">Basically everything from Hak5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rfidnfc-hacking">RFID/NFC Hacking:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://hackerwarehouse.com/product/chameleon-tiny/">Chameleon Tiny&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hackerwarehouse.com/product/hunter-cat/">Hunter Cat&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3g83cFx">Proxmark3 V3.0 ID DEV Kits M1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hackerwarehouse.com/product/rfid-detector-diagnostic-card/">RFID Detector / Diagnostic Card&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="wifi-hacking">WiFi Hacking:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2P0W3uX">AURSINC WiFi Deauther Watch ESP8266&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/330FAPG">Alfa Long-Range Dual-Band AC1200 2.4GHz/5GHz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/39xzZlh">Alfa Long-Range Dual-Band AC1900 2.4GHz/5GHz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fcHWxq">GlobalSat BU-353-S4 USB GPS Receiver&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://shop.hak5.org/products/wifi-pineapple">WiFi Pineapple&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="wireless-hacking">Wireless Hacking:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2OXVj9Q">HackRF One&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/302Egd9">RTL-SDR RTL2832U&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="other">Other:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/39vChkK">BaoFeng BF-F8HP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2EqDyOx">CanaKit Raspberry Pi 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3g5PTFV">GL.iNet GL-AR750S-Ext&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/30RFE1x">GoTrust Idem Card - FIDO2 &amp;amp; U2F BLE and NFC Security Key&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2X1S2KZ">Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2OXAxHw">YubiKey 5 NFC&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Learning Resources</title><link>/recommendations/learning_resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/learning_resources/</guid><description>
+&lt;h2 id="general-information-technology">General Information Technology:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.cybrary.it/">Cybrary&lt;/a> - A great, mostly free, cyber and IT learning resource.&lt;/li>
+&lt;li>&lt;a href="https://www.lynda.com/">LinkedIn Learning&lt;/a> - a general learning platform. (Check with your school, they might offer free membership)&lt;/li>
+&lt;li>&lt;a href="https://www.pluralsight.com/">Pluralsight&lt;/a> - &lt;strong>Preferred&lt;/strong> a general learning platform with &lt;strong>High Quality&lt;/strong> video content. (Check with your school, they might offer a free membership.&lt;/li>
+&lt;li>&lt;a href="https://www.udemy.com/">Udemy&lt;/a> - a general learning platform.&lt;/li>
+&lt;/ul>
+&lt;h2 id="cyber-security">Cyber Security:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cyberwarfare.live/">CyberWarfare&lt;/a> (Red and Purple-Team Labs and Certifications)&lt;/li>
+&lt;li>&lt;a href="https://www.hackthebox.eu/">HackTheBox&lt;/a> - Black-Box CTF Challenges (Has paid membership)&lt;/li>
+&lt;li>&lt;a href="https://ine.com/">INE&lt;/a> - Free, and Paid, High Quality Cyber Security labs and training&lt;/li>
+&lt;li>&lt;a href="https://www.immersivelabs.com/">Immersive Labs&lt;/a> - Free Cyber Security Labs (Free for active students)(Has paid offerings)&lt;/li>
+&lt;li>&lt;a href="https://platform.mosse-institute.com/#/">Mosse Cyber Security Institute&lt;/a> - Free Cyber Security Labs (Has paid offerings)&lt;/li>
+&lt;li>&lt;a href="https://pentesterlab.com/">PenTesterLab&lt;/a> - Hands on Pentesting Labs (Has paid offerings)&lt;/li>
+&lt;li>&lt;a href="https://tryhackme.com/">TryHackMe&lt;/a> - Guided CTF challenges. (Has paid membership)&lt;/li>
+&lt;/ul>
+&lt;h2 id="networking">Networking:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html">Cisco&lt;/a> - Learn Cisco for free! (Some Paid)&lt;/li>
+&lt;li>&lt;a href="https://learningportal.juniper.net/juniper/default.aspx">Juniper&lt;/a> - Learn Juniper for free. Complete the course to earn a free certification test voucher!&lt;/li>
+&lt;/ul>
+&lt;h2 id="operating-systems">Operating Systems:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/learn/">Microsoft&lt;/a> - Learn Windows, Server, Azure, and more for free!&lt;/li>
+&lt;li>&lt;a href="https://www.vmware.com/education-services/learning-zone.html">VMWare&lt;/a> - Learn VMware ESXi, Horizon, and Cloud Technologies for free!&lt;/li>
+&lt;li>&lt;a href="https://www.redhat.com/en/services/training-and-certification">RedHat&lt;/a> - Training on RHEL Systems, Servers, and Ansible&lt;/li>
+&lt;/ul>
+&lt;h2 id="programming-and-scripting">Programming and Scripting:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://studio.code.org/courses">Code.org&lt;/a> - Free coding cources and project ideas!&lt;/li>
+&lt;li>&lt;a href="https://www.codecademy.com/">CodeAcademy&lt;/a> - Learn Python, C#, C++, HTML, JavaScript, PHP, and more for free!&lt;/li>
+&lt;li>&lt;a href="https://pythoninstitute.org/free-python-courses/">Python Institute&lt;/a> - Free Entry-Level Python courses.&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Messengers</title><link>/recommendations/messengers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/messengers/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.signal.org/">Signal&lt;/a> - &lt;strong>Preferred&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wire.com/en/">Wire&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wickr.com/">Wicker&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Privacy Resources</title><link>/recommendations/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/privacy/</guid><description>
+&lt;h2 id="why-does-privacy-matter">Why does Privacy Matter?&lt;/h2>
+&lt;p>&lt;em>&amp;ldquo;Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks associated with the war on data.&amp;quot;&lt;/em> - &lt;a href="https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md">Lissy93&lt;/a>&lt;/p>
+&lt;h2 id="learn-more">Learn More:&lt;/h2>
+&lt;h3 id="privacy-rights">Privacy Rights:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://privacyrights.org/resources">PrivacyRights.org - Resources&lt;/a> - Learn your privacy rights.&lt;/li>
+&lt;/ul>
+&lt;h3 id="family-children-and-teens">Family, Children, and Teens:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.consumer.ftc.gov/topics/protecting-kids-online">FTC - Protecting Kids Online&lt;/a> - Resources for teaching your children about digital security.&lt;/li>
+&lt;li>&lt;a href="https://www.missingkids.org/netsmartz/resources">NetSmartz - Resources&lt;/a> - Resources for protecting your family online.&lt;/li>
+&lt;/ul>
+&lt;h3 id="identity-theft-protection-and-assistance">Identity Theft Protection and Assistance:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.annualcreditreport.com/index.action">Free Credit Report&lt;/a> - Get your free annual credit report from the three major credit agencies.&lt;/li>
+&lt;li>&lt;a href="https://inteltechniques.com/data/workbook.pdf">IntelTechniques.com - Credit Freeze Guide&lt;/a> - Learn how to freeze your credit with the major and minor credit agancies.&lt;/li>
+&lt;/ul>
+&lt;h3 id="digital-security-and-hygiene">Digital Security and Hygiene:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://defensivecomputingchecklist.com/">Michael Horowitz - Defensive Computing Checklist&lt;/a> - Learn how to be generally secure, become aware of the active threats out there.&lt;/li>
+&lt;li>&lt;a href="https://inteltechniques.com/data/workbook.pdf">IntelTechniques.com - Personal Data Removal Workbook&lt;/a> - Learn how to remove your information from the many databrokers.&lt;/li>
+&lt;li>&lt;a href="https://github.com/Lissy93/personal-security-checklist">Lissy93 - personal-security-checklist&lt;/a> - Covers Physical Security, Digital Security, and Digital Hygiene.&lt;/li>
+&lt;/ul>
+&lt;h2 id="file-complaints-and-report-fraud">File Complaints and Report Fraud:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.missingkids.com/Report">Report a Missing, Abused or Sexually Exploited Child&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ftccomplaintassistant.gov/#&amp;amp;panel1-1">File a cyber-related complaint with the Federal Trade Commission (FTC)&lt;/a> - Identity Theft, SPAM, Online Scams, etc.&lt;/li>
+&lt;li>&lt;a href="https://complaint.ic3.gov/default.aspx?">File a complaint with the Internet Crime Complaint Center (IC3)&lt;/a> - Cyber Crimes, Hacks, Digital Theft, etc.&lt;/li>
+&lt;/ul>
+&lt;h2 id="services">Services:&lt;/h2>
+&lt;h3 id="privacy-services">Privacy Services:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4">Abine DeleteMe&lt;/a> - &lt;strong>Preferred&lt;/strong> Delete your records from major data brokers&lt;/li>
+&lt;li>&lt;a href="https://onerep.com">OneRep&lt;/a> - &lt;strong>Alternate&lt;/strong> Delete your records from major data brokers&lt;/li>
+&lt;li>&lt;a href="https://www.privacyduck.com/">Privacy Duck&lt;/a> - &lt;strong>Alternate&lt;/strong> Delete your records from major data brokers&lt;/li>
+&lt;/ul>
+&lt;h3 id="masking-information">Masking Information:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://dnt.abine.com/#/ref_register/pC8ZbvQtt">Abine Blur&lt;/a> - &lt;strong>Alternate&lt;/strong> Password manager, identity masking, and one-time-use debit cards&lt;/li>
+&lt;li>&lt;a href="https://privacy.com/join/SU86Y">Privacy.com&lt;/a> - &lt;strong>Preferred&lt;/strong> - Generate one-time-use debit cards&lt;/li>
+&lt;/ul>
+&lt;h3 id="account-management">Account Management:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://app.deseat.me">Deseat.Me&lt;/a> - Assists you in submitting GDPR requests for account deletion.&lt;/li>
+&lt;li>&lt;a href="https://www.accountkiller.com/en">AccountKiller&lt;/a> - Provides documentation on how to delete your account from various services.&lt;/li>
+&lt;li>&lt;a href="https://www.justdeleteaccount.com/">JustDeleteAccount&lt;/a> - Provides documentation on how to delete your account from various services.&lt;/li>
+&lt;li>&lt;a href="https://justdeleteme.xyz/">JustDeleteMe&lt;/a> - &lt;strong>Prefered&lt;/strong> - Provides documentation on how to delete your account from various services.&lt;/li>
+&lt;li>&lt;a href="https://vanishlist.ml/">VanishList&lt;/a> - Provides documentation on how to delete your account from the most common services.&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Security Content Creators</title><link>/recommendations/creators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/creators/</guid><description>
+&lt;p>&lt;strong>Note:&lt;/strong> Check out &lt;a href="https://securitycreators.video/">SecurityCreators&lt;/a> if you like this page. This list only includes people actively watched by SimeonOnSecurity.&lt;/p>
+&lt;h2 id="ippsec">ippSec:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA">YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/ippsec">Twitter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="john-hammond">John Hammond:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="ttps://twitch.tv/johnhammond010">Twitch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/johnhammond010">YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/_johnhammond">Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/JohnHammond">GitHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="liveoverflow">LiveOverflow:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://twitch.tv/LiveOverflow">Twitch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtube.com/LiveOverflowCTF">YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/LiveOverflow">Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://liveoverflow.com">Website&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="nahamsec">NahamSec:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://twitch.tv/nahamsec">Twitch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtube.com/nahamsec">YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nahamsec">Twitter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rob-fuller">Rob Fuller:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://twitch.tv/mub1x">Twitch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/mubix">Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/mubix">GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://malicious.link">Website&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="theblindhacker">TheBlindHacker:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://twitch.tv/theblindhacker">Twitch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/TheBlindHacker">Twitter&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Services</title><link>/recommendations/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/services/</guid><description>
+&lt;h2 id="privacy-services">Privacy Services:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4">Abine DeleteMe&lt;/a> - &lt;strong>Preferred&lt;/strong> Delete your records from major data brokers&lt;/li>
+&lt;li>&lt;a href="https://onerep.com">OneRep&lt;/a>- &lt;strong>Alternate&lt;/strong> Delete your records from major data brokers&lt;/li>
+&lt;/ul>
+&lt;h2 id="masking-information">Masking Information:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dnt.abine.com/#/ref_register/pC8ZbvQtt">Abine Blur&lt;/a> - &lt;strong>Alternate&lt;/strong> Password manager, identity masking, and one-time-use debit cards&lt;/li>
+&lt;li>&lt;a href="https://privacy.com/join/SU86Y">Privacy.com&lt;/a> - &lt;strong>Preferred&lt;/strong> - Generate one-time-use debit cards&lt;/li>
+&lt;/ul>
+&lt;h2 id="online-password-managers">Online Password Managers:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="bitwarden.com">BitWarden&lt;/a> - &lt;strong>Preferred&lt;/strong> - E2E Encrypted Online Password Manager&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Stand-Alone Headsets</title><link>/recommendations/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/audio/</guid><description>
+&lt;h2 id="headsets">Headsets:&lt;/h2>
+&lt;ul>
+&lt;li>Preferably purchased with a headphone DAC like the &lt;a href="https://amzn.to/312xdQJ">FiiO E10K&lt;/a> or &lt;a href="https://amzn.to/2uzpo8B">FiiO K3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="below-100">Below $100:&lt;/h3>
+&lt;ul>
+&lt;li>$50 | &lt;a href="https://amzn.to/2TVE252">Audio-Technica ATH M20x&lt;/a>&lt;/li>
+&lt;li>$70 | &lt;a href="https://amzn.to/3aGF2Qs">Audio-Technica ATH M30x&lt;/a>&lt;/li>
+&lt;li>$99 | &lt;a href="https://amzn.to/2RMkYDv">Audio-Technica ATH M40x&lt;/a>&lt;/li>
+&lt;li>$65 | &lt;a href="https://amzn.to/2RngkNb">Philips SHP9500&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="100-300">$100-$300:&lt;/h3>
+&lt;ul>
+&lt;li>$149 | &lt;a href="https://amzn.to/2GozWu9">Audio-Technica ATH M50x&lt;/a>&lt;/li>
+&lt;li>$145 | &lt;a href="https://amzn.to/2GozWu9">Philips Audio Fidelio X2HR&lt;/a>&lt;/li>
+&lt;li>$149 | &lt;a href="https://amzn.to/30P8jDY">beyerdynamic DT 770 PRO&lt;/a>&lt;/li>
+&lt;li>$149 | &lt;a href="https://amzn.to/37r9SdI">beyerdynamic DT 990 PRO&lt;/a>&lt;/li>
+&lt;li>$299 | &lt;a href="https://amzn.to/30QLDDj">Sennheiser HD 600&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="microphones">Microphones:&lt;/h2>
+&lt;h3 id="below-100-1">Below $100:&lt;/h3>
+&lt;ul>
+&lt;li>$80 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="below-500">Below $500:&lt;/h3>
+&lt;ul>
+&lt;li>$200 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a>+ &lt;a href="https://amzn.to/2ux8kA6">Focusrite Scarlett Solo (3rd Gen)&lt;/a>&lt;/li>
+&lt;li>$325 | &lt;a href="https://amzn.to/2GkpbZA">Samson Q2U&lt;/a> + &lt;a href="https://amzn.to/37oB6BC">GoXLR Mini&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="below-1500">Below $1500:&lt;/h3>
+&lt;ul>
+&lt;li>$1300 | &lt;a href="https://amzn.to/36m9Gel">Shure SM7B Cardioid Dynamic Microphone&lt;/a> + &lt;a href="https://amzn.to/2tFgUwY">RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a> + &lt;a href="https://amzn.to/2TUBi7W">Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a> + &lt;a href="https://amzn.to/2tOcQdF">GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a>&lt;/li>
+&lt;li>$1400 | &lt;a href="https://amzn.to/37s5uep">Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D&lt;/a> + &lt;a href="https://amzn.to/36mRhxV">Electro-Voice 309A&lt;/a> + &lt;a href="https://amzn.to/2tFgUwY">RODE PSA 1 Swivel Mount Studio Microphone Boom Arm&lt;/a> + &lt;a href="https://amzn.to/2TUBi7W">Cloud Microphones Cloudlifter CL-1 Mic Activator&lt;/a> + &lt;a href="https://amzn.to/2tOcQdF">GoXLR - Mixer, Sampler, &amp;amp; Voice FX&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Recommended VOIP Providers</title><link>/recommendations/voip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/voip/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://voip.ms">VOIP.MS&lt;/a> - &lt;strong>Preferred&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://mysudo.com/">MySudo&lt;/a> - &lt;strong>Preferred&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://hangouts.google.com">Google Hangouts&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Recommended VPN Providers</title><link>/recommendations/vpns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/vpns/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://mullvad.net/en/">Mullvad VPN&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://protonvpn.com/">ProtonVPN&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Recommended Webcams</title><link>/recommendations/webcams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/webcams/</guid><description>
+&lt;h2 id="traditional-webcams">Traditional Webcams:&lt;/h2>
+&lt;ul>
+&lt;li>$99 | &lt;a href="https://amzn.to/37P4FMN">Logitech C922x Pro Stream Webcam&lt;/a>&lt;/li>
+&lt;li>$160 | &lt;a href="https://amzn.to/2SQUWAA">Logitech StreamCam&lt;/a>&lt;/li>
+&lt;li>$180 | &lt;a href="https://amzn.to/2uQPjcn">Logitech BRIO&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="webcam-with-dslr-upgrade-path">Webcam with DSLR Upgrade Path:&lt;/h2>
+&lt;ul>
+&lt;li>$180ish | &lt;a href="https://amzn.to/3oFugAi">Elgato CamLink 4K&lt;/a> + &lt;a href="https://www.ebay.com/sch/i.html?_nkw=Used+GoPro+HERO+4+Black+Edition">Used - Go Pro Hero 3/4&lt;/a> + &lt;a href="https://amzn.to/2N1AL2J">Mini-HDMI to HDMI Cable&lt;/a> + &lt;a href="https://amzn.to/2XyN5t5">Mini-USB 2.0 Type B Charger&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
