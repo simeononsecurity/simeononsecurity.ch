@@ -90,7 +90,7 @@ enableGitInfo = true
 	  [[languages.en.menu.main]]
         identifier = "Recommendations"
         name = "Recommendations"
-        url = "/recommendations"
+        url = "/recommendhome"
       [[languages.en.menu.main]]
         identifier = "About"
         name = "About"
