@@ -7,7 +7,6 @@ toc: true
 ## What does SimeonOnSecurity Recommend?
 
 ### [Anti-Virus](/recommendations/antivirus)
-### [Books](/recommendations/antivirus)
 ### [Books](/recommendations/books)
 ### [Browser Plugins](/recommendations/browser_plugins)
 ### [Certifications](/recommendations/certifications)
