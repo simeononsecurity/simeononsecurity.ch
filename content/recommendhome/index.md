@@ -1,6 +1,7 @@
 ---
-title "Recommendations Home"
-draft false
+title: "Recommendations Home"
+draft: false
+toc: true
 ---
 
 ## What does SimeonOnSecurity Recommend?
@@ -10,12 +11,13 @@ draft false
 ### [Books](/recommendations/books)
 ### [Browser Plugins](/recommendations/browser_plugins)
 ### [Certifications](/recommendations/certifications)
-### [EMail Providers](/recommendations/email)
+### [Email Providers](/recommendations/email)
 ### [Every Day Carry](/recommendations/edc)
 ### [Hackers Toolkit](/recommendations/hacker_hardware)
 ### [Headphones, Microphones, and Speakers](/recommendations/audio)
 ### [Learning Resources](/recommendations/learning_resources)
-### [Messenge Clients](/recommendations/messengers)
+### [Messenger Clients](/recommendations/messengers)
+### [Organizations to Support](/recommendations/organizations)
 ### [Privacy Resources](/recommendations/privacy)
 ### [SIP/DID/VOIP Providers](/recommendations/voip)
 ### [Security Creators](/recommendations/creators)
