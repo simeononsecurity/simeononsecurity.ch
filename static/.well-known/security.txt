@@ -1,7 +1,14 @@
 #https://tools.ietf.org/html/draft-foudil-securitytxt-10
 
 Contact: https://simeononsecurity.ch/contactus/
+
 Acknowledgments: https://simeononsecurity.ch/hof/
+
 Preferred-Languages: en
-Canonical: https://simeononsecurity.ch/security.txt
+
 Policy: https://github.com/simeononsecurity/simeononsecurity.ch/blob/master/SECURITY.md
+
+Canonical: https://simeononsecurity.ch/security.txt
+Canonical: https://simeononsecurity.ch/.well-known/security.txt
+
+Expires: Fri, 31 Dec 2021 13:37:37 -0500
