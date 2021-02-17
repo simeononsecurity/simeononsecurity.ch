@@ -5,6 +5,7 @@ Disallow: /404/
 User-agent: ia_archiver
 Disallow: /
 
+Sitemap: /sitemap.xml
 Sitemap: /index.xml
 Sitemap: /blog/index.xml
 Sitemap: /categories/index.xml
