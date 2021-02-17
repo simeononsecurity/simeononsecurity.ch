@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /admin
+Disallow: /404/
+
 User-agent: ia_archiver
 Disallow: /
 
