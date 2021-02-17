@@ -10,4 +10,4 @@ https://simeononsecurity.com/* https://simeononsecurity.ch/:splat 301!
 # redirect /home to base dir
 /home / 301
 # redirect sitemap.xml to index.xml
-/sitemap.xml /index.xml 301!
+/rss.xml /index.xml 301!
