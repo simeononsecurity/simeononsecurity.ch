@@ -12,15 +12,16 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
 ### Technologies used:
 - [CloudFlare](https://www.cloudflare.com/)
     - Used for Proxy, CDN, Caching, Country Blocking
+- [Hugo Extended](https://gohugo.io/)
+    - Used for Static Site Generation
+- [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
+    - Self Explanatory
 - [node.js](https://nodejs.org/en/)
     - Dependency of Hello Friend
         - Used for dynamic theme generation.
 - [Netlify](https://www.netlify.com/)
     - Used for Hosting, SSL Registration, Forms, Automated Hugo Site Generation
-- [Hugo Extended](https://gohugo.io/)
-    - Used for Static Site Generation
-- [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
-    - Self Explanatory
+
 
 ### Responsible Disclosure:
 SimeonOnSecurity.ch supports the [security.txt](https://securitytxt.org/) [RFC](https://tools.ietf.org/html/draft-foudil-securitytxt-10). 
