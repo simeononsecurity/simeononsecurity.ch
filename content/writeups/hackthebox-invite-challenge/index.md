@@ -21,7 +21,7 @@ You'll be presented with a box clearly asking for an invite code.
 
 You can clearly see a text box asking us for an invite code. 
 
-Hit either "F12" on your keyboard or "Ctrl + Shift + I" to open your browsers developer tools.
+Hit either ***"F12"*** on your keyboard or ***"Ctrl + Shift + I"*** to open your browsers developer tools.
 
 On the "Elements" tab, you'll find a script **[inviteapi.min.js](https://www.hackthebox.eu/js/inviteapi.min.js)**.
 
@@ -29,11 +29,12 @@ Reviewing the javascript and the makeInviteCode function, you'll discover that y
 
 You can do the following to get the Base64 encoded invite code:
 
-**Windows**:
+Simple:
+ - **Windows**:
 ```powershell
-Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON
+(Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON)
 ```
-**Linux**: 
+- **Linux**: 
 ```bash
 curl -X POST "https://www.hackthebox.eu/api/invite/generate"
 ```
@@ -41,6 +42,23 @@ Which will generate the following content:
 ```json
 {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200}
 ```
-
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
+
+
+
+Advanced (Instantly print out invite code):
+ - **Windows**:
+```powershell
+$base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code
+[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api))
+```
+- **Linux**:
+**Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+```bash
+curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d 
+```
+
+### Invite Code Ex:
+```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
+
 
