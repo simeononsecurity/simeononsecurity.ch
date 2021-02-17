@@ -84,14 +84,32 @@ This time it&amp;rsquo;s a bit different and you&amp;rsquo;ll find that the Open
 &lt;p>First, go to the &lt;a href="https://hackthebox.eu">HackTheBox Website&lt;/a> and click on the join button.&lt;/p>
 &lt;p>You&amp;rsquo;ll be presented with a box clearly asking for an invite code.&lt;/p>
 &lt;p>You can clearly see a text box asking us for an invite code.&lt;/p>
-&lt;p>Hit either &amp;ldquo;F12&amp;rdquo; on your keyboard or &amp;ldquo;Ctrl + Shift + I&amp;rdquo; to open your browsers developer tools.&lt;/p>
+&lt;p>Hit either &lt;em>&lt;strong>&amp;ldquo;F12&amp;rdquo;&lt;/strong>&lt;/em> on your keyboard or &lt;em>&lt;strong>&amp;ldquo;Ctrl + Shift + I&amp;rdquo;&lt;/strong>&lt;/em> to open your browsers developer tools.&lt;/p>
 &lt;p>On the &amp;ldquo;Elements&amp;rdquo; tab, you&amp;rsquo;ll find a script &lt;strong>&lt;a href="https://www.hackthebox.eu/js/inviteapi.min.js">inviteapi.min.js&lt;/a>&lt;/strong>.&lt;/p>
 &lt;p>Reviewing the javascript and the makeInviteCode function, you&amp;rsquo;ll discover that you need to send an &lt;strong>HTTP POST&lt;/strong> to &lt;strong>/api/invite/generate&lt;/strong> to get an invite code.&lt;/p>
 &lt;p>You can do the following to get the Base64 encoded invite code:&lt;/p>
-&lt;p>&lt;strong>Windows&lt;/strong>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-powershell" data-lang="powershell">Invoke-WebRequest -Method POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu//api/invite/generate&amp;#34;&lt;/span> | ConvertFrom-JSON
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Linux&lt;/strong>:&lt;/p>
+&lt;p>Simple:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Windows&lt;/strong>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-powershell" data-lang="powershell">(Invoke-WebRequest -Method POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu//api/invite/generate&amp;#34;&lt;/span> | ConvertFrom-JSON)
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;strong>Linux&lt;/strong>:&lt;/li>
+&lt;/ul>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">curl -X POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu/api/invite/generate&amp;#34;&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Which will generate the following content:&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">{&lt;span style="color:#f92672">&amp;#34;success&amp;#34;&lt;/span>:&lt;span style="color:#ae81ff">1&lt;/span>,&lt;span style="color:#f92672">&amp;#34;data&amp;#34;&lt;/span>:{&lt;span style="color:#f92672">&amp;#34;code&amp;#34;&lt;/span>:&lt;span style="color:#e6db74">&amp;#34;Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;#34;format&amp;#34;&lt;/span>:&lt;span style="color:#e6db74">&amp;#34;encoded&amp;#34;&lt;/span>},&lt;span style="color:#f92672">&amp;#34;0&amp;#34;&lt;/span>:&lt;span style="color:#ae81ff">200&lt;/span>}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you take the encoded invite code to &lt;a href="https://www.base64decode.org/">base64decode.org&lt;/a>, you&amp;rsquo;ll get your FLAG the invite code!&lt;/p></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you take the encoded invite code to &lt;a href="https://www.base64decode.org/">base64decode.org&lt;/a>, you&amp;rsquo;ll get your FLAG the invite code!&lt;/p>
+&lt;p>Advanced (Instantly print out invite code):&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Windows&lt;/strong>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-powershell" data-lang="powershell">$base64api=((Invoke-WebRequest -Method POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu//api/invite/generate&amp;#34;&lt;/span> | ConvertFrom-JSON).Data).Code
+&lt;span style="color:#66d9ef">[System.Text.Encoding]&lt;/span>::UTF8.GetString(&lt;span style="color:#66d9ef">[System.Convert]&lt;/span>::FromBase64String($base64api))
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;strong>Linux&lt;/strong>:
+&lt;strong>Note&lt;/strong>: You&amp;rsquo;ll need to install the &lt;a href="https://stedolan.github.io/jq/download/">jq&lt;/a> package.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">curl -X POST &lt;span style="color:#e6db74">&amp;#34;https://www.hackthebox.eu/api/invite/generate&amp;#34;&lt;/span> | jq -r &lt;span style="color:#e6db74">&amp;#39;.data.code&amp;#39;&lt;/span> | base64 -d
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="invite-code-ex">Invite Code Ex:&lt;/h3>
+&lt;p>&lt;code>XXXXX-XXXXX-XXXXX-XXXXX-XXXXX&lt;/code>&lt;/p></description></item></channel></rss>
