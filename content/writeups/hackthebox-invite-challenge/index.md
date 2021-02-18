@@ -32,19 +32,11 @@ You can do the following to get the Base64 encoded invite code:
 ### Solution:
 
 #### Simple:
- - **Windows**:
-```powershell
-(Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON)
-```
-- **Linux**: 
-```bash
-curl -X POST "https://www.hackthebox.eu/api/invite/generate"
-```
-Which will generate the following content:
-```json
-{"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200}
-```
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
+ - **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
+Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+
+If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
 
 #### Advanced (Instantly print out invite code):
  - **Windows**:
