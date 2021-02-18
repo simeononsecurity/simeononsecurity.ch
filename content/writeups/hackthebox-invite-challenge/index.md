@@ -29,7 +29,9 @@ Reviewing the javascript and the makeInviteCode function, you'll discover that y
 
 You can do the following to get the Base64 encoded invite code:
 
-Simple:
+### Solution:
+
+#### Simple:
  - **Windows**:
 ```powershell
 (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON)
@@ -44,9 +46,7 @@ Which will generate the following content:
 ```
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your FLAG the invite code!
 
-
-
-Advanced (Instantly print out invite code):
+#### Advanced (Instantly print out invite code):
  - **Windows**:
 ```powershell
 $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code
