@@ -32,23 +32,17 @@ You can do the following to get the Base64 encoded invite code:
 ### Solution:
 
 #### Simple:
- - **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
+
 Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
 If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
 
 #### Advanced (Instantly print out invite code):
- - **Windows**:
-```powershell
-$base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code
-[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api))
-```
-- **Linux**:
-**Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
-```bash
-curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d 
-```
+ - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
+- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
+ - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
 
 ### Invite Code Ex:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
