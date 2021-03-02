@@ -68,3 +68,4 @@ NODE_VERSION = "14"
 		"bing",
 		"yandex"
 	]
+  package = "netlify-plugin-amp-server-side-rendering"
