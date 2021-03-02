@@ -10,4 +10,3 @@ jobs:
       - uses: actions/checkout@v2
       - uses: bahmutov/npm-install@v1
       - run: npm t
-      - run: npm install --save-dev -g -D eslint-plugin-import@^2.22.1 eslint-plugin-react@^7.21.5 eslint-plugin-react-hooks@^4 browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import jimp lru-cache @ampproject/toolbox-optimizer
