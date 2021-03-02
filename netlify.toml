@@ -56,6 +56,7 @@ NODE_VERSION = "14"
 	Server = "simeononsecurity"
 
 [[plugins]]
+  package = "netlify-plugin-amp-server-side-rendering"
   package = "netlify-plugin-submit-sitemap"
 	[plugins.inputs]
 	# The base url of your site (optional, default = main URL set in Netlify)
@@ -68,4 +69,3 @@ NODE_VERSION = "14"
 		"bing",
 		"yandex"
 	]
-  package = "netlify-plugin-amp-server-side-rendering"
