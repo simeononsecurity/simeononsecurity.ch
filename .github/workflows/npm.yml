@@ -1,4 +1,5 @@
-- uses: bahmutov/npm-install@v1
+name: NPM Automation
+  uses: bahmutov/npm-install@v1
   on: [push]
   env:
     NODE_ENV: production
