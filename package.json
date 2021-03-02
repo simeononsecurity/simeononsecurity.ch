@@ -1,8 +1,8 @@
 {
- "author": "Radosław Kozieł \u003c@panr\u003e \u003cradoslaw.koziel@gmail.com\u003e",
+ "author": "Radosław Kozieł <@panr> <radoslaw.koziel@gmail.com>",
  "browserslist": [
   "last 2 versions",
-  "\u003e1%",
+  ">1%",
   "not dead"
  ],
  "comments": {
@@ -47,7 +47,6 @@
    "webpack-cli": "project"
   }
  },
- "dependencies": {},
  "devDependencies": {
   "@babel/cli": "^7.2.3",
   "@babel/core": "^7.2.2",
@@ -89,7 +88,7 @@
  },
  "husky": {
   "hooks": {
-   "pre-push": "yarn build \u0026\u0026 git add . \u0026\u0026 git commit --amend --no-edit"
+   "pre-push": "yarn build && git add . && git commit --amend --no-edit"
   }
  },
  "license": "MIT",
