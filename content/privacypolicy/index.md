@@ -2,6 +2,7 @@
 title: "Privacy Policy"
 date: 2020-08-08T15:24:07-05:00
 draft: false
+description: "Privacy Policy for SimeonOnSecurity"
 ---
 
 # Privacy Policy for SimeonOnSecurity<

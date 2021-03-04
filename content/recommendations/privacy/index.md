@@ -2,6 +2,8 @@
 title: "Recommended Privacy Resources"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Privacy Resources"
+tags: ['Recommendations']
 ---
 
 ## Why does Privacy Matter?

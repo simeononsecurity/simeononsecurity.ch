@@ -2,6 +2,7 @@
 title: "Recommended Certifications"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Certifications"
 ---
 There are many Cyber and IT related certifications out there, but most are argueably a waste of time over others. Some will enable you to land a job, while others wont. This list consists of the certifications that SimeonOnSecurity recommends for those seeking to enter the IT and CyberSecurity job force.
 

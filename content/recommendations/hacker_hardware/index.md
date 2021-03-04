@@ -2,6 +2,8 @@
 title: "Recommended Hacker Hardware"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Hacker Hardware"
+tags: ['Recommendations']
 ---
 
 ## Hak5 

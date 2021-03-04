@@ -2,6 +2,7 @@
 title: "Shodan Powershell Modules"
 date: 2020-11-14T19:34:03-06:00
 draft: false
+description: "A collection of PowerShell Modules for Interacting with the Shodan API"
 tags: ['shodan', 'api', 'powershell', 'modules', 'automation', 'enumeration', 'Shodan API', 'Showdan PowerShell', 'PowerShell Modules']
 toc: true
 ---

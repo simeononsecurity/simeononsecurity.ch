@@ -2,6 +2,8 @@
 title: "Recommended Stand-Alone Headsets"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Audio Gear"
+tags: ['microphones', 'headphones', 'speakers', 'audio', 'recommendations']
 ---
 ## Headsets:
 - Preferably purchased with a headphone DAC like the [FiiO E10K](https://amzn.to/312xdQJ)  or [FiiO K3](https://amzn.to/2uzpo8B)

@@ -3,6 +3,8 @@ title: "FireFox Privacy Script"
 date: 2020-08-17T03:32:03-05:00
 toc: true
 draft: false
+description: "Organizations like PrivacyTools.io and ffprofile have suggested changes to make FireFox more secure and private.
+These changes cover suggested browser extentions, blocking telemetry, disabling 3rd-party cookies, disabling trackers, etc."
 tags: ['FireFox', 'Privacy', 'FireFox Privacy', 'Automation', 'Powershell', 'Script']
 ---
 

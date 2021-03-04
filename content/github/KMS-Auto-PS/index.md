@@ -3,6 +3,7 @@ title: "GLVK Auto Install Script for KMS Activation"
 date: 2020-12-18
 toc: true
 draft: false
+description: "A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.GLVK Auto Install Script for KMS Activation"
 tags: ['Automation', 'How To Automate Windows Activation', 'Windows Updates', 'Compliance', 'Windows 10 KMS', 'Windows 10 GLVK', 'Windows 10', 'Powershell', 'Script', 'Key Management Service', 'Volume Licensing', 'Enterprise Activation', 'Key Management Server']
 ---
 

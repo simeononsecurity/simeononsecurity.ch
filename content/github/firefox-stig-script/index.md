@@ -3,6 +3,7 @@ title: "FireFox STIG Script"
 date: 2020-08-15T19:17:57-05:00
 toc: true
 draft: false
+description: "The Firefox V4R29 isn't the easiest of STIGs to apply. This script will implement most of the required FireFox policies. In the future, the FireFox ADMX templates and GPO's will be applied in this script."
 tags: ['FireFox', 'STIG', 'FireFox STIG', 'Compliance', 'Automation', 'Powershell', 'Script']
 ---
 

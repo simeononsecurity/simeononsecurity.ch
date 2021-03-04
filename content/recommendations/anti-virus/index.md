@@ -2,6 +2,8 @@
 title: "Recommended Anti-Virus"
 draft: false
 toc: true
+description: "SimeonOnSecurity's recommended Anti-Virus Products"
+tags: ['AV', 'Anti-Virus', 'AntiVirus', 'Recommended Anti-Virus']
 ---
 
 Rankings are based on SimeonOnSecurity's professional opinion and basic testing against malicious samples provided by [VirusTotal](https://www.virustotal.com/gui/). These recommendations **do not** take into account vendors privacy policies or related practices and only cover the AV capabilities, detection, user experience, and performance.

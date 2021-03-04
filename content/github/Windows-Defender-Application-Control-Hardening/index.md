@@ -3,6 +3,7 @@ title: 'Harden Windows with Windows Defender Application Control (WDAC)'
 date: 2020-12-16
 toc: true
 draft: false
+description: "Harden Windows with Windows Defender Application Control (WDAC)"
 tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Defender STIG Script', 'Windows Defender', 'Windows Defender Hardening', 'Windows Defender STIG', 'Defender STIG', 'Windows Defender Application Control', 'WDAC', 'Windows Defender Exploit Protection', 'WDEP', 'Windows Defender Attack Surface Reduction', 'ASR']
 ---
 # Windows-Defender-Application-Control-Hardening

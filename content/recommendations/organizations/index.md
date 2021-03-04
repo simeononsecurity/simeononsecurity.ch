@@ -2,6 +2,8 @@
 title: "Recommended Organizations to Support"
 draft: false
 toc: false
+description: "SimeonOnSecurity's Recommended Organizations to Support"
+tags: ['Recommendations']
 ---
 
 - [Electronic Privacy Information Center - (EPIC)](https://donatenow.networkforgood.org/epic)

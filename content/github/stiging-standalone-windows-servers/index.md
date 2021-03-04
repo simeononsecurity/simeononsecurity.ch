@@ -3,6 +3,7 @@ title: "STIGing Standalone Windows Servers"
 date: 2020-09-09-T11:59:03-05:00
 toc: true
 draft: false
+description: "Automate STIGing Windows Server 2012, 2016, and 2019"
 tags: ['Automation', 'How To Automate Windows STIG', 'Windows Updates', 'Compliance', 'Windows Server STIG', 'Windows Server 2012', 'Windows Server 2012 R2', 'Windows Server 2016', 'Windows Server 2019', 'Server 2012', 'Server 2016', 'Server 2019', 'Powershell', 'Script']
 ---
 # STIGing Standalone Windows Servers

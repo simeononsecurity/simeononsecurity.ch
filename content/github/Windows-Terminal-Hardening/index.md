@@ -3,6 +3,7 @@ title: 'Hardening Windows Terminals. Command Prompt and PowerShell'
 date: 2020-11-18
 toc: true
 draft: false
+description: "Scripts and Documentation for Hardening Windows Command Prompt and PowerShell"
 tags: ['PowerShell', 'PowerShell Hardening', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'WSMAN', 'PSRemote', 'PowerShell Logging', 'Disable Command Prompt', 'Disable PowerShell v2', 'PowerShell Best Practice', 'PowerShell Constrained Language Mode']
 ---
 Scripts and Documentation for Hardening Windows Command Prompt and PowerShell

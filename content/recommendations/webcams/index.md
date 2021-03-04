@@ -2,6 +2,8 @@
 title: "Recommended Webcams"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Webcams"
+tags: ['Recommendations', 'Recommended Webcams', 'Webcams']
 ---
 
 ## Traditional Webcams:

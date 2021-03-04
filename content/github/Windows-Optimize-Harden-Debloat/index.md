@@ -3,6 +3,7 @@ title: "Optimize and Debloat Windows 10 Deployments"
 date: 2020-12-29
 toc: true
 draft: false
+description: "For those who seek to minimize their Windows 10 installs."
 tags: ['Automation', 'Windows Updates', 'Windows 10 Optimizations', 'Windows 10 Debloat', 'Windows 10', 'Powershell', 'Script']
 ---
 # Windows-Optimize-Debloat

@@ -3,6 +3,7 @@ title: "Automating Oracle JRE 8 STIG"
 date: 2020-08-05T21:54:53-05:00
 toc: true
 draft: false
+description: "The Oracle JRE STIGs aren’t so straight forward, requiring administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIG-ing using group policy."
 tags: ['JAVA', 'STIG', 'JAVA STIG', 'JRE', 'JRE8', 'JRE STIG', 'Compliance', 'Automation', 'Powershell', 'Script']
 ---
 

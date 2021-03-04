@@ -3,6 +3,7 @@ title: 'Automating the Windows Defender STIG'
 date: 2020-11-15
 toc: true
 draft: false
+description: "Automate the Windows Defender STIG"
 tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Defender STIG Script', 'Windows Defender', 'Windows Defender Hardening', 'Windows Defender STIG', 'Defender STIG']
 ---
 ## STIGS/SRGs Applied:

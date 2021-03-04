@@ -3,6 +3,7 @@ title: "VirusTotal PowerShell Modules"
 date: 2020-11-24
 toc: true
 draft: false
+description: "A collection of PowerShell Modules for Interacting with the VirusTotal API"
 tags: ['PowerShell Modules', 'PowerShell', 'Automation', 'VirusTotal', 'Virus Scans', 'Domain Scans']
 
 ---

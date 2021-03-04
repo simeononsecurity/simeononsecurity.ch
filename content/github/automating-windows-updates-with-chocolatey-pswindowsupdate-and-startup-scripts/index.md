@@ -3,6 +3,8 @@ title: "Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup
 date: 2020-07-22T17:46:00-05:00
 toc: true
 draft: false
+description: "In today's modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
+Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine."
 tags: ['Automation', 'How To Automate Windows Updates', 'Windows Updates', 'Windows 10', 'Powershell', 'Script']
 ---
 

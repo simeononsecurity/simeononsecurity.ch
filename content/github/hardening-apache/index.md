@@ -2,6 +2,7 @@
 title: "Hardening Apache Web Server"
 date: 2020-07-27T10:15:03-07:00
 draft: false
+description: "A collection of example configurations and scripts to aid system administrators in hardening Apache web servers."
 tags: ['Automation', 'Bash', 'Hardening Apache', 'Apache Web Server', 'Hardening SSL', 'SSL', 'Script']
 ---
 ### A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.

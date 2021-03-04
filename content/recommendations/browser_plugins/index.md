@@ -2,6 +2,8 @@
 title: "Recommended Browser Plugins"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Browser Plugins"
+tags: ['U-Block Origin', 'HTTPS Everywhere', 'Decentraleyes', 'ClearURLs', 'CanvasBlocker', 'FireFox', 'Bitwarden', 'Recommendations']
 ---
 
 **Note:** The only daily-driver browser I recommend is FireFox. 

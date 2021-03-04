@@ -2,6 +2,7 @@
 title: "HackTheBox - Invite Challenge (Windows/Linux)"
 draft: false
 toc: true
+description: "To create an account on HackTheBox (HTB) you have to complete the invite challenge, or hack yourself the way in. Don't worry though it isn't hard and this article will aid you incompleting the challenge."
 tags: ['HackTheBox', 'Invite Challenge', 'Invite', 'HackTheBox Invite Challenge', 'HTB Invite Challenge', 'Windows', 'Linux']
 ---
 

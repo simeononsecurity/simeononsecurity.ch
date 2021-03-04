@@ -3,6 +3,11 @@ title: "WMI Filters"
 date: 2020-08-11T13:35:00-05:00
 toc: true
 draft: false
+description: "A collection of WMI filters to assist with Windows Group Policy deployments
+
+When deploying GPOs, Microsoft reccomends to use WMI filters to speed up the process and isolate policies in large domains. 
+WMI Filters allow you to specify GPOs down to a specific piece of software or Windows version with the potential to get significantly much more complex.
+The linked GitHub Repository includes some of the most commonly used WMI filters so that you don't have to create them."
 tags: ['WMI', 'WMI Filters', 'Windows Management Instrumentation', 'Group Policy', 'GPO']
 ---
 

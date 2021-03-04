@@ -3,6 +3,7 @@ title: "Dot NET STIG Script"
 date: 2020-08-20T22:14:22-05:00
 draft: false
 toc: true
+description: "On July 14, 2020, Microsoft released a security updatApplying the .NET STIG is definitely not straightforward. For many administrators it can take hours to fully implement on a single system. This script applies the required registry changes and modifies the machine.config file to implement FIPS and other controls as required."
 tags: ['Dot Net', '.NET', 'Dot Net Framework', '.NET Framework', '.NET STIG', 'STIG', 'Dot Net Framework STIG', 'Compliance', 'Automation', 'Powershell', 'Script']
 ---
 # Automate the .NET Framework 4 STIG

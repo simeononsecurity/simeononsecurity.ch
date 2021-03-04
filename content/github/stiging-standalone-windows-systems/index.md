@@ -3,6 +3,7 @@ title: "STIGing Standalone Windows Systems"
 date: 2020-08-26T11:59:03-05:00
 toc: true
 draft: false
+description: "Automate STIGing Windows 10"
 tags: ['Automation', 'How To Automate Windows STIG', 'Windows Updates', 'Compliance', 'Windows 10 STIG', 'Windows 10 Hardening', 'Windows 10', 'Powershell', 'Script']
 
 ---

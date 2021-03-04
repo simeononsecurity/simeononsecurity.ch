@@ -2,6 +2,8 @@
 title: "Recommended Services"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Services"
+tags: ['Recommendations']
 ---
 ## Privacy Services:
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) - **Preferred** Delete your records from major data brokers

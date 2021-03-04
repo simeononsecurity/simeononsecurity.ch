@@ -3,6 +3,10 @@ title: "Windows 10 Branding"
 date: 2020-08-14T14:37:16-05:00
 toc: true
 draft: false
+description: "Many organizations have a need or want to control the branding of a Windows system. 
+This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo. 
+In Windows 10, Windows Server 2016, and Windows Server 2019 this is not particularly easy. 
+But, with the aide of the linked script, we can partially automate it and make the process much easier."
 tags: ['Automation', 'Branding', 'Windows Branding', 'Customization', 'Windows Customization', 'Windows 10', 'Powershell', 'Script']
 ---
 

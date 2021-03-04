@@ -2,6 +2,7 @@
 title: "HackTheBox - Challenges - Crypto - Call"
 date: 2020-10-07T18:31:06-05:00
 draft: false
+description: "Writeup - HackTheBox - Challenges - Crypto - Call"
 tags: ['HackTheBox', 'Challenges', 'Crypto', 'Call', 'DTMF', 'Prime Numbers']
 toc: true
 ---

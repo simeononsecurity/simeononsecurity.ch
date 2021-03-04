@@ -3,6 +3,7 @@ title: 'SolarWinds Orion Supply Chain Compromised, C2, and Mitigations'
 date: 2020-12-14
 toc: true
 draft: false
+description: "SolarWinds Orion Supply Chain Compromised, C2, and Mitigations"
 tags: ['SolarWinds', 'SolarWinds C2', 'SolarWinds Orion', 'SolarWinds Supply Chain', 'Supply Chain', 'C2', 'Command and Control', 'Mitigations', 'Guidance', 'Threat Intelligence']
 ---
 

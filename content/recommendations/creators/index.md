@@ -2,6 +2,8 @@
 title: "Recommended Security Content Creators"
 draft: false
 toc: true
+description: "SimeonOnSecurity's Recommended Security Content Creators"
+tags: ['Recommendations']
 ---
 
 **Note:** Check out [SecurityCreators](https://securitycreators.video/) if you like this page. This list only includes people actively watched by SimeonOnSecurity.

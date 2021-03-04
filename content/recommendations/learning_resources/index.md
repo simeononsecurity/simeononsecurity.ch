@@ -1,6 +1,9 @@
 ---
 title: "Recommended Learning Resources"
 draft: false
+toc: true
+description: "SimeonOnSecurity's Recommended Learning Resources"
+tags: ['Recommendations']
 ---
 
 ## General Information Technology:

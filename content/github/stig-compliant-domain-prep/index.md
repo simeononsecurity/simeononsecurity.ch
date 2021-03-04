@@ -2,6 +2,7 @@
 title: "STIG Compliant GPOs and Importing them into a Windows Domain"
 date: 2020-09-08T15:13:17-05:00
 draft: false
+description: "Import all the GPOs provided by SimeonOnSecurity to assist in making your domain compliant with all applicable STIGs and SRGs."
 tags: ['Windows Domain', 'Group Policy Objects', 'Compliance', 'Automation', 'Powershell', 'GPO', 'Active Directory', 'Remote Server Administration Tools', 'RSAT', 'Windows Server', 'Domain Controller', 'STIG', 'SRG']
 toc: true
 ---

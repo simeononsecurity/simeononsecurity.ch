@@ -3,6 +3,7 @@ title: 'Hardening Windows Defender'
 date: 2020-11-15
 toc: true
 draft: false
+description: "Harden Windows Defender by enabling enterprise or command line only features"
 tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Defender STIG Script', 'Windows Defender', 'Windows Defender Hardening', 'Windows Defender STIG', 'Defender STIG', 'Windows Defender Application Control', 'WDAC', 'Windows Defender Exploit Protection', 'WDEP', 'Windows Defender Attack Surface Reduction', 'ASR']
 ---
 
