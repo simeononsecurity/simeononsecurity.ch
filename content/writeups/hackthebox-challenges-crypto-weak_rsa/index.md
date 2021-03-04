@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox - Challenge - Crypto - Weak RSA"
 draft: false
-description: "Solve the HTB "Weak RSA" Crypto, an easy challenge based on the RSA cipher."
+description: "Solve the HTB Weak RSA Crypto, an easy challenge based on the RSA cipher."
 tags: ['HackTheBox', 'Challenges', 'Crypto', 'Weak RSA', 'RsaCtfTool']
 toc: true
 ---
