@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>books on simeononsecurity</title><link>/tags/books/</link><description>Recent content in books on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml"/><item><title>Recommended Books</title><link>/recommendations/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/books/</guid><description>
+&lt;h2 id="educational">Educational:&lt;/h2>
+&lt;h3 id="coding-and-scripting-and-automation">Coding and Scripting and Automation:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/334bQRa">Automate the Boring Stuff with Python - Al Sweigart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2NKtuFf">Learn Windows PowerShell in a Month of Lunches - Donald W. Jones&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3bQ6qwA">Mastering Windows PowerShell Scripting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/301qpTp">PowerShell for Sysadmins - Adam Bertram&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/332hwfo">Practical Ansible 2 - Daniel Oh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3hE5Tzd">Practical Network Automation - Abhishek Ratan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3pNHOLc">Python Crash Course - Eric Matthes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3q7B7T2">Windows Server 2019 Automation with PowerShell Cookbook - Thomas Lee&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="cyber-security">Cyber Security:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/30Z5il4">Blue Team Field Manual - Alan J White&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/303zj2R">Building Secure and Reliable Systems - O&amp;rsquo;Reilly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3pRdEGG">Hash Crack - Joshua Picolet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3fkWD2V">Operator Handbook - Joshua Picolet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2BBC3fp">Red Team Field Manual - Ben Clark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2MBMsNt">Security Engineering - Ross Anderson&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3kU5cTs">The Art of Deception - Kevin Mitnick&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/334cDl0">The Art of Intrusion - Kevin Mitnick&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2IZv8QF">The Art of Invisibility - Kevin Mitnick&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2D6F47L">The Hacker Playbook 3 - Peter Kim&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3dWnVy1">The Web Application Hacker&amp;rsquo;s Handbook - Dafydd Stuttard&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2UNr8VS">Tribe of Hackers - Marcus J. Carey&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="networking">Networking:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3hFK7eo">CCNA Routing and Switching Portable Command Guide - Scott Empson&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="open-source-intelligance">Open-Source Intelligance:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/39zbWlV">Open Source Intelligence Techniques - Michael Bazzell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="operating-systems-and-software">Operating Systems and Software:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3ecLtyX">Active Directory Administration Cookbook - Sander Berkouwer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/36TjdvP">Linux Command Line and Shell Scripting Bible - Richard Blum and Christine Bresnahan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2Hl7kWG">Linux Pocket Guide - Daniel J. Barrett&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3bOT5EY">Mastering Windows Group Policy - Jordan Krause&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3q7NoXB">Windows Server 2019 Administration Fundamentals - Bekim Dauti&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="privacy">Privacy:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3g4BrxG">Extreme Privacy - Michael Bazzell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3pLEVud">Make Your Own Living Trust - Denis Clifford Attorney&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="other">Other:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/35UMYgF">This Book Was Self-Published - Michael Bazzell&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

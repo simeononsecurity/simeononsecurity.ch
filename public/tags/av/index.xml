@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AV on simeononsecurity</title><link>/tags/av/</link><description>Recent content in AV on simeononsecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/tags/av/index.xml" rel="self" type="application/rss+xml"/><item><title>Recommended Anti-Virus</title><link>/recommendations/anti-virus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/anti-virus/</guid><description>
+&lt;p>Rankings are based on SimeonOnSecurity&amp;rsquo;s professional opinion and basic testing against malicious samples provided by &lt;a href="https://www.virustotal.com/gui/">VirusTotal&lt;/a>. These recommendations &lt;strong>do not&lt;/strong> take into account vendors privacy policies or related practices and only cover the AV capabilities, detection, user experience, and performance.&lt;/p>
+&lt;p>&lt;strong>Notes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Generally speaking, AV is not required on Linux or MacOS.&lt;/li>
+&lt;li>It is &lt;strong>not recommended&lt;/strong> to use any VPN or password manager thay may be provided with the AV suite.
+&lt;ul>
+&lt;li>Please see our recommendations for VPN providers &lt;a href="https://simeononsecurity.ch/recommendations/vpns/">here&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Ordered Top-Down, Best to Worst, by category.&lt;/p>
+&lt;h2 id="home-use">Home Use:&lt;/h2>
+&lt;h3 id="windows">Windows:&lt;/h3>
+&lt;h4 id="paid">Paid:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3nfig7d">Bitdefender - INTERNET SECURITY&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avira.com/en/antivirus-pro">Avira - Antivirus Pro&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2MA7jR2">Avast Premium Security&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="free">Free:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.bitdefender.com/solutions/free.html">Bitdefender - Antivirus Free Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avira.com/en/free-antivirus-windows">Avira - Free Antivirus for Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avast.com/en-us/index">Avast - Free Antivirus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.microsoft.com/en-us/windows/comprehensive-security">Microsoft - Windows Defender&lt;/a>
+&lt;ul>
+&lt;li>Recommended: &lt;a href="https://github.com/simeononsecurity/Windows-Defender-Hardening">SimeonOnSecurity - Windows Defender Hardening&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux">Linux:&lt;/h3>
+&lt;h4 id="paid-1">Paid:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.eset.com/int/home/antivirus-linux">ESET NOD32 ANTIVIRUS FOR LINUX DESKTOP&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="free-1">Free:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.clamav.net/">ClamAV&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="macos">MacOS:&lt;/h3>
+&lt;h4 id="paid-2">Paid:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.avira.com/en/antivirus-pro">Avira - Antivirus Pro&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2MA7jR2">Avast Premium Security&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="free-2">Free:&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.avira.com/en/free-antivirus-mac">Avira - Free Antivirus for Mac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.avast.com/en-us/index">Avast - Free Antivirus&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="business-use">Business Use:&lt;/h2>
+&lt;p>&lt;strong>Placeholder:&lt;/strong> Work being completed.&lt;/p></description></item></channel></rss>

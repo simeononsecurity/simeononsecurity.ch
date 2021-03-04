@@ -1202,7 +1202,7 @@ With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to 
 &lt;p>2.) Profit?&lt;/p></description></item><item><title>Chromium ADMX Templates</title><link>/github/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><guid>/github/chromium-admx-templates/</guid><description>
 &lt;h1 id="chromiumadmx">ChromiumADMX&lt;/h1>
 &lt;p>Proper ADMX Template for the Chromium Browser&lt;/p>
-&lt;p>Brave, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.
+&lt;p>Chromium, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.
 With that in mind, we&amp;rsquo;ve modified the Google Chrome ADMX templates to reflect the Chromium Browser&amp;rsquo;s registry path and placed in tandum in the Google ADMX Folder in GPO.&lt;/p>
 &lt;p>&lt;strong>These Policy Definitions are in a Pre-Alpha state. They should be used for testing purposes only&lt;/strong>&lt;/p>
 &lt;h2 id="download-the-required-files">Download the required files&lt;/h2>
@@ -1396,9 +1396,7 @@ Get-WuInstall -AcceptAll -IgnoreReboot
 &lt;h2 id="how-to-run-the-script">How to run the script:&lt;/h2>
 &lt;p>&lt;strong>The script may be lauched from the extracted GitHub download like this:&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>.\sos-spectre-meltdown-mitigations.ps1
-&lt;/code>&lt;/pre></description></item><item><title/><link>/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/</guid><description/></item><item><title/><link>/guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/guides/</guid><description/></item><item><title/><link>/hof/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hof/</guid><description>
-&lt;h1 id="hall-of-fame">Hall Of Fame&lt;/h1>
-&lt;p>Placeholder&amp;hellip;&lt;/p></description></item><item><title>About</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title/><link>/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/</guid><description/></item><item><title/><link>/guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/guides/</guid><description/></item><item><title>About</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>
 &lt;h3>What is SimeonOnSecurity?&lt;/h3>
 &lt;p>     SimeonOnSecurity (SOS) is a security and automation blog that's goal is to bring you all the behind the scenes technical content not normally found online. This blog serves as Simeon's show of work and his all around enthusiasm for the field.&lt;/p>
 &lt;h3>Who is Simeon?&lt;/h3>
@@ -1610,26 +1608,30 @@ This time it&amp;rsquo;s a bit different and you&amp;rsquo;ll find that the Open
 &lt;h2 id="business-use">Business Use:&lt;/h2>
 &lt;p>&lt;strong>Placeholder:&lt;/strong> Work being completed.&lt;/p></description></item><item><title>Recommended Books</title><link>/recommendations/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/recommendations/books/</guid><description>
 &lt;h2 id="educational">Educational:&lt;/h2>
-&lt;h3 id="automation">Automation:&lt;/h3>
+&lt;h3 id="coding-and-scripting-and-automation">Coding and Scripting and Automation:&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://amzn.to/334bQRa">Automate the Boring Stuff with Python - Al Sweigart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2NKtuFf">Learn Windows PowerShell in a Month of Lunches - Donald W. Jones&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3bQ6qwA">Mastering Windows PowerShell Scripting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/301qpTp">PowerShell for Sysadmins - Adam Bertram&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/332hwfo">Practical Ansible 2 - Daniel Oh&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/3hE5Tzd">Practical Network Automation - Abhishek Ratan&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="coding">Coding:&lt;/h3>
-&lt;ul>
 &lt;li>&lt;a href="https://amzn.to/3pNHOLc">Python Crash Course - Eric Matthes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3q7B7T2">Windows Server 2019 Automation with PowerShell Cookbook - Thomas Lee&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="cyber-security">Cyber Security:&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://amzn.to/30Z5il4">Blue Team Field Manual - Alan J White&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/303zj2R">Building Secure and Reliable Systems - O&amp;rsquo;Reilly&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/3pRdEGG">Hash Crack - Joshua Picolet&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/3fkWD2V">Operator Handbook - Joshua Picolet&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/2BBC3fp">Red Team Field Manual - Ben Clark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2MBMsNt">Security Engineering - Ross Anderson&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/3kU5cTs">The Art of Deception - Kevin Mitnick&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/334cDl0">The Art of Intrusion - Kevin Mitnick&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/2IZv8QF">The Art of Invisibility - Kevin Mitnick&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/2D6F47L">The Hacker Playbook 3 - Peter Kim&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3dWnVy1">The Web Application Hacker&amp;rsquo;s Handbook - Dafydd Stuttard&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/2UNr8VS">Tribe of Hackers - Marcus J. Carey&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="networking">Networking:&lt;/h3>
@@ -1640,10 +1642,13 @@ This time it&amp;rsquo;s a bit different and you&amp;rsquo;ll find that the Open
 &lt;ul>
 &lt;li>&lt;a href="https://amzn.to/39zbWlV">Open Source Intelligence Techniques - Michael Bazzell&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h3 id="operating-systems">Operating Systems:&lt;/h3>
+&lt;h3 id="operating-systems-and-software">Operating Systems and Software:&lt;/h3>
 &lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3ecLtyX">Active Directory Administration Cookbook - Sander Berkouwer&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/36TjdvP">Linux Command Line and Shell Scripting Bible - Richard Blum and Christine Bresnahan&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/2Hl7kWG">Linux Pocket Guide - Daniel J. Barrett&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3bOT5EY">Mastering Windows Group Policy - Jordan Krause&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3q7NoXB">Windows Server 2019 Administration Fundamentals - Bekim Dauti&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="privacy">Privacy:&lt;/h3>
 &lt;ul>
@@ -2097,7 +2102,9 @@ I&amp;rsquo;ll recommend a few in different price points within their categories
 &lt;h2 id="webcam-with-dslr-upgrade-path">Webcam with DSLR Upgrade Path:&lt;/h2>
 &lt;ul>
 &lt;li>$180ish | &lt;a href="https://amzn.to/3oFugAi">Elgato CamLink 4K&lt;/a> + &lt;a href="https://www.ebay.com/sch/i.html?_nkw=Used+GoPro+HERO+4+Black+Edition">Used - Go Pro Hero 3/4&lt;/a> + &lt;a href="https://amzn.to/2N1AL2J">Mini-HDMI to HDMI Cable&lt;/a> + &lt;a href="https://amzn.to/2XyN5t5">Mini-USB 2.0 Type B Charger&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>STIGing Standalone Windows Servers</title><link>/github/stiging-standalone-windows-servers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/github/stiging-standalone-windows-servers/</guid><description>
+&lt;/ul></description></item><item><title>SimeonOnSecurity - Hall of Fame</title><link>/hof/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hof/</guid><description>
+&lt;h1 id="hall-of-fame">Hall Of Fame&lt;/h1>
+&lt;p>Placeholder&amp;hellip;&lt;/p></description></item><item><title>STIGing Standalone Windows Servers</title><link>/github/stiging-standalone-windows-servers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/github/stiging-standalone-windows-servers/</guid><description>
 &lt;h1 id="stiging-standalone-windows-servers">STIGing Standalone Windows Servers&lt;/h1>
 &lt;p>Download all the required files from the &lt;a href="https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script">GitHub Repository&lt;/a>&lt;/p>
 &lt;h2 id="introduction">Introduction:&lt;/h2>
