@@ -2,6 +2,8 @@
 title: "CTF Ranks"
 draft: false
 toc: true
+description: "SimeonOnSecurity's rankings for CTFs and other Various Challenges"
+tags: ['CTF', 'CTF Rankings', 'Capture the Flag', 'Competition', 'Challenges', 'Rankings']
 ---
 # CTF Rankings Log:
 ### 2020
