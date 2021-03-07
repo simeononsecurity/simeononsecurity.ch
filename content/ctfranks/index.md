@@ -25,8 +25,8 @@ toc: true
 		- Placed Overall: 31st / 957
 		- Placed Gold: 28th / 121
 ### 2021
-#### LockHeed Martin Cyber Grand Challenge 2020:
-- 2021/02/19 - 2021/03/05
+#### Cipher Tech Challenge:
+- 2021/02/19 - 2021/03/06
 - Placed: 96th / 345
 #### National Cyber League:
 - Spring 2021
