@@ -57,7 +57,84 @@ After searching around, you&amp;rsquo;ll find that it is a Fernet cypher.
 Decoding it with &lt;a href="http://malbolge.doleczek.pl/">this&lt;/a> tool will give you the flag.&lt;/p>
 &lt;h3 id="flag-ex">Flag Ex:&lt;/h3>
 &lt;pre>&lt;code>HTB{x_xxx_xxxx}
-&lt;/code>&lt;/pre></description></item><item><title>HackTheBox - Challenge - Crypto - Weak RSA</title><link>/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>CTF Ranks</title><link>/ctfranks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ctfranks/</guid><description>
+&lt;h1 id="ctf-rankings-log">CTF Rankings Log:&lt;/h1>
+&lt;h3 id="2020">2020&lt;/h3>
+&lt;h4 id="lockheed-martin-cyber-grand-challenge-2020">LockHeed Martin Cyber Grand Challenge 2020:&lt;/h4>
+&lt;ul>
+&lt;li>2020/10/09 - 2020/10/18&lt;/li>
+&lt;li>Placed: 15th / 387&lt;/li>
+&lt;/ul>
+&lt;h4 id="national-cyber-league">National Cyber League:&lt;/h4>
+&lt;ul>
+&lt;li>Fall 2020
+&lt;ul>
+&lt;li>Gym
+&lt;ul>
+&lt;li>2020/09/14 - 2020/12/08&lt;/li>
+&lt;li>Placed: 54th / 6088&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Preseason
+&lt;ul>
+&lt;li>2020/10/12 - 2020/10/19&lt;/li>
+&lt;li>Placed: 98th / 6028&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Individual
+&lt;ul>
+&lt;li>2020/10/23 - 2020/10/25&lt;/li>
+&lt;li>Placed Overall: 134th / 6010&lt;/li>
+&lt;li>Placed Gold: 126th / 680&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Team (SimeonOnSecurity.ch)
+&lt;ul>
+&lt;li>2020/11/06 - 2020/11/08&lt;/li>
+&lt;li>Placed Overall: 31st / 957&lt;/li>
+&lt;li>Placed Gold: 28th / 121&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2021">2021&lt;/h3>
+&lt;h4 id="cipher-tech-challenge">Cipher Tech Challenge:&lt;/h4>
+&lt;ul>
+&lt;li>2021/02/19 - 2021/03/06&lt;/li>
+&lt;li>Placed: 96th / 345&lt;/li>
+&lt;/ul>
+&lt;h4 id="national-cyber-league-1">National Cyber League:&lt;/h4>
+&lt;ul>
+&lt;li>Spring 2021
+&lt;ul>
+&lt;li>Gym
+&lt;ul>
+&lt;li>2021/02/XX - 2021/XX/XX&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Preseason
+&lt;ul>
+&lt;li>2021/03/15 - 2021/03/22&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Individual
+&lt;ul>
+&lt;li>2021/03/26 - 2021/03/28&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Team
+&lt;ul>
+&lt;li>2021/04/09 - 2021/04/11&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>HackTheBox - Challenge - Crypto - Weak RSA</title><link>/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><description>
 &lt;h1 id="hackthebox---challenge---crypto---weak-rsa">HackTheBox - Challenge - Crypto - Weak RSA&lt;/h1>
 &lt;p>The HTB &amp;ldquo;Weak RSA&amp;rdquo; Crypto is an easy challenge based on the RSA cipher.&lt;/p>
 &lt;h2 id="provided-files">Provided Files:&lt;/h2>

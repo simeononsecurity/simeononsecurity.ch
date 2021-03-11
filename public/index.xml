@@ -1441,22 +1441,19 @@ Get-WuInstall -AcceptAll -IgnoreReboot
 &lt;/form></description></item><item><title>CTF Ranks</title><link>/ctfranks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ctfranks/</guid><description>
 &lt;h1 id="ctf-rankings-log">CTF Rankings Log:&lt;/h1>
 &lt;h3 id="2020">2020&lt;/h3>
-&lt;ul>
-&lt;li>LockHeed Martin Cyber Grand Challenge 2020
+&lt;h4 id="lockheed-martin-cyber-grand-challenge-2020">LockHeed Martin Cyber Grand Challenge 2020:&lt;/h4>
 &lt;ul>
 &lt;li>2020/10/09 - 2020/10/18&lt;/li>
 &lt;li>Placed: 15th / 387&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>National Cyber League
+&lt;h4 id="national-cyber-league">National Cyber League:&lt;/h4>
 &lt;ul>
 &lt;li>Fall 2020
 &lt;ul>
 &lt;li>Gym
 &lt;ul>
 &lt;li>2020/09/14 - 2020/12/08&lt;/li>
-&lt;li>TBD&lt;/li>
-&lt;li>Currently: 52nd / 6085&lt;/li>
+&lt;li>Placed: 54th / 6088&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Preseason
@@ -1479,6 +1476,41 @@ Get-WuInstall -AcceptAll -IgnoreReboot
 &lt;li>Placed Gold: 28th / 121&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2021">2021&lt;/h3>
+&lt;h4 id="cipher-tech-challenge">Cipher Tech Challenge:&lt;/h4>
+&lt;ul>
+&lt;li>2021/02/19 - 2021/03/06&lt;/li>
+&lt;li>Placed: 96th / 345&lt;/li>
+&lt;/ul>
+&lt;h4 id="national-cyber-league-1">National Cyber League:&lt;/h4>
+&lt;ul>
+&lt;li>Spring 2021
+&lt;ul>
+&lt;li>Gym
+&lt;ul>
+&lt;li>2021/02/XX - 2021/XX/XX&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Preseason
+&lt;ul>
+&lt;li>2021/03/15 - 2021/03/22&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Individual
+&lt;ul>
+&lt;li>2021/03/26 - 2021/03/28&lt;/li>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Team
+&lt;ul>
+&lt;li>2021/04/09 - 2021/04/11&lt;/li>
+&lt;li>TBD&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
