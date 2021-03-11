@@ -88,7 +88,7 @@
  },
  "husky": {
   "hooks": {
-   "pre-push": "yarn build --no-verify && git add . && git commit --amend --no-edit --no-verify"
+   "pre-push": ""
   }
  },
  "license": "MIT",
