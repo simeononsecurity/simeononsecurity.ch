@@ -6,6 +6,8 @@ description: "Books recommended by SimeonOnSecurity"
 tags: ['books', 'cybersecurity', 'best books for cyber security', 'best books for automation', 'automation books', 'cybersecurity book recommendations', 'cybersecurity for dummies']
 ---
 
+**Note:** Read most of these books for free with a two month trial of [Amazon Kindle Unlimited](https://amzn.to/3rulzJW).
+
 ## Educational:
 ### Coding and Scripting and Automation:
 - [Automate the Boring Stuff with Python - Al Sweigart](https://amzn.to/334bQRa)
