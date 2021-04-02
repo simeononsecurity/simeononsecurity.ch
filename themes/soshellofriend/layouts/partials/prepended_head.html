@@ -2,16 +2,25 @@
 If you want to include any custom html at the beginning of </head> before scripts or links are declared,
 put it in /layouts/partials/prepended_head.html. Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/prepended_head.html doesn't exist.
 -->
-<meta property="og:site_name" content="SimeonOnSecurity.ch">
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:image" content="https://simeononsecurity.ch/img/banner.png">
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:website" content="{{ .Permalink }}" />
 {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
 {{ end }}
+{{ with $.Params.images }}{{ range first 6 . -}}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+{{- with $featured -}}
+<meta property="og:image" content="{{ $featured.Permalink }}"/>
+{{ else -}}
+{{- with $.Site.Params.images -}}
+<meta property="og:image" content="{{ index . 0 | absURL }}"/>
+{{ end }}{{ end }}{{ end }}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- if .IsPage }}
 {{- if not .PublishDate.IsZero }}<meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
@@ -103,8 +112,6 @@ put it in /layouts/partials/prepended_head.html. Do not put anything in this fil
   <meta name="news_keywords" content="{{ range $i, $kw := first 10 . }}{{ if $i }},{{ end }}{{ $kw }}{{ end }}" />
 {{ end }}{{ end }}
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@simeonsecurity">
 <meta name="twitter:url" content="{{ .Permalink }}" /> 
 {{ template "_internal/twitter_cards.html" . }}
 
