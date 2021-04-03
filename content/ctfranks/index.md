@@ -37,10 +37,11 @@ tags: ['CTF', 'CTF Rankings', 'Capture the Flag', 'Competition', 'Challenges', '
 		- TBD
 	- Preseason 
 		- 2021/03/15 - 2021/03/22
-		- TBD
+		- Placed: 263rd / 5790
 	- Individual 
 		- 2021/03/26 - 2021/03/28
-		- TBD
+		- Placed Overall: 177th / 6010
+		- Placed Gold: 163rd / 628
 	- Team
 		- 2021/04/09 - 2021/04/11
 		- TBD
