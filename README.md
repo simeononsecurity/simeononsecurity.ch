@@ -12,6 +12,8 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
 ### Technologies used:
 - [CloudFlare](https://www.cloudflare.com/)
     - Used for Proxy, CDN, Caching, Country Blocking
+- [CloudFlare AMP Optimizer](https://github.com/ampproject/cloudflare-amp-optimizer)
+    - SEO and Mobile Friendly Site Optimizer
 - [Hugo Extended](https://gohugo.io/)
     - Used for Static Site Generation
 - [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
