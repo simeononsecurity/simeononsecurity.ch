@@ -5,7 +5,7 @@
   disableJSON = false
   disableSVG = false
   disableXML = false
-  minifyOutput = false
+  minifyOutput = true
   [minify.tdewolff]
     [minify.tdewolff.css]
       keepCSS2 = true
