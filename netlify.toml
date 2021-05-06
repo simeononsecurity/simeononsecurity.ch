@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --cleanDestinationDir -D -E -F --gc --minify"
+command = "hugo --cleanDestinationDir -D -E -F --gc --minify --cacheDir /tmp --verbose"
 
 [context.production.environment]
 HUGO_VERSION = "0.80.0"
