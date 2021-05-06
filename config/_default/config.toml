@@ -9,6 +9,7 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 relativeURLs = true
 enableGitInfo = true
+refLinksNotFoundURL = "simeononsecurity.ch"
 
 [params]
   #Google Analytics Tag
