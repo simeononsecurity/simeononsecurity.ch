@@ -8,7 +8,7 @@ const path = require("path");
 
 const join = (...paths) => path.join(__dirname, ...paths);
 
-module.exports = (env, { mode }) => ({
+module.exports = (env, { mode, watch }) => ({
   resolve: {
     extensions: [".js", ".css"],
     modules: ["assets", "node_modules"],
@@ -23,6 +23,7 @@ module.exports = (env, { mode }) => ({
     path: join("static/assets"),
     publicPath: "",
   },
+  watch,
   performance: {
     hints: false,
   },
@@ -39,12 +40,25 @@ module.exports = (env, { mode }) => ({
         },
       },
       {
-        test: /\.(png|jpg|woff|woff2|ttf|eot|svg)$/,
+        test: /\.(png|jpg|svg)$/,
         use: [
           {
-            loader: "url-loader",
+            loader: "file-loader",
             options: {
-              limit: 8192,
+              name: "[name].[ext]",
+              outputPath: "images",
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "fonts",
             },
           },
         ],
@@ -89,7 +103,12 @@ module.exports = (env, { mode }) => ({
   plugins: [
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: [join("static/assets")],
-      cleanAfterEveryBuildPatterns: [join("static/assets/style.js")],
+      cleanAfterEveryBuildPatterns: [
+        "!images/**/*",
+        "!fonts/**/*",
+        // Remove unused file for a production build.
+        mode === "production" && join("static/assets/style.js"),
+      ],
       verbose: true,
     }),
     new MiniCssExtractPlugin({
