@@ -5683,10 +5683,10 @@ prettier-eslint@^9.0.0:
     typescript "^3.2.1"
     vue-eslint-parser "^2.0.2"
 
-prettier-plugin-go-template@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-go-template/-/prettier-plugin-go-template-0.0.9.tgz#6d500e821a42d22de03a5d5e29c497c8f514f039"
-  integrity sha512-wjYU5Ofu7lrIOyXoidQCnZD8fj2yBv2GBHK3HWWhii5POkbPdpN+J3kByMx39SVbBQuPSC78WRNkma4jdencEw==
+prettier-plugin-go-template@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-go-template/-/prettier-plugin-go-template-0.0.10.tgz#0036c4455a24e89a896d6ce8df6c0099e2499048"
+  integrity sha512-TaHPqiMK/zfk+YhvKRf/1WZDgQ6ffnlxJZX5rwphqfxBOVEezZQtYistTB348MKrKnnwKpyXZWpMRo0/KCVB+A==
 
 prettier@^1.7.0:
   version "1.19.1"
