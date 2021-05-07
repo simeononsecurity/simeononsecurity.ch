@@ -346,7 +346,7 @@
     "he": "^1.2.0",
     "hex-color-regex": "^1.1.0",
     "hmac-drbg": "^1.0.1",
-    "hosted-git-info": "^2.8.8",
+    "hosted-git-info": "^3.0.8",
     "homedir-polyfill": "^1.0.3",
     "hsla-regex": "^1.0.0",
     "hsl-regex": "^1.0.0",
