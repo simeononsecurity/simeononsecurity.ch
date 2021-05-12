@@ -400,7 +400,7 @@
     "is-plain-object": "^2.0.4",
     "is-string": "^1.0.5",
     "is-regex": "^1.1.1",
-    "is-svg": "^3.0.0",
+    "is-svg": "^4.2.2",
     "is-symbol": "^1.0.3",
     "is-wsl": "^1.1.0",
     "is-windows": "^1.0.2",
