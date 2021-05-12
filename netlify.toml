@@ -78,7 +78,7 @@ package = "netlify-plugin-hashfiles"
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
-  branches = ['main']
+  branches = ['*']
   disabled = false
   customDomain = "simeononsecurity.ch"
   renderJavaScript = false
