@@ -33,8 +33,8 @@ tags: ['CTF', 'CTF Rankings', 'Capture the Flag', 'Competition', 'Challenges', '
 #### National Cyber League:
 - Spring 2021
 	- Gym 
-		- 2021/02/XX - 2021/XX/XX
-		- TBD
+		- 2021/02/XX - 2021/05/28
+		- TBD: 280th / 5802
 	- Preseason 
 		- 2021/03/15 - 2021/03/22
 		- Placed: 263rd / 5790
@@ -44,4 +44,5 @@ tags: ['CTF', 'CTF Rankings', 'Capture the Flag', 'Competition', 'Challenges', '
 		- Placed Gold: 163rd / 628
 	- Team
 		- 2021/04/09 - 2021/04/11
-		- TBD
+		- Placed Overall: 13th / 922
+		- Placed Gold: 13th / 116
