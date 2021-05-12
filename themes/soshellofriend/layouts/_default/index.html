@@ -28,11 +28,7 @@
             {{ partial "lastmod.html" . }}
           {{ end }}
         {{ end }}
-
-        {{ with .Params.Author }}
-          <span class="post-author">— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>
-        {{ end }}
-
+        {{ with .Params.Author }}<span class="post-author">— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>{{ end }}
         {{ if $.Site.Params.ShowReadingTime }}
           <span class="post-read-time">— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
         {{ end }}
@@ -41,7 +37,7 @@
       {{ if .Params.tags }}
         <span class="post-tags">
           {{ range .Params.tags }}
-            <a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">#{{ . }}</a>&nbsp;
+            #<a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">{{ . }}</a>&nbsp;
           {{ end }}
         </span>
       {{ end }}
@@ -49,9 +45,9 @@
       {{ if .Params.Cover }}
         <figure class="post-cover">
           {{ if .Params.UseRelativeCover }}
-            <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+            <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Title | plainify | default " " }}"/>
           {{ else }}
-            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title | plainify | default " " }}"/>
           {{ end }}
 
           {{ if .Params.CoverCaption }}
@@ -65,7 +61,7 @@
           {{ . | markdownify }}
         {{ else }}
           {{ if .Truncated }}
-            {{ .Summary }}
+            {{ .Summary | markdownify }}
           {{ end }}
         {{ end }}
       </div>
