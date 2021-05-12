@@ -666,7 +666,7 @@
     "semver": "^5.7.1",
     "semver-regex": "^2.0.0",
     "semver-compare": "^1.0.0",
-    "serialize-javascript": "^1.9.1",
+    "serialize-javascript": "^3.1.0",
     "setimmediate": "^1.0.5",
     "set-blocking": "^2.0.0",
     "set-value": "^2.0.1",
