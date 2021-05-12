@@ -1,6 +1,6 @@
 ---
 title: "Automating Sysmon Deployment and Configuration"
-date: 2020-07-22T17:46:00-05:00
+date: 2021-05-11
 toc: true
 draft: false
 description: "Increase your logging abilities to further your ability to detect threats and malicious activity on your systems."
