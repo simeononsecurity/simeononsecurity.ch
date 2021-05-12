@@ -80,6 +80,5 @@ package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['main']
   disabled = false
-  pathPrefix = "/blog"
   customDomain = "simeononsecurity.ch"
   renderJavaScript = true
