@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --cleanDestinationDir -D -E -F --gc --minify --cacheDir /tmp --verbose"
 
 [context.production.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.81.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 NODE_VERSION = "14"
