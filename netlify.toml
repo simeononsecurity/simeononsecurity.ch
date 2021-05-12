@@ -74,11 +74,3 @@ package = "netlify-plugin-hashfiles"
 
   # Directory where content-addressable files are moved and immutable cache-headers are set
   staticDir = "/static/"
-
-[[plugins]]
-package = "@algolia/netlify-plugin-crawler"
-  [plugins.inputs]
-  branches = ['*']
-  disabled = false
-  customDomain = "simeononsecurity.ch"
-  renderJavaScript = false
