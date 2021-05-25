@@ -12,6 +12,7 @@ tags: ['books', 'cybersecurity', 'best books for cyber security', 'best books fo
 ### Coding and Scripting and Automation:
 - [Automate the Boring Stuff with Python - Al Sweigart](https://amzn.to/334bQRa)
 - [Learn Windows PowerShell in a Month of Lunches - Donald W. Jones](https://amzn.to/2NKtuFf)
+- [Learn PowerShell Scripting in a Month of Lunches - Donald W. Jones](https://amzn.to/3vljZwq)
 - [Mastering Windows PowerShell Scripting](https://amzn.to/3bQ6qwA)
 - [PowerShell for Sysadmins - Adam Bertram](https://amzn.to/301qpTp)
 - [Practical Ansible 2 - Daniel Oh](https://amzn.to/332hwfo)
@@ -22,6 +23,7 @@ tags: ['books', 'cybersecurity', 'best books for cyber security', 'best books fo
 - [Blue Team Field Manual - Alan J White](https://amzn.to/30Z5il4)
 - [Building Secure and Reliable Systems - O'Reilly](https://amzn.to/303zj2R)
 - [Hash Crack - Joshua Picolet](https://amzn.to/3pRdEGG)
+- [PTFM: Purple Team Field Manual - Tim Bryant](https://amzn.to/3uoLhkA)
 - [Operator Handbook - Joshua Picolet](https://amzn.to/3fkWD2V)
 - [Red Team Field Manual - Ben Clark](https://amzn.to/2BBC3fp)
 - [Security Engineering - Ross Anderson](https://amzn.to/2MBMsNt)
