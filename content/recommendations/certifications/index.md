@@ -15,6 +15,9 @@ There are many Cyber and IT related certifications out there, but most are argue
 - [Books](https://simeononsecurity.ch/recommendations/books/)
 - [Training](https://simeononsecurity.ch/recommendations/learning_resources/)
 
+## Visualize:
+[Paul Jerimy has built an interactive certification roadmap you can check out here.](https://pauljerimy.com/security-certification-roadmap/)
+
 ## Certifications:
 ### Entry Level:
 **Note:** These certifications are for entry-level professionals. They are the baseline of a good IT/Cyber skill set. You should be very familiar with all the information required to get these certs at every level.
