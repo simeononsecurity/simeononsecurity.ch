@@ -11,4 +11,4 @@ Policy: https://github.com/simeononsecurity/simeononsecurity.ch/blob/master/SECU
 Canonical: https://simeononsecurity.ch/security.txt
 Canonical: https://simeononsecurity.ch/.well-known/security.txt
 
-Expires: Fri, 31 Dec 2021 13:37:37 -0500
+Expires: Fri, 31 Dec 2022 13:37:37 -0500
