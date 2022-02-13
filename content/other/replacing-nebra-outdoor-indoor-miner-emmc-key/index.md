@@ -25,12 +25,12 @@ tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Mi
 ![Nebra Indoor Miner](https://helium.nebra.com/media/photos/indoor/Indoor-internal-lights.png)
 ###
 ![Nebra Outdoor Miner](https://helium.nebra.com/media/photos/outdoor/Inside-Interfaces.jpg)
-    1.) 9-16V @ 15W DC 6.5MMx2.0MM Barrel Jack
-    2.) Ethernet Connector
-    3.) LED Indicator
-    4.) Interface Button
-    5.) 4G / LTE Module Connector
-    6.) Sim Card Slot
+- 1.) 9-16V @ 15W DC 6.5MMx2.0MM Barrel Jack
+- 2.) Ethernet Connector
+- 3.) LED Indicator
+- 4.) Interface Button
+- 5.) 4G / LTE Module Connector
+- 6.) Sim Card Slot
 
 ## How to replace the SD Card
 ### Step 1: Acquire the config.json file from the EMMC Key
