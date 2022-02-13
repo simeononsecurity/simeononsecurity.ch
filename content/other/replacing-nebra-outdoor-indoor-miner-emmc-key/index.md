@@ -25,21 +25,21 @@ tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Mi
 ![Nebra Indoor Miner](https://helium.nebra.com/media/photos/indoor/Indoor-internal-lights.png)
 ### Contents of the Nebra Outdoor Miner:
 ![Nebra Outdoor Miner](https://helium.nebra.com/media/photos/outdoor/Inside-Interfaces.jpg)
-- 1.) 9-16V @ 15W DC 6.5MMx2.0MM Barrel Jack
-- 2.) Ethernet Connector
-- 3.) LED Indicator
-- 4.) Interface Button
-- 5.) 4G / LTE Module Connector
-- 6.) Sim Card Slot
+ - 1.) 9-16V @ 15W DC 6.5MMx2.0MM Barrel Jack
+ - 2.) Ethernet Connector
+ - 3.) LED Indicator
+ - 4.) Interface Button
+ - 5.) 4G / LTE Module Connector
+ - 6.) Sim Card Slot
 
 ## How to replace the SD Card
 ### Step 1: Acquire the config.json file from the EMMC Key:
 - Download and install [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe), you'll need this to boot the compute module as a usb file system
 - Identify the and adjust jumper pins on the CM3 daughterboard for programming mode
  - ![Daughterboard Overview](https://helium.nebra.com/media/photos/outdoor/daughterboardBreakdown.png)
-  - 5.) Micro USB Port used for Imaging
-  - 7.) JP4 USB Jumper - Used to switch between normal operation and flash mode, ensure it is in position 1-2 for normal operation and 2-3 for programming.
-  - 8.) JP3 Power Jumper - Allows the module to be powered from the Micro USB connector. Only connect when programming from PC and ensure mainboard is not connected.
+   - 5.) Micro USB Port used for Imaging
+   - 7.) JP4 USB Jumper - Used to switch between normal operation and flash mode, ensure it is in position 1-2 for normal operation and 2-3 for programming.
+   - 8.) JP3 Power Jumper - Allows the module to be powered from the Micro USB connector. Only connect when programming from PC and ensure mainboard is not connected.
  - Move the JP4 Jumper to position 2+3
  - Plug in a usb cable and run the [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe) utility
  - Open your file explorer and you'll see a drive called "resin-boot". Retrieve the "config.json" file from the directory
