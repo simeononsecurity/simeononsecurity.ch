@@ -10,9 +10,9 @@ tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Mi
 # Replacing and Reimaging the Nebra Indoor and Outdoor EMMC Key / SD Card
 
 ## Required Tools:
-- Phillips Head or T8 bit screwdriver or allen key set for Nebra Outdoor Miner
+- A Phillips Head Screwdriver or [plastic pry bar](https://amzn.to/3rLXVfc) for the Nebra Indoor Miner or [allen key set](https://amzn.to/34SlnOS) for Nebra Outdoor Miner
 - Strong fingernails, tweezers, or needle-nose pliers to remove the old SD card
-- The ability to read/write a 64gb microSD card 
+- [A Micro SD Card Reader](https://amzn.to/3Jl3U0w)
 - [A 64gb (or larger) A2 micro sd card](https://amzn.to/3oJtTqs)
 - [A Micro USB 2.0 Cable](https://amzn.to/3LxXYmA)
 ## Required software:
