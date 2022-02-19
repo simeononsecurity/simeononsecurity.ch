@@ -45,7 +45,7 @@ docker run --detach --name watchtower --volume /var/run/docker.sock:/var/run/doc
 ```
 ### Creating the Syncing Script:
 Now we have the miner docker container setup, we'll need to set up syncing to and from your helium miners.
-Modify this script with your helium miners public IPv4 addresses;
+Modify this script with your helium miners public IPv4 addresses:
 ```bash
 docker exec miner miner peer connect /ip4/xxx.xxx.xxx.xxx/tcp/44158 
 
