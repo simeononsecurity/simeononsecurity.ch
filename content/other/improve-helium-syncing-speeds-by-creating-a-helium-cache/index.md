@@ -2,7 +2,7 @@
 title: "Improve Helium Syncing Speeds by Creating a Helium Blockchain Cache"
 draft: false
 toc: true
-description: "The helium network is experiencing multiple issues to include syncing. Implement this to improve things and increase your profitability."
+description: "The helium network is experiencing multiple issues, including syncing. Implement this to improve things and increase your profitability."
 tags: ['Fix Helium Miner Syncing Issues', 'Helium Miner', 'HNT', 'Fix Syncing Issues', 'Helium Blockchain', 'Docker', 'Docker Watchtower', 'Virtual Private Server', 'Cron', 'Cron Jobs']
 ---
 
