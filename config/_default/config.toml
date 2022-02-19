@@ -107,9 +107,9 @@ refLinksNotFoundURL = "simeononsecurity.ch"
   priority = 1
 
 [security]
-  enableInlineShortcodes = false
+  enableInlineShortcodes = true
   [security.exec]
-     allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+     allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
      osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
   [security.funcs]
     getenv = ['^HUGO_', '^WC_', 'babel']
