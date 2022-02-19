@@ -105,3 +105,14 @@ refLinksNotFoundURL = "simeononsecurity.ch"
   changefreq = "daily"
   filename = "sitemap.xml"
   priority = 1
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+     allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+  [security.funcs]
+    getenv = ['^HUGO_', '^WC_', 'babel']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
