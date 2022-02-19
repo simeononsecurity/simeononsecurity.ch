@@ -63,7 +63,7 @@ docker exec miner miner info summary
 ```
 then run ```nano ./miner_sync.sh``` paste your modified script and hit ```ctrl+x``` and ```y``` to save.
 
-### Setting Up the Cron Job
+### Setting Up the Cron Job:
 Now we need to set up a cron job to run this every 30 minutes at least. How long is up to you but use [Crontab Generator]() to figure out the cron syntax to change the interval if you'd like.
 
 Run the following command:
