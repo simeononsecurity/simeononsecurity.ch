@@ -2,8 +2,7 @@
 title: "Replacing and Reimaging the Nebra Indoor and Outdoor EMMC Key / SD Card"
 draft: false
 toc: true
-description: "In the event that your microSD card fails, here are the steps to re-flash it or
-replace it with a brand new one"
+description: "In the event that your microSD card fails, here are the steps to re-flash it or replace it with a brand new one"
 tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Miner Syncing Issues', 'Nebra', 'Nebra Indoor Miner', 'Nebra Outdoor Miner', 'Balena Etcher', 'Helium Miner', 'Raspberry Pi Compute Module 3', 'RPiBoot']
 ---
 
