@@ -25,11 +25,11 @@ If you need some help, check out the following resources to create a ubuntu VPS 
 
 ## Setting up the Hotspot Discord Status tool:
 ### Creating the Required Discord Webhook:
-    - [Discord - Intro to Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+ - [Discord - Intro to Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
 ### Finding the required Helium Hotspot name and Address:
-    - [Hotspotty](https://app.hotspotty.net/workspace/hotspots)
-    - [Helium Explorer](https://explorer.helium.com/)
+ - [Hotspotty](https://app.hotspotty.net/workspace/hotspots)
+ - [Helium Explorer](https://explorer.helium.com/)
 
 ### Installing the Required Software:
 - This will install the required software and files to set up your HDS deployment. Lastly it will open the ```config.json``` file that you'll need to paste your discord webhook url and your hotspot address in.
