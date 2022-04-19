@@ -37,7 +37,8 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 #Install the helium docker container
-docker run -d --env REGION_OVERRIDE=US915 --restart always --publish 1680:1680/udp --publish 44158:44158/tcp --name miner --mount type=bind,source=/root/miner_data,target=/var/data quay.io/team-helium/miner:latest-amd64_ 
+sudo mkdir /root/miner_data
+docker run -d --env REGION_OVERRIDE=US915 --restart always --publish 1680:1680/udp --publish 44158:44158/tcp --name miner --mount type=bind,source=/root/miner_data,target=/var/data quay.io/team-helium/miner:latest-amd64
 
 #Install Watchtower for auto docker container updates
 #https://github.com/containrrr/watchtower
