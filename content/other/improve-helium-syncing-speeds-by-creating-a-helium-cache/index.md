@@ -40,6 +40,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo mkdir /root/miner_data
 docker run -d --env REGION_OVERRIDE=US915 --restart always --publish 1680:1680/udp --publish 44158:44158/tcp --name miner --mount type=bind,source=/root/miner_data,target=/var/data quay.io/team-helium/miner:latest-amd64
 
+#Set the miner to auto restart when the host restarts
+sudo docker update --restart unless-stopped $(docker ps | grep miner | awk '{print $1}')
+
 #Install Watchtower for auto docker container updates
 #https://github.com/containrrr/watchtower
 docker run --detach --name watchtower --volume /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
