@@ -1,10 +1,10 @@
 ---
 title: "Today I Learned more Powershell and Ansible Modules"
-date: 2022-05-3
+date: 2022-05-03
 toc: true
 draft: false
 description: ""
-tags: [Automation, Compliance, Ansible, Ansible Playbooks, Ansible Collections, GitHub, RunAs, Invoke-Command, Start=Process, win_powershell, win_shell, psexec, win_psexec]
+tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'RunAs', 'Invoke-Command', 'Start-Process', 'win_powershell', 'win_shell', 'psexec', 'win_psexec']
 ---
 
 # Today I learned / Read About...
