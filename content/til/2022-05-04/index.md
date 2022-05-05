@@ -1,7 +1,7 @@
 ---
 
 title: "Today I Learned more about Ansible conditionals and variable management"
-date: 2021-05-04
+date: 2022-05-04
 toc: true
 draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
