@@ -4,7 +4,7 @@ date: 2022-05-2
 toc: true
 draft: false
 description: ""
-tags: [Automation, Compliance, Ansible, Ansible Playbooks, Ansible Collections, GitHub, Block, Rescue]
+tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'Block', 'Rescue', 'Always']
 ---
 
 # Today I learned / Read About...
