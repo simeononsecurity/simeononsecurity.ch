@@ -1,7 +1,7 @@
 ---
 
 title: "Today I Learned more about WDAC Policy Creation and Implementation"
-date: 2022-05-04
+date: 2022-05-18
 toc: true
 draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
