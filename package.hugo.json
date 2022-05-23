@@ -1,18 +1,53 @@
 {
-  "name": "hello-friend",
-  "version": "2.1.0",
-  "main": "index.js",
   "author": "Radosław Kozieł <@panr> <radoslaw.koziel@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "dev": "webpack --mode=development --watch",
-    "build": "webpack --mode=production"
-  },
   "browserslist": [
     "last 2 versions",
     ">1%",
     "not dead"
   ],
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@babel/cli": "project",
+      "@babel/core": "project",
+      "@babel/plugin-transform-runtime": "project",
+      "@babel/preset-env": "project",
+      "@babel/preset-stage-2": "project",
+      "babel-eslint": "project",
+      "babel-loader": "project",
+      "browserslist": "project",
+      "clean-webpack-plugin": "project",
+      "clipboard": "project",
+      "css-loader": "project",
+      "cssnano": "project",
+      "eslint-config-airbnb": "project",
+      "eslint-config-prettier": "project",
+      "eslint-plugin-jsx-a11y": "project",
+      "extract-text-webpack-plugin": "project",
+      "file-loader": "project",
+      "html-webpack-plugin": "project",
+      "husky": "project",
+      "mini-css-extract-plugin": "project",
+      "postcss": "project",
+      "postcss-browser-reporter": "project",
+      "postcss-cli": "project",
+      "postcss-import": "project",
+      "postcss-loader": "project",
+      "postcss-mixins": "project",
+      "postcss-nested": "project",
+      "postcss-preset-env": "project",
+      "postcss-reporter": "project",
+      "postcss-url": "project",
+      "prettier-eslint-cli": "project",
+      "ramda": "project",
+      "style-loader": "project",
+      "uglifyjs-webpack-plugin": "project",
+      "url-loader": "project",
+      "webpack": "project",
+      "webpack-cli": "project"
+    }
+  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
@@ -56,5 +91,13 @@
     "hooks": {
       "pre-push": "yarn build && git add . && git commit --amend --no-edit"
     }
-  }
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hello-friend",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --watch"
+  },
+  "version": "2.1.0"
 }
