@@ -133,6 +133,7 @@ code, kbd {
   border-radius: 5px;
   font-size: .9rem;
   font-weight: normal;
+  font-feature-settings: normal;
 
   code, kbd {
     background: transparent;
@@ -142,6 +143,7 @@ code, kbd {
 }
 
 pre {
+  font-feature-settings: normal;
   background: #212020;
   padding: 20px;
   border-radius: 8px;
@@ -154,6 +156,7 @@ pre {
   }
 
   code {
+    font-feature-settings: normal;
     background: none !important;
     color: #ccc;
     margin: 0;
@@ -190,7 +193,8 @@ blockquote {
   }
 }
 
-table {
+/* Fix for gist integration */
+table:not(.js-file-line-container) {
   table-layout: fixed;
   border-collapse: collapse;
   width: 100%;
@@ -198,7 +202,8 @@ table {
   border-radius: 5px;
 }
 
-table, th, td {
+/* Fix for gist integration */
+table, th, td:not(.js-line-number) {
   border: 1px solid;
   padding: 10px;
 }
@@ -266,4 +271,26 @@ blockquote.twitter-tweet {
   font-size: inherit;
   line-height: inherit;
   border-radius: 8px;
+}
+
+.h-anchor {
+  margin-left: 1px;
+  color: var(--color-secondary);
+  text-decoration: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.1s, opacity 0.1s linear;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.framed .h-anchor {
+  visibility: hidden;
 }

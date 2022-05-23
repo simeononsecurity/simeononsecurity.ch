@@ -33,29 +33,21 @@
     {{ if .Params.tags }}
       <span class="post-tags">
         {{ range .Params.tags }}
-          <a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">#{{ . }}</a>&nbsp;
+          <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/">#{{ . }}</a>&nbsp;
         {{ end }}
       </span>
     {{ end }}
 
     {{ if .Params.Cover }}
-      <figure class="post-cover">
-        {{ if .Params.UseRelativeCover }}
-          <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" />
-        {{ else }}
-          <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" />
-        {{ end }}
-
-        {{ if .Params.CoverCaption }}
-          <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
-        {{ end }}
-      </figure>
+      {{ partial "postcover.html" . }}
     {{ end }}
 
     <div class="post-content">
       {{ if or .Params.Toc $.Site.Params.Toc }}
+        {{ if ne .Params.Toc false }}
         <h2>Table of Contents</h2>
         <aside class="table-of-contents">{{ .TableOfContents }}</aside>
+        {{ end }}
       {{ end }}
       {{ .Content }}
     </div>
