@@ -1,9 +1,11 @@
+User-agent: ia_archiver
+Disallow: /
+User-agent: archive.org_bot
+Disallow: /
+
 User-agent: *
 Disallow: /admin
 Disallow: /404/
-
-User-agent: ia_archiver
-Disallow: /
 
 Sitemap: /sitemap.xml
 Sitemap: /index.xml
