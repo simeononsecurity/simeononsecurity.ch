@@ -1,6 +1,6 @@
 ---
 
-title: "Today I Learned how to Create Chocolatey Packages"
+title: "Today I Learned about Custom Windows Image Creation"
 date: 2023-01-30
 toc: true
 draft: false
