@@ -4,7 +4,7 @@ date: 2023-01-30
 toc: true
 draft: false
 description: "For those who seek to minimize their Windows 10 installs."
-tags: ['Automation', 'Windows Updates', 'Windows 10 Optimizations', 'Windows 10 Debloat', 'Windows 10', 'Powershell', 'Script', 'C#', 'C Sharp', 'GUI', 'Programming' ]
+tags: ['Automation', 'Windows Updates', 'Windows 10 Optimizations', 'Windows 10 Debloat', 'Windows 10', 'Powershell', 'Script', 'C Sharp', 'GUI', 'Programming' ]
 ---
 # Windows-Optimize-Harden-Debloat-GUI
 C# Based GUI for [Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
