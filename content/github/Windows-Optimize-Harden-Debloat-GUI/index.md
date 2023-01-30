@@ -1,6 +1,6 @@
 ---
 title: "GUI For Windows Optimize Harden Debloat Written in C#"
-date: 2023-1-30
+date: 2023-01-30
 toc: true
 draft: false
 description: "For those who seek to minimize their Windows 10 installs."
