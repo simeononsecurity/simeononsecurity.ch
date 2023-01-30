@@ -1,5 +1,5 @@
 ---
-title: "Optimize, Debloat, and Harden Windows 10 Deployments"
+title: "Optimize and Debloat Windows 10 Deployments"
 date: 2020-12-29
 toc: true
 draft: false
