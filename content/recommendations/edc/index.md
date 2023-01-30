@@ -2,9 +2,12 @@
 title: "Recommended Every Day Carry (EDC)"
 draft: false
 toc: true
-description: "SimeonOnSecurity's Recommended Every Day Carry (EDC)"
-tags: ['Recommendations']
+description: "SimeonOnSecurity's Recommended EDC is a comprehensive guide to the best and most essential tools for everyday carry. This guide includes recommendations for knives and blades, flashlights, watches, and pens, with different price points for each category. The list also includes extra items such as bags and backpacks, cases, sleeves, and protection, ensuring that you are fully prepared for anything that life may throw your way. Whether you're looking for a budget-friendly option or a high-end premium product, this guide has you covered."
+tags: ["Recommended Every Day Carry (EDC)", "SimeonOnSecurity's Recommended EDC", "Everyday carry", "Knives and blades", "Flashlights", "Watches", "Pens", "Bags and backpacks", "Cases", "Sleeves", "Protection", "Budget-friendly", "High-end premium product"]
 ---
+
+SimeonOnSecurity's Recommended EDC is a comprehensive guide to the best and most essential tools for everyday carry. This guide includes recommendations for knives and blades, flashlights, watches, and pens, with different price points for each category. The list also includes extra items such as bags and backpacks, cases, sleeves, and protection, ensuring that you are fully prepared for anything that life may throw your way. Whether you're looking for a budget-friendly option or a high-end premium product, this guide has you covered.
+
 The typical every day carry (EDC) consists of a few basic tools. Typically, those are a knife or blade, a flashlight, a watch, and a pen.
 I'll recommend a few in different price points within their categories with a few extras below.
 

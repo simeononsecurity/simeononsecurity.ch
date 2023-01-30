@@ -2,9 +2,11 @@
 title: "Recommended Anti-Virus"
 draft: false
 toc: true
-description: "SimeonOnSecurity's recommended Anti-Virus Products"
-tags: ['AV', 'Anti-Virus', 'AntiVirus', 'Recommended Anti-Virus']
+description: "This article provides a list of recommended anti-virus products for home and business use, as ranked by SimeonOnSecurity. The rankings are based on professional opinion and testing against malicious samples, and only cover anti-virus capabilities, detection, user experience, and performance. Windows users can choose from both paid and free options, while Linux and MacOS users have limited options, with paid options only available for Linux. Note that AV is not required on Linux or MacOS and using any VPN or password manager provided with the AV suite is not recommended. The article also provides recommendations for VPN providers. Business use recommendations are currently being worked on."
+tags: ["Recommended Anti-Virus", "AV", "Anti-Virus", "AntiVirus", "SimeonOnSecurity's recommended Anti-Virus Products", "VirusTotal", "AV capabilities", "detection", "user experience", "performance", "Linux", "MacOS", "VPN", "password manager", "VPNS", "Home Use", "Windows", "Paid", "Bitdefender - INTERNET SECURITY", "Avira - Antivirus Pro", "Avast Premium Security", "Free", "Bitdefender - Antivirus Free Edition", "Avira - Free Antivirus for Windows", "Avast - Free Antivirus", "Microsoft - Windows Defender", "Windows Defender Hardening", "Linux", "ESET NOD32 ANTIVIRUS FOR LINUX DESKTOP", "ClamAV", "MacOS", "Business Use"]
 ---
+
+This article provides a list of recommended anti-virus products for home and business use, as ranked by SimeonOnSecurity. The rankings are based on professional opinion and testing against malicious samples, and only cover anti-virus capabilities, detection, user experience, and performance. Windows users can choose from both paid and free options, while Linux and MacOS users have limited options, with paid options only available for Linux. Note that AV is not required on Linux or MacOS and using any VPN or password manager provided with the AV suite is not recommended. The article also provides recommendations for VPN providers. Business use recommendations are currently being worked on.
 
 Rankings are based on SimeonOnSecurity's professional opinion and basic testing against malicious samples provided by [VirusTotal](https://www.virustotal.com/gui/). These recommendations **do not** take into account vendors privacy policies or related practices and only cover the AV capabilities, detection, user experience, and performance.
 

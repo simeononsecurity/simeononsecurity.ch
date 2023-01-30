@@ -2,8 +2,8 @@
 title: "Recommended Learning Resources"
 draft: false
 toc: true
-description: "SimeonOnSecurity's Recommended Learning Resources"
-tags: ['Recommendations']
+description: "Discover the best IT, Cybersecurity, Networking, Operating Systems, and Programming & Scripting learning resources with SimeonOnSecurity's Recommendations. From free online platforms like Cybrary, Code.org, and CodeAcademy, to paid platforms like LinkedIn Learning, Pluralsight, and TryHackMe, you'll find a wide range of options to meet your learning goals. Enhance your skills in areas like Cisco, Juniper, Windows, VMware, and Red Hat with free training and certifications. Take your career to the next level with SimeonOnSecurity's top-rated learning resources."
+tags: ["Recommended Learning Resources", "SimeonOnSecurity's Recommendations", "IT", "Cybersecurity", "Networking", "Operating Systems", "Programming & Scripting", "Cybrary", "LinkedIn Learning", "Pluralsight", "Udemy", "CyberWarfare", "HackTheBox", "INE", "Immersive Labs", "Mosse Cyber Security Institute", "PenTesterLab", "TryHackMe", "Cisco", "Juniper", "Microsoft", "VMWare", "RedHat", "Code.org", "CodeAcademy", "Python Institute"]
 ---
 
 ## General Information Technology:

@@ -2,9 +2,12 @@
 title: "Recommended Browser Plugins"
 draft: false
 toc: true
-description: "SimeonOnSecurity's Recommended Browser Plugins"
-tags: ['U-Block Origin', 'HTTPS Everywhere', 'Decentraleyes', 'ClearURLs', 'CanvasBlocker', 'FireFox', 'Bitwarden', 'Recommendations']
+description: "Discover SimeonOnSecurity's recommended browser plugins to enhance your browsing experience. FireFox is the recommended daily-driver browser, but for enhanced privacy and security, you may also consider using the TOR Browser. The recommended plugins include U-Block Origin for ad blocking, HTTPS Everywhere for secure browsing, Decentraleyes for local CDN emulation, ClearURLs for tracking tag removal, CanvasBlocker for JavaScript fingerprint prevention, Multi Account Containers for isolated browsing sessions, Terms of Service, Didn't Read for informed ToS, Bitwarden for secure password management, and Privacy Badger to block trackers. Enhance your online privacy and security with these top-rated browser plugins."
+tags: ["U-Block Origin", "HTTPS Everywhere", "Decentraleyes", "ClearURLs", "CanvasBlocker", "FireFox", "Bitwarden", "Recommendations", "TOR Browser", "Open-Source AD blocker", "Local CDN Emulator", "JavaScript Fingerprinting", "Isolated Browser Sessions", "Shady ToS", "Secure Open-Source Cloud Password Manager", "Tracker Blocking"]
 ---
+
+Discover SimeonOnSecurity's recommended browser plugins to enhance your browsing experience. FireFox is the recommended daily-driver browser, but for enhanced privacy and security, you may also consider using the TOR Browser. The recommended plugins include U-Block Origin for ad blocking, HTTPS Everywhere for secure browsing, Decentraleyes for local CDN emulation, ClearURLs for tracking tag removal, CanvasBlocker for JavaScript fingerprint prevention, Multi Account Containers for isolated browsing sessions, Terms of Service, Didn't Read for informed ToS, Bitwarden for secure password management, and Privacy Badger to block trackers. Enhance your online privacy and security with these top-rated browser plugins.
+
 
 **Note:** The only daily-driver browser I recommend is FireFox. 
 Alternatively you should be using the TOR Browser. Do not install plugins in the TOR browser.

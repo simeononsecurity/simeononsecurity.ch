@@ -2,9 +2,11 @@
 title: "Recommended Organizations to Support"
 draft: false
 toc: false
-description: "SimeonOnSecurity's Recommended Organizations to Support"
-tags: ['Recommendations']
+description: "Get involved in protecting online privacy, freedom of expression, and democratic values by supporting the Electronic Privacy Information Center (EPIC) and Electronic Frontier Foundation (EFF). These organizations work tirelessly to safeguard your rights in the digital world. Your donation can help fund EFF’s lawyers, activists, and technologists in their efforts to defend human rights and liberties online. Join the cause today by visiting the links provided."
+tags: ["Recommendations", "Electronic Privacy Information Center", "EPIC", "Electronic Frontier Foundation", "EFF", "privacy", "freedom of expression", "democratic values", "mission", "civil liberties", "human rights", "attorneys", "activists", "technologists", "free expression", "digital creativity"]
 ---
+
+Get involved in protecting online privacy, freedom of expression, and democratic values by supporting the Electronic Privacy Information Center (EPIC) and Electronic Frontier Foundation (EFF). These organizations work tirelessly to safeguard your rights in the digital world. Your donation can help fund EFF’s lawyers, activists, and technologists in their efforts to defend human rights and liberties online. Join the cause today by visiting the links provided.
 
 - [Electronic Privacy Information Center - (EPIC)](https://donatenow.networkforgood.org/epic)
    - *EPIC works to protect privacy, freedom of expression, and democratic values.*

@@ -2,8 +2,8 @@
 title: "Recommended Security Content Creators"
 draft: false
 toc: true
-description: "SimeonOnSecurity's Recommended Security Content Creators"
-tags: ['Recommendations']
+description: "Discover top-notch security content creators handpicked by SimeonOnSecurity. From ippSec to John Hammond, LiveOverflow, NahamSec, Rob Fuller, and TheBlindHacker, these experts bring you the latest in the field through their various platforms including YouTube, Twitch, Twitter, GitHub, and websites. Stay up-to-date and deepen your knowledge with the best in the industry."
+tags: ["Recommendations", "Security Content Creators", "SimeonOnSecurity", "ippSec", "John Hammond", "LiveOverflow", "NahamSec", "Rob Fuller", "TheBlindHacker", "YouTube", "Twitter", "Twitch", "GitHub", "Website"]
 ---
 
 **Note:** Check out [SecurityCreators](https://securitycreators.video/) if you like this page. This list only includes people actively watched by SimeonOnSecurity.

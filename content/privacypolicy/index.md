@@ -2,7 +2,7 @@
 title: "Privacy Policy"
 date: 2020-08-08T15:24:07-05:00
 draft: false
-description: "Privacy Policy for SimeonOnSecurity"
+description: "The Privacy Policy for SimeonOnSecurity outlines the types of information collected from visitors and how it is used. The policy only applies to online activities and is valid for website visitors. By using the site, visitors consent to the policy. Personal information collected may include contact information, messages, and data related to website usage. This information is used to operate and maintain the site, improve and personalize the user experience, and for communication and marketing purposes. SimeonOnSecurity also uses cookies and web beacons, and partners with Google for advertising. The policy explains the use of log files and third-party privacy policies."
 ---
 
 # Privacy Policy for SimeonOnSecurity<

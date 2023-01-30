@@ -3,7 +3,7 @@ title: "Terms and Conditions"
 date: 2020-08-08T15:31:48-05:00
 draft: false
 toc: true
-description: "Terms and Conditions"
+description: "SimeonOnSecurity provides a website dedicated to security information and updates. By accessing the site, users agree to our terms and conditions, which outline rules for using the site, including our use of cookies in accordance with our Privacy Policy. Intellectual property rights are reserved, and users must not republish or reproduce content from the site. We reserve the right to monitor and remove inappropriate comments, and grant a license to use comments posted on the site. Certain organizations may link to our site without prior approval, while others may be considered and approved by SimeonOnSecurity. Visit our website for more information."
 tags: ['Terms and Conditions']
 ---
 

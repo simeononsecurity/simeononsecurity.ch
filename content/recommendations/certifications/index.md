@@ -2,8 +2,11 @@
 title: "Recommended Certifications"
 draft: false
 toc: true
-description: "SimeonOnSecurity's Recommended Certifications"
+description: "SimeonOnSecurity recommends top Cyber and IT certifications for those looking to enter the job force. The list includes certifications from CompTIA, Cisco, EC-Council, ISC^2, Juniper, Microsoft, and Offensive Security, with different levels of expertise - Entry, Associate, Professional, and Expert. All certifications listed are directly related to positions in Cyber and will greatly benefit the candidate. Check out the interactive certification roadmap for a visual representation. Learning resources such as books and training are also available."
+tags: ["Cyber and IT certifications", "CompTIA", "Cisco", "EC-Council", "ISC^2", "Juniper", "Microsoft", "Offensive Security", "entry-level professionals", "IT/Cyber skill set", "Security", "Linux", "CySA", "CCNA", "JNCIA", "CEH", "MCSA", "CCNP Enterprise", "CASP", "CISSP", "JNCIP-SP", "OSCP", "RHCSA", "recommendations", "books", "training", "interactive certification roadmap"]
 ---
+
+SimeonOnSecurity recommends top Cyber and IT certifications for those looking to enter the job force. The list includes certifications from CompTIA, Cisco, EC-Council, ISC^2, Juniper, Microsoft, and Offensive Security, with different levels of expertise - Entry, Associate, Professional, and Expert. All certifications listed are directly related to positions in Cyber and will greatly benefit the candidate. Check out the interactive certification roadmap for a visual representation. Learning resources such as books and training are also available.
 There are many Cyber and IT related certifications out there, but most are argueably a waste of time over others. Some will enable you to land a job, while others wont. This list consists of the certifications that SimeonOnSecurity recommends for those seeking to enter the IT and CyberSecurity job force.
 
 **Notes:**
