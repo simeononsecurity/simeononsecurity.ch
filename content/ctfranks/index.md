@@ -2,8 +2,8 @@
 title: "CTF Ranks"
 draft: false
 toc: true
-description: "SimeonOnSecurity's rankings for CTFs and other Various Challenges"
-tags: ['CTF', 'CTF Rankings', 'Capture the Flag', 'Competition', 'Challenges', 'Rankings']
+description: "SimeonOnSecurity's CTF Rankings Log tracks the performance of various CTFs and other challenges. The log provides detailed information about the placement of the team and individuals in different challenges such as the LockHeed Martin Cyber Grand Challenge, National Cyber League, and Cipher Tech Challenge. Stay up-to-date with the latest rankings in the world of CTFs and challenges with SimeonOnSecurity's CTF Rankings Log."
+tags: ["CTF Rankings", "CTF", "Capture the Flag", "Competition", "Challenges", "Rankings", "SimeonOnSecurity", "LockHeed Martin Cyber Grand Challenge", "National Cyber League", "Cipher Tech Challenge", "Performance", "Placement", "Team", "Individual", "2020", "2021"]
 ---
 # CTF Rankings Log:
 ### 2020
