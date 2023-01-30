@@ -2,11 +2,13 @@
 title: "HackTheBox - Invite Challenge (Windows/Linux)"
 draft: false
 toc: true
-description: "To create an account on HackTheBox (HTB) you have to complete the invite challenge, or hack yourself the way in. Don't worry though it isn't hard and this article will aid you incompleting the challenge."
-tags: ['HackTheBox', 'Invite Challenge', 'Invite', 'HackTheBox Invite Challenge', 'HTB Invite Challenge', 'Windows', 'Linux']
+description: "Get step by step instructions to complete the HackTheBox invite challenge on Windows or Linux. Learn how to generate an invite code and join the online platform to test and advance your skills in penetration testing and cyber security. The article presents both simple and advanced solutions, making it easy for users of all levels to complete the challenge and gain access to the platform."
+tags: [HackTheBox", "Invite Challenge", "Invite", "HackTheBox Invite Challenge", "HTB Invite Challenge", "Windows", "Linux", "Penetration Testing", "Cyber Security", "Online Platform", "Join HackTheBox", "HTTP POST", "Invite Code", "Base64 Encoded", "Powershell", "Linux Bash", "Base64 Decode", "Invite Code Generation"]
 ---
 
 # HackTheBox - Invite Challenge (Windows/Linux)
+
+Get step by step instructions to complete the HackTheBox invite challenge on Windows or Linux. Learn how to generate an invite code and join the online platform to test and advance your skills in penetration testing and cyber security. The article presents both simple and advanced solutions, making it easy for users of all levels to complete the challenge and gain access to the platform.
 
 ## What is Hack the Box ?
 

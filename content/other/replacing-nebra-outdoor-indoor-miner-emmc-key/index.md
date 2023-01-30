@@ -2,11 +2,14 @@
 title: "Replacing and Reimaging the Nebra Indoor and Outdoor EMMC Key / SD Card"
 draft: false
 toc: true
-description: "In the event that your microSD card fails, here are the steps to re-flash it or replace it with a brand new one"
-tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Miner Syncing Issues', 'Nebra', 'Nebra Indoor Miner', 'Nebra Outdoor Miner', 'Balena Etcher', 'Helium Miner', 'Raspberry Pi Compute Module 3', 'RPiBoot']
+description: "This article provides a step-by-step guide to replace or re-flash the Nebra Indoor and Outdoor EMMC Key/SD Card. Tools required include a Phillips Head Screwdriver/Allen Key Set, Micro SD Card Reader, 64gb A2 micro sd card, and a Micro USB 2.0 Cable. Required software includes Balena Etcher, Balena Raspberry Pi Image, and Raspberry Pi USB Boot. The guide covers the process of acquiring the config.json file from the EMMC Key, flashing the new sd card with the Balena Raspberry Pi CM3 Image, and copying the original config file to the new sd card. This article will be helpful for fixing Helium Miner syncing issues."
+tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Miner Syncing Issues', 'Nebra', 'Nebra Indoor Miner', 'Nebra Outdoor Miner', 'Balena Etcher', 'Helium Miner', 'Raspberry Pi Compute Module 3', 'RPiBoot', 'Upgrading Nebra Helium Miners SD Card
+', 'SD Card Replacement for Helium Miner', 'Resolving Synchronization Issues with Nebra Miner', 'Nebra Mining Equipment', 'Using Balena Etcher for SD Card Flashing', 'Helium Mining with Nebra Miner', 'Raspberry Pi Compute Module 3 in Helium Mining', 'RPiBoot for Raspberry Pi-based Mining']
 ---
 
 # Replacing and Reimaging the Nebra Indoor and Outdoor EMMC Key / SD Card
+
+This article provides a step-by-step guide to replace or re-flash the Nebra Indoor and Outdoor EMMC Key/SD Card. Tools required include a Phillips Head Screwdriver/Allen Key Set, Micro SD Card Reader, 64gb A2 micro sd card, and a Micro USB 2.0 Cable. Required software includes Balena Etcher, Balena Raspberry Pi Image, and Raspberry Pi USB Boot. The guide covers the process of acquiring the config.json file from the EMMC Key, flashing the new sd card with the Balena Raspberry Pi CM3 Image, and copying the original config file to the new sd card. This article will be helpful for fixing Helium Miner syncing issues.
 
 ## Required Tools:
 - A Phillips Head Screwdriver or [plastic pry bar](https://amzn.to/3rLXVfc) for the Nebra Indoor Miner or [allen key set](https://amzn.to/34SlnOS) for Nebra Outdoor Miner

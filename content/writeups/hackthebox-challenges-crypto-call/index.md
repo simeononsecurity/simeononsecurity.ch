@@ -2,11 +2,13 @@
 title: "HackTheBox - Challenges - Crypto - Call"
 date: 2020-10-07T18:31:06-05:00
 draft: false
-description: "Writeup - HackTheBox - Challenges - Crypto - Call"
-tags: ['HackTheBox', 'Challenges', 'Crypto', 'Call', 'DTMF', 'Prime Numbers']
+description: "Solve the Crypto - Call challenge on HackTheBox by decoding the DTMF tones in the sound.mp3 file. Convert the file to .wav and use DialABC to get the cipher text. Separate the numbers and use the prime number cipher on Decode.fr to reveal the flag. Get ready to put your skills in prime number cipher to the test in this exciting challenge on HackTheBox."
+tags: ["HackTheBox", "Challenges", "Crypto", "Call", "DTMF", "Prime Numbers", "Writeup", "MP3 File", "Frequency", "Numbers", "Pay Phone", "Automated Teller Menus", "Convert", "WAV", "Audacity", "Sonic Visualizer", "HEX", "Mathematical Trait", "Prime Number Cipher", "Decode.fr", "Cipher Text", "Flag"]
 toc: true
 ---
 # HackTheBox - Challenges - Crypto - Call
+
+Solve the Crypto - Call challenge on HackTheBox by decoding the DTMF tones in the sound.mp3 file. Convert the file to .wav and use DialABC to get the cipher text. Separate the numbers and use the prime number cipher on Decode.fr to reveal the flag. Get ready to put your skills in prime number cipher to the test in this exciting challenge on HackTheBox."
 
 ## Provided Files:
 

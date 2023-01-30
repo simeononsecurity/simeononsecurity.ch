@@ -2,12 +2,14 @@
 title: "HackTheBox - Challenges - Crypto - Bank Heist"
 date: 2020-10-07T18:31:06-05:00
 draft: false
-description: "Writeup - HackTheBox - Challenges - Crypto - Bank Heist"
+description: "A comprehensive guide to solving the "Bank Heist" Crypto challenge on HackTheBox. The challenge involves decoding a T9 or Multitap cipher text using Decode.fr and an atbash cipher text using CyberChef to reveal the flag. A must-read for aspiring cyber security professionals and anyone looking to enhance their skills in cryptography."
 tags: ['HackTheBox', 'Challenges', 'Crypto', 'Call', 'Bank Heist', 'Multitap', 'Atbash']
 toc: true
 ---
 
 # HackTheBox - Challenges - Crypto - Bank Heist
+
+A comprehensive guide to solving the "Bank Heist" Crypto challenge on HackTheBox. The challenge involves decoding a T9 or Multitap cipher text using Decode.fr and an atbash cipher text using CyberChef to reveal the flag. A must-read for aspiring cyber security professionals and anyone looking to enhance their skills in cryptography.
 
 ## Provided Files:
 

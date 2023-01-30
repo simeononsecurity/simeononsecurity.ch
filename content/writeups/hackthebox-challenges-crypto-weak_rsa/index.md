@@ -1,14 +1,14 @@
 ---
 title: "HackTheBox - Challenge - Crypto - Weak RSA"
 draft: false
-description: "Solve the HTB Weak RSA Crypto, an easy challenge based on the RSA cipher."
-tags: ['HackTheBox', 'Challenges', 'Crypto', 'Weak RSA', 'RsaCtfTool']
+description: "Solve the HTB Weak RSA Crypto challenge with ease. Based on the RSA cipher, this easy challenge requires the use of an automated RSA attack tool like the RsaCtfTool. Get the flag with a simple command and expand your crypto skills with HackTheBox challenges."
+tags: ["HackTheBox", "Challenges", "Crypto", "Weak RSA", "RsaCtfTool", "HTB Weak RSA Crypto", "Easy challenge", "RSA cipher", "flag.enc", "key.pub", "OpenSSL package", "automated RSA attack tool", "python script", "RsaCtfTool", "python3", "public key", "uncipherfile", "Flag Example"]
 toc: true
 ---
 
 # HackTheBox - Challenge - Crypto - Weak RSA
 
-The HTB "Weak RSA" Crypto is an easy challenge based on the RSA cipher.
+Solve the HTB Weak RSA Crypto challenge with ease. Based on the RSA cipher, this easy challenge requires the use of an automated RSA attack tool like the RsaCtfTool. Get the flag with a simple command and expand your crypto skills with HackTheBox challenges.
 
 ## Provided Files:
 
