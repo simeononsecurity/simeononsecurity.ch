@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox - Challenges - Crypto - Decode"
-date: 2020-10-07T16:57:03-05:00
+date: 2020-10-07
 draft: false
 description: "Get a detailed walk-through of the HackTheBox Crypto Decode challenge. Given two strings of information, this article guides you through the process of decoding a Fernet cypher and a Malboge cipher to reveal the flag. Utilize tools provided by asecuritysite.com and base64decode.org to achieve the solution."
 tags: [HackTheBox", "Challenges", "Crypto", "Decode", "Writeup", "Fernet Cipher", "Base64 Decode", "Malboge Cipher", "Flag"]
