@@ -2,9 +2,9 @@
 title: "HackTheBox - Challenges - Crypto - Bank Heist"
 date: 2020-10-07
 draft: false
-description: "A comprehensive guide to solving the "Bank Heist" Crypto challenge on HackTheBox. The challenge involves decoding a T9 or Multitap cipher text using Decode.fr and an atbash cipher text using CyberChef to reveal the flag. A must-read for aspiring cyber security professionals and anyone looking to enhance their skills in cryptography."
-tags: ['HackTheBox', 'Challenges', 'Crypto', 'Call', 'Bank Heist', 'Multitap', 'Atbash']
 toc: true
+description: "A comprehensive guide to solving the Bank Heist Crypto challenge on HackTheBox. The challenge involves decoding a T9 or Multitap cipher text using Decode.fr and an atbash cipher text using CyberChef to reveal the flag. A must-read for aspiring cyber security professionals and anyone looking to enhance their skills in cryptography."
+tags: ['HackTheBox', 'Challenges', 'Crypto', 'Call', 'Bank Heist', 'Multitap', 'Atbash']
 ---
 
 # HackTheBox - Challenges - Crypto - Bank Heist
@@ -23,22 +23,25 @@ For this challenge you're provided with the following cipher text:
 
 ## Walk Through:
 
-Very clearly, this is either a T9 or Multitap cipher.   
+Very clearly, this is either a T9 or Multitap cipher.  
 Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
 
 You'll get this plain text:
+
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 What is that junk at the end you might ask? Well it's actually an atbash cipher text.
+
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
-We'll use [CyberChef](https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X) to decipher one more time.  Then you have your flag. Whoot!
+
+We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
 
 ### Flag Example:
+
 ```
 HTB{XXXXXXXXXXXXXXXXX}
 ```
-
