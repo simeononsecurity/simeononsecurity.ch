@@ -10,7 +10,12 @@ draft: false
 <p> You may follow our <a href="https://simeononsecurity.com/sitemap.xml">RSS feed</a>, our <a href="https://github.com/simeononsecurity">GitHub</a>, our <a href="https://twitter.com/SimeonSecurity">Twitter</a>,or our <a href="https://discord.gg/dcCyuMkY">Discord</a> at this time.</p>
 
 <h3>Contact Form</h3>
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
+  </p>
   <p>
     <label>Name: <input type="text" name="name" /></label>   
   </p>
