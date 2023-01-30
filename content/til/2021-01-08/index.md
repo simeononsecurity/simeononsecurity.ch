@@ -10,6 +10,14 @@ tags: []
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
+Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.
+
+In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.
+
+SimeonOnSecurity also updated multiple repositories, including setup-scripts, Windows-Optimize-Harden-Debloat, and Windows-Optimize-Debloat. These repositories contain scripts and tools to optimize, harden, and debloat Windows systems.
+
+In addition, SimeonOnSecurity watched a number of videos related to information security and found them interesting. These videos include BHIS - Talkin' Bout News 2021-01-06, Crosstalk Solutions - Cloud Key Firmware v2.0.24 - Major Update!, Hak5 - Burn-in Test Payloads, Hak5 - The 3 (or 4) P's of Post Exploitation, Null Byte - One Way Hackers Can Perform Keystroke Injection Over Wi-Fi from a Smartphone, and The Linux Experiment - elementary OS is MORE than a Linux distribution.... These videos provide information on various topics in the field of information security and showcase new tools, techniques, and ideas in the industry.
+
 ## NTFS Tweaks
 - [PonderWorthy](https://notes.ponderworthy.com/fsutil-tweaks-for-ntfs-performance-and-reliability)
 

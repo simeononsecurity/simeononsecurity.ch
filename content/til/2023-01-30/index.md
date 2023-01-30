@@ -10,6 +10,14 @@ tags: ['Sysprep', 'NTLite', 'Generalization', 'Custom Images', 'Custom Windows I
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
+Today, SimeonOnSecurity learned about the process of capturing and applying Windows 10 images using DISM, a command-line tool used to manage Windows images. To capture an image, one can use the Sysprep tool to generalize the installation, which removes hardware-specific information and prepares the image for deployment on multiple devices.
+
+SimeonOnSecurity was introduced to various resources that provide information on capturing and applying Windows images, including Microsoft's Learn website and the WinCustom repository on GitHub. The Microsoft resources cover the basics of capturing and applying a Windows image using a single .WIM file, creating bootable Windows PE media, and generalizing a Windows installation with Sysprep.
+
+Additionally, SimeonOnSecurity learned about NTLite, a software that allows for customization and optimization of Windows images. NTLite can be used to remove unnecessary components from a Windows image, saving disk space and improving performance.
+
+Overall, SimeonOnSecurity's research today provided a comprehensive understanding of the process of capturing and applying Windows images.
+
 ## Repos Created/Updated:
 - None / N/A
 

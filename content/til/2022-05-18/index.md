@@ -10,6 +10,14 @@ tags: ['Automation', 'WDAC', 'Application Control', 'Windows Defender Applicatio
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
+Today, SimeonOnSecurity updated his repository Windows-Defender-Application-Control-Hardening and learned about Windows Defender Application Control (WDAC), a feature of Windows 10 Enterprise and Windows Server 2019 that provides security by controlling what is executed on a device.
+
+SimeonOnSecurity delved into the Microsoft documentation on WDAC and discovered several key resources for creating and deploying policies. He learned about how to create a WDAC policy for fixed-workload devices using a reference computer, how to deploy WDAC policies using script, and how to use multiple policies for different scenarios.
+
+Additionally, SimeonOnSecurity gained insight into the guidance on creating WDAC deny policies, allowing him to better understand the concept of allowing only trusted applications to run on a device, while denying all others.
+
+Overall, SimeonOnSecurity's exploration into Windows Defender Application Control further solidified his understanding of the importance of application control in modern security practices.
+
 ## Repos Updated:
 - [simeononsecurity/Windows-Defender-Application-Control-Hardening](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening)
 

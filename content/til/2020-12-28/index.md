@@ -10,6 +10,12 @@ tags: []
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
+SimeonOnSecurity recently learned about two topics in the field of computer security: CVE-2020-17049, also known as the Kerberos Bronze Bit Attack, and Windows Token-Based Activation.
+
+The Kerberos Bronze Bit Attack, as explained in a series of blog posts by Netspi and in a post by Trimarcsecurity, is a vulnerability in the Kerberos authentication protocol. This vulnerability could potentially allow an attacker to compromise an Active Directory, which is a central repository for information about an organization's users, computers, and other resources. The deployment of Kerberos S4U changes to address this vulnerability is discussed in a Microsoft support article.
+
+Windows Token-Based Activation is a method of activating Windows products, as described in a Microsoft documentation article. The activation process is performed through the SLMGR.vbs script, as explained in a comprehensive article on ss64.com. A forum post on Microsoft Technet provides more information about Windows 10 Enterprise Token Based Activation.
+
 ## CVE-2020-17049 - Kerberos Bronze Bit Attack:
 - [CVE-2020-17049](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-17049)
 - [CVE-2020-17049: Kerberos Bronze Bit Attack – Practical Exploitation](https://blog.netspi.com/cve-2020-17049-kerberos-bronze-bit-attack/)

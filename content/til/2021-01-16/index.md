@@ -10,6 +10,13 @@ tags: []
 # Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
+Today, SimeonOnSecurity completed multiple defensive and offensive labs on ImmersiveLabs. They also watched videos about the following topics:
+
+UniFi Protect G3 Instant - Unboxing, review, and comparison (Crosstalk Solutions)
+Pirates, Crypto, and the Secret History of Windows Product Activation (Dave's Garage)
+The release of a new CPU (LinusTechTips)
+Why someone moved to UniFi Protect (TechnoTim)
+
 ## ImmersiveLabs:
 - [Completed multiple Defensive and Offensive Labs](https://www.immersivelabs.com/)
 
