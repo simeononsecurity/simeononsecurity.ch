@@ -1,8 +1,8 @@
 <figure class="post-cover">
   {{ if .Params.UseRelativeCover }}
-    <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+    <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" loading="lazy"/>
   {{ else }}
-    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" loading="lazy"/>
   {{ end }}
 
   {{ if .Params.CoverCaption }}

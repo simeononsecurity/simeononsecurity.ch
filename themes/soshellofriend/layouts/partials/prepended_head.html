@@ -9,7 +9,7 @@ put it in /layouts/partials/prepended_head.html. Do not put anything in this fil
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:website" content="{{ .Permalink }}" />
-<meta property="og:image" content="https://simeononsecurity.ch/img/banner.png">
+<meta property="og:image" content="{{ img/banner.png | absURL }}">
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
 {{ end }}
@@ -80,7 +80,7 @@ put it in /layouts/partials/prepended_head.html. Do not put anything in this fil
 <meta name="msapplication-TileColor" content="#141414" />
 <meta name="msapplication-tap-highlight" content="no" />
 <meta name="revisit-after" content="1 days" />
-<meta name="robots" content="index, follow, noarchive, notranslate, max-snippet:20, max-image-preview:large"
+<meta name="robots" content="index, follow, noarchive, notranslate, max-snippet:60, max-image-preview:large"
     content="all" />
 <meta name="theme-color" content="#141414" />
 <meta name="url" content="{{ .Permalink }}" />
