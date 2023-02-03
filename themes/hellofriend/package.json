@@ -26,7 +26,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "clipboard": "^2.0.4",
     "css-loader": "^6.5.1",
-    "cssnano": "^5.0.8",
+    "cssnano": "^5.1.14",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
