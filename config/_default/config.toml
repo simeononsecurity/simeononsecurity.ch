@@ -24,7 +24,7 @@ refLinksNotFoundURL = "simeononsecurity.ch"
 
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "writeups"
+  contentTypeName = "articles"
   contentdir = "content"
 
   # "light" or "dark"
@@ -42,10 +42,9 @@ refLinksNotFoundURL = "simeononsecurity.ch"
 
   # Show full page content in RSS feed items
   #(default is Description or Summary metadata in the front matter)
-  rssFullText = true
+  rssFullText = false
 
   logo = "/img/favicon.png"
-
   copyright = "SimeonOnSecurity"
 
 [languages]
