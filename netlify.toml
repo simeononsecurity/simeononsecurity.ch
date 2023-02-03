@@ -17,21 +17,21 @@ NODE_VERSION = "16.15.0"
   [headers.values]
   	Access-Control-Allow-Origin = "https://simeononsecurity.ch https://simeononsecurity.com" 
 	Cache-Control = "Public, no-transform, max-age=31536000"
-	Expect-Ct = "enforce, max-age=300, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
-	#Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none', camera 'none', display-capture 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none; publickey-credentials-get 'none; usb 'none'; vr 'none'; wake-lock 'none'; xr-spatial-tracking 'none'"
-	Permissions-Policy = "microphone=(),geolocation=(),vr=(),usb=(),accelerometer=(),display-capture=(),gyroscope=(),magnetometer=(),midi=(),payment=(),sync-xhr=(self)"
-	Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+	Expect-Ct = "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
+	Feature-Policy: "microphone 'none'; geolocation 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none'; camera 'none'; display-capture 'none'; gyroscope 'none'; magnetometer 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; usb 'none'; vr 'none'; wake-lock 'none'; xr-spatial-tracking 'none'"
+	Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), vr=(), wake-lock=(), ambient-light-sensor=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), speaker=(), xr-spatial-tracking=()"
+	Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 	Upgrade-Insecure-Requests = "1"
-	Referrer-Policy	= "no-referrer"
+	Referrer-Policy	= "strict-origin"
 	X-DNS-Prefetch-Control = "off"
 	X-Content-Type-Options = "nosniff"
 	X-Frame-Options	= "DENY"
 	#X-Robots-Tag  = "noindex, nofollow, noarchive, notranslate, nosnippet, unavailable_after: 2020-09-21"
-	X-Robots-Tag  = "index, follow, noarchive, notranslate, max-snippet:20, max-image-preview:large"
+	X-Robots-Tag  = "index, follow, noarchive, notranslate, max-snippet:60, max-image-preview:large"
 	X-Xss-Protection = "1; mode=block"
   	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: https://raw.githubusercontent.com *; frame-src https: data:; upgrade-insecure-requests; frame-ancestors 'none'"
 	Cross-Origin-Opener-Policy-Report-Only = 'unsafe-none; report-to="default"'
-	Cross-Origin-Opener-Policy = "unsafe-none"
+	Cross-Origin-Opener-Policy = 'unsafe-none; report-to="default"'
 	Cross-Origin-Embedder-Policy-Report-Only = 'unsafe-none; report-to="default"'
 	Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
 	Cross-Origin-Resource-Policy = "cross-origin"
@@ -40,17 +40,17 @@ NODE_VERSION = "16.15.0"
 [[headers]]
   for = "/img/*"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, immutable, s-max-age=604800, max-age=2592000"
 
 [[headers]]
   for = "/*.css"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, immutable, s-max-age=604800, max-age=2592000"
 
 [[headers]]
   for = "/*.js"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, immutable, s-max-age=604800, max-age=2592000"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
