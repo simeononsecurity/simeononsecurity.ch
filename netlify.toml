@@ -67,8 +67,3 @@ NODE_VERSION = "18.14.0"
 
 [[plugins]]
 package = "netlify-plugin-image-optim"
-
-[[redirects]]
-	from = "/*"
-	to = "/404/"
-	status = 404
