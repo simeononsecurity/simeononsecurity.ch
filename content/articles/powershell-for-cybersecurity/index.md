@@ -1,5 +1,5 @@
 ---
-title: "Unleashing the Power of PowerShell for Enhanced Cybersecurity Operations and Compliance"
+title: "The Power of PowerShell for Enhanced Cybersecurity Operations and Compliance"
 date: 2020-02-02
 toc: true
 draft: false
