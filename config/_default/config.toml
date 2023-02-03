@@ -10,6 +10,7 @@ enableEmoji = true
 relativeURLs = true
 enableGitInfo = true
 refLinksNotFoundURL = "simeononsecurity.ch"
+disqusShortname = simeononsecurity
 
 [Author]
   name = "SimeonOnSecurity"
