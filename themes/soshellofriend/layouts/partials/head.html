@@ -9,8 +9,12 @@
   content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="{{ .Permalink }}" />
 <meta name="theme-color" content="#000000"/>
+{{ if .Params.canonicalUrl }}
+<link rel="canonical" href="{{ .Params.canonicalUrl }}">
+{{ else }}
+<link rel="canonical" href="{{ .RelPermalink }}">
+{{ end }}
 
 <!-- head custom -->
 {{- partial "prepended_head.html" . }}
