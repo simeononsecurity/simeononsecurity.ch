@@ -16,9 +16,9 @@
 {{- partial "prepended_head.html" . }}
 
 <!-- Theme CSS -->
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" defer/>
 <!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
+<link rel="stylesheet" href="{{ "style.css" | absURL }} defer" />
 
 <!-- Icons -->
 <link
