@@ -15,9 +15,7 @@
 {{- partial "prepended_head.html" . }}
 
 <!-- Theme CSS -->
-{{ $res := resources.Get "css/style.scss" }}
-{{ $style := $res | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" defer/>
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" defer/>
 <!-- Custom CSS to override theme properties (/static/style.css) -->
 <link rel="stylesheet" href="{{ "style.css" | absURL }}" defer/>
 
