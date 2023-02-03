@@ -30,11 +30,11 @@ NODE_VERSION = "16.15.0"
 	X-Robots-Tag  = "index, follow, noarchive, notranslate, max-snippet:20, max-image-preview:large"
 	X-Xss-Protection = "1; mode=block"
   	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: https://raw.githubusercontent.com *; frame-src https: data:; upgrade-insecure-requests; frame-ancestors 'none'"
-	Cross-Origin-Opener-Policy-Report-Only = '(same-origin|same-origin-allow-popups|unsafe-none); report-to="default"'
-	Cross-Origin-Opener-Policy = "same-origin"
-	Cross-Origin-Embedder-Policy-Report-Only = '(unsafe-none|require-corp); report-to="default"'
-	Cross-Origin-Embedder-Policy = 'same-origin; report-to="default"'
-	Cross-Origin-Resource-Policy = "same-origin"
+	Cross-Origin-Opener-Policy-Report-Only = 'unsafe-none; report-to="default"'
+	Cross-Origin-Opener-Policy = "unsafe-none"
+	Cross-Origin-Embedder-Policy-Report-Only = 'unsafe-none; report-to="default"'
+	Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
+	Cross-Origin-Resource-Policy = "cross-origin"
 	Server = "simeononsecurity"
 
 [[headers]]
