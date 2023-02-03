@@ -1,5 +1,5 @@
 ---
-title: "Unleash the Power of Cybersecurity: How to Build a Compliant & Secure Windows System with Standalone-Windows-STIG-Script"
+title: "The Power of Cybersecurity: How to Build a Compliant & Secure Windows System with Standalone-Windows-STIG-Script"
 date: 2020-02-02
 toc: true
 draft: false
