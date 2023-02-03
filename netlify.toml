@@ -34,7 +34,7 @@ NODE_VERSION = "16.15.0"
 	Cross-Origin-Opener-Policy = "same-origin"
 	Cross-Origin-Embedder-Policy-Report-Only = '(unsafe-none|require-corp); report-to="default"'
 	Cross-Origin-Embedder-Policy = 'same-origin; report-to="default"'
-	Cross-Origin-Resource-Policy: "same-origin"
+	Cross-Origin-Resource-Policy = "same-origin"
 	Server = "simeononsecurity"
 
 [[headers]]
