@@ -14,5 +14,5 @@ Allow: /
 User-agent: bingbot
 Allow: /
 
-Sitemap: /sitemap.xml
-Sitemap: /index.xml
+Sitemap: https://simeononsecurity.ch/sitemap.xml
+Sitemap: https://simeononsecurity.ch/index.xml
