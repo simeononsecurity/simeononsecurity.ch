@@ -76,6 +76,10 @@ refLinksNotFoundURL = "simeononsecurity.ch"
 
     [languages.en.menu]
 	[[languages.en.menu.main]]
+        identifier = "Articles"
+        name = "Articles"
+        url = "/articles"
+	[[languages.en.menu.main]]
         identifier = "Blog"
         name = "Blog"
         url = "/blog"
