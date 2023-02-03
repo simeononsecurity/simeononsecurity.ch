@@ -10,11 +10,18 @@
 />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#000000"/>
-{{ if .Params.canonicalUrl }}
+<!-- {{ if .Params.canonicalUrl }}
 <link rel="canonical" href="{{ .Params.canonicalUrl }}">
 {{ else }}
 <link rel="canonical" href="{{ .RelPermalink }}">
+{{ end }} -->
+{{ $href := .Permalink }}
+{{ with $paginator }}
+  {{ if gt .PageNumber 1 }}
+    {{ $href = printf "%s%s/%d/" $.Permalink "page" .PageNumber }}
+  {{ end }}
 {{ end }}
+<link rel="canonical" href="{{ $href }}">
 
 <!-- head custom -->
 {{- partial "prepended_head.html" . }}
