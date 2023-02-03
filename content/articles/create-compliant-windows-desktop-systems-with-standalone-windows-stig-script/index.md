@@ -41,9 +41,12 @@ The Standalone-Windows-STIG-Script implements the guidelines provided in the STI
 
 3. Open an elevated command prompt: Right-click on the Windows Start button and select "Windows PowerShell (Admin)".
 
-Run the script: Navigate to the location where you saved the script and run the script by entering the following command: "powershell.exe -ExecutionPolicy Bypass -File Standalone-Windows-STIG-Script.ps1"
+4. Run the script: Navigate to the location where you saved the script and run the script by entering the following command: 
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File Standalone-Windows-STIG-Script.ps1
+```
 
-Review the changes: After the script has finished running, review the changes that were made to the system to ensure that everything is configured correctly.
+5. Review the changes: After the script has finished running, review the changes that were made to the system to ensure that everything is configured correctly.
 
 ## Conclusion:
 
