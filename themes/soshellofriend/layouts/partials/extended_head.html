@@ -8,7 +8,5 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-173461240-1',{ 'anonymize_ip': true });
-  ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id.
-  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
 </script>
 {{ template "_internal/google_analytics_async.html" . }}
