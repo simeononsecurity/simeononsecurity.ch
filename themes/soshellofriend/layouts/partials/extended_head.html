@@ -12,15 +12,3 @@
   gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
 </script>
 {{ template "_internal/google_analytics_async.html" . }}
-
-{{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false) }}
-<!-- Remove the line above if you already have it in the file, you don't need it twice in the same file (you do need it once in each file that refers to the paginator object though). -->
-{{ if .IsHome }}
-  {{ if eq $paginator.PageNumber 1 }}
-    <link rel="canonical" href="{{ .Permalink }}" />
-  {{ else }}
-    <link rel="canonical" href="{{ .Permalink }}page/{{ $paginator.PageNumber }}/" />
-  {{ end }}
-{{ else }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-{{ end }}

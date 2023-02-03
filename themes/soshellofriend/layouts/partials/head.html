@@ -9,6 +9,7 @@
   content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"
 />
 <meta name="robots" content="noodp" />
+<link rel="canonical" href="{{ .Permalink }}" />
 <meta name="theme-color" content="#000000"/>
 
 <!-- head custom -->
