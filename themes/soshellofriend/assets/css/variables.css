@@ -22,7 +22,7 @@ body.dark-theme {
   --border-color: #4a4b50;
 }
 
-body.post-tags a {
+.post-tags a {
   color: #452c35;
 }
 
