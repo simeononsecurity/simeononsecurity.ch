@@ -17,9 +17,13 @@ body.dark-theme {
   --background: #292a2d;
   --background-secondary: #3b3d42;
   --header: #252627;
-  --color: #b6b7bb;
-  --color-secondary: #b6b7bb;
+  --color: #a9a9b3;
+  --color-secondary: #73747b;
   --border-color: #4a4b50;
+}
+
+body.post-tags a {
+  color: #452c35;
 }
 
 @custom-media --phone (width < 684px);
