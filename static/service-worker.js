@@ -86,7 +86,9 @@ self.addEventListener('push', event => {
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
     let parser;
-    if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
+    if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
+        parser = new window.DOMParser();
+    } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
         parser = new self.DOMParser();
         try {
             const response = await fetch(rssUrl);
