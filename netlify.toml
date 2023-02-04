@@ -40,17 +40,17 @@ NODE_VERSION = "18.14.0"
 [[headers]]
   for = "/img/*"
   [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=2592000"
+    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
   for = "/*.css"
   [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=2592000"
+    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
   for = "/*.js"
   [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=2592000"
+    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
