@@ -19,8 +19,8 @@ NODE_VERSION = "18.14.0"
 	Cache-Control = "Public, no-transform, max-age=31536000"
 	#The `Expect-CT` header is deprecated and will be removed. Chrome requires Certificate Transparency for all publicly trusted certificates issued after April 30, 2018.
 	#Expect-Ct = "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
-	Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none'; camera 'none'; display-capture 'none'; gyroscope 'none'; magnetometer 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; usb 'none'; vr 'none'; wake-lock 'none'; xr-spatial-tracking 'none'"
-	Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), vr=(), wake-lock=(), ambient-light-sensor=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), speaker=(), xr-spatial-tracking=()"
+	Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; autoplay 'none'; camera 'none'; display-capture 'none'; gyroscope 'none'; magnetometer 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; usb 'none'; xr-spatial-tracking 'none'"
+	Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), xr-spatial-tracking=()"
 	Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 	Upgrade-Insecure-Requests = "1"
 	Referrer-Policy	= "strict-origin"
@@ -30,7 +30,7 @@ NODE_VERSION = "18.14.0"
 	#X-Robots-Tag  = "noindex, nofollow, noarchive, notranslate, nosnippet, unavailable_after: 2020-09-21"
 	X-Robots-Tag  = "index, follow, noarchive, notranslate, max-snippet:60, max-image-preview:large"
 	X-Xss-Protection = "1; mode=block"
-  	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; script-src: 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com https://ws-na.amazon-adsystem.com 'unsafe-inline' https: data: ;font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: https://raw.githubusercontent.com; frame-src https: data:; upgrade-insecure-requests; frame-ancestors 'none'"
+	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; script-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com https://ws-na.amazon-adsystem.com 'unsafe-inline' https: data:; font-src https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com; object-src 'none'; img-src 'self' data: https: https://raw.githubusercontent.com; frame-src https: data:; upgrade-insecure-requests; frame-ancestors 'none'"
 	Cross-Origin-Opener-Policy-Report-Only = 'unsafe-none; report-to="default"'
 	Cross-Origin-Opener-Policy = 'unsafe-none; report-to="default"'
 	Cross-Origin-Embedder-Policy-Report-Only = 'unsafe-none; report-to="default"'
