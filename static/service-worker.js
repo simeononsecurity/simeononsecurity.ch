@@ -94,9 +94,7 @@ const fetchRss = async () => {
         });
         return rssData;
     } catch (error) {
-        console.error(Failed to fetch RSS data: $ {
-            error
-        });
+        console.error(`Failed to fetch RSS data: ${error}`);
         return null;
     }
 };
