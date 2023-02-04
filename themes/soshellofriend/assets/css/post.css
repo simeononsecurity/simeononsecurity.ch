@@ -82,4 +82,13 @@
       margin-bottom: 20px;
     }
   }
+
+  .post-tags {
+    color: black;
+  }
+  
+  .dark-theme .post-tags {
+    color: white;
+  }
+  
 }
