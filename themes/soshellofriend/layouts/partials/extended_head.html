@@ -1,4 +1,5 @@
-<link rel="alternate" type="application/rss+xml" title="simeononsecurity" href="/sitemap.xml"/>
+<link rel="alternate" type="application/rss+xml" title="simeononsecurity sitemap" href="/sitemap.xml"/>
+<link rel="alternate" type="application/rss+xml" title="simeononsecurity rss" href="/rss.xml"/>
 
 <script data-ad-client="ca-pub-4092442123207538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -9,4 +10,13 @@
   gtag('js', new Date());
   gtag('config', 'UA-173461240-1',{ 'anonymize_ip': true });
 </script>
+
 {{ template "_internal/google_analytics_async.html" . }}
+
+<script aync>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
+</script>
