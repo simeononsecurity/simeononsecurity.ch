@@ -39,7 +39,7 @@
       </div>
 
       {{ if .Params.tags }}
-        <span class="post-tags">
+        <span class="post-tags" style="color: #452c35;">
           {{ range .Params.tags }}
             <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/">#{{ . }}</a>&nbsp;
           {{ end }}
