@@ -56,10 +56,30 @@
     align-items: center;
     font-size: 1rem;
   
+    &--user {
+      margin: auto;
+      text-align: center;
+    }
+  
     @media (--tablet) {
       flex-direction: column;
+      margin-top: 10px;
       justify-content: center;
       text-align: center;
+    }
+  }
+
+  .footer__menu-item {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+  
+    a {
+      color: inherit;
+    }
+    
+    span {
+      margin-right: 10px;
     }
   }
 }
