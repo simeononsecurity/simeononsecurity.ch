@@ -23,7 +23,7 @@ body.dark-theme {
 }
 
 .post-tags a {
-  color: #452c35;
+  color: #ba4468;
 }
 
 @custom-media --phone (width < 684px);
