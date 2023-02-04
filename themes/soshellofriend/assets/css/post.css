@@ -85,10 +85,25 @@
 
   .post-tags {
     color: black;
+    border: none;
   }
   
   .dark-theme .post-tags {
     color: white;
+    border: none;
   }
   
+  .post-tags:hover {
+    color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .dark-theme .post-tags:hover {
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 4px;
+  }
 }
