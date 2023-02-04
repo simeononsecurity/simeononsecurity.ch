@@ -711,6 +711,7 @@ h4:hover a {
     font-size: 1rem;
     margin-bottom: 20px;
     opacity: 0.5;
+    text-decoration: none;
 }
 
 .dark-theme .post-tags a{
@@ -735,10 +736,6 @@ h4:hover a {
     border: none;
     border: 1px solid white;
     border-radius: 4px;
-}
-
-.post-tags a {
-    text-decoration: none;
 }
 
 .post-content {
