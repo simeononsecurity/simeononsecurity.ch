@@ -88,7 +88,7 @@ const fetchRss = async () => {
     try {
         const response = await fetch(rssUrl);
         const text = await response.text();
-        let DOMParser;
+        let parser;
         if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
             const parser = new self.DOMParser();
         } else if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
