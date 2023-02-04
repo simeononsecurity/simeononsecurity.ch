@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "simeononsecurity"
 theme = "soshellofriend"
-baseurl = "/"
+baseurl = "https://simeononsecurity.ch"
 paginate = 5
 canonifyURLs = true
 disableAliases = true
