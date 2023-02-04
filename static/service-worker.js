@@ -95,9 +95,11 @@ const fetchRss = async () => {
         return rssData;
     } catch (error) {
         console.error(`Failed to fetch RSS data: ${error}`);
+        console.error(error.stack);
         return null;
     }
 };
+
 
 setInterval(async () => {
     const rssData = await fetchRss();
