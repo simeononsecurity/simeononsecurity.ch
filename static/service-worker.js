@@ -81,16 +81,19 @@ self.addEventListener('push', event => {
     }
 });
 
-if (typeof DOMParser === 'undefined') {
-    const DOMParser = require('xmldom').DOMParser;
-  }  
+
 
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
     try {
         const response = await fetch(rssUrl);
         const text = await response.text();
-        const parser = new DOMParser();
+        let DOMParser;
+        if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
+            const parser = new self.DOMParser();
+        } else if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
+            const parser = new window.DOMParser();
+        }
         const xml = parser.parseFromString(text, "text/xml");
         const items = xml.querySelectorAll("item");
         const rssData = Array.from(items).map(item => {
@@ -108,7 +111,6 @@ const fetchRss = async () => {
         return null;
     }
 };
-
 
 setInterval(async () => {
     const rssData = await fetchRss();
