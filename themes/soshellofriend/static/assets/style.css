@@ -704,7 +704,7 @@ h4:hover a {
     text-decoration: none;
 }
 
-.post-tags {
+.post-tags a{
     color: black;
     border: none;
     display: block;
@@ -713,23 +713,24 @@ h4:hover a {
     opacity: 0.5;
 }
 
-.dark-theme .post-tags {
+.dark-theme .post-tags a{
     color: white;
     border: none;
     display: block;
     font-size: 1rem;
     margin-bottom: 20px;
     opacity: 0.5;
+    text-decoration: none;
 }
 
-.post-tags:hover {
+.post-tags a:hover {
     color: black;
     border: none;
     border: 1px solid black;
     border-radius: 4px;
 }
 
-.dark-theme .post-tags:hover {
+.dark-theme .post-tags a:hover {
     color: white;
     border: none;
     border: 1px solid white;
@@ -739,6 +740,7 @@ h4:hover a {
 .post-tags a {
     text-decoration: none;
 }
+
 .post-content {
     margin-top: 30px;
 }
