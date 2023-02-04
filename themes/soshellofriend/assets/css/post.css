@@ -82,28 +82,30 @@
       margin-bottom: 20px;
     }
   }
-
-  .post-tags {
+  
+.post-tags a{
     color: black;
     border: none;
-  }
-  
-  .dark-theme .post-tags {
+    text-decoration: none;
+}
+
+.dark-theme .post-tags a{
     color: white;
     border: none;
-  }
-  
-  .post-tags:hover {
+    text-decoration: none;
+}
+
+.post-tags a:hover {
     color: black;
     border: none;
     border: 1px solid black;
     border-radius: 4px;
-  }
-  
-  .dark-theme .post-tags:hover {
+}
+
+.dark-theme .post-tags a:hover {
     color: white;
     border: none;
     border: 1px solid white;
-    border-radius: 4px;
-  }
+    border-radius: 1px;
+}
 }
