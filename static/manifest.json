@@ -11,6 +11,11 @@
         "src": "/img/apple-touch-icon-144-precomposed.png",
         "sizes": "144x144",
         "type": "image/png"
+      },
+      {
+        "src": "/img/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
       }
     ],
     "id": "/?source=pwa",
@@ -19,5 +24,6 @@
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "scope": "/",
+    "prefer_related_applications": false
   }
   
