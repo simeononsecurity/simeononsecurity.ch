@@ -85,30 +85,31 @@ self.addEventListener('push', event => {
 
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
-    try {
-        const response = await fetch(rssUrl);
-        const text = await response.text();
-        let parser;
-        if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
-            parser = new self.DOMParser();
-        } else if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
-            parser = new window.DOMParser();
+    let parser;
+    if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
+        parser = new self.DOMParser();
+        try {
+            const response = await fetch(rssUrl);
+            const text = await response.text();
+            const xml = parser.parseFromString(text, "text/xml");
+            const items = xml.querySelectorAll("item");
+            const rssData = Array.from(items).map(item => {
+                const title = item.querySelector("title").textContent;
+                const link = item.querySelector("link").textContent;
+                return {
+                    title,
+                    link
+                };
+            });
+            return rssData;
+        } catch (error) {
+            console.error(`Failed to fetch RSS data: ${error}`);
+            console.error(error.stack);
+            return null;
         }
-        const xml = parser.parseFromString(text, "text/xml");
-        const items = xml.querySelectorAll("item");
-        const rssData = Array.from(items).map(item => {
-            const title = item.querySelector("title").textContent;
-            const link = item.querySelector("link").textContent;
-            return {
-                title,
-                link
-            };
-        });
-        return rssData;
-    } catch (error) {
-        console.error(`Failed to fetch RSS data: ${error}`);
-        console.error(error.stack);
-        return null;
+    } else {
+        // handle the error here, such as logging a message or throwing an exception
+        console.error("The DOMParser is not available in this context");
     }
 };
 
