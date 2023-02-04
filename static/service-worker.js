@@ -18,6 +18,7 @@ self.addEventListener('install', function (event) {
 
     event.waitUntil((async () => {
         const cache = await caches.open(CACHE_NAME);
+        await cache.addAll(staticAssets);
         // Setting {cache: 'reload'} in the new request will ensure that the response
         // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
         await cache.add(new Request(OFFLINE_URL, {
@@ -43,8 +44,7 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', function (event) {
-    // console.log('[Service Worker] Fetch', event.request.url);
-    if (event.request.mode === 'navigate') {
+    if (event.request.mode === 'navigate' || staticAssets.includes(event.request.url)) {
         event.respondWith((async () => {
             try {
                 const preloadResponse = await event.preloadResponse;
@@ -53,6 +53,10 @@ self.addEventListener('fetch', function (event) {
                 }
 
                 const networkResponse = await fetch(event.request);
+                if (networkResponse.status === 200 && networkResponse.type === 'basic') {
+                    const cache = await caches.open(CACHE_NAME);
+                    cache.put(event.request, networkResponse.clone());
+                }
                 return networkResponse;
             } catch (error) {
                 console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
@@ -65,6 +69,7 @@ self.addEventListener('fetch', function (event) {
     }
 });
 
+
 self.addEventListener('push', event => {
     if (Notification.permission === 'granted') {
         const data = event.data.json();
@@ -75,6 +80,10 @@ self.addEventListener('push', event => {
         event.waitUntil(self.registration.showNotification('New Post', options));
     }
 });
+
+if (typeof DOMParser === 'undefined') {
+    const DOMParser = require('xmldom').DOMParser;
+  }  
 
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
