@@ -49,21 +49,15 @@
     }
   }
 
-  &__menu {
+  .footer__menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     font-size: 1rem;
-
-    &--user {
-      margin: auto;
-      text-align: center;
-    }
-
+  
     @media (--tablet) {
       flex-direction: column;
-      margin-top: 10px;
       justify-content: center;
       text-align: center;
     }
