@@ -1,67 +1,131 @@
 const cacheName = 'sos';
 const staticAssets = [
-  '/',
-  '/index.html',
-  '/offline.html',
-  '/style.css',
-  '/assets/style.css',
-  '/assets/main.js',
-  '/assets/prism.js',
-  '/img/apple-touch-icon-192.png'
+    '/',
+    '/index.html',
+    '/offline.html',
+    '/style.css',
+    '/assets/style.css',
+    '/assets/main.js',
+    '/assets/prism.js',
+    '/img/apple-touch-icon-192.png'
 ];
 
 const CACHE_NAME = 'offline';
 const OFFLINE_URL = 'offline.html';
 
-self.addEventListener('install', function(event) {
-  console.log('[ServiceWorker] Install');
-  
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    // Setting {cache: 'reload'} in the new request will ensure that the response
-    // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
-    await cache.add(new Request(OFFLINE_URL, {cache: 'reload'}));
-  })());
-  
-  self.skipWaiting();
+self.addEventListener('install', function (event) {
+    console.log('[ServiceWorker] Install');
+
+    event.waitUntil((async () => {
+        const cache = await caches.open(CACHE_NAME);
+        // Setting {cache: 'reload'} in the new request will ensure that the response
+        // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
+        await cache.add(new Request(OFFLINE_URL, {
+            cache: 'reload'
+        }));
+    })());
+
+    self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
-  console.log('[ServiceWorker] Activate');
-  event.waitUntil((async () => {
-    // Enable navigation preload if it's supported.
-    // See https://developers.google.com/web/updates/2017/02/navigation-preload
-    if ('navigationPreload' in self.registration) {
-      await self.registration.navigationPreload.enable();
-    }
-  })());
-
-  // Tell the active service worker to take control of the page immediately.
-  self.clients.claim();
-});
-
-self.addEventListener('fetch', function(event) {
-  // console.log('[Service Worker] Fetch', event.request.url);
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const preloadResponse = await event.preloadResponse;
-        if (preloadResponse) {
-          return preloadResponse;
+    console.log('[ServiceWorker] Activate');
+    event.waitUntil((async () => {
+        // Enable navigation preload if it's supported.
+        // See https://developers.google.com/web/updates/2017/02/navigation-preload
+        if ('navigationPreload' in self.registration) {
+            await self.registration.navigationPreload.enable();
         }
-
-        const networkResponse = await fetch(event.request);
-        return networkResponse;
-      } catch (error) {
-        console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
-
-        const cache = await caches.open(CACHE_NAME);
-        const cachedResponse = await cache.match(OFFLINE_URL);
-        return cachedResponse;
-      }
     })());
-  }
+
+    // Tell the active service worker to take control of the page immediately.
+    self.clients.claim();
 });
 
+self.addEventListener('fetch', function (event) {
+    // console.log('[Service Worker] Fetch', event.request.url);
+    if (event.request.mode === 'navigate') {
+        event.respondWith((async () => {
+            try {
+                const preloadResponse = await event.preloadResponse;
+                if (preloadResponse) {
+                    return preloadResponse;
+                }
 
+                const networkResponse = await fetch(event.request);
+                return networkResponse;
+            } catch (error) {
+                console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
 
+                const cache = await caches.open(CACHE_NAME);
+                const cachedResponse = await cache.match(OFFLINE_URL);
+                return cachedResponse;
+            }
+        })());
+    }
+});
+
+self.addEventListener('push', event => {
+    if (Notification.permission === 'granted') {
+        const data = event.data.json();
+        const options = {
+            body: `A new article has been posted: ${data.title}!`,
+            badge: '/img/apple-touch-icon-192.png'
+        };
+        event.waitUntil(self.registration.showNotification('New Post', options));
+    }
+});
+
+const fetchRss = async () => {
+    const rssUrl = 'https://simeononsecurity.ch/rss.xml';
+    try {
+        const response = await fetch(rssUrl);
+        const text = await response.text();
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(text, "text/xml");
+        const items = xml.querySelectorAll("item");
+        const rssData = Array.from(items).map(item => {
+            const title = item.querySelector("title").textContent;
+            const link = item.querySelector("link").textContent;
+            return {
+                title,
+                link
+            };
+        });
+        return rssData;
+    } catch (error) {
+        console.error(Failed to fetch RSS data: $ {
+            error
+        });
+        return null;
+    }
+};
+
+setInterval(async () => {
+    const rssData = await fetchRss();
+    if (rssData) {
+        const lastPost = rssData[0];
+        if (lastPost) {
+            // Check if this is a new post compared to what we have stored locally
+            const localLastPost = localStorage.getItem('lastPost');
+            if (!localLastPost || lastPost.title !== localLastPost) {
+                localStorage.setItem('lastPost', lastPost.title);
+                // Trigger the push event to show the notification
+                self.dispatchEvent(new PushEvent('push', {
+                    data: lastPost
+                }));
+            }
+        }
+    }
+}, 60000);
+
+self.addEventListener('push', event => {
+    if (Notification.permission === 'granted') {
+        const post = event.data.json();
+        const options = {
+            body: post.title,
+            badge: '/img/apple-touch-icon-192.png'
+        };
+        event.waitUntil(self.registration.showNotification('New Post', options));
+    }
+});
