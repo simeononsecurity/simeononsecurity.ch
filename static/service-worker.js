@@ -90,9 +90,9 @@ const fetchRss = async () => {
         const text = await response.text();
         let parser;
         if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
-            const parser = new self.DOMParser();
+            parser = new self.DOMParser();
         } else if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
-            const parser = new window.DOMParser();
+            parser = new window.DOMParser();
         }
         const xml = parser.parseFromString(text, "text/xml");
         const items = xml.querySelectorAll("item");
@@ -111,6 +111,7 @@ const fetchRss = async () => {
         return null;
     }
 };
+
 
 setInterval(async () => {
     const rssData = await fetchRss();
