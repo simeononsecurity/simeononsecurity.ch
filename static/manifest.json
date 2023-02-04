@@ -16,6 +16,12 @@
         "src": "/img/512x512.png",
         "sizes": "512x512",
         "type": "image/png"
+      },
+      {
+        "src": "/img/maskable_icon.png",
+        "sizes": "460x460",
+        "type": "image/png",
+        "purpose": "any maskable"
       }
     ],
     "id": "/?source=pwa",
