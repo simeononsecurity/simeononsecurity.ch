@@ -155,7 +155,6 @@
 <meta itemprop="image" content="{{ $featured.Permalink }}">
 {{ else -}}
 {{- with $.Site.Params.images -}}
-<meta itemprop="image" content="{{ index . 0 | absURL }}" />
 {{ end }}{{ end }}{{ end }}
 
 <!-- Output all taxonomies as schema.org keywords -->
