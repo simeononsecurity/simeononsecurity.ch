@@ -16,7 +16,6 @@ self.addEventListener('install', function (event) {
         const cache = await caches.open(CACHE_NAME);
         await cache.addAll(staticAssets);
     })());
-    self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
