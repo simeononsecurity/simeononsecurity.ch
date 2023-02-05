@@ -12,13 +12,16 @@
 <meta name="theme-color" content="#000000"/>
 <link rel="canonical" href="{{ .Permalink }}">
 
-<!-- preload third-party dns -->
+<!-- preload third-party dns for js -->
 <link rel="preconnect" href="https://pagead1.googlesyndication.com" />
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
 <link rel="preconnect" href="https://www.google-analytics.com" />
 <link rel="preconnect" href="https://ws-na.amazon-adsystem.com" />
 <link rel="preconnect" href="https://amazon-adsystem.com" />
 <link rel="preconnect" href="https://disqus.com" />
+
+<!-- preload first-party js -->
+<link rel="preload" href="{{ "assets/menu.js" | absURL }}" />
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" />
 <link rel="preload" href="{{ "assets/prism.js" | absURL }}" />
 
