@@ -10,14 +10,13 @@ const staticAssets = [
     '/img/apple-touch-icon-192.png'
 ];
 
-const CACHE_NAME = 'offline';
 const OFFLINE_URL = 'offline.html';
 
 self.addEventListener('install', function (event) {
     console.log('[ServiceWorker] Install');
 
     event.waitUntil((async () => {
-        const cache = await caches.open(CACHE_NAME);
+        const cache = await caches.open(cacheName);
         await cache.addAll(staticAssets);
         // Setting {cache: 'reload'} in the new request will ensure that the response
         // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
@@ -43,38 +42,61 @@ self.addEventListener('activate', (event) => {
     self.clients.claim();
 });
 
-// Listen for the `fetch` event
 self.addEventListener('fetch', function (event) {
     if (event.request.url.includes('https://simeononsecurity.ch/rss.xml')) {
         event.respondWith(
             fetch(event.request)
-            .then(function (response) {
-                return response.text().then(function (xmlString) {
-                    const parser = new DOMParser();
-                    const xml = parser.parseFromString(xmlString, 'text/xml');
-                    const latestArticle = xml.querySelector('item');
-                    const latestArticleTitle = latestArticle.querySelector('title').textContent;
-                    const latestArticleLink = latestArticle.querySelector('link').textContent;
-                    console.log(parser);
-                    // Check if there is a new article
-                    if (localStorage.getItem('latestArticleLink') !== latestArticleLink) {
-                        localStorage.setItem('latestArticleLink', latestArticleLink);
-                        // Show notification with the latest article title
-                        self.registration.showNotification(latestArticleTitle, {
-                            body: 'A new article is available!',
-                            tag: 'new-article-notification',
-                        });
-                    }
-                    return response;
-                });
+            .then(async function (response) {
+                const xmlString = await response.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(xmlString, 'text/xml');
+                const latestArticle = xml.querySelector('item');
+                const latestArticleTitle = latestArticle.querySelector('title').textContent;
+                const latestArticleLink = latestArticle.querySelector('link').textContent;
+                console.log(parser);
+                // Check if there is a new article
+                if (localStorage.getItem('latestArticleLink') !== latestArticleLink) {
+                    localStorage.setItem('latestArticleLink', latestArticleLink);
+                    // Show notification with the latest article title
+                    self.registration.showNotification(latestArticleTitle, {
+                        body: 'A new article is available!',
+                        tag: 'new-article-notification',
+                    });
+                }
+                return response;
             })
             .catch(function (error) {
                 console.error('Fetch error:', error);
             })
         );
-        event.waitUntil(
-            // Perform any other long-running tasks here, such as updating the cache
-            // ...
-        );
+        event.waitUntil(async function() {
+            try {
+                const response = await fetch(event.request);
+                const cache = await caches.open(cacheName);
+                await cache.put(event.request, response.clone());
+            } catch (error) {
+                console.error(error);
+            }
+        }());
+    } else {
+        event.respondWith(async function() {
+            try {
+                const cache = await caches.open(cacheName);
+                const cachedResponse = await cache.match(event.request);
+                if (cachedResponse) {
+                    return cachedResponse;
+                }
+                const response = await fetch(event.request);
+                await cache.put(event.request, response.clone());
+                return response;
+            } catch (error) {
+                console.error(error);
+                const cache = await caches.open(cacheName);
+                const cachedResponse = await cache.match(OFFLINE_URL);
+                if (cachedResponse) {
+                    return cachedResponse;
+                }
+            }
+        }());
     }
 });
