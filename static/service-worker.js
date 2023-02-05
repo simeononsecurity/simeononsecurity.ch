@@ -14,11 +14,7 @@ self.addEventListener('install', function (event) {
     console.log('[ServiceWorker] Install');
     event.waitUntil((async () => {
         const cache = await caches.open(CACHE_NAME);
-        // Setting {cache: 'reload'} in the new request will ensure that the response
-        // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
-        await cache.addAll(new Request(staticAssets, {
-            cache: 'reload'
-        }));
+        await cache.addAll(staticAssets);
     })());
     self.skipWaiting();
 });
