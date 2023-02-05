@@ -59,6 +59,8 @@ self.addEventListener('fetch', function (event) {
     }
 });
 
+let stoprss = false; 
+
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
     let parser;
@@ -71,6 +73,7 @@ const fetchRss = async () => {
     } else {
         // handle the error here, such as logging a message or throwing an exception
         console.error("The DOMParser is not available in this context");
+        const stoprss = true;
         return;
     }
         try {
@@ -100,23 +103,25 @@ const fetchRss = async () => {
 
 };
 
-setInterval(async () => {
-    const rssData = await fetchRss();
-    if (rssData) {
-        const lastPost = rssData[0];
-        if (lastPost) {
-            // Check if this is a new post compared to what we have stored locally
-            const localLastPost = localStorage.getItem('lastPost');
-            if (!localLastPost || lastPost.title !== localLastPost) {
-                localStorage.setItem('lastPost', lastPost.title);
-                // Trigger the push event to show the notification
-                self.dispatchEvent(new PushEvent('push', {
-                    data: lastPost
-                }));
+if (stoprss != true){
+    setInterval(async () => {
+        const rssData = await fetchRss();
+        if (rssData) {
+            const lastPost = rssData[0];
+            if (lastPost) {
+                // Check if this is a new post compared to what we have stored locally
+                const localLastPost = localStorage.getItem('lastPost');
+                if (!localLastPost || lastPost.title !== localLastPost) {
+                    localStorage.setItem('lastPost', lastPost.title);
+                    // Trigger the push event to show the notification
+                    self.dispatchEvent(new PushEvent('push', {
+                        data: lastPost
+                    }));
+                }
             }
         }
-    }
-}, 60000);
+    }, 60000);
+}
 
 self.addEventListener('push', event => {
     const data = event.data.json();
