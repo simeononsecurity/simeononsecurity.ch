@@ -44,36 +44,33 @@ self.addEventListener('activate', (event) => {
 });
 
 // Listen for the `fetch` event
-Notification.requestPermission().then(function (permission) {
-    if (permission === 'granted') {
-        self.addEventListener('fetch', function (event) {
-            if (event.request.url.includes('https://simeononsecurity.ch/rss.xml')) {
-                event.respondWith(
-                    fetch(event.request)
-                    .then(function (response) {
-                        return response.text().then(function (xmlString) {
-                            const parser = new DOMParser();
-                            const xml = parser.parseFromString(xmlString, 'text/xml');
-                            const latestArticle = xml.querySelector('item');
-                            const latestArticleTitle = latestArticle.querySelector('title').textContent;
-                            const latestArticleLink = latestArticle.querySelector('link').textContent;
-                            // Check if there is a new article
-                            if (localStorage.getItem('latestArticleLink') !== latestArticleLink) {
-                                localStorage.setItem('latestArticleLink', latestArticleLink);
-                                // Show notification with the latest article title
-                                self.registration.showNotification(latestArticleTitle, {
-                                    body: 'A new article is available!',
-                                    tag: 'new-article-notification',
-                                });
-                            }
-                            return response;
+
+self.addEventListener('fetch', function (event) {
+    if (event.request.url.includes('https://simeononsecurity.ch/rss.xml')) {
+        event.respondWith(
+            fetch(event.request)
+            .then(function (response) {
+                return response.text().then(function (xmlString) {
+                    const parser = new DOMParser();
+                    const xml = parser.parseFromString(xmlString, 'text/xml');
+                    const latestArticle = xml.querySelector('item');
+                    const latestArticleTitle = latestArticle.querySelector('title').textContent;
+                    const latestArticleLink = latestArticle.querySelector('link').textContent;
+                    // Check if there is a new article
+                    if (localStorage.getItem('latestArticleLink') !== latestArticleLink) {
+                        localStorage.setItem('latestArticleLink', latestArticleLink);
+                        // Show notification with the latest article title
+                        self.registration.showNotification(latestArticleTitle, {
+                            body: 'A new article is available!',
+                            tag: 'new-article-notification',
                         });
-                    })
-                    .catch(function (error) {
-                        console.error('Fetch error:', error);
-                    })
-                );
-            }
-        });
+                    }
+                    return response;
+                });
+            })
+            .catch(function (error) {
+                console.error('Fetch error:', error);
+            })
+        );
     }
 });
