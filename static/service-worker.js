@@ -61,16 +61,24 @@ self.addEventListener('fetch', function (event) {
 
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
+    console.log(rssUrl);
     let parser;
+    console.log(parser);
     if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
         parser = new window.DOMParser();
+        console.log(parser);
     } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
         parser = new self.DOMParser();
+        console.log(parser);
         try {
             const response = await fetch(rssUrl);
+            console.log(response);
             const text = await response.text();
+            console.log(text);
             const xml = parser.parseFromString(text, "text/xml");
+            console.log(xml);
             const items = xml.querySelectorAll("item");
+            console.log(items);
             const rssData = Array.from(items).map(item => {
                 const title = item.querySelector("title").textContent;
                 const link = item.querySelector("link").textContent;
@@ -79,6 +87,7 @@ const fetchRss = async () => {
                     link
                 };
             });
+            console.log(rssData);
             return rssData;
         } catch (error) {
             console.error(`Failed to fetch RSS data: ${error}`);
@@ -111,12 +120,10 @@ setInterval(async () => {
 }, 60000);
 
 self.addEventListener('push', event => {
-    if (Notification.permission === 'granted') {
-        const data = event.data.json();
-        const options = {
-            body: `${data.title}`,
-            badge: '/img/apple-touch-icon-192.png'
-        };
-        event.waitUntil(self.registration.showNotification('New Post', options));
-    }
+    const data = event.data.json();
+    const options = {
+        body: `${data.title}`,
+        badge: '/img/apple-touch-icon-192.png'
+    };
+    event.waitUntil(self.registration.showNotification('New Post', options));
 });
