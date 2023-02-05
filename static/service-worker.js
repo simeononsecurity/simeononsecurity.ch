@@ -100,7 +100,6 @@ const fetchRss = async () => {
 
 };
 
-
 setInterval(async () => {
     const rssData = await fetchRss();
     if (rssData) {
