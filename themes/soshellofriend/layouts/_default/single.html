@@ -89,38 +89,3 @@
     {{ end }}
   </article>
 {{ end }}
-{{ if or .Params.socialShare (and .Site.Params.socialShare (ne .Params.socialShare false)) }}
-<!-- Social Share Button HTML -->
-<div class="share-box">
-    <ul class="share">
-      <!-- Twitter -->
-      <li>
-        <a class="fs2" href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Author.twitter }}" target="_blank" title="Share on Twitter" rel="noreferrer" aria-label="share article on twitter">
-          <i class="icon-twitter"></i>
-        </a>
-      </li>
-  
-      <!-- Facebook -->
-      <li>
-        <a class="fs2" href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" title="Share on Facebook" rel="noreferrer" aria-label="share article on facebook">
-          <i class="icon-facebook"></i>
-        </a>
-      </li>
-  
-      <!-- Reddit -->
-      <li>
-        <a class="fs2" href="//reddit.com/submit?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" title="Share on Reddit" rel="noreferrer" aria-label="share article on reddit">
-          <i class="icon-reddit"></i>
-        </a>
-      </li>
-  
-      <!-- LinkedIn -->
-      <li>
-        <a class="fs2" href="//www.linkedin.com/shareArticle?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" title="Share on LinkedIn" rel="noreferrer" aria-label="share article on linkedin">
-          <i class="icon-linkedin"></i>
-        </a>
-      </li>
-      </li>
-    </ul>
-  </div>
-  {{ end }}
