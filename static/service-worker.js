@@ -61,15 +61,18 @@ self.addEventListener('fetch', function (event) {
 
 const fetchRss = async () => {
     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
-    console.log(rssUrl);
     let parser;
-    console.log(parser);
     if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
         parser = new window.DOMParser();
         console.log(parser);
     } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
         parser = new self.DOMParser();
         console.log(parser);
+    } else {
+        // handle the error here, such as logging a message or throwing an exception
+        console.error("The DOMParser is not available in this context");
+        return;
+    }
         try {
             const response = await fetch(rssUrl);
             console.log(response);
@@ -94,10 +97,7 @@ const fetchRss = async () => {
             console.error(error.stack);
             return null;
         }
-    } else {
-        // handle the error here, such as logging a message or throwing an exception
-        console.error("The DOMParser is not available in this context");
-    }
+
 };
 
 
