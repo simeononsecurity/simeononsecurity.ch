@@ -58,14 +58,11 @@ ampElements = [
 # Google Analytics code
 
 # Adsense publisher code
-adsensePublisher = "ca-pub-123456789"
-
-# Comments Iframe URL
-commentsEmbedUrl = "https://comments.example.com"
+adsensePublisher = "ca-pub-4092442123207538"
 
 # Social sites for metatags
-facebookSite = "example"
-twitterSite = "@example"
+facebookSite = ""
+twitterSite = "@simeonsecurity"
 
 # Structured data elements
 socialProfiles = [
