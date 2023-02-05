@@ -1,11 +1,9 @@
 ---
-title: "Brave ADMX Templates"
+title: "Get Complete Control Over Brave Browser Policies with BraveADMX - Modifed Google Chrome ADMX Templates"
 date: 2020-07-25T19:30:39-05:00
 draft: false
-description: "Brave, as a company, has failed to release ADMX templates for the brave browser siteing pushing pure registries as the only supported option.
-As the Brave Browser is build off of Chromium, it should support most, if not all, the same policies from the Chromium and Google Chrome ADMX templates.
-With that in mind, we've modified the Google Chrome ADMX templates to reflect the Brave Browser's registry path. After some initial troubleshooting and testing, the templatates seem to work."
-tags: ['ADMX', 'ADMX Templates', 'Brave Browser', 'Group Policy', 'GPO']
+description: "Get the latest Brave Browser ADMX templates for Group Policy management with BraveADMX. As Brave fails to provide official ADMX templates, our modified Google Chrome ADMX templates reflect the Brave Browser's registry path. These pre-alpha state templates are only for testing purposes. Download the required files from our GitHub Repository and follow the installation instructions to get started. Remember to replace the registry path in the policy definitions and do not install both Chromium and Brave Browser ADMX templates simultaneously. Get complete control over your Brave Browser policies with BraveADMX!"
+tags: ["BraveADMX", "ADMX Templates", "Brave Browser", "Group Policy", "GPO", "Modified Google Chrome ADMX", "Policy Definitions", "Pre-Alpha", "Testing Purposes", "GitHub Repository"]
 ---
 
 # BraveADMX

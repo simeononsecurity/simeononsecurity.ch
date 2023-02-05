@@ -1,9 +1,9 @@
 ---
-title: "Shodan Powershell Modules"
+title: "OSINT Automations with the Shodan PowerShell Modules Collection"
 date: 2020-11-14T19:34:03-06:00
 draft: false
-description: "A collection of PowerShell Modules for Interacting with the Shodan API"
-tags: ['shodan', 'api', 'powershell', 'modules', 'automation', 'enumeration', 'Shodan API', 'Showdan PowerShell', 'PowerShell Modules']
+description: "Shodan_PS is a collection of PowerShell Modules that provide an interface to interact with the Shodan API. With this tool, you can perform various functions such as getting information about the API plan, retrieving client IP addresses, resolving hostnames, searching for exploits, and much more. To use this tool, you'll need a Shodan API key, which can be obtained from your Shodan account. The tool is equipped with detailed documentation and examples to help you get started quickly. Some modules may use scan or query credits, so it's important to familiarize yourself with the credit types and their usage."
+tags: ['shodan', 'api', 'powershell', 'modules', 'automation', 'enumeration', 'Shodan API', 'Shodan PowerShell', 'PowerShell Modules']
 toc: true
 ---
 # Shodan_PS

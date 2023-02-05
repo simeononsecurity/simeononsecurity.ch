@@ -1,9 +1,9 @@
 ---
-title: "Hardening Apache Web Server"
+title: "Hardening Apache Web Server for Maximum Security: A Comprehensive Guide"
 date: 2020-07-27T10:15:03-07:00
 draft: false
-description: "A collection of example configurations and scripts to aid system administrators in hardening Apache web servers."
-tags: ['Automation', 'Bash', 'Hardening Apache', 'Apache Web Server', 'Hardening SSL', 'SSL', 'Script']
+description: "Hardening Apache Web Server is a comprehensive guide that helps system administrators secure their Apache web servers. It includes a collection of example configurations and scripts that illustrate how to harden Apache instances, prevent common attacks, and ensure SSL encryption. The guide covers two methods of SSL encryption - self-signed and LetsEncrypt & Certbot. It covers Installing ModSecurity with OWASP Core Rule Set, which is a popular open-source web application firewall that helps prevent common web attacks. The guide also provides instructions on how to configure the firewall and set up SSL certificates. With this guide, system administrators can feel confident that their Apache web servers are secure and protected from common attacks."
+tags: ["Grammar Rules for Writing Effective Business Emails", "Business Email Writing Tips", "Effective Business Communication", "Business Email Etiquette", "Professional Email Writing", "Business Communication Skills", "Email Writing for Business Purposes", "Business Email Writing Best Practices", "How to Write a Professional Business Email", "Business Email Writing Guidelines"]
 ---
 ### A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.
 

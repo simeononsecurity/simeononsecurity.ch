@@ -1,9 +1,9 @@
 ---
-title: "Chromium ADMX Templates"
+title: "Proper ADMX Template for Chromium Browser - Get Complete Control with ChromiumADMX"
 date: 2020-07-25T19:30:33-05:00
 draft: false
-description: "Proper ADMX Template for the Chromium Browser"
-tags: ['ADMX', 'ADMX Templates', 'Chromium Browser', 'Chromium', 'Group Policy', 'GPO']
+description: "Get a Proper ADMX Template for the Chromium Browser with ChromiumADMX. Our modified Google Chrome ADMX templates reflect the Chromium Browser's registry path for use with Group Policy management. These pre-alpha state templates are for testing purposes only. Download from our GitHub Repository and follow installation instructions for complete control over your Chromium Browser policies."
+tags: ["ADMX", "ADMX Templates", "Chromium Browser", "Chromium", "Group Policy", "GPO", "ChromiumADMX", "Google Chrome ADMX templates", "Proper ADMX Template", "Control over Chromium Browser policies"]
 ---
 
 # ChromiumADMX

@@ -1,10 +1,10 @@
 ---
-title: "STIGing Standalone Windows Systems"
+title: "Automating Windows 10 STIG Compliance with Standalone Systems using Powershell"
 date: 2020-08-26T11:59:03-05:00
 toc: true
 draft: false
-description: "Automate STIGing Windows 10"
-tags: ['Automation', 'How To Automate Windows STIG', 'Windows Updates', 'Compliance', 'Windows 10 STIG', 'Windows 10 Hardening', 'Windows 10', 'Powershell', 'Script']
+description: "Automate the STIGing process of Windows 10 systems with the Standalone Windows STIG Script. This script is designed for Enterprise environments and helps ensure FISMA compliance by making over 1000 recommended configuration changes to secure the operating system. The script aims to save time and improve efficiency for securing standalone systems. Requirements include Windows 10 Enterprise, updated hardware, and the latest Windows 10 release. Read recommended material for better understanding of Windows security features and requirements for hardware-based protection."
+tags: ["Automation", "How To Automate Windows STIG", "Windows Updates", "Compliance", "Windows 10 STIG", "Windows 10 Hardening", "Windows 10", "Powershell", "Script"]
 
 ---
 

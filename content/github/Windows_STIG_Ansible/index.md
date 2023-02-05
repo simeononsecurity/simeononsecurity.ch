@@ -1,9 +1,9 @@
 ---
-title: 'Ansible STIG Playbooks'
-date: 2022-4-26
+title: "Automate Windows Compliance with Ansible STIG Playbooks: Hardening Made Easy"
+date: 2022-04-26
 toc: true
 draft: false
-description: "Ansible Playbooks for SimeonOnSecurity's STIG Scripts"
+description: "Streamline your security compliance with Ansible STIG Playbooks for Windows systems. Easily install the collection from Ansible Galaxy and automate the hardening process based on simeononsecurity's STIG Scripts including domain preparation, Windows Server, Windows Defender, .NET, FireFox, Oracle JRE 8, and Adobe Reader DC. Internet connectivity required. WIP offline compatibility."
 tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Windows Hardening', 'STIG', 'STIGS', 'Ansible', 'Ansible Galaxy', 'Ansible Playbooks', 'Playbook Collection']
 ---
 #  Windows_STIG_Ansible

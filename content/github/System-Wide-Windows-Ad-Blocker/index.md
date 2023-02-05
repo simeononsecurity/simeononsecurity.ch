@@ -1,10 +1,10 @@
 ---
-title: 'Block Ads and Trackers System Wide on Windows 10'
+title: "Block Ads, Trackers, and Telemetry on Windows 10 with the System Wide Ad Blocker Script"
 date: 2021-04-02
 toc: true
 draft: false
-description: "This script blocks Telemetry related domains via the hosts file and related IPs via Windows Firewall."
-tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Windows Firewall', 'Windows AD Blocking', 'Ad Block', 'Domain Lists', 'Block Windows Trackers', 'Block Trackers', 'Block Tracking and Ads System Wide']
+description: "This script provides an effective way to block telemetry-related domains and related IPs, increasing your privacy and security while browsing the internet. By utilizing the hosts file and Windows Firewall, this PowerShell script blocks ads and trackers system-wide on Windows 10. The script uses popular blocklists such as EasyList, Easy Privacy, NoCoin Filter List, AdGuard DNS filter, YoYo Lists, and Peter Lowe's ad/tracking/malware servers. Note that adding certain domains may cause issues with software such as iTunes or Skype, and entries related to Akamai have been reported to cause issues with Widevine DRM. The script can be easily executed by running the latest version. Get started with this powerful script today and enjoy a more secure and ad-free browsing experience."
+tags: ["PowerShell, PowerShell Script, Automation, Windows Firewall, Windows AD Blocking, Ad Block, Domain Lists, Block Windows Trackers, Block Trackers, Block Tracking and Ads System Wide"]
 ---
 
 ## Description:

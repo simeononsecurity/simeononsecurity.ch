@@ -1,11 +1,10 @@
 ---
-title: "Optimize, Harden, and Debloat Windows 10 Deployments"
+title: "Optimize, Harden, and Secure Windows 10 Deployments with Automated Configuration Changes"
 date: 2020-07-22T20:15:14-05:00
 toc: true
 draft: false
-description: "Windows 10 is an invasive and insecure operating system out of the box. 
-Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the [National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations."
-tags: ['Automation', 'How To Automate Windows STIG', 'Windows Updates', 'Compliance', 'Windows 10 STIG', 'Windows 10 Hardening', 'Windows 10', 'Powershell', 'Script']
+description: "This script aims to automate the configurations recommended by organizations such as PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency to lockdown, harden, and secure the Windows 10 operating system. The script covers a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. The script is designed for personal use environments but can also be used as a stepping stone for commercial environments. It requires Windows 10 Enterprise or Professional, a fully updated system, Bitlocker suspension, and specific hardware requirements. The script can be downloaded from the GitHub repository and is designed to not break core Windows functionality. For a minimized script targeted to commercial environments, see the standalone Windows STIG script repository."
+tags: ["Swift Programming Language", "iOS Development", "Mobile App Development", "Apple's Swift", "Swift for Beginners", "Swift Features", "Swift Syntax", "Swift Code", "Object-Oriented Programming", "Swift Advantages"]
 ---
 # Optimize, Harden, and Debloat Windows 10 Deployments
 
