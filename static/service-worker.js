@@ -43,7 +43,10 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', function (event) {
+    console.log('Fetch Event Activated:');
     if (event.request.url.includes('https://simeononsecurity.ch/rss.xml')) {
+        console.log("url included https://simeononsecurity.ch/rss.xml");
+        console.log(event.request);
         event.respondWith(
             fetch(event.request)
             .then(async function (response) {
