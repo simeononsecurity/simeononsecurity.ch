@@ -8,35 +8,12 @@ const butInstall = document.getElementById('butInstall');
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-      console.log('Service worker registered successfully: ', registration);
-    }, function(error) {
-      console.log('Service worker registration failed: ', error);
+      console.log('Service Worker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      console.log('Service Worker registration failed: ', err);
     });
   });
 }
-
-// Service worker file: service-worker.js
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open('static-assets-v1').then(function(cache) {
-      return cache.addAll(staticAssets);
-    })
-  );
-});
-
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || fetch(event.request);
-    })
-  );
-});
-
-/* Only register a service worker if it's supported */
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js');
-}
-
 /**
  * Warn the page must be served over HTTPS
  * The `beforeinstallprompt` event won't fire if the page is served over HTTP.
