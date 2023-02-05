@@ -1,11 +1,3 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
-<meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
-<meta name="robots" content="noodp" />
-<meta name="theme-color" content="#000000"/>
-<link rel="canonical" href="{{ .Permalink }}">
-
 <!-- head custom -->
 {{- partial "prepended_head.html" . }}
 
@@ -20,47 +12,6 @@
 
 <!-- Google News -->
 {{ template "_internal/google_news.html" . }}
-
-<!-- preload third-party dns for js -->
-<link rel="preconnect" href="https://pagead1.googlesyndication.com" />
-<link rel="preconnect" href="https://pagead2.googlesyndication.com" />
-<link rel="preconnect" href="https://www.google-analytics.com" />
-<link rel="preconnect" href="https://ws-na.amazon-adsystem.com" />
-<link rel="preconnect" href="https://amazon-adsystem.com" />
-<link rel="preconnect" href="https://disqus.com" />
-
-<!-- preload first-party js
-<link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript"/>
-<link rel="preload" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript"/> -->
-
-<!-- Fonts -->
-<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-
-<!-- Theme CSS -->
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" defer/>
-
-<!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" defer/>
-
-<!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
-<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" />
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
-
-<!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" href="/manifest.json">
-
-<!-- RSS | JSON -->
-{{ range .AlternativeOutputFormats -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-{{ end -}}
-<link href="https://simeononsecurity.ch/rss.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-<link href="https://simeononsecurity.ch/rss.xml" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
 
 <!-- head custom -->
 {{- partial "extended_head.html" . }}
