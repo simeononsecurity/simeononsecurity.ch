@@ -1,4 +1,4 @@
-const cacheName = 'sos';
+const CACHE_NAME = 'sos';
 const staticAssets = [
     '/',
     '/index.html',
@@ -10,21 +10,16 @@ const staticAssets = [
     '/img/apple-touch-icon-192.png'
 ];
 
-const OFFLINE_URL = 'offline.html';
-
 self.addEventListener('install', function (event) {
     console.log('[ServiceWorker] Install');
-
     event.waitUntil((async () => {
-        const cache = await caches.open(cacheName);
-        await cache.addAll(staticAssets);
+        const cache = await caches.open(CACHE_NAME);
         // Setting {cache: 'reload'} in the new request will ensure that the response
         // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
-        await cache.add(new Request(OFFLINE_URL, {
+        await cache.addAll(new Request(staticAssets, {
             cache: 'reload'
         }));
     })());
-
     self.skipWaiting();
 });
 
@@ -43,63 +38,89 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', function (event) {
-    console.log('Fetch Event Activated:');
-    if (event.request.url.includes('https://simeononsecurity.ch/rss.xml')) {
-        console.log("url included https://simeononsecurity.ch/rss.xml");
-        console.log(event.request);
-        event.respondWith(
-            fetch(event.request)
-            .then(async function (response) {
-                const xmlString = await response.text();
-                const parser = new DOMParser();
-                const xml = parser.parseFromString(xmlString, 'text/xml');
-                const latestArticle = xml.querySelector('item');
-                const latestArticleTitle = latestArticle.querySelector('title').textContent;
-                const latestArticleLink = latestArticle.querySelector('link').textContent;
-                console.log(parser);
-                // Check if there is a new article
-                if (localStorage.getItem('latestArticleLink') !== latestArticleLink) {
-                    localStorage.setItem('latestArticleLink', latestArticleLink);
-                    // Show notification with the latest article title
-                    self.registration.showNotification(latestArticleTitle, {
-                        body: 'A new article is available!',
-                        tag: 'new-article-notification',
-                    });
-                }
-                return response;
-            })
-            .catch(function (error) {
-                console.error('Fetch error:', error);
-            })
-        );
-        event.waitUntil(async function() {
+    if (event.request.mode === 'navigate' || staticAssets.includes(event.request.url)) {
+        event.respondWith((async () => {
             try {
-                const response = await fetch(event.request);
-                const cache = await caches.open(cacheName);
-                await cache.put(event.request, response.clone());
-            } catch (error) {
-                console.error(error);
-            }
-        }());
-    } else {
-        event.respondWith(async function() {
-            try {
-                const cache = await caches.open(cacheName);
-                const cachedResponse = await cache.match(event.request);
-                if (cachedResponse) {
-                    return cachedResponse;
+                const preloadResponse = await event.preloadResponse;
+                if (preloadResponse) {
+                    return preloadResponse;
                 }
-                const response = await fetch(event.request);
-                await cache.put(event.request, response.clone());
-                return response;
+
+                const networkResponse = await fetch(event.request);
+                if (networkResponse.status === 200 && networkResponse.type === 'basic') {
+                    const cache = await caches.open(CACHE_NAME);
+                    cache.put(event.request, networkResponse.clone());
+                }
+                return networkResponse;
             } catch (error) {
-                console.error(error);
-                const cache = await caches.open(cacheName);
+                console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
+
+                const cache = await caches.open(CACHE_NAME);
                 const cachedResponse = await cache.match(OFFLINE_URL);
-                if (cachedResponse) {
-                    return cachedResponse;
-                }
+                return cachedResponse;
             }
-        }());
+        })());
+    }
+});
+
+const fetchRss = async () => {
+    const rssUrl = 'https://simeononsecurity.ch/rss.xml';
+    let parser;
+    if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
+        parser = new window.DOMParser();
+    } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
+        parser = new self.DOMParser();
+        try {
+            const response = await fetch(rssUrl);
+            const text = await response.text();
+            const xml = parser.parseFromString(text, "text/xml");
+            const items = xml.querySelectorAll("item");
+            const rssData = Array.from(items).map(item => {
+                const title = item.querySelector("title").textContent;
+                const link = item.querySelector("link").textContent;
+                return {
+                    title,
+                    link
+                };
+            });
+            return rssData;
+        } catch (error) {
+            console.error(`Failed to fetch RSS data: ${error}`);
+            console.error(error.stack);
+            return null;
+        }
+    } else {
+        // handle the error here, such as logging a message or throwing an exception
+        console.error("The DOMParser is not available in this context");
+    }
+};
+
+
+setInterval(async () => {
+    const rssData = await fetchRss();
+    if (rssData) {
+        const lastPost = rssData[0];
+        if (lastPost) {
+            // Check if this is a new post compared to what we have stored locally
+            const localLastPost = localStorage.getItem('lastPost');
+            if (!localLastPost || lastPost.title !== localLastPost) {
+                localStorage.setItem('lastPost', lastPost.title);
+                // Trigger the push event to show the notification
+                self.dispatchEvent(new PushEvent('push', {
+                    data: lastPost
+                }));
+            }
+        }
+    }
+}, 60000);
+
+self.addEventListener('push', event => {
+    if (Notification.permission === 'granted') {
+        const data = event.data.json();
+        const options = {
+            body: `${data.title}`,
+            badge: '/img/apple-touch-icon-192.png'
+        };
+        event.waitUntil(self.registration.showNotification('New Post', options));
     }
 });
