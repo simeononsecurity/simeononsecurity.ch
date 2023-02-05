@@ -64,10 +64,10 @@ const fetchRss = async () => {
     let parser;
     if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
         parser = new window.DOMParser();
-        console.log(parser);
+        console.log('DOMParser is Window');
     } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
         parser = new self.DOMParser();
-        console.log(parser);
+        console.log('DOMParser is Self');
     } else {
         // handle the error here, such as logging a message or throwing an exception
         console.error("The DOMParser is not available in this context");
