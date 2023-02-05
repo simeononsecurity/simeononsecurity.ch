@@ -5,15 +5,22 @@
 const divInstall = document.getElementById('installContainer');
 const butInstall = document.getElementById('butInstall');
 
+// Register the service worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
       console.log('Service Worker registration successful with scope: ', registration.scope);
+      Notification.requestPermission().then(function(permission) {
+        if (permission === 'granted') {
+          // Do something, such as sending a message to the service worker
+        }
+      });
     }, function(err) {
       console.log('Service Worker registration failed: ', err);
     });
   });
 }
+
 /**
  * Warn the page must be served over HTTPS
  * The `beforeinstallprompt` event won't fire if the page is served over HTTP.
