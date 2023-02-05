@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
       console.log('Service Worker registration successful with scope: ', registration.scope);
       Notification.requestPermission().then(function(permission) {
         if (permission === 'granted') {
-          // Do something, such as sending a message to the service worker
+          console.log('Notification Permission Was Granted');
         }
       });
     }, function(err) {
