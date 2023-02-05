@@ -1,10 +1,10 @@
 ---
-title: "Optimize, Debloat, and Harden Windows 10 Deployments"
+title: "Optimize and Harden Your Windows System with the Windows-Optimize-Harden-Debloat Script"
 date: 2020-12-29
 toc: true
 draft: false
-description: "For those who seek to minimize their Windows 10 installs."
-tags: ['Automation', 'Windows Updates', 'Windows 10 Optimizations', 'Windows 10 Debloat', 'Windows 10', 'Powershell', 'Script']
+description: "Windows Optimize, Harden and Debloat is a comprehensive script that helps improve the security and performance of Windows operating systems. The script provides two ways of installation - GUI based guided install and automated install. The manual install allows for customization of the optimization process with several parameters such as clearing Group Policy Objects settings, installing updates, hardening Windows Defender, and removing unnecessary programs. This article provides step-by-step instructions for each type of install and explains the parameters that allow for customization. Improve the security and performance of your Windows operating system with Windows Optimize, Harden, and Debloat."
+tags: ["Windows Optimize Harden Debloat", "Windows Hardening Script", "Windows Optimization", "Security Script", "Windows 10 Hardening", "Windows Scripting", "Windows Administration", "System Hardening", "Windows 10 Optimization", "Powershell Script", "Windows Security", "Windows Hardening Guide"]
 ---
 # Optimize, Harden, and Debloat Windows 10 and Windows 11 Deployments
 ## Introduction:

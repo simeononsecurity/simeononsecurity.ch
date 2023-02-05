@@ -1,10 +1,10 @@
 ---
-title: 'Harden Windows with Windows Defender Application Control (WDAC)'
+title: 'Harden Windows with Windows Defender Application Control (WDAC) - A Complete Guide with Scripts & Tools'
 date: 2020-12-16
 toc: true
 draft: false
-description: "Harden Windows with Windows Defender Application Control (WDAC)"
-tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Defender STIG Script', 'Windows Defender', 'Windows Defender Hardening', 'Windows Defender STIG', 'Defender STIG', 'Windows Defender Application Control', 'WDAC', 'Windows Defender Exploit Protection', 'WDEP', 'Windows Defender Attack Surface Reduction', 'ASR']
+description: "This article provides information on Windows Defender Application Control (WDAC), a tool used to harden Windows operating systems. It provides a comprehensive list of scripts and tools for implementing WDAC, including Microsoft's WDAC-Toolkit and Refresh CI Policy, and configurations from Microsoft's recommended block and driver block rules. The article explains the differences between XML and BIN policies and describes the various policy options, including default, recommended, audit, and enforced policies, and their available formats (XML, BIN, or CIP). Before implementing or testing, readers are advised to review the recommended reading section."
+tags: ["Windows Defender Application Control (WDAC) Hardening", "PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Windows Defender Exploit Protection (WDEP)", "Windows Defender Attack Surface Reduction (ASR)", "Windows Server 2016/2019", "Windows Server Core", "Microsoft WDAC-Toolkit", "Refresh CI Policy", "Microsoft Recommended block rules", "Microsoft Recommended driver block rules", "XML policies", "BIN policies", "Group Policy", "Microsoft Intune", "Default Policies", "Recommended Policies", "Audit Policies", "Enforced Policies", "XML policies: Audit Only", "XML policies: Enforced", "CIP policies"]
 ---
 # Windows-Defender-Application-Control-Hardening
 
