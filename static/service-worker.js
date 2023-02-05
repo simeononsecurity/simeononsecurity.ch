@@ -76,22 +76,16 @@ const fetchRss = async () => {
         return;
     }
     try {
-        const response = await fetch(rssUrl);
+        let response = await fetch(rssUrl);
         console.log(response);
-        const text = await response.text();
+        let text = await response.text();
         console.log(text);
-        const xml = parser.parseFromString(text, "text/xml");
-        console.log(xml);
-        const items = xml.querySelectorAll("item");
-        console.log(items);
-        const rssData = Array.from(items).map(item => {
-            const title = item.querySelector("title").textContent;
-            const link = item.querySelector("link").textContent;
-            return {
-                title,
-                link
-            };
-        });
+        let xml = parser.parseFromString(text, "text/xml");
+        let itemsArray = Array.from(xml.getElementsByTagName("item"));
+        let rssData = itemsArray.map(item => 
+            ({title: item.getElementsByTagName("title")[0].innerText, 
+              link: item.getElementsByTagName("link")[0].innerText }));
+        return rssData;
         console.log(rssData);
         return rssData;
     } catch (error) {
