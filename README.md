@@ -23,6 +23,9 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
         - Used for dynamic theme generation.
 - [Netlify](https://www.netlify.com/)
     - Used for Hosting, SSL Registration, Forms, Automated Hugo Site Generation
+- [Progressive Web App / Service Workers](https://web.dev/progressive-web-apps/)
+    - Used to increase usability and accessability of the site.
+    - Looking for help with https://github.com/simeononsecurity/simeononsecurity.ch/issues/487
 
 
 ### Responsible Disclosure:
