@@ -44,7 +44,6 @@ self.addEventListener('activate', (event) => {
 });
 
 // Listen for the `fetch` event
-
 self.addEventListener('fetch', function (event) {
     if (event.request.url.includes('https://simeononsecurity.ch/rss.xml')) {
         event.respondWith(
@@ -72,6 +71,10 @@ self.addEventListener('fetch', function (event) {
             .catch(function (error) {
                 console.error('Fetch error:', error);
             })
+        );
+        event.waitUntil(
+            // Perform any other long-running tasks here, such as updating the cache
+            // ...
         );
     }
 });
