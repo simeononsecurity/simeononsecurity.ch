@@ -73,7 +73,7 @@ const fetchRss = async () => {
     } else {
         // handle the error here, such as logging a message or throwing an exception
         console.error("The DOMParser is not available in this context");
-        const stoprss = true;
+        stoprss = true;
         return;
     }
         try {
