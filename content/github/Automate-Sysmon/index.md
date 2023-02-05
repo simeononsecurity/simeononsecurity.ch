@@ -1,18 +1,10 @@
 ---
-title: "Automating Sysmon Deployment and Configuration"
+title: "Automate Sysmon Deployment and Configuration for Improved Threat Detection"
 date: 2021-05-11
 toc: true
 draft: false
-description: "Increase your logging abilities to further your ability to detect threats and malicious activity on your systems."
-tags:
-  [
-    "Automation",
-    "How To Automate Sysmon",
-    "How To Automate Sysmon Configuration",
-    "How To Install Sysmon",
-    "Powershell",
-    "Script",
-  ]
+description: "Simplify your Sysmon deployment and configuration with the Automate-Sysmon script. Automate the installation and setup of Sysmon to increase your logging abilities and enhance threat detection capabilities. Download the script from the GitHub repository and run it with a single command for an automated process or manually install by following the instructions provided."
+tags: ["Automation", "How To Automate Sysmon", "How To Automate Sysmon Configuration", "How To Install Sysmon", "Powershell", "Script", "Sysmon Deployment", "Sysmon Configuration", "Sysmon Logging", "Threat Detection", "Malicious Activity", "SwiftOnSecurity/sysmon-config", "Microsoft Sysinternals", "GitHub Repository", "BHIS"]
 ---
 
 # Automate-Sysmon

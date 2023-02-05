@@ -1,15 +1,15 @@
 ---
-title: 'Hardening Windows Systems with Applocker'
+title: 'Maximize Windows Security with Ultimate Applocker Hardening Configuration Script - GitHub'
 date: 2020-11-19
 toc: true
 draft: false
-description: "Lock down system resources to bare minumum needed for basic OS functionality"
-tags: ['PowerShell', 'PowerShell Script', 'Automation', 'Compliance', 'Blue-Team', 'Windows Applocker', 'Applocker', 'Application Controll', 'Windows Hardening']
+description: "Maximize the security of your Windows systems with the Ultimate Applocker Hardening Configuration Script. Download the required files from the GitHub repository and run the script to lock down system resources to the bare minimum needed for basic OS functionality. Stay compliant with the recommended block rules from Microsoft and the NSA Cyber Bitlocker Guidance. Improve your application control with the help of this PowerShell script."
+tags: ["Windows Applocker Hardening", "Windows Hardening", "Application Control", "Compliance", "PowerShell Script", "Automation", "Windows Security", "Microsoft Recommendations", "NSA Cyber Bitlocker Guidance", "GitHub Repository"]
 ---
 Ultimate Applocker Hardening Configuration Script.
 
 ## What does this script do?
-- Locks down system resources to bare minumum needed for basic OS functionality
+- Locks down system resources to bare minimum needed for basic OS functionality
 
 ## Recommended reading:
 - [api0cradle/UltimateAppLockerByPassList)](https://github.com/api0cradle/UltimateAppLockerByPassList)

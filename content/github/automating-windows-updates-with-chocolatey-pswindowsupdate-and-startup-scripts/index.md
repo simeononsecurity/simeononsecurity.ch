@@ -1,11 +1,10 @@
 ---
-title: "Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts"
+title: "Streamline Windows Updates with Automation using Chocolatey, PSWindowsUpdate, and Startup Scripts"
 date: 2020-07-22T17:46:00-05:00
 toc: true
 draft: false
-description: "In today's modern workplace environment, system administrators constantly are battling for time. Rolling out the latest Windows updates can be extremely time consuming taking up to a week given enough systems.
-Along with some assistance from Chocolatey, PSWindowsUpdates, and Startup Scripts, Systems Administrators can roll out update with as little as a single reboot of each machine."
-tags: ['Automation', 'How To Automate Windows Updates', 'Windows Updates', 'Windows 10', 'Powershell', 'Script']
+description: "Streamline Windows update processes with the help of Chocolatey, PSWindowsUpdate, and Startup Scripts. In this tutorial, learn how to automate Windows updates with a single reboot and save valuable time for system administrators. Follow the step-by-step guide to set up the shutdown script and understand how the script works using PowerShell."
+tags: ["Automation", "Windows Updates", "Windows 10", "Powershell", "Script", "Chocolatey", "PSWindowsUpdate", "Startup Scripts", "How To Automate Windows Updates", "System Administrators", "Windows Update Processes", "Local Group Policy Editor", "GP, GPO, Group Policy Objects"]
 ---
 
 # Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts
