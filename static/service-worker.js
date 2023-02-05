@@ -56,6 +56,7 @@ self.addEventListener('fetch', function (event) {
                     const latestArticle = xml.querySelector('item');
                     const latestArticleTitle = latestArticle.querySelector('title').textContent;
                     const latestArticleLink = latestArticle.querySelector('link').textContent;
+                    console.log(parser);
                     // Check if there is a new article
                     if (localStorage.getItem('latestArticleLink') !== latestArticleLink) {
                         localStorage.setItem('latestArticleLink', latestArticleLink);
