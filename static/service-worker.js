@@ -103,7 +103,7 @@ const fetchRss = async () => {
 
 };
 
-if (stoprss != true){
+while (stoprss != true){
     setInterval(async () => {
         const rssData = await fetchRss();
         if (rssData) {
