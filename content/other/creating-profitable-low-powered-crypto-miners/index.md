@@ -158,6 +158,19 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         peer2profit/peer2profit_linux:latest 
 ```
 
+### Install Repocket:
+[*Get Paid For Your Unused Internet*](https://repocket.co/)
+
+Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+
+#### Create a Repocket Account:
+Create an account at [repocket.co](https://repocket.co/)
+
+#### Install the Docker Container:
+Modify the following line with your email and password before pasting into your terminal.
+```bash
+docker run -e RP_EMAIL=your@email.com -e RP_PASSWORD=yourpassword -d --restart=always repocket/repocket
+```
 
 ### Install Traff Monetizer:
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
@@ -190,9 +203,13 @@ ufw allow 59850:60000/tcp
 
 #### Setup the Docker Container:
 Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+
 Click “start node setup”.
+
 Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+
 Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+
 Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
 
 #### Port Forwarding:
