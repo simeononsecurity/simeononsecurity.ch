@@ -139,6 +139,20 @@ Modify the string with the obvious email, password, and device name before pasti
 docker run --name honeygain -d honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
+### Install PawnsApp:
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=966467)
+Pawns app, again similar to the others listed here offer to pay you for sharing your internet. 
+
+#### Create a PawnsApp Account:
+Create an account at [https://pawns.app](https://pawns.app/?r=966467)
+
+#### Install the Docker Container:
+
+Modify the following with your email, password, device name, and device id before copying to your terminal.
+```bash
+docker pull iproyal/pawns-cli:latest
+docker run --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
+```
 
 ### Install Peer 2 Profit:
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
