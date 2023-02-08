@@ -18,7 +18,7 @@ pip install chatgpt requests readline
 
 ```
 
-**Windows Powershell**
+**Windows PowerShell**
 ```powershell
 
 pip install chatgpt requests pyreadline3
@@ -38,6 +38,7 @@ chatgpt answer --question "What is the capital of France?"
 ```
 
 The ChatGPT CLI can also be utilized with basic scripts:
+
 **Linux:**
 ```bash
 prompt="What is the meaning of life?"
