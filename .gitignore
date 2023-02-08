@@ -24,6 +24,8 @@ bin-release/
 .DS_Store
 dist
 tmp
+.vs
+debug.log
 
 # Executables
 *.swf
