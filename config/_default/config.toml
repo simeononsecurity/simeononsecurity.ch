@@ -165,3 +165,11 @@ getenv = ['^HUGO_', '^WC_', 'babel']
 [security.http]
 methods = ['(?i)GET|POST']
 urls = ['.*']
+
+
+[imaging]
+  [imaging.exif]
+    disableDate = true
+    disableLatLong = true
+    includeFields = ''
+
