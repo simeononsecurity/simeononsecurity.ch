@@ -26,6 +26,10 @@ Wide variety of models out there. Feel Free to choose a newer one.
 ### Any USFF/Tiny/Mini/Micro PC:
 - [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
 - [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+### Any Mini PC with Intel N5100 or similar
+For super low power Raspberry Pi equivalent but on x64 platform. 
+- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ## OS Installation:
 We won't go into the technical details of how to install an operating system here. However here is some great resources to get you started
