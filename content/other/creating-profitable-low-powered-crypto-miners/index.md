@@ -239,5 +239,57 @@ sudo docker update --restart unless-stopped $(docker ps -q)
 
 ### Optional Configurations:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
+- [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
+#### Increase security by blocking malware and trackers.
+Force all dns requests to Cloudflares malware and tracking protection dns.
+Also, block DNS/HTTPS requests.
+*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
+```bash
+# Allow ssh still
+sudo ufw allow 22
+# Allow dns out
+sudo ufw allow out 53/tcp
+sudo ufw allow out 53/udp
+# Redirect all dns back to 1.1.1.2 or 1.0.0.2
+sudo iptables -t nat -A OUTPUT -p udp --dport 53 ! -d 1.0.0.2 -j DNAT --to-destination 1.1.1.2
+sudo iptables -t nat -A OUTPUT -p udp --dport 53 ! -d 1.1.1.2 -j DNAT --to-destination 1.0.0.2
+# Block DNS over HTTPS
+sudo ufw deny out 853/tcp
+sudo ufw deny out 853/udp 
+iptables -A FORWARD -m string --string "get_peers" --algo bm -j LOGDROP
+iptables -A FORWARD -m string --string "announce_peer" --algo bm -j LOGDROP
+iptables -A FORWARD -m string --string "find_node" --algo bm -j LOGDROP
+# Block Default ToR Ports
+sudo ufw deny out 9050/tcp
+sudo ufw deny out 9050/udp
+sudo ufw deny out 9051/tcp
+sudo ufw deny out 9051/udp
+# Block Torrents
+sudo ufw deny out 6881/tcp
+sudo ufw deny out 6881/udp
+sudo ufw deny out 6882-6999/tcp
+sudo ufw deny out 6882-6999/udp
+iptables -A FORWARD -m string --algo bm --string "BitTorrent" -j DROP
+iptables -A FORWARD -m string --algo bm --string "BitTorrent protocol" -j DROP
+iptables -A FORWARD -m string --algo bm --string "peer_id=" -j DROP
+iptables -A FORWARD -m string --algo bm --string ".torrent" -j DROP
+iptables -A FORWARD -m string --algo bm --string "announce.php?passkey=" -j DROP
+iptables -A FORWARD -m string --algo bm --string "torrent" -j DROP
+iptables -A FORWARD -m string --algo bm --string "announce" -j DROP
+iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
+# Save the Changes and Enable the Firewall
+sudo iptables-save
+sudo ufw enable
+```
+For more advanced ToR blocking you can do the following:
+```bash
+#https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
+sudo apt-get -y install ipset
+ipset create tor iphash
+curl -sSL "https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=$(curl icanhazip.com)" | sed '/^#/d' | while read IP; do
+  ipset -q -A tor $IP
+done
+iptables -A INPUT -m set --match-set tor src -j DROP
+```
 
 ## Profit?
