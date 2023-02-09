@@ -1,6 +1,6 @@
 ---
 title: "Use ChatGPT in your Terminal (Bash, PowerShell, Python): An Introduction to the ChatGPT CLI Tool for Developers"
-date: 2020-02-07
+date: 2023-02-07
 toc: true
 draft: false
 description: "Learn how to use the OpenAI's ChatGPT model through the convenient Command Line Interface (CLI) for text generation and question answering with ease."

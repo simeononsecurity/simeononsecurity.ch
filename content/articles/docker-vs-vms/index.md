@@ -1,6 +1,6 @@
 ---
 title: "Unleashing the Power of Docker: Why it Dominates VMs in Modern Cloud Computing"
-date: 2020-02-02
+date: 2023-02-02
 toc: true
 draft: false
 description: "Discover the power of Docker in cloud computing, as it outpaces VMs with its simplicity, scalability, security, and cost-effectiveness, in this article."

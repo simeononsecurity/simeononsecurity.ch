@@ -1,6 +1,6 @@
 ---
 title: "The Importance of Compliance and Professionalism in Cybersecurity"
-date: 2020-02-08
+date: 2023-02-08
 toc: true
 draft: false
 description: "Cybersecurity is a critical aspect of modern business operations and requires a comprehensive approach that involves the right systems, protocols, and personnel to effectively manage defenses against cyberattacks."

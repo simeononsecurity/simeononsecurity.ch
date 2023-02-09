@@ -1,6 +1,6 @@
 ---
 title: "Hardening Your Computer's Security by Disabling SSL and TLS 1.2 and Below"
-date: 2020-02-08
+date: 2023-02-08
 toc: true
 draft: false
 description: "This article discusses the steps to improve data security by disabling older versions of SSL and TLS protocols, which are vulnerable to cyber threats such as POODLE, BEAST, and Heartbleed, in Windows and Linux systems."

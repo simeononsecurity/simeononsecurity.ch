@@ -1,6 +1,6 @@
 ---
 title: "The Power of Cybersecurity: How to Build a Compliant & Secure Windows System with Standalone-Windows-STIG-Script"
-date: 2020-02-02
+date: 2023-02-02
 toc: true
 draft: false
 description: "Discover how to create a secure and compliant Windows system with the easy-to-use Standalone-Windows-STIG-Script, an informative article with step-by-step instructions and detailed parameter explanations."

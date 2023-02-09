@@ -1,6 +1,6 @@
 ---
 title: "Unlocking the Power of Docker: The Essential Guide for Enterprise Transformation"
-date: 2020-02-02
+date: 2023-02-02
 toc: true
 draft: false
 description: "Discover the power of Docker and its benefits for enterprise transformation in this comprehensive guide to improving application portability, security, efficiency, and development."

@@ -1,6 +1,6 @@
 ---
 title: "The Art of Reverse Engineering: Uncovering IoT Network Security Vulnerabilities"
-date: 2020-02-02
+date: 2023-02-02
 toc: true
 draft: false
 description: "Discover the power of reverse engineering to uncover IoT network security flaws and improve overall system security."

@@ -1,6 +1,6 @@
 ---
 title: "Maximize Your Security & Privacy: Hardening and Debloating Windows"
-date: 2020-02-02
+date: 2023-02-02
 toc: true
 draft: false
 description: "Stay Safe Online: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy.."

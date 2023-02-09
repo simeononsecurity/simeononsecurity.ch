@@ -1,6 +1,6 @@
 ---
 title: "The Power of PowerShell for Enhanced Cybersecurity Operations and Compliance"
-date: 2020-02-02
+date: 2023-02-02
 toc: true
 draft: false
 description: "Explore the power of PowerShell in enhancing cybersecurity operations and achieving compliance with industry standards through automation and streamlined processes."

@@ -1,6 +1,6 @@
 ---
 title: "A Comparison of Plex Media Server vs JellyFin"
-date: 2020-02-01
+date: 2023-02-01
 toc: true
 draft: false
 description: "Discover the difference between Plex Media Server and Jellyfin in this comprehensive comparison article for an informed decision on the best media server solution."

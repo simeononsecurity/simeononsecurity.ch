@@ -1,6 +1,6 @@
 ---
 title: "Upgrade to Windows Server 2019 or Switch to Azure: Which Option is Right for Your Business?"
-date: 2020-02-08
+date: 2023-02-08
 toc: true
 draft: false
 description: "This article explores the benefits of upgrading to Server 2019 or switching to Azure, including improved security, performance, integration, and support, to help organizations make the best decision for their IT infrastructure."
