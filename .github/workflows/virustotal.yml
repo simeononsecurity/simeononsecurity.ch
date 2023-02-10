@@ -8,12 +8,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v3
-      -
-        name: VirusTotal Scan
+
+      - name: Find Files
+        id: find_files
+        run: |
+          files_to_scan=$(find . -type f \( -name "*.html" -o -name "*.ps1" \))
+          echo "::set-env name=FILES_TO_SCAN::$files_to_scan"
+
+      - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v3
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
-          files: .*\.html$
+          files: ${{ env.FILES_TO_SCAN }}
