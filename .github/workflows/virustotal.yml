@@ -12,15 +12,13 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Find Files
-        id: find_files
         run: |
           files_to_scan=$(find . -type f \( -name "*.html" -o -name "*.ps1" \))
-          files_to_scan=$(echo "$files_to_scan" | sed 's,^\./,$GITHUB_WORKSPACE/,g')
-          echo "FILES_TO_SCAN=$files_to_scan" >> $GITHUB_ENV
+          echo "$files_to_scan" > files_to_scan.txt
 
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v3
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           files: |
-            ${{ env.FILES_TO_SCAN }}
+            $(cat files_to_scan.txt)
