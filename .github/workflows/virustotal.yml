@@ -21,5 +21,7 @@ jobs:
         uses: crazy-max/ghaction-virustotal@v3
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
+          vt_monitor: true
+          monitor_path: ./
           files: |
             $(cat files_to_scan.txt)
