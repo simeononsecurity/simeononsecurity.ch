@@ -7,7 +7,7 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
 ![Hugo Build](https://github.com/simeononsecurity/simeononsecurityweb/workflows/hugo/badge.svg)
 ![Greetings](https://github.com/simeononsecurity/simeononsecurityweb/workflows/Greetings/badge.svg)
 ![Mark stale issues and pull requests](https://github.com/simeononsecurity/simeononsecurityweb/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)
-
+[![VirusTotal Scan](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml)
 
 ### Technologies used:
 - [CloudFlare](https://www.cloudflare.com/)
