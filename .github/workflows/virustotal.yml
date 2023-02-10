@@ -11,20 +11,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
+
       - name: Scan files
         uses: crazy-max/ghaction-virustotal@v3
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           files: |
-            *.html
-            *.ps1
-        id: scan_results
-
-      - name: Wait for analysis string
-        run: |
-          echo "Waiting for VirusTotal analysis to complete..."
-          while [ -z "${{ steps.scan_results.outputs.analysis }}" ]; do
-            sleep 1
-          done
-          echo "Analysis results: ${{ steps.scan_results.outputs.analysis }}"
+            .*\.html$
+            .*\.ps1$
