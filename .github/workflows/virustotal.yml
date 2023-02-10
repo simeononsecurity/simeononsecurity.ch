@@ -15,6 +15,9 @@ jobs:
         run: |
           files_to_scan=$(find . -type f \( -name "*.html" -o -name "*.ps1" \) -print0 | tr '\0' '\n')
           echo "$files_to_scan" > files_to_scan.txt
+          cat files_to_scan.txt
+
+
 
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v3
@@ -22,4 +25,4 @@ jobs:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           vt_monitor: true
           monitor_path: ./
-          files: "$(cat files_to_scan.txt)"
+          files: "$(while IFS= read -r line; do echo $line; done < files_to_scan.txt)"
