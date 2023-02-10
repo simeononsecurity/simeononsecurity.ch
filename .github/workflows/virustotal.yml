@@ -16,7 +16,8 @@ jobs:
           files_to_scan=$(find . -type f \( -name "*.html" -o -name "*.ps1" \) -print0 | tr '\0' '\n')
           echo "$files_to_scan" > files_to_scan.txt
           cat files_to_scan.txt
-
+          echo "test output"
+          while IFS= read -r line; do echo $line; done < files_to_scan.txt
 
 
       - name: VirusTotal Scan
