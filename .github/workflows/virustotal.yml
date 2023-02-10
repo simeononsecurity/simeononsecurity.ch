@@ -19,6 +19,6 @@ jobs:
                --url https://www.virustotal.com/api/v3/files \
                --header 'accept: application/json' \
                --header 'content-type: multipart/form-data' \
-               --header "x-apikey: \'${{ secrets.VT_API_KEY }}\'" \
+               --header "x-apikey: {{ secrets.VT_API_KEY }}" \
                --form file=@$file
         done
