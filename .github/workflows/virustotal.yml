@@ -15,7 +15,7 @@ jobs:
         id: find_files
         run: |
           files_to_scan=$(find . -type f \( -name "*.html" -o -name "*.ps1" \))
-          echo "::set-env name=FILES_TO_SCAN::$files_to_scan"
+          echo "FILES_TO_SCAN=$files_to_scan" >> $GITHUB_ENV
 
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v3
