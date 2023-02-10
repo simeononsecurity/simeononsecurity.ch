@@ -2,9 +2,7 @@ name: VirusTotal Scan
 
 on:
   push:
-    paths:
-      - '**/*.ps1'
-      - '**/*.html'
+  pull_request:
 
 jobs:
   virus_total_scan:
