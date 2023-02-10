@@ -15,6 +15,7 @@ jobs:
         id: find_files
         run: |
           files_to_scan=$(find . -type f \( -name "*.html" -o -name "*.ps1" \))
+          files_to_scan=$(echo "$files_to_scan" | sed 's,^\./,$GITHUB_WORKSPACE/,g')
           echo "FILES_TO_SCAN=$files_to_scan" >> $GITHUB_ENV
 
       - name: VirusTotal Scan
