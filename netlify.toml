@@ -66,31 +66,6 @@ NODE_VERSION = "18.14.0"
 		"yandex"
 	]
 
-[[plugins]]
-package = "netlify-plugin-image-optim"
-
-  [[plugins]]
-  package = "netlify-plugin-inline-critical-css"
-
-  # All inputs are optional, so you can omit this section.
-  # Defaults are shown below.
-  [plugins.inputs]
-    # A filter used to target specific files in the publish directory. Be sure to only target HTML files. This option is passed onto the readdirp library, see https://github.com/paulmillr/readdirp#options for more info.
-    fileFilter = ["*.html"]
-
-    # A filter used to target or ignore specific directories in the publish directory. This option is passed onto the readdirp library, see https://github.com/paulmillr/readdirp#options for more info.
-    directoryFilter = ["!node_modules"]
-
-    # You can refer to `critical`’s documentation: https://github.com/addyosmani/critical for all options below.
-    # Whether to remove the inlined styles from any stylesheet referenced in the HTML. Use with caution. Removing the critical CSS per page results in a unique async loaded CSS file for every page, meaning you can’t rely on cache across multiple pages.
-    extract = false
-
-    # An array of objects containing `width` and `height` properties to deliver critical CSS for multiple screen resolutions.
-    dimensions = [
-      { width = 414, height = 896 },
-      { width = 1920, height = 1080 }
-    ]
-
 	[[plugins]]
 package = "netlify-plugin-subfont"
 
