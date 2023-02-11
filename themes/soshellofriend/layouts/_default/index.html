@@ -13,6 +13,7 @@
       {{ .Content }}
     </div>
   {{ end }}
+  {{ partial "displayads-responsive-horizontal.html" . }}
   <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
   <div class="posts">
     {{ range $paginator.Pages }}
@@ -62,9 +63,9 @@
       {{ if not .Params.hideReadMore }}
         <div><a class="read-more button" href="{{.RelPermalink}}" title="read more">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
-      {{ partial "displayads-responsive-horizontal.html" . }}
     </article>
     {{ end }}
     {{ partial "pagination.html" . }}
+    {{ partial "displayads-responsive-horizontal.html" . }}
   </div>
 {{ end }}
