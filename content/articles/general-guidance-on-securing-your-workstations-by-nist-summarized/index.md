@@ -4,7 +4,7 @@ date: 2023-02-14
 toc: true
 draft: false
 description: "Learn how to secure your workstations and protect sensitive information with this comprehensive guide based on NIST's recommendations for implementing strong access controls, keeping software up-to-date, using antivirus software, enabling firewall protection, implementing data encryption, and regularly backing up data."
-tags: ["NIST recommendations," "workstation security," "cybersecurity," "data encryption," "firewall protection," "antivirus software," "access controls," "sensitive information," "cyberattacks," "data backup"]
+tags: ["NIST recommendations", "workstation security", "cybersecurity", "data encryption", "firewall protection", "antivirus software", "access controls", "sensitive information", "cyberattacks", "data backup"]
 ---
 # NIST General Guidance on Securing Workstations
 
