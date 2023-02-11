@@ -8,5 +8,12 @@
      data-ad-client="ca-pub-4092442123207538"
      data-ad-slot="8444676629"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+     function loadAd() {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+        window.addEventListener("scroll", function() {
+          if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+            loadAd();
+          }
+        });
 </script>
