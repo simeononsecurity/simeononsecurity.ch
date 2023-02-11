@@ -1,13 +1,13 @@
 ---
-title: "The DoD 5220.22-M Data Sanitization Standard"
+title: "FISMA 101: An Overview of the Federal Information Security Modernization Act"
 date: 2023-02-12
 toc: true
 draft: false
-description: "The DoD 5220.22-M specification is a critical standard for securely erasing sensitive information from digital storage media, widely used by the U.S. military and government organizations."
-tags: ["DoD 5220.22-M", "data sanitization", "digital storage media", "U.S. military", "government organizations", "sensitive information", "security", "data erasure", "multi-pass process", "ECE method"]
+description: "FISMA 101 provides a comprehensive overview of the Federal Information Security Modernization Act, including its key components, benefits, and requirements for federal agencies."
+tags: ["FISMA," "Federal Information Security," "Information Security," "Risk Management," "Security Control Assessment," "Continuous Monitoring," "Incident Response," "Authorization and Accreditation," "Improved Information Security," "Better Risk Management," "Increased Transparency," "Strengthened Collaboration"]
 ---
 
-# FISMA Summarized: An Overview of the Federal Information Security Modernization Act
+# FISMA 101: An Overview of the Federal Information Security Modernization Act
 
 ## Introduction
 
