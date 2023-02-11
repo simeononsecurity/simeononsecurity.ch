@@ -87,6 +87,7 @@
     color: black;
     border: none;
     text-decoration: none;
+    padding: 48px
 }
 
 .dark-theme .post-tags a{

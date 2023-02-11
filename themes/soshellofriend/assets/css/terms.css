@@ -2,12 +2,12 @@
   width: 100%;
   max-width: 800px;
   text-align: left;
-  padding: 20px;
+  padding: 48px;
   margin: 0 auto;
 
   &__list {
     padding: 0;
-    padding-left: 20px;
+    padding-left: 48px;
     margin: 0;
 
     a {
