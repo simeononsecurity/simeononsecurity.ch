@@ -38,10 +38,6 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ template "_internal/google_analytics_async.html" . }}
 <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-173461240-1"></script>
 
-<!-- Ads JS Load -->
-{{ partial "googleadsload.html" . }}
-{{ partial "amazonadsload.html" . }}
-
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -49,6 +45,8 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
   gtag('config', 'UA-173461240-1',{ 'anonymize_ip': true });
 </script>
 
+<!-- Ads JS Load -->
 {{ partial "googleadsload.html" . }}
 {{ partial "amazonadsload.html" . }}
 {{ partial "amazon-responsive-dynamic.html" . }}
+
