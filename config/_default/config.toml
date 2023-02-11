@@ -17,7 +17,7 @@ name = "SimeonOnSecurity"
 
 [params]
 #Google Analytics Tag
-googleAnalytics = "UA-173461240-1"
+googleAnalytics = "G-W3SL745QY6"
 
 #Site Post Cover
 images = ["/img/banner.png"]
