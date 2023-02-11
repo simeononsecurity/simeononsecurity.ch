@@ -50,10 +50,10 @@
         <aside class="table-of-contents">{{ .TableOfContents }}</aside>
         {{ end }}
       {{ end }}
-      {{ partial "/ads/displayads-responsive-horizontal.html" . }}
+      {{ partial "displayads-responsive-horizontal.html" . }}
       {{ .Content }}
       {{ partial "share-buttons.html" . }}
-      {{ partial "/ads/displayads-responsive-horizontal.html" . }}
+      {{ partial "displayads-responsive-horizontal.html" . }}
     </div>
     {{ if eq .Type $.Site.Params.contentTypeName }}
       {{ if or .NextInSection .PrevInSection }}
