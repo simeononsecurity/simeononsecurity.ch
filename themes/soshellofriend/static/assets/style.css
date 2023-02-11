@@ -714,14 +714,16 @@ h4:hover a {
     color: black;
     border: none;
     text-decoration: none;
-    padding: 48px;
+    padding: 24px;
+    margin: 8px;
 }
 
 .dark-theme .post-tags a{
     color: white;
     border: none;
     text-decoration: none;
-    padding: 48px;
+    padding: 24px;
+    margin: 8px;
 }
 
 .post-tags a:hover {
