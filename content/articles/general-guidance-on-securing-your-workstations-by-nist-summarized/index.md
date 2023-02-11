@@ -1,6 +1,6 @@
 ---
 title: "Securing Your Workstations: A Guide Based on NIST Recommendations"
-date: 2023-02-13
+date: 2023-02-14
 toc: true
 draft: false
 description: "Learn how to secure your workstations and protect sensitive information with this comprehensive guide based on NIST's recommendations for implementing strong access controls, keeping software up-to-date, using antivirus software, enabling firewall protection, implementing data encryption, and regularly backing up data."
