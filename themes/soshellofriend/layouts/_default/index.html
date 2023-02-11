@@ -17,7 +17,7 @@
   <div class="posts">
     {{ range $paginator.Pages }}
     <article class="post on-list">
-      <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+      <h1 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title | markdownify }}">{{ .Title | markdownify }}</a></h1>
       <div class="post-meta">
         {{ if .Date }}
           <time class="post-date">
@@ -41,7 +41,7 @@
       {{ if .Params.tags }}
         <span class="post-tags">
           {{ range .Params.tags }}
-            <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/">#{{ . }}</a>&nbsp;
+            <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
           {{ end }}
         </span>
       {{ end }}
@@ -60,7 +60,7 @@
         {{ end }}
       </div>
       {{ if not .Params.hideReadMore }}
-        <div><a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
+        <div><a class="read-more button" href="{{.RelPermalink}}" title="read more">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
     </article>
     {{ end }}

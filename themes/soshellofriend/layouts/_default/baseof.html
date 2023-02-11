@@ -11,7 +11,7 @@
     {{ partial "head.html" . }}
   </head>
   <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
-    <a href="#" class="top"></a>
+    <a href="#" title="top" class="top"></a>
     <div class="container">
       {{ partial "header.html" . }}
 
