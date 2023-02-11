@@ -4,7 +4,7 @@ date: 2023-02-13
 toc: true
 draft: false
 description: "Learn about the crucial role of freezing your credit in protecting your financial future and find out how to take control of your credit score."
-tags: ["credit freeze," "credit score," "identity theft protection," "financial security," "credit bureaus," "Equifax," "Experian," "TransUnion," "fraud prevention."]
+tags: ["credit freeze", "credit score", "identity theft protection", "financial security", "credit bureaus", "Equifax", "Experian", "TransUnion", "fraud prevention"]
 ---
 
 # Protect Your Credit Score: The Importance of Freezing Your Credit
