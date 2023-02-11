@@ -87,7 +87,6 @@
     color: black;
     border: none;
     text-decoration: none;
-    margin: 8px;
     padding: 48px;
 }
 
@@ -95,6 +94,7 @@
     color: white;
     border: none;
     text-decoration: none;
+    padding: 48px;
 }
 
 .post-tags a:hover {
