@@ -4,7 +4,7 @@ date: 2023-02-08
 toc: true
 draft: false
 description: "Discover the improved security features, management and automation capabilities, and performance and scalability of Windows Server 2022, making it the best choice for businesses looking to upgrade from Windows Server 2019."
-tags: ["Windows Server 2022, Upgrade, Business, Security, Management, Automation, Performance, Scalability, Windows Server 2019"]
+tags: ["Windows Server 2022", "Upgrade", "Business", "Security", "Management", "Automation", "Performance", "Scalability", "Windows Server 2019"]
 ---
 
 # Why Your Business Should Upgrade to Windows Server 2022
