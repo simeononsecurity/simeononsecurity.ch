@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
   <div class="posts">
     {{ range .Pages }}
       <article class="post on-list">
