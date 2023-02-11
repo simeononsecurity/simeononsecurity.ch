@@ -62,7 +62,7 @@
       {{ if not .Params.hideReadMore }}
         <div><a class="read-more button" href="{{.RelPermalink}}" title="read more">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
-      {{ partial "displayads-responsive-horizontal.html" . }}
+      {{ partial "/ads/displayads-responsive-horizontal.html" . }}
     </article>
     {{ end }}
     {{ partial "pagination.html" . }}
