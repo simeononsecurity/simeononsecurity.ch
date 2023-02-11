@@ -83,7 +83,7 @@ publisherLogoHeight = 460
 [languages]
 [languages.en]
 title = "simeononsecurity"
-subtitle = "a cybersecurity, automation, information technology, and cryptocurrency blog"
+subtitle = "a cybersecurity, automation, and cryptocurrency blog"
 #description = "SimeonOnSecurity.ch is a comprehensive blog that covers a wide range of topics related to privacy, security, and technology. From programming and devops to automation and PowerShell, this blog offers in-depth information and guidance on the latest trends and best practices in cybersecurity. Whether you're a home lab enthusiast or an enterprise solution provider, this blog is an essential resource for anyone looking to stay ahead of the curve and protect their digital assets."
 description = "Stay ahead in cybersecurity. Discover latest trends & best practices on privacy, security & tech on SimeonOnSecurity.ch. Essential resource for all."
 keywords = "security, privacy, automation, cybersecurity, information technology, cryptocurrency, blog, hardening, compliance, programming, devops, powershell, c sharp, ansible, docker containers, windows, DoD and DISA STIGs, home labs, enterprise solutions, python, windows 10"
