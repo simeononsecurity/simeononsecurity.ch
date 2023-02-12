@@ -3,7 +3,7 @@ title: "Automating Security Compliance: A List of STIG Scripts"
 date: 2023-02-11
 toc: true
 draft: false
-description: "Discover a collection of scripts designed to automate the implementation of Security Technical Implementation Guides (STIGs) for various systems and applications", "including Windows and popular applications."
+description: "Discover a collection of scripts designed to automate the implementation of Security Technical Implementation Guides (STIGs) for various systems and applications, including Windows and popular applications."
 tags: ["STIG scripts", "security compliance", "automation", "Windows", "applications", ".NET", "Adobe Reader DC", "Oracle JRE 8", "FireFox", "Ansible playbooks", "domain prep", "standalone scripts"]
 ---
 
