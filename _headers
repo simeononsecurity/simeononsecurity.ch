@@ -1,5 +1,5 @@
 /*
-    Access-Control-Allow-Origin: "https://simeononsecurity.ch" 
+    Access-Control-Allow-Origin: "https://pages.simeononsecurity.ch" 
     Cache-Control: "Public, no-transform, max-age=31536000"
     #The `Expect-CT` header is deprecated and will be removed. Chrome requires Certificate Transparency for all publicly trusted certificates issued after April 30, 2018.
     #Expect-Ct: "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
