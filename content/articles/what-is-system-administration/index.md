@@ -4,7 +4,7 @@ date: 2023-02-12
 toc: true
 draft: false
 description:  "Discover the key skills and trends shaping the field of system administration, including the differences between system and network administration, the facets of Windows, Linux, hardware and software, and virtualization administration, and the rise of cloud platforms and services."
-tags: ["System Administration, Network Administration, Windows Administration, Linux Administration, Hardware Administration, Software Administration, Virtualization, Cloud Platforms, IaaS, SaaS, HaaS"]
+tags: ["System Administration", "Network Administration", "Windows Administration", "Linux Administration", "Hardware Administration", Software Administration", "Virtualization", "Cloud Platforms", "IaaS", "SaaS", "HaaS"]
 ---
 # What is System Administration
 
