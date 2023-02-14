@@ -1,41 +1,8 @@
-
-{{/*  <script src="https://utteranc.es/client.js"
+<script src="https://utteranc.es/client.js"
         repo="simeononsecurity/simeononsecurity.ch-comments"
         issue-term="url"
         label="Comment"
         theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
-</script>  */}}
-
-
-<script>
-    function lazyLoadUtterances() {
-        var utterancesScript = document.createElement('script');
-        utterancesScript.src = 'https://utteranc.es/client.js';
-        utterancesScript.setAttribute('repo', 'simeononsecurity/simeononsecurity.ch-comments');
-        utterancesScript.setAttribute('issue-term', 'url');
-        utterancesScript.setAttribute('label', 'Comment');
-        utterancesScript.setAttribute('theme', 'preferred-color-scheme');
-        utterancesScript.setAttribute('crossorigin', 'anonymous');
-        document.head.appendChild(utterancesScript);
-      }
-      
-      function handleIntersection(entries, observer) {
-        entries.forEach(function(entry) {
-          if (entry.isIntersecting) {
-            lazyLoadUtterances();
-            observer.unobserve(entry.target);
-          }
-        });
-      }
-      
-      var options = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0
-      };
-      
-      var observer = new IntersectionObserver(handleIntersection, options);
-      observer.observe(document.querySelector('#utterances-container'));
 </script>
