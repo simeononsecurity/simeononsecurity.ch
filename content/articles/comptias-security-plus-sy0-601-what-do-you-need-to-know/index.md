@@ -59,17 +59,17 @@ If you prefer video resources, there's a great video series on YouTube titled ["
 
 In addition to studying the exam objectives and recommended materials, it may be helpful to have access to certain hardware and software to practice your skills and prepare for the exam. CompTIA provides a sample list of hardware and software on their website, including:
 
-- Laptop with internet access
+- Laptop with internet access 
 - Separate wireless NIC
-- WAP
-- Firewall
-- UTM
+- WAP (Wireless Access Point)
+- Firewall (e.g., pfSense, Cisco ASA, Fortinet, etc.)
+- UTM (e.g., Fortinet FortiGate, Sophos UTM, Check Point UTM-1, Barracuda NG Firewall, SonicWall TZ Series, Snort, Securita, Etc.)
 - Mobile device
-- Server/cloud server
+- Server/cloud server 
 - IoT devices
-- Virtualization software
+- Virtualization software (e.g., VMware, XenServer, ProxMox)
 - Penetration testing OS/distributions (e.g., Kali Linux, Parrot OS)
-- SIEM
+- SIEM (e.g., Splunk, IBM QRadar, LogRhythm, AlienVault USM, McAfee Enterprise Security Manager, etc.)
 - Wireshark
 - Metasploit
 - tcpdump
