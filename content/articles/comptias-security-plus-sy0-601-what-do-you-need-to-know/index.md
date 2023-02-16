@@ -46,7 +46,16 @@ To prepare for the SY0-601 exam, CompTIA recommends that candidates use a combin
 
 It is important to use a variety of study materials to ensure that you are prepared for the different types of questions and scenarios that may be presented on the exam.
 
-## Hardware and Software
+### Study Resources
+CompTIA provides a range of study resources for Security+ SY0-601 exam candidates. These include official study guides, practice exams, and instructor-led training. In addition, there are many third-party resources available, such as study books, online courses, and practice tests.
+
+One highly recommended study resource is the CompTIA Security+ Certification Exam Objectives Version 3.0 (Exam Number: SY0-601) which is available on the official CompTIA website. This document provides a detailed breakdown of the exam objectives and can serve as a valuable study guide.
+
+In addition to the official CompTIA resources, many candidates also find it helpful to seek out study groups or online forums where they can connect with other candidates, share study tips and resources, and ask questions.
+
+If you prefer video resources, there's a great video series on YouTube titled ["**Passing CompTIA's Security+ SY0-601 Exam: Everything You Need to Know**"](https://www.youtube.com/watch?v=9NE33fpQuw8&list=PLG49S3nxzAnkL2ulFS3132mOVKuzzBxA8) by Mike Meyers, a.k.a Professor Messer, that covers all the topics you need to know to pass the exam. It's a comprehensive resource that can supplement your other study materials and help reinforce your understanding of the exam objectives.
+
+### Hardware and Software
 
 In addition to studying the exam objectives and recommended materials, it may be helpful to have access to certain hardware and software to practice your skills and prepare for the exam. CompTIA provides a sample list of hardware and software on their website, including:
 
@@ -66,25 +75,6 @@ In addition to studying the exam objectives and recommended materials, it may be
 - tcpdump
 
 While not required, having access to these tools can help you gain hands-on experience and improve your understanding of the concepts covered on the exam.
-
-## Test-taking Strategies
-
-In addition to studying the exam objectives and using the recommended materials, there are a few test-taking strategies that can help you pass the SY0-601 exam:
-
-- **Pace yourself**: You have 90 minutes to complete the exam, which means you should aim to spend no more than one minute per question. This will give you enough time to read and answer each question without feeling rushed. CompTIA exams let you go back and forward between questions. If you can't figure it out immediately, flag the question, come back to it later. 
-- **Eliminate wrong answers**: If you are unsure of an answer, try to eliminate any obviously incorrect options to improve your chances of selecting the correct answer. CompTIA commonly likes to give two wrong answers and two right answers to trip people up with existing experience. Eliminate two off the bat and carefully consider the remaining answers. 
-- **Read carefully**: Read each question and answer option carefully to ensure that you fully understand what is being asked. Don't rush through the questions, as this can lead to misinterpretation and incorrect answers. Be aware that CompTIA likes to trip you up with double negatives and specifics.
-- **Review your answers**: Once you have completed the exam, if you have time, review any questions you've left unanswered. 
-
-## Study Resources
-CompTIA provides a range of study resources for Security+ SY0-601 exam candidates. These include official study guides, practice exams, and instructor-led training. In addition, there are many third-party resources available, such as study books, online courses, and practice tests.
-
-One highly recommended study resource is the CompTIA Security+ Certification Exam Objectives Version 3.0 (Exam Number: SY0-601) which is available on the official CompTIA website. This document provides a detailed breakdown of the exam objectives and can serve as a valuable study guide.
-
-In addition to the official CompTIA resources, many candidates also find it helpful to seek out study groups or online forums where they can connect with other candidates, share study tips and resources, and ask questions.
-
-If you prefer video resources, there's a great video series on YouTube titled ["**Passing CompTIA's Security+ SY0-601 Exam: Everything You Need to Know**"](https://www.youtube.com/watch?v=9NE33fpQuw8&list=PLG49S3nxzAnkL2ulFS3132mOVKuzzBxA8) by Mike Meyers, a.k.a Professor Messer, that covers all the topics you need to know to pass the exam. It's a comprehensive resource that can supplement your other study materials and help reinforce your understanding of the exam objectives.
-
 ## Exam Format
 The CompTIA Security+ SY0-601 exam consists of a maximum of 90 questions, which are a combination of multiple-choice and performance-based questions. Candidates have 90 minutes to complete the exam, and a passing score is 750 on a scale of 100-900.
 
@@ -164,6 +154,15 @@ The Governance, Risk, and Compliance domain of CompTIA Security+ certification e
 - **Explain the importance of applicable regulations, standards, or frameworks that impact organizational security posture**: This covers the importance of complying with applicable laws and regulations, such as the General Data Protection Regulation (GDPR) and the Health Insurance Portability and Accountability Act (HIPAA), and industry standards and frameworks, such as the National Institute of Standards and Technology (NIST) Cybersecurity Framework.
 
 - **Explain the importance of policies and procedures**: This involves the development and implementation of security policies and procedures, such as acceptable use policies and incident response plans, to ensure that security measures are consistent and effective. It also covers the importance of user awareness and training programs. 
+
+## Test-taking Strategies
+
+In addition to studying the exam objectives and using the recommended materials, there are a few test-taking strategies that can help you pass the SY0-601 exam:
+
+- **Pace yourself**: You have 90 minutes to complete the exam, which means you should aim to spend no more than one minute per question. This will give you enough time to read and answer each question without feeling rushed. CompTIA exams let you go back and forward between questions. If you can't figure it out immediately, flag the question, come back to it later. 
+- **Eliminate wrong answers**: If you are unsure of an answer, try to eliminate any obviously incorrect options to improve your chances of selecting the correct answer. CompTIA commonly likes to give two wrong answers and two right answers to trip people up with existing experience. Eliminate two off the bat and carefully consider the remaining answers. 
+- **Read carefully**: Read each question and answer option carefully to ensure that you fully understand what is being asked. Don't rush through the questions, as this can lead to misinterpretation and incorrect answers. Be aware that CompTIA likes to trip you up with double negatives and specifics.
+- **Review your answers**: Once you have completed the exam, if you have time, review any questions you've left unanswered. 
 
 
 ## Tips for Passing the Exam
