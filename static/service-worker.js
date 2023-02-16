@@ -120,6 +120,8 @@ setInterval(async () => {
 }, 60000);
 
 
+// https://geekflare.com/convert-webapp-to-pwa/
+
 self.addEventListener('push', event => {
     const data = event.data.json();
     const options = {
@@ -212,3 +214,9 @@ const checkSubscription = async () => {
 };
 
 checkSubscription();
+
+self.addEventListener('push', (event) => {
+    const json = JSON.parse(event.data.text())
+    console.log('Push Data', event.data.text())
+    self.registration.showNotification(json.header, json.options)
+  });
