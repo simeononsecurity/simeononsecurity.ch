@@ -50,6 +50,25 @@
 				"src": "/img/apple-touch-icon-144-precomposed.png",
 				"sizes": "144x144"
 			}]
+		},
+    {
+			"name": "Twitter",
+			"short_name": "Twitter",
+			"description": "SimeonOnSecurity - Twitter",
+			"url": "https://twitter.com/simeonsecurity",
+			"icons": [{
+				"src": "/img/apple-touch-icon-144-precomposed.png",
+				"sizes": "144x144"
+			}]
+		},		{
+			"name": "Mastodon",
+			"short_name": "Mastodon",
+			"description": "SimeonOnSecurity - Mastodon",
+			"url": "https://mastodon.world/@simeononsecurity",
+			"icons": [{
+				"src": "/img/apple-touch-icon-144-precomposed.png",
+				"sizes": "144x144"
+			}]
 		}
 	]
 }
