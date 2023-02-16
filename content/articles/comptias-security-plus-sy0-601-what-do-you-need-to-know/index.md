@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "Learn how to pass the CompTIA Security+ SY0-601 exam with tips, study resources, and test-taking strategies."
 tags: ["CompTIA Security+ Exam", "SY0-601", "Cybersecurity Certification", "Exam Objectives", "Test-Taking Strategies", "Study Resources", "Exam Format", "Passing Tips", "Information Security", "Performance-Based Questions"]
+cover: "security-plus.jpg"
+coverAlt: "CompTIA Security Plus Banner"
+coverCaption: "Image Credit to [academypretoria.co.za](https://www.academypretoria.co.za/index.php/comptia-security-plus.html)"
+useRelativeCover: true
 ---
 
 # Passing CompTIA Security+ SY0-601 Exam: Tips and Resources
