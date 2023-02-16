@@ -16,6 +16,7 @@ self.addEventListener('install', function (event) {
         const cache = await caches.open(CACHE_NAME);
         await cache.addAll(staticAssets);
     })());
+    self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
@@ -26,6 +27,7 @@ self.addEventListener('activate', (event) => {
         if ('navigationPreload' in self.registration) {
             await self.registration.navigationPreload.enable();
         }
+        return self.clients.claim();
     })());
 
     // Tell the active service worker to take control of the page immediately.
@@ -126,3 +128,31 @@ self.addEventListener('push', event => {
     };
     event.waitUntil(self.registration.showNotification('New Post', options));
 });
+
+if ('Notification' in window && Notification.permission != 'granted') {
+    console.log('Ask user permission')
+    Notification.requestPermission(status => {  
+        console.log('Status:'+status)
+        displayNotification('Notification Enabled');
+    });
+}
+
+const displayNotification = notificationTitle => {
+    console.log('display notification')
+    if (Notification.permission == 'granted') {
+        navigator.serviceWorker.getRegistration().then(reg => {
+            console.log(reg)
+            const options = {
+                    body: 'Thanks for allowing push notification !',
+                    icon:  '/img/apple-touch-icon-144-precomposed.png',
+                    vibrate: [100, 50, 100],
+                    data: {
+                      dateOfArrival: Date.now(),
+                      primaryKey: 0
+                    }
+                  };
+    
+            reg.showNotification(notificationTitle, options);
+        });
+    }
+};
