@@ -30,6 +30,27 @@
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "scope": "/",
-    "prefer_related_applications": false
-  }
+    "prefer_related_applications": false,
+    "shortcuts": [{
+			"name": "Articles",
+			"short_name": "Articles",
+			"description": "articles on Security, Sysadmin, Digital Marketing, Cloud Computing, Development, and many other topics.",
+			"url": "/articles",
+			"icons": [{
+				"src": "/img/apple-touch-icon-144-precomposed.png",
+				"sizes": "144x144"
+			}]
+		},
+		{
+			"name": "GitHub",
+			"short_name": "GitHub",
+			"description": "SimeonOnSecurity - GitHub",
+			"url": "https://github.com/simeononsecurity",
+			"icons": [{
+				"src": "/img/apple-touch-icon-144-precomposed.png",
+				"sizes": "144x144"
+			}]
+		}
+	]
+}
   
