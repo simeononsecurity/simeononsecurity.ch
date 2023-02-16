@@ -93,11 +93,11 @@ Performance-based questions require candidates to perform a task or solve a prob
 ## Exam Objectives
 The Security+ SY0-601 exam covers a range of topics related to information security, including:
 
-1. Attacks, Threats, and Vulnerabilities
-2. Architecture and Design
-3. Implementation
-4. Operations and Incident Response
-5. Governance, Risk, and Compliance
+1. **Attacks, Threats, and Vulnerabilities**
+2. **Architecture and Design**
+3. **Implementation**
+4. **Operations and Incident Response**
+5. **Governance, Risk, and Compliance**
 
 Within each of these areas, the exam covers specific subtopics, as follows:
 
