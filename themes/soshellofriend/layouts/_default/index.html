@@ -39,18 +39,6 @@
         {{ end }}
       </div>
 
-      {{ if .Params.tags }}
-        <span class="post-tags">
-          {{ range .Params.tags }}
-            <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
-          {{ end }}
-        </span>
-      {{ end }}
-
-      {{ if .Params.Cover }}
-        {{ partial "postcover.html" . }}
-      {{ end }}
-
       <div class="post-content">
         {{ with .Description }}
           {{ . | markdownify }}
@@ -60,6 +48,19 @@
           {{ end }}
         {{ end }}
       </div>
+
+      {{ if .Params.Cover }}
+        {{ partial "postcover.html" . }}
+      {{ end }}
+
+      {{ if .Params.tags }}
+        <span class="post-tags">
+          {{ range .Params.tags }}
+            <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      {{ end }}
+
       {{ if not .Params.hideReadMore }}
         <div><a class="read-more button" href="{{.RelPermalink}}" title="read more">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
