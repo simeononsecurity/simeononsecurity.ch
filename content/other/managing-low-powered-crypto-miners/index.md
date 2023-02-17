@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Explore the best practices and tools for managing a fleet of low-powered miners, including remote.it, ngrok, OpenVPN, WireGuard, and more."
 tags: ["low-powered miners", "remote access", "network security", "openvpn", "wireguard", "snort", "ngrok"]
-cover: ""
+cover: "A_cartoon_image_of_multiple_low-powered_miners_connected.png"
 coverAlt: "A cartoon image of multiple low-powered miners connected to a network hub with the tools discussed in the article."
 coverCaption: ""
 useRelativeCover: true
