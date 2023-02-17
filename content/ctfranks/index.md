@@ -5,7 +5,7 @@ toc: true
 description: "Stay up-to-date with the latest rankings in the world of CTFs and challenges with SimeonOnSecurity's CTF Rankings Log"
 tags: ["CTF Rankings", "Capture the Flag", "Competition", "Challenges", "LockHeed Martin Cyber Grand Challenge", "National Cyber League", "Cipher Tech Challenge", "Performance", "Placement", "Team", "Individual", "2020", "2021", "Cybersecurity", "Cyber Defense", "CTF Events", "Hacking Competitions", "Information Security", "Security Research"]
 cover: "A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
-coverAlt: "A cartoon trophy with a "1st place" ribbon surrounded by computer screens and cybersecurity symbols like a padlock, shield, and lock and key symbols."
+coverAlt: "A cartoon trophy with a 1st place ribbon surrounded by computer screens and cybersecurity symbols like a padlock, shield, and lock and key symbols."
 coverCaption: ""
 useRelativeCover: true
 ---
