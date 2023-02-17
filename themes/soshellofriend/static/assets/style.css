@@ -746,8 +746,9 @@ h4:hover a {
 }
 .post-cover img {
     border-radius: 8px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
+    max-width: 80%;
 }
 @media (max-width: 899px) {
     .post-cover {
