@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "Discover how to create a secure and compliant Windows system with the easy-to-use Standalone-Windows-STIG-Script, an informative article with step-by-step instructions and detailed parameter explanations."
 tags: ["STIG Script", "Windows Security", "Compliant Windows System", "System Hardening", "Windows STIG", "Secure Windows", "Windows Compliance", "Manual Install", "Windows Updates", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", ".NET Framework", "Office", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Mitigations", "Nessus PID", "VMware Horizon", "Optional Hardening"]
+cover: "A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+coverAlt: "A screenshot of a computer screen with with a progress bar indicating the completion percentage."
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Introduction:

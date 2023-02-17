@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "Discover the power of Docker and its benefits for enterprise transformation in this comprehensive guide to improving application portability, security, efficiency, and development."
 tags: ["Docker", "Enterprise Transformation", "Application Portability", "Increased Efficiency", "Improved Security", "Simplified Development and Deployment", "Software Applications", "Containers", "Productivity", "Time-to-Market"]
+cover: "a_blue_whale_giving_off_lighting.png"
+coverAlt: "A blue whale giving off lighting"
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Unlocking the Power of Docker: The Essential Guide for Enterprise Transformation

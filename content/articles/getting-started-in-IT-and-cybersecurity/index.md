@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "Discover the steps to take to launch your career in the exciting and ever-evolving field of IT and Cybersecurity with this comprehensive guide"
 tags: ["IT and Cybersecurity","Career Guide","CompTIA Certifications","MCSA","Linux+","CCNA","Penetration Testing","Ethical Hacking","OSCP","Scripting","IT Jobs","Cybersecurity Jobs"]
+cover: "A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+coverAlt: "An image of a person sitting at their workstation with a security lock in the foreground, indicating the importance of securing workstations."
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Getting Started in IT and Cybersecurity

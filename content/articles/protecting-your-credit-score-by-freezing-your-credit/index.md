@@ -5,8 +5,11 @@ toc: true
 draft: false
 description: "Learn about the crucial role of freezing your credit in protecting your financial future and find out how to take control of your credit score."
 tags: ["credit freeze", "credit score", "identity theft protection", "financial security", "credit bureaus", "Equifax", "Experian", "TransUnion", "fraud prevention"]
+cover: "A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+coverAlt: "A lock with a chain wrapped around a credit score report, symbolizing the protection and security that freezing your credit provides against identity theft and fraud"
+coverCaption: ""
+useRelativeCover: true
 ---
-
 # Protect Your Credit Score: The Importance of Freezing Your Credit
 
 Your credit score is a critical aspect of your financial wellbeing. It has a significant impact on your ability to secure loans, obtain credit cards, and even rent a home. Given the crucial role that your credit score plays in your financial life, it's vital to take steps to protect it from fraud and identity theft.

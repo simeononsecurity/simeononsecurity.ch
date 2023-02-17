@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "This article discusses the dangers of storing cryptocurrency on exchanges, explaining why it is equivalent to storing money in a mattress, and highlights the benefits of using a hardware wallet for secure storage."
 tags: ["Cryptocurrency storage", "Exchange risks", "Hardware wallet", "Cybersecurity", "Investing in crypto", "Safe storage", "Private keys", "Portable wallets", "Government regulation"]
+cover: "A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+coverAlt: "A hardware wallet with a padlock and chain around it, symbolizing the security of storing cryptocurrency in a hardware wallet."
+coverCaption: ""
+useRelativeCover: true
 ---
 # The Dangers of Storing Crypto on Exchanges: Why a Hardware Wallet is Safer
 

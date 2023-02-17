@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "This article explores the benefits of upgrading to Server 2019 or switching to Azure, including improved security, performance, integration, and support, to help organizations make the best decision for their IT infrastructure."
 tags: ["Upgrade to Server 2019", "Switch to Azure", "IT infrastructure", "Business technology", "Security enhancements", "Performance improvements", "Integration with Azure", "Long-term support", "Scalability", "Cost-effectiveness", "Increased reliability", "Advanced analytics", "Hybrid approach", "Flexible and resilient IT infrastructure"]
+cover: "An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+coverAlt: "An image of a server room with racks of servers on one side and a cloud on the other side, with a person standing in the middle looking at them both."
+coverCaption: ""
+useRelativeCover: true
 ---
 
 ## Introduction:

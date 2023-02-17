@@ -5,6 +5,10 @@ toc: true
 draft: false
 description: "Learn about the DoD's Cyberspace Workforce Qualification and Management Program outlined in Manual 8140.03."
 tags: ["DoD Manual 8140.03", "cyberspace workforce", "qualification program", "DoD personnel", "cybersecurity"]
+cover: "A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+coverAlt: "A computer screen displaying a cybersecurity dashboard with graphs and charts reflecting the state of a network's security"
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Summary of DoD Manual 8140.03 - Cyberspace Workforce Qualification and Management Program
