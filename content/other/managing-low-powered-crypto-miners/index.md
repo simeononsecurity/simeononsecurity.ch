@@ -2,8 +2,13 @@
 title: "Managing a Fleet of Low-Powered Miners: A Guide to Remote Access and Security"
 draft: false
 toc: true
-description: "Learn how to manage a fleet of low-powered miners remotely with secure access and reliable security using openvpn, wireguard, snort, and ngrok."
+date: 2023-02-14
+description: "Explore the best practices and tools for managing a fleet of low-powered miners, including remote.it, ngrok, OpenVPN, WireGuard, and more."
 tags: ["low-powered miners", "remote access", "network security", "openvpn", "wireguard", "snort", "ngrok"]
+cover: ""
+coverAlt: "A cartoon image of multiple low-powered miners connected to a network hub with the tools discussed in the article."
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Managing a Fleet of Low-Powered Miners
@@ -31,4 +36,4 @@ In addition to certificate authentication, it's also important to have [fail2ban
 Another tool that can help you manage your nodes effectively is [Snort](https://www.snort.org/). Snort is an open-source network intrusion detection system that can help you detect and prevent threats going into and out of your nodes. By having Snort installed on your nodes, you can be alerted to any suspicious activity and take steps to mitigate potential threats. This can help you keep your nodes secure and prevent any damage to your system.
 
 ## Conclusion
-In conclusion, managing a fleet of low-powered miners can be a challenge, particularly when it comes to maintaining access to remote nodes. However, by using services like remote.it and ngrok, as well as VPNs like OpenVPN and WireGuard, you can
+In conclusion, managing a fleet of low-powered miners can be a challenge, particularly when it comes to maintaining access to remote nodes. However, by using services like remote.it and ngrok, as well as VPNs like OpenVPN and WireGuard, you can.

@@ -1,9 +1,14 @@
 ---
-title: "Setting up HDS - Hotspot Discord Status tool"
+title: "Setting up HDS: Helium Hotspot Activity and Reward Notifications on Discord"
 draft: false
 toc: true
-description: "Get Helium hotspot activity and reward notifications sent directly to your Discord channel with the Hotspot Discord Status (HDS) tool. The setup requires basic Linux knowledge, an Ubuntu VPS or Ubuntu VM, and a Helium Miner. The article provides step-by-step instructions on how to create the required Discord webhook, find the Helium hotspot name and address, install the required software, and set up a cron job. The article also includes a test to ensure your configuration is working properly. Keep track of your Helium blockchain rewards in real-time with HDS."
+date: 2022-02-27
+description: "Learn how to set up HDS, a tool that sends Helium hotspot activity and reward notifications to your Discord channel, with this step-by-step guide."
 tags: ['Helium Miner Discord Notifications', 'Discord', 'Discord Notifications', 'Helium Notifications', 'Helium Miner', 'HNT', 'Helium Blockchain', 'Virtual Private Server', 'Cron', 'Cron Jobs']
+cover: "A_3D_animated_art_style_image_of_a_computer_screen_display.png"
+coverAlt: "A 3D animated art style image of a computer screen displaying a Helium hotspot dashboard with notifications popping up on the screen. The image is surrounded by icons representing Linux, Ubuntu, VPS, VM, and Git. "
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Setting up HDS - Hotspot Discord Status tool

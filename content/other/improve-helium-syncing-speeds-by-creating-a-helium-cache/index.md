@@ -1,9 +1,14 @@
 ---
-title: "Improve Helium Syncing Speeds by Creating a Helium Blockchain Cache"
+title: "Enhancing Helium Syncing Speeds with a Blockchain Cache"
 draft: false
 toc: true
-description: "Improve Helium Syncing Speeds by Creating a Helium Blockchain Cache provides a solution to slow syncing speeds on the Helium network by setting up a centralized and secure copy of the Helium blockchain using Docker containers on a VPS or Linux virtual machine. This guide includes steps to install Docker, the Helium Miner Docker container, and Watchtower for automatic updates, as well as a script to sync and fast forward the blockchain. The solution is scalable and can accommodate multiple miners. Basic Linux knowledge and a Port Forwarded, Not Relayed Helium Miner is required."
+date: 2022-02-19
+description: "Learn how to install a Helium Miner Docker container on a VPS or Linux virtual machine for faster syncing speeds."
 tags: ['Resolve Helium Miner Syncing Problems', 'Helium Mining', 'Helium Network Token (HNT)', 'Solve Synchronization Problems', 'Blockchain Technology for Helium', 'Docker Container', 'Docker Watchtower Monitoring', 'Virtual Private Server (VPS)', 'Automated Task Scheduler (Cron)', 'Automated Tasks with Cron Jobs']
+cover: "A_cartoon_or_3d_animated_image_of_a_computer_with_a_chain.png"
+coverAlt: "A cartoon or 3d animated image of a computer with a chain symbolizing the blockchain, connected to multiple other computer symbols representing the peers in the network, all connected to a central hub symbolizing the centralized cache setup."
+coverCaption: ""
+useRelativeCover: true
 ---
 
 # Improve Helium Syncing Speeds by Creating a Helium Blockchain Cache

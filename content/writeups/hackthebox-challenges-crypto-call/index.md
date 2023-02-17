@@ -2,9 +2,13 @@
 title: "HackTheBox - Challenges - Crypto - Call"
 date: 2020-10-07
 draft: false
-description: "Solve the Crypto - Call challenge on HackTheBox by decoding the DTMF tones in the sound.mp3 file. Convert the file to .wav and use DialABC to get the cipher text. Separate the numbers and use the prime number cipher on Decode.fr to reveal the flag. Get ready to put your skills in prime number cipher to the test in this exciting challenge on HackTheBox."
-tags: ["HackTheBox", "Challenges", "Crypto", "Call", "DTMF", "Prime Numbers", "Writeup", "MP3 File", "Frequency", "Numbers", "Pay Phone", "Automated Teller Menus", "Convert", "WAV", "Audacity", "Sonic Visualizer", "HEX", "Mathematical Trait", "Prime Number Cipher", "Decode.fr", "Cipher Text", "Flag"]
+description: "Learn how to decrypt DTMF tones using prime number cipher to solve the Crypto - Call challenge on HackTheBox."
+tags: ["HackTheBox", "Crypto Challenge", "DTMF Tones", "Prime Number Cipher", "Decryption", "Solving Puzzles", "Cryptography", "Audio Conversion", "DialABC", "Decode.fr", "WAV", "MP3", "Frequency", "Mathematical Trait", "Flag", "Audacity", "Sonic Visualizer", "Numbers", "Automated Teller Menus", "Pay Phone"]
 toc: true
+cover: "A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+coverAlt: "A cartoon phone with a green screen and a padlock on it, symbolizing security and encryption, with DTMF tones depicted in the backgroun"
+coverCaption: ""
+useRelativeCover: true
 ---
 # HackTheBox - Challenges - Crypto - Call
 

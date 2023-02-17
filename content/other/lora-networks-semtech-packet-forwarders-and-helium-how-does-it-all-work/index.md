@@ -2,8 +2,13 @@
 title: "The Power of LoRa Networks: Explaining Helium Integration"
 draft: false
 toc: true
-description: "Learn how Helium's integration with LoRa networks empowers IoT devices."
+date: 2023-02-17
+description: "Discover the benefits of integrating the LoRa network with Helium for IoT devices and industries such as smart cities, agriculture, and logistics."
 tags: ["LoRa network", "Helium integration", "Semtech Packet Forwarders", "IoT applications", "LPWAN", "spread-spectrum modulation", "gateways", "cloud", "LoRaWAN protocol", "network infrastructure", "hotspots", "sensors", "network security", "geolocation", "incentive mechanism", "smart cities", "agriculture", "logistics", "IoT development", "long-range communication"]
+cover: ""
+coverAlt: "A stylized illustration of a cityscape with various IoT devices connected to a network represented as a web of light, with the Helium logo prominently displayed."
+coverCaption: ""
+useRelativeCover: true
 ---
 # The Power of LoRa Networks: Explaining Helium Integration
 
