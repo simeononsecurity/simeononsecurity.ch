@@ -711,26 +711,27 @@ h4:hover a {
 }
 
 .post-tags a{
-    color: black;
+    /* color: rgb(0, 128, 64); */
+    color: rgb(121, 2, 85);
     border: none;
     text-decoration: none;
+    text-shadow: 0.1px 0.1px 0.1px black;
 }
 
 .dark-theme .post-tags a{
-    color: white;
+    color: rgb(224, 41, 169);
     border: none;
     text-decoration: none;
+    text-shadow: 0.1px 0.1px 0.1px black;
 }
 
 .post-tags a:hover {
-    color: black;
     border: none;
     border: 1px solid black;
     border-radius: 4px;
 }
 
 .dark-theme .post-tags a:hover {
-    color: white;
     border: none;
     border: 1px solid white;
     border-radius: 1px;
@@ -748,7 +749,7 @@ h4:hover a {
     border-radius: 8px;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
     width: auto;
     margin-left: auto;
