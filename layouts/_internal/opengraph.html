@@ -3,7 +3,7 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ with $.Params.cover }}
-<meta property="og:image" content="{{ . }}" />
+<meta property="og:image" content="{{ absURL (relURL .) }}" />
 {{ end }}
 {{ with $.Params.images }}{{ range first 6 . -}}
 <meta property="og:image" content="{{ . | absURL }}" />
