@@ -1,8 +1,5 @@
 <footer class="footer">
   <div class="footer__inner">
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
-      {{ else }}
       {{ partial "logo.html" . }}
       <div><span><a title="contact page" href="/contactus/" target="_blank" rel="noopener">Contact</a></span></div>
       <div><span><a title="privacy policy" href="/privacypolicy/" target="_blank" rel="noopener">Privacy</a></span></div>
@@ -12,7 +9,6 @@
       <div class="copyright">
         <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
       </div>
-    {{ end }}
   </div>
 </footer>
 
