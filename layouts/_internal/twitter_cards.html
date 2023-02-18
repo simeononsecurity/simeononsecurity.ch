@@ -1,6 +1,6 @@
 {{ $twitter_image := "" }}
 {{ if .Params.cover }}
-  {{ $twitter_image = (printf "%s%s" (.Permalink | absURL) (trim .Params.cover "/" | absURL) | absURL ) }}
+  {{ $twitter_image = (printf "%s%s" (.Permalink | absURL) (trim .Params.cover "/")) }}
 {{ else }}
   {{ if .Params.images }}
     {{ $twitter_image = index .Params.images 0 | absURL }}
