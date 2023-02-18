@@ -7,7 +7,7 @@
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
-    "license": "{{ .Site.Params.Copyright }}"
+    "license": "{{ .Site.Params.copyright }}"
 }
 </script>
 {{ else if .IsPage }}
@@ -30,7 +30,9 @@
     },
     "author" : {
         "@type": "Person",
-        "name": "{{ $author }}"
+        "name": "{{ $author }}",
+        "additionalName": "{{ $author }}",
+        "url": "{{ .Site.BaseURL }}"
     },
     "creator" : {
         "@type": "Person",
@@ -56,7 +58,7 @@
             "height":"32"
         }
     },
-    "image": {{ if .Params.images }}[{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}]{{ else}}{{.Site.Params.logo | absURL }}{{ end }},
+    "image": {{ if .Params.cover }}{{ .Params.cover | absURL }}{{ else }}{{ if .Params.images }}{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}{{ else }}{{ .Site.Params.logo | absURL }}{{ end }}{{ end }},
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
     "genre" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
