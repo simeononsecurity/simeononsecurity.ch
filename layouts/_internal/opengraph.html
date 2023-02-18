@@ -2,31 +2,19 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ $images := $.Params.images }}
-{{- if gt (len $images) 0 -}}
-  {{- range first 6 $images -}}
-    <meta property="og:image" content="{{ . | absURL }}" />
-  {{- end -}}
-{{- else -}}
-  {{- $images = $.Resources.ByType "image" -}}
-  {{- $cover := $.Page.Params.cover -}}
-  {{- $featured := $images.GetMatch "*feature*" -}}
-  {{- if $cover }}{{ $featured = $images.GetMatch $cover -}}{{ end -}}
-  {{- if not $featured -}}
-    {{- if $cover }}{{ $featured = $images.GetMatch $cover -}}{{ end -}}
-  {{- end -}}
-  {{- with $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}"/>
-  {{- else -}}
-    {{- with $.Site.Params.images -}}
-      {{- if gt (len .) 0 -}}
-        <meta property="og:image" content="{{ index . 0 | absURL }}"/>
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-
-
+{{ with $.Params.images }}{{ range first 6 . -}}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- $cover := $.Page.Params.cover -}}
+{{- if not $featured }}{{ $featured = $cover }}{{ end -}}
+{{- with $featured -}}
+<meta property="og:image" content="{{ $featured.Permalink }}"/>
+{{ else -}}
+{{- with $.Site.Params.images -}}
+<meta property="og:image" content="{{ index . 0 | absURL }}"/>
+{{ end }}{{ end }}{{ end }}
 
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- if .IsPage }}
