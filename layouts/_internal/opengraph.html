@@ -7,8 +7,7 @@
 {{ end }}{{ else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
-{{- $cover := $.Page.Params.cover -}}
-{{- if not $featured }}{{ $featured = $cover }}{{ end -}}
+{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
 {{- with $featured -}}
 <meta property="og:image" content="{{ $featured.Permalink }}"/>
 {{ else -}}
