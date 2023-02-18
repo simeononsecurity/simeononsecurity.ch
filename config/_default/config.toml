@@ -21,7 +21,7 @@ name = "SimeonOnSecurity"
 googleAnalytics = "G-W3SL745QY6"
 
 #Site Post Cover
-images = "/img/banner.png"
+images = ["/img/banner.png"]
 logo = "/img/banner.png"
 
 # dir name of your blog content (default is `content/posts`).
