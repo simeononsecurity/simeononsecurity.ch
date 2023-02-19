@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Stay Safe Online: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy.."
 tags: ["Windows Hardening", "Windows Debloating", "Improved Security", "Privacy", "Cyber Attacks", "Operating System Security", "Windows Operating System", "Data Privacy", "Cyber Criminal", "Attack Surface", "Vulnerabilities", "Security Updates", "Authentication Mechanisms", "Unwanted Software", "Performance Enhancement", "Data Collection", "Two-Factor Authentication", "Anti-Virus Software", "Anti-Malware Software", "Sensitive Information", "Comprehensive Guide"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "An image of a locked padlock on top of a computer or laptop screen, symbolizing the security measures that can be implemented through Windows hardening and debloating."
 coverCaption: ""
 ---

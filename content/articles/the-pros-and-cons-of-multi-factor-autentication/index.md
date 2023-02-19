@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the benefits and drawbacks of multi-factor authentication (MFA) and learn how to choose the right solution for your business security."
 tags: ["multi-factor authentication", "MFA", "business security", "cybersecurity", "data protection", "regulatory compliance", "user experience", "phishing", "brute force attacks", "technical complexity", "user resistance", "smartphones", "token", "smart card", "fingerprint", "facial recognition", "voice recognition", "PCI DSS", "HIPAA", "data breach"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "A cartoon lock with two-factor authentication symbols like a smartphone and a key."
 coverCaption: ""
 ---

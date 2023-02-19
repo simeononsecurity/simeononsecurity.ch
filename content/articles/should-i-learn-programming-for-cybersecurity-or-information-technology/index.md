@@ -5,7 +5,7 @@ toc: true
 draft: false
 description:  "Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform."
 tags: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "A person sitting in front of a computer, typing code into a command line interface with lines of text scrolling on the screen. "
 coverCaption: ""
 
