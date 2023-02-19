@@ -20,27 +20,27 @@ IPv4 was the original IP address format and has been in use since the early days
 
 ## Transition Mechanisms
 
-1. Dual Stack
+1. **Dual Stack**
 
 The most straightforward transition mechanism is to run both IPv4 and IPv6 on the same network. This is known as Dual Stack. In a Dual Stack network, both protocols are enabled on all network devices, and they can communicate with each other using either protocol. This approach allows for a gradual migration to IPv6 and provides a smooth transition.
 
-2. Tunneling
+2. **Tunneling**
 
 Tunneling is a method of encapsulating IPv6 packets inside IPv4 packets to transport them over an IPv4 network. This mechanism is used to provide connectivity between IPv6 islands that are separated by an IPv4 network. In tunneling, the IPv6 packet is encapsulated in an IPv4 packet, and the IPv4 network routes it to the other end of the tunnel, where it is decapsulated and delivered to its destination.
 
-3. Translation
+3. **Translation**
 
 Translation is a mechanism used to facilitate communication between IPv4 and IPv6 networks. There are two types of translation: Network Address Translation-Protocol Translation (NAT-PT) and Address Family Transition Router (AFTR). NAT-PT translates IPv6 packets to IPv4 packets and vice versa, while AFTR provides IPv6 connectivity to IPv4-only hosts.
 
-4. 6rd
+4. **6rd**
 
 IPv6 Rapid Deployment (6rd) is a mechanism that allows for the rapid deployment of IPv6 in an IPv4 network. In 6rd, an IPv6 prefix is encapsulated in an IPv4 packet and sent over the IPv4 network. The IPv6 packet is then decapsulated at the other end and delivered to its destination. This mechanism is useful for service providers who want to deploy IPv6 quickly and efficiently.
 
-5. DS-Lite
+5. **DS-Lite**
 
 Dual-Stack Lite (DS-Lite) is a mechanism used to provide IPv6 connectivity to IPv4-only networks. In DS-Lite, an IPv6 packet is encapsulated in an IPv4 packet and sent over the IPv4 network. At the other end, the IPv6 packet is decapsulated and delivered to its destination. This mechanism allows for the gradual migration to IPv6 without disrupting IPv4 connectivity.
 
-6. NAT64
+6. **NAT64**
 
 NAT64 is a mechanism used to provide IPv6 connectivity to IPv4-only hosts. In NAT64, an IPv6 packet is translated into an IPv4 packet, which can be sent over an IPv4 network. At the other end, the IPv4 packet is translated back into an IPv6 packet and delivered to its destination. This mechanism is useful for providing IPv6 connectivity to hosts that cannot be upgraded to support IPv6.
 
