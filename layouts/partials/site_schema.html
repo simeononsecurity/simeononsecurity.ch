@@ -58,7 +58,7 @@
             "height":"32"
         }
     },
-    "image": [ {{ if .Params.cover }}{{ .Params.cover | relURL }}{{ else }}{{ if .Params.images }}{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}{{ else }}{{ .Site.Params.logo | absURL }}{{ end }}{{ end }} ],
+    "image": [ {{ if .Params.cover }}{{ .Params.cover | absURL }}{{ else }}{{ if .Params.images }}{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}{{ else }}{{ .Site.Params.logo | absURL }}{{ end }}{{ end }} ],
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
     "genre" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
