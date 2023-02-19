@@ -4,7 +4,7 @@
     {{ block "title" . }}
       <title itemprop="name">
         {{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} —
-        {{ . }}{{ end }}{{ else }}{{ .Title }} {{ . }}{{ end }}{{ end }}
+        {{ . }}{{ end }}{{ else }}{{ .Title }}{{ end }}
       </title>
     {{ end }}
     {{ partial "head.html" . }}
