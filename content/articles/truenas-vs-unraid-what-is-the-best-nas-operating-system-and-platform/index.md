@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "A comprehensive comparison of Unraid and TrueNas, including their user-friendliness, features, documentation, and community, to help users make an informed decision on which NAS operating system is best for their needs."
 tags: ["Unraid", "TrueNas", "NAS Operating System", "Comparison", "User-Friendliness", "Features", "Documentation", "Community", "Open-Source", "Enterprise", "Data Protection", "Performance", "Flexibility", "Easy to Use", "Third-Party Applications"]
-cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp"
+cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png"
 coverAlt: "Two servers facing each other, one blue, one green. On the blue side a person stands wearing a hardhat and safety vest. On the green side a person sitting on the couch."
 coverCaption: ""
 

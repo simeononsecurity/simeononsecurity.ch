@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the crucial role of freezing your credit in protecting your financial future and find out how to take control of your credit score."
 tags: ["credit freeze", "credit score", "identity theft protection", "financial security", "credit bureaus", "Equifax", "Experian", "TransUnion", "fraud prevention"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
 coverAlt: "A lock with a chain wrapped around a credit score report, symbolizing the protection and security that freezing your credit provides against identity theft and fraud"
 coverCaption: ""
 ---

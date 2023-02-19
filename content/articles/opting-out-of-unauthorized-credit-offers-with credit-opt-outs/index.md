@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Opt-out of pre-approved credit and insurance offers to prevent consumer credit reporting companies from providing your information to businesses and reduce the risk of identity theft."
 tags: [ "Credit Opt-Out", "Fair Credit Reporting Act", "FCRA", "Pre-Approved Offers", "Identity Theft Prevention", "Consumer Credit Reporting Companies"]
-cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp"
+cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.png"
 coverAlt: "A person holding a credit card in one hand and a lock in the other hand, with a concerned look on their face, as if they are worried about the safety of their personal information."
 coverCaption: ""
 ---

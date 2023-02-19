@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the power of reverse engineering to uncover IoT network security flaws and improve overall system security."
 tags: ["reverse engineering", "IoT security", "vulnerabilities", "security protocols", "device analysis", "IoT networks", "inner workings", "malicious code", "encryption measures", "authentication measures", "firewalls", "software update"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
 coverAlt: "An image of a security professional examining the inner workings of an IoT device, with various hardware components and circuit boards visible. "
 coverCaption: ""
 ---

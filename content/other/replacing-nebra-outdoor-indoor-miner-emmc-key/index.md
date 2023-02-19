@@ -5,7 +5,7 @@ toc: true
 date: 2022-02-13
 description: "Learn how to replace or re-flash the Nebra Indoor and Outdoor EMMC Key/SD Card and fix Helium Miner syncing issues with this step-by-step guide."
 tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Miner Syncing Issues', 'Nebra', 'Nebra Indoor Miner', 'Nebra Outdoor Miner', 'Balena Etcher', 'Helium Miner', 'Raspberry Pi Compute Module 3', 'RPiBoot', 'Upgrading Nebra Helium Miners SD Card', 'SD Card Replacement for Helium Miner', 'Resolving Synchronization Issues with Nebra Miner', 'Nebra Mining Equipment', 'Using Balena Etcher for SD Card Flashing', 'Helium Mining with Nebra Miner', 'Raspberry Pi Compute Module 3 in Helium Mining', 'RPiBoot for Raspberry Pi-based Mining', 'Miner SD Card Repair', 'Replacing EMMC Key on Nebra Miner']
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.png"
 coverAlt: "A cartoon illustration of a person holding a Nebra Helium Miner with an open panel revealing the SD card slot and the steps of the guide appearing as a guidebook floating above the device."
 coverCaption: ""
 ---
@@ -27,7 +27,7 @@ This article provides a step-by-step guide to replace or re-flash the Nebra Indo
  
 ## Inside the Nebra Helium Miners:
 ### Contents of the Nebra Indoor Miner:
-![Nebra Indoor Miner](https://helium.nebra.com/media/photos/indoor/Indoor-internal-lights.webp)
+![Nebra Indoor Miner](https://helium.nebra.com/media/photos/indoor/Indoor-internal-lights.png)
 ### Contents of the Nebra Outdoor Miner:
 ![Nebra Outdoor Miner](https://helium.nebra.com/media/photos/outdoor/Inside-Interfaces.jpg)
  - 1.) 9-16V @ 15W DC 6.5MMx2.0MM Barrel Jack
@@ -41,7 +41,7 @@ This article provides a step-by-step guide to replace or re-flash the Nebra Indo
 ### Step 1: Acquire the config.json file from the EMMC Key:
 - Download and install [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe), you'll need this to boot the compute module as a usb file system
 - Identify the and adjust jumper pins on the CM3 daughterboard for programming mode
- - ![Daughterboard Overview](https://helium.nebra.com/media/photos/outdoor/daughterboardBreakdown.webp)
+ - ![Daughterboard Overview](https://helium.nebra.com/media/photos/outdoor/daughterboardBreakdown.png)
    - 5.) Micro USB Port used for Imaging
    - 7.) JP4 USB Jumper - Used to switch between normal operation and flash mode, ensure it is in position 1-2 for normal operation and 2-3 for programming.
    - 8.) JP3 Power Jumper - Allows the module to be powered from the Micro USB connector. Only connect when programming from PC and ensure mainboard is not connected.
