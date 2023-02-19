@@ -5,10 +5,9 @@ toc: true
 draft: false
 description: "Discover the power of Docker in cloud computing, as it outpaces VMs with its simplicity, scalability, security, and cost-effectiveness, in this article."
 tags: ["Docker", "Virtual Machines", "VMs", "Cloud Computing", "Containers", "Simplicity", "Scalability", "Security", "Cost-effectiveness", "Dockerfile", "Building, testing and deploying", "Isolation", "Security track record", "Cost comparison", "Informative article"]
-cover: "An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
 coverAlt: "An image of a cargo ship, shaped like a blue whale, carrying multiple Docker containers"
 coverCaption: ""
-useRelativeCover: true
 ---
 # Unleashing the Power of Docker: Why it Dominates VMs in Modern Cloud Computing
 

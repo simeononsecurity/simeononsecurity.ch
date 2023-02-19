@@ -5,10 +5,9 @@ toc: true
 date: 2022-02-07
 description: "Learn how to set up a low-powered passive income crypto miner using a Raspberry Pi or Intel NUC, and earn $10-$20 per month per box with this guide"
 tags: ["Build a Profitable Passive Income Box", "Low-Powered Hardware", "Passive Income", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Guide", "Hardware Requirements", "OS Installation", "Software Installation", "Docker", "Automatic Docker Container Updates", "Ubuntu Server", "Ubuntu Desktop", "Raspbian", "Budget", "USFF", "Tiny", "Mini", "Micro PC", "Technical Experience", "EarnApp", "MYST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Watchtower", "Bitping"]
-cover: "A_green_circuit_board_shaped_like_a_box_with_internet.png"
+cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
 coverAlt: "a green, circuit board shaped like a box with internet connectivity symbols as wires connected to it."
 coverCaption: ""
-useRelativeCover: true
 ---
 
 # Build a Profitable Passive Income Box with Low-Powered Hardware: A Guide

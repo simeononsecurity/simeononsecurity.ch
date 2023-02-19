@@ -5,10 +5,9 @@ toc: true
 draft: false
 description: "Learn how to protect your personal information by removing it from online directories and data brokers with this comprehensive guide."
 tags: ["personal data removal", "online directories", "data brokers", "privacy protection", "complete guide", "remove personal information", "online privacy", "internet privacy", "online privacy", "data brokers", "remove information", "IntelTechniques", "SimeonOnSecurity", "online security", "privacy protection", "protect online privacy"]
-cover: "An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
 coverAlt: "An image of a computer screen with a red X through a list of personal information, such as name, address, and phone number, symbolizing the removal of personal data from online directories."
 coverCaption: ""
-useRelativeCover: true
 ---
 # The Complete Guide to Removing Personal Data from Online Directories
 

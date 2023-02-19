@@ -5,10 +5,9 @@ toc: true
 draft: false
 description: "Cybersecurity is a critical aspect of modern business operations and requires a comprehensive approach that involves the right systems, protocols, and personnel to effectively manage defenses against cyberattacks."
 tags: ["cybersecurity", "business operations", "network security", "sensitive information", "cyberattacks", "technology", "software", "professionalism", "compliance", "industry standards", "regulations", "best practices", "priority", "culture of security", "data breaches", "intellectual property", "proactive approach", "low priority", "lack of resources", "training", "commitment to security", "information security officers (ISSOs)", "information security management systems (ISSMs)", "training and experience", "security threats", "100% success on compliance audits", "regulations", "standards", "best practices", "NIST 800 series", "political game", "trust", "honesty", "collaboration", "papertrail", "transparency", "accountability"]
-cover: "An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
 coverAlt: "An image of a group of cybersecurity professionals in a boardroom, working together to ensure their organization's systems and data are secure."
 coverCaption: ""
-useRelativeCover: true
 ---
 # The Importance of Compliance and Professionalism in Cybersecurity
 

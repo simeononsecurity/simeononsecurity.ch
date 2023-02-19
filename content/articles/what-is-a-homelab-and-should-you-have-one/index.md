@@ -5,10 +5,9 @@ toc: true
 draft: false
 description: "This comprehensive guide provides a detailed overview of what a Home Lab is, why to create one, what components are needed, how to set it up, advanced topics to explore, and best practices to follow."
 tags: ["Home Lab","IT professionals","students","hobbyists","networking","virtualization","automation","hardware","software","best practices","guide"]
-cover: "A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
 coverAlt: "A person sitting at a desk with a computer and networking equipment, surrounded by books and notes."
 coverCaption: ""
-useRelativeCover: true
 ---
 
 # Introduction to the "Home Lab"

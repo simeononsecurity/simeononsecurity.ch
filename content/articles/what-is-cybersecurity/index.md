@@ -5,10 +5,9 @@ toc: true
 draft: false
 description: "Learn the basics of cybersecurity, including types of cyber threats, the importance of cybersecurity, and steps to improve online security."
 tags: ["Cybersecurity", "Cyber threats", "Online security", "Protecting data", "Virus", "Malware", "Phishing scams", "Hackers", "National security", "Intellectual property", "Personal privacy"]
-cover: "An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
 coverAlt: "An image of a person sitting at a computer with a worried expression while a hacker or cybercriminal is shown on the screen, representing the dangers of cyber threats and the importance of cybersecurity"
 coverCaption: ""
-useRelativeCover: true
 ---
 
 # What is CyberSecurity

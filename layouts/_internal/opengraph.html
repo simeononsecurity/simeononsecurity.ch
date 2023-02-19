@@ -4,7 +4,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ $og_image := "" }}
 {{ if .Params.cover }}
-  {{ $og_image = (printf "%s%s" (.RelPermalink | absURL) (trim .Params.cover "/") | absURL) }}
+  {{ $og_image = ( .Params.cover | absURL) }}
 {{ else }}
   {{ if .Params.images }}
     {{ $og_image = index .Params.images 0 | absURL }}

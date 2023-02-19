@@ -5,10 +5,9 @@ toc: true
 draft: false
 description: "This article discusses the steps to improve data security by disabling older versions of SSL and TLS protocols, which are vulnerable to cyber threats such as POODLE, BEAST, and Heartbleed, in Windows and Linux systems."
 tags: ["Hardening computer security", "Disabling SSL and TLS", "Data security", "POODLE", "BEAST", "Heartbleed", "Windows registry editor", "Linux OpenSSL configuration", "Apache", "Nginx"]
-cover: "A_computer_with_a_padlock_symbol_representing_data_security.png"
+cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
 coverAlt: "A computer with a padlock symbol representing data security"
 coverCaption: ""
-useRelativeCover: true
 ---
 
 ## Introduction:

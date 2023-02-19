@@ -5,10 +5,9 @@ draft: false
 description: "Learn how to decrypt DTMF tones using prime number cipher to solve the Crypto - Call challenge on HackTheBox."
 tags: ["HackTheBox", "Crypto Challenge", "DTMF Tones", "Prime Number Cipher", "Decryption", "Solving Puzzles", "Cryptography", "Audio Conversion", "DialABC", "Decode.fr", "WAV", "MP3", "Frequency", "Mathematical Trait", "Flag", "Audacity", "Sonic Visualizer", "Numbers", "Automated Teller Menus", "Pay Phone"]
 toc: true
-cover: "A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
 coverAlt: "A cartoon phone with a green screen and a padlock on it, symbolizing security and encryption, with DTMF tones depicted in the backgroun"
 coverCaption: ""
-useRelativeCover: true
 ---
 # HackTheBox - Challenges - Crypto - Call
 

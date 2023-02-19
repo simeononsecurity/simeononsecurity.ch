@@ -5,10 +5,9 @@ toc: true
 date: 2022-02-27
 description: "Learn how to set up HDS, a tool that sends Helium hotspot activity and reward notifications to your Discord channel, with this step-by-step guide."
 tags: ['Helium Miner Discord Notifications', 'Discord', 'Discord Notifications', 'Helium Notifications', 'Helium Miner', 'HNT', 'Helium Blockchain', 'Virtual Private Server', 'Cron', 'Cron Jobs']
-cover: "A_3D_animated_art_style_image_of_a_computer_screen_display.png"
+cover: "/img/cover/A_3D_animated_art_style_image_of_a_computer_screen_display.png"
 coverAlt: "A 3D animated art style image of a computer screen displaying a Helium hotspot dashboard with notifications popping up on the screen. The image is surrounded by icons representing Linux, Ubuntu, VPS, VM, and Git. "
 coverCaption: ""
-useRelativeCover: true
 ---
 
 # Setting up HDS - Hotspot Discord Status tool
