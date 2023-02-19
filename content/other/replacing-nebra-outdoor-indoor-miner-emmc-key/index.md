@@ -8,7 +8,6 @@ tags: ['Replacing Nebra Helium Miner SD Card', 'SD Card Upgrade', 'Fix Helium Mi
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.png"
 coverAlt: "A cartoon illustration of a person holding a Nebra Helium Miner with an open panel revealing the SD card slot and the steps of the guide appearing as a guidebook floating above the device."
 coverCaption: ""
-useRelativeCover: true
 ---
 
 # Replacing and Reimaging the Nebra Indoor and Outdoor EMMC Key / SD Card
