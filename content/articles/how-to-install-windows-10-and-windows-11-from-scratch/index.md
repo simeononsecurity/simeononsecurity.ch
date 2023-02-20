@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to download a clean Windows ISO file and install Windows from scratch with this step-by-step guide."
 tags: ["Windows 10", "Windows 11", "ISO file", "Clean install", "Media Creation Tool", "Bootable USB", "Installation media", "BIOS", "UEFI firmware", "Custom installation", "Product key", "64-bit system", "32-bit system", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "MD5 & SHA Checksum Utility", "System type"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
 coverAlt: "A cartoon image of a person holding a USB stick with a Windows logo and a checkmark, standing in front of a computer screen with a Windows logo on it."
 coverCaption: ""
 ---

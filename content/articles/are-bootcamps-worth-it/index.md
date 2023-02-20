@@ -5,7 +5,7 @@ toc: true
 draft: false
 description:  "This article explores the advantages and disadvantages of bootcamps, and helps individuals determine if they are the right choice for quickly acquiring new skills and certifications."
 tags: ["Bootcamps", "Career Development", "Skills Acquisition", "Certifications", "Education", "Job Market", "Hands-on Experience", "Cost-effective", "Comprehensive Education", "Credibility", "Physical and Mental Demand"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
 coverAlt: "A laptop with a graduation hat on the keyboard, surrounded by stacks of books and a stopwatch"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover cybersecurity challenges facing healthcare and explore strategies for protection and compliance to protect patient data and ensure regulatory compliance."
 tags: ["cybersecurity", "healthcare", "patient data", "data privacy", "compliance", "HIPAA", "GDPR", "security audits", "access controls", "encryption", "training", "insider threats", "phishing attacks", "IoT devices", "network security", "data breaches", "telemedicine", "malware", "security breaches", "regulations"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
 coverAlt: "An image of a doctor standing in front of a shield with a padlock symbol to represent the protection of patient data against cybersecurity threats. "
 coverCaption: ""
 ---

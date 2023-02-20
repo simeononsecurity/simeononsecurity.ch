@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to build a secure and compliant cloud environment for your business with our comprehensive guide."
 tags: ["cloud computing", "cybersecurity", "data privacy", "compliance", "HIPAA", "PCI DSS", "GDPR", "data backup", "disaster recovery", "encryption", "access controls", "multi-factor authentication", "continuous monitoring", "vulnerability assessments", "data breaches", "insider threats", "misconfiguration", "data loss", "cloud provider", "security measures"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
 coverAlt: "A cartoon cloud with a lock on it, representing the secure and compliant cloud environment being built in the article."
 coverCaption: ""
 ---

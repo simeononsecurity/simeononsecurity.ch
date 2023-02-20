@@ -5,7 +5,7 @@ toc: true
 draft: false
 description:  "This article explores the benefits and drawbacks of obtaining a degree in the fields of cybersecurity and system administration, including job opportunities, certifications, time, and cost considerations."
 tags: ["cybersecurity", "system administration", "degree", "certifications", "career advancement", "salary potential", "time and cost", "government jobs", "self-taught", "online training", "CompTIA certifications"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
 coverAlt: "An image of a person sitting at a desk with a computer in front of them, surrounded by books, online resources, and certification materials, symbolizing the different paths to gaining knowledge and expertise in cybersecurity and system administration. "
 coverCaption: ""
 ---

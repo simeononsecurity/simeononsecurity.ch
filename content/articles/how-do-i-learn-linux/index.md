@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "This guide provides an overview of how to get started with Linux, including tips for learning both Debian and RHEL-based variants of Linux."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "Operating System", "Open Source", "System Administration", "Commands", "Terminal", "Community", "Enterprise", "Professional", "Learning", "Networking", "Security", "Customization", "Stability", "Flexibility"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
 coverAlt: "A cartoon image of a penguin with a graduation cap, holding a diploma and standing in front of a computer with a Linux desktop environment in the background."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn valuable tips and tricks to help you pass the CompTIA Linux+ XK0-005 exam and advance your career as a Linux professional."
 tags: ["CompTIA Linux+", "Linux+ exam tips", "Linux+ XK0-005", "Linux+ certification", "security", "scripting", "containers", "automation", "troubleshooting", "system administration", "IT certification", "information technology", "technical skills", "Linux commands", "professional development", "career advancement"]
-cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp"
+cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
 coverAlt: "A friendly cartoon Linux penguin confidently walking over a bridge to a successful future."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect yourself from online threats like hacking, smear campaigns, and identity theft with these helpful tips."
 tags: ["cybersecurity", "online safety", "identity theft", "hacking", "smear campaigns", "social media", "passwords", "two-factor authentication", "credit freeze"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
 coverAlt: "A person holding a padlock in front of a computer screen displaying a message that says Protected"
 coverCaption: ""
 ---
