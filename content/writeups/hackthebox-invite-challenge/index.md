@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Learn how to generate an invite code and join the HackTheBox online platform to test and advance your skills in penetration testing and cybersecurity on both Windows and Linux."
 tags: ["HackTheBox", "Invite Challenge", "Penetration Testing", "Cybersecurity", "Windows", "Linux", "Online Platform", "HTTP POST", "Invite Code", "Base64 Encoded", "Powershell", "Linux Bash", "Base64 Decode", "Invite Code Generation", "Programming", "Web Development", "Technology", "IT Security", "IT Training"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
 coverAlt: "A cartoon computer screen showing the HackTheBox website with a vault door being unlocked with a key, revealing a trophy or medal, with a cityscape background in the color scheme of HackTheBox's logo (blue and white)."
 coverCaption: ""
 ---
