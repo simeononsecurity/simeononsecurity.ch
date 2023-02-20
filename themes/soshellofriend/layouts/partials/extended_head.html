@@ -30,9 +30,9 @@
 
 <!-- preload images -->
 {{ if .Params.UseRelativeCover }}
-<link rel="preload" as="image" href="{{ (printf "%s%s" .Permalink .Params.Cover ) }}"/>
+<link rel="prefetch" as="image" href="{{ (printf "%s%s" .Permalink .Params.Cover ) }}"/>
 {{ else }}
-<link rel="preload" as="image" href="{{ .Params.Cover | absURL }}"/>
+<link rel="prefetch" as="image" href="{{ .Params.Cover | absURL }}"/>
 {{ end }}
 
 <!-- Fonts -->
@@ -44,9 +44,11 @@
 <link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
 
 <!-- Theme CSS -->
+<link rel="preload" href="{{ "style.css" | absURL }}" as="style">
 <link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" async/>
 
 <!-- Custom CSS to override theme properties (/static/style.css) -->
+<link rel="preload" href="{{ "style.css" | absURL }}" as="style">
 <link rel="stylesheet" href="{{ "style.css" | absURL }}" async/>
 
 <!-- Icons -->
