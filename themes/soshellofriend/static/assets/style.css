@@ -712,14 +712,14 @@ h4:hover a {
 
 .post-tags a{
     /* color: rgb(0, 128, 64); */
-    color: rgb(121, 2, 85);
+    color: #545454;
     border: none;
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px black;
 }
 
 .dark-theme .post-tags a{
-    color: rgb(224, 41, 169);
+    color: #C8C8C8;
     border: none;
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px black;
