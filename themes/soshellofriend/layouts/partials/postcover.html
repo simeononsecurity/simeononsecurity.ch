@@ -1,11 +1,38 @@
 <figure class="post-cover">
   {{ if .Params.UseRelativeCover }}
-    <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" loading="lazy"/>
+  {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover )}}
+  {{ $tiny := ($cover.Resize "480x q90") }}
+  {{ $small := ($cover.Resize "768x q90") }}
+  {{ $medium := ($cover.Resize "1024x q90") }}
+  {{ $large := ($cover.Resize "1366x q90") }}
+  <img
+  srcset="
+      {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+      {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+      {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+      {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
+  src="{{ $cover.RelPermalink }}"
+  alt="{{ .Params.CoverAlt | plainify | default .Title }}"
+  loading="lazy"/>
   {{ else }}
-    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" loading="lazy"/>
+  {{ $cover := resources.GetRemote (.Params.Cover | absURL)}}
+  {{ $tiny := ($cover.Resize "480x q90") }}
+  {{ $small := ($cover.Resize "768x q90") }}
+  {{ $medium := ($cover.Resize "1024x q90") }}
+  {{ $large := ($cover.Resize "1366x q90") }}
+  <img
+  srcset="
+      {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+      {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+      {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+      {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
+  src="{{ $cover.RelPermalink }}"
+  alt="{{ .Params.CoverAlt | plainify | default .Title }}"
+  loading="lazy"/>
   {{ end }}
-
   {{ if .Params.CoverCaption }}
     <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
   {{ end }}
 </figure>
+
+

@@ -174,3 +174,10 @@ urls = ['.*']
     disableLatLong = true
     includeFields = ''
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+  page = ["HTML"]
+  imageFormats = ["jpg", "png", "webp"]
+  [outputs.imageSizes]
+    cover = [731, 1054, 1462]
