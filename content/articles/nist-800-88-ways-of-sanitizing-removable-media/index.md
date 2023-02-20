@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the NIST approved ways to sanitize hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks to protect sensitive data from unauthorized access."
 tags: ["NIST approved methods", "Sanitizing removable media", "Hard drives", "SSDs", "USB flash drives", "CDs", "DVDs", "Blu-ray disks", "Data security", "Protection of sensitive data"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "An image of a person holding a USB flash drive with a shredder in the background"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Get all the tips and tricks you need to pass CompTIA exams with this ultimate guide."
 tags: ["CompTIA exams", "IT certification", "study plan", "practice exams", "performance-based questions", "exam objectives", "IT professionals", "test-taking tips", "study resources", "time management", "exam format", "eliminating wrong answers", "answering techniques", "reading comprehension", "critical thinking", "test anxiety", "confidence building", "exam preparation", "information technology", "career advancement"]
-cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.webp"
 coverAlt: "A cartoon image of a person studying with books and a laptop, surrounded by question marks, while a CompTIA certification is depicted as a key to success above them."
 coverCaption: ""
 ---

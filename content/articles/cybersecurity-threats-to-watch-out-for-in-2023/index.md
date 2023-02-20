@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the top cybersecurity threats of 2023 and learn how to stay safe with expert recommendations."
 tags: ["cybersecurity", "threats", "ransomware", "phishing", "IoT security", "insider threats", "cloud security", "data backup", "multi-factor authentication", "security patches", "employee training", "access controls", "background checks", "data loss prevention", "cloud providers", "data encryption", "network security", "endpoint security", "network monitoring", "vulnerability scanning"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "A cartoon hacker trying to break into a computer system while a shield with a lock protects it."
 coverCaption: ""
 ---

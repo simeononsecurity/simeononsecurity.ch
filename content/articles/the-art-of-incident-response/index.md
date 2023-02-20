@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn the best practices for incident response according to NIST SP 800-61 Rev. 2 and discover real-world examples of effective incident response strategies."
 tags: [ "incident response", "cybersecurity", "NIST", "best practices", "threat intelligence", "communication", "post-incident analysis", "Equifax", "NotPetya", "SolarWinds", "Colonial Pipeline", "Microsoft Exchange Server", "vulnerabilities", "intrusion detection", "containment", "recovery", "preparation", "cyberattacks", "cybercrime", "security incidents"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "An illustrated image of a team of cybersecurity professionals working together to respond to a security incident, with a red alert icon in the background indicating the urgency of the situation. "
 coverCaption: ""
 ---
