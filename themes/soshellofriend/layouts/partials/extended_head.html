@@ -1,24 +1,10 @@
-<!-- preload third-party dns for js -->
-<link rel="preconnect" href="https://pagead1.googlesyndication.com" />
-<link rel="preconnect" href="https://pagead2.googlesyndication.com" />
-<link rel="preconnect" href="https://www.google-analytics.com" />
-<link rel="preconnect" href="https://google-analytics.com" />
-<link rel="preconnect" href="https://ws-na.amazon-adsystem.com" />
-<link rel="preconnect" href="https://amazon-adsystem.com" />
-<link rel="preconnect" href="https://cdn.ampproject.org" />
-<link rel="preconnect" href="https://cdn.jsdelivr.net" />
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link rel="preconnect" href="https://gstatic.com" />
-<link rel="preconnect" href="https://googleads.g.doubleclick.net" />
-<link rel="preconnect" href="https://tpc.googlesyndication.com" />
-<link rel="preconnect" href="https://googletagservices.com" />
-<link rel="preconnect" href="https://utteranc.es" />
-<link rel="preconnect" href="https://static.cloudflareinsights.com" />
+<!-- Preconnect third-party DNS for JS -->
+<link rel="preconnect" href="https://pagead1.googlesyndication.com https://pagead2.googlesyndication.com https://www.google-analytics.com https://google-analytics.com https://ws-na.amazon-adsystem.com https://amazon-adsystem.com https://cdn.ampproject.org https://cdn.jsdelivr.net https://fonts.gstatic.com https://gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://utteranc.es https://static.cloudflareinsights.com" />
 
 <!-- preload and prefetch first-party js -->
-<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript"/> 
 <link rel="prefetch" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript"/>
 <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript"/>
+<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript"/>
 
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.google-analytics.com/analytics.js" as="script" type="text/javascript"/> 
