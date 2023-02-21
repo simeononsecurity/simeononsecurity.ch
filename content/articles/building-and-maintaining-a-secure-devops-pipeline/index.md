@@ -51,7 +51,7 @@ For example, Snyk is a popular tool that can scan application code and open sour
 
 Containers are a popular way to package and deploy applications in a DevOps pipeline. However, if containers are not implemented securely, they can become a potential vulnerability. To use secure containers, developers should ensure that container images are built from trusted sources and that they are scanned for vulnerabilities before deployment. Additionally, access to containers should be limited, and runtime protection should be implemented to prevent unauthorized access or modification.
 
-For instance, Docker Hub provides a vulnerability scanning feature that can be used to scan container images for vulnerabilities before deployment. Additionally, access to containers can be limited by implementing container security policies that define who can access which containers. Finally, runtime protection can be achieved by implementing container security measures such as container image signing, container firewall, and container runtime security.```
+For instance, Docker Hub provides a vulnerability scanning feature that can be used to scan container images for vulnerabilities before deployment. Additionally, access to containers can be limited by implementing container security policies that define who can access which containers. Finally, runtime protection can be achieved by implementing container security measures such as container image signing, container firewall, and container runtime security.
 
 ### 5. Implement continuous monitoring and feedback
 
@@ -59,7 +59,7 @@ Continuous monitoring and feedback is crucial for maintaining a secure DevOps pi
 
 For example, Splunk is a popular tool that can be used for log analysis, performance monitoring, and SIEM. It can be integrated into the DevOps pipeline to provide real-time feedback on the performance and security of the pipeline and applications. It can also provide insights into any security incidents that occur, allowing developers to quickly remediate any vulnerabilities.
 
-Another example is Prometheus, which is an open-source monitoring and alerting system that can be used to monitor various metrics, including the performance of the pipeline and applications. It can be integrated into the DevOps pipeline to provide continuous monitoring, and can alert developers when performance or security issues arise. Additionally, it can provide valuable feedback to developers, allowing them to improve the quality and efficiency of the DevOps pipeline.```
+Another example is Prometheus, which is an open-source monitoring and alerting system that can be used to monitor various metrics, including the performance of the pipeline and applications. It can be integrated into the DevOps pipeline to provide continuous monitoring, and can alert developers when performance or security issues arise. Additionally, it can provide valuable feedback to developers, allowing them to improve the quality and efficiency of the DevOps pipeline.
 
 ## Best Practices for Maintaining a Secure DevOps Pipeline
 
@@ -87,7 +87,7 @@ For example, tools like HashiCorp Vault can be used to implement access controls
 
 Implementing disaster recovery and business continuity plans is essential for ensuring the availability and security of a DevOps pipeline. These plans should be developed and tested regularly, and should include procedures for responding to security incidents and recovering from disruptions to the pipeline.
 
-For example, a disaster recovery plan could involve regular backups of critical data and configurations, as well as procedures for restoring the pipeline in the event of a disaster. A business continuity plan could involve redundant infrastructure and failover procedures, ensuring that the pipeline remains available and secure even in the event of a disruption.```
+For example, a disaster recovery plan could involve regular backups of critical data and configurations, as well as procedures for restoring the pipeline in the event of a disaster. A business continuity plan could involve redundant infrastructure and failover procedures, ensuring that the pipeline remains available and secure even in the event of a disruption.
 
 ## Case Studies
 
@@ -106,7 +106,7 @@ Netflix is a streaming video service that uses a DevOps pipeline to rapidly deli
 - **Implementing access controls for all components of the pipeline**
     - Netflix has implemented access controls for all components of their pipeline, including version control, containers, and monitoring tools. They use a combination of role-based access controls, network segmentation, and security monitoring to ensure that only authorized personnel have access.
 - **Developing disaster recovery and business continuity plans**
-    - Netflix has developed disaster recovery and business continuity plans to ensure the availability and security of their pipeline. They use a combination of backups, failover procedures, and redundant infrastructure to ensure that their pipeline remains available even in the event of a disaster.```
+    - Netflix has developed disaster recovery and business continuity plans to ensure the availability and security of their pipeline. They use a combination of backups, failover procedures, and redundant infrastructure to ensure that their pipeline remains available even in the event of a disaster.
 
 ### 2. Capital One
 
@@ -123,7 +123,7 @@ Capital One is a financial services company that uses a DevOps pipeline to deliv
 - **Implementing access controls for all components of the pipeline**
     - Capital One has implemented strict access controls for all components of their DevOps pipeline, including version control, containers, and monitoring tools. They use a combination of network segmentation, firewalls, and role-based access controls to ensure that only authorized personnel have access.
 - **Developing disaster recovery and business continuity plans**
-    - Capital One has developed disaster recovery and business continuity plans to ensure the availability and security of their DevOps pipeline. They have implemented a variety of redundancy and failover procedures to ensure that their pipeline remains available even in the event of a disaster.```
+    - Capital One has developed disaster recovery and business continuity plans to ensure the availability and security of their DevOps pipeline. They have implemented a variety of redundancy and failover procedures to ensure that their pipeline remains available even in the event of a disaster.
 
 ## Conclusion
 
