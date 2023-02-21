@@ -98,7 +98,7 @@ There are a variety of online resources available that offer practice exams for 
 
 When taking practice exams, be sure to time yourself and simulate the testing environment as closely as possible. This will help to build test-taking skills and prepare you
 
-5. Time Management
+5. **Time Management**
 
 The CompTIA A+ exams are timed, and it is important to manage time effectively during the exams. Use the practice exams to develop a time management strategy that works for you. 
 
