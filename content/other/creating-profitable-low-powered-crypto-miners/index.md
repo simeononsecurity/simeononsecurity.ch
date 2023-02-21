@@ -132,6 +132,8 @@ Modify the string before pasting into your terminal. You need to specify your ea
 mkdir $HOME/earnapp-data
 docker run -td --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
+#### Video Tutorial:
+{{< youtube id="tt499o0OjGU" >}}
 
 ### Install Honey Gain:
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
