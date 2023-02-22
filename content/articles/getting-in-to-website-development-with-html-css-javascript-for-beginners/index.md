@@ -59,11 +59,14 @@ JavaScript is a programming language that can be used to add interactivity and f
 
 To learn more about JavaScript, we recommend visiting [w3schools.com](https://www.w3schools.com/js/) which provides a comprehensive guide to JavaScript. You can also use [CodePen.io](https://codepen.io/) to practice writing JavaScript and see the results in real-time.
 
-Basic Example of JavaScript
+### Basic Example of JavaScript
+
 Here's an example of how to use JavaScript (inside of html) to create an alert:
+
 ```js
 <button onclick="alert('Hello, world!')">Click me</button>
 ```
+
 This code will create a button that, when clicked, will display an alert with the message "Hello, world!"
 
 ## Best Practices for Learning
