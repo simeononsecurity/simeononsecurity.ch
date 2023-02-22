@@ -6,8 +6,7 @@ tags: ["cybersecurity", "HackTheBox Academy", "TryHackMe", "learning", "beginner
 cover: "/img/cover/An_animated_image_featuring_two_characters.png"
 coverAlt: "An animated image featuring two characters, one wearing a HackTheBox Academy shirt and the other wearing a TryHackMe shirt, each with a thought bubble above their head containing a relevant symbol for their platform and both characters standing on a see-saw that is balanced in the middle."
 coverCaption: ""
----
-If you're looking to learn cybersecurity skills, chances are that you've heard of two of the most popular platforms for cybersecurity education: HackTheBox Academy and TryHackMe. But which platform is best for beginners? In this article, we'll compare the strengths and weaknesses of both platforms to help you decide which one is best for you.
+---If you're looking to learn cybersecurity skills, chances are that you've heard of two of the most popular platforms for cybersecurity education: HackTheBox Academy and TryHackMe. But which platform is best for beginners? In this article, we'll compare the strengths and weaknesses of both platforms to help you decide which one is best for you.
 
 ## Overview of HackTheBox Academy and TryHackMe
 
@@ -17,7 +16,9 @@ While both platforms aim to teach cybersecurity concepts, they have different ap
 
 ### HackTheBox Academy
 
-HackTheBox Academy is an online platform that offers both free and paid subscription options. It provides a wide range of cybersecurity topics, including penetration testing, forensics, and malware analysis. HackTheBox Academy is known for its challenging labs and exercises that simulate real-world scenarios.
+HackTheBox Academy is an online platform that provides a structured learning experience for cybersecurity professionals. It offers a wide range of cybersecurity topics, including penetration testing, forensics, and malware analysis, and provides both free and paid subscription options.
+
+HackTheBox Academy is known for its challenging and realistic labs and exercises that simulate real-world scenarios, while also providing extensive guidance and support to learners. Its courses and labs are designed to teach practical skills and knowledge in cybersecurity, making it a popular choice for cybersecurity professionals who want to improve their practical skills and advance their careers.
 
 ### TryHackMe
 
@@ -31,27 +32,26 @@ Before choosing a platform, it's important to understand the strengths and weakn
 
 #### Strengths
 
-- **Real-world scenarios:** HackTheBox Academy challenges and exercises simulate real-world scenarios, providing learners with practical experience.
-- **Challenging:** HackTheBox Academy challenges are known to be challenging, which can be beneficial for learners who want to push themselves.
-- **Community:** HackTheBox Academy has a large and active community of users, which can be helpful for learners who want to connect with others.
+- **Structured learning:** HackTheBox Academy provides a structured learning experience that is designed for cybersecurity professionals.
+- **Realistic and challenging scenarios:** HackTheBox Academy challenges and exercises simulate real-world scenarios, providing learners with practical experience.
+- **Extensive guidance and support:** HackTheBox Academy offers a high level of guidance and support to learners, making it an ideal platform for beginners and professionals alike.
 
 #### Weaknesses
 
-- **Difficulty:** HackTheBox Academy challenges can be very difficult, which can be overwhelming for beginners.
-- **Guidance:** While HackTheBox Academy provides some guidance, it may not be enough for some learners.
+- **Difficulty:** HackTheBox Academy challenges can be very difficult for those with limited IT experience, which can be overwhelming for beginners who are just starting out in cybersecurity, especially from scratch.
 - **Limited topics:** HackTheBox Academy offers fewer topics than TryHackMe, which can limit the range of skills that learners can develop.
 
 ### TryHackMe
 
 #### Strengths
 
-- **Structured learning:** TryHackMe provides a structured learning experience, which can be beneficial for beginners who want guidance and support.
-- **Guidance:** TryHackMe offers a lot of guidance and support to learners, which can be helpful for those who are new to cybersecurity.
+- **Beginner-friendly approach:** TryHackMe provides a more structured learning experience with a focus on providing guidance and support to learners who are just starting out in cybersecurity. Additionally, it also provides basic instructions for learning linux, networking, vpns, etc at a level that HTB Academy currently doesn't have. 
+- **Wide range of topics:** TryHackMe covers a wide range of cybersecurity topics, making it an ideal platform for learners who want to develop a broad range of skills.
 - **Community:** TryHackMe has an active community of users who can provide support and answer questions.
 
 #### Weaknesses
 
-- **Limited challenges:** TryHackMe challenges may be too easy for some learners, which can be a disadvantage for those who want to be challenged.
+- **Limited challenges:** Some TryHackMe challenges may be too easy for some learners, which can be a disadvantage for those who want to be challenged. 
 
 ## Choosing the Best Platform for Beginners
 
@@ -59,35 +59,28 @@ When deciding between HackTheBox Academy and TryHackMe, there are several factor
 
 ### Difficulty
 
-If you already have some knowledge of cybersecurity and want a challenge, HackTheBox Academy may be a good fit for you. However, if you're a beginner and want to start with more basic concepts, TryHackMe may be a better choice.
+If you're a entry-level cybersecurity professional who wants a challenge, HackTheBox Academy may be a good fit for you. However, if you're a beginner and want to start with more basic concepts, TryHackMe may be a better choice.
 
 ### Guidance and Support
 
-If you prefer a more structured learning experience with lots of guidance and support, TryHackMe may be the best option. If you prefer to work independently and don't need as much guidance, HackTheBox Academy may be a better choice.
+If you prefer a more structured learning experience with lots of guidance and support, HackTheBox Academy may be the best option. The platform is designed to teach practical skills in a structured manner, and it provides learners with extensive guidance and support. There are several resources available, including walkthroughs, forums, and a Discord server, where learners can ask questions and receive help from the community.
+
+On the other hand, if you prefer to work independently and don't need as much guidance, TryHackMe may be a better choice. While TryHackMe provides structured learning, it doesn't offer as much guidance and support as HackTheBox Academy. However, it has an active community of users who can provide support and answer questions.
 
 ### Real-World Scenarios
 
-Both HackTheBox Academy and TryHackMe offer challenges and exercises that simulate real-world scenarios. However, HackTheBox Academy challenges tend to be more realistic and complex, while TryHackMe challenges
-
-### Guidance and Support
-
-If you prefer a more structured learning experience with lots of guidance and support, TryHackMe may be the best option. If you prefer to work independently and don't need as much guidance, HackTheBox Academy may be a better choice.
-
-### Real-World Scenarios
-
-Both HackTheBox Academy and TryHackMe offer challenges and exercises that simulate real-world scenarios. However, HackTheBox Academy challenges tend to be more realistic and complex, while TryHackMe challenges are designed to be more approachable.
+Both HackTheBox Academy and TryHackMe offer challenges and exercises that simulate real-world scenarios. However, HackTheBox Academy challenges tend to be more realistic and complex, while TryHackMe challenges are designed to be more approachable. HackTheBox Academy provides a more authentic experience that is closer to what professionals encounter in real-world scenarios, but this can also make it more difficult for beginners.
 
 ### Topics and Skills
 
-If you're interested in a wide range of cybersecurity topics and want to develop a broad range of skills, HackTheBox Academy may be the better choice. If you're more interested in foundational skills and want a more guided learning experience, TryHackMe may be the better option.
+HackTheBox Academy and TryHackMe cover a wide range of cybersecurity topics, but they differ in the level of depth and focus on certain areas. HackTheBox Academy provides a more in-depth and specialized approach, with courses and labs that focus on specific areas such as penetration testing, forensics, and malware analysis. This makes it a good choice for learners who want to specialize in a particular area or advance their career in a specific field.
+
+On the other hand, TryHackMe covers a broad range of cybersecurity topics, making it ideal for learners who want to develop a general understanding of the field. It also covers IT-based topics, including Linux and networking, which can provide learners with a strong foundation in IT.
 
 ## Evaluating: Which is Best for Beginners?
 
-While both HackTheBox Academy and TryHackMe offer high-quality cybersecurity training, they have different strengths and weaknesses. For beginners, TryHackMe is generally the better choice due to its structured learning approach and extensive guidance and support. TryHackMe is more approachable and easier to navigate for beginners, while still offering a range of topics and challenges to develop cybersecurity skills. 
+Choosing between HackTheBox Academy and TryHackMe depends on your goals and learning style. If you prefer a more structured learning experience with extensive guidance and support, HackTheBox Academy may be the best option. It provides learners with a practical and specialized approach that is designed for professionals. However, if you're a complete beginner who needs a more approachable and guided learning experience, TryHackMe may be the better choice. It provides a broader range of topics and resources that can help learners develop a general understanding of cybersecurity.
 
-That being said, HackTheBox Academy is a valuable resource for junior, intermediate and advanced learners who want to be challenged with complex, real-world cybersecurity scenarios. Its challenges and exercises are designed to push learners to think creatively and outside the box, which can be a valuable skill for cybersecurity professionals.
+## Conclusion
 
-## Creating: Conclusion
-
-Ultimately, the choice between HackTheBox Academy and TryHackMe comes down to your learning style and goals. For beginners, TryHackMe is generally the better option due to its structured approach and guidance. However, if you're already comfortable with cybersecurity concepts and want a more challenging learning experience, HackTheBox Academy may be the better choice. Both platforms offer high-quality training and a supportive community of cybersecurity learners. By choosing the platform that's best for you, you can develop the skills you need to succeed in the exciting field of cybersecurity.
-
+Both HackTheBox Academy and TryHackMe are excellent platforms for learning cybersecurity skills, but they have different strengths and weaknesses. HackTheBox Academy provides a more specialized and practical approach that is designed for professionals, while TryHackMe offers a more approachable and broad range of topics. Ultimately, the choice between the two platforms depends on your goals and learning style. By choosing the right platform, you can develop the skills you need to succeed in the exciting field of cybersecurity.
