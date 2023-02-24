@@ -26,7 +26,19 @@ The first step to take when you suspect your email, desktop, or phone has been c
 
 It's important to take note of any signs of compromise so that you can take appropriate action to protect your device and data. If you are unsure if your device has been compromised, it's always better to err on the 
 
+<br/><br/>
+
 ## Step 2: Change Your Passwords and Verify Recovery Information
+
+- Change your passwords for all your accounts immediately if you suspect your device has been compromised
+- Prioritize important accounts like your emails, bank accounts, social media accounts, etc.
+- Choose strong, unique passwords for each of your accounts and avoid using the same password across multiple accounts
+- A strong password should be at least 12 characters long and include a mix of upper and lowercase letters, numbers, and symbols
+- Enable two-factor authentication for an extra layer of security
+- Change your passwords from a known clean device or one that has just had its operating system reset or fully reinstalled from scratch
+- Clear all sessions from your account, known or unknown, to kick any attackers out of your account
+- Verify the account recovery information on the account, including security questions, phone number, or alternate email address
+- Remove any unfamiliar information and replace it with your own information to prevent attackers from using your account recovery information to gain access to your account in the future
 
 If you suspect that your email, desktop, or phone has been compromised, the next step is to change your passwords for all your accounts immediately. This will take a while, so prioritize important accounts like your emails, bank accounts, social media accounts, etc.
 
@@ -39,6 +51,8 @@ It's important to change your passwords from a known clean device or one that ha
 Also, at this step, most services have dashboards where you can see the active and previous sessions of the account. Go in there and clear all sessions. All of them. Known or unknown. This will kick any attackers out of your account.
 
 Lastly, after changing the password and kicking out other sessions, you should take the time to verify the account recovery information on the account. This may include your security questions, phone number, or alternate email address. If you find any unfamiliar information, remove it and replace it with your own information. This will help prevent attackers from using your account recovery information to gain access to your account in the future.
+
+<br/><br/>
 
 ## Step 3: Update Your Software
 
@@ -54,7 +68,19 @@ Examples of software that you should keep up to date include:
 - Email client (Microsoft Outlook, Apple Mail, Gmail, etc.)
 - Applications (Microsoft Office, Adobe Creative Suite, etc.)
 
+<br/><br/>
+
 ## Step 4: Scan Your Device for Malware
+
+- Run a malware scan on your device to check for any malicious software that may have been installed
+- Malware can include viruses, worms, Trojans, and other types of malicious software that can compromise the security of your device and data
+- Use a trusted antivirus software that is up to date to scan your device for malware
+- Run a full system scan and follow the instructions provided by your antivirus software to remove any malware that is detected
+- Scan any external devices, such as USB drives, that you've used with the compromised device
+- External devices can often carry malware that can infect your device, so it's important to scan them before using them with your device
+- Keep your antivirus software updated to protect your device from the latest malware threats
+- Consider using additional security software, such as a firewall or anti-spyware software, to provide further protection against malware and other security threats
+- Be cautious when downloading or installing software from the internet, and only download from trusted sources to avoid malware infections
 
 Run a malware scan on your device to check for any malicious software that may have been installed. Malware can include viruses, worms, Trojans, and other types of malicious software that can compromise the security of your device and data.
 
@@ -62,7 +88,18 @@ To scan your device for malware, use a trusted antivirus software that is up to 
 
 It's also a good idea to scan any external devices, such as USB drives, that you've used with the compromised device. External devices can often carry malware that can infect your device, so it's important to scan them before using them with your device.
 
+<br/><br/>
+
 ## Step 5: Backup Important Files and Wipe Your Device
+
+- Backup any important files before wiping your device if you suspect your device is compromised
+- Verify that your important files are secure by scanning them with antivirus software before backing them up
+- Wiping your device with a clean install of the operating system will remove any malware or other compromises on your device and give you a fresh start with a secure device
+- A reset or factory reset will do for most situations if a clean install isn't possible
+- Remember that wiping your device will erase all data on the device, so it's important to backup any important files before wiping your device
+- Make sure to backup your files to a secure location, such as an external hard drive or a cloud storage service, to ensure they are not lost during the wiping process
+- Once you have wiped your device, take steps to secure it and prevent future compromises, such as keeping your software and security tools up to date and avoiding suspicious downloads and websites.
+
 
 If you suspect your device is compromised and have confirmed any sort of indicator, the next step is to backup any important files. However, before backing up your files, you should verify that they are secure by scanning them with antivirus software. This will help ensure that the files you backup are not infected with malware that could compromise your new device.
 
@@ -70,13 +107,24 @@ Once you have verified that your important files are secure, you should wipe you
 
 Remember, wiping your device will erase all data on the device, so it's important to backup any important files before wiping your device.
 
+<br/><br/>
+
 ## Optional Step: Treat Your Crypto Keys as Compromised
+
+- Create new keys from a clean device and transfer all currencies to the new address as soon as possible
+- Treat your crypto keys as compromised if you have crypto wallets on your compromised device
+- Compromised crypto keys could result in a loss of funds
+- It is important to secure your crypto wallets and keys to maintain the security of your funds
+- Attackers may steal your previous keys and access your funds, so it's crucial to take action to protect them
+- The security of your crypto wallets and keys should be a top priority, especially if you suspect that your device has been compromised.
 
 If you have crypto wallets on your compromised device, treat your crypto keys as compromised as well. Crypto keys are used to access and transfer cryptocurrency, and if they are compromised, it could result in a loss of funds.
 
 From a clean device, create new keys and transfer all currencies to the new address as soon as possible. This will help ensure that your funds are secure and not at risk of being stolen by an attacker who has compromised your previous keys.
 
 Remember, the security of your crypto wallets and keys is critical for maintaining the security of your funds, so it's important to take steps to secure them if you suspect that your device has been compromised.
+
+<br/><br/>
 
 ## Conclusion
 
