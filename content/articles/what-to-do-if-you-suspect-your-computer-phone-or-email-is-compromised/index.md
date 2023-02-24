@@ -1,6 +1,8 @@
 ---
 title: "What to Do If You Think Your Email or Phone Is Compromised"
 date: 2023-02-27
+toc: true
+draft: false
 description: "Learn the essential steps to take if you suspect your email, desktop, or phone has been hacked or compromised, including changing passwords, scanning for malware, and wiping your device clean."
 tags: ["device security", "data protection", "compromised device", "hacked email", "hacked phone", "malware", "virus removal", "password security", "data backup", "two-factor authentication", "cybersecurity", "online safety", "digital privacy", "identity theft", "online fraud", "tech support", "computer repair", "data recovery", "IT services", "technology"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
