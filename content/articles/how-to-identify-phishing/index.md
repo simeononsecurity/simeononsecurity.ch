@@ -26,10 +26,6 @@ The next step is to **understand** the types of messages that are used in phishi
 - Text messages that contain a link to a fake website, asking you to enter your login information
 - Phone calls from people claiming to be from a company, asking for personal information
 
-## Applying
-
-Now that you understand the types of messages used in phishing attempts, it's time to **apply** that knowledge. If you receive a message that fits one of these types, be suspicious. If the message is from a financial institution or other company, do not click on any links or provide any personal information. Instead, call the company's customer service line to verify the message's authenticity.
-
 ## Analyzing
 
 When analyzing a message for signs of phishing, there are a few **key things** to look for. Here are some tips on how to identify phishing emails, texts, and calls.
@@ -60,6 +56,10 @@ Phishing calls often come from **unknown numbers** or numbers that appear to be 
 - The caller asks for personal information, such as your social security number or credit card number
 - The caller claims to be from a company, but does not provide any proof
 - The caller threatens you with legal action if you do not provide the requested information
+
+## Applying
+
+Now that you understand the types of messages used in phishing attempts, it's time to **apply** that knowledge. If you receive a message that fits one of these types, be suspicious. If the message is from a financial institution or other company, do not click on any links or provide any personal information. Instead, call the company's customer service line to verify the message's authenticity.
 
 ## Conclusion
 
