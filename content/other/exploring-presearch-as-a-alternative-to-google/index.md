@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover Presearch, the decentralized and community-driven search engine that rewards users with cryptocurrency and respects their privacy."
 tags: ["Presearch", "decentralized search engine", "community-driven", "cryptocurrency rewards", "privacy", "alternative to Google", "blockchain technology", "open-source", "customizable search experience", "no ads", "SEO optimized tags", "search engine ecosystem", "internet privacy", "transparent search engine", "incentivized searches", "global search engine market", "blockchain", "digital privacy", "online privacy", "decentralization"]
-cover: "A_cartoonish_world_globe_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.png"
 coverAlt: "A cartoonish world globe with a magnifying glass hovering over it symbolizing the Presearch platform as a community-driven and decentralized search engine"
 coverCaption: ""
 ---
