@@ -114,7 +114,7 @@ Python frameworks such as [Django](https://www.djangoproject.com/) and [Flask](h
 - Use [Django](https://www.djangoproject.com/)'s built-in **password hashing functions** instead of creating custom password hashing methods.
 - Use [Django](https://www.djangoproject.com/)'s **template system** to ensure that the output is secure and free from cross-site scripting vulnerabilities.
 
-For example, to use [Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the `[Django](https://www.djangoproject.com/).contrib.auth.hashers` module.
+For example, to use [Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the `django.contrib.auth.hashers` module.
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
