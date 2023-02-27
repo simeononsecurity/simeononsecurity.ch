@@ -130,7 +130,7 @@ hashed_password = make_password(password)
 - Use [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) library to ensure that the output is secure and free from cross-site scripting vulnerabilities.
 - Use [Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/) library to handle user input validation and ensure that input is free from security risks.
 - Use [Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/) library for secure signal handling.
-- 
+
 For example, to use [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) library, import it and use it to escape HTML tags from the output.
 ```py
 from markupsafe import escape
