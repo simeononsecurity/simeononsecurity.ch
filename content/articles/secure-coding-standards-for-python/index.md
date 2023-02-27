@@ -1,6 +1,6 @@
 ---
 title: "Secure Coding Standards for Python: Best Practices"
-date: 2023-02-28
+date: 2023-02-26
 toc: true
 draft: false
 description: "Learn the best practices for secure coding in Python to minimize the risk of security breaches and protect sensitive data."
