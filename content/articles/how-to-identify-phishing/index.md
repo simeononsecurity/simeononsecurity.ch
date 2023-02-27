@@ -9,8 +9,8 @@ cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
 coverAlt: "An image of a cartoon character with a superhero costume and a shield blocking a fishing rod with a phishing email on it."
 coverCaption: ""
 ---
+{{< youtube id="GVv833KHqZc" >}}
 
-# How to Identify Phishing Emails, Texts, and Calls
 
 In today's digital world, it is more important than ever to be able to identify **phishing** emails, texts, and calls. These fraudulent messages are designed to steal your personal information, such as your passwords, credit card numbers, or social security number. Here are some tips on how to identify phishing attempts, so you can keep your information safe.
 
