@@ -1,5 +1,5 @@
 ---
-title: ""Efficient Virus Scans with VirusTotal PowerShell Modules""
+title: "Efficient Virus Scans with VirusTotal PowerShell Modules"
 date: 2020-11-24
 toc: true
 draft: false
