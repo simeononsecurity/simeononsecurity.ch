@@ -1,6 +1,6 @@
 ---
 title: "Presearch: A Community-Driven, Decentralized Search Engine"
-date: 2023-02-28
+date: 2023-02-26
 toc: true
 draft: false
 description: "Discover Presearch, the decentralized and community-driven search engine that rewards users with cryptocurrency and respects their privacy."
