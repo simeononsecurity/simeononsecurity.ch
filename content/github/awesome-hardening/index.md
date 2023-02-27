@@ -1,10 +1,10 @@
 ---
-title: "Automating Security and Hardening: A List of Hardening Resources"
+title: "Automating Security and Hardening: Comprehensive Hardening Resources"
 date: 2023-02-11
 toc: true
 draft: false
-description: "A comprehensive collection of scripts and configurations for optimizing and hardening various systems and applications, including Windows, web servers, and applications, aimed at making them STIG compliant and or hacking resistant"
-tags: ["system hardening", "application hardening", "STIG compliant", "Windows optimization", "Windows Defender hardening", "Apache Web Server hardening", ".NET STIG script", "Adobe Reader DC STIG script", "Firefox STIG script", "Simeononsecurity"]
+description: "Discover a collection of scripts and configurations to optimize and harden your systems, making them STIG compliant and hacking resistant."
+tags: ["system hardening", "application hardening", "STIG compliant", "Windows optimization", "Windows Defender hardening", "Apache Web Server hardening", ".NET STIG script", "Adobe Reader DC STIG script", "Firefox STIG script", "Simeononsecurity", "cybersecurity", "automation", "network security", "IT security", "system security", "computer security", "security hardening", "security automation", "Windows hardening", "web server hardening"]
 ---
 
 # Awesome Hardening

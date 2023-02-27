@@ -1,10 +1,10 @@
 ---
-title: "Automate STIGing Windows Server 2012, 2016, and 2019 - A Comprehensive Guide with The Windows STIG Script"
+title: "Automating Windows Server STIG Compliance with STIG Scripts"
 date: 2020-09-09-T11:59:03-05:00
 toc: true
 draft: false
-description: "This Windows STIG Script is a tool that automates the process of securing Windows Server 2012, 2016, and 2019 to ensure compliance with the recommendations and requirements of organizations like Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency. The script, created and reviewed by SimeonOnSecurity, speeds up the process of securing standalone systems, which would otherwise require manual configuration changes of over 1000 settings. The script is designed for use in enterprise environments and assumes that the system meets hardware requirements for security features like Memory Integrity, Virtualization-Based Security, Windows Defender Application Guard, and Windows Defender Credential Guard. The script can be run using Ansible and is available for download from the GitHub Repository. Note: Use at your own risk, and always review and test the script before running it."
-tags: ["Automation", "How To Automate Windows STIG", "Windows Updates", "Compliance", "Windows Server STIG", "Windows Server 2012", "Windows Server 2012 R2", "Windows Server 2016", "Windows Server 2019", "Server 2012", "Server 2016", "Server 2019", "Powershell", "Script", "Windows 10 STIG Script", "STIGing Windows Server 2012", "STIGing Windows Server 2016", "STIGing Windows Server 2019", "Comprehensive Guide", "Windows STIG Script", "FISMA Compliance", "Microsoft", "Cyber.mil", "Department of Defense", "National Security Agency", "Windows 10", "Enterprise Environments", "Hardware Requirements", "Telemetry Blocking", "Macros", "Bloatware", "Physical Attacks", "Standalone Systems", "STIG/SRG", "Windows Optimize Harden Debloat", "System Documentation", "Windows 10 Enterprise", "Windows 10 Upgrade Assistant", "Bitlocker", "Rebooting"]
+description: "Learn how to automate STIGing Windows Server 2012, 2016, and 2019 with the Windows STIG Script, ensuring compliance with various organizations' recommendations and requirements."
+tags: ["Automation", "Windows STIG", "Windows Server 2012", "Windows Server 2012 R2", "Windows Server 2016", "Windows Server 2019", "Powershell", "Script", "STIGing", "Compliance", "Enterprise Environments", "Hardware Requirements", "Telemetry Blocking", "Macros", "Bloatware", "Physical Attacks", "Standalone Systems", "System Documentation", "Bitlocker", "Rebooting"]
 ---
 # Windows 10/11 STIG Script
 

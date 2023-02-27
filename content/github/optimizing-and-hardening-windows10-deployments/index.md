@@ -3,8 +3,8 @@ title: "Optimize, Harden, and Secure Windows 10 Deployments with Automated Confi
 date: 2020-07-22T20:15:14-05:00
 toc: true
 draft: false
-description: "This script aims to automate the configurations recommended by organizations such as PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency to lockdown, harden, and secure the Windows 10 operating system. The script covers a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. The script is designed for personal use environments but can also be used as a stepping stone for commercial environments. It requires Windows 10 Enterprise or Professional, a fully updated system, Bitlocker suspension, and specific hardware requirements. The script can be downloaded from the GitHub repository and is designed to not break core Windows functionality. For a minimized script targeted to commercial environments, see the standalone Windows STIG script repository."
-tags: ["Swift Programming Language", "iOS Development", "Mobile App Development", "Apple's Swift", "Swift for Beginners", "Swift Features", "Swift Syntax", "Swift Code", "Object-Oriented Programming", "Swift Advantages"]
+description: "Optimize, harden, and secure your Windows 10 deployment with automated configuration changes using this script from various security organizations."
+tags: ["Windows 10 Security", "Automated Configuration Changes", "PrivacyTools.io", "Microsoft", "Cyber.mil", "Department of Defense", "National Security Agency", "Telemetry Blocking", "Macro Blocking", "Bloatware Removal", "Physical Attack Prevention", "Personal Use Environments", "Enterprise Environments", "Bitlocker Suspension", "Hardware Requirements", "System Guard Secure Launch", "Windows Defender Application Guard", "Windows Defender Credential Guard", "STIGS/SRGs", "Security Compliance"]
 ---
 # Optimize, Harden, and Debloat Windows 10 Deployments
 

@@ -1,9 +1,9 @@
 ---
-title: "Import STIG Compliant GPOs into Windows Domain for Compliance Automation"
+title: "Automate Windows Domain Compliance with STIG Compliant GPOs"
 date: 2020-09-08T15:13:17-05:00
 draft: false
-description: "Make your Windows Domain compliant with STIGs and SRGs using the GPOs provided by SimeonOnSecurity. The script includes GPOs for Windows 10, Windows Defender Antivirus, Windows Firewall, Internet Explorer 11, Adobe Reader Pro DC, Microsoft Office, Google Chrome, Firefox, Microsoft .Net Framework 4, and Oracle JRE 8. Additional configurations were considered from NSACyber, Whonix, CERT, and Dirteam for further security enhancements."
-tags: ["Windows Domain", "Group Policy Objects", "Compliance", "Automation", "Powershell", "GPO", "Active Directory", "Remote Server Administration Tools", "RSAT", "Windows Server", "Domain Controller", "STIG", "SRG", "Windows 10", "Windows Defender Antivirus", "Windows Firewall", "Internet Explorer 11", "Adobe Reader Pro DC", "Microsoft Office", "Google Chrome", "Firefox", "Microsoft .Net Framework 4", "Oracle JRE 8", "NSACyber", "Hardware-and-Firmware-Security-Guidance", "Application Whitelisting", "Microsoft AppLocker", "Whonix", "Disable TCP Timestamps"]
+description: "Make your Windows Domain compliant with STIGs and SRGs using SimeonOnSecurity's GPOs, and enhance security with NSACyber, Whonix, CERT, and Dirteam configurations."
+tags: ["Windows Domain", "Group Policy Objects", "Compliance Automation", "Powershell", "GPOs", "Active Directory", "Remote Server Administration Tools", "RSAT", "Windows Server", "Domain Controller", "STIGs", "SRGs", "Windows 10", "Antivirus", "Firewall", "Internet Explorer", "Adobe Reader", "Microsoft Office", "Google Chrome", "Firefox", "Security Enhancements"]
 toc: true
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "Install RSAT ActiveDirectory PowerShell Module Offline"
+title: "Offline Install RSAT ActiveDirectory PowerShell Module"
 date: 2020-12-16
 draft: false
 toc: true
-description: "Install the PowerShell RSAT ActiveDirectory Module Offline"
-tags: ["Remote Server Administration Toolkit", "PowerShell RSAT ActiveDirectory Module", "Windows 10", "Offline Installer", "PowerShell Script", "PowerShell Module", "ActiveDirectory", "Windows", "Offline", "Install"]
+description: "Learn how to install the RSAT ActiveDirectory PowerShell Module offline with a simple PowerShell script."
+tags: ["Remote Server Administration Toolkit", "PowerShell RSAT ActiveDirectory Module", "Windows 10", "Offline Installer", "PowerShell Script", "PowerShell Module", "ActiveDirectory", "Windows", "Offline", "Install", "Server", "Administration", "Toolkit", "Scripting", "Module", "Windows Server", "PowerShell Core", "Windows PowerShell", "Microsoft", "IT Administration"]
 ---
 
 # Offine-PS-ActiveDirectory-Install

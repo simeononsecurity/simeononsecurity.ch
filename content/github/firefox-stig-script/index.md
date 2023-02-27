@@ -1,10 +1,10 @@
 ---
-title: "FireFox STIG Script: Implementing Required FireFox Policies with Automation"
+title: "Automate FireFox STIG Compliance with PowerShell Scripts"
 date: 2020-08-15T19:17:57-05:00
 toc: true
 draft: false
-description: "Easily Implement FireFox STIG with Powershell Script - Ensure Compliance with Automated Solution"
-tags: ["FireFox", "STIG", "FireFox STIG", "Compliance", "Automation", "Powershell", "Script"]
+description: "Easily implement required FireFox STIG policies with a PowerShell script to ensure compliance."
+tags: ["Firefox", "STIG", "Compliance", "Automation", "PowerShell", "Script", "Security", "Configuration", "Cybersecurity", "IT", "Information Technology", "Policies", "Management", "Best Practices", "Open-Source", "Cyber Defense", "Risk Management", "Defense", "Federal Agencies", "Government Compliance"]
 ---
 
 # FireFox STIG Script

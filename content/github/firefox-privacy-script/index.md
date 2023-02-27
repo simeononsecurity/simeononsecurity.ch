@@ -1,10 +1,10 @@
 ---
-title: "Enhance FireFox Privacy and Security with Automated Script | FireFox Privacy Script"
+title: "FireFox Privacy Script: Automate Enhanced Security & Privacy"
 date: 2020-08-17T03:32:03-05:00
 toc: true
 draft: false
-description: "Enhance the privacy and security of your FireFox browser with the FireFox Privacy Script. Based on suggestions from PrivacyTools.io and ffprofile, this Powershell script automates browser extensions, telemetry blocking, 3rd-party cookie and tracker disabling. Download the required files from the GitHub repository and run the script on your Windows system for optimal privacy protection."
-tags: ["FireFox", "Privacy", "FireFox Privacy Script", "Automation", "Powershell", "FireFox Configuration", "PrivacyTools.io", "ffprofile", "Windows System", "FireFox Security", "FireFox Extension", "FireFox Telemetry", "FireFox Cookies", "FireFox Trackers"]
+description: "Enhance the security and privacy of your FireFox browser with this automated script based on suggestions from PrivacyTools.io and ffprofile."
+tags: ["FireFox", "Privacy", "Security", "Automation", "Powershell", "Configuration", "PrivacyTools.io", "ffprofile", "Windows", "Extensions", "Telemetry", "Cookies", "Trackers", "Blocking", "Enhancement", "Script", "GitHub", "Online Privacy", "Online Security", "Browser Privacy"]
 ---
 
 # FireFox Privacy Script

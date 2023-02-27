@@ -3,8 +3,8 @@ title: "Automate Oracle JRE 8 STIG Compliance with Powershell Script"
 date: 2020-08-05T21:54:53-05:00
 toc: true
 draft: false
-description: "Automate Oracle JRE 8 STIGS with ease using a Powershell script. The script simplifies the process of configuring JAVA compliance and eliminates the need to manually research and generate java config files. Download the required files from the GitHub repository and follow the instructions to run the script."
-tags: ["Oracle JRE 8 STIG", "JAVA STIG", "JRE", "JRE8", "JRE STIG", "Compliance", "Automation", "Powershell", "Script", "JAVA Configuration", "Java Documentation", "Group Policy"]
+description: "Simplify the process of configuring Oracle JRE 8 STIG compliance with an automated Powershell script, eliminating the need for manual research and configuration."
+tags: ["Oracle JRE 8 STIG", "JAVA STIG", "JRE", "JRE8", "JRE STIG", "Compliance", "Automation", "Powershell", "Script", "JAVA Configuration", "Java Documentation", "Group Policy", "IT Security", "System Administration", "Configuration Management", "Windows", "Cybersecurity", "STIG Compliance", "Information Technology", "Software Configuration"]
 ---
 
 # Automate Oracle JRE 8 STIGS
