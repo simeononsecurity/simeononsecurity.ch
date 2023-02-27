@@ -1,6 +1,6 @@
 ---
 title: "What Are The Cyber Sentinels and Why You Should Join"
-date: 2023-02-29
+date: 2023-03-01
 toc: true
 draft: false
 description: "Discover the mission and principles of the Cyber Sentinels, a community of cyber and IT professionals committed to sharing knowledge and developing innovative solutions to cyber security challenges.
