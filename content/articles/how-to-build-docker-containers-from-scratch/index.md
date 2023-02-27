@@ -206,7 +206,34 @@ EXPOSE 80
 
 # Start the nginx server
 CMD ["nginx", "-g", "daemon off;"]
+
 ```
+## Further Your Studies
+### Docker Documentation
+[Docker](https://www.docker.com/) is an open-source platform for building, shipping, and running applications in containers. The Docker documentation website provides detailed information on how to install, configure, and use Docker for a variety of operating systems and use cases. The website also includes information on Docker APIs, Docker CLI commands, and troubleshooting tips.
+
+Some useful sections of the Docker documentation include:
+
+- [Get started with Docker](https://docs.docker.com/get-started/)
+- [Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Docker API reference](https://docs.docker.com/engine/api/v1.41/)
+- [Docker-compose reference](https://docs.docker.com/compose/compose-file/)
+- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+
+The Docker documentation is a great resource for learning how to use Docker and for troubleshooting any issues that you may encounter.
+
+### Docker Hub
+[Docker Hub](https://hub.docker.com/) is a cloud-based repository that allows you to store, share, and manage Docker images. Docker Hub includes public and private repositories, as well as automated builds and workflows. You can use Docker Hub to store your own Docker images, as well as to find pre-built images for popular software applications and tools.
+
+Some useful features of Docker Hub include:
+
+- [Search for Docker images](https://hub.docker.com/search?type=image)
+- [Store and manage Docker images in repositories](https://hub.docker.com/repositories)
+- [Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+
+Docker Hub is an essential tool for working with Docker, and it can save you a lot of time and effort when it comes to managing and sharing Docker images.
+
+
 ## Conclusion
 
 Docker is a powerful tool that can help make your applications more portable, efficient, and easy to deploy. By following these best practices and tips, you can create Docker containers that are secure, easy to use, and fast to deploy. Whether you're building a new application or migrating an existing one to Docker, these steps will help you get started with building Docker containers.
