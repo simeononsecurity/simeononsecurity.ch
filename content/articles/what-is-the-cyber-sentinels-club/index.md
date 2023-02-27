@@ -3,7 +3,7 @@ title: "What Are The Cyber Sentinels and Why You Should Join"
 date: 2023-03-01
 toc: true
 draft: false
-description: "Discover the mission and principles of the Cyber Sentinels, a community of cyber and IT professionals committed to sharing knowledge and developing innovative solutions to cyber security challenges.
+description: "Discover the mission and principles of the Cyber Sentinels, a community of cyber and IT professionals committed to sharing knowledge and developing innovative solutions to cyber security challenges."
 tags: ["cyber security", "IT", "community", "knowledge sharing", "collaboration", "continuous learning", "support", "inclusivity", "positive impact", "text channels", "voice channels", "career advice", "job opportunities", "learning resources", "emerging trends", "projects", "events", "conferences", "pet pictures", "technology"]
 cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
 coverAlt: "A stylized digital shield with a cyber warrior figure in the center, surrounded by abstract shapes and lines representing data flows and network connection"
