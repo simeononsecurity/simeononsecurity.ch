@@ -1,10 +1,10 @@
 ---
-title: "Easily Brand Windows 10, 11 & Server 2016, 2019, 2021 Systems"
+title: "Automated Branding for Windows Systems - Easily Control Desktop, Lock Screen, and More"
 date: 2020-08-14T14:37:16-05:00
 toc: true
 draft: false
-description: "Setup branding on Windows 10, Windows Server 2016, and Windows Server 2019 systems with ease. Control the desktop wallpaper, users avatar, lock screen, and OEM logo with the help of a partially automated script. Download the required files from the GitHub repository and follow the instructions to replace branding images. Run the script using Powershell and utilize the Microsoft Security Compliance Toolkit 1.0 LGPO for better results."
-tags: ["Automation", "Branding", "Windows Branding", "Customization", "Windows Customization", "Windows 10", "Windows Server 2016", "Windows Server 2019", "Powershell", "Script", "Windows System Branding", "Desktop Wallpaper", "Users Avatar", "Windows Lock Screen", "OEM Logo", "Microsoft Security Compliance Toolkit 1.0"]
+description: "Control desktop wallpaper, users avatar, lock screen, and OEM logo with ease on Windows 10 and Server systems using a partially automated script."
+tags: ["Automation", "Branding", "Windows Branding", "Customization", "Windows Customization", "Windows 10", "Windows Server 2016", "Windows Server 2019", "Powershell", "Script", "Windows System Branding", "Desktop Wallpaper", "Users Avatar", "Windows Lock Screen", "OEM Logo", "Microsoft Security Compliance Toolkit 1.0", "Organization Branding", "System Customization", "IT Automation", "Security Compliance"]
 ---
 
 # Setup branding on Windows 10 and Server 2016/2019 Systems

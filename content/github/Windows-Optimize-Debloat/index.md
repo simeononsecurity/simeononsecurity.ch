@@ -1,10 +1,10 @@
 ---
-title: "Optimize Your Windows PC with Windows-Optimize-Debloat: Say Goodbye to Bloatware"
+title: "Optimize Your Windows PC with Windows-Optimize-Debloat"
 date: 2020-12-29
 toc: true
 draft: false
-description: "Windows-Optimize-Debloat is a comprehensive script that helps improve the performance and privacy of Windows operating systems. The script provides two installation options - GUI based guided install and automated install. The manual install allows for customization of the optimization process with parameters such as clearing Group Policy Objects settings, installing updates, and removing unnecessary programs. This article provides step-by-step instructions for each type of install and explains the customization parameters. Improve the performance and privacy of your Windows operating system with Windows-Optimize-Debloat."
-tags: ["Windows-Optimize-Debloat", "Windows Optimization", "Debloating Windows", "Speed up Windows", "Optimize Windows Performance", "Windows Performance Boost", "Windows System Optimization"]
+description: "Improve the performance and privacy of your Windows operating system with Windows-Optimize-Debloat, a comprehensive script that helps remove bloatware and optimize system settings."
+tags: ["Windows-Optimize-Debloat", "Windows Optimization", "Debloating Windows", "Speed up Windows", "Optimize Windows Performance", "Windows Performance Boost", "Windows System Optimization", "Microsoft", "Privacy", "Bloatware Removal", "Windows 10", "Windows 11", "Windows Defender", "Windows Update", "Cortona", "Group Policy Objects", "Telemetry", "Windows Store", "Windows 10 Professional", "Windows 10 Home"]
 ---
 
 # Windows-Optimize-Debloat

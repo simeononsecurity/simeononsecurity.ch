@@ -1,10 +1,10 @@
 ---
-title: "WMI Filters for Improved Windows Group Policy Deployments - Download from GitHub Repository"
+title: "WMI Filters for Efficient Windows Group Policy Deployments - Download from GitHub"
 date: 2020-08-11T13:35:00-05:00
 toc: true
 draft: false
-description: "Enhance your Windows Group Policy deployments with WMI Filters. This collection includes commonly used filters to make your GPO process faster and more efficient. Download the files from the GitHub repository and learn how to install and use WMI filters through Microsoft documentation and guides."
-tags: ["WMI", "WMI Filters", "Windows Management Instrumentation", "Group Policy", "GPO", "Windows Group Policy Deployments", "Microsoft", "GPO Process", "Efficient Deployments", "GitHub Repository", "Download", "Installation", "Usage Guides"]
+description: "Enhance your Windows Group Policy deployments with WMI Filters - Download and Install from GitHub Repository for Faster and Efficient GPO Process."
+tags: ["WMI", "WMI Filters", "Windows Management Instrumentation", "Group Policy", "GPO", "Windows Group Policy Deployments", "Microsoft", "Efficient Deployments", "GitHub Repository", "Download", "Installation", "Usage Guides", "Windows Version", "Software", "Isolate Policies", "Large Domains", "GPO Process", "Targeted Settings", "WMI Queries", "Windows Firewall"]
 ---
 
 # WMI Filters

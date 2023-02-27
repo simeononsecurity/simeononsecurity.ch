@@ -1,10 +1,10 @@
 ---
-title: "Hardening Windows Defender Antivirus with PowerShell Script - Enhancing Security in Windows 10 Enterprise & Professional"
+title: "Enhancing Windows 10 Security with Defender Hardening Script"
 date: 2020-11-15
 toc: true
 draft: false
-description: "Windows Defender Hardening is a PowerShell script that enhances the security of Windows Defender Antivirus on Windows 10 Enterprise or Windows 10 Professional. The script enables cloud-delivered protections, controlled folder access, network protections, intrusion prevention system, Windows Defender Application Control policies, Windows Defender Attack Surface Reduction rules, and Windows Defender Exploit Protections. The script also implements all the requirements listed in the Windows Defender Antivirus STIG V2R1. The script is compatible with Windows 10 Home, but it may not allow for GPO configurations or Attack Surface Reduction."
-tags: ["PowerShell", "PowerShell Script", "Automation", "Compliance", "Windows Defender STIG Script", "Windows Defender", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Windows Defender Application Control", "WDAC", "Windows Defender Exploit Protection", "WDEP", "Windows Defender Attack Surface Reduction", "ASR"]
+description: "Learn how to enhance Windows 10 security with a PowerShell script that hardens Windows Defender Antivirus, implementing all the requirements of the Windows Defender Antivirus STIG V2R1."
+tags: ["Windows Defender", "Windows 10", "Windows 10 Security", "PowerShell Script", "Hardening", "Defender Hardening", "Security Automation", "Compliance", "Controlled Folder Access", "Intrusion Prevention System", "Application Control", "Attack Surface Reduction", "Exploit Protections", "Cloud-Delivered Protections", "Network Protections", "Windows Defender STIG Script", "Windows Defender STIG", "Windows Defender Antivirus STIG V2R1", "WDAC", "ASR"]
 ---
 
 # Windows-Defender-Hardening

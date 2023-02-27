@@ -1,10 +1,10 @@
 ---
-title: "Hardening Windows Command Prompt and PowerShell with Scripts and Documentation"
+title: "Windows Command Prompt and PowerShell Hardening"
 date: 2020-11-18
 toc: true
 draft: false
-description: "This script provides a comprehensive solution for hardening Windows Command Prompt and PowerShell on your system. The script disables Command Prompt, PowerShell v2, WSMAN and PSRemoting, enabling the PowerShell Constrained Language Mode and PowerShell Logging. This enhances the security and compliance of your system, reducing the risk of malicious attacks and unauthorized access. The recommended reading materials include articles on PowerShell best practices, Constrained Language Mode, and securing PowerShell in the enterprise. You can download the required files from the GitHub repository."
-tags: ["PowerShell", "PowerShell Hardening", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "WSMAN", "PSRemote", "PowerShell Logging", "Disable Command Prompt", "Disable PowerShell v2", "PowerShell Best Practice", "PowerShell Constrained Language Mode"]
+description: "Secure Windows Command Prompt and PowerShell with our comprehensive hardening script and documentation, enhancing system security and compliance."
+tags: ["PowerShell", "Hardening", "Windows Command Prompt", "Security", "Compliance", "Automation", "Constrained Language Mode", "PowerShell Logging", "PowerShell Script", "WSMAN", "PSRemoting", "Enterprise Security", "Blue Team", "Cybersecurity", "Best Practices", "Disable Command Prompt", "Disable PowerShell v2", "GitHub Repository", "Windows Defender", "Microsoft"]
 ---
 Scripts and Documentation for Hardening Windows Command Prompt and PowerShell
 
