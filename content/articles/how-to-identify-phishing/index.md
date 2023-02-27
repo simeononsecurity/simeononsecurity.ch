@@ -61,6 +61,10 @@ Phishing calls often come from **unknown numbers** or numbers that appear to be 
 
 Now that you understand the types of messages used in phishing attempts, it's time to **apply** that knowledge. If you receive a message that fits one of these types, be suspicious. If the message is from a financial institution or other company, do not click on any links or provide any personal information. Instead, call the company's customer service line to verify the message's authenticity.
 
-## Conclusion
+## Spread the Word
 
-Phishing attempts are common in today's digital world, but with these tips, you can learn how to identify them and keep your information safe.
+Now that you've learned how to identify phishing emails, texts, and calls, it's important to share your knowledge with others. One of the most effective ways to do this is to talk to your friends and family members about what you've learned.
+
+Start by explaining what phishing is and how it works. Show them examples of phishing emails and texts, and point out the tell-tale signs that they are not legitimate. Emphasize the importance of never clicking on links or downloading attachments from unknown sources, and encourage them to call the company's customer service line if they are ever unsure about a message's authenticity.
+
+If you have elderly or less tech-savvy loved ones, be especially vigilant. They may be more vulnerable to these types of attacks, and may not be aware of the risks involved. By sharing your knowledge and helping them stay safe online, you can make a real difference in their lives.
