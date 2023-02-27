@@ -9,9 +9,10 @@ cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
 coverAlt: "A cartoon phone with a green screen and a padlock on it, symbolizing security and encryption, with DTMF tones depicted in the backgroun"
 coverCaption: ""
 ---
-# HackTheBox - Challenges - Crypto - Call
 
 Solve the Crypto - Call challenge on HackTheBox by decoding the DTMF tones in the sound.mp3 file. Convert the file to .wav and use DialABC to get the cipher text. Separate the numbers and use the prime number cipher on Decode.fr to reveal the flag. Get ready to put your skills in prime number cipher to the test in this exciting challenge on HackTheBox."
+
+______
 
 ## Provided Files:
 
@@ -44,6 +45,8 @@ Submit the cipher text from before we separated it out and you'll get the flag.
 ```
 2331434783711923431767372331117714113
 ```
+
+______
 
 ### Flag Example:
 ```

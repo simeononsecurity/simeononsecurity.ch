@@ -187,6 +187,9 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
+#### Video Tutorial:
+{{< youtube id="J_rSV5N8aQk" >}}
+
 
 ### Install Repocket:
 [*Get Paid For Your Unused Internet*](https://repocket.co/)
@@ -201,6 +204,8 @@ Modify the following line with your email and password before pasting into your 
 ```bash
 docker run -e RP_EMAIL=your@email.com -e RP_PASSWORD=yourpassword -d --restart=always repocket/repocket
 ```
+#### Video Tutorial:
+{{< youtube id="171gWknfAbY" >}}
 
 ### Install Traff Monetizer:
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)

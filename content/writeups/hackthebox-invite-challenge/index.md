@@ -8,10 +8,9 @@ cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
 coverAlt: "A cartoon computer screen showing the HackTheBox website with a vault door being unlocked with a key, revealing a trophy or medal, with a cityscape background in the color scheme of HackTheBox's logo (blue and white)."
 coverCaption: ""
 ---
-
-# HackTheBox - Invite Challenge (Windows/Linux)
-
 Get step by step instructions to complete the HackTheBox invite challenge on Windows or Linux. Learn how to generate an invite code and join the online platform to test and advance your skills in penetration testing and cyber security. The article presents both simple and advanced solutions, making it easy for users of all levels to complete the challenge and gain access to the platform.
+
+______
 
 ## What is Hack the Box ?
 
@@ -49,6 +48,8 @@ If you take the encoded invite code to [base64decode.org](https://www.base64deco
  - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
  - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+
+______
 
 ### Invite Code Ex:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```

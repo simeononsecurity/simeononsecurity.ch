@@ -10,13 +10,12 @@ coverAlt: "An image of a person sitting at their workstation with a security loc
 coverCaption: ""
 ---
 
-# Getting Started in IT and Cybersecurity
 
 Are you interested in a career in the fast-paced and ever-evolving field of IT and cybersecurity? Then you're in the right place. In this article, we'll guide you through the steps you need to take to get started on your journey.
 
 ## Starting in IT
 
-Getting started in IT is the first step towards a career in cybersecurity. A basic help desk job or a system or network administration job will give you a solid foundation in the field. This will help you understand the basics of how IT and cybersecurity work, and you'll be better equipped to tackle the more complex challenges in cybersecurity. 
+Getting started in IT is the first step towards a career in cybersecurity. A basic help desk job or a system or network administration job will give you a solid foundation in the field. **This will help you understand the basics of how IT and cybersecurity work, and you'll be better equipped to tackle the more complex challenges in cybersecurity.**
 
 As the saying goes, you have to learn how to build it before you can learn how to break it. So, taking a job in IT will give you a hands-on experience that you wouldn't get otherwise. 
 
@@ -30,11 +29,17 @@ Once you have the CompTIA certifications, or at least the Security+ certificatio
 
 ## Focusing on Cybersecurity
 
-If you're set on pursuing a career in cybersecurity, you should look at getting either the pentest+ or CEH (preferred) certification. The CEH certification will give you a solid foundation in ethical hacking and penetration testing, and the OSCP certification is the next step for those who want to take their skills to the next level.
+If you're set on pursuing a career in cybersecurity, you should look at getting either the pentest+ or CEH (preferred) certification. **The CEH certification will give you a solid foundation in ethical hacking and penetration testing, and the OSCP certification is the next step for those who want to take their skills to the next level.**
 
 ## Learning Scripting
 
 Learning scripting is an important skill for anyone in the IT and cybersecurity field. However, it's probably not something you should start right away, especially if you're not sure if this is the field you want to be in. Once you have a solid foundation in IT and cybersecurity, you can start learning scripting to take your skills to the next level.
+
+## Additional Resources
+
+There are many resources available to help beginners get started in IT and cybersecurity. [**Online courses, tutorials, and even free resources**](https://simeononsecurity.ch/recommendations/learning_resources/) can help you gain knowledge and skills. Also, networking is key in the IT and cybersecurity fields, so joining industry groups, attending conferences, and connecting with other professionals can help you learn about new technologies and trends in the field.
+
+______
 
 ## Conclusion
 

@@ -10,9 +10,9 @@ coverAlt: "A cartoon hacker standing next to a large lock with one hand holding 
 coverCaption: ""
 ---
 
-# HackTheBox - Challenges - Crypto - Decode
-
 Get a detailed walk-through of the HackTheBox Crypto Decode challenge. Given two strings of information, this article guides you through the process of decoding a Fernet cypher and a Malboge cipher to reveal the flag. Utilize tools provided by asecuritysite.com and base64decode.org to achieve the solution.
+
+______
 
 ## Provided Files:
 
@@ -47,6 +47,8 @@ D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNr
 
 This was a new one for me. But you'll find after some careful research that it is a Malboge cipher.
 Decoding it with [this](http://malbolge.doleczek.pl/) tool will give you the flag.
+
+______
 
 ### Flag Ex:
 ```

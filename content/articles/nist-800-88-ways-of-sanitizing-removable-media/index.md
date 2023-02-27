@@ -10,13 +10,11 @@ coverAlt: "An image of a person holding a USB flash drive with a shredder in the
 coverCaption: ""
 ---
 
-# The NIST Approved Ways of Sanitizing Removable Media
-
 Removable media, such as hard drives, solid state drives (SSD), USB flash drives, CDs, DVDs, and Blu-ray disks, are an integral part of today's digital world. These devices are widely used for storing and transferring sensitive data, and it's crucial to ensure that the information contained in them is not leaked or accessed by unauthorized persons. In this article, we will discuss the NIST-approved ways of sanitizing all types of removable media.
 
 ## Why sanitize removable media?
 
-Sanitizing removable media is essential because the data stored on these devices can be easily recovered, even if the data has been deleted. This is because when data is deleted, only the reference to the data is removed, but the actual data remains on the disk until it is overwritten. This makes it possible for malicious actors to recover sensitive data using data recovery software.
+**Sanitizing removable media is essential because the data stored on these devices can be easily recovered, even if the data has been deleted.** This is because when data is deleted, only the reference to the data is removed, but the actual data remains on the disk until it is overwritten. This makes it possible for malicious actors to recover sensitive data using data recovery software.
 
 ## NIST 800-88 Revision 1 Types Of Destruction
 
@@ -24,7 +22,7 @@ The National Institute of Standards and Technology (NIST) has published a guidel
 
 ### Physical Destruction
 
-Physical destruction is the most secure method of sanitizing removable media. This method involves physically destroying the device, making it impossible for anyone to recover any data from it. Physical destruction can be achieved by shredding, melting, or pulverizing the device.
+**Physical destruction is the most secure method of sanitizing removable media.** This method involves physically destroying the device, making it impossible for anyone to recover any data from it. Physical destruction can be achieved by shredding, melting, or pulverizing the device.
 
 ### Clearing
 
@@ -34,9 +32,11 @@ Clearing is the process of overwriting the data on a device with a series of bin
 
 Purging is the process of overwriting the data on a device multiple times with a pattern of binary values. This method is more secure than clearing and is recommended for sanitizing sensitive data. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the DoD 5220.22-M specification.
 
+__________________________________________
+
 ## Conclusion
 
-In conclusion, sanitizing removable media is crucial to ensure that sensitive data stored on these devices is not leaked or accessed by unauthorized persons. NIST 800-88 Revision 1 provides guidelines for sanitizing all types of removable media, including hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks, including physical destruction, clearing, and purging. Physical destruction is the most secure method of sanitizing removable media, but clearing and purging are also effective methods that provide a high level of security.
+In conclusion, **sanitizing removable media is crucial to ensure that sensitive data stored on these devices is not leaked or accessed by unauthorized persons.** NIST 800-88 Revision 1 provides guidelines for sanitizing all types of removable media, including hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks, including physical destruction, clearing, and purging. **Physical destruction is the most secure method of sanitizing removable media, but clearing and purging are also effective methods that provide a high level of security.**
 
-It's important to note that sanitizing removable media is only one aspect of a comprehensive data security strategy. Other measures, such as encryption and secure data storage, should also be implemented to ensure the protection of sensitive data.
+**It's important to note that sanitizing removable media is only one aspect of a comprehensive data security strategy.** Other measures, such as encryption and secure data storage, should also be implemented to ensure the protection of sensitive data.
 
