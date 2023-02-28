@@ -4,7 +4,7 @@ date: 2023-02-28
 toc: true
 draft: false
 description: "Learn best practices for secure coding in C# to minimize the risk of security breaches and protect sensitive data."
-tags: ["C#", "secure coding", "security", "programming", "ASP.NET", ".NET Core", "authentication", "password hashing", "input validation", "cryptography", "least privilege", "static code analyzer", "web applications", "SQL injection", "cross-site scripting", "data protection", "health checks", "session management", "OWASP"]
+tags: ["C sharp", "secure coding", "security", "programming", "ASP.NET", ".NET Core", "authentication", "password hashing", "input validation", "cryptography", "least privilege", "static code analyzer", "web applications", "SQL injection", "cross-site scripting", "data protection", "health checks", "session management", "OWASP"]
 cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png"
 coverAlt: " A cartoon developer with a lock icon as the head, surrounded by code and shielded by a firewall."
 coverCaption: ""
