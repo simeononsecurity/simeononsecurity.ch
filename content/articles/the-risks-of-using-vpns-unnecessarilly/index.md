@@ -29,7 +29,7 @@ People use VPNs for various reasons, including:
 
 One of the main reasons people use VPNs is to **protect their privacy and security online**. However, in a world where everything uses HTTPS (Hypertext Transfer Protocol Secure), the need for a VPN is greatly reduced. HTTPS encrypts the communication between your browser and the website you are visiting, making it difficult for anyone to **intercept and read the data**.
 
-In fact, using a VPN unnecessarily can actually **increase your risk**, as you are entrusting your data to a third-party service. VPN providers have access to your internet traffic, and if they choose to, they could potentially intercept and read it. This is why it's essential to choose a reputable VPN provider that has a good track record of **protecting its users' privacy and security**. For some helpful recommendations, check out this list of **recommended VPN providers** at [https://simeononsecurity.ch/recommendations/vpns/](https://simeononsecurity.ch/recommendations/vpns/).
+In fact, using a VPN unnecessarily can actually **increase your risk**, as you are entrusting your data to a third-party service. VPN providers have access to your internet traffic, and if they choose to, they could potentially intercept and read it. This is why it's essential to choose a reputable VPN provider that has a good track record of **protecting its users' privacy and security**. 
 
 ______
 
