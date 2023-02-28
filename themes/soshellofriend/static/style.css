@@ -17,3 +17,48 @@
   #myBtn:hover {
     background-color: rgb(115, 115, 115); /* Add a dark-grey background on hover */
   }
+
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  #search-query {
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 12px;
+  }
+  
+  button[type="submit"]:hover svg {
+    stroke: #000;
+  }
+  
+  svg {
+    display: block;
+    height: 16px;
+    width: 16px;
+    stroke: #ccc;
+    stroke-width: 2;
+    transition: stroke 0.2s;
+  }
+  

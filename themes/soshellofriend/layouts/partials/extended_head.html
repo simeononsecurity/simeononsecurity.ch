@@ -7,6 +7,7 @@
   <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript"/>
 {{ end }}
 <link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript"/>
+<link rel="prefetch" href="/js/search.js" as="script" type="text/javascript"/>
 
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.google-analytics.com/analytics.js" as="script" type="text/javascript"/> 
@@ -15,6 +16,8 @@
 <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript"/> 
 <link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" as="script" type="text/javascript"/>
 <link rel="prefetch" href="https://utteranc.es/client.js" as="script" type="text/javascript"/>
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript"/>
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript"/>
 
 <!-- preload images -->
 {{ if .Params.UseRelativeCover }}
