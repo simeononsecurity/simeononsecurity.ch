@@ -3,10 +3,10 @@ title: "Essential Do's and Don'ts for Hardening Your Linux System"
 date: 2023-02-28
 toc: true
 draft: false
-description: "Learn the essential do's and don'ts for hardening your Linux system, including updating, using firewalls, enabling SELinux or AppArmor, configuring password policies, and monitoring system logs."
+description: "Learn the essential dos and donts for hardening your Linux system, including updating, using firewalls, enabling SELinux or AppArmor, configuring password policies, and monitoring system logs."
 tags: ["Linux security", "system hardening", "firewall", "SELinux", "AppArmor", "password policy", "system updates", "system logs", "security modules", "access control policies", "cybersecurity", "system security", "network security", "vulnerability management", "security best practices", "IT security", "information security", "software updates", "root access", "password manager"]
 cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
-coverAlt: "A cartoon lock holding a shield with the word "Linux" on it, while an arrow bounces off the shield."
+coverAlt: "A cartoon lock holding a shield with the word Linux on it, while an arrow bounces off the shield."
 coverCaption: ""
 ---
 
