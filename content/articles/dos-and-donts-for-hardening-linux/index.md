@@ -1,5 +1,5 @@
 ---
-title: "Essential Do's and Don'ts for Hardening Your Linux Syste"
+title: "Essential Do's and Don'ts for Hardening Your Linux System"
 date: 2023-02-28
 toc: true
 draft: false
