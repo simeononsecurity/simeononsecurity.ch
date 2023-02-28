@@ -61,4 +61,27 @@
     stroke-width: 2;
     transition: stroke 0.2s;
   }
+
+/* Style for pagination */
+#search-pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#search-pagination a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+}
   
+#search-pagination a.active {
+  background-color: #333;
+  color: #fff;
+}

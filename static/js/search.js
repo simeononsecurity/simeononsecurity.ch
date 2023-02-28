@@ -55,34 +55,23 @@ async function executeSearch(searchQuery, page) {
 }
 
 function populateResults(results, page) {
-
   const searchQuery = document.getElementById("search-query").value;
   const searchResults = document.getElementById("search-results");
-
-  // pull template from hugo template definition
   const templateDefinition = document.getElementById("search-result-template").innerHTML;
-
   const start = (page - 1) * resultsPerPage;
   const end = start + resultsPerPage;
   const paginatedResults = results.slice(start, end);
-
   searchResults.innerHTML = "";
-
   paginatedResults.forEach((value, key) => {
-
     const contents = value.item.contents;
     let snippet = "";
     const snippetHighlights = [];
-
     snippetHighlights.push(searchQuery);
     snippet = `${contents.substring(0, summaryInclude * 2)}&hellip;`;
-
-    //replace values
     let tags = "";
     value.item.tags?.forEach(element => {
       tags = `${tags}<a href='/tags/${element}'>#${element}</a> `;
     });
-
     const output = render(templateDefinition, {
       key,
       title: value.item.title,
@@ -92,7 +81,6 @@ function populateResults(results, page) {
       snippet
     });
     searchResults.innerHTML += output;
-
     snippetHighlights.forEach((snipvalue, snipkey) => {
       try {
         const instance = new Mark(document.getElementById(`summary-${key}`));
@@ -101,13 +89,9 @@ function populateResults(results, page) {
         console.error(e);
       }
     });
-
   });
-
-  // Add pagination links
   const totalPages = Math.ceil(results.length / resultsPerPage);
   const paginationContainer = document.getElementById("search-pagination");
-
   if (totalPages > 1) {
     paginationContainer.innerHTML = "";
     for (let i = 1; i <= totalPages; i++) {
@@ -121,6 +105,14 @@ function populateResults(results, page) {
     }
   } else {
     paginationContainer.innerHTML = "";
+  }
+
+  const remainingResults = results.slice(end);
+  if (remainingResults.length > 0) {
+    const remainingResultsContainer = document.createElement("div");
+    remainingResultsContainer.classList.add("search-results-remaining");
+    remainingResultsContainer.innerHTML = `<p>Showing the first ${resultsPerPage * totalPages} results. ${remainingResults.length} additional results are available. <a href="?q=${searchQuery}&page=${page + 1}">View them</a>.</p>`;
+    searchResults.appendChild(remainingResultsContainer);
   }
 }
 
