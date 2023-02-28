@@ -1,22 +1,44 @@
 {{ define "main" }}
 <main>
-    <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
+      >{{ .Title | markdownify }}</a
+    >
+  </h1>
 
-    <div class="search-form">
-        <form action="/search" method="GET">
-          <div class="search-box">
-            <input type="search" name="q" id="search-query" placeholder="Search...">
-            <button type="submit" aria-label="Search">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-          </div>
-        </form>
+  <div class="search-form">
+    <form action="/search" method="GET">
+      <div class="search-box">
+        <input
+          type="search"
+          name="q"
+          id="search-query"
+          placeholder="Search..."
+        />
+        <button type="submit" aria-label="Search">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
       </div>
-      
+    </form>
+  </div>
 
   <div id="search-results"></div>
+  <div class="search-loading"></div>
 
-  <script defer id="search-result-template" type="text/x-js-template">
+  <script id="search-result-template" type="text/x-js-template">
         <div class="posts">
         <article class="post on-list">
         <div id="summary-${key}">
