@@ -197,12 +197,11 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
 
 #### Create a Repocket Account:
-Create an account at [repocket.co](https://repocket.co/)
-
+Create an account at [repocket.co](https://repocket.co/) and grab your api key from your dashboard.
 #### Install the Docker Container:
-Modify the following line with your email and password before pasting into your terminal.
+Modify the following line with your email and api key before pasting into your terminal.
 ```bash
-docker run -e RP_EMAIL=your@email.com -e RP_PASSWORD=yourpassword -d --restart=always repocket/repocket
+docker run -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
 #### Video Tutorial:
 {{< youtube id="171gWknfAbY" >}}
