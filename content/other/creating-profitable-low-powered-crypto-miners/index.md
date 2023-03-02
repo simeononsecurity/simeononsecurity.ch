@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### Install Repocket:
-[*Get Paid For Your Unused Internet*](https://repocket.co/)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
 Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
 
 #### Create a Repocket Account:
-Create an account at [repocket.co](https://repocket.co/) and grab your api key from your dashboard.
+Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
 #### Install the Docker Container:
 Modify the following line with your email and api key before pasting into your terminal.
 ```bash
