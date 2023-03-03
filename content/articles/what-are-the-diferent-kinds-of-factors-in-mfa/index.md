@@ -3,10 +3,10 @@ title: "A Guide to Multi-Factor Authentication: Types and Best Practices"
 date: 2023-03-02
 toc: true
 draft: false
-description: ""Learn about the different types of multi-factor authentication and how to choose the best one for your security needs in our ultimate guide."
+description: "Learn about the different types of multi-factor authentication and how to choose the best one for your security needs in our ultimate guide."
 tags: ["multi-factor authentication", "online security", "password security", "authentication factors", "two-factor authentication", "hardware tokens", "software authentication", "cybersecurity", "phishing attacks", "hacking prevention", "data protection", "identity verification", "password safety", "security tokens", "access control", "identity theft", "cyber threats", "digital security", "authentication apps", "cyber defense"]
 cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
-coverAlt: "A cartoon person standing in front of a computer, with a lock symbol above their head and different types of authentication factors (such as a key, a phone, a fingerprint, etc.) floating around them"
+coverAlt: "A cartoon person standing in front of a computer, with a lock symbol above their head and different types of authentication factors, such as a key, a phone, a fingerprint, etc., floating around them"
 coverCaption: ""
 ---
 
