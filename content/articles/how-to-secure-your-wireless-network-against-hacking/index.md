@@ -30,7 +30,7 @@ To secure your wireless network, it's important to understand the different type
 
 ### Wi-Fi Protected Access II (WPA2)
 
-**WPA2** is the most secure protocol currently available for wireless networks. It uses advanced encryption algorithms and provides stronger security than WPA. It's highly recommended to use WPA2 to secure your wireless network.
+**WPA2** is the second most secure protocol currently available for wireless networks. It uses advanced encryption algorithms and provides stronger security than WPA. It's highly recommended to use WPA2 to secure your wireless network.
 
 ### Wi-Fi Protected Access III (WPA3)
 
@@ -44,7 +44,7 @@ The first and most important step to secure your wireless network is to **change
 
 ### Use Strong Passwords
 
-Using strong passwords for your wireless network and devices is crucial to prevent unauthorized access. A strong password should be at least 12 characters long and include a mix of upper and lower case letters, numbers, and symbols. Avoid using common phrases, dictionary words, or personal information such as your name or date of birth.
+[Using strong passwords](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) for your wireless network and devices is crucial to prevent unauthorized access. A strong password should be at least 12 characters long and include a mix of upper and lower case letters, numbers, and symbols. Avoid using common phrases, dictionary words, or personal information such as your name or date of birth.
 
 ### Enable Network Encryption
 

@@ -27,15 +27,15 @@ Defending against social engineering attacks requires a combination of technical
 
 ### 1. Education and Awareness
 
-**Education and awareness** are the first line of defense against social engineering attacks. Individuals should be trained to recognize the signs of a social engineering attack and to take appropriate action. This includes being wary of unsolicited requests for information, verifying the identity of individuals before divulging sensitive information, and reporting any suspicious activity to IT or security personnel.
+[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) are the first line of defense against social engineering attacks. Individuals should be trained to recognize the signs of a social engineering attack and to take appropriate action. This includes being wary of unsolicited requests for information, verifying the identity of individuals before divulging sensitive information, and reporting any suspicious activity to IT or security personnel.
 
 ### 2. Strong Passwords and Multifactor Authentication
 
-Using **strong passwords** and implementing **multifactor authentication** can help prevent social engineering attacks that rely on password guessing or brute-force attacks. Strong passwords should be at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and special characters. Multifactor authentication adds an extra layer of security by requiring users to provide additional proof of identity beyond just a password.
+Using [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) and implementing **multifactor authentication** can help prevent social engineering attacks that rely on password guessing or brute-force attacks. Strong passwords should be at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and special characters. Multifactor authentication adds an extra layer of security by requiring users to provide additional proof of identity beyond just a password.
 
 ### 3. Secure Email and Web Browsing
 
-**Secure email and web browsing** can help prevent social engineering attacks that rely on phishing scams or other forms of malicious content. This includes using spam filters to block unsolicited emails, avoiding clicking on links or downloading attachments from unknown sources, and using web filters to block access to known malicious websites.
+[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) can help prevent social engineering attacks that rely on phishing scams or other forms of malicious content. This includes using spam filters to block unsolicited emails, avoiding clicking on links or downloading attachments from unknown sources, and using web filters to block access to known malicious websites.
 
 ### 4. Regular Security Updates and Patches
 

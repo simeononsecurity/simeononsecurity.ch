@@ -34,13 +34,13 @@ Cybersecurity threats are becoming more advanced and frequent, making it essenti
 
 1. **Keep your software up to date**: Attackers often take advantage of outdated software to exploit vulnerabilities. Software updates often include security patches that can fix vulnerabilities. Make sure to install updates as soon as they are available.
 
-2. **Use strong passwords**: Passwords are often the first line of defense against cyberattacks. Use strong, unique passwords for each of your accounts, and consider using a password manager to keep track of them. A password manager can help you generate and store strong passwords for all of your accounts.
+2. [**Use strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/): Passwords are often the first line of defense against cyberattacks. Use strong, unique passwords for each of your accounts, and consider using a password manager to keep track of them. A password manager can help you generate and store strong passwords for all of your accounts.
 
-3. **Enable two-factor authentication**: Two-factor authentication adds an extra layer of security to your accounts. Make sure to enable it wherever possible. Two-factor authentication requires a second form of verification, such as a fingerprint or a one-time code sent to your phone, in addition to your password.
+3. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication adds an extra layer of security to your accounts. Make sure to enable it wherever possible. Two-factor authentication requires a second form of verification, such as a fingerprint or a one-time code sent to your phone, in addition to your password.
 
-4. **Educate yourself and your employees**: Education is key to preventing cyberattacks. Make sure to educate yourself and your employees about common threats and how to avoid them. This can include regular training sessions, phishing simulations, and cybersecurity best practices.
+4. [**Educate yourself and your employees**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/): Education is key to preventing cyberattacks. Make sure to educate yourself and your employees about common threats and how to avoid them. This can include regular training sessions, phishing simulations, and cybersecurity best practices.
 
-5. **Use a VPN**: If you're working remotely, consider using a **virtual private network (VPN)** to encrypt your internet connection and protect your data. A VPN creates a secure connection between your device and the internet, preventing third parties from intercepting your data.
+5. [**Use a VPN**](https://simeononsecurity.ch/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN)** to encrypt your internet connection and protect your data. A VPN creates a secure connection between your device and the internet, preventing third parties from intercepting your data.
 
 6. **Secure your IoT devices**: The Internet of Things (IoT) devices, such as smart thermostats and security cameras, can be vulnerable to cyberattacks. Make sure to change default passwords on IoT devices and keep them up to date with the latest firmware. It's also a good idea to limit the amount of personal information that you share with these devices.
 
