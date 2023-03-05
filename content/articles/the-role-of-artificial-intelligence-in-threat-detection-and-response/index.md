@@ -6,7 +6,7 @@ draft: false
 description: "Discover how AI is revolutionizing the field of threat detection and response, and the challenges and limitations it presents."
 tags: ["Artificial Intelligence", "Cybersecurity", "Threat Detection", "Threat Response", "Machine Learning", "Deep Learning", "Natural Language Processing", "AI Algorithms", "Network Security", "Data Security", "Cyber Defense", "Incident Response", "Insider Threats", "Security Teams", "Real-Time Monitoring", "Rule-Based Systems", "Cybercrime", "Vulnerabilities", "Adaptive Security", "Cyber Resilience"]
 cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
-coverAlt: "A 3D animated image of a shield with the letters "AI" on it, blocking incoming arrows symbolizing cyber threats."
+coverAlt: "A 3D animated image of a shield with the letters AI on it, blocking incoming arrows symbolizing cyber threats."
 coverCaption: ""
 ---
 
