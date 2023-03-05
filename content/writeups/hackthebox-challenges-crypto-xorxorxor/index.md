@@ -4,7 +4,7 @@ date: 2023-03-04
 draft: false
 toc: true
 description: "Learn how to brute-force an XOR-encrypted flag using Python and an online tool in the HackTheBox XorXorXor crypto challenge."
-tags: ["'HackTheBox', 'XorXorXor', 'crypto challenge', 'XOR encryption', 'brute-force', 'Python', 'online tool', 'decryption', 'cybersecurity', 'CTF', 'capture the flag', 'penetration testing', 'information security', 'cyber defense', 'encryption', 'decryption tool', 'cyber skills', 'cyber education', 'cybersecurity training'"]
+tags: ['HackTheBox', 'XorXorXor', 'crypto challenge', 'XOR encryption', 'brute-force', 'Python', 'online tool', 'decryption', 'cybersecurity', 'CTF', 'capture the flag', 'penetration testing', 'information security', 'cyber defense', 'encryption', 'decryption tool', 'cyber skills', 'cyber education', 'cybersecurity training']
 cover: "/img/cover/A_cartoon_hacker_cracking_a_padlock_with_a_key.png"
 coverAlt: "A cartoon hacker cracking a padlock with a key while a flag that flies above."
 coverCaption: ""
