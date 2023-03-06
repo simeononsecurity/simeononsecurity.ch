@@ -8,7 +8,7 @@
         {{ $count := .Count }}
         {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
           <li class="terms__term">
-            <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
+            <a title="{{ .Title | markdownify }} | Articles with this tag" href="{{ .Permalink }}"
               >#{{ .Name }} <span class="terms__term-count">{{ $count }}</span></a
             >
           </li>
