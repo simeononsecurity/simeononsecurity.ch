@@ -10,7 +10,7 @@ coverAlt: "An image of three gears, colored red, blue, and blue, interlocked and
 coverCaption: ""
 ---
 
-# An Overview of Ansible, Docker, and Kubernetes for Cybersecurity Automation
+**An Overview of Ansible, Docker, and Kubernetes for Cybersecurity Automation**
 
 Cybersecurity is a critical aspect of any organization’s infrastructure, and **automation** can play a significant role in reducing the risk of a data breach. In this article, we will take a closer look at three popular tools for cybersecurity automation: **Ansible**, **Docker**, and **Kubernetes**.
 

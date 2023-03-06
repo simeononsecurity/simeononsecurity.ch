@@ -7,7 +7,6 @@ description: "Simplify the Windows 10 KMS activation process using SimeonOnSecur
 tags: ["Windows Activation", "KMS Client Keys", "GLVK", "Windows Updates", "Compliance", "Powershell Script", "Key Management Service", "Volume Licensing", "Enterprise Activation", "Key Management Server", "Automation", "Microsoft Products", "Operating System", "Software", "Enterprise Environments", "Administrative Powershell", "GitHub Repository", "Scripting", "Cybersecurity", "SimeonOnSecurity"]
 ---
 
-# SimeonOnSecurity - KMS-Auto-PS
 GLVK Auto Install Script for KMS Activation
 
 ## Recommened Reading:

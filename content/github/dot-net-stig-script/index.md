@@ -6,7 +6,7 @@ toc: true
 description: "Easily implement the .NET Framework STIG with this PowerShell script, modifying the machine.config file and applying required registry changes for FIPS and other controls."
 tags: [".NET STIG Script", ".NET Framework", "STIG Compliance", "Powershell Automation", "FIPS", "Windows Server", "Microsoft", "Administrative Powershell", "Code Access Security Policy Tool", "Machine.config", "DoD Compliance", "Cybersecurity", "Information Assurance", "GitHub Repository", "XML", "Windows 7", "IIS", "Configuration Management", "Security Hardening", "Automation"]
 ---
-# Automate the .NET Framework STIG
+Automate the .NET Framework STIG
 
 Applying the .NET STIG is definitely not straightforward. For many administrators it can take hours to fully implement on a single system. This script applies the required registry changes and modifies the machine.config file to implement FIPS and other controls as required.
 

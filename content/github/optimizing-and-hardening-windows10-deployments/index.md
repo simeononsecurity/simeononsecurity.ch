@@ -6,7 +6,7 @@ draft: false
 description: "Optimize, harden, and secure your Windows 10 deployment with automated configuration changes using this script from various security organizations."
 tags: ["Windows 10 Security", "Automated Configuration Changes", "PrivacyTools.io", "Microsoft", "Cyber.mil", "Department of Defense", "National Security Agency", "Telemetry Blocking", "Macro Blocking", "Bloatware Removal", "Physical Attack Prevention", "Personal Use Environments", "Enterprise Environments", "Bitlocker Suspension", "Hardware Requirements", "System Guard Secure Launch", "Windows Defender Application Guard", "Windows Defender Credential Guard", "STIGS/SRGs", "Security Compliance"]
 ---
-# Optimize, Harden, and Debloat Windows 10 Deployments
+**Optimize, Harden, and Debloat Windows 10 Deployments**
 
 **Download all the required files from the [GitHub Repository](https://github.com/smiltech/Windows-Optimize-Harden-Debloat)**
 

@@ -7,7 +7,7 @@ description: ""
 tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'Block', 'Rescue', 'Always']
 ---
 
-# Today I learned / Read About...
+
 
 **What SimeonOnSecurity learned about and found interesting today**
 

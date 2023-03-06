@@ -7,9 +7,6 @@ description: "SimeonOnSecurity provides a website dedicated to security informat
 tags: ['Terms and Conditions']
 ---
 
-
-# Terms and Conditions
-
 Welcome to SimeonOnSecurity!
 
 These terms and conditions outline the rules and regulations for the use of SimeonOnSecurity's Website, located at https://SimeonOnSecurity.com.

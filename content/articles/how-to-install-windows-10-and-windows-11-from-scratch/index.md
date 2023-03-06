@@ -10,7 +10,7 @@ coverAlt: "A cartoon image of a person holding a USB stick with a Windows logo a
 coverCaption: ""
 ---
 
-# How to Download a Clean Windows 10 or 11 ISO and Install Windows from Scratch
+**How to Download a Clean Windows 10 or 11 ISO and Install Windows from Scratch**
 
 If you're planning to install Windows on a new computer or want to do a clean install to get rid of any issues you're experiencing, then downloading a clean Windows ISO file is an essential first step. In this article, we'll cover the steps to download a clean Windows 10 or 11 ISO and guide you through the installation process.
 

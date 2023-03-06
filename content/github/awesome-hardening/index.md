@@ -7,7 +7,7 @@ description: "Discover a collection of scripts and configurations to optimize an
 tags: ["system hardening", "application hardening", "STIG compliant", "Windows optimization", "Windows Defender hardening", "Apache Web Server hardening", ".NET STIG script", "Adobe Reader DC STIG script", "Firefox STIG script", "Simeononsecurity", "cybersecurity", "automation", "network security", "IT security", "system security", "computer security", "security hardening", "security automation", "Windows hardening", "web server hardening"]
 ---
 
-# Awesome Hardening
+**Awesome Hardening**
 
 A collection of scripts and configurations for hardening various systems and applications.
 

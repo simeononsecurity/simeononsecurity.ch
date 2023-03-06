@@ -7,7 +7,6 @@ description: "Learn how to enhance Windows 10 security with a PowerShell script 
 tags: ["Windows Defender", "Windows 10", "Windows 10 Security", "PowerShell Script", "Hardening", "Defender Hardening", "Security Automation", "Compliance", "Controlled Folder Access", "Intrusion Prevention System", "Application Control", "Attack Surface Reduction", "Exploit Protections", "Cloud-Delivered Protections", "Network Protections", "Windows Defender STIG Script", "Windows Defender STIG", "Windows Defender Antivirus STIG V2R1", "WDAC", "ASR"]
 ---
 
-# Windows-Defender-Hardening
 
 ## What does this script do?
 - Enables Cloud-delivered Protections

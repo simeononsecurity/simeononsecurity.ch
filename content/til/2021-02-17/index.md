@@ -7,7 +7,7 @@ draft: false
 description: ""
 tags: [PowerShell, Bash, JSON, Manipulation, Parsing]
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.

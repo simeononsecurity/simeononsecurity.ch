@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon-style_image_of_a_smiling_graduate_holding_a_laptop.
 coverAlt: "A cartoon-style image of a smiling graduate holding a laptop and a certificate while standing in front of a computer server with clouds in the background, representing the connection between cloud computing and career advancement."
 coverCaption: ""
 ---
-## MSFT Student Cert Program Information Architecture
+**MSFT Student Cert Program Information Architecture**
 
 The **MSFT Student Cert program** is thoughtfully designed to make it easy for students to find the certifications they need. The program is accessible on [CloudReadySkills.com](https://msftstudentcert.cloudreadyskills.com/) and offers a comprehensive range of certifications. 
 

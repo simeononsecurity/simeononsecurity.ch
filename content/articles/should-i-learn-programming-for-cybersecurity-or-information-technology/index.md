@@ -10,7 +10,7 @@ coverAlt: "A person sitting in front of a computer, typing code into a command l
 coverCaption: ""
 
 ---
-# Should You Learn Programming for IT and Cyber Security?
+**Should You Learn Programming for IT and Cyber Security?**
 
 The field of IT and Cyber Security is rapidly growing, and with it, the demand for professionals who are skilled in the latest technologies and practices. While not all positions in these fields require **coding or programming** skills, having a solid understanding of these technologies can greatly benefit your career and increase your marketability. In this article, we'll explore why you should consider learning programming for IT and Cyber Security, and how to get started.
 

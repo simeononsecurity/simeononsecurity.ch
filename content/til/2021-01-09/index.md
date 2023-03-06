@@ -7,7 +7,7 @@ draft: false
 description: ""
 tags: []
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity has been keeping up with the latest developments in the tech world. Today, he learned about XFS and its capabilities for backing up and restoring file systems. He found an informative article on the Red Hat website detailing the process and best practices for using XFS.

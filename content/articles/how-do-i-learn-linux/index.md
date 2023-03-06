@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
 coverAlt: "A cartoon image of a penguin with a graduation cap, holding a diploma and standing in front of a computer with a Linux desktop environment in the background."
 coverCaption: ""
 ---
-# How to Learn Linux: A Guide for Beginners
+**How to Learn Linux: A Guide for Beginners**
 
 Are you interested in learning Linux but don't know where to start? Linux is a powerful and popular operating system that is widely used in both personal and professional settings. This guide will give you an overview of how to get started with Linux, including tips for learning both Debian and RHEL-based variants of Linux.
 

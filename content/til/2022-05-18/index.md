@@ -7,7 +7,7 @@ draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
 tags: ['Automation', 'WDAC', 'Application Control', 'Windows Defender Application Control', 'Windows Defender', 'Powershell']
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity updated his repository Windows-Defender-Application-Control-Hardening and learned about Windows Defender Application Control (WDAC), a feature of Windows 10 Enterprise and Windows Server 2019 that provides security by controlling what is executed on a device.

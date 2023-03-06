@@ -6,7 +6,6 @@ draft: false
 description: "Enhance your Windows 10 experience with ease using the Windows-Optimize-Harden-Debloat GUI automated script that offers a guided install to minimize your Windows 10 setup."
 tags: ["Windows optimization", "Windows 10 debloat", "Windows 10 tweaks", "GUI", "C sharp", "Powershell", "Automation", "System stability", "System administration", "Windows updates", "Script", "Programming", "Debloating", "Windows 10 customization", "System performance", "Windows 10 privacy", "Security", "Windows 10 setup", "Windows 10 maintenance", "Windows 10 management"]
 ---
-# Windows-Optimize-Harden-Debloat-GUI
 C# Based GUI for [Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 ### GUI - Guided Install:

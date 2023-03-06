@@ -7,7 +7,7 @@ description: ""
 tags: [PowerShell, Automation, Sysmon, Configurations, SwiftOnSecurity]
 ---
 
-# Today I learned / Read About...
+
 
 **What SimeonOnSecurity learned about and found interesting today**
 

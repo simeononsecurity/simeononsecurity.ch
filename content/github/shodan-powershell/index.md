@@ -6,7 +6,6 @@ description: "Learn to automate OSINT with the Shodan PowerShell Modules collect
 tags: ['OSINT', 'automation', 'Shodan', 'PowerShell', 'API', 'enumeration', 'exploits', 'network scanning', 'cybersecurity', 'information gathering', 'cyber defense', 'cyber threat intelligence', 'pentesting', 'penetration testing', 'network security', 'threat hunting', 'Shodan API', 'Shodan PowerShell', 'PowerShell Modules', 'cyber reconnaissance']
 toc: true
 ---
-# Shodan_PS
 
 A collection of PowerShell Modules for Interacting with the Shodan API
 

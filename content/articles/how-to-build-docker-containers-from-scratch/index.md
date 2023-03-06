@@ -10,7 +10,7 @@ coverAlt: "A 3D animated image of a secure, well-organized container with the Do
 coverCaption: ""
 ---
 
-# How to Build Docker Containers
+**How to Build Docker Containers**
 
 Docker is a powerful tool that can be used to create portable and easily deployable applications. In this guide, we'll cover the basic steps to create and build Docker containers. We'll also go over some best practices and tips to ensure that your Docker containers are efficient, secure, and easy to use.
 

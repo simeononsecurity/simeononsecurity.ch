@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
 coverAlt: "A cartoon shield with the word Python written on it to represent secure coding standards"
 coverCaption: ""
 ---
-## Best Practices for Secure Coding Standards in Python
+**Best Practices for Secure Coding Standards in Python**
 
 ### 1. Input Validation
 

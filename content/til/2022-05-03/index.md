@@ -7,7 +7,7 @@ description: ""
 tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'RunAs', 'Invoke-Command', 'Start-Process', 'win_powershell', 'win_shell', 'psexec', 'win_psexec']
 ---
 
-# Today I learned / Read About...
+
 
 **What SimeonOnSecurity learned about and found interesting today**
 

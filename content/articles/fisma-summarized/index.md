@@ -10,7 +10,7 @@ coverAlt: "A computer screen with a padlock on it, symbolizing information secur
 coverCaption: ""
 ---
 
-# FISMA 101: An Overview of the Federal Information Security Modernization Act
+**FISMA 101: An Overview of the Federal Information Security Modernization Act**
 
 ## Introduction
 

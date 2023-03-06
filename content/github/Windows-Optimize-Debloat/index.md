@@ -7,7 +7,6 @@ description: "Improve the performance and privacy of your Windows operating syst
 tags: ["Windows-Optimize-Debloat", "Windows Optimization", "Debloating Windows", "Speed up Windows", "Optimize Windows Performance", "Windows Performance Boost", "Windows System Optimization", "Microsoft", "Privacy", "Bloatware Removal", "Windows 10", "Windows 11", "Windows Defender", "Windows Update", "Cortona", "Group Policy Objects", "Telemetry", "Windows Store", "Windows 10 Professional", "Windows 10 Home"]
 ---
 
-# Windows-Optimize-Debloat
 
 [![Test script against windows docker container](https://github.com/simeononsecurity/Windows-Optimize-Debloat/actions/workflows/test-with-docker.yml/badge.svg)](https://github.com/simeononsecurity/Windows-Optimize-Debloat/actions/workflows/test-with-docker.yml)
 

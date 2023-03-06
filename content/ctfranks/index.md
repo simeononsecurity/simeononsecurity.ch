@@ -8,7 +8,7 @@ cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.p
 coverAlt: "A cartoon trophy with a 1st place ribbon surrounded by computer screens and cybersecurity symbols like a padlock, shield, and lock and key symbols."
 coverCaption: ""
 ---
-# CTF Rankings Log:
+## CTF Rankings Log:
 ### 2020
 #### LockHeed Martin Cyber Grand Challenge 2020:
 - 2020/10/09 - 2020/10/18

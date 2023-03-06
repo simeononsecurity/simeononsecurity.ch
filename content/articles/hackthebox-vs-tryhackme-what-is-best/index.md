@@ -10,7 +10,7 @@ coverAlt: "A cartoon hacker in a lab coat standing between two doors, one labele
 coverCaption: ""
 ---
 
-## HackTheBox vs TryHackMe: Which is the Best for Junior Penetration Testing?
+**HackTheBox vs TryHackMe: Which is the Best for Junior Penetration Testing?**
 
 Before we dive into the details, let's first define what we mean by "junior" penetration testing. Typically, **a junior penetration tester is someone who is just starting out in the field and has limited experience with cybersecurity.**
 

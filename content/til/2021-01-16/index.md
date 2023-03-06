@@ -7,7 +7,7 @@ draft: false
 description: ""
 tags: []
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity completed multiple defensive and offensive labs on ImmersiveLabs. They also watched videos about the following topics:

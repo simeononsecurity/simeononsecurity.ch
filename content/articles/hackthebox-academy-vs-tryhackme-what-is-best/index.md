@@ -8,7 +8,7 @@ coverAlt: "An animated image featuring two characters, one wearing a HackTheBox 
 coverCaption: ""
 ---
 
-# HackTheBox Academy vs TryHackMe: Which is Best for Beginners?
+**HackTheBox Academy vs TryHackMe: Which is Best for Beginners?**
 
 ## Overview of HackTheBox Academy and TryHackMe
 

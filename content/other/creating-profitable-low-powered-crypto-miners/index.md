@@ -10,7 +10,7 @@ coverAlt: "a green, circuit board shaped like a box with internet connectivity s
 coverCaption: ""
 ---
 
-# Build a Profitable Passive Income Box with Low-Powered Hardware: A Guide
+**Build a Profitable Passive Income Box with Low-Powered Hardware: A Guide**
 Many people these days are into crypto mining and low powered miners such as helium miners. These are great and all but they don't earn all that much anymore and they are focused on one kind of earning. Today we're going to be building a low powered passive income box that earns anywhere from $10-$20 a month per box and residential IP.
 
 *If you have the ability to set this box up on a guest network or, even better, a segregated VLAN, do so. While this is a security blog, we can't assume everyone's security concerns and risk tolerance.*

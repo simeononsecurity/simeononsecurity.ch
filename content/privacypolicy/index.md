@@ -5,8 +5,6 @@ draft: false
 description: "The Privacy Policy for SimeonOnSecurity outlines the types of information collected from visitors and how it is used. The policy only applies to online activities and is valid for website visitors. By using the site, visitors consent to the policy. Personal information collected may include contact information, messages, and data related to website usage. This information is used to operate and maintain the site, improve and personalize the user experience, and for communication and marketing purposes. SimeonOnSecurity also uses cookies and web beacons, and partners with Google for advertising. The policy explains the use of log files and third-party privacy policies."
 ---
 
-# Privacy Policy for SimeonOnSecurity<
-
 At SimeonOnSecurity, accessible from https://SimeonOnSecurity.ch, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by SimeonOnSecurity and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.

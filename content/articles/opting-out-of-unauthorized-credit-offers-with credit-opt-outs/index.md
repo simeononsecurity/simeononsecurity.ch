@@ -10,7 +10,7 @@ coverAlt: "A person holding a credit card in one hand and a lock in the other ha
 coverCaption: ""
 ---
 
-# Protect Yourself from Unauthorized Offers with Credit Opt-Out
+**Protect Yourself from Unauthorized Offers with Credit Opt-Out**
 
 Identity theft is a growing concern in today's world, and pre-approved credit and insurance offers can be a prime target for thieves. These offers contain sensitive information like your name, address, and credit score, making them valuable to those looking to steal your identity.
 

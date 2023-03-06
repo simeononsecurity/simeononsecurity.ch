@@ -7,7 +7,7 @@ description: "Enhance the security and privacy of your FireFox browser with this
 tags: ["FireFox", "Privacy", "Security", "Automation", "Powershell", "Configuration", "PrivacyTools.io", "ffprofile", "Windows", "Extensions", "Telemetry", "Cookies", "Trackers", "Blocking", "Enhancement", "Script", "GitHub", "Online Privacy", "Online Security", "Browser Privacy"]
 ---
 
-# FireFox Privacy Script
+FireFox Privacy Script
 
 Organizations like [PrivacyTools.io](https://www.privacytools.io/browsers/#about_config) and [ffprofile](https://ffprofile.com/) have suggested changes to make FireFox more secure and private.
 These changes cover suggested browser extentions, blocking telemetry, disabling 3rd-party cookies, disabling trackers, etc.

@@ -7,7 +7,6 @@ description: "Simplify the process of configuring Oracle JRE 8 STIG compliance w
 tags: ["Oracle JRE 8 STIG", "JAVA STIG", "JRE", "JRE8", "JRE STIG", "Compliance", "Automation", "Powershell", "Script", "JAVA Configuration", "Java Documentation", "Group Policy", "IT Security", "System Administration", "Configuration Management", "Windows", "Cybersecurity", "STIG Compliance", "Information Technology", "Software Configuration"]
 ---
 
-# Automate Oracle JRE 8 STIGS
 
 The Oracle JRE STIGs aren’t so straight forward, requiring administrators to research JAVA documentation and generate java config files, when most administrators are used to solely STIG-ing using group policy.
 

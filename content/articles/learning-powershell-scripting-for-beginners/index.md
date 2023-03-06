@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
 coverAlt: "A cartoon character holding a script and standing in front of a computer with PowerShell prompt, indicating ease in PowerShell scripting for beginners"
 coverCaption: ""
 ---
-# Learning PowerShell Scripting for Beginners
+**Learning PowerShell Scripting for Beginners**
 
 PowerShell is a powerful command-line shell and scripting language developed by Microsoft. It provides a vast array of commands and features for managing and automating various aspects of Windows operating system and other Microsoft technologies. In this article, we will cover the basics of PowerShell scripting for beginners and provide a step-by-step guide to get started.
 

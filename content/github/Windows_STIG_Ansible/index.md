@@ -8,7 +8,6 @@ tags:
   ["Automation", "Windows Compliance", "Ansible STIG Playbooks", "Windows Hardening", "STIG Scripts", "STIG Compliance", "Ansible Galaxy", "PowerShell", "PowerShell Script", "Windows Server", "Windows Defender", ".NET", "FireFox", "Oracle JRE 8", "Adobe Reader DC", "Internet Connectivity", "Offline Compatibility", "Security Hardening", "Windows Security"]
 ---
 
-# Windows_STIG_Ansible
 
 Ansible Playbooks for SimeonOnSecurity's STIG Scripts 
 

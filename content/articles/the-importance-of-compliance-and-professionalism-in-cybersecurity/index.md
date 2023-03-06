@@ -9,7 +9,7 @@ cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
 coverAlt: "An image of a group of cybersecurity professionals in a boardroom, working together to ensure their organization's systems and data are secure."
 coverCaption: ""
 ---
-# The Importance of Compliance and Professionalism in Cybersecurity
+**The Importance of Compliance and Professionalism in Cybersecurity**
 
 ## Introduction:
 

@@ -9,7 +9,7 @@ cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_w
 coverAlt: "An animated image of a group of employees gathered around a computer or a security expert explaining cybersecurity concepts on a whiteboard."
 coverCaption: ""
 ---
-# How to Build and Manage an Effective Cybersecurity Awareness Training Program
+**How to Build and Manage an Effective Cybersecurity Awareness Training Program**
 
 In today's technology-driven world, cybersecurity threats are becoming increasingly sophisticated and pervasive. Cybercriminals can breach even the most secure systems and steal sensitive data, which can result in significant financial and reputational losses for organizations. To protect against such threats, it is crucial to have an **effective cybersecurity awareness training program**. This article will outline the steps necessary to build and manage an effective cybersecurity awareness training program, comparing it to the NIST 800-50 standard for the same topic, as well as improving upon the standard.
 

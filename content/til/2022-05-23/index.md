@@ -7,7 +7,7 @@ draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
 tags: ['Automation', 'Powershell', 'Chocolatey Package Manager', 'Chocolatey', 'Choco', 'cinstall', 'Nupkg', 'Nethor', 'Windows Package Managers', 'IAC', 'Infrastructure As Code']
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity learned about the process of creating packages for the Chocolatey Package Manager. Chocolatey is a package manager for Windows that makes it easy to install, upgrade, and manage applications and tools. By creating packages, SimeonOnSecurity can automate the installation of software and share packages with others in the community.

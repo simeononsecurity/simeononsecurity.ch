@@ -10,7 +10,7 @@ coverAlt: "A pair of servers facing each other. Colors matching the themes of pl
 coverCaption: ""
 ---
 
-# A Comparison of Plex Media Server vs JellyFin
+**A Comparison of Plex Media Server vs JellyFin**
 
 ## Introduction:
 

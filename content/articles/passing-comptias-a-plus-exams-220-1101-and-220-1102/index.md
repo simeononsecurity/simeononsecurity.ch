@@ -10,7 +10,7 @@ coverAlt: "A cartoon image of a person holding a laptop while surrounded by vari
 coverCaption: ""
 ---
 
-# Passing CompTIA's A+ Exams 220-1101 & 220-1102
+**Passing CompTIA's A+ Exams 220-1101 & 220-1102**
 
 CompTIA's A+ certification is one of the most popular and highly-regarded IT certifications in the industry. It is designed to certify the skills and knowledge required of entry-level computer service technicians. Passing the CompTIA A+ Exams 220-1101 and 220-1102 requires a combination of practical experience, study, and test-taking skills. In this article, we will provide an overview of the CompTIA A+ certification and its exams, as well as tips and resources for passing the exams.
 

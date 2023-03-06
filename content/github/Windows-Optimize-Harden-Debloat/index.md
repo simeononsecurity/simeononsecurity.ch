@@ -6,7 +6,6 @@ draft: false
 description: "This comprehensive guide provides step-by-step instructions on how to optimize, harden, and debloat your Windows system for improved performance, security, and privacy."
 tags: ["Windows optimization", "Windows hardening", "Windows debloating", "Windows security", "Windows performance", "Windows privacy", "Windows updates", "Group Policy Objects", "Adobe Acrobat Reader", "Firefox", "Google Chrome", "Internet Explorer", "Microsoft Chromium Edge", "Dot Net 4", "Microsoft Office", "Onedrive", "Oracle Java JRE 8", "Windows Firewall", "Windows Defender", "Applocker"]
 ---
-# Optimize, Harden, and Debloat Windows 10 and Windows 11 Deployments
 ## Introduction:
 
 Windows 10 and Windows 11 are invasive and insecure operating system out of the box.

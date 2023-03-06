@@ -7,7 +7,7 @@ draft: false
 description: "Today I Learned about Custom Windows Image Creation, Sysprep, and Generalizing"
 tags: ['Sysprep', 'NTLite', 'Generalization', 'Custom Images', 'Custom Windows Images', 'Windows 11', 'Debloat', 'Customization']
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity learned about the process of capturing and applying Windows 10 images using DISM, a command-line tool used to manage Windows images. To capture an image, one can use the Sysprep tool to generalize the installation, which removes hardware-specific information and prepares the image for deployment on multiple devices.

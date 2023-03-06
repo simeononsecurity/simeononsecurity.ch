@@ -7,7 +7,7 @@ draft: false
 description: ""
 tags: []
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control (WDAC) policies. WDAC is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.

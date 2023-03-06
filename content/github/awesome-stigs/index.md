@@ -7,7 +7,6 @@ description: "Discover a collection of STIG scripts to automate security complia
 tags: ["STIG scripts", "security compliance", "automation", "Windows", "applications", ".NET", "Adobe Reader DC", "Oracle JRE 8", "FireFox", "Ansible playbooks", "domain prep", "Windows Defender", "cybersecurity", "scripting", "STIG compliance", "configuration management", "IT security", "patch management", "system administration"]
 ---
 
-# Automated STIG Scripts
 
 A collection of scripts to automate the implementation of Security Technical Implementation Guides (STIGs) for various systems and applications.
 

@@ -10,7 +10,7 @@ coverAlt: "A cartoon image of multiple low-powered miners connected to a network
 coverCaption: ""
 ---
 
-# Managing a Fleet of Low-Powered Miners
+**Managing a Fleet of Low-Powered Miners**
 Are you interested in building a fleet of low-powered miners to generate passive income? If so, you might be wondering how to manage multiple remote nodes effectively. In this article, we will explore some of the best practices for managing a fleet of low-powered miners and discuss services that can help you maintain access to nodes without the need for direct port forwarding.
 
 ## Introduction

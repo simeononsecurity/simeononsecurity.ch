@@ -7,7 +7,7 @@ draft: false
 description: ""
 tags: []
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity recently learned about two topics in the field of computer security: CVE-2020-17049, also known as the Kerberos Bronze Bit Attack, and Windows Token-Based Activation.

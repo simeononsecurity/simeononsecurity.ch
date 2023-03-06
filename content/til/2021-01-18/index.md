@@ -7,7 +7,7 @@ draft: false
 description: ""
 tags: []
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity learned about and found interesting things on ImmersiveLabs, videos and some topics that would be of interest to others.

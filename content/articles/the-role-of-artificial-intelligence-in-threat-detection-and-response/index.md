@@ -11,7 +11,6 @@ coverCaption: ""
 ---
 
 As technology continues to evolve, so do the methods used by cybercriminals to penetrate secure systems. Threat actors are constantly innovating to find new ways to breach systems, steal data, and cause damage to organizations. In response, security teams must also evolve and adopt new technologies to keep up with these threats. One such technology that has proven invaluable in the fight against cybercrime is **artificial intelligence (AI)**. In this article, we'll explore the role of AI in threat detection and response.
-# The Role of Artificial Intelligence in Threat Detection and Response
 
 ## Understanding Threat Detection
 

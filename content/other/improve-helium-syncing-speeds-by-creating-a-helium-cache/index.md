@@ -10,7 +10,7 @@ coverAlt: "A cartoon or 3d animated image of a computer with a chain symbolizing
 coverCaption: ""
 ---
 
-# Improve Helium Syncing Speeds by Creating a Helium Blockchain Cache
+**Improve Helium Syncing Speeds by Creating a Helium Blockchain Cache**
 
 Today, we will demonstrate how to install the official Helium Miner Docker container on a VPS or Linux virtual machine. This approach offers the advantage of having a centralized and secure copy of the Helium blockchain, under our control. By implementing this setup, we will also enhance syncing speeds by having multiple devices download blockchain data. This solution is highly scalable and can accommodate multiple miners, simply by duplicating the cron script outlined below.
 

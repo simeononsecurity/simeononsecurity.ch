@@ -10,7 +10,7 @@ coverAlt: "A computer screen displaying a cybersecurity dashboard with graphs an
 coverCaption: ""
 ---
 
-# Summary of DoD Manual 8140.03 - Cyberspace Workforce Qualification and Management Program
+**Summary of DoD Manual 8140.03 - Cyberspace Workforce Qualification and Management Program**
 
 The Department of Defense (DoD) has recently released the DoD Manual 8140.03, which outlines the Cyberspace Workforce Qualification and Management Program. The program is designed to develop and maintain a skilled and qualified cyberspace workforce that can operate in coordination with warfighters, businesses, and mission system owners. The manual includes five sections, with each section providing details on different aspects of the program. 
 

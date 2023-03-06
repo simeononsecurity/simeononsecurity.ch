@@ -7,7 +7,6 @@ description: "Enhance your Windows Group Policy deployments with WMI Filters - D
 tags: ["WMI", "WMI Filters", "Windows Management Instrumentation", "Group Policy", "GPO", "Windows Group Policy Deployments", "Microsoft", "Efficient Deployments", "GitHub Repository", "Download", "Installation", "Usage Guides", "Windows Version", "Software", "Isolate Policies", "Large Domains", "GPO Process", "Targeted Settings", "WMI Queries", "Windows Firewall"]
 ---
 
-# WMI Filters
 
 A collection of WMI filters to assist with Windows Group Policy deployments
 

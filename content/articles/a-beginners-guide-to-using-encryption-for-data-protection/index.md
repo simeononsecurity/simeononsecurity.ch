@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection
 coverAlt: "A cartoon padlock with a keyhole, representing data protection through encryption."
 coverCaption: ""
 ---
-# A Beginner's Guide to Encryption for Data Protection
+**A Beginner's Guide to Encryption for Data Protection**
 
 **Data protection** is becoming increasingly important as more people store sensitive information online. **Encryption** is an essential tool for protecting data, but it can be overwhelming to understand where to begin. This beginner's guide to using encryption for data protection will help you understand the basics of encryption and how to use it to secure your sensitive data.
 

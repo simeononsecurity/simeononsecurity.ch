@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response
 coverAlt: " A cartoon of a cybersecurity team analyzing data and responding to an attack while a magnifying glass hovers over them."
 coverCaption: ""
 ---
-# The Vital Role of Threat Intelligence in Incident Response
+**The Vital Role of Threat Intelligence in Incident Response**
 
 **Threat intelligence** plays a vital role in incident response and mitigation strategies, providing organizations with valuable insights into potential threats, allowing them to prioritize their cybersecurity efforts, detect and respond to incidents quickly, and minimize the impact of incidents when they occur. 
 

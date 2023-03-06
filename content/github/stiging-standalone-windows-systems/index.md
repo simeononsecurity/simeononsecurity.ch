@@ -8,8 +8,6 @@ tags: ["Automation", "Windows STIG Compliance", "Powershell Scripting", "Windows
 
 ---
 
-# STIGing Standalone Windows 10 Systems
-
 **Download all the required files from the [GitHub Repository](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)**
 
 **We are seeking help with the following [.Net issue](https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3)** 

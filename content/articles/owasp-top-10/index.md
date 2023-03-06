@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.p
 coverAlt: "A cartoon image of a web developer wearing a superhero cape and holding a shield. The shield is protecting a laptop with a web application interface on the screen."
 coverCaption: ""
 ---
-# OWASP Top 10: The Most Critical Web Application Security Risks
+**OWASP Top 10: The Most Critical Web Application Security Risks**
 
 Web application security is a critical aspect of web development, but it's often overlooked. The Open Web Application Security Project (OWASP) provides a list of the top 10 web application security risks that are most critical for developers to address. This list is known as the OWASP Top 10.
 

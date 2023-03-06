@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
 coverAlt: "A cartoon security analyst holding a magnifying glass, searching for hidden cyber threats on a computer screen."
 coverCaption: ""
 ---
-# The Role of Threat Hunting in Proactive Cybersecurity Defense
+**The Role of Threat Hunting in Proactive Cybersecurity Defense**
 
 In today's world, where **cyberattacks** are becoming more sophisticated and frequent, it is essential for organizations to implement **proactive cybersecurity** measures. One such measure is **threat hunting**.
 

@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.
 coverAlt: "A cartoon shield with a lock icon in the center representing network security against APTs"
 coverCaption: ""
 ---
-# How to Harden Your Network Infrastructure Against Advanced Persistent Threats (APTs)
+**How to Harden Your Network Infrastructure Against Advanced Persistent Threats (APTs)**
 
 Advanced Persistent Threats (APTs) are a type of cyberattack that target high-value organizations or individuals, and are designed to remain undetected for a long period of time. These attacks can cause significant damage to an organization, including theft of sensitive data, financial losses, and damage to reputation.
 

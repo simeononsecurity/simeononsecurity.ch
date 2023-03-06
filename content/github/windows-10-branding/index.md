@@ -7,7 +7,6 @@ description: "Control desktop wallpaper, users avatar, lock screen, and OEM logo
 tags: ["Automation", "Branding", "Windows Branding", "Customization", "Windows Customization", "Windows 10", "Windows Server 2016", "Windows Server 2019", "Powershell", "Script", "Windows System Branding", "Desktop Wallpaper", "Users Avatar", "Windows Lock Screen", "OEM Logo", "Microsoft Security Compliance Toolkit 1.0", "Organization Branding", "System Customization", "IT Automation", "Security Compliance"]
 ---
 
-# Setup branding on Windows 10 and Server 2016/2019 Systems
 
 Many organizations have a need or want to control the branding of a Windows system. 
 This includes the desktop wallpaper, the users avatar, the Windows lock screen, and sometimes the OEM Logo. 

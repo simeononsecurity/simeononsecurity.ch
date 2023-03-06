@@ -7,7 +7,6 @@ description: ""
 tags: []
 ---
 
-# Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity came across two interesting and useful security and privacy related tools: Universal Android Debloater and DeepPrivacy.

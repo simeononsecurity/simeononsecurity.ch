@@ -6,7 +6,6 @@ draft: false
 description: "Learn how to use Windows Defender Application Control (WDAC) to harden your Windows operating system with scripts and tools."
 tags: ["Windows Defender Application Control (WDAC) Hardening", "PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Windows Defender Exploit Protection (WDEP)", "Windows Defender Attack Surface Reduction (ASR)", "Windows Server 2016/2019", "Windows Server Core", "Microsoft WDAC-Toolkit", "Refresh CI Policy", "Microsoft Recommended block rules", "Microsoft Recommended driver block rules", "XML policies", "BIN policies", "Group Policy", "Microsoft Intune"]
 ---
-# Windows-Defender-Application-Control-Hardening
 
 Harden Windows with Windows Defender Application Control (WDAC)
 

@@ -6,6 +6,4 @@ description: "Members of the community who keep things safe and secure, with hon
 tags: ['Hall of Fame', 'HoF']
 ---
 
-# Hall Of Fame
-
 Placeholder...

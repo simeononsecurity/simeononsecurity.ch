@@ -6,7 +6,6 @@ description: "Get complete control over Brave Browser policies with our modified
 tags: ["BraveADMX", "ADMX Templates", "Brave Browser", "Group Policy", "GPO", "Google Chrome ADMX", "Policy Definitions", "Pre-Alpha", "Testing Purposes", "Registry Path", "GitHub Repository", "Chromium", "Policy Management", "Configuration Management", "Windows Policies", "Security Templates", "Brave Browser Policies", "Google Chrome Policies", "Browser Policy Control", "Corporate IT Management"]
 ---
 
-# BraveADMX
 
 Brave, as a company, has failed to release ADMX templates for the brave browser siteing pushing pure registries as the only supported option.
 As the Brave Browser is build off of Chromium, it should support most, if not all, the same policies from the Chromium and Google Chrome ADMX templates.

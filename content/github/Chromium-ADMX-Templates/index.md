@@ -6,7 +6,7 @@ description: "Get complete control over your Chromium Browser policies with Chro
 tags: ["ADMX", "ADMX Templates", "Chromium Browser", "Chromium", "Group Policy", "GPO", "Google Chrome ADMX templates", "ChromiumADMX", "Policy Definitions", "Registry Path", "Complete Control", "Testing Purposes", "GitHub Repository", "Software Policies", "Brave Browser", "Pre-Alpha State", "Installation Instructions", "Policy Management", "IT Security", "Enterprise"]
 ---
 
-# ChromiumADMX
+
 Proper ADMX Template for the Chromium Browser
 
 Chromium, as a company, has failed to release ADMX templates for the Chromium Browser that may be installed at the same time as the Google Chrome templates.

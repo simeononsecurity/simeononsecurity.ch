@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png"
 coverAlt: "A cartoon image of a person standing at a crossroads, with a signpost showing IPv4 and IPv6 directions, representing the choice and transition between the two protocols."
 coverCaption: ""
 ---
-# IPv4 to IPv6 Transition Mechanisms
+**IPv4 to IPv6 Transition Mechanisms**
 
 As the number of connected devices and the amount of internet traffic continue to increase, the world is running out of available IPv4 addresses. IPv6 was introduced to solve this problem and has been adopted by many networks, but the transition to IPv6 is still a work in progress. In this article, we will explore the various transition mechanisms that can be used to migrate from IPv4 to IPv6.
 

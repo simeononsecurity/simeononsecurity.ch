@@ -7,7 +7,6 @@ description: ""
 tags: []
 ---
 
-# Today I learned / Read About...
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity is a person who has a keen interest in security and privacy and has come across several resources today that they found interesting and would like to share with others.

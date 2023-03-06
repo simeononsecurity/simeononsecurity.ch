@@ -7,9 +7,6 @@ tags: ["Windows Domain", "Group Policy Objects", "Compliance Automation", "Power
 toc: true
 ---
 
-
-# STIG Compliant Domain Prep
-
 Import all the GPOs provided by SimeonOnSecurity to assist in making your domain compliant with all applicable STIGs and SRGs.
 
 ## Notes:

@@ -7,7 +7,7 @@ draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
 tags: ['ansible', 'automation', 'ansible conditionals', 'playbooks', 'ansible playbooks', 'ansible playbook collections', 'ansible collections', 'variables']
 ---
-# Today I learned / Read About...
+
 **What SimeonOnSecurity learned about and found interesting today**
 
 Today, SimeonOnSecurity learned about using conditionals in Ansible and managing variables. He found several resources to help deepen his understanding of the topic, including official Ansible documentation and articles from tech bloggers.

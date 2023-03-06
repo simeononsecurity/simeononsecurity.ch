@@ -9,7 +9,7 @@ cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.p
 coverAlt: "A stylized illustration of a cityscape with various IoT devices connected to a network represented as a web of light, with the Helium logo prominently displayed."
 coverCaption: ""
 ---
-# The Power of LoRa Networks: Explaining Helium Integration
+**The Power of LoRa Networks: Explaining Helium Integration**
 
 With the ever-growing demand for connected devices, **the LoRa network** has emerged as a popular solution for long-range communication between IoT devices. The network operates on low power, yet can transmit data over several kilometers, making it an ideal solution for industries such as smart cities, agriculture, logistics, and more.
 
