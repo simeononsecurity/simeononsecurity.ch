@@ -1,0 +1,7 @@
+<ul id="breadcrumbs" style="display: inline-block; list-style: none; margin: 0; padding: 0;">
+    {{- range $index, $ancestor := .Ancestors.Reverse }}
+        <li style="display: inline-block;"><a href="{{ $ancestor.RelPermalink }}">{{ $ancestor.Title }}</a></li>
+        <li style="display: inline-block;">&gt;</li>
+    {{- end }}
+    <li style="display: inline-block;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+</ul>
