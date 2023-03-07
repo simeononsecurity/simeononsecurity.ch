@@ -10,32 +10,37 @@ draft: false
 <p> You may follow our <a href="https://simeononsecurity.com/rss.xml">RSS feed</a>, our <a href="https://github.com/simeononsecurity">GitHub</a>, our <a href="https://twitter.com/SimeonSecurity">Twitter</a>, our <a rel="me" href="https://mastodon.world/@simeononsecurity">Mastodon</a>, or our <a href="https://discord.gg/FGQmksA4MA">Discord</a> at this time.</p>
 
 <h3>Contact Form</h3>
-<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+<form class="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
   <p class="hidden">
     <label>
       Don't fill this out if you're human: <input name="bot-field" />
     </label>
   </p>
-  <p>
-    <label>Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Email: <input type="email" name="email" /></label>
-  </p>
-    <p>
-    <label>Phone Number: <input type="tel" name="tel" /></label>
-  </p>
-  <p>
-    <label>Subject: <select name="subject[]" multiple>
+  <div class="contact-form__group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="contact-form__group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="contact-form__group">
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="tel">
+  </div>
+  <div class="contact-form__group">
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject[]" multiple>
       <option value="Business">Business</option>
       <option value="Disclosure">Security Concern</option>
       <option value="Suggestions">Suggestions</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
+    </select>
+  </div>
+  <div class="contact-form__group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <div class="contact-form__group">
     <button type="submit">Send</button>
-  </p>
+  </div>
 </form>
