@@ -55,7 +55,6 @@
       <br>
       {{ partial "share-buttons.html" . }}
       {{ partial "displayads-responsive-horizontal.html" . }}
-      <br>
     </div>
     {{ if eq .Type $.Site.Params.contentTypeName }}
       {{ if or .NextInSection .PrevInSection }}
@@ -85,7 +84,9 @@
             {{ end }}
           </div>
         </div>
+        <br>
         {{ partial "relatedcontent.html" . }}
+        <br>
       {{ end }}
     {{ end }}
 
