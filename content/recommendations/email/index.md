@@ -36,7 +36,7 @@ There are several secure email providers available today that offer high levels 
 
 [ProtonMail](https://pr.tn/ref/KWMTP5393DR0)'s servers are located in Switzerland, which has strong privacy laws, and the company is transparent about its security practices. It also offers a free plan with limited storage and features, as well as paid plans with more storage and advanced features.
 
-### [Tutanota}(https://tutanota.com/)
+### [Tutanota](https://tutanota.com/)
 
 [Tutanota](https://tutanota.com/) is another secure email provider that offers end-to-end encryption and two-factor authentication. It is based in Germany and is compliant with the strict data protection laws of the European Union.
 
