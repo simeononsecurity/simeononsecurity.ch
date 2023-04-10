@@ -130,7 +130,7 @@ Be sure to uninstall after you get your UUID otherwise you'll end up running it 
 Modify the string before pasting into your terminal. You need to specify your earn app UUID.
 ```bash
 mkdir $HOME/earnapp-data
-docker run -td --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
+docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
 #### Video Tutorial:
 {{< youtube id="tt499o0OjGU" >}}
@@ -146,7 +146,7 @@ Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
 #### Install the Docker Container:
 Modify the string with the obvious email, password, and device name before pasting into the terminal
 ```bash
-docker run --name honeygain -d honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
+docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
 #### Alternate instructions for Raspberry Pi
@@ -156,18 +156,18 @@ docker run --name honeygain -d honeygain/honeygain -tou-accept -email ACCOUNT_EM
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Install PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=966467)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
 Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
 
 #### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=966467)
+Create an account at [https://pawns.app](https://pawns.app/?r=sos)
 
 #### Install the Docker Container:
 
 Modify the following with your email, password, device name, and device id before copying to your terminal.
 ```bash
 docker pull iproyal/pawns-cli:latest
-docker run --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
+docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
 ### Install Peer 2 Profit:
@@ -201,7 +201,7 @@ Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your 
 #### Install the Docker Container:
 Modify the following line with your email and api key before pasting into your terminal.
 ```bash
-docker run -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
+docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
 #### Video Tutorial:
 {{< youtube id="171gWknfAbY" >}}
@@ -219,7 +219,7 @@ Once you get into the dashboard, make note of your application token.
 Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
 
 ```bash
-docker run -td --name tm traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
 ### Install Mysterium:
