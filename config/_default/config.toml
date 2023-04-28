@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "simeononsecurity"
 theme = "soshellofriend"
-# baseurl = "https://simeononsecurity.ch"
+baseurl = "https://simeononsecurity.ch"
 paginate = 5
 canonifyURLs = true
 disableAliases = true
@@ -83,11 +83,10 @@ publisherLogo = "/img/banner.png"
 publisherLogoWidth = 460
 publisherLogoHeight = 460
 
-
-# [sitemap]
-# changefreq = "daily"
-# filename = "sitemap.xml"
-# priority = 1
+[sitemap]
+changefreq = "daily"
+filename = "sitemap.xml"
+priority = 1
 
 [security]
 enableInlineShortcodes = true
@@ -122,8 +121,7 @@ cover = [731, 1054, 1462]
 
 [languages]
 [languages.en]
-baseurl = "https://simeononsecurity.ch"
-sitemap = [{ filename = "sitemap.xml" },      { filename = "sitemap.en.xml" },    ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }, ]
 languageName = 'English'
 languageCode = "en"
 weight = 1
@@ -193,8 +191,7 @@ name = "About"
 url = "/about"
 
 [languages.es]
-baseurl = "https://es.simeononsecurity.ch"
-sitemap = { filename = "sitemap.es.xml" }
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }, ]
 languageName = "Español"
 languageCode = "es"
 weight = 2
@@ -243,8 +240,7 @@ name = "Recomendaciones"
 url = "/recommendations"
 
 [languages.fr]
-baseurl = "https://fr.simeononsecurity.ch"
-sitemap = { filename = "sitemap.fr.xml" }
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }, ]
 languageName = 'Français'
 languageCode = "fr"
 weight = 3
@@ -293,8 +289,7 @@ name = "Recommandations"
 url = "/recommendations"
 
 [languages.hi]
-baseurl = "https://hi.simeononsecurity.ch"
-sitemap = { filename = "sitemap.hi.xml" }
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }, ]
 languageName = 'हिन्दी'
 languageCode = "hi"
 weight = 4
@@ -343,8 +338,7 @@ name = "सिफारिशें"
 url = "/recommendations"
 
 [languages.ar]
-baseurl = "https://ar.simeononsecurity.ch"
-sitemap = { filename = "sitemap.ar.xml" }
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }, ]
 languageName = 'العربية'
 languageCode = "ar"
 weight = 5
@@ -393,8 +387,7 @@ name = "التوصيات"
 url = "/recommendations"
 
 [languages.de]
-baseurl = "https://de.simeononsecurity.ch"
-sitemap = { filename = "sitemap.de.xml" }
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }, ]
 languageName = 'Deutsch'
 languageCode = "de"
 weight = 6
