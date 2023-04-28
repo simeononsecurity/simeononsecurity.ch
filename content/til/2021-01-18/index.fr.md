@@ -1,0 +1,10 @@
+---
+
+title: "Today I Learned Cyber Security techniques"
+date: 2021-01-18
+toc: true
+draft: false
+description: ""
+tags: []
+---
+ **Ce que SimeonOnSecurity a appris et trouvé intéressant aujourd'hui**  SimeonOnSecurity a appris et trouvé des choses intéressantes sur ImmersiveLabs, des vidéos et certains sujets qui pourraient intéresser les autres.  Sur ImmersiveLabs, SimeonOnSecurity a réalisé plusieurs laboratoires défensifs et offensifs, offrant une expérience pratique et améliorant les compétences en matière de sécurité.  SimeonOnSecurity a également trouvé plusieurs vidéos intéressantes, notamment "Comment voler des logiciels gratuits (et le faire mal)" de Gardiner Bryant, "Ce qui se passe (et ne se passe pas) avec Hyperloop | Réponses avec Joe" de Joe Scott, "vous avez besoin pour apprendre les machines virtuelles MAINTENANT !! (Kali Linux VM, Ubuntu, Windows)" par NetworkChuck, et "Convince Your Dungeon Master to Buy a 3D Printer [with orcs]" par Zack Freedman. Chaque vidéo fournit des informations et des perspectives uniques sur la technologie, la sécurité et d'autres sujets qui peuvent être informatifs et divertissants.  ## Laboratoires immersifs : - [Plusieurs laboratoires défensifs et offensifs terminés](https://www.immersivelabs.com/)  ## Vidéos intéressantes : - [Gardiner Bryant - Comment voler des logiciels libres (et le faire mal)](https://www.youtube.com/watch?v=7bYpZpTCUFA) - [Joe Scott - Qu'est-ce qui se passe (et ne se passe pas) avec Hyperloop | Réponses avec Joe] (https://www.youtube.com/watch?v=23n94m96flc) - [NetworkChuck - vous devez apprendre les machines virtuelles MAINTENANT !! (VM Linux Kali, Ubuntu, Windows)](https://www.youtube.com/watch?v=wX75Z-4MEoM) - [Zack Freedman - Convainquez votre maître de donjon d'acheter une imprimante 3D [avec des orcs]](https://www.youtube.com/watch?v=Lvo61p1UVCQ)
