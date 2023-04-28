@@ -43,7 +43,6 @@ async function translateLines(text) {
 };
 
 async function translateFile(filePath) {
-
     const text = fs.readFileSync(filePath, 'utf8');
 
     const lines = text.split('\n');
@@ -110,10 +109,10 @@ async function translateFile(filePath) {
         translateBlock.push(line);
     }
 
-    if (translateBlock.length > 0) output.push(await translateLines(translateBlock.join(' ')))
+    if (translateBlock.length > 0) output.push(await translateLines(translateBlock.join(' ')));
 
-    const newFileName = path.parse(filePath);
-    const targetPath = path.join(path.dirname(filePath), `${newFileName.name}.${options.to}${path.extname(filePath)}`);
+    const fileName = path.basename(filePath, '.en.md');
+    const targetPath = path.join(path.dirname(filePath), `${fileName}.${options.to}.md`);
     fs.writeFileSync(targetPath, output.join('\n'));
 }
 
