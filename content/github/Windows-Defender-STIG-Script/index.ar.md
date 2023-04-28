@@ -10,4 +10,4 @@ tags: ["PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team
 .\sos-windowsdefenderstig.ps1
 ```
 
-## تطبيق STIGS / SRGs: - [Windows Defender Antivirus V1R9] (https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip)  ## تنزيل الملفات المطلوبة:  تنزيل الملفات المطلوبة من [مستودع جيثب] (https://github.com/simeononsecurity/Windows-Defender-STIG-Script)  ## كيفية تشغيل البرنامج:  ** يتم تنفيذ البرنامج من تنزيل GitHub المستخرج على النحو التالي: **
+## تطبيق STIGS / SRGs: - [Windows Defender Antivirus V1R9] (https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip)  ## تنزيل الملفات المطلوبة:  تنزيل الملفات من [مستودع GitHub] (https://github.com/simeononsecurity/Windows-Defender-STIG-Script)  ## كيفية تشغيل البرنامج:  ** يتم تنفيذ البرنامج من تنزيل GitHub المستخرج على النحو التالي: **
