@@ -1,0 +1,15 @@
+---
+title: "HackTheBox - Invite Challenge (Windows/Linux)"
+draft: false
+toc: true
+description: "Learn how to generate an invite code and join the HackTheBox online platform to test and advance your skills in penetration testing and cybersecurity on both Windows and Linux."
+tags: ["HackTheBox", "Invite Challenge", "Penetration Testing", "Cybersecurity", "Windows", "Linux", "Online Platform", "HTTP POST", "Invite Code", "Base64 Encoded", "Powershell", "Linux Bash", "Base64 Decode", "Invite Code Generation", "Programming", "Web Development", "Technology", "IT Security", "IT Training"]
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+coverAlt: "A cartoon computer screen showing the HackTheBox website with a vault door being unlocked with a key, revealing a trophy or medal, with a cityscape background in the color scheme of HackTheBox's logo (blue and white)."
+coverCaption: ""
+---
+```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
+
+
+
+احصل على نسخة معرفة بخطوة لإكمال دعوة HackTheBox على نظام التشغيل Windows أو Linux. تعرف على كيفية إنشاء رمز الدعوة والانضمام إلى النظام الأساسي عبر الإنترنت مهاراتك الخاصة في اختبار الاختراق السيبراني. تطبيقا من الحلول الأساسية.  ______  ## ما هو هاك ذا بوكس؟  HackTheBox عبارة عن منصة عبر الإنترنت لاختبار مهاراتك في اختبار الاختراق السيبراني.  ## كيف تنضم إلى هاك ذا بوكس؟  التجزئة حساب على HackTheBox (HTB) ، فعليك أن تكون منافسة في البداية ، أو اختراق نفسك. ستساعدك في مشاركة التحدي.  أولاً ، ثم انتقل إلى [موقع HackTheBox] (https://hackthebox.eu) ، بعد ذلك على زر الانضمام.  يظهر لك يظهر بوضوح رمز دعوة.  يمكنك أن ترى بوضوح مربع نص يطلب منا رمز دعوة.  اضغط على "F12" *** على لوحة المفاتيح أو *** "Ctrl + Shift + I" *** أدوات مطور المستعرضات.  في علامة التبويب "العناصر" ، نصًّا برمجيًا ** [inviteapi.min.js] (https://www.hackthebox.eu/js/inviteapi.min.js) **.  بمراجعة جافا سكريبت ووظيفة makeInviteCode ، ستكتشف أنك بحاجة إلى إرسال ** HTTP POST ** إلى ** / api / calling / create ** للحصول على رمز دعوة.  يمكنك القيام بما يلي للحصول على رمز الدعوة المشفر Base64:  ### حل:  #### بسيط: - ** Windows **: `` powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) " - ** Linux **: `` bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" `  والذي سينشئ المحتوى التالي: `` json {"Success": 1 ، "data": {"code": "Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg ==" ، "format": "encoded"} ، "0": 200} ""  إذا أخذت رمز الدعوة إلى المشفر إلى [base64decode.org] (https://www.base64decode.org/) ، فقد حصلت على رمز الدعوة الخاص بك!  #### متقدم (اطبع رمز الدعوة فورًا):  - ** Windows **: ``owershell $ base64api = ((Invoke-WebRequest -Method POST" https://www.hackthebox.eu//api/invite/generate "| ConvertFrom-JSON). البيانات). ؛ [System.Text.Encoding] :: UTF8.GetString ([System.Convert] :: FromBase64String ($ base64api)) "" - ** Linux **: `` bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d "  - ** ملاحظة **: امتلاك إلى حزمة حزمة [jq] (https://stedolan.github.io/jq/download/).  ______  ### دعوة رمز مثال:

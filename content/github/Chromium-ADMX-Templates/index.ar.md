@@ -1,0 +1,9 @@
+---
+title:  "ChromiumADMX: Proper ADMX Template for Chromium Browser"
+date: 2020-07-25T19:30:33-05:00
+draft: false
+description: "Get complete control over your Chromium Browser policies with ChromiumADMX's modified Google Chrome ADMX templates reflecting the Chromium Browser's registry path for use with Group Policy management."
+tags: ["ADMX", "ADMX Templates", "Chromium Browser", "Chromium", "Group Policy", "GPO", "Google Chrome ADMX templates", "ChromiumADMX", "Policy Definitions", "Registry Path", "Complete Control", "Testing Purposes", "GitHub Repository", "Software Policies", "Brave Browser", "Pre-Alpha State", "Installation Instructions", "Policy Management", "IT Security", "Enterprise"]
+---
+
+  نموذج ADMX المناسب لمتصفح Chromium  فشلت شركة Chromium ، كشركة ، إصدار قوالب ADMX لمتصفح Chromium يتم تثبيتها في نفس الوقت مع قوالب Google Chrome. مع أخذ ذلك في الاعتبار ، سهم بتعديل قوالب Google Chrome ADMX لتعكس مسار تسجيل متصفح Chromium ووضعنا جنبًا إلى جنب في مجلد Google ADMX في GPO.  ** تعريفات السياسة هذه في حالة ما قبل ألفا. يجب أن يفكر في الاعتقاد فقط **  ## تحميل الملفات المطلوب  ** قم بإرسال الملفات المطلوبة من [GitHub Repository] (https://github.com/simeononsecurity/ChromiumADMX) **  ## ملحوظة  تم تعديل تعريفات سياسة Google Chrome لم يلي: [نماذج سياسة Chromium] (https://www.chromium.org/administrators/policy-templates)  ** ملاحظة: ** تم استبدال "HKEY_LOCAL_MACHINE \ Software \ Policies \ Google \ Chrome" بـ "HKEY_LOCAL_MACHINE \ Software \ Policies \ Chromium \"  ** ملاحظة: ** لا تقم بتثبيت قوالب SOS'es Chromium و Brave Browser ADMX في نفس الوقت.  ## كيفية تثبيت  1.) انسخ جميع الملفات الملف readme.md إلى "C: \ Windows \ PolicyDefinitions" و / أو "\\\ domain.tld \ domain \ Policies \ PolicyDefinitions"  2.) الربح؟    
