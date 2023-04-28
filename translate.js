@@ -111,11 +111,11 @@ async function translateFile(filePath) {
 
     if (translateBlock.length > 0) output.push(await translateLines(translateBlock.join(' ')))
 
-    const result = output.join('\n');
     const newFileName = path.parse(filePath);
-    const targetPath = path.join(path.dirname(filePath), `${newFileName.name}.${options.to}${newFileName.ext}`);
-    fs.writeFileSync(targetPath, result);
+    const targetPath = path.join(path.dirname(filePath), `${newFileName.name}.${options.to}${newFileName.lang}${newFileName.ext}`);
+    fs.writeFileSync(targetPath, output.join('\n'));
 }
+
 
 async function translateDirectory(dirPath) {
     const files = fs.readdirSync(dirPath);
