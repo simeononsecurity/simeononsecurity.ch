@@ -1,0 +1,9 @@
+---
+title:  "ChromiumADMX: Proper ADMX Template for Chromium Browser"
+date: 2020-07-25T19:30:33-05:00
+draft: false
+description: "Get complete control over your Chromium Browser policies with ChromiumADMX's modified Google Chrome ADMX templates reflecting the Chromium Browser's registry path for use with Group Policy management."
+tags: ["ADMX", "ADMX Templates", "Chromium Browser", "Chromium", "Group Policy", "GPO", "Google Chrome ADMX templates", "ChromiumADMX", "Policy Definitions", "Registry Path", "Complete Control", "Testing Purposes", "GitHub Repository", "Software Policies", "Brave Browser", "Pre-Alpha State", "Installation Instructions", "Policy Management", "IT Security", "Enterprise"]
+---
+
+  क्रोमियम साइट के लिए उचित ADMX साइट  क्रोमियम, एक कंपनी के रूप में, क्रोमियम साइटों के लिए एडीएमएक्स स्पॉट जारी करने में विफल रहता है जो उसी समय Google क्रोम अंश के रूप में स्थापित हो सकते हैं। इसे ध्यान में रखते हुए, कई क्रोमियम विश्वसनीयता पथों को पहचानने के लिए Google Chrome ADMX को दोषमुक्त किया जाता है और GPO में Google ADMX फ़ोल्डर को मिलाकर रखा जाता है।  **ये नीतिगत परिभाषाएँ प्री-अल्फ़ा स्टेट में हैं। उनका उपयोग केवल लक्ष्य उद्देश्यों के लिए किया जाना चाहिए**  ## आवश्यक फ़ाइलें डाउनलोड करें  ** [GitHub रिपोजिटरी](https://github.com/simeononsecurity/ChromiumADMX) से आवश्यक फ़ाइलें डाउनलोड करें**  ## सूचना  इसके अनुसार Google Chrome नीति परिभाषाएँ: [क्रियियम नीति](https://www.chromium.org/administrators/policy-templates)  **ध्यान दें:** "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" को "HKEY_LOCAL_MACHINE\Software\Policies\Chromium\" से बदला गया  **ध्यान दें:** एसओएस के क्रोमियम और ब्रेव क्रोमियम एडी मैक्स एक ही समय में दर्ज न करें।  ## स्थापित करने के लिए कैसे  1.) readme.md को सभी अनिवार्य को "C:\Windows\PolicyDefinitions" और/या "\\\\domain.tld\domain\Policies\PolicyDefinitions" में कॉपी करें।  2.) लाभ?    

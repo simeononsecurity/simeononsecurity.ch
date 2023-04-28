@@ -1,0 +1,9 @@
+---
+title: "WMI Filters for Efficient Windows Group Policy Deployments - Download from GitHub"
+date: 2020-08-11T13:35:00-05:00
+toc: true
+draft: false
+description: "Enhance your Windows Group Policy deployments with WMI Filters - Download and Install from GitHub Repository for Faster and Efficient GPO Process."
+tags: ["WMI", "WMI Filters", "Windows Management Instrumentation", "Group Policy", "GPO", "Windows Group Policy Deployments", "Microsoft", "Efficient Deployments", "GitHub Repository", "Download", "Installation", "Usage Guides", "Windows Version", "Software", "Isolate Policies", "Large Domains", "GPO Process", "Targeted Settings", "WMI Queries", "Windows Firewall"]
+---
+  Windows समूह नीति परिनियोजन में सहायता के लिए WMI फ़िल्टर का संग्रह  GPOs की तैनाती करते समय, Microsoft प्रक्रिया को गति देने और बड़े डोमेन में नीतियों को अलग करने के लिए WMI फ़िल्टर का उपयोग करने की अनुशंसा करता है। WMI फ़िल्टर आपको GPOs को एक विशिष्ट सॉफ़्टवेयर या Windows संस्करण के नीचे निर्दिष्ट करने की अनुमति देता है, जिसमें काफी अधिक जटिल होने की संभावना होती है। लिंक किए गए GitHub रिपॉजिटरी में कुछ सबसे अधिक उपयोग किए जाने वाले WMI फ़िल्टर शामिल हैं ताकि आपको उन्हें बनाने की आवश्यकता न पड़े।  ## आवश्यक फाइलें डाउनलोड करें  [GitHub रिपॉजिटरी](https://github.com/simeononsecurity/WMI-Filters) से फ़ाइलें डाउनलोड करें  ## कैसे स्थापित करें और WMI फ़िल्टर का उपयोग करें:  - [GPO के लिए WMI फ़िल्टर बनाएं](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-wmi-filters-for-the-gpo)  - [समूह नीति: संक्षेप में WMI फ़िल्टर](https://www.rebeladmin.com/2018/02/group-policy-wmi-filters-nutshell/)
