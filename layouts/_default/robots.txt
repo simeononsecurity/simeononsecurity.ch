@@ -14,6 +14,12 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot smartphone
+Allow: /
+
+User-agent: Googlebot desktop
+Allow: /
+
 User-agent: bingbot
 Allow: /
 
@@ -21,4 +27,10 @@ User-agent: AdldxBot
 Allow: /
 
 Sitemap: https://simeononsecurity.ch/sitemap.xml
-Sitemap: https://simeononsecurity.ch/index.xml
+Sitemap: https://simeononsecurity.ch/sitemap.en.xml
+Sitemap: https://es.simeononsecurity.ch/sitemap.es.xml
+Sitemap: https://fr.simeononsecurity.ch/sitemap.fr.xml
+Sitemap: https://de.simeononsecurity.ch/sitemap.de.xml
+Sitemap: https://hi.simeononsecurity.ch/sitemap.hi.xml
+Sitemap: https://ar.simeononsecurity.ch/sitemap.ar.xml
+

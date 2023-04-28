@@ -80,10 +80,10 @@ publisherLogoWidth = 460
 publisherLogoHeight = 460
 
 
-[sitemap]
-changefreq = "daily"
-filename = "sitemap.xml"
-priority = 1
+# [sitemap]
+# changefreq = "daily"
+# filename = "sitemap.xml"
+# priority = 1
 
 [security]
 enableInlineShortcodes = true
@@ -95,7 +95,6 @@ getenv = ['^HUGO_', '^WC_', 'babel']
 [security.http]
 methods = ['(?i)GET|POST']
 urls = ['.*']
-
 
 [imaging]
 [imaging.exif]
@@ -111,10 +110,15 @@ imageFormats = ["jpg", "png", "webp"]
 [outputs.imageSizes]
 cover = [731, 1054, 1462]
 
+[outputFormats.SITEMAP]
+    mediatype = "application/xml"
+    baseName = "sitemap"
+
 
 [languages]
 [languages.en]
 baseurl = "https://simeononsecurity.ch"
+sitemap = [{ filename = "sitemap.xml" },      { filename = "sitemap.en.xml" },    ]
 languageName = 'English'
 weight = 1
 title = "simeononsecurity"
@@ -184,6 +188,7 @@ url = "/about"
 
 [languages.es]
 baseurl = "https://es.simeononsecurity.ch"
+sitemap = { filename = "sitemap.es.xml" }
 languageName = "Español"
 weight = 2
 title = "simeononsecurity"
@@ -232,6 +237,7 @@ url = "/recommendations"
 
 [languages.fr]
 baseurl = "https://fr.simeononsecurity.ch"
+sitemap = { filename = "sitemap.fr.xml" }
 languageName = 'Français'
 weight = 3
 title = "simeononsecurity"
@@ -280,6 +286,7 @@ url = "/recommendations"
 
 [languages.hi]
 baseurl = "https://hi.simeononsecurity.ch"
+sitemap = { filename = "sitemap.hi.xml" }
 languageName = 'हिन्दी'
 weight = 4
 title = "simeononsecurity"
@@ -328,6 +335,7 @@ url = "/recommendations"
 
 [languages.ar]
 baseurl = "https://ar.simeononsecurity.ch"
+sitemap = { filename = "sitemap.ar.xml" }
 languageName = 'العربية'
 weight = 5
 title = "simeononsecurity"
@@ -376,6 +384,7 @@ url = "/recommendations"
 
 [languages.de]
 baseurl = "https://de.simeononsecurity.ch"
+sitemap = { filename = "sitemap.de.xml" }
 languageName = 'Deutsch'
 weight = 6
 title = "simeononsecurity"
