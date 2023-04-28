@@ -111,16 +111,12 @@ home = ["HTML", "RSS", "JSON"]
 section = ["HTML"]
 page = ["HTML"]
 imageFormats = ["jpg", "png", "webp"]
-sitemap = [ "Sitemap", "SitemapAll" ]
+sitemap = [ "Sitemap" ]
 [outputs.imageSizes]
 cover = [731, 1054, 1462]
 [outputFormats.SITEMAP]
     mediatype = "application/xml"
     baseName = "sitemap"
-[outputFormats.SitemapAll]
-mediaType = "application/xml"
-baseName = "sitemap"
-isPlainText = false
 
 
 
