@@ -1,5 +1,8 @@
 // Imports the Google Cloud client library
-const Translate = require('@google-cloud/translate');
+const {
+    Translate
+} = require('@google-cloud/translate').v2;
+
 const program = require('commander');
 const fs = require('fs');
 const path = require('path');
@@ -12,7 +15,10 @@ program
 
 // Creates a client
 const translate = new Translate({
-    projectId: 'html5rocks-hrd'
+    // credentials: {
+    //     api_key: process.env.GOOGLE_APPLICATION_CREDENTIALS
+    // },
+    projectId: 'translate'
 });
 
 const options = {
@@ -26,8 +32,7 @@ async function translateLines(text) {
 
     let translations = results[0];
     translations = Array.isArray(translations) ?
-        translations :
-        [translations];
+        translations : [translations];
 
     translations.forEach((translation, i) => {
         output.push(translation)
