@@ -1,0 +1,9 @@
+---
+title:  "ChromiumADMX: Proper ADMX Template for Chromium Browser"
+date: 2020-07-25T19:30:33-05:00
+draft: false
+description: "Get complete control over your Chromium Browser policies with ChromiumADMX's modified Google Chrome ADMX templates reflecting the Chromium Browser's registry path for use with Group Policy management."
+tags: ["ADMX", "ADMX Templates", "Chromium Browser", "Chromium", "Group Policy", "GPO", "Google Chrome ADMX templates", "ChromiumADMX", "Policy Definitions", "Registry Path", "Complete Control", "Testing Purposes", "GitHub Repository", "Software Policies", "Brave Browser", "Pre-Alpha State", "Installation Instructions", "Policy Management", "IT Security", "Enterprise"]
+---
+
+  Plantilla ADMX adecuada para el navegador Chromium  Chromium, como empresa, no ha lanzado plantillas ADMX para el navegador Chromium que se pueden instalar al mismo tiempo que las plantillas de Google Chrome. Con eso en mente, modificamos las plantillas ADMX de Google Chrome para reflejar la ruta de registro del navegador Chromium y las colocamos en conjunto en la carpeta ADMX de Google en GPO.  **Estas definiciones de políticas se encuentran en un estado Pre-Alpha. Deben usar solo con multas de prueba**  ## Descarga los archivos requeridos  **Descargue los archivos requeridos del [Repositorio de GitHub](https://github.com/simeononsecurity/ChromiumADMX)**  ## Notas  Definiciones de políticas de Google Chrome modificadas según: [Plantillas de políticas de Chromium](https://www.chromium.org/administrators/policy-templates)  **Nota:** Se reemplazó "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" por "HKEY_LOCAL_MACHINE\Software\Policies\Chromium\"  **Nota:** No instale las plantillas ADMX de SOS Chromium y Brave Browser al mismo tiempo.  ## Cómo instalar  1.) Copie todos los archivos excepto readme.md a "C:\Windows\PolicyDefinitions" y/o "\\\domain.tld\domain\Policies\PolicyDefinitions"  2.) ¿Beneficio?    

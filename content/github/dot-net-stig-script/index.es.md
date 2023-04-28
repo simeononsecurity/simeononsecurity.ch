@@ -1,0 +1,18 @@
+---
+title: "Automate .NET STIG Compliance with PowerShell Script"
+date: 2020-08-20T22:14:22-05:00
+draft: false
+toc: true
+description: "Easily implement the .NET Framework STIG with this PowerShell script, modifying the machine.config file and applying required registry changes for FIPS and other controls."
+tags: [".NET STIG Script", ".NET Framework", "STIG Compliance", "Powershell Automation", "FIPS", "Windows Server", "Microsoft", "Administrative Powershell", "Code Access Security Policy Tool", "Machine.config", "DoD Compliance", "Cybersecurity", "Information Assurance", "GitHub Repository", "XML", "Windows 7", "IIS", "Configuration Management", "Security Hardening", "Automation"]
+---
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+Get-ChildItem -Recurse *.ps1 | Unblock-File
+.\sos-.net-4-stig.ps1
+```
+```
+iwr -useb 'https://simeononsecurity.ch/scripts/sosdotnet.ps1'|iex
+```
+
+Automatice el STIG de .NET Framework  La aplicación de .NET STIG definitivamente no es sencilla. Para muchos administradores, la implementación completa en un solo sistema puede llevar a cabo a cabo horas. Este script aplica los cambios de registro requeridos y modifica el archivo machine.config para implementar FIPS y controla otros según sea necesario.  ## Notas:  Este script no puede y nunca logrará que .NET stig cumpla al 100 %. En este momento, tal como está, puede completar aproximadamente el 75 % de las comprobaciones y retroceder y completar las comprobaciones correspondientes en todas las versiones anteriores de .NET.  Se requiere intervención manual para cualquier aplicación .NET o sitio IIS.  ##Requisitos: - [X] Windows 7, Windows Server 2008 o posterior - [X] Pruebas en su entorno antes de ejecutar en sistemas de producción.  ## STIGS/SRG aplicados:  - [Microsoft .Net Framework 4 V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_DotNet_Framework_4-0_V1R9_STIG.zip)  ## Fuentes:  - [Agregar de un dato XML a otro archivo XML existente](http://www.maxtblog.com/2012/11/add-from-one-xml-data-to-another-existing-xml-file/) - [Caspol.exe (herramienta de política de seguridad de acceso de código)](https://docs.microsoft.com/en-us/dotnet/framework/tools/caspol-exe-code-access-security-policy- herramienta) - [Documentación de Microsoft .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/) - [PowerShell $PSScriptRoot](https://riptutorial.com/es/powershell/ejemplo/27231/-psscriptroot) - [PowerShell: Ejecutar comando desde el directorio del script](https://stackoverflow.com/questions/4724290/powershell-run-command-from-scripts-directory) - [Nodo de importación de Powershell XML de un archivo diferente] (https://stackoverflow.com/questions/9944885/powershell-xml-importnode-from- different-file)  ## Descarga los archivos requeridos  Puede descargar los archivos necesarios del [repositorio de GitHub] (https://raw.githubusercontent.com/simeononsecurity/.NET-STIG-Script/)  ##ejecutar cómo el script  **El script puede iniciarse desde la descarga de GitHub extraída de esta manera:**  ##ejecutar cómo el script ### Manual de instalación: Si se descarga manualmente, el script debe iniciarse desde un powershell administrativo en el directorio que contiene todos los archivos del [repositorio de GitHub] (https://github.com/simeononsecurity/.NET-STIG-Script) ### Instalación automática: Utilice este resumen para descargar automáticamente, descomprimir todos los archivos auxiliares y ejecutar la última versión del script.

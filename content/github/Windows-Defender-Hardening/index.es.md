@@ -1,0 +1,13 @@
+---
+title: "Enhancing Windows 10 Security with Defender Hardening Script"
+date: 2020-11-15
+toc: true
+draft: false
+description: "Learn how to enhance Windows 10 security with a PowerShell script that hardens Windows Defender Antivirus, implementing all the requirements of the Windows Defender Antivirus STIG V2R1."
+tags: ["Windows Defender", "Windows 10", "Windows 10 Security", "PowerShell Script", "Hardening", "Defender Hardening", "Security Automation", "Compliance", "Controlled Folder Access", "Intrusion Prevention System", "Application Control", "Attack Surface Reduction", "Exploit Protections", "Cloud-Delivered Protections", "Network Protections", "Windows Defender STIG Script", "Windows Defender STIG", "Windows Defender Antivirus STIG V2R1", "WDAC", "ASR"]
+---
+```
+.\sos-windowsdefenderhardening.ps1
+```
+
+  ## ¿Qué hace este guión? - Habilita las protecciones entregadas en la nube - Habilita el acceso controlado a carpetas - Habilita las protecciones de red - Habilita el Sistema de Prevención de Intrusos - [Habilita las políticas de control de aplicaciones de Windows Defender] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application- control) - [Habilita las reglas de reducción de superficie de ataque de Windows Defender] (https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction) - [Habilita las protecciones contra vulnerabilidades de Windows Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/enable-exploit-protection?view=o365-worldwide#powershell) - Implementa todos los requisitos enumerados en [Windows Defender Antivirus STIG V2R1](https://dl.cyber.mil/stigs/zip/U_MS_Windows_Defender_Antivirus_V2R1_STIG.zip)  ##Requisitos: - [x] Windows 10 Enterprise (**Preferido**) o Windows 10 Professional   - Windows 10 Home no permite configuraciones GPO ni [ASR](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction). Aunque la mayoría de estas configuraciones aún se utilizarán.   - Las ediciones "N" de Windows 10 no se prueban.  ## Descargue los archivos necesarios:  Descargue los archivos necesarios del [repositorio de GitHub] (https://github.com/simeononsecurity/Windows-Defender-STIG-Script)  ##ejecutar cómo el script:  **El script se puede iniciar desde la descarga de GitHub extraída de esta manera:**
