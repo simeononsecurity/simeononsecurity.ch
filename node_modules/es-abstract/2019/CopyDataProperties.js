@@ -1,10 +1,10 @@
 'use strict';
 
-var GetIntrinsic = require('../GetIntrinsic');
+var GetIntrinsic = require('get-intrinsic');
 
 var $TypeError = GetIntrinsic('%TypeError%');
 
-var callBound = require('../helpers/callBound');
+var callBound = require('call-bind/callBound');
 var forEach = require('../helpers/forEach');
 var OwnPropertyKeys = require('../helpers/OwnPropertyKeys');
 
@@ -20,7 +20,7 @@ var ToNumber = require('./ToNumber');
 var ToObject = require('./ToObject');
 var Type = require('./Type');
 
-// https://www.ecma-international.org/ecma-262/9.0/#sec-copydataproperties
+// https://262.ecma-international.org/9.0/#sec-copydataproperties
 
 module.exports = function CopyDataProperties(target, source, excludedItems) {
 	if (Type(target) !== 'Object') {
@@ -55,8 +55,8 @@ module.exports = function CopyDataProperties(target, source, excludedItems) {
 		var enumerable = $isEnumerable(fromObj, nextKey) || (
 		// this is to handle string keys being non-enumerable in older engines
 			typeof source === 'string'
-            && nextKey >= 0
-            && IsInteger(ToNumber(nextKey))
+			&& nextKey >= 0
+			&& IsInteger(ToNumber(nextKey))
 		);
 		if (excluded === false && enumerable) {
 			var propValue = Get(fromObj, nextKey);

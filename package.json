@@ -47,7 +47,9 @@
       "webpack-cli": "project"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "@google-cloud/translate": "^7.2.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
