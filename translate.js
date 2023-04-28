@@ -10,7 +10,7 @@ const path = require('path');
 program
     .version('0.1.0')
     .option('-s, --source [path]', 'Add in the source file or directory.')
-    .option('-t, --target [lang]', 'Add target language.')
+    .option('-t, --target [lang]', 'Add target language.', 'es')
     .parse(process.argv);
 
 // Creates a client
@@ -22,6 +22,7 @@ const translate = new Translate({
 });
 
 const options = {
+    from: 'en',
     to: program.target,
 };
 
@@ -112,7 +113,7 @@ async function translateFile(filePath) {
     if (translateBlock.length > 0) output.push(await translateLines(translateBlock.join(' ')))
 
     const newFileName = path.parse(filePath);
-    const targetPath = path.join(path.dirname(filePath), `${newFileName.name}.${options.to}${newFileName.lang}${newFileName.ext}`);
+    const targetPath = path.join(path.dirname(filePath), `${newFileName.name}.${options.to}${path.extname(filePath)}`);
     fs.writeFileSync(targetPath, output.join('\n'));
 }
 
