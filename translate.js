@@ -1,3 +1,5 @@
+// https://paul.kinlan.me/translating-a-blog-using-google-cloud-translate-and-hugo/
+
 // Imports the Google Cloud client library
 const {
     Translate
