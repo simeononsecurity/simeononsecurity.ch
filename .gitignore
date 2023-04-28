@@ -26,6 +26,8 @@ dist
 tmp
 .vs
 debug.log
+.env
+.env.google
 
 # Executables
 *.swf
