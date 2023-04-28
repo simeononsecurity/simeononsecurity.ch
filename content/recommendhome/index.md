@@ -16,6 +16,7 @@ Explore SimeonOnSecurity's expert recommendations for various security and priva
 ### [Anti-Virus](/recommendations/anti-virus)
 ### [Books](/recommendations/books)
 ### [Browser Plugins](/recommendations/browser_plugins)
+### [Cell Phone Service Providers](/recommendations/cell-phone-service-providers)
 ### [Certifications](/recommendations/certifications)
 ### [Email Providers](/recommendations/email)
 ### [Every Day Carry](/recommendations/edc)
