@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "simeononsecurity"
 theme = "soshellofriend"
-baseurl = "https://simeononsecurity.ch"
+# baseurl = "https://simeononsecurity.ch"
 paginate = 5
 canonifyURLs = true
 disableAliases = true
@@ -12,11 +12,15 @@ enableGitInfo = true
 refLinksNotFoundURL = "simeononsecurity.ch"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
+defaultContentLanguage = "en"
+
 
 [Author]
 name = "SimeonOnSecurity"
 
 [params]
+enableMissingTranslationPlaceholders = true
+
 #Google Analytics Tag
 googleAnalytics = "G-W3SL745QY6"
 
@@ -125,6 +129,7 @@ isPlainText = false
 baseurl = "https://simeononsecurity.ch"
 sitemap = [{ filename = "sitemap.xml" },      { filename = "sitemap.en.xml" },    ]
 languageName = 'English'
+languageCode = "en"
 weight = 1
 title = "simeononsecurity"
 subtitle = "CyberSecurity, Automation, Crypto"
@@ -195,6 +200,7 @@ url = "/about"
 baseurl = "https://es.simeononsecurity.ch"
 sitemap = { filename = "sitemap.es.xml" }
 languageName = "Español"
+languageCode = "es"
 weight = 2
 title = "simeononsecurity"
 subtitle = "Ciberseguridad, Automatización, Cripto"
@@ -244,6 +250,7 @@ url = "/recommendations"
 baseurl = "https://fr.simeononsecurity.ch"
 sitemap = { filename = "sitemap.fr.xml" }
 languageName = 'Français'
+languageCode = "fr"
 weight = 3
 title = "simeononsecurity"
 subtitle = "CyberSécurité, Automatisation, Crypto"
@@ -293,6 +300,7 @@ url = "/recommendations"
 baseurl = "https://hi.simeononsecurity.ch"
 sitemap = { filename = "sitemap.hi.xml" }
 languageName = 'हिन्दी'
+languageCode = "hi"
 weight = 4
 title = "simeononsecurity"
 subtitle = "साइबर सुरक्षा, स्वचालन, क्रिप्टो"
@@ -342,6 +350,7 @@ url = "/recommendations"
 baseurl = "https://ar.simeononsecurity.ch"
 sitemap = { filename = "sitemap.ar.xml" }
 languageName = 'العربية'
+languageCode = "ar"
 weight = 5
 title = "simeononsecurity"
 subtitle = "الأمن السيبراني، الإدارة، العملات الرقمية"
@@ -391,6 +400,7 @@ url = "/recommendations"
 baseurl = "https://de.simeononsecurity.ch"
 sitemap = { filename = "sitemap.de.xml" }
 languageName = 'Deutsch'
+languageCode = "de"
 weight = 6
 title = "simeononsecurity"
 subtitle = "Cybersicherheit, Automatisierung, Kryptowährung"
