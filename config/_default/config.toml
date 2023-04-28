@@ -123,7 +123,7 @@ cover = [731, 1054, 1462]
 [languages.en]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }, ]
 languageName = 'English'
-languageCode = "en"
+# languageCode = "en"
 weight = 1
 title = "simeononsecurity"
 subtitle = "CyberSecurity, Automation, Crypto"
