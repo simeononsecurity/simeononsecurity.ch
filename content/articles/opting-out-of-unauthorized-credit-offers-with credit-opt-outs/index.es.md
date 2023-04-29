@@ -1,13 +1,46 @@
 ---
-title: "Protect Yourself from Unauthorized Offers with Credit Opt-Outs"
+title: "Protéjase de las ofertas no autorizadas con la exclusión voluntaria del crédito"
 date: 2023-02-12
 toc: true
 draft: false
-description: "Opt-out of pre-approved credit and insurance offers to prevent consumer credit reporting companies from providing your information to businesses and reduce the risk of identity theft."
+descripción: "Opte por no recibir ofertas preaprobadas de crédito y seguros para evitar que las compañías de informes de crédito al consumidor proporcionen su información a las empresas y reducir el riesgo de robo de identidad."
 tags: [ "Credit Opt-Out", "Fair Credit Reporting Act", "FCRA", "Pre-Approved Offers", "Identity Theft Prevention", "Consumer Credit Reporting Companies"]
 cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.png"
-coverAlt: "A person holding a credit card in one hand and a lock in the other hand, with a concerned look on their face, as if they are worried about the safety of their personal information."
+coverAlt: "Una persona sosteniendo una tarjeta de crédito en una mano y un candado en la otra, con cara de preocupación, como si le preocupara la seguridad de su información personal."
 coverCaption: ""
 ---
 
- **Protéjase de ofertas no autorizadas con la exclusión de crédito**  El robo de identidad es una preocupación creciente en el mundo actual, y las ofertas de seguros y créditos preaprobados pueden ser un objetivo principal para los ladrones. Estas ofertas contienen información confidencial como su nombre, dirección y puntaje de crédito, lo que las hace valiosas para aquellos que buscan robar su identidad.  **Afortunadamente**, la Ley de informes crediticios justos (FCRA) otorga a los consumidores el derecho a optar por no recibir estas ofertas. Esto significa que puede **evitar** que las compañías de informes crediticios del consumidor incluyan su nombre en las listas que utilizan los acreedores o las aseguradoras para hacer ofertas firmes de crédito o seguro. Al darse cuenta de baja, ya no recibirá por correo ofertas de seguros y créditos preaprobados, lo que dificultará que los ladrones de identidad roben su información.  ## Cómo darse cuenta de baja  La exclusión voluntaria es simple y se puede realizar a través del sitio web [optoutprescreen.com] (https://www.optoutprescreen.com/). Puede solicitar la exclusión voluntaria durante cinco años a través de este sitio web, o puede optar por la exclusión permanente imprimiendo un formulario y enviándolo por correo postal.  ### Solicitud de exclusión voluntaria durante cinco años  Para solicitar la exclusión voluntaria durante cinco años, visite [optoutprescreen.com](https://www.optoutprescreen.com/) y complete el formulario en línea. debe proporcionar su información personal, incluido su nombre, dirección, número de Seguro Social y fecha de nacimiento. Una vez que envíe el formulario, recibirá un mensaje de confirmación y será excluido por cinco años.  ### Exclusión permanente  Para darse cuenta de baja de forma permanente, deberá imprimir y completar un formulario, que puede encontrar en el sitio web [optoutprescreen.com](https://www.optoutprescreen.com/). Una vez que complete el formulario, deberá enviarlo por correo a la dirección proporcionada en el formulario. Recibirá un mensaje de confirmación una vez que su solicitud haya sido procesada.  ## Conclusión **En conclusión**, optar por no recibir ofertas de seguros y créditos preaprobados es un paso importante para protegerse contra el robo de identidad. Al hacerlo, puede evitar que la información confidencial se incluya en las listas utilizadas por los acreedores y las aseguradoras, lo que dificulta que los ladrones de identidad roben su información. Aproveche sus derechos bajo la Ley de informes crediticios justos (FCRA) y opte por no participar hoy.  ________________________________________________________________________  Conclusiones clave:  - Las ofertas de seguros y créditos preaprobados pueden ser un objetivo para los ladrones de identidad, ya que contienen información confidencial. - La Ley de informes crediticios justos (FCRA) otorga a los consumidores el derecho a optar por no recibir estas ofertas. - La exclusión voluntaria es un proceso simple que se puede realizar a través de [optoutprescreen.com] (https://www.optoutprescreen.com/). - Los consumidores pueden optar por no participar durante cinco años o de forma permanente. - Darse de baja es un paso importante para protegerse contra el robo de identidad.  ________________________________________________________________________  Descargo de responsabilidad: *Este artículo es solo para multas informativas y no constituye asesoramiento legal. Consulte a un profesional legal para obtener asesoramiento sobre su situación específica.*
+**Protéjase de las ofertas no autorizadas con Credit Opt-Out**.
+
+El robo de identidad es una preocupación cada vez mayor en el mundo actual, y las ofertas de crédito y seguros preaprobados pueden ser un objetivo prioritario para los ladrones. Estas ofertas contienen información confidencial como su nombre, dirección y puntuación crediticia, lo que las hace valiosas para quienes buscan robar su identidad.
+
+**Afortunadamente, la Ley de Informes de Crédito Justos (FCRA) otorga a los consumidores el derecho a rechazar estas ofertas. Esto significa que usted puede **evitar** que las empresas de informes de crédito al consumo incluyan su nombre en listas utilizadas por acreedores o aseguradoras para hacer ofertas firmes de crédito o seguros. Al optar por la exclusión, dejará de recibir por correo ofertas de crédito y seguros preaprobados, lo que dificultará a los ladrones de identidad el robo de su información.
+
+## Cómo darse de baja
+
+La exclusión voluntaria es sencilla y puede realizarse a través del sitio web [optoutprescreen.com](https://www.optoutprescreen.com/). Puede solicitar la exclusión durante cinco años a través de este sitio web, o puede excluirse permanentemente imprimiendo un formulario y enviándolo por correo postal.
+
+### Solicitud de exclusión durante cinco años
+
+Para solicitar la exclusión durante cinco años, visite [optoutprescreen.com](https://www.optoutprescreen.com/) y rellene el formulario en línea. Deberá facilitar sus datos personales, incluidos su nombre, dirección, número de la Seguridad Social y date de nacimiento. Una vez enviado el formulario, recibirá un mensaje de confirmación y quedará excluido durante cinco años.
+
+### Exclusión permanente
+
+Para optar por la exclusión permanente, deberá imprimir y rellenar un formulario que encontrará en el sitio web [optoutprescreen.com](https://www.optoutprescreen.com/). Una vez cumplimentado, deberá enviarlo por correo a la dirección indicada en el formulario. Recibirá un mensaje de confirmación cuando se haya tramitado su solicitud.
+
+## Conclusión
+**En conclusión**, rechazar las ofertas de crédito y seguros preaprobadas es un paso importante para protegerse del robo de identidad. Al hacerlo, puede evitar que se incluya información sensible en las listas utilizadas por los acreedores y las aseguradoras, lo que dificultará a los ladrones de identidad el robo de su información. Aprovéchese de los derechos que le otorga la Ley de Informes de Crédito Justos (FCRA) y exclúyase hoy mismo.
+
+________________________________________________________________________
+
+Puntos clave:
+
+- Las ofertas de créditos y seguros preaprobados pueden ser un objetivo para los ladrones de identidad, ya que contienen información sensible.
+- La Ley de Informes de Crédito Justos (FCRA) otorga a los consumidores el derecho a rechazar estas ofertas.
+- La exclusión voluntaria es un proceso sencillo que puede realizarse a través de [optoutprescreen.com](https://www.optoutprescreen.com/).
+- Los consumidores pueden darse de baja durante cinco años o permanentemente.
+- Darse de baja es un paso importante para protegerse del robo de identidad.
+
+________________________________________________________________________
+
+Descargo de responsabilidad: *Este artículo es meramente informativo y no constituye asesoramiento jurídico. Consulte a un profesional del Derecho para que le asesore sobre su situación concreta.

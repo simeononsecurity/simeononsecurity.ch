@@ -1,13 +1,110 @@
 ---
-title: "A Comprehensive Beginner's Guide to Penetration Testing Tools & Techniques"
+title: "Guía completa para principiantes sobre herramientas y técnicas de pruebas de penetración"
 date: 2023-03-31
 toc: true
 draft: false
-description: "Learn the essentials of penetration testing tools and techniques, methodologies, and certifications to kickstart your career in cybersecurity."
-tags: ["penetration testing", "cybersecurity", "ethical hacking", "tools", "techniques", "beginner's guide", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "security testing", "vulnerability assessment", "network security", "information security"]
+description: "Aprende lo esencial sobre herramientas y técnicas de pruebas de penetración, metodologías y certificaciones para dar el pistoletazo de salida a tu carrera en ciberseguridad."
+tags: ["pruebas de penetración", "ciberseguridad", "hacking ético", "herramientas", "técnicas", "guía para principiantes", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "pruebas de seguridad", "evaluación de vulnerabilidades", "seguridad de redes", "seguridad de la información"].
 cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
-coverAlt: "A cartoon hacker wearing a balaclava and holding a magnifying glass, examining a computer screen displaying various hacking testing tools like Nmap, Metasploit, Wireshark, and Burp Suite, with digital locks symbolizing secured systems in the background."
+coverAlt: "Un hacker de dibujos animados que lleva un pasamontañas y sostiene una lupa, examinando una pantalla de ordenador que muestra varias herramientas de pruebas de hacking como Nmap, Metasploit, Wireshark y Burp Suite, con cerraduras digitales que simbolizan sistemas seguros en el fondo."
 coverCaption: ""
 ---
 
- **Guide du débutant sur les outils et techniques de test d'intrusion**  Les **tests d'intrusion**, également appelés **tests d'intrusion** ou **piratage éthique**, sont une pratique essentielle permettant aux organisations d'évaluer leur posture de sécurité. Ce guide complet vous présente les principes fondamentaux des tests d'intrusion, des outils et des techniques, vous aidant à vous lancer dans le monde passionné de la cybersécurité.  ______  ## Introduction aux tests d'intrusion  Le **test d'intrusion** est un processus systématique consistant à sonder le réseau, les systèmes et les applications d'une organisation afin d'identifier et d'exploiter les vulnérabilités. Elle est menée par des **hackers éthiques** qui utilisent les mêmes techniques et outils que les attaquants malveillants, mais avec l'autorisation de l'organisation.  L'objectif principal des tests d'intrusion est d'**identifier les vulnérabilités** et d'**atténuer les risques** avant qu'elles ne puissent être exploitées par des pirates malveillants.  ______  ## Méthodologies de test d'intrusion  Il existe différentes **méthodologies de test d'intrusion** parmi lesquelles choisir, chacune avec son approche unique pour identifier et exploiter les vulnérabilités. Certaines méthodologies les plus populaires incluent :  1. **Projet OWASP Top Ten** : cette méthodologie se concentre sur la liste [OWASP Top Ten](https://owasp.org/www-project-top-ten/) des risques de sécurité des applications Web les plus critiques.  2. **PTES (Penetration Testing Execution Standard)** : Le [PTES](http://www.pentest-standard.org/index.php/Main_Page) fournit une norme pour l'exécution des tests d'intrusion et couvre tout, de la pré-engagement à rendre compte.  ______  ## Outils de test d'intrusion  Une large gamme d'outils est disponible pour les testeurs d'intrusion pour effectuer leurs tâches efficacement. Certains des outils open source et commerciaux les plus populaires incluent :  1. **Nmap** : un analyseur de réseau puissant pour découvrir les hôtes et les services sur un réseau informatique. [Télécharger Nmap](https://nmap.org/download.html).  2. **Metasploit** : un cadre complet de test d'intrusion avec de nombreux exploits et charges utiles. [Télécharger Metasploit](https://www.metasploit.com/download).  3. **Wireshark** : un analyseur de protocole réseau qui vous permet d'examiner le trafic réseau en temps réel. [Télécharger Wireshark](https://www.wireshark.org/download.html).  4. **Burp Suite** : un outil de test de sécurité des applications Web populaire. [Télécharger Burp Suite](https://portswigger.net/burp/communitydownload).  ______  ## Techniques de test d'intrusion  Les testeurs d'intrusion utilisent diverses techniques pour identifier et exploiter les vulnérabilités. Certaines techniques courantes incluent :  1. **Reconnaissance** : collecte d'informations sur le système cible, telles que les ports ouverts, les services en cours d'exécution et les vulnérabilités potentielles.  2. **Analyse** : utilisation d'outils automatisés pour détecter les vulnérabilités du système cible.  3. **Exploitation** : Tentative d'exploitation des vulnérabilités pour obtenir un accès non autorisé au système cible.  4. **Post-Exploitation** : Exploration plus approfondie du système compromis, maintien de l'accès et collecte de données sensibles.  5. **Rapports** : documenter les résultats et fournir des recommandations pour atténuer les vulnérabilités exposées.  ______  ## Considérations juridiques et éthiques  Le **piratage éthique** nécessite le respect des directives légales et éthiques. Aux États-Unis, le [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) régit les infractions liées à l'informatique. Recevez toujours l'autorisation écrite de l'organisation cible avant d'effectuer un test d'intrusion.  Il est également essentiel de suivre l'éthique professionnelle, comme ne pas nuire aux systèmes cibles et respecter la confidentialité des données de l'organisation.  ______  ## Certifications de test d'intrusion  L'acquisition d'une certification professionnelle peut aider à valider votre expertise en matière de tests d'intrusion. Certaines certifications bien connues incluent :  1. **CEH (Certified Ethical Hacker)** : proposé par [EC-Council](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/), cette certification valide vos connaissances en matière d'éthique techniques de piratage et de tests d'intrusion.  2. **OSCP (Offensive Security Certified Professional)** : proposé par [Offensive Security](https://www.offensive-security.com/pwk-oscp/), cette certification pratique teste votre capacité à effectuer des tests de pénétration dans des scénarios réels.  3. **GPEN (GIAC Penetration Tester)** : Proposée par [GIAC](https://www.giac.org/certification/penetration-tester-gpen), cette certification se concentre sur les compétences techniques requises pour effectuer des tests de pénétration.  Pour plus d'informations sur les certifications de tests d'intrusion, consultez notre article sur [Top 5 des certifications de cybersécurité pour l'avancement de carrière](https://simeononsecurity.ch/articles/the-top-five-cybersecurity -certifications-pour-l'avancement-de-carrière).  ______  ## Conclusion  Les tests d'intrusion sont un aspect essentiel du maintien de la posture de sécurité d'une organisation. Ce guide du débutant a fourni un aperçu des outils, des techniques, des méthodologies et des certifications de test d'intrusion pour vous aider à démarrer sur le terrain. Au fur et à mesure de votre progression, continuez à approfondir vos connaissances et restez au courant des dernières tendances et des meilleures pratiques en matière de cybersécurité.  ______  ## Les références  1. [Projet Top Ten de l'OWASP](https://owasp.org/www-project-top-ten/) 2. [PTES (norme d'exécution des tests d'intrusion)](http://www.pentest-standard.org/index.php/Main_Page) 3. [Nmap](https://nmap.org/download.html) 4. [Metasploit](https://www.metasploit.com/download) 5. [Wireshark](https://www.wireshark.org/download.html) 6. [Suite Burp] (https://portswigger.net/burp/communitydownload) 7. [Loi sur la fraude et les abus informatiques (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) 8. [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) 9. [Offensive Security Certified Professional (OSCP)](https://www.offensive-security.com/pwk-oscp/) 10. [Testeur de pénétration GIAC (GPEN)](https://www.giac.org/certification/penetration-tester-gpen) 11. [Top 5 des certifications de cybersécurité pour l'avancement professionnel](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s). 12. [Certifications recommandées](https://simeononsecurity.ch/recommendations/certifications/) 
+
+ **Guía del principiante sobre las herramientas y técnicas de prueba de intrusión**
+ 
+ Las **pruebas de intrusión**, también denominadas **pruebas de intrusión** o **pirateo ético**, son una práctica esencial que permite a las organizaciones evaluar su postura de seguridad. Esta completa guía presenta los principios básicos de las pruebas de intrusión, herramientas y técnicas que le ayudarán a avanzar en el apasionante mundo de la ciberseguridad.
+ 
+ ______
+ 
+ ## Introducción a las pruebas de intrusión
+ 
+ El **test de intrusión** es un proceso sistemático consistente en sondear la red, los sistemas y las aplicaciones de una organización con el fin de identificar y explotar sus vulnerabilidades. Lo llevan a cabo **hackers éticos** que utilizan las mismas técnicas y herramientas que los atacantes maliciosos, pero con la autorización de la organización.
+ 
+ El objetivo principal de las pruebas de intrusión es **identificar las vulnerabilidades** y **atenuar los riesgos** antes de que no puedan ser explotados por piratas maliciosos.
+ 
+ ______
+ 
+ ## Métodos de prueba de intrusión
+ 
+ Existen diferentes **metodologías de prueba de intrusión** entre las que elegir, cada una con su enfoque único para identificar y explotar las vulnerabilidades. Algunas de las metodologías más populares son :
+ 
+ 1. **Proyecto OWASP Top Ten** : esta metodología se centra en la lista [OWASP Top Ten](https://owasp.org/www-project-top-ten/) de riesgos de seguridad de aplicaciones Web más críticos.
+ 
+ 2. **PTES (Penetration Testing Execution Standard)** : El [PTES](http://www.pentest-standard.org/index.php/Main_Page) proporciona una norma para la ejecución de pruebas de intrusión y cubre todo, desde el precompromiso hasta la toma de decisiones.
+ 
+ ______
+ 
+ ## Outils de test d'intrusion
+ 
+ Los probadores de intrusión disponen de una amplia gama de herramientas para llevar a cabo sus tareas con eficacia. Algunas de las herramientas de código abierto y comerciales más populares son :
+ 
+ 1. **Nmap**: un potente analizador de red para descubrir los hosts y los servicios de una red informática. [Descargar Nmap](https://nmap.org/download.html).
+ 
+ 2. **Metasploit**: un completo marco de pruebas de intrusión con numerosos exploits y cargas útiles. [Descargar Metasploit](https://www.metasploit.com/download).
+ 
+ 3. **Wireshark** : un analizador de protocolos de red que te permite examinar el tráfico de red en tiempo real. [Descargar Wireshark](https://www.wireshark.org/download.html).
+ 
+ 4. **Burp Suite** : una herramienta de prueba de seguridad de aplicaciones Web popular. [Descargar Burp Suite](https://portswigger.net/burp/communitydownload).
+ 
+ ______
+ 
+ ## Técnicas de prueba de intrusión
+ 
+ Los probadores de intrusión utilizan diversas técnicas para identificar y explotar las vulnerabilidades. Algunas técnicas actuales incluyen :
+ 
+ 1. **Reconocimiento**: recopilación de información sobre el sistema, como puertos abiertos, servicios en ejecución y vulnerabilidades potenciales.
+ 
+ 2. **Análisis: uso de herramientas automáticas para detectar vulnerabilidades del sistema.
+ 
+ 3. **Explotación** : Tentativa de explotar las vulnerabilidades para obtener un acceso no autorizado al sistema.
+ 
+ 4. **Post-Explotación** : Exploración más profunda del sistema comprometido, mantenimiento del acceso y recogida de datos sensibles.
+ 
+ 5. **Informes**: documentación de los resultados y recomendaciones para reducir la vulnerabilidad.
+ 
+ ______
+ 
+ ## Consideraciones jurídicas y éticas
+ 
+ El **pirateo ético** requiere el respeto de directivas legales y éticas. En los Estados Unidos, la [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) regula las infracciones relacionadas con la informática. Obtén siempre la autorización por escrito de la organización responsable antes de realizar una prueba de intrusión.
+ 
+ También es esencial seguir las normas de ética profesional, como no molestar a los sistemas informáticos y respetar la confidencialidad de los datos de la organización.
+ 
+ ______
+ 
+ ## Certificaciones de pruebas de intrusión
+ 
+ La obtención de una certificación profesional puede ayudar a valorar su experiencia en materia de pruebas de intrusión. Algunas certificaciones bien conocidas incluyen :
+ 
+ 1. **CEH (Certified Ethical Hacker)** : propuesta por [EC-Council](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/), esta certificación valida tus conocimientos en materia de técnicas éticas de pirateo y pruebas de intrusión.
+ 
+ 2. **OSCP (Offensive Security Certified Professional)** : propuesta por [Offensive Security](https://www.offensive-security.com/pwk-oscp/), esta certificación práctica evalúa su capacidad para realizar pruebas de penetración en escenarios reales.
+ 
+ 3. **GPEN (GIAC Penetration Tester)** : Propuesta por [GIAC](https://www.giac.org/certification/penetration-tester-gpen), esta certificación se centra en las competencias técnicas necesarias para realizar pruebas de penetración.
+ 
+ Para más información sobre las certificaciones de pruebas de intrusión, consulte nuestro artículo sobre [Top 5 des certifications de cybersécurité pour l'avancement de carrière](https://simeononsecurity.ch/articles/the-top-five-cybersecurity -certifications-pour-l'avancement-de-carrière).
+ 
+ ______
+ 
+ ## Conclusión
+ 
+ Las pruebas de intrusión son un aspecto esencial del mantenimiento de la postura de seguridad de una organización. Esta guía para principiantes ofrece una visión general de las herramientas, técnicas, metodologías y certificaciones de las pruebas de intrusión que le ayudarán a avanzar sobre el terreno. A lo largo de su progresión, siga ampliando sus conocimientos y manténgase al día de las últimas tendencias y las mejores prácticas en materia de ciberseguridad.
+ 
+ ______
+ 
+ ## Referencias
+ 
+ 1. [Proyecto Top Ten del OWASP](https://owasp.org/www-project-top-ten/)
+ 2. [PTES (norma de ejecución de pruebas de intrusión)](http://www.pentest-standard.org/index.php/Main_Page)
+ 3. [Nmap](https://nmap.org/download.html)
+ 4. [Metasploit](https://www.metasploit.com/download)
+ 5. [Wireshark](https://www.wireshark.org/download.html)
+ 6. [Suite Burp](https://portswigger.net/burp/communitydownload)
+ 7. [Loi sur la fraude et les abus informatiques (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act)
+ 8. 8. [Hacker Ético Certificado (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
+ 9. 9. [Profesional certificado en seguridad ofensiva (OSCP)](https://www.offensive-security.com/pwk-oscp/)
+ 10. 10. [Testeur de pénétration GIAC (GPEN)](https://www.giac.org/certification/penetration-tester-gpen)
+ 11. [Top 5 des certifications de cybersécurité pour l'avancement professionnel](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s).
+ 12. [Certificaciones recomendadas](https://simeononsecurity.ch/recommendations/certifications/)
+ 

@@ -1,12 +1,12 @@
 ---
-title: "Implementing the NIST Cybersecurity Framework"
+title: "Implantación del Marco de Ciberseguridad del NIST"
 date: 2023-03-18
 toc: true
 draft: false
-description: "Learn how to implement the NIST Cybersecurity Framework and protect your organization from cyber threats with our step-by-step guide."
-tags: ["cybersecurity", "NIST", "framework", "risk management", "information security", "cyber threats", "implementation", "best practices", "guidelines", "standards", "cyber attacks", "risk assessment", "cybersecurity risk", "data protection", "compliance", "IT security", "network security", "incident response", "security measures", "cybersecurity plan"]
+description: "Aprende a implementar el Marco de Ciberseguridad del NIST y protege a tu organización de las ciberamenazas con nuestra guía paso a paso".
+tags: ["ciberseguridad", "NIST", "marco", "gestión de riesgos", "seguridad de la información", "ciberamenazas", "implantación", "buenas prácticas", "directrices", "normas", "ciberataques", "evaluación de riesgos", "riesgo de ciberseguridad", "protección de datos", "cumplimiento", "seguridad informática", "seguridad de redes", "respuesta a incidentes", "medidas de seguridad", "plan de ciberseguridad"].
 cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
-coverAlt: "A cartoon image of a person with a shield blocking various cyber attacks."
+coverAlt: "Imagen de dibujos animados de una persona con un escudo bloqueando varios ciberataques".
 coverCaption: ""
 ---
 

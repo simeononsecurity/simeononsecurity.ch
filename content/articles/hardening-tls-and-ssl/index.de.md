@@ -1,59 +1,90 @@
 ---
-title: "Hardening Your Computer's Security by Disabling SSL and TLS 1.2 and Below"
+title: "Endurece la seguridad de tu ordenador desactivando SSL y TLS 1.2 e inferiores"
 date: 2023-02-08
 toc: true
 draft: false
-description: "This article discusses the steps to improve data security by disabling older versions of SSL and TLS protocols, which are vulnerable to cyber threats such as POODLE, BEAST, and Heartbleed, in Windows and Linux systems."
-tags: ["Hardening computer security", "Disabling SSL and TLS", "Data security", "POODLE", "BEAST", "Heartbleed", "Windows registry editor", "Linux OpenSSL configuration", "Apache", "Nginx"]
-cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
-coverAlt: "A computer with a padlock symbol representing data security"
+description: "Este artículo analiza los pasos para mejorar la seguridad de los datos deshabilitando versiones antiguas de los protocolos SSL y TLS, vulnerables a ciberamenazas como POODLE, BEAST y Heartbleed, en sistemas Windows y Linux."
+tags: ["Endurecimiento de la seguridad informática", "Deshabilitar SSL y TLS", "Seguridad de datos", "POODLE", "BEAST", "Heartbleed", "Editor del registro de Windows", "Configuración de OpenSSL en Linux", "Apache", "Nginx"]
+cover: "/img/cover/Ordenador_con_un_símbolo_de_bloqueo_que_representa_la_seguridad_de_los_datos.png"
+coverAlt: "Un ordenador con el símbolo de un candado que representa la seguridad de los datos"
 coverCaption: ""
 ---
 ```powershell
-Function Disable-Protocol {
+Función Disable-Protocol {
     param (
-        [Parameter(Mandatory=$true)]
-        [string]$Protocol
+        [Parámetro(Obligatorio=$true)]
+        [cadena]$Protocolo
     )
-    $ServerPath = "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\$Protocol\Server"
+    $ServerPath = "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\$Protocolo\Server"
     $ClientPath = "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\$Protocol\Client"
-    New-Item -Path $ServerPath -Force
-    New-Item -Path $ClientPath -Force
-    Set-ItemProperty -Path $ServerPath -Force -Name Enabled -Type "DWORD" -Value 0
-    Set-ItemProperty -Path $ServerPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
-    Set-ItemProperty -Path $ClientPath -Force -Name Enabled -Type "DWORD" -Value 0
-    Set-ItemProperty -Path $ClientPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
+    Nuevo elemento -Ruta $RutaServidor -Forzar
+    Nuevo-elemento -Ruta $RutaCliente -Forzar
+    Set-ItemProperty -Ruta $RutaServidor -Forzar -Nombre Enabled -Tipo "DWORD" -Valor 0
+    Set-ItemProperty -Ruta $RutaServidor -Force -Nombre DeshabilitadoPorDefecto -Tipo "DWORD" -Valor 1
+    Set-ItemProperty -Ruta $RutaCliente -Force -Nombre Activado -Tipo "DWORD" -Valor 0
+    Set-ItemProperty -Ruta $RutaCliente -Force -Nombre DesactivadoPorDefecto -Tipo "DWORD" -Valor 1
 }
-# Disable SSL v2
-Disable-Protocol -Protocol "SSL 2.0"
-# Disable SSL v3
-Disable-Protocol -Protocol "SSL 3.0"
-# Disable TLS 1.0
-Disable-Protocol -Protocol "TLS 1.0"
-# Disable DTLS 1.0
-Disable-Protocol -Protocol "DTLS 1.0"
-# Disable TLS 1.1
-Disable-Protocol -Protocol "TLS 1.1"
-# Disable DTLS 1.1
-Disable-Protocol -Protocol "DTLS 1.1"
+# Desactivar SSL v2
+Disable-Protocol -Protocolo "SSL 2.0"
+# Desactivar SSL v3
+Desactivar-Protocolo -Protocolo "SSL 3.0" # Desactivar TLS 1.0
+# Desactivar TLS 1.0
+Desactivar-Protocolo -Protocolo "TLS 1.0" # Desactivar DTLS 1.0
+# Desactivar DTLS 1.0
+Desactivar-Protocolo -Protocolo "DTLS 1.0" # Desactivar TLS 1.1
+# Desactivar TLS 1.1
+Disable-Protocol -Protocolo "TLS 1.1" # Desactivar TLS 1.1
+# Desactivar DTLS 1.1
+Disable-Protocol -Protocol "DTLS 1.1" # Desactivar DTLS 1.1
 
 function Set-NETStrongAuthentication {
     param(
-        [string]$RegistryPath,
-        [string]$Name,
-        [string]$Type,
-        [int]$Value
+        [cadena]$RegistryPath,
+        [cadena]$Nombre,
+        [cadena]$Tipo,
+        [int]$Valor
     )
-    Set-ItemProperty -Path $RegistryPath -Force -Name $Name -Type $Type -Value $Value
+    Set-ItemProperty -Ruta $RegistryPath -Force -Nombre $Nombre -Tipo $Tipo -Valor $Valor
 }
 
 $NETVersions = @("2.0.50727", "3.0", "4.0.30319")
 
-foreach ($version in $NETVersions) {
+foreach ($version en $NETVersions) {
     Set-NETStrongAuthentication -RegistryPath "HKLM:\SOFTWARE\Microsoft\.NETFramework\v$version" -Name SchUseStrongCrypto -Type "DWORD" -Value 0x00000001
     Set-NETStrongAuthentication -RegistryPath "HKLM:\SOFTWARE\Microsoft\.NETFramework\v$version" -Name SystemDefaultTlsVersions -Type "DWORD" -Value 0x00000001
     Set-NETStrongAuthentication -RegistryPath "HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v$version" -Name SchUseStrongCrypto -Type "DWORD" -Value 0x00000001
     Set-NETStrongAuthentication -RegistryPath "HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v$version" -Name SystemDefaultTlsVersions -Type "DWORD" -Value 0x00000001
 }
 ```
- ## Einführung:  Computer sind zu einem wichtigen Aspekt unseres täglichen Lebens geworden, und damit ist das Bedürfnis nach Datensicherheit erheblich gestiegen. Unter den verschiedenen Methoden zur Sicherung von Daten während der Übertragung sind SSL (Secure Socket Layer) und TLS (Transport Layer Security) weit verbreitete Protokolle. Mit der Weiterentwicklung der Technologie werden ältere Versionen dieser Protokolle jedoch anfällig für Cyberangriffe. In diesem Artikel besprechen wir die Schritte zum Härten von Computern durch Deaktivierung von SSL und allen TLS-Versionen 1.2 und darunter, um die Daten sicher zu halten.  ### Warum SSL und TLS 1.2 und darunter deaktivieren?  Ältere Versionen von SSL und TLS sind anfällig für mehrere Sicherheitsbedrohungen wie POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) und Heartbleed. Diese Angriffe können zur Offenlegung sensibler Informationen führen, weshalb es wesentlich ist, die Verwendung veralteter Protokolle zu deaktivieren.  ### Deaktivieren von SSL und TLS 1.2 und darunter in Windows:  In Windows kann der Vorgang zum Deaktivieren von SSL und TLS 1.2 und niedriger über den Registrierungseditor erreicht werden. Hier ist ein Powershell-Skript, um die Aufgabe zu erfüllen:   #### SSL und TLS 1.2 und darunter unter Linux deaktivieren:  Unter Linux kann der Vorgang zum Deaktivieren von SSL und TLS 1.2 und darunter durch Ändern der OpenSSL-Konfigurationsdatei erreicht werden. Hier sind die folgenden Schritte:  1. Öffnen Sie das Terminal und melden Sie sich als root an. 2. Navigieren Sie zur OpenSSL-Konfigurationsdatei. Normalerweise befindet es sich unter /etc/ssl/openssl.cnf. 3. Öffnen Sie die Datei mit einem Texteditor wie nano oder vim. 4. Suchen Sie die Anweisung SSLProtocol und setzen Sie ihren Wert auf -TLSv1.2. 5. Speichern Sie die Datei und schließen Sie den Texteditor. 6. Starten Sie die Dienste, die OpenSSL verwenden, wie Apache oder Nginx, neu, damit die Änderungen wirksam werden.  ## Abschluss:  Indem Sie SSL und alle TLS-Versionen 1.2 und niedriger deaktivieren, können Sie die Sicherheit Ihres Computers erhöhen und vertrauliche Informationen vor potenziellen Cyber-Bedrohungen schützen. Es ist ein einfacher Prozess, der mit minimalem Aufwand durchgeführt werden kann, was ihn zu einem entscheidenden Aspekt für die Aufrechterhaltung der Sicherheit Ihres Computers macht. Durch die Umsetzung der in diesem Artikel beschriebenen Schritte können Sie Ihre Daten schützen und Cyberangriffe verhindern, wodurch das Risiko verringert wird, dass vertrauliche Informationen offengelegt werden.  Es ist wichtig zu beachten, dass das Deaktivieren dieser älteren Versionen von SSL- und TLS-Protokollen zwar die Sicherheit Ihres Computers verbessern kann, aber auch die Kompatibilität mit einigen älteren Systemen beeinträchtigen kann. Daher ist es wichtig, die vorgenommenen Änderungen gründlich zu testen und sicherzustellen, dass es keine nachteiligen Auswirkungen auf Ihr System gibt, bevor Sie sie vollständig implementieren.  Zusammenfassend lässt sich sagen, dass das Härten Ihres Computers durch Deaktivieren von SSL und aller TLS-Versionen 1.2 und niedriger ein entscheidender Schritt ist, um die Sicherheit sensibler Informationen zu gewährleisten und Cyberangriffe zu verhindern. Die in diesem Artikel beschriebenen Schritte bieten eine einfache Anleitung zum Sichern Ihres Computers und erleichtern es Einzelpersonen und Organisationen, die erforderlichen Sicherheitsmaßnahmen zu implementieren.
+
+ ## Einführung:
+ 
+ Los ordenadores son un aspecto muy importante de nuestra vida cotidiana, por lo que es muy importante mantener la seguridad de los datos. SSL (Secure Socket Layer) y TLS (Transport Layer Security) son protocolos ampliamente utilizados entre los distintos métodos de protección de datos durante la transmisión. Con el desarrollo de la tecnología, las versiones posteriores de estos protocolos serán aún más útiles para los ciberdelincuentes. En este artículo se describen los aspectos relacionados con la protección de los ordenadores mediante la activación de SSL y todas las versiones TLS 1.2 y posteriores, con el fin de garantizar la seguridad de los datos.
+ 
+ ### Warum SSL und TLS 1.2 und darunter deaktivieren?
+ 
+ Las versiones anteriores de SSL y TLS son responsables de varios problemas de seguridad, como POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) y Heartbleed. Estas amenazas pueden conducir a la ocultación de información sensible, si bien es posible que el uso de protocolos falsos resulte peligroso.
+ 
+ ### Deaktivieren von SSL und TLS 1.2 und darunter in Windows:
+ 
+ En Windows se puede activar la opción de desactivación de SSL y TLS 1.2 y más en el editor de registros. Aquí hay un Powershell-Skript, um die Aufgabe zu erfüllen:
+ 
+ 
+ #### SSL und TLS 1.2 und darunter unter Linux deaktivieren:
+ 
+ En Linux es posible activar SSL y TLS 1.2 y, más adelante, modificar los datos de configuración de OpenSSL. Estos son los siguientes puntos:
+ 
+ 1. 1. Abre el terminal y entra como root.
+ 2. 2. Navega hasta el directorio de configuración de OpenSSL. Normalmente se encuentra en /etc/ssl/openssl.cnf.
+ 3. 3. Abra el archivo con un editor de texto como nano o vim.
+ 4. Seleccione la opción SSLProtocol y establezca su valor en -TLSv1.2.
+ 5. 5. Introduzca los datos y cierre el editor de texto.
+ 6. 6. Inicie de nuevo los dispositivos que utilizan OpenSSL, como Apache o Nginx, para que se apliquen las modificaciones.
+ 
+ ## Abschluss:
+ 
+ Si desactiva SSL y todas las versiones TLS 1.2 y posteriores, podrá aumentar la seguridad de su ordenador y evitar posibles amenazas cibernéticas. Se trata de un proceso sencillo, que puede llevarse a cabo con un mínimo de esfuerzo, lo que lo convierte en un elemento clave para el mantenimiento de la seguridad de sus ordenadores. Mediante la aplicación de los criterios descritos en este artículo, podrá proteger sus datos y evitar riesgos cibernéticos, con lo que se reduce el riesgo de que se divulgue información confidencial.
+ 
+ Es importante tener en cuenta que la desactivación de las versiones anteriores de los protocolos SSL y TLS no sólo puede mejorar la seguridad de su ordenador, sino también la compatibilidad con otros sistemas. Por lo tanto, es importante probar las modificaciones propuestas y asegurarse de que no afecten negativamente a su sistema antes de implementarlas por completo.
+ 
+ Además, debe saber que la protección de su ordenador mediante SSL y todas las versiones TLS 1.2 y posteriores es un paso importante para garantizar la seguridad de la información confidencial y evitar ataques cibernéticos. Los puntos descritos en este artículo proporcionan una guía sencilla para la seguridad de sus ordenadores y ayudan a las personas y organizaciones a implementar las normas de seguridad necesarias.

@@ -1,13 +1,43 @@
 ---
-title: "NIST Approved Methods for Sanitizing Removable Media Devices"
+title: "Métodos aprobados por el NIST para la higienización de dispositivos multimedia extraíbles"
 date: 2023-02-11
 toc: true
 draft: false
-description: "Learn about the NIST approved ways to sanitize hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks to protect sensitive data from unauthorized access."
-tags: ["NIST approved methods", "Sanitizing removable media", "Hard drives", "SSDs", "USB flash drives", "CDs", "DVDs", "Blu-ray disks", "Data security", "Protection of sensitive data"]
+descripción: "Conozca los métodos aprobados por el NIST para desinfectar discos duros, unidades SSD, unidades flash USB, CD, DVD y discos Blu-ray para proteger los datos confidenciales de accesos no autorizados."
+tags: ["Métodos aprobados por el NIST", "Desinfección de soportes extraíbles", "Discos duros", "Unidades SSD", "Unidades flash USB", "CD", "DVD", "Discos Blu-ray", "Seguridad de datos", "Protección de datos confidenciales"]
 cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
-coverAlt: "An image of a person holding a USB flash drive with a shredder in the background"
+coverAlt: "Imagen de una persona sujetando una memoria USB con una trituradora de fondo"
 coverCaption: ""
 ---
 
- Les supports amovibles, tels que les disques durs, les disques SSD, les clés USB, les CD, les DVD et les disques Blu-ray, font partie intégrante du monde numérique d'aujourd'hui. Ces appareils sont largement utilisés pour stocker et transférer des données sensibles, et il est crucial de s'assurer que les informations qu'ils contiennent ne sont pas divulguées ou consultées par des personnes non autorisées. Dans cet article, nous discutons des méthodes approuvées par le NIST pour désinfecter tous les types de supports amovibles.  ## Pourquoi désinfecter les supports amovibles ?  **La proposition des supports amovibles est essentielle car les données transférées sur ces appareils peuvent être récupérées automatiquement, même si les données ont été supprimées.** En effet, lorsque les données sont supprimées, seule la référence aux données est supprimée, mais les les données réelles restent sur le disque jusqu'à ce qu'il soit écrasé. Cela permet aux acteurs défectueux de récupérer des données sensibles à l'aide d'un logiciel de récupération de données.  ## NIST 800-88 Révision 1 Types de destruction  Le National Institute of Standards and Technology (NIST) a publié une directive pour la proposition des supports amovibles, connue sous le nom de NIST Special Publication 800-88 Revision 1. La directive décrit plusieurs méthodes de proposition des supports amovibles, y compris la destruction physique, le nettoyage et la purge.  ### Physique destructrice  **La destruction physique est la méthode la plus sûre pour désinfecter les supports amovibles.** Cette méthode implique la destruction physique de l'appareil, ce qui empêche de récupérer les données qu'il contient. La destruction physique peut être réalisée en déchiquetant, en faisant fondre ou en pulvérisant le dispositif.  ### Effacement  L'effacement est le processus d'écrasement des données sur un appareil avec une série de valeurs binaires. Cette méthode est moins sûre que la destruction physique, mais reste efficace pour désinfecter la plupart des supports amovibles. NIST 800-88 Révision 1 recommande d'utiliser un outil logiciel conforme aux normes définies par la spécification 5220.22-M du ministère de la Défense (DoD).  ### Purger  La purge est le processus d'écrasement des données sur un appareil plusieurs fois avec un modèle de valeurs binaires. Cette méthode est plus sûre que l'effacement et est recommandée pour nettoyer les données sensibles. NIST 800-88 Révision 1 recommande d'utiliser un outil logiciel qui répond aux normes définies par la spécification DoD 5220.22-M.  __________________________________________  ## Conclusion  En conclusion, **la spécification des supports amovibles est essentielle pour garantir que les données sensibles accordées sur ces appareils ne soient pas accessibles ou par des personnes non autorisées.** NIST 800-88 Révision 1 fournit des directives pour la nécessité de tous les types de supports amovibles, y compris les disques durs, SSD, clés USB, CD, DVD et disques Blu-ray, y compris la destruction physique, l'effacement et la purge. **La destruction physique est la méthode la plus sûre de méthodes prouvées des supports amovibles, mais le nettoyage et la purge sont également des efficaces qui permettent un haut niveau de sécurité.**  **Il est important de noter que la spécification des supports amovibles n'est qu'un aspect d'une stratégie globale de sécurité des données.** D'autres mesures, telles que le chiffrement et le stockage sécurisé des données, doivent également être mises en œuvre pour assurer la protection des données sensibles. 
+
+ Los soportes móviles, como los discos duros, los discos SSD, los clés USB, los CD, los DVD y los discos Blu-ray, forman parte integrante del mundo numérico actual. Estos aparatos se utilizan en gran medida para almacenar y transferir datos sensibles, y es crucial asegurarse de que la información que contienen no sea divulgada ni consultada por personas no autorizadas. En este artículo se describen los métodos aprobados por el NIST para desinfectar todos los tipos de soportes móviles.
+ 
+ ## ¿Por qué desinfectar los soportes móviles?
+ 
+ **La desinfección de soportes móviles es esencial, ya que los datos transferidos a estos dispositivos pueden recuperarse automáticamente, incluso si se han suprimido los datos.** En efecto, cuando se suprimen los datos, sólo se suprime la referencia a los datos, pero los datos reales permanecen en el disco hasta que se borra. Esto permite a los usuarios finales recuperar datos sensibles con la ayuda de un sistema de recuperación de datos.
+ 
+ ## NIST 800-88 Revisión 1 Tipos de destrucción
+ 
+ El Instituto Nacional de Estándares y Tecnología (NIST) ha publicado una directiva para la propuesta de soportes amovibles, conocida como Publicación Especial 800-88 Revisión 1 del NIST. La directiva describe varios métodos de eliminación de soportes móviles, entre los que se incluyen la destrucción física, la limpieza y la purga.
+ 
+ ### Physique destructrice
+ 
+ **La destrucción física es el método más seguro para desinfectar los soportes móviles.** Este método implica la destrucción física del aparato, lo que impide recuperar los datos que contiene. La destrucción física puede llevarse a cabo retirando, fundiendo o pulverizando el dispositivo.
+ 
+ ### Effacement
+ 
+ El borrado es un proceso de compresión de datos en un dispositivo con una serie de valores binarios. Este método es menos seguro que la destrucción física, pero sigue siendo eficaz para desinfectar la mayoría de los soportes móviles. NIST 800-88 Révision 1 recomienda utilizar una herramienta lógica conforme a las normas definidas por la especificación 5220.22-M del Ministerio de Defensa (DoD).
+ 
+ ### Purgar
+ 
+ La purga es el proceso de escanear los datos de un dispositivo varias veces con un modelo de valores binarios. Este método es más seguro que el borrado y se recomienda para limpiar los datos sensibles. NIST 800-88 Révision 1 recomienda utilizar una herramienta lógica que responda a las normas definidas por la especificación DoD 5220.22-M.
+ 
+ __________________________________________
+ 
+ ## Conclusión
+ 
+ En conclusión, **la especificación de los soportes amovibles es esencial para garantizar que los datos sensibles almacenados en estos aparatos no sean accesibles ni por personas no autorizadas.** La revisión 1 del NIST 800-88 proporciona directrices sobre la necesidad de todos los tipos de soportes móviles, incluidos discos duros, SSD, memorias USB, CD, DVD y discos Blu-ray, así como sobre la destrucción física, el borrado y la purga. **La destrucción física es el método más seguro de todos los métodos conocidos para soportes móviles, pero la limpieza y la purga también son eficaces y permiten un alto nivel de seguridad.
+ 
+ **Es importante señalar que la especificación de los soportes móviles no es más que un aspecto de una estrategia global de seguridad de los datos.** Otras medidas, como el recuento y el almacenamiento seguro de los datos, también deben aplicarse para garantizar la protección de los datos sensibles.
+ 

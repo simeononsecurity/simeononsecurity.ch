@@ -1,22 +1,22 @@
 ---
-title: "PowerShell DSC: A Starting Guide"
+title: "PowerShell DSC: Guía de inicio"
 date: 2023-04-02
 toc: true
 draft: false
-description: "Explore the power of PowerShell Desired State Configuration (DSC) to automate and manage system configurations for a secure and compliant environment."
+descripción: "Explora el poder de PowerShell Desired State Configuration (DSC) para automatizar y gestionar las configuraciones del sistema para un entorno seguro y compatible."
 tags: ["PowerShell", "DSC", "Configuration Management", "Automation", "Windows", "System Administration", "Best Practices", "Compliance", "Security", "Infrastructure", "DevOps", "Server Configuration", "Testing", "Git", "Source Control", "Government Regulations", "NIST", "CIS", "Configuration Drift", "Custom Resources"]
 cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.png"
-coverAlt: "A cartoon image of a confident system administrator with a superhero cape, standing beside a well-organized server rack, holding a PowerShell DSC script in one hand and a shield with the Windows logo in the other, protecting the servers from configuration drift and security threats."
+coverAlt: "Una imagen de dibujos animados de un administrador de sistemas seguro de sí mismo con una capa de superhéroe, de pie junto a un rack de servidores bien organizado, sosteniendo un script DSC de PowerShell en una mano y un escudo con el logotipo de Windows en la otra, protegiendo los servidores de la desviación de la configuración y las amenazas de seguridad."
 coverCaption: ""
 ---
 ```powershell
-Configuration InstallIIS {
+Configuración InstallIIS {
     Import-DscResource -ModuleName PSDesiredStateConfiguration
 
-    Node 'localhost' {
+    Nodo 'localhost' {
         WindowsFeature IIS {
-            Ensure = 'Present'
-            Name   = 'Web-Server'
+            Ensure = 'Presente
+            Name = 'Servidor Web
         }
     }
 }
@@ -24,8 +24,87 @@ Configuration InstallIIS {
 ```powershell
 InstallIIS
 ```
-```powershell
+``powershell
 Start-DscConfiguration -Path .\InstallIIS -Wait -Verbose
 ```
 
- **Guide d'utilisation de PowerShell Desired State Configuration (DSC) pour la gestion de la configuration**  ______  ## Introduction  PowerShell Desired State Configuration (**DSC**) est un outil puissant et **essentiel** pour les administrateurs informatiques et les professionnels DevOps, leur permettant d'automatiser le déploiement et la configuration des systèmes Windows et Linux. Cet article fournit un guide complet sur l'utilisation de PowerShell DSC pour la gestion de la configuration, y compris les meilleures pratiques, les réglementations gouvernementales et des références utiles.  ______  ## Premiers pas avec la configuration de l'état souhaité de PowerShell  ### Qu'est-ce que la configuration de l'état souhaité de PowerShell ?  PowerShell Desired State Configuration (**DSC**) est un **langage déclaratif** intégré à PowerShell qui permet aux administrateurs d'automatiser la configuration des systèmes, des applications et des services. Il fournit un moyen **standardisé et cohérent** de gérer les configurations et de garantir que les systèmes restent dans l'état souhaité.  ### Installation de PowerShell DSC  Pour démarrer avec PowerShell DSC, vous devez installer le **Windows Management Framework (WMF)**. WMF est un package qui inclut PowerShell, DSC et d'autres outils de gestion essentiels. Vous pouvez télécharger la dernière version de WMF à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54616).  ______  ## Création et application de configurations DSC  ### Écrire des configurations DSC  Une configuration DSC est un **script PowerShell** qui décrit l'état souhaité d'un système. Il se compose d'une ou plusieurs **ressources DSC** qui présentent les paramètres et les propriétés procurant les composants du système. Voici un exemple de configuration DSC simple qui installe le rôle de serveur Web (IIS) sur un serveur Windows :  ### Application des configurations DSC Une fois que vous avez écrit une configuration DSC, vous pouvez l'appliquer à un système cible à l'aide de l'applet de commande **Start-DscConfiguration**. Commencer par compiler le script de configuration en l'exécutant dans PowerShell :   Cela va générer un fichier **MOF** (Managed Object Format) qui contient la configuration compilée. Ensuite, appliquez la configuration au système cible à l'aide de la commande suivante :   ## Meilleures pratiques pour l'utilisation de PowerShell DSC  ### Modularisez vos configurations  Créez des configurations **modulaires et réutilisables** en séparant les différents composants de votre infrastructure en **ressources DSC individuelles**. Cette approche vous permet de **maintenir et faire évaluer** facilement vos configurations sur mesure que votre environnement se développe.  ### Utiliser le contrôle de code source  Stockez toujours vos configurations DSC et vos ressources personnalisées dans un **système de contrôle de code source** tel que Git. Cette pratique vous permet de suivre les modifications, de coopérer avec votre équipe et de revenir facilement aux versions précédentes de vos configurations en cas de besoin.  ### Testez vos configurations  Le **test** est un aspect crucial de la gestion de la configuration. Avant d'admettre une configuration DSC, testez-la dans un **environnement de non-production** pour vous assurer qu'elle fonctionne comme prévu et qu'elle n'entraîne aucune conséquence inattendue. Vous pouvez également utiliser des outils tels que [Pester](https://github.com/pester/Pester) pour tester automatiquement vos configurations DSC.  ______  ## Réglementations et directives gouvernementales  ### Directives NIST  Le National Institute of Standards and Technology (NIST) fournit des directives pour la gestion de la configuration du système. En particulier, la publication [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) contient une section (CM-2) sur les configurations de base , qui est pertinent pour l'utilisation de DSC. Les directives soulignent l'importance de la maintenance, de la surveillance et du contrôle des modifications améliorées aux configurations du système. PowerShell DSC peut aider les organisations à se conformer à ces directives en fournissant un moyen cohérent et automatisé de gérer les configurations système.  ### Loi fédérale sur la gestion de la sécurité de l'information (FISMA)  La loi fédérale sur la gestion de la sécurité de l'information [FISMA](https://www.dhs.gov/cisa/federal-information-security-modernization-act) exige que les agences fédérales mettent en œuvre un cadre complet pour garantir l'efficacité de leurs contrôles de sécurité de l'information. La gestion de la configuration est un élément clé de la conformité FISMA, et PowerShell DSC peut jouer un rôle essentiel pour aider les organisations à répondre à ces exigences. ______  ## Conclusion  PowerShell Desired State Configuration (DSC) est un outil puissant et flexible pour automatiser le déploiement et la gestion des configurations système. En suivant les meilleures pratiques et en adhérant aux réglementations gouvernementales, vous pouvez vous assurer que les systèmes de votre organisation restent dans l'état souhaité tout en maintenant la conformité. N'oubliez pas de tirer parti des ressources fournies dans cet article pour améliorer votre compréhension de PowerShell DSC et améliorer vos processus de gestion de la configuration. ______  ## Les références  - [Documentation officielle de la configuration de l'état souhaité de PowerShell (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1) - [NIST SP 800-53 - Contrôles de sécurité et de confidentialité pour les systèmes d'information fédéraux et les organisations] (https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) - [Loi fédérale sur la gestion de la sécurité de l'information (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act) - [Pester - Cadre de test PowerShell](https://github.com/pester/Pester) - [Guide du débutant sur l'utilisation du chiffrement pour la protection des données](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) - [Meilleures pratiques pour l'installation de correctifs de sécurité sur Windows](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/)    
+
+ **Guía de uso de PowerShell Desired State Configuration (DSC) para la gestión de la configuración**.
+ 
+ ______
+ 
+ ## Introducción
+ 
+ PowerShell Desired State Configuration (**DSC**) es una herramienta potente y **esencial** para administradores informáticos y profesionales DevOps, que les permite automatizar el despliegue y la configuración de sistemas Windows y Linux. Este artículo ofrece una guía completa sobre el uso de PowerShell DSC para la gestión de la configuración, incluyendo las mejores prácticas, las regulaciones gubernamentales y referencias útiles.
+ 
+ ______
+ 
+ ## Primeros pasos con la configuración del estado deseado de PowerShell
+ 
+ ### ¿Qué es la configuración de estado deseada de PowerShell?
+ 
+ PowerShell Desired State Configuration (**DSC**) es un **langage declarativo** integrado en PowerShell que permite a los administradores automatizar la configuración de sistemas, aplicaciones y servicios. Proporciona una forma **estándar y coherente** de realizar las configuraciones y garantizar que los sistemas permanecen en el estado deseado.
+ 
+ ### Instalación de PowerShell DSC
+ 
+ Para trabajar con PowerShell DSC, debes instalar **Windows Management Framework (WMF)**. WMF es un paquete que incluye PowerShell, DSC y otras herramientas de gestión esenciales. Puedes descargar la última versión de WMF desde el [Centro de descarga de Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
+ 
+ ______
+ 
+ ## Creación y aplicación de configuraciones DSC
+ 
+ ### Écrire des configurations DSC
+ 
+ Una configuración DSC es un **script PowerShell** que describe el estado deseado de un sistema. Se compone de una o varias **fuentes DSC** que muestran los parámetros y propiedades que necesitan los componentes del sistema. Vea un ejemplo de configuración DSC simple que instala el rol de servidor Web (IIS) sobre un servidor Windows :
+ 
+ ### Aplicación de configuraciones DSC
+ Una vez que haya escrito una configuración DSC, puede aplicarla a un sistema cible con la ayuda del applet de comando **Start-DscConfiguration**. Comience compilando el script de configuración y ejecutándolo en PowerShell :
+ 
+ 
+ Esto generará un archivo **MOF** (Managed Object Format) que contiene la configuración compilada. A continuación, aplique la configuración al sistema con ayuda del siguiente comando:
+ 
+ 
+ ## Buenas prácticas para el uso de PowerShell DSC
+ 
+ ### Modularice sus configuraciones
+ 
+ Cree configuraciones **modulares y reutilizables** separando los diferentes componentes de su infraestructura en **fuentes DSC individuales**. Este enfoque le permite **mantener y evaluar** fácilmente sus configuraciones a medida que evoluciona su entorno.
+ 
+ ### Utilizar el control de código fuente
+ 
+ Guarda siempre tus configuraciones DSC y tus recursos personalizados en un **sistema de control de código fuente** como Git. Esta práctica te permite seguir las modificaciones, colaborar con tu equipo y volver fácilmente a las versiones anteriores de tus configuraciones en caso de necesidad.
+ 
+ ### Pruebe su configuración
+ 
+ El **test** es un aspecto crucial de la gestión de la configuración. Antes de admitir una configuración DSC, pruébala en un **entorno de no producción** para asegurarte de que funciona según lo previsto y de que no tiene ninguna consecuencia inesperada. También puedes utilizar herramientas como [Pester](https://github.com/pester/Pester) para probar automáticamente tus configuraciones DSC.
+ 
+ ______
+ 
+ ## Reglamentos y directivas gubernamentales
+ 
+ ### Directivas NIST
+ 
+ El Instituto Nacional de Estándares y Tecnología (NIST) proporciona directrices para la gestión de la configuración del sistema. En particular, la publicación [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) contiene una sección (CM-2) sobre las configuraciones de base, que es pertinente para el uso de DSC. Las directrices subrayan la importancia del mantenimiento, la vigilancia y el control de las modificaciones mejoradas en las configuraciones del sistema. PowerShell DSC puede ayudar a las organizaciones a cumplir estas directivas proporcionando una forma coherente y automática de gestionar las configuraciones del sistema.
+ 
+ ### Ley Federal de Gestión de la Seguridad de la Información (FISMA)
+ 
+ La ley federal sobre la gestión de la seguridad de la información [FISMA](https://www.dhs.gov/cisa/federal-information-security-modernization-act) exige que las agencias federales pongan en marcha un marco completo para garantizar la eficacia de sus controles de seguridad de la información. La gestión de la configuración es un elemento clave de la conformidad FISMA, y PowerShell DSC puede desempeñar un papel esencial para ayudar a las organizaciones a responder a estas exigencias.
+ ______
+ 
+ ## Conclusión
+ 
+ PowerShell Desired State Configuration (DSC) es una herramienta potente y flexible para automatizar el despliegue y la gestión de configuraciones de sistemas. Siguiendo las mejores prácticas y cumpliendo con las regulaciones gubernamentales, puede asegurarse de que los sistemas de su organización permanezcan en el estado deseado manteniendo la conformidad. No deje de utilizar parte de los recursos proporcionados en este artículo para mejorar su comprensión de PowerShell DSC y mejorar sus procesos de gestión de la configuración.
+ ______
+ 
+ ## Referencias
+ 
+ - Documentación oficial de la configuración del estado deseado de PowerShell (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+ - NIST SP 800-53 - Contrôles de sécurité et de confidentialité pour les systèmes d'information fédéraux et les organisations] (https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
+ - Ley federal sobre la gestión de la seguridad de la información (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
+ - Pester - Marco de pruebas PowerShell](https://github.com/pester/Pester)
+ - Guía del principiante sobre el uso del cifrado para la protección de datos](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+ - Buenas prácticas para la instalación de correctivos de seguridad en Windows](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/)
+ 
+ 
+ 
+ 

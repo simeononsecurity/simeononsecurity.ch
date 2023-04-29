@@ -1,13 +1,116 @@
 ---
-title: "Kali Purple 2023.1: Updates & Essential Features"
+title: "Kali Purple 2023.1: Actualizaciones y características esenciales"
 date: 2023-04-08
 toc: true
 draft: false
-description: "Discover Kali Purple 2023.1's advanced features, tools, and enhancements in our comprehensive review for ethical hackers and cybersecurity enthusiasts."
-tags: ["Kali Linux", "Kali Purple", "2023.1", "ethical hacking", "penetration testing", "cybersecurity", "tools", "exploit framework", "Kali ARM updates", "Kali NetHunter", "Kali documentation", "Kernel support", "Bluetooth support", "LineageOS", "OneUI", "Radxa Zero", "SBC", "kernel patches", "community contributions", "Kali Discord"]
+descripción: "Descubre las características avanzadas, herramientas y mejoras de Kali Purple 2023.1 en nuestra completa revisión para hackers éticos y entusiastas de la ciberseguridad."
+tags: ["Kali Linux", "Kali Purple", "2023.1", "hacking ético", "pruebas de penetración", "ciberseguridad", "herramientas", "exploit framework", "actualizaciones de Kali ARM", "Kali NetHunter", "documentación de Kali", "soporte del kernel", "soporte de Bluetooth", "LineageOS", "OneUI", "Radxa Zero", "SBC", "parches del kernel", "contribuciones de la comunidad", "Kali Discord"].
 cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.png"
-coverAlt: "A 3D animated Kali Linux dragon mascot, surrounded by various cybersecurity and hacking tools, sitting on top of a shield with a purple dragon on it."
+coverAlt: "Una mascota dragón de Kali Linux animada en 3D, rodeada de varias herramientas de ciberseguridad y hacking, sentada encima de un escudo con un dragón morado."
 coverCaption: ""
 ---
 
- # Kali Purple 2023.1: Ein Rückblick  Kali Purple 2023.1 ist die **neueste Version** der tollen **Penetrationstest**- und **ethischen Hacking**-Distribution. In diesem Artikel werfen wir einen genaueren Blick auf die neuen Funktionen, Verbesserungen und Updates, die diese Version bringt.  ______  ## Kali Wallpaper und Desktop-Updates  Kali Purple 2023.1 führt ein **neues Standard-Hintergrundbild** namens Kali Sticker ein, das einen violetten Hintergrund und verschiedene Kali-bezogene Aufkleber aufweist. Dieses neue Hintergrundbild wurde von der Arbeit von /u/Albert-III- und TJ_Null inspiriert.  Zusätzlich zum neuen Hintergrundbild aktualisiert Kali Purple 2023.1 auch seine drei Haupt-Desktop-Umgebungen: **Xfce, KDE und GNOME**. Diese Updates umfassen neue Funktionen, Leistungsverbesserungen und Fehlerbehebungen.  ______  ##Xfce 4.18  **Xfce 4.18** bringt mehrere Verbesserungen, darunter:  - Verbesserte Unterstützung für die Skalierung der Benutzeroberfläche - Aktualisierungen des Thunar-Dateimanagers - Panel-Profil für einfache Anpassung  ______  ## KDE-Plasma 5.27  Das Update **KDE Plasma 5.27** führt Folgendes ein:  - Ein neues Fensterkachelsystem - Ein stilvolleres App-Design - Sauberere und benutzerfreundlichere Tools und Widgets  ______  ## GNOME-Updates  Für GNOME bringt Kali Purple 2023.1 einige Usability-Verbesserungen, etwa die Möglichkeit, durch Drücken der F4-Taste schnell ein Terminal im aktuellen Ordner des Dateimanagers zu öffnen.  ______  ## Standardkerneleinstellungen und bekannte Probleme  Kali Purple 2023.1 aktualisiert einige Kernel-Standardwerte für eine bessere Benutzerfreundlichkeit.  ______  ## Neue Tools und Pakete  Kali Purple 2023.1 führt eine Reihe neuer Tools und Pakete ein, die seine Fähigkeiten als Plattform für **Penetrationstests** und **ethisches Hacking** verbessern. Einige der Neuzugänge sind:  - **Rizin 0.3.0**: Ein modernes Reverse-Engineering-Framework - **Ghidra 10.1**: Eine Open-Source-Software-Reverse-Engineering-Suite - **Python 3.10**: Die neueste Version der genialen Programmiersprache  Diese neuen Tools machen Kali Purple 2023.1 zusammen mit den Updates bestehender Tools zu einer noch leistungsstärkeren und vielseitigeren Distribution für Sicherheitsexperten.  ______  ## Unterstützung für ARM-Geräte  Kali Purple 2023.1 baut seine Unterstützung für ARM-Geräte weiter aus, fügt Kompatibilität für neue Geräte wie die **Radxa Zero** hinzu und die bestehende Unterstützung für Geräte wie das **LG V20**. Diese breite Palette an Unterstützung stellt sicher, dass Kali auf einer Vielzahl von Hardware verwendet werden kann, von kleinen Einplatinencomputern bis hin zu leistungsstarken Smartphones.  ______  ##Dokumentation und Gemeinschaft  Das Kali-Team hat seine **Dokumentation** mit neuen Leitfäden, Tutorials und Tipps zur Fehlerbehebung aktualisiert, damit Benutzer Kali Purple 2023.1 optimal nutzen können. Sie haben auch mehrere Community-Mitglieder für ihre Beiträge zu Kali ausgezeichnet, was die Kraft der Open-Source-Zusammenarbeit und die Stärke der Kali-Community demonstriert hat.  ______  ## Staatliche Beschränkungen  Obwohl dieser Artikel keine staatlichen Vorschriften in Bezug auf ethisches Hacken oder Penetrationstests behandelt, ist es wichtig zu beachten, dass diese AKTIVITÄTEN in vielen Gerichtsbarkeiten reguliert sind. Stellen Sie immer sicher, dass Sie über die erforderlichen Fähigkeiten verfügen und die geltenden Gesetze befolgen, wenn Sie Sicherheitsbewertungen durchführen. Um mehr über relevante Vorschriften zu erfahren, besuchen Sie die following Ressourcen:  - [The Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,ohne% 20Autorisierung%2C%20oder%20in%20Überschuss%20von%20Autorisierung.%20) - [Datenschutz-Grundverordnung (DSGVO)](https://gdpr.eu/)  ______  ## Abschluss  **Kali Purple 2023.1** ist ein leistungsstarkes und funktionsreiches Update, das zahlreiche Verbesserungen und Ergänzungen für Sicherheitsexperten bietet. Mit seinem erweiterten Toolset, der verbesserten ARM-Geräteunterstützung und der robusten Dokumentation ist Kali Purple 2023.1 eine Wahl für alle, die im Bereich ethisches Hacking und Penetrationstests tätig sind. Achten Sie wie immer darauf, sich über relevante gesetzliche Vorschriften auf dem Laufenden zu halten und verantwortungsbewusste Sicherheitstests durchzuführen.  ______  ## Verweise  1. [Offizielle Website von Kali Linux] (https://www.kali.org/) 2. [Kali-Linux-Dokumentation] (https://www.kali.org/docs/) 3. [Kali Linux-Downloads] (https://www.kali.org/get-kali/) 4. [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,ohne% 20Autorisierung%2C%20oder%20in%20Überschuss%20von%20Autorisierung.%20) 5. [Datenschutz-Grundverordnung (DSGVO)](https://gdpr.eu/)  ______  ## Zusätzliche Ressourcen  - [Offizielle Kali Linux-Foren] (https://forums.kali.org/) - [Kali-Linux-Blog](https://www.kali.org/blog/) - [Kali Linux Training und Zertifizierung](https://www.offensive-security.com/)   
+
+ # Kali Purple 2023.1: Ein Rückblick
+ 
+ Kali Purple 2023.1 es la **nueva versión** de la popular distribución para **pruebas de penetración** y **hacking ético**. En este artículo echamos un vistazo a las nuevas funciones, mejoras y actualizaciones que trae esta versión.
+ 
+ ______
+ 
+ ## Fondos de escritorio y actualizaciones de Kali
+ 
+ Kali Purple 2023.1 presenta un nuevo fondo de pantalla estándar llamado Kali Sticker, que incluye un fondo de pantalla violeta y varios atributos de color kali. Este nuevo Hintergrundbild fue inspirado por el trabajo de /u/Albert-III- y TJ_Null.
+ 
+ Además de la nueva interfaz, Kali Purple 2023.1 también ha actualizado sus tres entornos de escritorio principales: **Xfce, KDE y GNOME**. Estas actualizaciones incluyen nuevas funciones, mejoras de rendimiento y errores.
+ 
+ ______
+ 
+ ##Xfce 4.18
+ 
+ **Xfce 4.18** incluye varias mejoras, entre ellas:
+ 
+ - Mejoras en la gestión de la interfaz de usuario
+ - Actualizaciones de los datedores de Thunar
+ - Perfil de panel para facilitar el acceso
+ 
+ ______
+ 
+ ## KDE-Plasma 5.27
+ 
+ La actualización **KDE Plasma 5.27** incluye lo siguiente:
+ 
+ - Un nuevo sistema de caché de pantalla
+ - Un nuevo diseño de aplicaciones
+ - Herramientas y widgets más seguros y útiles
+ 
+ ______
+ 
+ ## Actualizaciones de GNOME
+ 
+ Para GNOME, Kali Purple 2023.1 trae algunas mejoras de usabilidad, como la posibilidad de apagar un terminal en el orden en que se encontraba al pulsar la tecla F4.
+ 
+ ______
+ 
+ ## Configuraciones estándar y problemas conocidos
+ 
+ Kali Purple 2023.1 actualiza algunos estándares del núcleo para mejorar la seguridad de los usuarios.
+ 
+ ______
+ 
+ ## Nuevas herramientas y paquetes
+ 
+ Kali Purple 2023.1 incluye una serie de nuevas herramientas y paquetes que mejoran sus funciones como plataforma para **pruebas de penetración** y **hacking crítico**. Algunas de las novedades son:
+ 
+ - Rizin 0.3.0**: Un moderno marco de ingeniería inversa
+ - Ghidra 10.1**: Una suite de ingeniería inversa de código abierto
+ - Python 3.10**: La nueva versión de la genial herramienta de programación
+ 
+ Estas nuevas herramientas convierten a Kali Purple 2023.1, junto con las actualizaciones de otras herramientas más avanzadas, en una distribución para expertos en seguridad muy fiable y fácil de usar.
+ 
+ ______
+ 
+ ## Asistencia para usuarios de ARM
+ 
+ Kali Purple 2023.1 mejora su compatibilidad con dispositivos ARM, ofrece compatibilidad con nuevos dispositivos como el **Radxa Zero** y mejora la compatibilidad con dispositivos como el **LG V20**. Esta breve paleta de compatibilidad demuestra que Kali puede utilizarse con una gran variedad de hardware, desde pequeños ordenadores de sobremesa hasta smartphones de alto rendimiento.
+ 
+ ______
+ 
+ ##Documentación y comunidad
+ 
+ El equipo Kali ha actualizado su **Documentación** con nuevas herramientas, tutoriales y consejos para la resolución de problemas, para que los usuarios de Kali Purple 2023.1 puedan utilizarla de forma óptima. También se ha premiado a varios miembros de la comunidad por sus contribuciones a Kali, lo que demuestra el espíritu de colaboración con el código abierto y la fuerza de la comunidad Kali.
+ 
+ ______
+ 
+ ## Staatliche Beschränkungen
+ 
+ A pesar de que este artículo no contiene ninguna normativa estatal sobre hacking ético o pruebas de penetración, es importante tener en cuenta que estas actividades están reguladas en muchos aspectos. Asegúrese siempre de cumplir los requisitos necesarios y de adoptar las medidas oportunas cuando realice evaluaciones de seguridad. Para obtener más información sobre las opiniones pertinentes, consulte las siguientes fuentes:
+ 
+ - The Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=La%20Ley%20de%20Fraude%20y%20Abuso%20Informático%20de%201986,ohne%20Autorisierung%2C%20oder%20in%20Überschuss%20von%20Autorisierung.%20)
+ - Datenschutz-Grundverordnung (DSGVO)](https://gdpr.eu/)
+ 
+ ______
+ 
+ ## Abschluss
+ 
+ **Kali Purple 2023.1** es una actualización robusta y funcional que ofrece numerosas mejoras y ampliaciones para los expertos en seguridad. Kali Purple 2023.1 es la solución ideal para todos aquellos que se dedican al hacking ético y a las pruebas de penetración, gracias a su conjunto de herramientas mejorado, la mejora de la compatibilidad con ARM y la robusta documentación. Asegúrese siempre de que se cumplen las normas legales pertinentes y de que se llevan a cabo pruebas de seguridad eficaces.
+ 
+ ______
+ 
+ ## Verweise
+ 
+ 1. [Página oficial de Kali Linux] (https://www.kali.org/)
+ 2. 2. [Documentación de Kali-Linux] (https://www.kali.org/docs/)
+ 3. 3. [Descargas Kali Linux] (https://www.kali.org/get-kali/)
+ 4. 4. [Ley de fraude y abuso informático (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%20201986,ohne%20Autorisierung%2C%20oder%20in%20Überschuss%20von%20Autorisierung.%20)
+ 5. [Datenschutz-Grundverordnung (DSGVO)](https://gdpr.eu/)
+ 
+ ______
+ 
+ ## Zusätzliche Ressourcen
+ 
+ - Foro oficial de Kali Linux] (https://forums.kali.org/)
+ - Kali-Linux-Blog](https://www.kali.org/blog/)
+ - Formación y certificación de Kali Linux](https://www.offensive-security.com/)
+ 
+ 
+ 

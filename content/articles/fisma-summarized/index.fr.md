@@ -1,13 +1,115 @@
 ---
-title: "FISMA 101: An Overview of the Federal Information Security Modernization Act"
+title: "FISMA 101: Una visión general de la Ley Federal de Modernización de la Seguridad de la Información"
 date: 2023-02-12
 toc: true
 draft: false
-description: "FISMA 101 provides a comprehensive overview of the Federal Information Security Modernization Act, including its key components, benefits, and requirements for federal agencies."
+descripción: "FISMA 101 proporciona una visión general de la Ley Federal de Modernización de la Seguridad de la Información, incluyendo sus componentes clave, beneficios y requisitos para las agencias federales."
 tags: ["FISMA", "Federal Information Security", "Information Security", "Risk Management", "Security Control Assessment", "Continuous Monitoring", "Incident Response", "Authorization and Accreditation", "Improved Information Security", "Better Risk Management", "Increased Transparency", "Strengthened Collaboration"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
-coverAlt: "A computer screen with a padlock on it, symbolizing information security and protection, with a background of binary code"
+cover: "/img/cover/Pantalla_de_ordenador_con_un_bloqueo_en_ella_simbolizando_informacion.png"
+coverAlt: "Una pantalla de ordenador con un candado encima, que simboliza la seguridad y la protección de la información, con un fondo de código binario"
 coverCaption: ""
 ---
 
- **FISMA 101 : un aperçu de la loi fédérale sur la modernisation de la sécurité de l'information**  ## Introduction  La loi fédérale sur la modernisation de la sécurité de l'information (FISMA) est une loi américaine promulguée en 2002 qui oblige les agences fédérales à établir et à maintenir des programmes de sécurité de l'information pour protéger leurs informations et leurs systèmes d' information. Cette loi a été adoptée en réponse au besoin croissant d'améliorer la sécurité des informations au sein du gouvernement fédéral, et elle a depuis été mise à jour à plusieurs reprises pour suivre le rythme de l'évolution du paysage des menaces.  ## Qu'est-ce que FISMA ?  FISMA est un ensemble de normes et de lignes directrices pour la sécurité de l'information qui s'applique aux agences fédérales et à leurs sous-traitants. L'objectif de FISMA est de garantir que les informations sensibles sont protégées contre tout accès, utilisation, divulgation, perturbation, modification ou destruction non autorisées. La FISMA exige que les agences fédérales mettent en œuvre une approche de la sécurité de l'information basée sur les risques, qui implique l'identification et l'évaluation des risques de sécurité potentiels, la mise en œuvre de contrôles de sécurité pour réduire ces risques et la surveillance continue de l'efficacité de ces contrôles.  ## Éléments clés de FISMA  Il existe plusieurs composants clés de FISMA, notamment :  - **Gestion des risques** : les agences fédérales doivent procéder à des évaluations régulières des risques pour identifier les risques de sécurité potentiels et mettre en œuvre des contrôles de sécurité pour atténuer ces risques.  - **Évaluation des contrôles de sécurité** : les agences fédérales doivent évaluer l'efficacité de leurs contrôles de sécurité pour s'assurer qu'ils fonctionnent comme prévu et pour identifier les domaines qui doivent être améliorés.  - **Surveillance continue** : les agences fédérales doivent surveiller en permanence leurs systèmes d'information pour s'assurer qu'ils sont sécurisés et pour répondre à tout incident de sécurité qui se produit.  - **Réponse aux incidents** : les agences fédérales doivent disposer d'un plan pour répondre aux incidents de sécurité et doivent être en mesure d'identifier, de contenir et de résoudre rapidement les incidents de sécurité.  - **Autorisation et accréditation** : les agences fédérales doivent obtenir l'autorisation de l'autorité compétente pour exploiter leurs systèmes d'information, et doivent régulièrement évaluer et ré-accréditer ces systèmes pour s'assurer qu'ils sont sécurisés.  ### Gestion des risques  La FISMA exige que les agences fédérales procèdent à des évaluations régulières des risques pour identifier les risques de sécurité potentiels et mettent en œuvre des contrôles de sécurité pour réduire ces risques. Le processus de gestion des risques comprend les étapes suivantes :  1. **Identification des actifs** : les agences fédérales doivent d'abord identifier les actifs qu'elles doivent protéger, y compris les informations sensibles et les systèmes d'information.  2. **Évaluation des menaces et des vulnérabilités** : les agences fédérales doivent ensuite évaluer les menaces et les vulnérabilités susceptibles d'affecter leurs actifs et déterminer la probabilité et l'impact de ces menaces.  3. **Détermination des risques** : sur la base des résultats de l'évaluation des menaces et des vulnérabilités, les agences fédérales doivent déterminer le niveau de risque pour leurs actifs et hiérarchiser les risques qui doivent être traités en premier.  4. **Planification de l'atténuation** : les agences fédérales doivent ensuite élaborer un plan pour atténuer les risques identifiés, y compris la mise en œuvre de contrôles de sécurité tels que les contrôles d'accès, le chiffrement et les pare- feu.  5. **Mise en œuvre** : les agences fédérales doivent ensuite mettre en œuvre les contrôles de sécurité qu'elles ont identifiés comme nécessaires pour atténuer les risques pour leurs actifs.  6. **Surveillance et évaluation** : les agences fédérales doivent surveiller en permanence leurs systèmes d'information pour s'assurer que les contrôles de sécurité fonctionnent comme prévu et pour identifier les domaines qui doivent être améliorés.  ### Évaluation du contrôle de sécurité  Les agences fédérales doivent évaluer l'efficacité de leurs contrôles de sécurité pour s'assurer qu'ils fonctionnent comme prévu et pour identifier les domaines qui doivent être améliorés. Cela implique les étapes suivantes :  1. **Tests** : les agences fédérales doivent tester leurs contrôles de sécurité pour s'assurer qu'ils fonctionnent correctement et pour identifier les vulnérabilités qui doivent être corrigées.  2. **Évaluation** : les agences fédérales doivent évaluer les résultats des tests pour déterminer l'efficacité des contrôles de sécurité et identifier les domaines nécessitant des améliorations.  3. **Remédiation** : sur la base des résultats de l'évaluation, les agences fédérales doivent élaborer un plan pour remédier à toute vulnérabilité ou tout domaine à améliorer et mettre en œuvre les mesures correctives nécessaires.  4. **Amélioration continue** : les agences fédérales adéquates doivent surveiller et évaluer en permanence l'efficacité de leurs contrôles de sécurité et apporter les améliorations nécessaires pour s'assurer qu'elles permettent une protection à leurs actifs.  ### Contrôle continu  Les agences fédérales doivent surveiller en permanence leurs systèmes d'information pour s'assurer qu'ils sont sécurisés et pour répondre à tout incident de sécurité qui se produit. Cela inclut les étapes suivantes :  1. **Surveillance en temps réel** : les agences fédérales doivent utiliser des outils de surveillance en temps réel pour détecter et répondre aux incidents de sécurité dès qu'ils se produisent.  2. **Analyse des journaux** : les agences fédérales doivent régulièrement examiner les journaux de leurs systèmes d'information pour détecter toute activité anormale ou suspecte et répondre aux incidents de sécurité.  3. **Analyse des vulnérabilités** : les agences fédérales doivent effectuer des analyses de vulnérabilités régulières de leurs systèmes d'information pour identifier les vulnérabilités qui doivent être corrigées.  4. **Réponse aux incidents** : les agences fédérales doivent disposer d'un plan pour répondre aux incidents de sécurité et doivent être en mesure d'identifier, de contenir et de résoudre rapidement les incidents de sécurité.  ### Autorisation et Accréditation  Les agences fédérales doivent obtenir l'autorisation de l'autorité compétente pour exploiter leurs systèmes d'information, et doivent régulièrement évaluer et ré-accréditer ces systèmes pour s'assurer qu'ils sont sécurisés. Cela implique les étapes suivantes :  1. **Autorisation du système** : les agences fédérales doivent obtenir l'autorisation de l'autorité compétente pour exploiter leurs systèmes d'information.  2. **Évaluation de la sécurité** : les agences fédérales doivent procéder à une évaluation de la sécurité de leurs systèmes d'information afin d'identifier les risques et les vulnérabilités en matière de sécurité.  3. **Planification de l'atténuation** : sur la base des résultats de l'évaluation de la sécurité, les agences fédérales doivent élaborer un plan pour réduire les risques et les vulnérabilités en matière de sécurité et mettre en œuvre les contrôles de sécurité nécessaire.  4. **Accréditation** : les agences fédérales doivent ensuite obtenir l'accréditation de l'autorité compétente pour s'assurer que leurs systèmes d'information répondent aux normes de sécurité nécessaires et sont autorisés à fonctionner.  5. **Ré-accréditation** : les agences fédérales doivent régulièrement évaluer et ré-accréditer leurs systèmes d'information pour s'assurer qu'ils continuent de répondre aux normes de sécurité nécessaires et pour identifier les domaines à améliorer.  ## Avantages de FISMA  Le FISMA présente plusieurs avantages, notamment :  ### Amélioration de la sécurité des informations  L'un des principaux avantages de FISMA est l'amélioration de la sécurité des informations pour les agences fédérales. En exigeant des agences fédérales qu'elles établissent et maintiennent de solides programmes de sécurité de l'information, FISMA aide à protéger les informations sensibles contre l'accès, l'utilisation ou la divulgation non autorisées. De plus, la FISMA exige des agences fédérales qu'elles effectuent des évaluations régulières des risques, des évaluations des contrôles de sécurité et une surveillance continue, ce qui permet de garantir que leurs systèmes d'informations restent sécurisés au fil du temps.  ### Meilleure gestion des risques  La FISMA aide également les agences fédérales à mieux gérer les risques de sécurité en les obligeant à effectuer des évaluations régulières des risques et à mettre en œuvre des contrôles de sécurité pour atténuer ces risques. Cela aide les agences fédérales à identifier et hiérarchiser les risques de sécurité et à prendre des décisions éclairées sur la meilleure façon d'atténuer ces risques. En outre, la FISMA exige des agences fédérales qu'elles surveillent en permanence leurs systèmes d'information, ce qui permet de garantir que les risques de sécurité sont détectés et traités en temps opportun.  ### La transparence augmente  La FISMA exige des agences fédérales qu'elles rendent compte de leurs programmes de sécurité de l'information, ce qui contribue à renforcer la transparence et la responsabilité. Cela permet aux parties concernées, telles que le Congrès, de voir comment les agences fédérales gèrent les risques de sécurité de l'information et de les tenir responsables de tout incident de sécurité qui se produit.  ### Collaboration renforcée  La FISMA aide également à renforcer la collaboration et la coordination entre les agences fédérales et leurs sous-traitants et autres parties prenant en les obligeant à suivre les mêmes normes de sécurité de l'information. Cela permet de s'assurer que tout le monde travaille ensemble pour protéger les informations sensibles et que les risques de sécurité de l'information sont gérés efficacement à tous les niveaux du gouvernement fédéral.   ## Conclusion  En conclusion, FISMA est un élément essentiel de la sécurité de l'information au sein du gouvernement fédéral américain. En exigeant des agences fédérales qu'elles établissent et maintiennent des programmes de sécurité de l'information, la FISMA contribue à garantir que les informations sensibles sont protégées contre tout accès, utilisation ou divulgation non autorisée. En exigeant des évaluations régulières des risques, une surveillance continue et une réponse aux incidents, la FISMA aide les agences fédérales à gérer les risques de sécurité et à réagir rapidement aux incidents de sécurité. Dans l'ensemble, FISMA est un outil important pour améliorer la sécurité de l'information au sein du gouvernement fédéral et protéger les informations sensibles.
+
+ **FISMA 101: un aperçu de la loi fédérale sur la modernisation de la sécurité de l'information**
+ 
+ ## Introducción
+ 
+ La ley federal sobre la modernización de la seguridad de la información (FISMA) es una ley americana promulgada en 2002 que obliga a las agencias federales a establecer y mantener programas de seguridad de la información para proteger sus datos y sus sistemas de información. Esta ley se adoptó en respuesta a la creciente necesidad de mejorar la seguridad de la información en el seno del Gobierno federal, y desde entonces se ha venido aplicando en varias ocasiones para seguir el ritmo de la evolución del panorama de amenazas.
+ 
+ ## ¿Qué es la FISMA?
+ 
+ FISMA es un conjunto de normas y directrices para la seguridad de la información que se aplica a las agencias federales y a sus subtitulares. El objetivo de la FISMA es garantizar que la información sensible esté protegida contra todo acceso, utilización, divulgación, perturbación, modificación o destrucción no autorizados. La FISMA exige que las agencias federales apliquen un enfoque de la seguridad de la información basado en los riesgos, lo que implica la identificación y la evaluación de los riesgos de seguridad potenciales, la aplicación de controles de seguridad para reducir dichos riesgos y la vigilancia continua de la eficacia de dichos controles.
+ 
+ ## Elementos clave de la FISMA
+ 
+ Existen varios elementos clave de la FISMA, en particular:
+ 
+ - Gestión de riesgos**: las agencias federales deben proceder a evaluaciones periódicas de los riesgos para identificar los riesgos de seguridad potenciales y poner en marcha controles de seguridad para reducirlos.
+ 
+ - Evaluación de los controles de seguridad**: las agencias federales deben evaluar la eficacia de sus controles de seguridad para asegurarse de que funcionan según lo previsto e identificar los ámbitos que deben mejorarse.
+ 
+ - Vigilancia permanente**: las agencias federales deben vigilar permanentemente sus sistemas de información para garantizar su seguridad y responder a cualquier incidente de seguridad que se produzca.
+ 
+ - Respuesta a los incidentes**: las agencias federales deben disponer de un plan para responder a los incidentes de seguridad y deben ser capaces de identificar, contener y resolver rápidamente los incidentes de seguridad.
+ 
+ - Autorización y acreditación**: las agencias federales deben obtener la autorización de la autoridad competente para explotar sus sistemas de información, y deben evaluar y acreditar periódicamente dichos sistemas para garantizar su seguridad.
+ 
+ ### Gestión de riesgos
+ 
+ La FISMA exige que las agencias federales procedan a evaluaciones periódicas de los riesgos para identificar los riesgos de seguridad potenciales y pongan en marcha controles de seguridad para reducirlos. El proceso de gestión de riesgos comprende las siguientes etapas:
+ 
+ 1. **Identificación de los activos**: las agencias federales deben, en primer lugar, identificar los activos que deben proteger, incluidos los datos sensibles y los sistemas de información.
+ 
+ 2. **Evaluación de amenazas y vulnerabilidades**: las agencias federales deben evaluar las amenazas y vulnerabilidades que puedan afectar a sus activos y determinar la probabilidad y el impacto de dichas amenazas.
+ 
+ 3. **Determinación de los riesgos**: sobre la base de los resultados de la evaluación de las amenazas y vulnerabilidades, las agencias federales determinarán el nivel de riesgo de sus activos y jerarquizarán los riesgos que deben tratarse en primer lugar.
+ 
+ 4. **Planificación de la atenuación**: las agencias federales deberán elaborar a continuación un plan para atenuar los riesgos identificados, incluida la puesta en práctica de controles de seguridad tales como los controles de acceso, el recuento y el seguimiento.
+ 
+ 5. **A continuación, las agencias federales deberán aplicar los controles de seguridad que consideren necesarios para reducir los riesgos para sus activos.
+ 
+ 6. **Vigilancia y evaluación**: las agencias federales deben vigilar permanentemente sus sistemas de información para asegurarse de que los controles de seguridad funcionan según lo previsto e identificar los ámbitos que deben mejorarse.
+ 
+ ### Évaluation du contrôle de sécurité
+ 
+ Las agencias federales deben evaluar la eficacia de sus controles de seguridad para asegurarse de que funcionan según lo previsto e identificar los ámbitos que deben mejorarse. Esto implica las siguientes etapas:
+ 
+ 1. **Pruebas**: las agencias federales deben probar sus controles de seguridad para asegurarse de que funcionan correctamente e identificar las vulnerabilidades que deben corregirse.
+ 
+ 2. **Evaluación**: los organismos federales deberán evaluar los resultados de las pruebas para determinar la eficacia de los controles de seguridad e identificar los ámbitos que requieren mejoras.
+ 
+ 3. **Remediation** : sur la base des résultats de l'évaluation, les agences fédérales doivent élaborer un plan pour remédier à toute vulnérabilité ou à tout domaine à améliorer et mettre en œuvre les mesures correctives nécessaires.
+ 
+ 4. **Mejora continua**: los organismos federales competentes deben supervisar y evaluar permanentemente la eficacia de sus controles de seguridad y aportar las mejoras necesarias para garantizar que protegen a sus empleados.
+ 
+ ### Control continuo
+ 
+ Las agencias federales deben vigilar permanentemente sus sistemas de información para asegurarse de que están protegidos y para responder a cualquier incidente de seguridad que se produzca. Esto incluye las siguientes medidas:
+ 
+ 1. **Vigilancia en tiempo real**: las agencias federales deberán utilizar medios de vigilancia en tiempo real para detectar y responder a los incidentes de seguridad en cuanto se produzcan.
+ 
+ 2. **Análisis de los diarios**: las agencias federales deberán examinar periódicamente los diarios de sus sistemas de información para detectar cualquier actividad anormal o sospechosa y responder a los incidentes de seguridad.
+ 
+ 3. **Análisis de vulnerabilidades**: las agencias federales deberán efectuar análisis periódicos de vulnerabilidad de sus sistemas de información para identificar las vulnerabilidades que deban corregirse.
+ 
+ 4. **Respuesta a incidentes**: las agencias federales deberán disponer de un plan de respuesta a incidentes de seguridad y deberán identificar, contener y resolver rápidamente los incidentes de seguridad.
+ 
+ ### Autorización y Acreditación
+ 
+ Las agencias federales deben obtener la autorización de la autoridad competente para explotar sus sistemas de información, y deben evaluar y revisar periódicamente dichos sistemas para garantizar su seguridad. Esto implica las siguientes etapas:
+ 
+ 1. **Autorización del sistema**: las agencias federales deben obtener la autorización de la autoridad competente para explotar sus sistemas de información.
+ 
+ 2. **Evaluación de la seguridad**: las agencias federales deberán proceder a una evaluación de la seguridad de sus sistemas de información a fin de identificar los riesgos y vulnerabilidades en materia de seguridad.
+ 
+ 3. **Sobre la base de los resultados de la evaluación de la seguridad, las agencias federales deberán elaborar un plan para reducir los riesgos y vulnerabilidades en materia de seguridad y aplicar los controles de seguridad necesarios.
+ 
+ 4. **A continuación, las agencias federales deberán obtener la aprobación de la autoridad competente para asegurarse de que sus sistemas de información responden a las normas de seguridad necesarias y están autorizados a funcionar.
+ 
+ 5. **Reacreditación**: las agencias federales deben evaluar y reacreditar periódicamente sus sistemas de información para asegurarse de que siguen respondiendo a las normas de seguridad necesarias e identificar los ámbitos que deben mejorarse.
+ 
+ ## Ventajas de FISMA
+ 
+ La FISMA presenta varias ventajas, entre las que destacan:
+ 
+ ### Mejora de la seguridad de la información
+ 
+ Una de las principales ventajas de la FISMA es la mejora de la seguridad de la información para las agencias federales. Al exigir a las agencias federales que establezcan y mantengan sólidos programas de seguridad de la información, la FISMA ayuda a proteger la información sensible contra el acceso, la utilización o la divulgación no autorizados. Además, la FISMA exige a las agencias federales que realicen evaluaciones periódicas de los riesgos, evaluaciones de los controles de seguridad y una vigilancia continua, lo que permite garantizar que sus sistemas de información sigan estando seguros a largo plazo.
+ 
+ ### Meilleure management des risques
+ 
+ La FISMA también ayuda a las agencias federales a gestionar mejor los riesgos de seguridad, obligándolas a realizar evaluaciones periódicas de los riesgos y a poner en marcha controles de seguridad para reducirlos. Esto ayuda a las agencias federales a identificar y jerarquizar los riesgos de seguridad y a tomar decisiones claras sobre la mejor manera de afrontarlos. Además, la FISMA exige a las agencias federales que vigilen permanentemente sus sistemas de información, lo que permite garantizar que los riesgos de seguridad se detectan y tratan a tiempo.
+ 
+ ### La transparencia aumenta
+ 
+ La FISMA exige a las agencias federales que tengan en cuenta sus programas de seguridad de la información, lo que contribuye a reforzar la transparencia y la responsabilidad. Esto permite a las partes interesadas, como el Congreso, ver cómo las agencias federales gestionan los riesgos de seguridad de la información y hacerles responsables de cualquier incidente de seguridad que se produzca.
+ 
+ ### Collaboration renforcée
+ 
+ La FISMA también ayuda a reforzar la colaboración y la coordinación entre las agencias federales y sus subproveedores y otras partes interesadas, obligándoles a cumplir las mismas normas de seguridad de la información. Esto permite garantizar que todo el mundo trabaje conjuntamente para proteger la información sensible y que los riesgos de seguridad de la información se gestionen eficazmente a todos los niveles del Gobierno federal.
+ 
+ 
+ ## Conclusión
+ 
+ En conclusión, la FISMA es un elemento esencial de la seguridad de la información en el seno del Gobierno federal estadounidense. Al exigir a las agencias federales que establezcan y mantengan programas de seguridad de la información, la FISMA contribuye a garantizar que la información sensible esté protegida contra todo acceso, utilización o divulgación no autorizados. Al exigir evaluaciones periódicas de los riesgos, una vigilancia continua y una respuesta a los incidentes, la FISMA ayuda a las agencias federales a gestionar los riesgos de seguridad y a responder rápidamente a los incidentes de seguridad. En conjunto, FISMA es una herramienta importante para mejorar la seguridad de la información en el seno del Gobierno federal y proteger la información sensible.

@@ -1,13 +1,108 @@
 ---
-title: "How to Download a Clean Windows ISO & Install from Scratch"
+title: "Cómo descargar una ISO limpia de Windows e instalarla desde cero"
 date: 2023-02-20
 toc: true
 draft: false
-description: "Learn how to download a clean Windows ISO file and install Windows from scratch with this step-by-step guide."
-tags: ["Windows 10", "Windows 11", "ISO file", "Clean install", "Media Creation Tool", "Bootable USB", "Installation media", "BIOS", "UEFI firmware", "Custom installation", "Product key", "64-bit system", "32-bit system", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "MD5 & SHA Checksum Utility", "System type"]
+description: "Aprende a descargar un archivo ISO limpio de Windows e instalar Windows desde cero con esta guía paso a paso."
+tags: ["Windows 10", "Windows 11", "Archivo ISO", "Instalación limpia", "Herramienta de creación de medios", "USB de arranque", "Medios de instalación", "BIOS", "Firmware UEFI", "Instalación personalizada", "Clave de producto", "Sistema de 64 bits", "Sistema de 32 bits", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "Utilidad de suma de comprobación MD5 y SHA", "Tipo de sistema"].
 cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
-coverAlt: "A cartoon image of a person holding a USB stick with a Windows logo and a checkmark, standing in front of a computer screen with a Windows logo on it."
+coverAlt: "Imagen de dibujos animados de una persona que sostiene una memoria USB con el logotipo de Windows y una marca de verificación, de pie frente a una pantalla de ordenador con el logotipo de Windows."
 coverCaption: ""
 ---
 
- **Comment télécharger une image ISO propre de Windows 10 ou 11 et installer Windows à partir de zéro**  Si vous envisagez d'installer Windows sur un nouvel ordinateur ou si vous effectuez éventuellement une nouvelle installation pour vous débarrasser de tout problème que vous rencontrez, le téléchargement d'un fichier ISO Windows propre est une première étape essentielle. Dans cet article, nous couvrirons les étapes pour télécharger une image ISO propre de Windows 10 ou 11 et vous guiderons tout au long du processus d'installation.  ## Partie 1 : Téléchargement d'un fichier ISO Windows propre  ### Étape 1 : Vérifiez le type de votre système  La première étape pour télécharger une image ISO Windows propre consiste à vérifier le type de votre système. Vous devez savoir si vous avez un système 32 bits ou 64 bits, car cela déterminera le fichier ISO à télécharger.  Pour vérifier votre type de système sur Windows 10, suivez ces étapes :  1. Ouvrez le menu Démarrer et cliquez sur "Paramètres". 2. Cliquez sur "Système". 3. Cliquez sur "À proposer". 4. Sous « Spécifications de l'appareil », vérifier l'entrée « Type de système ».  Si vous avez un système 32 bits, vous devrez télécharger la version 32 bits de Windows. Si vous avez un système 64 bits, vous pouvez télécharger la version 32 bits ou 64 bits, mais nous recommandons la version 64 bits pour de meilleures performances.  ### Étape 2 : Téléchargez l'outil de création de médias  Pour télécharger un ISO Windows propre, nous utiliserons l'outil de création de médias de Microsoft. Vous pouvez le télécharger directement depuis le site Web de Microsoft en suivant ces étapes :  1. Accédez à la [page de téléchargement de Microsoft Windows 10](https://www.microsoft.com/en-us/software-download/windows10). 2. Faites défiler jusqu'à la section "Créer un support d'installation de Windows 10" et cliquez sur "Télécharger l'outil maintenant". 3. Enregistrez le fichier sur votre ordinateur.  Si vous cherchez à télécharger Windows 11, le processus est similaire. Vous pouvez télécharger l'outil de création de média à partir de la [page de téléchargement de Microsoft Windows 11](https://www.microsoft.com/en-us/software-download/windows11) et suivre les mêmes étapes.  ### Étape 3 : Exécutez l'outil de création de média  Une fois que vous avez téléchargé l'outil de création de médias, transposez-le sur votre ordinateur. Il vous sera demandé si vous souhaitez le mettre à niveau de votre PC actuel ou créer un support d'installation. Choisissez l'option "Créer un support d'installation" et cliquez sur "Suivant".  ### Étape 4 : Choisissez votre langue, votre édition et votre architecture  L'étape suivante consiste à choisir votre langue, votre édition et votre architecture. Vous pouvez laisser l'option de langue définie sur votre langue actuelle ou choisir une autre langue si vous préférez.  Pour l'édition, choisissez la version de Windows que vous souhaitez installer. Vous aurez le choix entre Windows 10 Home et Windows 10 Pro, ou Windows 11 Home et Windows 11 Pro.  Pour l'architecture, sélectionnez le type de système que vous avez déterminé à l'étape 1. Si vous avez un système 64 bits, nous vous recommandons de sélectionner la version 64 bits pour les meilleures performances.  ### Étape 5 : Choisissez votre type de média  L'étape suivante consiste à choisir votre type de média. Vous pouvez soit créer une clé USB amorçable, soit télécharger un fichier ISO.  Si vous choisissez de créer une clé USB amorçable, vous aurez besoin d'une clé USB avec au moins 8 Go d'espace. L'outil de création de média formatera automatiquement le disque et copiera les fichiers nécessaires.  Si vous choisissez de télécharger un fichier ISO, l'outil de création de média téléchargera le fichier et l'enregistrera sur votre ordinateur. Vous pouvez ensuite utiliser un outil tiers pour créer une clé USB amovible ou graver l'ISO sur un DVD.  ### Étape 6 : Téléchargez le fichier ISO  Si vous avez choisi de télécharger un fichier ISO, l'outil de création de média commencera à télécharger le fichier. Cela peut prendre un certain temps, selon la vitesse de votre connexion Internet.  Une fois le téléchargement terminé, l'outil vérifie le fichier pour s'assurer qu'il s'agit d'une ISO propre.  ### Étape 7 : Vérifiez le fichier ISO  La vérification du fichier ISO est une étape essentielle pour s'assurer que le fichier que vous avez téléchargé est propre et n'a pas été modifié. Pour vérifier le fichier, vous pouvez utiliser un outil comme [HashCalc](https://www.slavasoft.com/hashcalc/) ou [MD5 & SHA Checksum Utility](https://raylin.wordpress.com/downloads/md5 -sha-1-checksum-utility/).  Une fois que vous avez téléchargé et installé l'outil de vérification, ouvrez-le et sélectionnez le fichier ISO que vous avez téléchargé. L'outil calcula la valeur de hachage du fichier et la compara à la valeur de hachage fournie par Microsoft sur la page de téléchargement de Windows. Si les valeurs de hachage correspondent, le fichier ISO est propre et peut être utilisé pour installer Windows.  ## Partie 2 : Installer Windows à partir d'un ISO propre  Une fois que vous avez un fichier ISO Windows propre, vous pouvez l'utiliser pour installer Windows sur votre ordinateur. Voici les étapes à suivre :  ### Étape 1 : Créer un support d'installation  Avant de pouvoir installer Windows à partir du fichier ISO, vous devez créer un support d'installation. Vous pouvez le faire en utilisant une clé USB amorçable ou un DVD.  Pour créer une clé USB amorçable, vous pouvez utiliser un outil comme [Rufus](https://rufus.ie/) ou [Windows USB/DVD Download Tool](https://www.microsoft.com/en-us/ download/windows-usb-dvd-download-tool). Branchez simplement le lecteur USB, ouvrez l'outil et suivez les instructions pour créer le lecteur amorçable.  Si vous préférez utiliser un DVD, vous pouvez utiliser un outil comme [ImgBurn](https://www.imgburn.com/) ou [CDBurnerXP](https://cdburnerxp.se/en/home). insérez le DVD, ouvrez l'outil et suivez les instructions pour graver le fichier ISO sur le DVD.  ### Étape 2 : Démarrez à partir du support d'installation  Une fois que vous avez créé le support d'installation, vous devez démarrer votre ordinateur à partir de celui-ci. Pour ce faire, vous devrez peut-être modifier l'ordre de démarrage dans le BIOS ou le micrologiciel UEFI de votre ordinateur.  Pour accéder au micrologiciel BIOS ou UEFI, replacez votre ordinateur et appuyez sur la touche qui apparaît à l'écran. Il s'agit généralement de F2, F10 ou Del. Une fois que vous êtes dans le micrologiciel BIOS ou UEFI, recherchez le menu "Boot" et modifiez l'ordre de démarrage afin que votre support d'installation soit en haut de la liste .  ### Étape 3 : Installer Windows  Une fois que votre ordinateur a démarré à partir du support d'installation, vous voyez l'écran de configuration de Windows. Suivez les instructions pour installer Windows sur votre ordinateur.  Il vous sera demandé de sélectionner votre langue, votre fuseau horaire et la disposition du clavier. Ensuite, vous serez invité à entrer votre clé de produit. Si vous n'avez pas de clé de produit, vous pouvez choisir l'option "Je n'ai pas de clé de produit" et poursuivre l'installation. Vous pouvez activer Windows plus tard une fois qu'il est installé.  Ensuite, il vous sera demandé de sélectionner le type d'installation. Choisissez l'option "Personnalisé" pour effectuer une installation propre.  Il vous sera ensuite demandé de sélectionner la partition sur laquelle vous souhaitez ensuite installer Windows. Si vous installez Windows sur un nouvel ordinateur ou sur un ordinateur avec un disque dur vierge, vous verrez de l'espace non reconnu. Sélectionnez l'espace non autorisé et cliquez sur "Suivant" pour créer une nouvelle partition et installer Windows.  Une fois l'installation terminée, Windows rétablira et vous serez invité à configurer votre compte d'utilisateur.  ## Conclusion  Le téléchargement d'un ISO Windows propre et l'installation de Windows à partir de zéro peuvent sembler intimidants, mais c'est un processus simple que tout le monde peut faire. En suivant les étapes de ce guide, vous pouvez vous assurer d'avoir un Windows propre 
+
+ **Comment télécharger une image ISO propre de Windows 10 ou 11 et installer Windows à partir de zéro**
+ 
+ Si está pensando en instalar Windows en un nuevo ordenador o si desea realizar una nueva instalación para deshacerse de todos los problemas, la descarga de un archivo ISO propio de Windows es la primera etapa esencial. En este artículo, cubriremos los pasos para descargar una imagen ISO propia de Windows 10 u 11 y te guiaremos a lo largo del proceso de instalación.
+ 
+ ## Parte 1: Descarga de un archivo ISO propio de Windows
+ 
+ ### Étape 1 : Vérifiez le type de votre système
+ 
+ La primera etapa para descargar una imagen ISO Windows propia consiste en verificar el tipo de su sistema. Debes saber si tienes un sistema de 32 bits o de 64 bits, ya que esto determinará el archivo ISO a descargar.
+ 
+ Para comprobar tu tipo de sistema en Windows 10, sigue estos pasos:
+ 
+ 1. Abre el menú desplegable y haz clic en "Parámetros".
+ 2. 2. Haz clic en "Sistema".
+ 3. 3. Haga clic en "Proponer".
+ 4. En "Especificaciones del aparato", compruebe la entrada "Tipo de sistema".
+ 
+ Si tiene un sistema de 32 bits, deberá descargar la versión de 32 bits de Windows. Si tienes un sistema de 64 bits, puedes descargar la versión de 32 bits o de 64 bits, pero te recomendamos la versión de 64 bits para un mejor rendimiento.
+ 
+ ### Étape 2 : Téléchargez l'outil de création de médias
+ 
+ Para descargar una ISO Windows propia, utilizamos la herramienta de creación de medios de Microsoft. Puedes descargarlo directamente desde el sitio web de Microsoft siguiendo estos pasos :
+ 
+ 1. Accede a la [página de descarga de Microsoft Windows 10](https://www.microsoft.com/en-us/software-download/windows10).
+ 2. Desplácese hasta la sección "Crear un soporte de instalación de Windows 10" y haga clic en "Descargar ahora la herramienta".
+ 3. 3. Registra el archivo en tu ordenador.
+ 
+ Si quieres descargar Windows 11, el proceso es similar. Puedes descargar la herramienta de creación de medios desde la [página de descarga de Microsoft Windows 11](https://www.microsoft.com/en-us/software-download/windows11) y seguir los mismos pasos.
+ 
+ ### Étape 3 : Exécutez l'outil de création de média
+ 
+ Una vez que haya descargado la herramienta de creación de medios, transpórtela a su ordenador. Se te preguntará si deseas instalarlo en tu PC actual o si deseas crear un soporte de instalación. Elija la opción "Crear un soporte de instalación" y haga clic en "Siguiente".
+ 
+ ### Étape 4 : Choisissez votre langue, votre édition et votre architecture
+ 
+ La siguiente etapa consiste en elegir el idioma, la edición y la arquitectura. Puedes dejar la opción de idioma definida en tu idioma actual o elegir otro idioma si lo prefieres.
+ 
+ Para la edición, elija la versión de Windows que desea instalar. Puedes elegir entre Windows 10 Home y Windows 10 Pro, o Windows 11 Home y Windows 11 Pro.
+ 
+ Para la arquitectura, selecciona el tipo de sistema que has determinado en la etapa 1. Si tiene un sistema de 64 bits, le recomendamos que seleccione la versión de 64 bits para obtener un mejor rendimiento.
+ 
+ ### Étape 5 : Choisissez votre type de média
+ 
+ La siguiente etapa consiste en elegir tu tipo de media. Puedes crear una llave USB o descargar un archivo ISO.
+ 
+ Si eliges crear una llave USB amortizable, necesitarás una llave USB con al menos 8 Go de espacio. La herramienta de creación de archivos formateará automáticamente el disco y copiará los archivos necesarios.
+ 
+ Si eliges descargar un archivo ISO, la herramienta de creación de archivos descargará el archivo y lo grabará en tu ordenador. A continuación, puedes utilizar una herramienta de terceros para crear una copia USB extraíble o grabar la ISO en un DVD.
+ 
+ ### Paso 6: Descargar el archivo ISO
+ 
+ Si has elegido descargar un archivo ISO, la herramienta de creación de archivos comenzará a descargar el archivo. Esto puede tardar cierto tiempo, dependiendo de la velocidad de tu conexión a Internet.
+ 
+ Una vez finalizada la descarga, la herramienta comprueba el archivo para asegurarse de que es correcto.
+ 
+ ### Paso 7: Comprueba el archivo ISO
+ 
+ La comprobación del archivo ISO es esencial para asegurarse de que el archivo que ha descargado es correcto y no ha sido modificado. Para comprobar el archivo, puedes utilizar una herramienta como [HashCalc](https://www.slavasoft.com/hashcalc/) o [MD5 & SHA Checksum Utility](https://raylin.wordpress.com/downloads/md5 -sha-1-checksum-utility/).
+ 
+ Una vez que haya descargado e instalado la utilidad de comprobación, ábrala y seleccione el archivo ISO que ha descargado. La herramienta calcula el valor de carga del archivo y lo compara con el valor de carga proporcionado por Microsoft en la página de descarga de Windows. Si los valores coinciden, el archivo ISO es correcto y puede utilizarse para instalar Windows.
+ 
+ ## Parte 2: Instalar Windows desde una ISO propia
+ 
+ Una vez que tengas un archivo ISO de Windows, puedes utilizarlo para instalar Windows en tu ordenador. Aquí están los pasos a seguir:
+ 
+ ### Étape 1 : Crear un soporte de instalación
+ 
+ Antes de poder instalar Windows a partir del archivo ISO, debes crear un soporte de instalación. Puedes hacerlo utilizando una llave USB o un DVD.
+ 
+ Para crear una llave USB, puedes utilizar una herramienta como [Rufus](https://rufus.ie/) o [Windows USB/DVD Download Tool](https://www.microsoft.com/en-us/ download/windows-usb-dvd-download-tool). Abre simplemente la unidad USB, abre la herramienta y sigue las instrucciones para crear la unidad.
+ 
+ Si prefieres usar un DVD, puedes usar una herramienta como [ImgBurn](https://www.imgburn.com/) o [CDBurnerXP](https://cdburnerxp.se/en/home). Inserta el DVD, abre la herramienta y sigue las instrucciones para grabar el archivo ISO en el DVD.
+ 
+ ### Étape 2 : Démarrez à partir du support d'installation
+ 
+ Una vez que hayas creado el soporte de instalación, debes arrancar tu ordenador a partir de él. Para ello, puedes modificar el orden de arranque en la BIOS o en el micrologiciel UEFI de tu ordenador.
+ 
+ Para acceder al micrologiciel BIOS o UEFI, reemplaza tu ordenador y pulsa el botón que aparece en la pantalla. Generalmente se trata de F2, F10 o Supr. Una vez que estés en el micrologiciel BIOS o UEFI, busca el menú "Boot" y modifica el orden de arranque para que tu soporte de instalación esté en la parte superior de la lista .
+ 
+ ### Étape 3 : Installer Windows
+ 
+ Una vez que su ordenador se haya desinstalado desde el soporte de instalación, verá la pantalla de configuración de Windows. Siga las instrucciones para instalar Windows en su ordenador.
+ 
+ Se te pedirá que selecciones tu idioma, tu horario y la disposición del teclado. A continuación, se le invitará a introducir su clave de producto. Si no tienes clave de producto, puedes elegir la opción "No tengo clave de producto" y continuar con la instalación. Puedes activar Windows más tarde una vez que esté instalado.
+ 
+ A continuación, se le pedirá que seleccione el tipo de instalación. Elija la opción "Personalizada" para realizar una instalación propia.
+ 
+ A continuación, se le pedirá que seleccione la partición en la que desea instalar Windows. Si instalas Windows en un ordenador nuevo o en un ordenador con un disco duro vacío, verás que el espacio no se reconoce. Seleccione el espacio no autorizado y haga clic en "Siguiente" para crear una nueva partición e instalar Windows.
+ 
+ Una vez finalizada la instalación, Windows se restablecerá y te invitará a configurar tu cuenta de usuario.
+ 
+ ## Conclusión
+ 
+ La descarga de una ISO de Windows propia y la instalación de Windows desde cero pueden parecer intimidantes, pero es un proceso sencillo que todo el mundo puede hacer. Siguiendo los pasos de esta guía, podrás asegurarte de tener un Windows propio
+ 

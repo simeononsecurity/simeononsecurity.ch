@@ -1,12 +1,12 @@
 ---
-title: "Essential Do's and Don'ts for Hardening Your Linux System"
+title: "Qué hacer y qué no hacer esencial para endurecer tu sistema Linux"
 date: 2023-02-28
 toc: true
 draft: false
-description: "Learn the essential dos and donts for hardening your Linux system, including updating, using firewalls, enabling SELinux or AppArmor, configuring password policies, and monitoring system logs."
-tags: ["Linux security", "system hardening", "firewall", "SELinux", "AppArmor", "password policy", "system updates", "system logs", "security modules", "access control policies", "cybersecurity", "system security", "network security", "vulnerability management", "security best practices", "IT security", "information security", "software updates", "root access", "password manager"]
+description: "Aprende lo esencial que debes y no debes hacer para endurecer tu sistema Linux, incluyendo actualizaciones, uso de cortafuegos, habilitación de SELinux o AppArmor, configuración de políticas de contraseñas y monitorización de registros del sistema."
+tags: ["seguridad Linux", "endurecimiento del sistema", "cortafuegos", "SELinux", "AppArmor", "política de contraseñas", "actualizaciones del sistema", "registros del sistema", "módulos de seguridad", "políticas de control de acceso", "ciberseguridad", "seguridad del sistema", "seguridad de la red", "gestión de vulnerabilidades", "buenas prácticas de seguridad", "seguridad informática", "seguridad de la información", "actualizaciones de software", "acceso root", "gestor de contraseñas"].
 cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
-coverAlt: "A cartoon lock holding a shield with the word Linux on it, while an arrow bounces off the shield."
+coverAlt: "Un candado de dibujos animados sosteniendo un escudo con la palabra Linux en él, mientras una flecha rebota en el escudo".
 coverCaption: ""
 ---
 ```bash
@@ -19,7 +19,7 @@ sudo apt-get upgrade
 ```bash
 sudo yum update
 ```
-```bash
+Bash
 sudo yum autoremove
 ```
 ```bash
@@ -30,11 +30,11 @@ sudo ufw enable
 ```bash
 sudo ufw allow http
 ```
-```bash
-sudo ufw deny from <ip_address>
+Bash
+sudo ufw deny from <dirección_ip>
 ```
-```bash
-sudo ufw delete <rule_number>
+Bash
+sudo ufw delete <número_de_regla>
 ```
 ```bash
 sudo ufw status
@@ -53,29 +53,29 @@ sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --reload
 ```
 ```bash
-sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="<ip_address>" reject'
+sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="<dirección_ip>" reject'
 sudo firewall-cmd --reload
 ```
-```bash
+Bash
 sudo firewall-cmd --permanent --remove-<type>=<rule>
 sudo firewall-cmd --reload
 ```
-```bash
+Bash
 sudo firewall-cmd --list-all
 ```
-```bash
+Bash
 sestatus
 ```
-```bash
+Bash
 sudo yum install selinux-policy selinux-policy-targeted
 ```
 ```bash
 sudo nano /etc/selinux/config
 ```
 ```
-SELINUX=enforcing
+SELINUX=forzar
 ```
-```bash
+Bash
 sudo apparmor_status
 ```
 ```bash
@@ -96,17 +96,230 @@ sudo apt-get install libpam-pwquality
 ```bash
 password requisite pam_pwquality.so minlen=8 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1
 ```
-```bash
+``bash
 sudo authconfig --passalgo=sha512 --update --enablereqlower --enablerequpper --enablereqdigit --enablereqother --passminlen=8
 ```
 ```bash
 sudo journalctl
 ```
-```bash
+Bash
 sudo journalctl -u sshd
 ```
-```bash
-sudo journalctl --since "1 hour ago"
+Bash
+sudo journalctl --since "hace 1 hora"
 ```
 
-  Linux ist ein beliebtes Betriebssystem, das von erwarteten und Unternehmen ähnlich verwendet WIRD. Obwohl es aufgrund seiner Open-Source-Natur oft als sicherer als andere Betriebssysteme angesehen wird, erfordert es dennoch eine Härtung, um die Sicherheit des Systems und der darin eingehenden Daten zu gewährleisten. In diesem Artikel gehen wir auf einige allgemeine Gebote und Verbote für die Härtung ein, die dazu beitragen können, Ihr Linux-System sicher zu halten.  ## Aufgaben:  ### Halten Sie Ihr System auf dem neuesten Stand  Es ist entscheidend, Ihr [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)-System auf dem neuesten Stand zu halten, um seine Sicherheit aufrechtzuerhalten. Regelmäßige Updates helfen dabei, Sicherheitslücken und Fehler zu beheben und sicherzustellen, dass Ihr System vor potenziellen Angriffen geschützt bleibt. Hier sind einige Beispiele, wie Sie Ihr Linux-System mit dem Paketmanager **apt-get** oder **yum** aktualisieren:  #### Ubuntu mit apt-get aktualisieren  Um Ihr Ubuntu-System mit **apt-get** zu aktualisieren, öffnen Sie ein Terminalfenster und geben Sie Folgendes ein:  Dadurch werden die neuesten Paketlisten aus den Ubuntu-Paket-Repositorys heruntergeladen. Sobald dieser Befehl abgeschlossen ist, können Sie alle verfügbaren Updates mit dem folgenden installieren:   Dadurch werden alle verfügbaren Updates für Ihr System heruntergeladen und installiert.  ### Aktualisieren von CentOS mit lecker  Um Ihr CentOS-System mit **yum** zu aktualisieren, öffnen Sie ein Terminalfenster und geben Sie Folgendes ein:   Dadurch werden alle verfügbaren Updates für Ihr System heruntergeladen und installiert. Sie können auch den folgenden Befehl verwenden, um alle alten oder nicht verwendeten Pakete zu bereinigen:   Dadurch werden alle Pakete entfernt, die auf Ihrem System nicht mehr benötigt werden.  Denken Sie daran, regelmäßig nach Updates für Ihr Linux-System zu suchen und diese zu installieren, um dessen Sicherheit und Stabilität zu gewährleisten.   ### Verwenden Sie eine Firewall  Eine Firewall ist eine maßgebliche Sicherheitsmaßnahme für jedes Linux-System, da sie zum Schutz vor unbefugtem Zugriff und anderen Cyber-Bedrohungen erfolgt. Also verwenden SIE die **ufw**-Firewall auf Ihrem Linux-System:  #### ufw für Ubuntu-basierte Systeme installieren und aktivieren  Um **ufw** zu installieren und zu aktivieren, öffnen Sie ein Terminalfenster und geben Sie Folgendes ein:   So lassen Sie eingehenden HTTP-Datenverkehr (Port 80) zu:   So blockieren Sie eingehenden Datenverkehr von einer bestimmten IP-Adresse:   So löschen Sie eine Regel:  SIE kann die aktuellen **ufw**-Regeln anzeigen, gibt SIE dafür Folgendes ein:    Dadurch werden die aktuellen Regeln und deren Status angezeigt.  SIE DARAN, Ihre **ufw**-Regeln regelmäßig zu denken und zu aktualisieren, um sicherzustellen, dass Ihr System vor potenziellen Bedrohungen geschützt ist.   #### Firewalld für CentOS-basierte Systeme installieren und aktivieren  Um die Standard-Firewall auf CentOS, die **firewalld** ist, zu installieren und zu aktivieren, können SIE folgende Befehle verwenden:   Dadurch wird **firewalld** installiert und auf Ihrem System aktiviert.  #### Konfigurieren von Firewall-Regeln für CentOS-basierte Systeme  Sobald **firewalld** aktiviert ist, can SIE ihre Regeln konfigurieren, um eingehenden und ausgehenden Datenverkehr zuzulassen oder zu blockieren. Hier sind einige Beispiele:  So lassen Sie eingehenden SSH-Datenverkehr (Port 22) zu:   So lassen Sie eingehenden HTTP-Datenverkehr (Port 80) zu:   So blockieren Sie eingehenden Datenverkehr von einer bestimmten IP-Adresse:   So löschen Sie eine Regel:   Sie können die aktuellen **firewalld**-Regeln anzeigen, dafür geben SIE Folgendes ein:   Dadurch werden die aktuellen Regeln und deren Status angezeigt.  SIE DARAN, Ihre **firewalld**-Regeln zu Denken regelmäßig zu überprüfen und zu aktualisieren, um sicherzustellen, dass Ihr System  ### Aktivieren Sie SELinux oder AppArmor  SELinux (Security-Enhanced Linux) und AppArmor sind zwei Sicherheitsmodule, die verwendet werden können, um obligatorische Zugriffskontrollrichtlinien in Linux-Systemen durchzusetzen. Standardmäßig sind auf den meisten modernen Linux-Distributionen SELinux oder AppArmor installiert, die aktiviert und konfiguriert werden können, um die Sicherheit Ihres Systems zu erhöhen.  #### Aktivierung von SELinux für CentOS-basierte Systeme  Führen SIE den following Befehl aus, um zu überprüfen, ob SELinux auf Ihrem System aktiviert ist:   Wenn der Befehl der SELinux nicht installiert ist, können Sie es mit dem following installieren:   Um SELinux zu aktivieren, müssen Sie die Datei **/etc/selinux/config** bearbeiten und die Variable **SELinux** auf **enforcing** setzen:  **Änderung SELINUX=erzwingen**  Speichern und verlassen Sie die Datei mit STRG+X und Y, geben Sie sie ein und starten Sie Ihr System neu.  #### Aktivieren von AppArmor für Ubuntu-basierte Systeme  Führen SIE den folgenden Befehl aus, um zu überprüfen, ob AppArmor auf Ihrem System aktiviert ist:   Wenn der Befehl der AppArmor nicht installiert ist, können Sie es mit dem folgenden installieren:  Um AppArmor zu aktivieren, müssen SIE die Datei **/etc/default/grub** bearbeiten und den Parameter **security=apparmor** zur Variablen **GRUB_CMDLINE_LINUX** hinzufügen:  **Sicherheit hinzufügen=apparmor**  Speichern und beenden Sie die Datei mit STRG+X und Y, geben Sie sie ein und führen Sie dann den folgenden Befehl aus, um die Bootloader-Konfiguration Ihres Systems zu aktualisieren:   Starten Sie abschließend Ihr System neu.  Sobald SELinux oder AppArmor aktiviert sind, können SIE ihre Richtlinien konfigurieren, um die Berechtigungen von Prozessen einzuschränken und ihren Zugriff auf Systemressourcen zu beschränken. Dies kann dazu beitragen, die potenziellen Auswirkungen eines erfolgreichen Angriffs zu minimieren und die Gesamtsicherheit Ihres Systems zu verbessern.   ### Kennwortrichtlinien konfigurieren  Das Konfigurieren von Kennwortrichtlinien ist ein wichtiger Schritt zur Erhöhung der Sicherheit Ihres Linux-Systems. Indem Sie strenge Kennwortanforderungen durchsetzen, können Sie sicherstellen, dass Benutzerkonten sicher und vor potenziellen Angriffen geschützt sind. So konfigurieren Sie Kennwortrichtlinien auf Ihrem Linux-System:  #### Kennwortrichtlinien auf Ubuntu konfigurieren  Um Passwortrichtlinien auf Ubuntu zu konfigurieren, kann SIE das Modul **pam_pwquality** verwenden. Dieses Modul bietet eine Reihe von Überprüfungen der Passwortstärke, die zur Durchsetzung von Passwortrichtlinien used Werden can. Um das Modul **pam_pwquality** zu installieren, öffnen Sie ein Terminalfenster und geben Sie Folgendes ein:   Sobald das Modul installiert ist, können Sie seine Einstellungen konfigurieren, indem Sie die Datei **/etc/pam.d/common-password** bearbeiten. Um beispielsweise eine Mindestpasswortlänge von 8 Zeichen zu erzwingen und mindestens einen Großbuchstaben, Kleinbuchstaben, eine Ziffer und ein Sonderzeichen zu verlangen, kann SIE der Datei folgende Zeile hinzufügen:   Sie können auch andere Einstellungen konfigurieren, z. B. das maximale Kennwortalter, indem Sie der Datei Zeilen hinzufügen.  #### Passwortrichtlinien auf CentOS konfigurieren  Um Kennwortrichtlinien auf CentOS zu konfigurieren, können SIE das Tool **authconfig** verwenden. Dieses Tool bietet eine Reihe von Optionen, die zum Konfigurieren von Kennwortrichtlinien verwendet werden können. Um beispielsweise eine Mindestkennwortlänge von 8 Zeichen zu erzwingen und mindestens einen Großbuchstaben, Kleinbuchstaben, eine Ziffer und ein Sonderzeichen zu verlangen, kann SIE den folgenden Befehl verwenden:   Dadurch werden die Dateien **/etc/pam.d/system-auth** und **/etc/pam.d/password-auth** des Systems aktualisiert, um die angegebenen Kennwortrichtlinien durchzusetzen.  Denken Sie daran, Ihre Kennwortrichtlinien regelmäßig zu überprüfen und zu aktualisieren, um sicherzustellen, dass sie gegen potenzielle Angriffe wirksam bleiben.   ### Überwachen Sie Ihre Systemprotokolle  Die Überwachung Ihrer Systemprotokolle ist ein wichtiger Aspekt für die Überwachung der Sicherheit Ihres Linux-Systems. Systemprotokolle zeichnen Systemaktivitäten wie fehlgeschlagene Anmeldeversuche, Fehler und andere wichtige Ereignisse auf und können wertvolle Einblicke in potenzielle Sicherheitsbedrohungen oder andere Probleme geben, die Aufmerksamkeit erfordern. So überwachen Sie Ihre Systemprotokolle:  #### Mit dem Befehl journalctl  Auf den meisten modernen Linux-Distributionen können Sie den Befehl **journalctl** verwenden, um Systemprotokolle anzuzeigen. Dieser Befehl bietet eine Vielzahl von Optionen, die zum Filtern und Durchsuchen von Protokolleinträgen verwendet werden können.  Um alle Protokolleinträge anzuzeigen, führen Sie einfach den folgenden Befehl aus:   Dadurch werden alle Protokolleinträge angezeigt, wobei die neuesten Einträge ganz unten stehen.  Um Protokolleinträge nach einer bestimmten Einheit zu filtern, z. B. einem Dienst oder einem Prozess, can SIE sterben Option **-u ** weiter vom Namen der Einheit verwenden. Um beispielsweise Protokolleinträge für den Dienst **sshd** anzuzeigen, können SIE den Befehl ausführen:   Um Protokolleinträge nach einem bestimmten Zeitraum zu filtern, können Sie die Optionen **--seit** und **--until** von einem Zeitstempel oder Zeitraum verwenden. Um beispielsweise Protokolleinträge der letzten Stunde anzuzeigen, können Sie den folgenden ausführen:   #### Verwenden eines Protokollverwaltungstools  Bei größeren oder komplexeren Systemen kann es sinnvoll sein, ein Protokollverwaltungstool zum Sammeln und Analysieren von Systemprotokollen zu verwenden. Protokollverwaltungstools können erweiterte Funktionen wie Protokollüberwachung in Echtzeit, Protokollaggregation und Protokollanalyse bereitstellen und Ihnen dabei helfen, potenzielle Sicherheitsbedrohungen effizienter zu identifizieren und darauf zu reagieren.  Beispiele für Protokollverwaltungstools für Linux sind:  - **Logwatch**: ein einfaches Protokollanalysetool, das tägliche E-Mail-Zusammenfassungen von Systemprotokollen bereitstellt - **Logrotate**: ein Tool, das Protokolldateien automatisch rotiert und komprimiert, um Speicherplatz zu sparen - **ELK-Stack**: Ein beliebtes Open-Source-Protokollverwaltungstool, das Elasticsearch, Logstash und Kibana kombiniert, um Protokollüberwachungs- und -analysefunktionen in Echtzeit bereitzustellen  Denken Sie daran, Ihre Systemprotokolle regelmäßig zu überprüfen und zu analysieren, um potenzielle Sicherheitsbedrohungen rechtzeitig zu erkennen und darauf zu reagieren.  ______  ## Verbote:  ### Verwenden Sie schwache Passwörter  Die Verwendung schwacher Passwörter ist ein gescannter Fehler, der Ihr Linux-System anfällig für Angriffe machen kann. Angreifer can Tools verwenden, um Passwörter zu erraten, die auf gebräuchlichen Wörtern, Namen oder Daten basieren. Es ist wichtig, starke und eindeutige Passwörter zu verwenden, die nicht leicht zu erraten sind.  Sie können starke Passwörter erstellen, indem Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen verwenden. Es ist auch eine gute Praxis, einen [Passwort-Manager] (https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) zu verwenden, um komplexe Passwörter sicher zu generieren und zu speichern. [Passwortmanager] (https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) können Ihnen auch dabei helfen, sich Ihre Passwörter zu merken und zu vermeiden, dass Sie dasselbe Passwort für mehrere Konten verwenden .  ### Root-SSH-Zugriff zulassen  Das Zulassen des Root-SSH-Zugriffs ist ein Sicherheitsrisiko, das Angreifern die vollständige Kontrolle über Ihr Linux-System geben kann. Stattdessen sollten SIE ein Nicht-Root-Benutzerkonto verwenden, um sich bei Ihrem System anzumelden, und dann die Berechtigungen mit dem Befehl **sudo** erhöhen. Dies trägt dazu bei, die potenziellen Auswirkungen eines Angriffs zu begrenzen, indem die Zugriffsrechte von Benutzerkonten eingeschränkt werden.  ### Unnötige Software installieren  Die Installation unnötiger Software kann die Angriffsfläche Ihres Linux-Systems vergrößern und es anfälliger für Angriffe machen. Es ist wichtig, nur Software zu installieren, sterben für Ihr System erforderlich ist, und unnötige Software zu entfernen. Dies trägt dazu bei, die Anzahl potenzieller Schwachstellen auf Ihrem System zu reduzieren und das Risiko eines erfolgreichen Angriffs zu minimieren.  ### Verwenden Sie veraltete Software  Die Verwendung veralteter Software kann Ihr System anfällig für Angriffe machen, die bekannten Schwachstellen ausnutzen. Es ist wichtig, immer die neueste Version der Software zu verwenden und diese regelmäßig zu aktualisieren, um die Sicherheit zu gewährleisten. Dies hilft, bekannte Schwachstellen zu patchen und Ihr System vor potenziellen Angriffen zu schützen.  ______  ## Abschluss  Zusammenfassend lässt sich sagen, dass die Härtung Ihres Linux-Systems maßgeblich IST, um seine Sicherheit zu gewährleisten und die darin enthaltenen Daten zu schützen. Indem Sie die in diesem Artikel beschriebenen Gebote und Verbote befolgen, können Sie wichtige Schritte unternehmen, um Ihr System zu sichern und das Risiko von Cyberbedrohungen zu verringern. Denken Sie daran, Ihr System immer auf dem neuesten Stand zu halten, eine Firewall zu verwenden, Kennwortrichtlinien zu konfigurieren und Systemprotokolle zu überwachen. Vermeiden Sie es, schwache Passwörter zu verwenden, automatische Updates zu deaktivieren, Root-SSH-Zugriff zuzulassen, unnötige Software zu installieren und veraltete Software zu verwenden. Mit diesen Best Practices können Sie sicherstellen, dass Ihr Linux-System sicher und geschützt bleibt.  ## Verweise:  - [Linux Hardening Guide des Center for Internet Security](https://www.cisecurity.org/cis-hardened-images/) - [Sicherheitshandbuch für Red Hat Enterprise Linux] (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index) - [Ubuntu-Sicherheitsdokumentation] (https://ubuntu.com/security) - [Linux-Sicherheits-Wiki](https://en.wikibooks.org/wiki/Linux_Security)
+
+ 
+ Linux es un sistema operativo muy popular, utilizado por empresas e instituciones. Aunque su naturaleza de código abierto lo hace a menudo más seguro que otros sistemas operativos, también ofrece una herramienta para mejorar la seguridad de los sistemas y de los datos que contienen. En este artículo nos centraremos en algunos aspectos generales de la seguridad que le ayudarán a mantener su sistema Linux seguro.
+ 
+ ## Aufgaben:
+ 
+ ### Mantener su sistema en el nivel más reciente
+ 
+ Es importante mantener su sistema [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)en el nivel más reciente para garantizar su seguridad. Las actualizaciones periódicas ayudan a mantener la seguridad y a evitar problemas, asegurando que su sistema está protegido contra posibles amenazas. Estos son algunos ejemplos de cómo actualizar su sistema Linux con el gestor de paquetes **apt-get** o **yum**:
+ 
+ #### Actualizar Ubuntu con apt-get
+ 
+ Para actualizar su sistema Ubuntu con **apt-get**, abra un terminal y haga lo siguiente:
+ 
+ A continuación se mostrarán las listas de paquetes más recientes de los repositorios de paquetes de Ubuntu. Si este problema no se ha solucionado, puede instalar todas las actualizaciones con la siguiente instalación:
+ 
+ 
+ Por favor, descargue e instale todas las actualizaciones disponibles para su sistema.
+ 
+ ### Aktualisieren von CentOS mit lecker
+ 
+ Para actualizar su sistema CentOS con **yum**, abra un terminal y haga lo siguiente:
+ 
+ 
+ A continuación se mostrarán e instalarán todas las actualizaciones disponibles para su sistema. También puede utilizar el siguiente símbolo para eliminar los paquetes antiguos o que no utilice:
+ 
+ 
+ Por lo tanto, se eliminarán todas las tarjetas que no estén disponibles en el sistema.
+ 
+ Asegúrese de recibir actualizaciones periódicas para su sistema Linux e instalarlas para mejorar su seguridad y estabilidad.
+ 
+ 
+ ### Verwenden Sie eine Firewall
+ 
+ Un cortafuegos es una medida de seguridad obligatoria para cualquier sistema Linux, ya que protege contra ataques no autorizados y otras amenazas cibernéticas. También puede utilizar SIE **ufw**-Firewall en su sistema Linux:
+ 
+ #### ufw für Ubuntu-basierte Systeme installieren und aktivieren
+ 
+ Para instalar y activar **ufw**, abre un terminal y escribe lo siguiente:
+ 
+ 
+ De este modo, podrá acceder a la conexión de datos HTTP (puerto 80):
+ 
+ 
+ Para bloquear la entrada de datos de una dirección IP diferente:
+ 
+ 
+ Así se cancela una regla:
+ 
+ SIE kann die aktuellen **ufw**-Regeln anzeigen, gibt SIE dafür Folgendes ein:
+ 
+ 
+ 
+ A continuación se muestran las normas actuales y su estado.
+ 
+ SIE DARAN, Ihre **ufw**-Regeln regelmäßig zu denken und zu aktualisieren, um sicherzustellen, dass Ihr System vor potenziellen Bedrohungen geschützt ist.
+ 
+ 
+ #### Firewalld para sistemas basados en CentOS instalar y activar
+ 
+ Para instalar y activar el cortafuegos estándar **firewalld** de CentOS, puede seguir estos pasos:
+ 
+ 
+ Instale **firewalld** y actívelo en su sistema.
+ 
+ #### Configuración de cortafuegos para sistemas basados en CentOS
+ 
+ Cuando **firewalld** está activado, el SIE puede configurar sus reglas para bloquear o eliminar el tráfico de datos entrante y saliente. Estos son algunos ejemplos:
+ 
+ Así podrá acceder a la conexión de datos SSH (Puerto 22):
+ 
+ 
+ Para acceder a los datos HTTP (Puerto 80):
+ 
+ 
+ Para bloquear la entrada de datos de una dirección IP diferente:
+ 
+ 
+ Así se cancela una regla:
+ 
+ 
+ Puede consultar los últimos **firewalld**-Regeln, a continuación, seleccione SIE Folgendes ein:
+ 
+ 
+ A continuación, se muestran las normas actuales y su estado.
+ 
+ SIE DARAN, Ihre **firewalld**-Regeln zu Denken regelmäßig zu überprüfen und zu aktualisieren, um sicherzustellen, dass Ihr System
+ 
+ ### Aktivieren Sie SELinux or AppArmor
+ 
+ SELinux (Security-Enhanced Linux) y AppArmor son dos módulos de seguridad que se pueden utilizar para aplicar las directivas de control de seguridad obligatorias en sistemas Linux. En la mayoría de las distribuciones modernas de Linux se instalan SELinux o AppArmor, que pueden activarse y configurarse para mejorar la seguridad del sistema.
+ 
+ #### Activación de SELinux para sistemas basados en CentOS
+ 
+ Siga estos pasos para saber si SELinux está activado en su sistema:
+ 
+ 
+ Si SELinux no está instalado, puede instalarlo con la siguiente configuración:
+ 
+ 
+ Para activar SELinux, debe cargar la carpeta **/etc/selinux/config** y configurar la variable **SELinux** en **enforcing**:
+ 
+ **Ajuste SELINUX=reforzar**.
+ 
+ Seleccione y verifique los datos con STRG+X e Y, guárdelos y arranque su sistema de nuevo.
+ 
+ #### Activación de AppArmor para sistemas basados en Ubuntu
+ 
+ Siga los siguientes pasos para saber si AppArmor está activado en su sistema:
+ 
+ 
+ Si el icono de AppArmor no está instalado, puede instalarlo a continuación:
+ 
+ Para activar AppArmor, debe cargar la carpeta **/etc/default/grub** e introducir el parámetro **security=apparmor** en la variable **GRUB_CMDLINE_LINUX**:
+ 
+ **Sicherheit hinzufügen=apparmor**
+ 
+ Introduzca y envíe los datos con STRG+X e Y, guárdelos y haga lo siguiente para actualizar la configuración del cargador de arranque de su sistema:
+ 
+ 
+ Arranque su sistema de nuevo.
+ 
+ Si SELinux o AppArmor están activados, SIE puede configurar sus parámetros para mejorar las capacidades de los procesos y su acceso a los recursos del sistema. Esto puede ayudar a minimizar los efectos potenciales de una aplicación exitosa y a mejorar la seguridad de su sistema.
+ 
+ 
+ ### Kennwortrichtlinien konfigurieren
+ 
+ La configuración de las líneas de comandos es un paso importante para mejorar la seguridad de su sistema Linux. Si se establecen requisitos de seguridad muy estrictos, se puede garantizar que los usuarios están protegidos contra posibles amenazas. Para ello, configure las líneas de comandos de su sistema Linux:
+ 
+ #### Cómo configurar las líneas de comandos en Ubuntu
+ 
+ Para configurar las contraseñas en Ubuntu, puede utilizar el módulo **pam_pwquality**. Este módulo proporciona una serie de configuraciones de contraseña que se pueden utilizar para configurar las contraseñas. Para instalar el módulo **pam_pwquality**, abra un terminal y haga lo siguiente:
+ 
+ 
+ Si ha instalado el módulo, puede configurar sus parámetros y modificar la carpeta **/etc/pam.d/common-password**. Para configurar, por ejemplo, una contraseña mínima de 8 dígitos y, como mínimo, una pestaña grande, una pestaña pequeña, un marcador y una pestaña de respuesta, puede introducir la siguiente secuencia en la base de datos:
+ 
+ 
+ Sie können auch andere Einstellungen konfiguren, z. B. das maximale Kennwortalter, indem Sie der Datei Zeilen hinzufügen.
+ 
+ #### Configuración de contraseñas en CentOS
+ 
+ Para configurar las contraseñas en CentOS, puede utilizar la herramienta **authconfig**. Esta herramienta proporciona una serie de opciones que se pueden utilizar para configurar las arquitecturas de red. Para configurar, por ejemplo, un ancho de banda de 8 zonas y, como mínimo, una ficha de tabla grande, una ficha de tabla pequeña, un marcador y una ficha de sonido, SIE puede utilizar las siguientes opciones:
+ 
+ 
+ Se actualizarán los ficheros **/etc/pam.d/system-auth** y **/etc/pam.d/password-auth** de los sistemas, para que se apliquen las reglas de acceso descritas.
+ 
+ Por favor, compruebe y actualice periódicamente sus parámetros de acceso para asegurarse de que están protegidos contra posibles amenazas.
+ 
+ 
+ ### Überwachen Sie Ihre Systemprotokolle
+ 
+ La seguridad de sus protocolos de sistema es un aspecto importante para la seguridad de sus sistemas Linux. Los protocolos de sistema identifican actividades del sistema tales como errores de funcionamiento, fallos y otros problemas importantes, y pueden proporcionar información útil sobre posibles problemas de seguridad u otros problemas que pueden afectar a la seguridad. Por lo tanto, conozca sus protocolos de sistema:
+ 
+ #### Con la palabra journalctl
+ 
+ En la mayoría de las distribuciones modernas de Linux puede utilizar la función **journalctl** para acceder a los protocolos del sistema. Esta función ofrece una gran variedad de opciones que se pueden utilizar para filtrar y buscar cadenas de protocolos.
+ 
+ Para acceder a todas las funciones de protocolo, basta con pulsar el siguiente botón:
+ 
+ 
+ A continuación, se mostrarán todas las secuencias de programa, aunque las nuevas secuencias aparecerán completamente abiertas.
+ 
+ Para filtrar entradas de protocolo de un origen distinto, por ejemplo, un destino o un proceso, SIE puede utilizar la opción de bloqueo **-u ** más allá del nombre del origen. Por ejemplo, SIE puede seleccionar la opción **-u ** para el nombre de la entrada:
+ 
+ 
+ Para filtrar datos de protocolo en un intervalo de tiempo diferente, puede utilizar las opciones **--seit** y **--until** de una date o intervalo de tiempo. Para ver, por ejemplo, los resultados de la última hora, seleccione lo siguiente:
+ 
+ 
+ #### Verwenden eines Protokollverwaltungstools
+ 
+ En sistemas grandes o complejos puede ser muy útil utilizar una herramienta de gestión de protocolos para la recopilación y el análisis de protocolos de sistema. Las herramientas de gestión de protocolos pueden ofrecer funciones ampliadas, como la gestión de protocolos en tiempo real, la agregación de protocolos y el análisis de protocolos, y ayudarle a identificar de forma más eficaz los posibles problemas de seguridad y a tomar las medidas oportunas.
+ 
+ Los ejemplos de herramientas de gestión de protocolos para Linux son:
+ 
+ - Logwatch**: una sencilla herramienta de análisis de protocolos, que recopila información de los protocolos del sistema en un solo mensaje de correo electrónico.
+ - Logrotate**: una herramienta que actualiza y comprime automáticamente los datos de protocolos para ahorrar espacio.
+ - ELK-Stack**: Una conocida herramienta de gestión de protocolos de código abierto que combina Elasticsearch, Logstash y Kibana para ofrecer funciones de seguimiento y análisis de protocolos en tiempo real.
+ 
+ Asegúrese de que sus protocolos de sistema se comprueban y analizan de forma periódica, para detectar y corregir posibles problemas de seguridad en todo momento.
+ 
+ ______
+ 
+ ## Verbote:
+ 
+ ### Verwenden Sie schwache Passwörter
+ 
+ El uso de contraseñas no válidas es un error común que puede causar problemas en su sistema Linux. Los usuarios pueden utilizar herramientas para corregir contraseñas que se basan en palabras, nombres o datos personales. Es importante utilizar contraseñas seguras y eficaces que no sean fáciles de descifrar.
+ 
+ Puede crear contraseñas seguras si utiliza una combinación de letras mayúsculas y minúsculas, números y cifras. También es una buena práctica utilizar un [Administrador de contraseñas] (https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) para generar y especificar con seguridad contraseñas complejas. El [Administrador de contraseñas] (https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) también puede ayudarle a combinar sus contraseñas y a verificar que utiliza la misma contraseña para varios contactos.
+ 
+ ### Root-SSH-Zugriff zulassen
+ 
+ La desactivación de la conexión Root-SSH es un riesgo de seguridad que permite a los intrusos tener un control total sobre su sistema Linux. Por lo tanto, SIE debe utilizar una cuenta de usuario que no sea raíz, para poder acceder a su sistema y eliminar las restricciones con la contraseña **sudo**. Se trata, por tanto, de reducir las posibles consecuencias de un ataque, si se han eliminado las opciones de bloqueo de los botones de ayuda.
+ 
+ ### Unnötige Software installieren
+ 
+ La instalación de software inapropiado puede aumentar el ancho de banda de su sistema Linux y hacer que sea más difícil para los usuarios. Es importante que sólo instale software que sea necesario para su sistema y que evite el uso de software inadecuado. Se trata, por tanto, de reducir el número de posibles amenazas en su sistema y minimizar el riesgo de una amenaza exitosa.
+ 
+ ### Verwenden Sie veraltete Software
+ 
+ El uso de software de monitorización puede ayudar a su sistema a mejorar la seguridad de los usuarios. Es importante utilizar siempre la versión más reciente del software y actualizarla periódicamente para mejorar la seguridad. Esto ayuda a evitar errores conocidos y a proteger su sistema de posibles ataques.
+ 
+ ______
+ 
+ ## Inicio
+ 
+ En general, se puede decir que la configuración de su sistema Linux es esencial para mejorar su seguridad y proteger los datos que contiene. Si adopta las medidas y acciones descritas en este artículo, podrá tomar medidas importantes para proteger su sistema y reducir el riesgo de ciberataques. Asegúrese de que su sistema está siempre actualizado, de que utiliza un cortafuegos, de que configura las líneas de comandos y de que supera las protocolos del sistema. Evite el uso de contraseñas fraudulentas, la desactivación de actualizaciones automáticas, la desactivación del acceso Root-SSH, la instalación de software inadecuado y el uso de software obsoleto. Con estas Buenas Prácticas puedes asegurarte de que tu sistema Linux está seguro y protegido.
+ 
+ ## Verweise:
+ 
+ - [Linux Hardening Guide des Center for Internet Security](https://www.cisecurity.org/cis-hardened-images/)
+ - Manual de seguridad para Red Hat Enterprise Linux] (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index)
+ - Documentación sobre seguridad de Ubuntu] (https://ubuntu.com/security)
+ - Linux-Sicherheits-Wiki](https://en.wikibooks.org/wiki/Linux_Security)

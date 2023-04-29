@@ -1,13 +1,94 @@
 ---
-title: "Mastering Wireshark: A Comprehensive Beginner's Guide to Network Analysis"
+title: "Dominando Wireshark: Guía completa para principiantes sobre análisis de redes"
 date: 2023-04-07
 toc: true
 draft: false
-description: "Discover how to use Wireshark effectively for network analysis and troubleshooting with this detailed beginner's guide."
-tags: ["Wireshark", "network analysis", "troubleshooting", "beginner's guide", "network monitoring", "packet capture", "network protocols", "TCP/IP", "data visualization", "network security", "capture filters", "display filters", "network devices", "Ethernet", "network topology", "network diagnostics", "network administration", "network performance", "Wireshark tutorial", "data packets"]
+descripción: "Descubre cómo utilizar Wireshark de forma eficaz para el análisis de redes y la solución de problemas con esta detallada guía para principiantes."
+tags: ["Wireshark", "análisis de redes", "resolución de problemas", "guía para principiantes", "monitorización de redes", "captura de paquetes", "protocolos de red", "TCP/IP", "visualización de datos", "seguridad de redes", "filtros de captura", "filtros de visualización", "dispositivos de red", "Ethernet", "topología de redes", "diagnóstico de redes", "administración de redes", "rendimiento de redes", "tutorial de Wireshark", "paquetes de datos"].
 cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
-coverAlt: "A cartoon illustration of a detective with a magnifying glass analyzing network cables, while Wireshark logo hovers above them, symbolizing the process of network troubleshooting and analysis using Wireshark."
+coverAlt: "Ilustración de dibujos animados de un detective con una lupa analizando cables de red, mientras el logotipo de Wireshark se cierne sobre ellos, simbolizando el proceso de solución y análisis de problemas de red mediante Wireshark."
 coverCaption: ""
 ---
 
- **Guide du débutant sur l'utilisation de Wireshark pour l'analyse et le dépannage du réseau**  ## Introduction  **Wireshark** est un puissant analyseur de protocole réseau open source qui permet aux utilisateurs de surveiller, capturer et analyser le trafic réseau. Il est largement utilisé par les administrateurs réseau, les professionnels de la sécurité et les développeurs à des fins de dépannage, d'analyse de réseau et de formation. Dans cet article, nous couvrirons les bases de l'utilisation de Wireshark pour l'analyse et le dépannage du réseau, y compris son installation, son interface, ses fonctionnalités essentielles et certains cas d'utilisation courants.  ______  ## Installation et configuration  Avant de plonger dans le monde de l'analyse de réseau avec Wireshark, vous devrez le télécharger et l'installer sur votre ordinateur. Wireshark est disponible pour Windows, macOS et Linux. Pour télécharger la dernière version, visitez le [site officiel de Wireshark](https://www.wireshark.org/#download).  Après avoir téléchargé et installé Wireshark, vous devrez peut-être installer les pilotes requis et configurer votre système pour des performances optimales. La [documentation officielle de Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/) fournit des instructions détaillées pour des systèmes d'exploitation spécifiques.  ______  ## Interface Wireshark  Lorsque vous ouvrirez Wireshark pour la première fois, vous verrez une interface conviviale avec plusieurs panneaux, chacun servant un objectif spécifique.  - **Liste des interfaces de capture :** Affichez les interfaces réseau disponibles sur votre ordinateur. Pour commencer à capturer des paquets, sélectionnez simplement une interface et cliquez sur le bouton "Démarrer". - **Liste de paquets :** Affiche les paquets sélectionnés dans l'ordre chronologique. Vous pouvez appliquer des filtres pour afficher des paquets spécifiques en fonction de vos besoins. - **Détails du paquet :** Affiche des informations détaillées sur le paquet sélectionné, y compris la pile de protocoles et les champs d'en-tête individuels. - **Packet Bytes :** Affiche les données brutes (hexadécimal et ASCII) du paquet sélectionné.  ______  ## Capture et filtrage des paquets  Pour capturer des paquets, sélectionnez simplement l'interface réseau requise et cliquez sur le bouton "Démarrer". Wireshark commencera alors à surveiller le trafic réseau et affichera les paquets sélectionnés en temps réel.  Le **filtrage de paquets** est une fonctionnalité essentielle de Wireshark, car il vous permet de vous concentrer sur un trafic spécifique en fonction de divers paramètres, tels que les adresses IP, les protocoles ou les numéros de port. Vous pouvez appliquer des filtres à l'aide de la barre "Filtre" située au-dessus du panneau Liste des paquets. Par exemple, pour filtrer les paquets avec une adresse IP spécifique, vous pouvez utiliser la syntaxe suivante : `ip.addr == 192.168.1.1`. Consultez la [référence sur les filtres d'affichage Wireshark](https://www.wireshark.org/docs/man-pages/wireshark-filter.html) pour en savoir plus sur les filtres disponibles.  ______  ## Analyse du trafic réseau  Une fois que vous avez sélectionné et filtré les paquets, vous pouvez commencer à analyser le trafic réseau. Wireshark fournit de nombreux outils intégrés pour vous aider à interpréter les données :  - **Statistiques :** offre une vue complète de diverses statistiques réseau, telles que les conversations, la hiérarchie des protocoles, les terminaux, etc. Accédez à ces statistiques en naviguant dans le menu "Statistiques". - **Graphiques :** visualisez les données du réseau à l'aide de graphiques, qui peuvent vous aider à identifier des modèles, des tendances ou des anomalies. Vous pouvez créer des graphiques pour différentes métriques, telles que le débit, le temps d'aller-retour ou la mise à l'échelle de la fenêtre, en accédant au menu "Statistiques" et en effectuant "Graphiques IO" ou "Graphiques de flux TCP". - **Informations d'expert :** Fournit des informations sur les problèmes potentiels liés au trafic ciblé, tels que les retransmissions, les paquets en double ou les malformés. Vous pouvez accéder à cette fonctionnalité en cliquant sur "Analyser" dans la barre de menu et en exécuter "Informations d'expert".  ______  ## Dépannage des problèmes de réseau  Wireshark est un excellent outil pour résoudre divers problèmes de réseau, tels que la latence, la perte de paquets ou les problèmes de connectivité. Certaines techniques de dépannage courantes :  - **Analyse des retransmissions TCP :** Des retransmissions TCP excessives peuvent indiquer une congestion du réseau, une perte de paquets ou d'autres problèmes. Utilisez le filtre d'affichage `tcp.analysis.retransmission` pour isoler les paquets retransmis et analyser leurs caractéristiques. - **Identification des connexions réseau lentes :** déterminez si les connexions réseau lentes sont dues à la latence du réseau ou aux retards des applications en analysant le temps d'aller-retour (RTT) entre les paquets. Utilisez la fonctionnalité TCP Stream Graph pour visualiser les valeurs RTT et identifier les goulots d'étranglement éventuels. - **Détection des accès non autorisés :** Surveillez le trafic réseau pour détecter les activités suspectes ou les tentatives d'accès non autorisés en filtrant les paquets en fonction des adresses IP, des ports ou des protocoles.  ______  ## Suivre les réglementations gouvernementales  Certaines réglementations gouvernementales, telles que le [**Règlement général sur la protection des données (RGPD)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679 ) et le [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html), oblige les organisations à protéger les informations sensibles et à maintenir la sécurité du réseau. Wireshark peut vous aider à vous conformer à ces réglementations en surveillant le trafic réseau à la recherche d'accès non autorisés ou de fuites de données.  Gardez à l'esprit que l'utilisation de Wireshark pour capturer et analyser le trafic réseau peut également relever de considérations juridiques et éthiques. Assurez-vous toujours d'avoir l'autorisation appropriée et de respecter les politiques et les lois locales de votre organisation avant d'utiliser Wireshark pour l'analyse du réseau.  ______  ## Conclusion  Wireshark est un outil puissant et polyvalent pour l'analyse et le dépannage du réseau. En comprenant ses fonctionnalités et en apprenant à les utiliser efficacement, vous pouvez améliorer la sécurité du réseau de votre organisation, optimiser les performances du réseau et vous conformer aux réglementations gouvernementales.  ______  ## Les références  1. [Wireshark - Aller en profondeur.](https://www.wireshark.org/) 2. [Guide de l'utilisateur de Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/) 3. [Règlement général sur la protection des données (RGPD)](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) 4. [Loi sur la portabilité et la responsabilité de l'assurance maladie (HIPAA)](https://www.hhs.gov/hipaa/index.html)  N'oubliez pas de pratiquer et d'expérimenter Wireshark par vous-même pour mieux comprendre ses capacités. Plus vous l'utiliserez, plus vous deviendrez compétent dans l'identification et la résolution de problèmes de réseau.    
+
+ **Guía del principiante sobre el uso de Wireshark para el análisis y la descarga de la red**
+ 
+ ## Introducción
+ 
+ **Wireshark** es un potente analizador de red de código abierto que permite a los usuarios vigilar, capturar y analizar el tráfico de red. Es ampliamente utilizado por administradores de redes, profesionales de la seguridad y desarrolladores con fines de desarrollo, análisis de redes y formación. En este artículo, cubriremos las bases del uso de Wireshark para el análisis y la distribución de redes, incluyendo su instalación, su interfaz, sus funcionalidades esenciales y algunos casos de uso comunes.
+ 
+ ______
+ 
+ ## Instalación y configuración
+ 
+ Antes de sumergirte en el mundo del análisis de redes con Wireshark, debes descargarlo e instalarlo en tu ordenador. Wireshark está disponible para Windows, macOS y Linux. Para descargar la última versión, visite el [sitio web oficial de Wireshark](https://www.wireshark.org/#download).
+ 
+ Después de descargar e instalar Wireshark, puedes instalar los pilotos necesarios y configurar tu sistema para obtener un rendimiento óptimo. La [documentación oficial de Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/) ofrece instrucciones detalladas para sistemas de explotación específicos.
+ 
+ ______
+ 
+ ## Interfaz Wireshark
+ 
+ Cuando abres Wireshark por primera vez, ves una interfaz convivial con varios paneles, cada uno sirviendo a un objetivo específico.
+ 
+ - Lista de interfaces de captura:** Consulta las interfaces de red disponibles en tu ordenador. Para empezar a capturar paquetes, selecciona simplemente una interfaz y haz clic en el botón "Capturar".
+ - Lista de Paquetes: Muestra los paquetes seleccionados en orden cronológico. Puedes aplicar filtros para seleccionar los paquetes que necesites.
+ - Detalles del Paquete: muestra información detallada sobre el paquete seleccionado, incluyendo la pila de protocolos y los campos de entrada individuales.
+ - Bytes del paquete: muestra los datos brutos (hexadecimales y ASCII) del paquete seleccionado.
+ 
+ ______
+ 
+ ## Captura y filtrado de paquetes
+ 
+ Para capturar paquetes, selecciona simplemente la interfaz de red deseada y haz clic en el botón "Registrar". Wireshark empezará a monitorizar el tráfico de red y mostrará los paquetes seleccionados en tiempo real.
+ 
+ El **filtrado de paquetes** es una funcionalidad esencial de Wireshark, ya que te permite concentrarte en un tráfico específico en función de varios parámetros, como las direcciones IP, los protocolos o los números de puerto. Puedes aplicar filtros con la barra "Filtro" situada en la parte inferior de la lista de paquetes. Por ejemplo, para filtrar los paquetes con una dirección IP específica, puede utilizar la siguiente sintaxis: `ip.addr == 192.168.1.1`. Consulta la [referencia sobre filtros de imagen Wireshark](https://www.wireshark.org/docs/man-pages/wireshark-filter.html) para saber más sobre los filtros disponibles.
+ 
+ ______
+ 
+ ## Análisis del tráfico de red
+ 
+ Una vez que hayas seleccionado y filtrado los paquetes, puedes empezar a analizar el tráfico de red. Wireshark proporciona varias herramientas integradas para ayudarte a interpretar los datos:
+ 
+ - Estadísticas: ofrece una visión completa de diversas estadísticas de red, como conversaciones, jerarquía de protocolos, terminales, etc. Acceda a estas estadísticas navegando por el menú "Estadísticas".
+ - Gráficos:** visualiza los datos de la red con ayuda de gráficos, que pueden ayudarte a identificar modelos, tendencias o anomalías. Puedes crear gráficos para diferentes métricas, como el débito, el tiempo de retorno o el nivel de la ventana, accediendo al menú "Estadísticas" y ejecutando "Gráficos IO" o "Gráficos de flujo TCP".
+ - **Información de expertos:** Proporciona información sobre los problemas potenciales relacionados con el tráfico cifrado, tales como las retransmisiones, los paquetes dobles o los malformados. Puedes acceder a esta función haciendo clic en "Analizar" en la barra de menú y seleccionando "Información de experto".
+ 
+ ______
+ 
+ ## Solución de problemas de red
+ 
+ Wireshark es una excelente herramienta para resolver diversos problemas de red, como la latencia, la pérdida de paquetes o los problemas de conectividad. Algunas técnicas de transmisión de datos:
+ 
+ - Análisis de retransmisiones TCP: Las retransmisiones TCP excesivas pueden indicar congestión en la red, pérdida de paquetes u otros problemas. Utiliza el filtro `tcp.analysis.retransmission` para aislar los paquetes retransmitidos y analizar sus características.
+ - Identificación de Conexiones de Red Lentas: Determine si las conexiones de red lentas se deben a la latencia de la red o a los retrasos de las aplicaciones analizando el tiempo de retorno (RTT) entre los paquetes. Utilice la función Gráfico de Flujo TCP para visualizar los valores RTT e identificar los fallos de conexión que se produzcan.
+ - Supervisa el tráfico de red para detectar actividades sospechosas o intentos de acceso no autorizados filtrando los paquetes en función de direcciones IP, puertos o protocolos.
+ 
+ ______
+ 
+ ## Cumplir la normativa gubernamental
+ 
+ Ciertas regulaciones gubernamentales, tales como el [**Reglamento General sobre la Protección de Datos (RGPD)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679 ) y el [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html), obligan a las organizaciones a proteger la información sensible y a mantener la seguridad de la red. Wireshark puede ayudarle a cumplir con estas normas vigilando el tráfico de red para buscar accesos no autorizados o fugas de datos.
+ 
+ Ten en cuenta que el uso de Wireshark para capturar y analizar el tráfico de red también puede dar lugar a consideraciones jurídicas y éticas. Asegúrese siempre de tener la autorización apropiada y de respetar las políticas y leyes locales de su organización antes de utilizar Wireshark para analizar la red.
+ 
+ ______
+ 
+ ## Conclusión
+ 
+ Wireshark es una herramienta potente y polivalente para el análisis y la detección de redes. Conociendo sus funciones y aprendiendo a utilizarlas eficazmente, podrá mejorar la seguridad de la red de su organización, optimizar el rendimiento de la red y cumplir las normativas gubernamentales.
+ 
+ ______
+ 
+ ## Referencias
+ 
+ 1. [Wireshark - Aller en profondeur.](https://www.wireshark.org/)
+ 2. 2. [Guía del usuario de Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/)
+ 3. 3. [Reglamento General de Protección de Datos (RGPD)](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679)
+ 4. 4. [Ley de portabilidad y responsabilidad del seguro médico (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+ 
+ No dejes de practicar y experimentar Wireshark por ti mismo para comprender mejor sus capacidades. Cuanto más lo utilice, más competente será en la identificación y resolución de problemas de red.
+ 
+ 
+ 
+ 

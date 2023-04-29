@@ -1,13 +1,42 @@
 ---
-title: "NIST Approved Methods for Sanitizing Removable Media Devices"
+title: "Métodos aprobados por el NIST para la higienización de dispositivos multimedia extraíbles"
 date: 2023-02-11
 toc: true
 draft: false
-description: "Learn about the NIST approved ways to sanitize hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks to protect sensitive data from unauthorized access."
-tags: ["NIST approved methods", "Sanitizing removable media", "Hard drives", "SSDs", "USB flash drives", "CDs", "DVDs", "Blu-ray disks", "Data security", "Protection of sensitive data"]
+descripción: "Conozca los métodos aprobados por el NIST para desinfectar discos duros, unidades SSD, unidades flash USB, CD, DVD y discos Blu-ray para proteger los datos confidenciales de accesos no autorizados."
+tags: ["Métodos aprobados por el NIST", "Desinfección de soportes extraíbles", "Discos duros", "Unidades SSD", "Unidades flash USB", "CD", "DVD", "Discos Blu-ray", "Seguridad de datos", "Protección de datos confidenciales"]
 cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
-coverAlt: "An image of a person holding a USB flash drive with a shredder in the background"
+coverAlt: "Imagen de una persona sujetando una memoria USB con una trituradora de fondo"
 coverCaption: ""
 ---
 
- Los medios extraíbles, como discos duros, unidades de estado sólido (SSD), unidades flash USB, CD, DVD y discos Blu-ray, son una parte integral del mundo digital actual. Estos dispositivos se utilizan ampliamente para almacenar y transferir datos confidenciales, y es crucial garantizar que la información contenida en ellos no se filtre ni acceda a personas no autorizadas. En este artículo, analizaremos las formas aprobadas por el NIST de desinfectar todo tipo de medios extraíbles.  ## ¿Por qué desinfectar los medios extraíbles?  **La eliminación de los medios extraíbles es esencial porque los datos almacenados en estos dispositivos se pueden recuperar fácilmente, si los datos incluso se han eliminado.** Esto se debe a que cuando se eliminan los datos, solo se elimina la referencia a los datos, pero los datos reales permanecen en el disco hasta que se sobrescribe. Esto hace posible que los actores maliciosos recuperen datos confidenciales utilizando un software de recuperación de datos.  ## NIST 800-88 Revisión 1 Tipos de destrucción  El Instituto Nacional de Estándares y Tecnología (NIST, por sus siglas en inglés) ha publicado una guía para desinfectar medios extraíbles, conocida como NIST Special Publication 800-88 Revision 1. La guía describe varios métodos para desinfectar medios extraíbles, incluida la destrucción física , la limpieza y la purga.  ### Destruccion fisica  **La destrucción física es el método más seguro para desinfectar los medios extraíbles.** Este método consiste en destruir físicamente el dispositivo, lo que hace imposible que alguien recupere datos de él. La destrucción física se puede lograr triturando, derritiendo o pulverizando el dispositivo.  ### Limpieza  Borrar es el proceso de sobrescribir los datos en un dispositivo con una serie de valores binarios. Este método es menos seguro que la destrucción física, pero sigue siendo eficaz para desinfectar la mayoría de los medios extraíbles. NIST 800-88 Revisión 1 recomienda usar una herramienta de software que cumpla con los estándares establecidos por las mejores 5220.22-M del Departamento de Defensa (DoD).  ### Purgas  La purga es el proceso de sobrescribir los datos en un dispositivo varias veces con un patrón de valores binarios. Este método es más seguro que la limpieza y se recomienda para desinfectar datos confidenciales. NIST 800-88 Revisión 1 recomienda usar una herramienta de software que cumpla con los estándares establecidos por la mejor DoD 5220.22-M.  ___________________________________________  ## Conclusión  En conclusión, **desinfectar los medios extraíbles es crucial para garantizar que los datos confidenciales almacenados en estos dispositivos no se filtren ni accedan a ellos personas no autorizadas.** NIST 800-88 Revisión 1 proporciona pautas para desinfectar todo tipo de medios extraíbles, incluidos los discos duros, SSD, unidades flash USB, CD, DVD y discos Blu-ray, incluida la destrucción física, la limpieza y la purga. **La destrucción física es el método más seguro para desinfectar los medios extraíbles, pero la limpieza y la purga también son métodos efectivos que brindan un alto nivel de seguridad.**  **Es importante tener en cuenta que desinfectar los medios extraíbles es solo un aspecto de una estrategia integral de seguridad de datos.** También se deben implementar otras medidas, como el cifrado y el almacenamiento seguro de datos, para garantizar la protección de los datos confidenciales. 
+Los soportes extraíbles, como discos duros, unidades de estado sólido (SSD), memorias USB, CD, DVD y discos Blu-ray, son parte integrante del mundo digital actual. Estos dispositivos se utilizan ampliamente para almacenar y transferir datos confidenciales, y es crucial garantizar que la información contenida en ellos no se filtre o que personas no autorizadas accedan a ella. En este artículo, hablaremos de los métodos aprobados por el NIST para desinfectar todo tipo de soportes extraíbles.
+
+## ¿Por qué desinfectar los soportes extraíbles?
+
+**Desinfectar los medios extraíbles es esencial porque los datos almacenados en estos dispositivos pueden recuperarse fácilmente, incluso si se han borrado.** Esto se debe a que cuando se borran los datos, sólo se elimina la referencia a los datos, pero los datos reales permanecen en el disco hasta que se sobrescriben. Esto hace posible que los actores maliciosos recuperen datos sensibles utilizando software de recuperación de datos.
+
+## NIST 800-88 Revisión 1 Tipos de destrucción
+
+El Instituto Nacional de Estándares y Tecnología (NIST) ha publicado una directriz para la desinfección de soportes extraíbles, conocida como Publicación Especial 800-88 Revisión 1 del NIST. La directriz describe varios métodos para desinfectar soportes extraíbles, incluida la destrucción física, la limpieza y la purga.
+
+### Destrucción física
+
+**La destrucción física es el método más seguro de desinfección de soportes extraíbles.** Este método consiste en destruir físicamente el dispositivo, haciendo imposible que nadie pueda recuperar los datos que contiene. La destrucción física puede lograrse triturando, fundiendo o pulverizando el dispositivo.
+
+### Borrado
+
+El borrado es el proceso de sobrescribir los datos de un dispositivo con una serie de valores binarios. Este método es menos seguro que la destrucción física, pero sigue siendo eficaz para desinfectar la mayoría de los soportes extraíbles. NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por la especificación 5220.22-M del Departamento de Defensa (DoD).
+
+### Purga
+
+El purgado es el proceso de sobrescribir los datos de un dispositivo varias veces con un patrón de valores binarios. Este método es más seguro que el borrado y se recomienda para desinfectar datos sensibles. NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por la especificación DoD 5220.22-M.
+
+__________________________________________
+
+## Conclusión
+
+En conclusión, **desinfectar los medios extraíbles es crucial para garantizar que los datos confidenciales almacenados en estos dispositivos no se filtren o que personas no autorizadas accedan a ellos.** NIST 800-88 Revisión 1 proporciona directrices para desinfectar todos los tipos de medios extraíbles, incluidos discos duros, unidades SSD, unidades flash USB, CD, DVD y discos Blu-ray, incluyendo la destrucción física, la limpieza y la purga. **La destrucción física es el método más seguro de desinfección de soportes extraíbles, pero la limpieza y la purga también son métodos eficaces que proporcionan un alto nivel de seguridad.
+
+**Es importante tener en cuenta que la desinfección de los soportes extraíbles es sólo un aspecto de una estrategia global de seguridad de los datos.** También deben aplicarse otras medidas, como el cifrado y el almacenamiento seguro de los datos, para garantizar la protección de los datos confidenciales.
+

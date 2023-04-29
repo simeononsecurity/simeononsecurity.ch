@@ -1,13 +1,72 @@
 ---
-title: "Unleashing the Power of Docker: Why it Dominates VMs in Modern Cloud Computing"
+title: "Desatando el poder de Docker: Por qué domina las máquinas virtuales en la computación en nube moderna"
 date: 2023-02-02
 toc: true
 draft: false
-description: "Discover the power of Docker in cloud computing, as it outpaces VMs with its simplicity, scalability, security, and cost-effectiveness, in this article."
-tags: ["Docker", "Virtual Machines", "VMs", "Cloud Computing", "Containers", "Simplicity", "Scalability", "Security", "Cost-effectiveness", "Dockerfile", "Building, testing and deploying", "Isolation", "Security track record", "Cost comparison", "Informative article"]
+description: "Descubre el poder de Docker en la computación en la nube, ya que supera a las VM con su simplicidad, escalabilidad, seguridad y rentabilidad, en este artículo."
+tags: ["Docker", "Máquinas virtuales", "VMs", "Cloud Computing", "Contenedores", "Simplicidad", "Escalabilidad", "Seguridad", "Rentabilidad", "Dockerfile", "Construir, probar y desplegar", "Aislamiento", "Historial de seguridad", "Comparación de costes", "Artículo informativo"].
 cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
-coverAlt: "An image of a cargo ship, shaped like a blue whale, carrying multiple Docker containers"
+coverAlt: "Una imagen de un buque de carga, con forma de ballena azul, que transporta múltiples contenedores Docker"
 coverCaption: ""
 ---
 
- ## Introduction ### A. Définition de Docker **Docker** est une plate-forme qui vous permet de créer, exécuter et exécuter automatiquement des applications dans des conteneurs. Les conteneurs sont légers, à démarrage rapide et hautement portables, ce qui facilite l'exécution d'applications dans n'importe quel environnement.  ### B. Définition des machines virtuelles (VM) Les **machines virtuelles**, également appelées VM, sont des logiciels qui émulent un ordinateur physique. Ils vous permettent d'exécuter plusieurs systèmes d'exploitation sur une seule machine physique, ce qui facilite le test et le déploiement d'applications.  ### C. Pourquoi Docker dépasse les VM **Docker** offre une solution plus simple, évolutive, sécurisée et louable pour le cloud computing moderne, c'est pourquoi il devance les machines virtuelles traditionnelles en tant que solution préférée.  ______  ## II. Simplicité de Docker : ### A. Dockerfile Avec **Docker**, vous pouvez définir votre application et ses dépendances dans un seul fichier, appelé **Dockerfile**. Cela facilite la création, le test et le déploiement soit de votre application, quel que l'endroit où elle s'exécute.  ### B. Créer, tester et réussir avec Docker La simplicité de **Docker** facilite la création, le test et le déploiement de votre application, ce qui vous fait gagner du temps et réduire le risque d'erreurs.  ### C. Installation et configuration avec des VM Avec les **VM**, vous devez vous soucier de l'installation et de la configuration du système d'exploitation et d'autres dépendances, ce qui peut prendre du temps et être source d'erreurs.  ______  ## III. Évolutivité de Docker : ### A. Déplacement de conteneurs entre machines Les conteneurs **Docker** peuvent être déplacés facilement entre différentes machines, ce qui facilite leur mise à l'échelle selon les besoins.  ### B. Mise à l'échelle vers le haut ou vers le bas avec Docker La mise à l'échelle avec **Docker** est simple et rapide, ce qui en fait le choix idéal pour le cloud computing moderne.  ### C. Mise à l'échelle avec des VM Avec les **VM**, la mise à l'échelle peut être un processus compliqué et chronophage, car vous devez créer de nouvelles VM et déplacer des données entre elles.  ______  ## IV. Sécurité de Docker : ### A. Isolement des conteneurs Les conteneurs **Docker** sont isolés les uns des autres et de la machine hôte, ce qui complique l'accès des pirates aux données sensibles.  ### B. Forte expérience en matière de sécurité **Docker** a des antécédents en matière de sécurité, les vulnérabilités de sécurité étant rapidement corrigées et mises à jour.  ### C. Vulnérabilités de sécurité dans les machines virtuelles Les **VM** sont plus vulnérables aux menaces de sécurité, ce qui les rend moins sécurisées que **Docker**.  ______  ## V. Rentabilité de Docker : ### A. Réduction de l'espace disque et des besoins en mémoire Les conteneurs **Docker** occupent beaucoup moins d'espace disque et de mémoire que les **VM**, ce qui peut vous faire économiser de l'argent sur les coûts de stockage et de matériel.  ### B. Réduction des coûts de maintenance et de gestion **Docker** a des coûts de maintenance et de gestion inférieurs à ceux des **VM**.   ## VI. Conclusion  En conclusion, **Docker** devient rapidement le choix préféré pour le cloud computing moderne par rapport aux **VM** traditionnelles. Sa simplicité, son évolutivité, sa sécurité et sa rentabilité en font la solution idéale pour créer, tester et réussir des applications dans n'importe quel environnement. Alors que l'utilisation des conteneurs devient de plus en plus populaire, il est important de comprendre les avantages de l'utilisation de **Docker** et les limites des **VM** traditionnelles. Que vous soyez développeur ou professionnel de l'informatique, **Docker** peut vous aider à libérer la puissance du cloud computing moderne et à faire passer vos applications au niveau supérieur.
+
+ ## Introducción
+ ### A. Definición de Docker
+ **Docker** es una plataforma que te permite crear, ejecutar y ejecutar automáticamente aplicaciones en contenedores. Los contenedores son grandes, de rápido despliegue y muy portátiles, lo que facilita la ejecución de aplicaciones en cualquier entorno.
+ 
+ ### B. Definición de máquinas virtuales (VM)
+ Las **máquinas virtuales**, también llamadas VM, son lógicas que emulan un ordenador físico. Permiten ejecutar varios sistemas de explotación en una única máquina física, lo que facilita las pruebas y el despliegue de aplicaciones.
+ 
+ ### C. Por qué Docker supera a las VM
+ **Docker** ofrece una solución más simple, evolutiva, segura y fácil de usar para la computación en nube moderna, por lo que deja atrás a las máquinas virtuales tradicionales como solución preferida.
+ 
+ ______
+ 
+ ## II. Simplicidad de Docker :
+ ### A. Dockerfile
+ Con **Docker**, puedes definir tu aplicación y sus dependencias en un único archivo, llamado **Dockerfile**. Esto facilita la creación, prueba y despliegue de tu aplicación en cualquier lugar.
+ 
+ ### B. Crear, probar y operar con Docker
+ La simplicidad de **Docker** facilita la creación, prueba y despliegue de tu aplicación, lo que te permitirá ahorrar tiempo y reducir el riesgo de errores.
+ 
+ ### C. Instalación y configuración con VM
+ Con las **VM**, deberá encargarse de la instalación y la configuración del sistema de explotación y de otros dépendances, lo que puede llevarle mucho tiempo y ser fuente de errores.
+ 
+ ______
+ 
+ ## III. Evolución de Docker :
+ ### A. Desplazamiento de contenedores entre máquinas
+ Los contenedores **Docker** se pueden desplegar fácilmente entre diferentes máquinas, lo que facilita su puesta a punto en función de las necesidades.
+ 
+ ### B. Escalado alto o bajo con Docker
+ La escalabilidad con **Docker** es sencilla y rápida, lo que la convierte en la elección ideal para la computación en nube moderna.
+ 
+ ### C. Escalabilidad con VM
+ Con **VM**, la escalabilidad puede ser un proceso complicado y lento, ya que tienes que crear nuevas máquinas virtuales y desplazar los datos entre ellas.
+ 
+ ______
+ 
+ ## IV. Seguridad de Docker :
+ ### A. Isolement des conteneurs
+ Los contenedores **Docker** están aislados de los demás y de la máquina anfitriona, lo que impide el acceso de piratas a datos sensibles.
+ 
+ ### B. Forte expérience en matière de sécurité
+ **Docker** cuenta con antecedentes en materia de seguridad, y las vulnerabilidades de seguridad se corrigen y actualizan rápidamente.
+ 
+ ### C. Vulnerabilidades de seguridad en máquinas virtuales
+ Las **VM** son más vulnerables a amenazas de seguridad, lo que las hace menos seguras que **Docker**.
+ 
+ ______
+ 
+ ## V. Rentabilidad de Docker :
+ ### A. Réduction de l'espace disque et des besoins en mémoire
+ Los contenedores **Docker** ocupan mucho menos espacio en disco y memoria que los **VM**, lo que te permitirá ahorrar dinero en costes de almacenamiento y material.
+ 
+ ### B. Reducción de costes de mantenimiento y gestión
+ **Docker** tiene unos costes de mantenimiento y gestión inferiores a los de **VM**.
+ 
+ 
+ ## VI. Conclusión
+ 
+ En conclusión, **Docker** se está convirtiendo rápidamente en la elección preferida para la computación en nube moderna en comparación con las **VM** tradicionales. Su simplicidad, versatilidad, seguridad y rentabilidad la convierten en la solución ideal para crear, probar y ejecutar aplicaciones en cualquier entorno. Ahora que el uso de contadores es cada vez más popular, es importante comprender las ventajas del uso de **Docker** y las limitaciones de las **VM** tradicionales. Tanto si eres desarrollador como profesional de la informática, **Docker** puede ayudarte a liberar la potencia del cloud computing moderno y a llevar tus aplicaciones a un nivel superior.

@@ -1,13 +1,110 @@
 ---
-title: "A Comprehensive Beginner's Guide to Penetration Testing Tools & Techniques"
+title: "Guía completa para principiantes sobre herramientas y técnicas de pruebas de penetración"
 date: 2023-03-31
 toc: true
 draft: false
-description: "Learn the essentials of penetration testing tools and techniques, methodologies, and certifications to kickstart your career in cybersecurity."
-tags: ["penetration testing", "cybersecurity", "ethical hacking", "tools", "techniques", "beginner's guide", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "security testing", "vulnerability assessment", "network security", "information security"]
+description: "Aprende lo esencial sobre herramientas y técnicas de pruebas de penetración, metodologías y certificaciones para dar el pistoletazo de salida a tu carrera en ciberseguridad."
+tags: ["pruebas de penetración", "ciberseguridad", "hacking ético", "herramientas", "técnicas", "guía para principiantes", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "pruebas de seguridad", "evaluación de vulnerabilidades", "seguridad de redes", "seguridad de la información"].
 cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
-coverAlt: "A cartoon hacker wearing a balaclava and holding a magnifying glass, examining a computer screen displaying various hacking testing tools like Nmap, Metasploit, Wireshark, and Burp Suite, with digital locks symbolizing secured systems in the background."
+coverAlt: "Un hacker de dibujos animados que lleva un pasamontañas y sostiene una lupa, examinando una pantalla de ordenador que muestra varias herramientas de pruebas de hacking como Nmap, Metasploit, Wireshark y Burp Suite, con cerraduras digitales que simbolizan sistemas seguros en el fondo."
 coverCaption: ""
 ---
 
- **Ein Leitfaden für Anfänger zu Penetrationstest-Tools und -Techniken**  **Penetrationstests**, auch bekannt als **Penetrationstests** oder **Ethisches Hacken**, ist eine relevante Praxis für Unternehmen, um ihre Sicherheitslage zu bewerten. Dieser umfassende Leitfaden führt Sie in die Grundlagen von Penetrationstests, Tools und Techniken ein und hilft Ihnen beim Einstieg in die aufregende Welt der Cybersicherheit.  ______  ## Einführung in Penetrationstests  **Penetrationstests** sind ein systematischer Prozess, bei dem das Netzwerk, die Systeme und Anwendungen eines Unternehmens untersucht werden, um Schwachstellen zu identifizieren und auszunutzen. Es WIRD von **ethischen Hackern** durchgeführt, sterben die gleichen Techniken und Tools wie böswillige Angreifer verwenden, jedoch mit Erlaubnis der Organisation.  Das Hauptziel von Penetrationstests besteht darin, **Schwachstellen zu identifizieren** und **Risiken zu mindern**, bevor sie von böswilligen Hackern ausgenutzt werden können.  ______  ## Penetrationstestmethoden  Es stehen verschiedene **Penetrationstestmethoden** zur Auswahl, jede mit ihrem eindeutigen Ansatz zur Identifizierung und Ausnutzung von Schwachstellen. Zu den erfassten Methoden gehören:  1. **OWASP Top Ten Project**: Diese Methodik konzentriert sich auf die [OWASP Top Ten](https://owasp.org/www-project-top-ten/)-Liste der kritischsten Sicherheitsrisiken für Webanwendungen.  2. **PTES (Penetration Testing Execution Standard)**: Der [PTES](http://www.pentest-standard.org/index.php/Main_Page) stellt einen Standard für die Durchführung von Penetrationstests bereit und deckt alles ab , von Engagement für die Berichterstattung.  ______  ## Penetrationstest-Tools  Penetrationstestern steht eine breite Palette von Tools zur Verfügung, um ihre Aufgaben effektiv zu erfüllen. Zu den erworbenen Open-Source- und kommerziellen Tools gehören:  1. **Nmap**: Ein leistungsstarker Netzwerkscanner zum Auffinden von Hosts und Diensten in einem Computernetzwerk. [Nmap herunterladen](https://nmap.org/download.html).  2. **Metasploit**: Ein umfassendes Framework für Penetrationstests mit zahlreichen Exploits und Payloads. [Metasploit herunterladen](https://www.metasploit.com/download).  3. **Wireshark**: Ein Netzwerkprotokollanalysator, mit dem Sie den Netzwerkverkehr in Echtzeit untersuchen können. [Wireshark herunterladen](https://www.wireshark.org/download.html).  4. **Burp Suite**: Ein beliebtes Tool zum Testen der Sicherheit von Webanwendungen. [Burp-Suite herunterladen](https://portswigger.net/burp/communitydownload).  ______  ## Penetrationstesttechniken  Penetrationstester verwenden eine Vielzahl von Techniken, um Schwachstellen zu identifizieren und auszunutzen. Einige gängige Techniken sind:  1. **Aufklärung**: Sammeln von Informationen über das Zielsystem, z. B. offene Ports, laufende Dienste und potenzielle Schwachstellen.  2. **Scannen**: Verwendung automatisierter Tools zur Erkennung von Schwachstellen im Zielsystem.  3. **Ausnutzung**: Versuch, identifizierte Schwachstellen auszunutzen, um unbefugten Zugriff auf das Zielsystem zu erlangen.  4. **Post-Exploitation**: Weiteres Untersuchen des kompromittierten Systems, Aufrechterhalten des Zugriffs und Sammeln sensibler Daten.  5. **Berichterstattung**: Dokumentation der Ergebnisse und Bereitstellen von Empfehlungen zur Minderung identifizierter Schwachstellen.  ______  ## Rechtliche und ethische Einhaltung  **Ethisches Hacken** erfordert die Einhaltung gesetzlicher und ethischer Richtlinien. In den Vereinigten Staaten regelt der [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) Straftaten im Zusammenhang mit Computern. Holen Sie immer eine schriftliche Genehmigung der Zielorganisation ein, bevor Sie einen Penetrationstest durchführen.  Es ist auch wichtig, die Berufsethik zu befolgen, wie z. B. keinen Schaden an den Zielsystemen zu verursachen und die Vertraulichkeit der Daten der Organisation zu respektieren.  ______  ## Penetrationstest-Zertifizierungen  Der Erwerb einer professionellen Zertifizierung kann dabei helfen, Ihre Expertise im Bereich Penetrationstests zu demonstrieren. Einige bekannte Zertifizierungen sind:  1. **CEH (Certified Ethical Hacker)**: Angebote von [EC-Council](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/), diese Zertifizierung validiert Ihre ethischen Kenntnisse Hacking - und Penetrationstesttechniken.  2. **OSCP (Offensive Security Certified Professional)**: Diese praktische Zertifizierung wird von [Offensive Security](https://www.offensive-security.com/pwk-oscp/) angeboten und testet Ihre Fähigkeit zur Penetrationstests in realen Szenarien.  3. **GPEN (GIAC Penetration Tester)**: Diese Zertifizierung wird von [GIAC](https://www.giac.org/certification/penetration-tester-gpen) angeboten und konzentriert sich auf die technischen Fähigkeiten, die für sterben Durchführung von Penetrationstests erforderlich sind .  Weitere Informationen zu Penetrationstest-Zertifizierungen finden Sie in unserem Artikel [Top 5 Cybersecurity-Zertifizierungen für den beruflichen Aufstieg](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s ).  ______  ## Abschluss  Penetrationstests sind ein kritischer Aspekt bei der Erstellung der Sicherheitslage eines Unternehmens. Dieser Leitfaden für Anfänger bietet einen Überblick über Penetrationstest-Tools, -Techniken, -Methoden und -Zertifizierungen, um Ihnen den Einstieg in das Feld zu erleichtern. Erweitern Sie im weiteren Verlauf Ihr Wissen und bleiben Sie über die neuesten Trends und Best Practices in der Cybersicherheit auf dem Laufenden.  ______  ## Verweise  1. [OWASP-Top-Ten-Projekt](https://owasp.org/www-project-top-ten/) 2. [PTES (Penetration Testing Execution Standard)] (http://www.pentest-standard.org/index.php/Main_Page) 3. [Nmap](https://nmap.org/download.html) 4. [Metasploit](https://www.metasploit.com/download) 5. [Wireshark](https://www.wireshark.org/download.html) 6. [Burp-Suite] (https://portswigger.net/burp/communitydownload) 7. [Gesetz über Computerbetrug und -missbrauch (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) 8. [Zertifizierter ethischer Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) 9. [Offensive Security Certified Professional (OSCP)] (https://www.offensive-security.com/pwk-oscp/) 10. [GIAC Penetrationstester (GPEN)](https://www.giac.org/certification/penetration-tester-gpen) 11. [Top 5 Cybersecurity-Zertifizierungen für den beruflichen Aufstieg](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s). 12. [Empfohlene Zertifizierungen](https://simeononsecurity.ch/recommendations/certifications/) 
+
+ **Guía para principiantes sobre herramientas y técnicas de pruebas de penetración**.
+ 
+ Los **Penetrationstests**, también conocidos como **Penetrationstests** o **Ethisches Hacken**, son una práctica relevante para las empresas a la hora de mejorar su seguridad. Esta completa guía le ayudará a comprender los fundamentos de las pruebas de penetración, las herramientas y las técnicas, así como a introducirse en el cambiante mundo de la ciberseguridad.
+ 
+ ______
+ 
+ ## Introducción a las pruebas de penetración
+ 
+ **Las pruebas de penetración (Penetrationstests) son un proceso sistemático que consiste en analizar la red, los sistemas y las aplicaciones de una empresa para identificar y resolver problemas. Se trata de **hackers éticos** que utilizan las mismas técnicas y herramientas que los usuarios habituales, pero con el consentimiento de la organización.
+ 
+ El objetivo de las pruebas de penetración consiste en **identificar las amenazas** y **conocer los riesgos**, antes de que puedan ser detectados por piratas informáticos no autorizados.
+ 
+ ______
+ 
+ ## Métodos de pruebas de penetración
+ 
+ Existen varios **métodos de análisis de penetración** a su disposición, cada uno con su propio enfoque para la identificación y el análisis de redes. Entre los métodos más utilizados se encuentran:
+ 
+ 1. 2. **Proyecto Top Ten de OWASP**: Este método se basa en la lista [OWASP Top Ten](https://owasp.org/www-project-top-ten/)-Liste der kritischsten Sicherheitsrisiken für Webanwendungen.
+ 
+ 2. **PTES (Estándar de Ejecución de Pruebas de Penetración)**: El [PTES](http://www.pentest-standard.org/index.php/Main_Page) establece un estándar para la realización de pruebas de penetración y lo cubre todo, desde el compromiso hasta el informe.
+ 
+ ______
+ 
+ ## Herramientas para pruebas de penetración
+ 
+ Penetrationstest pone a su disposición una amplia gama de herramientas para llevar a cabo sus tareas de forma eficaz. Entre ellas se encuentran las herramientas de código abierto y de uso comercial:
+ 
+ 1. **Nmap**: Un escáner de red de gran rendimiento para la detección de hosts y dispositivos en una red informática. [Nmap herunterladen](https://nmap.org/download.html).
+ 
+ 2. **Metasploit**: Un amplio Framework para Pruebas de Penetración con varios Exploits y Payloads. [Metasploit herunterladen](https://www.metasploit.com/download).
+ 
+ 3. **Wireshark**: Un analizador de protocolos de red, con el que podrá analizar el funcionamiento de la red en tiempo real. [Wireshark herunterladen](https://www.wireshark.org/download.html).
+ 
+ 4. **Burp Suite**: Una excelente herramienta para comprobar la seguridad de las aplicaciones web. [Burp-Suite herunterladen](https://portswigger.net/burp/communitydownload).
+ 
+ ______
+ 
+ ## Técnicas de pruebas de penetración
+ 
+ Los detectores de intrusiones utilizan una gran variedad de técnicas para identificar y controlar las intrusiones. Algunas de las técnicas más comunes son:
+ 
+ 1. **2. Análisis de datos**: Recopilación de información sobre el sistema, por ejemplo, puertos libres, servicios actuales y posibles conexiones.
+ 
+ 2. **Escaneo**: Utilización de herramientas automatizadas para la detección de fallos en el sistema de red.
+ 
+ 3. **Ausnutzung**: Intento de eliminar las conexiones identificadas para evitar el acceso no autorizado al sistema de seguridad.
+ 
+ 4. **Post-Explotación**: Otros análisis de los sistemas comprometidos, comprobación del ataque y recopilación de datos confidenciales.
+ 
+ 5. **5. Documentación**: Dokumentation der Ergebnisse und Bereitstellen von Empfehlungen zur Minderung identifizierter Schwachstellen.
+ 
+ ______
+ 
+ ## Rechtliche und ethische Einhaltung
+ 
+ El **Ethisches Hacken** requiere el cumplimiento de normas legales y éticas. En los Estados Unidos, la [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) regula los delitos informáticos. Realice siempre un análisis detallado de la organización a la que pertenece antes de llevar a cabo una prueba de intrusión.
+ 
+ También es importante garantizar la seguridad de los empleados, por ejemplo, para que no se produzcan interrupciones en los sistemas de seguridad y se respete la seguridad de los datos de la organización.
+ 
+ ______
+ 
+ ## Certificaciones de pruebas de penetración
+ 
+ La obtención de un certificado profesional puede ayudarle a demostrar su experiencia en pruebas de penetración. Algunos de los certificados más conocidos son:
+ 
+ 1. **CEH (Hacker Ético Certificado)**: Angebote von [EC-Council](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/), diese Zertifizierung validiert Ihre ethischen Kenntnisse Hacking - und Penetrationstesttechniken.
+ 
+ 2. **OSCP (Profesional Certificado en Seguridad Ofensiva)**: Esta certificación práctica ha sido creada por [Offensive Security](https://www.offensive-security.com/pwk-oscp/) y evalúa su capacidad para realizar pruebas de penetración en entornos reales.
+ 
+ 3. **GPEN (GIAC Penetration Tester)**: Esta certificación ha sido desarrollada por [GIAC](https://www.giac.org/certification/penetration-tester-gpen) y se centra en las capacidades técnicas necesarias para la realización de pruebas de penetración.
+ 
+ Encontrará más información sobre las pruebas de penetración en nuestro artículo [Las 5 mejores pruebas de ciberseguridad para el trabajo](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s ).
+ 
+ ______
+ 
+ ## Inicio
+ 
+ Las Pruebas de Penetración son un aspecto crítico en la implementación de la seguridad de una empresa. Esta guía para principiantes ofrece una visión general de las herramientas, técnicas, métodos y conclusiones de las pruebas de penetración, para que pueda iniciarse en este campo. Amplíe sus conocimientos y conozca las últimas tendencias y las mejores prácticas en materia de ciberseguridad.
+ 
+ ______
+ 
+ ## Verweise
+ 
+ 1. [OWASP-Top-Ten-Projekt](https://owasp.org/www-project-top-ten/)
+ 2. [PTES (Estándar de Ejecución de Pruebas de Penetración)] (http://www.pentest-standard.org/index.php/Main_Page)
+ 3. 3. [Nmap](https://nmap.org/download.html)
+ 4. [Metasploit](https://www.metasploit.com/download)
+ 5. [Wireshark](https://www.wireshark.org/download.html)
+ 6. [Burp-Suite](https://portswigger.net/burp/communitydownload)
+ 7. [Gesetz über Computerbetrug und -missbrauch (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act)
+ 8. [Zertifizierter ethischer Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
+ 9. 9. [Profesional certificado en seguridad ofensiva (OSCP)] (https://www.offensive-security.com/pwk-oscp/)
+ 10. [GIAC Penetrationstester (GPEN)](https://www.giac.org/certification/penetration-tester-gpen)
+ 11. [Top 5 Cybersecurity-Zertifizierungen für den beruflichen Aufstieg](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s).
+ 12. (https://simeononsecurity.ch/recommendations/certifications/)
+ 

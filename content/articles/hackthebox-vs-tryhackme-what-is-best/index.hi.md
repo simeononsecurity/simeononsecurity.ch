@@ -1,12 +1,12 @@
 ---
-title: "HackTheBox vs. TryHackMe: Which is Best for Learning Junior Penetration Testing?"
+title: "HackTheBox vs. TryHackMe: ¿Cuál es mejor para aprender pruebas de penetración junior?"
 date: 2023-02-24
 toc: true
 draft: false
-description: "Comparing the strengths and weaknesses of HackTheBox and TryHackMe to determine the best platform for junior penetration testing."
-tags: ["cybersecurity", "penetration testing", "HackTheBox", "TryHackMe", "learning", "beginner", "virtual machines", "challenges", "guidance", "support", "real-world scenarios", "skills", "network security", "web application security", "cryptography", "programming", "community", "online learning", "structured learning", "creative thinking"]
+description: "Comparando las fortalezas y debilidades de HackTheBox y TryHackMe para determinar la mejor plataforma para pruebas de penetración junior".
+tags: ["ciberseguridad", "pruebas de penetración", "HackTheBox", "TryHackMe", "aprendizaje", "principiante", "máquinas virtuales", "retos", "orientación", "apoyo", "escenarios del mundo real", "habilidades", "seguridad de redes", "seguridad de aplicaciones web", "criptografía", "programación", "comunidad", "aprendizaje en línea", "aprendizaje estructurado", "pensamiento creativo"].
 cover: "/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.png"
-coverAlt: "A cartoon hacker in a lab coat standing between two doors, one labeled HackTheBox and the other labeled TryHackMe with a thought bubble over their head wondering which one to choose."
+coverAlt: "Un hacker de dibujos animados con bata de laboratorio de pie entre dos puertas, una con la etiqueta HackTheBox y la otra con la etiqueta TryHackMe con una burbuja de pensamiento sobre su cabeza preguntándose cuál elegir."
 coverCaption: ""
 ---
 

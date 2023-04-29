@@ -1,12 +1,76 @@
 ---
-title: "Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks"
+title: "Proteger su información personal: Cómo mantener sus tarjetas de crédito a salvo de RFID Skimming y otros ataques físicos"
 date: 2023-04-28
 toc: true
 draft: false
-description: "Learn how to protect yourself from RFID skimming and keep your credit card information secure with these simple tips."
-tags: ["RFID skimming", "credit card protection", "RFID blocking wallets", "chip credit cards", "phishing", "cybersecurity", "identity theft", "privacy", "contactless payments", "mobile payments", "financial security", "smart cards", "NFC", "encryption", "data protection", "RFID readers", "RFID technology", "electronic pickpocketing", "silent pocket", "hunter-cat"]
+descripción: "Aprende a protegerte del skimming RFID y a mantener segura la información de tus tarjetas de crédito con estos sencillos consejos."
+tags: ["skimming RFID", "protección de tarjetas de crédito", "carteras con bloqueo RFID", "tarjetas de crédito con chip", "phishing", "ciberseguridad", "robo de identidad", "privacidad", "pagos sin contacto", "pagos móviles", "seguridad financiera", "tarjetas inteligentes", "NFC", "cifrado", "protección de datos", "lectores RFID", "tecnología RFID", "carterismo electrónico", "bolsillo silencioso", "gato cazador"].
 cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png"
-coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
+coverAlt: "Ilustración de dibujos animados de un ladrón que utiliza un dispositivo electrónico para robar la información de la tarjeta de crédito de la cartera de una persona."
 coverCaption: ""
 ---
- **Comment vous protéger contre la fraude physique par carte de crédit**  Les cartes de crédit sont devenues un élément essentiel de notre vie quotidienne. Avec la commodité qu'ils offrent, cependant, vient le risque de fraude. Les criminels ont développé diverses techniques pour voler les informations de carte de crédit, telles que l'écrémage, le phishing et le piratage. Dans cet article, nous verrons comment vous pouvez vous protéger contre la fraude physique par carte de crédit.  ## Bande magnétique  La bande magnétique au dos de votre carte de crédit contient toutes les informations nécessaires pour effectuer un paiement, y compris votre nom, votre numéro de carte et sa date d'expiration. Les criminels peuvent utiliser des skimmers pour voler ces informations lorsque vous utilisez votre carte à un guichet automatique ou à un terminal de paiement.  Pour vous protéger de ce type de fraude :  - **Utilisez des terminaux de paiement situés dans des zones bien éclairées et peuplées**. Les criminels sont moins susceptibles d'installer des skimmers à ces endroits. - **Couvrez le clavier lors de la saisie de votre code PIN**. Cela empêchera quiconque de voir votre NIP. - **Vérifiez le terminal de paiement pour tout signe de falsification**. Si le terminal semble suspect, utilisez-en un autre ou payez en espèces. - **Vérifiez régulièrement vos relevés de carte de crédit** et signalez toute transaction suspecte à votre banque. - **Utilisez uniquement des cartes de crédit pour les transactions physiques**, les cartes de débit ne bénéficient pas des mêmes protections fédérales contre la fraude.  ### Astuce supplémentaire : évitez les caméras et les skimmers  En ce qui concerne la bande magnétique, ne laissez personne prendre une photo de votre carte. Soyez très prudent lorsque vous utilisez la bande magnétique. Assurez-vous qu'il n'y a pas de caméras ou de caméras à sténopé qui peuvent vous voir entrer votre code postal ou votre numéro d'identification personnel. Remuez le port et s'il se tortille, ne l'utilisez pas.  Si vous voulez plus de garantie, utilisez un appareil comme [Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) pour vous assurer qu'il n'y en a pas.  ## Paiement NFC  Le paiement NFC (Near Field Communication) vous permet d'effectuer des paiements en passant votre carte de crédit sur un terminal de paiement. Bien que cette technologie soit pratique, elle crée également une opportunité pour les criminels de voler les informations de votre carte de crédit.  Pour vous protéger de ce type de fraude :  - **Activez le paiement NFC uniquement lorsque vous en avez besoin**. Gardez-le désactivé sinon. - Utilisez des terminaux de paiement NFC situés dans des zones bien éclairées et peuplées. - **Vérifiez régulièrement vos relevés de carte de crédit** et signalez toute transaction suspecte à votre banque.  ### Astuce supplémentaire : pensez aux portefeuilles bloquant la RFID  Pour vous protéger, procurez-vous un véritable **portefeuille anti-RFID**. [Silent pocket](https://amzn.to/421J6o6) est la seule marque recommandée. La plupart des portefeuilles "RFID Blocking" sont une arnaque complète. Simeononsecurity.ch a personnellement testé des centaines de portefeuilles et supposés dispositifs de blocage RFID. La poche silencieuse est légitime.  ## Technologie de puce  La plupart des cartes de crédit sont désormais équipées de la **technologie à puce**, qui offre une couche de sécurité supplémentaire. La puce crée un code unique pour chaque transaction, ce qui rend difficile pour les criminels d'utiliser des informations volées pour effectuer des achats.  Pour vous protéger de ce type de fraude :  - Utiliser des terminaux de paiement prenant en charge la technologie à puce. - **Ne glissez pas votre carte de crédit** si un terminal de paiement prend en charge la technologie à puce. Utilisez toujours la puce. - **vérifiez régulièrement vos relevés de carte de crédit** et signalez toute transaction suspecte à votre banque.  ### Conseil supplémentaire : gardez une trace de votre carte à puce  En ce qui concerne les puces, il n'y a pas d'exploits ou de vulnérabilités connus menant au clonage. Assurez-vous donc de ne pas perdre votre carte car les banques peuvent l'utiliser contre vous.  ______  ## Conclusion  Dans l'ensemble, vous protéger contre la fraude physique à la carte de crédit nécessite une combinaison de prudence, de vigilance et les bons outils. En suivant les conseils décrits dans cet article, vous pouvez réduire considérablement le risque d'être victime d'une fraude par carte de crédit. N'oubliez pas d'utiliser les terminaux de paiement dans des zones bien éclairées et peuplées, de vérifier les signes d'effraction, d'utiliser la technologie à puce et de vérifier régulièrement vos relevés de carte de crédit. De plus, il peut être intéressant d'envisager un portefeuille de blocage RFID, tel que la marque Silent Pocket, pour une protection supplémentaire. En prenant ces mesures et en restant informé des dernières techniques de fraude, vous pouvez profiter de la commodité des cartes de crédit tout en protégeant vos finances.   ## Les références  - [Écrémage](https://www.investopedia.com/terms/s/skimming.asp): - [Phishing](https://www.investopedia.com/terms/p/phishing.asp) : - [Comment fonctionnent les cartes de crédit à puce] (https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work) - [Portefeuille de blocage RFID de poche silencieux] (https://amzn.to/421J6o6) - [Lecteur RFID USB Hunter-CAT] (https://hackerwarehouse.com/product/hunter-cat/)
+
+ **Comment vous protéger contre la fraude physique par carte de crédit**
+ 
+ Las tarjetas de crédito se han convertido en un elemento esencial de nuestra vida cotidiana. Sin embargo, su comodidad conlleva el riesgo de fraude. Los delincuentes han desarrollado diversas técnicas para hacerse con la información de las tarjetas de crédito, como el escrache, el phishing y el pirateo. En este artículo le explicamos cómo protegerse contra el fraude físico mediante la tarjeta de crédito.
+ 
+ ## Bande magnétique
+ 
+ La banda magnética en la parte posterior de su tarjeta de crédito contiene toda la información necesaria para efectuar un pago, incluyendo su nombre, número de tarjeta y date de caducidad. Los delincuentes pueden utilizar skimmers para obtener esta información cuando utilice su tarjeta en un cajero automático o en un terminal de pago.
+ 
+ Para protegerte de este tipo de fraude :
+ 
+ - Utilice terminales de pago situados en zonas bien iluminadas y pobladas**. Los delincuentes son menos susceptibles de instalar skimmers en estas zonas.
+ - Utilice el teclado para introducir su código PIN**. Esto evitará que cualquier persona pueda ver su PIN.
+ - Compruebe si el terminal de pago presenta signos de falsificación**. Si el terminal le parece sospechoso, utilice otro o pague en efectivo.
+ - Compruebe periódicamente los datos de su tarjeta de crédito** y notifique a su banco cualquier transacción sospechosa.
+ - Utilice únicamente las tarjetas de crédito para las transacciones físicas**, las tarjetas de débito no gozan de las mismas protecciones federales contra el fraude.
+ 
+ ### Astuce supplémentaire : évitez les caméras et les skimmers
+ 
+ En lo que respecta a la banda magnética, no dejes que nadie saque una foto de tu tarjeta. Sea muy prudente cuando utilice la banda magnética. Asegúrese de que no hay cámaras o cámaras de visión nocturna que puedan introducir su código postal o su número de identificación personal. Remuez le port et s'il se tortille, ne l'utilisez pas.
+ 
+ Si desea más garantía, utilice un aparato como [Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) para asegurarse de que no hay ningún problema.
+ 
+ ## Pago NFC
+ 
+ El pago NFC (Near Field Communication) le permite realizar pagos pasando su tarjeta de crédito por un terminal de pago. Por muy práctica que sea esta tecnología, también ofrece a los delincuentes la oportunidad de hacerse con la información de su tarjeta de crédito.
+ 
+ Para protegerte de este tipo de fraude :
+ 
+ - Activa el pago NFC sólo cuando lo necesites**. Gardez-le désactivé sinon.
+ - Utilice terminales de pago NFC situados en zonas bien iluminadas y pobladas.
+ - Compruebe periódicamente los datos de su tarjeta de crédito** y señale cualquier transacción sospechosa a su banco.
+ 
+ ### Astuce supplémentaire : pensez aux portefeuilles bloquant la RFID
+ 
+ Para protegerte, adquiere un verdadero **portefeuille anti-RFID**. La única marca recomendada es [Silent pocket](https://amzn.to/421J6o6). La mayoría de las fundas "RFID Blocking" son un arma completa. Simeononsecurity.ch ha probado personalmente cientos de carteras y supuestos dispositivos de bloqueo RFID. La poche silencieuse est légitime.
+ 
+ ## Technologie de puce
+ 
+ La mayoría de las tarjetas de crédito están equipadas con la **tecnología de chip**, que ofrece una capa de seguridad adicional. La puce crea un código único para cada transacción, lo que dificulta a los delincuentes el uso de información voluntaria para efectuar compras.
+ 
+ Para protegerte de este tipo de fraude :
+ 
+ - Utilice terminales de pago que utilicen la tecnología de cifrado.
+ - No retire su tarjeta de crédito** si un terminal de pago utiliza la tecnología de pago. Utilice siempre el color rojo.
+ - Compruebe periódicamente los datos de su tarjeta de crédito** y comunique a su banco cualquier transacción sospechosa.
+ 
+ ### Consejo adicional: guarde un rastro de su tarjeta de crédito en un lugar seguro.
+ 
+ En lo que respecta a los puces, no existen exploits ni vulnerabilidades relacionadas con la clonación. Asegúrese de no perder su tarjeta, ya que los bancos podrían utilizarla en su contra.
+ 
+ ______
+ 
+ ## Conclusión
+ 
+ En general, protegerse contra el fraude físico en la tarjeta de crédito requiere una combinación de prudencia, vigilancia y buenas herramientas. Siguiendo los consejos descritos en este artículo, podrá reducir considerablemente el riesgo de ser víctima de un fraude con la tarjeta de crédito. No deje de utilizar los terminales de pago en zonas bien iluminadas y pobladas, de comprobar los signos de efracción, de utilizar la tecnología a puce y de comprobar periódicamente sus relevés de carte de crédit. Además, puede ser interesante considerar una funda de bloqueo RFID, como la de la marca Silent Pocket, para una protección adicional. Tomando estas medidas y manteniéndose informado sobre las últimas técnicas de fraude, podrá beneficiarse de la comodidad de las tarjetas de crédito al tiempo que protege sus finanzas.
+ 
+ 
+ ## Referencias
+ 
+ - [Écrémage](https://www.investopedia.com/terms/s/skimming.asp):
+ - [Phishing](https://www.investopedia.com/terms/p/phishing.asp) :
+ - Comment fonctionnent les cartes de crédit à puce] (https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
+ - Portefeuille de blocage RFID de poche silencieux] (https://amzn.to/421J6o6)
+ - Lector RFID USB Hunter-CAT] (https://hackerwarehouse.com/product/hunter-cat/)
