@@ -1,50 +1,13 @@
 ---
-title: "¿Hace falta realmente una licenciatura para entrar en Ciberseguridad y Administración de Sistemas?"
+title: "Do you really need a degree to get into Cyber Security and System Administration?"
 date: 2023-02-12
 toc: true
 draft: false
-descripción:  "Este artículo explora los beneficios e inconvenientes de obtener un title en los campos de la ciberseguridad y la administración de sistemas, incluyendo oportunidades de trabajo, certificaciones, tiempo y consideraciones de coste."
-tags: ["ciberseguridad", "administración de sistemas", "titulación", "certificaciones", "promoción profesional", "potencial salarial", "tiempo y coste", "empleos públicos", "autodidacta", "formación online", "certificaciones CompTIA"]
+description:  "This article explores the benefits and drawbacks of obtaining a degree in the fields of cybersecurity and system administration, including job opportunities, certifications, time, and cost considerations."
+tags: ["cybersecurity", "system administration", "degree", "certifications", "career advancement", "salary potential", "time and cost", "government jobs", "self-taught", "online training", "CompTIA certifications"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
-coverAlt: "Imagen de una persona sentada en un escritorio con un ordenador delante, rodeada de libros, recursos en línea y materiales de certificación, que simbolizan los diferentes caminos para adquirir conocimientos y experiencia en ciberseguridad y administración de sistemas. "
+coverAlt: "An image of a person sitting at a desk with a computer in front of them, surrounded by books, online resources, and certification materials, symbolizing the different paths to gaining knowledge and expertise in cybersecurity and system administration. "
 coverCaption: ""
 ---
 
-La ciberseguridad y la administración de sistemas son campos fundamentales en la era digital actual. A medida que avanza la tecnología, crece la necesidad de expertos capaces de proteger los sistemas y las redes frente a las ciberamenazas. Pero, ¿realmente se necesita un title para trabajar en estos campos? Analicemos los pros y los contras de tener un title en ciberseguridad y administración de sistemas.
-
-## Ventajas de tener un title
-
-1. Empleos públicos bien remunerados
-
-Muchos de los empleos públicos mejor pagados en ciberseguridad y administración de sistemas requieren al menos una licenciatura. Esto es especialmente cierto para los puestos de gestión, que a menudo requieren un máster. Tener una licenciatura demuestra tu formación formal y demuestra que tienes una base sólida en el campo.
-
-2. Los programas universitarios proporcionan estructura y certificaciones
-
-Los programas universitarios en ciberseguridad y administración de sistemas te proporcionan estructura y te obligan a obtener certificaciones. Esto puede ser útil si estás empezando y necesitas orientación sobre qué estudiar. Las certificaciones son una forma directa de elegir lo que quieres estudiar, y muchos principiantes optan por las certificaciones **CompTIA's A+, Network+ y Security+** para empezar. Estas certificaciones pueden cualificarte para un trabajo básico de help desk y son un buen punto de partida para tu carrera.
-
-3. Mayores ingresos
-
-De media, las personas con un title universitario en ciberseguridad y administración de sistemas pueden ganar unos 20.000 dólares más al año en puestos de la administración pública o afines. Tener un title también puede abrir más oportunidades de promoción profesional y salarios más altos.
-
-## Contras de tener un title
-
-1. Naturaleza autodidacta de la ciberseguridad
-
-La ciberseguridad suele ser un campo autodidacta, y hay mucho material en línea para ayudarte a aprender. Casi todos los proveedores ofrecen algún nivel de formación gratuita, y las certificaciones son la forma más directa de elegir lo que se quiere estudiar.
-
-2. Tiempo y coste
-
-Obtener una licenciatura en ciberseguridad y administración de sistemas puede llevar una media de cuatro años. En comparación, obtener tres certificaciones como A+, Network+ y Security+ de CompTIA puede llevar sólo de tres a nueve meses para la mayoría de las personas. Además, el coste de la universidad puede ser significativamente mayor que el de obtener certificaciones.
-
-## Conclusión
-
-En conclusión, la decisión de obtener un title en ciberseguridad y administración de sistemas es personal y depende de tus objetivos profesionales y tu situación financiera. Si estás empezando y necesitas orientación, un title universitario puede proporcionarte estructura y certificaciones. Sin embargo, si eres más automotivado y prefieres aprender por tu cuenta, las certificaciones pueden ser una mejor opción. En última instancia, lo más importante es formarse continuamente y mantenerse al día de los últimos avances en este campo.
-
-Es importante tener en cuenta que, aunque tener un title en ciberseguridad y administración de sistemas puede ser preferible en determinados puestos de trabajo, no garantiza el éxito ni la seguridad laboral en este campo. Los empleadores tienen cada vez más en cuenta las habilidades y la experiencia por encima de los titles, y hay muchos profesionales de éxito en estos campos que son autodidactas o han obtenido certificaciones por su cuenta.
-
-Al fin y al cabo, lo más importante es tener las aptitudes y los conocimientos necesarios para hacer el trabajo. Tanto si se adquieren a través de la educación formal como del autoaprendizaje y las certificaciones, lo más importante es estar al día de las últimas tendencias, amenazas y tecnologías del sector.
-
-Como el campo de la ciberseguridad y la administración de sistemas sigue evolucionando, es importante aprender y adaptarse continuamente para mantenerse a la vanguardia. Esto puede hacerse asistiendo a conferencias y talleres, leyendo publicaciones y noticias del sector y estableciendo contactos con otros profesionales del sector.
-
-En general, aunque tener un title en ciberseguridad y administración de sistemas puede ser beneficioso en algunos casos, no siempre es necesario. En última instancia, todo depende de tus objetivos individuales y de tu estilo de aprendizaje, y de lo que te resulte más adecuado para alcanzar el éxito en este campo.
-
+ La ciberseguridad y la administración de sistemas son campos críticos en la era digital actual. A medida que la tecnología sigue avanzando, crece la necesidad de expertos que puedan proteger los sistemas y las redes de las ciberamenazas. Pero, ¿realmente necesitas un título para trabajar en estos campos? Exploremos los pros y los contras de tener un título en ciberseguridad y administración de sistemas.  ## Ventajas de tener un título  1. Trabajos gubernamentales bien pagados  Muchos trabajos gubernamentales bien remunerados en seguridad cibernética y administración de sistemas requieren al menos una licenciatura. Esto es especialmente cierto para los puestos gerenciales, que a menudo requieren una maestría. Tener un título demuestra tu formación formal y muestra que tienes una base sólida en el campo.  2. Los programas universitarios brindan estructura y certificaciones  Los programas universitarios en ciberseguridad y administración de sistemas le brindan estructura y requieren que obtenga certificaciones. Esto puede ser útil si recién está comenzando y necesita orientación sobre qué estudiar. Las certificaciones son una forma directa de elegir lo que desea estudiar, y muchos principiantes optan por las certificaciones **A+, Network+ y Security+** de CompTIA para comenzar. Estas certificaciones pueden calificarlo para un trabajo básico de mesa de ayuda y son un buen punto de partida para su carrera.  3. aumento de ganancia  En promedio, las personas con un título universitario en seguridad cibernética y administración de sistemas pueden ganar alrededor de $ 20,000 más por año en puestos gubernamentales y adjuntos al gobierno. Tener un título también puede abrir más oportunidades para el avance profesional y salarios más altos.  ## Contras de tener un titulo  1. Naturaleza autodidacta de la ciberseguridad  La ciberseguridad suele ser un campo autodidacta y hay mucho material en línea para ayudar a aprender. Casi todos los proveedores brindan algún nivel de capacitación gratuita, y las certificaciones son la forma más directa de elegir lo que desea estudiar.  2. Tiempo y costo  Obtener una licenciatura en ciberseguridad y administración de sistemas puede llevar a cabo cuatro años en promedio. En comparación, obtener tres certificaciones como A+, Network+ y Security+ de CompTIA puede llevar a cabo solo de tres a nueve meses para la mayoría de las personas. Además, el costo de la universidad puede ser significativamente más alto que obtener certificaciones.  ## Conclusión  En conclusión, la decisión de obtener un título en ciberseguridad y administración de sistemas es personal y depende de sus objetivos profesionales y su situación financiera. Si recién está comenzando y necesita orientación, un título universitario puede brindarle estructura y certificaciones. Sin embargo, si está más motivado y prefiere aprender por su cuenta, las certificaciones pueden ser una mejor opción. En última instancia, lo más importante es educarse continuamente y mantenerse actualizado sobre los últimos desarrollos en el campo.  Es importante tener en cuenta que si bien tener un título en seguridad cibernética y administración de sistemas puede ser preferible en ciertos puestos de trabajo, no garantiza el éxito o la seguridad laboral en el campo. Los empleados están considerando cada vez más las habilidades y la experiencia sobre los títulos, y hay muchos profesionales exitosos en estos campos que son autodidactas o han obtenido certificaciones por su cuenta.  Al final del día, lo que más importa es que tenga las habilidades y los conocimientos necesarios para hacer el trabajo. Ya sea que obtenga eso a través de una educación formal o mediante el autoestudio y las certificaciones, lo más importante es mantenerse actualizado sobre las últimas tendencias, amenazas y tecnologías en el campo.  A medida que el campo de la ciberseguridad y la administración de sistemas continúa evolucionando, es importante aprender y adaptarse continuamente para mantenerse a la vanguardia. Esto se puede hacer asistiendo a conferencias y talleres, leyendo publicaciones y noticias de la industria y exponiendo contactos con otros profesionales en el campo.  En general, si bien tener un título en ciberseguridad y administración de sistemas puede ser beneficioso en ciertos casos, no siempre es necesario. En última instancia, todo se reduce a sus objetivos individuales y estilo de aprendizaje, y lo que funciona mejor para usted en términos de lograr el éxito en el campo. 

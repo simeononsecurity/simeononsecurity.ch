@@ -1,217 +1,130 @@
 ---
-title: "Introducción a Ansible: Automatización de la gestión de la infraestructura de TI"
+title: "Introduction to Ansible: Automating IT Infrastructure Management"
 draft: false
 toc: true
 date: 2023-02-25
-descripción: "Aprende los fundamentos de Ansible, una herramienta de automatización de código abierto que simplifica la gestión de la infraestructura de TI a través de un lenguaje declarativo."
-tags: ["Ansible", "infraestructura TI", "automatización", "gestión de configuración", "despliegue de aplicaciones", "aprovisionamiento", "entrega continua", "cumplimiento de seguridad", "orquestación", "YAML", "módulos", "roles", "buenas prácticas", "control de versiones", "pruebas", "Red Hat", "administradores de sistemas", "Linux", "macOS", "Windows"].
+description: "Learn the basics of Ansible, an open-source automation tool that simplifies IT infrastructure management through a declarative language."
+tags: ["Ansible", "IT infrastructure", "automation", "configuration management", "application deployment", "provisioning", "continuous delivery", "security compliance", "orchestration", "YAML", "modules", "roles", "best practices", "version control", "testing", "Red Hat", "system administrators", "Linux", "macOS", "Windows"]
 cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
-coverAlt: "Un personaje de dibujos animados sentado en un escritorio, rodeado de servidores y cables, con el logotipo de Ansible en la pantalla del ordenador, sonriendo mientras se automatizan tareas."
+coverAlt: "A cartoon character sitting at a desk, surrounded by servers and cables, with Ansible's logo on the computer screen, smiling as tasks are automated."
 coverCaption: ""
 ---
-
-Ansible es una herramienta de automatización de código abierto que permite a los administradores de sistemas automatizar la gestión de infraestructuras informáticas. Proporciona un lenguaje sencillo para describir el estado deseado de la infraestructura y lo aplica automáticamente. Esto reduce el tiempo y el esfuerzo necesarios para gestionar sistemas complejos a gran escala.
-
-Si eres nuevo en Ansible, este artículo te proporcionará una introducción a la herramienta, incluyendo sus conceptos básicos y cómo empezar a utilizarla.
-
-## Introducción a Ansible
-
-Ansible fue desarrollado por Michael DeHaan en 2012 y adquirido por Red Hat en 2015. Desde entonces, se ha convertido en una de las herramientas de automatización más populares de la industria.
-
-Ansible utiliza un lenguaje simple y declarativo llamado YAML (abreviatura de "YAML Ain't Markup Language") para definir el estado deseado de la infraestructura. Esto hace que sea fácil de leer y entender, incluso para los no programadores.
-
-Ansible puede utilizarse para automatizar una amplia gama de tareas, entre ellas:
-
-- Gestión de la configuración
-- Despliegue de aplicaciones
-- Entrega continua
-- Aprovisionamiento
-- Cumplimiento de las normas de seguridad
-- Organización
-
-## Introducción a Ansible
-
-Para empezar con Ansible, necesitarás instalarlo en tu sistema. Ansible se puede instalar en una amplia gama de sistemas operativos, incluyendo Linux, macOS y Windows.
-
-Para instalar Ansible en Linux, en este caso Ubuntu, puedes utilizar los siguientes comandos:
 ```bash
 sudo apt-get update
 sudo apt-get install ansible -y
 ```
-Si no, puedes utilizar las siguientes guías para instalar ansible:
-- [Instalación de Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-- Guía de instalación](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
-
-Una vez instalado Ansible, puedes comprobar que funciona ejecutando el siguiente comando:
 ```bash
 ansible --version
 ```
-
-Esto debería mostrar la versión de Ansible que tienes instalada.
-
-## Inventario de Ansible
-
-El primer paso para usar Ansible es definir un inventario. Un inventario es una lista de servidores que Ansible gestionará. Un inventario puede definirse en una variedad de formatos, incluyendo INI, YAML y JSON.
-
-Este es un ejemplo de un archivo de inventario en formato INI:
-
 ```ini
-[servidores web]
-servidor1.ejemplo.com
-servidor2.ejemplo.com
+[webservers]
+webserver1.example.com
+webserver2.example.com
 
-[bases de datos]
-dbserver1.ejemplo.com
-dbserver2.ejemplo.com
+[databases]
+dbserver1.example.com
+dbserver2.example.com
 ```
-
-Este archivo de inventario define dos grupos de servidores, "servidores web" y "bases de datos", y enumera los nombres de host de los servidores de cada grupo.
-
-## Ansible Playbooks
-
-Una vez definido el inventario, el siguiente paso es definir un playbook. Un playbook es un archivo YAML que describe un conjunto de tareas que Ansible debe realizar en los servidores del inventario.
-
-He aquí un ejemplo de un playbook sencillo:
 ```yml
-name: Instalar Nginx
+name: Install Nginx
 hosts: webservers
 become: yes
 
-tareas:
-    - name: Instalar paquete Nginx
-        apt
-        nombre: nginx
-        estado: presente
+tasks:
+    - name: Install Nginx package
+        apt:
+        name: nginx
+        state: present
 ```
-
-Este playbook instala el servidor web Nginx en todos los servidores del grupo "webservers".
-
-El parámetro `hosts` especifica en qué grupo de servidores debe ejecutarse el playbook. El parámetro `become` especifica que las tareas deben ejecutarse con privilegios elevados (usando `sudo` o `su`).
-
-La sección `tasks` enumera las tareas individuales que debe realizar el libro de jugadas. En este caso, sólo hay una tarea, que instala el paquete Nginx utilizando el módulo `apt`.
-
-## Módulos Ansible
-
-Los módulos de Ansible son unidades de código reutilizables que se pueden utilizar para realizar tareas específicas. Ansible viene con una amplia gama de módulos incorporados, y también hay muchos módulos de terceros disponibles.
-
-Aquí hay algunos ejemplos de módulos incorporados:
-
-- `apt` - Gestiona paquetes en sistemas basados en Debian
-- `yum` - Gestiona paquetes en sistemas basados en Red Hat
-- `file` - Gestiona archivos
-- `service` - Gestiona los servicios del sistema
-- user` - Gestiona usuarios y grupos
-- `copy` - Copia archivos de la máquina de control a los servidores gestionados
-
-Puedes encontrar una lista completa de los módulos incorporados en la [documentación de Ansible](https://docs.ansible.com/ansible/latest/modules/modules_by_category.html).
-
-## Roles y estructura de carpetas de Ansible
-
-Un rol Ansible es una forma de organizar y reutilizar tareas y configuraciones comunes. Es una estructura de directorios que contiene tareas, manejadores, plantillas, archivos y otros recursos.
-
-Este es un ejemplo de un rol Ansible simple para instalar y configurar Nginx:
 ```
 roles/
 └── nginx/
     ├── tasks/
-    │ ├── main.yml
+    │   ├── main.yml
     ├── handlers/
-    │├── main.yml
-    ├── plantillas/
-    │ ├── nginx.conf.j2
-    ├── archivos/
+    │   ├── main.yml
+    ├── templates/
+    │   ├── nginx.conf.j2
+    ├── files/
     ├── vars/
     ├── defaults/
     ├── meta/
 ```
-En este ejemplo, el rol nginx es un directorio que contiene varios subdirectorios, cada uno de los cuales cumple una función específica:
-
-- **tasks**: contiene las tareas que serán ejecutadas por el rol.
-- **handlers**: contiene los handlers que las tareas pueden notificar.
-- **templates**: contiene las plantillas Jinja2 que se utilizarán para generar los ficheros de configuración para Nginx.
-- **files**: contiene los ficheros estáticos que necesita el rol.
-- **vars**: contiene variables específicas del rol.
-- **defaults**: contiene variables por defecto para el rol.
-- **meta**: contiene metadatos sobre el rol, como sus dependencias.
-
-Los roles pueden ser fácilmente compartidos y reutilizados a través de múltiples playbooks y proyectos.
-
-Este es un ejemplo de un archivo main.yml en el directorio tasks:
 ```yaml
 ---
-- nombre: Instalar Nginx
+- name: Install Nginx
   apt:
-    nombre: nginx
-    estado: presente
-  notificar: reiniciar nginx
+    name: nginx
+    state: present
+  notify: restart nginx
 
-- nombre: Habilitar Nginx
-  systemd
-    nombre: nginx
-    habilitado: yes
-    estado: iniciado
+- name: Enable Nginx
+  systemd:
+    name: nginx
+    enabled: yes
+    state: started
 ```
 
-Esta tarea instala Nginx usando el módulo apt y habilita e inicia el servicio Nginx usando el módulo systemd. También notifica al gestor de reinicio de nginx, que reiniciará Nginx si se ha realizado algún cambio en la configuración.
+This task installs Nginx using the apt module and enables and starts the Nginx service using the systemd module. It also notifies the restart nginx handler, which will restart Nginx if any changes were made to the configuration.
 
-El uso de un rol Ansible como este puede simplificar el proceso de gestión y configuración de software a través de múltiples servidores o entornos. Al separar las tareas, manejadores, plantillas y otros recursos en una única estructura de directorios, puedes gestionar y reutilizar más fácilmente estos componentes en diferentes playbooks y proyectos.
+Using an Ansible role like this can simplify the process of managing and configuring software across multiple servers or environments. By separating the tasks, handlers, templates, and other resources into a single directory structure, you can more easily manage and reuse these components across different playbooks and projects.
 
-## Mejores prácticas para Ansible
+## Best Practices for Ansible
 
-Estas son algunas de las mejores prácticas a seguir cuando se utiliza Ansible:
+Here are some best practices to follow when using Ansible:
 
-### 1. Usar control de versiones
+### 1. Use Version Control
 
-Almacenar tus playbooks y roles de Ansible en un sistema de control de versiones como Git es una buena práctica que puede ayudarte a realizar un seguimiento de los cambios y colaborar con otros. El control de versiones proporciona un historial de los cambios realizados en su código base, lo que le permite volver a versiones anteriores si es necesario. También facilita la colaboración con otras personas compartiendo código y gestionando conflictos.
+Storing your Ansible playbooks and roles in a version control system like Git is a best practice that can help you keep track of changes and collaborate with others. Version control provides a history of changes made to your codebase, allowing you to roll back to previous versions if needed. It also makes it easy to collaborate with others by sharing code and managing conflicts.
 
-### 2. Utiliza roles para organizar tus guías
+### 2. Use Roles to Organize Your Playbooks
 
-Los roles son una poderosa forma de organizar tus playbooks y tareas Ansible. Agrupando tareas relacionadas en roles, puedes hacer tus playbooks más modulares y reutilizables. Los roles también facilitan compartir código entre diferentes proyectos.
+Roles are a powerful way to organize your Ansible playbooks and tasks. By grouping related tasks together into roles, you can make your playbooks more modular and reusable. Roles also make it easy to share code across different projects.
 
-Aquí hay un ejemplo de un libro de jugadas que utiliza un rol para instalar y configurar Nginx:
+Here's an example of a playbook that uses a role to install and configure Nginx:
 
 ```yml
-name: Instalar y configurar Nginx
-hosts: servidores web
+name: Install and configure Nginx
+hosts: webservers
 become: yes
 roles:
   - nginx
 ```
 
-Este playbook utiliza un rol llamado "nginx" para instalar y configurar Nginx en el grupo de hosts "webservers".
+This playbook uses a role called "nginx" to install and configure Nginx on the "webservers" group of hosts.
 
-### 3. Usar etiquetas para agrupar tareas
+### 3. Use Tags to Group Tasks
 
-Las etiquetas se pueden utilizar para agrupar tareas relacionadas entre sí en los playbooks de Ansible. Esto facilita la ejecución de partes específicas de un playbook, especialmente cuando se trabaja con playbooks grandes y complejos.
+Tags can be used to group related tasks together in your Ansible playbooks. This makes it easier to run specific parts of a playbook, especially when working with large, complex playbooks.
 
-A continuación se muestra un ejemplo de cómo utilizar etiquetas en un playbook de Ansible:
+Here's an example of how to use tags in an Ansible playbook:
 ```yml
-name: Instalar y configurar Nginx
+name: Install and configure Nginx
 hosts: webservers
 become: yes
 tasks:
-  - name: Instalar Nginx
+  - name: Install Nginx
     apt:
-    nombre: nginx
-    estado: presente
-    etiquetas: nginx_install
+    name: nginx
+    state: present
+    tags: nginx_install
 
-  - nombre: Configurar Nginx
-    plantilla:
+  - name: Configure Nginx
+    template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
     tags: nginx_config
 ```
 
-Este playbook tiene dos tareas, una para instalar Nginx y otra para configurarlo. Cada tarea tiene una etiqueta asociada, lo que facilita la ejecución de sólo las tareas necesarias.
+This playbook has two tasks, one for installing Nginx and one for configuring Nginx. Each task has a tag associated with it, making it easy to run only the tasks that are needed.
 
-### 4. Utilizar variables para hacer más flexibles los playbooks
+### 4. Use Variables to Make Playbooks More Flexible
 
-Las variables se pueden utilizar para hacer sus playbooks Ansible más flexibles y reutilizables. Mediante el uso de variables, puede hacer que sus playbooks sean más genéricos y adaptables a diferentes entornos.
+Variables can be used to make your Ansible playbooks more flexible and reusable. By using variables, you can make your playbooks more generic and adaptable to different environments.
 
-He aquí un ejemplo de cómo utilizar variables en un libro de reproducción de Ansible:
+Here's an example of how to use variables in an Ansible playbook:
 ```yml
-name: Instalar y configurar Nginx
+name: Install and configure Nginx
 hosts: webservers
 become: yes
 
@@ -220,43 +133,45 @@ nginx_port: 80
 nginx_user: www-data
 
 tasks:
-  - name: Instalar Nginx
-    apt
-    nombre: nginx
-    estado: presente
-  - name: Configurar Nginx
-    plantilla:
+  - name: Install Nginx
+    apt:
+    name: nginx
+    state: present
+  - name: Configure Nginx
+    template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
-    notify: reiniciar nginx
+    notify: restart nginx
 
 handlers:
-  - nombre: reiniciar nginx
+  - name: restart nginx
     service:
-    nombre: nginx
-    estado: reiniciado
+    name: nginx
+    state: restarted
 ```
 
-Este playbook utiliza variables para especificar el puerto en el que Nginx debe escuchar y el usuario que debe ejecutar Nginx. Esto hace que el playbook sea más flexible y adaptable a diferentes entornos.
+This playbook uses variables to specify the port that Nginx should listen on and the user that should run Nginx. This makes the playbook more flexible and adaptable to different environments.
 
-### 5. Pruebe sus Playbooks
+### 5. Test Your Playbooks
 
-Probar tus playbooks de Ansible es una buena práctica que puede ayudarte a detectar errores y asegurar que tus playbooks funcionan como se espera. Molecule es una herramienta muy popular para probar los playbooks de Ansible.
+Testing your Ansible playbooks is a best practice that can help you catch errors and ensure that your playbooks are working as expected. One popular tool for testing Ansible playbooks is Molecule.
 
-Molecule es un marco de pruebas que permite probar los libros de reproducción de forma coherente y automatizada. Molecule puede crear máquinas virtuales, aplicar su playbook, y luego verificar que todo está funcionando como se esperaba. Esto puede ayudarle a detectar errores y asegurarse de que sus libros de jugadas funcionan correctamente antes de desplegarlos en producción.
+Molecule is a testing framework that allows you to test your playbooks in a consistent and automated way. Molecule can create virtual machines, apply your playbook, and then verify that everything is working as expected. This can help you catch errors and ensure that your playbooks are working correctly before deploying to production.
 
-He aquí un ejemplo de cómo utilizar Molecule para probar un rol de Ansible:
+Here's an example of how to use Molecule to test an Ansible role:
 
 ```bash
 molecule init role myrole
-cd mi rol
+cd myrole
 molecule test
 ```
 
-## Conclusión
+## Conclusion
 
-En este artículo hemos presentado Ansible, una potente herramienta de automatización que puede ayudarte a gestionar infraestructuras de TI complejas. Hemos cubierto los conceptos básicos de Ansible, incluyendo inventarios, playbooks, módulos y roles.
+In this article, we've introduced Ansible, a powerful automation tool that can help you manage complex IT infrastructure. We've covered the basic concepts of Ansible, including inventories, playbooks, modules, and roles.
 
-También hemos discutido las mejores prácticas para el uso de Ansible, incluyendo el uso de control de versiones, la organización de playbooks con roles, el uso de etiquetas y variables, y la prueba de sus playbooks.
+We've also discussed best practices for using Ansible, including using version control, organizing playbooks with roles, using tags and variables, and testing your playbooks.
 
-Si eres nuevo en Ansible, te recomendamos que empieces experimentando con algunos playbooks sencillos y que vayas aumentando gradualmente tus habilidades y conocimientos con el tiempo. Con la práctica, serás capaz de automatizar incluso las tareas de infraestructura más complejas con facilidad.
+If you're new to Ansible, we recommend that you start by experimenting with some simple playbooks and gradually build up your skills and knowledge over time. With practice, you'll be able to automate even the most complex infrastructure tasks with ease!
+
+ Ansible es una herramienta de automatización de código abierto que permite a los administradores de sistemas automatizar la gestión de la infraestructura de TI. Proporcione un lenguaje simple para describir el estado deseado de la infraestructura y aplica automáticamente ese estado. Esto reduce el tiempo y el esfuerzo necesario para administrar sistemas complejos a gran escala.  Si es nuevo en Ansible, este artículo le brindará una introducción a la herramienta, incluidos sus conceptos básicos y cómo comenzar a usarla.  ## Introducción a Ansible  Ansible fue desarrollado por Michael DeHaan en 2012 y adquirido por Red Hat en 2015. Desde entonces, se ha convertido en una de las herramientas de automatización más populares de la industria.  Ansible usa un lenguaje declarativo simple llamado YAML (abreviatura de "YAML no es lenguaje de marcado") para definir el estado deseado de la infraestructura. Esto hace que sea fácil de leer y comprender, incluso para quienes no son programadores.  Ansible se puede utilizar para automatizar una amplia gama de tareas, que incluyen:  - **Gestión de configuración** - **Despliegue de aplicaciones** - **Entrega continua** - **Aprovisionamiento** - **Cumplimiento de seguridad** - **Orquestación**  ## Primeros pasos con Ansible  Para comenzar con Ansible, deberá instalarlo en su sistema. Ansible se puede instalar en una amplia gama de sistemas operativos, incluidos Linux, macOS y Windows.  Para instalar Ansible en Linux, en este caso Ubuntu, puedes usar los siguientes comandos: Por el contrario, puede usar las siguientes guías para instalar ansible: - [Instalación de Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) - [Guía de instalación](https://docs.ansible.com/ansible/latest/installation_guide/index.html)  Una vez que Ansible está instalado, puede verificar que oculta el siguiente comando:  Esto debería mostrar la versión de Ansible que ha instalado.  ## Inventario de Ansible  El primer paso para usar Ansible es definir un inventario. Un inventario es una lista de servidores que administrará Ansible. Un inventario se puede definir en una variedad de formatos, incluidos INI, YAML y JSON.  Aquí hay un ejemplo de un archivo de inventario en formato INI:   Este archivo de inventario define dos grupos de servidores, "servidores web" y "bases de datos", y enumera los nombres de host de los servidores en cada grupo.  ## Libros de jugadas de Ansible  Una vez que haya definido un inventario, el siguiente paso es definir un libro de jugadas. Un libro de jugadas es un archivo YAML que describe un conjunto de tareas que Ansible debe realizar en los servidores del inventario.  Aquí hay un ejemplo de un libro de jugadas sencillas:  Este libro de jugadas instala el servidor web Nginx en todos los servidores del grupo "servidores web".  El parámetro `hosts` especifica en qué grupo de servidores debe ejecutarse el libro de jugadas. El parámetro `become` especifica que las tareas deben ejecutarse con privilegios elevados (usando `sudo` o `su`).  La sección "tareas" enumera las tareas individuales que debe realizar el libro de jugadas. En este caso, solo hay una tarea, que instala el paquete Nginx usando el módulo `apt`.  ## Módulos Ansible  Los módulos de Ansible son unidades de código reutilizables que se pueden usar para realizar tareas específicas. Ansible viene con una amplia gama de módulos integrados y también hay muchos módulos de terceros disponibles.  Estos son algunos ejemplos de módulos integrados:  - `apt` - Administrar paquetes en sistemas basados en Debian - `yum` - Administrar paquetes en sistemas basados en Red Hat - `archivo` - Administrar archivos - `servicio` - Administrar los servicios del sistema - `usuario` - Administrar usuarios y grupos - `copiar` - Copiar archivos de la máquina de control a los servidores administrados  Puede encontrar una lista completa de módulos integrados en la [documentación de Ansible] (https://docs.ansible.com/ansible/latest/modules/modules_by_category.html).  ## Roles de Ansible y estructura de carpetas  Un rol de Ansible es una forma de organizar y reutilizar tareas y configuraciones comunes. Es una estructura de directorio que contiene tareas, controladores, plantillas, archivos y otros recursos.  Aquí hay un ejemplo de un rol de Ansible simple para instalar y configurar Nginx: En este ejemplo, la función nginx es un directorio que contiene varios subdirectorios, cada uno de los cuales tiene un propósito específico:  - **tareas**: contiene las tareas que serán ejecutadas por el rol. - **handlers**: contiene los handlers que pueden notificar las tareas. - **plantillas**: contiene las plantillas Jinja2 que se utilizarán para generar los archivos de configuración para Nginx. - **archivos**: contiene los archivos estáticos que necesita el rol. - **vars**: contiene variables que son específicas del rol. - **predeterminados**: contiene variables predeterminadas para el rol. - **meta**: contiene metadatos sobre el rol, como sus dependencias.  Los roles se pueden compartir y reutilizar fácilmente en múltiples playbooks y proyectos.  Aquí hay un ejemplo de un archivo main.yml en el directorio de tareas:

@@ -1,49 +1,13 @@
 ---
-title: "Mecanismos de transición de IPv4 a IPv6: Una guía completa"
+title: "IPv4 to IPv6 Transition Mechanisms: A Comprehensive Guide"
 date: 2023-02-18
 toc: true
 draft: false
-descripción: "Conoce los diferentes mecanismos utilizados para la transición de IPv4 a IPv6 en esta completa guía."
+description: "Learn about the different mechanisms used to transition from IPv4 to IPv6 in this comprehensive guide."
 tags: ["IPv4", "IPv6", "networking", "transition mechanisms", "dual stack", "NAT64", "DNS64", "IPv6 tunneling", "ISATAP", "6to4", "DS-lite", "MAP-T", "IPv6 migration", "network protocols", "internet protocol", "network architecture", "routing", "subnetting", "addressing"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png"
-coverAlt: "Imagen de dibujos animados de una persona parada en un cruce de caminos, con un poste indicador que muestra las direcciones IPv4 e IPv6, representando la elección y transición entre los dos protocolos."
+coverAlt: "A cartoon image of a person standing at a crossroads, with a signpost showing IPv4 and IPv6 directions, representing the choice and transition between the two protocols."
 coverCaption: ""
 ---
 
-**Mecanismos de transición de IPv4 a IPv6**.
- 
- Mientras el número de dispositivos conectados y la cantidad de tráfico de Internet siguen aumentando, el mundo carece de direcciones IPv4 disponibles. IPv6 se introdujo para resolver este problema y ha sido adoptado por numerosas redes, pero la transición a IPv6 sigue en curso. En este artículo exploraremos los distintos mecanismos de transición que pueden utilizarse para migrar de IPv4 a IPv6.
- 
- ## Introducción
- 
- **IPv4** es el formato de dirección IP de origen y se utiliza desde los inicios de Internet. Utiliza direcciones de 32 bits y puede contener hasta 4,3 millones de direcciones únicas. Sin embargo, con la multiplicación de los dispositivos conectados, este número resulta insuficiente. **En cambio, IPv6** utiliza direcciones de 128 bits y puede contener un número casi infinito de direcciones únicas. La transición a IPv6 es necesaria para garantizar que Internet pueda seguir creciendo y desarrollándose.
- 
- ## Mecanismos de transición
- 
- ### Pila doble
- 
- El mecanismo de transición más sencillo consiste en utilizar IPv4 e IPv6 en la misma red. Es lo que se conoce como "pila doble". En una red Dual Stack, los dos protocolos están activados en todas las redes y pueden comunicarse entre sí mediante uno u otro protocolo. Este enfoque permite una migración progresiva a IPv6 y garantiza una transición segura.
- 
- ### Tunelización
- 
- El **tunneling** es un método de encapsulación de paquetes IPv6 en paquetes IPv4 para transportarlos por una red IPv4. Este mecanismo se utiliza para asegurar la conectividad entre las redes IPv6 separadas por una red IPv4. En el tunneling, el paquete IPv6 se encapsula en un paquete IPv4 y la red IPv4 se conecta al otro extremo del túnel, donde se desencapsula y se envía a su destino.
- 
- ### Traducción
- 
- **La traducción** es un mecanismo utilizado para facilitar la comunicación entre las redes IPv4 e IPv6. Existen dos tipos de traducción: traducción de direcciones en red-traducción de protocolo (NAT-PT) y ruta de transición de familia de direcciones (AFTR). **NAT-PT** convierte los paquetes IPv6 en paquetes IPv4 y viceversa, mientras que AFTR** proporciona una conexión IPv6 sólo para hosts IPv4.
- 
- ### 6eme
- 
- **IPv6 Rapid Deployment (6rd)** es un mecanismo que permite el despliegue rápido de IPv6 en una red IPv4. En 6e, un prefijo IPv6 se encapsula en un paquete IPv4 y se envía a la red IPv4. A continuación, el paquete IPv6 se desencapsula en el otro extremo y se envía a su destino. Este mecanismo es útil para los proveedores de servicios que proporcionan IPv6 de forma rápida y eficaz.
- 
- ### DS-Lite
- 
- **Dual-Stack Lite (DS-Lite)** es un mecanismo utilizado para proporcionar conexión IPv6 a redes IPv4 únicamente. En DS-Lite, un paquete IPv6 se encapsula en un paquete IPv4 y se envía a la red IPv4. En el otro extremo, el paquete IPv6 se desencapsula y se envía a su destino. Este mecanismo permite una migración progresiva a IPv6 sin perturbar la conectividad IPv4.
- 
- ### NAT64
- 
- **NAT64** es un mecanismo que se utiliza para proporcionar conexión IPv6 sólo a hosts IPv4. En NAT64, un paquete IPv6 se convierte en un paquete IPv4, que puede enviarse a una red IPv4. En el otro extremo, el paquete IPv4 se convierte en un paquete IPv6 y se envía a su destino. Este mecanismo es útil para proporcionar una conexión IPv6 a las casas que no pueden estar preparadas para cargar IPv6.
- 
- ______
- 
- En conclusión, la transición a IPv6 es necesaria para garantizar el crecimiento y la continua evolución de Internet. Aunque la migración a IPv6 sigue en curso, existen varios mecanismos de transición
+**Mécanismes de transition IPv4 vers IPv6**  Alors que le nombre d'appareils connectés et la quantité de trafic Internet continue d'augmenter, le monde manque d'adresses IPv4 disponibles. IPv6 a été introduit pour résoudre ce problème et a été adopté par de nombreux réseaux, mais la transition vers IPv6 est toujours en cours. Dans cet article, nous allons explorer les différents mécanismes de transition qui peuvent être utilisés pour migrer d'IPv4 vers IPv6.  ## Introduction  **IPv4** était le format d'adresse IP d'origine et a été utilisé depuis les débuts d'Internet. Il utilise des adresses 32 bits et peut prendre en charge jusqu'à 4,3 milliards d'adresses uniques. Cependant, avec la multiplication des appareils connectés, ce nombre s'est avéré insuffisant. **IPv6**, en revanche, utilise des adresses 128 bits et peut prendre en charge un nombre presque infini d'adresses uniques. La transition vers IPv6 est nécessaire pour garantir qu'Internet puisse continuer à croître et à évaluer.  ## Mécanismes de transition  ### Pile double  Le mécanisme de transition le plus simple consiste à effectuer à la fois IPv4 et IPv6 sur le même réseau. C'est ce qu'on appelle **Double pile**. Dans un réseau Dual Stack, les deux protocoles sont activés sur tous les périphériques réseau et ils peuvent communiquer entre eux à l'aide de l'un ou l'autre des protocoles. Cette approche permet une migration progressive vers IPv6 et assure une transition en douceur.  ### Tunnelage  Le **tunneling** est une méthode d'encapsulation de paquets IPv6 dans des paquets IPv4 pour les transporter sur un réseau IPv4. Ce mécanisme est utilisé pour assurer la connectivité entre les îlots IPv6 séparés par un réseau IPv4. Dans le tunneling, le paquet IPv6 est encapsulé dans un paquet IPv4 et le réseau IPv4 l'achemine vers l'autre extrémité du tunnel, où il est décapsulé et livré à sa destination.  ### Traduction  **La traduction** est un mécanisme utilisé pour faciliter la communication entre les réseaux IPv4 et IPv6. Il existe deux types de traduction : traduction d'adresses réseau-traduction de protocole (NAT-PT) et routeur de transition de famille d'adresses (AFTR). **NAT-PT** traduit les paquets IPv6 en paquets IPv4 et vice versa, tandis que **AFTR** fournit une connectivité IPv6 aux hôtes IPv4 uniquement.  ### 6eme  **IPv6 Rapid Deployment (6rd)** est un mécanisme qui permet le déploiement rapide d'IPv6 dans un réseau IPv4. En 6e, un préfixe IPv6 est encapsulé dans un paquet IPv4 et envoyé sur le réseau IPv4. Le paquet IPv6 est ensuite désencapsulé à l'autre extrémité et livré à sa destination. Ce mécanisme est utile pour les fournisseurs de services qui prouvent IPv6 rapidement et efficacement.  ### DS-Lite  **Dual-Stack Lite (DS-Lite)** est un mécanisme utilisé pour fournir une connectivité IPv6 aux réseaux IPv4 uniquement. Dans DS-Lite, un paquet IPv6 est encapsulé dans un paquet IPv4 et envoyé sur le réseau IPv4. À l'autre extrémité, le paquet IPv6 est désencapsulé et livré à sa destination. Ce mécanisme permet une migration progressive vers IPv6 sans perturber la connectivité IPv4.  ### NAT64  **NAT64** est un mécanisme utilisé pour fournir une connectivité IPv6 aux hôtes IPv4 uniquement. Dans NAT64, un paquet IPv6 est traduit en un paquet IPv4, qui peut être envoyé sur un réseau IPv4. À l'autre extrémité, le paquet IPv4 est ramené en un paquet IPv6 et livré à sa destination. Ce mécanisme est utile pour fournir une connectivité IPv6 aux hôtes qui ne peut pas être mis à niveau pour prendre en charge IPv6.  ______  En conclusion, la transition vers IPv6 est nécessaire pour assurer la croissance et l'évolution continue d'Internet. Bien que la migration vers IPv6 soit toujours en cours, plusieurs mécanismes de transition sont disponibles

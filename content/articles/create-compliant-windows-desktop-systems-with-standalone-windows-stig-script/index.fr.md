@@ -1,57 +1,15 @@
 ---
-title: "El poder de la ciberseguridad: cómo crear un sistema Windows conforme y seguro con Standalone-Windows-STIG-Script"
+title: "The Power of Cybersecurity: How to Build a Compliant & Secure Windows System with Standalone-Windows-STIG-Script"
 date: 2023-02-02
 toc: true
 draft: false
-descripción: "Descubra cómo crear un sistema Windows seguro y conforme con el sencillo Standalone-Windows-STIG-Script, un artículo informativo con instrucciones paso a paso y explicaciones detalladas de los parámetros."
-tags: ["STIG Script", "Seguridad de Windows", "Sistema Windows conforme", "Endurecimiento del sistema", "Windows STIG", "Windows seguro", "Cumplimiento de Windows", "Instalación manual", "Actualizaciones de Windows", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", ".NET Framework", "Office", "OneDrive", "Java", "Windows Defender", "Firewall de Windows", "Mitigaciones", "Nessus PID", "VMware Horizon", "Endurecimiento opcional"].
+description: "Discover how to create a secure and compliant Windows system with the easy-to-use Standalone-Windows-STIG-Script, an informative article with step-by-step instructions and detailed parameter explanations."
+tags: ["STIG Script", "Windows Security", "Compliant Windows System", "System Hardening", "Windows STIG", "Secure Windows", "Windows Compliance", "Manual Install", "Windows Updates", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", ".NET Framework", "Office", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Mitigations", "Nessus PID", "VMware Horizon", "Optional Hardening"]
 cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
-coverAlt: "Captura de pantalla de un ordenador con con una barra de progreso que indica el porcentaje de finalización."
+coverAlt: "A screenshot of a computer screen with with a progress bar indicating the completion percentage."
 coverCaption: ""
 ---
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File Standalone-Windows-STIG-Script.ps1
 ```
-
- Los sistemas Windows se utilizan ampliamente en empresas, organizaciones e incluso en hogares. Con el creciente número de ciberataques, es crucial asegurarse de que estos sistemas están protegidos y cumplen las normas de la industria. Standalone-Windows-STIG-Script es una herramienta útil para lograrlo. En este artículo exploraremos qué es Standalone-Windows-STIG-Script, cómo funciona y cómo puedes usarlo para crear un sistema Windows seguro y conforme.
- 
- ## ¿Qué es Standalone-Windows-STIG-Script?
- 
- **Standalone-Windows-STIG-Script** es un script desarrollado por Simeononsecurity para automatizar el proceso de seguridad y conformidad de un sistema Windows con la Guía de Seguridad Técnica (STIG). El script es de código abierto y está disponible en **GitHub**.
- 
- ## ¿Cómo funciona?
- 
- Standalone-Windows-STIG-Script implementa las directivas proporcionadas en la STIG para proteger un sistema Windows. El script puede ejecutarse en un sistema Windows y aporta las modificaciones necesarias al sistema para asegurar la conformidad con las STIG. El script cubre un amplio abanico de medidas de seguridad, entre las que se incluyen, aunque sin limitarse a ellas, los siguientes elementos :
- 
- - Políticas de contabilidad
- - Políticas de auditoría
- - Opciones de seguridad
- - Parámetros del parámetro
- - Parámetros de los servicios
- 
- ## Ventajas de la utilización de Standalone-Windows-STIG-Script :
- 
- - Automatización**: el script automatiza el proceso de seguridad de un sistema Windows, lo que permite ahorrar tiempo y eliminar los riesgos de error humano.
- 
- - Conformidad**: el script aplica las directivas proporcionadas en la STIG, garantizando que el sistema Windows cumple las normas de la industria.
- 
- - Tranquilidad de espíritu**: al utilizar el script Standalone-Windows-STIG, podrá tener un espíritu tranquilo al saber que su sistema Windows está seguro y conforme a las normas de la industria.
- 
- _________________________________________________________________________________________________________________________
- 
- ## Comment utiliser Standalone-Windows-STIG-Script :
- 
- 1. La utilización de Standalone-Windows-STIG-Script es relativamente sencilla. Estos son los pasos para utilizar el script :
- 
- 2. **Descarga el script**: el script está disponible en GitHub en la dirección https://github.com/simeononsecurity/Standalone-Windows-STIG-Script. Descarga el script y regístralo en tu sistema Windows.
- 
- 3. **3. Abre una invitación de comandos con elevación de privilegios**: haz clic con el botón derecho en el botón de Inicio de Windows y selecciona "Windows PowerShell (Admin)".
- 
- 4. **4. Ejecute el script**: vaya a la ubicación en la que ha registrado el script y ejecútelo siguiendo el siguiente comando:
- 
- 
- 5. Revisa las modificaciones: una vez finalizada la ejecución del script, revisa las modificaciones realizadas en el sistema para asegurarte de que todo está correctamente configurado.
- 
- ## Conclusión:
- 
- En conclusión, Standalone-Windows-STIG-Script es una herramienta útil que puede ayudarle a asegurar y cumplir con las normas de la industria para su sistema Windows. Utilizando el script, puedes automatizar el proceso de seguridad de tu sistema Windows, asegurándote de que cumple con las STIG y ofreciéndote la tranquilidad de saber que tu sistema está seguro. Por lo tanto, si quieres crear un sistema Windows seguro y conforme a las STIG, utiliza el script Standalone-Windows-STIG.
+ Les systèmes Windows sont largement utilisés dans les entreprises, les organisations et même les maisons. Avec le nombre croissant de cyberattaques, il est crucial de s'assurer que ces systèmes sont sécurisés et conformes aux normes de l'industrie. Le Standalone-Windows-STIG-Script est un outil utile qui vous aide à accomplir cela. Dans cet article, nous allons explorer ce qu'est le Standalone-Windows-STIG-Script, comment il fonctionne et comment vous pouvez l'utiliser pour créer un système Windows sécurisé et conforme.  ## Qu'est-ce que Standalone-Windows-STIG-Script  ?  **Standalone-Windows-STIG-Script** est un script développé par Simeononsecurity qui est conçu pour automatiser le processus de sécurisation et de mise en conformité d'un système Windows avec le Guide de mise en œuvre technique de la sécurité (STIG). Le script est open-source et disponible sur **GitHub**.  ## Comment ça marche ?  Le Standalone-Windows-STIG-Script implémente les directives fournies dans le STIG pour sécuriser un système Windows. Le script peut être exécuté sur un système Windows et apportera les modifications nécessaires au système pour assurer la conformité avec le STIG. Le script couvre un large éventail de mesures de sécurité, y compris, mais sans s'y limiter, les éléments suivants :  - Politiques de compte - Politiques d'audit - Options de sécurité - Paramètres du pare-feu - Paramètres des services  ## Avantages de l'utilisation de Standalone-Windows-STIG-Script :  - **Automatisation** : le script automatise le processus de sécurisation d'un système Windows, ce qui permet de gagner du temps et d'éliminer les risques d'erreur humaine.  - **Conformité** : le script met en œuvre les directives fournies dans le STIG, garantissant que le système Windows est conforme aux normes de l'industrie.  - **Tranquillité d'esprit** : en utilisant le script Standalone-Windows-STIG, vous pouvez avoir l'esprit tranquille en sachant que votre système Windows est sécurisé et conforme aux normes de l'industrie.  _________________________________________________________________________________________________________________________  ## Comment utiliser Standalone-Windows-STIG-Script :  1. L'utilisation de Standalone-Windows-STIG-Script est relativement simple. Voici les étapes pour utiliser le script :  2. **Téléchargez le script** : le script est disponible sur GitHub à l'adresse https://github.com/simeononsecurity/Standalone-Windows-STIG-Script. Téléchargez le script et enregistrez-le sur votre système Windows.  3. **Ouvrez une invitation de commande avec élévation de privilèges** : cliquez avec le bouton droit sur le bouton Démarrer de Windows et sélectionnez "Windows PowerShell (Admin)".  4. **Exécutez le script**  : développez à l'emplacement où vous avez enregistré le script et transformez-le en saisissant la commande suivante :   5. Passez en revue les modifications : une fois l'exécution du script terminée, passez en revue les modifications apportées au système pour vous assurer que tout est correctement configuré.  ## Conclusion:  En conclusion, le Standalone-Windows-STIG-Script est un outil utile qui peut vous aider à sécuriser et à vous conformer aux normes de l'industrie pour votre système Windows. En utilisant le script, vous pouvez automatiser le processus de sécurisation de votre système Windows, en vous assurant qu'il est conforme au STIG et en vous offrant la tranquillité d'esprit en sachant que votre système est sécurisé. Donc, si vous souhaitez créer un système Windows conforme et sécurisé, envisagez d'utiliser le script Standalone-Windows-STIG.

@@ -1,87 +1,13 @@
 ---
-title: "HackTheBox vs. TryHackMe: ¿Cuál es mejor para aprender pruebas de penetración junior?"
+title: "HackTheBox vs. TryHackMe: Which is Best for Learning Junior Penetration Testing?"
 date: 2023-02-24
 toc: true
 draft: false
-description: "Comparando las fortalezas y debilidades de HackTheBox y TryHackMe para determinar la mejor plataforma para pruebas de penetración junior".
-tags: ["ciberseguridad", "pruebas de penetración", "HackTheBox", "TryHackMe", "aprendizaje", "principiante", "máquinas virtuales", "retos", "orientación", "apoyo", "escenarios del mundo real", "habilidades", "seguridad de redes", "seguridad de aplicaciones web", "criptografía", "programación", "comunidad", "aprendizaje en línea", "aprendizaje estructurado", "pensamiento creativo"].
+description: "Comparing the strengths and weaknesses of HackTheBox and TryHackMe to determine the best platform for junior penetration testing."
+tags: ["cybersecurity", "penetration testing", "HackTheBox", "TryHackMe", "learning", "beginner", "virtual machines", "challenges", "guidance", "support", "real-world scenarios", "skills", "network security", "web application security", "cryptography", "programming", "community", "online learning", "structured learning", "creative thinking"]
 cover: "/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.png"
-coverAlt: "Un hacker de dibujos animados con bata de laboratorio de pie entre dos puertas, una con la etiqueta HackTheBox y la otra con la etiqueta TryHackMe con una burbuja de pensamiento sobre su cabeza preguntándose cuál elegir."
+coverAlt: "A cartoon hacker in a lab coat standing between two doors, one labeled HackTheBox and the other labeled TryHackMe with a thought bubble over their head wondering which one to choose."
 coverCaption: ""
 ---
 
-
- **HackTheBox vs. TryHackMe: ¿Cuál es la mejor prueba de penetración para jóvenes?
- 
- Antes de entrar en detalles, queremos definir lo que entendemos por pruebas de penetración "junior". Por lo general, un "Junior-Penetrationstester" es una persona que acaba de iniciarse en este campo y que sólo tiene una mínima experiencia en ciberseguridad.
- 
- ### ¿Qué es HackTheBox?
- 
- **HackTheBox es una plataforma en línea que ofrece soluciones y máquinas virtuales para ayudar a los usuarios a mejorar la ciberseguridad.** Las soluciones van de lo sencillo a lo extremadamente complicado y abarcan un amplio espectro de temas. HackTheBox cuenta con una gran y activa comunidad de usuarios y ofrece opciones de suscripción tanto gratuitas como asequibles.
- 
- ### ¿Qué es TryHackMe?
- 
- **TryHackMe es una nueva plataforma en línea que proporciona herramientas y herramientas virtuales para ayudar a los usuarios a mejorar su ciberseguridad.** En comparación con HackTheBox, TryHackMe se centra más en ofrecer una experiencia de aprendizaje eficaz para principiantes. Los requisitos están tan estructurados que los usuarios pueden desarrollar sus habilidades y conocimientos. TryHackMe también cuenta con una gran comunidad de usuarios y ofrece opciones de suscripción tanto gratuitas como asequibles.
- 
- ________________________________________________________________________________________________________________________
- 
- ### Stärken und Schwächen beider
- 
- #### Stärken von HackTheBox
- 
- HackTheBox es lo mejor para los usuarios que ya están familiarizados con los conceptos básicos de la seguridad cibernética y que pueden trabajar con temas complejos. **Además, HackTheBox cuenta con una comunidad grande y activa, lo que significa que existen numerosos recursos a disposición de los usuarios para ayudarles cuando lo necesiten.
- 
- #### Soluciones de HackTheBox
- 
- Una de las características principales de HackTheBox es que **es muy difícil de manejar para los principiantes.** Los requisitos son muy exigentes y pueden resultar frustrantes para los usuarios que no estén familiarizados con los conceptos básicos de seguridad cibernética. Por otra parte, la plataforma no ofrece ningún tipo de guía o estructura, lo que puede resultar muy útil para algunos usuarios.
- 
- #### Marcas de TryHackMe
- 
- TryHackMe es la mejor opción para los usuarios que quieren empezar a trabajar con seguridad cibernética y una experiencia de vida estructurada. **Además, TryHackMe ofrece una serie de consejos y ayuda que pueden resultar muy útiles para los principiantes.
- 
- #### Enlaces de TryHackMe
- 
- Una de las principales ventajas de TryHackMe es que las necesidades de los usuarios avanzados son muy sencillas. Si ya está familiarizado con los conceptos básicos de seguridad cibernética, encontrará que los requisitos de seguridad son muy sencillos y no requieren mucho esfuerzo. Además, **la comunidad de TryHackMe no es tan grande como la de HackTheBox, lo que significa que hay menos recursos a su disposición si no viene a visitarnos**.
- 
- ________________________________________________________________________________________________________________________
- 
- #### HackTheBox-Herausforderungen
- 
- HackTheBox-Herausforderungen se han diseñado para que sean lo más reales posible. Esto significa que, una vez asumida una tarea, se deben desarrollar requisitos que sean directamente aplicables a tareas cibernéticas reales. Si los requisitos son tan complicados, **debe ser creativo y tratar de resolverlos.** Estos requisitos están muy presentes en la industria de la ciberseguridad.
- 
- #### Probieren Sie HackMe-Herausforderungen aus
- 
- TryHackMe-Herausforderungen sind so konzipiert, dass sie auf reale Szenarien anwendbar sind, aber sie konzentrieren sich mehr auf den Aufbau grundlegender Fähigkeiten. **Las necesidades están estructuradas de tal manera que los usuarios pueden desarrollar sus habilidades y su conocimiento de forma gradual.** Además, TryHackMe ofrece muchos consejos y ayuda, lo que puede resultar muy útil para los principiantes que no saben cómo empezar.
- 
- ________________________________________________________________________________________________________________________
- 
- ###Vergleich
- 
- Tanto HackTheBox como TryHackMe son excelentes plataformas para aprender ciberseguridad, pero están diseñadas para distintos tipos de usuarios. HackTheBox es la mejor solución para los usuarios que ya están familiarizados con los conceptos básicos de seguridad cibernética y que pueden utilizarlos para mejorar su seguridad. Por ello, TryHackMe es ideal para los usuarios que empiezan a trabajar con la ciberseguridad y una experiencia de aprendizaje estructurada.
- 
- ###Contraste
- 
- La diferencia entre HackTheBox y TryHackMe es el grado de dificultad. **Por otra parte, HackTheBox no ofrece ninguna guía o estructura que pueda resultar muy útil para algunos usuarios. TryHackMe, por el contrario, ofrece mucha ayuda y asistencia, lo que puede resultar muy útil para los principiantes.
- 
- ###Criterios
- 
- Para saber cuál es la mejor plataforma para aprender a hacer pruebas de penetración para principiantes, revisa los siguientes criterios:
- 
- - Escalabilidad**: ¿Cuál es el nivel de exigencia?
- - Estructura**: ¿Cómo está estructurada la experiencia de aprendizaje?
- - Apoyo**: ¿Qué grado de asesoramiento y asistencia se ofrece?
- - Capacidad de respuesta en el mundo real**: ¿Cuál es la capacidad de respuesta a las necesidades reales en materia de ciberseguridad?
- 
- ###Auswertung
- 
- Estadísticamente, TryHackMe es la mejor plataforma para realizar pruebas de penetración para jóvenes. **Aunque los requisitos son más sencillos que los de HackTheBox, también están tan adaptados a la realidad como para que se puedan cumplir con exactitud, lo que significa que los usuarios pueden realizar pruebas de ciberseguridad en todo el mundo.
- 
- ## Inicio
- 
- En este artículo hemos analizado y evaluado HackTheBox y TryHackMe para determinar cuál es la mejor forma de realizar pruebas de penetración para jóvenes. Dado que ambas plataformas son excelentes para la realización de pruebas de seguridad cibernética, creemos que TryHackMe es la mejor plataforma para principiantes que empiezan en este campo. **Para los usuarios avanzados, que ya están familiarizados con los conceptos básicos de seguridad cibernética, HackTheBox es la mejor opción, ya que las pruebas se amplían y se acercan más a los escenarios reales.
- 
- Independientemente de la plataforma que elija, lo importante es que aprenda y aprenda más. **El ámbito de la ciberseguridad sigue evolucionando y siempre hay algo nuevo que aprender. Mediante el uso de plataformas como HackTheBox y TryHackMe podrás desarrollar las habilidades y conocimientos que necesitas para tener éxito en este apasionante y necesario campo.**
- 
- 
- 
- 
+ **HackTheBox vs. TryHackMe: Was ist das Beste für Junior-Penetrationstests?**  Bevor wir in die Details eintauchen, wollen wir zunächst definieren, was wir unter „Junior“-Penetrationstests verstehen. Typischerweise ist **ein Junior-Penetrationstester jemand, der gerade erst in diesem Bereich anfängt und nur begrenzte Erfahrung mit Cybersicherheit hat.**  ### Was ist HackTheBox?  **HackTheBox ist eine Online-Plattform, die Herausforderungen und virtuelle Maschinen bereitstellt, um Benutzern beim Erlernen von Cybersicherheitsfähigkeiten zu helfen.** Die Herausforderungen reichen von einfach bis extrem schwierig und decken ein breites Spektrum an Themen ab, z mehr. HackTheBox hat eine große und aktive Community von Benutzern und bietet sowohl kostenlose als auch kostenpflichtige Abonnementoptionen.  ### Was ist TryHackMe?  **TryHackMe ist eine weitere Online-Plattform, die Herausforderungen und virtuelle Maschinen bereitstellt, um Benutzern beim Erlernen von Cybersicherheitsfähigkeiten zu helfen.** Im Gegensatz zu HackTheBox konzentriert sich TryHackMe mehr auf die Bereitstellung einer geführten Lernerfahrung für Anfänger. Die Herausforderungen sind so strukturiert, dass die Benutzer ihre Fähigkeiten und ihr Wissen aufbauen können. TryHackMe hat auch eine große Benutzergemeinschaft und bietet sowohl kostenlose als auch kostenpflichtige Abonnementoptionen an.  ________________________________________________________________________________________________________________________  ### Stärken und Schwächen beider  #### Stärken von HackTheBox  HackTheBox eignet sich am besten für Benutzer, die bereits mit einfachen Cybersicherheitskonzepten vertraut sind und sich mit fortgeschritteneren Themen herausfordern möchten. **Die Herausforderungen sind extrem schwierig und erfordern von den Benutzern kreatives und unkonventionelles Denken.** Darüber hinaus verfügt HackTheBox über eine große und aktive Community, was bedeutet, dass zahlreiche Ressourcen zur Verfügung stehen, um den Benutzern zu helfen, wenn sie verfügbar sind gesteckt.  #### Schwächen von HackTheBox  Eine der Hauptschwächen von HackTheBox ist, dass **es für Anfänger sehr schwierig sein kann.** Die Herausforderungen sind herausfordernd und können frustrierend für Benutzer sein, die mit einfachen Cybersicherheitskonzepten noch nicht vertraut sind. Darüber hinaus bietet die Plattform Nicht viel Anleitung oder Struktur, was für einige Benutzer überwältigend sein kann.  #### Stärken von TryHackMe  TryHackMe eignet sich am besten für Benutzer, die gerade erst mit Cybersicherheit beginnen und eine strukturierte Lernerfahrung wünschen. **Die Herausforderungen sind so konzipiert, dass sie aufeinander aufbauen, was bedeutet, dass Benutzer ihre Fähigkeiten und ihr Wissen schrittweise ausbauen können.** Darüber hinaus bietet TryHackMe viele Anleitungen und Unterstützung, was für Anfänger sehr hilfreich sein kann.  #### Schwächen von TryHackMe  Eine der Hauptschwächen von TryHackMe ist, dass die Herausforderungen für fortgeschrittene Benutzer zu einfach sein können. Wenn Sie bereits mit einfachen Cybersicherheitskonzepten vertraut sind, finden Sie die Herausforderungen möglicherweise zu einfach und nicht herausfordernd genug. Außerdem ist **die Community von TryHackMe nicht so groß wie die von HackTheBox, was bedeutet, dass möglicherweise weniger Ressourcen zur Verfügung stehen, wenn Sie nicht weiterkommen.**  ________________________________________________________________________________________________________________________  #### HackTheBox-Herausforderungen  HackTheBox-Herausforderungen sind so konzipiert, dass sie so realitätsnah wie möglich sind. Das bedeutet, dass Sie nach Abschluss einer Herausforderung Fähigkeiten entwickeln, die direkt auf reale Cybersicherheitsherausforderungen anwendbar sind. Da die Herausforderungen so schwierig sind, **müssen Sie außerdem kreativ sein und über den Tellerrand hinausschauen, um sie zu lösen.** Diese Fähigkeiten werden in der Cybersicherheitsbranche sehr geschätzt.  #### Probieren Sie HackMe-Herausforderungen aus  TryHackMe-Herausforderungen sind auch so konzipiert, dass sie auf reale Szenarien anwendbar sind, aber sie konzentrieren sich mehr auf den Aufbau grundlegender Fähigkeiten. **Die Herausforderungen sind so strukturiert, dass Benutzer ihre Fähigkeiten und ihr Wissen schrittweise aufbauen können.** Darüber hinaus bietet TryHackMe viele Anleitungen und Unterstützung, was für Anfänger, die möglicherweise nicht wissen, wo sie anfangen sollen, sehr hilfreich sein kann.  ________________________________________________________________________________________________________________________  ###Vergleich  Sowohl HackTheBox als auch TryHackMe sind hervorragende Plattformen zum Erlernen von Cybersicherheitsfähigkeiten, aber sie sind für unterschiedliche Arten von Benutzern konzipiert. HackTheBox eignet sich am besten für Benutzer, die bereits mit einfachen Cybersicherheitskonzepten vertraut sind und sich mit fortgeschritteneren Themen herausfordern möchten. TryHackMe dagegen eignet sich am besten für Benutzer, die gerade erst mit Cybersicherheit und einer strukturierteren Lernerfahrung beginnen möchten.  ###Kontrast  Der Hauptunterschied zwischen HackTheBox und TryHackMe ist der Schwierigkeitsgrad. **HackTheBox-Herausforderungen sind extrem schwierig, während TryHackMe-Herausforderungen für Anfänger zugänglich sind.** Darüber hinaus bietet HackTheBox nicht viel Anleitung oder Struktur, was für einige Benutzer überwältigend sein kann. TryHackMe hingegen bietet viel Anleitung und Unterstützung, was für Anfänger sehr hilfreich sein kann.  ###Kriterien  Um zu beurteilen, welche Plattform am besten zum Lernen von Junior-Penetrationstests geeignet ist, berücksichtigen wir die folgenden Kriterien:  - **Schwierigkeit**: Wie herausfordernd sind die Herausforderungen? - **Struktur**: Wie strukturiert ist die Lernerfahrung? - **Support**: Wie viel Beratung und Support wird bereitgestellt? - **Anwendbarkeit in der realen Welt**: Wie anwendbar sind die erlernten Fähigkeiten auf reale Cybersicherheitsherausforderungen?  ###Auswertung  Statistisch auf diesen Kriterien glauben wir, dass TryHackMe die beste Plattform zum Erlernen von Penetrationstests für Junioren ist. **Die Herausforderungen sind so konzipiert, dass sie für Anfänger zugänglich sind, und die Lernerfahrung ist gut strukturiert mit viel Anleitung und Unterstützung.** Obwohl die Herausforderungen einfacher sind möglicherweise als sterben auf HackTheBox, sind sie dennoch so konzipiert, dass sie auf sterben Realität Anwendbarkeit sind -World-Cybersicherheitsszenarien, was bedeutet, dass Benutzer Fähigkeiten entwickeln, die direkt auf die Branche anwendbar sind.  ## Abschluss  In diesem Artikel haben wir HackTheBox und TryHackMe erfasst und bewertet, welches am besten zum Erlernen von Penetrationstests für Junioren geeignet ist. Während beide Plattformen hervorragend zum Erlernen von Cybersicherheitsfähigkeiten geeignet sind, glauben wir, dass TryHackMe die beste Plattform für Anfänger ist, die gerade erst in diesem Bereich beginnen. **Mit seiner strukturierten Lernerfahrung und zahlreichen Anleitungen und bietet TryHackMe einen hervorragenden Ausgangspunkt für alle, die in Penetrationstests einsteigen möchten.** Für fortgeschrittene Benutzer, die bereits mit grundlegenden Cybersicherheitskonzepten vertraut sind, ist HackTheBox möglicherweise besser geeignet Option, da die Unterstützungen erschweren und näher an realen Szenarien sind.  Egal für welche Plattform Sie sich entscheiden, das Wichtigste ist, weiter zu lernen und zu üben. **Der Bereich der Cybersicherheit entwickelt sich weiter und es gibt ständig etwas Neues zu lernen. Durch die Nutzung von Plattformen wie HackTheBox und TryHackMe können Sie die Fähigkeiten und Kenntnisse entwickeln, die Sie benötigen, um in diesem spannenden und herausfordernden Bereich erfolgreich zu sein.**    

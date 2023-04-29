@@ -1,13 +1,13 @@
 ---
-title: "Control de acceso eficaz: Buenas prácticas para la seguridad informática"
+title: "Effective Access Control: Best Practices for IT Security"
 date: 2023-04-13
 toc: true
 draft: false
-descripción: "Aprenda a proteger los datos y sistemas sensibles implementando medidas eficaces de control de acceso para su entorno de TI."
-tags: ["Control de acceso", "Seguridad informática", "Ciberseguridad", "Contraseñas", "Autenticación biométrica", "Control de acceso basado en roles", "Autenticación multifactor", "Protección de datos", "Evaluación de riesgos", "Formación de empleados", "Herramientas de auditoría", "Herramientas de elaboración de informes", "Pruebas de penetración", "Evaluación de vulnerabilidades",
-"Control de acceso físico", "Control de acceso lógico", "Cumplimiento de la normativa", "HIPAA", "GDPR"].
-cover: "/img/cover/Puerta_cerrada_con_escáner_de_huellas.png"
-coverAlt: "Una puerta cerrada con un escáner de huellas dactilares como único medio para entrar".
+description: "Learn how to protect sensitive data and systems by implementing effective access control measures for your IT environment."
+tags: ["Access control", "IT security", "Cybersecurity", "Passwords", "Biometric authentication", "Role-based access control", "Multi-factor authentication", "Data protection", "Risk assessment", "Employee training", "Auditing tools", "Reporting tools", "Penetration testing", "Vulnerability assessment",
+"Physical access control", "Logical access control", "Compliance regulations", "HIPAA", "GDPR"]
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+coverAlt: "A locked door with a fingerprint scanner as the only means to gain entry."
 coverCaption: ""
 ---
 

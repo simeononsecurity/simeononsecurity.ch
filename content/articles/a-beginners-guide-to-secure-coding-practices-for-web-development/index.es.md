@@ -1,78 +1,12 @@
 ---
-title: "Prácticas de codificación seguras para el desarrollo web: Guía para principiantes"
+title: "Secure Coding Practices for Web Development: A Beginner's Guide"
 date: 2023-03-14
 toc: true
 draft: false
-descripción: "Aprende prácticas esenciales de codificación segura para el desarrollo web con el fin de crear aplicaciones web seguras y reducir el riesgo de ciberataques."
-tags: ["Prácticas de codificación segura", "Desarrollo web", "Panorama de la ciberseguridad", "OWASP Top Ten", "Ataques de inyección SQL", "XSS", "CSRF", "Ciclo de vida de desarrollo seguro", "Validación de entrada", "Escapado de salida", "Protocolos de comunicación seguros", "Controles de acceso", "Almacenamiento y tratamiento de datos", "Mínimos privilegios", "Cifrado de contraseñas", "Cifrado de datos", "Declaraciones preparadas", "Datos sensibles", "Ciberataques", "Seguridad web"].
+description: "Learn essential secure coding practices for web development to build secure web applications and reduce the risk of cyber attacks."
+tags: ["Secure Coding Practices", "Web Development", "Cybersecurity Landscape", "OWASP Top Ten", "SQL Injection Attacks", "XSS", "CSRF", "Secure Development Lifecycle", "Input Validation", "Output Escaping", "Secure Communication Protocols", "Access Controls", "Data Storage and Handling", "Least Privilege", "Password Hashing", "Data Encryption", "Prepared Statements", "Sensitive Data", "Cyber Attacks", "Web Security"]
 cover: "/img/cover/A_cartoon_developer_standing_confidently_in_front_of_a_shield.png"
-coverAlt: "Un desarrollador de dibujos animados parado con confianza frente a un escudo con el símbolo de un candado mientras sostiene un ordenador portátil".
+coverAlt: "A cartoon developer standing confidently in front of a shield with a lock symbol while holding a laptop."
 coverCaption: ""
 ---
-
-En la era digital actual, el desarrollo web es un campo en rápido crecimiento. Los sitios web y las aplicaciones son un componente vital de las empresas y organizaciones, y como tal, la **seguridad** es de suma importancia. En esta guía para principiantes, exploraremos algunas **prácticas de codificación seguras** esenciales a seguir en el desarrollo web. Al final de este artículo, usted tendrá una sólida comprensión de cómo construir aplicaciones web seguras y reducir el riesgo de ataques cibernéticos.
-
-## Comprender lo básico
-
-Antes de profundizar en las prácticas de codificación segura, es importante tener una comprensión básica del **panorama de la ciberseguridad**. Los **ciberataques** son una amenaza constante y, como desarrollador web, debes tomar las medidas necesarias para proteger tu sitio web y los datos de los usuarios.
-
-### Ciberataques comunes
-
-Algunos tipos comunes de ciberataques incluyen:
-
-- **Ataques de inyección SQL**: Los atacantes utilizan la inyección SQL para acceder a datos sensibles de las bases de datos. Este ataque puede prevenirse validando la entrada del usuario y utilizando consultas parametrizadas.
-- Secuencias de comandos en sitios cruzados (XSS)**: Los atacantes inyectan scripts maliciosos en las páginas web para robar datos de los usuarios o secuestrar sus sesiones. Este ataque puede evitarse desinfectando la entrada del usuario y codificando la salida.
-- Falsificación de petición en sitios cruzados (CSRF)**: Los atacantes engañan a los usuarios para que ejecuten acciones no deseadas en una aplicación web. Este ataque puede prevenirse utilizando tokens anti-CSRF y validando el origen de la petición.
-
-### OWASP Top Ten
-
-El **Open Web Application Security Project (OWASP)** publica una lista de los diez riesgos más críticos para la seguridad de las aplicaciones web. Estos incluyen:
-
-1. [**Fallas de inyección**](https://owasp.org/www-community/Injection_Flaws)
-2. 2. [**Fallas en la autenticación y gestión de sesiones**](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication.html)
-3. 3. [**Secuencias de comandos en sitios cruzados (XSS)**](https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS).html)
-4. [Controles de acceso rotos**](https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html)
-5. 5. [**Configuraciones erróneas de seguridad**](https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html)
-6. [Almacenamiento criptográfico inseguro**](https://owasp.deteact.com/cheat/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)
-7. [Protección insuficiente de la capa de transporte**](https://owasp.org/www-project-mobile-top-10/2014-risks/m3-insufficient-transport-layer-protection)
-8. [**Manejo inadecuado de errores**](https://owasp.org/www-community/Improper_Error_Handling)
-9. 9. [Comunicación insegura entre componentes**](https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication)
-10. 10. [Calidad deficiente del código**](https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality)
-
-## Mejores prácticas
-
-### Utilizar un ciclo de vida de desarrollo seguro (SDLC)
-
-Un [**Ciclo de vida de desarrollo seguro (SDLC)**](https://en.wikipedia.org/wiki/Systems_development_life_cycle) es un conjunto de procesos que integra la seguridad en el proceso de desarrollo. Esto ayuda a identificar y mitigar los riesgos de seguridad en una fase temprana del ciclo de desarrollo. Un SDLC incluye las siguientes fases:
-
-1. **Planificación**
-2. **Recopilación de requisitos
-3. **3. Diseño
-4. **Implementación
-5. **5. Pruebas
-6. **Despliegue
-7. **Mantenimiento
-
-### Validar Entrada y Escape de Salida
-
-**La validación de la entrada es el proceso de comprobación de la entrada del usuario para asegurar que se ajusta a los formatos y valores de datos esperados. **El escape de salida** es el proceso de codificar los datos para evitar que sean interpretados como código. La validación correcta de la entrada y el escape de la salida pueden evitar inyecciones SQL, XSS y otros tipos de ataques.
-
-### Utilizar protocolos de comunicación seguros
-
-Las aplicaciones web deben utilizar **protocolos de comunicación seguros** como HTTPS para cifrar los datos en tránsito. HTTPS asegura que los datos no puedan ser interceptados o modificados por atacantes. Además, es esencial utilizar mecanismos de autenticación seguros como OAuth, OpenID o SAML.
-
-### Implementar controles de acceso
-
-**Los controles de acceso** se utilizan para limitar el acceso a los recursos en función de los roles y permisos de los usuarios. Unos controles de acceso adecuados pueden evitar el acceso no autorizado a datos y funcionalidades sensibles. También es importante seguir el principio de **menor privilegio**, que significa conceder a los usuarios sólo los permisos mínimos necesarios para realizar sus tareas.
-
-### Almacenamiento y manejo seguro de datos
-
-Los datos sensibles como contraseñas, información de tarjetas de crédito e información personal deben almacenarse de forma segura. Las contraseñas deben tener hash y sal, y la información de las tarjetas de crédito debe estar encriptada. Además, es importante manejar los datos de forma segura mediante la validación de la entrada del usuario, el uso de declaraciones preparadas, y la eliminación adecuada de los datos sensibles.
-
-______
-
-En conclusión, la seguridad de las aplicaciones web es crucial, y como desarrollador web, es tu responsabilidad asegurarte de que tus aplicaciones son seguras. Siguiendo estas **prácticas de codificación segura** y manteniéndote al día de las últimas amenazas y contramedidas de seguridad, puedes ayudar a proteger tu sitio web y los datos de los usuarios de los ciberataques. Recuerde, la seguridad no es un esfuerzo de una sola vez, sino un proceso continuo que requiere atención y esfuerzo continuos.
-
-## Referencias
-
-- Proyecto OWASP Top Ten. (s.f.). Obtenido el 28 de febrero de 2023, del sitio Web: https://owasp.org/Top10/.
+ En la era digital actual, el desarrollo web es un campo en rápido crecimiento. Los sitios web y las aplicaciones son un componente vital de las empresas y organizaciones y, como tales, la **seguridad** es de suma importancia. En esta guía para principiantes, exploraremos algunas **prácticas de codificación segura** esenciales para seguir en el desarrollo web. Al final de este artículo, tendrá una sólida comprensión de cómo crear aplicaciones web seguras y reducir el riesgo de ataques cibernéticos.  ## Comprender los conceptos básicos  Antes de profundizar en las prácticas de codificación segura, es importante tener una comprensión básica del **panorama de la ciberseguridad**. Los **ataques cibernéticos** son una amenaza constante y, como desarrollador web, debe tomar las medidas necesarias para proteger su sitio web y los datos de los usuarios.  ### Ataques cibernéticos comunes  Algunos tipos comunes de ataques cibernéticos incluyen:  - **Ataques de inyección de SQL**: los atacantes utilizan la inyección de SQL para acceder a datos confidenciales de las bases de datos. Este ataque se puede prevenir validando la entrada del usuario y utilizando consultas parametrizadas. - **Secuencias de comandos entre sitios (XSS)**: los atacantes inyectan secuencias de comandos maliciosas en las páginas web para robar datos de usuarios o secuestrar sesiones de usuarios. Este ataque se puede prevenir desinfectando la entrada del usuario y codificando la salida. - **Falsificación de solicitud entre sitios (CSRF)**: los atacantes engañan a los usuarios para que ejecuten acciones no deseadas en una aplicación web. Este ataque se puede prevenir utilizando tokens anti-CSRF y validando el origen de la solicitud.  ### Los diez mejores de OWASP  El **Proyecto de seguridad de aplicaciones web abiertas (OWASP)** publica una lista de los diez riesgos de seguridad de aplicaciones web más críticos. Éstas incluyen:  1. [**Defectos de inyección**](https://owasp.org/www-community/Injection_Flaws) 2. [**Autenticación y gestión de sesiones rotas**](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication.html) 3. [**Secuencias de comandos entre sitios (XSS)**](https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS).html) 4. [**Controles de acceso rotos**](https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html) 5. [**Configuraciones incorrectas de seguridad**](https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html) 6. [**Almacenamiento criptográfico no seguro**](https://owasp.deteact.com/cheat/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html) 7. [**Protección de capa de transporte insuficiente**](https://owasp.org/www-project-mobile-top-10/2014-risks/m3-insufficient-transport-layer-protection) 8. [**Manejo incorrecto de errores**](https://owasp.org/www-community/Improper_Error_Handling) 9. [**Comunicación insegura entre componentes**](https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication) 10. [**Calidad de código pobre**](https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality)  ## Mejores prácticas  ### Utilice un ciclo de vida de desarrollo seguro (SDLC)  Un [**Ciclo de vida de desarrollo seguro (SDLC)**](https://en.wikipedia.org/wiki/Systems_development_life_cycle) es un conjunto de procesos que integra la seguridad en el proceso de desarrollo. Esto ayuda a identificar y mitigar los riesgos de seguridad en las primeras etapas del ciclo de desarrollo. Un SDLC incluye las siguientes fases:  1. **Planificación** 2. **Recopilación de requisitos** 3. **Diseño** 4. **Implementación** 5. **Pruebas** 6. **Despliegue** 7. **Mantenimiento**  ### Validar entrada y salida de escape  **Validación de entrada** es el proceso de verificar la entrada del usuario para garantizar que se ajuste a los formatos y valores de datos esperados. **Escape de salida** es el proceso de codificación de datos para evitar que se interprete como código. La validación adecuada de la entrada y el escape de la salida pueden evitar la inyección de SQL, XSS y otros tipos de ataques.  ### Usar protocolos de comunicación seguros  Las aplicaciones web deben usar **protocolos de comunicación seguros** como HTTPS para cifrar los datos en tránsito. HTTPS garantiza que los atacantes no puedan interceptar ni modificar los datos. Además, es fundamental utilizar mecanismos de autenticación seguros como OAuth, OpenID o SAML.  ### Implementar controles de acceso  **Los controles de acceso** se utilizan para limitar el acceso a los recursos según las funciones y los permisos de los usuarios. Los controles de acceso adecuados pueden evitar el acceso no autorizado a datos y funciones confidenciales. También es importante seguir el principio de **privilegio mínimo**, lo que significa otorgar a los usuarios solo los permisos mínimos necesarios para realizar sus tareas.  ### Almacenamiento y manejo seguro de datos  Los datos confidenciales, como contraseñas, información de tarjetas de crédito e información personal, deben almacenarse de forma segura. Las contraseñas deben ser codificadas y saladas, y la información de la tarjeta de crédito debe estar encriptada. Además, es importante manejar los datos de forma segura mediante la validación de la entrada del usuario, el uso de declaraciones preparadas y la eliminación adecuada de los datos confidenciales.  ______  En conclusión, la seguridad de las aplicaciones web es crucial y, como desarrollador web, es su responsabilidad asegurarse de que sus aplicaciones sean seguras. Si sigue estas **prácticas de codificación segura** y se mantiene actualizado con las últimas amenazas y contramedidas de seguridad, puede ayudar a proteger su sitio web y los datos de los usuarios de los ataques cibernéticos. Recuerde, la seguridad no es un esfuerzo de una sola vez, sino un proceso continuo que requiere atención y esfuerzo continuos.  ## Referencias  - Proyecto OWASP Top Ten. (Dakota del Norte.). Recuperado el 28 de febrero de 2023, de https://owasp.org/Top10/

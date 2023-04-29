@@ -1,122 +1,122 @@
 ---
-title: "Construyendo contenedores Docker eficientes y seguros: Guía para principiantes"
+title: "Building Efficient and Secure Docker Containers: A Guide for Beginners"
 date: 2023-02-24
 toc: true
 draft: false
-descripción: "Aprende a crear contenedores Docker eficientes y seguros utilizando las mejores prácticas, consejos e instrucciones paso a paso en esta completa guía."
-tags: ["docker", "containers", "containerization", "devops", "deployment", "portability", "efficiency", "security", "best practices", "Dockerfile", "base images", "environment variables", "volume mounts", "root user", "up-to-date images", "software development", "container images", "Docker Hub", "container orchestration", "Kubernetes"].
-cover: "/img/cover/A_3D_imagen_animada_de_un_contenedor_seguro_bien_organizado.png"
-coverAlt: "Imagen animada en 3D de un contenedor seguro y bien organizado con el logotipo de Docker sobre él, rodeado de diversas herramientas y equipos relacionados con la ingeniería de software y DevOps."
+description: "Learn how to create efficient and secure Docker containers using best practices, tips, and step-by-step instructions in this comprehensive guide."
+tags: ["docker", "containers", "containerization", "devops", "deployment", "portability", "efficiency", "security", "best practices", "Dockerfile", "base images", "environment variables", "volume mounts", "root user", "up-to-date images", "software development", "container images", "Docker Hub", "container orchestration", "Kubernetes"]
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+coverAlt: "A 3D animated image of a secure, well-organized container with the Docker logo on it, surrounded by various tools and equipment related to software engineering and DevOps."
 coverCaption: ""
 ---
 ```bash
 FROM ubuntu:latest
-EJECUTAR apt-get update && apt-get install -y nginx
-COPIAR index.html /var/www/html/
+RUN apt-get update && apt-get install -y nginx
+COPY index.html /var/www/html/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 ```bash
 docker run -d -p 80:80 my-nginx-image
 ```
-``dockerfile
-RUN apt update
+```dockerfile
+RUN apt update 
 RUN apt install apache -y
 ```
-``dockerfile
+```dockerfile
 RUN apt update && apt install apache -y
 ```
-``bash
+```bash
 docker run -e PORT=3000 my-app
 ```
-``Dockerfile
-DESDE nodo:14
+```Dockerfile
+FROM node:14
 
-# Establecer el directorio de trabajo
-directorio de trabajo /app
+# Set the working directory
+WORKDIR /app
 
-# Copiar package.json y yarn.lock al contenedor
-COPIAR package.json yarn.lock ./
+# Copy package.json and yarn.lock to the container
+COPY package.json yarn.lock ./
 
-# Instalar dependencias
-EJECUTAR yarn install --frozen-lockfile
+# Install dependencies
+RUN yarn install --frozen-lockfile
 
-# Copiar el código de la aplicación al contenedor
-COPIAR . .
+# Copy the application code to the container
+COPY . .
 
-# Exponer el puerto de la aplicación
-EXPONER $PUERTO
+# Expose the application port
+EXPOSE $PORT
 
-# Iniciar la aplicación
+# Start the application
 CMD ["yarn", "start"]
 ```
 ```bash
 docker run -v /home/user/app/data:/app/data my-app
 ```
 ```Dockerfile
-DESDE nodo:14
+FROM node:14
 
-# Establecer el directorio de trabajo
-directorio de trabajo /app
+# Set the working directory
+WORKDIR /app
 
-# Copia los ficheros package.json y yarn.lock al contenedor
-COPIAR package.json yarn.lock ./
+# Copy the package.json and yarn.lock files to the container
+COPY package.json yarn.lock ./
 
-# Instale las dependencias
-EJECUTAR yarn install --frozen-lockfile
+# Install dependencies
+RUN yarn install --frozen-lockfile
 
-# Copiar el resto del código de la aplicación al contenedor
-COPIAR . .
+# Copy the rest of the application code to the container
+COPY . .
 
-# Exponer el puerto de la aplicación
-EXPONER 3000
+# Expose the application port
+EXPOSE 3000
 
-# Iniciar la aplicación
+# Start the application
 CMD ["yarn", "start"]
 
-# Montar un volumen para los datos de la aplicación
-VOLUMEN ["/app/data"]
+# Mount a volume for the application data
+VOLUME ["/app/data"]
 ```
 ```Dockerfile
-DESDE nodo:14
+FROM node:14
 
-# Crear un nuevo usuario para ejecutar el contenedor
+# Create a new user to run the container
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Cambia el directorio de trabajo al directorio home del usuario app
+# Change the working directory to the app user's home directory
 WORKDIR /home/app
 
-# Instalar dependencias como usuario de app
-COPIAR package.json yarn.lock ./
-EJECUTAR chown -R app:app /home/app
-USUARIO app
-EJECUTAR yarn install --frozen-lockfile --production
+# Install dependencies as the app user
+COPY package.json yarn.lock ./
+RUN chown -R app:app /home/app
+USER app
+RUN yarn install --frozen-lockfile --production
 
-# Copiar el código de la aplicación como usuario de app
-COPIAR --chown=app:app . .
+# Copy the application code as the app user
+COPY --chown=app:app . .
 
-# Exponer el puerto
-EXPONER 3000
+# Expose the port
+EXPOSE 3000
 
-# Iniciar la aplicación como usuario
+# Start the application as the app user
 CMD ["yarn", "start"]
 ```
 ```Dockerfile
 FROM ubuntu:latest
 
-# Actualizar la lista de paquetes e instalar las actualizaciones de seguridad
+# Update the package list and install security updates
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Instalar el servidor web nginx
+# Install the nginx web server
 RUN apt-get install -y nginx
 
-# Copiar el código de la aplicación al contenedor
-COPIAR . /var/www/html/
+# Copy the application code to the container
+COPY . /var/www/html/
 
-# Exponer el puerto 80 al sistema anfitrión
-EXPONER 80
+# Expose port 80 to the host system
+EXPOSE 80
 
-# Iniciar el servidor nginx
+# Start the nginx server
 CMD ["nginx", "-g", "daemon off;"]
 
 ```

@@ -1,53 +1,13 @@
 ---
-title: "Asegurando sus Estaciones de Trabajo: Una guía basada en las recomendaciones del NIST"
+title: "Securing Your Workstations: A Guide Based on NIST Recommendations"
 date: 2023-02-14
 toc: true
 draft: false
-descripción: "Aprenda a asegurar sus estaciones de trabajo y proteger la información sensible con esta completa guía basada en las recomendaciones del NIST para implementar controles de acceso fuertes, mantener el software actualizado, utilizar software antivirus, habilitar la protección de firewall, implementar el cifrado de datos y realizar copias de seguridad de los datos con regularidad."
-etiquetas: ["recomendaciones del NIST", "seguridad del puesto de trabajo", "ciberseguridad", "cifrado de datos", "protección con cortafuegos", "software antivirus", "controles de acceso", "información sensible", "ciberataques", "copia de seguridad de datos"]
+description: "Learn how to secure your workstations and protect sensitive information with this comprehensive guide based on NIST's recommendations for implementing strong access controls, keeping software up-to-date, using antivirus software, enabling firewall protection, implementing data encryption, and regularly backing up data."
+tags: ["NIST recommendations", "workstation security", "cybersecurity", "data encryption", "firewall protection", "antivirus software", "access controls", "sensitive information", "cyberattacks", "data backup"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
-coverAlt: "Imagen de una persona sentada en su puesto de trabajo con un candado de seguridad en primer plano, indicando la importancia de asegurar los puestos de trabajo."
+coverAlt: "An image of a person sitting at their workstation with a security lock in the foreground, indicating the importance of securing workstations."
 coverCaption: ""
 ---
 
-
- Los puestos de trabajo, que son ordenadores de oficina, portátiles y móviles utilizados por los empleados de una organización, se están convirtiendo cada vez más en blanco de ciberataques. Estos ataques pueden comprometer la confidencialidad, la integridad y la disponibilidad de información sensible, ocasionando daños financieros y de reputación importantes. Para ayudar a las organizaciones a proteger sus puestos de trabajo, el Instituto Nacional de Normas y Tecnología (NIST) ha publicado la versión especial NIST 800-46, Revisión 2, "General Guidance on Securing Workstations".
- 
- ## Comprender el alcance de las amenazas para los puestos de trabajo
- 
- **Los puestos de trabajo son vulnerables a una variedad de ciberamenazas**, incluidos los programas maliciosos, el phishing y los ataques de ingeniería social. Los ciberdelincuentes se aprovechan a menudo de los puestos de trabajo para hacerse con información sensible, como la propiedad intelectual, los datos financieros y la información personal. También pueden utilizar los puestos de trabajo para acceder a la red de la organización y comprometer otros sistemas.
- 
- Además de las amenazas externas, los puestos de trabajo también son vulnerables a las amenazas internas. **Los empleados pueden comprometer involuntaria o intencionadamente la seguridad de los puestos de trabajo** instalando sistemas informáticos no autorizados, exponiendo información sensible o adoptando otros comportamientos de riesgo.
- 
- ## Principales recomendaciones del NIST para la seguridad de los puestos de trabajo
- 
- Los consejos del NIST sobre la seguridad de los puestos de trabajo proporcionan a las organizaciones un marco completo para proteger sus puestos de trabajo y la información sensible que contienen. Estas son algunas de las **recomendaciones del NIST**:
- 
- ### 1. Mettre en place des contrôles d'accès solides
- 
- Las organizaciones deberán **implantar controles de acceso rigurosos** para asegurarse de que sólo las personas autorizadas tienen acceso a los puestos de trabajo y a la información sensible. Esto incluye la utilización de palabras clave falsas, la autenticación por dos personas y la restricción de los privilegios administrativos a determinadas personas seleccionadas.
- 
- ### 2. Mantenga el software actualizado
- 
- Las organizaciones deberán **mantener actualizados todos los programas informáticos instalados en los puestos de trabajo**, incluidos los sistemas de explotación, los navegadores y las aplicaciones. Los programas informáticos obsoletos suelen ser vulnerables a los ataques y pueden ser utilizados por los ciberdelincuentes para acceder a información sensible.
- 
- ### 3. Utiliza un antivirus
- 
- Las organizaciones deben **utilizar un programa antivirus para proteger sus puestos de trabajo contra los programas maliciosos** y otros programas maliciosos. El antivirus debe actualizarse periódicamente para asegurarse de que puede detectar y eliminar las últimas amenazas.
- 
- ### 4. Activar la protección por contraseña
- 
- Las empresas deben **actuar la protección parental en todos los puestos de trabajo** para impedir todo acceso no autorizado a la red. Los pare-feu deben configurarse para bloquear el tráfico entrante procedente de fuentes desconocidas y limitar el tráfico saliente a lo estrictamente necesario.
- 
- ### 5. Poner en marcha el recuento de datos
- 
- Las organizaciones deberán **implantar el registro de datos para proteger la información sensible sobre los puestos de trabajo**. Esto incluye el registro de datos en reposo y en tránsito.
- 
- ### 6. Sauvegardez régulièrement les données
- 
- Las organizaciones deberán **guardar regularmente los datos transferidos a los puestos de trabajo** para minimizar el impacto de la pérdida de datos en caso de ciberataque. Las salvaguardas deben estar fuera del sitio y encriptadas para proteger la información sensible.
- 
- ## Conclusión
- 
- Los puestos de trabajo desempeñan un papel esencial en las organizaciones, ya que a menudo se utilizan para almacenar y tratar información confidencial. Para minimizar el riesgo de ciberataques, las organizaciones deben seguir las directrices del NIST sobre la seguridad de los puestos de trabajo, que proporcionan un marco completo para la protección de estos aparatos y de la información sensible que contienen. Las empresas pueden ayudar a proteger sus puestos de trabajo y su información sensible frente a los cibermenazas utilizando controles de acceso sólidos, manteniendo los programas informáticos actualizados, utilizando un programa antivirus, activando la protección por contraseña, criptando los datos y protegiéndolos periódicamente.
- 
+ Les postes de travail, qui sont des ordinateurs de bureau, des ordinateurs portables et des appareils mobiles utilisés par les employés d'une organisation, deviennent de plus en plus la cible de cyberattaques. Ces attaques peuvent compromettre la confidentialité, l'intégrité et la disponibilité d'informations sensibles, entraînant des dommages financiers et de réputation importants. Pour aider les organisations à sécuriser leurs postes de travail, le National Institute of Standards and Technology (NIST) a publié la publication spéciale NIST 800-46 Révision 2, « General Guidance on Securing Workstations ».  ## Comprendre le paysage des menaces pour les postes de travail  **Les postes de travail sont vulnérables à une variété de cybermenaces**, y compris les logiciels malveillants, le phishing et les attaques d'ingénierie sociale. Les cybercriminels ciblent souvent les postes de travail pour voler des informations sensibles, telles que la propriété intellectuelle, les données financières et les informations personnelles. Ils peuvent également utiliser les postes de travail pour accéder au réseau de l'organisation et compromettre d'autres systèmes.  Outre les menaces externes, les postes de travail sont également vulnérables aux menaces internes. **Les employés peuvent involontairement ou intentionnellement compromettre la sécurité des postes de travail** en installant des logiciels non autorisés, en exposant des informations sensibles ou en adoptant d'autres comportements à risque.  ## Principales recommandations du NIST pour la sécurisation des postes de travail  Les conseils du NIST sur la sécurisation des postes de travail fournissent aux organisations un cadre complet pour protéger leurs postes de travail et les informations sensibles qu'ils contiennent. Voici quelques-unes des **recommandations clés du NIST** :  ### 1. Mettre en place des contrôles d'accès solides  Les organisations doivent **mettre en place des contrôles d'accès rigoureux** pour s'assurer que seules les personnes autorisées ont accès aux postes de travail et aux informations sensibles. Cela comprend la mise en œuvre de mots de passe forts, une authentification à deux facteurs et la restriction des privilèges administratifs à quelques personnes sélectionnées.  ### 2. Gardez le logiciel à jour  Les organisations doivent **maintenir à jour tous les logiciels installés sur les postes de travail**, y compris les systèmes d'exploitation, les navigateurs et les applications. Les logiciels obsolètes sont souvent vulnérables aux exploits et peuvent être utilisés par les cybercriminels pour accéder à des informations sensibles.  ### 3. Utilisez un logiciel antivirus  Les organisations doivent **utiliser un logiciel antivirus pour protéger les postes de travail contre les logiciels malveillants** et autres logiciels malveillants. Le logiciel antivirus doit être mis à jour régulièrement pour s'assurer qu'il peut détecter et supprimer les dernières menaces.  ### 4. Activer la protection par pare-feu  Les entreprises doivent **activer la protection par pare-feu sur tous les postes de travail** pour empêcher tout accès non autorisé au réseau. Les pare-feu doivent être configurés pour bloquer le trafic entrant provenant de sources inconnues et limiter le trafic sortant uniquement à ce qui est nécessaire.  ### 5. Mettre en œuvre le chiffrement des données  Les organisations doivent **implémenter le chiffrement des données pour protéger les informations sensibles sur les postes de travail**. Cela inclut le chiffrement des données au repos et en transit.  ### 6. Sauvegardez régulièrement les données  Les organisations doivent **sauvegarder régulièrement les données transférées sur les postes de travail** afin de minimiser l'impact de la perte de données en cas de cyberattaque. Les sauvegardes doivent être rendues hors site et cryptées pour protéger les informations sensibles.  ## Conclusion  Les postes de travail jouent un rôle essentiel dans les organisations, car ils sont souvent utilisés pour stocker et traiter des informations sensibles. Pour minimiser le risque de cyberattaques, les organisations doivent suivre les directives du NIST sur la sécurisation des postes de travail, qui fournissent un cadre complet pour la protection de ces appareils et des informations sensibles qu'ils contiennent. En mettant en œuvre des contrôles d'accès solides, en gardant les logiciels à jour, en utilisant un logiciel antivirus, en activant la protection par pare-feu, en mettant en œuvre le cryptage des données et en sauvegardant régulièrement les données, les entreprises peuvent aider à protéger leurs postes de travail et leurs informations sensibles contre les cybermenaces. 

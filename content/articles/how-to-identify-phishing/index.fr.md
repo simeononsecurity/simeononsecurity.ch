@@ -1,71 +1,13 @@
 ---
-title: "Cómo identificar correos electrónicos, mensajes de texto y llamadas de phishing"
+title: "How to Identify Phishing Emails, Texts, and Calls"
 date: 2023-03-01
 toc: true
 draft: false
-description: "Aprende a identificar intentos de phishing en correos electrónicos, textos y llamadas para mantener a salvo tu información personal".
-tags: ["phishing", "seguridad en línea", "seguridad del correo electrónico", "ciberseguridad", "seguridad en Internet", "correos electrónicos de phishing", "mensajes de texto de phishing", "llamadas de phishing", "amenazas digitales", "robo de identidad", "protección de datos", "fraude en línea", "estafas en línea", "privacidad en línea", "consejos de seguridad en línea", "ciberdelincuencia", "seguridad de la información", "seguridad de contraseñas", "seguridad de datos", "concienciación sobre seguridad"].
+description: "Learn how to identify phishing attempts in emails, texts, and calls to keep your personal information safe."
+tags: ["phishing", "online security", "email security", "cybersecurity", "internet safety", "phishing emails", "phishing texts", "phishing calls", "digital threats", "identity theft", "data protection", "online fraud", "online scams", "online privacy", "online safety tips", "cybercrime", "information security", "password security", "data security", "security awareness"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
-coverAlt: "Imagen de un personaje de dibujos animados con un disfraz de superhéroe y un escudo bloqueando una caña de pescar con un correo electrónico de phishing".
+coverAlt: "An image of a cartoon character with a superhero costume and a shield blocking a fishing rod with a phishing email on it."
 coverCaption: ""
 ---
 
-{{< youtube id="GVv833KHqZc" >}}
- 
- 
- En el mundo digital de hoy en día, es más importante que nunca poder identificar los correos electrónicos, los SMS y las solicitudes de **hameçonnage**. Estos mensajes fraudulentos están diseñados para obtener información personal, como su contraseña, número de tarjeta de crédito o número de seguridad social. Aquí tienes algunos consejos sobre cómo identificar las tentativas de phishing, para que puedas proteger tu información.
- 
- ## Recordar
- 
- Cuando se trata de identificar las tentativas de suplantación de identidad, la primera etapa consiste en **recordar** que existen. Las tentativas de phishing son frecuentes y se encuentran en los correos electrónicos, los SMS y las llamadas telefónicas. Siempre debes evitar cualquier mensaje que solicite información personal, incluso si parece provenir de una fuente fiable.
- 
- ## Comprensión
- 
- La etapa siguiente consiste en **comprender** los tipos de mensajes utilizados en los intentos de conexión. Existen algunos tipos comunes, por ejemplo :
- 
- - Correos electrónicos que parecen proceder de una entidad financiera y en los que se le pide que actualice la información de su cuenta.
- - Mensajes de texto que contienen un enlace a un sitio Web falso, en los que se le pide que confirme sus datos de conexión.
- - Llamadas telefónicas de personas que afirman pertenecer a una empresa, solicitando información personal
- 
- ## En curso de análisis
- 
- Durante el análisis de un mensaje en busca de indicios de incitación al odio, hay algunos elementos clave que hay que buscar. Estos son algunos consejos para identificar correos electrónicos, SMS y aplicaciones de phishing.
- 
- ### E-mails de suplantación de identidad
- 
- Los correos electrónicos de incitación al spam están diseñados para dar la impresión de ser de una empresa legal, pero a menudo contienen **signos de alerta** que indican que no lo son. He aquí algunos elementos de búsqueda:
- 
- - La dirección de correo electrónico del remitente no procede de la empresa a la que pretende pertenecer.
- - El correo electrónico le pide que ponga al día la información de su cuenta o que proporcione información personal
- - El correo electrónico contiene errores ortográficos o gramaticales
- - El correo electrónico contiene un saludo genérico, como "Cher client", en lugar de su nombre
- - El correo electrónico contiene una pieza adjunta o un enlace sospechoso
- 
- ### Textes d'hameçonnage
- 
- Los SMS de phishing son similares a los correos electrónicos de phishing, pero a menudo contienen un **enlace** a un sitio web falso. Aquí tienes algunos elementos que puedes buscar:
- 
- - El texto le pide que haga clic en un enlace a un sitio web.
- - El sitio no utiliza una conexión segura (https)
- - El sitio le pide que proporcione sus datos de conexión o información personal.
- - El sitio web contiene errores ortográficos o gramaticales.
- 
- ### Appels d'hameçonnage
- 
- Las direcciones de correo electrónico suelen contener **números desconocidos** o números que parecen proceder de una empresa legal. He aquí algunos elementos de búsqueda:
- 
- - El solicitante pide información personal, como su número de seguridad social o su número de tarjeta de crédito.
- - El remitente afirma pertenecer a una empresa, pero no aporta ningún dato.
- - El solicitante amenaza con emprender acciones judiciales si no facilita la información solicitada.
- 
- ## Postulant
- 
- Ahora que conoce los tipos de mensajes utilizados en los intentos de arresto, es el momento de **aplicar** estos conocimientos. Si recibes un mensaje que corresponde a uno de estos tipos, averígualo. Si el mensaje procede de una institución financiera o de otra empresa, no haga clic en ningún enlace y no facilite ninguna información personal. En lugar de ello, llame al servicio de atención al cliente de la empresa para comprobar la autenticidad del mensaje.
- 
- ## Conózcalo
- 
- Una vez que hayas aprendido a identificar correos electrónicos, SMS y aplicaciones de phishing, es importante que compartas tus conocimientos con los demás. Una de las formas más eficaces de hacerlo es hablar con tus amigos y familiares de lo que has aprendido.
- 
- Empieza explicando qué es el phishing y cómo funciona. Muestre ejemplos de correos electrónicos y SMS de phishing, y señale los signos reveladores de que no son legítimos. Insiste en la importancia de no hacer clic nunca en enlaces ni descargar piezas conjuntas procedentes de fuentes desconocidas, y anímales a recurrir al servicio de atención al cliente de la empresa si no están seguros de la autenticidad de un mensaje.
- 
- Si eres menor de edad o menos experto en tecnología, mantente especialmente alerta. Pueden ser más vulnerables a este tipo de ataques y no ser conscientes de los riesgos que conllevan. Compartiendo tus conocimientos y ayudándoles a mantenerse seguros en línea, puedes marcar una verdadera diferencia en su vida.
+{{< youtube id="GVv833KHqZc" >}}   Dans le monde numérique d'aujourd'hui, il est plus important que jamais de pouvoir identifier les e-mails, SMS et appels de **hameçonnage**. Ces messages frauduleux sont conçus pour voler vos informations personnelles, telles que vos mots de passe, numéros de carte de crédit ou numéro de sécurité sociale. Voici quelques conseils sur la façon d'identifier les tentatives de phishing, afin que vous puissiez protéger vos informations.  ## Se souvenir  Lorsqu'il s'agit d'identifier les tentatives d'hameçonnage, la première étape consiste à **se rappeler** qu'elles existent. Les tentatives de phishing sont courantes et se retrouvent dans les e-mails, les SMS et les appels téléphoniques. Vous devez toujours vous méfier de tout message demandant des informations personnelles, même s'il semble provenir d'une source fiable.  ## Compréhension  L'étape suivante consiste à **comprendre** les types de messages utilisés dans les tentatives d'hameçonnage. Il existe quelques types courants, notamment :  - Les e-mails qui semblent provenir d'une institution financière, vous demandant de mettre à jour les informations de votre compte - Messages texte contenant un lien vers un faux site Web, vous demandant de saisir vos informations de connexion - Appels téléphoniques de personnes prétendant appartenir à une entreprise, demandant des informations personnelles  ## En cours d'analyse  Lors de l'analyse d'un message à la recherche de signes d'hameçonnage, il y a quelques **éléments clés** à rechercher. Voici quelques conseils pour identifier les e-mails, SMS et appels de phishing.  ### E-mails d'hameçonnage  Les e-mails d'hameçonnage sont conçus pour donner l'impression qu'ils présentent d'une entreprise légitime, mais ils présentent souvent des **signes révélateurs** indiquant qu'ils ne le sont pas. Voici quelques éléments à rechercher :  - L'adresse e-mail de l'expéditeur ne provient pas de l'entreprise dont il prétend appartenir - L'e-mail vous demande de mettre à jour les informations de votre compte ou de fournir des informations personnelles - L'e-mail contient des fautes d'orthographe ou de grammaire - L'e-mail une salutation générique, telle que "Cher client", au lieu de votre nom - L'e-mail contient une pièce jointe ou un lien suspect  ### Textes d'hameçonnage  Les SMS de phishing sont similaires aux e-mails de phishing, mais ils contiennent souvent un **lien** vers un faux site Web. Voici quelques éléments à rechercher :  - Le texte vous demande de cliquer sur un lien vers un site Web - Le site n'utilise pas de connexion sécurisée (https) - Le site vous demande de saisir vos informations de connexion ou des informations personnelles - Le site Web contient des fautes d'orthographe ou de grammaire  ### Appels d'hameçonnage  Les appels d'hameçonnage se présentent souvent de **numéros inconnus** ou de numéros qui semblent provenir d'une entreprise légitime. Voici quelques éléments à rechercher :  - L'appelant demande des informations personnelles, telles que votre numéro de sécurité sociale ou votre numéro de carte de crédit - L'appelant prétend appartenir à une entreprise, mais n'apporte aucune preuve - L'appelant vous menace de poursuites judiciaires si vous n'avez pas fourni les informations demandées  ## Postulant  Maintenant que vous comprenez les types de messages utilisés dans les tentatives d'hameçonnage, il est temps d'**appliquer** ces connaissances. Si vous recevez un message correspondant à l'un de ces types, méfiez-vous. Si le message provient d'une institution financière ou d'une autre société, ne cliquez sur aucun lien et ne fournissez aucune information personnelle. Au lieu de cela, appelez le service clientèle de l'entreprise pour vérifier l'authenticité du message.  ## Faire connaitre  Maintenant que vous avez appris à identifier les e-mails, SMS et appels de phishing, il est important de partager vos connaissances avec les autres. L'un des moyens les plus efficaces d'y parvenir est de parler à vos amis et aux membres de votre famille de ce que vous avez appris.  Commencez par expliquer ce qu'est le phishing et commentez il fonctionne. Montrez-leur des exemples d'e-mails et de SMS de phishing, et signalez les signes révélateurs qu'ils ne sont pas légitimes. Insistez sur l'importance de ne jamais cliquer sur des liens ou de télécharger des pièces jointes provenant de sources inconnues, et encouragez-les à appeler le service client de l'entreprise s'ils ne sont jamais sûrs de l'authenticité d'un message.  Si vous avez des âges proches ou moins férus de technologie, soyez particulièrement vigilant. Ils peuvent être plus vulnérables à ces types d'attaques et ne pas être conscients des risques encourus. En partageant vos connaissances et en les aidant à rester en sécurité en ligne, vous pouvez faire une réelle différence dans leur vie.

@@ -1,63 +1,12 @@
 ---
-title: "Construcción de un lago de datos basado en la nube seguro y conforme a la normativa: Buenas prácticas para proteger los datos almacenados"
+title: "Building a Secure & Compliant Cloud-Based Data Lake: Best practices for protecting stored data"
 date: 2023-04-16
 toc: true
 draft: false
-descripción: "Conoce las mejores prácticas de seguridad y cumplimiento normativo a la hora de planificar, construir y gestionar lagos de datos basados en la nube en esta completa guía."
-tags: ["lago de datos", "seguridad en la nube", "normativas de cumplimiento", "controles de acceso", "cifrado", "AWS", "Azure", "HIPAA", "GDPR", "monitorización", "parches", "ciberseguridad", "solución SIEM", "equipos de soporte de TI", "panorama de amenazas", "migración a la nube", "gobierno de la nube"].
+description: "Learn about security and compliance best practices when planning, building and managing cloud-based data lakes in this comprehensive guide."
+tags: ["data lake", "cloud security", "compliance regulations", "access controls", "encryption", "AWS", "Azure", "HIPAA", "GDPR", "monitoring", "patching", "cybersecurity", "SIEM solution", "IT support teams", "threat landscape", "cloud migration", "cloud governance"]
 cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
-coverAlt: "Imagen de dibujos animados de un castillo custodiado por un caballero guerrero, que simboliza el concepto de protección sólida para un almacenamiento seguro y conforme a las normas basadas en la nube"
+coverAlt: "A cartoon image of a castle being guarded by a warrior knight, symbolizing the concept of strong protection for secure and compliant cloud-based storage"
 coverCaption: ""
 ---
-
-**Guía para construir un lago de datos seguro y conforme a las normas**.
-
-Un lago de datos basado en la nube es una herramienta valiosa para almacenar y analizar grandes conjuntos de datos. Sin embargo, presenta retos de seguridad únicos que deben abordarse para garantizar el cumplimiento de la normativa gubernamental. En esta guía, analizaremos las mejores prácticas para crear un lago de datos basado en la nube seguro y que cumpla la normativa.
-
-## Planificación del lago de datos
-
-Antes de empezar a construir un lago de datos, **es fundamental crear un plan que tenga en cuenta los requisitos de seguridad y conformidad** de su organización. Comience con la creación de un marco que se adhiera a los estándares de la industria, como el Reglamento General de Protección de Datos (GDPR) o la Ley de Portabilidad y Responsabilidad del Seguro Médico (HIPAA).
-
-Es importante elegir el proveedor de nube adecuado, uno con experiencia demostrada en la entrega de soluciones seguras que puedan cumplir con estas regulaciones de cumplimiento. Algunos de los proveedores de nube más populares son Amazon Web Services (AWS), Microsoft Azure y Google Cloud Platform.
-
-Además, **define controles de acceso claros** para usuarios, funciones y permisos. Esto incluye a los miembros de su equipo interno, así como a los proveedores o socios externos que puedan necesitar acceso en ocasiones.
-
-## Construcción del lago de datos
-
-Al construir un lago de datos, **el cifrado y los controles de acceso deben implementarse por diseño** en todas las etapas del movimiento de datos hacia, dentro y desde el lago de datos. Los procesos de ingestión deben cifrar los datos durante el tránsito y en reposo siempre que sea posible. Utilice las mejores prácticas, como protocolos de seguridad de la capa de transporte en su cliente de ingestión o protocolos de red, como el protocolo de transferencia segura de archivos (SFTP), o un servicio Apache Kafka gestionado.
-
-Los clientes de ingestión o las aplicaciones que copian datos de distintos sistemas deben emplear políticas de acceso basadas en el principio del menor privilegio: conceder sólo los permisos necesarios para copiar información relevante de una fuente externa.
-
-En los frentes de almacenamiento, seleccione plataformas que admitan el cifrado en reposo o proporcionen otras funciones avanzadas de criptografía como la gestión de claves, incluido el cifrado del lado del servidor con claves propiedad del cliente (CMK).
-
-**El control estricto del acceso a los datos es clave**, y soluciones como AWS Identity and Access Management o Azure Active Directory proporcionan un medio eficaz para controlar los permisos tanto a nivel de objeto como en el plano de gestión.
-
-## Supervisión y administración del lago de datos
-
-Una **vigilancia precisa de la infraestructura de su lago de datos ayuda a identificar las brechas de seguridad** o las actividades sospechosas que se producen dentro de su lago de datos. **Implemente el registro de toda la actividad relacionada con el lago de datos** almacenando los registros de datos en una cuenta de auditoría independiente para evitar que los atacantes los borren o manipulen. Esto detectará rápidamente actividades sospechosas, como el escaneo de puertos, ataques DDos, ataques de fuerza bruta o ataques basados en la red.
-
-Utilice una solución de gestión de eventos e información de seguridad (SIEM) como las incluidas en AWS CloudTrail o Azure Monitor para centralizar el registro, automatizar las alertas y realizar análisis avanzados.
-
-Además, asegúrese de que **se apliquen parches periódicos a los componentes críticos**. Las actualizaciones periódicas de paquetes de software para sistemas subyacentes como sistemas operativos, bases de datos, servidores web o bibliotecas de terceros deben formar parte de su modelo de soporte para garantizar que las vulnerabilidades conocidas sean remediadas por equipos de soporte de TI cualificados.
-
-## Mantenerse al día con el cambiante panorama de amenazas
-
-**Debido a un panorama de seguridad en constante evolución, los controles de seguridad en la nube deben adaptarse rápidamente a las nuevas amenazas.
-
-Si busca el cumplimiento de normativas específicas que rigen el almacenamiento de datos, tome medidas para mantener estos requisitos de cumplimiento mediante auditorías de cumplimiento e informes periódicos generados a partir de los servicios respectivos.
-
-## Conclusión
-
-La implantación de un lago de datos basado en la nube ofrece ventajas significativas, pero también conlleva una mayor carga en lo que respecta a la seguridad y el cumplimiento normativo. Sin embargo, seguir las mejores prácticas del sector, como el cifrado en reposo y en tránsito, la gestión de los controles de acceso a un alto nivel mediante la gestión de identidades y accesos (IAM), la supervisión de su implementación mediante el registro avanzado y el empleo de parches continuos, le ayudará a construir un lago de datos basado en la nube seguro y que cumpla las normativas.
-
-Junto con el mantenimiento de controles adecuados de migración y gobernanza de la nube, su organización puede aprovechar todas las ventajas de los servicios basados en la nube, manteniendo al mismo tiempo la conformidad y la seguridad.
-
-_______
-
-## Referencias
-
-1. 1. [Guía de uso del cifrado de AWS EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIEncryption.html)
-2. [Microsoft - Visión general de HIPAA](https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-hipaa-us)
-3. 3. [¿Qué es SIEM?](https://www.varonis.com/blog/what-is-siem)
-4. 4. [AWS - Métodos de ingestión de datos](https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-ingestion-methods.html)
-5. 5. [Estándares y especificaciones de implementación de la norma de seguridad HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)
+ **Una guía para crear un lago de datos basado en la nube seguro y compatible**  Un lago de datos basado en la nube es una herramienta valiosa para almacenar y analizar grandes conjuntos de datos. Sin embargo, presenta desafíos de seguridad únicos que deben abordarse para garantizar el cumplimiento de las regulaciones gubernamentales. En esta guía, analizaremos las mejores prácticas para crear un lago de datos basado en la nube seguro y compatible.  ## Planificación del lago de datos  Antes de comenzar a construir un lago de datos, **es fundamental crear un plan que tenga en cuenta los requisitos de seguridad y cumplimiento** de su organización. Comience con la creación de un marco que se adhiera a los estándares de la industria, como las Regulaciones generales de protección de datos (GDPR) o la Ley de portabilidad y responsabilidad del seguro médico (HIPAA).  Es importante elegir el proveedor de nube adecuado, uno con experiencia comprobada en la entrega de soluciones seguras que puedan cumplir con estas normas de cumplimiento. Algunos de los proveedores de nube más populares incluyen Amazon Web Services (AWS), Microsoft Azure y Google Cloud Platform.  Además, **defina controles de acceso claros** para usuarios, roles y permisos. Esto incluye a los miembros de su equipo interno, así como a proveedores o socios externos que pueden necesitar acceso en ocasiones.  ## Construyendo el lago de datos  Al crear un lago de datos, **el cifrado y los controles de acceso deben implementarse por diseño** en todas las etapas del movimiento de datos hacia, dentro y desde el lago de datos. Los procesos de ingestión deben cifrar los datos durante el tránsito y descansar cuando sea posible. Utilice las prácticas recomendadas, como los protocolos de seguridad de la capa de transporte en su cliente de ingesta o los protocolos de red, como el protocolo de transferencia segura de archivos (SFTP) o un servicio Apache Kafka administrado.  Los clientes de ingestión o las aplicaciones que copian datos de diferentes sistemas deben emplear políticas de acceso basadas en el principio de privilegio mínimo: otorgar solo los permisos necesarios para copiar información relevante de una fuente externa.  En los frentes de almacenamiento, seleccione plataformas que admitan el cifrado en reposo o proporcionen otras funciones criptográficas avanzadas, como la gestión de claves, incluido el cifrado del lado del servidor con claves propiedad del cliente (CMK).  **El control estricto sobre el acceso a los datos es clave**, y las soluciones como AWS Identity and Access Management o Azure Active Directory brindan un medio efectivo para controlar los permisos tanto a nivel de objeto como de administración.  ## Supervisión y gestión del lago de datos  El **monitoreo preciso de la infraestructura de su lago de datos ayuda a identificar brechas de seguridad** o actividades sospechosas que ocurren dentro de su lago de datos. **Implemente el registro de toda la actividad relacionada con el lago de datos** almacenando los registros de datos en una cuenta de auditoría separada para evitar que los atacantes los eliminen o alteren. Esto detectará rápidamente actividades sospechosas, como escaneo de puertos, ataques DDos, ataques de fuerza bruta o ataques basados en la red.  Utilice una solución de administración de eventos e información de seguridad (SIEM) como la incluida en AWS CloudTrail o Azure Monitor para centralizar el registro, automatizar las alertas y realizar análisis avanzados.  Además, asegúrese de que **se realicen parches regulares de los componentes críticos**. Las actualizaciones periódicas de paquetes de software para sistemas subyacentes como sistemas operativos, bases de datos, servidores web o bibliotecas de terceros deben ser parte de su modelo de soporte para garantizar que los equipos de soporte de TI calificados solucionen las vulnerabilidades conocidas.  ## Mantenerse al día con el cambiante panorama de amenazas  **Mantener una vigilancia sostenida es un requisito clave para mantener lagos de datos basados en la nube seguros y compatibles.** Debido a un panorama de seguridad en constante evolución, los controles de seguridad en la nube deben adaptarse rápidamente a las nuevas amenazas.  Si busca el cumplimiento de normas específicas que rigen el almacenamiento de datos, tome medidas para mantener estos requisitos de cumplimiento a través de auditorías de cumplimiento e informes periódicos generados por los servicios respectivos.  ## Conclusión  La implementación de un lago de datos basado en la nube ofrece ventajas significativas, pero también conlleva una mayor carga en lo que respecta a la seguridad y el cumplimiento. Pero seguir las mejores prácticas de la industria, como el cifrado en reposo y en tránsito, administrar los controles de acceso a un alto nivel a través de la administración de identidades y accesos (IAM), monitorear su implementación a través de registros avanzados y emplear parches continuos lo ayudará a construir una nube segura y compatible. lago de datos basado en.  Junto con el mantenimiento de controles adecuados de gobernanza y migración a la nube, su organización puede aprovechar todas las ventajas de los servicios basados en la nube mientras mantiene el cumplimiento y la seguridad.  _______  ## Referencias  1. [Guía para usar el cifrado de AWS EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIEncryption.html) 2. [Microsoft: descripción general de HIPAA] (https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-hipaa-us) 3. [¿Qué es SIEM?](https://www.varonis.com/blog/what-is-siem) 4. [AWS - Métodos de ingesta de datos](https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-ingestion-methods.html) 5. [Estándares de reglas de seguridad de HIPAA y especificaciones de implementación] (https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)

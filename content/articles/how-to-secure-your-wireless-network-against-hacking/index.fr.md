@@ -1,82 +1,13 @@
 ---
-title: "Proteja su red inalámbrica contra el pirateo y las escuchas"
+title: "Secure Your Wireless Network Against Hacking and Eavesdropping"
 date: 2023-03-09
 toc: true
 draft: false
-description: "Aprende a proteger tu red inalámbrica contra el pirateo y las escuchas con consejos prácticos y protocolos de seguridad."
-tags: ['Seguridad de redes inalámbricas', 'WPA2', 'WPA3', 'cifrado de redes', 'contraseñas seguras', 'cortafuegos', 'gestión remota', 'WPS', 'SSID predeterminado', 'contraseña predeterminada', 'actualización del firmware del router', 'actualización del software', 'alcance de la red', 'cifrado de datos', 'prevención de piratería informática', 'prevención de brechas de seguridad', 'seguridad de dispositivos', 'protección de redes inalámbricas', 'seguridad Wi-Fi', 'vulnerabilidad de la red'].
+description: "Learn how to protect your wireless network from hacking and eavesdropping with practical tips and security protocols."
+tags: ['Wireless network security', 'WPA2', 'WPA3', 'network encryption', 'strong passwords', 'firewall', 'remote management', 'WPS', 'default SSID', 'default password', 'router firmware update', 'software update', 'network range', 'data encryption', 'hacking prevention', 'security breach prevention', 'device security', 'wireless network protection', 'Wi-Fi security', 'network vulnerability']
 cover: "/img/cover/A_cartoon_image_of_a_lock_protecting_a_wireless_network.png"
-coverAlt: "Imagen de dibujos animados de un candado protegiendo una red inalámbrica con un escudo".
+coverAlt: "A cartoon image of a lock protecting a wireless network with a shield."
 coverCaption: ""
 ---
 
-
- Las redes inalámbricas se han convertido en un elemento esencial de nuestra vida cotidiana, ya que facilitan el acceso a Internet y nos permiten conectar varios dispositivos a la vez. Sin embargo, esta comodidad tiene un coste, ya que también aumenta el riesgo de fallos de seguridad, piratería y escucha clandestina. Este artículo te ofrece consejos prácticos sobre cómo proteger tu red inalámbrica contra la piratería y la escucha clandestina**.
- 
- ## Por qué es importante la seguridad de la red inalámbrica
- 
- Las redes inalámbricas o Wi-Fi transmiten datos a través de las ondas, lo que las hace vulnerables a accesos no autorizados. Los piratas pueden interceptar la señal y acceder a su red, obtener información sensible e incluso controlar sus dispositivos. Por lo tanto, la seguridad de tu red inalámbrica es crucial para proteger tu vida privada y tus datos.
- 
- ## Tipos de protocolos de seguridad
- 
- Para proteger tu red inalámbrica, es importante que conozcas los distintos tipos de protocolos de seguridad que se utilizan para registrar los datos transmitidos a través de las ondas. Existen tres tipos principales de protocolos de seguridad:
- 
- ### Wired Equivalent Privacy (WEP) (Privacidad equivalente por cable)
- 
- **WEP** fue el primer protocolo de seguridad desarrollado para redes inalámbricas, pero ya no se considera seguro. Utiliza una clave de cifrado estática, lo que significa que quien intercepte los datos puede descifrar fácilmente el cifrado y acceder a su red.
- 
- ### Acceso Wi-Fi protegido (WPA)
- 
- **WPA** es una mejora con respecto a WEP y proporciona un cifrado reforzado mediante una clave de cifrado dinámica. Sin embargo, sigue siendo sensible a la piratería y al espionaje clandestino.
- 
- ### Acceso Wi-Fi protegido II (WPA2)
- 
- **WPA2** es el segundo protocolo más seguro actualmente disponible para redes inalámbricas. Utiliza algoritmos de cifrado avanzados y ofrece más seguridad que WPA. Se recomienda encarecidamente utilizar WPA2 para proteger su red inalámbrica.
- 
- ### Acceso Wi-Fi protegido III (WPA3)
- 
- **WPA3** es el protocolo de seguridad más reciente y avanzado para redes inalámbricas. Utiliza los últimos algoritmos de cifrado y proporciona funciones de seguridad mejoradas, como el cifrado de datos individuales y la protección contra ataques de fuerza bruta. Si tu router y tus dispositivos tienen WPA3, te recomendamos encarecidamente que lo utilices para proteger tu red inalámbrica.
- 
- __________
- 
- ### Modificar el nombre de red por defecto (SSID) y la contraseña
- 
- La primera y más importante medida para asegurar tu red inalámbrica consiste en **modificar el nombre de red (SSID) y el código de acceso por defecto**. El SSID y la contraseña que proporciona el fabricante del router son fáciles de descifrar y pueden ser explotados fácilmente por piratas. Cambia el SSID y la contraseña de forma rápida y sencilla
- 
- ### Utilisez des mots de passe forts
- 
- [El uso de contraseñas fuertes (https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) para tu red y tus dispositivos sin cables es crucial para evitar accesos no autorizados. Una contraseña fuerte debe contener al menos 12 caracteres e incluir una combinación de letras mayúsculas y minúsculas, cifras y símbolos. Evita utilizar expresiones corrientes, palabras del diccionario o datos personales como tu nombre o tu date de nacimiento.
- 
- ### Activer le cryptage réseau
- 
- La activación del cifrado de red es esencial para proteger tu red sin cables. El cifrado protege tus datos codificándolos para que sólo puedan ser leídos por usuarios autorizados. Asegúrate de que tu router está configurado para utilizar el cifrado WPA2 o WPA3 y de que todos tus dispositivos están configurados para utilizar el mismo protocolo de cifrado.
- 
- ### Mettre à jour le micrologiciel et le logiciel
- 
- El mantenimiento regular del micrologiciel de tu router y del logiciel de tu dispositivo es importante para asegurar la seguridad de tu red. Las actualizaciones suelen incluir correcciones de seguridad y correcciones de vulnerabilidades conocidas, y el incumplimiento de la actualización puede exponer su red a fallos de seguridad.
- 
- ### Activer le pare-feu
- 
- La activación de un pare-feu en tu router puede ayudar a proteger tu red contra accesos no autorizados y ataques. Un pare-feu actúa como una barrera entre tu red e Internet e impide que el tráfico no autorizado entre en tu red. Se recomienda activar el pare-feu en tu router y configurarlo para bloquear todo el tráfico entrante, a excepción de los servicios que necesites.
- 
- ### Desactivar la gestión a distancia
- 
- La desactivación de la gestión a distancia es otro paso crucial para asegurar tu red sin cables. La gestión a distancia te permite acceder a los parámetros de tu router a distancia, pero también permite a los piratas hacer lo mismo. Se recomienda desactivar la gestión a distancia o limitar las direcciones IP específicas para evitar cualquier acceso no autorizado.
- 
- ### Desactivar WPS
- 
- Wi-Fi Protected Setup (WPS) es una funcionalidad que te permite conectar rápidamente dispositivos a tu red sin necesidad de cables. Sin embargo, también supone un fallo de seguridad, ya que utiliza un código PIN que puede ser fácilmente desviado por los piratas. Se recomienda desactivar el WPS para mejorar la seguridad de tu red inalámbrica.
- 
- ### Portée limite de votre réseau
- 
- Limitar el puerto de su red inalámbrica puede impedir el acceso no autorizado desde edificios o emplazamientos cercanos. Puede reducir el ancho de banda de su red colocando el ruteador en un lugar central de su casa, utilizando antenas direccionales o utilizando la potencia de transmisión.
- 
- __________
- 
- ## Conclusión
- 
- La seguridad de tu red inalámbrica es crucial para proteger tu vida privada y tus datos contra la piratería y el espionaje clandestino. Si sigues los consejos descritos en este artículo, podrás mejorar la seguridad de tu red inalámbrica y minimizar el riesgo de fallos de seguridad. No te olvides de modificar el nombre y la contraseña de tu red por error, de utilizar contraseñas falsas, de activar el contador de la red, de actualizar el micrologiciel y los logiciels, de activar el pare-feu, de desactivar la gestión a distancia, de desactivar el WPS y de limitar el puerto de tu red. ¡Resiste con seguridad!
- 
- ## Referencias
- 
- - Comisión Federal de Comunicaciones. (2021, 15 de enero). Sécurisation de votre réseau sans fil. Extraído de https://www.fcc.gov/consumers/guides/protecting-your-wireless-network
+ Les **réseaux sans fil** sont devenus un élément essentiel de notre vie quotidienne, offrant un accès facile à Internet et nous permettant de connecter plusieurs appareils simultanément. Cependant, cette commodité à un coût car elle augmente également le risque de failles de sécurité, de piratage et d'écoute clandestine. Cet article vous fournira des conseils pratiques sur **commentaire sécurisé votre réseau sans fil contre le piratage et l'écoute clandestine**.  ## Pourquoi la sécurité du réseau sans fil est importante  Les réseaux sans fil, ou Wi-Fi, transmettent des données sur les ondes, ce qui les rend vulnérables aux accès non autorisés. Les pirates peuvent intercepter le signal et accéder à votre réseau, voler des informations sensibles et même prendre le contrôle de vos appareils. Par conséquent, la sécurisation de votre réseau sans fil est cruciale pour protéger votre vie privée et vos données.  ## Types de protocoles de sécurité  Pour sécuriser votre réseau sans fil, il est important de comprendre les différents types de protocoles de sécurité utilisés pour chiffrer les données transmises sur les ondes. Il existe trois types courants de protocoles de sécurité :  ### Wired Equivalent Privacy (WEP)  **WEP** a été le premier protocole de sécurité développé pour les réseaux sans fil, mais il n'est plus considéré comme sûr. Il utilise une clé de cryptage statique, ce qui signifie que peut intercepter les données peut facilement déchiffrer le cryptage et accéder à votre réseau.  ### Accès Wi-Fi protégé (WPA)  **WPA** est une amélioration par rapport au WEP et fournit un cryptage renforcé à l'aide d'une clé de cryptage dynamique. Cependant, il est toujours sensible au piratage et à l'écoute clandestine.  ### Accès Wi-Fi protégé II (WPA2)  **WPA2** est le deuxième protocole le plus sécurisé actuellement disponible pour les réseaux sans fil. Il utilise des algorithmes de cryptage avancés et offre une sécurité plus forte que WPA. Il est fortement recommandé d'utiliser WPA2 pour sécuriser votre réseau sans fil.  ### Accès Wi-Fi protégé III (WPA3)  **WPA3** est le protocole de sécurité le plus récent et le plus avancé pour les réseaux sans fil. Il utilise les derniers algorithmes de cryptage et fournit des fonctionnalités de sécurité améliorées telles que le cryptage des données individualisées et la protection contre les attaques par force brute. Si votre routeur et vos appareils prennent en charge WPA3, il est fortement recommandé de l'utiliser pour sécuriser votre réseau sans fil.  __________  ### Modifier le nom de réseau par défaut (SSID) et le mot de passe  La première et la plus importante étape pour sécuriser votre réseau sans fil consistent à **modifier le nom de réseau (SSID) et le mot de passe par défaut**. Le SSID et le mot de passe par défaut fournis par le fabricant du routeur sont faciles à deviner et peuvent être exploités facilement par des pirates. Changer le SSID et le mot de passe par défaut en une combinaison unique et forte  ### Utilisez des mots de passe forts  [L'utilisation de mots de passe forts](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) pour votre réseau et vos appareils sans fil est cruciale pour empêcher tout accès non autorisé. Un mot de passe fort doit comporter au moins 12 caractères et inclure un mélange de lettres majuscules et minuscules, de chiffres et de symboles. Évitez d'utiliser des expressions courantes, des mots du dictionnaire ou des informations personnelles telles que votre nom ou votre date de naissance.  ### Activer le cryptage réseau  L'activation du chiffrement du réseau est essentielle pour protéger votre réseau sans fil. Le chiffrement protège vos données en les codant afin qu'elles ne puissent être lues que par des utilisateurs autorisés. Vérifiez-vous que votre routeur est configuré pour utiliser le cryptage WPA2 ou WPA3 et que tous vos appareils sont configurés pour utiliser le même protocole de cryptage.  ### Mettre à jour le micrologiciel et le logiciel  La mise à jour régulière du micrologiciel de votre routeur et du logiciel de votre appareil est importante pour assurer la sécurité de votre réseau. Les mises à jour incluent souvent des correctifs de sécurité et des correctifs pour les vulnérabilités connues, et l'échec de la mise à jour peut exposer votre réseau à des failles de sécurité.  ### Activer le pare-feu  L'activation d'un pare-feu sur votre routeur peut aider à protéger votre réseau contre les accès non autorisés et les attaques. Un pare-feu agit comme une barrière entre votre réseau et Internet et empêche le trafic non autorisé d'entrer sur votre réseau. Il est recommandé d'activer le pare-feu sur votre routeur et de le configurer pour bloquer tout le trafic entrant, à l'exception des services dont vous avez besoin.  ### Désactiver la gestion à distance  La désactivation de la gestion à distance est une autre étape cruciale pour sécuriser votre réseau sans fil. La gestion à distance vous permet d'accéder aux paramètres de votre routeur à distance, mais elle permet également aux pirates de faire de même. Il est recommandé de désactiver la gestion à distance ou de limiter les adresses IP spécifiques pour empêcher tout non autorisé.  ### Désactiver le WPS  Wi-Fi Protected Setup (WPS) est une fonctionnalité qui vous permet de connecter rapidement des appareils à votre réseau sans fil. Cependant, il s'agit également d'une faille de sécurité car il utilise un code PIN qui peut être facilement deviné par les pirates. Il est recommandé de désactiver le WPS pour améliorer la sécurité de votre réseau sans fil.  ### Portée limite de votre réseau  Limiter la portée de votre réseau sans fil peut empêcher tout accès non autorisé depuis des bâtiments ou des emplacements à proximité. Vous pouvez réduire la portée de votre réseau en plaçant votre routeur dans un emplacement central de votre maison, en utilisant des antennes directionnelles ou en utilisant la puissance de transmission.  __________  ## Conclusion  La sécurisation de votre réseau sans fil est cruciale pour protéger votre vie privée et vos données contre le piratage et l'écoute clandestine. En suivant les conseils décrits dans cet article, vous pouvez améliorer ainsi la sécurité de votre réseau sans fil et minimiser le risque de failles de sécurité. N'oubliez pas de modifier le nom et le mot de passe de votre réseau par défaut, d'utiliser des mots de passe forts, d'activer le chiffrement du réseau, de mettre à jour le micrologiciel et les logiciels, d'activer le pare-feu, de désactiver la gestion à distance, de désactiver le WPS et de limiter la portée de votre réseau. Restez en sécurité !  ## Les références  - Commission fédérale des communications. (2021, 15 janvier). Sécurisation de votre réseau sans fil. Extrait de https://www.fcc.gov/consumers/guides/protecting-your-wireless-network

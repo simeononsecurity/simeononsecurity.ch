@@ -1,47 +1,13 @@
 ---
-title: "Protéjase de las ofertas no autorizadas con la exclusión voluntaria del crédito"
+title: "Protect Yourself from Unauthorized Offers with Credit Opt-Outs"
 date: 2023-02-12
 toc: true
 draft: false
-description: "Opte por no recibir ofertas preaprobadas de crédito y seguros para evitar que las compañías de informes de crédito al consumidor proporcionen su información a las empresas y reducir el riesgo de robo de identidad."
+description: "Opt-out of pre-approved credit and insurance offers to prevent consumer credit reporting companies from providing your information to businesses and reduce the risk of identity theft."
 tags: [ "Credit Opt-Out", "Fair Credit Reporting Act", "FCRA", "Pre-Approved Offers", "Identity Theft Prevention", "Consumer Credit Reporting Companies"]
 cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.png"
-coverAlt: "Una persona sosteniendo una tarjeta de crédito en una mano y un candado en la otra, con cara de preocupación, como si le preocupara la seguridad de su información personal."
+coverAlt: "A person holding a credit card in one hand and a lock in the other hand, with a concerned look on their face, as if they are worried about the safety of their personal information."
 coverCaption: ""
 ---
 
-
- **Si no desea recibir más información, no dude en ponerse en contacto con nosotros.
- 
- El robo de identidad es un problema generalizado en el mundo actual y, por lo tanto, las tarjetas de crédito y de crédito hipotecario pueden convertirse en una amenaza para la vida. Estos boletines contienen información verídica como su nombre, su dirección y su capacidad de pago, lo que los convierte en personas de confianza que desean mantener su identidad.
- 
- **La Ley de Información Crediticia Justa (FCRA, por sus siglas en inglés) otorga a los usuarios el derecho de rechazar estas ofertas. Das bedeutet, dass SIE **verhindern** can, dass Kreditauskunfteien Ihren Namen in Listen aufnehmen, sterben von Kreditgebern oder Versicherern used Werden, um verbindliche Kredit- oder Versicherungsangebote zu unterbreiten. Si lo hace, no recibirá más por correo postal ninguna de las ofertas de crédito y de crédito a la exportación que se hayan enviado anteriormente, ya que la obtención de sus datos de identidad puede resultar más compleja.
- 
- ## So kündigen Sie
- 
- La suscripción es sencilla y puede realizarse a través del sitio web [optoutprescreen.com](https://www.optoutprescreen.com/). Podrá realizar la suscripción durante cuatro años a través de este sitio web o podrá realizar la suscripción de forma inmediata si rellena el formulario y lo envía por correo postal.
- 
- ### Antrag auf Opt-Out für fünf Jahre
- 
- Para darse de baja durante cuatro años, visite [optoutprescreen.com](https://www.optoutprescreen.com/) y rellene el formulario en línea. Deberá introducir sus datos personales, como su nombre, dirección, número de seguro social y datos de nacimiento. Si no rellena el formulario, obtendrá un certificado de asistencia que le será válido durante cuatro años.
- 
- ### Dauerhaft abmelden
- 
- Para obtener una confirmación inmediata, deberá rellenar y enviar un formulario que encontrará en el sitio web [optoutprescreen.com](https://www.optoutprescreen.com/). Si ha rellenado el formulario, envíelo a la dirección indicada en el formulario. Recibirá un mensaje de confirmación si su solicitud ha sido procesada.
- 
- ## Inicio
- **Abschließend** ist das Ablehnen von genehmigten Kredit- und Versicherungsangeboten ein wichtiger Schritt, um sich vor Identitätsdiebstahl zu schützen. Auf diesem Weg kann SIE verhindern, dass vernünftige Informationen in Listen Werden, die von Kreditgebern und Versicherern used Werden, wodurch es für Identitätsdiebe schwerer WIRD, your information to stehlen. Nutzen Sie Ihre Rechte gemäß dem Fair Credit Reporting Act (FCRA) und melden Sie sich noch über.
- 
- ________________________________________________________________________
- 
- Die zentralen Thesen:
- 
- - Los boletines de crédito y de seguros pueden ser un obstáculo para la identificación de las personas, ya que contienen información falsa.
- - La Ley de Informes de Crédito Justos (Fair Credit Reporting Act, FCRA) otorga a los usuarios el derecho a rechazar estas ofertas.
- - La cancelación es un derecho personal que puede ser otorgado a través de [optoutprescreen.com](https://www.optoutprescreen.com/).
- - Los usuarios pueden darse de baja durante cuatro años o más.
- - La cancelación es un paso importante para evitar la pérdida de identidad.
- 
- ________________________________________________________________________
- 
- Haftungsausschluss: *Este artículo es meramente informativo y no tiene carácter vinculante. Por favor, póngase en contacto con un experto en derecho para que le asesore en su situación particular.
+ **Schützen Sie sich vor nicht angebotenen Angeboten mit Credit Opt-Out**  Identitätsdiebstahl ist in der heutigen Welt ein wachsendes Problem, und vorab genehmigte Kredit- und Versicherungsangebote können ein Hauptziel für Diebe sein. Diese Angebote enthalten vertrauliche Informationen wie Ihren Namen, Ihre Adresse und Ihre Kreditwürdigkeit, was sie für wertvolle macht, die Ihre Identität stehlen möchten.  **Glücklicherweise** gibt es der Fair Credit Reporting Act (FCRA) Verbrauchern das Recht, sich von diesen Angeboten abzumelden. Das bedeutet, dass SIE **verhindern** can, dass Kreditauskunfteien Ihren Namen in Listen aufnehmen, sterben von Kreditgebern oder Versicherern used Werden, um verbindliche Kredit- oder Versicherungsangebote zu unterbreiten. Wenn Sie sich abmelden, erhalten Sie keine vorab genehmigten Kredit- und Versicherungsangebote mehr per Post, wodurch es für Identitätsdiebe komplexer wird, Ihre Informationen zu stehlen.  ## So kündigen Sie  Die Abmeldung ist einfach und kann über die Website [optoutprescreen.com](https://www.optoutprescreen.com/) erfolgen. Sie können die Abmeldung für fünf Jahre über diese Website beantragen, oder Sie können sich dauerhaft abmelden, indem Sie ein Formular ausdrucken und per Post senden.  ### Antrag auf Opt-Out für fünf Jahre  Um das Opt-out für fünf Jahre zu beantragen, besuchen Sie [optoutprescreen.com](https://www.optoutprescreen.com/) und füllen Sie das Online-Formular aus. Sie müssen Ihre persönlichen Daten angeben, einschließlich Ihres Namens, Ihrer Adresse, Ihrer Sozialversicherungsnummer und Ihres Geburtsdatums. Sobald Sie das Formular absenden, erhalten Sie eine Bestätigungsnachricht und werden für fünf Jahre abgemeldet.  ### Dauerhaft abmelden  Um sich dauerhaft abzumelden, müssen Sie ein Formular ausdrucken und ausfüllen, das Sie auf der Website [optoutprescreen.com](https://www.optoutprescreen.com/) finden. Sobald SIE das Formular ausgefüllt haben, müssen Sie es an die auf dem Formular angegebene Adresse senden. Sie erhalten eine Bestätigungsnachricht, sobald Ihre Anfrage bearbeitet wurde.  ## Abschluss **Abschließend** ist das Ablehnen von genehmigten Kredit- und Versicherungsangeboten ein wichtiger Schritt, um sich vor Identitätsdiebstahl zu schützen. Auf this way can SIE verhindern, dass vernünftige Informationen in Listen Werden, die von Kreditgebern und Versicherern used Werden, wodurch es für Identitätsdiebe schwerer WIRD, your information to stehlen. Nutzen Sie Ihre Rechte gemäß dem Fair Credit Reporting Act (FCRA) und melden Sie sich noch heute ab.  ________________________________________________________________________  Die zentralen Thesen:  - Vorab genehmigte Kredit- und Versicherungsangebote können ein Ziel für Identitätsdiebe sein, da sie sinnvolle Informationen enthalten. - Der Fair Credit Reporting Act (FCRA) gibt Verbrauchern das Recht, sich von diesen Angeboten abzumelden. - Die Abmeldung ist ein einfacher Vorgang, der über [optoutprescreen.com](https://www.optoutprescreen.com/) durchgeführt werden kann. - Verbraucher können sich für fünf Jahre oder dauerhaft abmelden. - Die Abmeldung ist ein wichtiger Schritt, um sich vor Identitätsdiebstahl zu schützen.  ________________________________________________________________________  Haftungsausschluss: *Dieser Artikel dient nur zu Informationszwecken und stellt keine Rechtsberatung dar. Bitte wenden Sie sich an einen Rechtsexperten, um sich in Ihrer speziellen Situation beraten zu lassen.*

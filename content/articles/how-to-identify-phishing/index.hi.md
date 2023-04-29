@@ -1,19 +1,19 @@
 ---
-title: "Cómo identificar correos electrónicos, mensajes de texto y llamadas de phishing"
+title: "How to Identify Phishing Emails, Texts, and Calls"
 date: 2023-03-01
 toc: true
 draft: false
-description: "Aprende a identificar intentos de phishing en correos electrónicos, textos y llamadas para mantener a salvo tu información personal".
-tags: ["phishing", "seguridad en línea", "seguridad del correo electrónico", "ciberseguridad", "seguridad en Internet", "correos electrónicos de phishing", "mensajes de texto de phishing", "llamadas de phishing", "amenazas digitales", "robo de identidad", "protección de datos", "fraude en línea", "estafas en línea", "privacidad en línea", "consejos de seguridad en línea", "ciberdelincuencia", "seguridad de la información", "seguridad de contraseñas", "seguridad de datos", "concienciación sobre seguridad"].
+description: "Learn how to identify phishing attempts in emails, texts, and calls to keep your personal information safe."
+tags: ["phishing", "online security", "email security", "cybersecurity", "internet safety", "phishing emails", "phishing texts", "phishing calls", "digital threats", "identity theft", "data protection", "online fraud", "online scams", "online privacy", "online safety tips", "cybercrime", "information security", "password security", "data security", "security awareness"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
-coverAlt: "Imagen de un personaje de dibujos animados con un disfraz de superhéroe y un escudo bloqueando una caña de pescar con un correo electrónico de phishing".
+coverAlt: "An image of a cartoon character with a superhero costume and a shield blocking a fishing rod with a phishing email on it."
 coverCaption: ""
 ---
 
 {{< youtube id="GVv833KHqZc" >}}
  
  
- आज की डिजिटल दुनिया में, **फिशिंग** ईमेल, टेक्स्ट और कॉल की पहचान पहले से कहीं अधिक महत्वपूर्ण है। ये कपटपूर्ण संदेश आपकी व्यक्तिगत जानकारी, जैसे आपके पासवर्ड, क्रेडिट कार्ड नंबर, या सामाजिक सुरक्षा नंबर को चुराने के लिए तैयार किए गए हैं। मछली पकड़ने के प्रयासों की पहचान करने के तरीके _COPY5 बारे में यहां कुछ बताया गया है, ताकि आप अपनी जानकारी को सुरक्षित रख सकें।
+ आज की डिजिटल दुनिया में, **फिशिंग** ईमेल, टेक्स्ट और कॉल की पहचान पहले से कहीं अधिक महत्वपूर्ण है। ये कपटपूर्ण संदेश आपकी व्यक्तिगत जानकारी, जैसे आपके पासवर्ड, क्रेडिट कार्ड नंबर, या सामाजिक सुरक्षा नंबर को चुराने के लिए तैयार किए गए हैं। मछली पकड़ने के प्रयासों की पहचान करने के तरीके के बारे में यहां कुछ बताया गया है, ताकि आप अपनी जानकारी को सुरक्षित रख सकें।
  
  ## याद कीजिए
  

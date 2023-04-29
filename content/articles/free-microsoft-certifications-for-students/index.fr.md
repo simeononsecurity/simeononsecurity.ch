@@ -1,94 +1,13 @@
 ---
-title: "Certificaciones Microsoft gratuitas para estudiantes y licenciados"
+title: "Free Microsoft Certifications for Students and Graduates"
 date: 2023-02-20
 toc: true
 draft: false
-description: "Aprende a potenciar tu empleabilidad y a ampliar tus habilidades en computación en la nube e inteligencia artificial con las Certificaciones Microsoft gratuitas disponibles a través del programa MSFT Student Cert en CloudReadySkills.com."
-tags: ["Microsoft Certifications", "Cloud Computing", "Artificial Intelligence", "MSFT Student Cert", "Azure Fundamentals", "AI Fundamentals", "Microsoft 365 Fundamentals", "Power Platform Fundamentals", "Dynamics 365 Fundamentals CRM", "Dynamics 365 Fundamentals ERP", "Security Compliance and Identity", "CloudReadySkills", "Online Education", "Career Development", "IT Certification", "Free Education", "Online Learning", "Technical Skills", "Career Advancement"].
+description: "Learn how to boost your employability and expand your skills in cloud computing and artificial intelligence with free Microsoft Certifications available through the MSFT Student Cert program on CloudReadySkills.com."
+tags: ["Microsoft Certifications", "Cloud Computing", "Artificial Intelligence", "MSFT Student Cert", "Azure Fundamentals", "AI Fundamentals", "Microsoft 365 Fundamentals", "Power Platform Fundamentals", "Dynamics 365 Fundamentals CRM", "Dynamics 365 Fundamentals ERP", "Security Compliance and Identity", "CloudReadySkills", "Online Education", "Career Development", "IT Certification", "Free Education", "Online Learning", "Technical Skills", "Career Advancement"]
 cover: "/img/cover/A_cartoon-style_image_of_a_smiling_graduate_holding_a_laptop.png"
-coverAlt: "Imagen de estilo cartoon de un graduado sonriente sosteniendo un portátil y un certificado mientras está de pie frente a un servidor informático con nubes de fondo, que representa la conexión entre la computación en nube y la promoción profesional."
+coverAlt: "A cartoon-style image of a smiling graduate holding a laptop and a certificate while standing in front of a computer server with clouds in the background, representing the connection between cloud computing and career advancement."
 coverCaption: ""
 ---
 
-**Arquitectura de la información del programa MSFT Student Cert**
- 
- El programa **MSFT Student Cert** está diseñado para permitir a los estudiantes encontrar fácilmente las certificaciones que necesitan. El programa está disponible en [CloudReadySkills.com](https://msftstudentcert.cloudreadyskills.com/) y ofrece una completa gama de certificaciones.
- 
- El sitio web cuenta con una página principal que ofrece un resumen de las distintas opciones de certificación, entre las que se incluyen **Azure Fundamentals**, **AI Fundamentals** y muchas más. Cada certificación en una página propia, que ofrece una descripción detallada del examen, incluye las competencias y los conocimientos necesarios para realizarlo. La interfaz amigable del programa facilita la navegación y la búsqueda de la certificación que mejor se adapte a sus necesidades.
- 
- ______
- 
- ## Las certificaciones disponibles a través de MSFT Student Cert
- 
- El programa MSFT Student Cert ofrece varias certificaciones en computación en la nube e inteligencia artificial. Examinemos más de cerca algunas de las certificaciones disponibles y lo que implican :
- 
- ### Fundamentos de Azure (AZ-900)
- 
- La **certificación Azure Fundamentals** es una certificación fundamental que demuestra una comprensión de los conceptos de nube, de los principales servicios Azure, de la seguridad, de la confidencialidad, de la conformidad y de la confianza. Esta certificación es un excelente punto de partida para los estudiantes que descubren el cloud computing.
- 
- ### Fundamentos de la AI (AI-900)
- 
- La **certificación AI Fundamentals** abarca una gama de temas, entre los que se incluyen las cargas de trabajo y las consideraciones relacionadas con la IA, los principios fundamentales del aprendizaje automático en Azure, las funcionalidades de las cargas de trabajo de visión por ordenador en Azure, las funcionalidades de las cargas de trabajo de tratamiento del lenguaje natural (NLP) en Azure y las funcionalidades de las cargas de trabajo de IA conversacional en Azure.
- 
- ### Principios básicos de Microsoft 365 (MS-900)
- 
- La **certificación Microsoft 365 Fundamentals** se centra en los conceptos de nube, los servicios Microsoft 365 de base, la seguridad, la conformidad, la confidencialidad y la confianza. Esta certificación es muy útil para los estudiantes que quieren trabajar con los servicios de Microsoft 365.
- 
- ### Principios básicos de Microsoft Power Platform (PL-900)
- 
- La **certificación Microsoft Power Platform Fundamentals** es ideal para los estudiantes que deseen saber más sobre las placas-formas de bajo código y crear aplicaciones con Microsoft Power Platform. Esta certificación cubre el valor comercial de Power Platform, Power BI, Power Apps, Power Automate y Power Virtual Agents.
- 
- ### Microsoft Dynamics 365 Fundamentos CRM (MB-910)
- 
- La **certificación Microsoft Dynamics 365 Fundamentals CRM** se centra en Dynamics 365 Marketing, Sales, Customer Service, Field Service, Project Operations y las funcionalidades compartidas. Esta certificación es ideal para los estudiantes interesados en la gestión de la relación con el cliente.
- 
- ### Microsoft Dynamics 365 Fundamentos ERP (MB-920)
- 
- La **certificación Microsoft Dynamics 365 Fundamentals ERP** cubre Dynamics 365 Supply Chain Management, Finanzas, Comercio, Recursos Humanos, Operaciones de Proyectos y las funcionalidades compartidas. Esta certificación es ideal para estudiantes interesados en la planificación de recursos empresariales.
- 
- ### Fundamentos de Seguridad, Cumplimiento e Identidad de Microsoft (SC-900)
- 
- La certificación **Microsoft Security, Compliance, and Identity Fundamentals** se centra en los conceptos de nube, los servicios Microsoft 365 de base, la seguridad, la conformidad, la confidencialidad y la confianza. Esta certificación es muy útil para los estudiantes interesados en la ciberseguridad y la gestión de identidades.
- 
- ______
- 
- ## Ventajas del programa MSFT Student Cert
- 
- El programa MSFT Student Cert ofrece muchas ventajas a estudiantes y nuevos titulados. En primer lugar, su uso es totalmente gratuito y ofrece acceso a valiosas certificaciones en computación en la nube e inteligencia artificial. Estas certificaciones pueden ayudar a los estudiantes a triunfar en el mercado laboral y a demostrar sus competencias y conocimientos a potenciales empleados.
- 
- Además, el programa MSFT Student Cert está diseñado para ser accesible a estudiantes de todos los niveles. Tanto si eres nuevo en cloud computing e inteligencia artificial como si ya tienes cierta experiencia, existen certificaciones disponibles para responder a tus necesidades.
- 
- Por último, el programa MSFT Student Cert es una excelente manera de adquirir experiencia práctica en tecnologías Microsoft. Al aprobar los exámenes de certificación, los estudiantes adquieren una experiencia práctica de las herramientas y tecnologías utilizadas en la industria tecnológica.
- 
- ______
- 
- ## Comment démarrer avec MSFT Student Cert
- 
- Trabajar con MSFT Student Cert es fácil. Basta con visitar y crear una cuenta. Una vez que tengas una cuenta, puedes consultar las certificaciones disponibles y empezar a preparar tus exámenes.
- 
- Dispones de varios recursos que te ayudarán a prepararte, como guías de estudio, exámenes en blanco y cursos en línea. Con estos recursos aumentarás tus posibilidades de aprobar los exámenes de certificación y mejorarás tus conocimientos en la materia.
- 
- ______
- 
- ## Ventajas de obtener certificaciones
- 
- La obtención de una certificación de Microsoft puede suponer muchas ventajas, en particular para los estudiantes. Éstas son algunas de las ventajas:
- 
- ### Mejora tu CV
- Las certificaciones demuestran a los empleadores que tienes un cierto nivel de conocimientos y competencias. Al obtener una certificación de Microsoft, puedes demostrar a los posibles empleadores que eres competente en el ámbito de tu carrera y que cuentas con las competencias necesarias para llevar a cabo tu trabajo.
- 
- ### Distíngase de los demás
- En el mercado laboral competitivo de hoy en día, tener una certificación puede ayudarte a desmarcarte de otros candidatos. Esto demuestra que has tomado la iniciativa de aprender y desarrollar tus competencias, una cualidad que los empleados aprecian.
- 
- ### Desarrolle sus conocimientos
- Al obtener una certificación, adquieres conocimientos en un ámbito específico que pueden ser útiles en tu carrera. Estos conocimientos te ayudarán en tus futuras carreras profesionales y te convertirán en un empleado muy valioso.
- 
- ### Oportunidades de reciclaje
- La obtención de una certificación también puede darte acceso a una red de profesionales del sector. Esta red puede ayudarte a encontrar oportunidades de empleo, obtener un mentor y mantenerte al día de las tendencias del sector.
- 
- ______
- 
- ## Conclusión
- 
- La obtención de certificaciones de Microsoft puede ser un logro muy valioso para los estudiantes, ya que les ayuda a abrirse camino en el mercado laboral competitivo y a ampliar sus conocimientos en ámbitos específicos. Gracias a la disponibilidad de certificaciones gratuitas a través de CloudReadySkills.com, los estudiantes pueden aprovechar esta oportunidad para adquirir nuevas competencias y hacer progresar su carrera. Siguiendo los pasos descritos en este artículo, los estudiantes pueden obtener certificaciones en ámbitos como la computación en nube, las donaciones y la IA, y el desarrollo, y añadir estas valiosas certificaciones a su CV. No desaproveche esta oportunidad de mejorar sus perspectivas de carrera y ampliar sus conocimientos en un ámbito específico. Inscríbase en Microsoft Cloud Skills Challenge hoy mismo y obtenga sus certificaciones gratuitas.
- 
+**Architecture de l'information du programme MSFT Student Cert**  Le programme **MSFT Student Cert** est soigneusement conçu pour permettre aux étudiants de trouver facilement les certifications dont ils ont besoin. Le programme est accessible sur [CloudReadySkills.com](https://msftstudentcert.cloudreadyskills.com/) et propose une gamme complète de certifications.  Le site Web fournit une page principale qui offre un aperçu des différentes options de certification, y compris ** Azure Fundamentals **, ** AI Fundamentals **, et plus encore. Chaque certification sur une page propre, qui fournit une description détaillée de l'examen, y comprend les compétences et les connaissances requises pour réussir. L'interface conviviale du programme facilite la navigation et la recherche de la certification qui correspondent le mieux à vos besoins.  ______  ## Les certifications disponibles via MSFT Student Cert  Le programme MSFT Student Cert propose plusieurs certifications en cloud computing et en intelligence artificielle. Examinons de plus près certaines des certifications disponibles et ce qu'elles impliquent :  ### Fondamentaux d'Azure (AZ-900)  La **certification Azure Fundamentals** est une certification fondamentale qui démontre une compréhension des concepts de cloud, des principaux services Azure, de la sécurité, de la confidentialité, de la conformité et de la confiance. Cette certification est un excellent point de départ pour les étudiants qui découvrent le cloud computing.  ### Fondamentaux de l'IA (AI-900)  La **certification AI Fundamentals** couvre une gamme de sujets, y compris les charges de travail et les considérations liées à l'IA, les principes fondamentaux de l'apprentissage automatique sur Azure, les fonctionnalités des charges de travail de vision par ordinateur sur Azure, les fonctionnalités des charges de travail de traitement du langage naturel (NLP) sur Azure et les fonctionnalités des charges de travail d'IA conversationnelle sur Azure.  ### Principes de base de Microsoft 365 (MS-900)  La **certification Microsoft 365 Fundamentals** se concentre sur les concepts de cloud, les services Microsoft 365 de base, la sécurité, la conformité, la confidentialité et la confiance. Cette certification est précieuse pour les étudiants recherchés à travailler avec les services Microsoft 365.  ### Principes de base de Microsoft Power Platform (PL-900)  La **certification Microsoft Power Platform Fundamentals** est idéale pour les étudiants souhaitant en savoir plus sur les plates-formes low-code et créer des applications avec Microsoft Power Platform. Cette certification couvre la valeur commerciale de Power Platform, Power BI, Power Apps, Power Automate et Power Virtual Agents.  ### Microsoft Dynamics 365 Fundamentals CRM (MB-910)  La **certification Microsoft Dynamics 365 Fundamentals CRM** se concentre sur Dynamics 365 Marketing, Sales, Customer Service, Field Service, Project Operations et les fonctionnalités partagées. Cette certification est idéale pour les étudiants visés par la gestion de la relation client.  ### Microsoft Dynamics 365 Fundamentals ERP (MB-920)  La **certification Microsoft Dynamics 365 Fundamentals ERP** couvre Dynamics 365 Supply Chain Management, Finance, Commerce, Human Resources, Project Operations et les fonctionnalités partagées. Cette certification est idéale pour les étudiants visés par la planification des ressources d'entreprise.  ### Microsoft Security, Compliance, and Identity Fundamentals (SC-900)  La certification **Microsoft Security, Compliance, and Identity Fundamentals** se concentre sur les concepts de cloud, les services Microsoft 365 de base, la sécurité, la conformité, la confidentialité et la confiance. Cette certification est précieuse pour les étudiants visés par la cybersécurité et la gestion des identités.  ______  ## Avantages du programme MSFT Student Cert  Le programme MSFT Student Cert offre plusieurs avantages aux étudiants et aux nouveaux diplômés. Tout d'abord, son utilisation est entièrement gratuite et offre un accès à de précieuses certifications en cloud computing et en intelligence artificielle. Ces certifications peuvent aider les étudiants à se révéler sur le marché du travail et à démontrer leurs compétences et leurs connaissances à des employeurs potentiels.  De plus, le programme MSFT Student Cert est conçu pour être accessible aux étudiants de tous niveaux. Que vous soyez nouveau dans le cloud computing et l'intelligence artificielle ou que vous ayez une certaine expérience, il existe des certifications disponibles pour répondre à vos besoins.  Enfin, le programme MSFT Student Cert est un excellent moyen d'acquérir une expérience pratique des technologies Microsoft. En passant les examens de certification, les étudiants acquerront une expérience pratique des outils et des technologies utilisées dans l'industrie technologique.  ______  ## Comment démarrer avec MSFT Student Cert  Démarrer avec MSFT Student Cert est facile. Il suffit de visiter et de créer un compte. Une fois que vous avez un compte, vous pouvez parcourir les certifications disponibles et commencer à préparer vos examens.  Plusieurs ressources sont disponibles pour vous aider à préparer, notamment des guides d'étude, des examens blancs et des cours en ligne. En utilisant ces ressources, vous pouvez augmenter vos chances de réussir vos examens de certification et de valider votre expertise en la matière.  ______  ## Avantages d'obtenir des certifications  L'obtention d'une certification de Microsoft peut présenter de nombreux avantages, en particulier pour les étudiants. Voici quelques-uns des avantages :  ### Boostez votre CV Les certifications présentées aux employeurs que vous avez un certain niveau de connaissances et de compétences. En obtenant une certification de Microsoft, vous pouvez montrer aux employeurs potentiels que vous êtes sérieux au sujet de votre carrière et que vous avez les compétences nécessaires pour effectuer le travail.  ### Se distinguer des autres Dans le marché du travail concurrentiel d'aujourd'hui, avoir une certification peut vous aider à vous démarquer des autres candidats. Cela montre que vous avez pris l'initiative d'apprendre et de développer vos compétences, une qualité que les employeurs apprécient.  ### Développez vos connaissances En obtenant une certification, vous acquerrez des connaissances dans un domaine spécifique qui peuvent être utiles dans votre carrière. Ces connaissances peuvent vous aider dans vos futurs rôles professionnels et faire de vous un employé plus précieux.  ### Opportunités de réseautage L'obtention d'une certification peut également vous donner accès à un réseau de professionnels dans le domaine. Ce réseau peut vous aider à trouver des opportunités d'emploi, à obtenir du mentorat et à vous tenir au courant des tendances de l'industrie.  ______  ## Conclusion  L'obtention de certifications de Microsoft peut être un atout précieux pour les étudiants, les aidants à se démarquer sur un marché du travail concurrentiel et à approfondir leurs connaissances dans des domaines spécifiques. Grâce à la disponibilité des certifications gratuites via CloudReadySkills.com, les étudiants peuvent profiter de cette opportunité pour acquérir de nouvelles compétences et faire progresser leur carrière. En suivant les étapes décrites dans cet article, les étudiants peuvent obtenir des certifications dans des domaines tels que le cloud computing, les données et l'IA, et le développement, et ajouter ces précieuses certifications à leur CV. Ne manquez pas cette opportunité de booster vos perspectives de carrière et d'approfondir vos connaissances dans un domaine spécifique. Inscrivez-vous au Microsoft Cloud Skills Challenge dès aujourd'hui et essayez de gagner vos certifications gratuites ! 

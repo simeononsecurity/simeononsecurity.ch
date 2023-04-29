@@ -1,241 +1,124 @@
 ---
-title: "Construyendo contenedores Docker eficientes y seguros: Guía para principiantes"
+title: "Building Efficient and Secure Docker Containers: A Guide for Beginners"
 date: 2023-02-24
 toc: true
 draft: false
-descripción: "Aprende a crear contenedores Docker eficientes y seguros utilizando las mejores prácticas, consejos e instrucciones paso a paso en esta completa guía."
-tags: ["docker", "containers", "containerization", "devops", "deployment", "portability", "efficiency", "security", "best practices", "Dockerfile", "base images", "environment variables", "volume mounts", "root user", "up-to-date images", "software development", "container images", "Docker Hub", "container orchestration", "Kubernetes"].
-cover: "/img/cover/A_3D_imagen_animada_de_un_contenedor_seguro_bien_organizado.png"
-coverAlt: "Imagen animada en 3D de un contenedor seguro y bien organizado con el logotipo de Docker sobre él, rodeado de diversas herramientas y equipos relacionados con la ingeniería de software y DevOps."
+description: "Learn how to create efficient and secure Docker containers using best practices, tips, and step-by-step instructions in this comprehensive guide."
+tags: ["docker", "containers", "containerization", "devops", "deployment", "portability", "efficiency", "security", "best practices", "Dockerfile", "base images", "environment variables", "volume mounts", "root user", "up-to-date images", "software development", "container images", "Docker Hub", "container orchestration", "Kubernetes"]
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+coverAlt: "A 3D animated image of a secure, well-organized container with the Docker logo on it, surrounded by various tools and equipment related to software engineering and DevOps."
 coverCaption: ""
 ---
 ```bash
 FROM ubuntu:latest
-EJECUTAR apt-get update && apt-get install -y nginx
-COPIAR index.html /var/www/html/
+RUN apt-get update && apt-get install -y nginx
+COPY index.html /var/www/html/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 ```bash
 docker run -d -p 80:80 my-nginx-image
 ```
-``dockerfile
-RUN apt update
+```dockerfile
+RUN apt update 
 RUN apt install apache -y
 ```
-``dockerfile
+```dockerfile
 RUN apt update && apt install apache -y
 ```
-``bash
+```bash
 docker run -e PORT=3000 my-app
 ```
-``Dockerfile
-DESDE nodo:14
+```Dockerfile
+FROM node:14
 
-# Establecer el directorio de trabajo
-directorio de trabajo /app
+# Set the working directory
+WORKDIR /app
 
-# Copiar package.json y yarn.lock al contenedor
-COPIAR package.json yarn.lock ./
+# Copy package.json and yarn.lock to the container
+COPY package.json yarn.lock ./
 
-# Instalar dependencias
-EJECUTAR yarn install --frozen-lockfile
+# Install dependencies
+RUN yarn install --frozen-lockfile
 
-# Copiar el código de la aplicación al contenedor
-COPIAR . .
+# Copy the application code to the container
+COPY . .
 
-# Exponer el puerto de la aplicación
-EXPONER $PUERTO
+# Expose the application port
+EXPOSE $PORT
 
-# Iniciar la aplicación
+# Start the application
 CMD ["yarn", "start"]
 ```
 ```bash
 docker run -v /home/user/app/data:/app/data my-app
 ```
 ```Dockerfile
-DESDE nodo:14
+FROM node:14
 
-# Establecer el directorio de trabajo
-directorio de trabajo /app
+# Set the working directory
+WORKDIR /app
 
-# Copia los ficheros package.json y yarn.lock al contenedor
-COPIAR package.json yarn.lock ./
+# Copy the package.json and yarn.lock files to the container
+COPY package.json yarn.lock ./
 
-# Instale las dependencias
-EJECUTAR yarn install --frozen-lockfile
+# Install dependencies
+RUN yarn install --frozen-lockfile
 
-# Copiar el resto del código de la aplicación al contenedor
-COPIAR . .
+# Copy the rest of the application code to the container
+COPY . .
 
-# Exponer el puerto de la aplicación
-EXPONER 3000
+# Expose the application port
+EXPOSE 3000
 
-# Iniciar la aplicación
+# Start the application
 CMD ["yarn", "start"]
 
-# Montar un volumen para los datos de la aplicación
-VOLUMEN ["/app/data"]
+# Mount a volume for the application data
+VOLUME ["/app/data"]
 ```
 ```Dockerfile
-DESDE nodo:14
+FROM node:14
 
-# Crear un nuevo usuario para ejecutar el contenedor
+# Create a new user to run the container
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Cambia el directorio de trabajo al directorio home del usuario app
+# Change the working directory to the app user's home directory
 WORKDIR /home/app
 
-# Instalar dependencias como usuario de app
-COPIAR package.json yarn.lock ./
-EJECUTAR chown -R app:app /home/app
-USUARIO app
-EJECUTAR yarn install --frozen-lockfile --production
+# Install dependencies as the app user
+COPY package.json yarn.lock ./
+RUN chown -R app:app /home/app
+USER app
+RUN yarn install --frozen-lockfile --production
 
-# Copiar el código de la aplicación como usuario de app
-COPIAR --chown=app:app . .
+# Copy the application code as the app user
+COPY --chown=app:app . .
 
-# Exponer el puerto
-EXPONER 3000
+# Expose the port
+EXPOSE 3000
 
-# Iniciar la aplicación como usuario
+# Start the application as the app user
 CMD ["yarn", "start"]
 ```
 ```Dockerfile
 FROM ubuntu:latest
 
-# Actualizar la lista de paquetes e instalar las actualizaciones de seguridad
+# Update the package list and install security updates
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Instalar el servidor web nginx
+# Install the nginx web server
 RUN apt-get install -y nginx
 
-# Copia el código de la aplicación al contenedor
-COPIAR . /var/www/html/
+# Copy the application code to the container
+COPY . /var/www/html/
 
-# Exponer el puerto 80 al sistema anfitrión
-EXPONER 80
+# Expose port 80 to the host system
+EXPOSE 80
 
-# Iniciar el servidor nginx
+# Start the nginx server
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
 
-
- **Crear contenedores Docker**
- 
- Docker es una potente herramienta que puede utilizarse para crear aplicaciones portátiles y fácilmente desplegables. En esta guía, cubriremos los pasos básicos para crear y construir contenedores Docker. También repasamos algunas buenas prácticas y consejos para asegurarte de que tus contenedores Docker son eficaces, seguros y fáciles de usar.
- 
- ## Comprender Docker
- 
- Antes de empezar a crear contenedores Docker, es importante entender qué es Docker y cómo funciona.
- 
- Docker es una herramienta que te permite agrupar una aplicación y sus dependencias en un contenedor que puede ejecutarse en cualquier sistema. El contenedor está aislado del sistema huésped e incluye todo lo necesario para ejecutar la aplicación, incluyendo el código, el entorno de ejecución, las herramientas del sistema, las bibliotecas y los parámetros.
- 
- Los contenedores son grandes y fáciles de manejar, lo que los convierte en una opción popular para crear y gestionar aplicaciones. Con Docker, puede crear, administrar y ejecutar contenedores con una sencilla interfaz de línea de comandos.
- 
- ## Construir una imagen Docker
- 
- Para crear un contenedor Docker, primero debes crear una imagen Docker. Una imagen Docker es una copia instantánea de un contenedor que incluye todos los archivos, bibliotecas y dependencias necesarias para ejecutar la aplicación.
- 
- Estas son las etapas básicas para crear una imagen Docker :
- 
- 1. **Crear un archivo Docker**.
- 2. **Construir la imagen
- 3. **Ejecutar el contenedor**
- 
- ### Étape 1 : Créer un fichier Dockerfile
- 
- La primera etapa para crear una imagen Docker consiste en crear un Dockerfile. Un Dockerfile es un archivo de texto que contiene las instrucciones necesarias para crear una imagen. Vea un ejemplo de Dockerfile simple :
- 
- 
- Componemos este Dockerfile :
- 
- - `FROM ubuntu:latest` especifica la imagen base a utilizar para el contenedor. En este caso, utilizamos la última versión de Ubuntu.
- - `RUN apt-get update && apt-get install -y nginx` actualiza la lista de paquetes e instala el servidor Web nginx.
- - COPIAR index.html /var/www/html/` copia el fichero index.html a la ruta web del navegador.
- - Expone el puerto 80 al servidor.
- - CMD ["nginx", "-g", "daemon off;"]` elimina el servidor nginx y lo ejecuta en primer plano.
- 
- ### Étape 2 : Créer l'image
- 
- Después de crear el fichero Docker, puedes crear la imagen con la ayuda del comando `docker build`. Vea un ejemplo :
- 
- 
- Componga este comando :
- 
- - `docker run` indica a Docker que ejecute un contenedor.
- - d` ejecuta el contenedor en modo separado, lo que significa que se ejecuta en el plano frontal.
- - p 80:80` asigna el puerto 80 del sistema huésped al puerto 80 del navegador.
- - `my-nginx-image` especifica el nombre de la imagen Docker que se utilizará en el contenedor.
- 
- ## Las mejores prácticas
- 
- Ahora que ya sabes cómo crear contenedores Docker, revisa algunas buenas prácticas para asegurarte de que tus contenedores Docker son eficientes, seguros y fáciles de usar.
- 
- ### Utilizar pequeñas imágenes de base
- 
- Para que tus contenedores Docker sean pequeños y rápidos de usar, es preferible que utilices pequeñas imágenes de base que sólo contengan los recursos que tu aplicación necesita. Por ejemplo, en lugar de utilizar un sistema de explotación completo como Ubuntu o CentOS, puedes utilizar una imagen más pequeña como Alpine Linux o BusyBox.
- 
- ### Réduire les calques
- 
- Cada línea de tu Dockerfile crea una nueva clave en tu imagen Docker, y cada clave aumenta el tamaño de la imagen. Para mantener tus imágenes Docker lo más pequeñas posible, debes minimizar el número de calcos en tu imagen. Una forma de hacerlo consiste en agrupar comandos similares en una única línea de tu archivo Docker. Por ejemplo, en lugar de utilizar dos comandos "RUN" distintos para actualizar la lista de paquetes e instalar un paquete, puedes utilizar un único comando "RUN" para hacer las dos cosas a la vez.
- 
- Ej:
- contra
- 
- ### Utilizar variables de entorno
- 
- El uso de variables de entorno en tu Dockerfile en lugar de valores de codificación facilita la personalización de tu contenedor durante la ejecución y garantiza que tu Dockerfile sea portable. Por ejemplo, puedes utilizar variables de entorno para especificar el puerto en el que se ejecutará tu aplicación o la ubicación de un archivo de configuración.
- 
- Ej:
- 
- 
- ### Utilizar los montajes de volumen
- 
- Los montajes de volumen son una forma de compartir datos entre tu sistema host y tu contador Docker. Esto facilita la gestión de datos y reduce el tamaño de su contenedor Docker. Por ejemplo, puedes utilizar un montaje de volumen para compartir un archivo de base de datos entre tu servidor y tu contador.
- 
- Ej:
- 
- 
- ### Évitez d'exécuter en tant que root
- 
- La ejecución de su contenedor Docker como usuario root puede suponer un riesgo de seguridad. En lugar de esto, debes crear un nuevo usuario en tu archivo Docker y ejecutar el controlador como usuario. Por ejemplo, puedes usar el comando "USER" en tu Dockerfile para crear un nuevo usuario, y luego pasar a este usuario durante la ejecución del contador.
- 
- Ej:
- 
- ### Gardez les images à jour
- 
- Para asegurarte de que tus contenidos Docker están seguros y libres de vulnerabilidades, es importante mantener al día tus imágenes Docker. Esto significa poner al día regularmente la imagen de base y todas las dependencias que requieran el reposicionamiento de su aplicación. Por ejemplo, puede utilizar los comandos "apt-get update" y "apt-get upgrade" en su archivo Docker para mantener su contenedor actualizado con las últimas correcciones de seguridad y errores.
- 
- Ej:
- ## Poursuivez vos études
- ### Docker de documentación
- [Docker](https://www.docker.com/) es una plataforma de código abierto que permite crear, probar y ejecutar aplicaciones en contenedores. El sitio web de documentación de Docker ofrece información detallada sobre la instalación, configuración y uso de Docker para una gran variedad de sistemas operativos y casos de uso. El sitio web también incluye información sobre la API de Docker, los comandos CLI de Docker y consejos de instalación.
- 
- Algunas secciones útiles de la documentación de Docker incluyen :
- 
- - Comenzando con Docker](https://docs.docker.com/get-started/)
- - Referencia de la CLI de Docker](https://docs.docker.com/engine/reference/commandline/cli/)
- - Referencia a la API de Docker](https://docs.docker.com/engine/api/v1.41/)
- - Referencia Docker-compose](https://docs.docker.com/compose/compose-file/)
- - Referencia Dockerfile](https://docs.docker.com/engine/reference/builder/)
- 
- La documentación de Docker es un excelente recurso para aprender a utilizar Docker y para resolver los problemas con los que te puedas encontrar.
- 
- ### Estación de acceso al concentrador
- [Docker Hub](https://hub.docker.com/) es una referencia basada en la nube que te permite almacenar, compartir y administrar imágenes Docker. Docker Hub incluye referencias públicas y privadas, así como compilaciones y flujos de trabajo automatizados. Puedes utilizar Docker Hub para almacenar tus propias imágenes Docker, así como para encontrar imágenes predefinidas para aplicaciones logísticas y herramientas populares.
- 
- Algunas funcionalidades útiles de Docker Hub incluyen :
- 
- - Buscar imágenes Docker](https://hub.docker.com/search?type=image)
- - Almacenamiento y gestión de imágenes Docker en referencias](https://hub.docker.com/repositories)
- - Automatizar compilaciones y pruebas con los flujos de trabajo de Docker Hub](https://docs.docker.com/docker-hub/builds/)
- 
- Docker Hub es una herramienta esencial para trabajar con Docker, y puede ahorrarte mucho tiempo y esfuerzo cuando se trata de gestionar y compartir imágenes Docker.
- 
- 
- ## Conclusión
- 
- Docker es una poderosa herramienta que puede ayudarte a hacer tus aplicaciones más portables, eficientes y fáciles de manejar. Siguiendo estas buenas prácticas y estos consejos, puedes crear contenedores Docker seguros, fáciles de usar y rápidos de prevenir. Ya sea que crees una nueva aplicación o que migres una aplicación existente a Docker, estos pasos te permitirán avanzar en la creación de contenedores Docker.
- 
+ **Comment créer des conteneurs Docker**  Docker est un outil puissant qui peut être utilisé pour créer des applications portables et facilement déployables. Dans ce guide, nous couvrirons les étapes de base pour créer et construire des conteneurs Docker. Nous passerons également en revue quelques bonnes pratiques et astuces pour vous assurer que vos conteneurs Docker sont efficaces, sécurisés et faciles à utiliser.  ## Comprendre Docker  Avant de commencer à créer des conteneurs Docker, il est important de comprendre ce qu'est Docker et comment il fonctionne.  Docker est un outil qui vous permet de regrouper une application et ses dépendances dans un conteneur pouvant s'exécuter sur n'importe quel système. Le conteneur est isolé du système hôte et comprend tout ce qui est nécessaire pour effectuer l'application, y compris le code, l'environnement d'exécution, les outils système, les bibliothèques et les paramètres.  Les conteneurs sont légers et faciles à réussir, ce qui en fait un choix populaire pour créer et réussir des applications. Avec Docker, vous pouvez créer, gérer et exécuter des conteneurs avec une simple interface de ligne de commande.  ## Construire une image Docker  Pour créer un conteneur Docker, vous devez d'abord créer une image Docker. Une image Docker est un instantané d'un conteneur qui inclut tous les fichiers, bibliothèques et dépendances nécessaires pour exécuter l'application.  Voici les étapes de base pour créer une image Docker :  1. **Créer un Dockerfile** 2. **Construire l'image** 3. **Exécuter le conteneur**  ### Étape 1 : Créer un fichier Dockerfile  La première étape pour créer une image Docker consiste à créer un Dockerfile. Un Dockerfile est un fichier texte qui contient les instructions nécessaires pour créer l'image. Voici un exemple de Dockerfile simple :   Décomposons ce Dockerfile :  - `FROM ubuntu:latest` précise l'image de base à utiliser pour le conteneur. Dans ce cas, nous utilisons la dernière version d'Ubuntu. - `RUN apt-get update && apt-get install -y nginx` met à jour la liste des packages et installe le serveur Web nginx. - `COPY index.html /var/www/html/` copie le fichier index.html à la racine Web du conteneur. - `EXPOSE 80` expose le port 80 au système hôte. - `CMD ["nginx", "-g", "daemon off;"]` démarre le serveur nginx et l'exécute au premier plan.  ### Étape 2 : Créer l'image  Après avoir créé le Dockerfile, vous pouvez créer l'image à l'aide de la commande `docker build`. Voici un exemple :   Décomposons cette commande :  - `docker run` indique à Docker d'exécuter un conteneur. - `-d` exécute le conteneur en mode détaché, ce qui signifie qu'il s'exécute en arrière-plan. - `-p 80:80` mappe le port 80 sur le système hôte au port 80 dans le conteneur. - `my-nginx-image` précise le nom de l'image Docker à utiliser pour le conteneur.  ## Les meilleures pratiques  Maintenant que vous savez comment créer des conteneurs Docker, passez en revue quelques bonnes pratiques pour vous assurer que vos conteneurs Docker sont efficaces, sécurisés et faciles à utiliser.  ### Utiliser de petites images de base  Pour que vos conteneurs Docker restent petits et rapides à insuffisants, il est préférable d'utiliser de petites images de base qui ne contiennent que les dépendances dont votre application a besoin. Par exemple, au lieu d'utiliser un système d'exploitation complet comme Ubuntu ou CentOS, vous pouvez utiliser une image plus petite comme Alpine Linux ou BusyBox.  ### Réduire les calques  Chaque ligne de votre Dockerfile crée un nouveau calque dans votre image Docker, et chaque calque ajoute à la taille de l'image. Pour garder vos images Docker aussi petites que possible, vous devez essayer de minimiser le nombre de calques dans votre image. Une façon de procéder consiste à regrouper des commandes similaires sur une seule ligne dans votre Dockerfile. Par exemple, au lieu d'utiliser deux commandes "RUN" distinctes pour mettre à jour la liste des packages et installer un package, vous pouvez utiliser une seule commande "RUN" pour faire les deux en même temps.  Ex: contre  ### Utiliser des variables d'environnement  L'utilisation de variables d'environnement dans votre Dockerfile au lieu de valeurs de codage facilite la personnalisation de votre conteneur lors de l'exécution et garantit que votre Dockerfile est portable. Par exemple, vous pouvez utiliser des variables d'environnement pour spécifier le port sur lequel votre application s'exécute ou l'emplacement d'un fichier de configuration.  Ex:   ### Utiliser les montages de volume  Les montages de volume sont un moyen de partager des données entre votre système hôte et votre conteneur Docker. Cela facilite la gestion des données et réduit la taille de votre conteneur Docker. Par exemple, vous pouvez utiliser un montage de volume pour partager un fichier de base de données entre votre système hôte et votre conteneur.  Ex:   ### Évitez d'exécuter en tant que root  L'exécution de votre conteneur Docker en tant qu'utilisateur root peut poser un risque de sécurité. Au lieu de cela, vous devez créer un nouvel utilisateur dans votre Dockerfile et effectuer le conteneur en tant qu'utilisateur. Par exemple, vous pouvez utiliser la commande "USER" dans votre Dockerfile pour créer un nouvel utilisateur, puis passer à cet utilisateur lors de l'exécution du conteneur.  Ex:  ### Gardez les images à jour  Pour vous assurer que vos conteneurs Docker sont sécurisés et exempts de vulnérabilités, il est important de maintenir à jour vos images Docker. Cela signifie mettre à jour régulièrement l'image de base et toutes les dépendances sur demandant de reposer votre application. Par exemple, vous pouvez utiliser les commandes `apt-get update` et `apt-get upgrade` dans votre Dockerfile pour maintenir votre conteneur à jour avec les derniers correctifs de sécurité et corrections de bogues.  Ex: ## Poursuivez vos études ### Docker de documentation [Docker](https://www.docker.com/) est une plate-forme open source permettant de créer, d'expédier et d'exécuter des applications dans des conteneurs. Le site Web de documentation Docker fournit des informations détaillées sur l'installation, la configuration et l'utilisation de Docker pour une variété de systèmes d'exploitation et de cas d'utilisation. Le site Web comprend également des informations sur les API Docker, les commandes Docker CLI et des conseils de dépannage.  Certaines sections utiles de la documentation Docker incluent :  - [Commencer avec Docker](https://docs.docker.com/get-started/) - [Référence Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/) - [Référence de l'API Docker](https://docs.docker.com/engine/api/v1.41/) - [Référence Docker-compose](https://docs.docker.com/compose/compose-file/) - [Référence Dockerfile](https://docs.docker.com/engine/reference/builder/)  La documentation Docker est une excellente ressource pour apprendre à utiliser Docker et pour résoudre les problèmes que vous pourriez rencontrer.  ### Station d'accueil du concentrateur [Docker Hub](https://hub.docker.com/) est un référentiel basé sur le cloud qui vous permet de stocker, de partager et de gérer les images Docker. Docker Hub comprend des référentiels publics et privés, ainsi que des builds et des workflows automatisés. Vous pouvez utiliser Docker Hub pour stocker vos propres images Docker, ainsi que pour trouver des images prédéfinies pour les applications logicielles et les outils populaires.  Certaines fonctionnalités utiles de Docker Hub incluent :  - [Rechercher des images Docker](https://hub.docker.com/search?type=image) - [Stocker et gérer les images Docker dans des référentiels](https://hub.docker.com/repositories) - [Automatisez les builds et les tests avec les workflows Docker Hub](https://docs.docker.com/docker-hub/builds/)  Docker Hub est un outil essentiel pour travailler avec Docker, et il peut vous faire gagner beaucoup de temps et d'efforts lorsqu'il s'agit de gérer et de partager des images Docker.   ## Conclusion  Docker est un outil puissant qui peut vous aider à rendre vos applications plus portables, efficaces et faciles à réussir. En suivant ces bonnes pratiques et ces conseils, vous pouvez créer des conteneurs Docker sécurisés, faciles à utiliser et rapides à prévenir. Que vous créiez une nouvelle application ou que vous migriez une application existante vers Docker, ces étapes vous permettent de démarrer avec la création de conteneurs Docker. 

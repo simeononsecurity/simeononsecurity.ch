@@ -22,141 +22,4 @@ coverCaption: ""
 - elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
 ```
 
-date
- En esta era digital, nuestros dispositivos contienen una gran cantidad de información confidencial, desde datos financieros y personales hasta documentos de trabajo confidenciales. Si sospecha que su correo electrónico, computadora de escritorio o teléfono se han visto comprometidos, puede ser una experiencia estresante y alarmante. ¡Pero no entres en pánico! Hay pasos que puede seguir para proteger sus datos y restaurar la seguridad de su dispositivo.
- 
- ## Paso 1: evaluar la situación
- 
- El primer paso que debe tomar cuando sospecha que su correo electrónico, computadora de escritorio o teléfono se ha visto comprometido es evaluar la situación. Aquí hay algunas cosas que debe buscar:
- 
- - **Actividad inusual**: busque cualquier actividad inusual en su dispositivo, como cambios en el fondo de su escritorio o programas desconocidos ejecutándose en segundo plano.
- 
- - **Archivos desconocidos**: Busque cualquier archivo o programa desconocido en su dispositivo, especialmente en su carpeta de Descargas o en el historial de descargas de su navegador.
- 
- - **Cambios en las credenciales de inicio de sesión**: si sospecha que su correo electrónico se ha visto comprometido, revise su carpeta de enviados para ver si hay correos electrónicos que no envió y su carpeta de papelera para ver si hay correos electrónicos eliminados que no eliminados. Además, busque cambios en sus credenciales de inicio de sesión, como una nueva dirección de correo electrónico o contraseña asociada con su cuenta.
- 
- - **Correos electrónicos desconocidos**: si sospecha que su correo electrónico se ha visto comprometido, busque correos electrónicos desconocidos en su bandeja de entrada o carpeta de correo no deseada.
- 
- - **Cargos inesperados**: si sospecha que su teléfono se ha visto comprometido, busque cargos inesperados en su factura telefónica o actividad inusual en su historial de llamadas o mensajes de texto.
- 
- Es importante tomar nota de cualquier signo de compromiso para que pueda tomar las medidas adecuadas para proteger su dispositivo y sus datos. Si no está seguro de si su dispositivo se ha visto comprometido, siempre es mejor equivocarse en el
- 
- ______
- 
- ## Paso 2: cambie sus contraseñas y verifique la información de recuperación
- 
- - **Cambie sus contraseñas** para todas sus cuentas inmediatamente si sospecha que su dispositivo ha sido comprometido
- 
- 
- Si sospecha que su correo electrónico, computadora de escritorio o teléfono se ha visto comprometido, el siguiente paso es cambiar las contraseñas de todas sus cuentas de inmediato. Esto llevará un tiempo, así que prioriza las cuentas importantes como tus correos electrónicos, cuentas bancarias, cuentas de redes sociales, etc.
- 
- - **Da prioridad a las cuentas importantes** como tus correos electrónicos, cuentas bancarias, cuentas de redes sociales, etc.
- 
- - **Elija contraseñas seguras y únicas** para cada una de sus cuentas y **evite usar la misma contraseña** en varias cuentas
- - Una **contraseña segura** debe tener al menos **12 caracteres** e incluir una **combinación de letras mayúsculas y minúsculas, números y símbolos**
- 
- Elija contraseñas seguras y únicas para cada una de sus cuentas y evite usar la misma contraseña en varias cuentas. Una contraseña segura debe tener al menos 12 caracteres e incluir una combinación de letras mayúsculas y minúsculas, números y símbolos. Evite usar palabras o frases comunes y no incluya información personal como su nombre, fecha de nacimiento o dirección.
- 
- ***Algunos ejemplos de contraseñas seguras***:
- 
- ***Ejemplos de frases de paso***:
- 
- - **Habilite la autenticación de dos factores** para una capa adicional de seguridad
- 
- También es una buena idea habilitar la autenticación de dos factores, que agrega una capa adicional de seguridad a sus cuentas. La autenticación de dos factores requiere un segundo método de verificación, como un código enviado a su teléfono o correo electrónico, además de su contraseña.
- 
- - **Cambia tus contraseñas desde un dispositivo limpio conocido** o uno cuyo sistema operativo acaba de restaurarse o reinstalarse completamente desde cero
- 
- Es importante cambiar sus contraseñas desde un dispositivo limpio conocido o uno que acaba de restaurar su sistema operativo, o incluso mejor, reinstalado completamente desde cero. Esto asegurará que cualquier malware u otros compromisos en su dispositivo no se transfieran al nuevo dispositivo.
- 
- - **Borrar todas las sesiones** de su cuenta, conocidos o desconocidos, para expulsar a cualquier atacante de su cuenta
- 
- Además, en este paso, la mayoría de los servicios tienen paneles donde pueden ver las sesiones activas y anteriores de la cuenta. Entra allí y limpia todas las sesiones. Todos ellos. Conocido o desconocido. Esto expulsará a cualquier atacante de su cuenta.
- 
- - **Verifique la información de recuperación de la cuenta** en la cuenta, incluidas las preguntas de seguridad, el número de teléfono o la dirección de correo electrónico alternativa
- - **Elimine cualquier información desconocida** y reemplácela con su propia información para evitar que los atacantes usen la información de recuperación de su cuenta para obtener acceso a su cuenta en el futuro
- 
- Por último, después de cambiar la contraseña y eliminar otras sesiones, debe tomarse el tiempo para verificar la información de recuperación de la cuenta en la cuenta. Esto puede incluir sus preguntas de seguridad, número de teléfono o dirección de correo electrónico alternativa. Si encuentra alguna información desconocida, elimínela y reemplácela con su propia información. Esto ayudará a evitar que los atacantes utilicen la información de recuperación de su cuenta para obtener acceso a su cuenta en el futuro.
- 
- ______
- 
- ## Paso 3: actualizar su software
- 
- **Mantener su sistema operativo**, antivirus y otro software **actualizado** es esencial para mantener la seguridad de su dispositivo. Las actualizaciones de software a menudo incluyen parches de seguridad que **abordan vulnerabilidades conocidas**, por lo que es importante actualizar su software lo antes posible cuando las actualizaciones estén disponibles.
- 
- **Para actualizar su software**, vaya a la configuración o al panel de control de su dispositivo y **busque actualizaciones**. Si hay actualizaciones disponibles, descárguelas e instálelas **tan pronto como sea posible**.
- 
- **Ejemplos de software** que deben mantenerse actualizados incluyen:
- 
- - **Sistema operativo** (Windows, MacOS, iOS, Android, etc.)
- - **Software antivirus** (Norton, McAfee, Avast, etc.)
- - **Navegador web** (Google Chrome, Mozilla Firefox, Safari, etc.)
- - **Cliente de correo electrónico** (Microsoft Outlook, Apple Mail, Gmail, etc.)
- - **Aplicaciones** (Microsoft Office, Adobe Creative Suite, etc.)
- 
- ______
- 
- ## Paso 4: Escanee su dispositivo en busca de malware
- 
- - **Ejecute un análisis de malware** en su dispositivo para comprobar si se ha instalado algún software malicioso
- - **Malware** puede incluir **virus**, **gusanos**, **troyanos** y otros tipos de software malicioso que **pueden comprometer la seguridad** de su dispositivo y sus datos
- - **Use** un **software antivirus confiable** que esté actualizado para escanear su dispositivo en busca de malware
- 
- Ejecute un análisis de malware en su dispositivo para comprobar si se ha instalado algún software malicioso. El malware puede incluir virus, gusanos, troyanos y otros tipos de software malicioso que pueden dañar la seguridad de su dispositivo y sus datos.
- 
- - **Ejecute un análisis completo del sistema** y siga las instrucciones proporcionadas por su software antivirus para eliminar cualquier malware que se detecte
- - **Escanee cualquier dispositivo externo**, como unidades USB, que haya usado con el dispositivo comprometido
- 
- Para escanear su dispositivo en busca de malware, use un software antivirus confiable que esté actualizado. Ejecute un análisis completo del sistema y siga las instrucciones proporcionadas por su software antivirus para eliminar cualquier malware que se detecte.
- 
- - **Los dispositivos externos a menudo pueden contener malware** que puede infectar su dispositivo, por lo que es importante escanearlos antes de usar con su dispositivo
- - **Mantenga su software antivirus actualizado** para proteger su dispositivo de las últimas amenazas de malware
- - **Considere usar software de seguridad adicional**, como un **cortafuegos** o un **software antispyware**, para brindar mayor protección contra malware y otras amenazas de seguridad
- - **Tenga cuidado** al **descargar** o **instalar software** de Internet, y solo descárguelo de fuentes confiables para evitar infecciones de malware
- 
- También es una buena idea escanear cualquier dispositivo externo, como unidades USB, que haya usado con el dispositivo comprometido. Los dispositivos externos a menudo pueden contener malware que puede infectar su dispositivo, por lo que es importante escanearlos antes de usar con su dispositivo.
- 
- ______
- 
- ## Paso 5: Haga una copia de seguridad de los archivos importantes y limpie su dispositivo
- 
- - **Haga una copia de seguridad de los archivos importantes** antes de borrar su dispositivo si sospecha que su dispositivo está comprometido
- - **Verifique** que sus **archivos importantes están seguros** escaneándolos con un software antivirus antes de hacer una copia de seguridad de ellos
- 
- Si sospecha que su dispositivo está comprometido y ha confirmado algún tipo de indicador, el siguiente paso es hacer una copia de seguridad de los archivos importantes. Sin embargo, antes de hacer una copia de seguridad de sus archivos, debe verificar que estén seguros analizándolos con un software antivirus. Esto ayudará a garantizar que los archivos de los que realicen una copia de seguridad no estén dañados con malware que pueda dañar su nuevo dispositivo.
- 
- - **Limpiar su dispositivo** con una **instalación limpia** del sistema operativo **eliminará cualquier malware u otros compromisos** en su dispositivo y le dará un nuevo comienzo con un dispositivo seguro
- - Un **restablecimiento o restablecimiento de fábrica** funcionará en la mayoría de las situaciones si no es posible realizar una instalación limpia
- 
- Una vez que haya verificado que sus archivos importantes están seguros, debe borrar su dispositivo con una instalación limpia del sistema operativo. Esto eliminará cualquier malware u otros compromisos en su dispositivo y le dará un nuevo comienzo con un dispositivo seguro. Si no es posible realizar una instalación limpia, un restablecimiento o un restablecimiento de fábrica servirá en la mayoría de las situaciones.
- 
- - Recuerde que **borrar su dispositivo borrará todos los datos en el dispositivo**, por lo que es importante hacer una copia de seguridad de los archivos importantes antes de borrar su dispositivo
- - Asegúrese de **hacer una copia de seguridad de sus archivos en una ubicación segura**, como un disco duro externo o un servicio de almacenamiento en la nube, para garantizar que no se pierdan durante el proceso de borrado
- - Una vez que haya limpiado su dispositivo, **tome para protegerlo y evitar compromisos futuros**, como mantener su software y herramientas de seguridad actualizadas y evitar descargas y sitios web sospechosos.
- 
- Recuerde, borrar su dispositivo borrará todos los datos del dispositivo, por lo que es importante hacer una copia de seguridad de los archivos importantes antes de borrar su dispositivo.
- 
- ______
- 
- ## Paso opcional: trate sus claves criptográficas como comprometidos
- 
- - **Cree nuevas claves desde un dispositivo limpio** y transfiera todas las monedas a la nueva dirección lo antes posible
- - **Trate sus claves criptográficas como comprometidos** si tiene monederos criptográficos en su dispositivo comprometido
- - **Las claves criptográficas comprometidas pueden resultar en una pérdida de fondos**
- 
- 
- Si tiene billeteras criptográficas en su dispositivo comprometido, trate sus claves criptográficas también como comprometidos. Las claves criptográficas se utilizan para acceder y transferir criptomonedas, y si se ven comprometidas, podría provocar una pérdida de fondos.
- 
- - Es importante **asegurar sus criptobilleteras y llaves** para mantener la seguridad de sus fondos
- - **Los atacantes pueden robar sus claves anteriores y acceder a sus fondos**, por lo que es crucial tomar medidas para protegerlos
- - La **seguridad de sus criptobilleteras y claves debe ser una máxima prioridad**, especialmente si sospecha que su dispositivo ha sido comprometido.
- 
- Desde un dispositivo limpio, cree nuevas claves y transfiera todas las monedas a la nueva dirección lo antes posible. Esto ayudará a garantizar que sus estén seguros y no corran el riesgo de ser robados por un atacante que haya comprometido sus fondos anteriores.
- 
- Recuerde, la seguridad de sus billeteras y claves criptográficas es fundamental para mantener la seguridad de sus fondos, por lo que es importante tomar medidas para protegerlas si sospecha que su dispositivo se ha visto comprometido.
- 
- ______
- 
- ## Conclusión
- 
- En conclusión, si sospecha que su correo electrónico, computadora de escritorio o teléfono se ha visto comprometido, es importante que tome medidas de inmediato para proteger sus datos y restaurar la seguridad de su dispositivo. Evalúe la situación, cambie sus contraseñas, actualice su software, escanee su dispositivo en busca de malware, haga una copia de seguridad de los archivos importantes y borre su dispositivo de un dispositivo limpio conocido. Al seguir estos pasos, puede recuperar el control de su seguridad digital y protegerse de futuros compromisos.
+ En esta era digital, nuestros dispositivos contienen una gran cantidad de información confidencial, desde datos financieros y personales hasta documentos de trabajo confidenciales. Si sospecha que su correo electrónico, computadora de escritorio o teléfono se han visto comprometidos, puede ser una experiencia estresante y alarmante. ¡Pero no entres en pánico! Hay pasos que puede seguir para proteger sus datos y restaurar la seguridad de su dispositivo.  ## Paso 1: evaluar la situación  El primer paso que debe tomar cuando sospecha que su correo electrónico, computadora de escritorio o teléfono se ha visto comprometido es evaluar la situación. Aquí hay algunas cosas que debe buscar:  - **Actividad inusual**: busque cualquier actividad inusual en su dispositivo, como cambios en el fondo de su escritorio o programas desconocidos ejecutándose en segundo plano.  - **Archivos desconocidos**: Busque cualquier archivo o programa desconocido en su dispositivo, especialmente en su carpeta de Descargas o en el historial de descargas de su navegador.  - **Cambios en las credenciales de inicio de sesión**: si sospecha que su correo electrónico se ha visto comprometido, revise su carpeta de enviados para ver si hay correos electrónicos que no envió y su carpeta de papelera para ver si hay correos electrónicos eliminados que no eliminados. Además, busque cambios en sus credenciales de inicio de sesión, como una nueva dirección de correo electrónico o contraseña asociada con su cuenta.  - **Correos electrónicos desconocidos**: si sospecha que su correo electrónico se ha visto comprometido, busque correos electrónicos desconocidos en su bandeja de entrada o carpeta de correo no deseada.  - **Cargos inesperados**: si sospecha que su teléfono se ha visto comprometido, busque cargos inesperados en su factura telefónica o actividad inusual en su historial de llamadas o mensajes de texto.  Es importante tomar nota de cualquier signo de compromiso para que pueda tomar las medidas adecuadas para proteger su dispositivo y sus datos. Si no está seguro de si su dispositivo se ha visto comprometido, siempre es mejor equivocarse en el  ______  ## Paso 2: cambie sus contraseñas y verifique la información de recuperación  - **Cambie sus contraseñas** para todas sus cuentas inmediatamente si sospecha que su dispositivo ha sido comprometido   Si sospecha que su correo electrónico, computadora de escritorio o teléfono se ha visto comprometido, el siguiente paso es cambiar las contraseñas de todas sus cuentas de inmediato. Esto llevará un tiempo, así que prioriza las cuentas importantes como tus correos electrónicos, cuentas bancarias, cuentas de redes sociales, etc.  - **Da prioridad a las cuentas importantes** como tus correos electrónicos, cuentas bancarias, cuentas de redes sociales, etc.  - **Elija contraseñas seguras y únicas** para cada una de sus cuentas y **evite usar la misma contraseña** en varias cuentas - Una **contraseña segura** debe tener al menos **12 caracteres** e incluir una **combinación de letras mayúsculas y minúsculas, números y símbolos**  Elija contraseñas seguras y únicas para cada una de sus cuentas y evite usar la misma contraseña en varias cuentas. Una contraseña segura debe tener al menos 12 caracteres e incluir una combinación de letras mayúsculas y minúsculas, números y símbolos. Evite usar palabras o frases comunes y no incluya información personal como su nombre, fecha de nacimiento o dirección.  ***Algunos ejemplos de contraseñas seguras***:  ***Ejemplos de frases de paso***:  - **Habilite la autenticación de dos factores** para una capa adicional de seguridad  También es una buena idea habilitar la autenticación de dos factores, que agrega una capa adicional de seguridad a sus cuentas. La autenticación de dos factores requiere un segundo método de verificación, como un código enviado a su teléfono o correo electrónico, además de su contraseña.  - **Cambia tus contraseñas desde un dispositivo limpio conocido** o uno cuyo sistema operativo acaba de restaurarse o reinstalarse completamente desde cero  Es importante cambiar sus contraseñas desde un dispositivo limpio conocido o uno que acaba de restaurar su sistema operativo, o incluso mejor, reinstalado completamente desde cero. Esto asegurará que cualquier malware u otros compromisos en su dispositivo no se transfieran al nuevo dispositivo.  - **Borrar todas las sesiones** de su cuenta, conocidos o desconocidos, para expulsar a cualquier atacante de su cuenta  Además, en este paso, la mayoría de los servicios tienen paneles donde pueden ver las sesiones activas y anteriores de la cuenta. Entra allí y limpia todas las sesiones. Todos ellos. Conocido o desconocido. Esto expulsará a cualquier atacante de su cuenta.  - **Verifique la información de recuperación de la cuenta** en la cuenta, incluidas las preguntas de seguridad, el número de teléfono o la dirección de correo electrónico alternativa - **Elimine cualquier información desconocida** y reemplácela con su propia información para evitar que los atacantes usen la información de recuperación de su cuenta para obtener acceso a su cuenta en el futuro  Por último, después de cambiar la contraseña y eliminar otras sesiones, debe tomarse el tiempo para verificar la información de recuperación de la cuenta en la cuenta. Esto puede incluir sus preguntas de seguridad, número de teléfono o dirección de correo electrónico alternativa. Si encuentra alguna información desconocida, elimínela y reemplácela con su propia información. Esto ayudará a evitar que los atacantes utilicen la información de recuperación de su cuenta para obtener acceso a su cuenta en el futuro.  ______  ## Paso 3: actualizar su software  **Mantener su sistema operativo**, antivirus y otro software **actualizado** es esencial para mantener la seguridad de su dispositivo. Las actualizaciones de software a menudo incluyen parches de seguridad que **abordan vulnerabilidades conocidas**, por lo que es importante actualizar su software lo antes posible cuando las actualizaciones estén disponibles.  **Para actualizar su software**, vaya a la configuración o al panel de control de su dispositivo y **busque actualizaciones**. Si hay actualizaciones disponibles, descárguelas e instálelas **tan pronto como sea posible**.  **Ejemplos de software** que deben mantenerse actualizados incluyen:  - **Sistema operativo** (Windows, MacOS, iOS, Android, etc.) - **Software antivirus** (Norton, McAfee, Avast, etc.) - **Navegador web** (Google Chrome, Mozilla Firefox, Safari, etc.) - **Cliente de correo electrónico** (Microsoft Outlook, Apple Mail, Gmail, etc.) - **Aplicaciones** (Microsoft Office, Adobe Creative Suite, etc.)  ______  ## Paso 4: Escanee su dispositivo en busca de malware  - **Ejecute un análisis de malware** en su dispositivo para comprobar si se ha instalado algún software malicioso - **Malware** puede incluir **virus**, **gusanos**, **troyanos** y otros tipos de software malicioso que **pueden comprometer la seguridad** de su dispositivo y sus datos - **Use** un **software antivirus confiable** que esté actualizado para escanear su dispositivo en busca de malware  Ejecute un análisis de malware en su dispositivo para comprobar si se ha instalado algún software malicioso. El malware puede incluir virus, gusanos, troyanos y otros tipos de software malicioso que pueden dañar la seguridad de su dispositivo y sus datos.  - **Ejecute un análisis completo del sistema** y siga las instrucciones proporcionadas por su software antivirus para eliminar cualquier malware que se detecte - **Escanee cualquier dispositivo externo**, como unidades USB, que haya usado con el dispositivo comprometido  Para escanear su dispositivo en busca de malware, use un software antivirus confiable que esté actualizado. Ejecute un análisis completo del sistema y siga las instrucciones proporcionadas por su software antivirus para eliminar cualquier malware que se detecte.  - **Los dispositivos externos a menudo pueden contener malware** que puede infectar su dispositivo, por lo que es importante escanearlos antes de usar con su dispositivo - **Mantenga su software antivirus actualizado** para proteger su dispositivo de las últimas amenazas de malware - **Considere usar software de seguridad adicional**, como un **cortafuegos** o un **software antispyware**, para brindar mayor protección contra malware y otras amenazas de seguridad - **Tenga cuidado** al **descargar** o **instalar software** de Internet, y solo descárguelo de fuentes confiables para evitar infecciones de malware  También es una buena idea escanear cualquier dispositivo externo, como unidades USB, que haya usado con el dispositivo comprometido. Los dispositivos externos a menudo pueden contener malware que puede infectar su dispositivo, por lo que es importante escanearlos antes de usar con su dispositivo.  ______  ## Paso 5: Haga una copia de seguridad de los archivos importantes y limpie su dispositivo  - **Haga una copia de seguridad de los archivos importantes** antes de borrar su dispositivo si sospecha que su dispositivo está comprometido - **Verifique** que sus **archivos importantes están seguros** escaneándolos con un software antivirus antes de hacer una copia de seguridad de ellos  Si sospecha que su dispositivo está comprometido y ha confirmado algún tipo de indicador, el siguiente paso es hacer una copia de seguridad de los archivos importantes. Sin embargo, antes de hacer una copia de seguridad de sus archivos, debe verificar que estén seguros analizándolos con un software antivirus. Esto ayudará a garantizar que los archivos de los que realicen una copia de seguridad no estén dañados con malware que pueda dañar su nuevo dispositivo.  - **Limpiar su dispositivo** con una **instalación limpia** del sistema operativo **eliminará cualquier malware u otros compromisos** en su dispositivo y le dará un nuevo comienzo con un dispositivo seguro - Un **restablecimiento o restablecimiento de fábrica** funcionará en la mayoría de las situaciones si no es posible realizar una instalación limpia  Una vez que haya verificado que sus archivos importantes están seguros, debe borrar su dispositivo con una instalación limpia del sistema operativo. Esto eliminará cualquier malware u otros compromisos en su dispositivo y le dará un nuevo comienzo con un dispositivo seguro. Si no es posible realizar una instalación limpia, un restablecimiento o un restablecimiento de fábrica servirá en la mayoría de las situaciones.  - Recuerde que **borrar su dispositivo borrará todos los datos en el dispositivo**, por lo que es importante hacer una copia de seguridad de los archivos importantes antes de borrar su dispositivo - Asegúrese de **hacer una copia de seguridad de sus archivos en una ubicación segura**, como un disco duro externo o un servicio de almacenamiento en la nube, para garantizar que no se pierdan durante el proceso de borrado - Una vez que haya limpiado su dispositivo, **tome para protegerlo y evitar compromisos futuros**, como mantener su software y herramientas de seguridad actualizadas y evitar descargas y sitios web sospechosos.  Recuerde, borrar su dispositivo borrará todos los datos del dispositivo, por lo que es importante hacer una copia de seguridad de los archivos importantes antes de borrar su dispositivo.  ______  ## Paso opcional: trate sus claves criptográficas como comprometidos  - **Cree nuevas claves desde un dispositivo limpio** y transfiera todas las monedas a la nueva dirección lo antes posible - **Trate sus claves criptográficas como comprometidos** si tiene monederos criptográficos en su dispositivo comprometido - **Las claves criptográficas comprometidas pueden resultar en una pérdida de fondos**   Si tiene billeteras criptográficas en su dispositivo comprometido, trate sus claves criptográficas también como comprometidos. Las claves criptográficas se utilizan para acceder y transferir criptomonedas, y si se ven comprometidas, podría provocar una pérdida de fondos.  - Es importante **asegurar sus criptobilleteras y llaves** para mantener la seguridad de sus fondos - **Los atacantes pueden robar sus claves anteriores y acceder a sus fondos**, por lo que es crucial tomar medidas para protegerlos - La **seguridad de sus criptobilleteras y claves debe ser una máxima prioridad**, especialmente si sospecha que su dispositivo ha sido comprometido.  Desde un dispositivo limpio, cree nuevas claves y transfiera todas las monedas a la nueva dirección lo antes posible. Esto ayudará a garantizar que sus estén seguros y no corran el riesgo de ser robados por un atacante que haya comprometido sus fondos anteriores.  Recuerde, la seguridad de sus billeteras y claves criptográficas es fundamental para mantener la seguridad de sus fondos, por lo que es importante tomar medidas para protegerlas si sospecha que su dispositivo se ha visto comprometido.  ______  ## Conclusión  En conclusión, si sospecha que su correo electrónico, computadora de escritorio o teléfono se ha visto comprometido, es importante que tome medidas de inmediato para proteger sus datos y restaurar la seguridad de su dispositivo. Evalúe la situación, cambie sus contraseñas, actualice su software, escanee su dispositivo en busca de malware, haga una copia de seguridad de los archivos importantes y borre su dispositivo de un dispositivo limpio conocido. Al seguir estos pasos, puede recuperar el control de su seguridad digital y protegerse de futuros compromisos.
