@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Set the folder path to search for .md files
-const folderPath = '/path/to/files';
+const folderPath = 'C:\\Users\\Simeon\\Documents\\GitHub\\1-simeononsecurity.ch\\content';
 
 // Set the language codes for each localization
 const languageCodes = {
@@ -18,7 +18,7 @@ const languageCodes = {
 
 // Set the Google Translate API credentials
 const auth = new google.auth.GoogleAuth({
-  keyFile: '/path/to/keyfile.json',
+  keyFile: './.env.google',
   scopes: ['https://www.googleapis.com/auth/cloud-platform']
 });
 
