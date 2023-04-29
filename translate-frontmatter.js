@@ -1,3 +1,4 @@
+// Set the folder path to search for .md files
 const { google } = require('googleapis');
 const fs = require('fs');
 const path = require('path');
@@ -31,6 +32,7 @@ async function translateFrontmatter(filePath, languageCode) {
 
   // Check if the file matches the language code
   if (suffix === `${prefix}${languageCode}.md`) {
+    console.log(`Translating frontmatter in ${filePath} to ${languageCode}...`);
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const lines = fileContent.split('\n');
 
@@ -47,7 +49,9 @@ async function translateFrontmatter(filePath, languageCode) {
       if (keyValue.length === 2) {
         const key = keyValue[0].trim();
         const value = keyValue[1].trim();
+        console.log(`Translating "${value}"...`);
         const translation = await translateText(value, languageCode);
+        console.log(`Translation result for "${value}" in ${languageCode}: "${translation}"`);
         lines[i] = `${key}: ${translation}`;
       }
       i++;
@@ -56,6 +60,7 @@ async function translateFrontmatter(filePath, languageCode) {
     // Write the updated file content
     const updatedContent = lines.join('\n');
     fs.writeFileSync(filePath, updatedContent, 'utf8');
+    console.log(`Translation complete for ${filePath}.`);
   }
 }
 
@@ -68,6 +73,7 @@ async function translateText(text, targetLanguage) {
 
 // Recursively search for .md files and translate their frontmatter values
 async function translateFrontmatterInFolder(folderPath) {
+  console.log(`Translating frontmatter in ${folderPath}...`);
   const files = fs.readdirSync(folderPath, { withFileTypes: true });
 
   for (const file of files) {
@@ -76,11 +82,16 @@ async function translateFrontmatterInFolder(folderPath) {
       await translateFrontmatterInFolder(filePath);
     } else if (file.name.endsWith('.md')) {
       for (const languageCode in languageCodes) {
-        await translateFrontmatter(filePath, languageCode);
+        await translateFrontmatter(filePath, languageCodes[languageCode]);
       }
     }
   }
+
+  console.log(`Translation complete for ${folderPath}.`);
 }
 
 // Call the main function
-translateFrontmatterInFolder(folderPath);
+(async () => {
+    await translateFrontmatterInFolder(folderPath);
+  })();
+  
