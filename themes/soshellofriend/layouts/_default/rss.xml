@@ -36,12 +36,12 @@
       {{ range $pages }}
         <item>
           <title>{{ .Title }}</title>
-          {{ with .RelPermalink }}
+          {{ with .Permalink }}
             <link>{{ . }}</link>
           {{ end }}
           <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
           {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-          <guid>{{ .RelPermalink }}</guid>
+          <guid>{{ .Permalink }}</guid>
           <description>
             {{ if .Params.Cover }}
               {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\"/ loading=\"lazy\">" .RelPermalink .Params.Cover }}
