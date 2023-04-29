@@ -2,7 +2,7 @@
 title: "How to Bypass the BGW-320 and Use a COTS ONT Made by Azores: A Step-by-Step Guide."
 draft: false
 toc: true
-date: 2022-04-30
+date: 2023-04-30
 description: "Learn how to bypass the BGW-320 and use a COTS ONT made by Azores to connect to your ISP's network with this easy-to-follow guide."
 tags: ["COTS ONT", "BGW-320", "Azores", "fiber", "network", "XGS-PON", "Ethernet", "IP passthrough", "customization", "ISP", "ont ID", "MAC address", "equipment ID", "image version", "hardware version", "telnet", "CLI application", "web GUI", "factory configuration mode", "compatibility issues"]
 cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
