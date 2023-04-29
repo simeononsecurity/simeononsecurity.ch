@@ -18,7 +18,7 @@ Most people with fiber have two ways to connect to the internet - fiber to an ON
 
 The [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont).
 
-[![Azores WAG-D20](azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp)](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+![Azores WAG-D20](azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp)
 
 ### Device Access
 
@@ -44,7 +44,7 @@ Upon running a port scan from 1-65535, you will notice some open ports:
 
 ### Customizing the ONT
 
-[![A BGW-320](customizingtheont.png)](https://simeononsecurity.ch)
+![A BGW-320](customizingtheont.png)
 
 Now comes the important part i.e. changing some device info to make it compatible with your ISP's network.
 
