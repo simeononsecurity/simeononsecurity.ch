@@ -34,7 +34,7 @@ After you install the OS, open a post-installation shell and run the following c
 vi /boot/loader.conf.local
 ```
 Then, add these two lines:
-```
+```bash
 hint.uart.0.disabled="1"
 hint.uart.1.disabled="1"
 ```
