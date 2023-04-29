@@ -27,9 +27,9 @@ User-agent: AdldxBot
 Allow: /
 
 Sitemap: https://simeononsecurity.ch/sitemap.xml
-Sitemap: https://simeononsecurity.ch/sitemap.en.xml
-Sitemap: https://es.simeononsecurity.ch/sitemap.es.xml
-Sitemap: https://fr.simeononsecurity.ch/sitemap.fr.xml
-Sitemap: https://de.simeononsecurity.ch/sitemap.de.xml
-Sitemap: https://hi.simeononsecurity.ch/sitemap.hi.xml
-Sitemap: https://ar.simeononsecurity.ch/sitemap.ar.xml
+Sitemap: https://simeononsecurity.ch/en/sitemap.xml
+Sitemap: https://simeononsecurity.ch/es/sitemap.xml
+Sitemap: https://simeononsecurity.ch/fr/sitemap.xml
+Sitemap: https://simeononsecurity.ch/de/sitemap.xml
+Sitemap: https://simeononsecurity.ch/hi/sitemap.xml
+Sitemap: https://simeononsecurity.ch/ar/sitemap.xml
