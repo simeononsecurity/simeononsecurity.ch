@@ -2,7 +2,7 @@
 title: "Running pfSense on the HP t740 Thin Client: Tips and Troubleshooting Guide"
 draft: false
 toc: true
-date: 2022-04-29
+date: 2023-04-29
 description: "Learn how to set up pfSense on the HP t740 Thin Client, and how to troubleshoot potential issues like freezing and SSD detection problems."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "thin client", "home server", "PPPoE", "FreeBSD", "boot prompt", "loader.conf.local", "nano editor", "SSD detection", "M.2 SSD", "Western Digital", "troubleshooting", "post-installation", "UART", "ESXi", "Proxmox"]
 cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
