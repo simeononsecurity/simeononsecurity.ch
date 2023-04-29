@@ -116,7 +116,14 @@ cover = [731, 1054, 1462]
     mediatype = "application/xml"
     baseName = "sitemap"
 
+[mediaTypes]
+[mediaTypes."application/rss"]
+suffixes = ["xml"]
 
+[outputFormats]
+[outputFormats.FEED]
+mediatype = "application/rss"
+baseName = "feed"
 
 [languages]
 [languages.en]
