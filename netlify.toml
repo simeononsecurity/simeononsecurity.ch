@@ -17,26 +17,12 @@ to = "/es/:splat"
 status = 302
 conditions = { Language = ["es"] }
 
-# Redirect any URLs with the language code in them already
-[[redirects]]
-  from = "/es/*"
-  to = "/:splat"
-  status = 301
-  force = true
-
 # Redirect to German version for users with language preference set to 'de'
 [[redirects]]
 from = "/*"
 to = "/de/:splat"
 status = 302
 conditions = { Language = ["de"] }
-
-# Redirect any URLs with the language code in them already
-[[redirects]]
-  from = "/de/*"
-  to = "/:splat"
-  status = 301
-  force = true
 
 # Redirect to French version for users with language preference set to 'fr'
 [[redirects]]
@@ -45,26 +31,12 @@ to = "/fr/:splat"
 status = 302
 conditions = { Language = ["fr"] }
 
-# Redirect any URLs with the language code in them already
-[[redirects]]
-  from = "/fr/*"
-  to = "/:splat"
-  status = 301
-  force = true
-
 # Redirect to Arabic version for users with language preference set to 'ar'
 [[redirects]]
 from = "/*"
 to = "/ar/:splat"
 status = 302
 conditions = { Language = ["ar"] }
-
-# Redirect any URLs with the language code in them already
-[[redirects]]
-  from = "/ar/*"
-  to = "/:splat"
-  status = 301
-  force = true
 
 # Redirect to Hindi version for users with language preference set to 'hi'
 [[redirects]]
@@ -73,12 +45,10 @@ to = "/hi/:splat"
 status = 302
 conditions = { Language = ["hi"] }
 
-# Redirect any URLs with the language code in them already
+# Default redirect to English version
 [[redirects]]
-  from = "/hi/*"
-  to = "/:splat"
-  status = 301
-  force = true
+from = "/*"
+to = "/:splat"
 
 [[headers]]
 # Define which paths this specific [[headers]] block will cover.
