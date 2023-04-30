@@ -12,13 +12,6 @@ NODE_VERSION = "18.14.0"
 
 [[redirects]]
   from = "/*"
-  to = "/en/:splat"
-  language = "en"
-  status = 302
-  condition = "${language} == 'en'"
-
-[[redirects]]
-  from = "/*"
   to = "/es/:splat"
   language = "es"
   status = 302
