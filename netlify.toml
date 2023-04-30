@@ -3,10 +3,10 @@ publish = "public"
 command = "hugo --cleanDestinationDir -D -E -F --gc --minify --cacheDir /tmp --verbose"
 
 [context.production.environment]
-HUGO_VERSION = "0.110.0"
+HUGO_VERSION = "0.111.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-NODE_VERSION = "18.14.0"
+NODE_VERSION = "18.16.0"
 #NPM_FLAGS = "npm install --save-dev -g -D babel/cli babel/core babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import fsevents jimp lru-cache @ampproject/toolbox-optimizer"
 #NPM_FLAGS = "npm install --save-dev -g -D @babel/cli @babel/core @babel/preset-env babel/babel browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import jimp lru-cache @ampproject/toolbox-optimizer"
 
@@ -14,42 +14,42 @@ NODE_VERSION = "18.14.0"
 [[redirects]]
 from = "/*"
 to = "/es/:splat"
-status = 302
+status = 301
 conditions = { Language = ["es"] }
 
 # Redirect to German version for users with language preference set to 'de'
 [[redirects]]
 from = "/*"
 to = "/de/:splat"
-status = 302
+status = 301
 conditions = { Language = ["de"] }
 
 # Redirect to French version for users with language preference set to 'fr'
 [[redirects]]
 from = "/*"
 to = "/fr/:splat"
-status = 302
+status = 301
 conditions = { Language = ["fr"] }
 
 # Redirect to Arabic version for users with language preference set to 'ar'
 [[redirects]]
 from = "/*"
 to = "/ar/:splat"
-status = 302
+status = 301
 conditions = { Language = ["ar"] }
 
 # Redirect to Hindi version for users with language preference set to 'hi'
 [[redirects]]
 from = "/*"
 to = "/hi/:splat"
-status = 302
+status = 301
 conditions = { Language = ["hi"] }
 
 # Default redirect to English version
 [[redirects]]
 from = "/*"
 to = "/en/:splat"
-status = 302
+status = 200
 
 [[headers]]
 # Define which paths this specific [[headers]] block will cover.
