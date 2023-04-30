@@ -10,6 +10,44 @@ NODE_VERSION = "18.14.0"
 #NPM_FLAGS = "npm install --save-dev -g -D babel/cli babel/core babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import fsevents jimp lru-cache @ampproject/toolbox-optimizer"
 #NPM_FLAGS = "npm install --save-dev -g -D @babel/cli @babel/core @babel/preset-env babel/babel browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import jimp lru-cache @ampproject/toolbox-optimizer"
 
+[[redirects]]
+  from = "/"
+  to = "/:language/"
+  status = 302
+  force = true
+  language = "en"
+
+[[redirects]]
+  from = "/*"
+  to = "/:language/:splat"
+  status = 302
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Vary = "Accept-Language"
+  
+[[language]]
+  code = "es"
+  from = "/es/*"
+  
+[[language]]
+  code = "de"
+  from = "/de/*"
+  
+[[language]]
+  code = "fr"
+  from = "/fr/*"
+  
+[[language]]
+  code = "ar"
+  from = "/ar/*"
+  
+[[language]]
+  code = "hi"
+  from = "/hi/*"
+
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
   for = "/*"
