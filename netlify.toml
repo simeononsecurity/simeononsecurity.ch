@@ -10,205 +10,211 @@ NODE_VERSION = "18.14.0"
 #NPM_FLAGS = "npm install --save-dev -g -D babel/cli babel/core babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import fsevents jimp lru-cache @ampproject/toolbox-optimizer"
 #NPM_FLAGS = "npm install --save-dev -g -D @babel/cli @babel/core @babel/preset-env babel/babel browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import jimp lru-cache @ampproject/toolbox-optimizer"
 
+# Redirect to Spanish version for users with language preference set to 'es'
 [[redirects]]
-  from = "/*"
-  to = "/es/:splat"
-  language = "es"
-  status = 302
-  condition = "${language} == 'es'"
-  
+from = "/*"
+to = "/es/:splat"
+status = 302
+conditions = { Language = ["es"] }
+
+# Redirect to German version for users with language preference set to 'de'
 [[redirects]]
-  from = "/*"
-  to = "/de/:splat"
-  language = "de"
-  status = 302
-  condition = "${language} == 'de'"
-  
+from = "/*"
+to = "/de/:splat"
+status = 302
+conditions = { Language = ["de"] }
+
+# Redirect to French version for users with language preference set to 'fr'
 [[redirects]]
-  from = "/*"
-  to = "/fr/:splat"
-  language = "fr"
-  status = 302
-  condition = "${language} == 'fr'"
-  
+from = "/*"
+to = "/fr/:splat"
+status = 302
+conditions = { Language = ["fr"] }
+
+# Redirect to Arabic version for users with language preference set to 'ar'
 [[redirects]]
-  from = "/*"
-  to = "/ar/:splat"
-  language = "ar"
-  status = 302
-  condition = "${language} == 'ar'"
-  
+from = "/*"
+to = "/ar/:splat"
+status = 302
+conditions = { Language = ["ar"] }
+
+# Redirect to Hindi version for users with language preference set to 'hi'
 [[redirects]]
-  from = "/*"
-  to = "/hi/:splat"
-  language = "hi"
-  status = 302
-  condition = "${language} == 'hi'"
+from = "/*"
+to = "/hi/:splat"
+status = 302
+conditions = { Language = ["hi"] }
+
+# Default redirect to English version
+[[redirects]]
+from = "/*"
+to = "/en/:splat"
+status = 302
 
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
+# Define which paths this specific [[headers]] block will cover.
+for = "/*"
 
-  [headers.values]
-  	Access-Control-Allow-Origin = "https://simeononsecurity.ch" 
-	Cache-Control = "Public, no-transform, max-age=31536000"
-	#The `Expect-CT` header is deprecated and will be removed. Chrome requires Certificate Transparency for all publicly trusted certificates issued after April 30, 2018.
-	#Expect-Ct = "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
-	#Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; autoplay 'none'; camera 'none'; display-capture 'none'; gyroscope 'none'; magnetometer 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; usb 'none'; xr-spatial-tracking 'none'"
-	Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), xr-spatial-tracking=()"
-	Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-	Upgrade-Insecure-Requests = "1"
-	Referrer-Policy	= "strict-origin"
-	X-DNS-Prefetch-Control = "off"
-	X-Content-Type-Options = "nosniff"
-	X-Frame-Options	= "DENY"
-	#X-Robots-Tag  = "noindex, nofollow, noarchive, notranslate, nosnippet, unavailable_after: 2020-09-21"
-	X-Robots-Tag  = "index, follow, max-snippet:60, max-image-preview:large"
-	X-Xss-Protection = "1; mode=block"
-	Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; script-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://cdnjs.cloudflare.com/ https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com https://ws-na.amazon-adsystem.com https://*.googlesyndication.com https://www.google-analytics.com/ https://cdn.ampproject.org https://cdn.jsdelivr.net https://*.gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com 'unsafe-inline' https: data:; font-src 'self' data: https: https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com ; object-src 'none'; img-src 'self' data: https: https://*.cloudfront.net https://raw.githubusercontent.com; frame-src 'self' https: data: https://googleads.g.doubleclick.net https://ws-na.amazon-adsystem.com; upgrade-insecure-requests; frame-ancestors 'none'"
-	Cross-Origin-Opener-Policy-Report-Only = 'unsafe-none; report-to="default"'
-	Cross-Origin-Opener-Policy = 'unsafe-none; report-to="default"'
-	Cross-Origin-Embedder-Policy-Report-Only = 'unsafe-none; report-to="default"'
-	Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
-	Cross-Origin-Resource-Policy = "cross-origin"
-	Server = "simeononsecurity"
-
-[[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+[headers.values]
+Access-Control-Allow-Origin = "https://simeononsecurity.ch"
+Cache-Control = "Public, no-transform, max-age=31536000"
+#The `Expect-CT` header is deprecated and will be removed. Chrome requires Certificate Transparency for all publicly trusted certificates issued after April 30, 2018.
+#Expect-Ct = "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
+#Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; autoplay 'none'; camera 'none'; display-capture 'none'; gyroscope 'none'; magnetometer 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; usb 'none'; xr-spatial-tracking 'none'"
+Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), xr-spatial-tracking=()"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Upgrade-Insecure-Requests = "1"
+Referrer-Policy = "strict-origin"
+X-DNS-Prefetch-Control = "off"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+#X-Robots-Tag  = "noindex, nofollow, noarchive, notranslate, nosnippet, unavailable_after: 2020-09-21"
+X-Robots-Tag = "index, follow, max-snippet:60, max-image-preview:large"
+X-Xss-Protection = "1; mode=block"
+Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; script-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://cdnjs.cloudflare.com/ https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com https://ws-na.amazon-adsystem.com https://*.googlesyndication.com https://www.google-analytics.com/ https://cdn.ampproject.org https://cdn.jsdelivr.net https://*.gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com 'unsafe-inline' https: data:; font-src 'self' data: https: https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com ; object-src 'none'; img-src 'self' data: https: https://*.cloudfront.net https://raw.githubusercontent.com; frame-src 'self' https: data: https://googleads.g.doubleclick.net https://ws-na.amazon-adsystem.com; upgrade-insecure-requests; frame-ancestors 'none'"
+Cross-Origin-Opener-Policy-Report-Only = 'unsafe-none; report-to="default"'
+Cross-Origin-Opener-Policy = 'unsafe-none; report-to="default"'
+Cross-Origin-Embedder-Policy-Report-Only = 'unsafe-none; report-to="default"'
+Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
+Cross-Origin-Resource-Policy = "cross-origin"
+Server = "simeononsecurity"
 
 [[headers]]
-  for = "/img/*"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.html"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/*.jpeg"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/img/*"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.jpg"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.jpeg"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.jpg"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.webp"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.png"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, s-max-age=604800, max-age=31536000"
+for = "/*.webp"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, s-max-age=604800, max-age=31536000"
+for = "/*.css"
+[headers.values]
+Cache-Control = "public, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/fonts/*"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.js"
+[headers.values]
+Cache-Control = "public, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.json"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+for = "/fonts/*"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.xml"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+for = "/*.json"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/*.json"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+for = "/*.xml"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/*.xml"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+for = "/*.json"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/*.mjs"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.xml"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/*.sass"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.mjs"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.scss"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.sass"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.less"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.scss"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.wasm"
-  [headers.values]
-    Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+for = "/*.less"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.pdf"
-  [headers.values]
-    Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+for = "/*.wasm"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.doc"
-  [headers.values]
-    Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+for = "/*.pdf"
+[headers.values]
+Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/*.xls"
-  [headers.values]
-    Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+for = "/*.doc"
+[headers.values]
+Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/audio/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+for = "/*.xls"
+[headers.values]
+Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
 
 [[headers]]
-  for = "/videos/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+for = "/audio/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
 
 [[headers]]
-  for = "/sse/*"
-  [headers.values]
-    Cache-Control = "no-store"
+for = "/videos/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
 
 [[headers]]
-  for = "/*.ico"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+for = "/sse/*"
+[headers.values]
+Cache-Control = "no-store"
 
 [[headers]]
-  for = "/api/*"
-  [headers.values]
-    Cache-Control = "no-cache, no-store, must-revalidate"
+for = "/*.ico"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
 
 [[headers]]
-  for = "/*.htm"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+for = "/api/*"
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"
 
 [[headers]]
-  for = "/*.frag"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+for = "/*.htm"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+for = "/*.frag"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
