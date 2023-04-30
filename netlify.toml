@@ -14,42 +14,71 @@ NODE_VERSION = "18.16.0"
 [[redirects]]
 from = "/*"
 to = "/es/:splat"
-status = 301
+status = 302
 conditions = { Language = ["es"] }
+
+# Redirect any URLs with the language code in them already
+[[redirects]]
+  from = "/es/*"
+  to = "/:splat"
+  status = 301
+  force = true
 
 # Redirect to German version for users with language preference set to 'de'
 [[redirects]]
 from = "/*"
 to = "/de/:splat"
-status = 301
+status = 302
 conditions = { Language = ["de"] }
+
+# Redirect any URLs with the language code in them already
+[[redirects]]
+  from = "/de/*"
+  to = "/:splat"
+  status = 301
+  force = true
 
 # Redirect to French version for users with language preference set to 'fr'
 [[redirects]]
 from = "/*"
 to = "/fr/:splat"
-status = 301
+status = 302
 conditions = { Language = ["fr"] }
+
+# Redirect any URLs with the language code in them already
+[[redirects]]
+  from = "/fr/*"
+  to = "/:splat"
+  status = 301
+  force = true
 
 # Redirect to Arabic version for users with language preference set to 'ar'
 [[redirects]]
 from = "/*"
 to = "/ar/:splat"
-status = 301
+status = 302
 conditions = { Language = ["ar"] }
+
+# Redirect any URLs with the language code in them already
+[[redirects]]
+  from = "/ar/*"
+  to = "/:splat"
+  status = 301
+  force = true
 
 # Redirect to Hindi version for users with language preference set to 'hi'
 [[redirects]]
 from = "/*"
 to = "/hi/:splat"
-status = 301
+status = 302
 conditions = { Language = ["hi"] }
 
-# Default redirect to English version
+# Redirect any URLs with the language code in them already
 [[redirects]]
-from = "/*"
-to = "/en/:splat"
-status = 200
+  from = "/hi/*"
+  to = "/:splat"
+  status = 301
+  force = true
 
 [[headers]]
 # Define which paths this specific [[headers]] block will cover.
