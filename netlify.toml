@@ -11,42 +11,46 @@ NODE_VERSION = "18.14.0"
 #NPM_FLAGS = "npm install --save-dev -g -D @babel/cli @babel/core @babel/preset-env babel/babel browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import jimp lru-cache @ampproject/toolbox-optimizer"
 
 [[redirects]]
-  from = "/"
-  to = "/:language/"
-  status = 302
-  force = true
+  from = "/*"
+  to = "/en/:splat"
   language = "en"
+  status = 302
+  condition = "${language} == 'en'"
 
 [[redirects]]
   from = "/*"
-  to = "/:language/:splat"
+  to = "/es/:splat"
+  language = "es"
   status = 302
-  force = true
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Vary = "Accept-Language"
+  condition = "${language} == 'es'"
   
-[[language]]
-  code = "es"
-  from = "/es/*"
+[[redirects]]
+  from = "/*"
+  to = "/de/:splat"
+  language = "de"
+  status = 302
+  condition = "${language} == 'de'"
   
-[[language]]
-  code = "de"
-  from = "/de/*"
+[[redirects]]
+  from = "/*"
+  to = "/fr/:splat"
+  language = "fr"
+  status = 302
+  condition = "${language} == 'fr'"
   
-[[language]]
-  code = "fr"
-  from = "/fr/*"
+[[redirects]]
+  from = "/*"
+  to = "/ar/:splat"
+  language = "ar"
+  status = 302
+  condition = "${language} == 'ar'"
   
-[[language]]
-  code = "ar"
-  from = "/ar/*"
-  
-[[language]]
-  code = "hi"
-  from = "/hi/*"
+[[redirects]]
+  from = "/*"
+  to = "/hi/:splat"
+  language = "hi"
+  status = 302
+  condition = "${language} == 'hi'"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
