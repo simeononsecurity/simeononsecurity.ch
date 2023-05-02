@@ -1,5 +1,5 @@
 ---
-title: "Overcoming Challenges and Embracing Opportunities of DevSecOps Implementation"
+title: "DevSecOps: Tackling Challenges, Seizing Opportunities."
 date: 2023-04-15
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "How to Bypass the BGW-320 and Use a COTS ONT Made by Azores: A Step-by-Step Guide."
+title: "Bypassing the BGW-320: Using an Azores COTS ONT - A Step-by-Step Guide"
 draft: false
 toc: true
 date: 2023-04-30

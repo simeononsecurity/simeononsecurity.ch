@@ -1,5 +1,5 @@
 ---
-title: "Azure Security Center: Comprehensive Guide to Safeguard Your Cloud Environment"
+title: "Azure Security Center: Secure Your Cloud Environment with Confidence"
 date: 2023-04-10
 toc: true
 draft: false

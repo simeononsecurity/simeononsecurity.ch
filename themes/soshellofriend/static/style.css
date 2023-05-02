@@ -267,3 +267,6 @@
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
 }
+.header__dropdown.show {
+  display: block;
+}

@@ -1,5 +1,5 @@
 ---
-title: "Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks"
+title: "Keep Credit Cards Safe: Defend Against RFID Skimming & Physical Attacks for Personal Info Protection"
 date: 2023-04-28
 toc: true
 draft: false

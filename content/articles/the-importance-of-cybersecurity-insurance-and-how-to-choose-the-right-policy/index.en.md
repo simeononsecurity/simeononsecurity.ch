@@ -1,5 +1,5 @@
 ---
-title: "Choosing the Right Cybersecurity Insurance Policy: A Comprehensive Guide"
+title: "Choosing Cybersecurity Insurance: A Comprehensive Guide to the Right Policy"
 date: 2023-04-12
 toc: true
 draft: false

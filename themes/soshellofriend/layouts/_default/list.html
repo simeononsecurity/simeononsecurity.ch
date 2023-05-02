@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ partial "breadcrumbs.html" . }}
-  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
   <div class="posts">
-    {{ range .Pages }}
+    {{ range .Paginator.Pages }}
       <article class="post on-list">
         <h2 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title | markdownify }}">{{ .Title | markdownify }}</a></h2>
         <div class="post-meta">

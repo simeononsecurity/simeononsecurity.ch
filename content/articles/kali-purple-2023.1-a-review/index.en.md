@@ -10,7 +10,7 @@ coverAlt: "A 3D animated Kali Linux dragon mascot, surrounded by various cyberse
 coverCaption: ""
 ---
 
-# Kali Purple 2023.1: A Review
+**Kali Purple 2023.1: A Review**
 
 Kali Purple 2023.1 is the **latest version** of the popular **penetration testing** and **ethical hacking** distribution. In this article, we will take a closer look at the new features, improvements, and updates that this version brings. 
 
