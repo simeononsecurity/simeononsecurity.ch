@@ -1,0 +1,119 @@
+<div>
+    <span class="language-selector__container">
+        <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
+          <li class="menu__sub-inner-more-trigger" style="display:none;">
+            <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
+          </li>
+        </span>
+        <span class="language-selector" id="language-menu">
+          {{ if .Site.IsMultiLingual }}
+            <nav>
+              <ul class="">
+                {{ range .Site.Languages }}
+                  {{ if eq . $.Site.Language }}
+                    <li class="current-lang" style="list-style: none;">{{ $.Site.Language.Lang }}</li>
+                  {{ end }}
+                {{ end }}
+                <ul class="dropdown__menu">
+                  {{ range $.Translations }}
+                    <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                  {{ end }}
+                </ul>
+              </ul>
+            </nav>
+          {{ end }}
+        </span>
+      </span>
+      
+      <style>
+
+        .menu__sub-inner-more-trigger-title {
+            position: relative;
+          }
+          
+          .menu__sub-inner-more {
+            position: absolute;
+            right: 0;
+          }
+
+        .language-selector {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .language-selector__icon {
+          cursor: pointer;
+        } 
+        
+        .language-selector__icon:hover {
+          opacity: 0.8;
+        }
+        
+        .dropdown__menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+          }
+          
+        
+        .dropdown__menu li {
+            list-style: none;
+            padding: 6px 8px;
+            font-size: 14px;
+            line-height: 1.4em;
+          }
+          
+        
+        .dropdown__menu li a {
+          color: #333;
+          text-decoration: none;
+        }
+        
+        .dropdown__menu li:hover {
+          background-color: #f5f5f5;
+        }
+        
+        .language-selector:hover .dropdown__menu {
+          display: block;
+        }
+
+        .language-selector__icon .menu__sub-inner-more-trigger {
+            display: inline-block;
+          }
+          
+          .language-selector:hover .menu__sub-inner-more-trigger {
+            display: none;
+          }
+          
+          
+      </style>
+              
+        <script async>
+            function toggleLanguageMenu() {
+                var menu = document.getElementById("language-menu");
+                if (menu.style.display === "block") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "block";
+                }
+            }
+            document.addEventListener("click", function(event) {
+                var menu = document.getElementById("language-menu");
+                if (event.target.closest(".language-selector__container") !== null) {
+                    return;
+                } else {
+                    menu.style.display = "none";
+                }
+            });
+            
+        </script>
+</div>    

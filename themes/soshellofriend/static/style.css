@@ -270,3 +270,7 @@
 .header__dropdown.show {
   display: block;
 }
+
+.theme-toggle {
+  margin-right: 10px;
+}
