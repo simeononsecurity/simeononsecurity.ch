@@ -1,22 +1,22 @@
 <div>
     <span class="language-selector__container">
         <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
-          <li class="menu__sub-inner-more-trigger" style="display:none;">
+          <li class="menu__sub-inner-more-trigger" style="display: flex; align-items: center;">
             <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
           </li>
         </span>
         <span class="language-selector" id="language-menu">
           {{ if .Site.IsMultiLingual }}
-            <nav>
+            <nav aria-label="Language switcher">
               <ul class="">
                 {{ range .Site.Languages }}
                   {{ if eq . $.Site.Language }}
-                    <li class="current-lang" style="list-style: none;">{{ $.Site.Language.Lang }}</li>
+                    <li class="current-lang" style="list-style: none; display:none;" aria-label="{{ i18n "ariaTranslation" }}{{ $.Site.Language.Lang }}" >{{ $.Site.Language.Lang }}</li>
                   {{ end }}
                 {{ end }}
                 <ul class="dropdown__menu">
                   {{ range $.Translations }}
-                    <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                    <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ .Language.LanguageName }}</a></li>
                   {{ end }}
                 </ul>
               </ul>
@@ -91,7 +91,7 @@
           }
           
           .language-selector:hover .menu__sub-inner-more-trigger {
-            display: none;
+            display: inline-block;;
           }
           
           
@@ -113,7 +113,6 @@
                 } else {
                     menu.style.display = "none";
                 }
-            });
-            
+            }); 
         </script>
 </div>    
