@@ -3,7 +3,7 @@ https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/:splat 301!
 
 # Other:
 # Redirect domain aliases to primary domain
-https://simeononsecurity.com/* https://simeononsecurity.ch/:splat 301!
+# https://simeononsecurity.com/* https://simeononsecurity.ch/:splat 301!
 # redirect /posts to /github
 # moved /posts to /github to create /blog in order to separate content
 /posts/* /github/:splat 301!

@@ -2,6 +2,18 @@
 publish = "public"
 command = "hugo --cleanDestinationDir --environment=production -D -F --gc --minify --verbose"
 
+# If skip_processing = true, all other settings are ignored
+[build.processing]
+skip_processing = false
+[build.processing.css]
+bundle = true
+minify = true
+[build.processing.js]
+bundle = true
+minify = true
+[build.processing.images]
+compress = true
+
 [context.production.environment]
 HUGO_VERSION = "0.111.3"
 HUGO_ENV = "production"
