@@ -71,9 +71,9 @@ Both companies offer good support for their products, with online resources, for
 ### Additional Product Offerings
 In addition to its networking products, Ubiquiti offers several other products that TP-Link's Omada system doesn't have competition with:
 
-- `[Unifi Protect](https://store.ui.com/collections/unifi-protect)` is a video surveillance system that allows you to monitor your premises from a single interface. This can be a valuable addition to your Unifi network, especially if you have a large office or multiple locations to manage.
-- `[Unifi Access](https://store.ui.com/products/unifi-access-hub)` is another product that allows you to manage access control systems, such as door locks and key cards, from a single interface. This can be a valuable addition to your Unifi network, especially if you have a large office or multiple locations to manage.
-- `[Unifi ID](https://ui.com/uid)` is a secure identity management system that provides user authentication and access control across your network. With Unifi ID, you can easily manage user accounts, permissions, and authentication, ensuring that only authorized users have access to your network resources.
+- [`Unifi Protect`](https://store.ui.com/collections/unifi-protect) is a video surveillance system that allows you to monitor your premises from a single interface. This can be a valuable addition to your Unifi network, especially if you have a large office or multiple locations to manage.
+- [`Unifi Access`](https://store.ui.com/products/unifi-access-hub) is another product that allows you to manage access control systems, such as door locks and key cards, from a single interface. This can be a valuable addition to your Unifi network, especially if you have a large office or multiple locations to manage.
+- [`Unifi ID`](https://ui.com/uid) is a secure identity management system that provides user authentication and access control across your network. With Unifi ID, you can easily manage user accounts, permissions, and authentication, ensuring that only authorized users have access to your network resources.
 
 While TP-Link's Omada system offers solid networking features, it currently doesn't have any direct competition to Ubiquiti's additional product offerings. If you're looking for a more comprehensive solution that includes networking, security, and access control, the Ubiquiti Unifi system may be the better choice for your needs.
 
