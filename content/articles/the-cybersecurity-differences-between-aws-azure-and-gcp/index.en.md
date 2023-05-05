@@ -10,7 +10,7 @@ coverAlt: "A vibrant, 3D animated image showcasing three distinct cloud structur
 coverCaption: ""
 ---
 
-# The Differences Between AWS, Azure, and Google Cloud Platform for Cloud Security
+**The Differences Between AWS, Azure, and Google Cloud Platform for Cloud Security**
 
 ## Introduction
 

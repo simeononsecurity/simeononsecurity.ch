@@ -10,7 +10,7 @@ coverAlt: "A cartoon image of a diverse group of remote employees participating 
 coverCaption: ""
 ---
 
-# The Importance of Security Awareness Training for Remote Employees and Effective Implementation
+**The Importance of Security Awareness Training for Remote Employees and Effective Implementation**
 
 ## Introduction
 

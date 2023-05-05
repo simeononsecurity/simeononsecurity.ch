@@ -10,7 +10,7 @@ coverAlt: "A 3D animated image featuring a shield protecting a laptop displaying
 coverCaption: ""
 ---
 
-# The Role of Cybersecurity in the Education Industry: Protecting Student Data
+**The Role of Cybersecurity in the Education Industry: Protecting Student Data**
 
 ## Introduction
 

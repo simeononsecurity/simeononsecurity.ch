@@ -15,11 +15,15 @@
         <h2>Tags</h2>
         <div class="terms">
           <ul class="terms__list">
+            {{ $counter := 0 }}
             {{ range .Site.Taxonomies.tags }}
-              <li class="terms__term">
-                <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a
-                ><span class="terms__term-count">{{ .Count }}</span>
-              </li>
+              {{ if lt $counter 20 }}
+                <li class="terms__term">
+                  <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a
+                  ><span class="terms__term-count">{{ .Count }}</span>
+                </li>
+                {{ $counter = add $counter 1 }}
+              {{ end }}
             {{ end }}
           </ul>
         </div>
