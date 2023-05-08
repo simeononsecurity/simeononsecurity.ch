@@ -1,6 +1,7 @@
 [build]
 publish = "public"
-command = "hugo --cleanDestinationDir --environment=production -D -F --gc --minify --verbose"
+#command = "hugo --cleanDestinationDir --environment=production -D -F --gc --minify --verbose"
+command = "hugo --environment=production -D -F --gc --minify --verbose"
 
 # If skip_processing = true, all other settings are ignored
 [build.processing]
