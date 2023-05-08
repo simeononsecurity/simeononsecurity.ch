@@ -1,6 +1,7 @@
 <figure class="post-cover">
   {{ if and (.Params.Cover) (not (fileExists .Params.Cover)) }}
     {{ printf "Cover: %s\n" .Params.Cover }}
+    {{ partial "console-log" .Params.Cover }}
     <p>Cover image not found.</p>
   {{ else }}
     {{ if .Params.UseRelativeCover }}
