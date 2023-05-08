@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Learn about ransomware threats and the preventive measures you can take to protect yourself against them."
 tags: ["ransomware", "cybersecurity", "prevention", "backup", "antivirus", "VPN", "multi-factor authentication", "government regulations", "phishing", "social engineering", "malware", "cybercrime", "data security", "network security", "cyberattack", "encryption", "cyber hygiene", "incident response", "data protection", "cyber awareness"]
-cover: "/img/cover/"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
 coverAlt: "A computer with a lock and chain around it, symbolizing the encryption of data by ransomware."
 coverCaption: ""
 ---
