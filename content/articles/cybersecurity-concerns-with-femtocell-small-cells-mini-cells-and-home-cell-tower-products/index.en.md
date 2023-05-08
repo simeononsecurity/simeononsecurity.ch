@@ -9,6 +9,7 @@ cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
 coverAlt: " A shield with a lock symbol protecting a mobile phone from a hacker's hand trying to access it."
 coverCaption: ""
 ---
+
 **Traffic Interception and Remote Mobile Phone Cloning with a Compromised Femtocell and What You Can Do to Protect Yourself**
 
 As our reliance on mobile devices increases, so do the risks associated with their use. One such risk is the compromise of mobile network infrastructure, which can enable attackers to intercept phone calls and text messages, clone mobile phones, and gain access to cellular provider network resources. In this article, we will discuss how attackers can exploit vulnerabilities in femtocells and what end-users can do to protect themselves.
