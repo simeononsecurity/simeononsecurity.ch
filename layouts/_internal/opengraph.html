@@ -131,7 +131,7 @@
 <meta name="distribution" content="Global" />
 <meta name="googlebot" content="index,follow" />
 <meta name="imagemode" content="force" />
-<meta name="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
+<meta name="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ $count := 0 }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ if lt $count 20 }}{{ printf "%s," $term }}{{ end }}{{ $count = add $count 1 }}{{ end }}{{ end }}{{ end }}" />
 <meta name="msapplication-TileColor" content="#000000" />
 <meta name="msapplication-tap-highlight" content="no" />
 <meta name="revisit-after" content="1 days" />
@@ -157,7 +157,7 @@
 {{ end }}{{ end }}{{ end }}
 
 <!-- Output all taxonomies as schema.org keywords -->
-<meta itemprop="keywords" content="simeononsecurity, blog, {{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
+<meta itemprop="keywords" content="simeononsecurity, blog, {{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ $count := 0 }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ if lt $count 20 }}{{ printf "%s," $term }}{{ end }}{{ $count = add $count 1 }}{{ end }}{{ end }}{{ end }}" />
 {{- end }}
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" />
