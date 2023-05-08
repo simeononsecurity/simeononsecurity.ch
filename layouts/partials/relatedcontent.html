@@ -11,12 +11,16 @@
           {{- $num_to_show := .Site.Params.related_content_limit | default 2 -}}
           {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
           <div class="related">
-            {{ if .Params.Cover }}
-            {{ $cover := resources.Get (.Params.Cover) }}
-            {{ $tiny := ($cover.Resize "480x webp q75") }}
-            {{ $small := ($cover.Resize "768x webp q75") }}
-            {{ $medium := ($cover.Resize "1024x webp q75") }}
-            {{ $large := ($cover.Resize "1366x webp q75") }}
+            {{ if and (.Params.Cover) (not (fileExists .Params.Cover)) }}
+                {{ printf "Cover: %s\n" .Params.Cover }}
+                <p>Cover image not found.</p>
+            {{ else }}
+              {{ if .Params.Cover }}
+                {{ $cover := resources.Get (.Params.Cover) }}
+                {{ $tiny := ($cover.Resize "480x webp q75") }}
+                {{ $small := ($cover.Resize "768x webp q75") }}
+                {{ $medium := ($cover.Resize "1024x webp q75") }}
+                {{ $large := ($cover.Resize "1366x webp q75") }}
             <div class="related-image">
               <a href="{{ .RelPermalink }}">
                 <img
@@ -32,7 +36,8 @@
                 >
               </a>
             </div>
-            {{ end }}
+              {{ end }}
+              {{ end }}
             <div class="related-info">
               <div class="related-date">
                 <time datetime="{{ .Date.UTC.Format "2006-01-02T15:04:05-0700" }}">

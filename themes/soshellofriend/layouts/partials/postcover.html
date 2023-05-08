@@ -1,40 +1,45 @@
 <figure class="post-cover">
-  {{ if .Params.UseRelativeCover }}
-  {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover )}}
-  {{ $tiny := ($cover.Resize "480x webp q75") }}
-  {{ $small := ($cover.Resize "768x webp q75") }}
-  {{ $medium := ($cover.Resize "1024x webp q75") }}
-  {{ $large := ($cover.Resize "1366x webp q75") }}
-  <img
-  srcset="
-      {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
-      {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
-      {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
-      {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
-  sizes="(min-width: 900px) 731px, (min-width: 700px) 527px, calc(80.53vw - 21px)"
-  src="{{ $cover.RelPermalink }}"
-  alt="{{ .Params.CoverAlt | plainify | default .Title }}"
-  loading="lazy"/>
+  {{ if and (.Params.Cover) (not (fileExists .Params.Cover)) }}
+    {{ printf "Cover: %s\n" .Params.Cover }}
+    <p>Cover image not found.</p>
   {{ else }}
-  {{ $cover := resources.Get (.Params.Cover)}}
-  {{ $tiny := ($cover.Resize "480x webp q75") }}
-  {{ $small := ($cover.Resize "768x webp q75") }}
-  {{ $medium := ($cover.Resize "1024x webp q75") }}
-  {{ $large := ($cover.Resize "1366x webp q75") }}
-  <img
-  srcset="
-      {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
-      {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
-      {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
-      {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
-  sizes="(min-width: 900px) 731px, (min-width: 700px) 527px, calc(80.53vw - 21px)"
-  src="{{ $cover.RelPermalink }}"
-  alt="{{ .Params.CoverAlt | plainify | default .Title }}"
-  loading="lazy"/>
-  {{ end }}
-  {{ if .Params.CoverCaption }}
-    <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+    {{ if .Params.UseRelativeCover }}
+      {{ printf "Cover: %s\n" .Params.Cover }}
+      {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover )}}
+      {{ $tiny := ($cover.Resize "480x webp q75") }}
+      {{ $small := ($cover.Resize "768x webp q75") }}
+      {{ $medium := ($cover.Resize "1024x webp q75") }}
+      {{ $large := ($cover.Resize "1366x webp q75") }}
+      <img
+      srcset="
+          {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+          {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+          {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+          {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
+      sizes="(min-width: 900px) 731px, (min-width: 700px) 527px, calc(80.53vw - 21px)"
+      src="{{ $cover.RelPermalink }}"
+      alt="{{ .Params.CoverAlt | plainify | default .Title }}"
+      loading="lazy"/>
+    {{ else }}
+      {{ printf "Cover: %s\n" .Params.Cover }}
+      {{ $cover := resources.Get (.Params.Cover)}}
+      {{ $tiny := ($cover.Resize "480x webp q75") }}
+      {{ $small := ($cover.Resize "768x webp q75") }}
+      {{ $medium := ($cover.Resize "1024x webp q75") }}
+      {{ $large := ($cover.Resize "1366x webp q75") }}
+      <img
+      srcset="
+          {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+          {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+          {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+          {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
+      sizes="(min-width: 900px) 731px, (min-width: 700px) 527px, calc(80.53vw - 21px)"
+      src="{{ $cover.RelPermalink }}"
+      alt="{{ .Params.CoverAlt | plainify | default .Title }}"
+      loading="lazy"/>
+    {{ end }}
+    {{ if .Params.CoverCaption }}
+      <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+    {{ end }}
   {{ end }}
 </figure>
-
-
