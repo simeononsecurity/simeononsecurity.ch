@@ -11,7 +11,7 @@
             <ul class="">
             {{ range .Site.Languages }}
             {{ if eq . $.Site.Language }}
-                <li class="current-lang" style="list-style: none; display:none;" aria-label="{{ i18n "ariaTranslation" }}{{ $.Site.Language.Lang }}" >{{ $.Site.Language.Lang }}</li>
+                <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
             {{ end }}
             {{ end }}
             <ul class="language_dropdown__menu">
