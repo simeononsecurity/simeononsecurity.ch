@@ -52,7 +52,7 @@ Additionally, cell phone coverage providers offer these, **requiring upfront pay
 
 Meanwhile, you can [get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) depending on which model you want and which carrier you need to support. Most carriers require registration of the device, however.
 
-Lastly, all FemtoCell devices require registration:
+Lastly, some FemtoCell devices require registration:
 
 - [Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
 - [Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
