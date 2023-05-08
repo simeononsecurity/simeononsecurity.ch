@@ -21,11 +21,9 @@ The [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a 
 
 They are produced by a company called [Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile), there are other better options that have options and or support for other carriers available that we will discuss below.
 
-{{< youtube id="Tx6BQuA_OVI" >}}
-
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}{{< figure src="Hiboost.webp" alt="Hiboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
 
 The [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) options require some installation. They require you to install a pole, grounding rod, lighting arrestor, amp, and one or more indoor antennas. They offer the best possible signal but won't work if there is no signal in your area whatsoever. They average around 60db of additional gain but can go up to 100db. This is definitely the best permanent solution as you'll get the most signal improvement possible as well as support for all carriers at the same time. 
 
