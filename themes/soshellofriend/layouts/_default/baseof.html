@@ -4,7 +4,9 @@
     {{ block "title" . }}
       <title itemprop="name">
         {{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} —
-        {{ . }}{{ end }}{{ else }}{{ .Title }}{{ end }}
+        {{ . }}{{ end }}{{ else }}
+        {{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "{{ .Title }}"
+        {{ else }}{{ .Title }}{{ end }}{{ end }}
       </title>
     {{ end }}
     {{ partial "head.html" . }}

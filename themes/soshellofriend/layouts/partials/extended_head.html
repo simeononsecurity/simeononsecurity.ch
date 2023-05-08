@@ -1,5 +1,52 @@
+<!-- Preconnect third-party DNS for CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com, https://maxcdn.bootstrapcdn.com" />
+
 <!-- Preconnect third-party DNS for JS -->
-<link rel="preconnect" href="https://pagead1.googlesyndication.com https://pagead2.googlesyndication.com https://www.google-analytics.com https://google-analytics.com https://ws-na.amazon-adsystem.com https://amazon-adsystem.com https://cdn.ampproject.org https://cdn.jsdelivr.net https://fonts.gstatic.com https://gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://utteranc.es https://static.cloudflareinsights.com https://cdnjs.cloudflare.com https://www.clarity.ms" />
+<link rel="preconnect" href="https://pagead1.googlesyndication.com, https://pagead2.googlesyndication.com, https://www.google-analytics.com, https://google-analytics.com, https://ws-na.amazon-adsystem.com, https://amazon-adsystem.com, https://cdn.ampproject.org, https://cdn.jsdelivr.net, https://fonts.gstatic.com, https://gstatic.com, https://googleads.g.doubleclick.net, https://tpc.googlesyndication.com, https://googletagservices.com, https://utteranc.es, https://static.cloudflareinsights.com, https://cdnjs.cloudflare.com, https://www.clarity.ms" />
+
+<!-- mastodon verification  -->
+<link rel="me" title="mastodon verification" href="https://mastodon.world/@simeononsecurity" />
+
+<!-- RSS | JSON -->
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+<link href="https://simeononsecurity.ch/rss.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" hreflang="en" />
+<link href="https://simeononsecurity.ch/rss.xml" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" hreflang="en" />
+<link href="https://feeds.feedburner.com/simeononsecurity" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" hreflang="en" />
+
+<!-- Multilingual RSS Feeds -->
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" href="https://simeononsecurity.ch/rss.xml"/>
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="en" href="https://simeononsecurity.ch/en/rss.xml" />
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="es" href="https://simeononsecurity.ch/es/rss.xml" />
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="fr" href="https://simeononsecurity.ch/fr/rss.xml" />
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="de" href="https://simeononsecurity.ch/de/rss.xml" />
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="hi" href="https://simeononsecurity.ch/hi/rss.xml" />
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="ar" href="https://simeononsecurity.ch/ar/rss.xml" />
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" href="https://simeononsecurity.ch/rss.xml"/>
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="en" href="https://simeononsecurity.ch/en/rss.xml" />
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="es" href="https://simeononsecurity.ch/es/rss.xml" />
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="fr" href="https://simeononsecurity.ch/fr/rss.xml" />
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="de" href="https://simeononsecurity.ch/de/rss.xml" />
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="hi" href="https://simeononsecurity.ch/hi/rss.xml" />
+<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="ar" href="https://simeononsecurity.ch/ar/rss.xml" />
+
+<!-- Multilingual sitemap links -->
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://simeononsecurity.ch/sitemap.xml"/>
+<link rel="sitemap" type="application/xml" title="Sitemap - English" hreflang="en" href="https://simeononsecurity.ch/en/sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap - Spanish" hreflang="es" href="https://simeononsecurity.ch/es/sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap - French" hreflang="fr" href="https://simeononsecurity.ch/fr/sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap - German" hreflang="de" href="https://simeononsecurity.ch/de/sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap - Hindi" hreflang="hi" href="https://simeononsecurity.ch/hi/sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap - Arabic" hreflang="ar" href="https://simeononsecurity.ch/ar/sitemap.xml" />
+
+<!-- Inform Multilingual -->
+<link rel="alternate" hreflang="en" href="https://simeononsecurity.ch" />
+<link rel="alternate" hreflang="es" href="https://simeononsecurity.ch/es/" />
+<link rel="alternate" hreflang="fr" href="https://simeononsecurity.ch/fr/" />
+<link rel="alternate" hreflang="de" href="https://simeononsecurity.ch/de/" />
+<link rel="alternate" hreflang="hi" href="https://simeononsecurity.ch/hi/" />
+<link rel="alternate" hreflang="ar" href="https://simeononsecurity.ch/ar/" />
 
 <!-- preload and prefetch first-party js -->
 <link rel="prefetch" href="{{ "assets/main.js" | absURL }}" type="text/javascript" />
@@ -8,6 +55,38 @@
 {{ end }}
 <link rel="prefetch" href="/service-worker.js" type="text/javascript" />
 <link rel="prefetch" href="/js/search.js" type="text/javascript" />
+
+<!-- preload images -->
+{{ if .Params.UseRelativeCover }}
+<link rel="preload" as="image" href="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" />
+{{ else }}
+<link rel="preload" as="image" href="{{ .Params.Cover | absURL }}" />
+{{ end }}
+
+<!-- Fonts -->
+<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
+<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" />
+<link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}">
+<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
+
+<!-- Custom CSS to override theme properties (/static/style.css) -->
+<link rel="preload" as="style"  href="{{ "style.css" | absURL }}" />
+<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
+
+<!-- add a <link> tag to all the pages for manifest.json  -->
+<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
 
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.google-analytics.com/analytics.js" type="text/javascript" /> 
@@ -19,84 +98,7 @@
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript" />
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" />
 
-<!-- preload images -->
-{{ if .Params.UseRelativeCover }}
-<link rel="prefetch" as="image" href="{{ (printf "%s%s" .Permalink .Params.Cover ) }}"/>
-{{ else }}
-<link rel="prefetch" as="image" href="{{ .Params.Cover | absURL }}"/>
-{{ end }}
-
-<!-- Fonts -->
-<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
-<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
-<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
-<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
-<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
-<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
-
-<!-- Theme CSS -->
-<link rel="preload" as="style" href="{{ "style.css" | absURL }}" />
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
-
-<!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="preload" as="style"  href="{{ "style.css" | absURL }}" />
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
-
-<!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
-<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" />
-<link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}">
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
-
-<!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
-
-<!-- mastodon verification  -->
-<a rel="me" title="mastodon verification" href="https://mastodon.world/@simeononsecurity"></a>
-
-<!-- RSS | JSON -->
-{{ range .AlternativeOutputFormats -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-{{ end -}}
-<link href="https://simeononsecurity.ch/rss.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-<link href="https://simeononsecurity.ch/rss.xml" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
-<link href="https://feeds.feedburner.com/simeononsecurity" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
-
-<!-- Multilingual RSS Feeds -->
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" href="https://simeononsecurity.ch/rss.xml"/>
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="en-US" href="https://simeononsecurity.ch/en/rss.xml" />
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="es-ES" href="https://simeononsecurity.ch/es/rss.xml" />
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="fr" href="https://simeononsecurity.ch/fr/rss.xml" />
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="de" href="https://simeononsecurity.ch/de/rss.xml" />
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="hi" href="https://simeononsecurity.ch/hi/rss.xml" />
-<link rel="alternate" type="application/xml" title="{{ $.Site.Title }}" hreflang="ar" href="https://simeononsecurity.ch/ar/rss.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" href="https://simeononsecurity.ch/rss.xml"/>
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="en-US" href="https://simeononsecurity.ch/en/rss.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="es-ES" href="https://simeononsecurity.ch/es/rss.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="fr" href="https://simeononsecurity.ch/fr/rss.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="de" href="https://simeononsecurity.ch/de/rss.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="hi" href="https://simeononsecurity.ch/hi/rss.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }}" hreflang="ar" href="https://simeononsecurity.ch/ar/rss.xml" />
-
-<!-- Multilingual sitemap links -->
-<link rel="sitemap" type="application/xml" title="Sitemap" href="https://simeononsecurity.ch/sitemap.xml"/>
-<link rel="sitemap" type="application/xml" title="Sitemap" hreflang="en-US" href="https://simeononsecurity.ch/en/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap" hreflang="es-ES" href="https://simeononsecurity.ch/es/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap" hreflang="fr" href="https://simeononsecurity.ch/fr/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap" hreflang="de" href="https://simeononsecurity.ch/de/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap" hreflang="hi" href="https://simeononsecurity.ch/hi/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap" hreflang="ar" href="https://simeononsecurity.ch/ar/sitemap.xml" />
-
-<!-- Inform Multilingual -->
-<link rel="alternate" hreflang="en-US" href="https://simeononsecurity.ch" />
-<link rel="alternate" hreflang="es-ES" href="https://simeononsecurity.ch/es/" />
-<link rel="alternate" hreflang="fr" href="https://simeononsecurity.ch/fr/" />
-<link rel="alternate" hreflang="de" href="https://simeononsecurity.ch/de/" />
-<link rel="alternate" hreflang="hi" href="https://simeononsecurity.ch/hi/" />
-<link rel="alternate" hreflang="ar" href="https://simeononsecurity.ch/ar/" />
-
-<script type="text/javascript" async>
+<script>
 const divInstall = document.getElementById('installContainer');
 const butInstall = document.getElementById('butInstall');
 
@@ -125,7 +127,7 @@ if (window.location.protocol === 'http:') {
 }
 </script>
 
-<script async type="text/javascript">
+<script>
   (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
       t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
