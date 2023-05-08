@@ -6,7 +6,7 @@ draft: false
 description: "Protect your children from online dangers with these internet safety tips and strategies."
 tags: ["Internet safety", "online safety", "child safety", "parental controls", "cyberbullying", "digital literacy", "online predators", "social media", "gaming", "mobile devices", "privacy", "security", "safe internet use", "internet security tips", "protecting children online", "parenting in the digital age", "online privacy for kids", "online dangers for children", "safe internet habits", "internet safety education"]
 cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
-coverAlt: "A cartoon image of a parent and child using a computer together, with the child holding a magnifying glass and the parent pointing to the screen."
+coverAlt: "A cartoon image of a parent and child using a computer together with the child holding a magnifying glass and the parent pointing to the screen."
 coverCaption: ""
 ---
 

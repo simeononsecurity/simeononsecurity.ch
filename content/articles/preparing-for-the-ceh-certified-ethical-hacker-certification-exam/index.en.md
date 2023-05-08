@@ -4,9 +4,9 @@ date: 2023-05-16
 toc: true
 draft: false
 description: "Learn how to create an effective study plan for passing the CEH certification exam with tips and strategies for success."
-tags: ["CEH certification", "ethical hacking", "study plan", "time management", "exam preparation", "cybersecurity", "motivation", "study materials", "practice questions", "review", "EC-Council", "information security", "professional development", "IT certification", "career advancement", "network security", "penetration testing", "vulnerability assessment", "information assurance", "security testing"]
+tags: ["CEH certification", "ethical hacking", "study plan", "time management", "exam preparation", "cybersecurity", "motivation", "study materials", "practice questions", "review", "EC Council", "information security", "professional development", "IT certification", "career advancement", "network security", "penetration testing", "vulnerability assessment", "information assurance", "security testing"]
 cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
-coverAlt: "A cartoon-style image of a person studying at a desk with a laptop and various books and notes, with the CEH logo in the background."
+coverAlt: "A cartoon-style image of a person studying at a desk with a laptop and various books and notes with the CEH logo in the background."
 coverCaption: ""
 ---
 **Creating a Study Plan for Passing the CEH Certification Exam: Tips and Strategies for Success**
