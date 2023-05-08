@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
 coverAlt: "A cartoon-style image of a person holding a cell phone and standing next to a booster with signal bars increasing."
 coverCaption: ""
 ---
-# Boosting Your Cell Signal in Remote Locations
+**Boosting Your Cell Signal in Remote Locations**
 
 Staying connected has become a necessity for most of us, especially during the pandemic. However, in remote locations, getting a reliable cell signal can be challenging. Fortunately, there are various options available for boosting your cell signal. In this article, we will discuss indoor cell boosters like the T-Mobile Cell Spot, outdoor to indoor boosters like those from WeBoost and Hiboost, and femtocell options for AT&T, T-Mobile, and Verizon.
 
