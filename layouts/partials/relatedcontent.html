@@ -11,11 +11,6 @@
           {{- $num_to_show := .Site.Params.related_content_limit | default 2 -}}
           {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
           <div class="related">
-            {{ if and (.Params.Cover) (not (fileExists .Params.Cover)) }}
-                {{ partial "console-log" .Params.Cover }}
-                {{ printf "Cover: %s\n" .Params.Cover }}
-                <p>Cover image not found.</p>
-            {{ else }}
               {{ if .Params.Cover }}
                 {{ $cover := resources.Get (.Params.Cover) }}
                 {{ $tiny := ($cover.Resize "480x webp q75") }}
@@ -37,7 +32,6 @@
                 >
               </a>
             </div>
-              {{ end }}
               {{ end }}
             <div class="related-info">
               <div class="related-date">

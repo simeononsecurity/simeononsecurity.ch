@@ -1,11 +1,5 @@
 <figure class="post-cover">
-  {{ if and (.Params.Cover) (not (fileExists .Params.Cover)) }}
-    {{ printf "Cover: %s\n" .Params.Cover }}
-    {{ partial "console-log" .Params.Cover }}
-    <p>Cover image not found.</p>
-  {{ else }}
     {{ if .Params.UseRelativeCover }}
-      {{ printf "Cover: %s\n" .Params.Cover }}
       {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover )}}
       {{ $tiny := ($cover.Resize "480x webp q75") }}
       {{ $small := ($cover.Resize "768x webp q75") }}
@@ -22,7 +16,6 @@
       alt="{{ .Params.CoverAlt | plainify | default .Title }}"
       loading="lazy"/>
     {{ else }}
-      {{ printf "Cover: %s\n" .Params.Cover }}
       {{ $cover := resources.Get (.Params.Cover)}}
       {{ $tiny := ($cover.Resize "480x webp q75") }}
       {{ $small := ($cover.Resize "768x webp q75") }}
@@ -42,5 +35,4 @@
     {{ if .Params.CoverCaption }}
       <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
     {{ end }}
-  {{ end }}
 </figure>
