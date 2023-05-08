@@ -2,22 +2,22 @@
 <link rel="preconnect" href="https://pagead1.googlesyndication.com https://pagead2.googlesyndication.com https://www.google-analytics.com https://google-analytics.com https://ws-na.amazon-adsystem.com https://amazon-adsystem.com https://cdn.ampproject.org https://cdn.jsdelivr.net https://fonts.gstatic.com https://gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://utteranc.es https://static.cloudflareinsights.com https://cdnjs.cloudflare.com/www.clarity.ms" />
 
 <!-- preload and prefetch first-party js -->
-<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" type="text/javascript"/>
+<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" type="text/javascript" />
 {{ if .IsPage }}
-  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" type="text/javascript"/>
+  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" type="text/javascript" />
 {{ end }}
-<link rel="prefetch" href="/service-worker.js" type="text/javascript"/>
-<link rel="prefetch" href="/js/search.js" type="text/javascript"/>
+<link rel="prefetch" href="/service-worker.js" type="text/javascript" />
+<link rel="prefetch" href="/js/search.js" type="text/javascript" />
 
 <!-- preload and prefetch third-party js -->
-<link rel="prefetch" href="https://www.google-analytics.com/analytics.js" type="text/javascript"/> 
-<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript"/> 
-<link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript"/>
-<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript"/> 
-<link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" type="text/javascript"/>
-<link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript"/>
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript"/>
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript"/>
+<link rel="prefetch" href="https://www.google-analytics.com/analytics.js" type="text/javascript" /> 
+<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript" /> 
+<link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
+<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript" /> 
+<link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" type="text/javascript" />
+<link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript" />
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript" />
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" />
 
 <!-- preload images -->
 {{ if .Params.UseRelativeCover }}
@@ -27,19 +27,19 @@
 {{ end }}
 
 <!-- Fonts -->
-<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
+<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="" />
 
 <!-- Theme CSS -->
-<link rel="preload" as="style" href="{{ "style.css" | absURL }}" >
+<link rel="preload" as="style" href="{{ "style.css" | absURL }}" />
 <link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
 
 <!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="preload" as="style"  href="{{ "style.css" | absURL }}" >
+<link rel="preload" as="style"  href="{{ "style.css" | absURL }}" />
 <link rel="stylesheet" href="{{ "style.css" | absURL }}" />
 
 <!-- Icons -->
@@ -50,7 +50,7 @@
 <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" href="{{ "manifest.json" | absURL }}">
+<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
 
 <!-- mastodon verification  -->
 <a rel="me" title="mastodon verification" href="https://mastodon.world/@simeononsecurity"></a>
