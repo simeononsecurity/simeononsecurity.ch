@@ -1,23 +1,23 @@
 <!-- Preconnect third-party DNS for JS -->
-<link rel="preconnect" href="https://pagead1.googlesyndication.com https://pagead2.googlesyndication.com https://www.google-analytics.com https://google-analytics.com https://ws-na.amazon-adsystem.com https://amazon-adsystem.com https://cdn.ampproject.org https://cdn.jsdelivr.net https://fonts.gstatic.com https://gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://utteranc.es https://static.cloudflareinsights.com https://cdnjs.cloudflare.com/ https://www.clarity.ms" />
+<link rel="preconnect" href="https://pagead1.googlesyndication.com https://pagead2.googlesyndication.com https://www.google-analytics.com https://google-analytics.com https://ws-na.amazon-adsystem.com https://amazon-adsystem.com https://cdn.ampproject.org https://cdn.jsdelivr.net https://fonts.gstatic.com https://gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://utteranc.es https://static.cloudflareinsights.com https://cdnjs.cloudflare.com/www.clarity.ms" />
 
 <!-- preload and prefetch first-party js -->
-<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript"/>
+<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" type="text/javascript"/>
 {{ if .IsPage }}
-  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript"/>
+  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" type="text/javascript"/>
 {{ end }}
-<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript"/>
-<link rel="prefetch" href="/js/search.js" as="script" type="text/javascript"/>
+<link rel="prefetch" href="/service-worker.js" type="text/javascript"/>
+<link rel="prefetch" href="/js/search.js" type="text/javascript"/>
 
 <!-- preload and prefetch third-party js -->
-<link rel="prefetch" href="https://www.google-analytics.com/analytics.js" as="script" type="text/javascript"/> 
-<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" as="script" type="text/javascript"/> 
-<link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" as="script" type="text/javascript"/>
-<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript"/> 
-<link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" as="script" type="text/javascript"/>
-<link rel="prefetch" href="https://utteranc.es/client.js" as="script" type="text/javascript"/>
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript"/>
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript"/>
+<link rel="prefetch" href="https://www.google-analytics.com/analytics.js" type="text/javascript"/> 
+<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript"/> 
+<link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript"/>
+<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript"/> 
+<link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" type="text/javascript"/>
+<link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript"/>
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript"/>
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript"/>
 
 <!-- preload images -->
 {{ if .Params.UseRelativeCover }}
@@ -27,20 +27,20 @@
 {{ end }}
 
 <!-- Fonts -->
-<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="prefetch" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="prefetch" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="prefetch" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="prefetch" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="prefetch" type="font/woff2" as="font" crossorigin="">
-<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="prefetch" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-Italic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-Regular.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-Medium.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-MediumItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-Bold.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="{{ (resources.Get "fonts/Inter-BoldItalic.woff2").RelPermalink }}" rel="preload" type="font/woff2" as="font" crossorigin="">
 
 <!-- Theme CSS -->
-<link rel="preload" href="{{ "style.css" | absURL }}" as="style">
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" async/>
+<link rel="preload" as="style" href="{{ "style.css" | absURL }}" >
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
 
 <!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="preload" href="{{ "style.css" | absURL }}" as="style">
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" async/>
+<link rel="preload" as="style"  href="{{ "style.css" | absURL }}" >
+<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
@@ -96,7 +96,7 @@
 <link rel="alternate" hreflang="hi" href="https://simeononsecurity.ch/hi/" />
 <link rel="alternate" hreflang="ar" href="https://simeononsecurity.ch/ar/" />
 
-<script async>
+<script type="text/javascript" async>
 const divInstall = document.getElementById('installContainer');
 const butInstall = document.getElementById('butInstall');
 
@@ -125,7 +125,7 @@ if (window.location.protocol === 'http:') {
 }
 </script>
 
-<script defer type="text/javascript">
+<script async type="text/javascript">
   (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
       t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;

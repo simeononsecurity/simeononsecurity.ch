@@ -1,3 +1,5 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
 {{ $title := .Title }}
 {{ if strings.Contains $.Permalink "/tags/" }}
     {{ $title = printf "Other Posts Tagged %q" .Title }}
@@ -114,8 +116,7 @@
 <meta property="article:tag" content="{{ . }}" />{{ end }}{{ end }}
 {{- end }}{{ end }}
 <base href="{{ .Permalink }}">
-<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="canonical" href="{{ .Permalink }}" />
 <meta itemprop="description" content="{{ if strings.Contains .Permalink "/tags/" }}Read up on more articles about {{ .Title | markdownify }}. {{ end }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta itemprop="name" content="{{ .Site.Title }}" />
 <meta name="HandheldFriendly" content="True" />
