@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to keep your children safe from cyberbullying with this comprehensive guide for parents."
 tags: ["cyberbullying", "online safety", "parenting", "children", "mental health", "government regulations", "internet safety policies", "online activity monitoring", "prevention", "online harassment", "cyber safety", "digital parenting", "social media", "digital citizenship", "digital footprint", "bullying", "law", "technology", "security", "education"]
 cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
-coverAlt: "A cartoon of a parent and child using a computer together with a speech bubble above the computer showing a positive message."
+coverAlt: "A cartoon of a parent and child using a computer together, with a speech bubble above the computer showing a positive message."
 coverCaption: ""
 ---
 

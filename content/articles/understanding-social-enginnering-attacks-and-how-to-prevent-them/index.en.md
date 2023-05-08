@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to prevent social engineering attacks and protect your organization's sensitive information with employee training, security policies, and more."
 tags: ["social engineering", "cybersecurity", "prevention", "employee training", "security policies", "multi-factor authentication", "anti-virus", "physical security", "government regulations", "FISMA", "HIPAA", "data protection", "cyber threats", "network security", "information security", "sensitive information", "cybercrime", "compliance", "cybersecurity strategy", "data security"]
 cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
-coverAlt: "A hacker trying to lure a person with a fishing rod while a shield and lock symbolize cybersecurity."
+coverAlt: "A hacker trying to lure a person with a fishing rod, while a shield and lock symbolize cybersecurity."
 coverCaption: ""
 ---
 

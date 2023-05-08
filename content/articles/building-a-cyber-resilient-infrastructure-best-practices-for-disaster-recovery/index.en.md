@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to build a cyber resilient infrastructure with effective disaster recovery planning and best practices."
 tags: ["cyber resilience", "disaster recovery planning", "DRP", "risk management", "business continuity", "data protection", "regulatory compliance", "NIST Cybersecurity Framework", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "cloud backup", "backup and recovery software", "risk assessment tools", "incident response services", "cybersecurity", "information security", "IT infrastructure"]
 cover: "/img/cover/A_shield_with_a_check_mark.png"
-coverAlt: "A shield with a check mark surrounded by falling pixels and a backdrop of a burning city."
+coverAlt: "A shield with a check mark and the words Cyber Resilient Infrastructure written on it, surrounded by falling pixels and a backdrop of a burning city."
 coverCaption: ""
 ---
 
