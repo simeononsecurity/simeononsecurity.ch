@@ -1,5 +1,4 @@
 ---
-
 title: "Today I Learned more about Ansible conditionals and variable management"
 date: 2022-05-04
 toc: true

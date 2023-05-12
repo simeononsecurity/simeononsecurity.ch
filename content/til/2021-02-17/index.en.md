@@ -1,10 +1,8 @@
 ---
-
 title: "Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash"
 date: 2021-02-18
 toc: true
 draft: false
-description: ""
 tags: [PowerShell, Bash, JSON, Manipulation, Parsing]
 ---
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Today I Learned about Custom Windows Image Creation"
 date: 2023-01-30
 toc: true

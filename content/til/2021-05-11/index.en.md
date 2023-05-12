@@ -3,7 +3,6 @@ title: "Today I Learned about Auditpol, Sysmon, and Sysmon Configurations"
 date: 2021-05-11
 toc: true
 draft: false
-description: ""
 tags: [PowerShell, Automation, Sysmon, Configurations, SwiftOnSecurity]
 ---
 

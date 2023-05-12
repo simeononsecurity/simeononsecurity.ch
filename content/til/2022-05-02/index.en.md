@@ -3,7 +3,6 @@ title: "Today I Learned about Ansible and Block/Rescue Modules"
 date: 2022-05-02
 toc: true
 draft: false
-description: ""
 tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'Block', 'Rescue', 'Always']
 ---
 

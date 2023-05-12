@@ -1,11 +1,27 @@
 ---
-
-title: "Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies"
+title: "आज मैंने विंडोज डिफेंडर एप्लिकेशन कंट्रोल (डब्ल्यूडीएसी) नीतियों को लागू करने के बारे में सीखा"
 date: 2021-01-04
 toc: true
 draft: false
-description: ""
-tags: []
 ---
 
- **शिमोनॉनसिक्योरिटी ने आज क्या खुशी और दिलचस्प पाया **  आज, शिमोनॉनसिक्योरिटी ने ईमेल से संपर्क किया कंट्रोल (डब्ल्यूडीएसी) होने के कारण अटका और लागू करने के विषय में स्थगित कर दिया। WDSi विंडोज में एक सुविधा है जो अटके हुए या जीवित रहने वाले उपकरणों पर चलने से रोकने में मदद करती है। यह नियंत्रण करने का एक उपकरण प्रदान करता है कि कौन से डिवाइस चल सकता है, जिससे डिवाइस की संपूर्ण सुरक्षा में सुधार करने में मदद मिलती है।  ## धमकी देना और एन जबरदस्‍ती एस्‍क दावा कंट्रोल (डब्‍ल्‍यूडीएसी) का दावा: - [माइक्रोसॉफ्ट - डीसीए प्रीमियम एप्लीकेशन पॉलिसी](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application- नियंत्रण-नीतियां) - [Microsoft - समूह नीति का उपयोग करके Windows डिफ़ेंडर एप नियंत्रण एक परियोजन तैयार करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy- windows- एससी-आवेदन- नियंत्रण-नीतियां- उपयोग-समूह-नीति) - [Microsoft - Microsoft Intune का उपयोग करके Windows डिफ़ेंडर ऐप नियंत्रण नियंत्रण योजना बनाएं](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy- विंडोज़- एससी-एप्लीकेशन-कंट्रोलर-पॉलिसी-यूजिंग-इंट्यून) - [माइक्रोसॉफ्ट - एन फोर्स विंडोज डिफेन्सर ऐप कंट्रोल करार](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application- नियंत्रण-नीतियां)  ## सूचित रेपो: - [SimeonOnSecurity - Windows-Defender-Application-Control-Hardening](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening)  ## रुचि के वीडियो: - [विघटन - पृथ्वी का सबसे घातक कंप्यूटर वायरस](https://www.youtube.com/watch?v=6w3wr691uss) - [जॉन हैमंड - लिंक टर्मिनल में तेजी से कैसे आगे बढ़ें](https://www.youtube.com/watch?v=5-_bUD6oMok) - [माइक्रोसॉफ्ट 365 - माइक्रोसॉफ़्ट स्पीक कंट्रोल](https://www.youtube.com/watch?v=r2m156VWg_c) - [शॉर्ट सर्किट - मेराधल बहुत बड़ा है!](https://www.youtube.com/watch?v=N2r10vOzxh4) - [स्मार्टएवरीडे - सोनार कैसे काम करता है (सबमरीन शैडो ज़ोन) - स्मार्ट एवरी डे 249](https://www.youtube.com/watch?v=AqqaYs7LjlM) - [स्टीलकॉन - स्टीलकॉन 2019: बिल्ट-इन ऐप। विंडोज अकाउंट कंट्रोल के साथ व्हाइटलिस्टिंग - क्रिस ट्रंकर](https://www.youtube.com/watch?v=DQth-gVXRS0)
+** शिमोनऑनसिक्योरिटी ने आज क्या सीखा और दिलचस्प पाया **
+
+आज, शिमोनऑनसिक्योरिटी ने विंडोज डिफेंडर एप्लिकेशन कंट्रोल (डब्ल्यूडीएसी) नीतियों के ऑडिट और लागू करने के विषय में तल्लीन किया। डब्ल्यूडीएसी विंडोज में एक सुविधा है जो अनधिकृत या अविश्वसनीय सॉफ़्टवेयर को डिवाइस पर चलने से रोकने में मदद करती है। यह नियंत्रित करने का एक साधन प्रदान करता है कि कौन से एप्लिकेशन डिवाइस पर चल सकते हैं, जिससे डिवाइस की समग्र सुरक्षा में सुधार करने में मदद मिलती है।
+
+## विंडोज डिफेंडर एप्लिकेशन कंट्रोल (डब्ल्यूडीएसी) नीतियों का ऑडिट और लागू करना:
+-[Microsoft - Audit Windows Defender Application Control Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
+-[Microsoft - Deploy Windows Defender Application Control policies by using Group Policy](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
+-[Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)
+-[Microsoft - Enforce Windows Defencer Application Control Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies)
+
+## अपडेटेड रेपो:
+-[SimeonOnSecurity - Windows-Defender-Application-Control-Hardening](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening)
+
+## रुचि के वीडियो:
+-[Disrupt - Earth's Deadliest Computer Virus](https://www.youtube.com/watch?v=6w3wr691uss)
+-[John Hammond - How to move FAST in the Linux Terminal](https://www.youtube.com/watch?v=5-_bUD6oMok)
+-[Microsoft 365 - Microsoft Defender Application Control](https://www.youtube.com/watch?v=r2m156VWg_c)
+-[ShortCircuit - My Dongle is HUGE!](https://www.youtube.com/watch?v=N2r10vOzxh4)
+-[SmarterEveryDay - How Sonar Works (Submarine Shadow Zone) - Smarter Every Day 249](https://www.youtube.com/watch?v=AqqaYs7LjlM)
+-[SteelCon - SteelCon 2019: Built-In Appl. Whitelisting With Windows Defender Application Control - Chris Truncer](https://www.youtube.com/watch?v=DQth-gVXRS0)
