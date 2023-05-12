@@ -1,17 +1,64 @@
 ---
-title: "Build a Profitable Passive Income Box with Low-Powered Hardware: A Guide"
+title: "निम्न शक्ति वाले हार्डवेयर के साथ एक लाभदायक निष्क्रिय आय बॉक्स बनाएँ: एक गाइड"
 draft: false
 toc: true
 date: 2023-02-07
-description: "Learn how to set up a low-powered passive income crypto miner using a Raspberry Pi or Intel NUC, and earn $10-$20 per month per box with this guide"
-tags: ["Build a Profitable Passive Income Box", "Low-Powered Hardware", "Passive Income", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Guide", "Hardware Requirements", "OS Installation", "Software Installation", "Docker", "Automatic Docker Container Updates", "Ubuntu Server", "Ubuntu Desktop", "Raspbian", "Budget", "USFF", "Tiny", "Mini", "Micro PC", "Technical Experience", "EarnApp", "MYST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Watchtower", "Bitping"]
+description: "Raspberry Pi या Intel NUC का उपयोग करके एक निम्न-शक्ति निष्क्रिय आय क्रिप्टो माइनर स्थापित करना सीखें, और इस गाइड के साथ $10-$20 प्रति माह प्रति बॉक्स कमाएं"
+tags: ["लाभदायक निष्क्रिय आय बॉक्स बनाएँ","कम शक्ति वाले हार्डवेयर","निष्क्रिय आय","क्रिप्टो माइनर","रास्पबेरी पाई","इंटेल एनयूसी","मार्गदर्शक","हार्डवेयर आवश्यकताएँ","ओएस स्थापना","सॉफ्टवेयर स्थापना","डॉकर","स्वचालित डॉकर कंटेनर अद्यतन","उबंटू सर्वर","उबंटू डेस्कटॉप","रास्पियन","बजट","यूएसएफएफ","छोटा","छोटा","माइक्रो पीसी","तकनीकी अनुभव","अर्नएप","मिस्ट","पीयर2प्रोफिट","हनीगैन","ट्रैफ़मॉनीटाइज़र","वॉचटावर","बिटिंग"]
 cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
-coverAlt: "a green, circuit board shaped like a box with internet connectivity symbols as wires connected to it."
+coverAlt: "एक हरे रंग का, सर्किट बोर्ड एक बॉक्स के आकार का होता है, जिसमें इंटरनेट कनेक्टिविटी के प्रतीक होते हैं, जैसे तार जुड़े होते हैं।"
 coverCaption: ""
 ---
+
+** कम शक्ति वाले हार्डवेयर के साथ एक लाभदायक निष्क्रिय आय बॉक्स बनाएं: एक गाइड**
+इन दिनों बहुत से लोग क्रिप्टो माइनिंग और हीलियम माइनर्स जैसे लो पावर माइनर्स में हैं। ये महान और सभी हैं लेकिन वे अब और अधिक नहीं कमाते हैं और वे एक तरह की कमाई पर केंद्रित हैं। आज हम एक कम शक्ति वाला पैसिव इनकम बॉक्स बनाने जा रहे हैं जो $10-$20 प्रति माह प्रति बॉक्स और आवासीय आईपी से कहीं भी कमाता है।
+
+*यदि आपके पास अतिथि नेटवर्क पर इस बॉक्स को स्थापित करने की क्षमता है या इससे भी बेहतर, एक अलग वीएलएएन है, तो ऐसा करें। जबकि यह एक सुरक्षा ब्लॉग है, हम हर किसी की सुरक्षा चिंताओं और जोखिम सहनशीलता को नहीं मान सकते।*
+
+## हार्डवेयर आवश्यकताएँ:
+निम्न में से एक आवश्यक है। हमें मूल रूप से किसी भी कुशल और कम शक्ति वाले कंप्यूटर की आवश्यकता होती है जिस पर हम अपना हाथ रख सकते हैं। कोई भी Raspberry PI, Intel NUC, या ऐसा ही करेगा। उन्हें इतना शक्तिशाली होने की जरूरत नहीं है। हालाँकि मैं आपको सलाह दूंगा कि आपके पास कम से कम 32g-64g स्टोरेज, 4g RAM और कम से कम 2 cpu थ्रेड्स हों। इसके लिए हम हार्डवेयर के लिए लगभग $100-$200 के बजट को लक्षित कर रहे हैं, लेकिन यदि यह आपकी आवश्यकताओं के अनुरूप है तो इसे और अधिक करने के लिए स्वतंत्र महसूस करें। हमारा शक्ति लक्ष्य लगभग है। 25w औसत।
+### रास्पबेरी पाई:
+इन दिनों को पकड़ना मुश्किल है लेकिन वे बहुत कम शक्ति वाले हैं और काफी अनुकूलन योग्य हैं। अपने रास्पबेरी पीआई पर रास्पियन कैसे स्थापित करें, इस बारे में जानकारी के लिए
+-[Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
+-[GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
+-[GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+### इंटेल न्यूक:
+वहाँ मॉडल की विस्तृत विविधता। एक नया चुनने के लिए स्वतंत्र महसूस करें।
+-[Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
+-[Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
+-[Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
+### कोई USFF/छोटा/मिनी/माइक्रो पीसी:
+-[Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
+-[Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+### इंटेल N5100 या समान के साथ कोई भी मिनी पीसी
+सुपर लो पावर रास्पबेरी पाई समकक्ष के लिए लेकिन x64 प्लेटफॉर्म पर।
+-[Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+-[TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+
+## ओएस स्थापना:
+हम यहां ऑपरेटिंग सिस्टम कैसे स्थापित करें, इसके तकनीकी विवरण में नहीं जाएंगे। हालाँकि यहाँ आपको आरंभ करने के लिए कुछ बेहतरीन संसाधन दिए गए हैं
+### रास्पियन:
+-[Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+-[The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
+### उबंटू:
+-[Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+-[Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
+-[Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
+
+
+## सॉफ्टवेयर स्थापना:
+यह एक लंबा खंड होने जा रहा है। हम डॉकर सेट अप करने जा रहे हैं और फिर डॉकर के माध्यम से हम स्वचालित डॉकर कंटेनर अपडेट सेट अप करेंगे और एकाधिक डॉकर कंटेनर इंस्टॉल करेंगे। हम यह भी मानते हैं कि आप ubuntu सर्वर का उपयोग कर रहे हैं, हालाँकि ubuntu सर्वर, ubuntu डेस्कटॉप और रास्पियन के लिए कमांड समान होने चाहिए।
+
+*इस खंड के लिए हम कुछ बुनियादी तकनीकी अनुभव मानते हैं और यह कि आपने अपना ऑपरेटिंग सिस्टम पहले ही स्थापित कर लिया है और साथ ही यह भी जानते हैं कि टर्मिनल में कैसे जाना है।*
+
+### अपडेट स्थापित कर रहा है:
+हम पहले यह सुनिश्चित करना चाहते हैं कि हमारा सिस्टम पूरी तरह से अद्यतित है:
 ```bash
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
+
+### Installing Docker:
+We need to uninstall any existing versions that come prepackaged with the os and install the latest from Docker's repo themselves.
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -28,6 +75,9 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+### Install Watchtower:
+This docker container automatically updates all your docker containers to the latest images on a regular interval and cleans up old (stale) images.
 ```bash
 docker run -d \
     --name watchtower \
@@ -37,25 +87,99 @@ docker run -d \
     --schedule "0 0 2 * * *" \
     --cleanup 
 ```
+
+### Install Bitping:
+[*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
+
+Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
+This averages about 0.1 Cents per day per node. Not a lot I know, but it has potential and payouts are easy. 
+
+#### Create an account:
+Create an account at [bitping.com](https://bitping.com)
+
+#### Install the docker container:
+Step 1. Run these commands first as it walks you through setting up your container and asks you to sign in.
 ```bash
 docker pull bitping/bitping-node
 mkdir $HOME/.bitping/
 docker run -it --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
+
+Hit CTRL+C on your keyboard to escape the container following signing in with your bitping account.
+
+Step 2. Run this command to persist the container in the background
 ```bash
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
+
+
+### Install Earn App:
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+
+Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
+
+#### Create an Earn App Account:
+Create an account at [earnapp.com](https://earnapp.com/i/c1dllee).
+*Warning, requires a google account*
+
+#### Install the non docker version of the app to get your UUID:
+Be sure to uninstall after you get your UUID otherwise you'll end up running it twice on the same host and without automatic updates
+- [Instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)
+
+#### Install the docker container:
+Modify the string before pasting into your terminal. You need to specify your earn app UUID.
 ```bash
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
+#### Video Tutorial:
+{{< youtube id="tt499o0OjGU" >}}
+
+### Install Honey Gain:
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+
+Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
+
+#### Create a Honey Gain Account:
+Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
+
+#### Install the Docker Container:
+Modify the string with the obvious email, password, and device name before pasting into the terminal
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
+
+#### Alternate instructions for Raspberry Pi
+- [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
+
+#### Video Tutorial:
+{{< youtube id="Wd11M0nSy1k" >}}
+
+### Install PawnsApp:
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
+
+#### Create a PawnsApp Account:
+Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+
+#### Install the Docker Container:
+
+Modify the following with your email, password, device name, and device id before copying to your terminal.
 ```bash
 docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
+
+### Install Peer 2 Profit:
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
+
+Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
+Offers a variety of payouts including money orders, BTC, LTC, LTC, MATIC, etc.
+
+#### Create a Peer 2 Profit Account:
+Create an account at [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+
+#### Install the Docker Container:
 ```bash
 export P2P_EMAIL="your_email_without_quotes"; 
 docker rm -f peer2profit || true && docker run -td --restart always \
@@ -63,21 +187,83 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
+#### Video Tutorial:
+{{< youtube id="J_rSV5N8aQk" >}}
+
+
+### Install Repocket:
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+
+Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+
+#### Create a Repocket Account:
+Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
+#### Install the Docker Container:
+Modify the following line with your email and api key before pasting into your terminal.
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
+#### Video Tutorial:
+{{< youtube id="171gWknfAbY" >}}
+
+### Install Traff Monetizer:
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+
+Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
+
+#### Create your Traff Monetizer Account:
+Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Once you get into the dashboard, make note of your application token.
+
+#### Install the Docker Container:
+Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
+
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
+
+### Install Mysterium:
+[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
+Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
+
+
+#### Install the Docker Container:
 ```bash
 docker volume create myst_data
 docker run -td --cpus=1 --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 --hostname myst --cap-add NET_ADMIN --network=host -p 4449:4449 -p 59850-60000:59850-60000 --name myst --device=/dev/net/tun  -v myst_data:/var/lib/mysterium-node mysteriumnetwork/myst:latest --udp.ports=59850:60000 service --agreed-terms-and-conditions
 ufw allow 4449
 ufw allow 59850:60000/tcp
 ```
+
+#### Setup the Docker Container:
+Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+
+Click “start node setup”.
+
+Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+
+Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+
+Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
+
+#### Port Forwarding:
+We can not describe how to port forward for everyone's specific hardware. Here are some resources to learn how to port forward.
+- [PortForward.com](https://portforward.com/)
+- [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
+
+
+### Auto Restart Docker Containers on Boot:
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
+
+### Optional Configurations:
+- [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
+- [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
+#### Increase security by blocking malware and trackers.
+Force all dns requests to Cloudflares malware and tracking protection dns.
+Also, block DNS/HTTPS requests.
+*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
 ```bash
 # Allow ssh still
 sudo ufw allow 22
@@ -115,6 +301,7 @@ iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
 sudo iptables-save
 sudo ufw enable
 ```
+For more advanced ToR blocking you can do the following:
 ```bash
 #https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
 sudo apt-get -y install ipset
@@ -124,4 +311,5 @@ curl -sSL "https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=$(curl ica
 done
 iptables -A INPUT -m set --match-set tor src -j DROP
 ```
-  ** कम शक्ति वाले घूमने के साथ एक उपयोगी आय बॉक्स बनाएं: एक गाइड** इन दिनों बहुत से लोग क्रिप्टो माइनिंग और एलियम माइनर जैसे लो पावर माइनर्स में हैं। ये सभी महान हैं और अब अधिक कमाई नहीं कर रहे हैं और वे एक तरह से कमाई पर केंद्रित हैं। आज हम एक अपराधी इनकमिंग बॉक्स बना रहे हैं जो $10-$20 प्रति माह प्रति बॉक्स और इनकमिंग आईप से कहीं भी कमाता है। * यदि आपके पास अतिथि नेटवर्क पर इस बॉक्स को स्थापित करने की क्षमता है या इससे भी बेहतर, एक अलग वीएलएएन, ऐसा करें। जबकि यह एक सुरक्षा ब्लॉग है, हम हर किसी की सुरक्षा की साझेदारी और जोखिम सहनशीलता को नहीं मान सकते।* #छुट्टी की घोषणा: में से एक आवश्यक है। हमें मूल रूप से किसी भी कुशल और कम शक्ति वाले कंप्यूटर की आवश्यकता होती है जिस पर हम अपना हाथ रख सकते हैं। कोई भी Raspberry PI, Intel NUC, या ऐसा ही होगा। उन्हें इतने शक्तिशाली होने की जरूरत नहीं है। हालांकि मैं आपको सलाह देता हूं कि आपके पास कम से कम 32जी-64जी स्टोरेज, 4जी रैम और कम से कम 2 सीपीयू फोल्डर हो। इसके लिए हम छत के लिए लगभग $100-$200 के बजट को लक्षित कर रहे हैं, लेकिन यदि यह आपकी आवश्यकताओं के अनुरूप है तो इसे और अधिक करने के लिए स्वतंत्र अनुभव करें। हमारा शक्ति लक्ष्य लगभग है। 25w औसत। ### चिपचिपी पाई: इन दिनों पकड़ कठिन होती है, लेकिन वे बहुत कम अधिकार वाले होते हैं और काफी अनुकूल अनुकूलन होते हैं। अपने अटैचमेंट पर रास्पियन कैसे स्थापित करें, इसके बारे में जानकारी के लिए - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0) - [GeekPi Raspberry Pi 4 4GB स्टेपर किट](https:// amzn.to/3jG2g2k) - [GeekPi Raspberry Pi 4 8GB स्टार्टर किट](https://amzn.to/3DQisF6) ### इंटेल न्यूक: वहाँ मॉडल की विशिष्ट विविधता। एक नई पहचान के लिए स्वतंत्र अनुभव करें। - [इंटेल अनोही 12 प्रो](https://amzn.to/3JTzLc7) - [इंटेल अनोही 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8) - [इंटेल अनोही 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6) ### कोई USFF/छोटा/मिनी/माइक्रो पीसी: - [Lenovo ThinkCentre M900 Tiny] (https://www.ebay.com/itm/385116504642) - [डेल ऑप्टिप्लेक्स 7040 माइक्रो असैस] (https://www.ebay.com/itm/165504038978) ### इंटेल N5100 या समान के साथ कोई मिनी पीसी सुपर लो पावर पाएके समकक्ष लेकिन x64 प्लेटफॉर्म पर। - [बी लिंक यू59 मिनी](https://amzn.to/3YkFhcj) - [ट्रिग का मिनी कंप्यूटर](https://amzn.to/3XkbXkS) ## OS की स्थापना: हम यहां ऑपरेटिंग सिस्टम कैसे स्थापित करें, इसके तकनीकी विवरण में नहीं जाएंगे। हालाँकि आज आपने शुरुआत करने के लिए कुछ बेहतरीन संसाधन दिए हैं ### रास्पियन: - [आरंभ करना](https://www.raspberrypi.com/documentation/computers/getting-started.html) - [रास्पबेरी पाए जाने की] नई विधि](https://www.youtube.com/watch?v=jRKgEXiMtns) ### फ़ैसला: - [उबंटू डेस्कटॉप तय करें] (https://ubuntu.com/tutorials/install-ubuntu-desktop#1 -overview) - [उबंटू सर्वर - मूल स्थापना] (https://ubuntu.com/server/docs/installation) - [उबंटू पूरी तरह से हो सकता है: अटक कर डाउनलोड करें और कुछ करें] (https://www. . . . . . . . . . youtube.com/watch?v=W-RFY4LQ6oE) ## सॉफ्टवेयर स्थापना: यह एक विस्तृत खंड हो रहा है। हम डॉकर सेट अप करने जा रहे हैं और फिर डॉकर के माध्यम से हम स्वचालित डॉकर कंटेनर अपडेट सेट अप और कई डॉकर क्लोजर रिकॉर्ड करेंगे। मैं यह भी कह रहा हूं कि आप सभी समीक्षकों का उपयोग कर रहे हैं, हालांकि, दोषी रिकॉर्ड्स और रास्पियन के लिए समान अधिकार होना चाहिए। *इस खंड के लिए हम कुछ तकनीकी तकनीकी अनुभव मानते हैं और आपने अपना ऑपरेटिंग सिस्टम पहले ही स्थापित कर लिया है और साथ ही यह भी जानते हैं कि टर्मिनल में कैसे जाना जाता है।* ### सुधार स्थापित कर रहा है: हम पहले यह सुनिश्चित करना चाहते हैं कि हमारा सिस्टम पूरी तरह से अद्यतित है: ### डॉकटर स्थापित करना: हमें किसी भी मौजूदा संस्करण को चिपकाने की आवश्यकता है जो ओएस के साथ पहले पैक किया गया है और डॉकर के रेपो से संबंधित को स्वयं स्थापित करें । ### गुम्मट स्थापित करें: यह डॉकटर कंटेनर स्वचालित रूप से आपके सभी डॉकटर कंटेनरों को नियमित स्टॉक में अपडेट करता है और पुराने (बासी) एक्सपोजर को स्पष्ट करता है। ### बिटपिंग रिफंड: [* बिटपिंग एक वेबसाइट की निगरानी और प्रदर्शन समाधान जो वास्तविक समय, वास्तविक उपयोगकर्ता निगरानी और डाउनटाइम या खराब प्रदर्शन पर प्रतिक्रिया प्रदान करता है, तनाव परीक्षण और प्रासंगिकता क्षमता के साथ, नेटवर्क इंटेलीजेंस प्रतिक्रिया द्वारा ऑपरेशन सक्रिय पुन: रूटिंग और पुन: बंद करें: , और बहिष्कृत वेबहुक के माध्यम से मौजूदा प्रवाह के कार्य के साथ।*](https://bitping.com) बिटपिंग आपको अपना नेटवर्क से खुला नेटवर्क लाने की पेशकश के लिए एक निरंतर प्रदान करने के लिए सोलाना में भुगतान करने की क्षमता प्रदान करता है। यह औसत लगभग 0.1 सेंट प्रति दिन प्रति प्रतिक्रिया है। मैं बहुत कुछ नहीं जानता, लेकिन इसकी क्षमता और भुगतान आसान है। #### खाता बनाना: [Bitping.com](https://bitping.com) पर खाता बनाना #### डॉकटर अधिकार स्थापित करें: चरण 1. इन झटकों को पहली धारा क्योंकि यह आपके खाते की स्थापना के माध्यम से चलता है और आपको साइन इन करने के लिए कहता है। अपने बिटिंग लाभ से साइन इन करने के बाद कंटेनर से बचने के लिए आप अपना CTRL+C दबाएं। चरण 2. पहलू में रहने के लिए इस क्रम को चलाया जाता है ### अर्न ऐप इंस्टॉल करें: [* अपने डिवाइस के चालू रहने के समय का लाभ उठाएं*](https://earnapp.com/i/c1dllee) अर्न ऐप आपको आश्चर्यजनक रूप से दिखने वाली सेवा के रूप में अपना इंटरनेट शेयर करता है। औसत लगभग $5 माह प्रति गैर प्रतिरूप IP। पेआउट के माध्यम से घोषणा और उपहार कार्ड प्रदान करता है। #### अर्न एप अकाउंट अकाउंट: [earnapp.com](https://earnapp.com/i/c1dllee) पर अकाउंट अकाउंट अकाउंट अकाउंट अकाउंट अकाउंट अकाउंट पर अकाउंट बनाएं। *चेतावनी, Google के एक लाभ की आवश्यकता है* #### अपना अधिकार प्राप्त करने के लिए ऐप का गैर-डॉक्टर संस्करण स्थापित करें: अपना यूयू प्राधिकरण प्राप्त करने के बाद स्थापना रद्द करना सुनिश्चित करें अन्यथा आप इसे स्वयं एक होस्ट और सक्रिय करते हैं करते हैं जैसे अपडेट किए बिना दो बार चलेंगे - [दुःख](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions) ####डॉक्टर लगे: अपने में चिपकाने से पहली स्ट्रिंग ठीक हो जाएगी। आपको अपना अर्न ऐप UUID से देखना होगा। #### वीडियो ट्यूटोरियल:  ### रिपॉकेट करें: [* अपने आप को इंटरनेट के लिए भुगतान करें*](https:// लिंक .repocket.co/pyqL) यहां अन्य पेशकशों के समान। न्यूनतम $20 भुगतान। भुगतान जटिल हो सकता है। यह देखने के लिए स्वयं को बनाना चाहते हैं कि आप इस सेवा का क्या उपयोग करना चाहते हैं। भुगतान औसत लगभग $1 प्रति प्रति प्रति बॉक्स प्रति माह। #### एक रेपोकेट खाता बनाएँ: [repocket.co](https://link.repocket.co/pyqL) पर एक ख़ज़ाना बनाएँ और अपने बैग से अपना अत्यावश्यक कुंजी प्राप्त करें। #### डॉकर बनाएं: ठीक है आपके टर्मिनल में चिपकाने से पहले आपके ईमेल और अगले हिस्से के साथ एक नई लाइन। #### वीडियो ट्यूटोरियल:  ### ट्रैफ़ मोनेटाइज़र रिकॉर्ड करें: [*अपना इंटरनेट कनेक्शन शेयर करें और ऑनलाइन पैसे कमाएँ*](https://traffmonetizer.com/? aff= 242022) अर्नऐप्स और हनीगैन के समान, ट्रैफमोनेटाइज़र आपको अपना इंटरनेट साझा करने के लिए भुगतान करता है। औसत लगभग $2 प्रति माह प्रति प्रतिक्रिया प्रति IP। केवल बीटीसी में भुगतान प्रदान करता है। #### अपना ट्रैफ़ मोनेटाइज़र खाता बनाएँ: अपना खाता [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022) बनाएं, एक बार जब आप अपनी बातों पर पहुंचें, तो अपने एप टोर को नोट कर लें। ### इंस्टाल मिस्टीरियम: [मिस्टीरियम](https://www.mysterium.network/) एक विकेंद्रीकृत बना और वेबस्क्रैपिंग सेवा है जो एथेरियम और पॉलीगॉन ब्लॉकों पर निर्मित है। प्रति लिप प्रति अनुमान कई संभावनाओं पर भुगतान औसत कहीं भी $1-$20 प्रति माह होता है। सक्रियता के लिए समझौता करने के लिए $1.XX खर्च होता है। MYST टोकन में भुगतान।#### डॉकर धारण करें: #### डॉकर प्रवास करें: अपने टाउन कनेक्शन के साथ "nodeip" को चाहे http://"nodeip"/#/dashboard पर जाएं। आप इसे टर्मिनल में "ifconfig" टाइप करके पा सकते हैं। "कनेक्शन शुरू करें" पर क्लिक करें। ERC20 वॉलेट का पता विगत करें जिसमें आप पुरस्कार प्राप्त करना चाहते हैं और "अगला" पर क्लिक करें। आप अपने मेटामास्क पटों में से एक जैसे मानक एथेरियम का उपयोग कर सकते हैं। एक पासवर्ड टाइप करें जिसका उपयोग करके आप भविष्य में इस विश्वसनीय स्टॉक तक पहुंचेंगे। अपने नेटवर्क में कोई भी दावा करने के लिए चेकबॉक्स को चेक करें। "इसे यहां प्राप्त करें" लिंक पर क्लिक करें और अपनी ग्राहक सूची देखें। इसे कॉपी करें। वापस जाओ और चिपकाओ। "सहेजें और जारी रखें" पर क्लिक करें। #### पोर्ट फ़ॉरवर्डिंग: हम वर्णन नहीं कर सकते कि प्रत्येक विशिष्ट चिह्न के लिए पोर्ट फ़ॉरवर्डिंग कैसे करें। आगे पोर्ट करने का तरीका सीखने के लिए यहां कुछ संसाधन दिए गए हैं।- [पोर्टफॉरवर्ड.कॉम](https://portforward.com/) - [मिस्टरियम - पोर्ट फॉरवर्डिंग](https://docs.mysterium.network/troubleshooting) ) /port-forwarding ) ### बूट पर डॉकटर को ऑटो रीस्टार्ट करें: ### वैकल्पिक रूप: - [स्वप्रारूप उबंटू अपडेट और रीबूट](https://www.cyberciti.biz/faq/set-up- ऑटोमेटिक) -) अनअटेंडेड-अपडेट्स-फॉर-उबंटू-20-04/) - [उबंटू पर टीओआर ट्रैफिक को ब्लॉक करना](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix- or- Fail2ban-on-mailserver) #### धोखेबाज़ और ट्रैकर्स को ब्लॉक करके जोखिम जोखिम बढ़ रहे हैं। क्लॉडफ्लेयर डॉक्यूमेंटेशन और सुरक्षा डीएनएस के लिए सभी डीएनएस कनेक्शन बाउंड करें। इसी के साथ DNS/HTTPS को ब्लॉक करें। * यदि आपके पास नेटवर्क पर अधिक विस्मयकारी या फ़ायरवॉल है, तो आप ज्ञात खराब कार्य करने वाले IPs, Tor Axex, Torent, सामान्य रूप से P2p आकार आदि को ब्लॉक करने के लिए अधिक उन्नत नियम बनाने के लिए स्नॉर्ट/सिक्योरिटा जैसे पैकेज का उपयोग करें यह भी कर सकते हैं। यह अत्यधिक सलाह दी गई है, लेकिन इसकी आवश्यकता नहीं है।* अधिक उन्नत टीओआर ब्लॉकिंग के लिए आप कुछ कार्य कर सकते हैं: ## लाभ?
+
+## लाभ?
