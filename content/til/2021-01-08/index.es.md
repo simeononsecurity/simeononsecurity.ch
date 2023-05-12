@@ -1,32 +1,10 @@
 ---
-title: "Hoy aprendí sobre ajustes y optimizaciones de NTFS"
+
+title: "Today I Learned about NTFS Tweaks and Optimizations"
 date: 2021-01-08
 toc: true
 draft: false
+description: ""
+tags: []
 ---
-
-**Lo que SimeonOnSecurity aprendió y encontró interesante hoy**
-
-Hoy, SimeonOnSecurity aprendió y encontró temas interesantes relacionados con los ajustes de NTFS y varias actualizaciones del repositorio.
-
-En el mundo de los sistemas de archivos, NTFS es un sistema de archivos de uso común para Windows. Para mejorar su rendimiento y confiabilidad, SimeonOnSecurity encontró un excelente recurso en PonderWorthy que analiza los ajustes de NTFS mediante fsutil. El artículo ofrece información sobre cómo optimizar el sistema de archivos NTFS para un mejor rendimiento y estabilidad.
-
-SimeonOnSecurity también actualizó varios repositorios, incluidos scripts de configuración, Windows-Optimize-Harden-Debloat y Windows-Optimize-Debloat. Estos repositorios contienen scripts y herramientas para optimizar, fortalecer y eliminar los sistemas de Windows.
-
-Además, SimeonOnSecurity vio varios videos relacionados con la seguridad de la información y los encontró interesantes. Estos videos incluyen BHIS - Talkin' Bout News 2021-01-06, Crosstalk Solutions - Cloud Key Firmware v2.0.24 - Major Update!, Hak5 - Burn-in Test Payloads, Hak5 - The 3 (or 4) P's of Post Exploitation, Byte nulo: los piratas informáticos de una sola vía pueden realizar inyecciones de pulsaciones de teclas a través de Wi-Fi desde un teléfono inteligente y The Linux Experiment: el sistema operativo elemental es MÁS que una distribución de Linux.... Estos videos brindan información sobre varios temas en el campo de la seguridad de la información y muestran nuevas herramientas, técnicas e ideas en la industria.
-
-## Ajustes de NTFS
--[PonderWorthy](https://notes.ponderworthy.com/fsutil-tweaks-for-ntfs-performance-and-reliability)
-
-## Repositorios actualizados:
--[SimeonOnSecurity - setup-scripts](https://github.com/simeononsecurity/setup-scripts)
--[SimeonOnSecurity - Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
--[SimeonOnSecurity - Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
-
-## Vídeos de Interés:
--[BHIS - Talkin' Bout News 2021-01-06](https://www.youtube.com/watch?v=-zAIdP7OA6E)
--[Crosstalk Solutions - Cloud Key Firmware v2.0.24 - Major Update!](https://www.youtube.com/watch?v=y_A-Zcc1yHM)
--[Hak5 - Burn-in Test Payloads](https://www.youtube.com/watch?v=bTRO2EHTLBQ)
--[Hak5 - The 3 (or 4) P's of Post Exploitation](https://www.youtube.com/watch?v=OcEKXyJ8oqs)
--[Null Byte - One Way Hackers Can Perform Keystroke Injection Over Wi-Fi from a Smartphone](https://www.youtube.com/watch?v=srk63urpHNA)
--[The Linux Experiment - elementary OS is MORE than a Linux distribution...](https://www.youtube.com/watch?v=FuVN6YGGmDo)
+ **Lo que SimeonOnSecurity aprendió y encontró interesante hoy**  Hoy, SimeonOnSecurity aprendió y encontró temas interesantes relacionados con los ajustes de NTFS y varias actualizaciones del repositorio.  En el mundo de los sistemas de archivos, NTFS es un sistema de archivos de uso común para Windows. Para mejorar su rendimiento y confiabilidad, SimeonOnSecurity encontró un excelente recurso en PonderWorthy que analiza los ajustes de NTFS mediante fsutil. El artículo ofrece información sobre cómo optimizar el sistema de archivos NTFS para un mejor rendimiento y estabilidad.  SimeonOnSecurity también actualizó varios repositorios, incluidos scripts de configuración, Windows-Optimize-Harden-Debloat y Windows-Optimize-Debloat. Estos repositorios contienen scripts y herramientas para optimizar, fortalecer y eliminar los sistemas de Windows.  Además, SimeonOnSecurity vio varios videos relacionados con la seguridad de la información y los encontró interesantes. Estos videos incluyen BHIS - Talkin' Bout News 2021-01-06, Crosstalk Solutions - Cloud Key Firmware v2.0.24 - Major Update!, Hak5 - Burn-in Test Payloads, Hak5 - The 3 (or 4) P's of Post Exploitation, Byte nulo: los piratas informáticos de una sola vía pueden realizar inyecciones de pulsaciones de teclas a través de Wi-Fi desde un teléfono inteligente y The Linux Experiment: el sistema operativo elemental es MÁS que una distribución de Linux.... Estos videos brindan información sobre varios temas en el campo de la seguridad de la información y muestran nuevas herramientas, técnicas e ideas en la industria.  ## Ajustes de NTFS - [PonderWorthy](https://notes.ponderworthy.com/fsutil-tweaks-for-ntfs-performance-and-reliability)  ## Repositorios actualizados: - [SimeonOnSecurity - scripts de configuración](https://github.com/simeononsecurity/setup-scripts) - [SimeonOnSecurity - Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat) - [SimeonOnSecurity - Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)  ## Vídeos de Interés: - [BHIS - Noticias de Talkin' Bout 2021-01-06](https://www.youtube.com/watch?v=-zAIdP7OA6E) - [Crosstalk Solutions - Cloud Key Firmware v2.0.24 - ¡Actualización importante!](https://www.youtube.com/watch?v=y_A-Zcc1yHM) - [Hak5 - Cargas de prueba de quemado](https://www.youtube.com/watch?v=bTRO2EHTLBQ) - [Hak5 - Las 3 (o 4) P de la explotación posterior](https://www.youtube.com/watch?v=OcEKXyJ8oqs) - [Byte nulo: los piratas informáticos unidireccionales pueden realizar una inyección de pulsaciones de teclas a través de Wi-Fi desde un teléfono inteligente] (https://www.youtube.com/watch?v=srk63urpHNA) - [El experimento de Linux: el sistema operativo elemental es MÁS que una distribución de Linux...](https://www.youtube.com/watch?v=FuVN6YGGmDo)
