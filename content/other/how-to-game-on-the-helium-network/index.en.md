@@ -3,14 +3,14 @@ title: "Gaming the Helium Network: Exploiting Vulnerabilities with MiddleMan and
 date: 2023-02-18
 toc: true
 draft: false
-description: "Learn how to game the Helium network by exploiting vulnerabilities with MiddleMan and Chirp Stack Packet Multiplexer, as well as the risks and consequences of doing so."
+description: Learn how to game the Helium network by exploiting vulnerabilities with MiddleMan and Chirp Stack Packet Multiplexer, as well as the risks and consequences of doing so.
 tags: ["Helium network", "Proof-of-Coverage", "MiddleMan", "Chirp Stack Packet Multiplexer", "gaming", "exploiting vulnerabilities", "LoRaWAN network", "cryptocurrency", "blockchain", "decentralized network", "hotspots", "spoofing", "cheating", "illegal activity", "penalties", "integrity of network", "rewards", "malicious actors", "network security", "legitimate hosts"]
 cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
 coverAlt: "A cartoonish depiction of a group of individuals exploiting a helium balloon with an image of a LoRaWAN® gateway and MiddleMan or Chirp Stack Packet Multiplexer in the background."
 coverCaption: ""
 ---
 
-**Disclaimer**
+**Disclaimer**:
 It is important to note that gaming the Helium network is an unlawful and unethical activity that is strongly disapproved of by the Helium community and the broader cryptocurrency and blockchain community. Gaming the network undermines the integrity of the network and harms legitimate hosts who are providing valuable coverage to the network.
 
 Furthermore, while the use of MiddleMan and Chirp Stack Packet Multiplexer to exploit vulnerabilities in the Helium network may be a cause for concern, it is important to note that these issues can only be fixed by Helium by introducing secure gateways. This would require replacing all hotspots on the network, which is a significant undertaking and may not be feasible. As a result, the Helium community needs to remain vigilant and proactive in addressing the challenges posed by gaming on the network.
