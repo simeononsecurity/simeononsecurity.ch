@@ -2,56 +2,14 @@
 title: "HackTheBox - Invite Challenge (Windows/Linux)"
 draft: false
 toc: true
-description: "विंडोज़ और लिनक्स दोनों पर प्रवेश परीक्षण और साइबर सुरक्षा में अपने कौशल का परीक्षण करने और उसे आगे बढ़ाने के लिए एक आमंत्रण कोड बनाना सीखें और HackTheBox ऑनलाइन प्लेटफ़ॉर्म में शामिल हों।"
-tags: ["हैक द बॉक्स","आमंत्रित चुनौती","भेदन परीक्षण","साइबर सुरक्षा","खिड़कियाँ","लिनक्स","ऑनलाइन प्लेटफॉर्म","एचटीटीपी पोस्ट","कोड आमंत्रित","बेस 64 एन्कोडेड","पावरशेल","लिनक्स बैश","बेस 64 डिकोड","आमंत्रण कोड जनरेशन","प्रोग्रामिंग","वेब विकास","तकनीकी","आईटी सुरक्षा","आईटी प्रशिक्षण"]
+description: "Learn how to generate an invite code and join the HackTheBox online platform to test and advance your skills in penetration testing and cybersecurity on both Windows and Linux."
+tags: ["HackTheBox", "Invite Challenge", "Penetration Testing", "Cybersecurity", "Windows", "Linux", "Online Platform", "HTTP POST", "Invite Code", "Base64 Encoded", "Powershell", "Linux Bash", "Base64 Decode", "Invite Code Generation", "Programming", "Web Development", "Technology", "IT Security", "IT Training"]
 cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
-coverAlt: "एक कार्टून कंप्यूटर स्क्रीन जिसमें हैकदबॉक्स वेबसाइट दिखाई दे रही है जिसमें हैकदबॉक्स के लोगो (नीले और सफेद) की रंग योजना में एक सिटीस्केप पृष्ठभूमि के साथ एक तिजोरी के दरवाजे को एक कुंजी के साथ अनलॉक किया जा रहा है, एक ट्रॉफी या पदक का खुलासा किया जा रहा है।"
+coverAlt: "A cartoon computer screen showing the HackTheBox website with a vault door being unlocked with a key, revealing a trophy or medal, with a cityscape background in the color scheme of HackTheBox's logo (blue and white)."
 coverCaption: ""
 ---
- Windows या Linux पर HackTheBox आमंत्रण चुनौती को पूरा करने के लिए चरण दर चरण निर्देश। प्रवेश परीक्षण और साइबर सुरक्षा में अपने कौशल का परीक्षण करने और उसे आगे बढ़ाने के लिए एक आमंत्रण कोड उत्पन्न करना और ऑनलाइन प्लेटफ़ॉर्म में शामिल होना सीखें। लेख सरल और उन्नत दोनों समाधान प्रस्तुत करता है, जिससे सभी स्तरों के उपयोगकर्ताओं के लिए चुनौती को पूरा करना और प्लेटफ़ॉर्म तक पहुँच प्राप्त करना आसान हो जाता है।
-
-______
-
-## हैक द बॉक्स क्या है?
-
-HackTheBox पैठ परीक्षण और साइबर सुरक्षा में अपने कौशल का परीक्षण और उन्नत करने के लिए एक ऑनलाइन मंच है।
-
-## आप हैक द बॉक्स से कैसे जुड़ते हैं ?
-
-HackTheBox (HTB) पर एक खाता बनाने के लिए आपको आमंत्रण चुनौती को पूरा करना होगा, या खुद को हैक करना होगा। चिंता न करें, हालांकि यह कठिन नहीं है और यह लेख आपको चुनौती को पूरा करने में मदद करेगा।
-
-सबसे पहले, पर जाएं[HackTheBox Website](https://hackthebox.eu) और ज्वाइन बटन पर क्लिक करें।
-
-आपको एक बॉक्स के साथ स्पष्ट रूप से एक आमंत्रण कोड के लिए प्रस्तुत किया जाएगा।
-
-आप स्पष्ट रूप से एक टेक्स्ट बॉक्स देख सकते हैं जो हमसे आमंत्रण कोड मांग रहा है।
-
-अपने ब्राउज़र के डेवलपर टूल खोलने के लिए या तो अपने कीबोर्ड पर ***"F12"*** दबाएं या ***"Ctrl + Shift + I"*** मारें.
-
-"तत्व" टैब पर, आपको एक स्क्रिप्ट मिलेगी **[inviteapi.min.js](https://www.hackthebox.eu/js/inviteapi.min.js)
-
-जावास्क्रिप्ट और MakeInviteCode फ़ंक्शन की समीक्षा करने पर, आपको पता चलेगा कि आमंत्रण कोड प्राप्त करने के लिए आपको **HTTP POST** को **/api/invite/generate** पर भेजने की आवश्यकता है।
-
-आप Base64 एन्कोडेड आमंत्रण कोड प्राप्त करने के लिए निम्न कार्य कर सकते हैं:
-
-### समाधान:
-
-#### सरल:
-- **खिड़कियाँ**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
-
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
-
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
-
-#### Advanced (Instantly print out invite code):
- - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
-
-______
-
-### Invite Code Ex:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 
+
+Windows या Linux पर HackTheBox आमंत्रण चुनौती को पूरा करने के लिए चरण दर चरण निर्देश प्राप्त करें। प्रवेश परीक्षण और साइबर सुरक्षा में अपने कौशल का परीक्षण करना और उसे आगे बढ़ाने के लिए एक प्रविष्टि कोड बनाना और ऑनलाइन सभी में शामिल करना सीखें। लेख सरल और उन्नत दोनों समाधान प्रस्तुत करता है, जिससे सभी स्तरों के उपयोगकर्ता के लिए चुनौती को पूरा करना और सूक्ष्मता तक पहुंचना आसान हो जाता है।  ______  ## हैक द बॉक्स क्या है?  HackTheBox पैठ परीक्षण और साइबर सुरक्षा में आपके कौशल का परीक्षण और उन्नत करने के लिए एक ऑनलाइन मंच है।  ## आप हैक द बॉक्स से कैसे जुड़ते हैं ?  HackTheBox (HTB) पर एक खाता बनाने के लिए आपको आमंत्रण चुनौती को पूरा करना होगा, या खुद को हैक करना होगा। चिंता न करें, हालांकि यह कठिन नहीं है और यह लेख आपको चुनौती को पूरा करने में मदद करेगा।  सबसे पहले [HackTheBox Website](https://hackthebox.eu) पर जाएं और ज्वाइन बटन पर क्लिक करें।  आपको एक बॉक्स के साथ स्पष्ट रूप से एक आमंत्रण कोड के लिए प्रस्तुत किया जाएगा।  आप स्पष्ट रूप से एक टेक्स्ट बॉक्स देख सकते हैं जो हमसे आमंत्रण कोड मांग रहा है।  अपने ब्राउज़र के डेवलपर का पता लगाने के लिए या तो अपने आप पर क्लिक करें ***"F12"*** दबाएं या ***"Ctrl + Shift + I"*** मारें।  "तत्व" टैब पर, आपको एक स्क्रिप्ट मिलेगी **[inviteapi.min.js](https://www.hackthebox.eu/js/inviteapi.min.js)**।  जावास्क्रिप्ट और MakeInviteCode की समीक्षा करने पर, आपको पता चल जाएगा कि आमंत्रण कोड प्राप्त करने के लिए आपको **HTTP POST** को **/api/invite/generate** पर आमंत्रण की आवश्यकता है।  आप Base64 सीधे आमंत्रण कोड प्राप्त करने के लिए कुछ कार्य कर सकते हैं:  ### समाधान:  #### सरल: - **पाँच**: ```पॉवरशेल (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ``` - **Linux**: ``` बैश कर्ल -X पोस्ट "https://www.hackthebox.eu/api/invite/generate" ```  जो निम्नलिखित सामग्री का विवरण देगा: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} `` `  अगर आप सीधे आमंत्रण कोड को [base64decode.org](https://www.base64decode.org/) पर ले जाते हैं, तो आपको अपना आमंत्रण कोड मिल जाएगा!  #### उन्नत (आमंत्रण कोड तुरंत प्रिंट करें):  - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ``` - **लिंक्स**: ``बैश कर्ल-एक्स पोस्ट "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | बेस 64 -डी ```  - **ध्यान दें**: आपको [jq](https://stedolan.github.io/jq/download/) पैकेज इकट्ठा करना होगा।  ______  ### आमंत्रण कोड पूर्व:

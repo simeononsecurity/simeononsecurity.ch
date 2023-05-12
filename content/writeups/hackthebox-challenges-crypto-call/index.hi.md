@@ -1,54 +1,24 @@
 ---
-title: "HackTheBox - चुनौतियाँ - क्रिप्टो - कॉल"
+title: "HackTheBox - Challenges - Crypto - Call"
 date: 2020-10-07
 draft: false
-description: "क्रिप्टो को हल करने के लिए प्राइम नंबर सिफर का उपयोग करके DTMF टोन को डिक्रिप्ट करना सीखें - HackTheBox पर कॉल चुनौती।"
-tags: ["हैक द बॉक्स","क्रिप्टो चैलेंज","डीटीएमएफ टोन","प्राइम नंबर सिफर","डिक्रिप्शन","रहस्यों को सुलझाना","क्रिप्टोग्राफी","ऑडियो रूपांतरण","डायलएबीसी","डीकोड.एफआर","डब्ल्यूएवी","एमपी 3","आवृत्ति","गणितीय विशेषता","झंडा","धृष्टता","सोनिक विज़ुअलाइज़र","नंबर","स्वचालित टेलर मेनू","पे फोन"]
+description: "Learn how to decrypt DTMF tones using prime number cipher to solve the Crypto - Call challenge on HackTheBox."
+tags: ["HackTheBox", "Crypto Challenge", "DTMF Tones", "Prime Number Cipher", "Decryption", "Solving Puzzles", "Cryptography", "Audio Conversion", "DialABC", "Decode.fr", "WAV", "MP3", "Frequency", "Mathematical Trait", "Flag", "Audacity", "Sonic Visualizer", "Numbers", "Automated Teller Menus", "Pay Phone"]
 toc: true
 cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
-coverAlt: "एक हरे रंग की स्क्रीन वाला एक कार्टून फोन और उस पर एक पैडलॉक, सुरक्षा और एन्क्रिप्शन का प्रतीक है, पृष्ठभूमि में डीटीएमएफ टोन के साथ चित्रित किया गया है"
+coverAlt: "A cartoon phone with a green screen and a padlock on it, symbolizing security and encryption, with DTMF tones depicted in the backgroun"
 coverCaption: ""
 ---
-
-Sound.mp3 फ़ाइल में DTMF टोन को डिकोड करके हैकदबॉक्स पर क्रिप्टो - कॉल चुनौती को हल करें। फ़ाइल को .wav में कनवर्ट करें और सिफ़र पाठ प्राप्त करने के लिए DialABC का उपयोग करें। संख्याओं को अलग करें और ध्वज प्रकट करने के लिए Decode.fr पर अभाज्य संख्या सिफर का उपयोग करें। HackTheBox पर इस रोमांचक चुनौती में परीक्षण के लिए अपने कौशल को प्राइम नंबर सिफर में डालने के लिए तैयार हो जाइए।"
-
-______
-
-## प्रदान की गई फ़ाइलें:
-
-आपको एक फ़ाइल प्रदान की जाती है:
-- ध्वनि एमपी 3
-
-## के माध्यम से चलो:
-
-**sound.mp3** चलाने पर, आपको एक जानी-पहचानी आवाज़ सुनाई देगी। यदि आप उन ध्वनियों से परिचित नहीं हैं जो आप सुन रहे हैं **DTMF** (डुअल टोन मल्टी फ़्रीक्वेंसी) टोन सुन रहे हैं। वही स्वर जो आप पे फ़ोन पर डायल करते समय या स्वचालित टेलर मेनू के माध्यम से प्राप्त करते समय सुनते थे।
-
-प्रत्येक स्वर की एक विशिष्ट आवृत्ति होती है। आप मैन्युअल रूप से नंबर प्राप्त कर सकते हैं, लेकिन उसके लिए किसके पास समय है?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
-
-कनवर्ट की गई फ़ाइल को इसमें ले जाएं[DialABC](http://www.dialabc.com/sound/detect/index.html) और आपको निम्न आउटपुट मिलेगा:
 ```
 2331434783711923431767372331117714113
 ```
- 
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
-
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
-
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
 ```
 2331434783711923431767372331117714113
 ```
-
-______
-
-### Flag Example:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```
+ Sound.mp3 फ़ाइल में DTMF टोन को डिकोड करके हैकबॉक्स पर क्रिप्टो - कॉल प्रॉब्लम को हल करें। फ़ाइल को .wav में करें और सरल पाठ प्राप्त करने के लिए DialABC का उपयोग करें। चिह्नों को अलग करें और ध्वज प्रकट करने के लिए Decode.fr पर अभाज्य संख्या सिफर का उपयोग करें। HackTheBox पर इस रोमांचक चुनौती में पेश करने के लिए अपने कौशल को प्राइम नंबर सिफर में डालने के लिए तैयार हो जाइए।"  ______  ## प्रदान की गई फ़ाइलें:  आपको प्रदान किया गया एक नामांकन है: - ध्वनि एमपी 3  ## के माध्यम से नीचे:  **sound.mp3** चलने पर, आपको एक मशहूर-पहचानी आवाज़ सुनाई देगी। यदि आप संभावनाओं से परिचित नहीं हैं जो आप सुन रहे हैं **DTMF** (ड्युअल मल्टी टोन फ्रीक्वेंसी) स्वर सुन रहे हैं। वही स्वर जो आप फोन पर डायल करते समय या स्विच्ड टेलर के माध्यम से कई बार प्राप्त करते थे।  प्रत्येक स्वर की एक विशिष्ट क्रिया होती है। आप छत के रूप से नंबर प्राप्त कर सकते हैं, लेकिन उसके लिए पास टाइम है? [DialABC](http://www.dialabc.com/sound/detect/index.html) के पास इसके लिए एक बेहतरीन टूल है, लेकिन यह एमपी3 अनिवार्य को सपोर्ट नहीं करता। सबसे पहले, आप इसे [टूल](https://online-audio-converter.com/) से .wav में लाभ प्राप्त करेंगे  प्रमाण की गई फ़ाइल को [डायलबीसी](http://www.dialabc.com/sound/detect/index.html) पर ले जायें और आपको एक नया ब्लूम मिलेगा:   ध्यान दें कि यदि आप ऑडियो फ़ाइल को ध्यान में रखते हैं या इसे ** ऑडेसिटी** या ** सोनिक विज़ुअल मेकर ** में झाड़ते हैं, तो एक अपवाद के साथ, नंबर दो के टैग में जुड़ते हैं। यदि आप संख्या को अलग करते हैं तो आपको निम्नलिखित मिलते हैं:  इस तरह आप निकल सकते हैं और सोच सकते हैं कि यह जहर हो सकता है। यह नहीं है। पॉइंट पर दें विशेष ध्यान। विश्वसनीयता का प्रत्येक समूह किस गुण को साझा करता है?... वे सभी अज्य संख्याएँ हैं। जो आपको कम ज्ञात **अभ्य संख्या सिफर** को अवज्ञा करने के लिए देखें।  हम इस चुनौती को पूरा करने के लिए [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) का इस्तेमाल करेंगे। इससे पहले कि हम इसे अलग कर दें, सिफर टेक्स्ट प्रस्ताव दें और आपको जावास्क्रिप्ट मिल जाएगा।  ______  ### ध्वज उदाहरण:
