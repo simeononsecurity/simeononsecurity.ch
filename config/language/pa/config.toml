@@ -2,6 +2,7 @@
 config = "..\\..\\_default\\config.toml"
 
 baseurl = "https://pa.simeononsecurity.ch"
+languageCode = "pa"
 defaultContentLanguage = "pa"
 disableLanguages = [
     'fr',
