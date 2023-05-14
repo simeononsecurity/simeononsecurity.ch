@@ -12,7 +12,7 @@ enableGitInfo = true
 refLinksNotFoundURL = "simeononsecurity.ch"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
-defaultContentLanguage = "en"
+#defaultContentLanguage = "en"
 
 [Author]
 name = "SimeonOnSecurity"
