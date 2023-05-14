@@ -42,7 +42,7 @@ lastModDisplay = "Последнее обновление:"
 
 [languages.ru.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "/"
+logoHomeLink = "https://ru.simeononsecurity.ch"
 
 [languages.ru.menu]
 [[languages.ru.menu.main]]

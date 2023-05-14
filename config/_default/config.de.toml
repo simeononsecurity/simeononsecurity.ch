@@ -43,7 +43,7 @@ lastModDisplay = "Geändert:"
 
 [languages.de.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "/"
+logoHomeLink = "https://de.simeononsecurity.ch"
 
 [languages.de.menu]
 [[languages.de.menu.main]]

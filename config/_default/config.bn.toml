@@ -42,7 +42,7 @@ lastModDisplay = "সর্বশেষ পরিবর্তন:"
 
 [languages.bn.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "/"
+logoHomeLink = "https://bn.simeononsecurity.ch"
 
 [languages.bn.menu]
 [[languages.bn.menu.main]]

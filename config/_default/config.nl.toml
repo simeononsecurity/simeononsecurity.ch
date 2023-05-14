@@ -42,7 +42,7 @@ lastModDisplay = "Laatst bijgewerkt:"
 
 [languages.nl.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "/"
+logoHomeLink = "https://nl.simeononsecurity.ch"
 
 [languages.nl.menu]
 [[languages.nl.menu.main]]

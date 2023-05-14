@@ -45,7 +45,7 @@ lastModDisplay = "Modified:"
 
 [languages.en.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "/"
+logoHomeLink = "https://en.simeononsecurity.ch"
 # or
 #
 # path = "/img/your-example-logo.svg"
