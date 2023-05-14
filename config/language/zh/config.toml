@@ -1,0 +1,22 @@
+# Include the base.toml file
+config = "..\\..\\_default\\config.toml"
+
+baseurl = "https://zh.simeononsecurity.ch"
+defaultContentLanguage = "zh"
+disableLanguages = [
+    'fr',
+    'en',
+    'es',
+    'de',
+    'hi',
+    'ar',
+    'bn',
+    'ca',
+    'it',
+    'ja',
+    'nl',
+    'ro',
+    'pa',
+    'pt',
+    'ru',
+]
