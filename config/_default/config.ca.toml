@@ -17,3 +17,51 @@ disableLanguages = [
     'pt',
     'ru',
 ]
+[languages]
+[languages.ca]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
+languageName = "Català"
+# languageCode = "ca"
+weight = 8
+title = "SimeonOnSecurity"
+subtitle = "Seguretat cibernètica, automatització i criptografia"
+description = "Mantingueu-vos actualitzats en el desenvolupament de la seguretat cibernètica. Obteniu les últimes notícies i les millors pràctiques sobre privacitat, seguretat i tecnologia a SimeonOnSecurity.ch. Un recurs valuós per a tothom."
+keywords = ""
+copyright = "SimeonOnSecurity"
+menuMore = "Més"
+writtenBy = "Escrit per"
+readMore = "Llegeix més"
+readOtherPosts = "Llegeix altres publicacions"
+newerPosts = "Publicacions més noves"
+olderPosts = "Publicacions més antigues"
+minuteReadingTime = "temps de lectura en minuts"
+dateFormatSingle = "02/01/2006"
+dateFormatList = "02/01/2006"
+enableRobotsTXT = "true"
+lastModDisplay = "Darrera actualització:"
+
+[languages.ca.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.ca.menu]
+[[languages.ca.menu.main]]
+identifier = "Articles"
+name = "Articles"
+url = "/articles"
+[[languages.ca.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.ca.menu.main]]
+identifier = "TIL"
+name = "Avui he Après"
+url = "/til"
+[[languages.ca.menu.main]]
+identifier = "Escriptura"
+name = "Escriptura"
+url = "/writeups"
+[[languages.ca.menu.main]]
+identifier = "Recomanacions"
+name = "Recomanacions"
+url = "/recommendations"

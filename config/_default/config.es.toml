@@ -17,3 +17,52 @@ disableLanguages = [
     'pt',
     'ru',
 ]
+[languages]
+[languages.es]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }]
+languageName = "Español"
+# languageCode = "es"
+weight = 2
+title = "simeononsecurity"
+subtitle = "Ciberseguridad, Automatización, Cripto"
+description = "Manténgase a la vanguardia de la ciberseguridad. Descubra las últimas tendencias y las mejores prácticas en privacidad, seguridad y tecnología en SimeonOnSecurity.ch. Un recurso esencial para todos."
+keywords = "seguridad, privacidad, automatización, ciberseguridad, tecnología de la información, criptomonedas, blog, endurecimiento, cumplimiento, programación, devops, PowerShell, C sharp, Ansible, contenedores Docker, Windows, DoD y DISA STIGs, laboratorios en casa, soluciones empresariales, Python, Windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "Más"
+writtenBy = "Escrito por"
+readMore = "Leer más"
+readOtherPosts = "Leer otros artículos"
+newerPosts = "Artículos más nuevos"
+olderPosts = "Artículos más antiguos"
+minuteReadingTime = "min de lectura"
+dateFormatSingle = "2006-01-02"
+dateFormatList = "2006-01-02"
+enableRobotsTXT = "true"
+# leave empty to disable, enter display text to enable
+lastModDisplay = "Modificado:"
+
+[languages.es.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.es.menu]
+[[languages.es.menu.main]]
+identifier = "Artículos"
+name = "Artículos"
+url = "/articles"
+[[languages.es.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.es.menu.main]]
+identifier = "TIL"
+name = "Hoy Aprendí"
+url = "/til"
+[[languages.es.menu.main]]
+identifier = "Writeups"
+name = "Writeups"
+url = "/writeups"
+[[languages.es.menu.main]]
+identifier = "Recomendaciones"
+name = "Recomendaciones"
+url = "/recommendations"
