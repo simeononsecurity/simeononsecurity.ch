@@ -17,6 +17,8 @@ author = "SimeonOnSecurity"
 name = "SimeonOnSecurity"
 
 [params]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
 enableMissingTranslationPlaceholders = true
 
 #Google Analytics Tag
