@@ -11,7 +11,7 @@ enableGitInfo = true
 refLinksNotFoundURL = "simeononsecurity.ch"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
-#defaultContentLanguage = "en"
+defaultContentLanguage = "${HUGO_DEFAULT_CONTENT_LANGUAGE}"
 
 [Author]
 name = "SimeonOnSecurity"
