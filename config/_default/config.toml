@@ -154,7 +154,7 @@ lastModDisplay = "تم التعديل في:"
 
 [languages.ar.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://ar.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.ar.menu]
 [[languages.ar.menu.main]]
@@ -201,7 +201,7 @@ lastModDisplay = "সর্বশেষ পরিবর্তন:"
 
 [languages.bn.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://bn.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.bn.menu]
 [[languages.bn.menu.main]]
@@ -249,7 +249,7 @@ lastModDisplay = "Modifié :"
 
 [languages.fr.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://fr.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.fr.menu]
 [[languages.fr.menu.main]]
@@ -297,7 +297,7 @@ lastModDisplay = "Geändert:"
 
 [languages.de.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://de.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.de.menu]
 [[languages.de.menu.main]]
@@ -346,7 +346,7 @@ lastModDisplay = "Modified:"
 
 [languages.en.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://en.simeononsecurity.ch"
+logoHomeLink = "/"
 # or
 #
 # path = "/img/your-example-logo.svg"
@@ -414,7 +414,7 @@ lastModDisplay = "Modificado:"
 
 [languages.es.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://es.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.es.menu]
 [[languages.es.menu.main]]
@@ -462,7 +462,7 @@ lastModDisplay = "संशोधित:"
 
 [languages.hi.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://hi.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.hi.menu]
 [[languages.hi.menu.main]]
@@ -509,7 +509,7 @@ lastModDisplay = "Ultimo aggiornamento:"
 
 [languages.it.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://it.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.it.menu]
 [[languages.it.menu.main]]
@@ -556,7 +556,7 @@ lastModDisplay = "最終更新日:"
 
 [languages.ja.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://ja.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.ja.menu]
 [[languages.ja.menu.main]]
@@ -603,7 +603,7 @@ lastModDisplay = "Laatst bijgewerkt:"
 
 [languages.nl.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://nl.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.nl.menu]
 [[languages.nl.menu.main]]
@@ -650,7 +650,7 @@ lastModDisplay = "ਅੰਤਿਮ ਅਪਡੇਟ:"
 
 [languages.pa.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://pa.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.pa.menu]
 [[languages.pa.menu.main]]
@@ -697,7 +697,7 @@ lastModDisplay = "Última atualização:"
 
 [languages.pt.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://pt.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.pt.menu]
 [[languages.pt.menu.main]]
@@ -744,7 +744,7 @@ lastModDisplay = "Ultima actualizare:"
 
 [languages.ro.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://ro.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.ro.menu]
 [[languages.ro.menu.main]]
@@ -791,7 +791,7 @@ lastModDisplay = "Последнее обновление:"
 
 [languages.ru.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://ru.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.ru.menu]
 [[languages.ru.menu.main]]
@@ -838,7 +838,7 @@ lastModDisplay = "最后更新时间："
 
 [languages.zh.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://zh.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.zh.menu]
 [[languages.zh.menu.main]]
@@ -885,7 +885,7 @@ lastModDisplay = "Darrera actualització:"
 
 [languages.ca.params.logo]
 logoText = "simeononsecurity"
-logoHomeLink = "https://ca.simeononsecurity.ch"
+logoHomeLink = "/"
 
 [languages.ca.menu]
 [[languages.ca.menu.main]]
