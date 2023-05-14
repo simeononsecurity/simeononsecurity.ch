@@ -16,8 +16,6 @@ author = "SimeonOnSecurity"
 name = "SimeonOnSecurity"
 
 [params]
-logoText = "simeononsecurity"
-logoHomeLink = "/"
 enableMissingTranslationPlaceholders = true
 
 #Google Analytics Tag
@@ -81,6 +79,11 @@ publisherName = "SimeonOnSecurity"
 publisherLogo = "/img/banner.png"
 publisherLogoWidth = 460
 publisherLogoHeight = 460
+
+[logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
 
 [sitemap]
 changefreq = "daily"
