@@ -127,7 +127,7 @@ baseName = "feed"
 
 [languages]
 [languages.en]
-sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }, ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }]
 languageName = 'English'
 # languageCode = "en"
 weight = 1
@@ -197,7 +197,7 @@ name = "About"
 url = "/about"
 
 [languages.es]
-sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }, ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }]
 languageName = "Español"
 languageCode = "es"
 weight = 2
@@ -246,7 +246,7 @@ name = "Recomendaciones"
 url = "/recommendations"
 
 [languages.fr]
-sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }, ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
 languageName = 'Français'
 languageCode = "fr"
 weight = 3
@@ -295,7 +295,7 @@ name = "Recommandations"
 url = "/recommendations"
 
 [languages.hi]
-sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }, ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }]
 languageName = 'हिन्दी'
 languageCode = "hi"
 weight = 4
@@ -344,7 +344,7 @@ name = "सिफारिशें"
 url = "/recommendations"
 
 [languages.ar]
-sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }, ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }]
 languageName = 'العربية'
 languageCode = "ar"
 weight = 5
@@ -393,7 +393,7 @@ name = "التوصيات"
 url = "/recommendations"
 
 [languages.de]
-sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }, ]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }]
 languageName = 'Deutsch'
 languageCode = "de"
 weight = 6
@@ -439,4 +439,439 @@ url = "/writeups"
 [[languages.de.menu.main]]
 identifier = "Empfehlungen"
 name = "Empfehlungen"
+url = "/recommendations"
+
+[languages.bn]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.bn.xml" }]
+languageName = "বাংলা"
+languageCode = "bn"
+weight = 7
+title = "সিমিয়ন অন সিকিউরিটি"
+subtitle = "সাইবার নিরাপত্তা, অটোমেশন, ক্রিপ্টো"
+description = "সাইবার নিরাপত্তার উন্নয়নে আপডেটে থাকুন। প্রাইভেসি, নিরাপত্তা এবং প্রযুক্তিতে সর্বশেষ প্রবন্ধ এবং সেরা প্র্যাকটিস সম্পর্কে জানুন SimeonOnSecurity.ch এ। সকলের জন্য একটি গুরুত্বপূর্ণ সম্পদ।"
+keywords = "নিরাপত্তা, প্রাইভেসি, অটোমেশন, সাইবার নিরাপত্তা, তথ্য প্রযুক্তি, ক্রিপ্টোকারেন্সি, ব্লগ, কঠোরতার উন্নয়ন, সম্পূর্ণতা, প্রোগ্রামিং, ডেভঅপস, পাওয়ারশেল, সি শার্প, এ্যানসিবল, ডকার কন্টেইনার, উইন্ডোজ, ডিওডি এবং ডিসা এসটিআইজি, বাড়িতে ল্যাব, কর্নেল সমস্যা সমাধান, পাইথন, উইন্ডোজ 10"
+copyright = "SimeonOnSecurity"
+menuMore = "আরও"
+writtenBy = "লেখা"
+readMore = "আরও পড়ুন"
+readOtherPosts = "অন্যান্য পোস্ট পড়ুন"
+newerPosts = "নতুন পোস্ট"
+olderPosts = "পুরানো পোস্ট"
+minuteReadingTime = "মিনিটের পঠন সময়"
+dateFormatSingle = "2006-01-02"
+dateFormatList = "2006-01-02"
+enableRobotsTXT = "true"
+lastModDisplay = "সর্বশেষ পরিবর্তন:"
+
+[languages.bn.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.bn.menu]
+[[languages.bn.menu.main]]
+identifier = "পোস্ট"
+name = "পোস্ট"
+url = "/articles"
+[[languages.bn.menu.main]]
+identifier = "GitHub"
+name = "গিটহাব"
+url = "/github"
+[[languages.bn.menu.main]]
+identifier = "টিআইএল"
+name = "আজ শিখলাম"
+url = "/til"
+[[languages.bn.menu.main]]
+identifier = "লিখন"
+name = "লিখন"
+url = "/writeups"
+[[languages.bn.menu.main]]
+identifier = "সুপারিশ"
+name = "সুপারিশ"
+url = "/recommendations"
+
+[languages.ca]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
+languageName = "Català"
+languageCode = "ca"
+weight = 8
+title = "SimeonOnSecurity"
+subtitle = "Seguretat cibernètica, automatització i criptografia"
+description = "Mantingueu-vos actualitzats en el desenvolupament de la seguretat cibernètica. Obteniu les últimes notícies i les millors pràctiques sobre privacitat, seguretat i tecnologia a SimeonOnSecurity.ch. Un recurs valuós per a tothom."
+keywords = ""
+copyright = "SimeonOnSecurity"
+menuMore = "Més"
+writtenBy = "Escrit per"
+readMore = "Llegeix més"
+readOtherPosts = "Llegeix altres publicacions"
+newerPosts = "Publicacions més noves"
+olderPosts = "Publicacions més antigues"
+minuteReadingTime = "temps de lectura en minuts"
+dateFormatSingle = "02/01/2006"
+dateFormatList = "02/01/2006"
+enableRobotsTXT = "true"
+lastModDisplay = "Darrera actualització:"
+
+[languages.ca.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.ca.menu]
+[[languages.ca.menu.main]]
+identifier = "Articles"
+name = "Articles"
+url = "/articles"
+[[languages.ca.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.ca.menu.main]]
+identifier = "TIL"
+name = "Avui he Après"
+url = "/til"
+[[languages.ca.menu.main]]
+identifier = "Escriptura"
+name = "Escriptura"
+url = "/writeups"
+[[languages.ca.menu.main]]
+identifier = "Recomanacions"
+name = "Recomanacions"
+url = "/recommendations"
+
+
+
+[languages.ja]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ja.xml" }]
+languageName = "日本語"
+languageCode = "ja"
+weight = 9
+title = "SimeonOnSecurity"
+subtitle = "サイバーセキュリティ、自動化、暗号化について"
+description = "サイバーセキュリティの最新情報やプライバシー、セキュリティ、技術に関するベストプラクティスをSimeonOnSecurity.chで入手してください。誰でも価値のあるリソースです。"
+keywords = "セキュリティ、プライバシー、自動化、サイバーセキュリティ、情報技術、暗号通貨、ブログ、持続的改善、プログラミング、DevOps、PowerShell、C#、Ansible、Dockerコンテナ、Windows、DoDとSST、自宅のラボ、カーネルトラブルシューティング、Python、Windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "もっと"
+writtenBy = "著者:"
+readMore = "続きを読む"
+readOtherPosts = "他の投稿を読む"
+newerPosts = "新しい投稿"
+olderPosts = "古い投稿"
+minuteReadingTime = "読了時間"
+dateFormatSingle = "2006年1月2日"
+dateFormatList = "2006年1月2日"
+enableRobotsTXT = "true"
+lastModDisplay = "最終更新日:"
+
+[languages.ja.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.ja.menu]
+[[languages.ja.menu.main]]
+identifier = "Articles"
+name = "記事"
+url = "/articles"
+[[languages.ja.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.ja.menu.main]]
+identifier = "TIL"
+name = "Today I Learned"
+url = "/til"
+[[languages.ja.menu.main]]
+identifier = "Writing"
+name = "執筆"
+url = "/writeups"
+[[languages.ja.menu.main]]
+identifier = "Recommendations"
+name = "おすすめ"
+url = "/recommendations"
+
+[languages.nl]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.nl.xml" }]
+languageName = "Nederlands"
+languageCode = "nl"
+weight = 10
+title = "SimeonOnSecurity"
+subtitle = "Cybersecurity, automatisering en cryptografie"
+description = "Blijf op de hoogte van de ontwikkelingen op het gebied van cybersecurity. Ontvang de laatste nieuwtjes en de beste praktijken op het gebied van privacy, beveiliging en technologie op SimeonOnSecurity.ch. Een waardevolle bron voor iedereen."
+keywords = "beveiliging, privacy, automatisering, cybersecurity, informatie technologie, cryptocurrency, blog, continuous improvement, programming, devops, powershell, c sharp, ansible, docker containers, windows, dod en sst, home lab, kern probleemoplossing, python, windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "Meer"
+writtenBy = "Geschreven door"
+readMore = "Lees meer"
+readOtherPosts = "Lees andere berichten"
+newerPosts = "Nieuwere berichten"
+olderPosts = "Oudere berichten"
+minuteReadingTime = "minuten leestijd"
+dateFormatSingle = "02-01-2006"
+dateFormatList = "02-01-2006"
+enableRobotsTXT = "true"
+lastModDisplay = "Laatst bijgewerkt:"
+
+[languages.nl.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.nl.menu]
+[[languages.nl.menu.main]]
+identifier = "Artikelen"
+name = "Artikelen"
+url = "/articles"
+[[languages.nl.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.nl.menu.main]]
+identifier = "TIL"
+name = "Vandaag geleerd"
+url = "/til"
+[[languages.nl.menu.main]]
+identifier = "Schrijven"
+name = "Schrijven"
+url = "/writeups"
+[[languages.nl.menu.main]]
+identifier = "Aanbevelingen"
+name = "Aanbevelingen"
+url = "/recommendations"
+
+[languages.pa]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
+languageName = "ਪੰਜਾਬੀ"
+languageCode = "pa"
+weight = 11
+title = "SimeonOnSecurity"
+subtitle = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਕ੍ਰਿਪਟੋਗਰਾਫੀ"
+description = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਿਕਾਸ ਦੇ ਤਜਰਬੇ ਨਾਲ ਅੱਪਡੇਟ ਰਹੋ। ਸਾਇਬਰ ਪਰਦੇਦਾਰੀ، ਸੁਰੱਖਿਆ ਅਤੇ ਟੈਕਨਾਲੋਜੀ ਤੇ ਨਵੀਨਤਮ ਖ਼ਬਰਾਂ ਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਅਮਲ ਪ੍ਰਾਪਤ ਕਰੋ SimeonOnSecurity.ch ਤੇ। ਸਾਰੇ ਲਈ ਇੱਕ ਮੂਲਯੋਗ ਸਰੋਤ।"
+keywords = "ਸੁਰੱਖਿਆ, ਨਿੱਜਤਾ, ਸਵੈ-ਚਾਲਿਤਾ, ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਜਾਣਕਾਰੀ ਟੈਕਨਾਲੋਜੀ, ਕ੍ਰਿਪਟੋਕਰੰਸੀ, ਬਲਾਗ, ਲਗਾਤਾਰ ਸੁਧਾਰ, ਪ੍ਰੋਗਰਾਮਿੰਗ, ਡੇਵ-ਆਪਸ, ਪਾਵਰਸ਼ੈਲ, ਸੀ ਸ਼ਾਰਪ, ਐਂਸੀਬਲ, ਡੌਕਰ ਕੰਟੇਨਰ, ਵਿੰਡੋਜ, ਡੌਡ ਅਤੇ ਐਸਐਸਟੀ, ਘਰੇਲੂ ਲੈਬ, ਕਰਨ ਸਮੱਸਿਆ ਦਾ ਹੱਲ, ਪਾਇਥਨ, ਵਿੰਡੋਜ 10"
+copyright = "ਸਿਮੀਅਨ ਆਨ ਸਕਿਊਰਿਟੀ"
+menuMore = "ਹੋਰ"
+writtenBy = "ਲੇਖਕ"
+readMore = "ਹੋਰ ਪੜ੍ਹੋ"
+readOtherPosts = "ਹੋਰ ਪੋਸਟ ਪੜ੍ਹੋ"
+newerPosts = "ਨਵੇਂ ਪੋਸਟ"
+olderPosts = "ਪੁਰਾਣੀ ਪੋਸਟ"
+minuteReadingTime = "ਮਿੰਟਾਂ ਵਿੱਚ ਪੜ੍ਹਨ ਦਾ ਸਮਾਂ"
+dateFormatSingle = "02-01-2006"
+dateFormatList = "02-01-2006"
+enableRobotsTXT = "ਸਹਿਿਤ ਰੋਬੋਟਾਂ TXT"
+lastModDisplay = "ਅੰਤਿਮ ਅਪਡੇਟ:"
+
+[languages.pa.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.pa.menu]
+[[languages.pa.menu.main]]
+identifier = "Articles"
+name = "ਲੇਖ"
+url = "/articles"
+[[languages.pa.menu.main]]
+identifier = "GitHub"
+name = "ਜੀਟਹਬ"
+url = "/github"
+[[languages.pa.menu.main]]
+identifier = "TIL"
+name = "ਅੱਜ ਸਿੱਖਿਆ"
+url = "/til"
+[[languages.pa.menu.main]]
+identifier = "Writing"
+name = "ਲਿਖਣਾ"
+url = "/writeups"
+[[languages.pa.menu.main]]
+identifier = "ਸਿਫਾਰਿਸ਼ਾਂ"
+name = "ਸਿਫਾਰਿਸ਼ਾਂ"
+url = "/recommendations"
+
+[languages.pt]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pt.xml" }]
+languageName = "Português"
+languageCode = "pt"
+weight = 12
+title = "SimeonOnSecurity"
+subtitle = "Cibersegurança, automação e criptografia"
+description = "Mantenha-se atualizado sobre o desenvolvimento de segurança cibernética. Obtenha as últimas notícias e as melhores práticas sobre privacidade, segurança e tecnologia no SimeonOnSecurity.ch. Um recurso valioso para todos."
+keywords = "segurança, privacidade, automação, cibersegurança, tecnologia da informação, criptomoedas, blog, melhoria contínua, programação, devops, powershell, c sharp, ansible, containers docker, windows, dod e sst, laboratório doméstico, solução de problemas de kernel, python, windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "Mais"
+writtenBy = "Escrito por"
+readMore = "Leia mais"
+readOtherPosts = "Leia outros posts"
+newerPosts = "Posts mais novos"
+olderPosts = "Posts mais antigos"
+minuteReadingTime = "minutos de leitura"
+dateFormatSingle = "02/01/2006"
+dateFormatList = "02/01/2006"
+enableRobotsTXT = "true"
+lastModDisplay = "Última atualização:"
+
+[languages.pt.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.pt.menu]
+[[languages.pt.menu.main]]
+identifier = "Artigos"
+name = "Artigos"
+url = "/articles"
+[[languages.pt.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.pt.menu.main]]
+identifier = "TIL"
+name = "Hoje aprendi"
+url = "/til"
+[[languages.pt.menu.main]]
+identifier = "Escrita"
+name = "Escrita"
+url = "/writeups"
+[[languages.pt.menu.main]]
+identifier = "Recomendações"
+name = "Recomendações"
+url = "/recomendations"
+
+[languages.ro]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ro.xml" }]
+languageName = "Română"
+languageCode = "ro"
+weight = 10
+title = "SimeonOnSecurity"
+subtitle = "Securitate cibernetică, automatizare și criptografie"
+description = "Mențineți-vă la curent cu evoluțiile în domeniul securității informatice. Obțineți cele mai recente știri și cele mai bune practici în ceea ce privește confidențialitatea, securitatea și tehnologia pe SimeonOnSecurity.com. O resursă valoroasă pentru toți."
+keywords = "securitate, confidențialitate, automatizare, securitate informatică, tehnologia informației, criptomonede, blog, îmbunătățire continuă, programare, devops, powershell, c sharp, ansible, containere docker, windows, dod și sst, laborator acasă, depanare kernel, python, windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "Mai mult"
+writtenBy = "Scris de"
+readMore = "Citește mai mult"
+readOtherPosts = "Citește alte articole"
+newerPosts = "Articole mai noi"
+olderPosts = "Articole mai vechi"
+minuteReadingTime = "timp de citire în minute"
+dateFormatSingle = "02.01.2006"
+dateFormatList = "02.01.2006"
+enableRobotsTXT = "true"
+lastModDisplay = "Ultima actualizare:"
+
+[languages.ro.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.ro.menu]
+[[languages.ro.menu.main]]
+identifier = "Articole"
+name = "Articole"
+url = "/articles"
+[[languages.ro.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.ro.menu.main]]
+identifier = "TIL"
+name = "Astăzi am învățat"
+url = "/til"
+[[languages.ro.menu.main]]
+identifier = "Scriere"
+name = "Scriere"
+url = "/writeups"
+[[languages.ro.menu.main]]
+identifier = "Recomandări"
+name = "Recomandări"
+url = "/recomendations"
+
+[languages.ru]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ru.xml" }]
+languageName = "Русский"
+languageCode = "ru"
+weight = 20
+title = "SimeonOnSecurity"
+subtitle = "Кибербезопасность, автоматизация и шифрование"
+description = "Будьте в курсе последних разработок в области кибербезопасности. Получайте последние новости и лучшие практики в области конфиденциальности, безопасности и технологий на сайте SimeonOnSecurity.ch. Ценный ресурс для всех."
+keywords = "безопасность, конфиденциальность, автоматизация, кибербезопасность, информационные технологии, криптовалюты, блог, непрерывное совершенствование, программирование, DevOps, PowerShell, C#, Ansible, контейнеры Docker, Windows, DoD и SST, домашняя лаборатория, решение проблем ядра, Python, Windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "Еще"
+writtenBy = "Написано"
+readMore = "Читать далее"
+readOtherPosts = "Читать другие статьи"
+newerPosts = "Новые статьи"
+olderPosts = "Старые статьи"
+minuteReadingTime = "минут на чтение"
+dateFormatSingle = "02.01.2006"
+dateFormatList = "02.01.2006"
+enableRobotsTXT = "true"
+lastModDisplay = "Последнее обновление:"
+
+[languages.ru.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.ru.menu]
+[[languages.ru.menu.main]]
+identifier = "Статьи"
+name = "Статьи"
+url = "/articles"
+[[languages.ru.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.ru.menu.main]]
+identifier = "TIL"
+name = "Сегодня я узнал"
+url = "/til"
+[[languages.ru.menu.main]]
+identifier = "Письмо"
+name = "Письмо"
+url = "/writeups"
+[[languages.ru.menu.main]]
+identifier = "Рекомендации"
+name = "Рекомендации"
+url = "/recommendations"
+
+
+[languages.zh]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.zh.xml" }]
+languageName = "中文"
+languageCode = "zh"
+weight = 10
+title = "SimeonOnSecurity"
+subtitle = "网络安全、自动化和加密"
+description = "保持对网络安全的发展与更新。在SimeonOnSecurity上获取有关隐私、安全和技术的最新新闻和最佳实践。这是一个对所有人都有价值的资源。"
+keywords = "安全，隐私，自动化，网络安全，信息技术，加密货币，博客，持续改进，编程，DevOps，PowerShell，C#，Ansible，Docker容器，Windows，DoD和SST，家庭实验室，核心问题解决，Python，Windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "更多"
+writtenBy = "作者"
+readMore = "阅读更多"
+readOtherPosts = "阅读其他文章"
+newerPosts = "新一篇文章"
+olderPosts = "旧一篇文章"
+minuteReadingTime = "分钟阅读时间"
+dateFormatSingle = "2006年01月02日"
+dateFormatList = "2006年01月02日"
+enableRobotsTXT = "true"
+lastModDisplay = "最后更新时间："
+
+[languages.zh.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.zh.menu]
+[[languages.zh.menu.main]]
+identifier = "文章"
+name = "文章"
+url = "/articles"
+[[languages.zh.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.zh.menu.main]]
+identifier = "TIL"
+name = "今日所学"
+url = "/til"
+[[languages.zh.menu.main]]
+identifier = "写作"
+name = "写作"
+url = "/writeups"
+[[languages.zh.menu.main]]
+identifier = "推荐"
+name = "推荐"
 url = "/recommendations"
