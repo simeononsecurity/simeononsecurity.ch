@@ -4,7 +4,7 @@ date: 2023-02-02
 toc: true
 draft: false
 description: "Explore the power of PowerShell in enhancing cybersecurity operations and achieving compliance with industry standards through automation and streamlined processes."
-tags: ["PowerShell", "Cybersecurity", "Operations", "Compliance", "Automation", "STIG/SRG Requirements", "NSACyber Guidance", "Windows Systems", "Blue-Team Defense", "Scripts", "Tools", "C Sharp projects"]
+tags: ["PowerShell", "Cybersecurity", "Operations", "Compliance", "Automation", "STIG SRG Requirements", "NSACyber Guidance", "Windows Systems", "Blue-Team Defense", "Scripts", "Tools", "C Sharp projects"]
 cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
 coverAlt: "A person typing on a keyboard with a background of computer servers and network cables, representing the use of PowerShell for cybersecurity operations and compliance."
 coverCaption: ""

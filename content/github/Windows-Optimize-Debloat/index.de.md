@@ -1,18 +1,86 @@
 ---
-title: "Optimize Your Windows PC with Windows-Optimize-Debloat"
+title: "Optimieren Sie Ihren Windows-PC mit Windows-Optimize-Debloat"
 date: 2020-12-29
 toc: true
 draft: false
-description: "Improve the performance and privacy of your Windows operating system with Windows-Optimize-Debloat, a comprehensive script that helps remove bloatware and optimize system settings."
-tags: ["Windows-Optimize-Debloat", "Windows Optimization", "Debloating Windows", "Speed up Windows", "Optimize Windows Performance", "Windows Performance Boost", "Windows System Optimization", "Microsoft", "Privacy", "Bloatware Removal", "Windows 10", "Windows 11", "Windows Defender", "Windows Update", "Cortona", "Group Policy Objects", "Telemetry", "Windows Store", "Windows 10 Professional", "Windows 10 Home"]
+description: "Verbessern Sie die Leistung und den Datenschutz Ihres Windows-Betriebssystems mit Windows-Optimize-Debloat, einem umfassenden Skript, das dabei hilft, Bloatware zu entfernen und Systemeinstellungen zu optimieren."
+tags: ["Windows-Optimize-Debloat", "Windows-Optimierung", "Windows entblößen", "Beschleunigen Sie Windows", "Optimieren Sie die Windows-Leistung", "Windows-Leistungssteigerung", "Windows-Systemoptimierung", "Microsoft", "Privatsphäre", "Bloatware-Entfernung", "Windows 10", "Windows 11", "Windows Defender", "Windows Update", "Cortona", "Gruppenrichtlinienobjekte", "Telemetrie", "Windows Store", "Windows 10 Professional", "Windows 10 Home"]
 ---
+
+
+[![Test script against windows docker container](https://github.com/simeononsecurity/Windows-Optimize-Debloat/actions/workflows/test-with-docker.yml/badge.svg)](https://github.com/simeononsecurity/Windows-Optimize-Debloat/actions/workflows/test-with-docker.yml)
+
+*Für diejenigen, die ihre Windows 10- und 11-Installationen minimieren möchten.*
+
+**Hinweis:** Dieses Skript sollte auf den meisten, wenn nicht allen, Systemen ohne Probleme funktionieren. Während[@SimeonOnSecurity](https://github.com/simeononsecurity) creates, reviews, and tests each repo intensivly, we can not test every possible configuration nor does [@SimeonOnSecurity](https://github.com/simeononsecurity) take any responsibility for breaking your system. If something goes wrong, be prepared to submit an [issue](../../issues) Führen Sie dieses Skript nicht aus, wenn Sie nicht verstehen, was es tut.
+
+## Einführung:
+Windows 10 und 11 sind standardmäßig invasive und unsichere Betriebssysteme.
+Organisationen mögen[Microsoft](https://microsoft.com), [PrivacyTools.io](https://PrivacyTools.io) und andere haben Konfigurationsänderungen empfohlen, um das Betriebssystem Windows 10 zu optimieren und zu entlasten. Zu diesen Änderungen gehören unter anderem das Blockieren von Telemetriedaten, das Löschen von Protokollen und das Entfernen von Bloatware. Dieses Skript zielt darauf ab, die von diesen Organisationen empfohlenen Konfigurationen zu automatisieren.
+
+## Anmerkungen:
+– Dieses Skript ist hauptsächlich für den Einsatz in Umgebungen zur **persönlichen Nutzung** konzipiert.
+– Dieses Skript ist so konzipiert, dass die Optimierungen im Gegensatz zu einigen anderen Skripten die Kernfunktionen von Windows nicht beeinträchtigen.
+ – Funktionen wie Windows Update, Windows Defender, der Windows Store und Cortona wurden eingeschränkt, befinden sich jedoch nicht in einem gestörten Zustand wie die meisten anderen Windows 10-Datenschutzskripte.
+- Wenn Sie ein minimiertes Skript suchen, das nur für kommerzielle Umgebungen gedacht ist, sehen Sie sich bitte dieses an[GitHub Repository](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)
+
+## Anforderungen:
+- [X] Windows 10/11 Enterprise, Windows 10 Professional oder Windows 10 Home
+  - Windows Home erlaubt keine GPO-Konfigurationen.
+    - Das Skript funktioniert weiterhin, es werden jedoch nicht alle Einstellungen angewendet.
+  - Windows „N“-Editionen werden nicht getestet.
+  - Führen Sie das aus[Windows 10 Upgrade Assistant](https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant) um die neueste Hauptversion zu aktualisieren und zu überprüfen.
+
+## Microsoft-Konto oder Xbox-Dienste reparieren:
+Dies liegt daran, dass wir die Anmeldung bei Microsoft-Konten blockieren. Die Telemetrie- und Identitätszuordnung von Microsoft ist verpönt.
+Wenn Sie diese Dienste dennoch nutzen möchten, sehen Sie sich die folgenden Problemtickets zur Lösung an:
+- https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/1
+- https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/16
+- https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/22
+
+## Eine Liste der Skripte und Tools, die diese Sammlung verwendet:
+-[Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
+
+## Zusätzliche Konfigurationen wurden berücksichtigt von:
+-[BuiltByBel - PrivateZilla](https://github.com/builtbybel/privatezilla)
+-[MelodysTweaks - Basic Tweaks](https://sites.google.com/view/melodystweaks/basictweaks)
+-[Microsoft - Managing Windows 10 Telemetry and Callbacks](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)
+-[Microsoft - Windows 10 Privacy](https://docs.microsoft.com/en-us/windows/privacy/)
+-[Microsoft - Windows 10 VDI Recomendations](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909)
+-[Mirinsoft - SharpApp](https://github.com/builtbybel/sharpapp)
+-[Mirinsoft - debotnet](https://github.com/builtbybel/debotnet)
+-[UnderGroundWires - Privacy.S**Y](https://github.com/undergroundwires/privacy.sexy)
+-[Sycnex - Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+-[The-Virtual-Desktop-Team - Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool)
+-[TheVDIGuys - Windows 10 VDI Optimize](https://github.com/TheVDIGuys/Windows_10_VDI_Optimize)
+-[W4H4WK - Debloat Windows 10](https://github.com/W4RH4WK/Debloat-Windows-10/tree/master/scripts)
+
+## So führen Sie das Skript aus:
+### Automatisierte Installation:
+Das Skript kann wie folgt über den extrahierten GitHub-Download gestartet werden:
 ```powershell
 iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
+### Manual Install:
+If manually downloaded, the script must be launched from an administrative powershell in the directory containing all the files from the [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
+
+The script "sos-optimize-windows.ps1" includes several parameters that allow for customization of the optimization process. Each parameter is a boolean value that defaults to true if not specified.
+
+- **$cleargpos**: Clears Group Policy Objects settings.
+- **$installupdates**: Installs updates to the system.
+- **$removebloatware**: Removes unnecessary programs and features from the system.
+- **$disabletelemetry**: Disables data collection and telemetry.
+- **$privacy**: Makes changes to improve privacy.
+- **$imagecleanup**: Cleans up unneeded files from the system.
+- **$diskcompression**: Compresses the system disk.
+- **$updatemanagement**: Changes the way updates are managed and improved on the system.
+- **$sosbrowsers**: Optimizes the system's web browsers.
+
+An example of how to launch the script with specific parameters would be:
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Get-ChildItem -Recurse *.ps1 | Unblock-File
 powershell.exe -ExecutionPolicy ByPass -File .\sos-optimize-windows.ps1 -cleargpos:$false -installupdates:$false
 ```
 
-  [![Testskript gegen Windows-Docker-Container](https://github.com/simeononsecurity/Windows-Optimize-Debloat/actions/workflows/test-with-docker.yml/badge.svg)](https:// github .com/simeononsecurity/Windows-Optimize-Debloat/actions/workflows/test-with-docker.yml)  *Für einige, die ihre Windows 10- und 11-Installationen bevorzugen.*  **Hinweis:** Dieses Skript sollte für die meisten sterben, wenn nicht alle Systeme ohne Probleme funktionieren. Während [@SimeonOnSecurity](https://github.com/simeononsecurity) jedes Repo intensiv erstellt, überprüft und getestet, können wir nicht jede mögliche Konfiguration testen, und [@SimeonOnSecurity](https://github.com/simeononsecurity) tut stirbt auch nicht. übernehmen Sie keine Verantwortung für das Brechen Ihres Systems. If etwas schief geht, seien Sie bereit, ein [Problem] (../../issues) einzureichen. Führen Sie dieses Skript nicht aus, wenn Sie nicht verstehen, was es tut.  ## Einführung: Windows 10 und 11 ist ein invasives und unsicheres Betriebssystem, das sofort einsatzbereit ist. Organisationen wie [Microsoft](https://microsoft.com), [PrivacyTools.io](https://PrivacyTools.io) und andere haben Konfigurationsänderungen empfohlen, um das Betriebssystem Windows 10 zu optimieren und zu debloodieren. Diese Änderungen umfassen das Blockieren von Telemetrie, das Löschen von Protokollen und das Entfernen von Bloatware, um nur einige zu nennen. Dieses Skript zielt darauf ab, die von diesen Organisationen empfohlenen Konfigurationen zu automatisieren.  ## Anmerkungen: - Dieses Skript ist hauptsächlich für den Betrieb in Umgebungen für den **persönlichen Gebrauch** konzipiert. - Dieses Skript ist so konzipiert, dass die Optimierungen im Gegensatz zu einigen anderen Skripts die Kernfunktionen von Windows nicht beeinträchtigen.  - Funktionen wie Windows Update, Windows Defender, der Windows Store und Cortona wurden eingeschränkt, sind aber nicht wie die meisten anderen Windows 10-Datenschutzskripte in einem funktionsgestörten Zustand. – Wenn SIE ein kompaktes Skript suchen, das nur auf kommerzielle Umgebungen ausgerichtet ist, lesen Sie bitte dieses [GitHub-Repository] (https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)  ## Anforderungen: - [X] Windows 10/11 Enterprise, Windows 10 Professional oder Windows 10 Home   - Windows Home lässt keine GPO-Konfigurationen zu.     - Das Skript funktioniert weiterhin, aber nicht alle Einstellungen werden angewendet.   - Windows "N" Editionen wurden nicht getestet.   - Führen Sie den [Windows 10-Upgrade-Assistenten] (https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant) aus, um die neueste Hauptversion zu aktualisieren und zu überprüfen .  ## Microsoft-Konto oder Xbox-Dienste reparieren: Dies liegt daran, dass wir die Anmeldung bei Microsoft-Konten blockieren. Die Telemetrie- und Identitätszuordnung von Microsoft ist verpönt. Wenn Sie diese Dienste jedoch weiterhin nutzen möchten, sehen Sie sich die following Problemtickets für die Lösung an: - https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/1 - https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/16 - https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/22  ## Eine Liste von Skripten und Tools, die diese Sammlung verwendet: - [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319)  ## Zusätzliche Konfigurationen wurden berücksichtigt von: - [BuiltByBel - PrivateZilla](https://github.com/builtbybel/privatezilla) - [MelodysTweaks - Grundlegende Optimierungen](https://sites.google.com/view/melodystweaks/basictweaks) - [Microsoft – Verwalten von Windows 10-Telemetrie und -Rückrufen] (https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft -Leistungen) - [Microsoft – Windows 10 Datenschutz](https://docs.microsoft.com/en-us/windows/privacy/) - [Microsoft – Windows 10 VDI-Empfehlungen](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds_vdi-recommendations-1909) - [Mirinsoft - SharpApp](https://github.com/builtbybel/sharpapp) - [Mirinsoft - debotnet](https://github.com/builtbybel/debotnet) - [UnderGroundWires - Datenschutz.S**Y](https://github.com/undergroundwires/privacy.sexy) - [Sycnex - Windows10Debloater](https://github.com/Sycnex/Windows10Debloater) - [The-Virtual-Desktop-Team - Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool) – [TheVDIGuys – Windows 10 VDI-Optimierung](https://github.com/TheVDIGuys/Windows_10_VDI_Optimize) - [W4H4WK - Windows 10 debloatieren](https://github.com/W4RH4WK/Debloat-Windows-10/tree/master/scripts)  ## So führen Sie das Skript aus: ### Automatische Installation: Das Skript kann wie folgt aus dem gesicherten GitHub-Download gestartet werden: ### Manuelle Installation: Wenn es manuell heruntergeladen wird, muss das Skript von einer administrativen Powershell in dem Verzeichnis gestartet werden, das alle Dateien aus dem [GitHub-Repository] (https://github.com/simeononsecurity/Windows-Optimize-Debloat) enthält.  Das Skript „sos-optimize-windows.ps1“ enthält mehrere Parameter, die eine Anpassung des Optimierungsprozesses ermöglichen. Jeder Parameter ist ein boolescher Wert, der standardmäßig wahr ist, wenn er nicht angegeben wird.  - **$cleargpos**: Löscht die Einstellungen der Gruppenrichtlinienobjekte. - **$installupdates**: Installiert Updates für das System. - **$removebloatware**: Entfernt unnötige Programme und Funktionen vom System. - **$disabletelemetry**: Deaktiviert die Datenerfassung und Telemetrie. - **$privacy**: Nimmt Änderungen vor, um den Datenschutz zu verbessern. - **$imagecleanup**: Bereinigt nicht benötigte Dateien aus dem System. - **$diskcompression**: Komprimiert die Systemfestplatte. - **$updatemanagement**: Ändert die Art und Weise, wie Updates auf dem System verwaltet und verbessert werden. - **$sosbrowsers**: Optimiert die Webbrowser des Systems.  Ein Beispiel für das Starten des Skripts mit bestimmten Parametern wäre:  

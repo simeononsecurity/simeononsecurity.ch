@@ -1,10 +1,0 @@
----
-
-title: "Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash"
-date: 2021-02-18
-toc: true
-draft: false
-description: ""
-tags: [PowerShell, Bash, JSON, Manipulation, Parsing]
----
- **Lo que SimeonOnSecurity aprendió y encontró interesante hoy**  SimeonOnSecurity actualizó una página en su sitio web y aprendió sobre algunos recursos que encuentra interesantes. La página actualizada es la redacción del Invite Challenge en HackTheBox. Esta página proporciona un análisis en profundidad del proceso de resolución del desafío en los sistemas Windows y Linux.  Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles. Uno de estos recursos es una publicación de blog de Cameron Nokes que se enfoca en trabajar con JSON en bash usando la herramienta jq. La herramienta jq es una utilidad de línea de comandos que facilita el análisis, el filtrado y la manipulación de datos JSON.  Otros dos recursos están relacionados con la conversión de datos JSON en PowerShell. La documentación de Microsoft proporciona información sobre los cmdlets ConvertFrom-Json y ConvertTo-Json. Estos cmdlets permiten convertir datos JSON en y desde objetos de PowerShell, lo que facilita la manipulación y el análisis de los datos.  ## Páginas actualizadas: - [HackTheBox - Desafío de invitación (Windows/Linux)](https://simeononsecurity.com/writeups/hackthebox-invite-challenge/)  ## Recursos de aprendizaje: - [Cameron Nokes - Trabajando con JSON en bash usando jq](https://cameronnokes.com/blog/trabajando-con-json-en-bash-usando-jq/) - [Microsoft - ConvertFrom-Json](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1) - [Microsoft - ConvertTo-Json](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1)

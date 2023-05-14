@@ -1,11 +1,0 @@
----
-
-title: "Today I Learned more about WDAC Policy Creation and Implementation"
-date: 2022-05-18
-toc: true
-draft: false
-description: "Today I Learned more about Ansible conditionals and variable management"
-tags: ['Automation', 'WDAC', 'Application Control', 'Windows Defender Application Control', 'Windows Defender', 'Powershell']
----
-
- **शिमोनॉनसिक्योरिटी ने आज क्या खुशी और दिलचस्प पाया **  आज, शिमोनॉनसिक्योरिटी ने अपने रिपॉजिटरी विंडोज-डिफेंडर-एप्लीकेशन-कंट्रोलर-हार्डनिंग को अपडेट किया गया और विंडोज फेसबुक जेपीसी कंट्रोल (डब्ल्यूडीएसी) के बारे में जाना जाता है, जो विंडोज 10 इंटरप्राइजेज और विंडोज सर्वर 2019 की एक विशेषता है, जो ब्रांड पर आरोप लगाने वाला है चीजों को नियंत्रित करके सुरक्षा प्रदान करता है।  शिमोनऑनसिक्योरिटी ने डब्लूडीएसी पर माइक्रोसॉफ्ट के निर्णयों को तय किया और सुराग बनाने और लागू करने के लिए कई प्रमुख संसाधनों की खोज की। वे कंप्यूटर के उपयोग को फिक्स्ड-वर्कलोड डिवाइस के लिए WDAC नीति निर्माण, स्क्रिप्ट का उपयोग करके WDAC को कैसे परिबद्ध करते हैं और विभिन्न परिदृश्यों के लिए कई कई उपयोग करने के तरीके के बारे में खुश हैं।  इसके अतिरिक्त, शिमोनोनसिक्योरिटी ने WDSi को अस्वीकार करने के लिए सहमति में अंतर्दृष्टि प्राप्त करने की अनुमति दी, जिससे उन्हें केवल विश्वसनीय स्वीकार करने की अनुमति देने की अवधारणा को बेहतर ढंग से समझने की अनुमति मिली, जबकि अन्य सभी को अस्वीकार कर दिया।  कुल मिलाकर, विंडोज प्रोटेक्ट एप कंट्रोल में शिमोनसिक्योरिटी की खोज ने आधुनिक सुरक्षा मानकों में अपने नियंत्रण के महत्व की समझ को मजबूत किया है।  ## दोबारा अपडेट किया गया: - [simeononsecurity/Windows-Defender-Application-Control-Hardening] (https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening)  ## डब्ल्यूडीएसी पढ़ना: - [Microsoft - एक संदर्भ कंप्यूटर का उपयोग करके फिक्स्ड-वर्कलोड डिवाइस के लिए WDAC नीति बनाएं](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control /क्रिएट -प्रारंभिक-डिफॉल्ट-नीति) - [Microsoft - स्क्रिप्ट का उपयोग करके WDAC अधिसूचना परिबद्ध करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac- Policies-with -लिखी हुई कहानी) - [Microsoft - WDAC निषेध बनाने पर समर्थन] - [माइक्रोसॉफ्ट - कई विंडोज प्रोटेक्ट्स एक्ट कंट्रोल का उपयोग करें] -आवेदन-नियंत्रण-नीतियां)

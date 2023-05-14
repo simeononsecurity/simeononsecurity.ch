@@ -1,13 +1,21 @@
 ---
-title: "Automate Windows Defender Compliance with PowerShell Script"
+title: "PowerShell स्क्रिप्ट के साथ स्वचालित Windows डिफ़ेंडर अनुपालन"
 date: 2020-11-15
 toc: true
 draft: false
-description: "Enhance your security with the Windows Defender STIG PowerShell script, which automates compliance with the Windows Defender Antivirus V1R9 STIG guidelines."
-tags: ["PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Security", "Cybersecurity", "STIG", "Windows Security", "Windows Antivirus", "Windows Scripting", "Windows Automation", "Windows Hardening", "Windows Defender Automation", "Windows Defender Compliance"]
+description: "Windows डिफ़ेंडर STIG PowerShell स्क्रिप्ट के साथ अपनी सुरक्षा बढ़ाएँ, जो Windows डिफ़ेंडर एंटीवायरस V1R9 STIG दिशानिर्देशों के अनुपालन को स्वचालित करता है।"
+tags: ["पावरशेल", "पॉवरशेल स्क्रिप्ट", "स्वचालन", "अनुपालन", "नीली टीम", "विंडोज डिफेंडर STIG स्क्रिप्ट", "विंडोज़ रक्षक", "विंडोज डिफेंडर हार्डनिंग", "विंडोज डिफेंडर एसटीआईजी", "डिफेंडर एसटीआईजी", "सुरक्षा", "साइबर सुरक्षा", "स्टिग", "विंडोज सुरक्षा", "विंडोज एंटीवायरस", "विंडोज स्क्रिप्टिंग", "विंडोज स्वचालन", "विंडोज हार्डनिंग", "विंडोज डिफेंडर स्वचालन", "विंडोज डिफेंडर अनुपालन"]
 ---
+ एसटीआईजीएस/एसआरजी लागू:
+-[Windows Defender Antivirus V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip)
+
+## आवश्यक फ़ाइलें डाउनलोड करें:
+
+से आवश्यक फाइलों को डाउनलोड करें[GitHub Repository](https://github.com/simeononsecurity/Windows-Defender-STIG-Script)
+
+## स्क्रिप्ट कैसे चलाएं:
+
+** इस तरह से निकाले गए GitHub डाउनलोड से स्क्रिप्ट को लॉन्च किया जा सकता है: **
 ```
 .\sos-windowsdefenderstig.ps1
 ```
-
-## आख्यान/सरजी लागू करें: - [कार्यक्रम आर्किटेक्चर V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip)  ## आवश्यक फ़ाइलें डाउनलोड करें:  [GitHub रिपोजिटरी](https://github.com/simeononsecurity/Windows-Defender-STIG-Script) से आवश्यक फ़ाइलें डाउनलोड करें  ## स्क्रिप्ट कैसे चलाएं:  ** इस तरह से निकाले गए GitHub डाउनलोड से स्क्रिप्ट को शेयर किया जा सकता है: **

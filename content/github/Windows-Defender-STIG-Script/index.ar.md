@@ -1,13 +1,21 @@
 ---
-title: "Automate Windows Defender Compliance with PowerShell Script"
+title: "أتمتة توافق Windows Defender مع PowerShell Script"
 date: 2020-11-15
 toc: true
 draft: false
-description: "Enhance your security with the Windows Defender STIG PowerShell script, which automates compliance with the Windows Defender Antivirus V1R9 STIG guidelines."
-tags: ["PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Security", "Cybersecurity", "STIG", "Windows Security", "Windows Antivirus", "Windows Scripting", "Windows Automation", "Windows Hardening", "Windows Defender Automation", "Windows Defender Compliance"]
+description: "عزز أمانك باستخدام البرنامج النصي Windows Defender STIG PowerShell ، الذي يعمل تلقائيًا على الامتثال لإرشادات Windows Defender Antivirus V1R9 STIG."
+tags: ["بوويرشيل", "برنامج PowerShell النصي", "أتمتة", "امتثال", "فريق أزرق", "برنامج Windows Defender STIG", "ويندوز ديفندر", "تصلب Windows Defender", "برنامج Windows Defender STIG", "المدافع ستيج", "حماية", "الأمن الإلكتروني", "ستيج", "أمن Windows", "برنامج مكافحة فيروسات Windows", "برمجة Windows", "أتمتة Windows", "تصلب النوافذ", "أتمتة Windows Defender", "التوافق مع Windows Defender"]
 ---
+ تم تطبيق STIGS / SRGs:
+-[Windows Defender Antivirus V1R9](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip)
+
+## تنزيل الملفات المطلوبة:
+
+قم بتنزيل الملفات المطلوبة من ملف[GitHub Repository](https://github.com/simeononsecurity/Windows-Defender-STIG-Script)
+
+## كيفية تشغيل البرنامج النصي:
+
+** قد يتم تشغيل البرنامج النصي من تنزيل GitHub المستخرج على النحو التالي: **
 ```
 .\sos-windowsdefenderstig.ps1
 ```
-
-## تطبيق STIGS / SRGs: - [Windows Defender Antivirus V1R9] (https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip)  ## تنزيل الملفات المطلوبة:  تنزيل الملفات من [مستودع GitHub] (https://github.com/simeononsecurity/Windows-Defender-STIG-Script)  ## كيفية تشغيل البرنامج:  ** يتم تنفيذ البرنامج من تنزيل GitHub المستخرج على النحو التالي: **

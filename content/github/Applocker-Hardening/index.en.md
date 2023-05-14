@@ -1,5 +1,5 @@
 ---
-title: 'Ultimate Applocker Hardening Configuration Script: Boost Windows Security'
+title: "Ultimate Applocker Hardening Configuration Script: Boost Windows Security"
 date: 2020-11-19
 toc: true
 draft: false

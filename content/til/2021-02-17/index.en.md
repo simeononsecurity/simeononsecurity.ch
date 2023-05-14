@@ -1,5 +1,4 @@
 ---
-
 title: "Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash"
 date: 2021-02-18
 toc: true

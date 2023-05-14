@@ -1,10 +1,13 @@
 ---
-title: "Windows Optimize-Harden-Debloat GUI - Guided Install"
+title: "Windows Optimize-Harden-Debloat-GUI – geführte Installation"
 date: 2023-01-30
 toc: true
 draft: false
-description: "Enhance your Windows 10 experience with ease using the Windows-Optimize-Harden-Debloat GUI automated script that offers a guided install to minimize your Windows 10 setup."
-tags: ["Windows optimization", "Windows 10 debloat", "Windows 10 tweaks", "GUI", "C sharp", "Powershell", "Automation", "System stability", "System administration", "Windows updates", "Script", "Programming", "Debloating", "Windows 10 customization", "System performance", "Windows 10 privacy", "Security", "Windows 10 setup", "Windows 10 maintenance", "Windows 10 management"]
+description: "Verbessern Sie Ihr Windows 10-Erlebnis ganz einfach mit dem automatisierten Windows-Optimize-Harden-Debloat-GUI-Skript, das eine geführte Installation bietet, um Ihr Windows 10-Setup zu minimieren."
+tags: ["Windows-Optimierung", "Debloat von Windows 10", "Windows 10-Optimierungen", "GUI", "Cis", "Power Shell", "Automatisierung", "Systemstabilität", "Systemadministration", "Windows-Updates", "Skript", "Programmierung", "Debloating", "Anpassung von Windows 10", "System Geschwindigkeit", "Datenschutz unter Windows 10", "Sicherheit", "Windows 10-Setup", "Wartung von Windows 10", "Windows 10-Verwaltung"]
 ---
+ Basierend auf der GUI für[Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
-C#-basierte GUI für [Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat) ### GUI – Geführte Installation: Laden Sie die neueste Version [hier]( https: //github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/), wählen Sie die gewünschten Optionen aus und klicken Sie auf Ausführen. <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Beispiel für eine geführte Installation auf Windows-Optimize-Harden-Debloat-GUI">
+### GUI – Geführte Installation:
+
+Laden Sie die neueste Version herunter[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)Wählen Sie die gewünschten Optionen und klicken Sie auf „Ausführen“. <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Beispiel einer GUI-basierten geführten Windows-Optimize-Harden-Debloat-Installation">

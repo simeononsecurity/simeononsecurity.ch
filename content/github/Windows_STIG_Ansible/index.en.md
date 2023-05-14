@@ -4,8 +4,7 @@ date: 2022-04-26
 toc: true
 draft: false
 description: "Streamline your security compliance with Ansible STIG Playbooks for Windows systems."
-tags:
-  ["Automation", "Windows Compliance", "Ansible STIG Playbooks", "Windows Hardening", "STIG Scripts", "STIG Compliance", "Ansible Galaxy", "PowerShell", "PowerShell Script", "Windows Server", "Windows Defender", ".NET", "FireFox", "Oracle JRE 8", "Adobe Reader DC", "Internet Connectivity", "Offline Compatibility", "Security Hardening", "Windows Security"]
+tags: ["Automation", "Windows Compliance", "Ansible STIG Playbooks", "Windows Hardening", "STIG Scripts", "STIG Compliance", "Ansible Galaxy", "PowerShell", "PowerShell Script", "Windows Server", "Windows Defender", ".NET", "FireFox", "Oracle JRE 8", "Adobe Reader DC", "Internet Connectivity", "Offline Compatibility", "Security Hardening", "Windows Security"]
 ---
 
 

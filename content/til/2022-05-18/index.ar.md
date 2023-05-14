@@ -1,11 +1,0 @@
----
-
-title: "Today I Learned more about WDAC Policy Creation and Implementation"
-date: 2022-05-18
-toc: true
-draft: false
-description: "Today I Learned more about Ansible conditionals and variable management"
-tags: ['Automation', 'WDAC', 'Application Control', 'Windows Defender Application Control', 'Windows Defender', 'Powershell']
----
-
- ** ما علمه SimeonOnSecurity ووجده مثيرًا لأحبّتي اليوم **  اليوم ، قام SimeonOnSecurity بتحديث مستودع Windows-Defender-Application-Control-Hardening وتعرف على Windows Defender Application Control (WDAC) ، وهي إحدى ميزات Windows 10 Enterprise و Windows Server 2019 التي توفر الأمان من خلال التحكم في البيانات على الجهاز.  توغلت SimeonOnSecurity في وثائق Microsoft على WDAC واكتشفت الدخول إلى الموارد الرئيسية للتجزئة. لقد تعلم كيفية إنشاء برنامج WDAC للأجهزة ذات العبء الكبير الذي استخدمته في استخدام سياسات متعددة.  بالإضافة إلى ذلك ، سمحت سمح السماح باستعمالات سمح تقبل التطبيقات فقط على الجهاز ، ورفض جميع التطبيقات الأخرى.  بشكل عام ، استكشاف استكشاف SimeonOnSecurity إلى التحكم في تطبيقات Windows Defender إلى تعزيز فهمه لأهمية التحكم في التطبيقات في ممارسات الأمان الحديثة.  ## تحديث الريبو: - [simeononsecurity / Windows-Defender-Application-Control-Hardening] (https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening)  ## قراءة WDAC: - [Microsoft - إنشاء سياسة WDAC للأجهزة ذات حمل العمل باستخدام كمبيوتر مرجعي] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create سياسة التقصير المبدئي) - [Microsoft - نشر سياسات WDAC التي تظهر البرنامج] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies- مع -النصي) - [Microsoft - أرشفة إنشاء سياسات رفض WDAC] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy) - [Microsoft - استخدام سياسات التحكم في تطبيق Windows Defender المتعددة] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows- مدافع- حكم-التحكم-الظهيرة)
