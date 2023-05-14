@@ -1,0 +1,19 @@
+baseurl = "https://hi.simeononsecurity.ch"
+defaultContentLanguage = "hi"
+disableLanguages = [
+    'fr',
+    'en',
+    'es',
+    'de',
+    'ar',
+    'bn',
+    'ca',
+    'it',
+    'ja',
+    'nl',
+    'ro',
+    'zh',
+    'pa',
+    'pt',
+    'ru',
+]
