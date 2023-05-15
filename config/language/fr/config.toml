@@ -26,7 +26,7 @@ disableLanguages = [
 [languages.fr]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
 languageName = 'Français'
-# languageCode = "fr"
+languageCode = "fr"
 weight = 1
 title = "simeononsecurity"
 subtitle = "CyberSécurité, Automatisation, Crypto"
