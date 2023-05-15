@@ -1,5 +1,5 @@
-# Optional: Redirect default Netlify subdomain to primary domain
-https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/:splat 301!
+# # Optional: Redirect default Netlify subdomain to primary domain
+# https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/:splat 301!
 
 # Other:
 # Redirect domain aliases to primary domain
