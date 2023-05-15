@@ -132,7 +132,7 @@ baseName = "feed"
 [languages.ar]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }]
 languageName = 'العربية'
-# languageCode = "ar"
+languageCode = "ar"
 weight = 1
 title = "simeononsecurity"
 subtitle = "الأمن السيبراني، الإدارة، العملات الرقمية"
@@ -180,7 +180,7 @@ url = "/recommendations"
 [languages.bn]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.bn.xml" }]
 languageName = "বাংলা"
-# languageCode = "bn"
+languageCode = "bn"
 weight = 1
 title = "সিমিয়ন অন সিকিউরিটি"
 subtitle = "সাইবার নিরাপত্তা, অটোমেশন, ক্রিপ্টো"
@@ -227,7 +227,7 @@ url = "/recommendations"
 [languages.fr]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
 languageName = 'Français'
-# languageCode = "fr"
+languageCode = "fr"
 weight = 1
 title = "simeononsecurity"
 subtitle = "CyberSécurité, Automatisation, Crypto"
@@ -275,7 +275,7 @@ url = "/recommendations"
 [languages.de]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }]
 languageName = 'Deutsch'
-# languageCode = "de"
+languageCode = "de"
 weight = 1
 title = "simeononsecurity"
 subtitle = "Cybersicherheit, Automatisierung, Kryptowährung"
@@ -323,7 +323,7 @@ url = "/recommendations"
 [languages.en]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }]
 languageName = 'English'
-#languageCode = "en"
+languageCode = "en"
 weight = 1
 title = "simeononsecurity"
 subtitle = "CyberSecurity, Automation, Crypto"
@@ -392,7 +392,7 @@ url = "/about"
 [languages.es]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }]
 languageName = "Español"
-# languageCode = "es"
+languageCode = "es"
 weight = 1
 title = "simeononsecurity"
 subtitle = "Ciberseguridad, Automatización, Cripto"
@@ -440,7 +440,7 @@ url = "/recommendations"
 [languages.hi]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }]
 languageName = 'हिन्दी'
-# languageCode = "hi"
+languageCode = "hi"
 weight = 1
 title = "simeononsecurity"
 subtitle = "साइबर सुरक्षा, स्वचालन, क्रिप्टो"
@@ -488,7 +488,7 @@ url = "/recommendations"
 [languages.it]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.it.xml" }]
 languageName = "Italiano"
-# languageCode = "it"
+languageCode = "it"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "Cybersecurity, automazione e crittografia"
@@ -535,7 +535,7 @@ url = "/recommendations"
 [languages.ja]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ja.xml" }]
 languageName = "日本語"
-# languageCode = "ja"
+languageCode = "ja"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "サイバーセキュリティ、自動化、暗号化について"
@@ -582,7 +582,7 @@ url = "/recommendations"
 [languages.nl]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.nl.xml" }]
 languageName = "Nederlands"
-# languageCode = "nl"
+languageCode = "nl"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "Cybersecurity, automatisering en cryptografie"
@@ -629,7 +629,7 @@ url = "/recommendations"
 [languages.pa]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
 languageName = "ਪੰਜਾਬੀ"
-# languageCode = "pa"
+languageCode = "pa"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਕ੍ਰਿਪਟੋਗਰਾਫੀ"
@@ -676,7 +676,7 @@ url = "/recommendations"
 [languages.pt]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pt.xml" }]
 languageName = "Português"
-# languageCode = "pt"
+languageCode = "pt"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "Cibersegurança, automação e criptografia"
@@ -723,7 +723,7 @@ url = "/recomendations"
 [languages.ro]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ro.xml" }]
 languageName = "Română"
-# languageCode = "ro"
+languageCode = "ro"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "Securitate cibernetică, automatizare și criptografie"
@@ -770,7 +770,7 @@ url = "/recomendations"
 [languages.ru]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ru.xml" }]
 languageName = "Русский"
-# languageCode = "ru"
+languageCode = "ru"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "Кибербезопасность, автоматизация и шифрование"
@@ -817,7 +817,7 @@ url = "/recommendations"
 [languages.zh]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.zh.xml" }]
 languageName = "中文"
-# languageCode = "zh"
+languageCode = "zh"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "网络安全、自动化和加密"
@@ -864,7 +864,7 @@ url = "/recommendations"
 [languages.ca]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
 languageName = "Català"
-# languageCode = "ca"
+languageCode = "ca"
 weight = 1
 title = "SimeonOnSecurity"
 subtitle = "Seguretat cibernètica, automatització i criptografia"
