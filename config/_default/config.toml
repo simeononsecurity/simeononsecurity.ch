@@ -890,8 +890,10 @@ url = "/writeups"
 identifier = "推荐"
 name = "推荐"
 url = "/recommendations"
+
 [languages.ca]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
+baseurl = "https://ca.simeononsecurity.ch"
 languageName = "Català"
 languageCode = "ca"
 weight = 1
