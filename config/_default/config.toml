@@ -1,8 +1,8 @@
 title = "simeononsecurity"
 theme = "soshellofriend"
 baseurl = "https://simeononsecurity.ch"
-languageCode = "en"
-defaultContentLanguage = "en"
+# languageCode = "en"
+# defaultContentLanguage = "en"
 paginate = 5
 canonifyURLs = true
 disableAliases = true
@@ -13,23 +13,6 @@ enableGitInfo = true
 refLinksNotFoundURL = "simeononsecurity.ch"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
-disableLanguages = [
-    'fr',
-    'es',
-    'de',
-    'hi',
-    'ar',
-    'bn',
-    'ca',
-    'it',
-    'ja',
-    'nl',
-    'ro',
-    'zh',
-    'pa',
-    'pt',
-    'ru',
-]
 
 [Author]
 name = "SimeonOnSecurity"
