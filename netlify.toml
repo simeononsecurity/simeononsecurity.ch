@@ -28,7 +28,7 @@ NODE_VERSION = "18.16.0"
 for = "/*"
 
 [headers.values]
-Access-Control-Allow-Origin = "https://simeononsecurity.ch, https://simeononsecurity.com"
+Access-Control-Allow-Origin = "https://simeononsecurity.ch, https://simeononsecurity.com, https://*.simeononsecurity.ch, https://*.simeononsecurity.com"
 Cache-Control = "Public, no-transform, max-age=31536000"
 #The `Expect-CT` header is deprecated and will be removed. Chrome requires Certificate Transparency for all publicly trusted certificates issued after April 30, 2018.
 #Expect-Ct = "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
