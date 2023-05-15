@@ -439,6 +439,7 @@ url = "/writeups"
 identifier = "Recomendaciones"
 name = "Recomendaciones"
 url = "/recommendations"
+
 [languages.hi]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }]
 languageName = 'हिन्दी'
@@ -487,6 +488,7 @@ url = "/writeups"
 identifier = "Recommendations"
 name = "सिफारिशें"
 url = "/recommendations"
+
 [languages.it]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.it.xml" }]
 languageName = "Italiano"
