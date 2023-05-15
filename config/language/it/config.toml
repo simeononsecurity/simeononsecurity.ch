@@ -1,5 +1,3 @@
-# Include the base.toml file
-config = "..\\..\\_default\\config.toml"
 
 baseurl = "https://it.simeononsecurity.ch"
 languageCode = "it"
