@@ -1,6 +1,6 @@
 title = "simeononsecurity"
 theme = "soshellofriend"
-#baseurl = "https://simeononsecurity.ch"
+baseurl = "https://simeononsecurity.ch"
 paginate = 5
 canonifyURLs = true
 disableAliases = true
