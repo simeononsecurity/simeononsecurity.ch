@@ -179,6 +179,7 @@ url = "/writeups"
 identifier = "Recommendations"
 name = "التوصيات"
 url = "/recommendations"
+
 [languages.bn]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.bn.xml" }]
 languageName = "বাংলা"
@@ -226,6 +227,7 @@ url = "/writeups"
 identifier = "সুপারিশ"
 name = "সুপারিশ"
 url = "/recommendations"
+
 [languages.fr]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
 languageName = 'Français'
@@ -274,6 +276,7 @@ url = "/writeups"
 identifier = "Recommandations"
 name = "Recommandations"
 url = "/recommendations"
+
 [languages.de]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }]
 languageName = 'Deutsch'
@@ -391,6 +394,7 @@ url = "/recommendhome"
 identifier = "About"
 name = "About"
 url = "/about"
+
 [languages.es]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }]
 languageName = "Español"
@@ -536,6 +540,7 @@ url = "/writeups"
 identifier = "Raccomandazioni"
 name = "Raccomandazioni"
 url = "/recommendations"
+
 [languages.ja]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ja.xml" }]
 languageName = "日本語"
@@ -631,6 +636,7 @@ url = "/writeups"
 identifier = "Aanbevelingen"
 name = "Aanbevelingen"
 url = "/recommendations"
+
 [languages.pa]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
 languageName = "ਪੰਜਾਬੀ"
@@ -678,6 +684,7 @@ url = "/writeups"
 identifier = "ਸਿਫਾਰਿਸ਼ਾਂ"
 name = "ਸਿਫਾਰਿਸ਼ਾਂ"
 url = "/recommendations"
+
 [languages.pt]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pt.xml" }]
 languageName = "Português"
@@ -725,6 +732,7 @@ url = "/writeups"
 identifier = "Recomendações"
 name = "Recomendações"
 url = "/recomendations"
+
 [languages.ro]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ro.xml" }]
 languageName = "Română"
@@ -772,6 +780,7 @@ url = "/writeups"
 identifier = "Recomandări"
 name = "Recomandări"
 url = "/recomendations"
+
 [languages.ru]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ru.xml" }]
 languageName = "Русский"
@@ -819,6 +828,7 @@ url = "/writeups"
 identifier = "Рекомендации"
 name = "Рекомендации"
 url = "/recommendations"
+
 [languages.zh]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.zh.xml" }]
 languageName = "中文"
@@ -866,6 +876,7 @@ url = "/writeups"
 identifier = "推荐"
 name = "推荐"
 url = "/recommendations"
+
 [languages.ca]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
 languageName = "Català"
