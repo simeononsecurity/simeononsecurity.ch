@@ -71,6 +71,10 @@ twitterSite = "@simeonsecurity"
 socialProfiles = [
   "https://twitter.com/simeonsecurity",
   "https://github.com/simeononsecurity",
+  "https://mastodon.world/@simeononsecurity",
+  "https://discord.gg/FGQmksA4MA",
+  "https://cybersentinels.org/",
+  "https://discord.io/cybersentinels"
 ]
 
 alternatePageName = "SimeonOnSecurity"
