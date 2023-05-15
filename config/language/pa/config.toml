@@ -21,3 +21,52 @@ disableLanguages = [
     'pt',
     'ru',
 ]
+
+[languages]
+[languages.pa]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
+languageName = "ਪੰਜਾਬੀ"
+# languageCode = "pa"
+weight = 1
+title = "SimeonOnSecurity"
+subtitle = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਕ੍ਰਿਪਟੋਗਰਾਫੀ"
+description = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਿਕਾਸ ਦੇ ਤਜਰਬੇ ਨਾਲ ਅੱਪਡੇਟ ਰਹੋ। ਸਾਇਬਰ ਪਰਦੇਦਾਰੀ، ਸੁਰੱਖਿਆ ਅਤੇ ਟੈਕਨਾਲੋਜੀ ਤੇ ਨਵੀਨਤਮ ਖ਼ਬਰਾਂ ਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਅਮਲ ਪ੍ਰਾਪਤ ਕਰੋ SimeonOnSecurity.ch ਤੇ। ਸਾਰੇ ਲਈ ਇੱਕ ਮੂਲਯੋਗ ਸਰੋਤ।"
+keywords = "ਸੁਰੱਖਿਆ, ਨਿੱਜਤਾ, ਸਵੈ-ਚਾਲਿਤਾ, ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਜਾਣਕਾਰੀ ਟੈਕਨਾਲੋਜੀ, ਕ੍ਰਿਪਟੋਕਰੰਸੀ, ਬਲਾਗ, ਲਗਾਤਾਰ ਸੁਧਾਰ, ਪ੍ਰੋਗਰਾਮਿੰਗ, ਡੇਵ-ਆਪਸ, ਪਾਵਰਸ਼ੈਲ, ਸੀ ਸ਼ਾਰਪ, ਐਂਸੀਬਲ, ਡੌਕਰ ਕੰਟੇਨਰ, ਵਿੰਡੋਜ, ਡੌਡ ਅਤੇ ਐਸਐਸਟੀ, ਘਰੇਲੂ ਲੈਬ, ਕਰਨ ਸਮੱਸਿਆ ਦਾ ਹੱਲ, ਪਾਇਥਨ, ਵਿੰਡੋਜ 10"
+copyright = "ਸਿਮੀਅਨ ਆਨ ਸਕਿਊਰਿਟੀ"
+menuMore = "ਹੋਰ"
+writtenBy = "ਲੇਖਕ"
+readMore = "ਹੋਰ ਪੜ੍ਹੋ"
+readOtherPosts = "ਹੋਰ ਪੋਸਟ ਪੜ੍ਹੋ"
+newerPosts = "ਨਵੇਂ ਪੋਸਟ"
+olderPosts = "ਪੁਰਾਣੀ ਪੋਸਟ"
+minuteReadingTime = "ਮਿੰਟਾਂ ਵਿੱਚ ਪੜ੍ਹਨ ਦਾ ਸਮਾਂ"
+dateFormatSingle = "02-01-2006"
+dateFormatList = "02-01-2006"
+enableRobotsTXT = "ਸਹਿਿਤ ਰੋਬੋਟਾਂ TXT"
+lastModDisplay = "ਅੰਤਿਮ ਅਪਡੇਟ:"
+
+[languages.pa.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.pa.menu]
+[[languages.pa.menu.main]]
+identifier = "Articles"
+name = "ਲੇਖ"
+url = "/articles"
+[[languages.pa.menu.main]]
+identifier = "GitHub"
+name = "ਜੀਟਹਬ"
+url = "/github"
+[[languages.pa.menu.main]]
+identifier = "TIL"
+name = "ਅੱਜ ਸਿੱਖਿਆ"
+url = "/til"
+[[languages.pa.menu.main]]
+identifier = "Writing"
+name = "ਲਿਖਣਾ"
+url = "/writeups"
+[[languages.pa.menu.main]]
+identifier = "ਸਿਫਾਰਿਸ਼ਾਂ"
+name = "ਸਿਫਾਰਿਸ਼ਾਂ"
+url = "/recommendations"

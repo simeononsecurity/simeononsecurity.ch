@@ -21,3 +21,5 @@ disableLanguages = [
     'pt',
     'ru',
 ]
+
+[languages]
