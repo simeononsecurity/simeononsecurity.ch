@@ -111,7 +111,7 @@
 {{ end }}
 <link rel="prefetch" href="/service-worker.js" type="text/javascript" />
 {{ if in (urlize .Permalink) "/search/" }}
-    <link rel="prefetch" href="/js/search.js" type="text/javascript" />
+    <link rel="preload" href="/js/search.js" type="text/javascript" />
 {{ end }}
 
 
