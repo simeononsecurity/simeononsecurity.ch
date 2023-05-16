@@ -110,7 +110,10 @@
   <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" type="text/javascript" />
 {{ end }}
 <link rel="prefetch" href="/service-worker.js" type="text/javascript" />
-<link rel="prefetch" href="/js/search.js" type="text/javascript" />
+{{ if in (urlize .Permalink) "/search/" }}
+    <link rel="prefetch" href="/js/search.js" type="text/javascript" />
+{{ end }}
+
 
 <!-- preload images -->
 {{ if .Params.UseRelativeCover }}
