@@ -11,3 +11,45 @@
 # /home / 301!
 # redirect sitemap.xml to index.xml
 /rss.xml /index.xml 301!
+
+# French
+/fr/* https://fr.example.com/:splat 301!
+
+# Spanish
+/es/* https://es.example.com/:splat 301!
+
+# German
+/de/* https://de.example.com/:splat 301!
+
+# Hindi
+/hi/* https://hi.example.com/:splat 301!
+
+# Arabic
+/ar/* https://ar.example.com/:splat 301!
+
+# Catalan
+/ca/* https://ca.example.com/:splat 301!
+
+# Italian
+/it/* https://it.example.com/:splat 301!
+
+# Japanese
+/ja/* https://ja.example.com/:splat 301!
+
+# Dutch
+/nl/* https://nl.example.com/:splat 301!
+
+# Romanian
+/ro/* https://ro.example.com/:splat 301!
+
+# Chinese
+/zh/* https://zh.example.com/:splat 301!
+
+# Punjabi
+/pa/* https://pa.example.com/:splat 301!
+
+# Portuguese
+/pt/* https://pt.example.com/:splat 301!
+
+# Russian
+/ru/* https://ru.example.com/:splat 301!
