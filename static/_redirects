@@ -13,43 +13,43 @@
 /rss.xml /index.xml 301!
 
 # French
-/fr/* https://fr.example.com/:splat 301!
+/fr/* https://fr.simeononsecurity.ch/:splat 301!
 
 # Spanish
-/es/* https://es.example.com/:splat 301!
+/es/* https://es.simeononsecurity.ch/:splat 301!
 
 # German
-/de/* https://de.example.com/:splat 301!
+/de/* https://de.simeononsecurity.ch/:splat 301!
 
 # Hindi
-/hi/* https://hi.example.com/:splat 301!
+/hi/* https://hi.simeononsecurity.ch/:splat 301!
 
 # Arabic
-/ar/* https://ar.example.com/:splat 301!
+/ar/* https://ar.simeononsecurity.ch/:splat 301!
 
 # Catalan
-/ca/* https://ca.example.com/:splat 301!
+/ca/* https://ca.simeononsecurity.ch/:splat 301!
 
 # Italian
-/it/* https://it.example.com/:splat 301!
+/it/* https://it.simeononsecurity.ch/:splat 301!
 
 # Japanese
-/ja/* https://ja.example.com/:splat 301!
+/ja/* https://ja.simeononsecurity.ch/:splat 301!
 
 # Dutch
-/nl/* https://nl.example.com/:splat 301!
+/nl/* https://nl.simeononsecurity.ch/:splat 301!
 
 # Romanian
-/ro/* https://ro.example.com/:splat 301!
+/ro/* https://ro.simeononsecurity.ch/:splat 301!
 
 # Chinese
-/zh/* https://zh.example.com/:splat 301!
+/zh/* https://zh.simeononsecurity.ch/:splat 301!
 
 # Punjabi
-/pa/* https://pa.example.com/:splat 301!
+/pa/* https://pa.simeononsecurity.ch/:splat 301!
 
 # Portuguese
-/pt/* https://pt.example.com/:splat 301!
+/pt/* https://pt.simeononsecurity.ch/:splat 301!
 
 # Russian
-/ru/* https://ru.example.com/:splat 301!
+/ru/* https://ru.simeononsecurity.ch/:splat 301!
