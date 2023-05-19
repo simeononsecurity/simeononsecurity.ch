@@ -13,7 +13,7 @@ coverCaption: ""
 
 Mantenir-se connectat s'ha convertit en una necessitat per a la majoria de nosaltres, especialment durant la pandèmia. Tanmateix, en ubicacions remotes, obtenir un senyal cel·lular fiable pot ser un repte. Afortunadament, hi ha diverses opcions disponibles per augmentar el senyal del vostre mòbil. En aquest article, parlarem dels reforçadors de cèl·lules interiors com el T-Mobile Cell Spot, dels reforçadors d'exteriors a interiors com els de WeBoost i Hiboost i les opcions de femtocell per a AT&T, T-Mobile i Verizon.
 
-##[T-Mobile Cell Spot](https://amzn.to/41cXppc)
+## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
 {{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
 
@@ -21,16 +21,16 @@ El[T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a wi
 
 Són produïts per una empresa anomenada[Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) hi ha altres opcions millors que tenen opcions o suport per a altres operadors disponibles que parlarem a continuació.
 
-##[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
+## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
 {{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
 
-El[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) les opcions requereixen una mica d'instal·lació. Requereixen que instal·leu un pal, una barra de terra, un paral·luminació, un amplificador i una o més antenes interiors. Ofereixen el millor senyal possible, però no funcionaran si no hi ha cap senyal a la vostra zona. Tenen una mitjana d'uns 60 dB de guany addicional, però poden arribar als 100 dB. Sens dubte, aquesta és la millor solució permanent, ja que obtindreu la millor millora del senyal més gran possible, així com suport per a tots els operadors alhora.
+El [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) les opcions requereixen una mica d'instal·lació. Requereixen que instal·leu un pal, una barra de terra, un paral·luminació, un amplificador i una o més antenes interiors. Ofereixen el millor senyal possible, però no funcionaran si no hi ha cap senyal a la vostra zona. Tenen una mitjana d'uns 60 dB de guany addicional, però poden arribar als 100 dB. Sens dubte, aquesta és la millor solució permanent, ja que obtindreu la millor millora del senyal més gran possible, així com suport per a tots els operadors alhora.
 
 Recomanem les opcions següents per a l'amplificació de tota la llar:
 
--[WeBoost](https://amzn.to/42chuNG) - $590
--[Hiboost](https://amzn.to/3NPsSL6) - $399
+- [WeBoost](https://amzn.to/42chuNG) - $590
+- [Hiboost](https://amzn.to/3NPsSL6) - $399
 
 Les nostres dues recomanacions ofereixen amplificació per a tota la llar, però en algunes situacions és recomanable comprar antenes interiors addicionals.
 
