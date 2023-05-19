@@ -89,5 +89,5 @@ By following the steps outlined in this article, you can successfully update the
 
 ## References
 
-[Ubiquiti Downloads](https://www.ui.com/download/unifi/) - Official Ubiquiti Downloads page for firmware files.
-[Unifi Advanced Updating Techniques](https://help.ui.com/hc/en-us/articles/204910064-UniFi-Upgrade-the-Firmware-of-a-UniFi-Device)
+- [Ubiquiti Downloads](https://www.ui.com/download/unifi/) - Official Ubiquiti Downloads page for firmware files.
+- [Unifi Advanced Updating Techniques](https://help.ui.com/hc/en-us/articles/204910064-UniFi-Upgrade-the-Firmware-of-a-UniFi-Device)
