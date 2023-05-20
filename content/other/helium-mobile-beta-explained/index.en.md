@@ -78,7 +78,7 @@ If you have a Helium Mobile-compatible device and are interested in joining the 
 
 ## References
 
-[Helium 5G](https://www.helium.com/5G)
-[Hello Helium](https://hellohelium.com/)
-[Helium Mobile Beta - Sign Up](https://hellohelium.com/waitlist)
-[Helium Mobile - Supported Devices](https://support.hellohelium.com/en/articles/7240207-supported-devices)
+- [Helium 5G](https://www.helium.com/5G)
+- [Hello Helium](https://hellohelium.com/)
+- [Helium Mobile Beta - Sign Up](https://hellohelium.com/waitlist)
+- [Helium Mobile - Supported Devices](https://support.hellohelium.com/en/articles/7240207-supported-devices)
