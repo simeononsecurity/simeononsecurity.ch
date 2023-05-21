@@ -10,7 +10,6 @@ coverAlt: "A cybersecurity professional protecting digital systems with a shield
 coverCaption: ""
 ---
 
-
 **Cybersecurity Career Paths and Job Outlook in the Growing Field of Cybersecurity**
 
 ## Introduction
