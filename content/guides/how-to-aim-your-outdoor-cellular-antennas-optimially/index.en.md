@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-05-22
 description: "Learn how to point and aim your directional cellular antenna for optimal signal strength and reliability, including locating cell towers and understanding Fresnel zones."
-tags: ["cellular antenna", "directional antenna", "cell phone booster", "cellular modem", "signal strength", "cell towers", "radio line of sight", "visual line of sight", "Fresnel zones", "antenna aiming", "optimize signal", "cellular connectivity", "improve signal strength", "boost cell signal", "cellular signal booster", "cell tower location", "antenna installation", "signal propagation", "wireless communication", "improved network coverage"]
+tags: ["cellular antenna", "directional antenna", "cell phone booster", "cellular modem", "signal strength", "cell towers", "radio line of sight", "visual line of sight", "Fresnel zones", "antenna aiming", "optimize signal", "cellular connectivity", "improve signal strength", "boost cell signal", "cellular signal booster", "cell tower location", "antenna installation", "signal propagation", "wireless communication", "improved network coverage", "pointing guide", "aiming techniques", "cellular antenna optimization", "signal reliability", "network performance", "cellular signal enhancement", "antenna alignment", "signal optimization tips", "cellular antenna placement", "signal boosting strategies", "antenna pointing instructions"]
 cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
 coverAlt: "Illustration of a person aiming a directional cellular antenna towards a cell tower with signal waves propagating."
 coverCaption: ""
