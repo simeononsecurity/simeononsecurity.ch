@@ -4,7 +4,7 @@ date: 2023-05-27
 toc: true
 draft: false
 description: "Streamline the process of updating Windows systems by automating with Ansible - step-by-step instructions and best practices included."
-tags: ["automating Windows updates", "Ansible automation", "system management", "security patches", "IT infrastructure", "network automation", "configuration management", "IT operations", "DevOps", "cybersecurity", "IT automation", "IT efficiency", "Ansible playbook", "Windows security", "update management", "IT productivity", "IT maintenance", "Ansible credentials", "host configuration", "system automation"]
+tags: ["automating Windows updates", "Ansible automation", "system management", "security patches", "IT infrastructure", "network automation", "configuration management", "IT operations", "DevOps", "cybersecurity", "IT automation", "IT efficiency", "Ansible playbook", "Windows security", "update management", "IT productivity", "IT maintenance", "Ansible credentials", "host configuration", "system automation", "Windows updates", "Windows system management", "Windows security patches", "Windows IT infrastructure", "Windows network automation", "Windows configuration management", "Windows IT operations", "Windows DevOps", "Windows cybersecurity", "Windows IT automation", "Windows IT efficiency"]
 cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
 coverAlt: "An animated illustration showcasing a Windows logo surrounded by gears symbolizing automation and updates."
 coverCaption: ""
