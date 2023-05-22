@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-04-30
 description: "Learn how to bypass the BGW-320 and use a COTS ONT made by Azores to connect to your ISP's network with this easy-to-follow guide."
-tags: ["COTS ONT", "BGW-320", "Azores", "fiber", "network", "XGS-PON", "Ethernet", "IP passthrough", "customization", "ISP", "ont ID", "MAC address", "equipment ID", "image version", "hardware version", "telnet", "CLI application", "web GUI", "factory configuration mode", "compatibility issues"]
+tags: ["COTS ONT", "BGW-320", "Azores", "fiber", "network", "XGS-PON", "Ethernet", "IP passthrough", "customization", "ISP", "ont ID", "MAC address", "equipment ID", "image version", "hardware version", "telnet", "CLI application", "web GUI", "factory configuration mode", "compatibility issues", "bypassing BGW-320", "Azores COTS ONT", "fiber network", "XGS-PON", "Ethernet connectivity", "IP passthrough", "customization guide", "ISP network", "ONT ID configuration", "MAC address settings", "equipment ID customization", "image version configuration", "hardware version setup", "telnet access", "CLI application usage", "web GUI functions", "factory configuration mode", "compatibility issues", "troubleshooting steps", "true IP passthrough", "BGW-320 bypass tutorial", "Azores WAG-D20 guide", "fiber network setup", "ISP connectivity solutions", "network equipment customization", "ONT configuration tutorial", "bypassing ISP gateway", "fiber-to-ONT setup", "COTS ONT usage tips", "network equipment compatibility", "IP passthrough troubleshooting"]
 cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
 coverAlt: "A cartoon technician holding a COTS ONT with a fiber cable in the background."
 coverCaption: ""
