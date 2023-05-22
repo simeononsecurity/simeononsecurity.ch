@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-05-21
 description: "Learn how to install Graphene OS on your Google Pixel device for enhanced privacy and security."
-tags: ["Graphene OS", "Google Pixel", "privacy", "security", "Android", "mobile devices", "operating system", "installation guide", "custom ROM", "privacy-focused", "data protection", "secure OS", "open-source", "device security", "privacy features", "personal data", "mobile privacy", "data privacy", "device customization", "technology"]
+tags: ["Graphene OS", "Google Pixel", "privacy", "security", "Android", "mobile devices", "operating system", "installation guide", "custom ROM", "privacy-focused", "data protection", "secure OS", "open-source", "device security", "privacy features", "personal data", "mobile privacy", "data privacy", "device customization", "technology", "Pixel installation", "privacy-focused operating system", "Graphene OS installation", "mobile security", "privacy and security", "Pixel device customization", "privacy enhancements", "data protection guide", "secure operating system", "Pixel privacy features", "mobile data privacy"]
 cover: "/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png"
 coverAlt: "A colorful cartoon illustration showcasing a Google Pixel device with a shield symbolizing enhanced privacy and security features."
 coverCaption: ""
