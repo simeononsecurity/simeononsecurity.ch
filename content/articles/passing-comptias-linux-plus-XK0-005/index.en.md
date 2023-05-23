@@ -4,7 +4,7 @@ date: 2023-02-23
 toc: true
 draft: false
 description: "Learn valuable tips and tricks to help you pass the CompTIA Linux+ XK0-005 exam and advance your career as a Linux professional."
-tags: ["CompTIA Linux+", "Linux+ exam tips", "Linux+ XK0-005", "Linux+ certification", "security", "scripting", "containers", "automation", "troubleshooting", "system administration", "IT certification", "information technology", "technical skills", "Linux commands", "professional development", "career advancement"]
+tags: ["Linux updates", "Ubuntu", "Debian", "CentOS", "RHEL", "offline updates", "local repository", "cache", "server setup", "client setup", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Linux system updates", "offline package updates", "offline software updates", "local package repository", "local package cache", "offline Linux updates", "handling offline updates", "offline update methods", "offline system maintenance", "Linux server updates", "Linux client updates", "offline software management", "offline package management", "update strategies", "Linux security updates"]
 cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
 coverAlt: "A friendly cartoon Linux penguin confidently walking over a bridge to a successful future."
 coverCaption: ""

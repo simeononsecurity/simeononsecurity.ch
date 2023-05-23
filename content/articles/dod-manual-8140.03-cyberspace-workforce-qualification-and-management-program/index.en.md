@@ -4,7 +4,7 @@ date: 2023-02-15
 toc: true
 draft: false
 description: "Learn about the DoD's Cyberspace Workforce Qualification and Management Program outlined in Manual 8140.03."
-tags: ["DoD Manual 8140.03", "cyberspace workforce", "qualification program", "DoD personnel", "cybersecurity"]
+tags: ["DoD Manual 8140.03", "cyberspace workforce", "qualification program", "DoD personnel", "cybersecurity", "cyberspace qualification", "cyberspace management", "cyberspace workforce development", "DoD cyberspace policies", "cybersecurity workforce", "cybersecurity qualifications", "cybersecurity training", "cybersecurity education", "cybersecurity certifications", "cybersecurity roles", "cybersecurity work roles", "cyber workforce management", "cyberspace work role qualifications", "cyber personnel management", "cyber qualification program", "cyber professional development", "cyberspace workforce proficiency", "cyber personnel certifications", "cyber training requirements", "cybersecurity standards", "cyberspace workforce competence", "cyber threat defense", "information system security", "network security"]
 cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
 coverAlt: "A computer screen displaying a cybersecurity dashboard with graphs and charts reflecting the state of a network's security"
 coverCaption: ""

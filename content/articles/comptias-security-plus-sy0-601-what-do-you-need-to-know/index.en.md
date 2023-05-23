@@ -4,7 +4,7 @@ date: 2023-02-16
 toc: true
 draft: false
 description: "Learn how to pass the CompTIA Security+ SY0-601 exam with tips, study resources, and test-taking strategies."
-tags: ["CompTIA Security+ Exam", "SY0-601", "Cybersecurity Certification", "Exam Objectives", "Test-Taking Strategies", "Study Resources", "Exam Format", "Passing Tips", "Information Security", "Performance-Based Questions"]
+tags: ["Linux updates", "Ubuntu", "Debian", "CentOS", "RHEL", "offline updates", "local repository", "cache", "server setup", "client setup", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Linux system updates", "offline package updates", "offline software updates", "local package repository", "local package cache", "offline Linux updates", "handling offline updates", "offline update methods", "offline system maintenance", "Linux server updates", "Linux client updates", "offline software management", "offline package management", "update strategies", "Linux security updates"]
 cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.png"
 coverAlt: "A person studying with a laptop and books in front of them, representing the preparation required to pass the CompTIA Security+ Certification Exam."
 coverCaption: ""

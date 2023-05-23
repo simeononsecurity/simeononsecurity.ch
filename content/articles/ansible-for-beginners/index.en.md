@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-02-25
 description: "Learn the basics of Ansible, an open-source automation tool that simplifies IT infrastructure management through a declarative language."
-tags: ["Ansible", "IT infrastructure", "automation", "configuration management", "application deployment", "provisioning", "continuous delivery", "security compliance", "orchestration", "YAML", "modules", "roles", "best practices", "version control", "testing", "Red Hat", "system administrators", "Linux", "macOS", "Windows"]
+tags: ["Introduction to Ansible", "Automating IT Infrastructure Management", "Ansible basics", "IT infrastructure automation", "Configuration management", "Application deployment", "Provisioning", "Continuous delivery", "Security compliance", "Orchestration", "YAML", "Ansible modules", "Roles", "Best practices", "Version control", "Testing", "Red Hat", "System administrators", "Linux", "macOS", "Windows", "Ansible installation", "Ansible inventory", "Ansible playbooks", "Ansible modules", "Ansible roles", "Ansible best practices", "Ansible testing", "IT infrastructure automation tool", "Ansible tutorial", "Infrastructure management automation"]
 cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
 coverAlt: "A cartoon character sitting at a desk, surrounded by servers and cables, with Ansible's logo on the computer screen, smiling as tasks are automated."
 coverCaption: ""

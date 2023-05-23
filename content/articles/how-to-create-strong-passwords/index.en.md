@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-05-24
 description: "Learn how to create strong passwords, use passphrases, and manage them securely with password managers like Bitwarden."
-tags: ["strong passwords", "password security", "passphrases", "password managers", "Bitwarden", "online security", "cybersecurity", "password strength", "data protection", "digital security", "password best practices", "password tips", "secure passwords", "password management tools", "online privacy", "protecting accounts", "data security", "password complexity", "password generator", "two-factor authentication"]
+tags: ["strong passwords", "password security", "passphrases", "password managers", "Bitwarden", "online security", "cybersecurity", "password strength", "data protection", "digital security", "password best practices", "password tips", "secure passwords", "password management tools", "online privacy", "protecting accounts", "data security", "password complexity", "password generator", "two-factor authentication", "creating strong passwords", "password management guide", "password security tips", "strong password creation", "password protection", "secure password management", "password manager benefits", "passphrase security", "password manager recommendations", "password manager best practices", "password manager security", "password manager features"]
 cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
 coverAlt: "A cartoon character holding a shield with a lock symbol, representing password security and protection."
 coverCaption: ""

@@ -4,7 +4,7 @@ date: 2023-02-12
 toc: true
 draft: false
 description: "FISMA 101 provides a comprehensive overview of the Federal Information Security Modernization Act, including its key components, benefits, and requirements for federal agencies."
-tags: ["FISMA", "Federal Information Security", "Information Security", "Risk Management", "Security Control Assessment", "Continuous Monitoring", "Incident Response", "Authorization and Accreditation", "Improved Information Security", "Better Risk Management", "Increased Transparency", "Strengthened Collaboration"]
+tags: ["FISMA", "Federal Information Security", "Information Security", "Risk Management", "Security Control Assessment", "Continuous Monitoring", "Incident Response", "Authorization and Accreditation", "Improved Information Security", "Better Risk Management", "Increased Transparency", "Strengthened Collaboration", "US law", "Federal agencies", "Information security programs", "Security controls", "Risk assessments", "Continuous monitoring", "Security incidents", "Transparency and accountability", "Federal Information Security Modernization Act overview", "Benefits of FISMA in federal agencies", "Risk management in federal information security", "Continuous monitoring in FISMA", "Incident response in federal agencies", "Authorization and accreditation process", "Improved information security in federal government", "Collaboration in federal information security", "Transparency in FISMA compliance", "Information security standards for federal agencies"]
 cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
 coverAlt: "A computer screen with a padlock on it, symbolizing information security and protection, with a background of binary code"
 coverCaption: ""

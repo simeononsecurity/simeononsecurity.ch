@@ -4,7 +4,7 @@ date: 2023-02-26
 toc: true
 draft: false
 description: "Learn the best practices for secure coding in Python to minimize the risk of security breaches and protect sensitive data."
-tags: ["Python", "Secure coding", "Security risks", "Input validation", "Cryptography libraries", "Least privilege", "Static code analyzer", "Web applications", "Python frameworks", "Django", "Flask", "Authentication system", "Password hashing", "Template system", "Session management", "MarkupSafe", "WTForms", "Blinker", "Data protection", "Vulnerabilities"]
+tags: ["Python", "Secure coding", "Security risks", "Input validation", "Cryptography libraries", "Least privilege", "Static code analyzer", "Web applications", "Python frameworks", "Django", "Flask", "Authentication system", "Password hashing", "Template system", "Session management", "MarkupSafe", "WTForms", "Blinker", "Data protection", "Vulnerabilities", "Secure coding", "Python", "Security risks", "Input validation", "Cryptography libraries", "Least privilege", "Static code analyzer", "Web applications", "Python frameworks", "Django", "Flask", "Authentication system", "Password hashing", "Template system", "Session management", "MarkupSafe", "WTForms", "Blinker", "Data protection", "Vulnerabilities", "Python code security", "Code review", "Static analysis tools", "Secure web development", "Secure coding practices", "Security vulnerabilities", "Code security best practices", "Data encryption", "Least privilege principle", "Code analysis", "Web security"]
 cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
 coverAlt: "A cartoon shield with the word Python written on it to represent secure coding standards"
 coverCaption: ""
