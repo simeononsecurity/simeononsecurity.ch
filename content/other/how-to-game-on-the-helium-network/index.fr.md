@@ -32,10 +32,10 @@ Le réseau Helium est un réseau LoRaWAN® décentralisé qui compense ceux qui 
 Le réseau Helium s'appuie sur la preuve de couverture pour s'assurer que les hotspots fournissent une couverture là où elle est nécessaire. Cependant, ce système est vulnérable aux jeux, à l'usurpation d'identité, au piratage et à d'autres types de mauvais comportements qui peuvent endommager le réseau. Le problème de jeu sur le réseau Helium coûte aux hôtes légitimes des milliers de $HNT par mois. Helium, Inc, avec DeWi, a pris des mesures agressives au début de 2022 pour aider à éliminer ce problème.
 
 ## Matériel requis
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## Utilisation de MiddleMan pour jouer au réseau Helium
 Une façon de jouer au réseau Helium consiste à utiliser MiddleMan. MiddleMan est un outil logiciel qui peut être utilisé pour créer un faux point d'accès qui semble fournir une couverture à un endroit spécifique. En utilisant MiddleMan, un utilisateur peut créer un faux point d'accès qui recevra des récompenses pour fournir une couverture dans une zone particulière, même si le point d'accès n'est pas physiquement situé dans cette zone.
@@ -44,7 +44,7 @@ Pour utiliser MiddleMan, un utilisateur doit installer le logiciel et créer un 
 
 Vous configurez votre passerelle lorawan pour pointer vers ce logiciel et il manipule les valeurs afin que tous les PoC reçus soient considérés comme valides. L'utilisation du transitaire semtech est l'un des différents standards de la communauté LoraWAN. Résoudre le problème de manipulation nécessiterait de réinventer la roue et de mettre en œuvre leur propre protocole à partir de zéro. Des choses comme les sommes de contrôle et le cryptage empêcheraient que cela se produise. Mais il serait également plus difficile pour les fournisseurs de matériel différent de créer des points d'accès. Sans oublier que c'est un cas d'utilisation pris en charge d'avoir un mineur d'hélium et plusieurs passerelles lora pour une meilleure couverture. Bien qu'il s'agisse davantage d'un problème au niveau de l'entreprise.
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## Utilisation du multiplexeur de paquets Chirp Stack pour jouer au réseau Helium
 Une autre façon de jouer au réseau Helium consiste à utiliser Chirp Stack Packet Multiplexer. Chirp Stack Packet Multiplexer est un outil qui peut être utilisé pour créer un point d'accès virtuel pouvant recevoir des paquets de plusieurs points d'accès physiques. En utilisant Chirp Stack Packet Multiplexer, un utilisateur peut créer un point d'accès virtuel qui reçoit des paquets de points d'accès physiques à plusieurs endroits, ce qui augmentera les récompenses gagnées.
@@ -54,7 +54,7 @@ Pour utiliser Chirp Stack Packet Multiplexer, un utilisateur doit installer le l
 Cela permet plusieurs transitaires entrants et plusieurs passerelles sortantes. Il existe des cas d'utilisation légitimes de ce logiciel dans la communauté LoraWAN, mais son utilisation dans l'hélium est au mieux une zone grise. Cela dépend de la façon dont vous l'utilisez et aussi de votre intention.
 
 La configuration de celui-ci nécessite certains fichiers de configuration. Mais cela peut être fait en 5 minutes ou moins.
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Risques et conséquences du jeu sur le réseau Helium

@@ -22,9 +22,9 @@ ______
 
 ## Remote.it e ngrok
 
-Felizmente, existem **serviços** que podem ajudá-lo a gerenciar nós remotos com mais eficiência. Um desses serviços é o **remote.it**, que permite estabelecer conexões remotas seguras com seus nós sem encaminhamento de porta. Com[remote.it](https://www.remote.it/) você pode se conectar aos seus nós pela Internet, mesmo se eles estiverem atrás de um firewall ou NAT. Isso pode ajudá-lo a gerenciar seus nós com mais eficiência e reduzir o tempo e o esforço necessários para manter o acesso a eles.
+Felizmente, existem **serviços** que podem ajudá-lo a gerenciar nós remotos com mais eficiência. Um desses serviços é o **remote.it**, que permite estabelecer conexões remotas seguras com seus nós sem encaminhamento de porta. Com [remote.it](https://www.remote.it/) você pode se conectar aos seus nós pela Internet, mesmo se eles estiverem atrás de um firewall ou NAT. Isso pode ajudá-lo a gerenciar seus nós com mais eficiência e reduzir o tempo e o esforço necessários para manter o acesso a eles.
 
-Outro serviço que pode ajudá-lo a gerenciar nós remotos é o **ngrok**.[Ngrok](https://ngrok.com/) é um serviço de tunelamento seguro que permite expor um servidor web local à internet. Com o ngrok, você pode criar uma conexão segura com seus nós e gerenciá-los remotamente sem a necessidade de encaminhamento de porta. Isso pode ser particularmente útil se você estiver gerenciando nós que estão atrás de um firewall ou NAT.
+Outro serviço que pode ajudá-lo a gerenciar nós remotos é o **ngrok**. [Ngrok](https://ngrok.com/) é um serviço de tunelamento seguro que permite expor um servidor web local à internet. Com o ngrok, você pode criar uma conexão segura com seus nós e gerenciá-los remotamente sem a necessidade de encaminhamento de porta. Isso pode ser particularmente útil se você estiver gerenciando nós que estão atrás de um firewall ou NAT.
 
 ______
 
@@ -38,13 +38,13 @@ ______
 
 Ao gerenciar nós remotos, especialmente se estiverem expostos à Internet, é importante garantir que estejam seguros e protegidos contra acesso não autorizado. Uma maneira de fazer isso é usar a **autenticação de certificado** para autenticar as conexões com os nós. A autenticação de certificado é uma alternativa mais segura à autenticação de senha tradicional, pois requer um certificado digital para verificar a identidade do dispositivo conectado.
 
-Além da autenticação do certificado, também é importante ter[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) instalado em seus nós. Fail2ban é uma ferramenta que pode detectar e prevenir ataques de força bruta em seus nós, bloqueando endereços IP que tentam se conectar sem sucesso. Com o fail2ban instalado, você pode reduzir o risco de acesso não autorizado aos seus nós e garantir que eles permaneçam seguros.
+Além da autenticação do certificado, também é importante ter [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) instalado em seus nós. Fail2ban é uma ferramenta que pode detectar e prevenir ataques de força bruta em seus nós, bloqueando endereços IP que tentam se conectar sem sucesso. Com o fail2ban instalado, você pode reduzir o risco de acesso não autorizado aos seus nós e garantir que eles permaneçam seguros.
 
 ______
 
 ## Snort
 
-Outra ferramenta que pode ajudá-lo a gerenciar seus nós de forma eficaz é[Snort](https://www.snort.org/) O Snort é um sistema de detecção de intrusão de rede de código aberto que pode ajudá-lo a detectar e impedir que ameaças entrem e saiam de seus nós. Ao ter o Snort instalado em seus nós, você pode ser alertado sobre qualquer atividade suspeita e tomar medidas para mitigar possíveis ameaças. Isso pode ajudá-lo a manter seus nós seguros e evitar qualquer dano ao seu sistema.
+Outra ferramenta que pode ajudá-lo a gerenciar seus nós de forma eficaz é [Snort](https://www.snort.org/) O Snort é um sistema de detecção de intrusão de rede de código aberto que pode ajudá-lo a detectar e impedir que ameaças entrem e saiam de seus nós. Ao ter o Snort instalado em seus nós, você pode ser alertado sobre qualquer atividade suspeita e tomar medidas para mitigar possíveis ameaças. Isso pode ajudá-lo a manter seus nós seguros e evitar qualquer dano ao seu sistema.
 
 ______
 

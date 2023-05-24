@@ -19,13 +19,13 @@ In Verbindung zu bleiben ist für die meisten von uns zu einer Notwendigkeit gew
 
 Der [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Es hilft nur, wenn Sie in oder in der Nähe eines Fensters eine gute oder brauchbare Abdeckung haben und nicht in einem anderen Bereich des Hauses. Es funktioniert am besten, wenn Sie die Abdeckung gleichmäßiger in einer Wohnung verteilen möchten.
 
-Sie werden von einer Firma namens hergestellt[Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) Es gibt andere bessere Optionen, die Optionen und/oder Unterstützung für andere Netzbetreiber bieten, die wir weiter unten besprechen werden.
+Sie werden von einer Firma namens hergestellt [Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) Es gibt andere bessere Optionen, die Optionen und/oder Unterstützung für andere Netzbetreiber bieten, die wir weiter unten besprechen werden.
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
 {{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
 
-Der[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) Optionen erfordern eine gewisse Installation. Sie erfordern die Installation eines Masts, eines Erdungsstabs, eines Blitzableiters, eines Verstärkers und einer oder mehrerer Zimmerantennen. Sie bieten das bestmögliche Signal, funktionieren aber nicht, wenn in Ihrer Gegend überhaupt kein Signal vorhanden ist. Sie bewirken im Durchschnitt etwa 60 dB zusätzlichen Gewinn, können aber bis zu 100 dB erreichen. Dies ist definitiv die beste dauerhafte Lösung, da Sie die größtmögliche Signalverbesserung sowie gleichzeitige Unterstützung für alle Netzbetreiber erhalten.
+Der [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) Optionen erfordern eine gewisse Installation. Sie erfordern die Installation eines Masts, eines Erdungsstabs, eines Blitzableiters, eines Verstärkers und einer oder mehrerer Zimmerantennen. Sie bieten das bestmögliche Signal, funktionieren aber nicht, wenn in Ihrer Gegend überhaupt kein Signal vorhanden ist. Sie bewirken im Durchschnitt etwa 60 dB zusätzlichen Gewinn, können aber bis zu 100 dB betragen. Dies ist definitiv die beste dauerhafte Lösung, da Sie die größtmögliche Signalverbesserung sowie gleichzeitige Unterstützung für alle Netzbetreiber erhalten.
 
 Wir empfehlen die folgenden Optionen für die Verstärkung im ganzen Haus:
 
@@ -46,17 +46,17 @@ Sie funktionieren am besten, wenn in der Gegend kein Mobilfunkempfang besteht.
 Der Nachteil ist, dass **Sie nicht auswählen können, welche Geräte eine Verbindung zur Femtozelle herstellen können**. Das bedeutet, dass alle Mobilfunkgeräte, die eine Verbindung herstellen, Ihre Internetbandbreite nutzen. Die gesamte Kommunikation zum Netzbetreiber erfolgt jedoch über gesichertes IPSec-VPN. Sie sind in dieser Hinsicht also relativ sicher.
 Darüber hinaus bieten Mobilfunkanbieter diese an, **für die eine Vorauszahlung von etwa 300 US-Dollar erforderlich ist**, die jedoch je nach der Anzahl der zu unterstützenden Geräte auch höher ausfallen können.
  
--[AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
--[Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
--[T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - Für die Bestellung ist ein Anruf oder ein Besuch in einem T-Mobile Store erforderlich
+- [AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
+- [Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
+- [T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - Für die Bestellung ist ein Anruf oder ein Besuch in einem T-Mobile Store erforderlich
 
-In der Zwischenzeit können Sie[get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) Abhängig davon, welches Modell Sie möchten und welchen Träger Sie unterstützen müssen. Die meisten Netzbetreiber verlangen jedoch eine Registrierung des Geräts.
+In der Zwischenzeit können Sie [get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) Abhängig davon, welches Modell Sie möchten und welchen Träger Sie unterstützen müssen. Die meisten Netzbetreiber verlangen jedoch eine Registrierung des Geräts.
 
 Schließlich ist für einige FemtoCell-Geräte eine Registrierung erforderlich:
 
--[Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
--[Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
--[Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
+- [Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
+- [Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
+- [Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
 
 {{< youtube id="IXLnAoi8yZY" >}}
 

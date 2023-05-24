@@ -23,32 +23,32 @@ ______
 
 **sound.mp3** বাজানো, আপনি একটি পরিচিত শব্দ শুনতে পাবেন। আপনি যদি **DTMF** (ডুয়াল টোন মাল্টি ফ্রিকোয়েন্সি) টোন শুনতে পাচ্ছেন এমন শব্দগুলি আপনি পরিচিত না হন। পে ফোনে ডায়াল করার সময় বা স্বয়ংক্রিয় টেলার মেনুতে যাওয়ার সময় আপনি একই টোন শুনতে পান।
 
-প্রতিটি স্বরের একটি নির্দিষ্ট ফ্রিকোয়েন্সি আছে। আপনি ম্যানুয়ালি নম্বর পেতে পারেন, কিন্তু এর জন্য কার সময় আছে?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+প্রতিটি স্বরের একটি নির্দিষ্ট ফ্রিকোয়েন্সি আছে। আপনি ম্যানুয়ালি নম্বর পেতে পারেন, কিন্তু এর জন্য কার সময় আছে? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-রূপান্তরিত ফাইল নিন[DialABC](http://www.dialabc.com/sound/detect/index.html) এবং আপনি নিম্নলিখিত আউটপুট পাবেন:
+রূপান্তরিত ফাইল নিন [DialABC](http://www.dialabc.com/sound/detect/index.html) এবং আপনি নিম্নলিখিত আউটপুট পাবেন:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+লক্ষ্য করুন যে আপনি যদি অডিও ফাইলটি মনোযোগ সহকারে শোনেন বা এটিকে **Audacity** বা **Sonic Visualizer**-এ খোলেন যে, একটি ব্যতিক্রম ছাড়া, সংখ্যা দুটির দলে জোড়া হয়েছে।
+আপনি যদি নম্বরটি আলাদা করেন তবে আপনি নিম্নলিখিতগুলি পাবেন:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+এইভাবে সংগঠিত, আপনি বিভ্রান্ত হতে পারেন এবং মনে করতে পারেন যে এটি HEX হতে পারে। এটা না.
+সংখ্যার প্রতি গভীর মনোযোগ দিন। সংখ্যার প্রতিটি গ্রুপিং ভাগ করে কোন গাণিতিক বৈশিষ্ট্য?...
+তারা সব মৌলিক সংখ্যা. যা আপনাকে কম পরিচিত **প্রাইম নম্বর সাইফার** চেষ্টা করার জন্য নিয়ে আসবে।
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+আমরা ব্যবহার করব [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) এই চ্যালেঞ্জ সম্পূর্ণ করতে।
+আমরা এটিকে আলাদা করার আগে থেকে সাইফার পাঠ্যটি জমা দিন এবং আপনি পতাকাটি পাবেন।
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### পতাকা উদাহরণ:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

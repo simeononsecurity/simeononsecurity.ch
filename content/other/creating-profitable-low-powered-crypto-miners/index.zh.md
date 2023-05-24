@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-02-07
 description: "了解如何使用 Raspberry Pi 或英特尔 NUC 设置低功率被动收入加密矿工，并通过本指南每月每箱赚取 10-20 美元"
-tags: ["建立一个有利可图的被动收入箱", "低功耗硬件", "被动收入", "加密矿工", "树莓派", "英特尔 NUC", "指导", "硬件要求", "操作系统安装", "软件安装", "码头工人", "自动 Docker 容器更新", "Ubuntu 服务器", "Ubuntu桌面", "树莓派", "预算", "USFF", "微小的", "小型的", "微型电脑", "技术经验", "赚应用程序", "神秘岛", "Peer2Profit", "蜂蜜增益", "TraffMonitizer", "岗楼", "咬咬牙"]
+tags: ["建立一个有利可图的被动收入箱", "低功耗硬件", "被动收入", "加密矿工", "树莓派", "英特尔 NUC", "指导", "硬件要求", "操作系统安装", "软件安装", "码头工人", "自动 Docker 容器更新", "Ubuntu 服务器", "Ubuntu桌面", "树莓派", "预算", "USFF", "微小的", "小型的", "微型电脑", "技术经验", "赚应用程序", "神秘岛", "Peer2Profit", "蜂蜜增益", "TraffMonitizer", "岗楼", "咬咬牙", "Linux 更新", "Ubuntu", "德比安", "中央操作系统", "RHEL", "离线更新", "本地存储库", "缓存", "服务器设置", "客户端设置", "镜像", "debmirror", "创建仓库", "apt-缓存-ng", "yumcron", "Linux 系统更新", "离线包更新", "离线软件更新", "本地包存储库", "本地包缓存", "离线 Linux 更新", "处理离线更新", "离线更新方法", "离线系统维护", "Linux 服务器更新", "Linux 客户端更新", "离线软件管理", "离线包管理", "更新策略", "Linux 安全更新"]
 cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
 coverAlt: "一块绿色的电路板，形状像一个盒子，上面有互联网连接符号，就像连接到它的电线一样。"
 coverCaption: ""
@@ -19,31 +19,31 @@ coverCaption: ""
 以下之一是必需的。我们基本上只需要我们可以得到的任何高效低功耗的计算机。任何 Raspberry PI、Intel NUC 或类似产品都可以。他们不必那么强大。但是我建议您至少有 32g-64g 的存储空间、4g 的 ram 和至少 2 个 cpu 线程。为此，我们将硬件预算定在 100-200 美元左右，但如果满足您的需求，您可以随意提高预算。我们的功率目标是大约。平均25w。
 ### 树莓派：
 这些天很难掌握，但它们的功率超低并且非常可定制。有关如何在 Raspberry PI 上安装 raspian 的信息
--[Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
--[GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
--[GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
+- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
+- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
 ### 英特尔 Nuc：
 那里有各种各样的模型。随意选择一个较新的。
--[Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
--[Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
--[Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
+- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
+- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
+- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
 ### 任何 USFF/Tiny/Mini/Micro PC：
--[Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
--[Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
+- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
 ### 任何配备 Intel N5100 或类似处理器的迷你电脑
 对于超低功耗 Raspberry Pi 等效但在 x64 平台上。
--[Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
--[TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ##操作系统安装：
-我们不会在这里深入探讨如何安装操作系统的技术细节。但是这里有一些很棒的资源可以帮助您入门
+我们不会在这里讨论如何安装操作系统的技术细节。但是这里有一些很棒的资源可以帮助您入门
 ### 树莓派：
--[Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
--[The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
+- [Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+- [The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
 ### Ubuntu：
--[Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
--[Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
--[Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
+- [Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+- [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
+- [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
 
 ## 软件安装：
@@ -57,8 +57,8 @@ coverCaption: ""
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
-### Installing Docker:
-We need to uninstall any existing versions that come prepackaged with the os and install the latest from Docker's repo themselves.
+### 安装 Docker：
+我们需要卸载操作系统预打包的任何现有版本，并从 Docker 的存储库中自行安装最新版本。
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -76,8 +76,8 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### Install Watchtower:
-This docker container automatically updates all your docker containers to the latest images on a regular interval and cleans up old (stale) images.
+### 安装守望台：
+此 docker 容器会定期自动将所有 docker 容器更新为最新图像，并清理旧（陈旧）图像。
 ```bash
 docker run -d \
     --name watchtower \
@@ -88,98 +88,98 @@ docker run -d \
     --cleanup 
 ```
 
-### Install Bitping:
+### 安装比特：
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
 
-Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
-This averages about 0.1 Cents per day per node. Not a lot I know, but it has potential and payouts are easy. 
+Bitping 为您提供了在 Solana 中获得报酬的能力，因为它为企业提供了一个节点，可以从您的网络运行轻量级网络测试。
+这平均每个节点每天约 0.1 美分。我知道的不多，但它有潜力，而且回报很容易。
 
-#### Create an account:
-Create an account at [bitping.com](https://bitping.com)
+＃＃＃＃ 创建一个帐户：
+创建一个帐户 [bitping.com](https://bitping.com)
 
-#### Install the docker container:
-Step 1. Run these commands first as it walks you through setting up your container and asks you to sign in.
+#### 安装 docker 容器：
+第 1 步。首先运行这些命令，因为它会引导您设置容器并要求您登录。
 ```bash
 docker pull bitping/bitping-node
 mkdir $HOME/.bitping/
 docker run -it --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
-Hit CTRL+C on your keyboard to escape the container following signing in with your bitping account.
+使用您的 bitping 帐户登录后，按键盘上的 CTRL+C 以退出容器。
 
-Step 2. Run this command to persist the container in the background
+步骤 2. 运行此命令以在后台持久化容器
 ```bash
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
 
-### Install Earn App:
+### 安装赚取应用程序：
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
 
-Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
+Earn 应用程序可让您将互联网作为 VPN 服务共享，以获得数量惊人的奖励。每个住宅 IP 每个节点平均每月约 5 美元。通过贝宝和亚马逊礼品卡提供付款。
 
-#### Create an Earn App Account:
-Create an account at [earnapp.com](https://earnapp.com/i/c1dllee).
-*Warning, requires a google account*
+#### 创建一个赚取的应用程序帐户：
+创建一个帐户 [earnapp.com](https://earnapp.com/i/c1dllee)
+*警告，需要一个谷歌帐户*
 
-#### Install the non docker version of the app to get your UUID:
-Be sure to uninstall after you get your UUID otherwise you'll end up running it twice on the same host and without automatic updates
+#### 安装应用程序的非 docker 版本以获取你的 UUID：
+确保在获得 UUID 后卸载，否则你最终会在同一台主机上运行它两次并且没有自动更新
 - [Instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)
 
-#### Install the docker container:
-Modify the string before pasting into your terminal. You need to specify your earn app UUID.
+#### 安装 docker 容器：
+在粘贴到终端之前修改字符串。您需要指定您的 earn app UUID。
 ```bash
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
-#### Video Tutorial:
+#### 视频教程：
 {{< youtube id="tt499o0OjGU" >}}
 
-### Install Honey Gain:
+### 安装蜂蜜增益：
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
 
-Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
+Honey Gain 让您可以将您的互联网作为 VPN 服务共享，以获得惊人的奖励。每个住宅 IP 每个节点平均每月约 5 美元。支出可能很复杂。在决定使用这个容器之前进一步阅读它
 
-#### Create a Honey Gain Account:
-Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
+#### 创建蜂蜜增益帐户：
+创建一个帐户 [honeygain.com](https://r.honeygain.me/DAVID07A75)
 
-#### Install the Docker Container:
-Modify the string with the obvious email, password, and device name before pasting into the terminal
+#### 安装 Docker 容器：
+在粘贴到终端之前用明显的电子邮件、密码和设备名称修改字符串
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
-#### Alternate instructions for Raspberry Pi
+#### Raspberry Pi 的替代说明
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
 
-#### Video Tutorial:
+#### 视频教程：
 {{< youtube id="Wd11M0nSy1k" >}}
 
-### Install PawnsApp:
+### 安装 PawnsApp：
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
-Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
+Pawns 应用程序，与此处列出的其他应用程序类似，提供向您支付共享互联网的费用。最低支出为 5 美元。每个节点每个 IP 的平均支出为每月 0.50 美元。
 
-#### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+#### 创建一个 PawnsApp 帐户：
+创建一个帐户 [https://pawns.app](https://pawns.app/?r=sos)
 
-#### Install the Docker Container:
+#### 安装 Docker 容器：
 
-Modify the following with your email, password, device name, and device id before copying to your terminal.
+在复制到您的终端之前，使用您的电子邮件、密码、设备名称和设备 ID 修改以下内容。
 ```bash
 docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Install Peer 2 Profit:
+### 安装 Peer 2 利润：
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
 
-Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
-Offers a variety of payouts including money orders, BTC, LTC, LTC, MATIC, etc.
+与 EarnApp 和 HoneyGain 类似，Peer2Profit 共享您的互联网用于 VPN 和抓取目的。每个 IP 每个节点每个月赚取大约 1 美元。
+提供多种支付方式，包括汇票、BTC、LTC、LTC、MATIC 等。
 
-#### Create a Peer 2 Profit Account:
-Create an account at [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+#### 创建 Peer 2 利润账户：
+创建一个帐户 [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
 
-#### Install the Docker Container:
+#### 安装 Docker 容器：
 ```bash
 export P2P_EMAIL="your_email_without_quotes"; 
 docker rm -f peer2profit || true && docker run -td --restart always \
@@ -187,47 +187,47 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
-#### Video Tutorial:
+#### 视频教程：
 {{< youtube id="J_rSV5N8aQk" >}}
 
 
-### Install Repocket:
+### 安装 Repocket：
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
-Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+与此处的其他产品类似。最低 20 美元的支出。支出可能很复杂。自己研究看看是否要使用此服务。每个节点每个盒子每月的支出平均约为 1 美元。
 
-#### Create a Repocket Account:
-Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
-#### Install the Docker Container:
-Modify the following line with your email and api key before pasting into your terminal.
+#### 创建一个 Repocket 帐户：
+创建一个帐户 [repocket.co](https://link.repocket.co/pyqL) 并从您的仪表板中获取您的 api 密钥。
+#### 安装 Docker 容器：
+在粘贴到您的终端之前，使用您的电子邮件和 api 密钥修改以下行。
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
-#### Video Tutorial:
+#### 视频教程：
 {{< youtube id="171gWknfAbY" >}}
 
-### Install Traff Monetizer:
+### 安装 Traff Monetizer：
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
 
-Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
+与 EarnApp 和 HoneyGain 类似，TraffMonetizer 向您支付费用以共享您的互联网。每个节点每个 IP 平均每月约 2 美元。仅提供 BTC 支付。
 
-#### Create your Traff Monetizer Account:
-Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
-Once you get into the dashboard, make note of your application token.
+#### 创建您的 Traff Monetizer 帐户：
+创建您的帐户 [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+进入仪表板后，请记下您的应用程序令牌。
 
-#### Install the Docker Container:
-Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
+#### 安装 Docker 容器：
+复制以下字符串并附加您在粘贴到终端之前从仪表板获得的令牌。
 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
-### Install Mysterium:
-[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
-Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
+### 安装神秘：
+[Mysterium](https://www.mysterium.network/) 是建立在 Etherium 和 Polygon 区块链上的去中心化 VPN 和网络抓取服务。
+平均每月支付 1-20 美元，具体取决于每个 IP 每个节点的多个因素。设置激活节点的费用为 1.XX 美元。以 MYST 代币支付。
 
 
-#### Install the Docker Container:
+#### 安装 Docker 容器：
 ```bash
 docker volume create myst_data
 docker run -td --cpus=1 --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 --hostname myst --cap-add NET_ADMIN --network=host -p 4449:4449 -p 59850-60000:59850-60000 --name myst --device=/dev/net/tun  -v myst_data:/var/lib/mysterium-node mysteriumnetwork/myst:latest --udp.ports=59850:60000 service --agreed-terms-and-conditions
@@ -235,35 +235,35 @@ ufw allow 4449
 ufw allow 59850:60000/tcp
 ```
 
-#### Setup the Docker Container:
-Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+#### 设置 Docker 容器：
+通过将“nodeip”替换为您节点的 IP 地址，转到 http://"nodeip"/#/dashboard。您可以通过在终端中键入“ifconfig”来找到它。
 
-Click “start node setup”.
+单击“开始节点设置”。
 
-Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+将您要接收奖励的ERC20钱包地址填入，点击“下一步”。您可以使用标准的以太坊地址，例如您的 MetaMask 地址之一。
 
-Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+输入您以后将用于访问此节点仪表板的密码。请务必选中该复选框以声明您网络中的节点。
 
-Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
+单击“在此处获取”链接并找到您的 API 密钥。复制它。回去贴一下。单击“保存并继续”。
 
-#### Port Forwarding:
-We can not describe how to port forward for everyone's specific hardware. Here are some resources to learn how to port forward.
+＃＃＃＃ 转发端口：
+我们无法描述如何为每个人的特定硬件进行端口转发。这里有一些学习如何移植的资源。
 - [PortForward.com](https://portforward.com/)
 - [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
 
 
-### Auto Restart Docker Containers on Boot:
+### 在启动时自动重启 Docker 容器：
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
 
-### Optional Configurations:
+### 可选配置：
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
 - [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
-#### Increase security by blocking malware and trackers.
-Force all dns requests to Cloudflares malware and tracking protection dns.
-Also, block DNS/HTTPS requests.
-*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
+#### 通过阻止恶意软件和跟踪器来提高安全性。
+强制所有对 Cloudflares 恶意软件和跟踪保护 dns 的 DNS 请求。
+此外，阻止 DNS/HTTPS 请求。
+*如果你在网络上有更高级的路由器或防火墙，你甚至可以使用像 snort/securita 这样的包来创建更高级的规则来阻止已知的不良 IP、Tor 访问、种子、一般的 p2p 流量等。这是非常好的建议但不是必需的。*
 ```bash
 # Allow ssh still
 sudo ufw allow 22
@@ -301,7 +301,7 @@ iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
 sudo iptables-save
 sudo ufw enable
 ```
-For more advanced ToR blocking you can do the following:
+对于更高级的 ToR 阻止，您可以执行以下操作：
 ```bash
 #https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
 sudo apt-get -y install ipset

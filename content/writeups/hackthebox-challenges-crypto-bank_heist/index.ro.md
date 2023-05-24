@@ -10,7 +10,7 @@ coverAlt: "o ușă a seifului din desene animate fiind descuiată cu o cheie car
 coverCaption: ""
 ---
 
-Un ghid cuprinzător pentru rezolvarea provocării „Bank Heist” Crypto pe HackTheBox. Provocarea implică decodarea unui text de criptare T9 sau Multitap folosind Decode.fr și a unui text de criptare atbash folosind CyberChef pentru a dezvălui steagul. O lectură obligatorie pentru profesioniștii în domeniul securității cibernetice care aspiră și pentru toți cei care doresc să-și îmbunătățească abilitățile în criptografie.
+Un ghid cuprinzător pentru rezolvarea provocării „Bank Heist” Crypto pe HackTheBox. Provocarea implică decodarea unui text cifru T9 sau Multitap folosind Decode.fr și a unui text cifru atbash folosind CyberChef pentru a dezvălui steag. O lectură obligatorie pentru profesioniști în domeniul securității cibernetice care aspiră și pentru oricine dorește să-și îmbunătățească abilitățile în criptografie.
 
 ## Fișiere furnizate:
 
@@ -24,28 +24,28 @@ Pentru această provocare, vi se oferă următorul text cifrat:
 
 ______
 
-## Walk Through:
+## Plimbare prin:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**Foarte clar, acesta este fie un cifr T9, fie Multitap.**
+Multitap este însă cifrul în acest caz. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) are un instrument pentru a decoda asta.
 
-You'll get this plain text:
+Veți primi acest text simplu:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+**Ce este acel gunoi la sfârșit pe care ai putea să o întrebi? Ei bine, este de fapt un text cifrat atbash.**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+Vom folosi [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) pentru a descifra încă o dată. Atunci ai steagul tău. Vai!
 
 ______
 
-### Flag Example:
+### Exemplu de semnalizare:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

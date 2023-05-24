@@ -32,19 +32,19 @@ Helium 网络是一个去中心化的 LoRaWAN® 网络，通过奖励 Helium 代
 Helium 网络依靠覆盖证明来确保热点在需要的地方提供覆盖。但是，该系统容易受到游戏、欺骗、黑客攻击和其他可能损害网络的不良行为的影响。 Helium 网络上的游戏问题使合法主机每月损失数千美元 HNT。 Helium, Inc 与 DeWi 已在 2022 年初采取积极行动，帮助根除这一问题。
 
 ## 所需硬件
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## 使用 MiddleMan 来博弈 Helium 网络
-玩 Helium 网络的一种方法是使用 MiddleMan。 MiddleMan 是一种软件工具，可用于创建伪造的热点，该热点似乎在特定位置提供覆盖。通过使用 MiddleMan，用户可以创建一个假热点，该热点将因在特定区域提供覆盖而获得奖励，即使该热点实际上并不位于该区域。
+玩 Helium 网络的一种方法是使用 MiddleMan。 MiddleMan 是一种软件工具，可用于创建伪造的热点，该热点似乎在特定位置提供覆盖。通过使用 MiddleMan，用户可以创建一个假热点，即使该热点实际上并不位于该区域，该热点也会因在特定区域提供覆盖而获得奖励。
 
 要使用 MiddleMan，用户需要安装该软件并创建一个假热点。然后，用户可以配置热点以使用 GPS 欺骗工具向 Helium 网络报告其位置。 Helium 网络会认为假热点在指定位置提供覆盖，并会奖励用户 $HNT。
 
-您可以将您的 lorawan 网关设置为指向该软件，它会操纵这些值，以便所有收到的 PoC 都被视为有效。使用 semtech 转发器是 LoraWAN 社区中的各种标准之一。解决操纵问题需要重新发明轮子并从头开始实施他们自己的协议。校验和和加密之类的东西可以防止这种情况发生。但也会让拥有不同硬件的供应商更难制作热点。更不用说它是一个受支持的用例，拥有一个氦气矿工和多个 lora 网关以提高覆盖率。尽管这更多是企业级问题。
+您可以将您的 lorawan 网关设置为指向该软件，它会操纵这些值，以便所有收到的 PoC 都被视为有效。使用 semtech 转发器是 LoraWAN 社区中的各种标准之一。解决操纵问题需要重新发明轮子并从头开始实施他们自己的协议。校验和和加密之类的东西可以防止这种情况发生。但也会让拥有不同硬件的供应商更难制作热点。更不用说它是一个受支持的用例，拥有一个氦气矿工和多个 lora 网关以提高覆盖范围。尽管这更多是企业级问题。
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## 使用 Chirp 堆栈数据包多路复用器来玩 Helium 网络
 另一种玩 Helium 网络的方法是使用 Chirp Stack Packet Multiplexer。 Chirp Stack Packet Multiplexer 是一种可用于创建虚拟热点的工具，可以从多个物理热点接收数据包。通过使用 Chirp Stack Packet Multiplexer，用户可以创建一个虚拟热点，从多个位置的物理热点接收数据包，这将增加获得的奖励。
@@ -54,11 +54,11 @@ Helium 网络依靠覆盖证明来确保热点在需要的地方提供覆盖。�
 这允许多个转发器输入和多个网关输出。 LoraWAN 社区中有此软件的合法用例，但在氦气中使用它最多是一个灰色区域。这取决于您如何使用它以及您的意图。
 
 设置这个需要一些配置文件。但它可以在 5 分钟或更短的时间内完成。
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## 博弈 Helium 网络的风险和后果
-玩 Helium 网络是一项有风险的非法活动，可能会产生严重后果。 Helium, Inc 与 DeWi 一起积极致力于检测和防止网络游戏，被发现玩网络游戏的用户将受到处罚。
+玩 Helium 网络是一项有风险的非法活动，可能会造成严重后果。 Helium, Inc 与 DeWi 一起积极致力于检测和防止网络游戏，被发现玩网络游戏的用户将受到处罚。
 
 对 Helium 网络进行游戏的处罚可能包括失去对网络的访问权限、永久禁止热点以及丢失通过游戏赚取的任何 $HNT。此外，对 Helium 网络进行游戏会破坏网络的完整性，并损害为网络提供有价值覆盖的合法主机。
 

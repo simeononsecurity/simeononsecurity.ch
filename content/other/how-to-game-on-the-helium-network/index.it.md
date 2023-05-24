@@ -32,10 +32,10 @@ La rete Helium è una rete LoRaWAN® decentralizzata che compensa coloro che osp
 La rete Helium si basa su Proof of Coverage per garantire che gli hotspot forniscano copertura dove è necessario. Tuttavia, questo sistema è vulnerabile a giochi, spoofing, hacking e altri tipi di comportamenti scorretti che possono danneggiare la rete. Il problema del gioco sulla rete Helium sta costando agli host legittimi migliaia di $ HNT al mese. Helium, Inc, insieme a DeWi, ha intrapreso un'azione aggressiva all'inizio del 2022 per aiutare a sradicare questo problema.
 
 ## Hardware richiesto
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## Utilizzo di MiddleMan per giocare alla rete Helium
 Un modo per giocare alla rete Helium è usare MiddleMan. MiddleMan è uno strumento software che può essere utilizzato per creare un falso hotspot che sembra fornire copertura in una posizione specifica. Utilizzando MiddleMan, un utente può creare un falso hotspot che riceverà ricompense per fornire copertura in una particolare area, anche se l'hotspot non si trova fisicamente in quella zona.
@@ -44,17 +44,17 @@ Per utilizzare MiddleMan, un utente deve installare il software e creare un fals
 
 Dovresti impostare il tuo gateway lorawan in modo che punti a questo software e manipola i valori in modo che tutti i PoC ricevuti siano considerati validi. L'utilizzo dello spedizioniere semtech è uno dei vari standard nella comunità LoraWAN. Risolvere il problema della manipolazione richiederebbe di reinventare la ruota e implementare il proprio protocollo da zero. Cose come checksum e crittografia impedirebbero che ciò accada. Ma renderebbe anche più difficile per i fornitori con hardware diverso creare hotspot. Per non parlare del fatto che è un caso d'uso supportato avere un minatore di elio e più gateway lora per una migliore copertura. Anche se questo è più un problema a livello aziendale.
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## Utilizzo del multiplexer di pacchetti Chirp Stack per giocare alla rete Helium
 Un altro modo per giocare alla rete Helium è utilizzare Chirp Stack Packet Multiplexer. Chirp Stack Packet Multiplexer è uno strumento che può essere utilizzato per creare un hotspot virtuale in grado di ricevere pacchetti da più hotspot fisici. Utilizzando Chirp Stack Packet Multiplexer, un utente può creare un hotspot virtuale che riceve pacchetti da hotspot fisici in più posizioni, il che aumenterà i premi guadagnati.
 
-Per utilizzare Chirp Stack Packet Multiplexer, un utente deve installare il software e configurarlo per ricevere pacchetti da hotspot fisici o gateway lorawan in più posizioni. L'hotspot riceverà i pacchetti e segnalerà la sua posizione alla rete Helium, che ricompenserà l'utente con $HNT.
+Per utilizzare Chirp Stack Packet Multiplexer, un utente deve installare il software e configurarlo per ricevere pacchetti da hotspot fisici o gateway lorawan in più posizioni. L'hotspot riceverà i pacchetti e segnalerà la sua posizione alla rete Helium, che ricompenserà l'utente con $ HNT.
 
 Ciò consente l'ingresso di più spedizionieri e l'uscita di più gateway. Esistono casi d'uso legittimi per questo software nella comunità LoraWAN, ma il suo utilizzo nell'elio è nella migliore delle ipotesi un'area grigia. Dipende da come lo usi e anche da quale sia il tuo intento.
 
 L'impostazione di questo richiede alcuni file di configurazione. Ma può essere fatto in 5 minuti o meno.
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Rischi e conseguenze del gioco sulla rete Helium

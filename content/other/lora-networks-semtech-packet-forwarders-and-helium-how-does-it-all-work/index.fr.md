@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-02-17
 description: "Découvrez les avantages de l'intégration du réseau LoRa avec Helium pour les appareils IoT et les industries telles que les villes intelligentes, l'agriculture et la logistique."
-tags: ["Réseau LoRa", "Intégration d'hélium", "Transitaires de paquets Semtech", "Applications IdO", "LPWAN", "modulation à spectre étalé", "passerelles", "nuage", "Protocole LoRaWAN", "infrastructure de réseau", "points chauds", "capteurs", "sécurité Internet", "géolocalisation", "mécanisme incitatif", "Villes intelligentes", "agriculture", "logistique", "Développement IdO", "communication longue distance"]
+tags: ["Réseau LoRa", "Intégration d'hélium", "Transmetteurs de paquets Semtech", "Applications IdO", "LPWAN", "modulation à spectre étalé", "passerelles", "nuage", "Protocole LoRaWAN", "infrastructure de réseau", "points chauds", "capteurs", "sécurité Internet", "géolocalisation", "mécanisme incitatif", "Villes intelligentes", "agriculture", "logistique", "Développement IdO", "communication longue portée"]
 cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png"
 coverAlt: "Une illustration stylisée d'un paysage urbain avec divers appareils IoT connectés à un réseau représenté comme un réseau de lumière, avec le logo Helium bien en vue."
 coverCaption: ""
@@ -17,11 +17,11 @@ Avec la demande toujours croissante d'appareils connectés, **le réseau LoRa** 
 
 **Le réseau LoRa** est un réseau étendu à faible consommation d'énergie (LPWAN) conçu spécifiquement pour les applications IoT. Il se compose de trois composants principaux : les nœuds, les passerelles et le cloud. Les **nœuds** sont des appareils qui transmettent des données vers le cloud, tandis que les **passerelles** sont responsables de la réception des données des nœuds et de leur transmission vers le cloud.
 
-**La technologie LoRa** utilise une technique de modulation à spectre étalé qui lui permet de transmettre des données sur de longues distances tout en consommant peu d'énergie. La technologie fonctionne sur un spectre sans licence, ce qui signifie que les utilisateurs n'ont pas à payer une licence pour l'utiliser.
+La **technologie LoRa** utilise une technique de modulation à spectre étalé qui lui permet de transmettre des données sur de longues distances tout en consommant peu d'énergie. La technologie fonctionne sur un spectre sans licence, ce qui signifie que les utilisateurs n'ont pas à payer une licence pour l'utiliser.
 
 ______
 
-## Que sont les expéditeurs de paquets Semtech ?
+## Que sont les transitaires de paquets Semtech ?
 
 Les **Semtech Packet Forwarders** sont des applications logicielles qui s'exécutent sur des passerelles pour recevoir des données des nœuds LoRa et les transférer vers le cloud. Ces applications sont conçues pour gérer le protocole LoRaWAN, qui est le protocole standard utilisé par les réseaux LoRa.
 

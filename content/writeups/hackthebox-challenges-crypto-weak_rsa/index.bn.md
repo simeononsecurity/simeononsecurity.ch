@@ -24,17 +24,17 @@ ______
 এর জন্য, আমরা পতাকা ডিক্রিপ্ট করতে OpenSSL প্যাকেজ ব্যবহার করতে পারি।
 এইবার এটি একটু ভিন্ন এবং আপনি দেখতে পাবেন যে OpenSSL প্যাকেজ এই চ্যালেঞ্জের জন্য কাজ করবে না।
 
-আমরা একটি স্বয়ংক্রিয় RSA আক্রমণ টুল ব্যবহার করব। একটি সাধারণ পাইথন স্ক্রিপ্ট হল[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+আমরা একটি স্বয়ংক্রিয় RSA আক্রমণ টুল ব্যবহার করব। একটি সাধারণ পাইথন স্ক্রিপ্ট হল [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+সহজ কথায়, এই টুলটি স্বয়ংক্রিয় পদ্ধতিতে আপনার জন্য সহজেই পতাকা খুঁজে পায়।
 
 ______
 
-### Flag Example:
+### পতাকা উদাহরণ:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

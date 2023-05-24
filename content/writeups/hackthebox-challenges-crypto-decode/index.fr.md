@@ -21,28 +21,28 @@ Dans ce défi, deux chaînes d'informations vous sont fournies.
 ```
 993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
 ```
-and
+et
 ```
 gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
 ```
 
-## Walk Through:
+## Procédure pas à pas:
 
-At first glance it appears this is some sort of key and some cipher text.
-After searching around, you'll find that it is a Fernet cypher.
-[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) has a great tool to decode it for you.
+À première vue, il semble qu'il s'agisse d'une sorte de clé et d'un texte chiffré.
+Après avoir cherché, vous découvrirez qu'il s'agit d'un chiffre de Fernet.
+[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) a un excellent outil pour le décoder pour vous.
 
-The plain text from the above information gives you a base64 encoded string
+Le texte brut des informations ci-dessus vous donne une chaîne encodée en base64
 
 ```
 RCdgTl45OFs8O3tGMlZVNTRRPythcUw6bVxJNmlYJmYkMEBSeFBfdSldeHFwdW5tM3Fwb2htZmUrTGJnZl9eXSNhYFleV1Z6VFNyUVZVTnJMUVBPTkdrS0QsSEFlKERDPDtfPz5+fTVZOTg3dzUuUjJyMC8oJyZKKikoJyYlfHtBeX53djx6eXhxWTZ0c1VUcG9oLnk=
 ```
 
-To decode this, we'll use the tool provided from [base64decode.org](https://www.base64decode.org/)
+Pour décoder cela, nous utiliserons l'outil fourni par [base64decode.org](https://www.base64decode.org/)
 
-Decoding again gives you the following:
+Le décodage vous donne à nouveau ce qui suit :
 ```
-D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNrLQPONGkKD,HAe(DC<;_?>
+D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`
 ```
 
 This was a new one for me. But you'll find after some careful research that it is a Malboge cipher.

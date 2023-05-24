@@ -1,12 +1,12 @@
 ---
-title: "Offline Firmware Update for Ubiquiti Unifi UDM Pro and UDM SE via Command-line SSH"
+title: "Offline Firmware Update for Ubiquiti Unifi UDM Pro and UDM SE via Command line SSH"
 draft: false
 toc: true
 date: 2023-05-28
-description: "Learn how to update the firmware of Ubiquiti Unifi UDM Pro and UDM SE offline through command-line SSH for optimal performance and security."
-tags: ["Ubiquiti firmware update", "UDM Pro", "UDM SE", "offline firmware update", "command-line SSH", "network management", "network security", "firmware upgrade", "SSH connection", "firmware file", "UniFi Network Controller", "bug fixes", "performance improvements", "security patches", "networking", "network devices", "technology", "IT management", "firmware update process", "network optimization", "Ubiquiti Networks firmware update", "UDM Pro firmware update", "UDM SE firmware update", "offline firmware update process", "SSH firmware update", "network device management", "network security updates", "firmware update strategies", "offline firmware management", "network performance optimization", "security patch management", "networking technology updates"]
+description: "Learn how to update the firmware of Ubiquiti Unifi UDM Pro and UDM SE offline through command line SSH for optimal performance and security."
+tags: ["Ubiquiti firmware update", "UDM Pro", "UDM SE", "offline firmware update", "commandline SSH", "network management", "network security", "firmware upgrade", "SSH connection", "firmware file", "UniFi Network Controller", "bug fixes", "performance improvements", "security patches", "networking", "network devices", "technology", "IT management", "firmware update process", "network optimization", "Ubiquiti Networks firmware update", "UDM Pro firmware update", "UDM SE firmware update", "offline firmware update process", "SSH firmware update", "network device management", "network security updates", "firmware update strategies", "offline firmware management", "network performance optimization", "security patch management", "networking technology updates"]
 cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
-coverAlt: "A colorful illustration depicting a computer connecting to a router through SSH, symbolizing the offline firmware update process for Ubiquiti Unifi UDM Pro and UDM SE devices."
+coverAlt: "A colorful illustration depicting a computer connecting to a router through SSH symbolizing the offline firmware update process for Ubiquiti Unifi UDM Pro and UDM SE devices."
 coverCaption: ""
 ---
 

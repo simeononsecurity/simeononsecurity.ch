@@ -6,7 +6,7 @@ description: "HackTheBox क्रिप्टो चुनौती को ह�
 tags: ["HackTheBox", "चुनौतियां", "क्रिप्टो", "व्याख्या करना", "सार्वजनिक रूप से लिखना", "फर्नेट सिफर", "मालबोगे सिफर", "सममित एन्क्रिप्शन", "साइबर सुरक्षा", "क्रिप्टोग्राफी", "भेदन परीक्षण", "अजगर", "सुरक्षा", "चुनौती", "सीटीएफ", "झंडा", "कूटलेखन", "डिक्रिप्शन", "बेस 64"]
 toc: true
 cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
-coverAlt: "एक बड़े ताले के बगल में खड़ा एक कार्टून हैकर जिसके एक हाथ में फ़र्नेट लोगो की चाबी है और दूसरे हाथ में मालबोगे लोगो की चाबी है जबकि ताले के अंदर एक झंडा दिख रहा है"
+coverAlt: "एक बड़े ताले के बगल में खड़ा एक कार्टून हैकर जिसके एक हाथ में फर्नेट लोगो की चाबी है और दूसरे हाथ में मालबोगे लोगो की चाबी है जबकि ताले के अंदर एक झंडा दिख रहा है"
 coverCaption: ""
 ---
 
@@ -21,28 +21,28 @@ ______
 ```
 993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
 ```
-and
+और
 ```
 gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
 ```
 
-## Walk Through:
+## के माध्यम से चलो:
 
-At first glance it appears this is some sort of key and some cipher text.
-After searching around, you'll find that it is a Fernet cypher.
-[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) has a great tool to decode it for you.
+पहली नज़र में ऐसा प्रतीत होता है कि यह किसी प्रकार की कुंजी और कुछ सिफर टेक्स्ट है।
+चारों ओर खोजने के बाद, आप पाएंगे कि यह एक फर्नेट साइफर है।
+[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) आपके लिए इसे डिकोड करने के लिए एक बढ़िया टूल है।
 
-The plain text from the above information gives you a base64 encoded string
+उपरोक्त जानकारी से सादा पाठ आपको बेस 64 एन्कोडेड स्ट्रिंग देता है
 
 ```
 RCdgTl45OFs8O3tGMlZVNTRRPythcUw6bVxJNmlYJmYkMEBSeFBfdSldeHFwdW5tM3Fwb2htZmUrTGJnZl9eXSNhYFleV1Z6VFNyUVZVTnJMUVBPTkdrS0QsSEFlKERDPDtfPz5+fTVZOTg3dzUuUjJyMC8oJyZKKikoJyYlfHtBeX53djx6eXhxWTZ0c1VUcG9oLnk=
 ```
 
-To decode this, we'll use the tool provided from [base64decode.org](https://www.base64decode.org/)
+इसे डीकोड करने के लिए, हम प्रदान किए गए टूल का उपयोग करेंगे [base64decode.org](https://www.base64decode.org/)
 
-Decoding again gives you the following:
+डिकोडिंग फिर से आपको निम्नलिखित देता है:
 ```
-D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNrLQPONGkKD,HAe(DC<;_?>
+डी'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`
 ```
 
 This was a new one for me. But you'll find after some careful research that it is a Malboge cipher.
@@ -52,6 +52,6 @@ ______
 
 ### Flag Ex:
 ```
-HTB{x_xxx_xxxx}
+एचटीबी{x_xxx_xxxx}
 ```
 

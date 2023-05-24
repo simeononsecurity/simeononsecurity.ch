@@ -6,7 +6,7 @@ date: 2023-04-30
 description: "ਸਿੱਖੋ ਕਿ BGW-320 ਨੂੰ ਕਿਵੇਂ ਬਾਈਪਾਸ ਕਰਨਾ ਹੈ ਅਤੇ ਇਸ ਆਸਾਨ-ਅਧਾਰਿਤ ਗਾਈਡ ਨਾਲ ਆਪਣੇ ISP ਦੇ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜਨ ਲਈ Azores ਦੁਆਰਾ ਬਣਾਏ COTS ONT ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਹੈ।"
 tags: ["COTS ONT", "BGW-320", "ਅਜ਼ੋਰਸ", "ਫਾਈਬਰ", "ਨੈੱਟਵਰਕ", "XGS-PON", "ਈਥਰਨੈੱਟ", "IP ਪਾਸਥਰੂ", "ਅਨੁਕੂਲਤਾ", "ISP", "ont ID", "MAC ਪਤਾ", "ਉਪਕਰਨ ਆਈ.ਡੀ", "ਚਿੱਤਰ ਸੰਸਕਰਣ", "ਹਾਰਡਵੇਅਰ ਵਰਜਨ", "telnet", "CLI ਐਪਲੀਕੇਸ਼ਨ", "ਵੈੱਬ GUI", "ਫੈਕਟਰੀ ਸੰਰਚਨਾ ਮੋਡ", "ਅਨੁਕੂਲਤਾ ਮੁੱਦੇ"]
 cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
-coverAlt: "ਇੱਕ ਕਾਰਟੂਨ ਟੈਕਨੀਸ਼ੀਅਨ ਬੈਕਗ੍ਰਾਉਂਡ ਵਿੱਚ ਇੱਕ ਫਾਈਬਰ ਕੇਬਲ ਦੇ ਨਾਲ ਇੱਕ COTS ONT ਫੜੀ ਹੋਈ ਹੈ।"
+coverAlt: "ਇੱਕ ਕਾਰਟੂਨ ਟੈਕਨੀਸ਼ੀਅਨ ਬੈਕਗ੍ਰਾਊਂਡ ਵਿੱਚ ਇੱਕ ਫਾਈਬਰ ਕੇਬਲ ਦੇ ਨਾਲ ਇੱਕ COTS ONT ਫੜੀ ਹੋਈ ਹੈ।"
 coverCaption: ""
 ---
 
@@ -16,7 +16,7 @@ coverCaption: ""
 
 ### ਤਕਨੀਕੀ ਪਹਿਲੂ
 
-ਦ[Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+ਦ [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
 
 {{< figure src="azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp" alt="Azores WAG-D20" >}}
 
@@ -28,9 +28,9 @@ coverCaption: ""
  
 ### ਪ੍ਰਮਾਣ ਪੱਤਰ
 
-- `admin`/`ADMIN123!@#` - ਵੈੱਬ GUI ਲਈ ਪ੍ਰਸ਼ਾਸਕ ਲੌਗਇਨ
-- 'ਮਹਿਮਾਨ'/'ਜੀ ਆਇਆਂ' - ਮਹਿਮਾਨ ਲੌਗਇਨ
-- `ਟੈਸਟ`/`ਡਿਫੌਲਟ` - ਫੈਕਟਰੀ ਲੌਗਇਨ
+- `admin``ADMIN123!@#` - ਵੈੱਬ GUI ਲਈ ਪ੍ਰਸ਼ਾਸਕ ਲੌਗਇਨ
+- `Guest``welcome` - ਮਹਿਮਾਨ ਲੌਗਇਨ
+- `test``default` - ਫੈਕਟਰੀ ਲੌਗਇਨ
 
 ### ਈਥਰਨੈੱਟ ਇੰਟਰਫੇਸ
 
@@ -38,9 +38,9 @@ coverCaption: ""
 
 1-65535 ਤੋਂ ਪੋਰਟ ਸਕੈਨ ਚਲਾਉਣ 'ਤੇ, ਤੁਸੀਂ ਕੁਝ ਖੁੱਲ੍ਹੀਆਂ ਪੋਰਟਾਂ ਵੇਖੋਗੇ:
 
-- ਪੋਰਟਸ `23` ਅਤੇ `8009` - ਟੇਲਨੈੱਟ, ਲੌਗਇਨ ਦੀ ਲੋੜ ਹੈ, CLI ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਂਦਾ ਹੈ।
-- ਪੋਰਟ `10002` - ਅਗਿਆਤ
-- ਪੋਰਟ `80` - WebUI, ਸਿਰਫ਼ ਦੋ ਫੰਕਸ਼ਨ
+- ਬੰਦਰਗਾਹਾਂ `23` & `8009` - ਟੇਲਨੈੱਟ, ਲੌਗਇਨ ਦੀ ਲੋੜ ਹੈ, CLI ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਂਦਾ ਹੈ।
+- ਪੋਰਟ `10002` - ਅਣਜਾਣ
+- ਪੋਰਟ `80` - WebUI, ਸਿਰਫ ਦੋ ਫੰਕਸ਼ਨ
 
 ### ONT ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰਨਾ
 
@@ -58,37 +58,37 @@ coverCaption: ""
 
 ਨੋਟ: ਇਹ OMCI ਮੁੱਲ ਹਨ ਨਾ ਕਿ ਵੈੱਬ UI ਤੋਂ।
 
-ਆਪਣੇ ਨਿੱਜੀ ONT (telnet 192.168.1.1) ਤੇ ਟੇਲਨੈੱਟ, **`ਡਿਫਾਲਟ`** ਪਾਸਵਰਡ ਦੀ ਵਰਤੋਂ ਕਰਕੇ **`ਟੈਸਟ`** ਵਜੋਂ ਲੌਗਇਨ ਕਰੋ ਅਤੇ ਫੈਕਟਰੀ ਸੰਰਚਨਾ ਮੋਡ ਵਿੱਚ ਸੁੱਟਣ ਲਈ 'ਟੈਸਟ' ਕਮਾਂਡ ਚਲਾਓ।
+ਆਪਣੇ ਨਿੱਜੀ ONT (telnet 192.168.1.1) ਲਈ ਟੇਲਨੈੱਟ, ** ਵਜੋਂ ਲੌਗਇਨ ਕਰੋ`test` ** ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ`default` ਪਾਸਵਰਡ ਅਤੇ ਫੈਕਟਰੀ ਸੰਰਚਨਾ ਮੋਡ ਵਿੱਚ ਸੁੱਟਣ ਲਈ 'ਟੈਸਟ' ਕਮਾਂਡ ਚਲਾਓ।
 
 'ਸ਼ੋ' ਕਮਾਂਡ ਨਾਲ ਵਰਤਮਾਨ ਵਿੱਚ ਸੈੱਟ ਕੀਤੇ ਮੁੱਲ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰੋ:
 
-- `gpon mac ਦਿਖਾਓ`
-- `sn ਦਿਖਾਓ`
-- 'ਸਾਮਾਨ ਦੀ id ਦਿਖਾਓ'
+- `show gpon mac`
+- `show sn`
+- `show equipment id`
 
 ਇੱਕ ਵਾਰ ਪੂਰਾ ਹੋ ਜਾਣ 'ਤੇ, x ਨੂੰ ਤੁਹਾਡੇ ਡਿਵਾਈਸ ਦੇ ਮੁੱਲਾਂ ਨਾਲ ਬਦਲ ਕੇ ਹੇਠਾਂ ਦਿੱਤੀਆਂ ਕਮਾਂਡਾਂ ਨਾਲ ਸੈਟਿੰਗਾਂ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰੋ:
 
-- `ਸੈੱਟ ਕਰੋ gpon mac xx:xx:xx:xx:xx:xx`
-- `ਸੈੱਟ ਕਰੋ sn <ਇੱਥੇ ONT ID ਪਾਓ>`
+- `set gpon mac xx:xx:xx:xx:xx:xx`
+- `set sn <insert ONT ID here>`
 
 HUMAX ਲਈ:
 
-- `ਸੈੱਟ ਉਪਕਰਣ id “iONT320500G”`
-- `ਸੰਰਚਨਾ ONU-G_ਵਰਜਨ "BGW320-500_2.1"`
+- `set equipment id “iONT320500G”`
+- `config ONU-G_Version "BGW320-500_2.1”`
 
 ਨੋਕੀਆ ਲਈ:
 
-- `ਸੈੱਟ ਉਪਕਰਣ id “iONT320505G”`
-- `ਸੰਰਚਨਾ ONU-G_ਵਰਜਨ "BGW320-505_2.2"`
+- `set equipment id “iONT320505G”`
+- `config ONU-G_Version "BGW320-505_2.2”`
 
-ਨੋਟ: ਆਖਰੀ ਦੋ ਕਮਾਂਡਾਂ **`ਟੈਸਟ`** ਉਪਭੋਗਤਾ ਵਜੋਂ ਲੌਗਇਨ ਕੀਤੇ ਟੈਲਨੈੱਟ ਤੋਂ ਲਾਗੂ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।
+ਨੋਟ: ਆਖਰੀ ਦੋ ਕਮਾਂਡਾਂ ਨੂੰ ** ਦੇ ਰੂਪ ਵਿੱਚ ਲੌਗਇਨ ਕੀਤੇ ਟੈਲਨੈੱਟ ਤੋਂ ਲਾਗੂ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ`test` ਉਪਭੋਗਤਾ।
 
 ### ਰੀਬੂਟ ਕਰੋ ਅਤੇ ਸੱਚੇ ਆਈਪੀ ਪਾਸਥਰੂ ਦਾ ਅਨੰਦ ਲਓ
 
-ਅਨੁਕੂਲਿਤ ਕਰਨ ਤੋਂ ਬਾਅਦ, ONT ਨੂੰ ਰੀਬੂਟ ਕਰੋ ਅਤੇ ਸਹੀ IP ਪਾਸਥਰੂ ਦਾ ਅਨੰਦ ਲਓ।
+ਕਸਟਮਾਈਜ਼ ਕਰਨ ਤੋਂ ਬਾਅਦ, ONT ਰੀਬੂਟ ਕਰੋ ਅਤੇ ਸਹੀ IP ਪਾਸਥਰੂ ਦਾ ਅਨੰਦ ਲਓ।
 
 ### ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ ਅਤੇ ਵਧੀਕ ਕਦਮ
-ਇਸ ਵਿਸ਼ੇ 'ਤੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਵੇਖੋ[8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
+ਇਸ ਵਿਸ਼ੇ 'ਤੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਵੇਖੋ [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
 
 ### ਸਿੱਟਾ
 

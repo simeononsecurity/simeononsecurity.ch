@@ -1,5 +1,5 @@
 ---
-title: "Ejecución de pfSense en el cliente ligero HP t740: consejos y guía de solución de problemas"
+title: "Ejecución de pfSense en el Thin Client HP t740: consejos y guía de solución de problemas"
 draft: false
 toc: true
 date: 2023-04-29
@@ -19,72 +19,72 @@ El Thin Client HP t740 es un dispositivo compacto que se puede utilizar como una
 
 ## PS/2 se congela
 
-Sin embargo, si planea ejecutar FreeBSD o sus derivados como pfSense, OPNsense o HardenedBSD en la versión completa (a diferencia de dentro de ESXi o Proxmox), es posible que encuentre un problema en el que el sistema se congela al arrancar con el mensaje `atkbd0: [ BLOQUEADO GIGANTE]`. Afortunadamente, este problema se puede resolver ingresando los siguientes comandos en el indicador de inicio:
+Sin embargo, si planea ejecutar FreeBSD o sus derivados como pfSense, OPNsense o HardenedBSD en la versión completa (a diferencia de dentro de ESXi o Proxmox), es posible que encuentre un problema en el que el sistema se congela al arrancar con el mensaje `atkbd0: [GIANT-LOCKED]` Afortunadamente, este problema se puede resolver ingresando los siguientes comandos en el indicador de inicio:
 
 ```bash
 unset hint.uart.0.at
 unset hint.uart.1.at
 ```
 
-*Note that you need to unset both, otherwise, it will still lock up at boot.*
+*Tenga en cuenta que debe desactivar ambos, de lo contrario, aún se bloqueará en el arranque.*
 
-After you install the OS, open a post-installation shell and run the following command:
+Después de instalar el sistema operativo, abra un shell posterior a la instalación y ejecute el siguiente comando:
 
 ```bash
 vi /boot/loader.conf.local
 ```
-Then, add these two lines:
+Luego, agrega estas dos líneas:
 ```bash
 hint.uart.0.disabled="1"
 hint.uart.1.disabled="1"
 ```
 
-### Persist Changes using VI
-For those not familiar with vi, you can add the line by doing the following :
+### Cambios persistentes usando VI
+Para aquellos que no están familiarizados con vi, pueden agregar la línea haciendo lo siguiente:
 
-Adding the lines `hint.uart.0.disabled="1"` and `hint.uart.1.disabled="1"` to the `/boot/loader.conf.local` file using the vi editor can be done with the following steps:
+Agregando las lineas `hint.uart.0.disabled="1"` y `hint.uart.1.disabled="1"` hacia `/boot/loader.conf.local` El archivo usando el editor vi se puede hacer con los siguientes pasos:
 
-1. Open the terminal on your FreeBSD system.
+1. Abra la terminal en su sistema FreeBSD.
 
-2. Type `vi /boot/loader.conf.local` and press Enter to open the file in the vi editor.
+2. Tipo `vi /boot/loader.conf.local` y presione Entrar para abrir el archivo en el editor vi.
 
-3. Press the `i` key to enter insert mode.
+3. Presione el botón `i` tecla para entrar en el modo de inserción.
 
-4. Move the cursor to the bottom of the file using the arrow keys.
+4. Mueva el cursor al final del archivo usando las teclas de flecha.
 
-5. Type `hint.uart.0.disabled="1"` without the quotes.
+5. Tipo `hint.uart.0.disabled="1"` sin las comillas.
 
-6. Press Enter to start a new line.
+6. Presione Entrar para comenzar una nueva línea.
 
-7. Type `hint.uart.1.disabled="1"` without the quotes.
+7. Tipo `hint.uart.1.disabled="1"` sin las comillas.
 
-8. Press the `Esc` key to exit insert mode.
+8. Presione el botón `Esc` tecla para salir del modo de inserción.
 
-9. Type `:wq` and press Enter to save and exit the file.
+9. Tipo `:wq` y presione Entrar para guardar y salir del archivo.
 
-This will add the two lines to the `/boot/loader.conf.local` file, which will disable the UARTs and fix the freezing issue during boot on certain HP t740 "Thin Client" devices when running FreeBSD or its derivatives like pfSense, OPNsense, or HardenedBSD.
+Esto agregará las dos líneas al `/boot/loader.conf.local` archivo, que deshabilitará los UART y solucionará el problema de bloqueo durante el arranque en ciertos dispositivos HP t740 "Thin Client" cuando se ejecuta FreeBSD o sus derivados como pfSense, OPNsense o HardenedBSD.
 
-This will fix the issue across reboots and firmware upgrades on pfSense/OPNsense. 
+Esto solucionará el problema entre reinicios y actualizaciones de firmware en pfSense/OPNsense.
 
 ## SSD
 
-If you're using the HP M.2 eMMC, it will not be detected on an out-of-the-box FreeBSD installation. In that case, you will need a third-party M.2 SSD. Any M.2 SSD can work, SATA or NVMe. 
+Si está utilizando HP M.2 eMMC, no se detectará en una instalación de FreeBSD lista para usar. En ese caso, necesitará una SSD M.2 de terceros. Cualquier SSD M.2 puede funcionar, SATA o NVMe.
 
-If you are looking for a third-party M.2 SSD for your HP t740 thin client, we recommend considering the [Western Digital 500GB WD Blue SN570 NVMe](https://amzn.to/44bFCBk) or the [Western Digital 500GB WD Blue SA510 SATA](https://amzn.to/3AEbd0V). Both of these options are reliable and should work well with your device. If you want to take advantage of both slots, you'll need both. You'll sacrifice the speeds of the NVME, but you'll gain some redundancy that's oh so important.
+Si busca una SSD M.2 de otro fabricante para su thin client HP t740, le recomendamos que considere la [Western Digital 500GB WD Blue SN570 NVMe](https://amzn.to/44bFCBk) or the [Western Digital 500GB WD Blue SA510 SATA](https://amzn.to/3AEbd0V) Ambas opciones son confiables y deberían funcionar bien con su dispositivo. Si desea aprovechar ambas máquinas tragamonedas, necesitará ambas. Sacrificarás las velocidades de NVME, pero obtendrás algo de redundancia que es tan importante.
 
-Note that the author of this article has successfully run pfSense CE 2.5.2 and OPNsense 22.1 on their t740 without any issues after following the above steps. 
+Tenga en cuenta que el autor de este artículo ha ejecutado con éxito pfSense CE 2.5.2 y OPNsense 22.1 en su t740 sin ningún problema después de seguir los pasos anteriores.
 
-## Troubleshooting and Post Install
+## Solución de problemas y postinstalación
 
-After installation, if you encounter any issues with editing files, you can install the nano editor using `pkg update` and `pkg install nano`. This will help you edit text files with ease.
+Después de la instalación, si encuentra algún problema con la edición de archivos, puede instalar el editor nano usando `pkg update` y `pkg install nano` Esto le ayudará a editar archivos de texto con facilidad.
 
-To ensure that the changes made to the `/boot/loader.conf.local` file persist across pfSense version upgrades, you need to add the following lines to `/boot/loader.conf` and `/etc/rc.conf.local`: 
+Para asegurarse de que los cambios realizados en el `/boot/loader.conf.local` el archivo persiste en las actualizaciones de la versión de pfSense, debe agregar las siguientes líneas a `/boot/loader.conf` y `/etc/rc.conf.local` 
 ```bash
 hint.uart.0.disabled="1"
 hint.uart.1.disabled="1"
 ```
 
-However, sometimes the editing of `/boot/loader.conf.local` file before rebooting doesn't fix the issue. In such cases, it may be necessary to add the following lines at the beginning of the first boot:
+Sin embargo, a veces la edición de `/boot/loader.conf.local` el archivo antes de reiniciar no soluciona el problema. En tales casos, puede ser necesario agregar las siguientes líneas al comienzo del primer arranque:
 
 ```bash
 unset hint.uart.0.at
@@ -94,9 +94,9 @@ unset hint.uart.1.at
 Estos pasos deberían resolver la mayoría de los problemas que puedan surgir durante y después del proceso de instalación.
 
 ### Referencias:
--[HP t740 "Thin Client"](https://www8.hp.com/us/en/thin-clients/t740.html)
--[pfSense](https://www.pfsense.org/)
--[OPNsense](https://opnsense.org/)
--[HardenedBSD](https://hardenedbsd.org/)
--[ServeTheHome](https://www.servethehome.com/hp-t740-thin-client-review/)
--[FreeBSD (or pfSense/OPNsense) on the HP t740 Thin Client](https://www.neelc.org/posts/hp-t740-freebsd/)
+- [HP t740 "Thin Client"](https://www8.hp.com/us/en/thin-clients/t740.html)
+- [pfSense](https://www.pfsense.org/)
+- [OPNsense](https://opnsense.org/)
+- [HardenedBSD](https://hardenedbsd.org/)
+- [ServeTheHome](https://www.servethehome.com/hp-t740-thin-client-review/)
+- [FreeBSD (or pfSense/OPNsense) on the HP t740 Thin Client](https://www.neelc.org/posts/hp-t740-freebsd/)

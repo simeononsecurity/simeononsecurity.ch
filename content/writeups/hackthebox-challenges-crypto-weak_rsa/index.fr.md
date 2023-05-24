@@ -24,17 +24,17 @@ ______
 Pour cela, nous pourrions utiliser le package OpenSSL pour déchiffrer le drapeau.
 Cette fois, c'est un peu différent et vous constaterez que le package OpenSSL ne fonctionnera pas pour ce défi.
 
-Nous utiliserons un outil d'attaque RSA automatisé. Un script python courant est le[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+Nous utiliserons un outil d'attaque RSA automatisé. Un script python courant est le [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+En termes simples, cet outil trouve facilement le drapeau pour vous de manière automatisée.
 
 ______
 
-### Flag Example:
+Exemple d'indicateur ### :
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

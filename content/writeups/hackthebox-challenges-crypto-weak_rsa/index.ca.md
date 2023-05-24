@@ -24,17 +24,17 @@ A primera vista, penseu que podeu desxifrar la bandera amb la clau pública.
 Per això, podríem utilitzar el paquet OpenSSL per desxifrar la bandera.
 Aquesta vegada és una mica diferent i trobareu que el paquet OpenSSL no funcionarà per a aquest repte.
 
-Utilitzarem una eina d'atac RSA automatitzada. Un script Python comú és el[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+Utilitzarem una eina d'atac RSA automatitzada. Un script Python comú és el [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+En poques paraules, aquesta eina troba la bandera fàcilment per a tu de manera automatitzada.
 
 ______
 
-### Flag Example:
+### Exemple de bandera:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

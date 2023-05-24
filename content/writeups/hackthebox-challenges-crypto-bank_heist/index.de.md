@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox – Herausforderungen – Krypto – Bankraub"
+title: "HackTheBox – Herausforderungen – Krypto – Banküberfall"
 date: 2020-10-07
 draft: false
 toc: true
@@ -24,28 +24,28 @@ Für diese Herausforderung erhalten Sie den folgenden Chiffriertext:
 
 ______
 
-## Walk Through:
+## Durchgehen:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**Ganz klar handelt es sich hierbei entweder um eine T9- oder Multitap-Verschlüsselung.**
+In diesem Fall ist jedoch Multitap die Verschlüsselung. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) hat ein Tool, um dies zu entschlüsseln.
 
-You'll get this plain text:
+Sie erhalten diesen Klartext:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+**Was ist das für ein Blödsinn am Ende, fragen Sie sich vielleicht? Nun, es ist eigentlich ein Atbash-Chiffretext.**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+Wir werden verwenden [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) noch einmal zu entschlüsseln. Dann haben Sie Ihre Flagge. Whoot!
 
 ______
 
-### Flag Example:
+### Flag-Beispiel:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

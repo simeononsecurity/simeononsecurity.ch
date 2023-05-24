@@ -24,28 +24,28 @@ Per a aquest repte se us proporciona el text xifrat següent:
 
 ______
 
-## Walk Through:
+## Passejada:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**Molt clarament, això és un xifratge T9 o Multitap.**
+Tanmateix, el multitap és el xifrat en aquest cas. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) té una eina per descodificar-ho.
 
-You'll get this plain text:
+Obtindreu aquest text senzill:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+**Què és aquesta brossa al final que podríeu preguntar? Bé, en realitat és un text xifrat atbash.**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+Farem servir [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) per desxifrar una vegada més. Llavors tens la teva bandera. Vaja!
 
 ______
 
-### Flag Example:
+### Exemple de bandera:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

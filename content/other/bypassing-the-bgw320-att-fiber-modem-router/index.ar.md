@@ -16,7 +16,7 @@ coverCaption: ""
 
 ### الجوانب الفنية
 
-ال[Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+ال [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
 
 {{< figure src="azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp" alt="Azores WAG-D20" >}}
 
@@ -28,9 +28,9 @@ coverCaption: ""
  
 ### أوراق اعتماد
 
-- `admin` /` ADMIN123! @ # `- تسجيل دخول المسؤول لواجهة المستخدم الرسومية على الويب
-- "Guest" / "Welcome" - تسجيل دخول الضيف
-- "test" / "افتراضي" - تسجيل دخول المصنع
+- `admin``ADMIN123!@#` - تسجيل دخول المسؤول للويب واجهة المستخدم الرسومية
+- `Guest``welcome` - زائر الرجاء تسجيل الدخول
+- `test``default` - تسجيل دخول المصنع
 
 ### واجهة إيثرنت
 
@@ -38,9 +38,9 @@ coverCaption: ""
 
 عند تشغيل فحص المنفذ من 1-65535 ، ستلاحظ بعض المنافذ المفتوحة:
 
-- المنفذان "23" و "8009" - يتطلب Telnet تسجيل الدخول ويقوم بتشغيل تطبيق CLI.
-- المنفذ "10002" - غير معروف
-- المنفذ "80" - WebUI ، وظيفتان فقط
+- الموانئ `23` & `8009` - Telnet يتطلب تسجيل الدخول ويقوم بتشغيل تطبيق CLI.
+- ميناء `10002` - مجهول
+- ميناء `80` - WebUI ، وظيفتان فقط
 
 ### تخصيص ONT
 
@@ -58,37 +58,37 @@ coverCaption: ""
 
 ملاحظة: هذه هي قيم OMCI وليست من واجهة مستخدم الويب.
 
-Telnet إلى ONT الشخصي الخاص بك (telnet 192.168.1.1) ، قم بتسجيل الدخول باسم ** `test` ** باستخدام كلمة المرور **` الافتراضية` ** وقم بتشغيل الأمر 'test' للإسقاط في وضع تكوين المصنع.
+Telnet إلى ONT الشخصي الخاص بك (telnet 192.168.1.1) ، قم بتسجيل الدخول باسم **`test` باستخدام **`default` كلمة المرور وتشغيل الأمر "اختبار" للإسقاط في وضع تكوين المصنع.
 
 اعرض القيم المحددة حاليًا باستخدام الأمر "show":
 
-- `إظهار gpon mac`
-- "عرض sn"
-- "إظهار معرف الجهاز"
+- `show gpon mac`
+- `show sn`
+- `show equipment id`
 
 بمجرد الانتهاء من ذلك ، قم بتخصيص الإعدادات بالأوامر التالية التي تحل محل x بقيم جهازك:
 
-- `تعيين gpon mac xx: xx: xx: xx: xx: xx`
-- `ضع sn <insert ONT ID here>`
+- `set gpon mac xx:xx:xx:xx:xx:xx`
+- `set sn <insert ONT ID here>`
 
 بالنسبة لـ HUMAX:
 
-- `` تعيين معرف المعدات "iONT320500G" "
-- 'config ONU-G_Version "BGW320-500_2.1"
+- `set equipment id “iONT320500G”`
+- `config ONU-G_Version "BGW320-500_2.1”`
 
 لنوكيا:
 
-- `` تعيين معرف الجهاز "iONT320505G" "
-- 'config ONU-G_Version "BGW320-505_2.2"
+- `set equipment id “iONT320505G”`
+- `config ONU-G_Version "BGW320-505_2.2”`
 
-ملاحظة: يجب تطبيق الأمرين الأخيرين من telnet الذي تم تسجيل دخوله كمستخدم ** `test` **.
+ملاحظة: يجب تطبيق الأمرين الأخيرين من telnet التي تم تسجيل الدخول إليها باسم **`test` مستخدم.
 
 ### أعد التشغيل واستمتع بعبور IP الحقيقي
 
 بعد التخصيص ، أعد تشغيل ONT واستمتع بعبور IP الحقيقي.
 
 ### استكشاف الأخطاء وإصلاحها والخطوات الإضافية
-لمزيد من المعلومات حول هذا الموضوع ، يرجى مراجعة[8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
+لمزيد من المعلومات حول هذا الموضوع ، يرجى مراجعة [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
 
 ### خاتمة
 

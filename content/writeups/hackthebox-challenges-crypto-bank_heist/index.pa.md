@@ -1,5 +1,5 @@
 ---
-title: "ਹੈਕਬੌਕਸ - ਚੁਣੌਤੀਆਂ - ਕ੍ਰਿਪਟੋ - ਬੈਂਕ ਚੋਰੀ"
+title: "HackTheBox - ਚੁਣੌਤੀਆਂ - Crypto - Bank Heist"
 date: 2020-10-07
 draft: false
 toc: true
@@ -24,28 +24,28 @@ HackTheBox 'ਤੇ "ਬੈਂਕ ਹੀਸਟ" ਕ੍ਰਿਪਟੋ ਚੁਣ�
 
 ______
 
-## Walk Through:
+## ਪੈਦਲ ਚੱਲੋ:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**ਬਹੁਤ ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ, ਇਹ ਜਾਂ ਤਾਂ T9 ਜਾਂ ਮਲਟੀਟੈਪ ਸਾਈਫਰ ਹੈ।**
+ਹਾਲਾਂਕਿ ਇਸ ਮੌਕੇ ਵਿੱਚ ਮਲਟੀਟੈਪ ਸਿਫਰ ਹੈ। [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) ਇਸ ਨੂੰ ਡੀਕੋਡ ਕਰਨ ਲਈ ਇੱਕ ਸੰਦ ਹੈ.
 
-You'll get this plain text:
+ਤੁਹਾਨੂੰ ਇਹ ਸਾਦਾ ਟੈਕਸਟ ਮਿਲੇਗਾ:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+** ਅੰਤ ਵਿੱਚ ਉਹ ਕਬਾੜ ਕੀ ਹੈ ਜੋ ਤੁਸੀਂ ਪੁੱਛ ਸਕਦੇ ਹੋ? ਖੈਰ ਇਹ ਅਸਲ ਵਿੱਚ ਇੱਕ ਐਟਬਾਸ਼ ਸਿਫਰ ਟੈਕਸਟ ਹੈ।**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+ਅਸੀਂ ਵਰਤਾਂਗੇ [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) ਇੱਕ ਵਾਰ ਹੋਰ ਸਮਝਣ ਲਈ। ਫਿਰ ਤੁਹਾਡੇ ਕੋਲ ਆਪਣਾ ਝੰਡਾ ਹੈ। ਵਾਹ!
 
 ______
 
-### Flag Example:
+### ਫਲੈਗ ਉਦਾਹਰਨ:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

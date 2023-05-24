@@ -20,7 +20,7 @@ HackTheBox عبارة عن منصة عبر الإنترنت لاختبار مه�
 
 لإنشاء حساب على HackTheBox (HTB) ، عليك إكمال تحدي الدعوة ، أو اختراق نفسك. لا تقلق على الرغم من أن هذا ليس صعبًا وستساعدك هذه المقالة على عدم إكمال التحدي.
 
-أولاً ، انتقل إلى[HackTheBox Website](https://hackthebox.eu) وانقر على زر الانضمام.
+أولاً ، انتقل إلى [HackTheBox Website](https://hackthebox.eu) وانقر على زر الانضمام.
 
 سيظهر لك مربع يطلب بوضوح رمز دعوة.
 
@@ -37,21 +37,21 @@ HackTheBox عبارة عن منصة عبر الإنترنت لاختبار مه�
 ### حل:
 
 #### بسيط:
-- **شبابيك**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
+- **شبابيك**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- ** لينكس **: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+والذي سينشئ المحتوى التالي: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+إذا كنت تأخذ رمز الدعوة المشفر إلى [base64decode.org](https://www.base64decode.org/) ستحصل على رمز الدعوة الخاص بك!
 
-#### Advanced (Instantly print out invite code):
- - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+#### متقدم (اطبع رمز الدعوة فورًا):
+ - **شبابيك**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
+- ** لينكس **: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
+ - ** ملاحظة **: ستحتاج إلى تثبيت برنامج [jq](https://stedolan.github.io/jq/download/) طَرد.
 
 ______
 
-### Invite Code Ex:
+### دعوة رمز مثال:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 

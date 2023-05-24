@@ -16,21 +16,21 @@ coverCaption: ""
 
 ### 技术方面
 
-这[Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+这 [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
 
 {{< figure src="azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp" alt="Azores WAG-D20" >}}
 
 ### 设备访问
 
-设备的默认 IP 地址是 192.168.1.1，其网关地址有一个使用公共 IP 地址的工厂拼写错误，即它显示 192.162.1.1 而不是 192.168.1.1。
+设备的默认 IP 地址为 192.168.1.1，其网关地址有一个使用公共 IP 地址的出厂拼写错误，即它显示 192.162.1.1 而不是 192.168.1.1。
 
-启动后，您需要按回车键以在 TTL 串行接口 (115200 8N1) 上获得登录提示。此设备有一个 A/B 图像系统，带有一个覆盖分区，其中包含您自定义的任何文件。
+启动后，您需要按回车键以在 TTL 串行接口 (115200 8N1) 上获得登录提示。该设备有一个 A/B 图像系统，带有一个覆盖分区，其中包含您自定义的任何文件。
  
 ＃＃＃ 证书
 
-- `admin`/`ADMIN123!@#` - Web GUI 的管理员登录
-- `Guest`/`welcome` - 访客登录
-- `test`/`default` - 工厂登录
+- `admin``ADMIN123!@#` - Web GUI 的管理员登录
+- `Guest``welcome` - 访客登录
+- `test``default` - 工厂登录
 
 ###以太网接口
 
@@ -38,9 +38,9 @@ coverCaption: ""
 
 从 1-65535 运行端口扫描后，您会注意到一些打开的端口：
 
-- 端口 `23` 和 `8009` - Telnet，需要登录，运行 CLI 应用程序。
-- 端口“10002” - 未知
-- 端口 `80` - WebUI，只有两个功能
+- 端口 `23` & `8009` - Telnet，需要登录，运行 CLI 应用程序。
+- 港口 `10002` - 未知
+- 港口 `80` - WebUI，只有两个功能
 
 ###自定义ONT
 
@@ -58,37 +58,37 @@ coverCaption: ""
 
 注意：这些是 OMCI 值，而不是来自 Web UI 的值。
 
-Telnet 到您的个人 ONT（telnet 192.168.1.1），使用 **`default`** 密码作为 **`test`** 登录并运行命令“test”以进入出厂配置模式。
+Telnet 到您的个人 ONT（telnet 192.168.1.1），登录为 **`test` 使用 **`default` 密码并运行命令“test”以进入工厂配置模式。
 
 使用“show”命令显示当前设置的值：
 
 - `show gpon mac`
 - `show sn`
-- `显示设备ID`
+- `show equipment id`
 
 完成后，使用以下命令自定义设置，将 x 替换为您的设备值：
 
-- `设置 gpon mac xx:xx:xx:xx:xx:xx`
+- `set gpon mac xx:xx:xx:xx:xx:xx`
 - `set sn <insert ONT ID here>`
 
 对于数码士：
 
--`设置设备ID“iONT320500G”`
-- `config ONU-G_Version "BGW320-500_2.1"`
+- `set equipment id “iONT320500G”`
+- `config ONU-G_Version "BGW320-500_2.1”`
 
 对于诺基亚：
 
--`设置设备ID“iONT320505G”`
-- `config ONU-G_Version "BGW320-505_2.2"`
+- `set equipment id “iONT320505G”`
+- `config ONU-G_Version "BGW320-505_2.2”`
 
-注意：最后两个命令应从以 **`test`** 用户身份登录的 telnet 应用。
+注意：最后两个命令应从以 ** 身份登录的 telnet 应用`test` 用户。
 
 ### 重启并享受真正的 IP 直通
 
 定制完成后，重启ONT，即可享受真正的IP直通。
 
 ### 故障排除和其他步骤
-有关此主题的更多信息，请查看[8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
+有关此主题的更多信息，请查看 [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
 
 ＃＃＃ 结论
 

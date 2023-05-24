@@ -32,10 +32,10 @@ Rețeaua Helium este o rețea LoRaWAN® descentralizată care îi compensează p
 Rețeaua Helium se bazează pe Dovada Acoperirii pentru a se asigura că hotspot-urile oferă acoperire acolo unde este nevoie. Cu toate acestea, acest sistem este vulnerabil la jocuri, spoofing, hacking și alte tipuri de comportament rău care pot dăuna rețelei. Problema jocurilor din rețeaua Helium costă gazdele legitime mii de $ HNT pe lună. Helium, Inc, împreună cu DeWi, au luat măsuri agresive la începutul anului 2022 pentru a ajuta la eliminarea acestei probleme.
 
 ## Hardware necesar
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## Utilizarea MiddleMan pentru a juca rețeaua Helium
 O modalitate de a juca rețeaua Helium este utilizarea MiddleMan. MiddleMan este un instrument software care poate fi folosit pentru a crea un hotspot fals care pare să ofere acoperire într-o anumită locație. Folosind MiddleMan, un utilizator poate crea un hotspot fals care va primi recompense pentru furnizarea de acoperire într-o anumită zonă, chiar dacă hotspot-ul nu este situat fizic în acea zonă.
@@ -44,17 +44,17 @@ Pentru a utiliza MiddleMan, un utilizator trebuie să instaleze software-ul și 
 
 V-ați configura gateway-ul lorawan pentru a indica acest software și acesta manipulează valorile astfel încât toate PoC-urile primite să fie considerate valide. Utilizarea expeditorului semtech este unul dintre diferitele standarde din comunitatea LoraWAN. Remedierea problemei de manipulare ar necesita reinventarea roții și implementarea propriului protocol de la zero. Lucruri precum sumele de control și criptarea ar împiedica acest lucru să se întâmple. Dar ar îngreuna, de asemenea, furnizorilor cu hardware diferit să realizeze hotspot-uri. Ca să nu mai vorbim că este un caz de utilizare acceptat pentru a avea un miner de heliu și mai multe porți lora pentru o acoperire îmbunătățită. Deși aceasta este mai mult o problemă la nivel de întreprindere.
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## Folosind Chirp Stack Packet Multiplexer pentru a juca rețeaua Helium
 O altă modalitate de a juca rețeaua Helium este utilizarea Chirp Stack Packet Multiplexer. Chirp Stack Packet Multiplexer este un instrument care poate fi folosit pentru a crea un hotspot virtual care poate primi pachete de la mai multe hotspot-uri fizice. Folosind Chirp Stack Packet Multiplexer, un utilizator poate crea un hotspot virtual care primește pachete de la hotspot-uri fizice în mai multe locații, ceea ce va crește recompensele câștigate.
 
 Pentru a utiliza Chirp Stack Packet Multiplexer, un utilizator trebuie să instaleze software-ul și să îl configureze pentru a primi pachete de la hotspot-uri fizice sau gateway-uri lorawan în mai multe locații. Hotspot-ul va primi pachetele și va raporta locația acestuia rețelei Helium, care va recompensa utilizatorul cu $HNT.
 
-Acest lucru permite accesul mai multor redirecționari și mai multe gateway-uri. Există cazuri de utilizare legitime pentru acest software în comunitatea LoraWAN, dar utilizarea lui în heliu este o zonă gri în cel mai bun caz. Depinde de cum îl folosești și de intenția ta.
+Acest lucru permite accesul mai multor expeditori și mai multe gateway-uri. Există cazuri de utilizare legitime pentru acest software în comunitatea LoraWAN, dar utilizarea lui în heliu este o zonă gri în cel mai bun caz. Depinde de cum îl folosești și de intenția ta.
 
 Configurarea acestuia necesită câteva fișiere de configurare. Dar se poate face în 5 minute sau mai puțin.
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Riscuri și consecințe ale jocurilor în rețeaua Helium

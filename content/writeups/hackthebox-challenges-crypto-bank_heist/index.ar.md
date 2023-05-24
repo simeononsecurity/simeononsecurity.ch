@@ -24,28 +24,28 @@ coverCaption: ""
 
 ______
 
-## Walk Through:
+## المشي من خلال:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+** من الواضح جدًا أن هذا إما T9 أو Multitap. **
+الضغط المتعدد هو التشفير في هذه الحالة بالرغم من ذلك. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) لديه أداة لفك هذا.
 
-You'll get this plain text:
+ستحصل على هذا النص العادي:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+** ما هي تلك الخردة في النهاية قد تسأل؟ حسنًا ، إنه في الواقع نص تشفير أتباش. **
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+سنستخدم [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) لفك الشفرة مرة أخرى. ثم لديك علمك. ووه!
 
 ______
 
-### Flag Example:
+### مثال العلم:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

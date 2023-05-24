@@ -23,32 +23,32 @@ ______
 
 عند تشغيل ** sound.mp3 ** ، ستسمع صوتًا مألوفًا. إذا لم تكن مألوفًا للأصوات التي تسمعها ، فستسمع نغمات ** DTMF ** (نغمة مزدوجة متعددة الترددات). نفس النغمات التي كنت تسمعها أثناء الاتصال على هاتف عمومي أو أثناء التنقل عبر قوائم الصراف الآلي.
 
-كل نغمة لها تردد معين. يمكنك الحصول على الأرقام يدويًا ، ولكن من لديه الوقت لذلك؟[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+كل نغمة لها تردد معين. يمكنك الحصول على الأرقام يدويًا ، ولكن من لديه الوقت لذلك؟ [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-خذ الملف المحول إلى[DialABC](http://www.dialabc.com/sound/detect/index.html) وستحصل على الناتج التالي:
+خذ الملف المحول إلى [DialABC](http://www.dialabc.com/sound/detect/index.html) وستحصل على الناتج التالي:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+لاحظ أنه إذا كنت تستمع إلى ملف الصوت بعناية أو فتحته في ** Audacity ** أو ** Sonic Visualizer ** ، مع استثناء واحد ، يتم إقران الأرقام في مجموعات من اثنين.
+إذا قمت بفصل الرقم ، فستحصل على ما يلي:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+منظمًا على هذا النحو ، قد تكون مرتبكًا وتعتقد أنه قد يكون HEX. إنه ليس كذلك.
+انتبه جيدًا للأرقام. ما هي السمة الرياضية التي تشترك فيها كل مجموعة من الأرقام؟ ...
+كلهم أعداد أولية. وهو ما يجب أن يجلب لك تجربة ** الأقل شهرة ** تشفير الرقم الأولي **.
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+سنستخدم [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) لإكمال هذا التحدي.
+أرسل النص المشفر من قبل أن نفصله وستحصل على العلم.
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### مثال العلم:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

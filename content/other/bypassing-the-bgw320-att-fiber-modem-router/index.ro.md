@@ -16,7 +16,7 @@ Majoritatea persoanelor cu fibră au două moduri de a se conecta la internet - 
 
 ### Aspecte tehnice
 
-The[Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+The [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
 
 {{< figure src="azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp" alt="Azores WAG-D20" >}}
 
@@ -28,9 +28,9 @@ Odată ce pornește, trebuie să apăsați enter pentru a obține o solicitare d
  
 ### Acreditări
 
-- `admin`/`ADMIN123!@#` - Conectare administrator pentru GUI web
-- `Guest`/`welcome` - Conectare pentru oaspeți
-- `test`/`default` - Conectare din fabrică
+- `admin``ADMIN123!@#` - Conectare administrator pentru GUI web
+- `Guest``welcome` - Autentificare invitat
+- `test``default` - Autentificare în fabrică
 
 ### Interfață Ethernet
 
@@ -38,7 +38,7 @@ Conectați-vă clientul la portul Ethernet 10G și configurați-l cu o adresă �
 
 La rularea unei scanări de porturi de la 1-65535, veți observa câteva porturi deschise:
 
-- Porturile `23` și `8009` - Telnet, necesită autentificare, rulează aplicația CLI.
+- Porturi `23` & `8009` - Telnet, necesită autentificare, rulează aplicația CLI.
 - Port `10002` - Necunoscut
 - Port `80` - WebUI, doar două funcții
 
@@ -58,37 +58,37 @@ Mai întâi, luați următoarele informații de la ISP Gateway sau ONT:
 
 Notă: Acestea sunt valorile OMCI și nu cele din interfața de utilizare web.
 
-Telnet la ONT-ul dvs. personal (telnet 192.168.1.1), conectați-vă ca **`test`** folosind parola **`default`** și rulați comanda 'test' pentru a trece în modul de configurare din fabrică.
+Telnet la ONT-ul dvs. personal (telnet 192.168.1.1), conectați-vă ca **`test` folosind **`default` parola și rulați comanda „test” pentru a trece în modul de configurare din fabrică.
 
 Afișați valorile setate în prezent cu comanda „show”:
 
 - `show gpon mac`
-- `arata sn`
-- `arata id-ul echipamentului`
+- `show sn`
+- `show equipment id`
 
 După ce ați terminat, personalizați setările cu următoarele comenzi, înlocuind x cu valorile dispozitivului dvs.:
 
 - `set gpon mac xx:xx:xx:xx:xx:xx`
-- `set sn <inserați ID-ul ONT aici>`
+- `set sn <insert ONT ID here>`
 
 Pentru HUMAX:
 
-- `set echipament ID „iONT320500G”`
-- `config ONU-G_Version „BGW320-500_2.1”`
+- `set equipment id “iONT320500G”`
+- `config ONU-G_Version "BGW320-500_2.1”`
 
 Pentru Nokia:
 
-- `set echipament ID „iONT320505G”`
-- `config ONU-G_Version „BGW320-505_2.2”`
+- `set equipment id “iONT320505G”`
+- `config ONU-G_Version "BGW320-505_2.2”`
 
-Notă: Ultimele două comenzi ar trebui aplicate de la telnet conectat ca utilizator **`test`**.
+Notă: Ultimele două comenzi ar trebui aplicate de la telnet conectat ca **`test` utilizator.
 
 ### Reporniți și bucurați-vă de True IP Passthrough
 
-După personalizare, reporniți ONT și bucurați-vă de trecerea IP adevărată.
+După personalizare, reporniți ONT-ul și bucurați-vă de trecerea IP adevărată.
 
 ### Depanare și pași suplimentari
-Pentru mai multe informații despre acest subiect, vă rugăm să consultați[8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
+Pentru mai multe informații despre acest subiect, vă rugăm să consultați [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
 
 ### Concluzie
 

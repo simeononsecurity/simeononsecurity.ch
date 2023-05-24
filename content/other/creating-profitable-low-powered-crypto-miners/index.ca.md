@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-02-07
 description: "Apreneu a configurar un miner criptogràfic d'ingressos passius de baixa potència mitjançant un Raspberry Pi o Intel NUC i guanyeu entre 10 i 20 dòlars al mes per caixa amb aquesta guia"
-tags: ["Construeix una caixa d'ingressos passius rendibles", "Maquinari de baixa potència", "Renda passiva", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Guia", "Requisits de maquinari", "Instal·lació del SO", "Instal·lació de programari", "Docker", "Actualitzacions automàtiques de contenidors Docker", "Servidor Ubuntu", "Escriptori Ubuntu", "Raspbian", "Pressupost", "USFF", "Petit", "Mini", "Micro PC", "Experiència tècnica", "EarnApp", "MIST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Torre de vigilància", "Picant"]
+tags: ["Construeix una caixa d'ingressos passius rendibles", "Maquinari de baixa potència", "Renda passiva", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Guia", "Requisits de maquinari", "Instal·lació del SO", "Instal·lació de programari", "Docker", "Actualitzacions automàtiques de contenidors Docker", "Servidor Ubuntu", "Escriptori Ubuntu", "Raspbian", "Pressupost", "USFF", "Petit", "Mini", "Micro PC", "Experiència tècnica", "EarnApp", "MIST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Torre de vigilància", "Picant", "Actualitzacions de Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "actualitzacions fora de línia", "repositori local", "memòria cau", "configuració del servidor", "configuració del client", "mirall apte", "debmirror", "crearrepo", "apt-cacher-ng", "yum-cron", "Actualitzacions del sistema Linux", "actualitzacions de paquets fora de línia", "actualitzacions de programari fora de línia", "dipòsit local de paquets", "memòria cau de paquets locals", "actualitzacions fora de línia de Linux", "gestionar les actualitzacions fora de línia", "mètodes d'actualització fora de línia", "manteniment del sistema fora de línia", "Actualitzacions del servidor Linux", "Actualitzacions del client Linux", "gestió de programari fora de línia", "gestió de paquets fora de línia", "estratègies d'actualització", "Actualitzacions de seguretat de Linux"]
 cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
 coverAlt: "una placa de circuit verda amb forma de caixa amb símbols de connectivitat a Internet com a cables connectats."
 coverCaption: ""
@@ -19,34 +19,34 @@ Molta gent en aquests dies s'interessa per la mineria criptogràfica i els miner
 Es requereix un dels següents. Bàsicament només necessitem qualsevol ordinador eficient i de poca potència que puguem tenir a les nostres mans. Qualsevol Raspberry PI, Intel NUC o similar ho farà. No han de ser tan poderosos. Tanmateix, us recomanaré que tingueu almenys 32 g-64 g d'emmagatzematge, 4 g de memòria RAM i almenys 2 fils de CPU. Per a això, apuntarem a un pressupost d'uns 100 a 200 dòlars per al maquinari, però no dubteu a augmentar si s'adapta a les vostres necessitats. El nostre objectiu de potència és aprox. 25w de mitjana.
 ### Raspberry Pi:
 Difícil d'aconseguir aquests dies, però tenen una potència molt baixa i són bastant personalitzables. Per obtenir informació sobre com instal·lar raspian al vostre Raspberry PI
--[Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
--[GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
--[GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
+- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
+- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
 ### Intel Nuc:
 Gran varietat de models que hi ha. No dubteu a triar-ne un de més nou.
--[Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
--[Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
--[Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
+- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
+- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
+- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
 ### Qualsevol PC USFF/Tiny/Mini/Micro:
--[Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
--[Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
+- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
 ### Qualsevol Mini PC amb Intel N5100 o similar
 Per a l'equivalent a Raspberry Pi de potència molt baixa, però a la plataforma x64.
--[Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
--[TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ## Instal·lació del sistema operatiu:
 No entrarem en els detalls tècnics de com instal·lar un sistema operatiu aquí. Tanmateix, aquí teniu alguns recursos fantàstics per començar
 ### Raspbian:
--[Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
--[The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
+- [Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+- [The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
 ### Ubuntu:
--[Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
--[Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
--[Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
+- [Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+- [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
+- [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
 
-## Instal·lació del programari:
+## Instal·lació de programari:
 Aquesta serà una secció més llarga. Configurarem Docker i després mitjançant Docker configurarem actualitzacions automàtiques de contenidors Docker i instal·larem diversos contenidors Docker. També suposem que esteu utilitzant el servidor ubuntu, però les ordres per al servidor ubuntu, l'escriptori ubuntu i el raspbian haurien de ser les mateixes.
 
 *Per a aquesta secció suposem una experiència tècnica bàsica i que ja tens instal·lat el teu sistema operatiu i saps com entrar al terminal.*
@@ -57,8 +57,8 @@ Primer volem assegurar-nos que tenim el nostre sistema totalment actualitzat:
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
-### Installing Docker:
-We need to uninstall any existing versions that come prepackaged with the os and install the latest from Docker's repo themselves.
+### Instal·lació de Docker:
+Hem de desinstal·lar totes les versions existents que vinguin preempaquetades amb el sistema operatiu i instal·lar la darrera versió del repo de Docker.
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -76,8 +76,8 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### Install Watchtower:
-This docker container automatically updates all your docker containers to the latest images on a regular interval and cleans up old (stale) images.
+### Instal·leu Watchtower:
+Aquest contenidor Docker actualitza automàticament tots els vostres contenidors Docker a les imatges més recents en un interval regular i neteja imatges antigues (antigues).
 ```bash
 docker run -d \
     --name watchtower \
@@ -88,98 +88,98 @@ docker run -d \
     --cleanup 
 ```
 
-### Install Bitping:
+### Instal·leu Bitping:
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
 
-Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
-This averages about 0.1 Cents per day per node. Not a lot I know, but it has potential and payouts are easy. 
+Bitping us ofereix la possibilitat de rebre un pagament a Solana per proporcionar un node perquè les empreses executin proves de xarxa lleugeres des de la vostra xarxa.
+Això fa una mitjana d'uns 0,1 cèntims per dia per node. No sé gaire, però té potencial i els pagaments són fàcils.
 
-#### Create an account:
-Create an account at [bitping.com](https://bitping.com)
+#### Crear un compte:
+Creeu un compte a [bitping.com](https://bitping.com)
 
-#### Install the docker container:
-Step 1. Run these commands first as it walks you through setting up your container and asks you to sign in.
+#### Instal·leu el contenidor docker:
+Pas 1. Executeu aquestes ordres primer mentre us guiarà a través de la configuració del contenidor i us demana que inicieu la sessió.
 ```bash
 docker pull bitping/bitping-node
 mkdir $HOME/.bitping/
 docker run -it --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
-Hit CTRL+C on your keyboard to escape the container following signing in with your bitping account.
+Premeu CTRL+C al vostre teclat per escapar del contenidor després d'iniciar la sessió amb el vostre compte de bitping.
 
-Step 2. Run this command to persist the container in the background
+Pas 2. Executeu aquesta ordre per mantenir el contenidor en segon pla
 ```bash
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
 
-### Install Earn App:
+### Instal·la l'aplicació Earn:
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
 
-Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
+L'aplicació Earn us permet compartir la vostra Internet com a servei VPN per obtenir una sorprenent quantitat de recompenses. Una mitjana d'uns 5 dòlars al mes per node per IP residencial. Ofereix pagaments mitjançant PayPal i targetes de regal d'Amazon.
 
-#### Create an Earn App Account:
-Create an account at [earnapp.com](https://earnapp.com/i/c1dllee).
-*Warning, requires a google account*
+#### Creeu un compte d'aplicació Earn:
+Creeu un compte a [earnapp.com](https://earnapp.com/i/c1dllee)
+*Avís, requereix un compte de Google*
 
-#### Install the non docker version of the app to get your UUID:
-Be sure to uninstall after you get your UUID otherwise you'll end up running it twice on the same host and without automatic updates
+#### Instal·leu la versió no acobladora de l'aplicació per obtenir el vostre UUID:
+Assegureu-vos de desinstal·lar-lo després d'obtenir el vostre UUID, en cas contrari, l'acabareu executant dues vegades al mateix amfitrió i sense actualitzacions automàtiques.
 - [Instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)
 
-#### Install the docker container:
-Modify the string before pasting into your terminal. You need to specify your earn app UUID.
+#### Instal·leu el contenidor docker:
+Modifiqueu la cadena abans d'enganxar-la al vostre terminal. Heu d'especificar l'UUID de l'aplicació per guanyar.
 ```bash
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
-#### Video Tutorial:
+#### Videotutorial:
 {{< youtube id="tt499o0OjGU" >}}
 
-### Install Honey Gain:
+### Instal·leu Honey Gain:
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
 
-Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
+Honey Gain us permet compartir la vostra Internet com a servei VPN per obtenir una sorprenent quantitat de recompenses. Una mitjana d'uns 5 dòlars al mes per node per IP residencial. Els pagaments poden ser complicats. Llegiu-lo més abans de decidir-vos a utilitzar aquest contenidor
 
-#### Create a Honey Gain Account:
-Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
+#### Creeu un compte de guany de mel:
+Creeu un compte a [honeygain.com](https://r.honeygain.me/DAVID07A75)
 
-#### Install the Docker Container:
-Modify the string with the obvious email, password, and device name before pasting into the terminal
+#### Instal·leu el contenidor Docker:
+Modifiqueu la cadena amb el correu electrònic, la contrasenya i el nom del dispositiu evidents abans d'enganxar-la al terminal
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
-#### Alternate instructions for Raspberry Pi
+#### Instruccions alternatives per a Raspberry Pi
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
 
-#### Video Tutorial:
+#### Videotutorial:
 {{< youtube id="Wd11M0nSy1k" >}}
 
-### Install PawnsApp:
+### Instal·leu PawnsApp:
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
-Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
+L'aplicació Pawns, de nou similar a les altres que es mostren aquí, us ofereix pagar per compartir la vostra Internet. El pagament mínim és de 5 $. El pagament mitjà és de 0,50 dòlars al mes per node per IP.
 
-#### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+#### Creeu un compte de PawnsApp:
+Creeu un compte a [https://pawns.app](https://pawns.app/?r=sos)
 
-#### Install the Docker Container:
+#### Instal·leu el contenidor Docker:
 
-Modify the following with your email, password, device name, and device id before copying to your terminal.
+Modifiqueu el següent amb el vostre correu electrònic, contrasenya, nom del dispositiu i identificador del dispositiu abans de copiar-lo al vostre terminal.
 ```bash
 docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Install Peer 2 Profit:
+### Instal·leu Peer 2 Profit:
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
 
-Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
-Offers a variety of payouts including money orders, BTC, LTC, LTC, MATIC, etc.
+De manera similar a EarnApp i HoneyGain, Peer2Profit comparteix la vostra Internet amb finalitats VPN i Scraping. Guanya aproximadament 1 $ al mes per node per IP.
+Ofereix una varietat de pagaments, com ara ordres postals, BTC, LTC, LTC, MATIC, etc.
 
-#### Create a Peer 2 Profit Account:
-Create an account at [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+#### Creeu un compte de beneficis Peer 2:
+Creeu un compte a [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
 
-#### Install the Docker Container:
+#### Instal·leu el contenidor Docker:
 ```bash
 export P2P_EMAIL="your_email_without_quotes"; 
 docker rm -f peer2profit || true && docker run -td --restart always \
@@ -187,47 +187,47 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
-#### Video Tutorial:
+#### Videotutorial:
 {{< youtube id="J_rSV5N8aQk" >}}
 
 
-### Install Repocket:
+### Instal·leu Repocket:
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
-Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+Similar a altres ofertes aquí. Pagament mínim de 20 $. Els pagaments poden ser complicats. Investigueu vosaltres mateixos per veure si voleu utilitzar aquest servei. Els pagaments tenen una mitjana d'1 $ per node per caixa al mes.
 
-#### Create a Repocket Account:
-Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
-#### Install the Docker Container:
-Modify the following line with your email and api key before pasting into your terminal.
+#### Crea un compte de reembossament:
+Creeu un compte a [repocket.co](https://link.repocket.co/pyqL) i agafeu la vostra clau API del vostre tauler.
+#### Instal·leu el contenidor Docker:
+Modifiqueu la línia següent amb el vostre correu electrònic i la clau API abans d'enganxar-la al vostre terminal.
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
-#### Video Tutorial:
+#### Videotutorial:
 {{< youtube id="171gWknfAbY" >}}
 
-### Install Traff Monetizer:
+### Instal·leu el monetitzador de trànsit:
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
 
-Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
+De manera similar a EarnApp i HoneyGain, TraffMoetizer et paga per compartir la teva Internet. Una mitjana d'uns 2 dòlars al mes per node per IP. Només ofereix pagaments en BTC.
 
-#### Create your Traff Monetizer Account:
-Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
-Once you get into the dashboard, make note of your application token.
+#### Creeu el vostre compte de monetitzador de trànsit:
+Creeu el vostre compte a [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Quan entreu al tauler, anoteu el vostre testimoni d'aplicació.
 
-#### Install the Docker Container:
-Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
+#### Instal·leu el contenidor Docker:
+Copieu la cadena següent i afegiu el testimoni que heu obtingut del tauler abans d'enganxar-lo al vostre terminal.
 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
-### Install Mysterium:
-[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
-Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
+### Instal·leu Mysterium:
+[Mysterium](https://www.mysterium.network/) és un servei descentralitzat de VPN i webscraping basat en les cadenes de blocs Etherium i Polygon.
+Els pagaments tenen una mitjana d'entre 1 i 20 dòlars al mes, depenent de diversos factors per node i IP. Costa 1,XX $ configurar un node per a l'activació. Pagaments en testimoni MYST.
 
 
-#### Install the Docker Container:
+#### Instal·leu el contenidor Docker:
 ```bash
 docker volume create myst_data
 docker run -td --cpus=1 --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 --hostname myst --cap-add NET_ADMIN --network=host -p 4449:4449 -p 59850-60000:59850-60000 --name myst --device=/dev/net/tun  -v myst_data:/var/lib/mysterium-node mysteriumnetwork/myst:latest --udp.ports=59850:60000 service --agreed-terms-and-conditions
@@ -235,35 +235,35 @@ ufw allow 4449
 ufw allow 59850:60000/tcp
 ```
 
-#### Setup the Docker Container:
-Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+#### Configura el contenidor Docker:
+Aneu a http://"nodeip"/#/dashboard substituint "nodeip" per l'adreça IP del vostre node. Podeu trobar-ho escrivint "ifconfig" al terminal.
 
-Click “start node setup”.
+Feu clic a "iniciar la configuració del node".
 
-Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+Passeu l'adreça de la cartera ERC20 en què voleu rebre recompenses i feu clic a "següent". Podeu utilitzar una adreça estàndard d'Ethereum com una de les vostres adreces de MetaMask.
 
-Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+Escriviu una contrasenya que utilitzareu per accedir a aquest tauler de nodes en el futur. Marqueu la casella de selecció per reclamar el node de la vostra xarxa.
 
-Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
+Feu clic a l'enllaç "Obteniu-ho aquí" i cerqueu la vostra clau API. Copia-ho. Torneu enrere i enganxeu-lo. Feu clic a "Desa i continua".
 
-#### Port Forwarding:
-We can not describe how to port forward for everyone's specific hardware. Here are some resources to learn how to port forward.
+#### Reenviament de ports:
+No podem descriure com es pot reenviar el port per al maquinari específic de cadascú. Aquí teniu alguns recursos per aprendre a portar endavant.
 - [PortForward.com](https://portforward.com/)
 - [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
 
 
-### Auto Restart Docker Containers on Boot:
+### Reinici automàtic dels contenidors Docker a l'arrencada:
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
 
-### Optional Configurations:
+### Configuracions opcionals:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
 - [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
-#### Increase security by blocking malware and trackers.
-Force all dns requests to Cloudflares malware and tracking protection dns.
-Also, block DNS/HTTPS requests.
-*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
+#### Augmenta la seguretat bloquejant programari maliciós i rastrejadors.
+Força totes les sol·licituds dns al programari maliciós de Cloudflares i als dns de protecció de seguiment.
+A més, bloquegeu les sol·licituds DNS/HTTPS.
+*Si teniu un encaminador o un tallafocs més avançats a la xarxa, fins i tot podeu utilitzar paquets com snort/securita per crear regles més avançades per bloquejar les IP conegudes que actuen malament, l'accés a tor, torrents, trànsit p2p en general, etc. Això és molt important. suggerit però no obligatori.*
 ```bash
 # Allow ssh still
 sudo ufw allow 22
@@ -301,7 +301,7 @@ iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
 sudo iptables-save
 sudo ufw enable
 ```
-For more advanced ToR blocking you can do the following:
+Per a un bloqueig de ToR més avançat, podeu fer el següent:
 ```bash
 #https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
 sudo apt-get -y install ipset

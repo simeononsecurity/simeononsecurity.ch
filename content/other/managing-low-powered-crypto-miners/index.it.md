@@ -22,9 +22,9 @@ ______
 
 ## Remote.it e ngrok
 
-Per fortuna, esistono **servizi** che possono aiutarti a gestire i nodi remoti in modo più efficace. Uno di questi servizi è **remote.it**, che ti consente di stabilire connessioni sicure e remote ai tuoi nodi senza port forwarding. Con[remote.it](https://www.remote.it/) puoi connetterti ai tuoi nodi su Internet, anche se sono dietro un firewall o NAT. Questo può aiutarti a gestire i tuoi nodi in modo più efficace e ridurre il tempo e lo sforzo necessari per mantenerne l'accesso.
+Per fortuna, esistono **servizi** che possono aiutarti a gestire i nodi remoti in modo più efficace. Uno di questi servizi è **remote.it**, che ti consente di stabilire connessioni sicure e remote ai tuoi nodi senza port forwarding. Con [remote.it](https://www.remote.it/) puoi connetterti ai tuoi nodi su Internet, anche se sono dietro un firewall o NAT. Questo può aiutarti a gestire i tuoi nodi in modo più efficace e ridurre il tempo e lo sforzo necessari per mantenerne l'accesso.
 
-Un altro servizio che può aiutarti a gestire i nodi remoti è **ngrok**.[Ngrok](https://ngrok.com/) è un servizio di tunneling sicuro che consente di esporre un server Web locale a Internet. Con ngrok, puoi creare una connessione sicura ai tuoi nodi e gestirli da remoto senza bisogno di port forwarding. Questo può essere particolarmente utile se gestisci nodi che si trovano dietro un firewall o NAT.
+Un altro servizio che può aiutarti a gestire i nodi remoti è **ngrok**. [Ngrok](https://ngrok.com/) è un servizio di tunneling sicuro che consente di esporre un server Web locale a Internet. Con ngrok, puoi creare una connessione sicura ai tuoi nodi e gestirli da remoto senza bisogno di port forwarding. Questo può essere particolarmente utile se gestisci nodi che si trovano dietro un firewall o NAT.
 
 ______
 
@@ -38,13 +38,13 @@ ______
 
 Quando si gestiscono nodi remoti, soprattutto se sono esposti a Internet, è importante assicurarsi che siano sicuri e protetti da accessi non autorizzati. Un modo per farlo è usare l'**autenticazione del certificato** per autenticare le connessioni ai nodi. L'autenticazione del certificato è un'alternativa più sicura alla tradizionale autenticazione della password, in quanto richiede un certificato digitale per verificare l'identità del dispositivo di connessione.
 
-Oltre all'autenticazione del certificato, è anche importante avere[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) installato sui tuoi nodi. Fail2ban è uno strumento in grado di rilevare e prevenire attacchi di forza bruta sui tuoi nodi bloccando gli indirizzi IP che tentano di connettersi senza successo. Avendo installato fail2ban, puoi ridurre il rischio di accesso non autorizzato ai tuoi nodi e assicurarti che rimangano sicuri.
+Oltre all'autenticazione del certificato, è anche importante avere [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) installato sui tuoi nodi. Fail2ban è uno strumento in grado di rilevare e prevenire attacchi di forza bruta sui tuoi nodi bloccando gli indirizzi IP che tentano di connettersi senza successo. Avendo installato fail2ban, puoi ridurre il rischio di accesso non autorizzato ai tuoi nodi e assicurarti che rimangano sicuri.
 
 ______
 
 ## Sbuffa
 
-Un altro strumento che può aiutarti a gestire i tuoi nodi in modo efficace è[Snort](https://www.snort.org/) Snort è un sistema di rilevamento delle intrusioni di rete open source che può aiutarti a rilevare e prevenire le minacce che entrano ed escono dai tuoi nodi. Avendo Snort installato sui tuoi nodi, puoi essere avvisato di qualsiasi attività sospetta e adottare misure per mitigare potenziali minacce. Questo può aiutarti a proteggere i tuoi nodi e prevenire eventuali danni al tuo sistema.
+Un altro strumento che può aiutarti a gestire i tuoi nodi in modo efficace è [Snort](https://www.snort.org/) Snort è un sistema di rilevamento delle intrusioni di rete open source che può aiutarti a rilevare e prevenire le minacce che entrano ed escono dai tuoi nodi. Avendo Snort installato sui tuoi nodi, puoi essere avvisato di qualsiasi attività sospetta e adottare misure per mitigare potenziali minacce. Questo può aiutarti a proteggere i tuoi nodi e prevenire eventuali danni al tuo sistema.
 
 ______
 

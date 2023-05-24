@@ -24,28 +24,28 @@ HackTheBox पर "बैंक डकैती" क्रिप्टो चु
 
 ______
 
-## Walk Through:
+## के माध्यम से चलो:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**बहुत स्पष्ट रूप से, यह या तो एक T9 या मल्टीटैप सिफर है।**
+मल्टीटैप हालांकि इस उदाहरण में सिफर है। [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) इसे डिकोड करने के लिए एक उपकरण है।
 
-You'll get this plain text:
+आपको यह सादा पाठ मिलेगा:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+**अंत में वह जंक क्या है जो आप पूछ सकते हैं? वैसे यह वास्तव में एक एटबैश सिफर टेक्स्ट है। **
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+हम प्रयोग करेंगे [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) एक बार और समझने के लिए। फिर आपके पास अपना झंडा है। वाह!
 
 ______
 
-### Flag Example:
+### ध्वज उदाहरण:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

@@ -16,7 +16,7 @@ A maioria das pessoas com fibra tem duas maneiras de se conectar à Internet - f
 
 ### Aspectos tecnicos
 
-O[Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+O [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
 
 {{< figure src="azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp" alt="Azores WAG-D20" >}}
 
@@ -28,9 +28,9 @@ Depois de inicializar, você precisa pressionar Enter para obter um prompt de lo
  
 ### Credenciais
 
-- `admin`/`ADMIN123!@#` - Login de administrador para web GUI
-- `Guest`/`welcome` - Login de convidado
-- `test`/`default` - Login de fábrica
+- `admin``ADMIN123!@#` - Login de administrador para web GUI
+- `Guest``welcome` - Login como convidado
+- `test``default` - Login de fábrica
 
 ### Interface Ethernet
 
@@ -38,9 +38,9 @@ Conecte seu cliente à porta ethernet 10G e configure-o com um endereço na rede
 
 Ao executar uma varredura de porta de 1-65535, você notará algumas portas abertas:
 
-- Portas `23` e `8009` - Telnet, requer login, executa o aplicativo CLI.
-- Porta `10002` - Desconhecido
-- Porta `80` - WebUI, apenas duas funções
+- Portas `23` & `8009` - Telnet, requer login, executa o aplicativo CLI.
+- Porto `10002` - Desconhecido
+- Porto `80` - WebUI, apenas duas funções
 
 ### Personalizando o ONT
 
@@ -58,37 +58,37 @@ Primeiro, pegue as seguintes informações do seu ISP Gateway ou ONT:
 
 Observação: esses são os valores OMCI e não os da interface do usuário da web.
 
-Telnet para seu ONT pessoal (telnet 192.168.1.1), faça login como **`test`** usando a senha **`default`** e execute o comando 'test' para entrar no modo de configuração de fábrica.
+Telnet para seu ONT pessoal (telnet 192.168.1.1), faça login como **`test` usando o **`default` senha e execute o comando 'test' para entrar no modo de configuração de fábrica.
 
 Exiba os valores atualmente definidos com o comando 'show':
 
-- `mostrar gpon mac`
-- `mostrar sn`
-- `mostrar id do equipamento`
+- `show gpon mac`
+- `show sn`
+- `show equipment id`
 
 Feito isso, personalize as configurações com os seguintes comandos, substituindo x pelos valores do seu dispositivo:
 
-- `definir gpon mac xx:xx:xx:xx:xx:xx`
-- `definir sn <inserir ID ONT aqui>`
+- `set gpon mac xx:xx:xx:xx:xx:xx`
+- `set sn <insert ONT ID here>`
 
 Para HUMAX:
 
-- `definir ID do equipamento “iONT320500G”`
+- `set equipment id “iONT320500G”`
 - `config ONU-G_Version "BGW320-500_2.1”`
 
 Para Nokia:
 
-- `definir ID do equipamento “iONT320505G”`
+- `set equipment id “iONT320505G”`
 - `config ONU-G_Version "BGW320-505_2.2”`
 
-Nota: Os últimos dois comandos devem ser aplicados a partir do telnet logado como o usuário **`test`**.
+Nota: Os dois últimos comandos devem ser aplicados a partir do telnet logado como **`test` do utilizador.
 
 ### Reinicie e aproveite a verdadeira passagem de IP
 
 Após a personalização, reinicie o ONT e aproveite a verdadeira passagem de IP.
 
 ### Solução de problemas e etapas adicionais
-Para obter mais informações sobre este tópico, consulte o[8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
+Para obter mais informações sobre este tópico, consulte o [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
 
 ### Conclusão
 

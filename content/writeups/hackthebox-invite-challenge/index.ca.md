@@ -20,7 +20,7 @@ HackTheBox és una plataforma en línia per provar i avançar les teves habilita
 
 Per crear un compte a HackTheBox (HTB), heu de completar el repte d'invitació o piratejar-vos per entrar. No us preocupeu, encara que no sigui difícil i aquest article us ajudarà a completar el repte.
 
-Primer, aneu al[HackTheBox Website](https://hackthebox.eu) i feu clic al botó unir-se.
+Primer, aneu al [HackTheBox Website](https://hackthebox.eu) i feu clic al botó unir-se.
 
 Se us presentarà una casella que us demanarà clarament un codi d'invitació.
 
@@ -37,21 +37,21 @@ Podeu fer el següent per obtenir el codi d'invitació codificat en Base64:
 ### Solució:
 
 #### Simple:
-- **Windows**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+Que generarà el següent contingut: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+Si agafeu el codi d'invitació codificat a [base64decode.org](https://www.base64decode.org/) rebràs el teu codi d'invitació!
 
-#### Advanced (Instantly print out invite code):
+#### Avançat (imprimeix el codi d'invitació a l'instant):
  - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+ - **Nota**: haureu d'instal·lar el [jq](https://stedolan.github.io/jq/download/) paquet.
 
 ______
 
-### Invite Code Ex:
+### Codi d'invitació Ex:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 

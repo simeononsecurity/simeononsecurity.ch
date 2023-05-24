@@ -23,32 +23,32 @@ Ihnen wird eine Datei bereitgestellt:
 
 Beim Abspielen der **sound.mp3** hören Sie einen vertrauten Ton. Wenn Sie nicht wissen, welche Geräusche Sie hören, hören Sie **DTMF**-Töne (Dual Tone Multi Frequency). Dieselben Töne, die Sie früher beim Wählen an einem Münztelefon oder beim Navigieren durch die Menüs des Geldautomaten hörten.
 
-Jeder Ton hat eine bestimmte Frequenz. Sie könnten die Zahlen manuell abrufen, aber wer hat die Zeit dafür?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+Jeder Ton hat eine bestimmte Frequenz. Sie könnten die Zahlen manuell abrufen, aber wer hat die Zeit dafür? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-Nehmen Sie die konvertierte Datei mit[DialABC](http://www.dialabc.com/sound/detect/index.html) und Sie erhalten die folgende Ausgabe:
+Nehmen Sie die konvertierte Datei mit [DialABC](http://www.dialabc.com/sound/detect/index.html) und Sie erhalten die folgende Ausgabe:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+Beachten Sie, dass die Zahlen mit einer Ausnahme in Zweiergruppen gepaart sind, wenn Sie sich die Audiodatei genau anhören oder sie in **Audacity** oder **Sonic Visualizer** öffnen.
+Wenn man die Zahl heraustrennt, erhält man Folgendes:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+Wenn Sie so organisiert sind, könnten Sie verwirrt sein und denken, dass es HEX sein könnte. Das ist es nicht.
+Achten Sie genau auf die Zahlen. Welches mathematische Merkmal haben die einzelnen Zahlengruppierungen gemeinsam?
+Es sind alles Primzahlen. Das sollte Sie dazu bringen, die weniger bekannte **Primzahl-Chiffre** auszuprobieren.
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+Wir werden verwenden [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) um diese Herausforderung zu meistern.
+Reichen Sie den Chiffretext ein, bevor wir ihn herausgetrennt haben, und Sie erhalten die Flagge.
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### Flag-Beispiel:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

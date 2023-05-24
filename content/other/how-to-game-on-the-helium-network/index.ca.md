@@ -32,10 +32,10 @@ La xarxa Helium és una xarxa LoRaWAN® descentralitzada que compensa els que al
 La xarxa Helium es basa en la prova de cobertura per garantir que els punts d'accés ofereixen cobertura allà on es necessita. Tanmateix, aquest sistema és vulnerable als jocs, la falsificació, la pirateria i altres tipus de mal comportament que poden danyar la xarxa. El problema dels jocs a la xarxa Helium està costant als amfitrions legítims milers de $ HNT al mes. Helium, Inc, juntament amb DeWi, han pres mesures agressives a principis de 2022 per ajudar a eliminar aquest problema.
 
 ## Maquinari necessari
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## Ús de MiddleMan per jugar a la xarxa Helium
 Una manera de jugar a la xarxa Helium és utilitzar MiddleMan. MiddleMan és una eina de programari que es pot utilitzar per crear un punt d'accés fals que sembla que ofereix cobertura en una ubicació específica. Mitjançant l'ús de MiddleMan, un usuari pot crear un punt d'accés fals que rebrà recompenses per oferir cobertura en una àrea concreta, tot i que el punt d'accés no es troba físicament en aquesta àrea.
@@ -44,7 +44,7 @@ Per utilitzar MiddleMan, un usuari ha d'instal·lar el programari i crear un pun
 
 Hauríeu de configurar la vostra passarel·la lorawan per apuntar a aquest programari i manipular els valors perquè tots els PoC rebuts es considerin vàlids. L'ús del reenviador semtech és un dels diferents estàndards de la comunitat LoraWAN. Arreglar el problema de manipulació requeriria reinventar la roda i implementar el seu propi protocol des de zero. Coses com les sumes de control i el xifratge evitarien que això succeís. Però també dificultaria que els venedors amb diferents maquinari creïn punts d'accés. Per no parlar de que és un cas d'ús compatible per tenir un miner d'heli i diverses passarel·les Lora per millorar la cobertura. Tot i que això és més un problema a nivell empresarial.
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## Ús del multiplexador de paquets Chirp Stack per jugar a la xarxa d'heli
 Una altra manera de jugar a la xarxa Helium és mitjançant el multiplexador de paquets Chirp Stack. Chirp Stack Packet Multiplexer és una eina que es pot utilitzar per crear un punt d'accés virtual que pot rebre paquets de diversos punts d'accés físics. Mitjançant l'ús del multiplexador de paquets Chirp Stack, un usuari pot crear un punt d'accés virtual que rep paquets de punts d'accés físics en diverses ubicacions, cosa que augmentarà les recompenses obtingudes.
@@ -54,7 +54,7 @@ Per utilitzar Chirp Stack Packet Multiplexer, un usuari ha d'instal·lar el prog
 Això permet l'entrada de diversos reenviadors i diverses passarel·les de sortida. Hi ha casos d'ús legítims per a aquest programari a la comunitat LoraWAN, però utilitzar-lo en heli és una zona grisa en el millor dels casos. Depèn de com l'utilitzis i també de quina sigui la teva intenció.
 
 La configuració d'aquest requereix alguns fitxers de configuració. Però es pot fer en 5 minuts o menys.
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Riscos i conseqüències dels jocs a la xarxa Helium

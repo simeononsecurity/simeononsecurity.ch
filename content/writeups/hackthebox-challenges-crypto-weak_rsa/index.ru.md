@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox — Проблема — Крипто — Слабый RSA"
 draft: false
-description: "Узнайте, как использовать автоматизированный инструмент RSA-атак, RsaCtfTool, чтобы легко решить проблему HackTheBox Weak RSA Crypto."
+description: "Узнайте, как использовать автоматизированный инструмент RSA-атаки RsaCtfTool, чтобы легко решить проблему HackTheBox Weak RSA Crypto."
 tags: ["ХакБокс", "Проблемы", "Крипто", "Слабый RSA", "RsaCtfTool", "HTB Слабая RSA Crypto", "Легкий вызов", "шифр RSA", "flag.enc", "key.pub", "Пакет OpenSSL", "автоматизированный инструмент для RSA-атак", "скрипт питона", "RsaCtfTool", "питон3", "открытый ключ", "расшифровать файл", "Пример флага"]
 toc: true
 cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
@@ -24,17 +24,17 @@ ______
 Для этого мы можем использовать пакет OpenSSL для расшифровки флага.
 На этот раз все немного по-другому, и вы обнаружите, что пакет OpenSSL не подходит для этой задачи.
 
-Мы будем использовать автоматизированный инструмент атаки RSA. Обычный скрипт Python — это[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+Мы будем использовать автоматизированный инструмент атаки RSA. Обычный скрипт Python — это [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+Проще говоря, этот инструмент автоматически находит для вас флаг.
 
 ______
 
-### Flag Example:
+### Пример флага:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

@@ -5,7 +5,7 @@ toc: true
 description: "Узнайте, как сгенерировать код приглашения и присоединиться к онлайн-платформе HackTheBox, чтобы проверить и усовершенствовать свои навыки в области тестирования на проникновение и кибербезопасности как в Windows, так и в Linux."
 tags: ["ХакБокс", "Пригласить вызов", "Проверка на проницаемость", "Информационная безопасность", "Окна", "линукс", "Онлайн-платформа", "HTTP-ПОСТ", "Код приглашения", "Кодировка Base64", "PowerShell", "Линукс Баш", "Декодирование Base64", "Генерация кода приглашения", "Программирование", "Веб-разработка", "Технологии", "ИТ-безопасность", "ИТ-обучение"]
 cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
-coverAlt: "Мультяшный экран компьютера, показывающий веб-сайт HackTheBox с дверью хранилища, отпираемой ключом, открывающей трофей или медаль, на фоне городского пейзажа в цветовой гамме логотипа HackTheBox (синий и белый)."
+coverAlt: "Мультяшный экран компьютера, показывающий веб-сайт HackTheBox с дверью хранилища, отпираемой ключом, обнажая трофей или медаль, на фоне городского пейзажа в цветовой гамме логотипа HackTheBox (синий и белый)."
 coverCaption: ""
 ---
  пошаговые инструкции по выполнению приглашения на HackTheBox в Windows или Linux. Узнайте, как сгенерировать код приглашения и присоединиться к онлайн-платформе, чтобы проверить и усовершенствовать свои навыки в области тестирования на проникновение и кибербезопасности. В статье представлены как простые, так и расширенные решения, позволяющие пользователям всех уровней легко выполнить задание и получить доступ к платформе.
@@ -18,9 +18,9 @@ HackTheBox — это онлайн-платформа для проверки и
 
 ## Как присоединиться к Hack the box?
 
-Чтобы создать учетную запись на HackTheBox (HTB), вы должны выполнить приглашение или взломать себя. Не беспокойтесь, хотя это несложно, и эта статья поможет вам выполнить задание.
+Чтобы создать учетную запись на HackTheBox (HTB), вы должны выполнить приглашение или взломать себя, чтобы войти. Не беспокойтесь, хотя это несложно, и эта статья поможет вам выполнить задание.
 
-Сначала зайдите в[HackTheBox Website](https://hackthebox.eu) и нажмите на кнопку присоединиться.
+Сначала зайдите в [HackTheBox Website](https://hackthebox.eu) и нажмите на кнопку присоединиться.
 
 Вам будет представлено окно, в котором явно запрашивается код приглашения.
 
@@ -37,21 +37,21 @@ HackTheBox — это онлайн-платформа для проверки и
 ### Решение:
 
 #### Простой:
-- **Windows**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
+- **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **Линукс**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+Который будет генерировать следующий контент: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+Если вы возьмете закодированный код приглашения на [base64decode.org](https://www.base64decode.org/) вы получите код приглашения!
 
-#### Advanced (Instantly print out invite code):
+#### Дополнительно (Мгновенно распечатать код приглашения):
  - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+- **Линукс**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
+ - **Примечание**: Вам необходимо установить [jq](https://stedolan.github.io/jq/download/) упаковка.
 
 ______
 
-### Invite Code Ex:
+### Код приглашения Пример:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 

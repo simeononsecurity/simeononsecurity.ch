@@ -10,7 +10,7 @@ coverAlt: "हरे रंग की स्क्रीन वाला एक 
 coverCaption: ""
 ---
 
-Sound.mp3 फ़ाइल में DTMF टोन को डिकोड करके हैकदबॉक्स पर क्रिप्टो - कॉल चुनौती को हल करें। फ़ाइल को .wav में कनवर्ट करें और सिफ़र पाठ प्राप्त करने के लिए DialABC का उपयोग करें। संख्याओं को अलग करें और ध्वज प्रकट करने के लिए Decode.fr पर अभाज्य संख्या सिफर का उपयोग करें। HackTheBox पर इस रोमांचक चुनौती में परीक्षण के लिए अपने कौशल को प्राइम नंबर सिफर में डालने के लिए तैयार हो जाइए।"
+Sound.mp3 फ़ाइल में DTMF टोन को डिकोड करके हैकदबॉक्स पर क्रिप्टो - कॉल चुनौती को हल करें। फ़ाइल को .wav में कनवर्ट करें और सिफ़र पाठ प्राप्त करने के लिए DialABC का उपयोग करें। संख्याओं को अलग करें और ध्वज प्रकट करने के लिए Decode.fr पर प्रमुख संख्या सिफर का उपयोग करें। HackTheBox पर इस रोमांचक चुनौती में परीक्षण के लिए अपने कौशल को प्राइम नंबर सिफर में डालने के लिए तैयार हो जाइए।"
 
 ______
 
@@ -21,34 +21,34 @@ ______
 
 ## के माध्यम से चलो:
 
-**sound.mp3** चलाने पर, आपको एक जानी-पहचानी आवाज़ सुनाई देगी। यदि आप उन ध्वनियों से परिचित नहीं हैं जो आप सुन रहे हैं **DTMF** (डुअल टोन मल्टी फ़्रीक्वेंसी) टोन सुन रहे हैं। वही स्वर जो आप पे फ़ोन पर डायल करते समय या स्वचालित टेलर मेनू के माध्यम से प्राप्त करते समय सुनते थे।
+**sound.mp3** चलाने पर, आपको एक जानी-पहचानी आवाज़ सुनाई देगी। यदि आप उन ध्वनियों से परिचित नहीं हैं जो आप सुन रहे हैं **DTMF** (डुअल टोन मल्टी फ़्रीक्वेंसी) टोन सुन रहे हैं। पे फोन पर डायल करते समय या स्वचालित टेलर मेनू के माध्यम से प्राप्त करते समय वही स्वर जो आप सुनते थे।
 
-प्रत्येक स्वर की एक विशिष्ट आवृत्ति होती है। आप मैन्युअल रूप से नंबर प्राप्त कर सकते हैं, लेकिन उसके लिए किसके पास समय है?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+प्रत्येक स्वर की एक विशिष्ट आवृत्ति होती है। आप मैन्युअल रूप से नंबर प्राप्त कर सकते हैं, लेकिन उसके लिए किसके पास समय है? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-कनवर्ट की गई फ़ाइल को इसमें ले जाएं[DialABC](http://www.dialabc.com/sound/detect/index.html) और आपको निम्न आउटपुट मिलेगा:
+कनवर्ट की गई फ़ाइल को इसमें ले जाएं [DialABC](http://www.dialabc.com/sound/detect/index.html) और आपको निम्न आउटपुट मिलेगा:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+ध्यान दें कि यदि आप ऑडियो फ़ाइल को ध्यान से सुनते हैं या इसे **ऑडेसिटी** या **सोनिक विज़ुअलाइज़र** में खोलते हैं, तो एक अपवाद के साथ, संख्याएँ दो के समूहों में जोड़ी जाती हैं।
+यदि आप संख्या को अलग करते हैं तो आपको निम्नलिखित मिलते हैं:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+इस तरह व्यवस्थित, आप भ्रमित हो सकते हैं और सोच सकते हैं कि यह हेक्स हो सकता है। यह नहीं है।
+अंकों पर विशेष ध्यान दें। संख्याओं का प्रत्येक समूह किस गणितीय गुण को साझा करता है?...
+वे सभी अभाज्य संख्याएँ हैं। जो आपको कम ज्ञात **अभाज्य संख्या सिफर** को आज़माने के लिए लाएगा।
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+हम प्रयोग करेंगे [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) इस चुनौती को पूरा करने के लिए।
+इससे पहले कि हम इसे अलग करें, सिफर टेक्स्ट सबमिट करें और आपको फ़्लैग मिल जाएगा।
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### ध्वज उदाहरण:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

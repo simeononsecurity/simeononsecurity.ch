@@ -24,28 +24,28 @@ HackTheBox の暗号チャレンジ「銀行強盗」を解決するための包
 
 ______
 
-## Walk Through:
+## ウォークスルー:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**明らかに、これは T9 暗号またはマルチタップ暗号のいずれかです。**
+ただし、この例ではマルチタップが暗号です。 [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) これをデコードするツールがあります。
 
-You'll get this plain text:
+次のプレーンテキストが得られます。
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+**最後にあるジャンクとは何ですか?そうですね、実際には atbash 暗号文です。**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+使用します [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) もう一度解読するために。そうすれば、旗が手に入ります。おっと！
 
 ______
 
-### Flag Example:
+### フラグの例:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

@@ -24,17 +24,17 @@ ______
 そのために、OpenSSL パッケージを使用してフラグを復号化する場合があります。
 今回は少し異なり、OpenSSL パッケージがこの課題では機能しないことがわかります。
 
-自動化された RSA 攻撃ツールを使用します。一般的な Python スクリプトは次のとおりです。[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+自動化された RSA 攻撃ツールを使用します。一般的な Python スクリプトは次のとおりです。 [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+簡単に言うと、このツールは自動的にフラグを簡単に見つけます。
 
 ______
 
-### Flag Example:
+### フラグの例:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

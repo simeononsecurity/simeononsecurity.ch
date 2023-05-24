@@ -24,17 +24,17 @@ Auf den ersten Blick könnte man meinen, man könne die Flagge mit dem öffentli
 Dazu könnten wir das OpenSSL-Paket verwenden, um die Flagge zu entschlüsseln.
 Diesmal ist es etwas anders und Sie werden feststellen, dass das OpenSSL-Paket für diese Herausforderung nicht funktioniert.
 
-Wir verwenden ein automatisiertes RSA-Angriffstool. Ein gängiges Python-Skript ist das[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+Wir verwenden ein automatisiertes RSA-Angriffstool. Ein gängiges Python-Skript ist das [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+Einfach ausgedrückt: Dieses Tool findet die Flagge ganz einfach und automatisch für Sie.
 
 ______
 
-### Flag Example:
+### Flag-Beispiel:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

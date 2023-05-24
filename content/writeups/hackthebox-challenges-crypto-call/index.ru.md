@@ -6,7 +6,7 @@ description: "Узнайте, как расшифровывать тональн
 tags: ["ХакБокс", "Крипто вызов", "Тоны DTMF", "Шифр простого числа", "Расшифровка", "Решение головоломок", "Криптография", "Преобразование аудио", "DialABC", "Декодировать.fr", "WAV", "MP3", "Частота", "Математическая черта", "Флаг", "Мужество", "Звуковой визуализатор", "Числа", "Меню банкомата", "платный телефон"]
 toc: true
 cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
-coverAlt: "Мультяшный телефон с зеленым экраном и замком на нем, символизирующим безопасность и шифрование, с тонами DTMF, изображенными на заднем плане."
+coverAlt: "Мультяшный телефон с зеленым экраном и замком на нем, символизирующим безопасность и шифрование, с тонами DTMF, изображенными на заднем плане"
 coverCaption: ""
 ---
 
@@ -23,32 +23,32 @@ ______
 
 Проигрывая **sound.mp3**, вы услышите знакомый звук. Если вы не знакомы, звуки, которые вы слышите, **DTMF** (двухтональные многочастотные тона). Те же звуки, которые вы привыкли слышать при наборе номера в телефоне-автомате или при работе с меню банкомата.
 
-Каждый тон имеет определенную частоту. Можно было получить номера вручную, но у кого есть на это время?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+Каждый тон имеет определенную частоту. Можно было получить номера вручную, но у кого есть на это время? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-Возьмите преобразованный файл в[DialABC](http://www.dialabc.com/sound/detect/index.html) и вы получите следующий вывод:
+Возьмите преобразованный файл в [DialABC](http://www.dialabc.com/sound/detect/index.html) и вы получите следующий вывод:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+Обратите внимание, что если вы внимательно прослушаете аудиофайл или откроете его в **Audacity** или **Sonic Visualizer**, то, за одним исключением, числа будут парными группами по два.
+Если вы разделите число, вы получите следующее:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+Организованный таким образом, вы можете быть сбиты с толку и подумать, что это может быть HEX. Это не так.
+Обратите особое внимание на цифры. Какой математический признак объединяет каждая группа чисел?....
+Все они простые числа. Это должно заставить вас попробовать менее известный **шифр простых чисел**.
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+мы будем использовать [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) чтобы выполнить эту задачу.
+Отправьте зашифрованный текст до того, как мы его выделили, и вы получите флаг.
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### Пример флага:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

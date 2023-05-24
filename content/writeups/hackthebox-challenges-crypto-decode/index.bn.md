@@ -21,28 +21,28 @@ ______
 ```
 993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
 ```
-and
+এবং
 ```
 gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
 ```
 
-## Walk Through:
+## ওয়াক থ্রু:
 
-At first glance it appears this is some sort of key and some cipher text.
-After searching around, you'll find that it is a Fernet cypher.
-[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) has a great tool to decode it for you.
+প্রথম নজরে মনে হচ্ছে এটি এক ধরণের কী এবং কিছু সাইফার টেক্সট।
+চারপাশে অনুসন্ধান করার পরে, আপনি দেখতে পাবেন যে এটি একটি ফার্নেট সাইফার।
+[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) আপনার জন্য এটি ডিকোড করার জন্য একটি দুর্দান্ত সরঞ্জাম রয়েছে।
 
-The plain text from the above information gives you a base64 encoded string
+উপরের তথ্য থেকে সরল পাঠ্য আপনাকে একটি base64 এনকোডেড স্ট্রিং দেয়
 
 ```
 RCdgTl45OFs8O3tGMlZVNTRRPythcUw6bVxJNmlYJmYkMEBSeFBfdSldeHFwdW5tM3Fwb2htZmUrTGJnZl9eXSNhYFleV1Z6VFNyUVZVTnJMUVBPTkdrS0QsSEFlKERDPDtfPz5+fTVZOTg3dzUuUjJyMC8oJyZKKikoJyYlfHtBeX53djx6eXhxWTZ0c1VUcG9oLnk=
 ```
 
-To decode this, we'll use the tool provided from [base64decode.org](https://www.base64decode.org/)
+এটিকে ডিকোড করতে, আমরা প্রদত্ত টুল ব্যবহার করব [base64decode.org](https://www.base64decode.org/)
 
-Decoding again gives you the following:
+ডিকোডিং আবার আপনাকে নিম্নলিখিত দেয়:
 ```
-D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNrLQPONGkKD,HAe(DC<;_?>
+ডি'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`
 ```
 
 This was a new one for me. But you'll find after some careful research that it is a Malboge cipher.

@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-02-07
 description: "このガイドでは、Raspberry Pi または Intel NUC を使用して低電力受動的収入暗号マイナーをセットアップし、1 ボックスあたり月額 10 ～ 20 ドルを稼ぐ方法を学びます"
-tags: ["収益性の高い受動的所得ボックスを構築する", "低電力ハードウェア", "不労所得", "クリプトマイナー", "ラズベリーパイ", "インテル NUC", "ガイド", "ハードウェア要件", "OSのインストール", "ソフトウェアのインストール", "ドッカー", "Dockerコンテナの自動更新", "Ubuntuサーバー", "Ubuntuデスクトップ", "ラズビアン", "バジェット", "USFF", "小さい", "ミニ", "マイクロPC", "技術経験", "稼ぐアプリ", "ミスト", "ピアツープロフィット", "ハニーゲイン", "TraffMonitizer", "ものみの塔", "噛む"]
+tags: ["収益性の高い受動的所得ボックスを構築する", "低電力ハードウェア", "不労所得", "クリプトマイナー", "ラズベリーパイ", "インテル NUC", "ガイド", "ハードウェア要件", "OSのインストール", "ソフトウェアのインストール", "ドッカー", "Dockerコンテナの自動更新", "Ubuntuサーバー", "Ubuntuデスクトップ", "ラズビアン", "バジェット", "USFF", "小さい", "ミニ", "マイクロPC", "技術経験", "稼ぐアプリ", "ミスト", "ピアツープロフィット", "ハニーゲイン", "TraffMonitizer", "ものみの塔", "噛む", "Linuxのアップデート", "Ubuntu", "デビアン", "CentOS", "RHEL", "オフラインアップデート", "ローカルリポジトリ", "キャッシュ", "サーバーのセットアップ", "クライアントのセットアップ", "適切なミラー", "デブミラー", "リポジトリの作成", "apt-cacher-ng", "ヤムクロン", "Linux システムのアップデート", "オフラインパッケージのアップデート", "オフラインソフトウェアアップデート", "ローカルパッケージリポジトリ", "ローカルパッケージキャッシュ", "オフライン Linux アップデート", "オフラインアップデートの処理", "オフラインアップデート方法", "オフラインでのシステムメンテナンス", "Linuxサーバーのアップデート", "Linuxクライアントのアップデート", "オフラインのソフトウェア管理", "オフラインパッケージ管理", "戦略を更新する", "Linuxのセキュリティアップデート"]
 cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
 coverAlt: "ボックスのような形をした緑色の回路基板で、そこに接続されたワイヤとしてインターネット接続のシンボルが表示されます。"
 coverCaption: ""
@@ -19,31 +19,31 @@ coverCaption: ""
 次のいずれかが必要です。基本的に必要なのは、入手可能な効率的で低消費電力のコンピューターだけです。 Raspberry PI、Intel NUC、または同様のもので十分です。それほど強力である必要はありません。ただし、少なくとも 32g ～ 64g のストレージ、4g の RAM、少なくとも 2 つの CPU スレッドを搭載することをお勧めします。このため、ハードウェアの予算は約 100 ドルから 200 ドルを目標としますが、ニーズに合う場合は自由に予算を上げても構いません。私たちのパワー目標はおよそです。平均25w。
 ### ラズベリーパイ:
 最近では入手するのが難しいですが、超低消費電力で、かなりカスタマイズ可能です。 Raspberry PI に Raspian をインストールする方法については、
--[Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
--[GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
--[GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
+- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
+- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
 ### インテル Nuc:
 多種多様なモデルが揃っています。自由に新しいものを選択してください。
--[Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
--[Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
--[Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
+- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
+- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
+- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
 ### USFF/小型/ミニ/マイクロ PC:
--[Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
--[Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
+- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
 ### Intel N5100 または同等のミニ PC
 超低消費電力の Raspberry Pi と同等ですが、x64 プラットフォーム用。
--[Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
--[TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ## OSのインストール:
 ここでは、オペレーティング システムのインストール方法の技術的な詳細については説明しません。ただし、開始するための優れたリソースがいくつかあります
 ### ラズビアン:
--[Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
--[The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
+- [Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+- [The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
 ### Ubuntu:
--[Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
--[Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
--[Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
+- [Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+- [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
+- [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
 
 ＃＃ ソフトウェアのインストール：
@@ -57,8 +57,8 @@ coverCaption: ""
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
-### Installing Docker:
-We need to uninstall any existing versions that come prepackaged with the os and install the latest from Docker's repo themselves.
+### Docker のインストール:
+OS にあらかじめパッケージ化されている既存のバージョンをアンインストールし、Docker のリポジトリ自体から最新バージョンをインストールする必要があります。
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -76,8 +76,8 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### Install Watchtower:
-This docker container automatically updates all your docker containers to the latest images on a regular interval and cleans up old (stale) images.
+### Watchtower をインストールします。
+この Docker コンテナは、すべての Docker コンテナを定期的に最新のイメージに自動的に更新し、古い (失効した) イメージをクリーンアップします。
 ```bash
 docker run -d \
     --name watchtower \
@@ -88,98 +88,98 @@ docker run -d \
     --cleanup 
 ```
 
-### Install Bitping:
+### Bitping をインストールします。
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
 
-Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
-This averages about 0.1 Cents per day per node. Not a lot I know, but it has potential and payouts are easy. 
+Bitping を使用すると、企業がネットワークから軽量のネットワーク テストを実行するためのノードを提供することで、Solana で支払いを受けることができます。
+これは、ノードごとに 1 日あたり平均約 0.1 セントになります。私が知っていることはあまりありませんが、可能性はあり、支払いも簡単です。
 
-#### Create an account:
-Create an account at [bitping.com](https://bitping.com)
+＃＃＃＃ アカウントを作成する：
+でアカウントを作成してください [bitping.com](https://bitping.com)
 
-#### Install the docker container:
-Step 1. Run these commands first as it walks you through setting up your container and asks you to sign in.
+#### Docker コンテナをインストールします。
+ステップ 1. コンテナーのセットアップ手順が案内され、サインインを求められるため、最初にこれらのコマンドを実行します。
 ```bash
 docker pull bitping/bitping-node
 mkdir $HOME/.bitping/
 docker run -it --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
-Hit CTRL+C on your keyboard to escape the container following signing in with your bitping account.
+bitping アカウントでサインインした後、キーボードの CTRL+C を押してコンテナをエスケープします。
 
-Step 2. Run this command to persist the container in the background
+ステップ 2. このコマンドを実行して、コンテナーをバックグラウンドで永続化します。
 ```bash
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
 
-### Install Earn App:
+### 獲得アプリをインストール:
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
 
-Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
+Earn アプリを使用すると、VPN サービスとしてインターネットを共有して、驚くほどの報酬を得ることができます。住宅用 IP ごとにノードごとに月平均約 5 ドルかかります。 PayPal および Amazon ギフトカードによる支払いを提供します。
 
-#### Create an Earn App Account:
-Create an account at [earnapp.com](https://earnapp.com/i/c1dllee).
-*Warning, requires a google account*
+#### 獲得アプリアカウントを作成します:
+でアカウントを作成してください [earnapp.com](https://earnapp.com/i/c1dllee)
+*警告、Google アカウントが必要です*
 
-#### Install the non docker version of the app to get your UUID:
-Be sure to uninstall after you get your UUID otherwise you'll end up running it twice on the same host and without automatic updates
+#### 非 Docker バージョンのアプリをインストールして、UUID を取得します。
+UUID を取得した後は必ずアンインストールしてください。そうしないと、同じホスト上で自動更新が行われずに 2 回実行することになります。
 - [Instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)
 
-#### Install the docker container:
-Modify the string before pasting into your terminal. You need to specify your earn app UUID.
+#### Docker コンテナをインストールします。
+端末に貼り付ける前に文字列を変更してください。獲得アプリの UUID を指定する必要があります。
 ```bash
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
-#### Video Tutorial:
+#### ビデオチュートリアル:
 {{< youtube id="tt499o0OjGU" >}}
 
-### Install Honey Gain:
+### ハニーゲインをインストールします。
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
 
-Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
+Honey Gain を使用すると、VPN サービスとしてインターネットを共有して、驚くほどの報酬を得ることができます。住宅用 IP ごとにノードごとに月平均約 5 ドルかかります。支払いは複雑になる場合があります。このコンテナの使用を決定する前に、さらに読んでください。
 
-#### Create a Honey Gain Account:
-Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
+#### ハニーゲインアカウントを作成します:
+でアカウントを作成してください [honeygain.com](https://r.honeygain.me/DAVID07A75)
 
-#### Install the Docker Container:
-Modify the string with the obvious email, password, and device name before pasting into the terminal
+#### Docker コンテナをインストールします。
+端末に貼り付ける前に、明らかな電子メール、パスワード、デバイス名で文字列を変更します。
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
-#### Alternate instructions for Raspberry Pi
+#### Raspberry Pi の代替手順
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
 
-#### Video Tutorial:
+#### ビデオチュートリアル:
 {{< youtube id="Wd11M0nSy1k" >}}
 
-### Install PawnsApp:
+### PawnsApp をインストールします。
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
-Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
+Pawns アプリは、ここにリストされている他のアプリと同様に、インターネットの共有に対して料金を支払うことを提供します。最低支払額は 5 ドルです。平均支払い額は、IP ごとのノードごとに月額 0.50 ドルです。
 
-#### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+#### PawnsApp アカウントを作成します:
+でアカウントを作成してください [https://pawns.app](https://pawns.app/?r=sos)
 
-#### Install the Docker Container:
+#### Docker コンテナをインストールします。
 
-Modify the following with your email, password, device name, and device id before copying to your terminal.
+端末にコピーする前に、電子メール、パスワード、デバイス名、デバイス ID を使用して以下を変更します。
 ```bash
 docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Install Peer 2 Profit:
+### ピア 2 のインストールによる利益:
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
 
-Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
-Offers a variety of payouts including money orders, BTC, LTC, LTC, MATIC, etc.
+EarnApp や HoneyGain と同様に、Peer2Profit は VPN とスクレイピングの目的でインターネットを共有します。 IP ごとにノードごとに月に約 1 ドルの収益が得られます。
+郵便為替、BTC、LTC、LTC、MATICなどを含むさまざまな支払いを提供します。
 
-#### Create a Peer 2 Profit Account:
-Create an account at [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+#### ピア 2 利益アカウントを作成します。
+でアカウントを作成してください [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
 
-#### Install the Docker Container:
+#### Docker コンテナをインストールします。
 ```bash
 export P2P_EMAIL="your_email_without_quotes"; 
 docker rm -f peer2profit || true && docker run -td --restart always \
@@ -187,47 +187,47 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
-#### Video Tutorial:
+#### ビデオチュートリアル:
 {{< youtube id="J_rSV5N8aQk" >}}
 
 
-### Install Repocket:
+### リポケットをインストールします。
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
-Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+ここでの他の製品と同様です。最低 20 ドルの支払い。支払いは複雑になる場合があります。このサービスを使用するかどうかは、自分で調べてください。ペイアウトは、ノードごと、ボックスごとに月平均約 1 ドルです。
 
-#### Create a Repocket Account:
-Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
-#### Install the Docker Container:
-Modify the following line with your email and api key before pasting into your terminal.
+#### リポケットアカウントを作成します:
+でアカウントを作成してください [repocket.co](https://link.repocket.co/pyqL) ダッシュボードから API キーを取得します。
+#### Docker コンテナをインストールします。
+端末に貼り付ける前に、次の行を電子メールと API キーで変更します。
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
-#### Video Tutorial:
+#### ビデオチュートリアル:
 {{< youtube id="171gWknfAbY" >}}
 
-### Install Traff Monetizer:
+### Traff Monetizer をインストールします。
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
 
-Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
+EarnApp や HoneyGain と同様に、TraffMonetizer はインターネットの共有に対して料金を支払います。 IP ごとにノードごとに月平均約 2 ドルかかります。 BTCでの支払いのみを提供します。
 
-#### Create your Traff Monetizer Account:
-Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
-Once you get into the dashboard, make note of your application token.
+#### Traff Monetizer アカウントを作成します。
+でアカウントを作成してください [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+ダッシュボードに入ったら、アプリケーション トークンをメモします。
 
-#### Install the Docker Container:
-Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
+#### Docker コンテナをインストールします。
+次の文字列をコピーし、ターミナルに貼り付ける前に、ダッシュボードから取得したトークンを追加します。
 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
-### Install Mysterium:
-[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
-Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
+### ミステリウムをインストールします。
+[Mysterium](https://www.mysterium.network/) は、Ethereum および Polygon ブロックチェーン上に構築された分散型 VPN およびウェブスクレイピング サービスです。
+IP ごとのノードごとの複数の要因に応じて、支払いは月あたり平均 1 ドルから 20 ドルになります。アクティブ化用にノードをセットアップするには 1.XX ドルかかります。 MYSTトークンでの支払い。
 
 
-#### Install the Docker Container:
+#### Docker コンテナをインストールします。
 ```bash
 docker volume create myst_data
 docker run -td --cpus=1 --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 --hostname myst --cap-add NET_ADMIN --network=host -p 4449:4449 -p 59850-60000:59850-60000 --name myst --device=/dev/net/tun  -v myst_data:/var/lib/mysterium-node mysteriumnetwork/myst:latest --udp.ports=59850:60000 service --agreed-terms-and-conditions
@@ -235,35 +235,35 @@ ufw allow 4449
 ufw allow 59850:60000/tcp
 ```
 
-#### Setup the Docker Container:
-Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+#### Docker コンテナをセットアップします。
+「nodeip」をノードの IP アドレスに置き換えて、http://"nodeip"/#/dashboard に移動します。これは、ターミナルに「ifconfig」と入力すると見つかります。
 
-Click “start node setup”.
+「ノードセットアップの開始」をクリックします。
 
-Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+報酬を受け取りたいERC20ウォレットのアドレスを入力し、「次へ」をクリックします。 MetaMask アドレスの 1 つと同様に、標準の Ethereum アドレスを使用できます。
 
-Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+今後このノード ダッシュボードにアクセスするために使用するパスワードを入力します。ネットワーク内のノードを要求するには、チェックボックスをオンにしてください。
 
-Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
+「Get it here」リンクをクリックして API キーを見つけます。コピーしてください。戻って貼り付けます。 「保存して続行」をクリックします。
 
-#### Port Forwarding:
-We can not describe how to port forward for everyone's specific hardware. Here are some resources to learn how to port forward.
+#### ポート転送:
+すべてのユーザー固有のハードウェアにポートフォワードする方法を説明することはできません。ポートフォワードの方法を学ぶためのリソースをいくつか紹介します。
 - [PortForward.com](https://portforward.com/)
 - [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
 
 
-### Auto Restart Docker Containers on Boot:
+### 起動時に Docker コンテナを自動再起動:
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
 
-### Optional Configurations:
+### オプションの構成:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
 - [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
-#### Increase security by blocking malware and trackers.
-Force all dns requests to Cloudflares malware and tracking protection dns.
-Also, block DNS/HTTPS requests.
-*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
+#### マルウェアやトラッカーをブロックしてセキュリティを強化します。
+すべての DNS リクエストを Cloudflares マルウェアおよび追跡保護 DNS に強制します。
+また、DNS/HTTPS リクエストをブロックします。
+*ネットワーク上により高度なルーターまたはファイアウォールがある場合は、snort/securita などのパッケージを使用して、既知の不正行為 IP、Tor アクセス、トレント、P2P トラフィック一般などをブロックするためのより高度なルールを作成することもできます。これは非常に効果的です。推奨されていますが、必須ではありません。*
 ```bash
 # Allow ssh still
 sudo ufw allow 22
@@ -301,7 +301,7 @@ iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
 sudo iptables-save
 sudo ufw enable
 ```
-For more advanced ToR blocking you can do the following:
+より高度な ToR ブロックを行うには、次の操作を実行できます。
 ```bash
 #https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
 sudo apt-get -y install ipset

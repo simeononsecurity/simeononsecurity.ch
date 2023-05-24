@@ -22,9 +22,9 @@ ______
 
 ## Remote.it y ngrok
 
-Afortunadamente, existen **servicios** que pueden ayudarlo a administrar los nodos remotos de manera más efectiva. Uno de estos servicios es **remote.it**, que le permite establecer conexiones remotas y seguras a sus nodos sin redirección de puertos. Con[remote.it](https://www.remote.it/) puede conectarse a sus nodos a través de Internet, incluso si están detrás de un firewall o NAT. Esto puede ayudarlo a administrar sus nodos de manera más efectiva y reducir el tiempo y el esfuerzo necesarios para mantener el acceso a ellos.
+Afortunadamente, existen **servicios** que pueden ayudarlo a administrar los nodos remotos de manera más efectiva. Uno de estos servicios es **remote.it**, que le permite establecer conexiones remotas y seguras a sus nodos sin redirección de puertos. Con [remote.it](https://www.remote.it/) puede conectarse a sus nodos a través de Internet, incluso si están detrás de un firewall o NAT. Esto puede ayudarlo a administrar sus nodos de manera más efectiva y reducir el tiempo y el esfuerzo necesarios para mantener el acceso a ellos.
 
-Otro servicio que puede ayudarlo a administrar nodos remotos es **ngrok**.[Ngrok](https://ngrok.com/) es un servicio de túnel seguro que le permite exponer un servidor web local a Internet. Con ngrok, puede crear una conexión segura a sus nodos y administrarlos de forma remota sin necesidad de redirección de puertos. Esto puede ser particularmente útil si está administrando nodos que están detrás de un firewall o NAT.
+Otro servicio que puede ayudarlo a administrar nodos remotos es **ngrok**. [Ngrok](https://ngrok.com/) es un servicio de túnel seguro que le permite exponer un servidor web local a Internet. Con ngrok, puede crear una conexión segura a sus nodos y administrarlos de forma remota sin necesidad de redirección de puertos. Esto puede ser particularmente útil si está administrando nodos que están detrás de un firewall o NAT.
 
 ______
 
@@ -38,13 +38,13 @@ ______
 
 Al administrar nodos remotos, especialmente si están expuestos a Internet, es importante asegurarse de que estén seguros y protegidos contra el acceso no autorizado. Una forma de hacerlo es usar **autenticación de certificado** para autenticar las conexiones a los nodos. La autenticación con certificado es una alternativa más segura que la autenticación con contraseña tradicional, ya que requiere un certificado digital para verificar la identidad del dispositivo que se conecta.
 
-Además de la autenticación de certificados, también es importante tener[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) instalado en sus nodos. Fail2ban es una herramienta que puede detectar y prevenir ataques de fuerza bruta en sus nodos al bloquear las direcciones IP que intentan conectarse sin éxito. Al tener instalado fail2ban, puede reducir el riesgo de acceso no autorizado a sus nodos y asegurarse de que permanezcan seguros.
+Además de la autenticación de certificados, también es importante tener [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) instalado en sus nodos. Fail2ban es una herramienta que puede detectar y prevenir ataques de fuerza bruta en sus nodos al bloquear las direcciones IP que intentan conectarse sin éxito. Al tener instalado fail2ban, puede reducir el riesgo de acceso no autorizado a sus nodos y asegurarse de que permanezcan seguros.
 
 ______
 
 ## Resoplar
 
-Otra herramienta que puede ayudarlo a administrar sus nodos de manera efectiva es[Snort](https://www.snort.org/) Snort es un sistema de detección de intrusos en la red de código abierto que puede ayudarlo a detectar y prevenir amenazas que entran y salen de sus nodos. Al tener Snort instalado en sus nodos, puede recibir alertas sobre cualquier actividad sospechosa y tomar medidas para mitigar posibles amenazas. Esto puede ayudarlo a mantener sus nodos seguros y evitar daños a su sistema.
+Otra herramienta que puede ayudarlo a administrar sus nodos de manera efectiva es [Snort](https://www.snort.org/) Snort es un sistema de detección de intrusos en la red de código abierto que puede ayudarlo a detectar y prevenir amenazas que entran y salen de sus nodos. Al tener Snort instalado en sus nodos, puede recibir alertas sobre cualquier actividad sospechosa y tomar medidas para mitigar posibles amenazas. Esto puede ayudarlo a mantener sus nodos seguros y evitar daños a su sistema.
 
 ______
 

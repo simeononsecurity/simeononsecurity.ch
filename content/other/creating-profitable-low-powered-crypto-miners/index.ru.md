@@ -3,8 +3,8 @@ title: "Создайте прибыльную коробку пассивног�
 draft: false
 toc: true
 date: 2023-02-07
-description: "Узнайте, как настроить маломощный крипто-майнер с пассивным доходом, используя Raspberry Pi или Intel NUC, и зарабатывать от 10 до 20 долларов в месяц за коробку с помощью этого руководства."
-tags: ["Создайте прибыльную коробку пассивного дохода", "Маломощное оборудование", "Пассивный доход", "Крипто майнер", "Raspberry Pi", "Интел НУК", "Гид", "Требования к оборудованию", "Установка ОС", "Установка программы", "Докер", "Автоматические обновления контейнеров Docker", "Сервер Ubuntu", "Рабочий стол Ubuntu", "малина", "Бюджет", "USFF", "Крошечный", "Мини", "Микро ПК", "Технический опыт", "EarnApp", "МИСТ", "Peer2Прибыль", "МедГейн", "TraffMonitizer", "Сторожевая башня", "Битпинг"]
+description: "Узнайте, как настроить маломощный крипто-майнер с пассивным доходом, используя Raspberry Pi или Intel NUC, и зарабатывать от 10 до 20 долларов в месяц за коробку с помощью этого руководства"
+tags: ["Создайте прибыльную коробку пассивного дохода", "Маломощное оборудование", "Пассивный доход", "Крипто майнер", "Raspberry Pi", "Интел НУК", "Гид", "Требования к оборудованию", "Установка ОС", "Установка программы", "Докер", "Автоматические обновления контейнеров Docker", "Сервер Ubuntu", "Рабочий стол Ubuntu", "малина", "Бюджет", "USFF", "Крошечный", "Мини", "Микро ПК", "Технический опыт", "EarnApp", "МИСТ", "Peer2Прибыль", "МедГейн", "TraffMonitizer", "Сторожевая башня", "Битпинг", "Обновления Linux", "Убунту", "Дебиан", "CentOS", "РЕЛ", "автономные обновления", "локальный репозиторий", "тайник", "настройка сервера", "настройка клиента", "подходящее зеркало", "debmirror", "создать репозиторий", "apt-cacher-нг", "ням-крон", "Обновления системы Linux", "автономные обновления пакетов", "автономные обновления программного обеспечения", "локальный репозиторий пакетов", "локальный кэш пакетов", "автономные обновления Linux", "обработка автономных обновлений", "автономные способы обновления", "автономное обслуживание системы", "Обновления сервера Linux", "Обновления клиента Linux", "автономное управление программным обеспечением", "автономное управление пакетами", "обновить стратегии", "Обновления безопасности Linux"]
 cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
 coverAlt: "зеленая печатная плата в форме коробки с символами подключения к Интернету в виде проводов, подключенных к ней."
 coverCaption: ""
@@ -19,31 +19,31 @@ coverCaption: ""
 Требуется одно из следующих действий. По сути, нам просто нужен любой эффективный и маломощный компьютер, который мы сможем достать. Подойдет любой Raspberry PI, Intel NUC или аналогичный. Они не должны быть такими мощными. Однако я рекомендую вам иметь не менее 32-64 г памяти, 4 г оперативной памяти и не менее 2 потоков процессора. Для этого мы будем ориентироваться на бюджет около 100-200 долларов на оборудование, но вы можете увеличить его, если это соответствует вашим потребностям. Наша целевая мощность составляет ок. 25 Вт в среднем.
 ### Raspberry Pi:
 В наши дни их трудно достать, но они очень маломощные и вполне настраиваемые. Для получения информации о том, как установить raspian на ваш Raspberry PI
--[Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
--[GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
--[GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
+- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
+- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
 ### Intel Nuc:
 Там большое разнообразие моделей. Не стесняйтесь выбирать более новый.
--[Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
--[Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
--[Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
+- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
+- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
+- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
 ### Любой USFF/Tiny/Mini/Micro PC:
--[Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
--[Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
+- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
 ### Любой мини-ПК с процессором Intel N5100 или аналогичным
 Для супернизкого энергопотребления эквивалентен Raspberry Pi, но на платформе x64.
--[Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
--[TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ## Установка ОС:
-Мы не будем вдаваться в технические подробности установки операционной системы. Однако вот несколько отличных ресурсов, которые помогут вам начать
+Мы не будем вдаваться в технические подробности установки операционной системы. Однако вот несколько отличных ресурсов, с которых можно начать
 ### Распбиан:
--[Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
--[The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
+- [Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+- [The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
 ### Убунту:
--[Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
--[Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
--[Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
+- [Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+- [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
+- [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
 
 ## Установка программы:
@@ -57,8 +57,8 @@ coverCaption: ""
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
-### Installing Docker:
-We need to uninstall any existing versions that come prepackaged with the os and install the latest from Docker's repo themselves.
+### Установка Докера:
+Нам нужно удалить все существующие версии, которые поставляются вместе с ОС, и самостоятельно установить последнюю версию из репозитория Docker.
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -76,8 +76,8 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### Install Watchtower:
-This docker container automatically updates all your docker containers to the latest images on a regular interval and cleans up old (stale) images.
+### Установите Сторожевую Башню:
+Этот док-контейнер автоматически обновляет все ваши док-контейнеры до последних образов через регулярные промежутки времени и очищает старые (устаревшие) образы.
 ```bash
 docker run -d \
     --name watchtower \
@@ -88,98 +88,98 @@ docker run -d \
     --cleanup 
 ```
 
-### Install Bitping:
+### Установить битпинг:
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
 
-Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
-This averages about 0.1 Cents per day per node. Not a lot I know, but it has potential and payouts are easy. 
+Bitping предлагает вам возможность получать оплату в Solana за предоставление узла для предприятий, чтобы выполнять легкие сетевые тесты из вашей сети.
+В среднем это около 0,1 цента в день на узел. Я не так много знаю, но у него есть потенциал, и выплаты просты.
 
-#### Create an account:
-Create an account at [bitping.com](https://bitping.com)
+#### Завести аккаунт:
+Создайте учетную запись на [bitping.com](https://bitping.com)
 
-#### Install the docker container:
-Step 1. Run these commands first as it walks you through setting up your container and asks you to sign in.
+#### Установите докер-контейнер:
+Шаг 1. Сначала запустите эти команды, поскольку они проведут вас через настройку вашего контейнера и попросят вас войти в систему.
 ```bash
 docker pull bitping/bitping-node
 mkdir $HOME/.bitping/
 docker run -it --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
-Hit CTRL+C on your keyboard to escape the container following signing in with your bitping account.
+Нажмите CTRL+C на клавиатуре, чтобы выйти из контейнера после входа в свою учетную запись Bitping.
 
-Step 2. Run this command to persist the container in the background
+Шаг 2. Запустите эту команду, чтобы сохранить контейнер в фоновом режиме.
 ```bash
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
 
-### Install Earn App:
+### Установите приложение для заработка:
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
 
-Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
+Приложение Earn позволяет вам делиться своим интернетом в качестве VPN-сервиса за удивительное количество вознаграждений. В среднем около 5 долларов США в месяц за узел на один резидентный IP-адрес. Предлагает выплаты с помощью подарочных карт PayPal и Amazon.
 
-#### Create an Earn App Account:
-Create an account at [earnapp.com](https://earnapp.com/i/c1dllee).
-*Warning, requires a google account*
+#### Создайте учетную запись приложения Earn:
+Создайте учетную запись на [earnapp.com](https://earnapp.com/i/c1dllee)
+*Внимание, требуется учетная запись Google*
 
-#### Install the non docker version of the app to get your UUID:
-Be sure to uninstall after you get your UUID otherwise you'll end up running it twice on the same host and without automatic updates
+#### Установите версию приложения без докера, чтобы получить свой UUID:
+Обязательно удалите его после получения своего UUID, иначе вы запустите его дважды на одном хосте и без автоматических обновлений.
 - [Instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)
 
-#### Install the docker container:
-Modify the string before pasting into your terminal. You need to specify your earn app UUID.
+#### Установите докер-контейнер:
+Измените строку перед вставкой в терминал. Вам нужно указать UUID вашего приложения для заработка.
 ```bash
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
-#### Video Tutorial:
+#### Видеоурок:
 {{< youtube id="tt499o0OjGU" >}}
 
-### Install Honey Gain:
+### Установите Honey Gain:
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
 
-Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
+Honey Gain позволяет вам делиться своим интернетом в качестве VPN-сервиса за удивительное количество вознаграждений. В среднем около 5 долларов США в месяц за узел на один резидентный IP-адрес. Выплаты могут быть сложными. Прочтите его подробнее, прежде чем принять решение об использовании этого контейнера.
 
-#### Create a Honey Gain Account:
-Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
+#### Создайте учетную запись Honey Gain:
+Создайте учетную запись на [honeygain.com](https://r.honeygain.me/DAVID07A75)
 
-#### Install the Docker Container:
-Modify the string with the obvious email, password, and device name before pasting into the terminal
+#### Установите контейнер Docker:
+Измените строку с очевидным адресом электронной почты, паролем и именем устройства перед вставкой в терминал.
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
-#### Alternate instructions for Raspberry Pi
+#### Альтернативные инструкции для Raspberry Pi
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
 
-#### Video Tutorial:
+#### Видеоурок:
 {{< youtube id="Wd11M0nSy1k" >}}
 
-### Install PawnsApp:
+### Установите PawnsApp:
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
-Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
+Приложение Pawns, опять же похожее на другие, перечисленные здесь, предлагает платить вам за то, что вы делитесь своим интернетом. Минимальная выплата составляет 5 долларов. Средняя выплата составляет 0,50 доллара США в месяц за узел на IP.
 
-#### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+#### Создайте учетную запись PawnsApp:
+Создайте учетную запись на [https://pawns.app](https://pawns.app/?r=sos)
 
-#### Install the Docker Container:
+#### Установите контейнер Docker:
 
-Modify the following with your email, password, device name, and device id before copying to your terminal.
+Измените следующее, указав свой адрес электронной почты, пароль, имя устройства и идентификатор устройства, прежде чем копировать на свой терминал.
 ```bash
 docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Install Peer 2 Profit:
+### Установить Peer 2 Прибыль:
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
 
-Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
-Offers a variety of payouts including money orders, BTC, LTC, LTC, MATIC, etc.
+Подобно EarnApp и HoneyGain, Peer2Profit предоставляет общий доступ к вашему интернету для целей VPN и скрейпинга. Зарабатывает около 1 доллара в месяц за узел на IP.
+Предлагает различные выплаты, включая денежные переводы, BTC, LTC, LTC, MATIC и т. д.
 
-#### Create a Peer 2 Profit Account:
-Create an account at [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+#### Создайте счет прибыли Peer 2:
+Создайте учетную запись на [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
 
-#### Install the Docker Container:
+#### Установите контейнер Docker:
 ```bash
 export P2P_EMAIL="your_email_without_quotes"; 
 docker rm -f peer2profit || true && docker run -td --restart always \
@@ -187,47 +187,47 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
-#### Video Tutorial:
+#### Видеоурок:
 {{< youtube id="J_rSV5N8aQk" >}}
 
 
-### Install Repocket:
+### Установите Repocket:
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
-Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+Аналогично другим предложениям здесь. Минимальная выплата 20 долларов. Выплаты могут быть сложными. Узнайте сами, хотите ли вы воспользоваться этой услугой. Выплаты в среднем составляют около 1 доллара за узел на коробку в месяц.
 
-#### Create a Repocket Account:
-Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
-#### Install the Docker Container:
-Modify the following line with your email and api key before pasting into your terminal.
+#### Создайте учетную запись Repocket:
+Создайте учетную запись на [repocket.co](https://link.repocket.co/pyqL) и возьмите свой ключ API с панели управления.
+#### Установите контейнер Docker:
+Измените следующую строку, указав свой адрес электронной почты и ключ API, прежде чем вставлять в терминал.
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
-#### Video Tutorial:
+#### Видеоурок:
 {{< youtube id="171gWknfAbY" >}}
 
-### Install Traff Monetizer:
+### Установите монетизатор трафика:
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
 
-Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
+Подобно EarnApp и HoneyGain, TraffMonetizer платит вам за то, что вы делитесь своим интернетом. В среднем около 2 долларов в месяц за узел на IP. Предлагает выплаты только в BTC.
 
-#### Create your Traff Monetizer Account:
-Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
-Once you get into the dashboard, make note of your application token.
+#### Создайте учетную запись для монетизации трафика:
+Создайте свою учетную запись на [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Как только вы попадете на панель инструментов, запишите свой токен приложения.
 
-#### Install the Docker Container:
-Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
+#### Установите контейнер Docker:
+Скопируйте следующую строку и добавьте свой токен, который вы получили с панели управления, прежде чем вставлять в свой терминал.
 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
-### Install Mysterium:
-[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
-Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
+### Установите Мистериум:
+[Mysterium](https://www.mysterium.network/) — это децентрализованный сервис VPN и веб-скрейпинга, построенный на блокчейнах Etherium и Polygon.
+Платежи в среднем составляют от 1 до 20 долларов в месяц в зависимости от множества факторов на узел на IP. Стоимость настройки узла для активации составляет 1,XX долларов США. Выплаты в токенах MYST.
 
 
-#### Install the Docker Container:
+#### Установите контейнер Docker:
 ```bash
 docker volume create myst_data
 docker run -td --cpus=1 --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 --hostname myst --cap-add NET_ADMIN --network=host -p 4449:4449 -p 59850-60000:59850-60000 --name myst --device=/dev/net/tun  -v myst_data:/var/lib/mysterium-node mysteriumnetwork/myst:latest --udp.ports=59850:60000 service --agreed-terms-and-conditions
@@ -235,35 +235,35 @@ ufw allow 4449
 ufw allow 59850:60000/tcp
 ```
 
-#### Setup the Docker Container:
-Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+#### Настройте контейнер Docker:
+Перейдите на http://"nodeip"/#/dashboard, заменив "nodeip" на IP-адрес вашего узла. Вы можете найти это, набрав «ifconfig» в терминале.
 
-Click “start node setup”.
+Нажмите «Начать настройку узла».
 
-Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+Вставьте адрес кошелька ERC20, на который вы хотите получить вознаграждение, и нажмите «Далее». Вы можете использовать стандартный адрес Ethereum, например, один из ваших адресов MetaMask.
 
-Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+Введите пароль, который вы будете использовать для доступа к этой панели управления узлом в будущем. НЕОБХОДИМО установить флажок, чтобы заявить права на узел в вашей сети.
 
-Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
+Нажмите ссылку «Получить здесь» и найдите свой ключ API. Скопируйте это. Вернитесь и вставьте его. Нажмите «Сохранить и продолжить».
 
-#### Port Forwarding:
-We can not describe how to port forward for everyone's specific hardware. Here are some resources to learn how to port forward.
+#### Перенаправление порта:
+Мы не можем описать как портировать форвард для каждого конкретного железа. Вот некоторые ресурсы, чтобы узнать, как выполнить перенос.
 - [PortForward.com](https://portforward.com/)
 - [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
 
 
-### Auto Restart Docker Containers on Boot:
+### Автоматический перезапуск контейнеров Docker при загрузке:
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
 
-### Optional Configurations:
+### Дополнительные конфигурации:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
 - [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
-#### Increase security by blocking malware and trackers.
-Force all dns requests to Cloudflares malware and tracking protection dns.
-Also, block DNS/HTTPS requests.
-*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
+#### Повысьте безопасность, заблокировав вредоносное ПО и трекеры.
+Направляйте все DNS-запросы к вредоносному ПО Cloudflares и отслеживайте DNS-защиту.
+Также заблокируйте запросы DNS/HTTPS.
+* Если у вас есть более продвинутый маршрутизатор или брандмауэр в сети, вы даже можете использовать такие пакеты, как snort/securita, для создания более сложных правил для блокировки известных недействующих IP-адресов, доступа к tor, торрентам, p2p-трафику в целом и т. д. Это очень важно. рекомендуется, но не требуется.*
 ```bash
 # Allow ssh still
 sudo ufw allow 22
@@ -301,7 +301,7 @@ iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
 sudo iptables-save
 sudo ufw enable
 ```
-For more advanced ToR blocking you can do the following:
+Для более сложной блокировки ToR вы можете сделать следующее:
 ```bash
 #https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
 sudo apt-get -y install ipset

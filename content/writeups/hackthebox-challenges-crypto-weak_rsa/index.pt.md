@@ -24,17 +24,17 @@ ______
 Para isso, podemos usar o pacote OpenSSL para descriptografar o sinalizador.
 Desta vez é um pouco diferente e você descobrirá que o pacote OpenSSL não funcionará para este desafio.
 
-Usaremos uma ferramenta de ataque RSA automatizada. Um script python comum é o[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+Usaremos uma ferramenta de ataque RSA automatizada. Um script python comum é o [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+Simplificando, esta ferramenta encontra a bandeira facilmente para você de forma automatizada.
 
 ______
 
-### Flag Example:
+### Exemplo de sinalização:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

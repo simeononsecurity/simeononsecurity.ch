@@ -24,28 +24,28 @@ Para este desafío, se le proporciona el siguiente texto cifrado:
 
 ______
 
-## Walk Through:
+## Caminar a través de:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**Muy claramente, este es un cifrado T9 o Multitap.**
+Sin embargo, Multitap es el cifrado en este caso. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) tiene una herramienta para decodificar esto.
 
-You'll get this plain text:
+Obtendrá este texto sin formato:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+** ¿Qué es esa basura al final, podrías preguntar? Bueno, en realidad es un texto cifrado atbash.**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+usaremos [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) para descifrar una vez más. Entonces tienes tu bandera. ¡Uau!
 
 ______
 
-### Flag Example:
+### Ejemplo de indicador:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

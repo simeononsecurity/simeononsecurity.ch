@@ -13,24 +13,24 @@ coverCaption: ""
 
 Оставаться на связи стало необходимостью для большинства из нас, особенно во время пандемии. Однако в удаленных местах получить надежный сигнал сотовой связи может быть непросто. К счастью, существуют различные варианты усиления сигнала сотовой связи. В этой статье мы обсудим усилители сотовой связи внутри помещений, такие как T-Mobile Cell Spot, усилители связи между помещениями и помещениями, такие как WeBoost и Hiboost, а также варианты фемтосот для AT&T, T-Mobile и Verizon.
 
-##[T-Mobile Cell Spot](https://amzn.to/41cXppc)
+## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
 {{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
 
-[T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Это помогает только в том случае, если у вас есть хорошее или пригодное для использования покрытие в окне или рядом с ним, а не в другой части дома. Лучше всего это работает, если вам просто нужно более равномерно распределить покрытие по дому.
+ [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Это помогает только в том случае, если у вас есть хорошее или пригодное для использования покрытие в окне или рядом с ним, а не в другой части дома. Лучше всего это работает, если вам просто нужно более равномерно распределить покрытие по дому.
 
-Их выпускает компания под названием[Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) есть и другие лучшие варианты, которые имеют варианты и / или поддержку других операторов, которые мы обсудим ниже.
+Их выпускает компания под названием [Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) есть и другие лучшие варианты, которые имеют варианты и / или поддержку других операторов, которые мы обсудим ниже.
 
-##[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
+## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
 {{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
 
-[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) опции требуют некоторой установки. Они требуют, чтобы вы установили столб, заземляющий стержень, разрядник, усилитель и одну или несколько внутренних антенн. Они обеспечивают наилучший возможный сигнал, но не будут работать, если в вашем районе вообще нет сигнала. В среднем они дают около 60 дБ дополнительного усиления, но могут доходить до 100 дБ. Это определенно лучшее постоянное решение, так как вы получите максимально возможное улучшение сигнала, а также поддержку всех операторов связи одновременно.
+ [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) опции требуют некоторой установки. Они требуют, чтобы вы установили столб, заземляющий стержень, разрядник, усилитель и одну или несколько внутренних антенн. Они обеспечивают наилучший возможный сигнал, но не будут работать, если в вашем районе вообще нет сигнала. В среднем они дают около 60 дБ дополнительного усиления, но могут доходить до 100 дБ. Это определенно лучшее постоянное решение, так как вы получите максимально возможное улучшение сигнала, а также поддержку всех операторов связи одновременно.
 
 Мы рекомендуем следующие варианты усиления для всего дома:
 
--[WeBoost](https://amzn.to/42chuNG) - 590 долларов США
--[Hiboost](https://amzn.to/3NPsSL6) - 399 долларов США
+- [WeBoost](https://amzn.to/42chuNG) - 590 долларов США
+- [Hiboost](https://amzn.to/3NPsSL6) - 399 долларов США
 
 Обе наши рекомендации предлагают усиление для всего дома, но в некоторых ситуациях рекомендуется приобрести дополнительные комнатные антенны.
 
@@ -46,17 +46,17 @@ coverCaption: ""
 Недостатком является то, что **вы не можете выбирать, какие устройства могут подключаться к фемтосоте**. Это означает, что все сотовые устройства, которые подключаются к нему, будут использовать пропускную способность вашего интернета. Но все коммуникации защищены ipsec vpn обратно к оператору. Так что они относительно безопасны в этом отношении.
 Кроме того, их предлагают поставщики услуг сотовой связи, ** требуя предоплаты в размере около 300 долларов США **, но может быть больше в зависимости от того, сколько устройств вам нужно поддерживать.
  
--[AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
--[Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
--[T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - Требуется телефонный звонок или посещение магазина T-Mobile, чтобы заказать его.
+- [AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
+- [Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
+- [T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - Требуется телефонный звонок или посещение магазина T-Mobile, чтобы заказать его.
 
-При этом вы можете[get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) в зависимости от того, какую модель вы хотите и какой оператор связи вам нужно поддерживать. Однако большинство операторов требуют регистрации устройства.
+При этом вы можете [get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) в зависимости от того, какую модель вы хотите и какой оператор связи вам нужно поддерживать. Однако большинство операторов требуют регистрации устройства.
 
 Наконец, некоторые устройства FemtoCell требуют регистрации:
 
--[Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
--[Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
--[Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
+- [Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
+- [Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
+- [Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
 
 {{< youtube id="IXLnAoi8yZY" >}}
 

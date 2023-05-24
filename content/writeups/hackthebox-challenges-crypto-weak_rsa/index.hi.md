@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox - चुनौती - क्रिप्टो - कमजोर RSA"
 draft: false
-description: "HackTheBox कमजोर RSA क्रिप्टो चुनौती को आसानी से हल करने के लिए एक स्वचालित RSA अटैक टूल, RsaCtfTool का उपयोग करना सीखें।"
+description: "HackTheBox Weak RSA Crypto चुनौती को आसानी से हल करने के लिए एक स्वचालित RSA अटैक टूल, RsaCtfTool का उपयोग करना सीखें।"
 tags: ["HackTheBox", "चुनौतियां", "क्रिप्टो", "कमजोर आरएसए", "रुपयेसीटीएफटूल", "एचटीबी कमजोर आरएसए क्रिप्टो", "आसान चुनौती", "आरएसए सिफर", "flag.enc", "key.pub", "ओपनएसएसएल पैकेज", "स्वचालित आरएसए हमला उपकरण", "अजगर स्क्रिप्ट", "रुपयेसीटीएफटूल", "python3", "सार्वजनिक कुंजी", "uncipherfile", "ध्वज उदाहरण"]
 toc: true
 cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
@@ -15,7 +15,7 @@ ______
 ## प्रदान की गई फ़ाइलें:
 
 **आपको निम्न फ़ाइलें प्रदान की जाती हैं:**
-- ध्वज.enc
+- झंडा.enc
 - की.पब
 
 ## वॉक-थ्रू:
@@ -24,17 +24,17 @@ ______
 उसके लिए, हम फ़्लैग को डिक्रिप्ट करने के लिए OpenSSL पैकेज का उपयोग कर सकते हैं।
 इस बार यह थोड़ा अलग है और आप पाएंगे कि OpenSSL पैकेज इस चुनौती के लिए काम नहीं करेगा।
 
-हम एक स्वचालित RSA आक्रमण उपकरण का उपयोग करेंगे। एक सामान्य पायथन लिपि है[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+हम एक स्वचालित RSA आक्रमण उपकरण का उपयोग करेंगे। एक सामान्य पायथन लिपि है [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+सीधे शब्दों में कहें, तो यह टूल स्वचालित रूप से आपके लिए ध्वज को आसानी से ढूंढ लेता है।
 
 ______
 
-### Flag Example:
+### ध्वज उदाहरण:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

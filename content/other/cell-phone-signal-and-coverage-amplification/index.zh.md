@@ -13,24 +13,24 @@ coverCaption: ""
 
 保持联系已成为我们大多数人的必需品，尤其是在大流行期间。然而，在偏远地区，获得可靠的小区信号可能具有挑战性。幸运的是，有多种选项可用于增强您的手机信号。在本文中，我们将讨论 T-Mobile Cell Spot 等室内蜂窝增强器、WeBoost 和 Hiboost 等室外到室内增强器，以及 AT&T、T-Mobile 和 Verizon 的飞蜂窝选项。
 
-##[T-Mobile Cell Spot](https://amzn.to/41cXppc)
+## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
 {{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
 
-这[T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) 仅当您在窗户内或窗户附近有良好或可用的覆盖范围而不是在房屋的其他区域时，它才会有所帮助。如果您只需要更均匀地分布整个住宅的覆盖范围，它的效果最好。
+这 [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) 仅当您在窗户内或窗户附近有良好或可用的覆盖范围而不是在房屋的其他区域时，它才会有所帮助。如果您只需要更均匀地分布整个住宅的覆盖范围，它的效果最好。
 
-它们是由一家名为[Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) 还有其他更好的选择，可以选择和/或支持我们将在下面讨论的其他运营商。
+它们是由一家名为 [Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) 还有其他更好的选择，可以选择和/或支持我们将在下面讨论的其他运营商。
 
-##[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
+## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
 {{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
 
-这[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) 选项需要一些安装。它们要求您安装一根杆子、接地棒、避雷器、放大器和一根或多根室内天线。它们提供最好的信号，但如果您所在的区域没有任何信号，它们将无法工作。它们平均有大约 60 分贝的额外增益，但最高可达 100 分贝。这绝对是最好的永久性解决方案，因为您将获得尽可能多的信号改善并同时支持所有运营商。
+这 [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) 选项需要一些安装。它们要求您安装一根杆子、接地棒、避雷器、放大器和一根或多根室内天线。它们提供最好的信号，但如果您所在的区域没有任何信号，它们将无法工作。它们平均有大约 60 分贝的额外增益，但最高可达 100 分贝。这绝对是最好的永久性解决方案，因为您将获得尽可能多的信号改善并同时支持所有运营商。
 
 我们推荐以下用于全屋扩音的选项：
 
--[WeBoost](https://amzn.to/42chuNG) - 590 美元
--[Hiboost](https://amzn.to/3NPsSL6) - 399 美元
+- [WeBoost](https://amzn.to/42chuNG) - 590 美元
+- [Hiboost](https://amzn.to/3NPsSL6) - 399 美元
 
 我们的两个建议都提供全屋放大，但在某些情况下建议购买额外的室内天线。
 
@@ -46,17 +46,17 @@ coverCaption: ""
 缺点是**您无法选择哪些设备能够连接到 femtocell**。这意味着连接到它的所有手机设备都将使用您的互联网带宽。但是所有通信都是安全的 ipsec vpn 返回给运营商。所以他们在这方面相对安全。
 此外，手机覆盖提供商提供这些，**需要大约 300 美元的预付款**，但根据您需要支持的设备数量，可能会更高。
  
--[AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
--[Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
--[T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - 需要打电话或去 T-Mobile 商店订购一个
+- [AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
+- [Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
+- [T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - 需要打电话或去 T-Mobile 商店订购一个
 
-同时，您可以[get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) 取决于您想要的型号以及您需要支持的运营商。但是，大多数运营商都要求对设备进行注册。
+同时，您可以 [get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) 取决于您想要的型号以及您需要支持的运营商。但是，大多数运营商都要求对设备进行注册。
 
 最后，一些 FemtoCell 设备需要注册：
 
--[Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
--[Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
--[Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
+- [Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
+- [Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
+- [Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
 
 {{< youtube id="IXLnAoi8yZY" >}}
 

@@ -10,7 +10,7 @@ coverAlt: "ਬੈਕਗ੍ਰਾਉਨ ਵਿੱਚ ਦਰਸਾਏ ਗਏ DTMF 
 coverCaption: ""
 ---
 
-Sound.mp3 ਫਾਈਲ ਵਿੱਚ DTMF ਟੋਨਸ ਨੂੰ ਡੀਕੋਡ ਕਰਕੇ ਹੈਕTheBox 'ਤੇ ਕ੍ਰਿਪਟੋ - ਕਾਲ ਚੁਣੌਤੀ ਨੂੰ ਹੱਲ ਕਰੋ। ਫਾਈਲ ਨੂੰ .wav ਵਿੱਚ ਬਦਲੋ ਅਤੇ ਸਿਫਰ ਟੈਕਸਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਡਾਇਲਏਬੀਸੀ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਨੰਬਰਾਂ ਨੂੰ ਵੱਖ ਕਰੋ ਅਤੇ ਫਲੈਗ ਨੂੰ ਪ੍ਰਗਟ ਕਰਨ ਲਈ Decode.fr 'ਤੇ ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ ਦੀ ਵਰਤੋਂ ਕਰੋ। HackTheBox 'ਤੇ ਇਸ ਦਿਲਚਸਪ ਚੁਣੌਤੀ ਵਿੱਚ ਆਪਣੇ ਹੁਨਰ ਨੂੰ ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ ਵਿੱਚ ਪਰਖਣ ਲਈ ਤਿਆਰ ਹੋ ਜਾਓ।"
+Sound.mp3 ਫਾਈਲ ਵਿੱਚ DTMF ਟੋਨਸ ਨੂੰ ਡੀਕੋਡ ਕਰਕੇ HackTheBox 'ਤੇ Crypto - ਕਾਲ ਚੁਣੌਤੀ ਨੂੰ ਹੱਲ ਕਰੋ। ਫਾਈਲ ਨੂੰ .wav ਵਿੱਚ ਬਦਲੋ ਅਤੇ ਸਿਫਰ ਟੈਕਸਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਡਾਇਲਏਬੀਸੀ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਨੰਬਰਾਂ ਨੂੰ ਵੱਖ ਕਰੋ ਅਤੇ ਫਲੈਗ ਨੂੰ ਪ੍ਰਗਟ ਕਰਨ ਲਈ Decode.fr 'ਤੇ ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ ਦੀ ਵਰਤੋਂ ਕਰੋ। HackTheBox 'ਤੇ ਇਸ ਦਿਲਚਸਪ ਚੁਣੌਤੀ ਵਿੱਚ ਆਪਣੇ ਹੁਨਰ ਨੂੰ ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ ਵਿੱਚ ਪਰਖਣ ਲਈ ਤਿਆਰ ਹੋ ਜਾਓ।"
 
 ______
 
@@ -23,32 +23,32 @@ ______
 
 **sound.mp3** ਚਲਾਉਣਾ, ਤੁਹਾਨੂੰ ਇੱਕ ਜਾਣੀ-ਪਛਾਣੀ ਆਵਾਜ਼ ਸੁਣਾਈ ਦੇਵੇਗੀ। ਜੇਕਰ ਤੁਸੀਂ ਉਹਨਾਂ ਆਵਾਜ਼ਾਂ ਤੋਂ ਜਾਣੂ ਨਹੀਂ ਹੋ ਜੋ ਤੁਸੀਂ ਸੁਣ ਰਹੇ ਹੋ ਤਾਂ ਉਹ **DTMF** (ਡਿਊਲ ਟੋਨ ਮਲਟੀ ਫ੍ਰੀਕੁਐਂਸੀ) ਟੋਨ ਸੁਣ ਰਹੀਆਂ ਹਨ। ਉਹੀ ਟੋਨ ਜੋ ਤੁਸੀਂ ਪੇਅ ਫ਼ੋਨ 'ਤੇ ਡਾਇਲ ਕਰਨ ਵੇਲੇ ਜਾਂ ਸਵੈਚਲਿਤ ਟੈਲਰ ਮੀਨੂ ਰਾਹੀਂ ਪ੍ਰਾਪਤ ਕਰਨ ਵੇਲੇ ਸੁਣਦੇ ਸੀ।
 
-ਹਰ ਟੋਨ ਦੀ ਇੱਕ ਖਾਸ ਬਾਰੰਬਾਰਤਾ ਹੁੰਦੀ ਹੈ। ਤੁਸੀਂ ਹੱਥੀਂ ਨੰਬਰ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਇਸਦੇ ਲਈ ਕਿਸ ਕੋਲ ਸਮਾਂ ਹੈ?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+ਹਰ ਟੋਨ ਦੀ ਇੱਕ ਖਾਸ ਬਾਰੰਬਾਰਤਾ ਹੁੰਦੀ ਹੈ। ਤੁਸੀਂ ਹੱਥੀਂ ਨੰਬਰ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਇਸਦੇ ਲਈ ਕਿਸ ਕੋਲ ਸਮਾਂ ਹੈ? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-ਕਨਵਰਟ ਕੀਤੀ ਫਾਈਲ ਨੂੰ 'ਤੇ ਲੈ ਜਾਓ[DialABC](http://www.dialabc.com/sound/detect/index.html) ਅਤੇ ਤੁਸੀਂ ਹੇਠਾਂ ਦਿੱਤੀ ਆਉਟਪੁੱਟ ਪ੍ਰਾਪਤ ਕਰੋਗੇ:
+ਕਨਵਰਟ ਕੀਤੀ ਫਾਈਲ ਨੂੰ 'ਤੇ ਲੈ ਜਾਓ [DialABC](http://www.dialabc.com/sound/detect/index.html) ਅਤੇ ਤੁਸੀਂ ਹੇਠਾਂ ਦਿੱਤੀ ਆਉਟਪੁੱਟ ਪ੍ਰਾਪਤ ਕਰੋਗੇ:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+ਧਿਆਨ ਦਿਓ ਕਿ ਜੇਕਰ ਤੁਸੀਂ ਆਡੀਓ ਫਾਈਲ ਨੂੰ ਧਿਆਨ ਨਾਲ ਸੁਣਦੇ ਹੋ ਜਾਂ ਇਸਨੂੰ **Audacity** ਜਾਂ **Sonic Visualizer** ਵਿੱਚ ਖੋਲ੍ਹਦੇ ਹੋ, ਤਾਂ ਇੱਕ ਅਪਵਾਦ ਦੇ ਨਾਲ, ਨੰਬਰਾਂ ਨੂੰ ਦੋ ਦੇ ਸਮੂਹਾਂ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ ਹੈ।
+ਜੇਕਰ ਤੁਸੀਂ ਨੰਬਰ ਨੂੰ ਵੱਖ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਹੇਠ ਲਿਖਿਆਂ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+ਇਸ ਤਰ੍ਹਾਂ ਸੰਗਠਿਤ, ਤੁਸੀਂ ਉਲਝਣ ਵਿੱਚ ਹੋ ਸਕਦੇ ਹੋ ਅਤੇ ਸੋਚ ਸਕਦੇ ਹੋ ਕਿ ਇਹ HEX ਹੋ ਸਕਦਾ ਹੈ। ਇਹ ਨਹੀਂ ਹੈ।
+ਨੰਬਰਾਂ 'ਤੇ ਪੂਰਾ ਧਿਆਨ ਦਿਓ। ਨੰਬਰਾਂ ਦੇ ਹਰੇਕ ਸਮੂਹ ਵਿੱਚ ਕਿਹੜਾ ਗਣਿਤਿਕ ਗੁਣ ਸਾਂਝਾ ਹੁੰਦਾ ਹੈ?....
+ਇਹ ਸਾਰੇ ਪ੍ਰਮੁੱਖ ਸੰਖਿਆਵਾਂ ਹਨ। ਜੋ ਤੁਹਾਨੂੰ ਘੱਟ ਜਾਣੇ ਜਾਂਦੇ **ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ** ਨੂੰ ਅਜ਼ਮਾਉਣ ਲਈ ਲਿਆਵੇਗਾ।
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+ਅਸੀਂ ਵਰਤਾਂਗੇ [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) ਇਸ ਚੁਣੌਤੀ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ.
+ਸਾਡੇ ਵੱਲੋਂ ਇਸ ਨੂੰ ਵੱਖ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਿਫਰ ਟੈਕਸਟ ਨੂੰ ਸਪੁਰਦ ਕਰੋ ਅਤੇ ਤੁਹਾਨੂੰ ਫਲੈਗ ਮਿਲ ਜਾਵੇਗਾ।
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### ਫਲੈਗ ਉਦਾਹਰਨ:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

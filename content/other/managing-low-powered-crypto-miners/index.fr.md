@@ -22,9 +22,9 @@ ______
 
 ## Remote.it et ngrok
 
-Heureusement, il existe des **services** qui peuvent vous aider à gérer plus efficacement les nœuds distants. L'un de ces services est **remote.it**, qui vous permet d'établir des connexions distantes sécurisées à vos nœuds sans redirection de port. Avec[remote.it](https://www.remote.it/) vous pouvez vous connecter à vos nœuds via Internet, même s'ils se trouvent derrière un pare-feu ou un NAT. Cela peut vous aider à gérer vos nœuds plus efficacement et à réduire le temps et les efforts nécessaires pour en conserver l'accès.
+Heureusement, il existe des **services** qui peuvent vous aider à gérer plus efficacement les nœuds distants. L'un de ces services est **remote.it**, qui vous permet d'établir des connexions distantes sécurisées à vos nœuds sans redirection de port. Avec [remote.it](https://www.remote.it/) vous pouvez vous connecter à vos nœuds via Internet, même s'ils se trouvent derrière un pare-feu ou un NAT. Cela peut vous aider à gérer vos nœuds plus efficacement et à réduire le temps et les efforts nécessaires pour en conserver l'accès.
 
-**ngrok** est un autre service qui peut vous aider à gérer les nœuds distants.[Ngrok](https://ngrok.com/) est un service de tunneling sécurisé qui vous permet d'exposer un serveur Web local à Internet. Avec ngrok, vous pouvez créer une connexion sécurisée à vos nœuds et les gérer à distance sans avoir besoin de redirection de port. Cela peut être particulièrement utile si vous gérez des nœuds qui se trouvent derrière un pare-feu ou un NAT.
+**ngrok** est un autre service qui peut vous aider à gérer les nœuds distants. [Ngrok](https://ngrok.com/) est un service de tunneling sécurisé qui vous permet d'exposer un serveur Web local à Internet. Avec ngrok, vous pouvez créer une connexion sécurisée à vos nœuds et les gérer à distance sans avoir besoin de redirection de port. Cela peut être particulièrement utile si vous gérez des nœuds qui se trouvent derrière un pare-feu ou un NAT.
 
 ______
 
@@ -38,13 +38,13 @@ ______
 
 Lors de la gestion de nœuds distants, en particulier s'ils sont exposés à Internet, il est important de s'assurer qu'ils sont sécurisés et protégés contre tout accès non autorisé. Une façon de procéder consiste à utiliser l'**authentification par certificat** pour authentifier les connexions aux nœuds. L'authentification par certificat est une alternative plus sécurisée à l'authentification traditionnelle par mot de passe, car elle nécessite un certificat numérique pour vérifier l'identité de l'appareil qui se connecte.
 
-En plus de l'authentification par certificat, il est également important d'avoir[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) installé sur vos nœuds. Fail2ban est un outil qui peut détecter et empêcher les attaques par force brute sur vos nœuds en bloquant les adresses IP qui tentent de se connecter sans succès. En installant fail2ban, vous pouvez réduire le risque d'accès non autorisé à vos nœuds et vous assurer qu'ils restent sécurisés.
+En plus de l'authentification par certificat, il est également important d'avoir [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) installé sur vos nœuds. Fail2ban est un outil qui peut détecter et empêcher les attaques par force brute sur vos nœuds en bloquant les adresses IP qui tentent de se connecter sans succès. En installant fail2ban, vous pouvez réduire le risque d'accès non autorisé à vos nœuds et vous assurer qu'ils restent sécurisés.
 
 ______
 
 ## Renifler
 
-Un autre outil qui peut vous aider à gérer efficacement vos nœuds est[Snort](https://www.snort.org/) Snort est un système de détection d'intrusion réseau open source qui peut vous aider à détecter et à empêcher les menaces d'entrer et de sortir de vos nœuds. En installant Snort sur vos nœuds, vous pouvez être alerté de toute activité suspecte et prendre des mesures pour atténuer les menaces potentielles. Cela peut vous aider à sécuriser vos nœuds et à éviter tout dommage à votre système.
+Un autre outil qui peut vous aider à gérer efficacement vos nœuds est [Snort](https://www.snort.org/) Snort est un système de détection d'intrusion réseau open source qui peut vous aider à détecter et à empêcher les menaces d'entrer et de sortir de vos nœuds. En installant Snort sur vos nœuds, vous pouvez être alerté de toute activité suspecte et prendre des mesures pour atténuer les menaces potentielles. Cela peut vous aider à sécuriser vos nœuds et à éviter tout dommage à votre système.
 
 ______
 

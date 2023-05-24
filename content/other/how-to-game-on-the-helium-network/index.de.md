@@ -32,10 +32,10 @@ Das Helium-Netzwerk ist ein dezentrales LoRaWAN®-Netzwerk, das diejenigen, die 
 Das Helium-Netzwerk verlässt sich auf Proof-of-Coverage, um sicherzustellen, dass Hotspots dort Abdeckung bieten, wo sie benötigt wird. Dieses System ist jedoch anfällig für Spiele, Spoofing, Hacking und andere Arten von schlechtem Verhalten, die dem Netzwerk schaden können. Das Gaming-Problem im Helium-Netzwerk kostet legitime Hosts Tausende von HNT pro Monat. Helium, Inc hat zusammen mit DeWi Anfang 2022 aggressive Maßnahmen ergriffen, um dieses Problem zu beseitigen.
 
 ## Erforderliche Hardware
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## Mit MiddleMan das Helium-Netzwerk manipulieren
 Eine Möglichkeit, das Helium-Netzwerk auszutricksen, ist die Verwendung von MiddleMan. MiddleMan ist ein Softwaretool, mit dem ein gefälschter Hotspot erstellt werden kann, der scheinbar an einem bestimmten Ort Abdeckung bietet. Mithilfe von MiddleMan kann ein Benutzer einen gefälschten Hotspot erstellen, der für die Bereitstellung einer Abdeckung in einem bestimmten Bereich belohnt wird, auch wenn sich der Hotspot nicht physisch in diesem Bereich befindet.
@@ -44,7 +44,7 @@ Um MiddleMan nutzen zu können, muss ein Benutzer die Software installieren und 
 
 Sie würden Ihr Lorawan-Gateway so einrichten, dass es auf diese Software verweist und diese die Werte so manipuliert, dass alle empfangenen PoCs als gültig betrachtet werden. Die Verwendung des Semtech-Forwarders ist einer der verschiedenen Standards in der LoraWAN-Community. Um das Manipulationsproblem zu beheben, müsste das Rad neu erfunden und ein eigenes Protokoll von Grund auf implementiert werden. Dinge wie Prüfsummen und Verschlüsselung würden dies verhindern. Dies würde es aber auch für Anbieter mit unterschiedlicher Hardware schwieriger machen, Hotspots einzurichten. Ganz zu schweigen davon, dass es ein unterstützter Anwendungsfall ist, einen Helium-Miner und mehrere Lora-Gateways für eine verbesserte Abdeckung zu haben. Dabei handelt es sich jedoch eher um ein Problem auf Unternehmensebene.
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## Verwendung des Chirp-Stack-Paketmultiplexers zum Austricksen des Helium-Netzwerks
 Eine weitere Möglichkeit, das Helium-Netzwerk auszutricksen, ist die Verwendung des Chirp Stack Packet Multiplexer. Chirp Stack Packet Multiplexer ist ein Tool, mit dem ein virtueller Hotspot erstellt werden kann, der Pakete von mehreren physischen Hotspots empfangen kann. Durch die Verwendung von Chirp Stack Packet Multiplexer kann ein Benutzer einen virtuellen Hotspot erstellen, der Pakete von physischen Hotspots an mehreren Standorten empfängt, was die verdienten Belohnungen erhöht.
@@ -54,7 +54,7 @@ Um Chirp Stack Packet Multiplexer verwenden zu können, muss ein Benutzer die So
 Dies ermöglicht mehrere eingehende Weiterleitungen und mehrere ausgehende Gateways. Es gibt legitime Anwendungsfälle für diese Software in der LoraWAN-Community, aber die Verwendung in Helium ist bestenfalls eine Grauzone. Es hängt davon ab, wie Sie es verwenden und was Ihre Absicht ist.
 
 Für die Einrichtung sind einige Konfigurationsdateien erforderlich. Aber es kann in 5 Minuten oder weniger erledigt werden.
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Risiken und Folgen des Spielens des Helium-Netzwerks

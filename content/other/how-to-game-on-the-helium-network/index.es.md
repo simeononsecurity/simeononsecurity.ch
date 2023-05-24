@@ -21,7 +21,7 @@ Al escribir este artículo, esperamos generar conciencia sobre el problema de lo
 
 Además, al resaltar este problema, esperamos alentar al equipo de Helium a tomar medidas más decisivas para abordar las vulnerabilidades en la red e implementar medidas de seguridad más sólidas para evitar juegos en el futuro. Creemos que es importante que el equipo de Helium sea transparente sobre sus esfuerzos para abordar este problema y se comunique con la comunidad sobre su progreso en la solución de estas vulnerabilidades.
 
-Finalmente, al brindar más publicidad a este problema, esperamos fomentar una mayor conciencia y educación sobre los riesgos y las consecuencias de los juegos en la red Helium. Es importante que los usuarios comprendan la importancia del comportamiento ético en la red y el daño potencial que pueden causar los juegos. Al trabajar juntos para abordar estos problemas, podemos ayudar a garantizar el crecimiento y el éxito continuos de la red Helium.
+Finalmente, al brindar más publicidad a este problema, esperamos fomentar una mayor concienciación y educación sobre los riesgos y las consecuencias de los juegos en la red Helium. Es importante que los usuarios comprendan la importancia del comportamiento ético en la red y el daño potencial que pueden causar los juegos. Al trabajar juntos para abordar estos problemas, podemos ayudar a garantizar el crecimiento y el éxito continuos de la red Helium.
 
 En resumen, ni la comunidad ni nosotros aprobamos jugar en la red Helium, y alentamos a los usuarios a actuar de manera ética y legal cuando participen en la red. Si bien existen vulnerabilidades en la red que pueden explotarse, es importante mantenerse alerta y proactivo para abordar estos problemas y trabajar para lograr una red más segura y confiable para todos los usuarios.
 
@@ -32,10 +32,10 @@ La red Helium es una red LoRaWAN® descentralizada que compensa a quienes alojan
 La red Helium se basa en la Prueba de cobertura para garantizar que los puntos de acceso brinden cobertura donde se necesita. Sin embargo, este sistema es vulnerable a los juegos, la suplantación de identidad, la piratería y otros tipos de mal comportamiento que pueden dañar la red. El problema de los juegos en la red Helium le está costando a los hosts legítimos miles de $HNT por mes. Helium, Inc, junto con DeWi, tomó medidas agresivas a principios de 2022 para ayudar a eliminar este problema.
 
 ## Hardware necesario
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## Uso de MiddleMan para jugar con la red Helium
 Una forma de jugar con la red Helium es usar MiddleMan. MiddleMan es una herramienta de software que se puede usar para crear un punto de acceso falso que parece estar brindando cobertura en una ubicación específica. Al usar MiddleMan, un usuario puede crear un punto de acceso falso que recibirá recompensas por brindar cobertura en un área en particular, aunque el punto de acceso no esté ubicado físicamente en esa área.
@@ -44,7 +44,7 @@ Para usar MiddleMan, un usuario debe instalar el software y crear un punto de ac
 
 Configuraría su puerta de enlace lorawan para que apunte a este software y manipule los valores para que todos los PoC recibidos se consideren válidos. El uso del reenviador semtech es uno de los diversos estándares en la comunidad LoraWAN. Solucionar el problema de la manipulación requeriría reinventar la rueda e implementar su propio protocolo desde cero. Cosas como las sumas de verificación y el cifrado evitarían que esto suceda. Pero también dificultaría que los proveedores con hardware diferente creen puntos de acceso. Sin mencionar que es un caso de uso compatible tener un minero de helio y múltiples puertas de enlace lora para una mejor cobertura. Aunque esto es más un problema de nivel empresarial.
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## Uso del multiplexor de paquetes Chirp Stack para jugar con la red Helium
 Otra forma de jugar con la red Helium es usando Chirp Stack Packet Multiplexer. Chirp Stack Packet Multiplexer es una herramienta que se puede usar para crear un punto de acceso virtual que puede recibir paquetes de varios puntos de acceso físicos. Al usar Chirp Stack Packet Multiplexer, un usuario puede crear un punto de acceso virtual que recibe paquetes de puntos de acceso físicos en múltiples ubicaciones, lo que aumentará las recompensas obtenidas.
@@ -54,7 +54,7 @@ Para usar Chirp Stack Packet Multiplexer, un usuario debe instalar el software y
 Esto permite la entrada de múltiples reenviadores y la salida de múltiples puertas de enlace. Hay casos de uso legítimos para este software en la comunidad LoraWAN, pero usarlo en helio es un área gris en el mejor de los casos. Depende de cómo lo uses y también de cuál sea tu intención.
 
 Configurar este requiere algunos archivos de configuración. Pero se puede hacer en 5 minutos o menos.
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Riesgos y consecuencias de jugar con la red Helium
@@ -63,7 +63,7 @@ Jugar en la red Helium es una actividad arriesgada e ilegal que puede tener grav
 Las sanciones por jugar en la red Helium pueden incluir la pérdida de acceso a la red, la prohibición permanente de los puntos de acceso y la pérdida de cualquier $HNT que se ganó a través del juego. Además, jugar con la red Helium socava la integridad de la red y daña a los hosts legítimos que brindan una cobertura valiosa a la red.
 
 ## Conclusión
-Si bien la red Helium brinda oportunidades para que los hosts de puntos de acceso legítimos ganen recompensas a través de la Prueba de cobertura, también presenta un objetivo atractivo para los actores malintencionados que buscan jugar con el sistema. El uso de MiddleMan y Chirp Stack Packet Multiplexer, aunque Helium Inc. o la comunidad en general no lo aprueban, es un ejemplo de cómo algunos malos actores están explotando las vulnerabilidades en la red para obtener recompensas a expensas de otros.
+Si bien la red Helium brinda oportunidades para que los hosts de puntos de acceso legítimos ganen recompensas a través de la Prueba de cobertura, también presenta un objetivo atractivo para los actores maliciosos que buscan jugar con el sistema. El uso de MiddleMan y Chirp Stack Packet Multiplexer, aunque Helium Inc. o la comunidad en general no lo aprueban, es un ejemplo de cómo algunos malos actores están explotando las vulnerabilidades en la red para obtener recompensas a expensas de otros.
 
 Es importante que la comunidad de Helium continúe trabajando en conjunto para identificar y abordar el juego en la red, ya que amenaza la integridad del sistema y socava los esfuerzos de los hosts legítimos. Esto puede incluir esfuerzos para desarrollar e implementar medidas de detección y prevención más sofisticadas, así como aumentar la conciencia y la educación sobre los riesgos y las consecuencias de los juegos en la red.
 

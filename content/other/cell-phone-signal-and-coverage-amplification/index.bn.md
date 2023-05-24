@@ -13,24 +13,24 @@ coverCaption: ""
 
 সংযুক্ত থাকা আমাদের বেশিরভাগের জন্য একটি প্রয়োজনীয়তা হয়ে দাঁড়িয়েছে, বিশেষত মহামারী চলাকালীন। যাইহোক, দূরবর্তী অবস্থানে, একটি নির্ভরযোগ্য সেল সংকেত পাওয়া চ্যালেঞ্জিং হতে পারে। সৌভাগ্যবশত, আপনার সেল সিগন্যাল বাড়ানোর জন্য বিভিন্ন বিকল্প উপলব্ধ রয়েছে। এই প্রবন্ধে, আমরা টি-মোবাইল সেল স্পট এর মতো ইনডোর সেল বুস্টার, ওয়েববুস্ট এবং হিবুস্টের মতো আউটডোর থেকে ইনডোর বুস্টার এবং AT&T, T-Mobile এবং Verizon-এর জন্য femtocell বিকল্পগুলি নিয়ে আলোচনা করব।
 
-##[T-Mobile Cell Spot](https://amzn.to/41cXppc)
+## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
 {{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
 
-দ্য[T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) এটি শুধুমাত্র তখনই সাহায্য করে যদি আপনার একটি জানালার মধ্যে বা কাছাকাছি ভাল বা ব্যবহারযোগ্য কভারেজ থাকে এবং বাড়ির অন্য এলাকায় না থাকে। এটি সবচেয়ে ভাল কাজ করে যদি আপনি কেবল একটি বাসস্থানের মাধ্যমে আরও সমানভাবে কভারেজ ছড়িয়ে দিতে চান।
+দ্য [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) এটি শুধুমাত্র তখনই সাহায্য করে যদি আপনার একটি জানালার মধ্যে বা কাছাকাছি ভাল বা ব্যবহারযোগ্য কভারেজ থাকে এবং বাড়ির অন্য এলাকায় না থাকে। এটি সবচেয়ে ভাল কাজ করে যদি আপনি কেবল একটি বাসস্থানের মাধ্যমে আরও সমানভাবে কভারেজ ছড়িয়ে দিতে চান।
 
-তারা নামক একটি কোম্পানি দ্বারা উত্পাদিত হয়[Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) আরও ভাল বিকল্প রয়েছে যেগুলির বিকল্প এবং বা সমর্থন অন্যান্য ক্যারিয়ারগুলির জন্য উপলব্ধ যা আমরা নীচে আলোচনা করব।
+তারা নামক একটি কোম্পানি দ্বারা উত্পাদিত হয় [Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) আরও ভাল বিকল্প রয়েছে যেগুলির বিকল্প এবং বা সমর্থন অন্যান্য ক্যারিয়ারগুলির জন্য উপলব্ধ যা আমরা নীচে আলোচনা করব।
 
-##[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
+## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
 {{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
 
-দ্য[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) বিকল্প কিছু ইনস্টলেশন প্রয়োজন. তাদের জন্য আপনাকে একটি পোল, গ্রাউন্ডিং রড, লাইটিং অ্যারেস্টর, এম্প এবং এক বা একাধিক ইনডোর অ্যান্টেনা ইনস্টল করতে হবে। তারা সর্বোত্তম সম্ভাব্য সংকেত অফার করে কিন্তু আপনার এলাকায় কোন সংকেত না থাকলে কাজ করবে না। তারা গড় অতিরিক্ত লাভের প্রায় 60db কিন্তু 100db পর্যন্ত যেতে পারে। এটি অবশ্যই সর্বোত্তম স্থায়ী সমাধান কারণ আপনি সম্ভাব্য সর্বাধিক সংকেত উন্নতির পাশাপাশি একই সময়ে সমস্ত ক্যারিয়ারের জন্য সমর্থন পাবেন।
+দ্য [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) বিকল্প কিছু ইনস্টলেশন প্রয়োজন. তাদের জন্য আপনাকে একটি পোল, গ্রাউন্ডিং রড, লাইটিং অ্যারেস্টর, এম্প এবং এক বা একাধিক ইনডোর অ্যান্টেনা ইনস্টল করতে হবে। তারা সর্বোত্তম সম্ভাব্য সংকেত অফার করে কিন্তু আপনার এলাকায় কোন সংকেত না থাকলে কাজ করবে না। তারা গড় অতিরিক্ত লাভের প্রায় 60db কিন্তু 100db পর্যন্ত যেতে পারে। এটি অবশ্যই সর্বোত্তম স্থায়ী সমাধান কারণ আপনি সম্ভাব্য সর্বাধিক সংকেত উন্নতির পাশাপাশি একই সময়ে সমস্ত ক্যারিয়ারের জন্য সমর্থন পাবেন।
 
 আমরা পুরো বাড়ির পরিবর্ধনের জন্য নিম্নলিখিত বিকল্পগুলি সুপারিশ করি:
 
--[WeBoost](https://amzn.to/42chuNG) - $590
--[Hiboost](https://amzn.to/3NPsSL6) - $399
+- [WeBoost](https://amzn.to/42chuNG) - $590
+- [Hiboost](https://amzn.to/3NPsSL6) - $399
 
 আমাদের উভয় সুপারিশই পুরো বাড়ির পরিবর্ধনের প্রস্তাব দেয়, তবে কিছু পরিস্থিতিতে অতিরিক্ত ইনডোর অ্যান্টেনা কেনার পরামর্শ দেওয়া হয়।
 
@@ -46,17 +46,17 @@ coverCaption: ""
 নেতিবাচক দিক হল **কোন ডিভাইসগুলি ফেমটোসেলের সাথে সংযোগ করতে পারবে তা আপনি চয়ন করতে পারবেন না**। এর মানে হল যে সমস্ত সেল ডিভাইস এটির সাথে সংযুক্ত তা আপনার ইন্টারনেট ব্যান্ডউইথ ব্যবহার করবে। কিন্তু সমস্ত যোগাযোগ নিরাপদ ipsec vpn ক্যারিয়ারের কাছে ফিরে আসে। তাই তারা সে ক্ষেত্রে তুলনামূলকভাবে নিরাপদ।
 অতিরিক্তভাবে, সেল ফোন কভারেজ প্রদানকারীরা এইগুলি অফার করে, **প্রায় $300 এর অগ্রিম অর্থপ্রদান প্রয়োজন** কিন্তু আপনার কতগুলি ডিভাইস সমর্থন করতে হবে তার উপর নির্ভর করে এটি আরও বেশি হতে পারে।
  
--[AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
--[Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
--[T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - একটি অর্ডার করার জন্য একটি ফোন কল বা একটি টি-মোবাইল স্টোরে যাওয়া প্রয়োজন৷
+- [AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
+- [Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
+- [T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - একটি অর্ডার করার জন্য একটি ফোন কল বা একটি টি-মোবাইল স্টোরে যাওয়া প্রয়োজন৷
 
-এদিকে, আপনি পারেন[get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) আপনি কোন মডেল চান এবং কোন ক্যারিয়ার আপনাকে সমর্থন করতে হবে তার উপর নির্ভর করে। যদিও বেশিরভাগ ক্যারিয়ারের ডিভাইসের নিবন্ধন প্রয়োজন।
+এদিকে, আপনি পারেন [get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) আপনি কোন মডেল চান এবং কোন ক্যারিয়ার আপনাকে সমর্থন করতে হবে তার উপর নির্ভর করে। যদিও বেশিরভাগ ক্যারিয়ারের ডিভাইসের নিবন্ধন প্রয়োজন।
 
 অবশেষে, কিছু FemtoCell ডিভাইসের নিবন্ধন প্রয়োজন:
 
--[Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
--[Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
--[Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
+- [Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
+- [Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
+- [Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
 
 {{< youtube id="IXLnAoi8yZY" >}}
 

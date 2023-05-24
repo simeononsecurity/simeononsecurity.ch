@@ -21,28 +21,28 @@ ______
 ```
 993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
 ```
-and
+和
 ```
 gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
 ```
 
-## Walk Through:
+## 遍历：
 
-At first glance it appears this is some sort of key and some cipher text.
-After searching around, you'll find that it is a Fernet cypher.
-[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) has a great tool to decode it for you.
+乍一看，这似乎是某种密钥和一些密文。
+搜索一圈后，你会发现这是一个Fernet cypher。
+[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) 有一个很棒的工具可以为您解码。
 
-The plain text from the above information gives you a base64 encoded string
+上述信息中的纯文本为您提供了一个 base64 编码的字符串
 
 ```
 RCdgTl45OFs8O3tGMlZVNTRRPythcUw6bVxJNmlYJmYkMEBSeFBfdSldeHFwdW5tM3Fwb2htZmUrTGJnZl9eXSNhYFleV1Z6VFNyUVZVTnJMUVBPTkdrS0QsSEFlKERDPDtfPz5+fTVZOTg3dzUuUjJyMC8oJyZKKikoJyYlfHtBeX53djx6eXhxWTZ0c1VUcG9oLnk=
 ```
 
-To decode this, we'll use the tool provided from [base64decode.org](https://www.base64decode.org/)
+要对此进行解码，我们将使用提供的工具 [base64decode.org](https://www.base64decode.org/)
 
-Decoding again gives you the following:
+再次解码为您提供以下内容：
 ```
-D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNrLQPONGkKD,HAe(DC<;_?>
+D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`
 ```
 
 This was a new one for me. But you'll find after some careful research that it is a Malboge cipher.

@@ -19,72 +19,72 @@ O HP t740 Thin Client é um dispositivo compacto que pode ser usado como uma pod
 
 ## PS/2 Congela
 
-No entanto, se você planeja executar o FreeBSD ou seus derivados como pfSense, OPNsense ou HardenedBSD no bare metal (ao contrário de dentro do ESXi ou Proxmox), você pode encontrar um problema em que o sistema congela na inicialização com a mensagem `atkbd0: [ GIANT-LOCKED]`. Felizmente, esse problema pode ser resolvido digitando os seguintes comandos no prompt de inicialização:
+No entanto, se você planeja executar o FreeBSD ou seus derivados como pfSense, OPNsense ou HardenedBSD no bare metal (ao contrário de dentro do ESXi ou Proxmox), você pode encontrar um problema em que o sistema congela na inicialização com a mensagem `atkbd0: [GIANT-LOCKED]` Felizmente, esse problema pode ser resolvido digitando os seguintes comandos no prompt de inicialização:
 
 ```bash
 unset hint.uart.0.at
 unset hint.uart.1.at
 ```
 
-*Note that you need to unset both, otherwise, it will still lock up at boot.*
+*Observe que você precisa desativar ambos, caso contrário, ele ainda será bloqueado na inicialização.*
 
-After you install the OS, open a post-installation shell and run the following command:
+Depois de instalar o sistema operacional, abra um shell de pós-instalação e execute o seguinte comando:
 
 ```bash
 vi /boot/loader.conf.local
 ```
-Then, add these two lines:
+Em seguida, adicione estas duas linhas:
 ```bash
 hint.uart.0.disabled="1"
 hint.uart.1.disabled="1"
 ```
 
-### Persist Changes using VI
-For those not familiar with vi, you can add the line by doing the following :
+### Persistir alterações usando VI
+Para aqueles que não estão familiarizados com o vi, você pode adicionar a linha fazendo o seguinte:
 
-Adding the lines `hint.uart.0.disabled="1"` and `hint.uart.1.disabled="1"` to the `/boot/loader.conf.local` file using the vi editor can be done with the following steps:
+Adicionando as linhas `hint.uart.0.disabled="1"` e `hint.uart.1.disabled="1"` para o `/boot/loader.conf.local` arquivo usando o editor vi pode ser feito com as seguintes etapas:
 
-1. Open the terminal on your FreeBSD system.
+1. Abra o terminal em seu sistema FreeBSD.
 
-2. Type `vi /boot/loader.conf.local` and press Enter to open the file in the vi editor.
+2. Digite `vi /boot/loader.conf.local` e pressione Enter para abrir o arquivo no editor vi.
 
-3. Press the `i` key to enter insert mode.
+3. Pressione o botão `i` para entrar no modo de inserção.
 
-4. Move the cursor to the bottom of the file using the arrow keys.
+4. Mova o cursor para a parte inferior do arquivo usando as teclas de seta.
 
-5. Type `hint.uart.0.disabled="1"` without the quotes.
+5. Digite `hint.uart.0.disabled="1"` sem as aspas.
 
-6. Press Enter to start a new line.
+6. Pressione Enter para iniciar uma nova linha.
 
-7. Type `hint.uart.1.disabled="1"` without the quotes.
+7. Digite `hint.uart.1.disabled="1"` sem as aspas.
 
-8. Press the `Esc` key to exit insert mode.
+8. Pressione o botão `Esc` para sair do modo de inserção.
 
-9. Type `:wq` and press Enter to save and exit the file.
+9. Tipo `:wq` e pressione Enter para salvar e sair do arquivo.
 
-This will add the two lines to the `/boot/loader.conf.local` file, which will disable the UARTs and fix the freezing issue during boot on certain HP t740 "Thin Client" devices when running FreeBSD or its derivatives like pfSense, OPNsense, or HardenedBSD.
+Isso adicionará as duas linhas ao `/boot/loader.conf.local` arquivo, que desabilitará os UARTs e corrigirá o problema de congelamento durante a inicialização em determinados dispositivos HP t740 "Thin Client" ao executar o FreeBSD ou seus derivados como pfSense, OPNsense ou HardenedBSD.
 
-This will fix the issue across reboots and firmware upgrades on pfSense/OPNsense. 
+Isso corrigirá o problema nas reinicializações e atualizações de firmware no pfSense/OPNsense.
 
 ## SSD
 
-If you're using the HP M.2 eMMC, it will not be detected on an out-of-the-box FreeBSD installation. In that case, you will need a third-party M.2 SSD. Any M.2 SSD can work, SATA or NVMe. 
+Se você estiver usando o HP M.2 eMMC, ele não será detectado em uma instalação do FreeBSD pronta para uso. Nesse caso, você precisará de um SSD M.2 de terceiros. Qualquer SSD M.2 pode funcionar, SATA ou NVMe.
 
-If you are looking for a third-party M.2 SSD for your HP t740 thin client, we recommend considering the [Western Digital 500GB WD Blue SN570 NVMe](https://amzn.to/44bFCBk) or the [Western Digital 500GB WD Blue SA510 SATA](https://amzn.to/3AEbd0V). Both of these options are reliable and should work well with your device. If you want to take advantage of both slots, you'll need both. You'll sacrifice the speeds of the NVME, but you'll gain some redundancy that's oh so important.
+Se você estiver procurando por um SSD M.2 de terceiros para seu thin client HP t740, recomendamos considerar o [Western Digital 500GB WD Blue SN570 NVMe](https://amzn.to/44bFCBk) or the [Western Digital 500GB WD Blue SA510 SATA](https://amzn.to/3AEbd0V) Ambas as opções são confiáveis e devem funcionar bem com o seu dispositivo. Se você quiser aproveitar os dois slots, precisará de ambos. Você sacrificará as velocidades do NVME, mas ganhará alguma redundância que é tão importante.
 
-Note that the author of this article has successfully run pfSense CE 2.5.2 and OPNsense 22.1 on their t740 without any issues after following the above steps. 
+Observe que o autor deste artigo executou com êxito o pfSense CE 2.5.2 e o OPNsense 22.1 em seu t740 sem problemas após seguir as etapas acima.
 
-## Troubleshooting and Post Install
+## Solução de problemas e pós-instalação
 
-After installation, if you encounter any issues with editing files, you can install the nano editor using `pkg update` and `pkg install nano`. This will help you edit text files with ease.
+Após a instalação, se você encontrar algum problema com a edição de arquivos, poderá instalar o editor nano usando `pkg update` e `pkg install nano` Isso ajudará você a editar arquivos de texto com facilidade.
 
-To ensure that the changes made to the `/boot/loader.conf.local` file persist across pfSense version upgrades, you need to add the following lines to `/boot/loader.conf` and `/etc/rc.conf.local`: 
+Para garantir que as alterações feitas no `/boot/loader.conf.local` arquivo persistir nas atualizações de versão do pfSense, você precisa adicionar as seguintes linhas para `/boot/loader.conf` e `/etc/rc.conf.local` 
 ```bash
 hint.uart.0.disabled="1"
 hint.uart.1.disabled="1"
 ```
 
-However, sometimes the editing of `/boot/loader.conf.local` file before rebooting doesn't fix the issue. In such cases, it may be necessary to add the following lines at the beginning of the first boot:
+No entanto, às vezes, a edição de `/boot/loader.conf.local` arquivo antes de reiniciar não corrige o problema. Nesses casos, pode ser necessário adicionar as seguintes linhas no início do primeiro boot:
 
 ```bash
 unset hint.uart.0.at
@@ -94,9 +94,9 @@ unset hint.uart.1.at
 Essas etapas devem resolver a maioria dos problemas que podem surgir durante e após o processo de instalação.
 
 ### Referências:
--[HP t740 "Thin Client"](https://www8.hp.com/us/en/thin-clients/t740.html)
--[pfSense](https://www.pfsense.org/)
--[OPNsense](https://opnsense.org/)
--[HardenedBSD](https://hardenedbsd.org/)
--[ServeTheHome](https://www.servethehome.com/hp-t740-thin-client-review/)
--[FreeBSD (or pfSense/OPNsense) on the HP t740 Thin Client](https://www.neelc.org/posts/hp-t740-freebsd/)
+- [HP t740 "Thin Client"](https://www8.hp.com/us/en/thin-clients/t740.html)
+- [pfSense](https://www.pfsense.org/)
+- [OPNsense](https://opnsense.org/)
+- [HardenedBSD](https://hardenedbsd.org/)
+- [ServeTheHome](https://www.servethehome.com/hp-t740-thin-client-review/)
+- [FreeBSD (or pfSense/OPNsense) on the HP t740 Thin Client](https://www.neelc.org/posts/hp-t740-freebsd/)

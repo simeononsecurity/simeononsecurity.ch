@@ -23,32 +23,32 @@ Vi se oferă un singur fișier:
 
 Redând **sound.mp3**, veți auzi un sunet familiar. Dacă nu sunteți familiarizat, sunetele pe care le auziți aud tonuri **DTMF** (ton dual multifrecvență). Aceleași tonuri pe care obișnuiam să le auziți când formați de la un telefon public sau când accesați meniurile de la casierul automat.
 
-Fiecare ton are o frecvență specifică. Puteți obține numerele manual, dar cine are timp pentru asta?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+Fiecare ton are o frecvență specifică. Puteți obține numerele manual, dar cine are timp pentru asta? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-Luați fișierul convertit în[DialABC](http://www.dialabc.com/sound/detect/index.html) și veți obține următorul rezultat:
+Luați fișierul convertit în [DialABC](http://www.dialabc.com/sound/detect/index.html) și veți obține următorul rezultat:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+Rețineți că, dacă ascultați fișierul audio cu atenție sau îl deschideți în **Audacity** sau **Sonic Visualizer**, cu o singură excepție, numerele sunt împerecheate în grupuri de câte doi.
+Dacă separați numărul, obțineți următoarele:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+Organizat astfel, s-ar putea să fii confuz și să te gândești că ar putea fi HEX. Nu este.
+Acordați o atenție deosebită numerelor. Ce trăsătură matematică are fiecare grupare de numere?...
+Toate sunt numere prime. Ceea ce ar trebui să vă aducă să încercați **cifrul numerelor prime** mai puțin cunoscut.
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+Vom folosi [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) pentru a finaliza această provocare.
+Trimiteți textul cifrat de înainte de a-l separa și veți primi steagul.
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### Exemplu de semnalizare:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

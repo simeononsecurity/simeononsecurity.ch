@@ -22,9 +22,9 @@ ______
 
 ## Remote.it și ngrok
 
-Din fericire, există **servicii** care vă pot ajuta să gestionați mai eficient nodurile de la distanță. Un astfel de serviciu este **remote.it**, care vă permite să stabiliți conexiuni securizate la distanță la nodurile dvs. fără redirecționare de porturi. Cu[remote.it](https://www.remote.it/) vă puteți conecta la nodurile dvs. prin internet, chiar dacă acestea se află în spatele unui firewall sau a unui NAT. Acest lucru vă poate ajuta să vă gestionați nodurile mai eficient și să reduceți timpul și efortul necesar pentru a menține accesul la ele.
+Din fericire, există **servicii** care vă pot ajuta să gestionați mai eficient nodurile de la distanță. Un astfel de serviciu este **remote.it**, care vă permite să stabiliți conexiuni securizate la distanță la nodurile dvs. fără redirecționare de porturi. Cu [remote.it](https://www.remote.it/) vă puteți conecta la nodurile dvs. prin internet, chiar dacă acestea se află în spatele unui firewall sau a unui NAT. Acest lucru vă poate ajuta să vă gestionați nodurile mai eficient și să reduceți timpul și efortul necesar pentru a menține accesul la ele.
 
-Un alt serviciu care vă poate ajuta să gestionați nodurile la distanță este **ngrok**.[Ngrok](https://ngrok.com/) este un serviciu de tunelare securizat care vă permite să expuneți un server web local la internet. Cu ngrok, puteți crea o conexiune sigură la nodurile dvs. și le puteți gestiona de la distanță, fără a fi nevoie de redirecționarea portului. Acest lucru poate fi deosebit de util dacă gestionați noduri care se află în spatele unui firewall sau NAT.
+Un alt serviciu care vă poate ajuta să gestionați nodurile la distanță este **ngrok**. [Ngrok](https://ngrok.com/) este un serviciu de tunelare securizat care vă permite să expuneți un server web local la internet. Cu ngrok, puteți crea o conexiune sigură la nodurile dvs. și le puteți gestiona de la distanță, fără a fi nevoie de redirecționarea portului. Acest lucru poate fi deosebit de util dacă gestionați noduri care se află în spatele unui firewall sau NAT.
 
 ______
 
@@ -38,13 +38,13 @@ ______
 
 Când gestionați nodurile de la distanță, mai ales dacă sunt expuse la internet, este important să vă asigurați că sunt sigure și protejate împotriva accesului neautorizat. O modalitate de a face acest lucru este să utilizați **autentificarea cu certificat** pentru a autentifica conexiunile la noduri. Autentificarea prin certificat este o alternativă mai sigură la autentificarea tradițională prin parolă, deoarece necesită un certificat digital pentru a verifica identitatea dispozitivului care se conectează.
 
-Pe lângă autentificarea prin certificat, este și important să aveți[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) instalat pe nodurile dvs. Fail2ban este un instrument care poate detecta și preveni atacurile de forță brută asupra nodurilor dvs. prin blocarea adreselor IP care încearcă să se conecteze fără succes. Prin instalarea fail2ban, puteți reduce riscul accesului neautorizat la nodurile dvs. și vă puteți asigura că acestea rămân în siguranță.
+Pe lângă autentificarea prin certificat, este și important să aveți [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) instalat pe nodurile dvs. Fail2ban este un instrument care poate detecta și preveni atacurile de forță brută asupra nodurilor dvs. prin blocarea adreselor IP care încearcă să se conecteze fără succes. Prin instalarea fail2ban, puteți reduce riscul accesului neautorizat la nodurile dvs. și vă puteți asigura că acestea rămân în siguranță.
 
 ______
 
 ## Sforâie
 
-Un alt instrument care vă poate ajuta să vă gestionați eficient nodurile este[Snort](https://www.snort.org/) Snort este un sistem open-source de detectare a intruziunilor în rețea care vă poate ajuta să detectați și să preveniți amenințările care intră și ies din nodurile dvs. Prin instalarea Snort pe nodurile dvs., puteți fi alertat cu privire la orice activitate suspectă și puteți lua măsuri pentru a atenua potențialele amenințări. Acest lucru vă poate ajuta să vă mențineți nodurile în siguranță și să preveniți orice deteriorare a sistemului.
+Un alt instrument care vă poate ajuta să vă gestionați eficient nodurile este [Snort](https://www.snort.org/) Snort este un sistem open-source de detectare a intruziunilor în rețea care vă poate ajuta să detectați și să preveniți amenințările care intră și ies din nodurile dvs. Prin instalarea Snort pe nodurile dvs., puteți fi alertat cu privire la orice activitate suspectă și puteți lua măsuri pentru a atenua potențialele amenințări. Acest lucru vă poate ajuta să vă mențineți nodurile în siguranță și să preveniți orice deteriorare a sistemului.
 
 ______
 

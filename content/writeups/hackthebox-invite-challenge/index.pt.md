@@ -20,7 +20,7 @@ HackTheBox é uma plataforma online para testar e aprimorar suas habilidades em 
 
 Para criar uma conta no HackTheBox (HTB), você deve completar o desafio do convite ou hackear a si mesmo. Não se preocupe, embora não seja difícil e este artigo o ajudará a concluir o desafio.
 
-Primeiro, vá para o[HackTheBox Website](https://hackthebox.eu) e clique no botão juntar.
+Primeiro, vá para o [HackTheBox Website](https://hackthebox.eu) e clique no botão juntar.
 
 Você será presenteado com uma caixa pedindo claramente um código de convite.
 
@@ -37,21 +37,21 @@ Você pode fazer o seguinte para obter o código de convite codificado em Base64
 ### Solução:
 
 #### Simples:
-- **Janelas**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **Janelas**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+Que irá gerar o seguinte conteúdo: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+Se você pegar o código de convite codificado para [base64decode.org](https://www.base64decode.org/) você receberá seu código de convite!
 
-#### Advanced (Instantly print out invite code):
- - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
+#### Avançado (Imprima instantaneamente o código de convite):
+ - **Janelas**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+ - **Nota**: Você precisará instalar o [jq](https://stedolan.github.io/jq/download/) pacote.
 
 ______
 
-### Invite Code Ex:
+### Código de convite Ex:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 

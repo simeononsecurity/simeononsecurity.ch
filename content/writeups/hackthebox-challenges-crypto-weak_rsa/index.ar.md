@@ -24,17 +24,17 @@ ______
 لذلك ، قد نستخدم حزمة OpenSSL لفك تشفير العلم.
 هذه المرة مختلفة قليلاً وستجد أن حزمة OpenSSL لن تعمل مع هذا التحدي.
 
-سنستخدم أداة هجوم آلية RSA. أحد نصوص Python الشائعة هو[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+سنستخدم أداة هجوم آلية RSA. أحد نصوص Python الشائعة هو [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+ببساطة ، تجد هذه الأداة العلم لك بسهولة بطريقة آلية.
 
 ______
 
-### Flag Example:
+### مثال العلم:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

@@ -70,4 +70,4 @@ O Presearch é de código aberto, o que significa que qualquer pessoa pode acess
 
 A pré-pesquisa é uma excelente alternativa ao Google, especialmente para aqueles que valorizam sua privacidade e desejam um ecossistema de mecanismo de pesquisa mais voltado para a comunidade e transparente. Com foco em privacidade, personalização e envolvimento da comunidade, o Presearch apresenta uma alternativa atraente para mecanismos de busca centralizados como o Google.
 
-Se você está procurando um mecanismo de pesquisa que respeite sua privacidade, valorize a participação na comunidade e o recompense por suas pesquisas, o Presearch é uma excelente opção a ser considerada. Experimente hoje e experimente uma nova maneira de pesquisar na web.
+Se você está procurando um mecanismo de pesquisa que respeite sua privacidade, valorize a participação na comunidade e o recompense por suas pesquisas, o Presearch é uma excelente opção a ser considerada. Experimente hoje e experimente uma nova forma de pesquisar na web.

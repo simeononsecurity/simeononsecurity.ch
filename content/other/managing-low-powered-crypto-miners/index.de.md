@@ -22,9 +22,9 @@ ______
 
 ## Remote.it und ngrok
 
-Zum Glück gibt es **Dienste**, die Ihnen dabei helfen können, Remote-Knoten effektiver zu verwalten. Ein solcher Dienst ist **remote.it**, mit dem Sie sichere Remote-Verbindungen zu Ihren Knoten ohne Portweiterleitung herstellen können. Mit[remote.it](https://www.remote.it/) Sie können über das Internet eine Verbindung zu Ihren Knoten herstellen, auch wenn diese sich hinter einer Firewall oder NAT befinden. Dies kann Ihnen helfen, Ihre Knoten effektiver zu verwalten und den Zeit- und Arbeitsaufwand für die Aufrechterhaltung des Zugriffs auf sie zu reduzieren.
+Zum Glück gibt es **Dienste**, die Ihnen dabei helfen können, Remote-Knoten effektiver zu verwalten. Ein solcher Dienst ist **remote.it**, mit dem Sie sichere Remote-Verbindungen zu Ihren Knoten ohne Portweiterleitung herstellen können. Mit [remote.it](https://www.remote.it/) Sie können über das Internet eine Verbindung zu Ihren Knoten herstellen, auch wenn diese sich hinter einer Firewall oder NAT befinden. Dies kann Ihnen helfen, Ihre Knoten effektiver zu verwalten und den Zeit- und Arbeitsaufwand für die Aufrechterhaltung des Zugriffs auf sie zu reduzieren.
 
-Ein weiterer Dienst, der Ihnen bei der Verwaltung entfernter Knoten helfen kann, ist **ngrok**.[Ngrok](https://ngrok.com/) ist ein sicherer Tunneldienst, der es Ihnen ermöglicht, einen lokalen Webserver dem Internet zugänglich zu machen. Mit ngrok können Sie eine sichere Verbindung zu Ihren Knoten herstellen und diese aus der Ferne verwalten, ohne dass eine Portweiterleitung erforderlich ist. Dies kann besonders nützlich sein, wenn Sie Knoten verwalten, die sich hinter einer Firewall oder NAT befinden.
+Ein weiterer Dienst, der Ihnen bei der Verwaltung entfernter Knoten helfen kann, ist **ngrok**. [Ngrok](https://ngrok.com/) ist ein sicherer Tunneldienst, der es Ihnen ermöglicht, einen lokalen Webserver dem Internet zugänglich zu machen. Mit ngrok können Sie eine sichere Verbindung zu Ihren Knoten herstellen und diese aus der Ferne verwalten, ohne dass eine Portweiterleitung erforderlich ist. Dies kann besonders nützlich sein, wenn Sie Knoten verwalten, die sich hinter einer Firewall oder NAT befinden.
 
 ______
 
@@ -38,13 +38,13 @@ ______
 
 Bei der Verwaltung entfernter Knoten, insbesondere wenn diese mit dem Internet verbunden sind, ist es wichtig sicherzustellen, dass sie sicher und vor unbefugtem Zugriff geschützt sind. Eine Möglichkeit hierfür ist die Verwendung der **Zertifikatauthentifizierung** zur Authentifizierung von Verbindungen zu den Knoten. Die Zertifikatauthentifizierung ist eine sicherere Alternative zur herkömmlichen Passwortauthentifizierung, da sie ein digitales Zertifikat erfordert, um die Identität des Verbindungsgeräts zu überprüfen.
 
-Neben der Zertifikatauthentifizierung ist dies auch wichtig[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) auf Ihren Knoten installiert. Fail2ban ist ein Tool, das Brute-Force-Angriffe auf Ihre Knoten erkennen und verhindern kann, indem es IP-Adressen blockiert, die erfolglos versuchen, eine Verbindung herzustellen. Durch die Installation von fail2ban können Sie das Risiko eines unbefugten Zugriffs auf Ihre Knoten reduzieren und sicherstellen, dass diese sicher bleiben.
+Neben der Zertifikatauthentifizierung ist dies auch wichtig [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) auf Ihren Knoten installiert. Fail2ban ist ein Tool, das Brute-Force-Angriffe auf Ihre Knoten erkennen und verhindern kann, indem es IP-Adressen blockiert, die erfolglos versuchen, eine Verbindung herzustellen. Durch die Installation von fail2ban können Sie das Risiko eines unbefugten Zugriffs auf Ihre Knoten reduzieren und sicherstellen, dass diese sicher bleiben.
 
 ______
 
 ## Schnauben
 
-Ein weiteres Tool, das Ihnen bei der effektiven Verwaltung Ihrer Knoten helfen kann, ist[Snort](https://www.snort.org/) Snort ist ein Open-Source-System zur Erkennung von Netzwerkeinbrüchen, mit dem Sie Bedrohungen erkennen und verhindern können, die in Ihre Knoten ein- und ausgehen. Durch die Installation von Snort auf Ihren Knoten können Sie bei verdächtigen Aktivitäten gewarnt werden und Maßnahmen zur Eindämmung potenzieller Bedrohungen ergreifen. Dies kann Ihnen helfen, Ihre Knoten zu schützen und Schäden an Ihrem System zu verhindern.
+Ein weiteres Tool, das Ihnen bei der effektiven Verwaltung Ihrer Knoten helfen kann, ist [Snort](https://www.snort.org/) Snort ist ein Open-Source-System zur Erkennung von Netzwerkeinbrüchen, mit dem Sie Bedrohungen erkennen und verhindern können, die in Ihre Knoten ein- und ausgehen. Durch die Installation von Snort auf Ihren Knoten können Sie bei verdächtigen Aktivitäten gewarnt werden und Maßnahmen zur Eindämmung potenzieller Bedrohungen ergreifen. Dies kann Ihnen helfen, Ihre Knoten zu schützen und Schäden an Ihrem System zu verhindern.
 
 ______
 

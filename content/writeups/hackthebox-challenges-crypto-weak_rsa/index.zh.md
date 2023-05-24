@@ -24,17 +24,17 @@ ______
 为此，我们可能会使用 OpenSSL 包来解密标志。
 这次有点不同，您会发现 OpenSSL 包无法应对这一挑战。
 
-我们将使用自动 RSA 攻击工具。一个常见的 python 脚本是[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+我们将使用自动 RSA 攻击工具。一个常见的 python 脚本是 [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+简而言之，此工具可以自动为您轻松找到标志。
 
 ______
 
-### Flag Example:
+### 标志示例：
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

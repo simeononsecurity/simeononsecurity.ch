@@ -24,28 +24,28 @@ coverCaption: ""
 
 ______
 
-## Walk Through:
+## 遍历：
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**很明显，这是 T9 或多抽头密码。**
+不过，在这种情况下，多次击键是密码。 [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) 有一个工具来解码这个。
 
-You'll get this plain text:
+你会得到这个纯文本：
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+**你可能会问最后那个垃圾是什么？好吧，它实际上是一个 atbash 密文。**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+我们将使用 [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) 再破译一次。然后你就有了你的旗帜。哇！
 
 ______
 
-### Flag Example:
+### 标志示例：
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

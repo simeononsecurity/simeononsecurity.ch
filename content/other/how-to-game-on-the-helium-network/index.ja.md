@@ -32,10 +32,10 @@ Helium ネットワークは、物理ホットスポットをホストする人�
 Helium ネットワークは、ホットスポットが必要な場所にカバレッジを提供していることを保証するために、Proof-of-Coverage に依存しています。ただし、このシステムは、ゲーム、スプーフィング、ハッキング、およびネットワークに損害を与える可能性のあるその他の種類の不正行為に対して脆弱です。 Helium ネットワーク上のゲームの問題により、正規のホストには月額数千ドルの損害が発生しています。 Helium, Inc は DeWi と協力して、この問題の根絶に向けて 2022 年初頭に積極的な行動をとりました。
 
 ## 必要なハードウェア
--[Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
--[Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
--[Raspberry Pi](https://amzn.to/3KjFCYp)
--[Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
+- [Dragino LPS8](https://www.ebay.com/sch/i.html?_nkw=dragino+lps8)
+- [Other Lorawan Gateways that Use the Semtech Forwarder](https://amzn.to/41bcskb)
+- [Raspberry Pi](https://amzn.to/3KjFCYp)
+- [Other PC that can run docker images or linux software](https://amzn.to/3YkFhcj)
 
 ## MiddleMan を使用して Helium ネットワークを操作する
 Helium ネットワークを攻略する 1 つの方法は、MiddleMan を使用することです。 MiddleMan は、特定の場所にカバレッジを提供しているように見える偽のホットスポットを作成するために使用できるソフトウェア ツールです。 MiddleMan を使用すると、ユーザーは、ホットスポットが物理的にそのエリアに配置されていない場合でも、特定のエリアでのカバレッジを提供することで報酬を受け取る偽のホットスポットを作成できます。
@@ -44,7 +44,7 @@ MiddleMan を使用するには、ユーザーはソフトウェアをインス�
 
 このソフトウェアを指すように lorawan ゲートウェイを設定すると、受信したすべての PoC が有効であるとみなされるように値が操作されます。 semtech フォワーダーの使用は、LoraWAN コミュニティのさまざまな標準の 1 つです。操作の問題を修正するには、車輪を再発明し、独自のプロトコルを最初から実装する必要があります。チェックサムや暗号化などにより、このような事態は避けられます。しかし、異なるハードウェアを使用するベンダーがホットスポットを作成することもより困難になります。言うまでもなく、カバレッジを向上させるために 1 つのヘリウム マイナーと複数の lora ゲートウェイを使用することがサポートされているユースケースです。ただし、これは企業レベルの問題です。
 
- -[helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
+ - [helium-DIY-middleman](https://github.com/curiousfokker/helium-DIY-middleman)
 
 ## チャープ スタック パケット マルチプレクサを使用して Helium ネットワークを操作する
 Helium ネットワークを攻略するもう 1 つの方法は、Chirp Stack Packet Multiplexer を使用することです。 Chirp Stack Packet Multiplexer は、複数の物理ホットスポットからパケットを受信できる仮想ホットスポットを作成するために使用できるツールです。 Chirp Stack Packet Multiplexer を使用すると、ユーザーは複数の場所にある物理ホットスポットからパケットを受信する仮想ホットスポットを作成でき、獲得できる報酬が増加します。
@@ -54,7 +54,7 @@ Chirp Stack Packet Multiplexer を使用するには、ユーザーはソフト�
 これにより、複数のフォワーダーの入力と複数のゲートウェイの出力が可能になります。 LoraWAN コミュニティにはこのソフトウェアの正当な使用例がありますが、ヘリウムでの使用はグレーゾーンです。それは使用方法とあなたの意図によって異なります。
 
 これをセットアップするには、いくつかの構成ファイルが必要です。しかし、それは5分以内に行うことができます。
--[chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
+- [chirpstack-packet-multiplexer](https://github.com/brocaar/chirpstack-packet-multiplexer)
 
 
 ## Helium ネットワークでのゲームのリスクと結果

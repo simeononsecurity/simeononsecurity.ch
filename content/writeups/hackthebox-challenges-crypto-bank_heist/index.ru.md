@@ -4,13 +4,13 @@ date: 2020-10-07
 draft: false
 toc: true
 description: "Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox."
-tags: ["взломать ящик", "криптография", "шифр Т9", "многократный шифр", "шифр атбаш", "информационная безопасность", "декодировать", "зашифрованный текст", "испытание", "флаг", "информационная безопасность", "взлом", "учиться", "руководство", "декодирование шифра", "решение головоломок", "взлом кода", "вызов криптографии", "навыки кибербезопасности", "онлайн обучение"]
+tags: ["взломать ящик", "криптография", "Шифр Т9", "многократный шифр", "шифр атбаш", "информационная безопасность", "декодировать", "зашифрованный текст", "испытание", "флаг", "информационная безопасность", "взлом", "учиться", "руководство", "декодирование шифра", "решение головоломок", "взлом кода", "вызов криптографии", "навыки кибербезопасности", "онлайн обучение"]
 cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png"
 coverAlt: "мультяшная дверь хранилища, отпираемая ключом, открывающим сундук с сокровищами, и все это на фоне парижского городского пейзажа на закате."
 coverCaption: ""
 ---
 
-Подробное руководство по решению крипто-задачи «Ограбление банка» на HackTheBox. Задача включает в себя декодирование зашифрованного текста T9 или Multitap с помощью Decode.fr и зашифрованного текста atbash с помощью CyberChef для раскрытия флага. Обязательна к прочтению начинающим профессионалам в области кибербезопасности и всем, кто хочет улучшить свои навыки в области криптографии.
+Подробное руководство по решению крипто-задачи «Ограбление банка» на HackTheBox. Задача включает в себя декодирование зашифрованного текста T9 или Multitap с помощью Decode.fr и зашифрованного текста atbash с помощью CyberChef для раскрытия флага. Книга обязательна к прочтению начинающим профессионалам в области кибербезопасности и всем, кто хочет улучшить свои навыки в области криптографии.
 
 ## Предоставленные файлы:
 
@@ -24,28 +24,28 @@ coverCaption: ""
 
 ______
 
-## Walk Through:
+## Прохождение:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**Совершенно очевидно, что это либо шифр T9, либо шифр Multitap.**
+Однако в данном случае шифром является Multitap. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) есть инструмент для расшифровки этого.
 
-You'll get this plain text:
+Вы получите этот простой текст:
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+** Что это за мусор в конце, спросите вы? На самом деле это зашифрованный текст atbash.**
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+мы будем использовать [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) расшифровать еще раз. Тогда у вас есть свой флаг. Ого!
 
 ______
 
-### Flag Example:
+### Пример флага:
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}

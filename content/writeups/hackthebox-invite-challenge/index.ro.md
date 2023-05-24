@@ -20,7 +20,7 @@ HackTheBox este o platformă online pentru a-ți testa și avansa abilitățile 
 
 Pentru a crea un cont pe HackTheBox (HTB), trebuie să finalizați provocarea de invitare sau să vă spargeți drumul. Nu vă faceți griji, deși nu este greu și acest articol vă va ajuta să completați provocarea.
 
-Mai întâi, mergi la[HackTheBox Website](https://hackthebox.eu) și faceți clic pe butonul de alăturare.
+Mai întâi, mergi la [HackTheBox Website](https://hackthebox.eu) și faceți clic pe butonul de alăturare.
 
 Vi se va prezenta o casetă care vă cere în mod clar un cod de invitație.
 
@@ -37,21 +37,21 @@ Puteți face următoarele pentru a obține codul de invitație codificat Base64:
 ### Soluție:
 
 #### Simplu:
-- **Windows**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+Care va genera următorul conținut: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+Dacă luați codul de invitare codificat la [base64decode.org](https://www.base64decode.org/) vei primi codul de invitație!
 
-#### Advanced (Instantly print out invite code):
+#### Avansat (tipărește instantaneu codul de invitație):
  - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+ - **Notă**: va trebui să instalați [jq](https://stedolan.github.io/jq/download/) pachet.
 
 ______
 
-### Invite Code Ex:
+### Cod de invitație Ex:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 

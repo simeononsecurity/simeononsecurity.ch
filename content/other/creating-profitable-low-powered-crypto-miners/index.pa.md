@@ -3,8 +3,8 @@ title: "ਘੱਟ ਪਾਵਰ ਵਾਲੇ ਹਾਰਡਵੇਅਰ ਨਾਲ �
 draft: false
 toc: true
 date: 2023-02-07
-description: "Raspberry Pi ਜਾਂ Intel NUC ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਘੱਟ-ਪਾਵਰ ਵਾਲੇ ਪੈਸਿਵ ਇਨਕਮ ਕ੍ਰਿਪਟੋ ਮਾਈਨਰ ਨੂੰ ਕਿਵੇਂ ਸਥਾਪਤ ਕਰਨਾ ਹੈ, ਅਤੇ ਇਸ ਗਾਈਡ ਦੇ ਨਾਲ ਪ੍ਰਤੀ ਬਾਕਸ $10-$20 ਪ੍ਰਤੀ ਮਹੀਨਾ ਕਮਾਓ।"
-tags: ["ਇੱਕ ਲਾਭਦਾਇਕ ਪੈਸਿਵ ਇਨਕਮ ਬਾਕਸ ਬਣਾਓ", "ਘੱਟ ਪਾਵਰ ਵਾਲਾ ਹਾਰਡਵੇਅਰ", "ਪੈਸਿਵ ਇਨਕਮ", "ਕ੍ਰਿਪਟੋ ਮਾਈਨਰ", "ਰਸਬੇਰੀ ਪੀ", "Intel NUC", "ਗਾਈਡ", "ਹਾਰਡਵੇਅਰ ਲੋੜਾਂ", "OS ਸਥਾਪਨਾ", "ਸਾਫਟਵੇਅਰ ਇੰਸਟਾਲੇਸ਼ਨ", "ਡੌਕਰ", "ਆਟੋਮੈਟਿਕ ਡੌਕਰ ਕੰਟੇਨਰ ਅੱਪਡੇਟ", "ਉਬੰਟੂ ਸਰਵਰ", "ਉਬੰਟੂ ਡੈਸਕਟਾਪ", "ਰਸਪਬੀਅਨ", "ਬਜਟ", "ਯੂ.ਐੱਸ.ਐੱਫ.ਐੱਫ", "ਛੋਟਾ", "ਮਿੰਨੀ", "ਮਾਈਕ੍ਰੋ ਪੀਸੀ", "ਤਕਨੀਕੀ ਅਨੁਭਵ", "EarnApp", "MYST", "Peer2Profit", "ਹਨੀਗੇਨ", "ਟਰੈਫ ਮੋਨੀਟਾਈਜ਼ਰ", "ਵਾਚਟਾਵਰ", "ਕੁੱਟਣਾ"]
+description: "Raspberry Pi ਜਾਂ Intel NUC ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਘੱਟ-ਪਾਵਰ ਵਾਲੇ ਪੈਸਿਵ ਇਨਕਮ ਕ੍ਰਿਪਟੋ ਮਾਈਨਰ ਨੂੰ ਕਿਵੇਂ ਸੈਟ ਅਪ ਕਰਨਾ ਹੈ, ਅਤੇ ਇਸ ਗਾਈਡ ਨਾਲ ਪ੍ਰਤੀ ਬਾਕਸ $10-$20 ਪ੍ਰਤੀ ਮਹੀਨਾ ਕਮਾਓ।"
+tags: ["ਇੱਕ ਲਾਭਦਾਇਕ ਪੈਸਿਵ ਇਨਕਮ ਬਾਕਸ ਬਣਾਓ", "ਘੱਟ ਪਾਵਰ ਵਾਲਾ ਹਾਰਡਵੇਅਰ", "ਪੈਸਿਵ ਇਨਕਮ", "ਕ੍ਰਿਪਟੋ ਮਾਈਨਰ", "ਰਸਬੇਰੀ ਪੀ", "Intel NUC", "ਗਾਈਡ", "ਹਾਰਡਵੇਅਰ ਲੋੜਾਂ", "OS ਸਥਾਪਨਾ", "ਸਾਫਟਵੇਅਰ ਇੰਸਟਾਲੇਸ਼ਨ", "ਡੌਕਰ", "ਆਟੋਮੈਟਿਕ ਡੌਕਰ ਕੰਟੇਨਰ ਅੱਪਡੇਟ", "ਉਬੰਟੂ ਸਰਵਰ", "ਉਬੰਟੂ ਡੈਸਕਟਾਪ", "ਰਸਪਬੀਅਨ", "ਬਜਟ", "ਯੂ.ਐੱਸ.ਐੱਫ.ਐੱਫ", "ਛੋਟਾ", "ਮਿੰਨੀ", "ਮਾਈਕ੍ਰੋ ਪੀਸੀ", "ਤਕਨੀਕੀ ਅਨੁਭਵ", "EarnApp", "MYST", "Peer2Profit", "ਹਨੀਗੇਨ", "ਟਰੈਫ ਮੋਨੀਟਾਈਜ਼ਰ", "ਵਾਚਟਾਵਰ", "ਕੁੱਟਣਾ", "ਲੀਨਕਸ ਅੱਪਡੇਟ", "ਉਬੰਟੂ", "ਡੇਬੀਅਨ", "CentOS", "RHEL", "ਔਫਲਾਈਨ ਅੱਪਡੇਟ", "ਸਥਾਨਕ ਭੰਡਾਰ", "ਕੈਸ਼", "ਸਰਵਰ ਸੈੱਟਅੱਪ", "ਗਾਹਕ ਸੈੱਟਅੱਪ", "apt-ਸ਼ੀਸ਼ਾ", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "ਲੀਨਕਸ ਸਿਸਟਮ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਪੈਕੇਜ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ", "ਸਥਾਨਕ ਪੈਕੇਜ ਰਿਪੋਜ਼ਟਰੀ", "ਸਥਾਨਕ ਪੈਕੇਜ ਕੈਸ਼", "ਔਫਲਾਈਨ ਲੀਨਕਸ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਅੱਪਡੇਟਾਂ ਨੂੰ ਸੰਭਾਲਣਾ", "ਔਫਲਾਈਨ ਅੱਪਡੇਟ ਢੰਗ", "ਔਫਲਾਈਨ ਸਿਸਟਮ ਰੱਖ-ਰਖਾਅ", "ਲੀਨਕਸ ਸਰਵਰ ਅੱਪਡੇਟ", "ਲੀਨਕਸ ਕਲਾਇੰਟ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਸਾਫਟਵੇਅਰ ਪ੍ਰਬੰਧਨ", "ਔਫਲਾਈਨ ਪੈਕੇਜ ਪ੍ਰਬੰਧਨ", "ਅੱਪਡੇਟ ਰਣਨੀਤੀ", "ਲੀਨਕਸ ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ"]
 cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
 coverAlt: "ਇੱਕ ਹਰਾ, ਸਰਕਟ ਬੋਰਡ ਇੱਕ ਬਕਸੇ ਵਰਗਾ ਆਕਾਰ ਦਾ ਜਿਸ ਵਿੱਚ ਇੰਟਰਨੈਟ ਕਨੈਕਟੀਵਿਟੀ ਪ੍ਰਤੀਕਾਂ ਦੇ ਨਾਲ ਤਾਰਾਂ ਜੁੜੀਆਂ ਹੁੰਦੀਆਂ ਹਨ।"
 coverCaption: ""
@@ -19,31 +19,31 @@ coverCaption: ""
 ਹੇਠਾਂ ਦਿੱਤੇ ਵਿੱਚੋਂ ਇੱਕ ਦੀ ਲੋੜ ਹੈ। ਸਾਨੂੰ ਅਸਲ ਵਿੱਚ ਕਿਸੇ ਕੁਸ਼ਲ ਅਤੇ ਘੱਟ ਪਾਵਰ ਵਾਲੇ ਕੰਪਿਊਟਰ ਦੀ ਲੋੜ ਹੈ ਜਿਸਨੂੰ ਅਸੀਂ ਆਪਣੇ ਹੱਥਾਂ ਵਿੱਚ ਲੈ ਸਕਦੇ ਹਾਂ। ਕੋਈ ਵੀ Raspberry PI, Intel NUC, ਜਾਂ ਸਮਾਨ ਕਰੇਗਾ। ਉਨ੍ਹਾਂ ਨੂੰ ਇੰਨਾ ਸ਼ਕਤੀਸ਼ਾਲੀ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ। ਹਾਲਾਂਕਿ ਮੈਂ ਤੁਹਾਨੂੰ ਘੱਟੋ-ਘੱਟ 32g-64g ਸਟੋਰੇਜ, 4g RAM, ਅਤੇ ਘੱਟੋ-ਘੱਟ 2 cpu ਥਰਿੱਡ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਾਂਗਾ। ਇਸਦੇ ਲਈ ਅਸੀਂ ਹਾਰਡਵੇਅਰ ਲਈ ਲਗਭਗ $100- $200 ਦੇ ਬਜਟ ਨੂੰ ਨਿਸ਼ਾਨਾ ਬਣਾਵਾਂਗੇ ਪਰ ਜੇਕਰ ਇਹ ਤੁਹਾਡੀਆਂ ਜ਼ਰੂਰਤਾਂ ਦੇ ਅਨੁਕੂਲ ਹੋਵੇ ਤਾਂ ਵੱਧ ਜਾਣ ਲਈ ਬੇਝਿਜਕ ਮਹਿਸੂਸ ਕਰੋ। ਸਾਡਾ ਪਾਵਰ ਟੀਚਾ ਲਗਭਗ ਹੈ. 25w ਔਸਤ.
 ### ਰਸਬੇਰੀ ਪਾਈ:
 ਇਨ੍ਹਾਂ ਦਿਨਾਂ ਨੂੰ ਫੜਨਾ ਮੁਸ਼ਕਲ ਹੈ ਪਰ ਉਹ ਬਹੁਤ ਘੱਟ ਪਾਵਰ ਹਨ ਅਤੇ ਕਾਫ਼ੀ ਅਨੁਕੂਲਿਤ ਹਨ। ਤੁਹਾਡੇ Raspberry PI 'ਤੇ ਰਸਪੀਅਨ ਨੂੰ ਕਿਵੇਂ ਸਥਾਪਿਤ ਕਰਨਾ ਹੈ ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ
--[Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
--[GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
--[GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
+- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
+- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
 ### Intel Nuc:
 ਉੱਥੇ ਮਾਡਲ ਦੀ ਵਿਆਪਕ ਕਿਸਮ. ਇੱਕ ਨਵਾਂ ਚੁਣਨ ਲਈ ਸੁਤੰਤਰ ਮਹਿਸੂਸ ਕਰੋ।
--[Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
--[Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
--[Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
+- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
+- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
+- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
 ### ਕੋਈ ਵੀ USFF/Tiny/Mini/Micro PC:
--[Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
--[Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
+- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
+- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
 ### Intel N5100 ਜਾਂ ਸਮਾਨ ਵਾਲਾ ਕੋਈ ਵੀ ਮਿੰਨੀ PC
 ਸੁਪਰ ਘੱਟ ਪਾਵਰ Raspberry Pi ਬਰਾਬਰ ਲਈ ਪਰ x64 ਪਲੇਟਫਾਰਮ 'ਤੇ।
--[Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
--[TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
+- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ## OS ਸਥਾਪਨਾ:
 ਅਸੀਂ ਇੱਥੇ ਇੱਕ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਨੂੰ ਕਿਵੇਂ ਸਥਾਪਿਤ ਕਰਨਾ ਹੈ ਦੇ ਤਕਨੀਕੀ ਵੇਰਵਿਆਂ ਵਿੱਚ ਨਹੀਂ ਜਾਵਾਂਗੇ। ਹਾਲਾਂਕਿ ਤੁਹਾਨੂੰ ਸ਼ੁਰੂਆਤ ਕਰਨ ਲਈ ਇੱਥੇ ਕੁਝ ਵਧੀਆ ਸਰੋਤ ਹਨ
 ### ਰਾਸਬੀਅਨ:
--[Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
--[The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
+- [Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+- [The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
 ### ਉਬੰਟੂ:
--[Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
--[Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
--[Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
+- [Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+- [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
+- [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
 
 ## ਸਾਫਟਵੇਅਰ ਇੰਸਟਾਲੇਸ਼ਨ:
@@ -57,8 +57,8 @@ coverCaption: ""
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
-### Installing Docker:
-We need to uninstall any existing versions that come prepackaged with the os and install the latest from Docker's repo themselves.
+### ਡੌਕਰ ਸਥਾਪਤ ਕਰਨਾ:
+ਸਾਨੂੰ ਕਿਸੇ ਵੀ ਮੌਜੂਦਾ ਸੰਸਕਰਣ ਨੂੰ ਅਣਇੰਸਟੌਲ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ ਜੋ OS ਨਾਲ ਪਹਿਲਾਂ ਤੋਂ ਪੈਕ ਕੀਤੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਡੌਕਰ ਦੇ ਰੈਪੋ ਤੋਂ ਨਵੀਨਤਮ ਇੰਸਟਾਲ ਕਰਦੇ ਹਨ।
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -76,8 +76,8 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### Install Watchtower:
-This docker container automatically updates all your docker containers to the latest images on a regular interval and cleans up old (stale) images.
+### ਵਾਚਟਾਵਰ ਸਥਾਪਿਤ ਕਰੋ:
+ਇਹ ਡੌਕਰ ਕੰਟੇਨਰ ਤੁਹਾਡੇ ਸਾਰੇ ਡੌਕਰ ਕੰਟੇਨਰ ਨੂੰ ਇੱਕ ਨਿਯਮਤ ਅੰਤਰਾਲ 'ਤੇ ਨਵੀਨਤਮ ਚਿੱਤਰਾਂ ਲਈ ਆਪਣੇ ਆਪ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ ਅਤੇ ਪੁਰਾਣੀਆਂ (ਬਾਸੀ) ਤਸਵੀਰਾਂ ਨੂੰ ਸਾਫ਼ ਕਰਦਾ ਹੈ।
 ```bash
 docker run -d \
     --name watchtower \
@@ -88,98 +88,98 @@ docker run -d \
     --cleanup 
 ```
 
-### Install Bitping:
+### ਬਿਟਪਿੰਗ ਸਥਾਪਿਤ ਕਰੋ:
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
 
-Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
-This averages about 0.1 Cents per day per node. Not a lot I know, but it has potential and payouts are easy. 
+ਬਿਟਪਿੰਗ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਨੈਟਵਰਕ ਤੋਂ ਹਲਕੇ ਭਾਰ ਵਾਲੇ ਨੈਟਵਰਕ ਟੈਸਟਾਂ ਨੂੰ ਚਲਾਉਣ ਲਈ ਕਾਰੋਬਾਰਾਂ ਲਈ ਇੱਕ ਨੋਡ ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਸੋਲਾਨਾ ਵਿੱਚ ਭੁਗਤਾਨ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਯੋਗਤਾ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ।
+ਇਹ ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਦਿਨ ਔਸਤਨ 0.1 ਸੈਂਟ ਹੈ। ਬਹੁਤ ਕੁਝ ਨਹੀਂ ਜੋ ਮੈਂ ਜਾਣਦਾ ਹਾਂ, ਪਰ ਇਸ ਵਿੱਚ ਸਮਰੱਥਾ ਹੈ ਅਤੇ ਭੁਗਤਾਨ ਆਸਾਨ ਹਨ।
 
-#### Create an account:
-Create an account at [bitping.com](https://bitping.com)
+#### ਅਕਾਉਂਟ ਬਣਾਓ:
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [bitping.com](https://bitping.com)
 
-#### Install the docker container:
-Step 1. Run these commands first as it walks you through setting up your container and asks you to sign in.
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
+ਕਦਮ 1. ਪਹਿਲਾਂ ਇਹਨਾਂ ਕਮਾਂਡਾਂ ਨੂੰ ਚਲਾਓ ਕਿਉਂਕਿ ਇਹ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਕੰਟੇਨਰ ਨੂੰ ਸਥਾਪਤ ਕਰਨ ਲਈ ਲੈ ਕੇ ਜਾਂਦਾ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਕਹਿੰਦਾ ਹੈ।
 ```bash
 docker pull bitping/bitping-node
 mkdir $HOME/.bitping/
 docker run -it --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
-Hit CTRL+C on your keyboard to escape the container following signing in with your bitping account.
+ਆਪਣੇ ਬਿਟਪਿੰਗ ਖਾਤੇ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨ ਤੋਂ ਬਾਅਦ ਕੰਟੇਨਰ ਤੋਂ ਬਚਣ ਲਈ ਆਪਣੇ ਕੀਬੋਰਡ 'ਤੇ CTRL+C ਦਬਾਓ।
 
-Step 2. Run this command to persist the container in the background
+ਕਦਮ 2. ਬੈਕਗ੍ਰਾਉਂਡ ਵਿੱਚ ਕੰਟੇਨਰ ਨੂੰ ਜਾਰੀ ਰੱਖਣ ਲਈ ਇਸ ਕਮਾਂਡ ਨੂੰ ਚਲਾਓ
 ```bash
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
 
-### Install Earn App:
+### ਅਰਨ ਐਪ ਇੰਸਟਾਲ ਕਰੋ:
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
 
-Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
+ਕਮਾਓ ਐਪ ਤੁਹਾਨੂੰ ਇਨਾਮਾਂ ਦੀ ਹੈਰਾਨੀਜਨਕ ਰਕਮ ਲਈ ਇੱਕ VPN ਸੇਵਾ ਦੇ ਤੌਰ 'ਤੇ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਦਿੰਦਾ ਹੈ। ਪ੍ਰਤੀ ਰਿਹਾਇਸ਼ੀ IP ਪ੍ਰਤੀ ਨੋਡ ਲਗਭਗ $5 ਮਹੀਨਾ। ਪੇਪਾਲ ਅਤੇ ਐਮਾਜ਼ਾਨ ਗਿਫਟ ਕਾਰਡਾਂ ਰਾਹੀਂ ਭੁਗਤਾਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
 
-#### Create an Earn App Account:
-Create an account at [earnapp.com](https://earnapp.com/i/c1dllee).
-*Warning, requires a google account*
+#### ਇੱਕ ਕਮਾਈ ਐਪ ਖਾਤਾ ਬਣਾਓ:
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [earnapp.com](https://earnapp.com/i/c1dllee)
+*ਚੇਤਾਵਨੀ, ਗੂਗਲ ਖਾਤੇ ਦੀ ਲੋੜ ਹੈ*
 
-#### Install the non docker version of the app to get your UUID:
-Be sure to uninstall after you get your UUID otherwise you'll end up running it twice on the same host and without automatic updates
+#### ਆਪਣਾ UUID ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਐਪ ਦਾ ਨਾਨ ਡੌਕਰ ਸੰਸਕਰਣ ਸਥਾਪਿਤ ਕਰੋ:
+ਆਪਣੀ UUID ਪ੍ਰਾਪਤ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ ਅਣਇੰਸਟੌਲ ਕਰਨਾ ਯਕੀਨੀ ਬਣਾਓ ਨਹੀਂ ਤਾਂ ਤੁਸੀਂ ਇਸਨੂੰ ਦੋ ਵਾਰ ਇੱਕੋ ਹੋਸਟ 'ਤੇ ਅਤੇ ਆਟੋਮੈਟਿਕ ਅੱਪਡੇਟ ਤੋਂ ਬਿਨਾਂ ਚਲਾਓਗੇ।
 - [Instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)
 
-#### Install the docker container:
-Modify the string before pasting into your terminal. You need to specify your earn app UUID.
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
+ਆਪਣੇ ਟਰਮੀਨਲ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਤਰ ਨੂੰ ਸੋਧੋ। ਤੁਹਾਨੂੰ ਆਪਣੀ ਕਮਾਈ ਐਪ UUID ਨਿਰਧਾਰਤ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।
 ```bash
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
-#### Video Tutorial:
+#### ਵੀਡੀਓ ਟਿਊਟੋਰਿਅਲ:
 {{< youtube id="tt499o0OjGU" >}}
 
-### Install Honey Gain:
+### ਹਨੀ ਗੇਨ ਇੰਸਟਾਲ ਕਰੋ:
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
 
-Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
+ਹਨੀ ਗੇਨ ਤੁਹਾਨੂੰ ਇਨਾਮਾਂ ਦੀ ਹੈਰਾਨੀਜਨਕ ਰਕਮ ਲਈ ਇੱਕ VPN ਸੇਵਾ ਦੇ ਤੌਰ 'ਤੇ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਦਿੰਦਾ ਹੈ। ਪ੍ਰਤੀ ਰਿਹਾਇਸ਼ੀ IP ਪ੍ਰਤੀ ਨੋਡ ਲਗਭਗ $5 ਮਹੀਨਾ। ਅਦਾਇਗੀਆਂ ਗੁੰਝਲਦਾਰ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਇਸ ਕੰਟੇਨਰ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਨੂੰ ਹੋਰ ਪੜ੍ਹੋ
 
-#### Create a Honey Gain Account:
-Create an account at [honeygain.com](https://r.honeygain.me/DAVID07A75)
+#### ਹਨੀ ਗੇਨ ਖਾਤਾ ਬਣਾਓ:
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [honeygain.com](https://r.honeygain.me/DAVID07A75)
 
-#### Install the Docker Container:
-Modify the string with the obvious email, password, and device name before pasting into the terminal
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
+ਟਰਮੀਨਲ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਪੱਸ਼ਟ ਈਮੇਲ, ਪਾਸਵਰਡ ਅਤੇ ਡਿਵਾਈਸ ਨਾਮ ਨਾਲ ਸਤਰ ਨੂੰ ਸੋਧੋ
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
 
-#### Alternate instructions for Raspberry Pi
+#### Raspberry Pi ਲਈ ਵਿਕਲਪਿਕ ਨਿਰਦੇਸ਼
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
 
-#### Video Tutorial:
+#### ਵੀਡੀਓ ਟਿਊਟੋਰਿਅਲ:
 {{< youtube id="Wd11M0nSy1k" >}}
 
-### Install PawnsApp:
+### PawnsApp ਇੰਸਟਾਲ ਕਰੋ:
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
-Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
+Pawns ਐਪ, ਦੁਬਾਰਾ ਇੱਥੇ ਸੂਚੀਬੱਧ ਹੋਰਾਂ ਵਾਂਗ ਹੀ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਭੁਗਤਾਨ ਕਰਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ। ਘੱਟੋ-ਘੱਟ ਭੁਗਤਾਨ $5 ਹੈ। ਔਸਤ ਭੁਗਤਾਨ ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਮਹੀਨਾ $0.50 ਹੈ।
 
-#### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+#### ਇੱਕ PawnsApp ਖਾਤਾ ਬਣਾਓ:
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [https://pawns.app](https://pawns.app/?r=sos)
 
-#### Install the Docker Container:
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
 
-Modify the following with your email, password, device name, and device id before copying to your terminal.
+ਆਪਣੇ ਟਰਮੀਨਲ 'ਤੇ ਕਾਪੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ ਈਮੇਲ, ਪਾਸਵਰਡ, ਡਿਵਾਈਸ ਦੇ ਨਾਮ, ਅਤੇ ਡਿਵਾਈਸ ਆਈਡੀ ਨਾਲ ਹੇਠਾਂ ਦਿੱਤੇ ਨੂੰ ਸੋਧੋ।
 ```bash
 docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Install Peer 2 Profit:
+### ਪੀਅਰ 2 ਲਾਭ ਸਥਾਪਿਤ ਕਰੋ:
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
 
-Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
-Offers a variety of payouts including money orders, BTC, LTC, LTC, MATIC, etc.
+EarnApp ਅਤੇ HoneyGain ਦੇ ਸਮਾਨ, Peer2Profit VPN ਅਤੇ ਸਕ੍ਰੈਪਿੰਗ ਉਦੇਸ਼ਾਂ ਲਈ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਦਾ ਹੈ। ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਮਹੀਨਾ $1 ਕਮਾਉਂਦਾ ਹੈ।
+ਮਨੀ ਆਰਡਰ, BTC, LTC, LTC, MATIC, ਆਦਿ ਸਮੇਤ ਕਈ ਤਰ੍ਹਾਂ ਦੇ ਭੁਗਤਾਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
 
-#### Create a Peer 2 Profit Account:
-Create an account at [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+#### ਇੱਕ ਪੀਅਰ 2 ਲਾਭ ਖਾਤਾ ਬਣਾਓ:
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
 
-#### Install the Docker Container:
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
 ```bash
 export P2P_EMAIL="your_email_without_quotes"; 
 docker rm -f peer2profit || true && docker run -td --restart always \
@@ -187,47 +187,47 @@ docker rm -f peer2profit || true && docker run -td --restart always \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
 ```
-#### Video Tutorial:
+#### ਵੀਡੀਓ ਟਿਊਟੋਰਿਅਲ:
 {{< youtube id="J_rSV5N8aQk" >}}
 
 
-### Install Repocket:
+### ਰੀਪੋਕੇਟ ਸਥਾਪਿਤ ਕਰੋ:
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
-Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
+ਇੱਥੇ ਹੋਰ ਪੇਸ਼ਕਸ਼ਾਂ ਦੇ ਸਮਾਨ. ਘੱਟੋ-ਘੱਟ $20 ਦਾ ਭੁਗਤਾਨ। ਅਦਾਇਗੀਆਂ ਗੁੰਝਲਦਾਰ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਇਹ ਦੇਖਣ ਲਈ ਕਿ ਕੀ ਤੁਸੀਂ ਇਸ ਸੇਵਾ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਆਪਣੇ ਲਈ ਖੋਜ ਕਰੋ। ਭੁਗਤਾਨ ਔਸਤਨ $1 ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਬਾਕਸ ਪ੍ਰਤੀ ਮਹੀਨਾ ਹੈ।
 
-#### Create a Repocket Account:
-Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
-#### Install the Docker Container:
-Modify the following line with your email and api key before pasting into your terminal.
+#### ਇੱਕ ਰੀਪੋਕੇਟ ਖਾਤਾ ਬਣਾਓ:
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [repocket.co](https://link.repocket.co/pyqL) ਅਤੇ ਆਪਣੇ ਡੈਸ਼ਬੋਰਡ ਤੋਂ ਆਪਣੀ ਏਪੀਆਈ ਕੁੰਜੀ ਨੂੰ ਫੜੋ।
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
+ਆਪਣੇ ਟਰਮੀਨਲ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ ਈਮੇਲ ਅਤੇ ਏਪੀਆਈ ਕੁੰਜੀ ਨਾਲ ਹੇਠ ਦਿੱਤੀ ਲਾਈਨ ਨੂੰ ਸੋਧੋ।
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
-#### Video Tutorial:
+#### ਵੀਡੀਓ ਟਿਊਟੋਰਿਅਲ:
 {{< youtube id="171gWknfAbY" >}}
 
-### Install Traff Monetizer:
+### ਟ੍ਰੈਫ ਮੋਨੇਟਾਈਜ਼ਰ ਸਥਾਪਿਤ ਕਰੋ:
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
 
-Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
+EarnApp ਅਤੇ HoneyGain ਦੀ ਤਰ੍ਹਾਂ, TraffMonetizer ਤੁਹਾਨੂੰ ਤੁਹਾਡਾ ਇੰਟਰਨੈੱਟ ਸਾਂਝਾ ਕਰਨ ਲਈ ਭੁਗਤਾਨ ਕਰਦਾ ਹੈ। ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਮਹੀਨਾ ਔਸਤਨ $2। ਸਿਰਫ਼ BTC ਵਿੱਚ ਭੁਗਤਾਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
 
-#### Create your Traff Monetizer Account:
-Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
-Once you get into the dashboard, make note of your application token.
+#### ਆਪਣਾ ਟਰੈਫ ਮੁਦਰੀਕਰਨ ਖਾਤਾ ਬਣਾਓ:
+'ਤੇ ਆਪਣਾ ਖਾਤਾ ਬਣਾਓ [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+ਇੱਕ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਡੈਸ਼ਬੋਰਡ ਵਿੱਚ ਆ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਆਪਣੇ ਐਪਲੀਕੇਸ਼ਨ ਟੋਕਨ ਨੂੰ ਨੋਟ ਕਰੋ।
 
-#### Install the Docker Container:
-Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
+ਹੇਠਾਂ ਦਿੱਤੀ ਸਤਰ ਨੂੰ ਕਾਪੀ ਕਰੋ ਅਤੇ ਆਪਣਾ ਟੋਕਨ ਸ਼ਾਮਲ ਕਰੋ ਜੋ ਤੁਸੀਂ ਆਪਣੇ ਟਰਮੀਨਲ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਡੈਸ਼ਬੋਰਡ ਤੋਂ ਪ੍ਰਾਪਤ ਕੀਤਾ ਸੀ।
 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
-### Install Mysterium:
-[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
-Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
+### ਮਿਸਟਰੀਅਮ ਸਥਾਪਿਤ ਕਰੋ:
+[Mysterium](https://www.mysterium.network/) ਇੱਕ ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ VPN ਅਤੇ ਵੈਬਸਕ੍ਰੈਪਿੰਗ ਸੇਵਾ ਹੈ ਜੋ ਈਥਰੀਅਮ ਅਤੇ ਪੌਲੀਗਨ ਬਲਾਕਚੈਨ 'ਤੇ ਬਣੀ ਹੋਈ ਹੈ।
+ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਕਈ ਕਾਰਕਾਂ 'ਤੇ ਨਿਰਭਰ ਕਰਦੇ ਹੋਏ ਭੁਗਤਾਨ ਔਸਤ $1-$20 ਪ੍ਰਤੀ ਮਹੀਨਾ ਤੋਂ ਕਿਤੇ ਵੀ ਹੁੰਦੇ ਹਨ। ਐਕਟੀਵੇਸ਼ਨ ਲਈ ਨੋਡ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ $1.XX ਦੀ ਲਾਗਤ ਆਉਂਦੀ ਹੈ। MYST ਟੋਕਨ ਵਿੱਚ ਭੁਗਤਾਨ।
 
 
-#### Install the Docker Container:
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
 ```bash
 docker volume create myst_data
 docker run -td --cpus=1 --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 --hostname myst --cap-add NET_ADMIN --network=host -p 4449:4449 -p 59850-60000:59850-60000 --name myst --device=/dev/net/tun  -v myst_data:/var/lib/mysterium-node mysteriumnetwork/myst:latest --udp.ports=59850:60000 service --agreed-terms-and-conditions
@@ -235,35 +235,35 @@ ufw allow 4449
 ufw allow 59850:60000/tcp
 ```
 
-#### Setup the Docker Container:
-Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+#### ਡੌਕਰ ਕੰਟੇਨਰ ਸੈੱਟਅੱਪ ਕਰੋ:
+ਆਪਣੇ ਨੋਡ ਦੇ IP ਐਡਰੈੱਸ ਨਾਲ "nodeip" ਨੂੰ ਬਦਲ ਕੇ http://"nodeip"/#/dashboard 'ਤੇ ਜਾਓ। ਤੁਸੀਂ ਇਸਨੂੰ ਟਰਮੀਨਲ ਵਿੱਚ "ifconfig" ਟਾਈਪ ਕਰਕੇ ਲੱਭ ਸਕਦੇ ਹੋ।
 
-Click “start node setup”.
+"ਸਟਾਰਟ ਨੋਡ ਸੈੱਟਅੱਪ" 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
 
-Past the address of the ERC20 wallet you want to receive rewards in and click “next”. You can use a standard Ethereum address like one of your MetaMask addresses.
+ERC20 ਵਾਲਿਟ ਦਾ ਪਤਾ ਪਾਸ ਕਰੋ ਜਿਸ ਵਿੱਚ ਤੁਸੀਂ ਇਨਾਮ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ "ਅੱਗੇ" 'ਤੇ ਕਲਿੱਕ ਕਰੋ। ਤੁਸੀਂ ਇੱਕ ਮਿਆਰੀ Ethereum ਪਤੇ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ ਜਿਵੇਂ ਕਿ ਤੁਹਾਡੇ MetaMask ਪਤੇ ਵਿੱਚੋਂ ਇੱਕ।
 
-Type in a password you’ll use to access this node dashboard in the future. DO check the checkbox to claim the node in your network.
+ਇੱਕ ਪਾਸਵਰਡ ਟਾਈਪ ਕਰੋ ਜਿਸਦੀ ਵਰਤੋਂ ਤੁਸੀਂ ਭਵਿੱਖ ਵਿੱਚ ਇਸ ਨੋਡ ਡੈਸ਼ਬੋਰਡ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਕਰੋਗੇ। ਆਪਣੇ ਨੈੱਟਵਰਕ ਵਿੱਚ ਨੋਡ ਦਾ ਦਾਅਵਾ ਕਰਨ ਲਈ ਚੈਕਬਾਕਸ ਦੀ ਜਾਂਚ ਕਰੋ।
 
-Click the “Get it here” link and find your API key. Copy it. Go back and paste it. Click “Save & Continue”.
+"ਇਸ ਨੂੰ ਇੱਥੇ ਪ੍ਰਾਪਤ ਕਰੋ" ਲਿੰਕ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਆਪਣੀ API ਕੁੰਜੀ ਲੱਭੋ। ਇਸ ਦੀ ਨਕਲ ਕਰੋ। ਵਾਪਸ ਜਾਓ ਅਤੇ ਇਸਨੂੰ ਪੇਸਟ ਕਰੋ। "ਸੇਵ ਅਤੇ ਜਾਰੀ ਰੱਖੋ" 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
 
-#### Port Forwarding:
-We can not describe how to port forward for everyone's specific hardware. Here are some resources to learn how to port forward.
+#### ਪੋਰਟ ਫਾਰਵਰਡਿੰਗ:
+ਅਸੀਂ ਵਰਣਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਕਿ ਹਰ ਕਿਸੇ ਦੇ ਖਾਸ ਹਾਰਡਵੇਅਰ ਲਈ ਅੱਗੇ ਕਿਵੇਂ ਪੋਰਟ ਕਰਨਾ ਹੈ। ਅੱਗੇ ਨੂੰ ਪੋਰਟ ਕਰਨਾ ਸਿੱਖਣ ਲਈ ਇੱਥੇ ਕੁਝ ਸਰੋਤ ਹਨ।
 - [PortForward.com](https://portforward.com/)
 - [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
 
 
-### Auto Restart Docker Containers on Boot:
+### ਬੂਟ ਤੇ ਆਟੋ ਰੀਸਟਾਰਟ ਡੌਕਰ ਕੰਟੇਨਰ:
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
 
-### Optional Configurations:
+### ਵਿਕਲਪਿਕ ਸੰਰਚਨਾ:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
 - [Blocking ToR Traffic on Ubuntu](https://serverfault.com/questions/1106645/blocking-tor-traffic-with-postfix-or-fail2ban-on-mailserver)
-#### Increase security by blocking malware and trackers.
-Force all dns requests to Cloudflares malware and tracking protection dns.
-Also, block DNS/HTTPS requests.
-*If you have more advanced of a router or firewall on the network you can even use packages like snort/securita  to create more advanced rules to block known bad acting IPs, tor access, torrents, p2p traffic in general, etc. This is highly suggested but not required.*
+#### ਮਾਲਵੇਅਰ ਅਤੇ ਟਰੈਕਰਾਂ ਨੂੰ ਬਲੌਕ ਕਰਕੇ ਸੁਰੱਖਿਆ ਵਧਾਓ।
+Cloudflares ਮਾਲਵੇਅਰ ਅਤੇ ਟਰੈਕਿੰਗ ਸੁਰੱਖਿਆ dns ਲਈ ਸਾਰੀਆਂ dns ਬੇਨਤੀਆਂ ਨੂੰ ਮਜਬੂਰ ਕਰੋ।
+ਨਾਲ ਹੀ, DNS/HTTPS ਬੇਨਤੀਆਂ ਨੂੰ ਬਲੌਕ ਕਰੋ।
+*ਜੇਕਰ ਤੁਹਾਡੇ ਕੋਲ ਨੈੱਟਵਰਕ 'ਤੇ ਰਾਊਟਰ ਜਾਂ ਫਾਇਰਵਾਲ ਦਾ ਜ਼ਿਆਦਾ ਐਡਵਾਂਸ ਹੈ ਤਾਂ ਤੁਸੀਂ ਜਾਣੇ-ਪਛਾਣੇ ਖਰਾਬ ਐਕਟਿੰਗ IP, ਟੋਰ ਐਕਸੈਸ, ਟੋਰੈਂਟਸ, ਆਮ ਤੌਰ 'ਤੇ p2p ਟ੍ਰੈਫਿਕ, ਆਦਿ ਨੂੰ ਬਲਾਕ ਕਰਨ ਲਈ ਹੋਰ ਉੱਨਤ ਨਿਯਮ ਬਣਾਉਣ ਲਈ snort/securita ਵਰਗੇ ਪੈਕੇਜਾਂ ਦੀ ਵਰਤੋਂ ਵੀ ਕਰ ਸਕਦੇ ਹੋ। ਇਹ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ। ਸੁਝਾਅ ਦਿੱਤਾ ਗਿਆ ਪਰ ਲੋੜੀਂਦਾ ਨਹੀਂ।*
 ```bash
 # Allow ssh still
 sudo ufw allow 22
@@ -301,7 +301,7 @@ iptables -A FORWARD -m string --algo bm --string "info_hash" -j DROP
 sudo iptables-save
 sudo ufw enable
 ```
-For more advanced ToR blocking you can do the following:
+ਵਧੇਰੇ ਉੱਨਤ ToR ਬਲਾਕਿੰਗ ਲਈ ਤੁਸੀਂ ਹੇਠਾਂ ਦਿੱਤੇ ਕੰਮ ਕਰ ਸਕਦੇ ਹੋ:
 ```bash
 #https://gist.github.com/jkullick/62695266273608a968d0d7d03a2c4185
 sudo apt-get -y install ipset

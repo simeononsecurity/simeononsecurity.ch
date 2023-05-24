@@ -6,7 +6,7 @@ date: 2023-05-07
 description: "Augmenteu el senyal del vostre telèfon mòbil a casa amb les nostres millors opcions per a una connectivitat fiable i una cobertura a tota la llar."
 tags: ["Amplificadors de senyal de telèfon mòbil", "Weboost", "Hiboost", "Connectivitat domèstica", "Cobertura de telèfon mòbil", "Femtocel·la", "Amplificadors de senyal cel·lular", "Amplificadors de senyal sense fil", "Dispositius per augmentar el senyal", "Connectivitat mòbil", "Recepció de telèfon mòbil", "Internet domèstic", "Amplificadors sense fil", "Electrònica", "Millores per a la llar", "Telecomunicacions", "Tecnologia", "Cases intel·ligents", "Trucades Wifi", "Xarxa de mòbil"]
 cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
-coverAlt: "Imatge d'estil de dibuixos animats d'una persona que sosté un telèfon mòbil i està al costat d'un reforç amb les barres de senyal en augment."
+coverAlt: "Imatge d'estil de dibuixos animats d'una persona sostenint un telèfon mòbil i dempeus al costat d'un reforç amb les barres de senyal augmentant."
 coverCaption: ""
 ---
  El vostre senyal cel·lular en ubicacions remotes**
@@ -17,9 +17,9 @@ Mantenir-se connectat s'ha convertit en una necessitat per a la majoria de nosal
 
 {{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
 
-El[T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Només ajuda si teniu una cobertura bona o útil dins o prop d'una finestra i no en una altra zona de la casa. Funciona millor si només necessiteu estendre la cobertura per un habitatge de manera més uniforme.
+El [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Només ajuda si teniu una cobertura bona o útil dins o prop d'una finestra i no en una altra zona de la casa. Funciona millor si només necessiteu estendre la cobertura per un habitatge de manera més uniforme.
 
-Són produïts per una empresa anomenada[Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) hi ha altres opcions millors que tenen opcions o suport per a altres operadors disponibles que parlarem a continuació.
+Són produïts per una empresa anomenada [Cell-Fi](https://nextivityinc.com/products/) and they have other options available, but they are significantly more expensive. While this Cell Spot will work for T-Mobile (and their MVNO customers like Mint Mobile) hi ha altres opcions millors que tenen opcions o suport per a altres operadors disponibles que parlarem a continuació.
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
@@ -46,17 +46,17 @@ Funcionen millor quan no hi ha cobertura cel·lular existent a la zona.
 L'inconvenient és que **no podeu triar quins dispositius es poden connectar a la femtocel·la**. Això significa que tots els dispositius mòbils que s'hi connectin utilitzaran l'ample de banda d'Internet. Però totes les comunicacions estan assegurades ipsec vpn de tornada a l'operador. Així que estan relativament segurs en aquest sentit.
 A més, els proveïdors de cobertura de telefonia mòbil els ofereixen **que requereixen un pagament per avançat d'uns 300 dòlars**, però poden augmentar en funció de quants dispositius necessiteu suportar.
  
--[AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
--[Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
--[T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - Requereix una trucada telefònica o anar a una botiga T-Mobile per demanar-ne una
+- [AT&T](https://www.att.com/buy/accessories/Specialty-Items/att-cell-booster.html)
+- [Verizon](https://www.verizon.com/products/verizon-lte-network-extender/)
+- [T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot) - Requereix una trucada telefònica o anar a una botiga T-Mobile per demanar-ne una
 
-Mentrestant, pots[get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) depenent del model que vulguis i del transportista que necessites donar suport. Tanmateix, la majoria dels operadors requereixen el registre del dispositiu.
+Mentrestant, pots [get them on eBay for around $50-$150](https://www.ebay.com/sch/i.html?_nkw=femtocell) depenent del model que vulguis i del transportista que necessites donar suport. Tanmateix, la majoria dels operadors requereixen el registre del dispositiu.
 
 Finalment, alguns dispositius FemtoCell requereixen registre:
 
--[Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
--[Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
--[Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
+- [Register with AT&T](https://www.att.com/device-support/article/wireless/KM1458172/ATT/ATTSS2FII)
+- [Register with Verizon](https://www.verizonwireless.com/content/wcms/overlays/register-signal-booster.html)
+- [Register with T-Mobile](https://www.t-mobile.com/support/coverage/4g-lte-cellspot)
 
 {{< youtube id="IXLnAoi8yZY" >}}
 

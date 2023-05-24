@@ -20,7 +20,7 @@ HackTheBox は、侵入テストとサイバー セキュリティのスキル�
 
 HackTheBox (HTB) でアカウントを作成するには、招待チャレンジを完了するか、自分自身をハッキングして侵入する必要があります。難しいことではありませんので、心配しないでください。この記事はチャレンジを完了するのに役立ちます。
 
-まず、に行きます[HackTheBox Website](https://hackthebox.eu) そして参加ボタンをクリックしてください。
+まず、に行きます [HackTheBox Website](https://hackthebox.eu) そして参加ボタンをクリックしてください。
 
 招待コードを要求するボックスが明確に表示されます。
 
@@ -37,21 +37,21 @@ Base64 でエンコードされた招待コードを取得するには、次の�
 ＃＃＃ 解決：
 
 ＃＃＃＃ 単純：
-- **ウィンドウズ**：```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- **ウィンドウズ**： ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+これにより、次のコンテンツが生成されます。 ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+エンコードされた招待コードを [base64decode.org](https://www.base64decode.org/) 招待コードを取得します!
 
-#### Advanced (Instantly print out invite code):
- - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
+#### 詳細 (招待コードを即座に印刷):
+ - **ウィンドウズ**： ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
 - **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+ - **注意**: をインストールする必要があります。 [jq](https://stedolan.github.io/jq/download/) パッケージ。
 
 ______
 
-### Invite Code Ex:
+### 招待コード例:
 ```XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
 
 

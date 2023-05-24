@@ -23,32 +23,32 @@ Se us proporciona un fitxer:
 
 En reproduir el **sound.mp3**, escoltaràs un so familiar. Si no coneixeu els sons que escolteu, escolteu els tons **DTMF** (doble to multifreqüència). Els mateixos tons que solia escoltar mentre marcava amb un telèfon públic o mentre passava pels menús dels caixers automàtics.
 
-Cada to té una freqüència específica. Podeu obtenir els números manualment, però qui té temps per fer-ho?[DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
+Cada to té una freqüència específica. Podeu obtenir els números manualment, però qui té temps per fer-ho? [DialABC](http://www.dialabc.com/sound/detect/index.html) has a great tool for this, but doesn't support mp3 files. First, you'll have to convert it to .wav with this [tool](https://online-audio-converter.com/)
 
-Agafeu el fitxer convertit a[DialABC](http://www.dialabc.com/sound/detect/index.html) i obtindreu la següent sortida:
+Agafeu el fitxer convertit a [DialABC](http://www.dialabc.com/sound/detect/index.html) i obtindreu la següent sortida:
 ```
 2331434783711923431767372331117714113
 ```
  
-Take notice that if you listen to the audio file carefully or open it in **Audacity** or **Sonic Visualizer** that, with one exception, the numbers are paired in groups of two.
-If you separate out the number you get the following:
+Tingueu en compte que si escolteu el fitxer d'àudio amb atenció o l'obreu a **Audacity** o **Sonic Visualizer**, amb una excepció, els números s'aparellen en grups de dos.
+Si separeu el número obtindreu el següent:
 ```
 23 31 43 47 83 71 19 23 43 17 67 37 23 31 11 7 71 41 13
 ```
 
-Organized like this, you might be confused and think that it might be HEX. It isn't.  
-Pay close attention to the numbers. What mathematical trait do each grouping of numbers share?....
-They are all prime numbers. Which should bring you to try the lesser known **prime number cipher**.
+Organitzat així, podríeu estar confós i pensar que podria ser HEX. No ho és.
+Presta molta atenció als números. Quin tret matemàtic comparteix cada agrupació de nombres?...
+Tots són nombres primers. Això us hauria de portar a provar el menys conegut **xifrat de nombres primers**.
 
-We'll use [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) to complete this challenge.   
-Submit the cipher text from before we separated it out and you'll get the flag.
+Farem servir [Decode.fr](https://www.dcode.fr/prime-numbers-cipher) per completar aquest repte.
+Envieu el text xifrat d'abans de separar-lo i obtindreu la bandera.
 ```
 2331434783711923431767372331117714113
 ```
 
 ______
 
-### Flag Example:
+### Exemple de bandera:
 ```
 HTB{xxxxxxxxxxxxxxxxxxx}
 ```

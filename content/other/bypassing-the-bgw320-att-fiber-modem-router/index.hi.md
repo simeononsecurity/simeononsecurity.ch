@@ -16,7 +16,7 @@ coverCaption: ""
 
 ### तकनीकी पहलू
 
-[Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
+ [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153) is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired [here](https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont)
 
 {{< figure src="azores-wag-d20-xgs-pon-ont-front_225x225_crop_center.webp" alt="Azores WAG-D20" >}}
 
@@ -28,9 +28,9 @@ coverCaption: ""
  
 ### साख
 
-- `admin`/`ADMIN123!@#` - वेब जीयूआई के लिए व्यवस्थापक लॉगिन
-- `अतिथि`/`स्वागत` - अतिथि लॉगिन
-- `परीक्षण`/`डिफ़ॉल्ट` - फैक्टरी लॉगिन
+- `admin``ADMIN123!@#` - वेब जीयूआई के लिए प्रशासक लॉगिन
+- `Guest``welcome` - मेहमान लॉगइन करें
+- `test``default` - फैक्टरी लॉगिन
 
 ### ईथरनेट इंटरफ़ेस
 
@@ -38,9 +38,9 @@ coverCaption: ""
 
 1-65535 से पोर्ट स्कैन चलाने पर, आपको कुछ खुले पोर्ट दिखाई देंगे:
 
-- पोर्ट `23` और `8009` - टेलनेट, लॉगिन की आवश्यकता है, सीएलआई एप्लिकेशन चलाता है।
-- पोर्ट `10002` - अज्ञात
-- पोर्ट `80` - वेबयूआई, केवल दो कार्य
+- बंदरगाह `23` और `8009` - टेलनेट, लॉगिन की आवश्यकता है, सीएलआई एप्लिकेशन चलाता है।
+- पत्तन `10002` - अज्ञात
+- पत्तन `80` - वेबयूआई, केवल दो कार्य
 
 ### ONT को अनुकूलित करना
 
@@ -58,37 +58,37 @@ coverCaption: ""
 
 नोट: ये ओएमसीआई मान हैं और वेब यूआई से नहीं हैं।
 
-टेलनेट आपके व्यक्तिगत ओएनटी (टेलनेट 192.168.1.1) पर, **`डिफ़ॉल्ट`** पासवर्ड का उपयोग करके **`टेस्ट`** के रूप में लॉगिन करें और फ़ैक्टरी कॉन्फ़िगरेशन मोड में ड्रॉप करने के लिए कमांड 'टेस्ट' चलाएँ।
+टेलनेट आपके व्यक्तिगत ओएनटी (टेलनेट 192.168.1.1) पर, ** के रूप में लॉगिन करें`test` का उपयोग **`default` पासवर्ड और फ़ैक्टरी कॉन्फ़िगरेशन मोड में ड्रॉप करने के लिए कमांड 'टेस्ट' चलाएं।
 
 'शो' कमांड के साथ वर्तमान में निर्धारित मान प्रदर्शित करें:
 
-- `गपॉन मैक दिखाओ`
-- `स्न दिखाएँ`
-- `उपकरण आईडी दिखाएं`
+- `show gpon mac`
+- `show sn`
+- `show equipment id`
 
 एक बार हो जाने के बाद, अपने डिवाइस मानों के साथ x की जगह निम्नलिखित कमांड के साथ सेटिंग्स को कस्टमाइज़ करें:
 
-- `सेट gpon मैक xx: xx: xx: xx: xx: xx`
-- `सेट एसएन <यहां ओएनटी आईडी डालें>`
+- `set gpon mac xx:xx:xx:xx:xx:xx`
+- `set sn <insert ONT ID here>`
 
 ह्यूमैक्स के लिए:
 
-- `सेट उपकरण आईडी "iONT320500G"`
-- `कॉन्फ़िगर ONU-G_Version "BGW320-500_2.1”`
+- `set equipment id “iONT320500G”`
+- `config ONU-G_Version "BGW320-500_2.1”`
 
 नोकिया के लिए:
 
-- `सेट उपकरण आईडी "iONT320505G"`
-- `कॉन्फ़िगर ONU-G_Version "BGW320-505_2.2”`
+- `set equipment id “iONT320505G”`
+- `config ONU-G_Version "BGW320-505_2.2”`
 
-नोट: अंतिम दो आदेशों को टेलनेट से **`test`** उपयोगकर्ता के रूप में लॉग इन करके लागू किया जाना चाहिए।
+नोट: अंतिम दो आदेशों को टेलनेट से ** के रूप में लॉग इन किया जाना चाहिए`test` उपयोगकर्ता।
 
 ### रीबूट करें और ट्रू आईपी पासथ्रू का आनंद लें
 
-अनुकूलित करने के बाद, ONT को रीबूट करें और सही IP पासथ्रू का आनंद लें।
+अनुकूलित करने के बाद, ONT को रीबूट करें और वास्तविक IP पासथ्रू का आनंद लें।
 
 ### समस्या निवारण और अतिरिक्त कदम
-इस विषय पर अधिक जानकारी के लिए, कृपया देखें[8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
+इस विषय पर अधिक जानकारी के लिए, कृपया देखें [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/)
 
 ### निष्कर्ष
 

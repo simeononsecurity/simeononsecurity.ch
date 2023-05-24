@@ -6,7 +6,7 @@ draft: false
 description: "Descobriu Presearch, el motor de cerca descentralitzat i impulsat per la comunitat que recompensa els usuaris amb criptomoneda i respecta la seva privadesa."
 tags: ["Recerca prèvia", "cercador descentralitzat", "impulsat per la comunitat", "recompenses de criptomoneda", "privadesa", "alternativa a Google", "tecnologia blockchain", "codi obert", "experiència de cerca personalitzable", "sense anuncis", "Etiquetes optimitzades per a SEO", "ecosistema de motors de cerca", "privadesa a Internet", "motor de cerca transparent", "cerques incentivades", "mercat global de cercadors", "cadena de blocs", "privadesa digital", "privadesa en línia", "descentralització"]
 cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.png"
-coverAlt: "Un món de dibuixos animats amb una lupa sobre ell que simbolitza la plataforma Presearch com a motor de cerca descentralitzat i impulsat per la comunitat."
+coverAlt: "Un món de dibuixos animats amb una lupa sobre ell que simbolitza la plataforma Presearch com a motor de cerca descentralitzat i impulsat per la comunitat"
 coverCaption: ""
 ---
 

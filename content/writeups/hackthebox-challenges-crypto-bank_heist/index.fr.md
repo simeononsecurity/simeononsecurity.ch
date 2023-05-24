@@ -24,28 +24,28 @@ Pour ce défi, le texte chiffré suivant vous est fourni :
 
 ______
 
-## Walk Through:
+## Procédure pas à pas:
 
-**Very clearly, this is either a T9 or Multitap cipher.**  
-Multitap is the cipher in this instance though. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) has a tool to decode this.
+**Très clairement, il s'agit d'un chiffrement T9 ou Multitap.**
+Multitap est le chiffrement dans ce cas cependant. [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) a un outil pour décoder cela.
 
-You'll get this plain text:
+Vous obtiendrez ce texte brut :
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**What is that junk at the end you might ask? Well it's actually an atbash cipher text.**
+** Quelle est cette ordure à la fin que vous pourriez demander ? Eh bien, c'est en fait un texte chiffré atbash. **
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-We'll use [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) to decipher one more time. Then you have your flag. Whoot!
+Nous utiliserons [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) à déchiffrer une fois de plus. Ensuite, vous avez votre drapeau. Wouh !
 
 ______
 
-### Flag Example:
+Exemple d'indicateur ### :
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}
