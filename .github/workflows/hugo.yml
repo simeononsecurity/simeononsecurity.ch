@@ -20,6 +20,6 @@ jobs:
       - name: Run Hugo
         uses: crazy-max/ghaction-hugo@v2
         with:
-          version: 0.111.3
+          version: v0.111.3
           extended: true
           args: --cleanDestinationDir -D -E -F --gc --minify --panicOnWarning --verbose
