@@ -18,4 +18,5 @@ disableLanguages = [
     'pa',
     'pt',
     'ru',
+    'pl',
 ]

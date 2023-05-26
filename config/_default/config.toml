@@ -928,3 +928,53 @@ url = "/writeups"
 identifier = "Recomanacions"
 name = "Recomanacions"
 url = "/recommendations"
+
+[languages.pl]
+sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pl.xml" }]
+languageName = "Polski"
+languageCode = "pl"
+weight = 1
+title = "simeononsecurity"
+subtitle = "Cyberbezpieczeństwo, Automatyzacja, Kryptowaluty"
+description = "Pozostań na bieżąco z cyberbezpieczeństwem. Odkryj najnowsze trendy i najlepsze praktyki dotyczące prywatności, bezpieczeństwa i technologii na stronie SimeonOnSecurity.ch. To niezbędne źródło informacji dla wszystkich."
+keywords = "bezpieczeństwo, prywatność, automatyzacja, cyberbezpieczeństwo, technologia informatyczna, kryptowaluty, blog, zabezpieczanie, zgodność, programowanie, devops, PowerShell, C sharp, Ansible, kontenery Docker, Windows, DoD i DISA STIGs, domowe laboratoria, rozwiązania dla firm, Python, Windows 10"
+copyright = "SimeonOnSecurity"
+menuMore = "Więcej"
+writtenBy = "Napisane przez"
+readMore = "Czytaj więcej"
+readOtherPosts = "Czytaj inne artykuły"
+newerPosts = "Nowsze artykuły"
+olderPosts = "Starsze artykuły"
+minuteReadingTime = "min czytania"
+dateFormatSingle = "2006-01-02"
+dateFormatList = "2006-01-02"
+enableRobotsTXT = "true"
+
+#leave empty to disable, enter display text to enable
+lastModDisplay = "Ostatnia modyfikacja:"
+
+[languages.pl.params.logo]
+logoText = "simeononsecurity"
+logoHomeLink = "/"
+
+[languages.pl.menu]
+[[languages.pl.menu.main]]
+identifier = "Artykuły"
+name = "Artykuły"
+url = "/articles"
+[[languages.pl.menu.main]]
+identifier = "GitHub"
+name = "GitHub"
+url = "/github"
+[[languages.pl.menu.main]]
+identifier = "Dziś Dowiedziałem Się"
+name = "Dziś Dowiedziałem Się"
+url = "/til"
+[[languages.pl.menu.main]]
+identifier = "Writeupy"
+name = "Writeupy"
+url = "/writeups"
+[[languages.pl.menu.main]]
+identifier = "Rekomendacje"
+name = "Rekomendacje"
+url = "/recommendations"

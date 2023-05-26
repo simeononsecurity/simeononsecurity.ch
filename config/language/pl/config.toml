@@ -1,7 +1,6 @@
-
-baseurl = "https://nl.simeononsecurity.ch"
-languageCode = "nl"
-efaultContentLanguage = "nl"
+baseurl = "https://pl.simeononsecurity.ch"
+languageCode = "pl"
+defaultContentLanguage = "pl"
 disableLanguages = [
     'fr',
     'en',
@@ -13,10 +12,10 @@ disableLanguages = [
     'ca',
     'it',
     'ja',
+    'nl',
     'ro',
     'zh',
     'pa',
-    'pt',
     'ru',
-    'pl',
+    'pt',
 ]
