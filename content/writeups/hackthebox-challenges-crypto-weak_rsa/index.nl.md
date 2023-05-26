@@ -24,17 +24,17 @@ Op het eerste gezicht zou je denken dat je de vlag kunt decoderen met de publiek
 Daarvoor zouden we het OpenSSL pakket kunnen gebruiken om de vlag te decoderen.
 Deze keer is het een beetje anders en je zult zien dat het OpenSSL pakket niet werkt voor deze uitdaging.
 
-We gebruiken een geautomatiseerd RSA-aanvalsprogramma. Een veelgebruikt python script is de[RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+We gebruiken een geautomatiseerd RSA-aanvalsprogramma. Een veelgebruikt python script is de [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```bash
 python3 RsaCtfTool.py --publickey ./key.pub --uncipherfile ./flag.enc 
 ```
   
-Simply put, this tool finds the flag easily for you in an automated fashion.
+Eenvoudig gezegd, dit hulpmiddel vindt de vlag gemakkelijk voor u op een geautomatiseerde manier.
 
 ______
 
-### Flag Example:
+### Voorbeeld van een vlag:
 ```
 HTB{XXXXXX_XXXXXXX_XXXXXX}
 ```

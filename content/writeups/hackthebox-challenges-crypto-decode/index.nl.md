@@ -6,7 +6,7 @@ description: "Leer hoe je Fernet- en Malboge-sleutels kunt decoderen om de HackT
 tags: ["HackTheBox", "Uitdagingen", "Crypto", "Decodeer", "Writeup", "Fernet Cipher", "Malboge Cipher", "Symmetrische encryptie", "Cyberbeveiliging", "Cryptografie", "Penetratie testen", "Python", "Beveiliging", "Uitdaging", "CTF", "Vlag", "Encryptie", "Ontcijfering", "Base64"]
 toc: true
 cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
-coverAlt: "Een cartoon hacker staat naast een groot slot met een hand die een Fernet logo sleutel vasthoudt en de andere hand die een Malboge logo sleutel vasthoudt terwijl een vlag in het slot te zien is."
+coverAlt: "Een cartoon hacker staat naast een groot slot met een hand die een Fernet logo sleutel vasthoudt en de andere hand die een Malboge logo sleutel vasthoudt terwijl een vlag in het slot te zien is"
 coverCaption: ""
 ---
 
@@ -21,28 +21,28 @@ In deze uitdaging krijg je twee reeksen informatie.
 ```
 993gmULBNujjrZCDev3W8kAVaLkXiyHhCL3500188bA=
 ```
-and
+en
 ```
 gAAAAABboRUb0FsuiYBk1tsXRDr6KAzU1xrNSUv7grB-G-dAEeyqj99kUebz466I2VcH5xDa5HEc5KkbgTklQ7tm9JCRPlJtRng1Ns3VEvbrk7B835OINfPnRbc-UIOnnCmW3CgMdMtf5wGLN299AZEzxIvuy71WC5d9xJDchyiORycuzCth95-4nTKphlNQQ2ko3DX72RxWeEjwt3mavnFXqcOCkGxUhJYmFltz_6ND56VGTrXZi_CK5xLODOX4sj1GNwN_CrU3sJ0obTdA2wF5OaDZLbA1GBPfK0PDlC9WxoUf85K0tFXKfqbt3c5YqtqfytNG5gTkbDFM2NjE7BveBf1DP9ca8g==
 ```
 
-## Walk Through:
+## Loop door:
 
-At first glance it appears this is some sort of key and some cipher text.
-After searching around, you'll find that it is a Fernet cypher.
-[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) has a great tool to decode it for you.
+Op het eerste gezicht lijkt dit een soort sleutel en wat cijfertekst.
+Na wat zoeken kom je erachter dat het een Fernet cypher is.
+[Asecuritysite.com](https://asecuritysite.com/encryption/ferdecode) heeft een geweldig hulpmiddel om het voor je te decoderen.
 
-The plain text from the above information gives you a base64 encoded string
+De platte tekst van de bovenstaande informatie geeft je een base64 gecodeerde string
 
 ```
 RCdgTl45OFs8O3tGMlZVNTRRPythcUw6bVxJNmlYJmYkMEBSeFBfdSldeHFwdW5tM3Fwb2htZmUrTGJnZl9eXSNhYFleV1Z6VFNyUVZVTnJMUVBPTkdrS0QsSEFlKERDPDtfPz5+fTVZOTg3dzUuUjJyMC8oJyZKKikoJyYlfHtBeX53djx6eXhxWTZ0c1VUcG9oLnk=
 ```
 
-To decode this, we'll use the tool provided from [base64decode.org](https://www.base64decode.org/)
+Om dit te decoderen, gebruiken we het hulpmiddel van [base64decode.org](https://www.base64decode.org/)
 
-Decoding again gives you the following:
+Opnieuw decoderen geeft je het volgende:
 ```
-D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVzTSXQVUNrLQPONGkKD,HAe(DC<;_?>
+D'`N^98[<;{F2VU54Q?+aqL:m\I6iX&f$0@RxP_u)]xqpunm3qpohmfe+Lbgf_^]#a`
 ```
 
 This was a new one for me. But you'll find after some careful research that it is a Malboge cipher.

@@ -20,7 +20,7 @@ HackTheBox is een online platform om uw vaardigheden in penetratietesten en cybe
 
 Om een account aan te maken op HackTheBox (HTB) moet je de invite uitdaging voltooien, of jezelf de weg naar binnen hacken. Maar maak je geen zorgen, het is niet moeilijk en dit artikel zal je helpen bij het voltooien van de uitdaging.
 
-Ga eerst naar de[HackTheBox Website](https://hackthebox.eu) en klik op de toetredingsknop.
+Ga eerst naar de [HackTheBox Website](https://hackthebox.eu) en klik op de toetredingsknop.
 
 Je krijgt een vakje te zien waarin duidelijk om een uitnodigingscode wordt gevraagd.
 
@@ -37,17 +37,17 @@ Je kunt het volgende doen om de Base64 gecodeerde uitnodigingscode te krijgen:
 ### Oplossing:
 
 #### Eenvoudig:
-- **Windows**:```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
+- **Windows**: ```powershell (Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON) ```
+- Linux: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" ```
 
-Which will generate the following content: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
+Wat de volgende inhoud zal genereren: ```json {"success":1,"data":{"code":"Tk9ULVRIRS1GTEFHLVlPVSdSRS1MT09LSU5HLUZPUg==","format":"encoded"},"0":200} ```
 
-If you take the encoded invite code to [base64decode.org](https://www.base64decode.org/), you'll get your invite code!
+Als je de gecodeerde uitnodigingscode naar [base64decode.org](https://www.base64decode.org/) krijg je je uitnodigingscode!
 
-#### Advanced (Instantly print out invite code):
+#### Geavanceerd (print direct de uitnodigingscode uit):
  - **Windows**: ```powershell $base64api=((Invoke-WebRequest -Method POST "https://www.hackthebox.eu//api/invite/generate" | ConvertFrom-JSON).Data).Code ; [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($base64api)) ```
-- **Linux**: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
- - **Note**: You'll need to install the [jq](https://stedolan.github.io/jq/download/) package.
+- Linux: ```bash curl -X POST "https://www.hackthebox.eu/api/invite/generate" | jq -r '.data.code' | base64 -d ```
+ - **Noot**: Je moet de [jq](https://stedolan.github.io/jq/download/) pakket.
 
 ______
 

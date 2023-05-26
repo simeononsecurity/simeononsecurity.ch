@@ -4,7 +4,7 @@ date: 2020-12-16
 toc: true
 draft: false
 description: "Dowiedz się, jak używać Windows Defender Application Control WDAC do utwardzania systemu operacyjnego Windows za pomocą skryptów i narzędzi."
-tags: ["Windows Defender Application Control WDAC Hardening", "PowerShell", "Skrypt PowerShell", "Automatyka", "Zgodność", "Blue-Team", "Windows Defender STIG Script", "Utwardzanie systemu Windows Defender", "Windows Defender STIG", "Obrońca STIG", "Windows Defender Exploit Protection WDEP", "Windows Defender Attack Surface Reduction ASR", "Windows Server 2016 2019 r.", "Windows Server Core", "Zestaw narzędzi Microsoft WDAC", "Odświeżenie polityki CI", "Zalecane przez Microsoft zasady blokowania", "Zalecane przez Microsoft zasady blokowania sterowników", "Zasady XML", "Polityka BIN", "Polityka grupowa", "Microsoft Intune"]
+tags: ["Windows Defender Application Control WDAC Hardening", "PowerShell", "Skrypt PowerShell", "Automatyka", "Zgodność", "Blue-Team", "Windows Defender STIG Script", "Utwardzanie systemu Windows Defender", "Windows Defender STIG", "Obrońca STIG", "Windows Defender Exploit Protection WDEP", "Windows Defender Attack Surface Reduction ASR", "Windows Server 2016 2019", "Windows Server Core", "Zestaw narzędzi Microsoft WDAC", "Odświeżenie polityki CI", "Zalecane przez Microsoft zasady blokowania", "Zalecane przez Microsoft zasady blokowania sterowników", "Zasady XML", "Polityka BIN", "Polityka grupowa", "Microsoft Intune"]
 ---
 
 **Harden Windows z Windows Defender Application Control WDAC**.
