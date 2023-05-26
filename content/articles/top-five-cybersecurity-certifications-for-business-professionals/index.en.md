@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-05-26
 description: "Discover the top certifications for business professionals to enhance cybersecurity skills and protect sensitive data."
-tags: ["cybersecurity certifications", "non-technical certifications", "business professionals", "information security", "privacy management", "cybersecurity skills", "data protection", "certification programs", "CISSP", "CIPP/E", "CIPM", "CISM", "CIPP/US", "security governance", "privacy regulations", "compliance", "risk management", "information privacy", "business security", "data privacy"]
+tags: ["cybersecurity certifications", "non-technical certifications", "business professionals", "information security", "privacy management", "cybersecurity skills", "data protection", "certification programs", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP US", "security governance", "privacy regulations", "compliance", "risk management", "information privacy", "business security", "data privacy"]
 cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
 coverAlt: "An image featuring a group of diverse business professionals collaborating on a digital platform with lock icons symbolizing cybersecurity."
 coverCaption: ""

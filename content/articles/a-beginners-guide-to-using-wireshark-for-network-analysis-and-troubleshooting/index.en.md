@@ -4,7 +4,7 @@ date: 2023-04-07
 toc: true
 draft: false
 description: "Discover how to use Wireshark effectively for network analysis and troubleshooting with this detailed beginner's guide."
-tags: ["Wireshark", "network analysis", "troubleshooting", "beginner's guide", "network monitoring", "packet capture", "network protocols", "TCP/IP", "data visualization", "network security", "capture filters", "display filters", "network devices", "Ethernet", "network topology", "network diagnostics", "network administration", "network performance", "Wireshark tutorial", "data packets"]
+tags: ["Wireshark", "network analysis", "troubleshooting", "beginner's guide", "network monitoring", "packet capture", "network protocols", "TCP IP", "data visualization", "network security", "capture filters", "display filters", "network devices", "Ethernet", "network topology", "network diagnostics", "network administration", "network performance", "Wireshark tutorial", "data packets"]
 cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
 coverAlt: "A cartoon illustration of a detective with a magnifying glass analyzing network cables, while Wireshark logo hovers above them, symbolizing the process of network troubleshooting and analysis using Wireshark."
 coverCaption: ""
