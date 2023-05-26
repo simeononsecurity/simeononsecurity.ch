@@ -92,9 +92,6 @@
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-<link href="https://simeononsecurity.ch/rss.xml" rel="alternate" type="application/rss+xml" hreflang="x-default" title="{{ $.Site.Title }} RSS Feed" />
-<link href="https://simeononsecurity.ch/rss.xml" rel="feed" type="application/rss+xml" hreflang="x-default" title="{{ $.Site.Title }} RSS Feed" />
-<link href="https://feeds.feedburner.com/simeononsecurity" rel="feed" type="application/rss+xml" hreflang="x-default" title="{{ $.Site.Title }} RSS Feed" />
 
 <!-- Multilingual RSS Feeds -->
 <link rel="alternate" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index.xml" />
