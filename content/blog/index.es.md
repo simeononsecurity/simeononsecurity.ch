@@ -1,2 +1,0 @@
-
-marcador de posicion
