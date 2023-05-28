@@ -13,7 +13,7 @@
           type="search"
           name="q"
           id="search-query"
-          placeholder="Search..."
+          placeholder="{{ i18n "search_placeholder" }}"
         />
         <button type="submit" aria-label="Search">
           <svg
@@ -46,12 +46,12 @@
             <h2 class="post-title"><a href="${link}" style="color: var(--link-color);">${title}</a></h3>
             <div class="post-meta"></div>
             <div class="post-content">
-            <a style="color: var(--text-secondary);"> Description: ${snippet} </a>
+              <a style="color: var(--text-secondary);"> {{ i18n "description_placeholder" }} ${snippet} </a>
             </div>
             <span class="post-tags">
             <p>
                 <small>
-                    ${ isset tags }Tags: ${tags}<br>${ end }
+                    ${ isset tags }{{ i18n "tags_placeholder" }} ${tags}<br>${ end }
                 </small>
             </p>
             <div>
