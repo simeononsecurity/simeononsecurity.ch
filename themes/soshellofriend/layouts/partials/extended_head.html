@@ -99,14 +99,14 @@
 {{ end -}}
 
 <!-- preload and prefetch first-party js -->
-<link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript">
+<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript">
 {{ if .IsPage }}
-  <link rel="preload" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript">
+  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript">
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-  <link rel="preload" href="/js/search.js" as="script" type="text/javascript">
+  <link rel="prefetch" href="/js/search.js" as="script" type="text/javascript">
 {{ end }}
-<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" crossorigin="anonymous">
+<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript">
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
