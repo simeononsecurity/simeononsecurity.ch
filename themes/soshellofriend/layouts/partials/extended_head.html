@@ -147,9 +147,13 @@
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
 <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript" /> 
 <link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" type="text/javascript" />
-<link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript" />
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript" />
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" />
+{{ if .IsPage }}
+<link rel="preload" href="https://utteranc.es/client.js" as="script" crossorigin="anonymous">
+{{ end }}
+{{ if in (urlize .Permalink) "/search" }}
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" crossorigin="anonymous">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" crossorigin="anonymous">
+{{ end }}
 
 <script>
 const divInstall = document.getElementById('installContainer');
