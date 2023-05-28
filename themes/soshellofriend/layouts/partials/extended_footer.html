@@ -51,4 +51,8 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ partial "amazon-responsive-dynamic.html" . }}
 
 <!-- Search Functionality -->
+{{ if in (urlize .Permalink) "/search" }}
 <script src="/js/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+{{ end }}
