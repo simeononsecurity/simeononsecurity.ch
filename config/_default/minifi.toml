@@ -16,7 +16,7 @@
       keepDefaultAttrVals = true
       keepDocumentTags = true
       keepEndTags = true
-      keepQuotes = false
+      keepQuotes = true
       keepWhitespace = false
     [minify.tdewolff.js]
       keepVarNames = false
