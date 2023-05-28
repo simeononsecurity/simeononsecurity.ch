@@ -1,7 +1,7 @@
 [minify]
   disableCSS = false
   disableHTML = false
-  disableJS = false
+  disableJS = true
   disableJSON = false
   disableSVG = false
   disableXML = false
@@ -19,7 +19,7 @@
       keepQuotes = true
       keepWhitespace = false
     [minify.tdewolff.js]
-      keepVarNames = false
+      keepVarNames = true
       precision = 0
     [minify.tdewolff.json]
       precision = 0
