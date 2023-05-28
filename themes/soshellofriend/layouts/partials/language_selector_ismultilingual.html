@@ -1,9 +1,7 @@
 <div>
 <span class="language-selector__container">
     <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
-        <li class="menu__sub-inner-more-trigger">
-        <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
-        </li>
+        <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
     </span>
     <span class="language-selector" id="language-menu">
         {{ if .Site.IsMultiLingual }}
