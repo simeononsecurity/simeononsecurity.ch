@@ -329,6 +329,7 @@ url = "/writeups"
 identifier = "Empfehlungen"
 name = "Empfehlungen"
 url = "/recommendations"
+
 [languages.en]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }]
 languageName = 'English'
