@@ -15,7 +15,7 @@
   {{ end }}
   {{ partial "displayads-responsive-horizontal.html" . }}
   {{ if .IsHome }}
-  <h1 class="post-title"><a title="Discover Expert Security and Insights and Resources" href="{{ .Permalink }}">Discover Expert Security and Insights and Resources</a></h1>
+    <h1 class="post-title"><a title="{{ i18n "discover_title" }}" href="{{ .Permalink }}">{{ i18n "discover_title" }}</a></h1>
 {{ else }}
   <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
 {{ end }}

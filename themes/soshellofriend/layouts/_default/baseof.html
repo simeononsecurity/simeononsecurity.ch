@@ -5,7 +5,7 @@
       <title itemprop="name">
         {{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} —
         {{ . }}{{ end }}{{ else }}
-        {{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "{{ .Title }}"
+        {{ if strings.Contains $.Permalink "/tags/" }}{{ i18n "other_posts_tagged" }} "{{ .Title }}"
         {{ else }}{{ .Title }}{{ end }}{{ end }}
       </title>
     {{ end }}
