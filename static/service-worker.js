@@ -62,62 +62,62 @@ self.addEventListener('fetch', function (event) {
 
 let stoprss = false;
 
-const fetchRss = async () => {
-    const rssUrl = 'https://simeononsecurity.ch/rss.xml';
-    let parser;
-    if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
-        parser = new window.DOMParser();
-        console.log('DOMParser is Window');
-    } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
-        parser = new self.DOMParser();
-        console.log('DOMParser is Self');
-    } else {
-        // handle the error here, such as logging a message or throwing an exception
-        console.error("The DOMParser is not available in this context");
-        stoprss = true;
-        return;
-    }
-    try {
-        let response = await fetch(rssUrl);
-        console.log(response);
-        let text = await response.text();
-        console.log(text);
-        let xml = parser.parseFromString(text, "text/xml");
-        let itemsArray = Array.from(xml.getElementsByTagName("item"));
-        let rssData = itemsArray.map(item => 
-            ({title: item.getElementsByTagName("title")[0].innerText, 
-              link: item.getElementsByTagName("link")[0].innerText }));
-        return rssData;
-        console.log(rssData);
-        return rssData;
-    } catch (error) {
-        console.error(`Failed to fetch RSS data: ${error}`);
-        console.error(error.stack);
-        return null;
-    }
+// const fetchRss = async () => {
+//     const rssUrl = 'https://simeononsecurity.ch/index.xml';
+//     let parser;
+//     if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
+//         parser = new window.DOMParser();
+//         console.log('DOMParser is Window');
+//     } else if (typeof self !== "undefined" && typeof self.DOMParser !== "undefined") {
+//         parser = new self.DOMParser();
+//         console.log('DOMParser is Self');
+//     } else {
+//         // handle the error here, such as logging a message or throwing an exception
+//         console.error("The DOMParser is not available in this context");
+//         stoprss = true;
+//         return;
+//     }
+//     try {
+//         let response = await fetch(rssUrl);
+//         console.log(response);
+//         let text = await response.text();
+//         console.log(text);
+//         let xml = parser.parseFromString(text, "text/xml");
+//         let itemsArray = Array.from(xml.getElementsByTagName("item"));
+//         let rssData = itemsArray.map(item => 
+//             ({title: item.getElementsByTagName("title")[0].innerText, 
+//               link: item.getElementsByTagName("link")[0].innerText }));
+//         return rssData;
+//         console.log(rssData);
+//         return rssData;
+//     } catch (error) {
+//         console.error(`Failed to fetch RSS data: ${error}`);
+//         console.error(error.stack);
+//         return null;
+//     }
 
-};
+// };
 
 
-setInterval(async () => {
-    if (stoprss != true) {
-        const rssData = await fetchRss();
-        if (rssData) {
-            const lastPost = rssData[0];
-            if (lastPost) {
-                // Check if this is a new post compared to what we have stored locally
-                const localLastPost = localStorage.getItem('lastPost');
-                if (!localLastPost || lastPost.title !== localLastPost) {
-                    localStorage.setItem('lastPost', lastPost.title);
-                    // Trigger the push event to show the notification
-                    self.dispatchEvent(new PushEvent('push', {
-                        data: lastPost
-                    }));
-                }
-            }
-        }
-    }
-}, 60000);
+// setInterval(async () => {
+//     if (stoprss != true) {
+//         const rssData = await fetchRss();
+//         if (rssData) {
+//             const lastPost = rssData[0];
+//             if (lastPost) {
+//                 // Check if this is a new post compared to what we have stored locally
+//                 const localLastPost = localStorage.getItem('lastPost');
+//                 if (!localLastPost || lastPost.title !== localLastPost) {
+//                     localStorage.setItem('lastPost', lastPost.title);
+//                     // Trigger the push event to show the notification
+//                     self.dispatchEvent(new PushEvent('push', {
+//                         data: lastPost
+//                     }));
+//                 }
+//             }
+//         }
+//     }
+// }, 60000);
 
 
 // https://geekflare.com/convert-webapp-to-pwa/
