@@ -1,4 +1,10 @@
 [build]
   noJSConfigInAssets = false
-  useResourceCacheWhen = "fallback"
+  #useResourceCacheWhen = "fallback"
+  useResourceCacheWhen = "always"
+  fingerprint = "true"
+  optimizeImages = true
+  minifyCSS = true
+  minifyJS = true
+  enableGzip = true
   writeStats = false
