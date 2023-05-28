@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "breadcrumbs.html" . }}
-  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ if strings.Contains $.Permalink "/tags/" }}{{ i18n "other_posts_tagged" }} "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
+  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
   <div class="posts">
     {{ range .Paginator.Pages }}
       <article class="post on-list">
@@ -58,6 +58,7 @@
           </div>
         {{ end }}
       </article>
+      {{ partial "amazonadsload.html" . }}
     {{ end }}
     {{ partial "pagination.html" . }}
   </div>
