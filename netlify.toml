@@ -59,27 +59,33 @@ Cache-Control = "public, max-age=3600, must-revalidate"
 [[headers]]
 for = "/img/*"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
 
 [[headers]]
 for = "/*.jpeg"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
 
 [[headers]]
 for = "/*.jpg"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
 
 [[headers]]
 for = "/*.png"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
 
 [[headers]]
 for = "/*.webp"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
+
 
 [[headers]]
 for = "/*.css"
