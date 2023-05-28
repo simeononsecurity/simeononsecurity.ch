@@ -87,49 +87,15 @@
   {{ end }}
   {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
     <link rel="alternate" title="{{ $currentPageTitle }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
+    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap" hreflang="en" href="{{ $baseURL }}/sitemap.xml" />
   {{ end }}
+  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
   
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-
-<!-- Multilingual RSS Feeds -->
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="en" href="https://simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="ar" href="https://ar.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="bn" href="https://bn.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="ca" href="https://ca.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="de" href="https://de.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="es" href="https://es.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="fr" href="https://fr.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="hi" href="https://hi.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="it" href="https://it.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="ja" href="https://ja.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="nl" href="https://nl.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="pa" href="https://pa.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="pt" href="https://pt.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="ro" href="https://ro.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="ru" href="https://ru.simeononsecurity.ch/index.xml" />
-<link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="zh" href="https://zh.simeononsecurity.ch/index.xml" />
-
-<!-- Multilingual sitemap links -->
-<link rel="sitemap" type="application/xml" title="Sitemap - English" hreflang="en" href="https://simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Arabic" hreflang="ar" href="https://ar.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Bengali" hreflang="bn" href="https://bn.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Catalan" hreflang="ca" href="https://ca.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Chinese" hreflang="zh" href="https://zh.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Dutch" hreflang="nl" href="https://nl.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - French" hreflang="fr" href="https://fr.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - German" hreflang="de" href="https://de.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Hindi" hreflang="hi" href="https://hi.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Italian" hreflang="it" href="https://it.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Japanese" hreflang="ja" href="https://ja.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Portuguese" hreflang="pt" href="https://pt.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Punjabi" hreflang="pa" href="https://pa.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Romanian" hreflang="ro" href="https://ro.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Russian" hreflang="ru" href="https://ru.simeononsecurity.ch/sitemap.xml" />
-<link rel="sitemap" type="application/xml" title="Sitemap - Spanish" hreflang="es" href="https://es.simeononsecurity.ch/sitemap.xml" />
 
 <!-- preload and prefetch first-party js -->
 <link rel="prefetch" href="{{ "assets/main.js" | absURL }}" type="text/javascript" />
