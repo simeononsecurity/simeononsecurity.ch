@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://google-analytics.com">
 <link rel="preconnect" href="https://ws-na.amazon-adsystem.com">
+<link rel="preconnect" href="https://z-na.amazon-adsystem.com">
 <link rel="preconnect" href="https://amazon-adsystem.com">
 <link rel="preconnect" href="https://cdn.ampproject.org">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -98,21 +99,14 @@
 {{ end -}}
 
 <!-- preload and prefetch first-party js -->
-<link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" crossorigin="anonymous">
+<link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript">
 {{ if .IsPage }}
-  <link rel="preload" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" crossorigin="anonymous">
+  <link rel="preload" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript">
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-  <link rel="preload" href="/js/search.js" as="script" type="text/javascript" crossorigin="anonymous">
+  <link rel="preload" href="/js/search.js" as="script" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" crossorigin="anonymous">
-
-<!-- preload images -->
-{{ if .Params.UseRelativeCover }}
-<link rel="preload" as="image" href="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" />
-{{ else }}
-<link rel="preload" as="image" href="{{ .Params.Cover | absURL }}" />
-{{ end }}
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
@@ -137,12 +131,13 @@
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
 <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript" /> 
 <link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" type="text/javascript" />
+<link rel="prefetch" href="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=661d0b1c-39a5-423e-892e-d08ef6f769de" type="text/javascript" />
 {{ if .IsPage }}
 <link rel="preload" href="https://utteranc.es/client.js" as="script" crossorigin="anonymous">
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" crossorigin="anonymous">
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" crossorigin="anonymous">
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript">
+<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript">
 {{ end }}
 
 <script>
@@ -172,12 +167,4 @@ if (window.location.protocol === 'http:') {
   link.href = window.location.href.replace('http://', 'https://');
   requireHTTPS.classList.remove('hidden');
 }
-</script>
-
-<script>
-  (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-  })(window, document, "clarity", "script", "g45ppf746r");
 </script>

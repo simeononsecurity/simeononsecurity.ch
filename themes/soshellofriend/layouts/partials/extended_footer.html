@@ -35,20 +35,14 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-{{ template "_internal/google_analytics_async.html" . }}
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6"></script>
+{{ template "_internal/google_analytics_async_lite.html" . }}
+{{ template "_internal/google_tag_manager.html" . }}
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-W3SL745QY6',{ 'anonymize_ip': true });
-</script>
+<!-- Microsoft Clarity-->
+{{ template "_internal/microsoft_clarity.html" . }}
 
 <!-- Ads JS Load -->
 {{ partial "googleadsload.html" . }}
-{{ partial "amazonadsload.html" . }}
-{{ partial "amazon-responsive-dynamic.html" . }}
 
 <!-- Search Functionality -->
 {{ if in (urlize .Permalink) "/search" }}

@@ -13,7 +13,6 @@
       {{ .Content }}
     </div>
   {{ end }}
-  {{ partial "displayads-responsive-horizontal.html" . }}
   {{ if .IsHome }}
     <h1 class="post-title"><a title="{{ i18n "discover_title" }}" href="{{ .Permalink }}">{{ i18n "discover_title" }}</a></h1>
 {{ else }}
@@ -72,6 +71,5 @@
     </article>
     {{ end }}
     {{ partial "pagination.html" . }}
-    {{ partial "displayads-responsive-horizontal.html" . }}
   </div>
 {{ end }}
