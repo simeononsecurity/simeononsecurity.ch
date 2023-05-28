@@ -1,14 +1,14 @@
 <footer class="footer">
   <div class="footer__inner">
-      {{ partial "logo.html" . }}
-      <div><span><a title="contact page" href="/contactus/" target="_blank" rel="noopener">Contact</a></span></div>
-      <div><span><a title="privacy policy" href="/privacypolicy/" target="_blank" rel="noopener">Privacy</a></span></div>
-      <div><span><a title="terms and conditions" href="/termsandconditions/" target="_blank" rel="noopener">Terms</a></span></div>
-      <div><span><a title="sitemap" href="/sitemap.xml" target="_blank" rel="noopener">Sitemap</a></span></div>
-      <div><span><a title="rss feed" href="/index.xml" target="_blank" rel="noopener">RSS</a></span></div>
-      <div class="copyright">
-        <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
-      </div>
+    {{ partial "logo.html" . }}
+    <div><span><a title="{{ i18n "contact_page_title" }}" href="/contactus/" target="_blank" rel="noopener">{{ i18n "contact_page_title" }}</a></span></div>
+    <div><span><a title="{{ i18n "privacy_policy_title" }}" href="/privacypolicy/" target="_blank" rel="noopener">{{ i18n "privacy_policy_title" }}</a></span></div>
+    <div><span><a title="{{ i18n "terms_conditions_title" }}" href="/termsandconditions/" target="_blank" rel="noopener">{{ i18n "terms_conditions_title" }}</a></span></div>
+    <div><span><a title="{{ i18n "sitemap_title" }}" href="/sitemap.xml" target="_blank" rel="noopener">{{ i18n "sitemap_title" }}</a></span></div>
+    <div><span><a title="{{ i18n "rss_feed_title" }}" href="/index.xml" target="_blank" rel="noopener">{{ i18n "rss_feed_title" }}</a></span></div>
+    <div class="copyright">
+      <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
+    </div>
   </div>
   {{ if ne .RelPermalink "/search/" }}
   <div class="search-form">
