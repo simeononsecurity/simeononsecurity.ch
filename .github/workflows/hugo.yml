@@ -23,3 +23,4 @@ jobs:
           version: v0.111.3
           extended: true
           args: --cleanDestinationDir -D -E -F --gc --minify --panicOnWarning --verbose
+
