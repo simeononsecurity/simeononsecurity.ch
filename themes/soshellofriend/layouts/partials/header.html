@@ -14,9 +14,16 @@
       <span class="theme-toggle">
         {{ partial "theme-icon.html" . }}
       </span>
-      <span>
-        {{ partial "language_selector.html" . }}
-      </span>
+      {{ $translations := .Translations }}
+      {{ if gt (len $translations) 1 }}
+        <span>
+          {{ partial "language_selector_ismultilingual.html" . }}
+        </span>
+      {{ else}}
+        <span>
+          {{ partial "language_selector_isnotmultilingual.html" . }}
+        </span>
+      {{ end }}
     </span>
   </span>
 </header>
