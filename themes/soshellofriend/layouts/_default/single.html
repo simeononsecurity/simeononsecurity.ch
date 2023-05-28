@@ -50,6 +50,7 @@
         <aside class="table-of-contents">{{ .TableOfContents }}</aside>
         {{ end }}
       {{ end }}
+      {{ partial "displayads-responsive-horizontal.html" . }}
       {{ .Content }}
       <br>
       {{ partial "share-buttons.html" . }}
