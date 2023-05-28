@@ -36,30 +36,35 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', function (event) {
     if (event.request.mode === 'navigate' || staticAssets.includes(event.request.url)) {
-        event.respondWith((async () => {
-            try {
-                const preloadResponse = await event.preloadResponse;
-                if (preloadResponse) {
-                    return preloadResponse;
-                }
-
-                const networkResponse = await fetch(event.request);
-                if (networkResponse.status === 200 && networkResponse.type === 'basic') {
-                    const cache = await caches.open(CACHE_NAME);
-                    cache.put(event.request, networkResponse.clone());
-                }
-                return networkResponse;
-            } catch (error) {
-                console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
-
-                const cache = await caches.open(CACHE_NAME);
-                const cachedResponse = await cache.match(OFFLINE_URL);
-                return cachedResponse;
-            }
-        })());
+      event.respondWith((async () => {
+        try {
+          const preloadResponse = event.preloadResponse; // Store the preload response promise
+          const networkResponsePromise = fetch(event.request); // Fetch the network response
+  
+          // Wait for both the preload response and network response
+          const [preloadResponseValue, networkResponse] = await Promise.all([preloadResponse, networkResponsePromise]);
+  
+          if (preloadResponseValue) {
+            return preloadResponseValue; // Use the preload response if available
+          }
+  
+          if (networkResponse.status === 200 && networkResponse.type === 'basic') {
+            const cache = await caches.open(CACHE_NAME);
+            cache.put(event.request, networkResponse.clone());
+          }
+  
+          return networkResponse;
+        } catch (error) {
+          console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
+  
+          const cache = await caches.open(CACHE_NAME);
+          const cachedResponse = await cache.match(OFFLINE_URL);
+          return cachedResponse;
+        }
+      })());
     }
-});
-
+  });
+  
 let stoprss = false;
 
 // const fetchRss = async () => {
