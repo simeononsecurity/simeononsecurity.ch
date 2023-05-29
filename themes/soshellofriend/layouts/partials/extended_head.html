@@ -99,14 +99,26 @@
 {{ end -}}
 
 <!-- preload and prefetch first-party js -->
-<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript">
+<link rel="prefetch" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
 {{ if .IsPage }}
-  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript">
+  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
   <link rel="prefetch" href="/js/search.js" as="script" type="text/javascript">
 {{ end }}
-<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript">
+<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" defer>
+
+
+<!-- Theme CSS -->
+<link rel="prefetch" as="style"  href="{{ "assets/style.css" | absURL }}" />
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" async/>
+
+<!-- Custom CSS to override theme properties (/static/style.css) -->
+<link rel="prefetch" as="style"  href="{{ "style.css" | absURL }}" />
+<link rel="stylesheet" href="{{ "style.css" | absURL }}" async/>
+
+<!-- add a <link> tag to all the pages for manifest.json  -->
+<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
@@ -114,16 +126,6 @@
 <link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
 <link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}">
 <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
-
-<!-- Theme CSS -->
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
-
-<!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="preload" as="style"  href="{{ "style.css" | absURL }}" />
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
-
-<!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
 
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.google-analytics.com/analytics.js" type="text/javascript" /> 
@@ -145,7 +147,7 @@
   <p>This page must be served over a secure connection. Please click the following link:</p>
   <p><a href="">Secure Page</a></p>
 </div>
-<script>
+<script defer>
 const divInstall = document.getElementById('installContainer');
 const butInstall = document.getElementById('butInstall');
 
