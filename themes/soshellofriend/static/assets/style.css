@@ -876,6 +876,7 @@ h4:hover a {
     margin: 0 auto;
     max-width: 100%;
     width: 760px;
+    color: var(--color-secondary);
 }
 @media (max-width: 899px) {
     .footer__inner {
@@ -883,17 +884,19 @@ h4:hover a {
     }
 }
 .footer a {
-    color: inherit;
+    color: var(--color);
 }
 .footer .copyright {
     align-items: center;
     display: flex;
     flex-direction: row;
     font-size: 1rem;
+    color: var(--color);
 }
 .footer .copyright--user {
     margin: auto;
     text-align: center;
+    color: var(--color);
 }
 .footer .copyright > :first-child:not(:only-child) {
     border-right: 1px solid;
