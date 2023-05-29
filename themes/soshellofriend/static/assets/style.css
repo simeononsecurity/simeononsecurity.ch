@@ -9,8 +9,8 @@
     --tabletWidth: (max-width: 900px);
 }
 body.dark-theme {
-    --background: #292a2d;
-    --background-secondary: #3b3d42;
+    --background: #1d1d1e;
+    --background-secondary: #323337;
     --header: #252627;
     --color: #D0D0D3;
     --color-secondary: #73747b;
