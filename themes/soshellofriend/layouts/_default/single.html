@@ -50,11 +50,19 @@
         <aside class="table-of-contents">{{ .TableOfContents }}</aside>
         {{ end }}
       {{ end }}
-      {{ partial "displayads-responsive-horizontal.html" . }}
+      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
+      {{ $currentPath := .Permalink }}
+      {{ if not (in $currentPath $excludePaths) }}
+        {{ partial "displayads-responsive-horizontal.html" . }}
+      {{ end }}
       {{ .Content }}
       <br>
       {{ partial "share-buttons.html" . }}
-      {{ partial "amazonadsload.html" . }}
+      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
+      {{ $currentPath := .Permalink }}
+      {{ if not (in $currentPath $excludePaths) }}
+        {{ partial "amazonadsload.html" . }}
+      {{ end }}
     </div>
     {{ if eq .Type $.Site.Params.contentTypeName }}
       {{ if or .NextInSection .PrevInSection }}
