@@ -12,9 +12,14 @@ body.dark-theme {
     --background: #292a2d;
     --background-secondary: #3b3d42;
     --header: #252627;
-    --color: #a9a9b3;
+    --color: #D0D0D3;
     --color-secondary: #73747b;
     --border-color: #4a4b50;
+    --accent: #0066cc;
+    --link: #00aaff;
+    --success: #00cc66;
+    --warning: #ffbb33;
+    --error: #ff4444;
 }
 @font-face {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -703,26 +708,30 @@ h4:hover a {
 .post-title a {
     text-decoration: none;
 }
+
+
+
 .post-tags {
     display: block;
     font-size: 1rem;
     margin-bottom: 20px;
     opacity: 0.5;
+    color: var(--color)
 }
 
 .post-tags a{
     /* color: rgb(0, 128, 64); */
-    color: #545454;
+    color: var(--color) !important; 
     border: none;
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px black;
 }
 
 .dark-theme .post-tags a{
-    color: #C8C8C8;
+    color: var(--color) !important;
     border: none;
     text-decoration: none;
-    text-shadow: 0.1px 0.1px 0.1px black;
+    text-shadow: 0.1px 0.1px 0.1px white;
 }
 
 .post-tags a:hover {

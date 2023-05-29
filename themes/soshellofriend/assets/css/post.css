@@ -1,3 +1,5 @@
+
+
 .post {
   width: 100%;
   max-width: 800px;
@@ -84,15 +86,17 @@
   }
   
 .post-tags a{
-    color: black;
+    color: var(--color) !important;
     border: none;
     text-decoration: none;
+    text-shadow: black;
 }
 
 .dark-theme .post-tags a{
-    color: #C8C8C8;
+    color: var(--color) !important;
     border: none;
     text-decoration: none;
+    text-shadow: white;
 }
 
 .post-tags a:hover {
