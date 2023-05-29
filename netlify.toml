@@ -75,100 +75,123 @@ for = "/*.jpeg"
 [headers.values]
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
+Content-Type = "image/jpeg"
 
 [[headers]]
 for = "/*.jpg"
 [headers.values]
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
+Content-Type = "image/jpeg"
 
 [[headers]]
 for = "/*.png"
 [headers.values]
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
+Content-Type = "image/png"
 
 [[headers]]
 for = "/*.webp"
 [headers.values]
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
+Content-Type = "image/webp"
 
 [[headers]]
 for = "/*.ico"
 [headers.values]
 Cache-Control = "public, max-age=31536000"
 Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
+Content-Type = "image/x-icon"
 
 [[headers]]
 for = "/*.css"
 [headers.values]
 Cache-Control = "public, s-max-age=604800, max-age=31536000"
 Access-Control-Allow-Origin = "*"
+Content-Type = "text/css"
 
 [[headers]]
 for = "/*.js"
 [headers.values]
 Cache-Control = "public, s-max-age=604800, max-age=31536000"
 Access-Control-Allow-Origin = "*"
-
-[[headers]]
-for = "/fonts/*"
-[headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
-Access-Control-Allow-Origin = "*"
+Content-Type = "application/javascript"
 
 [[headers]]
 for = "/*.json"
 [headers.values]
 Cache-Control = "public, max-age=3600, must-revalidate"
 Access-Control-Allow-Origin = "*"
+Content-Type = "application/json"
 
 [[headers]]
 for = "/*.xml"
 [headers.values]
 Cache-Control = "public, max-age=3600, must-revalidate"
 Access-Control-Allow-Origin = "*"
+Content-Type = "application/xml"
 
 [[headers]]
 for = "/*.mjs"
 [headers.values]
 Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Content-Type = "text/javascript"
 
 [[headers]]
 for = "/*.sass"
 [headers.values]
 Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Content-Type = "text/x-sass"
 
 [[headers]]
 for = "/*.scss"
 [headers.values]
 Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Content-Type = "text/x-scss"
 
 [[headers]]
 for = "/*.less"
 [headers.values]
 Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Content-Type = "text/x-less"
 
 [[headers]]
 for = "/*.wasm"
 [headers.values]
 Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Content-Type = "application/wasm"
 
 [[headers]]
 for = "/*.pdf"
 [headers.values]
 Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+Content-Type = "application/pdf"
 
 [[headers]]
 for = "/*.doc"
 [headers.values]
 Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+Content-Type = "application/msword"
 
 [[headers]]
 for = "/*.xls"
 [headers.values]
 Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+Content-Type = "application/vnd.ms-excel"
+
+[[headers]]
+for = "/*.frag"
+[headers.values]
+Cache-Control = "public, max-age=3600, must-revalidate"
+Content-Type = "text/plain"
+
+[[headers]]
+for = "/fonts/*"
+[headers.values]
+Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Access-Control-Allow-Origin = "*"
 
 [[headers]]
 for = "/audio/*"
@@ -189,11 +212,6 @@ Cache-Control = "no-store"
 for = "/api/*"
 [headers.values]
 Cache-Control = "no-cache, no-store, must-revalidate"
-
-[[headers]]
-for = "/*.frag"
-[headers.values]
-Cache-Control = "public, max-age=3600, must-revalidate"
 
 ## REDIRECTS
 
