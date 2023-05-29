@@ -709,23 +709,27 @@ h4:hover a {
     text-decoration: none;
 }
 
-
-
 .post-tags {
-    display: block;
+    display: inline-block; /* Allow elements to wrap */
     font-size: 1rem;
     margin-bottom: 20px;
     opacity: 0.5;
-    color: var(--color)
+    color: var(--color);
 }
 
-.post-tags a{
+.post-tags a {
     /* color: rgb(0, 128, 64); */
     color: var(--color) !important; 
     border: none;
+    align-items: center;
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px black;
+    min-width: 48px; /* Set the minimum width to 48px */
+    min-height: 48px; /* Set the minimum height to 48px */
+    padding: 10px;
+    display: inline-block; /* Ensure elements stay on the same line */
 }
+
 
 .dark-theme .post-tags a{
     color: var(--color) !important;
