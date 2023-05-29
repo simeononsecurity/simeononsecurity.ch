@@ -1,4 +1,13 @@
-<footer class="footer">
+<style>
+  .footer,
+  .footer__inner,
+  .footer a {
+    min-width: 48px;
+    min-height: 48px;
+    padding: 10px;
+  }
+</style>
+<footer class="footer" style="">
   <div class="footer__inner">
     {{ partial "logo.html" . }}
     <div><span><a title="{{ i18n "contact_page_title" }}" href="/contactus/" target="_blank" rel="noopener">{{ i18n "contact_page_title" }}</a></span></div>
