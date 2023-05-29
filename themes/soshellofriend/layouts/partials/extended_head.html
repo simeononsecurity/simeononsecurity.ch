@@ -109,9 +109,6 @@
 <link rel="preload" href="/js/lazyload.js" as="script" type="text/javascript">
 <link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" defer>
 
-
-
-
 <!-- Theme CSS -->
 <link rel="prefetch" as="style"  href="{{ "assets/style.css" | absURL }}" />
 <link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" async/>
@@ -145,11 +142,10 @@
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript">
 {{ end }}
 
-
-<div id="requireHTTPS" class="hidden" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh;">
+{{/*  <div id="requireHTTPS" class="hidden" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh;">
   <p>This page must be served over a secure connection. Please click the following link:</p>
   <p><a href="">Secure Page</a></p>
-</div>
+</div>  */}}
 
 <!-- implement lazyload.js -->
 <script src="/js/lazyload.js"></script>
