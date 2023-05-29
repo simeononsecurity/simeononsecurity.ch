@@ -106,7 +106,7 @@
 {{ if in (urlize .Permalink) "/search" }}
   <link rel="prefetch" href="/js/search.js" as="script" type="text/javascript">
 {{ end }}
-<link rel="prefetch" href="/js/lazyload.js" as="script" type="text/javascript">
+<link rel="preload" href="/js/lazyload.js" as="script" type="text/javascript">
 <link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" defer>
 
 
@@ -151,4 +151,5 @@
   <p><a href="">Secure Page</a></p>
 </div>
 
-<script src="/js/search.js"></script>
+<!-- implement lazyload.js -->
+<script src="/js/lazyload.js"></script>
