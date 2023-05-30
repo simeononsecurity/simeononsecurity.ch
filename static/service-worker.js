@@ -3,8 +3,6 @@ const staticAssets = [
     '/',
     '/index.html',
     '/offline.html',
-    '/style.css',
-    '/assets/style.css',
     '/assets/main.js',
     '/assets/prism.js',
     '/img/apple-touch-icon-192.png'
