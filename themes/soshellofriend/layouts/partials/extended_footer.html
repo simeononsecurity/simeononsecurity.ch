@@ -10,6 +10,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
   textColor: '#fff'
 })</script> -->
 
+<!-- Scroll to Top Button -->
 <button onclick="topFunction()" id="myBtn" title="Go to top">^</button> 
 
 <script>
@@ -56,6 +57,8 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
       });
     </script>
 {{ end }}
+
+
 
 <!-- Search Functionality -->
 {{ if in (urlize .Permalink) "/search" }}
