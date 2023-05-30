@@ -4,7 +4,7 @@ date: 2023-02-27
 toc: true
 draft: false
 description: "Learn the essential steps to take if you suspect your email, desktop, or phone has been hacked or compromised, including changing passwords, scanning for malware, and wiping your device clean."
-tags: ["device security", "data protection", "compromised device", "hacked email", "hacked phone", "malware", "virus removal", "password security", "data backup", "two-factor authentication", "cybersecurity", "online safety", "digital privacy", "identity theft", "online fraud", "tech support", "computer repair", "data recovery", "IT services", "technology"]
+tags: ["device security", "data protection", "compromised device", "hacked email", "hacked phone", "malware", "virus removal", "password security", "data backup", "two-factor authentication", "cybersecurity", "online safety", "digital privacy", "identity theft", "online fraud", "tech support", "computer repair", "data recovery", "IT services", "technology", "email security", "desktop security", "phone security", "device hacking", "security breach", "device compromise", "malware scan", "data wipe", "crypto keys", "crypto wallet security", "fund protection", "email compromise", "device security tips", "how to secure your email", "steps to protect a compromised phone", "malware removal techniques", "best practices for password security", "data backup methods", "importance of two-factor authentication", "cybersecurity measures for online safety", "tips for digital privacy", "preventing identity theft online", "how to deal with online fraud", "tech support for compromised devices", "computer repair services", "data recovery solutions", "IT services for device security", "latest technology trends", "secure email practices", "desktop security measures", "phone security precautions", "preventing device hacking"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
 coverAlt: "A cartoon image of a person standing in front of a computer or phone with a concerned expression, while a cartoon hacker lurks in the background."
 coverCaption: ""
@@ -26,21 +26,22 @@ The first step to take when you suspect your email, desktop, or phone has been c
 
 - **Unexpected charges**: If you suspect that your phone has been compromised, look for any unexpected charges on your phone bill or unusual activity in your call or text message history.
 
-It's important to take note of any signs of compromise so that you can take appropriate action to protect your device and data. If you are unsure if your device has been compromised, it's always better to err on the 
+It's important to take note of any signs of compromise so that you can take appropriate action to protect your device and data. If you are unsure if your device has been compromised, it's always better to error on the safe side. 
+
+Learn how to identify [phishing and suspicious emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
 
 ______
 
-## Step 2: Change Your Passwords and Verify Recovery Information
+## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-- **Change your passwords** for all your accounts immediately if you suspect your device has been compromised
-
+- [**Change your passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for all your accounts immediately if you suspect your device has been compromised
 
 If you suspect that your email, desktop, or phone has been compromised, the next step is to change your passwords for all your accounts immediately. This will take a while, so prioritize important accounts like your emails, bank accounts, social media accounts, etc.
 
 - **Prioritize important accounts** like your emails, bank accounts, social media accounts, etc.
 
-- **Choose strong, unique passwords** for each of your accounts and **avoid using the same password** across multiple accounts
-- A **strong password** should be at least **12 characters long** and include a **mix of upper and lowercase letters, numbers, and symbols**
+- [**Choose strong, unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for each of your accounts and **avoid using the same password** across multiple accounts
+- A [**strong password**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) should be at least **12 characters long** and include a **mix of upper and lowercase letters, numbers, and symbols**
 
 Choose strong, unique passwords for each of your accounts and avoid using the same password across multiple accounts. A strong password should be at least 12 characters long and include a mix of upper and lowercase letters, numbers, and symbols. Avoid using common words or phrases, and don't include personal information like your name, birthdate, or address.
 
@@ -60,7 +61,7 @@ Choose strong, unique passwords for each of your accounts and avoid using the sa
 - elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
 ```
 
-- **Enable two-factor authentication** for an extra layer of security
+- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) for an extra layer of security
 
 It's also a good idea to enable two-factor authentication, which adds an extra layer of security to your accounts. Two-factor authentication requires a second method of verification, such as a code sent to your phone or email, in addition to your password.
 
@@ -113,7 +114,9 @@ To scan your device for malware, use a trusted antivirus software that is up to 
 - **Consider using additional security software**, such as a **firewall** or **anti-spyware software**, to provide further protection against malware and other security threats
 - **Be cautious** when **downloading** or **installing software** from the internet, and only download from trusted sources to avoid malware infections
 
-It's also a good idea to scan any external devices, such as USB drives, that you've used with the compromised device. External devices can often carry malware that can infect your device, so it's important to scan them before using them with your device.
+It's also a good idea to scan any external devices, such as USB drives, that you've used with the compromised device. External devices can often carry malware that can infect your device, so it's important to scan them before using them with your device. 
+
+See some [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.ch/recommendations/anti-virus).
 
 ______
 
@@ -134,6 +137,8 @@ Once you have verified that your important files are secure, you should wipe you
 - Once you have wiped your device, **take steps to secure it and prevent future compromises**, such as keeping your software and security tools up to date and avoiding suspicious downloads and websites.
 
 Remember, wiping your device will erase all data on the device, so it's important to backup any important files before wiping your device.
+
+Learn about the important [3-2-1 Backup Rule](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 
 ______
 
