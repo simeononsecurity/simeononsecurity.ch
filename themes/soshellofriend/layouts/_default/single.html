@@ -92,12 +92,20 @@
         <br>
       {{ end }}
     {{ end }}
-    {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
+    {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
     {{ $currentPath := .Permalink }}
-    {{ if not (in $currentPath $excludePaths) }}
+    
+    {{ $disableComments := false }}
+    {{ range $disabledURLs }}
+      {{ if (in $currentPath .) }}
+        {{ $disableComments = true }}
+      {{ end }}
+    {{ end }}
+    
+    {{ if not $disableComments }}
       {{ if not (eq .Params.Comments.enable false) }}
         {{ partial "comments.html" . }}
-      {{ end }} 
+      {{ end }}
     {{ end }}
   </article>
 {{ end }}
