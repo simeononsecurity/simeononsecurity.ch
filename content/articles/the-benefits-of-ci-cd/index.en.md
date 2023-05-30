@@ -3,10 +3,10 @@ title: "The Power of CI CD: Boosting Collaboration, Quality, and Speed"
 date: 2023-06-06
 toc: true
 draft: false
-description: "Discover the benefits of Continuous Integration and Continuous Deployment (CI/CD) in software development, enhancing collaboration, quality, and speed."
-tags: ["continuous integration", "continuous deployment", "CI/CD", "software development", "collaboration", "communication", "feedback loop", "bug detection", "software quality", "reliability", "time to market", "risk management", "scalability", "flexibility", "automated testing", "agile development", "DevOps", "team productivity", "software releases", "deployment automation", "test automation", "rapid software delivery", "agile methodologies", "release management", "software engineering", "agile teams", "continuous improvement", "software testing", "deployment pipelines", "deployment process", "software development lifecycle"]
+description: "Discover the benefits of Continuous Integration and Continuous Deployment (CI CD) in software development, enhancing collaboration, quality, and speed."
+tags: ["continuous integration", "continuous deployment", "CI CD", "software development", "collaboration", "communication", "feedback loop", "bug detection", "software quality", "reliability", "time to market", "risk management", "scalability", "flexibility", "automated testing", "agile development", "DevOps", "team productivity", "software releases", "deployment automation", "test automation", "rapid software delivery", "agile methodologies", "release management", "software engineering", "agile teams", "continuous improvement", "software testing", "deployment pipelines", "deployment process", "software development lifecycle"]
 cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
-coverAlt: " A colorful cartoon illustration showing developers collaborating and deploying software quickly and efficiently with CI/CD tools and processes."
+coverAlt: " A colorful cartoon illustration showing developers collaborating and deploying software quickly and efficiently with CI CD tools and processes."
 coverCaption: ""
 ---
 
