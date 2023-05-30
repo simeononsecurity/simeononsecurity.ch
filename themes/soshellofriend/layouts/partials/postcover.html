@@ -1,14 +1,15 @@
 <figure class="post-cover">
     {{ if .Params.UseRelativeCover }}
     {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+    {{ $micro := ($cover.Resize "20x webp q20") }}
     {{ $tiny := ($cover.Resize "480x webp q50") }}
     {{ $small := ($cover.Resize "731x webp q50") }}
     <picture>
       <source 
         srcset="{{ $small.RelPermalink }} 731w, {{ $tiny.RelPermalink }} 480w" 
-        sizes="(min-width: 1100px) 731px, (min-width: 700px) 480px, calc(80.53vw - 21px)"
+        sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, 20px, calc(80.53vw - 21px)"
         media="(min-width: 700px)">
-      <img src="{{ $tiny.RelPermalink }} | default .Site.publisherLogo"
+      <img src="{{ $micro.RelPermalink }} | default $.Site.Params.publisherLogo"
         alt="{{ .Params.CoverAlt | plainify | default .Title }}"
         height="731"
         width="480"
@@ -17,14 +18,15 @@
     </picture>        
     {{ else }}
       {{ $cover := resources.Get (.Params.Cover)}}
+      {{ $micro := ($cover.Resize "20x webp q20") }}
       {{ $tiny := ($cover.Resize "480x webp q50") }}
       {{ $small := ($cover.Resize "731x webp q50") }}
       <picture>
         <source 
           srcset="{{ $small.RelPermalink }} 731w, {{ $tiny.RelPermalink }} 480w" 
-          sizes="(min-width: 1100px) 731px, (min-width: 700px) 480px, calc(80.53vw - 21px)"
+          sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, 20px, calc(80.53vw - 21px)"
           media="(min-width: 700px)">
-        <img src="{{ $tiny.RelPermalink }} | default .Site.publisherLogo"
+        <img src="{{ $micro.RelPermalink }} | default $.Site.Params.publisherLogo"
           alt="{{ .Params.CoverAlt | plainify | default .Title }}"
           height="731"
           width="480"
