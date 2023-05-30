@@ -92,11 +92,12 @@
         <br>
       {{ end }}
     {{ end }}
-
-    {{ if not (eq .Params.Comments "false") }}
-      {{ if or (eq .Type $.Site.Params.contentTypeName) (.Params.Comments) }}
+    {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
+    {{ $currentPath := .Permalink }}
+    {{ if not (in $currentPath $excludePaths) }}
+      {{ if not (eq .Params.Comments.enable false) }}
         {{ partial "comments.html" . }}
-      {{ end }}
+      {{ end }} 
     {{ end }}
   </article>
 {{ end }}

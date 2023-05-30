@@ -86,6 +86,8 @@ publisherLogo = "/img/banner.png"
 publisherLogoWidth = 460
 publisherLogoHeight = 460
 
+
+
 [logo]
 logoText = "simeononsecurity"
 logoHomeLink = "/"
@@ -133,6 +135,11 @@ suffixes = ["xml"]
 [outputFormats.FEED]
 mediatype = "application/rss"
 baseName = "feed"
+
+[params.comments]
+  enable = true
+  categories = ["blog", "news", "articles", "guides", "other", "til", "recommendations", "github", "writeups"]
+  contentTypes = []  # Add content types here if needed
 
 [languages]
 [languages.ar]
