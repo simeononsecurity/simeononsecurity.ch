@@ -1,5 +1,7 @@
 [server]
 
+enableGzip = true
+
 [[server.headers]]
 for = "/**.html"
 [server.server.headers.values]
