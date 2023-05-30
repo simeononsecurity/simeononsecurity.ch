@@ -53,6 +53,28 @@ Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
 Cross-Origin-Resource-Policy = "cross-origin"
 Server = "simeononsecurity"
 pagespeed = "on"
+Link = '''
+      <https://pagead1.googlesyndication.com>; rel=preconnect,
+      <https://pagead2.googlesyndication.com>; rel=preconnect,
+      <https://www.google-analytics.com>; rel=preconnect,
+      <https://google-analytics.com>; rel=preconnect,
+      <https://ws-na.amazon-adsystem.com>; rel=preconnect,
+      <https://z-na.amazon-adsystem.com>; rel=preconnect,
+      <https://amazon-adsystem.com>; rel=preconnect,
+      <https://cdn.ampproject.org>; rel=preconnect,
+      <https://cdn.jsdelivr.net>; rel=preconnect,
+      <https://fonts.gstatic.com>; rel=preconnect,
+      <https://gstatic.com>; rel=preconnect,
+      <https://googleads.g.doubleclick.net>; rel=preconnect,
+      <https://tpc.googlesyndication.com>; rel=preconnect,
+      <https://googletagservices.com>; rel=preconnect,
+      <https://utteranc.es>; rel=preconnect,
+      <https://static.cloudflareinsights.com>; rel=preconnect,
+      <https://cdnjs.cloudflare.com>; rel=preconnect,
+      <https://www.clarity.ms>; rel=preconnect,
+      <https://fonts.googleapis.com>; rel=preconnect,
+      <https://maxcdn.bootstrapcdn.com>; rel=preconnect
+    '''
 
 [[headers]]
 for = "/*.html"
