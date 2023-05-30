@@ -58,11 +58,6 @@
           </div>
         {{ end }}
       </article>
-      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
-      {{ $currentPath := .Permalink }}
-      {{ if not (in $currentPath $excludePaths) }}
-        {{ partial "amazonadsload.html" . }}
-      {{ end }}
     {{ end }}
     {{ partial "pagination.html" . }}
   </div>
