@@ -1,1 +1,23 @@
-<script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" crossorigin="anonymous"></script>
+<script defer data-ad-client="ca-pub-4092442123207538" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" crossorigin="anonymous"></script>
+<script>
+    function lazyLoadAds() {
+      var adPlaceholder = document.getElementById('ad-placeholder');
+      var observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            // Load the ad
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            
+            // Stop observing once the ad is loaded
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+  
+      observer.observe(adPlaceholder);
+    }
+  
+    // Call the lazyLoadAds function when the page finishes loading
+    window.addEventListener('load', lazyLoadAds);
+</script>
+  

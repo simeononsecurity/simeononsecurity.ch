@@ -44,6 +44,7 @@
 
     <div class="post-content">
       {{ partial "share-buttons.html" . }}
+      <div id="ad-placeholder"></div>
       {{ if or .Params.Toc $.Site.Params.Toc }}
         {{ if ne .Params.Toc false }}
         <h2>Table of Contents</h2>
@@ -89,6 +90,7 @@
         </div>
         <br>
         {{ partial "relatedcontent.html" . }}
+        <div id="ad-placeholder"></div>
         <br>
       {{ end }}
     {{ end }}

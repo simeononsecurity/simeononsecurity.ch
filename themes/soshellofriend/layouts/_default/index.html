@@ -42,7 +42,7 @@
           <span class="post-read-time">— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
         {{ end }}
       </div>
-
+      <div id="ad-placeholder"></div>
       <div class="post-content">
         {{ with .Description }}
           {{ . | markdownify }}
@@ -71,5 +71,6 @@
     </article>
     {{ end }}
     {{ partial "pagination.html" . }}
+    <div id="ad-placeholder"></div>
   </div>
 {{ end }}
