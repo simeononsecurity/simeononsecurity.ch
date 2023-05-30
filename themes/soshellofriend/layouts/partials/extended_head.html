@@ -1,25 +1,18 @@
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://maxcdn.bootstrapcdn.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-<link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
 
 <!-- Preconnect third-party DNS for JS -->
 <link rel="preconnect" href="https://pagead1.googlesyndication.com">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://google-analytics.com">
-<link rel="preconnect" href="https://ws-na.amazon-adsystem.com">
-<link rel="preconnect" href="https://z-na.amazon-adsystem.com">
-<link rel="preconnect" href="https://amazon-adsystem.com">
-<link rel="preconnect" href="https://cdn.ampproject.org">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://gstatic.com">
 <link rel="preconnect" href="https://googleads.g.doubleclick.net">
 <link rel="preconnect" href="https://tpc.googlesyndication.com">
 <link rel="preconnect" href="https://googletagservices.com">
-<link rel="preconnect" href="https://utteranc.es">
 <link rel="preconnect" href="https://static.cloudflareinsights.com">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://www.clarity.ms">
@@ -27,20 +20,18 @@
 <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
 <link rel="dns-prefetch" href="https://google-analytics.com">
-<link rel="dns-prefetch" href="https://ws-na.amazon-adsystem.com">
-<link rel="dns-prefetch" href="https://z-na.amazon-adsystem.com">
-<link rel="dns-prefetch" href="https://amazon-adsystem.com">
-<link rel="dns-prefetch" href="https://cdn.ampproject.org">
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-<link rel="dns-prefetch" href="https://fonts.gstatic.com">
-<link rel="dns-prefetch" href="https://gstatic.com">
 <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
 <link rel="dns-prefetch" href="https://tpc.googlesyndication.com">
 <link rel="dns-prefetch" href="https://googletagservices.com">
-<link rel="dns-prefetch" href="https://utteranc.es">
 <link rel="dns-prefetch" href="https://static.cloudflareinsights.com">
 <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://www.clarity.ms">
+
+{{ if .IsPage }}
+<link rel="preconnect" href="https://utteranc.es">
+<link rel="dns-prefetch" href="https://utteranc.es">
+{{ end }}
 
 <!-- mastodon verification  -->
 <link rel="me" title="mastodon verification" href="https://mastodon.world/@simeononsecurity" />
