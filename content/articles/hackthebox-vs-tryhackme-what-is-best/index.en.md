@@ -14,6 +14,8 @@ coverCaption: ""
 
 Before we dive into the details, let's first define what we mean by "junior" penetration testing. Typically, **a junior penetration tester is someone who is just starting out in the field and has limited experience with cybersecurity.**
 
+{{< youtube id="osWbitXB6DY" >}}
+
 ### What is HackTheBox?
 
 **HackTheBox is an online platform that provides challenges and virtual machines to help users learn cybersecurity skills.** The challenges range from simple to extremely difficult, and cover a wide range of topics such as web application security, network security, cryptography, and more. HackTheBox has a large and active community of users, and offers both free and paid subscription options.

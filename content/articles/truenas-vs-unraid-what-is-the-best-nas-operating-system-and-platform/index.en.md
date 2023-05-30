@@ -18,12 +18,15 @@ In this article, we will compare TrueNas and Unraid to assist you in making the 
 
 **Unraid is a proprietary NAS operating system developed by Lime Technology**, a software company located in California. It was established in 2005 and runs on the Linux platform. The goal of Unraid is to make RAID technology more accessible by eliminating restrictions on disk size, speed, brand, and protocol. This allows for easy expansion of RAID arrays and minimizes the risk of data loss.
 
+{{< youtube id="GIpf4DmJgcA" >}}
+
 ______
 
 ## Introduction to TrueNas
 
 **TrueNas, previously known as FreeNas, is an open-source NAS operating system developed by iXsystems**, a private company based in San Jose, California. It was launched in 2005 and is built on FreeBSD and Linux. TrueNas developers concentrate on the enterprise market and its choice of the default file system (OpenZFS) reflects this focus.
 
+{{< youtube id="eex67WDeN04" >}}
 ______
 
 ## Cost

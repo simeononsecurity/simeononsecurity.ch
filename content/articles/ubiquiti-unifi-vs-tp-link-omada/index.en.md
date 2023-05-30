@@ -13,6 +13,8 @@ coverCaption: ""
 
 When it comes to networking solutions for businesses and homes, two names that come up are [**Ubiquiti**](https://www.ui.com/) and [**TP-Link**](https://www.tp-link.com/us/omada-sdn/). Both companies offer reliable and high-performance solutions, but which one should you choose? In this article, we'll compare the two systems and help you decide which one is right for your needs.
 
+{{< youtube id="tjtxDcKCZ18" >}}
+
 ## [Ubiquiti Unifi](https://www.ui.com/)
 
 [**Ubiquiti**](https://www.ui.com/) is a US-based technology company that specializes in networking solutions for businesses and homes. Their [Unifi](https://amzn.to/42JBzuH) line of products includes access points, switches, gateways, and other networking hardware. The Unifi system is managed through a web-based interface, the **Unifi Controller**, which allows for easy configuration and management of the entire network.
