@@ -44,20 +44,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 
     <!-- Ads JS Load -->
     {{ partial "googleadsload.html" . }}
-
-    <script defer>
-      window.addEventListener('DOMContentLoaded', function() {
-        var iframes = document.querySelectorAll('iframe[src*="https://googleads.g.doubleclick.net"]');
-        for (var i = 0; i < iframes.length; i++) {
-          if (!iframes[i].title) {
-            iframes[i].title = 'google ads';
-          }
-        }
-      });
-    </script>
 {{ end }}
-
-
 
 <!-- Search Functionality -->
 {{ if in (urlize .Permalink) "/search" }}
