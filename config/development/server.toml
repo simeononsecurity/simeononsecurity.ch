@@ -32,8 +32,6 @@ X-Robots-Tag = "index, follow, max-snippet:60, max-image-preview:large"
 X-Xss-Protection = "1; mode=block"
 Server = "simeononsecurity"
 Link = '''
-  </assets/style.css>; rel=prefetch; as=style,
-  </style.css>; rel=prefetch; as=style,
   </js/lazyload.js>; rel=preload; as=script,
   </assets/main.js>; rel=preload; as=script,
   </assets/prism.js>; rel=preload; as=script,
