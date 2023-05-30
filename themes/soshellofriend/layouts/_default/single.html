@@ -58,11 +58,6 @@
       {{ .Content }}
       <br>
       {{ partial "share-buttons.html" . }}
-      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
-      {{ $currentPath := .Permalink }}
-      {{ if not (in $currentPath $excludePaths) }}
-        {{ partial "amazonadsload.html" . }}
-      {{ end }}
     </div>
     {{ if eq .Type $.Site.Params.contentTypeName }}
       {{ if or .NextInSection .PrevInSection }}

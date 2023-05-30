@@ -43,11 +43,8 @@
 </footer>
 
 <script src="{{ "assets/main.js" | absURL }}" async></script>
+{{ if .IsPage }}
 <script src="{{ "assets/prism.js" | absURL }}" defer></script>
-
-<!-- Loads analytics.js asynchronously -->
-{{ if $.Site.GoogleAnalytics }}
-{{ template "_internal/google_analytics.html" . }}
 {{ end }}
 
 {{- partial "extended_footer.html" . }}
