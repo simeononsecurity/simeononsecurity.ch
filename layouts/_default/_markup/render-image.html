@@ -1,49 +1,113 @@
-{{/*  {{- $image := resources.Get .Destination -}}
+{{ $src := "" }}
+{{ $external := false }}
+{{ $isSVG := false }}
+{{ $isGIF := false }}
+{{ if or (findRE "https?://" .Destination) }}
+    {{ $src = resources.GetRemote .Destination }}
+    {{ $external = true }}
+    {{ $isSVG = strings.HasSuffix .Destination ".svg" }}
+    {{ $isGIF = strings.HasSuffix .Destination ".gif" }}
+{{ else }}
+    {{ $src = resources.Get .Destination }}
+    {{ $isSVG = strings.HasSuffix $src.RelPermalink ".svg" }}
+    {{ $isGIF = strings.HasSuffix $src.RelPermalink ".gif" }}
+{{ end }}
 
-  <picture>
-    {{ $isJPG := eq (path.Ext .Destination) ".jpg" }}
-    {{ $isPNG := eq (path.Ext .Destination) ".png" }}
+{{ $src := "" }}
+{{ $external := false }}
+{{ if or (findRE "https?://" .Destination) }}
+    {{ $src = resources.GetRemote .Destination }}
+    {{ $external = true }}
+{{ else }}
+    {{ $src = resources.Get .Destination }}
+{{ end }}
 
-    {{ if ($isJPG) -}}
-      {{ $avifPath:= replace .Destination ".jpg" ".avif" }}
-      {{ $avifPathStatic:= printf "static/%s" $avifPath }}
+{{ $title := "" }}
+{{ if .Text }}
+    {{ $title = .Text | safeHTML }}
+{{ else if $src.Params.title }}
+    {{ $title = $src.Params.title | safeHTML }}
+{{ else if $.Title }}
+    {{ $title = $.Title | safeHTML }}
+{{ else if $.Page.Params.Title }}
+    {{ $title = $.Page.Params.Title | safeHTML }}
+{{ else }}
+    {{ $title = $.Site.Params.Title | safeHTML }}
+{{ end }}
 
-      {{ if (fileExists $avifPathStatic) -}}
-        <source srcset="{{ $avifPath | safeURL }}" type="image/avif" >
-      {{- end }}
 
-      {{ $webpPath:= replace .Destination ".jpg" ".webp" }}
-      {{ $webpPathStatic:= printf "static/%s" $webpPath }}
-
-      {{ if (fileExists $webpPathStatic) -}}
-        <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
-      {{- end }}
-    {{- end }}
-
-    {{ if ($isPNG) -}}
-      {{ $avifPath:= replace .Destination ".png" ".avif" }}
-      {{ $avifPathStatic:= printf "static/%s" $avifPath }}
-
-      {{ if (fileExists $avifPathStatic) -}}
-        <source srcset="{{ $avifPath | safeURL }}" type="image/avif" >
-      {{- end }}
-
-      {{ $webpPath:= replace .Destination ".png" ".webp" }}
-      {{ $webpPathStatic:= printf "static/%s" $webpPath }}
-
-      {{ if (fileExists $webpPathStatic) -}}
-        <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
-      {{- end }}
-    {{- end }}
-
-    {{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
-
+{{ if $isSVG }}
+  {{ if $external }}
+    <!-- Code for external SVG image -->
     <img
-      src="{{ .Destination | safeURL }}"
-      alt="{{ .Text }}"
+      src="{{ $src.Permalink }}"
+      data-src="{{ $src.Permalink }}" 
+      alt="{{ $title }}" 
+      data-sizes="440w"
       loading="lazy"
-      decoding="async"
-      width="{{ $img.Width }}"
-      height="{{ $img.Height }}"
-    />
-  </picture>  */}}
+    >
+  {{ else }}
+    <!-- Code for local SVG image -->
+    <img
+      src="{{ $src.RelPermalink }}"
+      data-src="{{ $src.RelPermalink }}" 
+      alt="{{ $title }}" 
+      data-sizes="440w"
+      loading="lazy"
+    >
+  {{ end }}
+{{ else if not $isSVG}}
+  
+  {{ $lqipw := default "" }}
+  {{ $smallw := default "" }}
+  {{ $mediumw := default "" }}
+  {{ $largew := default "" }}
+  {{ if $isGIF }}
+    {{ $lqipw = default "20x q50" }}
+    {{ $smallw = default "500x q50" }}
+    {{ $mediumw = default "600x q50" }}
+    {{ $largew = default "720x q50" }}
+  {{ else if not $isGIF }}
+    {{ $lqipw = default "20x webp q50" }}
+    {{ $smallw = default "500x webp q50" }}
+    {{ $mediumw = default "600x webp q50" }}
+    {{ $largew = default "720x webp q50" }}
+  {{ end }}
+
+  {{ $lqip := $src.Resize $lqipw }}
+  {{ $small := $src.Resize $smallw }}
+  {{ $medium := $src.Resize $mediumw }}
+  {{ $large := $src.Resize $largew }}
+  
+  <!-- HTML for troubleshooting -->
+  {{ $height := $large.Height}}
+  {{ $width := $large.Width}}
+
+  {{ if $external }}
+    <!-- Code for external non-SVG image -->
+    <img
+      src="{{ $src.Permalink }}"
+      data-src="{{ $lqip.RelPermalink }}"  
+      data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
+      alt="{{ $title }}" 
+      data-sizes="440w"
+      loading="lazy"
+      height="{{ $height }}"
+      width="{{ $width }}"
+      style="height: auto; width: 100%; object-fit: contain;"
+    >
+  {{ else }}
+    <!-- Code for local non-SVG image -->
+    <img
+      src="{{ $src.RelPermalink }}"
+      data-src="{{ $lqip.RelPermalink }}" 
+      data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
+      alt="{{ $title }}" 
+      data-sizes="440w"
+      loading="lazy"
+      height="{{ $height }}"
+      width="{{ $width }}"
+      style="height: auto; width: 100%; object-fit: contain;"
+    >
+  {{ end }}
+{{ end }}
