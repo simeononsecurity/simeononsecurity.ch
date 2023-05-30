@@ -406,6 +406,11 @@ to = "https://pa.simeononsecurity.ch/:splat"
 status = 301
 
 [[redirects]]
+from = "/pl/*"
+to = "https://pl.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
 from = "/pt/*"
 to = "https://pt.simeononsecurity.ch/:splat"
 status = 301
