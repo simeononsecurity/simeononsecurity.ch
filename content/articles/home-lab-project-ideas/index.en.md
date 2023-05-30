@@ -14,38 +14,49 @@ coverCaption: ""
 
 If you're looking for exciting **home lab project ideas**, you've come to the right place. Home lab projects provide a fantastic opportunity to expand your knowledge, experiment with various technologies, and enhance your IT skills. Whether you're a hobbyist, student, or professional, setting up a home lab offers a hands-on learning experience. In this article, we'll explore some home lab project ideas to help you get started.
 
+_____
+
 ## Building a Virtualization Environment
 
 Building a virtualization environment is a popular choice for home lab enthusiasts. With virtualization, you can run multiple operating systems and applications on a single physical machine. This allows you to simulate complex network architectures and test different software configurations. Some leading virtualization platforms include:
 
 - [**VMware vSphere**](https://www.vmware.com/products/vsphere.html): VMware vSphere is a top-notch virtualization platform known for its high performance, scalability, and flexibility. It's an ideal choice for building a home lab.
+  - {{< youtube id="apC1bOLbzbY" >}}
 - [**Microsoft Hyper-V**](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/): Microsoft Hyper-V, a native hypervisor, enables you to create and manage virtual machines on Windows-based systems. It's a cost-effective solution for Windows enthusiasts.
+  - {{< youtube id="3I64TeJ4iNI" >}}
 - [**Proxmox VE**](https://www.proxmox.com/): Proxmox VE is an open-source virtualization platform that combines virtualization, containerization, and storage on a single platform. It supports both Linux and Windows virtual machines and provides a web-based management interface.
+  - {{< youtube id="_u8qTN3cCnQ" >}}
 
-
+_____
 ## Creating a Network Security Lab
 
 With cybersecurity threats on the rise, creating a network security lab is an excellent way to enhance your skills in this domain. By setting up a network with multiple virtual machines, you can simulate various attack scenarios to understand vulnerabilities and learn how to protect against them. Here are some ideas for your network security lab:
 
 - [**pfSense**](https://www.pfsense.org/): pfSense is an open-source firewall and router distribution based on FreeBSD. It offers advanced features such as VPN support, intrusion detection and prevention, and traffic shaping. Setting up pfSense in your lab will provide valuable hands-on experience in network security and firewall configurations. 
-
+  - {{< youtube id="lUzSsX4T4WQ" >}}
 - [**Metasploit**](https://www.metasploit.com/): Metasploit is a popular penetration testing framework that allows you to simulate real-world attacks and test the security of your network. It provides an extensive collection of exploits, payloads, and auxiliary modules to identify and exploit vulnerabilities.
-
+  - {{< youtube id="8lR27r8Y_ik" >}}
 - [**Security Onion**](https://securityonion.net/): Security Onion is a Linux distribution designed for network security monitoring. It integrates various open-source tools like Suricata, Snort, and Elasticsearch to provide real-time threat detection, analysis, and incident response capabilities.
+  - {{< youtube id="TG-pPm7KVro" >}}
 
+_____
 ## Building a Home Media Server
 
 If you're a fan of streaming movies, TV shows, and music, building a home media server can be an exciting project. A home media server allows you to centralize your media collection and stream it to different devices within your home network. Here are some popular tools and platforms for building a home media server:
 
 - [**Plex**](https://www.plex.tv/): Plex is a leading media server software that organizes your media library and provides a user-friendly interface for streaming content. It supports various devices and platforms, including smart TVs, streaming boxes, and mobile devices.
-
+  - {{< youtube id="XKDSld-CrHU" >}}
 - [**Kodi**](https://kodi.tv/): Kodi is a powerful open-source media center that enables you to manage and play your media files. It supports a wide range of plugins and add-ons, allowing you to customize your media streaming experience.
-
+  - {{< youtube id="u0djVvkC8So" >}}
 - [**Emby**](https://emby.media/): Emby is a versatile media server platform that offers features similar to Plex and Kodi. It allows you to stream media files to different devices and provides robust media management capabilities.
-
+  - {{< youtube id="Wl-ghkPwdMI" >}}
+  
+_____
 ## Setting Up a Home Automation System
 
 Home automation systems have become increasingly popular, offering convenience, energy efficiency, and enhanced security for homeowners. Setting up a home automation system can be a challenging yet rewarding project that combines various technologies and devices. Here are some components to include in your home automation lab:
+
+{{< youtube id="LI3lhgOiZ-8" >}}
 
 - [**Raspberry Pi**](https://www.raspberrypi.org/): Raspberry Pi is an affordable single-board computer that can serve as the brain of your home automation system. It can run various software platforms and connect to different sensors and actuators.
 
