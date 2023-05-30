@@ -136,11 +136,6 @@ suffixes = ["xml"]
 mediatype = "application/rss"
 baseName = "feed"
 
-[params.comments]
-  enable = true
-  categories = ["blog", "news", "articles", "guides", "other", "til", "recommendations", "github", "writeups"]
-  contentTypes = []  # Add content types here if needed
-
 [languages]
 [languages.ar]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }]
