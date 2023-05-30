@@ -120,13 +120,15 @@
 
 <!-- Theme CSS -->
 {{ $baseCSS := resources.Get "/style-base.css" }}
-{{ $restCSS := resources.Get "/style-append.css" }}
 {{ $inlineCSS := $baseCSS  }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
 </style>
-{{ $style := slice $restCSS | resources.Concat "css/defer.css" | resources.Minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'; this.onload=null;">
+{{ $restCSS := resources.Get "/style-append.css" }}
+{{ $inlineCSS := $restCSS  }}
+<style type="text/CSS">
+{{ $inlineCSS.Content | safeCSS }}
+</style>
 
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
