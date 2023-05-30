@@ -129,7 +129,6 @@
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'; this.onload=null;">
 
 <!-- preload and prefetch first-party js -->
-<link rel="preload" href="/js/lazyload.js" as="script" type="text/javascript">
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
 {{ if .IsPage }}
   <link rel="preload" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
@@ -138,9 +137,6 @@
   <link rel="prefetch" href="/js/search.js" as="script" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" defer>
-
-<!-- implement lazyload.js -->
-<script src="/js/lazyload.js"></script>
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
 <link rel="manifest" href="{{ "manifest.json" | absURL }}" />
