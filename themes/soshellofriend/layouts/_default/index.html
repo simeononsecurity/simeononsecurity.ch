@@ -14,10 +14,10 @@
     </div>
   {{ end }}
   {{ if .IsHome }}
+    <h1 class="post-title"><a title="{{ i18n "discover_title" }}" href="{{ .Permalink }}">{{ i18n "discover_title" }}</a></h1>
     <div id="ad-placeholder" class="google-ad-banner" style="width: 100%; max-height: 250px">
       {{ partial "displayads-responsive-horizontal.html" . }}
     </div>
-    <h1 class="post-title"><a title="{{ i18n "discover_title" }}" href="{{ .Permalink }}">{{ i18n "discover_title" }}</a></h1>
 {{ else }}
   <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
 {{ end }}
