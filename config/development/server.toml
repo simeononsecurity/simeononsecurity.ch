@@ -131,9 +131,10 @@ Access-Control-Allow-Origin = "*"
 
 [[server.headers]]
 for = "/*.xml"
-[server.headers.values]
+[headers.values]
 Cache-Control = "public, max-age=3600, must-revalidate"
 Access-Control-Allow-Origin = "*"
+Content-Type = "application/xml"
 
 [[server.headers]]
 for = "/*.mjs"
