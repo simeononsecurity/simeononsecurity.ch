@@ -52,19 +52,19 @@ There are several methods employed during penetration testing, each serving a sp
 
 To conduct effective penetration testing, professionals utilize a range of tools that assist in identifying vulnerabilities and executing simulated attacks. Some commonly used tools include:
 
-1. **Metasploit**: Metasploit is an open-source penetration testing framework that provides a comprehensive suite of tools for testing vulnerabilities and executing exploits.
+1. [**Metasploit**](https://www.metasploit.com/): Metasploit is an open-source penetration testing framework that provides a comprehensive suite of tools for testing vulnerabilities and executing exploits.
 
 {{< youtube id="TCPyoWHy4eA" >}}
 
-2. **Nmap**: Nmap is a powerful network scanning tool that assists in mapping out network architecture, identifying open ports, and detecting potential vulnerabilities.
+2. [**Nmap**](https://nmap.org/): Nmap is a powerful network scanning tool that assists in mapping out network architecture, identifying open ports, and detecting potential vulnerabilities.
 
 {{< youtube id="KVHSGWgVw-E" >}}
 
-3. **Burp Suite**: Burp Suite is an integrated platform for performing security testing of web applications. It includes tools for manual and automated testing, intercepting and modifying web traffic, and identifying vulnerabilities.
+3. [**Burp Suite**](https://portswigger.net/burp): Burp Suite is an integrated platform for performing security testing of web applications. It includes tools for manual and automated testing, intercepting and modifying web traffic, and identifying vulnerabilities.
 
 {{< youtube id="G3hpAeoZ4ek" >}}
 
-4. **Wireshark**: Wireshark is a widely-used network protocol analyzer that captures and analyzes network traffic. It helps penetration testers examine packets and identify potential security issues.
+4. [**Wireshark**](https://www.wireshark.org/): Wireshark is a widely-used network protocol analyzer that captures and analyzes network traffic. It helps penetration testers examine packets and identify potential security issues.
 
 {{< youtube id="uJiAoLcmZzA" >}}
 
