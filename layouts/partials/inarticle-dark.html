@@ -1,19 +1,26 @@
 <!-- Native In-article ads -->
 <!-- Also match your site and work well with articles and content pages. -->
 
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4092442123207538"
-     data-ad-slot="8444676629"></ins>
-<script>
-     function loadAd() {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }
-        window.addEventListener("scroll", function() {
-          if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-            loadAd();
-          }
-        });
+<ins
+  class="adsbygoogle"
+  style="display:block; text-align:center;"
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
+  data-ad-client="ca-pub-4092442123207538"
+  data-ad-slot="8444676629"
+></ins>
+<script defer>
+  function loadAd() {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }
+
+  window.addEventListener(
+    "scroll",
+    function() {
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+        loadAd();
+      }
+    },
+    { passive: true }
+  ); // Mark the event listener as passive
 </script>
