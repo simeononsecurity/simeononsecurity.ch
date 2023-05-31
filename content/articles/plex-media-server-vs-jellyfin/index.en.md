@@ -4,7 +4,7 @@ date: 2023-02-01
 toc: true
 draft: false
 description: "Discover the difference between Plex Media Server and Jellyfin in this comprehensive comparison article for an informed decision on the best media server solution."
-tags: ["Plex Media Server", "Jellyfin", "Media Server Comparison", "Organizing Media", "Streaming Media", "Open-Source Media Server", "Budget-Friendly Solution", "User-Friendly Interface", "Automatic Media Organization", "Live TV and DVR", "Music Streaming", "Photo Management", "Open-Source Community"]
+tags: ["Plex Media Server", "Jellyfin", "Media Server Comparison", "Organizing Media", "Streaming Media", "Open-Source Media Server", "Budget-Friendly Solution", "User-Friendly Interface", "Automatic Media Organization", "Live TV and DVR", "Music Streaming", "Photo Management", "Open-Source Community", "jellyfin vs plex", "media server features", "media server software", "personal media library", "streaming platform", "media server options", "media server comparison article", "Plex plugins", "Jellyfin web interface", "media server setup", "media server cost", "Plex subscription", "free media server", "open-source software", "media server community", "Plex tutorials", "Jellyfin user interface", "open source media server"]
 cover: "/img/cover/plex-vs-jellyfin.png"
 coverAlt: "A pair of servers facing each other. Colors matching the themes of plex, black and orange, and jellyfin, lightblue and purple."
 coverCaption: ""

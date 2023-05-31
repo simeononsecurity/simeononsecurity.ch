@@ -97,14 +97,12 @@
     {{ end }}
     {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
     {{ $currentPath := .Permalink }}
-    
     {{ $disableComments := false }}
     {{ range $disabledURLs }}
       {{ if (in $currentPath .) }}
         {{ $disableComments = true }}
       {{ end }}
     {{ end }}
-    
     {{ if not $disableComments }}
       {{ if not (eq .Params.Comments.enable false) }}
         {{ partial "comments.html" . }}
