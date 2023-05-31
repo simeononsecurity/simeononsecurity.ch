@@ -113,5 +113,3 @@ Nmap is a powerful and widely used network scanning tool that provides valuable 
 - Official Nmap Documentation: [https://nmap.org/book/man.html](https://nmap.org/book/man.html)
 - Computer Fraud and Abuse Act (CFAA): [https://www.law.cornell.edu/uscode/text/18/part-I/chapter-47](https://www.law.cornell.edu/uscode/text/18/part-I/chapter-47)
 - General Data Protection Regulation (GDPR): [https://gdpr.eu/](https://gdpr.eu/)
-
-*Note: The above references are for informational purposes only and do not endorse or promote any specific websites or products.*
