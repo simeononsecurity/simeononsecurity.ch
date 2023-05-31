@@ -1,6 +1,9 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+         xmlns:xhtml="http://www.w3.org/1999/xhtml"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   {{ range .Data.Pages }}
     {{ if and (not (or (hasPrefix .RelPermalink "/tags") (hasPrefix .RelPermalink "/categories"))) (not (.Params.sitemap_ignore | default false)) }}
     <url>
