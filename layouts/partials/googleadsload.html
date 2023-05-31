@@ -1,5 +1,5 @@
 <script defer data-ad-client="ca-pub-4092442123207538" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" crossorigin="anonymous"></script>
-<script>
+<script defer>
     function lazyLoadAds() {
       var adPlaceholder = document.getElementById('ad-placeholder');
       var observer = new IntersectionObserver(function(entries, observer) {
@@ -12,13 +12,13 @@
             observer.unobserve(entry.target);
           }
         });
-      });
+      }, { passive: true }); // Mark the observer as passive
   
       observer.observe(adPlaceholder);
     }
   
     // Call the lazyLoadAds function when the page finishes loading
-    window.addEventListener('load', lazyLoadAds);
+    window.addEventListener('load', lazyLoadAds, { passive: true }); // Mark the event listener as passive
 </script>
 <script defer>
   window.addEventListener('DOMContentLoaded', function() {
