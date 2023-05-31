@@ -18,6 +18,53 @@
     "https://zh.simeononsecurity.ch"
 }}
 
-{{ $baseURLs := (delimit $baseURLs "|") }}
+{{ $amazonURLs := slice
+    "amazon.com"
+    "amzn.to"
+    "amazon.co.uk"
+    "amazon.de"
+    "amazon.fr"
+    "amazon.it"
+    "amazon.es"
+    "amazon.ca"
+    "amazon.com.mx"
+    "amazon.com.br"
+    "amazon.com.au"
+    "amazon.co.jp"
+    "amazon.in"
+    "amazon.nl"
+    "amazon.com.tr"
+    "amazon.ae"
+    "amazon.sa"
+    "amazon.cn"
+}}
 
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }}{{ if not (strings.ContainsAny .Destination $baseURLs )}} target="_blank" rel="nofollow noopener noreferrer"{{ end }}{{ end }}>{{ .Text | safeHTML }}</a>
+{{ $isBaseURL := false }}
+{{ $isAmazonURL := false }}
+
+{{ range $baseURL := $baseURLs }}
+    {{ if strings.Contains $.Destination $baseURL }}
+        {{ $isBaseURL = true }}
+        {{ break }}
+    {{ end }}
+{{ end }}
+
+{{ range $amazonURL := $amazonURLs }}
+    {{ if strings.Contains $.Destination $amazonURL }}
+        {{ $isAmazonURL = true }}
+        {{ break }}
+    {{ end }}
+{{ end }}
+
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}
+{{ if or (not (strings.Contains $.Destination "http")) $isBaseURL }}
+ rel="follow"
+{{ else if strings.HasPrefix $.Destination "http" }}
+{{ if not $isBaseURL }}
+{{ if $isAmazonURL }}
+ rel="nofollow noopener noreferrer"
+{{ else }}
+ rel="noopener noreferrer"
+{{ end }}
+{{ end }}
+{{ end }}>{{ .Text | safeHTML }}</a>
