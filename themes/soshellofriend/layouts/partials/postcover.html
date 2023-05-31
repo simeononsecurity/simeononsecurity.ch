@@ -1,3 +1,4 @@
+{{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
 <figure class="post-cover">
     {{ if .Params.UseRelativeCover }}
     {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
@@ -38,3 +39,6 @@
       <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
     {{ end }}
 </figure>
+{{ else }}
+<figure class="post-cover"></figure>
+{{ end }}
