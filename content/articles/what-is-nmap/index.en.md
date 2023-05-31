@@ -10,7 +10,7 @@ coverAlt: "Network Security Concept with Nmap Scanning Tools in a 3D Animated St
 coverCaption: ""
 ---
 
-[**What is Nmap and How to Use It**](https://nmap.org/download.html)
+[**What is Nmap and How to Use It?**](https://nmap.org/download.html)
 
 [Nmap](https://nmap.org/download.html) (Network Mapper) is a powerful and versatile open-source network scanning tool used to discover hosts and services on a computer network. It provides valuable information about network infrastructure and aids in assessing network security. In this article, we will explore the basics of Nmap, its features, and how to effectively use it.
 
