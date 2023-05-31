@@ -23,6 +23,8 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
         - Used for dynamic theme generation.
 - [Netlify](https://www.netlify.com/)
     - Used for Hosting, SSL Registration, Forms, Automated Hugo Site Generation
+- [glotta](https://github.com/simeononsecurity/glotta)
+  - Used for article translations. Supports 16 languages. Developed by [1nf053c](https://github.com/1nf053c).
 - [Progressive Web App / Service Workers](https://web.dev/progressive-web-apps/)
     - Used to increase usability and accessability of the site.
     - Looking for help with https://github.com/simeononsecurity/simeononsecurity.ch/issues/487
