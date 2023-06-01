@@ -41,5 +41,7 @@ For a visual guide, you can watch the following video tutorial:
 ## Conclusion
 By installing Peer 2 Profit and sharing your internet, you have the opportunity to earn passive income effortlessly. With its user-friendly interface and multiple payout options, Peer 2 Profit offers a convenient way to monetize your internet connection. Get started today and start earning!
 
+Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+
 ## Reference
 - [Peer 2 Profit](https://p2pr.me/16538445386293aa3aaec4e)

@@ -55,5 +55,7 @@ PawnsApp provides an excellent opportunity to earn passive income by sharing you
 
 Start your journey with PawnsApp today and unlock the potential of earning money effortlessly!
 
+Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+
 #### Reference
 - [PawnsApp](https://pawns.app/?r=sos)

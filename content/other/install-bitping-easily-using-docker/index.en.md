@@ -64,6 +64,8 @@ Congratulations! You have successfully installed and set up Bitping on your syst
 
 For more information and detailed documentation, visit the [Bitping website](https://bitping.com) and refer to their official resources.
 
+Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+
 **References:**
 
 - [Bitping Website](https://bitping.com)

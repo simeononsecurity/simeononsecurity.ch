@@ -50,6 +50,8 @@ For instructions on port forwarding, you can refer to the following resources:
 
 Mysterium provides a decentralized VPN and web scraping service that allows you to earn money while maintaining privacy and security. With potential monthly earnings ranging from $1 to $20 per node per IP, it offers an income opportunity for users. Start using Mysterium and take advantage of its features today!
 
+Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+
 ## Reference
 
 - [Mysterium](https://www.mysterium.network/)

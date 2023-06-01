@@ -36,6 +36,8 @@ For more detailed instructions, refer to the [Traff Monetizer documentation](htt
 
 By installing Traff Monetizer and sharing your internet, you have the opportunity to earn money online. With an average monthly earning of about $2 per node per IP, it presents a potential source of income. Keep in mind that payouts are only available in BTC. Start monetizing your internet connection today!
 
+Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+
 ## Reference
 
 - [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
