@@ -15,6 +15,8 @@ The **preferred** service in this category is [Abine DeleteMe](https://joindelet
 
 Another **alternate** service to consider in this category is [OneRep](https://onerep.com). OneRep offers a similar service to DeleteMe, removing your personal information from data brokers. OneRep's pricing is more affordable than DeleteMe, starting at $4.95 per month, but they do not remove information from as many data brokers as DeleteMe.
 
+A new addition to this category is [Optery](https://app.optery.com/). Optery is a comprehensive privacy service that helps you manage and protect your personal information online. With Optery, you can easily remove your information from data brokers, control your online presence, and safeguard your privacy. Although specific pricing details may vary, Optery offers competitive subscription options tailored to meet your privacy needs. We really like the screenshots and direct links to each data exposure. This information can make tracking your exposures significantly easier.
+
 ## Masking Information
 
 The next category of services we'll cover is information masking. These services help protect your personal information by masking it, making it harder for it to be stolen or used maliciously. The services we'll cover in this category are password managers and one-time-use debit cards.
