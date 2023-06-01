@@ -15,19 +15,19 @@ self.addEventListener("message", (event) => {
 self.addEventListener('install', async (event) => {
   event.waitUntil(
     caches.open(CACHE)
-      .then((cache) => cache.add(offlineFallbackPage))
-      .then(() => {
-        const staticAssets = [
-          '/',
-          '/index.html',
-          '/offline.html',
-          '/assets/main.js',
-          '/assets/prism.js',
-          '/img/apple-touch-icon-192.png'
-        ];
+    .then((cache) => cache.add(offlineFallbackPage))
+    .then(() => {
+      const staticAssets = [
+        '/',
+        '/index.html',
+        '/offline.html',
+        '/assets/main.js',
+        '/assets/prism.js',
+        '/img/apple-touch-icon-192.png'
+      ];
 
-        return caches.open(CACHE).then((cache) => cache.addAll(staticAssets));
-      })
+      return caches.open(CACHE).then((cache) => cache.addAll(staticAssets));
+    })
   );
 });
 
@@ -52,26 +52,37 @@ workbox.routing.registerRoute(
   })
 );
 
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', (event) => {
+  const { request } = event;
+
+  // Skip handling of external resources
+  if (!request.url.startsWith(self.location.origin)) {
+    return;
+  }
+
   event.respondWith(
-    caches.open(CACHE).then(function(cache) {
-      return cache.match(event.request).then(function(response) {
-        // Return cached resource if found
-        if (response) {
-          return response;
+    caches.match(request)
+      .then((cachedResponse) => {
+        if (cachedResponse) {
+          return cachedResponse;
         }
-        // Fetch resource from the network
-        return fetch(event.request).then(function(networkResponse) {
-          // Cache the fetched resource for future use
-          cache.put(event.request, networkResponse.clone());
-          return networkResponse;
-        }).catch(function(error) {
-          // Handle fetch errors gracefully
-          console.log('Fetch failed:', error);
-          // Return a fallback response or simply allow the browser to fetch the resource
-          return fetch(event.request);
-        });
-      });
-    })
+
+        return fetch(request)
+          .then((response) => {
+            // Clone the response since it can only be consumed once
+            const responseClone = response.clone();
+
+            caches.open(CACHE)
+              .then((cache) => {
+                cache.put(request, responseClone);
+              });
+
+            return response;
+          });
+      })
+      .catch(() => {
+        // Return the offline fallback page if any error occurs
+        return caches.match(offlineFallbackPage);
+      })
   );
 });
