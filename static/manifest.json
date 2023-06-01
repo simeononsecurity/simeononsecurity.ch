@@ -21,7 +21,7 @@
       "src": "/img/maskable_icon.png",
       "sizes": "460x460",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "/img/windows11/SmallTile.scale-100.png",
