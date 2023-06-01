@@ -1,88 +1,133 @@
-// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+importScripts('https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js');
 
-const CACHE = "pwabuilder-offline-page";
+const CACHE_NAME = 'sos';
+const staticAssets = [
+  '/',
+  '/index.html',
+  '/offline.html',
+  '/assets/main.js',
+  '/assets/prism.js',
+  '/img/apple-touch-icon-192.png'
+];
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+self.addEventListener('install', function (event) {
+  console.log('[ServiceWorker] Install');
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.addAll(staticAssets);
+  })());
+  self.skipWaiting();
+});
 
-const offlineFallbackPage = "/offline.html";
+self.addEventListener('activate', (event) => {
+  console.log('[ServiceWorker] Activate');
+  event.waitUntil((async () => {
+    // Enable navigation preload if it's supported.
+    // See https://developers.google.com/web/updates/2017/02/navigation-preload
+    if ('navigationPreload' in self.registration) {
+      await self.registration.navigationPreload.enable();
+    }
+    return self.clients.claim();
+  })());
 
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    self.skipWaiting();
+  // Tell the active service worker to take control of the page immediately.
+  self.clients.claim();
+});
+
+const cacheFirst = new workbox.strategies.CacheFirst();
+const staleWhileRevalidate = new workbox.strategies.StaleWhileRevalidate();
+const networkFirst = new workbox.strategies.NetworkFirst();
+const navigationHandler = async (params) => {
+  const { request } = params;
+
+  // Check if the resource is an image
+  if (request.destination === 'image') {
+    const cacheResponse = await cacheFirst.handle(params);
+    return cacheResponse;
   }
-});
 
-self.addEventListener('install', async (event) => {
-  event.waitUntil(
-    caches.open(CACHE)
-    .then((cache) => cache.add(offlineFallbackPage))
-    .then(() => {
-      const staticAssets = [
-        '/',
-        '/index.html',
-        '/offline.html',
-        '/assets/main.js',
-        '/assets/prism.js',
-        '/img/apple-touch-icon-192.png'
-      ];
+  // Check if the resource is a CSS file
+  if (request.destination === 'style') {
+    const cacheResponse = await staleWhileRevalidate.handle(params);
+    return cacheResponse;
+  }
 
-      return caches.open(CACHE).then((cache) => cache.addAll(staticAssets));
-    })
-  );
-});
+  // Check if the resource is a JS file
+  if (request.destination === 'script') {
+    const cacheResponse = await staleWhileRevalidate.handle(params);
+    return cacheResponse;
+  }
 
-if (workbox.navigationPreload.isSupported()) {
-  workbox.navigationPreload.enable();
-}
+  // Check if the resource is a font file
+  if (request.destination === 'font') {
+    const cacheResponse = await cacheFirst.handle(params);
+    return cacheResponse;
+  }
+
+  // For all other resources from the domain
+  if (request.url.startsWith(location.origin)) {
+    const networkResponse = await networkFirst.handle(params);
+    return networkResponse;
+  }
+
+  // For third-party and offsite resources, do not cache
+  return fetch(request);
+};
 
 workbox.routing.registerRoute(
-  new RegExp('/*'),
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE,
-    plugins: [
-      new workbox.expiration.ExpirationPlugin({
-        maxEntries: 50, // Adjust the number of cached entries as needed
-        purgeOnQuotaError: true
-      }),
-      new workbox.cacheableResponse.CacheableResponsePlugin({
-        statuses: [200]
-      }),
-      new workbox.broadcastUpdate.BroadcastUpdatePlugin(),
-    ]
-  })
+  ({ request }) => request.mode === 'navigate',
+  navigationHandler
 );
 
-self.addEventListener('fetch', (event) => {
-  const { request } = event;
+workbox.routing.registerRoute(
+  ({ request }) => {
+    const { destination, url } = request;
+    return (
+      destination === 'image' &&
+      (url.origin === location.origin || !url.origin) // Allow relative paths
+    );
+  },
+  navigationHandler
+);
 
-  // Skip handling of external resources
-  if (!request.url.startsWith(self.location.origin)) {
-    return;
-  }
+workbox.routing.registerRoute(
+  ({ request }) => {
+    const { destination, url } = request;
+    return (
+      destination === 'style' &&
+      (url.origin === location.origin || !url.origin) // Allow relative paths
+    );
+  },
+  navigationHandler
+);
 
-  event.respondWith(
-    caches.match(request)
-      .then((cachedResponse) => {
-        if (cachedResponse) {
-          return cachedResponse;
-        }
+workbox.routing.registerRoute(
+  ({ request }) => {
+    const { destination, url } = request;
+    return (
+      destination === 'script' &&
+      (url.origin === location.origin || !url.origin) // Allow relative paths
+    );
+  },
+  navigationHandler
+);
 
-        return fetch(request)
-          .then((response) => {
-            // Clone the response since it can only be consumed once
-            const responseClone = response.clone();
+workbox.routing.registerRoute(
+  ({ request }) => {
+    const { destination, url } = request;
+    return (
+      destination === 'font' &&
+      (url.origin === location.origin || !url.origin) // Allow relative paths
+    );
+  },
+  navigationHandler
+);
 
-            caches.open(CACHE)
-              .then((cache) => {
-                cache.put(request, responseClone);
-              });
+workbox.routing.registerRoute(
+  ({ request }) => {
+    const { url } = request;
+    return url.origin === location.origin;
+  },
+  navigationHandler
+);
 
-            return response;
-          });
-      })
-      .catch(() => {
-        // Return the offline fallback page if any error occurs
-        return caches.match(offlineFallbackPage);
-      })
-  );
-});
