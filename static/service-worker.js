@@ -51,24 +51,26 @@ workbox.routing.registerRoute(
   })
 );
 
-self.addEventListener('fetch', (event) => {
+self.addEventListener('fetch', function(event) {
   event.respondWith(
-    (async () => {
-      try {
-        const preloadResp = await event.preloadResponse;
-        if (preloadResp) {
-          return preloadResp;
+    caches.open(CACHE).then(function(cache) {
+      return cache.match(event.request).then(function(response) {
+        // Return cached resource if found
+        if (response) {
+          return response;
         }
-        const networkResp = await fetch(event.request);
-        return networkResp;
-      } catch (error) {
-        const cache = await caches.open(CACHE);
-        const cachedResp = await cache.match(event.request);
-        if (cachedResp) {
-          return cachedResp;
-        }
-        throw new Error('Failed to fetch and no cache fallback available');
-      }
-    })()
+        // Fetch resource from the network
+        return fetch(event.request).then(function(networkResponse) {
+          // Cache the fetched resource for future use
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
+        }).catch(function(error) {
+          // Handle fetch errors gracefully
+          console.log('Fetch failed:', error);
+          // Return a fallback response or simply allow the browser to fetch the resource
+          return fetch(event.request);
+        });
+      });
+    })
   );
 });
