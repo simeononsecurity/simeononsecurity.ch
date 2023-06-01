@@ -279,7 +279,7 @@
 .google-ad-banner {
   width: 100%;
   height: 100px !important; /* Adjust height as needed */
-  max-height: 250px !important;
+  max-height: 300px !important;
   /* Additional styles specific to banner ads */
   position: relative !important;
 }

@@ -1,48 +1,135 @@
-<script defer data-ad-client="ca-pub-4092442123207538" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" crossorigin="anonymous"></script>
-<script defer>
-    function lazyLoadAds() {
-      var adPlaceholder = document.getElementById('ad-placeholder');
-      var observer = new IntersectionObserver(function(entries, observer) {
+<script
+  async
+  data-ad-client="ca-pub-4092442123207538"
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538"
+  crossorigin="anonymous"
+></script>
+<script async>
+  let timeoutId;
+  const delaySeconds = 0.2; // Adjust the delay in seconds as per your requirements
+  const delay = delaySeconds * 1000; // Convert the delay to milliseconds
+
+  function loadAd() {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }
+
+  function checkIfAdShouldLoad() {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+      loadAd();
+      window.removeEventListener("scroll", checkIfAdShouldLoad);
+    }
+  }
+
+  function debounce(func, delay) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(func, delay);
+  }
+
+  function throttle(func, delay) {
+    if (!timeoutId) {
+      timeoutId = setTimeout(() => {
+        func();
+        timeoutId = null;
+      }, delay);
+    }
+  }
+
+  function handleScroll() {
+    // Use either debounce or throttle here based on your requirement
+    debounce(checkIfAdShouldLoad, delay);
+    // throttle(checkIfAdShouldLoad, delay);
+  }
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+</script>
+<script async>
+  function onPageLoad() {
+    lazyLoadAds();
+    window.addEventListener("scroll", debounce(checkIfAdShouldLoad, 300), {
+      passive: true,
+    });
+  }
+
+  window.addEventListener("load", onPageLoad, { passive: true });
+
+  var debounceTimeout;
+
+  function debounce(func, delay) {
+    return function() {
+      clearTimeout(debounceTimeout);
+      debounceTimeout = setTimeout(func, delay);
+    };
+  }
+
+  function lazyLoadAds() {
+    var adPlaceholder = document.getElementById("ad-placeholder");
+
+    if (!adPlaceholder) {
+      console.error("Ad placeholder element not found.");
+      return;
+    }
+
+    var observer = new IntersectionObserver(
+      function(entries, observer) {
         entries.forEach(function(entry) {
           if (entry.isIntersecting) {
             // Load the ad
             (adsbygoogle = window.adsbygoogle || []).push({});
-            
+
             // Stop observing once the ad is loaded
+            observer.unobserve(entry.target);
+          } else if (entry.intersectionRatio <= 0) {
+            // Handle error case: stop observing if the element is no longer visible
             observer.unobserve(entry.target);
           }
         });
-      }, { passive: true }); // Mark the observer as passive
-  
+      },
+      { passive: true }
+    ); // Mark the observer as passive
+
+    try {
       observer.observe(adPlaceholder);
+    } catch (error) {
+      console.error("Error observing ad placeholder element:", error);
     }
-  
-    // Call the lazyLoadAds function when the page finishes loading
-    window.addEventListener('load', lazyLoadAds, { passive: true }); // Mark the event listener as passive
+  }
 </script>
 <script defer>
-  window.addEventListener('DOMContentLoaded', function() {
-    var iframes = document.querySelectorAll('iframe[src*="https://googleads.g.doubleclick.net"]');
-    for (var i = 0; i < iframes.length; i++) {
-      if (!iframes[i].hasAttribute('title')) {
-        iframes[i].title = 'google ads';
-      }
-      if (!iframes[i].hasAttribute('role')) {
-        iframes[i].setAttribute('role', 'banner'); // Add the "banner" role to the iframe
-      }
-    }
-    var iframesWithDataGoogleContainerId = document.querySelectorAll('iframe[data-google-container-id]');
-    iframesWithDataGoogleContainerId.forEach(function (iframe) {
-      iframe.addEventListener('load', function () {
-        var containerId = iframe.getAttribute('data-google-container-id');
-        if (!iframe.hasAttribute('title')) {
-          iframe.title = 'google ads';
+  window.addEventListener("DOMContentLoaded", function() {
+    try {
+      var iframes = document.querySelectorAll('iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]');
+    
+      iframes.forEach(function(iframe) {
+        if (!iframe.hasAttribute("title")) {
+          iframe.setAttribute("title", "google ads");
         }
-        if (!iframe.hasAttribute('role')) {
-          iframe.setAttribute('role', 'banner'); // Add the "banner" role to the iframe
+        if (!iframe.hasAttribute("role")) {
+          iframe.setAttribute("role", "banner");
+        }
+  
+        if (iframe.hasAttribute("data-google-container-id")) {
+          if (iframe.complete) {
+            setAttributes(iframe);
+          } else {
+            iframe.addEventListener("load", function() {
+              setAttributes(iframe);
+            });
+          }
         }
       });
-    });
-  });
+  
+      function setAttributes(iframe) {
+        var containerId = iframe.getAttribute("data-google-container-id");
+        if (!iframe.hasAttribute("title")) {
+          iframe.setAttribute("title", "google ads");
+        }
+        if (!iframe.hasAttribute("role")) {
+          iframe.setAttribute("role", "banner");
+        }
+      }
+    } catch (error) {
+      // Handle any errors that occur during the execution of the code
+      console.error("An error occurred:", error);
+    }
+  });  
 </script>
-

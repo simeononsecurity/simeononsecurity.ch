@@ -6,7 +6,7 @@
   {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
   {{ $currentPath := .Permalink }}
   {{ if not (in $currentPath $excludePaths) }}
-  <div id="ad-placeholder" class="google-ad-banner" style="width: 100%;  height: 100px !important; max-height: 250px !important;">
+  <div id="ad-placeholder" class="google-ad-banner" style="width: 100%;  height: 100px !important; max-height: 300px !important;">
     {{ partial "displayads-responsive-horizontal.html" . }}
   </div>
   {{ end }}
