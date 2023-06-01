@@ -29,9 +29,19 @@
 <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://www.clarity.ms">
 
-{{ if .IsPage }}
-<link rel="preconnect" href="https://utteranc.es">
-<link rel="dns-prefetch" href="https://utteranc.es">
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $currentPath := .Permalink }}
+{{ $disableComments := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disableComments = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disableComments }}
+  {{ if not (eq .Params.Comments.enable false) }}
+  <link rel="preconnect" href="https://utteranc.es">
+  <link rel="dns-prefetch" href="https://utteranc.es">
+  {{ end }}
 {{ end }}
 
 <!-- mastodon verification  -->
@@ -124,13 +134,23 @@
 
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
-{{ if .IsPage }}
-  <link rel="preload" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $currentPath := .Permalink }}
+{{ $disableComments := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disableComments = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disableComments }}
+  {{ if not (eq .Params.Comments.enable false) }}
+  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
+  {{ end }}
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-  <link rel="prefetch" href="/js/search.js" as="script" type="text/javascript">
+  <link rel="prefetch" href="{{ "js/search.js" | absURL }}" as="script" type="text/javascript">
 {{ end }}
-<link rel="prefetch" href="/service-worker.js" as="script" type="text/javascript" defer>
+<link rel="prefetch" href="{{ "service-worker.js" | absURL }}"  as="script" type="text/javascript" defer>
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
 <link rel="manifest" href="{{ "manifest.json" | absURL }}" />
@@ -147,14 +167,22 @@
 <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript" /> 
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
 <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript" /> 
-{{ if .IsPage }}
-<link rel="preload" href="https://utteranc.es/client.js" as="script" crossorigin="anonymous">
-{{/*  <link rel="prefetch" href="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US" type="text/javascript" />
-<link rel="prefetch" href="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=661d0b1c-39a5-423e-892e-d08ef6f769de" type="text/javascript" />  */}}
-{{ end }}
 {{ if in (urlize .Permalink) "/search" }}
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript">
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript">
+{{ end }}
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $currentPath := .Permalink }}
+{{ $disableComments := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disableComments = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disableComments }}
+  {{ if not (eq .Params.Comments.enable false) }}
+  <link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript">
+  {{ end }}
 {{ end }}
 
 {{/*  <div id="requireHTTPS" class="hidden" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh;">
