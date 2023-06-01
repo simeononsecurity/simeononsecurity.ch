@@ -41,31 +41,31 @@ const navigationHandler = async (params) => {
   const { request } = params;
 
   // Check if the resource is an image
-  if (request.destination === 'image') {
+  if ((request.destination === 'image') && (request.url.startsWith(location.origin) || !request.url.startsWith('http'))) {
     const cacheResponse = await cacheFirst.handle(params);
     return cacheResponse;
   }
 
   // Check if the resource is a CSS file
-  if (request.destination === 'style') {
+  if ((request.destination === 'style') && (request.url.startsWith(location.origin) || !request.url.startsWith('http'))) {
     const cacheResponse = await staleWhileRevalidate.handle(params);
     return cacheResponse;
   }
 
   // Check if the resource is a JS file
-  if (request.destination === 'script') {
+  if ((request.destination === 'script') && (request.url.startsWith(location.origin) || !request.url.startsWith('http'))) {
     const cacheResponse = await staleWhileRevalidate.handle(params);
     return cacheResponse;
   }
 
   // Check if the resource is a font file
-  if (request.destination === 'font') {
+  if ((request.destination === 'font') && (request.url.startsWith(location.origin) || !request.url.startsWith('http'))) {
     const cacheResponse = await cacheFirst.handle(params);
     return cacheResponse;
   }
 
   // For all other resources from the domain
-  if (request.url.startsWith(location.origin)) {
+  if (request.url.startsWith(location.origin) || !request.url.startsWith('http')) {
     const networkResponse = await networkFirst.handle(params);
     return networkResponse;
   }
