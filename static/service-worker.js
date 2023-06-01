@@ -4,7 +4,6 @@ const CACHE = "pwabuilder-offline-page";
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = "/offline.html";
 
 self.addEventListener("message", (event) => {
@@ -39,27 +38,37 @@ if (workbox.navigationPreload.isSupported()) {
 workbox.routing.registerRoute(
   new RegExp('/*'),
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE
+    cacheName: CACHE,
+    plugins: [
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 50, // Adjust the number of cached entries as needed
+        purgeOnQuotaError: true
+      }),
+      new workbox.cacheableResponse.CacheableResponsePlugin({
+        statuses: [200]
+      })
+    ]
   })
 );
 
 self.addEventListener('fetch', (event) => {
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
+  event.respondWith(
+    (async () => {
       try {
         const preloadResp = await event.preloadResponse;
-
         if (preloadResp) {
           return preloadResp;
         }
-
         const networkResp = await fetch(event.request);
         return networkResp;
       } catch (error) {
         const cache = await caches.open(CACHE);
-        const cachedResp = await cache.match(offlineFallbackPage);
-        return cachedResp;
+        const cachedResp = await cache.match(event.request);
+        if (cachedResp) {
+          return cachedResp;
+        }
+        throw new Error('Failed to fetch and no cache fallback available');
       }
-    })());
-  }
+    })()
+  );
 });
