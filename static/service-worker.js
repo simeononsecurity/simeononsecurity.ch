@@ -46,7 +46,8 @@ workbox.routing.registerRoute(
       }),
       new workbox.cacheableResponse.CacheableResponsePlugin({
         statuses: [200]
-      })
+      }),
+      new workbox.broadcastUpdate.BroadcastUpdatePlugin(),
     ]
   })
 );
