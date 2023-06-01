@@ -14,7 +14,8 @@
     {
       "src": "/img/512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/img/maskable_icon.png",
