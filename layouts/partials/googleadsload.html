@@ -5,7 +5,7 @@
   crossorigin="anonymous"
 ></script>
 <script async>
-  let timeoutId;
+  let rafId;
   const delaySeconds = 0.2; // Adjust the delay in seconds as per your requirements
   const delay = delaySeconds * 1000; // Convert the delay to milliseconds
 
@@ -20,24 +20,26 @@
     }
   }
 
-  function debounce(func, delay) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(func, delay);
+  function debounce(func) {
+    if (rafId) {
+      cancelAnimationFrame(rafId);
+    }
+    rafId = requestAnimationFrame(func);
   }
 
-  function throttle(func, delay) {
-    if (!timeoutId) {
-      timeoutId = setTimeout(() => {
+  function throttle(func) {
+    if (!rafId) {
+      rafId = requestAnimationFrame(() => {
         func();
-        timeoutId = null;
-      }, delay);
+        rafId = null;
+      });
     }
   }
 
   function handleScroll() {
     // Use either debounce or throttle here based on your requirement
-    debounce(checkIfAdShouldLoad, delay);
-    // throttle(checkIfAdShouldLoad, delay);
+    debounce(checkIfAdShouldLoad);
+    // throttle(checkIfAdShouldLoad);
   }
 
   window.addEventListener("scroll", handleScroll, { passive: true });
@@ -45,21 +47,21 @@
 <script async>
   function onPageLoad() {
     lazyLoadAds();
-    window.addEventListener("scroll", debounce(checkIfAdShouldLoad, 300), {
-      passive: true,
-    });
+    var rafId;
+
+    function handleScroll() {
+      cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(checkIfAdShouldLoad);
+    }
+
+    window.addEventListener(
+      "scroll",
+      handleScroll,
+      { passive: true }
+    );
   }
 
   window.addEventListener("load", onPageLoad, { passive: true });
-
-  var debounceTimeout;
-
-  function debounce(func, delay) {
-    return function() {
-      clearTimeout(debounceTimeout);
-      debounceTimeout = setTimeout(func, delay);
-    };
-  }
 
   function lazyLoadAds() {
     var adPlaceholder = document.getElementById("ad-placeholder");
@@ -94,6 +96,7 @@
     }
   }
 </script>
+
 <script defer>
   window.addEventListener("DOMContentLoaded", function() {
     try {
