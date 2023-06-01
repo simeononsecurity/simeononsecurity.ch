@@ -24,16 +24,25 @@
   window.addEventListener('DOMContentLoaded', function() {
     var iframes = document.querySelectorAll('iframe[src*="https://googleads.g.doubleclick.net"]');
     for (var i = 0; i < iframes.length; i++) {
-      if (!iframes[i].title) {
+      if (!iframes[i].hasAttribute('title')) {
         iframes[i].title = 'google ads';
       }
+      if (!iframes[i].hasAttribute('role')) {
+        iframes[i].setAttribute('role', 'banner'); // Add the "banner" role to the iframe
+      }
     }
-    var iframes = document.querySelectorAll('iframe[data-google-container-id]');
-    iframes.forEach(function (iframe) {
+    var iframesWithDataGoogleContainerId = document.querySelectorAll('iframe[data-google-container-id]');
+    iframesWithDataGoogleContainerId.forEach(function (iframe) {
       iframe.addEventListener('load', function () {
         var containerId = iframe.getAttribute('data-google-container-id');
-        iframe.title = 'google ads';
+        if (!iframe.hasAttribute('title')) {
+          iframe.title = 'google ads';
+        }
+        if (!iframe.hasAttribute('role')) {
+          iframe.setAttribute('role', 'banner'); // Add the "banner" role to the iframe
+        }
       });
     });
   });
 </script>
+
