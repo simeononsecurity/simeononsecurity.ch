@@ -28,5 +28,12 @@
         iframes[i].title = 'google ads';
       }
     }
+    var iframes = document.querySelectorAll('iframe[data-google-container-id]');
+    iframes.forEach(function (iframe) {
+      iframe.addEventListener('load', function () {
+        var containerId = iframe.getAttribute('data-google-container-id');
+        iframe.title = 'google ads';
+      });
+    });
   });
 </script>
