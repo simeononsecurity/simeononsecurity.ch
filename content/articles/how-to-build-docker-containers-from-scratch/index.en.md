@@ -233,7 +233,6 @@ Some useful features of Docker Hub include:
 
 Docker Hub is an essential tool for working with Docker, and it can save you a lot of time and effort when it comes to managing and sharing Docker images.
 
-
 ## Conclusion
 
 Docker is a powerful tool that can help make your applications more portable, efficient, and easy to deploy. By following these best practices and tips, you can create Docker containers that are secure, easy to use, and fast to deploy. Whether you're building a new application or migrating an existing one to Docker, these steps will help you get started with building Docker containers.
