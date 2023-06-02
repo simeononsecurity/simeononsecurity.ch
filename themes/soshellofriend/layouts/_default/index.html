@@ -61,9 +61,12 @@
 
       {{ if .Params.tags }}
         <span class="post-tags">
-          {{ range .Params.tags }}
-            <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
+          {{ $tags := .Params.tags | first 10 }}
+
+          {{ range $tags }}
+            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
           {{ end }}
+                   
         </span>
       {{ end }}
 
