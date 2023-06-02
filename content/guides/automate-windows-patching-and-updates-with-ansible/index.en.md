@@ -54,6 +54,11 @@ ______
 
 With the basic setup in place, let's now explore how to automate Windows updates using Ansible.
 
+See the role and files:
+
+- [Ansible Galaxy - windows_update](https://galaxy.ansible.com/simeononsecurity/windows_update)
+- [Github - simeononsecurity/ansible_windows_update](https://github.com/simeononsecurity/ansible_windows_update)
+
 1. **Creating the Ansible Playbook**: Ansible playbooks are YAML files that define a series of tasks to be executed on target systems. Create a new YAML file called `update_windows.yml` and define the necessary tasks.
 
 ```yaml
