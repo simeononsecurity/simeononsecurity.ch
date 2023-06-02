@@ -189,3 +189,16 @@
   <p>This page must be served over a secure connection. Please click the following link:</p>
   <p><a href="">Secure Page</a></p>
 </div>  */}}
+
+
+{{ if not $.Site.IsServer }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    {{ template "_internal/google_analytics_async_lite.html" . }}
+    {{ template "_internal/google_tag_manager.html" . }}
+
+    <!-- Microsoft Clarity -->
+    {{ template "_internal/microsoft_clarity.html" . }}
+
+    <!-- Ads JS Load -->
+    {{ partial "googleadsload.html" . }}
+{{ end }}
