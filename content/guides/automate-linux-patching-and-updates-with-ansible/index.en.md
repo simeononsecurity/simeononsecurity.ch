@@ -42,7 +42,14 @@ Replace `<debian_ip_address>`, `<ubuntu_ip_address>`, `<rhel_ip_address>`, and `
 
 ## Ansible Playbook for Patching and Updating
 
-To automate the patching and updating process for various Linux distributions, we can create an Ansible playbook that handles installing patches and updates on different distros. Below is an example playbook:
+To automate the patching and updating process for various Linux distributions, we can create an Ansible playbook that handles installing patches and updates on different distros. 
+
+See the role and files:
+
+- [Ansible Galaxy - linux_update](https://galaxy.ansible.com/simeononsecurity/linux_update)
+- [Github - simeononsecurity/ansible_linux_update](https://github.com/simeononsecurity/ansible_linux_update)
+
+Below is an example playbook:
 
 ```yaml
 ---
@@ -138,3 +145,5 @@ Automating the patching and updating of Linux systems with Ansible simplifies an
 
 1. [Ansible Documentation](https://docs.ansible.com/)
 2. [Official Ansible Installation Guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
+3. [Ansible Galaxy - linux_update](https://galaxy.ansible.com/simeononsecurity/linux_update)
+4. [Github - simeononsecurity/ansible_linux_update](https://github.com/simeononsecurity/ansible_linux_update)
