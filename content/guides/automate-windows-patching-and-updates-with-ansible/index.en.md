@@ -122,6 +122,8 @@ ______
 - [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html)
 - [Ansible Installation Guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
 - [Ansible Windows Modules](https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_updates_module.html)
+- [Ansible Galaxy - windows_update](https://galaxy.ansible.com/simeononsecurity/windows_update)
+- [Github - simeononsecurity/ansible_windows_update](https://github.com/simeononsecurity/ansible_windows_update)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [ISO/IEC 27001 - Information Security](https://www.iso.org/isoiec-27001-information-security.html)
 
