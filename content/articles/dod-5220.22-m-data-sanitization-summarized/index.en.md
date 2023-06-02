@@ -4,7 +4,7 @@ date: 2023-02-12
 toc: true
 draft: false
 description: "The DoD 5220.22-M specification is a critical standard for securely erasing sensitive information from digital storage media, widely used by the U.S. military and government organizations."
-tags: ["DoD 5220.22-M", "data sanitization", "digital storage media", "U.S. military", "government organizations", "sensitive information", "security", "data erasure", "multi-pass process", "ECE method"]
+tags: ["Data sanitization", "secure erasure", "sensitive information", "data security", "digital storage media", "DoD 5220.22-M", "data protection", "data privacy", "information security", "data disposal", "data breach prevention", "data sanitization software", "digital security", "data destruction", "data management", "secure data erasure", "data recovery prevention", "cybersecurity", "data wiping", "information management", "secure disposal", "data destruction methods", "data sanitization process", "data overwrite", "data verification", "data sanitization standards", "data disposal best practices", "secure data disposal", "secure reuse", "data sanitization compliance", "secure data management"]
 cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
 coverAlt: "An image of a hard drive being securely erased using data sanitization software, with a padlock or a shield symbolizing security in the foreground"
 coverCaption: ""
