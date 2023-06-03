@@ -10,6 +10,8 @@ coverAlt: "A professional in a superhero cape, standing in front of a computer s
 coverCaption: "A cybersecurity professional, the guardian of digital security, equipped with the shield of protection against cyber threats."
 ---
 
+## [Home](/cyber-security-career-playbook-start/)
+
 ## Is Cybersecurity a Good Career? All You Need to Know
 
 Introduction:

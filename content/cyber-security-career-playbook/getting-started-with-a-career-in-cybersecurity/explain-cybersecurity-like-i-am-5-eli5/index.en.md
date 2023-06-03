@@ -14,6 +14,8 @@ coverCaption: ""
 
 Cybersecurity is like a superhero that protects our digital world from bad guys who want to steal or harm our information. It keeps our personal data, like messages, photos, and money, safe from the bad guys. Just like you have to lock your bedroom door to keep your toys and treasures safe, we have to use special computer skills and techniques to keep our digital things safe from the bad guys on the internet.
 
+## [Home](/cyber-security-career-playbook-start/)
+
 ## Why is Cybersecurity Important?
 
 Imagine waking up one day and finding out that all your messages, photos, and files are shared with everyone in the world. Or, even scarier, all your money has disappeared from your bank account! That would be really bad, right? Well, cybersecurity is here to prevent those things from happening. It's like having a shield that protects you from the bad guys on the internet who want to steal or damage your digital things.

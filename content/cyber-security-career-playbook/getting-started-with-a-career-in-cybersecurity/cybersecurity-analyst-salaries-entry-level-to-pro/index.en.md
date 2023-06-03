@@ -12,6 +12,8 @@ coverCaption: "A cartoon depiction of a cybersecurity analyst ensuring digital s
 
 **Cybersecurity Analyst Salaries: Entry Level to Pro**
 
+## [Home](/cyber-security-career-playbook-start/)
+
 ## Introduction
 
 In today's digital age, **cybersecurity** plays a crucial role in protecting organizations from ever-evolving threats. As a result, the demand for skilled **cybersecurity analysts** continues to grow, making it an attractive career option for individuals interested in the field. However, one important aspect to consider when pursuing a career as a cybersecurity analyst is the **salary** range. In this article, we will explore the various factors that influence **cybersecurity analyst salaries**, from entry-level positions to seasoned professionals.

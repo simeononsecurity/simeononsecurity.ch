@@ -14,6 +14,8 @@ coverCaption: "Embark on a cybersecurity career path and become a digital defend
 
 Cybersecurity has become an increasingly important field in today's digital world. With the rise of cyber threats and the need to protect sensitive information, **cybersecurity professionals** play a vital role in safeguarding data and systems. If you're considering a career in cybersecurity, it's important to understand what the career path looks like and the steps you can take to enter this exciting field.
 
+## [Home](/cyber-security-career-playbook-start/)
+
 ## Introduction
 
 In this article, we will explore the various aspects of a cybersecurity career path. We will discuss the skills and qualifications required, different job roles within the field, and the potential career progression options available. Additionally, we will provide insights into the current demand for cybersecurity professionals and the necessary steps to embark on this career journey.

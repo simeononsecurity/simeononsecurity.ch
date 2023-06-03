@@ -26,32 +26,32 @@ So let's dive in and explore the exciting world of cybersecurity!
 
 ## Getting Started with a Career in Cybersecurity
 
-### [Explain Cybersecurity Like I'm 5 (ELI5)](getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
+### [Explain Cybersecurity Like I'm 5 (ELI5)](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
 - Simplified explanations of cybersecurity concepts for beginners.
 
-### [Is Cybersecurity a Good Career?](getting-started-with-a-career-in-cybersecurity/is-cybersecurity-a-good-career/)
+### [Is Cybersecurity a Good Career?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/is-cybersecurity-a-good-career/)
 - Learn about the advantages and potential of a cybersecurity career.
 
-### [How to Start a Career in Cyber Security](getting-started-with-a-career-in-cybersecurity/how-to-start-a-career-in-cyber-security/)
+### [How to Start a Career in Cyber Security](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/how-to-start-a-career-in-cyber-security/)
 - Practical steps and guidance for beginning a career in cybersecurity.
 
-### [Free Beginners Cybersecurity Courses Online](getting-started-with-a-career-in-cybersecurity/free-beginners-cybersecurity-courses-online/)
+### [Free Beginners Cybersecurity Courses Online](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/free-beginners-cybersecurity-courses-online/)
 - Curated list of free online courses for beginners in cybersecurity.
 
-### [Cybersecurity Training: Online Programs, Video Courses, and Books](getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
+### [Cybersecurity Training: Online Programs, Video Courses, and Books](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
 - Explore recommended online training programs, video courses, and books for cybersecurity learning.
 
-### [Soft Skills Needed for a Job and Career in Cybersecurity](getting-started-with-a-career-in-cybersecurity/soft-skills-needed-for-a-job-and-career-in-cybersecurity/)
+### [Soft Skills Needed for a Job and Career in Cybersecurity](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/soft-skills-needed-for-a-job-and-career-in-cybersecurity/)
 - Discover essential soft skills for success in cybersecurity professions.
 
-### [What Does a Cybersecurity Career Path Look Like?](getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-career-path-look-like/)
+### [What Does a Cybersecurity Career Path Look Like?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-career-path-look-like/)
 - Insights into the various career paths available in cybersecurity.
 
-### [What Are the Top Programming Languages Used in Cybersecurity?](getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/)
+### [What Are the Top Programming Languages Used in Cybersecurity?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/)
 - Learn about programming languages relevant to cybersecurity roles.
 
-### [Cybersecurity Analyst Salaries: Entry Level to Pro](getting-started-with-a-career-in-cybersecurity/cybersecurity-analyst-salaries-entry-level-to-pro/)
+### [Cybersecurity Analyst Salaries: Entry Level to Pro](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-analyst-salaries-entry-level-to-pro/)
 - Understanding the salary ranges for cybersecurity analysts.
 
-### [What Does a Cybersecurity Expert Do?](getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/)
+### [What Does a Cybersecurity Expert Do?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/)
 - Explore the roles and responsibilities of cybersecurity experts.

@@ -12,6 +12,8 @@ coverCaption: "Secure Your Future: Master Soft Skills for Cybersecurity Success"
 
 **Soft Skills Needed for a Job & Career in Cybersecurity**
 
+## [Home](/cyber-security-career-playbook-start/)
+
 ## Introduction
 
 In today's digital age, cybersecurity has become an essential aspect of protecting sensitive information and ensuring the safety of computer systems. As cyber threats continue to evolve and become more sophisticated, organizations are in constant need of skilled professionals who can safeguard their digital assets. While technical expertise and knowledge are crucial in the field of cybersecurity, **soft skills** also play a vital role in a professional's success. These skills complement technical abilities and enable cybersecurity professionals to effectively communicate, collaborate, and adapt to the ever-changing landscape of cybersecurity.

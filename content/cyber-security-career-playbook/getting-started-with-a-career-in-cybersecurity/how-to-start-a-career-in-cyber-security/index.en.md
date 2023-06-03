@@ -10,6 +10,8 @@ coverAlt: "A group of diverse cybersecurity professionals collaborating on secur
 coverCaption: "A united team of cybersecurity professionals working together to protect digital systems from cyber threats."
 ---
 
+## [Home](/cyber-security-career-playbook-start/)
+
 ## How to Start a Career in Cybersecurity
 
 Cybersecurity is an exciting and rapidly growing field that offers a wide range of career opportunities. With the increasing reliance on technology and the constant threat of cyberattacks, the need for skilled cybersecurity professionals has never been greater. If you're interested in starting a career in cybersecurity, this article will guide you through the essential steps to get started.
