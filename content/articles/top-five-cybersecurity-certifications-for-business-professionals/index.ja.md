@@ -18,7 +18,7 @@ ______
 
 ## 1.認定情報システムセキュリティプロフェッショナル（CISSP)
 
-CISSP（Certified Information Systems Security Professional）**資格は、企業経営者、管理職、コンサルタントなど、サイバーセキュリティの専門家にとって世界的に認知されている資格である。CISSPは、セキュリティとリスク管理、資産セキュリティ、セキュリティエンジニアリング、コミュニケーションとネットワークセキュリティなど、サイバーセキュリティに関する幅広いトピックをカバーしています。セキュリティの概念と原則を理解し、それらが組織の全体的なセキュリティアーキテクチャにどのように統合されるかを理解することの重要性を強調しています。CISSPは、サイバーセキュリティの全体像を把握し、組織内のセキュリティ関連リスクを効果的に管理したいと考えるビジネスプロフェッショナルに最適な資格です。
+CISSP（Certified Information Systems Security Professional）**資格は、企業経営者、管理職、コンサルタントなど、サイバーセキュリティの専門家にとって世界的に認知されている資格である。CISSPは、セキュリティとリスク管理、資産セキュリティ、セキュリティエンジニアリング、コミュニケーションとネットワークセキュリティなど、サイバーセキュリティに関する幅広いトピックをカバーしています。セキュリティの概念と原則を理解し、それらが組織の全体的なセキュリティアーキテクチャにどのように統合されるかを理解することの重要性を強調しています。CISSPは、サイバーセキュリティの全体像を把握し、組織内のセキュリティ関連リスクを効果的に管理したいビジネスプロフェッショナルに最適な資格です。
 
 CISSPとその要件については、(ISC)²の公式ウェブサイトで詳しく説明されています： [CISSP - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 
@@ -26,7 +26,7 @@ ______
 
 ## 2.認定情報プライバシー専門家/ヨーロッパ（CIPP/E)
 
-CIPP/E（Certified Information Privacy Professional/Europe）**認定資格は、欧州連合（EU）のデータ保護法および規制を扱う専門家のために設計されています。一般データ保護規則（GDPR）を含むEUのプライバシー法を深く理解し、組織内でプライバシープログラムを実施・管理するための知識を身につけることができます。サイバーセキュリティとデータプライバシーは密接に関連しているため、CIPP/E認定を受けたビジネスプロフェッショナルは、サイバーセキュリティとプライバシーの法的・規制的側面を効果的にナビゲートし、コンプライアンスを確保し、機密情報を保護できます。
+CIPP/E（Certified Information Privacy Professional/Europe）**認定資格は、欧州連合（EU）のデータ保護法および規制に携わる専門家のために設計されています。一般データ保護規則（GDPR）を含むEUのプライバシー法を深く理解し、組織内でプライバシープログラムを実施・管理するための知識を身につけることができます。サイバーセキュリティとデータプライバシーは密接に関連しているため、CIPP/E認定を受けたビジネスプロフェッショナルは、サイバーセキュリティとプライバシーの法的・規制的側面を効果的にナビゲートし、コンプライアンスの確保と機密情報の保護が可能になります。
 
 CIPP/Eと認定プロセスに関する詳細は、国際プライバシー・プロフェッショナル協会（IAPP）のウェブサイトをご覧ください： [CIPP/E - Certified Information Privacy Professional/Europe](https://iapp.org/certify/cipp/europe/)
 
@@ -67,3 +67,4 @@ ______
 - CIPM - Certified Information Privacy Manager： [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - Certified Information Security Managerの略： [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - Certified Information Privacy Professional/United States（米国）： [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
+- SimeonOnSecurity - 政府・軍関係者向けのサイバーセキュリティのトップ認定資格 [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)

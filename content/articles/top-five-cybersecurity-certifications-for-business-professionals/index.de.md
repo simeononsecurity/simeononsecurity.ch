@@ -18,7 +18,7 @@ ______
 
 ## 1. Zertifizierter Fachmann für Informationssystemsicherheit (CISSP)
 
-Die **Certified Information Systems Security Professional (CISSP)**-Zertifizierung ist ein weltweit anerkannter Nachweis für Fachleute im Bereich der Cybersicherheit, darunter Führungskräfte, Manager und Berater. Das CISSP-Zertifikat deckt ein breites Spektrum an Cybersicherheitsthemen ab, wie z. B. Sicherheits- und Risikomanagement, Anlagensicherheit, Sicherheitstechnik sowie Kommunikations- und Netzwerksicherheit. Der Schwerpunkt liegt auf dem Verständnis von Sicherheitskonzepten und -prinzipien und deren Einbindung in die gesamte Sicherheitsarchitektur eines Unternehmens. Die CISSP-Zertifizierung ist ideal für Geschäftsleute, die einen ganzheitlichen Überblick über die Cybersicherheit gewinnen und sicherheitsrelevante Risiken in ihrem Unternehmen effektiv verwalten möchten.
+Die **Certified Information Systems Security Professional (CISSP)**-Zertifizierung ist ein weltweit anerkannter Nachweis für Fachleute im Bereich der Cybersicherheit, einschließlich Führungskräften, Managern und Beratern. Das CISSP-Zertifikat deckt ein breites Spektrum an Cybersicherheitsthemen ab, wie z. B. Sicherheits- und Risikomanagement, Anlagensicherheit, Sicherheitstechnik sowie Kommunikations- und Netzwerksicherheit. Der Schwerpunkt liegt auf dem Verständnis von Sicherheitskonzepten und -prinzipien und deren Einbindung in die gesamte Sicherheitsarchitektur eines Unternehmens. Die CISSP-Zertifizierung ist ideal für Geschäftsleute, die einen ganzheitlichen Überblick über die Cybersicherheit gewinnen und sicherheitsrelevante Risiken in ihrem Unternehmen effektiv verwalten möchten.
 
 Weitere Informationen über CISSP und seine Anforderungen finden Sie auf der offiziellen (ISC)²-Website: [CISSP - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 
@@ -34,7 +34,7 @@ ______
 
 ## 3. Zertifizierter Datenschutzbeauftragter (CIPM)
 
-Die Zertifizierung **Certified Information Privacy Manager (CIPM)** konzentriert sich auf die Verwaltung und Leitung von Datenschutzprogrammen in Unternehmen. Sie stattet Geschäftsleute mit dem Wissen und den Fähigkeiten aus, um Datenschutzrichtlinien, -verfahren und -rahmen zu erstellen und umzusetzen. Mit der CIPM-Zertifizierung können Fachleute sicherstellen, dass der Datenschutz in den Praktiken ihres Unternehmens verankert ist, und so das Vertrauen und die Loyalität ihrer Kunden stärken. Diese Zertifizierung ist sehr wertvoll für Personen, die für das Datenschutzmanagement und die Einhaltung von Vorschriften verantwortlich sind, wie z. B. Datenschutzbeauftragte, Datenschutzbeauftragte und Risikomanager.
+Die **Certified Information Privacy Manager (CIPM)** Zertifizierung konzentriert sich auf die Verwaltung und Leitung von Datenschutzprogrammen in Unternehmen. Sie stattet Geschäftsleute mit dem Wissen und den Fähigkeiten aus, um Datenschutzrichtlinien, -verfahren und -rahmen zu erstellen und umzusetzen. Mit der CIPM-Zertifizierung können Fachleute sicherstellen, dass der Datenschutz in den Praktiken ihres Unternehmens verankert ist, und so das Vertrauen und die Loyalität ihrer Kunden stärken. Diese Zertifizierung ist sehr wertvoll für Personen, die für das Datenschutzmanagement und die Einhaltung von Vorschriften verantwortlich sind, wie z. B. Datenschutzbeauftragte, Datenschutzbeauftragte und Risikomanager.
 
 Ausführliche Informationen über die CIPM-Zertifizierung und ihre Anforderungen finden Sie auf der Website der IAPP: [CIPM - Certified Information Privacy Manager](https://iapp.org/certify/cipm/)
 
@@ -67,3 +67,4 @@ ______
 - CIPM - Zertifizierter Datenschutzbeauftragter: [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - Zertifizierter Manager für Informationssicherheit: [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - Certified Information Privacy Professional/Vereinigte Staaten: [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
+- SimeonOnSecurity - Top-Zertifizierungen für Cybersicherheit für Regierungs- und Militärangehörige [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
