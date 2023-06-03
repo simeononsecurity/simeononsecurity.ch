@@ -113,9 +113,9 @@ Netflix is a streaming video service that uses a DevOps pipeline to rapidly deli
 Capital One is a financial services company that uses a DevOps pipeline to deliver new software updates and features to its customers. To ensure the security of its pipeline, Capital One uses a number of best practices, including:
 
 - **Using secure coding practices and conducting regular code reviews**
-    - Capital One has developed secure coding standards based on industry best practices, such as OWASP. They also conduct regular code reviews to identify and address any security vulnerabilities.
+    - Capital One has developed [secure coding standards](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) based on industry best practices, such as OWASP. They also conduct regular code reviews to identify and address any security vulnerabilities.
 - **Implementing automated security testing throughout the pipeline**
-    - Capital One has implemented a variety of automated security testing tools throughout their DevOps pipeline, including vulnerability scanners and static analysis tools. They also use automated testing to ensure that all code meets their secure coding standards.
+    - Capital One has implemented a variety of automated security testing tools throughout their DevOps pipeline, including vulnerability scanners and static analysis tools. They also use automated testing to ensure that all code meets their [secure coding standards](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/).
 - **Using secure containers to package and deploy applications**
     - Capital One uses containers to package and deploy applications in their DevOps pipeline. They have implemented strict security controls around their containers, including using only trusted sources and conducting regular vulnerability scans.
 - **Conducting regular security audits and vulnerability assessments**
