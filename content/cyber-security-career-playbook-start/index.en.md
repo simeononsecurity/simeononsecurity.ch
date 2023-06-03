@@ -10,7 +10,22 @@ coverAlt: "An animated illustration of a person wearing a superhero cape, sittin
 coverCaption: ""
 ---
 
+## Introduction
+
+Welcome to the Cyber Security Career Playbook - your guide to launching a successful career in cybersecurity. Whether you're a beginner looking to explore the field or someone interested in transitioning to cybersecurity, this playbook will provide you with the essential steps and resources to kickstart your journey.
+
+In this comprehensive guide, you'll find a range of articles that cover various aspects of cybersecurity career exploration and development. From understanding the basics of cybersecurity to exploring different career paths and acquiring the necessary skills, we've got you covered.
+
+Discover simplified explanations of cybersecurity concepts in our "Explain Cybersecurity Like I'm 5 (ELI5)" article, or learn about the advantages and potential of a cybersecurity career in "Is Cybersecurity a Good Career?". We also provide practical steps and guidance for starting a career in cybersecurity, along with curated lists of free beginners cybersecurity courses and recommended training programs, video courses, and books.
+
+Additionally, you'll gain insights into the soft skills needed for a job and career in cybersecurity, explore the different career paths available, and learn about the top programming languages used in cybersecurity. Understanding cybersecurity analyst salaries and the roles and responsibilities of cybersecurity experts are also covered.
+
+Whether you're interested in entry-level positions or aspiring to become a cybersecurity professional, this playbook will equip you with the knowledge and resources to navigate the cybersecurity industry and launch your successful career.
+
+So let's dive in and explore the exciting world of cybersecurity!
+
 ## Getting Started with a Career in Cybersecurity
+
 ### [Explain Cybersecurity Like I'm 5 (ELI5)](getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
 - Simplified explanations of cybersecurity concepts for beginners.
 
