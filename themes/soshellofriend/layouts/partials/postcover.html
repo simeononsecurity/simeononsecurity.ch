@@ -1,4 +1,4 @@
-{{ if isset .Params "Cover" }}
+{{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
 <figure class="post-cover">
     {{ if .Params.UseRelativeCover }}
     {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
@@ -11,7 +11,7 @@
         srcset="{{ $medium.RelPermalink }} 731w, {{ $small.RelPermalink }} 480w, {{ $tiny.RelPermalink }} 240w" 
         sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
         media="(min-width: 200px)">
-      <img src="{{ $micro.RelPermalink | default $.Site.Params.publisherLogo }} "
+      <img src="{{ $micro.RelPermalink }}"
         alt="{{ .Params.CoverAlt | plainify | default .Title }}"
         height="731"
         width="480"
@@ -28,7 +28,7 @@
           srcset="{{ $medium.RelPermalink }} 731w, {{ $small.RelPermalink }} 480w, {{ $tiny.RelPermalink }} 240w" 
           sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
           media="(min-width: 200px)">
-        <img src="{{ $micro.RelPermalink | default $.Site.Params.publisherLogo }} "
+        <img src="{{ $micro.RelPermalink }}"
           alt="{{ .Params.CoverAlt | plainify | default .Title }}"
           height="731"
           width="480"
