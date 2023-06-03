@@ -1,20 +1,20 @@
 ---
-title: "HackTheBox - チャレンジ - 暗号通貨 - 銀行強盗"
+title: "HackTheBox - Challenges - Crypto - Bank Heist"
 date: 2020-10-07
 draft: false
 toc: true
 description: "Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox."
-tags: ["ハックザボックス", "暗号化", "T9暗号", "マルチタップ暗号", "アトバシュ暗号", "サイバーセキュリティ", "デコードする", "暗号文", "チャレンジ", "国旗", "サイバーセキュリティ", "ハッキング", "学び", "チュートリアル", "暗号解読", "パズルを解く", "暗号解読", "暗号化チャレンジ", "サイバーセキュリティのスキル", "オンライン学習"]
+tags: ["ハックザボックス", "あんごうぎじゅつ", "ティーナイン暗号", "マルチタップサイファー", "アットバッシュサイファー", "サイバーセキュリティ", "デコード", "暗号文", "挑戦", "フラグ", "サイバーセキュリティ", "ハッキング", "学ぶ", "チュートリアル", "ふごうあんごうか", "謎解き", "コードブレーキング", "あんごうチャレンジ", "サイバーセキュリティスキル", "オンライン学習"]
 cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png"
-coverAlt: "日没時のパリの街並みを背景に、漫画の金庫室のドアが鍵で開けられ、宝箱が現れます。"
+coverAlt: "夕暮れ時のパリの街並みを背景に、金庫の扉を鍵で開けると宝箱が出てくるという漫画のようなストーリーです。"
 coverCaption: ""
 ---
 
-HackTheBox の暗号チャレンジ「銀行強盗」を解決するための包括的なガイド。このチャレンジには、Decode.fr を使用して T9 または Multitap 暗号文を解読し、CyberChef を使用して atbash 暗号文を解読してフラグを明らかにすることが含まれます。サイバー セキュリティの専門家を目指す人や、暗号化のスキルを向上させたいと考えている人にとっては必読の書です。
+HackTheBoxのCryptoチャレンジ「Bank Heist」を解くための包括的なガイドです。このチャレンジでは、暗号を解読するために [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/)Decode.frを使ったテキストとCyberChefを使ったatbashの暗号テキストからフラグを明らかにする。サイバーセキュリティのプロを目指す人、暗号技術のスキルアップを目指す人は必読の書です。
 
-## 提供されるファイル:
+## Provided Files：
 
-このチャレンジでは、次の暗号文が提供されます。
+この課題では、以下の暗号テキストが提供されます：
 
 ```
 444333 99966688 277733 7773323444664 84433 22244474433777, 99966688 277733 666552999. 99966688777 777744277733 666333 84433 443344477778 4447777 44466 99966688777 4466688777733. 84433 5533999 8666 84433 55566622255 4447777 22335556669. 4666 8666 727774447777.
@@ -24,28 +24,28 @@ HackTheBox の暗号チャレンジ「銀行強盗」を解決するための包
 
 ______
 
-## ウォークスルー:
+## ウォークスルー
 
-**明らかに、これは T9 暗号またはマルチタップ暗号のいずれかです。**
-ただし、この例ではマルチタップが暗号です。 [Decode.fr](https://www.dcode.fr/multitap-abc-cipher) これをデコードするツールがあります。
+**これはT9かMultitapのどちらかの暗号です。
+しかし、この例ではMultitapが暗号である。 [Decode.fr](https://www.dcode.fr/multitap-abc-cipher)は、これを解読するツールがあります。
 
-次のプレーンテキストが得られます。
+このプレーンテキストが得られます：
 ```
 IF YOU ARE READING THE CIPHER, YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW, GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
-**最後にあるジャンクとは何ですか?そうですね、実際には atbash 暗号文です。**
+**最後に出てくるゴミは何なのか？実はこれ、アットバッシュの暗号文なんです。
 
 ```
 GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
 ```
 
 
-使用します [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>) もう一度解読するために。そうすれば、旗が手に入ります。おっと！
+を使うことにします。 [CyberChef](<https://gchq.github.io/CyberChef-#recipe=Atbash_Cipher()&input=R1NWIFhMV1YgR0wgR1NWIEhaVSBPTFhQIApUTElWR1JJVk5WTUdVRk1X>)をもう一回読み解く。そして、あなたの旗が出来ました。フート！
 
 ______
 
-### フラグの例:
+### 旗の例です：
 
 ```
 HTB{XXXXXXXXXXXXXXXXX}
