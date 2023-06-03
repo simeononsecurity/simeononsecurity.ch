@@ -1,8 +1,9 @@
 ---
-title: "Privacy Policy"
+title: "Privacy Policy: Information Collection, Usage, and Consent | SimeonOnSecurity"
 date: 2020-08-08T15:24:07-05:00
 draft: false
-description: "The Privacy Policy for SimeonOnSecurity outlines the types of information collected from visitors and how it is used. The policy only applies to online activities and is valid for website visitors. By using the site, visitors consent to the policy. Personal information collected may include contact information, messages, and data related to website usage. This information is used to operate and maintain the site, improve and personalize the user experience, and for communication and marketing purposes. SimeonOnSecurity also uses cookies and web beacons, and partners with Google for advertising. The policy explains the use of log files and third-party privacy policies."
+tags: ["privacy policy", "information collection", "data usage", "visitor consent", "online privacy", "personal information", "contact information", "website usage", "communication", "marketing", "cookies", "web beacons", "log files", "third-party privacy policies", "data protection", "GDPR", "CCPA", "children's privacy", "online activity monitoring"]
+description: "Learn how SimeonOnSecurity collects, uses, and protects visitor information through its comprehensive Privacy Policy, ensuring consent and online privacy."
 ---
 
 At SimeonOnSecurity, accessible from https://SimeonOnSecurity.ch, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by SimeonOnSecurity and how we use it.

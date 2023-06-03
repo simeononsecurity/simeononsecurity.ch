@@ -1,10 +1,10 @@
 ---
-title: "Terms and Conditions"
+title: "SimeonOnSecurity Terms and Conditions: Rules for Website Usage"
 date: 2020-08-08T15:31:48-05:00
 draft: false
 toc: true
-description: "SimeonOnSecurity provides a website dedicated to security information and updates. By accessing the site, users agree to our terms and conditions, which outline rules for using the site, including our use of cookies in accordance with our Privacy Policy. Intellectual property rights are reserved, and users must not republish or reproduce content from the site. We reserve the right to monitor and remove inappropriate comments, and grant a license to use comments posted on the site. Certain organizations may link to our site without prior approval, while others may be considered and approved by SimeonOnSecurity. Visit our website for more information."
-tags: ['Terms and Conditions']
+description: "Learn about the terms and conditions for using SimeonOnSecurity's website, including rules, intellectual property rights, and privacy policies."
+tags: ["Terms and Conditions", "website rules", "security information", "security updates", "website usage", "intellectual property rights", "privacy policy", "cookie policy", "comment monitoring", "link approval", "content liability", "website security", "user agreement", "website terms", "online terms", "website regulations", "privacy terms", "legal terms", "website policies", "online security", "website guidelines", "website restrictions", "user obligations", "website compliance", "website disclaimer", "website permissions", "comment policy", "linking policy", "website accessibility", "website maintenance"]
 ---
 
 Welcome to SimeonOnSecurity!
