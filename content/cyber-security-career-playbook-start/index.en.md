@@ -26,7 +26,7 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 
 ### About the CyberSecurity Career
 
-#### [Explain Cybersecurity Like I'm 5 (ELI5/)](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
+#### [Explain Cybersecurity Like I'm 5 (ELI5)](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
 - Simplified explanations of cybersecurity concepts for beginners.
 
 #### [Is Cybersecurity a Good Career?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/is-cybersecurity-a-good-career/)
@@ -88,11 +88,11 @@ When pursuing a career in cybersecurity, one important consideration is obtainin
 #### [Are Certifications Needed for a Cybersecurity Career?](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/are-certifications-needed-for-a-cybersecurity-career/)
 - Explore the importance of certifications in the cybersecurity field and their impact on career opportunities.
 
-#### [Performance-Based Questions (PBQs/) and Cybersecurity Certifications](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/)
-- Learn about performance-based questions (PBQs/) in cybersecurity certifications and how to prepare for them.
+#### [Performance-Based Questions (PBQs) and Cybersecurity Certifications](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/)
+- Learn about performance-based questions (PBQs) in cybersecurity certifications and how to prepare for them.
 
 #### [CEUs in Cybersecurity: What They Are and Why You Need Them](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/ceus-in-cybersecurity-what-they-are-and-why-you-need-them/)
-- Understand the concept of Continuing Education Units (CEUs/) in cybersecurity and their importance for professional development.
+- Understand the concept of Continuing Education Units (CEUs) in cybersecurity and their importance for professional development.
 
 #### Certification Guides and Tips
 
@@ -180,14 +180,14 @@ As a cybersecurity professional, continuous learning and growth are key to advan
 
 ### Understanding Regulations, Acts, and Guidelines
 
-#### [Federal Information Security Management Act (FISMA/) Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/)
-Learn about the Federal Information Security Management Act (FISMA/), a U.S. federal law that establishes cybersecurity requirements for government agencies.
+#### [Federal Information Security Management Act (FISMA) Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/)
+Learn about the Federal Information Security Management Act (FISMA), a U.S. federal law that establishes cybersecurity requirements for government agencies.
 
 #### [NIST SP 800-181 - Cyber Security Workforce Framework Overview and Comparison with the DCWF](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/)
 - Discover the comprehensive evaluation and development frameworks for cybersecurity workforce: NICE and DoD DCWF, empowering organizations with skilled professionals.
 
 #### [DoD 8140-03 - Cyberspace Workforce Qualifications and Management Program - Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program/)
-- Discover the key aspects of the Department of Defense (DoD/) 8140-03 manual, which outlines qualifications and management for the cyberspace workforce.
+- Discover the key aspects of the Department of Defense (DoD) 8140-03 manual, which outlines qualifications and management for the cyberspace workforce.
 
 #### [Navigating Workforce Frameworks: Implications for Cybersecurity Pros](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/workforce-frameworks-and-the-challenges/)
 - Explore the impact of changing workforce frameworks on cybersecurity professionals and the challenges they face in meeting new requirements.
