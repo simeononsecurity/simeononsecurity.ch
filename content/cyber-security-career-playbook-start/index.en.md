@@ -26,7 +26,7 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 
 ### About the CyberSecurity Career
 
-#### [Explain Cybersecurity Like I'm 5 (ELI5)](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
+#### [Explain Cybersecurity Like I'm 5 (ELI5/)](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
 - Simplified explanations of cybersecurity concepts for beginners.
 
 #### [Is Cybersecurity a Good Career?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/is-cybersecurity-a-good-career/)
@@ -38,7 +38,7 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 #### [What Are the Top Programming Languages Used in Cybersecurity?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/)
 - Learn about programming languages relevant to cybersecurity roles.
 
-#### [What are some Different Cyber Security Specialization?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations)
+#### [What are some Different Cyber Security Specialization?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/)
 - Discover the diverse world of cybersecurity specializations and the essential skills needed to excel in this rapidly evolving field.
 
 ### Getting the Skills and Training Needed for Cybersecurity
@@ -52,10 +52,10 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 #### [Soft Skills Needed for a Job and Career in Cybersecurity](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/soft-skills-needed-for-a-job-and-career-in-cybersecurity/)
 - Discover essential soft skills for success in cybersecurity professions.
 
-#### [Hands-On Lab Ideas for CyberSecurity Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/hands-on-cybersecurity-projects-for-skill-development)
+#### [Hands-On Lab Ideas for CyberSecurity Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/hands-on-cybersecurity-projects-for-skill-development/)
 - Discover the power of hands-on cybersecurity projects to develop practical skills and protect against cyber threats.
 
-#### [Joining Cyber Security Communities and Forums](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/joining-cybersecurity-communities-and-forums)
+#### [Joining Cyber Security Communities and Forums](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/joining-cybersecurity-communities-and-forums/)
 - Joining cybersecurity communities and forums can unlock a world of expertise, networking, and professional growth.
 
 ### CyberSecurity Career Outlooks and Information
@@ -88,21 +88,21 @@ When pursuing a career in cybersecurity, one important consideration is obtainin
 #### [Are Certifications Needed for a Cybersecurity Career?](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/are-certifications-needed-for-a-cybersecurity-career/)
 - Explore the importance of certifications in the cybersecurity field and their impact on career opportunities.
 
-#### [Performance-Based Questions (PBQs) and Cybersecurity Certifications](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/)
-- Learn about performance-based questions (PBQs) in cybersecurity certifications and how to prepare for them.
+#### [Performance-Based Questions (PBQs/) and Cybersecurity Certifications](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/)
+- Learn about performance-based questions (PBQs/) in cybersecurity certifications and how to prepare for them.
 
 #### [CEUs in Cybersecurity: What They Are and Why You Need Them](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/ceus-in-cybersecurity-what-they-are-and-why-you-need-them/)
-- Understand the concept of Continuing Education Units (CEUs) in cybersecurity and their importance for professional development.
+- Understand the concept of Continuing Education Units (CEUs/) in cybersecurity and their importance for professional development.
 
 #### Certification Guides and Tips
 
 We've included a few tips and tricks for these certifications below:
 
-- [Passing CompTIA's A+](/cyber-security-career-playbook/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102)
-- [Passing CompTIA's Security+](/cyber-security-career-playbook/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know)
-- [Passing CompTIA's Linux+](/cyber-security-career-playbook/certifications/passing-comptias-linux-plus-XK0-005)
-- [Passing EC-Council's CEH](/cyber-security-career-playbook/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam)
-- [Passing ISC2's CISSP](/cyber-security-career-playbook/certifications/a-guide-to-earning-the-ISC2-cissp-certification)
+- [Passing CompTIA's A+](/cyber-security-career-playbook/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
+- [Passing CompTIA's Security+](/cyber-security-career-playbook/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+- [Passing CompTIA's Linux+](/cyber-security-career-playbook/certifications/passing-comptias-linux-plus-XK0-005/)
+- [Passing EC-Council's CEH](/cyber-security-career-playbook/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)
+- [Passing ISC2's CISSP](/cyber-security-career-playbook/certifications/a-guide-to-earning-the-ISC2-cissp-certification/)
 
 ### Bootcamps
 
@@ -110,17 +110,17 @@ We've included a few tips and tricks for these certifications below:
 
 ### Other Training Types
 
-#### [Army Cybersecurity Awareness Training: What You Need to Know](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/army-cybersecurity-awareness-training-what-you-need-to-know/are-bootcamps-worth-it)
+#### [Army Cybersecurity Awareness Training: What You Need to Know](/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/army-cybersecurity-awareness-training-what-you-need-to-know/are-bootcamps-worth-it/)
 - Get insights into the cybersecurity awareness training provided by the army and its relevance in today's digital landscape.
 
 ## Getting a Job in Cyber Security
 
 Securing a job in cybersecurity requires a combination of knowledge, experience, and preparation. In this section, you'll discover valuable resources and insights to help you navigate the job market, prepare for interviews, and increase your chances of landing an entry-level or remote cybersecurity position.
 
-- [Navigating Early Career Job Market: Overcoming Challenges and Securing Opportunities](/cyber-security-career-playbook/getting-a-job-in-cyber-security/addressing-the-challenges-in-the-early-career-job-market)
+- [Navigating Early Career Job Market: Overcoming Challenges and Securing Opportunities](/cyber-security-career-playbook/getting-a-job-in-cyber-security/addressing-the-challenges-in-the-early-career-job-market/)
   - Discover strategies to overcome challenges in the early career job market, acquire valuable skills, and secure desirable opportunities for success.
 
-- [Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-evolving-landscape-what-works-today-vs-what-worked-10-years-ago)
+- [Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-evolving-landscape-what-works-today-vs-what-worked-10-years-ago/)
   - Explore the evolving cybersecurity industry and its impact on early career professionals, with practical guidance on addressing challenges and thriving in today's landscape.
 
 
@@ -134,11 +134,11 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
   - Familiarize yourself with common interview questions in the field of cybersecurity and prepare for successful interviews.
 
 #### Resume Writing
-- [Resume Writing Tips for Cyber Security Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/resume-writing-tips-for-cybersecurity-professionals)
+- [Resume Writing Tips for Cyber Security Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/resume-writing-tips-for-cybersecurity-professionals/)
   - Enhance your chances of landing your dream job with these expert resume writing tips for cybersecurity, software development, and IT professionals.
 
 #### Networking and Professional Connections
-- [Networking Tips for Landing a Job in Cyber Security](/cyber-security-career-playbook/getting-a-job-in-cyber-security/networking-tips-for-landing-a-job-in-cybersecurity)
+- [Networking Tips for Landing a Job in Cyber Security](/cyber-security-career-playbook/getting-a-job-in-cyber-security/networking-tips-for-landing-a-job-in-cybersecurity/)
   - Unlock valuable networking tips to secure your dream job in cybersecurity, connecting with professionals and discovering hidden opportunities.
 
 ### Transitioning to Cybersecurity
@@ -173,31 +173,33 @@ As a cybersecurity professional, continuous learning and growth are key to advan
 ### Advanced Topics
 
 #### [How to Learn About CVEs and Threat Actors](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/)
-- Gain insights into Common Vulnerabilities and Exposures (CVEs) and threat actors, and learn how to stay updated on emerging threats.
+- Gain insights into Common Vulnerabilities and Exposures (CVEs/) and threat actors, and learn how to stay updated on emerging threats.
 
+#### [Implementing the NICE Cybersecurity Framework: Best Practices for Enhanced Cyber Defense](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/)
+- Discover the key steps to effectively implement the NICE Cybersecurity Framework and fortify your organization's defenses against cyber threats..
 
 ### Understanding Regulations, Acts, and Guidelines
 
-#### [Federal Information Security Management Act (FISMA) Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized)
-Learn about the Federal Information Security Management Act (FISMA), a U.S. federal law that establishes cybersecurity requirements for government agencies.
+#### [Federal Information Security Management Act (FISMA/) Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/)
+Learn about the Federal Information Security Management Act (FISMA/), a U.S. federal law that establishes cybersecurity requirements for government agencies.
 
-#### [NIST SP 800-181 - Cyber Security Workforce Framework Overview and Comparison with the DCWF](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf)
+#### [NIST SP 800-181 - Cyber Security Workforce Framework Overview and Comparison with the DCWF](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/)
 - Discover the comprehensive evaluation and development frameworks for cybersecurity workforce: NICE and DoD DCWF, empowering organizations with skilled professionals.
 
-#### [DoD 8140-03 - Cyberspace Workforce Qualifications and Management Program - Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program)
-- Discover the key aspects of the Department of Defense (DoD) 8140-03 manual, which outlines qualifications and management for the cyberspace workforce.
+#### [DoD 8140-03 - Cyberspace Workforce Qualifications and Management Program - Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program/)
+- Discover the key aspects of the Department of Defense (DoD/) 8140-03 manual, which outlines qualifications and management for the cyberspace workforce.
 
-#### [Navigating Workforce Frameworks: Implications for Cybersecurity Pros](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/workforce-frameworks-and-the-challenges)
+#### [Navigating Workforce Frameworks: Implications for Cybersecurity Pros](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/workforce-frameworks-and-the-challenges/)
 - Explore the impact of changing workforce frameworks on cybersecurity professionals and the challenges they face in meeting new requirements.
 
 #### [DoD 5220.22-m - Data Sanitization - Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/)
 - Explore the summary of DoD 5220.22-m, a directive that provides guidance on data sanitization.
 
-#### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media)
+#### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)
 - Learn about the summarized guidelines outlined in NIST 800-88 for media sanitization.
 
 
-## Conclusion: 
+## Conclusion
 
 At this point, you have gained a solid understanding of cybersecurity careers, the skills and training necessary to excel in the field, and the diverse range of opportunities available. Armed with this knowledge, you are now qualified to make informed decisions about your own cybersecurity path.
 
