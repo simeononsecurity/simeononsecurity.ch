@@ -38,7 +38,7 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 #### [What Are the Top Programming Languages Used in Cybersecurity?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/)
 - Learn about programming languages relevant to cybersecurity roles.
 
-#### [What are some Different Cyber Security Specialization?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/)
+#### [What are some Different Cyber Security Specializations?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/)
 - Discover the diverse world of cybersecurity specializations and the essential skills needed to excel in this rapidly evolving field.
 
 ### Getting the Skills and Training Needed for Cybersecurity
