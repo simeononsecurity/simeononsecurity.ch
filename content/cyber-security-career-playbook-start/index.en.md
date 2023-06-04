@@ -117,6 +117,13 @@ We've included a few tips and tricks for these certifications below:
 
 Securing a job in cybersecurity requires a combination of knowledge, experience, and preparation. In this section, you'll discover valuable resources and insights to help you navigate the job market, prepare for interviews, and increase your chances of landing an entry-level or remote cybersecurity position.
 
+- [Navigating Early Career Job Market: Overcoming Challenges and Securing Opportunities](/cyber-security-career-playbook/getting-a-job-in-cyber-security/addressing-the-challenges-in-the-early-career-job-market)
+  - Discover strategies to overcome challenges in the early career job market, acquire valuable skills, and secure desirable opportunities for success.
+
+- [Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-evolving-landscape-what-works-today-vs-what-worked-10-years-ago)
+  - Explore the evolving cybersecurity industry and its impact on early career professionals, with practical guidance on addressing challenges and thriving in today's landscape.
+
+
 ### Step-by-Step Into the Cyber Security Career Path
 - [Step-by-Step Into the Cyber Security Career Path](/cyber-security-career-playbook/getting-a-job-in-cyber-security/step-by-step-into-to-cyber-security-career-path/)
   - Follow a comprehensive guide outlining the essential steps and milestones to pursue a career in cyber security.
