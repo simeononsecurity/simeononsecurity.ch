@@ -60,5 +60,5 @@ Army Cybersecurity Awareness Training plays a vital role in promoting a cyber-se
 
 ## References
 
-- [DoD Directive 8570](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/857001_2015.pdf)
-- [DoD Directive 8140](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/814001_2015.pdf)
+- [DoD Directive 8570](https://irp.fas.org/doddir/dod/m8570_01.pdf)
+- [DoD Directive 8140](https://dodcio.defense.gov/Cyber-Workforce/DoDCW/)

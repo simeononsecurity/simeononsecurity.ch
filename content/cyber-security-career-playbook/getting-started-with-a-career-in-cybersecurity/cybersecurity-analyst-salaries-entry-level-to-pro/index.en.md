@@ -28,7 +28,7 @@ Experience and expertise are critical determinants of **cybersecurity analyst sa
 
 ### 2. Education and Certifications
 
-The level of education and relevant certifications also impact **cybersecurity analyst salaries**. A bachelor's degree in **computer science**, **cybersecurity**, or a related field is often the minimum requirement for entry-level positions. However, earning advanced degrees, such as a master's degree or a Ph.D., can provide a competitive edge and potentially lead to higher-paying positions. Additionally, certifications such as **CompTIA Security+**, **Certified Information Systems Security Professional (CISSP)**, or **Certified Ethical Hacker (CEH)** can enhance an analyst's marketability and salary potential.
+The level of education and relevant certifications also impact **cybersecurity analyst salaries**. A bachelor's degree in **computer science**, **cybersecurity**, or a related field is often the minimum requirement for entry-level positions. However, earning advanced degrees, such as a master's degree or a Ph.D., can provide a competitive edge and potentially lead to higher-paying positions. Additionally, certifications such as [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/), or [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) can enhance an analyst's marketability and salary potential.
 
 ### 3. Industry and Organization Size
 

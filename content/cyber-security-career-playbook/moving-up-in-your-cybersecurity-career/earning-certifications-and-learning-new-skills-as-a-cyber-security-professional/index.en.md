@@ -22,6 +22,14 @@ In today's digital age, cybersecurity has become a critical concern for individu
 
 **Continuous learning** is a crucial aspect of a successful cybersecurity career. With the rapid advancements in technology and the ever-changing threat landscape, staying up-to-date with the latest trends and best practices is essential. Continuous learning allows professionals to adapt to emerging challenges, acquire new skills, and effectively respond to evolving cyber threats. By investing time and effort into learning new skills, cybersecurity professionals can strengthen their knowledge base, enhance their problem-solving abilities, and expand their career opportunities.
 
+### Learning Resources
+
+To learn more about learning resources and training platforms, please see the following articles:
+
+- [Cybersecurity Training: Online Programs and Video Courses for Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
+- [SimeonOnSecurity's Recommended Books](/recommendations/books)
+- [SimeonOnSecurity's Recommended Learning Resources](/recommendations/learning_resources)
+
 ## Popular Cybersecurity Certifications:
 
 Obtaining **cybersecurity certifications** can significantly boost a professional's credentials and demonstrate their expertise in specific areas of cybersecurity. Here are some popular certifications that are highly regarded in the industry:
@@ -36,6 +44,13 @@ Obtaining **cybersecurity certifications** can significantly boost a professiona
 
 5. [Certified Cloud Security Professional (**CCSP**)](https://www.isc2.org/Certifications/CCSP): The CCSP certification is designed for professionals working with cloud technology and validates their expertise in securing cloud environments.
 
+### Other Recommended Certifications
+
+To learn more about other great certifications to target, read the following articles:
+
+- [Cybersecurity Certifications for Government and Military Professionals](/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
+- [Top 5 Cybersecurity Certifications for Career Advancement](/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
+- [SimeonOnSecurity's Recommended Certifications](/recommendations/certifications)
 ## Acquiring and Maintaining Certifications:
 
 To acquire and maintain cybersecurity certifications, professionals can follow these steps:
