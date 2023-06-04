@@ -146,6 +146,9 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 - [How to Transition from IT to Cybersecurity](/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-transition-from-it-to-cybersecurity/)
   - Learn about the steps and considerations involved in making a successful transition from IT to a career in cybersecurity.
 
+- [Mastering Cybersecurity: The Role of Systems Administration and Practical Experience](/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/)
+  - Gain insights into the role of systems administration and practical experience in building a successful career in cybersecurity.
+
 ### Cybersecurity Internships
 #### How to Find and Get Cybersecurity Internships
 - [How to Find and Get Cybersecurity Internships](/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-how-to-get-cybersecurity-internships/)
