@@ -123,7 +123,6 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 - [Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-evolving-landscape-what-works-today-vs-what-worked-10-years-ago/)
   - Explore the evolving cybersecurity industry and its impact on early career professionals, with practical guidance on addressing challenges and thriving in today's landscape.
 
-
 ### Step-by-Step Into the Cyber Security Career Path
 - [Step-by-Step Into the Cyber Security Career Path](/cyber-security-career-playbook/getting-a-job-in-cyber-security/step-by-step-into-to-cyber-security-career-path/)
   - Follow a comprehensive guide outlining the essential steps and milestones to pursue a career in cyber security.
@@ -146,8 +145,18 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 - [How to Transition from IT to Cybersecurity](/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-transition-from-it-to-cybersecurity/)
   - Learn about the steps and considerations involved in making a successful transition from IT to a career in cybersecurity.
 
+#### Mastering Cybersecurity: The Role of Systems Administration and Practical Experience
 - [Mastering Cybersecurity: The Role of Systems Administration and Practical Experience](/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/)
   - Gain insights into the role of systems administration and practical experience in building a successful career in cybersecurity.
+
+### Best Locations for Cybersecurity Jobs
+#### The 7 Top Locations for Cyber Security Jobs in the US 2023: Best Cities for Professionals
+- [The 7 Top Locations for Cyber Security Jobs in the US 2023: Best Cities for Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states)
+  - Discover the best locations for cybersecurity jobs in the United States in 2023, from Washington, D.C. to San Francisco, with abundant opportunities and industry growth.
+
+#### The Top 5 Locations Worldwide for Cybersecurity Jobs in 2023: Best Cities for Professionals
+- [The Top 5 Locations Worldwide for Cybersecurity Jobs in 2023: Best Cities for Professionals](/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide)
+  - Discover the best locations worldwide for cybersecurity jobs in 2023, from London to Singapore, with abundant opportunities and industry growth.
 
 ### Cybersecurity Internships
 #### How to Find and Get Cybersecurity Internships
