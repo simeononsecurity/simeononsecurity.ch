@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_depicting_a_home_with_interconnected_d
 coverAlt: "A cartoon illustration depicting a home with interconnected devices, both wired and wireless depicting an ideal home internet setup."
 coverCaption: ""
 ---
-
+{{< readfile "content\articles\the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced\pageschema.html" >}}
 **The Ideal Ubiquiti UniFi Setup for Simple and Complete Home Wiring**
 
 ## Introduction
