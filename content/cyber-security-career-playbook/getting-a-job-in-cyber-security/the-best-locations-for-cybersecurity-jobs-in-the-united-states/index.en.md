@@ -9,6 +9,9 @@ cover: "/img/cover/An_animated_art_style_image_showing_a_shield_with_a_lock_sy.p
 coverAlt: "An animated art style image showing a shield with a lock symbolizing cybersecurity on top of the United States."
 coverCaption: "Unlock your cybersecurity career potential in the top job locations."
 ---
+# SCHEMA
+
+{{< readfile "content\cyber-security-career-playbook\getting-a-job-in-cyber-security\the-best-locations-for-cybersecurity-jobs-in-the-united-states\pageschema.html" >}}
 
 **Best Locations for Cybersecurity Jobs in the United States 2023**
 
@@ -49,7 +52,6 @@ Known for its vibrant tech scene, **San Francisco** is an attractive location fo
 ### 7. **Raleigh, North Carolina**
 
 **Raleigh** has witnessed significant growth in its cybersecurity sector, fueled by its proximity to the [Research Triangle Park](https://www.rtp.org/). The region houses a cluster of technology companies, government agencies, and academic institutions focused on cybersecurity. [Cisco Systems](https://www.cisco.com/) and [Red Hat](https://www.redhat.com/) have a strong presence in the area, offering ample job opportunities for cybersecurity professionals. North Carolina's [Identity Theft Protection Act](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_75C/Article_2.html) promotes cybersecurity practices and protects personal information.
-
 
 ## Ranking of Cities by Number of Cybersecurity Jobs
 

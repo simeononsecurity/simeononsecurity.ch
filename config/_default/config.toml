@@ -113,6 +113,11 @@ getenv = ['^HUGO_', '^WC_', 'babel']
 methods = ['(?i)GET|POST']
 urls = ['.*']
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      enableInlineShortcodes = true
+      
 [imaging]
 [imaging.exif]
 disableDate = true
