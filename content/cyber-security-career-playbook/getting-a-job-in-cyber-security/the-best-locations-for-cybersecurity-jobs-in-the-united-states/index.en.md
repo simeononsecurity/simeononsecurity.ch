@@ -9,8 +9,6 @@ cover: "/img/cover/An_animated_art_style_image_showing_a_shield_with_a_lock_sy.p
 coverAlt: "An animated art style image showing a shield with a lock symbolizing cybersecurity on top of the United States."
 coverCaption: "Unlock your cybersecurity career potential in the top job locations."
 ---
-# SCHEMA
-
 {{< readfile "content\cyber-security-career-playbook\getting-a-job-in-cyber-security\the-best-locations-for-cybersecurity-jobs-in-the-united-states\pageschema.html" >}}
 
 **Best Locations for Cybersecurity Jobs in the United States 2023**
