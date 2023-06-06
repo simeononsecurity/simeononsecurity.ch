@@ -33,7 +33,7 @@ Known for its vibrant tech scene, **San Francisco** is an attractive location fo
 
 ### 3. **Austin, Texas**
 
-**Austin** has emerged as a prominent tech hub, attracting both startups and established tech giants. The city offers a favorable living environment and a lower cost of living compared to other major tech cities. Austin hosts several cybersecurity companies and research organizations, such as [Forcepoint](https://www.forcepoint.com/), [SailPoint](https://www.sailpoint.com/), and the [University of Texas Center for Identity](https://identity.utexas.edu/). The [Texas Cybersecurity Act](https://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.423.htm) ensures a comprehensive legal framework for cybersecurity practices, providing additional support and opportunities for professionals in the field.
+**Austin** has emerged as a prominent tech hub, attracting both startups and established tech giants. The city offers a favorable living environment and a lower cost of living compared to other major tech cities. Austin hosts several cybersecurity companies and research organizations, such as [Forcepoint](https://www.forcepoint.com/), [SailPoint](https://www.sailpoint.com/), and the [University of Texas Center for Identity](https://identity.utexas.edu/). The [Texas Cybersecurity Act](https://capitol.texas.gov/tlodocs/85R/billtext/html/HB00008F.htm) ensures a comprehensive legal framework for cybersecurity practices, providing additional support and opportunities for professionals in the field.
 
 ### 4. **Boston, Massachusetts**
 
@@ -49,7 +49,7 @@ Known for its vibrant tech scene, **San Francisco** is an attractive location fo
 
 ### 7. **Raleigh, North Carolina**
 
-**Raleigh** has witnessed significant growth in its cybersecurity sector, fueled by its proximity to the [Research Triangle Park](https://www.rtp.org/). The region houses a cluster of technology companies, government agencies, and academic institutions focused on cybersecurity. [Cisco Systems](https://www.cisco.com/) and [Red Hat](https://www.redhat.com/) have a strong presence in the area, offering ample job opportunities for cybersecurity professionals. North Carolina's [Identity Theft Protection Act](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_75C/Article_2.html) promotes cybersecurity practices and protects personal information.
+**Raleigh** has witnessed significant growth in its cybersecurity sector, fueled by its proximity to the [Research Triangle Park](https://www.rtp.org/). The region houses a cluster of technology companies, government agencies, and academic institutions focused on cybersecurity. [Cisco Systems](https://www.cisco.com/) and [Red Hat](https://www.redhat.com/) have a strong presence in the area, offering ample job opportunities for cybersecurity professionals. North Carolina's [Identity Theft Protection Act](https://ncleg.net/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_75/Article_2A.html) promotes cybersecurity practices and protects personal information.
 
 ## Ranking of Cities by Number of Cybersecurity Jobs
 
@@ -130,7 +130,7 @@ ______
 7. [Forcepoint](https://www.forcepoint.com/)
 8. [SailPoint](https://www.sailpoint.com/)
 9. [University of Texas Center for Identity](https://identity.utexas.edu/)
-10. [Texas Cybersecurity Act](https://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.423.htm)
+10. [Texas Cybersecurity Act](https://capitol.texas.gov/tlodocs/85R/billtext/html/HB00008F.htm)
 11. [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/)
 12. [Harvard University](https://www.harvard.edu/)
 13. [National Cybersecurity Center of Excellence](https://www.nccoe.nist.gov/)
@@ -143,7 +143,7 @@ ______
 20. [Research Triangle Park](https://www.rtp.org/)
 21. [Cisco Systems](https://www.cisco.com/)
 22. [Red Hat](https://www.redhat.com/)
-23. [North Carolina Identity Theft Protection Act](https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_75C/Article_2.html)
+23. [North Carolina Identity Theft Protection Act](https://ncleg.net/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_75/Article_2A.html)
 24. [Redstone Arsenal](https://www.army.mil/redstone)
 25. [Northrop Grumman](https://www.northropgrumman.com/)
 26. [Dynetics](https://www.dynetics.com/)
