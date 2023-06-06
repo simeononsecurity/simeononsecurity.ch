@@ -8,7 +8,7 @@ tags: ["Windows 10 Security", "Automated Configuration Changes", "PrivacyTools.i
 ---
 **Optimize, Harden, and Debloat Windows 10 Deployments**
 
-**Download all the required files from the [GitHub Repository](https://github.com/smiltech/Windows-Optimize-Harden-Debloat)**
+**Download all the required files from the [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)**
 
 **We are seeking help with the following [.Net issue](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues/3)** 
 
