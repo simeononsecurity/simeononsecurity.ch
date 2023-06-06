@@ -9,7 +9,7 @@ cover: "/img/cover/An_animated_illustration_of_a_person_wearing_a_superhero_ca.p
 coverAlt: "An animated illustration of a person wearing a superhero cape, sitting at a computer desk, surrounded by cybersecurity-related icons and symbols."
 coverCaption: "Securing the Future: Unleash Your Potential in Cybersecurity Careers."
 ---
-
+{{< readfile "content\cyber-security-career-playbook-start\pageschema.html" >}}
 ## An Introduction to Cybersecurity Careers
 
 In today's interconnected world, where digital technology permeates every aspect of our lives, the importance of **cybersecurity** cannot be overstated. With the rise in **cyber threats** and the increasing value of data, organizations of all sizes are actively seeking skilled professionals to protect their digital assets and safeguard their sensitive information.
