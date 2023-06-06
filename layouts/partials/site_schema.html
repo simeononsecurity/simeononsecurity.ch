@@ -1,7 +1,7 @@
 {{ $enabledURLs := slice "/about" "/contact" "/terms" "/privacy" }} {{
 $currentPath := .Permalink }} {{ $enableSchema := false }} {{ range $enabledURLs
 }} {{ if (in $currentPath .) }} {{ $enableSchema = true }} {{ end }} {{ end }}
-{{ if not $enableSchema }}
+{{ if $enableSchema }}
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
