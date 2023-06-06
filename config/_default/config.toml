@@ -77,6 +77,10 @@ socialProfiles = [
   "https://discord.io/cybersentinels"
 ]
 
+github = "https://github.com/simeononsecurity"
+twitter = "https://twitter.com/simeonsecurity"
+facebook = ""
+
 alternatePageName = "SimeonOnSecurity"
 organizationLogo = "/img/banner.png"
 organizationName = "SimeonOnSecurity"
