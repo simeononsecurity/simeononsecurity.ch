@@ -88,7 +88,7 @@ Note: The last two commands should be applied from telnet logged in as the **`te
 After customizing, reboot the ONT and enjoy true IP passthrough.
 
 ### Troubleshooting and Additional Steps
-For more information on this topic, please check out the [8311 discord](https://discord.gg/XbTWBbSG4p) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/).
+For more information on this topic, please check out the [8311 discord](https://discord.gg/8311-886329492438671420) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/).
 
 ### Conclusion
 
