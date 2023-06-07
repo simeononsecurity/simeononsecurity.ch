@@ -1,29 +1,29 @@
 <div>
-<span class="language-selector__container">
-    <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
-        <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
-    </span>
-    <span class="language-selector" id="language-menu">
-        {{ if .Site.IsMultiLingual }}
-        <nav aria-label="Language switcher">
-            <menu>
-                <ul class="">
-                    {{ range .Site.Languages }}
-                    {{ if eq . $.Site.Language }}
-                        <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
-                    {{ end }}
-                    {{ end }}
-                    <ul class="language_dropdown__menu">
-                        {{ range $.Translations }}
-                        <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ .Language.LanguageName }}</a></li>
+    <span class="language-selector__container">
+        <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
+            <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
+        </span>
+        <span class="language-selector" id="language-menu">
+            {{ if .Site.IsMultiLingual }}
+            <nav aria-label="Language switcher">
+                <menu>
+                    <ul class="">
+                        {{ range .Site.Languages }}
+                        {{ if eq . $.Site.Language }}
+                            <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
                         {{ end }}
+                        {{ end }}
+                        <ul class="language_dropdown__menu">
+                            {{ range $.Translations }}
+                            {{ $langCode := .Language.Lang }}
+                            <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ $langCode }}</a></li>
+                            {{ end }}
+                        </ul>
                     </ul>
-                    </ul>
-                </nav>
-            </menu>
-        {{ end }}
-    </span>
-    </span>
+                </menu>
+            {{ end }}
+        </span>
+    </span>    
 <style>
         .language-selector {
         position: relative;
