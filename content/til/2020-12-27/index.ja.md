@@ -1,5 +1,5 @@
 ---
-title: "今日、私は新しいセキュリティ ツール、静的コード アナライザー、セルフホスト サービス オプションについて学びました。"
+title: "今日は、新しいセキュリティツール、スタティックコードアナライザー、セルフホスティングサービスのオプションについて学びました。"
 date: 2020-12-27
 toc: true
 draft: false
@@ -7,54 +7,54 @@ description: ""
 tags: []
 ---
 
-**SimeonOnSecurity が今日学び、興味深かったこと**
+**SimeonOnSecurityが今日知ったこと、興味を持ったこと**。
 
-SimeonOnSecurity は、セキュリティとプライバシーに強い関心を持っている人で、今日、興味深いリソースをいくつか見つけたので、他の人と共有したいと考えています。
+SimeonOnSecurityは、セキュリティとプライバシーに強い関心を持つ人であり、今日、いくつかのリソースに出会い、興味深かったので、他の人と共有したいと思います。
 
-彼らの注目を集めたリソースの 1 つは、GitHub の「Awesome Security」リストです。このリストには、優れたセキュリティ ツールの広範なコレクションが含まれており、SimeonOnSecurity は、このリストの項目について引き続き探索し、学習する予定です。
+そのうちのひとつが、GitHubにある「Awesome Security」リストです。このリストには、素晴らしいセキュリティ・ツールが幅広く集められており、SimeonOnSecurityは、このリストに掲載されているアイテムの探索と学習を続けていく予定です。
 
-彼らが興味深いと感じたもう 1 つのリソースは、「PSScriptAnalyzer」です。これは PowerShell モジュールおよびスクリプト用の静的コード チェッカーであり、SimeonOnSecurity はこれをモジュールおよびスクリプト開発のワークフローに統合する予定です。
+また、彼らが面白いと思ったリソースは「PSScriptAnalyzer」です。これはPowerShellモジュールとスクリプトの静的コードチェッカーで、SimeonOnSecurityはこれをモジュールとスクリプトを開発するワークフローに組み込む予定です。
 
-SimeonOnSecurity は、GitHub 上の「personal-security-checklist」にも出会い、プライバシーとセキュリティを真剣に考え始めたばかりの人々にとって貴重なリソースであることがわかりました。このリソースについてはいくつかの批判もありますが、将来的には独自のバージョンを作成する可能性があります。
+また、SimeonOnSecurityはGitHubで「personal-security-checklist」に出会い、プライバシーとセキュリティに真剣に取り組み始めたばかりの人にとって、貴重なリソースであることがわかりました。このリソースには批判もあるようですが、将来的には自分たちのバージョンを作るかもしれないそうです。
 
-GitHub 上の「Awesome Selfhosted」リストは、SimeonOnSecurity の注目を集めたもう 1 つのリソースです。このリストには、素晴らしい自己ホスト型ツールとソフトウェアの広範なコレクションが含まれており、彼らはこのリストにある項目について引き続き探索し、学習する予定です。
+GitHubの「Awesome Selfhosted」リストも、SimeonOnSecurityが注目したリソースです。このリストには、素晴らしいセルフホスティングのツールやソフトウェアが幅広く集められており、彼らはこのリストに掲載されているアイテムについて、今後も探求と学習を続けていく予定だそうです。
 
-ホーム ラボのセットアップに興味がある人のために、SimeonOnSecurity は「HomelabOS」と「DockSTARTer」という 2 つのソリューションを見つけました。これらのソリューションは両方ともセルフホステッド サービスを展開するための簡略化された方法を提供しますが、SimeonOnSecurity は HomelabOS のサポートが優れていると考えています。彼らが見つけたもう 1 つのソリューションは「FreedomBox」です。これは専門家以外の人向けのプライベート サーバーであり、数回クリックするだけでサーバー アプリケーションを簡単にインストールして構成できるようになります。
+ホームラボを立ち上げることに興味がある人のために、SimeonOnSecurityは2つのソリューションに出会いました："HomelabOS "と "DockSTARTer "です。これらのソリューションはどちらもセルフホスティングサービスを展開するための簡略化された方法を提供しますが、SimeonOnSecurityはHomelabOSの方がサポートが充実していると考えています。彼らが見つけたもう一つのソリューションは "FreedomBox "で、これは専門家でない人のためのプライベートサーバーで、数回のクリックでサーバーアプリケーションのインストールと設定を簡単にできるようになっています。
 
-最後に、SimeonOnSecurity は、nikitavoloboev が作成した GitHub 上の「プライバシーを尊重する」リストを見つけました。このリストには、プライバシーを尊重するサービスとソフトウェアの優れたリストが含まれています。彼らはすでにリンクされたアイテムのいくつかを推奨しており、このリストにあるアイテムについて引き続き調査して学習する予定です。
+最後に、SimeonOnSecurityは、nikitavoloboevが作成したGitHubの「privacy-respecting」リストにたどり着きました。彼らはすでにリンク先のアイテムのいくつかを推奨しており、このリストのアイテムについて引き続き探求し、学んでいく予定です。
 
-結論として、SimeonOnSecurity は本日、セキュリティとプライバシーに関心を持つ他の人にとって役立つと思われるいくつかの興味深いリソースを発見しました。
+最後に、SimeonOnSecurityは今日、セキュリティとプライバシーに関心のある他の人々にとって役に立つと思われるいくつかの興味深いリソースに出会いました。
 
 
-## 優れたセキュリティ:
--[https://github.com/sbilly/awesome-security](https://github.com/sbilly/awesome-security)
-- 素晴らしいセキュリティ ツールの素晴らしいリスト。今後もリスト内の項目を読み進めていく予定です。
+## Awesome Security：
+- [https://github.com/sbilly/awesome-security](https://github.com/sbilly/awesome-security)
+- 素晴らしいセキュリティツールの素晴らしいリストです。私は、リストの項目を読み続けるつもりです。
 
-## PSScriptアナライザー:
--[https://github.com/PowerShell/PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
-- PowerSell モジュールおよびスクリプト用の静的コード チェッカー。これをモジュールとスクリプトの開発ワークフローに組み込む予定です。
+## PSScriptAnalyzer：
+- [https://github.com/PowerShell/PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
+- PowerSellモジュールとスクリプトの静的コードチェッカーです。モジュールやスクリプトの開発ワークフローに活用する予定です。
 
-## 個人セキュリティチェックリスト:
--[https://github.com/Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-- プライバシーとセキュリティを真剣に考え始めている人々に送るのに最適なリソースです。いくつかの批判があるので、独自のバージョンを作成する可能性があります。
+## personal-security-checklist：
+- [https://github.com/Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
+- プライバシーとセキュリティを真剣に考え始めた人たちに送る、素晴らしいリソースです。私はいくつかの批判があり、潜在的には私自身のバージョンを作るつもりです。
 
-## 素晴らしいセルフホスト型:
--[https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-- 素晴らしい自己ホスト型ツールとソフトウェアの素晴らしいリスト。今後もリスト内の項目を読み進めていく予定です。
+## Awesome Selfhosted：
+- [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- 素晴らしいセルフホスティングツールとソフトウェアの素晴らしいリストです。私はリストの項目を読み続けるつもりです。
 
-## ホームラボOS:
--[https://homelabos.com/](https://homelabos.com/)
-- 興味深い HomeLab セットアップにより、ホーム サービスのセットアップが非常に簡単になります。私はセルフホスティングのファンではありません。しかし、このようなものは、技術にあまり詳しくないユーザーにとっては簡単なセットアップになります。人によってはこれをお勧めするかもしれません。私は個人的にそのようなものを使いたくありません。オールインワン パッケージは一般に、ロックダウンやセキュリティ保護が困難です。
+## HomelabOS：
+- [https://homelabos.com/](https://homelabos.com/)
+- 面白いHomeLabのセットアップで、ホームサービスを本当に簡単にセットアップすることができます。私はセルフホスティングのファンではありません。しかし、このようなものであれば、軽い技術者でも簡単にセットアップができます。私はこれをある人に勧めるかもしれません。私自身は、このようなものを使いたいとは思いません。オールインワンパッケージは、一般的にロックダウンやセキュリティが難しい。
 
-## ドックスターター:
--[https://dockstarter.com/](https://dockstarter.com/)
-- HomeLabOS (上記) と同様に、セルフホステッド サービスを展開する簡略化された方法を提供し、将来の可能性を秘めています。 HomelabOSのサポートが充実しているようです。
+## DockSTARTer：
+- [https://dockstarter.com/](https://dockstarter.com/)
+- HomeLabOS（上記）と同様に、セルフホストサービスを展開するための簡便な方法を提供し、いくつかの将来的な可能性を持っています。HomelabOSの方がサポートが充実しているようです。
 
-## フリーダムボックス:
--[https://freedombox.org/](https://freedombox.org/)
-- FreedomBox は非専門家向けのプライベート サーバーです。数回クリックするだけでサーバー アプリケーションをインストールして構成できます。あなたの選択した安価なハードウェア上で動作し、インターネット接続と電力を使用し、あなたの制御下にあります。
-- HomeLabOS と DockSTARTer の両方と同様に、FreedomBox はセルフホストのプライバシー指向サービスを迅速に実現するソリューションです。
+## FreedomBoxです：
+- [https://freedombox.org/](https://freedombox.org/)
+- FreedomBoxは、専門家でない人のためのプライベートサーバーです。数回クリックするだけで、サーバーアプリケーションをインストールし、設定することができます。サーバーアプリケーションをインストールし、設定することができます。それは、あなたの選んだ安価なハードウェア上で動作し、あなたのインターネット接続と電力を使用し、あなたのコントロール下にあります。
+- HomeLabOSやDockSTARTerと同様に、FreedomBoxはプライバシー指向のサービスを迅速にセルフホスティングするためのソリューションです。
 
-## ニキタヴォロボエフ/プライバシー尊重:
--[https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- プライバシーを尊重するサービスとソフトウェアの優れたリスト。私はもう[recommend](https://simeononsecurity.ch/recommendations) リンク先のアイテムの一部。今後もリスト内の項目を読み進めていく予定です。
+## nikitavoloboev/privacy-respecting：
+- [https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
+- プライバシーを尊重するサービスやソフトウェアの素晴らしいリストです。私はすでに [recommend](https://simeononsecurity.ch/recommendations)リンク先の項目の一部です。今後もリストの項目を読み込んでいく予定です。

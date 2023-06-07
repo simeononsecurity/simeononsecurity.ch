@@ -1,5 +1,5 @@
 ---
-title: "今日はサイバーセキュリティの技術を学びました"
+title: "今日はサイバーセキュリティのテクニックを学びました"
 date: 2021-01-18
 toc: true
 draft: false
@@ -7,19 +7,19 @@ description: ""
 tags: []
 ---
 
-**SimeonOnSecurity が今日学び、興味深かったこと**
+**SimeonOnSecurityが今日知ったこと、興味を持ったこと**。
 
-SimeonOnSecurity は、ImmersiveLabs、ビデオ、他の人にとって興味深いトピックについて学び、興味深いものを見つけました。
+SimeonOnSecurityがImmersiveLabsで学んだこと、見つけた面白いこと、ビデオ、そして他の人が興味を持ちそうないくつかのトピックを紹介します。
 
-SimeonOnSecurity は、ImmersiveLabs で複数の防御および攻撃のラボを完了し、実践的な経験を提供し、セキュリティ スキルを向上させました。
+ImmersiveLabsでは、SimeonOnSecurityは複数のディフェンスとオフェンスのラボを完了し、実践的な経験を提供し、セキュリティスキルを向上させました。
 
-SimeonOnSecurity はまた、Gardiner Bryant 氏による「フリー ソフトウェアを盗む方法 (そして悪質な行為)」、Joe Scott 氏による「Hyperloop で何が起こっている (そして起こっていないのか | Answers With Joe)」など、興味深いビデオをいくつか見つけました。 「to learn Virtual Machines RIGHT NOW!! (Kali Linux VM、Ubuntu、Windows)」（NetworkChuck著）、「Convince Your Dungeon Master to Buy a 3D Printer [with orcs]」（Zack Freedman著）。各ビデオは、テクノロジー、セキュリティ、その他の有益で楽しいトピックに関する独自の洞察と視点を提供します。
+SimeonOnSecurityはまた、Gardiner Bryantによる「How to steal free software (and do it badly)」、Joe Scottによる「What's Happening (And Not Happening) With Hyperloop | Answers With Joe」、「You need to learn Virtual Machines RIGHT NOW!"」など興味のある動画をいくつか発見した！(Kali Linux VM, Ubuntu, Windows)" by NetworkChuck, and "Convince Your Dungeon Master to Buy a 3D Printer [with orcs]" by Zack Freedman.どのビデオも、技術やセキュリティなどに関するユニークな洞察や視点を提供しており、有益で楽しいものとなっています。
 
-## イマーシブラボ:
--[Completed multiple Defensive and Offensive Labs](https://www.immersivelabs.com/)
+## ImmersiveLabs：
+- [Completed multiple Defensive and Offensive Labs](https://www.immersivelabs.com/)
 
-## 興味のあるビデオ:
--[Gardiner Bryant - How to steal free software (and do it badly)](https://www.youtube.com/watch?v=7bYpZpTCUFA)
--[Joe Scott - What's Happening (And Not Happening) With Hyperloop | Answers With Joe](https://www.youtube.com/watch?v=23n94m96flc)
--[NetworkChuck - you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)](https://www.youtube.com/watch?v=wX75Z-4MEoM)
--[Zack Freedman - Convince Your Dungeon Master to Buy a 3D Printer [with orcs]](https://www.youtube.com/watch?v=Lvo61p1UVCQ)
+## 興味のある動画を紹介します：
+- [Gardiner Bryant - How to steal free software (and do it badly)](https://www.youtube.com/watch?v=7bYpZpTCUFA)
+- [Joe Scott - What's Happening (And Not Happening) With Hyperloop | Answers With Joe](https://www.youtube.com/watch?v=23n94m96flc)
+- [NetworkChuck - you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)](https://www.youtube.com/watch?v=wX75Z-4MEoM)
+- [Zack Freedman - Convince Your Dungeon Master to Buy a 3D Printer [with orcs]](https://www.youtube.com/watch?v=Lvo61p1UVCQ)

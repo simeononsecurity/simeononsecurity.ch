@@ -6,7 +6,7 @@ description: "SimeonOnSecurityのおすすめオーディオギアは、どん�
 tags: ["マイクロフォン", "ヘッドフォン", "スピーカー", "オーディオ", "おすすめ", "FiiO E10K", "FiiO K3", "オーディオテクニカ ATH M20x", "オーディオテクニカ ATH M30x", "オーディオテクニカ ATH M40x", "フィリップス SHP9500", "オーディオテクニカ ATH M50x", "フィリップスオーディオ Fidelio X2HR", "ベイヤーダイナミック DT 770 PRO", "ベイヤーダイナミック DT 990 PRO", "ゼンハイザーHD 600", "サムソンQ2U", "フォーカスライト スカーレット・ソロ", "GoXLR Mini", "シュアー SM7B", "RODE PSA 1", "クラウドマイクロフォン クラウドリフター CL-1", "エレクトロボイス RE20", "エレクトロボイス 309A"]
 ---
 
-リスニングやレコーディングの体験を向上させる完璧なオーディオギアをお探しですか？ポッドキャスター、ミュージシャン、ゲーマー、または単に個人的な使用で高品質のヘッドセットを探している場合、市場には圧倒的な数の選択肢があります。このガイドでは、**SimeonOnSecurityの**一押し、どんな予算でも最高のスタンドアロンヘッドセットとマイクをご紹介します。
+リスニングやレコーディングの体験を向上させる完璧なオーディオギアをお探しですか？ポッドキャスター、ミュージシャン、ゲーマー、または単に個人的な使用のための高品質のヘッドセットを探している場合、市場には圧倒的な数の選択肢があります。このガイドでは、**SimeonOnSecurityの**一押し、どんな予算でも最高のスタンドアロンヘッドセットとマイクをご紹介します。
 
 ## オーディオのニーズを理解する
 
@@ -22,20 +22,20 @@ tags: ["マイクロフォン", "ヘッドフォン", "スピーカー", "オー
 
 ### 100ドル以下：
 
-- $50 |[Audio-Technica ATH M20x](https://amzn.to/2TVE252)
-- $70 |[Audio-Technica ATH M30x](https://amzn.to/3aGF2Qs)
-- $99 |[Audio-Technica ATH M40x](https://amzn.to/2RMkYDv)
-- $65 |[Philips SHP9500](https://amzn.to/2RngkNb)
+- $50 | [Audio-Technica ATH M20x](https://amzn.to/2TVE252)
+- $70 | [Audio-Technica ATH M30x](https://amzn.to/3aGF2Qs)
+- $99 | [Audio-Technica ATH M40x](https://amzn.to/2RMkYDv)
+- $65 | [Philips SHP9500](https://amzn.to/2RngkNb)
 
 ### $100-$300:
 
-- $149 |[Audio-Technica ATH M50x](https://amzn.to/2GozWu9)        
-[Philips Audio Fidelio X2HR](https://amzn.to/2GozWu9)        
-- $149 |[beyerdynamic DT 770 PRO](https://amzn.to/30P8jDY)     
-- $149 |[beyerdynamic DT 990 PRO](https://amzn.to/37r9SdI)     
-- $299 |[Sennheiser HD 600](https://amzn.to/30QLDDj)
+- $149 | [Audio-Technica ATH M50x](https://amzn.to/2GozWu9)        
+ [Philips Audio Fidelio X2HR](https://amzn.to/2GozWu9)        
+- $149 | [beyerdynamic DT 770 PRO](https://amzn.to/30P8jDY)     
+- $149 | [beyerdynamic DT 990 PRO](https://amzn.to/37r9SdI)     
+- $299 | [Sennheiser HD 600](https://amzn.to/30QLDDj)
 
-なお、単体でヘッドセットを購入する場合は、以下のようなヘッドホン用デジタル・アナログ・コンバーター（DAC）に投資することが推奨されています。[FiiO E10K](https://amzn.to/312xdQJ) or [FiiO K3](https://amzn.to/2uzpo8B)これにより、音質が向上し、優れたリスニング体験を提供することができます。
+なお、単体でヘッドセットを購入する場合は、以下のようなヘッドホン用デジタル・アナログ・コンバーター（DAC）に投資することが推奨されています。 [FiiO E10K](https://amzn.to/312xdQJ) or [FiiO K3](https://amzn.to/2uzpo8B)これにより、音質が向上し、優れたリスニング体験を提供することができます。
 
 ### ヘッドセット推奨品まとめ
 
@@ -43,21 +43,21 @@ tags: ["マイクロフォン", "ヘッドフォン", "スピーカー", "オー
 
 ## マイクロフォン
 
-高品質なマイクは、鮮明でクリアな音声を録音するために不可欠です。ポッドキャスター、ミュージシャン、コンテンツクリエイターであろうと、優れたマイクはオーディオセットアップのバックボーンになります。ここでは、**SimeonOnSecurityの**おすすめスタンドアローンマイクロフォンをご紹介します：
+高品質なマイクは、鮮明でクリアな音声を録音するために不可欠です。ポッドキャスター、ミュージシャン、コンテンツクリエイターであろうと、優れたマイクはオーディオセットアップのバックボーンになるものです。ここでは、**SimeonOnSecurityの**おすすめスタンドアローンマイクロフォンをご紹介します：
 
 ### 100ドル以下：
 
-- $80 |[Samson Q2U](https://amzn.to/2GkpbZA)
+- $80 | [Samson Q2U](https://amzn.to/2GkpbZA)
 
 ### 500円以下：
 
-- $200 |[Samson Q2U](https://amzn.to/2GkpbZA)+ [Focusrite Scarlett Solo (3rd Gen)](https://amzn.to/2ux8kA6)
-- $325 |[Samson Q2U](https://amzn.to/2GkpbZA) + [GoXLR Mini](https://amzn.to/37oB6BC)
+- $200 | [Samson Q2U](https://amzn.to/2GkpbZA)+ [Focusrite Scarlett Solo (3rd Gen)](https://amzn.to/2ux8kA6)
+- $325 | [Samson Q2U](https://amzn.to/2GkpbZA) + [GoXLR Mini](https://amzn.to/37oB6BC)
 
-### 1500ドル以下：
+### 1500ドルを下回る：
 
-- $1300 |[Shure SM7B Cardioid Dynamic Microphone](https://amzn.to/36m9Gel) + [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://amzn.to/2tFgUwY) + [Cloud Microphones Cloudlifter CL-1 Mic Activator](https://amzn.to/2TUBi7W) + [GoXLR - Mixer, Sampler, & Voice FX](https://amzn.to/2tOcQdF)
-- $1400 |[Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D](https://amzn.to/37s5uep)  + [Electro-Voice 309A](https://amzn.to/36mRhxV) + [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://amzn.to/2tFgUwY) + [Cloud Microphones Cloudlifter CL-1 Mic Activator](https://amzn.to/2TUBi7W) + [GoXLR - Mixer, Sampler, & Voice FX](https://amzn.to/2tOcQdF)
+- $1300 | [Shure SM7B Cardioid Dynamic Microphone](https://amzn.to/36m9Gel) + [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://amzn.to/2tFgUwY) + [Cloud Microphones Cloudlifter CL-1 Mic Activator](https://amzn.to/2TUBi7W) + [GoXLR - Mixer, Sampler, & Voice FX](https://amzn.to/2tOcQdF)
+- $1400 | [Electro-Voice RE20 Broadcast Announcer Microphone with Variable-D](https://amzn.to/37s5uep)  + [Electro-Voice 309A](https://amzn.to/36mRhxV) + [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://amzn.to/2tFgUwY) + [Cloud Microphones Cloudlifter CL-1 Mic Activator](https://amzn.to/2TUBi7W) + [GoXLR - Mixer, Sampler, & Voice FX](https://amzn.to/2tOcQdF)
 
 ### マイクのおすすめポイントまとめ
 
@@ -67,11 +67,11 @@ tags: ["マイクロフォン", "ヘッドフォン", "スピーカー", "オー
 
 単体のヘッドセットやマイクに加え、オーディオ体験を向上させるための追加機材がいくつかあります。ここでは、おすすめの機器をいくつかご紹介します：
 
-- ヘッドホン DAC：** ヘッドホン DAC は、ヘッドセットの音質を向上させ、より豊かなリスニング体験を提供するのに役立ちます。推奨されるオプションには、以下のものがあります。[FiiO E10K](https://amzn.to/312xdQJ) and [FiiO K3](https://amzn.to/2uzpo8B)
+- ヘッドホン DAC：** ヘッドホン DAC は、ヘッドセットの音質を向上させ、より豊かなリスニング体験を提供するのに役立ちます。推奨されるオプションには、以下のものがあります。 [FiiO E10K](https://amzn.to/312xdQJ) and [FiiO K3](https://amzn.to/2uzpo8B)
 
-- ブームアーム： **ブームアームは、マイクを最適な音質と使いやすさのために配置するのに役立ちます。その[RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://amzn.to/2tFgUwY)は、ぜひお勧めしたいオプションです。
+- ブームアーム： **ブームアームは、マイクを最適な音質と使いやすさのために配置するのに役立ちます。その [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://amzn.to/2tFgUwY)は、ぜひお勧めしたいオプションです。
 
-- **Mixers:** ミキサーは、音のレベルを調整したり、オーディオにエフェクトを加えたりするのに役立ちます。その[GoXLR - Mixer, Sampler, & Voice FX](https://amzn.to/2tOcQdF)は、コンテンツクリエイターやミュージシャンに人気のオプションです。
+- **Mixers:** ミキサーは、音のレベルを調整したり、オーディオにエフェクトを加えたりするのに役立ちます。その [GoXLR - Mixer, Sampler, & Voice FX](https://amzn.to/2tOcQdF)は、コンテンツクリエイターやミュージシャンに人気のオプションです。
 
 ## 結論
 

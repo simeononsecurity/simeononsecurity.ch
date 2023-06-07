@@ -20,6 +20,8 @@ Cybersecurity is an exciting and rapidly growing field that offers a wide range 
 
 In recent years, cybersecurity has become a critical aspect of our digital lives. From protecting sensitive data to safeguarding critical infrastructure, cybersecurity professionals play a crucial role in defending against cyber threats. Starting a career in cybersecurity requires a combination of foundational knowledge, practical skills, and a commitment to continuous learning.
 
+{{< youtube id="kfA-htehOaA" >}}
+
 ### Building a Strong Foundation
 
 Before diving into the world of cybersecurity, it's important to lay a solid foundation of knowledge. Here are some essential areas to focus on:

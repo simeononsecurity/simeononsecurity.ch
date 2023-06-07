@@ -4,11 +4,9 @@ date: 2022-05-02
 toc: true
 draft: false
 description: ""
-tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'Block', 'Rescue', 'Always']
+genre: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Collections", "Windows Security", "Windows Administration", "Security Compliance", "IT Automation", "Configuration Management"]
+tags: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Collections", "GitHub", "Block", "Rescue", "Always", "Windows Security", "Windows Administration", "STIG Requirements", "Security Automation", "Configuration Management", "IT Security", "Ansible Modules", "Windows Automation", "Ansible Galaxy", "Windows STIG", "Windows Administration Tools", "Security Technical Implementation Guide", "Ansible Content", "Windows Security Best Practices", "IT Automation Solutions", "Security Auditing", "Windows System Configuration"]
 ---
-
-
-
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity learned and discovered several interesting things today related to Windows security and automation using Ansible.

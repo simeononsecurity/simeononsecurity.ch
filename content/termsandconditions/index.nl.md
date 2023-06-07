@@ -5,7 +5,7 @@ date: 2020-08-08
 
 Welkom bij SimeonOnSecurity!
 
-Deze voorwaarden en bepalingen bepalen de regels en voorschriften voor het gebruik van de website van SimeonOnSecurity, te vinden op https://SimeonOnSecurity.com.
+Deze algemene voorwaarden bevatten de regels en voorschriften voor het gebruik van de website van SimeonOnSecurity, te vinden op https://SimeonOnSecurity.com.
 
 Door deze website te bezoeken gaan wij ervan uit dat u deze voorwaarden accepteert. Ga niet verder met het gebruik van SimeonOnSecurity als u niet akkoord gaat met alle voorwaarden en condities die op deze pagina vermeld staan.
 
@@ -28,7 +28,7 @@ Deze overeenkomst begint op de datum hiervan.
 
 Delen van deze website bieden de mogelijkheid voor gebruikers om meningen en informatie te plaatsen en uit te wisselen in bepaalde delen van de website. SimeonOnSecurity filtert, redigeert, publiceert of herziet geen Reacties voorafgaand aan hun aanwezigheid op de website. Reacties weerspiegelen niet de standpunten en meningen van SimeonOnSecurity, zijn agenten en/of filialen. De commentaren weerspiegelen de meningen en de opinies van de persoon die hun meningen en opinies post. Voor zover toegestaan door de toepasselijke wetgeving, is SimeonOnSecurity niet aansprakelijk voor de Opmerkingen of voor enige aansprakelijkheid, schade of kosten veroorzaakt en/of geleden als gevolg van enig gebruik van en/of het plaatsen van en/of het verschijnen van de Opmerkingen op deze website.
 
-SimeonOnSecurity behoudt zich het recht voor om alle Reacties te controleren en om Reacties te verwijderen die als ongepast, beledigend of een inbreuk op deze Voorwaarden kunnen worden beschouwd.
+SimeonOnSecurity behoudt zich het recht voor om alle Reacties te controleren en Reacties te verwijderen die als ongepast, beledigend kunnen worden beschouwd of een schending van deze Voorwaarden veroorzaken.
 
 U garandeert en verklaart dat:
 Je het recht hebt om de Comments op onze website te plaatsen en alle benodigde licenties en toestemmingen hebt om dit te doen; De Comments geen inbreuk maken op enig intellectueel eigendomsrecht, inclusief zonder beperking auteursrecht, patent of handelsmerk van een derde partij; De Comments geen lasterlijk, smadelijk, aanstootgevend, onfatsoenlijk of anderszins onwettig materiaal bevatten dat een inbreuk is op de privacy De Comments niet gebruikt zullen worden om zaken of gewoonten te vragen of te promoten of commerciële activiteiten of onwettige activiteiten voor te stellen.

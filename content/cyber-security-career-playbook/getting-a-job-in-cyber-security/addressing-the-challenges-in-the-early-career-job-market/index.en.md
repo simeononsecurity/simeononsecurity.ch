@@ -18,6 +18,8 @@ coverCaption: "Breaking Barriers: Your Path to Early Career Success!"
 
 The early career job market has become increasingly challenging for young professionals seeking employment. In this article, we will investigate the current job market conditions for early career professionals and explore the obstacles they face in securing desirable positions. We will expose misleading marketing claims and misconceptions about easy entry and lucrative salaries, emphasizing the importance of working smart and acquiring valuable skills that employers recognize and value. Furthermore, we will highlight initiatives and strategies being implemented to improve the early career job market and provide practical advice for students to navigate and overcome these challenges.
 
+{{< youtube id="jYwNI5IB__k" >}}
+
 ## The Worsening Job Market Conditions for Early Career Professionals
 
 The job market for early career professionals has become highly competitive and challenging in recent years. The rapid advancements in technology, globalization, and changing industry demands have contributed to this trend. As a result, young professionals often face difficulties in finding suitable employment opportunities that align with their qualifications and expectations. **High unemployment rates**, limited job openings, and fierce competition from experienced professionals have made it even more challenging for early career job seekers.

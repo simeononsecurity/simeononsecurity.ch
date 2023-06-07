@@ -4,7 +4,8 @@ date: 2022-05-04
 toc: true
 draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
-tags: ['ansible', 'automation', 'ansible conditionals', 'playbooks', 'ansible playbooks', 'ansible playbook collections', 'ansible collections', 'variables']
+genre: ["Automation", "Ansible", "Configuration Management", "IT Infrastructure", "DevOps", "Playbook Development", "Variable Management", "Conditional Execution"]
+tags: ["ansible", "automation", "ansible conditionals", "playbooks", "ansible playbooks", "ansible playbook collections", "ansible collections", "variables", "Ansible Documentation", "Tech Bloggers", "Conditionals in Ansible", "Task Execution", "Privilege Escalation", "Become Directive", "Ansible OS Families", "Target Operating System", "Efficient Playbook Development", "Dynamic Automation", "Configuration Management Best Practices", "Infrastructure Automation", "DevOps Tools", "Ansible Tips and Tricks"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

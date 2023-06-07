@@ -1,9 +1,100 @@
 ---
-title: "Recommended Anti-Virus"
+title: "Antivirus recomendado"
 draft: false
 toc: true
-description: "This article provides a list of recommended anti-virus products for home and business use, as ranked by SimeonOnSecurity. The rankings are based on professional opinion and testing against malicious samples, and only cover anti-virus capabilities, detection, user experience, and performance. Windows users can choose from both paid and free options, while Linux and MacOS users have limited options, with paid options only available for Linux. Note that AV is not required on Linux or MacOS and using any VPN or password manager provided with the AV suite is not recommended. The article also provides recommendations for VPN providers. Business use recommendations are currently being worked on."
-tags: ["Recommended Anti-Virus", "AV", "Anti-Virus", "AntiVirus", "SimeonOnSecurity's recommended Anti-Virus Products", "VirusTotal", "AV capabilities", "detection", "user experience", "performance", "Linux", "MacOS", "VPN", "password manager", "VPNS", "Home Use", "Windows", "Paid", "Bitdefender - INTERNET SECURITY", "Avira - Antivirus Pro", "Avast Premium Security", "Free", "Bitdefender - Antivirus Free Edition", "Avira - Free Antivirus for Windows", "Avast - Free Antivirus", "Microsoft - Windows Defender", "Windows Defender Hardening", "Linux", "ESET NOD32 ANTIVIRUS FOR LINUX DESKTOP", "ClamAV", "MacOS", "Business Use"]
+description: "Este artículo proporciona una lista de productos antivirus recomendados para uso doméstico y empresarial, según la clasificación de SimeonOnSecurity. Las clasificaciones se basan en la opinión de profesionales y en pruebas con muestras maliciosas, y sólo cubren las capacidades antivirus, la detección, la experiencia del usuario y el rendimiento. Los usuarios de Windows pueden elegir entre opciones de pago y gratuitas, mientras que los de Linux y MacOS tienen opciones limitadas, con opciones de pago sólo disponibles para Linux. Tenga en cuenta que los antivirus no son necesarios en Linux o MacOS y que no se recomienda utilizar ninguna VPN o gestor de contraseñas proporcionado con el paquete antivirus. El artículo también ofrece recomendaciones sobre proveedores de VPN. Actualmente se está trabajando en las recomendaciones para uso empresarial."
+tags: ["Antivirus recomendado", "AV", "Antivirus", "Antivirus", "Productos antivirus recomendados por SimeonOnSecurity", "VirusTotal", "Capacidades audiovisuales", "detección", "experiencia del usuario", "rendimiento", "Linux", "MacOS", "VPN", "gestor de contraseñas", "VPNS", "Uso doméstico", "Windows", "Pagado", "Bitdefender - SEGURIDAD EN INTERNET", "Avira - Antivirus Pro", "Avast Premium Seguridad", "Gratis", "Bitdefender - Antivirus Edición Gratuita", "Avira - Antivirus gratuito para Windows", "Avast - Antivirus gratuito", "Microsoft - Windows Defender", "Endurecimiento de Windows Defender", "Linux", "ESET NOD32 ANTIVIRUS PARA LINUX DESKTOP", "ClamAV", "MacOS", "Uso comercial"]
 ---
+ se ha vuelto cada vez más importante en los últimos años, con el aumento de las amenazas en línea y el mayor uso de ordenadores y otros dispositivos. Una de las formas más importantes de protegerse contra estas amenazas es utilizar software antivirus. El software antivirus está diseñado para proteger contra el software malicioso y otras amenazas en línea, y puede ayudar a mantener su ordenador y otros dispositivos seguros.
 
-La ciberseguridad se ha vuelto cada vez más importante en los últimos años, con el aumento de las amenazas en línea y el mayor uso de computadoras y otros dispositivos. Una de las formas más importantes de protegerse contra estas amenazas es mediante el uso de software antivirus. El software antivirus está diseñado para proteger contra software malintencionado y otras amenazas en línea, y puede ayudar a mantener seguros su equipo y otros dispositivos.  En este artículo, analizaremos algunas de las soluciones antivirus recomendadas para Windows y Linux para uso doméstico y empresarial. Analizaremos soluciones gratuitas y de pago, y analizaremos las características, los beneficios y los inconvenientes de cada una.  ## Comprender el software antivirus  Antes de sumergirnos en las soluciones antivirus recomendadas, es importante comprender qué es el software antivirus y cómo funciona. El software antivirus está diseñado para detectar y eliminar software malicioso, también conocido como malware, de su computadora u otros dispositivos.  El malware puede tomar muchas formas, incluidos virus, spyware y ransomware. Estos programas maliciosos pueden causar una variedad de problemas, desde robar su información personal hasta cifrar sus archivos y exigir el pago de un rescate para desbloquearlos.  El software antivirus funciona escaneando su computadora en busca de malware y luego eliminándolo o poniéndolo en cuarentena para que no pueda causar ningún daño. Lo hace buscando patrones de código que coincidan con firmas de malware conocidas, así como analizando el comportamiento de los programas para detectar actividades sospechosas.  Si bien el software antivirus no es infalible y no puede proteger contra todas las amenazas, es una parte importante de una estrategia integral de ciberseguridad.  ## Soluciones antivirus recomendadas para uso doméstico  ### ventanas  Cuando se trata de soluciones antivirus para Windows, hay muchas opciones para elegir. Estas son algunas de las mejores soluciones, clasificadas por categoría:  #### Pagado  - [Bitdefender - SEGURIDAD DE INTERNET](https://amzn.to/3nfig7d) - [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro) - [Seguridad premium de Avast](https://amzn.to/2MA7jR2)  #### Gratis  - [Bitdefender - Edición gratuita de antivirus](https://www.bitdefender.com/solutions/free.html) - [Avira - Antivirus gratuito para Windows](https://www.avira.com/es/free-antivirus-windows) - [Avast - Antivirus gratuito](https://www.avast.com/es-es/index) - [Microsoft - Windows Defender](https://www.microsoft.com/en-us/windows/comprehensive-security)   - Recomendado: [SimeonOnSecurity - Fortalecimiento de Windows Defender](https://github.com/simeononsecurity/Windows-Defender-Hardening)   Es importante tener en cuenta que Windows Defender viene preinstalado en Windows y es una opción sólida para la protección básica.  ###Linux  Linux es conocido por ser un sistema operativo más seguro, pero eso no significa que sea inmune a los ataques. Estas son algunas de las mejores soluciones antivirus para Linux:  #### Pagado  - [ESET NOD32 ANTIVIRUS PARA ESCRITORIO LINUX](https://www.eset.com/int/home/antivirus-linux)  #### Gratis  - [ClamAV](https://www.clamav.net/)  ### Mac OS  Al igual que Linux, MacOS a menudo se considera un sistema operativo más seguro que Windows. Sin embargo, sigue siendo importante tener algún tipo de protección. Estas son algunas de las mejores soluciones antivirus para MacOS:  #### Pagado  - [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro) - [Seguridad premium de Avast](https://amzn.to/2MA7jR2)  #### Gratis  - [Avira - Antivirus gratuito para Mac](https://www.avira.com/es/free-antivirus-mac) - [Avast - Antivirus gratuito](https://www.avast.com/es-es/index)  ## Soluciones antivirus recomendadas para empresas  Cuando se trata de soluciones antivirus para empresas, hay varios factores a considerar. Por ejemplo, las empresas pueden requerir un software antivirus que se pueda administrar de forma centralizada, que tenga capacidades de generación de informes avanzados o que se integre con otras soluciones de seguridad.  Estas son algunas de las mejores soluciones antivirus para empresas:  #### Pagado  - [Bitdefender - GravityZone Business Security](https://www.bitdefender.com/business/)  - [Kaspersky - Endpoint Security for Business](https://www.kaspersky.com/small-to-medium-business-security/endpoint-security)  - [McAfee - Protección total para puntos finales](https://www.mcafee.com/enterprise/en-us/products/total-protection-for-endpoint.html)  - [Symantec - Seguridad de punto final](https://www.symantec.com/products/endpoint-security)  #### Gratis  - [Sophos - Hogar Premium](https://home.sophos.com/)  Si bien la opción gratuita es mejor para uso doméstico, las opciones pagan son más completas y se adaptan a las necesidades de una empresa. Es importante seleccionar el software antivirus adecuado para su negocio para garantizar la mejor protección posible contra las amenazas.  ## Conclusión  A medida que las amenazas cibernéticas aumentan en frecuencia y sofisticación, es más importante que nunca tener un software antivirus confiablemente instalado en sus dispositivos. Hemos discutido algunas de las mejores soluciones antivirus para Windows y Linux tanto para uso doméstico como comercial, y esperamos que esta guía lo ayude a tomar una decisión informada al elegir el software antivirus adecuado para sus necesidades.  Recuerde que, si bien el software antivirus es una parte importante de una estrategia integral de ciberseguridad, no es infalible y no puede proteger contra todas las amenazas. Es importante practicar buenos hábitos de seguridad cibernética, como mantener su software actualizado, usar contraseñas seguras y únicas, y tener cuidado al abrir correos electrónicos sospechosos o hacer clic en enlaces sospechosos.  Manténgase seguro en línea y siempre priorice su ciberseguridad. 
+En este artículo, hablaremos de algunas de las soluciones antivirus recomendadas para Windows y Linux para uso doméstico y empresarial. Analizaremos tanto las soluciones gratuitas como las de pago, así como las características, ventajas e inconvenientes de cada una de ellas.
+
+## Software antivirus
+
+Antes de sumergirnos en las soluciones antivirus recomendadas, es importante entender qué es el software antivirus y cómo funciona. El software antivirus está diseñado para detectar y eliminar software malicioso, también conocido como malware, de su ordenador u otros dispositivos.
+
+El malware puede adoptar muchas formas, como virus, spyware y ransomware. Estos programas maliciosos pueden causar diversos problemas, desde robar su información personal hasta cifrar sus archivos y exigir el pago de un rescate para desbloquearlos.
+
+El software antivirus analiza el ordenador en busca de programas maliciosos y, a continuación, los elimina o los pone en cuarentena para que no puedan causar ningún daño. Para ello, busca patrones de código que coincidan con firmas de malware conocidas y analiza el comportamiento de los programas para detectar actividades sospechosas.
+
+Aunque el software antivirus no es infalible y no puede proteger contra todas las amenazas, es una parte importante de una estrategia integral de ciberseguridad.
+
+## Soluciones antivirus recomendadas para uso doméstico
+
+### Windows
+
+Cuando se trata de soluciones antivirus para Windows, hay muchas opciones entre las que elegir. He aquí algunas de las mejores soluciones, clasificadas por categorías:
+
+#### De pago
+
+- [Bitdefender - INTERNET SECURITY](https://amzn.to/3nfig7d)
+- [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro)
+- [Avast Premium Security](https://amzn.to/2MA7jR2)
+
+#### Gratis
+
+- [Bitdefender - Antivirus Free Edition](https://www.bitdefender.com/solutions/free.html)
+- [Avira - Free Antivirus for Windows](https://www.avira.com/en/free-antivirus-windows)
+- [Avast - Free Antivirus](https://www.avast.com/en-us/index)
+- [Microsoft - Windows Defender](https://www.microsoft.com/en-us/windows/comprehensive-security)
+  - Recomendado: [SimeonOnSecurity - Windows Defender Hardening](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+
+
+Es importante señalar que Windows Defender viene preinstalado en Windows y es una opción sólida para una protección básica.
+
+### Linux
+
+Linux es conocido por ser un sistema operativo más seguro, pero eso no significa que sea inmune a los ataques. Estas son algunas de las mejores soluciones antivirus para Linux:
+
+#### De pago
+
+- [ESET NOD32 ANTIVIRUS FOR LINUX DESKTOP](https://www.eset.com/int/home/antivirus-linux)
+
+#### Gratis
+
+- [ClamAV](https://www.clamav.net/)
+
+### MacOS
+
+Al igual que Linux, MacOS suele considerarse un sistema operativo más seguro que Windows. Sin embargo, sigue siendo importante contar con algún tipo de protección. Estas son algunas de las mejores soluciones antivirus para MacOS:
+
+#### De pago
+
+- [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro)
+- [Avast Premium Security](https://amzn.to/2MA7jR2)
+
+#### Gratis
+
+- [Avira - Free Antivirus for Mac](https://www.avira.com/en/free-antivirus-mac)
+- [Avast - Free Antivirus](https://www.avast.com/en-us/index)
+
+## Soluciones antivirus recomendadas para empresas
+
+Cuando se trata de soluciones antivirus para empresas, hay que tener en cuenta varios factores. Por ejemplo, las empresas pueden necesitar un software antivirus que se pueda gestionar de forma centralizada, que tenga funciones avanzadas de generación de informes o que se integre con otras soluciones de seguridad.
+
+Estas son algunas de las mejores soluciones antivirus para empresas:
+
+#### De pago
+
+- [Bitdefender - GravityZone Business Security](https://www.bitdefender.com/business/)
+
+- [Kaspersky - Endpoint Security for Business](https://www.kaspersky.com/small-to-medium-business-security/endpoint-security)
+
+- [McAfee - Total Protection for Endpoint](https://www.mcafee.com/enterprise/en-us/products/total-protection-for-endpoint.html)
+
+- [Symantec - Endpoint Security](https://www.symantec.com/products/endpoint-security)
+
+#### Gratis
+
+- [Sophos - Home Premium](https://home.sophos.com/)
+
+Mientras que la opción gratuita es la mejor para uso doméstico, las opciones de pago son más completas y están adaptadas a las necesidades de una empresa. Es importante seleccionar el software antivirus adecuado para su empresa a fin de garantizar la mejor protección posible frente a las amenazas.
+
+## Conclusión
+
+Como las ciberamenazas siguen aumentando en frecuencia y sofisticación, es más importante que nunca tener instalado un software antivirus fiable en sus dispositivos. Hemos analizado algunas de las mejores soluciones antivirus para Windows y Linux, tanto para uso doméstico como empresarial, y esperamos que esta guía le ayude a tomar una decisión informada a la hora de elegir el software antivirus adecuado para sus necesidades.
+
+Recuerde que, aunque el software antivirus es una parte importante de una estrategia integral de ciberseguridad, no es infalible y no puede proteger contra todas las amenazas. Es importante poner en práctica buenos hábitos de ciberseguridad, como mantener el software actualizado, utilizar contraseñas seguras y únicas, y ser cauteloso a la hora de abrir correos electrónicos sospechosos o hacer clic en enlaces sospechosos.
+
+Manténgase seguro en Internet y dé siempre prioridad a su ciberseguridad.
+

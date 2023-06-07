@@ -1,10 +1,65 @@
 ---
-title: "Streamline Windows Updates with Automation using Chocolatey, PSWindowsUpdate, and Startup Scripts"
-date: 2020-07-22T17:46:00-05:00
-toc: true
-draft: false
-description: "Learn how to automate Windows updates with a single reboot and save valuable time for system administrators using Chocolatey, PSWindowsUpdate, and Startup Scripts."
-tags: ["Automation", "Windows Updates", "Windows 10", "Powershell", "Script", "Chocolatey", "PSWindowsUpdate", "Startup Scripts", "System Administrators", "Windows Update Processes", "Local Group Policy Editor", "GP", "GPO", "Group Policy Objects", "Package Manager", "Consistency", "Centralized Management", "Security", "Software Management", "Microsoft Updates"]
+title: "Rationalisierung von Windows-Updates durch Automatisierung mit Chocolatey, PSWindowsUpdate und Startup Scripts"
+date: 2020-07-22
 ---
+ Windows-Updates mit Chocolatey, PSWindowsUpdate und Startup-Skripten**
 
-**Automatisierung von Windows-Updates mit Chocolatey, PSWindowsUpdate und Startskripten**  In der heutigen schnelllebigen Geschäftsumgebung ist Zeit für Systemadministratoren von entscheidender Bedeutung. Das Aktualisieren von Windows-Rechnern, ein kritischer Aspekt der Systemadministration, kann eine äußerst zeitaufwändige Aufgabe sein, die bei mehreren Systemen bis zu einer Woche dauern kann. Mit etwas Unterstützung von Chocolatey, PSWindowsUpdates und Startup Scripts ist es jetzt jedoch möglich, Updates mit nur einem Neustart jedes Computers auszurollen, wodurch sterben für die Durchführung von einem Updates erforderliche Zeit erheblich reduziert wird.  ## Optimierung von Windows-Updates mit Automatisierung  Windows-Updates sind maßgeblich für die Aufrechterhaltung der Stabilität und Sicherheit von Windows-Computern. Das Durchführen von Updates auf einer großen Anzahl von Computern kann eine zeitaufwändige Aufgabe sein, insbesondere für Systemadministratoren mit begrenzten Ressourcen. Durch die Verwendung von Automatisierungstools wie Chocolatey, PSWindowsUpdate und Startskripts kann dieser Prozess jedoch optimiert werden, damit Administratoren Updates mit minimalem Aufwand durchführen können.  ### Schokoladenartig  [Chocolatey](https://chocolatey.org/) ist ein Paketmanager für Windows, mit dem die Installation von Software auf Windows-Rechnern automatisiert werden kann. Es ähnelt apt-get unter Ubuntu oder Homebrew unter macOS und kann verwendet werden, um eine Vielzahl von Softwarepaketen zu installieren und zu verwalten. Chocolatey kann used Werden, um Pakete im Hintergrund zu installieren, was bedeutet, dass sie ohne Benutzereingriff installiert werden can.  ### PSWindowsUpdate  [PSWindowsUpdate](https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4) ist ein PowerShell-Modul, mit dem die Installation von Windows-Updates automatisiert werden kann. Es stellt Cmdlets bereit, sterben zum Installieren, Deinstallieren und Auflisten von Windows-Updates used Werden can. PSWindowsUpdate ist ein leistungsstarkes Tool, mit dem Windows-Updates auf mehreren Computern verwaltet werden können, wodurch es sich ideal für Systemadministratoren eignet, die eine große Anzahl von Computern verwalten müssen.  ### Startskripte  [Startskripte](https://docs.microsoft.com/en-us/ previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789190(v=ws.11)) sind Skripte, die zum Automatisieren von Aufgaben used Werden können, sterben beim Starten oder Herunterfahren einer Maschine ausgeführt werden müssen. Diese Skripte can used Werden, um Aufgaben wie das Installieren von Software, das Konfigurieren von Einstellungen und das Verwalten von Windows-Updates auszuführen.  ## Automatisieren von Windows-Updates mit einem einzigen Neustart  Um Windows-Updates mit Chocolatey, PSWindowsUpdate und Startup-Skripten zu automatisieren, können Administratoren die folgenden Schritt-für-Schritt-Anleitung befolgen.  ### Einrichten des Shutdown-Skripts Laden Sie alle unterstützenden Dateien aus dem [GitHub-Repository] herunter (https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates)  1. Öffnen Sie den Editor für lokale Gruppenrichtlinien, indem Sie **"Win + R"** drücken und **"gpedit.msc"** anschließend von **"Strg + Umschalt + Eingabe"** eingeben. 2. Navigieren Sie zu Computer **Konfiguration\Windows-Einstellungen\Skripte (Starten/Herunterfahren)**. 3. Doppelklicken Sie im Ergebnisbereich auf Herunterfahren. 4. Wählen Sie die Schaltfläche PowerShell aus. 5. Klicken Sie im Dialogfeld „Eigenschaften für das Herunterfahren“ auf „Hinzufügen“. 6. Geben Sie im Feld Skriptname den Pfad zum Skript ein oder klicken Sie auf Durchsuchen, um im freigegebenen Netlogon-Ordner auf dem Domänencontroller nach „*chocoautomatewindowsupdates.ps1*“ zu suchen. 7. Neustart.  Jetzt muss ein Administrator nur noch den Computer neu starten, um Windows-Updates durchzuführen.  ### Das Skript verstehen  Das zum Automatisieren von Windows-Updates verwendete Skript trägt den Titel „*chocoautomatewindowsupdates.ps1*“. Es erfüllt folgende Aufgaben:  1. Installiert den Chocolatey-Paketmanager. 2. Aktiviert einige bevorzugte Chocolatey-Konfigurationsänderungen. 3. Aktualisiert alle installierten Chocolatey-Pakete. 4. Installiert das PSWindowsUpdate PowerShell-Modul. 5. Fügt den Windows Update-Dienstmanager hinzu. 6. Installiert alle verfügbaren Windows-Updates. 7. Installiert alle fehlenden Treiber oder Updates, die von zuvor installierten Updates benötigt werden.  ### Vorteile der Automatisierung von Windows-Updates  Die Automatisierung von Windows-Updates mit Chocolatey, PSWindowsUpdate und Startskripts hat mehrere Vorteile für Systemadministratoren. Zu diesen Vorteilen gehören:  - **Zeitersparnis**: Die Automatisierung von Windows-Updates reduziert den Zeitaufwand für die Durchführung von Updates erheblich. Administratoren müssen Updates nicht mehr manuell auf jedem Computer installieren. - **Konsistenz**: Die Automatisierung von Windows-Updates stellt sicher, dass Updates konsistent auf allen Computern installiert werden. Dies reduziert die Wahrscheinlichkeit von Fehlern und Sicherheitslücken. - **Zentrale Verwaltung**: Die Automatisierung von Windows-Updates ermöglicht es Administratoren, Updates von einem zentralen Ort aus zu verwalten, wodurch es einfacher ist, den Überblick darüber zu behalten, welche Updates installiert wurden und welche Computer-Updates erforderlich sind. - **Erhöhte Sicherheit**: Durch die Automatisierung von Windows-Updates wird sichergestellt, dass Computer mit den neuesten Sicherheitspatches auf dem neuesten Stand gehalten werden, wodurch das Risiko von Sicherheitsverletzungen verringert wird.  ### Abschluss  Die Automatisierung von Windows-Updates mit Chocolatey, PSWindowsUpdate und Startup Scripts ist ein leistungsstarkes Tool, das Systemadministratoren viel Zeit und Mühe sparen kann. Es ermöglicht die konsistente und effiziente Installation von Updates und stellt sicher, dass die Computer mit den neuesten Sicherheitspatches auf dem neuesten Stand sind. Durch Befolgen der Schritte in diesem Lernprogramm können Administratoren Windows-Updates mit nur einem Neustart automatisieren, wodurch der Prozess der Aktualisierung von Windows-Computern viel schneller und einfacher beschrieben wird.
+In der schnelllebigen Geschäftswelt von heute ist Zeit für Systemadministratoren von entscheidender Bedeutung. Die Aktualisierung von Windows-Rechnern, ein wichtiger Aspekt der Systemadministration, kann eine extrem zeitaufwändige Aufgabe sein, die bei einer ausreichenden Anzahl von Systemen bis zu einer Woche dauern kann. Mit Hilfe von Chocolatey, PSWindowsUpdates und Startup Scripts ist es nun jedoch möglich, Updates mit nur einem einzigen Neustart jedes Rechners auszuführen, wodurch sich der Zeitaufwand für die Durchführung von Updates erheblich verringert.
+
+## Rationalisierung von Windows-Updates mit Automatisierung
+
+Windows-Updates sind für die Aufrechterhaltung der Stabilität und Sicherheit von Windows-Rechnern von entscheidender Bedeutung. Die Durchführung von Updates auf einer großen Anzahl von Rechnern kann eine zeitraubende Aufgabe sein, insbesondere für Systemadministratoren mit begrenzten Ressourcen. Durch den Einsatz von Automatisierungstools wie Chocolatey, PSWindowsUpdate und Startup Scripts kann dieser Prozess jedoch rationalisiert werden, so dass Administratoren Updates mit minimalem Aufwand durchführen können.
+
+### Chocolatey
+
+[Chocolatey](https://chocolatey.org/) ist ein Paketmanager für Windows, mit dem sich die Installation von Software auf Windows-Rechnern automatisieren lässt. Er ähnelt apt-get auf Ubuntu oder homebrew auf macOS und kann zur Installation und Verwaltung einer Vielzahl von Softwarepaketen verwendet werden. Chocolatey kann verwendet werden, um Pakete im Hintergrund zu installieren, was bedeutet, dass sie ohne Benutzereingriff installiert werden können.
+
+### PSWindowsUpdate
+
+[PSWindowsUpdate](https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4) ist ein PowerShell-Modul, das zum Automatisieren der Installation von Windows-Updates verwendet werden kann. Es bietet Cmdlets, die zum Installieren, Deinstallieren und Auflisten von Windows-Updates verwendet werden können. PSWindowsUpdate ist ein leistungsfähiges Tool, das zur Verwaltung von Windows-Updates auf mehreren Computern verwendet werden kann und somit ideal für Systemadministratoren ist, die eine große Anzahl von Computern verwalten müssen.
+
+### Startup-Skripte
+
+[Startup Scripts](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789190(v=ws.11)) sind Skripte, die verwendet werden können, um Aufgaben zu automatisieren, die beim Starten oder Herunterfahren eines Rechners ausgeführt werden müssen. Diese Skripte können für Aufgaben wie die Installation von Software, die Konfiguration von Einstellungen und die Verwaltung von Windows-Updates verwendet werden.
+
+## Automatisieren von Windows-Updates mit einem einzigen Neustart
+
+Um Windows-Updates mithilfe von Chocolatey, PSWindowsUpdate und Startup Scripts zu automatisieren, können Administratoren die folgende Schritt-für-Schritt-Anleitung befolgen.
+
+### Einrichten des Shutdown-Skripts
+Laden Sie alle unterstützenden Dateien von der [GitHub Repository](https://github.com/simeononsecurity/ChocoAutomateWindowsUpdates)
+
+1. Öffnen Sie den Editor für lokale Gruppenrichtlinien, indem Sie **"Win + R "** drücken und **"gpedit.msc "** eingeben, gefolgt von **"Strg + Umschalt + Eingabe "**.
+2. Navigieren Sie zu Computer **Konfiguration\Windows-Einstellungen\Skripte (Starten/Herunterfahren)**.
+3. Doppelklicken Sie im Ergebnisbereich auf Herunterfahren.
+4. Wählen Sie die Registerkarte PowerShell.
+5. Klicken Sie im Dialogfeld Shutdown-Eigenschaften auf Hinzufügen.
+6. Geben Sie im Feld Skriptname den Pfad zum Skript ein, oder klicken Sie auf Durchsuchen, um "*chocoautomatewindowsupdates.ps1*" im freigegebenen Netlogon-Ordner auf dem Domänencontroller zu suchen.
+7. Starten Sie neu.
+
+Jetzt muss ein Administrator nur noch den Computer neu starten, um Windows-Updates durchzuführen.
+
+### Das Skript verstehen
+
+Das Skript zur Automatisierung von Windows-Updates trägt den Namen "*chocoautomatewindowsupdates.ps1*". Es führt die folgenden Aufgaben aus:
+
+1. Installiert den Chocolatey-Paketmanager.
+2. Ermöglicht eine Reihe von bevorzugten Chocolatey-Konfigurationsänderungen.
+3. Aktualisiert alle installierten Chocolatey-Pakete.
+4. Installiert das PSWindowsUpdate PowerShell-Modul.
+5. Fügt den Windows Update-Dienstmanager hinzu.
+6. Installiert alle verfügbaren Windows-Updates.
+7. Installiert alle fehlenden Treiber oder Updates, die für zuvor installierte Updates erforderlich sind.
+
+### Vorteile der Automatisierung von Windows-Updates
+
+Die Automatisierung von Windows-Updates mithilfe von Chocolatey, PSWindowsUpdate und Startup Scripts hat für Systemadministratoren mehrere Vorteile. Zu diesen Vorteilen gehören:
+
+- **Zeitersparnis**: Durch die Automatisierung von Windows-Updates wird der Zeitaufwand für die Durchführung von Updates erheblich reduziert. Administratoren müssen Updates nicht mehr manuell auf jedem Rechner installieren.
+- **Konsistenz**: Durch die Automatisierung von Windows-Updates wird sichergestellt, dass die Updates auf allen Rechnern einheitlich installiert werden. Dadurch wird die Wahrscheinlichkeit von Fehlern und Sicherheitslücken verringert.
+- **Zentrale Verwaltung**: Durch die Automatisierung von Windows-Updates können Administratoren die Updates von einer zentralen Stelle aus verwalten, so dass es einfacher ist, den Überblick darüber zu behalten, welche Updates installiert wurden und welche Computer Updates benötigen.
+- **Erhöhte Sicherheit**: Durch die Automatisierung von Windows-Updates wird sichergestellt, dass die Rechner immer mit den neuesten Sicherheits-Patches versorgt werden, wodurch das Risiko von Sicherheitsverletzungen verringert wird.
+
+### Fazit
+
+Die Automatisierung von Windows-Updates mithilfe von Chocolatey, PSWindowsUpdate und Startup Scripts ist ein leistungsfähiges Tool, das Systemadministratoren viel Zeit und Mühe ersparen kann. Es ermöglicht die konsistente und effiziente Installation von Updates und stellt sicher, dass die Rechner mit den neuesten Sicherheitspatches ausgestattet sind. Wenn Sie die in diesem Lernprogramm beschriebenen Schritte befolgen, können Administratoren Windows-Updates mit nur einem einzigen Neustart automatisieren und so den Prozess der Aktualisierung von Windows-Rechnern wesentlich beschleunigen und vereinfachen.

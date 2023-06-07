@@ -1,5 +1,5 @@
 ---
-title: "Informativa sulla privacy"
+title: "Informativa sulla privacy: Raccolta, uso e consenso delle informazioni | SimeonOnSecurity"
 date: 2020-08-08
 ---
 
@@ -84,7 +84,7 @@ Se fate una richiesta, abbiamo un mese di tempo per rispondervi. Se desiderate e
 
 Desideriamo assicurarci che siate pienamente consapevoli di tutti i vostri diritti in materia di protezione dei dati. Ogni utente ha diritto a quanto segue:
 Diritto di accesso - L'utente ha il diritto di richiedere copie dei propri dati personali. Potremmo addebitare all'utente un piccolo costo per questo servizio.
-Diritto di rettifica - L'utente ha il diritto di richiedere la correzione di qualsiasi informazione che ritiene inesatta. Avete anche il diritto di richiedere che vengano completate le informazioni che ritenete incomplete.
+Diritto di rettifica - L'utente ha il diritto di richiedere la correzione di qualsiasi informazione che ritenga inesatta. Avete anche il diritto di richiedere che vengano completate le informazioni che ritenete incomplete.
 Diritto alla cancellazione - Avete il diritto di richiedere la cancellazione dei vostri dati personali, a determinate condizioni.
 Diritto di limitare l'elaborazione - Avete il diritto di richiedere che l'elaborazione dei vostri dati personali sia limitata, a determinate condizioni.
 Diritto di opporsi al trattamento - Avete il diritto di opporvi al trattamento dei vostri dati personali da parte nostra, a determinate condizioni.
@@ -93,6 +93,6 @@ Se presentate una richiesta, abbiamo un mese di tempo per rispondervi. Se deside
 
 ## Informazioni sui bambini
 
-Un'altra nostra priorità è la protezione dei bambini durante l'utilizzo di Internet. Incoraggiamo genitori e tutori a osservare, partecipare e/o monitorare e guidare la loro attività online.
+Un'altra delle nostre priorità è la protezione dei bambini durante l'utilizzo di Internet. Incoraggiamo genitori e tutori a osservare, partecipare e/o monitorare e guidare la loro attività online.
 
 SimeonOnSecurity non raccoglie consapevolmente alcuna informazione di identificazione personale da bambini di età inferiore ai 13 anni. Se pensate che vostro figlio abbia fornito questo tipo di informazioni sul nostro sito web, vi invitiamo a contattarci immediatamente e faremo del nostro meglio per rimuovere prontamente tali informazioni dai nostri archivi.

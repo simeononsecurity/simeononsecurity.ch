@@ -26,7 +26,7 @@ ______
 
 - CPU**：CPU**：ハイパースレッディング機能を備えた**マルチコアプロセッサー**を目指します。これにより、複数のVMを同時に実行することができます。
 - メモリ**：最低16GBのRAM**に投資してください。メモリが多いほど、より多くのVMを同時に実行することができます。
-- ストレージ**：ソリッド・ステート・ドライブ（SSD）**は、従来のハードディスク・ドライブ（HDD）よりも高速で、消費電力を抑えることができるため、選択しましょう。
+- ストレージ**：ソリッドステートドライブ（SSD）**は、従来のハードディスクドライブ（HDD）よりも高速で、消費電力を削減することができます。
 
 ### 2.ネットワーク機器
 
@@ -38,11 +38,11 @@ ______
 
 ### 1.仮想化ソフトウェア
 
-ホームラボで最も重要なソフトウェアコンポーネントは、**仮想化ソフトウェア**です。人気のあるオプションは以下の通りです。[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows)これらのプラットフォームでは、1つのホスト上で複数のVMを作成し、管理することができます。ニーズと予算に合ったものを選んでください。
+ホームラボで最も重要なソフトウェアコンポーネントは、**仮想化ソフトウェア**です。人気のあるオプションは以下の通りです。 [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows)これらのプラットフォームでは、1つのホスト上で複数のVMを作成し、管理することができます。ニーズと予算に合ったものを選んでください。
 
 ### 2.オペレーティングシステム
 
-VM上で動作させるためには、**オペレーティング・システム（OS）**が必要です。OSには、以下のような無償のものから有償のものまで、数多くの選択肢があります。[Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows)学習やテストの目的に最も合致するOSを選択します。
+VM上で動作させるためには、**オペレーティング・システム（OS）**が必要です。OSには、以下のような無償のものから有償のものまで、数多くの選択肢があります。 [Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows)学習やテストの目的に最も合致するOSを選択します。
 
 ______
 
@@ -95,9 +95,9 @@ ______
 ホームラボの設置が完了したら、さまざまな技術の学習とテストを開始しましょう。人気のあるトピックやプロジェクトには、以下のようなものがあります：
 
 1.**ネットワーキング**：ネットワーク**：異なるネットワークトポロジー、ルーティングプロトコル、およびファイアウォール設定を実験する。
-2.**クラウドコンピューティング**：クラウドコンピューティング**：クラウドコンピューティングについて学ぶ。[Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3.**Operating Systems**：様々なLinuxディストリビューション、Windows Server、および以下のようなコンテナ化技術をテストする。[Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4.**サイバーセキュリティ**：倫理的なハッキング、脆弱性スキャン、インシデントレスポンスなどを、以下のようなツールを使って実践する。[Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2.**クラウドコンピューティング**：クラウドコンピューティング**：クラウドコンピューティングについて学ぶ。 [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
+3.**Operating Systems**：様々なLinuxディストリビューション、Windows Server、および以下のようなコンテナ化技術をテストする。 [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
+4.**Cybersecurity**：倫理的なハッキング、脆弱性スキャン、インシデントレスポンスなどを、以下のようなツールを使って実践する。 [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
 
 ______
 

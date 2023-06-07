@@ -51,7 +51,7 @@ Queste organizzazioni possono collegarsi alla nostra home page a condizione che 
 
 Se siete una delle organizzazioni elencate nel precedente paragrafo 2 e siete interessati a collegarvi al nostro sito web, dovete informarci inviando un'e-mail a SimeonOnSecurity. Vi preghiamo di includere il vostro nome, il nome della vostra organizzazione, le informazioni di contatto e l'URL del vostro sito, un elenco di tutti gli URL da cui intendete collegarvi al nostro sito web e un elenco degli URL del nostro sito a cui vorreste collegarvi. Attendere 2-3 settimane per una risposta.
 
-Le organizzazioni approvate possono collegarsi al nostro Sito web come segue:
+Le organizzazioni approvate possono collegarsi al nostro sito web come segue:
 Utilizzando la nostra ragione sociale; oppure utilizzando il localizzatore uniforme di risorse a cui ci si collega; oppure utilizzando qualsiasi altra descrizione del nostro sito web a cui ci si collega che abbia senso nel contesto e nel formato del contenuto del sito della parte che si collega.
 
 Non sarà consentito l'uso del logo di SimeonOnSecurity o di altre opere d'arte per il collegamento senza un accordo di licenza del marchio.
@@ -62,7 +62,7 @@ Senza previa approvazione e permesso scritto, non è possibile creare cornici in
 
 ## Responsabilità dei contenuti
 
-Non saremo responsabili di alcun contenuto che appaia sul vostro sito web. L'utente accetta di proteggerci e difenderci da qualsiasi reclamo che venga sollevato sul suo sito web. Nessun link deve apparire su alcun sito web che possa essere interpretato come diffamatorio, osceno o criminale, o che infranga, violi in altro modo, o sostenga la violazione o altra violazione di diritti di terzi.
+Non saremo responsabili di alcun contenuto che appaia sul vostro sito web. L'utente accetta di proteggerci e difenderci da qualsiasi reclamo che venga sollevato sul suo sito web. Nessun link deve apparire su alcun sito web che possa essere interpretato come diffamatorio, osceno o criminale, o che infranga, violi in altro modo, o sostenga la violazione o altre violazioni di diritti di terzi.
 
 ## La vostra privacy
 

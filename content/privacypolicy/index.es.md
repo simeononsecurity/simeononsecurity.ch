@@ -1,7 +1,98 @@
 ---
-title: "Privacy Policy"
-date: 2020-08-08T15:24:07-05:00
-draft: false
-description: "The Privacy Policy for SimeonOnSecurity outlines the types of information collected from visitors and how it is used. The policy only applies to online activities and is valid for website visitors. By using the site, visitors consent to the policy. Personal information collected may include contact information, messages, and data related to website usage. This information is used to operate and maintain the site, improve and personalize the user experience, and for communication and marketing purposes. SimeonOnSecurity also uses cookies and web beacons, and partners with Google for advertising. The policy explains the use of log files and third-party privacy policies."
+title: "Política de privacidad: Recogida de información, uso y consentimiento | SimeonOnSecurity"
+date: 2020-08-08
 ---
-En SimeonOnSecurity, accesible desde https://SimeonOnSecurity.ch, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de privacidad contiene tipos de información que SimeonOnSecurity recopila y registra y cómo la usamos. Si tienes preguntas adicionales o requieres más información sobre nuestra Política de Privacidad, no dudes en contactarnos. Esta Política de privacidad se aplica solo a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web con respecto a la información que compartieron y/o recopilaron en SimeonOnSecurity. Esta política no se aplica a ninguna información recopilada fuera de línea o a través de canales que no sean este sitio web. ## Consentimiento Al usar nuestro sitio web, usted acepta nuestra Política de privacidad y acepta sus términos. ## Información que recopilamos La información personal que se le solicita que proporcione, y las razones por las que se le pide que la proporcione, se le aclararán en el momento en que le solicitemos que proporcione su información personal. Si se comunica con nosotros directamente, podemos recibir información adicional sobre usted, como su nombre, dirección de correo electrónico, número de teléfono, el contenido del mensaje y/o los archivos adjuntos que nos envíe, y cualquier otra información que elija proporcionar. Cuando se registra para una Cuenta, podemos solicitar su información de contacto, incluidos elementos como el nombre, el nombre de la empresa, la dirección, la dirección de correo electrónico y el número de teléfono. ## Cómo usamos su información Usamos la información que recopilamos de varias maneras, incluso para:<ul><li> Proporcionar, operar y mantener nuestro sitio web</li><li> Mejorar, personalizar y ampliar nuestro sitio web.</li><li> Comprender y analizar cómo utiliza nuestro sitio web</li><li> Desarrollar nuevos productos, servicios, características y funcionalidades.</li><li> Comunicarnos con usted, ya sea directamente o a través de uno de nuestros socios, incluido el servicio de atención al cliente, para brindarle actualizaciones y otra información relacionada con el sitio web, y con fines promocionales y de marketing.</li><li> Enviarle correos electrónicos</li><li> Encuentre y prevenga el fraude</li></ul> ## Archivos de registro SimeonOnSecurity sigue un procedimiento estándar de uso de archivos de registro. Estos archivos registran a los visitantes cuando visitan sitios web. Todas las empresas de alojamiento hacen esto y forman parte del análisis de los servicios de alojamiento. La información recopilada por los archivos de registro incluye direcciones de protocolo de Internet (IP), tipo de navegador, proveedor de servicios de Internet (ISP), marca de fecha y hora, páginas de referencia/salida y, posiblemente, la cantidad de clics. Estos no están vinculados a ninguna información que sea personalmente identificable. El propósito de la información es analizar tendencias, administrar el sitio, rastrear el movimiento de los usuarios en el sitio web y recopilar información demográfica. Nuestra Política de privacidad se creó con la ayuda del <a href="https://www.privacypolicygenerator.info">Generador de políticas de privacidad</a> y el <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">Generador de políticas de privacidad en línea</a> . ## Cookies y balizas web Como cualquier otro sitio web, SimeonOnSecurity utiliza &#39;cookies&#39;. Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes y las páginas del sitio web a las que accedió o visitó el visitante. La información se utiliza para optimizar la experiencia de los usuarios al personalizar el contenido de nuestra página web según el tipo de navegador de los visitantes y/u otra información. Para obtener más información general sobre las cookies, lea <a href="https://www.cookieconsent.com/what-are-cookies/">&quot;¿Qué son las cookies?&quot;</a> . ## Google DoubleClick DART Cookie Google es uno de los proveedores externos de nuestro sitio. También utiliza cookies, conocidas como cookies de DART, para mostrar anuncios a los visitantes de nuestro sitio en función de su visita a www.website.com y otros sitios en Internet. Sin embargo, los visitantes pueden optar por rechazar el uso de cookies de DART visitando la Política de privacidad de la red de contenido y anuncios de Google en la siguiente URL: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a> ## Nuestros socios publicitarios Algunos de los anunciantes en nuestro El sitio puede usar cookies y balizas web. Nuestros socios publicitarios se enumeran a continuación. Cada uno de nuestros socios publicitarios tiene su propia Política de privacidad para sus políticas sobre los datos del usuario. Para un acceso más fácil, tenemos un hipervínculo a sus Políticas de privacidad a continuación.<ul><li> Google <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li></ul> ## Políticas de privacidad de los socios publicitarios Puede consultar esta lista para encontrar la Política de privacidad de cada uno de los socios publicitarios de SimeonOnSecurity. Los servidores de anuncios o redes publicitarias de terceros utilizan tecnologías como cookies, JavaScript o balizas web que se utilizan en sus respectivos anuncios y enlaces que aparecen en SimeonOnSecurity, que se envían directamente al navegador de los usuarios. Reciben automáticamente su dirección IP cuando esto ocurre. Estas tecnologías se utilizan para medir la efectividad de sus campañas publicitarias y/o para personalizar el contenido publicitario que ve en los sitios web que visita. Tenga en cuenta que SimeonOnSecurity no tiene acceso ni control sobre estas cookies que utilizan los anunciantes de terceros. ## Políticas de privacidad de terceros La política de privacidad de SimeonOnSecurity no se aplica a otros anunciantes o sitios web. Por lo tanto, le recomendamos que consulte las Políticas de privacidad respectivas de estos servidores de anuncios de terceros para obtener información más detallada. Puede incluir sus prácticas e instrucciones sobre cómo excluirse de ciertas opciones. Puede optar por deshabilitar las cookies a través de las opciones de su navegador individual. Para conocer información más detallada sobre la gestión de cookies con navegadores web específicos, se puede encontrar en los sitios web respectivos de los navegadores. ## Derechos de privacidad de la CCPA (no vender mi información personal) Según la CCPA, entre otros derechos, los consumidores de California tienen derecho a: Solicitar que una empresa que recopila datos personales de un consumidor divulgue las categorías y piezas específicas de datos personales que una empresa ha recopilado sobre los consumidores. Solicitar que una empresa elimine cualquier dato personal sobre el consumidor que haya recopilado una empresa. Solicitar que una empresa que vende los datos personales de un consumidor, no venda los datos personales del consumidor. Si realiza una solicitud, tenemos un mes para responderle. Si desea ejercer alguno de estos derechos, póngase en contacto con nosotros. ## Derechos de protección de datos del RGPD Nos gustaría asegurarnos de que conoce todos sus derechos de protección de datos. Todo usuario tiene derecho a lo siguiente: Derecho de acceso: tiene derecho a solicitar copias de sus datos personales. Es posible que le cobremos una pequeña tarifa por este servicio. El derecho a la rectificación: tiene derecho a solicitar que corrijamos cualquier información que crea que es inexacta. También tiene derecho a solicitar que completemos la información que cree que está incompleta. El derecho a borrar: tiene derecho a solicitar que eliminemos sus datos personales, bajo ciertas condiciones. El derecho a restringir el procesamiento: tiene derecho a solicitar que restrinjamos el procesamiento de sus datos personales, bajo ciertas condiciones. El derecho a oponerse al procesamiento: tiene derecho a oponerse a que procesemos sus datos personales, bajo ciertas condiciones. El derecho a la portabilidad de datos: tiene derecho a solicitar que transfiramos los datos que hemos recopilado a otra organización, o directamente a usted, bajo ciertas condiciones. Si realiza una solicitud, tenemos un mes para responderle. Si desea ejercer alguno de estos derechos, póngase en contacto con nosotros. ## Información para niños Otra parte de nuestra prioridad es agregar protección para los niños mientras usan Internet. Alentamos a los padres y tutores a observar, participar y/o monitorear y guiar su actividad en línea. SimeonOnSecurity no recopila a sabiendas ninguna información de identificación personal de niños menores de 13 años. Si cree que su hijo proporcionó este tipo de información en nuestro sitio web, le recomendamos encarecidamente que se comunique con nosotros de inmediato y haremos todo lo posible para eliminarla de inmediato. dicha información de nuestros registros.
+
+En SimeonOnSecurity, accesible desde https://SimeonOnSecurity.ch, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de política de privacidad contiene los tipos de información que recoge y registra SimeonOnSecurity y cómo la utilizamos.
+
+Si tiene preguntas adicionales o necesita más información sobre nuestra Política de Privacidad, no dude en ponerse en contacto con nosotros.
+
+Esta Política de Privacidad se aplica únicamente a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web en lo que respecta a la información que compartieron y/o recogieron en SimeonOnSecurity. Esta política no es aplicable a ninguna información recopilada fuera de línea o a través de canales distintos de este sitio web.
+
+## Consentimiento
+
+Al utilizar nuestro sitio web, usted da su consentimiento a nuestra Política de Privacidad y acepta sus términos.
+
+## Información que recopilamos
+
+La información personal que se le pide que proporcione, y las razones por las que se le pide que la proporcione, se le aclararán en el momento en que le pidamos que proporcione su información personal.
+Si se pone en contacto con nosotros directamente, es posible que recibamos información adicional sobre usted, como su nombre, dirección de correo electrónico, número de teléfono, el contenido del mensaje y/o los archivos adjuntos que nos envíe, y cualquier otra información que decida facilitarnos.
+Cuando se registra para obtener una cuenta, podemos pedirle información de contacto, como su nombre, nombre de la empresa, dirección, dirección de correo electrónico y número de teléfono.
+
+## Cómo utilizamos su información
+
+Utilizamos la información que recopilamos de varias maneras, entre ellas para:
+
+<ul>
+<li>Proporcionar, operar y mantener nuestra web</li>
+<li>Mejorar, personalizar y ampliar nuestro sitio web</li>.
+<li>Comprender y analizar cómo utiliza nuestro sitio web</li> <li>Desarrollar nuevos productos y servicios
+<li>Desarrollar nuevos productos, servicios, características y funcionalidades</li>
+<li>Comunicarnos con usted, ya sea directamente o a través de uno de nuestros socios, incluido el servicio de atención al cliente, para proporcionarle actualizaciones y otra información relacionada con la web, y con fines de marketing y promoción</li>
+<li>Enviarle correos electrónicos</li>.
+<li>Buscar y prevenir el fraude</li>
+</ul>
+
+## Archivos de registro
+
+SimeonOnSecurity sigue un procedimiento estándar de uso de archivos de registro. Estos archivos registran a los visitantes cuando visitan sitios web. Todas las compañías de hosting hacen esto y forma parte de las analíticas de los servicios de hosting. La información recogida por los archivos de registro incluye direcciones de protocolo de Internet (IP), tipo de navegador, proveedor de servicios de Internet (ISP), fecha y hora, páginas de referencia/salida y, posiblemente, el número de clics. Estos datos no están vinculados a ninguna información que permita la identificación personal. El propósito de la información es analizar tendencias, administrar el sitio, rastrear el movimiento de los usuarios en el sitio web y recopilar información demográfica. Nuestra política de privacidad se ha creado con la ayuda del <a href="https://www.privacypolicygenerator.info">Generador de políticas de privacidad</a> y del <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">Generador de políticas de privacidad en línea</a>.
+
+## Cookies y balizas web
+
+Como cualquier otro sitio web, SimeonOnSecurity utiliza 'cookies'. Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes y las páginas del sitio web a las que el visitante accedió o visitó. La información se utiliza para optimizar la experiencia de los usuarios personalizando el contenido de nuestra página web en función del tipo de navegador de los visitantes y/u otra información.
+
+Para obtener más información general sobre las cookies, lea <a href="https://www.cookieconsent.com/what-are-cookies/">"Qué son las cookies"</a>.
+
+## Cookie DART de DoubleClick de Google
+
+Google es uno de un proveedor de terceros en nuestro sitio. También utiliza cookies, conocidas como cookies DART, para ofrecer anuncios a los visitantes de nuestro sitio en función de su visita a www.website.com y a otros sitios de Internet. Sin embargo, los visitantes pueden optar por rechazar el uso de cookies de DART visitando la Política de privacidad de la red de anuncios y contenidos de Google en la siguiente URL - <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>.
+
+## Nuestros socios publicitarios
+
+Algunos de los anunciantes de nuestro sitio pueden utilizar cookies y balizas web. Nuestros socios publicitarios se enumeran a continuación. Cada uno de nuestros socios publicitarios tiene su propia Política de Privacidad para sus políticas sobre los datos del usuario. Para facilitar el acceso, a continuación incluimos un hipervínculo a sus Políticas de Privacidad.
+
+<ul>
+    <li>
+        Google
+        <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>
+    </li> <li>
+</ul>
+
+## Socios publicitarios Políticas de privacidad
+
+Puede consultar esta lista para encontrar la Política de Privacidad de cada uno de los socios publicitarios de SimeonOnSecurity.
+
+Los servidores o redes publicitarias de terceros utilizan tecnologías como cookies, JavaScript o Web Beacons que son utilizadas en sus respectivos anuncios y enlaces que aparecen en SimeonOnSecurity, los cuales son enviados directamente al navegador del usuario. Cuando esto ocurre, reciben automáticamente su dirección IP. Estas tecnologías se utilizan para medir la eficacia de sus campañas publicitarias y/o para personalizar el contenido publicitario que usted ve en los sitios web que visita.
+
+Tenga en cuenta que SimeonOnSecurity no tiene acceso ni control sobre estas cookies utilizadas por terceros anunciantes.
+
+## Políticas de privacidad de terceros
+
+La Política de Privacidad de SimeonOnSecurity no se aplica a otros anunciantes o sitios web. Por lo tanto, le aconsejamos que consulte las respectivas Políticas de Privacidad de estos servidores de anuncios de terceros para obtener información más detallada. Puede incluir sus prácticas e instrucciones sobre cómo optar por no participar en ciertas opciones.
+
+Puede optar por desactivar las cookies a través de las opciones individuales de su navegador. Para obtener información más detallada sobre la gestión de cookies con navegadores web específicos, puede consultar los sitios web respectivos de los navegadores.
+
+## Derechos de privacidad CCPA (No venda mi información personal)
+
+En virtud de la CCPA, entre otros derechos, los consumidores de California tienen derecho a:
+Solicitar que una empresa que recopila datos personales de un consumidor revele las categorías y los datos personales específicos que una empresa ha recopilado sobre los consumidores.
+Solicitar que una empresa elimine cualquier dato personal sobre el consumidor que haya recopilado.
+Solicitar que una empresa que vende datos personales de un consumidor no venda los datos personales del consumidor.
+Si presenta una solicitud, tenemos un mes para responderle. Si desea ejercer alguno de estos derechos, póngase en contacto con nosotros.
+
+## Derechos de protección de datos GDPR
+
+Nos gustaría asegurarnos de que es plenamente consciente de todos sus derechos de protección de datos. Todo usuario tiene derecho a lo siguiente
+Derecho de acceso: tiene derecho a solicitar copias de sus datos personales. Podemos cobrarle una pequeña cantidad por este servicio.
+Derecho de rectificación - Tiene derecho a solicitar que corrijamos cualquier información que considere inexacta. También tiene derecho a solicitar que completemos la información que considere incompleta.
+Derecho de supresión - Tiene derecho a solicitar que borremos sus datos personales, en determinadas condiciones.
+Derecho a restringir el tratamiento: tiene derecho a solicitar que restrinjamos el tratamiento de sus datos personales, en determinadas condiciones.
+Derecho a oponerse al tratamiento: tiene derecho a oponerse al tratamiento de sus datos personales en determinadas condiciones.
+Derecho a la portabilidad de los datos - Tiene derecho a solicitar que transfiramos los datos que hemos recopilado a otra organización, o directamente a usted, en determinadas condiciones.
+Si realiza una solicitud, disponemos de un mes para responderle. Si desea ejercer alguno de estos derechos, póngase en contacto con nosotros.
+
+## Información para niños
+
+Otra parte de nuestra prioridad es añadir protección para los niños mientras usan Internet. Animamos a padres y tutores a que observen, participen y/o supervisen y guíen su actividad en línea.
+
+SimeonOnSecurity no recopila conscientemente ningún tipo de información personal identificable de niños menores de 13 años. Si cree que su hijo ha proporcionado este tipo de información en nuestro sitio web, le recomendamos encarecidamente que se ponga en contacto con nosotros inmediatamente y haremos todo lo posible para eliminar rápidamente dicha información de nuestros registros.

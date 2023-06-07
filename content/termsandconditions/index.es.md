@@ -47,7 +47,7 @@ fuentes de información de consumidores y/o empresas comúnmente conocidas; siti
 
 Aprobaremos las solicitudes de enlace de estas organizaciones si decidimos que (a) el enlace no nos haría quedar mal con nosotros mismos o con nuestras empresas acreditadas; (b) la organización no tiene ningún historial negativo con nosotros; (c) el beneficio para nosotros de la visibilidad del hipervínculo compensa la ausencia de SimeonOnSecurity; y (d) el enlace está en el contexto de información general sobre recursos.
 
-Estas organizaciones podrÃ¡n enlazar con nuestra pÃ¡gina de inicio siempre que el enlace (a) no sea en modo alguno engañoso; (b) no implique falsamente el patrocinio, respaldo o aprobación de la parte enlazante y de sus productos o servicios; y (c) se ajuste al contexto del sitio de la parte enlazante.
+Estas organizaciones pueden enlazar con nuestra pÃ¡gina de inicio siempre que el enlace (a) no sea en modo alguno engañoso; (b) no implique falsamente el patrocinio, respaldo o aprobación de la parte enlazante y sus productos o servicios; y (c) se ajuste al contexto del sitio de la parte enlazante.
 
 Si usted es una de las organizaciones enumeradas en el apartado 2 anterior y está interesado en establecer un enlace con nuestro sitio web, debe informarnos enviando un correo electrónico a SimeonOnSecurity. Por favor, incluya su nombre, el nombre de su organización, información de contacto así como la URL de su sitio, una lista de las URL desde las que pretende enlazar a nuestro sitio web y una lista de las URL de nuestro sitio a las que le gustaría enlazar. Espere 2-3 semanas a recibir una respuesta.
 
@@ -70,11 +70,11 @@ Lea la Política de privacidad
 
 ## Reserva de derechos
 
-Nos reservamos el derecho a solicitarle que elimine todos los enlaces o cualquier enlace concreto a nuestro Sitio Web. Usted se compromete a eliminar inmediatamente todos los enlaces a nuestro sitio Web si así se le solicita. También nos reservamos el derecho de modificar estos términos y condiciones y su política de enlaces en cualquier momento. Al enlazar continuamente a nuestro sitio web, usted acepta estar obligado a cumplir estos términos y condiciones de enlace.
+Nos reservamos el derecho a solicitarle que elimine todos los enlaces o cualquier enlace concreto a nuestro Sitio Web. Usted se compromete a eliminar inmediatamente todos los enlaces a nuestro sitio Web si así se le solicita. También nos reservamos el derecho de modificar estos términos y condiciones y su política de enlaces en cualquier momento. Al enlazar continuamente con nuestro sitio web, usted acepta cumplir y respetar estas condiciones de enlace.
 
 ## Eliminación de enlaces de nuestro sitio web
 
-Si encuentra algún enlace en nuestro sitio web que le resulte ofensivo por cualquier motivo, puede ponerse en contacto con nosotros e informarnos en cualquier momento. Tendremos en cuenta las solicitudes de eliminación de enlaces, pero no estamos obligados a ello ni a responderle directamente.
+Si encuentra algún enlace en nuestro sitio web que le resulte ofensivo por cualquier motivo, puede ponerse en contacto con nosotros e informarnos en cualquier momento. Tendremos en cuenta las solicitudes de eliminación de enlaces, pero no estamos obligados a hacerlo ni a responderle directamente.
 
 No aseguramos que la información de este sitio web sea correcta, no garantizamos que sea completa o exacta; tampoco prometemos que el sitio web siga estando disponible o que el material del sitio web se mantenga actualizado.
 ## Descargo de responsabilidad

@@ -1,98 +1,98 @@
 ---
-title: "Polityka prywatności"
+title: "Polityka prywatności: Gromadzenie informacji, wykorzystanie i zgoda | SimeonOnSecurity"
 date: 2020-08-08
 ---
 
-W SimeonOnSecurity, dostępnym pod adresem https://SimeonOnSecurity.ch, jednym z naszych głównych priorytetów jest prywatność naszych gości. Niniejszy dokument dotyczący polityki prywatności zawiera rodzaje informacji, które są zbierane i rejestrowane przez SimeonOnSecurity oraz sposób ich wykorzystania.
+W SimeonOnSecurity, dostępnym pod adresem https://SimeonOnSecurity.ch, jednym z naszych głównych priorytetów jest prywatność odwiedzających. Niniejsza Polityka prywatności zawiera rodzaje informacji, które są gromadzone i rejestrowane przez SimeonOnSecurity oraz sposób, w jaki je wykorzystujemy.
 
-Jeśli masz dodatkowe pytania lub potrzebujesz więcej informacji na temat naszej Polityki Prywatności, nie wahaj się z nami skontaktować.
+Jeśli masz dodatkowe pytania lub potrzebujesz więcej informacji na temat naszej Polityki prywatności, nie wahaj się z nami skontaktować.
 
-Niniejsza Polityka Prywatności dotyczy tylko naszej działalności online i jest ważna dla odwiedzających naszą stronę internetową w odniesieniu do informacji, które udostępnili i/lub zgromadzili w SimeonOnSecurity. Polityka ta nie ma zastosowania do żadnych informacji zebranych offline lub za pośrednictwem kanałów innych niż ta strona.
+Niniejsza Polityka Prywatności ma zastosowanie wyłącznie do naszych działań online i jest ważna dla odwiedzających naszą stronę internetową w odniesieniu do informacji, które udostępniają i/lub gromadzą w SimeonOnSecurity. Niniejsza polityka nie ma zastosowania do żadnych informacji gromadzonych offline lub za pośrednictwem kanałów innych niż ta strona internetowa.
 
 ## Zgoda
 
-Korzystając z naszej strony internetowej, niniejszym wyrażasz zgodę na naszą Politykę Prywatności i akceptujesz jej warunki.
+Korzystając z naszej strony internetowej, niniejszym wyrażasz zgodę na naszą Politykę prywatności i zgadzasz się na jej warunki.
 
 ## Informacje, które zbieramy
 
-Dane osobowe, o których podanie jesteś proszony, oraz powody, dla których jesteś proszony o ich podanie, zostaną Ci wyjaśnione w momencie, w którym poprosimy Cię o podanie danych osobowych.
-W przypadku bezpośredniego kontaktu z nami, możemy otrzymać dodatkowe informacje o użytkowniku, takie jak imię i nazwisko, adres e-mail, numer telefonu, treść wiadomości i/lub załączników, które użytkownik może nam przesłać, oraz wszelkie inne informacje, które użytkownik zdecyduje się podać.
-Podczas rejestracji Konta możemy poprosić o podanie danych kontaktowych, takich jak imię i nazwisko, nazwa firmy, adres, adres e-mail i numer telefonu.
+Dane osobowe, o których podanie użytkownik jest proszony, oraz powody, dla których użytkownik jest proszony o ich podanie, zostaną mu wyjaśnione w momencie, gdy poprosimy go o podanie danych osobowych.
+Jeśli użytkownik skontaktuje się z nami bezpośrednio, możemy otrzymać dodatkowe informacje na jego temat, takie jak imię i nazwisko, adres e-mail, numer telefonu, treść wiadomości i/lub załączników, które może nam przesłać, oraz wszelkie inne informacje, które użytkownik zdecyduje się podać.
+Podczas rejestracji Konta możemy poprosić o podanie danych kontaktowych, w tym imienia i nazwiska, nazwy firmy, adresu, adresu e-mail i numeru telefonu.
 
 ## Jak wykorzystujemy informacje o użytkowniku
 
-Gromadzone informacje wykorzystujemy na różne sposoby, w tym do:
+Gromadzone przez nas informacje wykorzystujemy na różne sposoby, w tym do:
 
 <ul>
-<li>Prowadzenia, obsługi i utrzymania naszej strony internetowej</li>.
-<li>Poprawy, personalizacji i rozbudowy naszej strony internetowej</li>.
-<li>Zrozumieć i przeanalizować, jak użytkownik korzysta z naszej strony</li>.
-<li>Rozwijać nowe produkty, usługi, cechy i funkcjonalności</li>.
-<li>Komunikować się z Tobą, bezpośrednio lub za pośrednictwem jednego z naszych partnerów, w tym w celu obsługi klienta, dostarczania Ci aktualizacji i innych informacji związanych z naszą stroną internetową oraz w celach marketingowych i promocyjnych</li>.
-<li>Wysyłanie Ci wiadomości e-mail</li>
-<li>Wykrywanie i zapobieganie oszustwom</li>.
+<li>Zapewnienia, obsługi i utrzymania naszej strony internetowej</li>
+<li>Ulepszania, personalizowania i rozszerzania naszej strony internetowej</li>
+<li>Zrozumieć i przeanalizować sposób korzystania z naszej strony internetowej</li>
+<li>Rozwoju nowych produktów, usług, funkcji i funkcjonalności</li>
+<li>Komunikować się z użytkownikiem, bezpośrednio lub za pośrednictwem jednego z naszych partnerów, w tym w celu obsługi klienta, dostarczania aktualizacji i innych informacji związanych ze stroną internetową oraz w celach marketingowych i promocyjnych</li>
+<li>Wysyłać użytkownikowi wiadomości e-mail</li>
+<li>Wykrywać i zapobiegać oszustwom</li>.
 </ul>
 
 ## Pliki dziennika
 
-SimeonOnSecurity stosuje standardową procedurę używania plików dziennika. Pliki te rejestrują odwiedzających podczas ich wizyt na stronach internetowych. Wszystkie firmy hostingowe to robią i jest to część analityki usług hostingowych. Informacje zbierane przez pliki dziennika obejmują adresy IP, typ przeglądarki, dostawcę usług internetowych (ISP), datę i czas, strony odsyłające i wychodzące oraz ewentualnie liczbę kliknięć. Nie są one powiązane z żadnymi informacjami umożliwiającymi identyfikację osoby. Celem tych informacji jest analiza trendów, administrowanie stroną, śledzenie ruchu użytkowników na stronie oraz zbieranie informacji demograficznych. Nasza Polityka Prywatności została stworzona przy pomocy <a href="https://www.privacypolicygenerator.info">Generatora Polityki Prywatności</a> oraz <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">Generatora Polityki Prywatności Online</a>.
+SimeonOnSecurity stosuje standardową procedurę korzystania z plików dziennika. Pliki te rejestrują odwiedzających, gdy odwiedzają strony internetowe. Robią to wszystkie firmy hostingowe i jest to część analityki usług hostingowych. Informacje gromadzone przez pliki dziennika obejmują adresy protokołu internetowego (IP), typ przeglądarki, dostawcę usług internetowych (ISP), znacznik daty i godziny, strony odsyłające / wyjściowe i ewentualnie liczbę kliknięć. Nie są one powiązane z żadnymi informacjami umożliwiającymi identyfikację użytkownika. Celem tych informacji jest analiza trendów, administrowanie stroną, śledzenie ruchu użytkowników na stronie oraz gromadzenie informacji demograficznych. Nasza Polityka prywatności została stworzona przy pomocy <a href="https://www.privacypolicygenerator.info">Generatora polityki prywatności</a> oraz <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">Generatora polityki prywatności online</a>.
 
-## Cookies i Web Beacons
+## Pliki cookie i sygnalizatory WWW
 
-Jak każda inna strona internetowa, SimeonOnSecurity używa "ciasteczek". Te pliki cookie są używane do przechowywania informacji, w tym preferencji odwiedzających, oraz stron na stronie internetowej, do których odwiedzający uzyskał dostęp lub które odwiedził. Informacje te są wykorzystywane do optymalizacji doświadczeń użytkowników poprzez dostosowanie zawartości naszej strony internetowej w oparciu o typ przeglądarki odwiedzającego i/lub inne informacje.
+Jak każda inna strona internetowa, SimeonOnSecurity używa plików cookie. Te pliki cookie są używane do przechowywania informacji, w tym preferencji odwiedzających oraz stron w witrynie, do których odwiedzający uzyskał dostęp lub które odwiedził. Informacje te są wykorzystywane do optymalizacji doświadczeń użytkowników poprzez dostosowywanie zawartości naszej strony internetowej w oparciu o typ przeglądarki odwiedzającego i/lub inne informacje.
 
-Aby uzyskać więcej ogólnych informacji na temat plików cookie, proszę przeczytać <a href="https://www.cookieconsent.com/what-are-cookies/">"Czym są pliki cookie"</a>.
+Więcej ogólnych informacji na temat plików cookie można znaleźć na stronie <a href="https://www.cookieconsent.com/what-are-cookies/">"Czym są pliki cookie"</a>.
 
 ## Google DoubleClick DART Cookie
 
-Google jest jednym ze sprzedawców stron trzecich na naszej stronie. Wykorzystuje on również pliki cookie, znane jako pliki DART, do serwowania reklam osobom odwiedzającym naszą stronę w oparciu o ich wizyty na stronie www.website.com i innych stronach w Internecie. Jednak odwiedzający mogą zdecydować się na odrzucenie stosowania plików cookie DART, odwiedzając politykę prywatności sieci reklam i treści Google pod następującym adresem - <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>.
+Google jest jednym z zewnętrznych dostawców na naszej stronie. Wykorzystuje również pliki cookie, znane jako pliki cookie DART, do wyświetlania reklam odwiedzającym naszą witrynę na podstawie ich wizyt na stronie www.website.com i innych witrynach w Internecie. Odwiedzający mogą jednak zrezygnować z używania plików cookie DART, odwiedzając Politykę prywatności sieci reklamowej i treści Google pod następującym adresem URL - <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>.
 
-## Nasi Partnerzy Reklamowi
+## Nasi partnerzy reklamowi
 
-Niektórzy z reklamodawców na naszej stronie mogą używać plików cookie i sygnałów nawigacyjnych. Nasi partnerzy reklamowi są wymienione poniżej. Każdy z naszych partnerów reklamowych ma swoją własną Politykę Prywatności dla swoich zasad dotyczących danych użytkownika. Dla łatwiejszego dostępu, mamy hiperłącze do ich polityki prywatności poniżej.
+Niektórzy reklamodawcy na naszej stronie mogą używać plików cookie i sygnałów nawigacyjnych. Nasi partnerzy reklamowi są wymienieni poniżej. Każdy z naszych partnerów reklamowych ma własną politykę prywatności dotyczącą danych użytkownika. Aby ułatwić dostęp, umieściliśmy hiperłącza do ich polityk prywatności poniżej.
 
 <ul>
-    <li>.
+    <li>
         Google
         <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>.
-    </li>.
+    </li>
 </ul>
 
 ## Partnerzy reklamowi Polityka prywatności
 
-Możesz zapoznać się z tą listą, aby znaleźć Politykę Prywatności dla każdego z partnerów reklamowych SimeonOnSecurity.
+Możesz zapoznać się z tą listą, aby znaleźć Politykę prywatności dla każdego z partnerów reklamowych SimeonOnSecurity.
 
-Zewnętrzne serwery reklamowe lub sieci reklamowe używają technologii takich jak cookies, JavaScript lub Web Beacons, które są używane w ich odpowiednich reklamach i linkach, które pojawiają się na SimeonOnSecurity, które są wysyłane bezpośrednio do przeglądarki użytkownika. Gdy tak się dzieje, automatycznie otrzymują one Twój adres IP. Technologie te są wykorzystywane do pomiaru skuteczności ich kampanii reklamowych i/lub do personalizacji treści reklamowych, które widzisz na odwiedzanych przez Ciebie stronach internetowych.
+Zewnętrzne serwery reklamowe lub sieci reklamowe wykorzystują technologie, takie jak pliki cookie, JavaScript lub sygnały nawigacyjne w sieci Web, które są używane w odpowiednich reklamach i linkach wyświetlanych na SimeonOnSecurity, które są wysyłane bezpośrednio do przeglądarki użytkownika. W takim przypadku automatycznie otrzymują adres IP użytkownika. Technologie te są wykorzystywane do pomiaru skuteczności kampanii reklamowych i/lub personalizacji treści reklamowych wyświetlanych na odwiedzanych stronach internetowych.
 
-Należy pamiętać, że SimeonOnSecurity nie ma dostępu ani kontroli nad tymi plikami cookie, które są używane przez reklamodawców zewnętrznych.
+Należy pamiętać, że SimeonOnSecurity nie ma dostępu ani kontroli nad tymi plikami cookie, które są używane przez zewnętrznych reklamodawców.
 
-## Polityki prywatności stron trzecich
+## Polityka prywatności stron trzecich
 
-Polityka prywatności SimeonOnSecurity nie ma zastosowania do innych reklamodawców lub stron internetowych. W związku z tym radzimy zapoznać się z odpowiednimi politykami prywatności tych serwerów reklam stron trzecich w celu uzyskania bardziej szczegółowych informacji. Może to obejmować ich praktyki i instrukcje dotyczące sposobu rezygnacji z pewnych opcji.
+Polityka prywatności SimeonOnSecurity nie ma zastosowania do innych reklamodawców lub stron internetowych. W związku z tym zalecamy zapoznanie się z odpowiednimi politykami prywatności serwerów reklamowych stron trzecich w celu uzyskania bardziej szczegółowych informacji. Może to obejmować ich praktyki i instrukcje dotyczące sposobu rezygnacji z niektórych opcji.
 
-Możesz wybrać wyłączenie plików cookie poprzez indywidualne opcje przeglądarki. Aby poznać bardziej szczegółowe informacje na temat zarządzania plikami cookie w poszczególnych przeglądarkach internetowych, można je znaleźć na stronach internetowych tych przeglądarek.
+Użytkownik może wyłączyć pliki cookie za pomocą indywidualnych opcji przeglądarki. Bardziej szczegółowe informacje na temat zarządzania plikami cookie w określonych przeglądarkach internetowych można znaleźć na odpowiednich stronach internetowych przeglądarek.
 
-## Prawa prywatności CCPA (Nie sprzedawaj moich danych osobowych)
+## Prawa do prywatności CCPA (Nie sprzedawaj moich danych osobowych)
 
-Zgodnie z ustawą CCPA, wśród innych praw, konsumenci z Kalifornii mają prawo do:
-Żądać, aby przedsiębiorstwo, które gromadzi dane osobowe konsumenta, ujawniło kategorie i konkretne elementy danych osobowych, które przedsiębiorstwo zgromadziło na temat konsumentów.
-Zażądać od firmy usunięcia wszelkich danych osobowych dotyczących konsumenta, które firma zgromadziła.
-Żądania, aby firma, która sprzedaje dane osobowe konsumenta, nie sprzedawała tych danych.
-W przypadku złożenia wniosku, mamy miesiąc na udzielenie odpowiedzi. Jeśli chcesz skorzystać z któregoś z tych praw, skontaktuj się z nami.
+Zgodnie z CCPA, oprócz innych praw, konsumenci w Kalifornii mają prawo do:
+Żądania, aby firma, która gromadzi dane osobowe konsumenta, ujawniła kategorie i konkretne elementy danych osobowych, które firma zebrała o konsumentach.
+Żądania od firmy usunięcia wszelkich danych osobowych konsumenta, które firma zgromadziła.
+Żądanie, aby firma, która sprzedaje dane osobowe konsumenta, nie sprzedawała danych osobowych konsumenta.
+W przypadku złożenia wniosku mamy miesiąc na udzielenie odpowiedzi. Jeśli chcesz skorzystać z któregokolwiek z tych praw, skontaktuj się z nami.
 
-## Prawa do ochrony danych osobowych GDPR
+## Prawa do ochrony danych osobowych wynikające z RODO
 
-Chcielibyśmy się upewnić, że jesteś w pełni świadomy wszystkich swoich praw związanych z ochroną danych. Każdy użytkownik ma prawo do następujących rzeczy:
-Prawo dostępu - Masz prawo zażądać kopii swoich danych osobowych. Za tę usługę możemy pobrać niewielką opłatę.
-Prawo do sprostowania - Masz prawo zażądać, abyśmy poprawili wszelkie informacje, które uważasz za niedokładne. Masz również prawo zażądać od nas uzupełnienia informacji, które uważasz za niekompletne.
-Prawo do usunięcia danych - Masz prawo zażądać, abyśmy usunęli Twoje dane osobowe, pod pewnymi warunkami.
-Prawo do ograniczenia przetwarzania - Masz prawo zażądać, abyśmy ograniczyli przetwarzanie Twoich danych osobowych, pod pewnymi warunkami.
-Prawo do sprzeciwu wobec przetwarzania - Masz prawo do wniesienia sprzeciwu wobec przetwarzania przez nas Twoich danych osobowych, na określonych warunkach.
-Prawo do przenoszenia danych - Masz prawo zażądać, abyśmy przekazali zebrane przez nas dane do innej organizacji lub bezpośrednio do Ciebie, pod pewnymi warunkami.
-W przypadku zgłoszenia żądania, mamy miesiąc na udzielenie odpowiedzi. Jeśli chcesz skorzystać z któregoś z tych praw, skontaktuj się z nami.
+Chcielibyśmy upewnić się, że jesteś w pełni świadomy wszystkich swoich praw do ochrony danych. Każdemu użytkownikowi przysługują następujące prawa:
+Prawo dostępu - Użytkownik ma prawo zażądać kopii swoich danych osobowych. Za tę usługę możemy pobrać niewielką opłatę.
+Prawo do sprostowania - użytkownik ma prawo zażądać od nas poprawienia wszelkich informacji, które uważa za niedokładne. Użytkownik ma również prawo zażądać uzupełnienia informacji, które uważa za niekompletne.
+Prawo do usunięcia danych - użytkownik ma prawo zażądać usunięcia swoich danych osobowych, pod pewnymi warunkami.
+Prawo do ograniczenia przetwarzania - użytkownik ma prawo zażądać, abyśmy pod pewnymi warunkami ograniczyli przetwarzanie jego danych osobowych.
+Prawo do sprzeciwu wobec przetwarzania - użytkownik ma prawo sprzeciwić się przetwarzaniu przez nas jego danych osobowych, pod pewnymi warunkami.
+Prawo do przenoszenia danych - użytkownik ma prawo zażądać, abyśmy przekazali zebrane przez nas dane do innej organizacji lub bezpośrednio do niego, pod pewnymi warunkami.
+W przypadku złożenia wniosku mamy miesiąc na udzielenie odpowiedzi. Jeśli chcesz skorzystać z któregokolwiek z tych praw, skontaktuj się z nami.
 
 ## Informacje dla dzieci
 
-Kolejną częścią naszego priorytetu jest dodanie ochrony dla dzieci podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestniczenia i/lub monitorowania i kierowania ich aktywnością online.
+Kolejną częścią naszego priorytetu jest zapewnienie ochrony dzieciom podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestniczenia i/lub monitorowania i kierowania ich aktywnością online.
 
-SimeonOnSecurity nie zbiera świadomie żadnych danych osobowych od dzieci poniżej 13 roku życia. Jeśli uważasz, że Twoje dziecko podało tego typu informacje na naszej stronie, zachęcamy do natychmiastowego kontaktu z nami, a my dołożymy wszelkich starań, aby szybko usunąć takie informacje z naszych rejestrów.
+SimeonOnSecurity nie gromadzi świadomie żadnych danych osobowych od dzieci poniżej 13 roku życia. Jeśli uważasz, że Twoje dziecko podało tego rodzaju informacje na naszej stronie internetowej, zdecydowanie zachęcamy do natychmiastowego skontaktowania się z nami, a my dołożymy wszelkich starań, aby niezwłocznie usunąć takie informacje z naszych rejestrów.

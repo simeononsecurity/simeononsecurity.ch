@@ -10,11 +10,12 @@ coverAlt: "A cartoon illustration of a superhero with a shield protecting a digi
 coverCaption: ""
 ---
 
-**Cybersecurity ELI5 (“Explain it like I’m 5”)**
-
-Cybersecurity is like a superhero that protects our digital world from bad guys who want to steal or harm our information. It keeps our personal data, like messages, photos, and money, safe from the bad guys. Just like you have to lock your bedroom door to keep your toys and treasures safe, we have to use special computer skills and techniques to keep our digital things safe from the bad guys on the internet.
 
 ## [Home](/cyber-security-career-playbook-start/)
+
+## **Cybersecurity ELI5 (“Explain it like I’m 5”)**
+
+Cybersecurity is like a superhero that protects our digital world from bad guys who want to steal or harm our information. It keeps our personal data, like messages, photos, and money, safe from the bad guys. Just like you have to lock your bedroom door to keep your toys and treasures safe, we have to use special computer skills and techniques to keep our digital things safe from the bad guys on the internet.
 
 ## Why is Cybersecurity Important?
 

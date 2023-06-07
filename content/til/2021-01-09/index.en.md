@@ -4,7 +4,8 @@ date: 2021-01-09
 toc: true
 draft: false
 description: ""
-tags: []
+genre: ["XFS File System", "Data Management", "Data Recovery", "Backup and Restore", "Red Hat", "File System Best Practices", "Shodan_PS Repository", "Internet-connected Devices", "GitHub Updates", "Windows Compression Format", "Linux Apps", "PHP 8 Features", "Technology Videos"]
+tags: ["XFS File System", "Data Management", "Data Recovery", "Backup and Restore", "Red Hat", "File System Best Practices", "Shodan_PS Repository", "Internet-connected Devices", "GitHub Updates", "Windows Compression Format", "Linux Apps", "PHP 8 Features", "Technology Videos", "SimeonOnSecurity GitHub", "File System Backup", "File System Recovery", "File System Tools", "Linux Applications", "Internet of Things", "Windows OS", "Technology Updates", "Compression Formats", "Software Development", "Project Completion Tips"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

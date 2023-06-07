@@ -4,7 +4,8 @@ date: 2022-05-23
 toc: true
 draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
-tags: ['Automation', 'Powershell', 'Chocolatey Package Manager', 'Chocolatey', 'Choco', 'cinstall', 'Nupkg', 'Nethor', 'Windows Package Managers', 'IAC', 'Infrastructure As Code']
+genre: ["Automation", "Windows Package Management", "Package Creation", "Package Management", "Infrastructure as Code (IaC)", "Windows Software Deployment", "Software Packaging", "Windows Automation", "Package Repositories", "Windows Tools"]
+tags: ["automation", "Powershell", "Chocolatey Package Manager", "Chocolatey", "Choco", "package creation", "package automation", "Nuspec", "Nethor", "Windows Package Managers", "IAC", "Infrastructure as Code", "Windows software deployment", "software packaging", "repository management", "package sharing", "Chocolatey documentation", "tutorial", "package publishing"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

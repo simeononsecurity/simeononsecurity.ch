@@ -3,8 +3,8 @@ title: "Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash"
 date: 2021-02-18
 toc: true
 draft: false
-description: ""
-tags: [PowerShell, Bash, JSON, Manipulation, Parsing]
+genre: ["Automation", "Compliance", "Windows Security", "Ansible Playbooks", "Ansible Collections", "IT Security", "Configuration Management", "DevOps", "Windows Administration", "System Configuration"]
+tags: ["Automation", "Compliance", "Ansible", "Windows Security", "Ansible Playbooks", "Ansible Collections", "Windows STIG", "Configuration Management", "DevOps", "IT Security", "Windows Administration", "System Configuration", "Windows Automation", "STIG Compliance", "Windows_STIG_Ansible", "Windows_STIGs", "GitHub", "Block", "Rescue", "Always", "Windows Automation Guide", "Windows Security Automation", "Security Compliance", "Ansible Automation", "STIG Requirements", "Ansible Modules", "Windows Configuration", "Windows Administration Tools", "Automation Framework", "IT Infrastructure Automation", "Configuration Compliance", "Windows Security Best Practices"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

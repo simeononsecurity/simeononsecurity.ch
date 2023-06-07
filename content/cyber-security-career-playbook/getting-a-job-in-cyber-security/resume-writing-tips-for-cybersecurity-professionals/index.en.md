@@ -18,6 +18,9 @@ In today's competitive job market, a well-crafted resume is essential for showca
 
 ## How to Write a Resume to Get a Job in CyberSecurity?
 
+{{< youtube id="yiqgiZyAGKs" >}}
+
+
 ______
 
 ### 1. Tailor Your Resume to the Job Description

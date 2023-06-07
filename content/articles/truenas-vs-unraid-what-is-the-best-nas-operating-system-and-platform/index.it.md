@@ -4,7 +4,7 @@ date: 2023-02-16
 toc: true
 draft: false
 description: "Un confronto completo tra Unraid e TrueNas, che include la facilità d'uso, le caratteristiche, la documentazione e la comunità, per aiutare gli utenti a decidere con cognizione di causa quale sia il sistema operativo NAS più adatto alle loro esigenze."
-tags: ["Senza paura", "VeroNas", "Sistema operativo NAS", "Confronto", "Facilità d'uso", "Caratteristiche", "Documentazione", "Comunità", "Open Source", "Impresa", "Protezione dei dati", "Prestazioni", "Flessibilità", "Facile da usare", "Applicazioni di terze parti"]
+tags: ["Senza paura", "TrueNAS", "Sistema operativo NAS", "Confronto", "Facilità d'uso", "Caratteristiche", "Documentazione", "Comunità", "Open Source", "Impresa", "Protezione dei dati", "Prestazioni", "Flessibilità", "Facile da usare", "Applicazioni di terze parti", "Storage collegato alla rete", "Tecnologia RAID", "Gestione dello storage", "OpenZFS", "Utenti domestici", "Modello di prezzo", "Archiviazione in cloud", "Virtualizzazione", "Documentazione dell'hub", "Forum della comunità", "Protezione avanzata dei dati", "Sistema operativo NAS maturo", "Competenza tecnica", "Professionisti IT", "Unraid vs TrueNas", "Confronto tra i sistemi operativi NAS", "storage collegato alla rete", "Caratteristiche di Unraid", "Caratteristiche di TrueNas", "Documentazione Unraid", "Documentazione TrueNas", "Comunità senza paura", "Comunità TrueNas", "Prezzi senza paura", "Costo TrueNas", "Semplicità d'uso senza paura", "Facilità d'uso di TrueNas", "Gestione dello storage Unraid", "Protezione avanzata dei dati TrueNas", "Applicazioni di terze parti non temibili", "Archiviazione cloud TrueNas", "Virtualizzazione senza raid", "Mercato aziendale TrueNas", "Tecnologia RAID Unraid", "TrueNas OpenZFS", "Utenti domestici non spaventati", "TrueNas è un sistema operativo NAS maturo", "Competenza tecnica senza paura", "TrueNas IT professionals", "Prestazioni senza paura", "Scalabilità di TrueNas", "Supporto Unraid", "File system TrueNas", "Gestione dei dischi Unraid", "Espansione di memoria TrueNas", "sistema operativo truenas", "truenas vs freenas vs unraid"]
 cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png"
 coverAlt: "Due server uno di fronte all'altro, uno blu e uno verde. Sul lato blu c'è una persona in piedi che indossa un elmetto e un giubbotto di sicurezza. Sul lato verde una persona seduta sul divano."
 coverCaption: ""
@@ -18,19 +18,22 @@ In questo articolo confronteremo TrueNas e Unraid per aiutarvi a prendere la dec
 
 **Unraid è un sistema operativo NAS proprietario sviluppato da Lime Technology**, una società di software con sede in California. È stato fondato nel 2005 e funziona su piattaforma Linux. L'obiettivo di Unraid è quello di rendere la tecnologia RAID più accessibile, eliminando le restrizioni su dimensioni, velocità, marca e protocollo del disco. Ciò consente una facile espansione degli array RAID e riduce al minimo il rischio di perdita dei dati.
 
+{{< youtube id="GIpf4DmJgcA" >}}
+
 ______
 
 ## Introduzione a TrueNas
 
 **TrueNas, precedentemente noto come FreeNas, è un sistema operativo NAS open-source sviluppato da iXsystems**, un'azienda privata con sede a San Jose, California. È stato lanciato nel 2005 ed è basato su FreeBSD e Linux. Gli sviluppatori di TrueNas si concentrano sul mercato aziendale e la scelta del file system predefinito (OpenZFS) riflette questo orientamento.
 
+{{< youtube id="eex67WDeN04" >}}
 ______
 
 ## Costo
 
 **Gli utenti domestici che cercano il miglior sistema operativo NAS spesso si preoccupano del costo**. A questo proposito, TrueNas è un chiaro vincitore in quanto è open-source e completamente gratuito, almeno per TrueNas CORE, la versione destinata agli utenti domestici e alle applicazioni di archiviazione non critiche.
 
-Unraid, invece, non è gratuito ma utilizza un modello di prezzo equo, senza abbonamenti o costi nascosti. È possibile scegliere tra tre piani Unraid, ognuno dei quali si differenzia solo per il numero di dispositivi di archiviazione che possono essere collegati. Il piano Basic costa 59 dollari, il piano Plus 89 dollari e il piano Pro 129 dollari.
+Unraid, invece, non è gratuito ma utilizza un modello di prezzo equo, senza abbonamenti o costi nascosti. È possibile scegliere tra tre piani Unraid, che si differenziano solo per il numero di dispositivi di archiviazione che possono essere collegati. Il piano Basic costa 59 dollari, il piano Plus 89 dollari e il piano Pro 129 dollari.
 
 ______
 

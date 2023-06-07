@@ -20,6 +20,8 @@ In today's digital landscape, cybersecurity has become a critical concern for in
 
 The field of cybersecurity offers a wide range of career opportunities, including roles such as information security analyst, cybersecurity consultant, network security engineer, and more. While a degree in cybersecurity or a related field can provide a solid foundation, it is not always a strict requirement to land a cybersecurity job.
 
+{{< youtube id="hRZoLLppKaA" >}}
+
 ## Importance of a Degree in Cybersecurity
 
 **Obtaining a degree in cybersecurity** can offer several advantages to individuals seeking a career in the field. It provides comprehensive knowledge and a structured curriculum that covers essential cybersecurity concepts, techniques, and best practices. A degree program also allows students to gain hands-on experience through labs and internships, which are invaluable for developing practical skills.

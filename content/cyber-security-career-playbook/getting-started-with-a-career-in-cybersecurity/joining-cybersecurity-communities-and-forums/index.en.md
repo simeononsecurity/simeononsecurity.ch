@@ -53,6 +53,8 @@ Here are some highly regarded cybersecurity communities and forums that you can 
 
 5. **OWASP** - The Open Web Application Security Project is a worldwide community that focuses on web application security. It offers resources, tools, and forums for cybersecurity professionals. [Visit OWASP](https://owasp.org)
 
+6. **The Cyber Sentinels Club** - A online discord community full of cybersecurity, IT, and programming professionals of various skill levels. [Visit The Cyber Sentinels Club](https://cybersentinels.org/)
+
 These communities provide valuable opportunities for learning, networking, and staying updated on the latest industry trends.
 
 ______

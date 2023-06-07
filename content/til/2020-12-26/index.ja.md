@@ -1,5 +1,5 @@
 ---
-title: "今日私は Android のデブローティングと新しいプライバシー技術について学びました"
+title: "今日はAndroidのデブローテと新しいプライバシー技術について学んだ"
 date: 2020-12-26
 toc: true
 draft: false
@@ -7,20 +7,20 @@ description: ""
 tags: []
 ---
 
-**SimeonOnSecurity が今日学び、興味深かったこと**
+**SimeonOnSecurityが今日知ったこと、興味を持ったこと**。
 
-今日、SimeonOnSecurity は、Universal Android Debloater と DeepPrivacy という 2 つの興味深く便利なセキュリティおよびプライバシー関連ツールを発見しました。
+今日、SimeonOnSecurityは、2つの興味深く便利なセキュリティとプライバシー関連のツールに出会いました：Universal Android DebloaterとDeepPrivacyです。
 
-Universal Android Debloater は、ADB (Android Debug Bridge) を使用して、root 化されていない Android デバイスをデブロートする bash スクリプトです。このツールは、不要なアプリやブロートウェアを削除することで、デバイスのプライバシー、セキュリティ、バッテリー寿命を向上させるのに役立ちます。 Universal Android Debloater は、https://gitlab.com/W1nst0n/universal-android-debloater で見つけることができます。
+Universal Android Debloaterは、ADB（Android Debug Bridge）を使用して、ルート化されていないAndroidデバイスをデブロートするためのbashスクリプトです。このツールは、不要なアプリやブロートウェアを削除することで、デバイスのプライバシー、セキュリティ、バッテリー寿命を改善するのに役立ちます。Universal Android Debloaterは、https://gitlab.com/W1nst0n/universal-android-debloater で入手できます。
 
-DeepPrivacy は、画像の完全自動匿名化技術です。このツールは、たとえば写真内の顔を隠したり、個人識別情報を削除したりすることで、機密情報のプライバシーを保つのに役立ちます。 DeepPrivacy は、https://github.com/hukkelas/DeepPrivacy でご覧いただけます。
+DeepPrivacyは、画像の完全自動匿名化技術です。このツールは、写真内の顔を隠したり、個人識別情報を削除したりすることで、機密情報を非公開にするのに役立ちます。DeepPrivacyは、https://github.com/hukkelas/DeepPrivacy で見つけることができます。
 
-SimeonOnSecurity は、引き続きこれらのツールを調査し、コミュニティと共有する他の興味深いツールを見つける予定です。
+SimeonOnSecurityは、これらのツールの探求を続け、コミュニティと共有するための他の興味深いツールを見つけることを計画しています。
 
-## ユニバーサルアンドロイドデブローター:
--[https://gitlab.com/W1nst0n/universal-android-debloater](https://gitlab.com/W1nst0n/universal-android-debloater)
-- ADB を使用して root 化されていない Android デバイスをデブローする Bash スクリプト。プライバシー、セキュリティ、デバイスのバッテリー寿命を向上させます。
+## universal-android-debloater：
+- [https://gitlab.com/W1nst0n/universal-android-debloater](https://gitlab.com/W1nst0n/universal-android-debloater)
+- ADBを使ったBashスクリプトで、非rootのアンドロイド端末をデブロートする。プライバシー、セキュリティ、バッテリーの寿命を向上させることができます。
 
-## ディーププライバシー:
--[https://github.com/hukkelas/DeepPrivacy](https://github.com/hukkelas/DeepPrivacy)
-- DeepPrivacy は、画像の完全自動匿名化技術です。
+## DeepPrivacy：
+- [https://github.com/hukkelas/DeepPrivacy](https://github.com/hukkelas/DeepPrivacy)
+- DeepPrivacyは、画像の完全自動匿名化技術です。

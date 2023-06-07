@@ -17,6 +17,8 @@ coverCaption: "Connecting minds, unlocking possibilities - mastering cybersecuri
 
 In today's digital age, cybersecurity has become a critical concern for organizations around the world. As a result, the demand for skilled cybersecurity professionals has skyrocketed. However, breaking into the cybersecurity industry can be challenging without the right connections and networking strategies. This article aims to provide valuable networking tips for individuals aspiring to land a job in cybersecurity.
 
+{{< youtube id="GhTp94l_yhA" >}}
+
 ## Importance of Networking in Cybersecurity
 
 Networking plays a crucial role in the cybersecurity industry. It not only helps you establish connections with industry professionals but also provides opportunities to learn, grow, and gain insights into the latest trends and technologies. By expanding your professional network, you increase your chances of discovering job opportunities that may not be publicly advertised.

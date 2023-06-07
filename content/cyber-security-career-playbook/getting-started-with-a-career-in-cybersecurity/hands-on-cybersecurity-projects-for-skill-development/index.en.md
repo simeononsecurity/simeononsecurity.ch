@@ -20,6 +20,8 @@ In today's digital world, **cybersecurity** has become a critical aspect of prot
 
 One effective way to enhance your cybersecurity skills is through **hands-on projects**. These projects allow you to apply theoretical knowledge to real-world scenarios, gain practical experience, and develop a deep understanding of various cybersecurity concepts and techniques. In this article, we will explore some hands-on cybersecurity projects that can help you sharpen your skills and stay ahead in the ever-evolving cybersecurity landscape.
 
+{{< youtube id="P9wz0Sted_II" >}}
+
 ______
 
 ## Project 1: [Setting Up a Home Lab](/articles/what-is-a-homelab-and-should-you-have-one/)

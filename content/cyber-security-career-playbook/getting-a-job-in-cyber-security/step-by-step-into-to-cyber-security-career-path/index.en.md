@@ -16,6 +16,8 @@ coverCaption: "Secure the Future: Step into the World of Cybersecurity."
 
 Cybersecurity has never been more important than it is today. The world has become digital, data breaches have increased, and the COVID-19 pandemic has accelerated the need for digital transformation. These events have made the cybersecurity career path an exciting and hugely rewarding prospect for many people.
 
+{{< youtube id="PlhNVmaACQI" >}}
+
 ## The Importance of Cybersecurity
 
 Cybersecurity is a discipline that focuses on protecting systems, networks, and programs from **cyber-attacks**. With **cybercriminals** constantly attempting to access, change, or destroy sensitive information and disrupt business operations, companies face significant risks. In fact, a study from the University of Maryland shows that **cyber-attacks occur every 39 seconds** on average, highlighting the urgency of cybersecurity measures.

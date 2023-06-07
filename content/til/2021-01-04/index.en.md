@@ -4,14 +4,15 @@ date: 2021-01-04
 toc: true
 draft: false
 description: ""
-tags: []
+genre: ["Windows Security", "Windows Defender Application Control", "Device Security", "Software Auditing", "Policy Enforcement", "Threat Protection", "Group Policy", "Microsoft Intune", "Hardening Techniques"]
+tags: ["Windows Defender Application Control", "WDAC Policies", "Windows Security", "Software Auditing", "Policy Enforcement", "Device Security", "Threat Protection", "Group Policy", "Microsoft Intune", "Hardening Techniques", "Windows Documentation", "Security Policies", "Windows Device Management", "Windows Group Policy", "Windows Intune", "Windows Security Features", "Windows Auditing", "Windows Security Controls", "Application Whitelisting", "Security Hardening", "Device Protection", "Windows OS Security", "SimeonOnSecurity GitHub", "Security Resources", "Windows Security Updates"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**
 
-Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control (WDAC) policies. WDAC is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.
+Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control ([WDAC](https://simeononsecurity.ch/github/windows-defender-application-control-hardening/)) policies. [WDAC](https://simeononsecurity.ch/github/windows-defender-application-control-hardening/) is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.
 
-## Auditing and Enforcing Windows Defender Application Control (WDAC) Policies:
+## Auditing and Enforcing Windows Defender Application Control ([WDAC](https://simeononsecurity.ch/github/windows-defender-application-control-hardening/)) Policies:
 - [Microsoft - Audit Windows Defender Application Control Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
 - [Microsoft - Deploy Windows Defender Application Control policies by using Group Policy](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
 - [Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)

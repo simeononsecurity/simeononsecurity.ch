@@ -4,7 +4,8 @@ date: 2021-01-18
 toc: true
 draft: false
 description: ""
-tags: []
+genre: ["Cyber Security", "Hands-On Labs", "Informative Videos", "Immersive Learning", "Defensive Techniques", "Offensive Techniques", "Technology Insights", "Software Security", "Hyperloop", "Virtual Machines", "Digital Education"]
+tags: ["Cyber Security", "Hands-On Labs", "Informative Videos", "Immersive Learning", "Defensive Techniques", "Offensive Techniques", "Technology Insights", "Software Security", "Hyperloop", "Virtual Machines", "Digital Education", "ImmersiveLabs", "Gardiner Bryant", "Joe Scott", "NetworkChuck", "Zack Freedman", "Free Software", "Hyperloop Technology", "Virtual Machine Tutorials", "Digital Entertainment", "Technology Perspectives", "Security Skills", "Tech Education", "Digital Learning", "IT Security", "Video Content", "Software Insights", "Online Learning", "Data Protection", "Network Defense", "Technology Trends"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

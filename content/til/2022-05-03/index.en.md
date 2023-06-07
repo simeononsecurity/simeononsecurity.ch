@@ -4,11 +4,9 @@ date: 2022-05-03
 toc: true
 draft: false
 description: ""
-tags: ['Automation', 'Compliance', 'Ansible', 'Ansible Playbooks', 'Ansible Collections', 'GitHub', 'RunAs', 'Invoke-Command', 'Start-Process', 'win_powershell', 'win_shell', 'psexec', 'win_psexec']
+genre: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Collections", "Windows Security", "Windows Administration", "PowerShell", "IT Automation", "Configuration Management"]
+tags: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Collections", "GitHub", "RunAs", "Invoke-Command", "Start-Process", "win_powershell", "win_shell", "psexec", "win_psexec", "Windows Security", "Windows Administration", "STIG Requirements", "PowerShell Modules", "Ansible Modules", "Windows Automation", "Remoting", "Shell Commands", "PowerShell Commands", "Windows STIG Ansible", "Windows Administration Tools", "Configuration Management", "IT Automation Solutions"]
 ---
-
-
-
 **What SimeonOnSecurity learned about and found interesting today**
 
 SimeonOnSecurity learned about Windows STIG Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.

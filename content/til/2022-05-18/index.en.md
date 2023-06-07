@@ -4,7 +4,8 @@ date: 2022-05-18
 toc: true
 draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
-tags: ['Automation', 'WDAC', 'Application Control', 'Windows Defender Application Control', 'Windows Defender', 'Powershell']
+genre: ["Automation", "Windows Security", "Application Control", "Windows Defender", "WDAC", "Powershell", "Threat Protection", "Windows Server 2019", "Enterprise Security", "Policy Management", "Security Best Practices"]
+tags: ["automation", "WDAC", "application control", "Windows Defender Application Control", "Windows Defender", "Powershell", "Microsoft documentation", "WDAC policy creation", "policy deployment", "script-based deployment", "multiple WDAC policies", "fixed-workload devices", "trusted applications", "deny policies", "security practices", "policy management", "enterprise security", "threat protection", "Windows Server", "Windows security", "application whitelisting"]
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

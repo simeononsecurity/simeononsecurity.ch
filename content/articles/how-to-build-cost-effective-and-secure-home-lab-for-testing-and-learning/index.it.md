@@ -38,11 +38,11 @@ ______
 
 ### 1. Software di virtualizzazione
 
-Il componente software più importante in un laboratorio domestico è il **software di virtualizzazione**. Le opzioni più diffuse includono[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows) Queste piattaforme consentono di creare e gestire più macchine virtuali su un unico host. Scegliete quella più adatta alle vostre esigenze e al vostro budget.
+Il componente software più importante in un laboratorio domestico è il **software di virtualizzazione**. Le opzioni più diffuse includono [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows) Queste piattaforme consentono di creare e gestire più macchine virtuali su un unico host. Scegliete quella più adatta alle vostre esigenze e al vostro budget.
 
 ### 2. Sistemi operativi
 
-Avrete bisogno di **sistemi operativi (OS)** da eseguire sulle vostre macchine virtuali. Sono disponibili numerosi sistemi operativi, dalle opzioni gratuite come[Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows) Selezionate il sistema operativo che meglio si allinea con gli obiettivi di apprendimento e di verifica.
+Avrete bisogno di **sistemi operativi (OS)** da eseguire sulle vostre macchine virtuali. Sono disponibili numerosi sistemi operativi, dalle opzioni gratuite come [Linux distributions](https://distrowatch.com/) to paid options like [Microsoft Windows](https://www.microsoft.com/en-us/windows) Selezionate il sistema operativo che meglio si allinea con gli obiettivi di apprendimento e di verifica.
 
 ______
 
@@ -85,7 +85,7 @@ Implementate solide misure di **sicurezza della rete** per proteggere il vostro 
 Stabilite un **piano di backup e ripristino** per il vostro laboratorio domestico per assicurarvi di poter recuperare rapidamente qualsiasi perdita di dati o guasto del sistema. Questo include:
 
 - Creare **backup regolari** delle macchine virtuali e dei dati importanti.
-- Conservare i backup in un **luogo sicuro fuori sede**.
+- Conservare i backup in un **luogo sicuro e fuori sede**.
 - Testare periodicamente il processo di backup e ripristino per assicurarsi che funzioni come previsto.
 
 ______
@@ -95,9 +95,9 @@ ______
 Dopo aver allestito il vostro laboratorio domestico, potete iniziare ad **apprendere e testare** varie tecnologie. Alcuni argomenti e progetti popolari da esplorare sono:
 
 1. **Rete**: Sperimentate diverse topologie di rete, protocolli di routing e configurazioni di firewall.
-2. **Cloud Computing**: Imparare a conoscere[Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3. **Sistemi operativi**: Testare varie distribuzioni Linux, Windows Server e tecnologie di containerizzazione quali[Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4. **Cybersecurity**: Praticare l'hacking etico, la scansione delle vulnerabilità e la risposta agli incidenti utilizzando strumenti quali[Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2. **Cloud Computing**: Imparare a conoscere [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
+3. **Sistemi operativi**: Testare varie distribuzioni Linux, Windows Server e tecnologie di containerizzazione quali [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
+4. **Cybersecurity**: Praticare l'hacking etico, la scansione delle vulnerabilità e la risposta agli incidenti utilizzando strumenti quali [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
 
 ______
 

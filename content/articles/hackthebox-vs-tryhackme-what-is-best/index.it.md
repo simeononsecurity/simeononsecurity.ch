@@ -4,7 +4,7 @@ date: 2023-02-24
 toc: true
 draft: false
 description: "Confronto dei punti di forza e di debolezza di HackTheBox e TryHackMe per determinare la migliore piattaforma per i test di penetrazione junior."
-tags: ["sicurezza informatica", "test di penetrazione", "HackTheBox", "TryHackMe", "apprendimento", "principiante", "macchine virtuali", "sfide", "guida", "supporto", "scenari reali", "competenze", "sicurezza della rete", "sicurezza delle applicazioni web", "crittografia", "programmazione", "comunità", "apprendimento online", "apprendimento strutturato", "pensiero creativo"]
+tags: ["sicurezza informatica", "test di penetrazione", "HackTheBox", "TryHackMe", "apprendimento", "principiante", "macchine virtuali", "sfide", "guida", "supporto", "scenari reali", "competenze", "sicurezza della rete", "sicurezza delle applicazioni web", "crittografia", "programmazione", "comunità", "apprendimento online", "apprendimento strutturato", "pensiero creativo", "hackthebox vs tryhackme", "piattaforme di test di penetrazione", "apprendimento della cybersicurezza", "test di penetrazione junior", "sfide della macchina virtuale", "competenze in materia di sicurezza di rete", "sicurezza delle applicazioni web", "apprendimento della crittografia", "programmazione per la sicurezza informatica", "piattaforme di apprendimento online", "esperienza di apprendimento strutturata", "il pensiero creativo nella cybersecurity", "cybersicurezza per principianti", "sostegno alla comunità", "scenari reali di cybersicurezza", "sviluppo delle competenze di cybersecurity", "comunità hackthebox", "comunità tryhackme", "sfide di cybersicurezza", "imparare la cybersicurezza", "competenze in materia di test di penetrazione", "formazione sulla cybersicurezza", "apprendimento pratico della sicurezza informatica", "apprendimento guidato della cybersicurezza", "sfide hackthebox", "sfide tryhackme", "applicare le competenze di cybersecurity", "educazione alla cybersicurezza", "piattaforme di sicurezza informatica online", "abbonamento hackthebox", "abbonamento tryhackme"]
 cover: "/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.png"
 coverAlt: "Un hacker dei cartoni animati con un camice da laboratorio in piedi tra due porte, una con la scritta HackTheBox e l'altra con la scritta TryHackMe, con una bolla di pensiero sopra la testa che si chiede quale scegliere."
 coverCaption: ""
@@ -14,13 +14,15 @@ coverCaption: ""
 
 Prima di immergerci nei dettagli, definiamo innanzitutto cosa intendiamo per test di penetrazione "junior". In genere, **un penetration tester junior è una persona che ha appena iniziato a lavorare sul campo e ha un'esperienza limitata nel campo della cybersecurity **.
 
+{{< youtube id="osWbitXB6DY" >}}
+
 ### Cos'è HackTheBox?
 
 **Le sfide vanno da semplici a estremamente difficili e coprono un'ampia gamma di argomenti come la sicurezza delle applicazioni web, la sicurezza delle reti, la crittografia e altro ancora. HackTheBox ha una grande e attiva comunità di utenti e offre opzioni di abbonamento sia gratuite che a pagamento.
 
 ### Che cos'è TryHackMe?
 
-**A differenza di HackTheBox, TryHackMe si concentra maggiormente sulla fornitura di un'esperienza di apprendimento guidata per i principianti. Le sfide sono strutturate in modo da aiutare gli utenti a sviluppare gradualmente le proprie competenze e conoscenze. TryHackMe ha anche una grande comunità di utenti e offre opzioni di abbonamento sia gratuite che a pagamento.
+**A differenza di HackTheBox, TryHackMe si concentra maggiormente sulla fornitura di un'esperienza di apprendimento guidata per i principianti. Le sfide sono strutturate in modo da aiutare gli utenti a costruire gradualmente le proprie competenze e conoscenze. TryHackMe ha anche una grande comunità di utenti e offre opzioni di abbonamento sia gratuite che a pagamento.
 
 ________________________________________________________________________________________________________________________
 
@@ -79,7 +81,7 @@ Sulla base di questi criteri, riteniamo che TryHackMe sia la migliore piattaform
 
 In questo articolo abbiamo messo a confronto HackTheBox e TryHackMe e abbiamo valutato quale sia la migliore per imparare i test di penetrazione junior. Sebbene entrambe le piattaforme siano eccellenti per l'apprendimento delle competenze di cybersecurity, riteniamo che TryHackMe sia la piattaforma migliore per i principianti che hanno appena iniziato a lavorare nel settore. **Con la sua esperienza di apprendimento strutturata e l'abbondante guida e supporto, TryHackMe rappresenta un ottimo punto di partenza per chiunque voglia entrare nel mondo dei test di penetrazione.** Tuttavia, per gli utenti più avanzati che sono già a proprio agio con i concetti di base della sicurezza informatica, HackTheBox potrebbe essere l'opzione migliore, in quanto le sue sfide sono progettate per essere più difficili e più vicine agli scenari del mondo reale.
 
-Indipendentemente dalla piattaforma scelta, la cosa più importante è continuare a imparare ed esercitarsi. **Il campo della sicurezza informatica è in continua evoluzione e c'è sempre qualcosa di nuovo da imparare. Utilizzando piattaforme come HackTheBox e TryHackMe, potete sviluppare le competenze e le conoscenze necessarie per avere successo in questo campo entusiasmante e impegnativo.**
+Indipendentemente dalla piattaforma scelta, la cosa più importante è continuare a imparare ed esercitarsi. **Il campo della sicurezza informatica è in continua evoluzione e c'è sempre qualcosa di nuovo da imparare. Utilizzando piattaforme come HackTheBox e TryHackMe, è possibile sviluppare le competenze e le conoscenze necessarie per avere successo in questo campo entusiasmante e impegnativo.**
 
 
 

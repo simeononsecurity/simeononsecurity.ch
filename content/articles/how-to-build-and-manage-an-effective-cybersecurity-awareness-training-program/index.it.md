@@ -11,7 +11,7 @@ coverCaption: ""
 ---
  per costruire e gestire un efficace programma di formazione sulla consapevolezza della sicurezza informatica**
 
-Nell'odierno mondo guidato dalla tecnologia, le minacce alla sicurezza informatica stanno diventando sempre più sofisticate e pervasive. I criminali informatici possono violare anche i sistemi più sicuri e rubare dati sensibili, con conseguenti perdite finanziarie e di reputazione per le organizzazioni. Per proteggersi da queste minacce, è fondamentale avere un **efficace programma di formazione sulla consapevolezza della cybersicurezza**. Questo articolo illustra i passi necessari per costruire e gestire un programma di formazione efficace sulla consapevolezza della sicurezza informatica, confrontandolo con lo standard NIST 800-50 per lo stesso argomento e migliorandolo.
+Nell'attuale mondo guidato dalla tecnologia, le minacce alla sicurezza informatica stanno diventando sempre più sofisticate e pervasive. I criminali informatici possono violare anche i sistemi più sicuri e rubare dati sensibili, con conseguenti perdite finanziarie e di reputazione per le organizzazioni. Per proteggersi da tali minacce, è fondamentale disporre di un **efficace programma di formazione sulla consapevolezza della sicurezza informatica**. Questo articolo illustra i passi necessari per costruire e gestire un programma di formazione efficace sulla consapevolezza della sicurezza informatica, confrontandolo con lo standard NIST 800-50 per lo stesso argomento e migliorandolo.
 
 ## Fase 1: Definire gli obiettivi della formazione
 

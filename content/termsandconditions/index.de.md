@@ -15,7 +15,7 @@ Die folgende Terminologie gilt für diese Allgemeinen Geschäftsbedingungen, die
 
 Wir verwenden Cookies. Indem Sie auf SimeonOnSecurity zugreifen, stimmen Sie der Verwendung von Cookies in Übereinstimmung mit der Datenschutzrichtlinie von SimeonOnSecurity zu.
 
-Die meisten interaktiven Websites verwenden Cookies, damit wir die Daten des Benutzers bei jedem Besuch abrufen können. Unsere Website verwendet Cookies, um die Funktionalität bestimmter Bereiche zu ermöglichen und den Besuchern unserer Website den Zugang zu erleichtern. Einige unserer Tochtergesellschaften/Werbepartner können ebenfalls Cookies verwenden.
+Die meisten interaktiven Websites verwenden Cookies, damit wir die Daten des Benutzers bei jedem Besuch abrufen können. Unsere Website verwendet Cookies, um die Funktionalität bestimmter Bereiche zu ermöglichen und den Besuchern unserer Website den Zugang zu erleichtern. Einige unserer Tochtergesellschaften/Werbepartner verwenden möglicherweise ebenfalls Cookies.
 
 ## Lizenz
 
@@ -38,7 +38,7 @@ Sie gewähren SimeonOnSecurity hiermit eine nicht-exklusive Lizenz zur Nutzung, 
 ## Hyperlinks zu unserem Inhalt
 
 Die folgenden Organisationen dürfen ohne vorherige schriftliche Genehmigung auf unsere Website verlinken:
-Regierungsbehörden; Suchmaschinen; Nachrichtenorganisationen; Online-Verzeichnisverteiler dürfen auf unsere Website verlinken, und zwar in der gleichen Weise, wie sie auf die Websites anderer gelisteter Unternehmen verlinken; und systemweit akkreditierte Unternehmen mit Ausnahme von gemeinnützigen Organisationen, Wohltätigkeits-Einkaufszentren und Wohltätigkeits-Fundraising-Gruppen, die nicht auf unsere Website verlinken dürfen.
+Regierungsbehörden; Suchmaschinen; Nachrichtenorganisationen; Online-Verzeichnisverteiler dürfen auf unsere Website verlinken, und zwar in der gleichen Weise, wie sie auf die Websites anderer gelisteter Unternehmen verlinken; und systemweit akkreditierte Unternehmen, mit Ausnahme von gemeinnützigen Organisationen, Wohltätigkeits-Einkaufszentren und Wohltätigkeits-Fundraising-Gruppen, die nicht auf unsere Website verlinken dürfen.
 
 Diese Organisationen können einen Link zu unserer Homepage, zu Veröffentlichungen oder zu anderen Website-Informationen setzen, solange der Link: (a) in keiner Weise irreführend ist; (b) nicht fälschlicherweise eine Förderung, Befürwortung oder Genehmigung der verlinkenden Partei und ihrer Produkte und/oder Dienstleistungen impliziert; und (c) in den Kontext der Website der verlinkenden Partei passt.
 

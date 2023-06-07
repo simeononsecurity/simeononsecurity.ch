@@ -18,6 +18,8 @@ coverCaption: "Level Up Your Career: Embrace the Cybersecurity Challenge!"
 
 Cybersecurity is an in-demand field that is becoming increasingly attractive to those already in information technology (IT). With a severe talent shortage in cybersecurity, experienced professionals are needed to fill the gap. This transition is natural as IT and cybersecurity are closely related fields, with a significant emphasis on security issues in many IT jobs. In this article, we will explore the steps to successfully transition from IT to cybersecurity, including the requirements, skills, and education needed to make the switch.
 
+{{< youtube id="BKp2Q2bsBwE" >}}
+
 ## Requirements to Transition from IT to Cybersecurity
 
 To transition from IT to cybersecurity, several requirements must be fulfilled. These requirements include **education**, **experience**, **skills**, and **certifications**.
