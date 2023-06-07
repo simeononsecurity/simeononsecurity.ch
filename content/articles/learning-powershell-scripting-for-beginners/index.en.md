@@ -4,7 +4,7 @@ draft: false
 toc: true
 date: 2023-02-25
 description: "Learn the basics of PowerShell scripting and automate tasks with this step-by-step guide for beginners, covering cmdlets, loops, functions, and more."
-genre: ["Technology", "Programming", "Automation", "Windows", "Scripting", "IT", "Administrative Tasks", "Computer Management", "Software Development", "Coding]
+genre: ["Technology", "Programming", "Automation", "Windows", "Scripting", "IT", "Administrative Tasks", "Computer Management", "Software Development", "Coding"]
 tags: ["PowerShell scripting", "PowerShell automation", "Windows scripting", "PowerShell cmdlets", "PowerShell modules", "PowerShell loops", "PowerShell conditional statements", "PowerShell functions", "PowerShell best practices", "PowerShell debugging", "PowerShell testing", "PowerShell variables", "PowerShell ISE", "PowerShell Remoting", "Microsoft technologies", "IT automation", "computer management", "coding for beginners", "administrative tasks", "PowerShell script ideas", "automated backups", "file management", "system information", "user management", "software installation", "network configuration", "security automation", "task scheduling", "registry manipulation", "remote administration"]
 cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
 coverAlt: "A cartoon character holding a script and standing in front of a computer with PowerShell prompt, indicating ease in PowerShell scripting for beginners"

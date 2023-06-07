@@ -128,7 +128,6 @@ includeFields = ''
 home = ["HTML", "RSS", "JSON"]
 section = ["HTML"]
 page = ["HTML"]
-imageFormats = ["jpg", "png", "webp"]
 sitemap = [ "Sitemap" ]
 [outputs.imageSizes]
 cover = [731, 1054, 1462]
@@ -151,6 +150,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }]
 languageName = 'العربية'
 languageCode = "ar"
 weight = 1
+
+[languages.ar.params]
 title = "simeononsecurity"
 subtitle = "الأمن السيبراني، الإدارة، العملات الرقمية"
 description = "ابقى على اطلاع في مجال الأمن السيبراني. استكشف آخر الاتجاهات والممارسات الأمنية والتكنولوجية على SimeonOnSecurity.ch. مورد مهم للجميع."
@@ -200,6 +201,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.bn.xml" }]
 languageName = "বাংলা"
 languageCode = "bn"
 weight = 1
+
+[languages.bn.params]
 title = "সিমিয়ন অন সিকিউরিটি"
 subtitle = "সাইবার নিরাপত্তা, অটোমেশন, ক্রিপ্টো"
 description = "সাইবার নিরাপত্তার উন্নয়নে আপডেটে থাকুন। প্রাইভেসি, নিরাপত্তা এবং প্রযুক্তিতে সর্বশেষ প্রবন্ধ এবং সেরা প্র্যাকটিস সম্পর্কে জানুন SimeonOnSecurity.ch এ। সকলের জন্য একটি গুরুত্বপূর্ণ সম্পদ।"
@@ -248,6 +251,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
 languageName = 'Français'
 languageCode = "fr"
 weight = 1
+
+[languages.fr.params]
 title = "simeononsecurity"
 subtitle = "CyberSécurité, Automatisation, Crypto"
 description = "Restez en avance dans la cybersécurité. Découvrez les dernières tendances et les meilleures pratiques en matière de confidentialité, de sécurité et de technologie sur SimeonOnSecurity.ch. Ressource essentielle pour tous."
@@ -297,6 +302,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }]
 languageName = 'Deutsch'
 languageCode = "de"
 weight = 1
+
+[languages.de.params]
 title = "simeononsecurity"
 subtitle = "Cybersicherheit, Automatisierung, Kryptowährung"
 description = "Bleiben Sie in Sachen Cybersicherheit auf dem neuesten Stand. Entdecken Sie die neuesten Trends und bewährten Praktiken in Bezug auf Datenschutz, Sicherheit und Technologie auf SimeonOnSecurity.ch. Eine unverzichtbare Ressource für alle."
@@ -346,6 +353,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }]
 languageName = 'English'
 languageCode = "en"
 weight = 1
+
+[languages.en.params]
 title = "simeononsecurity"
 subtitle = "CyberSecurity, Automation, Crypto"
 #description = "SimeonOnSecurity.ch is a comprehensive blog that covers a wide range of topics related to privacy, security, and technology. From programming and devops to automation and PowerShell, this blog offers in-depth information and guidance on the latest trends and best practices in cybersecurity. Whether you're a home lab enthusiast or an enterprise solution provider, this blog is an essential resource for anyone looking to stay ahead of the curve and protect their digital assets."
@@ -426,6 +435,8 @@ languageName = "Español"
 languageCode = "es"
 weight = 1
 title = "simeononsecurity"
+
+[languages.es.params]
 subtitle = "Ciberseguridad, Automatización, Cripto"
 description = "Manténgase a la vanguardia de la ciberseguridad. Descubra las últimas tendencias y las mejores prácticas en privacidad, seguridad y tecnología en SimeonOnSecurity.ch. Un recurso esencial para todos."
 keywords = "seguridad, privacidad, automatización, ciberseguridad, tecnología de la información, criptomonedas, blog, endurecimiento, cumplimiento, programación, devops, PowerShell, C sharp, Ansible, contenedores Docker, Windows, DoD y DISA STIGs, laboratorios en casa, soluciones empresariales, Python, Windows 10"
@@ -474,6 +485,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }]
 languageName = 'हिन्दी'
 languageCode = "hi"
 weight = 1
+
+[languages.hi.params]
 title = "simeononsecurity"
 subtitle = "साइबर सुरक्षा, स्वचालन, क्रिप्टो"
 description = "साइबर सुरक्षा में आगे रहें। SimeonOnSecurity.ch पर गोपनीयता, सुरक्षा और तकनीक के नवीनतम रुझानों और सर्वोत्तम अभ्यासों की खोज करें। सभी के लिए एक महत्वपूर्ण संसाधन।"
@@ -523,6 +536,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.it.xml" }]
 languageName = "Italiano"
 languageCode = "it"
 weight = 1
+
+[languages.it.params]
 title = "SimeonOnSecurity"
 subtitle = "Cybersecurity, automazione e crittografia"
 description = "Mantenetevi aggiornati sullo sviluppo della sicurezza informatica. Ottenete le ultime notizie e le migliori pratiche sulla privacy, la sicurezza e la tecnologia su SimeonOnSecurity.ch. Una risorsa preziosa per tutti."
@@ -571,6 +586,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ja.xml" }]
 languageName = "日本語"
 languageCode = "ja"
 weight = 1
+
+[languages.ja.params]
 title = "SimeonOnSecurity"
 subtitle = "サイバーセキュリティ、自動化、暗号化について"
 description = "サイバーセキュリティの最新情報やプライバシー、セキュリティ、技術に関するベストプラクティスをSimeonOnSecurity.chで入手してください。誰でも価値のあるリソースです。"
@@ -619,6 +636,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.nl.xml" }]
 languageName = "Nederlands"
 languageCode = "nl"
 weight = 1
+
+[languages.nl.params]
 title = "SimeonOnSecurity"
 subtitle = "Cybersecurity, automatisering en cryptografie"
 description = "Blijf op de hoogte van de ontwikkelingen op het gebied van cybersecurity. Ontvang de laatste nieuwtjes en de beste praktijken op het gebied van privacy, beveiliging en technologie op SimeonOnSecurity.ch. Een waardevolle bron voor iedereen."
@@ -667,6 +686,9 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
 languageName = "ਪੰਜਾਬੀ"
 languageCode = "pa"
 weight = 1
+
+
+[languages.pa.params]
 title = "SimeonOnSecurity"
 subtitle = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਕ੍ਰਿਪਟੋਗਰਾਫੀ"
 description = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਿਕਾਸ ਦੇ ਤਜਰਬੇ ਨਾਲ ਅੱਪਡੇਟ ਰਹੋ। ਸਾਇਬਰ ਪਰਦੇਦਾਰੀ، ਸੁਰੱਖਿਆ ਅਤੇ ਟੈਕਨਾਲੋਜੀ ਤੇ ਨਵੀਨਤਮ ਖ਼ਬਰਾਂ ਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਅਮਲ ਪ੍ਰਾਪਤ ਕਰੋ SimeonOnSecurity.ch ਤੇ। ਸਾਰੇ ਲਈ ਇੱਕ ਮੂਲਯੋਗ ਸਰੋਤ।"
@@ -681,7 +703,7 @@ olderPosts = "ਪੁਰਾਣੀ ਪੋਸਟ"
 minuteReadingTime = "ਮਿੰਟਾਂ ਵਿੱਚ ਪੜ੍ਹਨ ਦਾ ਸਮਾਂ"
 dateFormatSingle = "02-01-2006"
 dateFormatList = "02-01-2006"
-enableRobotsTXT = "ਸਹਿਿਤ ਰੋਬੋਟਾਂ TXT"
+enableRobotsTXT = true
 lastModDisplay = "ਅੰਤਿਮ ਅਪਡੇਟ:"
 
 [languages.pa.params.logo]
@@ -715,6 +737,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pt.xml" }]
 languageName = "Português"
 languageCode = "pt"
 weight = 1
+
+[languages.pt.params]
 title = "SimeonOnSecurity"
 subtitle = "Cibersegurança, automação e criptografia"
 description = "Mantenha-se atualizado sobre o desenvolvimento de segurança cibernética. Obtenha as últimas notícias e as melhores práticas sobre privacidade, segurança e tecnologia no SimeonOnSecurity.ch. Um recurso valioso para todos."
@@ -763,6 +787,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ro.xml" }]
 languageName = "Română"
 languageCode = "ro"
 weight = 1
+
+[languages.ro.params]
 title = "SimeonOnSecurity"
 subtitle = "Securitate cibernetică, automatizare și criptografie"
 description = "Mențineți-vă la curent cu evoluțiile în domeniul securității informatice. Obțineți cele mai recente știri și cele mai bune practici în ceea ce privește confidențialitatea, securitatea și tehnologia pe SimeonOnSecurity.com. O resursă valoroasă pentru toți."
@@ -811,6 +837,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ru.xml" }]
 languageName = "Русский"
 languageCode = "ru"
 weight = 1
+
+[languages.ru.params]
 title = "SimeonOnSecurity"
 subtitle = "Кибербезопасность, автоматизация и шифрование"
 description = "Будьте в курсе последних разработок в области кибербезопасности. Получайте последние новости и лучшие практики в области конфиденциальности, безопасности и технологий на сайте SimeonOnSecurity.ch. Ценный ресурс для всех."
@@ -859,6 +887,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.zh.xml" }]
 languageName = "中文"
 languageCode = "zh"
 weight = 1
+
+[languages.zh.params]
 title = "SimeonOnSecurity"
 subtitle = "网络安全、自动化和加密"
 description = "保持对网络安全的发展与更新。在SimeonOnSecurity上获取有关隐私、安全和技术的最新新闻和最佳实践。这是一个对所有人都有价值的资源。"
@@ -907,6 +937,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
 languageName = "Català"
 languageCode = "ca"
 weight = 1
+
+[languages.ca.params]
 title = "SimeonOnSecurity"
 subtitle = "Seguretat cibernètica, automatització i criptografia"
 description = "Mantingueu-vos actualitzats en el desenvolupament de la seguretat cibernètica. Obteniu les últimes notícies i les millors pràctiques sobre privacitat, seguretat i tecnologia a SimeonOnSecurity.ch. Un recurs valuós per a tothom."
@@ -955,6 +987,8 @@ sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pl.xml" }]
 languageName = "Polski"
 languageCode = "pl"
 weight = 1
+
+[languages.pl.params]
 title = "simeononsecurity"
 subtitle = "Cyberbezpieczeństwo, Automatyzacja, Kryptowaluty"
 description = "Pozostań na bieżąco z cyberbezpieczeństwem. Odkryj najnowsze trendy i najlepsze praktyki dotyczące prywatności, bezpieczeństwa i technologii na stronie SimeonOnSecurity.ch. To niezbędne źródło informacji dla wszystkich."
