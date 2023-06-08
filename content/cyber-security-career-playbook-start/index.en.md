@@ -238,9 +238,11 @@ Developing robust cyber security plans and programs is essential for effective s
 - [How to Develop Cyber Security Policies, Procedures, and Programs](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/): 
   - Learn how to develop comprehensive cyber security policies, procedures, and programs to establish a strong security foundation within your organization.
 
+- [How to Build a Cyber Security Awareness and Training Program](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/): 
+  - Learn how to build a comprehensive security awareness training program to protect your organization from cyber threats and empower employees.
+
 - [How to Develop an Incident Response Program](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-an-incident-responce-program/): 
   - This resource provides guidance on building an effective incident response program, including planning, team roles, and incident handling best practices.
-
 
 ## Conclusion
 
