@@ -17,6 +17,8 @@ coverCaption: "Choose the Perfect Media Server: Plex Media Server vs Jellyfin"
 
 In the world of media servers, two names stand out as the most popular options for managing and streaming your personal media library: **Plex Media Server** and **Jellyfin**. Both of these platforms offer a wide range of features that allow you to organize and stream your movies, TV shows, music, and photos from one central location. But what sets these two media servers apart? In this article, we’ll take a comprehensive look at **Plex Media Server vs Jellyfin** to help you decide which one is the best choice for you.
 
+{{< youtube id="jKF5GtBIxpM" >}}
+
 ## Features:
 
 Both **Plex Media Server** and **Jellyfin** offer a vast array of features for organizing, storing, and streaming your media.

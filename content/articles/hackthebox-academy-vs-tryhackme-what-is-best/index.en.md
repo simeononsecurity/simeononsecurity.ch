@@ -22,9 +22,13 @@ While both platforms aim to teach cybersecurity concepts, they have different ap
 
 **HackTheBox Academy** is known for its challenging and realistic labs and exercises that simulate real-world scenarios, while also providing extensive guidance and support to learners. Its courses and labs are designed to teach practical skills and knowledge in cybersecurity, making it a popular choice for cybersecurity professionals who want to improve their practical skills and advance their careers.
 
+{{< youtube id="J4NmHJon2wY" >}}
+
 ### TryHackMe
 
 **TryHackMe** is an online platform that provides interactive labs, challenges, and exercises to teach cybersecurity concepts. It is also available in both free and paid subscription options. TryHackMe is known for its beginner-friendly approach, with a focus on providing structured learning and guidance.
+
+{{< youtube id="5zE27zvsmMM" >}}
 
 ______
 
