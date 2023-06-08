@@ -3,7 +3,8 @@ title: "Recommended Security Content Creators"
 draft: false
 toc: true
 description: "Discover top-notch security content creators handpicked by SimeonOnSecurity. From ippSec to John Hammond, LiveOverflow, NahamSec, Rob Fuller, and TheBlindHacker, these experts bring you the latest in the field through their various platforms including YouTube, Twitch, Twitter, GitHub, and websites. Stay up-to-date and deepen your knowledge with the best in the industry."
-tags: ["Recommendations", "Security Content Creators", "SimeonOnSecurity", "ippSec", "John Hammond", "LiveOverflow", "NahamSec", "Rob Fuller", "TheBlindHacker", "YouTube", "Twitter", "Twitch", "GitHub", "Website"]
+genre: ["Recommended Security Content Creators", "Top Security Content Creators", "Best Cybersecurity Influencers", "Expert Security Creators", "Top-notch Security Creators", "SimeonOnSecurity Recommendations", "ippSec and Other Security Creators", "John Hammond and Other Influential Creators", "LiveOverflow and Other Notable Creators", "NahamSec and Other Trusted Security Creators"]
+tags: ["Recommendations", "Security Content Creators", "SimeonOnSecurity", "ippSec", "John Hammond", "LiveOverflow", "NahamSec", "Rob Fuller", "TheBlindHacker", "YouTube", "Twitter", "Twitch", "GitHub", "Website", "cybersecurity", "penetration testing", "hacking tutorials", "web application hacking", "bug bounties", "reverse engineering", "CTFs", "malware", "darknet", "cybersecurity news", "social engineering", "nation-state attacks", "security strategy", "privacy", "technology trends", "data breaches"]
 ---
 
 *Check out [SecurityCreators](https://securitycreators.video/) if you like this page. This list only includes people actively watched by SimeonOnSecurity.*

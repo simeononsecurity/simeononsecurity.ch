@@ -2,54 +2,55 @@
 title: "Zalecane zasoby edukacyjne"
 draft: false
 toc: true
-description: "Odkryj najlepsze zasoby IT, Cybersecurity, Networking, Operating Systems oraz Programming & Scripting dzięki rekomendacjom SimeonOnSecurity. Od darmowych platform internetowych, takich jak Cybrary, Code.org i CodeAcademy, po płatne platformy, takie jak LinkedIn Learning, Pluralsight i TryHackMe, znajdziesz tu wiele opcji, które spełnią Twoje cele edukacyjne. Zwiększ swoje umiejętności w takich dziedzinach jak Cisco, Juniper, Windows, VMware i Red Hat dzięki bezpłatnym szkoleniom i certyfikatom. Przenieś swoją karierę na wyższy poziom dzięki najlepszym zasobom edukacyjnym SimeonOnSecurity."
-tags: ["Zalecane zasoby edukacyjne", "Rekomendacje SimeonOnSecurity", "IT", "Cybersecurity", "Tworzenie sieci", "Systemy operacyjne", "Programowanie i pisanie skryptów", "Cybrary", "LinkedIn Learning", "Pluralsight", "Udemy", "Cyberwojna", "HackTheBox", "INE", "Laboratoria Immersyjne", "Instytut Bezpieczeństwa Cybernetycznego Mosse", "PenTesterLab", "TryHackMe", "Cisco", "Juniper", "Microsoft", "VMWare", "RedHat", "Kodeks.org", "CodeAcademy", "Instytut Pythona"]
+description: "Odkryj najlepsze zasoby edukacyjne z zakresu IT, cyberbezpieczeństwa, sieci, systemów operacyjnych oraz programowania i skryptów dzięki rekomendacjom SimeonOnSecurity. Od bezpłatnych platform online, takich jak Cybrary, Code.org i CodeAcademy, po płatne platformy, takie jak LinkedIn Learning, Pluralsight i TryHackMe, znajdziesz szeroką gamę opcji, które spełnią Twoje cele edukacyjne. Zwiększ swoje umiejętności w takich obszarach jak Cisco, Juniper, Windows, VMware i Red Hat dzięki bezpłatnym szkoleniom i certyfikatom. Przenieś swoją karierę na wyższy poziom dzięki najwyżej ocenianym zasobom edukacyjnym SimeonOnSecurity."
+genre: ["Zalecane zasoby edukacyjne", "Nauka IT", "Szkolenie w zakresie cyberbezpieczeństwa", "Kursy sieciowe", "Edukacja w zakresie systemów operacyjnych", "Zasoby dotyczące programowania i skryptów", "Nauka online", "Laboratoria cyberbezpieczeństwa", "Certyfikacja sieci", "Szkolenie z systemów operacyjnych"]
+tags: ["Zalecane zasoby edukacyjne", "Zalecenia SimeonOnSecurity", "Nauka IT", "Szkolenie w zakresie cyberbezpieczeństwa", "Kursy sieciowe", "Edukacja w zakresie systemów operacyjnych", "Zasoby dotyczące programowania i skryptów", "Cybrary", "LinkedIn Learning", "Pluralsight", "Udemy", "Cyberwojna", "HackTheBox", "INE", "Immersive Labs", "Mosse Cyber Security Institute", "PenTesterLab", "TryHackMe", "Cisco", "Jałowiec", "Microsoft", "VMWare", "RedHat", "Code.org", "CodeAcademy", "Instytut Pythona", "Nauka online", "Laboratoria cyberbezpieczeństwa", "Certyfikacja sieciowa", "Szkolenie z systemów operacyjnych", "Edukacja w zakresie programowania"]
 ---
 
-Interesujesz się IT, bezpieczeństwem cybernetycznym, sieciami, systemami operacyjnymi lub programowaniem i skryptami? Nie szukaj dalej niż rekomendacje SimeonOnSecurity dla najlepszych zasobów edukacyjnych, aby zwiększyć swoje umiejętności i przenieść swoją karierę na wyższy poziom.
+Interesujesz się IT, cyberbezpieczeństwem, sieciami, systemami operacyjnymi lub programowaniem i skryptami? Nie szukaj dalej niż rekomendacje SimeonOnSecurity dotyczące najlepszych zasobów edukacyjnych, aby zwiększyć swoje umiejętności i przenieść swoją karierę na wyższy poziom.
 
 ## Ogólne technologie informacyjne:
 
-Jeśli szukasz możliwości rozwoju swoich umiejętności w zakresie ogólnych technologii informatycznych, istnieje wiele opcji, które możesz zbadać. Oto kilka z nich, które są bardzo polecane:
+Jeśli chcesz rozwinąć swoje umiejętności w zakresie ogólnych technologii informatycznych, istnieje wiele opcji dostępnych do zbadania. Oto kilka z nich, które są wysoce zalecane:
 
--[**Cybrary**](https://www.cybrary.it/) Jest to fantastyczny, w większości darmowy, cybernetyczny i informatyczny zasób wiedzy, który jest doskonałym miejscem do rozpoczęcia, jeśli jesteś nowy w tej dziedzinie.
--[**LinkedIn Learning**](https://www.lynda.com/) LinkedIn Learning to ogólna platforma edukacyjna, która oferuje szeroki zakres kursów, w tym kursy IT. Sprawdź w swojej szkole, ponieważ mogą one oferować bezpłatne członkostwo.
--[**Pluralsight**](https://www.pluralsight.com/) Pluralsight to kolejna ogólna platforma edukacyjna, która ma wysokiej jakości treści wideo. Sprawdź w swojej szkole, ponieważ mogą one oferować bezpłatne członkostwo.
--[**Udemy**](https://www.udemy.com/) Udemy to ogólna platforma edukacyjna, która oferuje różne kursy, w tym kursy IT.
+- [**Cybrary**](https://www.cybrary.it/) Jest to fantastyczne, w większości darmowe źródło wiedzy o cyberprzestrzeni i IT, które jest świetnym miejscem do rozpoczęcia nauki, jeśli jesteś nowy w tej dziedzinie.
+- [**LinkedIn Learning**](https://www.lynda.com/) LinkedIn Learning to ogólna platforma edukacyjna, która oferuje szeroką gamę kursów, w tym kursy IT. Skontaktuj się ze swoją szkołą, ponieważ może ona oferować bezpłatne członkostwo.
+- [**Pluralsight**](https://www.pluralsight.com/) Pluralsight to kolejna ogólna platforma edukacyjna, która oferuje wysokiej jakości treści wideo. Skontaktuj się ze swoją szkołą, gdyż może ona oferować darmowe członkostwo.
+- [**Udemy**](https://www.udemy.com/) Udemy to ogólna platforma edukacyjna, która oferuje różnorodne kursy, w tym kursy IT.
 
 ## Cybersecurity:
 
-Dla tych, którzy są zainteresowani Cybersecurity, istnieje kilka zasobów dostępnych, aby pomóc w nauce i zdobyć praktyczne doświadczenie. Oto kilka, które są bardzo zalecane:
+Dla osób zainteresowanych cyberbezpieczeństwem dostępnych jest kilka zasobów, które mogą pomóc w nauce i zdobyciu praktycznego doświadczenia. Oto kilka z nich, które są wysoce zalecane:
 
--[**CyberWarfare**](https://cyberwarfare.live/) Platforma ta oferuje laboratoria i certyfikaty Red i Purple-Team, które pomogą Ci rozwinąć Twoje umiejętności.
--[**HackTheBox**](https://www.hackthebox.eu/) Ta platforma oferuje Black-Box CTF Challenges, aby pomóc Ci zdobyć praktyczne doświadczenie. Zwróć uwagę, że ma ona opcję płatnego członkostwa.
--[**INE**](https://ine.com/) INE oferuje zarówno darmowe jak i płatne laboratoria i szkolenia High-Quality Cyber Security.
--[**Immersive Labs**](https://www.immersivelabs.com/) Platforma ta oferuje darmowe laboratoria Cyber Security Labs, dostępne są również oferty płatne. Bezpłatne dla aktywnych studentów.
--[**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Platforma ta oferuje darmowe Cyber Security Labs, dostępne są również oferty płatne.
--[**PenTesterLab**](https://pentesterlab.com/) Ta platforma oferuje hands-on Pentesting Labs, z płatnymi ofertami również dostępne.
--[**TryHackMe**](https://tryhackme.com/) Ta platforma oferuje kierowane wyzwania CTF, z opcją płatnego członkostwa.
+- [**CyberWarfare**](https://cyberwarfare.live/) Platforma ta oferuje laboratoria Red i Purple-Team oraz certyfikaty, które pomagają rozwijać umiejętności.
+- [**HackTheBox**](https://www.hackthebox.eu/) Platforma ta oferuje wyzwania Black-Box CTF, które pomogą ci zdobyć praktyczne doświadczenie. Należy pamiętać, że posiada ona opcję płatnego członkostwa.
+- [**INE**](https://ine.com/) INE oferuje zarówno bezpłatne, jak i płatne wysokiej jakości laboratoria i szkolenia z zakresu cyberbezpieczeństwa.
+- [**Immersive Labs**](https://www.immersivelabs.com/) Ta platforma oferuje bezpłatne laboratoria cyberbezpieczeństwa, a także płatne oferty. Bezpłatne dla aktywnych studentów.
+- [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Platforma ta oferuje bezpłatne laboratoria cyberbezpieczeństwa, a także płatne oferty.
+- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.ch/tags/pentesterlab/) dostępne są również płatne oferty.
+- [**TryHackMe**](https://tryhackme.com/) Platforma ta oferuje wyzwania CTF z przewodnikiem, z opcją płatnego członkostwa.
 
 ## Networking:
 
-Jeśli interesuje Cię Networking, oto kilka zasobów, które mogą pomóc Ci rozwinąć swoje umiejętności:
+Jeśli jesteś zainteresowany networkingiem, oto kilka zasobów, które mogą pomóc ci rozwinąć swoje umiejętności:
 
--[**Cisco**](https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html) Możesz uczyć się Cisco za darmo poprzez Cisco's Networking Academy. Zauważ, że niektóre kursy są płatne.
--[**Juniper**](https://learningportal.juniper.net/juniper/default.aspx) Możesz uczyć się Juniper za darmo za pośrednictwem portalu edukacyjnego Juniper. Ukończ kurs, aby zdobyć darmowy kupon na test certyfikacyjny!
+- [**Cisco**](https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html) Możesz uczyć się Cisco za darmo za pośrednictwem Cisco Networking Academy. Należy pamiętać, że niektóre kursy są płatne.
+- [**Juniper**](https://learningportal.juniper.net/juniper/default.aspx) Możesz uczyć się Juniper za darmo za pośrednictwem portalu edukacyjnego Juniper. Ukończ kurs, aby otrzymać darmowy voucher na test certyfikacyjny!
 
 ## Systemy operacyjne:
 
 Jeśli chcesz dowiedzieć się więcej o systemach operacyjnych, oto kilka zasobów, które mogą Ci pomóc:
 
--[**Microsoft**](https://docs.microsoft.com/en-us/learn/) Microsoft oferuje darmowe kursy na różne tematy, w tym Windows, Server, Azure i wiele innych!
--[**VMWare**](https://www.vmware.com/education-services/learning-zone.html) VMWare oferuje bezpłatne kursy dotyczące technologii VMware ESXi, Horizon i Cloud, które pomogą Ci rozwinąć Twoje umiejętności.
--[**RedHat**](https://www.redhat.com/en/services/training-and-certification) RedHat oferuje szkolenia z zakresu systemów RHEL, serwerów oraz Ansible.
+- [**Microsoft**](https://docs.microsoft.com/en-us/learn/) Microsoft oferuje bezpłatne kursy na różne tematy, w tym Windows, Server, Azure i nie tylko!
+- [**VMWare**](https://www.vmware.com/education-services/learning-zone.html) VMWare oferuje bezpłatne kursy dotyczące VMware ESXi, Horizon i technologii chmurowych, które pomogą Ci rozwinąć umiejętności.
+- [**RedHat**](https://www.redhat.com/en/services/training-and-certification) RedHat oferuje szkolenia w zakresie systemów RHEL, serwerów i Ansible.
 
-## Programowanie i Skryptowanie:
+## Programowanie i tworzenie skryptów:
 
-Jeśli jesteś zainteresowany nauką więcej o Programowaniu i Skryptowaniu, oto kilka zasobów do rozważenia:
+Jeśli chcesz dowiedzieć się więcej o programowaniu i skryptach, oto kilka zasobów do rozważenia:
 
--[**Code.org**](https://studio.code.org/courses) Code.org oferuje darmowe kursy kodowania i pomysły na projekty, które mogą pomóc Ci zacząć.
--[**CodeAcademy**](https://www.codecademy.com/) CodeAcademy oferuje wiele kursów, w tym Python, C#, C++, HTML, JavaScript, PHP i inne za darmo.
--[**Python Institute**](https://pythoninstitute.org/free-python-courses/) Instytut Pythona oferuje darmowe kursy Pythona na poziomie podstawowym, które pomogą Ci rozwinąć swoje umiejętności.
+- [**Code.org**](https://studio.code.org/courses) Code.org oferuje bezpłatne kursy kodowania i pomysły na projekty, które mogą pomóc w rozpoczęciu nauki.
+- [**CodeAcademy**](https://www.codecademy.com/) CodeAcademy oferuje różnorodne kursy, w tym Python, C#, C++, HTML, JavaScript, PHP i inne za darmo.
+- [**Python Institute**](https://pythoninstitute.org/free-python-courses/) Python Institute oferuje bezpłatne kursy Pythona dla początkujących, które pomogą ci rozwinąć umiejętności.
 
-Niezależnie od tego, czy interesujesz się IT, bezpieczeństwem cybernetycznym, sieciami, systemami operacyjnymi czy programowaniem i skryptami, istnieje wiele dostępnych zasobów, które pomogą Ci w nauce i rozwijaniu umiejętności. Dzięki rekomendacjom SimeonOnSecurity, możesz znaleźć najlepsze zasoby, aby spełnić swoje cele edukacyjne i przenieść swoją karierę na wyższy poziom.
+Niezależnie od tego, czy interesujesz się IT, cyberbezpieczeństwem, sieciami, systemami operacyjnymi czy programowaniem i skryptami, dostępnych jest wiele zasobów, które pomogą Ci uczyć się i rozwijać swoje umiejętności. Dzięki rekomendacjom SimeonOnSecurity możesz znaleźć najlepsze zasoby, aby osiągnąć swoje cele edukacyjne i przenieść swoją karierę na wyższy poziom.
