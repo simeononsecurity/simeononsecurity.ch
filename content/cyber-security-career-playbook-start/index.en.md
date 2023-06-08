@@ -211,6 +211,36 @@ Learn about the Federal Information Security Management Act (FISMA), a U.S. fede
 #### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)
 - Learn about the summarized guidelines outlined in NIST 800-88 for media sanitization.
 
+## Managing a Cyber Security Team
+
+This section provides valuable resources and insights on managing a cyber security team, including tips for **building and managing a cybersecurity team** and best practices for **managing a cyber security team**.
+
+- [Building a Cyber Security Team](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/building-and-managing-a-cybersecurity-team/): 
+  - This resource offers guidance on building a cyber security team, covering topics such as team composition, skillsets, and recruitment strategies.
+
+- [Managing a Cyber Security Team](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/): 
+  - Explore effective techniques and strategies for managing a cyber security team, including team leadership, performance management, and fostering a strong security culture.
+
+### Outsourcing vs. In-house Cyber Security
+
+When considering whether to outsource or keep cybersecurity tasks in-house, it is important to evaluate the advantages and drawbacks. These resources provide insights into the **outsourcing vs. in-house** decision-making process.
+
+- [Is Outsourcing Cyber Security Efforts a Good Idea?](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/): 
+  - This article discusses the pros and cons of outsourcing cyber security efforts and provides guidance on making an informed decision.
+
+- [Critical Cyber Security Roles that You Should Have In-House](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/cybersecurity-tasks-that-shouldn't-be-outsourced/): 
+  - Discover the **critical cyber security roles** that are best kept in-house to ensure control, expertise, and alignment with organizational objectives.
+
+### Developing Plans and Programs
+
+Developing robust cyber security plans and programs is essential for effective security management. These resources offer guidance on creating **cyber security policies, procedures, programs**, and **incident response programs**.
+
+- [How to Develop Cyber Security Policies, Procedures, and Programs](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/): 
+  - Learn how to develop comprehensive cyber security policies, procedures, and programs to establish a strong security foundation within your organization.
+
+- [How to Develop an Incident Response Program](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-an-incident-responce-program/): 
+  - This resource provides guidance on building an effective incident response program, including planning, team roles, and incident handling best practices.
+
 
 ## Conclusion
 

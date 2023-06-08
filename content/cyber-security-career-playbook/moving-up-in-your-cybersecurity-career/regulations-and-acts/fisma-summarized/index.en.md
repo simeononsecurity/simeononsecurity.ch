@@ -18,6 +18,8 @@ coverCaption: ""
 
 The Federal Information Security Modernization Act (FISMA) is a US law enacted in 2002 that requires federal agencies to establish and maintain information security programs to protect their information and information systems. This act was passed in response to the growing need for improved information security in the federal government, and it has since been updated several times to keep pace with the changing threat landscape.
 
+{{< youtube id="adxnNStDskA" >}}
+
 ## What is FISMA?
 
 FISMA is a set of standards and guidelines for information security that apply to federal agencies and their contractors. The purpose of FISMA is to ensure that sensitive information is protected from unauthorized access, use, disclosure, disruption, modification, or destruction. FISMA requires that federal agencies implement a risk-based approach to information security, which involves identifying and assessing potential security risks, implementing security controls to mitigate those risks, and continuously monitoring the effectiveness of those controls.

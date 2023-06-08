@@ -12,7 +12,7 @@ coverCaption: "Secure your future in cybersecurity with systems administration a
 
 **Building a Path to Cybersecurity: The Role of Systems Administration and Practical Experience**
 
-[Home](/cyber-security-career-playbook-start/)
+## [Home](/cyber-security-career-playbook-start/)
 
 ## Introduction
 

@@ -20,6 +20,8 @@ In today's rapidly evolving cybersecurity landscape, staying informed about the 
 
 ## Understanding CVEs
 
+{{< youtube id="mNPuGhie6B4" >}}
+
 CVEs, or Common Vulnerabilities and Exposures, are unique identifiers for publicly known cybersecurity vulnerabilities. Staying up-to-date with the latest CVEs is essential for proactive defense. Here are some approaches to consider:
 
 1. **CVE Databases**: The [**National Vulnerability Database (NVD)**](https://nvd.nist.gov) and the [**Common Vulnerabilities and Exposures List (CVE)**](https://cve.mitre.org) maintain comprehensive databases of known vulnerabilities. These databases provide detailed information about CVEs, including severity, impact, affected systems, and suggested mitigations.
@@ -31,6 +33,8 @@ CVEs, or Common Vulnerabilities and Exposures, are unique identifiers for public
 4. **Mailing Lists and Newsletters**: Subscribing to **mailing lists** and **newsletters** from reputable cybersecurity organizations, such as [**US-CERT**](https://www.us-cert.gov) and [**CERT/CC**](https://www.cert.org), can keep you informed about the latest CVEs. These organizations often share timely alerts, vulnerability reports, and best practices.
 
 ## Exploring Threat Actors
+
+{{< youtube id="Fiy1gM8XgdM" >}}
 
 Understanding the motivations and tactics of threat actors is essential for assessing risks and developing effective countermeasures. Here are some ways to learn about threat actors:
 
