@@ -3,11 +3,12 @@ title: "Should You Learn Programming for IT and Cyber Security?"
 date: 2023-02-12
 toc: true
 draft: false
-description:  "Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform."
-tags: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing"]
+description: "Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform."
+genre: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing", "Professional Development"]
+tags: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing", "IT Careers", "Cyber Security Careers", "IT Professionals", "Cyber Security Professionals", "Network Automation", "Security Analysis", "Scripting Languages", "Configuration Management", "Infrastructure as Code", "IT Automation", "IT Industry", "Cyber Security Industry", "Job Market", "IT Skills"]
 cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
 coverAlt: "A person sitting in front of a computer, typing code into a command line interface with lines of text scrolling on the screen. "
-coverCaption: ""
+coverCaption: "Unlock the Power of Programming for IT and Cyber Security."
 
 ---
 **Should You Learn Programming for IT and Cyber Security?**
