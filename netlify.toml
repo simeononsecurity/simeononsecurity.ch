@@ -237,6 +237,80 @@ for = "/api/*"
 Cache-Control = "no-cache, no-store, must-revalidate"
 
 ## REDIRECTS
+[[redirects]]
+from = "/fr/*"
+to = "https://fr.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/es/*"
+to = "https://es.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/de/*"
+to = "https://de.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/hi/*"
+to = "https://hi.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/ar/*"
+to = "https://ar.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/ca/*"
+to = "https://ca.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/it/*"
+to = "https://it.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/ja/*"
+to = "https://ja.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/nl/*"
+to = "https://nl.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/ro/*"
+to = "https://ro.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/zh/*"
+to = "https://zh.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/pa/*"
+to = "https://pa.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/pl/*"
+to = "https://pl.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/pt/*"
+to = "https://pt.simeononsecurity.ch/:splat"
+status = 301
+
+[[redirects]]
+from = "/ru/*"
+to = "https://ru.simeononsecurity.ch/:splat"
+status = 301
 
 [[redirects]]
 from = "/*"
@@ -340,78 +414,3 @@ from = "/*"
 to = "https://zh.simeononsecurity.ch/:splat"
 status = 301
 conditions = { Language = ["zh"] }
-
-[[redirects]]
-from = "/fr/*"
-to = "https://fr.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/es/*"
-to = "https://es.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/de/*"
-to = "https://de.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/hi/*"
-to = "https://hi.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/ar/*"
-to = "https://ar.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/ca/*"
-to = "https://ca.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/it/*"
-to = "https://it.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/ja/*"
-to = "https://ja.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/nl/*"
-to = "https://nl.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/ro/*"
-to = "https://ro.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/zh/*"
-to = "https://zh.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/pa/*"
-to = "https://pa.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/pl/*"
-to = "https://pl.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/pt/*"
-to = "https://pt.simeononsecurity.ch/:splat"
-status = 301
-
-[[redirects]]
-from = "/ru/*"
-to = "https://ru.simeononsecurity.ch/:splat"
-status = 301
