@@ -19,7 +19,7 @@ Linux è un sistema operativo molto diffuso, utilizzato sia da privati che da az
 
 Mantenere il sistema [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) L'aggiornamento del sistema è fondamentale per mantenerne la sicurezza. Gli aggiornamenti regolari aiutano a risolvere le vulnerabilità e i bug di sicurezza, assicurando che il sistema rimanga sicuro contro potenziali attacchi. Ecco alcuni esempi di come aggiornare il sistema Linux utilizzando il gestore di pacchetti **apt-get** o **yum**:
 
-#### Aggiornamento di Ubuntu con apt-get
+#### Aggiornamento di Ubuntu tramite apt-get
 
 Per aggiornare il sistema Ubuntu utilizzando **apt-get**, aprite una finestra di terminale e digitate:
 ```bash
@@ -212,7 +212,7 @@ sudo update-grub
 
 Infine, riavviare il sistema.
 
-Una volta abilitato SELinux o AppArmor, è possibile configurare i loro criteri per limitare i privilegi dei processi e l'accesso alle risorse del sistema. Questo può aiutare a minimizzare l'impatto potenziale di un attacco riuscito e a migliorare la sicurezza generale del sistema.
+Una volta abilitato SELinux o AppArmor, è possibile configurare i loro criteri per limitare i privilegi dei processi e l'accesso alle risorse del sistema. Questo può aiutare a minimizzare l'impatto potenziale di un attacco riuscito e a migliorare la sicurezza complessiva del sistema.
 
 
 ### Configurare i criteri delle password
@@ -254,7 +254,7 @@ Il monitoraggio dei log di sistema è un aspetto importante per mantenere la sic
 
 #### Utilizzando il comando journalctl
 
-Nella maggior parte delle moderne distribuzioni Linux, è possibile utilizzare il comando **journalctl** per visualizzare i registri di sistema. Questo comando fornisce una serie di opzioni che possono essere utilizzate per filtrare e cercare le voci di registro.
+Nella maggior parte delle distribuzioni Linux moderne, è possibile utilizzare il comando **journalctl** per visualizzare i registri di sistema. Questo comando fornisce una serie di opzioni che possono essere utilizzate per filtrare e cercare le voci di registro.
 
 Per visualizzare tutte le voci di registro, è sufficiente eseguire il seguente comando:
 
@@ -282,11 +282,11 @@ Per i sistemi più grandi o più complessi, può essere utile utilizzare uno str
 
 Esempi di strumenti di gestione dei registri per Linux sono:
 
-- **Logwatch**: un semplice strumento di analisi dei registri che fornisce riepiloghi giornalieri via e-mail dei registri di sistema.
+- **Logwatch**: un semplice strumento di analisi dei registri che fornisce quotidianamente riepiloghi via e-mail dei registri di sistema.
 - **Logrotate**: uno strumento che ruota e comprime automaticamente i file di log per risparmiare spazio su disco
 - **ELK stack**: un popolare strumento open-source per la gestione dei log che combina Elasticsearch, Logstash e Kibana per fornire funzionalità di monitoraggio e analisi dei log in tempo reale.
 
-Ricordate di rivedere e analizzare regolarmente i log di sistema per rilevare e rispondere tempestivamente a potenziali minacce alla sicurezza.
+Ricordate di esaminare e analizzare regolarmente i registri di sistema per rilevare e rispondere tempestivamente a potenziali minacce alla sicurezza.
 
 ______
 

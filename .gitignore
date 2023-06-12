@@ -35,3 +35,4 @@ debug.log
 *.air
 *.ipa
 *.apk
+clean-legacy-translations.ps1

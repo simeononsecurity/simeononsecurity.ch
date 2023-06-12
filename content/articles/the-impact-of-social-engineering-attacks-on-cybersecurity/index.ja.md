@@ -6,7 +6,7 @@ draft: false
 description: "この記事では、ソーシャル・エンジニアリング攻撃から身を守り、サイバー犯罪者からデータを保護する方法についてご紹介します。"
 tags: ["サイバーセキュリティ", "ソーシャルエンジニアリング", "フィッシング詐欺", "多要素認証", "セキュリティアップデート", "パスワードセキュリティ", "ウェブセキュリティ", "情報漏えい", "ITセキュリティ", "こじんじょうほうぬすみ", "不正防止", "スパイ防止", "テクニカルセキュリティ", "物理的安全保護", "情報セキュリティ", "サイバー犯罪防止", "侵入検知", "セキュリティパッチ", "社員教育", "データ保護"]
 cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
-coverAlt: "サイバーセキュリティにおけるソーシャルエンジニアリング攻撃からの防御という考えを表す、中央に南京錠がついた漫画のような盾です"
+coverAlt: "サイバーセキュリティにおけるソーシャルエンジニアリング攻撃からの防御の考え方を表現した、中央に南京錠が付いた漫画の盾です"
 coverCaption: ""
 ---
 サイバーセキュリティにおけるソーシャルエンジニアリング攻撃への対策**」。
@@ -27,11 +27,11 @@ ______
 
 ### 1.教育・啓発
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)は、ソーシャル・エンジニアリング攻撃に対する防御の第一線です。ソーシャル・エンジニアリング攻撃の兆候を認識し、適切な行動をとるよう訓練する必要があります。これには、未承諾の情報要求に注意すること、機密情報を提供する前に個人の身元を確認すること、疑わしい行為があればIT部門やセキュリティ担当者に報告することが含まれます。
+[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)は、ソーシャル・エンジニアリング攻撃に対する最初の防御線となる。ソーシャル・エンジニアリング攻撃の兆候を認識し、適切な行動をとるよう訓練する必要があります。これには、未承諾の情報要求に注意すること、機密情報を提供する前に個人の身元を確認すること、疑わしい行為があればIT担当者やセキュリティ担当者に報告することが含まれます。
 
 ### 2.強力なパスワードと多要素認証
 
-使用方法[**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)多要素認証**を導入することで、パスワードの推測やブルートフォース攻撃に依存するソーシャルエンジニアリング攻撃を防ぐことができます。強力なパスワードは、少なくとも12文字で、大文字、小文字、数字、特殊文字が混在している必要があります。多要素認証は、パスワードだけでなく、本人であることを示す追加の証明書の提出をユーザーに要求することで、セキュリティのレイヤーを増やします。
+使用方法 [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)多要素認証**を導入することで、パスワードの推測やブルートフォース攻撃に依存するソーシャルエンジニアリング攻撃を防ぐことができます。強力なパスワードは、少なくとも12文字で、大文字、小文字、数字、特殊文字が混在している必要があります。多要素認証は、パスワードだけでなく、本人であることを示す追加の証明書の提出をユーザーに要求することで、セキュリティのレイヤーをさらに増やします。
 
 ### 3.電子メールとウェブブラウジングの安全性
 
@@ -57,7 +57,7 @@ ______
 
 ## 参考文献
 
--[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
--[What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
--[Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
+- [Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
 

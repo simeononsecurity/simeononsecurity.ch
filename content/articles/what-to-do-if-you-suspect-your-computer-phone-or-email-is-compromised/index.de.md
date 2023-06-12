@@ -1,19 +1,58 @@
 ---
-title: "What to Do If You Think Your Email or Phone Is Compromised"
+title: "Was ist zu tun, wenn Sie glauben, dass Ihre E-Mail oder Ihr Telefon kompromittiert wurde?"
 date: 2023-02-27
 toc: true
 draft: false
-description: "Learn the essential steps to take if you suspect your email, desktop, or phone has been hacked or compromised, including changing passwords, scanning for malware, and wiping your device clean."
-tags: ["device security", "data protection", "compromised device", "hacked email", "hacked phone", "malware", "virus removal", "password security", "data backup", "two-factor authentication", "cybersecurity", "online safety", "digital privacy", "identity theft", "online fraud", "tech support", "computer repair", "data recovery", "IT services", "technology"]
+description: "Informieren Sie sich über die wichtigsten Schritte, die Sie unternehmen müssen, wenn Sie vermuten, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon gehackt oder kompromittiert wurde, einschließlich des Änderns von Kennwörtern, des Scannens nach Malware und des Löschens Ihres Geräts."
+tags: ["Gerätesicherheit", "datenschutz", "gefährdetes Gerät", "gehackte E-Mail", "gehacktes Telefon", "Malware", "Virenentfernung", "Passwortsicherheit", "Datensicherung", "Zwei-Faktor-Authentifizierung", "Cybersicherheit", "Online-Sicherheit", "digitaler Datenschutz", "Identitätsdiebstahl", "Online-Betrug", "Technischer Support", "Computer-Reparatur", "Datenwiederherstellung", "IT-Dienste", "Technologie", "E-Mail-Sicherheit", "Desktop-Sicherheit", "Telefonsicherheit", "Geräte-Hacking", "Sicherheitsverletzung", "Gerätekompromiss", "Malware-Scan", "Datenlöschung", "Kryptoschlüssel", "Krypto-Wallet-Sicherheit", "Fondsschutz", "E-Mail-Kompromiss", "Tipps zur Gerätesicherheit", "wie Sie Ihre E-Mail sichern können", "Schritte zum Schutz eines gefährdeten Telefons", "Techniken zur Malware-Entfernung", "beste Praktiken für die Passwortsicherheit", "Datensicherungsmethoden", "Bedeutung der Zwei-Faktor-Authentifizierung", "Cybersecurity-Maßnahmen für die Online-Sicherheit", "Tipps zum Schutz der digitalen Privatsphäre", "Verhinderung von Identitätsdiebstahl im Internet", "wie man mit Online-Betrug umgeht", "Technischer Support für gefährdete Geräte", "Computer-Reparaturdienste", "Datenwiederherstellungslösungen", "IT-Dienste für Gerätesicherheit", "neueste Technologietrends", "sichere E-Mail-Praktiken", "Desktop-Sicherheitsmaßnahmen", "Sicherheitsvorkehrungen am Telefon", "Verhinderung des Hackens von Geräten"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
-coverAlt: "A cartoon image of a person standing in front of a computer or phone with a concerned expression, while a cartoon hacker lurks in the background."
+coverAlt: "Ein Cartoon-Bild einer Person, die mit besorgter Miene vor einem Computer oder Telefon steht, während im Hintergrund ein Cartoon-Hacker lauert."
 coverCaption: ""
 ---
+
+In unserem digitalen Zeitalter enthalten unsere Geräte eine Fülle sensibler Informationen, von finanziellen und persönlichen Daten bis hin zu vertraulichen Arbeitsdokumenten. Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, kann das eine stressige und alarmierende Erfahrung sein. Aber kein Grund zur Panik! Es gibt Maßnahmen, die Sie ergreifen können, um Ihre Daten zu schützen und die Sicherheit Ihres Geräts wiederherzustellen.
+
+## Schritt 1: Beurteilen Sie die Situation
+
+Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, sollten Sie als Erstes die Situation einschätzen. Hier sind ein paar Dinge, auf die Sie achten sollten:
+
+- **Ungewöhnliche Aktivitäten**: Achten Sie auf ungewöhnliche Aktivitäten auf Ihrem Gerät, z. B. Änderungen am Desktop-Hintergrund oder unbekannte Programme, die im Hintergrund laufen.
+
+- **Unbekannte Dateien**: Suchen Sie nach unbekannten Dateien oder Programmen auf Ihrem Gerät, insbesondere in Ihrem Download-Ordner oder dem Download-Verlauf Ihres Browsers.
+
+- **Änderungen der Anmeldedaten**: Wenn Sie vermuten, dass Ihre E-Mail kompromittiert wurde, überprüfen Sie Ihren Ordner "Gesendet" auf E-Mails, die Sie nicht gesendet haben, und Ihren Papierkorb auf gelöschte E-Mails, die Sie nicht gelöscht haben. Achten Sie auch auf Änderungen an Ihren Anmeldedaten, wie z. B. eine neue E-Mail-Adresse oder ein neues Passwort für Ihr Konto.
+
+- **Unbekannte E-Mails**: Wenn Sie vermuten, dass Ihr E-Mail-Konto kompromittiert wurde, suchen Sie nach unbekannten E-Mails in Ihrem Posteingang oder Spam-Ordner.
+
+- **Unerwartete Gebühren**: Wenn Sie vermuten, dass Ihr Telefon kompromittiert wurde, achten Sie auf unerwartete Gebühren auf Ihrer Telefonrechnung oder ungewöhnliche Aktivitäten in Ihrem Anruf- oder SMS-Verlauf.
+
+Es ist wichtig, alle Anzeichen einer Kompromittierung zu beachten, damit Sie geeignete Maßnahmen zum Schutz Ihres Geräts und Ihrer Daten ergreifen können. Wenn Sie sich nicht sicher sind, ob Ihr Gerät kompromittiert wurde, ist es immer besser, auf Nummer sicher zu gehen.
+
+Erfahren Sie, wie Sie Folgendes erkennen können [phishing and suspicious emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+
+______
+
+## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+
+- [**Change your passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) für alle Ihre Konten sofort, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde
+
+Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, müssen Sie als Nächstes sofort die Kennwörter für alle Ihre Konten ändern. Dies wird einige Zeit in Anspruch nehmen. Priorisieren Sie daher wichtige Konten wie Ihre E-Mails, Bankkonten, Konten in sozialen Medien usw.
+
+- **Priorisieren Sie wichtige Konten** wie Ihre E-Mails, Bankkonten, Konten in sozialen Medien usw.
+
+- [**Choose strong, unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) für jedes Ihrer Konten und **vermeiden Sie die Verwendung des gleichen Passworts** für mehrere Konten
+- A [**strong password**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) sollte mindestens **12 Zeichen lang** sein und eine **Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen** enthalten
+
+Wählen Sie sichere, eindeutige Passwörter für jedes Ihrer Konten und vermeiden Sie die Verwendung desselben Passworts für mehrere Konten. Ein sicheres Passwort sollte mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen enthalten. Vermeiden Sie gebräuchliche Wörter oder Phrasen, und geben Sie keine persönlichen Daten wie Ihren Namen, Ihr Geburtsdatum oder Ihre Adresse an.
+
+***Einige Beispiele für sichere Passwörter***:
 ```txt
 - G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
 - Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
 - xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
 ```
+
+***Beispiele für Passphrasen***:
 ```txt
 - sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
 - orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
@@ -22,4 +61,106 @@ coverCaption: ""
 - elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
 ```
 
- In diesem digitalen Zeitalter enthalten unsere Geräte eine Fülle sensibler Informationen, von finanziellen und persönlichen Daten bis hin zu vertraulichen Arbeitsdokumenten. Wenn Sie vermuten, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurden, kann dies eine stressige und alarmierende Erfahrung sein. Aber keine Panik! Es gibt Maßnahmen, die Sie ergreifen können, um Ihre Daten zu schützen und die Sicherheit Ihres Schlüssels wie wieder herzustellen.  ## Schritt 1: Beurteilen Sie die Situation  Der erste Schritt, den SIE unternehmen müssen, wenn Sie vermuten, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, besteht darin, die Situation zu bewerten. Hier sind ein paar Dinge, nach denen Sie suchen sollten:  - **Ungewöhnliche Aktivität**: Suchen Sie nach ungewöhnlichen Aktivitäten auf Ihrem Gerät, z. B. Änderungen an Ihrem Desktop-Hintergrund oder unbekannten Programmen, die im Hintergrund ausgeführt werden.  - **Unbekannte Dateien**: Suchen Sie nach unbekannten Dateien oder Programmen auf Ihrem Gerät, insbesondere in Ihrem Download-Ordner oder im Download-Verlauf Ihres Browsers.  - **Änderungen der Anmeldedaten**: Wenn Sie vermuten, dass Ihre E-Mail kompromittiert wurde, überprüfen Sie Ihren Ordner "Gesendet" auf E-Mails, die Sie nicht gesendet haben, und Ihren Papierkorb auf gelöschte E-Mails, die Sie nicht gelöscht haben. Suchen Sie auch nach Änderungen an Ihren Anmeldeinformationen, wie z. B. einer E-Mail-Adresse oder einem neuen Passwort, das Ihrem Konto zugeordnet ist.  - **Unbekannte E-Mails**: Wenn Sie vermuten, dass Ihre E-Mail kompromittiert wurde, suchen Sie in Ihrem Posteingang oder Spam-Ordner nach unbekannten E-Mails.  - **Unerwartete Gebühren**: Wenn Sie vermuten, dass Ihr Telefon kompromittiert wurde, suchen Sie nach unerwarteten Gebühren auf Ihrer Telefonrechnung oder ungewöhnlichen Aktivitäten in Ihrem Anruf- oder SMS-Verlauf.  Es ist wichtig, alle Anzeichen einer Kompromittierung zu beachten, DAMIT SIE geeignet zum Schutz Ihrer integrierten und Ihrer Daten erfassen can. Wenn Sie sich nicht sicher sind, ob Ihr Gerät kompromittiert wurde, ist es immer besser, sich auf dem zu irren  ______  ## Schritt 2: Ändern Sie Ihre Passwörter und überprüfen Sie die Wiederherstellungsinformationen  - **Ändern Sie sofort Ihre Passwörter** für alle Ihre Konten, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde   Wenn Sie vermuten, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurden, besteht der nächste Schritt darin, Ihre Passwörter für alle Ihre Konten sofort zu ändern. Dies WIRD eine Weile dauern, priorisieren Sie auch wichtige Konten wie Ihre E-Mails, Bankkonten, Social-Media-Konten usw.  - **Priorisieren Sie wichtige Konten** wie Ihre E-Mails, Bankkonten, Social-Media-Konten usw.  - **Wählen Sie starke, eindeutige Passwörter** für jedes Ihrer Konten und **vermeiden Sie sterben Verwendung desselben Passworts** für mehrere Konten - Ein **sicheres Passwort** sollte mindestens **12 Zeichen lang** sein und eine **Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen** enthalten.  Wählen Sie starke, eindeutige Passwörter für jedes Ihrer Konten und vermeiden Sie es, dasselbe Passwort für mehrere Konten zu verwenden. Ein sicheres Passwort sollte mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen enthalten. Vermeiden Sie die Verwendung allgemeiner Wörter oder Phrasen und geben Sie keine persönlichen Informationen wie Ihren Namen, Ihr Geburtsdatum oder Ihre Adresse an.  ***Einige Beispiele für sichere Passwörter***:  ***Beispiele für Passphrasen***:  - **Zwei-Faktor-Authentifizierung aktivieren** für eine zusätzliche Sicherheitsebene  Es ist auch eine gute Idee, die Zwei-Faktor-Authentifizierung zu aktivieren, die Ihren Konten eine zusätzliche Sicherheitsebene hinzufügt. Die Zwei-Faktor-Authentifizierung erfordert zusätzlich zu Ihrem Passwort eine zweite Überprüfungsmethode, z. B. einen Code, der an Ihr Telefon oder Ihre E-Mail gesendet wird.  - **Ändern Sie Ihre Passwörter von einem bekanntermaßen sauberen Gerät** oder Einem Gerät, dessen Betriebssystem gerade zurückgesetzt oder von Grund auf neu installiert wurde  Es ist wichtig, Ihre Passwörter von einem bekanntermaßen sauberen Gerät oder einem Gerät zu ändern, dessen Betriebssystem gerade zurückgesetzt oder noch besser von Grund auf neu installiert wurde. Dadurch wird sichergestellt, dass Malware oder andere Kompromittierungen auf Ihr Gerät nicht auf das neue Gerät übertragen werden.  - **Löschen Sie alle bekannten oder unbekannten Sitzungen** von Ihrem Konto, um alle Angreifer aus Ihrem Konto zu werfen  Außerdem verfügen die meisten Dienste in diesem Schritt über Dashboards, in denen SIE die aktiven und vorherigen Sitzungen des Kontos sehen können. Gehen Sie dort hinein und löschen Sie alle Sitzungen. Alle von ihnen. Bekannt oder unbekannt. Dadurch werden alle Angreifer aus Ihrem Konto geworfen.  - **Überprüfen Sie die Kontowiederherstellungsinformationen** für das Konto, einschließlich Sicherheitsfragen, Telefonnummer oder alternativer E-Mail-Adresse - **Entfernen Sie alle unbekannten Informationen** und ersetzen Sie SIE durch Ihre eigenen Informationen, um zu verhindern, dass Angreifer Ihre Kontowiederherstellungsinformationen verwenden, um sich in Zukunft Zugriff auf Ihr Konto zu verschaffen  Anschließend sollten SIE Sich nach dem Ändern des Passworts und dem Rausschmeißen anderer Sitzungen die Zeit nehmen, die Kontowiederherstellungsinformationen für das Konto zu überprüfen. Dies kann Ihre Sicherheitsfragen, Telefonnummer oder alternative E-Mail-Adresse beinhalten. Wenn Sie unbekannte Informationen finden, entfernen Sie diese und ersetzen Sie sie durch Ihre eigenen Informationen. Dadurch wird verhindert, dass Angreifer Ihre Kontowiederherstellungsinformationen verwenden, um sich in Zukunft Zugriff auf Ihr Konto zu verschaffen.  ______  ## Schritt 3: Aktualisieren Sie Ihre Software  **Halten Sie Ihr Betriebssystem**, Ihren Virenschutz und andere Software **auf dem neuesten Stand**, um die Sicherheit Ihres Arbeitsplatzes zu gewährleisten. Software-Updates enthalten häufig Sicherheitspatches, die **bekannte Schwachstellen beheben**, daher ist es wichtig, Ihre Software so schnell wie möglich zu aktualisieren, wenn Updates verfügbar sind.  **Um Ihre Software zu aktualisieren**, gehen Sie zu den Einstellungen oder der Systemsteuerung Ihres Benutzers und **suchen Sie nach Updates**. Wenn Updates verfügbar sind, laden Sie sie herunter und installieren Sie sie **so bald wie möglich**.  **Beispiele für Software**, die SIE auf dem neuesten Stand halten sollten, sind unter anderem:  - **Betriebssystem** (Windows, MacOS, iOS, Android usw.) - **Antivirus-Software** (Norton, McAfee, Avast usw.) - **Webbrowser** (Google Chrome, Mozilla Firefox, Safari usw.) - **E-Mail-Client** (Microsoft Outlook, Apple Mail, Gmail usw.) - **Anwendungen** (Microsoft Office, Adobe Creative Suite usw.)  ______  ## Schritt 4: Scannen Sie Ihr Gerät auf Malware  - **Führen SIE einen Malware-Scan** auf Ihrem Gerät durch, um nach unerwünschter Software zu suchen, die möglicherweise installiert wurde - **Malware** kann **Viren**, **Würmer**, **Trojaner** und andere Arten von Schadsoftware enthalten, die **die Sicherheit** Ihres Benutzers und Ihrer Daten gefährden can - **Verwenden** Sie eine **vertrauenswürdige Antivirensoftware**, die auf dem neuesten Stand ist, um Ihr Gerät auf Malware zu scannen  Führen Sie einen Malware-Scan auf dem Gerät durch, um nach möglicherweise installierter Schadsoftware zu suchen. Malware kann Viren, Würmer, Trojaner und andere Arten von Schadsoftware umfassen, die die Sicherheit Ihres Arbeitsplatzes und Ihrer Daten gefährden können.  - **Führen Sie einen vollständigen Systemscan durch** und befolgen Sie die Anweisungen Ihrer Antivirensoftware, um erkannte Malware zu entfernen - **Scannen Sie alle internen Geräte**, z. B. USB-Laufwerke, die SIE mit dem kompromittierten Gerät verwendet haben  Um Ihr Gerät auf Malware zu scannen, verwenden SIE EINE anerkannte Antivirensoftware, die auf dem neuesten Stand ist. Führen Sie einen vollständigen Systemscan durch und befolgen Sie die Anweisungen Ihrer Antivirensoftware, um erkannte Malware zu entfernen.  - **Externe Geräte können oft Malware enthalten**, die Ihr Gerät infizieren kann, daher ist es wichtig, sie zu scannen, bevor Sie sie mit Ihrem Gerät verwenden - **Halten Sie Ihre Antivirensoftware auf dem neuesten Stand**, um Ihr Gerät vor den neuesten Malware-Bedrohungen zu schützen - **Erwägen Sie die Verwendung zusätzlicher Sicherheitssoftware**, wie z. B. eine **Firewall** oder **Anti-Spyware-Software**, um zusätzlichen Schutz vor Malware und anderen Sicherheitsbedrohungen zu bieten - **Seien Sie vorsichtig** beim **Herunterladen** oder **Installieren von Software** aus dem Internet und laden Sie nur von zuverlässigen Quellen herunter, um Malware-Infektionen zu vermeiden  Es ist auch eine gute Idee, alle internen Geräte wie USB-Laufwerke zu scannen, die SIE mit dem kompromittierten Gerät verwendet haben. Externe Geräte können oft Malware enthalten, die Ihr Gerät infizieren kann, daher ist es wichtig, sie zu scannen, bevor Sie sie mit Ihrem Gerät verwenden.  ______  ## Schritt 5: Sichern Sie wichtige Dateien und löschen Sie Ihr Gerät  - **Sichern Sie alle offensichtlichen Dateien**, bevor Sie Ihr Gerät löschen, wenn Sie vermuten, dass Ihr Gerät kompromittiert IST - **Überprüfen** Sie, dass Ihre **wichtigen Dateien sicher sind**, wie Sie sie mit einer Antivirensoftware scannen, bevor Sie sie sichern  Wenn Sie vermuten, dass Ihr Gerät kompromittiert IST, und irgendeinen Indikator bestätigt haben, besteht der nächste Schritt darin, alle einzelnen Dateien zu sichern. Bevor Sie Ihre Dateien sichern, sollten Sie jedoch überprüfen, ob sie sicher sind, und Sie mit einer Antivirensoftware scannen. Dadurch wird sichergestellt, dass die von Ihnen gesicherten Dateien nicht mit Malware infiziert sind, die Ihr neues Gerät gefährden könnte.  - **Das Löschen Ihres Arbeitsplatzes** mit einer **sauberen Installation** des Betriebssystems **entfernt jegliche Malware oder andere Kompromittierungen** auf Ihrem Gerät und ermöglicht Ihnen einen Neuanfang mit einem sicheren Gerät - Ein **Zurücksetzen oder Zurücksetzen auf die Werkseinstellungen** reicht in den meisten Situationen aus, wenn eine Neuinstallation nicht möglich ist  Sobald SIE überprüft Haben, dass Ihre einzelnen Dateien sicher sind, sollten Sie Ihr Gerät mit einer Neuinstallation des Betriebssystems löschen. Dadurch werden Malware oder andere Kompromittierungen auf Ihrem Gerät entfernt und Sie erhalten einen Neuanfang mit einem sicheren Gerät. Wenn eine saubere Installation nicht möglich ist, reicht in den meisten Fällen ein Zurücksetzen oder Zurücksetzen auf die Werkseinstellungen aus.  - Denken Sie daran, dass **das Löschen Ihres Geräts alle Daten auf dem Gerät löscht**, daher ist es wichtig, alle einzelnen Dateien zu sichern, bevor Sie Ihr Gerät löschen - Achten Sie darauf, **Ihre Dateien an einem sicheren Ort** zu sichern**, z. B. auf einer internen Festplatte oder einem Cloud-Speicherdienst, um sicherzustellen, dass sie während des Löschvorgangs nicht verloren gehen - Sobald SIE Ihr Gerät gelöscht haben, **ergreifen SIE Maßnahmen, um es zu sichern und voraussichtliche Kompromittierungen zu verhindern**, indem Sie beispielsweise Ihre Software und Sicherheitstools auf dem neuesten Stand halten und verdächtige Downloads und Websites vermeiden.  Denken Sie daran, dass durch das Löschen IHRER EINGESTELLTEN Daten alle Daten auf dem Gerät gelöscht werden. Daher ist es wichtig, alle einzelnen Dateien zu sichern, bevor Sie Ihr Gerät löschen.  ______  ## Optionaler Schritt: Behandeln Sie Ihren Kryptoschlüssel als kompromittiert  - **Erstellen Sie neue Schlüssel von einem sauberen Gerät** und überweisen Sie alle Währungen so schnell wie möglich an die neue Adresse - **Behandeln Sie Ihre Kryptoschlüssel als kompromittiert**, wenn Sie Krypto-Wallets auf Ihrem kompromittierten Gerät haben - **Kompromittierte Kryptoschlüssel can zu Geldverlusten führen**   Wenn Sie Krypto-Wallets auf Ihrem kompromittierten Gerät haben, behandeln Sie Ihre Krypto-Schlüssel ebenfalls als kompromittiert. Kryptoschlüssel verwendet werden, um auf Kryptowährung zu zugreifen und diese zu übertragen, und wenn sie kompromittiert werden, kann dies zu einem Geldverlust führen.  - Es ist wichtig, **Ihre Krypto-Wallets und -Schlüssel zu sichern**, um die Sicherheit Ihres Gelders zu gewährleisten - **Angreifer können Ihre Schlüssel stehlen und auf Ihr Geld zugreifen**, daher ist es wichtig, Maßnahmen zu ergreifen, um sie zu schützen - Die **Sicherheit Ihrer Krypto-Wallets und -Schlüssel sollte oberste Priorität haben**, insbesondere wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde.  Erstellen Sie von einem sauberen Gerät aus neuen Schlüsseln und überweisen Sie alle Währungen so schnell wie möglich an die neue Adresse. Dadurch wird sichergestellt, dass Ihre Gelder sicher sind und nicht Gefahr laufen, von einem Angreifer gestohlen zu werden, der Ihre Schlüssel kompromittiert hat.  Denken Sie daran, dass die Sicherheit Ihrer Krypto-Wallets und -Schlüssel für die Aufrechterhaltung der Sicherheit Ihrer Gelder von entscheidender Bedeutung ist. Daher ist es wichtig, Maßnahmen zu ergreifen, um sie zu sichern, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde.  ______  ## Abschluss  Wenn Sie auch vermuten, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurden, ist es wichtig, sofort Maßnahmen zu ergreifen, um Ihre Daten zu schützen und die Sicherheit Ihres gespeicherten wie wieder herzustellen. Bewerten Sie die Situation, ändern Sie Ihre Passwörter, aktualisieren Sie Ihre Software, scannen Sie Ihr Gerät auf Malware, sichern Sie wichtige Dateien und löschen Sie Ihr Gerät von einem bekanntermaßen sauberen Gerät. Indem Sie diese Schritte befolgen, können Sie die Kontrolle über Ihre digitale Sicherheit wiedererlangen und sich vor potenziellen Gefahren schützen.
+- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für eine zusätzliche Ebene der Sicherheit
+
+Es ist auch eine gute Idee, die Zwei-Faktor-Authentifizierung zu aktivieren, die eine zusätzliche Sicherheitsebene für Ihre Konten bietet. Die Zwei-Faktor-Authentifizierung erfordert eine zweite Verifizierungsmethode, z. B. einen Code, der an Ihr Telefon oder Ihre E-Mail gesendet wird, zusätzlich zu Ihrem Passwort.
+
+- Ändern Sie Ihre Passwörter von einem bekanntermaßen sauberen Gerät** oder einem Gerät, dessen Betriebssystem gerade zurückgesetzt oder von Grund auf neu installiert wurde.
+
+Es ist wichtig, dass Sie Ihre Passwörter von einem bekanntermaßen sauberen Gerät aus ändern oder von einem Gerät, dessen Betriebssystem gerade zurückgesetzt oder - noch besser - von Grund auf neu installiert wurde. Auf diese Weise wird sichergestellt, dass Malware oder andere Kompromittierungen auf Ihrem Gerät nicht auf das neue Gerät übertragen werden.
+
+- **Löschen Sie alle Sitzungen** von Ihrem Konto, ob bekannt oder unbekannt, um Angreifer aus Ihrem Konto zu vertreiben.
+
+Bei diesem Schritt bieten die meisten Dienste Dashboards an, in denen Sie die aktiven und früheren Sitzungen des Kontos sehen können. Gehen Sie dorthin und löschen Sie alle Sitzungen. Und zwar alle. Bekannte und unbekannte. Dadurch werden alle Angreifer von Ihrem Konto vertrieben.
+
+- **Überprüfen Sie die Kontowiederherstellungsinformationen** des Kontos, einschließlich Sicherheitsfragen, Telefonnummer oder alternativer E-Mail-Adresse
+- Entfernen Sie alle unbekannten Informationen** und ersetzen Sie sie durch Ihre eigenen Informationen, um zu verhindern, dass Angreifer Ihre Kontowiederherstellungsinformationen verwenden, um in Zukunft Zugriff auf Ihr Konto zu erhalten
+
+Nachdem Sie das Kennwort geändert und andere Sitzungen ausgeschlossen haben, sollten Sie sich die Zeit nehmen, die Wiederherstellungsinformationen des Kontos zu überprüfen. Dazu können Ihre Sicherheitsfragen, Ihre Telefonnummer oder eine alternative E-Mail-Adresse gehören. Wenn Sie unbekannte Informationen finden, entfernen Sie diese und ersetzen Sie sie durch Ihre eigenen Daten. So können Sie verhindern, dass Angreifer Ihre Kontowiederherstellungsdaten verwenden, um in Zukunft Zugriff auf Ihr Konto zu erhalten.
+
+______
+
+## Schritt 3: Aktualisieren Sie Ihre Software
+
+**Um die Sicherheit Ihres Geräts aufrechtzuerhalten, ist es wichtig, dass Sie Ihr Betriebssystem**, Ihr Antivirenprogramm und andere Software **auf dem neuesten Stand halten**. Software-Updates enthalten oft Sicherheits-Patches, die **bekannte Schwachstellen** beheben. Daher ist es wichtig, dass Sie Ihre Software so schnell wie möglich aktualisieren, sobald Updates verfügbar sind.
+
+**Um Ihre Software zu aktualisieren**, gehen Sie zu den Einstellungen oder der Systemsteuerung Ihres Geräts und **sehen Sie nach Updates**. Wenn Updates verfügbar sind, laden Sie sie herunter und installieren Sie sie **so schnell wie möglich**.
+
+**Beispiele für Software**, die Sie auf dem neuesten Stand halten sollten, sind:
+
+- **Betriebssystem** (Windows, MacOS, iOS, Android, usw.)
+- **Virenschutzsoftware** (Norton, McAfee, Avast, usw.)
+- **Webbrowser** (Google Chrome, Mozilla Firefox, Safari usw.)
+- **E-Mail-Client** (Microsoft Outlook, Apple Mail, Gmail usw.)
+- **Anwendungen** (Microsoft Office, Adobe Creative Suite usw.)
+
+______
+
+## Schritt 4: Scannen Sie Ihr Gerät auf Malware
+
+- Führen Sie einen Malware-Scan** auf Ihrem Gerät durch, um zu prüfen, ob möglicherweise bösartige Software installiert wurde.
+- **Malware** kann **Viren**, **Würmer**, **Trojaner** und andere Arten von Schadsoftware umfassen, die **die Sicherheit** Ihres Geräts und Ihrer Daten gefährden können
+- **Verwenden** Sie eine **vertrauenswürdige Antiviren-Software**, die auf dem neuesten Stand ist, um Ihr Gerät auf Malware zu überprüfen
+
+Führen Sie einen Malware-Scan auf Ihrem Gerät durch, um zu prüfen, ob möglicherweise bösartige Software installiert wurde. Zu Malware können Viren, Würmer, Trojaner und andere Arten von Schadsoftware gehören, die die Sicherheit Ihres Geräts und Ihrer Daten gefährden können.
+
+- Führen Sie einen vollständigen Systemscan** durch und befolgen Sie die Anweisungen Ihrer Antivirensoftware, um erkannte Schadsoftware zu entfernen.
+- Scannen Sie alle externen Geräte**, wie z. B. USB-Laufwerke, die Sie mit dem gefährdeten Gerät verwendet haben.
+
+Verwenden Sie zum Scannen Ihres Geräts auf Malware eine vertrauenswürdige und aktuelle Antivirensoftware. Führen Sie einen vollständigen Systemscan durch und befolgen Sie die Anweisungen Ihrer Antiviren-Software, um erkannte Malware zu entfernen.
+
+- **Externe Geräte können oft Malware** enthalten, die Ihr Gerät infizieren kann, daher ist es wichtig, sie zu scannen, bevor Sie sie mit Ihrem Gerät verwenden.
+- Halten Sie Ihre Antiviren-Software auf dem neuesten Stand**, um Ihr Gerät vor den neuesten Malware-Bedrohungen zu schützen.
+- Erwägen Sie die Verwendung zusätzlicher Sicherheitssoftware**, wie z. B. einer **Firewall** oder **Anti-Spyware-Software**, um Ihr Gerät zusätzlich vor Malware und anderen Sicherheitsbedrohungen zu schützen
+- Seien Sie beim **Herunterladen** oder **Installieren von Software** aus dem Internet vorsichtig, und laden Sie nur von vertrauenswürdigen Quellen herunter, um Malware-Infektionen zu vermeiden
+
+Es ist auch eine gute Idee, alle externen Geräte, wie z. B. USB-Laufwerke, zu scannen, die Sie mit dem gefährdeten Gerät verwendet haben. Externe Geräte können oft Malware enthalten, die Ihr Gerät infizieren kann, daher ist es wichtig, sie zu scannen, bevor Sie sie mit Ihrem Gerät verwenden.
+
+Siehe einige [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.ch/recommendations/anti-virus)
+
+______
+
+## Schritt 5: Sichern Sie wichtige Dateien und löschen Sie Ihr Gerät
+
+- **Sichern Sie alle wichtigen Dateien**, bevor Sie Ihr Gerät löschen, wenn Sie vermuten, dass Ihr Gerät gefährdet ist.
+- Vergewissern Sie sich, dass Ihre **wichtigen Dateien sicher** sind, indem Sie sie vor dem Sichern mit einer Antivirensoftware scannen.
+
+Wenn Sie den Verdacht haben, dass Ihr Gerät kompromittiert wurde, und Sie eine Art von Indikator bestätigt haben, ist der nächste Schritt die Sicherung aller wichtigen Dateien. Bevor Sie Ihre Dateien sichern, sollten Sie jedoch überprüfen, ob sie sicher sind, indem Sie sie mit einer Antiviren-Software scannen. So können Sie sicherstellen, dass die gesicherten Dateien nicht mit Malware infiziert sind, die Ihr neues Gerät gefährden könnte.
+
+- Das **Löschen Ihres Geräts** mit einer **sauberen Installation** des Betriebssystems **entfernt jegliche Malware oder andere Kompromisse** auf Ihrem Gerät und ermöglicht Ihnen einen Neuanfang mit einem sicheren Gerät
+- Ein **Rücksetzen oder Zurücksetzen auf die Werkseinstellungen** reicht in den meisten Fällen aus, wenn eine Neuinstallation nicht möglich ist.
+
+Sobald Sie sich vergewissert haben, dass Ihre wichtigen Dateien sicher sind, sollten Sie Ihr Gerät mit einer Neuinstallation des Betriebssystems löschen. Dadurch wird jegliche Malware oder andere Kompromittierung Ihres Geräts entfernt und Sie können mit einem sicheren Gerät neu beginnen. Wenn eine Neuinstallation nicht möglich ist, reicht in den meisten Fällen ein Reset oder ein Zurücksetzen auf die Werkseinstellungen aus.
+
+- Denken Sie daran, dass beim **Löschen Ihres Geräts alle Daten auf dem Gerät gelöscht werden**. Es ist daher wichtig, dass Sie alle wichtigen Dateien sichern, bevor Sie Ihr Gerät löschen.
+- Stellen Sie sicher, dass Sie Ihre Dateien **an einem sicheren Ort** sichern, z. B. auf einer externen Festplatte oder in einem Cloud-Speicherdienst, damit sie während des Löschvorgangs nicht verloren gehen
+- Sobald Sie Ihr Gerät gelöscht haben, **ergreifen Sie Maßnahmen, um es zu sichern und künftige Kompromisse zu verhindern**, z. B. halten Sie Ihre Software und Sicherheitstools auf dem neuesten Stand und vermeiden Sie verdächtige Downloads und Websites.
+
+Denken Sie daran, dass beim Löschen Ihres Geräts alle Daten auf dem Gerät gelöscht werden. Es ist daher wichtig, dass Sie alle wichtigen Dateien sichern, bevor Sie Ihr Gerät löschen.
+
+Erfahren Sie mehr über die wichtigen [3-2-1 Backup Rule](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+
+______
+
+## Optionaler Schritt: Behandeln Sie Ihre Krypto-Schlüssel als kompromittiert
+
+- **Erstellen Sie neue Schlüssel von einem sauberen Gerät** und übertragen Sie alle Währungen so schnell wie möglich auf die neue Adresse
+- **Behandeln Sie Ihre Kryptoschlüssel als kompromittiert**, wenn Sie Krypto-Wallets auf Ihrem kompromittierten Gerät haben
+- **Kompromittierte Kryptoschlüssel können zum Verlust von Geldern führen**
+
+
+Wenn Sie Krypto-Brieftaschen auf Ihrem kompromittierten Gerät haben, behandeln Sie Ihre Krypto-Schlüssel ebenfalls als kompromittiert. Kryptoschlüssel werden für den Zugriff auf und die Übertragung von Kryptowährungen verwendet, und wenn sie kompromittiert werden, kann dies zu einem Verlust von Geldern führen.
+
+- Es ist wichtig, **ihre Krypto-Brieftaschen und -Schlüssel** zu sichern, um die Sicherheit Ihrer Gelder zu gewährleisten
+- **Angreifer können Ihre bisherigen Schlüssel stehlen und auf Ihre Gelder zugreifen**, daher ist es wichtig, Maßnahmen zu ergreifen, um sie zu schützen
+- Die **Sicherheit Ihrer Krypto-Geldbörsen und -Schlüssel sollte oberste Priorität** haben, insbesondere wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde.
+
+Erstellen Sie von einem sauberen Gerät aus neue Schlüssel und übertragen Sie alle Währungen so schnell wie möglich auf die neue Adresse. So können Sie sicherstellen, dass Ihre Gelder sicher sind und nicht Gefahr laufen, von einem Angreifer gestohlen zu werden, der Ihre bisherigen Schlüssel kompromittiert hat.
+
+Denken Sie daran, dass die Sicherheit Ihrer Krypto-Brieftaschen und -Schlüssel entscheidend für die Sicherheit Ihrer Gelder ist. Daher ist es wichtig, Maßnahmen zu ergreifen, um sie zu sichern, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde.
+
+______
+
+## Schlussfolgerung
+
+Wenn Sie also den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, sollten Sie sofort Maßnahmen ergreifen, um Ihre Daten zu schützen und die Sicherheit Ihres Geräts wiederherzustellen. Beurteilen Sie die Situation, ändern Sie Ihre Kennwörter, aktualisieren Sie Ihre Software, scannen Sie Ihr Gerät auf Malware, erstellen Sie Sicherungskopien wichtiger Dateien, und löschen Sie Ihr Gerät von einem bekanntermaßen sauberen Gerät. Wenn Sie diese Schritte befolgen, können Sie die Kontrolle über Ihre digitale Sicherheit wiedererlangen und sich vor zukünftigen Kompromissen schützen.

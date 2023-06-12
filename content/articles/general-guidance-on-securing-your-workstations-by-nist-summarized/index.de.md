@@ -1,13 +1,52 @@
 ---
-title: "Securing Your Workstations: A Guide Based on NIST Recommendations"
+title: "Sicherung Ihrer Workstations: Ein Leitfaden auf der Grundlage der NIST-Empfehlungen"
 date: 2023-02-14
 toc: true
 draft: false
-description: "Learn how to secure your workstations and protect sensitive information with this comprehensive guide based on NIST's recommendations for implementing strong access controls, keeping software up-to-date, using antivirus software, enabling firewall protection, implementing data encryption, and regularly backing up data."
-tags: ["NIST recommendations", "workstation security", "cybersecurity", "data encryption", "firewall protection", "antivirus software", "access controls", "sensitive information", "cyberattacks", "data backup"]
+description: "Dieser umfassende Leitfaden basiert auf den NIST-Empfehlungen für die Implementierung starker Zugangskontrollen, die Aktualisierung von Software, die Verwendung von Antivirensoftware, die Aktivierung von Firewalls, die Implementierung von Datenverschlüsselung und die regelmäßige Erstellung von Datensicherungen."
+tags: ["NIST-Empfehlungen", "Sicherheit am Arbeitsplatz", "Cybersicherheit", "Datenverschlüsselung", "Firewall-Schutz", "Antiviren-Software", "Zugangskontrollen", "sensible Informationen", "Cyberangriffe", "Datensicherung"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
-coverAlt: "An image of a person sitting at their workstation with a security lock in the foreground, indicating the importance of securing workstations."
+coverAlt: "Ein Bild einer Person, die an ihrem Arbeitsplatz sitzt, mit einem Sicherheitsschloss im Vordergrund, das auf die Bedeutung der Sicherung von Arbeitsplätzen hinweist."
 coverCaption: ""
 ---
 
- Workstations, also Desktops, Laptops und mobile Geräte, die von Mitarbeitern in einem Unternehmen verwendet werden, werden zunehmend zum Ziel von Cyberangriffen. Diese Angriffe können die Vertraulichkeit, Integrität und Verfügbarkeit sensibler Informationen gefährden und zu erheblichen finanziellen und Reputationsschäden führen. Um Unternehmen dabei zu helfen, ihre Arbeitsplätze zu sichern, hat das National Institute of Standards and Technology (NIST) die NIST-Sonderveröffentlichung 800-46 Revision 2, „General Guidance on Securing Workstations“, veröffentlicht.  ## Verständnis der Bedrohungslandschaft für Workstations  **Workstations sind anfällig für eine Vielzahl von Cyber-Bedrohungen**, darunter Malware, Phishing und Social-Engineering-Angriffe. Cyberkriminelle zielen häufig auf Workstations ab, um vertrauliche Informationen wie geistiges Eigentum, Finanzdaten und persönliche Informationen zu stehlen. Sie können sterben Workstations auch verwenden, um sich Zugriff auf das Netzwerk der Organisation zu verbessern und andere Systeme zu kompromittieren.  Neben internen Bedrohungen sind Arbeitsstationen auch anfällig für interne Bedrohungen. **Mitarbeiter können unbeabsichtigt oder absichtlich sterben Sicherheit von Arbeitsstationen gefährden**, Indem sie nicht Zugriff auf Software installieren, vertrauliche Informationen preisgeben oder sich an anderen riskanten Verhaltensweisen beteiligen.  ## Schlüsselempfehlungen von NIST zur Sicherung von Arbeitsstationen  Die NIST-Richtlinien zur Sicherung von Arbeitsstationen bieten einen sicheren Rahmen zum Schutz ihrer Arbeitsstationen und der darin vertraulichen Informationen. Im Folgenden sind einige der **wichtigsten Empfehlungen von NIST** aufgeführt:  ### 1. Implementieren Sie starke Zugriffskontrollen  Unternehmen sollten **starke Zugriffskontrollen implementieren**, um sicherzustellen, dass nur empfangene Personen Zugriff auf Arbeitsstationen und vertrauliche Informationen haben. Dazu gehören die Implementierung sicherer Passwörter, Zwei-Faktor-Authentifizierung und die Beschränkung von Administratorrechten auf einige wenige Personen.  ### 2. Halten Sie die Software auf dem neuesten Stand  Organisationen sollten **alle auf Workstations installierte Software auf dem neuesten Stand halten**, einschließlich Betriebssysteme, Browser und Anwendungen. Veraltete Software ist oft anfällig für Exploits und kann von Cyberkriminellen verwendet werden, um an sinnvolle Informationen zu gelangen.  ### 3. Verwenden Sie Antivirus-Software  Organisationen sollten **Antivirensoftware verwenden, um Arbeitsstationen vor Malware** und anderer bösartiger Software zu schützen. Antivirensoftware sollte regelmäßig aktualisiert werden, um sicherzustellen, dass sie die neuesten Bedrohungen erkennen und entfernen kann.  ### 4. Aktivieren Sie den Firewall-Schutz  Organisationen sollten **den Firewall-Schutz auf allen Arbeitsstationen aktivieren**, um unbefugten Zugriff auf das Netzwerk zu verhindern. Firewalls sollten so konfiguriert Werden, dass komplexer Datenverkehr von unbekannten Quellen blockiert und ausgehender Datenverkehr auf das Notwendige beschränkt WIRD.  ### 5. Datenverschlüsselung implementieren  Einrichtungen sollten **Datenverschlüsselung implementieren, um sinnvolle Informationen zu schützen, die auf Workstations gespeichert sind**. Dazu gehört die Verschlüsselung von Daten im Ruhezustand und bei der Übertragung.  ### 6. Regelmäßig Daten sichern  Einrichtungen sollten **regelmäßig Daten sichern, die auf Workstations gespeichert sind**, um die Auswirkungen von Datenverlusten im Falle eines Cyberangriffs zu minimieren. Backups sollten extern gespeichert und verschlüsselt werden, um vertrauliche Informationen zu schützen.  ## Abschluss  Workstations spielen eine entscheidende Rolle in Organisationen, da sie häufig zum Speichern und Verarbeiten sinnvoller Informationen verwendet werden. Um das Risiko von Cyberangriffen zu minimieren, sollten Unternehmen die NIST-Richtlinien zur Sicherung von Arbeitsstationen befolgen, sterben einen Rahmen zum Schutz dieser Geräte und der darin vertraulichen Informationen bieten. Durch die Implementierung stärkerer Zugriffskontrollen, die Aktualisierung der Software, die Verwendung von Antivirensoftware, die Aktivierung des Firewall-Schutzes, die Implementierung von Datenverschlüsselung und die regelmäßige Datensicherung können Unternehmen dazu beitragen, ihre Workstations und sensible Informationen vor Cyber-Bedrohungen zu schützen. 
+Workstations, d. h. Desktops, Laptops und mobile Geräte, die von den Mitarbeitern eines Unternehmens genutzt werden, werden zunehmend zum Ziel von Cyberangriffen. Diese Angriffe können die Vertraulichkeit, Integrität und Verfügbarkeit sensibler Daten gefährden und so zu erheblichen finanziellen und rufschädigenden Schäden führen. Um Unternehmen bei der Sicherung ihrer Workstations zu unterstützen, hat das National Institute of Standards and Technology (NIST) die NIST Special Publication 800-46 Revision 2, "General Guidance on Securing Workstations", veröffentlicht.
+
+## Verstehen der Bedrohungslandschaft für Workstations
+
+**Workstations sind anfällig für eine Vielzahl von Cyber-Bedrohungen**, darunter Malware, Phishing und Social-Engineering-Angriffe. Cyberkriminelle haben es häufig auf Workstations abgesehen, um sensible Informationen wie geistiges Eigentum, Finanzdaten und persönliche Informationen zu stehlen. Sie können die Workstations auch nutzen, um sich Zugang zum Netzwerk des Unternehmens zu verschaffen und andere Systeme zu gefährden.
+
+Neben externen Bedrohungen sind Workstations auch durch interne Bedrohungen gefährdet. **Mitarbeiter können die Sicherheit von Workstations** unabsichtlich oder absichtlich gefährden, indem sie nicht genehmigte Software installieren, vertrauliche Informationen preisgeben oder andere riskante Verhaltensweisen an den Tag legen.
+
+## Wichtige Empfehlungen des NIST zur Sicherung von Workstations
+
+Die NIST-Richtlinien zur Sicherung von Workstations bieten Unternehmen einen umfassenden Rahmen für den Schutz ihrer Workstations und der darin enthaltenen vertraulichen Informationen. Im Folgenden sind einige der **Schlüsselempfehlungen des NIST** aufgeführt:
+
+### 1. Starke Zugangskontrollen implementieren
+
+Unternehmen sollten **starke Zugangskontrollen** einführen, um sicherzustellen, dass nur autorisierte Personen Zugang zu Arbeitsstationen und sensiblen Informationen haben. Dies beinhaltet die Implementierung von sicheren Passwörtern, Zwei-Faktor-Authentifizierung und die Beschränkung der administrativen Rechte auf einige wenige Personen.
+
+### 2. Software auf dem neuesten Stand halten
+
+Unternehmen sollten **die gesamte auf den Arbeitsplätzen installierte Software auf dem neuesten Stand halten**, einschließlich Betriebssystemen, Browsern und Anwendungen. Veraltete Software ist oft anfällig für Sicherheitslücken und kann von Cyberkriminellen genutzt werden, um Zugang zu sensiblen Informationen zu erhalten.
+
+### 3. Verwenden Sie Antivirus-Software
+
+Unternehmen sollten **Virenschutzsoftware einsetzen, um Arbeitsstationen vor Malware** und anderer bösartiger Software zu schützen. Antiviren-Software sollte regelmäßig aktualisiert werden, um sicherzustellen, dass sie die neuesten Bedrohungen erkennen und entfernen kann.
+
+### 4. Aktivieren Sie den Firewall-Schutz
+
+Unternehmen sollten **den Firewall-Schutz auf allen Arbeitsplätzen** aktivieren, um den unbefugten Zugriff auf das Netzwerk zu verhindern. Firewalls sollten so konfiguriert werden, dass sie eingehenden Datenverkehr aus unbekannten Quellen blockieren und ausgehenden Datenverkehr auf das Notwendige beschränken.
+
+### 5. Datenverschlüsselung implementieren
+
+Unternehmen sollten **eine Datenverschlüsselung implementieren, um sensible Informationen, die auf Workstations gespeichert sind, zu schützen**. Dazu gehört die Verschlüsselung von Daten im Ruhezustand und bei der Übertragung.
+
+### 6. Regelmäßiges Backup der Daten
+
+Unternehmen sollten **regelmäßig Sicherungskopien der auf den Arbeitsplätzen gespeicherten Daten** erstellen, um die Auswirkungen von Datenverlusten im Falle eines Cyberangriffs zu minimieren. Die Backups sollten außerhalb des Unternehmens gespeichert und verschlüsselt werden, um sensible Daten zu schützen.
+
+## Schlussfolgerung
+
+Workstations spielen in Unternehmen eine wichtige Rolle, da sie häufig zur Speicherung und Verarbeitung sensibler Daten verwendet werden. Um das Risiko von Cyberangriffen zu minimieren, sollten Unternehmen die NIST-Richtlinien zur Sicherung von Workstations befolgen, die einen umfassenden Rahmen für den Schutz dieser Geräte und der darin enthaltenen vertraulichen Informationen bieten. Durch die Implementierung strenger Zugangskontrollen, die Aktualisierung der Software, die Verwendung von Antivirensoftware, die Aktivierung des Firewall-Schutzes, die Implementierung von Datenverschlüsselung und die regelmäßige Erstellung von Datensicherungen können Unternehmen ihre Workstations und sensiblen Daten vor Cyber-Bedrohungen schützen.
+

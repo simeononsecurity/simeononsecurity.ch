@@ -44,5 +44,5 @@ In conclusione, la cybersecurity sta diventando un settore sempre più important
 
 ## Riferimenti
 
-- Cybersecurity Ventures. La criminalità informatica danneggia 10.500 miliardi di dollari all'anno entro il 2025.[https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/](https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/)
-- Ufficio delle statistiche del lavoro. Analisti di sicurezza informatica.[https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+- Cybersecurity Ventures. La criminalità informatica danneggia 10.500 miliardi di dollari all'anno entro il 2025. [https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/](https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/)
+- Ufficio delle statistiche del lavoro. Analisti di sicurezza informatica. [https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)

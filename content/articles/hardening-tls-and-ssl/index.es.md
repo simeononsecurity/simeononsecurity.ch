@@ -1,14 +1,27 @@
 ---
-title: "Hardening Your Computer's Security by Disabling SSL and TLS 1.2 and Below"
+title: "Refuerce la seguridad de su ordenador desactivando SSL y TLS 1.2 e inferiores"
 date: 2023-02-08
 toc: true
 draft: false
-description: "This article discusses the steps to improve data security by disabling older versions of SSL and TLS protocols, which are vulnerable to cyber threats such as POODLE, BEAST, and Heartbleed, in Windows and Linux systems."
-tags: ["Hardening computer security", "Disabling SSL and TLS", "Data security", "POODLE", "BEAST", "Heartbleed", "Windows registry editor", "Linux OpenSSL configuration", "Apache", "Nginx"]
+description: "En este artículo se analizan los pasos para mejorar la seguridad de los datos desactivando las versiones antiguas de los protocolos SSL y TLS, vulnerables a ciberamenazas como POODLE, BEAST y Heartbleed, en sistemas Windows y Linux."
+tags: ["Refuerzo de la seguridad informática", "Desactivación de SSL y TLS", "Seguridad de los datos", "POODLE", "BESTIA", "Heartbleed", "Editor del registro de Windows", "Configuración de OpenSSL en Linux", "Apache", "Nginx"]
 cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
-coverAlt: "A computer with a padlock symbol representing data security"
+coverAlt: "Un ordenador con el símbolo de un candado que representa la seguridad de los datos"
 coverCaption: ""
 ---
+
+## Introducción:
+
+Los ordenadores se han convertido en un aspecto crucial de nuestra vida cotidiana y, con ello, la necesidad de seguridad de los datos ha crecido sustancialmente. Entre los diversos métodos utilizados para proteger los datos en tránsito, SSL (Secure Socket Layer) y TLS (Transport Layer Security) son protocolos muy utilizados. Sin embargo, a medida que la tecnología evoluciona, las versiones más antiguas de estos protocolos se están volviendo vulnerables a los ciberataques. En este artículo, vamos a discutir los pasos para endurecer los ordenadores mediante la desactivación de SSL y todas las versiones TLS 1.2 e inferiores para mantener los datos seguros.
+
+### ¿Por qué desactivar SSL y TLS 1.2 e inferiores?
+
+Las versiones antiguas de SSL y TLS son vulnerables a varias amenazas de seguridad como POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) y Heartbleed. Estos ataques pueden llevar a la exposición de información sensible, por lo que es crucial desactivar el uso de protocolos obsoletos.
+
+### Deshabilitar SSL y TLS 1.2 e inferiores en Windows:
+
+En Windows, el proceso de deshabilitar SSL y TLS 1.2 e inferiores se puede realizar a través del editor del registro. Aquí hay un script de powershell para realizar la tarea:
+
 ```powershell
 Function Disable-Protocol {
     param (
@@ -56,4 +69,22 @@ foreach ($version in $NETVersions) {
     Set-NETStrongAuthentication -RegistryPath "HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v$version" -Name SystemDefaultTlsVersions -Type "DWORD" -Value 0x00000001
 }
 ```
- ## Introducción:  Las computadoras se han convertido en un aspecto crucial de nuestra vida diaria y, con eso, la necesidad de seguridad de los datos ha crecido sustancialmente. Entre los diversos métodos utilizados para proteger los datos en tránsito, SSL (Secure Socket Layer) y TLS (Transport Layer Security) son protocolos muy utilizados. Sin embargo, a medida que la tecnología evoluciona, las versiones anteriores de estos protocolos se vuelven vulnerables a los ataques cibernéticos. En este artículo, discutiremos los pasos para fortalecer las computadoras al deshabilitar SSL y todas las versiones de TLS 1.2 e inferiores para mantener los datos seguros.  ### ¿Por qué deshabilitar SSL y TLS 1.2 y versiones anteriores?  Las versiones anteriores de SSL y TLS son vulnerables a varias amenazas de seguridad, como POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) y Heartbleed. Estos ataques pueden conducir a la exposición de información confidencial, por lo que es crucial deshabilitar el uso de protocolos obsoletos.  ### Deshabilitar SSL y TLS 1.2 y anteriores en Windows:  En Windows, el proceso de deshabilitar SSL y TLS 1.2 y anteriores se puede lograr a través del editor de registro. Aquí hay un script de PowerShell para realizar la tarea:   #### Deshabilitar SSL y TLS 1.2 y anteriores en Linux:  En Linux, el proceso de deshabilitar SSL y TLS 1.2 y anteriores se puede lograr modificando el archivo de configuración de OpenSSL. Estos son los pasos a seguir:  1. Abra la terminal e inicie sesión como root. 2. Navegue hasta el archivo de configuración de OpenSSL. Por lo general, se encuentra en /etc/ssl/openssl.cnf. 3. Abra el archivo con un editor de texto como nano o vim. 4. Localice la directiva SSLProtocol y establezca su valor en -TLSv1.2. 5. Guarde el archivo y cierre el editor de texto. 6. Reinicie los servicios que usan OpenSSL, como Apache o Nginx, para que los cambios surtan efecto.  ## Conclusión:  Al deshabilitar SSL y todas las versiones 1.2 e inferiores de TLS, puede fortalecer la seguridad de su computadora y proteger la información confidencial de posibles amenazas cibernéticas. Es un proceso simple que se puede lograr con un mínimo esfuerzo, lo que lo convierte en un aspecto crítico para mantener la seguridad de su computadora. Al implementar los pasos descritos en este artículo, puede mantener sus datos seguros y evitar ataques cibernéticos, lo que reduce el riesgo de exposición de información confidencial.  Es importante tener en cuenta que si bien deshabilitar estas versiones anteriores de los protocolos SSL y TLS puede mejorar la seguridad de su computadora, también puede afectar la compatibilidad con algunos sistemas más antiguos. Por lo tanto, es esencial probar exhaustivamente los cambios realizados y asegurarse de que no haya impactos adversos en su sistema antes de implementarlos por completo.  En conclusión, fortalecer su computadora al deshabilitar SSL y todas las versiones de TLS 1.2 e inferiores es un paso fundamental para mantener la seguridad de la información confidencial y prevenir ataques cibernéticos. Los pasos descritos en este artículo brindan una guía sencilla para proteger su computadora, lo que facilita que las personas y las organizaciones implementen las medidas de seguridad necesarias.
+
+#### Desactivación de SSL y TLS 1.2 e inferiores en Linux:
+
+En Linux, el proceso de deshabilitar SSL y TLS 1.2 e inferiores se puede conseguir modificando el fichero de configuración de OpenSSL. Estos son los pasos a seguir:
+
+1. Abre el terminal e inicia sesión como root.
+2. Navegue hasta el archivo de configuración de OpenSSL. Normalmente, se encuentra en /etc/ssl/openssl.cnf.
+3. Abre el archivo utilizando un editor de texto como nano o vim.
+4. Localice la directiva SSLProtocol y establezca su valor en -TLSv1.2.
+5. Guarde el archivo y cierre el editor de texto.
+6. 6. Reinicie los servicios que utilizan OpenSSL, como Apache o Nginx, para que los cambios surtan efecto.
+
+## Conclusión:
+
+Desactivando SSL y todas las versiones TLS 1.2 e inferiores, puedes reforzar la seguridad de tu equipo y proteger la información sensible de posibles ciberamenazas. Se trata de un proceso sencillo que puede llevarse a cabo con el mínimo esfuerzo, por lo que es un aspecto crítico para mantener la seguridad de tu ordenador. Al poner en práctica los pasos descritos en este artículo, puede mantener sus datos seguros y prevenir los ataques cibernéticos, reduciendo así el riesgo de que la información sensible quede expuesta.
+
+Es importante tener en cuenta que, aunque deshabilitar estas versiones antiguas de los protocolos SSL y TLS puede mejorar la seguridad de tu ordenador, también puede afectar a la compatibilidad con algunos sistemas antiguos. Por lo tanto, es esencial probar a fondo los cambios realizados y asegurarse de que no hay impactos adversos en su sistema antes de implementarlos completamente.
+
+En conclusión, reforzar su ordenador deshabilitando SSL y todas las versiones TLS 1.2 e inferiores es un paso fundamental para mantener la seguridad de la información confidencial y prevenir los ciberataques. Los pasos descritos en este artículo proporcionan una guía sencilla para proteger su ordenador, facilitando a particulares y organizaciones la aplicación de las medidas de seguridad necesarias.

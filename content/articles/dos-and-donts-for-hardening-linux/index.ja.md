@@ -11,13 +11,13 @@ coverCaption: ""
 ---
 
 
-Linuxは、個人でも企業でもよく使われているオペレーティングシステムです。オープンソースであることから、他のオペレーティング・システムよりも安全だと思われがちですが、システムとデータの安全性を確保するためには、適切なハードニングが必要です。この記事では、Linuxシステムの安全性を維持するための一般的なハードニングの方法と注意点について説明します。
+Linuxは、個人でも企業でもよく使われるオペレーティングシステムです。オープンソースであることから、他のオペレーティング・システムよりも安全だと思われがちですが、システムとデータの安全性を確保するためには、適切なハードニングが必要です。この記事では、Linuxシステムの安全性を維持するための一般的なハードニングの方法と注意点について説明します。
 
 ## Do's：
 
 ### システムを常にアップデートしておく
 
-システムを常に最新の状態に保つ[Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)システムのセキュリティを維持するためには、システムを最新にすることが重要です。定期的なアップデートは、セキュリティの脆弱性やバグを修正するのに役立ち、潜在的な攻撃に対してシステムの安全性を維持することを保証します。ここでは、**apt-get** または **yum** パッケージマネージャを使用して Linux システムを更新する方法の例をいくつか紹介します：
+システムを常に最新の状態に保つ [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)システムのセキュリティを維持するためには、システムを最新にすることが重要です。定期的なアップデートは、セキュリティの脆弱性やバグを修正するのに役立ち、潜在的な攻撃に対してシステムの安全性を維持することを保証します。ここでは、**apt-get** または **yum** パッケージマネージャを使用して Linux システムを更新する方法の例をいくつか紹介します：
 
 #### apt-get を使用した Ubuntu のアップデート
 
@@ -113,7 +113,7 @@ sudo systemctl start firewalld
 
 firewalld**を有効にしたら、そのルールを設定して、受信および送信トラフィックを許可またはブロックすることができます。以下はその例です：
 
-SSH トラフィック（ポート 22）の受信を許可する場合：
+SSH トラフィック（ポート 22）の着信を許可する場合：
 
 ```bash
 sudo firewall-cmd --permanent --add-service=ssh
@@ -194,7 +194,7 @@ AppArmorがインストールされていない場合は、以下のコマンド
 sudo apt-get install apparmor
 ```
 
-AppArmorを有効にするには、**/etc/default/grub**ファイルを編集し、**GRUB_CMDLINE_LINUX**変数に**security=apparmor**パラメータを追加する必要があります：
+AppArmorを有効にするには、**/etc/default/grub**ファイルを編集して、**GRUB_CMDLINE_LINUX**変数に**security=apparmor**パラメータを追加する必要があります：
 
 ```bash
 sudo nano /etc/default/grub
@@ -221,7 +221,7 @@ SELinuxまたはAppArmorを有効にすると、それらのポリシーを設�
 
 #### Ubuntu でのパスワードポリシーの設定
 
-Ubuntu でパスワードポリシーを設定するには、**pam_pwquality** モジュールを使用できます。このモジュールは、パスワードポリシーの実施に使用できるパスワード強度チェックのセットを提供します。pam_pwquality**モジュールをインストールするには、ターミナルウィンドウを開き、次のように入力します：
+Ubuntu でパスワードポリシーを構成するには、**pam_pwquality** モジュールを使用できます。このモジュールは、パスワードポリシーの実施に使用できるパスワード強度チェックのセットを提供します。pam_pwquality**モジュールをインストールするには、ターミナルウィンドウを開き、次のように入力します：
 
 ```bash
 sudo apt-get install libpam-pwquality
@@ -278,7 +278,7 @@ sudo journalctl --since "1 hour ago"
 
 #### ログ管理ツールの使用
 
-大規模または複雑なシステムの場合、ログ管理ツールを使用してシステムログを収集および分析することが有用な場合があります。ログ管理ツールは、リアルタイムのログ監視、ログ集計、ログ分析などの高度な機能を提供し、潜在的なセキュリティ脅威をより効率的に特定し、対応するのに役立ちます。
+大規模または複雑なシステムの場合、ログ管理ツールを使用してシステムログを収集および分析することが有用な場合があります。ログ管理ツールは、リアルタイムのログ監視、ログ集計、ログ分析などの高度な機能を提供し、潜在的なセキュリティ脅威の特定と対応をより効率的に行うことができます。
 
 Linux用のログ管理ツールの例としては、以下のものがあります：
 
@@ -294,9 +294,9 @@ ______
 
 ### 弱いパスワードの使用
 
-脆弱なパスワードを使用することは、Linux システムを攻撃されやすい状態にする一般的な間違いである。攻撃者は、一般的な単語、名前、または日付に基づいたパスワードを推測するツールを使用することができます。簡単に推測できない、強力でユニークなパスワードを使用することが重要です。
+脆弱なパスワードを使用することは、Linux システムを攻撃されやすい状態にする一般的な間違いです。攻撃者は、一般的な単語、名前、または日付に基づいたパスワードを推測するツールを使用することができます。簡単に推測できない、強力でユニークなパスワードを使用することが重要です。
 
-大文字、小文字、数字、特殊文字を組み合わせて使用することで、強力なパスワードを作成することができます。を使用するのもよい習慣です。[password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)は、パスワードを覚えて、複数のアカウントで同じパスワードを使用しないようにするのにも役立ちます。
+大文字、小文字、数字、特殊文字を組み合わせて使用することで、強力なパスワードを作成することができます。を使用するのもよい習慣です。 [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)は、パスワードを覚えて、複数のアカウントで同じパスワードを使用しないようにするのにも役立ちます。
 
 ### rootのSSHアクセスを許可する
 
@@ -318,7 +318,7 @@ ______
 
 ## 参考文献
 
--[The Center for Internet Security's Linux Hardening Guide](https://www.cisecurity.org/cis-hardened-images/)
--[Red Hat Enterprise Linux Security Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index)
--[Ubuntu Security Documentation](https://ubuntu.com/security)
--[Linux Security Wiki](https://en.wikibooks.org/wiki/Linux_Security)
+- [The Center for Internet Security's Linux Hardening Guide](https://www.cisecurity.org/cis-hardened-images/)
+- [Red Hat Enterprise Linux Security Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index)
+- [Ubuntu Security Documentation](https://ubuntu.com/security)
+- [Linux Security Wiki](https://en.wikibooks.org/wiki/Linux_Security)

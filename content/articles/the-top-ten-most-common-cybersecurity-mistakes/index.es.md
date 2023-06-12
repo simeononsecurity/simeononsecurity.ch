@@ -1,13 +1,121 @@
 ---
-title: "10 Common Cybersecurity Mistakes & How to Avoid Them"
+title: "10 errores comunes de ciberseguridad y cómo evitarlos"
 date: 2023-03-09
 toc: true
 draft: false
-description: "Learn how to protect yourself from cyber threats by avoiding these 10 common cybersecurity mistakes."
-tags: ["cybersecurity", "online security", "cyber threats", "hacking", "phishing", "malware", "passwords", "public Wi-Fi", "antivirus", "social media", "data backup", "security warnings", "public charging stations", "computer security", "cybercrime prevention", "identity theft", "digital privacy", "network security", "software updates", "online safety"]
+description: "Aprenda a protegerse de las ciberamenazas evitando estos 10 errores comunes de ciberseguridad."
+tags: ["ciberseguridad", "seguridad en línea", "amenazas cibernéticas", "piratería", "phishing", "malware", "contraseñas", "Wi-Fi público", "antivirus", "social media", "copia de seguridad de datos", "advertencias de seguridad", "estaciones públicas de recarga", "seguridad informática", "prevención de la ciberdelincuencia", "robo de identidad", "privacidad digital", "seguridad de la red", "actualizaciones de software", "seguridad en línea"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
-coverAlt: "A cartoon lock protecting a laptop, with a hacker in the background."
+coverAlt: "Un candado de dibujos animados protege un ordenador portátil, con un hacker al fondo."
 coverCaption: ""
 ---
 
-  En la era digital actual, la **ciberseguridad** es una máxima prioridad tanto para las personas como para las organizaciones. Desafortunadamente, muchas personas cometen errores comunes de seguridad cibernética que los dejan vulnerables a amenazas en línea como **piratería**, **phishing** y **malware**. En este artículo, discutiremos los 10 errores de ciberseguridad más comunes y brindaremos consejos sobre cómo evitarlos.  ____  ## Error #1: usar contraseñas débiles  El uso de contraseñas débiles es uno de los errores más comunes que cometen las personas cuando se trata de ciberseguridad. Una contraseña débil es aquella que es fácil de adivinar o descifrar, como "contraseña123" o "qwerty". Los ciberdelincuentes pueden usar herramientas ampliadas para descifrar contraseñas débiles en cuestión de segundos, además de acceder a sus cuentas e información confidencial.  Para evitar este error, **use contraseñas seguras** que tengan al menos 12 caracteres e incluyan una combinación de letras mayúsculas y minúsculas, números y símbolos. También es una buena idea usar una contraseña diferente para cada cuenta y cambiar sus contraseñas periódicas.  ____   ## Error #2: Caer en estafas de phishing  Las estafas de phishing son una táctica común utilizada por los ciberdelincuentes para engañar a las personas para que proporcionen información confidencial, como nombres de usuario, contraseñas y números de tarjetas de crédito. Estos estafas a menudo vienen en forma de correos electronicos o mensajes de texto que parecen provenir de una fuente legitima, como un banco o una tienda en linea.  Para evitar caer en estafas de phishing, **tenga cuidado con los correos electrónicos o mensajes no solicitados**, especialmente aquellos que le piden que haga clic en un enlace o proporción de información personal. Si recibe un correo electrónico o un mensaje que parece sospechoso, no haga clic en ningún enlace ni proporcione ninguna información. En su lugar, comuníquese directamente con la empresa para verificar la autenticidad del mensaje.  ____   ## Error n.° 3: usar Wi-Fi público no seguro  Las redes Wi-Fi públicas a menudo no son seguras, lo que significa que cualquiera puede acceder a ellas y potencialmente interceptar los datos que transmite a través de la red. Los ciberdelincuentes pueden usar esta vulnerabilidad para robar su información personal, como credenciales de inicio de sesión y números de tarjetas de crédito.  Para evitar este error, **evita usar redes Wi-Fi públicas**, especialmente aquellas que no son seguras. Si debe usar Wi-Fi público, use una red privada virtual (VPN) para encriptar sus datos y proteger su privacidad.  ____   ## Error #4: No mantener el software actualizado  Las actualizaciones de software a menudo incluyen parches de seguridad que corrigen vulnerabilidades en el software. No actualice su software lo deja vulnerable a amenazas de seguridad conocidas.  Para evitar este error, **mantenga su software actualizado** instalando actualizaciones tan pronto como estén disponibles. Esto incluye actualizaciones del sistema operativo, así como actualizaciones de su navegador web, cliente de correo electrónico y otros programas de software.  ____   ## Error #5: No usar software antivirus  El software antivirus está diseñado para detectar y eliminar software malicioso, como virus, spyware y ransomware. No utilice un software antivirus lo deja vulnerable a este tipo de amenazas.  Para evitar este error, **instale un software antivirus** en su computadora y manténgalo actualizado. Asegúrese de ejecutar escaneos regulares para detectar y eliminar cualquier amenaza que pueda haber escapado de su software antivirus.  ____   ## Error #6: Compartir demasiada información en las redes sociales  Las plataformas de redes sociales son un tesoro de información personal que los ciberdelincuentes pueden usar para lanzar ataques dirigidos contra usted. Compartir información excesiva en las redes sociales puede ponerlo en riesgo de robo de identidad y otros tipos de delitos cibernéticos.  Para evitar este error, **tenga cuidado con lo que comparte en las redes sociales**. Evite publicar información confidencial, como la dirección de su casa, el número de teléfono o información financiera. Tenga cuidado con las solicitudes de amistad de personas que no conoce y evite hacer clic en enlaces o descargar archivos de fuentes desconocidas.  ____   ## Error #7: No hacer una copia de seguridad de sus datos  La pérdida de datos puede ser devastadora, especialmente si pierde documentos, fotos u otros archivos importantes. Si no realiza una copia de seguridad de sus datos, será vulnerable a la pérdida de datos debido a fallas de hardware, robo o malware.  Para evitar este error, **haga una copia de seguridad periódica de sus datos** en un disco duro externo, un servicio de almacenamiento en la nube u otra solución de copia de seguridad. Asegúrese de probar sus copias de seguridad para asegurarse de que funcionan correctamente.  ____   ## Error #8: Usar computadoras públicas para tareas delicadas  Las computadoras públicas, como las que se encuentran en las bibliotecas o los cibercafés, suelen ser utilizadas por muchas personas y es posible que no estén debidamente protegidas. El uso de una computadora pública para tareas confidenciales, como la banca en línea o las compras, puede poner en riesgo su información personal.  Para evitar este error, **evita usar computadoras públicas** para tareas confidenciales siempre que sea posible. Si debe usar una computadora pública, asegúrese de cerrar sesión en todas las cuentas cuando haya terminado y borre su historial de navegación y cookies.   ____   ## Error #9: Ignorar las advertencias de seguridad  Las advertencias de seguridad están para alertarlo sobre posibles amenazas de seguridad, como un sitio web con un certificado SSL caducado o un correo electrónico de un remitente desconocido. Ignorar estas advertencias puede dejarlo vulnerable a ataques cibernéticos.  Para evitar este error, **preste atención a las advertencias de seguridad** y tómelas en serio. Si recibe una advertencia de seguridad, investigue el problema y tome las medidas adecuadas para proteger su computadora y su información personal.   ____  ## Error #10: confiar en las estaciones de carga publica  Las estaciones de carga pública, como las que se encuentran en aeropuertos o cafés, pueden ser convenientes, pero los ciberdelincuentes también pueden usarlas para instalar malware en su dispositivo o robar su información personal.  Para evitar este error, **evita usar estaciones de carga pública** siempre que sea posible. Si debe usar una estación de carga pública, use un bloqueador de datos USB para evitar que su dispositivo se sincronice con la estación de carga y asegúrese de monitorear su dispositivo para detectar cualquier actividad inusual.  ____   ## Conclusión  La ciberseguridad es un problema crítico en la era digital actual y es importante tomar medidas para proteger su información personal y sus dispositivos de las ciberamenazas. Al evitar estos errores comunes de seguridad cibernética y seguir las mejores prácticas de seguridad en línea, puede reducir el riesgo de convertirse en víctima de un delito cibernético. Recuerde usar contraseñas seguras, tenga cuidado con las estafas de phishing, evite Wi-Fi público no seguro, mantenga su software actualizado, use software antivirus, tenga cuidado con lo que comparte en las redes sociales, haga copias de seguridad de sus datos periódicamente, Evite usar computadoras públicas para tareas delicadas, preste atención a las advertencias de seguridad y tenga cuidado al usar estaciones de carga pública.  ## Referencias  - Alianza Nacional de Seguridad Cibernética. (Dakota del Norte). **Manténgase seguro en línea**. Obtenido de https://staysafeonline.org/ - Departamento de Seguridad Nacional de los Estados Unidos. (2021). **Agencia de Seguridad de Infraestructura y Ciberseguridad**. Obtenido de https://www.cisa.gov/cybersecurity - Comisión Federal de Comercio. (Dakota del Norte). **El robo de identidad**. Obtenido de https://www.consumer.ftc.gov/features/identity-theft - KnowBe4. (Dakota del Norte). **La biblioteca de capacitación sobre concientización sobre seguridad más grande del mundo**. Obtenido de https://www.knowbe4.com/ -Microsoft. (Dakota del Norte). **Actualizar Windows 10**. Obtenido de https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a - Comisión Federal de Comercio. (Dakota del Norte). **Cómo reconocer y evitar estafas de phishing**. Obtenido de https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams - Google. (Dakota del Norte). **Ayuda para la contraseña de la cuenta de Google**. Obtenido de https://support.google.com/accounts/answer/41078?hl=es
+
+En la era digital actual, la **ciberseguridad** es una prioridad absoluta tanto para las personas como para las organizaciones. Por desgracia, muchas personas cometen errores comunes de ciberseguridad que les hacen vulnerables a amenazas en línea como el **hacking**, el **phishing** y el **malware**. En este artículo, hablaremos de los 10 errores de ciberseguridad más comunes y daremos consejos sobre cómo evitarlos.
+
+____
+
+## Error nº 1: Usar contraseñas débiles
+
+Usar contraseñas débiles es uno de los errores más comunes que la gente comete cuando se trata de ciberseguridad. Una contraseña débil es aquella que es fácil de adivinar o descifrar, como "password123" o "qwerty". Los ciberdelincuentes pueden utilizar herramientas sofisticadas para descifrar contraseñas débiles en cuestión de segundos, dándoles acceso a tus cuentas e información sensible.
+
+Para evitar este error, **utiliza contraseñas seguras** que tengan al menos 12 caracteres e incluyan una mezcla de letras mayúsculas y minúsculas, números y símbolos. También es buena idea utilizar una contraseña distinta para cada cuenta y cambiar las contraseñas con regularidad.
+
+____
+
+
+## Error nº 2: caer en las estafas de phishing
+
+Las estafas de phishing son una táctica común utilizada por los ciberdelincuentes para engañar a la gente y hacer que facilite información confidencial, como nombres de usuario, contraseñas y números de tarjetas de crédito. Estas estafas suelen presentarse en forma de correos electrónicos o mensajes de texto que parecen proceder de una fuente legítima, como un banco o una tienda online.
+
+Para evitar caer en estafas de phishing, **cuide los correos electrónicos o mensajes no solicitados**, especialmente los que le piden que haga clic en un enlace o proporcione información personal. Si recibes un correo electrónico o mensaje que te parezca sospechoso, no hagas clic en ningún enlace ni facilites ninguna información. Póngase en contacto directamente con la empresa para verificar la autenticidad del mensaje.
+
+____
+
+
+## Error #3: Usar Wi-Fi público no seguro
+
+Las redes Wi-Fi públicas no suelen ser seguras, lo que significa que cualquiera puede acceder a ellas y potencialmente interceptar los datos que transmites a través de la red. Los ciberdelincuentes pueden aprovechar esta vulnerabilidad para robar su información personal, como credenciales de acceso y números de tarjetas de crédito.
+
+Para evitar este error, **evite utilizar redes Wi-Fi públicas**, especialmente las que no sean seguras. Si tiene que utilizar una red Wi-Fi pública, utilice una red privada virtual (VPN) para cifrar sus datos y proteger su privacidad.
+
+____
+
+
+## Error #4: No mantener actualizado el software
+
+Las actualizaciones de software suelen incluir parches de seguridad que corrigen vulnerabilidades del software. No actualizar el software le hace vulnerable a amenazas de seguridad conocidas.
+
+Para evitar este error, **mantén tu software al día** instalando las actualizaciones en cuanto estén disponibles. Esto incluye las actualizaciones del sistema operativo, así como las actualizaciones de su navegador web, cliente de correo electrónico y otros programas de software.
+
+____
+
+
+## Error #5: No usar software antivirus
+
+El software antivirus está diseñado para detectar y eliminar software malicioso, como virus, spyware y ransomware. No utilizar software antivirus le hace vulnerable a este tipo de amenazas.
+
+Para evitar este error, **instale software antivirus** en su ordenador y manténgalo actualizado. Asegúrese de realizar análisis periódicos para detectar y eliminar cualquier amenaza que se le haya escapado al software antivirus.
+
+____
+
+
+## Error #6: Compartir demasiada información en las redes sociales
+
+Las redes sociales son un tesoro de información personal que los ciberdelincuentes pueden utilizar para lanzar ataques selectivos contra ti. Compartir demasiada información en las redes sociales puede ponerle en riesgo de robo de identidad y otros tipos de ciberdelincuencia.
+
+Para evitar este error, **tenga cuidado con lo que comparte en las redes sociales**. Evita publicar información confidencial como tu dirección, número de teléfono o información financiera. Desconfía de las solicitudes de amistad de personas que no conoces y evita hacer clic en enlaces o descargar archivos de fuentes desconocidas.
+
+____
+
+
+## Error nº 7: No hacer copias de seguridad de tus datos
+
+La pérdida de datos puede ser devastadora, especialmente si pierdes documentos importantes, fotos u otros archivos. No hacer copias de seguridad de sus datos le deja vulnerable a la pérdida de datos debido a un fallo de hardware, robo o malware.
+
+Para evitar este error, **haz copias de seguridad periódicas de tus datos** en un disco duro externo, un servicio de almacenamiento en la nube u otra solución de copia de seguridad. Asegúrate de probar tus copias de seguridad para comprobar que funcionan correctamente.
+
+____
+
+
+## Error #8: Utilizar Ordenadores Públicos para Tareas Sensibles
+
+Los ordenadores públicos, como los que se encuentran en bibliotecas o cibercafés, suelen ser utilizados por muchas personas y pueden no estar debidamente protegidos. Utilizar un ordenador público para tareas delicadas, como operaciones bancarias o compras en línea, puede poner en peligro su información personal.
+
+Para evitar este error, **evite utilizar ordenadores públicos** para tareas delicadas siempre que sea posible. Si tiene que utilizar un ordenador público, asegúrese de desconectarse de todas las cuentas cuando termine y borre el historial de navegación y las cookies.
+
+
+____
+
+
+## Error #9: Ignorar las advertencias de seguridad
+
+Las advertencias de seguridad están diseñadas para alertarle de posibles amenazas a la seguridad, como un sitio web con un certificado SSL caducado o un correo electrónico de un remitente desconocido. Ignorar estas advertencias puede dejarte vulnerable a ciberataques.
+
+Para evitar este error, **presta atención a las advertencias de seguridad** y tómatelas en serio. Si recibes una advertencia de seguridad, investiga el problema y toma las medidas adecuadas para proteger tu ordenador y tu información personal.
+
+
+____
+
+## Error #10: Confiar en las estaciones de carga públicas
+
+Las estaciones de carga públicas, como las que se encuentran en aeropuertos o cafeterías, pueden resultar cómodas, pero también pueden ser utilizadas por ciberdelincuentes para instalar malware en tu dispositivo o robar tu información personal.
+
+Para evitar este error, **evita utilizar estaciones de carga públicas** siempre que sea posible. Si tiene que utilizar una estación de carga pública, utilice un bloqueador de datos USB para evitar que su dispositivo se sincronice con la estación de carga y asegúrese de supervisar su dispositivo para detectar cualquier actividad inusual.
+
+____
+
+
+## Conclusión
+
+La ciberseguridad es un tema crítico en la era digital actual, y es importante tomar medidas para proteger su información personal y sus dispositivos de las ciberamenazas. Evitando estos errores comunes de ciberseguridad y siguiendo las mejores prácticas de seguridad en línea, puede reducir el riesgo de convertirse en víctima de la ciberdelincuencia. Recuerde utilizar contraseñas seguras, desconfíe de las estafas de phishing, evite las redes Wi-Fi públicas no seguras, mantenga su software actualizado, utilice antivirus, tenga cuidado con lo que comparte en las redes sociales, haga copias de seguridad periódicas de sus datos, evite utilizar ordenadores públicos para tareas delicadas, preste atención a las advertencias de seguridad y tenga cuidado al utilizar estaciones de carga públicas.
+
+## Referencias
+
+- Alianza Nacional de Ciberseguridad. (s.f.). **Mantente seguro en Internet**. Obtenido de https://staysafeonline.org/
+- Departamento de Seguridad Nacional de Estados Unidos. (2021). **Agencia de Ciberseguridad y Seguridad de las Infraestructuras**. Obtenido de https://www.cisa.gov/cybersecurity
+- Comisión Federal de Comercio. (s.f.). **Robo de identidad**. Obtenido de https://www.consumer.ftc.gov/features/identity-theft
+- KnowBe4. (sin fecha). **La mayor biblioteca de formación sobre seguridad del mundo**. Obtenido de https://www.knowbe4.com/
+- Microsoft (sin fecha). **Actualización de Windows 10**. Obtenido de https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a
+- Comisión Federal de Comercio. (sin fecha). **Cómo reconocer y evitar las estafas de phishing**. Obtenido de https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+- Google. (sin fecha). **Ayuda sobre contraseñas de cuentas de Google**. Obtenido de https://support.google.com/accounts/answer/41078?hl=en

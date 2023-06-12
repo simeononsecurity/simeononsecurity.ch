@@ -1,88 +1,88 @@
 ---
-title: "Common VPN Mistakes and How You're Accidentally Leaking Your Public IP"
+title: "Najczęstsze błędy VPN i sposoby przypadkowego ujawnienia publicznego adresu IP"
 draft: false
 toc: true
 date: 2023-05-08
-description: "Chroń swoją prywatność online, unikając tych powszechnych błędów VPN, które mogą przypadkowo wyciec Twój publiczny adres IP"
-tags: ["Błędy VPN", "Przecieki IP", "prywatność w sieci", "cybersecurity", "bezpieczeństwo internetu", "wirtualna sieć prywatna", "WebRTC", "Serwer DNS", "Dostawca VPN", "uwierzytelnianie dwuskładnikowe", "Oprogramowanie VPN", "przełącznik uśmiercający", "prywatność danych", "prywatność internetowa", "zagrożenia cybernetyczne", "bezpieczeństwo danych", "bezpieczeństwo sieci", "bezpieczeństwo w sieci", "anonimowość w sieci", "anonimowe przeglądanie"]
+description: "Chroń swoją prywatność w Internecie, unikając tych typowych błędów VPN, które mogą przypadkowo ujawnić Twój publiczny adres IP"
+tags: ["Błędy VPN", "Wycieki IP", "prywatność online", "cyberbezpieczeństwo", "bezpieczeństwo w internecie", "wirtualna sieć prywatna", "WebRTC", "Serwer DNS", "Dostawca VPN", "uwierzytelnianie dwuskładnikowe", "Oprogramowanie VPN", "wyłącznik awaryjny", "prywatność danych", "prywatność w internecie", "cyberzagrożenia", "bezpieczeństwo danych", "bezpieczeństwo sieci", "bezpieczeństwo online", "anonimowość online", "anonimowe przeglądanie"]
 cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
-coverAlt: "Postać z kreskówki stojąca przy laptopie z lupą, szukająca prywatności w sieci."
+coverAlt: "Postać z kreskówki stojąca na laptopie z lupą, szukająca prywatności w Internecie."
 coverCaption: ""
 ---
 
-**Common Mistakes with Using VPNs, and How You Can Accidentally Leak Your Public IP While Using One**
+**Częste błędy związane z korzystaniem z VPN i jak można przypadkowo ujawnić swoje publiczne IP podczas korzystania z VPN**
 
-Wirtualne sieci prywatne (VPN) są używane przez miliony ludzi na całym świecie jako sposób na ochronę ich prywatności i bezpieczeństwa online. Jednak nawet przy najlepszych intencjach łatwo jest popełnić błędy, które mogą skutkować **przypadkowym wyciekiem Twojego publicznego adresu IP** podczas korzystania z VPN. W tym artykule omówimy powszechne błędy przy korzystaniu z sieci VPN i jak ich unikać.
+Wirtualne sieci prywatne (VPN) są używane przez miliony ludzi na całym świecie jako sposób na ochronę ich prywatności i bezpieczeństwa w Internecie. Jednak nawet przy najlepszych intencjach łatwo jest popełnić błędy, które mogą skutkować **przypadkowym wyciekiem publicznego adresu IP** podczas korzystania z VPN. W tym artykule omówimy typowe błędy związane z korzystaniem z VPN i sposoby ich uniknięcia.
 
-## What is a VPN?
+## Czym jest VPN?
 
-VPN to usługa, która pozwala Ci stworzyć bezpieczne i prywatne połączenie między Twoim urządzeniem a internetem. Działa ona poprzez kierowanie Twojego ruchu internetowego przez serwer znajdujący się w innej lokalizacji niż Twoja własna, dzięki czemu wydaje się, że łączysz się z internetem z tej lokalizacji serwera, a nie z własnej.
+VPN to usługa, która umożliwia utworzenie bezpiecznego i prywatnego połączenia między urządzeniem a Internetem. Działa poprzez kierowanie ruchu internetowego przez serwer znajdujący się w innej lokalizacji niż Twoja własna, dzięki czemu wydaje się, że łączysz się z Internetem z tej lokalizacji serwera, a nie z własnej.
 
-## Common Mistakes with Using VPNs
+## Typowe błędy związane z korzystaniem z VPN
 
-### Not Checking for IP Leaks
+### Nie sprawdzanie wycieków IP
 
-Jednym z najczęstszych błędów przy korzystaniu z VPN jest **niesprawdzenie wycieków IP**. Kiedy łączysz się z VPN, Twój ruch internetowy ma być kierowany przez serwer VPN, a Twój adres IP ma być ukryty. Jednak jeśli Twoje połączenie VPN nie jest skonfigurowane poprawnie lub jeśli Twój dostawca VPN ma lukę w zabezpieczeniach, Twój adres IP może wyciec, co pokonuje cel korzystania z VPN w pierwszej kolejności.
+Jednym z najczęstszych błędów podczas korzystania z VPN jest **niesprawdzanie wycieków IP**. Kiedy łączysz się z VPN, twój ruch internetowy powinien być kierowany przez serwer VPN, a twój adres IP powinien być ukryty. Jeśli jednak połączenie VPN nie jest poprawnie skonfigurowane lub jeśli dostawca VPN ma lukę w zabezpieczeniach, adres IP może wyciekać, co przede wszystkim niweczy cel korzystania z VPN.
 
-Aby sprawdzić, czy Twój VPN przecieka Twój adres IP, możesz użyć strony internetowej, np.[**ipleak.net**](https://ipleak.net/) Ta strona pokaże Ci Twój publiczny adres IP i czy jest on inny niż adres IP serwera VPN, z którym jesteś połączony. Jeśli Twój adres IP jest inny, Twoja sieć VPN działa prawidłowo. Jeśli Twój adres IP jest taki sam, Twój VPN wycieka Twój adres IP.
+Aby sprawdzić, czy sieć VPN ujawnia adres IP użytkownika, można skorzystać z witryny internetowej takiej jak [**ipleak.net**](https://ipleak.net/) Ta strona internetowa pokaże ci twój publiczny adres IP i czy różni się on od adresu IP serwera VPN, z którym jesteś połączony. Jeśli adres IP jest inny, sieć VPN działa prawidłowo. Jeśli adres IP jest taki sam, sieć VPN ujawnia adres IP użytkownika.
 
 ### Niewybranie bezpiecznego dostawcy VPN
 
-Kolejnym częstym błędem przy korzystaniu z VPN jest **niewybranie bezpiecznego dostawcy VPN**. Istnieje wielu dostępnych dostawców VPN, ale nie wszyscy z nich są godni zaufania. Niektórzy dostawcy VPN mogą rejestrować Twój ruch internetowy lub sprzedawać Twoje dane osobom trzecim. Inni mogą mieć luki w zabezpieczeniach, które mogą umożliwić hakerom dostęp do Twoich informacji.
+Innym częstym błędem związanym z korzystaniem z VPN jest **niewybranie bezpiecznego dostawcy VPN**. Dostępnych jest wielu dostawców VPN, ale nie wszyscy z nich są godni zaufania. Niektórzy dostawcy VPN mogą rejestrować ruch internetowy użytkownika lub sprzedawać jego dane stronom trzecim. Inni mogą mieć luki w zabezpieczeniach, które mogą umożliwić hakerom dostęp do informacji użytkownika.
 
-Aby wybrać bezpiecznego dostawcę VPN, szukaj takiego, który ma ścisłą politykę zakazu logowania, używa silnego szyfrowania i ma udokumentowane osiągnięcia w zakresie ochrony prywatności użytkowników. Możesz znaleźć recenzje dostawców VPN w Internecie, np.[providers recommended by simeononsecurity.ch](https://simeononsecurity.ch/recommendations/vpns/) aby pomóc Ci podjąć świadomą decyzję.
+Aby wybrać bezpiecznego dostawcę VPN, poszukaj takiego, który ma ścisłą politykę braku logowania, używa silnego szyfrowania i ma udokumentowane doświadczenie w ochronie prywatności użytkowników. Recenzje dostawców VPN można znaleźć w Internecie, na przykład na stronie [providers recommended by simeononsecurity.ch](https://simeononsecurity.ch/recommendations/vpns/) aby pomóc w podjęciu świadomej decyzji.
 
-### Using Free VPNs
+### Korzystanie z bezpłatnych sieci VPN
 
-Korzystanie z darmowej sieci VPN to kolejny powszechny błąd z używaniem sieci VPN. Chociaż darmowe VPN mogą wydawać się dobrą opcją, często mają ograniczenia, które mogą zagrozić Twojemu bezpieczeństwu i prywatności. Darmowe VPN mogą rejestrować Twój ruch internetowy, sprzedawać Twoje dane osobom trzecim lub ograniczać Twoją przepustowość i prędkość.
+Korzystanie z darmowej sieci VPN to kolejny powszechny błąd związany z korzystaniem z VPN. Chociaż darmowe sieci VPN mogą wydawać się dobrą opcją, często mają ograniczenia, które mogą zagrozić bezpieczeństwu i prywatności użytkownika. Darmowe sieci VPN mogą rejestrować ruch internetowy, sprzedawać dane stronom trzecim lub ograniczać przepustowość i prędkość.
 
-Jeśli chcesz korzystać z VPN, zaleca się zapłacić za renomowaną usługę VPN. W ten sposób możesz mieć pewność, że Twoje dane nie są sprzedawane lub rejestrowane, a także możesz cieszyć się szybkimi i niezawodnymi prędkościami internetowymi.
+Jeśli chcesz korzystać z VPN, zalecamy zapłacenie za renomowaną usługę VPN. W ten sposób możesz mieć pewność, że Twoje dane nie są sprzedawane ani rejestrowane, a Ty możesz cieszyć się szybkimi i niezawodnymi prędkościami Internetu.
 
-### Not Updating Your VPN Software
+### Brak aktualizacji oprogramowania VPN
 
-Nieaktualizowanie oprogramowania VPN to kolejny powszechny błąd przy korzystaniu z VPN. Dostawcy VPN wydają aktualizacje swojego oprogramowania, aby usunąć luki w zabezpieczeniach i poprawić wydajność. Jeśli używasz nieaktualnej wersji swojego oprogramowania VPN, możesz być narażony na zagrożenia bezpieczeństwa i problemy z wydajnością.
+Brak aktualizacji oprogramowania VPN to kolejny częsty błąd związany z korzystaniem z sieci VPN. Dostawcy VPN wydają aktualizacje swojego oprogramowania, aby wyeliminować luki w zabezpieczeniach i poprawić wydajność. Jeśli korzystasz z nieaktualnej wersji oprogramowania VPN, możesz być narażony na zagrożenia bezpieczeństwa i problemy z wydajnością.
 
-Aby uniknąć tego błędu, upewnij się, że regularnie aktualizujesz swoje oprogramowanie VPN. Większość dostawców VPN powiadomi Cię o dostępności aktualizacji lub możesz sprawdzić je ręcznie.
+Aby uniknąć tego błędu, należy regularnie aktualizować oprogramowanie VPN. Większość dostawców VPN powiadamia o dostępności aktualizacji lub można je sprawdzić ręcznie.
 
-## How to Avoid Accidentally Leaking Your Public IP While Using a VPN
+## Jak uniknąć przypadkowego ujawnienia publicznego adresu IP podczas korzystania z VPN
 
-### Use a Kill Switch
+### Użyj wyłącznika awaryjnego
 
-Kill switch** to funkcja, która automatycznie rozłączy Twoje połączenie internetowe, jeśli połączenie VPN zostanie przerwane. Zapobiegnie to ujawnieniu Twojego adresu IP, jeśli Twoje połączenie VPN zawiedzie.
+Wyłącznik awaryjny** to funkcja, która automatycznie rozłącza połączenie internetowe, jeśli połączenie VPN zostanie przerwane. Zapobiegnie to ujawnieniu adresu IP użytkownika w przypadku awarii połączenia VPN.
 
-Wielu dostawców VPN oferuje funkcję kill switch, więc upewnij się, że włączysz ją, jeśli jest dostępna.
+Wielu dostawców VPN oferuje funkcję Kill Switch, więc upewnij się, że ją włączyłeś, jeśli jest dostępna.
 
-### ### Wyłączenie WebRTC
+### ### Wyłącz WebRTC
 
-WebRTC to technologia używana przez przeglądarki internetowe do umożliwienia komunikacji w czasie rzeczywistym, takiej jak konferencje wideo i udostępnianie plików. Jednak WebRTC może być również używany do wycieku Twojego prawdziwego adresu IP, nawet jeśli używasz VPN.
+WebRTC to technologia wykorzystywana przez przeglądarki internetowe w celu umożliwienia komunikacji w czasie rzeczywistym, takiej jak wideokonferencje i udostępnianie plików. Jednak WebRTC może być również używany do wycieku prawdziwego adresu IP, nawet jeśli korzystasz z VPN.
 
-Aby wyłączyć WebRTC w przeglądarce internetowej, możesz zainstalować rozszerzenie takie jak **WebRTC Control** dla Chrome lub **Disable WebRTC** dla Firefox.
+Aby wyłączyć WebRTC w przeglądarce internetowej, można zainstalować rozszerzenie, takie jak **WebRTC Control** dla Chrome lub **Disable WebRTC** dla Firefox.
 
 ### Użyj prywatnego serwera DNS
 
-Kiedy łączysz się ze stroną internetową, Twoje urządzenie wysyła żądanie do serwera DNS (Domain Name System), aby przetłumaczyć nazwę domeny strony na adres IP. Domyślnie urządzenie korzysta z serwera DNS dostawcy usług internetowych (ISP), który może rejestrować Twoją aktywność w Internecie.
+Gdy łączysz się ze stroną internetową, Twoje urządzenie wysyła żądanie do serwera DNS (Domain Name System), aby przetłumaczyć nazwę domeny strony internetowej na adres IP. Domyślnie urządzenie korzysta z serwera DNS dostawcy usług internetowych (ISP), który może rejestrować aktywność użytkownika w Internecie.
 
-Aby tego uniknąć, możesz użyć prywatnego serwera DNS, który nie rejestruje Twojej aktywności. Niektórzy dostawcy VPN oferują własne prywatne serwery DNS lub możesz skorzystać z usługi innej firmy, np.[**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns) 
+Aby tego uniknąć, można skorzystać z prywatnego serwera DNS, który nie rejestruje aktywności użytkownika. Niektórzy dostawcy VPN oferują własne prywatne serwery DNS lub można skorzystać z usług innych firm, takich jak [**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns) 
 
-###[Use Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Use Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-Korzystanie z[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) może pomóc chronić Twoje konto VPN przed nieautoryzowanym dostępem. Uwierzytelnianie dwuskładnikowe wymaga podania dwóch form identyfikacji, aby uzyskać dostęp do konta, takich jak hasło i kod wysłany na telefon.
+Korzystanie z [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) może pomóc chronić konto VPN przed nieautoryzowanym dostępem. Uwierzytelnianie dwuskładnikowe wymaga podania dwóch form identyfikacji w celu uzyskania dostępu do konta, takich jak hasło i kod wysłany na telefon.
 
-Wielu dostawców VPN oferuje.[two-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) jako opcja, więc upewnij się, że włączysz ją, jeśli jest dostępna.
+Wielu dostawców VPN oferuje [two-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) jako opcja, więc upewnij się, że ją włączyłeś, jeśli jest dostępna.
 
-### Wnioski.
+### Wnioski
 
-VPN to świetny sposób na ochronę prywatności i bezpieczeństwa online, ale nie są one niezawodne. Wspólne błędy, takie jak niesprawdzanie wycieków IP, korzystanie z niezabezpieczonego dostawcy VPN, korzystanie z darmowych VPN i nieaktualizowanie oprogramowania VPN, mogą zagrozić Twojemu bezpieczeństwu i prywatności. Aby uniknąć przypadkowego wycieku Twojego publicznego IP podczas korzystania z VPN, użyj kill switcha, wyłącz WebRTC, użyj prywatnego serwera DNS i użyj dwuskładnikowego uwierzytelniania.
+Sieci VPN to świetny sposób na ochronę prywatności i bezpieczeństwa w Internecie, ale nie są one niezawodne. Typowe błędy, takie jak brak sprawdzania wycieków IP, korzystanie z niezabezpieczonego dostawcy VPN, korzystanie z bezpłatnych sieci VPN i brak aktualizacji oprogramowania VPN, mogą zagrozić bezpieczeństwu i prywatności. Aby uniknąć przypadkowego wycieku publicznego adresu IP podczas korzystania z VPN, użyj wyłącznika awaryjnego, wyłącz WebRTC, użyj prywatnego serwera DNS i użyj uwierzytelniania dwuskładnikowego.
 
-Zawsze przeprowadzaj badania i wybierz renomowanego dostawcę VPN, który ma udokumentowane osiągnięcia w zakresie ochrony prywatności użytkowników. Stosując się do tych wskazówek, możesz cieszyć się bezpiecznym i prywatnym doświadczeniem online.
+Zawsze przeprowadzaj badania i wybieraj renomowanego dostawcę VPN, który ma udokumentowane doświadczenie w ochronie prywatności użytkowników. Postępując zgodnie z tymi wskazówkami, możesz cieszyć się bezpiecznym i prywatnym doświadczeniem online.
 
 ## Referencje
 
--[SimeonOnSecurity.ch's VPN Provider Recommendations](https://simeononsecurity.ch/recommendations/vpns/)
--[SimeonOnSecurity.ch - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
--[IPLeak.net](https://ipleak.net/)
--[WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
--[Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
--[Cloudflare DNS](https://1.1.1.1/)
--[Google DNS](https://developers.google.com/speed/public-dns)
+- [SimeonOnSecurity.ch's VPN Provider Recommendations](https://simeononsecurity.ch/recommendations/vpns/)
+- [SimeonOnSecurity.ch - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [IPLeak.net](https://ipleak.net/)
+- [WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
+- [Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Cloudflare DNS](https://1.1.1.1/)
+- [Google DNS](https://developers.google.com/speed/public-dns)
 

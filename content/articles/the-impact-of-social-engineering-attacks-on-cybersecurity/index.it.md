@@ -31,7 +31,7 @@ La difesa dagli attacchi di social engineering richiede una combinazione di misu
 
 ### 2. Password forti e autenticazione a più fattori
 
-Utilizzo di[**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) e l'implementazione dell'autenticazione a più fattori** può aiutare a prevenire gli attacchi di social engineering che si basano sull'indovinare la password o su attacchi a forza bruta. Le password forti dovrebbero essere lunghe almeno 12 caratteri e includere un mix di lettere maiuscole e minuscole, numeri e caratteri speciali. L'autenticazione multifattoriale aggiunge un ulteriore livello di sicurezza, richiedendo agli utenti di fornire una prova di identità aggiuntiva rispetto alla semplice password.
+Utilizzo di [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) e l'implementazione dell'autenticazione a più fattori** può aiutare a prevenire gli attacchi di social engineering che si basano sull'indovinare la password o su attacchi a forza bruta. Le password forti dovrebbero essere lunghe almeno 12 caratteri e includere un mix di lettere maiuscole e minuscole, numeri e caratteri speciali. L'autenticazione multifattoriale aggiunge un ulteriore livello di sicurezza, richiedendo agli utenti di fornire una prova di identità aggiuntiva rispetto alla semplice password.
 
 ### 3. Email e navigazione web sicure
 
@@ -57,7 +57,7 @@ Ricordate che la protezione dei vostri dati e sistemi è un processo continuo ch
 
 ## Riferimenti
 
--[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
--[What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
--[Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
+- [Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
 

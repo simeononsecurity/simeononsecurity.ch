@@ -1,10 +1,0 @@
----
-title: "Automating Security Compliance with STIG Scripts"
-date: 2023-02-11
-toc: true
-draft: false
-description: "Discover a collection of STIG scripts to automate security compliance for Windows and popular applications, including .NET, Adobe Reader DC, and Oracle JRE 8."
-tags: ["STIG scripts", "security compliance", "automation", "Windows", "applications", ".NET", "Adobe Reader DC", "Oracle JRE 8", "FireFox", "Ansible playbooks", "domain prep", "Windows Defender", "cybersecurity", "scripting", "STIG compliance", "configuration management", "IT security", "patch management", "system administration"]
----
-
-  विभिन्न बंध और सैट के लिए सुरक्षा तकनीकी लिपियाँ (एसटीआईजी) के कार्यान्वयन को सक्रिय करने के लिए स्क्रिप्ट का संग्रह।  ## विंडोज एसटीआईजी ऑटोमेशन  - [Windows STIG Ansible Playbooks](https://github.com/simeononsecurity/Windows_STIG_Ansible) - [विनिमय वर्ग STIG स्क्रिप्ट] (https://github.com/simeononsecurity/Windows-Defender-STIG-Script) - [स्टैंडअलोन विंडोज सर्वर एसटीआईजी स्क्रिप्ट] (https://github.com/simeonsecurity/Standalone-Windows-Server-STIG-Script) - [स्टैंडअलोन विंडोज एसटीआईजी स्क्रिप्ट] (https://github.com/simeononsecurity/Standalone-Windows-STIG-Script) - [STIG अनुरूपता डोमेन की तैयारी](https://github.com/simeononsecurity/STIG-Compliant-Domain-Prep)  ##आवेदन STIG  - [.NET STIG स्क्रिप्ट](https://github.com/simeononsecurity/.NET-STIG-Script) - [एडोब रीडर डीसी एसटीआईजी स्क्रिप्ट] (https://github.com/simeonsecurity/Adobe-Reader-DC-STIG-Script) - [ओरेकल JRE 8 STIG स्क्रिप्ट] (https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Script) - [फ़ायरफ़ॉक्स एसटीआईजी स्क्रिप्ट] (https://github.com/simeononsecurity/FireFox-STIG-Script)   ## योगदान  हम इस रिपॉजिटरी में योगदान का स्वागत करते हैं! यदि आपके पास कोई बग फिक्स है", "सुधार", "या नई सुविधा", "एक पुल अनुरोध करने के लिए स्वतंत्र महसूस करें।

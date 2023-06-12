@@ -6,7 +6,7 @@ draft: false
 description: "Imparate le migliori pratiche per proteggere la vostra organizzazione dalle minacce interne causate da dipendenti, appaltatori o partner che hanno accesso a dati e sistemi sensibili."
 tags: ["minacce interne", "sicurezza informatica", "protezione dei dati", "formazione dei dipendenti", "controlli tecnici", "controlli di accesso", "sviluppo della politica", "prevenzione della perdita di dati", "risposta agli incidenti", "Sicurezza informatica", "gestione del rischio", "accesso privilegiato", "consapevolezza della sicurezza", "attacchi informatici", "sicurezza della rete", "sicurezza delle informazioni", "rilevamento delle minacce", "valutazione del rischio", "politiche di sicurezza", "crimine informatico"]
 cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
-coverAlt: "Un'immagine a fumetti di un dipendente con una chiave che sblocca una porta etichettata con dati sensibili mentre un altro dipendente con una lente di ingrandimento guarda con sospetto."
+coverAlt: "Un'immagine a fumetti di un dipendente con una chiave che sblocca una porta etichettata con dati sensibili mentre un altro dipendente con una lente di ingrandimento guarda con sospetto. "
 coverCaption: ""
 ---
  Le minacce sono una preoccupazione crescente per le organizzazioni di tutte le dimensioni. Le **minacce interne** sono quelle causate da dipendenti, appaltatori o partner che hanno accesso a dati e sistemi sensibili. Questi individui possono danneggiare un'organizzazione rubando dati, introducendo malware o compromettendo i sistemi. In questo articolo discuteremo le migliori pratiche per proteggere l'organizzazione dalle minacce interne.
@@ -59,6 +59,6 @@ Le minacce interne possono rappresentare un rischio significativo per le organiz
 
 ## Riferimenti
 
-- Carnegie Mellon University, Software Engineering Institute. (2020).[Common Sense Guide to Mitigating Insider Threats, 6th Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508010)
-- Agenzia per la sicurezza informatica e delle infrastrutture. (2021).[Insider Threat Mitigation](https://www.cisa.gov/topics/physical-security/insider-threat-mitigation)
-- Istituto nazionale degli standard e della tecnologia. (2020).[Insider Threats](https://csrc.nist.gov/glossary/term/insider_threat)
+- Carnegie Mellon University, Software Engineering Institute. (2020). [Common Sense Guide to Mitigating Insider Threats, 6th Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508010)
+- Agenzia per la sicurezza informatica e delle infrastrutture. (2021). [Insider Threat Mitigation](https://www.cisa.gov/topics/physical-security/insider-threat-mitigation)
+- Istituto nazionale degli standard e della tecnologia. (2020). [Insider Threats](https://csrc.nist.gov/glossary/term/insider_threat)

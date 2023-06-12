@@ -1,10 +1,0 @@
----
-title: "Automating Security Compliance with STIG Scripts"
-date: 2023-02-11
-toc: true
-draft: false
-description: "Discover a collection of STIG scripts to automate security compliance for Windows and popular applications, including .NET, Adobe Reader DC, and Oracle JRE 8."
-tags: ["STIG scripts", "security compliance", "automation", "Windows", "applications", ".NET", "Adobe Reader DC", "Oracle JRE 8", "FireFox", "Ansible playbooks", "domain prep", "Windows Defender", "cybersecurity", "scripting", "STIG compliance", "configuration management", "IT security", "patch management", "system administration"]
----
-
-  Eine Sammlung von Skripten zur Automatisierung der Implementierung von Security Technical Implementation Guides (STIGs) für verschiedene Systeme und Anwendungen.  ## Windows STIG-Automatisierung  - [Windows STIG Ansible Playbooks] (https://github.com/simeononsecurity/Windows_STIG_Ansible) - [Windows Defender STIG-Skript] (https://github.com/simeononsecurity/Windows-Defender-STIG-Skript) - [Eigenständiges Windows Server STIG-Skript] (https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Skript) - [Eigenständiges Windows-STIG-Skript] (https://github.com/simeononsecurity/Standalone-Windows-STIG-Skript) - [STIG-konforme Domänenvorbereitung](https://github.com/simeononsecurity/STIG-Compliant-Domain-Prep)  ## Anwendung STIG-Automatisierung  - [.NET STIG-Skript] (https://github.com/simeononsecurity/.NET-STIG-Skript) - [Adobe Reader DC STIG-Skript] (https://github.com/simeononsecurity/Adobe-Reader-DC-STIG-Skript) - [Oracle JRE 8 STIG-Skript] (https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Skript) - [FireFox-STIG-Skript](https://github.com/simeononsecurity/FireFox-STIG-Skript)   ## Mitwirken  Wir freuen uns über Beiträge zu diesem Repositorium! Wenn Sie einen Bugfix“, „Verbesserung“, „oder ein neues Feature“, „haben, can you like a Pull-Anfrage einreichen.

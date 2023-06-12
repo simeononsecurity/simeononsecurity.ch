@@ -30,7 +30,7 @@ Instalacja **kumulatywnej poprawki zabezpieczeń** w systemie Windows obejmuje k
 
 1. **Sprawdź aktualizacje:** Pierwszym krokiem do zainstalowania zbiorczej poprawki zabezpieczeń w systemie Windows jest sprawdzenie dostępności aktualizacji. Możesz to zrobić, przechodząc do sekcji **Windows Update** w **Panelu sterowania** lub wyszukując **Windows Update** w pasku wyszukiwania systemu Windows. Gdy już się tam znajdziesz, kliknij przycisk **Sprawdź aktualizacje**, aby sprawdzić, czy dostępne są jakiekolwiek aktualizacje.
 
-2. **Pobierz i zainstaluj:** Jeśli dostępne są jakiekolwiek aktualizacje, pobierz je i zainstaluj. Ważne jest, aby pamiętać, że zbiorcze poprawki zabezpieczeń zwykle zawierają wszystkie poprzednie aktualizacje, więc nie trzeba instalować ich pojedynczo. Wystarczy pobrać i zainstalować najnowszą poprawkę, która będzie zawierać wszystkie poprzednie.
+2. **Pobierz i zainstaluj:** Jeśli dostępne są jakiekolwiek aktualizacje, pobierz je i zainstaluj. Ważne jest, aby pamiętać, że zbiorcze poprawki zabezpieczeń zazwyczaj zawierają wszystkie poprzednie aktualizacje, więc nie trzeba instalować ich pojedynczo. Wystarczy pobrać i zainstalować najnowszą poprawkę, która będzie zawierać wszystkie poprzednie.
 
 3. **Uruchom ponownie:** Po zakończeniu instalacji uruchom ponownie komputer, aby zastosować aktualizacje. Ważne jest, aby ponownie uruchomić komputer, nawet jeśli nie zostaniesz o to poproszony, ponieważ niektóre aktualizacje nie zaczną obowiązywać, dopóki tego nie zrobisz.
 

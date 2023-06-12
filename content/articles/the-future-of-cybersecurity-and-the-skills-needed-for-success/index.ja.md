@@ -36,7 +36,7 @@ coverCaption: ""
 
 今後出現すると思われるトレンドのひとつに、サイバーセキュリティにおける**人工知能**（AI）と**機械学習**（ML）の利用があります。AIとMLは、膨大な量のデータを分析し、人間には不可能なパターンを特定するために使用できるため、この分野に革命を起こす可能性を秘めています。つまり、AIやMLを使った経験のあるサイバーセキュリティの専門家は、高い需要が見込まれるのです。
 
-また、**クラウドセキュリティ**の重要性が増していることも、今後出てくるであろうトレンドです。業務をクラウドに移行する企業が増える中、クラウドセキュリティに精通した専門家のニーズが高まっています。
+また、**クラウドセキュリティ**の重要性が増していることも、今後出てくるであろうトレンドです。業務をクラウドに移行する企業が増える中、クラウドセキュリティに精通した専門家のニーズは高まっています。
 
 ## 結論
 
@@ -44,5 +44,5 @@ coverCaption: ""
 
 ## 参考文献
 
-- サイバーセキュリティ・ベンチャーズサイバー犯罪の被害額は2025年までに年間10兆5,000億ドル。[https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/](https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/)
-- 労働統計局インフォメーションセキュリティアナリスト[https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+- サイバーセキュリティ・ベンチャーズサイバー犯罪の被害額は2025年までに年間10兆5,000億ドル。 [https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/](https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/)
+- 労働統計局インフォメーションセキュリティアナリスト [https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)

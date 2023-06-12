@@ -1,5 +1,0 @@
----
-title: "SimeonOnSecurity's Blog"
-description: "Ontdek de persoonlijke ervaringen en experttips van SimeonOnSecurity."
-tags: ["cybersecuritytips", "automatiseringstechnieken", "netwerkbeveiliging", "gegevensprivacy", "IT-beveiliging", "hackpreventie", "veilig coderen", "netwerkinfrastructuur", "digitale forensics", "cloudbeveiliging", "cyberdreigingsinformatie", "incidentrespons", "kwetsbaarheidsevaluatie", "penetratietesten", "identiteitsbeheer", "beveiligingsbewustzijn", "malware-analyse", "gegevensversleuteling", "firewallconfiguratie", "veilig webontwikkeling", "netwerkmonitoring", "cybersecurityframeworks", "IoT-beveiliging", "mobiele beveiliging", "phishingpreventie", "best practices voor cybersecurity", "bedreigingsdetectie", "verdediging tegen social engineering", "toegangsbeheer", "netwerksegmentatie"]
----

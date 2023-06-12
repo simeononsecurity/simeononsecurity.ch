@@ -1,64 +1,64 @@
 ---
-title: "Niezbędne Do's i Don'ts dla Hardening Your Linux System"
+title: "Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux"
 date: 2023-02-28
 toc: true
 draft: false
-description: "Dowiedz się, jak utwardzić system Linux, włączając w to aktualizację, używanie zapór sieciowych, włączenie SELinux lub AppArmor, konfigurację zasad dotyczących haseł i monitorowanie logów systemowych."
-tags: ["Bezpieczeństwo systemu Linux", "utwardzanie systemu", "firewall", "SELinux", "AppArmor", "polityka haseł", "aktualizacje systemu", "dzienniki systemowe", "moduły bezpieczeństwa", "polityki kontroli dostępu", "cybersecurity", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "zarządzanie podatnością", "najlepsze praktyki bezpieczeństwa", "Bezpieczeństwo informatyczne", "bezpieczeństwo informacji", "aktualizacje oprogramowania", "dostęp do roota", "menedżer haseł"]
+description: "Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych."
+tags: ["Bezpieczeństwo systemu Linux", "utwardzanie systemu", "firewall", "SELinux", "AppArmor", "polityka haseł", "aktualizacje systemu", "logi systemowe", "moduły bezpieczeństwa", "zasady kontroli dostępu", "cyberbezpieczeństwo", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "zarządzanie podatnościami", "najlepsze praktyki bezpieczeństwa", "Bezpieczeństwo IT", "bezpieczeństwo informacji", "aktualizacje oprogramowania", "dostęp roota", "menedżer haseł"]
 cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
-coverAlt: "Kreskówkowy zamek trzymający tarczę z napisem Linux na niej, podczas gdy strzała odbija się od tarczy."
+coverAlt: "Kreskówkowy zamek trzymający tarczę z napisem Linux, podczas gdy strzała odbija się od tarczy."
 coverCaption: ""
 ---
 
 
-Linux jest popularnym systemem operacyjnym używanym zarówno przez osoby prywatne jak i firmy. Chociaż jest często uważany za bardziej bezpieczny niż inne systemy operacyjne ze względu na jego otwartą naturę, nadal wymaga odpowiedniego hartowania, aby zapewnić bezpieczeństwo systemu i przechowywanych w nim danych. W tym artykule, przejdziemy przez niektóre ogólne do's i don'ts hartowania, które mogą pomóc utrzymać system Linux bezpieczne.
+Linux to popularny system operacyjny używany zarówno przez użytkowników indywidualnych, jak i firmy. Chociaż często jest uważany za bezpieczniejszy niż inne systemy operacyjne ze względu na swój charakter open source, nadal wymaga odpowiedniego zabezpieczenia, aby zapewnić bezpieczeństwo systemu i przechowywanych w nim danych. W tym artykule omówimy kilka ogólnych zaleceń i zakazów dotyczących hartowania, które mogą pomóc w zapewnieniu bezpieczeństwa systemu Linux.
 
 ## Do's:
 
 ### Aktualizuj swój system
 
-Utrzymywanie[Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Aktualizowanie systemu jest kluczowe dla utrzymania jego bezpieczeństwa. Regularne aktualizacje pomagają naprawić luki w zabezpieczeniach i błędy, zapewniając, że twój system pozostanie bezpieczny przed potencjalnymi atakami. Oto kilka przykładów, jak zaktualizować swój system Linux za pomocą **apt-get** lub **yum** menedżera pakietów:
+Utrzymywanie [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Aktualizowanie systemu ma kluczowe znaczenie dla utrzymania jego bezpieczeństwa. Regularne aktualizacje pomagają naprawić luki w zabezpieczeniach i błędy, zapewniając, że system pozostaje bezpieczny przed potencjalnymi atakami. Oto kilka przykładów, jak zaktualizować system Linux za pomocą menedżera pakietów **apt-get** lub **yum**:
 
 #### Aktualizacja Ubuntu za pomocą apt-get
 
-Aby zaktualizować swój system Ubuntu za pomocą **apt-get**, otwórz okno terminala i wpisz:
+Aby zaktualizować system Ubuntu za pomocą **apt-get**, otwórz okno terminala i wpisz:
 ```bash
 sudo apt-get update
 ```
 
-Spowoduje to pobranie najnowszych list pakietów z repozytoriów pakietów Ubuntu. Po zakończeniu tego polecenia, można zainstalować wszelkie dostępne aktualizacje za pomocą następującego polecenia:
+Spowoduje to pobranie najnowszych list pakietów z repozytoriów pakietów Ubuntu. Po zakończeniu tego polecenia można zainstalować wszystkie dostępne aktualizacje za pomocą następującego polecenia:
 
 ```bash
 sudo apt-get upgrade
 
 ```
 
-Spowoduje to pobranie i zainstalowanie wszelkich dostępnych aktualizacji dla Twojego systemu.
+Spowoduje to pobranie i zainstalowanie wszelkich dostępnych aktualizacji systemu.
 
-### Aktualizacja CentOS za pomocą yum
+### Aktualizacja CentOS przy użyciu yum
 
-Aby zaktualizować swój system CentOS za pomocą **yum**, otwórz okno terminala i wpisz:
+Aby zaktualizować system CentOS za pomocą **yum**, otwórz okno terminala i wpisz:
 
 ```bash
 sudo yum update
 ```
 
-Spowoduje to pobranie i zainstalowanie wszelkich dostępnych aktualizacji dla twojego systemu. Możesz również użyć następującego polecenia, aby wyczyścić wszystkie stare lub nieużywane pakiety:
+Spowoduje to pobranie i zainstalowanie wszelkich dostępnych aktualizacji dla systemu. Możesz także użyć następującego polecenia, aby wyczyścić stare lub nieużywane pakiety:
 
 ```bash
 sudo yum autoremove
 ```
 
-To usunie wszystkie pakiety, które nie są już potrzebne w twoim systemie.
+Spowoduje to usunięcie wszystkich pakietów, które nie są już potrzebne w systemie.
 
-Pamiętaj, aby regularnie sprawdzać i instalować aktualizacje w swoim systemie Linux, aby zapewnić mu bezpieczeństwo i stabilność.
+Pamiętaj, aby regularnie sprawdzać i instalować aktualizacje w swoim systemie Linux, aby zapewnić jego bezpieczeństwo i stabilność.
 
 
-### Użyj firewalla
+### Używaj zapory sieciowej
 
-Zapora sieciowa jest niezbędnym środkiem bezpieczeństwa dla każdego systemu Linux, ponieważ pomaga chronić przed nieautoryzowanym dostępem i innymi zagrożeniami cybernetycznymi. Oto jak używać **ufw** firewall w systemie Linux:
+Zapora sieciowa jest niezbędnym środkiem bezpieczeństwa dla każdego systemu Linux, ponieważ pomaga chronić przed nieautoryzowanym dostępem i innymi zagrożeniami cybernetycznymi. Oto jak używać zapory **ufw** w systemie Linux:
 
-#### Instalacja i włączenie ufw dla systemów opartych na Ubuntu
+#### Instalowanie i włączanie ufw dla systemów opartych na Ubuntu
 
 Aby zainstalować i włączyć **ufw**, otwórz okno terminala i wpisz:
 
@@ -85,21 +85,21 @@ Aby usunąć regułę:
 sudo ufw delete <rule_number>
 ```
 
-Można przejrzeć aktualne zasady **ufw** wpisując:
+Bieżące reguły **ufw** można wyświetlić wpisując:
 
 ```bash
 sudo ufw status
 ```
 
 
-Spowoduje to wyświetlenie aktualnych reguł i ich statusu.
+Spowoduje to wyświetlenie bieżących reguł i ich statusu.
 
-Pamiętaj, aby regularnie przeglądać i aktualizować swoje reguły **ufw**, aby zapewnić ochronę systemu przed potencjalnymi zagrożeniami.
+Pamiętaj, aby regularnie przeglądać i aktualizować reguły **ufw**, aby zapewnić ochronę systemu przed potencjalnymi zagrożeniami.
 
 
-#### Instalacja i włączenie firewalld dla systemów opartych na CentOS
+#### Instalowanie i włączanie firewalld dla systemów opartych na CentOS
 
-Aby zainstalować i włączyć domyślny firewall w systemie CentOS, którym jest **firewalld**, możesz użyć następujących poleceń:
+Aby zainstalować i włączyć domyślną zaporę sieciową w systemie CentOS, którą jest **firewalld**, można użyć następujących poleceń:
 
 ```bash
 sudo yum install firewalld
@@ -107,13 +107,13 @@ sudo systemctl enable firewalld
 sudo systemctl start firewalld
 ```
 
-To zainstaluje **firewalld** i włączy go w twoim systemie.
+Spowoduje to zainstalowanie **firewalld** i włączenie go w systemie.
 
-#### Konfiguracja reguł firewalld dla systemów opartych na CentOS
+#### Konfigurowanie reguł firewalld dla systemów opartych na CentOS
 
-Po włączeniu **firewalld** możesz skonfigurować jego reguły, aby zezwolić lub zablokować ruch przychodzący i wychodzący. Oto kilka przykładów:
+Po włączeniu **firewalld** można skonfigurować jego reguły, aby zezwalać lub blokować ruch przychodzący i wychodzący. Oto kilka przykładów:
 
-Aby zezwolić na ruch przychodzący SSH (port 22):
+Aby zezwolić na przychodzący ruch SSH (port 22):
 
 ```bash
 sudo firewall-cmd --permanent --add-service=ssh
@@ -141,23 +141,23 @@ sudo firewall-cmd --permanent --remove-<type>=<rule>
 sudo firewall-cmd --reload
 ```
 
-Aktualne reguły **firewalld** można przeglądać wpisując:
+Bieżące reguły **firewalld** można wyświetlić wpisując:
 
 ```bash
 sudo firewall-cmd --list-all
 ```
 
-Spowoduje to wyświetlenie aktualnych reguł i ich statusu.
+Spowoduje to wyświetlenie bieżących reguł i ich statusu.
 
-Pamiętaj, aby regularnie przeglądać i aktualizować swoje reguły **firewalld**, aby zapewnić, że twój system
+Pamiętaj, aby regularnie przeglądać i aktualizować reguły **firewalld**, aby upewnić się, że system
 
 ### Włącz SELinux lub AppArmor
 
-SELinux (Security-Enhanced Linux) i AppArmor to dwa moduły bezpieczeństwa, które mogą być używane do egzekwowania obowiązkowych zasad kontroli dostępu w systemach Linux. Większość nowoczesnych dystrybucji Linuksa ma domyślnie zainstalowany SELinux lub AppArmor, które można włączyć i skonfigurować, aby zwiększyć bezpieczeństwo systemu.
+SELinux (Security-Enhanced Linux) i AppArmor to dwa moduły bezpieczeństwa, które mogą być używane do egzekwowania obowiązkowych zasad kontroli dostępu w systemach Linux. Domyślnie większość nowoczesnych dystrybucji Linuksa ma zainstalowane SELinux lub AppArmor, które można włączyć i skonfigurować w celu zwiększenia bezpieczeństwa systemu.
 
-#### Włączanie SELinux w systemach opartych na CentOS-ie
+#### Włączanie SELinux dla systemów opartych na CentOS
 
-Aby sprawdzić, czy SELinux jest włączony w Twoim systemie, wykonaj następujące polecenie:
+Aby sprawdzić, czy SELinux jest włączony w systemie, uruchom następujące polecenie:
 
 ```bash
 sestatus
@@ -169,7 +169,7 @@ Jeśli SELinux nie jest zainstalowany, można go zainstalować za pomocą nastę
 sudo yum install selinux-policy selinux-policy-targeted
 ```
 
-Aby włączyć SELinux, należy edytować plik **/etc/selinux/config** i ustawić zmienną **SELINUX** na **wzmacniającą**:
+Aby włączyć SELinux, należy edytować plik **/etc/selinux/config** i ustawić zmienną **SELINUX** na **enforcing**:
 
 ```bash
 sudo nano /etc/selinux/config
@@ -179,11 +179,11 @@ sudo nano /etc/selinux/config
 SELINUX=enforcing
 ```
 
-Zapisz i wyjdź z pliku, używając CTRL+X i Y następnie enter, a następnie zrestartuj system.
+Zapisz i zamknij plik, używając kombinacji klawiszy CTRL+X i Y, a następnie Enter, po czym uruchom ponownie system.
 
-#### Włączenie AppArmor dla systemów opartych na Ubuntu
+#### Włączanie AppArmor dla systemów opartych na Ubuntu
 
-Aby sprawdzić, czy AppArmor jest włączony w Twoim systemie, uruchom następujące polecenie:
+Aby sprawdzić, czy AppArmor jest włączony w systemie, uruchom następujące polecenie:
 ```bash
 sudo apparmor_status
 ```
@@ -199,62 +199,62 @@ Aby włączyć AppArmor, należy edytować plik **/etc/default/grub** i dodać p
 ```bash
 sudo nano /etc/default/grub
 ```
-**Dodaj zabezpieczenie=apparmor**
+**Dodaj zabezpieczenie=pancerz**
 ```bash
 GRUB_CMDLINE_LINUX="... security=apparmor"
 ```
 
-Zapisz i wyjdź z pliku, używając CTRL+X i Y następnie enter, a następnie uruchom następujące polecenie, aby zaktualizować konfigurację bootloadera systemu:
+Zapisz i zamknij plik, używając CTRL + X i Y, a następnie wprowadź, a następnie uruchom następujące polecenie, aby zaktualizować konfigurację bootloadera systemu:
 
 ```bash
 sudo update-grub
 ```
 
-Na koniec należy ponownie uruchomić system.
+Na koniec uruchom ponownie system.
 
-Po włączeniu SELinux lub AppArmor można skonfigurować ich polityki, aby ograniczyć uprawnienia procesów i ograniczyć ich dostęp do zasobów systemowych. Może to pomóc zminimalizować potencjalne skutki udanego ataku i zwiększyć ogólne bezpieczeństwo systemu.
+Po włączeniu SELinux lub AppArmor można skonfigurować ich zasady, aby ograniczyć uprawnienia procesów i ograniczyć ich dostęp do zasobów systemowych. Może to pomóc zminimalizować potencjalny wpływ udanego ataku i zwiększyć ogólne bezpieczeństwo systemu.
 
 
 ### Konfiguracja zasad dotyczących haseł
 
-Konfiguracja zasad dotyczących haseł jest ważnym krokiem w utwardzaniu bezpieczeństwa systemu Linux. Poprzez egzekwowanie silnych wymagań dotyczących haseł, można zapewnić, że konta użytkowników są bezpieczne i chronione przed potencjalnymi atakami. Oto jak skonfigurować politykę haseł w systemie Linux:
+Konfigurowanie zasad dotyczących haseł jest ważnym krokiem w zwiększaniu bezpieczeństwa systemu Linux. Egzekwując silne wymagania dotyczące haseł, można zapewnić, że konta użytkowników są bezpieczne i chronione przed potencjalnymi atakami. Oto jak skonfigurować zasady haseł w systemie Linux:
 
-#### Konfiguracja polityk haseł na Ubuntu
+#### Konfigurowanie zasad haseł w Ubuntu
 
-Aby skonfigurować polityki haseł na Ubuntu, możesz użyć modułu **pam_pwquality**. Moduł ten zapewnia zestaw kontroli siły hasła, które mogą być używane do egzekwowania polityki haseł. Aby zainstalować moduł **pam_pwquality**, otwórz okno terminala i wpisz:
+Aby skonfigurować zasady dotyczące haseł w systemie Ubuntu, można użyć modułu **pam_pwquality**. Moduł ten zapewnia zestaw kontroli siły haseł, które mogą być wykorzystane do egzekwowania zasad dotyczących haseł. Aby zainstalować moduł **pam_pwquality**, otwórz okno terminala i wpisz:
 
 ```bash
 sudo apt-get install libpam-pwquality
 ```
 
-Po zainstalowaniu modułu można skonfigurować jego ustawienia, edytując plik **/etc/pam.d/common-password**. Na przykład, aby wymusić minimalną długość hasła na poziomie 8 znaków i wymagać co najmniej jednej dużej litery, jednej małej litery, jednej cyfry i jednego znaku specjalnego, możesz dodać do pliku następującą linię:
+Po zainstalowaniu modułu można skonfigurować jego ustawienia, edytując plik **/etc/pam.d/common-password**. Na przykład, aby wymusić minimalną długość hasła wynoszącą 8 znaków i wymagać co najmniej jednej wielkiej litery, jednej małej litery, jednej cyfry i jednego znaku specjalnego, można dodać następujący wiersz do pliku:
 
 ```bash
 password requisite pam_pwquality.so minlen=8 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1
 ```
 
-Możesz również skonfigurować inne ustawienia, takie jak maksymalny wiek hasła, dodając linie do pliku.
+Można również skonfigurować inne ustawienia, takie jak maksymalny wiek hasła, dodając wiersze do pliku.
 
-#### Konfiguracja polityki haseł w systemie CentOS
+#### Konfigurowanie zasad haseł w systemie CentOS
 
-Aby skonfigurować polityki haseł w systemie CentOS, można użyć narzędzia **authconfig**. Narzędzie to dostarcza zestaw opcji, które mogą być użyte do skonfigurowania polityk haseł. Na przykład, aby wymusić minimalną długość hasła 8 znaków i wymagać co najmniej jednej dużej litery, jednej małej litery, jednej cyfry i jednego znaku specjalnego, można użyć następującego polecenia:
+Aby skonfigurować zasady haseł w systemie CentOS, można użyć narzędzia **authconfig**. Narzędzie to udostępnia zestaw opcji, które można wykorzystać do skonfigurowania zasad dotyczących haseł. Na przykład, aby wymusić minimalną długość hasła wynoszącą 8 znaków i wymagać co najmniej jednej wielkiej litery, jednej małej litery, jednej cyfry i jednego znaku specjalnego, można użyć następującego polecenia:
 
 ```bash
 sudo authconfig --passalgo=sha512 --update --enablereqlower --enablerequpper --enablereqdigit --enablereqother --passminlen=8
 ```
 
-Zaktualizuje to systemowe pliki **/etc/pam.d/system-auth** i **/etc/pam.d/password-auth**, aby wymusić określone zasady dotyczące haseł.
+Spowoduje to aktualizację systemowych plików **/etc/pam.d/system-auth** i **/etc/pam.d/password-auth** w celu wymuszenia określonych zasad dotyczących haseł.
 
-Pamiętaj, aby regularnie przeglądać i aktualizować swoje zasady dotyczące haseł, aby zapewnić, że pozostają one skuteczne wobec potencjalnych ataków.
+Pamiętaj, aby regularnie przeglądać i aktualizować swoje zasady dotyczące haseł, aby upewnić się, że pozostają one skuteczne przeciwko potencjalnym atakom.
 
 
 ### Monitoruj logi systemowe
 
-Monitorowanie logów systemowych jest ważnym aspektem utrzymania bezpieczeństwa systemu Linux. Logi systemowe rejestrują aktywność systemu, taką jak nieudane próby logowania, błędy i inne ważne zdarzenia, i mogą dostarczyć cennych informacji na temat potencjalnych zagrożeń bezpieczeństwa lub innych problemów, które wymagają uwagi. Oto jak monitorować logi systemowe:
+Monitorowanie logów systemowych jest ważnym aspektem utrzymania bezpieczeństwa systemu Linux. Dzienniki systemowe rejestrują aktywność systemu, taką jak nieudane próby logowania, błędy i inne ważne zdarzenia, i mogą zapewnić cenny wgląd w potencjalne zagrożenia bezpieczeństwa lub inne kwestie wymagające uwagi. Oto jak monitorować dzienniki systemowe:
 
-#### Za pomocą polecenia journalctl.
+#### Za pomocą polecenia journalctl
 
-W większości nowoczesnych dystrybucji systemu Linux można użyć polecenia **journalctl** do przeglądania dzienników systemowych. Polecenie to udostępnia wiele opcji, które mogą być użyte do filtrowania i przeszukiwania wpisów dziennika.
+W większości nowoczesnych dystrybucji Linuksa można użyć polecenia **journalctl** do przeglądania dzienników systemowych. Polecenie to udostępnia szereg opcji, które można wykorzystać do filtrowania i przeszukiwania wpisów dziennika.
 
 Aby wyświetlić wszystkie wpisy dziennika, wystarczy uruchomić następujące polecenie:
 
@@ -264,61 +264,61 @@ sudo journalctl
 
 Spowoduje to wyświetlenie wszystkich wpisów dziennika, z najnowszymi wpisami na dole.
 
-Aby filtrować wpisy dziennika według określonej jednostki, takiej jak usługa lub proces, można użyć opcji **-u**, a następnie nazwy jednostki. Na przykład, aby wyświetlić wpisy dziennika dla usługi **sshd**, można wykonać następujące polecenie:
+Aby filtrować wpisy dziennika według określonej jednostki, takiej jak usługa lub proces, można użyć opcji **-u**, po której następuje nazwa jednostki. Na przykład, aby wyświetlić wpisy dziennika dla usługi **sshd**, można uruchomić następujące polecenie:
 ```bash
 sudo journalctl -u sshd
 ```
 
 
-Aby filtrować wpisy dziennika według określonego zakresu czasu, można użyć opcji **--od kiedy** i **-do kiedy**, a następnie znacznika czasu lub zakresu czasu. Na przykład, aby wyświetlić wpisy dziennika z ostatniej godziny, można wykonać następujące polecenie:
+Aby filtrować wpisy dziennika według określonego zakresu czasu, można użyć opcji **--since** i **--until**, po których następuje znacznik czasu lub zakres czasu. Na przykład, aby wyświetlić wpisy dziennika z ostatniej godziny, można uruchomić następujące polecenie:
 
 ```bash
 sudo journalctl --since "1 hour ago"
 ```
 
-#### Korzystanie z narzędzia do zarządzania dziennikami
+#### Korzystanie z narzędzia do zarządzania logami
 
-W przypadku większych lub bardziej złożonych systemów przydatne może być użycie narzędzia do zarządzania dziennikami w celu gromadzenia i analizowania dzienników systemowych. Narzędzia do zarządzania dziennikami mogą udostępniać zaawansowane funkcje, takie jak monitorowanie dzienników w czasie rzeczywistym, agregacja dzienników i ich analiza, a także mogą pomóc w skuteczniejszym identyfikowaniu potencjalnych zagrożeń bezpieczeństwa i reagowaniu na nie.
+W przypadku większych lub bardziej złożonych systemów przydatne może być użycie narzędzia do zarządzania dziennikami w celu gromadzenia i analizowania dzienników systemowych. Narzędzia do zarządzania dziennikami mogą zapewniać zaawansowane funkcje, takie jak monitorowanie dzienników w czasie rzeczywistym, agregacja dzienników i analiza dzienników, a także mogą pomóc w skuteczniejszym identyfikowaniu i reagowaniu na potencjalne zagrożenia bezpieczeństwa.
 
-Przykłady narzędzi do zarządzania dziennikami dla systemu Linux obejmują:
+Przykłady narzędzi do zarządzania logami dla systemu Linux obejmują:
 
-- **Logwatch**: proste narzędzie do analizy dzienników, które dostarcza codzienne podsumowania dzienników systemowych pocztą elektroniczną.
-- **Logrotate**: narzędzie, które automatycznie rotuje i kompresuje pliki dziennika, aby zaoszczędzić miejsce na dysku.
-- StosELK**: popularne narzędzie open-source do zarządzania dziennikami, które łączy Elasticsearch, Logstash i Kibana, aby zapewnić monitorowanie i analizę dzienników w czasie rzeczywistym.
+- **Logwatch**: proste narzędzie do analizy logów, które zapewnia codzienne e-mailowe podsumowania logów systemowych
+- Logrotate**: narzędzie, które automatycznie rotuje i kompresuje pliki logów w celu zaoszczędzenia miejsca na dysku.
+- **ELK stack**: popularne narzędzie do zarządzania logami o otwartym kodzie źródłowym, które łączy Elasticsearch, Logstash i Kibana w celu zapewnienia możliwości monitorowania i analizy logów w czasie rzeczywistym.
 
-Pamiętaj, aby regularnie przeglądać i analizować logi systemowe, aby w porę wykrywać i reagować na potencjalne zagrożenia bezpieczeństwa.
+Pamiętaj, aby regularnie przeglądać i analizować dzienniki systemowe, aby wykrywać i reagować na potencjalne zagrożenia bezpieczeństwa w odpowiednim czasie.
 
 ______
 
-## Don'ts:
+## Zakazy:
 
-### Use weak passwords
+### Używaj słabych haseł
 
-Używanie słabych haseł jest częstym błędem, który może sprawić, że twój system Linux będzie podatny na ataki. Atakujący mogą używać narzędzi do odgadywania haseł, które są oparte na popularnych słowach, nazwach lub datach. Ważne jest, aby używać silnych i unikalnych haseł, które nie są łatwe do odgadnięcia.
+Używanie słabych haseł jest częstym błędem, który może sprawić, że system Linux będzie podatny na ataki. Atakujący mogą używać narzędzi do odgadywania haseł opartych na popularnych słowach, nazwach lub datach. Ważne jest, aby używać silnych i unikalnych haseł, które nie są łatwe do odgadnięcia.
 
-Silne hasła można tworzyć, stosując kombinację dużych i małych liter, cyfr i znaków specjalnych. Dobrą praktyką jest również używanie[password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) może również pomóc w zapamiętaniu haseł i unikaniu używania tego samego hasła do wielu kont.
+Silne hasła można tworzyć przy użyciu kombinacji wielkich i małych liter, cyfr i znaków specjalnych. Dobrą praktyką jest również używanie [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) może również pomóc w zapamiętaniu haseł i uniknięciu używania tego samego hasła do wielu kont.
 
-### Pozwól na dostęp do SSH rootowi
+### Zezwalaj na dostęp roota SSH
 
-Zezwolenie na dostęp root do SSH jest zagrożeniem bezpieczeństwa, które może dać napastnikom pełną kontrolę nad systemem Linux. Zamiast tego należy użyć konta użytkownika niebędącego rootem do zalogowania się do systemu, a następnie podnieść uprawnienia za pomocą polecenia **sudo**. Pomaga to ograniczyć potencjalny wpływ ataku poprzez ograniczenie przywilejów kont użytkowników.
+Zezwolenie na dostęp roota do SSH jest zagrożeniem bezpieczeństwa, które może dać atakującym pełną kontrolę nad systemem Linux. Zamiast tego należy użyć konta użytkownika innego niż root, aby zalogować się do systemu, a następnie podnieść uprawnienia za pomocą polecenia **sudo**. Pomaga to ograniczyć potencjalny wpływ ataku poprzez ograniczenie uprawnień kont użytkowników.
 
-### Instalowanie zbędnego oprogramowania
+### Instalowanie niepotrzebnego oprogramowania
 
-Instalowanie zbędnego oprogramowania może zwiększyć powierzchnię ataku systemu Linux, czyniąc go bardziej podatnym na ataki. Ważne jest, aby instalować tylko oprogramowanie, które jest niezbędne dla systemu i usuwać wszelkie zbędne oprogramowanie. Pomaga to zmniejszyć liczbę potencjalnych luk w systemie i zminimalizować ryzyko udanego ataku.
+Instalowanie niepotrzebnego oprogramowania może zwiększyć powierzchnię ataku systemu Linux, czyniąc go bardziej podatnym na ataki. Ważne jest, aby instalować tylko to oprogramowanie, które jest niezbędne dla systemu i usuwać wszelkie niepotrzebne programy. Pomoże to zmniejszyć liczbę potencjalnych luk w systemie i zminimalizować ryzyko udanego ataku.
 
 ### Używanie przestarzałego oprogramowania
 
-Używanie przestarzałego oprogramowania może sprawić, że Twój system będzie podatny na ataki wykorzystujące znane luki. Ważne jest, aby zawsze używać najnowszej wersji oprogramowania i regularnie je aktualizować w celu zapewnienia bezpieczeństwa. Pomaga to załatać znane luki i chronić system przed potencjalnymi atakami.
+Korzystanie z nieaktualnego oprogramowania może sprawić, że system będzie podatny na ataki wykorzystujące znane luki w zabezpieczeniach. Ważne jest, aby zawsze używać najnowszej wersji oprogramowania i regularnie je aktualizować w celu zapewnienia bezpieczeństwa. Pomaga to załatać znane luki i chronić system przed potencjalnymi atakami.
 
 ______
 
 ## Wnioski
 
-Podsumowując, utwardzenie twojego systemu Linux jest krytyczne dla zapewnienia jego bezpieczeństwa i ochrony przechowywanych w nim danych. Stosując się do porad i wskazówek zawartych w tym artykule, możesz podjąć ważne kroki w celu zabezpieczenia swojego systemu i zmniejszenia ryzyka wystąpienia cyberzagrożeń. Pamiętaj, aby zawsze aktualizować swój system, używać zapory sieciowej, konfigurować politykę haseł i monitorować logi systemowe. Unikaj używania słabych haseł, wyłączania automatycznych aktualizacji, zezwalania na dostęp root SSH, instalowania niepotrzebnego oprogramowania i używania przestarzałego oprogramowania. Pamiętając o tych najlepszych praktykach, możesz mieć pewność, że twój system Linux pozostanie bezpieczny i chroniony.
+Podsumowując, wzmocnienie systemu Linux ma kluczowe znaczenie dla zapewnienia jego bezpieczeństwa i ochrony przechowywanych w nim danych. Postępując zgodnie z zaleceniami i zakazami opisanymi w tym artykule, można podjąć ważne kroki w celu zabezpieczenia systemu i zmniejszenia ryzyka cyberzagrożeń. Pamiętaj, aby zawsze aktualizować system, korzystać z zapory sieciowej, konfigurować zasady haseł i monitorować dzienniki systemowe. Unikaj używania słabych haseł, wyłączania automatycznych aktualizacji, zezwalania na dostęp roota SSH, instalowania niepotrzebnego oprogramowania i korzystania z przestarzałego oprogramowania. Pamiętając o tych najlepszych praktykach, możesz zapewnić, że twój system Linux pozostanie bezpieczny i chroniony.
 
 ## Referencje:
 
--[The Center for Internet Security's Linux Hardening Guide](https://www.cisecurity.org/cis-hardened-images/)
--[Red Hat Enterprise Linux Security Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index)
--[Ubuntu Security Documentation](https://ubuntu.com/security)
--[Linux Security Wiki](https://en.wikibooks.org/wiki/Linux_Security)
+- [The Center for Internet Security's Linux Hardening Guide](https://www.cisecurity.org/cis-hardened-images/)
+- [Red Hat Enterprise Linux Security Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index)
+- [Ubuntu Security Documentation](https://ubuntu.com/security)
+- [Linux Security Wiki](https://en.wikibooks.org/wiki/Linux_Security)
