@@ -40,6 +40,20 @@ Creating strong passwords doesn't have to be a complex or time-consuming process
 - **Avoid common patterns**: Steer clear of sequential numbers, keyboard patterns (e.g., "qwerty"), or repeated characters (e.g., "aaaaaa").
 - **Regularly update your passwords**: Change your passwords periodically, especially for your most important accounts. This practice reduces the risk of unauthorized access in case your password gets compromised.
 
+|                     | Weak Passwords                           | Strong Passwords                           |
+| ------------------- | ---------------------------------------- | ------------------------------------------ |
+| Length              | Short, typically 6-8 characters           | Long, typically 12+ characters              |
+| Complexity          | Simple, often a single word or number     | Complex, combination of letters, numbers, and special characters |
+| Guessability        | Easy to guess or crack with brute force   | Difficult to guess or crack                  |
+| Security            | Vulnerable to hacking and unauthorized access   | Resistant to hacking and unauthorized access |
+| Common Examples     | Password123, 123456, username              | P@ssw0rd!1, Tr0ub4dor&3                      |
+| Reusability         | Frequently reused across multiple accounts | Unique for each account                      |
+| Memorability        | Easily remembered                         | May require password manager or memorization techniques |
+| Best Practices      | Avoid using common words, numbers, or patterns | Use a combination of uppercase and lowercase letters, numbers, and special characters |
+| Protection          | Weak protection against password guessing | Strong protection against password guessing  |
+| Risk                | High risk of compromise and identity theft | Lower risk of compromise and identity theft   |
+
+
 ______
 
 ## The Power of Passphrases

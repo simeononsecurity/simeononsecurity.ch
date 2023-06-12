@@ -89,6 +89,16 @@ ______
 
 Both **TrueNas** and **Unraid** are powerful and mature **NAS operating systems** that cater to different user needs. TrueNas is well-suited for users with **advanced knowledge** of storage management and a desire for **advanced data protection** using **OpenZFS**[^1]. On the other hand, Unraid offers a **flexible and user-friendly** NAS system, making it ideal for **home users**[^2].
 
+| Subject            | TrueNAS                                                                                          | Unraid                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| Cost               | Free and open-source (TrueNAS CORE)                                                               | Proprietary OS with fair pricing plans (Basic, Plus, and Pro)                                |
+| User-Friendliness  | Geared towards the enterprise market, requires advanced knowledge                                 | Emphasizes ease of use and flexibility                                                       |
+| Features           | Supports NFS shares, SMB, AFP, iSCSI, LDAP, Active Directory, Kerberos, cloud storage services | Supports NFS shares, SMB, AFP, Docker containers, virtual machine configuration (KVM)        |
+| Data Protection    | Advanced data protection with OpenZFS file system                                                 | Mixes and matches different disk sizes and types                                              |
+| Third-Party Apps   | Limited software selection, provides Jails for containerization, Bhyve for virtualization      | Wide range of third-party applications through Docker containers                              |
+| Documentation      | Comprehensive documentation and official community forum                                         | Less extensive documentation but helpful community forum                                      |
+| Community Support  | Official community forum for assistance and knowledge sharing                                    | Official community forum known for being friendly, informative, and helpful                  |
+
 In summary:
 
 ### TrueNas Pros:

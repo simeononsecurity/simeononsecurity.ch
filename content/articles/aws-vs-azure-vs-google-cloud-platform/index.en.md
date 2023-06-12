@@ -143,6 +143,30 @@ It's important to consider both the pricing and security features offered by eac
 
 Choosing the right cloud solution for your business can be a daunting task. With so many options available, it's essential to evaluate your needs carefully and select a provider that meets your specific requirements. In this article, we'll discuss the key factors to consider when choosing a secure cloud solution for your business.
 
+|           | AWS                          | Azure                        | Google Cloud Platform       |
+|-----------|------------------------------|------------------------------|-----------------------------|
+| Security  | Robust security features     | Comprehensive security       | Advanced and state-of-the-art|
+|           | Identity and Access          | features and integration     | security features           |
+|           | Management (IAM)             | with Microsoft products      |                             |
+|           | Encryption for data at rest  | Multi-factor authentication |                             |
+|           | and in transit               | (MFA)                        |                             |
+|           | Compliance with various      | Regulatory compliance        | Cryptographic keys           |
+|           | standards and certifications| certifications               | management and              |
+|           | (HIPAA, PCI DSS, SOC, etc.)  | (HIPAA, ISO/IEC 27001, SOC)  | hardware security modules   |
+|           |                              |                              | (HSMs)                      |
+| Pricing   | Multiple pricing schemes     | Cost-effective pricing and   | Pay-as-you-go pricing and   |
+|           | (on-demand, reserved         | discounts for long-term      | discounts for long-term     |
+|           | instances, spot instances)   | contracts                    | contracts                   |
+|           |                              |                              |                             |
+| Scalability| Highly scalable              | Easy integration with        | Flexibility and scalability |
+|           | and flexible                 | Microsoft products           |                             |
+|           |                              |                              |                             |
+| Support   | Responsive support and       | Comprehensive support and    | Wide range of support and   |
+|           | services                     | services                     | services                    |
+|           |                              |                              |                             |
+| Popularity | Widely used and established  | Growing popularity and       | Increasing popularity       |
+|           | platform                     | market share                 |                             |
+
 #### Assessing Your Security Needs
 
 Security is a top priority for any business, and it's essential to assess your security needs before selecting a cloud provider. Start by creating a list of requirements and comparing them against each provider's security features. Consider **encryption**, **compliance**, **network security**, and **access management** features while evaluating providers.

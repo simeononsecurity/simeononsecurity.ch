@@ -40,7 +40,29 @@ One of the biggest differences between **Plex Media Server** and **Jellyfin** is
 **Jellyfin**, on the other hand, is completely free and open-source, making it a great option for those who are looking for a **budget-friendly solution**. However, since the platform is open-source, it may not have the same level of polish and user-friendly features as **Plex**. Despite this, **Jellyfin** provides a cost-effective way to organize and stream your media without any additional subscription fees, appealing to users who want to save on expenses.
 
 ______
-
 ## Conclusion:
 
-When it comes to choosing the right media server, it all comes down to your personal needs and preferences. If you're looking for a polished and user-friendly platform that offers a wide range of features, then **Plex Media Server** may be the right choice for you. However, if you're on a budget and prefer an open-source solution, then **Jellyfin** is definitely worth considering. Ultimately, the choice between **Plex Media Server vs Jellyfin** is yours to make, but with this comparison, we hope to make your
+When it comes to choosing the right media server, it all comes down to your personal needs and preferences. If you're looking for a polished and user-friendly platform that offers a wide range of features, then **Plex Media Server** may be the right choice for you. However, if you're on a budget and prefer an open-source solution, then **Jellyfin** is definitely worth considering. Ultimately, the choice between **Plex Media Server vs Jellyfin** is yours to make, but with this comparison, we hope to make your decision a little easier.
+
+**Plex Media Server** stands out with its intuitive user interface, automatic media organization, and extensive platform support. It offers premium features like live TV and DVR, music streaming, and photo management, making it a comprehensive solution for managing and streaming your media library. The availability of plugins further expands its functionality.
+
+On the other hand, **Jellyfin** provides a compelling alternative as a free and open-source media server. While it may not have the same level of polish and user-friendly features as Plex, it offers a cost-effective solution for organizing and streaming your media. The platform's user-friendly interface, automatic media organization, and cross-device streaming capabilities make it a viable choice for budget-conscious users.
+
+Ultimately, consider your budget, desired features, and technical comfort when making your decision. If you value convenience and are willing to invest in premium features, **Plex Media Server** is a solid option. However, if you prioritize affordability and open-source software, **Jellyfin** offers a compelling alternative. Regardless of your choice, both platforms provide effective solutions for managing and enjoying your personal media library.
+
+We hope that this comparison has provided you with valuable insights to assist you in making an informed decision. Happy streaming!
+
+
+| Feature                   | Plex Media Server                           | Jellyfin                                |
+|---------------------------|---------------------------------------------|-----------------------------------------|
+| Cost                      | Free (premium features require subscription) | Free and open-source                     |
+| User-Friendly Interface  | Yes                                         | Yes                                     |
+| Automatic Media Organization | Yes                                     | Yes                                     |
+| Streaming to Any Device   | Yes                                         | Yes                                     |
+| Live TV and DVR           | Premium feature                             | No                                      |
+| Music Streaming           | Premium feature                             | Yes                                     |
+| Photo Management          | Yes                                         | Yes                                     |
+| Plugin Support            | Yes                                         | Limited                                |
+| Community Support         | Yes                                         | Yes                                     |
+| Platform Availability     | Wide range of devices and operating systems  | Wide range of devices and operating systems |
+

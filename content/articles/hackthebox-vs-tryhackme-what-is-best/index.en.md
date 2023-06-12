@@ -11,7 +11,9 @@ coverAlt: "A cartoon hacker in a lab coat standing between two doors, one labele
 coverCaption: "Unleash Your Potential: Master the Art of Cybersecurity."
 ---
 
-**HackTheBox vs TryHackMe: Which is the Best for Junior Penetration Testing?**
+#### Strengths of TryHackMe
+
+**TryHackMe** is**HackTheBox vs TryHackMe: Which is the Best for Junior Penetration Testing?**
 
 In the article titled "**HackTheBox vs TryHackMe: Which is the Best for Junior Penetration Testing?**", we explore the comparison between **HackTheBox** and **TryHackMe** to determine the ideal platform for those starting their journey in **penetration testing**. To set the context, we define a **junior penetration tester** as an individual with limited **cybersecurity** experience. The article aims to provide insights and guidance for choosing the most suitable platform. 
 
@@ -78,9 +80,7 @@ To overcome the weaknesses of HackTheBox, beginners can leverage other platforms
 
 To learn more about the weaknesses of HackTheBox and explore alternative platforms, you can visit the official HackTheBox website at [https://www.hackthebox.eu/](https://www.hackthebox.eu/).
 
-#### Strengths of TryHackMe
-
-**TryHackMe** is a popular online platform that caters to users who are new to cybersecurity and prefer a more **structured learning experience**. Unlike HackTheBox, TryHackMe focuses on providing a beginner-friendly environment where users can learn and grow their cybersecurity skills.
+ a popular online platform that caters to users who are new to cybersecurity and prefer a more **structured learning experience**. Unlike HackTheBox, TryHackMe focuses on providing a beginner-friendly environment where users can learn and grow their cybersecurity skills.
 
 One of the key strengths of TryHackMe is its **structured approach to learning**. The platform offers a variety of **learning paths** and **guided challenges** that are designed to **build on each other**. Users can start with the basics and gradually progress to more advanced topics, gaining a solid foundation of cybersecurity knowledge along the way.
 
@@ -157,6 +157,17 @@ In contrast, **TryHackMe** is designed with a focus on providing a **structured 
 Both platforms have their strengths and weaknesses. HackTheBox's main strength lies in its **challenging nature** and the opportunity it provides to tackle complex real-world scenarios. On the other hand, one of its weaknesses is that it can be **overwhelming for beginners** due to the lack of structured guidance and a steep learning curve.
 
 TryHackMe's main strength lies in its **structured learning approach** and the ample guidance and support it offers, making it an excellent choice for beginners. However, some users may find the challenges to be **too easy** if they already have a solid foundation in cybersecurity. Additionally, TryHackMe's community, while supportive, may have **fewer resources available** compared to HackTheBox.
+
+|                 | HackTheBox                                     | TryHackMe                                  |
+|-----------------|------------------------------------------------|--------------------------------------------|
+| Learning Style  | Hands-on challenges                            | Structured learning paths and challenges   |
+| Difficulty      | Extremely difficult                            | Beginner-friendly with gradual progression |
+| Community       | Large and active community                      | Active and supportive community            |
+| Resources       | Write-ups, forums, chat channels                | Detailed walkthroughs, video tutorials     |
+| Focus           | Real-world scenarios, practical skills          | Foundational knowledge and skills          |
+| Pricing         | Free and paid subscriptions available           | Free and premium membership options        |
+| Challenge Types | Web application security, network security, etc. | Networking, web application security, etc. |
+
 ### Contrast
 
 One of the key distinctions between **HackTheBox** and **TryHackMe** is the difference in **difficulty levels** of their challenges. HackTheBox challenges are intentionally crafted to be **extremely difficult**, pushing users to their limits and requiring them to showcase advanced problem-solving skills and **out-of-the-box thinking**. These challenges aim to simulate real-world scenarios and provide a platform for users to test their expertise in various **cybersecurity domains**. For example, users may encounter challenges that involve **exploiting vulnerabilities** in web applications, **cracking encryption algorithms**, or **analyzing network traffic** to identify security weaknesses.
