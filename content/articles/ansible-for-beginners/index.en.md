@@ -18,6 +18,8 @@ If you're new to Ansible, this article will provide an introduction to the tool,
 
 Ansible was developed by Michael DeHaan in 2012 and acquired by Red Hat in 2015. Since then, it has become one of the most popular automation tools in the industry.
 
+{{< youtube id="goclfp6a2IQ" >}}
+
 Ansible uses a simple, declarative language called YAML (short for "YAML Ain't Markup Language") to define the desired state of infrastructure. This makes it easy to read and understand, even for non-programmers.
 
 Ansible can be used to automate a wide range of tasks, including:
