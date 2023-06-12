@@ -26,8 +26,11 @@
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>1337 H4X0R RSS GENERATOR</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+    {{ with .Site.Author.email }}
+      <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>
+      <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>
+    {{ end }}{{ end }}
+    {{ with .Site.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" }}
@@ -39,29 +42,57 @@
           {{ with .Permalink }}
             <link>{{ . }}</link>
           {{ end }}
-          <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-          {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-          <guid>{{ .Permalink }}</guid>
-          <description>
-            {{ if .Params.Cover }}
-              {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\"/ loading=\"lazy\">" .RelPermalink .Params.Cover }}
-              {{ else }}{{ printf "<img src=\"%s\"/ loading=\"lazy\">" (.Params.Cover | absURL) }}
+          <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Mon, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
+          {{ with $.Params.Author }}
+            <author>{{ . }}</author>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+          {{ else }}
+            {{ with .Site.Author.email }}
+              <author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+            {{ else }}
+              {{ with $.Site.Author.name }}
+                <author>{{ . }}</author>
+                <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          <category>
+            {{ if .Params.genre }}
+              {{ range $index, $genre := .Params.genre }}
+                {{ if $index }}, {{ end }}"{{ $genre }}"
               {{ end }}
             {{ else }}
-              {{ $images := .Resources.ByType "image" }}
-              {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
-              {{ with $featured }}{{ printf "<img src=\"%s\"/ loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
+              {{ range $index, $tag := .Params.tags }}
+                {{ if $index }}, {{ end }}"{{ $tag }}"
+              {{ end }}
             {{ end }}
-              
-            {{ if .Site.Params.RssFullText }}{{ .Content | html }}
+          </category>
+          <guid>{{ .Permalink }}</guid>
+          <comments>https://github.com/simeononsecurity/simeononsecurity.ch-comments/issues</comments>
+          <description>
+            {{ if .Site.Params.RssFullText }}
+              {{ .Content | html }}
             {{ else }}
               {{ with .Description }}{{ . | html }}
               {{ else }}{{ .Summary | html }}
               {{ end }}
             {{ end }}
-            
+
+            {{ if .Params.Cover }}
+              {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\" loading=\"lazy\">" .RelPermalink .Params.Cover }}
+              {{ else }}{{ printf "<img src=\"%s\" loading=\"lazy\">" (.Params.Cover | absURL) }}
+              {{ end }}
+            {{ else }}
+              {{ $images := .Resources.ByType "image" }}
+              {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
+              {{ with $featured }}{{ printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
+            {{ end }}
+          
+            {{ if gt (len .Translations) 1 }}
             {{ range .Translations }}
               <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+            {{ end }}
             {{ end }}
           </description>
         </item>
