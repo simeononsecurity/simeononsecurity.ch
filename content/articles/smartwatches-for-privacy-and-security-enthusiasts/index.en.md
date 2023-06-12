@@ -63,9 +63,19 @@ ______
 
 ______
 
+## Conclusion
+
 In conclusion, choosing a smartwatch that values privacy is essential for individuals concerned about protecting their personal data. The options mentioned in this article, such as AsteroidOS, PineTime, The Watchy, Bangle.js 2, and supported devices using Gadgetbridge, offer privacy-conscious features and customizable experiences. By selecting a smartwatch that aligns with your privacy needs, you can enjoy the benefits of wearable technology while keeping your data secure.
 
 Remember, always review the specifications and features of each smartwatch to ensure it meets your privacy requirements before making a purchase.
+
+| Smartwatch          | Features                                       | Supported Devices                  | Open-Source            | Customizability     | Pricing       |
+|---------------------|------------------------------------------------|------------------------------------|------------------------|---------------------|----------------|
+| AsteroidOS          | Always-on-Display, Tilt-to-Wake, Phone Notifications  | LG G Watch, LG Watch Urbane, Sony Smartwatch 3  | Yes                    | Limited             | $150-$200     |
+| PineTime            | Fitness tracking, Notifications                | Customizable with InfiniTime firmware    | Yes                    | Limited             | $25-$50       |
+| The Watchy          | E-paper display, Customizable watch faces, Apps | Customizable                          | Yes                    | Extensive           | $80-$100      |
+| Bangle.js 2         | Hackable, Open-source, JavaScript-based         | Customizable                          | Yes                    | Extensive           | $60-$80       |
+| Supported Devices with Gadgetbridge | Varies depending on supported devices in Gadgetbridge | Amazfit Bip, Galaxy devices, headphones, Fitbit models | Yes | Limited             | Varies         |
 
 ______
 
