@@ -56,6 +56,23 @@ Linux has emerged as a powerful gaming platform, and with the right choice of Li
 
 Try out these distros and immerse yourself in the exciting world of Linux gaming!
 
+| Linux Distro | Description                                                                                           |
+|--------------|-------------------------------------------------------------------------------------------------------|
+| Ubuntu       | - Stable and reliable environment                                                                     |
+|              | - Extensive hardware support                                                                          |
+|              | - User-friendly interface and vast software repository                                                |
+| Zorin OS     | - Windows-like interface for a seamless transition from Windows                                      |
+|              | - Built-in support for gaming and popular gaming applications                                        |
+| Manjaro      | - Rolling release model with user-friendly interface                                                 |
+|              | - Curated selection of gaming software and pre-installed gaming tools                                |
+| SteamOS      | - Specialized Linux distribution by Valve Corporation                                                 |
+|              | - Console-like interface optimized for big-screen gaming                                              |
+|              | - Pre-installed Steam client for access to a vast library of games                                   |
+| Pop!_OS      | - Optimized gaming experience with automatic GPU switching for laptops (by System76)                 |
+| Fedora       | - Focus on cutting-edge technologies and latest software updates                                     |
+| Solus        | - Beginner-friendly distro with great gaming performance and curated selection of gaming software    |
+
+
 ___________________________
 
 **References:**

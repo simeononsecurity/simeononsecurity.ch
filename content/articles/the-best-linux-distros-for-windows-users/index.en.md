@@ -64,6 +64,24 @@ ______
 
 In conclusion, if you're considering switching from Windows to Linux, Ubuntu, Zorin OS, Linux Mint, and Manjaro are excellent options to start with. They provide user-friendly interfaces, familiar environments, and extensive support. Additionally, there are other Linux distros available that cater to different preferences and requirements. Explore these options and choose the one that suits your needs best.
 
+| Linux Distro   | Description                                                                                                                                         |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ubuntu         | - Popular choice for beginners                                                                                                                      |
+|                | - User-friendly interface and extensive software repository                                                                                         |
+|                | - Regular updates and strong community support                                                                                                      |
+| Zorin OS       | - Provides a smooth transition from Windows with a Windows-like interface                                                                            |
+|                | - Offers different desktop environments, including the familiar Zorin Desktop that resembles the Windows interface                               |
+|                | - Comes with pre-installed software for convenience                                                                                                 |
+| Linux Mint     | - Based on Ubuntu and provides a familiar and intuitive desktop environment                                                                          |
+|                | - Offers a seamless transition for Windows users with its Cinnamon desktop environment                                                               |
+|                | - Includes various multimedia codecs and pre-installed software                                                                                      |
+| Manjaro        | - Rolling release distribution with the latest software updates                                                                                      |
+|                | - Intuitive user interface and a range of desktop environments to choose from                                                                        |
+|                | - Provides an easy-to-use package manager and a supportive community                                                                                 |
+| Other Options  | - Fedora: Community-driven distribution with a commitment to open-source software and cutting-edge features                                         |
+|                | - Pop!_OS: Designed to enhance productivity and gaming performance, visually appealing interface, excellent hardware compatibility                    |
+|                | - elementary OS: Beautiful and intuitive user interface, focuses on simplicity, reliability, and privacy                                             |
+
 ### References
 
 - [Ubuntu](https://ubuntu.com/download)

@@ -74,6 +74,24 @@ ______
 
 When it comes to privacy and security, using a Linux distribution that prioritizes these aspects is crucial. The **best Linux distros** mentioned in this article provide strong privacy features, robust security measures, and a commitment to user data protection. Whether you are a journalist, privacy-conscious user, or a cybersecurity professional, these distributions offer excellent options for safeguarding your privacy and ensuring a secure computing environment.
 
+| Linux Distro         | Description                                                                                                                                                      |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tails                | - Security-focused distribution designed for privacy and anonymity                                                                                               |
+|                      | - Routes internet connections through the Tor network by default                                                                                                  |
+|                      | - Includes built-in encryption tools and secure deletion options                                                                                                |
+| Qubes OS             | - Highly secure distribution focused on isolation and compartmentalization of tasks                                                                             |
+|                      | - Uses virtualization to create multiple isolated virtual machines                                                                                               |
+|                      | - Offers secure browsing options and strict access controls                                                                                                      |
+| Whonix               | - Privacy-focused distribution that combines Tor and virtualization for anonymity and security                                                                   |
+|                      | - Runs two virtual machines to separate user activities and route all connections through the Tor network                                                       |
+| Parrot Security OS   | - Security-focused distribution for security testing, forensic analysis, and penetration testing                                                               |
+|                      | - Includes a wide range of security tools and utilities                                                                                                          |
+|                      | - Strong privacy features and focuses on providing a secure computing environment                                                                                |
+| OpenBSD              | - Open-source operating system known for its strong focus on security and code correctness                                                                      |
+|                      | - Undergoes rigorous code audits and follows the principle of "secure by default"                                                                               |
+|                      | - Includes various security features such as address space layout randomization (ASLR) and secure memory management                                             |
+
+
 Remember, while these distributions provide enhanced privacy and security, it is essential to remain vigilant and follow best practices for online safety.
 
 ______
