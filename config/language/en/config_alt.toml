@@ -22,3 +22,14 @@ disableLanguages = [
 ]
 [params]
   optimizeImages = false
+[mediaTypes]
+  [mediaTypes."image/jpeg"]
+    disable = true
+  [mediaTypes."image/png"]
+    disable = true
+  [mediaTypes."image/webp"]
+    disable = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+  page = ["HTML"]
