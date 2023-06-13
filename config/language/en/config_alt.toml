@@ -1,4 +1,3 @@
-
 baseurl = "https://simeononsecurity.com"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -21,3 +20,5 @@ disableLanguages = [
     'pl',
     'pl',
 ]
+[params]
+  optimizeImages = false
