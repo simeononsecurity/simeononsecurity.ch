@@ -13,6 +13,8 @@ coverCaption: ""
 
 Are you interested in learning Linux but don't know where to start? Linux is a powerful and popular operating system that is widely used in both personal and professional settings. This guide will give you an overview of how to get started with Linux, including tips for learning both Debian and RHEL-based variants of Linux.
 
+{{< youtube id="10f4899srvc" >}}
+
 ## Understanding Linux
 
 Linux is an open-source operating system that is widely used in server and desktop environments. It was first released in 1991 by Linus Torvalds, and has since become one of the most popular operating systems in the world. Linux is known for its stability, security, and flexibility, and is used by many companies, including Amazon, Google, and IBM.
