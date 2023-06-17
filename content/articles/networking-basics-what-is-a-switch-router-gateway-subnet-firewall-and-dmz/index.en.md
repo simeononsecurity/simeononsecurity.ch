@@ -15,7 +15,11 @@ coverCaption: "Empowering secure and reliable networks with networking essential
 
 In the ever-evolving world of technology, networking plays a crucial role in connecting devices and enabling communication. Understanding the basics of networking is essential for both IT professionals and individuals seeking to expand their knowledge. This article aims to provide a comprehensive overview of key networking components, including switches, routers, gateways, subnets, firewalls, and DMZs. By the end, you'll have a solid understanding of these concepts and their importance in building reliable and secure networks.
 
+{{< youtube id="_IOZ8_cPgu8" >}}
+
 ## Switches: Enhancing Local Area Network Performance
+
+{{< youtube id="NDVImep5UBI" >}}
 
 A **switch** is a networking device that operates at the data link layer of the OSI model. It connects multiple devices within a local area network (LAN) and facilitates the exchange of data packets between them. Unlike hubs, which simply broadcast data to all connected devices, switches intelligently forward packets only to their intended recipients. This enhances network performance by reducing collisions and congestion.
 
@@ -28,6 +32,8 @@ Some key features and benefits of switches include:
 ______
 
 ## Routers: Connecting Networks and Enabling Internet Access
+
+{{< youtube id="lyIUgr9JOLs" >}}
 
 While switches operate within a LAN, **routers** serve as the backbone of network connectivity by connecting multiple networks together. They operate at the network layer of the OSI model and use routing protocols to determine the optimal path for data packets to reach their destination. In addition to their role in interconnecting networks, routers also enable internet access for devices within a network.
 
@@ -42,6 +48,8 @@ ______
 
 ## Gateways: Bridging Different Network Types
 
+{{< youtube id="SXZC6D7TRfM" >}}
+
 A **gateway** is a device or software component that connects networks with different protocols or architectures, enabling communication between them. Gateways act as intermediaries, translating data packets from one network format to another. They play a crucial role in enabling communication between disparate networks, such as connecting a local network to the internet.
 
 Key features and benefits of gateways include:
@@ -53,6 +61,8 @@ Key features and benefits of gateways include:
 ______
 
 ## Subnets: Organizing Networks for Efficient Communication
+
+{{< youtube id="nR5xCmXJE5E" >}}
 
 A **subnet** is a logical subdivision of an IP network. It enables the segmentation of a network into smaller, more manageable subnetworks, which can improve network performance and security. Subnets are defined by their subnet mask, which determines the range of IP addresses allocated to each subnet.
 
@@ -66,6 +76,8 @@ ______
 
 ## Firewalls: Protecting Networks from Unauthorized Access
 
+{{< youtube id="kDEX1HXybrU" >}}
+
 A **firewall** is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between internal networks and external networks, such as the internet, preventing unauthorized access and potential threats.
 
 Key features and benefits of firewalls include:
@@ -78,6 +90,8 @@ Key features and benefits of firewalls include:
 ______
 
 ## DMZs: Enhancing Network Security
+
+{{< youtube id="dqlzQXo1wqo" >}}
 
 A **Demilitarized Zone (DMZ)** is a network segment that acts as a buffer zone between an internal network and external networks, such as the internet. It provides an additional layer of security by isolating publicly accessible services, such as web servers or email servers, from the internal network.
 
