@@ -169,6 +169,17 @@ ______
 
 DNS records are essential components of the Domain Name System (DNS) that provide various types of information associated with a domain name. Let's explore some common types of DNS records and their purposes:
 
+| Record Type | Description                                                                 | Example                     |
+|-------------|-----------------------------------------------------------------------------|-----------------------------|
+| A           | Maps a domain name to an IPv4 address.                                       | `example.com     IN A 192.0.2.1`             |
+| AAAA        | Maps a domain name to an IPv6 address.                                       | `example.com     IN AAAA 2001:db8::1`         |
+| CNAME       | Maps an alias (canonical name) to the actual domain name.                    | `www.example.com IN CNAME example.com`        |
+| MX          | Specifies the mail servers responsible for accepting incoming emails.        | `example.com     IN MX 10 mail.example.com`   |
+| TXT         | Stores arbitrary text data, often used for SPF, DKIM, or domain verification.| `example.com     IN TXT "v=spf1 a mx -all"`  |
+| NS          | Indicates the authoritative name servers for the domain.                     | `example.com     IN NS ns1.example.com`       |
+| SOA         | Specifies global properties for the zone (start of authority record).        | `example.com     IN SOA ns1.example.com`      |
+| SRV         | Defines the location of a specific service offered by the domain.            | `_service._proto.example.com IN SRV 10 20 5060 target.example.com` |
+
 ### 1. A Record (Address Record)
 
 The **A record** maps a domain name to an IPv4 address. It is the most basic and commonly used DNS record type. When a user enters a domain name into a web browser, the A record allows the browser to resolve the domain name to the corresponding IP address of the web server hosting the website.
