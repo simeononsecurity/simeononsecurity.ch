@@ -7,12 +7,18 @@ sitemap:
   priority: 0.3
 ---
 
+## [Password Strength Checker](/password-checker):
+   Check the strength of your passwords with our Password Strength Checker tool. Ensure your passwords are secure and protect your online accounts.
 
-## [Password Strength Checker](/password-checker)
-Check the strength of your passwords with our Password Strength Checker tool. Ensure your passwords are secure and protect your online accounts.
+## [String Hash Calculator](/hash-calculator):
+   Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity.
 
-## [String Hash Calculator](/hash-calculator)
-Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity.
+## [base64 Encoder and Decoder](/base64_encode_decode):
+   An online tool to encode or decode text or files using Base64 encoding. Convert data for data transmission and storage.
 
-## [Image Exif Viewer](/exif-viewer)
-An online tool to view EXIF information of an image. Extract metadata such as camera model, exposure settings, and GPS coordinates.
+## [Binary, Decimal, Hexadecimal Calculator](/binary_decimal_converter):
+   An online tool to convert numbers between binary, decimal, and hexadecimal representations. Easily perform number system conversions.
+
+## [Image Exif Viewer](/exif-viewer):
+   An online tool to view EXIF information of an image. Extract metadata such as camera model, exposure settings, and GPS coordinates.
+
