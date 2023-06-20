@@ -24,3 +24,6 @@ sitemap:
 
 ## [Shodan IP Lookup](/shodan_ip):
   An online tool to perform a Shodan IP lookup. Retrieve information such as hostnames, open ports, tags, CPEs, and vulnerabilities associated with an IP address.
+
+## [Nmap Command Generator](/nmap):
+  A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.
