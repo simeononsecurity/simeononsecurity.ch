@@ -7,6 +7,8 @@ sitemap:
   priority: 0.3
 ---
 
+## Available Tool Table
+
 | Category                 | Tool Description                                           | Link                          |
 |--------------------------|------------------------------------------------------------|-------------------------------|
 | Password Tools           | Check the strength of your passwords with our Password Strength Checker tool. Ensure your passwords are secure and protect your online accounts.     | [Password Strength Checker](/password-checker)  |
