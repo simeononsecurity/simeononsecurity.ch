@@ -7,23 +7,38 @@ sitemap:
   priority: 0.3
 ---
 
-## [Password Strength Checker](/password-checker):
-   Check the strength of your passwords with our Password Strength Checker tool. Ensure your passwords are secure and protect your online accounts.
+## Password Tools
 
-## [String Hash Calculator](/hash-calculator):
-   Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity.
+### [Password Strength Checker](/password-checker)
+Check the strength of your passwords with our Password Strength Checker tool. Ensure your passwords are secure and protect your online accounts.
 
-## [base64 Encoder and Decoder](/base64_encode_decode):
-   An online tool to encode or decode text or files using Base64 encoding. Convert data for data transmission and storage.
+## Data Tools
 
-## [Binary, Decimal, Hexadecimal Calculator](/binary_decimal_converter):
-   An online tool to convert numbers between binary, decimal, and hexadecimal representations. Easily perform number system conversions.
+### [String Hash Calculator](/hash-calculator)
+Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity.
 
-## [Image Exif Viewer](/exif-viewer):
-   An online tool to view EXIF information of an image. Extract metadata such as camera model, exposure settings, and GPS coordinates.
+### [Base64 Encoder and Decoder](/base64_encode_decode)
+An online tool to encode or decode text or files using Base64 encoding. Convert data for data transmission and storage.
 
-## [Shodan IP Lookup](/shodan_ip):
-  An online tool to perform a Shodan IP lookup. Retrieve information such as hostnames, open ports, tags, CPEs, and vulnerabilities associated with an IP address.
+## Number Conversion Tools
 
-## [Nmap Command Generator](/nmap):
-  A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.
+### [Binary, Decimal, Hexadecimal Calculator](/binary_decimal_converter)
+An online tool to convert numbers between binary, decimal, and hexadecimal representations. Easily perform number system conversions.
+
+## Image Tools
+
+### [Image Exif Viewer](/exif-viewer)
+An online tool to view EXIF information of an image. Extract metadata such as camera model, exposure settings, and GPS coordinates.
+
+## Network Tools
+
+### [Shodan IP Lookup](/shodan_ip)
+An online tool to perform a Shodan IP lookup. Retrieve information such as hostnames, open ports, tags, CPEs, and vulnerabilities associated with an IP address.
+
+### [Nmap Command Generator](/nmap)
+A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.
+
+## File Permissions Tools
+
+### [Chmod Command Generator](/chmod)
+A menu-based tool that generates chmod commands based on user input for modifying file permissions.
