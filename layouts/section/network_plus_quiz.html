@@ -78,16 +78,16 @@
   </style>
 
   <script>
-    // Fetch the secplusdict JSON data from the URL
-    fetch("https://simeononsecurity.ch/quiz-dicts/secplusdict.json")
+    // Fetch the netplusdict JSON data from the URL
+    fetch("https://simeononsecurity.ch/quiz-dicts/netplusdict.json")
       .then(function(response) {
         if (!response.ok) {
           throw new Error("Network response was not OK");
         }
         return response.json();
       })
-      .then(function(secplusdict) {
-        console.log("secplusdict:", secplusdict);
+      .then(function(netplusdict) {
+        console.log("netplusdict:", netplusdict);
   
         // Once the JSON data is fetched, proceed with the quiz logic
         var currentQuestionIndex = 0;
@@ -96,8 +96,8 @@
           incorrect: 0,
         };
   
-        // Shuffle the secplusdict array to randomize the questions
-        secplusdict = shuffle(secplusdict);
+        // Shuffle the netplusdict array to randomize the questions
+        netplusdict = shuffle(netplusdict);
   
         // Function to shuffle an array using the Fisher-Yates algorithm
         function shuffle(array) {
@@ -136,7 +136,7 @@
           answersElement.innerHTML = "";
   
           // Get the current question object
-          var currentQuestion = secplusdict[currentQuestionIndex];
+          var currentQuestion = netplusdict[currentQuestionIndex];
   
           console.log("currentQuestion:", currentQuestion);
   
@@ -164,7 +164,7 @@
             var selectedAnswerValue = selectedAnswer.value;
   
             // Check if the answer is correct
-            var currentQuestion = secplusdict[currentQuestionIndex];
+            var currentQuestion = netplusdict[currentQuestionIndex];
             var correctAnswer = currentQuestion.correctanswer;
             var reasoning = currentQuestion.reasoning;
   
@@ -173,7 +173,7 @@
               // Move to the next question
               currentQuestionIndex++;
               // Check if the quiz is finished
-              if (currentQuestionIndex === secplusdict.length) {
+              if (currentQuestionIndex === netplusdict.length) {
                 // Display the final score
                 var quizContainer = document.getElementById("quiz-container");
                 if (!quizContainer) {
@@ -240,7 +240,7 @@
           currentQuestionIndex++;
   
           // Check if the quiz is finished
-          if (currentQuestionIndex === secplusdict.length) {
+          if (currentQuestionIndex === netplusdict.length) {
             // Display the final score
             var quizContainer = document.getElementById("quiz-container");
             if (!quizContainer) {
@@ -288,7 +288,7 @@
         }
       })
       .catch(function(error) {
-        console.log("Error fetching secplusdict:", error);
+        console.log("Error fetching netplusdict:", error);
       });
   </script>
   

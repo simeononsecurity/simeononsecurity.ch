@@ -1,8 +1,8 @@
 ---
-title: "Security Plus Practice Test - SimeonOnSecurity"
-description: "An online tool to perform a Shodan IP lookup. Retrieve information such as hostnames, open ports, tags, CPEs, and vulnerabilities associated with an IP address."
-genre: ["IP lookup", "network security", "online tools"]
-tags: ["IP lookup", "Shodan", "network security", "hostnames", "open ports", "tags", "CPEs", "vulnerabilities", "online tools"]
+title: "CompTIA Security+ Practice Test - SimeonOnSecurity"
+description: "Enhance your security knowledge with our comprehensive CompTIA Security+ practice test. Test your understanding of key concepts, techniques, and best practices in the field of network security."
+genre: ["CompTIA Security Plus", "practice test", "network security"]
+tags: ["CompTIA Security Plus", "practice test", "security knowledge", "concepts", "techniques", "best practices", "network security"]
 sitemap:
   priority: 0.3
 layout: "security_plus_quiz"

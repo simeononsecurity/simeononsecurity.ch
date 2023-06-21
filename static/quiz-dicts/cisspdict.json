@@ -1,14 +1,14 @@
-cisspdict = [
+[
     {
         "question": "What is the purpose of a penetration test?",
         "answers": {
             "a": "To find vulnerabilities in an organization's system and attempt to exploit them",
             "b": "To simulate a real-world attack on an organization's system",
             "c": "To validate the effectiveness of an organization's security controls",
-            "d": "All of the above",
+            "d": "All of the above"
         },
         "correctanswer": "d",
-        "reasoning": "Penetration testing is a simulated attack on an organization's system that identifies vulnerabilities, attempts to exploit them, and validates the effectiveness of an organization's security controls. Therefore, all the options are correct.",
+        "reasoning": "Penetration testing is a simulated attack on an organization's system that identifies vulnerabilities, attempts to exploit them, and validates the effectiveness of an organization's security controls. Therefore, all the options are correct."
     },
     {
         "question": "Which of the following is NOT a limitation of vulnerability scanners?",
@@ -16,10 +16,10 @@ cisspdict = [
             "a": "They cannot detect vulnerabilities in custom-coded applications",
             "b": "They may produce false positives",
             "c": "They may produce false negatives",
-            "d": "They can identify all vulnerabilities in a system",
+            "d": "They can identify all vulnerabilities in a system"
         },
         "correctanswer": "d",
-        "reasoning": "While vulnerability scanners are useful tools for identifying known vulnerabilities, they cannot detect vulnerabilities in custom-coded applications and may produce false positives or false negatives. However, they cannot identify all vulnerabilities in a system.",
+        "reasoning": "While vulnerability scanners are useful tools for identifying known vulnerabilities, they cannot detect vulnerabilities in custom-coded applications and may produce false positives or false negatives. However, they cannot identify all vulnerabilities in a system."
     },
     {
         "question": "What is the primary difference between a vulnerability scan and a penetration test?",
@@ -27,10 +27,10 @@ cisspdict = [
             "a": "A vulnerability scan identifies vulnerabilities, while a penetration test exploits vulnerabilities",
             "b": "A vulnerability scan is automated, while a penetration test is manual",
             "c": "A vulnerability scan is passive, while a penetration test is active",
-            "d": "There is no difference, the terms are interchangeable",
+            "d": "There is no difference, the terms are interchangeable"
         },
         "correctanswer": "a",
-        "reasoning": "A vulnerability scan identifies vulnerabilities in an organization's system, while a penetration test attempts to exploit those vulnerabilities. Therefore, option a is the correct answer.",
+        "reasoning": "A vulnerability scan identifies vulnerabilities in an organization's system, while a penetration test attempts to exploit those vulnerabilities. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is an example of a white-box testing technique?",
@@ -38,10 +38,10 @@ cisspdict = [
             "a": "Penetration testing",
             "b": "Vulnerability scanning",
             "c": "Code review",
-            "d": "Social engineering",
+            "d": "Social engineering"
         },
         "correctanswer": "c",
-        "reasoning": "A white-box testing technique involves analyzing the internal workings of an application or system. Code review is an example of a white-box testing technique, as it involves reviewing the source code of an application. Therefore, option c is the correct answer.",
+        "reasoning": "A white-box testing technique involves analyzing the internal workings of an application or system. Code review is an example of a white-box testing technique, as it involves reviewing the source code of an application. Therefore, option c is the correct answer."
     },
     {
         "question": "Which of the following is NOT a common objective of a social engineering attack?",
@@ -49,10 +49,10 @@ cisspdict = [
             "a": "Gaining access to restricted areas",
             "b": "Installing malware on a victim's computer",
             "c": "Extracting sensitive information from a victim",
-            "d": "Installing security patches on a victim's computer",
+            "d": "Installing security patches on a victim's computer"
         },
         "correctanswer": "d",
-        "reasoning": "The objective of a social engineering attack is typically to gain access to restricted areas, install malware on a victim's computer, or extract sensitive information from a victim. Installing security patches on a victim's computer is not a common objective of a social engineering attack, so option d is the correct answer.",
+        "reasoning": "The objective of a social engineering attack is typically to gain access to restricted areas, install malware on a victim's computer, or extract sensitive information from a victim. Installing security patches on a victim's computer is not a common objective of a social engineering attack, so option d is the correct answer."
     },
     {
         "question": "What is the purpose of a penetration test?",
@@ -60,10 +60,10 @@ cisspdict = [
             "a": "To find vulnerabilities in an organization's system and attempt to exploit them",
             "b": "To simulate a real-world attack on an organization's system",
             "c": "To validate the effectiveness of an organization's security controls",
-            "d": "All of the above",
+            "d": "All of the above"
         },
         "correctanswer": "d",
-        "reasoning": "Penetration testing is a simulated attack on an organization's system that identifies vulnerabilities, attempts to exploit them, and validates the effectiveness of an organization's security controls. Therefore, all the options are correct.",
+        "reasoning": "Penetration testing is a simulated attack on an organization's system that identifies vulnerabilities, attempts to exploit them, and validates the effectiveness of an organization's security controls. Therefore, all the options are correct."
     },
     {
         "question": "Which of the following is NOT a limitation of vulnerability scanners?",
@@ -71,10 +71,10 @@ cisspdict = [
             "a": "They cannot detect vulnerabilities in custom-coded applications",
             "b": "They may produce false positives",
             "c": "They may produce false negatives",
-            "d": "They can identify all vulnerabilities in a system",
+            "d": "They can identify all vulnerabilities in a system"
         },
         "correctanswer": "d",
-        "reasoning": "While vulnerability scanners are useful tools for identifying known vulnerabilities, they cannot detect vulnerabilities in custom-coded applications and may produce false positives or false negatives. However, they cannot identify all vulnerabilities in a system.",
+        "reasoning": "While vulnerability scanners are useful tools for identifying known vulnerabilities, they cannot detect vulnerabilities in custom-coded applications and may produce false positives or false negatives. However, they cannot identify all vulnerabilities in a system."
     },
     {
         "question": "What is the primary difference between a vulnerability scan and a penetration test?",
@@ -82,10 +82,10 @@ cisspdict = [
             "a": "A vulnerability scan identifies vulnerabilities, while a penetration test exploits vulnerabilities",
             "b": "A vulnerability scan is automated, while a penetration test is manual",
             "c": "A vulnerability scan is passive, while a penetration test is active",
-            "d": "There is no difference, the terms are interchangeable",
+            "d": "There is no difference, the terms are interchangeable"
         },
         "correctanswer": "a",
-        "reasoning": "A vulnerability scan identifies vulnerabilities in an organization's system, while a penetration test attempts to exploit those vulnerabilities. Therefore, option a is the correct answer.",
+        "reasoning": "A vulnerability scan identifies vulnerabilities in an organization's system, while a penetration test attempts to exploit those vulnerabilities. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is an example of a white-box testing technique?",
@@ -93,10 +93,10 @@ cisspdict = [
             "a": "Penetration testing",
             "b": "Vulnerability scanning",
             "c": "Code review",
-            "d": "Social engineering",
+            "d": "Social engineering"
         },
         "correctanswer": "c",
-        "reasoning": "A white-box testing technique involves analyzing the internal workings of an application or system. Code review is an example of a white-box testing technique, as it involves reviewing the source code of an application. Therefore, option c is the correct answer.",
+        "reasoning": "A white-box testing technique involves analyzing the internal workings of an application or system. Code review is an example of a white-box testing technique, as it involves reviewing the source code of an application. Therefore, option c is the correct answer."
     },
     {
         "question": "Which of the following is NOT a common objective of a social engineering attack?",
@@ -104,10 +104,10 @@ cisspdict = [
             "a": "Gaining access to restricted areas",
             "b": "Installing malware on a victim's computer",
             "c": "Extracting sensitive information from a victim",
-            "d": "Installing security patches on a victim's computer",
+            "d": "Installing security patches on a victim's computer"
         },
         "correctanswer": "d",
-        "reasoning": "The objective of a social engineering attack is typically to gain access to restricted areas, install malware on a victim's computer, or extract sensitive information from a victim. Installing security patches on a victim's computer is not a common objective of a social engineering attack, so option d is the correct answer.",
+        "reasoning": "The objective of a social engineering attack is typically to gain access to restricted areas, install malware on a victim's computer, or extract sensitive information from a victim. Installing security patches on a victim's computer is not a common objective of a social engineering attack, so option d is the correct answer."
     },
     {
         "question": "What is the purpose of a penetration test?",
@@ -115,10 +115,10 @@ cisspdict = [
             "a": "To find vulnerabilities in an organization's system and attempt to exploit them",
             "b": "To simulate a real-world attack on an organization's system",
             "c": "To validate the effectiveness of an organization's security controls",
-            "d": "All of the above",
+            "d": "All of the above"
         },
         "correctanswer": "d",
-        "reasoning": "Penetration testing is a simulated attack on an organization's system that identifies vulnerabilities, attempts to exploit them, and validates the effectiveness of an organization's security controls. Therefore, all the options are correct.",
+        "reasoning": "Penetration testing is a simulated attack on an organization's system that identifies vulnerabilities, attempts to exploit them, and validates the effectiveness of an organization's security controls. Therefore, all the options are correct."
     },
     {
         "question": "Which of the following is NOT a limitation of vulnerability scanners?",
@@ -126,10 +126,10 @@ cisspdict = [
             "a": "They cannot detect vulnerabilities in custom-coded applications",
             "b": "They may produce false positives",
             "c": "They may produce false negatives",
-            "d": "They can identify all vulnerabilities in a system",
+            "d": "They can identify all vulnerabilities in a system"
         },
         "correctanswer": "d",
-        "reasoning": "While vulnerability scanners are useful tools for identifying known vulnerabilities, they cannot detect vulnerabilities in custom-coded applications and may produce false positives or false negatives. However, they cannot identify all vulnerabilities in a system.",
+        "reasoning": "While vulnerability scanners are useful tools for identifying known vulnerabilities, they cannot detect vulnerabilities in custom-coded applications and may produce false positives or false negatives. However, they cannot identify all vulnerabilities in a system."
     },
     {
         "question": "What is the primary difference between a vulnerability scan and a penetration test?",
@@ -137,10 +137,10 @@ cisspdict = [
             "a": "A vulnerability scan identifies vulnerabilities, while a penetration test exploits vulnerabilities",
             "b": "A vulnerability scan is automated, while a penetration test is manual",
             "c": "A vulnerability scan is passive, while a penetration test is active",
-            "d": "There is no difference, the terms are interchangeable",
+            "d": "There is no difference, the terms are interchangeable"
         },
         "correctanswer": "a",
-        "reasoning": "A vulnerability scan identifies vulnerabilities in an organization's system, while a penetration test attempts to exploit those vulnerabilities. Therefore, option a is the correct answer.",
+        "reasoning": "A vulnerability scan identifies vulnerabilities in an organization's system, while a penetration test attempts to exploit those vulnerabilities. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is an example of a white-box testing technique?",
@@ -148,10 +148,10 @@ cisspdict = [
             "a": "Penetration testing",
             "b": "Vulnerability scanning",
             "c": "Code review",
-            "d": "Social engineering",
+            "d": "Social engineering"
         },
         "correctanswer": "c",
-        "reasoning": "A white-box testing technique involves analyzing the internal workings of an application or system. Code review is an example of a white-box testing technique, as it involves reviewing the source code of an application. Therefore, option c is the correct answer.",
+        "reasoning": "A white-box testing technique involves analyzing the internal workings of an application or system. Code review is an example of a white-box testing technique, as it involves reviewing the source code of an application. Therefore, option c is the correct answer."
     },
     {
         "question": "Which of the following is NOT a common objective of a social engineering attack?",
@@ -159,10 +159,10 @@ cisspdict = [
             "a": "Gaining access to restricted areas",
             "b": "Installing malware on a victim's computer",
             "c": "Extracting sensitive information from a victim",
-            "d": "Installing security patches on a victim's computer",
+            "d": "Installing security patches on a victim's computer"
         },
         "correctanswer": "d",
-        "reasoning": "The objective of a social engineering attack is typically to gain access to restricted areas, install malware on a victim's computer, or extract sensitive information from a victim. Installing security patches on a victim's computer is not a common objective of a social engineering attack, so option d is the correct answer.",
+        "reasoning": "The objective of a social engineering attack is typically to gain access to restricted areas, install malware on a victim's computer, or extract sensitive information from a victim. Installing security patches on a victim's computer is not a common objective of a social engineering attack, so option d is the correct answer."
     },
     {
         "question": "What is the purpose of a Security Operations Center (SOC)?",
@@ -170,10 +170,10 @@ cisspdict = [
             "a": "To monitor and analyze an organization's security posture",
             "b": "To provide physical security to an organization's facilities",
             "c": "To perform vulnerability scans and penetration tests",
-            "d": "To develop an organization's security policies and procedures",
+            "d": "To develop an organization's security policies and procedures"
         },
         "correctanswer": "a",
-        "reasoning": "A Security Operations Center (SOC) is a centralized unit that is responsible for monitoring and analyzing an organization's security posture. Therefore, option a is the correct answer.",
+        "reasoning": "A Security Operations Center (SOC) is a centralized unit that is responsible for monitoring and analyzing an organization's security posture. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is NOT a common responsibility of a security analyst?",
@@ -181,10 +181,10 @@ cisspdict = [
             "a": "Monitoring security events and alerts",
             "b": "Performing security assessments and testing",
             "c": "Implementing security controls and measures",
-            "d": "Developing security policies and procedures",
+            "d": "Developing security policies and procedures"
         },
         "correctanswer": "d",
-        "reasoning": "Security analysts are typically responsible for monitoring security events and alerts, performing security assessments and testing, and implementing security controls and measures. Developing security policies and procedures is usually the responsibility of management or the security team as a whole. Therefore, option d is the correct answer.",
+        "reasoning": "Security analysts are typically responsible for monitoring security events and alerts, performing security assessments and testing, and implementing security controls and measures. Developing security policies and procedures is usually the responsibility of management or the security team as a whole. Therefore, option d is the correct answer."
     },
     {
         "question": "Which of the following is an example of a detective control?",
@@ -192,10 +192,10 @@ cisspdict = [
             "a": "Firewalls",
             "b": "Intrusion detection systems",
             "c": "Encryption",
-            "d": "Access controls",
+            "d": "Access controls"
         },
         "correctanswer": "b",
-        "reasoning": "A detective control is a security control that is designed to detect and respond to security incidents after they have occurred. Intrusion detection systems are an example of a detective control, as they monitor network traffic for signs of unauthorized activity. Therefore, option b is the correct answer.",
+        "reasoning": "A detective control is a security control that is designed to detect and respond to security incidents after they have occurred. Intrusion detection systems are an example of a detective control, as they monitor network traffic for signs of unauthorized activity. Therefore, option b is the correct answer."
     },
     {
         "question": "What is the purpose of a Security Information and Event Management (SIEM) system?",
@@ -203,10 +203,10 @@ cisspdict = [
             "a": "To collect and analyze security event data from across an organization's network",
             "b": "To block unauthorized access to an organization's network",
             "c": "To monitor and control access to an organization's network resources",
-            "d": "To encrypt sensitive data transmitted over an organization's network",
+            "d": "To encrypt sensitive data transmitted over an organization's network"
         },
         "correctanswer": "a",
-        "reasoning": "A Security Information and Event Management (SIEM) system is a centralized platform that collects and analyzes security event data from across an organization's network. Therefore, option a is the correct answer.",
+        "reasoning": "A Security Information and Event Management (SIEM) system is a centralized platform that collects and analyzes security event data from across an organization's network. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is a common goal of incident response?",
@@ -214,10 +214,10 @@ cisspdict = [
             "a": "To prevent security incidents from occurring",
             "b": "To minimize the impact of a security incident",
             "c": "To detect security incidents before they occur",
-            "d": "To identify the root cause of a security incident",
+            "d": "To identify the root cause of a security incident"
         },
         "correctanswer": "b",
-        "reasoning": "The goal of incident response is typically to minimize the impact of a security incident and restore normal operations as quickly as possible. Therefore, option b is the correct answer.",
+        "reasoning": "The goal of incident response is typically to minimize the impact of a security incident and restore normal operations as quickly as possible. Therefore, option b is the correct answer."
     },
     {
         "question": "What is the purpose of a Security Operations Center (SOC)?",
@@ -225,10 +225,10 @@ cisspdict = [
             "a": "To monitor and analyze an organization's security posture",
             "b": "To provide physical security to an organization's facilities",
             "c": "To perform vulnerability scans and penetration tests",
-            "d": "To develop an organization's security policies and procedures",
+            "d": "To develop an organization's security policies and procedures"
         },
         "correctanswer": "a",
-        "reasoning": "A Security Operations Center (SOC) is a centralized unit that is responsible for monitoring and analyzing an organization's security posture. Therefore, option a is the correct answer.",
+        "reasoning": "A Security Operations Center (SOC) is a centralized unit that is responsible for monitoring and analyzing an organization's security posture. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is NOT a common responsibility of a security analyst?",
@@ -236,10 +236,10 @@ cisspdict = [
             "a": "Monitoring security events and alerts",
             "b": "Performing security assessments and testing",
             "c": "Implementing security controls and measures",
-            "d": "Developing security policies and procedures",
+            "d": "Developing security policies and procedures"
         },
         "correctanswer": "d",
-        "reasoning": "Security analysts are typically responsible for monitoring security events and alerts, performing security assessments and testing, and implementing security controls and measures. Developing security policies and procedures is usually the responsibility of management or the security team as a whole. Therefore, option d is the correct answer.",
+        "reasoning": "Security analysts are typically responsible for monitoring security events and alerts, performing security assessments and testing, and implementing security controls and measures. Developing security policies and procedures is usually the responsibility of management or the security team as a whole. Therefore, option d is the correct answer."
     },
     {
         "question": "Which of the following is an example of a detective control?",
@@ -247,10 +247,10 @@ cisspdict = [
             "a": "Firewalls",
             "b": "Intrusion detection systems",
             "c": "Encryption",
-            "d": "Access controls",
+            "d": "Access controls"
         },
         "correctanswer": "b",
-        "reasoning": "A detective control is a security control that is designed to detect and respond to security incidents after they have occurred. Intrusion detection systems are an example of a detective control, as they monitor network traffic for signs of unauthorized activity. Therefore, option b is the correct answer.",
+        "reasoning": "A detective control is a security control that is designed to detect and respond to security incidents after they have occurred. Intrusion detection systems are an example of a detective control, as they monitor network traffic for signs of unauthorized activity. Therefore, option b is the correct answer."
     },
     {
         "question": "What is the purpose of a Security Information and Event Management (SIEM) system?",
@@ -258,10 +258,10 @@ cisspdict = [
             "a": "To collect and analyze security event data from across an organization's network",
             "b": "To block unauthorized access to an organization's network",
             "c": "To monitor and control access to an organization's network resources",
-            "d": "To encrypt sensitive data transmitted over an organization's network",
+            "d": "To encrypt sensitive data transmitted over an organization's network"
         },
         "correctanswer": "a",
-        "reasoning": "A Security Information and Event Management (SIEM) system is a centralized platform that collects and analyzes security event data from across an organization's network. Therefore, option a is the correct answer.",
+        "reasoning": "A Security Information and Event Management (SIEM) system is a centralized platform that collects and analyzes security event data from across an organization's network. Therefore, option a is the correct answer."
     },
     {
         "question": "Which of the following is a common goal of incident response?",
@@ -269,10 +269,10 @@ cisspdict = [
             "a": "To prevent security incidents from occurring",
             "b": "To minimize the impact of a security incident",
             "c": "To detect security incidents before they occur",
-            "d": "To identify the root cause of a security incident",
+            "d": "To identify the root cause of a security incident"
         },
         "correctanswer": "b",
-        "reasoning": "The goal of incident response is typically to minimize the impact of a security incident and restore normal operations as quickly as possible. Therefore, option b is the correct answer.",
+        "reasoning": "The goal of incident response is typically to minimize the impact of a security incident and restore normal operations as quickly as possible. Therefore, option b is the correct answer."
     },
     {
         "question": "Which of the following is a benefit of using security automation and orchestration in security operations?",
@@ -280,10 +280,10 @@ cisspdict = [
             "a": "Reduced risk of human error",
             "b": "Decreased visibility into security incidents",
             "c": "Increased workload for security analysts",
-            "d": "Slower incident response times",
+            "d": "Slower incident response times"
         },
         "correctanswer": "a",
-        "reasoning": "Security automation and orchestration can reduce the risk of human error in security operations by automating routine tasks and providing guided workflows for incident response. Therefore, option a is the correct answer.",
+        "reasoning": "Security automation and orchestration can reduce the risk of human error in security operations by automating routine tasks and providing guided workflows for incident response. Therefore, option a is the correct answer."
     },
     {
         "question": "What is the purpose of a security audit?",
@@ -291,10 +291,10 @@ cisspdict = [
             "a": "To identify vulnerabilities in an organization's systems and applications",
             "b": "To evaluate the effectiveness of an organization's security controls",
             "c": "To monitor an organization's network for signs of unauthorized activity",
-            "d": "To develop an organization's security policies and procedures",
+            "d": "To develop an organization's security policies and procedures"
         },
         "correctanswer": "b",
-        "reasoning": "The purpose of a security audit is to evaluate the effectiveness of an organization's security controls, policies, and procedures. Therefore, option b is the correct answer.",
+        "reasoning": "The purpose of a security audit is to evaluate the effectiveness of an organization's security controls, policies, and procedures. Therefore, option b is the correct answer."
     },
     {
         "question": "Which of the following is an example of a preventative control?",
@@ -302,10 +302,10 @@ cisspdict = [
             "a": "Firewalls",
             "b": "Intrusion detection systems",
             "c": "Encryption",
-            "d": "Security awareness training",
+            "d": "Security awareness training"
         },
         "correctanswer": "a",
-        "reasoning": "A preventative control is a security control that is designed to prevent security incidents from occurring. Firewalls are an example of a preventative control, as they block unauthorized network traffic. Therefore, option a is the correct answer.",
+        "reasoning": "A preventative control is a security control that is designed to prevent security incidents from occurring. Firewalls are an example of a preventative control, as they block unauthorized network traffic. Therefore, option a is the correct answer."
     },
     {
         "question": "What is the purpose of a security incident response plan?",
@@ -313,10 +313,10 @@ cisspdict = [
             "a": "To prevent security incidents from occurring",
             "b": "To detect security incidents before they occur",
             "c": "To respond to security incidents in a structured and effective manner",
-            "d": "To recover from security incidents and restore normal operations",
+            "d": "To recover from security incidents and restore normal operations"
         },
         "correctanswer": "c",
-        "reasoning": "The purpose of a security incident response plan is to ensure that an organization can respond to security incidents in a structured and effective manner. Therefore, option c is the correct answer.",
+        "reasoning": "The purpose of a security incident response plan is to ensure that an organization can respond to security incidents in a structured and effective manner. Therefore, option c is the correct answer."
     },
     {
         "question": "Which of the following is a common challenge in security operations?",
@@ -324,10 +324,10 @@ cisspdict = [
             "a": "Lack of resources",
             "b": "Lack of interest from upper management",
             "c": "Lack of industry standards and best practices",
-            "d": "Lack of technical expertise",
+            "d": "Lack of technical expertise"
         },
         "correctanswer": "a",
-        "reasoning": "A common challenge in security operations is a lack of resources, including budget, personnel, and tools. Therefore, option a is the correct answer.",
+        "reasoning": "A common challenge in security operations is a lack of resources, including budget, personnel, and tools. Therefore, option a is the correct answer."
     },
         {
         "question": "What is the purpose of a secure software development life cycle (SDLC)?",
