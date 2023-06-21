@@ -58,6 +58,7 @@ When choosing study materials, prioritize resources that align with your preferr
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
 - [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
 
 ### Focus on Weak Areas
 
@@ -88,6 +89,8 @@ To further enhance your preparation, consider setting a **timed environment** wh
 Taking regular practice exams not only improves your **test-taking skills**, but it also boosts your confidence and reduces anxiety when facing the real exam. Aim to incorporate these practice sessions into your study routine and track your progress over time. Remember, the more you practice, the more prepared you'll be for the CEH exam.
 
 So, make sure to explore the **EC-Council's website** and other reputable **online platforms** to access a variety of **CEH practice exams** that will elevate your exam readiness and contribute to your success.
+
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
 
 ### Join Study Groups
 

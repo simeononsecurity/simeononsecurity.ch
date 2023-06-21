@@ -46,6 +46,7 @@ Once you've created a study schedule, the next step is to choose the right study
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
 - [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
 
 ### Focus on Weak Areas
 
@@ -54,6 +55,8 @@ As you begin studying, focus on your weak areas. This will help you make the mos
 ### Take Practice Exams
 
 Taking practice exams is a great way to prepare for the CEH exam. You can find practice exams on the [**EC-Council's website**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/), as well as other online resources. Practice exams will help you identify areas where you need to improve and get you accustomed to the format and style of the exam.
+
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
 
 ### Join Study Groups
 

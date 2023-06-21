@@ -110,6 +110,8 @@ Practice exams are a great way to prepare for the CompTIA Linux+ XK0-005 exam. T
 
 Some examples of practice exams for the CompTIA Linux+ XK0-005 exam include:
 
+- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.ch/linux-plus-practice-test)
+
 - [**CompTIA Linux+ Certification Practice Exams**](https://www.comptia.org/training/certmaster-practice/linux): This book includes four complete practice exams that are designed to simulate the format and difficulty of the actual exam.
 
 - [**CertBlaster Linux+ Practice Tests**](https://www.certblaster.com/certification-learning-resources/linux-plus-practice-test-sample-questions/): This online resource provides practice exams and study materials for the Linux+ certification exam.
