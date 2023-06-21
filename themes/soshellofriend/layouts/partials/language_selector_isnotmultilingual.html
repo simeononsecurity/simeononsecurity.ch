@@ -95,26 +95,6 @@
                                     {{ $sitelang }}
                                 </a>
                             </li>
-                            <script>
-                                (function() {
-                                    var link = document.getElementById("{{ $hreflang }}-link");
-                                    var url = link.getAttribute("href");
-                                    var xhr = new XMLHttpRequest();
-                                    xhr.onreadystatechange = function() {
-                                        if (xhr.readyState === 4) {
-                                            if (xhr.status = 200 && xhr.status != 404) {
-                                                var li = document.getElementById("{{ $hreflang }}-link-li");
-                                                li.style.display = "block";
-                                            } else {
-                                                var li = document.getElementById("{{ $hreflang }}-link-li");
-                                                li.parentNode.removeChild(li);
-                                            }
-                                        }
-                                    };
-                                    xhr.open("GET", url, true);
-                                    xhr.send();
-                                })();
-                            </script>
                         {{ end }}
                     </ul>
                 </ul>
