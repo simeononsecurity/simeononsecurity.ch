@@ -16,18 +16,14 @@
                         <ul class="language_dropdown__menu">
                             {{ range $.Translations }}
                             {{ $langCode := .Language.Lang }}
-                            <li>
-                                <a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" id="{{ $langCode }}-link">
-                                    {{ $langCode }}
-                                </a>
-                            </li>
+                            <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ $langCode }}</a></li>
                             {{ end }}
                         </ul>
                     </ul>
                 </menu>
             {{ end }}
         </span>
-    </span>       
+    </span>    
 <style>
         .language-selector {
         position: relative;
