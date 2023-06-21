@@ -1,8 +1,8 @@
 ---
-title: "Tools - SimeonOnSecurity"
-description: "Discover a collection of essential online tools including a Password Strength Checker and Hash Calculator. Enhance your online security and protect your sensitive information."
-genre: ["technology", "cybersecurity", "online tools", "passwords", "hash calculator", "password strength", "password checker", "password best practices", "password security", "data protection", "online privacy"]
-tags: ["password strength checker", "hash calculator", "secure passwords", "password security tool", "password strength test", "password complexity", "password complexity requirements", "password security tips", "strong passwords", "password strength guidelines", "password protection", "online account security", "data security", "password entropy", "password strength meter", "password security recommendations", "password manager", "password hygiene", "password policy", "password complexity rules", "password audit"]
+title: "Cybersecurity Practice Tests - SimeonOnSecurity"
+description: "Explore our collection of cybersecurity practice tests designed to enhance your knowledge and prepare you for various certification exams. Test your skills in areas such as network security, ethical hacking, information security, and more."
+genre: ["Cybersecurity", "practice tests", "network security", "ethical hacking", "information security"]
+tags: ["Cybersecurity", "practice tests", "network security", "ethical hacking", "information security", "certification exams", "skills assessment"]
 sitemap:
   priority: 0.3
 ---
