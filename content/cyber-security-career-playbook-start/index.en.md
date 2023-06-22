@@ -109,10 +109,10 @@ We've included a few tips and tricks for these certifications below:
 
 | CompTIA Certification Practice Tests          | Description                       |
 |----------------------------------------------|------------------------|
-| [ComTIA's A Plus - Practice Test](/a-plus-practice-test)        |  Practice test for ComTIA's A Plus certification. |
-| [ComTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for ComTIA's Network Plus certification. |
-| [ComTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for ComTIA's Security Plus certification. |
-| [ComTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for ComTIA's Linux Plus certification. |
+| [CompTIA's A Plus - Practice Test](/a-plus-practice-test)        |  Practice test for ComTIA's A Plus certification. |
+| [CompTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for ComTIA's Network Plus certification. |
+| [CompTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for ComTIA's Security Plus certification. |
+| [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for ComTIA's Linux Plus certification. |
 
 | Cisco Certification Practice Tests           | Description                       |
 |----------------------------------------------|------------------------|

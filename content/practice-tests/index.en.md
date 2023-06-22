@@ -10,10 +10,10 @@ sitemap:
 ## Practice Test Table
 | CompTIA Certification Practice Tests          | Description                       |
 |----------------------------------------------|------------------------|
-| [ComTIA's A Plus - Practice Test](/a-plus-practice-test)        |  Practice test for ComTIA's A Plus certification. |
-| [ComTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for ComTIA's Network Plus certification. |
-| [ComTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for ComTIA's Security Plus certification. |
-| [ComTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for ComTIA's Linux Plus certification. |
+| [CompTIA's A Plus - Practice Test](/a-plus-practice-test)        |  Practice test for CompTIA's A Plus certification. |
+| [CompTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for CompTIA's Network Plus certification. |
+| [CompTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for CompTIA's Security Plus certification. |
+| [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for CompTIA's Linux Plus certification. |
 
 | Cisco Certification Practice Tests           | Description                       |
 |----------------------------------------------|------------------------|
@@ -33,10 +33,10 @@ sitemap:
 
 
 ## CompTIA Certification Practice Tests
-### [ComTIA's A Plus - Practice Test](/a-plus-practice-test)
-### [ComTIA's Network Plus - Practice Test](/network-plus-practice-test)
-### [ComTIA's Security Plus - Practice Test](/security-plus-practice-test)
-### [ComTIA's Linux Plus - Practice Test](/linux-plus-practice-test)
+### [CompTIA's A Plus - Practice Test](/a-plus-practice-test)
+### [CompTIA's Network Plus - Practice Test](/network-plus-practice-test)
+### [CompTIA's Security Plus - Practice Test](/security-plus-practice-test)
+### [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)
 
 ## Cisco Certification Practice Tests
 ### [Cisco's CCNA - Practice Test](/ccna-practice-test)
