@@ -14,13 +14,18 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
   }
 
+  function refreshAd() {
+    loadAd();
+    setTimeout(refreshAd, 45000); // Set the delay to 45000 milliseconds (45 seconds)
+  }
+
   function checkIfAdShouldLoad() {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      loadAd();
+      refreshAd(); // Call the refresh function to reload the ad
       window.removeEventListener("scroll", checkIfAdShouldLoad);
     }
   }
-
+  
   function debounce(func) {
     if (rafId) {
       cancelAnimationFrame(rafId);
@@ -49,15 +54,18 @@
   function onPageLoad() {
     lazyLoadAds();
     var rafId;
-
+  
     function handleScroll() {
       cancelAnimationFrame(rafId);
       rafId = requestAnimationFrame(checkIfAdShouldLoad);
     }
-
+  
     window.addEventListener("scroll", handleScroll, { passive: true });
+  
+    // Call the refresh function to load the ad initially
+    refreshAd();
   }
-
+  
   window.addEventListener("load", onPageLoad, { passive: true });
 
   function lazyLoadAds() {
