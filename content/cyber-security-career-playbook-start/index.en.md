@@ -71,6 +71,8 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 - Explore the roles and responsibilities of cybersecurity experts.
 
 
+<!--advert-->
+
 ## Cyber Security Degrees, Certifications, and Bootcamps
 
 When pursuing a career in cybersecurity, one important consideration is obtaining the right education and certifications. In this section, you'll find valuable information about degrees, certifications, courses, and training programs that can enhance your skills and help you stand out in the field.
@@ -144,6 +146,8 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 
 - [Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals](https://simeononsecurity.ch/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-evolving-landscape-what-works-today-vs-what-worked-10-years-ago/)
   - Explore the evolving cybersecurity industry and its impact on early career professionals, with practical guidance on addressing challenges and thriving in today's landscape.
+
+<!--advert-->
 
 ### Step-by-Step Into the Cyber Security Career Path
 - [Step-by-Step Into the Cyber Security Career Path](https://simeononsecurity.ch/cyber-security-career-playbook/getting-a-job-in-cyber-security/step-by-step-into-to-cyber-security-career-path/)
@@ -232,6 +236,8 @@ Learn about the Federal Information Security Management Act (FISMA), a U.S. fede
 #### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)
 - Learn about the summarized guidelines outlined in NIST 800-88 for media sanitization.
 
+<!--advert-->
+
 ## Managing a Cyber Security Team
 
 This section provides valuable resources and insights on managing a cyber security team, including tips for **building and managing a cybersecurity team** and best practices for **managing a cyber security team**.
@@ -272,3 +278,5 @@ At this point, you have gained a solid understanding of cybersecurity careers, t
 Remember, the cybersecurity landscape is constantly evolving, with new technologies, threats, and best practices emerging regularly. It is crucial to stay updated and continue learning as you progress in your cybersecurity journey. We are committed to providing you with the most up-to-date information, and this guide will be regularly updated with new insights and developments.
 
 Be sure to bookmark this page and revisit it periodically to stay informed about the latest trends, certifications, and career opportunities in cybersecurity. By staying proactive and maintaining a growth mindset, you can continue to expand your expertise and thrive in this exciting field.
+
+<!--advert-->
