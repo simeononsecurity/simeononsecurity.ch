@@ -3,11 +3,23 @@
     <h1>{{ .Title }}</h1>
     <ul class="terms__list">
       {{ $type := .Type }}
-      {{ $counter := 0 }}
+      {{ $terms := slice }}
       {{ range $key, $value := .Data.Terms.Alphabetical }}
+        {{ $name := .Name }}
+        {{ $count := .Count }}
+        {{ $terms = $terms | append (dict "name" $name "count" $count) }}
+      {{ end }}
+      {{ $sortedTerms := slice }}
+      {{ range $index, $element := $terms }}
+        {{ $sortedTerms = $sortedTerms | append (dict "index" $index "term" $element) }}
+      {{ end }}
+      {{ $sortedTerms = $sortedTerms | sort.SliceBy "term.count" | reverse }}
+      {{ $counter := 0 }}
+      {{ range $key, $value := $sortedTerms }}
         {{ if lt $counter 20 }}
-          {{ $name := .Name }}
-          {{ $count := .Count }}
+          {{ $term := $value.term }}
+          {{ $name := $term.name }}
+          {{ $count := $term.count }}
           {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
             <li class="terms__term">
               <a title="{{ .Title | markdownify }} | Articles with this tag" href="{{ .Permalink }}"

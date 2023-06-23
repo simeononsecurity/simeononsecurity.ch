@@ -12,18 +12,14 @@
         <p>
           {{ "Maybe these tags will help you find what you're looking for." | markdownify }}
         </p>
-        <h2>Tags</h2>
+        <h2>SimeonOnSecurity's Top Tags</h2>
         <div class="terms">
           <ul class="terms__list">
-            {{ $counter := 0 }}
-            {{ range .Site.Taxonomies.tags }}
-              {{ if lt $counter 20 }}
-                <li class="terms__term">
-                  <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a
-                  ><span class="terms__term-count">{{ .Count }}</span>
-                </li>
-                {{ $counter = add $counter 1 }}
-              {{ end }}
+            {{ range (first 20 (.Site.Taxonomies.tags.ByCount)) }}
+              <li class="terms__term">
+                <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a
+                ><span class="terms__term-count">{{ .Count }}</span>
+              </li>
             {{ end }}
           </ul>
         </div>
