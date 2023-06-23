@@ -274,3 +274,171 @@
 .theme-toggle {
   margin-right: 10px;
 }
+
+  /* Banner Ad */
+  .google-ad-banner {
+    width: 100%;
+    height: 100px !important; /* Adjust height as needed */
+    max-height: 300px !important;
+    /* Additional styles specific to banner ads */
+    position: relative !important;
+  }
+
+  /* Skyscraper Ad */
+  .google-ad-skyscraper {
+    width: 120px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    /* Additional styles specific to skyscraper ads */
+  }
+
+  /* Square Ad */
+  .google-ad-square {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    /* Additional styles specific to square ads */
+  }
+
+  /* Rectangle Ad */
+  .google-ad-rectangle {
+    width: 300px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    max-height: 250px !important;
+    /* Additional styles specific to rectangle ads */
+  }
+
+  /* Leaderboard Ad */
+  .google-ad-leaderboard {
+    width: 728px; /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
+    /* Additional styles specific to leaderboard ads */
+  }
+
+  /* Responsive Ad */
+  .google-ad-responsive {
+    max-width: 100%; /* Adjust max-width as needed */
+    height: auto;
+    /* Additional styles specific to responsive ads */
+  }
+
+  /* Text Ad */
+  .google-ad-text {
+    /* Styles for text-based ads */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: var(--color);
+    /* Additional styles specific to text-based ads */
+  }
+
+  /* Image Ad */
+  .google-ad-image {
+    /* Styles for image-based ads */
+    max-width: 100%;
+    height: auto;
+    /* Additional styles specific to image-based ads */
+  }
+
+  /* Video Ad */
+  .google-ad-video {
+    /* Styles for video-based ads */
+    max-width: 100%;
+    height: auto;
+    /* Additional styles specific to video-based ads */
+  }
+
+  /* Carousel Ad */
+  .google-ad-carousel {
+    /* Styles for carousel ads */
+    display: flex;
+    flex-direction: row;
+    /* Additional styles specific to carousel ads */
+  }
+
+  /* Overlay Ad */
+  .google-ad-overlay {
+    /* Styles for overlay ads */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Additional styles specific to overlay ads */
+  }
+
+  /* Interactive Ad */
+  .google-ad-interactive {
+    /* Styles for interactive ads */
+    cursor: pointer;
+    /* Additional styles specific to interactive ads */
+  }
+
+  /* Expandable Ad */
+  .google-ad-expandable {
+    /* Styles for expandable ads */
+    overflow: hidden;
+    transition: height 0.3s ease;
+    /* Additional styles specific to expandable ads */
+  }
+
+  /* Floating Ad */
+  .google-ad-floating {
+    /* Styles for floating ads */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* Additional styles specific to floating ads */
+  }
+
+  /* Native Ad */
+  .google-ad-native {
+    /* Styles for native ads */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    border: 1px solid var(--background-secondary);
+    padding: 10px;
+    /* Additional styles specific to native ads */
+  }
+
+  /* Native Ad Title */
+  .google-ad-native .ad-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color);
+    margin-bottom: 5px;
+  }
+
+  /* Native Ad Description */
+  .google-ad-native .ad-description {
+    font-size: 14px;
+    color: var(--color-secondary);
+    margin-bottom: 10px;
+  }
+
+  /* Native Ad Image */
+  .google-ad-native .ad-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* Native Ad CTA Button */
+  .google-ad-native .ad-cta-button {
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .google-ad-native .ad-cta-button:hover {
+    background-color: #3367d6;
+  }
+
+  .advert-inline {
+    margin: 6rem 0 4rem 0;
+    padding: 1rem 0 1rem;
+    border-top: dotted 4px var(--background-secondary);
+    border-bottom: dotted 4px var(--background-secondary);
+    min-height: 100px;
+  }
