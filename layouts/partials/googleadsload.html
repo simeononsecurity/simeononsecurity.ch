@@ -1,4 +1,7 @@
-<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script
+  async
+  src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+></script>
 <script
   async
   data-ad-client="ca-pub-4092442123207538"
@@ -25,7 +28,7 @@
       window.removeEventListener("scroll", checkIfAdShouldLoad);
     }
   }
-  
+
   function debounce(func) {
     if (rafId) {
       cancelAnimationFrame(rafId);
@@ -54,18 +57,18 @@
   function onPageLoad() {
     lazyLoadAds();
     var rafId;
-  
+
     function handleScroll() {
       cancelAnimationFrame(rafId);
       rafId = requestAnimationFrame(checkIfAdShouldLoad);
     }
-  
+
     window.addEventListener("scroll", handleScroll, { passive: true });
-  
+
     // Call the refresh function to load the ad initially
     refreshAd();
   }
-  
+
   window.addEventListener("load", onPageLoad, { passive: true });
 
   function lazyLoadAds() {
@@ -144,117 +147,116 @@
   });
 </script>
 <style>
-  
-/* Banner Ad */
-.google-ad-banner {
-  width: 100%;
-  height: 100px !important; /* Adjust height as needed */
-  max-height: 300px !important;
-  /* Additional styles specific to banner ads */
-  position: relative !important;
-}
+  /* Banner Ad */
+  .google-ad-banner {
+    width: 100%;
+    height: 100px !important; /* Adjust height as needed */
+    max-height: 300px !important;
+    /* Additional styles specific to banner ads */
+    position: relative !important;
+  }
 
-/* Skyscraper Ad */
-.google-ad-skyscraper {
-  width: 120px; /* Adjust width as needed */
-  height: 600px; /* Adjust height as needed */
-  /* Additional styles specific to skyscraper ads */
-}
+  /* Skyscraper Ad */
+  .google-ad-skyscraper {
+    width: 120px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    /* Additional styles specific to skyscraper ads */
+  }
 
-/* Square Ad */
-.google-ad-square {
-  width: 300px; /* Adjust width as needed */
-  height: 300px; /* Adjust height as needed */
-  /* Additional styles specific to square ads */
-}
+  /* Square Ad */
+  .google-ad-square {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    /* Additional styles specific to square ads */
+  }
 
-/* Rectangle Ad */
-.google-ad-rectangle {
-  width: 300px; /* Adjust width as needed */
-  height: 250px; /* Adjust height as needed */
-  max-height: 250px !important;
-  /* Additional styles specific to rectangle ads */
-}
+  /* Rectangle Ad */
+  .google-ad-rectangle {
+    width: 300px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    max-height: 250px !important;
+    /* Additional styles specific to rectangle ads */
+  }
 
-/* Leaderboard Ad */
-.google-ad-leaderboard {
-  width: 728px; /* Adjust width as needed */
-  height: 90px; /* Adjust height as needed */
-  /* Additional styles specific to leaderboard ads */
-}
+  /* Leaderboard Ad */
+  .google-ad-leaderboard {
+    width: 728px; /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
+    /* Additional styles specific to leaderboard ads */
+  }
 
-/* Responsive Ad */
-.google-ad-responsive {
-  max-width: 100%; /* Adjust max-width as needed */
-  height: auto;
-  /* Additional styles specific to responsive ads */
-}
+  /* Responsive Ad */
+  .google-ad-responsive {
+    max-width: 100%; /* Adjust max-width as needed */
+    height: auto;
+    /* Additional styles specific to responsive ads */
+  }
 
-/* Text Ad */
-.google-ad-text {
-  /* Styles for text-based ads */
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: var(--color);
-  /* Additional styles specific to text-based ads */
-}
+  /* Text Ad */
+  .google-ad-text {
+    /* Styles for text-based ads */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: var(--color);
+    /* Additional styles specific to text-based ads */
+  }
 
-/* Image Ad */
-.google-ad-image {
-  /* Styles for image-based ads */
-  max-width: 100%;
-  height: auto;
-  /* Additional styles specific to image-based ads */
-}
+  /* Image Ad */
+  .google-ad-image {
+    /* Styles for image-based ads */
+    max-width: 100%;
+    height: auto;
+    /* Additional styles specific to image-based ads */
+  }
 
-/* Video Ad */
-.google-ad-video {
-  /* Styles for video-based ads */
-  max-width: 100%;
-  height: auto;
-  /* Additional styles specific to video-based ads */
-}
+  /* Video Ad */
+  .google-ad-video {
+    /* Styles for video-based ads */
+    max-width: 100%;
+    height: auto;
+    /* Additional styles specific to video-based ads */
+  }
 
-/* Carousel Ad */
-.google-ad-carousel {
-  /* Styles for carousel ads */
-  display: flex;
-  flex-direction: row;
-  /* Additional styles specific to carousel ads */
-}
+  /* Carousel Ad */
+  .google-ad-carousel {
+    /* Styles for carousel ads */
+    display: flex;
+    flex-direction: row;
+    /* Additional styles specific to carousel ads */
+  }
 
-/* Overlay Ad */
-.google-ad-overlay {
-  /* Styles for overlay ads */
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* Additional styles specific to overlay ads */
-}
+  /* Overlay Ad */
+  .google-ad-overlay {
+    /* Styles for overlay ads */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Additional styles specific to overlay ads */
+  }
 
-/* Interactive Ad */
-.google-ad-interactive {
-  /* Styles for interactive ads */
-  cursor: pointer;
-  /* Additional styles specific to interactive ads */
-}
+  /* Interactive Ad */
+  .google-ad-interactive {
+    /* Styles for interactive ads */
+    cursor: pointer;
+    /* Additional styles specific to interactive ads */
+  }
 
-/* Expandable Ad */
-.google-ad-expandable {
-  /* Styles for expandable ads */
-  overflow: hidden;
-  transition: height 0.3s ease;
-  /* Additional styles specific to expandable ads */
-}
+  /* Expandable Ad */
+  .google-ad-expandable {
+    /* Styles for expandable ads */
+    overflow: hidden;
+    transition: height 0.3s ease;
+    /* Additional styles specific to expandable ads */
+  }
 
-/* Floating Ad */
-.google-ad-floating {
-  /* Styles for floating ads */
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  /* Additional styles specific to floating ads */
-}
+  /* Floating Ad */
+  .google-ad-floating {
+    /* Styles for floating ads */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* Additional styles specific to floating ads */
+  }
 
   /* Native Ad */
   .google-ad-native {
