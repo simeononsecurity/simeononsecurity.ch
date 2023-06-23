@@ -50,6 +50,8 @@ In summary, both **Plex Media Server** and **Jellyfin** provide powerful feature
 | Community Support         | **Yes**                                     | **Yes**                                 |
 | Platform Availability     | Wide range of devices and operating systems  | Wide range of devices and operating systems |
 
+{{< inarticle-dark >}}
+
 ## Ease of Use:
 
 When it comes to ease of use, both **Plex Media Server** and **Jellyfin** strive to provide a user-friendly experience, although there are some differences in their approach.
@@ -71,6 +73,8 @@ One of the significant differences between **Plex Media Server** and **Jellyfin*
 In summary, **Plex Media Server** offers a freemium model where users can access basic features for free but need to subscribe to Plex Pass for advanced functionalities. On the other hand, **Jellyfin** is an attractive option for those looking for a cost-effective media server solution, as it is entirely free and open-source. The choice between the two platforms ultimately depends on your budget and the specific features you prioritize in your media server setup.
 
 ______
+
+{{< inarticle-dark >}}
 ## Conclusion:
 
 When it comes to choosing the right media server, it all comes down to your personal needs and preferences. If you're looking for a polished and user-friendly platform that offers a wide range of features, then **Plex Media Server** may be the right choice for you. However, if you're on a budget and prefer an open-source solution, then **Jellyfin** is definitely worth considering. Ultimately, the choice between **Plex Media Server vs Jellyfin** is yours to make, but with this comparison, we hope to make your decision a little easier.

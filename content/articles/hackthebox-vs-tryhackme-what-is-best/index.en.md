@@ -50,6 +50,8 @@ For more information and to explore the challenges and community of TryHackMe, y
 
 ________________________________________________________________________________________________________________________
 
+{{< inarticle-dark >}}
+
 ### Strengths and Weaknesses of Both
 
 #### Strengths of HackTheBox
@@ -210,6 +212,8 @@ After evaluating the criteria, we conclude that **TryHackMe** stands out as the 
 Overall, TryHackMe provides an accessible and well-supported platform for individuals starting their journey in penetration testing. While the challenges may be less difficult than those found on HackTheBox, the focus on **building foundational skills** and the availability of **comprehensive guidance** make it an ideal choice for aspiring junior penetration testers.
 
 To explore the challenges and structured learning experience on TryHackMe, you can visit their [official website](https://tryhackme.com/).
+
+{{< inarticle-dark >}}
 
 ## Conclusion
 

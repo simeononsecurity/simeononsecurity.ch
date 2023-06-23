@@ -51,6 +51,8 @@ While specific requirements may vary depending on the job role, some common requ
 
 - **The ability to work independently and as part of a team** is important. Cybersecurity professionals often collaborate with IT teams, management, and external stakeholders.
 
+{{< inarticle-dark >}}
+
 ## Cybersecurity Job Outlook
 _____________
 
@@ -92,6 +94,8 @@ Government regulations play a crucial role in shaping the cybersecurity landscap
 - The [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
 
 - The [Federal Information Security Management Act (FISMA)](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002)
+
+{{< inarticle-dark >}}
 
 ## Conclusion
 _____________

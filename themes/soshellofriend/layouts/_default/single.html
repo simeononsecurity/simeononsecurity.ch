@@ -58,7 +58,7 @@
         <aside class="table-of-contents">{{ .TableOfContents }}</aside>
         {{ end }}
       {{ end }}
-      {{ replace .Content "<!--advert-->" (partial "inarticle-dark.html" .) | safeHTML }}
+      {{ .Content }}
       <br>
       {{ partial "share-buttons.html" . }}
     </div>

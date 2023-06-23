@@ -71,7 +71,7 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 - Explore the roles and responsibilities of cybersecurity experts.
 
 
-<!--advert-->
+{{< inarticle-dark >}}
 
 ## Cyber Security Degrees, Certifications, and Bootcamps
 
@@ -137,6 +137,8 @@ We've included a few tips and tricks for these certifications below:
 #### [Army Cybersecurity Awareness Training: What You Need to Know](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/army-cybersecurity-awareness-training-what-you-need-to-know)
 - Get insights into the cybersecurity awareness training provided by the army and its relevance in today's digital landscape.
 
+{{< inarticle-dark >}}
+
 ## Getting a Job in Cyber Security
 
 Securing a job in cybersecurity requires a combination of knowledge, experience, and preparation. In this section, you'll discover valuable resources and insights to help you navigate the job market, prepare for interviews, and increase your chances of landing an entry-level or remote cybersecurity position.
@@ -146,8 +148,6 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 
 - [Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals](https://simeononsecurity.ch/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-evolving-landscape-what-works-today-vs-what-worked-10-years-ago/)
   - Explore the evolving cybersecurity industry and its impact on early career professionals, with practical guidance on addressing challenges and thriving in today's landscape.
-
-<!--advert-->
 
 ### Step-by-Step Into the Cyber Security Career Path
 - [Step-by-Step Into the Cyber Security Career Path](https://simeononsecurity.ch/cyber-security-career-playbook/getting-a-job-in-cyber-security/step-by-step-into-to-cyber-security-career-path/)
@@ -200,6 +200,8 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 - [How to Find and Get the Best Remote Cybersecurity Job](https://simeononsecurity.ch/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-get-the-best-remote-cybersecurity-job/)
   - Explore strategies and resources to find and secure remote cybersecurity jobs that align with your career goals.
 
+{{< inarticle-dark >}}
+
 ## Moving up in your Cyber Security Career
 
 As a cybersecurity professional, continuous learning and growth are key to advancing your career. This section focuses on strategies for earning certifications, learning new skills, staying updated on emerging threats and vulnerabilities, and education on the regulations that define and regulate what you do, enabling you to progress and excel in your cybersecurity journey.
@@ -236,7 +238,7 @@ Learn about the Federal Information Security Management Act (FISMA), a U.S. fede
 #### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)
 - Learn about the summarized guidelines outlined in NIST 800-88 for media sanitization.
 
-<!--advert-->
+{{< inarticle-dark >}}
 
 ## Managing a Cyber Security Team
 
@@ -271,6 +273,8 @@ Developing robust cyber security plans and programs is essential for effective s
 - [How to Develop an Incident Response Program](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-an-incident-responce-program/): 
   - This resource provides guidance on building an effective incident response program, including planning, team roles, and incident handling best practices.
 
+{{< inarticle-dark >}}
+
 ## Conclusion
 
 At this point, you have gained a solid understanding of cybersecurity careers, the skills and training necessary to excel in the field, and the diverse range of opportunities available. Armed with this knowledge, you are now qualified to make informed decisions about your own cybersecurity path.
@@ -279,4 +283,3 @@ Remember, the cybersecurity landscape is constantly evolving, with new technolog
 
 Be sure to bookmark this page and revisit it periodically to stay informed about the latest trends, certifications, and career opportunities in cybersecurity. By staying proactive and maintaining a growth mindset, you can continue to expand your expertise and thrive in this exciting field.
 
-<!--advert-->

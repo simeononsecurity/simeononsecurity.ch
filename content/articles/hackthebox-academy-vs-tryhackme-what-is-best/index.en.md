@@ -63,6 +63,8 @@ Before choosing a platform, it's important to understand the strengths and weakn
 
 ______
 
+{{< inarticle-dark >}}
+
 ## Choosing the Best Platform for Beginners
 
 When deciding between HackTheBox Academy and TryHackMe, there are several factors to consider.
