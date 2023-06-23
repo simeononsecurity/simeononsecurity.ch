@@ -12,27 +12,28 @@
           {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
           <div class="related">
               {{ if .Params.Cover }}
-                {{ $cover := resources.Get (.Params.Cover) }}
-                {{ $tiny := ($cover.Resize "480x webp q75") }}
-                {{ $small := ($cover.Resize "768x webp q75") }}
-                {{ $medium := ($cover.Resize "1024x webp q75") }}
-                {{ $large := ($cover.Resize "1366x webp q75") }}
+                {{ $cover := ""}}
+                {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ else }}{{ $cover = resources.Get (.Params.Cover) }}{{ end }}
+                {{ $micro := ($cover.Resize "20x webp q20") }}
+                {{ $tiny := ($cover.Resize "240x webp q50") }}
+                {{ $small := ($cover.Resize "480x webp q50") }}
             <div class="related-image">
               <a href="{{ .RelPermalink }}">
-                <img
-                srcset="
-                  {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
-                  {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
-                  {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
-                  {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
-                sizes="(min-width: 900px) 731px, (min-width: 700px) 527px, calc(80.53vw - 21px)"
-                src="{{ $cover.RelPermalink }}"
-                alt="{{ .Title }}"
-                loading="lazy"
-                >
+                <picture>
+                  <source 
+                    srcset="{{ $small.RelPermalink }} 480w, {{ $tiny.RelPermalink }} 240w" 
+                    sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
+                    media="(min-width: 200px)">
+                  <img src="{{ $micro.RelPermalink }}"
+                    alt="{{ .Params.CoverAlt | plainify | default .Title }}"
+                    height="731"
+                    width="480"
+                    loading="lazy"
+                  />
+                </picture>  
               </a>
-            </div>
               {{ end }}
+            </div>
             <div class="related-info">
               <div class="related-date">
                 <time datetime="{{ .Date.UTC.Format "2006-01-02T15:04:05-0700" }}">
