@@ -8,9 +8,14 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+{{ $detectedimage := "" }}
 {{ $og_image := "" }}
 {{ if .Params.cover }}
-  {{ $og_image = ( .Params.cover | absURL) }}
+  {{ $cover := resources.Get (.Params.Cover) }}
+  {{ $detectedimage = ( .Params.cover | absURL) }}
+  {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
+  {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
+  {{ $og_image = $optimizedimage.Permalink}}
 {{ else }}
   {{ if .Params.images }}
     {{ $og_image = index .Params.images 0 | absURL }}
