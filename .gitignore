@@ -37,3 +37,4 @@ debug.log
 *.apk
 clean-legacy-translations.ps1
 tools/pngcrush_1_8_11_w64.exe
+tools/optimize-images.py
