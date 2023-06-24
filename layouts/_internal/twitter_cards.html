@@ -1,6 +1,11 @@
+{{ $detectedimage := "" }}
 {{ $twitter_image := "" }}
 {{ if .Params.cover }}
-  {{ $twitter_image = ( .Params.cover | absURL )}}
+  {{ $cover := resources.Get (.Params.Cover) }}
+  {{ $detectedimage = ( .Params.cover | absURL) }}
+  {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
+  {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
+  {{ $twitter_image = $optimizedimage.Permalink}}
 {{ else }}
   {{ if .Params.images }}
     {{ $twitter_image = index .Params.images 0 | absURL }}
@@ -8,6 +13,8 @@
     {{ $twitter_image = index $.Site.Params.images 0 | absURL }}
   {{ end }}
 {{ end }}
+<meta property="og:image" content="{{ $twitter_image }}" />
+<meta itemprop="image" content="{{ $twitter_image }}">
 {{ $title := .Title }}
 {{ if strings.Contains $.Permalink "/tags/" }}
     {{ $title = printf "Other Posts Tagged %q" .Title }}
