@@ -1,3 +1,19 @@
+{{ $og_image := "" }}
+{{ if .Params.cover }}
+  {{ $cover := resources.Get (.Params.Cover) }}
+  {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
+  {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
+  {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
+  {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
+  {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
+  {{ $og_image = $renamedimage.Permalink}}
+{{ else }}
+  {{ if .Params.images }}
+    {{ $og_image = index .Params.images 0 | absURL }}
+  {{ else }}
+    {{ $og_image = index $.Site.Params.images 0 | absURL }}
+  {{ end }}
+{{ end }}
 {{ $enabledURLs := slice "/about" "/contact" "/terms" "/privacy" }} {{
 $currentPath := .Permalink }} {{ $enableSchema := false }} {{ range $enabledURLs
 }} {{ if (in $currentPath .) }} {{ $enableSchema = true }} {{ end }} {{ end }}
@@ -78,7 +94,7 @@ $currentPath := .Permalink }} {{ $enableSchema := false }} {{ range $enabledURLs
               "height":"32"
           }
       },
-      "image": [{{ if .Params.cover}}{{ if in .Params.cover "http" }}"{{ .Params.cover | absURL }}",{{ end }}{{ end }}{{ if .Params.images }}{{ range $i, $e := .Params.images }}{{ if in $e "http" }}{{ if $i }}, "{{ $e | absURL }}"{{ else }}"{{ $e | absURL }}"{{ end }}{{ end }}{{ end }}{{ end }}{{ if not .Params.cover }}{{ if not .Params.images }}"{{ .Site.Params.logo | absURL }}"{{ end }}{{ end }}],
+      "image": [{{ if .Params.cover}}{{ if in .Params.cover "http" }}"{{ $og_image }}",{{ end }}{{ end }}{{ if .Params.images }}{{ range $i, $e := .Params.images }}{{ if in $e "http" }}{{ if $i }}, "{{ $e | absURL }}"{{ else }}"{{ $e | absURL }}"{{ end }}{{ end }}{{ end }}{{ end }}{{ if not .Params.cover }}{{ if not .Params.images }}"{{ .Site.Params.logo | absURL }}"{{ end }}{{ end }}],
       "url" : "{{ .Permalink }}",
       "wordCount" : "{{ .WordCount }}",
       "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],

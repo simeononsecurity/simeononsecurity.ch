@@ -14,17 +14,27 @@
               {{ if .Params.Cover }}
                 {{ $cover := ""}}
                 {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ else }}{{ $cover = resources.Get (.Params.Cover) }}{{ end }}
+                {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
                 {{ $micro := ($cover.Resize "20x webp q20") }}
+                  {{ $microfilename := printf "%s_%dx%d.%s" $permalink $micro.Width $micro.Height "webp" | urlize }}
+                  {{ $microrenamedimage := $micro | resources.Copy $microfilename }}
+                  {{ $optimizedmicro := $microrenamedimage.Permalink}}   
                 {{ $tiny := ($cover.Resize "240x webp q50") }}
+                  {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
+                  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+                  {{ $optimizedtiny := $tinyrenamedimage.Permalink}}   
                 {{ $small := ($cover.Resize "480x webp q50") }}
+                  {{ $smallfilename := printf "%s_%dx%d.%s" $permalink $small.Width $small.Height "webp" | urlize }}
+                  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+                  {{ $optimizedsmall := $smallrenamedimage.Permalink}}   
             <div class="related-image">
               <a href="{{ .RelPermalink }}">
                 <picture>
                   <source 
-                    srcset="{{ $small.RelPermalink }} 480w, {{ $tiny.RelPermalink }} 240w" 
+                    srcset="{{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
                     sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
                     media="(min-width: 200px)">
-                  <img src="{{ $micro.RelPermalink }}"
+                  <img src="{{ $optimizedmicro }}"
                     alt="{{ .Params.CoverAlt | plainify | default .Title }}"
                     height="731"
                     width="480"

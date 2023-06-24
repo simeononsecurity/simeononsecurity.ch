@@ -1,40 +1,37 @@
 {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
 <figure class="post-cover">
+    {{ $cover := resources.Get (.Params.Cover)}}
     {{ if .Params.UseRelativeCover }}
-    {{ $cover := resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+      {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+    {{ end }}
+    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
     {{ $micro := ($cover.Resize "20x webp q20") }}
+      {{ $microfilename := printf "%s_%dx%d.%s" $permalink $micro.Width $micro.Height "webp" | urlize }}
+      {{ $microrenamedimage := $micro | resources.Copy $microfilename }}
+      {{ $optimizedmicro := $microrenamedimage.Permalink}}   
     {{ $tiny := ($cover.Resize "240x webp q50") }}
+      {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
+      {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+      {{ $optimizedtiny := $tinyrenamedimage.Permalink}}   
     {{ $small := ($cover.Resize "480x webp q50") }}
+      {{ $smallfilename := printf "%s_%dx%d.%s" $permalink $small.Width $small.Height "webp" | urlize }}
+      {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+      {{ $optimizedsmall := $smallrenamedimage.Permalink}}   
     {{ $medium := ($cover.Resize "731x webp q50") }}
+      {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
+      {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+      {{ $optimizedmedium := $mediumrenamedimage.Permalink}} 
     <picture>
       <source 
-        srcset="{{ $medium.RelPermalink }} 731w, {{ $small.RelPermalink }} 480w, {{ $tiny.RelPermalink }} 240w" 
+        srcset="{{ $optimizedmedium }} 731w, {{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
         sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
         media="(min-width: 200px)">
-      <img src="{{ $micro.RelPermalink }}"
+      <img src="{{ $optimizedmicro }}"
         alt="{{ .Params.CoverAlt | plainify | default .Title }}"
         height="731"
         width="480"
       />
     </picture>        
-    {{ else }}
-      {{ $cover := resources.Get (.Params.Cover)}}
-      {{ $micro := ($cover.Resize "20x webp q20") }}
-      {{ $tiny := ($cover.Resize "240x webp q50") }}
-      {{ $small := ($cover.Resize "480x webp q50") }}
-      {{ $medium := ($cover.Resize "731x webp q50") }}
-      <picture>
-        <source 
-          srcset="{{ $medium.RelPermalink }} 731w, {{ $small.RelPermalink }} 480w, {{ $tiny.RelPermalink }} 240w" 
-          sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
-          media="(min-width: 200px)">
-        <img src="{{ $micro.RelPermalink }}"
-          alt="{{ .Params.CoverAlt | plainify | default .Title }}"
-          height="731"
-          width="480"
-        />
-      </picture>           
-    {{ end }}
     {{ if .Params.CoverCaption }}
       <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
     {{ end }}
