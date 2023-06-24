@@ -13,8 +13,6 @@
     {{ $twitter_image = index $.Site.Params.images 0 | absURL }}
   {{ end }}
 {{ end }}
-<meta property="og:image" content="{{ $twitter_image }}" />
-<meta itemprop="image" content="{{ $twitter_image }}">
 {{ $title := .Title }}
 {{ if strings.Contains $.Permalink "/tags/" }}
     {{ $title = printf "Other Posts Tagged %q" .Title }}
