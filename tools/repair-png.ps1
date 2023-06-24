@@ -16,7 +16,7 @@ elseif (Test-Path -PathType Container $Target) {
 }
 else {
     Write-Host "Invalid path: $Target"
-    $Target = "C:\Users\Simeon\Documents\GitHub\1-simeononsecurity.ch\assets\img\cover"
+    $Target = ""
     Exit 1
 }
 
