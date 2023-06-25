@@ -1,13 +1,13 @@
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/tags"}}
 {{ $currentPath := .Permalink }}
-{{ $disableComments := false }}
+{{ $disablelang := false }}
 {{ range $disabledURLs }}
   {{ if (in $currentPath .) }}
-    {{ $disableComments = true }}
+    {{ $disablelang = true }}
   {{ end }}
 {{ end }}
-{{ if not $disableComments }}
+{{ if not $disablelang }}
   {{ if not (eq .Params.Comments.enable false) }}
   <div>
     <span class="language-selector__container">
