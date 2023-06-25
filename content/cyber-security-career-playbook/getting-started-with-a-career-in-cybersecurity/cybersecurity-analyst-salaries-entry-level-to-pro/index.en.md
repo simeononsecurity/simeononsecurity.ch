@@ -9,6 +9,7 @@ cover: "/img/cover/A_cartoon_image_depicting_a_cybersecurity_analyst_working_a.p
 coverAlt: "A cartoon image depicting a cybersecurity analyst working at a computer, surrounded by lock icons and data streams, symbolizing the importance of protecting digital assets and information."
 coverCaption: "A cartoon depiction of a cybersecurity analyst ensuring digital security, highlighting the critical role they play in safeguarding organizations from cyber threats."
 ---
+{{< readfile "content\cyber-security-career-playbook\getting-started-with-a-career-in-cybersecurity\cybersecurity-analyst-salaries-entry-level-to-pro\pageschema.html" >}}
 
 **Cybersecurity Analyst Salaries: Entry Level to Pro**
 

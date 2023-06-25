@@ -9,6 +9,7 @@ cover: "/img/cover/A_cartoon-style_hacker_protecting_a_network_shield_with_a_s.p
 coverAlt: "A cartoon-style hacker protecting a network shield with a sword."
 coverCaption: "Defend and conquer: Unlocking the world of cybersecurity."
 ---
+{{< readfile "content\cyber-security-career-playbook\getting-started-with-a-career-in-cybersecurity\exploring-different-cybersecurity-specalizations\pageschema.html" >}}
 
 **Exploring Different Specializations in Cybersecurity**
 
