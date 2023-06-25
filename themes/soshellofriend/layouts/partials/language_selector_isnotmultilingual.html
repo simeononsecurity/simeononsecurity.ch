@@ -8,7 +8,6 @@
   {{ end }}
 {{ end }}
 {{ if not $disablelang }}
-  {{ if not (eq .Params.Comments.enable false) }}
   <div>
     <span class="language-selector__container">
         <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
@@ -184,6 +183,5 @@
             });
     </script>
     </div>    
-  {{ end }}
 {{ end }}
 
