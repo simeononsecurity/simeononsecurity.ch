@@ -291,10 +291,24 @@
         console.log("Error fetching cehdict:", error);
       });
   </script>
-  
-  
-  
-
   {{ partial "displayads-responsive-horizontal.html" . }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQ",
+      "mainEntity": [
+        {{- range $index, $faq := (getJSON "static/quiz-dicts/cehdict.json") }}
+        {
+          "@type": "Question",
+          "name": "Question {{ add $index 1 }}: {{ $faq.question }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ $faq.reasoning }}"
+          }
+        },
+        {{- end }}
+      ]
+    }
+  </script> 
 </main>
 {{ end }}
