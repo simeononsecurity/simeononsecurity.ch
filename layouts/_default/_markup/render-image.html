@@ -39,22 +39,29 @@
 {{ if $isSVG }}
   {{ if $external }}
     <!-- Code for external SVG image -->
-    <img
-      src="{{ $src.Permalink }}"
-      data-src="{{ $src.Permalink }}" 
-      alt="{{ $title }}" 
-      data-sizes="440w"
-      loading="lazy"
-    >
+    <div itemscope itemtype="https://schema.org/ImageObject">
+      <img
+        src="{{ $src.Permalink }}"
+        data-src="{{ $src.Permalink }}" 
+        alt="{{ $title }}" 
+        data-sizes="440w"
+        loading="lazy"
+        itemprop="contentUrl"
+      >
+    </div>
+
   {{ else }}
     <!-- Code for local SVG image -->
-    <img
-      src="{{ $src.RelPermalink }}"
-      data-src="{{ $src.RelPermalink }}" 
-      alt="{{ $title }}" 
-      data-sizes="440w"
-      loading="lazy"
-    >
+    <div itemscope itemtype="https://schema.org/ImageObject">
+      <img
+        src="{{ $src.RelPermalink }}"
+        data-src="{{ $src.RelPermalink }}" 
+        alt="{{ $title }}" 
+        data-sizes="440w"
+        loading="lazy"
+        itemprop="contentUrl"
+      >
+    </div>
   {{ end }}
 {{ else if not $isSVG}}
   
@@ -85,29 +92,35 @@
 
   {{ if $external }}
     <!-- Code for external non-SVG image -->
-    <img
-      src="{{ $src.Permalink }}"
-      data-src="{{ $lqip.RelPermalink }}"  
-      data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
-      alt="{{ $title }}" 
-      data-sizes="440w"
-      loading="lazy"
-      height="{{ $height }}"
-      width="{{ $width }}"
-      style="height: auto; width: 100%; object-fit: contain;"
-    >
+    <div itemscope itemtype="https://schema.org/ImageObject">
+      <img
+        src="{{ $src.Permalink }}"
+        data-src="{{ $lqip.RelPermalink }}"  
+        data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
+        alt="{{ $title }}" 
+        data-sizes="440w"
+        loading="lazy"
+        height="{{ $height }}"
+        width="{{ $width }}"
+        style="height: auto; width: 100%; object-fit: contain;"
+        itemprop="contentUrl" 
+      >
+    </div>
   {{ else }}
     <!-- Code for local non-SVG image -->
-    <img
-      src="{{ $src.RelPermalink }}"
-      data-src="{{ $lqip.RelPermalink }}" 
-      data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
-      alt="{{ $title }}" 
-      data-sizes="440w"
-      loading="lazy"
-      height="{{ $height }}"
-      width="{{ $width }}"
-      style="height: auto; width: 100%; object-fit: contain;"
-    >
+    <div itemscope itemtype="https://schema.org/ImageObject">
+      <img
+        src="{{ $src.RelPermalink }}"
+        data-src="{{ $lqip.RelPermalink }}" 
+        data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
+        alt="{{ $title }}" 
+        data-sizes="440w"
+        loading="lazy"
+        height="{{ $height }}"
+        width="{{ $width }}"
+        style="height: auto; width: 100%; object-fit: contain;"
+        itemprop="contentUrl" 
+      >
+    </div>
   {{ end }}
 {{ end }}

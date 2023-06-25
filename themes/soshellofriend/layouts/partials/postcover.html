@@ -1,5 +1,5 @@
 {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
-<figure class="post-cover">
+<figure class="post-cover" itemscope itemtype="https://schema.org/ImageObject">
     {{ $cover := resources.Get (.Params.Cover)}}
     {{ if .Params.UseRelativeCover }}
       {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
@@ -30,12 +30,28 @@
         alt="{{ .Params.CoverAlt | plainify | default .Title }}"
         height="731"
         width="480"
+        itemprop="contentUrl"
       />
     </picture>        
     {{ if .Params.CoverCaption }}
       <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
     {{ end }}
 </figure>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "{{ $cover | absURL }}",
+    "license": "https://simeononsecurity.ch/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.ch/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
+      "@type": "Person",
+      "name": "SimeonOnSecurity"
+    },
+    "copyrightNotice": "SimeonOnSecurity"
+  }
+  </script>
 {{ else }}
 <figure class="post-cover"></figure>
 {{ end }}
