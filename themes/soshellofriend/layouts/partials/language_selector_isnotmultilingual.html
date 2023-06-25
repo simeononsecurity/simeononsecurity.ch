@@ -1,175 +1,189 @@
-<div>
-<span class="language-selector__container">
-    <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
-            <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
-    </span>
-    <span class="language-selector" id="language-menu">
-        <nav aria-label="Language switcher">
-            <ul class="">
-                {{ range .Site.Languages }}
-                {{ if eq . $.Site.Language }}
-                    <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
-                {{ end }}
-                {{ end }}
-                <ul class="language_dropdown__menu">
-                    {{ $baseURLs := slice
-                        "https://simeononsecurity.ch"
-                        "https://ar.simeononsecurity.ch"
-                        "https://bn.simeononsecurity.ch"
-                        "https://ca.simeononsecurity.ch"
-                        "https://de.simeononsecurity.ch"
-                        "https://es.simeononsecurity.ch"
-                        "https://fr.simeononsecurity.ch"
-                        "https://hi.simeononsecurity.ch"
-                        "https://it.simeononsecurity.ch"
-                        "https://ja.simeononsecurity.ch"
-                        "https://nl.simeononsecurity.ch"
-                        "https://pa.simeononsecurity.ch"
-                        "https://pt.simeononsecurity.ch"
-                        "https://pl.simeononsecurity.ch"
-                        "https://ro.simeononsecurity.ch"
-                        "https://ru.simeononsecurity.ch"
-                        "https://zh.simeononsecurity.ch"
-                    }}
-                    {{ $currentPageTitle := .Page.Title }}
-                    {{ range $baseURLs }}
-                        {{ $baseURL := . }}
-                        {{ $sitelang := "" }}
-                        {{ $hreflang := "" }}
-                        {{ $localizedURL := "" }}
-                        {{ if eq $baseURL "https://simeononsecurity.ch" }}
-                            {{ $sitelang = "English" }}
-                            {{ $hreflang = "es" }}
-                        {{ else if eq $baseURL "https://ar.simeononsecurity.ch" }}
-                            {{ $sitelang = "العربية" }}
-                            {{ $hreflang = "ar" }}
-                        {{ else if eq $baseURL "https://bn.simeononsecurity.ch" }}
-                            {{ $sitelang = "বাংলা" }}
-                            {{ $hreflang = "bn" }}
-                        {{ else if eq $baseURL "https://ca.simeononsecurity.ch" }}
-                            {{ $sitelang = "Català" }}
-                            {{ $hreflang = "ca" }}
-                        {{ else if eq $baseURL "https://de.simeononsecurity.ch" }}
-                            {{ $sitelang = "Deutsch" }}
-                            {{ $hreflang = "de" }}
-                        {{ else if eq $baseURL "https://es.simeononsecurity.ch" }}
-                            {{ $sitelang = "Español" }}
-                            {{ $hreflang = "es" }}
-                        {{ else if eq $baseURL "https://fr.simeononsecurity.ch" }}
-                            {{ $sitelang = "Français" }}
-                            {{ $hreflang = "fr" }}
-                        {{ else if eq $baseURL "https://hi.simeononsecurity.ch" }}
-                            {{ $sitelang = "हिन्दी" }}
-                            {{ $hreflang = "hi" }}
-                        {{ else if eq $baseURL "https://it.simeononsecurity.ch" }}
-                            {{ $sitelang = "Italiano" }}
-                            {{ $hreflang = "it" }}
-                        {{ else if eq $baseURL "https://ja.simeononsecurity.ch" }}
-                            {{ $sitelang = "日本語" }}
-                            {{ $hreflang = "ja" }}
-                        {{ else if eq $baseURL "https://nl.simeononsecurity.ch" }}
-                            {{ $sitelang = "Nederlands" }}
-                            {{ $hreflang = "nl" }}
-                        {{ else if eq $baseURL "https://pa.simeononsecurity.ch" }}
-                            {{ $sitelang = "ਪੰਜਾਬੀ" }}
-                            {{ $hreflang = "pa" }}
-                        {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
-                            {{ $sitelang = "Português" }}
-                            {{ $hreflang = "pt" }}
-                        {{ else if eq $baseURL "https://pl.simeononsecurity.ch" }}
-                            {{ $sitelang = "Polski" }}
-                            {{ $hreflang = "pl" }}
-                        {{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
-                            {{ $sitelang = "Română" }}
-                            {{ $hreflang = "ro" }}
-                        {{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
-                            {{ $sitelang = "Русский" }}
-                            {{ $hreflang = "ru" }}
-                        {{ else if eq $baseURL "https://zh.simeononsecurity.ch" }}
-                            {{ $sitelang = "中文" }}
-                            {{ $hreflang = "zh" }}
-                        {{ end }}
-                        {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-                        <li><a title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" >{{ $sitelang }}</a></li>
+
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/tags"}}
+{{ $currentPath := .Permalink }}
+{{ $disableComments := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disableComments = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disableComments }}
+  {{ if not (eq .Params.Comments.enable false) }}
+  <div>
+    <span class="language-selector__container">
+        <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
+                <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
+        </span>
+        <span class="language-selector" id="language-menu">
+            <nav aria-label="Language switcher">
+                <ul class="">
+                    {{ range .Site.Languages }}
+                    {{ if eq . $.Site.Language }}
+                        <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
                     {{ end }}
+                    {{ end }}
+                    <ul class="language_dropdown__menu">
+                        {{ $baseURLs := slice
+                            "https://simeononsecurity.ch"
+                            "https://ar.simeononsecurity.ch"
+                            "https://bn.simeononsecurity.ch"
+                            "https://ca.simeononsecurity.ch"
+                            "https://de.simeononsecurity.ch"
+                            "https://es.simeononsecurity.ch"
+                            "https://fr.simeononsecurity.ch"
+                            "https://hi.simeononsecurity.ch"
+                            "https://it.simeononsecurity.ch"
+                            "https://ja.simeononsecurity.ch"
+                            "https://nl.simeononsecurity.ch"
+                            "https://pa.simeononsecurity.ch"
+                            "https://pt.simeononsecurity.ch"
+                            "https://pl.simeononsecurity.ch"
+                            "https://ro.simeononsecurity.ch"
+                            "https://ru.simeononsecurity.ch"
+                            "https://zh.simeononsecurity.ch"
+                        }}
+                        {{ $currentPageTitle := .Page.Title }}
+                        {{ range $baseURLs }}
+                            {{ $baseURL := . }}
+                            {{ $sitelang := "" }}
+                            {{ $hreflang := "" }}
+                            {{ $localizedURL := "" }}
+                            {{ if eq $baseURL "https://simeononsecurity.ch" }}
+                                {{ $sitelang = "English" }}
+                                {{ $hreflang = "es" }}
+                            {{ else if eq $baseURL "https://ar.simeononsecurity.ch" }}
+                                {{ $sitelang = "العربية" }}
+                                {{ $hreflang = "ar" }}
+                            {{ else if eq $baseURL "https://bn.simeononsecurity.ch" }}
+                                {{ $sitelang = "বাংলা" }}
+                                {{ $hreflang = "bn" }}
+                            {{ else if eq $baseURL "https://ca.simeononsecurity.ch" }}
+                                {{ $sitelang = "Català" }}
+                                {{ $hreflang = "ca" }}
+                            {{ else if eq $baseURL "https://de.simeononsecurity.ch" }}
+                                {{ $sitelang = "Deutsch" }}
+                                {{ $hreflang = "de" }}
+                            {{ else if eq $baseURL "https://es.simeononsecurity.ch" }}
+                                {{ $sitelang = "Español" }}
+                                {{ $hreflang = "es" }}
+                            {{ else if eq $baseURL "https://fr.simeononsecurity.ch" }}
+                                {{ $sitelang = "Français" }}
+                                {{ $hreflang = "fr" }}
+                            {{ else if eq $baseURL "https://hi.simeononsecurity.ch" }}
+                                {{ $sitelang = "हिन्दी" }}
+                                {{ $hreflang = "hi" }}
+                            {{ else if eq $baseURL "https://it.simeononsecurity.ch" }}
+                                {{ $sitelang = "Italiano" }}
+                                {{ $hreflang = "it" }}
+                            {{ else if eq $baseURL "https://ja.simeononsecurity.ch" }}
+                                {{ $sitelang = "日本語" }}
+                                {{ $hreflang = "ja" }}
+                            {{ else if eq $baseURL "https://nl.simeononsecurity.ch" }}
+                                {{ $sitelang = "Nederlands" }}
+                                {{ $hreflang = "nl" }}
+                            {{ else if eq $baseURL "https://pa.simeononsecurity.ch" }}
+                                {{ $sitelang = "ਪੰਜਾਬੀ" }}
+                                {{ $hreflang = "pa" }}
+                            {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+                                {{ $sitelang = "Português" }}
+                                {{ $hreflang = "pt" }}
+                            {{ else if eq $baseURL "https://pl.simeononsecurity.ch" }}
+                                {{ $sitelang = "Polski" }}
+                                {{ $hreflang = "pl" }}
+                            {{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
+                                {{ $sitelang = "Română" }}
+                                {{ $hreflang = "ro" }}
+                            {{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
+                                {{ $sitelang = "Русский" }}
+                                {{ $hreflang = "ru" }}
+                            {{ else if eq $baseURL "https://zh.simeononsecurity.ch" }}
+                                {{ $sitelang = "中文" }}
+                                {{ $hreflang = "zh" }}
+                            {{ end }}
+                            {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
+                            <li><a title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" >{{ $sitelang }}</a></li>
+                        {{ end }}
+                    </ul>
                 </ul>
-            </ul>
-        </nav>
+            </nav>
+        </span>
     </span>
-</span>
-<style>
-        .language-selector {
-        position: relative;
-        display: inline-block;
-        }
-
-        .language-selector__icon {
-        cursor: pointer;
-        }
-
-        .language-selector__icon:hover {
-        opacity: 0.8;
-        }
-
-        .language_dropdown__menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 1;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        background-color: var(--background);
-        border: 1px solid var(--border-color);
-        border-top: none;
-        border-radius: 0 0 4px 4px;
-        }
-
-        .language_dropdown__menu li {
-        list-style: none;
-        padding: 6px 8px;
-        font-size: 14px;
-        line-height: 1.4em;
-        color: var(--color);
-        text-decoration: none;
-        }
-
-        .language_dropdown__menu li a {
-        color: var(--color);
-        text-decoration: none;
-        }
-
-        .language_dropdown__menu li:hover {
-        background-color: var(--background-secondary);
-        }
-
-        .language-selector:hover .language_dropdown__menu,
-        .language-selector.open .language_dropdown__menu {
-        display: block;
-        }
-
-        .language-selector__icon .menu__sub-inner-more-trigger {
-        display: inline-block;
-        }
-
-        .language-selector:hover .menu__sub-inner-more-trigger {
-        display: none;
-        }
-</style>
-<script>
-        function toggleLanguageMenu() {
-            var selector = document.querySelector('.language-selector');
-            selector.classList.toggle('open');
-        }
-        document.addEventListener("click", function(event) {
-            var selector = document.querySelector('.language-selector');
-            var menu = document.getElementById("language-menu");
-            if (event.target.closest(".language-selector__container") !== null) {
-                return;
-            } else {
-                selector.classList.remove('open');
+    <style>
+            .language-selector {
+            position: relative;
+            display: inline-block;
             }
-        });
-</script>
-</div>    
+    
+            .language-selector__icon {
+            cursor: pointer;
+            }
+    
+            .language-selector__icon:hover {
+            opacity: 0.8;
+            }
+    
+            .language_dropdown__menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: var(--background);
+            border: 1px solid var(--border-color);
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            }
+    
+            .language_dropdown__menu li {
+            list-style: none;
+            padding: 6px 8px;
+            font-size: 14px;
+            line-height: 1.4em;
+            color: var(--color);
+            text-decoration: none;
+            }
+    
+            .language_dropdown__menu li a {
+            color: var(--color);
+            text-decoration: none;
+            }
+    
+            .language_dropdown__menu li:hover {
+            background-color: var(--background-secondary);
+            }
+    
+            .language-selector:hover .language_dropdown__menu,
+            .language-selector.open .language_dropdown__menu {
+            display: block;
+            }
+    
+            .language-selector__icon .menu__sub-inner-more-trigger {
+            display: inline-block;
+            }
+    
+            .language-selector:hover .menu__sub-inner-more-trigger {
+            display: none;
+            }
+    </style>
+    <script>
+            function toggleLanguageMenu() {
+                var selector = document.querySelector('.language-selector');
+                selector.classList.toggle('open');
+            }
+            document.addEventListener("click", function(event) {
+                var selector = document.querySelector('.language-selector');
+                var menu = document.getElementById("language-menu");
+                if (event.target.closest(".language-selector__container") !== null) {
+                    return;
+                } else {
+                    selector.classList.remove('open');
+                }
+            });
+    </script>
+    </div>    
+  {{ end }}
+{{ end }}
+
