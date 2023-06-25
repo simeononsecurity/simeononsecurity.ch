@@ -114,7 +114,7 @@
               "height":"32"
           }
       },
-      "image": [{{ if .Params.cover}}{{ if in .Params.cover "http" }}"{{ $og_image }}",{{ end }}{{ end }}{{ if .Params.images }}{{ range $i, $e := .Params.images }}{{ if in $e "http" }}{{ if $i }}, "{{ $e | absURL }}"{{ else }}"{{ $e | absURL }}"{{ end }}{{ end }}{{ end }}{{ end }}{{ if not .Params.cover }}{{ if not .Params.images }}"{{ .Site.Params.logo | absURL }}"{{ end }}{{ end }}],
+      "image": "{{ $og_image }}",
       "url" : "{{ .Permalink }}",
       "wordCount" : "{{ .WordCount }}",
       "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
