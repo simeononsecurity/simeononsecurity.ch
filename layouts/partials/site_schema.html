@@ -119,6 +119,14 @@
       "wordCount" : "{{ .WordCount }}",
       "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
       "keywords" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "xpath": [
+            "//title",
+            "//meta[@name='description']/@content",
+            "//body"
+        ]
+    }    
   }
 </script>
 {{ end }}
