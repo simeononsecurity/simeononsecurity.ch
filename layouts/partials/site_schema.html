@@ -12,13 +12,20 @@
       "@context": "http://schema.org",
       "@type": "WebSite",
       "name": "{{ .Title }}",
-      "name": "{{ .Title }}",
       "url": "{{ .Permalink }}",
       "description": "{{ .Params.description }}",
       "sameAs": ["{{ .Site.Params.twitter }}", "{{ .Site.Params.github }}"],
       "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
       "logo": "{{ .Site.Params.Logo | absURL }}",
-      "license": "{{ .Site.Params.copyright }}"
+      "license": "{{ .Site.Params.copyright }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ .Site.Params.BaseURL }}/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }
   </script>
 {{ else if .IsHome -}}
@@ -27,13 +34,20 @@
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "{{ .Site.Title }}",
-    "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "sameAs": ["{{ .Site.Params.twitter }}", "{{ .Site.Params.github }}"],
     "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
     "logo": "{{ .Site.Params.Logo | absURL }}",
-    "license": "{{ .Site.Params.copyright }}"
+    "license": "{{ .Site.Params.copyright }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "{{ .Site.Params.BaseURL }}/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 </script>
 {{ else if .IsPage }} 
