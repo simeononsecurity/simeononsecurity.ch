@@ -1,7 +1,8 @@
 <nav id="breadcrumbs" aria-label="breadcrumbs" style="display: inline-block; list-style: none; margin: 0; padding: 0;">
     <ol class="breadcrumb-list" style="display: inline-block;" itemscope itemtype="https://schema.org/BreadcrumbList">
       <li class="breadcrumb-item" style="display: inline-block;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="{{ .Site.Params.BaseURL }}" itemprop="item" itemtype="https://schema.org/Thing">
+        <a href="{{ .Site.Params.BaseURL }}" itemscope itemtype="https://schema.org/WebPage"
+        itemprop="item" itemid="{{ .Site.Params.BaseURL }}">
           <span itemprop="name">Home</span>
         </a>
         <meta itemprop="position" content="0" />
@@ -9,7 +10,8 @@
       <li class="breadcrumb-separator" style="display: inline-block;">&gt;</li>
       {{- range $index, $ancestor := .Ancestors.Reverse }}
       <li class="breadcrumb-item" style="display: inline-block;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="{{ $ancestor.RelPermalink }}" itemprop="item" itemtype="https://schema.org/Thing">
+        <a href="{{ $ancestor.RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
+        itemprop="item" itemid="{{ $ancestor.RelPermalink }}">
           <span itemprop="name">{{ $ancestor.Title }}</span>
         </a>
         <meta itemprop="position" content="{{ $index }}" />
@@ -17,7 +19,8 @@
       <li class="breadcrumb-separator" style="display: inline-block;">&gt;</li>
       {{- end }}
       <li class="breadcrumb-item active" aria-current="page" style="display: inline-block;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="{{ .RelPermalink }}" itemprop="item" itemtype="https://schema.org/Thing">
+        <a href="{{ .RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
+        itemprop="item" itemid="{{ .RelPermalink }}">
           <span itemprop="name">{{ .Title }}</span>
         </a>
         <meta itemprop="position" content="{{ len .Ancestors }}" />
