@@ -1,39 +1,17 @@
-{{ $enabledURLs := slice "/about" "/contact" "/terms" "/privacy" }} 
+{{ $enabledBlogURLs := slice "/blog" }} 
 {{ $currentPath := .Permalink }} 
-{{ $enableSchema := false }} 
-{{ range $enabledURLs}} 
+{{ $enableBlogSchema := false }} 
+{{ range $enabledBlogURLs}} 
   {{ if (in $currentPath .) }} 
-    {{ $enableSchema = true }} 
+    {{ $enableBlogSchema = true }} 
   {{ end }} 
 {{ end }}
-{{ if $enableSchema }}
-<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "{{ .Title }}",
-      "url": "{{ .Permalink }}",
-      "description": "{{ .Params.description }}",
-      "sameAs": ["{{ .Site.Params.twitter }}", "{{ .Site.Params.github }}"],
-      "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
-      "logo": "{{ .Site.Params.Logo | absURL }}",
-      "license": "{{ .Site.Params.copyright }}",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "{{ .Site.Params.BaseURL }}/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
-{{ else if .IsHome -}}
+{{ if .IsHome -}}
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
+    "name": "{{ .Site.Title }}{{ if ne .Site.LanguageCode \"en\" }} in {{ .Site.LanguageCode | upper }}{{ end }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "sameAs": ["{{ .Site.Params.twitter }}", "{{ .Site.Params.github }}"],
@@ -47,10 +25,11 @@
         "urlTemplate": "{{ .Site.Params.BaseURL }}/search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
-    }
+    },
+    "inLanguage": ["en","fr","es","de","hi","ar","bn","ca","it","ja","nl","ro","zh","pa","pt","ru","pl"]
   }
 </script>
-{{ else if .IsPage }} 
+{{ else if $enableBlogSchema }}
 {{ $author := or (.Params.author) (.Site.Author.name) }}
 {{ $org_name := .Site.Title }}
 {{ $og_image := "" }}
@@ -70,7 +49,7 @@
   {{ end }}
 {{ end }}
 <script type="application/ld+json">
-  {
+    {
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "articleSection": "{{ .Section }}",
@@ -128,5 +107,73 @@
         ]
     }    
   }
+  </script>
+{{ else if .IsPage }} 
+{{ $author := or (.Params.author) (.Site.Author.name) }}
+{{ $org_name := .Site.Title }}
+{{ $og_image := "" }}
+{{ if .Params.cover }}
+  {{ $cover := resources.Get (.Params.Cover) }}
+  {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
+  {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
+  {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
+  {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
+  {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
+  {{ $og_image = $renamedimage.Permalink}}
+{{ else }}
+  {{ if .Params.images }}
+    {{ $og_image = index .Params.images 0 | absURL }}
+  {{ else }}
+    {{ $og_image = index $.Site.Params.images 0 | absURL }}
+  {{ end }}
+{{ end }}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "{{ .Section }}",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    "alternativeHeadline": "{{ .Params.lead }}",
+    "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+    "inLanguage": "{{ .Site.LanguageCode | default "en-us" }}",
+    "isFamilyFriendly": true,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "{{ $author }}",
+      "additionalName": "{{ $author }}",
+      "url": "{{ .Site.BaseURL }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ $org_name }}",
+      "url": "{{ .Site.BaseURL }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.Params.logo | absURL }}",
+        "width": "32",
+        "height": "32"
+      }
+    },
+    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "image": "{{ $og_image }}",
+    "url": "{{ .Permalink }}",
+    "wordCount": "{{ .WordCount }}",
+    "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
+    "keywords": [{{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}],
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "xpath": [
+        "//title",
+        "//meta[@name='description']/@content",
+        "//body"
+      ]
+    }
+  }  
 </script>
 {{ end }}
