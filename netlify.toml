@@ -50,11 +50,6 @@ Cross-Origin-Resource-Policy = "cross-origin"
 Server = "simeononsecurity"
 pagespeed = "on"
 Link = '''
-  </js/lazyload.js>; rel=preload; as=script,
-  </assets/main.js>; rel=preload; as=script,
-  </assets/prism.js>; rel=preload; as=script,
-  </js/search.js>; rel=preload; as=script,
-  </service-worker.js>; rel=preload; as=script,
   <https://pagead1.googlesyndication.com>; rel=preconnect,
   <https://pagead2.googlesyndication.com>; rel=preconnect,
   <https://www.google-analytics.com>; rel=preconnect,
