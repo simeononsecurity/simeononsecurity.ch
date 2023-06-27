@@ -10,11 +10,13 @@
 ></script>
 <script async>
   let rafId;
+  let adLoaded = false; // Track whether the ad has been loaded
   const delaySeconds = 0.2; // Adjust the delay in seconds as per your requirements
   const delay = delaySeconds * 1000; // Convert the delay to milliseconds
 
   function loadAd() {
     (adsbygoogle = window.adsbygoogle || []).push({});
+    adLoaded = true; // Mark the ad as loaded
   }
 
   function refreshAd() {
@@ -23,6 +25,11 @@
   }
 
   function checkIfAdShouldLoad() {
+    if (adLoaded) {
+      // If the ad has already been loaded, return early
+      return;
+    }
+
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
       refreshAd(); // Call the refresh function to reload the ad
       window.removeEventListener("scroll", checkIfAdShouldLoad);
@@ -69,8 +76,6 @@
     refreshAd();
   }
 
-  window.addEventListener("load", onPageLoad, { passive: true });
-
   function lazyLoadAds() {
     var adPlaceholder = document.getElementById("ad-placeholder");
 
@@ -103,8 +108,9 @@
       console.error("Error observing ad placeholder element:", error);
     }
   }
-</script>
 
+  window.addEventListener("load", onPageLoad, { passive: true });
+</script>
 <script defer>
   window.addEventListener("DOMContentLoaded", function() {
     try {
@@ -113,32 +119,22 @@
       );
 
       iframes.forEach(function(iframe) {
-        if (!iframe.hasAttribute("title")) {
-          iframe.setAttribute("title", "google ads");
-        }
-        if (!iframe.hasAttribute("role")) {
-          iframe.setAttribute("role", "banner");
-        }
+        iframe.setAttribute("title", "google ads");
+        iframe.setAttribute("role", "banner");
 
-        if (iframe.hasAttribute("data-google-container-id")) {
-          if (iframe.complete) {
+        if (iframe.hasAttribute("data-google-container-id") && iframe.complete) {
+          setAttributes(iframe);
+        } else {
+          iframe.addEventListener("load", function() {
             setAttributes(iframe);
-          } else {
-            iframe.addEventListener("load", function() {
-              setAttributes(iframe);
-            });
-          }
+          });
         }
       });
 
       function setAttributes(iframe) {
         var containerId = iframe.getAttribute("data-google-container-id");
-        if (!iframe.hasAttribute("title")) {
-          iframe.setAttribute("title", "google ads");
-        }
-        if (!iframe.hasAttribute("role")) {
-          iframe.setAttribute("role", "banner");
-        }
+        iframe.setAttribute("title", "google ads");
+        iframe.setAttribute("role", "banner");
       }
     } catch (error) {
       // Handle any errors that occur during the execution of the code
