@@ -152,7 +152,9 @@
 {{ end }}
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
-  <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
+    {{ if not .IsPage}}
+      <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
+    {{ end }}
   {{ end }}
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
