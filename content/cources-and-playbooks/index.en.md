@@ -23,7 +23,7 @@ sitemap:
 ### Coming Soon
 #### CompTIA Courses
 - CompTIA A+ Course
-- CompTIA Network+ Course
+- [CompTIA Network+ Course](/network-plus-start)
 - CompTIA Security+ Course
 - CompTIA Linux+ Course
 - CompTIA CySA+ Course
