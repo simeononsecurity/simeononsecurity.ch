@@ -20,10 +20,13 @@ sitemap:
 - Software Development Career Playbook
 
 ## Certification Playbooks
+
+### CompTIA Courses
+- [CompTIA Network+ Course](/network-plus-start)
 ### Coming Soon
 #### CompTIA Courses
 - CompTIA A+ Course
-- [CompTIA Network+ Course](/network-plus-start)
+
 - CompTIA Security+ Course
 - CompTIA Linux+ Course
 - CompTIA CySA+ Course
