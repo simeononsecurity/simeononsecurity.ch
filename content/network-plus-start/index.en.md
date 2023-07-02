@@ -16,6 +16,7 @@ coverCaption: "Empower Your Networking Career"
 - [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
 - [Network+ Practice Test](/network-plus-practice-test)
 - [Network+ Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-network-n10-008-exam-objectives-(2-0))
+- [Professor Messer's Network Plus Videos](https://www.youtube.com/watch?v=As6g6IXcVa4&list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
 - [Additional Learning Resources](/recommendations/learning_resources)
 
 ## Objective 1: Networking Fundamentals
