@@ -35,6 +35,7 @@ Cybersecurity policies and procedures provide a framework for organizations to e
 
 By developing and implementing effective cybersecurity policies and procedures, organizations can enhance their security posture, instill trust among customers and partners, and mitigate potential financial and reputational risks.
 
+{{< inarticle-dark >}}
 ## Key Elements of a Cybersecurity Policy
 
 A comprehensive cybersecurity policy should encompass several key elements to address various aspects of security management. Let's explore these elements in detail:
@@ -144,6 +145,8 @@ Example: The United States Computer Emergency Readiness Team (US-CERT) provides 
 
 By investing in security awareness and training programs, organizations can create a culture of cybersecurity awareness, empower employees to become the first line of defense, and reduce the likelihood of successful cyberattacks.
 
+
+{{< inarticle-dark >}}
 ## Conclusion
 
 In conclusion, developing a **robust cybersecurity policy** is crucial for organizations to safeguard their digital assets, protect sensitive information, and maintain regulatory compliance. By following industry best practices and standards, such as the **Risk Management Framework (RMF)**, **NIST Standards**, **PCI-DSS**, **HIPAA**, and **FISMA**, organizations can establish a solid foundation for their cybersecurity policies and procedures.

@@ -24,6 +24,8 @@ The CompTIA Security+ Certification Exam (SY0-601) consists of 90 multiple-choic
 
 You will need to score at least 750 out of 900 to pass the exam. The cost of the exam is $370, and it is available through Pearson VUE.
 
+{{< inarticle-dark >}}
+
 ## Exam Objectives
 
 CompTIA has outlined the exam objectives in its Certification Exam Objectives document, which is available on their website. The exam covers the following topics:
@@ -84,6 +86,8 @@ While not required, having access to these tools can help you gain hands-on expe
 The CompTIA Security+ SY0-601 exam consists of a maximum of 90 questions, which are a combination of multiple-choice and performance-based questions. Candidates have 90 minutes to complete the exam, and a passing score is 750 on a scale of 100-900.
 
 Performance-based questions require candidates to perform a task or solve a problem in a simulated environment, and are designed to test practical, real-world skills. These questions may require candidates to configure a firewall, analyze logs, or identify vulnerabilities.
+
+{{< inarticle-dark >}}
 
 ## Exam Objectives
 The Security+ SY0-601 exam covers a range of topics related to information security, including:

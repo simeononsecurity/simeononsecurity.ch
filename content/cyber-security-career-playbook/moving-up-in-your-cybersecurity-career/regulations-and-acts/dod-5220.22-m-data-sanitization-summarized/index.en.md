@@ -29,7 +29,7 @@ The DoD 5220.22-M specification is important because it helps to protect sensiti
 The DoD 5220.22-M specification helps to prevent these types of scenarios by providing a standard for securely erasing sensitive information from digital storage media. This ensures that the information is not recoverable by unauthorized individuals and cannot be used for malicious purposes.
 
 ______
-
+{{< inarticle-dark >}}
 ## How is the DoD 5220.22-M Specification Used?
 
 The DoD 5220.22-M specification is used by the U.S. military and other government organizations to ensure that sensitive information is securely erased from digital storage media before it is disposed of or reused. The specification is used by organizations to sanitize data from digital storage media that is being retired or decommissioned.

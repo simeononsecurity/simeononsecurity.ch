@@ -61,7 +61,8 @@ Any good setup requires a few pieces of equipment. With Unifi you need at least 
 - [**Ubiquiti: UniFi 6 Lite Wi-Fi 6 Dual Band Wireless Access Point (U6-LITE)**](https://amzn.to/3OPhxuK): This Wi-Fi 6 Access Point support 2x2 MiMo and hundreds of clients at one time. Able to broadcast up to 4 SSIDs at a time for secure Wi-Fi networks. We recommend you get at minimum 1 per every floor of your home. However if you have 2 or 3 you can take advantage of the built in meshing, automatic channel interference switching, and Wi-Fi roaming.
 - [**Ubiquiti: UniFi Switch Pro 24 PoE (USW-24-Poe)**](https://amzn.to/3qrhVW5): This switch is optional, however if you plan on upgrading down the road or have plenty of access points and or cameras, the UDM-SE's PoE budget is limiting. 
 - [**Ubiquiti: UniFi Switch Pro 24 (USW-24)**](https://amzn.to/3N8PZzh): This switch is optional, however if you plan on upgrading down the road and don't plan on having an excess of access points or cameras, you won't need the extra PoE budget. 
-  
+
+{{< inarticle-dark >}}
 ### Ethernet Cables and Patch Panel
 To establish a reliable and high-speed network infrastructure, it is crucial to use quality Ethernet cables and a patch panel. We recommend the following products:
 
@@ -91,6 +92,8 @@ To centralize and protect your networking equipment, a network server cabinet is
 
 By investing in a network server cabinet and the necessary accessories, you can ensure proper organization, cooling, and protection for your networking equipment.
 
+
+{{< inarticle-dark >}}
 ## Additional Components for both the Simple and Advanced Setups
 To enhance and expand the capabilities of your setup, we recommend considering the following UniFi products:
 

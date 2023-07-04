@@ -21,6 +21,7 @@ In an increasingly interconnected world, where cyber threats loom large, **cyber
 
 {{< youtube id="fidenMBUIao" >}}
 
+{{< inarticle-dark >}}
 ## Role and Responsibilities
 
 **Cybersecurity experts** have diverse responsibilities aimed at fortifying the digital defenses of organizations. Some of the key roles they undertake include:
@@ -76,6 +77,7 @@ Obtaining relevant certifications is also crucial for cybersecurity professional
 - [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)
 - [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
+{{< inarticle-dark >}}
 ## Conclusion
 
 **Cybersecurity experts** play a vital role in protecting organizations and individuals from the ever-growing threat landscape in the digital world. Their responsibilities encompass security assessments, incident response, security architecture design, and raising security awareness. By possessing a diverse range of technical and non-technical skills, staying updated on industry regulations, and obtaining relevant certifications, cybersecurity experts ensure that systems and data remain secure. As technology continues to advance, the demand for skilled cybersecurity professionals will only continue to grow.

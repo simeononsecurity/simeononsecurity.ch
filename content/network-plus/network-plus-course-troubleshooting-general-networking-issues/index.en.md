@@ -167,6 +167,7 @@ For example, when a client device supports only older encryption protocols like 
 
 By regularly updating and maintaining security policies, reviewing firewall rules, and implementing the latest security technologies, organizations can effectively address security-related issues and safeguard their networks from potential threats.
 
+{{< inarticle-dark >}}
 ## **Exploring DNS, NTP, BYOD, and Licensed Feature Challenges**
 
 To ensure smooth network operations, it is essential to explore and address challenges related to **DNS** (Domain Name System), **NTP** (Network Time Protocol), **BYOD** (Bring Your Own Device), and licensed features. Understanding the functionalities and potential issues associated with these technologies is key to troubleshooting and resolving problems effectively.
@@ -196,6 +197,8 @@ Network devices often come with **licensed features** that provide additional fu
 For instance, a network switch may include advanced security features that require a separate license for activation. Troubleshooting licensed feature activation problems may involve verifying the license status, ensuring proper license installation and activation procedures, and consulting the vendor's documentation or support resources.
 
 By understanding the potential challenges associated with DNS, NTP, BYOD, and licensed features, network administrators can effectively troubleshoot and resolve issues, ensuring optimal network performance and security.
+
+{{< inarticle-dark >}}
 
 ## Troubleshooting Network Performance and Security Issues
 

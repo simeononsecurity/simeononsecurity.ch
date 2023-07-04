@@ -30,6 +30,8 @@ Transitioning from systems administration to cybersecurity opens up exciting opp
 
 Gaining practical cybersecurity skills through independent, hands-on work is invaluable. Setting up simulated environments, performing manual attacks, and documenting incident response are excellent ways to enhance practical knowledge. However, it is important to acknowledge that **real-world business operations** and user-generated challenges found in enterprise environments provide unique experiences. Striking a balance between practical experience and exposure to enterprise environments is key to becoming a well-rounded cybersecurity professional.
 
+{{< inarticle-dark >}}
+
 ## Finding a Middle Ground
 
 The cybersecurity job market is evolving, with increasing value placed on practical experience. While there are alternative paths to success in cybersecurity, a comprehensive understanding of systems administration can provide a strong foundation. Recognizing and evaluating the skills gained through self-guided learning and hands-on projects outside traditional work environments is crucial. Finding a middle ground between practical experience and a solid understanding of systems administration can help individuals excel in the dynamic field of cybersecurity.

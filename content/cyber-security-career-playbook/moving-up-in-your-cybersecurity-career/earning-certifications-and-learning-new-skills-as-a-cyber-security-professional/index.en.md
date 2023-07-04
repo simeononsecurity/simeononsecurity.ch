@@ -30,6 +30,7 @@ To learn more about learning resources and training platforms, please see the fo
 - [SimeonOnSecurity's Recommended Books](/recommendations/books)
 - [SimeonOnSecurity's Recommended Learning Resources](/recommendations/learning_resources)
 
+{{< inarticle-dark >}}
 ## Popular Cybersecurity Certifications:
 
 Obtaining **cybersecurity certifications** can significantly boost a professional's credentials and demonstrate their expertise in specific areas of cybersecurity. Here are some popular certifications that are highly regarded in the industry:

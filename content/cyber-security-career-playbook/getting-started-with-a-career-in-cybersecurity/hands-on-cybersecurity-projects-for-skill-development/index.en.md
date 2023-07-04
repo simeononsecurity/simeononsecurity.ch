@@ -45,7 +45,7 @@ ______
 ## Project 2: Web Application Security Assessment
 
 Web applications are common targets for cyber attacks, making it essential to understand their vulnerabilities and how to secure them. Conducting a **web application security assessment** is an effective project to enhance your skills in identifying and mitigating web application vulnerabilities.
-
+{{< inarticle-dark >}}
 ### Steps for Web Application Security Assessment
 
 1. **Select a target web application**: Choose a web application to assess. You can use intentionally vulnerable web applications like **OWASP Juice Shop** or **Damn Vulnerable Web Application (DVWA)** for practice.
@@ -80,6 +80,7 @@ Network traffic analysis skills are highly sought after in cybersecurity roles, 
 
 ______
 
+{{< inarticle-dark >}}
 ## Conclusion
 
 Hands-on cybersecurity projects provide valuable practical experience and enable you to develop the necessary skills to protect against cyber threats. By setting up a home lab, conducting web application security assessments, and performing network traffic analysis, you can enhance your cybersecurity expertise and stay updated with the latest techniques.

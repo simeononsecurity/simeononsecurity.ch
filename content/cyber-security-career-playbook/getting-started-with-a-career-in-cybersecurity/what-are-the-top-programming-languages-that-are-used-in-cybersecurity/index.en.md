@@ -39,7 +39,7 @@ Python's **ease of use** and **expressive syntax** allow for rapid development o
 Moreover, Python's **data analysis** and **machine learning libraries**, such as **NumPy**, **Pandas**, and **scikit-learn**, facilitate the detection and analysis of security-related patterns and anomalies.
 
 ______
-
+{{< inarticle-dark >}}
 ### C++:
 ------
 **C++** is a powerful programming language known for its performance and low-level system access, making it invaluable in certain cybersecurity applications.
@@ -97,7 +97,7 @@ Assembly is often used in tasks that require **low-level system analysis**, **re
 While Assembly is not as commonly used as higher-level languages in everyday cybersecurity tasks, its importance in understanding the fundamental workings of computer systems cannot be overstated.
 
 ______
-
+{{< inarticle-dark >}}
 ## Conclusion:
 --------------
 In the ever-evolving landscape of cybersecurity, the choice of programming language plays a vital role in developing effective and secure solutions. C# (.NET), Python, C++, Java, PowerShell, Bash, JavaScript, and Assembly are among the top programming languages used by cybersecurity professionals.

@@ -35,6 +35,8 @@ If you're already a T-Mobile customer, their home internet service seamlessly in
 
 ______
 
+{{< inarticle-dark >}}
+
 ## **Availability of T-Mobile Home Internet**
 
 T-Mobile's home internet service is expanding its coverage across the country. It utilizes T-Mobile's robust 4G and 5G networks to provide internet connectivity to areas where traditional wired connections may be limited. To check if T-Mobile home internet is available in your area, you can visit their [website](https://www.t-mobile.com/coverage/coverage-map) or contact their [customer support](https://www.t-mobile.com/customers/customer-care).
@@ -89,7 +91,7 @@ T-Mobile is committed to maintaining the security of their network infrastructur
 
 ______
 
-
+{{< inarticle-dark >}}
 ## **Government Regulations and T-Mobile Home Internet**
 
 As a responsible provider, T-Mobile adheres to government regulations to ensure consumer protection, privacy, and fair practices. Here are some important government regulations related to home internet services:

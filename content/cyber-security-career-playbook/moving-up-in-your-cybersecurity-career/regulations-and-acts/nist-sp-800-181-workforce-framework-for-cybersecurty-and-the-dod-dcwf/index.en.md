@@ -53,7 +53,7 @@ The Workforce Framework for Cybersecurity defines **work roles** that encompass 
 Some common work roles identified in the framework include **security analyst**, **security engineer**, **network architect**, **penetration tester**, **security auditor**, and **cybersecurity consultant**. These work roles serve as a valuable resource for organizations in defining job descriptions, identifying skill requirements, and supporting workforce planning and development.
 
 ______
-
+{{< inarticle-dark >}}
 ### KSAs: Key Competencies for Success
 
 To excel in cybersecurity roles, professionals need to possess specific **knowledge**, **skills**, and **abilities** (KSAs). The Workforce Framework for Cybersecurity outlines a comprehensive list of KSAs that are critical for different work roles within the cybersecurity domain.

@@ -58,6 +58,7 @@ To gain hands-on experience, you can set up a lab environment where you can prac
 
 By getting hands-on experience with Linux systems, you'll gain practical experience in configuring, monitoring, and troubleshooting Linux systems. This will help you prepare for the CompTIA Linux+ XK0-005 exam and also give you valuable skills that can be used in a professional setting.
 
+{{< inarticle-dark >}}
 ## 3. Use Official Study Material
 
 To prepare for the CompTIA Linux+ XK0-005 exam, it's a good idea to use official study material provided by CompTIA. This material includes study guides, practice exams, and online courses that are designed to cover all of the topics and objectives that will be tested on the exam.
@@ -132,6 +133,7 @@ To review the exam objectives, you can use a few study aids such as flashcards, 
 
 By reviewing the exam objectives regularly, you can ensure that you are staying on track with your exam preparation and covering all of the required material. Additionally, it can help you identify areas where you need to focus your efforts and adjust your study plan accordingly.
 
+{{< inarticle-dark >}}
 ## 8. Manage Your Time
 
 The CompTIA Linux+ XK0-005 exam is a timed exam, and you will have a limited amount of time to complete it. It is important to manage your time effectively during the exam. Make sure you read each question carefully and understand what is being asked. Don't spend too much time on any one question, and make sure you leave enough time to review your answers before submitting the exam.

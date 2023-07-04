@@ -31,6 +31,8 @@ By incorporating Ubiquiti's Unifi products into their network infrastructure, bu
 Whether it's deploying access points to extend Wi-Fi coverage, integrating switches for efficient network connectivity, or implementing gateways for seamless internet access, Ubiquiti's Unifi product line offers **reliable and high-performance solutions** tailored to meet the demands of businesses and homes.
 
 To learn more about Ubiquiti's Unifi products and their features, please read below or, visit the [**Ubiquiti website**](https://www.ui.com/products/#default) for detailed documentation and product specifications.
+
+{{< inarticle-dark >}}
 ### Features
 
 The **Unifi system** offers a wide range of features, including:

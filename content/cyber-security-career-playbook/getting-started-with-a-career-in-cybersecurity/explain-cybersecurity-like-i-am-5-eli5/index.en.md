@@ -24,7 +24,7 @@ Imagine waking up one day and finding out that all your messages, photos, and fi
 ## What Do Cybersecurity Professionals Do?
 
 Cybersecurity professionals are like the superheroes of the digital world. They have special skills to protect our digital information from the bad guys. But not all cybersecurity professionals do the same thing. It's like doctors: they all have a common education but then specialize in different areas. Some cybersecurity professionals become experts in finding and fixing vulnerabilities in computer systems, while others focus on creating strong defenses to keep the bad guys out. They work in teams and constantly learn and improve their skills to stay ahead of the bad guys.
-
+{{< inarticle-dark >}}
 ## [Personal Security Hygiene](https://simeononsecurity.ch/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
 
 Even if you don't become a cybersecurity professional, you can still do some things to protect yourself and your family from the bad guys on the internet. Let's learn some basic personal security hygiene practices that can help keep you safe:
@@ -45,6 +45,7 @@ A strong password is like a secret code that only you know. It should be long an
 
 Multi-Factor Authentication (MFA) adds an extra layer of security to your online accounts. It's like having double locks on your door. With MFA, you need to provide additional information, like a special code sent to your phone, along with your password to access your account. This makes it much harder for the bad guys to get in, even if they know your password. So, whenever a website or app offers MFA, make sure to turn it on for added protection.
 
+{{< inarticle-dark >}}
 ## Conclusion
 
 Cybersecurity is like a superhero that protects our digital world from the bad guys. It's important to understand the basics of personal security hygiene to keep ourselves safe from online threats. Remember to be cautious of phishing attempts, keep your software up to date, use strong and unique passwords, and enable multi-factor authentication whenever possible. By following these simple steps, we can all contribute to making the digital world a safer place.

@@ -40,6 +40,8 @@ The importance of CEUs in the field of cybersecurity cannot be overstated. As cy
 
 4. **Compliance with Certifying Organizations**: Most certifying organizations require professionals to earn CEUs to maintain their certification status. Failure to earn CEUs may result in losing certification, which can have consequences for employment, contract requirements, and professional growth.
 
+
+{{< inarticle-dark >}}
 ______
 
 ## How to Earn CEUs in Cybersecurity
@@ -73,7 +75,7 @@ Government regulations play a crucial role in shaping the cybersecurity landscap
 4. **FISMA**: The [Federal Information Security Management Act (FISMA)](https://www.federalregister.gov/documents/2022/04/05/2022-06412/implementation-of-amendments-to-the-federal-information-security-modernization-act-of-2014) establishes security standards for federal government information systems. Compliance with FISMA often includes maintaining relevant certifications and earning CEUs to ensure the government's cybersecurity workforce remains competent and knowledgeable.
 
 ______
-
+{{< inarticle-dark >}}
 ## Conclusion
 
 In the dynamic field of cybersecurity, staying ahead of cyber threats is of utmost importance. Earning CEUs through continuous learning and professional development enables cybersecurity professionals to enhance their skills, stay current with technology, and adapt to evolving threats. By demonstrating their commitment to ongoing education, professionals can maintain their certification status, boost their credibility, and contribute to a safer digital world.

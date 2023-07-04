@@ -43,7 +43,7 @@ Implementing a security awareness training program offers several benefits:
 8. **Compliance with regulations:** Many industries have specific regulations and compliance requirements, such as the Payment Card Industry Data Security Standard (PCI DSS) or the General Data Protection Regulation (GDPR). Security awareness training ensures employees understand these regulations and comply with them.
 
 ______
-
+{{< inarticle-dark >}}
 ## Building an Effective Security Awareness Training Program
 
 To develop an effective security awareness training program, organizations should follow these key steps:
@@ -109,7 +109,7 @@ Here are some steps to develop effective training content:
 To further enhance the effectiveness and engagement of your training content, consider incorporating different delivery methods such as **online modules**, **interactive simulations**, **videos**, and **quizzes**. This variety keeps the training engaging and caters to different learning styles.
 
 Remember, the goal of the training content is to educate and empower employees to make **informed security decisions** and take appropriate actions to protect sensitive information.
-
+{{< inarticle-dark >}}
 ### 5. Choose Training Delivery Methods
 
 Choosing the right delivery methods for your security awareness training program is essential to maximize engagement and knowledge retention among employees. Here are some effective training delivery methods to consider:

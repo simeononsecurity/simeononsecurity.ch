@@ -33,6 +33,8 @@ Cellular technologies have evolved significantly over the years, from the early 
 
 **Long-Term Evolution (LTE)** is a 4G wireless communication standard that offers significant improvements over previous generations. LTE provides faster data speeds, reduced latency, and increased spectral efficiency. It employs advanced techniques such as orthogonal frequency-division multiple access (OFDMA) and multiple-input, multiple-output (MIMO) to enhance performance. LTE has been widely deployed by network operators around the world.
 
+{{< inarticle-dark >}}
+
 ### 3G, 4G, and 5G
 
 **3G**, **4G**, and **5G** refer to the different generations of cellular networks, each offering improved performance and capabilities. 

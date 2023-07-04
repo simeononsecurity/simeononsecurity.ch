@@ -44,6 +44,8 @@ A cybersecurity professional is responsible for implementing and maintaining sec
 
 ______
 
+
+{{< inarticle-dark >}}
 ## 3. Fundamental Principles of Cybersecurity
 
 **What are the fundamental principles of cybersecurity?**
@@ -102,7 +104,7 @@ Securing a company's data and infrastructure requires a multi-layered approach. 
 - **Third-Party Risk Management**: Assess and monitor the security posture of third-party vendors and partners who have access to your company's data or systems.
 
 ______
-
+{{< inarticle-dark >}}
 ## Conclusion
 
 Preparing for a cybersecurity interview requires a solid understanding of fundamental cybersecurity principles, current trends, and best practices. By familiarizing yourself with common interview questions and crafting thoughtful answers, you can demonstrate your expertise and increase your chances of success. Remember to stay updated with the latest developments in the field and continuously enhance your skills through professional development opportunities.

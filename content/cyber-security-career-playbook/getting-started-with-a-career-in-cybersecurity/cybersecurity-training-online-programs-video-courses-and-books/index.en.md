@@ -44,7 +44,7 @@ Compared to traditional in-person training, online cybersecurity programs are of
 Online cybersecurity training programs often provide opportunities for learners to connect and network with industry professionals and peers. These networks can be valuable for career development, mentorship, and staying updated with the latest industry trends. Discussion forums and virtual communities offered by online platforms foster collaboration and knowledge sharing among learners.
 
 ______
-
+{{< inarticle-dark >}}
 ## Popular Online Cybersecurity Training Platforms
 
 ### Cybrary
@@ -104,7 +104,7 @@ Some of the notable government regulations and certifications include:
 - [**Certified Information Systems Auditor (CISA)**](https://www.isaca.org/credentialing/cisa) - CISA is a globally recognized certification that validates expertise in auditing, controlling, and securing information systems.
 
 ______
-
+{{< inarticle-dark >}}
 ## Conclusion
 
 Cybersecurity training through online programs and video courses offers numerous benefits, including flexibility, practical hands-on experience, expert instruction, cost-effectiveness, and networking opportunities. Platforms like Cybrary, LinkedIn Learning, Pluralsight, and Udemy provide a wide range of courses to cater to different learning needs. Government regulations and certifications such as the NIST Cybersecurity Framework, ISO/IEC 27001, CISSP, CEH, and CISA play a vital role in ensuring adherence to security standards and validating expertise in specific cybersecurity domains.

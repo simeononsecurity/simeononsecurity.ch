@@ -36,6 +36,7 @@ Before diving into the world of cybersecurity, it's important to lay a solid fou
 
 5. **Enterprise System Administration**: Gaining experience in enterprise system administration will provide you with insights into managing complex IT infrastructures. Familiarize yourself with Active Directory, Group Policy, and [system hardening techniques](https://simeononsecurity.ch/github/windows-optimize-harden-debloat/).
 
+{{< inarticle-dark >}}
 ### Exploring Cybersecurity Domains
 
 Cybersecurity encompasses various domains, each with its own unique focus. It's essential to explore these domains and find your area of interest. Here are three primary cybersecurity domains to consider:
@@ -66,6 +67,8 @@ When applying for your first cybersecurity job, focus on showcasing your skills,
 
 3. **Internships and Entry-Level Positions**: Consider internships or entry-level positions to gain practical experience and exposure to real-world cybersecurity challenges. These opportunities can be stepping stones to more advanced roles.
 
+
+{{< inarticle-dark >}}
 ### Conclusion
 
 Starting a career in cybersecurity requires a strong foundation, continuous learning, and a passion for defending against cyber threats. By focusing on building essential knowledge, exploring different domains, pursuing relevant certifications, and gaining practical experience, you can position yourself for a successful career in this exciting field.

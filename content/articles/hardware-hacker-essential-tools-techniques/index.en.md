@@ -41,6 +41,8 @@ Popular logic analyzers used by hardware hackers include:
 - [Saleae Logic](https://www.saleae.com/)
 - [Sigrok](https://sigrok.org/)
 
+{{< inarticle-dark >}}
+
 ### 3. Bus Pirate
 
 The Bus Pirate is a versatile tool that enables hackers to interface with various electronic communication buses, such as I2C, SPI, UART, and more. It acts as a bridge between a computer and the target device, allowing hackers to read and write data directly from the device's communication bus. The Bus Pirate is a valuable tool for sniffing communication, injecting data, or probing the device's internals.
@@ -63,6 +65,8 @@ Soldering is an essential skill for hardware hackers as it allows them to modify
 ### 6. Microcontrollers and Development Boards
 
 Microcontrollers are small programmable devices that hackers can use to create their own hardware hacking tools or modify existing devices. They provide a flexible platform for experimenting with various hardware hacking techniques. Some popular microcontrollers and development boards used by hardware hackers are Arduino, Raspberry Pi, and ESP8266.
+
+{{< inarticle-dark >}}
 
 ## Conclusion
 

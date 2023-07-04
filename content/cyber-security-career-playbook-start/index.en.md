@@ -59,6 +59,8 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 #### [Joining Cyber Security Communities and Forums](https://simeononsecurity.ch/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/joining-cybersecurity-communities-and-forums/)
 - Joining cybersecurity communities and forums can unlock a world of expertise, networking, and professional growth.
 
+{{< inarticle-dark >}}
+
 ### CyberSecurity Career Outlooks and Information
 
 #### [What Does a Cybersecurity Career Path Look Like?](https://simeononsecurity.ch/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-career-path-look-like/)

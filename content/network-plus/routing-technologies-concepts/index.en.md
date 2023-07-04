@@ -55,6 +55,8 @@ Distance vector routing protocols, such as RIP, use a simple metric (like hop co
 
 Hybrid routing protocols, like EIGRP, combine the features of both link state and distance vector protocols. They maintain a topology table similar to link state protocols, but use distance vector algorithms for calculating routes. Hybrid protocols offer the benefits of faster convergence and reduced overhead.
 
+{{< inarticle-dark >}}
+
 ## Static Routing and Default Routes
 
 Static routing involves manually configuring the routing table on routers, specifying the paths to reach specific networks. It is typically used in scenarios where network topology changes are minimal or predictable. Static routes are easy to configure and can be useful for small networks or specific network segments.
@@ -88,6 +90,8 @@ Traffic shaping is a technique used to control the rate of data transmission on 
 ### Quality of Service (QoS)
 
 Quality of Service (QoS) refers to the ability of a network to prioritize and allocate resources to different types of traffic based on their importance and requirements. QoS mechanisms, such as traffic prioritization, bandwidth allocation, and congestion management, help ensure optimal performance for real-time applications like voice and video.
+
+{{< inarticle-dark >}}
 
 ## Device Comparison and Placement
 

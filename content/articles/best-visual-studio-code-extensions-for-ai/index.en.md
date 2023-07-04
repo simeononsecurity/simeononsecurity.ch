@@ -49,6 +49,8 @@ Developed by Microsoft, the **IntelliCode extension for Visual Studio Code** bri
 
 You can download the IntelliCode extension from the official Visual Studio Code marketplace: [IntelliCode extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode).
 
+{{< inarticle-dark >}}
+
 ### 5. Docker
 
 Docker is widely used for containerization in AI workflows. The **Docker extension for Visual Studio Code** simplifies the management of Docker containers and images within the editor. It provides a graphical interface for building, running, and debugging containers, allowing developers to focus on their AI models rather than dealing with complex Docker commands.
@@ -80,9 +82,9 @@ The **Data Preview extension for Visual Studio Code** helps AI developers previe
 You can download the Data Preview extension from the official Visual Studio Code marketplace: [Data Preview extension](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview).
 
 These extensions complement the existing ones, enhancing the AI development experience in Visual Studio Code and making it an even more powerful tool for AI workflows.
-
-
 ______
+
+{{< inarticle-dark >}}
 
 ## Conclusion
 

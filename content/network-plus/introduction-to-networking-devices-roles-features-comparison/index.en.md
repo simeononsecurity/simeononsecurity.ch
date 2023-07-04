@@ -58,6 +58,10 @@ Let's compare some of the key features and roles of various networking devices:
 
 ______
 
+{{< inarticle-dark >}}
+
+## Conclusion
+
 In this article, we have provided an introduction to various networking devices and their roles in a network environment. Understanding these devices is essential for network administrators and individuals interested in networking. By knowing the functions and features of different devices, one can make informed decisions when designing, implementing, and managing computer networks.
 
 Networking devices are constantly evolving, and it is important to stay updated with the latest advancements and best practices in the field. Government regulations, such as the Federal Communications Commission (FCC) regulations for wireless devices, play a vital role in ensuring network safety, privacy, and compliance. Network administrators should refer to relevant documentation and guidelines provided by regulatory bodies to ensure adherence to these regulations.

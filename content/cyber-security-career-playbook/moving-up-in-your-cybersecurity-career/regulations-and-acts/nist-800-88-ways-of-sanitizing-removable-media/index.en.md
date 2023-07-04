@@ -35,7 +35,7 @@ Clearing is the process of overwriting the data on a device with a series of bin
 Purging is the process of overwriting the data on a device multiple times with a pattern of binary values. This method is more secure than clearing and is recommended for sanitizing sensitive data. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
 
 __________________________________________
-
+{{< inarticle-dark >}}
 ## Conclusion
 
 In conclusion, **sanitizing removable media is crucial to ensure that sensitive data stored on these devices is not leaked or accessed by unauthorized persons.** NIST 800-88 Revision 1 provides guidelines for sanitizing all types of removable media, including hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks, including physical destruction, clearing, and purging. **Physical destruction is the most secure method of sanitizing removable media, but clearing and purging are also effective methods that provide a high level of security.**

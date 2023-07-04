@@ -33,6 +33,8 @@ An incident response plan is a critical component of an organization's cybersecu
 
 4. **Compliance and Legal Requirements**: Many industries are subject to specific **government regulations** and **compliance standards** related to **incident response**. Organizations that adhere to these regulations can **avoid legal penalties** and** ensure the protection of sensitive data**.
 
+
+{{< inarticle-dark >}}
 ## Building an Incident Response Program
 
 Building an incident response program involves several key stages. Let's explore each stage in detail:
@@ -99,12 +101,10 @@ Furthermore, government agencies like the National Institute of Standards and Te
 
 By incorporating the principles outlined in these resources, organizations can build a comprehensive incident response plan that aligns with regulatory requirements and industry standards.
 
+{{< inarticle-dark >}}
 ## Conclusion
 
 Building an effective incident response program is crucial for organizations to respond to and manage cybersecurity incidents efficiently. By following the key steps outlined in this article, organizations can establish a robust incident response program that minimizes the impact of incidents, reduces costs, protects their reputation, and ensures compliance with relevant regulations. Remember, an incident response program should be regularly reviewed, updated, and tested to ensure its effectiveness in the ever-evolving threat landscape.
-
-## References
-
 ## References
 
 1. TechTarget. (n.d.). 5 critical steps to creating an effective incident response plan. Retrieved from [https://www.techtarget.com/searchsecurity/feature/5-critical-steps-to-creating-an-effective-incident-response-plan](https://www.techtarget.com/searchsecurity/feature/5-critical-steps-to-creating-an-effective-incident-response-plan)

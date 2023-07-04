@@ -39,6 +39,7 @@ Managing a cybersecurity team requires a blend of technical and non-technical sk
 
 5. **Knowledge of Information Security Law**: CISOs and other cybersecurity leaders must be familiar with information security laws, compliance, and regulatory requirements applicable in their location. This includes regulations such as **HIPAA**, **GDPR**, **CCPA**, the **Homeland Security Act**, and others.
 
+{{< inarticle-dark >}}
 #### Non-Technical Skills for Managing an Information Security Team
 
 1. **Leadership and Project Management**: Strong leadership and project management skills are vital for supervising the work of IT and cybersecurity professionals. Effective leadership contributes to the success of the organization's information security infrastructure through strategic thinking and efficient delegation.

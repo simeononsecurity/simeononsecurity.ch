@@ -67,6 +67,8 @@ coverCaption: "Empower Your Networking Career"
 
 -----
 
+{{< inarticle-dark >}}
+
 ## Objective 2: Network Implementations
 
 ### [Introduction to Networking Devices](/network-plus/introduction-to-networking-devices-roles-features-comparison/)
@@ -167,7 +169,7 @@ coverCaption: "Empower Your Networking Career"
 - MTTR, MTBF, RTO, and RPO in network operations
 
 -----
-
+{{< inarticle-dark >}}
 ## Objective 4: Network Network Security
 
 ### [Network Hardening Techniques](/network-plus/network-plus-course-network-hardening-techniques/)

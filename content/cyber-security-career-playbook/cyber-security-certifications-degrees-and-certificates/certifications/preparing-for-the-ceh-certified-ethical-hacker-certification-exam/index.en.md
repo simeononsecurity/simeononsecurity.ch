@@ -52,6 +52,8 @@ Once you've created a study schedule, the next step is to choose the right study
 
 As you begin studying, focus on your weak areas. This will help you make the most of your study time and improve your overall performance on the exam. Use practice exams and other study resources to identify areas where you need to improve.
 
+{{< inarticle-dark >}}
+
 ### Take Practice Exams
 
 Taking practice exams is a great way to prepare for the CEH exam. You can find practice exams on the [**EC-Council's website**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/), as well as other online resources. Practice exams will help you identify areas where you need to improve and get you accustomed to the format and style of the exam.
@@ -94,6 +96,8 @@ Staying motivated throughout the study process can be challenging, but it's impo
 - **Stay positive**: Keep a positive attitude and focus on the progress you're making rather than the challenges you're facing.
 - **Find a support system**: Surround yourself with a supportive network of family, friends, and colleagues who can encourage and motivate you.
 
+
+{{< inarticle-dark >}}
 ## Conclusion
 
 Preparing for the [CEH certification exam](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/) can be a challenging but rewarding process. By creating an effective study plan, managing your time, and staying motivated, you can increase your chances of success on the exam and advance your career in cybersecurity. Remember to use a variety of study materials, take breaks, and practice regularly to reinforce your understanding of the material. Good luck on your journey to becoming a Certified Ethical Hacker! 
