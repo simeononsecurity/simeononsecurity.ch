@@ -1,6 +1,6 @@
 ---
 title: "How to Form Your Own Personal Threat Model: Safeguard Your Online Security"
-date: 2023-07-06
+date: 2023-07-25
 toc: true
 draft: false
 description: "Discover the step-by-step process of forming your own personal threat model to enhance your online security and protect your valuable assets."
