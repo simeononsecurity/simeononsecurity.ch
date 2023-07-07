@@ -25,6 +25,26 @@ ______
 
 {{< inarticle-dark >}}
 
+## Free Personal Threat Model Checklist
+
+Use the following checklist to assess and enhance your personal threat model:
+
+- [ ] **Identify Your Assets**: Make a list of your valuable assets, including financial accounts, digital information, personal documents, and professional data.
+
+- [ ] **Evaluate Potential Threat Actors**: Consider the potential threat actors who may target your assets, such as hackers, scammers, cyberstalkers, competitors, or state-sponsored attackers.
+
+- [ ] **Assess Motivations and Capabilities**: Understand the motivations and capabilities of potential threat actors, including financial gain, revenge, espionage, or hacktivism.
+
+- [ ] **Identify Attack Vectors**: Identify the methods or paths that attackers can exploit to compromise your assets, such as phishing, malware, social engineering, password attacks, or physical theft.
+
+- [ ] **Evaluate Consequences**: Assess the potential consequences of an attack, including financial loss, reputation damage, identity theft, or emotional distress.
+
+- [ ] **Implement Mitigation Strategies**: Implement appropriate security measures, such as using strong passwords, enabling two-factor authentication, keeping software up to date, using firewalls and antivirus software, adjusting privacy settings, and staying educated about online threats.
+
+- [ ] **Regularly Review and Update Your Threat Model**: Continuously review and update your threat model to adapt to changing technology, monitor the threat landscape, assess regulatory changes, and perform regular risk assessments.
+
+Take the time to go through this checklist and customize it according to your specific needs and circumstances. Regularly review and update your personal threat model to maintain effective security measures and protect your personal and professional digital assets.
+
 ## Step 1: Identify Your Assets
 
 To **form your own Personal Threat Model**, you need to **start by identifying your valuable assets**. These assets encompass personal information, financial accounts, online profiles, intellectual property, and any other elements that hold significance to you. By recognizing and categorizing your assets, you can better understand the potential risks you may face and take proactive measures to protect them.
@@ -158,6 +178,3 @@ Regularly review and update your threat model to adapt to changing technologies,
 - [European Union Agency for Cybersecurity (ENISA)](https://www.enisa.europa.eu/)
 - [United Kingdom National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/)
 - [Australian Cyber Security Centre (ACSC)](https://www.cyber.gov.au/)
-
-
-## Free Threat Mapping Checklist
