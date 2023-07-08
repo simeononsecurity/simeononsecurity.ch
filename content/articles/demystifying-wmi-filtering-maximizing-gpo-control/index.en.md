@@ -1,6 +1,6 @@
 ---
 title: "Demystifying WMI Filtering: Maximizing GPO Control with Effective Techniques"
-date: 2023-07-01
+date: 2023-07-25
 toc: true
 draft: false
 description: "Uncover the secrets of WMI filtering and learn how to harness its power to enhance Group Policy Object (GPO) control, with practical examples and best practices."
