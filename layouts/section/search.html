@@ -7,9 +7,16 @@
   </h1>
 
   <div class="search-form">
-    <form action="/search" method="GET">
+    <form
+      action="/search"
+      method="GET"
+      itemprop="potentialAction"
+      itemscope
+      itemtype="https://schema.org/SearchAction"
+    >
       <div class="search-box">
-        <input type="search" name="q" id="search-query" placeholder="{{ i18n
+        <meta itemprop="target" content="/search?q={search_term_string}">
+        <input itemprop="query-input" type="search" name="q" id="search-query" placeholder="{{ i18n
         "search_placeholder" }}" />
         <button type="submit" aria-label="Search">
           <svg
@@ -36,15 +43,15 @@
   <div class="search-loading"></div>
 
   <script id="search-result-template" type="text/x-js-template">
-        <div class="posts">
-        <article class="post on-list">
+        <div class="posts" itemscope itemtype="https://schema.org/SearchResultsPage">
+        <article class="post on-list" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <div id="summary-${key}">
-            <h2 class="post-title"><a href="${link}" style="color: var(--link-color);">${title}</a></h3>
+            <h2 itemprop="name" class="post-title"><a itemprop="url" href="${link}" style="color: var(--link-color);">${title}</a></h2>
             <div class="post-meta"></div>
             <div class="post-content">
-              <a style="color: var(--text-secondary);"> {{ i18n "description_placeholder" }} ${snippet} </a>
+              <a itemprop="description" style="color: var(--text-secondary);"> {{ i18n "description_placeholder" }} ${snippet} </a>
             </div>
-            <span class="post-tags">
+            <span itemprop="item" class="post-tags">
             <p>
                 <small>
                     ${ isset tags }{{ i18n "tags_placeholder" }} ${tags}<br>${ end }
