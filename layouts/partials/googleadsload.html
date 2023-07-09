@@ -10,7 +10,6 @@
 ></script>
 <script async>
   let adLoaded = false;
-  let refreshTimeoutId;
   const delaySeconds = 0.2;
   const delay = delaySeconds * 1000;
   const adPlaceholder = document.getElementById("ad-placeholder");
@@ -26,35 +25,34 @@
     adLoaded = true;
   }
 
-  function refreshAd() {
-    loadAd();
-    refreshTimeoutId = setTimeout(refreshAd, 45000);
-  }
-
   function checkIfAdShouldLoad() {
     if (adLoaded || window.innerHeight + window.scrollY < document.body.offsetHeight) {
       return;
     }
-    refreshAd();
-    window.removeEventListener("scroll", checkIfAdShouldLoad);
+    loadAd();
   }
 
   function debounce(func, delay) {
     let timeoutId;
+    let rafId;
+
+    function wrappedFunc() {
+      clearTimeout(timeoutId);
+      rafId = requestAnimationFrame(() => {
+        func();
+        rafId = null;
+      });
+    }
+
     return function () {
       clearTimeout(timeoutId);
-      timeoutId = setTimeout(func, delay);
+      timeoutId = setTimeout(wrappedFunc, delay);
     };
-  }
-
-  function handleScroll() {
-    debounce(checkIfAdShouldLoad, delay)();
   }
 
   function onPageLoad() {
     lazyLoadAds();
-    refreshAd();
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    checkIfAdShouldLoad();
   }
 
   function lazyLoadAds() {
@@ -66,13 +64,7 @@
     const observerCallback = debounce(function (entries, observer) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-4092442123207538",
-            enable_page_level_ads: true,
-            done_loading: function () {
-              adPlaceholder.style.visibility = "visible";
-            }
-          });
+          loadAd();
           observer.unobserve(entry.target);
         }
       });
@@ -89,6 +81,7 @@
 
   window.addEventListener("load", onPageLoad, { passive: true });
 </script>
+
 <script defer>
   window.addEventListener("DOMContentLoaded", function() {
     try {
