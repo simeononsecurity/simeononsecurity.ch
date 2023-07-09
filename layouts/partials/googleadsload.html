@@ -15,21 +15,25 @@
     const adClientId = adPlaceholder.getAttribute("data-ad-client");
     const adSlotId = adPlaceholder.getAttribute("data-ad-slot");
     const randomInt = adPlaceholder.getAttribute("random-int");
-    
+  
     if (!adClientId || !randomInt) {
       console.error("Ad client ID or random-int attribute not found.");
       return;
     }
-
+  
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: adClientId,
       enable_page_level_ads: true,
       ad_slot: adSlotId,
       done_loading: function () {
         adPlaceholder.style.visibility = "visible";
-      }
+        const imgPlaceholder = adPlaceholder.querySelector('img[alt="Ad Placeholder"]');
+        if (imgPlaceholder) {
+          imgPlaceholder.remove();
+        }
+      },
     });
-
+  
     console.log("Ad loaded with random-int:", randomInt);
   }
 
@@ -83,7 +87,7 @@
         }
       });
     }, 200);
-    
+
     const observer = new IntersectionObserver(observerCallback, { rootMargin: "200px", threshold: 0 });
 
     try {
