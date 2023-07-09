@@ -9,12 +9,8 @@
   <div class="search-form">
     <form action="/search" method="GET">
       <div class="search-box">
-        <input
-          type="search"
-          name="q"
-          id="search-query"
-          placeholder="{{ i18n "search_placeholder" }}"
-        />
+        <input type="search" name="q" id="search-query" placeholder="{{ i18n
+        "search_placeholder" }}" />
         <button type="submit" aria-label="Search">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +53,7 @@
             <div>
         </div>
     </article>
+    {{ partial "displayads-responsive-horizontal.html" . }}
     </div>
   </script>
 
