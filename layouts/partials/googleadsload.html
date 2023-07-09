@@ -9,27 +9,40 @@
   crossorigin="anonymous"
 ></script>
 <script async>
-  let adLoaded = false;
-  const delaySeconds = 0.2;
-  const delay = delaySeconds * 1000;
-  const adPlaceholder = document.getElementById("ad-placeholder");
+  const adPlaceholders = document.querySelectorAll(".ad-placeholder");
 
-  function loadAd() {
+  function loadAd(adPlaceholder) {
+    const adClientId = adPlaceholder.getAttribute("data-ad-client");
+    const adSlotId = adPlaceholder.getAttribute("data-ad-slot");
+    const randomInt = adPlaceholder.getAttribute("random-int");
+    
+    if (!adClientId || !randomInt) {
+      console.error("Ad client ID or random-int attribute not found.");
+      return;
+    }
+
     (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-4092442123207538",
+      google_ad_client: adClientId,
       enable_page_level_ads: true,
+      ad_slot: adSlotId,
       done_loading: function () {
         adPlaceholder.style.visibility = "visible";
       }
     });
-    adLoaded = true;
+
+    console.log("Ad loaded with random-int:", randomInt);
   }
 
-  function checkIfAdShouldLoad() {
-    if (adLoaded || window.innerHeight + window.scrollY < document.body.offsetHeight) {
+  function checkIfAdShouldLoad(adPlaceholder) {
+    const randomInt = adPlaceholder.getAttribute("random-int");
+    if (window.innerHeight + window.scrollY < document.body.offsetHeight || !randomInt) {
       return;
     }
-    loadAd();
+    const adLoaded = adPlaceholder.classList.contains("ad-loaded");
+    if (!adLoaded) {
+      loadAd(adPlaceholder);
+      adPlaceholder.classList.add("ad-loaded");
+    }
   }
 
   function debounce(func, delay) {
@@ -46,31 +59,32 @@
 
     return function () {
       clearTimeout(timeoutId);
+      cancelAnimationFrame(rafId);
       timeoutId = setTimeout(wrappedFunc, delay);
     };
   }
 
   function onPageLoad() {
-    lazyLoadAds();
-    checkIfAdShouldLoad();
+    adPlaceholders.forEach(function (adPlaceholder) {
+      lazyLoadAd(adPlaceholder);
+    });
   }
 
-  function lazyLoadAds() {
-    if (!adPlaceholder) {
-      console.error("Ad placeholder element not found.");
-      return;
-    }
-
+  function lazyLoadAd(adPlaceholder) {
     const observerCallback = debounce(function (entries, observer) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          loadAd();
+          const adLoaded = adPlaceholder.classList.contains("ad-loaded");
+          if (!adLoaded) {
+            loadAd(adPlaceholder);
+            adPlaceholder.classList.add("ad-loaded");
+          }
           observer.unobserve(entry.target);
         }
       });
-    }, delay);
-
-    const observer = new IntersectionObserver(observerCallback, { passive: true });
+    }, 200);
+    
+    const observer = new IntersectionObserver(observerCallback, { rootMargin: "200px", threshold: 0 });
 
     try {
       observer.observe(adPlaceholder);
