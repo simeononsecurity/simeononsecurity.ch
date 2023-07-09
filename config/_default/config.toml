@@ -17,6 +17,9 @@ author = "SimeonOnSecurity"
 [Author]
 name = "SimeonOnSecurity"
 
+[permalinks]
+  authors = "/authors/:filename/"
+
 [params]
 enableMissingTranslationPlaceholders = true
 

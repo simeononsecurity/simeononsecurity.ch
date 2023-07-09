@@ -3,7 +3,7 @@
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
   {{ partial "breadcrumbs.html" . }}
   <br>
-  {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" }}
+  {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors"}}
   {{ $currentPath := .Permalink }}
   {{ if not (in $currentPath $excludePaths) }}
     {{ partial "displayads-responsive-horizontal.html" . }}
@@ -22,11 +22,22 @@
         {{ end }}
       {{ end }}
 
-      {{ with .Params.Author }}
-        <span class="post-author"
-          >— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span
-        >{{ end }}
 
+      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" "/tools" "/practice-tests"}}
+      {{ $currentPath := .Permalink }}
+      {{ if not (in $currentPath $excludePaths) }}
+        {{ if .Params.Author}}
+        {{ with .Params.Author }}
+          <span class="post-author" itemscope itemtype="https://schema.org/Person">
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}authors/{{ . | lower}}" itemprop="name">{{ . }}</a>
+          </span>
+          {{ end }}
+        {{ else }}
+          <span class="post-author" itemscope itemtype="https://schema.org/Person">
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}authors/simeononsecurity" itemprop="name">SimeonOnSecurity</a>
+          </span>
+        {{ end }}
+      {{ end }}
 
       {{ if $.Site.Params.ShowReadingTime }}
         <span class="post-read-time"
@@ -48,7 +59,11 @@
     {{ end }}
 
     <div class="post-content">
-      {{ partial "share-buttons.html" . }}
+      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors"}}
+      {{ $currentPath := .Permalink }}
+      {{ if not (in $currentPath $excludePaths) }}
+        {{ partial "share-buttons.html" . }}
+      {{ end }}
       <div id="ad-placeholder"></div>
       {{ if or .Params.Toc $.Site.Params.Toc }}
         {{ if ne .Params.Toc false }}
@@ -58,7 +73,11 @@
       {{ end }}
       {{ .Content }}
       <br>
-      {{ partial "share-buttons.html" . }}
+      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors"}}
+      {{ $currentPath := .Permalink }}
+      {{ if not (in $currentPath $excludePaths) }}
+        {{ partial "share-buttons.html" . }}
+      {{ end }}
     </div>
     {{ if eq .Type $.Site.Params.contentTypeName }}
       {{ if or .NextInSection .PrevInSection }}
@@ -93,7 +112,7 @@
         <br>
       {{ end }}
     {{ end }}
-    {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+    {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/authors" }}
     {{ $currentPath := .Permalink }}
     {{ $disableComments := false }}
     {{ range $disabledURLs }}
