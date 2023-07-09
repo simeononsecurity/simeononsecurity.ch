@@ -29,12 +29,12 @@
         {{ if .Params.Author}}
         {{ with .Params.Author }}
           <span class="post-author" itemscope itemtype="https://schema.org/Person">
-            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}authors/{{ . | lower}}" itemprop="name">{{ . }}</a>
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/{{ . | lower}}" itemprop="name">{{ . }}</a>
           </span>
           {{ end }}
         {{ else }}
           <span class="post-author" itemscope itemtype="https://schema.org/Person">
-            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}authors/simeononsecurity" itemprop="name">SimeonOnSecurity</a>
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/simeononsecurity" itemprop="name">SimeonOnSecurity</a>
           </span>
         {{ end }}
       {{ end }}
