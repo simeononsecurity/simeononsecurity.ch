@@ -9,17 +9,17 @@
   crossorigin="anonymous"
 ></script>
 <script async>
-  let rafId;
   let adLoaded = false;
+  let refreshTimeoutId;
   const delaySeconds = 0.2;
   const delay = delaySeconds * 1000;
+  const adPlaceholder = document.getElementById("ad-placeholder");
 
   function loadAd() {
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-4092442123207538",
       enable_page_level_ads: true,
       done_loading: function () {
-        var adPlaceholder = document.getElementById("ad-placeholder");
         adPlaceholder.style.visibility = "visible";
       }
     });
@@ -28,7 +28,7 @@
 
   function refreshAd() {
     loadAd();
-    setTimeout(refreshAd, 45000);
+    refreshTimeoutId = setTimeout(refreshAd, 45000);
   }
 
   function checkIfAdShouldLoad() {
@@ -39,69 +39,46 @@
     window.removeEventListener("scroll", checkIfAdShouldLoad);
   }
 
-  function debounce(func) {
-    if (rafId) {
-      cancelAnimationFrame(rafId);
-    }
-    rafId = requestAnimationFrame(func);
-  }
-
-  function throttle(func) {
-    if (!rafId) {
-      rafId = requestAnimationFrame(() => {
-        func();
-        rafId = null;
-      });
-    }
+  function debounce(func, delay) {
+    let timeoutId;
+    return function () {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(func, delay);
+    };
   }
 
   function handleScroll() {
-    debounce(checkIfAdShouldLoad);
+    debounce(checkIfAdShouldLoad, delay)();
   }
 
   function onPageLoad() {
     lazyLoadAds();
     refreshAd();
-    var rafId;
-
-    function handleScroll() {
-      cancelAnimationFrame(rafId);
-      rafId = requestAnimationFrame(checkIfAdShouldLoad);
-    }
-
     window.addEventListener("scroll", handleScroll, { passive: true });
-
-    refreshAd();
   }
 
   function lazyLoadAds() {
-    var adPlaceholder = document.getElementById("ad-placeholder");
-
     if (!adPlaceholder) {
       console.error("Ad placeholder element not found.");
       return;
     }
 
-    var observer = new IntersectionObserver(
-      function(entries, observer) {
-        entries.forEach(function(entry) {
-          if (entry.isIntersecting) {
-            (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-4092442123207538",
-              enable_page_level_ads: true,
-              done_loading: function () {
-                var adPlaceholder = document.getElementById("ad-placeholder");
-                adPlaceholder.style.visibility = "visible";
-              }
-            });
-            observer.unobserve(entry.target);
-          } else if (entry.intersectionRatio <= 0) {
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { passive: true }
-    );
+    const observerCallback = debounce(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4092442123207538",
+            enable_page_level_ads: true,
+            done_loading: function () {
+              adPlaceholder.style.visibility = "visible";
+            }
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, delay);
+
+    const observer = new IntersectionObserver(observerCallback, { passive: true });
 
     try {
       observer.observe(adPlaceholder);
@@ -110,7 +87,6 @@
     }
   }
 
-  window.addEventListener("scroll", handleScroll, { passive: true });
   window.addEventListener("load", onPageLoad, { passive: true });
 </script>
 <script defer>
