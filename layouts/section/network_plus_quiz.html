@@ -1,6 +1,23 @@
 {{ define "main" }}
-
 <main class="security-plus-quiz">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {{- range $index, $faq := (getJSON "static/quiz-dicts/netplusdict.json") }}
+        {
+          "@type": "Question",
+          "name": "Question {{ add $index 1 }}: {{ $faq.question }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ $faq.reasoning }}"
+          }
+        },
+        {{- end }}
+      ]
+    }
+  </script> 
   {{ partial "breadcrumbs.html" . }}
 
   <h1 class="post-title">
@@ -292,23 +309,5 @@
       });
   </script>
   {{ partial "displayads-responsive-horizontal.html" . }}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {{- range $index, $faq := (getJSON "static/quiz-dicts/netplusdict.json") }}
-        {
-          "@type": "Question",
-          "name": "Question {{ add $index 1 }}: {{ $faq.question }}",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "{{ $faq.reasoning }}"
-          }
-        },
-        {{- end }}
-      ]
-    }
-  </script> 
 </main>
 {{ end }}
