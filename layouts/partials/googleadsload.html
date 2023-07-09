@@ -70,6 +70,7 @@
 <script async>
   function onPageLoad() {
     lazyLoadAds();
+    refreshAd();
     var rafId;
 
     function handleScroll() {
@@ -155,14 +156,3 @@
     }
   });
 </script>
-<script>
-  function makeAdsVisible() {
-    var adContainers = document.querySelectorAll('.google-ad-banner, .google-ad-skyscraper, .google-ad-square, .google-ad-rectangle, .google-ad-leaderboard, .advert-inline');
-    adContainers.forEach(function(container) {
-      container.style.visibility = 'visible';
-    });
-  }
-
-  window.addEventListener('load', makeAdsVisible, { passive: true });
-</script>
-
