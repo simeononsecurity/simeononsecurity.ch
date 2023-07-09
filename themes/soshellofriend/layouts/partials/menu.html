@@ -1,9 +1,9 @@
-<nav class="menu">
+<nav class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
   <ul class="menu__inner menu__inner--desktop">
     {{ if or $.Site.Params.showMenuItems (eq $.Site.Params.showMenuItems 0) }}
       {{ range first $.Site.Params.showMenuItems $.Site.Menus.main }}
         {{ if not .HasChildren }}
-          <li><a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a title="{{ .Name }}" href="{{ .URL }}" itemprop="url"><span itemprop="name">{{ .Name }}</span></a></li>
         {{ end }}
       {{ end }}
       {{ if gt (len $.Site.Menus.main) $.Site.Params.showMenuItems }}
@@ -17,16 +17,16 @@
           <ul class="menu__sub-inner-more hidden">
             {{ range last (sub (len $.Site.Menus.main) $.Site.Params.showMenuItems) $.Site.Menus.main }}
               {{ if not .HasChildren }}
-                <li><a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li><a title="{{ .Name }}" href="{{ .URL }}" itemprop="url"><span itemprop="name">{{ .Name }}</span></a></li>
               {{ end }}
             {{ end }}
           </ul>
         </ul>
       {{ end }}
-      {{ else }}
+    {{ else }}
       {{ range $.Site.Menus.main }}
         {{ if not .HasChildren }}
-          <li><a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a title="{{ .Name }}" href="{{ .URL }}" itemprop="url"><span itemprop="name">{{ .Name }}</span></a></li>
         {{ end }}
       {{ end }}
     {{ end }}
@@ -35,7 +35,7 @@
   <ul class="menu__inner menu__inner--mobile">
     {{ range $.Site.Menus.main }}
       {{ if not .HasChildren }}
-        <li><a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
+        <li><a title="{{ .Name }}" href="{{ .URL }}" itemprop="url"><span itemprop="name">{{ .Name }}</span></a></li>
       {{ end }}
     {{ end }}
   </ul>
