@@ -15,13 +15,13 @@
         </span>
         <span class="language-selector" id="language-menu">
             <nav aria-label="Language switcher">
-                <ul class="" itemscope itemtype="https://schema.org/ItemList">
+                <ul class="">
                     {{ range .Site.Languages }}
                     {{ if eq . $.Site.Language }}
-                        <li itemprop="inLanguage" class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
+                        <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                     {{ end }}
                     {{ end }}
-                    <ul class="language_dropdown__menu" itemprop="itemListElement" itemscope itemtype="https://schema.org/Language">
+                    <ul class="language_dropdown__menu">
                         {{ $baseURLs := slice
                             "https://simeononsecurity.ch"
                             "https://ar.simeononsecurity.ch"
@@ -100,7 +100,7 @@
                                 {{ $hreflang = "zh" }}
                             {{ end }}
                             {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/Language"><a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" ><span itemprop="name">{{ $sitelang }}</span></a></li>
+                            <li itemscope itemtype="https://schema.org/Language"><a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" ><span itemprop="name">{{ $sitelang }}</span></a></li>
                         {{ end }}
                     </ul>
                 </ul>

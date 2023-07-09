@@ -16,16 +16,16 @@
             <span class="language-selector" id="language-menu">
                 {{ if .Site.IsMultiLingual }}
                 <nav aria-label="Language switcher">
-                    <ul itemscope itemtype="https://schema.org/ItemList">
+                    <ul>
                         {{ range .Site.Languages }}
                         {{ if eq . $.Site.Language }}
-                            <li itemprop="inLanguage" class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
+                            <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                         {{ end }}
                         {{ end }}
-                        <ul class="language_dropdown__menu" itemprop="itemListElement" itemscope itemtype="https://schema.org/Language">
+                        <ul class="language_dropdown__menu">
                             {{ range $.Translations }}
                             {{ $langCode := .Language.Lang }}
-                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/Language">
+                            <li itemscope itemtype="https://schema.org/Language">
                                 <a itemprop="url" title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">
                                     <span itemprop="name">{{ $langCode }}</span>
                                 </a>
