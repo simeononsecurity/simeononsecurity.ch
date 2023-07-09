@@ -3,8 +3,16 @@
 {{- $ytHost := cond $pc.PrivacyEnhanced  "www.youtube-nocookie.com" "www.youtube.com" -}}
 {{- $id := .Get "id" | default (.Get 0) -}}
 {{- $class := .Get "class" | default (.Get 1) -}}
-{{- $title := .Get "title" | default "YouTube Video" }}
-<div {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
+{{- $title := .Get "title" | default "YouTube Video" -}}
+{{- $description := .Get "description" | default "" -}}
+{{- $thumbnailUrl := printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $id -}}
+{{- $uploadDate := .Page.Date.Format "2006-01-02" -}}
+<div itemscope itemtype="https://schema.org/VideoObject" {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
+  <meta itemprop="name" content="{{ $title }}">
+  <meta itemprop="description" content="{{ $description }}">
+  <meta itemprop="thumbnailUrl" content="{{ $thumbnailUrl }}">
+  <meta itemprop="contentUrl" content="https://www.youtube.com/watch?v={{ $id }}">
+  <meta itemprop="uploadDate" content="{{ $uploadDate }}">
   <iframe src="https://{{ $ytHost }}/embed/{{ $id }}{{ with .Get "autoplay" }}{{ if eq . "true" }}?autoplay=1{{ end }}{{ end }}" {{ if not $class }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" {{ end }}allowfullscreen loading="lazy" title="{{ $title }}"></iframe>
 </div>
 {{ end -}}
