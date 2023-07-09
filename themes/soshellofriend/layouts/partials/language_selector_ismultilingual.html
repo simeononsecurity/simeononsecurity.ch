@@ -14,7 +14,7 @@
         </span>
         <span class="language-selector" id="language-menu">
             {{ if .Site.IsMultiLingual }}
-            <nav aria-label="Language switcher">
+            <nav aria-label="Language switcher" itemscope itemtype="https://schema.org/Language">
                 <menu>
                     <ul class="">
                         {{ range .Site.Languages }}
@@ -25,7 +25,7 @@
                         <ul class="language_dropdown__menu">
                             {{ range $.Translations }}
                             {{ $langCode := .Language.Lang }}
-                            <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ $langCode }}</a></li>
+                            <li itemprop="inLanguage"><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ $langCode }}</a></li>
                             {{ end }}
                         </ul>
                     </ul>

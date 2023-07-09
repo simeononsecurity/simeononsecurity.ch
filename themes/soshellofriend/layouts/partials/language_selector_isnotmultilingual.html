@@ -14,7 +14,7 @@
                 <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
         </span>
         <span class="language-selector" id="language-menu">
-            <nav aria-label="Language switcher">
+            <nav aria-label="Language switcher" itemscope itemtype="https://schema.org/Language">
                 <ul class="">
                     {{ range .Site.Languages }}
                     {{ if eq . $.Site.Language }}
@@ -100,7 +100,7 @@
                                 {{ $hreflang = "zh" }}
                             {{ end }}
                             {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-                            <li><a title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" >{{ $sitelang }}</a></li>
+                            <li itemprop="inLanguage"><a title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" >{{ $sitelang }}</a></li>
                         {{ end }}
                     </ul>
                 </ul>
