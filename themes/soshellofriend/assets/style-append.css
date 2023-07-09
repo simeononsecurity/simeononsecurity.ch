@@ -282,6 +282,7 @@
     max-height: 300px !important;
     /* Additional styles specific to banner ads */
     position: relative !important;
+    visibility: hidden;
   }
 
   /* Skyscraper Ad */
@@ -289,6 +290,7 @@
     width: 120px; /* Adjust width as needed */
     height: 600px; /* Adjust height as needed */
     /* Additional styles specific to skyscraper ads */
+    visibility: hidden;
   }
 
   /* Square Ad */
@@ -296,6 +298,7 @@
     width: 300px; /* Adjust width as needed */
     height: 300px; /* Adjust height as needed */
     /* Additional styles specific to square ads */
+    visibility: hidden;
   }
 
   /* Rectangle Ad */
@@ -441,4 +444,5 @@
     border-top: dotted 4px var(--background-secondary);
     border-bottom: dotted 4px var(--background-secondary);
     min-height: 100px;
+    visibility: hidden;
   }

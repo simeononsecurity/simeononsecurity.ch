@@ -15,7 +15,14 @@
   const delay = delaySeconds * 1000; // Convert the delay to milliseconds
 
   function loadAd() {
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-4092442123207538",
+      enable_page_level_ads: true,
+      done_loading: function () {
+        var adPlaceholder = document.getElementById("ad-placeholder");
+        adPlaceholder.style.visibility = "visible";
+      }
+    });
     adLoaded = true; // Mark the ad as loaded
   }
 
@@ -89,8 +96,14 @@
         entries.forEach(function(entry) {
           if (entry.isIntersecting) {
             // Load the ad
-            (adsbygoogle = window.adsbygoogle || []).push({});
-
+            (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-4092442123207538",
+              enable_page_level_ads: true,
+              done_loading: function () {
+                var adPlaceholder = document.getElementById("ad-placeholder");
+                adPlaceholder.style.visibility = "visible";
+              }
+            });
             // Stop observing once the ad is loaded
             observer.unobserve(entry.target);
           } else if (entry.intersectionRatio <= 0) {
