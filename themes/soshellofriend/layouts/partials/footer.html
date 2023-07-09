@@ -17,22 +17,25 @@
   }
 </style>
 <footer class="footer">
-  <div class="footer__inner">
-    {{ partial "logo.html" . }}
-    <div><span><a title="{{ i18n "contact_page_title" }}" href="/contactus/" target="_blank" rel="noopener">{{ i18n "contact_page_title" }}</a></span></div>
-    <div><span><a title="{{ i18n "privacy_policy_title" }}" href="/privacypolicy/" target="_blank" rel="noopener">{{ i18n "privacy_policy_title" }}</a></span></div>
-    <div><span><a title="{{ i18n "terms_conditions_title" }}" href="/termsandconditions/" target="_blank" rel="noopener">{{ i18n "terms_conditions_title" }}</a></span></div>
-    <div><span><a title="{{ i18n "sitemap_title" }}" href="/sitemap.xml" target="_blank" rel="noopener">{{ i18n "sitemap_title" }}</a></span></div>
-    <div><span><a title="{{ i18n "rss_feed_title" }}" href="/index.xml" target="_blank" rel="noopener">{{ i18n "rss_feed_title" }}</a></span></div>
-    <div class="copyright">
-      <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
+  <footer itemscope itemtype="https://schema.org/SiteNavigationElement">
+    <div class="footer__inner">
+      {{ partial "logo.html" . }}
+      <div itemprop="name"><span><a title="{{ i18n "contact_page_title" }}" href="/contactus/" target="_blank" rel="noopener">{{ i18n "contact_page_title" }}</a></span></div>
+      <div itemprop="name"><span><a title="{{ i18n "privacy_policy_title" }}" href="/privacypolicy/" target="_blank" rel="noopener">{{ i18n "privacy_policy_title" }}</a></span></div>
+      <div itemprop="name"><span><a title="{{ i18n "terms_conditions_title" }}" href="/termsandconditions/" target="_blank" rel="noopener">{{ i18n "terms_conditions_title" }}</a></span></div>
+      <div itemprop="name"><span><a title="{{ i18n "sitemap_title" }}" href="/sitemap.xml" target="_blank" rel="noopener">{{ i18n "sitemap_title" }}</a></span></div>
+      <div itemprop="name"><span><a title="{{ i18n "rss_feed_title" }}" href="/index.xml" target="_blank" rel="noopener">{{ i18n "rss_feed_title" }}</a></span></div>
+      <div class="copyright">
+        <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
+      </div>
     </div>
-  </div>
+  </footer>  
   {{ if ne .RelPermalink "/search/" }}
   <div class="search-form">
-    <form action="/search" method="GET">
+    <form action="/search" method="GET" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
       <div class="search-box">
-        <input type="search" name="q" id="search-query" placeholder="{{ i18n "search_placeholder" }}">
+        <meta itemprop="target" content="/search?q={search_term_string}">
+        <input itemprop="query-input" type="search" name="q" id="search-query" placeholder="{{ i18n "search_placeholder" }}">
         <button type="submit" aria-label="Search">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </button>
