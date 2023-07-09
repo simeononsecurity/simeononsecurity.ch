@@ -8,31 +8,36 @@
 {{ end }}
 {{ if not $disablelang }}
 <div>
-    <span class="language-selector__container">
-        <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
-            <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
-        </span>
-        <span class="language-selector" id="language-menu">
-            {{ if .Site.IsMultiLingual }}
-            <nav aria-label="Language switcher" itemscope itemtype="https://schema.org/Language">
-                <menu>
-                    <ul class="">
+    <div>
+        <span class="language-selector__container">
+            <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
+                <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
+            </span>
+            <span class="language-selector" id="language-menu">
+                {{ if .Site.IsMultiLingual }}
+                <nav aria-label="Language switcher">
+                    <ul itemscope itemtype="https://schema.org/ItemList">
                         {{ range .Site.Languages }}
                         {{ if eq . $.Site.Language }}
-                            <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
+                            <li itemprop="inLanguage" class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                         {{ end }}
                         {{ end }}
-                        <ul class="language_dropdown__menu">
+                        <ul class="language_dropdown__menu" itemprop="itemListElement" itemscope itemtype="https://schema.org/Language">
                             {{ range $.Translations }}
                             {{ $langCode := .Language.Lang }}
-                            <li itemprop="inLanguage"><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}" >{{ $langCode }}</a></li>
+                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/Language">
+                                <a itemprop="url" title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">
+                                    <span itemprop="name">{{ $langCode }}</span>
+                                </a>
+                            </li>
                             {{ end }}
                         </ul>
                     </ul>
-                </menu>
-            {{ end }}
+                </nav>
+                {{ end }}
+            </span>
         </span>
-    </span>    
+    </div>     
 <style>
         .language-selector {
         position: relative;

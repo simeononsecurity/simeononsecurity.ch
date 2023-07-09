@@ -14,14 +14,14 @@
                 <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
         </span>
         <span class="language-selector" id="language-menu">
-            <nav aria-label="Language switcher" itemscope itemtype="https://schema.org/Language">
-                <ul class="">
+            <nav aria-label="Language switcher">
+                <ul class="" itemscope itemtype="https://schema.org/ItemList">
                     {{ range .Site.Languages }}
                     {{ if eq . $.Site.Language }}
-                        <li class="current-lang" style="list-style: none; display:none;">{{ $.Site.Language.Lang }}</li>
+                        <li itemprop="inLanguage" class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                     {{ end }}
                     {{ end }}
-                    <ul class="language_dropdown__menu">
+                    <ul class="language_dropdown__menu" itemprop="itemListElement" itemscope itemtype="https://schema.org/Language">
                         {{ $baseURLs := slice
                             "https://simeononsecurity.ch"
                             "https://ar.simeononsecurity.ch"
@@ -100,7 +100,7 @@
                                 {{ $hreflang = "zh" }}
                             {{ end }}
                             {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-                            <li itemprop="inLanguage"><a title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" >{{ $sitelang }}</a></li>
+                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/Language"><a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" ><span itemprop="name">{{ $sitelang }}</span></a></li>
                         {{ end }}
                     </ul>
                 </ul>
