@@ -10,9 +10,9 @@
 ></script>
 <script async>
   let rafId;
-  let adLoaded = false; // Track whether the ad has been loaded
-  const delaySeconds = 0.2; // Adjust the delay in seconds as per your requirements
-  const delay = delaySeconds * 1000; // Convert the delay to milliseconds
+  let adLoaded = false;
+  const delaySeconds = 0.2;
+  const delay = delaySeconds * 1000;
 
   function loadAd() {
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -23,24 +23,20 @@
         adPlaceholder.style.visibility = "visible";
       }
     });
-    adLoaded = true; // Mark the ad as loaded
+    adLoaded = true;
   }
 
   function refreshAd() {
     loadAd();
-    setTimeout(refreshAd, 45000); // Set the delay to 45000 milliseconds (45 seconds)
+    setTimeout(refreshAd, 45000);
   }
 
   function checkIfAdShouldLoad() {
-    if (adLoaded) {
-      // If the ad has already been loaded, return early
+    if (adLoaded || window.innerHeight + window.scrollY < document.body.offsetHeight) {
       return;
     }
-
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      refreshAd(); // Call the refresh function to reload the ad
-      window.removeEventListener("scroll", checkIfAdShouldLoad);
-    }
+    refreshAd();
+    window.removeEventListener("scroll", checkIfAdShouldLoad);
   }
 
   function debounce(func) {
@@ -60,14 +56,9 @@
   }
 
   function handleScroll() {
-    // Use either debounce or throttle here based on your requirement
     debounce(checkIfAdShouldLoad);
-    // throttle(checkIfAdShouldLoad);
   }
 
-  window.addEventListener("scroll", handleScroll, { passive: true });
-</script>
-<script async>
   function onPageLoad() {
     lazyLoadAds();
     refreshAd();
@@ -80,7 +71,6 @@
 
     window.addEventListener("scroll", handleScroll, { passive: true });
 
-    // Call the refresh function to load the ad initially
     refreshAd();
   }
 
@@ -96,7 +86,6 @@
       function(entries, observer) {
         entries.forEach(function(entry) {
           if (entry.isIntersecting) {
-            // Load the ad
             (adsbygoogle = window.adsbygoogle || []).push({
               google_ad_client: "ca-pub-4092442123207538",
               enable_page_level_ads: true,
@@ -105,16 +94,14 @@
                 adPlaceholder.style.visibility = "visible";
               }
             });
-            // Stop observing once the ad is loaded
             observer.unobserve(entry.target);
           } else if (entry.intersectionRatio <= 0) {
-            // Handle error case: stop observing if the element is no longer visible
             observer.unobserve(entry.target);
           }
         });
       },
       { passive: true }
-    ); // Mark the observer as passive
+    );
 
     try {
       observer.observe(adPlaceholder);
@@ -123,6 +110,7 @@
     }
   }
 
+  window.addEventListener("scroll", handleScroll, { passive: true });
   window.addEventListener("load", onPageLoad, { passive: true });
 </script>
 <script defer>
