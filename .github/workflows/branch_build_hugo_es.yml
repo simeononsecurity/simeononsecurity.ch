@@ -25,7 +25,7 @@ jobs:
         run: pwd    
 
       - name: Build Hugo site
-        run: hugo --cleanDestinationDir -D -E -F --gc --minify --verbose --verboseLog --enableGitInfo --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
+        run: hugo --cleanDestinationDir -D -E -F --gc --minify --verbose --verboseLog --enableGitInfo --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/es/config.toml
 
       - name: Delete non-public folders
         run: |
