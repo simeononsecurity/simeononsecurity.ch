@@ -5,6 +5,7 @@ on:
     paths:
       - "**"
       - "!contents/**" # Exclude the contents folder
+      - "!git/**" # Exclude the git folder
       - "contents/**/*.ar.md" # Include only *.ar.md files within the content folder
 
 jobs:
