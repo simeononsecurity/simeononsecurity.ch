@@ -40,7 +40,7 @@ jobs:
       - name: Delete non-public folders and files
         run: |
           find . -mindepth 1 -type d ! -path './public*' ! -path './.git*' ! -path './.github*' -print0 | xargs -0 rm -rf
-          find . -maxdepth 1 -type f -print0 | xargs -0 rm -f
+          find . -maxdepth 1 -type f -not -name 'netlify.toml' -print0 | xargs -0 rm -f
 
       - name: Move files to root
         run: |
