@@ -31,9 +31,10 @@ jobs:
       - name: Build Hugo site
         run: hugo --cleanDestinationDir -D -E -F --gc --minify --verbose --verboseLog --enableGitInfo --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/bn/config.toml
 
-      - name: Delete non-public folders
+      - name: Delete non-public folders and files
         run: |
           find . -mindepth 1 -type d ! -path './public*' ! -path './.git*' ! -path './.github*' -print0 | xargs -0 rm -rf
+          find . -maxdepth 1 -type f -print0 | xargs -0 rm -f
       
       - name: Move files to root
         run: |
