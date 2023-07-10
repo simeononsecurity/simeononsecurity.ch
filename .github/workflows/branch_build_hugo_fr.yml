@@ -1,0 +1,47 @@
+name: Branch Build Hugo - fr
+
+on:
+  push:
+    paths:
+      - "**"
+      - "!contents/**" # Exclude the contents folder
+      - "contents/**/*.fr.md" # Include only *.fr.md files within the content folder
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.113.0"
+          extended: true
+
+      - name: Print PWD
+        run: pwd    
+
+      - name: Build Hugo site
+        run: hugo --cleanDestinationDir -D -E -F --gc --minify --verbose --verboseLog --enableGitInfo --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
+
+      - name: Delete non-public folders
+        run: |
+          find . -mindepth 1 -type d ! -path './public*' ! -path './.git*' ! -path './.github*' -print0 | xargs -0 rm -rf
+      
+      - name: Move files to root
+        run: |
+          mv ./public/* .
+          rm -r ./public
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "${{ secrets.USERNAME }}"
+          git config user.email "${{ secrets.EMAIL }}"
+          git add .
+          git commit -m "Update website-fr branch"
+          git push --force --quiet origin HEAD:refs/heads/website-fr
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
