@@ -8,6 +8,7 @@ on:
       - "!contents/**" # Exclude the contents folder
       - "!github/**" # Exclude the .github folder
       - "!git/**" # Exclude the .git folder
+      - "config/**"
       - "static/**"
       - "layouts/**"
       - "i18n/**"
