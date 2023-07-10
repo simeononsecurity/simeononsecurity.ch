@@ -1,5 +1,5 @@
 [build]
-publish = "public"
+# publish = "public"
 #command = "hugo --cleanDestinationDir --environment=production -D -F --gc --minify --verbose"
 #command = "hugo --environment=production -D -F --gc --minify --verbose"
 
@@ -15,11 +15,11 @@ minify = true
 [build.processing.images]
 compress = true
 
-[context.production.environment]
-HUGO_VERSION = "0.113.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-NODE_VERSION = "18.16.0"
+# [context.production.environment]
+# HUGO_VERSION = "0.113.0"
+# HUGO_ENV = "production"
+# HUGO_ENABLEGITINFO = "true"
+# NODE_VERSION = "18.16.0"
 #NPM_FLAGS = "npm install --save-dev -g -D babel/cli babel/core babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import fsevents jimp lru-cache @ampproject/toolbox-optimizer"
 #NPM_FLAGS = "npm install --save-dev -g -D @babel/cli @babel/core @babel/preset-env babel/babel browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url hugo-extended eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import jimp lru-cache @ampproject/toolbox-optimizer"
 
