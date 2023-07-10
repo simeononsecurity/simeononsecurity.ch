@@ -1,4 +1,4 @@
-name: Update Website
+name: Branch Build Hugo - EN
 
 on:
   push:
