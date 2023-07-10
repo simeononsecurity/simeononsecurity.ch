@@ -23,7 +23,5 @@ jobs:
       - name: Deploy to Netlify
         run: |
           curl -X POST \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.NETLIFY_API_TOKEN }}" \
-            -d '{"build": true}' \
-            https://api.netlify.com/api/v1/sites/${{ secrets.NETLIFY_EN_SITE_ID}}/builds
+            -d '{}' \
+            ${{ secrets.NETLIFY_EN_BUILDHOOK}}?trigger_branch=master&trigger_title=triggered+by+github+actions&clear_cache=false
