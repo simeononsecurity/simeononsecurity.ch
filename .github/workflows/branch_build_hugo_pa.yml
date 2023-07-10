@@ -5,10 +5,13 @@ on:
     branches:
       - master
     paths:
-      - "**"
       - "!contents/**" # Exclude the contents folder
       - "!github/**" # Exclude the .github folder
       - "!git/**" # Exclude the .git folder
+      - "static/**"
+      - "layouts/**"
+      - "i18n/**"
+      - "themes/**"
       - "contents/**/*.pa.md" # Include only *.pa.md files within the content folder
 
 jobs:
