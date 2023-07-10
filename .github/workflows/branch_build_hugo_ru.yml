@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.ru.md" # Include only *.ru.md files within the content folder
+      - "contents/**/*.ru.md"
+      - "index.ru.md"
+      - "**/index.ru.md" # Include only *.ru.md files within the content folder
 
 jobs:
   build:

@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.nl.md" # Include only *.nl.md files within the content folder
+      - "contents/**/*.nl.md"
+      - "index.nl.md"
+      - "**/index.nl.md" # Include only *.nl.md files within the content folder
 
 jobs:
   build:

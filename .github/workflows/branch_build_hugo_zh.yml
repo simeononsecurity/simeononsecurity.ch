@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.zh.md" # Include only *.zh.md files within the content folder
+      - "contents/**/*.zh.md"
+      - "index.zh.md"
+      - "**/index.zh.md" # Include only *.zh.md files within the content folder
 
 jobs:
   build:

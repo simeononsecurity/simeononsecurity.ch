@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.ro.md" # Include only *.ro.md files within the content folder
+      - "contents/**/*.ro.md"
+      - "index.ro.md"
+      - "**/index.ro.md" # Include only *.ro.md files within the content folder
 
 jobs:
   build:

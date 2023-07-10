@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.hi.md" # Include only *.hi.md files within the content folder
+      - "contents/**/*.hi.md"
+      - "index.hi.md"
+      - "**/index.hi.md" # Include only *.hi.md files within the content folder
 
 jobs:
   build:

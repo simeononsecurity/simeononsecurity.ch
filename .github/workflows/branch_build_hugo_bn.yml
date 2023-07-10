@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.bn.md" # Include only *.bn.md files within the content folder
+      - "contents/**/*.bn.md"
+      - "index.bn.md"
+      - "**/index.bn.md" # Include only *.bn.md files within the content folder
 
 jobs:
   build:

@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.ca.md" # Include only *.ca.md files within the content folder
+      - "contents/**/*.ca.md"
+      - "index.ca.md"
+      - "**/index.ca.md" # Include only *.ca.md files within the content folder
 
 jobs:
   build:

@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.pa.md" # Include only *.pa.md files within the content folder
+      - "contents/**/*.pa.md"
+      - "index.pa.md"
+      - "**/index.pa.md" # Include only *.pa.md files within the content folder
 
 jobs:
   build:

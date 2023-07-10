@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.ja.md" # Include only *.ja.md files within the content folder
+      - "contents/**/*.ja.md"
+      - "index.ja.md"
+      - "**/index.ja.md" # Include only *.ja.md files within the content folder
 
 jobs:
   build:

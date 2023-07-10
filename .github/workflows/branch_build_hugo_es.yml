@@ -13,7 +13,9 @@ on:
       - "layouts/**"
       - "i18n/**"
       - "themes/**"
-      - "contents/**/*.es.md" # Include only *.es.md files within the content folder
+      - "contents/**/*.es.md"
+      - "index.es.md"
+      - "**/index.es.md" # Include only *.es.md files within the content folder
 
 jobs:
   build:
