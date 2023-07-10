@@ -1,20 +1,20 @@
-<div class="pagination" itemscope itemtype="https://schema.org/WebPage">
-  <div class="pagination__buttons" itemprop="pagination" itemscope itemtype="https://schema.org/Pagination">
+<div class="pagination">
+  <div class="pagination__buttons" itemscope itemtype="https://schema.org/SiteNavigationElement">
     {{ if .Paginator.HasPrev }}
-      <span itemprop="hasPart" class="button previous">
-        <a itemprop="url" title="Previous Page" href="{{ .Paginator.Prev.URL }}">
-          <span class="button__icon">←</span>
-          <span class="button__text">{{ $.Site.Params.NewerPosts | default "Newer posts" }}</span>
-        </a>
-      </span>
+    <span class="button previous">
+      <a itemprop="url" title="Previous Page" href="{{ .Paginator.Prev.URL }}">
+        <span class="button__icon">←</span>
+        <span class="button__text">{{ $.Site.Params.NewerPosts | default "Newer posts" }}</span>
+      </a>
+    </span>
     {{ end }}
     {{ if .Paginator.HasNext }}
-      <span itemprop="hasPart" class="button next">
-        <a itemprop="url" title="Next Page" href="{{ .Paginator.Next.URL }}">
-          <span class="button__text">{{ $.Site.Params.OlderPosts | default "Older posts" }}</span>
-          <span class="button__icon">→</span>
-        </a>
-      </span>
+    <span class="button next">
+      <a itemprop="url" title="Next Page" href="{{ .Paginator.Next.URL }}">
+        <span class="button__text">{{ $.Site.Params.OlderPosts | default "Older posts" }}</span>
+        <span class="button__icon">→</span>
+      </a>
+    </span>
     {{ end }}
   </div>
 </div>
