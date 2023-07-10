@@ -2,11 +2,13 @@ name: Branch Build Hugo - es
 
 on:
   push:
+    branches:
+      - master
     paths:
       - "**"
       - "!contents/**" # Exclude the contents folder
-      - "!github/**" # Exclude the git folder
-      - "!git/**" # Exclude the git folder
+      - "!github/**" # Exclude the .github folder
+      - "!git/**" # Exclude the .git folder
       - "contents/**/*.es.md" # Include only *.es.md files within the content folder
 
 jobs:
