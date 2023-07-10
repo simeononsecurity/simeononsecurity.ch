@@ -5,6 +5,7 @@ on:
     paths:
       - "**"
       - "!contents/**" # Exclude the contents folder
+      - "!github/**" # Exclude the git folder
       - "!git/**" # Exclude the git folder
       - "contents/**/*.fr.md" # Include only *.fr.md files within the content folder
 
