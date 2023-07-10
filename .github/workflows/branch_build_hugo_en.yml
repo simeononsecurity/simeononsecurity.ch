@@ -29,8 +29,8 @@ jobs:
 
       - name: Delete non-public folders
         run: |
-          find . -type d ! -path './public*' -print0 | xargs -0 rm -rf
-
+          find . -mindepth 1 -type d ! -path './public*' -print0 | xargs -0 rm -rf
+      
       - name: Move files to root
         run: |
           mv ./public/* .
