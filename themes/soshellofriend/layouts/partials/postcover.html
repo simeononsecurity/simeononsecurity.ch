@@ -1,4 +1,11 @@
 {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
+{{ $imgloading := "auto" }}
+{{ if not ($.Scratch.Get "FirstImageProcessed") }}
+{{ $.Scratch.Set "FirstImageProcessed" true }}
+{{ $imgloading = "eager" }}
+{{ else }}
+{{ $imgloading = "lazy" }}
+{{ end }}
 <figure class="post-cover" itemscope itemtype="https://schema.org/ImageObject">
     {{ $cover := resources.Get (.Params.Cover)}}
     {{ if .Params.UseRelativeCover }}
@@ -31,7 +38,7 @@
         height="731"
         width="480"
         itemprop="contentUrl"
-        loading="lazy"
+        loading="{{ $imgloading }}"
       />
     </picture>        
     {{ if .Params.CoverCaption }}
