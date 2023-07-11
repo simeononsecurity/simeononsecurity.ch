@@ -79,6 +79,9 @@ jobs:
         run: |
           cd cf-workers-site-template
           yarn global add wrangler
+          yarn install
+          yarn global list
+          npx wrangler config
           echo "${CLOUDFLARE_API_TOKEN}" | yarn wrangler config
           yarn run publish
 
