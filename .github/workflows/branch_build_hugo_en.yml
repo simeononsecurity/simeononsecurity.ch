@@ -81,8 +81,8 @@ jobs:
           yarn global add wrangler
           yarn install
           yarn global list
-          npx wrangler config
-          echo "${CLOUDFLARE_API_TOKEN}" | yarn wrangler config
+          npm update -g wrangler
+          echo "${CLOUDFLARE_API_TOKEN}" | npx @cloudflare/wrangler config
           yarn run publish
 
       - name: Deploy to Cloudflare Workers
