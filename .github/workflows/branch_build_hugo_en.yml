@@ -78,6 +78,7 @@ jobs:
       - name: Publish the site
         run: |
           cd cf-workers-site-template
+          yarn global add wrangler
           echo "${CLOUDFLARE_API_TOKEN}" | yarn wrangler config
           yarn run publish
 
