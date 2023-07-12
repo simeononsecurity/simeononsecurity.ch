@@ -18,7 +18,7 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
         - SEO and Mobile Friendly Site Optimizer
       - [CloudFlare Workers Site Template](https://github.com/simeononsecurity/cf-workers-site-template)
         - Used to Cache Website with Increased Locality
-        - Modified to Respect Headers from Source
+        - Modified from Source to Respect Headers from Source Website
 - [Hugo Extended](https://gohugo.io/)
     - Used for Static Site Generation
 - [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
