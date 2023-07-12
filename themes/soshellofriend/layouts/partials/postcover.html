@@ -1,6 +1,6 @@
 {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
 {{ $imgloading := "auto" }}
-{{ $variableName := printf "FirstImageProcessed_%s" ($.Page.Permalink) }}
+{{ $variableName := printf "FirstImageProcessed_%s" ($.Title | safeHTML) }}
 {{ if not ($.Scratch.Get $variableName) }}
 {{ $imgloading = "eager" }}
 {{ $.Scratch.Set $variableName true }}
