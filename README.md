@@ -24,7 +24,7 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
     - Self Explanatory
     - [node.js](https://nodejs.org/en/)
         - Dependency of Hello Friend
-            - Used for dynamic theme generation.
+        - Used for dynamic theme generation.
 - [Netlify](https://www.netlify.com/)
     - Used for Hosting, SSL Registration, Forms, Automated Hugo Site Generation
 - [glotta](https://github.com/simeononsecurity/glotta)
