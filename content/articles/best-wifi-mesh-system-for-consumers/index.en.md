@@ -69,7 +69,7 @@ The [**Eero Pro 6**](https://amzn.to/3POxXEa) is another highly regarded mesh sy
 
 ### 3. [**Netgear Orbi RBK50**](https://amzn.to/3PQbG9e)
 
-{{< youtube id="gr12G_tEpdM" >}}
+{{< youtube id="HbX9lmnuX34" >}}
 
 The [**Netgear Orbi RBK50**](https://amzn.to/3PQbG9e) is known for its exceptional coverage and range. It utilizes a tri-band system with a dedicated backhaul channel, ensuring high-speed connections between the main router and satellite nodes. The Orbi app offers intuitive setup and management options, including advanced features like **parental controls** and **guest network management**.
 
