@@ -14,8 +14,6 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
     - Used for Proxy, CDN, Caching, Country Blocking
     - [CloudFlare Wrangler Action](https://github.com/cloudflare/wrangler-action)
       - Used for Automating Deploying Cloudflare Workers
-      - [CloudFlare AMP Optimizer](https://github.com/ampproject/cloudflare-amp-optimizer)
-        - SEO and Mobile Friendly Site Optimizer
       - [CloudFlare Workers Site Template](https://github.com/simeononsecurity/cf-workers-site-template)
         - Used to Cache Website with Increased Locality
         - Modified from Source to Respect Headers from Source Website
