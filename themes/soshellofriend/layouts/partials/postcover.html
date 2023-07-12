@@ -2,10 +2,10 @@
 {{ $imgloading := "auto" }}
 {{ $variableName := printf "FirstImageProcessed_%s" ($.Page.Permalink) }}
 {{ if not ($.Scratch.Get $variableName) }}
-{{ $.Scratch.Set $variableName true }}
-{{ $imgloading = "lazy" }}
-{{ else }}
 {{ $imgloading = "eager" }}
+{{ $.Scratch.Set $variableName true }}
+{{ else }}
+{{ $imgloading = "lazy" }}
 {{ end }}
 <figure class="post-cover" itemscope itemtype="https://schema.org/ImageObject">
     {{ $cover := resources.Get (.Params.Cover)}}
