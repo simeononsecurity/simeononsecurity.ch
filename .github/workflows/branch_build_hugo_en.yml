@@ -66,7 +66,7 @@ jobs:
 
       - name: Download cf-workers-site-template repository
         run: |
-          git clone https://github.com/xJonathanLEI/cf-workers-site-template
+          git clone https://github.com/simeononsecurity/cf-workers-site-template
 
       - name: Create cf-workers-site-template/public directory
         run: mkdir -p cf-workers-site-template/public
