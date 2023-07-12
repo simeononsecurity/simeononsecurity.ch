@@ -1,6 +1,6 @@
 {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
 {{ $imgloading := "auto" }}
-{{ $variableName := printf "FirstImageProcessed_%s" .Permalink }}
+{{ $variableName := printf "FirstImageProcessed_%s" ($.Page.Permalink) }}
 {{ if not ($.Scratch.Get $variableName) }}
 {{ $.Scratch.Set $variableName true }}
 {{ $imgloading = "eager" }}
@@ -39,7 +39,7 @@
         height="731"
         width="480"
         itemprop="contentUrl"
-        loading="{{ $imgloading }}"
+        {{ if eq $imgloading "eager" }}loading="eager"{{ else }}loading="lazy"{{ end }}
       />
     </picture>        
     {{ if .Params.CoverCaption }}
