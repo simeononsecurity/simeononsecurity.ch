@@ -12,15 +12,18 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
 ### Technologies used:
 - [CloudFlare](https://www.cloudflare.com/)
     - Used for Proxy, CDN, Caching, Country Blocking
-- [CloudFlare AMP Optimizer](https://github.com/ampproject/cloudflare-amp-optimizer)
-    - SEO and Mobile Friendly Site Optimizer
+    - [CloudFlare Wrangler Action](https://github.com/cloudflare/wrangler-action)
+      - Used for Automating Deploying Cloudflare Workers
+      - [CloudFlare AMP Optimizer](https://github.com/ampproject/cloudflare-amp-optimizer)
+          - SEO and Mobile Friendly Site Optimizer
+      - [CloudFlare Workers Site Template](https://github.com/xJonathanLEI/cf-workers-site-template)
 - [Hugo Extended](https://gohugo.io/)
     - Used for Static Site Generation
 - [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
     - Self Explanatory
-- [node.js](https://nodejs.org/en/)
-    - Dependency of Hello Friend
-        - Used for dynamic theme generation.
+    - [node.js](https://nodejs.org/en/)
+        - Dependency of Hello Friend
+            - Used for dynamic theme generation.
 - [Netlify](https://www.netlify.com/)
     - Used for Hosting, SSL Registration, Forms, Automated Hugo Site Generation
 - [glotta](https://github.com/simeononsecurity/glotta)
@@ -28,7 +31,6 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
 - [Progressive Web App / Service Workers](https://web.dev/progressive-web-apps/)
     - Used to increase usability and accessability of the site.
     - Looking for help with https://github.com/simeononsecurity/simeononsecurity.ch/issues/487
-
 
 ### Responsible Disclosure:
 SimeonOnSecurity.ch supports the [security.txt](https://securitytxt.org/) [RFC](https://tools.ietf.org/html/draft-foudil-securitytxt-10). 
