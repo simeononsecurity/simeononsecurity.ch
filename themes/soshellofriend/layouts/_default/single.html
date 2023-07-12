@@ -3,11 +3,6 @@
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
   {{ partial "breadcrumbs.html" . }}
   <br>
-  {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors"}}
-  {{ $currentPath := .Permalink }}
-  {{ if not (in $currentPath $excludePaths) }}
-    {{ partial "displayads-responsive-horizontal.html" . }}
-  {{ end }}
   <article class="post">
     <h1 class="post-title">{{ .Title | markdownify }}</h1>
     <div class="post-meta">
