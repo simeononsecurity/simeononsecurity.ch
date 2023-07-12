@@ -1,3 +1,4 @@
+
 # # Optional: Redirect default Netlify subdomain to primary domain
 # https://simeononsecurity.netlify.com/* https://simeononsecurity.ch/:splat 301!
 
@@ -53,3 +54,50 @@
 
 # Russian
 /ru/* https://ru.simeononsecurity.ch/:splat 301!
+
+# cloudflare pages
+
+# redirect sitemap.xml to index.xml
+/rss.xml /index.xml 301
+
+# French
+/fr/* https://fr.simeononsecurity.ch/:splat 301
+
+# Spanish
+/es/* https://es.simeononsecurity.ch/:splat 301
+
+# German
+/de/* https://de.simeononsecurity.ch/:splat 301
+
+# Hindi
+/hi/* https://hi.simeononsecurity.ch/:splat 301
+
+# Arabic
+/ar/* https://ar.simeononsecurity.ch/:splat 301
+
+# Catalan
+/ca/* https://ca.simeononsecurity.ch/:splat 301
+
+# Italian
+/it/* https://it.simeononsecurity.ch/:splat 301
+
+# Japanese
+/ja/* https://ja.simeononsecurity.ch/:splat 301
+
+# Dutch
+/nl/* https://nl.simeononsecurity.ch/:splat 301
+
+# Romanian
+/ro/* https://ro.simeononsecurity.ch/:splat 301
+
+# Chinese
+/zh/* https://zh.simeononsecurity.ch/:splat 301
+
+# Punjabi
+/pa/* https://pa.simeononsecurity.ch/:splat 301
+
+# Portuguese
+/pt/* https://pt.simeononsecurity.ch/:splat 301
+
+# Russian
+/ru/* https://ru.simeononsecurity.ch/:splat 301
