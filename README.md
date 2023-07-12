@@ -16,8 +16,9 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
       - Used for Automating Deploying Cloudflare Workers
       - [CloudFlare AMP Optimizer](https://github.com/ampproject/cloudflare-amp-optimizer)
         - SEO and Mobile Friendly Site Optimizer
-      - [CloudFlare Workers Site Template](https://github.com/xJonathanLEI/cf-workers-site-template)
+      - [CloudFlare Workers Site Template](https://github.com/simeononsecurity/cf-workers-site-template)
         - Used to Cache Website with Increased Locality
+        - Modified to Respect Headers from Source
 - [Hugo Extended](https://gohugo.io/)
     - Used for Static Site Generation
 - [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
