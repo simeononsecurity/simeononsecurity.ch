@@ -13,7 +13,6 @@
 
   function loadAd(adPlaceholder) {
     const adClientId = adPlaceholder.getAttribute("data-ad-client");
-    const adSlotId = adPlaceholder.getAttribute("data-ad-slot");
     const randomInt = adPlaceholder.getAttribute("random-int");
   
     if (!adClientId || !randomInt) {
@@ -24,7 +23,6 @@
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: adClientId,
       enable_page_level_ads: true,
-      ad_slot: adSlotId,
       done_loading: function () {
         adPlaceholder.style.visibility = "visible";
         const imgPlaceholder = adPlaceholder.querySelector('img[alt="Ad Placeholder"]');
