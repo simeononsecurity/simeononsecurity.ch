@@ -1,30 +1,32 @@
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+{{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
          xmlns:xhtml="http://www.w3.org/1999/xhtml"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   {{ range .Data.Pages }}
-    {{ if and (not (or (hasPrefix .RelPermalink "/tags") (hasPrefix .RelPermalink "/categories"))) (not (.Params.sitemap_ignore | default false)) }}
+    {{ $ignore := or (hasPrefix .RelPermalink "/tags") (hasPrefix .RelPermalink "/categories") }}
+    {{ $ignore = or $ignore (.Params.sitemap_ignore | default false) }}
+    {{ if not $ignore }}
     <url>
       <loc>{{ .Permalink }}</loc>
       {{ if not .Lastmod.IsZero }}
-      <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+        <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
       {{ end }}
       {{ with .Sitemap.ChangeFreq }}
-      <changefreq>{{ . }}</changefreq>
+        <changefreq>{{ . }}</changefreq>
       {{ end }}
-      {{ if ge .Sitemap.Priority 0.0 }}
-      <priority>{{ .Sitemap.Priority }}</priority>
+      {{ if gt .Sitemap.Priority 0.0 }}
+        <priority>{{ .Sitemap.Priority }}</priority>
       {{ end }}
       {{ if .Translations }}
-      {{ range $translation := .Translations }}
-      <xhtml:link
-        rel="alternate"
-        hreflang="{{ $translation.Lang }}"
-        href="{{ $translation.Permalink }}"
-      />
-      {{ end }}
+        {{ range $translation := .Translations }}
+          <xhtml:link
+            rel="alternate"
+            hreflang="{{ $translation.Lang }}"
+            href="{{ $translation.Permalink }}"
+          />
+        {{ end }}
       {{ end }}
       <xhtml:link
         rel="alternate"
