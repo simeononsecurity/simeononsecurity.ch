@@ -1,20 +1,21 @@
 {{ $languageCode := $.Site.LanguageCode }}
 <!DOCTYPE html>
-<html lang="{{ $.Site.Language }}">
+<html lang="{{ $.Site.Language }}" itemscope itemtype="http://schema.org/WebPage">
   <head>
     {{ block "title" . }}
       <title itemprop="name">
-        {{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} —
-        {{ . }}{{ end }}{{ else }}
+        {{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}
+        {{ else }}
         {{ if strings.Contains $.Permalink "/tags/" }}{{ i18n "other_posts_tagged" }} "{{ .Title }}"
-        {{ else }}{{ .Title }}{{ end }}{{ end }}
+        {{ else }}{{ .Title }}{{ end }}
+        {{ end }}
       </title>
     {{ end }}
     {{ partial "head.html" . }}
   </head>
-  <body itemscope itemtype="http://schema.org/WebPage" class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+  <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
     <a href="#" hreflang="{{ $languageCode }}" title="top" class="top"></a>
-    <div class="container">
+    <div class="container" itemprop="mainContentOfPage">
       {{ partial "header.html" . }}
 
       <div class="content">
