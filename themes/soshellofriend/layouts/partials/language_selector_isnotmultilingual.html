@@ -1,4 +1,4 @@
-
+{{ $languageCode := $.Site.LanguageCode }}
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/tags"}}
 {{ $currentPath := .Permalink }}
 {{ $disablelang := false }}
@@ -18,7 +18,7 @@
                 <ul class="">
                     {{ range .Site.Languages }}
                     {{ if eq . $.Site.Language }}
-                        <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
+                        <li class="current-lang" style="list-style: none; display:none;"><a title="{{ $.Site.Language.Lang }}" href="#" hreflang="{{ $.Site.Language.Lang }}"><span itemprop="name">{{ $.Site.Language.Lang }}</span></a></li>
                     {{ end }}
                     {{ end }}
                     <ul class="language_dropdown__menu">
@@ -107,7 +107,7 @@
             </nav>
         </span>
     </span>
-    <style>
+    <style>L
             .language-selector {
             position: relative;
             display: inline-block;
