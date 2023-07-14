@@ -163,6 +163,14 @@
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}"  as="script" type="text/javascript" defer>
 
+<!-- preload and prefetch first-party fonts -->
+<link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-Italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+
 <!-- add a <link> tag to all the pages for manifest.json  -->
 <link rel="manifest" href="{{ "manifest.json" | absURL }}" />
 
@@ -196,6 +204,7 @@
   <link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript">
   {{ end }}
 {{ end }}
+
 
 {{/*  <div id="requireHTTPS" class="hidden" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh;">
   <p>This page must be served over a secure connection. Please click the following link:</p>

@@ -48,3 +48,8 @@
   src: url("../fonts/Inter-BoldItalic.woff2") format("woff2");
   font-display: swap;
 }
+
+/* Add fallback font-family */
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif;
+}  
