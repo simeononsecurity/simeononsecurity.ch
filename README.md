@@ -12,11 +12,6 @@ The source code for the [SimeonOnSecurity](https://SimeonOnSecurity.ch) website
 ### Technologies used:
 - [CloudFlare](https://www.cloudflare.com/)
     - Used for Proxy, CDN, Caching, Country Blocking
-    - [CloudFlare Wrangler Action](https://github.com/cloudflare/wrangler-action)
-      - Used for Automating Deploying Cloudflare Workers
-      - [CloudFlare Workers Site Template](https://github.com/simeononsecurity/cf-workers-site-template)
-        - Used to Cache Website with Increased Locality
-        - Modified from Source to Respect Headers from Source Website
 - [Hugo Extended](https://gohugo.io/)
     - Used for Static Site Generation
 - [Hugo - Hello Friend Theme](https://themes.gohugo.io/hugo-theme-hello-friend/)
