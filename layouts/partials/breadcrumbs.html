@@ -1,19 +1,19 @@
 <nav id="breadcrumbs" aria-label="breadcrumbs" style="display: inline-block; list-style: none; margin: 0; padding: 0;">
-    <ol class="breadcrumb-list" style="display: inline-block;" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <ol class="breadcrumb-list" style="display: inline-block; min-height: 48px; min-width: 48px;" itemscope itemtype="https://schema.org/BreadcrumbList">
       {{- range $index, $ancestor := .Ancestors.Reverse }}
-      <li class="breadcrumb-item" style="display: inline-block;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <li class="breadcrumb-item" style="display: inline-block; min-height: 48px; min-width: 48px;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <a href="{{ $ancestor.RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
         itemprop="item" itemid="{{ $ancestor.RelPermalink }}">
-          <span itemprop="name">{{ $ancestor.Title }}</span>
+          <span itemprop="name" style="min-height: 48px; min-width: 48px; padding: 10px;">{{ $ancestor.Title }}</span>
         </a>
         <meta itemprop="position" content="{{ $index }}" />
       </li>
-      <li class="breadcrumb-separator" style="display: inline-block;">&gt;</li>
+      <li class="breadcrumb-separator" style="display: inline-block; padding: 10px;">&gt;</li>
       {{- end }}
-      <li class="breadcrumb-item active" aria-current="page" style="display: inline-block;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <li class="breadcrumb-item active" aria-current="page" style="display: inline-block; min-height: 48px; min-width: 48px;" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <a href="{{ .RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
         itemprop="item" itemid="{{ .RelPermalink }}">
-          <span itemprop="name">{{ .Title }}</span>
+          <span itemprop="name" style="min-height: 48px; min-width: 48px; padding: 10px;" >{{ .Title }}</span>
         </a>
         <meta itemprop="position" content="{{ len .Ancestors }}" />
       </li>
