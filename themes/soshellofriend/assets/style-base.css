@@ -730,7 +730,7 @@ h4:hover a {
 .post-tags a {
     /* color: rgb(0, 128, 64); */
     color: var(--color) !important; 
-    border: none;
+    border: 1px solid var(--color-secondary);
     align-items: center;
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px black;
@@ -743,22 +743,19 @@ h4:hover a {
 
 .dark-theme .post-tags a{
     color: var(--color) !important;
-    border: none;
+    border: 1px solid var(--background);
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px white;
+    border-radius: 5px;
 }
 
 .post-tags a:hover {
-    border: none;
-    border: 1px solid black;
-    border-radius: 4px;
-}
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;}
 
 .dark-theme .post-tags a:hover {
-    border: none;
-    border: 1px solid white;
-    border-radius: 1px;
-}
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;}
 
 .post-content {
     margin-top: 30px;
