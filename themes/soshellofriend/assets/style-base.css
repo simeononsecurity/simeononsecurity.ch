@@ -9,7 +9,7 @@
     --tabletWidth: (max-width: 900px);
 }
 body.dark-theme {
-    --background: #1d1d1e;
+    --background: #161617;
     --background-secondary: #323337;
     --header: #252627;
     --color: #D0D0D3;
@@ -724,7 +724,7 @@ h4:hover a {
     font-size: 1rem;
     margin-bottom: 20px;
     opacity: 0.5;
-    color: var(--color);
+    color: var(--color) !important;
 }
 
 .post-tags a {
