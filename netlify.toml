@@ -74,6 +74,10 @@ Link = '''
   <https://www.googletagmanager.com>; rel=preconnect,
   <https://z-na.amazon-adsystem.com>; rel=preconnect,
   <https://ws-na.amazon-adsystem.com>; rel=preconnect,
+  <https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js>; rel=preload; as=script,
+  <https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=preload; as=script,
+  <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; rel=preload; as=script,
+  <https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=preload; as=script
 '''
 
 [[headers]]
