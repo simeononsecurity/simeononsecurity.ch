@@ -809,7 +809,7 @@ h4:hover a {
     background: #fff;
     background: var(--background);
     color: #999;
-    color: var(--color-secondary);
+    color: var(--color);
     font-size: 0.8rem;
     letter-spacing: 0.1em;
     margin: 0 auto;
