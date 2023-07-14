@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ $languageCode := $.Site.LanguageCode }}
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
   {{ partial "breadcrumbs.html" . }}
@@ -24,12 +25,12 @@
         {{ if .Params.Author}}
         {{ with .Params.Author }}
           <span class="post-author" itemscope itemtype="https://schema.org/Person">
-            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/{{ . | lower}}" itemprop="name">{{ . }}</a>
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/{{ . | lower}}" hreflang="{{ $languageCode }}" itemprop="name">{{ . }}</a>
           </span>
           {{ end }}
         {{ else }}
           <span class="post-author" itemscope itemtype="https://schema.org/Person">
-            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/simeononsecurity" itemprop="name">SimeonOnSecurity</a>
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/simeononsecurity" hreflang="{{ $languageCode }}" itemprop="name">SimeonOnSecurity</a>
           </span>
         {{ end }}
       {{ end }}
@@ -44,7 +45,7 @@
     {{ if .Params.tags }}
       <span class="post-tags">
         {{ range .Params.tags }}
-          <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
+          <a href="{{ (urlize (printf "tags/%s" . )) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
         {{ end }}
       </span>
     {{ end }}
@@ -86,7 +87,7 @@
           <div class="pagination__buttons">
             {{ if .NextInSection }}
               <span class="button previous">
-                <a title="{{ .NextInSection.Permalink }}" href="{{ .NextInSection.Permalink }}">
+                <a title="{{ .NextInSection.Permalink }}" href="{{ .NextInSection.Permalink }}" hreflang="{{ $languageCode }}"> 
                   <span class="button__icon">←</span>
                   <span class="button__text">{{ .NextInSection.Title }}</span>
                 </a>
@@ -94,7 +95,7 @@
             {{ end }}
             {{ if .PrevInSection }}
               <span class="button next">
-                <a title="{{ .PrevInSection.Permalink }}" href="{{ .PrevInSection.Permalink }}">
+                <a title="{{ .PrevInSection.Permalink }}" href="{{ .PrevInSection.Permalink }}" hreflang="{{ $languageCode }}">
                   <span class="button__text">{{ .PrevInSection.Title }}</span>
                   <span class="button__icon">→</span>
                 </a>

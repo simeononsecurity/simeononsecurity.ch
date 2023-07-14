@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ $languageCode := $.Site.LanguageCode }}
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
 
@@ -14,9 +15,9 @@
     </div>
   {{ end }}
   {{ if .IsHome }}
-    <h1 class="post-title"><a title="{{ i18n "discover_title" }}" href="{{ .Permalink }}">{{ i18n "discover_title" }}</a></h1>
+    <h1 class="post-title"><a title="{{ i18n "discover_title" }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ i18n "discover_title" }}</a></h1>
 {{ else }}
-  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ .Title | markdownify }}</a></h1>
 {{ end }}
 
   <div class="posts">
@@ -61,14 +62,14 @@
           {{ $tags := .Params.tags | first 10 }}
 
           {{ range $tags }}
-            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
+            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}" hreflang="{{ $languageCode }}">#{{ . }}</a>&nbsp;
           {{ end }}
 
         </span>
       {{ end }}
 
       {{ if not .Params.hideReadMore }}
-        <div><a class="read-more button" href="{{.RelPermalink}}" title="read more">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
+        <div><a class="read-more button" href="{{.RelPermalink}}" title="read more" hreflang="{{ $languageCode }}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
     </article>
     {{ partial "displayads-responsive-horizontal.html" . }}   

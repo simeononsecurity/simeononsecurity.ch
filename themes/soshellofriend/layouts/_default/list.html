@@ -1,10 +1,11 @@
 {{ define "main" }}
 {{ partial "breadcrumbs.html" . }}
-  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
+{{ $languageCode := $.Site.LanguageCode }}
+  <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
   <div class="posts">
     {{ range .Paginator.Pages }}
       <article class="post on-list">
-        <h2 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title | markdownify }}">{{ .Title | markdownify }}</a></h2>
+        <h2 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title | markdownify }}"> hreflang="{{ $languageCode }}"{{ .Title | markdownify }}</a></h2>
         <div class="post-meta">
           {{ if .Date }}
             <time class="post-date">
@@ -47,14 +48,14 @@
             {{ $tags := .Params.tags | first 10 }}
 
             {{ range $tags }}
-              <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}">#{{ . }}</a>&nbsp;
+              <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}" hreflang="{{ $languageCode }}">#{{ . }}</a>&nbsp;
             {{ end }}
           </span>
         {{ end }}
 
         {{ if not .Params.hideReadMore }}
           <div>
-            <a class="read-more button" title="read more" href="{{ .RelPermalink }}"
+            <a class="read-more button" title="read more" href="{{ .RelPermalink }}" hreflang="{{ $languageCode }}"
               >{{ $.Site.Params.ReadMore | default "Read more" }} →</a
             >
           </div>

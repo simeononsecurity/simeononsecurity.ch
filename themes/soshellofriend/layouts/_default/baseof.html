@@ -1,3 +1,4 @@
+{{ $languageCode := $.Site.LanguageCode }}
 <!DOCTYPE html>
 <html lang="{{ $.Site.Language }}">
   <head>
@@ -12,7 +13,7 @@
     {{ partial "head.html" . }}
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
-    <a href="#" title="top" class="top"></a>
+    <a href="#" hreflang="{{ $languageCode }}" title="top" class="top"></a>
     <div class="container">
       {{ partial "header.html" . }}
 
