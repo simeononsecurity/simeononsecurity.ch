@@ -67,6 +67,16 @@
   margin-bottom: 5px;
 }
 
+ul:not([class]):not([id]) a,
+ol:not([class]):not([id]) a {
+  display: inline-block;
+  min-width: 48px;
+  padding: 10px;
+  color: var(--color);
+  text-decoration: none;
+  background-color: var(--background);
+  text-align: center;
+}
 
   
   .search-form {
