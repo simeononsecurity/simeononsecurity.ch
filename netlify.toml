@@ -76,7 +76,24 @@ Link = '''
   <https://ws-na.amazon-adsystem.com>; rel=preconnect,
   <https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js>; rel=preload; as=script,
   <https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=preload; as=script,
-  <https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=preload; as=script
+  <https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=preload; as=script,
+  <https://simeononsecurity.com>; rel=preconnect,
+  <https://ar.simeononsecurity.ch>; rel=preconnect,
+  <https://bn.simeononsecurity.ch>; rel=preconnect,
+  <https://ca.simeononsecurity.ch>; rel=preconnect,
+  <https://de.simeononsecurity.ch>; rel=preconnect,
+  <https://es.simeononsecurity.ch>; rel=preconnect,
+  <https://fr.simeononsecurity.ch>; rel=preconnect,
+  <https://hi.simeononsecurity.ch>; rel=preconnect,
+  <https://it.simeononsecurity.ch>; rel=preconnect,
+  <https://ja.simeononsecurity.ch>; rel=preconnect,
+  <https://nl.simeononsecurity.ch>; rel=preconnect,
+  <https://pa.simeononsecurity.ch>; rel=preconnect,
+  <https://pl.simeononsecurity.ch>; rel=preconnect,
+  <https://pt.simeononsecurity.ch>; rel=preconnect,
+  <https://ro.simeononsecurity.ch>; rel=preconnect,
+  <https://ru.simeononsecurity.ch>; rel=preconnect,
+  <https://zh.simeononsecurity.ch>; rel=preconnect
 '''
 
 [[headers]]
