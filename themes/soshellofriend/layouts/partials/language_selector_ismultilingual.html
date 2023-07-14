@@ -11,7 +11,7 @@
     <div>
         <span class="language-selector__container">
             <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
-                <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
+                <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
             </span>
             <span class="language-selector" id="language-menu">
                 {{ if .Site.IsMultiLingual }}
@@ -19,14 +19,14 @@
                     <ul>
                         {{ range .Site.Languages }}
                         {{ if eq . $.Site.Language }}
-                            <li class="current-lang" style="list-style: none; display:none;"><a title="{{ $.Site.Language.Lang }}" href="#" hreflang="{{ $.Site.Language.Lang }}"><span itemprop="name">{{ $.Site.Language.Lang }}</span></a></li>
+                            <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                         {{ end }}
                         {{ end }}
                         <ul class="language_dropdown__menu">
                             {{ range $.Translations }}
                             {{ $langCode := .Language.Lang }}
                             <li itemscope itemtype="https://schema.org/Language">
-                                <a itemprop="url" title="{{ .Language.LanguageName }} SimeonOnSecurity" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}">
+                                <a itemprop="url" title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">
                                     <span itemprop="name">{{ $langCode }}</span>
                                 </a>
                             </li>
