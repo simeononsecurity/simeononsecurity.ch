@@ -28,65 +28,57 @@ body.dark-theme {
     font-style: normal;
     font-weight: 400;
     src: url(/assets/fonts/Inter-Regular.woff2) format("woff2");
-  }
-  
-  @font-face {
+}
+@font-face {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
     font-display: swap;
     font-family: Inter;
     font-style: italic;
     font-weight: 400;
     src: url(/assets/fonts/Inter-Italic.woff2) format("woff2");
-  }
-  
-  @font-face {
+}
+@font-face {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
     font-display: swap;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     src: url(/assets/fonts/Inter-Medium.woff2) format("woff2");
-  }
-  
-  @font-face {
+}
+@font-face {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
     font-display: swap;
     font-family: Inter;
     font-style: italic;
     font-weight: 600;
     src: url(/assets/fonts/Inter-MediumItalic.woff2) format("woff2");
-  }
-  
-  @font-face {
+}
+@font-face {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
     font-display: swap;
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
     src: url(/assets/fonts/Inter-Bold.woff2) format("woff2");
-  }
-  
-  @font-face {
+}
+@font-face {
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
     font-display: swap;
     font-family: Inter;
     font-style: italic;
     font-weight: 800;
     src: url(/assets/fonts/Inter-BoldItalic.woff2) format("woff2");
-  }
-  
-  /* Add fallback font-family */
+}
+/* Add fallback font-family */
 body {
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif;
-}  
+}
 .button-container {
     display: table;
     margin-left: auto;
     margin-right: auto;
 }
-.button,
-a.button,
-button {
+.button, a.button, button {
     align-items: center;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -106,51 +98,35 @@ button {
     text-align: center;
     text-decoration: none;
 }
-.button.outline,
-a.button.outline,
-button.outline {
+.button.outline, a.button.outline, button.outline {
     background: transparent;
     border-color: #eaeaea;
     border-color: var(--background-secondary);
     box-shadow: none;
     padding: 8px 18px;
 }
-.button.outline :hover,
-a.button.outline :hover,
-button.outline :hover {
+.button.outline :hover, a.button.outline :hover, button.outline :hover {
     box-shadow: none;
     transform: none;
 }
-.button.primary,
-a.button.primary,
-button.primary {
+.button.primary, a.button.primary, button.primary {
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
-.button.primary:hover,
-a.button.primary:hover,
-button.primary:hover {
+.button.primary:hover, a.button.primary:hover, button.primary:hover {
     box-shadow: 0 2px 6px rgba(50, 50, 93, 0.21), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
-.button.link,
-a.button.link,
-button.link {
+.button.link, a.button.link, button.link {
     background: none;
     font-size: 1rem;
 }
-.button.small,
-a.button.small,
-button.small {
+.button.small, a.button.small, button.small {
     font-size: 0.8rem;
 }
-.button.wide,
-a.button.wide,
-button.wide {
+.button.wide, a.button.wide, button.wide {
     min-width: 200px;
     padding: 14px 24px;
 }
-a.read-more,
-a.read-more:active,
-a.read-more:hover {
+a.read-more, a.read-more:active, a.read-more:hover {
     background: none;
     box-shadow: none;
     display: inline-flex;
@@ -179,8 +155,7 @@ a.read-more:hover {
     text-align: center;
     text-decoration: none;
 }
-.code-toolbar .toolbar-item a,
-.header {
+.code-toolbar .toolbar-item a, .header {
     align-items: center;
     justify-content: center;
     position: relative;
@@ -199,7 +174,7 @@ a.read-more:hover {
 @media (max-width: 683px) {
     .header__right {
         flex-direction: row-reverse;
-    }
+   }
 }
 .header__inner {
     justify-content: space-between;
@@ -207,8 +182,7 @@ a.read-more:hover {
     max-width: 100%;
     width: 760px;
 }
-.header__inner,
-.theme-toggle {
+.header__inner, .theme-toggle {
     align-items: center;
     display: flex;
 }
@@ -259,24 +233,24 @@ a.read-more:hover {
 @-webkit-keyframes cursor {
     0% {
         opacity: 0;
-    }
+   }
     50% {
         opacity: 1;
-    }
+   }
     to {
         opacity: 0;
-    }
+   }
 }
 @keyframes cursor {
     0% {
         opacity: 0;
-    }
+   }
     50% {
         opacity: 1;
-    }
+   }
     to {
         opacity: 0;
-    }
+   }
 }
 .menu {
     --color: rgba(0, 0, 0, 0.12);
@@ -300,7 +274,7 @@ a.read-more:hover {
         right: 10px;
         top: 50px;
         z-index: 99;
-    }
+   }
 }
 .menu a {
     text-decoration: none;
@@ -317,7 +291,7 @@ a.read-more:hover {
 @media (max-width: 683px) {
     .menu__inner--desktop {
         display: none;
-    }
+   }
 }
 .menu__inner--mobile {
     display: none;
@@ -325,7 +299,7 @@ a.read-more:hover {
 @media (max-width: 683px) {
     .menu__inner--mobile {
         display: block;
-    }
+   }
 }
 .menu__inner li {
     flex: 0 0 auto;
@@ -339,11 +313,11 @@ a.read-more:hover {
         align-items: flex-start;
         flex-direction: column;
         padding: 0;
-    }
+   }
     .menu__inner li {
         margin-left: 0 !important;
         padding: 10px;
-    }
+   }
 }
 .menu__sub-inner {
     list-style: none;
@@ -415,9 +389,7 @@ a.read-more:hover {
 html {
     box-sizing: border-box;
 }
-*,
-:after,
-:before {
+*, :after, :before {
     box-sizing: inherit;
 }
 body {
@@ -440,14 +412,9 @@ body {
 @media (max-width: 683px) {
     body {
         font-size: 1rem;
-    }
+   }
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;
 }
 h1 {
@@ -465,16 +432,16 @@ h4 {
 @media (max-width: 683px) {
     h1 {
         font-size: 2rem;
-    }
+   }
     h2 {
         font-size: 1.4rem;
-    }
+   }
     h3 {
         font-size: 1.15rem;
-    }
+   }
     h4 {
         font-size: 1.125rem;
-    }
+   }
 }
 a {
     color: inherit;
@@ -483,12 +450,10 @@ img {
     display: block;
     max-width: 80%;
 }
-img.center,
-img.left {
+img.center, img.left {
     margin-right: auto;
 }
-img.center,
-img.right {
+img.center, img.right {
     margin-left: auto;
 }
 figure {
@@ -496,12 +461,10 @@ figure {
     margin: 25px 0;
     max-width: 100%;
 }
-figure.center,
-figure.left {
+figure.center, figure.left {
     margin-right: auto;
 }
-figure.center,
-figure.right {
+figure.center, figure.right {
     margin-left: auto;
 }
 figure figcaption {
@@ -518,8 +481,7 @@ figure figcaption.center {
 figure figcaption.right {
     text-align: right;
 }
-code,
-kbd {
+code, kbd {
     font-feature-settings: normal;
     background: #eaeaea;
     background: var(--background-secondary);
@@ -530,10 +492,7 @@ kbd {
     margin: 0 2px;
     padding: 1px 6px;
 }
-code code,
-code kbd,
-kbd code,
-kbd kbd {
+code code, code kbd, kbd code, kbd kbd {
     background: transparent;
     margin: 0;
     padding: 0;
@@ -550,7 +509,7 @@ pre {
     pre {
         word-wrap: break-word;
         white-space: pre-wrap;
-    }
+   }
 }
 pre code {
     font-feature-settings: normal;
@@ -569,7 +528,7 @@ blockquote {
     blockquote {
         margin: 10px;
         padding: 10px;
-    }
+   }
 }
 blockquote:before {
     content: "”";
@@ -592,9 +551,7 @@ table:not(.js-file-line-container) {
     table-layout: fixed;
     width: 100%;
 }
-table,
-td:not(.js-line-number),
-th {
+table, td:not(.js-line-number), th {
     border: 1px solid;
     padding: 10px;
 }
@@ -602,16 +559,14 @@ th {
     background: #eaeaea;
     background: var(--background-secondary);
 }
-ol,
-ul {
+ol, ul {
     margin-left: 40px;
     padding: 0;
 }
 @media (max-width: 683px) {
-    ol,
-    ul {
+    ol, ul {
         margin-left: 20px;
-    }
+   }
 }
 ol ol {
     list-style-type: lower-alpha;
@@ -619,8 +574,7 @@ ol ol {
 .container {
     text-align: center;
 }
-.container,
-.content {
+.container, .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -633,7 +587,7 @@ ol ol {
 @media (max-width: 683px) {
     .content {
         margin-top: 0;
-    }
+   }
 }
 hr {
     background: #dcdcdc;
@@ -670,10 +624,7 @@ blockquote.twitter-tweet {
     transition: visibility 0s linear 0.1s, opacity 0.1s linear;
     visibility: hidden;
 }
-h1:hover a,
-h2:hover a,
-h3:hover a,
-h4:hover a {
+h1:hover a, h2:hover a, h3:hover a, h4:hover a {
     opacity: 1;
     transition-delay: 0s;
     visibility: visible;
@@ -691,7 +642,7 @@ h4:hover a {
 @media (max-width: 899px) {
     .post {
         max-width: 660px;
-    }
+   }
 }
 .post:not(:last-of-type) {
     border-bottom: 1px solid #dcdcdc;
@@ -704,7 +655,7 @@ h4:hover a {
 @media (max-width: 683px) {
     .post-meta {
         font-size: 0.85rem;
-    }
+   }
 }
 .post-title {
     font-size: 2.625rem;
@@ -713,34 +664,35 @@ h4:hover a {
 @media (max-width: 683px) {
     .post-title {
         font-size: 2rem;
-    }
+   }
 }
 .post-title a {
     text-decoration: none;
 }
-
 .post-tags {
-    display: inline-block; /* Allow elements to wrap */
+    display: inline-block;
+   /* Allow elements to wrap */
     font-size: 1rem;
     margin-bottom: 20px;
     opacity: 0.5;
     color: var(--color) !important;
 }
-
 .post-tags a {
-    /* color: rgb(0, 128, 64); */
-    color: var(--color) !important; 
+   /* color: rgb(0, 128, 64);
+    */
+    color: var(--color) !important;
     border: 1px solid var(--color-secondary);
     align-items: center;
     text-decoration: none;
     text-shadow: 0.1px 0.1px 0.1px black;
-    min-width: 48px; /* Set the minimum width to 48px */
-    min-height: 48px; /* Set the minimum height to 48px */
+    min-width: 48px;
+   /* Set the minimum width to 48px */
+    min-height: 48px;
+   /* Set the minimum height to 48px */
     padding: 10px;
-    display: inline-block; /* Ensure elements stay on the same line */
+    display: inline-block;
+   /* Ensure elements stay on the same line */
 }
-
-
 .dark-theme .post-tags a{
     color: var(--color) !important;
     border: 1px solid var(--background);
@@ -748,15 +700,14 @@ h4:hover a {
     text-shadow: 0.1px 0.1px 0.1px white;
     border-radius: 5px;
 }
-
 .post-tags a:hover {
     border: 1px solid var(--color-secondary);
-    border-radius: 5px;}
-
+    border-radius: 5px;
+}
 .dark-theme .post-tags a:hover {
     border: 1px solid var(--color-secondary);
-    border-radius: 5px;}
-
+    border-radius: 5px;
+}
 .post-content {
     margin-top: 30px;
 }
@@ -780,10 +731,9 @@ h4:hover a {
     .post-cover {
         margin: 20px 0;
         width: 100%;
-    }
+   }
 }
-.post--regulation h1,
-.post--regulation h2 {
+.post--regulation h1, .post--regulation h2 {
     justify-content: center;
 }
 .post--regulation h2 {
@@ -858,8 +808,7 @@ h4:hover a {
     padding: 8px 16px;
     text-decoration: none;
 }
-.button__text,
-.button a {
+.button__text, .button a {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -888,7 +837,7 @@ h4:hover a {
 @media (max-width: 899px) {
     .footer__inner {
         flex-direction: column;
-    }
+   }
 }
 .footer a {
     color: var(--color);
@@ -915,11 +864,11 @@ h4:hover a {
         border: none;
         margin: 0;
         padding: 0;
-    }
+   }
     .footer .copyright {
         flex-direction: column;
         margin-top: 10px;
-    }
+   }
 }
 .terms {
     margin: 0 auto;
@@ -962,7 +911,7 @@ h4:hover a {
 @media (max-width: 683px) {
     .archive__group-month {
         flex-direction: column;
-    }
+   }
 }
 .archive__group-month:not(:last-of-type) {
     border-bottom: 1px solid #dcdcdc;
@@ -974,7 +923,7 @@ h4:hover a {
 @media (max-width: 683px) {
     .archive__group-year {
         margin-top: 20px;
-    }
+   }
 }
 .archive__group-year:not(:last-of-type) {
     border-bottom: 1px solid #dcdcdc;
@@ -991,7 +940,7 @@ h4:hover a {
 @media (max-width: 683px) {
     .archive__group-month-header {
         margin: 10px 0 0;
-    }
+   }
 }
 .archive__group-posts {
     width: 100%;
@@ -1010,8 +959,7 @@ h4:hover a {
     display: block;
     text-decoration: none;
 }
-code[class*="language-"],
-pre[class*="language-"] {
+code[class*="language-"], pre[class*="language-"] {
     word-wrap: normal;
     background: none;
     font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
@@ -1031,8 +979,7 @@ pre[class*="language-"] {
     overflow: auto;
     padding: 1em;
 }
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
     background: #212020 !important;
     border-radius: 8px;
     color: inherit !important;
@@ -1042,57 +989,34 @@ pre[class*="language-"] {
     padding: 0.1em;
     white-space: normal;
 }
-.token.block-comment,
-.token.cdata,
-.token.comment,
-.token.doctype,
-.token.prolog {
+.token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.prolog {
     color: hsla(0, 0%, 100%, 0.4);
 }
 .token.punctuation {
     color: #a9a9b3;
 }
-.token.attr-name,
-.token.deleted,
-.token.namespace,
-.token.tag {
+.token.attr-name, .token.deleted, .token.namespace, .token.tag {
     color: #e2777a;
 }
 .token.function-name {
     color: #6196cc;
 }
-.token.boolean,
-.token.function,
-.token.number {
+.token.boolean, .token.function, .token.number {
     color: #f08d49;
 }
-.token.class-name,
-.token.constant,
-.token.property,
-.token.symbol {
+.token.class-name, .token.constant, .token.property, .token.symbol {
     color: #f8c555;
 }
-.token.atrule,
-.token.builtin,
-.token.important,
-.token.keyword,
-.token.selector {
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.selector {
     color: #cc99cd;
 }
-.token.attr-value,
-.token.char,
-.token.regex,
-.token.string,
-.token.variable {
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variable {
     color: #7ec699;
 }
-.token.entity,
-.token.operator,
-.token.url {
+.token.entity, .token.operator, .token.url {
     color: #67cdcc;
 }
-.token.bold,
-.token.important {
+.token.bold, .token.important {
     font-weight: 700;
 }
 .token.italic {
@@ -1170,9 +1094,7 @@ div.code-toolbar > .toolbar button {
     -moz-user-select: none;
     -ms-user-select: none;
 }
-div.code-toolbar > .toolbar a,
-div.code-toolbar > .toolbar button,
-div.code-toolbar > .toolbar span {
+div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-toolbar > .toolbar span {
     background: #f5f2f0;
     background: hsla(0, 0%, 88%, 0.2);
     border-radius: 0.5em;
@@ -1181,12 +1103,7 @@ div.code-toolbar > .toolbar span {
     font-size: 0.8em;
     padding: 0 0.5em;
 }
-div.code-toolbar > .toolbar a:focus,
-div.code-toolbar > .toolbar a:hover,
-div.code-toolbar > .toolbar button:focus,
-div.code-toolbar > .toolbar button:hover,
-div.code-toolbar > .toolbar span:focus,
-div.code-toolbar > .toolbar span:hover {
+div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.code-toolbar > .toolbar button:focus, div.code-toolbar > .toolbar button:hover, div.code-toolbar > .toolbar span:focus, div.code-toolbar > .toolbar span:hover {
     color: inherit;
     text-decoration: none;
 }
@@ -1227,8 +1144,7 @@ div.code-toolbar > .toolbar span:hover {
     position: absolute;
     visibility: hidden;
 }
-.collapsable-code input[type="checkbox"]:checked ~ .code-toolbar pre,
-.collapsable-code input[type="checkbox"]:checked ~ pre {
+.collapsable-code input[type="checkbox"]:checked ~ .code-toolbar pre, .collapsable-code input[type="checkbox"]:checked ~ pre {
     border-top: none;
     height: 0;
     padding: 0;
@@ -1291,54 +1207,62 @@ div.code-toolbar > .toolbar span:hover {
     border-top-right-radius: 0;
     margin-top: 0;
 }
-.collapsable-code code:first-line,
-.collapsable-code pre:first-line {
+.collapsable-code code:first-line, .collapsable-code pre:first-line {
     line-height: 0;
 }
 .collapsable-code .code-toolbar {
     margin: 0;
 }
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
-
+    display: none;
+   /* Hidden by default */
+    position: fixed;
+   /* Fixed/sticky position */
+    bottom: 20px;
+   /* Place the button at the bottom of the page */
+    right: 30px;
+   /* Place the button 30px from the right */
+    z-index: 99;
+   /* Make sure it does not overlap */
+    border: none;
+   /* Remove borders */
+    outline: none;
+   /* Remove outline */
+    background-color: red;
+   /* Set a background color */
+    color: white;
+   /* Text color */
+    cursor: pointer;
+   /* Add a mouse pointer on hover */
+    padding: 15px;
+   /* Some padding */
+    border-radius: 10px;
+   /* Rounded corners */
+    font-size: 18px;
+   /* Increase font size */
+}
+#myBtn:hover {
+    background-color: #555;
+   /* Add a dark-grey background on hover */
+}
 /* Style the table of contents container */
 .table-of-contents {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
     margin-left: 40px;
-  }
-  
-  /* Style the table of contents list */
-  #TableOfContents ul {
+}
+/* Style the table of contents list */
+#TableOfContents ul {
     margin: 0;
     padding: 0;
-  }
-  
-  /* Style the top-level items in the table of contents */
-  #TableOfContents ul > li {
+}
+/* Style the top-level items in the table of contents */
+#TableOfContents ul > li {
     margin-bottom: 10px;
-  }
-  
-  /* Style the links in the table of contents */
-  #TableOfContents a {
+}
+/* Style the links in the table of contents */
+#TableOfContents a {
     display: inline-block;
     padding: 10px;
     min-width: 48px;
@@ -1349,26 +1273,22 @@ div.code-toolbar > .toolbar span:hover {
     border: 1px solid var(--background);
     border-radius: 5px;
     text-align: center;
-    margin-bottom: 10px; /* Add margin between buttons */
-  }
-  
-  /* Style the links on hover */
-  #TableOfContents a:hover {
+    margin-bottom: 10px;
+   /* Add margin between buttons */
+}
+/* Style the links on hover */
+#TableOfContents a:hover {
     background-color: var(--background-secondary);
-  }
-  
-  /* Indent nested table of contents items */
-  #TableOfContents ul ul {
+}
+/* Indent nested table of contents items */
+#TableOfContents ul ul {
     margin-left: 20px;
-  }
-  
-  /* Style the nested table of contents items */
-  #TableOfContents ul ul li {
+}
+/* Style the nested table of contents items */
+#TableOfContents ul ul li {
     margin-bottom: 5px;
-  }
-  
-  ul:not([class]):not([id]) a,
-  ol:not([class]):not([id]) a {
+}
+ul:not([class]):not([id]) a, ol:not([class]):not([id]) a {
     display: inline-block;
     min-width: 48px;
     padding: 10px;
@@ -1376,69 +1296,56 @@ div.code-toolbar > .toolbar span:hover {
     text-decoration: none;
     background-color: var(--background);
     text-align: center;
-  }
-
-  .breadcrumbs {
+}
+.breadcrumbs {
     display: inline-block;
     list-style: none;
     margin: 0;
     padding: 0;
-  
     li {
-      display: inline-block;
-      color: var(--color-secondary);
-      margin-right: 5px;
-      font-size: 0.9rem;
-  
-      &:last-child {
-        font-weight: bold;
-        color: var(--color);
-      }
-    }
-  
+        display: inline-block;
+        color: var(--color-secondary);
+        margin-right: 5px;
+        font-size: 0.9rem;
+        &:last-child {
+            font-weight: bold;
+            color: var(--color);
+       }
+   }
     a {
-      color: var(--color-secondary);
-      text-decoration: none;
-  
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-  
-  .dark-theme .breadcrumbs {
+        color: var(--color-secondary);
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+       }
+   }
+}
+.dark-theme .breadcrumbs {
     li:last-child {
-      color: white;
-    }
-  
+        color: white;
+   }
     a {
-      color: #C8C8C8;
-    }
-  }
-  
-  .contact-form {
+        color: #C8C8C8;
+   }
+}
+.contact-form {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     padding: 24px;
     background-color: var(--background-secondary);
     border-radius: 10px;
-  }
-  
-  .contact-form__group {
+}
+.contact-form__group {
     margin-bottom: 24px;
-  }
-  
-  .contact-form__group label {
+}
+.contact-form__group label {
     display: block;
     margin-bottom: 5px;
     color: var(--color);
     font-weight: bold;
-  }
-  
-  .contact-form__group input,
-  .contact-form__group textarea,
-  .contact-form__group select {
+}
+.contact-form__group input, .contact-form__group textarea, .contact-form__group select {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -1447,17 +1354,13 @@ div.code-toolbar > .toolbar span:hover {
     color: var(--color);
     font-size: 16px;
     font-family: inherit;
-  }
-  
-  .contact-form__group input:focus,
-  .contact-form__group textarea:focus,
-  .contact-form__group select:focus {
+}
+.contact-form__group input:focus, .contact-form__group textarea:focus, .contact-form__group select:focus {
     outline: none;
     box-shadow: 0px 0px 3px 2px var(--header);
     border: 1px solid var(--header);
-  }
-  
-  .contact-form__group button[type="submit"] {
+}
+.contact-form__group button[type="submit"] {
     background-color: var(--header);
     color: var(--background);
     border: none;
@@ -1467,249 +1370,225 @@ div.code-toolbar > .toolbar span:hover {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-  }
-  
-  .contact-form__group button[type="submit"]:hover {
+}
+.contact-form__group button[type="submit"]:hover {
     background-color: var(--color);
-  }
-  
-  /* Light theme send button color */
-  :root .contact-form__group button[type="submit"] {
+}
+/* Light theme send button color */
+:root .contact-form__group button[type="submit"] {
     color: var(--color);
-  }
-
-
-  @media only screen and (max-width: 500px) {
+}
+@media only screen and (max-width: 500px) {
     #related-section .related-posts-list {
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    }
-  }
-  .header__dropdown.show {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+   }
+}
+.header__dropdown.show {
     display: block;
-  }
-  
-  .theme-toggle {
+}
+.theme-toggle {
     margin-right: 10px;
-  }
-  
-  @media (min-width: 384px) {
+}
+@media (min-width: 384px) {
     img.post-cover {
-      width: 240px;
-      height: 135px;
-    }
-  }
-  
-  @media (min-width: 780px) {
+        width: 240px;
+        height: 135px;
+   }
+}
+@media (min-width: 780px) {
     img.post-cover {
-      width: 480px;
-      height: 269px;
-    }
-  }
-  
-  @media (min-width: 2560px) {
+        width: 480px;
+        height: 269px;
+   }
+}
+@media (min-width: 2560px) {
     img.post-cover {
-      width: 731px;
-      height: 410px;
-    }
-  }
-    /* Banner Ad */
-    .google-ad-banner {
-      width: 100%;
-      height: 100px !important; /* Adjust height as needed */
-      max-height: 300px !important;
-      /* Additional styles specific to banner ads */
-      position: relative !important;
-      /* visibility: hidden; */
-    }
-  
-    /* Skyscraper Ad */
-    .google-ad-skyscraper {
-      width: 120px; /* Adjust width as needed */
-      height: 600px; /* Adjust height as needed */
-      /* Additional styles specific to skyscraper ads */
-      /* visibility: hidden; */
-    }
-  
-    /* Square Ad */
-    .google-ad-square {
-      width: 300px; /* Adjust width as needed */
-      height: 300px; /* Adjust height as needed */
-      /* Additional styles specific to square ads */
-      /* visibility: hidden; */
-    }
-  
-    /* Rectangle Ad */
-    .google-ad-rectangle {
-      width: 300px; /* Adjust width as needed */
-      height: 250px; /* Adjust height as needed */
-      max-height: 250px !important;
-      /* Additional styles specific to rectangle ads */
-    }
-  
-    /* Leaderboard Ad */
-    .google-ad-leaderboard {
-      width: 728px; /* Adjust width as needed */
-      height: 90px; /* Adjust height as needed */
-      /* Additional styles specific to leaderboard ads */
-    }
-  
-    /* Responsive Ad */
-    .google-ad-responsive {
-      max-width: 100%; /* Adjust max-width as needed */
-      height: auto;
-      /* Additional styles specific to responsive ads */
-    }
-  
-    /* Text Ad */
-    .google-ad-text {
-      /* Styles for text-based ads */
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      color: var(--color);
-      /* Additional styles specific to text-based ads */
-    }
-  
-    /* Image Ad */
-    .google-ad-image {
-      /* Styles for image-based ads */
-      max-width: 100%;
-      height: auto;
-      /* Additional styles specific to image-based ads */
-    }
-  
-    /* Video Ad */
-    .google-ad-video {
-      /* Styles for video-based ads */
-      max-width: 100%;
-      height: auto;
-      /* Additional styles specific to video-based ads */
-    }
-  
-    /* Carousel Ad */
-    .google-ad-carousel {
-      /* Styles for carousel ads */
-      display: flex;
-      flex-direction: row;
-      /* Additional styles specific to carousel ads */
-    }
-  
-    /* Overlay Ad */
-    .google-ad-overlay {
-      /* Styles for overlay ads */
-      position: absolute;
-      top: 0;
-      left: 0;
-      /* Additional styles specific to overlay ads */
-    }
-  
-    /* Interactive Ad */
-    .google-ad-interactive {
-      /* Styles for interactive ads */
-      cursor: pointer;
-      /* Additional styles specific to interactive ads */
-    }
-  
-    /* Expandable Ad */
-    .google-ad-expandable {
-      /* Styles for expandable ads */
-      overflow: hidden;
-      transition: height 0.3s ease;
-      /* Additional styles specific to expandable ads */
-    }
-  
-    /* Floating Ad */
-    .google-ad-floating {
-      /* Styles for floating ads */
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      /* Additional styles specific to floating ads */
-    }
-  
-    /* Native Ad */
-    .google-ad-native {
-      /* Styles for native ads */
-      display: flex;
-      flex-direction: column;
-      background-color: var(--background);
-      border: 1px solid var(--background-secondary);
-      padding: 10px;
-      /* Additional styles specific to native ads */
-    }
-  
-    /* Native Ad Title */
-    .google-ad-native .ad-title {
-      font-size: 18px;
-      font-weight: bold;
-      color: var(--color);
-      margin-bottom: 5px;
-    }
-  
-    /* Native Ad Description */
-    .google-ad-native .ad-description {
-      font-size: 14px;
-      color: var(--color-secondary);
-      margin-bottom: 10px;
-    }
-  
-    /* Native Ad Image */
-    .google-ad-native .ad-image {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
-  
-    /* Native Ad CTA Button */
-    .google-ad-native .ad-cta-button {
-      background-color: #4285f4;
-      color: #fff;
-      font-size: 14px;
-      padding: 8px 12px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background-color 0.3s ease;
-    }
-  
-    .google-ad-native .ad-cta-button:hover {
-      background-color: #3367d6;
-    }
-  
-    .advert-inline {
-      margin: 6rem 0 4rem 0;
-      padding: 1rem 0 1rem;
-      border-top: dotted 4px var(--background-secondary) !important;
-      border-bottom: dotted 4px var(--background-secondary) !important;
-      min-height: 100px;
-      /* visibility: hidden; */
-      min-height: 0;
-      padding-bottom: 100px !important;
-    }
-  
-  
-    .google-ad-banner,
-    .google-ad-skyscraper,
-    .google-ad-square,
-    .google-ad-rectangle,
-    .google-ad-leaderboard,
-    .advert-inline {
-      position: relative;
-      /* visibility: hidden; */
-      width: 100%;
-    }
-  
-    .google-ad-banner,
-    .google-ad-square,
-    .google-ad-rectangle,
-    .google-ad-leaderboard {
-      height: 0;
-      padding-bottom: 15% !important; /* Adjust aspect ratio as needed */
-    }
-  
-    .google-ad-skyscraper {
-      width: 100px; /* Adjust width as needed */
-      height: 0;
-      padding-bottom: 200%; /* Adjust aspect ratio as needed */
-    }
-  
-    
+        width: 731px;
+        height: 410px;
+   }
+}
+/* Banner Ad */
+.google-ad-banner {
+    width: 100%;
+    height: 100px !important;
+   /* Adjust height as needed */
+    max-height: 300px !important;
+   /* Additional styles specific to banner ads */
+    position: relative !important;
+   /* visibility: hidden;
+    */
+}
+/* Skyscraper Ad */
+.google-ad-skyscraper {
+    width: 120px;
+   /* Adjust width as needed */
+    height: 600px;
+   /* Adjust height as needed */
+   /* Additional styles specific to skyscraper ads */
+   /* visibility: hidden;
+    */
+}
+/* Square Ad */
+.google-ad-square {
+    width: 300px;
+   /* Adjust width as needed */
+    height: 300px;
+   /* Adjust height as needed */
+   /* Additional styles specific to square ads */
+   /* visibility: hidden;
+    */
+}
+/* Rectangle Ad */
+.google-ad-rectangle {
+    width: 300px;
+   /* Adjust width as needed */
+    height: 250px;
+   /* Adjust height as needed */
+    max-height: 250px !important;
+   /* Additional styles specific to rectangle ads */
+}
+/* Leaderboard Ad */
+.google-ad-leaderboard {
+    width: 728px;
+   /* Adjust width as needed */
+    height: 90px;
+   /* Adjust height as needed */
+   /* Additional styles specific to leaderboard ads */
+}
+/* Responsive Ad */
+.google-ad-responsive {
+    max-width: 100%;
+   /* Adjust max-width as needed */
+    height: auto;
+   /* Additional styles specific to responsive ads */
+}
+/* Text Ad */
+.google-ad-text {
+   /* Styles for text-based ads */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: var(--color);
+   /* Additional styles specific to text-based ads */
+}
+/* Image Ad */
+.google-ad-image {
+   /* Styles for image-based ads */
+    max-width: 100%;
+    height: auto;
+   /* Additional styles specific to image-based ads */
+}
+/* Video Ad */
+.google-ad-video {
+   /* Styles for video-based ads */
+    max-width: 100%;
+    height: auto;
+   /* Additional styles specific to video-based ads */
+}
+/* Carousel Ad */
+.google-ad-carousel {
+   /* Styles for carousel ads */
+    display: flex;
+    flex-direction: row;
+   /* Additional styles specific to carousel ads */
+}
+/* Overlay Ad */
+.google-ad-overlay {
+   /* Styles for overlay ads */
+    position: absolute;
+    top: 0;
+    left: 0;
+   /* Additional styles specific to overlay ads */
+}
+/* Interactive Ad */
+.google-ad-interactive {
+   /* Styles for interactive ads */
+    cursor: pointer;
+   /* Additional styles specific to interactive ads */
+}
+/* Expandable Ad */
+.google-ad-expandable {
+   /* Styles for expandable ads */
+    overflow: hidden;
+    transition: height 0.3s ease;
+   /* Additional styles specific to expandable ads */
+}
+/* Floating Ad */
+.google-ad-floating {
+   /* Styles for floating ads */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   /* Additional styles specific to floating ads */
+}
+/* Native Ad */
+.google-ad-native {
+   /* Styles for native ads */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    border: 1px solid var(--background-secondary);
+    padding: 10px;
+   /* Additional styles specific to native ads */
+}
+/* Native Ad Title */
+.google-ad-native .ad-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color);
+    margin-bottom: 5px;
+}
+/* Native Ad Description */
+.google-ad-native .ad-description {
+    font-size: 14px;
+    color: var(--color-secondary);
+    margin-bottom: 10px;
+}
+/* Native Ad Image */
+.google-ad-native .ad-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Native Ad CTA Button */
+.google-ad-native .ad-cta-button {
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.google-ad-native .ad-cta-button:hover {
+    background-color: #3367d6;
+}
+.advert-inline {
+    margin: 6rem 0 4rem 0;
+    padding: 1rem 0 1rem;
+    border-top: dotted 4px var(--background-secondary) !important;
+    border-bottom: dotted 4px var(--background-secondary) !important;
+    min-height: 100px;
+   /* visibility: hidden;
+    */
+    min-height: 0;
+    padding-bottom: 100px !important;
+}
+.google-ad-banner, .google-ad-skyscraper, .google-ad-square, .google-ad-rectangle, .google-ad-leaderboard, .advert-inline {
+    position: relative;
+   /* visibility: hidden;
+    */
+    width: 100%;
+}
+.google-ad-banner, .google-ad-square, .google-ad-rectangle, .google-ad-leaderboard {
+    height: 0;
+    padding-bottom: 15% !important;
+   /* Adjust aspect ratio as needed */
+}
+.google-ad-skyscraper {
+    width: 100px;
+   /* Adjust width as needed */
+    height: 0;
+    padding-bottom: 200%;
+   /* Adjust aspect ratio as needed */
+}
