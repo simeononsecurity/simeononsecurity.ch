@@ -172,7 +172,8 @@
 <link rel="preload" href="/assets/fonts/Inter-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" href="{{ "manifest.json" | absURL }}" />
+<link rel="preload" href="{{ "manifest.json" | absURL }}" as="fetch" crossorigin="anonymous">
+<link rel="manifest" href="{{ "manifest.json" | absURL }}">
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
