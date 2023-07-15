@@ -1,72 +1,77 @@
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #555; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: rgb(115, 115, 115); /* Add a dark-grey background on hover */
-  }
- 
-  .search-form {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .search-box {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  
-  #search-query {
-    border: none;
-    width: 100%;
-    font-size: 1rem;
-    padding: 12px;
-    margin-right: 10px;
-  }
-  
-  button[type="submit"] {
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 12px;
-  }
-  
-  button[type="submit"]:hover svg {
-    stroke: #000;
-  }
-  
-  svg {
-    display: block;
-    height: 16px;
-    width: 16px;
-    stroke: #ccc;
-    stroke-width: 2;
-    transition: stroke 0.2s;
-  }
-
+  display: none;
+ /* Hidden by default */
+  position: fixed;
+ /* Fixed/sticky position */
+  bottom: 20px;
+ /* Place the button at the bottom of the page */
+  right: 30px;
+ /* Place the button 30px from the right */
+  z-index: 99;
+ /* Make sure it does not overlap */
+  border: none;
+ /* Remove borders */
+  outline: none;
+ /* Remove outline */
+  background-color: #555;
+ /* Set a background color */
+  color: white;
+ /* Text color */
+  cursor: pointer;
+ /* Add a mouse pointer on hover */
+  padding: 15px;
+ /* Some padding */
+  border-radius: 10px;
+ /* Rounded corners */
+  font-size: 18px;
+ /* Increase font size */
+}
+#myBtn:hover {
+  background-color: rgb(115, 115, 115);
+ /* Add a dark-grey background on hover */
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+#search-query {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  padding: 12px;
+  margin-right: 10px;
+}
+button[type="submit"] {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 12px;
+}
+button[type="submit"]:hover svg {
+  stroke: #000;
+}
+svg {
+  display: block;
+  height: 16px;
+  width: 16px;
+  stroke: #ccc;
+  stroke-width: 2;
+  transition: stroke 0.2s;
+}
 /* Style for pagination */
 #search-pagination {
   margin-top: 20px;
   text-align: center;
 }
-
 #search-pagination a {
   display: inline-block;
   margin-right: 5px;
@@ -79,32 +84,27 @@
   font-size: 14px;
   text-decoration: none;
 }
-  
 #search-pagination a.active {
   background-color: #333;
   color: #fff;
 }
-
 #related-section .related-content {
   margin-top: 32px;
-  
 }
-
 #related-section .related-posts-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 20px;
 }
-
 #related-section .related {
   border: none;
   overflow: hidden;
 }
-
 #related-section .related-image {
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
+ /* 16:9 aspect ratio */
   position: relative;
   max-width: 100%;
   overflow: hidden;
@@ -112,7 +112,6 @@
   border-top-right-radius: 8px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
 }
-
 #related-section .related-image img {
   position: absolute;
   top: 0;
@@ -126,7 +125,6 @@
   border-top-right-radius: 8px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
 }
-
 #related-section .related-image::before {
   content: "";
   display: block;
@@ -140,7 +138,6 @@
   background-repeat: no-repeat;
   box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
 }
-
 #related-section .related-info {
   padding: 16px;
   background-color: var(--background-secondary);
@@ -148,12 +145,10 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-
 #related-section .related-date {
   font-size: 12px;
-  color: var(--color  );
+  color: var(--color );
 }
-
 #related-section .related-title {
   margin-top: 8px;
   font-size: 18px;
