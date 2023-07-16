@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative; /* Add relative positioning to the carousel container */
   }
 
   .image-carousel img {
@@ -64,11 +65,18 @@
       if (activeImage !== image) {
         if (activeImage) {
           activeImage.classList.remove('active'); // Remove 'active' class from the previously active image
+          images.forEach(img => img.style.zIndex = 'auto'); // Reset z-index of all images
         }
         image.classList.add('active'); // Add 'active' class to the clicked image
+        images.forEach(img => {
+          if (img !== image) {
+            img.style.zIndex = '-1'; // Move other images beneath the clicked image
+          }
+        });
         activeImage = image; // Update the active image
       } else {
         image.classList.remove('active'); // Remove 'active' class from the clicked image (toggle off)
+        images.forEach(img => img.style.zIndex = 'auto'); // Reset z-index of all images
         activeImage = null; // Reset the active image
       }
     }
