@@ -21,6 +21,7 @@
 <link rel="preconnect" href="https://static.cloudflareinsights.com">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://www.clarity.ms">
+<link rel="preconnect" href="https://resources.infolinks.com">
 <link rel="dns-prefetch" href="https://pagead1.googlesyndication.com">
 <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 <link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net">
@@ -35,6 +36,8 @@
 <link rel="dns-prefetch" href="https://static.cloudflareinsights.com">
 <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://www.clarity.ms">
+<link rel="dns-prefetch" href="https://resources.infolinks.com">
+
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
 {{ $currentPath := .Permalink }}
@@ -187,6 +190,7 @@
 {{/*  <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript" />   */}}
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
 <link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script">
+<link rel="preload" href="https://resources.infolinks.com/js/infolinks_main.js" as="script">
 {{ if in (urlize .Permalink) "/search" }}
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript">
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript">
