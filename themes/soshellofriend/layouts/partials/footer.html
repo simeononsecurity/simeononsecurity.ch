@@ -28,8 +28,9 @@
       <div class="copyright">
         <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
       </div>
-    </div>
+    </div>  
   </footer>  
+  {{ partial "donatebutton.html" .}}
   {{ if ne .RelPermalink "/search/" }}
   <div class="search-form">
     <form action="/search" method="GET" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
