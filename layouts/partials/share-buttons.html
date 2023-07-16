@@ -57,11 +57,15 @@ function trackShareButtonClick(event) {
     var shareButton = event.target.closest("a");
     var sharePlatform = shareButton.getAttribute("title");
 
-    // Replace 'YOUR_GA_TRACKING_ID' with your actual Google Analytics tracking ID
+    try {
     gtag("event", "share", {
-    event_category: "social",
-    event_label: sharePlatform,
+        event_category: "social",
+        event_label: sharePlatform,
+        transport_type: "beacon",
     });
+    } catch (error) {
+    console.error("Error tracking share event:", error);
+    }
 }
 
 for (var i = 0; i < shareButtons.length; i++) {
@@ -70,3 +74,4 @@ for (var i = 0; i < shareButtons.length; i++) {
     });
 }
 </script>
+    
