@@ -64,6 +64,14 @@
     </div>
   </script>
 
+  <script async>
+    gtag('event', 'search', {
+      'event_category': 'engagement',
+      'event_label': 'Search Query',
+      'value': '{{ .Params.q }}'
+    });
+  </script>  
+
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"
     integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ=="

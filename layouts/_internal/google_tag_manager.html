@@ -4,5 +4,45 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-W3SL745QY6',{ 'anonymize_ip': true });
+  gtag('config', '',{  });
+  gtag('config', 'G-W3SL745QY6', {
+    'anonymize_ip': true, 
+    'send_page_view': true,
+    'page_title': '{{ $.Title | default $.Site.Title }}',
+    'page_location': '{{ .PermaLink }}',
+    'page_path': '{{ .RelPermaLink }}', 
+    'currency': 'USD', 
+    'link_attribution': true, 
+    'linker': {
+      'domains': ['simeononsecurity.ch', 'simeononsecurity.com', 'fr.simeononsecurity.ch', 'es.simeononsecurity.ch', 'de.simeononsecurity.ch', 'hi.simeononsecurity.ch', 'bn.simeononsecurity.ch', 'ca.simeononsecurity.ch', 'it.simeononsecurity.ch', 'ja.simeononsecurity.ch', 'nl.simeononsecurity.ch', 'ro.simeononsecurity.ch', 'zh.simeononsecurity.ch', 'pa.simeononsecurity.ch', 'pt.simeononsecurity.ch', 'ru.simeononsecurity.ch', 'pl.simeononsecurity.ch', 'ar.simeononsecurity.ch']
+    }  
+  });
+</script>
+<script async>
+  function createFunctionWithTimeout(callback, opt_timeout) {
+    var called = false;
+    function fn() {
+      if (!called) {
+        called = true;
+        callback();
+      }
+    }
+    setTimeout(fn, opt_timeout || 1000);
+    return fn;
+  }  
+</script>
+<script async>
+// Feature detects Navigation Timing API support.
+if (window.performance) {
+  // Gets the number of milliseconds since page load
+  // (and rounds the result since the value must be an integer).
+  var timeSincePageLoad = Math.round(performance.now());
+
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'timing_complete', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_category': 'JS Dependencies'
+  });
+}
 </script>

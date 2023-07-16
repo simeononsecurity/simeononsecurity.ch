@@ -184,7 +184,7 @@
 
 <!-- preload and prefetch third-party js -->
 {{/*  <link rel="prefetch" href="https://www.google-analytics.com/analytics.js" type="text/javascript" />   */}}
-<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript" /> 
+{{/*  <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js" type="text/javascript" />   */}}
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
 <link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script">
 {{ if in (urlize .Permalink) "/search" }}
@@ -207,7 +207,7 @@
 
 {{ if not $.Site.IsServer }}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    {{ template "_internal/google_analytics_async_lite.html" . }}
+    {{ template "_internal/google_tag_manager.html" . }}
 
     <!-- Microsoft Clarity -->
     {{ template "_internal/microsoft_clarity.html" . }}
