@@ -392,6 +392,11 @@ name = "Search"
 url = "/search"
 weight = 20
 [[languages.en.menu.main]]
+identifier = "Images"
+name = "Images"
+url = "/carousel"
+weight = 19
+[[languages.en.menu.main]]
 identifier = "Articles"
 name = "Articles"
 url = "/articles"
