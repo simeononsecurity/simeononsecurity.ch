@@ -1,5 +1,6 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6"></script>
+{{ $title := (.Title | default $.Site.Title) }}
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6"></script>
 <script async>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -7,9 +8,7 @@
   gtag('config', 'G-W3SL745QY6', {
     'anonymize_ip': true, 
     'send_page_view': true,
-    'page_title': '{{ $.Title | default $.Site.Title }}',
-    'page_location': '{{ .PermaLink }}',
-    'page_path': '{{ .RelPermaLink }}', 
+    'page_title': '{{ $title }}',
     'currency': 'USD', 
     'link_attribution': true, 
     'linker': {

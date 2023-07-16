@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="chmod-menu">
   {{ partial "breadcrumbs.html" . }}
 
@@ -168,6 +169,16 @@
       chmodCommand += ` ${folderPath}`;
 
       document.getElementById("chmod-command").innerText = chmodCommand;
+
+      // Track event for generating chmod command
+      try {
+        gtag("event", "generate_command", {
+          event_category: "Chmod",
+          event_label: "Generate Command",
+        });
+      } catch (error) {
+        console.error("Failed to send tracking event:", error);
+      }
     }
 
     function getSelectedPermissions() {

@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ template "_internal/google_tag_manager.html" . }}
 <main>
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
@@ -65,11 +66,15 @@
   </script>
 
   <script async>
-    gtag('event', 'search', {
-      'event_category': 'engagement',
-      'event_label': 'Search Query',
-      'value': '{{ .Params.q }}'
-    });
+    try {
+      gtag('event', 'search', {
+        'event_category': 'engagement',
+        'event_label': 'Search Query',
+        'value': '{{ .Params.q }}'
+      });
+    } catch (error) {
+      console.error("Failed to send tracking event:", error);
+    }
   </script>  
 
   <script

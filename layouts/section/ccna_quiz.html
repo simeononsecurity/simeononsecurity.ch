@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="security-plus-quiz">
   {{ partial "breadcrumbs.html" . }}
 
@@ -88,61 +88,61 @@
       })
       .then(function(ccnadict) {
         console.log("ccnadict:", ccnadict);
-  
+
         // Once the JSON data is fetched, proceed with the quiz logic
         var currentQuestionIndex = 0;
         var score = {
           correct: 0,
           incorrect: 0,
         };
-  
+
         // Shuffle the ccnadict array to randomize the questions
         ccnadict = shuffle(ccnadict);
-  
+
         // Function to shuffle an array using the Fisher-Yates algorithm
         function shuffle(array) {
           var currentIndex = array.length,
             temporaryValue,
             randomIndex;
-  
+
           // While there remain elements to shuffle
           while (currentIndex !== 0) {
             // Pick a remaining element
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex -= 1;
-  
+
             // Swap it with the current element
             temporaryValue = array[currentIndex];
             array[currentIndex] = array[randomIndex];
             array[randomIndex] = temporaryValue;
           }
-  
+
           return array;
         }
-  
+
         // Function to display the current question and its answers
         function displayQuestion() {
           var questionElement = document.getElementById("question");
           var answersElement = document.getElementById("answers");
-  
+
           // Validate required elements
           if (!questionElement || !answersElement) {
             console.log("Missing question or answers element");
             return;
           }
-  
+
           // Clear previous question and answers
           questionElement.innerHTML = "";
           answersElement.innerHTML = "";
-  
+
           // Get the current question object
           var currentQuestion = ccnadict[currentQuestionIndex];
-  
+
           console.log("currentQuestion:", currentQuestion);
-  
+
           // Display the question
           questionElement.innerHTML = currentQuestion.question;
-  
+
           // Display the answers
           for (var answerKey in currentQuestion.answers) {
             var answerText = currentQuestion.answers[answerKey];
@@ -155,20 +155,41 @@
             answersElement.appendChild(answerElement);
           }
         }
-  
+
         // Function to handle the submission of an answer
         function submitAnswer() {
-          var selectedAnswer = document.querySelector('input[name="answer"]:checked');
-  
+          var selectedAnswer = document.querySelector(
+            'input[name="answer"]:checked'
+          );
+
           if (selectedAnswer) {
             var selectedAnswerValue = selectedAnswer.value;
-  
+            // Track event for answering a question
+            try {
+              gtag("event", "quiz_answered", {
+                event_category: "CCNA Quiz",
+                event_label: "Answered Question",
+              });
+            } catch (error) {
+              console.error("Failed to send tracking event:", error);
+            }
+
             // Check if the answer is correct
             var currentQuestion = ccnadict[currentQuestionIndex];
             var correctAnswer = currentQuestion.correctanswer;
             var reasoning = currentQuestion.reasoning;
-  
+
             if (selectedAnswerValue === correctAnswer) {
+              // Track event for correct answer
+              try {
+                gtag("event", "quiz_answered", {
+                  event_category: "CCNA Quiz",
+                  event_label: "Correct Answer",
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
+
               score.correct++;
               // Move to the next question
               currentQuestionIndex++;
@@ -180,6 +201,16 @@
                   console.log("Missing quiz container element");
                   return;
                 }
+                // Track event for quiz completion
+                try {
+                  gtag("event", "quiz_completed", {
+                    event_category: "CCNA Quiz",
+                    event_label: "Quiz Completed",
+                  });
+                } catch (error) {
+                  console.error("Failed to send tracking event:", error);
+                }
+
                 quizContainer.innerHTML =
                   "<h2>Quiz Finished!</h2>" +
                   "<p>Correct Answers: " +
@@ -193,52 +224,65 @@
                 displayQuestion();
               }
             } else {
+              // Track event for incorrect answer
+              try {
+                gtag("event", "quiz_answered", {
+                  event_category: "CCNA Quiz",
+                  event_label: "Incorrect Answer",
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
+
               score.incorrect++;
-              showReasoningAndAnswer(reasoning, currentQuestion.answers[correctAnswer]);
+              showReasoningAndAnswer(
+                reasoning,
+                currentQuestion.answers[correctAnswer]
+              );
               hideAnswersAndSubmitButton();
             }
           }
         }
-  
+
         // Function to show the reasoning, correct answer, and continue button
         function showReasoningAndAnswer(reasoning, correctAnswer) {
           var reasoningElement = document.getElementById("reasoning");
           var correctAnswerElement = document.getElementById("correct-answer");
           var continueButton = document.getElementById("continue-button");
-  
+
           reasoningElement.innerHTML = reasoning;
           correctAnswerElement.innerHTML = "Correct answer: " + correctAnswer;
-  
+
           reasoningElement.style.display = "block";
           correctAnswerElement.style.display = "block";
           continueButton.style.display = "block";
         }
-  
+
         // Function to hide the answers and submit button
         function hideAnswersAndSubmitButton() {
           var answersElement = document.getElementById("answers");
           var submitButton = document.getElementById("submit-button");
-  
+
           answersElement.style.display = "none";
           submitButton.style.display = "none";
         }
-  
+
         // Function to handle the click event of the Continue button
         function continueToNextQuestion() {
           // Hide the reasoning and correct answer
           var reasoningElement = document.getElementById("reasoning");
           var correctAnswerElement = document.getElementById("correct-answer");
-  
+
           reasoningElement.style.display = "none";
           correctAnswerElement.style.display = "none";
-  
+
           // Hide the Continue button
           var continueButton = document.getElementById("continue-button");
           continueButton.style.display = "none";
-  
+
           // Move to the next question
           currentQuestionIndex++;
-  
+
           // Check if the quiz is finished
           if (currentQuestionIndex === ccnadict.length) {
             // Display the final score
@@ -247,6 +291,16 @@
               console.log("Missing quiz container element");
               return;
             }
+            // Track event for quiz completion
+            try {
+              gtag("event", "quiz_completed", {
+                event_category: "CCNA Quiz",
+                event_label: "Quiz Completed",
+              });
+            } catch (error) {
+              console.error("Failed to send tracking event:", error);
+            }
+
             quizContainer.innerHTML =
               "<h2>Quiz Finished!</h2>" +
               "<p>Correct Answers: " +
@@ -258,19 +312,19 @@
           } else {
             // Display the next question
             displayQuestion();
-  
+
             // Show the answers and submit button
             var answersElement = document.getElementById("answers");
             var submitButton = document.getElementById("submit-button");
-  
+
             answersElement.style.display = "block";
             submitButton.style.display = "block";
           }
         }
-  
+
         // Display the first question
         displayQuestion();
-  
+
         // Add event listener to the submit button
         var submitButton = document.getElementById("submit-button");
         if (submitButton) {
@@ -278,7 +332,7 @@
         } else {
           console.log("Missing submit button element");
         }
-  
+
         // Add event listener to the continue button
         var continueButton = document.getElementById("continue-button");
         if (continueButton) {

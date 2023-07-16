@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="security-plus-quiz">
   <script type="application/ld+json">
     {
@@ -179,6 +180,15 @@
   
           if (selectedAnswer) {
             var selectedAnswerValue = selectedAnswer.value;
+            // Track event for answering a question
+            try {
+              gtag('event', 'quiz_answered', {
+                'event_category': 'Linux Plus Quiz',
+                'event_label': 'Answered Question'
+              });
+            } catch (error) {
+              console.error("Failed to send tracking event:", error);
+            }
   
             // Check if the answer is correct
             var currentQuestion = linuxplusdict[currentQuestionIndex];
@@ -186,6 +196,16 @@
             var reasoning = currentQuestion.reasoning;
   
             if (selectedAnswerValue === correctAnswer) {
+              // Track event for correct answer
+              try {
+                gtag('event', 'quiz_answered', {
+                  'event_category': 'Linux Plus Quiz',
+                  'event_label': 'Correct Answer'
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
+
               score.correct++;
               // Move to the next question
               currentQuestionIndex++;
@@ -196,6 +216,15 @@
                 if (!quizContainer) {
                   console.log("Missing quiz container element");
                   return;
+                }
+                // Track event for quiz completion
+                try {
+                  gtag('event', 'quiz_completed', {
+                    'event_category': 'Linux Plus Quiz',
+                    'event_label': 'Quiz Completed'
+                  });
+                } catch (error) {
+                  console.error("Failed to send tracking event:", error);
                 }
                 quizContainer.innerHTML =
                   "<h2>Quiz Finished!</h2>" +
@@ -210,6 +239,16 @@
                 displayQuestion();
               }
             } else {
+              // Track event for incorrect answer
+              try {
+                gtag('event', 'quiz_answered', {
+                  'event_category': 'Linux Plus Quiz',
+                  'event_label': 'Incorrect Answer'
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
+
               score.incorrect++;
               showReasoningAndAnswer(reasoning, currentQuestion.answers[correctAnswer]);
               hideAnswersAndSubmitButton();
@@ -264,6 +303,16 @@
               console.log("Missing quiz container element");
               return;
             }
+            // Track event for quiz completion
+            try {
+              gtag('event', 'quiz_completed', {
+                'event_category': 'Linux Plus Quiz',
+                'event_label': 'Quiz Completed'
+              });
+            } catch (error) {
+              console.error("Failed to send tracking event:", error);
+            }
+
             quizContainer.innerHTML =
               "<h2>Quiz Finished!</h2>" +
               "<p>Correct Answers: " +

@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="base64-encoder-decoder">
   {{ partial "breadcrumbs.html" . }}
 
@@ -24,7 +24,7 @@
     </button>
     <br />
     <h3 class="result-title">Result:</h3>
-    <p id="binaryToDecimalHexResult" class="conversion-result"></p>
+    <p style="background-color: var(--background-color);" id="binaryToDecimalHexResult" class="conversion-result"></p>
   </div>
 
   <div>
@@ -38,7 +38,7 @@
     </button>
     <br />
     <h3 class="result-title">Result:</h3>
-    <p id="decimalToBinaryHexResult" class="conversion-result"></p>
+    <p style="background-color: var(--background-color);" id="decimalToBinaryHexResult" class="conversion-result"></p>
   </div>
 
   <div>
@@ -52,7 +52,7 @@
     </button>
     <br />
     <h3 class="result-title">Result:</h3>
-    <p id="hexToBinaryDecimalResult" class="conversion-result"></p>
+    <p style="background-color: var(--background-color);" id="hexToBinaryDecimalResult" class="conversion-result"></p>
   </div>
 
   <script>
@@ -68,6 +68,16 @@
       var hexadecimal = decimal.toString(16);
       document.getElementById("binaryToDecimalHexResult").innerHTML +=
         "<br />Hexadecimal: " + hexadecimal.toUpperCase();
+
+      // Track event for binary to decimal/hex conversion
+      try {
+        gtag("event", "conversion", {
+          event_category: "Binary Conversion",
+          event_label: "Binary to Decimal/Hex",
+        });
+      } catch (error) {
+        console.error("Failed to send tracking event:", error);
+      }
     }
 
     function convertDecimalToBinaryHex() {
@@ -82,6 +92,16 @@
       var hexadecimal = parseInt(number, 10).toString(16);
       document.getElementById("decimalToBinaryHexResult").innerHTML +=
         "<br />Hexadecimal: " + hexadecimal.toUpperCase();
+
+      // Track event for decimal to binary/hex conversion
+      try {
+        gtag("event", "conversion", {
+          event_category: "Decimal Conversion",
+          event_label: "Decimal to Binary/Hex",
+        });
+      } catch (error) {
+        console.error("Failed to send tracking event:", error);
+      }
     }
 
     function convertHexToBinaryDecimal() {
@@ -96,6 +116,16 @@
       var decimal = parseInt(number, 16);
       document.getElementById("hexToBinaryDecimalResult").innerHTML +=
         "<br />Decimal: " + decimal;
+
+      // Track event for hexadecimal to binary/decimal conversion
+      try {
+        gtag("event", "conversion", {
+          event_category: "Hexadecimal Conversion",
+          event_label: "Hex to Binary/Decimal",
+        });
+      } catch (error) {
+        console.error("Failed to send tracking event:", error);
+      }
     }
   </script>
 

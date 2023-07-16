@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="ping-tool">
   {{ partial "breadcrumbs.html" . }}
 
@@ -12,7 +13,9 @@
     means that we never see, store, or process any of the information ourselves.
   </p>
   <p>
-    <b>NOTE:</b> Due to the nature of this tool, being client-side only, it doesn't actually use ICMP ping, instead it's using HTTP calls. Latency reported may not be accurate.
+    <b>NOTE:</b> Due to the nature of this tool, being client-side only, it
+    doesn't actually use ICMP ping, instead it's using HTTP calls. Latency
+    reported may not be accurate.
   </p>
   <div>
     <label for="input-address">Domain or IP Address:</label>
@@ -37,7 +40,7 @@
       if (address === "") {
         return;
       }
-  
+
       ping(address)
         .then(function(delta) {
           var response = {
@@ -45,6 +48,16 @@
             latency: delta,
           };
           displayPingResult(response);
+
+          // Track successful ping event
+          try {
+            gtag("event", "ping_success", {
+              event_category: "Ping Tool",
+              event_label: address,
+            });
+          } catch (error) {
+            console.error("Failed to send tracking event:", error);
+          }
         })
         .catch(function(err) {
           var errorResponse = {
@@ -53,9 +66,19 @@
           };
           displayPingResult(errorResponse);
           console.error("Could not ping remote URL", err);
+
+          // Track failed ping event
+          try {
+            gtag("event", "ping_failure", {
+              event_category: "Ping Tool",
+              event_label: address,
+            });
+          } catch (error) {
+            console.error("Failed to send tracking event:", error);
+          }
         });
     }
-  
+
     function displayPingResult(response) {
       var tableBody = document.querySelector("#ping-results tbody");
       var newRow = tableBody.insertRow();
@@ -64,7 +87,7 @@
       var latencyCell = newRow.insertCell();
       latencyCell.textContent = response.latency;
     }
-  </script>  
+  </script>
 
   <style scoped>
     .ping-tool button {

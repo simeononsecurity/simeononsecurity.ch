@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="base64-encoder-decoder">
   {{ partial "breadcrumbs.html" . }}
 
@@ -36,12 +36,32 @@
       var inputText = document.getElementById('inputText').value;
       var encodedText = btoa(inputText);
       document.getElementById('outputText').value = encodedText;
+
+      // Track the event
+      try {
+        gtag('event', 'text_encode', {
+          'event_category': 'Base64 Encoder',
+          'event_label': 'Text Encode'
+        });
+      } catch (error) {
+        console.error('Failed to send tracking event:', error);
+      }
     }
 
     function decodeText() {
       var inputText = document.getElementById('inputText').value;
       var decodedText = atob(inputText);
       document.getElementById('outputText').value = decodedText;
+
+      // Track the event
+      try {
+        gtag('event', 'text_decode', {
+          'event_category': 'Base64 Encoder',
+          'event_label': 'Text Decode'
+        });
+      } catch (error) {
+        console.error('Failed to send tracking event:', error);
+      }
     }
 
     function encodeFile() {
@@ -51,6 +71,16 @@
       reader.onload = function(e) {
         var encodedFile = btoa(e.target.result);
         document.getElementById('outputFile').value = encodedFile;
+
+        // Track the event
+        try {
+          gtag('event', 'file_encode', {
+            'event_category': 'Base64 Encoder',
+            'event_label': 'File Encode'
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
       };
       reader.readAsBinaryString(file);
     }
@@ -59,6 +89,16 @@
       var inputText = document.getElementById('fileInput').value;
       var decodedFile = atob(inputText);
       document.getElementById('outputFile').value = decodedFile;
+
+      // Track the event
+      try {
+        gtag('event', 'file_decode', {
+          'event_category': 'Base64 Encoder',
+          'event_label': 'File Decode'
+        });
+      } catch (error) {
+        console.error('Failed to send tracking event:', error);
+      }
     }
   </script>
   {{ partial "displayads-responsive-horizontal.html" . }}
