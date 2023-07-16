@@ -1288,7 +1288,7 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
 #TableOfContents ul ul li {
   margin-bottom: 5px;
 }
-ul:not([class]):not([id]) a, ol:not([class]):not([id]) a {
+/* ul:not([class]):not([id]) a, ol:not([class]):not([id]) a {
   display: inline-block;
   min-width: 48px;
   padding: 10px;
@@ -1296,7 +1296,7 @@ ul:not([class]):not([id]) a, ol:not([class]):not([id]) a {
   text-decoration: none;
   background-color: var(--background);
   text-align: center;
-}
+} */
 .breadcrumbs {
   display: inline-block;
   list-style: none;
