@@ -1,15 +1,4 @@
 {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
-{{ $imgloading := "auto" }}
-{{ $variableName := printf "FirstImageProcessed_%s" ($.Title | safeHTML) }}
-{{ $variableName = replaceRE "[^a-zA-Z0-9]+" "" $variableName }}
-
-{{ if eq ($.Scratch.Get $variableName) nil }}
-  {{ $.Scratch.Set $variableName true }}
-  {{ $imgloading = "eager" }}
-{{ else }}
-  {{ $imgloading = "lazy" }}
-{{ end }}
-
 <figure class="post-cover" itemscope itemtype="https://schema.org/ImageObject">
     {{ $cover := resources.Get (.Params.Cover)}}
     {{ if .Params.UseRelativeCover }}
@@ -41,7 +30,7 @@
           alt="{{ .Params.CoverAlt | plainify | default .Title }}"
           class="post-cover"
           itemprop="contentUrl"
-          loading="{{ $imgloading }}"
+          loading="eager"
         />
       </picture>            
     {{ if .Params.CoverCaption }}
