@@ -1,4 +1,82 @@
 {{ define "main" }}
+{{ if .Site.RegularPages }}
+<style>
+  .image-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-carousel img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  }
+
+  .image-carousel img:hover {
+    transform: scale(1.05) rotate(3deg);
+    z-index: 1;
+  }
+
+  .image-carousel img.active {
+    width: 500px; /* Increase the size of the active image */
+    height: 400px;
+    z-index: 2; /* Bring the active image to the front */
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.image-carousel img');
+    let activeImage = null; // Track the currently active image
+
+    images.forEach(image => {
+      image.addEventListener('mousemove', handleMouseMove);
+      image.addEventListener('mouseout', resetImageTransform);
+      image.addEventListener('click', handleClick);
+    });
+
+    function handleMouseMove(event) {
+      const image = event.target;
+      const imageRect = image.getBoundingClientRect();
+      const mouseX = event.clientX - imageRect.left;
+      const mouseY = event.clientY - imageRect.top;
+      const rotateX = (mouseY / imageRect.height) * 10 - 5;
+      const rotateY = (mouseX / imageRect.width) * 10 - 5;
+      image.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    }
+
+    function resetImageTransform(event) {
+      const image = event.target;
+      if (image !== activeImage) { // Skip resetting transform if it's the active image
+        image.style.transform = '';
+      }
+    }
+
+    function handleClick(event) {
+      const image = event.target;
+      if (activeImage !== image) {
+        if (activeImage) {
+          activeImage.classList.remove('active'); // Remove 'active' class from the previously active image
+        }
+        image.classList.add('active'); // Add 'active' class to the clicked image
+        activeImage = image; // Update the active image
+      } else {
+        image.classList.remove('active'); // Remove 'active' class from the clicked image (toggle off)
+        activeImage = null; // Reset the active image
+      }
+    }
+  });
+</script>
+{{ else }}
+  <p>No images found in the carousel.</p>
+{{ end }}
 <div class="image-carousel">
   {{ $uniqueImages := slice }}
   
@@ -18,37 +96,9 @@
         {{ $imageInfo := $coverImage | resources.GetMatch }}
         {{ $imageWidth := $imageInfo.Width }}
         {{ $imageHeight := $imageInfo.Height }}
-        <img src="{{ $coverImage }}" alt="{{ $coverAlt }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="auto"/>
+        <img src="{{ $coverImage }}" alt="{{ $coverAlt }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="lazy"/>
       {{ end }}
     {{ end }}
-  {{ end }}
-
-  {{ if .Site.RegularPages }}
-  <style>
-    .image-carousel {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .image-carousel img {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      margin: 10px;
-      border: 2px solid #ddd;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease;
-    }
-  
-    .image-carousel img:hover {
-      transform: scale(1.05) rotate(3deg);
-      z-index: 1;
-    }
-  </style>  
-  {{ else }}
-    <p>No images found in the carousel.</p>
   {{ end }}
 </div>
 {{ end }}
