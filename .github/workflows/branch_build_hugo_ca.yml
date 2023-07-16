@@ -47,6 +47,9 @@ jobs:
           mv ./public/* .
           rm -r ./public
 
+      - name: Wait for 60 seconds
+        run: sleep 60
+
       - name: Commit and push changes
         run: |
           git config user.name "${{ secrets.USERNAME }}"
