@@ -1,51 +1,54 @@
 <style>
-    .sponsor-button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      z-index: 9999;
-    }
-  
-    .sponsor-button a {
-      background-color: var(--background-secondary);
-      color: var(--color);
-      padding: 10px 20px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      transition: background-color 0.3s, color 0.3s;
-    }
-  
-    .sponsor-button a:hover {
-      background-color: #fe5186;
-    }
-  
+  .sponsor-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+
+  .sponsor-button a {
+    background-color: var(--background-secondary);
+    color: var(--color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .sponsor-button a:hover {
+    background-color: #fe5186;
+  }
+
+  .sponsor-button a span {
+    margin: auto;
+  }
+
+  @media (max-width: 767px) {
+    /* For screens smaller than 768px width (mobile devices) */
     .sponsor-button a span {
+      display: none;
+    }
+    .sponsor-button a::after {
+      content: "Donate";
       margin: auto;
     }
-  
-    @media (max-width: 767px) {
-      /* For screens smaller than 768px width (mobile devices) */
-      .sponsor-button a span {
-        display: none;
-      }
-      .sponsor-button a::after {
-        content: "Donate";
-        margin: auto;
-      }
-    }
-  </style>
-  
-  <div class="sponsor-button">
-    <a href="https://github.com/sponsors/simeononsecurity" target="_blank" itemprop="url">
-      <span itemprop="name">
-        {{ i18n "support_button_text" }}
-      </span>
-    </a>
-  </div>
-  
+  }
+</style>
+
+<div class="sponsor-button">
+  <a
+    href="https://github.com/sponsors/simeononsecurity"
+    target="_blank"
+    itemprop="url"
+  >
+    <span itemprop="name">
+      {{ i18n "support_button_text" }}
+    </span>
+  </a>
+</div>
