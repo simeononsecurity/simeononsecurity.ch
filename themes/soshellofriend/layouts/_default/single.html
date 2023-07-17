@@ -2,6 +2,7 @@
   {{ $languageCode := $.Site.LanguageCode }}
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
+  {{ $imgloading := "eager" }}
   {{ partial "breadcrumbs.html" . }}
   <br>
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
@@ -46,7 +47,7 @@
     {{ end }}
 
     {{ if .Params.Cover }}
-      {{ partial "postcover.html" . }}
+      {{ partial "postcover.html" (dict "context" . "imgloading" $imgloading) }}
     {{ end }}
 
     <div class="post-content" itemprop="articleBody">

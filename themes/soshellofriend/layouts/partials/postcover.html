@@ -1,8 +1,10 @@
-{{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/")) (not (fileExists .Params.Cover))}}
+
+
+{{ if and (not (or (eq .context.Params.Cover "") (eq .context.Params.Cover " ") (eq .context.Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .context.Params.Cover "/")) (not (fileExists .context.Params.Cover))}}
 <figure class="post-cover" itemscope itemtype="https://schema.org/ImageObject">
-    {{ $cover := resources.Get (.Params.Cover)}}
-    {{ if .Params.UseRelativeCover }}
-      {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+    {{ $cover := resources.Get (.context.Params.Cover)}}
+    {{ if .context.Params.UseRelativeCover }}
+      {{ $cover = resources.GetRemote (printf "%s%s" .context.Permalink .context.Params.Cover) }}
     {{ end }}
     {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
     {{ $micro := ($cover.Resize "20x webp q20") }}
@@ -30,10 +32,10 @@
           alt="{{ .Params.CoverAlt | plainify | default .Title }}"
           class="post-cover"
           itemprop="contentUrl"
-          loading="auto"
+          loading="{{ .imgloading }}"
         />
       </picture>            
-    {{ if .Params.CoverCaption }}
+    {{ if .context.Params.CoverCaption }}
       <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
     {{ end }}
 </figure>

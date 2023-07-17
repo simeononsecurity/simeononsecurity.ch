@@ -3,7 +3,15 @@
 {{ $languageCode := $.Site.LanguageCode }}
   <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
   <div class="posts" itemscope itemtype="https://schema.org/Blog">
+    {{ $counter := 0 }}
     {{ range .Paginator.Pages }}
+      {{ $counter = add $counter 1 }}
+      {{ $imgloading := "" }}
+      {{ if eq $counter 1 }}
+        {{ $imgloading = "eager" }}
+      {{ else }}
+        {{ $imgloading = "lazy" }}
+      {{ end }}
       <article class="post on-list" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
         <h2 class="post-title" itemprop="headline"><a href="{{ .Permalink }}" title="{{ .Title | markdownify }}" itemprop="url">{{ .Title | markdownify }}</a></h2>
         <div class="post-meta">
@@ -30,7 +38,7 @@
           {{ end }}
         </div>
         {{ if .Params.Cover }}
-          {{ partial "postcover.html" . }}
+          {{ partial "postcover.html" (dict "context" . "imgloading" $imgloading) }}
         {{ end }}
         {{ if .Params.tags }}
           <span class="post-tags">

@@ -22,7 +22,15 @@
   {{ end }}
 
   <div class="posts" itemscope itemtype="https://schema.org/Blog">
+      {{ $counter := 0 }}
     {{ range $paginator.Pages }}
+      {{ $counter = add $counter 1 }}
+      {{ $imgloading := "" }}
+      {{ if eq $counter 1 }}
+        {{ $imgloading = "eager" }}
+      {{ else }}
+        {{ $imgloading = "lazy" }}
+      {{ end }}
     <article class="post on-list" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
       <h2 class="post-title" itemprop="headline"><a href="{{ .Permalink }}" title="{{ .Title | markdownify }}" itemprop="url">{{ .Title | markdownify }}</a></h2>
       <div class="post-meta">
@@ -53,7 +61,7 @@
       </div>
 
       {{ if .Params.Cover }}
-        {{ partial "postcover.html" . }}
+        {{ partial "postcover.html" (dict "context" . "imgloading" $imgloading) }}
       {{ end }}
 
       {{ if .Params.tags }}
