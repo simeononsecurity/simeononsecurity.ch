@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ template "_internal/google_tag_manager.html" . }}
 <main class="ping-tool">
-  {{ partial "breadcrumbs.html" . }}
+  {{ partialCached "breadcrumbs.html" . .Page}}
 
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">
@@ -98,6 +98,6 @@
       text-align: center;
     }
   </style>
-  {{ partial "displayads-responsive-horizontal.html" . }}
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
 </main>
 {{ end }}

@@ -61,7 +61,7 @@
             <div>
         </div>
     </article>
-    {{ partial "displayads-responsive-horizontal.html" . }}
+    {{ partialCached "displayads-responsive-horizontal.html" . }}
     </div>
   </script>
 
@@ -91,6 +91,6 @@
     referrerpolicy="no-referrer"
   ></script>
 
-  {{ partial "displayads-responsive-horizontal.html" . }}
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
 </main>
 {{ end }}

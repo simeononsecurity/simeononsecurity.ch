@@ -19,7 +19,7 @@
       ]
     }
   </script>
-  {{ partial "breadcrumbs.html" . }}
+  {{ partialCached "breadcrumbs.html" . .Page}}
 
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
@@ -27,7 +27,7 @@
     >
   </h1>
 
-  {{ partial "displayads-responsive-horizontal.html" . }}
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
 
   <div id="quiz-container">
     <h2 id="question"></h2>
@@ -363,6 +363,6 @@
         console.log("Error fetching cisspdict:", error);
       });
   </script>
-  {{ partial "displayads-responsive-horizontal.html" . }}
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
 </main>
 {{ end }}

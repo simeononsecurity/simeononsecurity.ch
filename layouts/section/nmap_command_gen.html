@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ template "_internal/google_tag_manager.html" . }}
 <main class="base64-encoder-decoder">
-  {{ partial "breadcrumbs.html" . }}
+  {{ partialCached "breadcrumbs.html" . .Page}}
 
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
@@ -136,7 +136,7 @@
       }
     }
   </script>  
-  {{ partial "displayads-responsive-horizontal.html" . }}
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
   <style scoped>
     .generated-code-container p,
     .generated-code-container label,
