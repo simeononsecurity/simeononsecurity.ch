@@ -1,4 +1,4 @@
-{{ if or (strings.Contains $.Page.RelPermalink "/articles/") (strings.Contains $.Page.RelPermalink "/github/") (strings.Contains $.Page.RelPermalink "/recommendations/") (strings.Contains $.Page.RelPermalink "/writeups/") (strings.Contains $.Page.RelPermalink "/other/") (strings.Contains $.Page.RelPermalink "/blog/") }}
+{{ if or (strings.Contains $.Page.RelPermalink "/articles/") (strings.Contains $.Page.RelPermalink "/github/") (strings.Contains $.Page.RelPermalink "/recommendations/") (strings.Contains $.Page.RelPermalink "/writeups/") (strings.Contains $.Page.RelPermalink "/other/") (strings.Contains $.Page.RelPermalink "/blog/") (strings.Contains $.Page.RelPermalink "/guides/") (strings.Contains $.Page.RelPermalink "/checklists/") }}
   {{- range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) -}}
     {{- $.Scratch.Set "has_related" true -}}
   {{- end -}}
