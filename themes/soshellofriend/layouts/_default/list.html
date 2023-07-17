@@ -38,7 +38,9 @@
           {{ end }}
         </div>
         {{ if .Params.Cover }}
-          {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page .Page.Page }}
+          <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}" itemprop="url">
+            {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page .Page.Page}}
+          </a>
         {{ end }}
         {{ if .Params.tags }}
           <span class="post-tags">
