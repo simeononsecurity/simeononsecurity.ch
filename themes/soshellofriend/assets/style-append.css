@@ -1592,6 +1592,74 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
   padding-bottom: 200%;
  /* Adjust aspect ratio as needed */
 }
+/* CSS for mobile devices */
+@media (max-width: 767px) {
+  /* Maximum height for mobile ad sizes */
+  .google-ad-banner,
+  .google-ad-skyscraper,
+  .google-ad-square,
+  .google-ad-rectangle,
+  .google-ad-leaderboard,
+  .advert-inline {
+    max-height: 300px !important;
+    max-width: 970px;
+  }
+  .google-ad-banner {
+    height: 100px !important;
+    padding-bottom: 0;
+    max-height: 250px !important;
+    max-width: 970px;
+  }
+  .google-ad-skyscraper {
+    width: 100px;
+    height: 0;
+    padding-bottom: 200%;
+    max-width: 300px;
+    max-height: 600px;
+  }
+  .google-ad-square {
+    width: 300px;
+    height: 300px;
+    max-height: 336px;
+    max-width: 280px;
+  }
+  .google-ad-rectangle {
+    width: 300px;
+    height: 250px;
+    max-height: 250px !important;
+    max-width: 970px;
+  }
+  .google-ad-leaderboard {
+    width: 728px;
+    height: 90px;
+  }
+}
+
+/* CSS for desktop devices */
+@media (min-width: 768px) {
+  /* Maximum height for desktop ad sizes */
+  .google-ad-banner,
+  .google-ad-skyscraper,
+  .google-ad-square,
+  .google-ad-rectangle,
+  .google-ad-leaderboard,
+  .advert-inline {
+    max-height: none;
+    max-width: 300px;
+  }
+  .google-ad-banner,
+  .google-ad-square,
+  .google-ad-rectangle,
+  .google-ad-leaderboard {
+    height: 0;
+    padding-bottom: 15% !important;
+    max-width: 250px;
+  }
+  .google-ad-skyscraper {
+    display: none; /* Hide the skyscraper ad */
+  }
+}
+
 #myBtn {
   display: none;
  /* Hidden by default */
