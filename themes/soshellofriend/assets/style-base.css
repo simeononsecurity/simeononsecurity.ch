@@ -520,7 +520,7 @@
     color: #fff;
     font-size: 18px;
   }
-  ul:not([class]):not([id]) a {
+  /* ul:not([class]):not([id]) a {
     display: inline-block;
     min-width: 48px;
     padding: 10px;
@@ -528,7 +528,7 @@
     text-decoration: none;
     background-color: var(--background);
     text-align: center;
-  }
+  } */
   svg {
     display: block;
     height: 16px;
