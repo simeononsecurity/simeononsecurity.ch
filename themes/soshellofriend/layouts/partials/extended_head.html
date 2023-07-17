@@ -220,8 +220,8 @@
     {{ template "_internal/microsoft_clarity.html" . }}
 
     <!-- Ads JS Load -->
-    {{ partial "googleadsload.html" . }}
+    {{ partialCached "googleadsload.html" . }}
 
     <!-- Load Info Links -->
-    {{ partial "infolinks.html" . }}
+    {{ partialCached "infolinks.html" . }}
 {{ end }}

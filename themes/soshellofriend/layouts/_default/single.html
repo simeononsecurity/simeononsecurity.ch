@@ -3,7 +3,7 @@
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
   {{ $imgloading := "eager" }}
-  {{ partial "breadcrumbs.html" . }}
+  {{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
   <br>
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <h1 class="post-title" itemprop="headline">{{ .Title | markdownify }}</h1>
@@ -12,7 +12,7 @@
         <time class="post-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormatSingle | default "2006-01-02") }}</time>
         {{ if eq .Type $contentTypeName }}
           {{ if $.Site.Params.LastModDisplay }}
-            {{ partial "lastmod.html" . }}
+            {{ partialCached "lastmod.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -47,14 +47,14 @@
     {{ end }}
 
     {{ if .Params.Cover }}
-      {{ partial "postcover.html" (dict "context" . "imgloading" $imgloading) }}
+      {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
 
     <div class="post-content" itemprop="articleBody">
       {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" }}
       {{ $currentPath := .Permalink }}
       {{ if not (in $currentPath $excludePaths) }}
-        {{ partial "share-buttons.html" . }}
+        {{ partialCached "share-buttons.html" . .Page .Page.Page}}
       {{ end }}
       <div id="ad-placeholder"></div>
       {{ if or .Params.Toc $.Site.Params.Toc }}
@@ -68,7 +68,7 @@
       {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" }}
       {{ $currentPath := .Permalink }}
       {{ if not (in $currentPath $excludePaths) }}
-        {{ partial "share-buttons.html" . }}
+        {{ partialCached "share-buttons.html" . .Page .Page.Page}}
       {{ end }}
     </div>
 
@@ -99,7 +99,7 @@
           </div>
         </div>
         <br>
-        {{ partial "relatedcontent.html" . }}
+        {{ partialCached "relatedcontent.html" . .Page .Page.Page }}
         <br>
       {{ end }}
     {{ end }}
@@ -114,7 +114,7 @@
     {{ end }}
     {{ if not $disableComments }}
       {{ if not (eq .Params.Comments.enable false) }}
-        {{ partial "comments.html" . }}
+        {{ partialCached "comments.html" . }}
       {{ end }}
     {{ end }}
   </article>

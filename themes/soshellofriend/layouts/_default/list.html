@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "breadcrumbs.html" . }}
+{{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
 {{ $languageCode := $.Site.LanguageCode }}
   <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>
   <div class="posts" itemscope itemtype="https://schema.org/Blog">
@@ -18,7 +18,7 @@
           {{ if .Date }}
             <time class="post-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}</time>
             {{ if $.Site.Params.LastModDisplay }}
-              {{ partial "lastmod.html" . }}
+              {{ partialCached "lastmod.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
             {{ end }}
           {{ end }}
           {{ with .Params.Author }}
@@ -38,7 +38,7 @@
           {{ end }}
         </div>
         {{ if .Params.Cover }}
-          {{ partial "postcover.html" (dict "context" . "imgloading" $imgloading) }}
+          {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page .Page.Page }}
         {{ end }}
         {{ if .Params.tags }}
           <span class="post-tags">
@@ -54,8 +54,8 @@
           </div>
         {{ end }}
       </article>
-      {{ partial "displayads-responsive-horizontal.html" . }}
+      {{ partialCached "displayads-responsive-horizontal.html" . }}
     {{ end }}
-    {{ partial "pagination.html" . }}
+    {{ partialCached "pagination.html" . .Page .Site.Language.Lang .Language.Lang}}
   </div>
 {{ end }}

@@ -38,7 +38,7 @@
           <time class="post-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}</time>
 
           {{ if $.Site.Params.LastModDisplay }}
-            {{ partial "lastmod.html" . }}
+            {{ partialCached "lastmod.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
           {{ end }}
         {{ end }}
 
@@ -61,7 +61,7 @@
       </div>
 
       {{ if .Params.Cover }}
-        {{ partial "postcover.html" (dict "context" . "imgloading" $imgloading) }}
+        {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page .Page.Page}}
       {{ end }}
 
       {{ if .Params.tags }}
@@ -79,8 +79,8 @@
         <div><a class="read-more button" href="{{.RelPermalink}}" title="read more" hreflang="{{ $languageCode }}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
     </article>
-    {{ partial "displayads-responsive-horizontal.html" . }}   
+    {{ partialCached "displayads-responsive-horizontal.html" . }}   
     {{ end }}
-    {{ partial "pagination.html" . }}
+    {{ partialCached "pagination.html" . .Page .Site.Language.Lang .Language.Lang }}
   </div>
 {{ end }}

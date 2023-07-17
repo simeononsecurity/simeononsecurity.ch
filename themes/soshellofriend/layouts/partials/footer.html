@@ -30,7 +30,7 @@
       </div>
     </div>  
   </footer>  
-  {{ partial "donatebutton.html" .}}
+  {{ partialCached "donatebutton.html" .}}
   {{ if ne .RelPermalink "/search/" }}
   <div class="search-form">
     <form action="/search" method="GET" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
@@ -51,4 +51,4 @@
 <script src="{{ "assets/prism.js" | absURL }}" defer></script>
 {{ end }}
 
-{{- partial "extended_footer.html" . }}
+{{- partialCached "extended_footer.html" . }}

@@ -1,11 +1,11 @@
 <!-- head custom -->
-{{- partial "prepended_head.html" . }}
+{{- partialCached "prepended_head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
 
 <!-- OG data -->
 {{ template "_internal/opengraph.html" . }}
 
 <!-- Site Schema -->
-{{ partial "site_schema.html" . }}
+{{ partialCached "site_schema.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
 
 <!-- Twitter Card -->
 {{ template "_internal/twitter_cards.html" . }}
@@ -14,4 +14,4 @@
 {{ template "_internal/google_news.html" . }}
 
 <!-- head custom -->
-{{- partial "extended_head.html" . }}
+{{- partialCached "extended_head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
