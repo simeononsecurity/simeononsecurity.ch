@@ -20,16 +20,16 @@
   <footer itemscope itemtype="https://schema.org/SiteNavigationElement">
     <div class="footer__inner">
       {{ partial "logo.html" . }}
-      <div><span><a itemprop="url" title="{{ i18n "contact_page_title" }}" href="{{ $.Site.BaseURL }}/contactus/" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "contact_page_title" }}</span></a></span></div>
-      <div><span><a itemprop="url" title="{{ i18n "privacy_policy_title" }}" href="{{ $.Site.BaseURL }}/privacypolicy/" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "privacy_policy_title" }}</span></a></span></div>
-      <div><span><a itemprop="url" title="{{ i18n "terms_conditions_title" }}" href="{{ $.Site.BaseURL }}/termsandconditions/" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "terms_conditions_title" }}</span></a></span></div>
-      <div><span><a itemprop="url" title="{{ i18n "sitemap_title" }}" href="{{ $.Site.BaseURL }}/sitemap.xml" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "sitemap_title" }}</span></a></span></div>
-      <div><span><a itemprop="url" title="{{ i18n "rss_feed_title" }}" href="{{ $.Site.BaseURL }}/index.xml" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "rss_feed_title" }}</span></a></span></div>
+      <div><span><a itemprop="url" title="{{ i18n "contact_page_title" }}" href="{{ ("contactus/" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "contact_page_title" }}</span></a></span></div>
+      <div><span><a itemprop="url" title="{{ i18n "privacy_policy_title" }}" href="{{ ("privacypolicy/" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "privacy_policy_title" }}</span></a></span></div>
+      <div><span><a itemprop="url" title="{{ i18n "terms_conditions_title" }}" href="{{ ("termsandconditions/" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "terms_conditions_title" }}</span></a></span></div>
+      <div><span><a itemprop="url" title="{{ i18n "sitemap_title" }}" href="{{ ("/sitemap.xml" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "sitemap_title" }}</span></a></span></div>
+      <div><span><a itemprop="url" title="{{ i18n "rss_feed_title" }}" href="{{ ("/index.xml" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "rss_feed_title" }}</span></a></span></div>
       <div class="copyright">
         <span>© 2020 - {{ now.Year }} SimeonOnSecurity</span>
       </div>
     </div>  
-  </footer>  
+  </footer> 
   {{ partialCached "donatebutton.html" .}}
   {{ if ne .RelPermalink "/search/" }}
   <div class="search-form">
