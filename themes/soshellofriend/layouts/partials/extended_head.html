@@ -151,6 +151,8 @@
 
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
+{{/*  <link rel="preload" href="{{ "assets/async.js" | absURL }}" as="script" type="text/javascript" async>
+<link rel="preload" href="{{ "assets/defer.js" | absURL }}" as="script" type="text/javascript" async>  */}}
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
 {{ $currentPath := .Permalink }}
 {{ $disableComments := false }}
@@ -170,6 +172,11 @@
   <link rel="prefetch" href="{{ "js/search.js" | absURL }}" as="script" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}"  as="script" type="text/javascript" defer>
+
+{{ partial "loadcustomjs.html" . }}
+
+<script async src="{{ "assets/js/async.js" | absURL }}"></script>
+<script defer src="{{ "assets/js/defer.js" | absURL }}"></script>
 
 <!-- preload and prefetch first-party fonts -->
 <link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>

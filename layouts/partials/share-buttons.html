@@ -54,28 +54,3 @@
 nav.sharebuttons li > a:hover .will-change { fill: {{ $hoverColor }} }
 .sharebuttons {stroke: none;}
 </style>
-<script async>
-var shareButtons = document.querySelectorAll(".sharebuttons a");
-
-function trackShareButtonClick(event) {
-    var shareButton = event.target.closest("a");
-    var sharePlatform = shareButton.getAttribute("title");
-
-    try {
-    gtag("event", "share", {
-        event_category: "social",
-        event_label: sharePlatform,
-        transport_type: "beacon",
-    });
-    } catch (error) {
-    console.error("Error tracking share event:", error);
-    }
-}
-
-for (var i = 0; i < shareButtons.length; i++) {
-    shareButtons[i].addEventListener("click", trackShareButtonClick, {
-    passive: true,
-    });
-}
-</script>
-    
