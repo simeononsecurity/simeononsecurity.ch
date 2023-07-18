@@ -6,66 +6,50 @@
 ></script>
 <script async>
   const adPlaceholders = document.querySelectorAll(".ad-placeholder");
-  let enablePageLevelAds = false; // Declare as let instead of const
+  let enablePageLevelAds = false;
   let adsLoadCounter = 0;
 
   function loadAd(adPlaceholder) {
-    try {
-      const adClientId = adPlaceholder.getAttribute("data-ad-client");
-      const randomInt = adPlaceholder.getAttribute("random-int");
+    const adClientId = adPlaceholder.getAttribute("data-ad-client");
+    const randomInt = adPlaceholder.getAttribute("random-int");
 
-      if (!adClientId || !randomInt) {
-        throw new Error("Ad client ID or random-int attribute not found.");
-      }
-
-      // Check if an ad is already loaded in the adPlaceholder
-      const adsInPlaceholder = adPlaceholder.querySelectorAll(
-        "ins.adsbygoogle"
-      );
-      if (adsInPlaceholder.length > 0) {
-        console.warn("Ad already loaded in the ad placeholder.");
-        return;
-      }
-
-      if (adsLoadCounter === 0) {
-        // Use === for comparison instead of =
-        enablePageLevelAds = true;
-      } else {
-        enablePageLevelAds = false;
-      }
-
-      adsLoadCounter++;
-
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: adClientId,
-        ...(enablePageLevelAds ? { enable_page_level_ads: true } : {}),
-        done_loading: function() {
-          adPlaceholder.style.visibility = "visible";
-        },
-      });
-
-      console.log("Ad loaded with random-int:", randomInt);
-      console.log("Total ads loaded:", adsLoadCounter);
-    } catch (error) {
-      console.error("Error loading ad:", error);
+    if (!adClientId || !randomInt) {
+      console.error("Ad client ID or random-int attribute not found.");
+      return;
     }
+
+    const adsInPlaceholder = adPlaceholder.querySelectorAll("ins.adsbygoogle");
+    if (adsInPlaceholder.length > 0) {
+      console.warn("Ad already loaded in the ad placeholder.");
+      return;
+    }
+
+    enablePageLevelAds = adsLoadCounter === 0;
+    adsLoadCounter++;
+
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: adClientId,
+      ...(enablePageLevelAds ? { enable_page_level_ads: true } : {}),
+      done_loading: function() {
+        adPlaceholder.style.visibility = "visible";
+      },
+    });
+
+    console.log("Ad loaded with random-int:", randomInt);
+    console.log("Total ads loaded:", adsLoadCounter);
   }
 
   function checkIfAdShouldLoad(adPlaceholder) {
-    try {
-      const randomInt = adPlaceholder.getAttribute("random-int");
-      const adLoaded = adPlaceholder.classList.contains("ad-loaded");
+    const randomInt = adPlaceholder.getAttribute("random-int");
+    const adLoaded = adPlaceholder.classList.contains("ad-loaded");
 
-      if (
-        randomInt &&
-        !adLoaded &&
-        window.innerHeight + window.scrollY >= document.body.offsetHeight
-      ) {
-        loadAd(adPlaceholder);
-        adPlaceholder.classList.toggle("ad-loaded");
-      }
-    } catch (error) {
-      console.error("Error checking if ad should load:", error);
+    if (
+      randomInt &&
+      !adLoaded &&
+      window.innerHeight + window.scrollY >= document.body.offsetHeight
+    ) {
+      loadAd(adPlaceholder);
+      adPlaceholder.classList.add("ad-loaded");
     }
   }
 
@@ -73,53 +57,37 @@
     let timeoutId;
 
     return function() {
-      try {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(func, delay);
-      } catch (error) {
-        console.error("Error debouncing function:", error);
-      }
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(func, delay);
     };
   }
 
   function onPageLoad() {
-    try {
-      adPlaceholders.forEach(function(adPlaceholder) {
-        lazyLoadAd(adPlaceholder);
-      });
-    } catch (error) {
-      console.error("Error handling page load:", error);
-    }
+    adPlaceholders.forEach(function(adPlaceholder) {
+      lazyLoadAd(adPlaceholder);
+    });
   }
 
   function lazyLoadAd(adPlaceholder) {
-    try {
-      const observerCallback = debounce(function(entries, observer) {
-        entries.forEach(function(entry) {
-          if (
-            entry.isIntersecting &&
-            !adPlaceholder.classList.contains("ad-loaded")
-          ) {
-            loadAd(adPlaceholder);
-            adPlaceholder.classList.toggle("ad-loaded");
-            observer.unobserve(entry.target);
-          }
-        });
-      }, 200);
-
-      const observer = new IntersectionObserver(observerCallback, {
-        rootMargin: "200px",
-        threshold: 0,
+    const observerCallback = debounce(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting && !adPlaceholder.classList.contains("ad-loaded")) {
+          loadAd(adPlaceholder);
+          adPlaceholder.classList.add("ad-loaded");
+          observer.unobserve(entry.target);
+        }
       });
-      observer.observe(adPlaceholder);
-    } catch (error) {
-      console.error("Error handling lazy load of ad:", error);
-    }
+    }, 200);
+
+    const observer = new IntersectionObserver(observerCallback, {
+      rootMargin: "200px",
+      threshold: 0,
+    });
+    observer.observe(adPlaceholder);
   }
 
   window.addEventListener("load", onPageLoad, { passive: true });
 </script>
-
 <script defer>
   window.addEventListener("DOMContentLoaded", function() {
     try {
