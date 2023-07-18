@@ -74,12 +74,6 @@ Link = '''
   <https://www.googletagmanager.com>; rel=preconnect,
   <https://z-na.amazon-adsystem.com>; rel=preconnect,
   <https://ws-na.amazon-adsystem.com>; rel=preconnect,
-  <https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=preload; as=script,
-  <https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=preload; as=script,
-  <https://resources.infolinks.com/js/infolinks_main.js>; rel=preload; as=script,
-  <https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js>; rel=preload; as=script,
-  <https://instant.page/5.2.0>; rel=preload; as=script,
-  <https://simeononsecurity.ch/manifest.json>; rel=preload; as=fetch; crossorigin=anonymous,
   <https://simeononsecurity.com>; rel=preconnect,
   <https://simeononsecurity.ch>; rel=preconnect,
   <https://ar.simeononsecurity.ch>; rel=preconnect,
@@ -97,7 +91,12 @@ Link = '''
   <https://pt.simeononsecurity.ch>; rel=preconnect,
   <https://ro.simeononsecurity.ch>; rel=preconnect,
   <https://ru.simeononsecurity.ch>; rel=preconnect,
-  <https://zh.simeononsecurity.ch>; rel=preconnect
+  <https://zh.simeononsecurity.ch>; rel=preconnect,
+  <https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=prefetch,
+  <https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=prefetch,
+  <https://resources.infolinks.com/js/infolinks_main.js>; rel=prefetch,
+  <https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js>; rel=prefetch,
+  <https://instant.page/5.2.0>; rel=prefetch
 '''
 
 [[headers]]
