@@ -42,6 +42,20 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
 {{ end }}
 
-
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}
+
+<!-- Load 3rd Party JS -->
+{{ if not $.Site.IsServer }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    {{ template "_internal/google_tag_manager.html" . }}
+
+    <!-- Microsoft Clarity -->
+    {{ template "_internal/microsoft_clarity.html" . }}
+
+    <!-- Ads JS Load -->
+    {{ partialCached "googleadsload.html" . }}
+
+    <!-- Load Info Links -->
+    {{ partialCached "infolinks.html" . }}
+{{ end }}

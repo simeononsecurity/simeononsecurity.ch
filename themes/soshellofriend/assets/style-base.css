@@ -27,7 +27,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
-    src: url("https://d33wubrfki0l68.cloudfront.net/a37427546c8eecf009cdcd739ff9b2958b0aae7d/f5b8f/assets/fonts/inter-regular.woff2")
+    src: url("/assets/fonts/inter-regular.woff2")
       format("woff2");
   }
   @font-face {
@@ -36,7 +36,7 @@
     font-family: Inter;
     font-style: italic;
     font-weight: 400;
-    src: url("https://d33wubrfki0l68.cloudfront.net/fd3d4234f34960349fd641c5ec061a0c2b7b4a8c/cf726/assets/fonts/inter-italic.woff2")
+    src: url("/assets/fonts/inter-italic.woff2")
       format("woff2");
   }
   @font-face {
@@ -45,7 +45,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    src: url("https://d33wubrfki0l68.cloudfront.net/3e35d45ed8f2f81be40100e05a878d76effa039e/7842c/assets/fonts/inter-medium.woff2")
+    src: url("/assets/fonts/inter-medium.woff2")
       format("woff2");
   }
   @font-face {
@@ -54,7 +54,7 @@
     font-family: Inter;
     font-style: italic;
     font-weight: 600;
-    src: url("https://d33wubrfki0l68.cloudfront.net/ccbbe4f20b4ab3a77060e4282ab6e735d4caa5bb/99ba7/assets/fonts/inter-mediumitalic.woff2")
+    src: url("/assets/fonts/inter-mediumitalic.woff2")
       format("woff2");
   }
   @font-face {
@@ -63,7 +63,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    src: url("https://d33wubrfki0l68.cloudfront.net/ba58d2af0ad5ce20ac3cf3a2e1b658615a3bfa6a/cca48/assets/fonts/inter-bold.woff2")
+    src: url("/assets/fonts/inter-bold.woff2")
       format("woff2");
   }
   @font-face {
@@ -72,7 +72,7 @@
     font-family: Inter;
     font-style: italic;
     font-weight: 800;
-    src: url("https://d33wubrfki0l68.cloudfront.net/a30417d0b17edef1a10be34901435f20f9e3b7c6/5ad41/assets/fonts/inter-bolditalic.woff2")
+    src: url("/assets/fonts/inter-bolditalic.woff2")
       format("woff2");
   }
   .button,

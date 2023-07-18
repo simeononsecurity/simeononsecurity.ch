@@ -71,7 +71,10 @@
   function lazyLoadAd(adPlaceholder) {
     const observerCallback = debounce(function(entries, observer) {
       entries.forEach(function(entry) {
-        if (entry.isIntersecting && !adPlaceholder.classList.contains("ad-loaded")) {
+        if (
+          entry.isIntersecting &&
+          !adPlaceholder.classList.contains("ad-loaded")
+        ) {
           loadAd(adPlaceholder);
           adPlaceholder.classList.add("ad-loaded");
           observer.unobserve(entry.target);

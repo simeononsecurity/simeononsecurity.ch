@@ -1,3 +1,11 @@
+<!-- preload and prefetch first-party fonts -->
+<link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-Italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Inter-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -171,16 +179,7 @@
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}"  as="script" type="text/javascript" defer>
 
-<!-- preload and prefetch first-party fonts -->
-<link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-Italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
-
 <!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="preload" href="{{ "manifest.json" | absURL }}" as="fetch" crossorigin="anonymous">
 <link rel="manifest" href="{{ "manifest.json" | absURL }}">
 
 <!-- Icons -->
@@ -210,18 +209,4 @@
   {{ if not (eq .Params.Comments.enable false) }}
   <link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript">
   {{ end }}
-{{ end }}
-
-{{ if not $.Site.IsServer }}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {{ template "_internal/google_tag_manager.html" . }}
-
-    <!-- Microsoft Clarity -->
-    {{ template "_internal/microsoft_clarity.html" . }}
-
-    <!-- Ads JS Load -->
-    {{ partialCached "googleadsload.html" . }}
-
-    <!-- Load Info Links -->
-    {{ partialCached "infolinks.html" . }}
 {{ end }}
