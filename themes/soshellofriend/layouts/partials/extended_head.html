@@ -1,10 +1,10 @@
 <!-- preload and prefetch first-party fonts -->
-<link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-Italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Inter-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL )}}" as="font" type="font/woff2" crossorigin>
 
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,6 +124,8 @@
     {{ $hreflang = "pa" }}
   {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
     {{ $hreflang = "pt" }}
+  {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+    {{ $hreflang = "pl" }}
   {{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
     {{ $hreflang = "ro" }}
   {{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
@@ -132,9 +134,9 @@
     {{ $hreflang = "zh" }}
   {{ end }}
   {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-    <link rel="alternate" title="{{ $currentPageTitle }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
-    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
-    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
+    <link rel="alternate" title="{{ $currentPageTitle }} iin {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
+    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
     <link rel="preconnect" href="{{ $baseURL }}">
     <link rel="dns-prefetch" href="{{ $baseURL }}">
   {{ end }}
@@ -192,9 +194,9 @@
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
 <link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" crossorigin="anonymous">
-<link rel="preload" href="https://resources.infolinks.com/js/infolinks_main.js" as="script">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js" as="script" crossorigin="anonymous">
-<link rel="preload" href="https://instant.page/5.2.0" as="script" crossorigin="anonymous">
+<link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" type="text/javascript">
+<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js" type="text/javascript">
+<link rel="prefetch" href="https://instant.page/5.2.0" type="text/javascript">
 
 {{ if in (urlize .Permalink) "/search" }}
 <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript">
