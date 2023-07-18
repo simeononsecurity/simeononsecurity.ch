@@ -152,14 +152,14 @@ Content-Type = "image/x-icon"
 [[headers]]
 for = "/*.css"
 [headers.values]
-Cache-Control = "public, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, s-maxage=604800, max-age=31536000"
 Access-Control-Allow-Origin = "*"
 Content-Type = "text/css"
 
 [[headers]]
 for = "/*.js"
 [headers.values]
-Cache-Control = "public, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, s-maxage=604800, max-age=31536000"
 Access-Control-Allow-Origin = "*"
 Content-Type = "application/javascript"
 
@@ -180,49 +180,49 @@ Content-Type = "application/xml"
 [[headers]]
 for = "/*.mjs"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Content-Type = "text/javascript"
 
 [[headers]]
 for = "/*.sass"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Content-Type = "text/x-sass"
 
 [[headers]]
 for = "/*.scss"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Content-Type = "text/x-scss"
 
 [[headers]]
 for = "/*.less"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Content-Type = "text/x-less"
 
 [[headers]]
 for = "/*.wasm"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Content-Type = "application/wasm"
 
 [[headers]]
 for = "/*.pdf"
 [headers.values]
-Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, must-revalidate, s-maxage=604800, max-age=31536000"
 Content-Type = "application/pdf"
 
 [[headers]]
 for = "/*.doc"
 [headers.values]
-Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, must-revalidate, s-maxage=604800, max-age=31536000"
 Content-Type = "application/msword"
 
 [[headers]]
 for = "/*.xls"
 [headers.values]
-Cache-Control = "public, must-revalidate, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, must-revalidate, s-maxage=604800, max-age=31536000"
 Content-Type = "application/vnd.ms-excel"
 
 [[headers]]
@@ -234,8 +234,16 @@ Content-Type = "text/plain"
 [[headers]]
 for = "/fonts/*"
 [headers.values]
-Cache-Control = "public, immutable, s-max-age=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Access-Control-Allow-Origin = "*"
+Vary = "Origin"
+
+ [[headers]]
+for = "/*.woff2"
+[headers.values]
+Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Access-Control-Allow-Origin = "*"
+Vary = "Origin"
 
 [[headers]]
 for = "/audio/*"
