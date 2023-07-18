@@ -79,3 +79,30 @@
     </div>
   {{ end }}
 {{ end }}
+<script async>
+  document.addEventListener('DOMContentLoaded', function() {
+    var relatedLinks = document.querySelectorAll('.related-title a');
+    for (var i = 0; i < relatedLinks.length; i++) {
+      relatedLinks[i].addEventListener('click', function(event) {
+        event.preventDefault();
+        var linkUrl = this.href;
+        try {
+          gtag('event', 'click', {
+            'event_category': 'Related Article',
+            'event_label': linkUrl,
+            'event_callback': function() {
+              setTimeout(function() {
+                window.location.href = linkUrl;
+              }, 100);
+            }
+          });
+        } catch (error) {
+          console.error('Error sending gtag event:', error);
+          setTimeout(function() {
+            window.location.href = linkUrl;
+          }, 100);
+        }
+      });
+    }
+  });
+</script>
