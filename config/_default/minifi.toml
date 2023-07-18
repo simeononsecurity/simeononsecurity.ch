@@ -1,7 +1,7 @@
 [minify]
   disableCSS = false
   disableHTML = false
-  disableJS = true
+  disableJS = false
   disableJSON = false
   disableSVG = false
   disableXML = false
