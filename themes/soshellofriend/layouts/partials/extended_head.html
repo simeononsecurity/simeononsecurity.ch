@@ -146,12 +146,12 @@
 {{ end -}}
 
 <!-- Theme CSS -->
-{{ $baseCSS := resources.Get "/style-base.css" }}
-{{ $inlineCSS := $baseCSS  }}
+{{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
+{{ $inlineCSS := $baseCSS }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
 </style>
-{{ $restCSS := resources.Get "/style-append.css" }}
+{{ $restCSS := (resources.Get "/style-append.css" | resources.Minify) }}
 {{ $inlineCSS := $restCSS  }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
@@ -191,9 +191,9 @@
 
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
-<link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script">
+<link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" crossorigin="anonymous">
 <link rel="preload" href="https://resources.infolinks.com/js/infolinks_main.js" as="script">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js" as="script">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js" as="script" crossorigin="anonymous">
 <link rel="preload" href="https://instant.page/5.2.0" as="script" crossorigin="anonymous">
 
 {{ if in (urlize .Permalink) "/search" }}
