@@ -13,7 +13,7 @@
     {{ end }}
     {{ partialCached "head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
   </head>
-  <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}" data-instant-intensity="viewport">
+  <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}" data-instant-intensity="viewport" data-instant-allow-external-links data-instant-vary-accept>
     <a href="#" hreflang="{{ $languageCode }}" title="top" class="top"></a>
     <div class="container" itemprop="mainContentOfPage">
       {{ partialCached "header.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
