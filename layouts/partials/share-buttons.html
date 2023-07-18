@@ -44,15 +44,56 @@
 </nav>
 
 <style scoped>
-.sharebuttons, .sharebuttons ul {display: flex; margin: 0.25rem 0; align-items: center;}
-.sharebuttons span {color: {{ $textcolor }};}
-.sharebuttons ul li {list-style: none; margin: 0;}
-.sharebuttons ul li a {margin: 0 0.5rem; display: block;}
-.sharebuttons ul li:first-child a {margin: 0 0.2rem 0 0.5rem;}
-.sharebuttons ul li a svg {width: auto; height: 1.1rem; display: block; stroke-width: 0.000001;}
-.will-change {transition: 250ms;} 
-nav.sharebuttons li > a:hover .will-change { fill: {{ $hoverColor }} }
-.sharebuttons {stroke: none;}
+.sharebuttons,
+.sharebuttons ul {
+    display: flex;
+    margin: 0.25rem 0;
+    align-items: center;
+}
+
+.sharebuttons span {
+    color: {{ $textcolor }};
+}
+
+.sharebuttons ul li {
+    list-style: none;
+    margin: 0;
+}
+
+.sharebuttons ul li a {
+    margin: 0 0.5rem;
+    display: block;
+}
+
+.sharebuttons ul li:first-child a {
+    margin: 0 0.2rem 0 0.5rem;
+}
+
+.sharebuttons ul li a svg {
+    width: auto;
+    height: 1.1rem;
+    display: block;
+    stroke-width: 0.000001;
+}
+
+.will-change {
+    transition: 250ms;
+}
+
+nav.sharebuttons li > a:hover .will-change {
+    fill: {{ $hoverColor }};
+}
+
+.sharebuttons {
+    stroke: none;
+}
+
+@media (max-width: 767px) {
+    .sharebuttons ul li a svg {
+      min-width: 48px;
+      min-height: 48px;
+    }
+  }
 </style>
 <script async>
 var shareButtons = document.querySelectorAll(".sharebuttons a");
