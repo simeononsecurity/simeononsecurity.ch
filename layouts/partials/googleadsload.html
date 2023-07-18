@@ -12,7 +12,7 @@
     // Define the function to be executed when all content is loaded
     function handleContentLoaded() {
       (adsbygoogle = window.adsbygoogle || []).push({
-        ...(enablePageLevelAds ? { enable_page_level_ads: true } : {}),
+        enable_page_level_ads: true,
         done_loading: function() {
           adPlaceholder.style.visibility = "visible";
         },
