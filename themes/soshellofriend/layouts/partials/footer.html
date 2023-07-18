@@ -47,8 +47,21 @@
 </footer>
 
 <script src="{{ "assets/main.js" | absURL }}"></script>
-{{ if .IsPage }}
-<script src="{{ "assets/prism.js" | absURL }}" defer></script>
+
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $currentPath := .Permalink }}
+{{ $disablePrism := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disablePrism = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disablePrism }}
+  {{ if not (eq .Params.Comments.enable false) }}
+    {{ if not .IsPage}}
+      <script src="{{ "assets/prism.js" | absURL }}" defer></script>
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 {{- partialCached "extended_footer.html" . }}
