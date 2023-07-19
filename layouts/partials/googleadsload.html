@@ -6,48 +6,26 @@
 ></script>
 <script defer>
   window.addEventListener("load", function() {
-    var adPlaceholder = document.getElementById("ad-placeholder");
+    var adPlaceholders = document.getElementsByClassName("ad-placeholder");
+    var totalAds = adPlaceholders.length;
+    var adsLoaded = 0;
+    var observer;
 
-    // Define the function to be executed when all content is loaded
     function handleContentLoaded() {
       try {
-        adsbygoogle = adsbygoogle || [];
-        adsbygoogle.push({
-          done_loading: function() {
-            adPlaceholder.style.visibility = "visible";
-            fixGoogleIframes();
-          },
-        });
-
         (adsbygoogle = window.adsbygoogle || []).push({
           done_loading: function() {
-            adPlaceholder.style.visibility = "visible";
-            fixGoogleIframes();
+            adsLoaded++;
+            if (adsLoaded === totalAds) {
+              // All ads have been loaded, disconnect the observer
+              observer.disconnect();
+            }
           },
         });
       } catch (error) {
         // Handle the error gracefully
         console.error("An error occurred while handling content load:", error);
       }
-    }
-
-    // Add error handling for the event listener
-    try {
-      window.addEventListener("load", handleContentLoaded);
-    } catch (error) {
-      // Handle the error gracefully
-      console.error("An error occurred while adding the event listener:", error);
-    }
-
-    // Call the function when all content is loaded
-    function handleAllContentLoaded() {
-      handleContentLoaded();
-    }
-
-    if (document.readyState === "complete") {
-      handleAllContentLoaded();
-    } else {
-      window.addEventListener("load", handleAllContentLoaded);
     }
 
     function fixGoogleIframes() {
@@ -82,6 +60,33 @@
         console.error("An error occurred:", error);
       }
     }
+
+    // Create a new Intersection Observer
+    observer = new IntersectionObserver(
+      function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            // Call the function to handle content loaded only if it hasn't been executed before
+            var adPlaceholder = entry.target;
+            if (!adPlaceholder.dataset.loaded) {
+              handleContentLoaded();
+              // Mark the ad as "loaded" to prevent multiple executions
+              adPlaceholder.dataset.loaded = true;
+              fixGoogleIframes();
+            }
+          }
+        });
+      },
+      {
+        root: null, // Use the viewport as the root
+        rootMargin: "200px", // Set the margin to 200px around the viewport
+        threshold: 0, // Trigger when the target enters the root
+      }
+    );
+
+    // Start observing each ad placeholder element
+    for (var i = 0; i < totalAds; i++) {
+      observer.observe(adPlaceholders[i]);
+    }
   });
 </script>
-
