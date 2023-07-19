@@ -67,7 +67,6 @@ $MaxFileSize = 2147483648
 $numUnits = 16
 $datadir = "C:\root\post\data"
 
-
 ## Script
 foreach ($gpuIndex in 0..($numGpus - 1)) {
     $fromFile = $gpuIndex * ($numUnits * 32 / $numGpus)
