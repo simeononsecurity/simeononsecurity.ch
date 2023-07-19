@@ -10,7 +10,26 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
   textColor: '#fff'
 })</script> -->
 
+<!-- Scroll to Top Button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
+<script defer>
+  // Get the button element
+  const mybutton = document.getElementById("myBtn");
+
+  // Add a scroll event listener to the window
+  window.addEventListener('scroll', scrollFunction);
+
+  // Define the scroll function
+  function scrollFunction() {
+    mybutton.style.display = (window.scrollY > 20) ? 'block' : 'none';
+  }
+
+  // Define the topFunction
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}

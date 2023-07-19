@@ -99,19 +99,21 @@
         }
 </style>
 <script>
-        function toggleLanguageMenu() {
-            var selector = document.querySelector('.language-selector');
-            selector.classList.toggle('open');
-        }
-        document.addEventListener("click", function(event) {
-            var selector = document.querySelector('.language-selector');
-            var menu = document.getElementById("language-menu");
-            if (event.target.closest(".language-selector__container") !== null) {
-                return;
-            } else {
-                selector.classList.remove('open');
-            }
-        });
-</script>
+function toggleLanguageMenu() {
+    var selector = document.querySelector('.language-selector');
+    selector.classList.toggle('open');
+}
+
+document.addEventListener("click", function(event) {
+    var selector = document.querySelector('.language-selector');
+    var menu = document.getElementById("language-menu");
+    var container = event.target.closest(".language-selector__container");
+    if (container !== null) {
+    return;
+    } else {
+    selector.classList.remove('open');
+    }
+});
+</script>  
 </div>
 {{ end }}

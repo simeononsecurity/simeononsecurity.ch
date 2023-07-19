@@ -148,12 +148,12 @@
 {{ end -}}
 
 <!-- Theme CSS -->
-{{ $baseCSS := (resources.Get "/style-base.css" ) }}
+{{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
 {{ $inlineCSS := $baseCSS }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
 </style>
-{{ $restCSS := (resources.Get "/style-append.css" ) }}
+{{ $restCSS := (resources.Get "/style-append.css" | resources.Minify) }}
 {{ $inlineCSS := $restCSS  }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
