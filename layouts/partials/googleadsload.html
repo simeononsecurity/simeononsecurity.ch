@@ -5,20 +5,31 @@
   crossorigin="anonymous"
 ></script>
 <script defer>
-  window.addEventListener('load', function() {
-    var adPlaceholder = document.getElementById('ad-placeholder');
+  window.addEventListener("load", function() {
+    var adPlaceholder = document.getElementById("ad-placeholder");
 
     // Define the function to be executed when all content is loaded
     function handleContentLoaded() {
-      (adsbygoogle = window.adsbygoogle || []).push({
+      /*  (adsbygoogle = window.adsbygoogle || []).push({
+        done_loading: function() {
+          adPlaceholder.style.visibility = "visible";
+          fixGoogleIframes();
+        },
+      });  */
+
+      adsbygoogle = adsbygoogle || [];
+      adsbygoogle.push({
         done_loading: function() {
           adPlaceholder.style.visibility = "visible";
           fixGoogleIframes();
         },
       });
-      
+
+      // adsbygoogle = adsbygoogle || [];
+      // adsbygoogle.push({});
+
       // Unlisten to the event after executing the code
-      window.removeEventListener('load', handleContentLoaded);
+      window.removeEventListener("load", handleContentLoaded);
     }
 
     // Call the function when all content is loaded
