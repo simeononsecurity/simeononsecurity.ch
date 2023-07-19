@@ -11,28 +11,24 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 })</script> -->
 
 <!-- Scroll to Top Button -->
-<button onclick="topFunction()" id="myBtn" title="Go to top">^</button> 
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
 <script defer>
-  // Get the button:
-  let mybutton = document.getElementById("myBtn");
+  // Get the button element
+  const mybutton = document.getElementById("myBtn");
 
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
+  // Add a scroll event listener to the window
+  window.addEventListener('scroll', scrollFunction);
 
+  // Define the scroll function
   function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
+    mybutton.style.display = (window.scrollY > 20) ? 'block' : 'none';
   }
 
-  // When the user clicks on the button, scroll to the top of the document
+  // Define the topFunction
   function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  } 
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 </script>
 
 <!-- Search Functionality -->

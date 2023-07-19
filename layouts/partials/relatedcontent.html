@@ -79,11 +79,12 @@
     </div>
   {{ end }}
 {{ end }}
-<script async>
+<script defer>
   document.addEventListener('DOMContentLoaded', function() {
-    var relatedLinks = document.querySelectorAll('.related-title a');
-    for (var i = 0; i < relatedLinks.length; i++) {
-      relatedLinks[i].addEventListener('click', function(event) {
+    var relatedTitles = document.querySelectorAll('.related-title');
+    relatedTitles.forEach(function(title) {
+      var link = title.querySelector('a');
+      link.addEventListener('click', function(event) {
         event.preventDefault();
         var linkUrl = this.href;
         try {
@@ -91,18 +92,14 @@
             'event_category': 'Related Article',
             'event_label': linkUrl,
             'event_callback': function() {
-              setTimeout(function() {
-                window.location.href = linkUrl;
-              }, 100);
+              window.location.href = linkUrl;
             }
           });
         } catch (error) {
           console.error('Error sending gtag event:', error);
-          setTimeout(function() {
-            window.location.href = linkUrl;
-          }, 100);
+          window.location.href = linkUrl;
         }
       });
-    }
+    });
   });
 </script>
