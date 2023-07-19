@@ -7,7 +7,7 @@
 <script defer>
   window.addEventListener("load", function() {
     var adPlaceholder = document.getElementById("ad-placeholder");
-  
+
     // Define the function to be executed when all content is loaded
     function handleContentLoaded() {
       try {
@@ -18,7 +18,7 @@
             fixGoogleIframes();
           },
         });
-  
+
         (adsbygoogle = window.adsbygoogle || []).push({
           done_loading: function() {
             adPlaceholder.style.visibility = "visible";
@@ -29,11 +29,8 @@
         // Handle the error gracefully
         console.error("An error occurred while handling content load:", error);
       }
-  
-      // Unlisten to the event after executing the code
-      window.removeEventListener("load", handleContentLoaded);
     }
-  
+
     // Add error handling for the event listener
     try {
       window.addEventListener("load", handleContentLoaded);
@@ -41,10 +38,17 @@
       // Handle the error gracefully
       console.error("An error occurred while adding the event listener:", error);
     }
-  });  
 
     // Call the function when all content is loaded
-    handleContentLoaded();
+    function handleAllContentLoaded() {
+      handleContentLoaded();
+    }
+
+    if (document.readyState === "complete") {
+      handleAllContentLoaded();
+    } else {
+      window.addEventListener("load", handleAllContentLoaded);
+    }
 
     function fixGoogleIframes() {
       try {
@@ -80,3 +84,4 @@
     }
   });
 </script>
+
