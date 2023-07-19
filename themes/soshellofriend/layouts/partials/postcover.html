@@ -29,7 +29,7 @@
           sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
           media="(min-width: 200px)">
         <img src="{{ $optimizedmicro }}"
-          alt="{{ .Params.CoverAlt | plainify | default .Title }}"
+          alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"
           class="post-cover"
           itemprop="contentUrl"
           loading="{{ .imgloading }}"
