@@ -4,29 +4,34 @@
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538"
   crossorigin="anonymous"
 ></script>
-<script async src="https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js" crossorigin="anonymous"></script>
-<script async>
+<script
+  async
+  src="https://cdn.jsdelivr.net/npm/lazyhtml@1.2.3/dist/lazyhtml.min.js"
+  crossorigin="anonymous"
+></script>
+<script defer>
   window.addEventListener('load', function() {
     var adPlaceholder = document.getElementById('ad-placeholder');
-  
+
     // Define the function to be executed when all content is loaded
     function handleContentLoaded() {
       (adsbygoogle = window.adsbygoogle || []).push({
         done_loading: function() {
           adPlaceholder.style.visibility = "visible";
+          fixGoogleIframes();
         },
       });
-  
+    }
+
       // Unlisten to the event after executing the code
       window.removeEventListener('load', handleContentLoaded);
     }
-  
+
     // Call the function when all content is loaded
     handleContentLoaded();
-  }); 
-</script>
-<script defer>
-  window.addEventListener("DOMContentLoaded", function() {
+  });
+
+  function fixGoogleIframes() {
     try {
       var iframes = document.querySelectorAll(
         'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
@@ -57,5 +62,5 @@
       // Handle any errors that occur during the execution of the code
       console.error("An error occurred:", error);
     }
-  });
+  }
 </script>
