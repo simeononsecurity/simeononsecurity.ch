@@ -7,30 +7,41 @@
 <script defer>
   window.addEventListener("load", function() {
     var adPlaceholder = document.getElementById("ad-placeholder");
-
+  
     // Define the function to be executed when all content is loaded
     function handleContentLoaded() {
-      /*  (adsbygoogle = window.adsbygoogle || []).push({
-        done_loading: function() {
-          adPlaceholder.style.visibility = "visible";
-          fixGoogleIframes();
-        },
-      });  */
-
-      adsbygoogle = adsbygoogle || [];
-      adsbygoogle.push({
-        done_loading: function() {
-          adPlaceholder.style.visibility = "visible";
-          fixGoogleIframes();
-        },
-      });
-
-      // adsbygoogle = adsbygoogle || [];
-      // adsbygoogle.push({});
-
+      try {
+        adsbygoogle = adsbygoogle || [];
+        adsbygoogle.push({
+          done_loading: function() {
+            adPlaceholder.style.visibility = "visible";
+            fixGoogleIframes();
+          },
+        });
+  
+        (adsbygoogle = window.adsbygoogle || []).push({
+          done_loading: function() {
+            adPlaceholder.style.visibility = "visible";
+            fixGoogleIframes();
+          },
+        });
+      } catch (error) {
+        // Handle the error gracefully
+        console.error("An error occurred while handling content load:", error);
+      }
+  
       // Unlisten to the event after executing the code
       window.removeEventListener("load", handleContentLoaded);
     }
+  
+    // Add error handling for the event listener
+    try {
+      window.addEventListener("load", handleContentLoaded);
+    } catch (error) {
+      // Handle the error gracefully
+      console.error("An error occurred while adding the event listener:", error);
+    }
+  });  
 
     // Call the function when all content is loaded
     handleContentLoaded();
