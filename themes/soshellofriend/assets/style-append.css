@@ -1488,11 +1488,12 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
 
 /* Banner Ad */
 .google-ad-banner {
+  width: 100%;
+  height: 100px !important;
+ /* Adjust height as needed */
+  max-height: 300px !important;
+ /* Additional styles specific to banner ads */
   position: relative !important;
-  min-height: 90px;
-  max-height: 250px;
-  min-width: 728px;
-  max-width: 980px;
 }
 /* Skyscraper Ad */
 .google-ad-skyscraper {
@@ -1636,28 +1637,22 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
   border-top: dotted 4px var(--background-secondary) !important;
   border-bottom: dotted 4px var(--background-secondary) !important;
   min-height: 100px;
- /* visibility: hidden;
-  */
   min-height: 0;
   padding-bottom: 100px !important;
 }
 .google-ad-banner, .google-ad-skyscraper, .google-ad-square, .google-ad-rectangle, .google-ad-leaderboard, .advert-inline {
   position: relative;
- /* visibility: hidden;
-  */
   width: 100%;
 }
 .google-ad-banner, .google-ad-square, .google-ad-rectangle, .google-ad-leaderboard {
   height: 0;
   padding-bottom: 15% !important;
- /* Adjust aspect ratio as needed */
 }
 .google-ad-skyscraper {
   width: 100px;
  /* Adjust width as needed */
   height: 0;
   padding-bottom: 200%;
- /* Adjust aspect ratio as needed */
 }
 
 #myBtn {
