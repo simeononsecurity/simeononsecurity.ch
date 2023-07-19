@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ template "_internal/google_tag_manager.html" . }}
 <main>
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
@@ -61,21 +60,9 @@
             <div>
         </div>
     </article>
-    {{ partialCached "displayads-responsive-horizontal.html" . }}
+    {{ partial "displayads-responsive-horizontal.html" . }}
     </div>
   </script>
-
-  <script async>
-    try {
-      gtag('event', 'search', {
-        'event_category': 'engagement',
-        'event_label': 'Search Query',
-        'value': '{{ .Params.q }}'
-      });
-    } catch (error) {
-      console.error("Failed to send tracking event:", error);
-    }
-  </script>  
 
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"
@@ -91,6 +78,10 @@
     referrerpolicy="no-referrer"
   ></script>
 
-  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  {{ partial "displayads-responsive-horizontal.html" . }}
+
+  <!-- Search Functionality -->
+  <script src="{{ "js/search.js"| absURL }}"></script>
+
 </main>
 {{ end }}

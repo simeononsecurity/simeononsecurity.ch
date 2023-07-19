@@ -23,7 +23,7 @@
       </div>
 
       {{ block "footer" . }}
-        {{ partialCached "footer.html" . .Site.Language.Lang .Language.Lang}}
+        {{ partialCached "footer.html" .Page .Page.Page .Site.Language.Lang .Language.Lang}}
       {{ end }}
     </div>
   </body>
