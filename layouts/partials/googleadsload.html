@@ -21,46 +21,45 @@
           fixGoogleIframes();
         },
       });
-    }
-
+      
       // Unlisten to the event after executing the code
       window.removeEventListener('load', handleContentLoaded);
     }
 
     // Call the function when all content is loaded
     handleContentLoaded();
-  });
 
-  function fixGoogleIframes() {
-    try {
-      var iframes = document.querySelectorAll(
-        'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
-      );
+    function fixGoogleIframes() {
+      try {
+        var iframes = document.querySelectorAll(
+          'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
+        );
 
-      iframes.forEach(function(iframe) {
-        iframe.setAttribute("title", "google ads");
-        iframe.setAttribute("role", "banner");
+        iframes.forEach(function(iframe) {
+          iframe.setAttribute("title", "google ads");
+          iframe.setAttribute("role", "banner");
 
-        if (
-          iframe.hasAttribute("data-google-container-id") &&
-          iframe.complete
-        ) {
-          setAttributes(iframe);
-        } else {
-          iframe.addEventListener("load", function() {
+          if (
+            iframe.hasAttribute("data-google-container-id") &&
+            iframe.complete
+          ) {
             setAttributes(iframe);
-          });
-        }
-      });
+          } else {
+            iframe.addEventListener("load", function() {
+              setAttributes(iframe);
+            });
+          }
+        });
 
-      function setAttributes(iframe) {
-        var containerId = iframe.getAttribute("data-google-container-id");
-        iframe.setAttribute("title", "google ads");
-        iframe.setAttribute("role", "banner");
+        function setAttributes(iframe) {
+          var containerId = iframe.getAttribute("data-google-container-id");
+          iframe.setAttribute("title", "google ads");
+          iframe.setAttribute("role", "banner");
+        }
+      } catch (error) {
+        // Handle any errors that occur during the execution of the code
+        console.error("An error occurred:", error);
       }
-    } catch (error) {
-      // Handle any errors that occur during the execution of the code
-      console.error("An error occurred:", error);
     }
-  }
+  });
 </script>
