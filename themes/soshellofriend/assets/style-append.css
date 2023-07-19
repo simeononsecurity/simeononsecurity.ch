@@ -1245,58 +1245,67 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
   background-color: #555;
  /* Add a dark-grey background on hover */
 }
-/* Style the table of contents container */
-.table-of-contents {
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  margin-left: 40px;
+@media (max-width: 767px) {
+  /* Style the table of contents container */
+  .table-of-contents {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  /* Style the table of contents list */
+  #TableOfContents ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style the top-level items in the table of contents */
+  #TableOfContents ul > li {
+    margin-bottom: 10px;
+  }
+
+  /* Style the links in the table of contents */
+  #TableOfContents a {
+    display: inline-block;
+    padding: 10px;
+    min-width: 48px;
+    min-height: 48px;
+    color: var(--color);
+    text-decoration: none;
+    background-color: var(--background);
+    border: 1px solid var(--background);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    /* Add margin between buttons */
+  }
+
+  /* Style the links on hover */
+  #TableOfContents a:hover {
+    background-color: var(--background-secondary);
+  }
+
+  /* Indent nested table of contents items */
+  #TableOfContents ul ul {
+    margin-left: 20px;
+  }
+
+  /* Style the nested table of contents items */
+  #TableOfContents ul ul li {
+    margin-bottom: 5px;
+  }
+
+  ul:not([class]):not([id]) a, ol:not([class]):not([id]) a {
+    display: inline-block;
+    min-width: 48px;
+    padding: 10px;
+    color: var(--color);
+    text-decoration: none;
+    background-color: var(--background);
+    text-align: center;
+  }
 }
-/* Style the table of contents list */
-#TableOfContents ul {
-  margin: 0;
-  padding: 0;
-}
-/* Style the top-level items in the table of contents */
-#TableOfContents ul > li {
-  margin-bottom: 10px;
-}
-/* Style the links in the table of contents */
-#TableOfContents a {
-  display: inline-block;
-  padding: 10px;
-  min-width: 48px;
-  min-height: 48px;
-  color: var(--color);
-  text-decoration: none;
-  background-color: var(--background);
-  border: 1px solid var(--background);
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 10px;
- /* Add margin between buttons */
-}
-/* Style the links on hover */
-#TableOfContents a:hover {
-  background-color: var(--background-secondary);
-}
-/* Indent nested table of contents items */
-#TableOfContents ul ul {
-  margin-left: 20px;
-}
-/* Style the nested table of contents items */
-#TableOfContents ul ul li {
-  margin-bottom: 5px;
-}
-/* ul:not([class]):not([id]) a, ol:not([class]):not([id]) a {
-  display: inline-block;
-  min-width: 48px;
-  padding: 10px;
-  color: var(--color);
-  text-decoration: none;
-  background-color: var(--background);
-  text-align: center;
-} */
 .breadcrumbs {
   display: inline-block;
   list-style: none;
