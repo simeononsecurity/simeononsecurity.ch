@@ -75,6 +75,22 @@ SimeonOnSecurity's Privacy Policy does not apply to other advertisers or website
 
 You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
 
+### Google AdSense and Analytics
+
+We partner with Google AdSense and Analytics to optimize your website experience, improve our products/services, and effectively market our offerings. These services involve the use of cookies and other tracking technologies, both first-party and third-party, to collect data on your interactions and behavior while browsing our website.
+
+By utilizing Google AdSense, we can display targeted ads to you based on your prior visits to our website and other websites. This personalized advertising is made possible through the use of advertising cookies. Additionally, Google Analytics allows us to gather valuable insights into website traffic, user engagement, and other metrics to enhance our site's performance.
+
+To provide transparency and control over your ad personalization preferences, you can visit the [Ads Settings](https://www.google.com/settings/ads) page to opt out of personalized advertising. Alternatively, you may choose to visit [www.aboutads.info](http://www.aboutads.info/choices/) to opt out of personalized advertising by third-party vendors who utilize cookies. Please note that if you have not opted out of third-party ad serving, other vendors and ad networks may also use cookies to display ads on our site.
+
+As privacy policies and regulations may vary across countries and publishers, we are unable to provide specific language for your privacy policy. However, we recommend consulting resources such as the [Network Advertising Initiative](http://www.networkadvertising.org/) or reviewing [cookiechoices.org](http://cookiechoices.org/) for guidance on drafting a comprehensive privacy policy.
+
+For more information on how Google collects and uses data through AdSense and Analytics, please refer to the [Google Privacy Policy](https://policies.google.com/privacy).
+
+### Microsoft Clarity
+
+*We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).*
+
 ## CCPA Privacy Rights (Do Not Sell My Personal Information)
 
 Under the CCPA, among other rights, California consumers have the right to:
