@@ -126,7 +126,7 @@
 <base href="{{ .Permalink }}">
 {{ if eq .Lang "en" }}
   <!-- If the language code is "en", set the base URL accordingly -->
-  <link rel="canonical" href="https://simeononsecurity.ch/{{ .RelPermalink }}">
+  <link rel="canonical" href="https://simeononsecurity.ch{{ .RelPermalink }}" />
 {{ else }}
   <link rel="canonical" href="{{ .Permalink }}" />
 {{ end }}
