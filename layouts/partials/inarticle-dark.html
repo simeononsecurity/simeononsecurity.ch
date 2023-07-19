@@ -1,15 +1,12 @@
 {{ $randomInt := index (seq 100 999 | shuffle) 0 }}
-
-<div class="lazyhtml" data-lazyhtml>
-  <div id="ad-placeholder" class="advert-inline" style="width: 100%; padding-bottom: 66.66%; position: relative;">
-    <ins
-      class="adsbygoogle"
-      style="display:block; text-align:center;"
-      data-ad-layout="in-article"
-      data-ad-format="fluid"
-      data-ad-client="ca-pub-4092442123207538"
-      data-ad-slot="8444676629"
-      random-int="{{ $randomInt }}"
-    ></ins>
-  </div>
+<div id="ad-placeholder" class="advert-inline" style="width: 100%; padding-bottom: 66.66%; position: relative;">
+  <ins
+    class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="ca-pub-4092442123207538"
+    data-ad-slot="8444676629"
+    random-int="{{ $randomInt }}"
+  ></ins>
 </div>
