@@ -177,7 +177,7 @@
   {{ end }}
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-  <link rel="prefetch" href="{{ "js/search.js" | absURL }}" as="script" type="text/javascript">
+  <link rel="preload" href="{{ "js/search.js"| absURL }}" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}"  as="script" type="text/javascript" defer>
 
@@ -198,9 +198,10 @@
 <link rel="prefetch" href="https://instant.page/5.2.0" type="text/javascript">
 
 {{ if in (urlize .Permalink) "/search" }}
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript">
-<link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript">
 {{ end }}
+
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
 {{ $currentPath := .Permalink }}
 {{ $disableComments := false }}
