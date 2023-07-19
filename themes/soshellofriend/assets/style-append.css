@@ -7,6 +7,7 @@
   --border-color: #dcdcdc;
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px);
+  caret-color: transparent;
 }
 body.dark-theme {
   --background: #161617;
