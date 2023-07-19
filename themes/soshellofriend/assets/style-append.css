@@ -1418,6 +1418,15 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
  }
 }
 
+/* Styles specifically for <ins> elements with class "adsbygoogle" */
+ins.adsbygoogle {
+  display: block; /* or inline-block, depending on your layout */
+  min-height: 260px;
+  max-height: 900px;
+  min-width: 300px;
+  max-width: 100%;
+}
+
 /* Banner Ad */
 .google-ad-banner {
   width: 100%;
