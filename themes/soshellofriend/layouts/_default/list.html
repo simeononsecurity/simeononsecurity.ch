@@ -21,8 +21,20 @@
               {{ partialCached "lastmod.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
             {{ end }}
           {{ end }}
-          {{ with .Params.Author }}
-            <span class="post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">— {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}authors/{{ . | lower }}" itemprop="url"><span itemprop="name">{{ . }}</span></a></span>
+          {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" "/tools" "/practice-tests"}}
+          {{ $currentPath := .Permalink }}
+          {{ if not (in $currentPath $excludePaths) }}
+            {{ if .Params.Author }}
+              {{ with .Params.Author }}
+                <span class="post-author" itemscope itemtype="https://schema.org/Person">
+                  — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">{{ . }}</span></a>
+                </span>
+              {{ end }}
+            {{ else }}
+              <span class="post-author" itemscope itemtype="https://schema.org/Person">
+                — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">SimeonOnSecurity</span></a>
+              </span>
+            {{ end }}
           {{ end }}
           {{ if $.Site.Params.ShowReadingTime }}
             <span class="post-read-time">— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
