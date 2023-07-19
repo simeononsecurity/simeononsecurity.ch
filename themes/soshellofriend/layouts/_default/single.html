@@ -23,12 +23,12 @@
         {{ if .Params.Author }}
           {{ with .Params.Author }}
             <span class="post-author" itemscope itemtype="https://schema.org/Person">
-              — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/{{ . | lower }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">{{ . }}</span></a>
+              — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">{{ . }}</span></a>
             </span>
           {{ end }}
         {{ else }}
           <span class="post-author" itemscope itemtype="https://schema.org/Person">
-            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ $.Site.BaseURL }}/authors/simeononsecurity" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">SimeonOnSecurity</span></a>
+            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">SimeonOnSecurity</span></a>
           </span>
         {{ end }}
       {{ end }}
