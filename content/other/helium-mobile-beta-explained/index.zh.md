@@ -9,8 +9,7 @@ cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected
 coverAlt: "生动的插图展示了带有 Helium Mobile 品牌的互连设备网络，象征着移动连接的创新和去中心化方法。"
 coverCaption: ""
 ---
-
-# Helium 移动测试版
+## Helium 移动测试版
 
 Helium Mobile Beta 是一家开创性的移动运营商，目前正在进行 Beta 测试，旨在彻底改变电信行业。与传统蜂窝网络相比，Helium Mobile Beta 由去中心化的 Helium 区块链网络提供支持，提供增强的安全性、可靠性和可负担性。在本文中，我们将探讨 Helium Mobile Beta 的主要功能和优势，以及它的局限性和参与 Beta 计划的步骤。
 

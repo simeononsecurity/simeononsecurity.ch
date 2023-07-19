@@ -9,8 +9,7 @@ cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected
 coverAlt: "Helium Mobile ブランドを使用して相互接続されたデバイスのネットワークを示す鮮やかなイラストは、モバイル接続への革新的で分散型のアプローチを象徴しています。"
 coverCaption: ""
 ---
-
-# Helium モバイル ベータ版
+## Helium モバイル ベータ版
 
 Helium Mobile Beta は、電気通信業界に革命を起こすことを目的とした、現在ベータ テスト中の画期的な携帯通信会社です。分散型 Helium ブロックチェーン ネットワークを活用した Helium Mobile Beta は、従来のセルラー ネットワークと比較して、強化されたセキュリティ、信頼性、手頃な価格を提供します。この記事では、Helium Mobile ベータの主な機能と利点、その制限事項とベータ プログラムに参加する手順について説明します。
 

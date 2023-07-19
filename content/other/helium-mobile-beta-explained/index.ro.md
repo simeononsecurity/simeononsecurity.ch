@@ -9,8 +9,7 @@ cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected
 coverAlt: "O ilustrație vibrantă care prezintă o rețea de dispozitive interconectate cu branding Helium Mobile, simbolizând abordarea inovatoare și descentralizată a conectivității mobile."
 coverCaption: ""
 ---
-
-# Helium Mobile Beta
+## Helium Mobile Beta
 
 Helium Mobile Beta este un operator de telefonie mobilă revoluționar, care se află în prezent în testare beta, cu scopul de a revoluționa industria telecomunicațiilor. Alimentat de rețeaua blockchain descentralizată Helium, Helium Mobile Beta oferă securitate, fiabilitate și accesibilitate îmbunătățite în comparație cu rețelele celulare tradiționale. În acest articol, vom explora caracteristicile și beneficiile cheie ale Helium Mobile Beta, precum și limitările sale și pașii pentru a participa la programul beta.
 

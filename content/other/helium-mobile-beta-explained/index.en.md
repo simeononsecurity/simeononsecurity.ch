@@ -9,8 +9,7 @@ cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected
 coverAlt: "A vibrant illustration showcasing a network of interconnected devices with Helium Mobile branding, symbolizing the innovative and decentralized approach to mobile connectivity."
 coverCaption: ""
 ---
-
-# Helium Mobile Beta
+## Helium Mobile Beta
 
 Helium Mobile Beta is a groundbreaking mobile carrier that is currently in beta testing, aiming to revolutionize the telecommunications industry. Powered by the decentralized Helium blockchain network, Helium Mobile Beta offers enhanced security, reliability, and affordability compared to traditional cellular networks. In this article, we will explore the key features and benefits of Helium Mobile Beta, as well as its limitations and the steps to participate in the beta program.
 

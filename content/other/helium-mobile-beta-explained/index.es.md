@@ -9,8 +9,7 @@ cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected
 coverAlt: "Una ilustración vibrante que muestra una red de dispositivos interconectados con la marca Helium Mobile, que simboliza el enfoque innovador y descentralizado de la conectividad móvil."
 coverCaption: ""
 ---
-
-# Beta móvil de helio
+## Beta móvil de helio
 
 Helium Mobile Beta es un innovador operador de telefonía móvil que actualmente se encuentra en fase de prueba beta, con el objetivo de revolucionar la industria de las telecomunicaciones. Impulsado por la red blockchain descentralizada de Helium, Helium Mobile Beta ofrece mayor seguridad, confiabilidad y asequibilidad en comparación con las redes celulares tradicionales. En este artículo, exploraremos las características y los beneficios clave de Helium Mobile Beta, así como sus limitaciones y los pasos para participar en el programa beta.
 
