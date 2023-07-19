@@ -1,4 +1,4 @@
-name: hugo
+name: Test Hugo Latest Version
 
 on:
   pull_request:
@@ -13,14 +13,15 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "18.16"
+          node-version: "18"
+          check-latest: true
       # -
       #   name: Install Dependencies
       #   run: npm install && npm i yarn && yarn && npm install -D @babel/cli @babel/core @babel/preset-env browserslist clipboard cssnano postcss postcss-cli postcss-import postcss-mixins postcss-nested postcss-preset-env postcss-url
       - name: Run Hugo
         uses: crazy-max/ghaction-hugo@v2
         with:
-          version: v0.111.3
+          version: latest
           extended: true
           args: --cleanDestinationDir -D -E -F --gc --minify --panicOnWarning --verbose
 
