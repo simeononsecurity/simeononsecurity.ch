@@ -103,7 +103,6 @@ Link = '''
   <https://www.clarity.ms/tag/g45ppf746r>; rel=prefetch,
   <https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=prefetch,
   <https://resources.infolinks.com/js/infolinks_main.js>; rel=prefetch,
-  <https://instant.page/5.2.0>; rel=prefetch,
   <https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js>; rel=prefetch,
   <https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js>; rel=prefetch,
   <https://utteranc.es/client.js>; rel=prefetch
