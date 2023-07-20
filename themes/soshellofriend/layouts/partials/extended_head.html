@@ -14,9 +14,8 @@
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
 </style>
-<noscript>
-  <link rel="preload" href="{{ "style-append.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-</noscript>
+<link rel="preload" href="{{ "style-append.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
 
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
