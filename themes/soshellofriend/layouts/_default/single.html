@@ -56,6 +56,7 @@
       {{ if not (in $currentPath $excludePaths) }}
         {{ partialCached "share-buttons.html" . .Page .Page.Page}}
       {{ end }}
+
       {{ if or .Params.Toc $.Site.Params.Toc }}
         {{ if ne .Params.Toc false }}
         <h2>Table of Contents</h2>
