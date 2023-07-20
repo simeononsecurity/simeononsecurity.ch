@@ -79,10 +79,11 @@
               {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
               {{ with $featured }}{{ printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
             {{ end }}
+
             {{ .Content | html }}
 
             <a hreflang="{{ .Lang }}" href="{{ .Permalink }}">Read More at {{ $.Site.BaseURL }}</a>
-          
+                      
             {{ if gt (len .Translations) 1 }}
             {{ range .Translations }}
               <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
