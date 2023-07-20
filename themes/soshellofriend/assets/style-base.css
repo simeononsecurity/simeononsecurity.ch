@@ -331,7 +331,7 @@
     background-color: var(--background);
     color: #222;
     color: var(--color);
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Helvetica, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Verdana, Georgia, Arial, "Noto Sans", "Liberation Sans", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.54;

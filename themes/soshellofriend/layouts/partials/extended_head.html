@@ -1,12 +1,44 @@
 <!-- Preload first-party fonts -->
 <noscript>
-  <link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
-  <link rel="preload" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
-  <link rel="preload" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
-  <link rel="preload" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
-  <link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
-  <link rel="preload" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
 </noscript>
+
+<!-- Theme CSS -->
+{{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
+{{ $inlineCSS := $baseCSS }}
+<style type="text/CSS">
+{{ $inlineCSS.Content | safeCSS }}
+</style>
+<noscript>
+  <link rel="preload" href="{{ "style-append.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+</noscript>
+
+<!-- preload and prefetch first-party js -->
+<link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $currentPath := .Permalink }}
+{{ $disableComments := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disableComments = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disableComments }}
+  {{ if not (eq .Params.Comments.enable false) }}
+    {{ if not .IsPage}}
+      <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if in (urlize .Permalink) "/search" }}
+  <link rel="preload" href="{{ "js/search.js"| absURL }}" type="text/javascript">
+{{ end }}
+<link rel="prefetch" href="{{ "service-worker.js" | absURL }}" as="script" type="text/javascript" defer>
 
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -148,35 +180,6 @@
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
-
-<!-- Theme CSS -->
-{{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
-{{ $inlineCSS := $baseCSS }}
-<style type="text/CSS">
-{{ $inlineCSS.Content | safeCSS }}
-</style>
-
-<!-- preload and prefetch first-party js -->
-<link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
-{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
-{{ $currentPath := .Permalink }}
-{{ $disableComments := false }}
-{{ range $disabledURLs }}
-  {{ if (in $currentPath .) }}
-    {{ $disableComments = true }}
-  {{ end }}
-{{ end }}
-{{ if not $disableComments }}
-  {{ if not (eq .Params.Comments.enable false) }}
-    {{ if not .IsPage}}
-      <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" as="script" type="text/javascript" async>
-    {{ end }}
-  {{ end }}
-{{ end }}
-{{ if in (urlize .Permalink) "/search" }}
-  <link rel="preload" href="{{ "js/search.js"| absURL }}" type="text/javascript">
-{{ end }}
-<link rel="prefetch" href="{{ "service-worker.js" | absURL }}" as="script" type="text/javascript" defer>
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
 <link rel="manifest" href="{{ "manifest.json" | absURL }}">

@@ -327,7 +327,6 @@ body {
   background-color: var(--background);
   color: #222;
   color: var(--color);
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.54;
