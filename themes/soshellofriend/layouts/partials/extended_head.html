@@ -156,7 +156,6 @@
 {{ $inlineCSS.Content | safeCSS }}
 </style>
 
-
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" as="script" type="text/javascript" async>
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
