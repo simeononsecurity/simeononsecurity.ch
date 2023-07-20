@@ -1,10 +1,10 @@
 <!-- Preload first-party fonts -->
 <link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" fetchpriority="high" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
 <link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" fetchpriority="high" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
 
 <!-- Theme CSS -->
 {{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
