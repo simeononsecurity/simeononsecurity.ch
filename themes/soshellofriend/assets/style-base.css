@@ -22,60 +22,6 @@
     --warning: #ffbb33;
     --error: #ff4444;
   }
-  @font-face {
-    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-    font-display: swap;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    src: url("/assets/fonts/inter-regular.woff2")
-      format("woff2");
-  }
-  @font-face {
-    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-    font-display: swap;
-    font-family: Inter;
-    font-style: italic;
-    font-weight: 400;
-    src: url("/assets/fonts/inter-italic.woff2")
-      format("woff2");
-  }
-  @font-face {
-    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-    font-display: swap;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    src: url("/assets/fonts/inter-medium.woff2")
-      format("woff2");
-  }
-  @font-face {
-    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-    font-display: swap;
-    font-family: Inter;
-    font-style: italic;
-    font-weight: 600;
-    src: url("/assets/fonts/inter-mediumitalic.woff2")
-      format("woff2");
-  }
-  @font-face {
-    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-    font-display: swap;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 800;
-    src: url("/assets/fonts/inter-bold.woff2")
-      format("woff2");
-  }
-  @font-face {
-    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-    font-display: swap;
-    font-family: Inter;
-    font-style: italic;
-    font-weight: 800;
-    src: url("/assets/fonts/inter-bolditalic.woff2")
-      format("woff2");
-  }
   .button,
   a.button,
   button {
@@ -333,8 +279,7 @@
     background-color: var(--background);
     color: #222;
     color: var(--color);
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI,
-      Helvetica, Arial, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.54;

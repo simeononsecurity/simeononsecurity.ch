@@ -1,79 +1,3 @@
-:root {
-  --background: #fff;
-  --background-secondary: #eaeaea;
-  --header: #fafafa;
-  --color: #222;
-  --color-secondary: #999;
-  --border-color: #dcdcdc;
-  --phoneWidth: (max-width: 684px);
-  --tabletWidth: (max-width: 900px);
-  caret-color: transparent;
-}
-body.dark-theme {
-  --background: #161617;
-  --background-secondary: #323337;
-  --header: #252627;
-  --color: #D0D0D3;
-  --color-secondary: #73747b;
-  --border-color: #4a4b50;
-  --accent: #0066cc;
-  --link: #00aaff;
-  --success: #00cc66;
-  --warning: #ffbb33;
-  --error: #ff4444;
-}
-@font-face {
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  font-display: swap;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  src: url(/assets/fonts/Inter-Regular.woff2) format("woff2");
-}
-@font-face {
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  font-display: swap;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 400;
-  src: url(/assets/fonts/Inter-Italic.woff2) format("woff2");
-}
-@font-face {
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  font-display: swap;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  src: url(/assets/fonts/Inter-Medium.woff2) format("woff2");
-}
-@font-face {
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  font-display: swap;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 600;
-  src: url(/assets/fonts/Inter-MediumItalic.woff2) format("woff2");
-}
-@font-face {
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  font-display: swap;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  src: url(/assets/fonts/Inter-Bold.woff2) format("woff2");
-}
-@font-face {
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  font-display: swap;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 800;
-  src: url(/assets/fonts/Inter-BoldItalic.woff2) format("woff2");
-}
-/* Add fallback font-family */
-body {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif;
-}
 .button-container {
   display: table;
   margin-left: auto;
@@ -1584,6 +1508,7 @@ ins.adsbygoogle {
   border-bottom: dotted 4px var(--background-secondary) !important;
   min-height: 100px;
   max-height: 360px;
+  min-width: 300px;
   max-width: 100%;
 }
 .google-ad-banner, .google-ad-skyscraper, .google-ad-square, .google-ad-rectangle, .google-ad-leaderboard, .advert-inline {
