@@ -93,7 +93,6 @@
         <div><a class="read-more button" href="{{.RelPermalink}}" title="read more" hreflang="{{ $languageCode }}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
     </article>
-    {{ partialCached "displayads-responsive-horizontal-index.list..html" . }}   
     {{ end }}
     {{ partialCached "pagination.html" . .Page .Site.Language.Lang .Language.Lang }}
   </div>
