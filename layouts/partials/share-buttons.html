@@ -93,6 +93,17 @@ nav.sharebuttons li > a:hover .will-change {
       min-width: 48px;
       min-height: 48px;
     }
+
+    .sharebuttons ul li {
+        flex-basis: 48px; /* Set the initial width of each list item (adjust this as needed) */
+        margin: 0.2rem; /* Add some margin between the icons */
+    }
+
+    .sharebuttons ul {
+        display: flex;
+        flex-wrap: wrap; /* Allow the buttons to wrap to the next line when there's not enough space */
+        justify-content: center; /* Center the buttons horizontally */
+    }
   }
 </style>
 <script async>
@@ -116,5 +127,3 @@ shareButtons.forEach(function(button) {
     button.addEventListener("click", trackShareButtonClick);
 });
 </script>
-  
-    
