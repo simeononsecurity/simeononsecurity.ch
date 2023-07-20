@@ -85,6 +85,7 @@ Link = '''
   <https://ru.simeononsecurity.ch>; rel=preconnect,
   <https://zh.simeononsecurity.ch>; rel=preconnect,
   </assets/main.js>; rel=preload,
+  </style-append.css>; rel=preload; as="style",
   </assets/fonts/inter-regular.woff2>; rel=preload,
   </assets/fonts/inter-italic.woff2>; rel=preload,
   </assets/fonts/inter-medium.woff2; rel=preload,
