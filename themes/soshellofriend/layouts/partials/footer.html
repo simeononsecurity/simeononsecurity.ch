@@ -19,7 +19,7 @@
 <footer class="footer">
   <footer itemscope itemtype="https://schema.org/SiteNavigationElement">
     <div class="footer__inner">
-      {{ partial "logo.html" . }}
+      {{ partialCached "logo.html" . }}
       <div><span><a itemprop="url" title="{{ i18n "contact_page_title" }}" href="{{ ("contactus/" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "contact_page_title" }}</span></a></span></div>
       <div><span><a itemprop="url" title="{{ i18n "privacy_policy_title" }}" href="{{ ("privacypolicy/" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "privacy_policy_title" }}</span></a></span></div>
       <div><span><a itemprop="url" title="{{ i18n "terms_conditions_title" }}" href="{{ ("termsandconditions/" | absURL) }}" target="_blank" rel="noopener"><span itemprop="name">{{ i18n "terms_conditions_title" }}</span></a></span></div>
@@ -45,23 +45,5 @@
   </div>
   {{ end }}
 </footer>
-
-<script src="{{ "assets/main.js" | absURL }}"></script>
-
-{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
-{{ $currentPath := .Permalink }}
-{{ $disablePrism := false }}
-{{ range $disabledURLs }}
-  {{ if (in $currentPath .) }}
-    {{ $disablePrism = true }}
-  {{ end }}
-{{ end }}
-{{ if not $disablePrism }}
-  {{ if not (eq .Params.Comments.enable false) }}
-    {{ if not .IsPage}}
-      <script src="{{ "assets/prism.js" | absURL }}" defer></script>
-    {{ end }}
-  {{ end }}
-{{ end }}
 
 {{- partialCached "extended_footer.html" . }}
