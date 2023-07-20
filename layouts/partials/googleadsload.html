@@ -6,7 +6,7 @@
 ></script>
 <script defer>
   window.addEventListener("load", function() {
-    var adPlaceholders = document.getElementsByClassName("ad-placeholder");
+    var adPlaceholders = document.querySelectorAll(".ad-placeholder");
     var totalAds = adPlaceholders.length;
     var adsLoaded = 0;
     var observer;
@@ -34,6 +34,12 @@
           'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
         );
 
+        function setAttributes(iframe) {
+          var containerId = iframe.getAttribute("data-google-container-id");
+          iframe.setAttribute("title", "google ads");
+          iframe.setAttribute("role", "banner");
+        }
+
         iframes.forEach(function(iframe) {
           iframe.setAttribute("title", "google ads");
           iframe.setAttribute("role", "banner");
@@ -49,12 +55,6 @@
             });
           }
         });
-
-        function setAttributes(iframe) {
-          var containerId = iframe.getAttribute("data-google-container-id");
-          iframe.setAttribute("title", "google ads");
-          iframe.setAttribute("role", "banner");
-        }
       } catch (error) {
         // Handle any errors that occur during the execution of the code
         console.error("An error occurred:", error);
@@ -79,8 +79,8 @@
       },
       {
         root: null, // Use the viewport as the root
-        rootMargin: "200px", // Set the margin to 200px around the viewport
-        threshold: 0, // Trigger when the target enters the root
+        rootMargin: "100px", // Set the margin to 200px around the viewport
+        threshold: 0.5, // Trigger when the target enters the root
       }
     );
 
