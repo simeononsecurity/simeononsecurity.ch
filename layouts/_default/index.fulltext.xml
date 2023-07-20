@@ -1,0 +1,95 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    
+    {{ if .Site.Params.RssImage }}<image>
+      <url>{{ printf "%s%s" .Permalink .Site.Params.RssImage }}</url>
+      <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+      <link>{{ .Permalink }}</link>
+    </image>
+    {{ end }}
+    
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>{{ with .Site.LanguageCode }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+    {{ with .Site.Author.email }}
+      <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>
+      <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>
+    {{ end }}{{ end }}
+    {{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+	{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+      {{ range $pages }}
+        <item>
+          <title>{{ .Title }}</title>
+          {{ with .Permalink }}
+            <link>{{ . }}</link>
+          {{ end }}
+          <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Sun, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
+          {{ with $.Params.Author }}
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+          {{ else }}
+            {{ with .Site.Author.email }}
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+            {{ else }}
+              {{ with $.Site.Author.name }}
+                <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          <category>
+            {{ if .Params.genre }}
+              {{ range $index, $genre := .Params.genre }}
+                {{ if $index }}, {{ end }}"{{ $genre }}"
+              {{ end }}
+            {{ else if .Params.tags }}
+              {{ range $index, $tag := .Params.tags }}
+                {{ if $index }}, {{ end }}"{{ $tag }}"
+              {{ end }}
+            {{ else }}
+            "cybersecurity", "security", "information security"
+            {{ end }}
+          </category>
+          <guid>{{ .Permalink }}</guid>
+          <comments>https://github.com/simeononsecurity/simeononsecurity.ch-comments/issues</comments>
+          <description>
+            {{ if .Params.Cover }}
+              {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\" loading=\"lazy\">" .RelPermalink .Params.Cover }}
+              {{ else }}{{ printf "<img src=\"%s\" loading=\"lazy\">" (.Params.Cover | absURL) }}
+              {{ end }}
+            {{ else }}
+              {{ $images := .Resources.ByType "image" }}
+              {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
+              {{ with $featured }}{{ printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
+            {{ end }}
+            {{ .Content | html }}
+
+            <a hreflang="{{ .Lang }}" href="{{ .Permalink }}">Read More at {{ $.Site.BaseURL }}</a>
+          
+            {{ if gt (len .Translations) 1 }}
+            {{ range .Translations }}
+              <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+            {{ end }}
+            {{ end }}
+          </description>
+        </item>
+      {{ end }}
+  </channel>
+</rss>

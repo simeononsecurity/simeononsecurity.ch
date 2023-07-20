@@ -10,6 +10,7 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 relativeURLs = true
 enableGitInfo = true
+rssLimit = 25
 refLinksNotFoundURL = "simeononsecurity.ch"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
@@ -128,7 +129,7 @@ disableLatLong = true
 includeFields = ''
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "fulltext"]
 section = ["HTML"]
 page = ["HTML"]
 sitemap = [ "Sitemap" ]
@@ -146,6 +147,11 @@ suffixes = ["xml"]
 [outputFormats.FEED]
 mediatype = "application/rss"
 baseName = "feed"
+
+[outputFormats.fulltext]
+  mediatype = "application/rss"
+  rel = "fulltext"
+  baseName = "fulltext"
 
 [languages]
 [languages.ar]
