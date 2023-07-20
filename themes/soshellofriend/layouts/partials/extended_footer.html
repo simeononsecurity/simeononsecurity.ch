@@ -3,12 +3,23 @@ If you want to include any custom html just before </body>, put it in /layouts/p
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/extended_footer.html doesn't exist.
 -->
 
-<!-- <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop({
-  diameter: 56,
-  backgroundColor: 'rgb(255, 82, 82)',
-  textColor: '#fff'
-})</script> -->
+<script src="{{ "assets/main.js" | absURL }}"></script>
+
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $currentPath := .Permalink }}
+{{ $disablePrism := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disablePrism = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disablePrism }}
+  {{ if not (eq .Params.Comments.enable false) }}
+    {{ if not .IsPage}}
+      <script src="{{ "assets/prism.js" | absURL }}" defer></script>
+    {{ end }}
+  {{ end }}
+{{ end }}
 
 <!-- Scroll to Top Button -->
 <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
