@@ -30,7 +30,7 @@ body.dark-theme {
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
-    src: url("/assets/fonts/inter-regular.woff2") format("woff2");
+    src: url("/assets/fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -39,7 +39,7 @@ body.dark-theme {
     font-family: Inter;
     font-style: italic;
     font-weight: 400;
-    src: url("/assets/fonts/inter-italic.woff2") format("woff2");
+    src: url("/assets/fonts/Inter-Italic.woff2") format("woff2");
 }
 
 @font-face {
@@ -48,7 +48,7 @@ body.dark-theme {
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    src: url("/assets/fonts/inter-medium.woff2") format("woff2");
+    src: url("/assets/fonts/Inter-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -57,7 +57,7 @@ body.dark-theme {
     font-family: Inter;
     font-style: italic;
     font-weight: 600;
-    src: url("/assets/fonts/inter-mediumitalic.woff2") format("woff2");
+    src: url("/assets/fonts/Inter-MediumItalic.woff2") format("woff2");
 }
 
 @font-face {
@@ -66,7 +66,7 @@ body.dark-theme {
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    src: url("/assets/fonts/inter-bold.woff2") format("woff2");
+    src: url("/assets/fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -75,7 +75,7 @@ body.dark-theme {
     font-family: Inter;
     font-style: italic;
     font-weight: 800;
-    src: url("/assets/fonts/inter-bolditalic.woff2") format("woff2");
+    src: url("/assets/fonts/Inter-BoldItalic.woff2") format("woff2");
 }
 
 .button,
