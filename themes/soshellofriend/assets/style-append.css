@@ -1453,9 +1453,9 @@ ins.adsbygoogle {
 /* Rectangle Ad */
 .google-ad-rectangle {
   min-height: 90px;
-  max-height: 600px;
+  max-height: 300px;
   min-width: 300px;
-  max-width: 728px;
+  max-width: 100%;
   align-self: center;
 }
 /* Leaderboard Ad */
@@ -1463,7 +1463,7 @@ ins.adsbygoogle {
   min-height: 90px;
   max-height: 250px;
   min-width: 728px;
-  max-width: 980px;
+  max-width: 100%;
   align-self: center;
 }
 /* Responsive Ad */
