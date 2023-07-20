@@ -98,7 +98,7 @@ ______
 
 ### References
 
-1. [HTTP Strict Transport Security (HSTS)](https://www.chromium.org/hsts/)
+1. [Chromium - HTTP Strict Transport Security (HSTS)](https://www.chromium.org/hsts/)
 2. [HSTS Preload Submission](https://hstspreload.org/)
 3. [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security)
 4. [Google Web Fundamentals - Security](https://developers.google.com/web/fundamentals/security/)
