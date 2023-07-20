@@ -35,7 +35,7 @@
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-      font-display: swap;
+      font-display: optional;
       font-family: Inter;
       font-style: italic;
       font-weight: 400;
@@ -43,7 +43,7 @@
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-      font-display: swap;
+      font-display: optional;
       font-family: Inter;
       font-style: normal;
       font-weight: 600;
@@ -51,7 +51,7 @@
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-      font-display: swap;
+      font-display: optional;
       font-family: Inter;
       font-style: italic;
       font-weight: 600;
@@ -67,7 +67,7 @@
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-      font-display: swap;
+      font-display: optional;
       font-family: Inter;
       font-style: italic;
       font-weight: 800;
