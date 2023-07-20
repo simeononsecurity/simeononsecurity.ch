@@ -16,8 +16,10 @@
         (adsbygoogle = window.adsbygoogle || []).push({
           done_loading: function() {
             adsLoaded++;
+            console.log("Ad loaded:", adsLoaded, "/", totalAds);
             if (adsLoaded === totalAds) {
               // All ads have been loaded, disconnect the observer
+              console.log("All ads have been loaded. Disconnecting the observer.");
               observer.disconnect();
             }
           },
@@ -36,6 +38,7 @@
 
         function setAttributes(iframe) {
           var containerId = iframe.getAttribute("data-google-container-id");
+          console.log("Setting attributes for iframe:", iframe);
           iframe.setAttribute("title", "google ads");
           iframe.setAttribute("role", "banner");
         }
@@ -68,7 +71,9 @@
           if (entry.isIntersecting) {
             // Call the function to handle content loaded only if it hasn't been executed before
             var adPlaceholder = entry.target;
+            console.log("Ad placeholder is in view:", adPlaceholder);
             if (!adPlaceholder.dataset.loaded) {
+              console.log("Loading ad for placeholder:", adPlaceholder);
               handleContentLoaded();
               // Mark the ad as "loaded" to prevent multiple executions
               adPlaceholder.dataset.loaded = true;
@@ -79,7 +84,7 @@
       },
       {
         root: null, // Use the viewport as the root
-        rootMargin: "100px", // Set the margin to 200px around the viewport
+        rootMargin: "100px", // Set the margin to 100px around the viewport
         threshold: 0.5, // Trigger when the target enters the root
       }
     );
@@ -87,6 +92,8 @@
     // Start observing each ad placeholder element
     for (var i = 0; i < totalAds; i++) {
       observer.observe(adPlaceholders[i]);
+      console.log("Observer started observing ad placeholder:", adPlaceholders[i]);
     }
   });
 </script>
+
