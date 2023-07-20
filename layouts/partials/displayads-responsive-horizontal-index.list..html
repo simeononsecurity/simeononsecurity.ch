@@ -1,0 +1,15 @@
+{{ $randomInt := index (seq 100 999 | shuffle) 0 }}
+<div id="ad-placeholder" class="google-ad-rectangle" style="max-width: 100%; max-height: 360px; padding: 0; position: relative; display: flex; justify-content: center; align-items: center;">
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-4092442123207538"
+    data-ad-slot="9757758294"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+    random-int="{{ $randomInt }}"
+  ></ins>
+</div>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
