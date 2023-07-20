@@ -32,9 +32,14 @@
           alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"
           class="post-cover"
           itemprop="contentUrl"
+          {{ if eq .imgloading "eager" }}
+            fetchpriority="high"
+          {{ else }}
+            fetchpriority="low"
+          {{ end }}
           loading="{{ .imgloading }}"
         />
-      </picture>            
+      </picture>                     
     {{ if .context.Params.CoverCaption }}
       <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
     {{ end }}

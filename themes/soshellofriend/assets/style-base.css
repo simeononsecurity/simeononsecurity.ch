@@ -31,7 +31,7 @@
       font-family: Inter;
       font-style: normal;
       font-weight: 400;
-      src: url(/assets/fonts/Inter-Regular.woff2) format("woff2");
+      src: local('Inter-Regular'), url(/assets/fonts/Inter-Regular.woff2) format("woff2");
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -39,7 +39,7 @@
       font-family: Inter;
       font-style: italic;
       font-weight: 400;
-      src: url(/assets/fonts/Inter-Italic.woff2) format("woff2");
+      src: local('Inter-Italic'), url(/assets/fonts/Inter-Italic.woff2) format("woff2");
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -47,7 +47,7 @@
       font-family: Inter;
       font-style: normal;
       font-weight: 600;
-      src: url(/assets/fonts/Inter-Medium.woff2) format("woff2");
+      src: local('Inter-Medium'), url(/assets/fonts/Inter-Medium.woff2) format("woff2");
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -55,7 +55,7 @@
       font-family: Inter;
       font-style: italic;
       font-weight: 600;
-      src: url(/assets/fonts/Inter-MediumItalic.woff2) format("woff2");
+      src: local('Inter-MediumItalic'), url(/assets/fonts/Inter-MediumItalic.woff2) format("woff2");
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -63,7 +63,7 @@
       font-family: Inter;
       font-style: normal;
       font-weight: 800;
-      src: url(/assets/fonts/Inter-Bold.woff2) format("woff2");
+      src: local('Inter-Bold'), url(/assets/fonts/Inter-Bold.woff2) format("woff2");
     }
     @font-face {
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -71,8 +71,38 @@
       font-family: Inter;
       font-style: italic;
       font-weight: 800;
-      src: url(/assets/fonts/Inter-BoldItalic.woff2) format("woff2");
+      src: local('Inter-BoldItalic'), url(/assets/fonts/Inter-BoldItalic.woff2) format("woff2");
     }
+  }
+  /* Set the default values */
+  :root {
+    --slnt: 0;
+    --GRAD: 0;
+  }
+
+  /* Change value for these elements and their children */
+  .slanted {
+    --slnt: 10;
+  }
+
+  .grade-light {
+    --GRAD: -200;
+  }
+
+  .grade-normal {
+    --GRAD: 0;
+  }
+
+  .grade-heavy {
+    --GRAD: 150;
+  }
+
+  /* Apply whatever value is kept in the CSS variables */
+  .slanted,
+  .grade-light,
+  .grade-normal,
+  .grade-heavy {
+    font-variation-settings: 'slnt' var(--slnt), 'GRAD' var(--GRAD);
   }
   .button,
   a.button,
