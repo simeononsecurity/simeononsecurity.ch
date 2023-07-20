@@ -22,7 +22,7 @@ skip_processing = true
 for = "/*"
 
 [headers.values]
-Access-Control-Allow-Origin = "*"
+Access-Control-Allow-Origin = "origin"
 Cache-Control = "Public, max-age=31536000"
 Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), xr-spatial-tracking=()"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
@@ -114,11 +114,9 @@ Link = '''
 [[headers]]
 for = "/securityheaders*"
 [headers.values]
-Access-Control-Allow-Origin = "*"
 Cache-Control = "Public, max-age=31536000"
 Content-Security-Policy = "default-src 'self'; connect-src *; font-src *; img-src *; object-src *; script-src *; style-src *; "
 Cross-Origin-Resource-Policy = "same-origin"
-
 
 [[headers]]
 for = "/*.html"
