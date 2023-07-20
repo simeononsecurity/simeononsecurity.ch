@@ -4,96 +4,70 @@
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538"
   crossorigin="anonymous"
 ></script>
-<script defer>
-  window.addEventListener("load", function() {
-    var adPlaceholders = document.querySelectorAll(".ad-placeholder");
-    var totalAds = adPlaceholders.length;
-    var adsLoaded = 0;
-    var observer;
+<script>
+  // Step 1: Wait for all content to be loaded
+  document.addEventListener("DOMContentLoaded", function() {
+    // Step 2: Wait for all Google ads to be pushed using requestIdleCallback
+    requestIdleCallback(function() {
+      // Execute the fixGoogleIframes function after a timeout (10 seconds in this example)
+      var timeoutId = setTimeout(fixGoogleIframes, 10000);
 
-    function handleContentLoaded() {
-      try {
-        (adsbygoogle = window.adsbygoogle || []).push({
-          done_loading: function() {
-            adsLoaded++;
-            console.log("Ad loaded:", adsLoaded, "/", totalAds);
-            if (adsLoaded === totalAds) {
-              // All ads have been loaded, disconnect the observer
-              console.log("All ads have been loaded. Disconnecting the observer.");
-              observer.disconnect();
-            }
-          },
-        });
-      } catch (error) {
-        // Handle the error gracefully
-        console.error("An error occurred while handling content load:", error);
-      }
-    }
+      var googleAdsObserver = new IntersectionObserver(
+        function(entries, observer) {
+          var allAdsPushed = entries.every(function(entry) {
+            return entry.isIntersecting;
+          });
 
-    function fixGoogleIframes() {
-      try {
-        var iframes = document.querySelectorAll(
-          'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
-        );
-
-        function setAttributes(iframe) {
-          var containerId = iframe.getAttribute("data-google-container-id");
-          console.log("Setting attributes for iframe:", iframe);
-          iframe.setAttribute("title", "google ads");
-          iframe.setAttribute("role", "banner");
-        }
-
-        iframes.forEach(function(iframe) {
-          iframe.setAttribute("title", "google ads");
-          iframe.setAttribute("role", "banner");
-
-          if (
-            iframe.hasAttribute("data-google-container-id") &&
-            iframe.complete
-          ) {
-            setAttributes(iframe);
-          } else {
-            iframe.addEventListener("load", function() {
-              setAttributes(iframe);
-            });
+          if (allAdsPushed) {
+            // If all ads are pushed before the timeout, clear the timeout and execute the function
+            clearTimeout(timeoutId);
+            fixGoogleIframes();
           }
-        });
-      } catch (error) {
-        // Handle any errors that occur during the execution of the code
-        console.error("An error occurred:", error);
-      }
-    }
+        },
+        { threshold: 1 }
+      );
 
-    // Create a new Intersection Observer
-    observer = new IntersectionObserver(
-      function(entries) {
-        entries.forEach(function(entry) {
-          if (entry.isIntersecting) {
-            // Call the function to handle content loaded only if it hasn't been executed before
-            var adPlaceholder = entry.target;
-            console.log("Ad placeholder is in view:", adPlaceholder);
-            if (!adPlaceholder.dataset.loaded) {
-              console.log("Loading ad for placeholder:", adPlaceholder);
-              handleContentLoaded();
-              // Mark the ad as "loaded" to prevent multiple executions
-              adPlaceholder.dataset.loaded = true;
-              fixGoogleIframes();
-            }
-          }
-        });
-      },
-      {
-        root: null, // Use the viewport as the root
-        rootMargin: "100px", // Set the margin to 100px around the viewport
-        threshold: 0.5, // Trigger when the target enters the root
-      }
-    );
-
-    // Start observing each ad placeholder element
-    for (var i = 0; i < totalAds; i++) {
-      observer.observe(adPlaceholders[i]);
-      console.log("Observer started observing ad placeholder:", adPlaceholders[i]);
-    }
+      // Observe all iframes on the page with a src containing "https://googleads.g.doubleclick.net" or a data-google-container-id attribute
+      var iframes = document.querySelectorAll(
+        'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
+      );
+      iframes.forEach(function(iframe) {
+        googleAdsObserver.observe(iframe);
+      });
+    });
   });
-</script>
 
+  function fixGoogleIframes() {
+    try {
+      var iframes = document.querySelectorAll(
+        'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
+      );
+
+      function setAttributes(iframe) {
+        var containerId = iframe.getAttribute("data-google-container-id");
+        console.log("Setting attributes for iframe:", iframe);
+        iframe.setAttribute("title", "google ads");
+        iframe.setAttribute("role", "banner");
+      }
+
+      iframes.forEach(function(iframe) {
+        iframe.setAttribute("title", "google ads");
+        iframe.setAttribute("role", "banner");
+
+        if (
+          iframe.hasAttribute("data-google-container-id") &&
+          iframe.complete
+        ) {
+          setAttributes(iframe);
+        } else {
+          iframe.addEventListener("load", function() {
+            setAttributes(iframe);
+          });
+        }
+      });
+    } catch (error) {
+      // Handle any errors that occur during the execution of the code
+      console.error("An error occurred:", error);
+    }
+  }
+</script>
