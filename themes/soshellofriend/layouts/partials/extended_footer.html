@@ -31,6 +31,8 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
   }
 </script>
 
+<link rel="stylesheet" href="{{ "style-append.css" | absURL }}" defer>
+
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}
 
