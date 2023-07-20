@@ -22,7 +22,7 @@ skip_processing = true
 for = "/*"
 
 [headers.values]
-Access-Control-Allow-Origin = "origin"
+Access-Control-Allow-Origin = "*"
 Cache-Control = "Public, max-age=31536000"
 Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), xr-spatial-tracking=()"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
@@ -41,6 +41,7 @@ Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
 Cross-Origin-Resource-Policy = "cross-origin"
 Server = "simeononsecurity"
 pagespeed = "on"
+vary = "Origin"
 Link = '''
   <https://amazon-adsystem.com>; rel=preconnect,
   <https://cdnjs.cloudflare.com>; rel=preconnect,
