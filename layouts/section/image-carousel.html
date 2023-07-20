@@ -92,7 +92,7 @@
   {{ range .Site.RegularPages }}
     {{ $coverImage := .Params.cover }}
     {{ $coverAlt := .Params.coverAlt }}
-    {{ if $coverImage }}
+    {{ if and $coverImage (ne $coverImage "") }}
       {{ $isDuplicate := false }}
       {{ range $uniqueImages }}
         {{ if eq $coverImage . }}
@@ -103,9 +103,11 @@
       {{ if not $isDuplicate }}
         {{ $uniqueImages = $uniqueImages | append $coverImage }}
         {{ $imageInfo := $coverImage | resources.GetMatch }}
-        {{ $imageWidth := $imageInfo.Width }}
-        {{ $imageHeight := $imageInfo.Height }}
-        <img src="{{ $coverImage }}" alt="{{ $coverAlt }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="lazy"/>
+        {{ if $imageInfo }}
+          {{ $imageWidth := $imageInfo.Width }}
+          {{ $imageHeight := $imageInfo.Height }}
+          <img src="{{ $coverImage }}" alt="{{ $coverAlt }}" width="{{ $imageWidth }}" height="{{ $imageHeight }}" fetchpriority="low" loading="lazy"/>
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}
