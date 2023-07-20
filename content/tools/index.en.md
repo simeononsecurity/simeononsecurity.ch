@@ -20,11 +20,10 @@ sitemap:
 | Network Tools            | A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.                                       | [Nmap Command Generator](/nmap) |
 | Network Tools            | A client-side tool that allows you to ping a domain or IP address and view the latency results.                                                          | [HTTP Ping Tool](/ping) |
 | File Permissions Tools   | A menu-based tool that generates chmod commands based on user input for modifying file permissions.                                                     | [Chmod Command Generator](/chmod) |
-
-
+| Security Headers Check   | Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling CORS policies.                    | [Security Headers Check](/securityheaders) |
 ## Password Tools
 
-This section provides tools related to password management and security. 
+This section provides tools related to password management and security.
 ### [Password Strength Checker](/password-checker)
 Check the strength of your passwords with our Password Strength Checker tool. Ensure your passwords are secure and protect your online accounts.
 
@@ -62,6 +61,9 @@ A menu-based tool that generates Nmap commands based on user input for scanning 
 
 ### [HTTP Ping Tool](/ping)
 A client-side tool that allows you to ping a domain or IP address and view the latency results.
+
+### [Security Headers Check](/securityheaders)
+Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling CORS policies.
 
 ## File Permissions Tools
 

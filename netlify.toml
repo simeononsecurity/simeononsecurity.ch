@@ -109,6 +109,16 @@ Link = '''
   <https://utteranc.es/client.js>; rel=prefetch
 '''
 
+
+[[headers]]
+for = "/securityheaders*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Cache-Control = "Public, max-age=31536000"
+Content-Security-Policy = "default-src 'self'; connect-src *; font-src *; img-src *; object-src *; script-src *; style-src *; "
+Cross-Origin-Resource-Policy = "same-origin"
+
+
 [[headers]]
 for = "/*.html"
 [headers.values]

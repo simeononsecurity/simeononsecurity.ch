@@ -17,6 +17,7 @@ X-XSS-Protection = "1; mode=block"
 for = "/*"
 
 [server.headers.values]
+Access-Control-Allow-Origin = "*"
 #The `Expect-CT` header is deprecated and will be removed. Chrome requires Certificate Transparency for all publicly trusted certificates issued after April 30, 2018.
 #Expect-Ct = "enforce, max-age=2592000, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
 #Feature-Policy = "microphone 'none'; geolocation 'none'; accelerometer 'none'; autoplay 'none'; camera 'none'; display-capture 'none'; gyroscope 'none'; magnetometer 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; usb 'none'; xr-spatial-tracking 'none'"
@@ -80,6 +81,14 @@ Link = '''
   <https://ru.simeononsecurity.ch>; rel=preconnect,
   <https://zh.simeononsecurity.ch>; rel=preconnect
 '''
+
+[[server.headers]]
+for = "/securityheaders*"
+[server.headers.values]
+Access-Control-Allow-Origin = "*"
+Cache-Control = "Public, max-age=31536000"
+Content-Security-Policy = "default-src 'self'; connect-src *; font-src *; img-src *; object-src *; script-src *; style-src *; "
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[server.headers]]
 for = "/*.html"
