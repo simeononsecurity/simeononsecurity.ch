@@ -1,10 +1,12 @@
 <!-- Preload first-party fonts -->
-<link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" as="font" type="font/woff2" crossorigin>
+<noscript>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+  <link rel="preload" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" as="font" type="font/woff2" onload="this.rel = 'stylesheet'" crossorigin>
+</noscript>
 
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -193,6 +195,7 @@
 
 <!-- preload and prefetch third-party js -->
 <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" />
+<link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" type="text/javascript">
 <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript">
 <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" type="text/javascript">
 <link rel="prefetch" href="https://instant.page/5.2.0" type="text/javascript">
