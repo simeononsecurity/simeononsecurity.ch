@@ -1,10 +1,10 @@
 <!-- Preload first-party fonts -->
-<link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" fetchpriority="high" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" fetchpriority="high" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" crossorigin media="(min-width: 768px)">
+<link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" fetchpriority="high" as="font" type="font/woff2" media="(min-width: 768px)">
+<link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" fetchpriority="high" as="font" type="font/woff2" media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" media="(min-width: 768px)">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2" media="(min-width: 768px)">
 
 <!-- Theme CSS -->
 {{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
@@ -190,14 +190,14 @@
 <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
 
 <!-- preload and prefetch third-party js -->
-<link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-<link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-<link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+<link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" as="script" type="text/javascript" crossorigin="anonymous">
+<link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" as="script" type="text/javascript" crossorigin="anonymous">
+<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript"                                                 crossorigin="anonymous">
+<link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" as="script" type="text/javascript" crossorigin="anonymous">
 
 {{ if in (urlize .Permalink) "/search" }}
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" crossorigin="anonymous">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" crossorigin="anonymous">
 {{ end }}
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
