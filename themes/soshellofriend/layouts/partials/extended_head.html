@@ -12,7 +12,8 @@
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
 </style>
-<link rel="preload" href="{{ "style-append.css" | absURL }}" fetchpriority="high" as="style" onload="this.onload=null;this.rel='stylesheet'">
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" fetchpriority="high" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 <!-- preload and prefetch first-party js -->
@@ -33,7 +34,7 @@
   {{ end }}
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-  <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="high" type="text/javascript">
+  <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="high" as="script" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript" defer>
 
@@ -195,8 +196,8 @@
 <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
 
 {{ if in (urlize .Permalink) "/search" }}
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
 {{ end }}
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
@@ -209,6 +210,6 @@
 {{ end }}
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
-  <link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript" fetchpriority="low">
+  <link rel="prefetch" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low">
   {{ end }}
 {{ end }}
