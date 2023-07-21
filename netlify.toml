@@ -33,7 +33,7 @@ X-Content-Type-Options = "nosniff"
 X-Frame-Options = "sameorigin"
 X-Robots-Tag = "index, follow"
 X-Xss-Protection = "1; mode=block"
-Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; script-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://*.googlesyndication.com https://*.amazon-adsystem.com https://cdnjs.cloudflare.com/ https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com https://ws-na.amazon-adsystem.com https://www.google-analytics.com/ https://cdn.ampproject.org https://cdn.jsdelivr.net https://*.gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://stats.g.doubleclick.net https://utteranc.es https://*.utteranc.es https://pagead2.googlesyndication.com https://go.ezoic.net https://static.cloudflareinsights.com 'unsafe-inline' 'unsafe-eval' https: data:; font-src 'self' data: https: https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com ; object-src 'none'; img-src 'self' data: https: https://*.cloudfront.net https://raw.githubusercontent.com; frame-src 'self' https: data: https://googleads.g.doubleclick.net https://stats.g.doubleclick.net https://ws-na.amazon-adsystem.com https://www.youtube.com; upgrade-insecure-requests; frame-ancestors 'none'"
+Content-Security-Policy = "default-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com 'unsafe-inline' https: data:; script-src 'self' https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com https://*.googlesyndication.com https://*.amazon-adsystem.com https://cdnjs.cloudflare.com/ https://*.cloudfront.net https://ajax.cloudflare.com https://raw.githubusercontent.com https://ws-na.amazon-adsystem.com https://www.google-analytics.com/ https://cdn.ampproject.org https://cdn.jsdelivr.net https://*.gstatic.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://googletagservices.com https://stats.g.doubleclick.net https://utteranc.es https://*.utteranc.es https://pagead2.googlesyndication.com https://go.ezoic.net https://static.cloudflareinsights.com https://resources.infoLinks.com https://www.clarity.ms 'unsafe-inline' 'unsafe-eval' https: data:; font-src 'self' data: https: https://fonts.gstatic.com https://*.cloudfront.net https://simeononsecurity.ch https://simeononsecurity.com https://*.simeononsecurity.ch https://*.simeononsecurity.com ; object-src 'none'; img-src 'self' data: https: https://*.cloudfront.net https://raw.githubusercontent.com; frame-src 'self' https: data: https://googleads.g.doubleclick.net https://stats.g.doubleclick.net https://ws-na.amazon-adsystem.com https://www.youtube.com; upgrade-insecure-requests; frame-ancestors 'none'"
 Cross-Origin-Opener-Policy-Report-Only = 'unsafe-none; report-to="default"'
 Cross-Origin-Opener-Policy = 'unsafe-none; report-to="default"'
 Cross-Origin-Embedder-Policy-Report-Only = 'unsafe-none; report-to="default"'
@@ -42,72 +42,74 @@ Cross-Origin-Resource-Policy = "cross-origin"
 Server = "simeononsecurity"
 pagespeed = "on"
 vary = "Origin"
-Link = '<https://simeononsecurity.com>; rel=preconnect'
-Link = '<https://simeononsecurity.ch>; rel=preconnect'
-Link = '<https://ar.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://bn.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://ca.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://de.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://es.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://fr.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://hi.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://it.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://ja.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://nl.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://pa.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://pl.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://pt.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://ro.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://ru.simeononsecurity.ch>; rel=preconnect'
-Link = '<https://zh.simeononsecurity.ch>; rel=preconnect'
-Link = '</assets/main.js>; rel=preload; as="script"; fetchpriority="high"'
-Link = '</style-append.min.css>; rel=preload; as="style"; fetchpriority="high"'
-Link = '</assets/fonts/Inter-Regular.woff2>; rel=preload; as="font"; fetchpriority="high"'
-Link = '</assets/fonts/Inter-Bold.woff2>; rel=preload; as="font"; fetchpriority="high"'
-Link = '</assets/fonts/Inter-Italic.woff2; rel=prefetch; as="font"; fetchpriority="low"'
-Link = '</assets/fonts/Inter-Medium.woff2>; rel=prefetch; as="font"; fetchpriority="low"'
-Link = '</assets/fonts/Inter-MediumItalic.woff2>; rel=prefetch; as="font"; fetchpriority="low"'
-Link = '</assets/fonts/Inter-BoldItalic.woff2>; rel=prefetch; as="font"; fetchpriority="low"'
-Link = '</assets/prism.js>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '</js/search.js>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '</service-worker.js>; rel=prefetch; as="script"; fetchpriority="low"; fetchpriority="low"'
-Link = '</manifest.json>; rel=prefetch; as="script"; fetchpriority="low"; fetchpriority="low"'
-Link = '</img/favicon.png>; rel=prefetch; as="image"; fetchpriority="low"; fetchpriority="low"'
-Link = '</img/apple-touch-icon-144-precomposed.png>; rel=prefetch; as="image"; fetchpriority="low"'
-Link = '</img/apple-touch-icon-192.png>; rel=prefetch; as="image"; fetchpriority="low"'
-Link = '</img/apple-touch-icon-144-precomposed.png>; rel=prefetch; as="image"; fetchpriority="low"'
-Link = '</img/apple-touch-icon-192.png>; rel=prefetch; as="image"; fetchpriority="low"'
-Link = '<https://amazon-adsystem.com>; rel=preconnect'
-Link = '<https://cdnjs.cloudflare.com>; rel=preconnect'
-Link = '<https://cdn.ampproject.org>; rel=preconnect'
-Link = '<https://cdn.jsdelivr.net>; rel=preconnect'
-Link = '<https://cloudfront.ne>; rel=preconnect'
-Link = '<https://fonts.googleapis.com>; rel=preconnect'
-Link = '<https://fonts.gstatic.com>; rel=preconnect'
-Link = '<https://google-analytics.com>; rel=preconnect'
-Link = '<https://googleads.g.doubleclick.net>; rel=preconnect'
-Link = '<https://googletagservices.com>; rel=preconnect'
-Link = '<https://gstatic.com>; rel=preconnect'
-Link = '<https://maxcdn.bootstrapcdn.com>; rel=preconnect'
-Link = '<https://pagead1.googlesyndication.com>; rel=preconnect'
-Link = '<https://pagead2.googlesyndication.com>; rel=preconnect'
-Link = '<https://securepubads.g.doubleclick.net>; rel=preconnect'
-Link = '<https://static.cloudflareinsights.com>; rel=preconnect'
-Link = '<https://tpc.googlesyndication.com>; rel=preconnect'
-Link = '<https://utteranc.es>; rel=preconnect'
-Link = '<https://www.clarity.ms>; rel=preconnect'
-Link = '<https://www.google-analytics.com>; rel=preconnect'
-Link = '<https://www.gstatic.com>; rel=preconnect'
-Link = '<https://www.googletagmanager.com>; rel=preconnect'
-Link = '<https://z-na.amazon-adsystem.com>; rel=preconnect'
-Link = '<https://ws-na.amazon-adsystem.com>; rel=preconnect'
-Link = '<https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '<https://www.clarity.ms/tag/g45ppf746r>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '<https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '<https://resources.infoLinks.com/js/infoLinks_main.js>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '<https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '<https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js>; rel=prefetch; as="script"; fetchpriority="low"'
-Link = '<https://utteranc.es/client.js>; rel=prefetch; as="script"; fetchpriority="low"'
+Link = '''
+<https://simeononsecurity.com>; rel=preconnect,
+<https://simeononsecurity.ch>; rel=preconnect,
+<https://ar.simeononsecurity.ch>; rel=preconnect,
+<https://bn.simeononsecurity.ch>; rel=preconnect,
+<https://ca.simeononsecurity.ch>; rel=preconnect,
+<https://de.simeononsecurity.ch>; rel=preconnect,
+<https://es.simeononsecurity.ch>; rel=preconnect,
+<https://fr.simeononsecurity.ch>; rel=preconnect,
+<https://hi.simeononsecurity.ch>; rel=preconnect,
+<https://it.simeononsecurity.ch>; rel=preconnect,
+<https://ja.simeononsecurity.ch>; rel=preconnect,
+<https://nl.simeononsecurity.ch>; rel=preconnect,
+<https://pa.simeononsecurity.ch>; rel=preconnect,
+<https://pl.simeononsecurity.ch>; rel=preconnect,
+<https://pt.simeononsecurity.ch>; rel=preconnect,
+<https://ro.simeononsecurity.ch>; rel=preconnect,
+<https://ru.simeononsecurity.ch>; rel=preconnect,
+<https://zh.simeononsecurity.ch>; rel=preconnect,
+</assets/main.js>; rel=preload; as="script"; fetchpriority="high",
+</style-append.min.css>; rel=preload; as="style"; fetchpriority="high",
+</assets/fonts/Inter-Regular.woff2>; rel=preload; as="font"; fetchpriority="high",
+</assets/fonts/Inter-Bold.woff2>; rel=preload; as="font"; fetchpriority="high",
+</assets/fonts/Inter-Italic.woff2; rel=prefetch; as="font"; fetchpriority="low",
+</assets/fonts/Inter-Medium.woff2>; rel=prefetch; as="font"; fetchpriority="low",
+</assets/fonts/Inter-MediumItalic.woff2>; rel=prefetch; as="font"; fetchpriority="low",
+</assets/fonts/Inter-BoldItalic.woff2>; rel=prefetch; as="font"; fetchpriority="low",
+</assets/prism.js>; rel=prefetch; as="script"; fetchpriority="low",
+</js/search.js>; rel=prefetch; as="script"; fetchpriority="low",
+</service-worker.js>; rel=prefetch; as="script"; fetchpriority="low"; fetchpriority="low",
+</manifest.json>; rel=prefetch; as="script"; fetchpriority="low"; fetchpriority="low",
+</img/favicon.png>; rel=prefetch; as="image"; fetchpriority="low"; fetchpriority="low",
+</img/apple-touch-icon-144-precomposed.png>; rel=prefetch; as="image"; fetchpriority="low",
+</img/apple-touch-icon-192.png>; rel=prefetch; as="image"; fetchpriority="low",
+</img/apple-touch-icon-144-precomposed.png>; rel=prefetch; as="image"; fetchpriority="low",
+</img/apple-touch-icon-192.png>; rel=prefetch; as="image"; fetchpriority="low",
+<https://amazon-adsystem.com>; rel=preconnect,
+<https://cdnjs.cloudflare.com>; rel=preconnect,
+<https://cdn.ampproject.org>; rel=preconnect,
+<https://cdn.jsdelivr.net>; rel=preconnect,
+<https://cloudfront.ne>; rel=preconnect,
+<https://fonts.googleapis.com>; rel=preconnect,
+<https://fonts.gstatic.com>; rel=preconnect,
+<https://google-analytics.com>; rel=preconnect,
+<https://googleads.g.doubleclick.net>; rel=preconnect,
+<https://googletagservices.com>; rel=preconnect,
+<https://gstatic.com>; rel=preconnect,
+<https://maxcdn.bootstrapcdn.com>; rel=preconnect,
+<https://pagead1.googlesyndication.com>; rel=preconnect,
+<https://pagead2.googlesyndication.com>; rel=preconnect,
+<https://securepubads.g.doubleclick.net>; rel=preconnect,
+<https://static.cloudflareinsights.com>; rel=preconnect,
+<https://tpc.googlesyndication.com>; rel=preconnect,
+<https://utteranc.es>; rel=preconnect,
+<https://www.clarity.ms>; rel=preconnect,
+<https://www.google-analytics.com>; rel=preconnect,
+<https://www.gstatic.com>; rel=preconnect,
+<https://www.googletagmanager.com>; rel=preconnect,
+<https://z-na.amazon-adsystem.com>; rel=preconnect,
+<https://ws-na.amazon-adsystem.com>; rel=preconnect,
+<https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=prefetch; as="script"; fetchpriority="low",
+<https://www.clarity.ms/tag/g45ppf746r>; rel=prefetch; as="script"; fetchpriority="low",
+<https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=prefetch; as="script"; fetchpriority="low",
+<https://resources.infoLinks.com/js/infoLinks_main.js>; rel=prefetch; as="script"; fetchpriority="low",
+<https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js>; rel=prefetch; as="script"; fetchpriority="low",
+<https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js>; rel=prefetch; as="script"; fetchpriority="low",
+<https://utteranc.es/client.js>; rel=prefetch; as="script"; fetchpriority="low"
+'''
 
 [[headers]]
 for = "/securityheaders*"
