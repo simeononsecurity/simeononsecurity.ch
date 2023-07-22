@@ -80,7 +80,7 @@
               {{ with $featured }}{{ printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
             {{ end }}
 
-            {{ .Content | html }}
+            {{ .Content | markdownify }}
 
             <a hreflang="{{ .Lang }}" href="{{ .Permalink }}">Read More at {{ $.Site.BaseURL }}</a>
                       
