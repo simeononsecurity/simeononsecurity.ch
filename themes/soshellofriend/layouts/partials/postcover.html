@@ -7,10 +7,6 @@
       {{ $cover = resources.GetRemote (printf "%s%s" .context.Permalink .context.Params.Cover) }}
     {{ end }}
     {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
-    {{ $micro := ($cover.Resize "20x webp q20") }}
-      {{ $microfilename := printf "%s_%dx%d.%s" $permalink $micro.Width $micro.Height "webp" | urlize }}
-      {{ $microrenamedimage := $micro | resources.Copy $microfilename }}
-      {{ $optimizedmicro := $microrenamedimage.Permalink}}   
     {{ $tiny := ($cover.Resize "240x webp q50") }}
       {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
       {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
@@ -25,10 +21,10 @@
       {{ $optimizedmedium := $mediumrenamedimage.Permalink}} 
       <picture>
         <source 
-          srcset="{{ $optimizedmedium }} 731w, {{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w, {{ $optimizedmicro }} 20w" 
-          sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
+          srcset="{{ $optimizedmedium }} 731w, {{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
+          sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, calc(80.53vw - 21px)"
           media="(min-width: 200px)">
-        <img src="{{ $optimizedmicro }}"
+        <img src="{{ $optimizedtiny }}"
           alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"
           class="post-cover"
           itemprop="contentUrl"
