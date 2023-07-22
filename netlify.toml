@@ -151,7 +151,6 @@ for = "/*"
 Access-Control-Allow-Origin = "*"
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
 Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
-Content-Type = "image/jpeg"
 
 [[headers]]
 for = "/*.png"
