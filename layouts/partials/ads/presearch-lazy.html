@@ -1,0 +1,91 @@
+{{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
+{{ $tiny := ($tinysrc.Resize "300x 250w webp q80") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrc.RelPermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/presearch/ban-5.jpg" }}
+{{ $small := ($smallsrc.Resize "468x webp q80") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrc.RelPermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/presearch/ban-4.jpg" }}
+{{ $medium := ($mediumsrc.Resize "728x webp q80") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrc.RelPermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+
+<style>
+  /* Styles for the image at different screen sizes */
+  .presearch-ad-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  /* Hide the image for viewports smaller than 300px */
+  @media (max-width: 299px) {
+    .presearch-ad-image {
+      display: none;
+    }
+  }
+
+  /* Styles for the image at 728x90 */
+  @media (min-width: 728px) {
+    .presearch-ad-image {
+      width: 728px;
+      height: 90px;
+    }
+  }
+
+  /* Styles for the image at 468x60 */
+  @media (min-width: 468px) and (max-width: 727px) {
+    .presearch-ad-image {
+      width: 468px;
+      height: 60px;
+    }
+  }
+
+  /* Styles for the image at 300x250 */
+  @media (min-width: 300px) and (max-width: 467px) {
+    .presearch-ad-image {
+      width: 300px;
+      height: 250px;
+    }
+  }
+</style>
+
+<a
+  href="https://presearch.com/signup?rid=3518896"
+  target="_blank"
+  rel="noopener sponsored"
+  title="Presearch Ad"
+  id="presearch-ad"
+  class="presearch-ad-link"
+>
+  <picture>
+    <source
+      srcset="{{ $optimizedmedium }}"
+      media="(min-width: 728px)"
+      type="image/webp"
+    />
+    <source
+      srcset="{{ $optimizedsmall }}"
+      media="(min-width: 468px)"
+      type="image/webp"
+    />
+    <source
+      srcset="{{ $optimizedtiny }}"
+      media="(min-width: 300px)"
+      type="image/webp"
+    />
+    <img
+      src="{{ $optimizedtiny }}"
+      alt="Presearch Ad"
+      class="presearch-ad-image"
+      itemprop="contentUrl"
+      fetchpriority="low"
+      loading="lazy"
+    />
+  </picture>
+</a>

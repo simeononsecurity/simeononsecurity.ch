@@ -5,6 +5,8 @@
   {{ $imgloading := "eager" }}
   {{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
   <br>
+  {{ partialCached "ads/presearch-eager.html" . }}
+  <br>
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <h1 class="post-title" itemprop="headline">{{ .Title | markdownify }}</h1>
     <div class="post-meta">

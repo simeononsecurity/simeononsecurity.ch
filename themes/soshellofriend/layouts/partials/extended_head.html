@@ -38,6 +38,27 @@
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript" defer>
 
+<!-- Preload Presearch Ads-->
+{{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
+{{ $tiny := ($tinysrc.Resize "300x webp q80") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrc.RelPermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/presearch/ban-5.jpg" }}
+{{ $small := ($smallsrc.Resize "468x webp q80") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrc.RelPermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/presearch/ban-4.jpg" }}
+{{ $medium := ($mediumsrc.Resize "728x webp q80") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrc.RelPermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+  <link rel="preload" href="{{ $optimizedtiny }}" as="image" fetchpriority="high" />
+  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
+<!-- END Preload Presearch Ads-->
+
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
