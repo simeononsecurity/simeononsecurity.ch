@@ -19,7 +19,7 @@
 
 <style>
   /* Styles for the image at different screen sizes */
-  .presearch-ad-image {
+  .presearch-ad-lazy-image {
     display: block;
     max-width: 100%;
     height: auto;
@@ -28,14 +28,14 @@
 
   /* Hide the image for viewports smaller than 300px */
   @media (max-width: 299px) {
-    .presearch-ad-image {
+    .presearch-ad-lazy-image {
       display: none;
     }
   }
 
   /* Styles for the image at 728x90 */
   @media (min-width: 728px) {
-    .presearch-ad-image {
+    .presearch-ad-lazy-image {
       width: 728px;
       height: 90px;
     }
@@ -43,7 +43,7 @@
 
   /* Styles for the image at 468x60 */
   @media (min-width: 468px) and (max-width: 727px) {
-    .presearch-ad-image {
+    .presearch-ad-lazy-image {
       width: 468px;
       height: 60px;
     }
@@ -51,7 +51,7 @@
 
   /* Styles for the image at 300x250 */
   @media (min-width: 300px) and (max-width: 467px) {
-    .presearch-ad-image {
+    .presearch-ad-lazy-image {
       width: 450px;
       height: 375px;
     }
@@ -63,8 +63,8 @@
   target="_blank"
   rel="noopener sponsored"
   title="Presearch Ad"
-  id="presearch-ad"
-  class="presearch-ad-link"
+  id="presearch-ad-lazy"
+  class="presearch-ad-lazy-link"
 >
   <picture>
     <source
@@ -82,7 +82,7 @@
     <img
       src="{{ $optimizedtiny }}"
       alt="Presearch Ad"
-      class="presearch-ad-image"
+      class="presearch-ad-lazy-image"
       itemprop="contentUrl"
       fetchpriority="low"
       loading="lazy"
