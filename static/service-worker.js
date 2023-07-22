@@ -8,6 +8,8 @@ const staticAssets = [
     '/img/apple-touch-icon-192.png'
 ];
 
+const OFFLINE_URL = '/offline.html'; // Define the URL of the offline page
+
 self.addEventListener('install', function (event) {
     console.log('[ServiceWorker] Install');
     event.waitUntil((async () => {
