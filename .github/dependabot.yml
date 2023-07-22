@@ -5,9 +5,16 @@
 
 version: 2
 updates:
+  # Update npm packages
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/themes/hellofriend/" # Location of package manifests
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
     versioning-strategy: auto
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
