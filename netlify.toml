@@ -78,9 +78,9 @@ Link = '''
 </img/apple-touch-icon-192.png>; rel=prefetch; as="image"; fetchpriority="low",
 </img/apple-touch-icon-144-precomposed.png>; rel=prefetch; as="image"; fetchpriority="low",
 </img/apple-touch-icon-192.png>; rel=prefetch; as="image"; fetchpriority="low",
-</img/ads/presearch/ban-4.jpg_728x90.webp>; rel=prefetch; as="image"; fetchpriority="low",
-</img/ads/presearch/ban-5.jpg_468x60.webp>; rel=prefetch; as="image"; fetchpriority="low",
-</img/ads/presearch/ban-3.jpg_300x250.webp>; rel=preload; as="image"; fetchpriority="high",
+</img/ads/presearch/ban-4_728x90.webp>; rel=prefetch; as="image"; fetchpriority="low",
+</img/ads/presearch/ban-5_468x60.webp>; rel=prefetch; as="image"; fetchpriority="low",
+</img/ads/presearch/ban-3_300x250.webp>; rel=prefetch; as="image"; fetchpriority="low",
 <https://amazon-adsystem.com>; rel=preconnect,
 <https://cdnjs.cloudflare.com>; rel=preconnect,
 <https://cdn.ampproject.org>; rel=preconnect,
@@ -147,7 +147,7 @@ Expires = "{{ currentTime.AddDate 1 0 0 | httpdate }}"
 Content-Type = "image/jpeg"
 
 [[headers]]
-for = "/*.jpg"
+for = "/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"

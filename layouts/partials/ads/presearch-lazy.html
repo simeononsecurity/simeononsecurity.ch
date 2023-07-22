@@ -1,16 +1,19 @@
 {{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpg" "" }}
 {{ $tiny := ($tinysrc.Resize "300x 250w webp q80") }}
-  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrc.RelPermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
 {{ $smallsrc := resources.Get "img/ads/presearch/ban-5.jpg" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".jpg" "" }}
 {{ $small := ($smallsrc.Resize "468x webp q80") }}
-  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrc.RelPermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
   {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
   {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
 {{ $mediumsrc := resources.Get "img/ads/presearch/ban-4.jpg" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".jpg" "" }}
 {{ $medium := ($mediumsrc.Resize "728x webp q80") }}
-  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrc.RelPermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
   {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
 
