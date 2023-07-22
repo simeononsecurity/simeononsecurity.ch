@@ -35,6 +35,15 @@
       <description>{{ .Summary | html }}</description>
       <content:encoded>
       {{ `<![CDATA[` | safeHTML }}
+        {{ if .Params.Cover }}
+            {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\" loading=\"lazy\">" .RelPermalink .Params.Cover }}
+            {{ else }}{{ (printf "<img src=\"%s\" loading=\"lazy\">" (.Params.Cover | absURL)) | safeHTML }}
+            {{ end }}
+        {{ else }}
+            {{ $images := .Resources.ByType "image" }}
+            {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
+            {{ with $featured }}{{ (printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink) | safeHTML }}{{ end }}
+        {{ end }}
         {{ .Content }}
       {{ `]]>` | safeHTML }}
       </content:encoded>
