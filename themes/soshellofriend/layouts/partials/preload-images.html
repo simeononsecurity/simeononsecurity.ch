@@ -17,9 +17,9 @@
   {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
   {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
-  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
-  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 728px)" />
+  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(min-width: 468px) and (max-width: 727px)" />
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 467px)" />
 <!-- END Preload and Prefetch Presearch Ad Images -->
 
 <!-- Preload and Prefetch Cover Images on List Pages -->
