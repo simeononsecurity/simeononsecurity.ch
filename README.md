@@ -34,7 +34,7 @@ SimeonOnSecurity.ch supports the [security.txt](https://securitytxt.org/) [RFC](
 Find relevant details for reporting any security concerns or vulnerabilities with our website or any of our repos [here](https://simeononsecurity.ch/.well-known/security.txt).
 - Verified reports will be posted in the [SimeonOnSecurity Hall of Fame](https://simeononsecurity.ch/hof)
 
-## Domains Built with This Source
+## Domains Built with This Source:
 - [https://simeononsecurity.com](https://simeononsecurity.com)
 - [https://simeononsecurity.ch](https://simeononsecurity.ch)
 - [https://ar.simeononsecurity.ch](https://ar.simeononsecurity.ch)
