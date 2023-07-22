@@ -15,7 +15,6 @@
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
 <link rel="preload" href="{{ $style.Permalink }}" fetchpriority="high" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" fetchpriority="high" as="script" type="text/javascript" async>
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
