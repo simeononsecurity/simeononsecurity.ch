@@ -23,7 +23,8 @@ Welcome to the SimeonOnSecurity website! Here, we provide the latest information
 - [Node.js](https://nodejs.org/en/): A dependency for Hello Friend, used for dynamic theme generation.
 - [Netlify](https://www.netlify.com/): Used for Hosting, SSL Registration, Forms, and Automated Hugo Site Generation.
 - [glotta](https://github.com/simeononsecurity/glotta): Used for article translations, supporting 16 languages. Developed by [1nf053c](https://github.com/1nf053c).
-- [Progressive Web App / Service Workers](https://web.dev/progressive-web-apps/): Implemented to improve site usability and accessibility. Looking for help with [this issue](https://github.com/simeononsecurity/simeononsecurity.ch/issues/487).
+- [Progressive Web App / Service Workers](https://web.dev/progressive-web-apps/): Implemented to improve site usability and accessibility. 
+  - Looking for help with [this issue](https://github.com/simeononsecurity/simeononsecurity.ch/issues/487).
 
 ## Responsible Disclosure
 
