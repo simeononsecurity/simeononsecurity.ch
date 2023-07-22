@@ -62,33 +62,40 @@
 <!-- END Preload and Prefetch Presearch Ad Images -->
 
 <!-- Preload and Prefetch Cover Images -->
-<!-- Preload and Prefetch Cover Images -->
-{{ range .Pages }}
+{{ $pages := .Paginator.Pages }}
+{{ if not $pages }}
+  {{ $pages = slice . }}
+{{ end }}
+
+{{ range $pages }}
+  <!-- Preload and Prefetch Cover Images -->
   {{ if and (not (or (eq .Params.Cover "") (eq .Params.Cover " ") (eq .Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .Params.Cover "/"))}}
     {{ $cover := resources.Get (.Params.Cover) }}
     {{ if $cover }}
-          {{ if .Params.UseRelativeCover }}
-            {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
-          {{ end }}
-          {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
-          {{ $tiny := ($cover.Resize "240x webp q50") }}
-          {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
-          {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
-          {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
-          {{ $small := ($cover.Resize "480x webp q50") }}
-          {{ $smallfilename := printf "%s_%dx%d.%s" $permalink $small.Width $small.Height "webp" | urlize }}
-          {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
-          {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
-          {{ $medium := ($cover.Resize "731x webp q50") }}
-          {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
-          {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
-          {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-          <link rel="preload" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
-          <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
-          <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
+      {{ if .Params.UseRelativeCover }}
+        {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+      {{ end }}
+      {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
+      {{ $tiny := ($cover.Resize "240x webp q50") }}
+      {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
+      {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+      {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+      {{ $small := ($cover.Resize "480x webp q50") }}
+      {{ $smallfilename := printf "%s_%dx%d.%s" $permalink $small.Width $small.Height "webp" | urlize }}
+      {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+      {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+      {{ $medium := ($cover.Resize "731x webp q50") }}
+      {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
+      {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+      {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+      <figure class="post-cover" itemscope itemtype="https://schema.org/ImageObject">
+        <link rel="preload" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
+        <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
+        <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
       </figure>
     {{ end }}
   {{ end }}
+  <!-- END Preload and Prefetch Cover Images -->
 {{ end }}
 <!-- END Preload and Prefetch Cover Images -->
 <!-- Preload and Prefetch Cover Image for Single Page -->
