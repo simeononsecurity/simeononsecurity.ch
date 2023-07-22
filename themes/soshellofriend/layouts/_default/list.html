@@ -2,6 +2,7 @@
 {{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
 <br>
 {{ partialCached "ads/presearch-eager.html" . }}
+{{ partialCached "ads/orangewebsite-eager-floating.html" . }}
 <br>
 {{ $languageCode := $.Site.LanguageCode }}
   <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>

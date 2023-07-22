@@ -1,6 +1,6 @@
 {{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpg" "" }}
-{{ $tiny := ($tinysrc.Resize "450x375 250w webp q80") }}
+{{ $tiny := ($tinysrc.Resize "450x375 webp q80") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
