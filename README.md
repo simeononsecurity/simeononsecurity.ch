@@ -1,7 +1,7 @@
 # Welcome to the SimeonOnSecurity Website
 
 <a href="https://simeononsecurity.ch" target="_blank" rel="noopener referrer">
-  <img src="https://simeononsecurity.ch/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="100">
+  <img src="https://simeononsecurity.ch/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
 </a>
 
 ## Introduction
