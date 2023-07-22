@@ -118,7 +118,6 @@ Link = '''
 for = "/securityheaders*"
 [headers.values]
 Cache-Control = "Public, max-age=31536000"
-
 Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
