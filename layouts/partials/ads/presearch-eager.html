@@ -1,6 +1,6 @@
 {{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpg" "" }}
-{{ $tiny := ($tinysrc.Resize "300x 250w webp q80") }}
+{{ $tiny := ($tinysrc.Resize "450x375 250w webp q80") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
@@ -19,7 +19,7 @@
 
 <style>
   /* Styles for the image at different screen sizes */
-  .presearch-ad-image {
+  .presearch-ad-eager-image {
     display: block;
     max-width: 100%;
     height: auto;
@@ -28,14 +28,14 @@
 
   /* Hide the image for viewports smaller than 300px */
   @media (max-width: 299px) {
-    .presearch-ad-image {
+    .presearch-ad-eager-image {
       display: none;
     }
   }
 
   /* Styles for the image at 728x90 */
   @media (min-width: 728px) {
-    .presearch-ad-image {
+    .presearch-ad-eager-image {
       width: 728px;
       height: 90px;
     }
@@ -43,7 +43,7 @@
 
   /* Styles for the image at 468x60 */
   @media (min-width: 468px) and (max-width: 727px) {
-    .presearch-ad-image {
+    .presearch-ad-eager-image {
       width: 468px;
       height: 60px;
     }
@@ -51,9 +51,9 @@
 
   /* Styles for the image at 300x250 */
   @media (min-width: 300px) and (max-width: 467px) {
-    .presearch-ad-image {
-      width: 300px;
-      height: 250px;
+    .presearch-ad-eager-image {
+      width: 450px;
+      height: 375px;
     }
   }
 </style>
@@ -63,8 +63,8 @@
   target="_blank"
   rel="noopener sponsored"
   title="Presearch Ad"
-  id="presearch-ad"
-  class="presearch-ad-link"
+  id="presearch-ad-eager"
+  class="presearch-ad-eager-link"
 >
   <picture>
     <source
@@ -77,12 +77,12 @@
     />
     <source
       srcset="{{ $optimizedtiny }}"
-      media="(min-width: 300px)"
+      media="(min-width: 450px)"
     />
     <img
       src="{{ $optimizedtiny }}"
       alt="Presearch Ad"
-      class="presearch-ad-image"
+      class="presearch-ad-eager-image"
       itemprop="contentUrl"
       fetchpriority="high"
       loading="eager"

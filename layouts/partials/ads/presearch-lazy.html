@@ -1,6 +1,6 @@
 {{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpg" "" }}
-{{ $tiny := ($tinysrc.Resize "300x 250w webp q80") }}
+{{ $tiny := ($tinysrc.Resize "450x375 250w webp q80") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
@@ -52,8 +52,8 @@
   /* Styles for the image at 300x250 */
   @media (min-width: 300px) and (max-width: 467px) {
     .presearch-ad-image {
-      width: 300px;
-      height: 250px;
+      width: 450px;
+      height: 375px;
     }
   }
 </style>
@@ -77,7 +77,7 @@
     />
     <source
       srcset="{{ $optimizedtiny }}"
-      media="(min-width: 300px)"
+      media="(min-width: 450px)"
     />
     <img
       src="{{ $optimizedtiny }}"
