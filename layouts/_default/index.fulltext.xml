@@ -45,6 +45,14 @@
             {{ with $featured }}{{ (printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink) | safeHTML }}{{ end }}
         {{ end }}
         {{ .Content }}
+        {{ (printf "<a hreflang=\"%s\" href=\"%s\">Read More at %s</a>" .Lang .Permalink $.Site.BaseURL) | safeHTML }}
+                            
+        {{ if gt (len .Translations) 1 }}
+        {{ range .Translations }}
+        {{ (printf "<link rel=\"alternate\" hreflang=\"%s\" href=\"%s\" />" .Language.Lang .Permalink) | safeHTML }}
+        {{ end }}
+        {{ end }}
+
       {{ `]]>` | safeHTML }}
       </content:encoded>
     </item>
