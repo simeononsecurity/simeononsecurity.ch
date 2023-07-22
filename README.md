@@ -35,21 +35,21 @@ Find relevant details for reporting any security concerns or vulnerabilities wit
 - Verified reports will be posted in the [SimeonOnSecurity Hall of Fame](https://simeononsecurity.ch/hof)
 
 ## Domains Built with This Source
-- [https://simeononsecurity.com](https://simeononsecurity.com){:rel="preconnect" hreflang="en"}
-- [https://simeononsecurity.ch](https://simeononsecurity.ch){:rel="preconnect" hreflang="en"}
-- [https://ar.simeononsecurity.ch](https://ar.simeononsecurity.ch){:rel="preconnect" hreflang="ar"}
-- [https://bn.simeononsecurity.ch](https://bn.simeononsecurity.ch){:rel="preconnect" hreflang="bn"}
-- [https://ca.simeononsecurity.ch](https://ca.simeononsecurity.ch){:rel="preconnect" hreflang="ca"}
-- [https://de.simeononsecurity.ch](https://de.simeononsecurity.ch){:rel="preconnect" hreflang="de"}
-- [https://es.simeononsecurity.ch](https://es.simeononsecurity.ch){:rel="preconnect" hreflang="es"}
-- [https://fr.simeononsecurity.ch](https://fr.simeononsecurity.ch){:rel="preconnect" hreflang="fr"}
-- [https://hi.simeononsecurity.ch](https://hi.simeononsecurity.ch){:rel="preconnect" hreflang="hi"}
-- [https://it.simeononsecurity.ch](https://it.simeononsecurity.ch){:rel="preconnect" hreflang="it"}
-- [https://ja.simeononsecurity.ch](https://ja.simeononsecurity.ch){:rel="preconnect" hreflang="ja"}
-- [https://nl.simeononsecurity.ch](https://nl.simeononsecurity.ch){:rel="preconnect" hreflang="nl"}
-- [https://pa.simeononsecurity.ch](https://pa.simeononsecurity.ch){:rel="preconnect" hreflang="pa"}
-- [https://pl.simeononsecurity.ch](https://pl.simeononsecurity.ch){:rel="preconnect" hreflang="pl"}
-- [https://pt.simeononsecurity.ch](https://pt.simeononsecurity.ch){:rel="preconnect" hreflang="pt"}
-- [https://ro.simeononsecurity.ch](https://ro.simeononsecurity.ch){:rel="preconnect" hreflang="ro"}
-- [https://ru.simeononsecurity.ch](https://ru.simeononsecurity.ch){:rel="preconnect" hreflang="ru"}
-- [https://zh.simeononsecurity.ch](https://zh.simeononsecurity.ch){:rel="preconnect" hreflang="zh"}
+- [https://simeononsecurity.com](https://simeononsecurity.com)
+- [https://simeononsecurity.ch](https://simeononsecurity.ch)
+- [https://ar.simeononsecurity.ch](https://ar.simeononsecurity.ch)
+- [https://bn.simeononsecurity.ch](https://bn.simeononsecurity.ch)
+- [https://ca.simeononsecurity.ch](https://ca.simeononsecurity.ch)
+- [https://de.simeononsecurity.ch](https://de.simeononsecurity.ch)
+- [https://es.simeononsecurity.ch](https://es.simeononsecurity.ch)
+- [https://fr.simeononsecurity.ch](https://fr.simeononsecurity.ch)
+- [https://hi.simeononsecurity.ch](https://hi.simeononsecurity.ch)
+- [https://it.simeononsecurity.ch](https://it.simeononsecurity.ch)
+- [https://ja.simeononsecurity.ch](https://ja.simeononsecurity.ch)
+- [https://nl.simeononsecurity.ch](https://nl.simeononsecurity.ch)
+- [https://pa.simeononsecurity.ch](https://pa.simeononsecurity.ch)
+- [https://pl.simeononsecurity.ch](https://pl.simeononsecurity.ch)
+- [https://pt.simeononsecurity.ch](https://pt.simeononsecurity.ch)
+- [https://ro.simeononsecurity.ch](https://ro.simeononsecurity.ch)
+- [https://ru.simeononsecurity.ch](https://ru.simeononsecurity.ch)
+- [https://zh.simeononsecurity.ch](https://zh.simeononsecurity.ch)
