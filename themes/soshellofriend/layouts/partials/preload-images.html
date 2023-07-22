@@ -44,7 +44,7 @@
             {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
             {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
             {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-            <link rel="preload" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
+            <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
             <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
             <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
             </figure>
@@ -113,7 +113,7 @@
         {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
         {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
         {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-          <link rel="preload" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
+          <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
           <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
           <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
         </figure>
