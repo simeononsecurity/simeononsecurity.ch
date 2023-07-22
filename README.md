@@ -24,7 +24,7 @@ Welcome to the SimeonOnSecurity website! Here, we provide the latest information
 - [Netlify](https://www.netlify.com/): Used for Hosting, SSL Registration, Forms, and Automated Hugo Site Generation.
 - [glotta](https://github.com/simeononsecurity/glotta): Used for article translations, supporting 16 languages. Developed by [1nf053c](https://github.com/1nf053c).
 - [Progressive Web App / Service Workers](https://web.dev/progressive-web-apps/): Implemented to improve site usability and accessibility. 
-  - Looking for help with [this issue](https://github.com/simeononsecurity/simeononsecurity.ch/issues/487).
+  - We're looking for help with [this issue](https://github.com/simeononsecurity/simeononsecurity.ch/issues/487).
 
 ## Responsible Disclosure
 
@@ -34,7 +34,7 @@ Verified reports will be acknowledged in the [SimeonOnSecurity Hall of Fame](htt
 
 ## Domains Built with This Source
 
-Our website has been used to build the following domains:
+This source code has been used to build the following domains:
 
 - [https://simeononsecurity.com](https://simeononsecurity.com)
 - [https://simeononsecurity.ch](https://simeononsecurity.ch)
