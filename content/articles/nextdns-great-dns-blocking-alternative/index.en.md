@@ -160,7 +160,7 @@ Additionally, its ability to provide **detailed insights and analytics** empower
 So, if you're seeking a reliable and user-friendly DNS blocking service, give [**NextDNS**](https://nextdns.io/?from=37pk8rg9) a try and experience the enhanced security and control it brings to your online journey.
 ______
 
-## **Affiliate Disclosure:** 
+## **Affiliate Disclosure** 
 
 As an affiliate of NextDNS, I want to disclose that I did not receive any payment or compensation for writing this article. No money exchanged hands between NextDNS and me for creating this content. The opinions expressed in this article are entirely my own, and I genuinely believe that NextDNS serves an essential purpose in providing robust DNS filtering services in today's digital world.
 ______
