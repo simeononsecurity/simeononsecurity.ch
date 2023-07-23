@@ -3,7 +3,7 @@ If you want to include any custom html just before </body>, put it in /layouts/p
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/extended_footer.html doesn't exist.
 -->
 
-<script src="{{ "assets/main.js" | absURL }}"></script>
+<script src="{{ "assets/main.js" | absURL }}" fetchpriority="high"></script>
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
 {{ $currentPath := .Permalink }}
@@ -16,7 +16,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ if not $disablePrism }}
   {{ if not (eq .Params.Comments.enable false) }}
     {{ if not .IsPage}}
-      <script async src="{{ "assets/prism.js" | absURL }}"></script>
+      <script async src="{{ "assets/prism.js" | absURL }}" fetchpriority="high"></script>
     {{ end }}
   {{ end }}
 {{ end }}
@@ -43,7 +43,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 </script>
 
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
-<link defer rel="stylesheet" href="{{ $style.Permalink }}">
+<link defer rel="stylesheet" href="{{ $style.Permalink }}" fetchpriority="high">
 
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}
