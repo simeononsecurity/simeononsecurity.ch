@@ -1,6 +1,6 @@
 {{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpg" "" }}
-{{ $tiny := ($tinysrc.Resize "450x375 webp q80") }}
+{{ $tiny := ($tinysrc.Resize "450x375 webp q90") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
@@ -27,7 +27,7 @@
   }
 
   /* Hide the image for viewports smaller than 300px */
-  @media (max-width: 299px) {
+  @media (max-width: 420px) {
     .presearch-ad-lazy-image {
       display: none;
     }
@@ -44,8 +44,8 @@
   /* Styles for the image at 468x60 */
   @media (min-width: 468px) and (max-width: 727px) {
     .presearch-ad-lazy-image {
-      width: 468px;
-      height: 60px;
+      width: 450px !important;
+      height: 375px !important;
     }
   }
 

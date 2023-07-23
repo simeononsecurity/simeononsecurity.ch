@@ -181,7 +181,7 @@
 {{ end -}}
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" fetchpriority="low" as="manifest" href="{{ "manifest.json" | absURL }}">
+<link rel="manifest" fetchpriority="low" as="manifest" href="{{ ("manifest.json" | absURL) }}">
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
