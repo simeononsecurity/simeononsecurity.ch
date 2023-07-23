@@ -50,9 +50,32 @@
   <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
   <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
   <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
+  <link rel="prefetch" href="{{ $optimizedmicro }}" as="image" fetchpriority="auto" />
 <!-- END Preload and Prefetch Orange Website Ad Images -->
 
+<!-- Preload and Prefetch Pawnsapp Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/pawnsapp/earn_money_general_300x300.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "450x375 gif q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/pawnsapp/earn_money_general_468x60.png" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".png" "" }}
+{{ $small := ($smallsrc.Resize "468x60 gif q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/pawnsapp/earn_money_general_728x90.png" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".png" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 gif q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
+<!-- END Preload and Prefetch Pawnsapp Ad Images -->
 
 <!-- Preload and Prefetch Cover Images on List Pages -->
 {{- if .IsSection -}}
