@@ -20,6 +20,14 @@
   <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 728px)" />
   <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(min-width: 468px) and (max-width: 727px)" />
   <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" media="(max-width: 467px)" />
+<!-- Preload and Prefetch Presearch Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 gif q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
 <!-- END Preload and Prefetch Presearch Ad Images -->
 
 <!-- Preload and Prefetch Orange Website Ad Images -->
@@ -51,6 +59,14 @@
   <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
   <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" />
   <link rel="prefetch" href="{{ $optimizedmicro }}" as="image" fetchpriority="auto" />
+<!-- Preload and Prefetch Orange Website Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/orangewebsite/animation_336x280.gif" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 gif q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
 <!-- END Preload and Prefetch Orange Website Ad Images -->
 
 <!-- Preload and Prefetch Pawnsapp Ad Images -->
@@ -74,6 +90,14 @@
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
   <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
   <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
+<!-- Preload and Prefetch Pawnsapp Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/pawnsapp/earn_money_general_300x300.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 gif q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
   <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
 <!-- END Preload and Prefetch Pawnsapp Ad Images -->
 
