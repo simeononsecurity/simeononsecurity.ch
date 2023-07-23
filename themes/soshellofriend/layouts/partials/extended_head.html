@@ -184,11 +184,11 @@
 <link rel="manifest" fetchpriority="low" as="manifest" href="{{ ("manifest.json" | absURL) }}">
 
 <!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
-<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" />
-<link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}">
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" fetchpriority="low"/>
+<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" fetchpriority="low"/>
+<link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" fetchpriority="low">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" fetchpriority="low">
+<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" fetchpriority="low"/>
 
 <!-- preload and prefetch third-party js -->
 {{ if not $.Site.IsServer }}
