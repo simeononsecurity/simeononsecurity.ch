@@ -29,6 +29,8 @@ ______
 
 One of Next DNS's standout features is its **AI-driven threat detection system**, which utilizes advanced algorithms to dynamically adapt to new and emerging cyber threats, providing users with up-to-date protection against potential hazards.
 
+{{< youtube id="WUG57ynLb8I" >}}
+
 ### Key Features of Next DNS
 
 - **Ad blocking**: Say goodbye to intrusive ads and enjoy a cleaner online environment.
@@ -55,6 +57,8 @@ ______
 
 If safeguarding your privacy while enjoying an ad-free browsing experience is your priority, **AdGuard DNS** is a top contender. Operating as a dedicated DNS server, AdGuard DNS effectively filters out unwanted content, including pesky ads and potential malware-infected domains.
 
+{{< youtube id="B2V_8M9cjYw" >}}
+
 ### Key Features of AdGuard DNS
 
 - **Ad blocking**: AdGuard DNS eliminates intrusive advertisements, granting you a seamless browsing journey.
@@ -80,6 +84,8 @@ ______
 
 If uncompromising security is your top priority, look no further than [**Quad9**](https://quad9.net), a non-profit DNS service dedicated to safeguarding users from accessing malicious websites that pose potential threats to their devices and data.
 
+{{< youtube id="ZSvbmP7cuik" >}}
+
 ### Key Features of Quad9
 
 - **Malware blocking**: Quad9 employs robust malware blocking mechanisms, proactively shielding users from harmful content.
@@ -104,6 +110,8 @@ ______
 
 When it comes to **security** and **performance**, [**Cloudflare DNS**](https://1.1.1.1) stands out as an integral part of the Cloudflare ecosystem, renowned for its global Content Delivery Network (CDN) and top-notch security services. Cloudflare DNS offers a well-balanced combination of robust security features and optimized performance enhancements.
 
+{{< youtube id="TiWs9n4fhys" >}}
+
 ### Key Features of Cloudflare DNS
 
 - **Malware and adult content filtering**: Cloudflare DNS actively filters out malware and adult content, ensuring a safer online experience.
@@ -127,6 +135,8 @@ ______
 ## Pi-hole: The Self-Hosted DNS Solution
 
 [**Pi-hole**](https://pi-hole.net) sets itself apart from cloud-based DNS services by offering a unique self-hosted DNS sinkhole that can be installed on a Raspberry Pi or any other Linux-based server. Functioning as a network-wide ad and tracker blocker, Pi-hole provides users with unparalleled customization capabilities.
+
+{{< youtube id="KBXTnrD_Zs4" >}}
 
 ### Key Features of Pi-hole
 
