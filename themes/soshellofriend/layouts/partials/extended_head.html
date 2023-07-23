@@ -192,15 +192,17 @@
 
 <!-- preload and prefetch third-party js -->
 {{ if not $.Site.IsServer }}
-  <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" as="script" type="text/javascript" crossorigin="anonymous">
-  <link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" as="script" type="text/javascript" crossorigin="anonymous">
-  <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript" crossorigin="anonymous">
-  <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" as="script" type="text/javascript" crossorigin="anonymous">
+  <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  <link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  {{ if not .IsHome }}
+    <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  {{ end }}
 {{ end }}
 
-{{ if in (urlize .Permalink) "/search" }}
-  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" crossorigin="anonymous">
-  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" crossorigin="anonymous">
+{{ if strings.Contains .RelPermalink "/search" }}
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
 {{ end }}
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
@@ -213,6 +215,6 @@
 {{ end }}
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
-  <link rel="prefetch" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low">
+  <link rel="prefetch" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
   {{ end }}
 {{ end }}
