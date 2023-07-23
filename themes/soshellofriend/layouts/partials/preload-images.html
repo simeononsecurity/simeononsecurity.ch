@@ -111,6 +111,38 @@
   <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
 <!-- END Preload and Prefetch Earnapp Ad Images -->
 
+<!-- Preload and Prefetch traffmonitizer Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-1080x1080.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "450x webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-728x90.png" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".png" "" }}
+{{ $small := ($smallsrc.Resize "468x webp q80") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-728x90.png" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".png" "" }}
+{{ $medium := ($mediumsrc.Resize "728x webp q80") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" />
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
+<!-- Preload and Prefetch traffmonitizer Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-1080x1080.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "255x webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
+<!-- END Preload and Prefetch traffmonitizer Ad Images -->
+
 <!-- Preload and Prefetch Cover Images on List Pages -->
 {{- if .IsSection -}}
     {{ range .Paginator.Pages }}
