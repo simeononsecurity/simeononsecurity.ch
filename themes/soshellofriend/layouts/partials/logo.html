@@ -5,7 +5,7 @@
   title="simeononsecurity logo"
 >
   {{ if $.Site.Params.Logo.path }}
-    <img src="{{ $.Site.Params.Logo.path }}" alt="{{ $.Site.Params.Logo.alt }}" loading="lazy"/>
+    <img src="{{ $.Site.Params.Logo.path }}" alt="{{ $.Site.Params.Logo.alt }}" fetchpriority="low" loading="lazy"/>
     {{ else }}
     <span class="logo__mark">{{ partialCached "greater-icon.html" . }}</span>
     <span class="logo__text"
