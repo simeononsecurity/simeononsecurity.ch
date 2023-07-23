@@ -47,6 +47,7 @@
         data-sizes="440w"
         loading="lazy"
         itemprop="contentUrl"
+        fetchpriority="low"
       >
     </div>
 
@@ -60,6 +61,7 @@
         data-sizes="440w"
         loading="lazy"
         itemprop="contentUrl"
+        fetchpriority="low"
       >
     </div>
   {{ end }}
@@ -103,7 +105,8 @@
         height="{{ $height }}"
         width="{{ $width }}"
         style="height: auto; width: 100%; object-fit: contain;"
-        itemprop="contentUrl" 
+        itemprop="contentUrl"
+        fetchpriority="low"
       >
     </div>
   {{ else }}
@@ -120,6 +123,7 @@
         width="{{ $width }}"
         style="height: auto; width: 100%; object-fit: contain;"
         itemprop="contentUrl" 
+        fetchpriority="low"
       >
     </div>
   {{ end }}
