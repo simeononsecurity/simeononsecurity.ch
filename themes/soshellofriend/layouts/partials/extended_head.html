@@ -167,13 +167,13 @@
     {{ $hreflang = "zh" }}
   {{ end }}
   {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-    <link rel="alternate" title="{{ $currentPageTitle }} iin {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
-    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
-    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
-    <link rel="preconnect" href="{{ $baseURL }}">
-    <link rel="dns-prefetch" href="{{ $baseURL }}">
+    <link rel="alternate" title="{{ $currentPageTitle }} iin {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" fetchpriority="low"/>
+    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" fetchpriority="low"/>
+    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" fetchpriority="low"/>
+    <link rel="preconnect" href="{{ $baseURL }}" fetchpriority="low">
+    <link rel="dns-prefetch" href="{{ $baseURL }}" fetchpriority="low">
   {{ end }}
-  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
+  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" fetchpriority="low"/>
   
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
@@ -201,9 +201,9 @@
   {{ end }}
 {{ end }}
 
-{{ if strings.Contains .RelPermalink "/search" }}
-  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
-  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+{{ if and (strings.Contains .RelPermalink "/search") (eq .Section "search") }}
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
 {{ end }}
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
