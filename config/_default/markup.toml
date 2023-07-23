@@ -3,8 +3,6 @@ plainIDAnchors = true
 taskLists = false
 extensions = ["hardLineBreak", "autoHeaderIds"]
 
-
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
