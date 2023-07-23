@@ -33,7 +33,7 @@
   {{ end }}
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
-  <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="high" as="script" type="text/javascript">
+  <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="low" as="script" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript" defer>
 
@@ -101,7 +101,7 @@
 {{ end }}
 
 <!-- mastodon verification  -->
-<link rel="me" title="mastodon verification" href="https://mastodon.world/@simeononsecurity" />
+<link rel="me" title="mastodon verification" href="https://mastodon.world/@simeononsecurity" fetchpriority="low" />
 
 <!-- Localization -->
   {{ $baseURLs := slice
