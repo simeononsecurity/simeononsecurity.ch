@@ -101,6 +101,16 @@
   <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
 <!-- END Preload and Prefetch Pawnsapp Ad Images -->
 
+<!-- Preload and Prefetch Earnapp Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/earnapp/banner_Website_200x200.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "255x webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="auto" />
+<!-- END Preload and Prefetch Earnapp Ad Images -->
+
 <!-- Preload and Prefetch Cover Images on List Pages -->
 {{- if .IsSection -}}
     {{ range .Paginator.Pages }}
