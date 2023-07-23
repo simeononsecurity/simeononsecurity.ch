@@ -111,13 +111,13 @@ Link = '''
 <https://www.googletagmanager.com>; rel=preconnect,
 <https://z-na.amazon-adsystem.com>; rel=preconnect,
 <https://ws-na.amazon-adsystem.com>; rel=preconnect,
-<https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=prefetch; as="script"; fetchpriority="low",
-<https://www.clarity.ms/tag/g45ppf746r>; rel=prefetch; as="script"; fetchpriority="low",
-<https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=prefetch; as="script"; fetchpriority="low",
-<https://resources.infoLinks.com/js/infoLinks_main.js>; rel=prefetch; as="script"; fetchpriority="low",
-<https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js>; rel=prefetch; as="script"; fetchpriority="low",
-<https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js>; rel=prefetch; as="script"; fetchpriority="low",
-<https://utteranc.es/client.js>; rel=prefetch; as="script"; fetchpriority="low"
+<https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6>; rel=prefetch; as="script"; fetchpriority="low"; crossorigin="anonymous",
+<https://www.clarity.ms/tag/g45ppf746r>; rel=prefetch; as="script"; fetchpriority="low"; crossorigin="anonymous",
+<https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538>; rel=prefetch; as="script"; fetchpriority="low"; crossorigin="anonymous",
+<https://resources.infoLinks.com/js/infoLinks_main.js>; rel=prefetch; as="script"; fetchpriority="low"; crossorigin="anonymous",
+<https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js>; rel=prefetch; as="script"; fetchpriority="low"; crossorigin="anonymous",
+<https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js>; rel=prefetch; as="script"; fetchpriority="low"; crossorigin="anonymous",
+<https://utteranc.es/client.js>; rel=prefetch; as="script"; fetchpriority="low; crossorigin="anonymous"
 '''
 
 [[headers]]
