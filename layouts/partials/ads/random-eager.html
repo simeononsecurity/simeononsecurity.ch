@@ -1,4 +1,4 @@
-{{ $ads := slice "orangewebsite-eager.html" "pawnsapp-eager.html" "traffmonitizer-eager.html" "presearch-eager.html" }}
+{{ $ads := slice "orangewebsite-eager.html" "pawnsapp-eager.html" "traffmonetizer-eager.html" "presearch-eager.html" }}
 {{ $shuffledAds := shuffle $ads }}
 {{ $randomAd := index $shuffledAds 0 }}
 {{ partial (printf "ads/%s" $randomAd) . }}

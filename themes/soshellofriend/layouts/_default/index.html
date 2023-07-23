@@ -16,8 +16,8 @@
   {{ end }}
 
   <br>
-  {{ partialCached "ads/presearch-eager.html" . }}
-  {{ partialCached "ads/presearch-eager-floating.html" . }}
+  {{ partialCached "ads/random-eager.html" .Page .Page.Page }}
+  {{ partialCached "ads/random-eager-floating.html" .Page .Page.Page }}
   <br>
 
   {{ if .IsHome }}

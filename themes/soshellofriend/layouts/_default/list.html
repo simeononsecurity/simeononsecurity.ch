@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
 <br>
-{{ partialCached "ads/pawnsapp-eager.html" . }}
-{{ partialCached "ads/orangewebsite-eager-floating.html" . }}
+{{ partialCached "ads/random-eager.html" .Page .Page.Page }}
+{{ partialCached "ads/random-eager-floating.html" .Page .Page.Page }}
 <br>
 {{ $languageCode := $.Site.LanguageCode }}
   <h1 class="post-title"><a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">{{ if strings.Contains $.Permalink "/tags/" }}Other Posts Tagged "<u>{{ .Title | markdownify }}</u>"{{ else }}{{ .Title | markdownify }}{{ end }}</a></h1>

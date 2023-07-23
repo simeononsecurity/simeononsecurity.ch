@@ -5,8 +5,8 @@
   {{ $imgloading := "eager" }}
   {{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
   <br>
-  {{ partialCached "ads/presearch-eager.html" . }}
-  {{ partialCached "ads/pawnsapp-eager-floating.html" . }}
+  {{ partialCached "ads/random-eager.html" .Page .Page.Page }}
+  {{ partialCached "ads/random-eager-floating.html" .Page .Page.Page }}
   <br>
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <h1 class="post-title" itemprop="headline">{{ .Title | markdownify }}</h1>
