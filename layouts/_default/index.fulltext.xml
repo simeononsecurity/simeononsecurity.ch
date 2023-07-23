@@ -36,16 +36,16 @@
       <content:encoded>
       {{ `<![CDATA[` | safeHTML }}
         {{ if .Params.Cover }}
-            {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\" loading=\"lazy\">" .RelPermalink .Params.Cover }}
-            {{ else }}{{ (printf "<img src=\"%s\" loading=\"lazy\">" (.Params.Cover | absURL)) | safeHTML }}
+            {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\">" .RelPermalink .Params.Cover }}
+            {{ else }}{{ (printf "<img src=\"%s\">" (.Params.Cover | absURL)) | safeHTML }}
             {{ end }}
         {{ else }}
             {{ $images := .Resources.ByType "image" }}
             {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
-            {{ with $featured }}{{ (printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink) | safeHTML }}{{ end }}
+            {{ with $featured }}{{ (printf "<img src=\"%s\">" $featured.RelPermalink) | safeHTML }}{{ end }}
         {{ end }}
         {{ .Content }}
-        {{ (printf "<a hreflang=\"%s\" href=\"%s\">Read More at %s</a>" .Lang .Permalink $.Site.BaseURL) | safeHTML }}
+        {{ (printf "<a href=\"%s\">Read More at %s</a>" .Permalink $.Site.BaseURL) | safeHTML }}
                             
         {{ if gt (len .Translations) 1 }}
         {{ range .Translations }}
