@@ -1,1 +1,2 @@
-<script defer src="https://instant.page/5.2.0" type="module"></script>
+{{ $instantpage := (resources.Get "js/instantpage-5.2.0.js") }}
+<script defer src="{{ $instantpage.Permalink }}" type="module"></script>

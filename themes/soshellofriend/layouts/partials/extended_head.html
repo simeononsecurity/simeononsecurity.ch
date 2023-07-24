@@ -188,6 +188,8 @@
 {{ if not $.Site.IsServer }}
   <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
   <link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+  {{ $instantpage := (resources.Get "js/instantpage-5.2.0.js") }}
+  <link rel="prefetch" href="{{ $instantpage.Permalink }}" type="text/javascript" fetchpriority="low">
   {{ if not .IsHome }}
     <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
     <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202307180101/show_ads_impl_with_ama_fy2021.js?client=ca-pub-4092442123207538&plah=simeononsecurity.ch" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
