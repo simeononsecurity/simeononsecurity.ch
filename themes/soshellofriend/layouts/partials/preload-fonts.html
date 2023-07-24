@@ -1,8 +1,12 @@
 <!-- first-party fonts -->
 <!-- Prefetch non-critical fonts with low importance -->
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+{{ $fontFilesPath := "assets/fonts/" }}
+{{ $files := readDir $fontFilesPath }}
+
+{{ range $files }}
+  {{ $isWoff2 := hasSuffix .Name ".woff2" }}
+  {{ if $isWoff2 }}
+    {{ $fontLink := .Name | absURL }}
+    <link rel="prefetch" href="{{ $fontLink }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+  {{ end }}
+{{ end }}
