@@ -1341,6 +1341,20 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
  }
 }
 
+/* Center elements with class "IL_BASE" INFOLINKS*/
+.IL_BASE {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Center elements with class "IL_IN_ARTICLE_0" to "IL_IN_ARTICLE_12" and "IL_IN_ARTICLE_CONTAINER_0" to "IL_IN_ARTICLE_CONTAINER_12" */
+[class^="IL_IN_ARTICLE_"], [class^="IL_IN_ARTICLE_CONTAINER_"] {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
 /* Styles specifically for <ins> elements with class "adsbygoogle" */
 ins.adsbygoogle {
   display: block; /* or inline-block, depending on your layout */
