@@ -58,10 +58,12 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
     <!-- Microsoft Clarity -->
     {{ template "_internal/microsoft_clarity.html" . }}
 
+    {{ if not .IsHome }}
     <!-- Ads JS Load -->
     {{ partialCached "googleadsload.html" . }}
 
     <!-- Load Info Links -->
     {{ partialCached "infolinks.html" . }}
+    {{ end }}
 {{ end }}
 
