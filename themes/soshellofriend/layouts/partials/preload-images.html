@@ -17,9 +17,9 @@
   {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
   {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
-  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 728px)"/>
-  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
 <!-- Preload and Prefetch Presearch Floating Ad Image -->
 {{ $tinysrc := resources.Get "img/ads/presearch/ban-3.jpg" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
@@ -27,7 +27,7 @@
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="high" media="(min-width: 720px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 720px)"/>
 <!-- END Preload and Prefetch Presearch Ad Images -->
 
 <!-- Preload and Prefetch Orange Website Ad Images -->
@@ -55,10 +55,10 @@
   {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "gif" | urlize }}
   {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }}  
-  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 728px)"/>
-  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
-  <link rel="prefetch" href="{{ $optimizedmicro }}" as="image" fetchpriority="low" media="(max-width: 449px) and (min-width: 300px)"/>
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
+  <link rel="prefetch" href="{{ $optimizedmicro }}" fetchpriority="low" media="(max-width: 449px) and (min-width: 300px)"/>
 <!-- Preload and Prefetch Orange Website Floating Ad Image -->
 {{ $tinysrc := resources.Get "img/ads/orangewebsite/animation_336x280.gif" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
@@ -66,7 +66,7 @@
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="high" media="(min-width: 720px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 720px)"/>
 <!-- END Preload and Prefetch Orange Website Ad Images -->
 
 <!-- Preload and Prefetch Pawnsapp Ad Images -->
@@ -88,9 +88,9 @@
   {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
   {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 728px)"/>
-  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
 <!-- Preload and Prefetch Pawnsapp Floating Ad Image -->
 {{ $tinysrc := resources.Get "img/ads/pawnsapp/earn_money_general_300x300.png" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
@@ -98,7 +98,7 @@
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="high" media="(min-width: 720px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 720px)"/>
 <!-- END Preload and Prefetch Pawnsapp Ad Images -->
 
 <!-- Preload and Prefetch Earnapp Floating Ad Image -->
@@ -108,7 +108,7 @@
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="high" media="(min-width: 720px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 720px)"/>
 <!-- END Preload and Prefetch Earnapp Ad Images -->
 
 <!-- Preload and Prefetch traffmonitizer Ad Images -->
@@ -130,9 +130,9 @@
   {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
   {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
   {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-  <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 728px)"/>
-  <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
 <!-- Preload and Prefetch traffmonitizer Floating Ad Image -->
 {{ $tinysrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-1080x1080.png" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
@@ -140,7 +140,7 @@
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
-  <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="high" media="(min-width: 720px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 720px)"/>
 <!-- END Preload and Prefetch traffmonitizer Ad Images -->
 
 <!-- Preload and Prefetch Cover Images on List Pages -->
@@ -165,9 +165,9 @@
             {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
             {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
             {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-                <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 731px)"/>
-                <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
-                <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 479px)"/>
+                <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
+                <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
+                <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 479px)"/>
         {{ end }}
         {{ end }}
     {{ end }}
@@ -194,9 +194,9 @@
     {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
     {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
     {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-        <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 731px)"/>
-        <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
-        <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 479px)"/>
+        <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
+        <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
+        <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 479px)"/>
   {{ end }}
 {{ end }}
 <!-- END Preload and Prefetch Cover Image for Single Page -->
@@ -232,9 +232,9 @@
         {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
         {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
         {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-          <link rel="prefetch" href="{{ $optimizedmedium }}" as="image" fetchpriority="low" media="(min-width: 731px)"/>
-          <link rel="prefetch" href="{{ $optimizedsmall }}" as="image" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
-          <link rel="prefetch" href="{{ $optimizedtiny }}" as="image" fetchpriority="low" media="(max-width: 479px)"/>
+          <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
+          <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
+          <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 479px)"/>
       {{ end }}
     {{ end }}
   {{ end }}
