@@ -220,6 +220,6 @@
 {{ end }}
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
-  <link rel="prefetch" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
+  <link rel="preload" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
   {{ end }}
 {{ end }}
