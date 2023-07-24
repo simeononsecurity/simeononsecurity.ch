@@ -27,7 +27,7 @@
 {{ if in (urlize .Permalink) "/search" }}
   <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="low" as="script" type="text/javascript">
 {{ end }}
-<link rel="preload" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" type="text/javascript">
+<link rel="preload" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript">
 
 {{ partialCached "preload-images.html" . .Page .Page.Page }}
 
