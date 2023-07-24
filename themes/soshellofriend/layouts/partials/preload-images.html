@@ -62,10 +62,10 @@
 <!-- Preload and Prefetch Orange Website Floating Ad Image -->
 {{ $tinysrc := resources.Get "img/ads/orangewebsite/animation_336x280.gif" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
-{{ $tiny := ($tinysrc.Resize "255x212 gif q90") }}
-  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
-  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }} 
   <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 720px)"/>
 <!-- END Preload and Prefetch Orange Website Ad Images -->
 
