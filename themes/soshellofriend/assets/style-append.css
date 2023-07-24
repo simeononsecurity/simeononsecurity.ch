@@ -1346,6 +1346,7 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  background-color: transparent;
 }
 
 /* Center elements with class "IL_IN_ARTICLE_0" to "IL_IN_ARTICLE_12" and "IL_IN_ARTICLE_CONTAINER_0" to "IL_IN_ARTICLE_CONTAINER_12" */
@@ -1353,6 +1354,12 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  background-color: transparent;
+}
+
+/* Translucent background for elements with class/id "IL_SR_RESULT_CONTENT" */
+#IL_SR_RESULT_CONTENT {
+  background-color: transparent; /* Replace with your desired background color and opacity value */
 }
 
 /* Styles specifically for <ins> elements with class "adsbygoogle" */
