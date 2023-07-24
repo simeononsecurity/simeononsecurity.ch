@@ -52,12 +52,6 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 
 <!-- Load 3rd Party JS -->
 {{ if not $.Site.IsServer }}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {{ template "_internal/google_tag_manager.html" . }}
-
-    <!-- Microsoft Clarity -->
-    {{ template "_internal/microsoft_clarity.html" . }}
-
     {{ if not .IsHome }}
     <!-- Ads JS Load -->
     {{ partialCached "googleadsload.html" . }}
