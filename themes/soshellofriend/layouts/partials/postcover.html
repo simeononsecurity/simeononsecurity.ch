@@ -22,7 +22,7 @@
       <picture>
         <source 
           srcset="{{ $optimizedmedium }} 731w, {{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
-          sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, calc(80.53vw - 21px)"
+          sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px"
           media="(min-width: 200px)">
         <img src="{{ $optimizedtiny }}"
           alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"

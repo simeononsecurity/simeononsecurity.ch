@@ -1,7 +1,7 @@
 {{ $title := (.Title | default $.Site.Title) }}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6"></script>
-<script async>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -16,7 +16,7 @@
     }  
   });
 </script>
-<script async>
+<script>
   function createFunctionWithTimeout(callback, opt_timeout) {
     var called = false;
     function fn() {
@@ -29,7 +29,7 @@
     return fn;
   }  
 </script>
-<script async>
+<script>
 // Feature detects Navigation Timing API support.
 if (window.performance) {
   // Gets the number of milliseconds since page load

@@ -97,6 +97,7 @@
     <div itemscope itemtype="https://schema.org/ImageObject">
       <img
         src="{{ $src.Permalink }}"
+        srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}'
         data-src="{{ $lqip.RelPermalink }}"  
         data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
         alt="{{ $title }}" 
@@ -114,6 +115,7 @@
     <div itemscope itemtype="https://schema.org/ImageObject">
       <img
         src="{{ $src.RelPermalink }}"
+        srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}'
         data-src="{{ $lqip.RelPermalink }}" 
         data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
         alt="{{ $title }}" 

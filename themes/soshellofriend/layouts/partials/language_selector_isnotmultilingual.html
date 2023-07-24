@@ -8,7 +8,6 @@
   {{ end }}
 {{ end }}
 {{ if not $disablelang }}
-  <div>
     <span class="language-selector__container">
         <span class="language-selector__icon" style="display: flex; align-items: center;" onclick="toggleLanguageMenu()">
                 <span class="menu__sub-inner-more-trigger-title">{{ $.Site.Language.Lang }}</span>
@@ -183,7 +182,6 @@ document.addEventListener("click", function(event) {
     selector.classList.remove('open');
     }
 });
-</script>
-    </div>    
+</script>   
 {{ end }}
 

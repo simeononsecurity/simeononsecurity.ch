@@ -3,6 +3,8 @@ If you want to include any custom html just before </body>, put it in /layouts/p
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/extended_footer.html doesn't exist.
 -->
 
+{{ partialCached "donatebutton.html" .}}
+
 <script src="{{ "assets/main.js" | absURL }}" fetchpriority="high"></script>
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
@@ -24,7 +26,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 <!-- Scroll to Top Button -->
 <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
-<script defer>
+<script>
   // Get the button element
   const mybutton = document.getElementById("myBtn");
 
@@ -43,7 +45,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 </script>
 
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
-<link defer rel="stylesheet" href="{{ $style.Permalink }}" fetchpriority="high">
+<link rel="stylesheet" href="{{ $style.Permalink }}" fetchpriority="high">
 
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}

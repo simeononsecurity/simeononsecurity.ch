@@ -1,22 +1,22 @@
 <!-- Preload first-party fonts -->
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" fetchpriority="low" as="font" type="font/woff2">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" fetchpriority="low" type="font/woff2">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" fetchpriority="low" type="font/woff2">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" fetchpriority="low" type="font/woff2">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" fetchpriority="low" type="font/woff2">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" fetchpriority="low" type="font/woff2">
+<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" fetchpriority="low" type="font/woff2">
 
 <!-- Theme CSS -->
 {{ $baseCSS := (resources.Get "/style-base.css" | resources.Minify) }}
 {{ $inlineCSS := $baseCSS }}
-<style type="text/CSS">
+<style>
 {{ $inlineCSS.Content | safeCSS }}
 </style>
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
 <link rel="preload" href="{{ $style.Permalink }}" fetchpriority="low" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 <!-- preload and prefetch first-party js -->
-<link rel="preload" href="{{ "assets/main.js" | absURL }}" fetchpriority="high" as="script" type="text/javascript" async>
+<link rel="preload" href="{{ "assets/main.js" | absURL }}" fetchpriority="high" as="script" type="text/javascript">
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
 {{ $currentPath := .Permalink }}
 {{ $disableComments := false }}
@@ -28,14 +28,14 @@
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
     {{ if not .IsPage}}
-      <link rel="preload" href="{{ "assets/prism.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript" async>
+      <link rel="preload" href="{{ "assets/prism.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript">
     {{ end }}
   {{ end }}
 {{ end }}
 {{ if in (urlize .Permalink) "/search" }}
   <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="low" as="script" type="text/javascript">
 {{ end }}
-<link rel="prefetch" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" as="script" type="text/javascript" defer>
+<link rel="prefetch" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" type="text/javascript">
 
 {{ partialCached "preload-images.html" .Page .Page.Page }}
 
@@ -167,13 +167,13 @@
     {{ $hreflang = "zh" }}
   {{ end }}
   {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-    <link rel="alternate" title="{{ $currentPageTitle }} iin {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" fetchpriority="low"/>
-    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" fetchpriority="low"/>
-    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" fetchpriority="low"/>
-    <link rel="preconnect" href="{{ $baseURL }}" fetchpriority="low">
-    <link rel="dns-prefetch" href="{{ $baseURL }}" fetchpriority="low">
+    <link rel="alternate" title="{{ $currentPageTitle }} iin {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
+    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
+    <link rel="preconnect" href="{{ $baseURL }}" >
+    <link rel="dns-prefetch" href="{{ $baseURL }}" >
   {{ end }}
-  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" fetchpriority="low"/>
+  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
   
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
@@ -181,29 +181,29 @@
 {{ end -}}
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
-<link rel="manifest" fetchpriority="low" as="manifest" href="{{ ("manifest.json" | absURL) }}">
+<link rel="manifest" href="{{ ("manifest.json" | absURL) }}">
 
 <!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" fetchpriority="low"/>
-<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" fetchpriority="low"/>
-<link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" fetchpriority="low">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" fetchpriority="low">
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" fetchpriority="low"/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" />
+<link rel="apple-touch-icon" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" />
+<link rel="icon" type="image/png" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}" >
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/apple-touch-icon-192.png" | absURL }}" >
+<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
 
 <!-- preload and prefetch third-party js -->
 {{ if not $.Site.IsServer }}
-  <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-  <link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  <link rel="prefetch" href="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  <link rel="prefetch" href="https://www.clarity.ms/tag/g45ppf746r" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
   {{ if not .IsHome }}
-    <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-    <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202307180101/show_ads_impl_with_ama_fy2021.js?client=ca-pub-4092442123207538&plah=simeononsecurity.ch" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-    <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    <link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202307180101/show_ads_impl_with_ama_fy2021.js?client=ca-pub-4092442123207538&plah=simeononsecurity.ch" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
   {{ end }}
 {{ end }}
 
 {{ if and (strings.Contains .RelPermalink "/search") (eq .Section "search") }}
-  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+  <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
 {{ end }}
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
