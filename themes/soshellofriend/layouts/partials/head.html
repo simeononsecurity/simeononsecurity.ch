@@ -1,5 +1,6 @@
 <!-- head custom -->
-{{- partialCached "prepended_head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
+{{ partialCached "prepended_head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
+{{ partialCached "preload-fonts.html" . }}
 
 <!-- OG data -->
 {{ template "_internal/opengraph.html" . }}
@@ -14,4 +15,4 @@
 {{ template "_internal/google_news.html" . }}
 
 <!-- head custom -->
-{{- partialCached "extended_head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
+{{ partialCached "extended_head.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}

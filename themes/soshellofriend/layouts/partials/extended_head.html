@@ -1,13 +1,3 @@
-<!-- first-party fonts -->
-<!-- Preload critical fonts with high importance -->
-<link rel="preload" href="{{ ("assets/fonts/Inter-Regular.woff2" | absURL) }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
-<link rel="preload" href="{{ ("assets/fonts/Inter-Bold.woff2" | absURL) }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
-
-<!-- Prefetch non-critical fonts with low importance -->
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Italic.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-Medium.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-MediumItalic.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="prefetch" href="{{ ("assets/fonts/Inter-BoldItalic.woff2" | absURL) }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
 
 
 <!-- Theme CSS -->
@@ -41,7 +31,7 @@
 {{ end }}
 <link rel="preload" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" type="text/javascript">
 
-{{ partialCached "preload-images.html" .Page .Page.Page }}
+{{ partialCached "preload-images.html" . .Page .Page.Page }}
 
 <!-- Preconnect third-party DNS for CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
