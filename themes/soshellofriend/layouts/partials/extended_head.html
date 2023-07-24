@@ -223,3 +223,12 @@
   <link rel="preload" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
   {{ end }}
 {{ end }}
+
+<!-- Load 3rd Party JS -->
+{{ if not $.Site.IsServer }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    {{ template "_internal/google_tag_manager.html" . }}
+
+    <!-- Microsoft Clarity -->
+    {{ template "_internal/microsoft_clarity.html" . }}
+{{ end }}
