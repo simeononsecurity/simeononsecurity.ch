@@ -1,5 +1,5 @@
-{{ $tinysrc := resources.Get "img/ads/earnapp/banner_Website_200x200.png" }}
-{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tinysrc := resources.Get "img/ads/amazon/student_prime_300x250.jpg" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpg" "" }}
 {{ $tiny := ($tinysrc.Resize "255x webp q100") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
@@ -7,7 +7,7 @@
 
   <style>
     /* Styles for the container holding the image */
-    .earnapp-ad-eager-floating-container {
+    .studentprime-ad-eager-floating-container {
       position: fixed;
       bottom: 20px;
       left: 20px;
@@ -17,7 +17,7 @@
     }
     
     /* Styles for the image */
-    .earnapp-ad-eager-floating-image {
+    .studentprime-ad-eager-floating-image {
       display: block;
       max-width: 100%;
       height: auto;
@@ -25,14 +25,14 @@
   
     /* Hide the image for viewports smaller than 300px */
     @media (max-width: 720px) {
-      .earnapp-ad-eager-floating-container {
+      .studentprime-ad-eager-floating-container {
         display: none;
       }
     }
   
     /* Styles for the image at 300x250 */
     @media (min-width: 721px) {
-      .earnapp-ad-eager-floating-image {
+      .studentprime-ad-eager-floating-image {
         width: 255px;
         height: 255px;
       }
@@ -40,12 +40,12 @@
   </style>
   
   <a
-    href="https://earnapp.com/i/c1dllee"
+    href="https://amzn.to/3Q5KhAh"
     target="_blank"
     rel="noopener sponsored"
-    title="earnapp Ad"
-    id="earnapp-ad-eager-floating"
-    class="earnapp-ad-eager-floating-link earnapp-ad-eager-floating-container"
+    title="studentprime Ad"
+    id="studentprime-ad-eager-floating"
+    class="studentprime-ad-eager-floating-link studentprime-ad-eager-floating-container"
   >
     <picture>
       <source
@@ -54,8 +54,8 @@
       />
       <img
         src="{{ $optimizedtiny }}"
-        alt="earnapp.com"
-        class="earnapp-ad-eager-floating-image"
+        alt="studentprime ad"
+        class="studentprime-ad-eager-floating-image"
         fetchpriority="high"
         loading="eager"
       />
