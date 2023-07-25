@@ -199,7 +199,7 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
 {{ end }}
 
-{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/advertise" "/guest-posts" }}
 {{ $currentPath := .Permalink }}
 {{ $disableComments := false }}
 {{ range $disabledURLs }}

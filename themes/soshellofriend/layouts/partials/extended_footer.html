@@ -7,7 +7,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 
 <script src="{{ "assets/main.js" | absURL }}" fetchpriority="high"></script>
 
-{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" }}
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/advertise" "/guest-posts"}}
 {{ $currentPath := .Permalink }}
 {{ $disablePrism := false }}
 {{ range $disabledURLs }}
