@@ -194,7 +194,6 @@
 {{ end }}
 <link rel="prefetch" href="{{ "js/instantpage-5.2.0.js"| absURL }}" type="text/javascript" fetchpriority="low">
 
-
 {{ if and (strings.Contains .RelPermalink "/search") (eq .Section "search") }}
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
@@ -210,7 +209,11 @@
 {{ end }}
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
-  <link rel="preload" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    {{ if and (not .IsHome) (not .IsSection) }}
+      <link rel="preload" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    {{ else}}
+      <link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
+    {{ end }}
   {{ end }}
 {{ end }}
 
