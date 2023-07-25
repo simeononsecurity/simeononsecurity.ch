@@ -1,6 +1,11 @@
 ---
 title: "Guest Blogging Guidelines"
+toc: true
+draft: false
+description: "Guidelines for submitting guest blog posts to SimeonOnSecurity."
+coverCaption: "Share your expertise and insights with our community through guest blogging."
 ---
+
 
 ## Submitting an Article
 
