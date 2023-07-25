@@ -3,8 +3,19 @@ const staticAssets = [
     '/',
     '/index.html',
     '/offline.html',
+    '/404.html',
     '/assets/main.js',
     '/assets/prism.js',
+    '/assets/fonts/Inter-Bold.woff2',
+    '/assets/fonts/Inter-BoldItalic.woff2',
+    '/assets/fonts/Inter-Italic.woff2',
+    '/assets/fonts/Inter-Medium.woff2',
+    '/assets/fonts/Inter-MediumItalic.woff2',
+    '/assets/fonts/Inter-Regular.woff2',
+    '/js/instantpage-5.2.0.js',
+    '/js/ping.js',
+    '/js/search.js',
+    '/style-append.min.css',
     '/img/apple-touch-icon-192.png'
 ];
 
