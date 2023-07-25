@@ -167,6 +167,55 @@
   <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
 <!-- END Preload and Prefetch traffmonitizer Ad Images -->
 
+<!-- Preload and Prefetch StartMail Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/startmail/startmail_1_500x500.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "450x webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/startmail/startmail_468x60.png" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".png" "" }}
+{{ $small := ($smallsrc.Resize "468x webp q80") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/startmail/startmail_728x90.png" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".png" "" }}
+{{ $medium := ($mediumsrc.Resize "728x webp q80") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
+  {{ $tinysrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-1080x1080.png" }}
+  {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+  {{ $tiny := ($tinysrc.Resize "450x webp q90") }}
+    {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+    {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+    {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 450px)"/>
+<!-- Preload and Prefetch StartMail Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/startmail/startmail_1_500x500.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "255x webp q100") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+{{ $tinysrc := resources.Get "img/ads/startmail/startmail_2_500x500.png" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tiny := ($tinysrc.Resize "255x webp q100") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}  
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+<!-- END Preload and Prefetch StartMail Ad Images -->
+
+
+
+
 <!-- Preload and Prefetch Cover Images on List Pages -->
 {{- if .IsSection -}}
     {{ range .Paginator.Pages }}
