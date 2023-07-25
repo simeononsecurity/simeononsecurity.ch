@@ -12,7 +12,6 @@ const staticAssets = [
     '/assets/fonts/Inter-Medium.woff2',
     '/assets/fonts/Inter-MediumItalic.woff2',
     '/assets/fonts/Inter-Regular.woff2',
-    '/js/instantpage-5.2.0.js',
     '/js/ping.js',
     '/js/search.js',
     '/style-append.min.css',
