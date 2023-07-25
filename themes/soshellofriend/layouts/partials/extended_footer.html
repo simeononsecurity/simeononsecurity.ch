@@ -17,7 +17,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ end }}
 {{ if not $disablePrism }}
   {{ if not (eq .Params.Comments.enable false) }}
-    {{ if not .IsPage}}
+    {{ if and (not .IsHome) (not .IsSection) }}
       <script async src="{{ "assets/prism.js" | absURL }}" fetchpriority="high"></script>
     {{ end }}
   {{ end }}
@@ -57,7 +57,9 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
       {{ partialCached "googleadsload.html" . }}
 
       <!-- Load Info Links -->
-      {{ partialCached "infolinks.html" . }}
+      {{ if not .IsSection }}
+        {{ partialCached "infolinks.html" . }}
+      {{ end }}
     {{ end }}
 {{ end }}
 {{ partial "instantpage.html" . }}
