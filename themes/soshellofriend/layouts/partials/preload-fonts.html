@@ -7,6 +7,6 @@
   {{ $isWoff2 := hasSuffix .Name ".woff2" }}
   {{ if $isWoff2 }}
     {{ $fontLink := .Name | absURL }}
-    <link rel="prefetch" href="{{ $fontLink }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+    <link rel="preload" href="{{ $fontLink }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
   {{ end }}
 {{ end }}
