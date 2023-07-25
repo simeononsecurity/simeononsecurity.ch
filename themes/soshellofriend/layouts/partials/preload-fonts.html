@@ -1,4 +1,8 @@
 <!-- first-party fonts -->
+<!-- Preload critical fonts with low importance -->
+<link rel="preload" href="{{ "/assets/fonts/Inter-Regular.woff2" | absURL }}" as="font"  type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+<link rel="preload" href="{{ "/assets/fonts/Inter-Bold.woff2" | absURL }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+
 <!-- Prefetch non-critical fonts with low importance -->
 {{ $fontFilesPath := "assets/fonts/" }}
 {{ $files := readDir $fontFilesPath }}
@@ -7,6 +11,7 @@
   {{ $isWoff2 := hasSuffix .Name ".woff2" }}
   {{ if $isWoff2 }}
     {{ $fontLink := .Name | absURL }}
-    <link rel="preload" href="{{ $fontLink }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+    <link rel="prefetch" href="{{ $fontLink }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
   {{ end }}
 {{ end }}
+https://simeononsecurity.ch
