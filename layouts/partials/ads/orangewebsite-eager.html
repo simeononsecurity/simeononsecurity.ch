@@ -1,16 +1,13 @@
-
-
-
 {{ $microsrc := resources.Get "img/ads/orangewebsite/animation_300x250.gif" }}
 {{ $microsrcpermalink := replace $microsrc.RelPermalink ".gif" "" }}
-{{ $micro := ($microsrc.Resize "300x250 gif q90") }}
-  {{ $microfilename := printf "%s_%dx%d.%s" $microsrcpermalink $micro.Width $micro.Height "gif" | urlize }}
+{{ $micro := ($microsrc.Resize "300x250 webp q90") }}
+  {{ $microfilename := printf "%s_%dx%d.%s" $microsrcpermalink $micro.Width $micro.Height "webp" | urlize }}
   {{ $microrenamedimage := $micro | resources.Copy $microfilename }}
   {{ $optimizedmicro := $microrenamedimage.Permalink }}   
 {{ $tinysrc := resources.Get "img/ads/orangewebsite/animation_336x280.gif" }}
 {{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
-{{ $tiny := ($tinysrc.Resize "450x375 gif q90") }}
-  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
+{{ $tiny := ($tinysrc.Resize "450x375 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
   {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
 {{ $smallsrc := resources.Get "img/ads/orangewebsite/animation_468x60.gif" }}
@@ -59,7 +56,7 @@
   }
 
   /* Styles for the image at 300x250 */
-  @media (min-width: 336px) and (max-width: 467px) {
+  @media (min-width: 450px) and (max-width: 467px) {
     .orangewebsite-ad-eager-image {
       width: 450px;
       height: 375px;
@@ -67,7 +64,7 @@
   }
 
   /* Styles for the image at 300x250 */
-  @media (min-width: 300px) and (max-width: 335px) {
+  @media (min-width: 300px) and (max-width: 449px) {
       .orangewebsite-ad-eager-image {
           width: 300px;
           height: 250px;
