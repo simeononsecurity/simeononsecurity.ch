@@ -4,7 +4,7 @@
 <link rel="preload" href="{{ "/assets/fonts/Inter-Bold.woff2" | absURL }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
 
 <!-- Prefetch non-critical fonts with low importance -->
-{{ $fontFilesPath := "assets/fonts/" }}
+{{ $fontFilesPath := "/themes/soshellofriend/assets/fonts" }}
 {{ $files := readDir $fontFilesPath }}
 
 {{ range $files }}
