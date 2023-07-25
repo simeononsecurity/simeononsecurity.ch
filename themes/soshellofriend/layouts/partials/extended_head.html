@@ -19,7 +19,7 @@
 {{ end }}
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
-    {{ if not .IsPage}}
+    {{ if and (not .IsHome) (not .IsSection) }}
       <link rel="prefetch" href="{{ "assets/prism.js" | absURL }}" fetchpriority="low" type="text/javascript">
     {{ end }}
   {{ end }}
