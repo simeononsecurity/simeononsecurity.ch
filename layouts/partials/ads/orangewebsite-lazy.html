@@ -1,15 +1,3 @@
-{{ $microsrc := resources.Get "img/ads/orangewebsite/animation_300x250.gif" }}
-{{ $microsrcpermalink := replace $microsrc.RelPermalink ".gif" "" }}
-{{ $micro := ($microsrc.Resize "300x250 webp q90") }}
-  {{ $microfilename := printf "%s_%dx%d.%s" $microsrcpermalink $micro.Width $micro.Height "webp" | urlize }}
-  {{ $microrenamedimage := $micro | resources.Copy $microfilename }}
-  {{ $optimizedmicro := $microrenamedimage.Permalink }}   
-{{ $tinysrc := resources.Get "img/ads/orangewebsite/animation_336x280.gif" }}
-{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
-{{ $tiny := ($tinysrc.Resize "450x375 webp q90") }}
-  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
-  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
-  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
 {{ $smallsrc := resources.Get "img/ads/orangewebsite/animation_468x60.gif" }}
 {{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".gif" "" }}
 {{ $small := ($smallsrc.Resize "468x60 gif q90") }}
@@ -33,7 +21,7 @@
   }
 
   /* Hide the image for viewports smaller than 300px */
-  @media (max-width: 299px) {
+  @media (max-width: 465px) {
     .orangewebsite-ad-eager-image {
       display: none;
     }
@@ -53,22 +41,6 @@
       width: 468px;
       height: 60px;
     }
-  }
-
-  /* Styles for the image at 300x250 */
-  @media (min-width: 450px) and (max-width: 467px) {
-    .orangewebsite-ad-eager-image {
-      width: 450px;
-      height: 375px;
-    }
-  }
-
-  /* Styles for the image at 300x250 */
-  @media (min-width: 300px) and (max-width: 449px) {
-      .orangewebsite-ad-eager-image {
-          width: 300px;
-          height: 250px;
-      }
   }
 </style>
 
@@ -90,16 +62,8 @@
       srcset="{{ $optimizedsmall }}"
       media="(min-width: 468px)"
     />
-    <source
-      srcset="{{ $optimizedtiny }}"
-      media="(min-width: 336px)"
-    />
-    <source
-    srcset="{{ $optimizedmicro }}"
-    media="(min-width: 330px)"
-    />
     <img
-      src="{{ $optimizedmicro }}"
+      src="{{ $optimizedsmall }}"
       alt="Web hosting in Iceland - OrangeWebsite.com"
       class="orangewebsite-ad-eager-image"
       fetchpriority="low"
