@@ -1,7 +1,7 @@
 <!-- first-party fonts -->
 <!-- Preload critical fonts with low importance -->
-<link rel="preload" href="{{ "/assets/fonts/Inter-Regular.woff2" | absURL }}" as="font"  type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-<link rel="preload" href="{{ "/assets/fonts/Inter-Bold.woff2" | absURL }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
+<link rel="preload" href="{{ "/assets/fonts/Inter-Regular.woff2" | absURL }}" as="font"  type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
+<link rel="preload" href="{{ "/assets/fonts/Inter-Bold.woff2" | absURL }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
 
 <!-- Prefetch non-critical fonts with low importance -->
 {{ $fontFilesPath := "assets/fonts/" }}
