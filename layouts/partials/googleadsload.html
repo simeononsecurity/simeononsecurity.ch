@@ -5,7 +5,7 @@
   if (width > 900) {
       var scriptTag = document.createElement('script');
       scriptTag.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adClient;
-      scriptTag.setAttribute('defer', '');
+      scriptTag.setAttribute('async', '');
       scriptTag.setAttribute('crossorigin', 'anonymous');
       document.body.appendChild(scriptTag);
   }
