@@ -195,7 +195,7 @@
     <link rel="prefetch" href="https://resources.infolinks.com/js/infolinks_main.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous" media="(min-width: 900px)">
   {{ end }}
 {{ end }}
-<link rel="prefetch" href="{{ "js/instantpage-5.2.0.js"| absURL }}" type="text/javascript" fetchpriority="low">
+<link rel="preload" href="{{ "js/instantpage-5.2.0.js"| absURL }}" type="text/javascript" fetchpriority="low">
 
 {{ if and (strings.Contains .RelPermalink "/search") (eq .Section "search") }}
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
