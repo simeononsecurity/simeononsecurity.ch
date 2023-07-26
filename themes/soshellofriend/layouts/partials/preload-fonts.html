@@ -1,16 +1,4 @@
 <!-- first-party fonts -->
 <!-- Preload critical fonts with low importance -->
-<link rel="preload" href="{{ "/assets/fonts/Inter-Regular.woff2" | absURL }}" as="font"  type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
-<link rel="preload" href="{{ "/assets/fonts/Inter-Bold.woff2" | absURL }}" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
-
-<!-- Prefetch non-critical fonts with low importance -->
-{{ $fontFilesPath := "/themes/soshellofriend/assets/fonts" }}
-{{ $files := readDir $fontFilesPath }}
-
-{{ range $files }}
-  {{ $isWoff2 := hasSuffix .Name ".woff2" }}
-  {{ if $isWoff2 }}
-    {{ $fontLink := .Name | absURL }}
-    <link rel="prefetch" href="{{ $fontLink }}" type="font/woff2" media="(min-width: 769px)" fetchpriority="low">
-  {{ end }}
-{{ end }}
+<link rel="preload" href="/fonts/Inter-Regular.woff2" as="font"  type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
+<link rel="preload" href="/fonts/Inter-Bold.woff2" as="font" type="font/woff2" media="(min-width: 769px)" fetchpriority="high">
