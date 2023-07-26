@@ -18,7 +18,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ if not $disablePrism }}
   {{ if not (eq .Params.Comments.enable false) }}
     {{ if and (not .IsHome) (not .IsSection) (.IsPage)}}
-      <script defer src="{{ "assets/prism.js" | absURL }}" fetchpriority="high"></script>
+      <script defer src="{{ "assets/prism.js" | absURL }}" fetchpriority="high" media="(min-width: 769px)"></script>
     {{ end }}
   {{ end }}
 {{ end }}
