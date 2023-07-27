@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@google-cloud/translate": "^7.2.1",
+    "@justinribeiro/lite-youtube": "^1.5.0",
     "googleapis": "^118.0.0",
     "lite-youtube-embed": "^0.2.0"
   },

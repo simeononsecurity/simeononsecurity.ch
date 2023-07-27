@@ -751,6 +751,11 @@
   dependencies:
     lodash "^4.17.21"
 
+"@justinribeiro/lite-youtube@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/@justinribeiro/lite-youtube/-/lite-youtube-1.5.0.tgz"
+  integrity sha512-TU92RKtz9BI9PRYrVwDIUsnFadLZtqRKWl1ZOdbxb7roJDb8Dd/xURllAsLEmCg6oJNyhXlVa5RsnUc0EKd8Cw==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   dependencies:
