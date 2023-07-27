@@ -1,14 +1,19 @@
 <script>
-  var adClient = "ca-pub-4092442123207538";
-  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  function loadAdSense() {
+    var adClient = "ca-pub-4092442123207538";
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-  if (width > 900) {
-      var scriptTag = document.createElement('script');
-      scriptTag.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adClient;
-      scriptTag.setAttribute('async', '');
-      scriptTag.setAttribute('crossorigin', 'anonymous');
-      document.body.appendChild(scriptTag);
-  }
+    if (width > 900) {
+        var scriptTag = document.createElement('script');
+        scriptTag.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adClient;
+        scriptTag.setAttribute('async', '');
+        scriptTag.setAttribute('crossorigin', 'anonymous');
+        document.body.appendChild(scriptTag);
+    }
+}
+
+// Add an event listener to execute the function when the body content is loaded
+document.addEventListener('DOMContentLoaded', loadAdSense);
 </script>
 <script>
   // Step 1: Wait for all content to be loaded

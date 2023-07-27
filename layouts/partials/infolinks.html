@@ -1,14 +1,19 @@
 <script>
-    var infolinks_pid = 3400692;
-    var infolinks_wsid = 0;
-    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    function loadInfoLinks() {
+        var infolinks_pid = 3400692;
+        var infolinks_wsid = 0;
+        var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    if (width > 900) {
-        var scriptTag = document.createElement('script');
-        scriptTag.src = 'https://resources.infolinks.com/js/infolinks_main.js';
-        scriptTag.setAttribute('async', '');
-        scriptTag.setAttribute('media', '(min-width: 900px)');
-        document.body.appendChild(scriptTag);
+        if (width > 900) {
+            var scriptTag = document.createElement('script');
+            scriptTag.src = 'https://resources.infolinks.com/js/infolinks_main.js';
+            scriptTag.setAttribute('async', '');
+            scriptTag.setAttribute('media', '(min-width: 900px)');
+            document.body.appendChild(scriptTag);
+        }
     }
+
+    // Add an event listener to execute the function when the body content is loaded
+    document.addEventListener('DOMContentLoaded', loadInfoLinks);
 </script>
 
