@@ -10,11 +10,7 @@
   <br>
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <h1 class="post-title" itemprop="headline">{{ .Title | markdownify }}</h1>
-    {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" }}
-    {{ $currentPath := .Permalink }}
-    {{ if not (in $currentPath $excludePaths) }}
-      {{ partialCached "share-buttons.html" . .Page .Page.Page}}
-    {{ end }}
+    {{ partialCached "share-buttons.html" . .Page .Page.Page }}
     <div class="post-meta">
       {{ if .Date | default nil }}
         <time class="post-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormatSingle | default "2006-01-02") }}</time>
@@ -96,30 +92,14 @@
           </div>
         </div>
         <br>
-        {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang}}
+        {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang }}
         <br>
         <br>
-        {{ partialCached "relatedcontent.html" . .Page .Page.Page }}
+        {{ partialCached "relatedcontent.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
         <br>
       {{ end }}
     {{ end }}
-    {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" "/advertise" "/guest-posts" }}
-    {{ $currentPath := .Permalink }}
-    {{ if not (in $currentPath $excludePaths) }}
-      {{ partialCached "share-buttons.html" . .Page .Page.Page}}
-    {{ end }}
-    {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/authors" "/advertise" "/guest-posts"}}
-    {{ $currentPath := .Permalink }}
-    {{ $disableComments := false }}
-    {{ range $disabledURLs }}
-      {{ if (in $currentPath .) }}
-        {{ $disableComments = true }}
-      {{ end }}
-    {{ end }}
-    {{ if not $disableComments }}
-      {{ if not (eq .Params.Comments.enable false) }}
-        {{ partialCached "comments.html" . }}
-      {{ end }}
-    {{ end }}
+    {{ partialCached "share-buttons.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
+    {{ partialCached "comments.html" . .Page .Page.Page }}
   </article>
 {{ end }}

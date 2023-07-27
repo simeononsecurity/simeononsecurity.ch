@@ -1,1 +1,17 @@
-{{ template "_internal/utterances.html" . }}
+{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/advertise" "/guest-posts" "/affiliate" }}
+{{ $currentPath := .Permalink }}
+{{ $disableComments := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $disableComments = true }}
+  {{ end }}
+{{ end }}
+{{ if not $disableComments }}
+  {{ if not (eq .Params.Comments.enable false) }}
+    {{ if and (not .IsHome) (.IsPage)}}
+        {{ template "_internal/utterances.html" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
