@@ -43,7 +43,7 @@
           <time class="post-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}</time>
 
           {{ if $.Site.Params.LastModDisplay }}
-            {{ partialCached "lastmod.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
+            {{ partialCached "lastmod.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
           {{ end }}
         {{ end }}
 
@@ -99,6 +99,6 @@
       {{ end }}
     </article>
     {{ end }}
-    {{ partial "pagination.html" . }}
+    {{ partial "pagination.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
   </div>
 {{ end }}
