@@ -80,6 +80,23 @@
   {{ end }}
 {{ end }}
 <script>
+  function yieldToMain(callback) {
+    if (typeof callback !== 'function') {
+      throw new Error('Callback must be a function.');
+    }
+  
+    // Using requestIdleCallback for idle callback
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(() => {
+        callback();
+      });
+    } else {
+      // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+      setTimeout(() => {
+        callback();
+      }, 0);
+    }
+  }
   document.addEventListener('DOMContentLoaded', function() {
     var relatedTitles = document.querySelectorAll('.related-title');
     relatedTitles.forEach(function(title) {
@@ -87,18 +104,21 @@
       link.addEventListener('click', function(event) {
         event.preventDefault();
         var linkUrl = this.href;
-        try {
-          gtag('event', 'click', {
-            'event_category': 'Related Article',
-            'event_label': linkUrl,
-            'event_callback': function() {
-              window.location.href = linkUrl;
-            }
-          });
-        } catch (error) {
-          console.error('Error sending gtag event:', error);
-          window.location.href = linkUrl;
+        function sendTrackingEvent() {      
+          try {
+            gtag('event', 'click', {
+              'event_category': 'Related Article',
+              'event_label': linkUrl,
+              'event_callback': function() {
+                window.location.href = linkUrl;
+              }
+            });
+          } catch (error) {
+            console.error('Error sending gtag event:', error);
+            window.location.href = linkUrl;
+          }
         }
+        yieldToMain(sendTrackingEvent);
       });
     });
   });

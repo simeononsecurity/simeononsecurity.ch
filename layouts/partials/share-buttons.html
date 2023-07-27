@@ -109,20 +109,41 @@ nav.sharebuttons li > a:hover .will-change {
 var shareButtons = document.querySelectorAll(".sharebuttons a");
 
 function trackShareButtonClick(event) {
-    var sharePlatform = this.getAttribute("title");
+  var sharePlatform = this.getAttribute("title");
 
+  function sendTrackingEvent() {
     try {
-    gtag("event", "share", {
+      gtag("event", "share", {
         event_category: "social",
         event_label: sharePlatform,
         transport_type: "beacon",
-    });
+      });
     } catch (error) {
-    console.error("Error tracking share event:", error);
+      console.error("Error tracking share event:", error);
     }
+  }
+  yieldToMain(sendTrackingEvent);
 }
 
-shareButtons.forEach(function(button) {
-    button.addEventListener("click", trackShareButtonClick);
-});
+function yieldToMain(callback) {
+  if (typeof callback !== 'function') {
+    throw new Error('Callback must be a function.');
+  }
+
+  // Using requestIdleCallback for idle callback
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(() => {
+      callback();
+    });
+  } else {
+    // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+    setTimeout(() => {
+      callback();
+    }, 0);
+  }
+}
+
+shareButtons.forEach(function (button) {
+  button.addEventListener("click", trackShareButtonClick);
+}); 
 </script>

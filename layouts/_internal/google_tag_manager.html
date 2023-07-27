@@ -2,20 +2,42 @@
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-W3SL745QY6', {
-    'anonymize_ip': true,
-    'send_page_view': true,
-    'page_title': '{{ $title }}',
-    'currency': 'USD',
-    'link_attribution': true,
-    'linker': {
-      'domains': ['simeononsecurity.ch', 'simeononsecurity.com', 'fr.simeononsecurity.ch', 'es.simeononsecurity.ch', 'de.simeononsecurity.ch', 'hi.simeononsecurity.ch', 'bn.simeononsecurity.ch', 'ca.simeononsecurity.ch', 'it.simeononsecurity.ch', 'ja.simeononsecurity.ch', 'nl.simeononsecurity.ch', 'ro.simeononsecurity.ch', 'zh.simeononsecurity.ch', 'pa.simeononsecurity.ch', 'pt.simeononsecurity.ch', 'ru.simeononsecurity.ch', 'pl.simeononsecurity.ch', 'ar.simeononsecurity.ch']
-    },
-    'transport_type': 'beacon' // Enable navigator.sendBeacon
-  });
+  function yieldToMain(callback) {
+    if (typeof callback !== 'function') {
+      throw new Error('Callback must be a function.');
+    }
+  
+    // Using requestIdleCallback for idle callback
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(() => {
+        callback();
+      });
+    } else {
+      // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+      setTimeout(() => {
+        callback();
+      }, 0);
+    }
+  }
+</script>
+<script>
+  function sendTrackingEvent() {      
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W3SL745QY6', {
+      'anonymize_ip': true,
+      'send_page_view': true,
+      'page_title': '{{ $title }}',
+      'currency': 'USD',
+      'link_attribution': true,
+      'linker': {
+        'domains': ['simeononsecurity.ch', 'simeononsecurity.com', 'fr.simeononsecurity.ch', 'es.simeononsecurity.ch', 'de.simeononsecurity.ch', 'hi.simeononsecurity.ch', 'bn.simeononsecurity.ch', 'ca.simeononsecurity.ch', 'it.simeononsecurity.ch', 'ja.simeononsecurity.ch', 'nl.simeononsecurity.ch', 'ro.simeononsecurity.ch', 'zh.simeononsecurity.ch', 'pa.simeononsecurity.ch', 'pt.simeononsecurity.ch', 'ru.simeononsecurity.ch', 'pl.simeononsecurity.ch', 'ar.simeononsecurity.ch']
+      },
+      'transport_type': 'beacon' // Enable navigator.sendBeacon
+    });
+  }
+  yieldToMain(sendTrackingEvent);
 </script>
 <script>
   function createFunctionWithTimeout(callback, opt_timeout) {
@@ -37,12 +59,19 @@ if (window.performance) {
   // (and rounds the result since the value must be an integer).
   var timeSincePageLoad = Math.round(performance.now());
 
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'timing_complete', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_category': 'JS Dependencies',
-    'non_interaction': true
-  });
+  function sendTrackingEvent() {      
+    try {
+      // Sends the timing event to Google Analytics.
+      gtag('event', 'timing_complete', {
+        'name': 'load',
+        'value': timeSincePageLoad,
+        'event_category': 'JS Dependencies',
+        'non_interaction': true
+      });
+    } catch (error) {
+      console.error("Failed to send tracking event:", error);
+    }
+  }
+  yieldToMain(sendTrackingEvent);
 }
 </script>
