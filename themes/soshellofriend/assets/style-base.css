@@ -623,3 +623,64 @@ svg {
   color: var(--color);
   text-decoration: none;
 }
+.sharebuttons,
+.sharebuttons ul {
+  display: flex;
+  margin: 0.25rem 0;
+  align-items: center;
+}
+
+.sharebuttons span {
+  color: #bbb;
+}
+
+.sharebuttons ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.sharebuttons ul li a {
+  margin: 0 0.5rem;
+  display: block;
+}
+
+.sharebuttons ul li:first-child a {
+  margin: 0 0.2rem 0 0.5rem;
+}
+
+.sharebuttons ul li a svg {
+  width: auto;
+  height: 1.1rem;
+  display: block;
+  stroke-width: 0.000001;
+}
+
+.will-change {
+  transition: 250ms;
+}
+
+nav.sharebuttons li > a:hover .will-change {
+  fill: #444444;
+}
+
+.sharebuttons {
+  stroke: none;
+}
+
+@media (max-width: 767px) {
+  .sharebuttons ul li a svg {
+    min-width: 48px;
+    min-height: 48px;
+  }
+
+  .sharebuttons ul li {
+      flex-basis: 48px; /* Set the initial width of each list item (adjust this as needed) */
+      margin: 0.2rem; /* Add some margin between the icons */
+  }
+
+  .sharebuttons ul {
+      display: flex;
+      flex-wrap: wrap; /* Allow the buttons to wrap to the next line when there's not enough space */
+      justify-content: center; /* Center the buttons horizontally */
+  }
+}
