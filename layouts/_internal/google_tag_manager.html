@@ -1,6 +1,16 @@
 {{ $title := (.Title | default $.Site.Title) }}
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6"></script>
+<script>
+function loadGoogleTagManager() {
+  var gtagScript = document.createElement('script');
+  gtagScript.async = true;
+  gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6';
+  document.body.appendChild(gtagScript); // Append to <body> instead of <head>
+}
+
+// Add an event listener to execute the function when the body content is loaded
+document.body.addEventListener('DOMContentLoaded', loadGoogleTagManager);
+</script>
 <script>
   function yieldToMain(callback) {
     if (typeof callback !== 'function') {

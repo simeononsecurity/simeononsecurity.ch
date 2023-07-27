@@ -1,7 +1,12 @@
-<script async>
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "g45ppf746r");
+<script>
+    function loadClarityScript() {
+        (function(c, l, a, r, i, t, y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "g45ppf746r");
+    }
+
+    // Add an event listener to execute the function when the page is loaded
+    document.addEventListener("DOMContentLoaded", loadClarityScript);
 </script>
