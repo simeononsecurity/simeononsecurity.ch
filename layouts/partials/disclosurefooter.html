@@ -11,13 +11,11 @@
     {{ if and (not .IsHome) (not .IsSection) (.IsPage)}}
         <div class="affiliate-disclosure" style="text-align: center; max-width: 800px; margin: 0 auto; word-wrap: break-word;">
             <p>
-            <strong>Affiliate Disclosure:</strong> We may earn a commission from links
-            on this page. These commissions support our website and the content we
-            provide. Rest assured, we only recommend products/services we believe in.
-            Thank you for your trust! <a href="/affiliate">Click Here to Learn More</a>
+            <strong>{{ i18n "affiliatedisclosure"}}:</strong> {{ i18n "affiliatestatement"}} <a href="/affiliate" title="{{ i18n "affiliatedisclosure"}}">{{ i18n "affiliatedisclosurecta"}}</a>
             </p>
-            <p></p>
         </div>
     {{ end }}
   {{ end }}
 {{ end }}
+
+
