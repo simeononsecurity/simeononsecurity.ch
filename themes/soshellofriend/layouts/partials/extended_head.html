@@ -220,5 +220,5 @@
     {{ end }}
   {{ end }}
 {{ end }}
-
-{{ partial "instantpage.html" . }}
+{{ partialCached "yieldToMain.html" .}}
+{{ partialCached "instantpage.html" . }}

@@ -51,24 +51,6 @@
   </a>
 </div>
 <script>
-  function yieldToMain(callback) {
-    if (typeof callback !== 'function') {
-      throw new Error('Callback must be a function.');
-    }
-
-    // Using requestIdleCallback for idle callback
-    if ('requestIdleCallback' in window) {
-      window.requestIdleCallback(() => {
-        callback();
-      });
-    } else {
-      // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
-      setTimeout(() => {
-        callback();
-      }, 0);
-    }
-  }
-
   // Function to handle gtag event tracking
   function sendTrackingEvent(linkUrl) {
     try {

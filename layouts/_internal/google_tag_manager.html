@@ -9,7 +9,11 @@ function loadGoogleTagManager() {
 }
 
 // Add an event listener to execute the function when the body content is loaded
-document.body.addEventListener('DOMContentLoaded', loadGoogleTagManager);
+document.addEventListener('DOMContentLoaded', function () {
+  yieldToMain(function () {
+    loadGoogleTagManager();
+  });
+});
 </script>
 <script>
   function yieldToMain(callback) {

@@ -13,7 +13,11 @@
 }
 
 // Add an event listener to execute the function when the body content is loaded
-document.addEventListener('DOMContentLoaded', loadAdSense);
+document.addEventListener('DOMContentLoaded', function () {
+  yieldToMain(function () {
+      loadAdSense();
+  });
+});
 </script>
 <script>
   // Step 1: Wait for all content to be loaded

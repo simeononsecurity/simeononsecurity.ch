@@ -1,1 +1,19 @@
-<script async src="{{ "js/instantpage-5.2.0.js" | absURL }}" type="module"></script>
+{{ $instantpage := ("js/instantpage-5.2.0.js" | absURL) }}
+<script>
+
+    // Function to load the script asynchronously at DOMContentLoaded
+    function loadInstantPage() {
+        const script = document.createElement('script');
+        script.src = "{{ $instantpage }}";
+        script.type = 'module';
+        script.async = true;
+        document.head.appendChild(script);
+    }
+
+    // Use yieldToMain() with DOMContentLoaded event
+    document.addEventListener('DOMContentLoaded', function () {
+        yieldToMain(function () {
+            loadInstantPage();
+        });
+    });
+</script>
