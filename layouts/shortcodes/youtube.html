@@ -1,3 +1,35 @@
+<script defer type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9; /* matches YouTube player */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* right-facing triangle "Play" icon */
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style>
 {{- $pc := .Page.Site.Config.Privacy.YouTube -}}
 {{- if not $pc.Disable -}}
 {{- $ytHost := cond $pc.PrivacyEnhanced  "www.youtube-nocookie.com" "www.youtube.com" -}}
@@ -13,6 +45,11 @@
   <meta itemprop="thumbnailUrl" content="{{ $thumbnailUrl }}">
   <meta itemprop="contentUrl" content="https://www.youtube.com/watch?v={{ $id }}">
   <meta itemprop="uploadDate" content="{{ $uploadDate }}">
-  <iframe src="https://{{ $ytHost }}/embed/{{ $id }}{{ with .Get "autoplay" }}{{ if eq . "true" }}?autoplay=1{{ end }}{{ end }}" {{ if not $class }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" {{ end }}allowfullscreen loading="lazy" title="{{ $title }}"></iframe>
+  <lite-youtube videoid="{{ $id }}" style="background-image: url('{{ $thumbnailUrl }}');">
+    <a href="https://{{ $ytHost }}/embed/{{ $id }}{{ with .Get "autoplay" }}{{ if eq . "true" }}?autoplay=1{{ end }}{{ end }}" class="lty-playbtn" {{ if not $class }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" {{ end }} allowfullscreen loading="lazy" title="{{ $title }}">
+      <span class="lyt-visually-hidden">Play Video</span>
+    </a>
+  </lite-youtube>
 </div>
 {{ end -}}
+
