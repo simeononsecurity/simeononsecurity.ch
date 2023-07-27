@@ -96,6 +96,9 @@
           </div>
         </div>
         <br>
+        {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang}}
+        <br>
+        <br>
         {{ partialCached "relatedcontent.html" . .Page .Page.Page }}
         <br>
       {{ end }}
