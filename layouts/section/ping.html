@@ -34,6 +34,23 @@
 
   <script src="/js/ping.js"></script>
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
     function pingAddress() {
       var addressInput = document.getElementById("input-address");
       var address = addressInput.value.trim();
@@ -48,16 +65,18 @@
             latency: delta,
           };
           displayPingResult(response);
-
           // Track successful ping event
-          try {
-            gtag("event", "ping_success", {
-              event_category: "Ping Tool",
-              event_label: address,
-            });
-          } catch (error) {
-            console.error("Failed to send tracking event:", error);
+          function sendTrackingEvent() {      
+            try {
+              gtag("event", "ping_success", {
+                event_category: "Ping Tool",
+                event_label: address,
+              });
+            } catch (error) {
+              console.error("Failed to send tracking event:", error);
+            }
           }
+          yieldToMain(sendTrackingEvent);
         })
         .catch(function(err) {
           var errorResponse = {
@@ -68,14 +87,18 @@
           console.error("Could not ping remote URL", err);
 
           // Track failed ping event
-          try {
-            gtag("event", "ping_failure", {
-              event_category: "Ping Tool",
-              event_label: address,
-            });
-          } catch (error) {
-            console.error("Failed to send tracking event:", error);
+          function sendTrackingEvent() {      
+            try {
+              gtag("event", "ping_failure", {
+                event_category: "Ping Tool",
+                event_label: address,
+              });
+            } catch (error) {
+              console.error("Failed to send tracking event:", error);
+            }
           }
+          yieldToMain(sendTrackingEvent);
+
         });
     }
 

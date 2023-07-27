@@ -80,6 +80,23 @@
   </style>
 
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
     async function checkHeaders() {
       const websiteUrl = document.getElementById("websiteInput").value;
       const headersTableBody = document.querySelector("#headersTable tbody");
@@ -118,6 +135,17 @@
         // Handle error when both CORS and non-CORS requests fail
         handleCORSFailure();
       }
+      function sendTrackingEvent() {      
+        try {
+          gtag("event", "ping_failure", {
+            event_category: "Security Headers Tool",
+            event_label: "Headers Checked",
+          });
+        } catch (error) {
+          console.error("Failed to send tracking event:", error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
     }
 
     function displayHeaders(headers) {

@@ -96,6 +96,23 @@
   </style>
 
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
     // Fetch the linuxplusdict JSON data from the URL
     fetch("https://simeononsecurity.ch/quiz-dicts/linuxplusdict.json")
       .then(function(response) {
@@ -181,15 +198,18 @@
           if (selectedAnswer) {
             var selectedAnswerValue = selectedAnswer.value;
             // Track event for answering a question
-            try {
-              gtag('event', 'quiz_answered', {
-                'event_category': 'Linux Plus Quiz',
-                'event_label': 'Answered Question'
-              });
-            } catch (error) {
-              console.error("Failed to send tracking event:", error);
+            function sendTrackingEvent() {      
+              try {
+                gtag('event', 'quiz_answered', {
+                  'event_category': 'Linux Plus Quiz',
+                  'event_label': 'Answered Question'
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
             }
-  
+            yieldToMain(sendTrackingEvent);
+
             // Check if the answer is correct
             var currentQuestion = linuxplusdict[currentQuestionIndex];
             var correctAnswer = currentQuestion.correctanswer;
@@ -197,14 +217,17 @@
   
             if (selectedAnswerValue === correctAnswer) {
               // Track event for correct answer
-              try {
-                gtag('event', 'quiz_answered', {
-                  'event_category': 'Linux Plus Quiz',
-                  'event_label': 'Correct Answer'
-                });
-              } catch (error) {
-                console.error("Failed to send tracking event:", error);
+              function sendTrackingEvent() {      
+                try {
+                  gtag('event', 'quiz_answered', {
+                    'event_category': 'Linux Plus Quiz',
+                    'event_label': 'Correct Answer'
+                  });
+                } catch (error) {
+                  console.error("Failed to send tracking event:", error);
+                }
               }
+              yieldToMain(sendTrackingEvent);
 
               score.correct++;
               // Move to the next question
@@ -218,14 +241,18 @@
                   return;
                 }
                 // Track event for quiz completion
-                try {
-                  gtag('event', 'quiz_completed', {
-                    'event_category': 'Linux Plus Quiz',
-                    'event_label': 'Quiz Completed'
-                  });
-                } catch (error) {
-                  console.error("Failed to send tracking event:", error);
+                function sendTrackingEvent() {      
+                  try {
+                    gtag('event', 'quiz_completed', {
+                      'event_category': 'Linux Plus Quiz',
+                      'event_label': 'Quiz Completed'
+                    });
+                  } catch (error) {
+                    console.error("Failed to send tracking event:", error);
+                  }
                 }
+                yieldToMain(sendTrackingEvent);
+
                 quizContainer.innerHTML =
                   "<h2>Quiz Finished!</h2>" +
                   "<p>Correct Answers: " +
@@ -240,14 +267,17 @@
               }
             } else {
               // Track event for incorrect answer
-              try {
-                gtag('event', 'quiz_answered', {
-                  'event_category': 'Linux Plus Quiz',
-                  'event_label': 'Incorrect Answer'
-                });
-              } catch (error) {
-                console.error("Failed to send tracking event:", error);
+              function sendTrackingEvent() {      
+                try {
+                  gtag('event', 'quiz_answered', {
+                    'event_category': 'Linux Plus Quiz',
+                    'event_label': 'Incorrect Answer'
+                  });
+                } catch (error) {
+                  console.error("Failed to send tracking event:", error);
+                }
               }
+              yieldToMain(sendTrackingEvent);
 
               score.incorrect++;
               showReasoningAndAnswer(reasoning, currentQuestion.answers[correctAnswer]);
@@ -304,14 +334,17 @@
               return;
             }
             // Track event for quiz completion
-            try {
-              gtag('event', 'quiz_completed', {
-                'event_category': 'Linux Plus Quiz',
-                'event_label': 'Quiz Completed'
-              });
-            } catch (error) {
-              console.error("Failed to send tracking event:", error);
+            function sendTrackingEvent() {      
+              try {
+                gtag('event', 'quiz_completed', {
+                  'event_category': 'Linux Plus Quiz',
+                  'event_label': 'Quiz Completed'
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
             }
+            yieldToMain(sendTrackingEvent);
 
             quizContainer.innerHTML =
               "<h2>Quiz Finished!</h2>" +

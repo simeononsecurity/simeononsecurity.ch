@@ -56,6 +56,24 @@
   </div>
 
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
+    
     function convertBinaryToDecimalHex() {
       var number = document.getElementById("binaryToDecimalHex").value;
 
@@ -70,7 +88,8 @@
         "<br />Hexadecimal: " + hexadecimal.toUpperCase();
 
       // Track event for binary to decimal/hex conversion
-      try {
+      function sendTrackingEvent() {      
+        try {
         gtag("event", "conversion", {
           event_category: "Binary Conversion",
           event_label: "Binary to Decimal/Hex",
@@ -78,6 +97,8 @@
       } catch (error) {
         console.error("Failed to send tracking event:", error);
       }
+    }
+      yieldToMain(sendTrackingEvent);
     }
 
     function convertDecimalToBinaryHex() {
@@ -94,14 +115,20 @@
         "<br />Hexadecimal: " + hexadecimal.toUpperCase();
 
       // Track event for decimal to binary/hex conversion
-      try {
-        gtag("event", "conversion", {
-          event_category: "Decimal Conversion",
-          event_label: "Decimal to Binary/Hex",
-        });
-      } catch (error) {
-        console.error("Failed to send tracking event:", error);
+
+      function sendTrackingEvent() {
+        try {
+          gtag("event", "conversion", {
+            event_category: "Decimal Conversion",
+            event_label: "Decimal to Binary/Hex",
+          });
+        } catch (error) {
+          console.error("Failed to send tracking event:", error);
+        }
       }
+
+      yieldToMain(sendTrackingEvent);
+
     }
 
     function convertHexToBinaryDecimal() {
@@ -118,15 +145,20 @@
         "<br />Decimal: " + decimal;
 
       // Track event for hexadecimal to binary/decimal conversion
-      try {
-        gtag("event", "conversion", {
-          event_category: "Hexadecimal Conversion",
-          event_label: "Hex to Binary/Decimal",
-        });
-      } catch (error) {
-        console.error("Failed to send tracking event:", error);
+      function sendTrackingEvent() {
+        try {
+          gtag("event", "conversion", {
+            event_category: "Hexadecimal Conversion",
+            event_label: "Hex to Binary/Decimal",
+          });
+        } catch (error) {
+          console.error("Failed to send tracking event:", error);
+        }
       }
-    }
+
+      yieldToMain(sendTrackingEvent);
+
+      }
   </script>
 
   {{ partialCached "displayads-responsive-horizontal.html" . }}

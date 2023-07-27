@@ -53,14 +53,17 @@
             resultTable.style.display = "none";
 
             // Track Shodan IP Lookup failure event
-            try {
-              gtag("event", "shodan_ip_lookup_failure", {
-                event_category: "Shodan IP Lookup",
-                event_label: ip,
-              });
-            } catch (error) {
-              console.error("Failed to send tracking event:", error);
+            function sendTrackingEvent() {      
+              try {
+                gtag("event", "shodan_ip_lookup_failure", {
+                  event_category: "Shodan IP Lookup",
+                  event_label: ip,
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
             }
+            yieldToMain(sendTrackingEvent);
           } else {
             const DESCRIPTION = "Shodan InternetDB Results For " + ip;
             const fields = [
@@ -84,8 +87,26 @@
             resultMessage.textContent = "";
 
             // Track Shodan IP Lookup success event
+            function sendTrackingEvent() {      
+              try {
+                gtag("event", "shodan_ip_lookup_success", {
+                  event_category: "Shodan IP Lookup",
+                  event_label: ip,
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
+            }
+            yieldToMain(sendTrackingEvent);
+          }
+        } catch (error) {
+          resultMessage.textContent =
+            "Error: Failed to retrieve Shodan information.";
+          resultTable.style.display = "none";
+          // Track Shodan IP Lookup failure event
+          function sendTrackingEvent() {      
             try {
-              gtag("event", "shodan_ip_lookup_success", {
+              gtag("event", "shodan_ip_lookup_failure", {
                 event_category: "Shodan IP Lookup",
                 event_label: ip,
               });
@@ -93,12 +114,14 @@
               console.error("Failed to send tracking event:", error);
             }
           }
-        } catch (error) {
-          resultMessage.textContent =
-            "Error: Failed to retrieve Shodan information.";
-          resultTable.style.display = "none";
+          yieldToMain(sendTrackingEvent);
+        }
+      } else {
+        resultMessage.textContent = "Error: Invalid IP Address.";
+        resultTable.style.display = "none";
 
-          // Track Shodan IP Lookup failure event
+        // Track Shodan IP Lookup failure event
+        function sendTrackingEvent() {      
           try {
             gtag("event", "shodan_ip_lookup_failure", {
               event_category: "Shodan IP Lookup",
@@ -108,19 +131,7 @@
             console.error("Failed to send tracking event:", error);
           }
         }
-      } else {
-        resultMessage.textContent = "Error: Invalid IP Address.";
-        resultTable.style.display = "none";
-
-        // Track Shodan IP Lookup failure event
-        try {
-          gtag("event", "shodan_ip_lookup_failure", {
-            event_category: "Shodan IP Lookup",
-            event_label: ip,
-          });
-        } catch (error) {
-          console.error("Failed to send tracking event:", error);
-        }
+        yieldToMain(sendTrackingEvent);
       }
     }
   </script>

@@ -148,6 +148,23 @@
   </div>
 
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
     function generateChmodCommand() {
       const folderPath = document.getElementById("folder-path").value.trim();
       const permissions = getSelectedPermissions();
@@ -171,14 +188,17 @@
       document.getElementById("chmod-command").innerText = chmodCommand;
 
       // Track event for generating chmod command
-      try {
-        gtag("event", "generate_command", {
-          event_category: "Chmod",
-          event_label: "Generate Command",
-        });
-      } catch (error) {
-        console.error("Failed to send tracking event:", error);
+      function sendTrackingEvent() {      
+        try {
+          gtag("event", "generate_command", {
+            event_category: "Chmod",
+            event_label: "Generate Command",
+          });
+        } catch (error) {
+          console.error("Failed to send tracking event:", error);
+        }
       }
+      yieldToMain(sendTrackingEvent);
     }
 
     function getSelectedPermissions() {

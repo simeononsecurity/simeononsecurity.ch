@@ -19,6 +19,23 @@
 
   <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
     window.onload = function() {
       document
         .getElementById("imageFile")
@@ -58,16 +75,18 @@
               "allMetaDataOutput"
             );
             allMetaDataOutput.innerHTML = createTableFromJSON(allMetaData);
-
             // Track event for retrieving EXIF data
-            try {
-              gtag("event", "retrieve_exif", {
-                event_category: "Exif Viewer",
-                event_label: "Retrieve EXIF Data",
-              });
-            } catch (error) {
-              console.error("Failed to send tracking event:", error);
+            function sendTrackingEvent() {      
+              try {
+                gtag("event", "retrieve_exif", {
+                  event_category: "Exif Viewer",
+                  event_label: "Retrieve EXIF Data",
+                });
+              } catch (error) {
+                console.error("Failed to send tracking event:", error);
+              }
             }
+            yieldToMain(sendTrackingEvent);
           });
         };
         img.src = event.target.result;

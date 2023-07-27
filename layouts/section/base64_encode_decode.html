@@ -32,36 +32,60 @@
   </div>
 
   <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+    
+      // Using requestIdleCallback for idle callback
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    }
     function encodeText() {
       var inputText = document.getElementById('inputText').value;
       var encodedText = btoa(inputText);
       document.getElementById('outputText').value = encodedText;
 
-      // Track the event
-      try {
-        gtag('event', 'text_encode', {
-          'event_category': 'Base64 Encoder',
-          'event_label': 'Text Encode'
-        });
-      } catch (error) {
-        console.error('Failed to send tracking event:', error);
+      function sendTrackingEvent() {
+        // Track the event
+        try {
+          gtag('event', 'text_encode', {
+            'event_category': 'Base64 Encoder',
+            'event_label': 'Text Encode'
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
       }
+
+      yieldToMain(sendTrackingEvent);
     }
 
     function decodeText() {
       var inputText = document.getElementById('inputText').value;
       var decodedText = atob(inputText);
       document.getElementById('outputText').value = decodedText;
-
-      // Track the event
-      try {
-        gtag('event', 'text_decode', {
-          'event_category': 'Base64 Encoder',
-          'event_label': 'Text Decode'
-        });
-      } catch (error) {
-        console.error('Failed to send tracking event:', error);
+      function sendTrackingEvent() {
+        // Track the event
+        try {
+          gtag('event', 'text_decode', {
+            'event_category': 'Base64 Encoder',
+            'event_label': 'Text Decode'
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
       }
+
+      yieldToMain(sendTrackingEvent);
     }
 
     function encodeFile() {
@@ -89,17 +113,21 @@
       var inputText = document.getElementById('fileInput').value;
       var decodedFile = atob(inputText);
       document.getElementById('outputFile').value = decodedFile;
-
-      // Track the event
-      try {
-        gtag('event', 'file_decode', {
-          'event_category': 'Base64 Encoder',
-          'event_label': 'File Decode'
-        });
-      } catch (error) {
-        console.error('Failed to send tracking event:', error);
+      function sendTrackingEvent() {
+        // Track the event
+        try {
+          gtag('event', 'file_decode', {
+            'event_category': 'Base64 Encoder',
+            'event_label': 'File Decode'
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
       }
+
+      yieldToMain(sendTrackingEvent);
     }
+
   </script>
   {{ partialCached "displayads-responsive-horizontal.html" . }}
   <style scoped>

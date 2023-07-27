@@ -33,17 +33,36 @@
   }
 </style>
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const images = document.querySelectorAll('.image-carousel img');
-    let activeImage = null; // Track the currently active image
+  function yieldToMain(callback) {
+    if (typeof callback !== 'function') {
+      throw new Error('Callback must be a function.');
+    }
 
-    images.forEach(image => {
-      image.addEventListener('mousemove', handleMouseMove);
-      image.addEventListener('mouseout', resetImageTransform);
-      image.addEventListener('click', handleClick);
-    });
+    // Using requestIdleCallback for idle callback
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(() => {
+        callback();
+      });
+    } else {
+      // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
+      setTimeout(() => {
+        callback();
+      }, 0);
+    }
+  }
 
-    function handleMouseMove(event) {
+document.addEventListener('DOMContentLoaded', () => {
+  const images = document.querySelectorAll('.image-carousel img');
+  let activeImage = null; // Track the currently active image
+
+  images.forEach(image => {
+    image.addEventListener('mousemove', handleMouseMove);
+    image.addEventListener('mouseout', resetImageTransform);
+    image.addEventListener('click', handleClick);
+  });
+
+  function handleMouseMove(event) {
+    yieldToMain(() => {
       const image = event.target;
       const imageRect = image.getBoundingClientRect();
       const mouseX = event.clientX - imageRect.left;
@@ -51,21 +70,26 @@
       const rotateX = (mouseY / imageRect.height) * 10 - 5;
       const rotateY = (mouseX / imageRect.width) * 10 - 5;
       image.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-    }
+    });
+  }
 
-    function resetImageTransform(event) {
+  function resetImageTransform(event) {
+    yieldToMain(() => {
       const image = event.target;
-      if (image !== activeImage) { // Skip resetting transform if it's the active image
+      if (image !== activeImage) {
+        // Skip resetting transform if it's the active image
         image.style.transform = '';
       }
-    }
+    });
+  }
 
-    function handleClick(event) {
+  function handleClick(event) {
+    yieldToMain(() => {
       const image = event.target;
       if (activeImage !== image) {
         if (activeImage) {
           activeImage.classList.remove('active'); // Remove 'active' class from the previously active image
-          images.forEach(img => img.style.zIndex = 'auto'); // Reset z-index of all images
+          images.forEach(img => (img.style.zIndex = 'auto')); // Reset z-index of all images
         }
         image.classList.add('active'); // Add 'active' class to the clicked image
         images.forEach(img => {
@@ -76,11 +100,12 @@
         activeImage = image; // Update the active image
       } else {
         image.classList.remove('active'); // Remove 'active' class from the clicked image (toggle off)
-        images.forEach(img => img.style.zIndex = 'auto'); // Reset z-index of all images
+        images.forEach(img => (img.style.zIndex = 'auto')); // Reset z-index of all images
         activeImage = null; // Reset the active image
       }
-    }
-  });
+    });
+  }
+}); 
 </script>
 {{ else }}
   <p>No images found in the carousel.</p>
