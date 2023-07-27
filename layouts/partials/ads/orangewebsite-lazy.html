@@ -13,7 +13,7 @@
 
 <style>
   /* Styles for the image at different screen sizes */
-  .orangewebsite-ad-eager-image {
+  .orangewebsite-ad-lazy-image {
     display: block;
     max-width: 100%;
     height: auto;
@@ -22,14 +22,14 @@
 
   /* Hide the image for viewports smaller than 300px */
   @media (max-width: 465px) {
-    .orangewebsite-ad-eager-image {
+    .orangewebsite-ad-lazy-image {
       display: none;
     }
   }
 
   /* Styles for the image at 728x90 */
   @media (min-width: 728px) {
-    .orangewebsite-ad-eager-image {
+    .orangewebsite-ad-lazy-image {
       width: 728px;
       height: 90px;
     }
@@ -37,7 +37,7 @@
 
   /* Styles for the image at 468x60 */
   @media (min-width: 468px) and (max-width: 727px) {
-    .orangewebsite-ad-eager-image {
+    .orangewebsite-ad-lazy-image {
       width: 468px;
       height: 60px;
     }
@@ -49,8 +49,8 @@
   target="_blank"
   rel="noopener sponsored"
   title="OrangeWebsite Ad"
-  id="orangewebsite-ad-eager"
-  class="orangewebsite-ad-eager-link"
+  id="orangewebsite-ad-lazy"
+  class="orangewebsite-ad-lazy-link"
 >
   <picture>
     <source
@@ -64,7 +64,7 @@
     <img
       src="{{ $optimizedsmall }}"
       alt="Web hosting in Iceland - OrangeWebsite.com"
-      class="orangewebsite-ad-eager-image"
+      class="orangewebsite-ad-lazy-image"
       fetchpriority="low"
       loading="lazy"
       style="border:0px"
