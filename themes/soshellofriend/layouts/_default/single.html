@@ -10,7 +10,6 @@
   <br>
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <h1 class="post-title" itemprop="headline">{{ .Title | markdownify }}</h1>
-    {{ partialCached "share-buttons.html" . .Page .Page.Page }}
     <div class="post-meta">
       {{ if .Date | default nil }}
         <time class="post-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormatSingle | default "2006-01-02") }}</time>
@@ -54,6 +53,8 @@
       {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
 
+    {{ partialCached "share-buttons.html" . .Page .Page.Page }}  
+    
     <div class="post-content" itemprop="articleBody">
       {{ if or .Params.Toc $.Site.Params.Toc }}
         {{ if ne .Params.Toc false }}
