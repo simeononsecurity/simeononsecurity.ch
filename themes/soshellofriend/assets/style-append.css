@@ -1230,37 +1230,6 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
     text-align: center;
   }
 }
-.breadcrumbs {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li {
-      display: inline-block;
-      color: var(--color-secondary);
-      margin-right: 5px;
-      font-size: 0.9rem;
-      &:last-child {
-          font-weight: bold;
-          color: var(--color);
-     }
- }
-  a {
-      color: var(--color-secondary);
-      text-decoration: none;
-      &:hover {
-          text-decoration: underline;
-     }
- }
-}
-.dark-theme .breadcrumbs {
-  li:last-child {
-      color: white;
- }
-  a {
-      color: #C8C8C8;
- }
-}
 .contact-form {
   width: 100%;
   max-width: 800px;
