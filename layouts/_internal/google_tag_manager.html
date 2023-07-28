@@ -12,26 +12,21 @@ yieldToMain(function () {
   loadGoogleTagManager();
 });
 </script>
-<script>
-  function sendTrackingEvent() {      
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-W3SL745QY6', {
-      'anonymize_ip': true,
-      'send_page_view': true,
-      'page_title': '{{ $title }}',
-      'currency': 'USD',
-      'link_attribution': true,
-      'linker': {
-        'domains': ['simeononsecurity.ch', 'simeononsecurity.com', 'fr.simeononsecurity.ch', 'es.simeononsecurity.ch', 'de.simeononsecurity.ch', 'hi.simeononsecurity.ch', 'bn.simeononsecurity.ch', 'ca.simeononsecurity.ch', 'it.simeononsecurity.ch', 'ja.simeononsecurity.ch', 'nl.simeononsecurity.ch', 'ro.simeononsecurity.ch', 'zh.simeononsecurity.ch', 'pa.simeononsecurity.ch', 'pt.simeononsecurity.ch', 'ru.simeononsecurity.ch', 'pl.simeononsecurity.ch', 'ar.simeononsecurity.ch']
-      },
-      'transport_type': 'beacon' // Enable navigator.sendBeacon
-    });
-  }
-  yieldToMain(function () {
-    sendTrackingEvent();
-  }, 'background');
+<script> 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W3SL745QY6', {
+    'anonymize_ip': true,
+    'send_page_view': true,
+    'page_title': '{{ $title }}',
+    'currency': 'USD',
+    'link_attribution': true,
+    'linker': {
+      'domains': ['simeononsecurity.ch', 'simeononsecurity.com', 'fr.simeononsecurity.ch', 'es.simeononsecurity.ch', 'de.simeononsecurity.ch', 'hi.simeononsecurity.ch', 'bn.simeononsecurity.ch', 'ca.simeononsecurity.ch', 'it.simeononsecurity.ch', 'ja.simeononsecurity.ch', 'nl.simeononsecurity.ch', 'ro.simeononsecurity.ch', 'zh.simeononsecurity.ch', 'pa.simeononsecurity.ch', 'pt.simeononsecurity.ch', 'ru.simeononsecurity.ch', 'pl.simeononsecurity.ch', 'ar.simeononsecurity.ch']
+    },
+    'transport_type': 'beacon' // Enable navigator.sendBeacon
+  });
 </script>
 <script>
 // Feature detects Navigation Timing API support.
