@@ -8,9 +8,9 @@ function loadGoogleTagManager() {
   document.body.appendChild(gtagScript);
 }
 document.addEventListener('DOMContentLoaded', function() {
-  yieldToMain(function () {
-    loadGoogleTagManager();
-  });
+  yieldToMain(function() {
+    loadGoogleTagManager();;
+  }, "background");
 });
 </script>
 <script> 
