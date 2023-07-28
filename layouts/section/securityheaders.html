@@ -1,4 +1,8 @@
-{{ define "main" }} {{ template "_internal/google_tag_manager.html" . }}
+{{ define "main" }} 
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ template "_internal/google_tag_manager.html" . }}
 <main class="">
   {{ partialCached "breadcrumbs.html" . .Page }}
   <div
@@ -80,23 +84,6 @@
   </style>
 
   <script>
-    function yieldToMain(callback) {
-      if (typeof callback !== 'function') {
-        throw new Error('Callback must be a function.');
-      }
-    
-      // Using requestIdleCallback for idle callback
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(() => {
-          callback();
-        });
-      } else {
-        // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
-        setTimeout(() => {
-          callback();
-        }, 0);
-      }
-    }
     async function checkHeaders() {
       const websiteUrl = document.getElementById("websiteInput").value;
       const headersTableBody = document.querySelector("#headersTable tbody");
