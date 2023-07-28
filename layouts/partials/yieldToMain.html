@@ -1,20 +1,22 @@
 <script>
-  function yieldToMain(callback, tier) {
+  function yieldToMain(callback, priority) {
     if (typeof callback !== "function") {
       throw new Error("Callback must be a function.");
     }
   
     try {
-      if (tier === "high") {
+      if (priority === 'high') {
         // High-priority tasks use requestAnimationFrame for immediate execution
         requestAnimationFrame(() => {
           callback();
         });
       } else if ("scheduler" in window && typeof window.scheduler.postTask === "function") {
         // Use scheduler.postTask() for browsers that support it
+        const validPriorities = ['background', 'user-visible', 'user-blocking'];
+        const postTaskPriority = validPriorities.includes(priority) ? priority : 'user-visible';
         window.scheduler.postTask(() => {
           callback();
-        });
+        }, { priority: postTaskPriority });
       } else if ("requestIdleCallback" in window) {
         // Fallback to using requestIdleCallback if scheduler.postTask() is not available
         window.requestIdleCallback(() => {
@@ -29,6 +31,5 @@
     } catch (error) {
       console.error("Error during task scheduling:", error.message);
     }
-  }
-  
+  }  
 </script>
