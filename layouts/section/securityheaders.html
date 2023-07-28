@@ -1,9 +1,8 @@
 {{ define "main" }} 
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
 <link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
-
 {{ template "_internal/google_tag_manager.html" . }}
-<main class="">
+<main class="securityheaders">
   {{ partialCached "breadcrumbs.html" . .Page }}
   <div
     style="width=100%; max-height:360px; min-height:100px; margin: 20px; align-self: center;"
