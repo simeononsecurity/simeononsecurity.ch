@@ -30,8 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
       'transport_type': 'beacon' // Enable navigator.sendBeacon
     });
   }
-  yieldToMain(function () {
-    configureTracking();
+  document.addEventListener('DOMContentLoaded', function() {
+    yieldToMain(function() {
+      configureTracking()();;
+    }, "background");
   });
 </script>
 <script>
