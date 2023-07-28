@@ -133,7 +133,9 @@
             console.error("Error tracking share event:", error);
           }
         }
-        yieldToMain(sendTrackingEvent);
+        yieldToMain(function() {
+          sendTrackingEvent();
+        }, "background");
         }
 
         shareButtons.forEach(function (button) {

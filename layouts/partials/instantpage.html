@@ -12,8 +12,8 @@
 
     // Use yieldToMain() with DOMContentLoaded event
     document.addEventListener('DOMContentLoaded', function () {
-        yieldToMain(function () {
+        yieldToMain(function() {
             loadInstantPage();
-        });
+        }, "background");
     });
 </script>

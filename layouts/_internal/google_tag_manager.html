@@ -10,26 +10,7 @@ function loadGoogleTagManager() {
 
 yieldToMain(function () {
   loadGoogleTagManager();
-});
-</script>
-<script>
-  function yieldToMain(callback) {
-    if (typeof callback !== 'function') {
-      throw new Error('Callback must be a function.');
-    }
-  
-    // Using requestIdleCallback for idle callback
-    if ('requestIdleCallback' in window) {
-      window.requestIdleCallback(() => {
-        callback();
-      });
-    } else {
-      // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
-      setTimeout(() => {
-        callback();
-      }, 0);
-    }
-  }
+}, 'background');
 </script>
 <script>
   function sendTrackingEvent() {      
@@ -48,20 +29,9 @@ yieldToMain(function () {
       'transport_type': 'beacon' // Enable navigator.sendBeacon
     });
   }
-  yieldToMain(sendTrackingEvent);
-</script>
-<script>
-  function createFunctionWithTimeout(callback, opt_timeout) {
-    var called = false;
-    function fn() {
-      if (!called) {
-        called = true;
-        callback();
-      }
-    }
-    setTimeout(fn, opt_timeout || 1000);
-    return fn;
-  }  
+  yieldToMain(function () {
+    sendTrackingEvent();
+  }, 'background');
 </script>
 <script>
 // Feature detects Navigation Timing API support.
@@ -83,6 +53,9 @@ if (window.performance) {
       console.error("Failed to send tracking event:", error);
     }
   }
-  yieldToMain(sendTrackingEvent);
+  yieldToMain(function () {
+    sendTrackingEvent();
+  }, 'background');
 }
 </script>
+yieldToMain();

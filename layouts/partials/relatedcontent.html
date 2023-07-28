@@ -101,7 +101,9 @@
             window.location.href = linkUrl;
           }
         }
-        yieldToMain(sendTrackingEvent);
+        yieldToMain(function() {
+          sendTrackingEvent();
+        }, "background");
       });
     });
   });
