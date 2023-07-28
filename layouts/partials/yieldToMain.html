@@ -10,7 +10,7 @@
         requestAnimationFrame(() => {
           callback();
         });
-      } else if ("scheduler" in window && typeof window.scheduler.postTask === "function") {
+      } else if (priority && "scheduler" in window && typeof window.scheduler.postTask === "function") {
         // Use scheduler.postTask() for browsers that support it
         const validPriorities = ['background', 'user-visible', 'user-blocking'];
         const postTaskPriority = validPriorities.includes(priority) ? priority : 'user-visible';
