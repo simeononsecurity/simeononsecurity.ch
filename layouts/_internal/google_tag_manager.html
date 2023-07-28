@@ -7,9 +7,10 @@ function loadGoogleTagManager() {
   gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6';
   document.body.appendChild(gtagScript);
 }
-
-yieldToMain(function () {
-  loadGoogleTagManager();
+document.addEventListener('DOMContentLoaded', function() {
+  yieldToMain(function () {
+    loadGoogleTagManager();
+  });
 });
 </script>
 <script> 
