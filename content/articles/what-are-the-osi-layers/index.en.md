@@ -1,21 +1,21 @@
 ---
-title: "Networking Basics: Understanding OSI Layers and TCP/IP Model"
+title: "Networking Basics: Understanding OSI Layers and TCP IP Model"
 draft: false
 toc: true
 date: 2023-07-22
-description: "Gain a comprehensive understanding of the OSI layers and TCP/IP model, essential frameworks in networking, to facilitate effective communication and troubleshooting."
-genre: ["Networking Basics", "OSI Layers", "TCP/IP Model", "Network Protocols", "Communication Models", "Networking Fundamentals", "Data Transmission", "Network Troubleshooting", "Network Architecture", "Networking Concepts"]
-tags: ["OSI layers", "TCP/IP model", "networking basics", "network protocols", "communication models", "data transmission", "network troubleshooting", "network architecture", "networking concepts", "networking fundamentals", "networking frameworks", "network protocols explanation", "networking standards", "physical layer", "data link layer", "network layer", "transport layer", "session layer", "presentation layer", "application layer", "TCP/IP layers", "network interface layer", "internet layer", "transport layer", "application layer", "networking protocols explained", "networking models", "networking fundamentals explained", "networking guide", "networking tutorial", "networking best practices"]
+description: "Gain a comprehensive understanding of the OSI layers and TCP IP model, essential frameworks in networking, to facilitate effective communication and troubleshooting."
+genre: ["Networking Basics", "OSI Layers", "TCP IP Model", "Network Protocols", "Communication Models", "Networking Fundamentals", "Data Transmission", "Network Troubleshooting", "Network Architecture", "Networking Concepts"]
+tags: ["OSI layers", "TCP IP model", "networking basics", "network protocols", "communication models", "data transmission", "network troubleshooting", "network architecture", "networking concepts", "networking fundamentals", "networking frameworks", "network protocols explanation", "networking standards", "physical layer", "data link layer", "network layer", "transport layer", "session layer", "presentation layer", "application layer", "TCP IP layers", "network interface layer", "internet layer", "transport layer", "application layer", "networking protocols explained", "networking models", "networking fundamentals explained", "networking guide", "networking tutorial", "networking best practices"]
 cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
 coverAlt: "An animated illustration showcasing a network of interconnected nodes with data flowing between them, symbolizing efficient communication and networking."  
 coverCaption: "Unlock the Power of Networking for Seamless Communication."
 slug: "networking-basics-osi-layers-tcp-ip-model"
 ---
-## Networking Basics: Understanding the OSI Layers and TCP/IP Model
+## Networking Basics: Understanding the OSI Layers and TCP IP Model
 
 ### Introduction
 
-In the world of networking, understanding the protocols and models that govern communication is essential. Two widely used frameworks are the **OSI (Open Systems Interconnection) model** and the **TCP/IP (Transmission Control Protocol/Internet Protocol) model**. These models provide a structured approach to networking and serve as a foundation for building and troubleshooting network systems. This article aims to explain the OSI layers and the TCP/IP model in a clear and concise manner.
+In the world of networking, understanding the protocols and models that govern communication is essential. Two widely used frameworks are the **OSI (Open Systems Interconnection) model** and the **TCP IP (Transmission Control Protocol/Internet Protocol) model**. These models provide a structured approach to networking and serve as a foundation for building and troubleshooting network systems. This article aims to explain the OSI layers and the TCP IP model in a clear and concise manner.
 
 ## The OSI Layers
 
@@ -64,12 +64,12 @@ The **Presentation Layer** deals with the **syntax and semantics** of the inform
 
 The **Application Layer** is the topmost layer of the OSI model and interacts directly with **end-user applications**. It provides services that enable **user communication** and **data exchange**. Examples of protocols at this layer include **HTTP**, **FTP**, **SMTP**, and **DNS**.
 
-## The TCP/IP Model
+## The TCP IP Model
 
-While the OSI model provides a conceptual framework, the TCP/IP model is the actual protocol suite used on the Internet. It comprises four layers, which align with certain layers of the OSI model.
+While the OSI model provides a conceptual framework, the TCP IP model is the actual protocol suite used on the Internet. It comprises four layers, which align with certain layers of the OSI model.
 
 
-| TCP/IP Layer        | Layer Description                                             | Examples            | Protocols                                       |
+| TCP IP Layer        | Layer Description                                             | Examples            | Protocols                                       |
 |---------------------|---------------------------------------------------------------|---------------------|-------------------------------------------------|
 | Network Interface Layer | Handles physical transmission of data                      | NICs, Ethernet cables  | Ethernet, Wi-Fi (802.11)                       |
 | Internet Layer      | Responsible for addressing, routing, and fragmenting data     | Routers             | IP, ICMP, ARP                                   |
@@ -90,23 +90,23 @@ The **Internet Layer** is equivalent to the **Network Layer** in the OSI model. 
 
 ### Layer 3: Transport Layer
 
-The **Transport Layer** in the TCP/IP model aligns with the **Transport Layer** in the OSI model. It provides **reliable** and **connection-oriented** communication using the **TCP** protocol or **lightweight, connectionless** communication using the **UDP** protocol.
+The **Transport Layer** in the TCP IP model aligns with the **Transport Layer** in the OSI model. It provides **reliable** and **connection-oriented** communication using the **TCP** protocol or **lightweight, connectionless** communication using the **UDP** protocol.
 
 ### Layer 4: Application Layer
 
-The **Application Layer** in the TCP/IP model includes the functionality of the **Session**, **Presentation**, and **Application** Layers in the OSI model. It represents the interface between applications and the underlying network protocols.
+The **Application Layer** in the TCP IP model includes the functionality of the **Session**, **Presentation**, and **Application** Layers in the OSI model. It represents the interface between applications and the underlying network protocols.
 
 ## Conclusion
 
-Understanding the **OSI layers** and the **TCP/IP model** is crucial for anyone involved in networking. These models provide a framework for comprehending how networks operate and the protocols that facilitate communication. By grasping the functions of each layer, **network administrators** and **engineers** can troubleshoot issues effectively and design robust network systems.
+Understanding the **OSI layers** and the **TCP IP model** is crucial for anyone involved in networking. These models provide a framework for comprehending how networks operate and the protocols that facilitate communication. By grasping the functions of each layer, **network administrators** and **engineers** can troubleshoot issues effectively and design robust network systems.
 
 
 References:
 - [OSI model](https://en.wikipedia.org/wiki/OSI_model)
-- [TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
+- [TCP IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
 - [Ethernet](https://www.computernetworkingnotes.com/networking-tutorials/ethernet-standards-and-protocols-explained.html)
 - [Wi-Fi](https://www.wi-fi.org/)
-- [IP address](https://en.wikipedia.org/wiki/IP_address)
+- [IP address](https://en.wikipedia.org/wiki IP_address)
 - [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - [User Datagram Protocol](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 - [NetBIOS](https://en.wikipedia.org/wiki/NetBIOS)
