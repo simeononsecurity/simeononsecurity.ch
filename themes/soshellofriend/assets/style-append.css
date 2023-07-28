@@ -1153,24 +1153,6 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
 .theme-toggle {
   margin-right: 10px;
 }
-@media (min-width: 384px) {
-  img.post-cover {
-      width: 240px;
-      height: 135px;
- }
-}
-@media (min-width: 780px) {
-  img.post-cover {
-      width: 480px;
-      height: 269px;
- }
-}
-@media (min-width: 2560px) {
-  img.post-cover {
-      width: 731px;
-      height: 410px;
- }
-}
 
 /* Center elements with class "IL_BASE" INFOLINKS*/
 .IL_BASE {
