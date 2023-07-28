@@ -1,7 +1,7 @@
 <script>
-  function loadAdSense() {
-    var adClient = "ca-pub-4092442123207538";
-    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+function loadAdSense() {
+  var adClient = "ca-pub-4092442123207538";
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
     if (width > 900) {
         var scriptTag = document.createElement('script');
@@ -22,8 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <script>
   // Step 1: Wait for all content to be loaded
   document.addEventListener("DOMContentLoaded", function() {
-    // Step 2: Wait for all Google ads to be pushed using requestIdleCallback
-    requestIdleCallback(function() {
+    yieldToMain(function() {
       // Execute the fixGoogleIframes function after a timeout (10 seconds in this example)
       var timeoutId = setTimeout(fixGoogleIframes, 10000);
 
@@ -49,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
       iframes.forEach(function(iframe) {
         googleAdsObserver.observe(iframe);
       });
-    });
+    }, "background");
   });
 
   function fixGoogleIframes() {
