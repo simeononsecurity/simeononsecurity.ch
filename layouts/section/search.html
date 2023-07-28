@@ -1,8 +1,4 @@
 {{ define "main" }}
-{{ $style := resources.Get "style-append.css" | resources.Minify }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
-
-{{ template "_internal/google_tag_manager.html" . }}
 <main>
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"
