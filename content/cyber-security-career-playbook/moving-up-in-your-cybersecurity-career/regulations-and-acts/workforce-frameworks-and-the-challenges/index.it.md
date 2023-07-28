@@ -34,13 +34,13 @@ ______
 
 ### La fine della rinuncia ai requisiti
 
-Con un notevole distacco dalle pratiche del passato, il DCWF del Dipartimento della Difesa vieta esplicitamente di rinunciare ai requisiti di certificazione** per gli appaltatori. Ciò significa che se una posizione richiede certificazioni specifiche, i candidati devono possederle prima di essere assunti. I framework mirano a standardizzare e ad alzare l'asticella della forza lavoro nel campo della cybersecurity, eliminando le eccezioni e sottolineando l'importanza della competenza dimostrata. Di conseguenza, le persone in cerca di lavoro dovranno affrontare una maggiore pressione per soddisfare questi requisiti per essere competitivi sul mercato del lavoro.
+Con un notevole distacco dalle pratiche del passato, il DCWF del Dipartimento della Difesa vieta esplicitamente di rinunciare ai requisiti di certificazione** per gli appaltatori. Ciò significa che se una posizione richiede certificazioni specifiche, i candidati devono possederle prima di essere assunti. I framework mirano a standardizzare e ad alzare l'asticella della forza lavoro nel campo della cybersecurity, eliminando le eccezioni e sottolineando l'importanza della competenza dimostrata. Di conseguenza, chi cerca lavoro dovrà affrontare una maggiore pressione per soddisfare questi requisiti per essere competitivo sul mercato del lavoro.
 
 ______
 
 ### Prepararsi per il futuro
 
-Poiché l'implementazione di questi framework è prevista per i prossimi anni, gli aspiranti professionisti della cybersecurity hanno a disposizione un lasso di tempo limitato per prepararsi. Familiarizzare con i framework, come il **DoD DCWF**, e rivedere attentamente i requisiti delineati è essenziale. Comprendendo a fondo le qualifiche necessarie per i ruoli desiderati, gli individui possono adattare i loro percorsi formativi e di certificazione di conseguenza.
+Poiché l'implementazione di questi framework è prevista per i prossimi anni, gli aspiranti professionisti della cybersecurity hanno a disposizione un periodo di tempo limitato per prepararsi. Familiarizzare con i framework, come il **DoD DCWF**, e rivedere attentamente i requisiti delineati è essenziale. Comprendendo a fondo le qualifiche necessarie per i ruoli desiderati, gli individui possono adattare i loro percorsi formativi e di certificazione di conseguenza.
 
 ______
 {{< inarticle-dark >}}
