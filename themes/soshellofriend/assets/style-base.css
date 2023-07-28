@@ -623,6 +623,97 @@ svg {
   color: var(--color);
   text-decoration: none;
 }
+
+/* General Breadcrumbs Styles */
+/* General Breadcrumbs Styles */
+#breadcrumbs,
+.breadcrumb-list,
+.breadcrumb-item,
+.breadcrumb-item a {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+.breadcrumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li {
+  color: var(--color-secondary);
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+
+.breadcrumbs li:last-child {
+  font-weight: bold;
+  color: var(--color);
+}
+
+.breadcrumbs a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+/* Dark Theme Styles */
+.dark-theme .breadcrumbs li:last-child {
+  color: white;
+}
+
+.dark-theme .breadcrumbs a {
+  color: #C8C8C8;
+}
+
+/* Mobile Device Styles */
+@media screen and (max-width: 768px) {
+  #breadcrumbs,
+  .breadcrumb-list,
+  .breadcrumb-item,
+  .breadcrumb-item a {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 48px;
+    min-width: 48px;
+  }
+
+  .breadcrumbs li,
+  .breadcrumbs a {
+    padding: 8px; /* Increased padding for touch-friendliness */
+    display: inline-block; /* Display as block to apply padding */
+  }
+
+  .breadcrumbs li {
+    margin-right: 10px; /* Increased margin for touch-friendliness */
+  }
+
+  .breadcrumbs a {
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+  }
+
+  .breadcrumbs a:hover {
+    background-color: var(--color); /* Change background on hover */
+  }
+
+  /* Allow wrapping on mobile */
+  .breadcrumbs {
+    white-space: initial;
+  }
+}
+
 .sharebuttons,
 .sharebuttons ul {
   display: flex;
@@ -666,7 +757,6 @@ nav.sharebuttons li > a:hover .will-change {
 .sharebuttons {
   stroke: none;
 }
-
 @media (max-width: 767px) {
   .sharebuttons ul li a svg {
     min-width: 48px;
@@ -684,37 +774,7 @@ nav.sharebuttons li > a:hover .will-change {
       justify-content: center; /* Center the buttons horizontally */
   }
 }
-.breadcrumbs {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li {
-      display: inline-block;
-      color: var(--color-secondary);
-      margin-right: 5px;
-      font-size: 0.9rem;
-      &:last-child {
-          font-weight: bold;
-          color: var(--color);
-      }
-  }
-  a {
-      color: var(--color-secondary);
-      text-decoration: none;
-      &:hover {
-          text-decoration: underline;
-      }
-}
-}
-.dark-theme .breadcrumbs {
-  li:last-child {
-      color: white;
- }
-  a {
-      color: #C8C8C8;
- }
-}
+
 .post {
   margin: 20px auto;
   max-width: 800px;
@@ -852,4 +912,39 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a {
 .post--regulation h2 + h2 {
   margin-bottom: 20px;
   margin-top: -10px;
+}
+.sponsor-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+.sponsor-button a {
+  background-color: var(--background-secondary);
+  color: var(--color);
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sponsor-button a:hover {
+  background-color: #fe5186;
+}
+
+.sponsor-button a span {
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  /* For screens smaller than 768px width (mobile devices) */
+  .sponsor-button a::after {
+    margin: auto;
+  }
 }
