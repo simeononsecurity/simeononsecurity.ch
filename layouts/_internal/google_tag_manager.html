@@ -5,12 +5,12 @@ function loadGoogleTagManager() {
   var gtagScript = document.createElement('script');
   gtagScript.async = true;
   gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6';
-  document.body.appendChild(gtagScript); // Append to <body> instead of <head>
+  document.body.appendChild(gtagScript);
 }
 
 yieldToMain(function () {
   loadGoogleTagManager();
-}, 'background');
+});
 </script>
 <script>
   function sendTrackingEvent() {      
@@ -58,4 +58,3 @@ if (window.performance) {
   }, 'background');
 }
 </script>
-yieldToMain();
