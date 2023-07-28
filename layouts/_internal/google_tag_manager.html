@@ -8,11 +8,8 @@ function loadGoogleTagManager() {
   document.body.appendChild(gtagScript); // Append to <body> instead of <head>
 }
 
-// Add an event listener to execute the function when the body content is loaded
-document.addEventListener('DOMContentLoaded', function () {
-  yieldToMain(function () {
-    loadGoogleTagManager();
-  });
+yieldToMain(function () {
+  loadGoogleTagManager();
 });
 </script>
 <script>
