@@ -1,19 +1,34 @@
 <script>
-  function yieldToMain(callback) {
+  function yieldToMain(callback, tier) {
     if (typeof callback !== "function") {
       throw new Error("Callback must be a function.");
     }
-
-    // Using requestIdleCallback for idle callback
-    if ("requestIdleCallback" in window) {
-      window.requestIdleCallback(() => {
-        callback();
-      });
-    } else {
-      // Fallback to using setTimeout with a minimal delay if requestIdleCallback is not available
-      setTimeout(() => {
-        callback();
-      }, 0);
+  
+    try {
+      if (tier === "high") {
+        // High-priority tasks use requestAnimationFrame for immediate execution
+        requestAnimationFrame(() => {
+          callback();
+        });
+      } else if ("scheduler" in window && typeof window.scheduler.postTask === "function") {
+        // Use scheduler.postTask() for browsers that support it
+        window.scheduler.postTask(() => {
+          callback();
+        });
+      } else if ("requestIdleCallback" in window) {
+        // Fallback to using requestIdleCallback if scheduler.postTask() is not available
+        window.requestIdleCallback(() => {
+          callback();
+        });
+      } else {
+        // Fallback to using setTimeout if both scheduler.postTask() and requestIdleCallback are not available
+        setTimeout(() => {
+          callback();
+        }, 0);
+      }
+    } catch (error) {
+      console.error("Error during task scheduling:", error.message);
     }
   }
+  
 </script>
