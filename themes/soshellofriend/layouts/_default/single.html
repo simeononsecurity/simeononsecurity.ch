@@ -93,14 +93,14 @@
           </div>
         </div>
         <br>
-        {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang }}
+        {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
         <br>
         <br>
-        {{ partialCached "relatedcontent.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
+        {{ partialCached "relatedcontent.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
         <br>
       {{ end }}
     {{ end }}
-    {{ partialCached "share-buttons.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
+    {{ partialCached "share-buttons.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     {{ partialCached "comments.html" . .Page .Page.Page }}
   </article>
 {{ end }}

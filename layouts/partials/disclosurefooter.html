@@ -1,4 +1,4 @@
-{{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/advertise" "/guest-posts" "/affiliate" }}
+{{ $disabledURLs := slice "/about/" "/contact/" "/terms/" "/privacy/" "/advertise/" "/guest-posts/" "/affiliate/" }}
 {{ $currentPath := .Permalink }}
 {{ $disableDisclosure := false }}
 {{ range $disabledURLs }}
@@ -8,7 +8,7 @@
 {{ end }}
 {{ if not $disableDisclosure }}
   {{ if not (eq .Params.Comments.enable false) }}
-    {{ if and (not .IsHome) (not .IsSection) (.IsPage)}}
+    {{ if .IsPage }}
         <div class="affiliate-disclosure" style="text-align: center; max-width: 800px; margin: 0 auto; word-wrap: break-word;">
             <p>
             <strong>{{ i18n "affiliatedisclosure"}}:</strong> {{ i18n "affiliatestatement"}} <a href="/affiliate" title="{{ i18n "affiliatedisclosure"}}">{{ i18n "affiliatedisclosurecta"}}</a>
@@ -17,5 +17,4 @@
     {{ end }}
   {{ end }}
 {{ end }}
-
 
