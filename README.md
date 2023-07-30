@@ -37,6 +37,12 @@ SimeonOnSecurity.ch supports the [security.txt](https://securitytxt.org/) [RFC](
 
 Verified reports will be acknowledged in the [SimeonOnSecurity Hall of Fame](https://simeononsecurity.ch/hof).
 
+### Guest Blogging
+We are excited to announce that we now accept guest blog submissions on topics related to cybersecurity, information technology, automation, programming, coding, best practices, compliance, security regulations, and more. If you have valuable insights and expertise to share with our audience, we welcome your contributions. For guidelines and submission details, please refer to our [Guest Blogging Guidelines](https://simeononsecurity.ch/guest-posts).
+
+### About Our Advertising Opportunities
+At SimeonOnSecurity, we offer a range of advertising options to help you promote your brand and reach a targeted audience of security enthusiasts and professionals. Our [Advertising page](https://simeononsecurity.ch/advertise/) provides detailed information about the ad sizes and slots we support, ensuring optimal performance and quality for your advertisements. Partner with us to showcase your products and services to our engaged community. Explore the various opportunities available to grow your reach and connect with like-minded individuals in the cybersecurity industry.
+
 ## Domains Built with This Source
 
 This source code has been used to build the following domains:
