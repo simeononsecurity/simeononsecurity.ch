@@ -19,6 +19,7 @@ Welcome to the SimeonOnSecurity website! Here, we provide the latest information
 ![Mark stale issues and pull requests](https://github.com/simeononsecurity/simeononsecurityweb/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)
 [![VirusTotal Scan](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml)
 [![HTML Validation](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/html_verify_built.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/html_verify_built.yml)
+[![Push Sitemap to Bing Indexnow and Google Indexing Api](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/sitemap_submission.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/sitemap_submission.yml)
 
 ## Technologies Used
 
