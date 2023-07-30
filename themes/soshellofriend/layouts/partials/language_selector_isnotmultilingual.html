@@ -110,17 +110,28 @@
                                 {{ $hreflang = "zh" }}
                             {{ end }}
                             {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-                            {{ $localizedFilePath := printf "%sindex.%s.md" $currentPageDir $hreflang }}
-                            {{ $localizedFilePath2 := printf "%sindex.%s.html" $currentPageDir $hreflang }}
-                            {{ $localizedFileExists := fileExists $localizedFilePath }}
-                            {{ $localizedFileExists2 := fileExists $localizedFilePath2 }}
-
-                            {{ if or (eq $baseURL "https://simeononsecurity.ch") (and $localizedFileExists (ne $currentPageBaseName "index.en.md")) (and $localizedFileExists2 (ne $currentPageBaseName "index.en.md"))}}
-                            <li itemscope itemtype="https://schema.org/Language">
-                                <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
-                                    <span itemprop="name">{{ $sitelang }}</span>
-                                </a>
-                            </li>
+                            {{ if or $.IsHome $.IsSection (in $.Type "section") }}
+                                <li itemscope itemtype="https://schema.org/Language">
+                                    <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
+                                        <span itemprop="name">{{ $sitelang }}</span>
+                                    </a>
+                                </li>
+                            {{ else }}
+                                {{ $localizedFilePath := printf "/content/%s/index.%s.md" $currentPageDir $hreflang }}
+                                {{ $localizedFilePath2 := printf "/content/%s/index.%s.html" $currentPageDir $hreflang }}
+                                {{ $localizedFilePath3 := printf "/content/%s/_index.%s.md" $currentPageDir $hreflang }}
+                                {{ $localizedFilePath4 := printf "/content/%s/_index.%s.html" $currentPageDir $hreflang }}
+                                {{ $localizedFileExists := fileExists $localizedFilePath }}
+                                {{ $localizedFileExists2 := fileExists $localizedFilePath2 }}
+                                {{ $localizedFileExists3 := fileExists $localizedFilePath3 }}
+                                {{ $localizedFileExists4 := fileExists $localizedFilePath4 }}
+                                {{ if or (eq $baseURL "https://simeononsecurity.ch") $localizedFileExists $localizedFileExists2 $localizedFileExists3 $localizedFileExists4 }}
+                                    <li itemscope itemtype="https://schema.org/Language">
+                                        <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
+                                            <span itemprop="name">{{ $sitelang }}</span>
+                                        </a>
+                                    </li>
+                                {{ end }}
                             {{ end }}
                         {{ end }}
                     </ul>
