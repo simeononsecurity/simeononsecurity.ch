@@ -2,7 +2,7 @@ name: Push Sitemap to Bing Indexnow and Google Indexing Api
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Schedule to run at 00:00 (midnight) UTC every day
+    - cron: "0 0 * * *" # Schedule to run at 00:00 (midnight) UTC every day
 
 jobs:
   search_urls_push:
@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      # Mask the sensitive number in the logs
+      - name: Mask Sensitive Data
+        run: |
+          echo "::add-mask::$NUMBER_TO_MASK"
+        env:
+          NUMBER_TO_MASK: ${{ secrets.PROJECT_NUMBER }}
 
       - name: Run Search Engines URLs Push action
         uses: 3Alan/search-engines-urls-push@v0.2.3
@@ -23,9 +30,15 @@ jobs:
       - name: Run Search Engines URLs Push action
         uses: 3Alan/search-engines-urls-push@v0.2.3
         with:
-            site: ${{ secrets.SITE }}
-            sitemap: ${{ secrets.SITEMAP }}
-            count: 200
-            google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
-            google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
-            project-number: ${{ secrets.PROJECT_NUMBER }}
+          site: ${{ secrets.SITE }}
+          sitemap: ${{ secrets.SITEMAP }}
+          count: 200
+          google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+
+      # Mask the sensitive number in the logs
+      - name: Mask Sensitive Data
+        run: |
+          echo "::add-mask::$NUMBER_TO_MASK"
+        env:
+          NUMBER_TO_MASK: ${{ secrets.PROJECT_NUMBER }}
