@@ -1,0 +1,24 @@
+name: Search Engines URLs Push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  search_urls_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run Search Engines URLs Push action
+        uses: 3Alan/search-engines-urls-push@v0.2.3
+        with:
+          site: ${{ secrets.SITE }}
+          sitemap: ${{ secrets.SITEMAP }}
+          count: ${{ secrets.COUNT }}
+          bing-token: ${{ secrets.BING_TOKEN }}
+          google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
