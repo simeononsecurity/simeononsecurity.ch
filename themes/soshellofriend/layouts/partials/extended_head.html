@@ -125,9 +125,9 @@
     "https://zh.simeononsecurity.ch"
   }}
 
-  {{ $currentPageTitle := .Page.Title }}
+  {{ $currentPageTitle := $.Page.Title }}
   
-  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
+  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index.xml" />
   {{ range $baseURLs }}
     {{ $baseURL := . }}
     {{ $hreflang := "" }}
@@ -168,7 +168,7 @@
     {{ $hreflang = "zh" }}
   {{ end }}
   {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-    <link rel="alternate" title="{{ $currentPageTitle }} iin {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+    <link rel="alternate" title="{{ $currentPageTitle }} in {{ $hreflang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
     <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
     <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $hreflang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
     <link rel="preconnect" href="{{ $baseURL }}" >
