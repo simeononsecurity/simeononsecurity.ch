@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Run Search Engines URLs Push action
+      - name: Run Search Engines URLs Push action (Bing)
         uses: 3Alan/search-engines-urls-push@v0.2.3
         with:
           site: ${{ secrets.SITE }}
@@ -20,7 +20,7 @@ jobs:
           count: 100
           bing-token: ${{ secrets.BING_TOKEN }}
 
-      - name: Run Search Engines URLs Push action
+      - name: Run Search Engines URLs Push action (Google)
         uses: 3Alan/search-engines-urls-push@v0.2.3
         with:
           site: ${{ secrets.SITE }}
@@ -32,6 +32,4 @@ jobs:
       # Mask the sensitive number in the logs
       - name: Mask Sensitive Data
         run: |
-          echo "::add-mask::$NUMBER_TO_MASK"
-        env:
-          NUMBER_TO_MASK: ${{ secrets.PROJECT_NUMBER }}
+          echo "::add-mask::${{ secrets.PROJECT_NUMBER }}"
