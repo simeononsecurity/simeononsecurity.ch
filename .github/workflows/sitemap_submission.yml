@@ -1,9 +1,6 @@
-name: Search Engines URLs Push
+name: Push Sitemap to Bing Indexnow and Google Indexing Api
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: '0 0 * * *'  # Schedule to run at 00:00 (midnight) UTC every day
 
@@ -20,7 +17,7 @@ jobs:
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}
-          count: 10
+          count: 100
           bing-token: ${{ secrets.BING_TOKEN }}
 
       - name: Run Search Engines URLs Push action
@@ -28,6 +25,7 @@ jobs:
         with:
             site: ${{ secrets.SITE }}
             sitemap: ${{ secrets.SITEMAP }}
-            count: 50
+            count: 200
             google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
             google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+            project-number: ${{ secrets.PROJECT_NUMBER }}
