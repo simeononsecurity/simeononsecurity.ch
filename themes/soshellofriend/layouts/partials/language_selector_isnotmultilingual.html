@@ -20,6 +20,14 @@
                         <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                     {{ end }}
                     {{ end }}
+                    {{ $path := "" }}
+                    {{ with .File }}
+                          {{ $path = $.Page.File.Path }}
+                    {{ else }}
+                          {{ $path = .Path }}
+                    {{ end }}
+                    {{ $currentPageDir := path.Dir $path }}
+                    {{ $currentPageBaseName := path.Base $path }}
                     <ul class="language_dropdown__menu">
                         {{ $baseURLs := slice
                             "https://simeononsecurity.ch"
@@ -99,7 +107,18 @@
                                 {{ $hreflang = "zh" }}
                             {{ end }}
                             {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
-                            <li itemscope itemtype="https://schema.org/Language"><a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $sitelang }}" ><span itemprop="name">{{ $sitelang }}</span></a></li>
+                            {{ $localizedFilePath := printf "%sindex.%s.md" $currentPageDir $hreflang }}
+                            {{ $localizedFilePath2 := printf "%sindex.%s.html" $currentPageDir $hreflang }}
+                            {{ $localizedFileExists := fileExists $localizedFilePath }}
+                            {{ $localizedFileExists2 := fileExists $localizedFilePath2 }}
+
+                            {{ if or (eq $baseURL "https://simeononsecurity.ch") (and $localizedFileExists (ne $currentPageBaseName "index.en.md")) (and $localizedFileExists2 (ne $currentPageBaseName "index.en.md"))}}
+                            <li itemscope itemtype="https://schema.org/Language">
+                                <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
+                                    <span itemprop="name">{{ $sitelang }}</span>
+                                </a>
+                            </li>
+                            {{ end }}
                         {{ end }}
                     </ul>
                 </ul>
