@@ -7,6 +7,7 @@
         script.src = "{{ $instantpage }}";
         script.type = 'module';
         script.async = true;
+        script.fetchpriority = "low";
         document.head.appendChild(script);
     }
 
