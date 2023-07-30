@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: '0 0 * * *'  # Schedule to run at 00:00 (midnight) UTC every day
 
 jobs:
   search_urls_push:
@@ -26,5 +28,6 @@ jobs:
         with:
             site: ${{ secrets.SITE }}
             sitemap: ${{ secrets.SITEMAP }}
+            count: 200
             google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
             google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
