@@ -94,12 +94,9 @@ publisherLogo = "/img/banner.png"
 publisherLogoWidth = 460
 publisherLogoHeight = 460
 
-
-
 [logo]
 logoText = "simeononsecurity"
 logoHomeLink = "/"
-
 
 [sitemap]
 changefreq = "daily"
@@ -129,7 +126,7 @@ disableLatLong = true
 includeFields = ''
 
 [outputs]
-home = ["HTML", "RSS", "JSON", "fulltext"]
+home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap"]
 section = ["HTML"]
 page = ["HTML"]
 sitemap = [ "Sitemap" ]
@@ -152,6 +149,12 @@ baseName = "feed"
   mediatype = "application/rss"
   rel = "fulltext"
   baseName = "fulltext"
+
+[outputFormats.imagessitemap]
+  mediaType = 'application/xml'
+  rel = 'imagessitemap'
+  baseName  = 'imagessitemap'
+  noUgly = true 
 
 [languages]
 [languages.ar]
