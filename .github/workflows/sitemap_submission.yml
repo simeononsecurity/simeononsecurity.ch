@@ -1,6 +1,7 @@
 name: Push Sitemap to Bing Indexnow and Google Indexing Api
 
 on:
+  push:
   schedule:
     - cron: "0 0 * * *" # Schedule to run at 00:00 (midnight) UTC every day
 
@@ -12,11 +13,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Run Search Engines URLs Push action (Bing)
+      - name: Push Bing 1
         uses: 3Alan/search-engines-urls-push@v0.2.3
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}
+          count: 100
+          bing-token: ${{ secrets.BING_TOKEN }}
+
+      - name: Push Bing 2
+        uses: 3Alan/search-engines-urls-push@v0.2.3
+        with:
+          site: ${{ secrets.SITE2 }}
+          sitemap: ${{ secrets.SITEMAP2 }}
           count: 100
           bing-token: ${{ secrets.BING_TOKEN }}
 
