@@ -22,3 +22,4 @@ jobs:
           bing-token: ${{ secrets.BING_TOKEN }}
           google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          
