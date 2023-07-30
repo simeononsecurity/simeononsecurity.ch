@@ -5,6 +5,7 @@ function loadGoogleTagManager() {
   var gtagScript = document.createElement('script');
   gtagScript.async = true;
   gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-W3SL745QY6';
+  gtagScript.fetchpriority = "high";
   document.body.appendChild(gtagScript);
 }
 document.addEventListener('DOMContentLoaded', function() {
