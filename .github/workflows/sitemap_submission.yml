@@ -1,6 +1,9 @@
 name: Push Sitemap to Bing Indexnow and Google Indexing Api
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: "0 0 * * *" # Schedule to run at 00:00 (midnight) UTC every day
 
