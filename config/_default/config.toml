@@ -126,7 +126,7 @@ disableLatLong = true
 includeFields = ''
 
 [outputs]
-home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap"]
+home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news"]
 section = ["HTML"]
 page = ["HTML"]
 sitemap = [ "Sitemap" ]
@@ -154,6 +154,12 @@ baseName = "feed"
   mediaType = 'application/xml'
   rel = 'imagessitemap'
   baseName  = 'imagessitemap'
+  noUgly = true 
+
+[outputFormats.news]
+  mediaType = 'application/xml'
+  rel = 'news'
+  baseName  = 'news'
   noUgly = true 
 
 [languages]
