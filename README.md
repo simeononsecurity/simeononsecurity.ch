@@ -47,21 +47,23 @@ At SimeonOnSecurity, we offer a range of advertising options to help you promote
 
 This source code has been used to build the following domains:
 
-- [https://simeononsecurity.com](https://simeononsecurity.com)
-- [https://simeononsecurity.ch](https://simeononsecurity.ch)
-- [https://ar.simeononsecurity.ch](https://ar.simeononsecurity.ch)
-- [https://bn.simeononsecurity.ch](https://bn.simeononsecurity.ch)
-- [https://ca.simeononsecurity.ch](https://ca.simeononsecurity.ch)
-- [https://de.simeononsecurity.ch](https://de.simeononsecurity.ch)
-- [https://es.simeononsecurity.ch](https://es.simeononsecurity.ch)
-- [https://fr.simeononsecurity.ch](https://fr.simeononsecurity.ch)
-- [https://hi.simeononsecurity.ch](https://hi.simeononsecurity.ch)
-- [https://it.simeononsecurity.ch](https://it.simeononsecurity.ch)
-- [https://ja.simeononsecurity.ch](https://ja.simeononsecurity.ch)
-- [https://nl.simeononsecurity.ch](https://nl.simeononsecurity.ch)
-- [https://pa.simeononsecurity.ch](https://pa.simeononsecurity.ch)
-- [https://pl.simeononsecurity.ch](https://pl.simeononsecurity.ch)
-- [https://pt.simeononsecurity.ch](https://pt.simeononsecurity.ch)
-- [https://ro.simeononsecurity.ch](https://ro.simeononsecurity.ch)
-- [https://ru.simeononsecurity.ch](https://ru.simeononsecurity.ch)
-- [https://zh.simeononsecurity.ch](https://zh.simeononsecurity.ch)
+| Domain | Local Name | Sitemap | RSS Feed |
+|--------|------------|---------|---------|
+| [https://simeononsecurity.com](https://simeononsecurity.com) | English | [Sitemap](https://simeononsecurity.com/sitemap.xml) | [RSS](https://simeononsecurity.com/rss.xml) |
+| [https://simeononsecurity.ch](https://simeononsecurity.ch) | English | [Sitemap](https://simeononsecurity.ch/sitemap.xml) | [RSS](https://simeononsecurity.ch/rss.xml) |
+| [https://ar.simeononsecurity.ch](https://ar.simeononsecurity.ch) | Arabic | [Sitemap](https://ar.simeononsecurity.ch/sitemap.xml) | [RSS](https://ar.simeononsecurity.ch/rss.xml) |
+| [https://bn.simeononsecurity.ch](https://bn.simeononsecurity.ch) | Bengali | [Sitemap](https://bn.simeononsecurity.ch/sitemap.xml) | [RSS](https://bn.simeononsecurity.ch/rss.xml) |
+| [https://ca.simeononsecurity.ch](https://ca.simeononsecurity.ch) | Catalan | [Sitemap](https://ca.simeononsecurity.ch/sitemap.xml) | [RSS](https://ca.simeononsecurity.ch/rss.xml) |
+| [https://de.simeononsecurity.ch](https://de.simeononsecurity.ch) | German | [Sitemap](https://de.simeononsecurity.ch/sitemap.xml) | [RSS](https://de.simeononsecurity.ch/rss.xml) |
+| [https://es.simeononsecurity.ch](https://es.simeononsecurity.ch) | Spanish | [Sitemap](https://es.simeononsecurity.ch/sitemap.xml) | [RSS](https://es.simeononsecurity.ch/rss.xml) |
+| [https://fr.simeononsecurity.ch](https://fr.simeononsecurity.ch) | French | [Sitemap](https://fr.simeononsecurity.ch/sitemap.xml) | [RSS](https://fr.simeononsecurity.ch/rss.xml) |
+| [https://hi.simeononsecurity.ch](https://hi.simeononsecurity.ch) | Hindi | [Sitemap](https://hi.simeononsecurity.ch/sitemap.xml) | [RSS](https://hi.simeononsecurity.ch/rss.xml) |
+| [https://it.simeononsecurity.ch](https://it.simeononsecurity.ch) | Italian | [Sitemap](https://it.simeononsecurity.ch/sitemap.xml) | [RSS](https://it.simeononsecurity.ch/rss.xml) |
+| [https://ja.simeononsecurity.ch](https://ja.simeononsecurity.ch) | Japanese | [Sitemap](https://ja.simeononsecurity.ch/sitemap.xml) | [RSS](https://ja.simeononsecurity.ch/rss.xml) |
+| [https://nl.simeononsecurity.ch](https://nl.simeononsecurity.ch) | Dutch | [Sitemap](https://nl.simeononsecurity.ch/sitemap.xml) | [RSS](https://nl.simeononsecurity.ch/rss.xml) |
+| [https://pa.simeononsecurity.ch](https://pa.simeononsecurity.ch) | Punjabi | [Sitemap](https://pa.simeononsecurity.ch/sitemap.xml) | [RSS](https://pa.simeononsecurity.ch/rss.xml) |
+| [https://pl.simeononsecurity.ch](https://pl.simeononsecurity.ch) | Polish | [Sitemap](https://pl.simeononsecurity.ch/sitemap.xml) | [RSS](https://pl.simeononsecurity.ch/rss.xml) |
+| [https://pt.simeononsecurity.ch](https://pt.simeononsecurity.ch) | Portuguese | [Sitemap](https://pt.simeononsecurity.ch/sitemap.xml) | [RSS](https://pt.simeononsecurity.ch/rss.xml) |
+| [https://ro.simeononsecurity.ch](https://ro.simeononsecurity.ch) | Romanian | [Sitemap](https://ro.simeononsecurity.ch/sitemap.xml) | [RSS](https://ro.simeononsecurity.ch/rss.xml) |
+| [https://ru.simeononsecurity.ch](https://ru.simeononsecurity.ch) | Russian | [Sitemap](https://ru.simeononsecurity.ch/sitemap.xml) | [RSS](https://ru.simeononsecurity.ch/rss.xml) |
+| [https://zh.simeononsecurity.ch](https://zh.simeononsecurity.ch) | Chinese | [Sitemap](https://zh.simeononsecurity.ch/sitemap.xml) | [RSS](https://zh.simeononsecurity.ch/rss.xml) |
