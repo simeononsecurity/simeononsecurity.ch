@@ -12,13 +12,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Mask the sensitive number in the logs
-      - name: Mask Sensitive Data
-        run: |
-          echo "::add-mask::$NUMBER_TO_MASK"
-        env:
-          NUMBER_TO_MASK: ${{ secrets.PROJECT_NUMBER }}
-
       - name: Run Search Engines URLs Push action
         uses: 3Alan/search-engines-urls-push@v0.2.3
         with:
