@@ -255,6 +255,11 @@
             {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
             {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
             {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+            {{ $large := ($cover.Resize "1920x webp q90") }}
+            {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
+            {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+            {{ $optimizedlarge := $largerenamedimage.Permalink}} 
+                <link rel="prefetch" href="{{ $optimizedlarge }}" fetchpriority="low" media="(min-width: 1080px)"/>    
                 <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
                 <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
                 <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 479px)"/>
@@ -283,7 +288,12 @@
     {{ $medium := ($cover.Resize "731x webp q50") }}
     {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
     {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
-    {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
+    {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
+    {{ $large := ($cover.Resize "1920x webp q90") }}
+    {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
+    {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+    {{ $optimizedlarge := $largerenamedimage.Permalink}} 
+        <link rel="prefetch" href="{{ $optimizedlarge }}" fetchpriority="low" media="(min-width: 1080px)"/>
         <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
         <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
         <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 479px)"/>
@@ -322,7 +332,12 @@
         {{ $mediumfilename := printf "%s_%dx%d.%s" $permalink $medium.Width $medium.Height "webp" | urlize }}
         {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
         {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
-          <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
+        {{ $large := ($cover.Resize "1920x webp q90") }}
+        {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
+        {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+        {{ $optimizedlarge := $largerenamedimage.Permalink}} 
+          <link rel="prefetch" href="{{ $optimizedlarge }}" fetchpriority="low" media="(min-width: 1080px)"/>
+          <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(max-width: 1079px) and (min-width: 731px)"/>
           <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 730px) and (min-width: 480px)"/>
           <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 479px)"/>
       {{ end }}
