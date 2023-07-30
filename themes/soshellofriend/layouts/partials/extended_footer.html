@@ -5,7 +5,20 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 
 {{ partialCached "donatebutton.html" .}}
 
-<script src="{{ "assets/main.js" | absURL }}" fetchpriority="high"></script>
+{{ $mainjs := ("assets/main.js" | absURL) }}
+<script>
+    function loadMainJS() {
+        var scriptTag = document.createElement('script');
+        scriptTag.src = "{{ $mainjs }}";
+        scriptTag.setAttribute('async', '');
+        scriptTag.setAttribute('fetchpriority', 'high');
+        document.body.appendChild(scriptTag);
+    }
+
+    yieldToMain(function() {
+      loadMainJS();
+    }, "user-blocking");
+</script>
 
 {{ $disabledURLs := slice "/about" "/contact" "/terms" "/privacy" "/advertise" "/guest-posts"}}
 {{ $currentPath := .Permalink }}
@@ -18,7 +31,25 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ if not $disablePrism }}
   {{ if not (eq .Params.Comments.enable false) }}
     {{ if and (not .IsHome) (not .IsSection) (.IsPage)}}
-      <script defer src="{{ "assets/prism.js" | absURL }}" fetchpriority="high" media="(min-width: 769px)"></script>
+      {{ $prismjs := ("assets/prism.js" | absURL) }}
+      <script>
+          // Function to load the script asynchronously at DOMContentLoaded
+          function loadPrismJS() {
+              var scriptTag = document.createElement('script');
+              scriptTag.src = "{{ $prismjs }}";
+              scriptTag.setAttribute('defer', '');
+              scriptTag.setAttribute('media', '(min-width: 769px)');
+              scriptTag.setAttribute('fetchpriority', 'high');
+              document.body.appendChild(scriptTag);
+          }
+
+          // Use yieldToMain() with DOMContentLoaded event
+          document.addEventListener('DOMContentLoaded', function () {
+              yieldToMain(function() {
+                loadPrismJS();
+              }, "background");
+          });
+      </script>
     {{ end }}
   {{ end }}
 {{ end }}
