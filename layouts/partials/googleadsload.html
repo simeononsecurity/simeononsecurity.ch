@@ -5,7 +5,7 @@ function loadAdSense() {
 
   var scriptTag = document.createElement('script');
   scriptTag.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adClient;
-  scriptTag.setAttribute('async', '');
+  scriptTag.setAttribute('defer', '');
   scriptTag.setAttribute('crossorigin', 'anonymous');
   document.body.appendChild(scriptTag);
 }
