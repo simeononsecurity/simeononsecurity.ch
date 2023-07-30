@@ -23,5 +23,5 @@ jobs:
         with:
           version: latest
           extended: true
-          args: --cleanDestinationDir --gc --minify --panicOnWarning --verbose --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
+          args: --cleanDestinationDir --gc -D -E -F --minify --panicOnWarning --verbose --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
 
