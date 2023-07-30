@@ -127,7 +127,7 @@
 
   {{ $currentPageTitle := .Page.Title }}
   
-
+  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
   {{ range $baseURLs }}
     {{ $baseURL := . }}
     {{ $hreflang := "" }}
@@ -174,7 +174,6 @@
     <link rel="preconnect" href="{{ $baseURL }}" >
     <link rel="dns-prefetch" href="{{ $baseURL }}" >
   {{ end }}
-  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index" />
   
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
