@@ -50,6 +50,16 @@ Cache-Control = "Public, max-age=31536000"
 Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
+for = "/tags/*"
+[headers.values]
+X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+for = "/admin/*"
+[headers.values]
+X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
 for = "/*.html"
 [headers.values]
 Cache-Control = "public, max-age=3600, must-revalidate"
