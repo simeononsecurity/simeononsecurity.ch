@@ -33,7 +33,7 @@ jobs:
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}
-          count: 200
+          count: 100
           google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
 
