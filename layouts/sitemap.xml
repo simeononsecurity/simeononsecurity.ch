@@ -1,3 +1,28 @@
+{{ $baseURLs := slice
+  "https://simeononsecurity.ch"
+  "https://ar.simeononsecurity.ch"
+  "https://bn.simeononsecurity.ch"
+  "https://ca.simeononsecurity.ch"
+  "https://de.simeononsecurity.ch"
+  "https://es.simeononsecurity.ch"
+  "https://fr.simeononsecurity.ch"
+  "https://hi.simeononsecurity.ch"
+  "https://it.simeononsecurity.ch"
+  "https://ja.simeononsecurity.ch"
+  "https://nl.simeononsecurity.ch"
+  "https://pa.simeononsecurity.ch"
+  "https://pl.simeononsecurity.ch"
+  "https://pt.simeononsecurity.ch"
+  "https://ro.simeononsecurity.ch"
+  "https://ru.simeononsecurity.ch"
+  "https://zh.simeononsecurity.ch"
+}}
+
+{{ $page := "" }}
+{{ $currentPageTitle := "" }}
+{{ $path := "" }}
+{{ $dir := ""}}
+
 {{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
          xmlns:xhtml="http://www.w3.org/1999/xhtml"
@@ -5,6 +30,16 @@
          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   {{ range .Data.Pages }}
+    {{ $page = . }}
+    {{ $currentPageTitle = $page.Title }}
+    {{ with .File }}
+      {{ $path = $page.File.Path }}
+      {{ $dir = $page.File.Dir }}
+    {{ else }}
+        {{ $path = .Path }}
+    {{ end }}
+    {{ $currentPageDir := path.Dir $path }}
+    {{ $currentPageBaseName := path.Base $path }}
     {{ $ignore := or (hasPrefix .RelPermalink "/tags") (hasPrefix .RelPermalink "/categories") }}
     {{ $ignore = or $ignore (.Params.sitemap_ignore | default false) }}
     {{ if not $ignore }}
@@ -13,12 +48,15 @@
       {{ if not .Lastmod.IsZero }}
         <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
       {{ end }}
+
       {{ with .Sitemap.ChangeFreq }}
         <changefreq>{{ . }}</changefreq>
       {{ end }}
+
       {{ if gt .Sitemap.Priority 0.0 }}
         <priority>{{ .Sitemap.Priority }}</priority>
       {{ end }}
+
       {{ if .Translations }}
         {{ range $translation := .Translations }}
           <xhtml:link
@@ -27,12 +65,82 @@
             href="{{ $translation.Permalink }}"
           />
         {{ end }}
-      {{ end }}
-      <xhtml:link
-        rel="alternate"
-        hreflang="{{ .Lang }}"
-        href="{{ .Permalink }}"
-      />
+      {{ else }}
+          {{ range $baseURLs }}
+              {{ $baseURL := . }}
+              {{ $sitelang := "" }}
+              {{ $hreflang := "" }}
+              {{ $localizedURL := "" }}
+              {{ if eq $baseURL "https://simeononsecurity.ch" }}
+                  {{ $sitelang = "English" }}
+                  {{ $hreflang = "en" }}
+              {{ else if eq $baseURL "https://ar.simeononsecurity.ch" }}
+                  {{ $sitelang = "العربية" }}
+                  {{ $hreflang = "ar" }}
+              {{ else if eq $baseURL "https://bn.simeononsecurity.ch" }}
+                  {{ $sitelang = "বাংলা" }}
+                  {{ $hreflang = "bn" }}
+              {{ else if eq $baseURL "https://ca.simeononsecurity.ch" }}
+                  {{ $sitelang = "Català" }}
+                  {{ $hreflang = "ca" }}
+              {{ else if eq $baseURL "https://de.simeononsecurity.ch" }}
+                  {{ $sitelang = "Deutsch" }}
+                  {{ $hreflang = "de" }}
+              {{ else if eq $baseURL "https://es.simeononsecurity.ch" }}
+                  {{ $sitelang = "Español" }}
+                  {{ $hreflang = "es" }}
+              {{ else if eq $baseURL "https://fr.simeononsecurity.ch" }}
+                  {{ $sitelang = "Français" }}
+                  {{ $hreflang = "fr" }}
+              {{ else if eq $baseURL "https://hi.simeononsecurity.ch" }}
+                  {{ $sitelang = "हिन्दी" }}
+                  {{ $hreflang = "hi" }}
+              {{ else if eq $baseURL "https://it.simeononsecurity.ch" }}
+                  {{ $sitelang = "Italiano" }}
+                  {{ $hreflang = "it" }}
+              {{ else if eq $baseURL "https://ja.simeononsecurity.ch" }}
+                  {{ $sitelang = "日本語" }}
+                  {{ $hreflang = "ja" }}
+              {{ else if eq $baseURL "https://nl.simeononsecurity.ch" }}
+                  {{ $sitelang = "Nederlands" }}
+                  {{ $hreflang = "nl" }}
+              {{ else if eq $baseURL "https://pa.simeononsecurity.ch" }}
+                  {{ $sitelang = "ਪੰਜਾਬੀ" }}
+                  {{ $hreflang = "pa" }}
+              {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+                  {{ $sitelang = "Português" }}
+                  {{ $hreflang = "pt" }}
+              {{ else if eq $baseURL "https://pl.simeononsecurity.ch" }}
+                  {{ $sitelang = "Polski" }}
+                  {{ $hreflang = "pl" }}
+              {{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
+                  {{ $sitelang = "Română" }}
+                  {{ $hreflang = "ro" }}
+              {{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
+                  {{ $sitelang = "Русский" }}
+                  {{ $hreflang = "ru" }}
+              {{ else if eq $baseURL "https://zh.simeononsecurity.ch" }}
+                  {{ $sitelang = "中文" }}
+                  {{ $hreflang = "zh" }}
+              {{ end }}
+              {{ $localizedURL = printf "%s%s" $baseURL $page.RelPermalink }}
+              {{ if or $page.IsHome $page.IsSection (in $page.Type "section") }}
+                  <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+              {{ else }}
+                  {{ $localizedFilePath := printf "/content/%s/index.%s.md" $currentPageDir $hreflang }}
+                  {{ $localizedFilePath2 := printf "/content/%s/index.%s.html" $currentPageDir $hreflang }}
+                  {{ $localizedFilePath3 := printf "/content/%s/_index.%s.md" $currentPageDir $hreflang }}
+                  {{ $localizedFilePath4 := printf "/content/%s/_index.%s.html" $currentPageDir $hreflang }}
+                  {{ $localizedFileExists := fileExists $localizedFilePath }}
+                  {{ $localizedFileExists2 := fileExists $localizedFilePath2 }}
+                  {{ $localizedFileExists3 := fileExists $localizedFilePath3 }}
+                  {{ $localizedFileExists4 := fileExists $localizedFilePath4 }}
+                  {{ if or (eq $baseURL "https://simeononsecurity.ch") $localizedFileExists $localizedFileExists2 $localizedFileExists3 $localizedFileExists4 }}
+                      <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+                  {{ end }}
+              {{ end }}
+          {{ end }}
+        {{ end }}
     </url>
     {{ end }}
   {{ end }}

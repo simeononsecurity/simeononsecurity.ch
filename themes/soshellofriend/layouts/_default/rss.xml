@@ -10,12 +10,39 @@
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
+
+{{ $baseURLs := slice
+  "https://simeononsecurity.ch"
+  "https://ar.simeononsecurity.ch"
+  "https://bn.simeononsecurity.ch"
+  "https://ca.simeononsecurity.ch"
+  "https://de.simeononsecurity.ch"
+  "https://es.simeononsecurity.ch"
+  "https://fr.simeononsecurity.ch"
+  "https://hi.simeononsecurity.ch"
+  "https://it.simeononsecurity.ch"
+  "https://ja.simeononsecurity.ch"
+  "https://nl.simeononsecurity.ch"
+  "https://pa.simeononsecurity.ch"
+  "https://pl.simeononsecurity.ch"
+  "https://pt.simeononsecurity.ch"
+  "https://ro.simeononsecurity.ch"
+  "https://ru.simeononsecurity.ch"
+  "https://zh.simeononsecurity.ch"
+}}
+
+{{ $page := "" }}
+{{ $currentPageTitle := "" }}
+{{ $path := "" }}
+{{ $dir := ""}}
+
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     
-    {{ if .Site.Params.RssImage }}<image>
+    {{ if .Site.Params.RssImage }}
+    <image>
       <url>{{ printf "%s%s" .Permalink .Site.Params.RssImage }}</url>
       <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
       <link>{{ .Permalink }}</link>
@@ -23,76 +50,170 @@
     {{ end }}
     
     <link>{{ .Permalink }}</link>
+
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>1337 H4X0R RSS GENERATOR</generator>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+    <language>{{.}}</language>{{end}}
+    
+
     {{ with .Site.Author.email }}
       <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>
       <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>
-    {{ end }}{{ end }}
-    {{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    {{ with .OutputFormats.Get "RSS" }}
-	{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-      {{ range $pages }}
-        <item>
-          <title>{{ .Title }}</title>
-          {{ with .Permalink }}
-            <link>{{ . }}</link>
-          {{ end }}
-          <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Sun, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
-          {{ with $.Params.Author }}
+
+    {{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}
+
+    {{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ end }}
+
+    {{ with .OutputFormats.Get "RSS" }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+
+    {{ range $pages }}
+      {{ $page = . }}
+      {{ $currentPageTitle = $page.Title }}
+      {{ with .File }}
+        {{ $path = $page.File.Path }}
+        {{ $dir = $page.File.Dir }}
+      {{ else }}
+          {{ $path = .Path }}
+      {{ end }}
+      {{ $currentPageDir := path.Dir $path }}
+      {{ $currentPageBaseName := path.Base $path }}
+      <item>
+        <title>{{ .Title }}</title>
+        {{ with .Permalink }}
+          <link>{{ . }}</link>
+        {{ end }}
+        <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Sun, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
+        {{ with $.Params.Author }}
+          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
+        {{ else }}
+          {{ with .Site.Author.email }}
             <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
           {{ else }}
-            {{ with .Site.Author.email }}
+            {{ with $.Site.Author.name }}
               <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
-            {{ else }}
-              {{ with $.Site.Author.name }}
-                <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
-              {{ end }}
             {{ end }}
           {{ end }}
-          <category>
-            {{ if .Params.genre }}
-              {{ range $index, $genre := .Params.genre }}
-                {{ if $index }}, {{ end }}"{{ $genre }}"
-              {{ end }}
-            {{ else if .Params.tags }}
-              {{ range $index, $tag := .Params.tags }}
-                {{ if $index }}, {{ end }}"{{ $tag }}"
-              {{ end }}
-            {{ else }}
-            "cybersecurity", "security", "information security"
+        {{ end }}
+        <category>
+          {{ if .Params.genre }}
+            {{ range $index, $genre := .Params.genre }}
+              {{ if $index }}, {{ end }}"{{ $genre }}"
             {{ end }}
-          </category>
-          <guid>{{ .Permalink }}</guid>
-          <comments>https://github.com/simeononsecurity/simeononsecurity.ch-comments/issues</comments>
-          <description>
-            {{ if .Site.Params.RssFullText }}
-              {{ .Content | html }}
-            {{ else }}
-              {{ with .Description }}{{ . | html }}
-              {{ else }}{{ .Summary | html }}
-              {{ end }}
+          {{ else if .Params.tags }}
+            {{ range $index, $tag := .Params.tags }}
+              {{ if $index }}, {{ end }}"{{ $tag }}"
             {{ end }}
+          {{ else }}
+          "cybersecurity", "security", "information security"
+          {{ end }}
+        </category>
+        <guid>{{ .Permalink }}</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.ch-comments/issues</comments>
+        <description>
+        {{ if .Site.Params.RssFullText }}
+          {{ .Content | html }}
+        {{ else }}
+          {{ with .Description }}{{ . | html }}
+          {{ else }}{{ .Summary | html }}
+          {{ end }}
+        {{ end }}
 
-            {{ if .Params.Cover }}
-              {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\" loading=\"lazy\">" .RelPermalink .Params.Cover }}
-              {{ else }}{{ printf "<img src=\"%s\" loading=\"lazy\">" (.Params.Cover | absURL) }}
+        {{ if .Params.Cover }}
+          {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\" loading=\"lazy\">" .RelPermalink .Params.Cover }}
+          {{ else }}{{ printf "<img src=\"%s\" loading=\"lazy\">" (.Params.Cover | absURL) }}
+          {{ end }}
+        {{ else }}
+          {{ $images := .Resources.ByType "image" }}
+          {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
+          {{ with $featured }}{{ printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
+        {{ end }}
+      
+        {{ if gt (len .Translations) 1 }}
+          {{ range .Translations }}
+            <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+          {{ end }}
+        {{ else }}
+          {{ range $baseURLs }}
+              {{ $baseURL := . }}
+              {{ $sitelang := "" }}
+              {{ $hreflang := "" }}
+              {{ $localizedURL := "" }}
+              {{ if eq $baseURL "https://simeononsecurity.ch" }}
+                  {{ $sitelang = "English" }}
+                  {{ $hreflang = "en" }}
+              {{ else if eq $baseURL "https://ar.simeononsecurity.ch" }}
+                  {{ $sitelang = "العربية" }}
+                  {{ $hreflang = "ar" }}
+              {{ else if eq $baseURL "https://bn.simeononsecurity.ch" }}
+                  {{ $sitelang = "বাংলা" }}
+                  {{ $hreflang = "bn" }}
+              {{ else if eq $baseURL "https://ca.simeononsecurity.ch" }}
+                  {{ $sitelang = "Català" }}
+                  {{ $hreflang = "ca" }}
+              {{ else if eq $baseURL "https://de.simeononsecurity.ch" }}
+                  {{ $sitelang = "Deutsch" }}
+                  {{ $hreflang = "de" }}
+              {{ else if eq $baseURL "https://es.simeononsecurity.ch" }}
+                  {{ $sitelang = "Español" }}
+                  {{ $hreflang = "es" }}
+              {{ else if eq $baseURL "https://fr.simeononsecurity.ch" }}
+                  {{ $sitelang = "Français" }}
+                  {{ $hreflang = "fr" }}
+              {{ else if eq $baseURL "https://hi.simeononsecurity.ch" }}
+                  {{ $sitelang = "हिन्दी" }}
+                  {{ $hreflang = "hi" }}
+              {{ else if eq $baseURL "https://it.simeononsecurity.ch" }}
+                  {{ $sitelang = "Italiano" }}
+                  {{ $hreflang = "it" }}
+              {{ else if eq $baseURL "https://ja.simeononsecurity.ch" }}
+                  {{ $sitelang = "日本語" }}
+                  {{ $hreflang = "ja" }}
+              {{ else if eq $baseURL "https://nl.simeononsecurity.ch" }}
+                  {{ $sitelang = "Nederlands" }}
+                  {{ $hreflang = "nl" }}
+              {{ else if eq $baseURL "https://pa.simeononsecurity.ch" }}
+                  {{ $sitelang = "ਪੰਜਾਬੀ" }}
+                  {{ $hreflang = "pa" }}
+              {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+                  {{ $sitelang = "Português" }}
+                  {{ $hreflang = "pt" }}
+              {{ else if eq $baseURL "https://pl.simeononsecurity.ch" }}
+                  {{ $sitelang = "Polski" }}
+                  {{ $hreflang = "pl" }}
+              {{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
+                  {{ $sitelang = "Română" }}
+                  {{ $hreflang = "ro" }}
+              {{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
+                  {{ $sitelang = "Русский" }}
+                  {{ $hreflang = "ru" }}
+              {{ else if eq $baseURL "https://zh.simeononsecurity.ch" }}
+                  {{ $sitelang = "中文" }}
+                  {{ $hreflang = "zh" }}
               {{ end }}
-            {{ else }}
-              {{ $images := .Resources.ByType "image" }}
-              {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
-              {{ with $featured }}{{ printf "<img src=\"%s\" loading=\"lazy\">" $featured.RelPermalink }}{{ end }}
-            {{ end }}
-          
-            {{ if gt (len .Translations) 1 }}
-            {{ range .Translations }}
-              <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
-            {{ end }}
-            {{ end }}
+              {{ $localizedURL = printf "%s%s" $baseURL $page.RelPermalink }}
+              {{ if or $page.IsHome $page.IsSection (in $page.Type "section") }}
+                  <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+              {{ else }}
+                  {{ $localizedFilePath := printf "/content/%s/index.%s.md" $currentPageDir $hreflang }}
+                  {{ $localizedFilePath2 := printf "/content/%s/index.%s.html" $currentPageDir $hreflang }}
+                  {{ $localizedFilePath3 := printf "/content/%s/_index.%s.md" $currentPageDir $hreflang }}
+                  {{ $localizedFilePath4 := printf "/content/%s/_index.%s.html" $currentPageDir $hreflang }}
+                  {{ $localizedFileExists := fileExists $localizedFilePath }}
+                  {{ $localizedFileExists2 := fileExists $localizedFilePath2 }}
+                  {{ $localizedFileExists3 := fileExists $localizedFilePath3 }}
+                  {{ $localizedFileExists4 := fileExists $localizedFilePath4 }}
+                  {{ if or (eq $baseURL "https://simeononsecurity.ch") $localizedFileExists $localizedFileExists2 $localizedFileExists3 $localizedFileExists4 }}
+                      <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+                  {{ end }}
+              {{ end }}
+          {{ end }}
+        {{ end }}
           </description>
         </item>
       {{ end }}
