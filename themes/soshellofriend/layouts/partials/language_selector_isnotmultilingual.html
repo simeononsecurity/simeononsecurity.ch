@@ -16,9 +16,9 @@
             <nav aria-label="Language switcher">
                 <ul class="">
                     {{ range .Site.Languages }}
-                    {{ if eq . $.Site.Language }}
-                        <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
-                    {{ end }}
+                        {{ if eq . $.Site.Language }}
+                            <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
+                        {{ end }}
                     {{ end }}
                     {{ $path := "" }}
                     {{ $dir := ""}}
