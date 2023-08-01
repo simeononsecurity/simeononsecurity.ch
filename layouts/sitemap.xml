@@ -125,7 +125,7 @@
               {{ end }}
               {{ $localizedURL = printf "%s%s" $baseURL $page.RelPermalink }}
               {{ if or $page.IsHome $page.IsSection (in $page.Type "section") }}
-                  <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+                  <xhtml:link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $localizedURL }}" />
               {{ else }}
                   {{ $localizedFilePath := printf "/content/%s/index.%s.md" $currentPageDir $hreflang }}
                   {{ $localizedFilePath2 := printf "/content/%s/index.%s.html" $currentPageDir $hreflang }}
@@ -136,7 +136,7 @@
                   {{ $localizedFileExists3 := fileExists $localizedFilePath3 }}
                   {{ $localizedFileExists4 := fileExists $localizedFilePath4 }}
                   {{ if or (eq $baseURL "https://simeononsecurity.ch") $localizedFileExists $localizedFileExists2 $localizedFileExists3 $localizedFileExists4 }}
-                      <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+                      <xhtml:link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $localizedURL }}" />
                   {{ end }}
               {{ end }}
           {{ end }}
