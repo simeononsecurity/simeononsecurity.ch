@@ -1,0 +1,163 @@
+<!-- Localization -->
+{{ $currentPageTitle := .Page.Title }}
+{{ $path := "" }}
+{{ $dir := ""}}
+{{ with .File }}
+      {{ $path = $.Page.File.Path }}
+      {{ $dir = $.Page.File.Dir }}
+{{ else }}
+      {{ $path = .Path }}
+{{ end }}
+{{ $currentPageDir := path.Dir $path }}
+{{ $currentPageBaseName := path.Base $path }}
+
+{{ $baseURLs := slice
+    "https://simeononsecurity.ch"
+    "https://ar.simeononsecurity.ch"
+    "https://bn.simeononsecurity.ch"
+    "https://ca.simeononsecurity.ch"
+    "https://de.simeononsecurity.ch"
+    "https://es.simeononsecurity.ch"
+    "https://fr.simeononsecurity.ch"
+    "https://hi.simeononsecurity.ch"
+    "https://it.simeononsecurity.ch"
+    "https://ja.simeononsecurity.ch"
+    "https://nl.simeononsecurity.ch"
+    "https://pa.simeononsecurity.ch"
+    "https://pl.simeononsecurity.ch"
+    "https://pt.simeononsecurity.ch"
+    "https://ro.simeononsecurity.ch"
+    "https://ru.simeononsecurity.ch"
+    "https://zh.simeononsecurity.ch"
+  }}
+
+  {{ $currentPageTitle := $.Page.Title }}
+  
+  <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed" hreflang="x-default" href="https://simeononsecurity.ch/index.xml" />
+  {{ range $baseURLs }}
+    {{ $baseURL := . }}
+    {{ $hreflang := "" }}
+    {{ $localizedURL := "" }}
+    {{ if eq $baseURL "https://simeononsecurity.ch" }}
+    {{ $hreflang = "en" }}
+  {{ else if eq $baseURL "https://ar.simeononsecurity.ch" }}
+    {{ $hreflang = "ar" }}
+  {{ else if eq $baseURL "https://bn.simeononsecurity.ch" }}
+    {{ $hreflang = "bn" }}
+  {{ else if eq $baseURL "https://ca.simeononsecurity.ch" }}
+    {{ $hreflang = "ca" }}
+  {{ else if eq $baseURL "https://de.simeononsecurity.ch" }}
+    {{ $hreflang = "de" }}
+  {{ else if eq $baseURL "https://es.simeononsecurity.ch" }}
+    {{ $hreflang = "es" }}
+  {{ else if eq $baseURL "https://fr.simeononsecurity.ch" }}
+    {{ $hreflang = "fr" }}
+  {{ else if eq $baseURL "https://hi.simeononsecurity.ch" }}
+    {{ $hreflang = "hi" }}
+  {{ else if eq $baseURL "https://it.simeononsecurity.ch" }}
+    {{ $hreflang = "it" }}
+  {{ else if eq $baseURL "https://ja.simeononsecurity.ch" }}
+    {{ $hreflang = "ja" }}
+  {{ else if eq $baseURL "https://nl.simeononsecurity.ch" }}
+    {{ $hreflang = "nl" }}
+  {{ else if eq $baseURL "https://pa.simeononsecurity.ch" }}
+    {{ $hreflang = "pa" }}
+  {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+    {{ $hreflang = "pt" }}
+  {{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+    {{ $hreflang = "pl" }}
+  {{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
+    {{ $hreflang = "ro" }}
+  {{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
+    {{ $hreflang = "ru" }}
+  {{ else if eq $baseURL "https://zh.simeononsecurity.ch" }}
+    {{ $hreflang = "zh" }}
+  {{ end }}
+  {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
+
+{{ $baseURL := . }}
+{{ $sitelang := "" }}
+{{ $hreflang := "" }}
+{{ $localizedURL := "" }}
+{{ if eq $baseURL "https://simeononsecurity.ch" }}
+    {{ $sitelang = "English" }}
+    {{ $hreflang = "en" }}
+{{ else if eq $baseURL "https://ar.simeononsecurity.ch" }}
+    {{ $sitelang = "العربية" }}
+    {{ $hreflang = "ar" }}
+{{ else if eq $baseURL "https://bn.simeononsecurity.ch" }}
+    {{ $sitelang = "বাংলা" }}
+    {{ $hreflang = "bn" }}
+{{ else if eq $baseURL "https://ca.simeononsecurity.ch" }}
+    {{ $sitelang = "Català" }}
+    {{ $hreflang = "ca" }}
+{{ else if eq $baseURL "https://de.simeononsecurity.ch" }}
+    {{ $sitelang = "Deutsch" }}
+    {{ $hreflang = "de" }}
+{{ else if eq $baseURL "https://es.simeononsecurity.ch" }}
+    {{ $sitelang = "Español" }}
+    {{ $hreflang = "es" }}
+{{ else if eq $baseURL "https://fr.simeononsecurity.ch" }}
+    {{ $sitelang = "Français" }}
+    {{ $hreflang = "fr" }}
+{{ else if eq $baseURL "https://hi.simeononsecurity.ch" }}
+    {{ $sitelang = "हिन्दी" }}
+    {{ $hreflang = "hi" }}
+{{ else if eq $baseURL "https://it.simeononsecurity.ch" }}
+    {{ $sitelang = "Italiano" }}
+    {{ $hreflang = "it" }}
+{{ else if eq $baseURL "https://ja.simeononsecurity.ch" }}
+    {{ $sitelang = "日本語" }}
+    {{ $hreflang = "ja" }}
+{{ else if eq $baseURL "https://nl.simeononsecurity.ch" }}
+    {{ $sitelang = "Nederlands" }}
+    {{ $hreflang = "nl" }}
+{{ else if eq $baseURL "https://pa.simeononsecurity.ch" }}
+    {{ $sitelang = "ਪੰਜਾਬੀ" }}
+    {{ $hreflang = "pa" }}
+{{ else if eq $baseURL "https://pt.simeononsecurity.ch" }}
+    {{ $sitelang = "Português" }}
+    {{ $hreflang = "pt" }}
+{{ else if eq $baseURL "https://pl.simeononsecurity.ch" }}
+    {{ $sitelang = "Polski" }}
+    {{ $hreflang = "pl" }}
+{{ else if eq $baseURL "https://ro.simeononsecurity.ch" }}
+    {{ $sitelang = "Română" }}
+    {{ $hreflang = "ro" }}
+{{ else if eq $baseURL "https://ru.simeononsecurity.ch" }}
+    {{ $sitelang = "Русский" }}
+    {{ $hreflang = "ru" }}
+{{ else if eq $baseURL "https://zh.simeononsecurity.ch" }}
+    {{ $sitelang = "中文" }}
+    {{ $hreflang = "zh" }}
+{{ end }}
+{{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
+{{ if or $.IsHome $.IsSection (in $.Type "section") }}
+    <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+    <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
+    <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
+    <link rel="preconnect" href="{{ $baseURL }}" >
+    <link rel="dns-prefetch" href="{{ $baseURL }}" >
+{{ else }}
+    {{ $localizedFilePath := printf "/content/%s/index.%s.md" $currentPageDir $hreflang }}
+    {{ $localizedFilePath2 := printf "/content/%s/index.%s.html" $currentPageDir $hreflang }}
+    {{ $localizedFilePath3 := printf "/content/%s/_index.%s.md" $currentPageDir $hreflang }}
+    {{ $localizedFilePath4 := printf "/content/%s/_index.%s.html" $currentPageDir $hreflang }}
+    {{ $localizedFileExists := fileExists $localizedFilePath }}
+    {{ $localizedFileExists2 := fileExists $localizedFilePath2 }}
+    {{ $localizedFileExists3 := fileExists $localizedFilePath3 }}
+    {{ $localizedFileExists4 := fileExists $localizedFilePath4 }}
+    {{ if or (eq $baseURL "https://simeononsecurity.ch") $localizedFileExists $localizedFileExists2 $localizedFileExists3 $localizedFileExists4 }}
+        <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
+        <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
+        <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
+        <link rel="preconnect" href="{{ $baseURL }}" >
+        <link rel="dns-prefetch" href="{{ $baseURL }}" >
+    {{ end }}
+{{ end }}
+{{ end }}
+  
+<!-- RSS | JSON -->
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
