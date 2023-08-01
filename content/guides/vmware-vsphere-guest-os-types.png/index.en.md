@@ -3,14 +3,14 @@ title: "Mastering VMware vSphere: Complete Guide to guest_os_type Values"
 date: 2023-09-01
 toc: true
 draft: false
-description: "Discover the valid 'guest_os_type' values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease."
+description: "Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease."
 genre: ["Virtualization", "VMware vSphere", "Packer Builder", "Guest OS Types", "Automation", "Infrastructure-as-Code", "DevOps", "System Administration", "Cloud Computing", "IT Management"]
 tags: ["VMware", "vSphere", "Packer Builder", "Guest OS Types", "Virtual Machines", "Automation", "Infrastructure-as-Code", "DevOps", "System Administration", "Cloud Computing",
 "VM Images", "Server Configuration", "Legacy OS", "Compatibility Testing", "64-bit OS", "Data Center", "Testing Purposes", "Windows OS", "Server OS", "Operating Systems",
 "Windows 7", "Windows 10", "Windows Server 2019", "Windows Server 2022", "Windows XP", "Windows Vista", "Windows 8", "Windows 9", "Windows Server", "MS-DOS"]
 cover: "/img/cover/vmware-vsphere-guest-os-types.png"
 coverAlt: "An animated art-style depiction of a virtual data center with VMs running various OS versions."
-coverCaption: "Mastering VM Creation: Unleash the Power of guest_os_type Values."
+coverCaption: "Mastering VM Creation: Unleash the Power of guest os type Values."
 ---
 
 ## List of Valid “guest_os_type” Values for vSphere Packer Builder
