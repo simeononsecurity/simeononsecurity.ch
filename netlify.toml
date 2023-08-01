@@ -301,105 +301,105 @@ from = "/ru/*"
 to = "https://ru.simeononsecurity.ch/:splat"
 status = 301
 
-[[redirects]]
-from = "/*"
-to = "/:splat"
-status = 200
-force = true
-conditions = { Language = ["en"] }
+# [[redirects]]
+# from = "/*"
+# to = "/:splat"
+# status = 200
+# force = true
+# conditions = { Language = ["en"] }
 
-[[redirects]]
-from = "/*"
-to = "https://ar.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["ar"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://ar.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["ar"] }
 
-[[redirects]]
-from = "/*"
-to = "https://bn.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["bn"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://bn.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["bn"] }
 
-[[redirects]]
-from = "/*"
-to = "https://ca.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["ca"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://ca.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["ca"] }
 
-[[redirects]]
-from = "/*"
-to = "https://de.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["de"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://de.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["de"] }
 
-[[redirects]]
-from = "/*"
-to = "https://es.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["es"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://es.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["es"] }
 
-[[redirects]]
-from = "/*"
-to = "https://fr.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["fr"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://fr.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["fr"] }
 
-[[redirects]]
-from = "/*"
-to = "https://hi.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["hi"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://hi.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["hi"] }
 
-[[redirects]]
-from = "/*"
-to = "https://it.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["it"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://it.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["it"] }
 
-[[redirects]]
-from = "/*"
-to = "https://ja.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["ja"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://ja.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["ja"] }
 
-[[redirects]]
-from = "/*"
-to = "https://nl.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["nl"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://nl.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["nl"] }
 
-[[redirects]]
-from = "/*"
-to = "https://pa.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["pa"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://pa.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["pa"] }
 
-[[redirects]]
-from = "/*"
-to = "https://pl.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["pl"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://pl.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["pl"] }
 
-[[redirects]]
-from = "/*"
-to = "https://pt.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["pt"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://pt.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["pt"] }
 
-[[redirects]]
-from = "/*"
-to = "https://ro.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["ro"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://ro.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["ro"] }
 
-[[redirects]]
-from = "/*"
-to = "https://ru.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["ru"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://ru.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["ru"] }
 
-[[redirects]]
-from = "/*"
-to = "https://zh.simeononsecurity.ch/:splat"
-status = 301
-conditions = { Language = ["zh"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://zh.simeononsecurity.ch/:splat"
+# status = 301
+# conditions = { Language = ["zh"] }
