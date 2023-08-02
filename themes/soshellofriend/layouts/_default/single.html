@@ -53,7 +53,8 @@
       {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
 
-    {{ partialCached "share-buttons.html" . .Page .Page.Page }}  
+    {{ partialCached "share-buttons.html" . .Page .Page.Page }} 
+    {{ partial "editclickbutton.html" .}} 
     
     <div class="post-content" itemprop="articleBody">
       {{ if or .Params.Toc $.Site.Params.Toc }}
