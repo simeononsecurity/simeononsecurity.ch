@@ -62,16 +62,24 @@
         {{ if or (eq $page.Section "tags") ($lowpriority)}}
                 <changefreq>monthly</changefreq>
         {{ else }}
-            {{ with .Sitemap.ChangeFreq }}
-            <changefreq>{{ . }}</changefreq>
+            {{ if or .IsSection .IsHome}}
+                <changefreq>weekly</changefreq>
+            {{ else }}
+                {{ with .Sitemap.ChangeFreq }}
+                <changefreq>{{ . }}</changefreq>
+                {{ end }}
             {{ end }}
         {{ end }}
 
         {{ if or (eq $page.Section "tags") ($lowpriority)}}
             <priority>0.01</priority>
         {{ else }}
-            {{ if gt .Sitemap.Priority 0.0 }}
-                <priority>{{ .Sitemap.Priority }}</priority>
+            {{ if or .IsSection .IsHome}}
+                <priority>0.1</priority>
+            {{ else }}
+                {{ if gt .Sitemap.Priority 0.0 }}
+                    <priority>{{ .Sitemap.Priority }}</priority>
+                {{ end }}
             {{ end }}
         {{ end }}
 
