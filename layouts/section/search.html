@@ -38,7 +38,7 @@
   </div>
 
   <div id="search-results"></div>
-  <div id="search-pagination" style="max-width:700px;"></div>
+  <div id="search-pagination"></div>
   <div class="search-loading"></div>
 
   <script id="search-result-template" type="text/x-js-template">
@@ -80,24 +80,7 @@
   {{ partial "displayads-responsive-horizontal.html" . }}
 
   <!-- Search Functionality -->
-  <script async src="{{ "js/search.js"| absURL }}"></script>
-
-  <!-- Load 3rd Party JS -->
-  {{ if not $.Site.IsServer }}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  {{ template "_internal/google_tag_manager.html" . }}
-
-  <!-- Microsoft Clarity -->
-  {{ template "_internal/microsoft_clarity.html" . }}
-  {{ if not .IsHome }}
-    <!-- Load Info Links -->
-    {{ if not .IsSection }}
-      <!-- Ads JS Load -->
-      {{ partialCached "googleadsload.html" . }}
-      {{ partialCached "infolinks.html" . }}
-    {{ end }}
-  {{ end }}
-  {{ end }}
+  <script defer src="{{ "js/search.js"| absURL }}"></script>
 
 </main>
 {{ end }}
