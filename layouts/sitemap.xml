@@ -58,13 +58,14 @@
         <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
       {{ end }}
 
-      {{ with .Sitemap.ChangeFreq }}
+
         {{ if or (eq $page.Section "tags") ($lowpriority)}}
-            <changefreq>monthly</changefreq>
+                <changefreq>monthly</changefreq>
         {{ else }}
+            {{ with .Sitemap.ChangeFreq }}
             <changefreq>{{ . }}</changefreq>
+            {{ end }}
         {{ end }}
-      {{ end }}
 
         {{ if or (eq $page.Section "tags") ($lowpriority)}}
             <priority>0.01</priority>
