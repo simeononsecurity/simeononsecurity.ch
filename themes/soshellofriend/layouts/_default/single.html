@@ -54,7 +54,7 @@
     {{ end }}
 
     {{ partialCached "share-buttons.html" . .Page .Page.Page }} 
-    {{ partial "editclickbutton.html" .}} 
+    {{ partial "editbuttons.html" .}} 
     
     <div class="post-content" itemprop="articleBody">
       {{ if or .Params.Toc $.Site.Params.Toc }}

@@ -91,8 +91,6 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
   }
 </script>
 
-{{ partial "editbutton.html" . }}
-
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" fetchpriority="high">
 
