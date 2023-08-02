@@ -1,3 +1,12 @@
+{{ $disabledURLs := slice "/tags" "/about/" "/contact/" "/terms/" "/privacy/" "/advertise/" "/guest-posts/" "/affiliate/" }}
+{{ $currentPath := .Permalink }}
+{{ $lowpriority := false }}
+{{ range $disabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $lowpriority = true }}
+  {{ end }}
+{{ end }}
+
 {{ $baseURLs := slice
   "https://simeononsecurity.ch"
   "https://ar.simeononsecurity.ch"
@@ -50,12 +59,20 @@
       {{ end }}
 
       {{ with .Sitemap.ChangeFreq }}
-        <changefreq>{{ . }}</changefreq>
+        {{ if or (eq $page.Section "tags") ($lowpriority)}}
+            <changefreq>monthly</changefreq>
+        {{ else }}
+            <changefreq>{{ . }}</changefreq>
+        {{ end }}
       {{ end }}
 
-      {{ if gt .Sitemap.Priority 0.0 }}
-        <priority>{{ .Sitemap.Priority }}</priority>
-      {{ end }}
+        {{ if or (eq $page.Section "tags") ($lowpriority)}}
+            <priority>0.01</priority>
+        {{ else }}
+            {{ if gt .Sitemap.Priority 0.0 }}
+                <priority>{{ .Sitemap.Priority }}</priority>
+            {{ end }}
+        {{ end }}
 
       {{ if .Translations }}
         {{ range $translation := .Translations }}
