@@ -11,7 +11,7 @@ const fuseOptions = {
   minMatchCharLength: 1,
   keys: [
     {name: "title", weight: 0.45},
-    {name: "contents", weight: 0.4},
+    {name: "contents", weight: 0.6},
     {name: "tags", weight: 0.1},
     {name: "categories", weight: 0.05}
   ]
