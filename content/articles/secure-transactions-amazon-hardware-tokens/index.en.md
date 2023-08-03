@@ -43,22 +43,22 @@ _____
 Amazon offers a range of hardware token options to fortify your digital transactions. These devices combine cutting-edge technology with user-friendly features, providing a seamless and secure experience.
 
 ### 1. [Yubico YubiKey 5 Series](https://amzn.to/3QoxrwT)
-{{< figure src="yuibikeyseries5.jpg" alt="Yubico YubiKey 5 Series" >}}
+{{< figure src="yuibikeyseries5.jpg" alt="Yubico YubiKey 5 Series" link="https://amzn.to/3QoxrwT" >}}
 
 The [**Yubico YubiKey 5 Series**](https://amzn.to/3QoxrwT) is a standout choice, known for its durability and versatility. It supports various authentication protocols and can be used for securing accounts, encrypting emails, and even as a second-factor token for password managers.
 
 ### 2. [Thetis Fido U2F Security Key](https://amzn.to/3rZih7u)
-{{< figure src="Thetis.jpg" alt="Thetis Fido U2F Security Key" >}}
+{{< figure src="Thetis.jpg" alt="Thetis Fido U2F Security Key" link="https://amzn.to/3rZih7u" >}}
 
 The [**Thetis Fido U2F Security Key**](https://amzn.to/3rZih7u) boasts FIPS 140-2 Level 3 certification, making it suitable for industries. Its compact design and strong authentication capabilities make it a compelling option.
 
 ### 2. [Feitian MultiPass FIDO Security Key](https://amzn.to/3rNWKhI)
-{{< figure src="FEITIAN.jpg" alt="Feitian MultiPass FIDO Security Key" >}}
+{{< figure src="FEITIAN.jpg" alt="Feitian MultiPass FIDO Security Key" link="https://amzn.to/3rNWKhI" >}}
 
 Ideal for those embracing FIDO (Fast Identity Online) authentication, the [**Feitian MultiPass FIDO Security Key**](https://amzn.to/3rNWKhI) offers seamless integration with FIDO-supported services. Its pocket-sized design enhances portability.
 
 ### 4. [OnlyKey FIDO2 U2F](https://amzn.to/3OEX8YP)
-{{< figure src="onlykey.jpg" alt="OnlyKey FIDO2 U2F" >}}
+{{< figure src="onlykey.jpg" alt="OnlyKey FIDO2 U2F" link="https://amzn.to/3OEX8YP" >}}
 
 Similar to the YubiKey and a favorite of privacy and security professionals, the [OnlyKey FIDO2 U2F](https://amzn.to/3OEX8YP) offers 6 dedicated buttons that can be changed to essentially offer the features of 6 YubiKeys in one. 
 
