@@ -21,17 +21,17 @@ In today's digital landscape, **securing your home network** is a crucial step t
 
 A **hardware firewall** is a vital component that acts as a barrier between your local network and the outside world, scrutinizing incoming and outgoing traffic for potential threats. Here are some highly recommended hardware firewalls that can significantly bolster your network security:
 
-1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): This versatile device, available on [Amazon](https://amzn.to/3DHBJrY), is perfect for running advanced security platforms like [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/), or [OpenWrt](https://openwrt.org/). Its multi-port design allows for effective network segmentation, enhancing overall security.
+1. [**Protectli Vault 4 Port**](https://amzn.to/3DHBJrY): This versatile device, available on [Amazon](https://amzn.to/3DHBJrY), is perfect for running advanced security platforms like [pfSense](https://www.pfsense.org/), [OPNsense](https://opnsense.org/), or [OpenWrt](https://openwrt.org/). Its multi-port design allows for effective network segmentation, enhancing overall security. {{< figure src="protectli.jpg" alt="Protectli Vault 4 Port" link="https://amzn.to/3DHBJrY" >}}
 
-2. [**Firewalla: Cyber Security Firewall**](https://amzn.to/3DG4WmU): With its user-friendly interface, the Firewalla provides real-time monitoring and protection against cyber threats. You can find it on [Amazon](https://amzn.to/3DG4WmU) and it's suitable for both beginners and advanced users.
+2. [**Firewalla: Cyber Security Firewall**](https://amzn.to/3DG4WmU): With its user-friendly interface, the Firewalla provides real-time monitoring and protection against cyber threats. You can find it on [Amazon](https://amzn.to/3DG4WmU) and it's suitable for both beginners and advanced users. {{< figure src="Firewalla.jpg" alt="Firewalla: Cyber Security Firewall" link="https://amzn.to/3DG4WmU" >}}
 
-3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): This robust firewall solution, available on [Amazon](https://amzn.to/3OGmFkr), offers enterprise-level security features for your home network. Its comprehensive threat detection capabilities provide peace of mind.
+3. [**FORTINET FortiGate-60E**](https://amzn.to/3OGmFkr): This robust firewall solution, available on [Amazon](https://amzn.to/3OGmFkr), offers enterprise-level security features for your home network. Its comprehensive threat detection capabilities provide peace of mind. {{< figure src="Fortinet.jpg" alt="FORTINET FortiGate-60E" link="https://amzn.to/3OGmFkr" >}}
 
 ### Access Points: Extending Secure Connectivity
 
 Secure and reliable **access points** are essential for seamless connectivity across your home network. For extended coverage and enhanced security, consider the following option:
 
-- [**NETGEAR Nighthawk Whole Home Mesh WiFi 6 System (MK62)**](https://amzn.to/3qizl7R): Available on [Amazon](https://amzn.to/3qizl7R), this mesh Wi-Fi system not only ensures high-speed connectivity but also offers advanced security features. It's designed to eliminate dead zones and provide a secure Wi-Fi environment.
+- [**NETGEAR Nighthawk Whole Home Mesh WiFi 6 System (MK62)**](https://amzn.to/3qizl7R): Available on [Amazon](https://amzn.to/3qizl7R), this mesh Wi-Fi system not only ensures high-speed connectivity but also offers advanced security features. It's designed to eliminate dead zones and provide a secure Wi-Fi environment. {{< figure src="NETGEAR.jpg" alt="NETGEAR Nighthawk Whole Home Mesh WiFi 6 System" link="https://amzn.to/3qizl7R" >}}
 
 For more access point options and in-depth comparisons, you can refer to articles such as:
 - [Best WiFi Mesh System for Consumers](https://simeononsecurity.ch/articles/best-wifi-mesh-system-for-consumers/)
@@ -41,7 +41,7 @@ For more access point options and in-depth comparisons, you can refer to article
 
 **Network monitoring tools** empower you to maintain real-time vigilance over your network and quickly respond to potential threats. One cost-effective solution for setting up a monitoring environment is the following:
 
-- [**Raspberry Pi 4 4GB Starter Kit**](https://amzn.to/3rWNdoR): Available on [Amazon](https://amzn.to/3rWNdoR), this kit allows you to leverage the Raspberry Pi's capabilities for running a variety of security and monitoring applications, including [VPNs](https://openvpn.net/), [Pi-hole (ad-blocking)](https://pi-hole.net/), [Home Assistant](https://www.home-assistant.io/), and [Grafana](https://grafana.com/) (data visualization).
+- [**Raspberry Pi 4 4GB Starter Kit**](https://amzn.to/3rWNdoR): Available on [Amazon](https://amzn.to/3rWNdoR), this kit allows you to leverage the Raspberry Pi's capabilities for running a variety of security and monitoring applications, including [VPNs](https://openvpn.net/), [Pi-hole (ad-blocking)](https://pi-hole.net/), [Home Assistant](https://www.home-assistant.io/), and [Grafana](https://grafana.com/) (data visualization). {{< figure src="rpi.jpg" alt="Raspberry Pi 4 4GB Starter Kit" link="https://amzn.to/3rWNdoR" >}}
 
 By incorporating these hardware recommendations into your home network setup, you'll establish a more resilient and secure digital environment.
 
