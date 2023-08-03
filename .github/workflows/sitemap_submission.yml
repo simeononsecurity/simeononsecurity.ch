@@ -17,15 +17,7 @@ jobs:
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}
-          count: 100
-          bing-token: ${{ secrets.BING_TOKEN }}
-
-      - name: Push Bing 2
-        uses: 3Alan/search-engines-urls-push@v0.2.3
-        with:
-          site: ${{ secrets.SITE2 }}
-          sitemap: ${{ secrets.SITEMAP2 }}
-          count: 100
+          count: 50
           bing-token: ${{ secrets.BING_TOKEN }}
 
       - name: Run Search Engines URLs Push action (Google)
