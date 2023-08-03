@@ -215,6 +215,29 @@
           {{ end }}
         {{ end }}
           </description>
+          {{ $imgurl := "" }}
+          {{ if .Params.Cover }}
+            {{ if .Params.UseRelativeCover }}
+              {{ $imgurl = (.RelPermalink .Params.Cover) }}
+            {{ else }}
+              {{ $imgurl = (.Params.Cover) }}
+            {{ end }}
+          {{ else }}
+            {{ $images := .Resources.ByType "image" }}
+            {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
+            {{ with $featured }}
+              {{ $imgurl = ($featured.RelPermalink) }}
+            {{ end }}
+          {{ end }}
+          {{ if $imgurl }}
+            {{ $imgResource := resources.Get $imgurl }}
+            {{ if $imgResource }}
+              {{ $ext := replace $imgResource.MediaType.SubType "/" "" | lower }}
+              {{ $content := $imgResource.Content }}
+              {{ $contentLength := printf "%d" (len $content) }}
+              <enclosure url="{{ $imgResource.Permalink }}" length="{{ $contentLength }}" type="image/{{ $ext }}" />
+            {{ end }}
+          {{ end }}
         </item>
       {{ end }}
   </channel>
