@@ -32,7 +32,7 @@ SimeonOnSecurity presents a curated collection of smart home hubs and controller
 
 The [**Amazon Echo (4th Gen)**](https://amzn.to/43RJndY) stands as a central hub for orchestrating a symphony of smart devices in your abode. With integrated **Zigbee support** and seamless integration of **Alexa Guard**, it not only provides convenience but also upholds a fortress of security.
 
-{{< figure src="alexa.jpg" alt="Amazon Echo (4th Gen)" >}}
+{{< figure src="alexa.jpg" alt="Amazon Echo (4th Gen)" link="https://amzn.to/43RJndY" >}}
 
 #### Key Attributes:
 - Zigbee compatibility for streamlined connections with Zigbee devices
@@ -43,7 +43,7 @@ The [**Amazon Echo (4th Gen)**](https://amzn.to/43RJndY) stands as a central hub
 
 The [**Ring Alarm 5-Piece Kit**](https://amzn.to/3OFKRU0) is a comprehensive home security system that extends its protective mantle over various smart home gadgets. Its robust security protocols and integration with other Ring products bolster your home's defenses.
 
-{{< figure src="ring.jpg" alt="Ring Alarm 5-Piece Kit" >}}
+{{< figure src="ring.jpg" alt="Ring Alarm 5-Piece Kit" link="https://amzn.to/3OFKRU0" >}}
 
 #### Key Attributes:
 - Professional monitoring to ensure swift response during emergencies
@@ -54,7 +54,7 @@ The [**Ring Alarm 5-Piece Kit**](https://amzn.to/3OFKRU0) is a comprehensive hom
 
 [**Samsung SmartThings**](https://amzn.to/4576RN0) emerges as an ecosystem enabler, knitting together a diverse array of smart devices. Its commitment to security is demonstrated through its multifaceted approach to safeguarding your smart home.
 
-{{< figure src="smartthings.jpg" alt="Samsung SmartThings Home Hub" >}}
+{{< figure src="smartthings.jpg" alt="Samsung SmartThings Home Hub" link="https://amzn.to/4576RN0" >}}
 
 #### Key Attributes:
 - Wide compatibility, making it a bridge between various devices and protocols
@@ -64,7 +64,7 @@ The [**Ring Alarm 5-Piece Kit**](https://amzn.to/3OFKRU0) is a comprehensive hom
 
 The [**Hubitat Home Automation Hub**](https://amzn.to/47aa14B) puts the control back into your hands, allowing you to manage your smart home environment without compromising security. Local processing and a focus on privacy set it apart.
 
-{{< figure src="hubitat.jpg" alt="Hubitat Home Automation Hub" >}}
+{{< figure src="hubitat.jpg" alt="Hubitat Home Automation Hub" link="https://amzn.to/47aa14B" >}}
 
 #### Key Attributes:
 - Local processing for enhanced privacy and reduced reliance on cloud services
@@ -74,7 +74,7 @@ The [**Hubitat Home Automation Hub**](https://amzn.to/47aa14B) puts the control 
 
 [**Home Assistant**](https://www.home-assistant.io/) serves as your personal smart home manager, offering you complete control over your connected devices while maintaining top-notch security and privacy.
 
-{{< figure src="homeassistant.jpg" alt="Home Assistant Hub" >}}
+{{< figure src="homeassistant.jpg" alt="Home Assistant Hub" link="https://www.home-assistant.io/" >}}
 
 #### Key Features:
 - Open-source platform, giving you full control and customization
