@@ -40,6 +40,8 @@ User-agent: facebookexternalhit
 User-agent: Facebot
 User-agent: Feedly
 User-agent: Findxbot
+User-agent: Flipboard
+User-agent: FlipboardProxy
 User-agent: Googlebot
 User-agent: Googlebot desktop
 User-agent: Googlebot-Image
