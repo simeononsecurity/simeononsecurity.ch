@@ -1,4 +1,47 @@
 {{ define "main" }}
+{{ if or .isSection}}
+{{ $cover := resources.Get (.Params.Cover)}}
+{{ if .Params.UseRelativeCover }}
+  {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+{{ end }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Section Name",
+      "description": "Description of the section",
+      "itemListElement": [
+        {{ range .Paginator.Pages }}
+        {
+          "@type": "ListItem",
+          "position": "{{ add .Paginator.PageNumber 1 }}",
+          "item": {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "{{ .Permalink }}"
+            },
+            "headline": "{{ .Title }}",
+            "url": "{{ .Permalink }}",
+            "datePublished": "{{ .Date.Format "2006-01-02" }}",
+            "author": {
+              "@type": "Person",
+              "name": "{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}", 
+              "url": "{{ with .Params.Author }}{{ $.Site.BaseURL }}/authors/{{ . }}{{ else }}{{ "/authors/simeononsecurity" | absURL }}{{ end }}"
+            },
+            {{ if .Params.Cover }}
+            "image": {
+              "@type": "ImageObject",
+              "url": "{{ $cover.Permalink }}"
+            },
+            {{ end }}
+          }
+        }{{ if not (last $.Paginator.Pages .) }},{{ end }}
+        {{ end }}
+      ]
+    }
+  </script>
+{{ end }}
 {{ partialCached "breadcrumbs.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang}}
 <br>
 {{ partialCached "ads/random-eager.html" .Page .Page.Page }}
@@ -30,13 +73,23 @@
           {{ if not (in $currentPath $excludePaths) }}
             {{ if .Params.Author }}
               {{ with .Params.Author }}
-                <span class="post-author" itemscope itemtype="https://schema.org/Person">
-                  — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">{{ . }}</span></a>
+                <span itemscope itemtype="https://schema.org/Author">
+                  <span class="post-author" itemscope itemtype="https://schema.org/Person">
+                    — {{ $.Site.Params.WrittenBy | default "Written by" }} 
+                    <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="url">
+                      <span itemprop="name">{{ . }}</span>
+                    </a>
+                  </span>
                 </span>
               {{ end }}
             {{ else }}
-              <span class="post-author" itemscope itemtype="https://schema.org/Person">
-                — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">SimeonOnSecurity</span></a>
+              <span itemscope itemtype="https://schema.org/Author">
+                <span class="post-author" itemscope itemtype="https://schema.org/Person">
+                  — {{ $.Site.Params.WrittenBy | default "Written by" }} 
+                  <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="url">
+                    <span itemprop="name">SimeonOnSecurity</span>
+                  </a>
+                </span>
               </span>
             {{ end }}
           {{ end }}

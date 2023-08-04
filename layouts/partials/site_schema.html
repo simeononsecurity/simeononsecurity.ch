@@ -109,7 +109,17 @@
   }
   </script>
 {{ else if .IsPage }} 
-{{ $author := or (.Params.author) (.Site.Author.name) }}
+{{ $author := or ($.Page.Params.author) ($.Site.Author.name)}}
+{{ $authorURL := ""}}
+{{ if .Params.Author }}
+  {{ with .Params.Author }}
+      {{ $authorURL =  ("/authors/({{ . | lower }})"| absURL) }}
+      {{ $author = or ($.Page.Params.author) ($.Site.Author.name) }}
+  {{ else }}
+      {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
+      {{ $author = "simeononsecurity" }}
+  {{ end }}
+{{ end }}
 {{ $org_name := .Site.Title }}
 {{ $og_image := "" }}
 {{ if .Params.cover }}
@@ -127,6 +137,10 @@
     {{ $og_image = index $.Site.Params.images 0 | absURL }}
   {{ end }}
 {{ end }}
+{{ $cover := resources.Get (.Params.Cover)}}
+{{ if .Params.UseRelativeCover }}
+  {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+{{ end }}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -138,6 +152,12 @@
     "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
     "inLanguage": "{{ .Site.LanguageCode | default "en-us" }}",
     "isFamilyFriendly": true,
+    "author": {
+      "@type": "Person",
+      "name": "{{ $author }}",
+      "additionalName": "{{ $author }}",
+      "url": "{{ .Site.BaseURL }}"
+    },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ .Permalink }}"
@@ -161,7 +181,19 @@
     },
     "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
     "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
-    "image": "{{ $og_image }}",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "{{ $og_image }}",
+      "license": "https://simeononsecurity.ch/termsandconditions/",
+      "acquireLicensePage": "https://simeononsecurity.ch/contactus/",
+      "creditText": "SimeonOnSecurity",
+      "creator": {
+        "@type": "Person",
+        "name": "{{ $author }} ",
+        "url": "{{ $authorURL }}"
+      },
+      "copyrightNotice": "SimeonOnSecurity"
+    },
     "url": "{{ .Permalink }}",
     "wordCount": "{{ .WordCount }}",
     "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],

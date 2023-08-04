@@ -25,13 +25,23 @@
       {{ if not (in $currentPath $excludePaths) }}
         {{ if .Params.Author }}
           {{ with .Params.Author }}
-            <span class="post-author" itemscope itemtype="https://schema.org/Person">
-              — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">{{ . }}</span></a>
+            <span itemscope itemtype="https://schema.org/Author">
+              <span class="post-author" itemscope itemtype="https://schema.org/Person">
+                — {{ $.Site.Params.WrittenBy | default "Written by" }} 
+                <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name">
+                  <span itemprop="name">{{ . }}</span>
+                </a>
+              </span>
             </span>
           {{ end }}
         {{ else }}
-          <span class="post-author" itemscope itemtype="https://schema.org/Person">
-            — {{ $.Site.Params.WrittenBy | default "Written by" }} <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name"><span itemprop="name">SimeonOnSecurity</span></a>
+          <span itemscope itemtype="https://schema.org/Author">
+            <span class="post-author" itemscope itemtype="https://schema.org/Person">
+              — {{ $.Site.Params.WrittenBy | default "Written by" }} 
+              <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name">
+                <span itemprop="name">SimeonOnSecurity</span>
+              </a>
+            </span>
           </span>
         {{ end }}
       {{ end }}
