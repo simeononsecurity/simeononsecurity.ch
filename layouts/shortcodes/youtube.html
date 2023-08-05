@@ -40,7 +40,7 @@
 {{- $description := .Get "description" | default "" -}}
 {{- $thumbnailUrl := printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $id -}}
 {{- $uploadDate := .Page.Date.Format "2006-01-02" -}}
-<div itemscope itemtype="https://schema.org/VideoObject" {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
+<div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
   <meta itemprop="name" content="{{ $title }}">
   <meta itemprop="description" content="{{ $description }}">
   <meta itemprop="thumbnailUrl" content="{{ $thumbnailUrl }}">
@@ -52,5 +52,16 @@
     </a>
   </lite-youtube>
 </div>
-{{ end -}}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["VideoObject", "LearningResource"],
+    "name": "{{ $title }}",
+    "description": "{{ $description }}",
+    "thumbnailUrl": ["{{ $thumbnailUrl }}"],
+    "contentUrl": "https://www.youtube.com/watch?v={{ $id }}",
+    "uploadDate": "{{ $uploadDate }}"
+  }
+</script>
+  
 
