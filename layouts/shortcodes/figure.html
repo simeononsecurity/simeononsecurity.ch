@@ -1,8 +1,8 @@
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+<figure {{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    <img style="max-height:300px; max-width: 700px;" src="{{ .Get "src" }}"
+    <img style="max-height:300px; max-width: 700px; min-width: 200ox;" src="{{ .Get "src" }}"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}
