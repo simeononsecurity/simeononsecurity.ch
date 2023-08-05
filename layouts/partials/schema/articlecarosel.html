@@ -25,7 +25,7 @@
     {{ range $index, $page := $paginator.Pages }}
     {
       "@type": "ListItem",
-      "position": "{{ add $counter 1 }}",
+      "position": "{{ $index }}",
       "item": {
         "@type": "Article",
         "mainEntityOfPage": {
