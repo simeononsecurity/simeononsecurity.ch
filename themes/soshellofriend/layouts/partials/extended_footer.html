@@ -48,6 +48,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
               scriptTag.src = 'https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
               scriptTag.setAttribute('defer', '');
               scriptTag.setAttribute('type', 'module');
+              scriptTag.setAttribute('fetchpriority', 'low');
               document.body.appendChild(scriptTag);
           }
 
