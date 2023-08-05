@@ -53,8 +53,8 @@ Remember to explore **free online resources** as well, such as educational **You
 When choosing study materials, prioritize resources that align with your preferred learning style, whether it's reading textbooks, watching videos, or engaging in interactive exercises. By diversifying your study materials, you can reinforce your understanding of the exam topics and enhance your overall preparation for the CEH certification exam.
 
 #### Recommended Learning Resources
-- YouTube
-  - {{< youtube id="Xtf_Nn4UX4k" >}}
+- YouTube:
+  - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
 - [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)

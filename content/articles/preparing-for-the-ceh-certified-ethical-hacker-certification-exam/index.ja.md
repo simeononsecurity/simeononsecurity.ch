@@ -40,7 +40,7 @@ CEH 認定試験に合格するための学習計画：成功のためのヒン�
 
 #### おすすめ学習教材
 - YouTube
-  -{{< youtube id="Xtf_Nn4UX4k" >}}
+  -{{< youtube id="maO8_0cA7W8" >}}
 -[PluralSight (Preferred)](https://www.pluralsight.com/)
 -[Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
 -[More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)

@@ -54,7 +54,7 @@ coverCaption: "准备、坚持、成功：你的认证道德黑客之旅》。"
 
 #### 推荐学习资源
 - 视频
-  - {{< youtube id="Xtf_Nn4UX4k" >}}
+  - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
 - [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
