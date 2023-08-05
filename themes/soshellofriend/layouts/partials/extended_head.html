@@ -157,3 +157,7 @@
 {{ end }}
 {{ partialCached "yieldToMain.html" .}} 
 {{ partialCached "instantpage.html" . }}
+
+{{ if or .Section .IsHome }}
+  {{ partial "schema/articlecarosel.html" . }}
+{{ end }}

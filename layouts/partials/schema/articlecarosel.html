@@ -1,0 +1,53 @@
+{{ $cover := resources.Get (.Params.Cover)}}
+{{ if .Params.UseRelativeCover }}
+  {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+{{ end }}
+{{ $counter := 0 }}
+
+{{ $languageCode := $.Site.LanguageCode }}
+{{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
+{{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
+
+{{ $PageContext := . }}
+{{ if .IsHome }}
+  {{ $PageContext = .Site }}
+{{ end }}
+{{ $paginator := .Paginate (where $PageContext.RegularPages "Type" $contentTypeName) }}
+
+{{ if $paginator }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "itemListElement": [
+    {{ range $index, $page := $paginator.Pages }}
+    {
+      "@type": "ListItem",
+      "position": "{{ add $counter 1 }}",
+      "item": {
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ .Permalink }}"
+        },
+        "headline": "{{ .Title }}",
+        "url": "{{ .Permalink }}",
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}",
+          "url": "{{ with .Params.Author }}{{ $.Site.BaseURL }}/authors/{{ . }}{{ else }}{{ "/authors/simeononsecurity" | absURL }}{{ end }}"
+        }{{ if .Params.Cover }},
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ $cover }}"
+        }{{ end }}
+      }
+    }{{ if lt (add $index 1) (len $paginator.Pages) }},{{ end }}
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}

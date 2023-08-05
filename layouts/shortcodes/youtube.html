@@ -52,7 +52,6 @@
     </a>
   </lite-youtube>
 </div>
-{{ end }}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -61,8 +60,9 @@
     "description": "{{ $description }}",
     "thumbnailUrl": ["{{ $thumbnailUrl }}"],
     "contentUrl": "https://www.youtube.com/watch?v={{ $id }}",
-    "uploadDate": "{{ $uploadDate }}"
+    "uploadDate": "{{ $uploadDate }}",
+    "learningResourceType": "Concept Overview",
+    "educationalLevel": "High school (US)"
   }
 </script>
-
-
+{{ end }}
