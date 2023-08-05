@@ -11,3 +11,6 @@ Simeon is a highly skilled Systems Administrator with a passion for **Cybersecur
 ## Social Media Links:
 - [GitHub](https://github.com/simeononsecurity)
 - [Twitter](https://twitter.com/SimeonSecurity)
+
+## 3rd Party Published Articles
+- [ryadel.com](https://www.ryadel.com/en/author/simeononsecurity/)
