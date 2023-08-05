@@ -7,10 +7,6 @@
   --border-color: #dcdcdc;
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px);
-}
-/* Apply the caret color to input and textarea elements */
-input,
-textarea {
   caret-color: transparent;
 }
 body.dark-theme {
