@@ -33,13 +33,13 @@ ______
 ### Step 1: Configure Variables
 
 Open a text editor or PowerShell script editor and set the configurable variables according to your requirements. 
-The provided script already includes some variables you can adjust, but the rest can be pulled from the json file that you get when you start smeshing on the spacemech GUI application:
+The provided script already includes some variables you can adjust, but the rest can be pulled from the json or key.bin file that you get when you start smeshing on the spacemech GUI application:
 
 - `$numGpus`: Set the number of GPUs you want to utilize for mining. For instance, `2` for two GPUs.
 
 - `$commitmentAtxId`: Replace this with your commitment ATX ID, a unique identifier for your commitment to participate in the Spacemesh network.
 
-- `$nodeId`: Replace this with your Node ID, a unique identifier for your node on the Spacemesh network.
+- `$nodeId`: Replace this with your Node ID, Node ID is last 64 digits from key.bin.
 
 - `$LabelsPerUnit`: Set the number of labels per storage unit. The default value is 4294967296.
 
@@ -56,6 +56,8 @@ The provided script already includes some variables you can adjust, but the rest
 Save the script with the defined variables and execute it in PowerShell. The script will automatically divide the mining workload among the specified GPUs, optimizing mining efficiency.
 
 #### Windows
+
+{{< youtube id="OdqIK7N0loE" >}}
 
 ```powershell
 ## Configurable Variables
