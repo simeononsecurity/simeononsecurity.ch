@@ -98,7 +98,7 @@
           {{ $tags := .Params.tags | first 10 }}
 
           {{ range $tags }}
-            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}" hreflang="{{ $languageCode }}" rel="nofollow">#{{ . }}</a>&nbsp;
+            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}" hreflang="{{ $languageCode }}">#{{ . }}</a>&nbsp;
           {{ end }}
 
         </span>
