@@ -1,17 +1,17 @@
 ---
-title: "Plex Media Server vs Jellyfin: A Comprehensive Comparison of Features and Costs"
+title: "Jellyfin vs Plex Media Server: A Comprehensive Comparison of Features and Costs"
 date: 2023-02-01
 toc: true
 draft: false
 description: "Discover the differences between Plex Media Server and Jellyfin, two popular media server options, and make an informed choice based on features and costs."
 genres: ["media servers", "Plex Media Server", "Plex", "Jellyfin vs plex", "Jellyfin", "streaming", "media management", "personal media library", "comparison", "features", "costs", "open-source"]
-tags: ["Plex Media Server", "Jellyfin", "media server comparison", "streaming media", "personal media library", "media organization", "user-friendly interface", "open-source", "cost-effective", "budget-friendly", "premium features", "free media server", "media server features", "media streaming", "media management", "Plex alternatives", "Jellyfin features", "Plex vs Jellyfin", "media server costs", "media server platforms", "best media server", "media server software", "streaming server", "media server setup", "media server app", "media server solutions", "media server guide", "streaming media server", "compare Plex and Jellyfin", "Plex review", "Jellyfin review"]
+tags: ["jellyfin vs plex", "Plex Media Server", "Jellyfin", "media server comparison", "streaming media", "personal media library", "media organization", "user-friendly interface", "open-source", "cost-effective", "budget-friendly", "premium features", "free media server", "media server features", "media streaming", "media management", "Plex alternatives", "Jellyfin features", "Plex vs Jellyfin", "media server costs", "media server platforms", "best media server", "media server software", "streaming server", "media server setup", "media server app", "media server solutions", "media server guide", "streaming media server", "compare Plex and Jellyfin", "Plex review", "Jellyfin review"]
 cover: "/img/cover/plex-vs-jellyfin.png"
 coverAlt: "A pair of servers facing each other. Colors matching the themes of plex, black and orange, and jellyfin, lightblue and purple."
 coverCaption: "Choose the Perfect Media Server: Plex Media Server vs Jellyfin"
 ---
 
-**A Comparison of Plex Media Server vs JellyFin**
+**A Comparison of Jellyfin vs Plex Media Server**
 
 ## Introduction:
 
@@ -74,7 +74,49 @@ In summary, **Plex Media Server** offers a freemium model where users can access
 
 ______
 
+## **Client Apps, Streaming Services, Media Server Software, and Hardware Transcoding**
+
+| | **Plex** | **Jellyfin** |
+|---|---|---|
+| **Client Apps** | Plex offers various apps for devices like Windows, iOS, Android, smart TVs, and more. They have a consistent and user-friendly interface. | Jellyfin has apps for Android, iOS, browsers, and smart TVs. The community can add more options. |
+| **Streaming Services** | Plex offers movies, TV shows, news, and podcasts directly in the app. | Jellyfin doesn't have built-in services but lets you use external ones through their apps or websites. |
+| **Media Server Software** | Plex Media Server manages your media collection, making it available on different devices. It does organization, metadata, and transcoding. | Jellyfin's software organizes, serves, and transcodes media. It's open-source and focuses on self-hosting. |
+| **Hardware Transcoding** | Plex uses hardware (like GPUs) for better video conversion, great for different devices. | Jellyfin also supports hardware transcoding, optimizing video conversion and easing server load. |
+
+### **Plex:**
+
+#### **Client Apps:**
+Plex boasts a rich selection of **client apps**, spanning across Windows, macOS, Linux, iOS, Android, smart TVs, and streaming devices. This diverse compatibility ensures easy access to your media library. The consistent and **user-friendly interface** across these apps ensures a smooth experience when browsing and streaming your cherished content.
+
+#### **Streaming Services:**
+Plex goes beyond by offering a curated array of **streaming services** right within the platform. From captivating movies and TV shows to news updates and engaging podcasts, Plex enriches your media consumption journey without requiring you to exit the app.
+
+#### **Media Server Software:**
+At the core of Plex's prowess is the **Plex Media Server**, the orchestrator that manages your media trove and extends its reach to client devices. It employs ingenious **automatic organization**, metadata fetching, and transcoding abilities to ensure impeccable playback on various gadgets.
+
+#### **Hardware Transcoding:**
+Embracing efficiency, Plex empowers you with **hardware transcoding** capabilities. By harnessing compatible hardware like GPUs, you can enhance the potency of transcoding tasks. This feature shines when streaming to devices with diverse formats and resolutions. However this feature is locked behind the Plex Premium membership. Though the lifetime subscription isn't that expensive.
+
+### **Jellyfin:**
+
+#### **Client Apps:**
+Jellyfin extends its reach through client apps compatible with Android, iOS, web browsers, and smart TVs. While the roster of official apps might be more modest than Plex's, Jellyfin's **open-source ethos** invites the community to create additional clients, broadening your options.
+
+#### **Streaming Services:**
+Jellyfin follows a different trajectory, offering no built-in streaming services. Yet, it doesn't hinder your access to external streaming services. You can conveniently engage with these services via their respective apps or websites, ensuring a comprehensive media experience.
+
+#### **Media Server Software:**
+Central to Jellyfin's mission is its **media server software**, the nucleus of the system. This software steers the ship, managing, serving, and transcoding your media with flair. An embodiment of the open-source spirit, Jellyfin empowers self-hosted media management and streaming.
+
+#### **Hardware Transcoding:**
+Jellyfin also marches alongside Plex by supporting **hardware transcoding**. This functionality leverages compatible hardware to optimize video transcoding, ultimately augmenting performance and alleviating the server's CPU burden.
+
+**In essence**, both Plex and Jellyfin offer **client apps** to access your media trove, wield robust **media server software** for organization and streaming, and embrace **hardware transcoding** to elevate playback quality. Plex takes the lead with a wider selection of official apps and integrated streaming services. Conversely, Jellyfin's open-source philosophy fosters community-driven enhancements and self-reliant media management.
+
+______
 {{< inarticle-dark >}}
+______
+
 ## Conclusion:
 
 When it comes to choosing the right media server, it all comes down to your personal needs and preferences. If you're looking for a polished and user-friendly platform that offers a wide range of features, then **Plex Media Server** may be the right choice for you. However, if you're on a budget and prefer an open-source solution, then **Jellyfin** is definitely worth considering. Ultimately, the choice between **Plex Media Server vs Jellyfin** is yours to make, but with this comparison, we hope to make your decision a little easier.
