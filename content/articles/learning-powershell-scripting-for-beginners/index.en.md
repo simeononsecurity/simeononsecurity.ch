@@ -36,6 +36,22 @@ Once you have installed PowerShell, you can start it by following these steps:
 2. Select "Windows PowerShell" from the search results.
 3. PowerShell will open in a new window.
 
+### PowerShell Scripting in Visual Studio Code
+
+For an enhanced scripting experience, you can use Visual Studio Code (VS Code), a popular integrated development environment (IDE). VS Code provides features like syntax highlighting, code completion, debugging, and integrated terminal support, making it an excellent choice for PowerShell scripting. To start PowerShell scripting in VS Code, follow these steps:
+
+1. Install Visual Studio Code from the [official website](https://code.visualstudio.com/).
+2. Install the "PowerShell" extension by Microsoft from the Extensions marketplace within VS Code.
+3. Open a PowerShell script file (.ps1) in VS Code, and you're ready to start scripting!
+
+### PowerShell for System Administration
+
+PowerShell is a versatile tool for system administration tasks. From simple one-liners to complex automation workflows, PowerShell simplifies tasks that would otherwise require manual intervention. It offers a unified scripting platform across Windows, Linux, and macOS systems, providing administrators with a consistent toolset for managing different environments.
+
+### Command Prompt to Windows PowerShell
+
+If you're familiar with the Command Prompt and want to transition to Windows PowerShell, the learning curve can be smooth. Windows PowerShell scripting builds upon the concepts of the Command Prompt but offers more advanced capabilities. You can quickly adapt by using your existing knowledge and gradually exploring the additional features and cmdlets that PowerShell provides.
+
 ### PowerShell Basics
 
 PowerShell provides a command-line interface that allows users to interact with the operating system. The commands in PowerShell are called cmdlets, and they are organized into modules. To view a list of available modules, use the Get-Module command:
@@ -57,6 +73,19 @@ Get-Help <cmdlet name>
 PowerShell also supports aliases, which are shorter names for cmdlets. To view a list of available aliases, use the Get-Alias command:
 ```powershell
 Get-Alias
+```
+
+## Script Files and Execution Policy
+PowerShell script files have a .ps1 extension. Before running scripts, you might need to set the execution policy, which determines whether scripts can be run and which types of scripts are allowed. To set the execution policy, use the Set-ExecutionPolicy cmdlet. For example, to allow running scripts, you can use:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
+
+or (only for testing purposes)
+
+```powershell
+Set-ExecutionPolicy Undefined
 ```
 
 ### PowerShell Scripting
