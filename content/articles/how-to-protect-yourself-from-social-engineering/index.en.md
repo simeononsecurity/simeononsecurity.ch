@@ -19,8 +19,26 @@ By following these strategies and staying vigilant, you can significantly reduce
 
 For more information on social engineering and how to protect yourself, you can refer to resources like the [National Cyber Security Centre's guidance on social engineering](https://www.ncsc.gov.uk/collection/social-engineering) and the [FBI's information on common scams and frauds](https://www.fbi.gov/scams-and-safety/common-scams-and-crimes).
 
-
+______
 {{< youtube id="erSVVGQw1TQ" >}}
+______
+
+## Protecting Against Common Social Engineering Attacks
+
+In today's digital age, social engineering attacks have become increasingly sophisticated and prevalent. Attackers often use deceptive techniques to exploit human psychology and manipulate individuals into divulging sensitive information. Two common communication channels through which these attacks are launched are email and text messages. Among the various forms of social engineering, phishing attacks stand out as a significant threat.
+
+Phishing attacks aim to gain unauthorized access to personal data, financial resources, or computer systems by tricking individuals into revealing their confidential information. These attacks often involve sending fraudulent emails or text messages that appear legitimate, urging recipients to take immediate actions, such as clicking on malicious links or providing sensitive details.
+
+To prevent falling victim to such social engineering attacks, it is crucial to double-check the authenticity of any email or text message that requests sensitive information or prompts urgent actions. Here are some key steps to take:
+
+1. **Verify the Source:** Always verify the sender's identity before responding to emails or text messages. Look for any signs of suspicious behavior or unusual requests.
+
+2. **Inspect Links and Attachments:** Double-check any links or attachments in emails or text messages before interacting with them. Hover over links to see the actual URL and ensure they lead to legitimate websites.
+
+3. **Question Urgency:** Be cautious of messages that create a sense of urgency, requiring immediate responses or actions. Take your time to evaluate the situation and verify the legitimacy of the request.
+
+By staying vigilant and adopting these preventive measures, you can significantly reduce the risk of falling victim to common social engineering attacks like phishing. Remember that protecting yourself against social engineering requires a combination of awareness, caution, and proactive behavior.
+
 ______
 
 ## Understanding Social Engineering
