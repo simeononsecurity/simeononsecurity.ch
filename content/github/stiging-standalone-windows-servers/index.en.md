@@ -10,7 +10,7 @@ tags: ["Automation", "Windows STIG", "Windows Server 2012", "Windows Server 2012
 
 **Download all the required files from the [GitHub Repository](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)**
 
-**Note:** This script should work for most, if not all, systems without issue. While [@SimeonOnSecurity](https://github.com/simeononsecurity) creates, reviews, and tests each repo intensively, we can not test every possible configuration nor does [@SimeonOnSecurity](https://github.com/simeononsecurity) take any responsibility for breaking your system. If something goes wrong, be prepared to submit an [issue](../../issues). Do not run this script if you don't understand what it does. It is your responsibility to review and test the script before running it.
+**Note:** This script should work for most, if not all, systems without issue. While [@SimeonOnSecurity](https://github.com/simeononsecurity) creates, reviews, and tests each repo intensively, we cannot test every possible configuration, nor does [@SimeonOnSecurity](https://github.com/simeononsecurity) take any responsibility for breaking your system. If something goes wrong, be prepared to submit an [issue](../../issues). Do not run this script if you don't understand what it does. It is your responsibility to review and test the script before running it.
 
 ## Ansible:
 We now offer a playbook collection for this script. Please see the following:
@@ -138,4 +138,23 @@ You can also specify multiple parameters in the command like this:
 Note that in this example, both the Firefox and Chrome parameters are set to $false.
 
 
+## Why we implement DISA and DoD STIG/SRG Guidance
+### DISA and DoD Compliance Standards
 
+The Defense Information Systems Agency (DISA) and the Department of Defense (DoD) have established comprehensive security standards to safeguard information systems against cyber threats. These standards, often referred to as the Security Technical Implementation Guide (STIG) configuration standard, provide technical guidance and requirements for achieving robust security measures. By adhering to DISA STIG compliance, organizations ensure that their systems are fortified against potential vulnerabilities that could otherwise leave them susceptible to various cyber risks.
+
+### Implementing Specific Product STIGs
+
+The DISA STIG compliance framework encompasses a wide array of specific product configurations, ranging from operating systems to software applications. Each STIG offers tailored security guidelines for a specific product, addressing potential vulnerabilities and providing step-by-step instructions to enhance system defenses. By meticulously implementing these specific product STIGs, organizations can fortify their hardware and software environments, ensuring that potential weaknesses are adequately addressed. This systematic approach helps create a more secure configuration standard in line with DISA's rigorous technical guidance.
+
+### Strengthening Security with Automated Compliance
+
+Automating the process of DISA STIG compliance is a strategic approach to enhance overall security posture. This automation streamlines the application of numerous configuration changes, reducing the potential for human error and ensuring consistent adherence to security guidelines. The automated approach not only accelerates the compliance process but also strengthens security by swiftly addressing potential vulnerabilities that could otherwise be missed in manual configurations. By utilizing automation tools and scripts, such as the provided PowerShell script, organizations can efficiently implement DISA STIG compliance measures and reduce the window of exposure to cyber threats.
+
+### Critical Role of Hardware and Software Requirements
+
+Hardware and software requirements play a pivotal role in achieving DISA STIG compliance. These requirements encompass various aspects, such as memory integrity, virtualization-based security, and system protection mechanisms. Adhering to these stipulated hardware and software prerequisites is essential for implementing the recommended security controls. Organizations must ensure that their systems meet or exceed these requirements to effectively apply DISA STIG compliance measures. Meeting these prerequisites is a critical step toward establishing a robust defense against potential cyberattacks.
+
+### Safeguarding Against Department of Defense (DoD) Mandates
+
+The Department of Defense (DoD) places paramount importance on information system security to safeguard sensitive data and support mission-critical operations. DISA STIG compliance aligns with DoD mandates, providing a comprehensive framework to enhance security measures across the organization's technological landscape. By implementing DISA STIG compliance, organizations demonstrate their commitment to meeting DoD's stringent security standards. This alignment not only strengthens the organization's cybersecurity posture but also ensures readiness to navigate evolving cyber threats in line with DoD's strategic directives.
