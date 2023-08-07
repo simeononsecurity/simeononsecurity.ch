@@ -35,7 +35,15 @@ jobs:
         run: pwd    
 
       - name: Build Hugo site
-        run: hugo --cleanDestinationDir -D -E -F --gc --minify --enableGitInfo --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config_alt.toml
+      - uses: actions/cache@v2
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod
+
+      - name: Build Hugo site
+        run: hugo --cleanDestinationDir -D -E -F --gc  --minify --enableGitInfo --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config_alt.toml
 
       - name: Delete non-public folders and files
         run: |
