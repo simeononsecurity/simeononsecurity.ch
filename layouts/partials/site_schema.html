@@ -112,7 +112,7 @@
 {{ $authorURL := "" }}
 {{ if .Params.Author }}
   {{ with .Params.Author }}
-      {{ $authorURL =  ("/authors/( . | lower )"| absURL) }}
+      {{ $authorURL := printf "/authors/%s" (lower $.Params.Author) | absURL }}
       {{ $author = or ($.Page.Params.author) ($.Site.Author.name) }}
   {{ else }}
       {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}

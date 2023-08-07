@@ -50,12 +50,20 @@
         {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" "/tools" "/practice-tests"}}
         {{ $currentPath := .Permalink }}
         {{ if not (in $currentPath $excludePaths) }}
+        {{ $authorURL := "" }}
+          {{ if .Params.Author }}
+            {{ with .Params.Author }}
+                {{ $authorURL := printf "/authors/%s" (lower $.Params.Author) | absURL }}
+            {{ else }}
+                {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
+            {{ end }}
+          {{ end }}
           {{ if .Params.Author }}
             {{ with .Params.Author }}
             <span itemscope itemtype="https://schema.org/Author">               
               <span class="post-author" itemscope itemtype="https://schema.org/Person">
                 — {{ $.Site.Params.WrittenBy | default "Written by" }} 
-                <a href="{{ ("/authors/({{ . | lower }})"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name">
+                <a href="{{ $authorURL }}" hreflang="{{ $languageCode }}" itemprop="name">
                   <span itemprop="name">{{ . }}</span>
                 </a>
               </span>
@@ -65,7 +73,7 @@
             <span itemscope itemtype="https://schema.org/Author">
               <span class="post-author" itemscope itemtype="https://schema.org/Person">
                 — {{ $.Site.Params.WrittenBy | default "Written by" }} 
-                <a href="{{ ("/authors/simeononsecurity"| absURL) }}" hreflang="{{ $languageCode }}" itemprop="name">
+                <a href="{{ ("/authors/simeononsecurity" | absURL) }}" hreflang="{{ $languageCode }}" itemprop="name">
                   <span itemprop="name">SimeonOnSecurity</span>
                 </a>
               </span>
