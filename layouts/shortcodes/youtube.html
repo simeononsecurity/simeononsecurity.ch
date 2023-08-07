@@ -37,7 +37,13 @@
 {{- $id := .Get "id" | default (.Get 0) -}}
 {{- $class := .Get "class" | default (.Get 1) -}}
 {{- $title := .Get "title" | default "YouTube Video" -}}
-{{- $description := .Get "description" | default (or .Page.description "YouTube Video") -}}
+{{ with .Page.Title }}
+  {{- $title = $.Get "title" | default $.Page.Title -}}
+{{ end }}
+{{- $description := .Get "description" | default "YouTube Video" -}}
+{{ with .Page.Description }}
+  {{- $description = $.Get "description" | default $.Page.Description -}}
+{{ end }}
 {{- $thumbnailUrl := printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $id -}}
 {{- $uploadDate := .Page.Date.Format "2006-01-02" -}}
 <div itemscope itemtype="http://schema.org/VideoObject" {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
