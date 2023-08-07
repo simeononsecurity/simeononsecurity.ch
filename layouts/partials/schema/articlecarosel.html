@@ -1,3 +1,5 @@
+{{ $cover := "" }}
+
 {{ $languageCode := $.Site.LanguageCode }}
 {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
 {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
@@ -17,9 +19,11 @@
   "description": "{{ .Description }}",
   "itemListElement": [
     {{ range $index, $page := $paginator.Pages }}
-    {{ $cover := resources.Get (.Page.Params.Cover)}}
-    {{ if .Params.UseRelativeCover }}
-      {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+    {{ if .Page.Params.Cover }}
+      {{ $cover = resources.Get (.Page.Params.Cover)}}
+      {{ if .Params.UseRelativeCover }}
+        {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+      {{ end }}
     {{ end }}
     {{ $counter := 0 }}
     {
@@ -38,7 +42,7 @@
           "@type": "Person",
           "name": "{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}",
           "url": "{{ with .Params.Author }}{{ $.Site.BaseURL }}/authors/{{ . }}{{ else }}{{ "/authors/simeononsecurity" | absURL }}{{ end }}"
-        }{{ if .Params.Cover }},
+        }{{ if .Page.Params.Cover }},
         "image": {
           "@type": "ImageObject",
           "url": "{{ $cover }}"
