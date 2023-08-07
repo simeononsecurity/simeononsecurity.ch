@@ -19,7 +19,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:snf="http://www.smartnews.be/snf">
   <channel>
-    <title>SimeonOnSecurity</title>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     
     {{ with .Site.Params.RssImage }}
     <image>
@@ -31,7 +31,7 @@
     
     <link>{{ $.Permalink }}</link>
 
-    <description>Discover latest trends and best practices on privacy, security, and tech on SimeonOnSecurity.ch.</description>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>SmartFormat RSS Generator</generator>
     {{ with .Site.LanguageCode }}
     <language>{{.}}</language>
@@ -109,33 +109,20 @@
           {{ end }}
         </description>
         <content:encoded>
-            {{ `<![CDATA[` | safeHTML }}
-                {{ if .Params.Cover }}
-                    {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\">" .RelPermalink .Params.Cover }}
-                    {{ else }}{{ (printf "<img src=\"%s\">" (.Params.Cover | absURL)) | safeHTML }}
-                    {{ end }}
-                {{ else }}
-                    {{ $images := .Resources.ByType "image" }}
-                    {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
-                    {{ with $featured }}{{ (printf "<img src=\"%s\">" $featured.RelPermalink) | safeHTML }}{{ end }}
-                {{ end }}
-                {{ if .Site.Params.RssFullText }}
-                    {{ .RawContent | safeHTML | htmlUnescape | plainify }}
-                {{ else }}
-                    {{ with .Description }}
-                        {{ . | safeHTML | htmlUnescape | plainify }}
-                    {{ else }}
-                        {{ .Summary | safeHTML | htmlUnescape | plainify  }}
-                    {{ end }}
-                {{ end }}
-                {{ (printf "<a href=\"%s\">Read More at %s</a>" .Permalink $.Site.BaseURL) | safeHTML }}                  
-                {{ if gt (len .Translations) 1 }}
-                {{ range .Translations }}
-                {{ (printf "<link rel=\"alternate\" hreflang=\"%s\" href=\"%s\" />" .Language.Lang .Permalink) | safeHTML }}
-                {{ end }}
-                {{ end }}
-            {{ `]]>` | safeHTML }}
-      </content:encoded>
+        {{ `<![CDATA[` | safeHTML }}
+          {{ if .Params.Cover }}
+              {{ if .Params.UseRelativeCover }}{{ printf "<img src=\"%s%s\">" .RelPermalink .Params.Cover }}
+              {{ else }}{{ (printf "<img src=\"%s\">" (.Params.Cover | absURL)) | safeHTML }}
+              {{ end }}
+          {{ else }}
+              {{ $images := .Resources.ByType "image" }}
+              {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
+              {{ with $featured }}{{ (printf "<img src=\"%s\">" $featured.RelPermalink) | safeHTML }}{{ end }}
+          {{ end }}
+          {{ .RawContent | safeHTML | safeJS | htmlUnescape | safeHTML | markdownify }}
+          {{ (printf "<a href=\"%s\">Read More at %s</a>" .Permalink $.Site.BaseURL) | safeHTML }}
+        {{ `]]>` | safeHTML }}
+        </content:encoded>
         {{ $imgurl := "" }}
         {{ if .Params.Cover }}
           {{ if .Params.UseRelativeCover }}
@@ -162,11 +149,16 @@
         {{ end }}
           <snf:advertisement>
               <snf:adcontent>
-              {{ printf "<![CDATA[\n<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538\" crossorigin=\"anonymous\"></script>\n]]>" | safeHTML }}
+                {{ `<![CDATA[` | safeHTML }}
+                  {{ "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538\" crossorigin=\"anonymous\"></script>" | safeHTML }}
+                {{ `]]>` | safeHTML }}
               </snf:adcontent>
           </snf:advertisement>
           <snf:analytics>
-              {{ printf "<![CDATA[\n<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'G-W3SL745QY6');\nga('set', 'referrer', 'http://www.smartnews.com/');\nga('send', 'pageview');\n</script>\n]]>" | safeHTML }}
+              {{ printf "<![CDATA[" | safeHTML }}
+                  {{ .Description | safeHTML }}
+                  {{ printf "<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'G-W3SL745QY6');\nga('set', 'referrer', 'http://www.smartnews.com/');\nga('send', 'pageview');\n</script>" | safeHTML }}
+              {{- printf "]]>" | safeHTML }}
           </snf:analytics>
         </item>
       {{ end }}
