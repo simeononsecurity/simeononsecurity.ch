@@ -26,7 +26,7 @@
       {{ $authorURL := "" }}
       {{ if .Params.Author }}
       {{ with .Params.Author }}
-          {{ $authorURL := printf "/authors/%s" (lower $.Params.Author) | absURL }}
+          {{ $authorURL = printf "/authors/%s" (lower $.Params.Author) | absURL }}
       {{ else }}
           {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
       {{ end }}
