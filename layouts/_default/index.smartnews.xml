@@ -150,13 +150,13 @@
           <snf:advertisement>
               <snf:adcontent>
                 {{ `<![CDATA[` | safeHTML }}
-                  {{ "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538\" crossorigin=\"anonymous\"></script>" | safeHTML }}
+                      {{ "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4092442123207538\" crossorigin=\"anonymous\"></script>" | htmlUnescape }}
                 {{ `]]>` | safeHTML }}
               </snf:adcontent>
           </snf:advertisement>
           <snf:analytics>
                 {{ `<![CDATA[` | safeHTML }}
-                  {{ printf "<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'G-W3SL745QY6');\nga('set', 'referrer', 'http://www.smartnews.com/');\nga('send', 'pageview');\n</script>" | safeHTML }}
+                    {{ "<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create', 'G-W3SL745QY6');\nga('set', 'referrer', 'http://www.smartnews.com/');\nga('send', 'pageview');\n</script>" | htmlUnescape }}
                 {{ `]]>` | safeHTML }}
           </snf:analytics>
         </item>
