@@ -163,7 +163,7 @@ baseName = "feed"
   noUgly = true 
 
 [outputFormats.smartnews]
-  mediaType = 'application/xml'
+  mediaType = 'application/rss'
   rel = 'smartnews'
   baseName  = 'smartnews'
   noUgly = true 
