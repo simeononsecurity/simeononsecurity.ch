@@ -28,6 +28,7 @@ User-agent: Cliqzbot
 User-agent: coccoc
 User-agent: coccocbot-image
 User-agent: coccocbot-web
+User-agent: Crowsnest
 User-agent: Daumoa
 User-agent: Dazoobot
 User-agent: DeuSu
