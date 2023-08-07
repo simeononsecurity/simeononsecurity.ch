@@ -99,6 +99,103 @@ for ((gpuIndex=0; gpuIndex<numGpus; gpuIndex++)); do
     postcli -provider $gpuIndex -commitmentAtxId "$commitmentAtxId" -id "$nodeId" -labelsPerUnit $LabelsPerUnit -maxFileSize $MaxFileSize -numUnits $numUnits -datadir "$datadir" -fromFile $fromFile -toFile $toFile &
 done
 ```
+
+### Step 2.5: Optional Advanced - Execute the Script
+Requires you running the Spacemesh GUI application or node locally
+By default it uses port 9092.
+These configurations are untested. May require some tinkering. 
+The goal for these is to automatically grab the ATX ID.
+
+#### Advanced Windows
+
+```powershell
+## Configurable Variables
+$numGpus = 2
+$commitmentAtxId = ""
+$nodeId = ""
+$LabelsPerUnit = 4294967296
+$MaxFileSize = 2147483648
+$numUnits = 16
+$datadir = "C:\root\post\data"
+
+## Function to get commitmentAtxId using HTTP/JSON gateway
+function Get-CommitmentAtxId {
+    $url = "http://localhost:9092/spacemesh.v1.ActivationService/Highest"
+    
+    $response = Invoke-RestMethod -Uri $url -Method Post -ContentType "application/json" -Body "{}"
+    $commitmentAtxId = $response.commitmentAtxId
+    
+    return $commitmentAtxId
+}
+
+## Get the commitmentAtxId using HTTP/JSON gateway
+$commitmentAtxId = Get-CommitmentAtxId
+
+## Script
+foreach ($gpuIndex in 0..($numGpus - 1)) {
+    $fromFile = $gpuIndex * ($numUnits * 32 / $numGpus)
+    $toFile = ($gpuIndex + 1) * ($numUnits * 32 / $numGpus) - 1
+    
+    Start-Process -NoNewWindow -FilePath "postcli" -ArgumentList "-provider", $gpuIndex, "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", $fromFile, "-toFile", $toFile
+}
+```
+
+#### Advanced Linux
+##### Install Grpcurl in Ubuntu
+
+```bash
+# Install the prerequisites
+sudo apt-get update
+sudo apt-get install -y build-essential
+
+# Install Go
+sudo apt-get install -y golang-go
+
+# Set up Go environment variables
+echo 'export GOPATH=$HOME/go' >> ~/.bashrc
+echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.bashrc
+source ~/.bashrc
+
+# Install grpcurl
+go get github.com/fullstorydev/grpcurl
+```
+
+##### Install JQ
+
+```bash
+sudo apt-get install -y jq
+
+```
+
+##### Advanced Linux Script
+
+```bash
+#!/bin/bash
+
+# Configurable Variables
+numGpus=2
+nodeId=""
+LabelsPerUnit=4294967296
+MaxFileSize=2147483648
+numUnits=16
+datadir="/root/post/data"
+
+# Function to get commitmentAtxId using gRPC
+getCommitmentAtxId() {
+    grpcurl --plaintext -d '{}' 127.0.0.1:9092 spacemesh.v1.ActivationService.Highest | jq -r '.commitmentAtxId'
+}
+
+# Get the commitmentAtxId using gRPC
+commitmentAtxId=$(getCommitmentAtxId)
+
+# Script to run postcli for each GPU
+for ((gpuIndex=0; gpuIndex<numGpus; gpuIndex++)); do
+    fromFile=$((gpuIndex * (numUnits * 32 / numGpus)))
+    toFile=$(( (gpuIndex + 1) * (numUnits * 32 / numGpus) - 1 ))
+    
+    postcli -provider $gpuIndex -commitmentAtxId "$commitmentAtxId" -id "$nodeId" -labelsPerUnit $LabelsPerUnit -maxFileSize $MaxFileSize -numUnits $numUnits -datadir "$datadir" -fromFile $fromFile -toFile $toFile &
+done
+```
 ______
 
 ### Step 3: Monitor Mining Progress
