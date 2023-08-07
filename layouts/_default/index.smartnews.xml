@@ -72,6 +72,7 @@
         <link>{{ .Permalink }}</link>
         <guid>{{ .Permalink }}</guid>
         <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Sun, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
+        <media:status>active</media:status>
         {{ with $.Params.Author }}
           <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
         {{ else }}
