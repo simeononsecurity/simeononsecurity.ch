@@ -620,7 +620,12 @@ svg {
   text-decoration: none;
 }
 
-/* General Breadcrumbs Styles */
+#breadcrumbs {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
 /* General Breadcrumbs Styles */
 #breadcrumbs,
 .breadcrumb-list,
@@ -629,7 +634,8 @@ svg {
   list-style: none;
   display: flex;
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+  align-items: center; /* Center items vertically */
 }
 
 .breadcrumbs {
@@ -640,7 +646,6 @@ svg {
 
 .breadcrumbs li {
   color: var(--color-secondary);
-  margin-right: 5px;
   font-size: 0.9rem;
 }
 
@@ -673,22 +678,19 @@ svg {
   .breadcrumb-list,
   .breadcrumb-item,
   .breadcrumb-item a {
-    list-style: none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    min-height: 48px;
-    min-width: 48px;
+    margin: 0;
+    padding: 0;
+    min-width: 0; /* Reset minimum width */
+    align-items: baseline; /* Reset alignment */
   }
 
   .breadcrumbs li,
   .breadcrumbs a {
-    padding: 8px; /* Increased padding for touch-friendliness */
-    display: inline-block; /* Display as block to apply padding */
-  }
-
-  .breadcrumbs li {
-    margin-right: 10px; /* Increased margin for touch-friendliness */
+    padding: 8px;
+    margin-right: 5px; /* Adjust margin for touch-friendliness */
+    font-size: 0.8rem; /* Slightly smaller font for mobile */
+    white-space: nowrap; /* Prevent text wrapping */
   }
 
   .breadcrumbs a {
@@ -701,12 +703,13 @@ svg {
   }
 
   .breadcrumbs a:hover {
-    background-color: var(--color); /* Change background on hover */
+    background-color: var(--color);
   }
 
   /* Allow wrapping on mobile */
   .breadcrumbs {
-    white-space: initial;
+    white-space: nowrap;
+    overflow: auto;
   }
 }
 
