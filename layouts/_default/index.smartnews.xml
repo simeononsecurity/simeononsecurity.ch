@@ -24,7 +24,7 @@
     {{ with .Site.Params.RssImage }}
     <image>
       <url>{{ printf "%s%s" $.Permalink $.Site.Params.RssImage }}</url>
-      <title>The Smart Times on SmartNews</title>
+      <title>SimeonOnSecurity</title>
       <link>{{ $.Permalink }}</link>
     </image>
     {{ end }}
@@ -50,7 +50,7 @@
       <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>
     {{ end }}
 
-    <copyright>© {{ now.Format "2006" }}</copyright>
+    <copyright>©{{ now.Format "2006" }} - SimeonOnSecurity</copyright>
 
     {{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
