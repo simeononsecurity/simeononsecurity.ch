@@ -40,7 +40,7 @@ Cross-Origin-Embedder-Policy = 'unsafe-none; report-to="default"'
 Cross-Origin-Resource-Policy = "cross-origin"
 Server = "simeononsecurity"
 pagespeed = "on"
-vary = "Origin"
+Vary = "Origin"
 
 [[headers]]
 for = "/securityheaders*"
