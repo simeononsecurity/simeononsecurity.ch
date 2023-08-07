@@ -19,6 +19,7 @@ sitemap:
 | Network Tools            | An online tool to perform a Shodan IP lookup. Retrieve information such as hostnames, open ports, tags, CPEs, and vulnerabilities associated with an IP address. | [Shodan IP Lookup](/shodan_ip) |
 | Network Tools            | A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.                                       | [Nmap Command Generator](/nmap) |
 | Network Tools            | A client-side tool that allows you to ping a domain or IP address and view the latency results.                                                          | [HTTP Ping Tool](/ping) |
+| Network Tools            | Check your public IP address with our What's My IP tool. Easily find your IP address for networking and security purposes.                            | [What's My IP](/whatsmyip) |
 | File Permissions Tools   | A menu-based tool that generates chmod commands based on user input for modifying file permissions.                                                     | [Chmod Command Generator](/chmod) |
 | Security Headers Check   | Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling CORS policies.                    | [Security Headers Check](/securityheaders) |
 ## Password Tools
@@ -63,7 +64,10 @@ A menu-based tool that generates Nmap commands based on user input for scanning 
 A client-side tool that allows you to ping a domain or IP address and view the latency results.
 
 ### [Security Headers Check](/securityheaders)
-Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling CORS policies.
+Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling some CORS policies.
+
+### [What's My IP](/whatsmyip)
+Check your public IP address using our convenient tool. Your IP address is a unique identifier assigned to your device on a network. It's essential for networking and security purposes.
 
 ## File Permissions Tools
 
