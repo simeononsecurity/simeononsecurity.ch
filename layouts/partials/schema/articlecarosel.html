@@ -1,9 +1,3 @@
-{{ $cover := resources.Get (.Params.Cover)}}
-{{ if .Params.UseRelativeCover }}
-  {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
-{{ end }}
-{{ $counter := 0 }}
-
 {{ $languageCode := $.Site.LanguageCode }}
 {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
 {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
@@ -23,6 +17,11 @@
   "description": "{{ .Description }}",
   "itemListElement": [
     {{ range $index, $page := $paginator.Pages }}
+    {{ $cover := resources.Get (.Page.Params.Cover)}}
+    {{ if .Params.UseRelativeCover }}
+      {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
+    {{ end }}
+    {{ $counter := 0 }}
     {
       "@type": "ListItem",
       "position": "{{ $index }}",
