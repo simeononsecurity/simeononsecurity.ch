@@ -47,7 +47,6 @@
   {{ else }}
     {{ $og_image = index $.Site.Params.images 0 | absURL }}
   {{ end }}
-{{ end }}
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -95,7 +94,6 @@
       },
       "image": "{{ $og_image }}",
       "url" : "{{ .Permalink }}",
-      "wordCount" : "{{ .WordCount }}",
       "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
       "keywords" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
       "speakable": {
@@ -108,6 +106,7 @@
     }    
   }
   </script>
+{{ end }}
 {{ else if .IsPage }} 
 {{ $author := or ($.Page.Params.author) ($.Site.Author.name) }}
 {{ $authorURL := "" }}
@@ -190,7 +189,6 @@
       "copyrightNotice": "SimeonOnSecurity"
     },
     "url": "{{ .Permalink }}",
-    "wordCount": "{{ .WordCount }}",
     "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
     "keywords": [{{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}],
     "speakable": {
