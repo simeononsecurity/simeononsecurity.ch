@@ -1,4 +1,4 @@
-{{ $title := (.Title | default $.Site.Title) }}
+{{ $title := (or $.Page.Title $.Title default $.Site.Title) }}
 
 <script>
 function loadGoogleTagManager() {
