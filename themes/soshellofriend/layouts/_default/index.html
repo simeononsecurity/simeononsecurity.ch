@@ -60,7 +60,7 @@
           {{ end }}
           {{ if .Params.Author }}
             {{ with .Params.Author }}
-            <span itemscope itemtype="https://schema.org/Author">               
+            <span itemscope itemtype="https://schema.org/author">               
               <span class="post-author" itemscope itemtype="https://schema.org/Person">
                 — {{ $.Site.Params.WrittenBy | default "Written by" }} 
                 <a href="{{ $authorURL }}" hreflang="{{ $languageCode }}" itemprop="name">
@@ -70,7 +70,7 @@
             </span>
             {{ end }}
           {{ else }}
-            <span itemscope itemtype="https://schema.org/Author">
+            <span itemscope itemtype="https://schema.org/author">
               <span class="post-author" itemscope itemtype="https://schema.org/Person">
                 — {{ $.Site.Params.WrittenBy | default "Written by" }} 
                 <a href="{{ ("/authors/simeononsecurity" | absURL) }}" hreflang="{{ $languageCode }}" itemprop="name">
