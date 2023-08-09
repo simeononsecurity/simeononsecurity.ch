@@ -148,7 +148,7 @@ ______
 
 ______
 
-## Finding ID: V-251567 - Protecting Against Fingerprinting
+### Finding ID: V-251567 - Protecting Against Fingerprinting
 
 Enable **Firefox's fingerprinting protection** through Content Blocking/Tracking Protection. This shields against malicious content loading from websites, safeguarding user privacy. Take measures to prevent websites from tracking users' online activities. 
 
@@ -159,7 +159,7 @@ lockPref("privacy.trackingprotection.fingerprinting.enabled", true);
 ```
 ______
 
-## Finding ID: V-252881 - Retaining Data Upon Shutdown
+### Finding ID: V-252881 - Retaining Data Upon Shutdown
 
 For diagnostics, it's essential to maintain data when the browser closes. This practice aligns with non-repudiation controls, ensuring data accountability even after browser sessions.
 
