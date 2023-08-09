@@ -56,7 +56,7 @@ The `mozilla.cfg` file contains various configuration settings that enforce secu
    lockPref("security.default_personal_cert", "Ask Every Time");
    // ... (other lockPref entries)
    ```
-    See a full and [working example of a STIG'ed mozzilla.cfg](https://github.com/simeononsecurity/FireFox-STIG-Script/blob/master/Files/Config/mozilla.cfg).
+    See a full and [working example of a STIG'ed mozilla.cfg](https://github.com/simeononsecurity/FireFox-STIG-Script/blob/master/Files/Config/mozilla.cfg).
 
 2. Place `mozilla.cfg` in Firefox Directory: Save the modified `mozilla.cfg` file in the appropriate directory based on your operating system. On Windows, you can place it in the Firefox installation folder, and on Linux, you can place it in the appropriate directory structure.
 
