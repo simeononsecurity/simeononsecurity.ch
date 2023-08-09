@@ -103,7 +103,7 @@ done
 ### Step 2.5: Optional Advanced - Execute the Script
 #### Advanced Linux
 
-## Alternate
+##### Alternate
 Get a much better version of this at https://github.com/CryptoZanoryt/spacemesh/tree/main/generate-post
 
 ##### Advanced Linux Script
