@@ -109,7 +109,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 <!-- Load 3rd Party JS -->
 {{ if not $.Site.IsServer }}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    {{ partial "_internal/google_tag_manager.html" . }}
+    {{ partial "google_tag_manager.html" . }}
 
     <!-- Microsoft Clarity -->
     {{ template "_internal/microsoft_clarity.html" . }}

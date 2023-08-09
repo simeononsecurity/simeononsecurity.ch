@@ -85,7 +85,7 @@
   <!-- Load 3rd Party JS -->
   {{ if not $.Site.IsServer }}
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  {{ template "_internal/google_tag_manager.html" . }}
+  {{ partial "google_tag_manager.html" . }}
 
   <!-- Microsoft Clarity -->
   {{ template "_internal/microsoft_clarity.html" . }}

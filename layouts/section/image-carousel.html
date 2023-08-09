@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
 <link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
-{{ template "_internal/google_tag_manager.html" . }}
+{{ partial "google_tag_manager.html" . }}
 {{ if .Site.RegularPages }}
 <style>
   .image-carousel {
