@@ -1,4 +1,4 @@
-baseurl = "https://github.simeononsecurity.ch"
+baseurl = "https://dev.simeononsecurity.ch"
 languageCode = "en"
 defaultContentLanguage = "en"
 disableLanguages = [
