@@ -17,7 +17,7 @@ In today's interconnected world, where digital technology permeates every aspect
 
 If you're fascinated by the world of cybersecurity and considering a career in this rapidly evolving field, you've come to the right place. This comprehensive guide will provide you with valuable insights, practical tips, and resources to help you embark on a successful journey in **cybersecurity**.
 
-From understanding the basics of cybersecurity to exploring various career paths, obtaining the right education and certifications, and securing job opportunities, this article covers a wide range of topics to help you navigate the exciting world of **cybersecurity careers**. Whether you're a beginner looking to get started or an experienced professional aiming to advance your career, you'll find valuable information tailored to your needs.
+From understanding the [basics of cybersecurity](https://simeononsecurity.ch/articles/cybersecurity-for-beginners-a-non-technical-guide/) to exploring various career paths, obtaining the right education and certifications, and securing job opportunities, this article covers a wide range of topics to help you navigate the exciting world of **cybersecurity careers**. Whether you're a beginner looking to get started or an experienced professional aiming to advance your career, you'll find valuable information tailored to your needs.
 
 So, let's dive in and discover the knowledge and skills required, the certifications and degrees that matter, and the strategies for success in the ever-changing landscape of **cybersecurity careers**.
 
@@ -223,7 +223,7 @@ As a cybersecurity professional, continuous learning and growth are key to advan
 ### Understanding Regulations, Acts, and Guidelines
 
 #### [Federal Information Security Management Act (FISMA) Summarized](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/)
-Learn about the Federal Information Security Management Act (FISMA), a U.S. federal law that establishes cybersecurity requirements for government agencies.
+Learn about the [Federal Information Security Management Act (FISMA)](https://simeononsecurity.ch/articles/fisma-summarized/), a U.S. federal law that establishes cybersecurity requirements for government agencies.
 
 #### [NIST SP 800-181 - Cyber Security Workforce Framework Overview and Comparison with the DCWF](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/)
 - Discover the comprehensive evaluation and development frameworks for cybersecurity workforce: NICE and DoD DCWF, empowering organizations with skilled professionals.
@@ -235,7 +235,7 @@ Learn about the Federal Information Security Management Act (FISMA), a U.S. fede
 - Explore the impact of changing workforce frameworks on cybersecurity professionals and the challenges they face in meeting new requirements.
 
 #### [DoD 5220.22-m - Data Sanitization - Summarized](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-5220.22-m-data-sanitization-summarized)
-- Explore the summary of DoD 5220.22-m, a directive that provides guidance on data sanitization.
+- Explore the summary of [DoD 5220.22-m](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/), a directive that provides guidance on data sanitization.
 
 #### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](https://simeononsecurity.ch/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)
 - Learn about the summarized guidelines outlined in NIST 800-88 for media sanitization.
@@ -257,7 +257,7 @@ This section provides valuable resources and insights on managing a cyber securi
 When considering whether to outsource or keep cybersecurity tasks in-house, it is important to evaluate the advantages and drawbacks. These resources provide insights into the **outsourcing vs. in-house** decision-making process.
 
 - [Is Outsourcing Cyber Security Efforts a Good Idea?](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/): 
-  - This article discusses the pros and cons of outsourcing cyber security efforts and provides guidance on making an informed decision.
+  - This article discusses the pros and cons of [outsourcing cyber security](https://simeononsecurity.ch/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/) efforts and provides guidance on making an informed decision.
 
 - [Critical Cyber Security Roles that You Should Have In-House](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/cybersecurity-tasks-that-shouldn't-be-outsourced/): 
   - Discover the **critical cyber security roles** that are best kept in-house to ensure control, expertise, and alignment with organizational objectives.

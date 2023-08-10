@@ -169,11 +169,11 @@ Effective time management is essential for success in preparing for the **CEH ex
 
 By implementing these time management strategies, you can make the most of your study sessions, cover all the necessary material, and feel **confident and well-prepared** on exam day. Remember, it's not just about the quantity of study hours, but the quality of your focused and targeted preparation.
 
-Stay disciplined, adhere to your study timeline, and adjust your approach as needed. Regularly evaluate your progress to ensure you are on track and make adjustments if necessary. With effective time management, you can optimize your CEH exam preparation and increase your chances of success.
+Stay disciplined, adhere to your study timeline, and adjust your approach as needed. Regularly evaluate your progress to ensure you are on track and make adjustments if necessary. With effective time management, you can optimize your [CEH exam preparation](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) and increase your chances of success.
 
 ### Stay Motivated
 
-Maintaining motivation throughout your CEH exam preparation is crucial for success. As you navigate the study process, it's normal to encounter challenges and obstacles. However, by implementing effective strategies, you can stay motivated and focused on achieving your goals. Here are some proven techniques:
+Maintaining motivation throughout your [CEH exam preparation](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) is crucial for success. As you navigate the study process, it's normal to encounter challenges and obstacles. However, by implementing effective strategies, you can stay motivated and focused on achieving your goals. Here are some proven techniques:
 
 - **Set realistic goals**: Establish specific and achievable goals for your study plan. Break down your overall goal of passing the **CEH exam** into smaller milestones. For example, you might set a goal to complete a certain number of chapters or practice questions each week. By setting tangible targets, you can track your progress and experience a sense of accomplishment as you reach each milestone.
 

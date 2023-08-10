@@ -51,6 +51,8 @@ One of Next DNS's standout features is its **AI-driven threat detection system**
 1. **Some advanced features may require a premium subscription**: While many essential features are available for free, certain advanced functionalities may require a paid subscription.
 2. **Limited support for customization compared to self-hosted solutions**: Users seeking extensive customization options may find self-hosted DNS solutions like Pi-hole more suitable to their needs.
 
+Click here to read more about [NextDNS](https://simeononsecurity.ch/articles/nextdns-great-dns-blocking-alternative/).
+
 ______
 
 ## AdGuard DNS: Enhancing Privacy and Blocking Annoyances

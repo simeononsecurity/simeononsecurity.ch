@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 **Creating a Study Plan for Passing the CEH Certification Exam: Tips and Strategies for Success**
 
-If you're interested in pursuing a career in cybersecurity, obtaining a certification is a great way to validate your knowledge and expertise. One such certification is the [**Certified Ethical Hacker (CEH)**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/) certification, which is designed to test your understanding of various security threats and vulnerabilities. However, passing the CEH exam can be challenging, and it's important to have a well-structured study plan to ensure success. In this article, we'll discuss some tips and strategies for creating an effective study plan to help you pass the CEH certification exam.
+If you're interested in pursuing a career in cybersecurity, obtaining a certification is a great way to validate your knowledge and expertise. One such certification is the [**Certified Ethical Hacker (CEH)**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/) certification, which is designed to test your understanding of various security threats and vulnerabilities. However, passing the [CEH exam](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) can be challenging, and it's important to have a well-structured study plan to ensure success. In this article, we'll discuss some tips and strategies for creating an effective study plan to help you pass the [CEH certification exam](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/).
 
 ## [Home](/cyber-security-career-playbook-start/)
 

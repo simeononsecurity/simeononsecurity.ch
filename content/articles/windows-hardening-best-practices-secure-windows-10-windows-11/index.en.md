@@ -180,7 +180,7 @@ For more detailed information on configuring firewall rules in Windows 10, you c
 Remember, a well-configured firewall is an essential component of a comprehensive security strategy, but it should be used in conjunction with other security measures to provide robust protection for your system.
 
 #### 8. [**Use AppLocker**](https://github.com/simeononsecurity/AppLocker)
-AppLocker is a powerful feature in Windows 10 that enables you to control which applications can run on your system. By implementing AppLocker policies, you can restrict the execution of unauthorized or potentially malicious applications, enhancing the security of your Windows 10 environment.
+[AppLocker](https://simeononsecurity.ch/github/applocker-hardening/) is a powerful feature in Windows 10 that enables you to control which applications can run on your system. By implementing AppLocker policies, you can restrict the execution of unauthorized or potentially malicious applications, enhancing the security of your Windows 10 environment.
 
 Follow these steps to use AppLocker on your Windows 10 system:
 

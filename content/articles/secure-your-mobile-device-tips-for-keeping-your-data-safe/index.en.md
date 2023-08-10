@@ -38,7 +38,7 @@ It's important to understand the risks associated with mobile devices and take s
 
 ### Setting Up Strong Passwords and Authentication
 
-The first step to securing your mobile device is to have **strong passwords** and **authentication methods** in place. This will prevent unauthorized users from accessing your device and data. Let's look at some tips for creating strong passwords and using different authentication methods:
+The first step to securing your mobile device is to have [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)and **authentication methods** in place. This will prevent unauthorized users from accessing your device and data. Let's look at some tips for creating [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and using different authentication methods:
 
 #### Creating a Strong Password
 

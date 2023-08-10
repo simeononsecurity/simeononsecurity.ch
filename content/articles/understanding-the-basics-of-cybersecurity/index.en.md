@@ -14,7 +14,7 @@ coverCaption: "Stay secure, stay protected."
 
 ## Understanding the Basics of Cybersecurity
 
-In today's technological age, the **importance of cybersecurity** cannot be overstated. As we continue to rely on technology for virtually every aspect of our daily lives, the risks posed by **cyber threats** are constantly evolving. Understanding the basics of cybersecurity is essential for **protecting personal and business data**, as well as national security concerns.
+In today's technological age, the **importance of cybersecurity** cannot be overstated. As we continue to rely on technology for virtually every aspect of our daily lives, the risks posed by **cyber threats** are constantly evolving. Understanding the [basics of cybersecurity](https://simeononsecurity.ch/articles/cybersecurity-for-beginners-a-non-technical-guide/) is essential for **protecting personal and business data**, as well as national security concerns.
 
 ### The Importance of Cybersecurity
 

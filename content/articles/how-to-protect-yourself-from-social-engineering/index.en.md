@@ -85,7 +85,7 @@ ______
 
 ## Strengthen Passwords and Authentication
 
-One of the fundamental steps in protecting yourself from social engineering attacks is to establish strong passwords and authentication practices. Weak passwords can be easily cracked, providing attackers with easy access to your accounts. Follow these guidelines to enhance your password security:
+One of the fundamental steps in protecting yourself from social engineering attacks is to establish [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and authentication practices. Weak passwords can be easily cracked, providing attackers with easy access to your accounts. Follow these guidelines to enhance your password security:
 
 1. [**Use Complex and Unique Passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Create passwords that are long, include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using common phrases or personal information that can be easily guessed.
 
@@ -97,7 +97,7 @@ One of the fundamental steps in protecting yourself from social engineering atta
 
 By following these password and authentication best practices, you can significantly reduce the risk of falling victim to social engineering attacks. Creating complex and unique passwords makes it difficult for attackers to guess or crack them. Enabling multi-factor authentication adds an extra layer of protection, requiring attackers to bypass additional security measures. Avoiding password reuse prevents the compromise of one account from affecting other accounts. Finally, regularly updating passwords helps mitigate the risk of unauthorized access due to stolen or compromised credentials.
 
-For comprehensive guidance on creating strong passwords, you can refer to articles like [How to Create Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/). To understand the different factors in multi-factor authentication, explore resources like [What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/). Remember, implementing strong passwords and authentication practices is an essential aspect of safeguarding your digital identity and protecting yourself against social engineering attacks.
+For comprehensive guidance on creating [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), you can refer to articles like [How to Create Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/). To understand the different factors in multi-factor authentication, explore resources like [What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/). Remember, implementing [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and authentication practices is an essential aspect of safeguarding your digital identity and protecting yourself against social engineering attacks.
 
 
 ______

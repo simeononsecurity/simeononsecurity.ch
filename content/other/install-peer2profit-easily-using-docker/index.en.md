@@ -12,7 +12,7 @@ coverCaption: ""
 
 ## Install Peer 2 Profit: Earn Passive Income by Sharing Your Internet
 
-Are you searching for a reliable way to generate passive income from your internet connection? Look no further than Peer 2 Profit. This platform offers you the opportunity to share your internet for VPN and scraping purposes, just like EarnApp and HoneyGain. By participating in Peer 2 Profit, you can earn an average of $1 per month per node per IP. What's more, the platform provides multiple payout options, including money orders, BTC, LTC, and MATIC, giving you the flexibility to receive your earnings in your preferred method. Discover how Peer 2 Profit can help you make the most of your internet connection and start earning today.
+Are you searching for a reliable way to generate passive income from your internet connection? Look no further than Peer 2 Profit. This platform offers you the opportunity to share your internet for VPN and scraping purposes, just like [EarnApp](https://simeononsecurity.ch/other/install-earnapp-easily-using-docker/) and [HoneyGain](https://simeononsecurity.ch/other/install-honeygain-easily-using-docker/). By participating in Peer 2 Profit, you can earn an average of $1 per month per node per IP. What's more, the platform provides multiple payout options, including money orders, BTC, LTC, and MATIC, giving you the flexibility to receive your earnings in your preferred method. Discover how Peer 2 Profit can help you make the most of your internet connection and start earning today.
 
 {{< youtube id="Ir6Etplqj3c" >}}
 

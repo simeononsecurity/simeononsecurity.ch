@@ -61,7 +61,7 @@ Implementing **access control** measures for SNMP is crucial. Organizations shou
 
 ### SNMP Trap Filtering
 
-Filtering **SNMP traps** allows organizations to selectively process and respond to specific events. By configuring trap filters, network administrators can reduce the impact of unnecessary SNMP traffic and focus on critical events.
+Filtering [**SNMP traps**](https://simeononsecurity.ch/network-plus/network-plus-course-performance-monitoring-management/) allows organizations to selectively process and respond to specific events. By configuring trap filters, network administrators can reduce the impact of unnecessary SNMP traffic and focus on critical events.
 
 ______
 

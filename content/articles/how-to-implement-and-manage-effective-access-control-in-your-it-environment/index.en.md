@@ -44,7 +44,7 @@ Implementing effective access control requires a comprehensive approach that inc
 
 3. **Implement Logical Controls**: Logical controls are an essential part of access control. This includes measures such as passwords, biometric authentication, and role-based access control. Logical controls should be implemented based on the results of your risk assessment.
 
-4. **Enforce Password Policies**: Passwords are a common form of logical access control. To ensure that passwords are effective, businesses should enforce strong password policies. Password policies should require users to create strong, complex passwords and to change them regularly.
+4. **Enforce Password Policies**: Passwords are a common form of logical access control. To ensure that passwords are effective, businesses should enforce [strong password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) policies. Password policies should require users to create strong, complex passwords and to change them regularly.
 
 5. **Implement Multi-Factor Authentication**: Multi-factor authentication is an effective way to increase the security of your IT environment. Multi-factor authentication requires users to provide more than one form of authentication, such as a password and a fingerprint or a smart card and a PIN.
 

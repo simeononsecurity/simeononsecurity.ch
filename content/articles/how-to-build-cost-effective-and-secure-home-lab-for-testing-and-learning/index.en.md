@@ -14,7 +14,7 @@ coverCaption: ""
 
 ## Introduction
 
-Building a **cost-effective and secure home lab** can be an invaluable asset for anyone interested in learning and testing new technologies. Whether you're an IT professional or a technology enthusiast, a home lab allows you to experiment with various software, hardware, and networking concepts in a controlled environment. In this article, we'll guide you through the process of creating your own home lab without breaking the bank or compromising security.
+Building a **cost-effective and secure home lab** can be an invaluable asset for anyone interested in learning and testing new technologies. Whether you're an IT professional or a technology enthusiast, a [home lab](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) allows you to experiment with various software, hardware, and networking concepts in a controlled environment. In this article, we'll guide you through the process of creating your own home lab without breaking the bank or compromising security.
 
 ______
 

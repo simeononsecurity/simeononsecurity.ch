@@ -75,7 +75,7 @@ The third stage focuses on **containment and eradication**. Once an incident is 
 
 3. **System Restoration**: Restore affected systems to their normal state, ensuring that they are free from any malicious artifacts or backdoors. This may involve rebuilding systems from trusted sources or restoring them from clean backups.
 
-4. **Threat Hunting**: Conduct proactive **threat hunting** activities to identify any remnants of the attacker's presence and ensure complete eradication. This includes thorough analysis of system logs, network traffic, and other relevant data sources.
+4. **Threat Hunting**: Conduct [proactive **threat hunting**](https://simeononsecurity.ch/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/) activities to identify any remnants of the attacker's presence and ensure complete eradication. This includes thorough analysis of system logs, network traffic, and other relevant data sources.
 
 ### Stage 4: Post-Incident Recovery
 

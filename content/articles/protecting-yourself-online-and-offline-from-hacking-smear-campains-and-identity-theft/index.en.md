@@ -30,7 +30,7 @@ __________
 
 One of the most important steps you can take to protect yourself from hacking, smear campaigns, and identity theft is to **limit your social media presence**. This includes being cautious about what you share online, and avoiding oversharing personal information such as your home address, phone number, or email address.
 
-### Use Two-Factor Authentication and Strong Passwords
+### Use Two-Factor Authentication and [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
 Another key step in protecting yourself from online threats is to **use two-factor authentication and strong passwords**. This will make it more difficult for hackers to access your accounts, and reduce the risk of being targeted through phishing or similar tactics. When creating passwords, be sure to use a combination of letters, numbers, and symbols, and avoid using the same password across multiple accounts.
 

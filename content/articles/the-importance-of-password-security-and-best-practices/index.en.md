@@ -20,7 +20,7 @@ One of the primary reasons why [**password security**](https://simeononsecurity.
 
 ## Best Practices for Password Management
 
-### Use Strong Passwords
+### Use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
 [A strong password](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) is a combination of upper and lower-case letters, numbers, and symbols. It should not contain any easily guessable information, such as your name or date of birth. A strong password should be at least 12 characters long. Avoid reusing passwords across multiple accounts, as this increases the risk of a hacker gaining access to all of your accounts.
 

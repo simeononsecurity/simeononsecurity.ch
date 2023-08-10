@@ -53,7 +53,7 @@ Securing your home network is essential in today's digital age. With the increas
 
 The first and most fundamental step in securing your network is to change the default settings on your router. Many routers come with generic usernames and passwords, making them an easy target for hackers. By changing these default settings and using strong, unique credentials, you can drastically reduce the risk of unauthorized access to your network.
 
-When changing your router's default settings, it's important to choose a strong password that is not easily guessable. Avoid using common phrases or personal information that can be easily associated with you. Instead, opt for a combination of uppercase and lowercase letters, numbers, and special characters to create a robust password.
+When changing your router's default settings, it's important to choose a [strong password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) that is not easily guessable. Avoid using common phrases or personal information that can be easily associated with you. Instead, opt for a combination of uppercase and lowercase letters, numbers, and special characters to create a robust password.
 
 In addition to changing the default username and password, you should also consider disabling remote access to your router's administration panel. This will prevent anyone from accessing your router's settings from outside your home network, further enhancing your network's security.
 

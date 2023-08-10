@@ -17,7 +17,7 @@ In an increasingly digital world, the convenience of technology often comes with
 
 ## Introduction
 
-RFID technology has found its way into various aspects of our lives, from contactless payments to keyless entry systems. While these advancements offer convenience, they can also expose us to potential security risks. Cybercriminals equipped with RFID skimming devices can intercept and clone RFID signals, potentially leading to identity theft, unauthorized transactions, and other forms of cyberattacks.
+[RFID technology](https://simeononsecurity.ch/articles/how-to-protect-yourself-from-physical-credit-fraud/) has found its way into various aspects of our lives, from contactless payments to keyless entry systems. While these advancements offer convenience, they can also expose us to potential security risks. Cybercriminals equipped with [RFID skimming](https://simeononsecurity.ch/articles/how-to-protect-yourself-from-physical-credit-fraud/) devices can intercept and [clone RFID signals](https://simeononsecurity.ch/articles/how-to-protect-yourself-from-physical-credit-fraud/), potentially leading to identity theft, unauthorized transactions, and other forms of cyberattacks.
 
 ______
 {{< inarticle-dark >}}

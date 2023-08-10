@@ -13,7 +13,7 @@ coverCaption: "Unlocking Possibilities: The World of a Hardware Hacker."
 
 ## Introduction
 
-With the increasing complexity of technology and the widespread use of interconnected devices, the field of hacking has expanded to include not just software but also hardware. Hardware hacking refers to the process of manipulating or modifying electronic devices to gain unauthorized access, extract information, or control their functionality. In this article, we will explore the world of hacker hardware and discuss the essential tools used by hardware hackers.
+With the increasing complexity of technology and the widespread use of interconnected devices, the field of hacking has expanded to include not just software but also hardware. Hardware hacking refers to the process of manipulating or modifying electronic devices to gain unauthorized access, extract information, or control their functionality. In this article, we will explore the world of [hacker hardware](https://simeononsecurity.ch/recommendations/hacker_hardware/) and discuss the essential tools used by [hardware hackers](https://simeononsecurity.ch/recommendations/hacker_hardware/).
 
 ## The Rise of Hardware Hacking
 

@@ -214,7 +214,7 @@ To configure a VLAN, the following steps are generally followed:
 
 3. **Configure Switch Ports:** Assign the switch ports to the appropriate VLANs. This can be done by configuring the switch port as an access port or a trunk port.
 
-4. **Configure VLAN Interfaces:** If inter-VLAN communication is required, configure VLAN interfaces, such as VLAN interfaces on a layer 3 switch or router.
+4. **Configure VLAN Interfaces:** If inter-VLAN communication is required, [configure VLAN](https://simeononsecurity.ch/network-plus/ethernet-switching-vlans-port-configurations-security/) interfaces, such as VLAN interfaces on a layer 3 switch or router.
 
 5. **Test and Verify:** Validate the VLAN configuration by testing network connectivity between devices within each VLAN.
 
@@ -234,7 +234,7 @@ To configure a VLAN, the following steps are generally followed:
 
 ## Conclusion
 
-Understanding subnets and VLANs is crucial for designing and managing efficient computer networks. Subnets allow for network segmentation, improving performance and security. VLANs provide logical grouping of devices, enhancing network flexibility and management. By following the steps outlined in this article, network administrators can effectively subnet their networks and configure VLANs to meet specific requirements.
+[Understanding subnets](https://simeononsecurity.ch/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/) and VLANs is crucial for designing and managing efficient computer networks. Subnets allow for network segmentation, improving performance and security. VLANs provide logical grouping of devices, enhancing network flexibility and management. By following the steps outlined in this article, network administrators can effectively subnet their networks and configure VLANs to meet specific requirements.
 
 Remember, networking basics are the foundation for building robust and scalable networks that cater to the needs of modern-day communication and data transfer.
 

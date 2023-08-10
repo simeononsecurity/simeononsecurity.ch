@@ -69,7 +69,7 @@ Misconfigured **host-based** or **network-based firewall settings** can block re
 
 ### BYOD Challenges and Licensed Feature Issues
 
-**BYOD challenges** and **licensed feature issues** can arise in networks where Bring Your Own Device (BYOD) policies are implemented or when specific licensed features are utilized. Proper policy enforcement and license management mitigate these challenges.
+[**BYOD challenges**](https://simeononsecurity.ch/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/) and **licensed feature issues** can arise in networks where Bring Your Own Device (BYOD) policies are implemented or when specific licensed features are utilized. Proper policy enforcement and license management mitigate these challenges.
 
 ### Network Performance Issues
 

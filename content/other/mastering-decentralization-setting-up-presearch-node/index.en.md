@@ -17,7 +17,7 @@ In the world of decentralized search engines, operating a Presearch Node can be 
 
 ## Introduction
 
-Presearch is a decentralized search engine that offers an alternative to the dominance of Big Tech companies in the online search landscape. By operating a Presearch Node, you contribute to a more open and decentralized internet while earning Presearch PRE tokens.
+[Presearch](https://simeononsecurity.ch/other/exploring-presearch-as-a-alternative-to-google/) is a decentralized search engine that offers an alternative to the dominance of Big Tech companies in the online search landscape. By operating a Presearch Node, you contribute to a more open and decentralized internet while earning Presearch PRE tokens.
 
 ______
 {{< inarticle-dark >}}

@@ -61,7 +61,7 @@ To maintain a high level of security for your VPN, take the following precaution
 
 - **Keep software up-to-date**: Regularly update your VPN server and client software to protect against newly discovered vulnerabilities.
 - **Monitor VPN usage**: Implement monitoring and logging to identify potential security threats or unauthorized access attempts.
-- **Enforce strong passwords**: Require employees to use strong, unique passwords for their VPN accounts and change them regularly.
+- [**Enforce strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/): Require employees to use strong, unique passwords for their VPN accounts and change them regularly.
 - **Limit access**: Grant VPN access only to the employees who require it, and restrict access to specific resources as needed.
 
 ______

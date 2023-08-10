@@ -38,9 +38,9 @@ Cyberstalking can be difficult to identify, especially if the stalker is using a
 
 Preventing cyberstalking can be challenging, but there are several things you can do to reduce your risk of becoming a victim. Here are some tips:
 
-### 1. Use Strong Passwords
+### 1. Use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Use strong passwords for all your online accounts. Avoid using the same password for multiple accounts, and never share your passwords with anyone.
+Use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for all your online accounts. Avoid using the same password for multiple accounts, and never share your passwords with anyone.
 
 ### 2. Be Careful What You Share Online
 

@@ -18,7 +18,7 @@ Removable media, such as hard drives, solid state drives (SSD), USB flash drives
 
 **Sanitizing removable media is essential because the data stored on these devices can be easily recovered, even if the data has been deleted.** This is because when data is deleted, only the reference to the data is removed, but the actual data remains on the disk until it is overwritten. This makes it possible for malicious actors to recover sensitive data using data recovery software.
 
-## NIST 800-88 Revision 1 Types Of Destruction
+## [NIST 800-88](https://simeononsecurity.ch/articles/nist-800-88-ways-of-sanitizing-removable-media/) Revision 1 Types Of Destruction
 
 The National Institute of Standards and Technology (NIST) has published a guideline for sanitizing removable media, known as NIST Special Publication 800-88 Revision 1. The guideline outlines several methods for sanitizing removable media, including physical destruction, clearing, and purging.
 
@@ -28,7 +28,7 @@ The National Institute of Standards and Technology (NIST) has published a guidel
 
 ### Clearing
 
-Clearing is the process of overwriting the data on a device with a series of binary values. This method is less secure than physical destruction but is still effective in sanitizing most removable media. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the Department of Defense (DoD) [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
+Clearing is the process of overwriting the data on a device with a series of binary values. This method is less secure than physical destruction but is still effective in sanitizing most removable media. [NIST 800-88](https://simeononsecurity.ch/articles/nist-800-88-ways-of-sanitizing-removable-media/) Revision 1 recommends using a software tool that meets the standards set by the Department of Defense (DoD) [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
 
 ### Purging
 
@@ -42,3 +42,7 @@ In conclusion, **sanitizing removable media is crucial to ensure that sensitive 
 
 **It's important to note that sanitizing removable media is only one aspect of a comprehensive data security strategy.** Other measures, such as encryption and secure data storage, should also be implemented to ensure the protection of sensitive data.
 
+## References
+
+- [NIST Special Publication 800-88 Revision 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)
+- [Department of Defense (DoD) 5220.22-M Specification](https://exwc.navfac.navy.mil/Portals/88/Documents/EXWC/DoD_Locks/PDFs/DODI-5220-22-C2.pdf)

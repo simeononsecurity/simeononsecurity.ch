@@ -75,7 +75,7 @@ When choosing a home internet service, it's crucial to assess the security measu
 T-Mobile's home internet service utilizes encryption protocols to secure data transmission between your devices and their network. They employ industry-standard encryption methods, such as WPA2 or WPA3, to protect your connection from unauthorized access and ensure the privacy of your online activities.
 
 ### Password and Network Security
-To maintain the security of your T-Mobile home internet connection, it's important to follow best practices for password management. T-Mobile provides guidelines for creating strong passwords and recommends changing them periodically. Additionally, they advise against sharing your network password with unauthorized individuals to prevent unauthorized access to your network.
+To maintain the security of your T-Mobile home internet connection, it's important to follow best practices for password management. T-Mobile provides guidelines for creating [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and recommends changing them periodically. Additionally, they advise against sharing your network password with unauthorized individuals to prevent unauthorized access to your network.
 
 ### Device and Endpoint Security
 While T-Mobile safeguards the security of your home internet connection, it's crucial to ensure that your devices and endpoints are also protected. Implementing robust security measures on your devices, such as using up-to-date antivirus software, enabling firewalls, and practicing safe browsing habits, adds an extra layer of security to your online experience.

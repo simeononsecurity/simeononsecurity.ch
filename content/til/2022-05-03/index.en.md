@@ -9,7 +9,7 @@ tags: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Coll
 ---
 **What SimeonOnSecurity learned about and found interesting today**
 
-SimeonOnSecurity learned about Windows STIG Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.
+SimeonOnSecurity learned about [Windows STIG](https://simeononsecurity.ch/github/stiging-standalone-windows-servers/) Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.
 
 ## New/Updated Repos:
 

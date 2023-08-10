@@ -20,7 +20,7 @@ Flipper Zero is a compact, open-source device developed by a team of hardware en
 
 ## Hardware Hacking and Reverse Engineering
 
-One of the primary use cases of Flipper Zero is **hardware hacking** and **reverse engineering**. With its built-in hardware interfaces, such as GPIO pins and SPI/I2C buses, Flipper Zero allows users to interact directly with various electronic devices. Whether you want to **explore and modify the behavior of a smart home device** or **analyze the communication between two devices**, Flipper Zero provides the necessary tools to get the job done. Additionally, the device supports **firmware extraction, flashing, and debugging**, making it a valuable asset for reverse engineers.
+One of the primary use cases of Flipper Zero is [**hardware hacking**](https://simeononsecurity.ch/articles/hardware-hacker-essential-tools-techniques/) and **reverse engineering**. With its built-in hardware interfaces, such as GPIO pins and SPI/I2C buses, Flipper Zero allows users to interact directly with various electronic devices. Whether you want to **explore and modify the behavior of a smart home device** or **analyze the communication between two devices**, Flipper Zero provides the necessary tools to get the job done. Additionally, the device supports **firmware extraction, flashing, and debugging**, making it a valuable asset for reverse engineers.
 
 ## Wireless Communication Analysis
 

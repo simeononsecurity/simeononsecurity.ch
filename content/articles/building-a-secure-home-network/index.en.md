@@ -41,7 +41,7 @@ Among the most prevalent cyber threats that home networks face are:
 
 Because **cyber threats** can come from any device connected to your home network, securing each of those devices is vitally important. If even one device is compromised, **hackers can gain access to your entire network**, potentially causing significant damage. Securing your devices requires a multi-faceted approach that involves both **technical solutions** and **user education**.
 
-Technical solutions can include using **strong passwords**, regularly **updating software and firmware**, and using security software such as **antivirus and firewall programs**. User education is also important, as many cyber threats rely on user error or ignorance. It's important to **educate yourself and your family members on safe online practices**, such as avoiding suspicious emails and websites, using **two-factor authentication**, and regularly **backing up important data**.
+Technical solutions can include using [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), regularly **updating software and firmware**, and using security software such as **antivirus and firewall programs**. User education is also important, as many cyber threats rely on user error or ignorance. It's important to **educate yourself and your family members on safe online practices**, such as avoiding suspicious emails and websites, using **two-factor authentication**, and regularly **backing up important data**.
 
 By taking a proactive approach to home network security, you can help protect yourself and your family from the growing threat of **cyber attacks**. Remember to **stay vigilant** and to regularly review and update your security measures to stay one step ahead of potential threats.
 
@@ -141,7 +141,7 @@ One way to verify the sender's identity is to **hover over the link or email add
 
 #### Creating a Family Cybersecurity Plan
 
-Creating a **family cybersecurity plan** can help everyone in your home stay on the same page when it comes to online safety. Your plan should include guidelines for **strong passwords**, **safe browsing habits**, and what to do in the case of a security breach.
+Creating a **family cybersecurity plan** can help everyone in your home stay on the same page when it comes to online safety. Your plan should include guidelines for [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), **safe browsing habits**, and what to do in the case of a security breach.
 
 When creating your plan, make sure to involve everyone in your household. Discuss the potential risks and threats and come up with solutions together. It's also a good idea to regularly **review and update** your plan as new threats emerge.
 

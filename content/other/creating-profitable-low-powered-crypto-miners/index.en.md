@@ -90,7 +90,7 @@ docker run -d \
     --cleanup 
 ```
 
-### Install Bitping:
+### [Install Bitping](https://simeononsecurity.ch/other/install-bitping-easily-using-docker/):
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
 
 Bitping offers you the ability to get paid out in Solana for providing a node for businesses to run lightweight network tests from your network.
@@ -115,7 +115,7 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 ```
 
 
-### Install Earn App:
+### [Install Earn App](https://simeononsecurity.ch/other/install-earnapp-easily-using-docker/):
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
 
 Earn app lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Offers payouts via paypal and amazon gift cards. 
@@ -137,7 +137,7 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 #### Video Tutorial:
 {{< youtube id="tt499o0OjGU" >}}
 
-### Install Honey Gain:
+### [Install Honey Gain](https://simeononsecurity.ch/other/install-honeygain-easily-using-docker/):
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
 
 Honey Gain lets you share your internet as a VPN service for a surprising amount of rewards. Averages about $5 month per node per residential IP. Payouts can be complicated. Read into it further before deciding to use this container
@@ -157,7 +157,7 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 #### Video Tutorial:
 {{< youtube id="Wd11M0nSy1k" >}}
 
-### Install PawnsApp:
+### [Install PawnsApp](https://simeononsecurity.ch/other/install-pawnsapp-easily-using-docker/):
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
 Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
 
@@ -174,7 +174,7 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Install Peer 2 Profit:
+### [Install Peer 2 Profit](https://simeononsecurity.ch/other/install-peer2profit-easily-using-docker/):
 [*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
 
 Similar to EarnApp and HoneyGain, Peer2Profit shares your internet for VPN and Scraping purposes. Earns about $1 a month per node per IP.
@@ -195,7 +195,7 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 {{< youtube id="J_rSV5N8aQk" >}}
 
 
-### Install Repocket:
+### [Install Repocket](https://simeononsecurity.ch/other/install-repocket-easily-using-docker/):
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
 
 Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
@@ -210,7 +210,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 #### Video Tutorial:
 {{< youtube id="171gWknfAbY" >}}
 
-### Install Traff Monetizer:
+### [Install Traff Monetizer](https://simeononsecurity.ch/other/install-traff-monetizer-easily-using-docker/):
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
 
 Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
@@ -226,7 +226,7 @@ Copy the following string and append your token that you got from the dashboard 
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
 
-### Install Mysterium:
+### [Install Mysterium](https://simeononsecurity.ch/other/install-mysterium-easily-using-docker/):
 [Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
 Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
 

@@ -49,7 +49,7 @@ Password Length | Complexity | RTX 3090 (Seconds) | RTX 4090 (Seconds)
 
 The results of our benchmarks show that the **RTX 4090** is a powerful tool for password cracking. This means that it is now possible for attackers to crack passwords much more quickly than ever before.
 
-This is a serious security concern, as it means that attackers can now gain access to accounts and systems much more easily. To protect yourself from password cracking attacks, you should use [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to help you generate and store strong passwords.
+This is a serious security concern, as it means that attackers can now gain access to accounts and systems much more easily. To protect yourself from password cracking attacks, you should use [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to help you generate and store [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/).
 
 ## Conclusion
 

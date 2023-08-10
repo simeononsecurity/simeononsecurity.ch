@@ -34,7 +34,7 @@ Cybersecurity threats are becoming more advanced and frequent, making it essenti
 
 1. **Keep your software up to date**: Attackers often take advantage of outdated software to exploit vulnerabilities. Software updates often include security patches that can fix vulnerabilities. Make sure to install updates as soon as they are available.
 
-2. [**Use strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/): Passwords are often the first line of defense against cyberattacks. Use strong, unique passwords for each of your accounts, and consider using a password manager to keep track of them. A password manager can help you generate and store strong passwords for all of your accounts.
+2. [**Use strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/): Passwords are often the first line of defense against cyberattacks. Use strong, unique passwords for each of your accounts, and consider using a password manager to keep track of them. A password manager can help you generate and store [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for all of your accounts.
 
 3. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication adds an extra layer of security to your accounts. Make sure to enable it wherever possible. Two-factor authentication requires a second form of verification, such as a fingerprint or a one-time code sent to your phone, in addition to your password.
 
