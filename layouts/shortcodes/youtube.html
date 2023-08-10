@@ -42,16 +42,18 @@
 {{ end }}
 {{- $description := .Get "description" | default "YouTube Video" -}}
 {{ with .Page.Description }}
-  {{- $description = $.Get "description" | default $.Page.Description -}}
+  {{- $description = or ($.Get "description") $.Page.Description $.Description "YouTube Video" -}}
 {{ end }}
 {{- $thumbnailUrl := printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $id -}}
 {{- $uploadDate := .Page.Date.Format "2006-01-02" -}}
-<div itemscope itemtype="http://schema.org/VideoObject" {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
+<div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
   <meta itemprop="name" content="{{ $title }}">
   <meta itemprop="description" content="{{ $description }}">
   <meta itemprop="thumbnailUrl" content="{{ $thumbnailUrl }}">
   <meta itemprop="contentUrl" content="https://www.youtube.com/watch?v={{ $id }}">
   <meta itemprop="uploadDate" content="{{ $uploadDate }}">
+  <meta itemprop="learningResourceType" content="Concept Overview">
+  <meta itemprop="educationalLevel" content="High school (US)">
   <lite-youtube videoid="{{ $id }}" videotitle="$title" videoplay="{{ i18n "videoplay" }}" nocookie="{{ $cookie }}" autoload="true" posterloading="lazy" loading="lazy" params="{{ with .Get "autoplay" }}{{ if eq . "true" }}autoplay=1{{ end }}{{ end }}">
     <noscript>
       <a href="https://{{ $ytHost }}/watch?v={{ $id }}" class="lite-youtube-fallback" {{ if not $class }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" {{ end }} allowfullscreen loading="lazy" title="{{ $title }}">
