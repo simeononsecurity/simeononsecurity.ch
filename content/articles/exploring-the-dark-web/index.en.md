@@ -127,7 +127,7 @@ Although the Dark Web is designed to protect users' **privacy** and **anonymity*
 
 Moreover, some **state actors** may use the Dark Web to monitor and spy on their citizens or conduct covert operations. For example, users may encounter websites that offer illegal hacking services or forums where state actors discuss their surveillance activities.
 
-In conclusion, while the Dark Web can be a useful tool for individuals who need to protect their privacy or access restricted content, it also poses several risks and dangers that users should be aware of. To stay safe on the Dark Web, users should take precautions such as using a secure **VPN**, avoiding suspicious websites, and using strong passwords and **two-factor authentication**.
+In conclusion, while the Dark Web can be a useful tool for individuals who need to protect their privacy or access restricted content, it also poses several risks and dangers that users should be aware of. To stay safe on the Dark Web, users should take precautions such as using a secure **VPN**, avoiding suspicious websites, and using [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and **two-factor authentication**.
 
 ### Law Enforcement and the Dark Web
 
