@@ -7,4 +7,3 @@ sitemap:
   priority: 0.3
 layout: "ping"
 ---
-
