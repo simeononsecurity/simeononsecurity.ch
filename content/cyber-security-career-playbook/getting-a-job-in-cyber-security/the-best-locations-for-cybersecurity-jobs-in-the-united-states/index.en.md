@@ -368,7 +368,7 @@ In conclusion, Raleigh's **proximity to the Research Triangle Park**, **strong t
 
 ## Ranking of Cities by Average Overall Ranking (Best to Worst)
 
-### Table
+### Table of Cities by Average Overall Ranking (Best to Worst)
 
 | Rank | City              | Approx. Jobs Available | Average Salary | Cost of Living Index | Crime Rate Index |
 |------|-------------------|-----------------------|----------------|---------------------|------------------|
