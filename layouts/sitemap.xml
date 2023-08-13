@@ -53,7 +53,6 @@
     {{ $ignore = or $ignore (.Params.sitemap_ignore | default false) }}
     {{ if not $ignore }}
     <url>
-      <title>{{ or $.Title $.Page.Title }}</title>
       <loc>{{ .Permalink }}</loc>
       {{ if not .Lastmod.IsZero }}
         <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
