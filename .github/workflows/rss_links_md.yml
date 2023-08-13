@@ -28,7 +28,7 @@ jobs:
     - name: Remove unnecessary files
       run: |
         find . -mindepth 1 -type d ! -path './.git*' ! -path './.github*' -print0 | xargs -0 rm -rf
-        find . -maxdepth 1 -type f -not -name 'netlify.toml' -not -name 'rss_links.md' -print0 | xargs -0 rm -f    
+        find . -maxdepth 1 -type f -not -name 'rss_links.md' -print0 | xargs -0 rm -f    
 
     - name: Commit and push changes
       run: |
