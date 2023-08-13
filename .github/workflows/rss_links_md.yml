@@ -1,10 +1,10 @@
-name: Sitemap Scan and MD Generation
+name: RSS Scan and MD Generation
 on:
   schedule:
     - cron: "0 0 * * *"
   push:
     branches:
-      - master  # Change this to your default branch if needed
+      - master
 
 jobs:
   generate_md_from_sitemap:
@@ -25,12 +25,17 @@ jobs:
     - name: Run the script
       run: node generate_md/generate_md.js ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Remove unnecessary files
+      run: |
+        find . -mindepth 1 -type d ! -path './.git*' ! -path './.github*' -print0 | xargs -0 rm -rf
+        find . -maxdepth 1 -type f -not -name 'netlify.toml' -not -name 'rss_links.md' -print0 | xargs -0 rm -f    
+
     - name: Commit and push changes
       run: |
         git config user.name "${{ secrets.USERNAME }}"
         git config user.email "${{ secrets.EMAIL }}"
         git add .
         git commit -m "Update master branch"
-        git push --force --quiet origin HEAD:refs/heads/master
+        git push --force --quiet origin HEAD:refs/heads/rss-md
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
