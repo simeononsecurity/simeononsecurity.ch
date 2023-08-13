@@ -15,7 +15,7 @@ coverCaption: "Mine VerusCoin Anywhere with Smartphone Power!"
 
 In the realm of cryptocurrencies, **mining** serves as the essential process for validating transactions and securing the blockchain. VerusCoin, an up-and-coming cryptocurrency, presents the opportunity to mine directly from your Android smartphone. This comprehensive guide will walk you through the process of efficiently mining VerusCoin using your Android device.
 
-## Introduction
+## Introduction to Mining Verus on Android
 
 In the world of digital currencies, **mining** refers to the crucial procedure of **verifying transactions** and appending them to the blockchain, ensuring its security and integrity. **VerusCoin**, an innovative cryptocurrency, offers an intriguing prospect: the ability to mine it using nothing but your **Android smartphone**. This article provides a step-by-step walkthrough to help you understand how to effectively mine VerusCoin on your Android device.
 
@@ -28,7 +28,7 @@ ______
 {{< inarticle-dark >}}
 ______
 
-## Getting Started
+## Getting Started Mining Verus on Android
 
 Before you start mining, there are a few prerequisites:
 
@@ -40,11 +40,11 @@ Before you start mining, there are a few prerequisites:
 
 3. Preferably **An Android Device with a Li-Po battery**: These batteries have the advantage of not swelling over time. This **greatly increases the life of the device while mining**. Additionally it **greatly reduces the chance of risk of fire**. 
 
-### Basic Requirements
+### Basic Requirements for Mining Verus on Android
 
 1. Download and install the [Verus Miner application](https://github.com/pangz-lab/verus_miner-release/releases/tag/v3.4.1).
 
-### Advanced Requirements
+### Advanced Requirements for Mining Verus on Android
 
 These are only requirements if you choose to do the advanced configuration below. This requires some experience with linux command line. It is only suggested for advanced users.
 
@@ -53,7 +53,7 @@ These are only requirements if you choose to do the advanced configuration below
 
 ______
 ## Recommended Hardware for Mining Verus on Android
-### The best Android Phones for Mining Verus
+### The Best Android Phones for Mining Verus
 Currently there are standout devices in the world of Android Verus Mining in terms of profitability, ROI, durability, and availability.
 
 1. [**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
@@ -69,7 +69,7 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 5. [**Tracfone Alcatel TCL A3**](https://amzn.to/44f7Ry0) - $40
    - 2.8 Mhs, not the best choice but is the cheapest we can recommend.
 
-### The best USB C Chargers for Mining Verus
+### The Best USB C Chargers for Mining Verus
 
 1. [Anker Charger, 60W 6 Port USB Charging Station](https://amzn.to/3QCsn8C)
    1. With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or less devices.
@@ -88,7 +88,7 @@ When mining Verus we typically like packs of high quality USB A to USB C chargin
 4. [Terasako Magnetic Charging Cable 5-Pack](https://amzn.to/45sa0qO)
 ______
 
-## Best Practices
+## Best Practices for Mining Verus on Android
 
 - **Use a Lower Thread Count**: **Mining is CPU-intensive and generates heat**. To avoid damaging your device, **choose a lower number of threads**. Without active cooling **you should choose no more than 2 less than your max cores**. Monitor your device's temperature while mining.
 
@@ -115,13 +115,13 @@ ______
 
 This requires some experience with linux command line and is only suggested for advanced users.
 
-### Installing Linux Environment
+### Installing Linux Environment to Mine Verus on Android
 
 1. Open the [userland application](https://play.google.com/store/apps/details?id=tech.ula&hl=en_US&gl=US) and click the ubuntu distro. This is the linux environment we're choosing to run `ccminer` to mine **Verus** on. It will take a few moments to download the env.
 
 2. Update Packages: Inside Ubuntu, run `apt-get update && apt-get upgrade -y` to update the system packages.
 
-### Setting Up Mining Software
+### Setting Up Verus Mining Software on Android
 
 1. **Install Dependencies**: Install necessary packages and dependencies with the command: `apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano`.
 
@@ -134,7 +134,7 @@ This requires some experience with linux command line and is only suggested for 
 5. **Start Mining**: Issue the command `./ccminer -a minername -o stratum+tcp://pool.verus.io:9998 -u walletaddress -p c=VRSC -t 8` to start mining VerusCoin.
    1. Adjust the values for `-a`, `-o`, `-u`, and `-t` to your minername, pool address, walletaddress, and core count respectively.
 
-#### Mining Software Build Script
+#### Verus Mining Software Build Script
 
 Switch to the root user `sudo su root` and run the following commands
 
@@ -162,7 +162,7 @@ Switch back to the standard user using `exit` then run the following command to 
 ./ccminer -a minername -o stratum+tcp://pool.verus.io:9998 -u walletaddress -p c=VRSC -t 8
 ``` 
 
-##### QR Code to Download the Script
+##### QR Code to Download the Verus Mining Script
 
 {{< figure src="verus script.png" alt="QR Code to Download the Verus Mining Script" >}}
 
