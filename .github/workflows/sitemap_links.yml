@@ -2,6 +2,9 @@ name: Sitemap Scan and MD Generation
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches:
+      - master  # Change this to your default branch if needed
 
 jobs:
   generate_md_from_sitemap:
