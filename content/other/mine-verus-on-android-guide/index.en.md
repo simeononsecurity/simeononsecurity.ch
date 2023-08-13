@@ -141,6 +141,10 @@ Switch to the root user `sudo su root` and run the following commands
 ```bash
 #!/bin/bash
 
+apt-get update && apt-get upgrade -y
+
+apt-get install -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano
+
 # Clone the ccminer repository
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
 
