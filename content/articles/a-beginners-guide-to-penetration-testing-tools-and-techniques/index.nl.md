@@ -82,7 +82,7 @@ Het behalen van een professionele certificering kan helpen om uw expertise in pe
 
 3. **GPEN (GIAC Penetration Tester)**: Aangeboden door [GIAC](https://www.giac.org/certification/penetration-tester-gpen) Deze certificering richt zich op de technische vaardigheden die nodig zijn voor het uitvoeren van penetratietests.
 
-Bekijk voor meer informatie over penetratietestcertificeringen ons artikel over [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s)
+Bekijk voor meer informatie over penetratietestcertificeringen ons artikel over [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
 
 ______
 
@@ -104,6 +104,6 @@ ______
 8. [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
 9.  [Offensive Security Certified Professional (OSCP)](https://www.offensive-security.com/pwk-oscp/)
 10. [GIAC Penetration Tester (GPEN)](https://www.giac.org/certification/penetration-tester-gpen)
-11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s)
+11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
 12. [Recommended Certifications](https://simeononsecurity.ch/recommendations/certifications/)
 

@@ -82,7 +82,7 @@ ______
 
 3.**GPEN（GIAC 渗透测试员）**：由 [GIAC](https://www.giac.org/certification/penetration-tester-gpen)该认证侧重于进行渗透测试所需的技术技能。
 
-有关渗透测试认证的更多信息，请查看我们的文章 [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s)
+有关渗透测试认证的更多信息，请查看我们的文章 [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
 
 ______
 
@@ -104,6 +104,6 @@ ______
 8. [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
 9.  [Offensive Security Certified Professional (OSCP)](https://www.offensive-security.com/pwk-oscp/)
 10. [GIAC Penetration Tester (GPEN)](https://www.giac.org/certification/penetration-tester-gpen)
-11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/s)
+11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
 12. [Recommended Certifications](https://simeononsecurity.ch/recommendations/certifications/)
 
