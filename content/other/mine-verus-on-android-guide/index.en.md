@@ -155,6 +155,8 @@ chmod +x configure.sh
 
 # Make autogen.sh executable
 chmod +x autogen.sh
+
+./build.sh
 ```
 
 Switch back to the standard user using `exit` then run the following command to start mining
