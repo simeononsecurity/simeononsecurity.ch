@@ -32,7 +32,7 @@ ______
 
 Before you start mining, there are a few prerequisites:
 
-1. **VerusCoin Wallet**: You need a VerusCoin wallet to receive the mined coins. You can choose from multiple wallet options available on the [VerusCoin Website](https://veruscoin.io/wallets/) or choose the [android version](https://play.google.com/store/apps/details?id=org.autonomoussoftwarefoundation.verusmobile.android&hl=en&gl=US).
+1. **VerusCoin Wallet**: You need a VerusCoin wallet to receive the mined coins. You can choose from multiple wallet options available on the [VerusCoin Website](https://veruscoin.io/wallets/) or the [playstore](https://play.google.com/store/apps/details?id=org.autonomoussoftwarefoundation.verusmobile.android&hl=en&gl=US).
    1. Be sure to backup your private keys and recovery phrase
    2. Be sure to notate your wallet address, we'll need this later to set up mining.
 
@@ -59,9 +59,9 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 1. [**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
    - The A03s is an amazing deal that nets you up to 3.5Mhs and can be regularly had for around $50 brand new. It also has the suggested Li-Po battery.
    1. [Tracfone Samsung Galaxy A03s](https://amzn.to/3saKyYR) - $49
-   2. [Total by Verizon Samsung Galaxy A03s](https://amzn.to/3Ed2NzD)
+   2. [Total by Verizon Samsung Galaxy A03s](https://amzn.to/3Ed2NzD) - $49
 2. [**Samsung Galaxy A13 5G**](https://amzn.to/3YEa8BC) - $90
-   - For only 50% more than the A03s, you can get practically double the Mhs. 
+   - For less than 50% more cost than the A03s, you can get practically double the Mhs. 
 3. [**CAT PHONES S48c**](https://amzn.to/449Qizb) - $150
    - Expensive sure... However these devices have a easily removable battery and much sturdier build. This results in lower temps and safer operation over time. If you're in for the long haul, this is the device if not at least the style of device you should go for.
 4. [**Tracfone Motorola moto g Stylus (2020)**](https://amzn.to/47vq90t) - $92
@@ -161,14 +161,26 @@ Switch back to the standard user using `exit` then run the following command to 
 ```bash
 ./ccminer -a minername -o stratum+tcp://pool.verus.io:9998 -u walletaddress -p c=VRSC -t 8
 ``` 
+
+##### QR Code to Download the Script
+
+{{< figure src="verus script.png" alt="QR Code to Download the Verus Mining Script" >}}
+
 ______
 {{< inarticle-dark >}}
 ______
 
+## Conclusion: Unlocking VerusCoin Mining Potential on Your Android Smartphone
 
-## Conclusion
+In conclusion, the realm of cryptocurrency mining has expanded to embrace the capabilities of modern Android smartphones, making **mining VerusCoin** a practical endeavor. By adhering to the systematic guidelines detailed in this guide, you can seamlessly configure your Android device for a successful VerusCoin mining experience. It's important to remain mindful of certain considerations, such as the generated heat and potential battery impact associated with prolonged mining activities.
 
-Mining VerusCoin on your Android smartphone is a feasible option thanks to the advancements in mobile technology. By following the steps outlined in this article, you can efficiently set up your Android device for VerusCoin mining. Remember to consider the heat generated and the battery impact while mining.
+As mobile technology continues to evolve, so too does the potential for cryptocurrency enthusiasts to engage in mining from the convenience of their smartphones. Through the utilization of apps like **Verus Miner**, individuals can contribute their device's processing power to the VerusCoin network, validating transactions and earning rewards in return. This approach presents a convenient and accessible method to participate in the cryptocurrency ecosystem.
+
+To maximize your mining efficiency, ensure your Android device is equipped with sufficient battery life and temperature control mechanisms. Stay attuned to the evolving landscape of cryptocurrency and mobile technology for any future enhancements or adjustments to the VerusCoin mining process.
+
+Remember, embarking on any mining venture requires a balance between the potential rewards and the associated costs, both in terms of energy consumption and hardware wear. By staying informed and proactive, you can make the most of this exciting opportunity to mine VerusCoin using your Android smartphone.
+
+Feel the pulse of the VerusCoin community and stay updated on the latest developments by exploring platforms like **VerusCoin subreddit** [r/veruscoin](https://www.reddit.com/r/veruscoin/) and official documentation resources. As the landscape continues to evolve, staying connected and informed will be your ally in the world of Android-based cryptocurrency mining.
 
 ______
 
