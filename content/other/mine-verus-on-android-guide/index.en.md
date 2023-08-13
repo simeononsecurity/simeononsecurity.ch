@@ -52,8 +52,8 @@ These are only requirements if you choose to do the advanced configuration below
 2. (Optional) Install [TeamViewer Host](https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en_US&gl=US) or [DroidVNC](https://play.google.com/store/apps/details?id=net.christianbeier.droidvnc_ng&hl=en_US&gl=US) to keep remote access to your device.
 
 ______
-
-## The best Android Phones for Mining Verus
+## Recommended Hardware for Mining Verus on Android
+### The best Android Phones for Mining Verus
 Currently there are standout devices in the world of Android Verus Mining in terms of profitability, ROI, durability, and availability.
 
 1. [**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
@@ -69,7 +69,7 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 5. [**Tracfone Alcatel TCL A3**](https://amzn.to/44f7Ry0) - $40
    - 2.8 Mhs, not the best choice but is the cheapest we can recommend.
 
-## The best USB C Chargers for Mining Verus
+### The best USB C Chargers for Mining Verus
 
 1. [Anker Charger, 60W 6 Port USB Charging Station](https://amzn.to/3QCsn8C)
    1. With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or less devices.
@@ -78,7 +78,7 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 3. [60W/12A 8-Port Desktop Charging Station Multiple USB](https://amzn.to/3Ownefq)
    1. This device supports up to 8 devices with 60w of power delivery. It's unique feature is the screen that lets you monitor power usage. This is great for tweaking power efficiency.
 
-## Recommended USB C Cables for Mining Verus
+### Recommended USB C Cables for Mining Verus
 
 When mining Verus we typically like packs of high quality USB A to USB C charging cables. Here are a few suggestions
 
