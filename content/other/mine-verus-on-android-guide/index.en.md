@@ -101,8 +101,10 @@ ______
 ## Basic Install for Verus Mining on Android
 
 1. Open the [Verus Miner application](https://pangz-lab.github.io/verusminer/#downloads)
+   {{< figure src="verusminer.webp" alt="A screenshot of the verus miner application home menu." >}}
 
 2. In the mining menu, you'll see a preconfigured mining profile. You'll want to open this and paste your wallet address from the **VerusCoin Wallet** you downloaded earlier. 
+   {{< figure src="verusminersettings.webp" alt="A screenshot of the verus miner application mining settings." >}}
    1. Remember to select no more than 2 less than the max core count of your device unless you're mining on a dedicated device with active cooling.
    2. Choose your pool carefully, **the default pool has a high 5% fee**. You can identify the [best Verus pools](https://miningpoolstats.stream/veruscoin). At the time of writing that is **luckpool.net**
    3. Adjust your miner name
@@ -118,10 +120,11 @@ This requires some experience with linux command line and is only suggested for 
 ### Installing Linux Environment to Mine Verus on Android
 
 1. Open the [userland application](https://play.google.com/store/apps/details?id=tech.ula&hl=en_US&gl=US) and click the ubuntu distro. This is the linux environment we're choosing to run `ccminer` to mine **Verus** on. It will take a few moments to download the env.
+   {{< figure src="userland.webp" alt="A screenshot of the userland home menu with the ubuntu distro selected" >}}
 
 2. Update Packages: Inside Ubuntu, run `apt-get update && apt-get upgrade -y` to update the system packages.
 
-### Setting Up Verus Mining Software on Android
+### Option 1: Setting Up Verus Mining CCMiner Software on Android
 
 1. **Install Dependencies**: Install necessary packages and dependencies with the command: `apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano`.
 
@@ -134,43 +137,29 @@ This requires some experience with linux command line and is only suggested for 
 5. **Start Mining**: Issue the command `./ccminer -a minername -o stratum+tcp://pool.verus.io:9998 -u walletaddress -p c=VRSC -t 8` to start mining VerusCoin.
    1. Adjust the values for `-a`, `-o`, `-u`, and `-t` to your minername, pool address, walletaddress, and core count respectively.
 
-#### Verus Mining Software Build Script
+### Option 2 **(Preferred)**: Verus Mining Software Build Script with **_Optimized ARM CCMiner_**
 
-Switch to the root user `sudo su root` and run the following commands
+1. Run the following to pull the latest CCMiner
+   ```bash
+   curl -o- -k https://raw.githubusercontent.com/simeononsecurity/Android-Mining/main/install.sh | bash
+   ```
 
-```bash
-#!/bin/bash
+2. Edit your config.json file to include your **pool**, **wallet address**, **worker name**, and **core count**
+   ```bash
+   nano ~/ccminer/config.json
+   ```
 
-apt-get update && apt-get upgrade -y
-
-apt-get install -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano
-
-# Clone the ccminer repository
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
-
-# Navigate to the ccminer directory
-cd ccminer
-
-# Make build.sh executable
-chmod +x build.sh
-
-# Make configure.sh executable
-chmod +x configure.sh
-
-# Make autogen.sh executable
-chmod +x autogen.sh
-
-./build.sh
-```
-
-Switch back to the standard user using `exit` then run the following command to start mining
-```bash
-./ccminer -a minername -o stratum+tcp://pool.verus.io:9998 -u walletaddress -p c=VRSC -t 8
-``` 
+3. Start Mining!
+   {{< figure src="startsh.webp" alt="Example output of running the verus ccminer start.sh script" >}}
+   ```bash
+   cd ~/ccminer
+   ./start.sh
+   screen -x CCMiner
+   ```
 
 ##### QR Code to Download the Verus Mining Script
 
-{{< figure src="verus script.png" alt="QR Code to Download the Verus Mining Script" >}}
+{{< figure src="verusscript.png" alt="QR Code to Download the Verus Mining Script" >}}
 
 ______
 {{< inarticle-dark >}}
