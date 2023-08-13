@@ -20,10 +20,10 @@ jobs:
         node-version: '14'
 
     - name: Install dependencies
-      run: npm install
+      run: npm install --prefix generate_md
 
     - name: Run the script
-      run: node generate_md.js ${{ secrets.GITHUB_TOKEN }}
+      run: node generate_md/generate_md.js ${{ secrets.GITHUB_TOKEN }}
 
     - name: Commit and push changes
       run: |
