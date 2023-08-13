@@ -1,0 +1,33 @@
+name: Sitemap Scan and MD Generation
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  generate_md_from_sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run the script
+      run: node generate_md.js ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "${{ secrets.USERNAME }}"
+        git config user.email "${{ secrets.EMAIL }}"
+        git add .
+        git commit -m "Update master branch"
+        git push --force --quiet origin HEAD:refs/heads/master
+      env:
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
