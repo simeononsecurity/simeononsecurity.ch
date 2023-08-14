@@ -39,7 +39,7 @@ The provided script already includes some variables you can adjust, but the rest
 - **Special Values**:
   These values can be pulled from the metadata.json file in the folder when you used go-spacemesh or the gui application. However we need to change their encoding. 
   1. Pull the base64 encoded values from the json file and go to this [base64 decoder](https://cryptii.com/pipes/text-to-base64).
-  2. In the encoder, one at a time you'll convert the node and commitment ids from the metadata.json using text > base64 decode > binary, hexadecimal, none. The output of this conversion is the value you need.
+  2. In the encoder, one at a time you'll convert the node and commitment ids from the metadata.json using text > base64 decode > bytes, hexadecimal, none. The output of this conversion is the value you need.
      1. You can see the following [video to learn more](https://www.youtube.com/watch?v=dHFNG7SyuqM).
   - `$commitmentAtxId`: Replace this with your commitment ATX ID, a unique identifier for your commitment to participate in the Spacemesh network.
 
