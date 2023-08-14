@@ -33,24 +33,35 @@ ______
 ### Step 1: Configure Variables
 
 Open a text editor or PowerShell script editor and set the configurable variables according to your requirements. 
+
 The provided script already includes some variables you can adjust, but the rest can be pulled from the json or key.bin file that you get when you start smeshing on the spacemech GUI application:
 
-- `$numGpus`: Set the number of GPUs you want to utilize for mining. For instance, `2` for two GPUs.
+- **Special Values**:
+  These values can be pulled from the metadata.json file in the folder when you used go-spacemesh or the gui application. However we need to change their encoding. 
+  1. Pull the base64 encoded values from the json file and go to this [base64 decoder](https://cryptii.com/pipes/text-to-base64).
+  2. In the encoder, one at a time you'll convert the node and commitment ids from the metadata.json using text > base64 decode > binary, hexadecimal, none. The output of this conversion is the value you need.
+     1. You can see the following [video to learn more](https://www.youtube.com/watch?v=dHFNG7SyuqM).
+  - `$commitmentAtxId`: Replace this with your commitment ATX ID, a unique identifier for your commitment to participate in the Spacemesh network.
 
-- `$commitmentAtxId`: Replace this with your commitment ATX ID, a unique identifier for your commitment to participate in the Spacemesh network.
+  - `$nodeId`: Replace this with your Node ID, Node ID is last 64 digits from key.bin.
 
-- `$nodeId`: Replace this with your Node ID, Node ID is last 64 digits from key.bin.
+- **Standard Values**
+  These values can be changed manually to whatever you want. Use common sense. Select the number of gpus and copy and paste the values if they are different from the metadata.json file.
 
-- `$LabelsPerUnit`: Set the number of labels per storage unit. The default value is 4294967296.
+  - `$numGpus`: Set the number of GPUs you want to utilize for mining. For instance, `2` for two GPUs.
 
-- `$MaxFileSize`: Set the maximum file size. The default value is 2147483648.
+  - `$LabelsPerUnit`: Set the number of labels per storage unit. The default value is 4294967296.
 
-- `$numUnits`: Set the number of storage units to mine. The default value is 16.
+  - `$MaxFileSize`: Set the maximum file size. The default value is 2147483648.
 
-- `$datadir`: Set the path to the data directory where your mining data will be stored.
+  - `$numUnits`: Set the number of storage units to mine. The default value is 16.
+
+  - `$datadir`: Set the path to the data directory where your mining data will be stored.
+
+______
 
 {{< inarticle-dark >}}
-
+______
 ### Step 2: Execute the Script
 
 Save the script with the defined variables and execute it in PowerShell. The script will automatically divide the mining workload among the specified GPUs, optimizing mining efficiency.
