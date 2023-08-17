@@ -4,8 +4,8 @@ date: 2023-11-17
 toc: true
 draft: false
 description: "Explore a diverse range of money earning apps for mobile devices that offer passive income opportunities."
-genre: ["money earning apps", "passive income", "mobile apps", "earn extra income", "side hustle", "financial strategy", "supplement income", "cryptocurrency earnings", "internet sharing", "mobile rewards", "earn on-the-go", "financial empowerment", "mobile device earnings", "app-based income", "earning potential", "innovative apps", "digital earnings", "income generation"]
-tags: ["Technology", "Finance", "Business", "Digital Lifestyle", "Entrepreneurship", "Money Management", "Mobile Apps", "Side Hustles", "Cryptocurrency", "Passive Income"]
+tags: ["money earning apps", "passive income", "mobile apps", "earn extra income", "side hustle", "financial strategy", "supplement income", "cryptocurrency earnings", "internet sharing", "mobile rewards", "earn on-the-go", "financial empowerment", "mobile device earnings", "app-based income", "earning potential", "innovative apps", "digital earnings", "income generation"]
+genre: ["Technology", "Finance", "Business", "Digital Lifestyle", "Entrepreneurship", "Money Management", "Mobile Apps", "Side Hustles", "Cryptocurrency", "Passive Income"]
 cover: "/img/cover/money-earning-apps-smartphone.png"
 coverAlt: "A smartphone displaying various money earning apps."
 coverCaption: "Explore the world of earning apps on your smartphone."

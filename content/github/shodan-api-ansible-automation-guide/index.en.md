@@ -13,10 +13,6 @@ coverCaption: "Empower Ansible Automation with Shodan API Synergy."
 
 ## Ansible Shodan Modules
 
-![Ansible](https://img.shields.io/badge/ansible-2.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-[![Ansible Galaxy](https://github.com/simeononsecurity/ansible_shodan/actions/workflows/ansible_galaxy_collection.yml/badge.svg)](https://github.com/simeononsecurity/ansible_shodan/actions/workflows/ansible_galaxy_collection.yml)
-
 This collection provides Ansible modules for interacting with the Shodan API. The modules allow you to perform various tasks related to Shodan, such as querying information, searching for hosts, and more.
 
 ### Modules
