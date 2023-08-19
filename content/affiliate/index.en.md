@@ -25,7 +25,6 @@ Some of the links on this website are affiliate links, which means we may earn a
 - [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=12501_0_1_5)
 - [PawnsApp](https://pawns.app/?r=2092802)
 - [Presearch](https://presearch.com/signup?rid=4754563)
-- [Privacy.com](https://app.privacy.com/join/SU86Y)
 - [Repocket](https://link.repocket.co/raqc)
 - [StartMail](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined)
 - [TraffMonetizer](https://traffmonetizer.com/?aff=1389828&utm_source=affiliate)

@@ -17,7 +17,7 @@ Căutați o modalitate fiabilă de a genera venituri pasive din conexiunea dvs. 
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Creați un cont Peer 2 Profit:
-Pentru a începe, creați un cont la [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+Pentru a începe, creați un cont la [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 ### Instalați containerul Docker:
 Urmați acești pași pentru a instala containerul Docker Peer 2 Profit:
@@ -44,4 +44,4 @@ Prin instalarea Peer 2 Profit și partajarea internetului, aveți posibilitatea 
 După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referință
-- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)

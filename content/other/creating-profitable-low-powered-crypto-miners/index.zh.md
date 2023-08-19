@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### 安装 Peer 2 利润：
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 与 EarnApp 和 HoneyGain 类似，Peer2Profit 共享您的互联网用于 VPN 和抓取目的。每个 IP 每个节点每个月赚取大约 1 美元。
 提供多种支付方式，包括汇票、BTC、LTC、LTC、MATIC 等。
 
 #### 创建 Peer 2 利润账户：
-创建一个帐户 [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+创建一个帐户 [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 #### 安装 Docker 容器：
 ```bash

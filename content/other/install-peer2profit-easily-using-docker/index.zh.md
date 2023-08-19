@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="Ir6Etplqj3c" >}}
 
 #### 创建 Peer 2 Profit 账户：
-要开始使用，请在以下网址创建账户 [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+要开始使用，请在以下网址创建账户 [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 #### 安装 Docker 容器：
 按照以下步骤安装 Peer 2 Profit Docker 容器：
@@ -44,4 +44,4 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考资料
-- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)

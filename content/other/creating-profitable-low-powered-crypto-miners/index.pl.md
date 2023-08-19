@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### Zainstaluj Peer 2 Profit:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 Podobnie jak EarnApp i HoneyGain, Peer2Profit dzieli się twoim internetem dla celów VPN i Scrapingu. Zarabia około $1 miesięcznie na węzeł na IP.
 Oferuje różnorodne wypłaty, w tym przekazy pieniężne, BTC, LTC, MATIC itp.
 
 #### Create a Peer 2 Profit Account:
-Załóż konto na.[peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+Załóż konto na.[peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 #### Zainstaluj Docker Container:
 ```bash

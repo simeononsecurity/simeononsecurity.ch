@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### पीयर 2 लाभ स्थापित करें:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 EarnApp और HoneyGain के समान, Peer2Profit VPN और स्क्रैपिंग उद्देश्यों के लिए आपके इंटरनेट को साझा करता है। प्रति आईपी प्रति नोड प्रति माह लगभग $1 कमाता है।
 मनी ऑर्डर, बीटीसी, एलटीसी, एलटीसी, मैटिक आदि सहित विभिन्न प्रकार के भुगतान प्रदान करता है।
 
 #### पीयर 2 प्रॉफिट अकाउंट बनाएं:
-पर अकाउंट बनाएं [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+पर अकाउंट बनाएं [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 #### डॉकटर कंटेनर स्थापित करें:
 ```bash

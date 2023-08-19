@@ -17,7 +17,7 @@ Siete alla ricerca di un modo affidabile per generare reddito passivo dalla vost
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Creare un account Peer 2 Profit:
-Per iniziare, creare un account su [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+Per iniziare, creare un account su [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 ### Installare il contenitore Docker:
 Seguire questi passaggi per installare il contenitore Docker Peer 2 Profit:
@@ -44,4 +44,4 @@ Installando Peer 2 Profit e condividendo il vostro internet, avrete l'opportunit
 Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Riferimento
-- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)

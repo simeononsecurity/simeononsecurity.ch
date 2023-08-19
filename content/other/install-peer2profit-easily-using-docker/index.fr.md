@@ -17,7 +17,7 @@ Vous cherchez un moyen fiable de générer des revenus passifs à partir de votr
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Créer un compte Peer 2 Profit :
-Pour commencer, créez un compte sur [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+Pour commencer, créez un compte sur [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 ### Installer le conteneur Docker :
 Suivez ces étapes pour installer le conteneur Docker Peer 2 Profit :
@@ -44,4 +44,4 @@ En installant Peer 2 Profit et en partageant votre internet, vous avez la possib
 Une fois que vous aurez terminé, vous devrez [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Référence
-- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)

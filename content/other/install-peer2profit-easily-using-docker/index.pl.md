@@ -17,7 +17,7 @@ Szukasz niezawodnego sposobu na generowanie pasywnego dochodu z połączenia int
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Utwórz konto Peer 2 Profit:
-Aby rozpocząć, utwórz konto na stronie [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+Aby rozpocząć, utwórz konto na stronie [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
 
 ### Instalacja kontenera Docker:
 Wykonaj poniższe kroki, aby zainstalować kontener Docker Peer 2 Profit:
@@ -44,4 +44,4 @@ Instalując Peer 2 Profit i udostępniając swój Internet, masz możliwość za
 Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referencje
-- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
