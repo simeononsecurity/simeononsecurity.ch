@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Crear una cuenta Peer 2 Profit:
-Para empezar, cree una cuenta en [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+Para empezar, cree una cuenta en [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 ### Instalar el contenedor Docker:
 Siga estos pasos para instalar el contenedor Docker de Peer 2 Profit:
@@ -44,4 +44,4 @@ Al instalar Peer 2 Profit y compartir tu conexión a Internet, tienes la oportun
 Una vez que hayas terminado, deberías [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referencia
-- [Peer 2 Profit](https://p2pr.me/16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)

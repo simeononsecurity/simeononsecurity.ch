@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### ইনস্টল করুন পিয়ার 2 লাভ:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 EarnApp এবং HoneyGain এর মতো, Peer2Profit আপনার ইন্টারনেট VPN এবং স্ক্র্যাপিংয়ের উদ্দেশ্যে শেয়ার করে। প্রতি আইপি প্রতি নোড প্রতি মাসে প্রায় $1 উপার্জন করে।
 মানি অর্ডার, BTC, LTC, LTC, MATIC, ইত্যাদি সহ বিভিন্ন ধরনের পেআউট অফার করে।
 
 #### একটি পিয়ার 2 লাভ অ্যাকাউন্ট তৈরি করুন:
-এ একটি অ্যাকাউন্ট তৈরি করুন [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+এ একটি অ্যাকাউন্ট তৈরি করুন [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 #### ডকার কন্টেইনার ইনস্টল করুন:
 ```bash

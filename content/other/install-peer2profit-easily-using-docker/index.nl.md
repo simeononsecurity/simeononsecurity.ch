@@ -17,7 +17,7 @@ Ben je op zoek naar een betrouwbare manier om passief inkomen te genereren uit j
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Maak een Peer 2 Profit account aan:
-Om te beginnen, maak een account aan bij [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+Om te beginnen, maak een account aan bij [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 ### Installeer de Docker Container:
 Volg deze stappen om de Peer 2 Profit Docker-container te installeren:
@@ -44,4 +44,4 @@ Door Peer 2 Profit te installeren en je internet te delen, heb je de mogelijkhei
 Zodra je klaar bent, moet je [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
-- [Peer 2 Profit](https://p2pr.me/16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)

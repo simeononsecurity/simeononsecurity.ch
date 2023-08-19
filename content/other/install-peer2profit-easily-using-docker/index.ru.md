@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Создание учетной записи Peer 2 Profit:
-Чтобы начать работу, создайте учетную запись на сайте [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+Чтобы начать работу, создайте учетную запись на сайте [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 ### Установка контейнера Docker:
 Выполните следующие шаги для установки Docker-контейнера Peer 2 Profit:
@@ -44,4 +44,4 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 По окончании работы вы должны [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
-- [Peer 2 Profit](https://p2pr.me/16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)

@@ -17,7 +17,7 @@ Sind Sie auf der Suche nach einer zuverlässigen Möglichkeit, passives Einkomme
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Erstellen Sie ein Peer 2 Profit-Konto:
-Um loszulegen, erstellen Sie ein Konto bei [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+Um loszulegen, erstellen Sie ein Konto bei [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 ### Installieren Sie den Docker-Container:
 Folgen Sie diesen Schritten, um den Peer 2 Profit Docker-Container zu installieren:
@@ -44,4 +44,4 @@ Durch die Installation von Peer 2 Profit und die gemeinsame Nutzung Ihres Intern
 Sobald Sie fertig sind, sollten Sie [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referenz
-- [Peer 2 Profit](https://p2pr.me/16538445386293aa3aaec4e)
+- [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)

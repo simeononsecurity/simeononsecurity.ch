@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### Instalați Peer 2 Profit:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 Similar cu EarnApp și HoneyGain, Peer2Profit vă partajează internetul în scopuri VPN și Scraping. Câștigă aproximativ 1 USD pe lună per nod per IP.
 Oferă o varietate de plăți, inclusiv ordine de plată, BTC, LTC, LTC, MATIC etc.
 
 #### Creați un cont de profit Peer 2:
-Creează un cont la [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+Creează un cont la [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 #### Instalați containerul Docker:
 ```bash

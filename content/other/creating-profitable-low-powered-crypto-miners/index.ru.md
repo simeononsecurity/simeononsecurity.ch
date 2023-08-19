@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### Установить Peer 2 Прибыль:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 Подобно EarnApp и HoneyGain, Peer2Profit предоставляет общий доступ к вашему интернету для целей VPN и скрейпинга. Зарабатывает около 1 доллара в месяц за узел на IP.
 Предлагает различные выплаты, включая денежные переводы, BTC, LTC, LTC, MATIC и т. д.
 
 #### Создайте счет прибыли Peer 2:
-Создайте учетную запись на [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+Создайте учетную запись на [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 #### Установите контейнер Docker:
 ```bash

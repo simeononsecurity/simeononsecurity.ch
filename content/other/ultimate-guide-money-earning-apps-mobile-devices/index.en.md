@@ -45,7 +45,7 @@ ______
 
 ## **Peer 2 Profit**: Harness Cryptocurrency Potential
 
-Dive into the captivating realm of cryptocurrencies with [**Peer 2 Profit**](https://p2pr.me/16538445386293aa3aaec4e), a platform that unveils an exhilarating earning opportunity. By sharing your mobile device's internet traffic, you can accumulate rewards in a variety of **cryptocurrencies**. This app not only aligns with the booming trend of digital currencies but also empowers you to transform your internet connection into a lucrative asset.
+Dive into the captivating realm of cryptocurrencies with [**Peer 2 Profit**](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e), a platform that unveils an exhilarating earning opportunity. By sharing your mobile device's internet traffic, you can accumulate rewards in a variety of **cryptocurrencies**. This app not only aligns with the booming trend of digital currencies but also empowers you to transform your internet connection into a lucrative asset.
 
 {{< youtube id="Ir6Etplqj3c" >}}
 
@@ -111,6 +111,6 @@ ______
 1. [Earn App](https://earnapp.com/i/c1dllee)
 2. [Honey Gain](https://r.honeygain.me/HONEY9149D)
 3. [PawnsApp](https://pawns.app/?r=2092882)
-4. [Peer 2 Profit](https://p2pr.me/16538445386293aa3aaec4e)
+4. [Peer 2 Profit](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 5. [Repocket](https://link.repocket.co/raqc)
 6. [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=mobleappsguide)

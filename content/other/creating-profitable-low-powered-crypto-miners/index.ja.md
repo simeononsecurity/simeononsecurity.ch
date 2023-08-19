@@ -171,13 +171,13 @@ docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -
 ```
 
 ### ピア 2 のインストールによる利益:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://p2pr.me/16538445386293aa3aaec4e)
+[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 EarnApp や HoneyGain と同様に、Peer2Profit は VPN とスクレイピングの目的でインターネットを共有します。 IP ごとにノードごとに月に約 1 ドルの収益が得られます。
 郵便為替、BTC、LTC、LTC、MATICなどを含むさまざまな支払いを提供します。
 
 #### ピア 2 利益アカウントを作成します。
-でアカウントを作成してください [peer2profit.com](https://p2pr.me/16538445386293aa3aaec4e)
+でアカウントを作成してください [peer2profit.com](https://t.me/peer2profit_app_bot?start=16538445386293aa3aaec4e)
 
 #### Docker コンテナをインストールします。
 ```bash
