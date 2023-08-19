@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 使用 PawnsApp 实现收益最大化
 
-您有兴趣在自己家中赚取被动收入吗？ [PawnsApp](https://pawns.app/?r=sos)提供了一个令人兴奋的机会，让您通过共享网络连接和完成调查来在线赚钱。本综合指南将指导您完成安装过程，并提供有价值的提示，以最大限度地提高您的收入。
+您有兴趣在自己家中赚取被动收入吗？ [PawnsApp](https://pawns.app/?r=2092882)提供了一个令人兴奋的机会，让您通过共享网络连接和完成调查来在线赚钱。本综合指南将指导您完成安装过程，并提供有价值的提示，以最大限度地提高您的收入。
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsApp 与其他通过共享网络连接向您支付报酬的平台类似。�
 
 #### 1.创建 PawnsApp 账户
 
-访问以下网址创建 PawnsApp 帐户 [https://pawns.app](https://pawns.app/?r=sos)使用您的电子邮件地址注册，即可开始使用。
+访问以下网址创建 PawnsApp 帐户 [https://pawns.app](https://pawns.app/?r=2092882)使用您的电子邮件地址注册，即可开始使用。
 
 #### 2.安装 Docker
 
@@ -58,4 +58,4 @@ PawnsApp 提供了一个绝佳的机会，让您通过共享互联网连接和�
 安装完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### 参考资料
-- [PawnsApp](https://pawns.app/?r=sos)
+- [PawnsApp](https://pawns.app/?r=2092882)

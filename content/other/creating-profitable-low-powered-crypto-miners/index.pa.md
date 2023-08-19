@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### PawnsApp ਇੰਸਟਾਲ ਕਰੋ:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns ਐਪ, ਦੁਬਾਰਾ ਇੱਥੇ ਸੂਚੀਬੱਧ ਹੋਰਾਂ ਵਾਂਗ ਹੀ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਭੁਗਤਾਨ ਕਰਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ। ਘੱਟੋ-ਘੱਟ ਭੁਗਤਾਨ $5 ਹੈ। ਔਸਤ ਭੁਗਤਾਨ ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਮਹੀਨਾ $0.50 ਹੈ।
 
 #### ਇੱਕ PawnsApp ਖਾਤਾ ਬਣਾਓ:
-'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [https://pawns.app](https://pawns.app/?r=sos)
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### ਰੀਪੋਕੇਟ ਸਥਾਪਿਤ ਕਰੋ:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 ਇੱਥੇ ਹੋਰ ਪੇਸ਼ਕਸ਼ਾਂ ਦੇ ਸਮਾਨ. ਘੱਟੋ-ਘੱਟ $20 ਦਾ ਭੁਗਤਾਨ। ਅਦਾਇਗੀਆਂ ਗੁੰਝਲਦਾਰ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਇਹ ਦੇਖਣ ਲਈ ਕਿ ਕੀ ਤੁਸੀਂ ਇਸ ਸੇਵਾ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਆਪਣੇ ਲਈ ਖੋਜ ਕਰੋ। ਭੁਗਤਾਨ ਔਸਤਨ $1 ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਬਾਕਸ ਪ੍ਰਤੀ ਮਹੀਨਾ ਹੈ।
 
 #### ਇੱਕ ਰੀਪੋਕੇਟ ਖਾਤਾ ਬਣਾਓ:
-'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [repocket.co](https://link.repocket.co/pyqL) ਅਤੇ ਆਪਣੇ ਡੈਸ਼ਬੋਰਡ ਤੋਂ ਆਪਣੀ ਏਪੀਆਈ ਕੁੰਜੀ ਨੂੰ ਫੜੋ।
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [repocket.co](https://link.repocket.co/raqc) ਅਤੇ ਆਪਣੇ ਡੈਸ਼ਬੋਰਡ ਤੋਂ ਆਪਣੀ ਏਪੀਆਈ ਕੁੰਜੀ ਨੂੰ ਫੜੋ।
 #### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
 ਆਪਣੇ ਟਰਮੀਨਲ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ ਈਮੇਲ ਅਤੇ ਏਪੀਆਈ ਕੁੰਜੀ ਨਾਲ ਹੇਠ ਦਿੱਤੀ ਲਾਈਨ ਨੂੰ ਸੋਧੋ।
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### ਟ੍ਰੈਫ ਮੋਨੇਟਾਈਜ਼ਰ ਸਥਾਪਿਤ ਕਰੋ:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 EarnApp ਅਤੇ HoneyGain ਦੀ ਤਰ੍ਹਾਂ, TraffMonetizer ਤੁਹਾਨੂੰ ਤੁਹਾਡਾ ਇੰਟਰਨੈੱਟ ਸਾਂਝਾ ਕਰਨ ਲਈ ਭੁਗਤਾਨ ਕਰਦਾ ਹੈ। ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਮਹੀਨਾ ਔਸਤਨ $2। ਸਿਰਫ਼ BTC ਵਿੱਚ ਭੁਗਤਾਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
 
 #### ਆਪਣਾ ਟਰੈਫ ਮੁਦਰੀਕਰਨ ਖਾਤਾ ਬਣਾਓ:
-'ਤੇ ਆਪਣਾ ਖਾਤਾ ਬਣਾਓ [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+'ਤੇ ਆਪਣਾ ਖਾਤਾ ਬਣਾਓ [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 ਇੱਕ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਡੈਸ਼ਬੋਰਡ ਵਿੱਚ ਆ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਆਪਣੇ ਐਪਲੀਕੇਸ਼ਨ ਟੋਕਨ ਨੂੰ ਨੋਟ ਕਰੋ।
 
 #### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:

@@ -19,7 +19,7 @@ Siete alla ricerca di modi per guadagnare reddito passivo senza sforzo? Honey Ga
 Per iniziare a guadagnare passivamente con Honey Gain, seguite le istruzioni di installazione e configurazione fornite di seguito.
 
 ### Creare un account Honey Gain:
-Creare un account all'indirizzo [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Creare un account all'indirizzo [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Installare Docker
 

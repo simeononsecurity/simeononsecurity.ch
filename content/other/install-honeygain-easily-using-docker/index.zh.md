@@ -19,7 +19,7 @@ coverCaption: ""
 要开始使用 Honey Gain 并开始赚取被动收入，请按照下面提供的安装和设置说明进行操作。
 
 #### 创建 Honey Gain 账户：
-在以下网址创建账户 [honeygain.com](https://r.honeygain.me/DAVID07A75)
+在以下网址创建账户 [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### 安装 Docker
 

@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Создание учетной записи Traff Monetizer
-Чтобы начать работу, создайте учетную запись на сайте [traffmonetizer.com](https://traffmonetizer.com/?aff=242022) Получив доступ к панели управления, обратите внимание на токен приложения.
+Чтобы начать работу, создайте учетную запись на сайте [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide) Получив доступ к панели управления, обратите внимание на токен приложения.
 
 ### Установка контейнера Docker
 Выполните следующие шаги для установки Docker-контейнера Traff Monetizer:
@@ -29,7 +29,7 @@ coverCaption: ""
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-Для получения более подробных инструкций см. [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+Для получения более подробных инструкций см. [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## Заключение
@@ -40,6 +40,6 @@ docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOU
 
 ## Reference
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

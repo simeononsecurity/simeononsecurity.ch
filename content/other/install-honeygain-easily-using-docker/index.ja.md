@@ -19,7 +19,7 @@ coverCaption: ""
 ハニーゲインの利用を開始し、受動的な収入を得るには、以下に提供されるインストールと設定の手順に従ってください。
 
 ### ハニーゲインアカウントを作成する：
-でアカウントを作成します。 [honeygain.com](https://r.honeygain.me/DAVID07A75)
+でアカウントを作成します。 [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Dockerのインストール
 

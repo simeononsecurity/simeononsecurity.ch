@@ -19,7 +19,7 @@ coverCaption: ""
 Para empezar con Honey Gain y empezar a ganar ingresos pasivos, siga las instrucciones de instalación y configuración que se proporcionan a continuación.
 
 ### Cree una cuenta de Honey Gain:
-Cree una cuenta en [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Cree una cuenta en [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Install Docker
 

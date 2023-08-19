@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 PawnsAppで稼ぎを最大化する
 
-自宅にいながら受動的な収入を得ることに興味はありませんか？ [PawnsApp](https://pawns.app/?r=sos)は、インターネット接続を共有し、アンケートに答えることで、オンラインでお金を稼ぐエキサイティングな機会を提供します。この包括的なガイドでは、インストール手順を説明し、収益を最大化するための貴重なヒントを提供します。
+自宅にいながら受動的な収入を得ることに興味はありませんか？ [PawnsApp](https://pawns.app/?r=2092882)は、インターネット接続を共有し、アンケートに答えることで、オンラインでお金を稼ぐエキサイティングな機会を提供します。この包括的なガイドでは、インストール手順を説明し、収益を最大化するための貴重なヒントを提供します。
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsAppは、あなたのインターネット接続を共有するためにあ
 
 #### 1.PawnsAppのアカウントを作成する
 
-PawnsAppのアカウントを作成するには、以下のサイトにアクセスします。 [https://pawns.app](https://pawns.app/?r=sos)メールアドレスを使用して登録すると、すぐに始められます。
+PawnsAppのアカウントを作成するには、以下のサイトにアクセスします。 [https://pawns.app](https://pawns.app/?r=2092882)メールアドレスを使用して登録すると、すぐに始められます。
 
 #### 2.Dockerのインストール
 
@@ -58,4 +58,4 @@ PawnsApp は、インターネット接続を共有し、アンケートに回�
 インストールが完了したら [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### リファレンス
-- [PawnsApp](https://pawns.app/?r=sos)
+- [PawnsApp](https://pawns.app/?r=2092882)

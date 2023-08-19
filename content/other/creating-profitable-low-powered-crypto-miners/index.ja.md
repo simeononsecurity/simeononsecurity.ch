@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### PawnsApp をインストールします。
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns アプリは、ここにリストされている他のアプリと同様に、インターネットの共有に対して料金を支払うことを提供します。最低支払額は 5 ドルです。平均支払い額は、IP ごとのノードごとに月額 0.50 ドルです。
 
 #### PawnsApp アカウントを作成します:
-でアカウントを作成してください [https://pawns.app](https://pawns.app/?r=sos)
+でアカウントを作成してください [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### Docker コンテナをインストールします。
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### リポケットをインストールします。
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 ここでの他の製品と同様です。最低 20 ドルの支払い。支払いは複雑になる場合があります。このサービスを使用するかどうかは、自分で調べてください。ペイアウトは、ノードごと、ボックスごとに月平均約 1 ドルです。
 
 #### リポケットアカウントを作成します:
-でアカウントを作成してください [repocket.co](https://link.repocket.co/pyqL) ダッシュボードから API キーを取得します。
+でアカウントを作成してください [repocket.co](https://link.repocket.co/raqc) ダッシュボードから API キーを取得します。
 #### Docker コンテナをインストールします。
 端末に貼り付ける前に、次の行を電子メールと API キーで変更します。
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### Traff Monetizer をインストールします。
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 EarnApp や HoneyGain と同様に、TraffMonetizer はインターネットの共有に対して料金を支払います。 IP ごとにノードごとに月平均約 2 ドルかかります。 BTCでの支払いのみを提供します。
 
 #### Traff Monetizer アカウントを作成します。
-でアカウントを作成してください [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+でアカウントを作成してください [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 ダッシュボードに入ったら、アプリケーション トークンをメモします。
 
 #### Docker コンテナをインストールします。

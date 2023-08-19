@@ -15,7 +15,7 @@ coverCaption: ""
 Vous cherchez un moyen de transformer votre connexion Internet inutilisée en une source de revenus lucrative ? Repocket vous offre une fantastique opportunité de monétiser votre connexion internet et de gagner de l'argent sans effort. Tout comme les autres plateformes mentionnées dans cet article, Repocket vous permet de maximiser la valeur de votre Internet en le partageant avec d'autres. Avec un seuil de paiement minimum de 20 $ et un potentiel de gain moyen d'environ 1 $ par nœud, par boîte et par mois, Repocket constitue une source de revenus viable.
 
 ### Créer un compte Repocket
-Pour commencer, créez un compte sur [repocket.co](https://link.repocket.co/pyqL) et obtenez votre clé API à partir de votre tableau de bord.
+Pour commencer, créez un compte sur [repocket.co](https://link.repocket.co/raqc) et obtenez votre clé API à partir de votre tableau de bord.
 
 ### Installer le conteneur Docker
 Suivez ces étapes pour installer le conteneur Docker Repocket :
@@ -31,7 +31,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 
 {{< youtube id="171gWknfAbY" >}}
 
-Pour des instructions plus détaillées, consultez le [Repocket documentation](https://link.repocket.co/pyqL)
+Pour des instructions plus détaillées, consultez le [Repocket documentation](https://link.repocket.co/raqc)
 
 ## Conclusion
 Repocket offre la possibilité de gagner de l'argent en partageant votre connexion Internet inutilisée. Avec un paiement minimum de 20 $ et la possibilité de gagner environ 1 $ par nœud, par boîte et par mois, Repocket peut être une source précieuse de revenus passifs. Cependant, il est essentiel de bien comprendre le système de paiement et d'effectuer vos propres recherches avant de décider d'utiliser le service.
@@ -39,4 +39,4 @@ Repocket offre la possibilité de gagner de l'argent en partageant votre connexi
 Une fois que vous avez terminé, vous devriez [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Référence
-- [Repocket](https://link.repocket.co/pyqL)
+- [Repocket](https://link.repocket.co/raqc)

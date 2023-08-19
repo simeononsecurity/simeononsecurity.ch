@@ -11,7 +11,7 @@ coverCaption: ""
 ---
  Zmaksymalizuj swoje zarobki dzięki PawnsApp
 
-Czy jesteś zainteresowany zarabianiem pasywnego dochodu w zaciszu własnego domu? [PawnsApp](https://pawns.app/?r=sos) oferuje ekscytującą możliwość zarabiania pieniędzy online poprzez udostępnianie połączenia internetowego i wypełnianie ankiet. Ten kompleksowy przewodnik przeprowadzi Cię przez proces instalacji i dostarczy cennych wskazówek, jak zmaksymalizować swoje zarobki.
+Czy jesteś zainteresowany zarabianiem pasywnego dochodu w zaciszu własnego domu? [PawnsApp](https://pawns.app/?r=2092882) oferuje ekscytującą możliwość zarabiania pieniędzy online poprzez udostępnianie połączenia internetowego i wypełnianie ankiet. Ten kompleksowy przewodnik przeprowadzi Cię przez proces instalacji i dostarczy cennych wskazówek, jak zmaksymalizować swoje zarobki.
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsApp jest podobny do innych platform, które płacą za udostępnianie poł�
 
 #### 1. Utwórz konto PawnsApp
 
-Utwórz konto PawnsApp, odwiedzając stronę [https://pawns.app](https://pawns.app/?r=sos) Zarejestruj się przy użyciu adresu e-mail, aby rozpocząć.
+Utwórz konto PawnsApp, odwiedzając stronę [https://pawns.app](https://pawns.app/?r=2092882) Zarejestruj się przy użyciu adresu e-mail, aby rozpocząć.
 
 #### 2. Zainstaluj Docker
 
@@ -58,4 +58,4 @@ Rozpocznij swoją przygodę z PawnsApp już dziś i uwolnij potencjał zarabiani
 Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### Referencje
-- [PawnsApp](https://pawns.app/?r=sos)
+- [PawnsApp](https://pawns.app/?r=2092882)

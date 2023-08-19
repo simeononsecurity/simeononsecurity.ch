@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Traff Monetizerのアカウントを作成する
-まずは、以下のサイトでアカウントを作成してください。 [traffmonetizer.com](https://traffmonetizer.com/?aff=242022)ダッシュボードにアクセスできたら、必ずアプリケーショントークンを控えておいてください。
+まずは、以下のサイトでアカウントを作成してください。 [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)ダッシュボードにアクセスできたら、必ずアプリケーショントークンを控えておいてください。
 
 ### Dockerコンテナのインストール
 以下の手順で、Traff Monetizer Dockerコンテナをインストールします：
@@ -29,7 +29,7 @@ coverCaption: ""
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-より詳細な操作方法については [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+より詳細な操作方法については [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## 結論
@@ -40,6 +40,6 @@ Traff Monetizerをインストールし、インターネットを共有する�
 
 ## リファレンス
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

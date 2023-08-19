@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### 安装 PawnsApp：
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns 应用程序，与此处列出的其他应用程序类似，提供向您支付共享互联网的费用。最低支出为 5 美元。每个节点每个 IP 的平均支出为每月 0.50 美元。
 
 #### 创建一个 PawnsApp 帐户：
-创建一个帐户 [https://pawns.app](https://pawns.app/?r=sos)
+创建一个帐户 [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### 安装 Docker 容器：
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### 安装 Repocket：
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 与此处的其他产品类似。最低 20 美元的支出。支出可能很复杂。自己研究看看是否要使用此服务。每个节点每个盒子每月的支出平均约为 1 美元。
 
 #### 创建一个 Repocket 帐户：
-创建一个帐户 [repocket.co](https://link.repocket.co/pyqL) 并从您的仪表板中获取您的 api 密钥。
+创建一个帐户 [repocket.co](https://link.repocket.co/raqc) 并从您的仪表板中获取您的 api 密钥。
 #### 安装 Docker 容器：
 在粘贴到您的终端之前，使用您的电子邮件和 api 密钥修改以下行。
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### 安装 Traff Monetizer：
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 与 EarnApp 和 HoneyGain 类似，TraffMonetizer 向您支付费用以共享您的互联网。每个节点每个 IP 平均每月约 2 美元。仅提供 BTC 支付。
 
 #### 创建您的 Traff Monetizer 帐户：
-创建您的帐户 [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+创建您的帐户 [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 进入仪表板后，请记下您的应用程序令牌。
 
 #### 安装 Docker 容器：

@@ -15,7 +15,7 @@ coverCaption: ""
 Siete alla ricerca di un modo per trasformare il vostro internet inutilizzato in una fonte di reddito redditizia? Repocket offre una fantastica opportunità per monetizzare la vostra connessione internet e guadagnare senza sforzo. Proprio come le altre piattaforme menzionate in questo articolo, Repocket vi permette di massimizzare il valore del vostro internet condividendolo con altri. Con una soglia minima di pagamento di 20 dollari e un potenziale di guadagno medio di circa 1 dollaro per nodo per casella al mese, Repocket rappresenta un flusso di reddito redditizio.
 
 ### Creare un account Repocket
-Per iniziare, create un account su [repocket.co](https://link.repocket.co/pyqL) e ottenere la chiave API dalla dashboard.
+Per iniziare, create un account su [repocket.co](https://link.repocket.co/raqc) e ottenere la chiave API dalla dashboard.
 
 ### Installare il contenitore Docker
 Seguite questi passaggi per installare il contenitore Docker di Repocket:
@@ -31,7 +31,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 
 {{< youtube id="171gWknfAbY" >}}
 
-Per istruzioni più dettagliate, consultare la sezione [Repocket documentation](https://link.repocket.co/pyqL)
+Per istruzioni più dettagliate, consultare la sezione [Repocket documentation](https://link.repocket.co/raqc)
 
 ## Conclusione
 Repocket offre l'opportunità di guadagnare condividendo la propria connessione internet inutilizzata. Con un pagamento minimo di 20 dollari e la possibilità di guadagnare circa 1 dollaro per nodo per casella al mese, Repocket può essere una preziosa fonte di reddito passivo. Tuttavia, è fondamentale comprendere a fondo il sistema di pagamento e condurre le proprie ricerche prima di decidere di utilizzare il servizio.
@@ -39,4 +39,4 @@ Repocket offre l'opportunità di guadagnare condividendo la propria connessione 
 Una volta fatto, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Riferimento
-- [Repocket](https://link.repocket.co/pyqL)
+- [Repocket](https://link.repocket.co/raqc)

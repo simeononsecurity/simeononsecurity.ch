@@ -19,7 +19,7 @@ Căutați modalități de a câștiga venituri pasive fără efort? Honey Gain v
 Pentru a începe să utilizați Honey Gain și să începeți să câștigați venituri pasive, urmați instrucțiunile de instalare și configurare furnizate mai jos.
 
 ### Creați un cont Honey Gain:
-Creați un cont la [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Creați un cont la [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Instalați Docker
 

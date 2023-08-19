@@ -17,7 +17,7 @@ Szukasz sposobu na zarabianie na swoim połączeniu internetowym? Nie szukaj dal
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Utwórz swoje konto Traff Monetizer
-Aby rozpocząć, utwórz konto na stronie [traffmonetizer.com](https://traffmonetizer.com/?aff=242022) Po uzyskaniu dostępu do pulpitu nawigacyjnego należy zanotować token aplikacji.
+Aby rozpocząć, utwórz konto na stronie [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide) Po uzyskaniu dostępu do pulpitu nawigacyjnego należy zanotować token aplikacji.
 
 ### Instalacja kontenera Docker
 Wykonaj poniższe kroki, aby zainstalować kontener Docker Traff Monetizer:
@@ -29,7 +29,7 @@ Wykonaj poniższe kroki, aby zainstalować kontener Docker Traff Monetizer:
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-Więcej szczegółowych instrukcji można znaleźć w sekcji [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+Więcej szczegółowych instrukcji można znaleźć w sekcji [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## Wnioski
@@ -40,6 +40,6 @@ Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](
 
 ## Referencje
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

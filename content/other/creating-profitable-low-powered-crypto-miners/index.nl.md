@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Installeer PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns app, opnieuw vergelijkbaar met de anderen hier vermeld, biedt u aan te betalen voor het delen van uw internet. Minimum uitbetaling is $5. Gemiddelde uitbetaling is $0.50 per maand per node per IP.
 
 #### Maak een PawnsApp account aan:
-Maak een account aan op[https://pawns.app](https://pawns.app/?r=sos)
+Maak een account aan op[https://pawns.app](https://pawns.app/?r=2092882)
 
 #### Installeer de Docker Container:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### Installeer Repocket:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 Vergelijkbaar met andere aanbiedingen hier. Minimum $20 uitbetaling. Uitbetalingen kunnen ingewikkeld zijn. Onderzoek zelf of je deze dienst wilt gebruiken. Uitbetalingen gemiddeld ongeveer $1 per node per doos per maand.
 
 #### Maak een Repocket Account aan:
-Maak een account aan bij[repocket.co](https://link.repocket.co/pyqL) en pak je api-sleutel van je dashboard.
+Maak een account aan bij[repocket.co](https://link.repocket.co/raqc) en pak je api-sleutel van je dashboard.
 #### Installeer de Docker Container:
 Wijzig de volgende regel met uw e-mail en api-sleutel voordat u deze in uw terminal plakt.
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### Installeer Traff Monetizer:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 Vergelijkbaar met EarnApp en HoneyGain, TraffMonetizer betaalt u om uw internet te delen. Gemiddeld ongeveer $2 per maand per node per IP. Biedt alleen uitbetalingen in BTC.
 
 #### Maak uw Traff Monetizer account aan:
-Maak uw account aan op[https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Maak uw account aan op[https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 Zodra u in het dashboard bent, noteert u uw aanvraag-token.
 
 #### Installeer de Docker Container:

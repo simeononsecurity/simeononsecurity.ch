@@ -15,7 +15,7 @@ coverCaption: ""
 Are you looking for a way to turn your unused internet into a lucrative income source? Repocket offers a fantastic opportunity to monetize your internet connection and earn money effortlessly. Just like other platforms mentioned in this article, Repocket allows you to maximize the value of your internet by sharing it with others. With a minimum payout threshold of $20 and an average earning potential of approximately $1 per node per box per month, Repocket presents a viable income stream. 
 
 ### Create a Repocket Account
-To get started, create an account at [repocket.co](https://link.repocket.co/pyqL) and obtain your API key from your dashboard.
+To get started, create an account at [repocket.co](https://link.repocket.co/raqc) and obtain your API key from your dashboard.
 
 ### Install the Docker Container
 Follow these steps to install the Repocket Docker container:
@@ -31,7 +31,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 
 {{< youtube id="171gWknfAbY" >}}
 
-For more detailed instructions, refer to the [Repocket documentation](https://link.repocket.co/pyqL).
+For more detailed instructions, refer to the [Repocket documentation](https://link.repocket.co/raqc).
 
 ## Conclusion
 Repocket offers an opportunity to earn money by sharing your unused internet connection. With a minimum payout of $20 and the potential to earn about $1 per node per box per month, Repocket can be a valuable source of passive income. However, it's crucial to thoroughly understand the payout system and conduct your own research before deciding to use the service.
@@ -39,4 +39,4 @@ Repocket offers an opportunity to earn money by sharing your unused internet con
 Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
-- [Repocket](https://link.repocket.co/pyqL)
+- [Repocket](https://link.repocket.co/raqc)

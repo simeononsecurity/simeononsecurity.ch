@@ -15,7 +15,7 @@ coverCaption: ""
 あなたは有利な収入源にあなたの未使用のインターネットを有効にする方法をお探しですか？Repocketは、あなたのインターネット接続を収益化し、楽々とお金を稼ぐための素晴らしい機会を提供しています。ちょうどこの記事で紹介した他のプラットフォームと同様に、Repocketはあなたが他の人とそれを共有することによって、あなたのインターネットの価値を最大化することができます。20ドルの最小ペイアウトしきい値と月あたりのボックスごとにノードあたり約1ドルの平均収益の可能性を持つ、Repocketは、実行可能な収入源を提示します。
 
 ### Repocketのアカウントを作成する
-開始するには、次のようにアカウントを作成します。 [repocket.co](https://link.repocket.co/pyqL)をクリックし、ダッシュボードからAPIキーを取得してください。
+開始するには、次のようにアカウントを作成します。 [repocket.co](https://link.repocket.co/raqc)をクリックし、ダッシュボードからAPIキーを取得してください。
 
 ### Dockerコンテナをインストールする
 以下の手順で、RepocketのDockerコンテナをインストールします：
@@ -31,7 +31,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 
 {{< youtube id="171gWknfAbY" >}}
 
-より詳細な操作方法については [Repocket documentation](https://link.repocket.co/pyqL)
+より詳細な操作方法については [Repocket documentation](https://link.repocket.co/raqc)
 
 ## 結論
 Repocketは、あなたの未使用のインターネット接続を共有することによってお金を稼ぐ機会を提供しています。最低支払額20ドル、1ノード1ボックスあたり月1ドル程度の収入を得る可能性があるため、Repocketは受動的収入の貴重なソースとなり得ます。しかし、サービスの利用を決定する前に、ペイアウトシステムを徹底的に理解し、独自の調査を行うことが極めて重要です。
@@ -39,4 +39,4 @@ Repocketは、あなたの未使用のインターネット接続を共有する
 一度、以下のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
-- [Repocket](https://link.repocket.co/pyqL)
+- [Repocket](https://link.repocket.co/raqc)

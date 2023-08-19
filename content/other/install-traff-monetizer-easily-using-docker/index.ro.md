@@ -17,7 +17,7 @@ Căutați o modalitate de a vă monetiza conexiunea la internet? Nu căutați ma
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Creați-vă contul Traff Monetizer
-Pentru a începe, creați-vă un cont la [traffmonetizer.com](https://traffmonetizer.com/?aff=242022) Odată ce aveți acces la tabloul de bord, asigurați-vă că ați luat notă de token-ul de aplicație.
+Pentru a începe, creați-vă un cont la [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide) Odată ce aveți acces la tabloul de bord, asigurați-vă că ați luat notă de token-ul de aplicație.
 
 ### Instalați containerul Docker
 Urmați acești pași pentru a instala containerul Docker Traff Monetizer:
@@ -29,7 +29,7 @@ Urmați acești pași pentru a instala containerul Docker Traff Monetizer:
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-Pentru instrucțiuni mai detaliate, consultați [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+Pentru instrucțiuni mai detaliate, consultați [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## Concluzie
@@ -40,6 +40,6 @@ Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing App
 
 ## Referință
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

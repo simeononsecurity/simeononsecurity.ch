@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Cree su cuenta Traff Monetizer
-Para empezar, cree una cuenta en [traffmonetizer.com](https://traffmonetizer.com/?aff=242022) Una vez que tengas acceso al panel de control, asegúrate de tomar nota de tu token de solicitud.
+Para empezar, cree una cuenta en [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide) Una vez que tengas acceso al panel de control, asegúrate de tomar nota de tu token de solicitud.
 
 ### Instalar el Contenedor Docker
 Siga estos pasos para instalar el contenedor Docker de Traff Monetizer:
@@ -29,7 +29,7 @@ Siga estos pasos para instalar el contenedor Docker de Traff Monetizer:
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-Para obtener instrucciones más detalladas, consulte el [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+Para obtener instrucciones más detalladas, consulte el [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## Conclusión
@@ -40,6 +40,6 @@ Una vez que hayas terminado, deberías [Learn How to Secure Internet Sharing App
 
 ## Referencia
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

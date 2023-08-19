@@ -19,7 +19,7 @@ Szukasz sposobu na zarabianie pasywnego dochodu bez wysiłku? Honey Gain zapewni
 Aby rozpocząć korzystanie z Honey Gain i zacząć zarabiać pasywnie, postępuj zgodnie z instrukcjami instalacji i konfiguracji podanymi poniżej.
 
 ### Utwórz konto Honey Gain:
-Utwórz konto pod adresem [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Utwórz konto pod adresem [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Zainstaluj Dockera
 

@@ -158,11 +158,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### [Install PawnsApp](https://simeononsecurity.ch/other/install-pawnsapp-easily-using-docker/):
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns app, again similar to the others listed here offer to pay you for sharing your internet. Minimum payout is $5. Average payout is $0.50 per month per node per IP.
 
 #### Create a PawnsApp Account:
-Create an account at [https://pawns.app](https://pawns.app/?r=sos)
+Create an account at [https://pawns.app](https://pawns.app/?r=2092882)
 
 {{< inarticle-dark >}}
 
@@ -196,12 +196,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### [Install Repocket](https://simeononsecurity.ch/other/install-repocket-easily-using-docker/):
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 Similar to other offerings here. Minimum $20 Payout. Payouts can be complicated. Research for yourself to see if you want to use this service. Payouts average about $1 per node per box a month.
 
 #### Create a Repocket Account:
-Create an account at [repocket.co](https://link.repocket.co/pyqL) and grab your api key from your dashboard.
+Create an account at [repocket.co](https://link.repocket.co/raqc) and grab your api key from your dashboard.
 #### Install the Docker Container:
 Modify the following line with your email and api key before pasting into your terminal.
 ```bash
@@ -211,12 +211,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### [Install Traff Monetizer](https://simeononsecurity.ch/other/install-traff-monetizer-easily-using-docker/):
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 Similar to EarnApp and HoneyGain, TraffMonetizer pays you to share your internet. Averages about $2 a month per node per IP. Only offers payouts in BTC.
 
 #### Create your Traff Monetizer Account:
-Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Create your account at [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 Once you get into the dashboard, make note of your application token.
 
 #### Install the Docker Container:

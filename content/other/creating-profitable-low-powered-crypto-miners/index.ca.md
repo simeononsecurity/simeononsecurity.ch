@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Instal·leu PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 L'aplicació Pawns, de nou similar a les altres que es mostren aquí, us ofereix pagar per compartir la vostra Internet. El pagament mínim és de 5 $. El pagament mitjà és de 0,50 dòlars al mes per node per IP.
 
 #### Creeu un compte de PawnsApp:
-Creeu un compte a [https://pawns.app](https://pawns.app/?r=sos)
+Creeu un compte a [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### Instal·leu el contenidor Docker:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### Instal·leu Repocket:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 Similar a altres ofertes aquí. Pagament mínim de 20 $. Els pagaments poden ser complicats. Investigueu vosaltres mateixos per veure si voleu utilitzar aquest servei. Els pagaments tenen una mitjana d'1 $ per node per caixa al mes.
 
 #### Crea un compte de reembossament:
-Creeu un compte a [repocket.co](https://link.repocket.co/pyqL) i agafeu la vostra clau API del vostre tauler.
+Creeu un compte a [repocket.co](https://link.repocket.co/raqc) i agafeu la vostra clau API del vostre tauler.
 #### Instal·leu el contenidor Docker:
 Modifiqueu la línia següent amb el vostre correu electrònic i la clau API abans d'enganxar-la al vostre terminal.
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### Instal·leu el monetitzador de trànsit:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 De manera similar a EarnApp i HoneyGain, TraffMoetizer et paga per compartir la teva Internet. Una mitjana d'uns 2 dòlars al mes per node per IP. Només ofereix pagaments en BTC.
 
 #### Creeu el vostre compte de monetitzador de trànsit:
-Creeu el vostre compte a [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Creeu el vostre compte a [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 Quan entreu al tauler, anoteu el vostre testimoni d'aplicació.
 
 #### Instal·leu el contenidor Docker:

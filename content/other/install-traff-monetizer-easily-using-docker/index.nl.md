@@ -17,7 +17,7 @@ Op zoek naar een manier om geld te verdienen met uw internetverbinding? Zoek nie
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Uw Traff Monetizer-account aanmaken
-Om te beginnen, maak een account aan bij [traffmonetizer.com](https://traffmonetizer.com/?aff=242022) Zodra u toegang hebt tot het dashboard, moet u uw toepassingstoken noteren.
+Om te beginnen, maak een account aan bij [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide) Zodra u toegang hebt tot het dashboard, moet u uw toepassingstoken noteren.
 
 ### Installeer de Docker Container
 Volg deze stappen om de Traff Monetizer Docker-container te installeren:
@@ -29,7 +29,7 @@ Volg deze stappen om de Traff Monetizer Docker-container te installeren:
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-Zie voor meer gedetailleerde instructies de [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+Zie voor meer gedetailleerde instructies de [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## Conclusie
@@ -40,6 +40,6 @@ Zodra je klaar bent, zou je [Learn How to Secure Internet Sharing Applications](
 
 ## Reference
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

@@ -15,7 +15,7 @@ coverCaption: ""
 Căutați o modalitate de a vă transforma internetul nefolosit într-o sursă de venit profitabilă? Repocket oferă o oportunitate fantastică de a vă monetiza conexiunea la internet și de a câștiga bani fără efort. La fel ca alte platforme menționate în acest articol, Repocket vă permite să maximizați valoarea internetului dvs. prin partajarea acestuia cu alții. Cu un prag minim de plată de 20 de dolari și un potențial de câștig mediu de aproximativ 1 dolar pe nod pe cutie pe lună, Repocket prezintă o sursă de venit viabilă.
 
 ### Creați un cont Repocket
-Pentru a începe, creați un cont la [repocket.co](https://link.repocket.co/pyqL) și obțineți cheia API din tabloul de bord.
+Pentru a începe, creați un cont la [repocket.co](https://link.repocket.co/raqc) și obțineți cheia API din tabloul de bord.
 
 ### Instalați containerul Docker
 Urmați acești pași pentru a instala containerul Docker Repocket:
@@ -31,7 +31,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 
 {{< youtube id="171gWknfAbY" >}}
 
-Pentru instrucțiuni mai detaliate, consultați [Repocket documentation](https://link.repocket.co/pyqL)
+Pentru instrucțiuni mai detaliate, consultați [Repocket documentation](https://link.repocket.co/raqc)
 
 ## Concluzie
 Repocket oferă o oportunitate de a câștiga bani prin partajarea conexiunii dvs. de internet neutilizate. Cu o plată minimă de 20 de dolari și potențialul de a câștiga aproximativ 1 dolar pe nod pe cutie pe lună, Repocket poate fi o sursă valoroasă de venit pasiv. Cu toate acestea, este esențial să înțelegeți bine sistemul de plată și să efectuați propriile cercetări înainte de a decide să utilizați serviciul.
@@ -39,4 +39,4 @@ Repocket oferă o oportunitate de a câștiga bani prin partajarea conexiunii dv
 Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referință
-- [Repocket](https://link.repocket.co/pyqL)
+- [Repocket](https://link.repocket.co/raqc)

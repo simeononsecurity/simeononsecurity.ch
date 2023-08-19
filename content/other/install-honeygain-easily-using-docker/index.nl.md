@@ -19,7 +19,7 @@ Bent u op zoek naar manieren om moeiteloos passief inkomen te verdienen? Honey G
 Om aan de slag te gaan met Honey Gain en te beginnen met het verdienen van passief inkomen, volgt u de onderstaande installatie- en instellingsinstructies.
 
 ### Maak een Honey Gain Account aan:
-Maak een account aan op [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Maak een account aan op [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Docker installeren
 

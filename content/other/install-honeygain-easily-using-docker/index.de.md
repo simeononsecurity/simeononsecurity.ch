@@ -19,7 +19,7 @@ Suchen Sie nach Möglichkeiten, mühelos passives Einkommen zu erzielen? Honey G
 Um mit Honey Gain anzufangen und ein passives Einkommen zu erzielen, folgen Sie bitte den unten stehenden Installations- und Einrichtungsanweisungen.
 
 ### Erstellen Sie ein Honey Gain-Konto:
-Erstellen Sie ein Konto unter [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Erstellen Sie ein Konto unter [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Docker installieren
 

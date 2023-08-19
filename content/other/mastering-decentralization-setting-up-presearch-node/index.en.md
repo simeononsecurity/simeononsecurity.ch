@@ -39,9 +39,9 @@ To begin, you'll need to install [Docker](https://docs.docker.com/engine/install
 
 ### 2. Register Your Node
 
-First, create your [Presearch Account](https://presearch.com/signup?rid=3518896), if you haven't already
+First, create your [Presearch Account](https://presearch.com/signup?rid=4754563), if you haven't already
 
-Visit the [Presearch Node Dashboard](https://nodes.presearch.com/dashboard?rid=3518896) to register your node. Upon registration, you'll receive a unique registration code that will be used in the setup process.
+Visit the [Presearch Node Dashboard](https://nodes.presearch.com/dashboard?rid=4754563) to register your node. Upon registration, you'll receive a unique registration code that will be used in the setup process.
 
 ### 3. Setting Up Your Node
 
@@ -64,7 +64,7 @@ Presearch Nodes do not require significant disk space, memory, or CPU power. Fas
 
 ## Node Operator Rewards
 
-Node operators who stake at least 4,000 PRE tokens to their node are eligible for rewards. Each staked node qualifies for the base reward, while staking more than **4,000 PRE tokens** opens the door to additional rewards. For detailed information on staking and rewards, visit the [Node Rewards](https://nodes.presearch.com/rewards?rid=3518896) page.
+Node operators who stake at least 4,000 PRE tokens to their node are eligible for rewards. Each staked node qualifies for the base reward, while staking more than **4,000 PRE tokens** opens the door to additional rewards. For detailed information on staking and rewards, visit the [Node Rewards](https://nodes.presearch.com/rewards?rid=4754563) page.
 
 ## Potential Risks and Cautions
 
@@ -90,15 +90,15 @@ ______
 
 Operating a Presearch Node is a step toward a more decentralized and open internet. By following the steps outlined in this guide, you can contribute to the Presearch network while potentially earning rewards. Keep in mind the risks and benefits, and make an informed decision based on your goals and circumstances.
 
-For more information and updates, visit the [Presearch Node Documentation](https://nodes.presearch.com/?rid=3518896) and join the Presearch community.
+For more information and updates, visit the [Presearch Node Documentation](https://nodes.presearch.com/?rid=4754563) and join the Presearch community.
 
 ______
 
 **References:**
 
-1. [Presearch Node Dashboard](https://nodes.presearch.com/dashboard?rid=3518896)
+1. [Presearch Node Dashboard](https://nodes.presearch.com/dashboard?rid=4754563)
 2. [ThreeFold.io](https://threefold.io/)
-3. [Node Rewards](https://nodes.presearch.com/rewards?rid=3518896)
-4. [Presearch Node Documentation](https://nodes.presearch.com/?rid=3518896)
+3. [Node Rewards](https://nodes.presearch.com/rewards?rid=4754563)
+4. [Presearch Node Documentation](https://nodes.presearch.com/?rid=4754563)
 
 *Disclaimer: This article provides information and guidance related to Presearch Nodes. Readers are advised to conduct further research and consider their own circumstances before proceeding.*

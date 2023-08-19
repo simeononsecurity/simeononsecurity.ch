@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### تثبيت PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 يقدم تطبيق Pawns ، الذي يشبه التطبيقات الأخرى المدرجة هنا ، الدفع لك مقابل مشاركة الإنترنت الخاص بك. الحد الأدنى للدفع هو 5 دولارات. متوسط الدفع هو 0.50 دولار شهريًا لكل عقدة لكل IP.
 
 #### إنشاء حساب PawnsApp:
-قم بإنشاء حساب على [https://pawns.app](https://pawns.app/?r=sos)
+قم بإنشاء حساب على [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### تثبيت Docker Container:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### تثبيت Repocket:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 على غرار العروض الأخرى هنا. حد أدنى 20 دولارًا للدفع. يمكن أن تكون المدفوعات معقدة. ابحث بنفسك لمعرفة ما إذا كنت تريد استخدام هذه الخدمة. متوسط المدفوعات حوالي 1 دولار لكل عقدة لكل صندوق في الشهر.
 
 #### إنشاء حساب Repocket:
-قم بإنشاء حساب على [repocket.co](https://link.repocket.co/pyqL) واحصل على مفتاح API الخاص بك من لوحة القيادة.
+قم بإنشاء حساب على [repocket.co](https://link.repocket.co/raqc) واحصل على مفتاح API الخاص بك من لوحة القيادة.
 #### تثبيت Docker Container:
 قم بتعديل السطر التالي بالبريد الإلكتروني ومفتاح api قبل اللصق في الجهاز الطرفي.
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### تثبيت Traff Monetizer:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 على غرار EarnApp و HoneyGain ، يدفع لك TraffMonetizer مقابل مشاركة الإنترنت الخاص بك. متوسطات حوالي 2 دولار شهريًا لكل عقدة لكل IP. تقدم فقط المدفوعات في BTC.
 
 #### إنشاء حساب Traff Monetizer الخاص بك:
-أنشئ حسابك على [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+أنشئ حسابك على [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 بمجرد دخولك إلى لوحة القيادة ، قم بتدوين رمز التطبيق الخاص بك.
 
 #### تثبيت Docker Container:

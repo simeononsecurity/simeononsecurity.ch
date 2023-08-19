@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Установите PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Приложение Pawns, опять же похожее на другие, перечисленные здесь, предлагает платить вам за то, что вы делитесь своим интернетом. Минимальная выплата составляет 5 долларов. Средняя выплата составляет 0,50 доллара США в месяц за узел на IP.
 
 #### Создайте учетную запись PawnsApp:
-Создайте учетную запись на [https://pawns.app](https://pawns.app/?r=sos)
+Создайте учетную запись на [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### Установите контейнер Docker:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### Установите Repocket:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 Аналогично другим предложениям здесь. Минимальная выплата 20 долларов. Выплаты могут быть сложными. Узнайте сами, хотите ли вы воспользоваться этой услугой. Выплаты в среднем составляют около 1 доллара за узел на коробку в месяц.
 
 #### Создайте учетную запись Repocket:
-Создайте учетную запись на [repocket.co](https://link.repocket.co/pyqL) и возьмите свой ключ API с панели управления.
+Создайте учетную запись на [repocket.co](https://link.repocket.co/raqc) и возьмите свой ключ API с панели управления.
 #### Установите контейнер Docker:
 Измените следующую строку, указав свой адрес электронной почты и ключ API, прежде чем вставлять в терминал.
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### Установите монетизатор трафика:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 Подобно EarnApp и HoneyGain, TraffMonetizer платит вам за то, что вы делитесь своим интернетом. В среднем около 2 долларов в месяц за узел на IP. Предлагает выплаты только в BTC.
 
 #### Создайте учетную запись для монетизации трафика:
-Создайте свою учетную запись на [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Создайте свою учетную запись на [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 Как только вы попадете на панель инструментов, запишите свой токен приложения.
 
 #### Установите контейнер Docker:

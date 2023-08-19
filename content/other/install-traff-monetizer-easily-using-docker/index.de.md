@@ -17,7 +17,7 @@ Sie suchen nach einer Möglichkeit, Ihre Internetverbindung zu monetarisieren? S
 {{< youtube id="8hJgITEz3bA" >}}
 
 ### Erstellen Sie Ihr Traff Monetizer-Konto
-Um loszulegen, erstellen Sie ein Konto bei [traffmonetizer.com](https://traffmonetizer.com/?aff=242022) Sobald Sie Zugriff auf das Dashboard haben, notieren Sie sich bitte Ihr Anwendungs-Token.
+Um loszulegen, erstellen Sie ein Konto bei [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide) Sobald Sie Zugriff auf das Dashboard haben, notieren Sie sich bitte Ihr Anwendungs-Token.
 
 ### Installieren Sie den Docker-Container
 Folgen Sie diesen Schritten, um den Traff Monetizer Docker-Container zu installieren:
@@ -29,7 +29,7 @@ Folgen Sie diesen Schritten, um den Traff Monetizer Docker-Container zu installi
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-Ausführlichere Anweisungen finden Sie in der [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+Ausführlichere Anweisungen finden Sie in der [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## Schlussfolgerung
@@ -40,6 +40,6 @@ Sobald Sie fertig sind, sollten Sie [Learn How to Secure Internet Sharing Applic
 
 ## Referenz
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

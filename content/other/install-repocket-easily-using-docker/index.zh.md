@@ -15,7 +15,7 @@ coverCaption: ""
 您是否正在寻找一种方法，将您闲置的互联网变成有利可图的收入来源？Repocket 为您提供了一个绝佳的机会，让您可以毫不费力地通过互联网连接赚钱。就像本文提到的其他平台一样，Repocket 允许您通过与他人分享来最大化您的网络价值。Repocket 的最低支付门槛为 20 美元，平均每个节点每月每盒可赚取约 1 美元，是一个可行的收入来源。
 
 ### 创建 Repocket 账户
-要开始使用，请在以下网址创建账户 [repocket.co](https://link.repocket.co/pyqL)并从仪表板获取 API 密钥。
+要开始使用，请在以下网址创建账户 [repocket.co](https://link.repocket.co/raqc)并从仪表板获取 API 密钥。
 
 ### 安装 Docker 容器
 按照以下步骤安装 Repocket Docker 容器：
@@ -31,7 +31,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 
 {{< youtube id="171gWknfAbY" >}}
 
-有关更详细的说明，请参阅 [Repocket documentation](https://link.repocket.co/pyqL)
+有关更详细的说明，请参阅 [Repocket documentation](https://link.repocket.co/raqc)
 
 ## 结论
 Repocket 提供了一个通过共享闲置互联网连接赚钱的机会。Repocket 的最低付费额为 20 美元，每个节点每个月可获得约 1 美元的收入，是一种宝贵的被动收入来源。不过，在决定使用该服务之前，务必要彻底了解支付系统并进行自己的研究。
@@ -39,4 +39,4 @@ Repocket 提供了一个通过共享闲置互联网连接赚钱的机会。Repoc
 完成研究后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考资料
-- [Repocket](https://link.repocket.co/pyqL)
+- [Repocket](https://link.repocket.co/raqc)

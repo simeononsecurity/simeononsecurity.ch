@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Instalați PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Aplicația Pawns, din nou similară cu celelalte enumerate aici, vă oferă să vă plătească pentru partajarea internetului. Plata minimă este de 5 USD. Plata medie este de 0,50 USD pe lună per nod per IP.
 
 #### Creați un cont PawnsApp:
-Creează un cont la [https://pawns.app](https://pawns.app/?r=sos)
+Creează un cont la [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### Instalați containerul Docker:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### Instalați Repocket:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 Similar cu alte oferte de aici. Plată minimă de 20 USD. Plățile pot fi complicate. Cercetați singuri pentru a vedea dacă doriți să utilizați acest serviciu. Plățile sunt în medie de aproximativ 1 USD pe nod pe cutie pe lună.
 
 #### Creați un cont de rebuzunare:
-Creează un cont la [repocket.co](https://link.repocket.co/pyqL) și luați-vă cheia API din tabloul de bord.
+Creează un cont la [repocket.co](https://link.repocket.co/raqc) și luați-vă cheia API din tabloul de bord.
 #### Instalați containerul Docker:
 Modificați următoarea linie cu e-mailul și cheia API înainte de a lipi în terminal.
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### Instalați generatorul de bani pentru trafic:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 Similar cu EarnApp și HoneyGain, TraffMoetizer vă plătește pentru a vă partaja internetul. În medie, aproximativ 2 USD pe lună per nod per IP. Oferă doar plăți în BTC.
 
 #### Creați contul dvs. de generare de bani pentru trafic:
-Creează-ți contul la [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Creează-ți contul la [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 Odată ce intri în tabloul de bord, notează indicativul aplicației.
 
 #### Instalați containerul Docker:

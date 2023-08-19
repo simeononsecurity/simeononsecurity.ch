@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Zainstaluj PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns app, ponownie podobne do innych wymienionych tutaj oferują zapłacić za dzielenie się swoim internecie. Minimalna wypłata to 5$, średnia wypłata to 0,50$ miesięcznie za węzeł na IP.
 
 #### Create a PawnsApp Account:
-Utwórz konto na.[https://pawns.app](https://pawns.app/?r=sos)
+Utwórz konto na.[https://pawns.app](https://pawns.app/?r=2092882)
 
 #### Zainstaluj Docker Container:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### Install Repocket:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 Podobne do innych ofert tutaj. Minimalna wypłata 20$. Wypłaty mogą być skomplikowane. Zbadaj sam, aby zobaczyć, czy chcesz korzystać z tej usługi. Wypłaty średnio około $1 na węzeł na pudełko miesięcznie.
 
 #### Utwórz konto Repocket:
-Załóż konto na.[repocket.co](https://link.repocket.co/pyqL) i złapać swój klucz api z pulpitu nawigacyjnego.
+Załóż konto na.[repocket.co](https://link.repocket.co/raqc) i złapać swój klucz api z pulpitu nawigacyjnego.
 #### Zainstaluj kontener Docker:
 Zmodyfikuj następującą linię z twoim e-mailem i kluczem api przed wklejeniem do terminala.
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### Zainstaluj Traff Monetizer:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 Podobnie jak EarnApp i HoneyGain, TraffMonetizer płaci ci za udostępnianie internetu. Średnio około 2$ miesięcznie za węzeł na IP. Oferuje tylko wypłaty w BTC.
 
 #### Utwórz swoje konto Traff Monetizer:
-Utwórz swoje konto na.[https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+Utwórz swoje konto na.[https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 Po wejściu do dashboardu zanotuj swój token aplikacji.
 
 #### Zainstaluj kontener Docker:

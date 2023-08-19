@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="8hJgITEz3bA" >}}
 
 ###创建您的Traffic Monetizer账户
-要开始使用，请在以下网址创建账户 [traffmonetizer.com](https://traffmonetizer.com/?aff=242022)访问仪表板后，请务必记下您的应用程序令牌。
+要开始使用，请在以下网址创建账户 [traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)访问仪表板后，请务必记下您的应用程序令牌。
 
 ### 安装 Docker 容器
 按照以下步骤安装 Traff Monetizer Docker 容器：
@@ -29,7 +29,7 @@ coverCaption: ""
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
 ```
 
-有关更详细的说明，请参阅 [Traff Monetizer documentation](https://traffmonetizer.com/?aff=242022)
+有关更详细的说明，请参阅 [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 
 ## 结论
@@ -40,6 +40,6 @@ docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOU
 
 ## 参考资料
 
-- [Traff Monetizer](https://traffmonetizer.com/?aff=242022)
+- [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 

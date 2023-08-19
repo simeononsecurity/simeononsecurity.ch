@@ -11,7 +11,7 @@ coverCaption: ""
 ---
  Maximisez vos gains avec PawnsApp
 
-Êtes-vous intéressé à gagner un revenu passif depuis le confort de votre propre maison ? [PawnsApp](https://pawns.app/?r=sos) offre une opportunité passionnante de gagner de l'argent en ligne en partageant votre connexion Internet et en répondant à des enquêtes. Ce guide complet vous accompagnera tout au long du processus d'installation et vous fournira de précieux conseils pour maximiser vos gains.
+Êtes-vous intéressé à gagner un revenu passif depuis le confort de votre propre maison ? [PawnsApp](https://pawns.app/?r=2092882) offre une opportunité passionnante de gagner de l'argent en ligne en partageant votre connexion Internet et en répondant à des enquêtes. Ce guide complet vous accompagnera tout au long du processus d'installation et vous fournira de précieux conseils pour maximiser vos gains.
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsApp est similaire à d'autres plateformes qui vous paient pour partager vot
 
 #### 1. Créer un compte PawnsApp
 
-Créez un compte PawnsApp en visitant [https://pawns.app](https://pawns.app/?r=sos) Inscrivez-vous en utilisant votre adresse e-mail pour commencer.
+Créez un compte PawnsApp en visitant [https://pawns.app](https://pawns.app/?r=2092882) Inscrivez-vous en utilisant votre adresse e-mail pour commencer.
 
 #### 2. Installer Docker
 
@@ -58,4 +58,4 @@ Commencez votre voyage avec PawnsApp aujourd'hui et libérez le potentiel de gag
 Une fois que vous avez terminé, vous devriez [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### Référence
-- [PawnsApp](https://pawns.app/?r=sos)
+- [PawnsApp](https://pawns.app/?r=2092882)

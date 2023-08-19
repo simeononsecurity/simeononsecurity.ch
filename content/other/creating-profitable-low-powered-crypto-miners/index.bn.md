@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### PawnsApp ইনস্টল করুন:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns অ্যাপ, আবার এখানে তালিকাভুক্ত অন্যদের মতোই আপনার ইন্টারনেট শেয়ার করার জন্য আপনাকে অর্থ প্রদানের প্রস্তাব দেয়। সর্বনিম্ন পেআউট হল $5। আইপি প্রতি নোড প্রতি মাসে গড় পেআউট হল $0.50।
 
 #### একটি PawnsApp অ্যাকাউন্ট তৈরি করুন:
-এ একটি অ্যাকাউন্ট তৈরি করুন [https://pawns.app](https://pawns.app/?r=sos)
+এ একটি অ্যাকাউন্ট তৈরি করুন [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### ডকার কন্টেইনার ইনস্টল করুন:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### রিপকেট ইনস্টল করুন:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 এখানে অন্যান্য অফার অনুরূপ. সর্বনিম্ন $20 পেআউট। পেআউট জটিল হতে পারে. আপনি এই পরিষেবাটি ব্যবহার করতে চান কিনা তা দেখতে নিজের জন্য গবেষণা করুন। প্রতি মাসে প্রতি বক্স প্রতি নোডের গড় প্রায় $1 পেআউট।
 
 #### একটি রিপকেট অ্যাকাউন্ট তৈরি করুন:
-এ একটি অ্যাকাউন্ট তৈরি করুন [repocket.co](https://link.repocket.co/pyqL) এবং আপনার ড্যাশবোর্ড থেকে আপনার api কী ধরুন।
+এ একটি অ্যাকাউন্ট তৈরি করুন [repocket.co](https://link.repocket.co/raqc) এবং আপনার ড্যাশবোর্ড থেকে আপনার api কী ধরুন।
 #### ডকার কন্টেইনার ইনস্টল করুন:
 আপনার টার্মিনালে পেস্ট করার আগে আপনার ইমেল এবং api কী দিয়ে নিম্নলিখিত লাইনটি পরিবর্তন করুন।
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### ট্র্যাফ মনিটাইজার ইনস্টল করুন:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 EarnApp এবং HoneyGain এর মতো, TraffMonetizer আপনাকে আপনার ইন্টারনেট শেয়ার করার জন্য অর্থ প্রদান করে। প্রতি আইপি প্রতি নোড প্রতি মাসে গড়ে প্রায় $2। শুধুমাত্র BTC-তে পেআউট অফার করে।
 
 #### আপনার ট্র্যাফ মনিটাইজার অ্যাকাউন্ট তৈরি করুন:
-এ আপনার অ্যাকাউন্ট তৈরি করুন [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+এ আপনার অ্যাকাউন্ট তৈরি করুন [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 একবার আপনি ড্যাশবোর্ডে প্রবেশ করলে, আপনার অ্যাপ্লিকেশন টোকেনটি নোট করুন।
 
 #### ডকার কন্টেইনার ইনস্টল করুন:

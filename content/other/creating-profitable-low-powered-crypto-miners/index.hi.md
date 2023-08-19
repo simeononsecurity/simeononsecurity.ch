@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### PawnsApp इंस्टॉल करें:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
 Pawns ऐप, यहां सूचीबद्ध अन्य लोगों के समान ही आपको अपना इंटरनेट साझा करने के लिए भुगतान करने की पेशकश करता है। न्यूनतम भुगतान $5 है। औसत भुगतान $0.50 प्रति माह प्रति नोड प्रति IP है।
 
 #### एक PawnsApp अकाउंट बनाएं:
-पर अकाउंट बनाएं [https://pawns.app](https://pawns.app/?r=sos)
+पर अकाउंट बनाएं [https://pawns.app](https://pawns.app/?r=2092882)
 
 #### डॉकटर कंटेनर स्थापित करें:
 
@@ -192,12 +192,12 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 
 
 ### रिपॉकेट स्थापित करें:
-[*Get Paid For Your Unused Internet*](https://link.repocket.co/pyqL)
+[*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
 यहाँ अन्य प्रसाद के समान। न्यूनतम $20 भुगतान। भुगतान जटिल हो सकता है। यह देखने के लिए स्वयं शोध करें कि क्या आप इस सेवा का उपयोग करना चाहते हैं। भुगतान औसतन लगभग $1 प्रति नोड प्रति बॉक्स प्रति माह।
 
 #### एक रिपॉकेट अकाउंट बनाएं:
-पर अकाउंट बनाएं [repocket.co](https://link.repocket.co/pyqL) और अपने डैशबोर्ड से अपनी एपीआई कुंजी लें।
+पर अकाउंट बनाएं [repocket.co](https://link.repocket.co/raqc) और अपने डैशबोर्ड से अपनी एपीआई कुंजी लें।
 #### डॉकटर कंटेनर स्थापित करें:
 अपने टर्मिनल में चिपकाने से पहले अपने ईमेल और एपीआई कुंजी के साथ निम्न पंक्ति को संशोधित करें।
 ```bash
@@ -207,12 +207,12 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 {{< youtube id="171gWknfAbY" >}}
 
 ### ट्रैफ़ मोनेटाइज़र इंस्टॉल करें:
-[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=242022)
+[*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 
 EarnApp और HoneyGain के समान, TraffMonetizer आपको अपना इंटरनेट साझा करने के लिए भुगतान करता है। औसतन लगभग $2 प्रति माह प्रति नोड प्रति IP। केवल बीटीसी में भुगतान प्रदान करता है।
 
 #### अपना ट्रैफ मुद्रीकरण खाता बनाएं:
-पर अपना एकाउंट बनाएं [https://traffmonetizer.com](https://traffmonetizer.com/?aff=242022)
+पर अपना एकाउंट बनाएं [https://traffmonetizer.com](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
 एक बार जब आप डैशबोर्ड में पहुंच जाते हैं, तो अपने एप्लिकेशन टोकन को नोट कर लें।
 
 #### डॉकटर कंटेनर स्थापित करें:
