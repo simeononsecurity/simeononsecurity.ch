@@ -51,15 +51,20 @@ ______
 
 When pursuing certifications, it is important to consider your career goals, interests, and the specific requirements of your desired job roles. Here are some popular certifications in the cybersecurity field:
 
-1. **CompTIA Security+**: A foundational certification covering essential security concepts and best practices.
-2. **Certified Information Systems Security Professional (CISSP)**: A globally recognized certification for experienced cybersecurity professionals.
-3. **Certified Ethical Hacker (CEH)**: Focuses on ethical hacking techniques to identify and address vulnerabilities.
+1. [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/): A foundational certification covering essential security concepts and best practices.
+2. [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/): A globally recognized certification for experienced cybersecurity professionals.
+3. [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/): Focuses on ethical hacking techniques to identify and address vulnerabilities.
 4. **Certified Information Security Manager (CISM)**: Designed for individuals managing, designing, and overseeing an enterprise's information security program.
 5. **Certified Information Systems Auditor (CISA)**: Focuses on auditing, control, and security of information systems.
 
+### Certification Roadmap Chart
+
+This graph, made by [Paul Jerimy](https://pauljerimy.com/), outlines Cyber Security and IT Career certifications based on their covered Domains of Knowledge.
+{{< figure src="cybersecuritycertificationroadmap.webp" alt="Cyber Security Certification Roadmap" link="https://pauljerimy.com/security-certification-roadmap/" >}}
 ______
 
 {{< inarticle-dark >}}
+______
 ## Conclusion
 
 While certifications are not the sole determining factor for a successful cybersecurity career, they play a vital role in skill validation, job opportunities, career advancement, and industry recognition, particularly in positions regulated by the DoD as mandated by **DoD Directive 8570.1**. **Earning certifications** demonstrates your commitment to the profession and provides a competitive edge in the job market. As the cybersecurity field continues to evolve, staying current with certifications is essential for professional growth and maintaining relevance in this dynamic industry.
