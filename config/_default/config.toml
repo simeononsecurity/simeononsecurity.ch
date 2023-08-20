@@ -25,7 +25,7 @@ name = "SimeonOnSecurity"
 enableMissingTranslationPlaceholders = true
 
 #Google Analytics Tag
-googleAnalytics = "G-W3SL745QY6"
+googleAnalytics = "G-PXP72XKLLL"
 
 #Site Post Cover
 images = ["/img/banner.png"]
