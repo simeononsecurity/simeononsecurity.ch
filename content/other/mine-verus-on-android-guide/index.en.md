@@ -102,25 +102,27 @@ ______
 
 Mining VerusCoin on your Android device is an achievable task by following these general steps:
 
-**Basic Installation:**
+### **Basic Installation:**
 
 1. **Download Verus Miner**: Begin by acquiring the Verus Miner application from the provided link.
 2. **Configure Mining Profile**: Inside the app, set up your mining profile by entering your VerusCoin Wallet address and making necessary adjustments such as selecting the number of cores and pool preferences.
 3. **Initiate Mining**: Once your settings are in place, start the mining process within the app.
 
-**Advanced Installation (For Experienced Users):**
+### **Advanced Installation (For Experienced Users):**
 
 1. **Set Up Linux Environment**: Utilize the userland application to establish a Linux environment for mining.
 2. **Update Packages**: Update system packages in the Linux environment to ensure compatibility.
 3. **Choose Mining Method**:
-   - Option 1: Install and configure the ccminer software manually for mining.
-   - Option 2 (Preferred): Employ an optimized ARM CCMiner using a provided script.
+   - **Option 1**: Install and configure the ccminer software manually for mining.
+   - **Option 2 (Preferred)**: Employ an optimized ARM CCMiner using the provided script below.
 4. **Edit Configuration**: Adjust your mining configuration, including pool, wallet address, worker name, and core count.
 5. **Commence Mining**: Launch the mining process using the chosen method and configuration.
 
 These steps guide you through the process of mining VerusCoin on your Android device. Depending on your familiarity with mining and technical skills, you can opt for the basic or advanced installation approach.
 
 ## Basic Install for Verus Mining on Android
+
+{{< youtube id="zBbtdeKZl8w" >}}
 
 1. Open the [Verus Miner application](https://pangz-lab.github.io/verusminer/#downloads)
    {{< figure src="verusminer.webp" alt="A screenshot of the verus miner application home menu." >}}
