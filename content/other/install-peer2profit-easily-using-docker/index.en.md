@@ -17,7 +17,7 @@ Are you searching for a reliable way to generate passive income from your intern
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Create a Peer 2 Profit Account:
-To get started, create an account at [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en).
+To get started, create an account at [peer2profit.com](https://peer2profit.com/).
 
 ### Install the Docker Container:
 Follow these steps to install the Peer 2 Profit Docker container:
@@ -44,4 +44,4 @@ By installing Peer 2 Profit and sharing your internet, you have the opportunity 
 Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
-- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
+- [Peer 2 Profit](https://peer2profit.com/)

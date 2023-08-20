@@ -170,27 +170,6 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### ਪੀਅਰ 2 ਲਾਭ ਸਥਾਪਿਤ ਕਰੋ:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-EarnApp ਅਤੇ HoneyGain ਦੇ ਸਮਾਨ, Peer2Profit VPN ਅਤੇ ਸਕ੍ਰੈਪਿੰਗ ਉਦੇਸ਼ਾਂ ਲਈ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਦਾ ਹੈ। ਪ੍ਰਤੀ IP ਪ੍ਰਤੀ ਨੋਡ ਪ੍ਰਤੀ ਮਹੀਨਾ $1 ਕਮਾਉਂਦਾ ਹੈ।
-ਮਨੀ ਆਰਡਰ, BTC, LTC, LTC, MATIC, ਆਦਿ ਸਮੇਤ ਕਈ ਤਰ੍ਹਾਂ ਦੇ ਭੁਗਤਾਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
-
-#### ਇੱਕ ਪੀਅਰ 2 ਲਾਭ ਖਾਤਾ ਬਣਾਓ:
-'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-#### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
-```bash
-export P2P_EMAIL="your_email_without_quotes"; 
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest 
-```
-#### ਵੀਡੀਓ ਟਿਊਟੋਰਿਅਲ:
-{{< youtube id="J_rSV5N8aQk" >}}
-
-
 ### ਰੀਪੋਕੇਟ ਸਥਾਪਿਤ ਕਰੋ:
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 

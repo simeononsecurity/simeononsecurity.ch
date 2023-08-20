@@ -170,27 +170,6 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### 安装 Peer 2 利润：
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-与 EarnApp 和 HoneyGain 类似，Peer2Profit 共享您的互联网用于 VPN 和抓取目的。每个 IP 每个节点每个月赚取大约 1 美元。
-提供多种支付方式，包括汇票、BTC、LTC、LTC、MATIC 等。
-
-#### 创建 Peer 2 利润账户：
-创建一个帐户 [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-#### 安装 Docker 容器：
-```bash
-export P2P_EMAIL="your_email_without_quotes"; 
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest 
-```
-#### 视频教程：
-{{< youtube id="J_rSV5N8aQk" >}}
-
-
 ### 安装 Repocket：
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 

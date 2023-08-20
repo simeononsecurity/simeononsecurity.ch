@@ -170,27 +170,6 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### ピア 2 のインストールによる利益:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-EarnApp や HoneyGain と同様に、Peer2Profit は VPN とスクレイピングの目的でインターネットを共有します。 IP ごとにノードごとに月に約 1 ドルの収益が得られます。
-郵便為替、BTC、LTC、LTC、MATICなどを含むさまざまな支払いを提供します。
-
-#### ピア 2 利益アカウントを作成します。
-でアカウントを作成してください [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-#### Docker コンテナをインストールします。
-```bash
-export P2P_EMAIL="your_email_without_quotes"; 
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest 
-```
-#### ビデオチュートリアル:
-{{< youtube id="J_rSV5N8aQk" >}}
-
-
 ### リポケットをインストールします。
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 

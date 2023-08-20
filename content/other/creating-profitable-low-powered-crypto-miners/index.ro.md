@@ -170,27 +170,6 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Instalați Peer 2 Profit:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-Similar cu EarnApp și HoneyGain, Peer2Profit vă partajează internetul în scopuri VPN și Scraping. Câștigă aproximativ 1 USD pe lună per nod per IP.
-Oferă o varietate de plăți, inclusiv ordine de plată, BTC, LTC, LTC, MATIC etc.
-
-#### Creați un cont de profit Peer 2:
-Creează un cont la [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-#### Instalați containerul Docker:
-```bash
-export P2P_EMAIL="your_email_without_quotes"; 
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest 
-```
-#### Tutorial video:
-{{< youtube id="J_rSV5N8aQk" >}}
-
-
 ### Instalați Repocket:
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 

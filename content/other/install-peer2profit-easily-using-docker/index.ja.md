@@ -17,7 +17,7 @@ coverCaption: ""
 {{< youtube id="Ir6Etplqj3c" >}}
 
 ### Peer 2 Profitのアカウントを作成します：
-開始するには、次のサイトでアカウントを作成してください。 [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
+開始するには、次のサイトでアカウントを作成してください。 [peer2profit.com](https://peer2profit.com/)
 
 ### Dockerコンテナをインストールする：
 以下の手順で、Peer 2 Profit Docker コンテナをインストールします：
@@ -44,4 +44,4 @@ Peer 2 Profitをインストールし、インターネットを共有するこ�
 完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
-- [Peer 2 Profit](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
+- [Peer 2 Profit](https://peer2profit.com/)

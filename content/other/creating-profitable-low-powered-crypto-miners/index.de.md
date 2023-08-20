@@ -170,26 +170,6 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-### Installieren Sie Peer 2 Profit:
-[*SHARE YOUR TRAFFIC AND PROFIT ON IT!*](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-Ähnlich wie EarnApp und HoneyGain teilt Peer2Profit Ihr Internet für VPN- und Scraping-Zwecke. Verdient etwa 1 US-Dollar pro Monat pro Knoten und IP.
-Bietet eine Vielzahl von Auszahlungen, einschließlich Zahlungsanweisungen, BTC, LTC, LTC, MATIC usw.
-
-#### Erstellen Sie ein Peer-2-Gewinnkonto:
-Erstellen Sie ein Konto unter [peer2profit.com](https://dashboard.peer2profit.app/register-with-referral/16538445386293aa3aaec4e?lang=en)
-
-#### Installieren Sie den Docker-Container:
-```bash
-export P2P_EMAIL="your_email_without_quotes"; 
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest 
-```
-#### Videoanleitung:
-{{< youtube id="J_rSV5N8aQk" >}}
-
 
 ### RePocket installieren:
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
