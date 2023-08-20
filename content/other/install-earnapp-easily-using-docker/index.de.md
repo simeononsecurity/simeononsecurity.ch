@@ -14,12 +14,12 @@ coverCaption: "Monetarisieren Sie Ihre ungenutzten Geräte mit Earn App"
 
 Suchen Sie nach einer Möglichkeit, mit Ihren ungenutzten Geräten Geld zu verdienen? Mit Earn App können Sie jetzt die ungenutzten Ressourcen Ihres Geräts zu Geld machen und Belohnungen verdienen. Indem Sie Ihr Internet als VPN-Dienst teilen, bietet Earn App Ihnen die Möglichkeit, durchschnittlich 5 Dollar pro Monat und Knotenpunkt mit einer privaten IP zu verdienen. Es ist eine einfache und effiziente Möglichkeit, Ihre ungenutzten Geräte in eine passive Einkommensquelle zu verwandeln.
 
-[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/c1dllee)
+[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/GCL9QzB5)
 
 Lesen Sie weiter, um zu erfahren, wie Earn App funktioniert und wie Sie noch heute mit dem Sammeln von Prämien beginnen können.
 
 ### Erstellen Sie ein Earn App-Konto
-Um loszulegen, erstellen Sie ein Konto bei [earnapp.com](https://earnapp.com/i/c1dllee) Bitte beachten Sie, dass für die Registrierung ein Google-Konto erforderlich ist.
+Um loszulegen, erstellen Sie ein Konto bei [earnapp.com](https://earnapp.com/i/GCL9QzB5) Bitte beachten Sie, dass für die Registrierung ein Google-Konto erforderlich ist.
 
 ### Installieren Sie die Nicht-Docker-Version der App, um Ihre UUID zu erhalten
 Folgen Sie der [installation instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions) um die Nicht-Docker-Version der Anwendung zu installieren. Stellen Sie sicher, dass Sie die App deinstallieren, nachdem Sie Ihre UUID erhalten haben, damit sie nicht zweimal auf demselben Host ausgeführt wird.

@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### Instal·la l'aplicació Earn:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 L'aplicació Earn us permet compartir la vostra Internet com a servei VPN per obtenir una sorprenent quantitat de recompenses. Una mitjana d'uns 5 dòlars al mes per node per IP residencial. Ofereix pagaments mitjançant PayPal i targetes de regal d'Amazon.
 
 #### Creeu un compte d'aplicació Earn:
-Creeu un compte a [earnapp.com](https://earnapp.com/i/c1dllee)
+Creeu un compte a [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *Avís, requereix un compte de Google*
 
 #### Instal·leu la versió no acobladora de l'aplicació per obtenir el vostre UUID:

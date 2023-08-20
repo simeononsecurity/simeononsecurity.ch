@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### ਅਰਨ ਐਪ ਇੰਸਟਾਲ ਕਰੋ:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 ਕਮਾਓ ਐਪ ਤੁਹਾਨੂੰ ਇਨਾਮਾਂ ਦੀ ਹੈਰਾਨੀਜਨਕ ਰਕਮ ਲਈ ਇੱਕ VPN ਸੇਵਾ ਦੇ ਤੌਰ 'ਤੇ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਦਿੰਦਾ ਹੈ। ਪ੍ਰਤੀ ਰਿਹਾਇਸ਼ੀ IP ਪ੍ਰਤੀ ਨੋਡ ਲਗਭਗ $5 ਮਹੀਨਾ। ਪੇਪਾਲ ਅਤੇ ਐਮਾਜ਼ਾਨ ਗਿਫਟ ਕਾਰਡਾਂ ਰਾਹੀਂ ਭੁਗਤਾਨ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
 
 #### ਇੱਕ ਕਮਾਈ ਐਪ ਖਾਤਾ ਬਣਾਓ:
-'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [earnapp.com](https://earnapp.com/i/c1dllee)
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *ਚੇਤਾਵਨੀ, ਗੂਗਲ ਖਾਤੇ ਦੀ ਲੋੜ ਹੈ*
 
 #### ਆਪਣਾ UUID ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਐਪ ਦਾ ਨਾਨ ਡੌਕਰ ਸੰਸਕਰਣ ਸਥਾਪਿਤ ਕਰੋ:

@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### تثبيت تطبيق Earn:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 يتيح لك تطبيق Earn مشاركة الإنترنت الخاص بك كخدمة VPN للحصول على قدر مذهل من المكافآت. متوسطات حوالي 5 دولارات شهريًا لكل عقدة لكل IP سكني. يقدم مدفوعات عبر بطاقات هدايا paypal و amazon.
 
 #### إنشاء حساب كسب التطبيق:
-قم بإنشاء حساب على [earnapp.com](https://earnapp.com/i/c1dllee)
+قم بإنشاء حساب على [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 * تحذير يتطلب حساب جوجل *
 
 #### تثبيت الإصدار بدون عامل تشغيل من التطبيق للحصول على UUID الخاص بك:

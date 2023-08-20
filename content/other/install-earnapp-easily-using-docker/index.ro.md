@@ -14,12 +14,12 @@ coverCaption: "Rentabilizați-vă dispozitivele inactive cu aplicația Earn App"
 
 Cauți o modalitate de a face bani de pe dispozitivele tale inactive? Cu Earn App, puteți acum să monetizați resursele nefolosite ale dispozitivului dvs. și să câștigați recompense. Prin partajarea internetului dvs. ca serviciu VPN, Earn App vă oferă posibilitatea de a câștiga în medie 5 $ pe lună pe nod cu un IP rezidențial. Este o modalitate simplă și eficientă de a vă transforma dispozitivele inactive într-o sursă pasivă de venit.
 
-[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/c1dllee)
+[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/GCL9QzB5)
 
 Citiți mai departe pentru a descoperi cum funcționează Earn App și cum puteți începe să câștigați recompense de astăzi.
 
 ### Creați un cont Earn App
-Pentru a începe, creați-vă un cont la [earnapp.com](https://earnapp.com/i/c1dllee) Vă rugăm să rețineți că este necesar un cont Google pentru înregistrare.
+Pentru a începe, creați-vă un cont la [earnapp.com](https://earnapp.com/i/GCL9QzB5) Vă rugăm să rețineți că este necesar un cont Google pentru înregistrare.
 
 ### Instalați versiunea non-Docker a aplicației pentru a obține UUID-ul dvs.
 Urmați instrucțiunile [installation instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions) pentru a instala versiunea non-docker a aplicației. Asigurați-vă că o dezinstalați după ce ați obținut UUID-ul pentru a evita să o rulați de două ori pe aceeași gazdă.

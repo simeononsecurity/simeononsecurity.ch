@@ -14,12 +14,12 @@ coverCaption: "Monetize Your Idle Devices with Earn App"
 
 Are you looking for a way to make money from your idle devices? With Earn App, you can now monetize your device's unused resources and earn rewards. By sharing your internet as a VPN service, Earn App offers you an opportunity to earn an average of $5 per month per node with a residential IP. It's a simple and efficient way to turn your idle devices into a passive source of income. 
 
-[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/c1dllee)
+[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/GCL9QzB5)
 
 Read on to discover how Earn App works and how you can start earning rewards today.
 
 ### Create an Earn App Account
-To get started, create an account at [earnapp.com](https://earnapp.com/i/c1dllee). Please note that a Google account is required for registration.
+To get started, create an account at [earnapp.com](https://earnapp.com/i/GCL9QzB5). Please note that a Google account is required for registration.
 
 ### Install the Non-Docker Version of the App to Obtain Your UUID
 Follow the [installation instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions) to install the non-docker version of the app. Be sure to uninstall it after obtaining your UUID to avoid running it twice on the same host.

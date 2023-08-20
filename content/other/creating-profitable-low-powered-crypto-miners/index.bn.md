@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### Earn অ্যাপ ইনস্টল করুন:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 Earn অ্যাপ আপনাকে আশ্চর্যজনক পরিমাণ পুরস্কারের জন্য VPN পরিষেবা হিসেবে আপনার ইন্টারনেট শেয়ার করতে দেয়। আবাসিক আইপি প্রতি নোড প্রতি গড় প্রায় $5 মাস। পেপ্যাল এবং অ্যামাজন উপহার কার্ডের মাধ্যমে অর্থ প্রদানের প্রস্তাব দেয়।
 
 #### একটি আর্ন অ্যাপ অ্যাকাউন্ট তৈরি করুন:
-এ একটি অ্যাকাউন্ট তৈরি করুন [earnapp.com](https://earnapp.com/i/c1dllee)
+এ একটি অ্যাকাউন্ট তৈরি করুন [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *সতর্কতা, একটি গুগল অ্যাকাউন্ট প্রয়োজন*
 
 #### আপনার UUID পেতে অ্যাপটির নন ডকার সংস্করণ ইনস্টল করুন:

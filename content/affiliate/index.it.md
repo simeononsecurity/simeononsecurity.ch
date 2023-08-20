@@ -19,7 +19,7 @@ Alcuni dei link presenti su questo sito sono link di affiliazione, il che signif
 - [Amazon](https://amzn.to/47bpscS)
 - [Audible](https://amzn.to/3O5yM9p)
 - [Bitdefender](https://bitdefender.f9tmep.net/k0Wq1n)
-- [EarnApp](https://earnapp.com/i/c1dllee)
+- [EarnApp](https://earnapp.com/i/GCL9QzB5)
 - [NextDNS](https://nextdns.io/?from=jyfq92sk)
 - [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=12501_0_1_5)
 - [PawnsApp](https://pawns.app/?r=2092802)

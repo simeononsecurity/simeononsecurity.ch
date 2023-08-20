@@ -21,7 +21,7 @@ ______
 
 ## **Earn App**: Transform Idle Time into Rewards
 
-Are you seeking to maximize the potential of your smartphone's idle moments? The [**Earn App**](https://earnapp.com/i/c1dllee) presents an effortless solution. By sharing your internet connection through a VPN service, this app enables you to reap the benefits in the form of **PayPal cash** and **Amazon gift cards**. This innovative application offers a win-win proposition, enabling you to earn while optimizing your device's downtime.
+Are you seeking to maximize the potential of your smartphone's idle moments? The [**Earn App**](https://earnapp.com/i/GCL9QzB5) presents an effortless solution. By sharing your internet connection through a VPN service, this app enables you to reap the benefits in the form of **PayPal cash** and **Amazon gift cards**. This innovative application offers a win-win proposition, enabling you to earn while optimizing your device's downtime.
 
 {{< youtube id="c6986UvIzJs" >}}
 
@@ -100,7 +100,7 @@ ______
 
 ## References:
 
-1. [Earn App](https://earnapp.com/i/c1dllee)
+1. [Earn App](https://earnapp.com/i/GCL9QzB5)
 2. [Honey Gain](https://r.honeygain.me/HONEY9149D)
 3. [PawnsApp](https://pawns.app/?r=2092882)
 4. [Repocket](https://link.repocket.co/raqc)

@@ -14,12 +14,12 @@ coverCaption: "Earn Appで遊休デバイスを収益化する。"
 
 使っていないデバイスからお金を稼ぐ方法をお探しですか？Earn Appを使えば、あなたのデバイスの未使用リソースを収益化し、報酬を得ることができるようになりました。VPN サービスとしてインターネットを共有することで、Earn App は、住宅用 IP を持つノードあたり月平均 5 ドルの報酬を得る機会を提供します。これは、あなたの遊休デバイスを受動的な収入源に変える、シンプルで効率的な方法です。
 
-[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/c1dllee)
+[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/GCL9QzB5)
 
 Earn Appの仕組みと、今日からできるリワードの獲得方法についてご紹介します。
 
 ### Earn Appのアカウントを作成する
-まずは、以下のサイトでアカウントを作成してください。 [earnapp.com](https://earnapp.com/i/c1dllee)なお、登録にはGoogleアカウントが必要です。
+まずは、以下のサイトでアカウントを作成してください。 [earnapp.com](https://earnapp.com/i/GCL9QzB5)なお、登録にはGoogleアカウントが必要です。
 
 ### UUIDを取得するためにDocker版以外のアプリをインストールする
 に従ってください。 [installation instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)をクリックすると、非ドッカー版のアプリがインストールされます。同じホストで2回実行しないように、UUID取得後は必ずアンインストールするようにしてください。

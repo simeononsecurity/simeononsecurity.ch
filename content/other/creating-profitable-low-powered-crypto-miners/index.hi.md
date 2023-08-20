@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### अर्न ऐप इंस्टॉल करें:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 अर्न ऐप आपको अपने इंटरनेट को वीपीएन सेवा के रूप में आश्चर्यजनक रूप से पुरस्कारों के लिए साझा करने देता है। औसतन लगभग $5 माह प्रति नोड प्रति आवासीय IP। पेपैल और अमेज़ॅन उपहार कार्ड के माध्यम से पेआउट प्रदान करता है।
 
 #### अर्न एप अकाउंट बनाएं:
-पर अकाउंट बनाएं [earnapp.com](https://earnapp.com/i/c1dllee)
+पर अकाउंट बनाएं [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *चेतावनी, एक Google खाते की आवश्यकता है*
 
 #### अपना UUID प्राप्त करने के लिए ऐप का गैर डॉकर संस्करण स्थापित करें:

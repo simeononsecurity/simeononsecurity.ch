@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### 獲得アプリをインストール:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 Earn アプリを使用すると、VPN サービスとしてインターネットを共有して、驚くほどの報酬を得ることができます。住宅用 IP ごとにノードごとに月平均約 5 ドルかかります。 PayPal および Amazon ギフトカードによる支払いを提供します。
 
 #### 獲得アプリアカウントを作成します:
-でアカウントを作成してください [earnapp.com](https://earnapp.com/i/c1dllee)
+でアカウントを作成してください [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *警告、Google アカウントが必要です*
 
 #### 非 Docker バージョンのアプリをインストールして、UUID を取得します。

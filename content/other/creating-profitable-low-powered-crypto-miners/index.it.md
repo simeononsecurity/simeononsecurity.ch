@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### Installa Guadagna App:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 Guadagna app ti consente di condividere Internet come servizio VPN per una quantità sorprendente di premi. In media circa $ 5 al mese per nodo per IP residenziale. Offre pagamenti tramite paypal e buoni regalo Amazon.
 
 #### Crea un account per l'app Guadagna:
-Crea un account su [earnapp.com](https://earnapp.com/i/c1dllee)
+Crea un account su [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *Attenzione, richiede un account Google*
 
 #### Installa la versione non docker dell'app per ottenere il tuo UUID:

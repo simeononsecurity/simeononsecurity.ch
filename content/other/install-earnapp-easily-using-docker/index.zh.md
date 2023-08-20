@@ -14,12 +14,12 @@ coverCaption: "利用盈利应用程序为闲置设备赚钱"
 
 您是否正在寻找利用闲置设备赚钱的方法？有了小赚应用程序，您现在可以将设备的闲置资源货币化并赚取奖励。通过共享您的互联网作为 VPN 服务，Earn App 为您提供了一个机会，使用住宅 IP 的每个节点每月平均可赚取 5 美元。这是将您的闲置设备变为被动收入来源的一种简单而有效的方式。
 
-[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/c1dllee)
+[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/GCL9QzB5)
 
 请继续阅读，了解 Earn App 如何运作，以及如何从今天开始赚取奖励。
 
 ###创建一个Earn App账户
-要开始使用，请在以下网址创建账户 [earnapp.com](https://earnapp.com/i/c1dllee)请注意，注册需要 Google 帐户。
+要开始使用，请在以下网址创建账户 [earnapp.com](https://earnapp.com/i/GCL9QzB5)请注意，注册需要 Google 帐户。
 
 ### 安装应用程序的非坞版本以获取 UUID
 请按照 [installation instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions)来安装非坞版本的应用程序。获取 UUID 后请务必卸载，以免在同一主机上运行两次。

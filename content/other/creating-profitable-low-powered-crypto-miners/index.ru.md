@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### Установите приложение для заработка:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 Приложение Earn позволяет вам делиться своим интернетом в качестве VPN-сервиса за удивительное количество вознаграждений. В среднем около 5 долларов США в месяц за узел на один резидентный IP-адрес. Предлагает выплаты с помощью подарочных карт PayPal и Amazon.
 
 #### Создайте учетную запись приложения Earn:
-Создайте учетную запись на [earnapp.com](https://earnapp.com/i/c1dllee)
+Создайте учетную запись на [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *Внимание, требуется учетная запись Google*
 
 #### Установите версию приложения без докера, чтобы получить свой UUID:

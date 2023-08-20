@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### Earn App installeren:
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 Verdien app laat je je internet delen als VPN service voor een verrassend bedrag aan beloningen. Gemiddeld ongeveer $5 maand per node per residentieel IP. Biedt uitbetalingen aan via paypal en amazon gift cards.
 
 #### Maak een Earn App account aan:
-Maak een account aan bij[earnapp.com](https://earnapp.com/i/c1dllee)
+Maak een account aan bij[earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *Waarschuwing, vereist een google account*
 
 #### Installeer de niet docker versie van de app om je UUID te krijgen:

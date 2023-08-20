@@ -114,12 +114,12 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 
 ### 安装赚取应用程序：
-[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/c1dllee)
+[*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
 
 Earn 应用程序可让您将互联网作为 VPN 服务共享，以获得数量惊人的奖励。每个住宅 IP 每个节点平均每月约 5 美元。通过贝宝和亚马逊礼品卡提供付款。
 
 #### 创建一个赚取的应用程序帐户：
-创建一个帐户 [earnapp.com](https://earnapp.com/i/c1dllee)
+创建一个帐户 [earnapp.com](https://earnapp.com/i/GCL9QzB5)
 *警告，需要一个谷歌帐户*
 
 #### 安装应用程序的非 docker 版本以获取你的 UUID：

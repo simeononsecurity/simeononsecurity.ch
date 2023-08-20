@@ -14,12 +14,12 @@ coverCaption: "Verdien uw ongebruikte apparaten met Earn App"
 
 Bent u op zoek naar een manier om geld te verdienen met uw ongebruikte apparaten? Met Earn App kun je nu de ongebruikte bronnen van je apparaat te gelde maken en beloningen verdienen. Door je internet te delen als een VPN service, biedt Earn App je de mogelijkheid om gemiddeld $5 per maand te verdienen per node met een residentieel IP. Het is een eenvoudige en efficiënte manier om uw ongebruikte apparaten om te zetten in een passieve bron van inkomsten.
 
-[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/c1dllee)
+[Take advantage of the time your devices are left idle by getting paid for your device's unused resources.](https://earnapp.com/i/GCL9QzB5)
 
 Lees verder om te ontdekken hoe Earn App werkt en hoe u vandaag nog kunt beginnen met het verdienen van beloningen.
 
 ### Maak een Earn App account aan
-Maak om te beginnen een account aan bij [earnapp.com](https://earnapp.com/i/c1dllee) Voor registratie is een Google-account vereist.
+Maak om te beginnen een account aan bij [earnapp.com](https://earnapp.com/i/GCL9QzB5) Voor registratie is een Google-account vereist.
 
 ### De niet-dockerversie van de app installeren om uw UUID te verkrijgen
 Volg de [installation instructions](https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions) om de niet-docker versie van de app te installeren. Zorg ervoor dat u de installatie ongedaan maakt na het verkrijgen van uw UUID om te voorkomen dat het twee keer op dezelfde host wordt uitgevoerd.
