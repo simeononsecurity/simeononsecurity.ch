@@ -94,7 +94,7 @@ For more information and updates, visit the [Presearch Node Documentation](https
 
 ______
 
-**References:**
+## **References:**
 
 1. [Presearch Node Dashboard](https://nodes.presearch.com/dashboard?rid=4754563)
 2. [ThreeFold.io](https://threefold.io/)
