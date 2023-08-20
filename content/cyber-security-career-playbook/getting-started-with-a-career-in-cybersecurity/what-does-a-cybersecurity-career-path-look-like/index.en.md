@@ -20,6 +20,8 @@ Cybersecurity has become an increasingly important field in today's digital worl
 
 In this article, we will explore the various aspects of a cybersecurity career path. We will discuss the skills and qualifications required, different job roles within the field, and the potential career progression options available. Additionally, we will provide insights into the current demand for cybersecurity professionals and the necessary steps to embark on this career journey.
 
+{{< youtube id="bMHd4qS2o2w" >}}
+
 ## Skills and Qualifications
 
 A successful cybersecurity career requires a combination of technical skills, analytical thinking, and a strong understanding of information security principles. Some of the key skills and qualifications desired in this field include:
@@ -58,6 +60,10 @@ The cybersecurity career path offers numerous opportunities for growth and advan
 
 3. **Chief Information Security Officer (CISO)**: CISOs are senior-level executives responsible for the overall cybersecurity strategy of an organization. They collaborate with other business units, manage budgets, and ensure alignment with industry regulations and best practices.
 
+### Cyber Security Career Roadmap Chart
+This graph, made by [Paul Jerimy](https://pauljerimy.com/), outlines Cyber Security and IT Career Paths as aligned with the [NICE CyberSecurity Workforce Framework Work Roles](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/).
+{{< figure src="SecCareerRoadmap2022.png" alt="Cyber Security Career Roadmap 2022" link="https://pauljerimy.com/it-career-roadmap/" >}}
+
 ## Current Demand and Future Outlook for Cybersecurity Professionals
 
 The demand for cybersecurity professionals is witnessing substantial growth as organizations increasingly prioritize safeguarding their digital assets. According to data from the Bureau of Labor Statistics (BLS), the number of cybersecurity job openings has experienced a significant 35% increase in the past year. This trend is projected to continue, driven by the escalating sophistication of cyber threats.
@@ -76,7 +82,12 @@ To begin a career in cybersecurity, here are some steps you can take:
 
 4. **Continuous Learning**: Stay updated with the latest trends, technologies, and industry developments through online courses, conferences, and industry publications. Continuously improving your skills will enhance your chances of success in the cybersecurity field.
 
+
+______
 {{< inarticle-dark >}}
+______
+
+
 ## Conclusion
 
 A career in cybersecurity offers exciting opportunities to protect organizations from cyber threats and contribute to a safer digital world. By acquiring the necessary skills, gaining practical experience, and staying updated with the latest trends, you can embark on a successful cybersecurity career path. Remember, cybersecurity is a dynamic field, and continuous learning and adaptation are key to staying ahead.
