@@ -19,6 +19,10 @@ coverCaption: "Defend and conquer: Unlocking the world of cybersecurity."
 
 Cybersecurity is a rapidly evolving field with a wide range of specializations that professionals can pursue. Each specialization requires specific skills and knowledge to tackle the unique challenges it presents. In this article, we will delve into various specializations within cybersecurity and explore the skills required for each.
 
+### Cyber Security Career Roadmap Chart
+This graph, made by [Paul Jerimy](https://pauljerimy.com/), outlines Cyber Security and IT Career Paths as aligned with the [NICE CyberSecurity Workforce Framework Work Roles](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/).
+{{< figure src="SecCareerRoadmap2022.png" alt="Cyber Security Career Roadmap 2022" link="https://pauljerimy.com/it-career-roadmap/" >}}
+
 ______
 
 ## Network Security
