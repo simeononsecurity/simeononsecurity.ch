@@ -29,7 +29,7 @@ To get started with setting up a Presearch Node, you'll need to complete the fol
 
 #### Purchase 4,000 PRE tokens
 
-To be eligible for rewards as a Presearch Node operator, you'll need to purchase a minimum of 4,000 PRE tokens. You can acquire these tokens through the following link: [Purchase PRE tokens on KuCoin](https://www.kucoin.com/r/af/QBSSSM2W).
+To be eligible for rewards as a Presearch Node operator, you'll need to purchase a minimum of 4,000 PRE tokens. You can acquire these tokens through the following link: [Purchase PRE tokens on KuCoin](https://www.kucoin.com/).
 
 ## Getting Started
 
