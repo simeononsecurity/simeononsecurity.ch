@@ -21,7 +21,7 @@ Unele dintre linkurile de pe acest site sunt linkuri afiliate, ceea ce Ã®nseamnÄ
 - [Bitdefender](https://bitdefender.f9tmep.net/k0Wq1n)
 - [EarnApp](https://earnapp.com/i/c1dllee)
 - [KuCoin](https://www.kucoin.com/r/af/QBSSSM2W)
-- [NextDNS](https://nextdns.io/?from=37pk8rg9)
+- [NextDNS](https://nextdns.io/?from=jyfq92sk)
 - [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=12501_0_1_5)
 - [PawnsApp](https://pawns.app/?r=2092802)
 - [Presearch](https://presearch.com/signup?rid=4754563)
