@@ -209,12 +209,24 @@ adb uninstall --user 0 com.samsung.android.game.gamehome #(Uninstall Game Space)
 adb uninstall --user 0 com.samsung.android.game.gos #(Uninstall GOS known Samsung issue)
 adb uninstall --user 0 com.sec.android.smartfpsadjuster #(Uninstall Fps Adjuster)
 
-
 # Do not use these unless you've removed the battery and have active cooling!
 #adb shell setting put secure allow_more_heat_value 80 #(Caution Heat! increases heat threshold Default=0)
 #adb shell settings put global enhanced_processing 2 #(Caution Heat! better performance greater heat Default=0)
 #adb shell settings put global restricted_device_performance 0,0 #(Caution Heat! better performance greater heat Default= 1,0)
 #adb shell settings put global sem_low_heat_mode 0 #(Caution Heat! Disable throttling)
+
+# Extras
+## Disable Animations
+adb shell settings put global window_animation_scale 0
+adb shell settings put global transition_animation_scale 0
+adb shell settings put global animator_duration_scale 0
+
+## Favor CPU Performance over Power Savings
+adb shell su -c "echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+
+## Increase Background Process Limit
+adb shell settings put global background_limit 4
+
 
 # Always reboot when done
 adb reboot #(Reboot device Mandatory!)
