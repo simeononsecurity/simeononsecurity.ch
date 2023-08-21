@@ -227,7 +227,6 @@ adb shell su -c "echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling
 ## Increase Background Process Limit
 adb shell settings put global background_limit 4
 
-
 # Always reboot when done
 adb reboot #(Reboot device Mandatory!)
 ```
