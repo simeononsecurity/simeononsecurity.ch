@@ -51,10 +51,19 @@ Now comes the important part i.e. changing some device info to make it compatibl
 First, grab the following information from your ISP Gateway or ONT:
 
 1. **ONT ID**
-2. **MAC Address**
-3. **Equipment ID**
-4. **Image Version**
-5. **Hardware Version**
+  -  **ATT BGW320-500**: `HUMAXXXXXXXX`
+  -  **ATT BGW320-505**: `NOKAXXXXXXXX`
+  -  **ATT 020**: <serial number>
+3. **MAC Address** (From device label)
+4. **Equipment ID**
+  - **ATT BGW320-500 HUMAX**: `iONT320500G`
+  - **ATT BGW320-505 NOKIA**: `iONT320505G`
+  - **ATT 020**: BVMGZ00BRAXS020XA
+5. **Image Version**
+  - **ATT 320**: `BGW320_3.21.4`
+6. **Hardware Version**
+  - **HUMAX ATT 320**: `BGW320-500_2.1`
+  - **NOKIA ATT 320**: `BGW320-505_2.2`
 
 Note: These are the OMCI values and not the ones from the web UI.
 
