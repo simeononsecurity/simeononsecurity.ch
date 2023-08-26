@@ -35,9 +35,29 @@ At its heart, **Onocoy** not only improves accuracy but also recognizes your con
 {{< figure src="onocoy-rewards.jpg" alt="Onocoy Reward calculation" link="https://docs.onocoy.com/documentation/topics/reward-calculation" >}}
 
 ______
+
+## Understanding Onocoy's GNSS Capabilities and Requirements.
+
+Exploring the GNSS capabilities of **Onocoy** sheds light on the diverse channels and bands it supports. As a rule of thumb, a broader range of **bands and constellations** translates to enhanced rewards within the network. For an in-depth understanding, refer to the insights shared in **section 4.2.1** of the whitepaper, which is accessible on **LinkedIn** [here](https://www.linkedin.com/posts/onocoy_onocoys-whitepaper-activity-7100819491936169985-EZmo?utm_source=share&utm_medium=member_desktop) and soon on the official website.
+
+**Update rates**, a crucial factor, cater differently to miners and **RTK Rovers**, who are the data consumers utilizing the Onocoy service. Miners find stability with a rate of **1Hz**, ensuring steady data contribution. In contrast, higher update rates like 10Hz, 20Hz, or even 100Hz predominantly serve RTK Rovers' needs for real-time precision.
+
+Addressing the notion of **minimum required position accuracy**, Onocoy adopts a pragmatic approach. Straying from stringent demands, the system's meticulous processing accurately determines device positions during validation steps, ensuring reliability without undue accuracy expectations.
+
+**Signal-to-Noise Ratio (SNR)** and **signal levels** emerge as pivotal factors. **SNR above 40 dBHz**, preferably reaching around 45 dBHz, signifies optimal performance. Lower SNR values, stemming from factors like extended cables or antenna quality, can elevate code/carrier noise, potentially affecting measurement quality. Two fundamental principles guide this aspect:
+
+- Ensuring an unobstructed **360-degree sky view** for the antenna, ensuring unhindered signal access.
+- Aiming for a **secure and stable antenna mount** to counteract vibrations and instability.
+
+This comprehensive approach forms the bedrock of reliable and robust data contribution to the Onocoy network.
+
+____
+
 ## Why DIY a Onocoy Reference Station?
 
 Creating your own **DIY Onocoy reference station** offers several compelling advantages. Firstly, it provides a **cost-effective solution**, enabling you to save on setup expenses while achieving **high precision** in *location-based applications*. Secondly, the customization options allow you to tailor the **hardware and software** to your specific needs, enhancing **flexibility and adaptability**. Moreover, **DIY setup empowers you** with a deeper understanding of the technology, enabling you to **troubleshoot and innovate**. Lastly, contributing to the **Onocoy network** not only improves your own accuracy but also lets you play a vital role in advancing **global navigation systems** while **earning rewards** for your data contributions.
+
+______
 
 ## Hardware Requirements:
 One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of storage**, **4g of RAM**, and at least **2 CPU threads**. For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**.
