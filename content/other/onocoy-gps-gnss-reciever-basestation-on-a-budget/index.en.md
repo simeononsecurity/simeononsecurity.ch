@@ -12,10 +12,12 @@ coverCaption: "Unlock Ultimate Precision with DIY Onocoy Servers."
 ---
 **DIY Onocoy Reference Station Setup Guide**
 
-In this guide, we'll **walk you through the process** of **setting up your own GPS Onocoy server** using *cost-effective hardware options* and *reliable GPS receivers*. Whether you're interested in **enhancing the accuracy** of your *location-based applications*, conducting **precision surveys**, or simply **exploring the world of DIY technology**, this guide provides **step-by-step instructions** to help you get started.
+In this guide, we'll **walk you through the process** of **setting up your own GPS Onocoy server** using *cost-effective hardware options* and *reliable GPS receivers*. Whether you're interested in **enhancing the accuracy** of your *location-based applications*, conducting **precision surveys**, or simply **exploring the world of DIY technology**, this guide provides **step-by-step instructions** to help you get started with creating your DIY Onocoy reference station. 
+
+______
 
 ## Hardware Requirements:
-One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, I will recommend you have at least **32g-64g of storage**, **4g of RAM**, and at least **2 CPU threads**. For this, we will be targeting a **budget of around $50-$200** for hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**.
+One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, I will recommend you have at least **32g-64g of storage**, **4g of RAM**, and at least **2 CPU threads**. For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**.
 
 ### Raspberry Pi:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
@@ -55,6 +57,8 @@ You should ideally chose a receiver in your budget that is capable of using an e
 - [GNSS Surveying Antenna and Precise Navigation Antenna](https://amzn.to/47Mj4ZH)
 - [Beitian High Gain High Precision GNSS Antenna](https://amzn.to/47MWdxa)
 
+______
+
 ## OS Installation:
 We won't go into the technical details of how to install an operating system here. However here is some great resources to get you started
 ### Raspbian:
@@ -65,6 +69,7 @@ We won't go into the technical details of how to install an operating system her
 - [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
 - [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
+______
 
 ## Setting up the ntrip server software
 Setting up this service will require some experience with linux. Unfortunately it isn't completely automatable.
@@ -97,9 +102,9 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 4. Now we get to configure the software
    1. Test the configuration.
 
-    ```bash
-        `~/ntripserver/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m Mount1 -n {{usernamehere}} -c {{passwordhere}}'
-    ```
+      ```bash
+          `~/ntripserver/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m Mount1 -n {{usernamehere}} -c {{passwordhere}}'
+      ```
 
    2. Now that you confirmed it works. We need to create a service to have it restart on boot.
       1. **Create a Service File**:
