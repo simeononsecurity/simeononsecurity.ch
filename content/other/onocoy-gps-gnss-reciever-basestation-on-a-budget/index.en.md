@@ -111,7 +111,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
         ```bash
         sudo nano /etc/systemd/system/ntripserver.service
         ``` 
-        Remember to replace /path/to/ntripserver with the actual path to your ntripserver executable.
+        Remember to replace `/path/to/ntripserver` with the actual path to your ntripserver executable.
         ```bash
         [Unit]
         Description=NTRIP Server Service
