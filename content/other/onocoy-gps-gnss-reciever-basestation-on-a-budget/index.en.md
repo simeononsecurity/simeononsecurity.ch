@@ -22,13 +22,17 @@ ______
 
 {{< youtube id="pzeMUD7EFTA" >}}
 
-### Enhancing Your GNSS Setup
+### Enhancing Your GNSS and RTK Setup
 
 **Onocoy** offers a fresh perspective on **GNSS stations**. Beyond pinpoint accuracy, it's about becoming part of a **global network** that benefits users worldwide. Discover the key considerations for setting up your station: from selecting the right equipment to optimizing antenna placement and ensuring reliable internet connectivity.
+
+{{< figure src="onocoy-rtk.webp" alt="Onocoy RTK" link="https://docs.onocoy.com/documentation/fundamentals/what-is-rtk" >}}
 
 ### Contribution and Rewards
 
 At its heart, **Onocoy** not only improves accuracy but also recognizes your contributions. Uncover how your role in enabling specific **NTRIP messages** and maintaining **low latency** translates into **tangible rewards**. **Onocoy's approach** ensures a fair distribution of rewards through **blockchain technology**, providing **transparency** in recognition.
+
+{{< figure src="onocoy-rewards.jpg" alt="Onocoy Reward calculation" link="https://docs.onocoy.com/documentation/topics/reward-calculation" >}}
 
 ______
 
