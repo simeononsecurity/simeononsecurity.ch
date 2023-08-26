@@ -143,6 +143,15 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 6. Profit?
    1. You can view the following [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/4.-receive-rewards) to learn more.
 
+## Notible Mentions for Alternative Ntrip Server Software.
+While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
+- [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
+  - Seems to be a newer version of the software we used above. However it's more difficult to access from the command line and we were unable to verify authority on the codebase.
+- [RTKLIB](https://www.rtklib.com/rtklib.htm)
+  -  A more widely used Ntrip server. However is significantly more technically involved.
+- [esp32-xbee](https://github.com/nebkat/esp32-xbee)
+  -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive... 
+
 ## Conclusion
 
 Setting up your **own DIY GPS Onocoy server** doesn't have to be a daunting task. With the **right hardware choices**, **reliable GPS receivers**, and a clear understanding of the process, you can achieve **remarkable precision and accuracy** in your *location-based applications*.
