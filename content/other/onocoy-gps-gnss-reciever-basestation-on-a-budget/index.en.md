@@ -67,9 +67,9 @@ We won't go into the technical details of how to install an operating system her
 ______
 
 ## Setting up the ntrip server software
-Setting up this service will require some experience with linux. Unfortunately it isn't completely automatable.
-
 Once you've set up your device and [properly placed your antenna](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station), you can start configuring the required software. 
+
+*For this section we assume some basic technical experience and that you have installed your operating system already as well as know how to get into the terminal.*
 
 1. We need to create an account and get our credentials from the [onocoy website](https://console.onocoy.com/explorer). You will need to grab the server address, username, password, and port number from this step. 
    Refer to the [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data) if you need help.
