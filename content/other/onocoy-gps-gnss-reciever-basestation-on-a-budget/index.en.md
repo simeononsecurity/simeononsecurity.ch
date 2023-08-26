@@ -10,7 +10,7 @@ cover: "/img/cover/gps-satellite-setup.png"
 coverAlt: "A symbolic image showcasing a GPS satellite in orbit."
 coverCaption: "Unlock Ultimate Precision with DIY Onocoy Servers."
 ---
-**DIY GPS Onocoy Server Setup Guide**
+**DIY Onocoy Reference Station Setup Guide**
 
 In this guide, we'll **walk you through the process** of **setting up your own GPS Onocoy server** using *cost-effective hardware options* and *reliable GPS receivers*. Whether you're interested in **enhancing the accuracy** of your *location-based applications*, conducting **precision surveys**, or simply **exploring the world of DIY technology**, this guide provides **step-by-step instructions** to help you get started.
 
