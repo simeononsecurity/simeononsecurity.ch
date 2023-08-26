@@ -114,6 +114,9 @@ If you don't know what that is or you aren't experienced, please use the options
 - [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) - $645
   - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
 
+- [simpleRTK3B mPCIe](https://www.ardusimple.com/product/simplertk3b-mpcie-septentrio-mosaic/)
+  - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
+
 ## Recommended Antennas for Onocoy
 ### Basic Antennas for Onocoy
 We can only recommend using these on the [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) and [NEO-M8N GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8n-gnss-modules/44-elt0031.html) receivers we recommended earlier.
