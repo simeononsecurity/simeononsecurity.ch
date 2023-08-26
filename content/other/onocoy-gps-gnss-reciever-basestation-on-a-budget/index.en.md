@@ -146,7 +146,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 ## Notible Mentions for Alternative Ntrip Server Software.
 While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
-  - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the German Federal Agency for Cartography and Geodesy (BKG)
+  - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the German Federal Agency for [Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
 - [RTKLIB](https://www.rtklib.com/rtklib.htm)
   -  A more widely used Ntrip server. However is significantly more technically involved.
 - [esp32-xbee](https://github.com/nebkat/esp32-xbee)
