@@ -88,6 +88,8 @@ We won't go into the technical details of how to install an operating system her
 - [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
 ______
+{{< inarticle-dark >}}
+______
 
 ## Setting up the ntrip server software
 Once you've set up your device and [properly placed your antenna](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station), you can start configuring the required software. 
@@ -183,3 +185,5 @@ By following the **step-by-step instructions** outlined in this guide, you've un
 So, **go ahead and set up your Onocoy Reference Station**, refine your skills, and enjoy the **results** that await you. Whether you're **navigating remote terrains**, conducting **surveys**, or exploring new possibilities, your **DIY Onocoy Reference Station** will be your **trusty companion** in the pursuit of **precision**.
 
 Stay inspired, stay innovative, and keep pushing the **boundaries of what's possible with technology**.
+
+Lastly, check out our article on more [low powered mining setups](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/).
