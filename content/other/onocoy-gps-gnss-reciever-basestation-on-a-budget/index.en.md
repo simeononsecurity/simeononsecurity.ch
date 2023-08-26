@@ -60,13 +60,14 @@ Creating your own **DIY Onocoy reference station** offers several compelling adv
 ______
 
 ## Hardware Requirements:
-One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of storage**, **4g of RAM**, and at least **2 CPU threads**. For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**.
-
-### Raspberry Pi:
+One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of flash-based storage** (for longevity of the SSD). For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**. 
+### Raspberry Pi and Pi Clones:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
+- [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
 - [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
 - [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
+
 ### Any USFF/Tiny/Mini/Micro PC:
 - [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
 - [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
@@ -75,26 +76,60 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 - [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
 - [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
+### Compute Notable Mentions
+Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
+
+
 ## Recommended GPS Receivers for DIY Onocoy Deployments
 You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. 
 
 - [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) - $22
-  - Cheap and tested by many on other projects, however accuracy and channel support are both limited. Rewards are limited. 
+  - Single-Band (L1 only), Cheap, offers external antenna support, however accuracy and channel support are both extremely limited.. Rewards are limited, 8% only.
 
 - [GlobalSat BU-353-S4 USB GPS Receiver](https://amzn.to/3YY7bMo) - $60
-  -  Cheap, offers external antenna support,  however accuracy and channel support are both extremely limited. Rewards are limited. 
+  - Single-Band (L1 only), Single Frequency (L1 only), Cheap and tested by many on other projects,  however accuracy and channel support are both extremely limited. Rewards are limited, 8% only 
 
 - [NEO-M8N GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8n-gnss-modules/44-elt0031.html) - $70
-  - 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, but should perform quite well given the cost.
+  - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8% only.
+
+- [NEO-M9V GNSS dongle receiver](https://gnss.store/gnss-gps-modules/194-elt0164.html) - $75
+  - Single-Band (L1 only), 92 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 50hz pull rate. Rewards will be limited, 8-10% only.
 
 - [NEO-F9P-15B Multi-band L1,L5 RTK GNSS USB Dongle with SMA antenna connector](https://gnss.store/gnss-gps-modules/222-elt0185.html) - $220
-  - 184 Channels, 20hz pull rate, USB Only. We believe this will be your **best choice**. Rewards shouldn't be limited.
+  - Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
+
+### Advanced Receivers for DIY Onocoy Deployments
+These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
+If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at least 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
+
+- [SparkFun GPS Breakout - NEO-M9N](https://www.sparkfun.com/products/17285) - $75
+  - NEO-M9N Based, Triple-Band, 6 Foot Accuracy. 
+
+- [MobileCM Triple-Band MiniPCIe Card](https://hyfix.ai/products/mobilecm-triple-band-minipcie-upgrade-card) - $295
+  - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
+
+- [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) - $645
+  - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
 
 ## Recommended Antennas for Onocoy
+### Basic Antennas for Onocoy
+We can only recommend using these on the [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) and [NEO-M8N GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8n-gnss-modules/44-elt0031.html) receivers we recommended earlier.
+- [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
+  - Basic, simple, not the best, but it works.
+- (**Prefered**)[Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
+  - Outdoor Rated, Cheap, Allows view of the Sky.
+- [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
+  - This is only recommended for those who can not properly install the antennas below. It will underperform against the others. 
 
-- [GNSS Surveying Antenna and Precise Navigation Antenna](https://amzn.to/47Mj4ZH)
-- [Beitian High Gain High Precision GNSS Antenna](https://amzn.to/47MWdxa)
-
+### Advanced Antennas for Onocoy
+For all other recommended Receivers above we recommend the antennas below. 
+- (**Prefered**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
+  - High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing.
+- [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
+  - Strong Antenna Signal, High Precision, Builtin Anti-interference.
+- [GNSS Surveying Antenna and Precise Navigation Antenna](https://amzn.to/47Mj4ZH) - $180
+  - High Antenna Gain, Extremely High Precision, IP67 Rated.
+  
 ______
 
 ## OS Installation:
@@ -191,7 +226,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
   - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the German Federal Agency for [Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
-- [RTKLIB](https://www.rtklib.com/rtklib.htm)
+- [RTKLIB](https://github.com/rtklibexplorer/RTKLIB/releases)
   -  A more widely used Ntrip server. However is significantly more technically involved.
 - [esp32-xbee](https://github.com/nebkat/esp32-xbee)
   -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive... 
