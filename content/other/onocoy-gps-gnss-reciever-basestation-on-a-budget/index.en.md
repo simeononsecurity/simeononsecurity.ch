@@ -55,7 +55,7 @@ You should ideally chose a receiver in your budget that is capable of using an e
 ______
 
 ## OS Installation:
-We won't go into the technical details of how to install an operating system here. However here is some great resources to get you started
+We won't go into the technical details of how to install an operating system here. However here are some great resources to get you started
 ### Raspbian:
 - [Getting started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
 - [The New Method to Setup Raspberry Pi](https://www.youtube.com/watch?v=jRKgEXiMtns)
