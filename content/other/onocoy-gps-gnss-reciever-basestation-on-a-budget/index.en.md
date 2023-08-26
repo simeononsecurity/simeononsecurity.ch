@@ -24,11 +24,6 @@ Hard to get ahold of these days but they are super low power and are quite custo
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
 - [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
 - [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
-### Intel Nuc:
-Wide variety of models out there. Feel Free to choose a newer one.
-- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
-- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
-- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
 ### Any USFF/Tiny/Mini/Micro PC:
 - [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
 - [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
