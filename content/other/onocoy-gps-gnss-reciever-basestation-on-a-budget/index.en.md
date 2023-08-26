@@ -49,7 +49,7 @@ You should ideally chose a receiver in your budget that is capable of using an e
   - 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, but should perform quite well given the cost.
 
 - [NEO-F9P-15B Multi-band L1,L5 RTK GNSS USB Dongle with SMA antenna connector](https://gnss.store/gnss-gps-modules/222-elt0185.html) - $220
-  - 184 Channels, 20hz pull rate, USB Only. Untested, however I believe this will be your **best choice**. Rewards shouldn't be limited.
+  - 184 Channels, 20hz pull rate, USB Only. We believe this will be your **best choice**. Rewards shouldn't be limited.
 
 ## Recommended Antennas for Onocoy
 
