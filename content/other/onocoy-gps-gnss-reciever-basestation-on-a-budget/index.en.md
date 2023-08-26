@@ -78,6 +78,7 @@ Once you've set up your device and antenna, you can start configuring the requir
 2. On your linux device download the [ntripserver](https://github.com/nunojpg/ntripserver) software.
     ```bash
     git clone https://github.com/nunojpg/ntripserver.git
+    cd ./ntripserver
     make
     ```
 3. Identify the USB Source
