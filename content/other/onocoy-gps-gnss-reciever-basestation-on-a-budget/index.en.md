@@ -162,8 +162,6 @@ Setting up your **own DIY GPS Onocoy server** doesn't have to be a daunting task
 
 By following the **step-by-step instructions** outlined in this guide, you've unlocked the potential to **enhance your navigation, positioning, and surveying** endeavors. The **affordable hardware options**, such as *Raspberry Pi* and *Intel NUC*, coupled with **accurate GPS receivers**, pave the way for **effortless and efficient server setup**.
 
-**Remember**, as you embark on this journey, you're not only **improving the accuracy** of your applications but also delving into the world of **DIY technology and innovation**. The power to **create your own solutions** is in your hands, and the **rewards are well worth the effort**.
-
-So, **go ahead and set up your GPS Onocoy server**, refine your skills, and enjoy the **accurate results** that await you. Whether you're **navigating remote terrains**, conducting **surveys**, or exploring new possibilities, your **DIY GPS Onocoy Reference Station** will be your **trusty companion** in the pursuit of **precision**.
+So, **go ahead and set up your Onocoy Reference Station**, refine your skills, and enjoy the **results** that await you. Whether you're **navigating remote terrains**, conducting **surveys**, or exploring new possibilities, your **DIY Onocoy Reference Station** will be your **trusty companion** in the pursuit of **precision**.
 
 Stay inspired, stay innovative, and keep pushing the **boundaries of what's possible with technology**.
