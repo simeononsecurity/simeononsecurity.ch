@@ -17,7 +17,6 @@ In this guide, we'll **walk you through the process** of **setting up your own G
 ## Hardware Requirements:
 One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, I will recommend you have at least **32g-64g of storage**, **4g of RAM**, and at least **2 CPU threads**. For this, we will be targeting a **budget of around $50-$200** for hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**.
 
-
 ### Raspberry Pi:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
