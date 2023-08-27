@@ -95,10 +95,10 @@ You should ideally chose a receiver in your budget that is capable of using an e
 - [NEO-M8N GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8n-gnss-modules/44-elt0031.html) - $70
   - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8% only.
 
-- [NEO-M9V GNSS dongle receiver](https://gnss.store/gnss-gps-modules/194-elt0164.html) - $75
+- (**Prefered**)[NEO-M9V GNSS dongle receiver](https://gnss.store/gnss-gps-modules/194-elt0164.html) - $75
   - Single-Band (L1 only), 92 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 50hz pull rate. Rewards will be limited, 8-10% only.
 
-- [SparkFun GPS Breakout - NEO-M9N](https://www.sparkfun.com/products/17285) - $75
+- (**Prefered**)[SparkFun GPS Breakout - NEO-M9N](https://www.sparkfun.com/products/17285) - $75
   - NEO-M9N Based, Single-Band (L1 only), 6 Foot Accuracy. Rewards will be limited, 8-10% only.
 
 - [NEO-F9P-15B Multi-band L1,L5 RTK GNSS USB Dongle with SMA antenna connector](https://gnss.store/gnss-gps-modules/222-elt0185.html) - $220
@@ -107,6 +107,9 @@ You should ideally chose a receiver in your budget that is capable of using an e
 ### Advanced Receivers for DIY Onocoy Deployments
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
 If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at least 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
+
+- (**Prefered**)[UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
+  - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
 
 - [MobileCM Triple-Band MiniPCIe Card](https://hyfix.ai/products/mobilecm-triple-band-minipcie-upgrade-card) - $295
   - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
