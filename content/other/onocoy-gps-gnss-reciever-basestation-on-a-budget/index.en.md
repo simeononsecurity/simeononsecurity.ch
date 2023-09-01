@@ -188,7 +188,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
    1. Test the configuration.
 
       ```bash
-          `~/ntripserver/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m Mount1 -n {{usernamehere}} -c {{passwordhere}}'
+          `~/ntripserver/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m {{mountpointhere}} -n {{usernamehere}} -c {{passwordhere}}'
       ```
 
    2. Now that you confirmed it works. We need to create a service to have it restart on boot.
@@ -203,7 +203,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
         After=network.target
 
         [Service]
-        ExecStart=/path/to/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m Mount1 -n {{usernamehere}} -c {{passwordhere}}
+        ExecStart=/path/to/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m {{mountpointhere}} -n {{usernamehere}} -c {{passwordhere}}
         Restart=always
         User=root
 
