@@ -175,7 +175,10 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```bash
     lsusb
     ```
-    Ex. `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P`
+    Ex. `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P` or `Bus xxx Device xxx: ID xxxx:xxxx U-Blox AG [u-blox 8]`
+
+    Note: Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.
+`
     ```bash
     ls /dev/ttyUSB*
     ```
