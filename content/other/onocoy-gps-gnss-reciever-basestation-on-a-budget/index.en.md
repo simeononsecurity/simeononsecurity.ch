@@ -161,7 +161,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 
 *For this section we assume some basic technical experience and that you have installed your operating system already as well as know how to get into the terminal.*
 
-1. We need to create an account and get our credentials from the [onocoy website](https://console.onocoy.com/explorer). You will need to grab the server address, username, password, and port number from this step. 
+1. We need to create an account and get our credentials from the [onocoy website](https://console.onocoy.com/explorer). You will need to grab the server address, username, password, and port number from this step. Once it is completed, go to the reference station tab and grab the mount point, which we also need.
    Refer to the [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data) if you need help.
 
 2. On your linux device download the [ntripserver](https://github.com/nunojpg/ntripserver) software.
