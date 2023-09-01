@@ -86,8 +86,9 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 ## Recommended GPS Receivers for DIY Onocoy Deployments
 You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. 
 
-- [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) - $22
+- [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) - $22 
   - Single-Band (L1 only), Cheap, offers external antenna support, however accuracy and channel support are both extremely limited.. Rewards are limited, 8% only.
+  - Shows up as `/dev/ttyACM0` instead of `/dev/ttyUSB0` in the instructions below. Same goes for all U-BLOX devices.
 
 - [GlobalSat BU-353-S4 USB GPS Receiver](https://amzn.to/3YY7bMo) - $60
   - Single-Band (L1 only), Single Frequency (L1 only), Cheap and tested by many on other projects,  however accuracy and channel support are both extremely limited. Rewards are limited, 8% only 
