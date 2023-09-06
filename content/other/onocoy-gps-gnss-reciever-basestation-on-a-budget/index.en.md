@@ -84,26 +84,23 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 
 
 ## Recommended GPS Receivers for DIY Onocoy Deployments
-You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. 
+You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. But additionally at a bare minimum it must support [RTCM (Radio Technical Commission for Maritime Services)](https://en.wikipedia.org/wiki/RTCM_SC-104).
 
-- [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) - $22 
-  - Single-Band (L1 only), Cheap, offers external antenna support, however accuracy and channel support are both extremely limited.. Rewards are limited, 8% only.
-  - Shows up as `/dev/ttyACM0` instead of `/dev/ttyUSB0` in the instructions below. Same goes for all U-BLOX devices.
-
-- [GlobalSat BU-353-S4 USB GPS Receiver](https://amzn.to/3YY7bMo) - $60
-  - Single-Band (L1 only), Single Frequency (L1 only), Cheap and tested by many on other projects,  however accuracy and channel support are both extremely limited. Rewards are limited, 8% only 
-
-- [NEO-M8N GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8n-gnss-modules/44-elt0031.html) - $70
+- [NEO-M8P RTK GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8p-gnss-modules/90-elt0078.html) - $150
   - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8% only.
+  - Shows up as `/dev/ttyACM0` instead of `/dev/ttyUSB0` in the instructions below. Same goes for all U-BLOX based devices.
 
-- (**Prefered**)[NEO-M9V GNSS dongle receiver](https://gnss.store/gnss-gps-modules/194-elt0164.html) - $75
+- (**Prefered**)[NEO-F9P-15B Multi-band](https://gnss.store/gnss-gps-modules/194-elt0164.html) - $220
   - Single-Band (L1 only), 92 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 50hz pull rate. Rewards will be limited, 8-10% only.
 
-- (**Prefered**)[SparkFun GPS Breakout - NEO-M9N](https://www.sparkfun.com/products/17285) - $75
-  - NEO-M9N Based, Single-Band (L1 only), 6 Foot Accuracy. Rewards will be limited, 8-10% only.
+- (**Prefered**)[SparkFun GPS-RTK Board - NEO-M8P-2 (Qwiic)](https://www.sparkfun.com/products/15005) - $179.95
+  - NEO-M8P-2 Based, Single-Band (L1 only), 6 Foot Accuracy. Rewards will be limited, 8-10% only.
 
-- [NEO-F9P-15B Multi-band L1,L5 RTK GNSS USB Dongle with SMA antenna connector](https://gnss.store/gnss-gps-modules/222-elt0185.html) - $220
-  - Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
+- (**Prefered**)[SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481) - $274.95
+  - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
+
+- [ZED-F9P RTK GNSS receiver board with SMA Base or Rover](https://gnss.store/zed-f9p-gnss-modules/99-13-elt0087.html#/27-add_antenna-without_antenna) - $210
+  - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
 
 ### Advanced Receivers for DIY Onocoy Deployments
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
