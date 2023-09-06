@@ -84,7 +84,7 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 
 
 ## Recommended GPS Receivers for DIY Onocoy Deployments
-You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. But additionally at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104).
+There are many recievers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
 - [NEO-M8P RTK GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8p-gnss-modules/90-elt0078.html) - $150
   - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8-10% only.
@@ -103,7 +103,7 @@ You should ideally chose a receiver in your budget that is capable of using an e
   - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
 
 ### Advanced Receivers for DIY Onocoy Deployments
-These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
+These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They likely won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
 If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at least 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
 
 - (**Prefered**)[UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
