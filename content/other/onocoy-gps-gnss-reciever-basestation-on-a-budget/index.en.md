@@ -84,7 +84,7 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 
 
 ## Recommended GPS Receivers for DIY Onocoy Deployments
-You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. But additionally at a bare minimum it must support [RTCM (Radio Technical Commission for Maritime Services)](https://en.wikipedia.org/wiki/RTCM_SC-104).
+You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. But additionally at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104).
 
 - [NEO-M8P RTK GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8p-gnss-modules/90-elt0078.html) - $150
   - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8-10% only.
