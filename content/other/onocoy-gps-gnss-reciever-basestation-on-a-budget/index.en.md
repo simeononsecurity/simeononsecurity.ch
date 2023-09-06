@@ -252,7 +252,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
       ```
 3. When finished either reboot your device or run
   ```bash
-  sudo systemctl stop ntripserver.service
+  sudo systemctl start ntripserver.service
   ```
 
 ## Notible Mentions for Alternative Ntrip Server Software.
