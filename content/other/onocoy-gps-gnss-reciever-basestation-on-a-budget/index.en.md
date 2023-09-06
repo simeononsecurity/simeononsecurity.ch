@@ -235,6 +235,26 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 6. Profit?
    1. You can view the following [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/4.-receive-rewards) to learn more.
 
+## Troubleshooting and Verifying GPS Connectivity
+1. Stop the ntripserver service
+  ```bash
+    sudo systemctl stop ntripserver.service
+  ```
+2. Use a GPS tool to verify connectivity
+   1. First, make sure you have gpsd installed:
+      ```bash
+      sudo apt-get install gpsd
+      ```
+   2. Then start gpsd to connect to your GPS device:
+      ```bash
+      sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+      gpsmon
+      ```
+3. When finished either reboot your device or run
+  ```bash
+  sudo systemctl stop ntripserver.service
+  ```
+
 ## Notible Mentions for Alternative Ntrip Server Software.
 While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
