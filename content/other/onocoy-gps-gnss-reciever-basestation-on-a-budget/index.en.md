@@ -90,7 +90,7 @@ You should ideally chose a receiver in your budget that is capable of using an e
   - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8% only.
   - Shows up as `/dev/ttyACM0` instead of `/dev/ttyUSB0` in the instructions below. Same goes for all U-BLOX based devices.
 
-- (**Prefered**)[NEO-F9P-15B Multi-band](https://gnss.store/gnss-gps-modules/194-elt0164.html) - $220
+- (**Prefered**)[NEO-F9P-15B Multi-band](https://gnss.store/gnss-gps-modules/222-elt0185.html) - $220
   - Single-Band (L1 only), 92 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 50hz pull rate. Rewards will be limited, 8-10% only.
 
 - (**Prefered**)[SparkFun GPS-RTK Board - NEO-M8P-2 (Qwiic)](https://www.sparkfun.com/products/15005) - $179.95
