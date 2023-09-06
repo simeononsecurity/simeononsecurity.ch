@@ -87,17 +87,17 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 You should ideally chose a receiver in your budget that is capable of using an external antenna. One that is capable of getting an unobstructed 360 degree view of the sky. But additionally at a bare minimum it must support [RTCM (Radio Technical Commission for Maritime Services)](https://en.wikipedia.org/wiki/RTCM_SC-104).
 
 - [NEO-M8P RTK GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8p-gnss-modules/90-elt0078.html) - $150
-  - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8% only.
+  - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8-10% only.
   - Shows up as `/dev/ttyACM0` instead of `/dev/ttyUSB0` in the instructions below. Same goes for all U-BLOX based devices.
 
 - (**Prefered**)[NEO-F9P-15B Multi-band](https://gnss.store/gnss-gps-modules/222-elt0185.html) - $220
-  - Single-Band (L1 only), 92 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 50hz pull rate. Rewards will be limited, 8-10% only.
+  - Dual-Band L1+L2 (or L1+L5), 184 Channels, supports USB only, Accurate within 6 feet, 20hz pull rate. Rewards will be limited, 30% of possibly maximum rewards.
 
 - (**Prefered**)[SparkFun GPS-RTK Board - NEO-M8P-2 (Qwiic)](https://www.sparkfun.com/products/15005) - $179.95
   - NEO-M8P-2 Based, Single-Band (L1 only), 6 Foot Accuracy. Rewards will be limited, 8-10% only.
 
 - (**Prefered**)[SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481) - $274.95
-  - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
+  - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB or GPIO Breakout. Rewards are limited, 30% of possibly maximum rewards.
 
 - [ZED-F9P RTK GNSS receiver board with SMA Base or Rover](https://gnss.store/zed-f9p-gnss-modules/99-13-elt0087.html#/27-add_antenna-without_antenna) - $210
   - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
