@@ -109,9 +109,6 @@ If you don't know what that is or you aren't experienced, please use the options
 - (**Prefered**)[UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
   - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
 
-- [MobileCM Triple-Band MiniPCIe Card](https://hyfix.ai/products/mobilecm-triple-band-minipcie-upgrade-card) - $295
-  - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
-
 - [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) - $645
   - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
 
