@@ -172,22 +172,31 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 *For this section we assume some basic technical experience and that you have installed your operating system already as well as know how to get into the terminal.*
 
 1. We need to create an account and get our credentials from the [onocoy website](https://console.onocoy.com/explorer). You will need to grab the server address, username, password, and port number from this step. Once it is completed, go to the reference station tab and grab the mount point, which we also need.
-   Refer to the [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data) if you need help.
+- Refer to the [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data) if you need help.
 
-2. On your linux device download the [ntripserver](https://github.com/nunojpg/ntripserver) software.
+2. Follow one of the Options Below. Either NTRIP Server or RTKLIB
+
+3. Wait and Verify Your Station on the Onocoy Dashboard
+   1.  Visit the [Onocoy Console Dashboard](https://console.onocoy.com/servers) and check to see your device has finished it's validation period. If it hasn't check back later, it can take up to 3 days.
+
+4. Profit?
+   1. You can view the following [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/4.-receive-rewards) to learn more.
+
+### Option 1: NTRIP Server
+1. On your linux device download the [ntripserver](https://github.com/nunojpg/ntripserver) software.
     ```bash
     git clone https://github.com/nunojpg/ntripserver.git
     cd ./ntripserver
     make
     ```
-3. Identify the USB Source
+2. Identify the USB Source
 
     ```bash
     lsusb
     ```
     Ex. `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P` or `Bus xxx Device xxx: ID xxxx:xxxx U-Blox AG [u-blox 8]`
 
-    Note: Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.
+    **Note**: *Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.*
 `
     ```bash
     ls /dev/ttyUSB*
@@ -197,7 +206,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     sudo minicom -D /dev/ttyUSB0
     ```
 
-4. Now we get to configure the software
+1. Now we get to configure the software
    1. Test the configuration.
 
       ```bash
@@ -243,12 +252,86 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
         ntripserver[815]: caster output: host = xxx.xxx.xxx.xxx, port = 2101, mountpoint = Mount1, mode = http
         ntripserver[815]: transfering data ...
         ```
-5. Wait and Verify Your Station on the Onocoy Dashboard
-   1.  Visit the [Onocoy Console Dashboard](https://console.onocoy.com/servers) and check to see your device has finished it's validation period. If it hasn't check back later, it can take up to 3 days.
+### Option 2: RTKLIB
+1. On your linux device install the [rtklib](https://rtklib.com/) software.
+    ```bash
+    sudo apt-get update
+    sudo apt-get -y install rtklib
+    ```
+2. Identify the USB Source
 
-6. Profit?
-   1. You can view the following [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/4.-receive-rewards) to learn more.
+    ```bash
+    lsusb
+    ```
+    Ex. `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P` or `Bus xxx Device xxx: ID xxxx:xxxx U-Blox AG [u-blox 8]`
 
+    **Note**: *Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.*
+
+    ```bash
+    ls /dev/ttyUSB*
+    ```
+
+    ```bash
+    sudo minicom -D /dev/ttyUSB0
+    ```
+3. Create a Rtkrcv.conf RTKLIB Configuration File
+    1. Create the paths and conf file
+      ```bash
+      sudo mkdir ~/rtklib/
+      sudo nano ~/rtklib/rtkrcv.conf
+      ```
+    2. Conf File Contents
+      ```toml
+      [serial]
+      port = /dev/ttyUSB0
+      bitrate = 19200
+      [ntrip]
+      caster = servers.onocoy.com
+      port = 2101
+      mountpoint = {{mountpointhere}} 
+      user = {{usernamehere}}
+      passwd = {{passwordhere}}
+      [output]  
+      format = rtcm3
+      path = /path/to/output/file.rtcm
+      ```
+    3. Test the RTKLIB config
+      ```bash
+        rtkrcv -s -o ~/rtklib/rtkrcv.conf
+      ```
+4. Create the RTKLIB Service
+  1. Create the Service Unit File
+    ```bash
+    sudo nano /etc/systemd/system/rtklib.service
+    ```
+  2. Add the Service Configuration
+    ```toml
+    [Unit]
+      Description=RTKLIB Service
+      After=network.target
+      Wants=network-online.target
+      After=network-online.target
+
+      [Service]
+      ExecStart=/path/to/rtkrcv -s -o /path/to/rtkrcv.conf
+      Restart=always
+      RestartSec=120  # 2 minutes (in seconds)
+      TimeoutStartSec=300 # Set a 5-minute timeout (adjust as needed)
+      User=root
+
+      [Install]
+      WantedBy=default.target
+    ```
+  3. Enable and Start The Service
+    ```bash
+    sudo systemctl daemon-reload
+    sudo systemctl enable rtklib.service
+    sudo systemctl start rtklib.service
+    ```
+  4. Verify the Service
+    ```bash
+    sudo systemctl status rtklib.service
+    ```   
 ## Troubleshooting and Verifying GPS Connectivity
 1. Stop the ntripserver service
   ```bash
