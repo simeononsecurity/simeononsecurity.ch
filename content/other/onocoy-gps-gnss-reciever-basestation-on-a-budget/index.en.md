@@ -107,7 +107,6 @@ There are many recievers on the market but at a bare minimum it must support [**
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They likely won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
 If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at most 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) and [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/24) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
 
-
 - **Unicorecomm UM980**
   - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
@@ -278,6 +277,38 @@ While reviewing this topic and discussing with the Onocoy team on their discord,
   -  A more widely used Ntrip server. However is significantly more technically involved.
 - [esp32-xbee](https://github.com/nebkat/esp32-xbee)
   -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive... 
+
+## Additional Configuration For Unicorecomm UM980 and UM982 Devices
+
+To enable all the constilations, bands, and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
+
+```bash
+mode base time 60 2 2.5
+
+CONFIG SIGNALGROUP 2
+
+rtcm1005 30
+rtcm1006 30
+rtcm1033 1
+rtcm1074 1
+
+rtcm1077 1
+rtcm1084 1
+rtcm1087 1
+rtcm1094 1
+rtcm1097 1
+rtcm1117 1
+
+rtcm1124 1
+rtcm1127 1
+
+Saveconfig
+```
+
+For additional configuration guidance, consult the following documentation:
+- [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
+
+- [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
 
 ## Conclusion
 
