@@ -280,7 +280,7 @@ While reviewing this topic and discussing with the Onocoy team on their discord,
 
 ## Additional Configuration For Unicorecomm UM980 and UM982 Devices
 
-To enable all the constilations, bands, and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
+To enable all the bands and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
 
 ```bash
 mode base time 60 2 2.5
