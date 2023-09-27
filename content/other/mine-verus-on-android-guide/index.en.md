@@ -71,11 +71,11 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 
 ### The Best USB C Chargers for Mining Verus
 
-1. [Anker Charger, 60W 6 Port USB Charging Station](https://amzn.to/3QCsn8C)
+1. [Anker Charger, 60W 6 Port USB Charging Station](https://amzn.to/3RCdOCo)
    1. With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or less devices.
 2. [PD USB-C Charging Station, COSOOS 81W 6-Port USB Charging Station](https://amzn.to/47uEBpt)
    1. This device also support up to 6 charging devices. Has PD support and communicates with your device to ensure safe charging capabilities. Also has an added bonus of a place to store your phones while mining
-3. [60W/12A 8-Port Desktop Charging Station Multiple USB](https://amzn.to/3Ownefq)
+3. [60W/12A 8-Port Desktop Charging Station Multiple USB](https://amzn.to/3t4cQV4)
    1. This device supports up to 8 devices with 60w of power delivery. It's unique feature is the screen that lets you monitor power usage. This is great for tweaking power efficiency.
 
 ### Recommended USB C Cables for Mining Verus
