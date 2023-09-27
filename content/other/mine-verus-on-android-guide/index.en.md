@@ -86,6 +86,15 @@ When mining Verus we typically like packs of high quality USB A to USB C chargin
 2. [USB Type-C Cable 5pack 6ft](https://amzn.to/3qwx5Kj)
 3. [Anker USB C Charger Cable 2 Pack6ft](https://amzn.to/45rR1N0)
 4. [Terasako Magnetic Charging Cable 5-Pack](https://amzn.to/45sa0qO)
+
+### Optional Extras for Mining Verus
+
+1. [40x40x11mm Heat Syncs](https://amzn.to/3PVL5Y3)
+   1. These increase the surface area of the phone. Use these to improve both the passive and active cooling ability of the device
+2. [Basic Desk Fan](https://amzn.to/3RDfFqu)
+   1. This basic desk fan uses only 20w of power and provides plenty of air flow for up to 12 devices depending on how they are layed out.
+3. [AC Infinity 120mm Usb Fam](https://amzn.to/3RympGb)
+   1. Want something cool, sleek, and quiet. This is your best bet.
 ______
 
 ## Best Practices for Mining Verus on Android
