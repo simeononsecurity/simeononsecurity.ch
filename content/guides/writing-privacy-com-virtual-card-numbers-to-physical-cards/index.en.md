@@ -97,7 +97,7 @@ ______
 
 Privacy.com virtual card numbers offer robust security for online transactions. However, having the option to convert these virtual numbers to physical cards provides added flexibility and convenience, especially when dealing with merchants that don't accept virtual cards. By following the simple process outlined above, you can enjoy the best of both worlds: online security and in-person convenience.
 
-For more information on online privacy and financial security, you can refer to government regulations such as the [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/) and [Federal Trade Commission](https://www.ftc.gov/).
+For more information on online privacy and financial security, you can refer to government regulation bodies such as the [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/) and [Federal Trade Commission](https://www.ftc.gov/).
 
 ## References
 
