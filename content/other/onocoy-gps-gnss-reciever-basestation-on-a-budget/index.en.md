@@ -167,7 +167,20 @@ ______
 {{< inarticle-dark >}}
 ______
 
-## Setting up the ntrip server software
+## Proper Onocoy Base Station Antenna Placement
+
+{{< figure src="installedantenna.png" caption="Installed Antenna - doc.onocoy.com" alt="An Installed Tri-Band GPS Antenna" link="https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station" >}}
+
+Onocoy has published [antenna placement requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station), but to summarize you should understand the following:
+
+1. **Optimal Location Selection**: To optimize station placement,** choose a location at least 20 kilometers away from the nearest Onocoy station**. Stations located close to three or more others will receive reduced rewards. Utilize the [Onocoy Explore function](https://console.onocoy.com/explorer) to easily check the distance to the nearest Onocoy station for any location.
+  {{< figure src="onocoy-explorer.webp" caption="Onocoy Explorer - doc.onocoy.com" alt="onocoy Explorer" link="https://docs.onocoy.com/documentation/topics/explorer" >}}
+
+2. **Ideal Surroundings**: **Ensure that the antenna has an unobstructed 360-degree view of the sky**, with no obstructions such as buildings, trees, or mountains above 10 degrees elevation. Limited sky visibility or signal multipath can result in scaled-down rewards. **The antenna must be rigidly mounted to prevent movement exceeding 1-2 millimeters**, as excessive vibrations or movement can lead to reward pausing.
+
+3. **Stable Internet Connection**: Maintain a stable and permanent internet connection for the station. The required bandwidth is relatively low, typically around **1 kB/s**, and **no inbound traffic is necessary**. There is no need to open ports on typical firewalls, as connections are established from inside-out.
+
+## Setting up the Onocoy Base Station and NTRIP Software
 Once you've set up your device and [properly placed your antenna](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station), you can start configuring the required software. 
 
 *For this section we assume some basic technical experience and that you have installed your operating system already as well as know how to get into the terminal.*
@@ -175,18 +188,17 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 1. We need to create an account and get our credentials from the [onocoy website](https://console.onocoy.com/explorer). You will need to grab the server address, username, password, and port number from this step. Once it is completed, go to the reference station tab and grab the mount point, which we also need.
 - Refer to the [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data) if you need help.
 
-1. Install some base dependencies.
-   1. 
+2. Install some base dependencies.
       ```bash
       sudo apt install -y gpsd gpsd-dbg gpsd-clients gpsbabel minicom socat git make build-essential
       ```
 
-2. Follow one of the Options Below. Either **NTRIP Server** or **RTKLIB**
+3. Follow one of the Options Below. Either **NTRIP Server** or **RTKLIB**
 
-3. Wait and Verify Your Station on the Onocoy Dashboard
+4. Wait and Verify Your Station on the Onocoy Dashboard
    1.  Visit the [Onocoy Console Dashboard](https://console.onocoy.com/servers) and check to see your device has finished it's validation period. If it hasn't check back later, it can take up to 3 days.
 
-4. Profit?
+5. Profit?
    1. You can view the following [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/4.-receive-rewards) to learn more.
 
 ### Option 1: NTRIP Server
@@ -313,7 +325,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```
   2. Add the Service Configuration
     ```toml
-    [Unit]
+      [Unit]
       Description=RTKLIB Service
       After=network.target
       Wants=network-online.target
