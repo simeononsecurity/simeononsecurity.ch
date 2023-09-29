@@ -110,6 +110,7 @@ If you don't know what that is or you aren't experienced, please use the options
 - **Unicorecomm UM980**
   - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
+    - For more details on how to install this, we recommend you read this article on [how to set up the I2C connection on the UM980](https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/)
   - [UM980 M.2](https://gnss.store/unicore-gnss-modules/250-elt0225.html)
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over M.2
@@ -133,7 +134,7 @@ If you don't know what that is or you aren't experienced, please use the options
 
 ## Recommended Antennas for Onocoy
 ### Basic Antennas for Onocoy
-We can only recommend using these on the [RCmall forM8N USB GPS Module](https://amzn.to/3sspf53) and [NEO-M8N GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8n-gnss-modules/44-elt0031.html) receivers we recommended earlier.
+We can only recommend using these on the basic U-Blox based receivers we recommended earlier.
 - [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
   - Basic, simple, not the best, but it works.
 - (**Prefered**)[Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
@@ -174,7 +175,13 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 1. We need to create an account and get our credentials from the [onocoy website](https://console.onocoy.com/explorer). You will need to grab the server address, username, password, and port number from this step. Once it is completed, go to the reference station tab and grab the mount point, which we also need.
 - Refer to the [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data) if you need help.
 
-2. Follow one of the Options Below. Either NTRIP Server or RTKLIB
+1. Install some base dependencies.
+   1. 
+      ```bash
+      sudo apt install -y gpsd gpsd-dbg gpsd-clients gpsbabel minicom socat git make build-essential
+      ```
+
+2. Follow one of the Options Below. Either **NTRIP Server** or **RTKLIB**
 
 3. Wait and Verify Your Station on the Onocoy Dashboard
    1.  Visit the [Onocoy Console Dashboard](https://console.onocoy.com/servers) and check to see your device has finished it's validation period. If it hasn't check back later, it can take up to 3 days.
@@ -355,9 +362,9 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 ## Notible Mentions for Alternative Ntrip Server Software.
 While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
-  - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the German Federal Agency for [Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
+  - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
 - [RTKLIB](https://github.com/rtklibexplorer/RTKLIB/releases)
-  -  A more widely used Ntrip server. However is significantly more technically involved.
+  -  A more widely used Ntrip server. However it can be significantly more technically involved.
 - [esp32-xbee](https://github.com/nebkat/esp32-xbee)
   -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive... 
 
@@ -365,6 +372,19 @@ While reviewing this topic and discussing with the Onocoy team on their discord,
 
 To enable all the bands and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
 
+The provided configuration adjustments are made to ensure the proper functionality of the reference station receiver, specifically tailored for the [Onocoy system](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).
+
+1. `mode base time 60 2 2.5`: This line configures the reference station's operation mode, which is set to "base". In this configuration the base station will figure out it's actual location after recieving traffic for 60 seconds. 
+
+2. `CONFIG SIGNALGROUP 2`: This command appears to configure the signal group for the UM980/UM982 devices. This enables all bands and frequencies on the device.
+
+3. `rtcm1005 30 and rtcm1006 30`: These commands set the rate at which RTCM messages 1005 and 1006 are sent out from the reference station, respectively. The values "30" suggest a 30-second interval, which is optimized for [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).
+
+4. `rtcm1033 1, rtcm1074 1, rtcm1077 1, rtcm1084 1, rtcm1087 1, rtcm1094 1, rtcm1097 1, and rtcm1117 1, rtcm1124 1 and rtcm1127 1`: These commands enable RTCM messages per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy), ensuring that the reference station transmits these specific messages. The value "1" enables these messages to happen every second..
+
+5. `saveconfig`: This command saves the configured settings, ensuring that they persist and are applied whenever the reference station is operational.
+
+### Unicorecomm UM980 and UM982 Configuration Script
 ```bash
 mode base time 60 2 2.5
 
@@ -385,14 +405,39 @@ rtcm1117 1
 rtcm1124 1
 rtcm1127 1
 
-Saveconfig
+saveconfig
 ```
 
+*It should be noted that the Unicorecomm device does not have teh ability to transmit the `RTCM 1230` message type as required per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).*
+
+### Unicorecomm UM980 and UM982 Commands Reference Manuals
 For additional configuration guidance, consult the following documentation:
 - [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
-
 - [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
 
+### Maintaining UPrecise Access with Linux using Socat
+
+To ensure uninterrupted UPrecise access when using Linux, you can utilize the `socat` application to connect to the UM980's serial interface from a Windows machine.
+
+Here's the command to achieve this:
+
+*Replace `{{portnumber}}` with a port number of your choosing*
+
+```bash
+sudo socat tcp-listen:{{portnumber}},reuseaddr /dev/ttyUSB0,b115200,raw,echo=0
+```
+Next, follow these steps to set up UPrecise on a Windows PC within the same network:
+
+1. Launch UPrecise.
+2. Navigate to the "Connections" menu.
+3. Select "TCP/IP" as the connection type.
+4. Enter the IP address of your Linux host and the port number specified in the previous command.
+5. You will now have access to the Data Stream and can continue sending commands as usual.
+
+{{< figure src="uprecise.png" alt="unicorecom uprecise tcp window" caption="Unicorecomm Uprecise TCP Window - wholovesburrito.com" link="https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/" >}}
+
+
+______
 ## Conclusion
 
 Setting up your **own DIY GPS Onocoy server** doesn't have to be a daunting task. With the **right hardware choices**, **reliable GPS receivers**, and a clear understanding of the process, you can achieve **remarkable precision and accuracy** in your *location-based applications*.
@@ -404,3 +449,16 @@ So, **go ahead and set up your Onocoy Reference Station**, refine your skills, a
 Stay inspired, stay innovative, and keep pushing the **boundaries of what's possible with technology**.
 
 Lastly, check out our article on more [low powered mining setups](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/).
+
+## References
+
+- [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
+- [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
+- [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
+- [Onocoy - Get GNSS correction data](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data)
+- [Onocoy - Connect your station to onocoy](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy)
+- [RTKLIB](https://github.com/rtklibexplorer/RTKLIB/releases)
+- [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
+- [Unicorecomm UPrecise](https://en.unicorecomm.com/download)
+- [esp32-xbee](https://github.com/nebkat/esp32-xbee)
+- [WhoLovesBurrito - Chinese UM980 Dongle Implementation](https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/)
