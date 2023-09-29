@@ -101,8 +101,6 @@ When it comes to fortifying scripting languages on Linux, **Python** and **Bash*
 
 - **Third-Party Libraries**: Python's rich ecosystem of third-party libraries includes security-focused modules. Integrating these libraries into scripts can enhance security without reinventing the wheel.
 
-The open-source nature of Python ensures that security vulnerabilities are promptly identified and addressed, making it a reliable choice for security-conscious administrators. For comprehensive insights into secure Python coding, refer to the [official Python security documentation](https://docs.python.org/3/library/security.html).
-
 #### Bash: Vigilance Required
 
 **Bash**, while less secure by design, can be fortified through meticulous scripting practices and adherence to Linux security guidelines. Here's how to enhance Bash's security:
