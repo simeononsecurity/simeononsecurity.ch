@@ -8,7 +8,7 @@
       <div class="related-content">
         <h3>Related Posts</h3>
         <div class="related-posts-list">
-          {{- $num_to_show := .Site.Params.related_content_limit | default 2 -}}
+          {{- $num_to_show := .Site.Params.related_content_limit | default 4 -}}
           {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
           <div class="related">
               {{ if .Params.Cover }}
