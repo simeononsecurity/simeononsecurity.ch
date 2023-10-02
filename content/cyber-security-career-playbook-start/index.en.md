@@ -259,7 +259,7 @@ When considering whether to outsource or keep cybersecurity tasks in-house, it i
 - [Is Outsourcing Cyber Security Efforts a Good Idea?](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/): 
   - This article discusses the pros and cons of [outsourcing cyber security](https://simeononsecurity.ch/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/) efforts and provides guidance on making an informed decision.
 
-- [Critical Cyber Security Roles that You Should Have In-House](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/cybersecurity-tasks-that-shouldn't-be-outsourced/): 
+- [Critical Cyber Security Roles that You Should Have In-House](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/cybersecurity-tasks-that-shouldnt-be-outsourced/): 
   - Discover the **critical cyber security roles** that are best kept in-house to ensure control, expertise, and alignment with organizational objectives.
 
 ### Developing Plans and Programs
