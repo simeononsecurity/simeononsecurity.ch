@@ -470,7 +470,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "courses"
 name = "Courses"
-url = "/cources-and-playbooks"
+url = "/courses-and-playbooks"
 weight = 3
 [[languages.en.menu.main]]
 identifier = "practicetests"
