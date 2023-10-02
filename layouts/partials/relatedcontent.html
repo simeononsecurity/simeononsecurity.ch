@@ -14,7 +14,6 @@
 
 {{ if $enablerelated }}
   {{ if not (eq .Params.related.enable false) }}
-    {{ if and (not .IsHome) (.IsPage)}}
       {{- range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) -}}
         {{- $.Scratch.Set "has_related" true -}}
       {{- end -}}
@@ -124,5 +123,4 @@
         });
       });
     </script>
-  {{ end }}
 {{ end }}
