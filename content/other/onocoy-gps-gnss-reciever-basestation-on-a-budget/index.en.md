@@ -97,17 +97,20 @@ There are many recievers on the market but at a bare minimum it must support [**
     - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB or GPIO Breakout. Rewards are limited, 30% of possibly maximum rewards.
   - [ZED-F9P RTK GNSS receiver board with SMA Base or Rover](https://gnss.store/zed-f9p-gnss-modules/99-13-elt0087.html#/27-add_antenna-without_antenna) - $210
     - ZED-F9P Based, Dual-Band L1+L2 (or L1+L5), 184 Channels, 20hz pull rate, USB Only. Rewards are limited, 30% of possibly maximum rewards.
-- **Unicorecomm UM980/UM982 Based Recievers**
-  - (**Prefered**)[UM980 RTK GNSS USB Dongle](https://gnss.store/unicore-gnss-modules/247-elt0222.html) - $225
+- **Unicorecomm UM980/UM982 Based USB Receivers**
+The preferred option overall and by far for almost every setup.
+Requires [FTDI Drivers](https://ftdichip.com/drivers/vcp-drivers/).
+  - (**Preferred**)[UM980 RTK GNSS USB Dongle](https://gnss.store/unicore-gnss-modules/247-elt0222.html) - $225
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
-  - (**Prefered**)[UM982 Dual Channel RTK GNSS USB Dongle](https://gnss.store/um982-gnss-modules/239-elt0212.html) - $235
+  - (**Preferred**)[UM982 Dual Channel RTK GNSS USB Dongle](https://gnss.store/um982-gnss-modules/239-elt0212.html) - $235
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
 
 ### Advanced Receivers for DIY Onocoy Deployments
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They likely won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
-If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at most 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) and [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/24) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
+If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at most 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) and [Unicorecomm UM982](https://en.unicorecomm.com/products/detail/24) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
 
 - **Unicorecomm UM980**
+Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
   - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
     - For more details on how to install this, we recommend you read this article on [how to set up the I2C connection on the UM980](https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/)
@@ -119,6 +122,7 @@ If you don't know what that is or you aren't experienced, please use the options
     - May not be recognized by all systems, it uses USB protocols over mPCIe
 
 - **Unicorecomm UM982**
+Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
   - [UM982 M.2](https://gnss.store/um982-gnss-modules/242-elt0215.html)
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over M.2
@@ -127,9 +131,10 @@ If you don't know what that is or you aren't experienced, please use the options
     - May not be recognized by all systems, it uses USB protocols over mPCIe
 
 - **Septentrio Mosaic X5**
+Capable of up to 100% of the Onocoy rewards. Requires already available [firmware update](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5).
   - [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) - $645
     - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
-  - (**Prefered**)[simpleRTK3B mPCIe](https://www.ardusimple.com/product/simplertk3b-mpcie-septentrio-mosaic/)
+  - (**Preferred**)[simpleRTK3B mPCIe](https://www.ardusimple.com/product/simplertk3b-mpcie-septentrio-mosaic/)
     - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
 
 ## Recommended Antennas for Onocoy
@@ -137,14 +142,14 @@ If you don't know what that is or you aren't experienced, please use the options
 We can only recommend using these on the basic U-Blox based receivers we recommended earlier.
 - [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
   - Basic, simple, not the best, but it works.
-- (**Prefered**)[Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
+- (**Preferred**)[Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
   - Outdoor Rated, Cheap, Allows view of the Sky.
 - [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
   - This is only recommended for those who can not properly install the antennas below. It will underperform against the others. 
 
 ### Advanced Antennas for Onocoy
 For all other recommended Receivers above we recommend the antennas below. 
-- (**Prefered**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
+- (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
   - High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing.
 - [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
   - Strong Antenna Signal, High Precision, Builtin Anti-interference.
