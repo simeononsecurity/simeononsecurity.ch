@@ -108,14 +108,13 @@
                   'event_category': 'Related Article',
                   'event_label': linkUrl,
                   'event_callback': function() {
-                    window.location.href = linkUrl;
                   }
                 });
               } catch (error) {
                 console.error('Error sending gtag event:', error);
-                window.location.href = linkUrl;
               }
             }
+            window.location.href = linkUrl;
             yieldToMain(function() {
               sendTrackingEvent();
             }, "background");
