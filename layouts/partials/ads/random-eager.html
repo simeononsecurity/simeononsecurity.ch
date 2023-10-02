@@ -2,4 +2,8 @@
 {{ $shuffledAds := shuffle $ads }}
 {{ $shuffledAds = shuffle $shuffledAds }}
 {{ $randomAd := index $shuffledAds 0 }}
-{{ partial (printf "ads/%s" $randomAd) . }}
+
+{{ if and (not .IsHome) (.IsPage)}}
+    {{ partial (printf "ads/%s" $randomAd) . }}
+{{ end }}
+
