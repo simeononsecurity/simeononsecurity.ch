@@ -1,5 +1,5 @@
 ---
-title: "Boost Virtual Machine Security with vTPM: Step-by-Step Guide"
+title: "Boost VMWare Virtual Machine Security with vTPM: Step-by-Step Guide"
 date: 2023-09-02
 toc: true
 draft: false
