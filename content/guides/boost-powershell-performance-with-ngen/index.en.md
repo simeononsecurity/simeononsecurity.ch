@@ -73,7 +73,7 @@ Using Ngen with PowerShell is relatively straightforward, but it does require ad
                 if ($isWow64) {
                     return "64"
                 } else {
-                    return "32"
+                    return ""
                 }
             }
 
