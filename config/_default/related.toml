@@ -1,5 +1,5 @@
 [related]
-  includeNewer = false
+  includeNewer = true
   threshold = 80
   toLower = false
 
@@ -27,6 +27,14 @@
     toLower = false
     type = 'basic'
     weight = 80
+[[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'tags'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 40
 [[related.indices]]
     applyFilter = false
     cardinalityThreshold = 0
