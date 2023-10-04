@@ -51,6 +51,6 @@ tags: ["推荐学习资源", "SimeonOnSecurity 的建议", "信息技术学习",
 
 - [**Code.org**](https://studio.code.org/courses)Code.org 提供免费的编码课程和项目创意，可以帮助您入门。
 - [**CodeAcademy**](https://www.codecademy.com/)CodeAcademy 免费提供各种课程，包括 Python、C#、C++、HTML、JavaScript、PHP 等。
-- [**Python Institute**](https://pythoninstitute.org/free-python-courses/)Python 学院提供免费的 Python 入门级课程，帮助您提高技能。
+- [**Python Institute**](https://pythoninstitute.org/python-essentials-1)Python 学院提供免费的 Python 入门级课程，帮助您提高技能。
 
 无论您对 IT、网络安全、网络、操作系统还是编程和脚本感兴趣，都有大量资源可以帮助您学习和发展技能。通过 SimeonOnSecurity 的推荐，您可以找到最好的资源来满足您的学习目标，使您的职业生涯更上一层楼。

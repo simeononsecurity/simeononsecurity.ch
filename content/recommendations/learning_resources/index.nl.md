@@ -51,6 +51,6 @@ Als u meer wilt leren over programmeren en scripten, zijn hier enkele bronnen om
 
 - [**Code.org**](https://studio.code.org/courses) Code.org biedt gratis coderingscursussen en projectideeën die je op weg kunnen helpen.
 - [**CodeAcademy**](https://www.codecademy.com/) CodeAcademy biedt een verscheidenheid aan gratis cursussen, waaronder Python, C#, C++, HTML, JavaScript, PHP en meer.
-- [**Python Institute**](https://pythoninstitute.org/free-python-courses/) Het Python Institute biedt gratis Python-cursussen op instapniveau om u te helpen uw vaardigheden te ontwikkelen.
+- [**Python Institute**](https://pythoninstitute.org/python-essentials-1) Het Python Institute biedt gratis Python-cursussen op instapniveau om u te helpen uw vaardigheden te ontwikkelen.
 
 Of je nu geïnteresseerd bent in IT, Cybersecurity, Netwerken, Besturingssystemen, of Programmeren & Scripting, er zijn genoeg bronnen beschikbaar om je te helpen leren en je vaardigheden te ontwikkelen. Met de aanbevelingen van SimeonOnSecurity kun je de beste bronnen vinden om je leerdoelen te bereiken en je carrière naar het volgende niveau te tillen.

@@ -51,6 +51,6 @@ Dacă sunteți interesat să învățați mai multe despre programare și script
 
 - [**Code.org**](https://studio.code.org/courses) Code.org oferă cursuri gratuite de codare și idei de proiecte care vă pot ajuta să începeți.
 - [**CodeAcademy**](https://www.codecademy.com/) CodeAcademy oferă o varietate de cursuri, inclusiv Python, C#, C++, HTML, JavaScript, PHP și multe altele, în mod gratuit.
-- [**Python Institute**](https://pythoninstitute.org/free-python-courses/) Institutul Python oferă cursuri gratuite de Python pentru începători pentru a vă ajuta să vă dezvoltați abilitățile.
+- [**Python Institute**](https://pythoninstitute.org/python-essentials-1) Institutul Python oferă cursuri gratuite de Python pentru începători pentru a vă ajuta să vă dezvoltați abilitățile.
 
 Fie că sunteți interesat de IT, securitate cibernetică, rețele, sisteme de operare sau programare și scripting, există o mulțime de resurse disponibile pentru a vă ajuta să învățați și să vă dezvoltați abilitățile. Cu recomandările SimeonOnSecurity, puteți găsi cele mai bune resurse pentru a vă atinge obiectivele de învățare și pentru a vă duce cariera la nivelul următor.

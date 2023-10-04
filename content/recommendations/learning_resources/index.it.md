@@ -51,6 +51,6 @@ Se siete interessati a saperne di più su programmazione e scripting, ecco alcun
 
 - [**Code.org**](https://studio.code.org/courses) Code.org offre corsi di codifica gratuiti e idee per progetti che possono aiutarvi a iniziare.
 - [**CodeAcademy**](https://www.codecademy.com/) CodeAcademy offre gratuitamente una serie di corsi, tra cui Python, C#, C++, HTML, JavaScript, PHP e altri ancora.
-- [**Python Institute**](https://pythoninstitute.org/free-python-courses/) Il Python Institute offre corsi gratuiti di Python di base per aiutarvi a sviluppare le vostre competenze.
+- [**Python Institute**](https://pythoninstitute.org/python-essentials-1) Il Python Institute offre corsi gratuiti di Python di base per aiutarvi a sviluppare le vostre competenze.
 
 Che siate interessati a IT, Cybersecurity, Networking, Sistemi Operativi o Programmazione e Scripting, ci sono molte risorse disponibili per aiutarvi a imparare e sviluppare le vostre competenze. Grazie ai consigli di SimeonOnSecurity, potrete trovare le risorse migliori per raggiungere i vostri obiettivi di apprendimento e portare la vostra carriera al livello successivo.

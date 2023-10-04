@@ -51,6 +51,6 @@ IT、サイバーセキュリティ、ネットワーキング、オペレーテ
 
 - [**Code.org**](https://studio.code.org/courses)Code.orgは、無料のコーディングコースやプロジェクトのアイデアを提供しています。
 - [**CodeAcademy**](https://www.codecademy.com/)CodeAcademyでは、Python、C#、C++、HTML、JavaScript、PHPなど、さまざまなコースを無料で受講できます。
-- [**Python Institute**](https://pythoninstitute.org/free-python-courses/)Python Instituteでは、スキルアップのためのエントリーレベルのPythonコースを無料で提供しています。
+- [**Python Institute**](https://pythoninstitute.org/python-essentials-1)Python Instituteでは、スキルアップのためのエントリーレベルのPythonコースを無料で提供しています。
 
 IT、サイバーセキュリティ、ネットワーキング、オペレーティングシステム、プログラミング＆スクリプトのいずれに興味がある場合でも、学習やスキルアップに役立つリソースはたくさんあります。SimeonOnSecurityのおすすめを参考に、学習目標を達成するための最適なリソースを見つけ、キャリアを次のレベルへと引き上げることができます。

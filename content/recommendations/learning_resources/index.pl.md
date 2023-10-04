@@ -51,6 +51,6 @@ Jeśli chcesz dowiedzieć się więcej o programowaniu i skryptach, oto kilka za
 
 - [**Code.org**](https://studio.code.org/courses) Code.org oferuje bezpłatne kursy kodowania i pomysły na projekty, które mogą pomóc w rozpoczęciu nauki.
 - [**CodeAcademy**](https://www.codecademy.com/) CodeAcademy oferuje różnorodne kursy, w tym Python, C#, C++, HTML, JavaScript, PHP i inne za darmo.
-- [**Python Institute**](https://pythoninstitute.org/free-python-courses/) Python Institute oferuje bezpłatne kursy Pythona dla początkujących, które pomogą ci rozwinąć umiejętności.
+- [**Python Institute**](https://pythoninstitute.org/python-essentials-1) Python Institute oferuje bezpłatne kursy Pythona dla początkujących, które pomogą ci rozwinąć umiejętności.
 
 Niezależnie od tego, czy interesujesz się IT, cyberbezpieczeństwem, sieciami, systemami operacyjnymi czy programowaniem i skryptami, dostępnych jest wiele zasobów, które pomogą Ci uczyć się i rozwijać swoje umiejętności. Dzięki rekomendacjom SimeonOnSecurity możesz znaleźć najlepsze zasoby, aby osiągnąć swoje cele edukacyjne i przenieść swoją karierę na wyższy poziom.
