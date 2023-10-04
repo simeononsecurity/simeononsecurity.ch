@@ -111,7 +111,7 @@ If you don't know what that is or you aren't experienced, please use the options
 
 - **Unicorecomm UM980**
 Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
-  - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3OPABrj) + [I2C Qwiic Cable Kit](https://amzn.to/44szcg9)- $180
+  - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3tptGOk) + [GH1.25 to Dupont2.54 Pre-Crimped Cables](https://amzn.to/3tptGOk)- $180 - $220
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
     - For more details on how to install this, we recommend you read this article on [how to set up the I2C connection on the UM980](https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/)
   - [UM980 M.2](https://gnss.store/unicore-gnss-modules/250-elt0225.html)
