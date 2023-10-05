@@ -8,6 +8,7 @@ tags: ["感知", "OPNsense", "强化BSD", "惠普t740", "瘦客户端", "家庭�
 cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
 coverAlt: "一幅卡通画，画的是巫师施咒修复冻结的计算机，并带有一个对话泡泡，上面写着“问题已解决”"
 coverCaption: ""
+canonical: "https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/"
 ---
  HP t740 瘦客户机上的 pfSense、OPNsense 或 HardenedBSD**
 

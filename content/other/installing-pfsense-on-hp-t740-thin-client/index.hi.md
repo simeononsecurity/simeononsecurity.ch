@@ -8,6 +8,7 @@ tags: ["pfSense", "ओपीएनसेंस", "कठोरबीएसडी
 cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
 coverAlt: "जमे हुए कंप्यूटर को ठीक करने के लिए जादू करने वाले जादूगर का कार्टून, जिसमें स्पीच बबल कह रहा है प्रॉब्लम सॉल्व्ड"
 coverCaption: ""
+canonical: "https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/"
 ---
  HP t740 थिन क्लाइंट** पर pfSense, OPNsense, या HardenedBSD**
 

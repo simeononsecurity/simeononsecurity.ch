@@ -8,6 +8,7 @@ tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "client prim", "servidor
 cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
 coverAlt: "Un dibuix animat d'un mag fent un encanteri per arreglar un ordinador congelat, amb una bafarada que diu Problema resolt"
 coverCaption: ""
+canonical: "https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/"
 ---
  pfSense, OPNsense o HardenedBSD al client prim HP t740**
 
