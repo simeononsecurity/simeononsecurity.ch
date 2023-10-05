@@ -8,6 +8,7 @@ tags: ["COTS ONT", "BGW-320", "جزر الأزور", "الفيبر", "شبكة",
 cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
 coverAlt: "فني رسوم متحركة يحمل COTS ONT بكابل ليفي في الخلفية."
 coverCaption: ""
+canonical: ""
 ---
 
 ## كيفية تجاوز BGW-320 واستخدام Azores WAG-D20
