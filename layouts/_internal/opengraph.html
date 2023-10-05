@@ -124,11 +124,16 @@
 <meta property="article:tag" content="{{ . }}" />{{ end }}{{ end }}
 {{- end }}{{ end }}
 <base href="{{ .Permalink }}">
-{{ if eq .Lang "en" }}
-  <!-- If the language code is "en", set the base URL accordingly -->
-  <link rel="canonical" href="https://simeononsecurity.ch{{ .RelPermalink }}" />
+
+{{ if isset .Params "canonical" }}
+  <link rel="canonical" href="{{ .Params.canonical }}" />
 {{ else }}
-  <link rel="canonical" href="{{ .Permalink }}" />
+  {{ if eq .Lang "en" }}
+    <!-- If the language code is "en", set the base URL accordingly -->
+    <link rel="canonical" href="https://simeononsecurity.ch{{ .RelPermalink }}" />
+  {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}" />
+  {{ end }}
 {{ end }}
 <meta itemprop="description" content="{{ if strings.Contains .Permalink "/tags/" }}Read up on more articles about {{ .Title | markdownify }}. {{ end }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta itemprop="name" content="{{ .Site.Title }}" />
