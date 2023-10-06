@@ -25,7 +25,7 @@
             <div class="related-posts-list">
               {{- $num_to_show := .Site.Params.related_content_limit | default 4 -}}
               {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-              <div class="related">
+              <a href="{{ .RelPermalink }}"><div class="related">
                   {{ if .Params.Cover }}
                     {{ $cover := ""}}
                     {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ else }}{{ $cover = resources.Get (.Params.Cover) }}{{ end }}
@@ -87,7 +87,7 @@
                     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                   </div>
                 </div>
-              </div>
+              </div></a>
               {{ end }}
             </div>
           </div>
