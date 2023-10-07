@@ -30,6 +30,7 @@ While virtual cards offer excellent security, there are instances when a physica
 {{< figure src="cardwriter.jpg" alt="MXR Card Writer" link="https://amzn.to/3tfq956" >}}
 
 - [Magnetic Strip Reader and Writer](https://amzn.to/3tfq956)
+  - (**Optional**)[Bluetooth Magnetic Strip Reader and Writer](https://amzn.to/3ZNjfjG)
 - (**Optional**)[Blank Magnetic Stripe Cards](https://amzn.to/3ZxARQx)
   - Ideally you should use a card that is expired or a repurposed visa gift card so that it looks real in the off chance you have to hand it to a waiter or gas station clerk.
 - (**Optional**)[PVC ID Embosser](https://amzn.to/3rzdvNR)
@@ -70,6 +71,8 @@ Either using the Blank Cards mentioned above or a repurposed visa gift card and 
 
 You'll need to include a few extra details to the card like the name, address, and charge type and checksum information. We won't go into that here. But If you're determined enough to do this, the standards for this kind of information are public and available on wikipedia.
 
+If you're using the [card writer](https://amzn.to/3tfq956) that we linked above, you'll want to download and install the [Misiri software](https://www.msrdevice.com/software/Misiri.zip)
+
 ### (Optional) 5. Emboss the Card with Your Alias Information
 
 Emboss the card using the embosser we linked in the hardware requirements.
@@ -106,5 +109,6 @@ For more information on online privacy and financial security, you can refer to 
 3. [Federal Trade Commission](https://www.ftc.gov/)
 4. [Wikipedia - Magnetic stripe card](https://simple.wikipedia.org/wiki/Magnetic_stripe_card)
 5. [Wikipedia - Digital Card - Magnetic Stripe Card](https://en.wikipedia.org/wiki/Digital_card#Magnetic_stripe_card)
+6. [Misiri – Professional Magnetic Card Device Supplier](https://www.msrdevice.com/)
 
 
