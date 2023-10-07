@@ -6,7 +6,7 @@ draft: false
 description: "Discover how to effortlessly enhance your online searches using Google Dorks, the ultimate search power tool, and find hidden treasures of information with ease. Uncover vulnerabilities, gather OSINT, and stay ahead of the game."
 genre: ["SEO", "Cybersecurity", "Online Search", "Google Dorks", "Open Source Intelligence", "Hacking Techniques", "Digital Skills", "Web Searching", "Internet Security", "Data Discovery"]
 tags: ["Google Dorks", "Search Operators", "Online Search", "Cybersecurity", "Open Source Intelligence", "Hacking Techniques", "Advanced Search", "Web Searching", "Efficient Searching", "Digital Skills", "Data Discovery", "Online Research", "Google Hacking", "Information Retrieval", "Effortless Search", "Keyword Optimization", "OSINT", "Hacking Tools", "Internet Security", "Data Privacy", "Online Investigations", "Web Queries", "Digital Forensics", "Ethical Hacking", "Information Security", "Online Privacy", "Vulnerability Scanning", "Data Analysis", "Hacker Tools"]
-cover: "/img/cover/"
+cover: "/img/cover/cartoon-magnifying-glass-uncovering-data.png"
 coverAlt: "A cartoon-style magnifying glass uncovering hidden digital data."
 coverCaption: "Unleash Your Digital Detective Skills with Google Dorks!"
 canonical: ""
