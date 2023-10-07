@@ -29,6 +29,9 @@ tmp
 debug.log
 .env
 .env.google
+.docx
+.doc
+.pdf
 
 # Executables
 *.swf
