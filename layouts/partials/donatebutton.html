@@ -73,7 +73,7 @@
       link.addEventListener('click', function (event) {
         event.preventDefault();
         var linkUrl = this.href;
-        yieldToMain(function() {
+        window.location.href = linkUrl;        yieldToMain(function() {
           sendTrackingEvent(linkUrl);
         }, "background");
       });
