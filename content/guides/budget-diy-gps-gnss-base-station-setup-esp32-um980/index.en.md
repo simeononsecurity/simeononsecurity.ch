@@ -44,7 +44,9 @@ Before we begin, let's take a look at the hardware components you'll need:
 4. **Enclosure Kit**: [qBoxMini DIY IOT Enclosure Plus Kit (One SMA)](https://amzn.to/3PIvwl7)
 
 5. **GNSS Receiver Board** (Choose one):
-   - [UM980 RTK InCase PIN GNSS receiver board with USB C](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) - If you choose this option, you'll need some [male to male dupont wires](https://amzn.to/3Q7VKyH). 
+   - [UM980 RTK InCase PIN GNSS receiver board with USB C](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) 
+     - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
+     - If you choose this option, you'll need some [male to male dupont wires](https://amzn.to/3Q7VKyH). 
    - [Full Frequency Centimeter Level Low-power and High-precision UM980 Module RTK Differential Drone GPS Module GNSS Whole System](https://www.aliexpress.us/item/3256805781651631.html)
 
 6. **Firmware**: [ESP32-XBee Firmware](https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2)
@@ -259,6 +261,51 @@ If you would like to reset the device configuration, you should also download:
       {{< figure src="esp32boot.webp" alt="ESP32 Boot Button" caption="ESP32 Boot Button - randomnerdtutorials.com" link="https://randomnerdtutorials.com/boot-button-1/" >}}
       
       If this procedure does not work for any reason, an alternative method to perform a full reset is to follow the [Firmware Update](https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update) procedure, including the `wipe_config.bin` file as described.
+## Additional Configuration For Unicorecomm UM980 and UM982 Devices
+
+To enable all the bands and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
+
+1. `mode base time 60 2 2.5`: This line configures the reference station's operation mode, which is set to "base". In this configuration the base station will figure out it's actual location after receiving traffic for 60 seconds. 
+
+2. `CONFIG SIGNALGROUP 2`: This command appears to configure the signal group for the UM980/UM982 devices. This enables all bands and frequencies on the device.
+
+3. `rtcm1005 30 and rtcm1006 30`: These commands set the rate at which RTCM messages 1005 and 1006 are sent out from the reference station, respectively. The values "30" commands a 30-second interval.
+
+4. `rtcm1033 1, rtcm1074 1, rtcm1077 1, rtcm1084 1, rtcm1087 1, rtcm1094 1, rtcm1097 1, and rtcm1117 1, rtcm1124 1 and rtcm1127 1`: These commands enable RTCM messages, ensuring that the reference station transmits these specific messages. The value "1" enables these messages to happen every second..
+
+5. `saveconfig`: This command saves the configured settings, ensuring that they persist and are applied whenever the reference station is operational.
+
+### Unicorecomm UM980 and UM982 Configuration Script
+```bash
+mode base time 60 2 2.5
+
+CONFIG SIGNALGROUP 2
+
+rtcm1005 30
+rtcm1006 30
+rtcm1033 1
+rtcm1074 1
+
+rtcm1077 1
+rtcm1084 1
+rtcm1087 1
+rtcm1094 1
+rtcm1097 1
+rtcm1117 1
+
+rtcm1124 1
+rtcm1127 1
+
+saveconfig
+```
+
+*It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type.
+
+### Unicorecomm UM980 and UM982 Commands Reference Manuals
+For additional configuration guidance, consult the following documentation:
+- [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
+- [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
+
 
 ### 9. Testing
 Once the firmware is successfully flashed, your ESP32 board is ready for testing. Begin developing and running IoT applications, making the most of the board's WiFi, Bluetooth, and GNSS capabilities.
