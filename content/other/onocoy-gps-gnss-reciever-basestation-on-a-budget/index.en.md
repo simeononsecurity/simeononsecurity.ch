@@ -103,8 +103,10 @@ The preferred option overall and by far for almost every setup.
 Requires [FTDI Drivers](https://ftdichip.com/drivers/vcp-drivers/).
   - (**Preferred**)[UM980 RTK GNSS USB Dongle](https://gnss.store/unicore-gnss-modules/247-elt0222.html) - $225
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
+    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
   - (**Preferred**)[UM982 Dual Channel RTK GNSS USB Dongle](https://gnss.store/um982-gnss-modules/239-elt0212.html) - $235
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
+    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
 
 ### Advanced Receivers for DIY Onocoy Deployments
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They likely won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
@@ -118,18 +120,22 @@ Capable of up to 80% of the Onocoy rewards. 100% is possible after planned futur
   - [UM980 M.2](https://gnss.store/unicore-gnss-modules/250-elt0225.html)
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over M.2
+    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
   - [UM980 mPCIe](https://gnss.store/unicore-gnss-modules/251-elt0226.html)
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over mPCIe
+    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
 
 - **Unicorecomm UM982**
 Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
   - [UM982 M.2](https://gnss.store/um982-gnss-modules/242-elt0215.html)
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over M.2
+    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
   - [UM982 mPICe](https://gnss.store/um982-gnss-modules/243-elt0216.html)
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over mPCIe
+    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
 
 - **Septentrio Mosaic X5**
 Capable of up to 100% of the Onocoy rewards. Requires already available [firmware update](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5).
@@ -397,7 +403,7 @@ To enable all the bands and base station mode on the Unicorecomm devices you'll 
 
 The provided configuration adjustments are made to ensure the proper functionality of the reference station receiver, specifically tailored for the [Onocoy system](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).
 
-1. `mode base time 60 2 2.5`: This line configures the reference station's operation mode, which is set to "base". In this configuration the base station will figure out it's actual location after recieving traffic for 60 seconds. 
+1. `mode base time 60 2 2.5`: This line configures the reference station's operation mode, which is set to "base". In this configuration the base station will figure out it's actual location after receiving traffic for 60 seconds. 
 
 2. `CONFIG SIGNALGROUP 2`: This command appears to configure the signal group for the UM980/UM982 devices. This enables all bands and frequencies on the device.
 
@@ -431,7 +437,7 @@ rtcm1127 1
 saveconfig
 ```
 
-*It should be noted that the Unicorecomm device does not have teh ability to transmit the `RTCM 1230` message type as required per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).*
+*It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type as required per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).*
 
 ### Unicorecomm UM980 and UM982 Commands Reference Manuals
 For additional configuration guidance, consult the following documentation:
