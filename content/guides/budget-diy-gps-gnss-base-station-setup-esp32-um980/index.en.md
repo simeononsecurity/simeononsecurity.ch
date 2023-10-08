@@ -49,6 +49,29 @@ Before we begin, let's take a look at the hardware components you'll need:
 
 6. **Firmware**: [ESP32-XBee Firmware](https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2)
 
+### Recommended Antennas
+### Basic Antennas for RTK, ROVER, Window Situations
+- [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
+  - Basic, simple, not the best, but it works.
+- [Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
+  - Outdoor Rated, Cheap, Allows view of the Sky.
+- [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
+  - This is only recommended for those who can not properly install the antennas below. It will underperform against the others. 
+
+### Advanced Antennas for Base and Reciver Stations
+- (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
+  - High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands.. 
+- (**Preferred**)[Calibrated Survey GNSS Tripleband + L-band antenna (IP67)](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
+  - Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands
+- [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
+  - Strong Antenna Signal, High Precision, Builtin Anti-interference.
+- [GNSS Surveying Antenna and Precise Navigation Antenna](https://amzn.to/47Mj4ZH) - $180
+  - High Antenna Gain, Extremely High Precision, IP67 Rated.
+- [HARXON CSX627A](https://www.gns-electronics.de/product/harxon-csx627a/) - $135
+  - Calibrated Triple Band RTK Antenna, IP67, Supports All Bands
+- [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) - $205
+  - Supports Most Bands, IP67 Rated
+
 ## Step-by-Step Setup
 
 ### 1. Assemble Your Workstation / Desktop / Laptop
