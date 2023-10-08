@@ -116,8 +116,9 @@
     <br>
     {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     <br>
-    <br>
     {{ partialCached "relatedcontent.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
+    <br>
+    {{ partialCached "referredarticles.html" . .Params.ref .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     <br>
     {{ partialCached "share-buttons.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     {{ partialCached "comments.html" . .Page .Page.Page }}
