@@ -55,9 +55,6 @@
     "link.repocket.co"
     "traffmonetizer.com/?aff="
     "https://www.unmineable.com/?ref="
-
-
-
 }}
 
 {{ $isBaseURL := false }}
@@ -70,9 +67,9 @@
     {{ end }}
 {{ end }}
 
-{{ range $amazonURL := $affiliateURLs }}
+{{ range $affiliateURL := $affiliateURLs }}
     {{ if strings.Contains $.Destination $amazonURL }}
-        {{ $isAmazonURL = true }}
+        {{ $isaffiliateURL = true }}
         {{ break }}
     {{ end }}
 {{ end }}
@@ -85,7 +82,7 @@
      rel="follow"
     {{ else if strings.HasPrefix $.Destination "http" }}
     {{ if not $isBaseURL }}
-    {{ if $isAmazonURL }}
+    {{ if $isaffiliateURL }}
      rel="nofollow noopener noreferrer sponsored"
     {{ else }}
      rel="noopener noreferrer"
