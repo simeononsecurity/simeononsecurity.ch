@@ -1591,6 +1591,10 @@ ins.adsbygoogle {
   font-size: 1rem;
   padding: 12px;
   margin-right: 10px;
+  margin-left: 10px;
+  max-width: 800px;
+  min-width: 300px;
+  width: auto;
 }
 button[type="submit"] {
   border: none;
