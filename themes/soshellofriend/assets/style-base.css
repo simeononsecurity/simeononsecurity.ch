@@ -825,13 +825,17 @@ nav.sharebuttons li > a:hover .will-change {
 .menu-buttons h2 {
   text-align: left;
   margin:auto;
-  margin:20px;
+  margin-left:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .posts h2 {
   text-align: left;
   margin:auto;
-  margin:20px;
+  margin-left:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Apply styles to the .menu-button class */
