@@ -1,22 +1,22 @@
 <script>
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
   function loadInfoLinks() {
     var infolinks_pid = 3400692;
     var infolinks_wsid = 0;
-    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
     var scriptTag = document.createElement("script");
     scriptTag.src = "https://resources.infolinks.com/js/infolinks_main.js";
     scriptTag.setAttribute("defer", "");
-    scriptTag.setAttribute("media", "(min-width: 900px)");
     document.body.appendChild(scriptTag);
   }
 
-  if (width > 900) {
-    // Add an event listener to execute the function when the body content is loaded
-    document.addEventListener("DOMContentLoaded", function() {
+  // Add an event listener to execute the function when the body content is loaded
+  document.addEventListener("DOMContentLoaded", function() {
+    if (width > 900) {
       yieldToMain(function() {
         loadInfoLinks();
       }, "background");
-    });
-  }
+    }
+  });
 </script>
