@@ -19,7 +19,7 @@
     "https://zh.simeononsecurity.ch"
 }}
 
-{{ $amazonURLs := slice
+{{ $affiliateURLs := slice
     "amazon.com"
     "amzn.to"
     "amazon.co.uk"
@@ -38,6 +38,26 @@
     "amazon.ae"
     "amazon.sa"
     "amazon.cn"
+    "bitdefender.f9tmep.net"
+    "joindeleteme.com/refer?coupon="
+    "earnapp.com"
+    "r.honeygain.me"
+    "nextdns.io/?from="
+    "affiliate.orangewebsite.com"
+    "pawns.app/?r="
+    "?rid="
+    "?r="
+    "?ref="
+    "?aff="
+    "?from="
+    "startmail.com/en/partner/?ref="
+    "presearch.com/signup?rid="
+    "link.repocket.co"
+    "traffmonetizer.com/?aff="
+    "https://www.unmineable.com/?ref="
+
+
+
 }}
 
 {{ $isBaseURL := false }}
@@ -50,7 +70,7 @@
     {{ end }}
 {{ end }}
 
-{{ range $amazonURL := $amazonURLs }}
+{{ range $amazonURL := $affiliateURLs }}
     {{ if strings.Contains $.Destination $amazonURL }}
         {{ $isAmazonURL = true }}
         {{ break }}
