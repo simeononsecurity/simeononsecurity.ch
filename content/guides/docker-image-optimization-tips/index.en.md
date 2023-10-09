@@ -10,9 +10,9 @@ cover: "/img/cover/docker-container-optimizing-size.png"
 coverAlt: "Docker container optimizing size with a magnifying glass."
 coverCaption: "Optimize, Minimize, and Maximize Efficiency with Docker!"
 canonical: ""
-ref: ["/articles/how-to-build-docker-containers-from-scratch/","/articles/how-to-secure-your-docker-and-kubernetes-environment/"]
+ref: ["/articles/how-to-build-docker-containers-from-scratch","/articles/how-to-secure-your-docker-and-kubernetes-environment"]
 ---
-
+ 
 **Optimizing Docker Images for Efficiency, Performance, and Security**
 
 In the realm of containerization, [**Docker**](https://simeononsecurity.ch/articles/how-to-build-docker-containers-from-scratch/) reigns supreme. **Docker images** serve as the foundation of containerized applications, encapsulating every element required for seamless operation, from code to essential libraries and dependencies. However, as applications expand and evolve, [**Docker images**](https://simeononsecurity.ch/articles/how-to-secure-your-docker-and-kubernetes-environment/) can bloat, resulting in inefficient and resource-intensive containers. In this comprehensive guide, we delve into expert techniques to meticulously optimize **Docker images**, enhancing efficiency, boosting performance, and fortifying security.
