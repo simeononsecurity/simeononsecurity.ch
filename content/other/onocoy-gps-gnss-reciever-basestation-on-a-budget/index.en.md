@@ -9,7 +9,7 @@ tags: ["Onocoy", "Geodnet", "Reference Station", "ntrip", "GNSS", "GPS", "DIY GP
 cover: "/img/cover/gps-satellite-setup.png"
 coverAlt: "A symbolic image showcasing a GPS satellite in orbit."
 coverCaption: "Unlock Ultimate Precision with DIY Onocoy Servers."
-ref: ["/other/creating-profitable-low-powered-crypto-miners"]
+ref: ["/other/creating-profitable-low-powered-crypto-miners","/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980"]
 ---
 **DIY Onocoy Reference Station Setup Guide**
 
@@ -79,6 +79,9 @@ Hard to get ahold of these days but they are super low power and are quite custo
 For super low power Raspberry Pi equivalent but on x64 platform. 
 - [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
 - [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+
+### Ultra Low Power / Low Budget
+If you're interested in a lower power and/or low budget setup, read our guide on [How to Set Up a GPS/GNSS Bases Station on an ESP32](https://simeononsecurity.ch/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/).
 
 ### Compute Notable Mentions
 Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
