@@ -58,7 +58,7 @@
 }}
 
 {{ $isBaseURL := false }}
-{{ $isAmazonURL := false }}
+{{ $isaffiliateURL := false }}
 
 {{ range $baseURL := $baseURLs }}
     {{ if strings.Contains $.Destination $baseURL }}
@@ -68,7 +68,7 @@
 {{ end }}
 
 {{ range $affiliateURL := $affiliateURLs }}
-    {{ if strings.Contains $.Destination $amazonURL }}
+    {{ if strings.Contains $.Destination $affiliateURL }}
         {{ $isaffiliateURL = true }}
         {{ break }}
     {{ end }}
