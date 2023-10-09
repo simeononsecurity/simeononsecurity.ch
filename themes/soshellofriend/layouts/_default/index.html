@@ -41,29 +41,29 @@
   </div>
     
   <br>
-  <hr style="max-width: 800px; margin: 20px:">
+  <hr id="index-hr">
   <br>
-
-  <div class="menu-buttons" style="height:auto; width:auto; max-width:800px;">
-    <div align="left" style="margin:auto;margin-left:20px;"><h2 class="post-title">Categories</h2></div>
+  
+  <div class="menu-buttons">
+    <h2 class="post-title">Categories</h2>
     {{ range $.Site.Menus.main }}
       {{ if not .HasChildren }}
-        <a class="menu-button rounded" style="display: inline-block; background-color: var(--color-secondary); color: var(--color); margin:5px; padding:20px; border-radius: 10px;" href="{{ .URL }}" title="{{ .Name }}" itemprop="url">
+        <a class="menu-button rounded" href="{{ .URL }}" title="{{ .Name }}" itemprop="url">
           {{ .Name }}
         </a>
       {{ end }}
     {{ end }}
-  </div>   
+  </div>  
 
   <br>
-  <hr style="max-width: 800px; margin: 20px:">
+  <hr id="index-hr">
   <br>
   
   {{ if eq $paginator.PageNumber 1 }}
     {{ with .Site.Data.article_index.articles }}
     {{ $imgloading := "lazy" }}
       <div class="posts" itemscope itemtype="https://schema.org/Blog">
-        <div align="left" style="margin:auto;margin-left:20px;"><h2 class="post-title">Top Articles</h2></div>
+        <h2 class="post-title">Top Articles</h2>
         {{ range . }}
           {{ $article := $.Site.GetPage . }}
           {{ with $article }} 
