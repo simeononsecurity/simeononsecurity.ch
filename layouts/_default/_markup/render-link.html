@@ -77,13 +77,13 @@
 <span itemscope itemtype="https://schema.org/WebPage">
     <meta itemprop="name" content="{{ .Text }}">
     <meta itemprop="url" content="{{ .Destination | safeURL }}">
-    <a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}
+    <a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}" alt="{{ . }}"{{ end }}
     {{ if or (not (strings.Contains $.Destination "http")) $isBaseURL }}
      rel="follow"
     {{ else if strings.HasPrefix $.Destination "http" }}
     {{ if not $isBaseURL }}
     {{ if $isaffiliateURL }}
-     rel="nofollow noopener noreferrer sponsored"
+     rel="nofollow noopener noreferrer sponsored" alt="Affiliate Link"
     {{ else }}
      rel="noopener noreferrer"
     {{ end }}
