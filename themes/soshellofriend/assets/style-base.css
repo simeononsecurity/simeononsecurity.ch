@@ -808,3 +808,38 @@ nav.sharebuttons li > a:hover .will-change {
     margin: auto;
   }
 }
+/* Apply styles to the <hr> element with id="index-hr" */
+#index-hr {
+  max-width: 800px;
+  margin: 20px;
+}
+
+/* Apply styles to the .menu-buttons class */
+.menu-buttons {
+  height: auto;
+  width: auto;
+  max-width: 800px;
+}
+
+/* Apply styles to the .menu-buttons div's child <h2> elements */
+.menu-buttons h2 {
+  text-align: left;
+  margin:auto;
+  margin:20px;
+}
+
+.posts h2 {
+  text-align: left;
+  margin:auto;
+  margin:20px;
+}
+
+/* Apply styles to the .menu-button class */
+.menu-button {
+  display: inline-block;
+  background-color: var(--color-secondary);
+  color: var(--color);
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
