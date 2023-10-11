@@ -56,7 +56,7 @@ ______
 ### The Best Android Phones for Mining Verus
 Currently there are standout devices in the world of Android Verus Mining in terms of profitability, ROI, durability, and availability.
 
-1. [**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
+1. (**Preferred**)[**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
    - The A03s is an amazing deal that nets you up to 3.5Mhs and can be regularly had for around $50 brand new. It also has the suggested Li-Po battery.
    1. [Tracfone Samsung Galaxy A03s](https://amzn.to/3saKyYR) - $49
    2. [Total by Verizon Samsung Galaxy A03s](https://amzn.to/3Ed2NzD) - $49
@@ -137,6 +137,25 @@ These steps guide you through the process of mining VerusCoin on your Android de
 
 1. Open the [Verus Miner application](https://pangz-lab.github.io/verusminer/#downloads)
    {{< figure src="verusminer.webp" alt="A screenshot of the verus miner application home menu." >}}
+   1. Optionally, for additional optimizations, look up your device and discover what the lowest cores are and [download the specific version for that core](https://github.com/pangz-lab/verus_miner-release/tree/main/v4.2.0).
+      1. Ex. The [**Samsung Galaxy A03s**](https://amzn.to/3saKyYR) uses [cortex-a53](https://github.com/pangz-lab/verus_miner-release/tree/main/v4.2.0/v4.2.0_3.8.3%2B5%5Bca53%5D) cores.
+            `gen` -> generic
+            `ca35` -> cortex-a35
+            `ca53` -> cortex-a53
+            `ca55` -> cortex-a55
+            `ca57` -> cortex-a57
+            `ca72` -> cortex-a72
+            `ca73` -> cortex-a73
+            `ca75` -> cortex-a75
+            `exm1` -> exynos-m1
+            `flkr` -> falkor
+            `saphira` -> saphira
+            `tx`	-> thunderx
+            `txt81` -> thunderxt81
+            `txt88` -> thunderxt88
+            `txt83` -> thunderxt83
+            `tx2t99` -> thunderx2t99
+
 
 2. In the mining menu, you'll see a preconfigured mining profile. You'll want to open this and paste your wallet address from the **VerusCoin Wallet** you downloaded earlier. 
    {{< figure src="verusminersettings.webp" alt="A screenshot of the verus miner application mining settings." >}}
