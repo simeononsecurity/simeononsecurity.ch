@@ -94,7 +94,7 @@ When mining Verus we typically like packs of high quality USB A to USB C chargin
 2. [Basic Desk Fan](https://amzn.to/3RDfFqu)
    1. This basic desk fan uses only 20w of power and provides plenty of air flow for up to 12 devices depending on how they are layed out.
 3. [AC Infinity 120mm Usb Fam](https://amzn.to/3RympGb)
-   1. Want something cool, sleek, and quiet. This is your best bet.
+   1. Want something cool, sleek, and quiet? This is your best bet.
 ______
 
 ## Best Practices for Mining Verus on Android
@@ -106,6 +106,8 @@ ______
 ______
 {{< inarticle-dark >}}
 ______
+
+
 
 ## How to Mine Verus on Android?
 
