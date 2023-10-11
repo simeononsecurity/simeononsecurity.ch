@@ -158,7 +158,7 @@ These steps guide you through the process of mining VerusCoin on your Android de
 
 2. In the mining menu, you'll see a preconfigured mining profile. You'll want to open this and paste your wallet address from the **VerusCoin Wallet** you downloaded earlier. 
    {{< figure src="verusminersettings.webp" alt="A screenshot of the verus miner application mining settings." >}}
-   1. Remember to select no more than 2 less than the max core count of your device unless you're mining on a dedicated device with active cooling.
+   1. Remember to select no more than 2 less than the max core count of your device unless you're mining on a dedicated device with active cooling. Even with active cooling, it's recommended to leave 1 core free.
    2. Choose your pool carefully, **the default pool has a high 5% fee**. You can identify the [best Verus pools](https://miningpoolstats.stream/veruscoin). At the time of writing that is **luckpool.net**
    3. Adjust your miner name
    4. Save the settings
