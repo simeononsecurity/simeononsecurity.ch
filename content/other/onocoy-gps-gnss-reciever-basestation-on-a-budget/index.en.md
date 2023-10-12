@@ -346,21 +346,21 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```
   2. Add the Service Configuration
     ```toml
-      [Unit]
-      Description=RTKLIB Service
-      After=network.target
-      Wants=network-online.target
-      After=network-online.target
+    [Unit]
+    Description=RTKLIB Service
+    After=network.target
+    Wants=network-online.target
+    After=network-online.target
 
-      [Service]
-      ExecStart=/path/to/rtkrcv -s -o /path/to/rtkrcv.conf
-      Restart=always
-      RestartSec=120  # 2 minutes (in seconds)
-      TimeoutStartSec=300 # Set a 5-minute timeout (adjust as needed)
-      User=root
+    [Service]
+    ExecStart=/path/to/rtkrcv -s -o /path/to/rtkrcv.conf
+    Restart=always
+    RestartSec=120  # 2 minutes (in seconds)
+    TimeoutStartSec=300 # Set a 5-minute timeout (adjust as needed)
+    User=root
 
-      [Install]
-      WantedBy=default.target
+    [Install]
+    WantedBy=default.target
     ```
   3. Enable and Start The Service
     ```bash
