@@ -6,9 +6,9 @@ const fuseOptions = {
   includeMatches: true,
   includeScore: true,
   tokenize: true,
-  location: 0.10,
+  location: 0,
   distance: 100,
-  minMatchCharLength: 5,
+  minMatchCharLength: 1,
   keys: [
     {name: "title", weight: 0.45},
     {name: "contents", weight: 0.6},
