@@ -3,7 +3,7 @@ title: "Política de privacidad: Recogida de información, uso y consentimiento 
 date: 2020-08-08
 ---
 
-En SimeonOnSecurity, accesible desde https://SimeonOnSecurity.ch, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de política de privacidad contiene los tipos de información que recoge y registra SimeonOnSecurity y cómo la utilizamos.
+En SimeonOnSecurity, accesible desde https://simeononsecurity.com, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de política de privacidad contiene los tipos de información que recoge y registra SimeonOnSecurity y cómo la utilizamos.
 
 Si tiene preguntas adicionales o necesita más información sobre nuestra Política de Privacidad, no dude en ponerse en contacto con nosotros.
 

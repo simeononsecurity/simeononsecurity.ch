@@ -31,10 +31,10 @@ ______
 ## Threat Vectors and Attack Types
 
 ### Malware
-Malware, short for [**malicious software**](https://simeononsecurity.ch/articles/how-to-protect-your-devices-from-malware/), encompasses a wide range of malicious programs designed to infiltrate and compromise computer systems. Common types include viruses, Trojans, and ransomware. To protect against malware, it's essential to use reliable [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus).
+Malware, short for [**malicious software**](https://simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/), encompasses a wide range of malicious programs designed to infiltrate and compromise computer systems. Common types include viruses, Trojans, and ransomware. To protect against malware, it's essential to use reliable [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus).
 
 ### Phishing
-[**Phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) attacks involve tricking individuals into divulging sensitive information or downloading malicious files. Cybercriminals often impersonate trustworthy entities, such as banks or government agencies, to deceive their victims. Understanding the signs of phishing emails is key to staying safe.
+[**Phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) attacks involve tricking individuals into divulging sensitive information or downloading malicious files. Cybercriminals often impersonate trustworthy entities, such as banks or government agencies, to deceive their victims. Understanding the signs of phishing emails is key to staying safe.
 
 ### DDoS Attacks
 **Distributed Denial of Service (DDoS)** attacks overwhelm a target's online services, rendering them inaccessible. Organizations need robust **DDoS mitigation** solutions to counter these threats effectively.
@@ -44,13 +44,13 @@ ______
 ## Cybersecurity Technologies
 
 ### Firewall
-A [**firewall**](https://simeononsecurity.ch/articles/pfsense-vs-firewalla-network-security-comparison/) acts as a barrier between a private network and external threats. It filters incoming and outgoing network traffic based on a predefined set of security rules. Modern firewalls provide advanced features like **intrusion detection and prevention**.
+A [**firewall**](https://simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/) acts as a barrier between a private network and external threats. It filters incoming and outgoing network traffic based on a predefined set of security rules. Modern firewalls provide advanced features like **intrusion detection and prevention**.
 
 ### VPN (Virtual Private Network)
-A [**VPN**](https://simeononsecurity.ch/articles/mullvad-vs-protonvpn/) creates a secure, encrypted connection between a user and a remote server. This technology is vital for protecting data while browsing the internet, especially on public Wi-Fi networks.
+A [**VPN**](https://simeononsecurity.com/articles/mullvad-vs-protonvpn/) creates a secure, encrypted connection between a user and a remote server. This technology is vital for protecting data while browsing the internet, especially on public Wi-Fi networks.
 
 ### Two-Factor Authentication (2FA)
-[**Two-Factor Authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) adds an extra layer of security by requiring users to provide two separate authentication factors, such as a password and a unique code sent to their mobile device.
+[**Two-Factor Authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) adds an extra layer of security by requiring users to provide two separate authentication factors, such as a password and a unique code sent to their mobile device.
 
 ______
 
@@ -59,16 +59,16 @@ ______
 In the realm of **cybersecurity**, **government regulations** play a **significant role** in shaping best practices and standards. Staying informed about these regulations is **crucial** not only to ensure **legal compliance** but also to **enhance security**.
 
 ### GDPR (General Data Protection Regulation)
-The [**General Data Protection Regulation (GDPR)**](https://simeononsecurity.ch/articles/what-is-gdpr-overview-explanation/), enforced by the **European Union (EU)**, focuses on data protection and privacy. It imposes **strict requirements** on organizations handling personal data, with **severe penalties** for non-compliance. For a detailed understanding of GDPR and its impact, you can refer to the [official GDPR website](https://gdpr.eu/).
+The [**General Data Protection Regulation (GDPR)**](https://simeononsecurity.com/articles/what-is-gdpr-overview-explanation/), enforced by the **European Union (EU)**, focuses on data protection and privacy. It imposes **strict requirements** on organizations handling personal data, with **severe penalties** for non-compliance. For a detailed understanding of GDPR and its impact, you can refer to the [official GDPR website](https://gdpr.eu/).
 
 ### HIPAA (Health Insurance Portability and Accountability Act)
 **HIPAA** is a **U.S. law** that **regulates** the handling of **healthcare information**. Healthcare providers and organizations must adhere to **strict security measures** to protect patient data. You can find comprehensive information about HIPAA and its requirements on the [U.S. Department of Health & Human Services HIPAA webpage](https://www.hhs.gov/hipaa/index.html).
 
 ### CCPA (California Consumer Privacy Act)
-The [**California Consumer Privacy Act (CCPA)**](https://simeononsecurity.ch/articles/ccpa-explained-consumer-privacy-rights/) is a state-level regulation in California, USA, that grants consumers rights regarding their personal information. It requires businesses to disclose data collection practices and allows consumers to opt-out of data sales. Explore more about CCPA on the [official CCPA website](https://oag.ca.gov/privacy/ccpa).
+The [**California Consumer Privacy Act (CCPA)**](https://simeononsecurity.com/articles/ccpa-explained-consumer-privacy-rights/) is a state-level regulation in California, USA, that grants consumers rights regarding their personal information. It requires businesses to disclose data collection practices and allows consumers to opt-out of data sales. Explore more about CCPA on the [official CCPA website](https://oag.ca.gov/privacy/ccpa).
 
 ### NIST Cybersecurity Framework
-The [**National Institute of Standards and Technology (NIST)** Cybersecurity Framework](https://simeononsecurity.ch/articles/nist-cybersecurity-framework-vs-iso-27001/) provides guidance on managing and reducing cybersecurity risk. While not a regulation, it's widely adopted as a best practice in the United States. Learn more about the NIST Cybersecurity Framework on the [NIST website](https://www.nist.gov/cyberframework).
+The [**National Institute of Standards and Technology (NIST)** Cybersecurity Framework](https://simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/) provides guidance on managing and reducing cybersecurity risk. While not a regulation, it's widely adopted as a best practice in the United States. Learn more about the NIST Cybersecurity Framework on the [NIST website](https://www.nist.gov/cyberframework).
 
 ### PIPEDA (Personal Information Protection and Electronic Documents Act)
 In Canada, the **Personal Information Protection and Electronic Documents Act (PIPEDA)** governs the collection, use, and disclosure of personal information by private-sector organizations. It emphasizes the importance of consent and safeguards for data handling. Get details on PIPEDA from the [Government of Canada website](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/).

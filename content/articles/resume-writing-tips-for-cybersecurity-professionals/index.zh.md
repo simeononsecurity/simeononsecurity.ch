@@ -68,7 +68,7 @@ ______
 
 总之，制作一份有效的简历对于寻求职业发展的网络安全、软件开发和 IT 专业人士来说至关重要。通过根据职位描述定制简历、展示技术技能和成就、强调网络安全和隐私意识、突出解决问题的能力、保持简洁明了、使用行动动词和可量化的结果以及紧跟行业趋势，您可以制作出一份让潜在雇主眼前一亮的简历。
 
-有关简历撰写的更多一般提示，您还可以参考 [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/)SimeonOnSecurity.ch网站上的 "SimeonOnSecurity.ch "提供了宝贵的见解和额外的指导。
+有关简历撰写的更多一般提示，您还可以参考 [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/)simeononsecurity.com网站上的 "simeononsecurity.com "提供了宝贵的见解和额外的指导。
 
 ______
 

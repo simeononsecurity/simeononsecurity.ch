@@ -59,7 +59,7 @@ Contributions to this collection are welcome! If you have improvements or new mo
 This project is licensed under the MIT License. See the [`LICENSE`](https://github.com/simeononsecurity/ansible_shodan/blob/main/LICENSE) file for details.
 
 ### Author
-This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https://simeononsecurity.ch/).
+This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https://simeononsecurity.com/).
 
 ### Acknowledgments
 Special thanks to the Shodan API for providing the capabilities to interact with their service using Ansible.

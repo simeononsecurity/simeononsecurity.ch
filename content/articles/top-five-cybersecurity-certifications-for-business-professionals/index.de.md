@@ -67,4 +67,4 @@ ______
 - CIPM - Zertifizierter Datenschutzbeauftragter: [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - Zertifizierter Manager für Informationssicherheit: [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - Certified Information Privacy Professional/Vereinigte Staaten: [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
-- SimeonOnSecurity - Top-Zertifizierungen für Cybersicherheit für Regierungs- und Militärangehörige [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
+- SimeonOnSecurity - Top-Zertifizierungen für Cybersicherheit für Regierungs- und Militärangehörige [https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/)

@@ -36,17 +36,17 @@ coverCaption: ""
 
 预防措施可以帮助个人和组织防范勒索软件攻击。以下是一些值得考虑的预防措施：
 
-- [**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)如果发生勒索软件攻击，定期数据备份有助于恢复数据。
+- [**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)如果发生勒索软件攻击，定期数据备份有助于恢复数据。
 
-- [**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/)使用最新的安全补丁更新所有软件，包括操作系统和应用程序。
+- [**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/)使用最新的安全补丁更新所有软件，包括操作系统和应用程序。
 
-- [**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus)安装并使用杀毒软件来检测和预防勒索软件攻击。
+- [**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus)安装并使用杀毒软件来检测和预防勒索软件攻击。
 
-- [**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/)教育员工如何识别和避免网络钓鱼电子邮件和其他类型的社交工程攻击。
+- [**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/)教育员工如何识别和避免网络钓鱼电子邮件和其他类型的社交工程攻击。
 
-- [**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA)以防止未经授权访问账户。
+- [**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA)以防止未经授权访问账户。
 
-- [**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/)使用 VPN 加密互联网流量，防范网络攻击。
+- [**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/)使用 VPN 加密互联网流量，防范网络攻击。
 
 ## 结论
 

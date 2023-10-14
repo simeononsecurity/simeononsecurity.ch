@@ -63,7 +63,7 @@ ______
 
 Cyberbeveiliging is een vakgebied dat voortdurend in beweging is, en op de hoogte blijven van de nieuwste trends en bedreigingen is cruciaal voor professionals op dit gebied. Hier zijn enkele manieren om op de hoogte te blijven:
 
-- **Blogs en websites**: Volg gerenommeerde cyberbeveiligingsblogs en -websites zoals [SimeonOnSecurity.ch](https://www.simeononsecurity.ch/) die inzichtelijke artikelen en analyses bieden over recente cyberbedreigingen en -trends.
+- **Blogs en websites**: Volg gerenommeerde cyberbeveiligingsblogs en -websites zoals [simeononsecurity.com](https://www.simeononsecurity.com/) die inzichtelijke artikelen en analyses bieden over recente cyberbedreigingen en -trends.
 - **Industrieconferenties en evenementen**: Woon cyberbeveiligingsconferenties en -evenementen bij om te leren van industrie-experts en te netwerken met collega's.
 - Professionele verenigingen**: Sluit u aan bij professionele verenigingen en gemeenschappen zoals de Information Systems Security Association (ISSA) of het International Information System Security Certification Consortium (ISC)², die hulpmiddelen, certificeringen en netwerkmogelijkheden bieden.
 - **Doorlopend leren**: Doe aan permanente educatie via online cursussen, webinars en certificeringsprogramma's om uw kennis en vaardigheden te verbeteren.
@@ -109,6 +109,6 @@ ______
 
 ## Referenties:
 
-1. [SimeonOnSecurity.ch - Cybersecurity Blog](https://www.simeononsecurity.ch/)
+1. [simeononsecurity.com - Cybersecurity Blog](https://www.simeononsecurity.com/)
 2. [Information Systems Security Association (ISSA)](https://www.issa.org/)
 3. [International Information System Security Certification Consortium (ISC)²](https://www.isc2.org/)

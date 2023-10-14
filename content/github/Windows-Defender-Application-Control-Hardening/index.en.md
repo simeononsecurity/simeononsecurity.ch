@@ -11,7 +11,7 @@ tags: ["Windows Defender Application Control WDAC Hardening", "PowerShell", "Pow
 
 ## Notes:
 - Windows Server 2016/2019 or anything before version 1903 only support a single legacy policy at a time.
-- Windows Server Core edition supports [WDAC](https://simeononsecurity.ch/til/2022-05-18/) but some components that depend on AppLocker won’t work
+- Windows Server Core edition supports [WDAC](https://simeononsecurity.com/til/2022-05-18/) but some components that depend on AppLocker won’t work
 - Please read the [Recommended Reading](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) before implementing or even testing.
 
 ## A list of scripts and tools this collection utilizes:

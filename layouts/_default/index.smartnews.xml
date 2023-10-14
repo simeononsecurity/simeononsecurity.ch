@@ -38,11 +38,11 @@
     {{end}}
     
     <snf:logo>
-      <url>https://simeononsecurity.ch/img/rectangularlogo-400x40.png</url>
+      <url>https://simeononsecurity.com/img/rectangularlogo-400x40.png</url>
     </snf:logo>
 
     <snf:darkModeLogo>
-      <url>https://simeononsecurity.ch/img/rectangularlogo-400x40.png</url>
+      <url>https://simeononsecurity.com/img/rectangularlogo-400x40.png</url>
     </snf:darkModeLogo>
 
     {{ with .Site.Author.email }}

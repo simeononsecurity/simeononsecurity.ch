@@ -175,7 +175,7 @@ tags: ["تحسين Windows", "تصلب النوافذ", "الويندوز الم
 ### واجهة المستخدم الرسومية - التثبيت الموجه:
 
 قم بتنزيل أحدث إصدار[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)اختر الخيارات التي تريدها واضغط على تنفيذ. <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="مثال على التثبيت الإرشادي المستند إلى واجهة المستخدم الرسومية لـ Windows-Optimize-Harden-Debloat"> ### التثبيت التلقائي: استخدم هذا المكون من سطر واحد للتنزيل تلقائيًا وفك ضغط جميع الملفات الداعمة وتشغيل أحدث إصدار من البرنامج النصي.```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

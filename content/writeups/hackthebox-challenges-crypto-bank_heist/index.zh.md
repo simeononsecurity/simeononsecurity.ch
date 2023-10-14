@@ -10,7 +10,7 @@ coverAlt: "卡通金库门被一把钥匙打开，露出一个宝箱，背景是
 coverCaption: ""
 ---
 
-破解 HackTheBox 上 "银行劫案 "加密挑战的综合指南。该挑战涉及解码一个 [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/)使用 Decode.fr 阅读文本，并使用 CyberChef 阅读 atbash 密码文本，从而揭示旗帜。对于有抱负的网络安全专业人士和任何希望提高密码学技能的人来说，这是一本必读书。
+破解 HackTheBox 上 "银行劫案 "加密挑战的综合指南。该挑战涉及解码一个 [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/)使用 Decode.fr 阅读文本，并使用 CyberChef 阅读 atbash 密码文本，从而揭示旗帜。对于有抱负的网络安全专业人士和任何希望提高密码学技能的人来说，这是一本必读书。
 
 ## 提供的文件：
 

@@ -27,6 +27,6 @@ Este script es un script de Windows PowerShell que descarga y aplica el archivo 
 #### Instalación automática:
 Ejecuta automáticamente la última versión del script:
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/soswindowsadblocker.ps1' | iex
+iwr -useb 'https://simeononsecurity.com/scripts/soswindowsadblocker.ps1' | iex
 ```
 

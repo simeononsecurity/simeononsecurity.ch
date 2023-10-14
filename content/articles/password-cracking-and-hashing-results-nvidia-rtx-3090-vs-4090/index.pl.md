@@ -22,13 +22,13 @@ Zanim zagłębimy się w porównanie, ważne jest, aby zrozumieć pewne podstawy
 
 NVIDIA RTX 3090 to potężna karta graficzna przeznaczona do gier i profesjonalnych zastosowań, takich jak uczenie maszynowe i symulacje naukowe. Bazuje ona na architekturze Ampere i oferuje 10496 rdzeni CUDA, 328 rdzeni Tensor i 112 rdzeni RT. Posiada również 24 GB pamięci GDDR6X i przepustowość pamięci 936 GB/s.
 
-W testach porównawczych łamania haseł przeprowadzonych przez simeononsecurity.ch, RTX 3090 był w stanie złamać ośmioznakowe proste hasło w 120 sekund, a ośmioznakowe złożone hasło w 1200 sekund. Dla dwunastoznakowego hasła prostego czas ten wzrósł do 12000 sekund, a dla dwunastoznakowego hasła złożonego do 120000 sekund.
+W testach porównawczych łamania haseł przeprowadzonych przez simeononsecurity.com, RTX 3090 był w stanie złamać ośmioznakowe proste hasło w 120 sekund, a ośmioznakowe złożone hasło w 1200 sekund. Dla dwunastoznakowego hasła prostego czas ten wzrósł do 12000 sekund, a dla dwunastoznakowego hasła złożonego do 120000 sekund.
 
 ## NVIDIA RTX 4090
 
 NVIDIA RTX 4090 jest następcą RTX 3090 i jest obecnie najpotężniejszą dostępną kartą graficzną. Posiada tę samą architekturę Ampere, co RTX 3090, ale z niemal dwukrotnie wyższą surową wydajnością niż 3090.
 
-W testach porównawczych łamania haseł przeprowadzonych przez simeononsecurity.ch, RTX 4090 był w stanie złamać ośmioznakowe proste hasło w 60 sekund, a ośmioznakowe złożone hasło w 600 sekund. Dla dwunastoznakowego hasła prostego czas ten wzrósł do 6000 sekund, a dla dwunastoznakowego hasła złożonego do 60000 sekund.
+W testach porównawczych łamania haseł przeprowadzonych przez simeononsecurity.com, RTX 4090 był w stanie złamać ośmioznakowe proste hasło w 60 sekund, a ośmioznakowe złożone hasło w 600 sekund. Dla dwunastoznakowego hasła prostego czas ten wzrósł do 6000 sekund, a dla dwunastoznakowego hasła złożonego do 60000 sekund.
 
 ## Benchmarki
 
@@ -49,7 +49,7 @@ Długość hasła | Złożoność | RTX 3090 (sekundy) | RTX 4090 (sekundy)
 
 Wyniki naszych testów porównawczych pokazują, że **RTX 4090** jest potężnym narzędziem do łamania haseł. Oznacza to, że atakujący mogą teraz łamać hasła znacznie szybciej niż kiedykolwiek wcześniej.
 
-Jest to poważne zagrożenie dla bezpieczeństwa, ponieważ oznacza to, że atakujący mogą teraz znacznie łatwiej uzyskać dostęp do kont i systemów. Aby chronić się przed atakami polegającymi na łamaniu haseł, należy używać [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) aby pomóc w generowaniu i przechowywaniu silnych haseł.
+Jest to poważne zagrożenie dla bezpieczeństwa, ponieważ oznacza to, że atakujący mogą teraz znacznie łatwiej uzyskać dostęp do kont i systemów. Aby chronić się przed atakami polegającymi na łamaniu haseł, należy używać [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) aby pomóc w generowaniu i przechowywaniu silnych haseł.
 
 ## Wnioski
 

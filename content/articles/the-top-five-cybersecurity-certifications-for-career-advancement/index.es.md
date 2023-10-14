@@ -40,6 +40,6 @@ En conclusión, obtener una certificación en ciberseguridad puede ayudarte a de
 
 Es esencial elegir una certificación que se ajuste a tus objetivos e intereses profesionales. Tanto si desea adquirir sólidos conocimientos básicos sobre ciberseguridad como especializarse en un área específica de este campo, estas certificaciones pueden ayudarle a llevar su carrera al siguiente nivel.
 
-Es importante tener en cuenta que las certificaciones enumeradas en este artículo son sólo algunas de las muchas disponibles. Investigar y seleccionar la certificación adecuada para ti puede ayudarte a alcanzar tus objetivos profesionales y a demostrar tus conocimientos y habilidades a posibles empleadores. Si desea más recomendaciones, puede consultar nuestra [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/)
+Es importante tener en cuenta que las certificaciones enumeradas en este artículo son sólo algunas de las muchas disponibles. Investigar y seleccionar la certificación adecuada para ti puede ayudarte a alcanzar tus objetivos profesionales y a demostrar tus conocimientos y habilidades a posibles empleadores. Si desea más recomendaciones, puede consultar nuestra [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/)
 
 **Inicie hoy mismo su camino hacia la excelencia en ciberseguridad obteniendo una de estas certificaciones superiores.

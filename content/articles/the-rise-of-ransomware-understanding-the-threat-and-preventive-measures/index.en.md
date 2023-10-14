@@ -36,17 +36,17 @@ In 2017, the [WannaCry ransomware attack](https://www.cisa.gov/wannacry) affecte
 
 Preventive measures can help individuals and organizations protect against ransomware attacks. The following are some preventive measures to consider:
 
-- [**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regular data backups can help restore data if a ransomware attack occurs.
+- [**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regular data backups can help restore data if a ransomware attack occurs.
 
-- [**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Keep all software, including operating systems and applications, up to date with the latest security patches.
+- [**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Keep all software, including operating systems and applications, up to date with the latest security patches.
 
-- [**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Install and use antivirus software to detect and prevent ransomware attacks.
+- [**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Install and use antivirus software to detect and prevent ransomware attacks.
 
-- [**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Educate employees on how to recognize and avoid phishing emails and other types of social engineering attacks.
+- [**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Educate employees on how to recognize and avoid phishing emails and other types of social engineering attacks.
 
-- [**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) to prevent unauthorized access to accounts.
+- [**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) to prevent unauthorized access to accounts.
 
-- [**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Use a VPN to encrypt internet traffic and protect against network-based attacks.
+- [**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Use a VPN to encrypt internet traffic and protect against network-based attacks.
 
 ## Conclusion
 

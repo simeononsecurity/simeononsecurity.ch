@@ -24,15 +24,15 @@ coverCaption: "サイバーセキュリティの専門家集団が一丸とな�
 
 サイバーセキュリティの世界に飛び込む前に、しっかりとした知識の土台を築くことが重要です。ここでは、重点的に学ぶべき重要な分野をいくつか紹介します：
 
-1.**ネットワーク**：ネットワーク**：ネットワークの基礎を理解することは、サイバーセキュリティにおいて極めて重要です。ネットワーク**：ネットワークの基礎を理解することは、サイバーセキュリティにおいて非常に重要である。 [subnetting](https://simeononsecurity.ch/articles/how-to-perform-network-segmentation-for-improved-security/)ネットワークに関する知識を証明するために、CompTIA Network+などの資格取得を検討する。
+1.**ネットワーク**：ネットワーク**：ネットワークの基礎を理解することは、サイバーセキュリティにおいて極めて重要です。ネットワーク**：ネットワークの基礎を理解することは、サイバーセキュリティにおいて非常に重要である。 [subnetting](https://simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/)ネットワークに関する知識を証明するために、CompTIA Network+などの資格取得を検討する。
 
 2.**オペレーティングシステム**：LinuxとWindowsの両方のオペレーティングシステムに習熟する。コマンドラインの操作方法、システム設定の方法、ユーザーアカウントの管理方法などを学びます。CompTIA A+とLinux+の資格は、オペレーティングシステムの理解を深めるための素晴らしい出発点です。
 
 3.**コンピュータサイエンスの基本的な概念**：アルゴリズム、データ構造、プログラミング言語など、コンピュータサイエンスの原理を基本的に理解する。この知識は、脆弱性を分析し、安全なソフトウェアアプリケーションを開発するために役立ちます。
 
-4.**コーディングスキル**： [Learning a programming language](https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/) like [Python](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) is highly valuable in cybersecurity. [Python](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) is versatile, widely used, and offers powerful libraries for security-related tasks. Additionally, knowledge of scripting languages like [PowerShell](https://simeononsecurity.ch/articles/learning-powershell-scripting-for-beginners/)は、セキュリティタスクの自動化に有利に働くことがあります。
+4.**コーディングスキル**： [Learning a programming language](https://simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/) like [Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) is highly valuable in cybersecurity. [Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) is versatile, widely used, and offers powerful libraries for security-related tasks. Additionally, knowledge of scripting languages like [PowerShell](https://simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/)は、セキュリティタスクの自動化に有利に働くことがあります。
 
-5.**エンタープライズ・システム・アドミニストレーション**：企業システム管理の経験を積むことで、複雑なITインフラストラクチャを管理するための見識を得ることができます。Active Directory、Group Policy、およびSecurityに精通する。 [system hardening techniques](https://simeononsecurity.ch/github/windows-optimize-harden-debloat/)
+5.**エンタープライズ・システム・アドミニストレーション**：企業システム管理の経験を積むことで、複雑なITインフラストラクチャを管理するための見識を得ることができます。Active Directory、Group Policy、およびSecurityに精通する。 [system hardening techniques](https://simeononsecurity.com/github/windows-optimize-harden-debloat/)
 
 ### サイバーセキュリティの領域を探る
 
@@ -40,7 +40,7 @@ coverCaption: "サイバーセキュリティの専門家集団が一丸とな�
 
 1.1. **ブルーチーム**：ブルーチームの専門家は、システムやネットワークをサイバー脅威から守ることに重点を置いています。セキュリティ対策の設計と実装、ネットワークトラフィックの監視、インシデントへの対応などを行います。効果的な防御のためのセキュリティツール、技術、ベストプラクティスに関する知識を習得する。
 
-2.**レッドチーム**：倫理的ハッカーとして知られるレッドチームの専門家は、模擬攻撃を通じてシステムの脆弱性を評価することに特化しています。セキュリティシステムの弱点を特定し、侵入テストを実施し、組織の防御力強化を支援する。倫理的ハッキング技術の実践的なスキルを身につけ、以下のようなツールに精通する。 [Metasploit](https://simeononsecurity.ch/articles/what-is-metasploit/) and [Burp Suite](https://simeononsecurity.ch/articles/the-role-of-penetration-testing-in-cybersecurity/)
+2.**レッドチーム**：倫理的ハッカーとして知られるレッドチームの専門家は、模擬攻撃を通じてシステムの脆弱性を評価することに特化しています。セキュリティシステムの弱点を特定し、侵入テストを実施し、組織の防御力強化を支援する。倫理的ハッキング技術の実践的なスキルを身につけ、以下のようなツールに精通する。 [Metasploit](https://simeononsecurity.com/articles/what-is-metasploit/) and [Burp Suite](https://simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/)
 
 3.**パープルチーム**：Purple Teamは、Blue TeamとRed Teamの両方の要素を兼ね備えています。現実的な攻撃シナリオをシミュレートし、防御を評価し、洞察を共有することによって、全体的なセキュリティ態勢を強化するために協力する。この役割には、防御と攻撃の両方の技術に精通していることが必要です。
 
@@ -48,9 +48,9 @@ coverCaption: "サイバーセキュリティの専門家集団が一丸とな�
 
 認定資格は必須ではありませんが、取得することで雇用可能性が大幅に向上し、この分野へのコミットメントを示すことができます。以下の資格の取得を検討してください：
 
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)このエントリーレベルの認定は、セキュリティの概念、ネットワークセキュリティ、およびセキュリティの実践についての理解を証明するものです。
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)この資格は、倫理的なハッキング技術と方法論に焦点を当て、脆弱性の評価と緩和を可能にします。
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/)CISSPは、さまざまなセキュリティ領域における専門知識を証明する世界的に認められた資格です。
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)このエントリーレベルの認定は、セキュリティの概念、ネットワークセキュリティ、およびセキュリティの実践についての理解を証明するものです。
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)この資格は、倫理的なハッキング技術と方法論に焦点を当て、脆弱性の評価と緩和を可能にします。
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/)CISSPは、さまざまなセキュリティ領域における専門知識を証明する世界的に認められた資格です。
 
 サイバーセキュリティでは、継続的に学習し、最新のトレンド、ツール、テクニックを常に把握することが重要です。業界のブログをフォローし、オンラインコミュニティに参加し、サイバーセキュリティのカンファレンスに参加して、知識を深め、専門家とのネットワークを広げましょう。
 

@@ -22,7 +22,7 @@ coverCaption: ""
 ### 安装 Docker 容器
 按照以下步骤安装 Traff Monetizer Docker 容器：
 
-0.学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0.学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1.复制以下字符串并添加从仪表板获取的令牌：
 ```bash
@@ -36,7 +36,7 @@ docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOU
 
 安装 Traff Monetizer 并分享您的互联网，您就有机会在网上赚钱。每个 IP 节点的平均月收入约为 2 美元，这是一个潜在的收入来源。请记住，只能以 BTC 支付。今天就开始为您的网络连接赚钱吧！
 
-完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考资料
 

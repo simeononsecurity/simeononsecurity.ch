@@ -50,7 +50,7 @@ ______
 
 1.1. **VPNソリューションの選択**：前述の要因に基づき、組織のニーズに最も適したVPNソリューションを選択します。
 2.**VPNサーバーを設定する**：組織内に専用のVPNサーバーを設置するか、クラウドベースのソリューションを選択します。自社のセキュリティ・ポリシーや要件に応じて、サーバーを設定します。
-3.**認証を設定する**：認証の設定**：以下のような強力な認証方法を導入します。 [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を使用して、許可された従業員のみがVPNにアクセスできるようにします。
+3.**認証を設定する**：認証の設定**：以下のような強力な認証方法を導入します。 [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を使用して、許可された従業員のみがVPNにアクセスできるようにします。
 4.**VPNクライアントソフトウェアの配布**：リモートワーカーに、VPNにアクセスするために必要なVPNクライアントソフトウェアと設定ファイルを配布する。
 
 ______
@@ -81,7 +81,7 @@ ______
 VPNソリューションの導入を成功させるために、リモート従業員に対して、VPNを効果的かつ安全に使用する方法を理解させるために必要なトレーニングとサポートを提供します。重要なトピックとしては、以下のようなものがあります：
 
 - **VPNの設定と接続方法**：VPNクライアントソフトウェアのインストール、設定、およびVPNへの接続について、明確な指示を提供する。
-- **セキュリティのベストプラクティス**：セキュリティのベストプラクティス**：強固でユニークなパスワードを使用することの重要性について、従業員を教育し、VPNを有効にする。 [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)と、自分のデバイスをセキュアに保つことができます。
+- **セキュリティのベストプラクティス**：セキュリティのベストプラクティス**：強固でユニークなパスワードを使用することの重要性について、従業員を教育し、VPNを有効にする。 [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)と、自分のデバイスをセキュアに保つことができます。
 - **トラブルシューティング**：VPN接続に関する一般的な問題の解決方法と、テクニカルサポートの連絡先についてガイダンスを提供します。
 
 ______

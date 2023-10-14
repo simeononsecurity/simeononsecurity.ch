@@ -82,7 +82,7 @@ L'obtention d'une certification professionnelle peut aider à démontrer votre e
 
 3. **GPEN (GIAC Penetration Tester)** : Proposée par [GIAC](https://www.giac.org/certification/penetration-tester-gpen) Cette certification se concentre sur les compétences techniques requises pour mener des tests de pénétration.
 
-Pour plus d'informations sur les certifications en matière de tests d'intrusion, consultez notre article sur les certifications en matière de tests d'intrusion. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
+Pour plus d'informations sur les certifications en matière de tests d'intrusion, consultez notre article sur les certifications en matière de tests d'intrusion. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
 
 ______
 
@@ -104,6 +104,6 @@ ______
 8. [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
 9.  [Offensive Security Certified Professional (OSCP)](https://www.offensive-security.com/pwk-oscp/)
 10. [GIAC Penetration Tester (GPEN)](https://www.giac.org/certification/penetration-tester-gpen)
-11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.ch/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
-12. [Recommended Certifications](https://simeononsecurity.ch/recommendations/certifications/)
+11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/)
+12. [Recommended Certifications](https://simeononsecurity.com/recommendations/certifications/)
 

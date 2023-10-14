@@ -27,7 +27,7 @@ tags: ["Рекомендуемые учебные ресурсы", "Рекоме
 - [**INE**](https://ine.com/) INE предлагает как бесплатные, так и платные высококачественные лабораторные работы и тренинги по кибербезопасности.
 - [**Immersive Labs**](https://www.immersivelabs.com/) Эта платформа предлагает бесплатные лаборатории кибербезопасности, а также платные предложения. Бесплатно для активных студентов.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Эта платформа предлагает бесплатные лаборатории кибербезопасности, а также платные предложения.
-- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.ch/tags/pentesterlab/) также доступны платные предложения.
+- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/) также доступны платные предложения.
 - [**TryHackMe**](https://tryhackme.com/) Эта платформа предлагает управляемые CTF-задачи с возможностью платного участия.
 
 ## Networking:

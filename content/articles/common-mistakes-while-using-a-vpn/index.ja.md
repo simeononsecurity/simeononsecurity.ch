@@ -30,7 +30,7 @@ VPNからIPアドレスが漏れているかどうかを確認するには、以
 
 VPNを使用する際のもう一つの一般的な間違いは、**安全なVPNプロバイダ**を選択しないことです。多くのVPNプロバイダーがありますが、そのすべてが信頼できるわけではありません。VPNプロバイダーの中には、あなたのインターネットトラフィックを記録したり、あなたのデータを第三者に販売したりするものがあります。また、ハッカーがあなたの情報にアクセスすることを可能にする脆弱性を持っている場合もあります。
 
-安全なVPNプロバイダーを選ぶには、厳密なロギング禁止ポリシーを持ち、強力な暗号化を使用し、ユーザーのプライバシーを保護する実績のあるプロバイダーを探せばよいでしょう。VPNプロバイダーのレビューは、以下のようなオンラインサイトで見ることができます。[providers recommended by simeononsecurity.ch](https://simeononsecurity.ch/recommendations/vpns/)を参考にしてください。
+安全なVPNプロバイダーを選ぶには、厳密なロギング禁止ポリシーを持ち、強力な暗号化を使用し、ユーザーのプライバシーを保護する実績のあるプロバイダーを探せばよいでしょう。VPNプロバイダーのレビューは、以下のようなオンラインサイトで見ることができます。[providers recommended by simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/)を参考にしてください。
 
 ### 無料のVPNを使う
 
@@ -64,11 +64,11 @@ WebブラウザでWebRTCを無効にするには、Chromeの**WebRTC Control**�
 
 これを避けるには、あなたの活動を記録しないプライベートDNSサーバーを使用することができます。VPNプロバイダーの中には、独自のプライベートDNSサーバーを提供しているところもありますし、以下のようなサードパーティーのサービスを利用することもできます。[**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns)
 
-###[Use Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+###[Use Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-使用する[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、不正アクセスからVPNアカウントを保護するのに役立ちます。二要素認証では、アカウントにアクセスするために、パスワードと携帯電話に送信されるコードなど、2つの識別情報を提供する必要があります。
+使用する[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、不正アクセスからVPNアカウントを保護するのに役立ちます。二要素認証では、アカウントにアクセスするために、パスワードと携帯電話に送信されるコードなど、2つの識別情報を提供する必要があります。
 
-多くのVPNプロバイダーが提供する[two-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)をオプションとして用意していますので、利用可能な場合は必ず有効にしてください。
+多くのVPNプロバイダーが提供する[two-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)をオプションとして用意していますので、利用可能な場合は必ず有効にしてください。
 
 ### まとめ
 
@@ -78,8 +78,8 @@ VPNは、オンラインのプライバシーとセキュリティを保護す�
 
 ## 参考文献
 
--[SimeonOnSecurity.ch's VPN Provider Recommendations](https://simeononsecurity.ch/recommendations/vpns/)
--[SimeonOnSecurity.ch - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+-[simeononsecurity.com's VPN Provider Recommendations](https://simeononsecurity.com/recommendations/vpns/)
+-[simeononsecurity.com - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 -[IPLeak.net](https://ipleak.net/)
 -[WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
 -[Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)

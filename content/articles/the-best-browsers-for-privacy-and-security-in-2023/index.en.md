@@ -108,6 +108,6 @@ Choosing the right browser for privacy and security is crucial for protecting yo
 |                | - Waterfox: High-performance fork of Firefox                                                                 |
 
 
-To learn more about online privacy and security, explore our [collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) on the subject and stay up-to-date with the latest news and trends.
+To learn more about online privacy and security, explore our [collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) on the subject and stay up-to-date with the latest news and trends.
 
 

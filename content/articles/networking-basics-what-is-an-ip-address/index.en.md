@@ -65,7 +65,7 @@ IPv6 offers several improvements in terms of security and quality of service com
 
 ### The Importance of IPv6 Adoption
 
-The [transition from IPv4 to IPv6](https://simeononsecurity.ch/articles/ipv4-to-ipv6-transition-mechanisms/) is crucial for the future growth and sustainability of the internet. As the number of internet-connected devices continues to rise, the depletion of IPv4 addresses becomes an imminent problem. By embracing IPv6, individuals and businesses can ensure that their devices can connect seamlessly to the internet and take advantage of the enhanced capabilities provided by the new protocol.
+The [transition from IPv4 to IPv6](https://simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/) is crucial for the future growth and sustainability of the internet. As the number of internet-connected devices continues to rise, the depletion of IPv4 addresses becomes an imminent problem. By embracing IPv6, individuals and businesses can ensure that their devices can connect seamlessly to the internet and take advantage of the enhanced capabilities provided by the new protocol.
 
 Furthermore, governments and regulatory bodies around the world recognize the importance of IPv6 adoption and have introduced initiatives and regulations to facilitate the transition. For example, the United States government issued a directive in 2020 that requires all federal agencies to enable IPv6 on their public-facing websites and services.
 

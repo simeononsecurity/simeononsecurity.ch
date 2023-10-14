@@ -30,7 +30,7 @@ Pour vérifier si votre VPN laisse filtrer votre adresse IP, vous pouvez utilise
 
 Une autre erreur courante dans l'utilisation d'un VPN est de **ne pas choisir un fournisseur de VPN sécurisé**. Il existe de nombreux fournisseurs de VPN, mais tous ne sont pas dignes de confiance. Certains fournisseurs de VPN peuvent enregistrer votre trafic Internet ou vendre vos données à des tiers. D'autres peuvent présenter des vulnérabilités qui permettraient à des pirates d'accéder à vos informations.
 
-Pour choisir un fournisseur de VPN sûr, recherchez-en un qui applique une politique stricte de non-enregistrement, qui utilise un cryptage puissant et qui a fait ses preuves en matière de protection de la vie privée des utilisateurs. Vous pouvez trouver des avis sur les fournisseurs de VPN en ligne, par exemple sur le site suivant[providers recommended by simeononsecurity.ch](https://simeononsecurity.ch/recommendations/vpns/) pour vous aider à prendre une décision éclairée.
+Pour choisir un fournisseur de VPN sûr, recherchez-en un qui applique une politique stricte de non-enregistrement, qui utilise un cryptage puissant et qui a fait ses preuves en matière de protection de la vie privée des utilisateurs. Vous pouvez trouver des avis sur les fournisseurs de VPN en ligne, par exemple sur le site suivant[providers recommended by simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/) pour vous aider à prendre une décision éclairée.
 
 ### Utiliser des VPN gratuits
 
@@ -64,11 +64,11 @@ Lorsque vous vous connectez à un site web, votre appareil envoie une demande à
 
 Pour éviter cela, vous pouvez utiliser un serveur DNS privé qui n'enregistre pas votre activité. Certains fournisseurs de VPN proposent leurs propres serveurs DNS privés, ou vous pouvez utiliser un service tiers tel que[**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns) 
 
-###[Use Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+###[Use Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-Utilisation[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) peut vous aider à protéger votre compte VPN contre les accès non autorisés. L'authentification à deux facteurs exige que vous fournissiez deux formes d'identification pour accéder à votre compte, par exemple un mot de passe et un code envoyé sur votre téléphone.
+Utilisation[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) peut vous aider à protéger votre compte VPN contre les accès non autorisés. L'authentification à deux facteurs exige que vous fournissiez deux formes d'identification pour accéder à votre compte, par exemple un mot de passe et un code envoyé sur votre téléphone.
 
-De nombreux fournisseurs de VPN proposent[two-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) en tant qu'option, veillez donc à l'activer si elle est disponible.
+De nombreux fournisseurs de VPN proposent[two-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) en tant qu'option, veillez donc à l'activer si elle est disponible.
 
 ### Conclusion
 
@@ -78,8 +78,8 @@ Faites toujours vos recherches et choisissez un fournisseur de VPN réputé qui 
 
 ## Références
 
--[SimeonOnSecurity.ch's VPN Provider Recommendations](https://simeononsecurity.ch/recommendations/vpns/)
--[SimeonOnSecurity.ch - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+-[simeononsecurity.com's VPN Provider Recommendations](https://simeononsecurity.com/recommendations/vpns/)
+-[simeononsecurity.com - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 -[IPLeak.net](https://ipleak.net/)
 -[WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
 -[Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)

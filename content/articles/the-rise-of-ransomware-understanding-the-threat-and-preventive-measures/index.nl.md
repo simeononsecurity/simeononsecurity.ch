@@ -36,17 +36,17 @@ In 2017 heeft de[WannaCry ransomware attack](https://www.cisa.gov/wannacry) trof
 
 Preventieve maatregelen kunnen individuen en organisaties helpen zich te beschermen tegen ransomware-aanvallen. Hieronder volgen enkele preventieve maatregelen:
 
--[**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regelmatige gegevensback-ups kunnen helpen om gegevens te herstellen als er een ransomware-aanval plaatsvindt.
+-[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regelmatige gegevensback-ups kunnen helpen om gegevens te herstellen als er een ransomware-aanval plaatsvindt.
 
--[**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Houd alle software, inclusief besturingssystemen en toepassingen, up-to-date met de laatste beveiligingspatches.
+-[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Houd alle software, inclusief besturingssystemen en toepassingen, up-to-date met de laatste beveiligingspatches.
 
--[**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Installeer en gebruik antivirussoftware om ransomware-aanvallen op te sporen en te voorkomen.
+-[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Installeer en gebruik antivirussoftware om ransomware-aanvallen op te sporen en te voorkomen.
 
--[**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Leer werknemers hoe ze phishing-e-mails en andere soorten social engineering-aanvallen kunnen herkennen en vermijden.
+-[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Leer werknemers hoe ze phishing-e-mails en andere soorten social engineering-aanvallen kunnen herkennen en vermijden.
 
--[**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) om ongeoorloofde toegang tot accounts te voorkomen.
+-[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) om ongeoorloofde toegang tot accounts te voorkomen.
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Gebruik een VPN om het internetverkeer te versleutelen en te beschermen tegen netwerkaanvallen.
+-[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Gebruik een VPN om het internetverkeer te versleutelen en te beschermen tegen netwerkaanvallen.
 
 ## Conclusie
 

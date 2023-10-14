@@ -51,7 +51,7 @@ Il existe différents supports d'étude à la disposition des candidats, tels qu
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
 
 ### Étape 4 : S'entraîner à l'aide d'examens pratiques
 

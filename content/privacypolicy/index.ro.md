@@ -3,7 +3,7 @@ title: "Politica de confidențialitate: Colectarea informațiilor, utilizarea ș
 date: 2020-08-08
 ---
 
-La SimeonOnSecurity, accesibil de la https://SimeonOnSecurity.ch, una dintre prioritățile noastre principale este confidențialitatea vizitatorilor noștri. Acest document privind politica de confidențialitate conține tipurile de informații care sunt colectate și înregistrate de către SimeonOnSecurity și modul în care le folosim.
+La SimeonOnSecurity, accesibil de la https://simeononsecurity.com, una dintre prioritățile noastre principale este confidențialitatea vizitatorilor noștri. Acest document privind politica de confidențialitate conține tipurile de informații care sunt colectate și înregistrate de către SimeonOnSecurity și modul în care le folosim.
 
 Dacă aveți întrebări suplimentare sau aveți nevoie de mai multe informații despre Politica noastră de confidențialitate, nu ezitați să ne contactați.
 

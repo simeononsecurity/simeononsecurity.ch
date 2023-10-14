@@ -74,7 +74,7 @@ Volg deze stappen om een schijf te versleutelen met VeraCrypt:
 3. Start VeraCrypt en selecteer de schijf of partitie die je wilt versleutelen.
 4. Volg de instructies van VeraCrypt om een gecodeerd volume te maken.
 
-Houd er rekening mee dat de beveiliging van VeraCrypt afhankelijk is van de sterkte van je wachtwoord. Zorg ervoor dat je een [long and secure password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) om de effectiviteit van de versleuteling te maximaliseren.
+Houd er rekening mee dat de beveiliging van VeraCrypt afhankelijk is van de sterkte van je wachtwoord. Zorg ervoor dat je een [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) om de effectiviteit van de versleuteling te maximaliseren.
 
 ______
 {{< inarticle-dark >}}

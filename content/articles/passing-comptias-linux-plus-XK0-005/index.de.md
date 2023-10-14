@@ -52,7 +52,7 @@ Um praktische Erfahrungen zu sammeln, können Sie eine Laborumgebung einrichten,
 
 - **Cloud-Dienste**: Sie können auch Cloud-Dienste wie Amazon Web Services (AWS) oder Microsoft Azure nutzen, um virtuelle Maschinen oder Container unter Linux zu erstellen. Dies kann eine praktische Option sein, wenn Sie nicht über die Ressourcen verfügen, um eine physische Laborumgebung einzurichten.
 
-- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) Wenn Sie über die nötigen Ressourcen verfügen, können Sie zu Hause eine physische Laborumgebung einrichten. Diese kann einen oder mehrere physische Server oder Workstations mit Linux sowie Netzwerkgeräte wie Switches und Router umfassen.
+- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) Wenn Sie über die nötigen Ressourcen verfügen, können Sie zu Hause eine physische Laborumgebung einrichten. Diese kann einen oder mehrere physische Server oder Workstations mit Linux sowie Netzwerkgeräte wie Switches und Router umfassen.
 
 Indem Sie praktische Erfahrungen mit Linux-Systemen sammeln, erhalten Sie praktische Kenntnisse über die Konfiguration, Überwachung und Fehlerbehebung von Linux-Systemen. Dies hilft Ihnen bei der Vorbereitung auf die CompTIA Linux+ XK0-005-Prüfung und vermittelt Ihnen außerdem wertvolle Fähigkeiten, die Sie in einem professionellen Umfeld einsetzen können.
 
@@ -100,7 +100,7 @@ Einige Beispiele für Online-Ressourcen für die CompTIA Linux+ XK0-005-Prüfung
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp) Es gibt viele YouTube-Kanäle, die Video-Tutorials zu verschiedenen Linux-Themen anbieten, darunter auch einige, die sich speziell auf die Linux+-Zertifizierung konzentrieren. {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Dieser Leitfaden bietet einen Überblick über die ersten Schritte mit Linux, einschließlich Tipps zum Erlernen der Debian- und RHEL-basierten Varianten von Linux.
+- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/) Dieser Leitfaden bietet einen Überblick über die ersten Schritte mit Linux, einschließlich Tipps zum Erlernen der Debian- und RHEL-basierten Varianten von Linux.
 
 Durch die Nutzung von Online-Ressourcen können Sie auf eine breite Palette von Lernmaterialien zugreifen und ein besseres Verständnis der Prüfungsziele und Unterthemen erlangen. Außerdem bieten viele Online-Ressourcen interaktive Elemente wie Foren oder Chatrooms, in denen Sie Fragen stellen und Hilfe von anderen Linux-Experten erhalten können.
 

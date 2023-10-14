@@ -52,7 +52,7 @@ Om praktijkervaring op te doen kun je een labomgeving opzetten waar je kunt oefe
 
 - **Clouddiensten**: U kunt ook clouddiensten zoals Amazon Web Services (AWS) of Microsoft Azure gebruiken om virtuele machines of containers met Linux te maken. Dit kan een handige optie zijn als u niet over de middelen beschikt om een fysieke labomgeving op te zetten.
 
-- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) Als je de middelen hebt, kun je thuis een fysieke labomgeving opzetten. Dit kan bestaan uit een of meer fysieke servers of werkstations met Linux, en netwerkapparatuur zoals switches en routers.
+- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) Als je de middelen hebt, kun je thuis een fysieke labomgeving opzetten. Dit kan bestaan uit een of meer fysieke servers of werkstations met Linux, en netwerkapparatuur zoals switches en routers.
 
 Door praktijkervaring op te doen met Linux-systemen doe je praktische ervaring op met het configureren, bewaken en oplossen van problemen met Linux-systemen. Dit zal u helpen bij de voorbereiding op het CompTIA Linux+ XK0-005 examen en geeft u ook waardevolle vaardigheden die kunnen worden gebruikt in een professionele omgeving.
 
@@ -100,7 +100,7 @@ Enkele voorbeelden van online hulpmiddelen voor het CompTIA Linux+ XK0-005 exame
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp) Er zijn veel YouTube kanalen die video tutorials geven over verschillende Linux gerelateerde onderwerpen, waaronder enkele specifiek gericht op de Linux+ certificering. {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Deze gids geeft een overzicht van hoe u aan de slag kunt met Linux, inclusief tips voor het leren van zowel Debian als RHEL-gebaseerde varianten van Linux.
+- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/) Deze gids geeft een overzicht van hoe u aan de slag kunt met Linux, inclusief tips voor het leren van zowel Debian als RHEL-gebaseerde varianten van Linux.
 
 Door gebruik te maken van online bronnen kunt u toegang krijgen tot een breed scala aan studiemateriaal en een beter begrip krijgen van de examendoelstellingen en deelonderwerpen. Bovendien bieden veel online bronnen interactieve elementen zoals forums of chatrooms waar u vragen kunt stellen en hulp kunt krijgen van andere Linux-professionals.
 

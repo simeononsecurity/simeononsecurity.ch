@@ -56,9 +56,9 @@ ______
 
 以下是一些额外的**提示**，以提高您在社交媒体上的隐私和安全：
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)为你的社交媒体账户创建强大的密码，避免在多个平台上重复使用。考虑使用密码管理器来安全地存储和生成复杂的密码。
+1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为你的社交媒体账户创建强大的密码，避免在多个平台上重复使用。考虑使用密码管理器来安全地存储和生成复杂的密码。
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA)只要有可能。登录时除了密码外，还需要输入验证码，从而增加了一层安全保护。
+2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA)只要有可能。登录时除了密码外，还需要输入验证码，从而增加了一层安全保护。
 
 3.**定期查看您的好友和关注者**：定期查看您的好友和关注者列表，确保只与您认识和信任的人建立联系。
 

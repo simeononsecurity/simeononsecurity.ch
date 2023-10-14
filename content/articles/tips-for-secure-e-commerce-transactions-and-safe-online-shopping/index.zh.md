@@ -32,7 +32,7 @@ ______
 
 [**Privacy.com**](https://privacy.com/join/SU86Y)是另一项可靠的服务，可让您为网上购物生成虚拟借记卡。使用 Privacy.com，您可以为每笔交易创建唯一的卡号，确保您真实信用卡信息的安全。这项服务还允许您设置消费限额和控制订阅，让您更好地控制网上交易。
 
-进一步了解我们的 [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
+进一步了解我们的 [recommended privacy services](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ ______
 
 定期更新操作系统、网络浏览器和杀毒软件，以确保您拥有最新的安全补丁，并能防范恶意软件和网络威胁。尽可能启用自动更新。
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)试图诱骗您透露个人信息或登录凭证的电子邮件、短信或电话。在分享任何敏感数据之前，请避免点击可疑链接，并核实来自网上卖家的任何通信的真实性。
+[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)试图诱骗您透露个人信息或登录凭证的电子邮件、短信或电话。在分享任何敏感数据之前，请避免点击可疑链接，并核实来自网上卖家的任何通信的真实性。
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)为您的网上购物账户设置密码。避免在多个平台上重复使用密码。考虑使用密码管理器，如**LastPass**或**Dashlane**，安全地存储和生成复杂的密码。
+[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的网上购物账户设置密码。避免在多个平台上重复使用密码。考虑使用密码管理器，如**LastPass**或**Dashlane**，安全地存储和生成复杂的密码。
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)除密码外，2FA 还要求第二种验证形式，如发送到您移动设备上的唯一代码，从而增加了一层安全保护。尽可能启用 2FA，保护您的网购账户。
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)除密码外，2FA 还要求第二种验证形式，如发送到您移动设备上的唯一代码，从而增加了一层安全保护。尽可能启用 2FA，保护您的网购账户。
 
 ### 6.查看卖家评级和评论
 
 在向新卖家购物之前，请查看其他顾客对他们的评分和评论。这些信息可以帮助您评估卖家的可信度和可靠性。
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 避免在连接公共 Wi-Fi 网络时进行网购，因为这些网络通常不安全，容易被窃听。取而代之的是，使用安全、私密的互联网连接，如家庭网络或可信的 VPN（虚拟专用网络）服务。
 

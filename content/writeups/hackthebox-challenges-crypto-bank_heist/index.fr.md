@@ -10,7 +10,7 @@ coverAlt: "une porte de coffre-fort en bande dessinée qui s'ouvre avec une clé
 coverCaption: ""
 ---
 
-Un guide complet pour résoudre le défi Crypto "Bank Heist" sur HackTheBox. Le défi consiste à décoder un [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) Le texte chiffré de l'attaque de l'armée française a été révélé à l'aide de Decode.fr et le texte chiffré de l'attaque à l'aide de CyberChef pour dévoiler le drapeau. Une lecture incontournable pour les professionnels de la cybersécurité en herbe et pour tous ceux qui cherchent à améliorer leurs compétences en cryptographie.
+Un guide complet pour résoudre le défi Crypto "Bank Heist" sur HackTheBox. Le défi consiste à décoder un [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) Le texte chiffré de l'attaque de l'armée française a été révélé à l'aide de Decode.fr et le texte chiffré de l'attaque à l'aide de CyberChef pour dévoiler le drapeau. Une lecture incontournable pour les professionnels de la cybersécurité en herbe et pour tous ceux qui cherchent à améliorer leurs compétences en cryptographie.
 
 ## Fichiers fournis :
 

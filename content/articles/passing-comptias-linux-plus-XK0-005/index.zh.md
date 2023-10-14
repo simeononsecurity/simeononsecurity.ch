@@ -52,7 +52,7 @@ CompTIA Linux+ 认证是 IT 领域最热门的认证之一。该认证旨在验�
 
 - 云服务**：你还可以使用亚马逊网络服务（AWS）或微软 Azure 等云服务来创建运行 Linux 的虚拟机或容器。如果你没有资源建立物理实验室环境，这可能是一个方便的选择。
 
-- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/)如果你有资源，可以在家里建立一个物理实验室环境。这可以包括一台或多台运行 Linux 的物理服务器或工作站，以及交换机和路由器等网络设备。
+- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/)如果你有资源，可以在家里建立一个物理实验室环境。这可以包括一台或多台运行 Linux 的物理服务器或工作站，以及交换机和路由器等网络设备。
 
 通过亲身体验 Linux 系统，你将获得配置、监控和故障排除 Linux 系统的实际经验。这将帮助您准备 CompTIA Linux+ XK0-005 考试，并为您提供可用于专业环境的宝贵技能。
 
@@ -100,7 +100,7 @@ CompTIA Linux+ XK0-005 考试在线资源的一些示例包括
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp)有许多 YouTube 频道提供各种 Linux 相关主题的视频教程，包括一些专门针对 Linux+ 认证的视频教程。 {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)本指南概述了如何开始使用 Linux，包括学习基于 Debian 和 RHEL 的 Linux 变体的技巧。
+- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/)本指南概述了如何开始使用 Linux，包括学习基于 Debian 和 RHEL 的 Linux 变体的技巧。
 
 通过使用在线资源，您可以访问各种学习材料，更好地了解考试目标和子主题。此外，许多在线资源还提供论坛或聊天室等互动元素，您可以在其中提问并从其他 Linux 专业人士那里获得帮助。
 
@@ -110,7 +110,7 @@ CompTIA Linux+ XK0-005 考试在线资源的一些示例包括
 
 CompTIA Linux+ XK0-005 考试的一些模拟考试示例包括
 
-- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.ch/linux-plus-practice-test)
+- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.com/linux-plus-practice-test)
 
 - [**CompTIA Linux+ Certification Practice Exams**](https://www.comptia.org/training/certmaster-practice/linux)本书包括四个完整的模拟考试，旨在模拟实际考试的形式和难度。
 

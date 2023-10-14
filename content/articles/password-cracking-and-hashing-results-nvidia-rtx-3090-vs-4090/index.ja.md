@@ -22,13 +22,13 @@ coverCaption: ""
 
 NVIDIA RTX 3090は、ゲームや機械学習や科学シミュレーションのような専門的なアプリケーション向けに設計された強力なグラフィックスカードです。Ampereアーキテクチャをベースとしており、10496個のCUDAコア、328個のTensorコア、112個のRTコアを搭載しています。また、24GBのGDDR6Xメモリと936GB/sのメモリ帯域幅を備えています。
 
-simeononsecurity.chが実施したパスワードクラッキングベンチマークでは、RTX 3090は8文字の単純パスワードを120秒、8文字の複雑なパスワードを1200秒でクラッキングすることができたという。12文字の単純なパスワードの場合は12000秒に、12文字の複雑なパスワードの場合はさらに120000秒に時間が延びました。
+simeononsecurity.comが実施したパスワードクラッキングベンチマークでは、RTX 3090は8文字の単純パスワードを120秒、8文字の複雑なパスワードを1200秒でクラッキングすることができたという。12文字の単純なパスワードの場合は12000秒に、12文字の複雑なパスワードの場合はさらに120000秒に時間が延びました。
 
 ## nvidia rtx 4090
 
 NVIDIA RTX 4090は、RTX 3090の後継機であり、現在最もパワフルなグラフィックスカードである。RTX 3090と同じAmpereアーキテクチャを採用し、3090の約2倍のパフォーマンスを発揮します。
 
-simeononsecurity.chが実施したパスワードクラッキングベンチマークでは、RTX 4090は8文字の単純パスワードを60秒、8文字の複雑なパスワードを600秒で解読することができました。12文字の単純なパスワードでは6000秒に、12文字の複雑なパスワードではさらに60000秒に増加した。
+simeononsecurity.comが実施したパスワードクラッキングベンチマークでは、RTX 4090は8文字の単純パスワードを60秒、8文字の複雑なパスワードを600秒で解読することができました。12文字の単純なパスワードでは6000秒に、12文字の複雑なパスワードではさらに60000秒に増加した。
 
 ## ベンチマーク
 
@@ -49,7 +49,7 @@ RTX 3090**とRTX 4090**のパスワードクラッキング性能を比較する
 
 ベンチマークの結果から、**RTX 4090**はパスワードのクラッキングに強力なツールであることがわかりました。これは、攻撃者がこれまでよりもはるかに速くパスワードをクラックすることが可能になったことを意味します。
 
-これは、攻撃者がより簡単にアカウントやシステムにアクセスできるようになったことを意味するため、セキュリティ上の重大な懸念事項です。パスワードクラックの攻撃から身を守るには、以下のような方法があります。 [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)で、強力なパスワードの生成と保存を支援します。
+これは、攻撃者がより簡単にアカウントやシステムにアクセスできるようになったことを意味するため、セキュリティ上の重大な懸念事項です。パスワードクラックの攻撃から身を守るには、以下のような方法があります。 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)で、強力なパスワードの生成と保存を支援します。
 
 ## 結論
 

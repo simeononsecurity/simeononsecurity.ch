@@ -32,7 +32,7 @@ Bij het doen van online aankopen is het essentieel om uw persoonlijke informatie
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) is een andere betrouwbare dienst waarmee u virtuele debetkaarten kunt aanmaken voor online aankopen. Met Privacy.com kunt u unieke kaartnummers aanmaken voor elke transactie, zodat uw echte creditcardgegevens veilig blijven. Met deze dienst kunt u ook bestedingslimieten instellen en abonnementen beheren, zodat u meer controle hebt over uw online transacties.
 
-Meer informatie over onze [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
+Meer informatie over onze [recommended privacy services](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ Blijf bij gerenommeerde en bekende e-commerce platforms wanneer u online aankope
 
 Werk uw besturingssysteem, webbrowser en antivirussoftware regelmatig bij om ervoor te zorgen dat u over de laatste beveiligingspatches en bescherming tegen malware en cyberdreigingen beschikt. Schakel waar mogelijk automatische updates in.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) e-mails, tekstberichten of telefoontjes die u proberen te verleiden tot het verstrekken van persoonlijke gegevens of inloggegevens. Vermijd het klikken op verdachte links en controleer de authenticiteit van alle communicatie van online verkopers voordat u gevoelige gegevens deelt.
+[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) e-mails, tekstberichten of telefoontjes die u proberen te verleiden tot het verstrekken van persoonlijke gegevens of inloggegevens. Vermijd het klikken op verdachte links en controleer de authenticiteit van alle communicatie van online verkopers voordat u gevoelige gegevens deelt.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) voor uw online winkelaccounts. Vermijd hergebruik van wachtwoorden op meerdere platforms. Overweeg het gebruik van een wachtwoordmanager, zoals **LastPass** of **Dashlane**, om complexe wachtwoorden veilig op te slaan en te genereren.
+[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) voor uw online winkelaccounts. Vermijd hergebruik van wachtwoorden op meerdere platforms. Overweeg het gebruik van een wachtwoordmanager, zoals **LastPass** of **Dashlane**, om complexe wachtwoorden veilig op te slaan en te genereren.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) voegt een extra beveiligingslaag toe door naast uw wachtwoord een tweede vorm van verificatie te vereisen, zoals een unieke code die naar uw mobiele apparaat wordt gestuurd. Schakel waar mogelijk 2FA in om uw online winkelaccounts te beschermen.
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) voegt een extra beveiligingslaag toe door naast uw wachtwoord een tweede vorm van verificatie te vereisen, zoals een unieke code die naar uw mobiele apparaat wordt gestuurd. Schakel waar mogelijk 2FA in om uw online winkelaccounts te beschermen.
 
 ### 6. Bekijk de beoordelingen van verkopers
 
 Voordat u een aankoop doet bij een nieuwe verkoper, controleert u de beoordelingen en recensies van andere klanten. Deze informatie kan u helpen de geloofwaardigheid en betrouwbaarheid van de verkoper te beoordelen.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 Vermijd het doen van online aankopen wanneer u verbonden bent met openbare Wi-Fi-netwerken, omdat deze vaak onbeveiligd zijn en vatbaar voor afluisteren. Gebruik in plaats daarvan een veilige en private internetverbinding, zoals uw thuisnetwerk of een vertrouwde VPN-service (Virtual Private Network).
 

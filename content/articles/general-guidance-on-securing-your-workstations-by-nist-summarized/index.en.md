@@ -24,7 +24,7 @@ NIST's guidance on securing workstations provides organizations with a comprehen
 
 ### 1. Implement Strong Access Controls
 
-Organizations should **implement strong access controls** to ensure that only authorized individuals have access to workstations and sensitive information. This includes implementing [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), two-factor authentication, and restricting administrative privileges to a select few individuals.
+Organizations should **implement strong access controls** to ensure that only authorized individuals have access to workstations and sensitive information. This includes implementing [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), two-factor authentication, and restricting administrative privileges to a select few individuals.
 
 ### 2. Keep Software Up-to-Date
 

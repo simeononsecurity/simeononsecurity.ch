@@ -36,17 +36,17 @@ En 2017, le[WannaCry ransomware attack](https://www.cisa.gov/wannacry) a touché
 
 Des mesures préventives peuvent aider les particuliers et les organisations à se protéger contre les attaques de ransomware. Voici quelques mesures préventives à prendre en compte :
 
--[**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Des sauvegardes régulières peuvent aider à restaurer les données en cas d'attaque par un ransomware.
+-[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Des sauvegardes régulières peuvent aider à restaurer les données en cas d'attaque par un ransomware.
 
--[**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Maintenir tous les logiciels, y compris les systèmes d'exploitation et les applications, à jour avec les derniers correctifs de sécurité.
+-[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Maintenir tous les logiciels, y compris les systèmes d'exploitation et les applications, à jour avec les derniers correctifs de sécurité.
 
--[**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Installer et utiliser un logiciel antivirus pour détecter et prévenir les attaques de ransomware.
+-[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Installer et utiliser un logiciel antivirus pour détecter et prévenir les attaques de ransomware.
 
--[**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Sensibiliser les employés à la manière de reconnaître et d'éviter les courriels d'hameçonnage et d'autres types d'attaques d'ingénierie sociale.
+-[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Sensibiliser les employés à la manière de reconnaître et d'éviter les courriels d'hameçonnage et d'autres types d'attaques d'ingénierie sociale.
 
--[**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) pour empêcher tout accès non autorisé aux comptes.
+-[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) pour empêcher tout accès non autorisé aux comptes.
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Utiliser un VPN pour crypter le trafic internet et se protéger contre les attaques basées sur le réseau.
+-[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Utiliser un VPN pour crypter le trafic internet et se protéger contre les attaques basées sur le réseau.
 
 ## Conclusion
 

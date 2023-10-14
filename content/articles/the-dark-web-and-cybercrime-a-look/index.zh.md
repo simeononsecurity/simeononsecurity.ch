@@ -50,17 +50,17 @@ coverCaption: ""
 
 防范暗网和网络犯罪需要采取积极主动的措施来降低风险。以下是一些保护自己的基本步骤：
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)在网上共享个人信息时要谨慎，避免向不熟悉或不信任的来源提供敏感信息。保护好您的姓名、地址、社会保险号和其他个人身份信息。
+[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)在网上共享个人信息时要谨慎，避免向不熟悉或不信任的来源提供敏感信息。保护好您的姓名、地址、社会保险号和其他个人身份信息。
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)为您的所有在线账户设置强大而独特的密码。避免在多个平台上重复使用密码，以防数据泄露时出现未经授权的访问。
+[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的所有在线账户设置强大而独特的密码。避免在多个平台上重复使用密码，以防数据泄露时出现未经授权的访问。
 
-[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/)定期更新软件，包括操作系统、网络浏览器和防病毒程序。这些更新通常包含安全补丁，可解决漏洞并防范新出现的网络威胁。
+[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)定期更新软件，包括操作系统、网络浏览器和防病毒程序。这些更新通常包含安全补丁，可解决漏洞并防范新出现的网络威胁。
 
 **4.养成安全的浏览习惯：** 对您访问的网站要擦亮眼睛，不要点击电子邮件或陌生网站中的链接。在分享任何个人或财务信息之前，请坚持使用信誉良好的来源，并核实网站的合法性。
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/)利用防火墙控制入站和出站网络流量，并部署可靠的防病毒软件来检测和清除设备上的恶意软件或可疑活动。
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/)利用防火墙控制入站和出站网络流量，并部署可靠的防病毒软件来检测和清除设备上的恶意软件或可疑活动。
 
-[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)定期备份重要数据和文件。这样可以确保即使您的计算机受到威胁或数据被盗，您也能恢复信息并将潜在网络攻击的影响降至最低。
+[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)定期备份重要数据和文件。这样可以确保即使您的计算机受到威胁或数据被盗，您也能恢复信息并将潜在网络攻击的影响降至最低。
 
 ## 政府法规和举措
 

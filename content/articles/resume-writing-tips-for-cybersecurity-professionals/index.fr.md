@@ -68,7 +68,7 @@ ______
 
 En conclusion, la rédaction d'un CV efficace est essentielle pour les professionnels de la cybersécurité, du développement de logiciels et de l'informatique qui souhaitent progresser dans leur carrière. En adaptant votre CV à la description du poste, en mettant en valeur vos compétences techniques et vos réalisations, en insistant sur la sensibilisation à la cybersécurité et à la protection de la vie privée, en soulignant vos capacités à résoudre des problèmes, en restant clair et concis, en utilisant des verbes d'action et des résultats quantifiables, et en vous tenant au courant des tendances du secteur, vous pouvez créer un CV qui se distinguera auprès des employeurs potentiels.
 
-Pour des conseils plus généraux sur la rédaction d'un CV, vous pouvez également consulter les sites suivants [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) sur le site SimeonOnSecurity.ch, qui fournit des informations précieuses et des conseils supplémentaires.
+Pour des conseils plus généraux sur la rédaction d'un CV, vous pouvez également consulter les sites suivants [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) sur le site simeononsecurity.com, qui fournit des informations précieuses et des conseils supplémentaires.
 
 ______
 

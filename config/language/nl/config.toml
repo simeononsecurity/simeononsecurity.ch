@@ -1,5 +1,5 @@
 
-baseurl = "https://nl.simeononsecurity.ch"
+baseurl = "https://nl.simeononsecurity.com"
 languageCode = "nl"
 defaultContentLanguage = "nl"
 disableLanguages = [

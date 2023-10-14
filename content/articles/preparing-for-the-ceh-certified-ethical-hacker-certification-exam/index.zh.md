@@ -57,8 +57,8 @@ coverCaption: "准备、坚持、成功：你的认证道德黑客之旅》。"
   - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### 关注薄弱领域
 
@@ -90,7 +90,7 @@ EC-Council的**网站提供专门为CEH认证设计的**模拟考试。这些考
 
 因此，请务必浏览**EC-Council的网站**和其他信誉良好的**在线平台**，以获取各种**CEH模拟考试**，这将提升您的考试准备程度，并有助于您取得成功。
 
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 #### 加入学习小组
 

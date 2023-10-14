@@ -21,11 +21,11 @@ IT業界で働くことは、サイバーセキュリティのキャリアに向
 
 ## 学位取得や資格取得を目指す
 
-ITやサイバーセキュリティの学位を取得することは望ましいことですが、それだけで始められるわけではありません。取得する [CompTIA's A+](https://simeononsecurity.ch/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)を取得することで、その分野でのスタートを切ることができ、さらにその分野を追求したいのかどうかがわかることもあります。これらの資格は多くの雇用主が認めており、大学の単位に移行できることも多い。さらに、学位を取得するよりもはるかに費用がかかりません。
+ITやサイバーセキュリティの学位を取得することは望ましいことですが、それだけで始められるわけではありません。取得する [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)を取得することで、その分野でのスタートを切ることができ、さらにその分野を追求したいのかどうかがわかることもあります。これらの資格は多くの雇用主が認めており、大学の単位に移行できることも多い。さらに、学位を取得するよりもはるかに費用がかかりません。
 
 ## スキルを高める
 
-一度取得した [CompTIA certifications](https://simeononsecurity.ch/articles/tips-and-tricks-for-passing-comptia-exams/), or at least the [Security+ certification](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), you can start advancing your skills. Pursuing certifications like [Microsoft's MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA's Linux+](https://www.comptia.org/certifications/linux)やCiscoのCCNAは、あなたが最低限の管理スキルと知識を持っていることを証明するものです。また、これらの資格は、ITやサイバーセキュリティの仕事において、より競争力のある候補者となります。
+一度取得した [CompTIA certifications](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/), or at least the [Security+ certification](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), you can start advancing your skills. Pursuing certifications like [Microsoft's MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA's Linux+](https://www.comptia.org/certifications/linux)やCiscoのCCNAは、あなたが最低限の管理スキルと知識を持っていることを証明するものです。また、これらの資格は、ITやサイバーセキュリティの仕事において、より競争力のある候補者となります。
 
 ## サイバーセキュリティに注目する
 
@@ -39,13 +39,13 @@ ITやサイバーセキュリティの学位を取得することは望ましい
 
 ITとサイバーセキュリティの初心者には、知識とスキルの習得に役立つ多くのリソースがあります。おすすめのリソースをいくつか紹介します：
 
-- [**Online courses**](https://simeononsecurity.ch/recommendations/learning_resources/)多くのウェブサイトが、ITやサイバーセキュリティのさまざまなトピックに関する無料または低料金のコースを提供しています。人気のあるプラットフォームには、Coursera、Udemy、edXなどがあります。例えば、Cybraryというウェブサイトでは、倫理的ハッキング、ネットワークセキュリティ、クラウドセキュリティなどのトピックについて無料のコースを提供しています。
+- [**Online courses**](https://simeononsecurity.com/recommendations/learning_resources/)多くのウェブサイトが、ITやサイバーセキュリティのさまざまなトピックに関する無料または低料金のコースを提供しています。人気のあるプラットフォームには、Coursera、Udemy、edXなどがあります。例えば、Cybraryというウェブサイトでは、倫理的ハッキング、ネットワークセキュリティ、クラウドセキュリティなどのトピックについて無料のコースを提供しています。
 
-- [**Tutorials and free resources**](https://simeononsecurity.ch/recommendations/learning_resources/): Many websites offer free tutorials and resources on topics such as programming languages, cybersecurity tools, and operating systems. For example, the website [W3Schools](https://www.w3schools.com/)は、HTML、CSS、JavaScriptなどのプログラミング言語に関する無料のチュートリアルを提供しています。
+- [**Tutorials and free resources**](https://simeononsecurity.com/recommendations/learning_resources/): Many websites offer free tutorials and resources on topics such as programming languages, cybersecurity tools, and operating systems. For example, the website [W3Schools](https://www.w3schools.com/)は、HTML、CSS、JavaScriptなどのプログラミング言語に関する無料のチュートリアルを提供しています。
 
-- [**Certifications**](https://simeononsecurity.ch/recommendations/certifications/): Certifications can be a valuable asset in the IT and cybersecurity fields. They demonstrate your knowledge and skills in a particular area and can make you more marketable to employers. Some popular certifications include [CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), and [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
+- [**Certifications**](https://simeononsecurity.com/recommendations/certifications/): Certifications can be a valuable asset in the IT and cybersecurity fields. They demonstrate your knowledge and skills in a particular area and can make you more marketable to employers. Some popular certifications include [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), and [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
 
-- [**Books**](https://simeononsecurity.ch/recommendations/books/): Reading books can be a great way to learn about IT and cybersecurity topics in-depth. Some recommended books include ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" by Michael Sikorski and Andrew Honig](https://amzn.to/3xVXzFa), and ["The Art of Deception: Controlling the Human Element of Security" by Kevin Mitnick](https://amzn.to/3SuW8qL)
+- [**Books**](https://simeononsecurity.com/recommendations/books/): Reading books can be a great way to learn about IT and cybersecurity topics in-depth. Some recommended books include ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" by Michael Sikorski and Andrew Honig](https://amzn.to/3xVXzFa), and ["The Art of Deception: Controlling the Human Element of Security" by Kevin Mitnick](https://amzn.to/3SuW8qL)
 
 これらのリソースに加え、ITとサイバーセキュリティの分野ではネットワークが重要です。業界団体に参加し、カンファレンスに参加し、他のプロフェッショナルとつながることで、この分野の新しいテクノロジーやトレンドについて学ぶことができます。
 ______

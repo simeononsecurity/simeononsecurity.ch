@@ -30,14 +30,14 @@ Per salvaguardare le informazioni sensibili o classificate, le organizzazioni de
 Il controllo dell'accesso alle informazioni è fondamentale per prevenire la fuoriuscita non autorizzata. Implementate le seguenti misure:
 
 - **Controllo dell'accesso basato sui ruoli**: Assegnare i diritti di accesso in base ai ruoli e alle responsabilità professionali per garantire che solo le persone autorizzate abbiano accesso alle informazioni sensibili.
-- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Richiedere più fattori di autenticazione, come password e biometria, per migliorare la sicurezza delle credenziali di accesso.
+- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Richiedere più fattori di autenticazione, come password e biometria, per migliorare la sicurezza delle credenziali di accesso.
 - Revisioni periodiche degli accessi**: Eseguire revisioni periodiche per garantire che i privilegi di accesso siano aggiornati e revocare prontamente l'accesso alle persone che non ne hanno più bisogno.
 
 ### 2. Crittografia delle informazioni sensibili
 
 La crittografia fornisce un ulteriore livello di sicurezza per proteggere i dati sensibili da accessi non autorizzati. Considerate le seguenti pratiche:
 
-- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Implementare meccanismi di crittografia che proteggano le informazioni durante tutto il loro ciclo di vita, dall'archiviazione alla trasmissione.
+- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Implementare meccanismi di crittografia che proteggano le informazioni durante tutto il loro ciclo di vita, dall'archiviazione alla trasmissione.
 - **Classificazione dei dati**: Classificare le informazioni in base al loro livello di sensibilità e applicare di conseguenza le misure di crittografia appropriate.
 - Gestione delle chiavi**: Stabilire solide pratiche di gestione delle chiavi per garantire che le chiavi di crittografia siano conservate, protette e ruotate regolarmente.
 
@@ -45,8 +45,8 @@ La crittografia fornisce un ulteriore livello di sicurezza per proteggere i dati
 
 Investire nella formazione e nella consapevolezza dei dipendenti è fondamentale per prevenire la fuoriuscita di informazioni. Ecco cosa potete fare:
 
-- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Condurre sessioni di formazione regolari per istruire i dipendenti sulle migliori pratiche di sicurezza delle informazioni, compresi i rischi di fuoriuscita delle informazioni.
-- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Formare i dipendenti a riconoscere e segnalare i tentativi di phishing, spesso utilizzati come mezzo per ottenere l'accesso non autorizzato a informazioni sensibili.
+- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Condurre sessioni di formazione regolari per istruire i dipendenti sulle migliori pratiche di sicurezza delle informazioni, compresi i rischi di fuoriuscita delle informazioni.
+- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Formare i dipendenti a riconoscere e segnalare i tentativi di phishing, spesso utilizzati come mezzo per ottenere l'accesso non autorizzato a informazioni sensibili.
 - Procedure di segnalazione**: Stabilire procedure chiare per segnalare potenziali incidenti di sicurezza o attività sospette alle autorità competenti.
 
 ### 4. Implementare soluzioni di prevenzione della perdita di dati (DLP).
@@ -80,7 +80,7 @@ In conclusione, la prevenzione della fuoriuscita di informazioni o di informazio
 ## Riferimenti
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

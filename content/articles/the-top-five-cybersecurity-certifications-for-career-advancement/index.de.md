@@ -40,6 +40,6 @@ Zusammenfassend lässt sich sagen, dass der Erwerb einer Cybersicherheitszertifi
 
 Es ist wichtig, dass Sie eine Zertifizierung wählen, die Ihren beruflichen Zielen und Interessen entspricht. Ganz gleich, ob Sie sich ein solides Grundwissen über Cybersicherheit aneignen oder sich auf einen bestimmten Bereich des Feldes spezialisieren möchten, diese Zertifizierungen können Ihnen helfen, Ihre Karriere auf die nächste Stufe zu heben.
 
-Es ist wichtig zu wissen, dass die in diesem Artikel aufgelisteten Zertifizierungen nur einige der vielen verfügbaren sind. Die Recherche und Auswahl der für Sie richtigen Zertifizierung kann Ihnen helfen, Ihre beruflichen Ziele zu erreichen und Ihre Kenntnisse und Fähigkeiten gegenüber potenziellen Arbeitgebern zu demonstrieren. Weitere Empfehlungen finden Sie in unserem [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/)
+Es ist wichtig zu wissen, dass die in diesem Artikel aufgelisteten Zertifizierungen nur einige der vielen verfügbaren sind. Die Recherche und Auswahl der für Sie richtigen Zertifizierung kann Ihnen helfen, Ihre beruflichen Ziele zu erreichen und Ihre Kenntnisse und Fähigkeiten gegenüber potenziellen Arbeitgebern zu demonstrieren. Weitere Empfehlungen finden Sie in unserem [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/)
 
 **Beginnen Sie noch heute Ihre Reise zur Cybersecurity-Exzellenz, indem Sie eine der folgenden Top-Zertifizierungen anstreben.

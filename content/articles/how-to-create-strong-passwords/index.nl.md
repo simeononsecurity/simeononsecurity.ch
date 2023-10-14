@@ -59,9 +59,9 @@ Vergeet niet dat de kracht van een wachtwoordzin niet alleen ligt in de lengte, 
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-Naarmate het aantal online accounts toeneemt, wordt het een uitdaging om voor elke account een uniek en sterk wachtwoord te onthouden. Dit is waar wachtwoordmanagers zoals [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) van pas komen. Een wachtwoordbeheerder is een veilige digitale kluis die al uw wachtwoorden versleuteld opslaat. Hiermee kunt u sterke, unieke wachtwoorden genereren voor elke account en deze automatisch invullen wanneer dat nodig is. Dit is hoe wachtwoordbeheerders u kunnen helpen:
+Naarmate het aantal online accounts toeneemt, wordt het een uitdaging om voor elke account een uniek en sterk wachtwoord te onthouden. Dit is waar wachtwoordmanagers zoals [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) van pas komen. Een wachtwoordbeheerder is een veilige digitale kluis die al uw wachtwoorden versleuteld opslaat. Hiermee kunt u sterke, unieke wachtwoorden genereren voor elke account en deze automatisch invullen wanneer dat nodig is. Dit is hoe wachtwoordbeheerders u kunnen helpen:
 
 - **Gemak**: Met een wachtwoordmanager hoeft u slechts één hoofdwachtwoord te onthouden om toegang te krijgen tot al uw opgeslagen wachtwoorden. Dit elimineert de noodzaak om meerdere complexe wachtwoorden te onthouden.
 - Sterke, unieke wachtwoorden**: Wachtwoordbeheerders kunnen sterke wachtwoorden genereren met een combinatie van tekens, zodat elk van uw accounts een uniek en veilig wachtwoord heeft.
@@ -78,7 +78,7 @@ Hoewel wachtwoordbeheerders aanzienlijke voordelen bieden, is het essentieel om 
 
 - **Kies een gerenommeerde wachtwoordmanager**: Kies een gerenommeerde en betrouwbare wachtwoordmanager zoals **Bitwarden** of andere die worden aanbevolen door gerenommeerde cyberbeveiligingsbronnen.
 - **Maak een sterk hoofdwachtwoord**: Het hoofdwachtwoord is de sleutel tot de kluis van uw wachtwoordbeheerder, dus zorg ervoor dat het sterk en uniek is. Volg de eerder genoemde richtlijnen om een robuust hoofdwachtwoord te maken.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Tweefactorauthenticatie voegt een extra beveiligingslaag toe door naast het hoofdwachtwoord een tweede vorm van verificatie te vereisen, zoals een vingerafdruk of een code van een authenticatie-app.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Tweefactorauthenticatie voegt een extra beveiligingslaag toe door naast het hoofdwachtwoord een tweede vorm van verificatie te vereisen, zoals een vingerafdruk of een code van een authenticatie-app.
 - **Regelmatig uw wachtwoordbeheerder bijwerken**: Houd uw wachtwoordbeheerder bijgewerkt om ervoor te zorgen dat u over de nieuwste beveiligingspatches en -functies beschikt.
 - Maak een back-up van uw wachtwoordkluis**: Maak regelmatig een back-up van uw wachtwoordmanager om gegevensverlies te voorkomen in geval van een apparaatstoring of andere onvoorziene omstandigheden.
 - Wees voorzichtig met phishing-aanvallen**: Wees waakzaam en vermijd het klikken op verdachte links of het verstrekken van uw wachtwoordmanagerinformatie op niet-vertrouwde websites.

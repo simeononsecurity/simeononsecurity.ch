@@ -32,7 +32,7 @@ Al realizar compras en Internet, es esencial proteger tu información personal. 
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) es otro servicio fiable que le permite generar tarjetas de débito virtuales para compras en línea. Con Privacy.com, puedes crear números de tarjeta únicos para cada transacción, garantizando que la información de tu tarjeta de crédito real permanece segura. Este servicio también te permite establecer límites de gasto y controlar las suscripciones, lo que te da un mejor control sobre tus transacciones en línea.
 
-Más información [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
+Más información [recommended privacy services](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ A la hora de comprar por Internet, opte por plataformas de comercio electrónico
 
 Actualice regularmente su sistema operativo, navegador web y software antivirus para asegurarse de que dispone de los últimos parches de seguridad y protección contra el malware y las ciberamenazas. Active las actualizaciones automáticas siempre que sea posible.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) correos electrónicos, mensajes de texto o llamadas telefónicas que intenten engañarle para que revele información personal o credenciales de acceso. Evite hacer clic en enlaces sospechosos y verifique la autenticidad de cualquier comunicación de vendedores en línea antes de compartir cualquier dato sensible.
+[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) correos electrónicos, mensajes de texto o llamadas telefónicas que intenten engañarle para que revele información personal o credenciales de acceso. Evite hacer clic en enlaces sospechosos y verifique la autenticidad de cualquier comunicación de vendedores en línea antes de compartir cualquier dato sensible.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) para sus cuentas de compras en línea. Evite reutilizar contraseñas en varias plataformas. Considera la posibilidad de utilizar un gestor de contraseñas, como **LastPass** o **Dashlane**, para almacenar y generar contraseñas complejas de forma segura.
+[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para sus cuentas de compras en línea. Evite reutilizar contraseñas en varias plataformas. Considera la posibilidad de utilizar un gestor de contraseñas, como **LastPass** o **Dashlane**, para almacenar y generar contraseñas complejas de forma segura.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) añade una capa extra de seguridad al requerir una segunda forma de verificación, como un código único enviado a tu dispositivo móvil, además de tu contraseña. Activa 2FA siempre que sea posible para proteger tus cuentas de compras online.
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) añade una capa extra de seguridad al requerir una segunda forma de verificación, como un código único enviado a tu dispositivo móvil, además de tu contraseña. Activa 2FA siempre que sea posible para proteger tus cuentas de compras online.
 
 ### 6. Revise las valoraciones y reseñas de los vendedores
 
 Antes de comprar a un vendedor nuevo, comprueba sus valoraciones y opiniones de otros clientes. Esta información puede ayudarle a evaluar la credibilidad y fiabilidad del vendedor.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 Evite hacer compras en línea cuando esté conectado a redes Wi-Fi públicas, ya que suelen ser inseguras y propensas a las escuchas. En su lugar, utilice una conexión a Internet segura y privada, como su red doméstica o un servicio VPN (red privada virtual) de confianza.
 

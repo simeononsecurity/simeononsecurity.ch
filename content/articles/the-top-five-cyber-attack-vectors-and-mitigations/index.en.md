@@ -22,13 +22,13 @@ ______
 
 ## Social Engineering
 
-**Social engineering** is a type of cyber attack that relies on human interaction and psychological manipulation to trick individuals into divulging sensitive information or performing certain actions. Cybercriminals use various tactics, such as [phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/), pretexting, baiting, and quid pro quo, to gain the trust of their victims and obtain confidential information. 
+**Social engineering** is a type of cyber attack that relies on human interaction and psychological manipulation to trick individuals into divulging sensitive information or performing certain actions. Cybercriminals use various tactics, such as [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/), pretexting, baiting, and quid pro quo, to gain the trust of their victims and obtain confidential information. 
 
 To mitigate the risk of social engineering attacks, individuals and organizations can take the following steps:
 
-- Provide [**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) to employees to teach them how to identify and avoid social engineering attacks.
+- Provide [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) to employees to teach them how to identify and avoid social engineering attacks.
 - Use **spam filters** and email authentication protocols, such as **SPF**, **DKIM**, and **DMARC**, to detect and block phishing emails.
-- Implement [**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) to add an extra layer of security to login credentials.
+- Implement [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) to add an extra layer of security to login credentials.
 - Regularly review and update **security policies** to address new threats and vulnerabilities.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 To mitigate the risk of malware attacks, individuals and organizations can take the following steps:
 
-- Install and regularly update [**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) on all devices.
+- Install and regularly update [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) on all devices.
 - Use **firewalls** to block unauthorized access to computer systems and networks.
 - Avoid downloading software or files from untrusted sources.
 - Regularly **back up** important data to prevent data loss in case of a malware attack.
@@ -67,9 +67,9 @@ systems or networks by guessing, cracking, or stealing passwords. Password attac
 To mitigate the risk of password attacks, individuals and organizations can take the following steps:
 
 - Use strong and unique passwords that contain a combination of letters, numbers, and symbols.
-- Implement a [**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that requires regular password changes and prohibits the use of common or easily guessable passwords.
-- Use [**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) that can generate and store complex passwords.
-- Implement [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) to add an extra layer of security to login credentials.
+- Implement a [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that requires regular password changes and prohibits the use of common or easily guessable passwords.
+- Use [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) that can generate and store complex passwords.
+- Implement [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) to add an extra layer of security to login credentials.
 
 ______
 
@@ -81,7 +81,7 @@ To mitigate the risk of web application attacks, individuals and organizations c
 
 - Use **web application firewalls** to detect and block malicious traffic.
 - Regularly scan web applications for vulnerabilities and implement patches and updates promptly.
-- Use [**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) to prevent common web application vulnerabilities.
+- Use [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) to prevent common web application vulnerabilities.
 - Implement **user input validation** to prevent SQL injection and other input-based attacks.
 
 ______

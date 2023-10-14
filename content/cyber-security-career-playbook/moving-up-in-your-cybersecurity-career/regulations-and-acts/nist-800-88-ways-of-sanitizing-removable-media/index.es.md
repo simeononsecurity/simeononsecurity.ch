@@ -28,11 +28,11 @@ El Instituto Nacional de Estándares y Tecnología (NIST) ha publicado una direc
 
 ### Borrado
 
-El borrado es el proceso de sobrescribir los datos de un dispositivo con una serie de valores binarios. Este método es menos seguro que la destrucción física, pero sigue siendo eficaz para desinfectar la mayoría de los soportes extraíbles. NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por el Departamento de Defensa (DoD) [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) especificación.
+El borrado es el proceso de sobrescribir los datos de un dispositivo con una serie de valores binarios. Este método es menos seguro que la destrucción física, pero sigue siendo eficaz para desinfectar la mayoría de los soportes extraíbles. NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por el Departamento de Defensa (DoD) [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) especificación.
 
 ### Purga
 
-La purga es el proceso de sobrescribir los datos de un dispositivo varias veces con un patrón de valores binarios. Este método es más seguro que el borrado y se recomienda para sanear datos sensibles. El NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por el [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) especificación.
+La purga es el proceso de sobrescribir los datos de un dispositivo varias veces con un patrón de valores binarios. Este método es más seguro que el borrado y se recomienda para sanear datos sensibles. El NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por el [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) especificación.
 
 __________________________________________
 {{< inarticle-dark >}}

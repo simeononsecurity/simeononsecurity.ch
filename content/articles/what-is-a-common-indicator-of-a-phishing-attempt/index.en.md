@@ -127,13 +127,13 @@ To enhance your online security and protect yourself from phishing attempts, con
 
 - **Keep your software up to date**: Regularly update your operating system, antivirus software, and other applications. These updates often include security patches that address known vulnerabilities and protect against emerging threats. By keeping your software current, you minimize the risk of falling victim to phishing attacks. Make sure to enable automatic updates whenever possible.
 
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): 2FA provides an additional layer of security for your online accounts. It requires you to provide a second verification factor, such as a unique code sent to your mobile device, in addition to your password. By enabling 2FA, even if a phishing attempt succeeds in obtaining your password, the attacker would still need the second factor to access your account.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): 2FA provides an additional layer of security for your online accounts. It requires you to provide a second verification factor, such as a unique code sent to your mobile device, in addition to your password. By enabling 2FA, even if a phishing attempt succeeds in obtaining your password, the attacker would still need the second factor to access your account.
 
 - **Educate yourself about phishing**: Stay informed about the latest phishing techniques and scams. Cybercriminals are continually evolving their tactics, so it's essential to keep up with current trends. Educate yourself about the common indicators of phishing attempts, such as suspicious email addresses, poor grammar, and requests for personal information. Regularly check trusted sources, such as cybersecurity websites, for updates on new phishing threats.
 
 - **Exercise caution with personal information**: Be cautious when sharing sensitive information online. Only provide personal information on websites or services that you trust and have verified to be legitimate and secure. Avoid sharing sensitive details through email or other unsecured channels. Remember that reputable organizations typically have secure systems in place to handle sensitive data and would not request it via email or text.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/): Create strong, complex, and unique passwords for each of your online accounts. A strong password includes a combination of upper and lowercase letters, numbers, and special characters. Avoid using easily guessable information such as your name, birthdate, or common words. By using unique passwords for each account, you prevent attackers from gaining access to multiple accounts if one password is compromised.
+- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): Create strong, complex, and unique passwords for each of your online accounts. A strong password includes a combination of upper and lowercase letters, numbers, and special characters. Avoid using easily guessable information such as your name, birthdate, or common words. By using unique passwords for each account, you prevent attackers from gaining access to multiple accounts if one password is compromised.
 
 Implementing these security practices can significantly enhance your online safety and reduce the risk of falling victim to phishing attacks. Remember, **staying informed, being cautious, and employing strong security measures** are key to protecting your digital identity and personal information.
 
@@ -146,11 +146,11 @@ Recognizing the indicators of a phishing attempt is vital for safeguarding your 
 
 Remember to **stay informed**, **educate yourself** about the latest phishing techniques, and follow **best practices for online security**. By implementing these tips and maintaining a cautious mindset, you can enhance your online safety and minimize the risk of falling victim to phishing attempts.
 
-For further guidance on what to do if you suspect your email or phone is compromised, you can refer to the article [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/). This resource provides valuable information on steps to take in the event of a potential compromise.
+For further guidance on what to do if you suspect your email or phone is compromised, you can refer to the article [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/). This resource provides valuable information on steps to take in the event of a potential compromise.
 
 Protect yourself and stay vigilant against phishing attacks to ensure the security of your personal data and online accounts.
 
-For more cybersecurity-related articles and resources, visit [SimeonOnSecurity.ch](https://simeononsecurity.ch).
+For more cybersecurity-related articles and resources, visit [simeononsecurity.com](https://simeononsecurity.com).
 
 ______
 

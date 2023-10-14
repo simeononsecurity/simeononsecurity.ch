@@ -10,7 +10,7 @@ coverAlt: "夕暮れ時のパリの街並みを背景に、金庫の扉を鍵で
 coverCaption: ""
 ---
 
-HackTheBoxのCryptoチャレンジ「Bank Heist」を解くための包括的なガイドです。このチャレンジでは、暗号を解読するために [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/)Decode.frを使ったテキストとCyberChefを使ったatbashの暗号テキストからフラグを明らかにする。サイバーセキュリティのプロを目指す人、暗号技術のスキルアップを目指す人は必読の書です。
+HackTheBoxのCryptoチャレンジ「Bank Heist」を解くための包括的なガイドです。このチャレンジでは、暗号を解読するために [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/)Decode.frを使ったテキストとCyberChefを使ったatbashの暗号テキストからフラグを明らかにする。サイバーセキュリティのプロを目指す人、暗号技術のスキルアップを目指す人は必読の書です。
 
 ## Provided Files：
 

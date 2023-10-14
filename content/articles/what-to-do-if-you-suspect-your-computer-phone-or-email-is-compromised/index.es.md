@@ -28,20 +28,20 @@ El primer paso que debes dar cuando sospeches que tu correo electrónico, ordena
 
 Es importante que tomes nota de cualquier signo de peligro para que puedas tomar las medidas adecuadas para proteger tu dispositivo y tus datos. Si no estás seguro de que tu dispositivo se haya visto comprometido, siempre es mejor equivocarse.
 
-Aprenda a identificar [phishing and suspicious emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+Aprenda a identificar [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
 
 ______
 
-## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-- [**Change your passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) para todas sus cuentas inmediatamente si sospecha que su dispositivo ha sido comprometido
+- [**Change your passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para todas sus cuentas inmediatamente si sospecha que su dispositivo ha sido comprometido
 
 Si sospechas que tu correo electrónico, ordenador o teléfono han sido comprometidos, el siguiente paso es cambiar las contraseñas de todas tus cuentas inmediatamente. Esto llevará un tiempo, así que da prioridad a las cuentas importantes, como las de correo electrónico, cuentas bancarias, redes sociales, etc.
 
 - Prioriza las cuentas importantes**, como las de correo electrónico, cuentas bancarias, redes sociales, etc.
 
-- [**Choose strong, unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) para cada una de sus cuentas y **evite utilizar la misma contraseña** en varias cuentas.
-- A [**strong password**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) debe tener al menos **12 caracteres** e incluir una **mezcla de letras mayúsculas y minúsculas, números y símbolos**.
+- [**Choose strong, unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para cada una de sus cuentas y **evite utilizar la misma contraseña** en varias cuentas.
+- A [**strong password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) debe tener al menos **12 caracteres** e incluir una **mezcla de letras mayúsculas y minúsculas, números y símbolos**.
 
 Elija contraseñas seguras y únicas para cada una de sus cuentas y evite utilizar la misma contraseña para varias cuentas. Una contraseña segura debe tener al menos 12 caracteres e incluir una mezcla de letras mayúsculas y minúsculas, números y símbolos. Evite utilizar palabras o frases comunes y no incluya información personal como su nombre, fecha de nacimiento o dirección.
 
@@ -61,7 +61,7 @@ Elija contraseñas seguras y únicas para cada una de sus cuentas y evite utiliz
 - elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
 ```
 
-- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para una capa adicional de seguridad
+- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para una capa adicional de seguridad
 
 También es buena idea activar la autenticación de doble factor, que añade una capa adicional de seguridad a tus cuentas. La autenticación de dos factores requiere un segundo método de verificación, como un código enviado a tu teléfono o correo electrónico, además de tu contraseña.
 
@@ -116,7 +116,7 @@ Para buscar malware en tu dispositivo, utiliza un software antivirus de confianz
 
 También es una buena idea escanear cualquier dispositivo externo, como unidades USB, que haya utilizado con el dispositivo comprometido. Los dispositivos externos a menudo pueden contener malware que puede infectar su dispositivo, por lo que es importante escanearlos antes de utilizarlos con su dispositivo.
 
-Ver algunos [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.ch/recommendations/anti-virus)
+Ver algunos [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.com/recommendations/anti-virus)
 
 ______
 
@@ -138,7 +138,7 @@ Una vez que hayas verificado que tus archivos importantes están seguros, debes 
 
 Recuerda que al borrar el dispositivo se eliminarán todos los datos que contenga, por lo que es importante hacer una copia de seguridad de todos los archivos importantes antes de hacerlo.
 
-Más información sobre [3-2-1 Backup Rule](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+Más información sobre [3-2-1 Backup Rule](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 
 ______
 

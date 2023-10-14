@@ -74,7 +74,7 @@ To encrypt a disk using VeraCrypt, follow these steps:
 3. Launch VeraCrypt and select the disk or partition you want to encrypt.
 4. Follow the instructions provided by VeraCrypt to create an encrypted volume.
 
-Keep in mind that the security of VeraCrypt relies on the strength of your password. Make sure to use a [long and secure password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) to maximize the effectiveness of the encryption.
+Keep in mind that the security of VeraCrypt relies on the strength of your password. Make sure to use a [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) to maximize the effectiveness of the encryption.
 
 ______
 {{< inarticle-dark >}}

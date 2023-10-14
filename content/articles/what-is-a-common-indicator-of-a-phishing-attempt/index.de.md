@@ -48,19 +48,19 @@ Bei Phishing-Versuchen werden in der Regel persönliche Daten wie Passwörter, S
 
 Seien Sie vorsichtig bei unerwarteten E-Mail-Anhängen, vor allem, wenn sie von unbekannten Absendern stammen. Phishing-E-Mails können Anhänge enthalten, die bösartige Software oder Viren enthalten. Öffnen Sie keine Anhänge, es sei denn, Sie erwarten sie und haben die Quelle überprüft.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.ch/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Da Sie nun die üblichen Anzeichen für Phishing-Versuche kennen, finden Sie hier einige Tipps, wie Sie sich im Internet schützen können:
 
 - **Halten Sie Ihre Software auf dem neuesten Stand**: Aktualisieren Sie regelmäßig Ihr Betriebssystem, Ihre Antiviren-Software und andere Anwendungen, um sich vor bekannten Sicherheitslücken zu schützen.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Die Zwei-Faktor-Authentifizierung erhöht die Sicherheit Ihrer Online-Konten, indem sie eine zusätzliche Verifizierung erfordert, z. B. durch einen eindeutigen Code, der an Ihr Mobilgerät gesendet wird.
+- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Die Zwei-Faktor-Authentifizierung erhöht die Sicherheit Ihrer Online-Konten, indem sie eine zusätzliche Verifizierung erfordert, z. B. durch einen eindeutigen Code, der an Ihr Mobilgerät gesendet wird.
 
 - **Bilden Sie sich weiter**: Informieren Sie sich über die neuesten Phishing-Techniken und Betrügereien. Machen Sie sich mit den gängigen Indikatoren vertraut und suchen Sie regelmäßig in vertrauenswürdigen Quellen nach Updates zu neuen Bedrohungen.
 
 - **Sein Sie vorsichtig mit persönlichen Informationen**: Geben Sie keine sensiblen Informationen online weiter, wenn Sie nicht von der Rechtmäßigkeit und Sicherheit der Website oder des Dienstes überzeugt sind, den Sie nutzen.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Erstellen Sie sichere und eindeutige Passwörter für jedes Ihrer Konten, um das Risiko eines unbefugten Zugriffs zu minimieren.
+- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Erstellen Sie sichere und eindeutige Passwörter für jedes Ihrer Konten, um das Risiko eines unbefugten Zugriffs zu minimieren.
 
 ______
 
@@ -70,7 +70,7 @@ Das Erkennen von Anzeichen für einen Phishing-Versuch ist wichtig, um Ihre pers
 
 Denken Sie daran, informiert zu bleiben, sich über die neuesten Phishing-Techniken zu informieren und bewährte Verfahren für die Online-Sicherheit zu befolgen. Wenn Sie diese Tipps befolgen und eine vorsichtige Haltung einnehmen, können Sie Ihre Online-Sicherheit erhöhen und das Risiko, Opfer von Phishing-Versuchen zu werden, minimieren.
 
-Lernen Sie [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Lernen Sie [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

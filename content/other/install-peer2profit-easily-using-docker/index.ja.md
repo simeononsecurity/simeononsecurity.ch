@@ -22,7 +22,7 @@ coverCaption: ""
 ### Dockerコンテナをインストールする：
 以下の手順で、Peer 2 Profit Docker コンテナをインストールします：
 
-0.学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0.学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1.ターミナルを開き、以下のコマンドを入力します。"your_email_without_quotes "を実際の電子メールアドレスに置き換えてください：
 ```bash
@@ -41,7 +41,7 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 ## 結論
 Peer 2 Profitをインストールし、インターネットを共有することで、受動的な収入を楽に得る機会があります。ユーザーフレンドリーなインターフェースと複数の支払いオプションにより、Peer 2 Profitはあなたのインターネット接続を収益化する便利な方法を提供します。今すぐ始めて、収入を得るようにしましょう！
 
-完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
 - [Peer 2 Profit](https://peer2profit.com/)

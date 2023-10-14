@@ -33,9 +33,9 @@ Goede digitale beveiliging en hygiëne zijn essentieel voor het beschermen van u
 
 Als u vermoedt dat uw privacy is geschonden, is het van cruciaal belang om het incident te melden. U kunt een vermist, misbruikt of seksueel uitgebuit kind melden bij [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) voor cybermisdaden, hacks, digitale diefstal en meer.
 
-### [Services](https://simeononsecurity.ch/recommendations/services/)
+### [Services](https://simeononsecurity.com/recommendations/services/)
 
-Als je extra hulp nodig hebt bij het beschermen van je privacy, overweeg dan het gebruik van [privacy services](https://simeononsecurity.ch/recommendations/services/) om je gegevens van grote gegevensmakelaars te verwijderen. Enkele aanbevolen diensten zijn:
+Als je extra hulp nodig hebt bij het beschermen van je privacy, overweeg dan het gebruik van [privacy services](https://simeononsecurity.com/recommendations/services/) om je gegevens van grote gegevensmakelaars te verwijderen. Enkele aanbevolen diensten zijn:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Deze voorkeurservice kan je helpen om je gegevens te verwijderen van grote gegevensmakelaars.
 - [OneRep](https://onerep.com) Deze alternatieve service kan je helpen om je gegevens te verwijderen van grote gegevensmakelaars.

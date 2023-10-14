@@ -74,7 +74,7 @@ ______
 3.启动 VeraCrypt 并选择要加密的磁盘或分区。
 4.4. 按照 VeraCrypt 提供的说明创建加密卷。
 
-请记住，VeraCrypt 的安全性取决于密码的强度。请确保使用 [long and secure password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)以最大限度地提高加密效果。
+请记住，VeraCrypt 的安全性取决于密码的强度。请确保使用 [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)以最大限度地提高加密效果。
 
 ______
 {{< inarticle-dark >}}

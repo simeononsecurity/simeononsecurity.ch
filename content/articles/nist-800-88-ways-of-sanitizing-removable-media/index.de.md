@@ -26,11 +26,11 @@ Das National Institute of Standards and Technology (NIST) hat eine Richtlinie f�
 
 ### Löschen
 
-Beim Löschen werden die Daten auf einem Gerät mit einer Reihe von Binärwerten überschrieben. Diese Methode ist weniger sicher als die physische Zerstörung, aber immer noch wirksam bei der Säuberung der meisten Wechseldatenträger. NIST 800-88 Revision 1 empfiehlt die Verwendung eines Softwaretools, das die vom Verteidigungsministerium (DoD) festgelegten Standards erfüllt. [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) Spezifikation.
+Beim Löschen werden die Daten auf einem Gerät mit einer Reihe von Binärwerten überschrieben. Diese Methode ist weniger sicher als die physische Zerstörung, aber immer noch wirksam bei der Säuberung der meisten Wechseldatenträger. NIST 800-88 Revision 1 empfiehlt die Verwendung eines Softwaretools, das die vom Verteidigungsministerium (DoD) festgelegten Standards erfüllt. [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) Spezifikation.
 
 ### Spülen
 
-Beim Bereinigen werden die Daten auf einem Gerät mehrfach mit einem Muster binärer Werte überschrieben. Diese Methode ist sicherer als das Löschen und wird für die Säuberung sensibler Daten empfohlen. NIST 800-88 Revision 1 empfiehlt die Verwendung eines Softwaretools, das die von der NIST festgelegten Standards erfüllt. [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) Spezifikation.
+Beim Bereinigen werden die Daten auf einem Gerät mehrfach mit einem Muster binärer Werte überschrieben. Diese Methode ist sicherer als das Löschen und wird für die Säuberung sensibler Daten empfohlen. NIST 800-88 Revision 1 empfiehlt die Verwendung eines Softwaretools, das die von der NIST festgelegten Standards erfüllt. [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) Spezifikation.
 
 __________________________________________
 

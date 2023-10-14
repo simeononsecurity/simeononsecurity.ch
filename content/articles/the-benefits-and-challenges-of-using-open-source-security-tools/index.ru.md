@@ -60,7 +60,7 @@ ______
 - [Open Source Security Foundation](https://openSSF.org/)
 - [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
-- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.ch/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
 - [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
 - [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
 - [Open Web Application Security Project (OWASP)](https://owasp.org/)

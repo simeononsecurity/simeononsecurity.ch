@@ -25,7 +25,7 @@ coverCaption: ""
 		- 2020/10/23 - 2020/10/25
 		- Algemeen geplaatst: 134e / 6010
 		- Plaatsing Goud: 126e / 680
-	- Team (SimeonOnSecurity.ch)
+	- Team (simeononsecurity.com)
 		- 2020/11/06 - 2020/11/08
 		- Algemeen geplaatst: 31e / 957
 		- Geplaatst Goud: 28e / 121

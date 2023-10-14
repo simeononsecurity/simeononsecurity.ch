@@ -50,7 +50,7 @@ Pour mettre en place un VPN sécurisé et résilient pour les travailleurs à di
 
 1. **Sélectionner une solution VPN** : En fonction des facteurs mentionnés précédemment, choisissez une solution VPN qui répond le mieux aux besoins de votre entreprise.
 2. **Configurer le serveur VPN** : Mettez en place un serveur VPN dédié au sein de votre organisation ou optez pour une solution basée sur le cloud. Configurez le serveur en fonction des politiques de sécurité et des exigences de votre entreprise.
-3. **Configurer l'authentification** : Mettez en œuvre une méthode d'authentification forte, telle que [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour s'assurer que seuls les employés autorisés peuvent accéder au VPN.
+3. **Configurer l'authentification** : Mettez en œuvre une méthode d'authentification forte, telle que [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour s'assurer que seuls les employés autorisés peuvent accéder au VPN.
 4. **Distribuer le logiciel client VPN** : Fournir à vos travailleurs à distance le logiciel client VPN et les fichiers de configuration nécessaires pour accéder au VPN.
 
 ______
@@ -81,7 +81,7 @@ ______
 Pour garantir la réussite de la mise en œuvre de votre solution VPN, offrez à vos employés distants la formation et le soutien nécessaires pour les aider à comprendre comment utiliser le VPN de manière efficace et sécurisée. Parmi les sujets importants à couvrir, citons
 
 - Comment configurer le VPN et s'y connecter** : Fournir des instructions claires sur l'installation du logiciel client VPN, la configuration des paramètres et la connexion au VPN.
-- Les meilleures pratiques en matière de sécurité** : Sensibilisez vos employés à l'importance d'utiliser des mots de passe forts et uniques, d'activer la fonction d'authentification de l'ordinateur. [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) et de sécuriser leurs appareils.
+- Les meilleures pratiques en matière de sécurité** : Sensibilisez vos employés à l'importance d'utiliser des mots de passe forts et uniques, d'activer la fonction d'authentification de l'ordinateur. [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) et de sécuriser leurs appareils.
 - **Dépannage** : Offrir des conseils sur la façon de résoudre les problèmes courants de connexion VPN et sur les personnes à contacter pour obtenir une assistance technique.
 
 ______

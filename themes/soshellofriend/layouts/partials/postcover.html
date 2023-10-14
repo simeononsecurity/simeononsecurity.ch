@@ -20,8 +20,8 @@
       "@type": "ImageObject",
       "contentUrl": "{{ $cover | absURL }}",
       "caption": "{{ $caption | default "" }}",
-      "license": "https://simeononsecurity.ch/termsandconditions/",
-      "acquireLicensePage": "https://simeononsecurity.ch/contactus/",
+      "license": "https://simeononsecurity.com/termsandconditions/",
+      "acquireLicensePage": "https://simeononsecurity.com/contactus/",
       "creditText": "SimeonOnSecurity",
       "creator": {
         "@type": "Person",
@@ -45,8 +45,8 @@
       <meta property="article:published_time" content="{{ $articleDate | default $articleYear }}">
       <meta property="article:author" content="{{ .context.Params.Author | default "SimeonOnSecurity" }}">
       <meta property="article:author:url" content="{{ $authorURL | default ("/authors/simeononsecurity" | absURL) }}">
-      <meta property="og:license" content="https://simeononsecurity.ch/termsandconditions/">
-      <meta property="og:see_also" content="https://simeononsecurity.ch/contactus/">
+      <meta property="og:license" content="https://simeononsecurity.com/termsandconditions/">
+      <meta property="og:see_also" content="https://simeononsecurity.com/contactus/">
       <meta property="og:copyright" content="SimeonOnSecurity">
       {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
       {{ $tiny := ($cover.Resize "240x webp q50") }}

@@ -17,15 +17,15 @@ coverCaption: "Раскройте свой потенциал: Лучшие се
 
 ______
 
-## [CompTIA A+](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
+## [CompTIA A+](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
 
 Сайт [**CompTIA A+ certification**](https://www.comptia.org/certifications/a) является отличной отправной точкой для тех, кто заинтересован в карьере в области кибербезопасности. Эта сертификация, не зависящая от производителя, подтверждает наличие базовых навыков и знаний в таких областях, как аппаратное и программное обеспечение, сетевые технологии и поиск неисправностей. С упором на практические навыки эта сертификация дает начинающим специалистам необходимые компетенции для работы в ИТ-индустрии.
 
 Для получения сертификата CompTIA A+ кандидатам необходимо сдать два экзамена: **Core 1 (220-1001)** и **Core 2 (220-1002)**. Эти экзамены охватывают такие темы, как поиск и устранение неисправностей оборудования и сетей, операционные системы, мобильные устройства, виртуализация, облачные вычисления и основы безопасности. Получив сертификат CompTIA A+, начинающие специалисты демонстрируют свою способность устанавливать, настраивать и защищать компьютерные системы, что является важнейшими навыками в области кибербезопасности.
 
-Практические тесты и дополнительные ресурсы для подготовки к экзаменам CompTIA A+ можно найти на сайте [this link](https://simeononsecurity.ch/a-plus-practice-test) Этот ресурс содержит ценные практические вопросы и рекомендации, позволяющие повысить готовность к экзамену.
+Практические тесты и дополнительные ресурсы для подготовки к экзаменам CompTIA A+ можно найти на сайте [this link](https://simeononsecurity.com/a-plus-practice-test) Этот ресурс содержит ценные практические вопросы и рекомендации, позволяющие повысить готовность к экзамену.
 
-Если вы ищете дополнительную информацию о сдаче экзаменов CompTIA A+ (220-1001 и 220-1002), вы можете ознакомиться с нашими [CompTIA A+ Guide](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/) 
+Если вы ищете дополнительную информацию о сдаче экзаменов CompTIA A+ (220-1001 и 220-1002), вы можете ознакомиться с нашими [CompTIA A+ Guide](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/) 
 
 ______
 
@@ -35,7 +35,7 @@ ______
 
 Получив сертификат CompTIA Network+, специалисты демонстрируют свою квалификацию в области **проектирования и реализации функциональных сетей, выявления и устранения уязвимостей сети**, а также обеспечения **доступности, целостности и конфиденциальности сети**. Эта сертификация высоко ценится в отрасли и признается работодателями как подтверждение знаний и навыков кандидата в области сетевых технологий.
 
-Для повышения эффективности подготовки к сертификации CompTIA Network+ вы можете получить доступ к следующим материалам [this link](https://simeononsecurity.ch/network-plus-practice-test) для **практических тестов** и дополнительных ресурсов. Данный ресурс предлагает практические вопросы и материалы, которые помогут вам закрепить понимание концепций сетевых технологий и повысить шансы на успешную сдачу экзамена.
+Для повышения эффективности подготовки к сертификации CompTIA Network+ вы можете получить доступ к следующим материалам [this link](https://simeononsecurity.com/network-plus-practice-test) для **практических тестов** и дополнительных ресурсов. Данный ресурс предлагает практические вопросы и материалы, которые помогут вам закрепить понимание концепций сетевых технологий и повысить шансы на успешную сдачу экзамена.
 
 ______
 
@@ -47,7 +47,7 @@ ______
 
 Получив сертификат CompTIA Security+, начинающие специалисты демонстрируют свое понимание концепций безопасности и лучших практик, а также способность оценивать и снижать риски безопасности. Этот сертификат служит прочной основой для дальнейшего продвижения по карьерной лестнице в области **кибербезопасности** и часто является предпосылкой для получения более сложных сертификатов в этой области.
 
-Чтобы улучшить подготовку к сертификации CompTIA Security+, вы можете получить доступ к следующим материалам [this link](https://simeononsecurity.ch/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/) для получения дополнительной информации об экзамене и о том, что необходимо знать для эффективной подготовки.
+Чтобы улучшить подготовку к сертификации CompTIA Security+, вы можете получить доступ к следующим материалам [this link](https://simeononsecurity.com/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/) для получения дополнительной информации об экзамене и о том, что необходимо знать для эффективной подготовки.
 
 ______
 
@@ -67,9 +67,9 @@ ______
 
 Сертификат CEH охватывает такие темы, как **отпечатки и разведка, сканирование сетей, перечисление, взлом систем, угрозы вредоносного ПО, социальная инженерия** и др. Она дает начинающим специалистам навыки проведения санкционированных имитационных атак для оценки эффективности мер безопасности и выявления областей, требующих совершенствования.
 
-Если вы заинтересованы в подготовке к сертификационному экзамену Certified Ethical Hacker (CEH), вы можете найти ценные ресурсы и практические тесты на сайте [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Этот ресурс содержит рекомендации по подготовке к сертификационному экзамену CEH, а также советы и учебные материалы, которые помогут вам добиться успеха.
+Если вы заинтересованы в подготовке к сертификационному экзамену Certified Ethical Hacker (CEH), вы можете найти ценные ресурсы и практические тесты на сайте [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Этот ресурс содержит рекомендации по подготовке к сертификационному экзамену CEH, а также советы и учебные материалы, которые помогут вам добиться успеха.
 
-Кроме того, вы можете посетить [this link](https://simeononsecurity.ch/ceh-practice-test) получить доступ к практическому тесту CEH, позволяющему проверить свои знания и ознакомиться с форматом экзамена.
+Кроме того, вы можете посетить [this link](https://simeononsecurity.com/ceh-practice-test) получить доступ к практическому тесту CEH, позволяющему проверить свои знания и ознакомиться с форматом экзамена.
 
 ______
 
@@ -89,7 +89,7 @@ ______
 
 Для продвижения по карьерной лестнице в области кибербезопасности начинающим специалистам важно приобретать практический опыт и продолжать обучение. Следить за последними тенденциями в отрасли, технологиями и нормативными актами - важнейшее условие для того, чтобы оставаться впереди в этой быстро развивающейся сфере.
 
-Более подробную информацию о вакансиях начального уровня в области кибербезопасности и о том, как к ним подготовиться, можно найти на сайте [this link](https://simeononsecurity.ch/cyber-security-career-playbook-start) Этот ресурс дает представление о навыках и квалификации, необходимых для работы на должностях начального уровня, и предлагает советы о том, как выделиться на рынке труда.
+Более подробную информацию о вакансиях начального уровня в области кибербезопасности и о том, как к ним подготовиться, можно найти на сайте [this link](https://simeononsecurity.com/cyber-security-career-playbook-start) Этот ресурс дает представление о навыках и квалификации, необходимых для работы на должностях начального уровня, и предлагает советы о том, как выделиться на рынке труда.
 ______
 
 {{< inarticle-dark >}}

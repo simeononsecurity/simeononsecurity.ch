@@ -55,11 +55,11 @@ coverCaption: ""
 
 1.**监测你的信用报告：** 定期查看你的信用报告，以发现任何未经授权的活动或错误。您可以每 12 个月从三大信用局免费获取一次信用报告。访问 [www.annualcreditreport.com](http://www.annualcreditreport.com)索取您的报告。
 
-2. [**Use strong passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)为您的所有金融账户创建强大而独特的密码。避免在多个账户中使用相同的密码。考虑使用密码管理工具来生成和安全存储密码。
+2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的所有金融账户创建强大而独特的密码。避免在多个账户中使用相同的密码。考虑使用密码管理工具来生成和安全存储密码。
 
-3. [**Be cautious with personal information:**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/)在网上和网下共享个人信息时都要小心谨慎。只有在必要时才向可信任的实体提供敏感信息，如社会保险号或银行账户信息。
+3. [**Be cautious with personal information:**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/)在网上和网下共享个人信息时都要小心谨慎。只有在必要时才向可信任的实体提供敏感信息，如社会保险号或银行账户信息。
 
-4. [**Beware of phishing scams:**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)对网络钓鱼诈骗保持警惕，这种诈骗通常是不请自来的电子邮件或电话，试图套取个人信息或诱骗您点击恶意链接或下载附件。在分享信息或采取行动之前，要持怀疑态度并核实任何请求的合法性。
+4. [**Beware of phishing scams:**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)对网络钓鱼诈骗保持警惕，这种诈骗通常是不请自来的电子邮件或电话，试图套取个人信息或诱骗您点击恶意链接或下载附件。在分享信息或采取行动之前，要持怀疑态度并核实任何请求的合法性。
 
 5.**保护您的设备：** 使用最新的安全补丁和杀毒软件更新您的设备，包括电脑和智能手机。避免使用公共 Wi-Fi 网络进行敏感交易，不要在不安全的网站上输入个人信息。
 

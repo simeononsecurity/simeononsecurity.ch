@@ -65,7 +65,7 @@ Networking is a crucial aspect of any homelab setup, as it enables communication
 - **Switches** : Managed switches, such as those from the Unifi product line, provide greater control over your network and allow for advanced configurations like VLANs, port trunking, and port mirroring. They are user-friendly and offer central management capabilities through the Unifi controller.
 - **Wireless Access Points (APs)**: If you require wireless connectivity in your homelab, consider deploying wireless access points. [Unifi APs](https://amzn.to/3DP62wP) are highly recommended for their reliability, performance, and easy management through the Unifi controller.
 
-Consider reading our article on [Ubiquiti Unifi Hardware vs TP-Link Omada](https://simeononsecurity.ch/articles/ubiquiti-unifi-vs-tp-link-omada/) as well as our article on [the Ultimate Ubiquiti Unifi Setup](https://simeononsecurity.ch/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/) to learn more.
+Consider reading our article on [Ubiquiti Unifi Hardware vs TP-Link Omada](https://simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/) as well as our article on [the Ultimate Ubiquiti Unifi Setup](https://simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/) to learn more.
 
 ### 5. Server Virtualization
 
@@ -79,13 +79,13 @@ Server virtualization is a key aspect of homelab setups, as it allows you to run
 In addition to the storage components mentioned earlier, it's essential to have a robust storage solution for your homelab. Here are a couple of options to consider:
 
 - [**ZFS**](https://en.wikipedia.org/wiki/ZFS): ZFS is a software-defined storage solution known for its reliability, data integrity, and scalability. It combines the best features of file systems and RAID, making it an excellent choice for homelab enthusiasts. FreeNAS and TrueNAS are popular options based on ZFS.
-- [**Network-Attached Storage (NAS)**](https://simeononsecurity.ch/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/): NAS devices offer centralized storage accessible to multiple devices on your network. They provide convenient file sharing, backup, and media streaming capabilities. Synology and QNAP are reputable brands known for their comprehensive NAS solutions.
+- [**Network-Attached Storage (NAS)**](https://simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/): NAS devices offer centralized storage accessible to multiple devices on your network. They provide convenient file sharing, backup, and media streaming capabilities. Synology and QNAP are reputable brands known for their comprehensive NAS solutions.
 
 ### 7. Infrastructure Automation
 
 As your homelab grows, managing and maintaining it becomes more challenging. Infrastructure automation tools can help simplify these tasks and enhance your efficiency. Here's a popular tool to consider:
 
-- [**Ansible**](https://simeononsecurity.ch/articles/ansible-for-beginners/) : Ansible is a powerful infrastructure automation tool that allows you to automate repetitive tasks, deploy servers, and manage configurations. It's highly versatile and can manage both Linux and Windows servers. Ansible integrates well with version control and CI/CD tools like Azure DevOps, making it a valuable asset for DevOps enthusiasts.
+- [**Ansible**](https://simeononsecurity.com/articles/ansible-for-beginners/) : Ansible is a powerful infrastructure automation tool that allows you to automate repetitive tasks, deploy servers, and manage configurations. It's highly versatile and can manage both Linux and Windows servers. Ansible integrates well with version control and CI/CD tools like Azure DevOps, making it a valuable asset for DevOps enthusiasts.
 
 ______
 

@@ -68,7 +68,7 @@ ______
 
 În concluzie, elaborarea unui CV eficient este crucială pentru profesioniștii din domeniul securității cibernetice, dezvoltării de software și IT care doresc să avanseze în carieră. Prin adaptarea CV-ului la descrierea postului, prin prezentarea abilităților tehnice și a realizărilor, prin accentuarea conștientizării securității cibernetice și a confidențialității, prin evidențierea abilităților de rezolvare a problemelor, prin menținerea clarității și conciziei, prin utilizarea verbelor de acțiune și a rezultatelor cuantificabile și prin menținerea la curent cu tendințele din industrie, puteți crea un CV care să iasă în evidență pentru potențialii angajatori.
 
-Pentru mai multe sfaturi generale privind redactarea CV-ului, puteți consulta și [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) pe SimeonOnSecurity.ch, care oferă informații valoroase și îndrumări suplimentare.
+Pentru mai multe sfaturi generale privind redactarea CV-ului, puteți consulta și [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) pe simeononsecurity.com, care oferă informații valoroase și îndrumări suplimentare.
 
 ______
 

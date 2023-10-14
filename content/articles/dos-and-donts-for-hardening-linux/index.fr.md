@@ -17,7 +17,7 @@ Linux est un système d'exploitation populaire utilisé aussi bien par les parti
 
 ### Maintenir votre système à jour
 
-Maintenir votre [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) La mise à jour du système est essentielle au maintien de sa sécurité. Des mises à jour régulières permettent de corriger les failles de sécurité et les bogues, garantissant ainsi la sécurité de votre système contre les attaques potentielles. Voici quelques exemples de mise à jour de votre système Linux à l'aide du gestionnaire de paquets **apt-get** ou **yum** :
+Maintenir votre [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/) La mise à jour du système est essentielle au maintien de sa sécurité. Des mises à jour régulières permettent de corriger les failles de sécurité et les bogues, garantissant ainsi la sécurité de votre système contre les attaques potentielles. Voici quelques exemples de mise à jour de votre système Linux à l'aide du gestionnaire de paquets **apt-get** ou **yum** :
 
 #### Mise à jour d'Ubuntu à l'aide d'apt-get
 
@@ -296,7 +296,7 @@ ______
 
 L'utilisation de mots de passe faibles est une erreur courante qui peut rendre votre système Linux vulnérable aux attaques. Les attaquants peuvent utiliser des outils pour deviner les mots de passe basés sur des mots, des noms ou des dates courants. Il est important d'utiliser des mots de passe forts et uniques qui ne sont pas facilement devinables.
 
-Vous pouvez créer des mots de passe forts en utilisant une combinaison de lettres majuscules et minuscules, de chiffres et de caractères spéciaux. Il est également conseillé d'utiliser un [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) peut également vous aider à mémoriser vos mots de passe et à éviter d'utiliser le même mot de passe pour plusieurs comptes.
+Vous pouvez créer des mots de passe forts en utilisant une combinaison de lettres majuscules et minuscules, de chiffres et de caractères spéciaux. Il est également conseillé d'utiliser un [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) peut également vous aider à mémoriser vos mots de passe et à éviter d'utiliser le même mot de passe pour plusieurs comptes.
 
 ### Autoriser l'accès SSH à la racine
 

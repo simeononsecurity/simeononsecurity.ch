@@ -55,11 +55,11 @@ In addition to **freezing your credit**, there are several other steps you can t
 
 1. **Monitor your credit report:** Regularly review your credit report to identify any unauthorized activity or errors. You can obtain a free credit report from each of the three major credit bureaus once every 12 months. Visit [www.annualcreditreport.com](http://www.annualcreditreport.com) to request your reports.
 
-2. [**Use strong passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Create strong and unique passwords for all your financial accounts. Avoid using the same password for multiple accounts. Consider using a password manager tool to generate and securely store your passwords.
+2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create strong and unique passwords for all your financial accounts. Avoid using the same password for multiple accounts. Consider using a password manager tool to generate and securely store your passwords.
 
-3. [**Be cautious with personal information:**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Exercise caution when sharing personal information, both online and offline. Only provide sensitive details like your Social Security number or bank account information when necessary and to trusted entities.
+3. [**Be cautious with personal information:**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Exercise caution when sharing personal information, both online and offline. Only provide sensitive details like your Social Security number or bank account information when necessary and to trusted entities.
 
-4. [**Beware of phishing scams:**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) Stay vigilant against phishing scams, which often involve unsolicited emails or phone calls attempting to extract personal information or trick you into clicking malicious links or downloading attachments. Be skeptical and verify the legitimacy of any requests before sharing information or taking action.
+4. [**Beware of phishing scams:**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) Stay vigilant against phishing scams, which often involve unsolicited emails or phone calls attempting to extract personal information or trick you into clicking malicious links or downloading attachments. Be skeptical and verify the legitimacy of any requests before sharing information or taking action.
 
 5. **Protect your devices:** Keep your devices, including computers and smartphones, updated with the latest security patches and antivirus software. Avoid using public Wi-Fi networks for sensitive transactions and refrain from entering personal information on unsecured websites.
 

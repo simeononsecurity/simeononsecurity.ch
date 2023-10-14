@@ -20,15 +20,15 @@ coverAlt: "一个象征互联网安全的图像，一个保护电脑屏幕免受
 
 #### 上网的风险
 
-每次上网，都有可能成为网络诈骗、数据泄露或其他网络威胁的受害者。其中一些风险包括**在不知情的情况下下载恶意软件、向黑客泄露个人信息、访问欺诈性网站**等等。不幸的是，这些风险并不局限于成年人； [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)因此，了解如何在使用在线服务时保护自己和亲人的安全变得至关重要。
+每次上网，都有可能成为网络诈骗、数据泄露或其他网络威胁的受害者。其中一些风险包括**在不知情的情况下下载恶意软件、向黑客泄露个人信息、访问欺诈性网站**等等。不幸的是，这些风险并不局限于成年人； [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)因此，了解如何在使用在线服务时保护自己和亲人的安全变得至关重要。
 
 保护自己免受网络诈骗的方法之一是，在打开来自未知发件人的***邮件时要谨慎。这些邮件可能包含网络钓鱼链接，可窃取您的个人信息。从网上下载软件时也要小心谨慎。有些软件可能包含恶意软件，会损坏您的设备或窃取您的数据。
 
-上网的另一个风险是 [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)网络欺凌会严重影响一个人的心理健康和幸福。有必要与您的孩子谈谈网络欺凌的危害以及如何举报网络欺凌。
+上网的另一个风险是 [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)网络欺凌会严重影响一个人的心理健康和幸福。有必要与您的孩子谈谈网络欺凌的危害以及如何举报网络欺凌。
 
 #### 保护您的个人信息
 
-您的个人信息非常宝贵，必须加以保护。养成使用 [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)并在网上分享信息时小心谨慎。避免共享敏感数据，如您的**社会保障号、信用卡号和家庭住址**。使用拥有**SSL证书**的合法网站，以确保您的数据在传输前已加密。
+您的个人信息非常宝贵，必须加以保护。养成使用 [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)并在网上分享信息时小心谨慎。避免共享敏感数据，如您的**社会保障号、信用卡号和家庭住址**。使用拥有**SSL证书**的合法网站，以确保您的数据在传输前已加密。
 
 保持软件和设备的***更新也很重要。软件更新通常包括安全补丁，可以保护您的设备免受网络攻击。此外，使用公共 Wi-Fi 网络时要小心。公共 Wi-Fi 网络通常不安全，这意味着您的数据可能会被网络犯罪分子截获。
 
@@ -48,13 +48,13 @@ coverAlt: "一个象征互联网安全的图像，一个保护电脑屏幕免受
 
 #### 使用强密码和双因素身份验证
 
-创建 [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)混合使用大小写字母、数字和符号。至少输入 12 个字符。双因素身份验证要求您在访问账户前提供通过短信或电子邮件收到的附加代码，从而增加了一层保护。
+创建 [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)混合使用大小写字母、数字和符号。至少输入 12 个字符。双因素身份验证要求您在访问账户前提供通过短信或电子邮件收到的附加代码，从而增加了一层保护。
 
 使用弱密码是黑客获取账户和个人信息的最简单方法之一。通过创建强密码和启用双因素身份验证，您可以大大降低账户被黑客攻击的风险。
 
 #### 确保 Wi-Fi 网络安全
 
-使用 [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)来保护你的 Wi-Fi 网络安全，防止未经授权访问你的设备和数据。不要使用默认密码，因为这些密码很容易被黑客破解。
+使用 [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)来保护你的 Wi-Fi 网络安全，防止未经授权访问你的设备和数据。不要使用默认密码，因为这些密码很容易被黑客破解。
 
 Wi-Fi 网络是连接设备和数据的网关。通过使用强密码保护 Wi-Fi 网络，可以防止未经授权访问网络，保护设备和数据免受**网络威胁**。
 
@@ -70,11 +70,11 @@ Wi-Fi 网络是连接设备和数据的网关。通过使用强密码保护 Wi-F
 
 在当今的数字时代，电子邮件和信息已成为一种常见的通信方式。但是，在通过这些媒介分享个人信息时，一定要谨慎行事。**网络犯罪分子**总是在寻找窃取个人信息的方法，而电子邮件和信息是他们窃取个人信息最简单的途径之一。
 
-[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)是网络犯罪分子获取个人信息的一种常见方式。这些骗局会欺骗你，让你以为是在与合法的联系人或组织联系，并要求你提供敏感信息。这些电子邮件或信息看似真实，但其目的却是窃取你的个人信息。因此，一定要警惕此类骗局，不要通过电子邮件或信息分享任何个人信息。
+[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)是网络犯罪分子获取个人信息的一种常见方式。这些骗局会欺骗你，让你以为是在与合法的联系人或组织联系，并要求你提供敏感信息。这些电子邮件或信息看似真实，但其目的却是窃取你的个人信息。因此，一定要警惕此类骗局，不要通过电子邮件或信息分享任何个人信息。
 
-#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)识别起来可能很棘手，但您可以采取一些措施来保护自己。首先，检查发件人的电子邮件地址。如果看起来**可疑或不熟悉**，请不要回复邮件。其次，在点击邮件中的***链接之前，先查看其指向。如果链接看起来可疑，请勿点击。最后，如果您不确定电子邮件或信息的合法性，请直接联系相关组织或个人，以确认是否是他们发送的电子邮件。
+[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)识别起来可能很棘手，但您可以采取一些措施来保护自己。首先，检查发件人的电子邮件地址。如果看起来**可疑或不熟悉**，请不要回复邮件。其次，在点击邮件中的***链接之前，先查看其指向。如果链接看起来可疑，请勿点击。最后，如果您不确定电子邮件或信息的合法性，请直接联系相关组织或个人，以确认是否是他们发送的电子邮件。
 
 #### 避免点击可疑链接
 
@@ -120,11 +120,11 @@ Wi-Fi 网络是连接设备和数据的网关。通过使用强密码保护 Wi-F
 
 大多数银行和信用卡公司都有**欺诈检测系统**，可以提醒您注意可疑活动。不过，仍然有必要留意您的对账单，并尽快报告任何未经授权的交易。
 
-#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-保护您的财务信息的另一种方法是使用 [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)避免在多个账户中使用相同的密码，也不要使用 "123456 "或 "password "等容易被猜到的密码。相反，应使用字母、数字和符号的组合，为每个账户创建一个强大、唯一的密码。
+保护您的财务信息的另一种方法是使用 [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)避免在多个账户中使用相同的密码，也不要使用 "123456 "或 "password "等容易被猜到的密码。相反，应使用字母、数字和符号的组合，为每个账户创建一个强大、唯一的密码。
 
-考虑使用 [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)来帮助你创建和存储强大的密码。密码管理器可以为您生成随机密码，并将其安全地存储起来，这样您就不必记住它们了。
+考虑使用 [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)来帮助你创建和存储强大的密码。密码管理器可以为您生成随机密码，并将其安全地存储起来，这样您就不必记住它们了。
 
 #### 结论
 
@@ -140,13 +140,13 @@ Wi-Fi 网络是连接设备和数据的网关。通过使用强密码保护 Wi-F
 * 尽可能启用**双因素验证**
 * 谨慎对待**可疑的电子邮件、链接和附件**
 * 保持软件和操作系统**为最新**
-* 使用 [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/)和**防火墙**
+* 使用 [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/)和**防火墙**
 
 #### 随时了解在线威胁
 
 了解最新的**安全威胁**和漏洞对保护您和您的家人非常重要。网络犯罪分子不断推陈出新，窃取个人信息，用**恶意软件感染设备，骗取钱财。
 
-您可以通过关注信誉良好的**安全博客**和新闻机构，以及订阅您的**安全警报来了解最新信息。 [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/)
+您可以通过关注信誉良好的**安全博客**和新闻机构，以及订阅您的**安全警报来了解最新信息。 [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
 
 #### 向儿童传授网络安全知识
 
@@ -163,23 +163,23 @@ Wi-Fi 网络是连接设备和数据的网关。通过使用强密码保护 Wi-F
 
 ### 使用可靠的安全软件
 
-安装 [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns)以保护您的网络，防止未经授权访问您的数据。
+安装 [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns)以保护您的网络，防止未经授权访问您的数据。
 
-随着**网络威胁**的不断增加，确保使用可靠的安全软件保护您的设备非常重要。安装 [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/)在您的设备上安装**和**反恶意软件**是保护您的个人和敏感信息的关键步骤。这些软件程序旨在检测、预防和删除可能损害您的计算机和窃取您的数据的恶意软件。
+随着**网络威胁**的不断增加，确保使用可靠的安全软件保护您的设备非常重要。安装 [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/)在您的设备上安装**和**反恶意软件**是保护您的个人和敏感信息的关键步骤。这些软件程序旨在检测、预防和删除可能损害您的计算机和窃取您的数据的恶意软件。
 
-**防火墙**和 [**VPN services**](https://simeononsecurity.ch/recommendations/vpns)也是确保网络安全的重要工具。防火墙是设备和互联网之间的屏障，可以阻止不需要的流量，防止黑客访问网络。另一方面，VPN 服务可以在设备和互联网之间建立安全、加密的连接，为抵御网络威胁提供额外的保护。
+**防火墙**和 [**VPN services**](https://simeononsecurity.com/recommendations/vpns)也是确保网络安全的重要工具。防火墙是设备和互联网之间的屏障，可以阻止不需要的流量，防止黑客访问网络。另一方面，VPN 服务可以在设备和互联网之间建立安全、加密的连接，为抵御网络威胁提供额外的保护。
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
 
-使用 [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/)和反恶意软件来保护你的电脑免受**病毒、恶意软件**和其他网络威胁。这些软件程序可以检测和删除可能会损害您的计算机和破坏您的数据的恶意软件。保持这些程序**最新并定期扫描以确保您的设备受到保护非常重要。
+使用 [antivirus](https://simeononsecurity.com/recommendations/anti-virus/)和反恶意软件来保护你的电脑免受**病毒、恶意软件**和其他网络威胁。这些软件程序可以检测和删除可能会损害您的计算机和破坏您的数据的恶意软件。保持这些程序**最新并定期扫描以确保您的设备受到保护非常重要。
 
 一些流行的防病毒和反恶意软件程序包括**Norton、McAfee 和 Avast**。这些程序提供针对网络威胁的**实时保护、**自动更新**和其他功能，可帮助确保您的设备安全。
 
 #### 防火墙和 VPN 服务
 
-**防火墙**和 [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns)通过在公共网络中建立一个安全的私人网络，保护你的网络免受恶意软件和未经授权的访问。防火墙可监控进出网络流量，而 VPN 可加密互联网连接并隐藏 IP 地址，使黑客难以截获你的数据。
+**防火墙**和 [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns)通过在公共网络中建立一个安全的私人网络，保护你的网络免受恶意软件和未经授权的访问。防火墙可监控进出网络流量，而 VPN 可加密互联网连接并隐藏 IP 地址，使黑客难以截获你的数据。
 
-有许多**防火墙**和 [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns)
+有许多**防火墙**和 [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
 
 通过使用**可靠的安全软件**，您可以保护设备和网络免受网络威胁，确保您的个人和敏感信息安全无虞。
 
@@ -195,11 +195,11 @@ Wi-Fi 网络是连接设备和数据的网关。通过使用强密码保护 Wi-F
 
 此外，在使用公共计算机进行敏感交易时一定要谨慎。这些电脑可能安装了**键盘记录程序**或其他恶意软件，它们会捕捉您的键盘输入并窃取您的个人信息。
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
 
 **VPN**，即**虚拟专用网络**，是一种安全工具，可以加密你的互联网连接并隐藏你的 IP 地址。这样黑客就很难截获你的数据，并保护你的设备免受潜在攻击。
 
-使用公共 Wi-Fi 时，强烈建议使用 [**VPN service**](https://simeononsecurity.ch/recommendations/vpns)为您的数据加密。这将确保即使网络不安全，你的个人信息也是安全的。许多 VPN 服务都是免费或收取少量费用的，而且很容易在你的设备上安装和使用。
+使用公共 Wi-Fi 时，强烈建议使用 [**VPN service**](https://simeononsecurity.com/recommendations/vpns)为您的数据加密。这将确保即使网络不安全，你的个人信息也是安全的。许多 VPN 服务都是免费或收取少量费用的，而且很容易在你的设备上安装和使用。
 
 总之，使用公共 Wi-Fi 时一定要谨慎，并采取必要的预防措施来保护你的数据。通过使用**VPN 服务**和避免使用不安全的网络，你可以在保持连接的同时保证个人信息的安全。
 

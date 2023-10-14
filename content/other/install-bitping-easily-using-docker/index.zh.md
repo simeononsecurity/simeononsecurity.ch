@@ -22,7 +22,7 @@ coverCaption: ""
 
 ### 安装 Docker
 
-学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 安装 Docker 容器
 
@@ -64,7 +64,7 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 欲了解更多信息和详细文档，请访问 [Bitping website](https://bitping.com)并参考其官方资源。
 
-完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 **参考文献：**
 

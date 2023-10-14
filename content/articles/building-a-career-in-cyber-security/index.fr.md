@@ -31,11 +31,11 @@ Un **master** en cybersécurité offre des connaissances avancées et une spéci
 ### Certifications
 En plus de l'éducation formelle, l'obtention de certifications pertinentes peut considérablement améliorer votre crédibilité et votre potentiel de commercialisation dans le domaine de la cybersécurité. Voici quelques certifications largement reconnues :
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) Cette certification mondialement reconnue valide votre expertise dans la conception, la mise en œuvre et la gestion d'un programme de cybersécurité au niveau de l'entreprise.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Cette certification démontre votre connaissance des techniques de piratage et aide les organisations à identifier les vulnérabilités de leurs systèmes.
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Cette certification de niveau débutant couvre les connaissances et les compétences fondamentales nécessaires pour sécuriser les réseaux et les systèmes.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) Cette certification mondialement reconnue valide votre expertise dans la conception, la mise en œuvre et la gestion d'un programme de cybersécurité au niveau de l'entreprise.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Cette certification démontre votre connaissance des techniques de piratage et aide les organisations à identifier les vulnérabilités de leurs systèmes.
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Cette certification de niveau débutant couvre les connaissances et les compétences fondamentales nécessaires pour sécuriser les réseaux et les systèmes.
 
-En savoir plus sur [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
+En savoir plus sur [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
 
 ______
 

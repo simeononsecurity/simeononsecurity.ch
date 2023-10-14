@@ -87,10 +87,10 @@ Additionally, you should be **cautious** when it comes to sharing **sensitive in
 
 There are several practical tips you can follow to enhance your **online security**, including:
 
-- Using [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)
-- Enabling [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) on all your accounts
+- Using [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)
+- Enabling [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) on all your accounts
 - Limiting the amount of **personal information** you share online
-- Being [**cautious**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) when opening emails or links from unknown sources
+- Being [**cautious**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) when opening emails or links from unknown sources
 
 By following these tips, you can **reduce your risk** of becoming a victim of **cyber threats**.
 
@@ -103,7 +103,7 @@ One of the most important aspects of **cybersecurity** for beginners is **awaren
 A **robust cybersecurity strategy** involves several key elements, including:
 
 - **Regular updates and security patches** for devices and software
-- [**Strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [**Strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 - **Network security measures**, such as **firewalls** and **secure VPNs**
 - **Limiting the amount of personal information** you share online
 
@@ -114,11 +114,11 @@ By following these elements and staying informed about the latest **cybersecurit
 When it comes to **cybersecurity best practices**, there are several key steps you should take as a beginner, including:
 
 - Regularly updating your devices and software with the latest **security patches**
-- Using [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and **multi-factor authentication techniques**
+- Using [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and **multi-factor authentication techniques**
 - Limiting the amount of **personal information** you share online
-- Being cautious when opening [**emails or links from unknown sources**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+- Being cautious when opening [**emails or links from unknown sources**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-Additionally, consider investing in reputable [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.ch/recommendations/vpns/).
+Additionally, consider investing in reputable [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.com/recommendations/vpns/).
 
 ### **Navigating the Digital Landscape: A Beginner's Guide to Cybersecurity**
 

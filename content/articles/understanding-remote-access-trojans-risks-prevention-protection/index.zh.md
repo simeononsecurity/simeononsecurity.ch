@@ -68,19 +68,19 @@ ______
 
 为了降低与**远程访问木马**相关的风险，个人和组织应采取强有力的安全措施。以下是一些需要考虑的基本步骤：
 
-1. [**Keep software up to date:**](https://simeononsecurity.ch/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)定期更新操作系统和软件应用程序，修补攻击者可能利用的已知漏洞。例如，微软定期发布安全更新，以解决其产品中的漏洞。
+1. [**Keep software up to date:**](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)定期更新操作系统和软件应用程序，修补攻击者可能利用的已知漏洞。例如，微软定期发布安全更新，以解决其产品中的漏洞。
 
-2. [**Use strong passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Create unique and complex passwords for all accounts and consider implementing **multi-factor authentication (MFA)以提高安全性。谷歌身份验证器**或微软身份验证器**等服务可提供额外的保护。
+2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create unique and complex passwords for all accounts and consider implementing **multi-factor authentication (MFA)以提高安全性。谷歌身份验证器**或微软身份验证器**等服务可提供额外的保护。
 
-3. [**Exercise caution with email attachments and downloads:**](https://simeononsecurity.ch/articles/how-to-identify-phishing/)警惕打开电子邮件附件或从不可信来源下载文件。在执行文件前使用**杀毒软件**扫描文件。**Malwarebytes**或**Norton Antivirus**等工具可帮助检测和删除恶意文件。
+3. [**Exercise caution with email attachments and downloads:**](https://simeononsecurity.com/articles/how-to-identify-phishing/)警惕打开电子邮件附件或从不可信来源下载文件。在执行文件前使用**杀毒软件**扫描文件。**Malwarebytes**或**Norton Antivirus**等工具可帮助检测和删除恶意文件。
 
-4. [**Enable firewalls and intrusion detection systems:**](https://simeononsecurity.ch/articles/seven-essential-network-security-measures-to-protect-your-business/) These network security measures can help detect and prevent unauthorized access attempts. **Windows Firewall** and **Intrusion Detection Systems (IDS)如**Snort**，通常用于网络保护。
+4. [**Enable firewalls and intrusion detection systems:**](https://simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/) These network security measures can help detect and prevent unauthorized access attempts. **Windows Firewall** and **Intrusion Detection Systems (IDS)如**Snort**，通常用于网络保护。
 
-5. [**Educate users:**](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)提高**网络安全意识**，提供有关识别网络钓鱼电子邮件、可疑链接和 RAT 攻击中使用的其他社交工程技术的培训。企业通常会开展**安全意识培训**，向员工传授最佳做法。
+5. [**Educate users:**](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)提高**网络安全意识**，提供有关识别网络钓鱼电子邮件、可疑链接和 RAT 攻击中使用的其他社交工程技术的培训。企业通常会开展**安全意识培训**，向员工传授最佳做法。
 
-6. [**Implement endpoint protection:**](https://simeononsecurity.ch/recommendations/anti-virus)使用可靠的**防病毒**和**防恶意软件解决方案**，它们可以检测和阻止远程访问木马。像**McAfee Endpoint Security**或**Kaspersky Total Security**这样的产品可以提供全面的保护，防止各种类型的恶意软件。
+6. [**Implement endpoint protection:**](https://simeononsecurity.com/recommendations/anti-virus)使用可靠的**防病毒**和**防恶意软件解决方案**，它们可以检测和阻止远程访问木马。像**McAfee Endpoint Security**或**Kaspersky Total Security**这样的产品可以提供全面的保护，防止各种类型的恶意软件。
 
-7. [**Regularly backup data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)对关键数据进行安全备份，以便在 RAT 攻击成功时将数据丢失的影响降至最低。谷歌 Drive** 或微软 OneDrive** 等云存储服务为安全备份重要文件提供了方便的选择。
+7. [**Regularly backup data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)对关键数据进行安全备份，以便在 RAT 攻击成功时将数据丢失的影响降至最低。谷歌 Drive** 或微软 OneDrive** 等云存储服务为安全备份重要文件提供了方便的选择。
 
 通过采取这些预防措施和积极主动的安全立场，个人和组织可以大大降低成为远程访问木马受害者的风险。
 

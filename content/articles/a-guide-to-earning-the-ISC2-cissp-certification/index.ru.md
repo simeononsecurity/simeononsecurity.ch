@@ -51,8 +51,8 @@ coverCaption: ""
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 ### Шаг 4: Отработка практических экзаменов
 
@@ -61,7 +61,7 @@ coverCaption: ""
 Важно пройти несколько пробных экзаменов, чтобы ознакомиться с типами вопросов, которые могут быть заданы, и развить навыки управления временем.
 
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 ### Шаг 5: Регистрация на экзамен
 

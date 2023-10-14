@@ -99,7 +99,7 @@ Get-ChildItem -Recurse *.ps1 | Unblock-File
 #### 自动安装：
 可以像这样从 GitHub 下载的提取文件中启动脚本：
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'))
 ```
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of
 Windows 优化-加固-卸载自动安装">

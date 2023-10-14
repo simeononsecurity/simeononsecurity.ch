@@ -16,7 +16,7 @@ Social Engineering ist eine Form des Cyberangriffs, bei der Menschen dazu gebrac
 
 ## Arten von Social-Engineering-Angriffen
 
-###[Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
+###[Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
 
 Phishing-Angriffe sind die häufigste Form von Social-Engineering-Angriffen. Dabei werden E-Mails verschickt, die den Anschein erwecken, von seriösen Quellen zu stammen, um Menschen dazu zu bringen, vertrauliche Informationen preiszugeben oder auf Links zu klicken, die Malware installieren. In den E-Mails werden oft Panikmache, dringende Anfragen oder emotionale Appelle verwendet, um Menschen zum unüberlegten Handeln zu bewegen.
 
@@ -42,25 +42,25 @@ Um Quid-pro-quo-Angriffe zu verhindern, ist es wichtig, **die Mitarbeiter** zu s
 
 ## Strategien zur Verhinderung von Social Engineering-Angriffen
 
-###[Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+###[Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Eine der wirksamsten Strategien zur Verhinderung von Social Engineering-Angriffen ist[**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Die Mitarbeiter sollten über die verschiedenen Arten von Social-Engineering-Angriffen und deren Erkennung geschult werden. Sie sollten auch lernen, wie sie auf verdächtige Anfragen reagieren und diese ihrem Vorgesetzten oder der IT-Abteilung melden können.
+Eine der wirksamsten Strategien zur Verhinderung von Social Engineering-Angriffen ist[**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Die Mitarbeiter sollten über die verschiedenen Arten von Social-Engineering-Angriffen und deren Erkennung geschult werden. Sie sollten auch lernen, wie sie auf verdächtige Anfragen reagieren und diese ihrem Vorgesetzten oder der IT-Abteilung melden können.
 
 Die Schulungen sollten regelmäßig durchgeführt werden und auf die spezifischen Bedürfnisse des Unternehmens zugeschnitten sein. Es ist wichtig, die Bedeutung der Sicherheit zu betonen und dafür zu sorgen, dass die Mitarbeiter die Folgen der Nichtbeachtung von Sicherheitsprotokollen verstehen.
 
-###[Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
+###[Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Sicherheitsrichtlinien sind eine weitere wichtige Strategie zur Verhinderung von Social Engineering-Angriffen. Unternehmen sollten über klare Richtlinien verfügen, wie mit sensiblen Informationen umzugehen ist und welche Aktionen erlaubt oder verboten sind. Die Richtlinien sollten regelmäßig überprüft und aktualisiert werden, um sicherzustellen, dass sie wirksam und auf dem neuesten Stand sind.
 
 Unternehmen sollten auch über Richtlinien verfügen, wie auf Sicherheitsvorfälle zu reagieren ist. Die Mitarbeiter sollten darin geschult werden, was im Falle eines Sicherheitsverstoßes zu tun ist, und es sollte klare Verfahren für die Meldung von Vorfällen und die Schadensbegrenzung geben.
 
-###[Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
+###[Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 Multi-Faktor-Authentifizierung (MFA) ist eine Sicherheitsfunktion, bei der Benutzer mehrere Formen der Authentifizierung angeben müssen, z. B. ein Passwort und einen Fingerabdruck oder eine Smartcard, um auf ein System zuzugreifen. MFA kann dazu beitragen, Social-Engineering-Angriffe zu verhindern, indem es Angreifern erschwert wird, Zugang zu sensiblen Informationen zu erhalten.
 
 Unternehmen sollten die Implementierung von MFA für alle Systeme in Erwägung ziehen, die sensible Daten oder kritische Infrastrukturen enthalten. Es ist wichtig, MFA-Lösungen zu wählen, die einfach zu verwenden und zu verwalten sind und ein hohes Maß an Sicherheit bieten.
 
-###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
+###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
 
 Anti-Virus- und Anti-Malware-Software kann helfen, Social-Engineering-Angriffe zu verhindern, indem sie bösartige Software erkennt und blockiert, bevor sie Schaden anrichten kann. Unternehmen sollten auf allen Systemen und Geräten, die mit ihrem Netzwerk verbunden sind, aktuelle Anti-Viren- und Anti-Malware-Software installiert haben.
 

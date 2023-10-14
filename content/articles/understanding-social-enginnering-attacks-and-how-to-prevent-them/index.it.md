@@ -16,7 +16,7 @@ L'ingegneria sociale è una forma di attacco informatico che si basa sulla manip
 
 ## Tipi di attacchi di ingegneria sociale
 
-###[Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
+###[Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
 
 Gli attacchi di phishing sono la forma più comune di attacchi di social engineering. Comportano l'invio di e-mail che sembrano provenire da fonti affidabili per indurre le persone a fornire informazioni sensibili o a cliccare su link che installano malware. Le e-mail possono utilizzare tattiche allarmistiche, richieste urgenti o appelli emotivi per indurre le persone ad agire senza riflettere.
 
@@ -42,25 +42,25 @@ Per prevenire gli attacchi quid pro quo, è importante **formare i dipendenti** 
 
 ## Strategie per prevenire gli attacchi di social engineering
 
-###[Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+###[Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Una delle strategie più efficaci per prevenire gli attacchi di social engineering è[**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) I dipendenti devono essere istruiti sui diversi tipi di attacchi di social engineering e su come riconoscerli. Devono inoltre essere istruiti su come rispondere alle richieste sospette e su come segnalarle al proprio supervisore o al reparto IT.
+Una delle strategie più efficaci per prevenire gli attacchi di social engineering è[**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) I dipendenti devono essere istruiti sui diversi tipi di attacchi di social engineering e su come riconoscerli. Devono inoltre essere istruiti su come rispondere alle richieste sospette e su come segnalarle al proprio supervisore o al reparto IT.
 
 La formazione deve essere svolta regolarmente e adattata alle esigenze specifiche dell'organizzazione. È importante sottolineare l'importanza della sicurezza e assicurarsi che i dipendenti comprendano le conseguenze del mancato rispetto dei protocolli di sicurezza.
 
-###[Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
+###[Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Le politiche di sicurezza sono un'altra strategia importante per prevenire gli attacchi di social engineering. Le organizzazioni devono avere politiche chiare su come gestire le informazioni sensibili e su quali azioni sono consentite o vietate. Le politiche devono essere riviste e aggiornate regolarmente per garantirne l'efficacia e l'attualità.
 
 Le organizzazioni devono anche avere politiche su come rispondere agli incidenti di sicurezza. I dipendenti devono essere istruiti su cosa fare in caso di violazione della sicurezza e devono essere previste procedure chiare per la segnalazione degli incidenti e la riduzione dei danni.
 
-###[Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
+###[Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 L'autenticazione a più fattori (MFA) è una funzione di sicurezza che richiede agli utenti di fornire più forme di autenticazione, come una password e un'impronta digitale o una smart card, per accedere a un sistema. L'MFA può aiutare a prevenire gli attacchi di social engineering, rendendo più difficile per gli aggressori l'accesso alle informazioni sensibili.
 
 Le organizzazioni dovrebbero considerare l'implementazione dell'MFA per tutti i sistemi che contengono informazioni sensibili o infrastrutture critiche. È importante scegliere soluzioni MFA facili da usare e da gestire e che garantiscano un elevato livello di sicurezza.
 
-###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
+###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
 
 I software antivirus e antimalware possono aiutare a prevenire gli attacchi di social engineering, rilevando e bloccando il software dannoso prima che possa causare danni. Le organizzazioni dovrebbero avere un software antivirus e antimalware aggiornato installato su tutti i sistemi e i dispositivi che si connettono alla rete.
 

@@ -1,6 +1,3 @@
-google.com, pub-4092442123207538, DIRECT, f08c47fec0942fa0
-
-# Infolinks
 infolinks.com, 3400692, direct
 appnexus.com, 3251, reseller
 pubmatic.com, 156872, reseller, 5d62403b186f2ace
@@ -9,6 +6,7 @@ sovrn.com, 268479, reseller, fafdf38b16bf6b2b
 lijit.com, 268479, reseller, fafdf38b16bf6b2b
 google.com, pub-6373315980741255, reseller, f08c47fec0942fa0
 google.com, pub-4299156005397946, reseller, f08c47fec0942fa0
+google.com, pub-4092442123207538, DIRECT, f08c47fec0942fa0
 indexexchange.com, 191306, reseller
 openx.com, 543174347, reseller, 6a698e2ec38604c6
 yahoo.com, 58723, reseller

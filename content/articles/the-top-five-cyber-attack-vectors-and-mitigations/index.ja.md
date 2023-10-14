@@ -22,13 +22,13 @@ ______
 
 ## ソーシャルエンジニアリング
 
-**ソーシャルエンジニアリング**とは、サイバー攻撃の一種で、人間関係や心理的な操作に頼って、個人を騙して機密情報を漏らしたり、特定の行動を取らせたりするものです。サイバー犯罪者は、以下のような様々な手口を用います。[phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/)口実、おとり、見返りなど、被害者の信頼を得たり、機密情報を入手したりするためです。
+**ソーシャルエンジニアリング**とは、サイバー攻撃の一種で、人間関係や心理的な操作に頼って、個人を騙して機密情報を漏らしたり、特定の行動を取らせたりするものです。サイバー犯罪者は、以下のような様々な手口を用います。[phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/)口実、おとり、見返りなど、被害者の信頼を得たり、機密情報を入手したりするためです。
 
 ソーシャル・エンジニアリング攻撃のリスクを軽減するために、個人および組織は以下の対策をとることができます：
 
-- 提供する[**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)を従業員に配布し、ソーシャル・エンジニアリング攻撃の特定と回避方法を教える。
+- 提供する[**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)を従業員に配布し、ソーシャル・エンジニアリング攻撃の特定と回避方法を教える。
 - スパムフィルター**や、**SPF**、*DKIM**、*DMARC**などのメール認証プロトコルを使用して、フィッシングメールを検出・ブロックする。
-- 実装する[**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を使用して、ログイン認証情報に追加のセキュリティ層を追加します。
+- 実装する[**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を使用して、ログイン認証情報に追加のセキュリティ層を追加します。
 - 新しい脅威や脆弱性に対処するため、**セキュリティポリシー**を定期的に見直し、更新する。
 
 ______
@@ -39,7 +39,7 @@ ______
 
 マルウェア攻撃のリスクを軽減するために、個人と組織は以下の対策をとることができます：
 
-- マルウェアのインストールと定期的なアップデート[**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus)をすべてのデバイスで使用する。
+- マルウェアのインストールと定期的なアップデート[**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus)をすべてのデバイスで使用する。
 - ファイアウォール**を使用して、コンピュータシステムやネットワークへの不正なアクセスをブロックする。
 - 信頼できないソースからソフトウェアやファイルをダウンロードすることは避けてください。
 - マルウェア攻撃によるデータ損失を防ぐために、重要なデータを定期的に**バックアップ**する。
@@ -67,9 +67,9 @@ ______
 パスワード攻撃のリスクを軽減するために、個人と組織は次のような対策をとることができます：
 
 - 文字、数字、記号を組み合わせた強力でユニークなパスワードを使用する。
-- パスワードの管理[**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)パスワードの定期的な変更を要求し、一般的または容易に推測できるパスワードの使用を禁止する。
-- 使用する[**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)複雑なパスワードを生成し、保存することができるような
-- 実装する[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を使用することで、ログイン認証にさらなるセキュリティ層を追加することができます。
+- パスワードの管理[**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)パスワードの定期的な変更を要求し、一般的または容易に推測できるパスワードの使用を禁止する。
+- 使用する[**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)複雑なパスワードを生成し、保存することができるような
+- 実装する[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を使用することで、ログイン認証にさらなるセキュリティ層を追加することができます。
 
 
 
@@ -81,7 +81,7 @@ Webアプリケーション攻撃のリスクを軽減するために、個人�
 
 - ウェブアプリケーションファイアウォール**を使用して、悪意のあるトラフィックを検出しブロックする。
 - Webアプリケーションの脆弱性を定期的にスキャンし、パッチやアップデートを迅速に実施する。
-- 使用する[**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/)を実装し、一般的なWebアプリケーションの脆弱性を防止する。
+- 使用する[**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/)を実装し、一般的なWebアプリケーションの脆弱性を防止する。
 - SQLインジェクションや他の入力ベースの攻撃を防ぐために、**ユーザー入力検証**を実装する。
 
 ______

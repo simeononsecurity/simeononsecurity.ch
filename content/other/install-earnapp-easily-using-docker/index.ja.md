@@ -26,7 +26,7 @@ Earn Appの仕組みと、今日からできるリワードの獲得方法につ
 
 ### Dockerのインストール
 
-学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Dockerコンテナをインストールする
 Docker を使用して Earn App をインストールするには、以下の手順を実行します：
@@ -53,7 +53,7 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 
 結論として、Earn Appは、遊休デバイスを収益化し、VPNサービスとしてインターネットを共有することで報酬を得る優れた機会を提供します。デバイスの未使用リソースを活用することで、住宅用IPで受動的な収入を得ることができ、1ノードあたり月平均5ドルの収入を得ることができます。まずは、Earn Appでアカウントを作成し、インストール手順に従って、今日から報酬を獲得してください。遊休デバイスを有効活用して、楽に貴重な収入源に変えてしまいましょう。
 
-インストールが完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+インストールが完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
 

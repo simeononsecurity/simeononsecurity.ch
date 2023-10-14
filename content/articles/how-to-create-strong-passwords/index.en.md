@@ -73,9 +73,9 @@ Remember that the strength of a passphrase lies not only in its length but also 
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-As the number of online accounts we have increases, it becomes challenging to remember unique and strong passwords for each one. This is where password managers like [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) come in handy. A password manager is a secure digital vault that stores all your passwords in an encrypted format. It allows you to generate strong, unique passwords for each account and automatically fills them in when needed. Here's how password managers can help you:
+As the number of online accounts we have increases, it becomes challenging to remember unique and strong passwords for each one. This is where password managers like [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) come in handy. A password manager is a secure digital vault that stores all your passwords in an encrypted format. It allows you to generate strong, unique passwords for each account and automatically fills them in when needed. Here's how password managers can help you:
 
 - **Convenience**: With a password manager, you only need to remember a single master password to access all your stored passwords. This eliminates the need to memorize multiple complex passwords.
 - **Strong, unique passwords**: Password managers can generate strong passwords using a combination of characters, ensuring that each of your accounts has a unique and secure password.
@@ -92,7 +92,7 @@ While password managers provide significant benefits, it's essential to follow b
 
 - **Choose a reputable password manager**: Select a well-established and trustworthy password manager like **Bitwarden** or others recommended by reputable cybersecurity sources.
 - **Create a strong master password**: The master password is the key to your password manager vault, so make sure it is strong and unique. Follow the guidelines mentioned earlier to create a robust master password.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication adds an extra layer of security by requiring a second form of verification, such as a fingerprint or a code from an authenticator app, in addition to the master password.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication adds an extra layer of security by requiring a second form of verification, such as a fingerprint or a code from an authenticator app, in addition to the master password.
 - **Regularly update your password manager**: Keep your password manager updated to ensure you have the latest security patches and features.
 - **Back up your password vault**: Regularly back up your password manager vault to prevent data loss in case of device failure or other unforeseen circumstances.
 - **Be cautious of phishing attacks**: Be vigilant and avoid clicking on suspicious links or providing your password manager information on untrusted websites.

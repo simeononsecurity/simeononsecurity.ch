@@ -29,11 +29,11 @@ In the realm of **cybersecurity**, foreign powers often engage in **cyber espion
 
 **Vulnerable and High-Risk Groups**
 
-Certain groups, such as human rights activists, journalists, and ethnic minorities, are particularly **susceptible to cyber attacks** due to their involvement in activities that challenge the status quo or influence public discourse. These attacks can lead to **far-reaching consequences**, from constant **surveillance** that hampers their work to instances of [**identity theft**](https://simeononsecurity.ch/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/) and even **blackmail**.
+Certain groups, such as human rights activists, journalists, and ethnic minorities, are particularly **susceptible to cyber attacks** due to their involvement in activities that challenge the status quo or influence public discourse. These attacks can lead to **far-reaching consequences**, from constant **surveillance** that hampers their work to instances of [**identity theft**](https://simeononsecurity.com/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/) and even **blackmail**.
 
 **Types of Compromised Personal Details**
 
-In the event of a cyber attack orchestrated by foreign powers, a wide array of [**personal details**](https://simeononsecurity.ch/articles/ten-essential-email-security-tips-to-keep-your-data-safe/) can potentially be accessed and exploited, including:
+In the event of a cyber attack orchestrated by foreign powers, a wide array of [**personal details**](https://simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/) can potentially be accessed and exploited, including:
 
 1. **Personal Identifiable Information (PII)**: This encompasses fundamental details like names, addresses, phone numbers, and email addresses that can be exploited for various malicious purposes.
 2. **Financial Information**: Bank account specifics, credit card numbers, and transaction histories could be exposed, putting victims at risk of substantial financial damage.
@@ -50,7 +50,7 @@ The data accessed by foreign powers can be used for insidious **surveillance** o
 
 **Identity Theft and Financial Fraud**
 
-The repercussions of compromised personal details extend to [**identity theft** and **financial fraud**](https://simeononsecurity.ch/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/). With access to sensitive financial information, adversaries can orchestrate elaborate schemes that result in financial loss and reputational damage. Victims might find themselves grappling with fraudulent transactions, damaged credit histories, and a lengthy recovery process[^2^].
+The repercussions of compromised personal details extend to [**identity theft** and **financial fraud**](https://simeononsecurity.com/articles/opting-out-of-unauthorized-credit-offers-with-credit-opt-outs/). With access to sensitive financial information, adversaries can orchestrate elaborate schemes that result in financial loss and reputational damage. Victims might find themselves grappling with fraudulent transactions, damaged credit histories, and a lengthy recovery process[^2^].
 
 **Privacy Violations**
 
@@ -72,11 +72,11 @@ Operating within the state of California, the **California Consumer Privacy Act 
 
 **User Education and Training**
 
-Promoting awareness about [**cyber hygiene**](https://simeononsecurity.ch/articles/cybersecurity-for-beginners-a-non-technical-guide/) and cultivating safe online practices is of paramount importance. Educating vulnerable groups about identifying [**phishing attempts**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) and the importance of using strong, [**unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) can bolster their digital resilience.
+Promoting awareness about [**cyber hygiene**](https://simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/) and cultivating safe online practices is of paramount importance. Educating vulnerable groups about identifying [**phishing attempts**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) and the importance of using strong, [**unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) can bolster their digital resilience.
 
 **Advanced Security Measures**
 
-To fortify digital defenses, organizations must adopt robust **cybersecurity measures**. Implementing strategies such as [**two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), data **encryption**, and regular software updates can substantially reduce the risk of data breaches and unauthorized access.
+To fortify digital defenses, organizations must adopt robust **cybersecurity measures**. Implementing strategies such as [**two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), data **encryption**, and regular software updates can substantially reduce the risk of data breaches and unauthorized access.
 
 **Collaboration with Security Experts**
 

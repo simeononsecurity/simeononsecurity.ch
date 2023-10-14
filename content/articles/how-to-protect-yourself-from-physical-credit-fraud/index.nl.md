@@ -44,7 +44,7 @@ Om u tegen dit soort fraude te beschermen:
 
 ### Extra tip: Overweeg RFID-blokkerende portefeuilles
 
-Koop een echte **RFID-blokkerende portemonnee** om uzelf te beschermen.[Silent pocket](https://amzn.to/421J6o6) is het enige merk dat wordt aanbevolen. De meeste "RFID-blokkerende" portefeuilles zijn een complete zwendel. Simeononsecurity.ch heeft persoonlijk honderden portemonnees en zogenaamde rfid-blokkeerders getest. Silent pocket is legitiem.
+Koop een echte **RFID-blokkerende portemonnee** om uzelf te beschermen.[Silent pocket](https://amzn.to/421J6o6) is het enige merk dat wordt aanbevolen. De meeste "RFID-blokkerende" portefeuilles zijn een complete zwendel. simeononsecurity.com heeft persoonlijk honderden portemonnees en zogenaamde rfid-blokkeerders getest. Silent pocket is legitiem.
 
 ## Chip Technologie
 

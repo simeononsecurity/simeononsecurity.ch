@@ -56,9 +56,9 @@ ______
 
 Iată câteva **consiliere** suplimentare pentru a vă spori confidențialitatea și securitatea în social media:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Creați parole puternice pentru conturile dvs. de socializare și evitați să le reutilizați pe mai multe platforme. Luați în considerare utilizarea unui manager de parole pentru a stoca și genera parole complexe în siguranță.
+1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Creați parole puternice pentru conturile dvs. de socializare și evitați să le reutilizați pe mai multe platforme. Luați în considerare utilizarea unui manager de parole pentru a stoca și genera parole complexe în siguranță.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) ori de câte ori este posibil. Acest lucru adaugă un nivel suplimentar de securitate prin solicitarea unui cod de verificare în plus față de parolă atunci când vă conectați.
+2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) ori de câte ori este posibil. Acest lucru adaugă un nivel suplimentar de securitate prin solicitarea unui cod de verificare în plus față de parolă atunci când vă conectați.
 
 3. **Revizuiește-ți în mod regulat prietenii și urmăritorii**: Revizuiți periodic lista de prieteni și urmăritori pentru a vă asigura că sunteți conectat doar cu persoane pe care le cunoașteți și în care aveți încredere.
 

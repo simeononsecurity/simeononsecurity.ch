@@ -51,8 +51,8 @@ There are various study materials available to candidates, such as textbooks, on
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 ### Step 4: Practice with practice exams
 
@@ -61,7 +61,7 @@ Practice exams are a great way to gauge your knowledge and identify areas where 
 It is important to take multiple practice exams to become familiar with the types of questions that may be asked and develop time management skills.
 
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 ### Step 5: Register for the exam
 

@@ -20,7 +20,7 @@ Pentru a începe, creați un cont la [repocket.co](https://link.repocket.co/raqc
 ### Instalați containerul Docker
 Urmați acești pași pentru a instala containerul Docker Repocket:
 
-0. Învățați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Învățați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Deschideți terminalul și introduceți următoarea comandă, înlocuind "your@email.com" și "yourapikey" cu adresa de e-mail și cheia API reale:
 ```bash
@@ -36,7 +36,7 @@ Pentru instrucțiuni mai detaliate, consultați [Repocket documentation](https:/
 ## Concluzie
 Repocket oferă o oportunitate de a câștiga bani prin partajarea conexiunii dvs. de internet neutilizate. Cu o plată minimă de 20 de dolari și potențialul de a câștiga aproximativ 1 dolar pe nod pe cutie pe lună, Repocket poate fi o sursă valoroasă de venit pasiv. Cu toate acestea, este esențial să înțelegeți bine sistemul de plată și să efectuați propriile cercetări înainte de a decide să utilizați serviciul.
 
-Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Referință
 - [Repocket](https://link.repocket.co/raqc)

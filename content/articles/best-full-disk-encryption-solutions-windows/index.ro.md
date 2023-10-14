@@ -74,7 +74,7 @@ Pentru a cripta un disc utilizând VeraCrypt, urmați acești pași:
 3. Lansați VeraCrypt și selectați discul sau partiția pe care doriți să o criptați.
 4. Urmați instrucțiunile furnizate de VeraCrypt pentru a crea un volum criptat.
 
-Rețineți că securitatea VeraCrypt se bazează pe puterea parolei dumneavoastră. Asigurați-vă că utilizați o [long and secure password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pentru a maximiza eficiența criptării.
+Rețineți că securitatea VeraCrypt se bazează pe puterea parolei dumneavoastră. Asigurați-vă că utilizați o [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru a maximiza eficiența criptării.
 
 ______
 {{< inarticle-dark >}}

@@ -24,6 +24,6 @@ Ważne jest, aby pamiętać, że **usunięcie informacji od jednego brokera dany
 
 _________________________
 
-Podsumowując, **usunięcie swoich informacji z internetowych brokerów danych** jest krytycznym krokiem w zapewnieniu prywatności i bezpieczeństwa w sieci. Poprzez przejęcie kontroli nad tym, jakie informacje o Tobie są dostępne online, możesz zminimalizować ryzyko kradzieży tożsamości, stalkingu i innych problemów związanych z prywatnością. Aby uzyskać bardziej szczegółowe wskazówki dotyczące usuwania informacji o sobie z internetowych brokerów danych, należy zapoznać się z materiałami dostępnymi na stronie[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
+Podsumowując, **usunięcie swoich informacji z internetowych brokerów danych** jest krytycznym krokiem w zapewnieniu prywatności i bezpieczeństwa w sieci. Poprzez przejęcie kontroli nad tym, jakie informacje o Tobie są dostępne online, możesz zminimalizować ryzyko kradzieży tożsamości, stalkingu i innych problemów związanych z prywatnością. Aby uzyskać bardziej szczegółowe wskazówki dotyczące usuwania informacji o sobie z internetowych brokerów danych, należy zapoznać się z materiałami dostępnymi na stronie[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
 
 

@@ -30,14 +30,14 @@ coverCaption: ""
 Контроль доступа к информации имеет решающее значение для предотвращения несанкционированной утечки. Реализуйте следующие меры:
 
 - **Управление доступом на основе ролей**: Назначение прав доступа в соответствии с должностными ролями и обязанностями для обеспечения доступа к конфиденциальной информации только уполномоченных лиц.
-- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Требование использования нескольких факторов аутентификации, таких как пароли и биометрические данные, для повышения безопасности учетных данных доступа.
+- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Требование использования нескольких факторов аутентификации, таких как пароли и биометрические данные, для повышения безопасности учетных данных доступа.
 - **Регулярные проверки доступа**: Проводите периодические проверки актуальности привилегий доступа и своевременно отзывайте доступ у лиц, которым он больше не требуется.
 
 ### 2. Шифрование чувствительной информации
 
 Шифрование обеспечивает дополнительный уровень безопасности для защиты конфиденциальных данных от несанкционированного доступа. Рассмотрим следующие методы:
 
-- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Реализовать механизмы шифрования, обеспечивающие защиту информации на всех этапах ее жизненного цикла - от хранения до передачи.
+- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Реализовать механизмы шифрования, обеспечивающие защиту информации на всех этапах ее жизненного цикла - от хранения до передачи.
 - **Классификация данных**: Классификация информации в зависимости от уровня ее чувствительности и применение соответствующих мер шифрования.
 - **Управление ключами**: Создать надежные системы управления ключами, обеспечивающие надлежащее хранение, защиту и регулярную ротацию ключей шифрования.
 
@@ -45,8 +45,8 @@ coverCaption: ""
 
 Инвестиции в обучение и информирование сотрудников имеют решающее значение для предотвращения утечки информации. Вот что можно сделать:
 
-- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Проводить регулярные тренинги для ознакомления сотрудников с передовыми методами обеспечения информационной безопасности, включая риски утечки информации.
-- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Обучить сотрудников распознавать и сообщать о попытках фишинга, которые часто используются как средство получения несанкционированного доступа к конфиденциальной информации.
+- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Проводить регулярные тренинги для ознакомления сотрудников с передовыми методами обеспечения информационной безопасности, включая риски утечки информации.
+- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Обучить сотрудников распознавать и сообщать о попытках фишинга, которые часто используются как средство получения несанкционированного доступа к конфиденциальной информации.
 - **Процедуры информирования**: Установите четкие процедуры информирования соответствующих органов о потенциальных инцидентах безопасности или подозрительных действиях.
 
 ### 4. Внедрение решений по предотвращению потери данных (DLP)
@@ -80,7 +80,7 @@ ______
 ## References
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

@@ -105,7 +105,7 @@ Now that we have a good understanding of **wireless interference** and the diffe
 
 2. **Centralize Access Points:** In a rectangle-style home, it's generally recommended to place access points in a **centralized location** to ensure equal coverage throughout the house. The access point should be positioned at a **central point** on the main floor. With rectangle homes, ideally with at least 2 access points, you'd place them in central points on either half of the home. For square homes, you would usually place them in opposing corners.
 
-3. **Consider Multiple Floors:** If your home has multiple floors, it's advisable to install additional access points on each floor to ensure [seamless connectivity](https://simeononsecurity.ch/other/t-mobile-home-internet-benefits-connectivity-features/). Place the access points near staircases or open areas to maximize coverage.
+3. **Consider Multiple Floors:** If your home has multiple floors, it's advisable to install additional access points on each floor to ensure [seamless connectivity](https://simeononsecurity.com/other/t-mobile-home-internet-benefits-connectivity-features/). Place the access points near staircases or open areas to maximize coverage.
 
 4. **Avoid Obstructions:** Ensure that access points are placed away from physical obstructions like walls and large furniture. Keep the access points elevated and positioned for unobstructed signal propagation.
 

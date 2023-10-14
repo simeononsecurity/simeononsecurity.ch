@@ -32,7 +32,7 @@ When making online purchases, it's essential to protect your personal informatio
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) is another reliable service that enables you to generate virtual debit cards for online purchases. With Privacy.com, you can create unique card numbers for each transaction, ensuring that your real credit card information remains secure. This service also allows you to set spending limits and control subscriptions, giving you better control over your online transactions.
 
-Learn more about our [recommended privacy services](https://simeononsecurity.ch/recommendations/services).
+Learn more about our [recommended privacy services](https://simeononsecurity.com/recommendations/services).
 
 ______
 
@@ -58,23 +58,23 @@ Stick to reputable and well-known e-commerce platforms when making online purcha
 
 Regularly update your operating system, web browser, and antivirus software to ensure you have the latest security patches and protection against malware and cyber threats. Enable automatic updates whenever possible.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) emails, text messages, or phone calls that try to trick you into revealing personal information or login credentials. Avoid clicking on suspicious links and verify the authenticity of any communication from online sellers before sharing any sensitive data.
+[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) emails, text messages, or phone calls that try to trick you into revealing personal information or login credentials. Avoid clicking on suspicious links and verify the authenticity of any communication from online sellers before sharing any sensitive data.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for your online shopping accounts. Avoid reusing passwords across multiple platforms. Consider using a password manager, such as **LastPass** or **Dashlane**, to securely store and generate complex passwords.
+[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for your online shopping accounts. Avoid reusing passwords across multiple platforms. Consider using a password manager, such as **LastPass** or **Dashlane**, to securely store and generate complex passwords.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) adds an extra layer of security by requiring a second form of verification, such as a unique code sent to your mobile device, in addition to your password. Enable 2FA whenever possible to protect your online shopping accounts.
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) adds an extra layer of security by requiring a second form of verification, such as a unique code sent to your mobile device, in addition to your password. Enable 2FA whenever possible to protect your online shopping accounts.
 
 ### 6. Review Seller Ratings and Reviews
 
 Before making a purchase from a new seller, check their ratings and reviews from other customers. This information can help you assess the seller's credibility and reliability.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 Avoid making online purchases when connected to public Wi-Fi networks, as they are often unsecured and prone to eavesdropping. Instead, use a secure and private internet connection, such as your home network or a trusted VPN (Virtual Private Network) service.
 

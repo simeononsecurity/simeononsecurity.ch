@@ -12,7 +12,7 @@ coverAlt: "A laptop with a graduation hat on the keyboard, surrounded by stacks 
 coverCaption: ""
 ---
 
-With the constantly changing job market and the need for up-to-date skills, many individuals are turning to bootcamps as a way to quickly acquire new knowledge and certifications. However, the question remains: [are bootcamps worth it](https://simeononsecurity.ch/articles/are-bootcamps-worth-it/)? In this article, we will explore the pros and cons of bootcamps and help you determine if they are the right choice for you.
+With the constantly changing job market and the need for up-to-date skills, many individuals are turning to bootcamps as a way to quickly acquire new knowledge and certifications. However, the question remains: [are bootcamps worth it](https://simeononsecurity.com/articles/are-bootcamps-worth-it/)? In this article, we will explore the pros and cons of bootcamps and help you determine if they are the right choice for you.
 
 ## [Home](/cyber-security-career-playbook-start/)
 

@@ -1,6 +1,6 @@
 title = "simeononsecurity"
 theme = "soshellofriend"
-# baseurl = "https://simeononsecurity.ch"
+# baseurl = "https://simeononsecurity.com"
 # languageCode = "en"
 # defaultContentLanguage = "en"
 paginate = 5
@@ -11,7 +11,7 @@ enableEmoji = true
 relativeURLs = true
 enableGitInfo = true
 rssLimit = 25
-refLinksNotFoundURL = "simeononsecurity.ch"
+refLinksNotFoundURL = "simeononsecurity.com"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
 
@@ -178,7 +178,7 @@ weight = 1
 [languages.ar.params]
 title = "simeononsecurity"
 subtitle = "الأمن السيبراني، الإدارة، العملات الرقمية"
-description = "ابقى على اطلاع في مجال الأمن السيبراني. استكشف آخر الاتجاهات والممارسات الأمنية والتكنولوجية على SimeonOnSecurity.ch. مورد مهم للجميع."
+description = "ابقى على اطلاع في مجال الأمن السيبراني. استكشف آخر الاتجاهات والممارسات الأمنية والتكنولوجية على simeononsecurity.com. مورد مهم للجميع."
 keywords = "أمن، خصوصية، إدارة، أمن سيبراني، تكنولوجيا المعلومات، العملات الرقمية، مدونة، التصلب، التقدير، الامتثال، البرمجة، ديف أوبس، باور شيل، سي شارب، أنسيبل، دوكر كونتينر، ويندوز، الجريمة الرقمية و التحقيق، المختبر المنزلي، حلول الشركات الناشئة، بايثون، ويندوز 10"
 copyright = "SimeonOnSecurity"
 menuMore = " المزيد"
@@ -229,7 +229,7 @@ weight = 1
 [languages.bn.params]
 title = "সিমিয়ন অন সিকিউরিটি"
 subtitle = "সাইবার নিরাপত্তা, অটোমেশন, ক্রিপ্টো"
-description = "সাইবার নিরাপত্তার উন্নয়নে আপডেটে থাকুন। প্রাইভেসি, নিরাপত্তা এবং প্রযুক্তিতে সর্বশেষ প্রবন্ধ এবং সেরা প্র্যাকটিস সম্পর্কে জানুন SimeonOnSecurity.ch এ। সকলের জন্য একটি গুরুত্বপূর্ণ সম্পদ।"
+description = "সাইবার নিরাপত্তার উন্নয়নে আপডেটে থাকুন। প্রাইভেসি, নিরাপত্তা এবং প্রযুক্তিতে সর্বশেষ প্রবন্ধ এবং সেরা প্র্যাকটিস সম্পর্কে জানুন simeononsecurity.com এ। সকলের জন্য একটি গুরুত্বপূর্ণ সম্পদ।"
 keywords = "নিরাপত্তা, প্রাইভেসি, অটোমেশন, সাইবার নিরাপত্তা, তথ্য প্রযুক্তি, ক্রিপ্টোকারেন্সি, ব্লগ, কঠোরতার উন্নয়ন, সম্পূর্ণতা, প্রোগ্রামিং, ডেভঅপস, পাওয়ারশেল, সি শার্প, এ্যানসিবল, ডকার কন্টেইনার, উইন্ডোজ, ডিওডি এবং ডিসা এসটিআইজি, বাড়িতে ল্যাব, কর্নেল সমস্যা সমাধান, পাইথন, উইন্ডোজ 10"
 copyright = "SimeonOnSecurity"
 menuMore = " আরও"
@@ -279,7 +279,7 @@ weight = 1
 [languages.fr.params]
 title = "simeononsecurity"
 subtitle = "CyberSécurité, Automatisation, Crypto"
-description = "Restez en avance dans la cybersécurité. Découvrez les dernières tendances et les meilleures pratiques en matière de confidentialité, de sécurité et de technologie sur SimeonOnSecurity.ch. Ressource essentielle pour tous."
+description = "Restez en avance dans la cybersécurité. Découvrez les dernières tendances et les meilleures pratiques en matière de confidentialité, de sécurité et de technologie sur simeononsecurity.com. Ressource essentielle pour tous."
 keywords = "sécurité, confidentialité, automatisation, cybersécurité, technologie de l'information, cryptomonnaie, blog, durcissement, conformité, programmation, devops, PowerShell, C sharp, Ansible, conteneurs Docker, Windows, DoD et DISA STIGs, home labs, solutions d'entreprise, Python, Windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Afficher plus"
@@ -330,7 +330,7 @@ weight = 1
 [languages.de.params]
 title = "simeononsecurity"
 subtitle = "Cybersicherheit, Automatisierung, Kryptowährung"
-description = "Bleiben Sie in Sachen Cybersicherheit auf dem neuesten Stand. Entdecken Sie die neuesten Trends und bewährten Praktiken in Bezug auf Datenschutz, Sicherheit und Technologie auf SimeonOnSecurity.ch. Eine unverzichtbare Ressource für alle."
+description = "Bleiben Sie in Sachen Cybersicherheit auf dem neuesten Stand. Entdecken Sie die neuesten Trends und bewährten Praktiken in Bezug auf Datenschutz, Sicherheit und Technologie auf simeononsecurity.com. Eine unverzichtbare Ressource für alle."
 keywords = "Sicherheit, Datenschutz, Automatisierung, Cybersicherheit, Informationstechnologie, Kryptowährung, Blog, Hardening, Compliance, Programmierung, DevOps, PowerShell, C Sharp, Ansible, Docker-Container, Windows, DoD und DISA STIGs, Home Labs, Unternehmenslösungen, Python, Windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Mehr anzeigen"
@@ -381,8 +381,8 @@ weight = 1
 [languages.en.params]
 title = "simeononsecurity"
 subtitle = "CyberSecurity, Automation, Crypto"
-#description = "SimeonOnSecurity.ch is a comprehensive blog that covers a wide range of topics related to privacy, security, and technology. From programming and devops to automation and PowerShell, this blog offers in-depth information and guidance on the latest trends and best practices in cybersecurity. Whether you're a home lab enthusiast or an enterprise solution provider, this blog is an essential resource for anyone looking to stay ahead of the curve and protect their digital assets."
-description = "Stay ahead in cybersecurity. Discover latest trends & best practices on privacy, security & tech on SimeonOnSecurity.ch. Essential resource for all."
+#description = "simeononsecurity.com is a comprehensive blog that covers a wide range of topics related to privacy, security, and technology. From programming and devops to automation and PowerShell, this blog offers in-depth information and guidance on the latest trends and best practices in cybersecurity. Whether you're a home lab enthusiast or an enterprise solution provider, this blog is an essential resource for anyone looking to stay ahead of the curve and protect their digital assets."
+description = "Stay ahead in cybersecurity. Discover latest trends & best practices on privacy, security & tech on simeononsecurity.com. Essential resource for all."
 keywords = "security, privacy, automation, cybersecurity, information technology, cryptocurrency, blog, hardening, compliance, programming, devops, powershell, c sharp, ansible, docker containers, windows, DoD and DISA STIGs, home labs, enterprise solutions, python, windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Show more"
@@ -492,7 +492,7 @@ title = "simeononsecurity"
 
 [languages.es.params]
 subtitle = "Ciberseguridad, Automatización, Cripto"
-description = "Manténgase a la vanguardia de la ciberseguridad. Descubra las últimas tendencias y las mejores prácticas en privacidad, seguridad y tecnología en SimeonOnSecurity.ch. Un recurso esencial para todos."
+description = "Manténgase a la vanguardia de la ciberseguridad. Descubra las últimas tendencias y las mejores prácticas en privacidad, seguridad y tecnología en simeononsecurity.com. Un recurso esencial para todos."
 keywords = "seguridad, privacidad, automatización, ciberseguridad, tecnología de la información, criptomonedas, blog, endurecimiento, cumplimiento, programación, devops, PowerShell, C sharp, Ansible, contenedores Docker, Windows, DoD y DISA STIGs, laboratorios en casa, soluciones empresariales, Python, Windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Más"
@@ -543,7 +543,7 @@ weight = 1
 [languages.hi.params]
 title = "simeononsecurity"
 subtitle = "साइबर सुरक्षा, स्वचालन, क्रिप्टो"
-description = "साइबर सुरक्षा में आगे रहें। SimeonOnSecurity.ch पर गोपनीयता, सुरक्षा और तकनीक के नवीनतम रुझानों और सर्वोत्तम अभ्यासों की खोज करें। सभी के लिए एक महत्वपूर्ण संसाधन।"
+description = "साइबर सुरक्षा में आगे रहें। simeononsecurity.com पर गोपनीयता, सुरक्षा और तकनीक के नवीनतम रुझानों और सर्वोत्तम अभ्यासों की खोज करें। सभी के लिए एक महत्वपूर्ण संसाधन।"
 keywords = "सुरक्षा, गोपनीयता, स्वचालन, साइबर सुरक्षा, सूचना प्रौद्योगिकी, क्रिप्टोकरेंसी, ब्लॉग, हार्डनिंग, अनुमानित करना, पालन करना, प्रोग्रामिंग, डेवओप्स, पावरशेल, सी शार्प, एंसिबल, डॉकर कंटेनर, विंडोज, डीओडी और डिसा स्टिग, होम लैब, उद्यम समाधान, पायथन, विंडोज 10"
 copyright = "SimeonOnSecurity"
 menuMore = " अधिक दिखाएं"
@@ -594,7 +594,7 @@ weight = 1
 [languages.it.params]
 title = "SimeonOnSecurity"
 subtitle = "Cybersecurity, automazione e crittografia"
-description = "Mantenetevi aggiornati sullo sviluppo della sicurezza informatica. Ottenete le ultime notizie e le migliori pratiche sulla privacy, la sicurezza e la tecnologia su SimeonOnSecurity.ch. Una risorsa preziosa per tutti."
+description = "Mantenetevi aggiornati sullo sviluppo della sicurezza informatica. Ottenete le ultime notizie e le migliori pratiche sulla privacy, la sicurezza e la tecnologia su simeononsecurity.com. Una risorsa preziosa per tutti."
 keywords = "sicurezza, privacy, automazione, sicurezza informatica, tecnologia dell'informazione, criptovalute, blog, miglioramento continuo, programmazione, devops, powershell, c sharp, ansible, contenitori docker, finestre, dod e sst, laboratorio domestico, risoluzione dei problemi del kernel, python, finestre 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Altro"
@@ -644,7 +644,7 @@ weight = 1
 [languages.ja.params]
 title = "SimeonOnSecurity"
 subtitle = "サイバーセキュリティ、自動化、暗号化について"
-description = "サイバーセキュリティの最新情報やプライバシー、セキュリティ、技術に関するベストプラクティスをSimeonOnSecurity.chで入手してください。誰でも価値のあるリソースです。"
+description = "サイバーセキュリティの最新情報やプライバシー、セキュリティ、技術に関するベストプラクティスをsimeononsecurity.comで入手してください。誰でも価値のあるリソースです。"
 keywords = "セキュリティ、プライバシー、自動化、サイバーセキュリティ、情報技術、暗号通貨、ブログ、持続的改善、プログラミング、DevOps、PowerShell、C#、Ansible、Dockerコンテナ、Windows、DoDとSST、自宅のラボ、カーネルトラブルシューティング、Python、Windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " もっと"
@@ -694,7 +694,7 @@ weight = 1
 [languages.nl.params]
 title = "SimeonOnSecurity"
 subtitle = "Cybersecurity, automatisering en cryptografie"
-description = "Blijf op de hoogte van de ontwikkelingen op het gebied van cybersecurity. Ontvang de laatste nieuwtjes en de beste praktijken op het gebied van privacy, beveiliging en technologie op SimeonOnSecurity.ch. Een waardevolle bron voor iedereen."
+description = "Blijf op de hoogte van de ontwikkelingen op het gebied van cybersecurity. Ontvang de laatste nieuwtjes en de beste praktijken op het gebied van privacy, beveiliging en technologie op simeononsecurity.com. Een waardevolle bron voor iedereen."
 keywords = "beveiliging, privacy, automatisering, cybersecurity, informatie technologie, cryptocurrency, blog, continuous improvement, programming, devops, powershell, c sharp, ansible, docker containers, windows, dod en sst, home lab, kern probleemoplossing, python, windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Meer"
@@ -745,7 +745,7 @@ weight = 1
 [languages.pa.params]
 title = "SimeonOnSecurity"
 subtitle = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਆਟੋਮੇਸ਼ਨ ਅਤੇ ਕ੍ਰਿਪਟੋਗਰਾਫੀ"
-description = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਿਕਾਸ ਦੇ ਤਜਰਬੇ ਨਾਲ ਅੱਪਡੇਟ ਰਹੋ। ਸਾਇਬਰ ਪਰਦੇਦਾਰੀ، ਸੁਰੱਖਿਆ ਅਤੇ ਟੈਕਨਾਲੋਜੀ ਤੇ ਨਵੀਨਤਮ ਖ਼ਬਰਾਂ ਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਅਮਲ ਪ੍ਰਾਪਤ ਕਰੋ SimeonOnSecurity.ch ਤੇ। ਸਾਰੇ ਲਈ ਇੱਕ ਮੂਲਯੋਗ ਸਰੋਤ।"
+description = "ਸਾਇਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਿਕਾਸ ਦੇ ਤਜਰਬੇ ਨਾਲ ਅੱਪਡੇਟ ਰਹੋ। ਸਾਇਬਰ ਪਰਦੇਦਾਰੀ، ਸੁਰੱਖਿਆ ਅਤੇ ਟੈਕਨਾਲੋਜੀ ਤੇ ਨਵੀਨਤਮ ਖ਼ਬਰਾਂ ਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਅਮਲ ਪ੍ਰਾਪਤ ਕਰੋ simeononsecurity.com ਤੇ। ਸਾਰੇ ਲਈ ਇੱਕ ਮੂਲਯੋਗ ਸਰੋਤ।"
 keywords = "ਸੁਰੱਖਿਆ, ਨਿੱਜਤਾ, ਸਵੈ-ਚਾਲਿਤਾ, ਸਾਇਬਰ ਸੁਰੱਖਿਆ, ਜਾਣਕਾਰੀ ਟੈਕਨਾਲੋਜੀ, ਕ੍ਰਿਪਟੋਕਰੰਸੀ, ਬਲਾਗ, ਲਗਾਤਾਰ ਸੁਧਾਰ, ਪ੍ਰੋਗਰਾਮਿੰਗ, ਡੇਵ-ਆਪਸ, ਪਾਵਰਸ਼ੈਲ, ਸੀ ਸ਼ਾਰਪ, ਐਂਸੀਬਲ, ਡੌਕਰ ਕੰਟੇਨਰ, ਵਿੰਡੋਜ, ਡੌਡ ਅਤੇ ਐਸਐਸਟੀ, ਘਰੇਲੂ ਲੈਬ, ਕਰਨ ਸਮੱਸਿਆ ਦਾ ਹੱਲ, ਪਾਇਥਨ, ਵਿੰਡੋਜ 10"
 copyright = "ਸਿਮੀਅਨ ਆਨ ਸਕਿਊਰਿਟੀ"
 menuMore = " ਹੋਰ"
@@ -795,7 +795,7 @@ weight = 1
 [languages.pt.params]
 title = "SimeonOnSecurity"
 subtitle = "Cibersegurança, automação e criptografia"
-description = "Mantenha-se atualizado sobre o desenvolvimento de segurança cibernética. Obtenha as últimas notícias e as melhores práticas sobre privacidade, segurança e tecnologia no SimeonOnSecurity.ch. Um recurso valioso para todos."
+description = "Mantenha-se atualizado sobre o desenvolvimento de segurança cibernética. Obtenha as últimas notícias e as melhores práticas sobre privacidade, segurança e tecnologia no simeononsecurity.com. Um recurso valioso para todos."
 keywords = "segurança, privacidade, automação, cibersegurança, tecnologia da informação, criptomoedas, blog, melhoria contínua, programação, devops, powershell, c sharp, ansible, containers docker, windows, dod e sst, laboratório doméstico, solução de problemas de kernel, python, windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Mais"
@@ -895,7 +895,7 @@ weight = 1
 [languages.ru.params]
 title = "SimeonOnSecurity"
 subtitle = "Кибербезопасность, автоматизация и шифрование"
-description = "Будьте в курсе последних разработок в области кибербезопасности. Получайте последние новости и лучшие практики в области конфиденциальности, безопасности и технологий на сайте SimeonOnSecurity.ch. Ценный ресурс для всех."
+description = "Будьте в курсе последних разработок в области кибербезопасности. Получайте последние новости и лучшие практики в области конфиденциальности, безопасности и технологий на сайте simeononsecurity.com. Ценный ресурс для всех."
 keywords = "безопасность, конфиденциальность, автоматизация, кибербезопасность, информационные технологии, криптовалюты, блог, непрерывное совершенствование, программирование, DevOps, PowerShell, C#, Ansible, контейнеры Docker, Windows, DoD и SST, домашняя лаборатория, решение проблем ядра, Python, Windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Еще"
@@ -995,7 +995,7 @@ weight = 1
 [languages.ca.params]
 title = "SimeonOnSecurity"
 subtitle = "Seguretat cibernètica, automatització i criptografia"
-description = "Mantingueu-vos actualitzats en el desenvolupament de la seguretat cibernètica. Obteniu les últimes notícies i les millors pràctiques sobre privacitat, seguretat i tecnologia a SimeonOnSecurity.ch. Un recurs valuós per a tothom."
+description = "Mantingueu-vos actualitzats en el desenvolupament de la seguretat cibernètica. Obteniu les últimes notícies i les millors pràctiques sobre privacitat, seguretat i tecnologia a simeononsecurity.com. Un recurs valuós per a tothom."
 keywords = ""
 copyright = "SimeonOnSecurity"
 menuMore = " Més"
@@ -1045,7 +1045,7 @@ weight = 1
 [languages.pl.params]
 title = "simeononsecurity"
 subtitle = "Cyberbezpieczeństwo, Automatyzacja, Kryptowaluty"
-description = "Pozostań na bieżąco z cyberbezpieczeństwem. Odkryj najnowsze trendy i najlepsze praktyki dotyczące prywatności, bezpieczeństwa i technologii na stronie SimeonOnSecurity.ch. To niezbędne źródło informacji dla wszystkich."
+description = "Pozostań na bieżąco z cyberbezpieczeństwem. Odkryj najnowsze trendy i najlepsze praktyki dotyczące prywatności, bezpieczeństwa i technologii na stronie simeononsecurity.com. To niezbędne źródło informacji dla wszystkich."
 keywords = "bezpieczeństwo, prywatność, automatyzacja, cyberbezpieczeństwo, technologia informatyczna, kryptowaluty, blog, zabezpieczanie, zgodność, programowanie, devops, PowerShell, C sharp, Ansible, kontenery Docker, Windows, DoD i DISA STIGs, domowe laboratoria, rozwiązania dla firm, Python, Windows 10"
 copyright = "SimeonOnSecurity"
 menuMore = " Więcej"

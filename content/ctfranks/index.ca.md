@@ -25,7 +25,7 @@ coverCaption: ""
 - 23/10/2020 - 25/10/2020
 - Classificat general: 134è / 6010
 - Or classificat: 126 / 680
-- Equip (SimeonOnSecurity.ch)
+- Equip (simeononsecurity.com)
 - 06/11/2020 - 08/11/2020
 - Classificat a la general: 31 / 957
 - Or classificat: 28è / 121

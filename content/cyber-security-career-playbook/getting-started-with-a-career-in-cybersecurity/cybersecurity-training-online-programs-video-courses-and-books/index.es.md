@@ -63,7 +63,7 @@ ______
 
 [**Udemy**](https://www.udemy.com/) es un popular mercado en línea para el aprendizaje, que ofrece una amplia gama de cursos de ciberseguridad creados tanto por profesionales del sector como por instructores independientes. La amplia selección de cursos de Udemy abarca diversos ámbitos de la ciberseguridad, lo que permite a los alumnos elegir los cursos en función de sus intereses y niveles de habilidad.
 
-Más información [online training platforms](https://simeononsecurity.ch/recommendations/learning_resources)
+Más información [online training platforms](https://simeononsecurity.com/recommendations/learning_resources)
 
 ## Libros recomendados para la formación en ciberseguridad
 
@@ -83,7 +83,7 @@ Además de los programas en línea y los cursos en vídeo, los libros son un rec
 
 Estos libros ofrecen conocimientos profundos y perspectivas prácticas sobre temas de ciberseguridad. Pueden servir como valiosos recursos para complementar la formación en línea y ampliar sus conocimientos en este campo.
 
-Más información [SimeonOnSecurity's Recommended Books](https://simeononsecurity.ch/recommendations/books)
+Más información [SimeonOnSecurity's Recommended Books](https://simeononsecurity.com/recommendations/books)
 
 ______
 

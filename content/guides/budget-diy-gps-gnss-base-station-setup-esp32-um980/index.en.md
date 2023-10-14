@@ -23,11 +23,11 @@ The ESP32 is a versatile microcontroller renowned for its WiFi and Bluetooth cap
 ### Alternate Instructions
 **Want to use a linux distro or a raspberry pi?**
 
-Check out our guide on [**Setting up a NTRIP server on Linux**](https://simeononsecurity.ch/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
+Check out our guide on [**Setting up a NTRIP server on Linux**](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
 
 ### Looking for how to use this with Onocoy?
 
-Check out our guide on [**DIY Onocoy Ntrip Server and Reference Station Setup**](https://simeononsecurity.ch/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
+Check out our guide on [**DIY Onocoy Ntrip Server and Reference Station Setup**](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
 
 ### Recommended Hardware Components
 Before we begin, let's take a look at the hardware components you'll need:

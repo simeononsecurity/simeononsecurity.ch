@@ -86,10 +86,10 @@ Darüber hinaus sollten Sie **vorsichtig** sein, wenn es darum geht, **sensible 
 
 Es gibt mehrere praktische Tipps, die Sie befolgen können, um Ihre **Online-Sicherheit** zu verbessern, darunter:
 
-- Verwendung [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)
-- Ermöglichen [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) auf all Ihren Konten
+- Verwendung [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)
+- Ermöglichen [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) auf all Ihren Konten
 - Begrenzung der Menge an **persönlichen Informationen**, die Sie online weitergeben
-- Sein [**cautious**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) beim Öffnen von E-Mails oder Links aus unbekannten Quellen
+- Sein [**cautious**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) beim Öffnen von E-Mails oder Links aus unbekannten Quellen
 
 Wenn Sie diese Tipps befolgen, können Sie Ihr Risiko **verringern**, Opfer von **Cyber-Bedrohungen** zu werden.
 
@@ -102,7 +102,7 @@ Einer der wichtigsten Aspekte der **Cybersicherheit** für Anfänger ist **Bewus
 Eine **robuste Cybersicherheitsstrategie** umfasst mehrere Schlüsselelemente, darunter:
 
 - **Regelmäßige Updates und Sicherheits-Patches** für Geräte und Software
-- [**Strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [**Strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 - **Netzwerksicherheitsmaßnahmen**, wie **Firewalls** und **sichere VPNs**
 - **Beschränkung der Menge an persönlichen Informationen**, die Sie online weitergeben
 
@@ -113,11 +113,11 @@ Wenn Sie diese Elemente beachten und sich über die neuesten **Cybersicherheitsb
 Wenn es um **Best Practices im Bereich der Cybersicherheit** geht, gibt es einige wichtige Schritte, die Sie als Anfänger unternehmen sollten, darunter:
 
 - Regelmäßiges Aktualisieren Ihrer Geräte und Software mit den neuesten **Sicherheitspatches**.
-- Verwendung [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) und **Multifaktor-Authentifizierungstechniken**
+- Verwendung [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) und **Multifaktor-Authentifizierungstechniken**
 - Begrenzung der Menge an **persönlichen Informationen**, die Sie online weitergeben
-- Seien Sie vorsichtig beim Öffnen von [**emails or links from unknown sources**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+- Seien Sie vorsichtig beim Öffnen von [**emails or links from unknown sources**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-Erwägen Sie außerdem Investitionen in seriöse [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.ch/recommendations/vpns/)
+Erwägen Sie außerdem Investitionen in seriöse [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.com/recommendations/vpns/)
 
 ### **Navigieren in der digitalen Landschaft: Ein Leitfaden für Einsteiger in die Cybersicherheit**
 

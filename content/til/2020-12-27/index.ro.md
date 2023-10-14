@@ -57,4 +57,4 @@ Pentru cei care sunt interesați să înființeze un laborator acasă, SimeonOnS
 
 ## nikitavoloboev/privacy-respecting:
 -[https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- O listă excelentă de servicii și software care respectă confidențialitatea. eu deja[recommend](https://simeononsecurity.ch/recommendations) unele dintre elementele legate. Plănuiesc să continui să citesc articolele din listă.
+- O listă excelentă de servicii și software care respectă confidențialitatea. eu deja[recommend](https://simeononsecurity.com/recommendations) unele dintre elementele legate. Plănuiesc să continui să citesc articolele din listă.

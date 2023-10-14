@@ -68,7 +68,7 @@ ______
 
 Zusammenfassend lässt sich sagen, dass die Erstellung eines effektiven Lebenslaufs für Fachleute in den Bereichen Cybersicherheit, Softwareentwicklung und IT, die ihre Karriere vorantreiben wollen, von entscheidender Bedeutung ist. Indem Sie Ihren Lebenslauf auf die Stellenbeschreibung zuschneiden, Ihre technischen Fähigkeiten und Errungenschaften herausstellen, das Bewusstsein für Cybersicherheit und Datenschutz betonen, Problemlösungsfähigkeiten hervorheben, Klarheit und Prägnanz wahren, Aktionsverben und quantifizierbare Ergebnisse verwenden und sich über Branchentrends auf dem Laufenden halten, können Sie einen Lebenslauf erstellen, der potenzielle Arbeitgeber überzeugt.
 
-Weitere allgemeine Tipps zum Verfassen von Lebensläufen finden Sie auch unter [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) auf SimeonOnSecurity.ch, das wertvolle Einblicke und zusätzliche Anleitungen bietet.
+Weitere allgemeine Tipps zum Verfassen von Lebensläufen finden Sie auch unter [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) auf simeononsecurity.com, das wertvolle Einblicke und zusätzliche Anleitungen bietet.
 
 ______
 

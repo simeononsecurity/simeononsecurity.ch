@@ -11,11 +11,11 @@ coverCaption: "Condividete la vostra esperienza e le vostre intuizioni con la no
 
 Grazie per il vostro interesse a contribuire al nostro sito web! Siamo lieti di ricevere articoli per blog ospiti che siano in linea con i nostri contenuti. Per inviare un articolo da prendere in considerazione, seguite i seguenti passaggi:
 
-1. Contattateci attraverso il modulo web all'indirizzo [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) per esprimere il vostro interesse per il guest blogging.
+1. Contattateci attraverso il modulo web all'indirizzo [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) per esprimere il vostro interesse per il guest blogging.
 
 2. Preparate il vostro articolo in formato Markdown (md) o HTML.
 
-3. Inviate una richiesta di pull sul nostro repository GitHub all'indirizzo [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
+3. Inviate una richiesta di pull sul nostro repository GitHub all'indirizzo [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
 
 4. Assicuratevi che l'articolo includa un frontmatter (metadati) valido con tutte le variabili richieste, come mostrato nell'esempio seguente:
 
@@ -122,7 +122,7 @@ Il guest blogging è un accordo reciprocamente vantaggioso in cui gli scrittori 
 
 - Apprezziamo la vostra comprensione e collaborazione nel seguire queste linee guida per mantenere la qualità e la rilevanza dei contenuti di SimeonOnSecurity.
 
-Saremo lieti di ricevere i vostri preziosi contributi e di aiutarvi a raggiungere un pubblico più ampio con le vostre intuizioni. In caso di ulteriori domande o chiarimenti, non esitate a contattarci attraverso il sito [webform](https://simeononsecurity.ch/contactus/)
+Saremo lieti di ricevere i vostri preziosi contributi e di aiutarvi a raggiungere un pubblico più ampio con le vostre intuizioni. In caso di ulteriori domande o chiarimenti, non esitate a contattarci attraverso il sito [webform](https://simeononsecurity.com/contactus/)
 
 ***Felice scrittura! ***
 

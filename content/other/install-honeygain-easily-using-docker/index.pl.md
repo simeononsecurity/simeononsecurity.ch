@@ -23,7 +23,7 @@ Utwórz konto pod adresem [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Zainstaluj Dockera
 
-Nauka [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Nauka [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Zainstaluj kontener Docker:
 Zmodyfikuj ciąg znaków za pomocą oczywistego adresu e-mail, hasła i nazwy urządzenia przed wklejeniem do terminala
@@ -42,5 +42,5 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 
 Podsumowując, Honey Gain oferuje atrakcyjną możliwość zarabiania pasywnego dochodu poprzez udostępnianie połączenia internetowego. Stając się częścią ich sieci, możesz zarabiać na niewykorzystanej przepustowości i przekształcić ją w stałe źródło przychodów. Ważne jest jednak, aby zrozumieć złożoność procesu wypłaty i dokładnie ocenić szczegóły przed podjęciem decyzji o skorzystaniu z tej usługi. Aby rozpocząć korzystanie z Honey Gain, postępuj zgodnie z dostarczonymi instrukcjami instalacji i konfiguracji i rozpocznij swoją podróż w kierunku zarabiania pasywnego dochodu bez wysiłku.
 
-Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 

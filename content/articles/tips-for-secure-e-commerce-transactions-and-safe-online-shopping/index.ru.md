@@ -32,7 +32,7 @@ ______
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) еще один надежный сервис, позволяющий генерировать виртуальные дебетовые карты для покупок в Интернете. С помощью Privacy.com можно создавать уникальные номера карт для каждой транзакции, обеспечивая безопасность информации о реальной кредитной карте. Эта услуга также позволяет устанавливать лимиты расходов и контролировать подписки, что дает возможность лучше контролировать операции в Интернете.
 
-Узнайте больше о наших услугах [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
+Узнайте больше о наших услугах [recommended privacy services](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ ______
 
 Регулярно обновляйте операционную систему, веб-браузер и антивирусное программное обеспечение, чтобы обеспечить наличие последних исправлений и защиту от вредоносных программ и киберугроз. По возможности включите автоматическое обновление.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) электронные письма, текстовые сообщения или телефонные звонки, в которых вас пытаются обманом заставить сообщить личную информацию или учетные данные. Не переходите по подозрительным ссылкам и проверяйте подлинность любого сообщения от продавцов, прежде чем сообщать конфиденциальные данные.
+[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) электронные письма, текстовые сообщения или телефонные звонки, в которых вас пытаются обманом заставить сообщить личную информацию или учетные данные. Не переходите по подозрительным ссылкам и проверяйте подлинность любого сообщения от продавцов, прежде чем сообщать конфиденциальные данные.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) для учетных записей интернет-магазинов. Избегайте повторного использования паролей на различных платформах. Рассмотрите возможность использования менеджера паролей, например **LastPass** или **Dashlane**, для безопасного хранения и генерации сложных паролей.
+[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) для учетных записей интернет-магазинов. Избегайте повторного использования паролей на различных платформах. Рассмотрите возможность использования менеджера паролей, например **LastPass** или **Dashlane**, для безопасного хранения и генерации сложных паролей.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) добавляет дополнительный уровень безопасности, требуя в дополнение к паролю вторую форму проверки, например, уникальный код, отправленный на мобильное устройство. По возможности включайте 2FA для защиты своих учетных записей в интернет-магазинах.
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) добавляет дополнительный уровень безопасности, требуя в дополнение к паролю вторую форму проверки, например, уникальный код, отправленный на мобильное устройство. По возможности включайте 2FA для защиты своих учетных записей в интернет-магазинах.
 
 ### 6. Изучайте рейтинги и отзывы продавцов
 
 Прежде чем совершить покупку у нового продавца, ознакомьтесь с его рейтингом и отзывами других покупателей. Эта информация поможет вам оценить надежность продавца.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 Избегайте совершать покупки в Интернете, подключаясь к общественным сетям Wi-Fi, поскольку они часто не защищены и могут быть подслушаны. Вместо этого используйте безопасное и частное подключение к Интернету, например, домашнюю сеть или надежную службу VPN (Virtual Private Network).
 

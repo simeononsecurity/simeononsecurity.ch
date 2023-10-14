@@ -20,7 +20,7 @@ In today's digital age, cybersecurity is more important than ever. With the cons
 
 {{< figure src="hackercat.jpeg" alt="The Hacker Cat Meme">}}
 
-One of the most iconic cybersecurity memes is the "Hacker Cat" meme. This meme typically features a cat wearing sunglasses and sitting at a computer with text like, "I'm in." It humorously portrays the idea of hackers being mysterious and untraceable. In reality, [cybersecurity professionals](https://simeononsecurity.ch/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) work diligently to uncover the identities of cybercriminals, often with the help of [government regulations](https://simeononsecurity.ch/search/?q=regulations) and [digital forensics tools](https://simeononsecurity.ch/articles/usb-hardware-locks-encryption-devices/). 
+One of the most iconic cybersecurity memes is the "Hacker Cat" meme. This meme typically features a cat wearing sunglasses and sitting at a computer with text like, "I'm in." It humorously portrays the idea of hackers being mysterious and untraceable. In reality, [cybersecurity professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/) work diligently to uncover the identities of cybercriminals, often with the help of [government regulations](https://simeononsecurity.com/search/?q=regulations) and [digital forensics tools](https://simeononsecurity.com/articles/usb-hardware-locks-encryption-devices/). 
 
 
 
@@ -28,19 +28,19 @@ One of the most iconic cybersecurity memes is the "Hacker Cat" meme. This meme t
 
 {{< figure src="matrix.jpg" alt="The Matrix: Red Pill vs. Blue Pill Meme">}}
 
-The Matrix movie has left an indelible mark on popular culture and cybersecurity discussions. The iconic scene where Neo is offered the choice between the red pill and the blue pill is often referenced in cybersecurity circles. The red pill represents the truth about the dangers of the digital world, while the blue pill symbolizes ignorance and staying in the comfort zone. This analogy reminds us of the importance of staying informed about [cybersecurity threats](https://simeononsecurity.ch/articles/cybersecurity-threats-to-watch-out-for-in-2023/) and choosing to take action.
+The Matrix movie has left an indelible mark on popular culture and cybersecurity discussions. The iconic scene where Neo is offered the choice between the red pill and the blue pill is often referenced in cybersecurity circles. The red pill represents the truth about the dangers of the digital world, while the blue pill symbolizes ignorance and staying in the comfort zone. This analogy reminds us of the importance of staying informed about [cybersecurity threats](https://simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/) and choosing to take action.
 
 ## "There Is No Patch for Human Stupidity"
 
 {{< figure src="patch.jpg" alt="There Is No Patch for Human Stupidity">}}
 
-This famous saying in the cybersecurity community highlights the fact that no software patch can fix human errors. People often make mistakes that can lead to security breaches. It's essential to [educate individuals](https://simeononsecurity.ch/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/) and employees about [cybersecurity best practices](https://simeononsecurity.ch/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/) to minimize these vulnerabilities. 
+This famous saying in the cybersecurity community highlights the fact that no software patch can fix human errors. People often make mistakes that can lead to security breaches. It's essential to [educate individuals](https://simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/) and employees about [cybersecurity best practices](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/) to minimize these vulnerabilities. 
 
 ## Phishing Memes: Hook, Line, and Sinker
 
 {{< figure src="Security Awareness.webp" alt="Phishing Memes">}}
 
-Phishing attacks remain a prevalent cybersecurity threat. Memes depicting individuals falling for phishing emails with captions like "Hook, Line, and Sinker" serve as a humorous reminder to be cautious online. Encourage your peers to verify the authenticity of emails and avoid clicking on suspicious links. Check out this [guide on identifying phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) for more information.
+Phishing attacks remain a prevalent cybersecurity threat. Memes depicting individuals falling for phishing emails with captions like "Hook, Line, and Sinker" serve as a humorous reminder to be cautious online. Encourage your peers to verify the authenticity of emails and avoid clicking on suspicious links. Check out this [guide on identifying phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) for more information.
 
 ______
 
@@ -62,7 +62,7 @@ The TV series "Mr. Robot" has gained a dedicated following for its realistic por
 
 {{< figure src="password.jpg" alt="Password is my Password" link="https://paac-it.com/123456-as-password/">}}
 
-Cybersecurity memes often poke fun at the prevalence of weak passwords like "123456" or "password." These memes serve as a reminder of the importance of [using strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for online accounts. Encourage the use of [password managers](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) and [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) to enhance security.
+Cybersecurity memes often poke fun at the prevalence of weak passwords like "123456" or "password." These memes serve as a reminder of the importance of [using strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for online accounts. Encourage the use of [password managers](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) and [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) to enhance security.
 
 
 ## "Did You Try Turning It Off and On Again?"
@@ -77,13 +77,13 @@ ______
 
 {{< figure src="darkweb.jpg" alt="The Dark Web: Myths vs. Reality" link="https://hackernoon.com/6-dark-web-myths-that-you-still-believe-in-2q5xa3149" >}}
 
-The concept of the [dark web](https://simeononsecurity.ch/articles/the-dark-web-and-cybercrime-a-look/) has been sensationalized in pop culture, often portrayed as a hub for criminal activity. In reality, it's a complex and obscure part of the internet. Explain the nuances of the dark web and its relevance to cybersecurity. Highlight government regulations aimed at monitoring and combating illegal activities on the dark web.
+The concept of the [dark web](https://simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/) has been sensationalized in pop culture, often portrayed as a hub for criminal activity. In reality, it's a complex and obscure part of the internet. Explain the nuances of the dark web and its relevance to cybersecurity. Highlight government regulations aimed at monitoring and combating illegal activities on the dark web.
 
 ## "I Have No Idea What I'm Doing" Dog
 
 {{< figure src="noidea.jpg" alt="I Have No Idea What I'm Doing">}}
 
-The "I Have No Idea What I'm Doing" dog meme perfectly captures the feeling of being overwhelmed by cybersecurity jargon and technical details. It's important to break down complex topics into digestible pieces and provide resources for individuals looking to [learn more about cybersecurity](https://simeononsecurity.ch/cyber-security-career-playbook-start).
+The "I Have No Idea What I'm Doing" dog meme perfectly captures the feeling of being overwhelmed by cybersecurity jargon and technical details. It's important to break down complex topics into digestible pieces and provide resources for individuals looking to [learn more about cybersecurity](https://simeononsecurity.com/cyber-security-career-playbook-start).
 
 
 ______

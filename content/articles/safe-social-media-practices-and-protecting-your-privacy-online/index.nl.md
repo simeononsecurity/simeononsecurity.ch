@@ -56,9 +56,9 @@ ______
 
 Hier zijn enkele aanvullende **tips** om uw privacy en veiligheid op sociale media te verbeteren:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Maak sterke wachtwoorden voor uw sociale media-accounts en vermijd hergebruik ervan op meerdere platforms. Overweeg het gebruik van een wachtwoordmanager om complexe wachtwoorden veilig op te slaan en te genereren.
+1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Maak sterke wachtwoorden voor uw sociale media-accounts en vermijd hergebruik ervan op meerdere platforms. Overweeg het gebruik van een wachtwoordmanager om complexe wachtwoorden veilig op te slaan en te genereren.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) wanneer mogelijk. Dit voegt een extra beveiligingslaag toe doordat bij het inloggen een verificatiecode nodig is naast uw wachtwoord.
+2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) wanneer mogelijk. Dit voegt een extra beveiligingslaag toe doordat bij het inloggen een verificatiecode nodig is naast uw wachtwoord.
 
 3. **Controleer regelmatig uw vrienden en volgers**: Bekijk regelmatig uw vrienden- en volgerslijst om ervoor te zorgen dat u alleen verbonden bent met personen die u kent en vertrouwt.
 

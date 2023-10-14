@@ -30,9 +30,9 @@ Die[**CISSP certification**](https://www.isc2.org/Certifications/CISSP) ist eine
 
 Die[**CEH certification** ](https://cert.eccouncil.org/certified-ethical-hacker.html) eine beliebte Zertifizierung, die sich auf ethisches Hacking und Penetrationstests konzentriert. Sie deckt verschiedene Themen wie Footprinting und Aufklärung, Scannen von Netzwerken, Enumeration, System-Hacking, Trojaner und Backdoors, Viren und Würmer, Sniffer, Social Engineering, Denial of Service, Session Hijacking, Hacking von Webservern und mehr ab. Die Zertifizierungsprüfung besteht aus 125 Multiple-Choice-Fragen und setzt mindestens zwei Jahre Erfahrung im Bereich der Informationssicherheit voraus.
 
-### 3.[CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+### 3.[CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
-Die[**CompTIA Security+ certification** ](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) eine Cybersecurity-Einstiegszertifizierung, die verschiedene Cybersecurity-Themen wie Bedrohungen, Angriffe und Schwachstellen, Technologien und Tools, Architektur und Design, Identitäts- und Zugriffsmanagement, Risikomanagement und Kryptografie abdeckt. Die Zertifizierungsprüfung besteht aus 90 Multiple-Choice-Fragen und setzt mindestens zwei Jahre Erfahrung in der IT-Verwaltung mit Schwerpunkt Sicherheit voraus.
+Die[**CompTIA Security+ certification** ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) eine Cybersecurity-Einstiegszertifizierung, die verschiedene Cybersecurity-Themen wie Bedrohungen, Angriffe und Schwachstellen, Technologien und Tools, Architektur und Design, Identitäts- und Zugriffsmanagement, Risikomanagement und Kryptografie abdeckt. Die Zertifizierungsprüfung besteht aus 90 Multiple-Choice-Fragen und setzt mindestens zwei Jahre Erfahrung in der IT-Verwaltung mit Schwerpunkt Sicherheit voraus.
 
 ### 4.[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 

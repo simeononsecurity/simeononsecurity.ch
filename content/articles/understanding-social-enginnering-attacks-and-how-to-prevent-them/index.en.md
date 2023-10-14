@@ -16,7 +16,7 @@ Social engineering is a form of cyber attack that relies on manipulating people 
 
 ## Types of Social Engineering Attacks
 
-### [Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
+### [Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
 
 Phishing attacks are the most common form of social engineering attacks. They involve sending emails that appear to be from reputable sources to trick people into providing sensitive information or clicking on links that install malware. The emails may use scare tactics, urgent requests, or emotional appeals to get people to act without thinking.
 
@@ -42,25 +42,25 @@ To prevent quid pro quo attacks, it's important to **train employees** not to pr
 
 ## Strategies to Prevent Social Engineering Attacks
 
-### [Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-One of the most effective strategies to prevent social engineering attacks is [**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/). Employees should be educated on the different types of social engineering attacks and how to recognize them. They should also be taught how to respond to suspicious requests and how to report them to their supervisor or IT department.
+One of the most effective strategies to prevent social engineering attacks is [**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/). Employees should be educated on the different types of social engineering attacks and how to recognize them. They should also be taught how to respond to suspicious requests and how to report them to their supervisor or IT department.
 
 Training should be conducted regularly, and it should be tailored to the specific needs of the organization. It's important to emphasize the importance of security and to make sure that employees understand the consequences of failing to follow security protocols.
 
-### [Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
+### [Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Security policies are another important strategy to prevent social engineering attacks. Organizations should have clear policies on how to handle sensitive information and what actions are allowed or prohibited. Policies should be regularly reviewed and updated to ensure that they are effective and up to date.
 
 Organizations should also have policies on how to respond to security incidents. Employees should be trained on what to do in case of a security breach, and there should be clear procedures for reporting incidents and mitigating the damage.
 
-### [Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
+### [Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 Multi-factor authentication (MFA) is a security feature that requires users to provide multiple forms of authentication, such as a password and a fingerprint or a smart card, to access a system. MFA can help prevent social engineering attacks by making it harder for attackers to gain access to sensitive information.
 
 Organizations should consider implementing MFA for all systems that contain sensitive information or critical infrastructure. It's important to choose MFA solutions that are easy to use and manage, and that provide a high level of security.
 
-### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
+### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
 
 Anti-virus and anti-malware software can help prevent social engineering attacks by detecting and blocking malicious software before it can cause damage. Organizations should have up-to-date anti-virus and anti-malware software installed on all systems and devices that connect to their network.
 

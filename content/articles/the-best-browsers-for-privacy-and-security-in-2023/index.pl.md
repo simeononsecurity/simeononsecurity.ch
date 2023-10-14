@@ -83,6 +83,6 @@ ______
 
 Wybór odpowiedniej przeglądarki dla prywatności i bezpieczeństwa jest kluczowy dla ochrony Twojej aktywności online. Brave, Firefox i Tor Browser oferują solidne rozwiązania, które zaspokajają różne preferencje i wymagania użytkowników. Łącząc bezpieczną przeglądarkę z dodatkowymi narzędziami ochrony prywatności, takimi jak VPN, menedżerowie haseł i klucze sprzętowe, możesz jeszcze bardziej zwiększyć swoje bezpieczeństwo online i prywatność.
 
-Aby dowiedzieć się więcej o prywatności i bezpieczeństwie w sieci, odwiedź naszą stronę[collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) na ten temat i być na bieżąco z najnowszymi wiadomościami i trendami.
+Aby dowiedzieć się więcej o prywatności i bezpieczeństwie w sieci, odwiedź naszą stronę[collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) na ten temat i być na bieżąco z najnowszymi wiadomościami i trendami.
 
 

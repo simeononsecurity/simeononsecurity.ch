@@ -17,7 +17,7 @@ Linux to popularny system operacyjny używany zarówno przez użytkowników indy
 
 ### Aktualizuj swój system
 
-Utrzymywanie [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Aktualizowanie systemu ma kluczowe znaczenie dla utrzymania jego bezpieczeństwa. Regularne aktualizacje pomagają naprawić luki w zabezpieczeniach i błędy, zapewniając, że system pozostaje bezpieczny przed potencjalnymi atakami. Oto kilka przykładów, jak zaktualizować system Linux za pomocą menedżera pakietów **apt-get** lub **yum**:
+Utrzymywanie [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/) Aktualizowanie systemu ma kluczowe znaczenie dla utrzymania jego bezpieczeństwa. Regularne aktualizacje pomagają naprawić luki w zabezpieczeniach i błędy, zapewniając, że system pozostaje bezpieczny przed potencjalnymi atakami. Oto kilka przykładów, jak zaktualizować system Linux za pomocą menedżera pakietów **apt-get** lub **yum**:
 
 #### Aktualizacja Ubuntu za pomocą apt-get
 
@@ -296,7 +296,7 @@ ______
 
 Używanie słabych haseł jest częstym błędem, który może sprawić, że system Linux będzie podatny na ataki. Atakujący mogą używać narzędzi do odgadywania haseł opartych na popularnych słowach, nazwach lub datach. Ważne jest, aby używać silnych i unikalnych haseł, które nie są łatwe do odgadnięcia.
 
-Silne hasła można tworzyć przy użyciu kombinacji wielkich i małych liter, cyfr i znaków specjalnych. Dobrą praktyką jest również używanie [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) może również pomóc w zapamiętaniu haseł i uniknięciu używania tego samego hasła do wielu kont.
+Silne hasła można tworzyć przy użyciu kombinacji wielkich i małych liter, cyfr i znaków specjalnych. Dobrą praktyką jest również używanie [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) może również pomóc w zapamiętaniu haseł i uniknięciu używania tego samego hasła do wielu kont.
 
 ### Zezwalaj na dostęp roota SSH
 

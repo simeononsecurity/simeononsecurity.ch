@@ -72,7 +72,7 @@
 {{- with .Site.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
 
 
-<meta property="og:site_name" content="SimeonOnSecurity.ch">
+<meta property="og:site_name" content="simeononsecurity.com">
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{ if strings.Contains .Permalink "/tags/" }}Read up on more articles about {{ .Title | markdownify }}. {{ end }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
@@ -130,7 +130,7 @@
 {{ else }}
   {{ if eq .Lang "en" }}
     <!-- If the language code is "en", set the base URL accordingly -->
-    <link rel="canonical" href="https://simeononsecurity.ch{{ .RelPermalink }}" />
+    <link rel="canonical" href="https://simeononsecurity.com{{ .RelPermalink }}" />
   {{ else }}
     <link rel="canonical" href="{{ .Permalink }}" />
   {{ end }}

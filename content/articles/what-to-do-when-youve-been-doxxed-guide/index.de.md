@@ -93,9 +93,9 @@ Wenn Sie außerdem **berufliche Profile** auf Plattformen wie LinkedIn haben, ü
 Wenn Sie diese Maßnahmen ergreifen, verringern Sie die Zugänglichkeit Ihrer persönlichen Daten und erschweren es Personen, diese auszunutzen. Denken Sie daran, Ihre Online-Präsenz regelmäßig zu überwachen, um sicherzustellen, dass Ihre Daten sicher und geschützt bleiben.
 
 #### Zusätzliche Lektüre für Schritt 3
-- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ Die Verbesserung Ihrer **Online-Datenschutz-** und **Sicherheitsmaßnahmen** ist
 
 #### a. Überprüfen und aktualisieren Sie Ihre Datenschutzeinstellungen
 
-[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Ihrer Online-Konten und stellen Sie sicher, dass sie auf das höchste Schutzniveau eingestellt sind. Schränken Sie die Sichtbarkeit von persönlichen Informationen und Beiträgen auf vertrauenswürdige Freunde oder Verbindungen ein. Navigieren Sie beispielsweise auf Social-Media-Plattformen wie Facebook zu den Datenschutzeinstellungen und legen Sie fest, wer Ihr Profil, Ihre Beiträge und Ihre persönlichen Informationen sehen kann.
+[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Ihrer Online-Konten und stellen Sie sicher, dass sie auf das höchste Schutzniveau eingestellt sind. Schränken Sie die Sichtbarkeit von persönlichen Informationen und Beiträgen auf vertrauenswürdige Freunde oder Verbindungen ein. Navigieren Sie beispielsweise auf Social-Media-Plattformen wie Facebook zu den Datenschutzeinstellungen und legen Sie fest, wer Ihr Profil, Ihre Beiträge und Ihre persönlichen Informationen sehen kann.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für alle Ihre Online-Konten, wann immer möglich. 2FA bietet eine zusätzliche Sicherheitsebene, da für den Zugriff auf Ihre Konten ein zusätzlicher Verifizierungsschritt erforderlich ist, in der Regel über ein mobiles Gerät. Dienste wie Google, Facebook und Twitter bieten 2FA-Optionen an. Aktivieren Sie sie, indem Sie die Anweisungen der jeweiligen Plattformen befolgen.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für alle Ihre Online-Konten, wann immer möglich. 2FA bietet eine zusätzliche Sicherheitsebene, da für den Zugriff auf Ihre Konten ein zusätzlicher Verifizierungsschritt erforderlich ist, in der Regel über ein mobiles Gerät. Dienste wie Google, Facebook und Twitter bieten 2FA-Optionen an. Aktivieren Sie sie, indem Sie die Anweisungen der jeweiligen Plattformen befolgen.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-erstellen. [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) für jedes Ihrer Online-Konten. **Vermeiden Sie die Verwendung allgemeiner Passwörter oder die Wiederverwendung von Passwörtern auf mehreren Plattformen.** Erwägen Sie die Verwendung eines **Passwortmanagers**, um Ihre Passwörter sicher zu speichern und zu verwalten. Passwort-Manager wie LastPass, Dashlane oder 1Password erstellen und speichern komplexe Passwörter für Sie.
+erstellen. [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für jedes Ihrer Online-Konten. **Vermeiden Sie die Verwendung allgemeiner Passwörter oder die Wiederverwendung von Passwörtern auf mehreren Plattformen.** Erwägen Sie die Verwendung eines **Passwortmanagers**, um Ihre Passwörter sicher zu speichern und zu verwalten. Passwort-Manager wie LastPass, Dashlane oder 1Password erstellen und speichern komplexe Passwörter für Sie.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) auf öffentlichen Plattformen oder mit unbekannten Personen. Seien Sie **vorsichtig**, wenn Sie Online-Formulare ausfüllen oder sich mit Fremden unterhalten. Überprüfen Sie die Legitimität und Sicherheit von Websites oder Plattformen, bevor Sie persönliche Daten angeben. Geben Sie zum Beispiel **nicht Ihre vollständige Adresse oder Telefonnummer** in öffentlichen Foren oder Online-Communities an.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) auf öffentlichen Plattformen oder mit unbekannten Personen. Seien Sie **vorsichtig**, wenn Sie Online-Formulare ausfüllen oder sich mit Fremden unterhalten. Überprüfen Sie die Legitimität und Sicherheit von Websites oder Plattformen, bevor Sie persönliche Daten angeben. Geben Sie zum Beispiel **nicht Ihre vollständige Adresse oder Telefonnummer** in öffentlichen Foren oder Online-Communities an.
 
 #### e. Aktualisieren Sie regelmäßig Ihre Software und verwenden Sie einen Virenschutz.
 

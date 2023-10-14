@@ -50,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um ein sicheres und stabiles VPN für Ih
 
 1. **Wählen Sie eine VPN-Lösung**: Wählen Sie auf der Grundlage der oben genannten Faktoren eine VPN-Lösung aus, die den Anforderungen Ihres Unternehmens am besten entspricht.
 2. **Konfigurieren Sie den VPN-Server**: Richten Sie einen dedizierten VPN-Server in Ihrem Unternehmen ein oder entscheiden Sie sich für eine Cloud-basierte Lösung. Konfigurieren Sie den Server entsprechend den Sicherheitsrichtlinien und -anforderungen Ihres Unternehmens.
-3. **Authentifizierung einrichten**: Implementieren Sie eine starke Authentifizierungsmethode, wie z. B. [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um sicherzustellen, dass nur autorisierte Mitarbeiter auf das VPN zugreifen können.
+3. **Authentifizierung einrichten**: Implementieren Sie eine starke Authentifizierungsmethode, wie z. B. [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um sicherzustellen, dass nur autorisierte Mitarbeiter auf das VPN zugreifen können.
 4. **Vertreiben Sie die VPN-Client-Software**: Stellen Sie Ihren Außendienstmitarbeitern die erforderliche VPN-Client-Software und Konfigurationsdateien für den Zugang zum VPN zur Verfügung.
 
 ______
@@ -81,7 +81,7 @@ ______
 Um die erfolgreiche Implementierung Ihrer VPN-Lösung zu gewährleisten, sollten Sie Ihren Mitarbeitern an entfernten Standorten die notwendige Schulung und Unterstützung zukommen lassen, damit sie das VPN effektiv und sicher nutzen können. Einige wichtige Themen, die behandelt werden sollten, sind:
 
 - **Einrichten und Verbinden mit dem VPN**: Geben Sie klare Anweisungen zur Installation der VPN-Client-Software, zur Konfiguration der Einstellungen und zur Verbindung mit dem VPN.
-- **Bewährte Sicherheitspraktiken**: Klären Sie Ihre Mitarbeiter darüber auf, wie wichtig es ist, sichere und eindeutige Passwörter zu verwenden und die [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) und die Sicherheit ihrer Geräte zu gewährleisten.
+- **Bewährte Sicherheitspraktiken**: Klären Sie Ihre Mitarbeiter darüber auf, wie wichtig es ist, sichere und eindeutige Passwörter zu verwenden und die [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) und die Sicherheit ihrer Geräte zu gewährleisten.
 - **Fehlerbehebung**: Bieten Sie eine Anleitung zur Lösung gängiger VPN-Verbindungsprobleme und geben Sie an, an wen Sie sich für technischen Support wenden können.
 
 ______

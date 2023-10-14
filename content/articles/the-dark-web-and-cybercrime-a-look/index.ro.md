@@ -50,17 +50,17 @@ Este demn de remarcat faptul că potențialul web-ului întunecat în scopuri ju
 
 Protejarea împotriva dark web și a criminalității cibernetice necesită măsuri proactive pentru a reduce riscurile. Iată câțiva pași esențiali pentru a vă proteja:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Fiți prudenți atunci când împărtășiți informații personale online, evitând să furnizați detalii sensibile unor surse necunoscute sau de neîncredere. Protejați-vă numele, adresa, numărul de asigurare socială și alte date de identificare personală.
+[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Fiți prudenți atunci când împărtășiți informații personale online, evitând să furnizați detalii sensibile unor surse necunoscute sau de neîncredere. Protejați-vă numele, adresa, numărul de asigurare socială și alte date de identificare personală.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Folosiți parole puternice și unice pentru toate conturile dvs. online. Evitați reutilizarea parolelor pe mai multe platforme pentru a preveni accesul neautorizat în cazul unei încălcări a datelor.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Folosiți parole puternice și unice pentru toate conturile dvs. online. Evitați reutilizarea parolelor pe mai multe platforme pentru a preveni accesul neautorizat în cazul unei încălcări a datelor.
 
-[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Actualizați-vă în mod regulat software-ul, inclusiv sistemele de operare, browserele web și programele antivirus. Aceste actualizări conțin adesea patch-uri de securitate care abordează vulnerabilitățile și protejează împotriva amenințărilor cibernetice emergente.
+[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Actualizați-vă în mod regulat software-ul, inclusiv sistemele de operare, browserele web și programele antivirus. Aceste actualizări conțin adesea patch-uri de securitate care abordează vulnerabilitățile și protejează împotriva amenințărilor cibernetice emergente.
 
 **4. Practicați obiceiuri de navigare în siguranță:** Fiți perspicace cu privire la site-urile web pe care le vizitați, abținându-vă să dați clic pe link-urile din e-mailuri sau pe site-uri web necunoscute. Rămâneți la surse de încredere și verificați legitimitatea site-urilor web înainte de a împărtăși orice informații personale sau financiare.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Folosiți firewall-uri pentru a controla traficul de intrare și de ieșire din rețea și implementați un software antivirus fiabil pentru a detecta și elimina programele malware sau activitățile suspecte de pe dispozitivele dumneavoastră.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Folosiți firewall-uri pentru a controla traficul de intrare și de ieșire din rețea și implementați un software antivirus fiabil pentru a detecta și elimina programele malware sau activitățile suspecte de pe dispozitivele dumneavoastră.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Creați în mod regulat copii de rezervă ale datelor și fișierelor importante. Acest lucru vă asigură că, chiar dacă computerul dvs. este compromis sau dacă datele dvs. sunt furate, vă puteți restaura informațiile și puteți minimiza impactul potențialelor atacuri cibernetice.
+[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Creați în mod regulat copii de rezervă ale datelor și fișierelor importante. Acest lucru vă asigură că, chiar dacă computerul dvs. este compromis sau dacă datele dvs. sunt furate, vă puteți restaura informațiile și puteți minimiza impactul potențialelor atacuri cibernetice.
 
 ## Reglementări și inițiative guvernamentale
 

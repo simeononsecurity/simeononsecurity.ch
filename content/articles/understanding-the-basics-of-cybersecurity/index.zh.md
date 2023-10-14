@@ -89,7 +89,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 以下是确保您免受网络威胁的一些关键最佳做法：
 
-#### [Creating Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Creating Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 **强大的密码**是防止密码攻击的关键。每个账户的密码都应**长、复杂且唯一**。一个强大的密码应包含**大写和小写字母、数字和符号**的组合。避免使用常用单词或短语，以及姓名或出生日期等个人信息。
 
@@ -101,7 +101,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 此外，还建议尽可能启用**自动更新**，以确保您始终运行最新版本的软件。
 
-#### [Implementing Multi-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### [Implementing Multi-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 **多因素身份验证**增加了一个额外的安全层，要求用户不仅要输入密码，还要提供第二种身份验证形式，如指纹或安全令牌。这有助于防止未经授权访问您的账户，即使您的密码被泄露。
 
@@ -109,7 +109,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 #### 安全浏览习惯
 
-谨慎对待访问的网站、点击的链接以及在线共享的信息，有助于防止以下情况发生 [**social engineering attacks**](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)或**虚假网站**，诱骗用户泄露敏感信息或下载恶意软件。
+谨慎对待访问的网站、点击的链接以及在线共享的信息，有助于防止以下情况发生 [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)或**虚假网站**，诱骗用户泄露敏感信息或下载恶意软件。
 
 建议只访问值得信赖的网站，避免点击可疑链接或弹出窗口，除非确定网站合法，否则切勿在网上分享个人或财务信息。
 
@@ -119,7 +119,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 **加密**通过保护敏感数据免遭未经授权的访问，在网络安全中发挥着至关重要的作用。加密是将数据转换为代码的过程，只有使用正确的密钥或密码才能破译。
 
-#### [What is Encryption?](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+#### [What is Encryption?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
 
 **加密**是一种安全通信技术，包括使用算法和密钥将明文数据转换为密文。
 
@@ -151,7 +151,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 制定**网络安全计划**对于识别和降低**网络风险**至关重要。该计划应包括**数据保护**、**事故响应**和**员工培训**的政策和程序。
 
-#### [Employee Training and Awareness](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
+#### [Employee Training and Awareness](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
 
 对员工进行**网络安全最佳实践**的培训，对于降低**人为错误**的风险，确保组织中的每个人在网络安全方面都站在同一起跑线上至关重要。
 
@@ -159,7 +159,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 定期**安全审计**对于识别漏洞和确保组织的网络安全措施有效非常重要。这些审计应由外部**第三方**进行。
 
-### [The Future of Cybersecurity](https://simeononsecurity.ch/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
+### [The Future of Cybersecurity](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
 
 网络安全世界在不断演变，要防范最新威胁，就必须走在时代前沿。
 
@@ -167,11 +167,11 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 物联网（IoT）**和人工智能（AI）**等新技术正在为**网络攻击**创造新的机会。必须随时了解**新出现的威胁**和技术，以防范这些威胁。
 
-#### [The Role of Artificial Intelligence](https://simeononsecurity.ch/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
+#### [The Role of Artificial Intelligence](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
 
 **人工智能**既可用于攻击网络威胁，也可用于防御网络威胁。人工智能驱动的检测和响应系统可帮助实时识别和缓解威胁。
 
-#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.ch/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
+#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
 
 **网络威胁**具有全球性，需要国际合作来应对。有效的**网络安全**需要政府、企业和个人之间的**合作和**信息共享。
 

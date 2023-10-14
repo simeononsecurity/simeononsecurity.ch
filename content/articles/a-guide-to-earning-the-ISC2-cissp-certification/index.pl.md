@@ -51,7 +51,7 @@ Istnieją różne materiały do nauki dostępne dla kandydatów, takie jak podr�
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
 
 ### Krok 4: Ćwicz z egzaminami praktycznymi
 

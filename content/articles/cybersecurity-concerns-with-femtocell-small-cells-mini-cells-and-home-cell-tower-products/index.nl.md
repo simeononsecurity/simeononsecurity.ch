@@ -36,9 +36,9 @@ Eindgebruikers kunnen zich op verschillende manieren beschermen tegen femtocell-
 
 3. **Bewaak de activiteit van uw mobiele apparaat**: Controleer regelmatig de activiteit van uw mobiele apparaat en bekijk uw factuuroverzichten om verdachte activiteiten op te sporen.
 
-4. **Neem contact op met uw mobiele provider**: Als u vermoedt dat uw mobiele apparaat of netwerk is aangetast, neem dan onmiddellijk contact op met uw mobiele provider om het probleem te melden en hulp te vragen. We hebben nog meer advies over wat u moet doen als u vermoedt dat u bent gecompromitteerd[here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+4. **Neem contact op met uw mobiele provider**: Als u vermoedt dat uw mobiele apparaat of netwerk is aangetast, neem dan onmiddellijk contact op met uw mobiele provider om het probleem te melden en hulp te vragen. We hebben nog meer advies over wat u moet doen als u vermoedt dat u bent gecompromitteerd[here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
-5. **Gebruik veilige boodschappers en spraaktoepassingen**: Indien mogelijk zou u toepassingen zoals Signal, Wickr, of Wire moeten gebruiken. We bespreken dit meer in detail[here](https://simeononsecurity.ch/recommendations/messengers/)
+5. **Gebruik veilige boodschappers en spraaktoepassingen**: Indien mogelijk zou u toepassingen zoals Signal, Wickr, of Wire moeten gebruiken. We bespreken dit meer in detail[here](https://simeononsecurity.com/recommendations/messengers/)
 
 ## Conclusie
 

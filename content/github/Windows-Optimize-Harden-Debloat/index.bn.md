@@ -175,7 +175,7 @@ Windows 10 এবং Windows 11 আক্রমণাত্মক এবং অ�
 ### GUI - নির্দেশিত ইনস্টল:
 
 সর্বশেষ রিলিজ ডাউনলোড করুন[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)আপনি যে বিকল্পগুলি চান তা চয়ন করুন এবং কার্যকর করুন। <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Windows-Optimize-Harden-Debloat GUI-ভিত্তিক নির্দেশিত ইনস্টলের উদাহরণ"> ### স্বয়ংক্রিয় ইনস্টল: স্বয়ংক্রিয়ভাবে ডাউনলোড করতে, সমস্ত সমর্থনকারী ফাইল আনজিপ করতে এবং স্ক্রিপ্টের সর্বশেষ সংস্করণ চালাতে এই ওয়ান-লাইনারটি ব্যবহার করুন।```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

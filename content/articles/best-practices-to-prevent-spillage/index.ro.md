@@ -30,14 +30,14 @@ Pentru a proteja informațiile sensibile sau clasificate, organizațiile ar treb
 Controlul accesului la informații este crucial pentru a preveni scurgerile neautorizate. Implementați următoarele măsuri:
 
 - **Controlul accesului bazat pe roluri**: Atribuiți drepturi de acces pe baza rolurilor și responsabilităților profesionale pentru a vă asigura că numai persoanele autorizate au acces la informații sensibile.
-- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Solicitați mai mulți factori de autentificare, cum ar fi parolele și datele biometrice, pentru a spori securitatea acreditărilor de acces.
+- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Solicitați mai mulți factori de autentificare, cum ar fi parolele și datele biometrice, pentru a spori securitatea acreditărilor de acces.
 - **Revizuiri periodice ale accesului**: Efectuați revizuiri periodice pentru a vă asigura că privilegiile de acces sunt la zi și revocați prompt accesul persoanelor care nu mai au nevoie de el.
 
 ### 2. Criptarea informațiilor sensibile
 
 Criptarea oferă un nivel suplimentar de securitate pentru a proteja datele sensibile de accesul neautorizat. Luați în considerare următoarele practici:
 
-- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Să pună în aplicare mecanisme de criptare care să protejeze informațiile pe tot parcursul ciclului de viață al acestora, de la stocare la transmitere.
+- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Să pună în aplicare mecanisme de criptare care să protejeze informațiile pe tot parcursul ciclului de viață al acestora, de la stocare la transmitere.
 - **Clasificarea datelor**: Clasificați informațiile în funcție de nivelul de sensibilitate și aplicați măsuri de criptare corespunzătoare.
 - **Managementul cheilor**: Stabiliți practici solide de gestionare a cheilor pentru a vă asigura că cheile de criptare sunt stocate în mod corespunzător, protejate și rotite în mod regulat.
 
@@ -45,8 +45,8 @@ Criptarea oferă un nivel suplimentar de securitate pentru a proteja datele sens
 
 Investiția în formarea și conștientizarea angajaților este crucială pentru a preveni scurgerea informațiilor. Iată ce puteți face:
 
-- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Organizați sesiuni de formare periodice pentru a educa angajații cu privire la cele mai bune practici de securitate a informațiilor, inclusiv riscurile de scurgere a informațiilor.
-- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Instruiți angajații să recunoască și să raporteze tentativele de phishing, care sunt adesea folosite ca mijloc de a obține acces neautorizat la informații sensibile.
+- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Organizați sesiuni de formare periodice pentru a educa angajații cu privire la cele mai bune practici de securitate a informațiilor, inclusiv riscurile de scurgere a informațiilor.
+- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Instruiți angajații să recunoască și să raporteze tentativele de phishing, care sunt adesea folosite ca mijloc de a obține acces neautorizat la informații sensibile.
 - **Proceduri de raportare**: Stabiliți proceduri clare de raportare a potențialelor incidente de securitate sau a activităților suspecte către autoritățile competente.
 
 ### 4. Implementarea soluțiilor de prevenire a pierderii de date (DLP)
@@ -80,7 +80,7 @@ ______
 ## Referințe
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

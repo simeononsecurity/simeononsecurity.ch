@@ -56,9 +56,9 @@ ______
 
 Voici quelques **conseils** supplémentaires pour améliorer la protection de votre vie privée et votre sécurité sur les médias sociaux :
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Créez des mots de passe forts pour vos comptes de médias sociaux et évitez de les réutiliser sur plusieurs plateformes. Envisagez d'utiliser un gestionnaire de mots de passe pour stocker et générer des mots de passe complexes en toute sécurité.
+1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Créez des mots de passe forts pour vos comptes de médias sociaux et évitez de les réutiliser sur plusieurs plateformes. Envisagez d'utiliser un gestionnaire de mots de passe pour stocker et générer des mots de passe complexes en toute sécurité.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) dans la mesure du possible. Cela ajoute une couche supplémentaire de sécurité en demandant un code de vérification en plus de votre mot de passe lors de la connexion.
+2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) dans la mesure du possible. Cela ajoute une couche supplémentaire de sécurité en demandant un code de vérification en plus de votre mot de passe lors de la connexion.
 
 3. **Passez régulièrement en revue votre liste d'amis et d'adeptes** : Passez régulièrement en revue votre liste d'amis et d'adeptes pour vous assurer que vous n'êtes en contact qu'avec des personnes que vous connaissez et en qui vous avez confiance.
 

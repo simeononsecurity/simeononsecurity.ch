@@ -27,7 +27,7 @@ PawnsApp 与其他通过共享网络连接向您支付报酬的平台类似。�
 
 #### 2.安装 Docker
 
-学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 3.创建账户后，请按照以下说明安装 PawnsApp 的 Docker 容器：
 
@@ -55,7 +55,7 @@ PawnsApp 提供了一个绝佳的机会，让您通过共享互联网连接和�
 
 今天就开始您的 PawnsApp 之旅，发掘轻松赚钱的潜力！
 
-安装完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+安装完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 #### 参考资料
 - [PawnsApp](https://pawns.app/?r=2092882)

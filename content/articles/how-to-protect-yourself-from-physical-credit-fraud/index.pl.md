@@ -44,7 +44,7 @@ Aby uchronić się przed tego typu oszustwem:
 
 ### Dodatkowa wskazówka: Rozważ portfele z blokadą RFID
 
-Aby się zabezpieczyć, zaopatrz się w prawdziwy **portfel blokujący RFID**.[Silent pocket](https://amzn.to/421J6o6) to jedyna rekomendowana marka. Większość portfeli "RFID Blocking" to kompletne oszustwo. Simeononsecurity.ch osobiście przetestował setki portfeli i rzekomych urządzeń blokujących rfid. Silent pocket jest legalny.
+Aby się zabezpieczyć, zaopatrz się w prawdziwy **portfel blokujący RFID**.[Silent pocket](https://amzn.to/421J6o6) to jedyna rekomendowana marka. Większość portfeli "RFID Blocking" to kompletne oszustwo. simeononsecurity.com osobiście przetestował setki portfeli i rzekomych urządzeń blokujących rfid. Silent pocket jest legalny.
 
 ## Chip Technology
 

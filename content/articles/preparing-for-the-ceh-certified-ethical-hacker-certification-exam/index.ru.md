@@ -57,8 +57,8 @@ coverCaption: "Готовьтесь, упорствуйте, добивайте�
   - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### Фокусировка на слабых местах
 
@@ -90,7 +90,7 @@ coverCaption: "Готовьтесь, упорствуйте, добивайте�
 
 Поэтому обязательно изучите сайт **EC-Council** и другие авторитетные **онлайн-платформы**, чтобы получить доступ к разнообразным **тренировочным экзаменам CEH**, которые повысят вашу готовность к экзамену и будут способствовать вашему успеху.
 
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### Присоединяйтесь к учебным группам
 

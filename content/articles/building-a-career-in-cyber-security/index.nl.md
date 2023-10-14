@@ -31,11 +31,11 @@ Een **master's degree** in cyberbeveiliging biedt geavanceerde kennis en special
 ### Certificaten
 Naast formeel onderwijs kan het behalen van relevante certificeringen uw geloofwaardigheid en verkoopbaarheid op het gebied van cyberbeveiliging aanzienlijk vergroten. Hier zijn enkele algemeen erkende certificeringen:
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) Deze wereldwijd erkende certificering valideert uw expertise in het ontwerpen, implementeren en beheren van een cyberbeveiligingsprogramma op bedrijfsniveau.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Deze certificering toont uw kennis van hackingtechnieken aan en helpt organisaties kwetsbaarheden in hun systemen te identificeren.
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Dit instapcertificaat omvat de basiskennis en -vaardigheden die nodig zijn om netwerken en systemen te beveiligen.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) Deze wereldwijd erkende certificering valideert uw expertise in het ontwerpen, implementeren en beheren van een cyberbeveiligingsprogramma op bedrijfsniveau.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Deze certificering toont uw kennis van hackingtechnieken aan en helpt organisaties kwetsbaarheden in hun systemen te identificeren.
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Dit instapcertificaat omvat de basiskennis en -vaardigheden die nodig zijn om netwerken en systemen te beveiligen.
 
-Meer informatie over [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
+Meer informatie over [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
 
 ______
 

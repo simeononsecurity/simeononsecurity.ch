@@ -63,7 +63,7 @@ ______
 
 Cyberbezpieczeństwo to stale rozwijająca się dziedzina, a bycie na bieżąco z najnowszymi trendami i zagrożeniami ma kluczowe znaczenie dla profesjonalistów w tej dziedzinie. Oto kilka sposobów na bycie na bieżąco:
 
-- **Blogi i strony internetowe**: Śledź renomowane blogi i strony internetowe poświęcone cyberbezpieczeństwu, takie jak [SimeonOnSecurity.ch](https://www.simeononsecurity.ch/) które dostarczają wnikliwych artykułów i analiz najnowszych zagrożeń i trendów cybernetycznych.
+- **Blogi i strony internetowe**: Śledź renomowane blogi i strony internetowe poświęcone cyberbezpieczeństwu, takie jak [simeononsecurity.com](https://www.simeononsecurity.com/) które dostarczają wnikliwych artykułów i analiz najnowszych zagrożeń i trendów cybernetycznych.
 - **Konferencje i wydarzenia branżowe**: Bierz udział w konferencjach i wydarzeniach związanych z cyberbezpieczeństwem, aby uczyć się od ekspertów branżowych i nawiązywać kontakty z rówieśnikami.
 - **Zrzeszenia zawodowe**: Dołącz do profesjonalnych stowarzyszeń i społeczności, takich jak Information Systems Security Association (ISSA) lub International Information System Security Certification Consortium (ISC)², które oferują zasoby, certyfikaty i możliwości nawiązywania kontaktów.
 - **Ciągła nauka**: Zaangażuj się w ciągłe uczenie się poprzez kursy online, webinaria i programy certyfikacyjne, aby poszerzyć swoją wiedzę i umiejętności.
@@ -109,6 +109,6 @@ ______
 
 ## Referencje:
 
-1. [SimeonOnSecurity.ch - Cybersecurity Blog](https://www.simeononsecurity.ch/)
+1. [simeononsecurity.com - Cybersecurity Blog](https://www.simeononsecurity.com/)
 2. [Information Systems Security Association (ISSA)](https://www.issa.org/)
 3. [International Information System Security Certification Consortium (ISC)²](https://www.isc2.org/)

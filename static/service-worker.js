@@ -73,7 +73,7 @@ self.addEventListener('fetch', function (event) {
 // let stoprss = false;
 
 // const fetchRss = async () => {
-//     const rssUrl = 'https://simeononsecurity.ch/rss.xml';
+//     const rssUrl = 'https://simeononsecurity.com/rss.xml';
 //     let parser;
 //     if (typeof window !== "undefined" && typeof window.DOMParser !== "undefined") {
 //         parser = new window.DOMParser();

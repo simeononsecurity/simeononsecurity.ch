@@ -99,7 +99,7 @@ Get-ChildItem -Recurse *.ps1 | Unblock-File
 ### Installation automatisée :
 Le script peut être lancé à partir du téléchargement GitHub extrait comme suit :
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'))
 ```
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Exemple d'installation automatique de
 Windows-Optimize-Harden-Debloat installation automatique">

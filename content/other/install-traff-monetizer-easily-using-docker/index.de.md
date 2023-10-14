@@ -22,7 +22,7 @@ Um loszulegen, erstellen Sie ein Konto bei [traffmonetizer.com](https://traffmon
 ### Installieren Sie den Docker-Container
 Folgen Sie diesen Schritten, um den Traff Monetizer Docker-Container zu installieren:
 
-0. Lernen Sie [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Lernen Sie [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Kopieren Sie die folgende Zeichenfolge und fügen Sie das vom Dashboard erhaltene Token hinzu:
 ```bash
@@ -36,7 +36,7 @@ Ausführlichere Anweisungen finden Sie in der [Traff Monetizer documentation](ht
 
 Durch die Installation von Traff Monetizer und die Freigabe Ihres Internets haben Sie die Möglichkeit, online Geld zu verdienen. Mit einem durchschnittlichen monatlichen Verdienst von ca. $2 pro Node pro IP stellt es eine potentielle Einkommensquelle dar. Bitte beachten Sie, dass Auszahlungen nur in BTC möglich sind. Beginnen Sie noch heute, Ihre Internetverbindung zu monetarisieren!
 
-Sobald Sie fertig sind, sollten Sie [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+Sobald Sie fertig sind, sollten Sie [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Referenz
 

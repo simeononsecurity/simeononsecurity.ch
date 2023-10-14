@@ -27,15 +27,15 @@ La defensa contra los ataques de ingeniería social requiere una combinación de
 
 ### 1. Educación y concienciación
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) son la primera línea de defensa contra los ataques de ingeniería social. Las personas deben recibir formación para reconocer los signos de un ataque de ingeniería social y tomar las medidas adecuadas. Esto incluye desconfiar de solicitudes de información no solicitadas, verificar la identidad de las personas antes de divulgar información sensible e informar de cualquier actividad sospechosa al personal de TI o de seguridad.
+[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) son la primera línea de defensa contra los ataques de ingeniería social. Las personas deben recibir formación para reconocer los signos de un ataque de ingeniería social y tomar las medidas adecuadas. Esto incluye desconfiar de solicitudes de información no solicitadas, verificar la identidad de las personas antes de divulgar información sensible e informar de cualquier actividad sospechosa al personal de TI o de seguridad.
 
 ### 2. Contraseñas seguras y autenticación multifactor
 
-Utilizar [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) e implementar la **autenticación multifactor** puede ayudar a prevenir los ataques de ingeniería social que se basan en adivinar contraseñas o en ataques de fuerza bruta. Las contraseñas seguras deben tener al menos 12 caracteres e incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. La autenticación multifactor añade una capa adicional de seguridad al exigir a los usuarios que proporcionen una prueba adicional de identidad más allá de una simple contraseña.
+Utilizar [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) e implementar la **autenticación multifactor** puede ayudar a prevenir los ataques de ingeniería social que se basan en adivinar contraseñas o en ataques de fuerza bruta. Las contraseñas seguras deben tener al menos 12 caracteres e incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. La autenticación multifactor añade una capa adicional de seguridad al exigir a los usuarios que proporcionen una prueba adicional de identidad más allá de una simple contraseña.
 
 ### 3. Correo electrónico y navegación web seguros
 
-[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) puede ayudar a prevenir los ataques de ingeniería social que se basan en estafas de phishing u otras formas de contenido malicioso. Esto incluye utilizar filtros de spam para bloquear correos electrónicos no solicitados, evitar hacer clic en enlaces o descargar archivos adjuntos de fuentes desconocidas y utilizar filtros web para bloquear el acceso a sitios web maliciosos conocidos.
+[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) puede ayudar a prevenir los ataques de ingeniería social que se basan en estafas de phishing u otras formas de contenido malicioso. Esto incluye utilizar filtros de spam para bloquear correos electrónicos no solicitados, evitar hacer clic en enlaces o descargar archivos adjuntos de fuentes desconocidas y utilizar filtros web para bloquear el acceso a sitios web maliciosos conocidos.
 
 ### 4. Actualizaciones y parches de seguridad periódicos
 

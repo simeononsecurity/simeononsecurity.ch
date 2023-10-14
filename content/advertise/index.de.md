@@ -12,7 +12,7 @@ Vielen Dank für Ihr Interesse an einer Werbung bei SimeonOnSecurity! Wir bieten
 
 Bilder sollten entweder in den folgenden Formaten bereitgestellt werden `.png` oder `.webp` Format, um optimale Leistung und Qualität für Ihre Anzeigen zu gewährleisten.
 
-Um bei uns zu werben, senden Sie uns bitte eine Nachricht über unser Kontaktformular auf [Contact Us](https://simeononsecurity.ch/contactus/) Wir werden uns umgehend mit Ihnen in Verbindung setzen, um die verfügbaren Werbemöglichkeiten und Preise zu besprechen.
+Um bei uns zu werben, senden Sie uns bitte eine Nachricht über unser Kontaktformular auf [Contact Us](https://simeononsecurity.com/contactus/) Wir werden uns umgehend mit Ihnen in Verbindung setzen, um die verfügbaren Werbemöglichkeiten und Preise zu besprechen.
 
 Wir freuen uns darauf, mit Ihnen zusammenzuarbeiten, um Ihre Marke zu bewerben und unser engagiertes Publikum von Sicherheitsenthusiasten und -profis zu erreichen!
 

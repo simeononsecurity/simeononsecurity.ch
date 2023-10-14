@@ -84,7 +84,7 @@ Systemy autonomiczne są jednymi z najtrudniejszych i najbardziej irytujących s
 ### Automated Install:
 Skrypt można uruchomić z rozpakowanego pliku do pobrania z GitHuba w ten sposób:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/standalonewindows.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/standalonewindows.ps1'))
 ```
 
 ### Manual Install:

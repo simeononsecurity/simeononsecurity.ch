@@ -27,15 +27,15 @@ Apărarea împotriva atacurilor de inginerie socială necesită o combinație de
 
 ### 1. Educație și conștientizare
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) reprezintă prima linie de apărare împotriva atacurilor de inginerie socială. Persoanele ar trebui să fie instruite să recunoască semnele unui atac de inginerie socială și să ia măsurile adecvate. Acest lucru include să se ferească de solicitările nesolicitate de informații, să verifice identitatea persoanelor înainte de a divulga informații sensibile și să raporteze orice activitate suspectă personalului IT sau de securitate.
+[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) reprezintă prima linie de apărare împotriva atacurilor de inginerie socială. Persoanele ar trebui să fie instruite să recunoască semnele unui atac de inginerie socială și să ia măsurile adecvate. Acest lucru include să se ferească de solicitările nesolicitate de informații, să verifice identitatea persoanelor înainte de a divulga informații sensibile și să raporteze orice activitate suspectă personalului IT sau de securitate.
 
 ### 2. Parole puternice și autentificare multifactorială
 
-Utilizarea [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) și punerea în aplicare a **autentificării cu mai mulți factori** poate ajuta la prevenirea atacurilor de inginerie socială care se bazează pe ghicirea parolei sau pe atacuri prin forță brută. Parolele puternice trebuie să aibă cel puțin 12 caractere și să includă un amestec de litere majuscule și minuscule, numere și caractere speciale. Autentificarea multifactorială adaugă un nivel suplimentar de securitate, solicitând utilizatorilor să furnizeze dovezi suplimentare de identitate, pe lângă o simplă parolă.
+Utilizarea [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) și punerea în aplicare a **autentificării cu mai mulți factori** poate ajuta la prevenirea atacurilor de inginerie socială care se bazează pe ghicirea parolei sau pe atacuri prin forță brută. Parolele puternice trebuie să aibă cel puțin 12 caractere și să includă un amestec de litere majuscule și minuscule, numere și caractere speciale. Autentificarea multifactorială adaugă un nivel suplimentar de securitate, solicitând utilizatorilor să furnizeze dovezi suplimentare de identitate, pe lângă o simplă parolă.
 
 ### 3. Securizarea e-mailului și a navigării pe web
 
-[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) poate ajuta la prevenirea atacurilor de inginerie socială care se bazează pe înșelăciuni de tip phishing sau pe alte forme de conținut malițios. Printre acestea se numără utilizarea filtrelor de spam pentru a bloca e-mailurile nesolicitate, evitarea clicului pe linkuri sau descărcarea de atașamente din surse necunoscute și utilizarea filtrelor web pentru a bloca accesul la site-uri web cunoscute ca fiind rău intenționate.
+[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) poate ajuta la prevenirea atacurilor de inginerie socială care se bazează pe înșelăciuni de tip phishing sau pe alte forme de conținut malițios. Printre acestea se numără utilizarea filtrelor de spam pentru a bloca e-mailurile nesolicitate, evitarea clicului pe linkuri sau descărcarea de atașamente din surse necunoscute și utilizarea filtrelor web pentru a bloca accesul la site-uri web cunoscute ca fiind rău intenționate.
 
 ### 4. Actualizări și patch-uri de securitate regulate
 
