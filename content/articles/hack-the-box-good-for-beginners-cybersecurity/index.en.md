@@ -50,9 +50,9 @@ Realizing the need to cater to beginners, Hack The Box has introduced [**Hack Th
 
 ______
 
-## Alternative for Beginners: [TryHackMe](https://tryhackme.com/)
+## Alternative for Beginners: [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 
-Another excellent option for beginners in the cybersecurity and IT domains is [**TryHackMe**](https://tryhackme.com/). This platform is specifically designed for newcomers, offering a more accessible entry point into the world of cybersecurity.
+Another excellent option for beginners in the cybersecurity and IT domains is [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56). This platform is specifically designed for newcomers, offering a more accessible entry point into the world of cybersecurity.
 
 ### Advantages of TryHackMe
 
@@ -69,7 +69,7 @@ ______
 
 While Hack The Box is undoubtedly an exceptional platform for experienced individuals looking to enhance their cybersecurity skills, it may not be the best choice for beginners. The platform's advanced difficulty level and lack of structured learning resources can deter newcomers and hinder their progress.
 
-For beginners in the cybersecurity and IT fields, I recommend exploring [**Hack The Box Academy**](https://academy.hackthebox.com/) or [**TryHackMe**](https://tryhackme.com/) instead. These platforms offer guided learning paths, interactive labs, and a supportive community, making them more suitable for individuals who are just starting their journey in cybersecurity.
+For beginners in the cybersecurity and IT fields, I recommend exploring [**Hack The Box Academy**](https://academy.hackthebox.com/) or [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) instead. These platforms offer guided learning paths, interactive labs, and a supportive community, making them more suitable for individuals who are just starting their journey in cybersecurity.
 
 Remember, a strong foundation is crucial, so choose the platform that aligns with your skill level and helps you grow as a cybersecurity professional.
 
@@ -78,4 +78,4 @@ ______
 ## References
 
 1. Hack The Box Academy. (https://academy.hackthebox.com/)
-2. TryHackMe. (https://tryhackme.com/)
+2. TryHackMe. (https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)

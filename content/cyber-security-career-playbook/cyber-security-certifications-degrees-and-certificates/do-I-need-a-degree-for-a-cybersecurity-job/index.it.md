@@ -66,5 +66,5 @@ Sebbene una laurea in cybersecurity o una specializzazione pertinente possa forn
 2. Istituto SANS. [SANS Cyber Aces Online](https://www.cyberaces.org/)
 3. CompTIA. [CompTIA Security+ Certification](https://www.comptia.org/certifications/security)
 4. Cibrario. [Cybrary - Free Online Cyber Security Training, Forever | Start Today](https://www.cybrary.it/)
-5. TryHackMe. [Learn Cybersecurity with our Hands-On, Gamified Learning Platform | TryHackMe](https://tryhackme.com/)
+5. TryHackMe. [Learn Cybersecurity with our Hands-On, Gamified Learning Platform | TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 

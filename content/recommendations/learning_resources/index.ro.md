@@ -28,7 +28,7 @@ Pentru cei interesați de securitatea cibernetică, există mai multe resurse di
 - [**Immersive Labs**](https://www.immersivelabs.com/) Această platformă oferă gratuit laboratoare de securitate cibernetică, fiind disponibile și oferte cu plată. Gratuit pentru studenții activi.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Această platformă oferă gratuit laboratoare de securitate cibernetică, fiind disponibile și oferte cu plată.
 - [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/) fiind disponibile și oferte cu plată.
-- [**TryHackMe**](https://tryhackme.com/) Această platformă oferă provocări CTF ghidate, cu opțiunea de abonament plătit.
+- [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) Această platformă oferă provocări CTF ghidate, cu opțiunea de abonament plătit.
 
 ## Networking:
 

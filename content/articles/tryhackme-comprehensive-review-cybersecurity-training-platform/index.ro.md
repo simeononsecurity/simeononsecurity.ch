@@ -12,7 +12,7 @@ coverCaption: "Împuternicește-te cu TryHackMe: Eliberează-ți superputerile d
 ---
  Introducere
 
-Odată cu creșterea cererii de **competențe în domeniul securității cibernetice**, platforme precum [**TryHackMe**](https://tryhackme.com/) au câștigat o popularitate semnificativă atât în rândul hackerilor aspiranți, cât și în rândul celor cu experiență. **TryHackMe** este o platformă online care oferă o experiență de învățare practică pentru pasionații de securitate cibernetică. În acest articol, vom explora TryHackMe în detaliu, acoperind diverse aspecte, cum ar fi caracteristicile sale, prețurile, certificările și serviciile de rețea, printre altele.
+Odată cu creșterea cererii de **competențe în domeniul securității cibernetice**, platforme precum [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) au câștigat o popularitate semnificativă atât în rândul hackerilor aspiranți, cât și în rândul celor cu experiență. **TryHackMe** este o platformă online care oferă o experiență de învățare practică pentru pasionații de securitate cibernetică. În acest articol, vom explora TryHackMe în detaliu, acoperind diverse aspecte, cum ar fi caracteristicile sale, prețurile, certificările și serviciile de rețea, printre altele.
 
 ## Ce este TryHackMe?
 
@@ -78,7 +78,7 @@ ______
 
 ## Referințe
 
-1. [TryHackMe](https://tryhackme.com)
+1. [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 3. [Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network)
 4. [Active Directory Basics](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)

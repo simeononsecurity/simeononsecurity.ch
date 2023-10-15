@@ -12,7 +12,7 @@ coverCaption: "TryHackMeで自分を強化：サイバーセキュリティの�
 ---
 はじめに
 
-サイバーセキュリティのスキル**に対する需要が高まる中、以下のようなプラットフォームが注目を集めている。 [**TryHackMe**](https://tryhackme.com/)は、ハッカー志望者にも経験者にも大きな人気を博している。**TryHackMe**は、サイバーセキュリティ愛好者に実践的な学習体験を提供するオンラインプラットフォームである。この記事では、TryHackMeの特徴、価格、認定、ネットワークサービスなど、さまざまな側面からTryHackMeについて詳しく説明します。
+サイバーセキュリティのスキル**に対する需要が高まる中、以下のようなプラットフォームが注目を集めている。 [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)は、ハッカー志望者にも経験者にも大きな人気を博している。**TryHackMe**は、サイバーセキュリティ愛好者に実践的な学習体験を提供するオンラインプラットフォームである。この記事では、TryHackMeの特徴、価格、認定、ネットワークサービスなど、さまざまな側面からTryHackMeについて詳しく説明します。
 
 ## TryHackMeとは？
 
@@ -78,7 +78,7 @@ ______
 
 ## 参考文献
 
-1. [TryHackMe](https://tryhackme.com)
+1. [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 3. [Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network)
 4. [Active Directory Basics](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)

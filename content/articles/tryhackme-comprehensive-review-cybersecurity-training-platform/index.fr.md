@@ -12,7 +12,7 @@ coverCaption: "Prenez le pouvoir avec TryHackMe : libérez vos superpouvoirs en 
 ---
  Introduction
 
-Face à la demande croissante de **compétences en cybersécurité**, des plateformes telles que [**TryHackMe**](https://tryhackme.com/) ont acquis une grande popularité auprès des pirates informatiques, qu'ils soient en herbe ou expérimentés. **TryHackMe** est une plateforme en ligne qui offre une expérience d'apprentissage pratique aux passionnés de cybersécurité. Dans cet article, nous allons explorer TryHackMe en détail, en couvrant divers aspects tels que ses caractéristiques, ses prix, ses certifications et ses services de réseau, entre autres.
+Face à la demande croissante de **compétences en cybersécurité**, des plateformes telles que [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) ont acquis une grande popularité auprès des pirates informatiques, qu'ils soient en herbe ou expérimentés. **TryHackMe** est une plateforme en ligne qui offre une expérience d'apprentissage pratique aux passionnés de cybersécurité. Dans cet article, nous allons explorer TryHackMe en détail, en couvrant divers aspects tels que ses caractéristiques, ses prix, ses certifications et ses services de réseau, entre autres.
 
 ## Qu'est-ce que TryHackMe ?
 
@@ -78,7 +78,7 @@ ______
 
 ## Références
 
-1. [TryHackMe](https://tryhackme.com)
+1. [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 3. [Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network)
 4. [Active Directory Basics](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)

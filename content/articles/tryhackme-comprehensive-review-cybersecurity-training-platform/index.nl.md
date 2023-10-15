@@ -12,7 +12,7 @@ coverCaption: "Geef jezelf de kracht met TryHackMe: ontketen je superkrachten op
 ---
  Inleiding
 
-Met de toenemende vraag naar **cyberbeveiligingsvaardigheden**, zijn platforms als [**TryHackMe**](https://tryhackme.com/) hebben aan populariteit gewonnen onder zowel aspirant- als ervaren hackers. **TryHackMe** is een online platform dat een praktijkgerichte leerervaring biedt voor liefhebbers van cyberbeveiliging. In dit artikel gaan we dieper in op TryHackMe, waarbij we verschillende aspecten behandelen, zoals de functies, prijzen, certificeringen en netwerkservices.
+Met de toenemende vraag naar **cyberbeveiligingsvaardigheden**, zijn platforms als [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) hebben aan populariteit gewonnen onder zowel aspirant- als ervaren hackers. **TryHackMe** is een online platform dat een praktijkgerichte leerervaring biedt voor liefhebbers van cyberbeveiliging. In dit artikel gaan we dieper in op TryHackMe, waarbij we verschillende aspecten behandelen, zoals de functies, prijzen, certificeringen en netwerkservices.
 
 ## Wat is TryHackMe?
 
@@ -78,7 +78,7 @@ ______
 
 ## Referenties
 
-1. [TryHackMe](https://tryhackme.com)
+1. [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 3. [Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network)
 4. [Active Directory Basics](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)

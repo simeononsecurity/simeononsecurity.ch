@@ -12,7 +12,7 @@ coverCaption: "利用 TryHackMe 增强自己的能力：释放你的网络安全
 ---
 导言
 
-随着对**网络安全技能**的需求日益增长，诸如 [**TryHackMe**](https://tryhackme.com/)在有抱负和有经验的黑客中都大受欢迎。**TryHackMe**是一个为网络安全爱好者提供实践学习体验的在线平台。在本文中，我们将详细探讨 TryHackMe，包括其功能、价格、认证和网络服务等各个方面。
+随着对**网络安全技能**的需求日益增长，诸如 [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)在有抱负和有经验的黑客中都大受欢迎。**TryHackMe**是一个为网络安全爱好者提供实践学习体验的在线平台。在本文中，我们将详细探讨 TryHackMe，包括其功能、价格、认证和网络服务等各个方面。
 
 ## 什么是 TryHackMe？
 
@@ -78,7 +78,7 @@ ______
 
 ## 参考资料
 
-1. [TryHackMe](https://tryhackme.com)
+1. [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 3. [Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network)
 4. [Active Directory Basics](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)

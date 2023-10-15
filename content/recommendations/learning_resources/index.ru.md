@@ -28,7 +28,7 @@ tags: ["Рекомендуемые учебные ресурсы", "Рекоме
 - [**Immersive Labs**](https://www.immersivelabs.com/) Эта платформа предлагает бесплатные лаборатории кибербезопасности, а также платные предложения. Бесплатно для активных студентов.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Эта платформа предлагает бесплатные лаборатории кибербезопасности, а также платные предложения.
 - [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/) также доступны платные предложения.
-- [**TryHackMe**](https://tryhackme.com/) Эта платформа предлагает управляемые CTF-задачи с возможностью платного участия.
+- [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) Эта платформа предлагает управляемые CTF-задачи с возможностью платного участия.
 
 ## Networking:
 

@@ -28,7 +28,7 @@ Voor degenen die geïnteresseerd zijn in cyberbeveiliging zijn er verschillende 
 - [**Immersive Labs**](https://www.immersivelabs.com/) Dit platform biedt gratis Cyber Security Labs, maar er zijn ook betaalde aanbiedingen beschikbaar. Gratis voor actieve studenten.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Dit platform biedt gratis Cyber Security Labs, maar er zijn ook betaalde aanbiedingen.
 - [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/) met ook betaalde aanbiedingen.
-- [**TryHackMe**](https://tryhackme.com/) Dit platform biedt begeleide CTF-uitdagingen, met een optie voor betaald lidmaatschap.
+- [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) Dit platform biedt begeleide CTF-uitdagingen, met een optie voor betaald lidmaatschap.
 
 ## Netwerken:
 

@@ -66,5 +66,5 @@ Chociaż dyplom z cyberbezpieczeństwa lub odpowiedni kierunek studiów może za
 2. SANS Institute. [SANS Cyber Aces Online](https://www.cyberaces.org/)
 3. CompTIA. [CompTIA Security+ Certification](https://www.comptia.org/certifications/security)
 4. Cybrary. [Cybrary - Free Online Cyber Security Training, Forever | Start Today](https://www.cybrary.it/)
-5. TryHackMe. [Learn Cybersecurity with our Hands-On, Gamified Learning Platform | TryHackMe](https://tryhackme.com/)
+5. TryHackMe. [Learn Cybersecurity with our Hands-On, Gamified Learning Platform | TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 

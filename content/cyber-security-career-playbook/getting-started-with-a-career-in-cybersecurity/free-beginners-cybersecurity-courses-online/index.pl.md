@@ -36,7 +36,7 @@ ______
 
 ### 3. TryHackMe:
 - TryHackMe to platforma internetowa, która oferuje wyzwania typu Capture The Flag (CTF) i wirtualne laboratoria dla początkujących. Zapewnia interaktywne doświadczenie edukacyjne w celu rozwijania praktycznych umiejętności w zakresie cyberbezpieczeństwa.
-- Link: [TryHackMe](https://tryhackme.com/)
+- Link: [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 
 ### 4. HackTheBox:
 - HackTheBox to popularna platforma oferująca szereg wyzwań CTF i realistycznych scenariuszy do testowania i doskonalenia umiejętności w zakresie cyberbezpieczeństwa. Choć posiada ona opcję płatnego członkostwa, dostępne są również darmowe wyzwania dla początkujących.
@@ -96,7 +96,7 @@ ______
 ## Referencje:
 - [Cybrary](https://www.cybrary.it/)
 - [SANS Cyber Aces Online](https://www.cyberaces.org/)
-- [TryHackMe](https://tryhackme.com/)
+- [TryHackMe](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)
 - [HackTheBox](https://www.hackthebox.eu/)
 - [Immersive Labs](https://www.immersivelabs.com/)
 - [INE](https://ine.com/)

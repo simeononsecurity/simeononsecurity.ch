@@ -43,7 +43,7 @@ TryHackMe also encourages **user engagement and interaction** through its **comm
 
 To get started with TryHackMe, users can create a **free account** and access a selection of challenges. However, subscribing to the **premium membership** unlocks additional features, such as access to **exclusive content**, **advanced challenges**, and the ability to **create and publish your own content**.
 
-For more information and to explore the challenges and community of TryHackMe, you can visit their [official website](https://tryhackme.com/).
+For more information and to explore the challenges and community of TryHackMe, you can visit their [official website](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56).
 
 ________________________________________________________________________________________________________________________
 
@@ -91,7 +91,7 @@ Furthermore, TryHackMe has an **active and helpful community** where users can e
 
 By leveraging the strengths of TryHackMe, beginners can embark on their cybersecurity journey with confidence and a clear learning path. The structured approach, abundant guidance, and supportive community create an optimal learning environment for those who are new to cybersecurity.
 
-To explore the strengths of TryHackMe and start your cybersecurity learning journey, you can visit the official TryHackMe website at [https://tryhackme.com/](https://tryhackme.com/).
+To explore the strengths of TryHackMe and start your cybersecurity learning journey, you can visit the official TryHackMe website at [https://tryhackme.com/](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56).
 
 #### Weaknesses of TryHackMe
 
@@ -107,7 +107,7 @@ However, it's worth noting that TryHackMe's community is still vibrant and helpf
 
 Despite these weaknesses, TryHackMe remains an excellent choice for individuals who are new to cybersecurity and prefer a structured learning experience. The platform's emphasis on providing **guidance**, **supportive resources**, and a **welcoming community** creates an ideal environment for beginners to gain foundational knowledge and skills.
 
-To explore TryHackMe and its challenges, you can visit their official website at [https://tryhackme.com/](https://tryhackme.com/). While considering your cybersecurity learning journey, it's important to assess your current skill level and preferences to determine whether TryHackMe aligns with your goals and expectations.
+To explore TryHackMe and its challenges, you can visit their official website at [https://tryhackme.com/](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56). While considering your cybersecurity learning journey, it's important to assess your current skill level and preferences to determine whether TryHackMe aligns with your goals and expectations.
 
 ________________________________________________________________________________________________________________________
 
@@ -141,7 +141,7 @@ The TryHackMe community also plays a significant role in providing **support and
 
 To access TryHackMe challenges, users can create a **free account** on the TryHackMe platform. The free account grants access to a selection of challenges, including some introductory ones. For users who want a more comprehensive experience, **premium subscriptions** are available, offering access to a wider range of challenges, learning paths, and additional features.
 
-To explore the challenges and community of TryHackMe, you can visit their [official website](https://tryhackme.com/). Engaging in TryHackMe challenges is an excellent way to establish a strong cybersecurity foundation and progress systematically towards more advanced topics.
+To explore the challenges and community of TryHackMe, you can visit their [official website](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56). Engaging in TryHackMe challenges is an excellent way to establish a strong cybersecurity foundation and progress systematically towards more advanced topics.
 
 ________________________________________________________________________________________________________________________
 
@@ -177,7 +177,7 @@ Another distinction between the two platforms lies in the level of **guidance an
 
 In summary, **HackTheBox** and **TryHackMe** offer contrasting experiences in terms of difficulty and guidance. HackTheBox challenges are renowned for their **extreme difficulty** and real-world simulation, making them suitable for **advanced users** seeking a rigorous test of their skills. TryHackMe, on the other hand, provides a **more approachable** platform for beginners to learn and develop **foundational cybersecurity skills** with ample guidance and support.
 
-To explore the challenges and community of HackTheBox, you can visit their [**official website**](https://www.hackthebox.eu/). To access TryHackMe challenges and experience its structured learning approach, you can visit their [**official website**](https://tryhackme.com/).
+To explore the challenges and community of HackTheBox, you can visit their [**official website**](https://www.hackthebox.eu/). To access TryHackMe challenges and experience its structured learning approach, you can visit their [**official website**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56).
 ### Criteria
 
 When determining the best platform for learning **junior penetration testing**, several key criteria come into play:
@@ -208,7 +208,7 @@ After evaluating the criteria, we conclude that **TryHackMe** stands out as the 
 
 Overall, TryHackMe provides an accessible and well-supported platform for individuals starting their journey in penetration testing. While the challenges may be less difficult than those found on HackTheBox, the focus on **building foundational skills** and the availability of **comprehensive guidance** make it an ideal choice for aspiring junior penetration testers.
 
-To explore the challenges and structured learning experience on TryHackMe, you can visit their [official website](https://tryhackme.com/).
+To explore the challenges and structured learning experience on TryHackMe, you can visit their [official website](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56).
 
 {{< inarticle-dark >}}
 
@@ -228,4 +228,4 @@ In conclusion, TryHackMe's structured learning experience, abundant guidance, an
 
 Remember, the cybersecurity field is constantly evolving, and continuous learning and practice are crucial. By utilizing platforms like HackTheBox and TryHackMe, you can develop the skills and knowledge necessary to thrive in this exciting and ever-changing industry.
 
-*Explore the learning opportunities provided by TryHackMe on their [official website](https://tryhackme.com/) and embark on your journey in junior penetration testing.*
+*Explore the learning opportunities provided by TryHackMe on their [official website](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) and embark on your journey in junior penetration testing.*

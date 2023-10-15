@@ -28,7 +28,7 @@ For those interested in Cybersecurity, there are several resources available to 
 - [**Immersive Labs**](https://www.immersivelabs.com/) This platform offers free Cyber Security Labs, with paid offerings also available. Free for active students.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) This platform offers free Cyber Security Labs, with paid offerings also available.
 - [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/), with paid offerings also available.
-- [**TryHackMe**](https://tryhackme.com/) This platform offers guided CTF challenges, with a paid membership option.
+- [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) This platform offers guided CTF challenges, with a paid membership option.
 
 ## Networking:
 
