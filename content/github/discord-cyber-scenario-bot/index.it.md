@@ -20,7 +20,7 @@ Discord Cyber Scenario, Quiz e Bot di formazione sulla consapevolezza informatic
 
 Questo bot può essere utile in un programma di formazione o di sensibilizzazione sulla cybersicurezza, in cui gli utenti possono essere esposti a vari scenari di cybersicurezza e imparare a prevenirli o a rispondervi. Utilizzando un bot Discord, gli scenari possono essere facilmente condivisi con gli utenti in un ambiente server e il bot può essere personalizzato per includere comandi o funzionalità aggiuntive, se necessario. Inoltre, il bot può essere eseguito in un container Docker, rendendolo facile da distribuire e gestire in vari ambienti.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 Avvio rapido
 
@@ -169,7 +169,7 @@ Per testare le modifiche e implementare le funzionalità, sono necessari alcuni 
 
 ### Lavorare con gli sviluppatori
 
-È possibile discutere degli sforzi di sviluppo nel server discord della comunità [here](https://discord.io/cybersentinels)
+È possibile discutere degli sforzi di sviluppo nel server discord della comunità [here](https://discord.gg/CYVe2CyrXk)
   
 ## Licenza
 

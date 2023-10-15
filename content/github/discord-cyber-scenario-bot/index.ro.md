@@ -20,7 +20,7 @@ Puteți sări la [🚀 Quick Start](#quick-start) pentru a adăuga `CyberScenari
 
 Acest robot poate fi util în cadrul unui program de formare sau de conștientizare în domeniul securității cibernetice, în care utilizatorii pot fi expuși la diverse scenarii de securitate cibernetică și pot învăța cum să le prevină sau să le răspundă. Prin utilizarea unui bot Discord, scenariile pot fi ușor partajate cu utilizatorii într-un mediu de server, iar botul poate fi personalizat pentru a include comenzi sau funcționalități suplimentare, după cum este necesar. În plus, botul poate fi rulat într-un container Docker, ceea ce îl face ușor de implementat și de gestionat în diverse medii.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 Start rapid
 
@@ -169,7 +169,7 @@ Pentru testarea modificărilor și implementarea funcțiilor, veți avea nevoie 
 
 ### Lucrul cu dezvoltatorii
 
-Puteți discuta eforturile de dezvoltare pe serverul discord al comunității [here](https://discord.io/cybersentinels)
+Puteți discuta eforturile de dezvoltare pe serverul discord al comunității [here](https://discord.gg/CYVe2CyrXk)
   
 ## Licență
 

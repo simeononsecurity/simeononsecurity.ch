@@ -20,7 +20,7 @@ Discord Cyber Scenario, Quiz, and Cyber Awareness Training Bot.
 
 このボットは、サイバーセキュリティのトレーニングや意識向上プログラムにおいて、ユーザーが様々なサイバーセキュリティのシナリオに触れ、その予防や対応方法を学ぶのに有用であると考えられる。Discordボットを使用することで、シナリオをサーバー環境のユーザーと簡単に共有することができ、ボットは必要に応じて追加のコマンドや機能を含むようにカスタマイズすることができます。さらに、ボットはDockerコンテナで実行できるため、さまざまな環境での展開や管理が容易です。
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀クイックスタート
 
@@ -169,7 +169,7 @@ CyberScenarioBotは、サイバーセキュリティのトレーニングや意�
 
 ### 開発者との協働
 
-開発の取り組みについては、コミュニティのdiscordサーバーで議論することができます。 [here](https://discord.io/cybersentinels)
+開発の取り組みについては、コミュニティのdiscordサーバーで議論することができます。 [here](https://discord.gg/CYVe2CyrXk)
   
 #ライセンス
 

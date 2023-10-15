@@ -20,7 +20,7 @@ U kunt naar [🚀 Quick Start](#quick-start) toevoegen `CyberScenarioBot` naar u
 
 Deze bot kan nuttig zijn in een cyberbeveiliging training of bewustwordingsprogramma, waar gebruikers kunnen worden blootgesteld aan verschillende cyberbeveiliging scenario's en leren hoe te voorkomen of te reageren op hen. Door het gebruik van een Discord bot, kunnen de scenario's gemakkelijk worden gedeeld met gebruikers in een server-omgeving, en de bot kan worden aangepast om extra commando's of functionaliteit op te nemen als dat nodig is. Bovendien kan de bot worden uitgevoerd in een Docker-container, waardoor hij gemakkelijk kan worden ingezet en beheerd in verschillende omgevingen.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 Quick Start
 
@@ -169,7 +169,7 @@ Voor het testen van veranderingen en het implementeren van functies heb je een p
 
 ### Werken met de ontwikkelaars
 
-U kunt ontwikkelingsinspanningen bespreken in de community discord server [here](https://discord.io/cybersentinels)
+U kunt ontwikkelingsinspanningen bespreken in de community discord server [here](https://discord.gg/CYVe2CyrXk)
   
 ## License
 

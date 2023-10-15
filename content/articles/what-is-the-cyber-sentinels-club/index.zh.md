@@ -40,7 +40,7 @@ Cyber Sentinels 努力创造一个支持性和包容性的环境，让每个人�
 
 ## 加入网络哨兵
 
-如果您有兴趣加入网络哨兵，第一步是访问他们的网站 [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.io/cybersentinels](https://discord.io/cybersentinels) 并开始探索各种渠道并与社区互动。 Cyber Sentinels 欢迎各个级别的专业人士，从初学者到专家，并为成员提供各种参与渠道，包括用于一般性讨论、新闻和事件、学习和发展以及项目和协作的文本和语音渠道。他们还提供了一个专门的工作机会和职业建议渠道，以及一个轻松交谈和娱乐的渠道。加入 Cyber Sentinels，您将有机会结识网络安全领域志同道合的专业人士，学习他们的经验，并就新想法和项目展开合作。
+如果您有兴趣加入网络哨兵，第一步是访问他们的网站 [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) 并开始探索各种渠道并与社区互动。 Cyber Sentinels 欢迎各个级别的专业人士，从初学者到专家，并为成员提供各种参与渠道，包括用于一般性讨论、新闻和事件、学习和发展以及项目和协作的文本和语音渠道。他们还提供了一个专门的工作机会和职业建议渠道，以及一个轻松交谈和娱乐的渠道。加入 Cyber Sentinels，您将有机会结识网络安全领域志同道合的专业人士，学习他们的经验，并就新想法和项目展开合作。
 
 ___________________________________________________________________________
 

@@ -13,7 +13,7 @@ tags: ["Chatbot Discord", "agente di supporto", "assistenza al server", "query d
 
 Questo bot è un agente di supporto basato su Discord. Fornisce risposte utili alle domande degli utenti, assiste nelle questioni relative al server e indirizza gli utenti verso le risorse più importanti. Il bot è amichevole, competente e mantiene un ambiente positivo. Può anche condividere opinioni, preferenze e raccomandazioni relative a vari argomenti, creando interazioni coinvolgenti e informative con gli utenti.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## Come eseguire il bot
 ### Usando docker

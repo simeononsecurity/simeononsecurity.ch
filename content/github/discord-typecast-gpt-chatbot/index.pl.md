@@ -13,7 +13,7 @@ tags: ["Chatbot Discord", "agent wsparcia", "pomoc serwera", "zapytania użytkow
 
 Ten bot jest agentem wsparcia opartym na Discordzie. Zapewnia pomocne odpowiedzi na pytania użytkowników, pomaga w kwestiach związanych z serwerem i kieruje użytkowników do odpowiednich zasobów. Bot jest przyjazny, kompetentny i utrzymuje pozytywne środowisko. Może również dzielić się opiniami, preferencjami i zaleceniami związanymi z różnymi tematami, tworząc angażujące i pouczające interakcje z użytkownikami.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## Jak uruchomić bota
 ### Korzystanie z dockera

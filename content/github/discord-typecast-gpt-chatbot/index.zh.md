@@ -13,7 +13,7 @@ tags: ["Discord 聊天机器人", "支持代理", "服务器协助", "用户查�
 
 该机器人是基于 Discord 的支持代理。它为用户的询问提供有用的回复，协助解决与服务器相关的问题，并引导用户访问相关资源。该机器人友好、知识渊博，并能维持一个积极的环境。它还可以分享与各种主题相关的意见、偏好和建议，与用户进行引人入胜、内容丰富的互动。
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ### 如何运行机器人
 ### 使用 docker

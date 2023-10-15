@@ -83,7 +83,7 @@ Building connections within the homelab community amplifies your learning and sh
    - The [r/homelab](https://www.reddit.com/r/homelab) subreddit buzzes with enthusiasts sharing setups, seeking advice, and showcasing achievements. Engage in discussions to learn from diverse experiences.
 
 ### 2. Online Forums and Discord Servers
-   - Platforms like the [Homelab Discord](https://discord.com/invite/homelab), the [CyberSentinels Discord](https://discord.io/cybersentinels) and forums like [ServeTheHome](https://forums.servethehome.com/index.php) offer real-time conversations, troubleshooting assistance, and collaborative projects.
+   - Platforms like the [Homelab Discord](https://discord.com/invite/homelab), the [CyberSentinels Discord](https://discord.gg/CYVe2CyrXk) and forums like [ServeTheHome](https://forums.servethehome.com/index.php) offer real-time conversations, troubleshooting assistance, and collaborative projects.
 
 ### 3. Local Meetups and Tech Conferences
    - Attend local homelab meetups or tech conferences to network, attend workshops, and participate in hands-on activities.

@@ -13,7 +13,7 @@ tags: ["Discord chatbot", "ondersteuningsagent", "serverondersteuning", "gebruik
 
 Deze bot is een op Discord gebaseerde support agent. Hij geeft nuttige antwoorden op vragen van gebruikers, helpt met server-gerelateerde vragen en verwijst gebruikers naar relevante bronnen. De bot is vriendelijk, deskundig, en onderhoudt een positieve omgeving. Het kan ook meningen, voorkeuren en aanbevelingen delen met betrekking tot verschillende onderwerpen, waardoor boeiende en informatieve interacties met gebruikers ontstaan.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## Hoe de bot te draaien
 ### Met behulp van docker

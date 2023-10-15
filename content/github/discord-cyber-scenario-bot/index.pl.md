@@ -20,7 +20,7 @@ Możesz przejść do [🚀 Quick Start](#quick-start) dodać `CyberScenarioBot` 
 
 Ten bot może być przydatny w szkoleniu w zakresie cyberbezpieczeństwa lub programie uświadamiającym, w którym użytkownicy mogą być narażeni na różne scenariusze cyberbezpieczeństwa i dowiedzieć się, jak im zapobiegać lub reagować na nie. Korzystając z bota Discord, scenariusze można łatwo udostępniać użytkownikom w środowisku serwerowym, a bota można dostosować, aby zawierał dodatkowe polecenia lub funkcje w razie potrzeby. Ponadto bota można uruchomić w kontenerze Docker, co ułatwia jego wdrażanie i zarządzanie w różnych środowiskach.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 Szybki start
 
@@ -169,7 +169,7 @@ Do testowania zmian i wdrażania funkcji będziesz potrzebować kilku rzeczy.
 
 ### Współpraca z deweloperami
 
-Wysiłki związane z rozwojem gry można omawiać na serwerze discord społeczności [here](https://discord.io/cybersentinels)
+Wysiłki związane z rozwojem gry można omawiać na serwerze discord społeczności [here](https://discord.gg/CYVe2CyrXk)
   
 ## Licencja
 

@@ -13,7 +13,7 @@ tags: ["Discord-Chatbot", "Support-Mitarbeiter", "Serverbetreuung", "user querie
 
 Dieser Bot ist ein Discord-basierter Support-Agent. Er gibt hilfreiche Antworten auf Benutzeranfragen, hilft bei Fragen zum Server und verweist die Benutzer auf relevante Ressourcen. Der Bot ist freundlich, kenntnisreich und sorgt für ein positives Umfeld. Er kann auch Meinungen, Vorlieben und Empfehlungen zu verschiedenen Themen weitergeben und so für eine ansprechende und informative Interaktion mit den Benutzern sorgen.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## Wie man den Bot ausführt
 ### Docker verwenden

@@ -13,7 +13,7 @@ tags: ["Discord chatbot", "agent de suport", "asistență server", "interogări 
 
 Acest robot este un agent de asistență bazat pe Discord. Acesta oferă răspunsuri utile la întrebările utilizatorilor, ajută la rezolvarea întrebărilor legate de server și îndrumă utilizatorii către resurse relevante. Robotul este prietenos, bine informat și menține un mediu pozitiv. De asemenea, poate împărtăși opinii, preferințe și recomandări legate de diverse subiecte, creând interacțiuni atractive și informative cu utilizatorii.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## Cum se execută robotul
 ### Folosind docker

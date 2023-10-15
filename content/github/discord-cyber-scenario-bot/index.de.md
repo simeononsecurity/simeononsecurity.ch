@@ -20,7 +20,7 @@ Sie können überspringen zu [🚀 Quick Start](#quick-start) zum Hinzufügen `C
 
 Dieser Bot kann in einem Schulungs- oder Sensibilisierungsprogramm für Cybersicherheit nützlich sein, bei dem die Benutzer verschiedenen Cybersicherheitsszenarien ausgesetzt werden und lernen, wie sie diese verhindern oder darauf reagieren können. Durch die Verwendung eines Discord-Bots können die Szenarien leicht mit Benutzern in einer Serverumgebung geteilt werden, und der Bot kann nach Bedarf um zusätzliche Befehle oder Funktionen erweitert werden. Außerdem kann der Bot in einem Docker-Container ausgeführt werden, was die Bereitstellung und Verwaltung in verschiedenen Umgebungen erleichtert.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 Schnellstart
 
@@ -169,7 +169,7 @@ Um Änderungen zu testen und Funktionen zu implementieren, benötigen Sie einige
 
 ### Zusammenarbeit mit den Entwicklern
 
-Sie können die Entwicklungsarbeiten auf dem Community-Discord-Server diskutieren [here](https://discord.io/cybersentinels)
+Sie können die Entwicklungsarbeiten auf dem Community-Discord-Server diskutieren [here](https://discord.gg/CYVe2CyrXk)
   
 ## Lizenz
 

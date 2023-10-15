@@ -13,7 +13,7 @@ tags: ["Chatbot de Discordia", "agente de apoyo", "asistencia al servidor", "con
 
 Este bot es un agente de soporte basado en Discord. Proporciona respuestas útiles a las consultas de los usuarios, ayuda con preguntas relacionadas con el servidor y dirige a los usuarios a los recursos pertinentes. El bot es amable, está bien informado y mantiene un ambiente positivo. También puede compartir opiniones, preferencias y recomendaciones relacionadas con diversos temas, creando interacciones atractivas e informativas con los usuarios.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## Cómo ejecutar el bot
 ### Usando docker

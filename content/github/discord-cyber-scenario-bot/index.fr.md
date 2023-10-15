@@ -20,7 +20,7 @@ Vous pouvez passer à [🚀 Quick Start](#quick-start) pour ajouter `CyberScenar
 
 Ce robot peut être utile dans le cadre d'un programme de formation ou de sensibilisation à la cybersécurité, où les utilisateurs peuvent être exposés à divers scénarios de cybersécurité et apprendre à les prévenir ou à y répondre. En utilisant un bot Discord, les scénarios peuvent être facilement partagés avec les utilisateurs dans un environnement serveur, et le bot peut être personnalisé pour inclure des commandes ou des fonctionnalités supplémentaires selon les besoins. En outre, le bot peut être exécuté dans un conteneur Docker, ce qui facilite son déploiement et sa gestion dans divers environnements.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 Démarrage rapide
 
@@ -169,7 +169,7 @@ Pour tester les changements et implémenter les fonctionnalités, vous aurez bes
 
 ### Travailler avec les développeurs
 
-Vous pouvez discuter des efforts de développement sur le serveur discord de la communauté [here](https://discord.io/cybersentinels)
+Vous pouvez discuter des efforts de développement sur le serveur discord de la communauté [here](https://discord.gg/CYVe2CyrXk)
   
 ## Licence
 

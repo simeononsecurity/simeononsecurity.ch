@@ -20,7 +20,7 @@ Discord 网络情景、测验和网络意识培训机器人。
 
 该机器人可用于网络安全培训或提高认识计划，让用户接触各种网络安全情景，并学习如何预防或应对这些情景。通过使用 Discord 机器人，可以轻松地在服务器环境中与用户共享场景，还可以根据需要定制机器人，使其包含更多命令或功能。此外，机器人可以在 Docker 容器中运行，从而便于在各种环境中进行部署和管理。
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ## 🚀 快速入门
 
@@ -169,7 +169,7 @@ CyberScenarioBot 提供各种命令和功能，可增强网络安全培训和意
 
 ### 与开发人员合作
 
-您可以在社区 discord 服务器中讨论开发工作 [here](https://discord.io/cybersentinels)
+您可以在社区 discord 服务器中讨论开发工作 [here](https://discord.gg/CYVe2CyrXk)
   
 ## 许可证
 
