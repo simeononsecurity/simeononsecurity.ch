@@ -49,21 +49,21 @@ This source code has been used to build the following domains:
 
 | Domain | Local Name | Sitemap | RSS Feed |
 |--------|------------|---------|---------|
-| [https://simeononsecurity.com](https://simeononsecurity.com) | English | [Sitemap](https://simeononsecurity.com/sitemap.xml) | [RSS](https://simeononsecurity.com/rss.xml) |
-| [https://simeononsecurity.ch](https://simeononsecurity.ch) | English | [Sitemap](https://simeononsecurity.ch/sitemap.xml) | [RSS](https://simeononsecurity.ch/rss.xml) |
-| [https://ar.simeononsecurity.ch](https://ar.simeononsecurity.ch) | Arabic | [Sitemap](https://ar.simeononsecurity.ch/sitemap.xml) | [RSS](https://ar.simeononsecurity.ch/rss.xml) |
-| [https://bn.simeononsecurity.ch](https://bn.simeononsecurity.ch) | Bengali | [Sitemap](https://bn.simeononsecurity.ch/sitemap.xml) | [RSS](https://bn.simeononsecurity.ch/rss.xml) |
-| [https://ca.simeononsecurity.ch](https://ca.simeononsecurity.ch) | Catalan | [Sitemap](https://ca.simeononsecurity.ch/sitemap.xml) | [RSS](https://ca.simeononsecurity.ch/rss.xml) |
-| [https://de.simeononsecurity.ch](https://de.simeononsecurity.ch) | German | [Sitemap](https://de.simeononsecurity.ch/sitemap.xml) | [RSS](https://de.simeononsecurity.ch/rss.xml) |
-| [https://es.simeononsecurity.ch](https://es.simeononsecurity.ch) | Spanish | [Sitemap](https://es.simeononsecurity.ch/sitemap.xml) | [RSS](https://es.simeononsecurity.ch/rss.xml) |
-| [https://fr.simeononsecurity.ch](https://fr.simeononsecurity.ch) | French | [Sitemap](https://fr.simeononsecurity.ch/sitemap.xml) | [RSS](https://fr.simeononsecurity.ch/rss.xml) |
-| [https://hi.simeononsecurity.ch](https://hi.simeononsecurity.ch) | Hindi | [Sitemap](https://hi.simeononsecurity.ch/sitemap.xml) | [RSS](https://hi.simeononsecurity.ch/rss.xml) |
-| [https://it.simeononsecurity.ch](https://it.simeononsecurity.ch) | Italian | [Sitemap](https://it.simeononsecurity.ch/sitemap.xml) | [RSS](https://it.simeononsecurity.ch/rss.xml) |
-| [https://ja.simeononsecurity.ch](https://ja.simeononsecurity.ch) | Japanese | [Sitemap](https://ja.simeononsecurity.ch/sitemap.xml) | [RSS](https://ja.simeononsecurity.ch/rss.xml) |
-| [https://nl.simeononsecurity.ch](https://nl.simeononsecurity.ch) | Dutch | [Sitemap](https://nl.simeononsecurity.ch/sitemap.xml) | [RSS](https://nl.simeononsecurity.ch/rss.xml) |
-| [https://pa.simeononsecurity.ch](https://pa.simeononsecurity.ch) | Punjabi | [Sitemap](https://pa.simeononsecurity.ch/sitemap.xml) | [RSS](https://pa.simeononsecurity.ch/rss.xml) |
-| [https://pl.simeononsecurity.ch](https://pl.simeononsecurity.ch) | Polish | [Sitemap](https://pl.simeononsecurity.ch/sitemap.xml) | [RSS](https://pl.simeononsecurity.ch/rss.xml) |
-| [https://pt.simeononsecurity.ch](https://pt.simeononsecurity.ch) | Portuguese | [Sitemap](https://pt.simeononsecurity.ch/sitemap.xml) | [RSS](https://pt.simeononsecurity.ch/rss.xml) |
-| [https://ro.simeononsecurity.ch](https://ro.simeononsecurity.ch) | Romanian | [Sitemap](https://ro.simeononsecurity.ch/sitemap.xml) | [RSS](https://ro.simeononsecurity.ch/rss.xml) |
-| [https://ru.simeononsecurity.ch](https://ru.simeononsecurity.ch) | Russian | [Sitemap](https://ru.simeononsecurity.ch/sitemap.xml) | [RSS](https://ru.simeononsecurity.ch/rss.xml) |
-| [https://zh.simeononsecurity.ch](https://zh.simeononsecurity.ch) | Chinese | [Sitemap](https://zh.simeononsecurity.ch/sitemap.xml) | [RSS](https://zh.simeononsecurity.ch/rss.xml) |
+| [https://simeononsecurity.ch](https://simeononsecurity.ch) | English | [Sitemap](https://simeononsecurity.ch/sitemap.xml) | [RSS](https://simeononsecurity.ch/index.xml) |
+| [https://simeononsecurity.com](https://simeononsecurity.com) | English | [Sitemap](https://simeononsecurity.com/sitemap.xml) | [RSS](https://simeononsecurity.com/index.xml) |
+| [https://ar.simeononsecurity.com](https://ar.simeononsecurity.com) | Arabic | [Sitemap](https://ar.simeononsecurity.com/sitemap.xml) | [RSS](https://ar.simeononsecurity.com/index.xml) |
+| [https://bn.simeononsecurity.com](https://bn.simeononsecurity.com) | Bengali | [Sitemap](https://bn.simeononsecurity.com/sitemap.xml) | [RSS](https://bn.simeononsecurity.com/index.xml) |
+| [https://ca.simeononsecurity.com](https://ca.simeononsecurity.com) | Catalan | [Sitemap](https://ca.simeononsecurity.com/sitemap.xml) | [RSS](https://ca.simeononsecurity.com/index.xml) |
+| [https://de.simeononsecurity.com](https://de.simeononsecurity.com) | German | [Sitemap](https://de.simeononsecurity.com/sitemap.xml) | [RSS](https://de.simeononsecurity.com/index.xml) |
+| [https://es.simeononsecurity.com](https://es.simeononsecurity.com) | Spanish | [Sitemap](https://es.simeononsecurity.com/sitemap.xml) | [RSS](https://es.simeononsecurity.com/index.xml) |
+| [https://fr.simeononsecurity.com](https://fr.simeononsecurity.com) | Fre.com | [Sitemap](https://fr.simeononsecurity.com/sitemap.xml) | [RSS](https://fr.simeononsecurity.com/index.xml) |
+| [https://hi.simeononsecurity.com](https://hi.simeononsecurity.com) | Hindi | [Sitemap](https://hi.simeononsecurity.com/sitemap.xml) | [RSS](https://hi.simeononsecurity.com/index.xml) |
+| [https://it.simeononsecurity.com](https://it.simeononsecurity.com) | Italian | [Sitemap](https://it.simeononsecurity.com/sitemap.xml) | [RSS](https://it.simeononsecurity.com/index.xml) |
+| [https://ja.simeononsecurity.com](https://ja.simeononsecurity.com) | Japanese | [Sitemap](https://ja.simeononsecurity.com/sitemap.xml) | [RSS](https://ja.simeononsecurity.com/index.xml) |
+| [https://nl.simeononsecurity.com](https://nl.simeononsecurity.com) | Du.com | [Sitemap](https://nl.simeononsecurity.com/sitemap.xml) | [RSS](https://nl.simeononsecurity.com/index.xml) |
+| [https://pa.simeononsecurity.com](https://pa.simeononsecurity.com) | Punjabi | [Sitemap](https://pa.simeononsecurity.com/sitemap.xml) | [RSS](https://pa.simeononsecurity.com/index.xml) |
+| [https://pl.simeononsecurity.com](https://pl.simeononsecurity.com) | Polish | [Sitemap](https://pl.simeononsecurity.com/sitemap.xml) | [RSS](https://pl.simeononsecurity.com/index.xml) |
+| [https://pt.simeononsecurity.com](https://pt.simeononsecurity.com) | Portuguese | [Sitemap](https://pt.simeononsecurity.com/sitemap.xml) | [RSS](https://pt.simeononsecurity.com/index.xml) |
+| [https://ro.simeononsecurity.com](https://ro.simeononsecurity.com) | Romanian | [Sitemap](https://ro.simeononsecurity.com/sitemap.xml) | [RSS](https://ro.simeononsecurity.com/index.xml) |
+| [https://ru.simeononsecurity.com](https://ru.simeononsecurity.com) | Russian | [Sitemap](https://ru.simeononsecurity.com/sitemap.xml) | [RSS](https://ru.simeononsecurity.com/index.xml) |
+| [https://zh.simeononsecurity.com](https://zh.simeononsecurity.com) | Chinese | [Sitemap](https://zh.simeononsecurity.com/sitemap.xml) | [RSS](https://zh.simeononsecurity.com/index.xml) |
