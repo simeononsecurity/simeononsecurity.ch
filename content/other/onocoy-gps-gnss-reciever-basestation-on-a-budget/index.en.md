@@ -419,26 +419,50 @@ The provided configuration adjustments are made to ensure the proper functionali
 
 ### Unicorecomm UM980 and UM982 Configuration Script
 ```bash
+# Set up automatic base configuration with automatic gps location 
 mode base time 60 2 2.5
 
-CONFIG SIGNALGROUP 2
+# Enable the Largest Signal Group
+config signalgroup 2
+config RTCMB1CB2a enable
 
-rtcm1005 30
+# ONLY IF MODULE IS UM982
+# CONFIG SIGNALGROUP 3 6
+
+# Enable All GPS Messages
+unlog
+gngga 1
+gpgll 1
+gpgsa 1
+gpgsv 1
+gnrmc 1
+gpvtg 1
+gpzda 1
+gpgst 1
+saveconfig
+
+#enable all bands
+UNMASK GPS
+UNMASK BDS
+UNMASK GLO
+UNMASK GAL
+UNMASK B1
+UNMASK E5A
+saveconfig
+
+#ONOCOY RTCM CONFIGURATION
 rtcm1006 30
-rtcm1033 1
-rtcm1074 1
-
+rtcm1033 30
 rtcm1077 1
-rtcm1084 1
 rtcm1087 1
-rtcm1094 1
 rtcm1097 1
 rtcm1117 1
-
-rtcm1124 1
 rtcm1127 1
-
 saveconfig
+
+# ONLY CHANGE IF YOU WANT TO IMPROVE THE BAUDRATE
+# config com1 921600
+# saveconfig
 ```
 
 *It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type as required per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).*

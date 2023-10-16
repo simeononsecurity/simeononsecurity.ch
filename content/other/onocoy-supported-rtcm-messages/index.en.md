@@ -45,6 +45,7 @@ Onocoy adopts a carefully tailored approach to RTCM3-MSM messages. Let's delve i
 #### Excluding SBAS Messages
 
 Onocoy consciously disregards RTCM3-MSM messages related to SBAS constellations, while actively supporting and rewarding the use of RTCM3-MSM messages from other GNSS constellations. 
+This means that RTCM messages like `1104` and `1107` are ignored.
 
 #### Minimum Requirement: MSM Type 4
 
