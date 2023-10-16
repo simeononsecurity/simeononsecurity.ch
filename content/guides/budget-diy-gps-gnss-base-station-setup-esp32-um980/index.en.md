@@ -1,9 +1,9 @@
 ---
-title: "Budget DIY GPS/GNSS Base Station / Receiver Setup with ESP32 and UM980"
+title: "Budget DIY GPS/GNSS Base Station / Receiver and NTRIP Server Client with ESP32 and UM980"
 date: 2023-12-05
 toc: true
 draft: false
-description: "Effortlessly set up a budget DIY GPS/GNSS base station using ESP32 and the Unicorecomm UM980 for accurate positioning."
+description: "Effortlessly set up a budget DIY GPS/GNSS base station and NTRIP Server / NTRIP Client using ESP32 and the Unicorecomm UM980 for accurate positioning."
 genre: ["DIY Electronics", "GNSS Technology", "ESP32 Projects", "IoT Applications", "Budget Hardware", "DIY Tutorials", "Wireless Connectivity", "GPS Solutions", "GNSS Receivers", "Embedded Systems"]
 tags: ["DIY GPS base station", "ESP32 tutorial", "UM980 GNSS receiver", "GNSS setup guide", "budget hardware", "IoT applications", "GNSS technology", "embedded systems", "wireless connectivity", "ESP32 development board", "GNSS accuracy", "DIY electronics", "GNSS modules", "GPS solutions", "ESP32 firmware", "budget GNSS setup", "GNSS base station", "GPS project", "GNSS reference station", "ESP32 GNSS integration", "GNSS antenna", "DIY hardware", "GNSS calibration", "GNSS accuracy improvement", "GNSS troubleshooting", "ESP32 configuration", "GNSS data logging", "GNSS monitoring", "ESP32 community support"]
 cover: "/img/cover/Budget_DIY_GPS_GNSS_Base_Station_Setup.png"
@@ -78,8 +78,11 @@ In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compa
   - Basic, simple, not the best, but it works.
 - [Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
   - Outdoor Rated, Cheap, Allows view of the Sky.
+- [High Performance GNSS L1 Active Quad Helix Antenna](https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html) - $75
+   - For RTK Clients. Ex. Drones or Robots.
 - [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
-  - This is only recommended for those who can not properly install the antennas below. It will underperform against the others. 
+  - This is only recommended for those who can not properly install the antennas below. It will underperform against the others.
+
 
 ### Advanced Antennas for Base and Reciver Stations
 - (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
