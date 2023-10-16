@@ -1,6 +1,5 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 {{ range .Site.RegularPages }}{{ if ne .Params.sitemap_exclude true }}
   {{ $detectedimage := "" }}
@@ -59,24 +58,34 @@
   {{ if or ($og_image) ($cover) (.Params.featuredImage) (findRE `(?s)<img.+?>` $.Page.Content) }}
     {{- if .Permalink -}}
     <url>
-      <loc>{{ .Permalink }}</loc>
+      <loc>{{ .Permalink | safeURL }}</loc>
       {{ if $og_image }}
-      <image:image>
-        <image:loc>{{ $og_image }}</image:loc>
-      </image:image>
+        <image:image>
+          <image:loc>{{ $og_image | safeURL }}</image:loc>
+          <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
+          <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
+        </image:image>
       {{ end }}
       {{ if $cover }}
       <image:image>
-        <image:loc>{{ $optimizedtiny }}</image:loc>
+        <image:loc>{{ $optimizedtiny | safeURL }}</image:loc>
+          <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
+          <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       <image:image>
-        <image:loc>{{ $optimizedsmall }}</image:loc>
+        <image:loc>{{ $optimizedsmall | safeURL }}</image:loc>
+        <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
+        <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       <image:image>
-        <image:loc>{{ $optimizedmedium }}</image:loc>
+        <image:loc>{{ $optimizedmedium | safeURL }}</image:loc>
+        <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
+        <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       <image:image>
-        <image:loc>{{ $optimizedlarge }}</image:loc>
+        <image:loc>{{ $optimizedlarge | safeURL }}</image:loc>
+        <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
+        <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       {{ end }}
       {{ if .Params.featuredImage }}
@@ -87,7 +96,7 @@
       {{ if (findRE `(?s)<img.+?>` .Content) }}
         {{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }}{{ end }}
         <image:image>
-          <image:loc>{{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }}</image:loc>
+          <image:loc>{{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL | safeURL }}</image:loc>
         </image:image>
         {{ end }}
       {{ end }}
