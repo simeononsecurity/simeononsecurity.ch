@@ -126,7 +126,7 @@ disableLatLong = true
 includeFields = ''
 
 [outputs]
-home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news", "smartnews"]
+home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news", "smartnews", "rssall"]
 section = ["HTML"]
 page = ["HTML"]
 sitemap = [ "Sitemap" ]
@@ -144,6 +144,11 @@ suffixes = ["xml"]
 [outputFormats.FEED]
 mediatype = "application/rss"
 baseName = "feed"
+
+[outputFormats.rssall]
+  mediatype = "application/rss"
+  rel = "rssall"
+  baseName = "rssall"
 
 [outputFormats.fulltext]
   mediatype = "application/rss"
