@@ -56,7 +56,7 @@ Simultaneously sending multiple MSM messages, like both MSM 4 and MSM 7, serves 
 
 #### Ideal Message Configuration
 
-For an optimal GNSS receiver setup, the transmission of RTCM messages `1077`, `1087`, `1097`, `1107`, `1127`, and `1137` is recommended. If these aren't available, using their MSM type 4 counterparts (`1074`, `1084`, `1094`, `1104`, `1124`, and `1134`) is a suitable alternative. It's essential to select messages aligning with the supported constellations of your receiver, excluding irrelevant ones.
+For an optimal GNSS receiver setup, the transmission of RTCM messages `1077`, `1087`, `1097`, `1117`, `1127`, and `1137` is recommended. If these aren't available, using their MSM type 4 counterparts (`1074`, `1084`, `1094`, `1114`, `1124`, and `1134`) is a suitable alternative. It's essential to select messages aligning with the supported constellations of your receiver, excluding irrelevant ones.
 
 ##### Ideal MSM7 Configuration
 
@@ -65,20 +65,20 @@ For an optimal GNSS receiver setup, the transmission of RTCM messages `1077`, `1
 - `1077`: Delivers GPS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
 - `1087`: Provides GLONASS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
 - `1097`: Conveys Galileo RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
-- `1107`: Transmits SBAS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
-- `1127`: Delivers QZSS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
-- `1137`: Provides BeiDou RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
-- `1230`: Contains Glonass Biases, which are vital when sending Glonass MSM messages like 1087.
+- `1117`: Transmits QZSS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
+- `1127`: Delivers BeiDou RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
+- `1137`: Provides IRNSS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections.
+- `1230`: Contains Glonass Code-Phase Biases, which are vital when sending Glonass MSM messages like 1087.
 
 ##### Ideal MSM4 Baseline / Legacy Configuration
 
 - `1074`: Delivers GPS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
 - `1084`: Provides GLONASS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
 - `1094`: Conveys Galileo RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
-- `1104`: Transmits SBAS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
-- `1124`: Delivers QZSS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
-- `1134`: Provides BeiDou RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
-- `1230`: Contains Glonass Biases, which are vital when sending Glonass MSM messages like 1084.
+- `1114`: Transmits QZSS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
+- `1124`: Delivers BeiDou RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
+- `1134`: Provides IRNSS RTK Network Real-Time Kinematic (RTK) reference station parameters and network corrections using MSM type 4.
+- `1230`: Contains Glonass Code-Phase Biases, which are vital when sending Glonass MSM messages like 1084.
 
 
 #### Legacy RTK Messages
@@ -107,3 +107,4 @@ Onocoy's support for RTCM messages is instrumental in ensuring the utmost accura
 2. [Government Regulations for GNSS Usage](https://www.gsa.europa.eu/regulations)
 3. [RTCM Standard 10403.3](https://rtcm.myshopify.com/)
 4. [Onocoy Documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy)
+5. [RTCM3 Message List](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/)
