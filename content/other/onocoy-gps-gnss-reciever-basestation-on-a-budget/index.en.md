@@ -223,9 +223,9 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
    1. You can view the following [Onocoy documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/4.-receive-rewards) to learn more.
 
 ### Option 1: NTRIP Server
-1. On your linux device download the [ntripserver](https://github.com/nunojpg/ntripserver) software.
+1. On your linux device download the [ntripserver](https://github.com/simeononsecurity/ntripserver) software.
     ```bash
-    git clone https://github.com/nunojpg/ntripserver.git
+    git clone https://github.com/simeononsecurity/ntripserver.git
     cd ./ntripserver
     make
     ```
