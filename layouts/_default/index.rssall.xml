@@ -35,19 +35,19 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title | safeHTML }}{{ else }}{{ with .Title }}{{. | safeHTML }} on {{ end }}{{ .Site.Title | safeHTML }}{{ end }}</title>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     
     {{ if .Site.Params.RssImage }}
     <image>
       <url>{{ printf "%s%s" .Permalink .Site.Params.RssImage | safeURL }}</url>
-      <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title | safeHTML }}{{ else }}{{ with .Title }}{{. | safeHTML }} on {{ end }}{{ .Site.Title | safeHTML }}{{ end }}</title>
-      <link>{{ .Permalink | safeURL}}</link>
+      <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+      <link>{{ .Permalink | safeURL }}</link>
     </image>
     {{ end }}
     
-    <link>{{ .Permalink }}</link>
+    <link>{{ .Permalink | safeURL }}</link>
 
-    <description>Recent content {{ if ne  .Title  .Site.Title | safeHTML }}{{ with .Title |safeHTML }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title | safeHTML }}</description>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>1337 H4X0R RSS GENERATOR</generator>
     {{ with .Site.LanguageCode }}
     <language>{{ . | safeHTML }}</language>
@@ -55,8 +55,8 @@
     
 
     {{ with .Site.Author.email }}
-      <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{ . | safeHTML }}){{end}}</managingEditor>
-      <webMaster>{{.}}{{ with $.Site.Author.name }} ({{ . | safeHTML }}){{end}}</webMaster>
+      <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{ . | safeURL }}){{end}}</managingEditor>
+      <webMaster>{{.}}{{ with $.Site.Author.name }} ({{ . | safeURL }}){{end}}</webMaster>
     {{ end }}
 
     {{ with .Site.Copyright }}
@@ -67,7 +67,7 @@
     {{ end }}
 
     {{ with .OutputFormats.Get "RSS" }}
-        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | safeURL) .MediaType | safeHTML }}
     {{ end }}
 
     {{ range $pages }}
@@ -82,30 +82,30 @@
       {{ $currentPageDir := path.Dir $path }}
       {{ $currentPageBaseName := path.Base $path }}
       <item>
-        <title>{{ .Title | safeHTML }}</title>
+        <title>{{ .Title | safeURL }}</title>
         {{ with .Permalink }}
-          <link>{{ . | safeHTML }}</link>
+          <link>{{ . | safeURL }}</link>
         {{ end }}
         <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Sun, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
         {{ with $.Params.Author }}
-          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeHTML }}</dc:creator>
+          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeURL }}</dc:creator>
         {{ else }}
           {{ with .Site.Author.email }}
-            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeHTML }}</dc:creator>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeURL }}</dc:creator>
           {{ else }}
             {{ with $.Site.Author.name }}
-              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeHTML }}</dc:creator>
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeURL }}</dc:creator>
             {{ end }}
           {{ end }}
         {{ end }}
         <category>
           {{ if .Params.genre }}
             {{ range $index, $genre := .Params.genre }}
-              {{ if $index }}, {{ end }}"{{ $genre | safeHTML }}"
+              {{ if $index }}, {{ end }}"{{ $genre | safeURL }}"
             {{ end }}
           {{ else if .Params.tags }}
             {{ range $index, $tag := .Params.tags }}
-              {{ if $index }}, {{ end }}"{{ $tag | safeHTML }}"
+              {{ if $index }}, {{ end }}"{{ $tag | safeURL }}"
             {{ end }}
           {{ else }}
           "cybersecurity", "security", "information security"
@@ -114,13 +114,11 @@
         <guid>{{ .Permalink | safeURL }}</guid>
         <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
         <description>
-        {{ if .Site.Params.RssFullText }}
-          {{ .Content | html }}
-        {{ else }}
-          {{ with .Description }}{{ . | html }}
-          {{ else }}{{ .Summary | html }}
+          {{ with .Description }}
+            {{ . | html }}
+          {{ else }}
+            {{ .Summary | html }}
           {{ end }}
-        {{ end }}
         </description>
           {{ $imgurl := "" }}
           {{ if .Params.Cover }}
@@ -142,7 +140,7 @@
               {{ $ext := replace $imgResource.MediaType.SubType "/" "" | lower }}
               {{ $content := $imgResource.Content }}
               {{ $contentLength := printf "%d" (len $content) }}
-              <enclosure url="{{ $imgResource.Permalink | safeURL }}" length="{{ $contentLength | safeHTML }}" type="image/{{ $ext | safeURL }}" />
+              <enclosure url="{{ $imgResource.Permalink | safeURL }}" length="{{ $contentLength | safeHTML }}" type="image/{{ $ext }}" />
             {{ end }}
           {{ end }}
         </item>
