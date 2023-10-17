@@ -39,18 +39,18 @@
     
     {{ if .Site.Params.RssImage }}
     <image>
-      <url>{{ printf "%s%s" .Permalink .Site.Params.RssImage | safeURL }}</url>
+      <url>{{ printf "%s%s" .Permalink .Site.Params.RssImage }}</url>
       <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
       <link>{{ .Permalink | safeURL }}</link>
     </image>
     {{ end }}
     
-    <link>{{ .Permalink | safeURL }}</link>
+    <link>{{ .Permalink }}</link>
 
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>1337 H4X0R RSS GENERATOR</generator>
     {{ with .Site.LanguageCode }}
-    <language>{{ . | safeHTML }}</language>
+    <language>{{ . }}</language>
     {{end}}
     
 
@@ -60,14 +60,14 @@
     {{ end }}
 
     {{ with .Site.Copyright }}
-    <copyright>{{ . | safeHTML }}</copyright>{{end}}
+    <copyright>{{ . }}</copyright>{{end}}
 
     {{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ end }}
 
     {{ with .OutputFormats.Get "RSS" }}
-        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | safeURL) .MediaType | safeHTML }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
 
     {{ range $pages }}
@@ -88,13 +88,13 @@
         {{ end }}
         <pubDate>{{ if .Date }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ else }}Sun, 01 Mar 2020 00:00:00 -0700{{ end }}</pubDate>
         {{ with $.Params.Author }}
-          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeURL }}</dc:creator>
+          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
         {{ else }}
           {{ with .Site.Author.email }}
-            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeURL }}</dc:creator>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
           {{ else }}
             {{ with $.Site.Author.name }}
-              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . | safeURL }}</dc:creator>
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
             {{ end }}
           {{ end }}
         {{ end }}
@@ -111,7 +111,7 @@
           "cybersecurity", "security", "information security"
           {{ end }}
         </category>
-        <guid>{{ .Permalink | safeURL }}</guid>
+        <guid>{{ .Permalink }}</guid>
         <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
         <description>
           {{ with .Description }}
@@ -140,7 +140,7 @@
               {{ $ext := replace $imgResource.MediaType.SubType "/" "" | lower }}
               {{ $content := $imgResource.Content }}
               {{ $contentLength := printf "%d" (len $content) }}
-              <enclosure url="{{ $imgResource.Permalink | safeURL }}" length="{{ $contentLength | safeHTML }}" type="image/{{ $ext }}" />
+              <enclosure url="{{ $imgResource.Permalink }}" length="{{ $contentLength }}" type="image/{{ $ext }}" />
             {{ end }}
           {{ end }}
         </item>
