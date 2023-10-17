@@ -115,10 +115,10 @@
         <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
         <description>
         {{ if .Site.Params.RssFullText }}
-          {{ .Content | html }}
+          {{ .Content | html | safeHTML }}
         {{ else }}
-          {{ with .Description }}{{ . | html }}
-          {{ else }}{{ .Summary | html }}
+          {{ with .Description }}{{ . | html | safeHTML }}
+          {{ else }}{{ .Summary | html | safeHTML }}
           {{ end }}
         {{ end }}
         </description>
