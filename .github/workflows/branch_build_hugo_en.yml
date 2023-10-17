@@ -4,20 +4,15 @@ on:
   push:
     branches:
       - master
-    paths:
+    paths:      
       - "!contents/**" # Exclude the contents folder
       - "!github/**" # Exclude the .github folder
       - "!git/**" # Exclude the .git folder
-      - "config/**"
-      - "static/**"
-      - "layouts/**"
-      - "i18n/**"
-      - "themes/**"
       - "contents/**/*.en.md"
       - "index.en.md"
       - "**/index.en.md" # Include only *.en.md files within the content folder
-      - "index.en.html"
-      - "**/index.en.html"
+
+
 
 env:
   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
