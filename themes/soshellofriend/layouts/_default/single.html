@@ -59,10 +59,6 @@
       {{ end }}
     </div>
 
-    {{ if .Params.Cover }}
-      {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
-    {{ end }}
-
     {{ if .Params.tags }}
       {{ $filteredTags := slice }}
       {{ range .Params.tags }}
@@ -78,6 +74,10 @@
           {{ end }}
         </span>
       {{ end }}
+    {{ end }}
+
+    {{ if .Params.Cover }}
+      {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
 
     {{ partialCached "share-buttons.html" . .Page .Page.Page }} 
