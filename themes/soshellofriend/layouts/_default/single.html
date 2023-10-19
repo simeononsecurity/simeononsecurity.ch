@@ -116,12 +116,22 @@
     {{ partialCached "comments.html" . .Page .Page.Page }}
     <br>
     {{ if .Params.tags }}
-    <h2>Tags</h2>
-    <span class="post-tags">
+      {{ tagsh2 := 0 }}
       {{ range .Params.tags }}
-        <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+        {{ if ge ($.Site.Taxonomies.tags.Count .) 2}}
+          {{ tagsh2 = 1 }}    
+        {{ end }}
       {{ end }}
-    </span>
+      {{ if $tagsh2}} 
+        <h2>Tags</h2>
+      {{ end }}
+      <span class="post-tags">
+        {{ range .Params.tags }}
+          {{ if ge ($.Site.Taxonomies.tags.Count .) 2}}
+            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+          {{ end }}
+        {{ end }}
+      </span>
     {{ end }}
   </article>
 {{ end }}
