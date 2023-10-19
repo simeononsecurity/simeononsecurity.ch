@@ -16,7 +16,7 @@ Pe lângă pagina actualizată, SimeonOnSecurity a mai descoperit și câteva re
 Alte două resurse sunt legate de conversia datelor JSON în PowerShell. Documentația Microsoft oferă informații despre cmdleturile ConvertFrom-Json și ConvertTo-Json. Aceste cmdlet-uri fac posibilă conversia datelor JSON în și din obiecte PowerShell, permițând o manipulare și o analiză mai ușoară a datelor.
 
 ## Pagini actualizate:
-- [HackTheBox - Invite Challenge (Windows/Linux)](https://simeononsecurity.ch/writeups/hackthebox-invite-challenge/)
+- [HackTheBox - Invite Challenge (Windows/Linux)](https://simeononsecurity.com/writeups/hackthebox-invite-challenge/)
 
 ## Resurse de învățare:
 - [Cameron Nokes - Working with JSON in bash using jq](https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/)

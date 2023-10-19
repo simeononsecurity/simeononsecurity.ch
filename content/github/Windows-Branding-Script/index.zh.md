@@ -31,6 +31,6 @@ Get-ChildItem -Recurse *.ps1 | Unblock-File
 #### 自动安装：
 可以像这样从 GitHub 下载的提取文件中启动脚本：
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/sosbranding.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/sosbranding.ps1'|iex
 ```
 

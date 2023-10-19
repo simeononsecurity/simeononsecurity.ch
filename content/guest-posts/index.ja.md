@@ -11,11 +11,11 @@ coverCaption: "ゲストブログを通じて、あなたの専門知識や見�
 
 当サイトへの寄稿にご関心をお寄せいただき、ありがとうございます！私たちは、私たちのコンテンツの焦点に沿ったゲストブログの投稿を歓迎します。記事を投稿するには、以下の手順に従ってください：
 
-1.以下のウェブフォームからご連絡ください。 [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/)をクリックして、ゲスト・ブログへの興味を表明してください。
+1.以下のウェブフォームからご連絡ください。 [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/)をクリックして、ゲスト・ブログへの興味を表明してください。
 
 2.記事をMarkdown (md)またはHTML形式で準備する。
 
-3.以下のGitHubリポジトリにプルリクエストを提出する。 [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
+3.以下のGitHubリポジトリにプルリクエストを提出する。 [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
 
 4.以下の例に示すように、あなたの記事がすべての必要な変数を含む有効なフロントマター（メタデータ）を含んでいることを確認してください：
 
@@ -122,7 +122,7 @@ SimeonOnSecurityでは、ゲストブログは主にネットワーキングと�
 
 - SimeonOnSecurityのコンテンツの質と関連性を維持するため、これらのガイドラインに従うことへのご理解とご協力をお願いいたします。
 
-皆様の貴重なご投稿をお待ちしております。ご質問やご不明な点がございましたら、ご遠慮なく下記までご連絡ください。 [webform](https://simeononsecurity.ch/contactus/)
+皆様の貴重なご投稿をお待ちしております。ご質問やご不明な点がございましたら、ご遠慮なく下記までご連絡ください。 [webform](https://simeononsecurity.com/contactus/)
 
 ***ハッピー・ライティング！***
 

@@ -20,15 +20,15 @@ Antes de profundizar en los consejos, es fundamental comprender por qué es impo
 
 #### Los riesgos de estar en línea
 
-Cada vez que te conectas a Internet, corres el riesgo de ser víctima de estafas, filtraciones de datos u otras ciberamenazas. Algunos de estos riesgos son **descargar programas maliciosos sin saberlo, facilitar sus datos personales a piratas informáticos, entrar en sitios web fraudulentos**, y otros. Por desgracia, los riesgos no se limitan a los adultos; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Por lo tanto, se ha vuelto crucial saber cómo protegerse a sí mismo y a sus seres queridos al utilizar los servicios en línea.
+Cada vez que te conectas a Internet, corres el riesgo de ser víctima de estafas, filtraciones de datos u otras ciberamenazas. Algunos de estos riesgos son **descargar programas maliciosos sin saberlo, facilitar sus datos personales a piratas informáticos, entrar en sitios web fraudulentos**, y otros. Por desgracia, los riesgos no se limitan a los adultos; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Por lo tanto, se ha vuelto crucial saber cómo protegerse a sí mismo y a sus seres queridos al utilizar los servicios en línea.
 
 Una forma de protegerse de las estafas en línea es tener cuidado al abrir **correos electrónicos de remitentes desconocidos**. Estos correos pueden contener enlaces de phishing que pueden robar su información personal. También es importante tener cuidado al descargar software de Internet. Algunos pueden contener programas maliciosos que pueden dañar tu dispositivo o robar tus datos.
 
-Otro riesgo de estar en línea es [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) El ciberacoso puede tener graves repercusiones en la salud mental y el bienestar de una persona. Es esencial hablar con sus hijos de los peligros del ciberacoso y de cómo denunciarlo.
+Otro riesgo de estar en línea es [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) El ciberacoso puede tener graves repercusiones en la salud mental y el bienestar de una persona. Es esencial hablar con sus hijos de los peligros del ciberacoso y de cómo denunciarlo.
 
 #### Proteger su información personal
 
-Su información personal es valiosa y debe ser protegida. Acostúmbrese a utilizar [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) y tenga cuidado al compartir su información en línea. Evite compartir datos sensibles, como su **número de la Seguridad Social, números de tarjetas de crédito y direcciones particulares**. Utilice sitios web legítimos que dispongan de **certificados SSL** para asegurarse de que sus datos se encriptan antes de la transmisión.
+Su información personal es valiosa y debe ser protegida. Acostúmbrese a utilizar [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) y tenga cuidado al compartir su información en línea. Evite compartir datos sensibles, como su **número de la Seguridad Social, números de tarjetas de crédito y direcciones particulares**. Utilice sitios web legítimos que dispongan de **certificados SSL** para asegurarse de que sus datos se encriptan antes de la transmisión.
 
 También es importante **mantener el software y los dispositivos actualizados**. Las actualizaciones de software suelen incluir parches de seguridad que pueden proteger su dispositivo de ciberataques. Además, tenga cuidado cuando utilice redes Wi-Fi públicas. Las redes Wi-Fi públicas no suelen ser seguras, lo que significa que tus datos pueden ser interceptados por ciberdelincuentes.
 
@@ -48,13 +48,13 @@ El software obsoleto es una de las formas más comunes en que los piratas inform
 
 #### Utilice contraseñas seguras y autenticación de dos factores
 
-Cree [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) utilizando una combinación de letras mayúsculas y minúsculas, números y símbolos. Intente que tenga al menos 12 caracteres. La autenticación de dos factores añade una capa adicional de protección al pedirte que facilites un código adicional recibido por SMS o correo electrónico antes de acceder a tu cuenta.
+Cree [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) utilizando una combinación de letras mayúsculas y minúsculas, números y símbolos. Intente que tenga al menos 12 caracteres. La autenticación de dos factores añade una capa adicional de protección al pedirte que facilites un código adicional recibido por SMS o correo electrónico antes de acceder a tu cuenta.
 
 El uso de contraseñas poco seguras es una de las formas más fáciles que tienen los piratas informáticos de acceder a sus cuentas e información personal. Si creas contraseñas seguras y activas la autenticación de doble factor, puedes reducir significativamente el riesgo de que pirateen tus cuentas.
 
 #### Proteja su red Wi-Fi
 
-Utilice [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) para proteger tu red Wi-Fi y evitar el acceso no autorizado a tus dispositivos y datos. No utilices contraseñas predeterminadas, ya que son fáciles de piratear.
+Utilice [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para proteger tu red Wi-Fi y evitar el acceso no autorizado a tus dispositivos y datos. No utilices contraseñas predeterminadas, ya que son fáciles de piratear.
 
 Su red Wi-Fi es la puerta de acceso a sus dispositivos y datos. Al proteger tu red Wi-Fi con una contraseña segura, puedes evitar el acceso no autorizado a tu red y proteger tus dispositivos y datos de las **amenazas cibernéticas**.
 
@@ -70,11 +70,11 @@ Al supervisar la actividad en su red, puede identificar rápidamente cualquier *
 
 En la era digital actual, los correos electrónicos y los mensajes se han convertido en un modo habitual de comunicación. Sin embargo, es importante tener cuidado al compartir datos personales a través de estos medios. **Los ciberdelincuentes** siempre están buscando formas de robar información personal, y los correos electrónicos y los mensajes son una de las maneras más fáciles de hacerlo.
 
-[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) son una forma habitual que tienen los ciberdelincuentes de obtener información personal. Estas estafas le engañan haciéndole creer que se está comunicando con un contacto u organización legítimos y le piden que facilite información confidencial. Los correos electrónicos o mensajes pueden parecer auténticos, pero están diseñados para robar su información personal. Por lo tanto, es importante desconfiar de este tipo de estafas y no compartir ninguna información personal a través de correos electrónicos o mensajes.
+[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) son una forma habitual que tienen los ciberdelincuentes de obtener información personal. Estas estafas le engañan haciéndole creer que se está comunicando con un contacto u organización legítimos y le piden que facilite información confidencial. Los correos electrónicos o mensajes pueden parecer auténticos, pero están diseñados para robar su información personal. Por lo tanto, es importante desconfiar de este tipo de estafas y no compartir ninguna información personal a través de correos electrónicos o mensajes.
 
-#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) puede ser difícil de identificar, pero hay algunas cosas que puede hacer para protegerse. En primer lugar, compruebe la dirección de correo electrónico del remitente. Si le parece **sospechosa o desconocida**, no responda al mensaje. En segundo lugar, **desplácese por los enlaces** del mensaje para ver a dónde conducen antes de hacer clic. Si el enlace parece sospechoso, no haga clic en él. Por último, si no está seguro de la legitimidad de un correo electrónico o mensaje, póngase en contacto directamente con la organización o la persona para confirmar si son ellos quienes lo han enviado.
+[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) puede ser difícil de identificar, pero hay algunas cosas que puede hacer para protegerse. En primer lugar, compruebe la dirección de correo electrónico del remitente. Si le parece **sospechosa o desconocida**, no responda al mensaje. En segundo lugar, **desplácese por los enlaces** del mensaje para ver a dónde conducen antes de hacer clic. Si el enlace parece sospechoso, no haga clic en él. Por último, si no está seguro de la legitimidad de un correo electrónico o mensaje, póngase en contacto directamente con la organización o la persona para confirmar si son ellos quienes lo han enviado.
 
 #### Evite hacer clic en enlaces sospechosos
 
@@ -120,11 +120,11 @@ Aunque compres en sitios web seguros, siempre existe el riesgo de fraude. Por es
 
 La mayoría de los bancos y compañías de tarjetas de crédito disponen de **sistemas de detección de fraudes** que pueden alertarle de actividades sospechosas. Sin embargo, sigue siendo importante que vigiles tus extractos y notifiques cualquier transacción no autorizada lo antes posible.
 
-#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Otra forma de proteger su información financiera es utilizar [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Evite utilizar la misma contraseña para varias cuentas y no use contraseñas fáciles de adivinar como "123456" o "password". En su lugar, utilice una combinación de letras, números y símbolos para crear una contraseña fuerte y única para cada cuenta.
+Otra forma de proteger su información financiera es utilizar [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Evite utilizar la misma contraseña para varias cuentas y no use contraseñas fáciles de adivinar como "123456" o "password". En su lugar, utilice una combinación de letras, números y símbolos para crear una contraseña fuerte y única para cada cuenta.
 
-Considere la posibilidad de utilizar una [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) para ayudarte a crear y almacenar contraseñas seguras. Los gestores de contraseñas pueden generar contraseñas aleatorias por ti y almacenarlas de forma segura para que no tengas que recordarlas.
+Considere la posibilidad de utilizar una [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) para ayudarte a crear y almacenar contraseñas seguras. Los gestores de contraseñas pueden generar contraseñas aleatorias por ti y almacenarlas de forma segura para que no tengas que recordarlas.
 
 #### Conclusión
 
@@ -140,13 +140,13 @@ He aquí algunos consejos que le ayudarán a mantenerse seguro:
 * Activa el **doble factor de autenticación** siempre que sea posible.
 * Tenga cuidado con los **correos electrónicos, enlaces y archivos adjuntos sospechosos**.
 * Mantenga su software y sistema operativo **actualizados**.
-* Utiliza [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) y un **cortafuegos**
+* Utiliza [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) y un **cortafuegos**
 
 #### Manténgase informado sobre las amenazas en línea
 
 Es importante mantenerse al día de las últimas **amenazas de seguridad** y vulnerabilidades para protegerse a sí mismo y a su familia. Los ciberdelincuentes están constantemente ideando nuevas tácticas para robar información personal, infectar dispositivos con **malware** y estafar a la gente.
 
-Puedes mantenerte informado siguiendo **blogs de seguridad** y medios de comunicación de confianza, y suscribiéndote a las alertas de seguridad de tu [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/)
+Puedes mantenerte informado siguiendo **blogs de seguridad** y medios de comunicación de confianza, y suscribiéndote a las alertas de seguridad de tu [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
 
 #### Enseñar a los niños la seguridad en Internet
 
@@ -163,23 +163,23 @@ Si sigues estos consejos, podrás protegerte a ti y a tu familia de las amenazas
 
 ### Utiliza un software de seguridad fiable
 
-Instale [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) para proteger su red y evitar el acceso no autorizado a sus datos.
+Instale [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) para proteger su red y evitar el acceso no autorizado a sus datos.
 
-Con la cantidad cada vez mayor de **amenazas cibernéticas**, es importante asegurarse de que sus dispositivos están protegidos con un software de seguridad fiable. Instalación de [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/) y **el software antimalware** en sus dispositivos es un paso crucial para proteger su información personal y confidencial. Estos programas están diseñados para detectar, prevenir y eliminar software malicioso que puede dañar tu ordenador y robar tus datos.
+Con la cantidad cada vez mayor de **amenazas cibernéticas**, es importante asegurarse de que sus dispositivos están protegidos con un software de seguridad fiable. Instalación de [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) y **el software antimalware** en sus dispositivos es un paso crucial para proteger su información personal y confidencial. Estos programas están diseñados para detectar, prevenir y eliminar software malicioso que puede dañar tu ordenador y robar tus datos.
 
-**Cortafuegos** y [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) también son herramientas esenciales para proteger su red. Los cortafuegos actúan como una barrera entre su dispositivo e Internet, bloqueando el tráfico no deseado e impidiendo que los piratas informáticos accedan a su red. Los servicios VPN, por su parte, crean una conexión segura y encriptada entre tu dispositivo e Internet, proporcionando una capa extra de protección contra las ciberamenazas.
+**Cortafuegos** y [**VPN services**](https://simeononsecurity.com/recommendations/vpns) también son herramientas esenciales para proteger su red. Los cortafuegos actúan como una barrera entre su dispositivo e Internet, bloqueando el tráfico no deseado e impidiendo que los piratas informáticos accedan a su red. Los servicios VPN, por su parte, crean una conexión segura y encriptada entre tu dispositivo e Internet, proporcionando una capa extra de protección contra las ciberamenazas.
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
 
-Utilice [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/) y antimalware para proteger su ordenador de **virus, malware** y otras ciberamenazas. Estos programas pueden detectar y eliminar software malicioso que puede dañar su ordenador y poner en peligro sus datos. Es importante mantener estos programas **actualizados** y realizar escaneos regulares para asegurarse de que su dispositivo está protegido.
+Utilice [antivirus](https://simeononsecurity.com/recommendations/anti-virus/) y antimalware para proteger su ordenador de **virus, malware** y otras ciberamenazas. Estos programas pueden detectar y eliminar software malicioso que puede dañar su ordenador y poner en peligro sus datos. Es importante mantener estos programas **actualizados** y realizar escaneos regulares para asegurarse de que su dispositivo está protegido.
 
 Algunos programas antivirus y antimalware populares son **Norton, McAfee y Avast**. Estos programas ofrecen **protección en tiempo real** contra ciberamenazas, **actualizaciones automáticas** y otras funciones que pueden ayudar a mantener seguro tu dispositivo.
 
 #### Servicios de cortafuegos y VPN
 
-Un **cortafuegos** y [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns) Proteja su red de programas maliciosos y accesos no autorizados creando una red segura y privada dentro de otra pública. Los cortafuegos supervisan y controlan el tráfico de red entrante y saliente, mientras que las VPN cifran tu conexión a Internet y ocultan tu dirección IP, lo que dificulta a los piratas informáticos interceptar tus datos.
+Un **cortafuegos** y [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns) Proteja su red de programas maliciosos y accesos no autorizados creando una red segura y privada dentro de otra pública. Los cortafuegos supervisan y controlan el tráfico de red entrante y saliente, mientras que las VPN cifran tu conexión a Internet y ocultan tu dirección IP, lo que dificulta a los piratas informáticos interceptar tus datos.
 
-Hay muchos **cortafuegos** y [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns)
+Hay muchos **cortafuegos** y [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
 
 Mediante el uso de **software de seguridad fiable**, puede proteger sus dispositivos y redes de las ciberamenazas y garantizar que su información personal y confidencial permanezca a salvo y segura.
 
@@ -195,11 +195,11 @@ Por lo tanto, es importante **evitar conectarse a servicios personales** en rede
 
 Además, es importante tener cuidado al utilizar ordenadores públicos para transacciones confidenciales. Estos ordenadores pueden tener instalados **keyloggers** u otros programas maliciosos, que pueden capturar sus pulsaciones y robar su información personal.
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
 
 Una **VPN**, o **red privada virtual**, es una herramienta de seguridad que cifra tu conexión a Internet y oculta tu dirección IP. Esto dificulta que los hackers intercepten tus datos y protege tu dispositivo de posibles ataques.
 
-Cuando utilices una red Wi-Fi pública, es muy recomendable usar una [**VPN service**](https://simeononsecurity.ch/recommendations/vpns) para cifrar tus datos. Esto garantizará que su información personal permanezca segura, aunque la red no sea segura. Muchos servicios VPN están disponibles de forma gratuita o por una pequeña cuota, y son fáciles de instalar y utilizar en tu dispositivo.
+Cuando utilices una red Wi-Fi pública, es muy recomendable usar una [**VPN service**](https://simeononsecurity.com/recommendations/vpns) para cifrar tus datos. Esto garantizará que su información personal permanezca segura, aunque la red no sea segura. Muchos servicios VPN están disponibles de forma gratuita o por una pequeña cuota, y son fáciles de instalar y utilizar en tu dispositivo.
 
 En general, es importante ser precavido al utilizar Wi-Fi públicas y tomar las precauciones necesarias para proteger tus datos. Si utiliza un servicio **VPN** y evita las redes no seguras, podrá permanecer conectado y mantener a salvo su información personal.
 

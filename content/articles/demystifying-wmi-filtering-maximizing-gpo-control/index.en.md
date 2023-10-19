@@ -13,11 +13,11 @@ coverCaption: "Harness the Power of WMI Filtering for Efficient GPO Policy Targe
 
 ##  Introduction
 
-In the realm of Group Policy Objects (GPOs), [**WMI filtering**](https://simeononsecurity.ch/github/wmi-filters/) plays a crucial role in controlling the application of policies to specific computers or users based on their WMI (Windows Management Instrumentation) query results. This powerful feature allows administrators to fine-tune policy targeting and ensure that policies are only applied to the desired targets. In this article, we will explore the concept of WMI filtering, understand how it works within GPOs, learn how to create [WMI filters](https://simeononsecurity.ch/github/wmi-filters/) for GPOs, and discover some practical examples.
+In the realm of Group Policy Objects (GPOs), [**WMI filtering**](https://simeononsecurity.com/github/wmi-filters/) plays a crucial role in controlling the application of policies to specific computers or users based on their WMI (Windows Management Instrumentation) query results. This powerful feature allows administrators to fine-tune policy targeting and ensure that policies are only applied to the desired targets. In this article, we will explore the concept of WMI filtering, understand how it works within GPOs, learn how to create [WMI filters](https://simeononsecurity.com/github/wmi-filters/) for GPOs, and discover some practical examples.
 
-## [What is WMI Filtering?](https://simeononsecurity.ch/github/wmi-filters/)
+## [What is WMI Filtering?](https://simeononsecurity.com/github/wmi-filters/)
 
-[**WMI filtering**](https://simeononsecurity.ch/github/wmi-filters/) refers to the process of applying filters to GPOs based on the results of WMI queries. WMI is a management infrastructure built into Windows operating systems, enabling administrators to retrieve management data and interact with system resources programmatically. By utilizing WMI filtering, administrators can dynamically target GPOs based on specific criteria determined by WMI queries.
+[**WMI filtering**](https://simeononsecurity.com/github/wmi-filters/) refers to the process of applying filters to GPOs based on the results of WMI queries. WMI is a management infrastructure built into Windows operating systems, enabling administrators to retrieve management data and interact with system resources programmatically. By utilizing WMI filtering, administrators can dynamically target GPOs based on specific criteria determined by WMI queries.
 
 WMI filters are written using the WMI Query Language (WQL), a subset of SQL (Structured Query Language). The filters are typically constructed based on properties and values available in the WMI namespace. Administrators can leverage various conditions, logical operators, and namespaces to craft complex WMI queries that accurately target specific computers or users.
 

@@ -26,11 +26,11 @@ Le National Institute of Standards and Technology (NIST) a publié une directive
 
 ### Nettoyage
 
-L'effacement consiste à remplacer les données d'un appareil par une série de valeurs binaires. Cette méthode est moins sûre que la destruction physique, mais reste efficace pour assainir la plupart des supports amovibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par le Département de la Défense (DoD). [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) spécification.
+L'effacement consiste à remplacer les données d'un appareil par une série de valeurs binaires. Cette méthode est moins sûre que la destruction physique, mais reste efficace pour assainir la plupart des supports amovibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par le Département de la Défense (DoD). [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) spécification.
 
 ### Purge
 
-La purge consiste à écraser plusieurs fois les données d'un dispositif avec un modèle de valeurs binaires. Cette méthode est plus sûre que l'effacement et est recommandée pour assainir les données sensibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par la [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) spécification.
+La purge consiste à écraser plusieurs fois les données d'un dispositif avec un modèle de valeurs binaires. Cette méthode est plus sûre que l'effacement et est recommandée pour assainir les données sensibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par la [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) spécification.
 
 __________________________________________
 

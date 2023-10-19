@@ -31,6 +31,6 @@ Get-ChildItem -Recurse *.ps1 | Unblock-File
 ### 自動インストール：
 スクリプトは、GitHubからダウンロードしたものを次のように起動することができます：
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/sosbranding.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/sosbranding.ps1'|iex
 ```
 

@@ -97,7 +97,7 @@ Zaleca się, aby UAC był włączony i ustawiony na poziomie, który zapewnia od
 
 Konfigurując ustawienia UAC, zwiększasz bezpieczeństwo swojego systemu Windows 10, zapewniając, że uprawnienia administracyjne są wymagane do krytycznych zmian w systemie, zmniejszając ryzyko nieautoryzowanego dostępu i infekcji złośliwym oprogramowaniem.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 Używanie silnych haseł jest niezbędne do utrzymania bezpieczeństwa systemu Windows 10 i ochrony przed nieautoryzowanym dostępem. Słabe lub łatwe do odgadnięcia hasła mogą sprawić, że system będzie podatny na ataki, takie jak ataki siłowe lub łamanie haseł.
 
 Aby upewnić się, że wszystkie konta użytkowników w systemie Windows 10 mają silne hasła, postępuj zgodnie z tymi najlepszymi praktykami dotyczącymi haseł:
@@ -116,7 +116,7 @@ Aby upewnić się, że wszystkie konta użytkowników w systemie Windows 10 maj�
 
 Wdrażając silne praktyki dotyczące haseł, znacznie zwiększasz bezpieczeństwo swojego systemu Windows 10 i zmniejszasz ryzyko nieautoryzowanego dostępu lub naruszenia danych. Regularnie edukuj użytkowników w zakresie bezpieczeństwa haseł i udostępniaj zasoby, takie jak mierniki siły hasła lub wytyczne dotyczące tworzenia haseł, aby pomóc im w tworzeniu silnych haseł.
 
-Więcej szczegółowych informacji na temat tworzenia silnych haseł i najlepszych praktyk można znaleźć tutaj [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Zapewnia kompleksowe wskazówki dotyczące bezpieczeństwa haseł i oferuje porady dotyczące tworzenia silnych i łatwych do zapamiętania haseł.
+Więcej szczegółowych informacji na temat tworzenia silnych haseł i najlepszych praktyk można znaleźć tutaj [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Zapewnia kompleksowe wskazówki dotyczące bezpieczeństwa haseł i oferuje porady dotyczące tworzenia silnych i łatwych do zapamiętania haseł.
 
 Należy pamiętać, że używanie silnych haseł jest podstawowym aspektem bezpieczeństwa systemu i powinno być traktowane priorytetowo w celu ochrony poufnych danych i zapewnienia integralności środowiska Windows 10.
 
@@ -200,7 +200,7 @@ Więcej szczegółowych informacji na temat wdrażania zasad AppLocker można zn
 
 Pamiętaj, aby regularnie przeglądać i aktualizować zasady AppLocker, aby dostosować je do zmieniających się wymagań aplikacji i pojawiających się zagrożeń bezpieczeństwa. AppLocker jest cennym narzędziem do obrony przed nieautoryzowanymi i potencjalnie szkodliwymi aplikacjami w systemie Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Regularne tworzenie kopii zapasowych danych jest niezbędną praktyką w celu ochrony przed utratą danych spowodowaną incydentami bezpieczeństwa, awariami sprzętu lub innymi nieoczekiwanymi zdarzeniami. Tworząc regularne kopie zapasowe i weryfikując ich integralność, można zagwarantować, że ważne dane pozostaną bezpieczne i będzie można je przywrócić w przypadku katastrofy.
 
 Wykonaj poniższe kroki, aby regularnie tworzyć kopie zapasowe danych w systemie Windows 10:
@@ -221,7 +221,7 @@ Wykonaj poniższe kroki, aby regularnie tworzyć kopie zapasowe danych w systemi
 
 Postępując zgodnie z tymi krokami i przestrzegając regularnej procedury tworzenia kopii zapasowych, można zminimalizować wpływ utraty danych i utrzymać dostępność ważnych informacji. Pamiętaj o bezpiecznym przechowywaniu kopii zapasowych, z dala od oryginalnych danych i rozważ wdrożenie zasady **3-2-1 kopii zapasowych**, mając co najmniej trzy kopie danych, przechowywane na dwóch różnych nośnikach pamięci, z jedną kopią przechowywaną poza siedzibą firmy.
 
-Więcej szczegółowych informacji na temat najlepszych praktyk tworzenia kopii zapasowych i **zasady 3-2-1** można znaleźć w artykule na stronie [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Zawiera cenne spostrzeżenia i zalecenia dotyczące wdrażania skutecznej strategii tworzenia kopii zapasowych.
+Więcej szczegółowych informacji na temat najlepszych praktyk tworzenia kopii zapasowych i **zasady 3-2-1** można znaleźć w artykule na stronie [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Zawiera cenne spostrzeżenia i zalecenia dotyczące wdrażania skutecznej strategii tworzenia kopii zapasowych.
 
 Należy pamiętać, że regularne tworzenie kopii zapasowych ma kluczowe znaczenie dla ochrony danych i zapewnienia ich dostępności w przypadku nieprzewidzianych zdarzeń. Uczyń tworzenie kopii zapasowych danych integralną częścią wysiłków związanych z utwardzaniem systemu Windows 10, aby chronić swoje cenne informacje.
 

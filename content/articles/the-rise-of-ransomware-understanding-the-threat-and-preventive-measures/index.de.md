@@ -36,17 +36,17 @@ Im Jahr 2017 hat die[WannaCry ransomware attack](https://www.cisa.gov/wannacry) 
 
 Vorbeugende Maßnahmen können Einzelpersonen und Unternehmen helfen, sich vor Ransomware-Angriffen zu schützen. Im Folgenden finden Sie einige Präventivmaßnahmen, die Sie in Betracht ziehen sollten:
 
--[**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regelmäßige Datensicherungen können im Falle eines Ransomware-Angriffs helfen, Daten wiederherzustellen.
+-[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regelmäßige Datensicherungen können im Falle eines Ransomware-Angriffs helfen, Daten wiederherzustellen.
 
--[**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Halten Sie die gesamte Software, einschließlich Betriebssysteme und Anwendungen, mit den neuesten Sicherheits-Patches auf dem neuesten Stand.
+-[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Halten Sie die gesamte Software, einschließlich Betriebssysteme und Anwendungen, mit den neuesten Sicherheits-Patches auf dem neuesten Stand.
 
--[**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Installieren und verwenden Sie Antiviren-Software, um Ransomware-Angriffe zu erkennen und zu verhindern.
+-[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Installieren und verwenden Sie Antiviren-Software, um Ransomware-Angriffe zu erkennen und zu verhindern.
 
--[**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Informieren Sie Ihre Mitarbeiter darüber, wie sie Phishing-E-Mails und andere Arten von Social Engineering-Angriffen erkennen und vermeiden können.
+-[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Informieren Sie Ihre Mitarbeiter darüber, wie sie Phishing-E-Mails und andere Arten von Social Engineering-Angriffen erkennen und vermeiden können.
 
--[**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) um unbefugten Zugriff auf Konten zu verhindern.
+-[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) um unbefugten Zugriff auf Konten zu verhindern.
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Verwenden Sie ein VPN, um den Internetverkehr zu verschlüsseln und sich vor netzbasierten Angriffen zu schützen.
+-[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Verwenden Sie ein VPN, um den Internetverkehr zu verschlüsseln und sich vor netzbasierten Angriffen zu schützen.
 
 ## Fazit
 

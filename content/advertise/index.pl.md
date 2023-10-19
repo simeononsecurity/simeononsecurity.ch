@@ -12,7 +12,7 @@ Dziękujemy za zainteresowanie reklamą w SimeonOnSecurity! Oferujemy różne ro
 
 Obrazy powinny być dostarczone w formacie `.png` lub `.webp` aby zapewnić optymalną wydajność i jakość reklam.
 
-Aby zareklamować się u nas, wyślij wiadomość za pośrednictwem naszego formularza kontaktowego na stronie [Contact Us](https://simeononsecurity.ch/contactus/) Skontaktujemy się z Tobą niezwłocznie, aby omówić dostępne opcje reklamowe i ceny.
+Aby zareklamować się u nas, wyślij wiadomość za pośrednictwem naszego formularza kontaktowego na stronie [Contact Us](https://simeononsecurity.com/contactus/) Skontaktujemy się z Tobą niezwłocznie, aby omówić dostępne opcje reklamowe i ceny.
 
 Z niecierpliwością czekamy na współpracę z Tobą w celu promowania Twojej marki i dotarcia do naszej zaangażowanej publiczności entuzjastów bezpieczeństwa i profesjonalistów!
 

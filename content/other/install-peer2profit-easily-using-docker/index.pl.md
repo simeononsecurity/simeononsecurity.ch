@@ -22,7 +22,7 @@ Aby rozpocząć, utwórz konto na stronie [peer2profit.com](https://peer2profit.
 ### Instalacja kontenera Docker:
 Wykonaj poniższe kroki, aby zainstalować kontener Docker Peer 2 Profit:
 
-0. Ucz się [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Ucz się [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Otwórz terminal i wprowadź następujące polecenie, zastępując "your_email_without_quotes" swoim rzeczywistym adresem e-mail:
 ```bash
@@ -41,7 +41,7 @@ Aby uzyskać przewodnik wizualny, możesz obejrzeć poniższy samouczek wideo:
 ## Podsumowanie
 Instalując Peer 2 Profit i udostępniając swój Internet, masz możliwość zarabiania pasywnego dochodu bez wysiłku. Dzięki przyjaznemu dla użytkownika interfejsowi i wielu opcjom wypłat, Peer 2 Profit oferuje wygodny sposób zarabiania na połączeniu internetowym. Zacznij już dziś i zacznij zarabiać!
 
-Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+Gdy skończysz, powinieneś [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Referencje
 - [Peer 2 Profit](https://peer2profit.com/)

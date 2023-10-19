@@ -24,15 +24,15 @@ In de afgelopen jaren is cyberbeveiliging een cruciaal aspect van ons digitale l
 
 Voordat u zich in de wereld van cyberbeveiliging stort, is het belangrijk om een solide fundament van kennis te leggen. Hier zijn enkele essentiële gebieden waarop u zich moet richten:
 
-1. **Netwerken**: Inzicht in de grondbeginselen van netwerken is cruciaal voor cyberbeveiliging. Maak jezelf vertrouwd met netwerkprotocollen, IP-adressering, routing en [subnetting](https://simeononsecurity.ch/articles/how-to-perform-network-segmentation-for-improved-security/) Overweeg het behalen van een certificering zoals CompTIA Network+ om je netwerkkennis te valideren.
+1. **Netwerken**: Inzicht in de grondbeginselen van netwerken is cruciaal voor cyberbeveiliging. Maak jezelf vertrouwd met netwerkprotocollen, IP-adressering, routing en [subnetting](https://simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/) Overweeg het behalen van een certificering zoals CompTIA Network+ om je netwerkkennis te valideren.
 
 2. **Besturingssystemen**: Krijg vaardigheid in zowel Linux als Windows besturingssystemen. Leer navigeren met de opdrachtregel, systeeminstellingen configureren en gebruikersaccounts beheren. CompTIA A+ en Linux+ certificeringen zijn uitstekende startpunten om je kennis van besturingssystemen te vergroten.
 
 3. **Basisbegrippen uit de informatica**: Verwerf een basiskennis van de principes van computerwetenschappen, waaronder algoritmen, gegevensstructuren en programmeertalen. Deze kennis helpt je bij het analyseren van kwetsbaarheden en het ontwikkelen van veilige softwaretoepassingen.
 
-4. **Codeervaardigheden**: [Learning a programming language](https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/) like [Python](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) is highly valuable in cybersecurity. [Python](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) is versatile, widely used, and offers powerful libraries for security-related tasks. Additionally, knowledge of scripting languages like [PowerShell](https://simeononsecurity.ch/articles/learning-powershell-scripting-for-beginners/) kan voordelig zijn bij het automatiseren van beveiligingstaken.
+4. **Codeervaardigheden**: [Learning a programming language](https://simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/) like [Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) is highly valuable in cybersecurity. [Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) is versatile, widely used, and offers powerful libraries for security-related tasks. Additionally, knowledge of scripting languages like [PowerShell](https://simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/) kan voordelig zijn bij het automatiseren van beveiligingstaken.
 
-5. **Systeembeheer**: Ervaring opdoen met enterprise systeembeheer geeft je inzicht in het beheren van complexe IT-infrastructuren. Maak jezelf vertrouwd met Active Directory, Groepsbeleid en [system hardening techniques](https://simeononsecurity.ch/github/windows-optimize-harden-debloat/)
+5. **Systeembeheer**: Ervaring opdoen met enterprise systeembeheer geeft je inzicht in het beheren van complexe IT-infrastructuren. Maak jezelf vertrouwd met Active Directory, Groepsbeleid en [system hardening techniques](https://simeononsecurity.com/github/windows-optimize-harden-debloat/)
 
 ### Cyberbeveiligingsdomeinen verkennen
 
@@ -40,7 +40,7 @@ Cyberbeveiliging omvat verschillende domeinen, elk met zijn eigen unieke focus. 
 
 1. **Blauw team**: Blue Team-professionals richten zich op de verdediging van systemen en netwerken tegen cyberbedreigingen. Ze ontwerpen en implementeren beveiligingsmaatregelen, monitoren netwerkverkeer en reageren op incidenten. Ze verwerven kennis van beveiligingstools, technologieën en best practices voor een effectieve verdediging.
 
-2. **Red Team**: Red Team professionals, ook bekend als ethische hackers, zijn gespecialiseerd in het beoordelen van zwakke plekken in systemen door middel van gesimuleerde aanvallen. Ze identificeren zwakke plekken in beveiligingssystemen, voeren penetratietests uit en helpen organisaties hun verdediging te versterken. Ontwikkel praktische vaardigheden in ethische hacktechnieken en maak jezelf vertrouwd met tools zoals [Metasploit](https://simeononsecurity.ch/articles/what-is-metasploit/) and [Burp Suite](https://simeononsecurity.ch/articles/the-role-of-penetration-testing-in-cybersecurity/)
+2. **Red Team**: Red Team professionals, ook bekend als ethische hackers, zijn gespecialiseerd in het beoordelen van zwakke plekken in systemen door middel van gesimuleerde aanvallen. Ze identificeren zwakke plekken in beveiligingssystemen, voeren penetratietests uit en helpen organisaties hun verdediging te versterken. Ontwikkel praktische vaardigheden in ethische hacktechnieken en maak jezelf vertrouwd met tools zoals [Metasploit](https://simeononsecurity.com/articles/what-is-metasploit/) and [Burp Suite](https://simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/)
 
 3. **Paars Team**: Het Purple Team combineert elementen van zowel het Blue als het Red Team. Ze werken samen om de algemene beveiliging te verbeteren door realistische aanvalsscenario's te simuleren, verdedigingen te evalueren en inzichten te delen. Deze rol vereist vaardigheid in zowel defensieve als offensieve technieken.
 
@@ -48,9 +48,9 @@ Cyberbeveiliging omvat verschillende domeinen, elk met zijn eigen unieke focus. 
 
 Hoewel certificeringen niet verplicht zijn, kunnen ze uw inzetbaarheid aanzienlijk vergroten en uw betrokkenheid bij het vak aantonen. Overweeg de volgende certificeringen te behalen:
 
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Deze certificering op instapniveau valideert je begrip van beveiligingsconcepten, netwerkbeveiliging en beveiligingspraktijken.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Deze certificering richt zich op ethische hackingtechnieken en -methodologieën, waarmee je kwetsbaarheden kunt beoordelen en beperken.
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) CISSP is een wereldwijd erkende certificering die je expertise in verschillende beveiligingsdomeinen valideert.
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Deze certificering op instapniveau valideert je begrip van beveiligingsconcepten, netwerkbeveiliging en beveiligingspraktijken.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Deze certificering richt zich op ethische hackingtechnieken en -methodologieën, waarmee je kwetsbaarheden kunt beoordelen en beperken.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) CISSP is een wereldwijd erkende certificering die je expertise in verschillende beveiligingsdomeinen valideert.
 
 Voortdurend leren en op de hoogte blijven van de nieuwste trends, tools en technieken is cruciaal in cyberbeveiliging. Volg industrieblogs, neem deel aan online communities en woon cyberbeveiligingsconferenties bij om uw kennis uit te breiden en te netwerken met professionals.
 

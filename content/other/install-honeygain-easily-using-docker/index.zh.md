@@ -23,7 +23,7 @@ coverCaption: ""
 
 #### 安装 Docker
 
-学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 安装 Docker 容器：
 用明显的电子邮件、密码和设备名称修改字符串，然后粘贴到终端中
@@ -42,5 +42,5 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 
 总之，Honey Gain 提供了一个通过共享网络连接赚取被动收入的诱人机会。加入他们的网络，您就可以将闲置带宽变为货币，并将其转化为稳定的收入来源。不过，在决定使用这项服务之前，一定要了解支付流程的复杂性，并仔细评估细节。要开始使用 Honey Gain，请按照提供的安装和设置说明进行操作，然后开始轻松赚取被动收入的旅程。
 
-完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 

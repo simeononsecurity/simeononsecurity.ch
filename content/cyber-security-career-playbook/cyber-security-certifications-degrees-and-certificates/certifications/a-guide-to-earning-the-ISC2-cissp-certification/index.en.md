@@ -55,8 +55,8 @@ There are various study materials available to candidates, such as textbooks, on
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 ### Step 4: Practice with practice exams
 

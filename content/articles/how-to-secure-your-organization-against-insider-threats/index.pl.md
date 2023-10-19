@@ -37,7 +37,7 @@ __________
 
 Szkolenie powinno być zapewnione wszystkim nowym pracownikom i powinno być regularnie powtarzane dla obecnych pracowników. Gwarantuje to, że pracownicy są na bieżąco z najnowszymi zagrożeniami i wiedzą, jak na nie reagować. Ponadto organizacje powinny zapewnić ukierunkowane szkolenia pracownikom z uprzywilejowanym dostępem do wrażliwych danych i systemów.
 
-[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Szkolenia mogą przybierać różne formy, w tym kursy online, szkolenia osobiste i symulacje ataków phishingowych. Organizacje powinny wybrać format, który najlepiej pasuje do ich pracowników i powinny śledzić ukończenie szkolenia, aby upewnić się, że wszyscy pracownicy przeszli niezbędne szkolenie.
+[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Szkolenia mogą przybierać różne formy, w tym kursy online, szkolenia osobiste i symulacje ataków phishingowych. Organizacje powinny wybrać format, który najlepiej pasuje do ich pracowników i powinny śledzić ukończenie szkolenia, aby upewnić się, że wszyscy pracownicy przeszli niezbędne szkolenie.
 
 __________
 

@@ -63,7 +63,7 @@ ______
 
 La cybersécurité est un domaine en constante évolution, et il est essentiel pour les professionnels de ce secteur de se tenir au courant des dernières tendances et menaces. Voici quelques moyens de rester informé :
 
-- **Blogs et sites web** : Suivez des blogs et des sites web réputés sur la cybersécurité, tels que [simeononsecurity.ch](https://www.simeononsecurity.ch/) qui fournissent des articles et des analyses perspicaces sur les menaces et les tendances récentes dans le domaine de la cybernétique.
+- **Blogs et sites web** : Suivez des blogs et des sites web réputés sur la cybersécurité, tels que [simeononsecurity.com](https://www.simeononsecurity.com/) qui fournissent des articles et des analyses perspicaces sur les menaces et les tendances récentes dans le domaine de la cybernétique.
 - Conférences et événements du secteur** : Participez à des conférences et à des événements sur la cybersécurité pour vous informer auprès d'experts du secteur et nouer des contacts avec vos pairs.
 - Associations professionnelles** : Rejoignez des associations et des communautés professionnelles telles que l'Information Systems Security Association (ISSA) ou l'International Information System Security Certification Consortium (ISC)², qui offrent des ressources, des certifications et des possibilités de mise en réseau.
 - Apprentissage continu** : Participez à la formation continue en suivant des cours en ligne, des webinaires et des programmes de certification afin d'améliorer vos connaissances et vos compétences.
@@ -109,6 +109,6 @@ ______
 
 ## Références :
 
-1. [simeononsecurity.ch - Cybersecurity Blog](https://www.simeononsecurity.ch/)
+1. [simeononsecurity.com - Cybersecurity Blog](https://www.simeononsecurity.com/)
 2. [Information Systems Security Association (ISSA)](https://www.issa.org/)
 3. [International Information System Security Certification Consortium (ISC)²](https://www.isc2.org/)

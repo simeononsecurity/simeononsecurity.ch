@@ -123,4 +123,4 @@ ______
 - CIPM - Certified Information Privacy Manager: [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - Certified Information Security Manager: [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - Certified Information Privacy Professional/United States: [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
-- SimeonOnSecurity - Top certificări de securitate cibernetică pentru profesioniști guvernamentali și militari [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
+- SimeonOnSecurity - Top certificări de securitate cibernetică pentru profesioniști guvernamentali și militari [https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/)

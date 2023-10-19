@@ -17,7 +17,7 @@ Linux es un sistema operativo popular utilizado tanto por particulares como por 
 
 ### Mantenga su sistema actualizado
 
-Mantenga su [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) es crucial para mantener su seguridad. Las actualizaciones periódicas ayudan a corregir vulnerabilidades y errores de seguridad, garantizando que su sistema permanezca seguro frente a posibles ataques. Aquí tienes algunos ejemplos de cómo actualizar tu sistema Linux utilizando el gestor de paquetes **apt-get** o **yum**:
+Mantenga su [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/) es crucial para mantener su seguridad. Las actualizaciones periódicas ayudan a corregir vulnerabilidades y errores de seguridad, garantizando que su sistema permanezca seguro frente a posibles ataques. Aquí tienes algunos ejemplos de cómo actualizar tu sistema Linux utilizando el gestor de paquetes **apt-get** o **yum**:
 
 #### Actualización de Ubuntu mediante apt-get
 
@@ -296,7 +296,7 @@ ______
 
 Usar contraseñas débiles es un error común que puede dejar su sistema Linux vulnerable a ataques. Los atacantes pueden utilizar herramientas para adivinar contraseñas basadas en palabras comunes, nombres o fechas. Es importante utilizar contraseñas fuertes y únicas que no sean fáciles de adivinar.
 
-Puedes crear contraseñas seguras utilizando una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. También es una buena práctica utilizar una [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) también puede ayudarte a recordar tus contraseñas y evitar que utilices la misma contraseña para varias cuentas.
+Puedes crear contraseñas seguras utilizando una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. También es una buena práctica utilizar una [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) también puede ayudarte a recordar tus contraseñas y evitar que utilices la misma contraseña para varias cuentas.
 
 ### Permitir acceso root SSH
 

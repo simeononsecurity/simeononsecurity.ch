@@ -68,7 +68,7 @@ ______
 
 Kortom, het maken van een effectief cv is cruciaal voor cyberbeveiliging, softwareontwikkeling en IT-professionals die hun carrière willen bevorderen. Door uw cv af te stemmen op de functieomschrijving, uw technische vaardigheden en prestaties te laten zien, de nadruk te leggen op cyberbeveiliging en privacybewustzijn, uw probleemoplossend vermogen te benadrukken, duidelijk en beknopt te blijven, actiewerkwoorden en kwantificeerbare resultaten te gebruiken en op de hoogte te blijven van trends in de sector, kunt u een cv maken dat opvalt bij potentiële werkgevers.
 
-Voor meer algemene tips over het schrijven van een cv kunt u ook terecht bij [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) op simeononsecurity.ch, dat waardevolle inzichten en aanvullende begeleiding biedt.
+Voor meer algemene tips over het schrijven van een cv kunt u ook terecht bij [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) op simeononsecurity.com, dat waardevolle inzichten en aanvullende begeleiding biedt.
 
 ______
 

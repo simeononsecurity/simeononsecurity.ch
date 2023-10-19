@@ -84,7 +84,7 @@ Windows 10 は、そのままでは安全ではないオペレーティング �
 ### Automated Install:
 The script may be launched from the extracted GitHub download like this:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/standalonewindows.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/standalonewindows.ps1'))
 ```
 
 ### Manual Install:

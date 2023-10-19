@@ -50,7 +50,7 @@ Pentru a configura o rețea VPN sigură și rezistentă pentru lucrătorii la di
 
 1. **Selectați o soluție VPN**: Pe baza factorilor menționați anterior, alegeți o soluție VPN care se potrivește cel mai bine nevoilor organizației dvs.
 2. **Configurați serverul VPN**: Configurați un server VPN dedicat în cadrul organizației dvs. sau optați pentru o soluție bazată pe cloud. Configurați serverul în conformitate cu politicile și cerințele de securitate ale companiei dvs.
-3. **Configurați autentificarea**: Implementați o metodă de autentificare puternică, cum ar fi [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a vă asigura că numai angajații autorizați pot accesa VPN-ul.
+3. **Configurați autentificarea**: Implementați o metodă de autentificare puternică, cum ar fi [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a vă asigura că numai angajații autorizați pot accesa VPN-ul.
 4. **Distribuiți software-ul client VPN**: Oferiți lucrătorilor dvs. la distanță software-ul client VPN și fișierele de configurare necesare pentru a accesa VPN-ul.
 
 ______
@@ -81,7 +81,7 @@ ______
 Pentru a asigura implementarea cu succes a soluției VPN, oferiți angajaților dvs. de la distanță instruirea și sprijinul necesar pentru a-i ajuta să înțeleagă cum să utilizeze VPN-ul în mod eficient și sigur. Printre subiectele importante care trebuie abordate se numără:
 
 - **Cum să configurați și să vă conectați la VPN**: Furnizați instrucțiuni clare privind instalarea software-ului client VPN, configurarea setărilor și conectarea la VPN.
-- **Cele mai bune practici de securitate**: Educați-vă angajații cu privire la importanța utilizării unor parole puternice și unice, activarea [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) și menținerea securității dispozitivelor lor.
+- **Cele mai bune practici de securitate**: Educați-vă angajații cu privire la importanța utilizării unor parole puternice și unice, activarea [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) și menținerea securității dispozitivelor lor.
 - **Soluționarea problemelor**: Oferiți îndrumare cu privire la modul de rezolvare a problemelor obișnuite de conectare la VPN și la persoanele pe care trebuie să le contactați pentru asistență tehnică.
 
 ______

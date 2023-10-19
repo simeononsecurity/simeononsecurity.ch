@@ -51,7 +51,7 @@ I candidati hanno a disposizione diversi materiali di studio, come libri di test
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
 
 ### Fase 4: esercitarsi con gli esami pratici
 

@@ -27,7 +27,7 @@ PawnsApp похож на другие платформы, которые пла�
 
 #### 2. Установите Docker
 
-Изучить [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Изучить [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 3. После создания учетной записи следуйте приведенным ниже инструкциям для установки Docker-контейнера для PawnsApp:
 
@@ -55,7 +55,7 @@ PawnsApp предоставляет отличную возможность по
 
 Начните свой путь с PawnsApp уже сегодня и откройте для себя возможность зарабатывать деньги без особых усилий!
 
-По окончании работы вы должны [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+По окончании работы вы должны [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 #### Ссылка
 - [PawnsApp](https://pawns.app/?r=2092882)

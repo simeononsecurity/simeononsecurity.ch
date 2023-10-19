@@ -57,4 +57,4 @@ En conclusión, SimeonOnSecurity ha encontrado hoy varios recursos interesantes 
 
 ## nikitavoloboev/privacy-respecting:
 - [https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- Una gran lista de servicios y programas que respetan la privacidad. Yo ya [recommend](https://simeononsecurity.ch/recommendations) algunos de los artículos enlazados. Pienso seguir leyendo los artículos de la lista.
+- Una gran lista de servicios y programas que respetan la privacidad. Yo ya [recommend](https://simeononsecurity.com/recommendations) algunos de los artículos enlazados. Pienso seguir leyendo los artículos de la lista.

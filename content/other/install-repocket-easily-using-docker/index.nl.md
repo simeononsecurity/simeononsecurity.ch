@@ -20,7 +20,7 @@ Om te beginnen, maakt u een account aan bij [repocket.co](https://link.repocket.
 ### Installeer de Docker Container
 Volg deze stappen om de Repocket Docker-container te installeren:
 
-0. Leer [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Leer [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Open uw terminal en voer het volgende commando in, waarbij u "your@email.com" en "yourapikey" vervangt door uw werkelijke e-mail en API-sleutel:
 ```bash
@@ -36,7 +36,7 @@ Zie voor meer gedetailleerde instructies de [Repocket documentation](https://lin
 ## Conclusie
 Repocket biedt een kans om geld te verdienen door je ongebruikte internetverbinding te delen. Met een minimale uitbetaling van $20 en het potentieel om ongeveer $1 per node per box per maand te verdienen, kan Repocket een waardevolle bron van passief inkomen zijn. Het is echter cruciaal om het uitbetalingssysteem grondig te begrijpen en uw eigen onderzoek uit te voeren voordat u besluit de dienst te gebruiken.
 
-Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 - [Repocket](https://link.repocket.co/raqc)

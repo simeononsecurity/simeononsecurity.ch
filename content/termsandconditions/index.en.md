@@ -9,7 +9,7 @@ tags: ["Terms and Conditions", "website rules", "security information", "securit
 
 Welcome to SimeonOnSecurity!
 
-These terms and conditions outline the rules and regulations for the use of SimeonOnSecurity's Website, located at https://simeononsecurity.ch.
+These terms and conditions outline the rules and regulations for the use of SimeonOnSecurity's Website, located at https://simeononsecurity.com.
 
 By accessing this website we assume you accept these terms and conditions. Do not continue to use SimeonOnSecurity if you do not agree to take all of the terms and conditions stated on this page.
 

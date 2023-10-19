@@ -97,7 +97,7 @@ UACは有効にしておき、セキュリティと使いやすさのバラン�
 
 UAC設定を構成することで、重要なシステム変更には管理者権限が必要であることを保証し、不正アクセスやマルウェア感染のリスクを低減することで、Windows 10システムのセキュリティを強化できます。
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 強力なパスワードを使用することは、Windows 10システムのセキュリティを維持し、不正アクセスから保護するために不可欠です。弱いパスワードや推測されやすいパスワードは、ブルートフォース攻撃やパスワードクラッキングなどの攻撃に対してシステムを脆弱にします。
 
 Windows 10 システムのすべてのユーザーアカウントに強力なパスワードを設定するには、以下のパスワードのベストプラクティスに従ってください：
@@ -116,7 +116,7 @@ Windows 10 システムのすべてのユーザーアカウントに強力なパ
 
 強固なパスワードの使い方を実践することで、Windows 10 システムのセキュリティを大幅に強化し、不正アクセスやデータ漏洩のリスクを低減できます。パスワードのセキュリティについて定期的にユーザーを教育し、パスワード強度計やパスワード作成ガイドラインなどのリソースを提供して、強力なパスワードの作成を支援する。
 
-強力なパスワードの作成とベストプラクティスの詳細については、以下を参照してください。 [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)パスワードのセキュリティに関する包括的なガイダンスを提供し、強力で覚えやすいパスワードを作成するためのヒントを提供します。
+強力なパスワードの作成とベストプラクティスの詳細については、以下を参照してください。 [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)パスワードのセキュリティに関する包括的なガイダンスを提供し、強力で覚えやすいパスワードを作成するためのヒントを提供します。
 
 強力なパスワードを使用することは、システム セキュリティの基本的な側面であり、機密データを保護し、Windows 10 環境の整合性を確保するために優先されるべきであることを忘れないでください。
 
@@ -200,7 +200,7 @@ AppLockerポリシーの実装に関するより詳細な情報については�
 
 アプリケーション要件の変化や新たなセキュリティ脅威に対応するため、AppLocker ポリシーを定期的に見直し、更新することを忘れないでください。AppLockerは、Windows 10システム上の未承認の潜在的に有害なアプリケーションに対する防御のための貴重なツールです。
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 データを定期的にバックアップすることは、セキュリティ事故、ハードウェアの故障、その他の予期せぬ出来事によるデータ損失から保護するために不可欠な習慣です。定期的にバックアップを作成し、その完全性を確認することで、重要なデータの安全性を確保し、災害時にも復元できるようになります。
 
 以下の手順に従って、Windows 10システムのデータを定期的にバックアップしてください：
@@ -221,7 +221,7 @@ AppLockerポリシーの実装に関するより詳細な情報については�
 
 これらのステップに従い、定期的にバックアップを行うことで、データ損失の影響を最小限に抑え、重要な情報の可用性を維持することができます。バックアップは元のデータから離して安全に保管し、**3-2-1バックアップルール**を実施することを忘れないでください。
 
-バックアップのベストプラクティスと**3-2-1バックアップルール**の詳細については、以下の記事を参照してください。 [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)効果的なバックアップ戦略を実施するための貴重な見識と推奨事項を提供している。
+バックアップのベストプラクティスと**3-2-1バックアップルール**の詳細については、以下の記事を参照してください。 [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)効果的なバックアップ戦略を実施するための貴重な見識と推奨事項を提供している。
 
 定期的なバックアップは、データを保護し、不測の事態に備えて可用性を確保する上で非常に重要であることを忘れないでください。大切な情報を守るために、データのバックアップをWindows 10のハードニングの重要な一部にしてください。
 

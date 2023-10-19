@@ -10,7 +10,7 @@ coverAlt: "una puerta de cámara acorazada de dibujos animados que se abre con u
 coverCaption: ""
 ---
 
-Una guía completa para resolver el desafío criptográfico "Atraco a un banco" en HackTheBox. El desafío consiste en descifrar un [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) utilizando Decode.fr y un texto cifrado atbash utilizando CyberChef para revelar la bandera. Una lectura obligada para los aspirantes a profesionales de la ciberseguridad y para cualquiera que quiera mejorar sus conocimientos de criptografía.
+Una guía completa para resolver el desafío criptográfico "Atraco a un banco" en HackTheBox. El desafío consiste en descifrar un [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) utilizando Decode.fr y un texto cifrado atbash utilizando CyberChef para revelar la bandera. Una lectura obligada para los aspirantes a profesionales de la ciberseguridad y para cualquiera que quiera mejorar sus conocimientos de criptografía.
 
 ## Archivos proporcionados:
 

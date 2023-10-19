@@ -25,7 +25,7 @@ coverCaption: ""
 - 23/10/2020 - 25/10/2020
 - Classificado Geral: 134º/6010
 - Ouro colocado: 126º / 680
-- Equipe (simeononsecurity.ch)
+- Equipe (simeononsecurity.com)
 - 2020/11/06 - 2020/11/08
 - Classificado Geral: 31º/957
 - Ouro colocado: 28º/121

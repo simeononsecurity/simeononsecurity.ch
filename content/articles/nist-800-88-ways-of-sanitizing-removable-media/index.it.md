@@ -26,11 +26,11 @@ Il National Institute of Standards and Technology (NIST) ha pubblicato una linea
 
 ### Cancellazione
 
-La cancellazione è il processo di sovrascrittura dei dati su un dispositivo con una serie di valori binari. Questo metodo è meno sicuro della distruzione fisica, ma è comunque efficace per sanificare la maggior parte dei supporti rimovibili. NIST 800-88 Revisione 1 raccomanda di utilizzare uno strumento software che soddisfi gli standard stabiliti dal Dipartimento della Difesa (DoD). [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
+La cancellazione è il processo di sovrascrittura dei dati su un dispositivo con una serie di valori binari. Questo metodo è meno sicuro della distruzione fisica, ma è comunque efficace per sanificare la maggior parte dei supporti rimovibili. NIST 800-88 Revisione 1 raccomanda di utilizzare uno strumento software che soddisfi gli standard stabiliti dal Dipartimento della Difesa (DoD). [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
 
 ### Spurgo
 
-L'epurazione è il processo di sovrascrittura dei dati su un dispositivo più volte con uno schema di valori binari. Questo metodo è più sicuro della cancellazione ed è consigliato per la sanificazione dei dati sensibili. Il NIST 800-88 Revisione 1 raccomanda l'utilizzo di uno strumento software che soddisfi gli standard stabiliti dall'Agenzia per la Sicurezza Nazionale (NIST). [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
+L'epurazione è il processo di sovrascrittura dei dati su un dispositivo più volte con uno schema di valori binari. Questo metodo è più sicuro della cancellazione ed è consigliato per la sanificazione dei dati sensibili. Il NIST 800-88 Revisione 1 raccomanda l'utilizzo di uno strumento software che soddisfi gli standard stabiliti dall'Agenzia per la Sicurezza Nazionale (NIST). [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
 
 __________________________________________
 

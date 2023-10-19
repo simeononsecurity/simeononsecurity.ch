@@ -24,6 +24,6 @@ It is important to keep in mind that **removing your information from one data b
 
 _________________________
 
-In conclusion, **removing your information from online data brokers** is a critical step in ensuring your online privacy and security. By taking control of what information is available about you online, you can minimize the risk of identity theft, stalking, and other privacy-related issues. For more specific guidance on removing your information from online data brokers, please refer to the resources available at [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/).
+In conclusion, **removing your information from online data brokers** is a critical step in ensuring your online privacy and security. By taking control of what information is available about you online, you can minimize the risk of identity theft, stalking, and other privacy-related issues. For more specific guidance on removing your information from online data brokers, please refer to the resources available at [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/).
 
 

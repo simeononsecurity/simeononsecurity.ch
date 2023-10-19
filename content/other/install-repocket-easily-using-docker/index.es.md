@@ -20,7 +20,7 @@ Para empezar, cree una cuenta en [repocket.co](https://link.repocket.co/raqc) y 
 ### Instalar el contenedor Docker
 Siga estos pasos para instalar el contenedor Docker Repocket:
 
-0. Aprenda [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Aprenda [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Abra su terminal e introduzca el siguiente comando, sustituyendo "your@email.com" y "yourapikey" por su correo electrónico y clave API reales:
 ```bash
@@ -36,7 +36,7 @@ Para obtener instrucciones más detalladas, consulte el [Repocket documentation]
 ## Conclusión
 Repocket ofrece la oportunidad de ganar dinero compartiendo tu conexión a Internet no utilizada. Con un pago mínimo de 20$ y el potencial de ganar alrededor de 1$ por nodo por caja al mes, Repocket puede ser una valiosa fuente de ingresos pasivos. Sin embargo, es crucial entender a fondo el sistema de pago y llevar a cabo su propia investigación antes de decidirse a utilizar el servicio.
 
-Una vez que lo hayas hecho, deberías [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+Una vez que lo hayas hecho, deberías [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Referencia
 - [Repocket](https://link.repocket.co/raqc)

@@ -31,11 +31,11 @@ ______
 ### 認定資格
 正式な教育に加えて、関連する認定資格を取得することで、サイバーセキュリティ分野での信頼性と市場性を大幅に向上させることができます。ここでは、広く認知されている認定資格をいくつか紹介します：
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/)この世界的に認められた認定資格は、企業レベルのサイバーセキュリティプログラムの設計、実装、管理に関する専門知識を証明するものです。
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)この資格は、ハッキング技術に関する知識を証明し、組織がシステムの脆弱性を特定するのに役立ちます。
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)このエントリーレベルの認定資格は、ネットワークとシステムのセキュリティを確保するために必要な基礎的な知識とスキルをカバーしています。
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/)この世界的に認められた認定資格は、企業レベルのサイバーセキュリティプログラムの設計、実装、管理に関する専門知識を証明するものです。
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)この資格は、ハッキング技術に関する知識を証明し、組織がシステムの脆弱性を特定するのに役立ちます。
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)このエントリーレベルの認定資格は、ネットワークとシステムのセキュリティを確保するために必要な基礎的な知識とスキルをカバーしています。
 
-詳細はこちら [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
+詳細はこちら [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
 
 ______
 

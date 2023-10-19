@@ -3,7 +3,7 @@ title: "隐私政策：信息收集、使用和同意 | SimeonOnSecurity"
 date: 2020-08-08
 ---
 
-在 SimeonOnSecurity（可从 https://simeononsecurity.ch 访问），我们的首要任务之一是保护访问者的隐私。本隐私政策文件包含 SimeonOnSecurity 收集和记录的信息类型以及我们如何使用这些信息。
+在 SimeonOnSecurity（可从 https://simeononsecurity.com 访问），我们的首要任务之一是保护访问者的隐私。本隐私政策文件包含 SimeonOnSecurity 收集和记录的信息类型以及我们如何使用这些信息。
 
 如果您对我们的隐私政策有其他疑问或需要更多信息，请随时联系我们。
 

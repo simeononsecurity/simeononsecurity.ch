@@ -84,7 +84,7 @@ Eigenständige Systeme gehören zu den am schwierigsten und lästigsten zu siche
 ### Automatisierte Installation:
 Das Skript kann wie folgt aus dem extrahierten GitHub-Download gestartet werden:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/standalonewindows.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/standalonewindows.ps1'))
 ```
 
 ### Manuelle Installation:

@@ -32,7 +32,7 @@ ______
 
 [**Privacy.com**](https://privacy.com/join/SU86Y)は、オンライン購入のための仮想デビットカードを作成できる、もう一つの信頼できるサービスです。Privacy.comでは、取引ごとにユニークなカード番号を作成することができ、実際のクレジットカード情報の安全性を確保することができます。また、このサービスでは、利用限度額の設定や定期購入の管理も可能で、オンライン取引をより適切にコントロールすることができます。
 
-詳しくはこちら [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
+詳しくはこちら [recommended privacy services](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ ______
 
 オペレーティングシステム、ウェブブラウザ、ウイルス対策ソフトウェアを定期的に更新し、最新のセキュリティパッチを適用して、マルウェアやサイバー脅威から保護するようにしましょう。可能な限り、自動更新を有効にする。
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)電子メール、テキストメッセージ、電話などで、個人情報やログイン情報を明らかにさせようとするものがあります。不審なリンクをクリックしないようにし、オンライン販売者からの通信の真偽を確認してから、機密データを共有するようにしましょう。
+[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)電子メール、テキストメッセージ、電話などで、個人情報やログイン情報を明らかにさせようとするものがあります。不審なリンクをクリックしないようにし、オンライン販売者からの通信の真偽を確認してから、機密データを共有するようにしましょう。
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)オンラインショッピングのアカウントに使用します。複数のプラットフォームでパスワードを再利用しないようにしましょう。LastPass**や**Dashlane**などのパスワードマネージャーを使用し、複雑なパスワードを安全に保存・生成することを検討する。
+[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)オンラインショッピングのアカウントに使用します。複数のプラットフォームでパスワードを再利用しないようにしましょう。LastPass**や**Dashlane**などのパスワードマネージャーを使用し、複雑なパスワードを安全に保存・生成することを検討する。
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、パスワードに加えて、モバイル端末に送信される固有のコードなど、2つ目の認証形式を要求することで、セキュリティ層をさらに強化します。オンラインショッピングのアカウントを保護するために、可能な限り2FAを有効にしてください。
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、パスワードに加えて、モバイル端末に送信される固有のコードなど、2つ目の認証形式を要求することで、セキュリティ層をさらに強化します。オンラインショッピングのアカウントを保護するために、可能な限り2FAを有効にしてください。
 
 ### 6.販売者の評価とレビューを確認する
 
 新しい販売者から購入する前に、他のお客様からの評価とレビューを確認してください。この情報は、その販売者の信頼性と信用性を評価するのに役立ちます。
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 公共のWi-Fiネットワークに接続してのオンラインショッピングは避けてください。自宅のネットワークや信頼できるVPN（Virtual Private Network）サービスなど、安全でプライベートなインターネット接続を利用するようにしましょう。
 

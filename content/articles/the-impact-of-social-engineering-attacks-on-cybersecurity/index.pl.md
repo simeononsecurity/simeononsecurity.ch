@@ -27,15 +27,15 @@ Obrona przed atakami socjotechnicznymi wymaga połączenia środków technicznyc
 
 ### 1. Edukacja i świadomość
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) są pierwszą linią obrony przed atakami socjotechnicznymi. Pracownicy powinni zostać przeszkoleni w zakresie rozpoznawania oznak ataku socjotechnicznego i podejmowania odpowiednich działań. Obejmuje to ostrożność wobec niechcianych próśb o informacje, weryfikację tożsamości osób przed ujawnieniem poufnych informacji oraz zgłaszanie wszelkich podejrzanych działań personelowi IT lub bezpieczeństwa.
+[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) są pierwszą linią obrony przed atakami socjotechnicznymi. Pracownicy powinni zostać przeszkoleni w zakresie rozpoznawania oznak ataku socjotechnicznego i podejmowania odpowiednich działań. Obejmuje to ostrożność wobec niechcianych próśb o informacje, weryfikację tożsamości osób przed ujawnieniem poufnych informacji oraz zgłaszanie wszelkich podejrzanych działań personelowi IT lub bezpieczeństwa.
 
 ### 2. Silne hasła i uwierzytelnianie wieloskładnikowe
 
-Używanie [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) i wdrożenie **uwierzytelniania wieloskładnikowego** może pomóc w zapobieganiu atakom socjotechnicznym, które polegają na zgadywaniu haseł lub atakach typu brute-force. Silne hasła powinny mieć co najmniej 12 znaków i zawierać kombinację wielkich i małych liter, cyfr i znaków specjalnych. Uwierzytelnianie wieloskładnikowe dodaje dodatkową warstwę bezpieczeństwa, wymagając od użytkowników dostarczenia dodatkowego dowodu tożsamości poza samym hasłem.
+Używanie [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) i wdrożenie **uwierzytelniania wieloskładnikowego** może pomóc w zapobieganiu atakom socjotechnicznym, które polegają na zgadywaniu haseł lub atakach typu brute-force. Silne hasła powinny mieć co najmniej 12 znaków i zawierać kombinację wielkich i małych liter, cyfr i znaków specjalnych. Uwierzytelnianie wieloskładnikowe dodaje dodatkową warstwę bezpieczeństwa, wymagając od użytkowników dostarczenia dodatkowego dowodu tożsamości poza samym hasłem.
 
 ### 3. Bezpieczna poczta e-mail i przeglądanie stron internetowych
 
-[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) może pomóc w zapobieganiu atakom socjotechnicznym, które opierają się na oszustwach phishingowych lub innych formach złośliwej zawartości. Obejmuje to korzystanie z filtrów antyspamowych w celu blokowania niechcianych wiadomości e-mail, unikanie klikania linków lub pobierania załączników z nieznanych źródeł oraz korzystanie z filtrów internetowych w celu blokowania dostępu do znanych złośliwych witryn.
+[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) może pomóc w zapobieganiu atakom socjotechnicznym, które opierają się na oszustwach phishingowych lub innych formach złośliwej zawartości. Obejmuje to korzystanie z filtrów antyspamowych w celu blokowania niechcianych wiadomości e-mail, unikanie klikania linków lub pobierania załączników z nieznanych źródeł oraz korzystanie z filtrów internetowych w celu blokowania dostępu do znanych złośliwych witryn.
 
 ### 4. Regularne aktualizacje i poprawki zabezpieczeń
 

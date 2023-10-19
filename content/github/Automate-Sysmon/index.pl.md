@@ -27,7 +27,7 @@ Istnieją dwa sposoby korzystania z Automate-Sysmon:
 
 Aby użyć automatycznej instalacji, wystarczy uruchomić następujące polecenie w PowerShell:
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/sosautomatesysmon.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/sosautomatesysmon.ps1'|iex
 ```
 
 Spowoduje to automatyczne pobranie i uruchomienie skryptu Automate-Sysmon.

@@ -69,13 +69,13 @@ Another way to create a strong password is to use a random password generator. M
 
 #### **Using a Password Manager**
 
-[**Password managers**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) are tools that generate and store complex passwords securely. They also make it easy to use **unique passwords for each of your accounts**, which is crucial to preventing data breaches. With a password manager, you only need to remember one **master password** to access all of your other passwords.
+[**Password managers**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) are tools that generate and store complex passwords securely. They also make it easy to use **unique passwords for each of your accounts**, which is crucial to preventing data breaches. With a password manager, you only need to remember one **master password** to access all of your other passwords.
 
-When [choosing a password manager](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/), look for one that has **strong encryption** and [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/). This will ensure that your passwords are protected even if your password manager is hacked.
+When [choosing a password manager](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/), look for one that has **strong encryption** and [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/). This will ensure that your passwords are protected even if your password manager is hacked.
 
 #### **Enabling Two-Factor Authentication**
 
-[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) is an additional layer of security that requires a second form of identification, such as a code sent to your phone or email, before granting access to your email account. Enabling two-factor authentication can help prevent unauthorized access to your account, even if your password is compromised.
+[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) is an additional layer of security that requires a second form of identification, such as a code sent to your phone or email, before granting access to your email account. Enabling two-factor authentication can help prevent unauthorized access to your account, even if your password is compromised.
 
 Many email providers, such as **Gmail** and **Yahoo**, offer two-factor authentication as an option. To enable two-factor authentication, go to your email account settings and look for the security or two-factor authentication options.
 
@@ -83,11 +83,11 @@ By following these tips, you can create strong passwords and protect your email 
 
 ### **Identifying and Avoiding Phishing Scams**
 
-[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) are tactics used by cybercriminals to trick users into providing sensitive information, such as login credentials and personal data. These scams are becoming increasingly sophisticated and can be difficult to detect. It is important to stay vigilant and take necessary precautions to protect your personal information. Here are some tips to identify and avoid phishing scams:
+[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) are tactics used by cybercriminals to trick users into providing sensitive information, such as login credentials and personal data. These scams are becoming increasingly sophisticated and can be difficult to detect. It is important to stay vigilant and take necessary precautions to protect your personal information. Here are some tips to identify and avoid phishing scams:
 
-#### [**Recognizing Phishing Emails**](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
+#### [**Recognizing Phishing Emails**](https://simeononsecurity.com/articles/how-to-identify-phishing/)
 
-[**Phishing emails**](https://simeononsecurity.ch/articles/how-to-identify-phishing/) are designed to look like legitimate emails and often include a sense of urgency to try to trick the recipient into taking immediate action. Be wary of emails that:
+[**Phishing emails**](https://simeononsecurity.com/articles/how-to-identify-phishing/) are designed to look like legitimate emails and often include a sense of urgency to try to trick the recipient into taking immediate action. Be wary of emails that:
 
 - **Ask for personal information**, such as login credentials or bank details. Legitimate companies will never ask for this information via email.
 - Contain **suspicious links or attachments**. These links may lead to fake websites that look like the real thing, but are designed to steal your information.

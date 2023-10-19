@@ -31,11 +31,11 @@ ______
 ###认证
 除正规教育外，获得相关认证也能大大提高您在网络安全领域的信誉和市场竞争力。以下是一些广受认可的认证：
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/)这一全球认可的认证可验证您在设计、实施和管理企业级网络安全计划方面的专业知识。
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)该认证可证明您具备黑客技术知识，并帮助组织识别其系统中的漏洞。
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)该入门级认证涵盖网络和系统安全所需的基础知识和技能。
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/)这一全球认可的认证可验证您在设计、实施和管理企业级网络安全计划方面的专业知识。
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)该认证可证明您具备黑客技术知识，并帮助组织识别其系统中的漏洞。
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)该入门级认证涵盖网络和系统安全所需的基础知识和技能。
 
-了解更多 [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
+了解更多 [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
 
 ______
 

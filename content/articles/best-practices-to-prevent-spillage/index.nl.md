@@ -30,14 +30,14 @@ Om gevoelige of geclassificeerde informatie te beschermen, moeten organisaties e
 Controle op de toegang tot informatie is van cruciaal belang om ongeoorloofde verspreiding te voorkomen. Implementeer de volgende maatregelen:
 
 - **Rolgebaseerde toegangscontrole**: Wijs toegangsrechten toe op basis van functierollen en verantwoordelijkheden om ervoor te zorgen dat alleen bevoegde personen toegang hebben tot gevoelige informatie.
-- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Meerdere authenticatiefactoren vereisen, zoals wachtwoorden en biometrie, om de veiligheid van toegangsgegevens te verbeteren.
+- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Meerdere authenticatiefactoren vereisen, zoals wachtwoorden en biometrie, om de veiligheid van toegangsgegevens te verbeteren.
 - Regelmatige toegangscontroles**: Periodieke controles uitvoeren om ervoor te zorgen dat de toegangsrechten up-to-date zijn en onmiddellijk de toegang intrekken voor personen die deze niet langer nodig hebben.
 
 ### 2. 2. Gevoelige informatie coderen
 
 Encryptie biedt een extra beveiligingslaag om gevoelige gegevens tegen ongeoorloofde toegang te beschermen. Overweeg de volgende praktijken:
 
-- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Versleutelingsmechanismen toepassen die informatie gedurende de gehele levenscyclus beschermen, van opslag tot verzending.
+- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Versleutelingsmechanismen toepassen die informatie gedurende de gehele levenscyclus beschermen, van opslag tot verzending.
 - **Gegevensclassificatie**: Informatie classificeren op basis van het gevoeligheidsniveau en dienovereenkomstig passende versleutelingsmaatregelen toepassen.
 - Sleutelbeheer**: Een krachtig sleutelbeheer invoeren om ervoor te zorgen dat encryptiesleutels goed worden opgeslagen, beschermd en regelmatig worden geroteerd.
 
@@ -45,8 +45,8 @@ Encryptie biedt een extra beveiligingslaag om gevoelige gegevens tegen ongeoorlo
 
 Investeren in opleiding en bewustmaking van werknemers is cruciaal om te voorkomen dat informatie wordt gemorst. Dit is wat u kunt doen:
 
-- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Regelmatig opleidingssessies organiseren om werknemers te informeren over beste praktijken inzake informatiebeveiliging, met inbegrip van de risico's van informatieverspilling.
-- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Train werknemers om phishing-pogingen, die vaak worden gebruikt als middel om ongeoorloofde toegang tot gevoelige informatie te verkrijgen, te herkennen en te melden.
+- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Regelmatig opleidingssessies organiseren om werknemers te informeren over beste praktijken inzake informatiebeveiliging, met inbegrip van de risico's van informatieverspilling.
+- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Train werknemers om phishing-pogingen, die vaak worden gebruikt als middel om ongeoorloofde toegang tot gevoelige informatie te verkrijgen, te herkennen en te melden.
 - **Meldingsprocedures**: Stel duidelijke procedures op voor het melden van potentiële beveiligingsincidenten of verdachte activiteiten aan de juiste autoriteiten.
 
 ### 4. 4. DLP-oplossingen (Data Loss Prevention) implementeren.
@@ -80,7 +80,7 @@ Concluderend kan worden gesteld dat het voorkomen van verspreiding van informati
 ## Referenties
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

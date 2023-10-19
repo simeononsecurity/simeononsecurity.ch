@@ -5,7 +5,7 @@ date: 2020-08-08
 
 Bienvenue à SimeonOnSecurity !
 
-Ces termes et conditions définissent les règles et règlements pour l'utilisation du site Internet de SimeonOnSecurity, situé à l'adresse https://simeononsecurity.ch.
+Ces termes et conditions définissent les règles et règlements pour l'utilisation du site Internet de SimeonOnSecurity, situé à l'adresse https://simeononsecurity.com.
 
 En accédant à ce site web, nous supposons que vous acceptez ces conditions générales. Ne continuez pas à utiliser SimeonOnSecurity si vous n'acceptez pas toutes les conditions générales énoncées sur cette page.
 

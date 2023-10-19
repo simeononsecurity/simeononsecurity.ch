@@ -27,7 +27,7 @@ tags: ["推荐学习资源", "SimeonOnSecurity 的建议", "信息技术学习",
 - [**INE**](https://ine.com/)INE 提供免费和付费的高质量网络安全实验室和培训。
 - [**Immersive Labs**](https://www.immersivelabs.com/)该平台提供免费的网络安全实验室，也提供付费服务。对在校学生免费。
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/)该平台提供免费的网络安全实验室，也提供付费服务。
-- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.ch/tags/pentesterlab/)还提供付费服务。
+- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/)还提供付费服务。
 - [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56)该平台提供有指导的 CTF 挑战，并提供付费会员选项。
 
 ## 网络：

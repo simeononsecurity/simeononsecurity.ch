@@ -24,23 +24,23 @@ coverCaption: ""
 
 サイバーセキュリティの専門家は、デジタル世界のスーパーヒーローのような存在です。彼らは、私たちのデジタル情報を悪者から守る特別なスキルを持っています。しかし、すべてのサイバーセキュリティの専門家が同じことをするわけではありません。医者と同じで、共通の教育を受けた後、異なる分野に特化するのです。あるサイバーセキュリティの専門家は、コンピュータシステムの脆弱性を見つけて修正する専門家になり、またある専門家は、悪者を排除するための強力な防御を作ることに専念する。彼らはチームで仕事をし、常に学び、スキルを向上させ、悪者の前に立ちはだかるのです。
 
-## [Personal Security Hygiene](https://simeononsecurity.ch/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
+## [Personal Security Hygiene](https://simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
 
 サイバーセキュリティの専門家にならなくても、インターネット上の悪者から自分と家族を守るためにできることがあります。あなたの安全を守るために役立つ、基本的な個人のセキュリティ衛生習慣を学びましょう：
 
-### [Phishing: Don't Get Hooked](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### [Phishing: Don't Get Hooked](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
 フィッシングとは、悪者があなたを騙して、パスワードやクレジットカード番号などの個人情報を与えようとすることです。フィッシングは、本物に見えるが実は偽物であるメールやメッセージを送ってくることがあります。フィッシング業者は、あなたの情報を盗むために、偽のウェブサイトへ誘導するリンクをクリックさせようとします。だから、気をつけて、怪しいリンクはクリックしないようにしましょう。もし、何かが奇妙に見えたり、あまりにも真実味がない場合は、おそらくあなたを騙そうとしている悪者でしょう。
 
-### [Software Updates: Stay Updated and Protected](https://simeononsecurity.ch/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
+### [Software Updates: Stay Updated and Protected](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
 
 おもちゃや洋服が新しくなるように、携帯電話やパソコンなどのデバイスもアップデートが必要です。これらのアップデートは、悪者があなたのデバイスに侵入するために使用するかもしれない問題やセキュリティ上の欠陥を修正するのに役立ちます。だから、アップデートをインストールするように指示されたら、必ずインストールしてください。これは、寝室のドアに鍵をかけて悪者を排除するようなものです。
 
-### [Strong Passwords: Secret Codes for Safety](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### [Strong Passwords: Secret Codes for Safety](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 強力なパスワードは、あなただけが知っている秘密の暗号のようなものです。文字、数字、特殊文字を組み合わせて、長く複雑なものにする必要があります。誰かが簡単に推測できるような一般的な言葉や個人情報を使うのは避けましょう。また、ウェブサイトやアカウントごとに異なるパスワードを使用することも重要です。そうすれば、1つのパスワードがハッキングされても、悪者はあなたの他のすべてのアカウントにアクセスすることができません。パスワードを覚えるのが大変そうなら、パスワードマネージャーを使って、パスワードを安全に保存・管理することもできます。
 
-### [Multi-Factor Authentication: Double Locks for Extra Security](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Multi-Factor Authentication: Double Locks for Extra Security](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 多要素認証（MFA）は、あなたのオンラインアカウントにさらなるセキュリティ層を追加します。これは、ドアに二重ロックをかけるようなものです。MFAでは、アカウントにアクセスするために、パスワードと一緒に、携帯電話に送信される特別なコードのような追加情報を提供する必要があります。これによって、たとえパスワードを知っていたとしても、悪者が侵入するのはずっと難しくなります。ですから、ウェブサイトやアプリがMFAを提供している場合は、必ずMFAをオンにして、保護を強化するようにしましょう。
 
@@ -52,8 +52,8 @@ coverCaption: ""
 
 1. [Stay Safe Online: Software Updates](https://www.staysafeonline.org/stay-safe-online/keep-a-clean-machine/software-updates/)
 2. [Creating a Strong Password](https://www.us-cert.gov/ncas/tips/ST04-002)
-3. [A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-4. [Streamline Windows Package Management with Chocolatey: Simplify Updates and Enhance Security](https://simeononsecurity.ch/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
-5. [Creating Strong Passwords: A Guide to Security and Password Management](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
-6. [Recognizing Phishing Attempts: Common Indicators and Safety Tips](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
-7. [Assume Every Device Is Already Compromised: Strengthening Digital Security in an Interconnected World](https://simeononsecurity.ch/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
+3. [A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+4. [Streamline Windows Package Management with Chocolatey: Simplify Updates and Enhance Security](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
+5. [Creating Strong Passwords: A Guide to Security and Password Management](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+6. [Recognizing Phishing Attempts: Common Indicators and Safety Tips](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+7. [Assume Every Device Is Already Compromised: Strengthening Digital Security in an Interconnected World](https://simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/)

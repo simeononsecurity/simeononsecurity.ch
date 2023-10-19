@@ -27,7 +27,7 @@ Dla osób zainteresowanych cyberbezpieczeństwem dostępnych jest kilka zasobów
 - [**INE**](https://ine.com/) INE oferuje zarówno bezpłatne, jak i płatne wysokiej jakości laboratoria i szkolenia z zakresu cyberbezpieczeństwa.
 - [**Immersive Labs**](https://www.immersivelabs.com/) Ta platforma oferuje bezpłatne laboratoria cyberbezpieczeństwa, a także płatne oferty. Bezpłatne dla aktywnych studentów.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Platforma ta oferuje bezpłatne laboratoria cyberbezpieczeństwa, a także płatne oferty.
-- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.ch/tags/pentesterlab/) dostępne są również płatne oferty.
+- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/) dostępne są również płatne oferty.
 - [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) Platforma ta oferuje wyzwania CTF z przewodnikiem, z opcją płatnego członkostwa.
 
 ## Networking:

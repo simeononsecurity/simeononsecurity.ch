@@ -16,7 +16,7 @@ A engenharia social é uma forma de ataque cibernético que se baseia na manipul
 
 ## Tipos de ataques de engenharia social
 
-### [Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
+### [Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
 
 Os ataques de phishing são a forma mais comum de ataques de engenharia social. Eles envolvem o envio de e-mails que parecem ser de fontes confiáveis para induzir as pessoas a fornecer informações confidenciais ou clicar em links que instalam malware. Os e-mails podem usar táticas de intimidação, solicitações urgentes ou apelos emocionais para levar as pessoas a agir sem pensar.
 
@@ -42,25 +42,25 @@ Para evitar ataques quid pro quo, é importante **treinar os funcionários** par
 
 ## Estratégias para prevenir ataques de engenharia social
 
-### [Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Uma das estratégias mais eficazes para prevenir ataques de engenharia social é [**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Os funcionários devem ser instruídos sobre os diferentes tipos de ataques de engenharia social e como reconhecê-los. Eles também devem aprender como responder a solicitações suspeitas e como denunciá-las ao supervisor ou ao departamento de TI.
+Uma das estratégias mais eficazes para prevenir ataques de engenharia social é [**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Os funcionários devem ser instruídos sobre os diferentes tipos de ataques de engenharia social e como reconhecê-los. Eles também devem aprender como responder a solicitações suspeitas e como denunciá-las ao supervisor ou ao departamento de TI.
 
 O treinamento deve ser realizado regularmente e deve ser adaptado às necessidades específicas da organização. É importante enfatizar a importância da segurança e garantir que os funcionários entendam as consequências de não seguir os protocolos de segurança.
 
-### [Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
+### [Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
 
 As políticas de segurança são outra estratégia importante para evitar ataques de engenharia social. As organizações devem ter políticas claras sobre como lidar com informações confidenciais e quais ações são permitidas ou proibidas. As políticas devem ser revisadas e atualizadas regularmente para garantir que sejam eficazes e atualizadas.
 
 As organizações também devem ter políticas sobre como responder a incidentes de segurança. Os funcionários devem ser treinados sobre o que fazer em caso de violação de segurança e deve haver procedimentos claros para relatar incidentes e mitigar os danos.
 
-### [Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
+### [Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 A autenticação multifator (MFA) é um recurso de segurança que exige que os usuários forneçam várias formas de autenticação, como uma senha e uma impressão digital ou um cartão inteligente, para acessar um sistema. A MFA pode ajudar a evitar ataques de engenharia social ao dificultar o acesso dos invasores a informações confidenciais.
 
 As organizações devem considerar a implementação de MFA para todos os sistemas que contêm informações confidenciais ou infraestrutura crítica. É importante escolher soluções MFA que sejam fáceis de usar e gerenciar e que forneçam um alto nível de segurança.
 
-### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
+### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
 
 O software antivírus e antimalware pode ajudar a prevenir ataques de engenharia social, detectando e bloqueando o software mal-intencionado antes que ele possa causar danos. As organizações devem ter software antivírus e antimalware atualizado instalado em todos os sistemas e dispositivos que se conectam à sua rede.
 

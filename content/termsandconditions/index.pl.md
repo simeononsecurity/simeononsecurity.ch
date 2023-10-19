@@ -5,7 +5,7 @@ date: 2020-08-08
 
 Witamy w SimeonOnSecurity!
 
-Niniejsze warunki określają zasady i przepisy dotyczące korzystania z witryny internetowej SimeonOnSecurity, znajdującej się pod adresem https://simeononsecurity.ch.
+Niniejsze warunki określają zasady i przepisy dotyczące korzystania z witryny internetowej SimeonOnSecurity, znajdującej się pod adresem https://simeononsecurity.com.
 
 Uzyskując dostęp do tej witryny, zakładamy, że akceptujesz te warunki. Nie kontynuuj korzystania z SimeonOnSecurity, jeśli nie zgadzasz się na wszystkie warunki określone na tej stronie.
 

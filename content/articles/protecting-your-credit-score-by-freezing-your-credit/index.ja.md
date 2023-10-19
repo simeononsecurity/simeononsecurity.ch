@@ -55,11 +55,11 @@ coverCaption: ""
 
 1.**1.信用報告書を監視する：**定期的に信用報告書を確認し、不正な活動やエラーを特定します。あなたは、12ヶ月に一度、3つの主要な信用情報機関のそれぞれから無料の信用報告書を入手することができます。訪問 [www.annualcreditreport.com](http://www.annualcreditreport.com)をクリックして、レポートを請求してください。
 
-2. [**Use strong passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)すべての金融機関の口座に、強力でユニークなパスワードを作成する。複数のアカウントで同じパスワードを使用することは避けてください。パスワードを作成し、安全に保管するために、パスワードマネージャーツールを使用することを検討する。
+2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)すべての金融機関の口座に、強力でユニークなパスワードを作成する。複数のアカウントで同じパスワードを使用することは避けてください。パスワードを作成し、安全に保管するために、パスワードマネージャーツールを使用することを検討する。
 
-3. [**Be cautious with personal information:**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/)オンライン、オフラインを問わず、個人情報を共有する際には十分な注意が必要です。社会保障番号や銀行口座の情報など、機密性の高い情報は、必要なときだけ、信頼できる相手に提供しましょう。
+3. [**Be cautious with personal information:**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/)オンライン、オフラインを問わず、個人情報を共有する際には十分な注意が必要です。社会保障番号や銀行口座の情報など、機密性の高い情報は、必要なときだけ、信頼できる相手に提供しましょう。
 
-4. [**Beware of phishing scams:**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)フィッシング詐欺は、個人情報を聞き出そうとしたり、悪意のあるリンクをクリックさせたり、添付ファイルをダウンロードさせようとする迷惑なメールや電話をよく見かけるので、警戒してください。情報を共有したり、行動を起こす前に、疑心暗鬼になり、要求の正当性を確認するようにしましょう。
+4. [**Beware of phishing scams:**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)フィッシング詐欺は、個人情報を聞き出そうとしたり、悪意のあるリンクをクリックさせたり、添付ファイルをダウンロードさせようとする迷惑なメールや電話をよく見かけるので、警戒してください。情報を共有したり、行動を起こす前に、疑心暗鬼になり、要求の正当性を確認するようにしましょう。
 
 5.**デバイスを保護する：**コンピュータやスマートフォンを含むあなたのデバイスは、最新のセキュリティパッチとウイルス対策ソフトウェアで更新してください。機密性の高い取引に公共のWi-Fiネットワークを使用することは避け、安全でないウェブサイト上で個人情報を入力することは控える。
 

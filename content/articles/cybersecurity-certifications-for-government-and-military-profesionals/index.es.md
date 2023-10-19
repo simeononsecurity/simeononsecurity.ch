@@ -30,9 +30,9 @@ En[**CISSP certification**](https://www.isc2.org/Certifications/CISSP) es una ce
 
 En[**CEH certification** ](https://cert.eccouncil.org/certified-ethical-hacker.html) una certificación popular que se centra en el hacking ético y las pruebas de penetración. Abarca diversos temas, como la toma de huellas y el reconocimiento, el escaneado de redes, la enumeración, el pirateo de sistemas, troyanos y puertas traseras, virus y gusanos, sniffers, ingeniería social, denegación de servicio, secuestro de sesiones, pirateo de servidores web, etc. El examen de certificación consta de 125 preguntas de opción múltiple y requiere al menos dos años de experiencia relacionada con la seguridad de la información.
 
-### 3.[CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+### 3.[CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
-En[**CompTIA Security+ certification** ](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) una certificación de ciberseguridad de nivel básico que abarca diversos temas de ciberseguridad como amenazas, ataques y vulnerabilidades, tecnologías y herramientas, arquitectura y diseño, gestión de identidades y accesos, gestión de riesgos y criptografía. El examen de certificación consta de 90 preguntas de opción múltiple y requiere al menos dos años de experiencia en administración de TI con un enfoque de seguridad.
+En[**CompTIA Security+ certification** ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) una certificación de ciberseguridad de nivel básico que abarca diversos temas de ciberseguridad como amenazas, ataques y vulnerabilidades, tecnologías y herramientas, arquitectura y diseño, gestión de identidades y accesos, gestión de riesgos y criptografía. El examen de certificación consta de 90 preguntas de opción múltiple y requiere al menos dos años de experiencia en administración de TI con un enfoque de seguridad.
 
 ### 4.[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 

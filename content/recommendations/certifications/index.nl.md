@@ -68,8 +68,8 @@ Naast de bovenstaande certificeringen zijn er nog een aantal andere certificerin
 
 Om je voor te bereiden op deze certificeringen is het belangrijk om toegang te hebben tot kwalitatief goede leermiddelen. SimeonOnSecurity raadt het volgende aan:
 
-- [Books](https://simeononsecurity.ch/recommendations/books/) Deze pagina bevat een lijst met aanbevolen boeken voor het leren over verschillende onderwerpen op het gebied van Cyber en IT.
-- [Training](https://simeononsecurity.ch/recommendations/learning_resources/) Deze pagina bevat een lijst met aanbevolen trainingen en bootcamps die je kunnen helpen je voor te bereiden op certificeringen.
+- [Books](https://simeononsecurity.com/recommendations/books/) Deze pagina bevat een lijst met aanbevolen boeken voor het leren over verschillende onderwerpen op het gebied van Cyber en IT.
+- [Training](https://simeononsecurity.com/recommendations/learning_resources/) Deze pagina bevat een lijst met aanbevolen trainingen en bootcamps die je kunnen helpen je voor te bereiden op certificeringen.
 
 ## Visualiseren
 

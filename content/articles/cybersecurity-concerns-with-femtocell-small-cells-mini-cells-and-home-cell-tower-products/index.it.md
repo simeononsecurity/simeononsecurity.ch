@@ -36,9 +36,9 @@ Gli utenti finali possono adottare diverse misure per proteggersi dagli attacchi
 
 3. **Monitorate l'attività del vostro dispositivo mobile**: Controllate regolarmente l'attività del vostro dispositivo mobile ed esaminate gli estratti conto per individuare eventuali attività sospette.
 
-4. **Contattare il provider di telefonia mobile**: Se sospettate che il vostro dispositivo mobile o la vostra rete siano stati compromessi, contattate immediatamente il vostro provider di telefonia mobile per segnalare il problema e chiedere assistenza. Vi forniamo ulteriori indicazioni su cosa fare se sospettate di essere stati compromessi.[here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+4. **Contattare il provider di telefonia mobile**: Se sospettate che il vostro dispositivo mobile o la vostra rete siano stati compromessi, contattate immediatamente il vostro provider di telefonia mobile per segnalare il problema e chiedere assistenza. Vi forniamo ulteriori indicazioni su cosa fare se sospettate di essere stati compromessi.[here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
-5. **Utilizzare messaggeri e applicazioni vocali sicure**: Se possibile, dovreste utilizzare applicazioni come Signal, Wickr o Wire. Ne parliamo più dettagliatamente[here](https://simeononsecurity.ch/recommendations/messengers/)
+5. **Utilizzare messaggeri e applicazioni vocali sicure**: Se possibile, dovreste utilizzare applicazioni come Signal, Wickr o Wire. Ne parliamo più dettagliatamente[here](https://simeononsecurity.com/recommendations/messengers/)
 
 ## Conclusione
 

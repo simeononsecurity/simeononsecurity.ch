@@ -10,7 +10,7 @@ coverAlt: "una porta di un caveau a fumetti che viene aperta con una chiave e ri
 coverCaption: ""
 ---
 
-Una guida completa per risolvere la sfida Crypto "Bank Heist" su HackTheBox. La sfida prevede la decodifica di un [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) e un testo cifrato atbash usando CyberChef per rivelare la bandiera. Una lettura imperdibile per gli aspiranti professionisti della sicurezza informatica e per chiunque voglia migliorare le proprie competenze in materia di crittografia.
+Una guida completa per risolvere la sfida Crypto "Bank Heist" su HackTheBox. La sfida prevede la decodifica di un [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) e un testo cifrato atbash usando CyberChef per rivelare la bandiera. Una lettura imperdibile per gli aspiranti professionisti della sicurezza informatica e per chiunque voglia migliorare le proprie competenze in materia di crittografia.
 
 ## File forniti:
 

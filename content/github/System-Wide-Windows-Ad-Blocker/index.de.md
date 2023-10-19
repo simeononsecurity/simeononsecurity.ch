@@ -27,6 +27,6 @@ Dieses Skript ist ein Windows PowerShell-Skript, das die Datei "StevenBlack/host
 #### Automatisch installieren:
 Führen Sie die neueste Version des Skripts automatisch aus:
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/soswindowsadblocker.ps1' | iex
+iwr -useb 'https://simeononsecurity.com/scripts/soswindowsadblocker.ps1' | iex
 ```
 

@@ -68,8 +68,8 @@ In addition to the certifications listed above, there are several other certific
 
 To prepare for these certifications, it's important to have access to quality learning resources. SimeonOnSecurity recommends the following:
 
-- [Books](https://simeononsecurity.ch/recommendations/books/): This page includes a list of recommended books for learning about various topics in Cyber and IT fields.
-- [Training](https://simeononsecurity.ch/recommendations/learning_resources/): This page includes a list of recommended training courses and bootcamps that can help you prepare for certifications.
+- [Books](https://simeononsecurity.com/recommendations/books/): This page includes a list of recommended books for learning about various topics in Cyber and IT fields.
+- [Training](https://simeononsecurity.com/recommendations/learning_resources/): This page includes a list of recommended training courses and bootcamps that can help you prepare for certifications.
 
 ## Visualize
 

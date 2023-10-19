@@ -184,7 +184,7 @@ Windows-Optimize-Harden-Debloat GUI Based Guided Install">.
 Użyj tego one-linera, aby automatycznie pobrać, rozpakować wszystkie pliki pomocnicze i uruchomić najnowszą wersję skryptu.
 
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Przykład

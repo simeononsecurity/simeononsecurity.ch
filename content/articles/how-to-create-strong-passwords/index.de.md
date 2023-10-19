@@ -59,9 +59,9 @@ Denken Sie daran, dass die Stärke einer Passphrase nicht nur in ihrer Länge, s
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-Je mehr Online-Konten wir haben, desto schwieriger wird es, sich für jedes einzelne ein eindeutiges und sicheres Kennwort zu merken. Hier kommen Passwort-Manager wie [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) nützlich sein. Ein Passwort-Manager ist ein sicherer digitaler Tresor, der alle Ihre Passwörter in einem verschlüsselten Format speichert. Er ermöglicht es Ihnen, sichere, eindeutige Passwörter für jedes Konto zu erstellen und füllt sie bei Bedarf automatisch aus. Hier erfahren Sie, wie Passwort-Manager Ihnen helfen können:
+Je mehr Online-Konten wir haben, desto schwieriger wird es, sich für jedes einzelne ein eindeutiges und sicheres Kennwort zu merken. Hier kommen Passwort-Manager wie [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) nützlich sein. Ein Passwort-Manager ist ein sicherer digitaler Tresor, der alle Ihre Passwörter in einem verschlüsselten Format speichert. Er ermöglicht es Ihnen, sichere, eindeutige Passwörter für jedes Konto zu erstellen und füllt sie bei Bedarf automatisch aus. Hier erfahren Sie, wie Passwort-Manager Ihnen helfen können:
 
 - **Bequemlichkeit**: Mit einem Passwort-Manager müssen Sie sich nur ein einziges Master-Passwort merken, um auf alle Ihre gespeicherten Passwörter zuzugreifen. So müssen Sie sich nicht mehr mehrere komplexe Passwörter merken.
 - **Starke, einzigartige Passwörter**: Passwort-Manager können starke Passwörter aus einer Kombination von Zeichen generieren und so sicherstellen, dass jedes Ihrer Konten ein einzigartiges und sicheres Passwort hat.
@@ -78,7 +78,7 @@ Obwohl Passwort-Manager erhebliche Vorteile bieten, ist es wichtig, die besten P
 
 - **Wählen Sie einen seriösen Passwort-Manager**: Wählen Sie einen etablierten und vertrauenswürdigen Passwort-Manager wie **Bitwarden** oder einen anderen, der von seriösen Quellen für Cybersicherheit empfohlen wird.
 - **Erstellen Sie ein sicheres Master-Passwort**: Das Master-Passwort ist der Schlüssel zum Tresor Ihres Passwort-Managers, stellen Sie also sicher, dass es sicher und einzigartig ist. Befolgen Sie die oben genannten Richtlinien, um ein sicheres Master-Passwort zu erstellen.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene, indem sie zusätzlich zum Master-Passwort eine zweite Form der Verifizierung verlangt, z. B. einen Fingerabdruck oder einen Code von einer Authentifizierungs-App.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene, indem sie zusätzlich zum Master-Passwort eine zweite Form der Verifizierung verlangt, z. B. einen Fingerabdruck oder einen Code von einer Authentifizierungs-App.
 - Aktualisieren Sie regelmäßig Ihren Passwort-Manager**: Halten Sie Ihren Passwort-Manager auf dem neuesten Stand, um sicherzustellen, dass Sie über die neuesten Sicherheitspatches und Funktionen verfügen.
 - **Sichern Sie Ihren Passwortspeicher**: Erstellen Sie regelmäßig eine Sicherungskopie Ihres Passwort-Managers, um Datenverluste im Falle eines Geräteausfalls oder anderer unvorhergesehener Umstände zu vermeiden.
 - **Vorsicht vor Phishing-Angriffen**: Seien Sie wachsam und vermeiden Sie es, auf verdächtige Links zu klicken oder Ihre Passwortmanager-Informationen auf nicht vertrauenswürdigen Websites anzugeben.

@@ -89,7 +89,7 @@ coverAlt: "Щит с символом замка, символизирующий
 
 Ниже приведены основные рекомендации, которые необходимо соблюдать для обеспечения защиты от киберугроз:
 
-#### [Creating Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Creating Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 Для предотвращения атак на пароли очень важны **прочные пароли**. Пароли должны быть **длинными, сложными и уникальными** для каждой учетной записи. Надежный пароль должен содержать комбинацию **прописных и строчных букв, цифр и символов**. Избегайте использования общеупотребительных слов и фраз, а также личной информации, например, имени или даты рождения.
 
@@ -101,7 +101,7 @@ coverAlt: "Щит с символом замка, символизирующий
 
 Рекомендуется также по возможности включать **автоматическое обновление**, чтобы всегда иметь последнюю версию программного обеспечения.
 
-#### [Implementing Multi-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### [Implementing Multi-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 **Многофакторная аутентификация** обеспечивает дополнительный уровень безопасности, требуя от пользователя не только ввода пароля, но и второй формы идентификации, например отпечатка пальца или маркера безопасности. Это позволяет предотвратить несанкционированный доступ к учетным записям даже в случае компрометации пароля.
 
@@ -109,7 +109,7 @@ coverAlt: "Щит с символом замка, символизирующий
 
 #### Привычки безопасного просмотра веб-страниц
 
-Внимательное отношение к тому, какие сайты посещаются, какие ссылки переходят и какой информацией делятся в Интернете, поможет предотвратить [**social engineering attacks**](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) или **поддельные веб-сайты**, чтобы обманом заставить пользователей раскрыть конфиденциальную информацию или загрузить вредоносное ПО.
+Внимательное отношение к тому, какие сайты посещаются, какие ссылки переходят и какой информацией делятся в Интернете, поможет предотвратить [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) или **поддельные веб-сайты**, чтобы обманом заставить пользователей раскрыть конфиденциальную информацию или загрузить вредоносное ПО.
 
 Рекомендуется посещать только проверенные сайты, не переходить по подозрительным ссылкам или всплывающим окнам, а также не сообщать личную или финансовую информацию в Интернете, если нет уверенности в том, что сайт является легитимным.
 
@@ -119,7 +119,7 @@ coverAlt: "Щит с символом замка, символизирующий
 
 **Шифрование** играет важную роль в обеспечении кибербезопасности, защищая конфиденциальные данные от несанкционированного доступа. Шифрование - это процесс преобразования данных в код, который может быть расшифрован только с помощью правильного ключа или пароля.
 
-#### [What is Encryption?](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+#### [What is Encryption?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
 
 **Шифрование** - это метод безопасной передачи данных, который заключается в преобразовании открытого текста в шифрованный с помощью алгоритма и ключа.
 
@@ -151,7 +151,7 @@ coverAlt: "Щит с символом замка, символизирующий
 
 Разработка **плана кибербезопасности** необходима для выявления и снижения **киберрисков**. Этот план должен включать политики и процедуры по **защите данных**, **реагированию на инциденты** и **обучению сотрудников**.
 
-#### [Employee Training and Awareness](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
+#### [Employee Training and Awareness](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
 
 Обучение сотрудников **передовым методам обеспечения кибербезопасности** необходимо для снижения риска **человеческой ошибки** и обеспечения единства действий всех сотрудников организации в вопросах кибербезопасности.
 
@@ -159,7 +159,7 @@ coverAlt: "Щит с символом замка, символизирующий
 
 Регулярные **аудиты безопасности** важны для выявления уязвимостей и обеспечения эффективности мер кибербезопасности в организации. Такие аудиты должны проводиться внешней **третьей стороной**.
 
-### [The Future of Cybersecurity](https://simeononsecurity.ch/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
+### [The Future of Cybersecurity](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
 
 Мир кибербезопасности постоянно развивается, и для защиты от новейших угроз необходимо быть на шаг впереди.
 
@@ -167,11 +167,11 @@ coverAlt: "Щит с символом замка, символизирующий
 
 Новые технологии, такие как **Интернет вещей (IoT)** и **искусственный интеллект (AI)**, создают новые возможности для **кибератак**. Для защиты от них необходимо быть в курсе **возникающих угроз** и технологий.
 
-#### [The Role of Artificial Intelligence](https://simeononsecurity.ch/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
+#### [The Role of Artificial Intelligence](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
 
 **Искусственный интеллект** может использоваться как для атаки, так и для защиты от **киберугроз**. Системы обнаружения и реагирования на основе искусственного интеллекта помогают выявлять и устранять угрозы в режиме реального времени.
 
-#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.ch/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
+#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
 
 **Киберугрозы** носят глобальный характер и требуют международного сотрудничества для борьбы с ними. Эффективная **кибербезопасность** требует **сотрудничества** и **обмена информацией** между правительствами, компаниями и частными лицами.
 

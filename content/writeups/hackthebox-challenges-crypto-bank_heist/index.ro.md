@@ -10,7 +10,7 @@ coverAlt: "o ușă de seif din desene animate care se deschide cu o cheie și de
 coverCaption: ""
 ---
 
-Un ghid complet pentru a rezolva provocarea Crypto "Bank Heist" pe HackTheBox. Provocarea presupune decodarea unui [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) text folosind Decode.fr și un text cifrat atbash folosind CyberChef pentru a descoperi steagul. O lectură obligatorie pentru profesioniștii aspiranți la securitate cibernetică și pentru oricine dorește să își îmbunătățească abilitățile în domeniul criptografiei.
+Un ghid complet pentru a rezolva provocarea Crypto "Bank Heist" pe HackTheBox. Provocarea presupune decodarea unui [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) text folosind Decode.fr și un text cifrat atbash folosind CyberChef pentru a descoperi steagul. O lectură obligatorie pentru profesioniștii aspiranți la securitate cibernetică și pentru oricine dorește să își îmbunătățească abilitățile în domeniul criptografiei.
 
 ## Fișiere furnizate:
 

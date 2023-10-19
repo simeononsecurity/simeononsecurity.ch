@@ -52,7 +52,7 @@ Aby zdobyć praktyczne doświadczenie, można skonfigurować środowisko laborat
 
 - **Usługi w chmurze**: Możesz także skorzystać z usług w chmurze, takich jak Amazon Web Services (AWS) lub Microsoft Azure, aby utworzyć maszyny wirtualne lub kontenery z systemem Linux. Może to być wygodna opcja, jeśli nie masz zasobów do skonfigurowania fizycznego środowiska laboratoryjnego.
 
-- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) Jeśli dysponujesz odpowiednimi zasobami, możesz skonfigurować fizyczne środowisko laboratoryjne w domu. Może ono obejmować jeden lub więcej fizycznych serwerów lub stacji roboczych z systemem Linux, a także sprzęt sieciowy, taki jak przełączniki i routery.
+- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) Jeśli dysponujesz odpowiednimi zasobami, możesz skonfigurować fizyczne środowisko laboratoryjne w domu. Może ono obejmować jeden lub więcej fizycznych serwerów lub stacji roboczych z systemem Linux, a także sprzęt sieciowy, taki jak przełączniki i routery.
 
 Zdobywając praktyczne doświadczenie z systemami Linux, zdobędziesz praktyczne doświadczenie w konfigurowaniu, monitorowaniu i rozwiązywaniu problemów z systemami Linux. Pomoże ci to przygotować się do egzaminu CompTIA Linux+ XK0-005, a także zapewni cenne umiejętności, które można wykorzystać w środowisku zawodowym.
 
@@ -100,7 +100,7 @@ Niektóre przykłady zasobów internetowych dotyczących egzaminu CompTIA Linux+
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp) Istnieje wiele kanałów YouTube, które udostępniają samouczki wideo na różne tematy związane z Linuksem, w tym niektóre koncentrujące się konkretnie na certyfikacji Linux+. {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Ten przewodnik zawiera przegląd tego, jak rozpocząć pracę z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/) Ten przewodnik zawiera przegląd tego, jak rozpocząć pracę z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
 
 Korzystając z zasobów internetowych, można uzyskać dostęp do szerokiej gamy materiałów do nauki i lepiej zrozumieć cele i podtematy egzaminu. Dodatkowo, wiele zasobów online oferuje interaktywne elementy, takie jak fora lub czaty, na których można zadawać pytania i uzyskać pomoc od innych profesjonalistów w dziedzinie Linuksa.
 

@@ -15,7 +15,7 @@ coverCaption: "Empower Your Journey in Cybersecurity"
 
 ## Introduction
 
-[**Hack The Box (HTB)**](https://simeononsecurity.ch/articles/hackthebox-vs-tryhackme-what-is-best/) is a renowned online platform in the cybersecurity community, offering an array of ethical hacking challenges and penetration testing labs. While it attracts cybersecurity enthusiasts, it may not be the most suitable option for beginners who are just starting their journey. This article explores the reasons why HTB might not be the best fit for newcomers and suggests alternative platforms to consider.
+[**Hack The Box (HTB)**](https://simeononsecurity.com/articles/hackthebox-vs-tryhackme-what-is-best/) is a renowned online platform in the cybersecurity community, offering an array of ethical hacking challenges and penetration testing labs. While it attracts cybersecurity enthusiasts, it may not be the most suitable option for beginners who are just starting their journey. This article explores the reasons why HTB might not be the best fit for newcomers and suggests alternative platforms to consider.
 
 ______
 {{<inarticle-dark>}}
@@ -39,7 +39,7 @@ ______
 
 ## [Hack The Box Academy](https://academy.hackthebox.com/): A Better Option for Beginners
 
-Realizing the need to cater to beginners, Hack The Box has introduced [**Hack The Box Academy**](https://simeononsecurity.ch/articles/hackthebox-academy-vs-tryhackme-what-is-best/). This platform offers well-structured and beginner-friendly courses that provide guided learning paths. Through the academy, newcomers can learn foundational cybersecurity concepts and gradually build their skills in a supportive environment.
+Realizing the need to cater to beginners, Hack The Box has introduced [**Hack The Box Academy**](https://simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/). This platform offers well-structured and beginner-friendly courses that provide guided learning paths. Through the academy, newcomers can learn foundational cybersecurity concepts and gradually build their skills in a supportive environment.
 
 ### Advantages of Hack The Box Academy
 

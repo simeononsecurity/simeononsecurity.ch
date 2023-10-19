@@ -30,14 +30,14 @@ coverCaption: ""
 情報へのアクセスを制御することは、不正な流出を防止する上で非常に重要です。以下の対策を実施する：
 
 - 役割に基づくアクセス制御**：役割に基づくアクセス制御**：職務上の役割と責任に基づいてアクセス権を割り当て、権限のある個人のみが機密情報にアクセスできるようにする。
-- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)パスワードや生体認証など、複数の認証要素を要求し、アクセス資格のセキュリティを強化する。
+- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)パスワードや生体認証など、複数の認証要素を要求し、アクセス資格のセキュリティを強化する。
 - **定期的なアクセスレビュー**：アクセス権が最新であることを確認するために定期的なレビューを実施し、アクセス権を必要としなくなった個人のアクセス権を速やかに取り消す。
 
 ### 2.機密情報の暗号化
 
 暗号化は、不正アクセスから機密データを保護するための追加のセキュリティ層となります。以下のプラクティスを検討してください：
 
-- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)保存から送信まで、ライフサイクルを通じて情報を保護する暗号化メカニズムを導入する。
+- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)保存から送信まで、ライフサイクルを通じて情報を保護する暗号化メカニズムを導入する。
 - **Data classification**：データの分類**：情報を機密レベルに基づいて分類し、それに応じて適切な暗号化手段を適用する。
 - 鍵の管理**：鍵管理**：暗号化鍵が適切に保管、保護され、定期的にローテーションされるよう、強固な鍵管理手法を確立する。
 
@@ -45,8 +45,8 @@ coverCaption: ""
 
 情報漏えいを防ぐには、従業員の教育や意識改革に投資することが重要です。ここでは、その方法をご紹介します：
 
-- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)情報流出のリスクを含め、情報セキュリティのベストプラクティスについて従業員を教育するために、定期的なトレーニングセッションを実施する。
-- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)機密情報への不正アクセス手段として使われることの多いフィッシングの試みを認識し、報告するよう従業員を訓練する。
+- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)情報流出のリスクを含め、情報セキュリティのベストプラクティスについて従業員を教育するために、定期的なトレーニングセッションを実施する。
+- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)機密情報への不正アクセス手段として使われることの多いフィッシングの試みを認識し、報告するよう従業員を訓練する。
 - **報告手続き**：潜在的なセキュリティインシデントや疑わしい活動を適切な当局に報告するための明確な手順を確立する。
 
 ### 4.データ損失防止（DLP）ソリューションの導入
@@ -80,7 +80,7 @@ ______
 ## 参考文献
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

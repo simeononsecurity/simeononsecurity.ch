@@ -52,7 +52,7 @@ coverCaption: ""
 
 - **Облачные сервисы**: Для создания виртуальных машин или контейнеров под управлением Linux можно также использовать облачные сервисы, такие как Amazon Web Services (AWS) или Microsoft Azure. Это может быть удобным вариантом, если у вас нет ресурсов для создания физической лабораторной среды.
 
-- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) Если у вас есть ресурсы, вы можете создать физическую лабораторную среду у себя дома. Она может включать один или несколько физических серверов или рабочих станций под управлением Linux, а также сетевое оборудование, такое как коммутаторы и маршрутизаторы.
+- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) Если у вас есть ресурсы, вы можете создать физическую лабораторную среду у себя дома. Она может включать один или несколько физических серверов или рабочих станций под управлением Linux, а также сетевое оборудование, такое как коммутаторы и маршрутизаторы.
 
 Получив практический опыт работы с системами Linux, вы приобретете практический опыт конфигурирования, мониторинга и устранения неисправностей в системах Linux. Это поможет вам подготовиться к сдаче экзамена CompTIA Linux+ XK0-005, а также даст ценные навыки, которые можно использовать в профессиональной деятельности.
 
@@ -100,7 +100,7 @@ coverCaption: ""
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp) На YouTube существует множество каналов, предоставляющих видеоуроки по различным темам, связанным с Linux, в том числе и по сертификации Linux+. {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) В этом руководстве дается обзор того, как начать работу с Linux, включая советы по изучению вариантов Linux на базе Debian и RHEL.
+- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/) В этом руководстве дается обзор того, как начать работу с Linux, включая советы по изучению вариантов Linux на базе Debian и RHEL.
 
 Использование онлайновых ресурсов позволяет получить доступ к широкому спектру учебных материалов и лучше понять цели и подтемы экзамена. Кроме того, многие онлайн-ресурсы предлагают интерактивные элементы, такие как форумы или чаты, где можно задать вопросы и получить помощь от других профессионалов Linux.
 
@@ -110,7 +110,7 @@ coverCaption: ""
 
 Примеры практических экзаменов для экзамена CompTIA Linux+ XK0-005 включают:
 
-- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.ch/linux-plus-practice-test)
+- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.com/linux-plus-practice-test)
 
 - [**CompTIA Linux+ Certification Practice Exams**](https://www.comptia.org/training/certmaster-practice/linux) Книга включает четыре полных тренировочных экзамена, которые разработаны таким образом, чтобы имитировать формат и сложность реального экзамена.
 

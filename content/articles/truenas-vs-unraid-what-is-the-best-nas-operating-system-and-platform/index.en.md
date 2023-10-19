@@ -32,7 +32,7 @@ ______
 
 ## Cost
 
-Home users who are searching for the best [NAS operating system](https://simeononsecurity.ch/articles/nas-os-comparison-best-storage-solution/) often have concerns about **cost**. In this regard, **TrueNas** is a clear winner as it is **open-source and completely free**[^1][^2], at least for TrueNas CORE, the version aimed at home users and non-critical storage applications.
+Home users who are searching for the best [NAS operating system](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) often have concerns about **cost**. In this regard, **TrueNas** is a clear winner as it is **open-source and completely free**[^1][^2], at least for TrueNas CORE, the version aimed at home users and non-critical storage applications.
 
 In contrast, **Unraid** is not free but uses a fair pricing model with no subscriptions or hidden fees[^3]. There are three Unraid plans to choose from, each differing only in the number of storage devices that can be attached. The **Basic plan** costs **$59**[^4], the **Plus plan** costs **$89**[^5], and the **Pro plan** costs **$129**[^6].
 
@@ -91,7 +91,7 @@ ______
 
 ## Conclusion
 
-Both **TrueNas** and **Unraid** are powerful and mature [**NAS operating systems**](https://simeononsecurity.ch/articles/nas-os-comparison-best-storage-solution/) that cater to different user needs. TrueNas is well-suited for users with **advanced knowledge** of storage management and a desire for **advanced data protection** using **OpenZFS**[^1]. On the other hand, Unraid offers a **flexible and user-friendly** NAS system, making it ideal for **home users**[^2].
+Both **TrueNas** and **Unraid** are powerful and mature [**NAS operating systems**](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) that cater to different user needs. TrueNas is well-suited for users with **advanced knowledge** of storage management and a desire for **advanced data protection** using **OpenZFS**[^1]. On the other hand, Unraid offers a **flexible and user-friendly** NAS system, making it ideal for **home users**[^2].
 
 | Subject            | TrueNAS                                                                                          | Unraid                                                                                       |
 | ------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
@@ -106,7 +106,7 @@ Both **TrueNas** and **Unraid** are powerful and mature [**NAS operating systems
 In summary:
 
 ### TrueNas Pros:
-- **Free and open-source** [NAS operating system](https://simeononsecurity.ch/articles/nas-os-comparison-best-storage-solution/).
+- **Free and open-source** [NAS operating system](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/).
 - Advanced data protection with **OpenZFS** file system.
 - Offers **great performance** for enterprise-grade storage.
 

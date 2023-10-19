@@ -26,7 +26,7 @@ Urmați instrucțiunile [installation instructions](https://help.earnapp.com/hc/
 
 ### Instalați Docker
 
-Învățați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Învățați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Instalați containerul Docker
 Pentru a instala aplicația Earn App utilizând Docker, urmați acești pași:
@@ -53,7 +53,7 @@ Urmăriți acest tutorial video pentru a vă ghida prin procesul de instalare a 
 
 În concluzie, Earn App prezintă o oportunitate excelentă de a vă monetiza dispozitivele inactive și de a câștiga recompense prin partajarea internetului dvs. ca serviciu VPN. Prin valorificarea resurselor nefolosite ale dispozitivului dvs. puteți genera venituri pasive cu un IP rezidențial, în medie de 5 USD pe lună pe nod. Pentru a începe, creați-vă un cont la Earn App, urmați instrucțiunile de instalare și începeți să câștigați recompense chiar astăzi. Profitați la maximum de dispozitivele dvs. inactive și transformați-le într-o sursă valoroasă de venit fără efort.
 
-După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Referințe:
 

@@ -12,7 +12,7 @@ Bedankt voor uw interesse in adverteren bij SimeonOnSecurity! Wij bieden verschi
 
 Afbeeldingen moeten worden geleverd in een van beide `.png` of `.webp` formaat om optimale prestaties en kwaliteit voor uw advertenties te garanderen.
 
-Om bij ons te adverteren, kunt u een bericht sturen via ons contactformulier op [Contact Us](https://simeononsecurity.ch/contactus/) We nemen zo snel mogelijk contact met je op om de beschikbare advertentiemogelijkheden en prijzen te bespreken.
+Om bij ons te adverteren, kunt u een bericht sturen via ons contactformulier op [Contact Us](https://simeononsecurity.com/contactus/) We nemen zo snel mogelijk contact met je op om de beschikbare advertentiemogelijkheden en prijzen te bespreken.
 
 We kijken ernaar uit om met u samen te werken om uw merk te promoten en ons betrokken publiek van beveiligingsenthousiastelingen en -professionals te bereiken!
 

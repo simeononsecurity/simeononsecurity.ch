@@ -51,7 +51,7 @@ Den Kandidaten stehen verschiedene Lernmaterialien zur Verfügung, wie z. B. Leh
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
 
 ### Schritt 4: Üben Sie mit Übungsklausuren
 

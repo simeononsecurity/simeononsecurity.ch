@@ -36,9 +36,9 @@ Istnieje kilka kroków, które użytkownicy końcowi mogą podjąć, aby chroni�
 
 3. **Monitoruj aktywność swojego urządzenia mobilnego**: Regularnie sprawdzaj aktywność swojego urządzenia mobilnego i przeglądaj swoje wyciągi z rachunków, aby zidentyfikować wszelkie podejrzane działania.
 
-4. **Skontaktuj się z dostawcą usług komórkowych**: Jeśli podejrzewasz, że Twoje urządzenie mobilne lub sieć zostały naruszone, natychmiast skontaktuj się z dostawcą usług komórkowych, aby zgłosić problem i szukać pomocy. Mamy kilka dodatkowych wskazówek, co należy zrobić, jeśli podejrzewasz, że zostałeś narażony na atak[here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+4. **Skontaktuj się z dostawcą usług komórkowych**: Jeśli podejrzewasz, że Twoje urządzenie mobilne lub sieć zostały naruszone, natychmiast skontaktuj się z dostawcą usług komórkowych, aby zgłosić problem i szukać pomocy. Mamy kilka dodatkowych wskazówek, co należy zrobić, jeśli podejrzewasz, że zostałeś narażony na atak[here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
-5. **Używaj bezpiecznych komunikatorów i aplikacji głosowych**: Jeśli to możliwe, powinieneś używać aplikacji takich jak Signal, Wickr czy Wire. Omawiamy to bardziej szczegółowo[here](https://simeononsecurity.ch/recommendations/messengers/)
+5. **Używaj bezpiecznych komunikatorów i aplikacji głosowych**: Jeśli to możliwe, powinieneś używać aplikacji takich jak Signal, Wickr czy Wire. Omawiamy to bardziej szczegółowo[here](https://simeononsecurity.com/recommendations/messengers/)
 
 ## Wniosek
 

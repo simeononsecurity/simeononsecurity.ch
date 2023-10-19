@@ -40,19 +40,19 @@ coverCaption: ""
 
 虽然网络钓鱼诈骗可能非常复杂，但您可以采取一些积极主动的步骤来避免成为受害者。通过实施以下措施，您可以显着降低遭受网络钓鱼攻击的风险：
 
-### [Education and Awareness](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) 对打击网络钓鱼诈骗至关重要。随时了解诈骗者采用的最新网络钓鱼技术和策略。通过安全博客、文章和官方**政府网站**等可靠来源定期更新您的知识，这些来源提供有关当前网络钓鱼趋势和网络安全最佳实践的信息。
+[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) 对打击网络钓鱼诈骗至关重要。随时了解诈骗者采用的最新网络钓鱼技术和策略。通过安全博客、文章和官方**政府网站**等可靠来源定期更新您的知识，这些来源提供有关当前网络钓鱼趋势和网络安全最佳实践的信息。
 
 ### 谨慎使用电子邮件和消息
 
 接收电子邮件或消息时要谨慎，尤其是那些要求提供个人信息或提示采取紧急行动的电子邮件或消息。请注意电子邮件地址、语法和拼写错误或可能表示网络钓鱼企图的通用问候语等详细信息。警惕意想不到的附件或链接，即使它们看起来来自可信来源。如有疑问，**不要点击任何可疑链接或下载附件**。相反，**使用经过验证的电话号码或电子邮件地址直接联系发件人**以验证消息的真实性。
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) 对于每个在线帐户，以防止单个违规行为危及多个帐户。
+A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) 对于每个在线帐户，以防止单个违规行为危及多个帐户。
 
-除了强密码， [**enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) 只要有可能。 2FA 通过要求第二种形式的验证来增加额外的安全层，例如除了您的密码之外，还需要发送到您的移动设备的临时代码。这使得诈骗者更难未经授权访问您的帐户。
+除了强密码， [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) 只要有可能。 2FA 通过要求第二种形式的验证来增加额外的安全层，例如除了您的密码之外，还需要发送到您的移动设备的临时代码。这使得诈骗者更难未经授权访问您的帐户。
 
 ### 使软件和操作系统保持最新
 

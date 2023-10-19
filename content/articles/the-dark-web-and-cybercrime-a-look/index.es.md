@@ -50,17 +50,17 @@ Cabe señalar que el potencial de la web oscura para fines periodísticos y de d
 
 Protegerse de la Dark Web y la ciberdelincuencia requiere medidas proactivas para mitigar los riesgos. He aquí algunos pasos esenciales para protegerse:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Tenga cuidado al compartir información personal en línea, absteniéndose de proporcionar detalles sensibles a fuentes desconocidas o que no sean de confianza. Proteja su nombre, dirección, número de la Seguridad Social y otros datos personales.
+[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Tenga cuidado al compartir información personal en línea, absteniéndose de proporcionar detalles sensibles a fuentes desconocidas o que no sean de confianza. Proteja su nombre, dirección, número de la Seguridad Social y otros datos personales.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Utilice contraseñas fuertes y únicas para todas sus cuentas en línea. Evita reutilizar contraseñas en varias plataformas para evitar accesos no autorizados en caso de filtración de datos.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilice contraseñas fuertes y únicas para todas sus cuentas en línea. Evita reutilizar contraseñas en varias plataformas para evitar accesos no autorizados en caso de filtración de datos.
 
-[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Actualice regularmente su software, incluidos los sistemas operativos, los navegadores web y los programas antivirus. Estas actualizaciones suelen contener parches de seguridad que solucionan vulnerabilidades y protegen frente a ciberamenazas emergentes.
+[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Actualice regularmente su software, incluidos los sistemas operativos, los navegadores web y los programas antivirus. Estas actualizaciones suelen contener parches de seguridad que solucionan vulnerabilidades y protegen frente a ciberamenazas emergentes.
 
 **4. Practica hábitos de navegación seguros:** Sé exigente con los sitios web que visitas, absteniéndote de hacer clic en enlaces de correos electrónicos o sitios web desconocidos. Limítese a fuentes fiables y verifique la legitimidad de los sitios web antes de compartir información personal o financiera.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Utilice cortafuegos para controlar el tráfico de red entrante y saliente e implante software antivirus fiable para detectar y eliminar malware o actividades sospechosas de sus dispositivos.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilice cortafuegos para controlar el tráfico de red entrante y saliente e implante software antivirus fiable para detectar y eliminar malware o actividades sospechosas de sus dispositivos.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Cree copias de seguridad periódicas de sus datos y archivos importantes. Así te asegurarás de que, aunque tu ordenador se vea comprometido o te roben los datos, puedas restaurar tu información y minimizar el impacto de posibles ciberataques.
+[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Cree copias de seguridad periódicas de sus datos y archivos importantes. Así te asegurarás de que, aunque tu ordenador se vea comprometido o te roben los datos, puedas restaurar tu información y minimizar el impacto de posibles ciberataques.
 
 ## Normativa e iniciativas gubernamentales
 

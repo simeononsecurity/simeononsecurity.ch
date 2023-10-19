@@ -51,8 +51,8 @@ CISSP 考试是基于计算机的考试，由 250 道多项选择题组成。考
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 #### 第 4 步：通过模拟考试进行练习
 
@@ -61,7 +61,7 @@ CISSP 考试是基于计算机的考试，由 250 道多项选择题组成。考
 重要的是要参加多次模拟考试，以熟悉可能会问到的问题类型，并培养时间管理技能。
 
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
 
 #### 第 5 步：注册考试
 

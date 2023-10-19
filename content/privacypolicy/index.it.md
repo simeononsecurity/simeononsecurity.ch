@@ -3,7 +3,7 @@ title: "Informativa sulla privacy: Raccolta, uso e consenso delle informazioni |
 date: 2020-08-08
 ---
 
-In SimeonOnSecurity, accessibile da https://simeononsecurity.ch, una delle nostre principali priorità è la privacy dei nostri visitatori. Questo documento sulla privacy contiene i tipi di informazioni che vengono raccolte e registrate da SimeonOnSecurity e il modo in cui vengono utilizzate.
+In SimeonOnSecurity, accessibile da https://simeononsecurity.com, una delle nostre principali priorità è la privacy dei nostri visitatori. Questo documento sulla privacy contiene i tipi di informazioni che vengono raccolte e registrate da SimeonOnSecurity e il modo in cui vengono utilizzate.
 
 Se avete ulteriori domande o desiderate maggiori informazioni sulla nostra Politica sulla privacy, non esitate a contattarci.
 

@@ -20,15 +20,15 @@ Internetul a revoluționat modul în care comunicăm, lucrăm și accesăm infor
 
 #### Riscurile de a fi online
 
-De fiecare dată când intrați online, există riscul de a deveni victima unor escrocherii online, a unor încălcări ale securității datelor sau a altor amenințări cibernetice. Unele dintre riscuri includ **descărcarea de software malițios fără să știți, furnizarea de date personale hackerilor, implicarea pe site-uri web frauduloase** și multe altele. Din păcate, riscurile nu se limitează la adulți; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Prin urmare, a devenit esențial să știți cum să vă protejați pe dumneavoastră și pe cei dragi atunci când utilizați serviciile online.
+De fiecare dată când intrați online, există riscul de a deveni victima unor escrocherii online, a unor încălcări ale securității datelor sau a altor amenințări cibernetice. Unele dintre riscuri includ **descărcarea de software malițios fără să știți, furnizarea de date personale hackerilor, implicarea pe site-uri web frauduloase** și multe altele. Din păcate, riscurile nu se limitează la adulți; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Prin urmare, a devenit esențial să știți cum să vă protejați pe dumneavoastră și pe cei dragi atunci când utilizați serviciile online.
 
 O modalitate de a vă proteja de escrocheriile online este să fiți precaut atunci când deschideți **mailuri de la expeditori necunoscuți**. Aceste e-mailuri pot conține linkuri de phishing care vă pot fura informațiile personale. De asemenea, este important să fiți atenți atunci când descărcați software de pe internet. Unele programe pot conține programe malware care vă pot deteriora dispozitivul sau vă pot fura datele.
 
-Un alt risc al activității online este [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Hărțuirea cibernetică poate avea un impact grav asupra sănătății mintale și bunăstării unei persoane. Este esențial să vorbiți cu copiii dumneavoastră despre pericolele hărțuirii cibernetice și despre cum să le raportați.
+Un alt risc al activității online este [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Hărțuirea cibernetică poate avea un impact grav asupra sănătății mintale și bunăstării unei persoane. Este esențial să vorbiți cu copiii dumneavoastră despre pericolele hărțuirii cibernetice și despre cum să le raportați.
 
 #### Protejarea informațiilor dvs. personale
 
-Informațiile dumneavoastră personale sunt valoroase și trebuie protejate. Obișnuiți să folosiți [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) și fiți atenți atunci când vă comunicați informațiile online. Evitați să partajați date sensibile, cum ar fi **numărul de asigurare socială, numerele cărților de credit și adresele de domiciliu**. Utilizați site-uri web legitime care au **certificate SSL** pentru a vă asigura că datele dumneavoastră sunt criptate înainte de transmitere.
+Informațiile dumneavoastră personale sunt valoroase și trebuie protejate. Obișnuiți să folosiți [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) și fiți atenți atunci când vă comunicați informațiile online. Evitați să partajați date sensibile, cum ar fi **numărul de asigurare socială, numerele cărților de credit și adresele de domiciliu**. Utilizați site-uri web legitime care au **certificate SSL** pentru a vă asigura că datele dumneavoastră sunt criptate înainte de transmitere.
 
 De asemenea, este important să vă **păstrați software-ul și dispozitivele actualizate**. Actualizările de software includ adesea patch-uri de securitate care vă pot proteja dispozitivul de atacurile cibernetice. În plus, fiți atenți atunci când folosiți rețele Wi-Fi publice. Rețelele Wi-Fi publice sunt adesea nesecurizate, ceea ce înseamnă că datele dvs. pot fi interceptate de infractorii cibernetici.
 
@@ -48,13 +48,13 @@ Software-ul neactualizat este una dintre cele mai frecvente modalități prin ca
 
 #### Folosiți parole puternice și autentificarea cu doi factori
 
-Creați [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) folosind un amestec de litere majuscule și minuscule, numere și simboluri. Încercați să folosiți cel puțin 12 caractere. Autentificarea cu doi factori adaugă un nivel suplimentar de protecție, cerându-vă să furnizați un cod suplimentar primit prin SMS sau e-mail înainte de a vă accesa contul.
+Creați [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) folosind un amestec de litere majuscule și minuscule, numere și simboluri. Încercați să folosiți cel puțin 12 caractere. Autentificarea cu doi factori adaugă un nivel suplimentar de protecție, cerându-vă să furnizați un cod suplimentar primit prin SMS sau e-mail înainte de a vă accesa contul.
 
 Folosirea unor parole slabe este una dintre cele mai ușoare modalități prin care hackerii pot obține acces la conturile și informațiile dvs. personale. Prin crearea unor parole puternice și activarea autentificării cu doi factori, puteți reduce semnificativ riscul de piratare a conturilor dumneavoastră.
 
 #### Protejați-vă rețeaua Wi-Fi
 
-Utilizați [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pentru a vă securiza rețeaua Wi-Fi pentru a preveni accesul neautorizat la dispozitivele și datele dumneavoastră. Nu folosiți parole implicite, deoarece acestea sunt ușor de piratat.
+Utilizați [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru a vă securiza rețeaua Wi-Fi pentru a preveni accesul neautorizat la dispozitivele și datele dumneavoastră. Nu folosiți parole implicite, deoarece acestea sunt ușor de piratat.
 
 Rețeaua Wi-Fi este poarta de acces la dispozitivele și datele dumneavoastră. Prin securizarea rețelei Wi-Fi cu o parolă puternică, puteți preveni accesul neautorizat la rețea și vă puteți proteja dispozitivele și datele de **amenințări cibernetice**.
 
@@ -70,11 +70,11 @@ Monitorizând activitatea din rețeaua dumneavoastră, puteți identifica rapid 
 
 În era digitală de astăzi, e-mailurile și mesajele au devenit un mod obișnuit de comunicare. Cu toate acestea, este important să dați dovadă de prudență atunci când împărtășiți detalii personale prin intermediul acestor mijloace. **Cibercriminalii** sunt mereu în căutare de modalități de a fura informații personale, iar e-mailurile și mesajele reprezintă una dintre cele mai ușoare căi prin care pot face acest lucru.
 
-[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) reprezintă o modalitate obișnuită pentru infractorii cibernetici de a obține informații personale. Aceste escrocherii vă păcălesc, făcându-vă să credeți că comunicați cu un contact sau o organizație legitimă și vă cer să furnizați informații sensibile. E-mailurile sau mesajele pot părea autentice, dar sunt concepute pentru a vă fura informațiile personale. Prin urmare, este important să vă feriți de astfel de escrocherii și să nu împărtășiți informații personale prin e-mail sau mesaje.
+[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) reprezintă o modalitate obișnuită pentru infractorii cibernetici de a obține informații personale. Aceste escrocherii vă păcălesc, făcându-vă să credeți că comunicați cu un contact sau o organizație legitimă și vă cer să furnizați informații sensibile. E-mailurile sau mesajele pot părea autentice, dar sunt concepute pentru a vă fura informațiile personale. Prin urmare, este important să vă feriți de astfel de escrocherii și să nu împărtășiți informații personale prin e-mail sau mesaje.
 
-#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) poate fi dificil de identificat, dar există câteva lucruri pe care le puteți face pentru a vă proteja. În primul rând, verificați adresa de e-mail a expeditorului. Dacă pare **suspicioasă sau necunoscută**, nu răspundeți la e-mail. În al doilea rând, treceți peste orice link** din e-mail pentru a vedea unde duce înainte de a da clic. Dacă linkul pare suspect, nu faceți clic pe el. În cele din urmă, dacă nu sunteți sigur de legitimitatea unui e-mail sau a unui mesaj, contactați direct organizația sau persoana în cauză pentru a confirma dacă aceasta a trimis e-mailul.
+[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) poate fi dificil de identificat, dar există câteva lucruri pe care le puteți face pentru a vă proteja. În primul rând, verificați adresa de e-mail a expeditorului. Dacă pare **suspicioasă sau necunoscută**, nu răspundeți la e-mail. În al doilea rând, treceți peste orice link** din e-mail pentru a vedea unde duce înainte de a da clic. Dacă linkul pare suspect, nu faceți clic pe el. În cele din urmă, dacă nu sunteți sigur de legitimitatea unui e-mail sau a unui mesaj, contactați direct organizația sau persoana în cauză pentru a confirma dacă aceasta a trimis e-mailul.
 
 #### Evitați să dați clic pe linkuri suspecte
 
@@ -120,11 +120,11 @@ Chiar dacă faceți cumpărături pe site-uri web sigure, există întotdeauna r
 
 Cele mai multe bănci și companii de carduri de credit dispun de **sisteme de detectare a fraudelor** care vă pot alerta în cazul unor activități suspecte. Cu toate acestea, este totuși important să vă supravegheați extrasele de cont și să raportați orice tranzacție neautorizată cât mai curând posibil.
 
-#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-O altă modalitate de a vă proteja informațiile financiare este de a utiliza [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Evitați să folosiți aceeași parolă pentru mai multe conturi și nu folosiți parole ușor de ghicit, cum ar fi "123456" sau "parola". În schimb, utilizați o combinație de litere, numere și simboluri pentru a crea o parolă puternică și unică pentru fiecare cont.
+O altă modalitate de a vă proteja informațiile financiare este de a utiliza [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Evitați să folosiți aceeași parolă pentru mai multe conturi și nu folosiți parole ușor de ghicit, cum ar fi "123456" sau "parola". În schimb, utilizați o combinație de litere, numere și simboluri pentru a crea o parolă puternică și unică pentru fiecare cont.
 
-Luați în considerare utilizarea unei [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) pentru a vă ajuta să creați și să stocați parole puternice. Managerii de parole pot genera parole aleatorii pentru dvs. și le pot stoca în siguranță, astfel încât să nu trebuiască să le țineți minte.
+Luați în considerare utilizarea unei [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) pentru a vă ajuta să creați și să stocați parole puternice. Managerii de parole pot genera parole aleatorii pentru dvs. și le pot stoca în siguranță, astfel încât să nu trebuiască să le țineți minte.
 
 #### Concluzie
 
@@ -140,13 +140,13 @@ Iată câteva sfaturi pentru a vă ajuta să rămâneți în siguranță:
 * Activați **Autentificarea cu doi factori** ori de câte ori este posibil
 * Fiți precaut cu privire la e-mailurile, linkurile și atașamentele suspecte**.
 * Păstrați-vă software-ul și sistemul de operare **actualizate**.
-* Folosiți [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) și un **firewall**
+* Folosiți [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) și un **firewall**
 
 #### Rămâneți informați cu privire la amenințările online
 
 Este important să fiți la curent cu cele mai recente **amenințări de securitate** și vulnerabilități pentru a vă proteja pe dumneavoastră și familia dumneavoastră. Infractorii cibernetici vin în mod constant cu noi tactici pentru a fura informații personale, a infecta dispozitivele cu **malware** și a înșela oamenii cu bani.
 
-Vă puteți ține la curent urmărind blogurile de **securitate** și posturile de știri de încredere și abonându-vă la alertele de securitate de la [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/)
+Vă puteți ține la curent urmărind blogurile de **securitate** și posturile de știri de încredere și abonându-vă la alertele de securitate de la [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
 
 #### Învățați copiii despre siguranța pe internet
 
@@ -163,23 +163,23 @@ Urmând aceste sfaturi, vă puteți ajuta să vă protejați pe dvs. și familia
 
 ### Utilizați un software de securitate fiabil
 
-Instalați [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) pentru a vă proteja rețeaua și pentru a preveni accesul neautorizat la datele dumneavoastră.
+Instalați [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) pentru a vă proteja rețeaua și pentru a preveni accesul neautorizat la datele dumneavoastră.
 
-Având în vedere numărul tot mai mare de **amenințări cibernetice**, este important să vă asigurați că dispozitivele dvs. sunt protejate cu un software de securitate fiabil. Instalarea [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/) și **software anti-malware** pe dispozitivele dvs. este un pas crucial în protejarea informațiilor dvs. personale și sensibile. Aceste programe software sunt concepute pentru a detecta, preveni și elimina programele malițioase care vă pot afecta calculatorul și vă pot fura datele.
+Având în vedere numărul tot mai mare de **amenințări cibernetice**, este important să vă asigurați că dispozitivele dvs. sunt protejate cu un software de securitate fiabil. Instalarea [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) și **software anti-malware** pe dispozitivele dvs. este un pas crucial în protejarea informațiilor dvs. personale și sensibile. Aceste programe software sunt concepute pentru a detecta, preveni și elimina programele malițioase care vă pot afecta calculatorul și vă pot fura datele.
 
-**Firewalls** și [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) sunt, de asemenea, instrumente esențiale pentru securizarea rețelei dumneavoastră. Firewall-urile acționează ca o barieră între dispozitivul dumneavoastră și internet, blocând traficul nedorit și împiedicând accesul hackerilor la rețeaua dumneavoastră. Serviciile VPN, pe de altă parte, creează o conexiune sigură și criptată între dispozitivul dvs. și internet, oferind un nivel suplimentar de protecție împotriva amenințărilor cibernetice.
+**Firewalls** și [**VPN services**](https://simeononsecurity.com/recommendations/vpns) sunt, de asemenea, instrumente esențiale pentru securizarea rețelei dumneavoastră. Firewall-urile acționează ca o barieră între dispozitivul dumneavoastră și internet, blocând traficul nedorit și împiedicând accesul hackerilor la rețeaua dumneavoastră. Serviciile VPN, pe de altă parte, creează o conexiune sigură și criptată între dispozitivul dvs. și internet, oferind un nivel suplimentar de protecție împotriva amenințărilor cibernetice.
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
 
-Utilizați [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/) și software anti-malware pentru a vă proteja computerul de **viruși, malware** și alte amenințări cibernetice. Aceste programe software pot detecta și elimina programele malițioase care vă pot afecta calculatorul și vă pot compromite datele. Este important să păstrați aceste programe **actualizate** și să efectuați scanări regulate pentru a vă asigura că dispozitivul dumneavoastră este protejat.
+Utilizați [antivirus](https://simeononsecurity.com/recommendations/anti-virus/) și software anti-malware pentru a vă proteja computerul de **viruși, malware** și alte amenințări cibernetice. Aceste programe software pot detecta și elimina programele malițioase care vă pot afecta calculatorul și vă pot compromite datele. Este important să păstrați aceste programe **actualizate** și să efectuați scanări regulate pentru a vă asigura că dispozitivul dumneavoastră este protejat.
 
 Unele programe software antivirus și anti-malware populare includ **Norton, McAfee și Avast**. Aceste programe oferă **protecție în timp real** împotriva amenințărilor cibernetice, **actualizări automate** și alte caracteristici care vă pot ajuta să vă păstrați dispozitivul în siguranță.
 
 #### Servicii firewall și VPN
 
-Un **firewall** și [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns) protejați-vă rețeaua împotriva programelor malware și a accesului neautorizat prin crearea unei rețele private securizate în cadrul unei rețele publice. Firewall-urile monitorizează și controlează traficul de intrare și de ieșire din rețea, în timp ce VPN-urile criptează conexiunea la internet și ascund adresa IP, ceea ce face dificilă interceptarea datelor de către hackeri.
+Un **firewall** și [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns) protejați-vă rețeaua împotriva programelor malware și a accesului neautorizat prin crearea unei rețele private securizate în cadrul unei rețele publice. Firewall-urile monitorizează și controlează traficul de intrare și de ieșire din rețea, în timp ce VPN-urile criptează conexiunea la internet și ascund adresa IP, ceea ce face dificilă interceptarea datelor de către hackeri.
 
-Există multe **firewall-uri** și [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns)
+Există multe **firewall-uri** și [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
 
 Prin utilizarea unui **software de securitate fiabil**, vă puteți proteja dispozitivele și rețelele de amenințările cibernetice și vă puteți asigura că informațiile personale și sensibile rămân în siguranță.
 
@@ -195,11 +195,11 @@ Prin urmare, este important să **evitați să vă conectați la servicii person
 
 În plus, este important să fiți precaut atunci când folosiți computere publice pentru tranzacții sensibile. Aceste computere pot avea instalate **keyloggeri** sau alte programe malware, care pot capta tastele pe care le apăsați și vă pot fura informațiile personale.
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
 
 Un **VPN**, sau **rețea privată virtuală**, este un instrument de securitate care criptează conexiunea la internet și vă ascunde adresa IP. Acest lucru face dificilă interceptarea datelor dumneavoastră de către hackeri și vă protejează dispozitivul de eventualele atacuri.
 
-Atunci când utilizați Wi-Fi public, este foarte recomandat să folosiți o [**VPN service**](https://simeononsecurity.ch/recommendations/vpns) pentru a vă cripta datele. Acest lucru va garanta că informațiile dvs. personale rămân în siguranță, chiar dacă rețeaua nu este securizată. Multe servicii VPN sunt disponibile gratuit sau contra unei taxe mici și sunt ușor de instalat și de utilizat pe dispozitivul dvs.
+Atunci când utilizați Wi-Fi public, este foarte recomandat să folosiți o [**VPN service**](https://simeononsecurity.com/recommendations/vpns) pentru a vă cripta datele. Acest lucru va garanta că informațiile dvs. personale rămân în siguranță, chiar dacă rețeaua nu este securizată. Multe servicii VPN sunt disponibile gratuit sau contra unei taxe mici și sunt ușor de instalat și de utilizat pe dispozitivul dvs.
 
 În general, este important să fiți precaut atunci când utilizați Wi-Fi public și să luați măsurile de precauție necesare pentru a vă proteja datele. Utilizând un **serviciu VPN** și evitând rețelele nesecurizate, puteți rămâne conectat, păstrându-vă în același timp informațiile personale în siguranță.
 

@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---
-simeononsecurity.ch
+simeononsecurity.com
  **Comment vous protéger contre la fraude physique par carte de crédit**
  
  Les cartes de crédit sont devenues un élément essentiel de notre vie quotidienne. Avec la commodité qu'ils offrent, cependant, vient le risque de fraude. Les criminels ont développé diverses techniques pour voler les informations de carte de crédit, telles que l'écrémage, le phishing et le piratage. Dans cet article, nous verrons comment vous pouvez vous protéger contre la fraude physique par carte de crédit.
@@ -44,7 +44,7 @@ simeononsecurity.ch
  
  ### Astuce supplémentaire : pensez aux portefeuilles bloquant la RFID
  
- Pour vous protéger, procurez-vous un véritable **portefeuille anti-RFID**. [Silent pocket](https://amzn.to/421J6o6) est la seule marque recommandée. La plupart des portefeuilles "RFID Blocking" sont une arnaque complète. Simeononsecurity.ch a personnellement testé des centaines de portefeuilles et supposés dispositifs de blocage RFID. La poche silencieuse est légitime.
+ Pour vous protéger, procurez-vous un véritable **portefeuille anti-RFID**. [Silent pocket](https://amzn.to/421J6o6) est la seule marque recommandée. La plupart des portefeuilles "RFID Blocking" sont une arnaque complète. simeononsecurity.com a personnellement testé des centaines de portefeuilles et supposés dispositifs de blocage RFID. La poche silencieuse est légitime.
  
  ## Technologie de puce
  

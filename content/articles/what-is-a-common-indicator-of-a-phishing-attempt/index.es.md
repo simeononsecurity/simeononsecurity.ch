@@ -48,19 +48,19 @@ Los intentos de phishing suelen solicitar información personal, como contraseñ
 
 Tenga cuidado con los archivos adjuntos inesperados, sobre todo si proceden de remitentes desconocidos. Los correos electrónicos de phishing pueden contener archivos adjuntos con programas maliciosos o virus. Evite abrir archivos adjuntos a menos que los espere y haya verificado la fuente.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.ch/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Ahora que ya conoce los indicadores comunes de los intentos de phishing, le ofrecemos algunos consejos para ayudarle a mantenerse seguro en Internet:
 
 - Mantenga su software actualizado**: Actualice periódicamente su sistema operativo, software antivirus y otras aplicaciones para protegerse frente a vulnerabilidades conocidas.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) La autenticación de dos factores añade una capa extra de seguridad a tus cuentas online al requerir una verificación adicional, como un código único enviado a tu dispositivo móvil.
+- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) La autenticación de dos factores añade una capa extra de seguridad a tus cuentas online al requerir una verificación adicional, como un código único enviado a tu dispositivo móvil.
 
 - Edúcate**: Mantente informado sobre las últimas técnicas de phishing y estafas. Familiarícese con los indicadores más comunes y consulte regularmente fuentes de confianza para estar al día de las nuevas amenazas.
 
 - Sea prudente con la información personal**: Evite compartir información sensible en línea a menos que confíe en la legitimidad y seguridad del sitio web o servicio que está utilizando.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Crea contraseñas fuertes y únicas para cada una de tus cuentas para minimizar el riesgo de acceso no autorizado.
+- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Crea contraseñas fuertes y únicas para cada una de tus cuentas para minimizar el riesgo de acceso no autorizado.
 
 ______
 
@@ -70,7 +70,7 @@ Reconocer los indicadores de un intento de phishing es vital para salvaguardar s
 
 Recuerde mantenerse informado, formarse sobre las últimas técnicas de phishing y seguir las mejores prácticas de seguridad en línea. Poniendo en práctica estos consejos y manteniendo una mentalidad precavida, puede mejorar su seguridad en línea y minimizar el riesgo de ser víctima de intentos de phishing.
 
-Más información en [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Más información en [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

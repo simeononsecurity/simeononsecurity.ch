@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---
-simeononsecurity.ch
+simeononsecurity.com
  ** كيف تحمي نفسك من الاحتيال المادي على بطاقة الائتمان **
  
  أصبحت بطاقات الائتمان جزءًا أساسيًا من حياتنا اليومية. ومع ذلك ، مع الراحة التي يوفرونها ، تأتي مخاطر الاحتيال. طور المجرمون تقنيات مختلفة لسرقة معلومات بطاقة الائتمان ، مثل القشط والتصيد والقرصنة. في هذه المقالة ، سنناقش كيف يمكنك حماية نفسك من الاحتيال المادي على بطاقة الائتمان.
@@ -44,7 +44,7 @@ simeononsecurity.ch
  
  ### نصيحة إضافية: ضع في اعتبارك محافظ حجب RFID
  
- لحماية نفسك ، احصل على ** محفظة حظر RFID ** فعلية. [جيب صامت] (https://amzn.to/421J6o6) هي العلامة التجارية الوحيدة الموصى بها. معظم محافظ "حجب RFID" هي عملية احتيال كاملة. اختبر Simeononsecurity.ch شخصيًا مئات المحافظ وأجهزة حظر rfid المفترضة. الجيب الصامت شرعي.
+ لحماية نفسك ، احصل على ** محفظة حظر RFID ** فعلية. [جيب صامت] (https://amzn.to/421J6o6) هي العلامة التجارية الوحيدة الموصى بها. معظم محافظ "حجب RFID" هي عملية احتيال كاملة. اختبر simeononsecurity.com شخصيًا مئات المحافظ وأجهزة حظر rfid المفترضة. الجيب الصامت شرعي.
  
  ## تقنية الرقائق
  

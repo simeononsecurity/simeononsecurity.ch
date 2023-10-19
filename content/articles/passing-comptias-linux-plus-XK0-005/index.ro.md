@@ -52,7 +52,7 @@ Pentru a dobândi experiență practică, puteți configura un mediu de laborato
 
 - **Servicii cloud**: Puteți utiliza, de asemenea, servicii cloud precum Amazon Web Services (AWS) sau Microsoft Azure pentru a crea mașini virtuale sau containere care rulează Linux. Aceasta poate fi o opțiune convenabilă dacă nu dispuneți de resursele necesare pentru a configura un mediu de laborator fizic.
 
-- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) Dacă dispuneți de resurse, puteți crea un laborator fizic acasă. Acesta poate include unul sau mai multe servere fizice sau stații de lucru care rulează Linux, precum și echipamente de rețea, cum ar fi switch-uri și routere.
+- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) Dacă dispuneți de resurse, puteți crea un laborator fizic acasă. Acesta poate include unul sau mai multe servere fizice sau stații de lucru care rulează Linux, precum și echipamente de rețea, cum ar fi switch-uri și routere.
 
 Obținând experiență practică cu sistemele Linux, veți dobândi experiență practică în configurarea, monitorizarea și depanarea sistemelor Linux. Acest lucru vă va ajuta să vă pregătiți pentru examenul CompTIA Linux+ XK0-005 și, de asemenea, vă va oferi abilități valoroase care pot fi utilizate într-un cadru profesional.
 
@@ -100,7 +100,7 @@ Câteva exemple de resurse online pentru examenul CompTIA Linux+ XK0-005 includ:
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp) Există multe canale YouTube care oferă tutoriale video pe diverse subiecte legate de Linux, inclusiv unele axate în mod special pe certificarea Linux+. {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Acest ghid oferă o prezentare generală a modului în care se poate începe cu Linux, inclusiv sfaturi pentru a învăța atât variantele de Linux bazate pe Debian, cât și pe RHEL.
+- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/) Acest ghid oferă o prezentare generală a modului în care se poate începe cu Linux, inclusiv sfaturi pentru a învăța atât variantele de Linux bazate pe Debian, cât și pe RHEL.
 
 Prin utilizarea resurselor online, puteți accesa o gamă largă de materiale de studiu și puteți înțelege mai bine obiectivele și subtemele examenului. În plus, multe resurse online oferă elemente interactive, cum ar fi forumuri sau camere de chat, unde puteți pune întrebări și primi ajutor de la alți profesioniști Linux.
 
@@ -110,7 +110,7 @@ Examenele de practică sunt o modalitate excelentă de a vă pregăti pentru exa
 
 Câteva exemple de examene practice pentru examenul CompTIA Linux+ XK0-005 includ:
 
-- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.ch/linux-plus-practice-test)
+- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.com/linux-plus-practice-test)
 
 - [**CompTIA Linux+ Certification Practice Exams**](https://www.comptia.org/training/certmaster-practice/linux) Această carte include patru examene practice complete, concepute pentru a simula formatul și dificultatea examenului real.
 

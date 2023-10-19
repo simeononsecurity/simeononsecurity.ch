@@ -57,4 +57,4 @@ Podsumowując, SimeonOnSecurity natknął się dziś na kilka interesujących za
 
 ## nikitavoloboev/privacy-respecting:
 - [https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- Świetna lista usług i oprogramowania szanujących prywatność. Już [recommend](https://simeononsecurity.ch/recommendations) niektóre z połączonych elementów. Planuję kontynuować czytanie pozycji z listy.
+- Świetna lista usług i oprogramowania szanujących prywatność. Już [recommend](https://simeononsecurity.com/recommendations) niektóre z połączonych elementów. Planuję kontynuować czytanie pozycji z listy.

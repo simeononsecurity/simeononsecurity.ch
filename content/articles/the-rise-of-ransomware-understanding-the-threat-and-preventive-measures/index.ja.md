@@ -36,17 +36,17 @@ coverCaption: ""
 
 個人および組織がランサムウェアの攻撃から身を守るためには、予防的な対策を講じることが有効です。以下は、予防策を検討するためのものです：
 
--[**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)定期的にデータをバックアップしておくことで、ランサムウェア攻撃が発生した際にデータを復元することができます。
+-[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)定期的にデータをバックアップしておくことで、ランサムウェア攻撃が発生した際にデータを復元することができます。
 
--[**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/)OSやアプリケーションなど、すべてのソフトウェアを最新のセキュリティパッチに更新しておくこと。
+-[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/)OSやアプリケーションなど、すべてのソフトウェアを最新のセキュリティパッチに更新しておくこと。
 
--[**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus)ランサムウェアの攻撃を検知・防止するために、ウイルス対策ソフトを導入・利用する。
+-[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus)ランサムウェアの攻撃を検知・防止するために、ウイルス対策ソフトを導入・利用する。
 
--[**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/)フィッシングメールやその他のソーシャルエンジニアリング攻撃の見分け方と回避方法について従業員に教育する。
+-[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/)フィッシングメールやその他のソーシャルエンジニアリング攻撃の見分け方と回避方法について従業員に教育する。
 
--[**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA)アカウントへの不正なアクセスを防ぐために
+-[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA)アカウントへの不正なアクセスを防ぐために
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/)VPNを使用してインターネットトラフィックを暗号化し、ネットワークベースの攻撃から保護します。
+-[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/)VPNを使用してインターネットトラフィックを暗号化し、ネットワークベースの攻撃から保護します。
 
 ## 結論
 

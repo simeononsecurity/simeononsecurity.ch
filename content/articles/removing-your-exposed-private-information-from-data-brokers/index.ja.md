@@ -24,6 +24,6 @@ coverCaption: ""
 
 _________________________
 
-結論として、**オンライン・データ・ブローカー**からあなたの情報を削除することは、あなたのオンライン・プライバシーとセキュリティを確保するために重要なステップです。自分に関する情報がオンラインで利用可能かどうかを管理することで、個人情報の盗難、ストーカー、その他のプライバシーに関する問題のリスクを最小限に抑えることができます。オンライン・データ・ブローカーから自分の情報を削除するためのより具体的なガイダンスについては、以下のリソースを参照してください。[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
+結論として、**オンライン・データ・ブローカー**からあなたの情報を削除することは、あなたのオンライン・プライバシーとセキュリティを確保するために重要なステップです。自分に関する情報がオンラインで利用可能かどうかを管理することで、個人情報の盗難、ストーカー、その他のプライバシーに関する問題のリスクを最小限に抑えることができます。オンライン・データ・ブローカーから自分の情報を削除するためのより具体的なガイダンスについては、以下のリソースを参照してください。[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
 
 

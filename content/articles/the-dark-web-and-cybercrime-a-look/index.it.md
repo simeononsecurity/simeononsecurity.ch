@@ -50,17 +50,17 @@ Vale la pena notare che il potenziale del dark web per scopi giornalistici e di 
 
 Per proteggersi dal dark web e dalla criminalità informatica è necessario adottare misure proattive per mitigare i rischi. Ecco alcuni passi essenziali per proteggersi:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Fate attenzione quando condividete informazioni personali online, evitando di fornire dati sensibili a fonti sconosciute o non attendibili. Salvaguardate il vostro nome, indirizzo, numero di previdenza sociale e altri identificativi personali.
+[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Fate attenzione quando condividete informazioni personali online, evitando di fornire dati sensibili a fonti sconosciute o non attendibili. Salvaguardate il vostro nome, indirizzo, numero di previdenza sociale e altri identificativi personali.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Utilizzate password forti e uniche per tutti i vostri account online. Evitate di riutilizzare le password su più piattaforme per evitare accessi non autorizzati in caso di violazione dei dati.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilizzate password forti e uniche per tutti i vostri account online. Evitate di riutilizzare le password su più piattaforme per evitare accessi non autorizzati in caso di violazione dei dati.
 
-[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Aggiornate regolarmente il vostro software, compresi i sistemi operativi, i browser web e i programmi antivirus. Questi aggiornamenti spesso contengono patch di sicurezza che risolvono le vulnerabilità e proteggono dalle minacce informatiche emergenti.
+[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Aggiornate regolarmente il vostro software, compresi i sistemi operativi, i browser web e i programmi antivirus. Questi aggiornamenti spesso contengono patch di sicurezza che risolvono le vulnerabilità e proteggono dalle minacce informatiche emergenti.
 
 **4. Praticate abitudini di navigazione sicure:** siate esigenti nei confronti dei siti web che visitate, evitando di cliccare sui link contenuti nelle e-mail o nei siti web sconosciuti. Attenetevi a fonti affidabili e verificate la legittimità dei siti web prima di condividere informazioni personali o finanziarie.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Utilizzate i firewall per controllare il traffico di rete in entrata e in uscita e distribuite un software antivirus affidabile per rilevare e rimuovere malware o attività sospette dai vostri dispositivi.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilizzate i firewall per controllare il traffico di rete in entrata e in uscita e distribuite un software antivirus affidabile per rilevare e rimuovere malware o attività sospette dai vostri dispositivi.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Create regolarmente backup dei vostri dati e file importanti. In questo modo, anche se il computer è compromesso o i dati vengono rubati, è possibile ripristinare le informazioni e ridurre al minimo l'impatto di potenziali attacchi informatici.
+[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Create regolarmente backup dei vostri dati e file importanti. In questo modo, anche se il computer è compromesso o i dati vengono rubati, è possibile ripristinare le informazioni e ridurre al minimo l'impatto di potenziali attacchi informatici.
 
 ## Regolamenti e iniziative governative
 

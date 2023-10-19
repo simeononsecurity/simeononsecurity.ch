@@ -50,7 +50,7 @@ To set up a secure and resilient VPN for your corporate remote workers, follow t
 
 1. **Select a VPN solution**: Based on the factors mentioned earlier, choose a VPN solution that best fits your organization's needs.
 2. **Configure the VPN server**: Set up a dedicated VPN server within your organization or opt for a cloud-based solution. Configure the server according to your company's security policies and requirements.
-3. **Set up authentication**: Implement a strong authentication method, such as [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), to ensure that only authorized employees can access the VPN.
+3. **Set up authentication**: Implement a strong authentication method, such as [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), to ensure that only authorized employees can access the VPN.
 4. **Distribute VPN client software**: Provide your remote workers with the necessary VPN client software and configuration files to access the VPN.
 
 ______
@@ -61,7 +61,7 @@ To maintain a high level of security for your VPN, take the following precaution
 
 - **Keep software up-to-date**: Regularly update your VPN server and client software to protect against newly discovered vulnerabilities.
 - **Monitor VPN usage**: Implement monitoring and logging to identify potential security threats or unauthorized access attempts.
-- [**Enforce strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/): Require employees to use strong, unique passwords for their VPN accounts and change them regularly.
+- [**Enforce strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): Require employees to use strong, unique passwords for their VPN accounts and change them regularly.
 - **Limit access**: Grant VPN access only to the employees who require it, and restrict access to specific resources as needed.
 
 ______
@@ -81,7 +81,7 @@ ______
 To ensure the successful implementation of your VPN solution, provide your remote employees with the necessary training and support to help them understand how to use the VPN effectively and securely. Some important topics to cover include:
 
 - **How to set up and connect to the VPN**: Provide clear instructions on installing the VPN client software, configuring settings, and connecting to the VPN.
-- **Security best practices**: Educate your employees about the importance of using strong, unique passwords, enabling [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), and keeping their devices secure.
+- **Security best practices**: Educate your employees about the importance of using strong, unique passwords, enabling [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), and keeping their devices secure.
 - **Troubleshooting**: Offer guidance on how to resolve common VPN connection issues and whom to contact for technical support.
 
 ______

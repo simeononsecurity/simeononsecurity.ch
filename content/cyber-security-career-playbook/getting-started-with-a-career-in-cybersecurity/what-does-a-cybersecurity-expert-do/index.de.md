@@ -71,9 +71,9 @@ Um als **Cybersicherheitsexperte** erfolgreich zu sein, muss man über eine Reih
 
 Einschlägige Zertifizierungen sind für Fachleute im Bereich der Cybersicherheit ebenfalls von entscheidender Bedeutung, um ihre Fähigkeiten und ihr Fachwissen zu bestätigen. Einige weithin anerkannte Zertifizierungen sind:
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/)
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)
-- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/)
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)
+- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
 ## Schlussfolgerung
 

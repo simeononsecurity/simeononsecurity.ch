@@ -175,7 +175,7 @@ Windows 10 および Windows 11 は、そのままでは侵略的で安全では
 ### GUI - ガイド付きインストール:
 
 最新リリースをダウンロードする[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)必要なオプションを選択し、「実行」をクリックします。 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Windows-Optimize-Harden-Debloat GUI ベースのガイド付きインストールの例"> ### 自動インストール: このワンライナーを使用して、すべてのサポート ファイルを自動的にダウンロード、解凍し、最新バージョンのスクリプトを実行します。```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

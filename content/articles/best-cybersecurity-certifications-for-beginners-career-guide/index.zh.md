@@ -17,15 +17,15 @@ coverCaption: "释放你的潜能：网络安全职业发展的最佳认证"
 
 ______
 
-## [CompTIA A+](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
+## [CompTIA A+](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
 
 "(《世界人权宣言》) [**CompTIA A+ certification**](https://www.comptia.org/certifications/a)对于有意从事网络安全工作的个人来说，这是一个极好的起点。它是一个供应商中立的认证，可验证硬件、软件、网络和故障排除等领域的基础技能和知识。该认证注重实用的动手技能，使初学者具备进入 IT 行业所需的能力。
 
 要获得 CompTIA A+ 认证，考生需要通过两门考试：**核心 1 (220-1001)** 和核心 2 (220-1002)**。这些考试涵盖硬件和网络故障排除、操作系统、移动设备、虚拟化、云计算和安全基础等主题。通过获得 CompTIA A+ 认证，初学者可以证明自己有能力安装、配置和保护计算机系统，这些都是网络安全领域的基本技能。
 
-有关帮助您准备 CompTIA A+ 考试的模拟测试和其他资源，请访问 [this link](https://simeononsecurity.ch/a-plus-practice-test)该资源提供了宝贵的练习题和指导，以提高您的考试准备程度。
+有关帮助您准备 CompTIA A+ 考试的模拟测试和其他资源，请访问 [this link](https://simeononsecurity.com/a-plus-practice-test)该资源提供了宝贵的练习题和指导，以提高您的考试准备程度。
 
-如果您想了解更多有关通过 CompTIA A+ 考试（220-1001 和 220-1002）的信息，可以查看我们的 [CompTIA A+ Guide](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
+如果您想了解更多有关通过 CompTIA A+ 考试（220-1001 和 220-1002）的信息，可以查看我们的 [CompTIA A+ Guide](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
 
 ______
 
@@ -35,7 +35,7 @@ ______
 
 通过获得 CompTIA Network+ 认证，个人可以证明他们在**设计和实施功能网络、识别和减少网络漏洞**以及确保**网络可用性、完整性和保密性**方面的能力。该认证在业内享有很高的声誉，被雇主视为对候选人网络知识和技能的认可。
 
-为加强您对 CompTIA Network+ 认证的准备，您可以访问 [this link](https://simeononsecurity.ch/network-plus-practice-test)获取**模拟测试**和其他资源。本资源提供练习题和材料，帮助您巩固对网络概念的理解，增加考试成功的机会。
+为加强您对 CompTIA Network+ 认证的准备，您可以访问 [this link](https://simeononsecurity.com/network-plus-practice-test)获取**模拟测试**和其他资源。本资源提供练习题和材料，帮助您巩固对网络概念的理解，增加考试成功的机会。
 
 ______
 
@@ -47,7 +47,7 @@ ______
 
 通过获得 CompTIA Security+ 认证，初学者可以证明他们对安全概念和最佳实践的理解，以及评估和降低安全风险的能力。该认证是在**网络安全**领域进一步职业发展的坚实基础，通常也是获得该领域更高级认证的先决条件。
 
-为了加强您对 CompTIA Security+ 认证的准备，您可以访问 [this link](https://simeononsecurity.ch/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/)了解更多有关考试的信息以及有效备考所需的知识。
+为了加强您对 CompTIA Security+ 认证的准备，您可以访问 [this link](https://simeononsecurity.com/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/)了解更多有关考试的信息以及有效备考所需的知识。
 
 ______
 
@@ -67,9 +67,9 @@ ______
 
 CEH 认证涵盖的主题包括**足迹和侦察、扫描网络、枚举、系统黑客、恶意软件威胁、社会工程**等。它使初学者掌握进行授权模拟攻击的技能，以评估安全措施的有效性并确定需要改进的领域。
 
-如果您有兴趣准备注册道德黑客（CEH）认证考试，可以在以下网站找到有价值的资源和模拟测试 [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)本资源提供如何准备 CEH 认证考试的指导，并提供帮助您成功的技巧和学习材料。
+如果您有兴趣准备注册道德黑客（CEH）认证考试，可以在以下网站找到有价值的资源和模拟测试 [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/)本资源提供如何准备 CEH 认证考试的指导，并提供帮助您成功的技巧和学习材料。
 
-此外，您还可以访问 [this link](https://simeononsecurity.ch/ceh-practice-test)访问 CEH 模拟考试，测试自己的知识水平并熟悉考试形式。
+此外，您还可以访问 [this link](https://simeononsecurity.com/ceh-practice-test)访问 CEH 模拟考试，测试自己的知识水平并熟悉考试形式。
 
 ______
 
@@ -89,7 +89,7 @@ ______
 
 对于初学者来说，获得实践经验和继续学习对于网络安全职业的发展非常重要。掌握最新的行业趋势、技术和法规对于在这个快速发展的领域保持领先地位至关重要。
 
-有关初级网络安全工作的更多信息以及如何做好准备，请访问 [this link](https://simeononsecurity.ch/cyber-security-career-playbook-start)本资料深入介绍了初级职位所需的技能和资格，并就如何在就业市场脱颖而出提供了建议。
+有关初级网络安全工作的更多信息以及如何做好准备，请访问 [this link](https://simeononsecurity.com/cyber-security-career-playbook-start)本资料深入介绍了初级职位所需的技能和资格，并就如何在就业市场脱颖而出提供了建议。
 ______
 
 {{< inarticle-dark >}}

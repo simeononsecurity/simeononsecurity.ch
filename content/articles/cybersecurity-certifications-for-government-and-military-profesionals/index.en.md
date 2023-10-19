@@ -30,9 +30,9 @@ The [**CISSP certification**](https://www.isc2.org/Certifications/CISSP) is an a
 
 The [**CEH certification** ](https://cert.eccouncil.org/certified-ethical-hacker.html)is a popular certification that focuses on ethical hacking and penetration testing. It covers various topics such as footprinting and reconnaissance, scanning networks, enumeration, system hacking, Trojans and backdoors, viruses and worms, sniffers, social engineering, denial of service, session hijacking, hacking web servers, and more. The certification exam consists of 125 multiple-choice questions and requires at least two years of information security related experience.
 
-### 3. [CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+### 3. [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
-The [**CompTIA Security+ certification** ](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)is an entry-level cybersecurity certification that covers various cybersecurity topics such as threats, attacks, and vulnerabilities, technologies and tools, architecture and design, identity and access management, risk management, and cryptography. The certification exam consists of 90 multiple-choice questions and requires at least two years of experience in IT administration with a security focus.
+The [**CompTIA Security+ certification** ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)is an entry-level cybersecurity certification that covers various cybersecurity topics such as threats, attacks, and vulnerabilities, technologies and tools, architecture and design, identity and access management, risk management, and cryptography. The certification exam consists of 90 multiple-choice questions and requires at least two years of experience in IT administration with a security focus.
 
 ### 4. [Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 

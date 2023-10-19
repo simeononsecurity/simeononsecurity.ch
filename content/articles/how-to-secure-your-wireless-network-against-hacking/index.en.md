@@ -44,7 +44,7 @@ The first and most important step to secure your wireless network is to **change
 
 ### Use Strong Passwords
 
-[Using strong passwords](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) for your wireless network and devices is crucial to prevent unauthorized access. A strong password should be at least 12 characters long and include a mix of upper and lower case letters, numbers, and symbols. Avoid using common phrases, dictionary words, or personal information such as your name or date of birth.
+[Using strong passwords](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) for your wireless network and devices is crucial to prevent unauthorized access. A strong password should be at least 12 characters long and include a mix of upper and lower case letters, numbers, and symbols. Avoid using common phrases, dictionary words, or personal information such as your name or date of birth.
 
 ### Enable Network Encryption
 

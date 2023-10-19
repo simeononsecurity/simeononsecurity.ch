@@ -63,7 +63,7 @@ ______
 
 [**Udemy**](https://www.udemy.com/) è un popolare mercato online per l'apprendimento, che offre un'ampia gamma di corsi di sicurezza informatica creati da professionisti del settore e da istruttori indipendenti. La vasta selezione di corsi di Udemy copre vari settori della sicurezza informatica, consentendo agli studenti di scegliere i corsi in base ai loro interessi e livelli di competenza.
 
-Per saperne di più [online training platforms](https://simeononsecurity.ch/recommendations/learning_resources)
+Per saperne di più [online training platforms](https://simeononsecurity.com/recommendations/learning_resources)
 
 ## Libri consigliati per la formazione sulla sicurezza informatica
 
@@ -83,7 +83,7 @@ Oltre ai programmi online e ai videocorsi, i libri sono una risorsa eccellente p
 
 Questi libri offrono conoscenze approfondite e spunti pratici sugli argomenti di cybersecurity. Possono servire come preziose risorse per integrare la formazione online e ampliare la comprensione del settore.
 
-Per saperne di più [SimeonOnSecurity's Recommended Books](https://simeononsecurity.ch/recommendations/books)
+Per saperne di più [SimeonOnSecurity's Recommended Books](https://simeononsecurity.com/recommendations/books)
 
 ______
 

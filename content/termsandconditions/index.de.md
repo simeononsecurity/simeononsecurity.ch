@@ -5,7 +5,7 @@ date: 2020-08-08
 
 Willkommen bei SimeonOnSecurity!
 
-Diese Bedingungen umreißen die Regeln und Vorschriften für die Nutzung der Website von SimeonOnSecurity, die sich unter https://simeononsecurity.ch befindet.
+Diese Bedingungen umreißen die Regeln und Vorschriften für die Nutzung der Website von SimeonOnSecurity, die sich unter https://simeononsecurity.com befindet.
 
 Wenn Sie auf diese Website zugreifen, gehen wir davon aus, dass Sie diese Bestimmungen und Bedingungen akzeptieren. Setzen Sie die Nutzung von SimeonOnSecurity nicht fort, wenn Sie nicht mit allen auf dieser Seite genannten Bedingungen einverstanden sind.
 

@@ -11,11 +11,11 @@ coverCaption: "Teilen Sie Ihr Fachwissen und Ihre Erkenntnisse mit unserer Commu
 
 Vielen Dank für Ihr Interesse, einen Beitrag zu unserer Website zu leisten! Wir freuen uns über Beiträge für Gastblogs, die zu unserem inhaltlichen Schwerpunkt passen. Um einen Artikel einzureichen, folgen Sie bitte diesen Schritten:
 
-1. Kontaktieren Sie uns über das Webformular unter [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) um Ihr Interesse an Gastbeiträgen zu bekunden.
+1. Kontaktieren Sie uns über das Webformular unter [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) um Ihr Interesse an Gastbeiträgen zu bekunden.
 
 2. Bereiten Sie Ihren Artikel entweder im Markdown- (md) oder HTML-Format vor.
 
-3. Reichen Sie einen Pull-Request auf unserem GitHub-Repository ein unter [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
+3. Reichen Sie einen Pull-Request auf unserem GitHub-Repository ein unter [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
 
 4. Vergewissern Sie sich, dass Ihr Artikel gültige Frontmatter (Metadaten) mit allen erforderlichen Variablen enthält, wie im folgenden Beispiel gezeigt:
 
@@ -122,7 +122,7 @@ Gast-Blogging ist eine für beide Seiten vorteilhafte Vereinbarung, bei der Auto
 
 - Wir danken Ihnen für Ihr Verständnis und Ihre Mitarbeit bei der Einhaltung dieser Richtlinien, um die Qualität und Relevanz der Inhalte auf SimeonOnSecurity zu erhalten.
 
-Wir freuen uns auf Ihre wertvollen Beiträge und darauf, Sie dabei zu unterstützen, ein größeres Publikum mit Ihren Erkenntnissen zu erreichen. Sollten Sie weitere Fragen oder Unklarheiten haben, zögern Sie bitte nicht, uns über das Kontaktformular zu kontaktieren. [webform](https://simeononsecurity.ch/contactus/)
+Wir freuen uns auf Ihre wertvollen Beiträge und darauf, Sie dabei zu unterstützen, ein größeres Publikum mit Ihren Erkenntnissen zu erreichen. Sollten Sie weitere Fragen oder Unklarheiten haben, zögern Sie bitte nicht, uns über das Kontaktformular zu kontaktieren. [webform](https://simeononsecurity.com/contactus/)
 
 ***Glückliches Schreiben!***
 

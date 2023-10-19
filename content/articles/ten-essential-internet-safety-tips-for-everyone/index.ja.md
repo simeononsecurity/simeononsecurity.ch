@@ -20,15 +20,15 @@ coverAlt: "サイバーな脅威からパソコン画面を守る盾で、イン
 
 #### オンライン上のリスク
 
-インターネットを利用するたびに、オンライン詐欺、データ漏洩、その他のサイバー脅威の被害に遭う危険性があります。そのリスクには、**知らずに悪意のあるソフトウェアをダウンロードする、ハッカーに個人情報を提供する、詐欺的なウェブサイトと関わる**などがあります。残念ながら、このようなリスクは大人に限ったことではありません； [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)そのため、オンラインサービスを利用する際に、自分自身や大切な人を守る方法を知ることが非常に重要になってきています。
+インターネットを利用するたびに、オンライン詐欺、データ漏洩、その他のサイバー脅威の被害に遭う危険性があります。そのリスクには、**知らずに悪意のあるソフトウェアをダウンロードする、ハッカーに個人情報を提供する、詐欺的なウェブサイトと関わる**などがあります。残念ながら、このようなリスクは大人に限ったことではありません； [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)そのため、オンラインサービスを利用する際に、自分自身や大切な人を守る方法を知ることが非常に重要になってきています。
 
 オンライン詐欺から身を守る方法のひとつは、知らない送信者からのメールを開封する際に注意することです**。このようなメールには、個人情報を盗み出すフィッシングリンクが含まれている可能性があります。また、インターネットからソフトウェアをダウンロードする際にも注意が必要です。ソフトウェアの中には、デバイスにダメージを与えたり、データを盗んだりするマルウェアが含まれている場合があります。
 
-インターネットを利用する際のもう一つのリスクは [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)ネットいじめは、人の精神的な健康や幸福に深刻な影響を与える可能性があります。子どもたちに、ネットいじめの危険性や報告方法について話しておくことが不可欠です。
+インターネットを利用する際のもう一つのリスクは [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/)ネットいじめは、人の精神的な健康や幸福に深刻な影響を与える可能性があります。子どもたちに、ネットいじめの危険性や報告方法について話しておくことが不可欠です。
 
 #### 個人情報の保護について
 
-個人情報は貴重なものであり、保護する必要があります。を使用することを習慣にしましょう。 [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)と、オンラインで情報を共有する際には注意が必要です。社会保障番号、クレジットカード番号、自宅の住所など、機密性の高いデータの共有は避けましょう**。データが暗号化されて送信されるように、**SSL証明書**を持つ正規のウェブサイトを使用してください。
+個人情報は貴重なものであり、保護する必要があります。を使用することを習慣にしましょう。 [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)と、オンラインで情報を共有する際には注意が必要です。社会保障番号、クレジットカード番号、自宅の住所など、機密性の高いデータの共有は避けましょう**。データが暗号化されて送信されるように、**SSL証明書**を持つ正規のウェブサイトを使用してください。
 
 また、**ソフトウェアやデバイスを最新の状態に保つ**ことも重要です。ソフトウェアのアップデートには、サイバー攻撃からデバイスを保護するためのセキュリティパッチが含まれていることがよくあります。さらに、公共のWi-Fiネットワークを利用する際にも注意が必要です。公共のWi-Fiネットワークは安全でないことが多く、あなたのデータがサイバー犯罪者に傍受される可能性があることを意味します。
 
@@ -48,13 +48,13 @@ coverAlt: "サイバーな脅威からパソコン画面を守る盾で、イン
 
 #### 強力なパスワードと二要素認証の使用
 
-作成する [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)大文字、小文字、数字、記号を混在させる。最低でも12文字以上を目安にしてください。二要素認証は、アカウントにアクセスする前に、テキストまたは電子メールで受信した追加のコードを入力するよう求めることで、保護層を追加します。
+作成する [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)大文字、小文字、数字、記号を混在させる。最低でも12文字以上を目安にしてください。二要素認証は、アカウントにアクセスする前に、テキストまたは電子メールで受信した追加のコードを入力するよう求めることで、保護層を追加します。
 
 弱いパスワードの使用は、ハッカーがあなたのアカウントや個人情報にアクセスする最も簡単な方法の1つです。強力なパスワードを作成し、二要素認証を有効にすることで、アカウントがハッキングされるリスクを大幅に軽減することができます。
 
 #### Wi-Fi ネットワークの安全性を確保する
 
-使用する [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)を使用して、Wi-Fiネットワークを保護し、デバイスやデータへの不正なアクセスを防止します。デフォルトのパスワードはハッキングされやすいので、使用しないようにしましょう。
+使用する [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)を使用して、Wi-Fiネットワークを保護し、デバイスやデータへの不正なアクセスを防止します。デフォルトのパスワードはハッキングされやすいので、使用しないようにしましょう。
 
 Wi-Fiネットワークは、あなたのデバイスやデータへのゲートウェイです。強力なパスワードでWi-Fiネットワークを保護することで、ネットワークへの不正アクセスを防ぎ、**サイバー脅威**からあなたのデバイスとデータを保護することができます。
 
@@ -70,11 +70,11 @@ Wi-Fiネットワークは、あなたのデバイスやデータへのゲート
 
 デジタル時代の今日、電子メールやメッセージは一般的なコミュニケーション手段となっています。しかし、これらの媒体で個人情報を共有する際には、注意を払うことが重要です。**サイバー犯罪者**は、個人情報を盗む方法を常に探しており、メールやメッセージはその最も簡単な方法の1つです。
 
-[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)は、サイバー犯罪者が個人情報を入手するための一般的な方法です。これらの詐欺は、正規の連絡先や組織と連絡を取っていると思わせて、機密情報を提供するよう求めます。メールやメッセージは本物に見えるかもしれませんが、お客様の個人情報を盗み出すためのものです。したがって、このような詐欺に注意し、電子メールやメッセージで個人情報を共有しないことが重要です。
+[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)は、サイバー犯罪者が個人情報を入手するための一般的な方法です。これらの詐欺は、正規の連絡先や組織と連絡を取っていると思わせて、機密情報を提供するよう求めます。メールやメッセージは本物に見えるかもしれませんが、お客様の個人情報を盗み出すためのものです。したがって、このような詐欺に注意し、電子メールやメッセージで個人情報を共有しないことが重要です。
 
-#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)を識別するのは難しいですが、自分を守るためにできることがいくつかあります。まず、送信者の電子メールアドレスを確認します。もしそれが**怪しい、または見慣れない**ものであれば、そのメールに返信しないようにしましょう。次に、メールに記載されているリンク**に目を通し、クリックする前にそのリンクがどこにつながっているのかを確認することです。リンクが不審に見える場合は、クリックしないでください。最後に、メールやメッセージの正当性に確信が持てない場合は、その組織や人物に直接連絡して、メールを送ったかどうかを確認してください。
+[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)を識別するのは難しいですが、自分を守るためにできることがいくつかあります。まず、送信者の電子メールアドレスを確認します。もしそれが**怪しい、または見慣れない**ものであれば、そのメールに返信しないようにしましょう。次に、メールに記載されているリンク**に目を通し、クリックする前にそのリンクがどこにつながっているのかを確認することです。リンクが不審に見える場合は、クリックしないでください。最後に、メールやメッセージの正当性に確信が持てない場合は、その組織や人物に直接連絡して、メールを送ったかどうかを確認してください。
 
 #### 不審なリンクのクリックを避ける
 
@@ -120,11 +120,11 @@ Wi-Fiネットワークは、あなたのデバイスやデータへのゲート
 
 ほとんどの銀行やクレジットカード会社には**不正検知システム**があり、不審な動きを警告してくれます。しかし、明細書に注意を払い、不正な取引があった場合はできるだけ早く報告することが重要です。
 
-#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-また、金融情報を保護する方法として [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)複数のアカウントで同じパスワードを使うことは避け、"123456 "や "password "のような簡単に推測できるパスワードは使用しないようにしましょう。代わりに、文字、数字、記号を組み合わせて、アカウントごとに強力でユニークなパスワードを作成しましょう。
+また、金融情報を保護する方法として [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)複数のアカウントで同じパスワードを使うことは避け、"123456 "や "password "のような簡単に推測できるパスワードは使用しないようにしましょう。代わりに、文字、数字、記号を組み合わせて、アカウントごとに強力でユニークなパスワードを作成しましょう。
 
-を使用することを検討してください。 [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)を使えば、強力なパスワードの作成と保存を支援することができます。パスワードマネージャーは、ランダムなパスワードを生成し、それを安全に保存することができるので、パスワードを覚えておく必要がありません。
+を使用することを検討してください。 [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)を使えば、強力なパスワードの作成と保存を支援することができます。パスワードマネージャーは、ランダムなパスワードを生成し、それを安全に保存することができるので、パスワードを覚えておく必要がありません。
 
 #### まとめ
 
@@ -140,13 +140,13 @@ Wi-Fiネットワークは、あなたのデバイスやデータへのゲート
 * 可能な限り二要素認証**を有効にする。
 * 不審な電子メール、リンク、添付ファイル**に注意する。
 * ソフトウェアとオペレーティングシステムを常に最新に保つ。
-* を使用する。 [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/)と**ファイアウォール**の組み合わせ
+* を使用する。 [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/)と**ファイアウォール**の組み合わせ
 
 #### オンライン脅威の情報を常に把握する
 
 自分や家族を守るためには、最新の**セキュリティ脅威**や脆弱性を常に把握しておくことが重要です。サイバー犯罪者は、個人情報を盗んだり、デバイスを**マルウェア**に感染させたり、金銭をだまし取ったりする新しい手口を常に考え出しています。
 
-信頼できる**セキュリティブログ**やニュースアウトレットをフォローし、セキュリティアラートを購読することで、常に情報を得ることができます。 [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/)
+信頼できる**セキュリティブログ**やニュースアウトレットをフォローし、セキュリティアラートを購読することで、常に情報を得ることができます。 [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
 
 #### 子どもたちにインターネットの安全性を教える
 
@@ -163,23 +163,23 @@ Wi-Fiネットワークは、あなたのデバイスやデータへのゲート
 
 ### 信頼性の高いセキュリティソフトを使用する
 
-インストールする [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns)お客様のネットワークを保護し、お客様のデータへの不正なアクセスを防止するため。
+インストールする [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns)お客様のネットワークを保護し、お客様のデータへの不正なアクセスを防止するため。
 
-増え続ける**サイバー脅威**の中で、信頼できるセキュリティソフトウェアでデバイスを確実に保護することが重要です。インストール方法 [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/)と**マルウェア対策ソフトウェア**をお使いのデバイスにインストールすることは、お客様の個人情報や機密情報を保護するための重要なステップです。これらのソフトウェアは、コンピューターに害を与えたり、データを盗んだりする悪意のあるソフトウェアを検出、防止、削除するように設計されています。
+増え続ける**サイバー脅威**の中で、信頼できるセキュリティソフトウェアでデバイスを確実に保護することが重要です。インストール方法 [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/)と**マルウェア対策ソフトウェア**をお使いのデバイスにインストールすることは、お客様の個人情報や機密情報を保護するための重要なステップです。これらのソフトウェアは、コンピューターに害を与えたり、データを盗んだりする悪意のあるソフトウェアを検出、防止、削除するように設計されています。
 
-**ファイアウォール**と [**VPN services**](https://simeononsecurity.ch/recommendations/vpns)も、ネットワークの安全性を確保するために欠かせないツールです。ファイアウォールは、お使いのデバイスとインターネットの間の障壁として機能し、不要なトラフィックをブロックし、ハッカーがネットワークにアクセスするのを防止します。一方、VPNサービスは、お使いのデバイスとインターネットの間に安全で暗号化された接続を作成し、サイバー脅威から保護するための追加の層を提供します。
+**ファイアウォール**と [**VPN services**](https://simeononsecurity.com/recommendations/vpns)も、ネットワークの安全性を確保するために欠かせないツールです。ファイアウォールは、お使いのデバイスとインターネットの間の障壁として機能し、不要なトラフィックをブロックし、ハッカーがネットワークにアクセスするのを防止します。一方、VPNサービスは、お使いのデバイスとインターネットの間に安全で暗号化された接続を作成し、サイバー脅威から保護するための追加の層を提供します。
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
 
-使用する [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/)とマルウェア対策ソフトで、**ウイルス、マルウェア**、その他のサイバー脅威からコンピュータを保護します。これらのソフトウェアは、コンピュータに害を与え、データを危険にさらす可能性のある悪意のあるソフトウェアを検出し、削除することができます。これらのソフトウェアを常に最新の状態に保ち、定期的にスキャンを行うことが重要です。
+使用する [antivirus](https://simeononsecurity.com/recommendations/anti-virus/)とマルウェア対策ソフトで、**ウイルス、マルウェア**、その他のサイバー脅威からコンピュータを保護します。これらのソフトウェアは、コンピュータに害を与え、データを危険にさらす可能性のある悪意のあるソフトウェアを検出し、削除することができます。これらのソフトウェアを常に最新の状態に保ち、定期的にスキャンを行うことが重要です。
 
 一般的なアンチウイルスおよびアンチマルウェアソフトウェアプログラムには、**Norton、McAfee、およびAvast**があります。これらのプログラムは、サイバー脅威に対する**リアルタイムの保護**、*自動アップデート**などの機能を提供し、デバイスの安全性を保つのに役立ちます。
 
 #### ファイアウォールサービスとVPNサービス
 
-ファイアウォール**と [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns)VPNは、パブリックネットワーク内にセキュアなプライベートネットワークを構築し、マルウェアや不正アクセスからネットワークを保護します。ファイアウォールはネットワークトラフィックの送受信を監視・制御し、VPNはインターネット接続を暗号化してIPアドレスを隠すため、ハッカーによるデータの傍受を困難にします。
+ファイアウォール**と [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns)VPNは、パブリックネットワーク内にセキュアなプライベートネットワークを構築し、マルウェアや不正アクセスからネットワークを保護します。ファイアウォールはネットワークトラフィックの送受信を監視・制御し、VPNはインターネット接続を暗号化してIPアドレスを隠すため、ハッカーによるデータの傍受を困難にします。
 
-多くの**ファイアウォール**と [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns)
+多くの**ファイアウォール**と [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
 
 信頼性の高いセキュリティソフトウェア**を使用することで、デバイスやネットワークをサイバー脅威から保護し、個人情報や機密情報を安全かつ確実に保護することができます。
 
@@ -195,11 +195,11 @@ Wi-Fiネットワークは、あなたのデバイスやデータへのゲート
 
 さらに、機密性の高い取引に公共のコンピューターを使用する場合は、慎重になることが重要です。これらのコンピュータには**キーロガー**やその他のマルウェアがインストールされている可能性があり、キーストロークを捕捉して個人情報を盗み出すことができます。
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
 
 VPN**（仮想プライベートネットワーク）は、インターネット接続を暗号化し、IPアドレスを隠蔽するセキュリティツールです。これにより、ハッカーによるデータの傍受を困難にし、潜在的な攻撃からあなたのデバイスを保護します。
 
-公共のWi-Fiを利用する際は、以下のツールを使用することを強くお勧めします。 [**VPN service**](https://simeononsecurity.ch/recommendations/vpns)を使用して、データを暗号化します。これにより、ネットワークが安全でない場合でも、個人情報の安全性を確保することができます。多くのVPNサービスは、無料または少額の料金で利用でき、お使いのデバイスに簡単にインストールして使用することができます。
+公共のWi-Fiを利用する際は、以下のツールを使用することを強くお勧めします。 [**VPN service**](https://simeononsecurity.com/recommendations/vpns)を使用して、データを暗号化します。これにより、ネットワークが安全でない場合でも、個人情報の安全性を確保することができます。多くのVPNサービスは、無料または少額の料金で利用でき、お使いのデバイスに簡単にインストールして使用することができます。
 
 全体として、公衆Wi-Fiを使用する際には慎重になり、データを保護するために必要な予防措置を講じることが重要です。VPNサービス**を利用し、安全でないネットワークを避けることで、個人情報の安全を確保しながら接続を維持することができます。
 

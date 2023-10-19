@@ -68,7 +68,7 @@ ______
 
 Podsumowując, stworzenie skutecznego CV ma kluczowe znaczenie dla cyberbezpieczeństwa, rozwoju oprogramowania i specjalistów IT, którzy chcą rozwijać swoją karierę. Dostosowując swoje CV do opisu stanowiska, prezentując swoje umiejętności techniczne i osiągnięcia, podkreślając świadomość cyberbezpieczeństwa i prywatności, podkreślając umiejętności rozwiązywania problemów, zachowując jasność i zwięzłość, używając czasowników akcji i wymiernych wyników oraz będąc na bieżąco z trendami branżowymi, możesz stworzyć CV, które wyróżnia się dla potencjalnych pracodawców.
 
-Więcej ogólnych wskazówek na temat pisania CV można również znaleźć na stronie [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) na stronie simeononsecurity.ch, która zawiera cenne spostrzeżenia i dodatkowe wskazówki.
+Więcej ogólnych wskazówek na temat pisania CV można również znaleźć na stronie [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) na stronie simeononsecurity.com, która zawiera cenne spostrzeżenia i dodatkowe wskazówki.
 
 ______
 

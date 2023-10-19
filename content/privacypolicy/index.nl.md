@@ -3,7 +3,7 @@ title: "Privacybeleid: Informatieverzameling, gebruik en toestemming | SimeonOnS
 date: 2020-08-08
 ---
 
-Bij SimeonOnSecurity, bereikbaar via https://simeononsecurity.ch, is één van onze belangrijkste prioriteiten de privacy van onze bezoekers. Dit Privacybeleid document bevat soorten informatie die wordt verzameld en opgeslagen door SimeonOnSecurity en hoe we het gebruiken.
+Bij SimeonOnSecurity, bereikbaar via https://simeononsecurity.com, is één van onze belangrijkste prioriteiten de privacy van onze bezoekers. Dit Privacybeleid document bevat soorten informatie die wordt verzameld en opgeslagen door SimeonOnSecurity en hoe we het gebruiken.
 
 Als u nog vragen heeft of meer informatie wenst over onze Privacy Policy, aarzel dan niet om contact met ons op te nemen.
 

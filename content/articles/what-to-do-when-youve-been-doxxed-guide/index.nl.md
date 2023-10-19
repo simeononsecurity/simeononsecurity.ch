@@ -93,9 +93,9 @@ Als u daarnaast **professionele profielen** hebt op platforms zoals LinkedIn, co
 Door deze stappen te nemen, verminder je de toegankelijkheid van je persoonlijke informatie en maak je het moeilijker voor individuen om er misbruik van te maken. Vergeet niet om uw online aanwezigheid regelmatig te controleren om ervoor te zorgen dat uw informatie veilig en beschermd blijft.
 
 #### Aanvullend lezen voor stap 3
-- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ Het verbeteren van uw **online privacy** en **veiligheidsmaatregelen** is crucia
 
 #### a. Bekijk en update privacy-instellingen
 
-[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) van je online accounts en zorg ervoor dat ze zijn ingesteld op het hoogste beveiligingsniveau. Beperk de zichtbaarheid van persoonlijke informatie en berichten tot vertrouwde vrienden of connecties. Ga bijvoorbeeld op sociale mediaplatforms zoals Facebook naar de privacy-instellingen en pas aan wie je profiel, berichten en persoonlijke informatie kan zien.
+[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) van je online accounts en zorg ervoor dat ze zijn ingesteld op het hoogste beveiligingsniveau. Beperk de zichtbaarheid van persoonlijke informatie en berichten tot vertrouwde vrienden of connecties. Ga bijvoorbeeld op sociale mediaplatforms zoals Facebook naar de privacy-instellingen en pas aan wie je profiel, berichten en persoonlijke informatie kan zien.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) zoveel mogelijk op al je online accounts. 2FA voegt een extra beveiligingslaag toe door een extra verificatiestap te vereisen, meestal via een mobiel apparaat, om toegang te krijgen tot je accounts. Diensten zoals Google, Facebook en Twitter bieden 2FA opties. Schakel het in door de instructies van de respectieve platforms te volgen.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) zoveel mogelijk op al je online accounts. 2FA voegt een extra beveiligingslaag toe door een extra verificatiestap te vereisen, meestal via een mobiel apparaat, om toegang te krijgen tot je accounts. Diensten zoals Google, Facebook en Twitter bieden 2FA opties. Schakel het in door de instructies van de respectieve platforms te volgen.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Maak [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) voor elk van uw online accounts. **Vermijd het gebruik van veelgebruikte wachtwoorden of het hergebruiken van wachtwoorden op meerdere platforms**. Overweeg het gebruik van een **wachtwoordmanager** om uw wachtwoorden veilig op te slaan en te beheren. Wachtwoordmanagers zoals LastPass, Dashlane of 1Password genereren en bewaren complexe wachtwoorden voor u.
+Maak [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) voor elk van uw online accounts. **Vermijd het gebruik van veelgebruikte wachtwoorden of het hergebruiken van wachtwoorden op meerdere platforms**. Overweeg het gebruik van een **wachtwoordmanager** om uw wachtwoorden veilig op te slaan en te beheren. Wachtwoordmanagers zoals LastPass, Dashlane of 1Password genereren en bewaren complexe wachtwoorden voor u.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) op openbare platforms of met onbekende personen. **Wees voorzichtig** bij het invullen van online formulieren of het aangaan van gesprekken met vreemden. Controleer de legitimiteit en veiligheid van websites of platforms voordat u persoonlijke gegevens verstrekt. **Vermijd bijvoorbeeld het delen van uw volledige adres of telefoonnummer** op openbare forums of online gemeenschappen.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) op openbare platforms of met onbekende personen. **Wees voorzichtig** bij het invullen van online formulieren of het aangaan van gesprekken met vreemden. Controleer de legitimiteit en veiligheid van websites of platforms voordat u persoonlijke gegevens verstrekt. **Vermijd bijvoorbeeld het delen van uw volledige adres of telefoonnummer** op openbare forums of online gemeenschappen.
 
 #### e. Werk software regelmatig bij en gebruik antivirusbescherming
 

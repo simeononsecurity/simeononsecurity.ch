@@ -68,7 +68,7 @@ ______
 
 In conclusione, la stesura di un curriculum efficace è fondamentale per i professionisti della cybersecurity, dello sviluppo software e dell'IT che desiderano fare carriera. Adattando il vostro curriculum alla descrizione del lavoro, mettendo in evidenza le vostre competenze tecniche e i vostri risultati, sottolineando la consapevolezza della cybersicurezza e della privacy, evidenziando le capacità di risoluzione dei problemi, mantenendo chiarezza e concisione, utilizzando verbi d'azione e risultati quantificabili e rimanendo aggiornati sulle tendenze del settore, potrete creare un curriculum che si faccia notare dai potenziali datori di lavoro.
 
-Per ulteriori consigli generali sulla stesura di un curriculum, potete consultare anche [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) su simeononsecurity.ch, che fornisce preziosi approfondimenti e ulteriori indicazioni.
+Per ulteriori consigli generali sulla stesura di un curriculum, potete consultare anche [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) su simeononsecurity.com, che fornisce preziosi approfondimenti e ulteriori indicazioni.
 
 ______
 

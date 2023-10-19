@@ -30,7 +30,7 @@ Um zu überprüfen, ob Ihr VPN Ihre IP-Adresse ausspäht, können Sie eine Websi
 
 Ein weiterer häufiger Fehler bei der Verwendung eines VPN ist die **Nichtauswahl eines sicheren VPN-Anbieters**. Es gibt viele VPN-Anbieter, aber nicht alle sind vertrauenswürdig. Einige VPN-Anbieter protokollieren möglicherweise Ihren Internetverkehr oder verkaufen Ihre Daten an Dritte. Andere haben möglicherweise Schwachstellen, die es Hackern ermöglichen, auf Ihre Daten zuzugreifen.
 
-Um einen sicheren VPN-Anbieter auszuwählen, suchen Sie nach einem Anbieter, der strikt auf die Protokollierung verzichtet, eine starke Verschlüsselung verwendet und nachweislich die Privatsphäre seiner Nutzer schützt. Sie können Bewertungen von VPN-Anbietern im Internet finden, z. B. auf der[providers recommended by simeononsecurity.ch](https://simeononsecurity.ch/recommendations/vpns/) um Ihnen zu helfen, eine fundierte Entscheidung zu treffen.
+Um einen sicheren VPN-Anbieter auszuwählen, suchen Sie nach einem Anbieter, der strikt auf die Protokollierung verzichtet, eine starke Verschlüsselung verwendet und nachweislich die Privatsphäre seiner Nutzer schützt. Sie können Bewertungen von VPN-Anbietern im Internet finden, z. B. auf der[providers recommended by simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/) um Ihnen zu helfen, eine fundierte Entscheidung zu treffen.
 
 ### Kostenlose VPNs verwenden
 
@@ -64,11 +64,11 @@ Wenn Sie eine Verbindung zu einer Website herstellen, sendet Ihr Gerät eine Anf
 
 Um dies zu vermeiden, können Sie einen privaten DNS-Server verwenden, der Ihre Aktivitäten nicht protokolliert. Einige VPN-Anbieter bieten ihre eigenen privaten DNS-Server an, oder Sie können einen Drittanbieterdienst wie[**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns) 
 
-###[Use Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+###[Use Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-Verwendung von[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) kann helfen, Ihr VPN-Konto vor unbefugtem Zugriff zu schützen. Bei der Zwei-Faktor-Authentifizierung müssen Sie zwei Arten der Identifizierung angeben, um auf Ihr Konto zuzugreifen, z. B. ein Passwort und einen Code, der an Ihr Telefon gesendet wird.
+Verwendung von[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) kann helfen, Ihr VPN-Konto vor unbefugtem Zugriff zu schützen. Bei der Zwei-Faktor-Authentifizierung müssen Sie zwei Arten der Identifizierung angeben, um auf Ihr Konto zuzugreifen, z. B. ein Passwort und einen Code, der an Ihr Telefon gesendet wird.
 
-Viele VPN-Anbieter bieten[two-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) als Option, also stellen Sie sicher, dass Sie sie aktivieren, wenn sie verfügbar ist.
+Viele VPN-Anbieter bieten[two-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) als Option, also stellen Sie sicher, dass Sie sie aktivieren, wenn sie verfügbar ist.
 
 ### Fazit
 
@@ -78,8 +78,8 @@ Recherchieren Sie immer und wählen Sie einen seriösen VPN-Anbieter, der nachwe
 
 ## Referenzen
 
--[simeononsecurity.ch's VPN Provider Recommendations](https://simeononsecurity.ch/recommendations/vpns/)
--[simeononsecurity.ch - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+-[simeononsecurity.com's VPN Provider Recommendations](https://simeononsecurity.com/recommendations/vpns/)
+-[simeononsecurity.com - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 -[IPLeak.net](https://ipleak.net/)
 -[WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
 -[Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)

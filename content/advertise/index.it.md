@@ -12,7 +12,7 @@ Grazie per il vostro interesse a fare pubblicità con SimeonOnSecurity! Offriamo
 
 Le immagini devono essere fornite in formato `.png` o `.webp` per garantire prestazioni e qualità ottimali ai vostri annunci.
 
-Per fare pubblicità con noi, inviate un messaggio attraverso il nostro modulo di contatto su [Contact Us](https://simeononsecurity.ch/contactus/) Vi risponderemo prontamente per discutere le opzioni pubblicitarie disponibili e i prezzi.
+Per fare pubblicità con noi, inviate un messaggio attraverso il nostro modulo di contatto su [Contact Us](https://simeononsecurity.com/contactus/) Vi risponderemo prontamente per discutere le opzioni pubblicitarie disponibili e i prezzi.
 
 Non vediamo l'ora di lavorare con voi per promuovere il vostro marchio e raggiungere il nostro pubblico di appassionati e professionisti della sicurezza!
 

@@ -55,7 +55,7 @@ Here are some best practices to follow when performing network segmentation:
 
 - **Follow the principle of least privilege**: Limit access to each network segment to only those who need it to perform their job functions. Use access controls such as VLANs, VRFs, or other technologies to enforce this principle.
 
-- **Implement strong access controls**: Use strong authentication and access controls to limit access to sensitive data and systems. This can include using multi-factor authentication, [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), and other access controls to ensure that only authorized users can access critical resources.
+- **Implement strong access controls**: Use strong authentication and access controls to limit access to sensitive data and systems. This can include using multi-factor authentication, [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), and other access controls to ensure that only authorized users can access critical resources.
 
 - **Deploy firewalls**: Deploy firewalls to limit traffic between network segments and protect against cyber attacks. This can include using both hardware and software firewalls to protect your network from both internal and external threats.
 

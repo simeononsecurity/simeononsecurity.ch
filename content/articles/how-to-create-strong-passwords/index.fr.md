@@ -59,9 +59,9 @@ N'oubliez pas que la force d'une phrase de passe ne réside pas seulement dans s
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-Avec l'augmentation du nombre de nos comptes en ligne, il devient difficile de se souvenir de mots de passe uniques et forts pour chacun d'entre eux. C'est là que les gestionnaires de mots de passe comme [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) s'avèrent très utiles. Un gestionnaire de mots de passe est un coffre-fort numérique sécurisé qui stocke tous vos mots de passe dans un format crypté. Il vous permet de générer des mots de passe forts et uniques pour chaque compte et les remplit automatiquement lorsque c'est nécessaire. Voici comment les gestionnaires de mots de passe peuvent vous aider :
+Avec l'augmentation du nombre de nos comptes en ligne, il devient difficile de se souvenir de mots de passe uniques et forts pour chacun d'entre eux. C'est là que les gestionnaires de mots de passe comme [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) s'avèrent très utiles. Un gestionnaire de mots de passe est un coffre-fort numérique sécurisé qui stocke tous vos mots de passe dans un format crypté. Il vous permet de générer des mots de passe forts et uniques pour chaque compte et les remplit automatiquement lorsque c'est nécessaire. Voici comment les gestionnaires de mots de passe peuvent vous aider :
 
 - **Pratique** : Avec un gestionnaire de mots de passe, vous ne devez vous souvenir que d'un seul mot de passe principal pour accéder à tous vos mots de passe stockés. Il n'est donc plus nécessaire de mémoriser plusieurs mots de passe complexes.
 - Des mots de passe forts et uniques** : Les gestionnaires de mots de passe peuvent générer des mots de passe forts en utilisant une combinaison de caractères, garantissant ainsi que chacun de vos comptes dispose d'un mot de passe unique et sécurisé.
@@ -78,7 +78,7 @@ Bien que les gestionnaires de mots de passe offrent des avantages considérables
 
 - **Choisissez un gestionnaire de mots de passe réputé** : Choisissez un gestionnaire de mots de passe bien établi et digne de confiance comme **Bitwarden** ou d'autres recommandés par des sources de cybersécurité réputées.
 - Créez un mot de passe principal fort** : Le mot de passe principal est la clé du coffre-fort de votre gestionnaire de mots de passe, assurez-vous donc qu'il est fort et unique. Suivez les directives mentionnées plus haut pour créer un mot de passe principal solide.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'authentification à deux facteurs ajoute une couche supplémentaire de sécurité en exigeant une deuxième forme de vérification, telle qu'une empreinte digitale ou un code provenant d'une application d'authentification, en plus du mot de passe principal.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'authentification à deux facteurs ajoute une couche supplémentaire de sécurité en exigeant une deuxième forme de vérification, telle qu'une empreinte digitale ou un code provenant d'une application d'authentification, en plus du mot de passe principal.
 - Mettez régulièrement à jour votre gestionnaire de mots de passe** : Gardez votre gestionnaire de mots de passe à jour pour vous assurer que vous disposez des derniers correctifs de sécurité et des dernières fonctionnalités.
 - Sauvegardez votre coffre-fort de mots de passe** : Sauvegardez régulièrement le coffre-fort de votre gestionnaire de mots de passe pour éviter toute perte de données en cas de défaillance d'un appareil ou d'autres circonstances imprévues.
 - Soyez prudent face aux attaques de phishing** : Soyez vigilant et évitez de cliquer sur des liens suspects ou de fournir les informations de votre gestionnaire de mots de passe sur des sites web non fiables.

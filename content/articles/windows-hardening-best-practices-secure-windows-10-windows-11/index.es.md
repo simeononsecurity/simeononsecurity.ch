@@ -97,7 +97,7 @@ Se recomienda mantener el UAC activado y configurado a un nivel que proporcione 
 
 Al configurar los ajustes de UAC, mejora la seguridad de su sistema Windows 10 al garantizar que se requieren privilegios administrativos para realizar cambios críticos en el sistema, lo que reduce el riesgo de acceso no autorizado e infecciones de malware.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 El uso de contraseñas seguras es esencial para mantener la seguridad de su sistema Windows 10 y protegerlo contra el acceso no autorizado. Las contraseñas débiles o fáciles de adivinar pueden hacer que tu sistema sea vulnerable a ataques, como los ataques de fuerza bruta o el descifrado de contraseñas.
 
 Para asegurarte de que todas las cuentas de usuario de tu sistema Windows 10 tienen contraseñas seguras, sigue estas prácticas recomendadas para contraseñas:
@@ -116,7 +116,7 @@ Para asegurarte de que todas las cuentas de usuario de tu sistema Windows 10 tie
 
 Al implementar prácticas de contraseñas seguras, mejorará significativamente la seguridad de su sistema Windows 10 y reducirá el riesgo de accesos no autorizados o violaciones de datos. Eduque regularmente a los usuarios sobre la seguridad de las contraseñas y proporcione recursos, como medidores de solidez de contraseñas o directrices de creación de contraseñas, para ayudarles a crear contraseñas seguras.
 
-Para obtener información más detallada sobre la creación de contraseñas seguras y las mejores prácticas, puede consultar este enlace [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Proporciona orientación exhaustiva sobre la seguridad de las contraseñas y ofrece consejos para crear contraseñas seguras y fáciles de recordar.
+Para obtener información más detallada sobre la creación de contraseñas seguras y las mejores prácticas, puede consultar este enlace [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Proporciona orientación exhaustiva sobre la seguridad de las contraseñas y ofrece consejos para crear contraseñas seguras y fáciles de recordar.
 
 Recuerde que el uso de contraseñas seguras es un aspecto fundamental de la seguridad del sistema y debe priorizarse para proteger los datos confidenciales y garantizar la integridad de su entorno Windows 10.
 
@@ -200,7 +200,7 @@ Para obtener información más detallada sobre la aplicación de las políticas 
 
 Recuerde revisar y actualizar periódicamente sus directivas de AppLocker para adaptarse a los requisitos cambiantes de las aplicaciones y a las amenazas de seguridad emergentes. AppLocker es una herramienta valiosa en su defensa contra aplicaciones no autorizadas y potencialmente dañinas en su sistema Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Realizar copias de seguridad de sus datos con regularidad es una práctica esencial para protegerse contra la pérdida de datos causada por incidentes de seguridad, fallos de hardware u otros imprevistos. Al crear copias de seguridad periódicas y verificar su integridad, puede asegurarse de que sus datos importantes permanezcan seguros y puedan restaurarse en caso de desastre.
 
 Siga estos pasos para realizar copias de seguridad periódicas de sus datos en un sistema Windows 10:
@@ -221,7 +221,7 @@ Siga estos pasos para realizar copias de seguridad periódicas de sus datos en u
 
 Siguiendo estos pasos y respetando una rutina regular de copias de seguridad, puede minimizar el impacto de la pérdida de datos y mantener la disponibilidad de su información importante. Recuerde almacenar sus copias de seguridad de forma segura, lejos de los datos originales, y considere la posibilidad de aplicar la regla de las copias de seguridad **3-2-1**, consistente en tener al menos tres copias de sus datos, almacenadas en dos soportes de almacenamiento diferentes, con una copia almacenada fuera de las instalaciones.
 
-Para obtener información más detallada sobre las mejores prácticas de copia de seguridad y la regla **3-2-1**, puede consultar el artículo en [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Ofrece valiosas ideas y recomendaciones para aplicar una estrategia eficaz de copias de seguridad.
+Para obtener información más detallada sobre las mejores prácticas de copia de seguridad y la regla **3-2-1**, puede consultar el artículo en [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Ofrece valiosas ideas y recomendaciones para aplicar una estrategia eficaz de copias de seguridad.
 
 Recuerde que las copias de seguridad periódicas son cruciales para salvaguardar sus datos y garantizar su disponibilidad en caso de imprevistos. Haga de las copias de seguridad una parte integral de sus esfuerzos de refuerzo de Windows 10 para proteger su valiosa información.
 

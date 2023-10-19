@@ -3,7 +3,7 @@ title: "Politique de confidentialité : Collecte, utilisation et consentement de
 date: 2020-08-08
 ---
 
-Chez SimeonOnSecurity, accessible à partir de https://simeononsecurity.ch, l'une de nos principales priorités est la protection de la vie privée de nos visiteurs. La présente politique de confidentialité décrit les types d'informations collectées et enregistrées par SimeonOnSecurity, ainsi que la manière dont elles sont utilisées.
+Chez SimeonOnSecurity, accessible à partir de https://simeononsecurity.com, l'une de nos principales priorités est la protection de la vie privée de nos visiteurs. La présente politique de confidentialité décrit les types d'informations collectées et enregistrées par SimeonOnSecurity, ainsi que la manière dont elles sont utilisées.
 
 Si vous avez des questions supplémentaires ou si vous souhaitez obtenir plus d'informations sur notre politique de confidentialité, n'hésitez pas à nous contacter.
 

@@ -81,10 +81,10 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 - [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ### Ultra Low Power / Low Budget
-If you're interested in a lower power and/or low budget setup, read our guide on [How to Set Up a GPS/GNSS Bases Station on an ESP32](https://simeononsecurity.ch/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/).
+If you're interested in a lower power and/or low budget setup, read our guide on [How to Set Up a GPS/GNSS Bases Station on an ESP32](https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/).
 
 ### Compute Notable Mentions
-Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
+Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
 
 ## Recommended GPS Receivers for DIY Onocoy Deployments
 There are many recievers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
@@ -505,7 +505,7 @@ So, **go ahead and set up your Onocoy Reference Station**, refine your skills, a
 
 Stay inspired, stay innovative, and keep pushing the **boundaries of what's possible with technology**.
 
-Lastly, check out our article on more [low powered mining setups](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/).
+Lastly, check out our article on more [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/).
 
 ## References
 

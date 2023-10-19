@@ -30,9 +30,9 @@ Il[**CISSP certification**](https://www.isc2.org/Certifications/CISSP) è una ce
 
 Il[**CEH certification** ](https://cert.eccouncil.org/certified-ethical-hacker.html) una famosa certificazione che si concentra sull'hacking etico e sui test di penetrazione. Copre vari argomenti come footprinting e ricognizione, scansione di reti, enumerazione, hacking di sistemi, trojan e backdoor, virus e worm, sniffer, social engineering, denial of service, session hijacking, hacking di server web e altro ancora. L'esame di certificazione consiste in 125 domande a scelta multipla e richiede almeno due anni di esperienza nel campo della sicurezza informatica.
 
-### 3.[CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+### 3.[CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
-Il[**CompTIA Security+ certification** ](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) una certificazione di cybersecurity entry-level che copre vari argomenti di cybersecurity come minacce, attacchi e vulnerabilità, tecnologie e strumenti, architettura e progettazione, gestione di identità e accesso, gestione del rischio e crittografia. L'esame di certificazione consiste in 90 domande a scelta multipla e richiede almeno due anni di esperienza nell'amministrazione IT con un focus sulla sicurezza.
+Il[**CompTIA Security+ certification** ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) una certificazione di cybersecurity entry-level che copre vari argomenti di cybersecurity come minacce, attacchi e vulnerabilità, tecnologie e strumenti, architettura e progettazione, gestione di identità e accesso, gestione del rischio e crittografia. L'esame di certificazione consiste in 90 domande a scelta multipla e richiede almeno due anni di esperienza nell'amministrazione IT con un focus sulla sicurezza.
 
 ### 4.[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 

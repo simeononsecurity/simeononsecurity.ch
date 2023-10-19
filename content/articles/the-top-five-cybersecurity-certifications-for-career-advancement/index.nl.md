@@ -40,6 +40,6 @@ Kortom, het behalen van een cyberbeveiligingscertificaat kan je helpen om je ken
 
 Het is essentieel om een certificering te kiezen die aansluit bij je carrièredoelen en interesses. Of je nu op zoek bent naar een goede basiskennis van cyberbeveiliging of je wilt specialiseren in een specifiek onderdeel van het vakgebied, deze certificeringen kunnen je helpen om je carrière naar een hoger niveau te tillen.
 
-Het is belangrijk op te merken dat de certificeringen die in dit artikel worden genoemd slechts een paar van de vele beschikbare zijn. Het onderzoeken en selecteren van de juiste certificering voor jou kan je helpen je carrièredoelen te bereiken en je kennis en vaardigheden aan potentiële werkgevers te laten zien. Voor meer aanbevelingen kun je onze [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/)
+Het is belangrijk op te merken dat de certificeringen die in dit artikel worden genoemd slechts een paar van de vele beschikbare zijn. Het onderzoeken en selecteren van de juiste certificering voor jou kan je helpen je carrièredoelen te bereiken en je kennis en vaardigheden aan potentiële werkgevers te laten zien. Voor meer aanbevelingen kun je onze [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/)
 
 **Begin vandaag nog uw reis naar uitmuntendheid op het gebied van cyberbeveiliging door een van deze topcertificeringen te behalen**.

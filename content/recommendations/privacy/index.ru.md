@@ -33,9 +33,9 @@ tags: ["рекомендуемые ресурсы по защите персон
 
 Если вы подозреваете, что ваша частная жизнь была нарушена, необходимо сообщить о случившемся. Сообщить о пропаже, жестоком обращении или сексуальной эксплуатации ребенка можно по адресу [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) для борьбы с киберпреступлениями, взломами, кражами цифровых данных и т.д.
 
-### [Services](https://simeononsecurity.ch/recommendations/services/)
+### [Services](https://simeononsecurity.com/recommendations/services/)
 
-Если вам нужна дополнительная помощь в защите конфиденциальности, воспользуйтесь [privacy services](https://simeononsecurity.ch/recommendations/services/) для удаления ваших записей у крупных брокеров данных. Среди рекомендуемых сервисов можно назвать следующие:
+Если вам нужна дополнительная помощь в защите конфиденциальности, воспользуйтесь [privacy services](https://simeononsecurity.com/recommendations/services/) для удаления ваших записей у крупных брокеров данных. Среди рекомендуемых сервисов можно назвать следующие:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Эта предпочтительная услуга поможет вам удалить свои записи у крупнейших брокеров данных.
 - [OneRep](https://onerep.com) Этот альтернативный сервис поможет вам удалить свои записи у крупных брокеров данных.

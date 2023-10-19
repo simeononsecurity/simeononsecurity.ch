@@ -52,7 +52,7 @@ Remember, the choice of Linux distro for gaming ultimately depends on your perso
 
 ### Conclusion
 
-Linux has emerged as a powerful gaming platform, and with the right choice of Linux distribution, gamers can enjoy a wide range of games on their systems. Ubuntu, Zorin OS, Manjaro, and SteamOS are among the [**best Linux distros**](https://simeononsecurity.ch/articles/the-best-linux-distros-for-windows-users/), offering excellent performance, gaming-focused features, and a supportive community.
+Linux has emerged as a powerful gaming platform, and with the right choice of Linux distribution, gamers can enjoy a wide range of games on their systems. Ubuntu, Zorin OS, Manjaro, and SteamOS are among the [**best Linux distros**](https://simeononsecurity.com/articles/the-best-linux-distros-for-windows-users/), offering excellent performance, gaming-focused features, and a supportive community.
 
 Try out these distros and immerse yourself in the exciting world of Linux gaming!
 

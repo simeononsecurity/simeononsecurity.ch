@@ -68,7 +68,7 @@ ______
 
 En conclusión, la elaboración de un currículum eficaz es crucial para los profesionales de la ciberseguridad, el desarrollo de software y las tecnologías de la información que desean avanzar en su carrera. Si adaptas tu currículum a la descripción del puesto, muestras tus habilidades y logros técnicos, haces hincapié en la ciberseguridad y la privacidad, destacas tu capacidad para resolver problemas, mantienes la claridad y la concisión, utilizas verbos de acción y resultados cuantificables y te mantienes al día de las tendencias del sector, podrás crear un currículum que destaque entre los posibles empleadores.
 
-Para obtener más consejos generales sobre la redacción de currículos, también puede consultar [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) en simeononsecurity.ch, que ofrece valiosas ideas y orientaciones adicionales.
+Para obtener más consejos generales sobre la redacción de currículos, también puede consultar [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) en simeononsecurity.com, que ofrece valiosas ideas y orientaciones adicionales.
 
 ______
 

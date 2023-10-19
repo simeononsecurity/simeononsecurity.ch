@@ -22,13 +22,13 @@ ______
 
 ## Inżynieria społeczna
 
-**Inżynieria społeczna** to rodzaj cyberataku, który opiera się na interakcji międzyludzkiej i manipulacji psychologicznej, aby oszukać osoby do ujawnienia poufnych informacji lub wykonania określonych działań. Cyberprzestępcy stosują różne taktyki, np.[phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) pretekstów, przynęt i quid pro quo, aby zdobyć zaufanie swoich ofiar i uzyskać poufne informacje.
+**Inżynieria społeczna** to rodzaj cyberataku, który opiera się na interakcji międzyludzkiej i manipulacji psychologicznej, aby oszukać osoby do ujawnienia poufnych informacji lub wykonania określonych działań. Cyberprzestępcy stosują różne taktyki, np.[phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) pretekstów, przynęt i quid pro quo, aby zdobyć zaufanie swoich ofiar i uzyskać poufne informacje.
 
 Aby zmniejszyć ryzyko ataków socjotechnicznych, osoby i organizacje mogą podjąć następujące kroki:
 
-- Zapewnić.[**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) pracownikom, aby nauczyć ich, jak rozpoznawać i unikać ataków socjotechnicznych.
+- Zapewnić.[**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) pracownikom, aby nauczyć ich, jak rozpoznawać i unikać ataków socjotechnicznych.
 - Stosuj **filtry antyspamowe** i protokoły uwierzytelniania poczty elektronicznej, takie jak **SPF**, **DKIM** i **DMARC**, aby wykryć i zablokować wiadomości phishingowe.
-- Wdrażaj[**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aby dodać dodatkową warstwę bezpieczeństwa do poświadczeń logowania.
+- Wdrażaj[**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aby dodać dodatkową warstwę bezpieczeństwa do poświadczeń logowania.
 - Regularnie przeglądaj i aktualizuj **polityki bezpieczeństwa**, aby uwzględnić nowe zagrożenia i luki w zabezpieczeniach.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 Aby zmniejszyć ryzyko ataków złośliwego oprogramowania, osoby prywatne i organizacje mogą podjąć następujące kroki:
 
-- Zainstaluj i regularnie aktualizuj.[**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) na wszystkich urządzeniach.
+- Zainstaluj i regularnie aktualizuj.[**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) na wszystkich urządzeniach.
 - Używaj **firewalli** do blokowania nieautoryzowanego dostępu do systemów i sieci komputerowych.
 - Unikaj pobierania oprogramowania lub plików z niezaufanych źródeł.
 - Regularnie **twórz kopie zapasowe** ważnych danych, aby zapobiec ich utracie w przypadku ataku złośliwego oprogramowania.
@@ -67,9 +67,9 @@ systemów lub sieci komputerowych poprzez zgadywanie, łamanie lub kradzież has
 Aby zmniejszyć ryzyko ataków na hasła, osoby prywatne i organizacje mogą podjąć następujące kroki:
 
 - Używaj silnych i unikalnych haseł, które zawierają kombinację liter, cyfr i symboli.
-- Wdrożenie[**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) które wymagają regularnej zmiany hasła i zabraniają stosowania haseł pospolitych lub łatwych do odgadnięcia.
-- Użycie[**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) które mogą generować i przechowywać złożone hasła.
-- Wdrożenie[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aby dodać dodatkową warstwę bezpieczeństwa do poświadczeń logowania.
+- Wdrożenie[**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) które wymagają regularnej zmiany hasła i zabraniają stosowania haseł pospolitych lub łatwych do odgadnięcia.
+- Użycie[**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) które mogą generować i przechowywać złożone hasła.
+- Wdrożenie[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aby dodać dodatkową warstwę bezpieczeństwa do poświadczeń logowania.
 
 ______
 
@@ -81,7 +81,7 @@ Aby zmniejszyć ryzyko ataków na aplikacje internetowe, osoby i organizacje mog
 
 - Stosować **zapory aplikacji internetowych** w celu wykrywania i blokowania złośliwego ruchu.
 - Regularne skanowanie aplikacji internetowych pod kątem luk w zabezpieczeniach i szybkie wdrażanie łatek i aktualizacji.
-- Używanie[**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) aby zapobiec typowym lukom w aplikacjach internetowych.
+- Używanie[**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) aby zapobiec typowym lukom w aplikacjach internetowych.
 - Wdrożenie **walidacji danych wejściowych użytkownika**, aby zapobiec wstrzyknięciu SQL i innym atakom opartym na danych wejściowych.
 
 ______

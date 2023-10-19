@@ -23,7 +23,7 @@ In an **increasingly digital world**, the security of your server is paramount. 
 
 ## **Understanding SSHD**
 
-[**SSH (Secure Shell)**](https://simeononsecurity.ch/articles/what-is-ssh/) is a **cryptographic network protocol** that allows **secure data communication**, **remote command-line login**, and other **secure network services**. **SSHD** is the **server component of SSH**, responsible for **authentication**, **encryption**, and **secure communication**. It's **vital to configure SSHD** properly to prevent **unauthorized access**.
+[**SSH (Secure Shell)**](https://simeononsecurity.com/articles/what-is-ssh/) is a **cryptographic network protocol** that allows **secure data communication**, **remote command-line login**, and other **secure network services**. **SSHD** is the **server component of SSH**, responsible for **authentication**, **encryption**, and **secure communication**. It's **vital to configure SSHD** properly to prevent **unauthorized access**.
 
 ### **Key Configuration Steps**
 
@@ -53,7 +53,7 @@ PermitRootLogin no
 
 In the realm of **Secure SSHD Configurations**, robust authentication is the cornerstone of safeguarding your server. Let's delve into two pivotal methods for achieving this: **strong password policies** and **key-based authentication**.
 
-1. [**Strong Password Policies**](https://simeononsecurity.ch/articles/ten-essential-password-security-guidelines-to-follow): Start by enforcing stringent password rules. Craft passwords that are lengthy and encompass a mixture of upper and lower-case letters, numbers, and special characters. Steer clear of easily guessable information, such as birthdays or common words.
+1. [**Strong Password Policies**](https://simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow): Start by enforcing stringent password rules. Craft passwords that are lengthy and encompass a mixture of upper and lower-case letters, numbers, and special characters. Steer clear of easily guessable information, such as birthdays or common words.
 
    Example: A formidable password might look like "P@$$w0rdS3cureSSH."
 
@@ -140,13 +140,13 @@ These configurations prioritize stronger encryption and key exchange algorithms,
 ### **Protecting SSHD from Threats**
 
 #### **Brute Force Attacks**
-SSH is a **common target** for **brute force attacks** where attackers try to guess passwords **repeatedly**. Implementing [**strong password policies**](https://simeononsecurity.ch/articles/ten-essential-password-security-guidelines-to-follow/), using [**key-based authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), and **monitoring logs** can help thwart these attacks.
+SSH is a **common target** for **brute force attacks** where attackers try to guess passwords **repeatedly**. Implementing [**strong password policies**](https://simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow/), using [**key-based authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/), and **monitoring logs** can help thwart these attacks.
 
 #### **DDoS Attacks**
 **Distributed Denial of Service (DDoS) attacks** can overwhelm your server, making it unresponsive. Use tools like **iptables** or **fail2ban** to mitigate the impact of DDoS attacks on your SSHD service.
 
 #### **Zero-Day Exploits**
-Stay informed about SSHD vulnerabilities and [**patch**](https://simeononsecurity.ch/guides/automate-linux-patching-and-updates-with-ansible/) them as soon as updates become available. Government agencies such as the [**National Institute of Standards and Technology (NIST)**](https://www.nist.gov/) often release guidelines on secure configurations.
+Stay informed about SSHD vulnerabilities and [**patch**](https://simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/) them as soon as updates become available. Government agencies such as the [**National Institute of Standards and Technology (NIST)**](https://www.nist.gov/) often release guidelines on secure configurations.
 
 
 ## **Conclusion**

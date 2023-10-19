@@ -33,9 +33,9 @@ tags: ["推奨プライバシーリソース", "プライバシー権", "イン�
 
 プライバシーが侵害されていると思われる場合は、通報することが肝心です。行方不明、虐待、性的搾取を受けた子どもの通報は、次のサイトで行えます。 [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?)サイバー犯罪、ハッキング、デジタル窃盗などのために
 
-### [Services](https://simeononsecurity.ch/recommendations/services/)
+### [Services](https://simeononsecurity.com/recommendations/services/)
 
-プライバシーを守るために、さらにサポートが必要な場合は、以下の利用を検討してください。 [privacy services](https://simeononsecurity.ch/recommendations/services/)を利用して、大手データブローカーから自分の記録を削除することができます。おすすめのサービスとしては、以下のようなものがあります：
+プライバシーを守るために、さらにサポートが必要な場合は、以下の利用を検討してください。 [privacy services](https://simeononsecurity.com/recommendations/services/)を利用して、大手データブローカーから自分の記録を削除することができます。おすすめのサービスとしては、以下のようなものがあります：
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4)この優先サービスは、主要なデータブローカーからあなたの記録を削除するのに役立ちます。
 - [OneRep](https://onerep.com)この代替サービスでは、主要なデータブローカーから記録を削除することができます。

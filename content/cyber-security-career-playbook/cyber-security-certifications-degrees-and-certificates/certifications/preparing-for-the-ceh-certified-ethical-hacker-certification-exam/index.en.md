@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 **Creating a Study Plan for Passing the CEH Certification Exam: Tips and Strategies for Success**
 
-If you're interested in pursuing a career in cybersecurity, obtaining a certification is a great way to validate your knowledge and expertise. One such certification is the [**Certified Ethical Hacker (CEH)**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/) certification, which is designed to test your understanding of various security threats and vulnerabilities. However, passing the [CEH exam](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) can be challenging, and it's important to have a well-structured study plan to ensure success. In this article, we'll discuss some tips and strategies for creating an effective study plan to help you pass the [CEH certification exam](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/).
+If you're interested in pursuing a career in cybersecurity, obtaining a certification is a great way to validate your knowledge and expertise. One such certification is the [**Certified Ethical Hacker (CEH)**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/) certification, which is designed to test your understanding of various security threats and vulnerabilities. However, passing the [CEH exam](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) can be challenging, and it's important to have a well-structured study plan to ensure success. In this article, we'll discuss some tips and strategies for creating an effective study plan to help you pass the [CEH certification exam](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/).
 
 ## [Home](/cyber-security-career-playbook-start/)
 
@@ -45,8 +45,8 @@ Once you've created a study schedule, the next step is to choose the right study
   - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### Focus on Weak Areas
 
@@ -58,7 +58,7 @@ As you begin studying, focus on your weak areas. This will help you make the mos
 
 Taking practice exams is a great way to prepare for the CEH exam. You can find practice exams on the [**EC-Council's website**](https://www.eccouncil.org/certified-ethical-hacker-training-and-certification/), as well as other online resources. Practice exams will help you identify areas where you need to improve and get you accustomed to the format and style of the exam.
 
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### Join Study Groups
 

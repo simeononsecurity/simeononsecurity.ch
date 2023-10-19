@@ -84,7 +84,7 @@ Standalone systemen behoren tot de moeilijkste en vervelendste systemen om te be
 ### Geautomatiseerde installatie:
 Het script kan vanaf de uitgepakte GitHub-download als volgt worden gestart:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/standalonewindows.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/standalonewindows.ps1'))
 ```
 
 ### Handmatige installatie:

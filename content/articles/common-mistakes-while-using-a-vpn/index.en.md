@@ -30,7 +30,7 @@ To check if your VPN is leaking your IP address, you can use a website like [**i
 
 Another common mistake with using a VPN is **not choosing a secure VPN provider**. There are many VPN providers available, but not all of them are trustworthy. Some VPN providers may log your internet traffic or sell your data to third parties. Others may have vulnerabilities that could allow hackers to access your information.
 
-To choose a secure VPN provider, look for one that has a strict no-logging policy, uses strong encryption, and has a proven track record of protecting user privacy. You can find reviews of VPN providers online, such as the [providers recommended by simeononsecurity.ch](https://simeononsecurity.ch/recommendations/vpns/), to help you make an informed decision.
+To choose a secure VPN provider, look for one that has a strict no-logging policy, uses strong encryption, and has a proven track record of protecting user privacy. You can find reviews of VPN providers online, such as the [providers recommended by simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/), to help you make an informed decision.
 
 ### Using Free VPNs
 
@@ -64,11 +64,11 @@ When you connect to a website, your device sends a request to a DNS (Domain Name
 
 To avoid this, you can use a private DNS server that does not log your activity. Some VPN providers offer their own private DNS servers, or you can use a third-party service like [**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns). 
 
-### [Use Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Use Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-Using [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) can help protect your VPN account from unauthorized access. Two-factor authentication requires you to provide two forms of identification to access your account, such as a password and a code sent to your phone.
+Using [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) can help protect your VPN account from unauthorized access. Two-factor authentication requires you to provide two forms of identification to access your account, such as a password and a code sent to your phone.
 
-Many VPN providers offer [two-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) as an option, so make sure to enable it if it is available.
+Many VPN providers offer [two-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) as an option, so make sure to enable it if it is available.
 
 ### Conclusion
 
@@ -78,8 +78,8 @@ Always do your research and choose a reputable VPN provider that has a proven tr
 
 ## References
 
-- [simeononsecurity.ch's VPN Provider Recommendations](https://simeononsecurity.ch/recommendations/vpns/)
-- [simeononsecurity.ch - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [simeononsecurity.com's VPN Provider Recommendations](https://simeononsecurity.com/recommendations/vpns/)
+- [simeononsecurity.com - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 - [IPLeak.net](https://ipleak.net/)
 - [WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
 - [Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)

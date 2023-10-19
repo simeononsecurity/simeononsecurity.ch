@@ -63,7 +63,7 @@ ______
 
 サイバーセキュリティは日進月歩の分野であり、この分野の専門家にとって、最新のトレンドや脅威を常に把握することは極めて重要です。ここでは、情報収集を怠らないための方法をいくつかご紹介します：
 
-- ブログとWebサイト**：ブログやウェブサイト**：以下のような評判の良いサイバーセキュリティ関連のブログやウェブサイトをフォローする。 [simeononsecurity.ch](https://www.simeononsecurity.ch/)サイバー脅威やトレンドに関する洞察に満ちた記事と分析を提供する「Skype」。
+- ブログとWebサイト**：ブログやウェブサイト**：以下のような評判の良いサイバーセキュリティ関連のブログやウェブサイトをフォローする。 [simeononsecurity.com](https://www.simeononsecurity.com/)サイバー脅威やトレンドに関する洞察に満ちた記事と分析を提供する「Skype」。
 - **業界のカンファレンスとイベント**：サイバーセキュリティに関するカンファレンスやイベントに参加し、業界の専門家から学び、同業者とのネットワークを構築する。
 - 専門家集団**：情報システムセキュリティ協会（ISSA）や国際情報システムセキュリティ認証コンソーシアム（ISC）²など、リソース、認証、ネットワーキングの機会を提供する専門家団体やコミュニティに参加する。
 - 継続的な学習**：オンラインコース、ウェビナー、認定プログラムを通じて継続的に学習し、知識とスキルを向上させる。
@@ -109,6 +109,6 @@ ______
 
 ## 参考文献
 
-1. [simeononsecurity.ch - Cybersecurity Blog](https://www.simeononsecurity.ch/)
+1. [simeononsecurity.com - Cybersecurity Blog](https://www.simeononsecurity.com/)
 2. [Information Systems Security Association (ISSA)](https://www.issa.org/)
 3. [International Information System Security Certification Consortium (ISC)²](https://www.isc2.org/)

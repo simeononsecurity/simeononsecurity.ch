@@ -57,8 +57,8 @@ When choosing study materials, prioritize resources that align with your preferr
   - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
-- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### Focus on Weak Areas
 
@@ -90,7 +90,7 @@ Taking regular practice exams not only improves your **test-taking skills**, but
 
 So, make sure to explore the **EC-Council's website** and other reputable **online platforms** to access a variety of **CEH practice exams** that will elevate your exam readiness and contribute to your success.
 
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
 
 ### Join Study Groups
 
@@ -169,11 +169,11 @@ Effective time management is essential for success in preparing for the **CEH ex
 
 By implementing these time management strategies, you can make the most of your study sessions, cover all the necessary material, and feel **confident and well-prepared** on exam day. Remember, it's not just about the quantity of study hours, but the quality of your focused and targeted preparation.
 
-Stay disciplined, adhere to your study timeline, and adjust your approach as needed. Regularly evaluate your progress to ensure you are on track and make adjustments if necessary. With effective time management, you can optimize your [CEH exam preparation](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) and increase your chances of success.
+Stay disciplined, adhere to your study timeline, and adjust your approach as needed. Regularly evaluate your progress to ensure you are on track and make adjustments if necessary. With effective time management, you can optimize your [CEH exam preparation](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) and increase your chances of success.
 
 ### Stay Motivated
 
-Maintaining motivation throughout your [CEH exam preparation](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) is crucial for success. As you navigate the study process, it's normal to encounter challenges and obstacles. However, by implementing effective strategies, you can stay motivated and focused on achieving your goals. Here are some proven techniques:
+Maintaining motivation throughout your [CEH exam preparation](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) is crucial for success. As you navigate the study process, it's normal to encounter challenges and obstacles. However, by implementing effective strategies, you can stay motivated and focused on achieving your goals. Here are some proven techniques:
 
 - **Set realistic goals**: Establish specific and achievable goals for your study plan. Break down your overall goal of passing the **CEH exam** into smaller milestones. For example, you might set a goal to complete a certain number of chapters or practice questions each week. By setting tangible targets, you can track your progress and experience a sense of accomplishment as you reach each milestone.
 

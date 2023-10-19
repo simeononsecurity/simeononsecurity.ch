@@ -68,8 +68,8 @@ Outre les certifications énumérées ci-dessus, plusieurs autres certifications
 
 Pour se préparer à ces certifications, il est important d'avoir accès à des ressources d'apprentissage de qualité. SimeonOnSecurity recommande les ressources suivantes :
 
-- [Books](https://simeononsecurity.ch/recommendations/books/) Cette page comprend une liste de livres recommandés pour apprendre divers sujets dans les domaines de la cybernétique et des technologies de l'information.
-- [Training](https://simeononsecurity.ch/recommendations/learning_resources/) Cette page comprend une liste de cours de formation et de bootcamps recommandés qui peuvent vous aider à vous préparer aux certifications.
+- [Books](https://simeononsecurity.com/recommendations/books/) Cette page comprend une liste de livres recommandés pour apprendre divers sujets dans les domaines de la cybernétique et des technologies de l'information.
+- [Training](https://simeononsecurity.com/recommendations/learning_resources/) Cette page comprend une liste de cours de formation et de bootcamps recommandés qui peuvent vous aider à vous préparer aux certifications.
 
 ## Visualiser
 

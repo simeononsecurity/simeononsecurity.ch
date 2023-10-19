@@ -84,7 +84,7 @@ Windows 10 是开箱即用的不安全操作系统，需要进行许多更改才
 ### Automated Install:
 The script may be launched from the extracted GitHub download like this:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/standalonewindows.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/standalonewindows.ps1'))
 ```
 
 ### Manual Install:

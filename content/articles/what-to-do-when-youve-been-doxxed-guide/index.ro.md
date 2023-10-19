@@ -93,9 +93,9 @@ Efectuați o căutare pe motoarele de căutare populare folosind **numele** dvs.
 Luând aceste măsuri, reduceți accesibilitatea informațiilor dvs. personale și faceți mai dificilă exploatarea acestora de către indivizi. Nu uitați să vă monitorizați în mod regulat prezența online pentru a vă asigura că informațiile dvs. rămân sigure și protejate.
 
 #### Lecturi suplimentare pentru etapa 3
-- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ Consolidarea măsurilor de **privacitate online** și **securitate** este crucia
 
 #### a. Revizuiți și actualizați setările de confidențialitate
 
-[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) conturilor dvs. online și asigurați-vă că acestea sunt setate la cel mai înalt nivel de protecție. Limitați vizibilitatea informațiilor personale și a postărilor doar la prietenii sau conexiunile de încredere. De exemplu, pe platformele de socializare precum Facebook, navigați la setările de confidențialitate și personalizați cine vă poate vizualiza profilul, postările și informațiile personale.
+[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) conturilor dvs. online și asigurați-vă că acestea sunt setate la cel mai înalt nivel de protecție. Limitați vizibilitatea informațiilor personale și a postărilor doar la prietenii sau conexiunile de încredere. De exemplu, pe platformele de socializare precum Facebook, navigați la setările de confidențialitate și personalizați cine vă poate vizualiza profilul, postările și informațiile personale.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pe toate conturile dvs. online ori de câte ori este posibil. 2FA adaugă un nivel suplimentar de securitate prin faptul că necesită o etapă suplimentară de verificare, de obicei prin intermediul unui dispozitiv mobil, pentru a vă accesa conturile. Servicii precum Google, Facebook și Twitter oferă opțiuni 2FA. Activați-o urmând instrucțiunile furnizate de platformele respective.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pe toate conturile dvs. online ori de câte ori este posibil. 2FA adaugă un nivel suplimentar de securitate prin faptul că necesită o etapă suplimentară de verificare, de obicei prin intermediul unui dispozitiv mobil, pentru a vă accesa conturile. Servicii precum Google, Facebook și Twitter oferă opțiuni 2FA. Activați-o urmând instrucțiunile furnizate de platformele respective.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Creați [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pentru fiecare dintre conturile dvs. online. **Evitați să folosiți parole comune sau să refolosiți parolele pe mai multe platforme.** Luați în considerare utilizarea unui **gestionar de parole** pentru a vă stoca și gestiona parolele în siguranță. Managerii de parole, cum ar fi LastPass, Dashlane sau 1Password, generează și stochează parole complexe pentru dvs.
+Creați [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru fiecare dintre conturile dvs. online. **Evitați să folosiți parole comune sau să refolosiți parolele pe mai multe platforme.** Luați în considerare utilizarea unui **gestionar de parole** pentru a vă stoca și gestiona parolele în siguranță. Managerii de parole, cum ar fi LastPass, Dashlane sau 1Password, generează și stochează parole complexe pentru dvs.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) pe platforme publice sau cu persoane necunoscute. **Să fiți prudenți** atunci când completați formulare online sau purtați conversații cu persoane necunoscute. Verificați legitimitatea și securitatea site-urilor web sau a platformelor înainte de a furniza orice detalii personale. De exemplu, **evitați să vă comunicați adresa completă sau numărul de telefon** în forumuri publice sau comunități online.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) pe platforme publice sau cu persoane necunoscute. **Să fiți prudenți** atunci când completați formulare online sau purtați conversații cu persoane necunoscute. Verificați legitimitatea și securitatea site-urilor web sau a platformelor înainte de a furniza orice detalii personale. De exemplu, **evitați să vă comunicați adresa completă sau numărul de telefon** în forumuri publice sau comunități online.
 
 #### e. Actualizați în mod regulat software-ul și utilizați protecția antivirus
 

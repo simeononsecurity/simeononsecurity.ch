@@ -63,7 +63,7 @@ ______
 
 [**Udemy**](https://www.udemy.com/) is een populaire online marktplaats voor leren en biedt een breed scala aan cursussen op het gebied van cyberbeveiliging, gemaakt door zowel professionals uit de branche als onafhankelijke docenten. De uitgebreide selectie cursussen van Udemy omvat verschillende cyberbeveiligingsdomeinen, zodat leerlingen cursussen kunnen kiezen op basis van hun interesses en vaardigheidsniveaus.
 
-Meer informatie [online training platforms](https://simeononsecurity.ch/recommendations/learning_resources)
+Meer informatie [online training platforms](https://simeononsecurity.com/recommendations/learning_resources)
 
 ## Aanbevolen boeken voor cyberbeveiligingstraining
 
@@ -83,7 +83,7 @@ Naast online programma's en videocursussen zijn boeken een uitstekende bron om u
 
 Deze boeken bieden diepgaande kennis en praktische inzichten in onderwerpen op het gebied van cyberbeveiliging. Ze kunnen dienen als waardevolle bronnen om online training aan te vullen en je inzicht in het vakgebied te vergroten.
 
-Meer informatie [SimeonOnSecurity's Recommended Books](https://simeononsecurity.ch/recommendations/books)
+Meer informatie [SimeonOnSecurity's Recommended Books](https://simeononsecurity.com/recommendations/books)
 
 ______
 

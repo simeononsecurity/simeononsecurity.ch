@@ -40,7 +40,7 @@ It's important to have open and honest conversations with your children about on
 
 ## Keep Your Computer Secure
 
-Keeping your computer secure is an important part of online safety. Make sure your computer is equipped with up-to-date antivirus software and that all security updates are installed. Encourage your children to use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and to never share them with anyone.
+Keeping your computer secure is an important part of online safety. Make sure your computer is equipped with up-to-date antivirus software and that all security updates are installed. Encourage your children to use [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and to never share them with anyone.
 
 ## Use Two-Factor Authentication
 

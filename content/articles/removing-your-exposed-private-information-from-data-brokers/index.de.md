@@ -24,6 +24,6 @@ Es ist wichtig zu bedenken, dass **die Löschung Ihrer Daten bei einem Datenmakl
 
 _________________________
 
-Zusammenfassend lässt sich sagen, dass die **Entfernung Ihrer Daten von Online-Datenmaklern** ein wichtiger Schritt ist, um Ihre Privatsphäre und Sicherheit im Internet zu gewährleisten. Indem Sie die Kontrolle darüber übernehmen, welche Informationen über Sie online verfügbar sind, können Sie das Risiko von Identitätsdiebstahl, Stalking und anderen datenschutzbezogenen Problemen minimieren. Genauere Anleitungen zum Entfernen Ihrer Informationen von Online-Datenmaklern finden Sie in den folgenden Ressourcen [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
+Zusammenfassend lässt sich sagen, dass die **Entfernung Ihrer Daten von Online-Datenmaklern** ein wichtiger Schritt ist, um Ihre Privatsphäre und Sicherheit im Internet zu gewährleisten. Indem Sie die Kontrolle darüber übernehmen, welche Informationen über Sie online verfügbar sind, können Sie das Risiko von Identitätsdiebstahl, Stalking und anderen datenschutzbezogenen Problemen minimieren. Genauere Anleitungen zum Entfernen Ihrer Informationen von Online-Datenmaklern finden Sie in den folgenden Ressourcen [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
 
 

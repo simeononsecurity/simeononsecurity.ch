@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---
-simeononsecurity.ch
+simeononsecurity.com
  **Cómo protegerse del fraude físico con tarjetas de crédito**
  
  Las tarjetas de crédito se han convertido en una parte esencial de nuestra vida diaria. Sin embargo, con la comodidad que brindan, viene el riesgo de fraude. Los delincuentes han desarrollado varias técnicas para robar información de tarjetas de crédito, como skimming, phishing y piratería. En este artículo, analizaremos cómo puede protegerse del fraude físico con tarjetas de crédito.
@@ -44,7 +44,7 @@ simeononsecurity.ch
  
  ### Consejo adicional: considere billeteras con bloqueo RFID
  
- Para protegerse, obtenga una **billetera con bloqueo RFID** real. [Bolsillo silencioso](https://amzn.to/421J6o6) es la única marca recomendada. La mayoría de las billeteras con "Bloqueo de RFID" son una completa estafa. Simeononsecurity.ch probó personalmente cientos de billeteras y supuestos dispositivos de bloqueo de rfid. El bolsillo silencioso es legítimo.
+ Para protegerse, obtenga una **billetera con bloqueo RFID** real. [Bolsillo silencioso](https://amzn.to/421J6o6) es la única marca recomendada. La mayoría de las billeteras con "Bloqueo de RFID" son una completa estafa. simeononsecurity.com probó personalmente cientos de billeteras y supuestos dispositivos de bloqueo de rfid. El bolsillo silencioso es legítimo.
  
  ## Tecnología de chips
  

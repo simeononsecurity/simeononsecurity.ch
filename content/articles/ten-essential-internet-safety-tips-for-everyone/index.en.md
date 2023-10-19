@@ -21,15 +21,15 @@ Before we delve into the tips, it is crucial to understand why internet safety m
 
 #### The Risks of Being Online
 
-Every time you go online, there is a risk of falling victim to online scams, data breaches, or other cyber threats. Some of the risks include **downloading malicious software unknowingly, giving away your personal details to hackers, engaging with fraudulent websites**, and more. Unfortunately, the risks are not limited to adults; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/). Therefore, it has become crucial to know how to protect yourself and your loved ones while using online services.
+Every time you go online, there is a risk of falling victim to online scams, data breaches, or other cyber threats. Some of the risks include **downloading malicious software unknowingly, giving away your personal details to hackers, engaging with fraudulent websites**, and more. Unfortunately, the risks are not limited to adults; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/). Therefore, it has become crucial to know how to protect yourself and your loved ones while using online services.
 
 One way to protect yourself from online scams is to be cautious when opening **emails from unknown senders**. These emails may contain phishing links that can steal your personal information. It is also important to be careful when downloading software from the internet. Some software may contain malware that can damage your device or steal your data.
 
-Another risk of being online is [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/). Cyberbullying can have a severe impact on a person's mental health and well-being. It is essential to talk to your children about the dangers of cyberbullying and how to report it.
+Another risk of being online is [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/). Cyberbullying can have a severe impact on a person's mental health and well-being. It is essential to talk to your children about the dangers of cyberbullying and how to report it.
 
 #### Protecting Your Personal Information
 
-Your personal information is valuable and must be protected. Make it a habit to use [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), and be careful when sharing your information online. Avoid sharing sensitive data, such as your **Social Security number, credit card numbers, and home addresses**. Use legitimate websites that have **SSL certificates** to ensure that your data is encrypted before transmission.
+Your personal information is valuable and must be protected. Make it a habit to use [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), and be careful when sharing your information online. Avoid sharing sensitive data, such as your **Social Security number, credit card numbers, and home addresses**. Use legitimate websites that have **SSL certificates** to ensure that your data is encrypted before transmission.
 
 It is also important to **keep your software and devices up to date**. Software updates often include security patches that can protect your device from cyberattacks. Additionally, be careful when using public Wi-Fi networks. Public Wi-Fi networks are often unsecured, which means that your data can be intercepted by cybercriminals.
 
@@ -49,13 +49,13 @@ Outdated software is one of the most common ways that hackers gain access to you
 
 #### Use Strong Passwords and Two-Factor Authentication
 
-Create [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) using a mix of upper and lower-case letters, numbers, and symbols. Aim for at least 12 characters. Two-factor authentication adds an extra layer of protection by asking you to provide an additional code received via text or email before accessing your account.
+Create [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) using a mix of upper and lower-case letters, numbers, and symbols. Aim for at least 12 characters. Two-factor authentication adds an extra layer of protection by asking you to provide an additional code received via text or email before accessing your account.
 
 Using weak passwords is one of the easiest ways for hackers to gain access to your accounts and personal information. By creating strong passwords and enabling two-factor authentication, you can significantly reduce the risk of your accounts being hacked.
 
 #### Secure Your Wi-Fi Network
 
-Use [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) to secure your Wi-Fi network to prevent unauthorized access to your devices and data. Don't use default passwords since these are easily hackable.
+Use [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) to secure your Wi-Fi network to prevent unauthorized access to your devices and data. Don't use default passwords since these are easily hackable.
 
 Your Wi-Fi network is the gateway to your devices and data. By securing your Wi-Fi network with a strong password, you can prevent unauthorized access to your network and protect your devices and data from **cyber threats**.
 
@@ -71,11 +71,11 @@ By monitoring the activity on your network, you can quickly identify any **unusu
 
 In today's digital age, emails and messages have become a common mode of communication. However, it is important to exercise caution while sharing personal details via these mediums. **Cybercriminals** are always on the lookout for ways to steal personal information, and emails and messages are one of the easiest ways for them to do so.
 
-[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) are a common way for cybercriminals to obtain personal information. These scams trick you into thinking that you are communicating with a legitimate contact or organization and ask you to provide sensitive information. The emails or messages may look genuine, but they are designed to steal your personal information. Therefore, it is important to be wary of such scams and not share any personal information via email or messages.
+[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) are a common way for cybercriminals to obtain personal information. These scams trick you into thinking that you are communicating with a legitimate contact or organization and ask you to provide sensitive information. The emails or messages may look genuine, but they are designed to steal your personal information. Therefore, it is important to be wary of such scams and not share any personal information via email or messages.
 
-#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) can be tricky to identify, but there are a few things you can do to protect yourself. Firstly, check the sender's email address. If it looks **suspicious or unfamiliar**, do not respond to the email. Secondly, **hover over any links** in the email to see where they lead before clicking. If the link looks suspicious, do not click on it. Lastly, if you are unsure about the legitimacy of an email or message, contact the organization or person directly to confirm if they sent the email.
+[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) can be tricky to identify, but there are a few things you can do to protect yourself. Firstly, check the sender's email address. If it looks **suspicious or unfamiliar**, do not respond to the email. Secondly, **hover over any links** in the email to see where they lead before clicking. If the link looks suspicious, do not click on it. Lastly, if you are unsure about the legitimacy of an email or message, contact the organization or person directly to confirm if they sent the email.
 
 #### Avoid Clicking on Suspicious Links
 
@@ -121,11 +121,11 @@ Even if you're shopping on secure websites, there's always a risk of fraud. That
 
 Most banks and credit card companies have **fraud detection systems** in place that can alert you to suspicious activity. However, it's still important to keep an eye on your statements and report any unauthorized transactions as soon as possible.
 
-#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Another way to protect your financial information is to use [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/). Avoid using the same password for multiple accounts, and don't use easily guessable passwords like "123456" or "password." Instead, use a combination of letters, numbers, and symbols to create a strong, unique password for each account.
+Another way to protect your financial information is to use [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/). Avoid using the same password for multiple accounts, and don't use easily guessable passwords like "123456" or "password." Instead, use a combination of letters, numbers, and symbols to create a strong, unique password for each account.
 
-Consider using a [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) to help you create and store strong passwords. Password managers can generate random passwords for you and store them securely so that you don't have to remember them.
+Consider using a [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) to help you create and store strong passwords. Password managers can generate random passwords for you and store them securely so that you don't have to remember them.
 
 #### Conclusion
 
@@ -141,13 +141,13 @@ Here are some tips to help you stay safe:
 * Enable **two-factor authentication** whenever possible
 * Be cautious of **suspicious emails, links, and attachments**
 * Keep your software and operating system **up-to-date**
-* Use [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) and a **firewall**
+* Use [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) and a **firewall**
 
 #### Stay Informed about Online Threats
 
 It is important to stay up-to-date with the latest **security threats** and vulnerabilities to protect yourself and your family. Cybercriminals are constantly coming up with new tactics to steal personal information, infect devices with **malware**, and scam people out of their money.
 
-You can stay informed by following reputable **security blogs** and news outlets, and by subscribing to security alerts from your [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/).
+You can stay informed by following reputable **security blogs** and news outlets, and by subscribing to security alerts from your [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/).
 
 #### Teach Children About Internet Safety
 
@@ -164,23 +164,23 @@ By following these tips, you can help protect yourself and your family from onli
 
 ### Use Reliable Security Software
 
-Install [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) to safeguard your network and prevent unauthorized access to your data.
+Install [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) to safeguard your network and prevent unauthorized access to your data.
 
-With the ever-increasing amount of **cyber threats**, it is important to ensure that your devices are protected with reliable security software. Installing [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/) and **anti-malware software** on your devices is a crucial step in protecting your personal and sensitive information. These software programs are designed to detect, prevent and remove malicious software that can harm your computer and steal your data.
+With the ever-increasing amount of **cyber threats**, it is important to ensure that your devices are protected with reliable security software. Installing [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) and **anti-malware software** on your devices is a crucial step in protecting your personal and sensitive information. These software programs are designed to detect, prevent and remove malicious software that can harm your computer and steal your data.
 
-**Firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) are also essential tools in securing your network. Firewalls act as a barrier between your device and the internet, blocking unwanted traffic and preventing hackers from accessing your network. VPN services, on the other hand, create a secure, encrypted connection between your device and the internet, providing an extra layer of protection against cyber threats.
+**Firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) are also essential tools in securing your network. Firewalls act as a barrier between your device and the internet, blocking unwanted traffic and preventing hackers from accessing your network. VPN services, on the other hand, create a secure, encrypted connection between your device and the internet, providing an extra layer of protection against cyber threats.
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
 
-Use [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/) and anti-malware software to protect your computer from **viruses, malware**, and other cyber threats. These software programs can detect and remove malicious software that can harm your computer and compromise your data. It is important to keep these programs **up-to-date** and to run regular scans to ensure that your device is protected.
+Use [antivirus](https://simeononsecurity.com/recommendations/anti-virus/) and anti-malware software to protect your computer from **viruses, malware**, and other cyber threats. These software programs can detect and remove malicious software that can harm your computer and compromise your data. It is important to keep these programs **up-to-date** and to run regular scans to ensure that your device is protected.
 
 Some popular antivirus and anti-malware software programs include **Norton, McAfee, and Avast**. These programs offer **real-time protection** against cyber threats, **automatic updates**, and other features that can help keep your device safe.
 
 #### Firewall and VPN Services
 
-A **firewall** and [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns) protect your network from malware and unauthorized access by setting up a secure, private network within a public one. Firewalls monitor and control incoming and outgoing network traffic, while VPNs encrypt your internet connection and hide your IP address, making it difficult for hackers to intercept your data.
+A **firewall** and [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns) protect your network from malware and unauthorized access by setting up a secure, private network within a public one. Firewalls monitor and control incoming and outgoing network traffic, while VPNs encrypt your internet connection and hide your IP address, making it difficult for hackers to intercept your data.
 
-There are many **firewall** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns).
+There are many **firewall** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns).
 
 By using **reliable security software**, you can protect your devices and networks from cyber threats and ensure that your personal and sensitive information remains safe and secure.
 
@@ -196,11 +196,11 @@ Therefore, it is important to **avoid logging in to personal services** on unsec
 
 Additionally, it is important to be cautious when using public computers for sensitive transactions. These computers may have **keyloggers** or other malware installed, which can capture your keystrokes and steal your personal information.
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
 
 A **VPN**, or **virtual private network**, is a security tool that encrypts your internet connection and hides your IP address. This makes it difficult for hackers to intercept your data and protects your device from potential attacks.
 
-When using public Wi-Fi, it is highly recommended to use a [**VPN service**](https://simeononsecurity.ch/recommendations/vpns) to encrypt your data. This will ensure that your personal information remains safe, even if the network is unsecured. Many VPN services are available for free or for a small fee, and they are easy to install and use on your device.
+When using public Wi-Fi, it is highly recommended to use a [**VPN service**](https://simeononsecurity.com/recommendations/vpns) to encrypt your data. This will ensure that your personal information remains safe, even if the network is unsecured. Many VPN services are available for free or for a small fee, and they are easy to install and use on your device.
 
 Overall, it is important to be cautious when using public Wi-Fi and take necessary precautions to protect your data. By using a **VPN service** and avoiding unsecured networks, you can stay connected while keeping your personal information safe.
 

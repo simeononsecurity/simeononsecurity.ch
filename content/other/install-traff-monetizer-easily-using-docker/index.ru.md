@@ -22,7 +22,7 @@ coverCaption: ""
 ### Установка контейнера Docker
 Выполните следующие шаги для установки Docker-контейнера Traff Monetizer:
 
-0. Узнать [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Узнать [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Скопируйте следующую строку и добавьте к ней свой токен, полученный из панели управления:
 ```bash
@@ -36,7 +36,7 @@ docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOU
 
 Установив Traff Monetizer и поделившись своим интернетом, вы получаете возможность зарабатывать деньги в Интернете. При среднемесячном заработке около 2 долл. за узел на IP он представляет собой потенциальный источник дохода. Следует помнить, что выплаты производятся только в BTC. Начните монетизировать свое интернет-соединение уже сегодня!
 
-По окончании работы вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+По окончании работы вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 

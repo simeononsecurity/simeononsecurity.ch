@@ -13,7 +13,7 @@ coverCaption: "Guarding Your Passwords, Shielding Your Accounts"
 
 ## Password Security Checklist:
 
-### 1. [**Strong password creation guidelines:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+### 1. [**Strong password creation guidelines:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 Creating strong and secure passwords is crucial to protect your accounts and sensitive information. Follow these guidelines to ensure the strength of your passwords:
 
@@ -29,7 +29,7 @@ Creating strong and secure passwords is crucial to protect your accounts and sen
 ### 2. **Tips for password management and storage:**
 Proper password management and storage practices are essential for maintaining strong security. Follow these tips to effectively manage and store your passwords:
 
-- [ ] [**Use a password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) to securely store and generate unique passwords. Password managers like **LastPass**, **1Password**, and **Bitwarden** provide a secure vault where you can store all your passwords. They also offer password generation features to create strong and unique passwords for each of your accounts.
+- [ ] [**Use a password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) to securely store and generate unique passwords. Password managers like **LastPass**, **1Password**, and **Bitwarden** provide a secure vault where you can store all your passwords. They also offer password generation features to create strong and unique passwords for each of your accounts.
 
 - [ ] **Avoid writing down passwords** and storing them in insecure locations. Writing down passwords on sticky notes, notebooks, or other physical media can easily lead to unauthorized access. Instead, rely on a password manager to store and manage your passwords securely.
 
@@ -42,7 +42,7 @@ Proper password management and storage practices are essential for maintaining s
 
 Enabling multi-factor authentication (MFA) adds an extra layer of security to your accounts and helps protect them from unauthorized access. Follow these instructions to set up and use MFA effectively:
 
-- [ ] [**Enable multi-factor authentication (MFA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) for all relevant accounts and services. Popular platforms and services like **Google**, **Microsoft**, and **Amazon Web Services** offer MFA options. Enable MFA on your accounts to enhance their security.
+- [ ] [**Enable multi-factor authentication (MFA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) for all relevant accounts and services. Popular platforms and services like **Google**, **Microsoft**, and **Amazon Web Services** offer MFA options. Enable MFA on your accounts to enhance their security.
 
 - [ ] **Choose a reputable and secure MFA method**. MFA methods include **SMS verification codes**, **authenticator apps** (such as **Google Authenticator**, **Microsoft Authenticator**, or **Authy**), and **hardware tokens** (such as **YubiKey** or **RSA SecurID**). Select a method that suits your needs and provides a higher level of security.
 

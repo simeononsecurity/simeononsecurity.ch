@@ -63,7 +63,7 @@ ______
 
 [**Udemy**](https://www.udemy.com/)は、業界専門家と独立した講師の両方によって作成された幅広いサイバーセキュリティコースを提供する、人気のあるオンライン学習マーケットプレイスです。Udemyの膨大な数のコースは、様々なサイバーセキュリティ領域をカバーしており、学習者は自分の興味やスキルレベルに応じてコースを選択することができます。
 
-もっと詳しく知る [online training platforms](https://simeononsecurity.ch/recommendations/learning_resources)
+もっと詳しく知る [online training platforms](https://simeononsecurity.com/recommendations/learning_resources)
 
 ## サイバーセキュリティ研修におすすめの書籍のご紹介です。
 
@@ -83,7 +83,7 @@ ______
 
 これらの書籍は、サイバーセキュリティに関する深い知識と実践的な洞察力を提供します。オンライントレーニングを補完し、この分野への理解を深めるための貴重な資料となります。
 
-もっと詳しく知る [SimeonOnSecurity's Recommended Books](https://simeononsecurity.ch/recommendations/books)
+もっと詳しく知る [SimeonOnSecurity's Recommended Books](https://simeononsecurity.com/recommendations/books)
 
 ______
 

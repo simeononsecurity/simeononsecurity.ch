@@ -44,11 +44,11 @@ The first step in building a secure cloud environment is choosing a secure cloud
 
 ## Implement Strong Access Controls
 
-Access controls are one of the most important security measures you can implement in your cloud environment. Here are some [best practices for access controls](https://simeononsecurity.ch/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/):
+Access controls are one of the most important security measures you can implement in your cloud environment. Here are some [best practices for access controls](https://simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/):
 
 - **Use multi-factor authentication**: Multi-factor authentication adds an extra layer of security to user logins, requiring users to provide more than one form of authentication.
 
-- **Enforce strong passwords**: Users should be required to use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) that are difficult to guess or crack.
+- **Enforce strong passwords**: Users should be required to use [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) that are difficult to guess or crack.
 
 - **Restrict access based on user roles**: Users should only be granted access to the data they need to do their jobs.
 

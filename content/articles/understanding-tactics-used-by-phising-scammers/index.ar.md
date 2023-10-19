@@ -40,19 +40,19 @@ coverCaption: ""
 
 في حين أن حيل التصيد الاحتيالي يمكن أن تكون معقدة ، إلا أن هناك العديد من الخطوات الاستباقية التي يمكنك اتخاذها لتجنب الوقوع ضحية. من خلال تنفيذ الإجراءات التالية ، يمكنك تقليل مخاطر الوقوع فريسة لهجمات التصيد الاحتيالي بشكل كبير:
 
-### [Education and Awareness](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) حاسمة في مكافحة حيل التصيد الاحتيالي. ابق على اطلاع بأحدث تقنيات التصيد الاحتيالي والتكتيكات التي يستخدمها المحتالون. قم بتحديث معلوماتك بانتظام من خلال مصادر موثوقة مثل مدونات الأمان والمقالات والمواقع الرسمية ** الحكومية ** التي توفر معلومات عن اتجاهات التصيد الاحتيالي الحالية وأفضل ممارسات الأمن السيبراني.
+[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) حاسمة في مكافحة حيل التصيد الاحتيالي. ابق على اطلاع بأحدث تقنيات التصيد الاحتيالي والتكتيكات التي يستخدمها المحتالون. قم بتحديث معلوماتك بانتظام من خلال مصادر موثوقة مثل مدونات الأمان والمقالات والمواقع الرسمية ** الحكومية ** التي توفر معلومات عن اتجاهات التصيد الاحتيالي الحالية وأفضل ممارسات الأمن السيبراني.
 
 ### توخي الحذر مع رسائل البريد الإلكتروني والرسائل
 
 توخَّ الحذر عند تلقي رسائل البريد الإلكتروني أو الرسائل ، لا سيما تلك التي تطلب معلومات شخصية أو تتطلب إجراءات عاجلة. انتبه إلى التفاصيل مثل عناوين البريد الإلكتروني والأخطاء النحوية والإملائية أو التحيات العامة التي قد تشير إلى محاولة تصيد احتيالي. كن حذرًا من المرفقات أو الروابط غير المتوقعة ، حتى لو بدا أنها تأتي من مصادر موثوقة. في حالة الشك ، ** لا تنقر فوق أي روابط مشبوهة أو تقوم بتنزيل المرفقات **. بدلاً من ذلك ، ** اتصل بالمرسل مباشرةً باستخدام رقم هاتف أو عنوان بريد إلكتروني تم التحقق منه ** للتحقق من صحة الرسالة.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-أ [strong and unique password](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) لكل حساب على الإنترنت لمنع خرق واحد من اختراق حسابات متعددة.
+أ [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) لكل حساب على الإنترنت لمنع خرق واحد من اختراق حسابات متعددة.
 
-بالإضافة إلى كلمات المرور القوية ، [**enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) متى أمكن. يضيف 2FA طبقة إضافية من الأمان من خلال طلب نموذج ثاني للتحقق ، مثل رمز مؤقت يتم إرساله إلى جهازك المحمول ، بالإضافة إلى كلمة المرور الخاصة بك. هذا يجعل الأمر أكثر صعوبة بالنسبة للمحتالين للوصول غير المصرح به إلى حساباتك.
+بالإضافة إلى كلمات المرور القوية ، [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) متى أمكن. يضيف 2FA طبقة إضافية من الأمان من خلال طلب نموذج ثاني للتحقق ، مثل رمز مؤقت يتم إرساله إلى جهازك المحمول ، بالإضافة إلى كلمة المرور الخاصة بك. هذا يجعل الأمر أكثر صعوبة بالنسبة للمحتالين للوصول غير المصرح به إلى حساباتك.
 
 ### تحديث البرامج وأنظمة التشغيل
 

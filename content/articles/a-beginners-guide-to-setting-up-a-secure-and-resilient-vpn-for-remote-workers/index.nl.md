@@ -50,7 +50,7 @@ Volg deze stappen om een veilig en veerkrachtig VPN op te zetten voor externe we
 
 1. **Kies een VPN-oplossing**: Kies op basis van de eerder genoemde factoren een VPN-oplossing die het beste past bij de behoeften van uw organisatie.
 2. **Configureer de VPN-server**: Zet een speciale VPN-server op binnen uw organisatie of kies voor een cloud-gebaseerde oplossing. Configureer de server volgens het beveiligingsbeleid en de vereisten van uw bedrijf.
-3. **Instellen van authenticatie**: Implementeer een sterke authenticatiemethode, zoals [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) om ervoor te zorgen dat alleen bevoegde werknemers toegang hebben tot het VPN.
+3. **Instellen van authenticatie**: Implementeer een sterke authenticatiemethode, zoals [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) om ervoor te zorgen dat alleen bevoegde werknemers toegang hebben tot het VPN.
 4. **Distribueer VPN-clientsoftware**: Voorzie uw externe werknemers van de nodige VPN-clientsoftware en configuratiebestanden om toegang te krijgen tot het VPN.
 
 ______
@@ -81,7 +81,7 @@ ______
 Voor een succesvolle implementatie van uw VPN-oplossing moet u uw werknemers op afstand de nodige training en ondersteuning bieden, zodat ze begrijpen hoe ze het VPN effectief en veilig kunnen gebruiken. Enkele belangrijke onderwerpen die u moet behandelen zijn:
 
 - **Hoe het VPN in te stellen en er verbinding mee te maken**: Geef duidelijke instructies voor het installeren van de VPN-clientsoftware, het configureren van de instellingen en het maken van verbinding met het VPN.
-- **Best practices op het gebied van beveiliging**: Informeer uw werknemers over het belang van het gebruik van sterke, unieke wachtwoorden, het inschakelen van [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) en hun apparaten veilig houden.
+- **Best practices op het gebied van beveiliging**: Informeer uw werknemers over het belang van het gebruik van sterke, unieke wachtwoorden, het inschakelen van [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) en hun apparaten veilig houden.
 - **Troubleshooting**: Begeleiding bieden bij het oplossen van veelvoorkomende problemen met VPN-verbindingen en wie te contacteren voor technische ondersteuning.
 
 ______

@@ -44,7 +44,7 @@ Per proteggersi da questo tipo di frode:
 
 ### Suggerimento aggiuntivo: Considerare i portafogli con blocco RFID
 
-Per proteggervi, procuratevi un vero e proprio **portafoglio con blocco RFID**.[Silent pocket](https://amzn.to/421J6o6) è l'unica marca consigliata. La maggior parte dei portafogli "RFID Blocking" sono una vera e propria truffa. simeononsecurity.ch ha testato personalmente centinaia di portafogli e presunti dispositivi di blocco RFID. Silent pocket è legale.
+Per proteggervi, procuratevi un vero e proprio **portafoglio con blocco RFID**.[Silent pocket](https://amzn.to/421J6o6) è l'unica marca consigliata. La maggior parte dei portafogli "RFID Blocking" sono una vera e propria truffa. simeononsecurity.com ha testato personalmente centinaia di portafogli e presunti dispositivi di blocco RFID. Silent pocket è legale.
 
 ## Tecnologia del chip
 

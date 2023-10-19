@@ -27,15 +27,15 @@ Verdediging tegen social engineering-aanvallen vereist een combinatie van techni
 
 ### 1. Onderwijs en bewustwording
 
-[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) zijn de eerste verdedigingslinie tegen social engineering-aanvallen. Personen moeten worden getraind om de tekenen van een social engineering-aanval te herkennen en de juiste actie te ondernemen. Dit omvat op je hoede zijn voor ongevraagde verzoeken om informatie, de identiteit van personen verifiëren voordat je gevoelige informatie vrijgeeft en verdachte activiteiten melden aan IT- of beveiligingspersoneel.
+[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) zijn de eerste verdedigingslinie tegen social engineering-aanvallen. Personen moeten worden getraind om de tekenen van een social engineering-aanval te herkennen en de juiste actie te ondernemen. Dit omvat op je hoede zijn voor ongevraagde verzoeken om informatie, de identiteit van personen verifiëren voordat je gevoelige informatie vrijgeeft en verdachte activiteiten melden aan IT- of beveiligingspersoneel.
 
 ### 2. Sterke wachtwoorden en multifactorauthenticatie
 
-gebruiken [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) en het implementeren van **multifactorauthenticatie** kan helpen bij het voorkomen van social engineering-aanvallen die vertrouwen op het raden van wachtwoorden of brute-force aanvallen. Sterke wachtwoorden moeten minstens 12 tekens lang zijn en een mix van hoofdletters en kleine letters, cijfers en speciale tekens bevatten. Multifactorauthenticatie voegt een extra beveiligingslaag toe door gebruikers te vragen om aanvullend identiteitsbewijs te leveren naast alleen een wachtwoord.
+gebruiken [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) en het implementeren van **multifactorauthenticatie** kan helpen bij het voorkomen van social engineering-aanvallen die vertrouwen op het raden van wachtwoorden of brute-force aanvallen. Sterke wachtwoorden moeten minstens 12 tekens lang zijn en een mix van hoofdletters en kleine letters, cijfers en speciale tekens bevatten. Multifactorauthenticatie voegt een extra beveiligingslaag toe door gebruikers te vragen om aanvullend identiteitsbewijs te leveren naast alleen een wachtwoord.
 
 ### 3. Veilig e-mailen en surfen op het web
 
-[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) kan helpen bij het voorkomen van social engineering-aanvallen die berusten op phishing-zwendel of andere vormen van schadelijke inhoud. Dit omvat het gebruik van spamfilters om ongevraagde e-mails te blokkeren, het vermijden om op links te klikken of bijlagen te downloaden van onbekende bronnen en het gebruik van webfilters om de toegang tot bekende schadelijke websites te blokkeren.
+[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) kan helpen bij het voorkomen van social engineering-aanvallen die berusten op phishing-zwendel of andere vormen van schadelijke inhoud. Dit omvat het gebruik van spamfilters om ongevraagde e-mails te blokkeren, het vermijden om op links te klikken of bijlagen te downloaden van onbekende bronnen en het gebruik van webfilters om de toegang tot bekende schadelijke websites te blokkeren.
 
 ### 4. Regelmatige beveiligingsupdates en -patches
 

@@ -25,7 +25,7 @@ coverCaption: ""
 - 23/10/2020 - 25/10/2020
 - Clasat general: 134 / 6010
 - Plasat Aur: locul 126 / 680
-- Echipa (simeononsecurity.ch)
+- Echipa (simeononsecurity.com)
 - 06/11/2020 - 08/11/2020
 - Clasat general: 31 / 957
 - Plasat Aur: 28 / 121

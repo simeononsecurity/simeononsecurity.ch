@@ -50,7 +50,7 @@ ______
 
 1.**选择 VPN 解决方案**：根据前面提到的因素，选择最适合企业需求的 VPN 解决方案。
 2.**配置 VPN 服务器**：在企业内部设置专用 VPN 服务器或选择基于云的解决方案。根据贵公司的安全策略和要求配置服务器。
-3.**设置身份验证**：实施强大的身份验证方法，例如 [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)以确保只有获得授权的员工才能访问 VPN。
+3.**设置身份验证**：实施强大的身份验证方法，例如 [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)以确保只有获得授权的员工才能访问 VPN。
 4.**分发 VPN 客户端软件**：为远程员工提供访问 VPN 所需的 VPN 客户端软件和配置文件。
 
 ______
@@ -81,7 +81,7 @@ ______
 为确保成功实施 VPN 解决方案，应为远程员工提供必要的培训和支持，帮助他们了解如何有效、安全地使用 VPN。需要涵盖的一些重要主题包括
 
 - 如何设置和连接 VPN**：提供关于安装 VPN 客户端软件、配置设置和连接 VPN 的明确说明。
-- 最佳安全实践**：教育员工使用强大、独特的密码的重要性，使他们能够使用 VPN。 [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)并确保设备安全。
+- 最佳安全实践**：教育员工使用强大、独特的密码的重要性，使他们能够使用 VPN。 [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)并确保设备安全。
 - **故障排除**：就如何解决常见的 VPN 连接问题以及联系谁获得技术支持提供指导。
 
 ______

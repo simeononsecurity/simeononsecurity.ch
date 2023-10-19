@@ -19,7 +19,7 @@ In today's technology-driven world, **cybersecurity** stands as the sentinel, sa
 
 In short, **no, but it is incredibly useful and still recommended to learn**.
 
-Misconceptions abound that coding proficiency is a fundamental requirement for entering the realm of [**cybersecurity**](https://simeononsecurity.ch/cyber-security-career-playbook-start/). Yet, the truth diverges from this notion. Although coding can be an asset, various cybersecurity roles don't mandate extensive programming expertise. A robust grasp of other cybersecurity aspects—such as risk management, network security, and incident response—equally holds immense value. 
+Misconceptions abound that coding proficiency is a fundamental requirement for entering the realm of [**cybersecurity**](https://simeononsecurity.com/cyber-security-career-playbook-start/). Yet, the truth diverges from this notion. Although coding can be an asset, various cybersecurity roles don't mandate extensive programming expertise. A robust grasp of other cybersecurity aspects—such as risk management, network security, and incident response—equally holds immense value. 
 
 For instance, a **Cyber Defense Analyst** focuses on identifying vulnerabilities and devising strategies to shield against cyber threats. Similarly, a **Security Consultant** offers guidance in fortifying digital defenses. These roles underscore the significance of analytical thinking and strategic planning over coding finesse.
 
@@ -27,7 +27,7 @@ For instance, a **Cyber Defense Analyst** focuses on identifying vulnerabilities
 
 ### Non-Coding Cybersecurity Roles
 
-For those less inclined toward coding, a plethora of non-technical [**cybersecurity roles**](https://simeononsecurity.ch/articles/top-five-cybersecurity-certifications-for-business-professionals/) are ripe for exploration. These positions pivot around analytical prowess, creative problem-solving, and adept technology comprehension. Noteworthy examples encompass:
+For those less inclined toward coding, a plethora of non-technical [**cybersecurity roles**](https://simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/) are ripe for exploration. These positions pivot around analytical prowess, creative problem-solving, and adept technology comprehension. Noteworthy examples encompass:
 
 - **Cyber Defense Analyst:** These experts stand guard against digital threats, identifying vulnerabilities and devising strategies to safeguard systems and data.
 
@@ -65,11 +65,11 @@ Remember, whether your affinity lies with technical prowess or analytical thinki
 
 For those embarking on the journey of bolstering their **cybersecurity** prowess through coding, selecting the right programming languages is paramount. Here's an exploration of some of the most **influential programming languages** in the cybersecurity landscape:
 
-1. [**Python:**](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) Revered as a launchpad for cybersecurity novices, **Python** serves as a versatile tool. Widely employed in tasks ranging from **malware analysis** to **penetration testing** and **scripting**, its user-friendly syntax and extensive library empower cybersecurity professionals.
+1. [**Python:**](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) Revered as a launchpad for cybersecurity novices, **Python** serves as a versatile tool. Widely employed in tasks ranging from **malware analysis** to **penetration testing** and **scripting**, its user-friendly syntax and extensive library empower cybersecurity professionals.
 
 2. **Java:** Extending its reach across various industries, **Java** finds a robust presence in the realm of cybersecurity. Renowned for its **security features**, it excels in crafting secure applications and web services.
 
-3. [**JavaScript:**](https://simeononsecurity.ch/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/) Though primarily harnessed for web development, **JavaScript** casts its influence on cybersecurity as well. Its role encompasses tasks like **web vulnerability scanning** and **browser security**, making it a potent ally.
+3. [**JavaScript:**](https://simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/) Though primarily harnessed for web development, **JavaScript** casts its influence on cybersecurity as well. Its role encompasses tasks like **web vulnerability scanning** and **browser security**, making it a potent ally.
 
 4. **Go (Golang):** Forged by Google, **Go** emerges as a formidable contender in the cybersecurity community. Noteworthy for its efficiency, simplicity, and integrated security attributes, it garners traction among security enthusiasts.
 
@@ -77,7 +77,7 @@ For those embarking on the journey of bolstering their **cybersecurity** prowess
 
 6. **Kotlin:** As an alternative to Java, **Kotlin** gains momentum in crafting **Android applications**. With its rising prominence, it offers a gateway to enhancing mobile security prowess.
 
-7. [**C#:**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) Microsoft's creation, **C#**, finds its stride in developing **Windows applications**. Its significance extends to understanding the security nuances intrinsic to Microsoft's technologies.
+7. [**C#:**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) Microsoft's creation, **C#**, finds its stride in developing **Windows applications**. Its significance extends to understanding the security nuances intrinsic to Microsoft's technologies.
 
 8. **PHP:** Steering web development, **PHP** functions as a server-side scripting language. Proficiency in PHP is pivotal for deciphering **web application security** and unveiling common vulnerabilities.
 

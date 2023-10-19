@@ -89,7 +89,7 @@ Avec l'essor de la technologie numérique, la cybersécurité est devenue une pr
 
 Voici quelques bonnes pratiques à suivre pour s'assurer d'être protégé contre les cybermenaces :
 
-#### [Creating Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+#### [Creating Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 **Des mots de passe solides** sont essentiels pour prévenir les attaques par mot de passe. Les mots de passe doivent être **longs, complexes et uniques** pour chaque compte. Un mot de passe fort doit contenir une combinaison de **lettres majuscules et minuscules, de chiffres et de symboles**. Évitez d'utiliser des mots ou des phrases courants, ainsi que des informations personnelles telles que votre nom ou votre date de naissance.
 
@@ -101,7 +101,7 @@ Il est également recommandé d'utiliser un **gestionnaire de mots de passe**, q
 
 Il est également recommandé d'activer les **mises à jour automatiques** dans la mesure du possible afin de s'assurer que vous utilisez toujours la dernière version du logiciel.
 
-#### [Implementing Multi-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### [Implementing Multi-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 **L'authentification multifactorielle** ajoute une couche supplémentaire de sécurité, en demandant aux utilisateurs de saisir non seulement un mot de passe, mais aussi une deuxième forme d'identification, telle qu'une empreinte digitale ou un jeton de sécurité. Cela permet d'empêcher l'accès non autorisé à vos comptes, même si votre mot de passe est compromis.
 
@@ -109,7 +109,7 @@ De nombreux services en ligne, tels que les fournisseurs de courrier électroniq
 
 #### Des habitudes de navigation sûres
 
-Faire attention aux sites web que l'on visite, aux liens sur lesquels on clique et aux informations que l'on partage en ligne peut aider à prévenir [**social engineering attacks**](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) ou de **faux sites web** pour inciter les utilisateurs à révéler des informations sensibles ou à télécharger des logiciels malveillants.
+Faire attention aux sites web que l'on visite, aux liens sur lesquels on clique et aux informations que l'on partage en ligne peut aider à prévenir [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) ou de **faux sites web** pour inciter les utilisateurs à révéler des informations sensibles ou à télécharger des logiciels malveillants.
 
 Il est recommandé de ne visiter que des sites web de confiance, d'éviter de cliquer sur des liens ou des pop-ups suspects et de ne jamais partager d'informations personnelles ou financières en ligne à moins d'être certain que le site web est légitime.
 
@@ -119,7 +119,7 @@ En suivant ces bonnes pratiques, vous pouvez réduire considérablement le risqu
 
 **Le chiffrement joue un rôle essentiel dans la cybersécurité en protégeant les données sensibles contre les accès non autorisés. Le chiffrement consiste à convertir des données en un code qui ne peut être déchiffré qu'avec la bonne clé ou le bon mot de passe.
 
-#### [What is Encryption?](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+#### [What is Encryption?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
 
 **Le chiffrement est une technique de communication sécurisée qui consiste à convertir des données en clair en texte chiffré à l'aide d'un algorithme et d'une clé.
 
@@ -151,7 +151,7 @@ En conclusion, le chiffrement est un outil essentiel de la cybersécurité qui p
 
 L'élaboration d'un **plan de cybersécurité** est essentielle pour identifier et atténuer les **risques liés au cyberespace**. Ce plan doit comprendre des politiques et des procédures pour la **protection des données**, la **réaction en cas d'incident** et la **formation des employés**.
 
-#### [Employee Training and Awareness](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
+#### [Employee Training and Awareness](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
 
 La formation des employés aux **meilleures pratiques en matière de cybersécurité** est essentielle pour réduire le risque d'**erreur humaine** et faire en sorte que tous les membres de l'organisation soient sur la même longueur d'onde en matière de cybersécurité.
 
@@ -159,7 +159,7 @@ La formation des employés aux **meilleures pratiques en matière de cybersécur
 
 Des **audits de sécurité** réguliers sont importants pour identifier les vulnérabilités et s'assurer que les mesures de cybersécurité de l'organisation sont efficaces. Ces audits doivent être réalisés par un **tiers externe**.
 
-### [The Future of Cybersecurity](https://simeononsecurity.ch/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
+### [The Future of Cybersecurity](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
 
 Le monde de la cybersécurité est en constante évolution et il est essentiel de garder une longueur d'avance pour se protéger contre les menaces les plus récentes.
 
@@ -167,11 +167,11 @@ Le monde de la cybersécurité est en constante évolution et il est essentiel d
 
 Les nouvelles technologies telles que l'**Internet des objets (IoT)** et l'**intelligence artificielle (IA)** créent de nouvelles opportunités pour les **attaques cybernétiques**. Il est essentiel de se tenir au courant des **menaces émergentes** et des technologies afin de s'en protéger.
 
-#### [The Role of Artificial Intelligence](https://simeononsecurity.ch/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
+#### [The Role of Artificial Intelligence](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
 
 **L'intelligence artificielle** peut être utilisée à la fois pour attaquer et pour se défendre contre les **menaces cybernétiques**. Les systèmes de détection et de réponse alimentés par l'IA peuvent aider à identifier et à atténuer les menaces en temps réel.
 
-#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.ch/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
+#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
 
 Les **menaces cybernétiques** sont de nature mondiale et nécessitent une coopération internationale pour être combattues. Une **cybersécurité** efficace nécessite une **collaboration** et un **partage d'informations** entre les gouvernements, les entreprises et les particuliers.
 

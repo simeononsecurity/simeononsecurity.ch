@@ -27,7 +27,7 @@ tags: ["ਸਿਸਮੋਨ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ", "ਸ�
 
 ਆਟੋਮੈਟਿਕ ਇੰਸਟਾਲੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, PowerShell ਵਿੱਚ ਸਿਰਫ਼ ਹੇਠ ਦਿੱਤੀ ਕਮਾਂਡ ਚਲਾਓ:
 ```powershell
-iwr -useb 'https://simeononsecurity.ch/scripts/sosautomatesysmon.ps1'|iex
+iwr -useb 'https://simeononsecurity.com/scripts/sosautomatesysmon.ps1'|iex
 ```
 
 This will automatically download and run the Automate-Sysmon script.

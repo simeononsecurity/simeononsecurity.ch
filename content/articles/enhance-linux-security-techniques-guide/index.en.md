@@ -70,7 +70,7 @@ However, it is not just enough to install updates. You should also have a well-d
 
 ### 2. User Account Management and Privilege Control
 
-Implementing **robust user account management practices** is essential for maintaining system security. This includes creating [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), enforcing password policies, and **limiting user privileges** to only what is necessary to perform their duties.
+Implementing **robust user account management practices** is essential for maintaining system security. This includes creating [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), enforcing password policies, and **limiting user privileges** to only what is necessary to perform their duties.
 
 Additionally, you should regularly **review user accounts and remove any unnecessary or unused accounts**. This reduces the attack surface by minimizing the number of potential entry points for attackers. It is also recommended to implement **multi-factor authentication (MFA) for privileged accounts** to add an extra layer of security.
 
@@ -154,7 +154,7 @@ By conducting compatibility testing, you can mitigate the risk of system disrupt
 
 - **User Awareness:** Users play a critical role in system security. Educate and train them on best practices, such as **password hygiene** and safe browsing habits.
 
-While implementing Linux hardening techniques is important, it is equally important to educate and train your users on best practices for system security. Users should be aware of the importance of [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), the risks associated with phishing attacks, and the need to follow safe browsing habits.
+While implementing Linux hardening techniques is important, it is equally important to educate and train your users on best practices for system security. Users should be aware of the importance of [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), the risks associated with phishing attacks, and the need to follow safe browsing habits.
 
 Regular security awareness training sessions can help reinforce these best practices and ensure that users understand their role in maintaining the security of your Linux systems. By fostering a culture of security awareness, you can significantly reduce the risk of human error leading to security incidents.
 

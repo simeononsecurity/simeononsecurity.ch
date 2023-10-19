@@ -86,10 +86,10 @@ Daarnaast moet u **voorzichtig** zijn als het gaat om het online delen van **gev
 
 Er zijn verschillende praktische tips die u kunt volgen om uw online beveiliging te verbeteren, waaronder:
 
-- Gebruik [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)
-- Inschakelen [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) op al uw accounts
+- Gebruik [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)
+- Inschakelen [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) op al uw accounts
 - De hoeveelheid **persoonlijke informatie** die je online deelt beperken
-- Zijn [**cautious**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) bij het openen van e-mails of links van onbekende bronnen
+- Zijn [**cautious**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) bij het openen van e-mails of links van onbekende bronnen
 
 Door deze tips te volgen, kunt u **het risico** verkleinen om slachtoffer te worden van **cyberbedreigingen**.
 
@@ -102,7 +102,7 @@ Een van de belangrijkste aspecten van **cyberbeveiliging** voor beginners is **b
 Een **robuuste cyberbeveiligingsstrategie** omvat verschillende sleutelelementen, waaronder:
 
 - **Regelmatige updates en beveiligingspatches** voor apparaten en software
-- [**Strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [**Strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 - **Netwerkbeveiligingsmaatregelen**, zoals **firewalls** en **veilige VPN's**
 - **Beperk de hoeveelheid persoonlijke informatie** die u online deelt
 
@@ -113,11 +113,11 @@ Door deze elementen te volgen en op de hoogte te blijven van de nieuwste **cyber
 Als het gaat om **best practices op het gebied van cyberbeveiliging**, zijn er een aantal belangrijke stappen die u als beginner moet nemen, waaronder:
 
 - Regelmatig uw apparaten en software bijwerken met de nieuwste **beveiligingspatches**.
-- Gebruik [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) en **technieken voor authenticatie met meerdere factoren**
+- Gebruik [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) en **technieken voor authenticatie met meerdere factoren**
 - Beperk de hoeveelheid **persoonlijke informatie** die u online deelt
-- Wees voorzichtig bij het openen van [**emails or links from unknown sources**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+- Wees voorzichtig bij het openen van [**emails or links from unknown sources**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-Overweeg daarnaast om te investeren in gerenommeerde [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.ch/recommendations/vpns/)
+Overweeg daarnaast om te investeren in gerenommeerde [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.com/recommendations/vpns/)
 
 **Verkennen van het digitale landschap: Een beginnersgids voor cyberbeveiliging**
 

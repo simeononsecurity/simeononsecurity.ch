@@ -75,7 +75,7 @@ ______
 
 In conclusion, crafting an effective resume is crucial for cybersecurity, software development, and IT professionals looking to advance their careers. By tailoring your resume to the job description, showcasing your technical skills and achievements, emphasizing cybersecurity and privacy awareness, highlighting problem-solving abilities, maintaining clarity and conciseness, using action verbs and quantifiable results, and staying updated with industry trends, you can create a resume that stands out to potential employers.
 
-For more general tips on resume writing, you can also refer to [this article](https://simeononsecurity.ch/other/tips-for-writing-a-great-resume/) on simeononsecurity.ch, which provides valuable insights and and additional guidance.
+For more general tips on resume writing, you can also refer to [this article](https://simeononsecurity.com/other/tips-for-writing-a-great-resume/) on simeononsecurity.com, which provides valuable insights and and additional guidance.
 
 ______
 

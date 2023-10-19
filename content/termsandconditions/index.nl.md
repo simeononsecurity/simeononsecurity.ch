@@ -5,7 +5,7 @@ date: 2020-08-08
 
 Welkom bij SimeonOnSecurity!
 
-Deze algemene voorwaarden bevatten de regels en voorschriften voor het gebruik van de website van SimeonOnSecurity, te vinden op https://simeononsecurity.ch.
+Deze algemene voorwaarden bevatten de regels en voorschriften voor het gebruik van de website van SimeonOnSecurity, te vinden op https://simeononsecurity.com.
 
 Door deze website te bezoeken gaan wij ervan uit dat u deze voorwaarden accepteert. Ga niet verder met het gebruik van SimeonOnSecurity als u niet akkoord gaat met alle voorwaarden en condities die op deze pagina vermeld staan.
 

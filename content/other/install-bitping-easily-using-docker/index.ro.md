@@ -22,7 +22,7 @@ Pentru a începe cu Bitping, trebuie să vă creați un cont pe site-ul [Bitping
 
 ### Instalarea Docker
 
-Învățați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Învățați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Instalați containerul Docker
 
@@ -64,7 +64,7 @@ Felicitări! Ați instalat și configurat cu succes Bitping pe sistemul dumneavo
 
 Pentru mai multe informații și documentație detaliată, vizitați pagina [Bitping website](https://bitping.com) și să se refere la resursele oficiale ale acestora.
 
-După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
+După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 **Referințe:**
 
