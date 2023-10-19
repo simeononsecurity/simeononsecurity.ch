@@ -63,6 +63,23 @@
       {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
 
+    {{ if .Params.tags }}
+      {{ $filteredTags := slice }}
+      {{ range .Params.tags }}
+        {{ if ge ($.Site.Taxonomies.tags.Count .) 2 }}
+          {{ $filteredTags = $filteredTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ with $filteredTags }}
+        {{/*  <h2>Tags</h2>  */}}
+        <span class="post-tags">
+          {{ range . }}
+            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      {{ end }}
+    {{ end }}
+
     {{ partialCached "share-buttons.html" . .Page .Page.Page }} 
     {{ partial "editbuttons.html" .}} 
     
@@ -114,24 +131,5 @@
     <br>
     {{ partialCached "share-buttons.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     {{ partialCached "comments.html" . .Page .Page.Page }}
-    <br>
-    {{ if .Params.tags }}
-      {{ tagsh2 := 0 }}
-      {{ range .Params.tags }}
-        {{ if ge ($.Site.Taxonomies.tags.Count .) 2}}
-          {{ tagsh2 = 1 }}    
-        {{ end }}
-      {{ end }}
-      {{ if $tagsh2}} 
-        <h2>Tags</h2>
-      {{ end }}
-      <span class="post-tags">
-        {{ range .Params.tags }}
-          {{ if ge ($.Site.Taxonomies.tags.Count .) 2}}
-            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
-          {{ end }}
-        {{ end }}
-      </span>
-    {{ end }}
   </article>
 {{ end }}
