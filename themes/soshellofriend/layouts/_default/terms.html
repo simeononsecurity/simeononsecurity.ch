@@ -5,7 +5,7 @@
     <ul class="terms__list">
       {{ $type := .Type }}
       {{ $counter := 0 }}
-      {{ range $key, $value := .Data.Terms.Alphabetical }}
+      {{ range $key, $value := .Data.Terms.ByCount }}
         {{ if lt $counter 20 }}
           {{ $name := .Name }}
           {{ $count := .Count }}
