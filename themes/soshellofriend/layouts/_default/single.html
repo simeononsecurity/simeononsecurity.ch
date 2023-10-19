@@ -59,14 +59,6 @@
       {{ end }}
     </div>
 
-    {{ if .Params.tags }}
-      <span class="post-tags">
-        {{ range .Params.tags }}
-          <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
-        {{ end }}
-      </span>
-    {{ end }}
-
     {{ if .Params.Cover }}
       {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
@@ -122,5 +114,14 @@
     <br>
     {{ partialCached "share-buttons.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     {{ partialCached "comments.html" . .Page .Page.Page }}
+    <br>
+    {{ if .Params.tags }}
+    <h2>Tags</h2>
+    <span class="post-tags">
+      {{ range .Params.tags }}
+        <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+      {{ end }}
+    </span>
+    {{ end }}
   </article>
 {{ end }}
