@@ -184,7 +184,7 @@ In addition to studying the exam objectives and using the recommended materials,
    
 4. **Practice, practice, practice**: Take as many practice exams and performance-based questions as possible. This will help you become familiar with the exam format and identify areas where you need to focus your study efforts.
    
-- [**SimeonOnSecurity's Security Plus Practice Test**](https://simeononsecurity.com/security-plus-practice-test)
+- [**SimeonOnSecurity's Security Plus Practice Test**](https://simeononsecurity.ch/security-plus-practice-test)
 
 5. **Stay current with industry trends**: Stay up-to-date with current industry trends and news related to information security. This will help you contextualize the exam material and understand how it applies in real-world situations.
 

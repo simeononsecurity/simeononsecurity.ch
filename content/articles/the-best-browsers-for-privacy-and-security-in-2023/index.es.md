@@ -83,6 +83,6 @@ ______
 
 Elegir el navegador adecuado para la privacidad y la seguridad es crucial para proteger su actividad en línea. Brave, Firefox y Tor Browser ofrecen soluciones robustas que se adaptan a las diferentes preferencias y necesidades de los usuarios. Combinando un navegador seguro con herramientas de privacidad adicionales como VPNs, gestores de contraseñas y llaves hardware, puedes mejorar aún más tu seguridad y privacidad online.
 
-Para saber más sobre privacidad y seguridad en línea, explora nuestro [collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) sobre el tema y manténgase al día de las últimas noticias y tendencias.
+Para saber más sobre privacidad y seguridad en línea, explora nuestro [collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) sobre el tema y manténgase al día de las últimas noticias y tendencias.
 
 

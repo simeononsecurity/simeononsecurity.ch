@@ -40,6 +40,6 @@ Podsumowując, uzyskanie certyfikatu cyberbezpieczeństwa może pomóc w wykazan
 
 Ważne jest, aby wybrać certyfikat, który jest zgodny z celami i zainteresowaniami zawodowymi. Niezależnie od tego, czy chcesz zdobyć solidną podstawową wiedzę na temat cyberbezpieczeństwa, czy też specjalizujesz się w określonym obszarze tej dziedziny, certyfikaty te mogą pomóc Ci przenieść karierę na wyższy poziom.
 
-Należy zauważyć, że certyfikaty wymienione w tym artykule to tylko kilka z wielu dostępnych. Zbadanie i wybranie odpowiedniego dla siebie certyfikatu może pomóc w osiągnięciu celów zawodowych i zademonstrowaniu swojej wiedzy i umiejętności potencjalnym pracodawcom. Więcej rekomendacji można znaleźć na naszej stronie [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/)
+Należy zauważyć, że certyfikaty wymienione w tym artykule to tylko kilka z wielu dostępnych. Zbadanie i wybranie odpowiedniego dla siebie certyfikatu może pomóc w osiągnięciu celów zawodowych i zademonstrowaniu swojej wiedzy i umiejętności potencjalnym pracodawcom. Więcej rekomendacji można znaleźć na naszej stronie [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/)
 
 **Rozpocznij swoją podróż do doskonałości w dziedzinie cyberbezpieczeństwa już dziś, zdobywając jeden z tych najlepszych certyfikatów.

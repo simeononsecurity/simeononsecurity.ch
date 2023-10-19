@@ -55,15 +55,15 @@ ______
 
 ### Performance and Scalability
 
-**pfSense** excels in larger environments where customization and advanced features are essential. Its robust capabilities are suited for businesses with complex network setups. On the other hand, [**Firewalla**](https://simeononsecurity.com/articles/firewalla-home-network-security-guide) is geared toward home users, small businesses, and individuals seeking a hassle-free security solution.
+**pfSense** excels in larger environments where customization and advanced features are essential. Its robust capabilities are suited for businesses with complex network setups. On the other hand, [**Firewalla**](https://simeononsecurity.ch/articles/firewalla-home-network-security-guide) is geared toward home users, small businesses, and individuals seeking a hassle-free security solution.
 
 ### Ease of Use
 
-[**Firewalla**](https://simeononsecurity.com/articles/firewalla-home-network-security-guide) stands out for its user-friendly approach. Its simple setup and intuitive interface make it a great choice for those who lack technical expertise. [**pfSense**](https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/), while powerful, requires more technical knowledge to harness its full potential.
+[**Firewalla**](https://simeononsecurity.ch/articles/firewalla-home-network-security-guide) stands out for its user-friendly approach. Its simple setup and intuitive interface make it a great choice for those who lack technical expertise. [**pfSense**](https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/), while powerful, requires more technical knowledge to harness its full potential.
 
 ### Customization and Control
 
-If granular control and customization are priorities, [**pfSense**](https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/) is the winner. Its extensive feature set and configuration options provide administrators with unparalleled control over network security. **Firewalla** sacrifices some advanced features for the sake of simplicity.
+If granular control and customization are priorities, [**pfSense**](https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/) is the winner. Its extensive feature set and configuration options provide administrators with unparalleled control over network security. **Firewalla** sacrifices some advanced features for the sake of simplicity.
 
 ### Cost
 

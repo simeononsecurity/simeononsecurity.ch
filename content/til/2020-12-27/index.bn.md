@@ -57,4 +57,4 @@ GitHub-এ "আশ্চর্যজনক সেল্ফহোস্টেড"
 
 ## নিকিতাভোলোবোয়েভ/গোপনীয়তা-সম্মানমূলক:
 -[https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- পরিষেবা এবং সফ্টওয়্যার সম্পর্কিত গোপনীয়তার একটি দুর্দান্ত তালিকা৷ আমি ইতিমধ্যে[recommend](https://simeononsecurity.com/recommendations) লিঙ্ক করা আইটেম কিছু. আমি তালিকার আইটেমগুলিতে পড়া চালিয়ে যাওয়ার পরিকল্পনা করছি।
+- পরিষেবা এবং সফ্টওয়্যার সম্পর্কিত গোপনীয়তার একটি দুর্দান্ত তালিকা৷ আমি ইতিমধ্যে[recommend](https://simeononsecurity.ch/recommendations) লিঙ্ক করা আইটেম কিছু. আমি তালিকার আইটেমগুলিতে পড়া চালিয়ে যাওয়ার পরিকল্পনা করছি।

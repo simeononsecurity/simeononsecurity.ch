@@ -37,7 +37,7 @@ __________
 
 Die Schulungen sollten für alle neu eingestellten Mitarbeiter durchgeführt und für bestehende Mitarbeiter regelmäßig wiederholt werden. So wird sichergestellt, dass die Mitarbeiter über die neuesten Bedrohungen auf dem Laufenden sind und wissen, wie sie darauf reagieren können. Darüber hinaus sollten Unternehmen gezielte Schulungen für Mitarbeiter mit privilegiertem Zugang zu sensiblen Daten und Systemen anbieten.
 
-[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Schulungen können viele Formen annehmen, darunter Online-Kurse, persönliche Schulungen und simulierte Phishing-Angriffe. Unternehmen sollten das Format wählen, das für ihre Mitarbeiter am besten geeignet ist, und den Abschluss der Schulungen nachverfolgen, um sicherzustellen, dass alle Mitarbeiter die erforderliche Schulung erhalten haben.
+[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Schulungen können viele Formen annehmen, darunter Online-Kurse, persönliche Schulungen und simulierte Phishing-Angriffe. Unternehmen sollten das Format wählen, das für ihre Mitarbeiter am besten geeignet ist, und den Abschluss der Schulungen nachverfolgen, um sicherzustellen, dass alle Mitarbeiter die erforderliche Schulung erhalten haben.
 
 __________
 

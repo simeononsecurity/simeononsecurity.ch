@@ -23,7 +23,7 @@ Creați un cont la [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Instalați Docker
 
-Învățați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Învățați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Instalați containerul Docker:
 Modificați șirul cu e-mailul, parola și numele dispozitivului evident înainte de a-l lipi în terminal
@@ -42,5 +42,5 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 
 În concluzie, Honey Gain oferă o oportunitate atractivă de a câștiga un venit pasiv prin partajarea conexiunii tale la internet. Devenind parte a rețelei lor, puteți monetiza lățimea de bandă nefolosită și o puteți transforma într-o sursă consistentă de venituri. Cu toate acestea, este important să înțelegeți complexitatea procesului de plată și să evaluați cu atenție detaliile înainte de a decide să utilizați acest serviciu. Pentru a începe cu Honey Gain, urmați instrucțiunile de instalare și configurare furnizate și începeți călătoria către obținerea unui venit pasiv fără efort.
 
-Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 

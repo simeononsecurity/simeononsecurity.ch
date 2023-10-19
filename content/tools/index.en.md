@@ -21,7 +21,7 @@ sitemap:
 | Network Tools            | A client-side tool that allows you to ping a domain or IP address and view the latency results.                                                          | [HTTP Ping Tool](/ping) |
 | Network Tools            | Check your public IP address with our What's My IP tool. Easily find your IP address for networking and security purposes.                            | [What's My IP](/whatsmyip) |
 | File Permissions Tools   | A menu-based tool that generates chmod commands based on user input for modifying file permissions.                                                     | [Chmod Command Generator](/chmod) |
-| [Security Headers Check](https://simeononsecurity.com/securityheaders/)  | Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling CORS policies.                    | [Security Headers Check](/securityheaders) |
+| [Security Headers Check](https://simeononsecurity.ch/securityheaders/)  | Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling CORS policies.                    | [Security Headers Check](/securityheaders) |
 ## Password Tools
 
 This section provides tools related to password management and security.

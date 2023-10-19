@@ -20,7 +20,7 @@ coverCaption: ""
 ### Dockerコンテナをインストールする
 以下の手順で、RepocketのDockerコンテナをインストールします：
 
-0.学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0.学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1.ターミナルを開き、以下のコマンドを入力します。「your@email.com」と「yourapikey」は、実際のメールとAPIキーに置き換えてください：
 ```bash
@@ -36,7 +36,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 ## 結論
 Repocketは、あなたの未使用のインターネット接続を共有することによってお金を稼ぐ機会を提供しています。最低支払額20ドル、1ノード1ボックスあたり月1ドル程度の収入を得る可能性があるため、Repocketは受動的収入の貴重なソースとなり得ます。しかし、サービスの利用を決定する前に、ペイアウトシステムを徹底的に理解し、独自の調査を行うことが極めて重要です。
 
-一度、以下のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+一度、以下のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
 - [Repocket](https://link.repocket.co/raqc)

@@ -28,11 +28,11 @@ coverCaption: ""
 
 ### クリアリング
 
-クリアとは、デバイス上のデータを一連のバイナリ値で上書きするプロセスです。この方法は、物理的な破壊よりも安全性に劣るが、ほとんどのリムーバブル・メディアをサニタイズするには効果的である。NIST 800-88 Revision 1 では、国防総省（DoD）が定めた基準を満たすソフトウェアツールの使用を推奨しています。 [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/)スペック
+クリアとは、デバイス上のデータを一連のバイナリ値で上書きするプロセスです。この方法は、物理的な破壊よりも安全性に劣るが、ほとんどのリムーバブル・メディアをサニタイズするには効果的である。NIST 800-88 Revision 1 では、国防総省（DoD）が定めた基準を満たすソフトウェアツールの使用を推奨しています。 [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/)スペック
 
 ### パージ
 
-パージとは、デバイス上のデータをバイナリ値のパターンで複数回上書きする処理である。この方法はクリアよりも安全であり、機密データのサニタイズに推奨される。NIST 800-88 Revision 1 では、NIST 800-88 Revision 1 で設定された基準を満たすソフトウェア・ツールの使用を推奨しています。 [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/)スペック
+パージとは、デバイス上のデータをバイナリ値のパターンで複数回上書きする処理である。この方法はクリアよりも安全であり、機密データのサニタイズに推奨される。NIST 800-88 Revision 1 では、NIST 800-88 Revision 1 で設定された基準を満たすソフトウェア・ツールの使用を推奨しています。 [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/)スペック
 
 __________________________________________
 {{< inarticle-dark >}}

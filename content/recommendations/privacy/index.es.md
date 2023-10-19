@@ -33,9 +33,9 @@ Unas buenas prácticas de seguridad e higiene digital son fundamentales para pro
 
 Si sospecha que se ha violado su intimidad, es crucial que denuncie el incidente. Puede denunciar la desaparición, maltrato o explotación sexual de un menor en [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) por ciberdelitos, hackeos, robos digitales, etc.
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-Si necesita más ayuda para proteger su privacidad, considere la posibilidad de utilizar [privacy services](https://simeononsecurity.com/recommendations/services/) para eliminar sus registros de los principales corredores de datos. Algunos servicios recomendados son:
+Si necesita más ayuda para proteger su privacidad, considere la posibilidad de utilizar [privacy services](https://simeononsecurity.ch/recommendations/services/) para eliminar sus registros de los principales corredores de datos. Algunos servicios recomendados son:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Este servicio preferente puede ayudarle a eliminar sus registros de los principales corredores de datos.
 - [OneRep](https://onerep.com) Este servicio alternativo puede ayudarte a eliminar tus registros de los principales corredores de datos.

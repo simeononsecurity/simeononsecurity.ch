@@ -17,7 +17,7 @@ Linux is a popular operating system used by individuals and businesses alike. Wh
 
 ### Keep your system updated
 
-Keeping your [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/) system up-to-date is crucial for maintaining its security. Regular updates help fix security vulnerabilities and bugs, ensuring that your system remains secure against potential attacks. Here are some examples of how to update your Linux system using the **apt-get** or **yum** package manager:
+Keeping your [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) system up-to-date is crucial for maintaining its security. Regular updates help fix security vulnerabilities and bugs, ensuring that your system remains secure against potential attacks. Here are some examples of how to update your Linux system using the **apt-get** or **yum** package manager:
 
 #### Updating Ubuntu using apt-get
 
@@ -296,7 +296,7 @@ ______
 
 Using weak passwords is a common mistake that can leave your Linux system vulnerable to attacks. Attackers can use tools to guess passwords that are based on common words, names, or dates. It is important to use strong and unique passwords that are not easily guessable. 
 
-You can create strong passwords by using a combination of uppercase and lowercase letters, numbers, and special characters. It is also a good practice to use a [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) can also help you to remember your passwords and avoid using the same password for multiple accounts.
+You can create strong passwords by using a combination of uppercase and lowercase letters, numbers, and special characters. It is also a good practice to use a [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) can also help you to remember your passwords and avoid using the same password for multiple accounts.
 
 ### Allow root SSH access
 

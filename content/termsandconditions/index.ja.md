@@ -5,7 +5,7 @@ date: 2020-08-08
 
 SimeonOnSecurityへようこそ！
 
-本規約は、SimeonOnSecurityのウェブサイト（https://SimeonOnSecurity.com）を利用する際のルールと規則をまとめたものです。
+本規約は、SimeonOnSecurityのウェブサイト（https://simeononsecurity.ch）を利用する際のルールと規則をまとめたものです。
 
 このウェブサイトにアクセスすることで、私たちはあなたがこれらの条件に同意したものとみなします。このページに記載されているすべての条件を取ることに同意しない場合は、SimeonOnSecurityを使用し続けないでください。
 

@@ -16,7 +16,7 @@ coverCaption: ""
 
 ## सोशल इंजीनियरिंग हमलों के प्रकार
 
-### [Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+### [Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
 
 फ़िशिंग हमले सोशल इंजीनियरिंग हमलों का सबसे आम रूप हैं। वे ऐसे ईमेल भेजना शामिल करते हैं जो प्रतिष्ठित स्रोतों से प्रतीत होते हैं ताकि लोगों को संवेदनशील जानकारी प्रदान करने या मैलवेयर स्थापित करने वाले लिंक पर क्लिक करने के लिए बरगलाया जा सके। लोगों को बिना सोचे समझे कार्य करने के लिए ईमेल डराने की रणनीति, तत्काल अनुरोध या भावनात्मक अपील का उपयोग कर सकते हैं।
 
@@ -42,25 +42,25 @@ coverCaption: ""
 
 ## सोशल इंजीनियरिंग हमलों को रोकने के लिए रणनीतियाँ
 
-### [Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-सोशल इंजीनियरिंग हमलों को रोकने के लिए सबसे प्रभावी रणनीतियों में से एक है [**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) कर्मचारियों को विभिन्न प्रकार के सोशल इंजीनियरिंग हमलों और उन्हें पहचानने के बारे में शिक्षित किया जाना चाहिए। उन्हें यह भी सिखाया जाना चाहिए कि संदिग्ध अनुरोधों का जवाब कैसे दिया जाए और उन्हें अपने पर्यवेक्षक या आईटी विभाग को कैसे रिपोर्ट किया जाए।
+सोशल इंजीनियरिंग हमलों को रोकने के लिए सबसे प्रभावी रणनीतियों में से एक है [**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) कर्मचारियों को विभिन्न प्रकार के सोशल इंजीनियरिंग हमलों और उन्हें पहचानने के बारे में शिक्षित किया जाना चाहिए। उन्हें यह भी सिखाया जाना चाहिए कि संदिग्ध अनुरोधों का जवाब कैसे दिया जाए और उन्हें अपने पर्यवेक्षक या आईटी विभाग को कैसे रिपोर्ट किया जाए।
 
 प्रशिक्षण नियमित रूप से आयोजित किया जाना चाहिए, और इसे संगठन की विशिष्ट आवश्यकताओं के अनुरूप बनाया जाना चाहिए। सुरक्षा के महत्व पर जोर देना और यह सुनिश्चित करना महत्वपूर्ण है कि कर्मचारी सुरक्षा प्रोटोकॉल का पालन करने में विफल होने के परिणामों को समझें।
 
-### [Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+### [Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
 
 सोशल इंजीनियरिंग हमलों को रोकने के लिए सुरक्षा नीतियां एक और महत्वपूर्ण रणनीति हैं। संवेदनशील जानकारी को कैसे संभालना है और किन कार्यों की अनुमति या निषेध है, इस बारे में संगठनों की स्पष्ट नीतियां होनी चाहिए। नीतियों की नियमित रूप से समीक्षा की जानी चाहिए और यह सुनिश्चित करने के लिए अद्यतन किया जाना चाहिए कि वे प्रभावी और अद्यतित हैं।
 
 सुरक्षा घटनाओं पर प्रतिक्रिया देने के तरीके के बारे में संगठनों की नीतियां भी होनी चाहिए। कर्मचारियों को इस बात का प्रशिक्षण दिया जाना चाहिए कि सुरक्षा उल्लंघन की स्थिति में क्या करना चाहिए, और घटनाओं की रिपोर्ट करने और क्षति को कम करने के लिए स्पष्ट प्रक्रियाएं होनी चाहिए।
 
-### [Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+### [Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 मल्टी-फैक्टर ऑथेंटिकेशन (एमएफए) एक सुरक्षा विशेषता है जिसके लिए उपयोगकर्ताओं को सिस्टम तक पहुंचने के लिए प्रमाणीकरण के कई रूपों, जैसे पासवर्ड और फिंगरप्रिंट या स्मार्ट कार्ड प्रदान करने की आवश्यकता होती है। एमएफए हमलावरों के लिए संवेदनशील जानकारी तक पहुंच हासिल करना कठिन बनाकर सोशल इंजीनियरिंग हमलों को रोकने में मदद कर सकता है।
 
 संगठनों को उन सभी प्रणालियों के लिए MFA लागू करने पर विचार करना चाहिए जिनमें संवेदनशील जानकारी या महत्वपूर्ण बुनियादी ढाँचा हो। एमएफए समाधानों को चुनना महत्वपूर्ण है जो उपयोग करने और प्रबंधित करने में आसान हैं, और जो उच्च स्तर की सुरक्षा प्रदान करते हैं।
 
-### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 एंटी-वायरस और एंटी-मैलवेयर सॉफ़्टवेयर दुर्भावनापूर्ण सॉफ़्टवेयर का पता लगाने और उसे नुकसान पहुँचाने से पहले ब्लॉक करके सामाजिक इंजीनियरिंग हमलों को रोकने में मदद कर सकते हैं। संगठनों के पास अद्यतन एंटी-वायरस और एंटी-मैलवेयर सॉफ़्टवेयर होना चाहिए जो उनके नेटवर्क से कनेक्ट होने वाले सभी सिस्टम और डिवाइस पर स्थापित हों।
 

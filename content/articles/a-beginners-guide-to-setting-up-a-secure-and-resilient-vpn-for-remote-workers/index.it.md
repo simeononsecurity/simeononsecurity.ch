@@ -50,7 +50,7 @@ Per configurare una VPN sicura e resiliente per i lavoratori remoti dell'azienda
 
 1. **Selezionare una soluzione VPN**: In base ai fattori menzionati in precedenza, scegliete la soluzione VPN più adatta alle esigenze della vostra organizzazione.
 2. **Configurare il server VPN**: Create un server VPN dedicato all'interno della vostra organizzazione o optate per una soluzione basata sul cloud. Configurate il server in base alle politiche e ai requisiti di sicurezza della vostra azienda.
-3. **Impostare l'autenticazione**: Implementare un metodo di autenticazione forte, come [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) per garantire che solo i dipendenti autorizzati possano accedere alla VPN.
+3. **Impostare l'autenticazione**: Implementare un metodo di autenticazione forte, come [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) per garantire che solo i dipendenti autorizzati possano accedere alla VPN.
 4. **Distribuire il software client VPN**: Fornite ai lavoratori remoti il software client VPN e i file di configurazione necessari per accedere alla VPN.
 
 ______
@@ -81,7 +81,7 @@ ______
 Per garantire il successo dell'implementazione della vostra soluzione VPN, fornite ai vostri dipendenti remoti la formazione e il supporto necessari per aiutarli a capire come utilizzare la VPN in modo efficace e sicuro. Alcuni argomenti importanti da trattare sono:
 
 - **Come impostare e connettersi alla VPN**: Fornire istruzioni chiare sull'installazione del software client VPN, sulla configurazione delle impostazioni e sulla connessione alla VPN.
-- **Buone pratiche di sicurezza**: Istruire i dipendenti sull'importanza di utilizzare password forti e univoche, di abilitare la sicurezza e di proteggere i dati. [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) e mantenere i loro dispositivi al sicuro.
+- **Buone pratiche di sicurezza**: Istruire i dipendenti sull'importanza di utilizzare password forti e univoche, di abilitare la sicurezza e di proteggere i dati. [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) e mantenere i loro dispositivi al sicuro.
 - Risoluzione dei problemi**: Offrire indicazioni su come risolvere i più comuni problemi di connessione VPN e su chi contattare per l'assistenza tecnica.
 
 ______

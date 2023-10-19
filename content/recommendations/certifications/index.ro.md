@@ -68,8 +68,8 @@ Pe lângă certificările enumerate mai sus, există alte câteva certificări c
 
 Pentru a vă pregăti pentru aceste certificări, este important să aveți acces la resurse de învățare de calitate. SimeonOnSecurity recomandă următoarele:
 
-- [Books](https://simeononsecurity.com/recommendations/books/) Această pagină include o listă de cărți recomandate pentru a învăța despre diverse subiecte din domeniile Cyber și IT.
-- [Training](https://simeononsecurity.com/recommendations/learning_resources/) Această pagină include o listă de cursuri de formare și bootcamps recomandate care vă pot ajuta să vă pregătiți pentru certificări.
+- [Books](https://simeononsecurity.ch/recommendations/books/) Această pagină include o listă de cărți recomandate pentru a învăța despre diverse subiecte din domeniile Cyber și IT.
+- [Training](https://simeononsecurity.ch/recommendations/learning_resources/) Această pagină include o listă de cursuri de formare și bootcamps recomandate care vă pot ajuta să vă pregătiți pentru certificări.
 
 ## Vizualizare
 

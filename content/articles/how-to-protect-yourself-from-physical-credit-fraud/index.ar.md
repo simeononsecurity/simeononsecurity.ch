@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---
-simeononsecurity.com
+simeononsecurity.ch
  ** كيف تحمي نفسك من الاحتيال المادي على بطاقة الائتمان **
  
  أصبحت بطاقات الائتمان جزءًا أساسيًا من حياتنا اليومية. ومع ذلك ، مع الراحة التي يوفرونها ، تأتي مخاطر الاحتيال. طور المجرمون تقنيات مختلفة لسرقة معلومات بطاقة الائتمان ، مثل القشط والتصيد والقرصنة. في هذه المقالة ، سنناقش كيف يمكنك حماية نفسك من الاحتيال المادي على بطاقة الائتمان.

@@ -63,7 +63,7 @@ ______
 
 La ciberseguridad es un campo en constante evolución, y mantenerse al día de las últimas tendencias y amenazas es crucial para los profesionales de este ámbito. He aquí algunas formas de mantenerse informado:
 
-- **Blogs y sitios web**: Siga blogs y sitios web de ciberseguridad de confianza como [simeononsecurity.com](https://www.simeononsecurity.com/) que ofrecen artículos y análisis perspicaces de las últimas ciberamenazas y tendencias.
+- **Blogs y sitios web**: Siga blogs y sitios web de ciberseguridad de confianza como [simeononsecurity.ch](https://www.simeononsecurity.ch/) que ofrecen artículos y análisis perspicaces de las últimas ciberamenazas y tendencias.
 - Conferencias y eventos del sector**: Asista a conferencias y eventos de ciberseguridad para aprender de expertos de la industria y establecer contactos con colegas.
 - Asociaciones profesionales**: Únase a asociaciones y comunidades profesionales como la Information Systems Security Association (ISSA) o el International Information System Security Certification Consortium (ISC)², que ofrecen recursos, certificaciones y oportunidades para establecer contactos.
 - Aprendizaje continuo**: Participe en el aprendizaje continuo a través de cursos en línea, seminarios web y programas de certificación para mejorar sus conocimientos y habilidades.
@@ -109,6 +109,6 @@ ______
 
 ## Referencias:
 
-1. [simeononsecurity.com - Cybersecurity Blog](https://www.simeononsecurity.com/)
+1. [simeononsecurity.ch - Cybersecurity Blog](https://www.simeononsecurity.ch/)
 2. [Information Systems Security Association (ISSA)](https://www.issa.org/)
 3. [International Information System Security Certification Consortium (ISC)²](https://www.isc2.org/)

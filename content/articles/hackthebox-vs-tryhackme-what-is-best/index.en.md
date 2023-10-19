@@ -214,7 +214,7 @@ To explore the challenges and structured learning experience on TryHackMe, you c
 
 ## Conclusion
 
-After a comprehensive comparison between [HackTheBox](https://simeononsecurity.com/articles/hack-the-box-good-for-beginners-cybersecurity/) and TryHackMe, we have determined that **TryHackMe** is the optimal choice for individuals seeking to learn **junior penetration testing**. Here's a recap of the key points:
+After a comprehensive comparison between [HackTheBox](https://simeononsecurity.ch/articles/hack-the-box-good-for-beginners-cybersecurity/) and TryHackMe, we have determined that **TryHackMe** is the optimal choice for individuals seeking to learn **junior penetration testing**. Here's a recap of the key points:
 
 - **Structured Learning Experience**: TryHackMe offers a **structured learning path** that guides beginners through various challenges and rooms, allowing for a systematic development of skills. Users can follow a recommended order of rooms to enhance their knowledge progressively. This structure ensures a solid foundation in penetration testing.
 

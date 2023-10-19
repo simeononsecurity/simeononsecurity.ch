@@ -30,14 +30,14 @@ Pour protéger les informations sensibles ou classifiées, les organisations doi
 Le contrôle de l'accès à l'information est essentiel pour éviter les déversements non autorisés. Mettez en œuvre les mesures suivantes :
 
 - **Contrôle d'accès basé sur les rôles** : Attribuer des droits d'accès en fonction des rôles et des responsabilités professionnelles afin de s'assurer que seules les personnes autorisées ont accès aux informations sensibles.
-- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Exiger plusieurs facteurs d'authentification, tels que les mots de passe et les données biométriques, pour renforcer la sécurité des informations d'accès.
+- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Exiger plusieurs facteurs d'authentification, tels que les mots de passe et les données biométriques, pour renforcer la sécurité des informations d'accès.
 - Contrôles d'accès réguliers** : Effectuer des contrôles périodiques pour s'assurer que les privilèges d'accès sont à jour et révoquer rapidement l'accès des personnes qui n'en ont plus besoin.
 
 ### 2. Chiffrer les informations sensibles
 
 Le cryptage constitue un niveau de sécurité supplémentaire pour protéger les données sensibles contre les accès non autorisés. Envisagez les pratiques suivantes :
 
-- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Mettre en œuvre des mécanismes de cryptage qui protègent les informations tout au long de leur cycle de vie, du stockage à la transmission.
+- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Mettre en œuvre des mécanismes de cryptage qui protègent les informations tout au long de leur cycle de vie, du stockage à la transmission.
 - Classification des données** : Classer les informations en fonction de leur niveau de sensibilité et appliquer les mesures de chiffrement appropriées en conséquence.
 - Gestion des clés** : Mettre en place de solides pratiques de gestion des clés pour s'assurer que les clés de chiffrement sont correctement stockées, protégées et font l'objet d'une rotation régulière.
 
@@ -45,8 +45,8 @@ Le cryptage constitue un niveau de sécurité supplémentaire pour protéger les
 
 Il est essentiel d'investir dans la formation et la sensibilisation des employés pour prévenir la fuite d'informations. Voici ce que vous pouvez faire :
 
-- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Organiser régulièrement des séances de formation pour informer les employés des meilleures pratiques en matière de sécurité de l'information, y compris des risques de fuite d'informations.
-- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Former les employés à reconnaître et à signaler les tentatives d'hameçonnage, qui sont souvent utilisées pour obtenir un accès non autorisé à des informations sensibles.
+- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Organiser régulièrement des séances de formation pour informer les employés des meilleures pratiques en matière de sécurité de l'information, y compris des risques de fuite d'informations.
+- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Former les employés à reconnaître et à signaler les tentatives d'hameçonnage, qui sont souvent utilisées pour obtenir un accès non autorisé à des informations sensibles.
 - Procédures de signalement** : Établir des procédures claires pour signaler les incidents de sécurité potentiels ou les activités suspectes aux autorités compétentes.
 
 ### 4. Mettre en œuvre des solutions de prévention des pertes de données (DLP)
@@ -80,7 +80,7 @@ En conclusion, la prévention de la divulgation d'informations ou d'informations
 ## Références
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

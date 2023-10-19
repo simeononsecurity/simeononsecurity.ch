@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---
-simeononsecurity.com
+simeononsecurity.ch
  **शारीरिक क्रेडिट कार्ड धोखाधड़ी से खुद को कैसे बचाएं**
  
  क्रेडिट कार्ड हमारे दैनिक जीवन का एक अनिवार्य हिस्सा बन गया है। हालांकि, उनके द्वारा प्रदान की जाने वाली सुविधा के साथ धोखाधड़ी का जोखिम भी आता है। अपराधियों ने क्रेडिट कार्ड की जानकारी चुराने के लिए स्किमिंग, फ़िशिंग और हैकिंग जैसी कई तकनीकों का विकास किया है। इस लेख में, हम चर्चा करेंगे कि आप भौतिक क्रेडिट कार्ड धोखाधड़ी से खुद को कैसे बचा सकते हैं।

@@ -102,9 +102,9 @@ Voice assistants have become an integral part of our lives, making tasks easier 
 
 One of the most crucial steps you can take to protect your voice assistant is to **keep your device firmware up to date**. Regular firmware updates ensure that your device has the latest security patches to prevent hackers from exploiting vulnerabilities to gain access to your devices. You can set up **automatic firmware updates** to ensure that your device is always up to date.
 
-### Use [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and Two-Factor Authentication
+### Use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and Two-Factor Authentication
 
-**Passwords** are a first line of defense against **unauthorized access** to voice assistants and online accounts. Ensure that you use [**unique and strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and enable **two-factor authentication (2FA)** wherever possible to add an extra layer of security. Two-factor authentication requires a user to provide two forms of identification, such as a password and a unique code sent to a mobile device, to access an account. This makes it much harder for hackers to gain access to your voice assistant and personal data.
+**Passwords** are a first line of defense against **unauthorized access** to voice assistants and online accounts. Ensure that you use [**unique and strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and enable **two-factor authentication (2FA)** wherever possible to add an extra layer of security. Two-factor authentication requires a user to provide two forms of identification, such as a password and a unique code sent to a mobile device, to access an account. This makes it much harder for hackers to gain access to your voice assistant and personal data.
 
 ### Limit Third-Party Integrations
 
@@ -157,7 +157,7 @@ Here are some tips for safe voice assistant usage:
 - **Always use stronger voice authentication; update passwords regularly**. This will help prevent unauthorized access to your voice assistant and protect your data.
 - **Limit the sensitive data you share** with your voice assistant. Avoid sharing personal information such as your **social security number**, **credit card information**, or **passwords**.
 - **Monitor your voice assistant settings** and make sure they are aligned with your privacy concerns. For example, you can **turn off the microphone** when you are not using the voice assistant.
-- Use [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and **two-factor authentication** wherever possible. This will add an extra layer of security to your voice assistant and protect your data.
+- Use [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and **two-factor authentication** wherever possible. This will add an extra layer of security to your voice assistant and protect your data.
 - **Regularly update device firmware** to protect against the latest vulnerabilities. Manufacturers often release firmware updates to fix security vulnerabilities, and it is essential to keep your device up to date to stay protected.
 
 ### Encouraging Privacy-Focused Conversations

@@ -14,7 +14,7 @@ tags: ["Windows 10 Security", "Automated Configuration Changes", "PrivacyTools.i
 
 ## Introduction:
 Windows 10 is an invasive and insecure operating system out of the box. 
-Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations and [debloat windows 10](https://simeononsecurity.com/github/windows-optimize-harden-debloat/).
+Organizations like [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations and [debloat windows 10](https://simeononsecurity.ch/github/windows-optimize-harden-debloat/).
 
 ## Notes: 
 - This script is designed for operation in primarily **Personal Use** environments. With that in mind, certain enterprise configuration settings are not implemented. This script is not designed to bring a system to 100% compliance. Rather it should be used as a stepping stone to complete most, if not all, the configuration changes that can be scripted while skipping past issues like branding and banners where those should not be implemented even in a hardened personal use environment. 
@@ -103,7 +103,7 @@ Get-ChildItem -Recurse *.ps1 | Unblock-File
 ### Automated Install:
 The script may be launched from the extracted GitHub download like this:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'))
 ```
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 
 Windows-Optimize-Harden-Debloat automatic install">

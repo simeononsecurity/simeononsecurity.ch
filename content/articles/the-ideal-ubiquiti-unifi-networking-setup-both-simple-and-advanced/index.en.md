@@ -73,7 +73,7 @@ To establish a reliable and high-speed network infrastructure, it is crucial to 
 - [**CablesOnline 10-Pack 6inch CAT5e UTP Ethernet RJ45 Full 8-Wire Black Patch Cable**](https://amzn.to/3N9mVI8): These short patch cables offer excellent connectivity and flexibility for your network setup.{{< figure src="CablesOnline.jpg" alt="CablesOnline 10-Pack 6inch CAT5e UTP Ethernet RJ45 Full 8-Wire Black Patch Cable" link="https://amzn.to/3N9mVI8" >}}
 - [**TRENDnet 48-Port Blank Keystone 2U HD Patch Panel**](https://amzn.to/43kwqKb): This patch panel provides a professional and organized solution for terminating and managing Ethernet cables.{{< figure src="TRENDnet.jpg" alt="TRENDnet 48-Port Blank Keystone 2U HD Patch Panel" link="https://amzn.to/43kwqKb" >}}
 
-By using these products, you can ensure efficient cable management and [seamless connectivity](https://simeononsecurity.com/other/t-mobile-home-internet-benefits-connectivity-features/) throughout your network rack and home.
+By using these products, you can ensure efficient cable management and [seamless connectivity](https://simeononsecurity.ch/other/t-mobile-home-internet-benefits-connectivity-features/) throughout your network rack and home.
 
 ### Wall Plates and Keystone Jacks
 To complete the wiring setup, it is essential to have wall plates and keystone jacks that provide a clean and professional finish. We recommend the following products:

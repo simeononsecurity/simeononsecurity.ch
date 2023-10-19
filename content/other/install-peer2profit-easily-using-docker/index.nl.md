@@ -22,7 +22,7 @@ Om te beginnen, maak een account aan bij [peer2profit.com](https://peer2profit.c
 ### Installeer de Docker Container:
 Volg deze stappen om de Peer 2 Profit Docker-container te installeren:
 
-0. Leer [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Leer [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Open uw terminal en voer het volgende commando in, waarbij u "your_email_without_quotes" vervangt door uw werkelijke e-mailadres:
 ```bash
@@ -41,7 +41,7 @@ Voor een visuele gids kunt u de volgende videohandleiding bekijken:
 ## Conclusie
 Door Peer 2 Profit te installeren en je internet te delen, heb je de mogelijkheid om moeiteloos passief inkomen te verdienen. Met zijn gebruiksvriendelijke interface en meerdere uitbetalingsopties, biedt Peer 2 Profit een handige manier om je internetverbinding te gelde te maken. Begin vandaag nog en begin met verdienen!
 
-Zodra je klaar bent, moet je [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Zodra je klaar bent, moet je [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 - [Peer 2 Profit](https://peer2profit.com/)

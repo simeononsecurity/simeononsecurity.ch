@@ -12,7 +12,7 @@ coverCaption: ""
 
 **Home Lab Project Ideas**
 
-If you're looking for exciting **home lab project ideas**, you've come to the right place. Home lab projects provide a fantastic opportunity to expand your knowledge, experiment with various technologies, and enhance your IT skills. Whether you're a hobbyist, student, or professional, setting up a [home lab](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/) offers a hands-on learning experience. In this article, we'll explore some home lab project ideas to help you get started.
+If you're looking for exciting **home lab project ideas**, you've come to the right place. Home lab projects provide a fantastic opportunity to expand your knowledge, experiment with various technologies, and enhance your IT skills. Whether you're a hobbyist, student, or professional, setting up a [home lab](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/) offers a hands-on learning experience. In this article, we'll explore some home lab project ideas to help you get started.
 
 _____
 

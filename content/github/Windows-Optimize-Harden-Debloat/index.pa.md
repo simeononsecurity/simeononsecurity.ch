@@ -175,7 +175,7 @@ tags: ["ਵਿੰਡੋਜ਼ ਓਪਟੀਮਾਈਜੇਸ਼ਨ", "ਵਿੰ�
 ### GUI - ਨਿਰਦੇਸ਼ਿਤ ਸਥਾਪਨਾ:
 
 ਨਵੀਨਤਮ ਰੀਲੀਜ਼ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)ਉਹ ਵਿਕਲਪ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਐਗਜ਼ੀਕਿਊਟ ਦਬਾਓ। <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="ਵਿੰਡੋਜ਼-ਓਪਟੀਮਾਈਜ਼-ਹਾਰਡਨ-ਡੀਬਲੋਟ ਜੀਯੂਆਈ ਅਧਾਰਤ ਗਾਈਡਡ ਸਥਾਪਨਾ ਦੀ ਉਦਾਹਰਨ"> ### ਆਟੋਮੇਟਿਡ ਇੰਸਟੌਲ: ਆਟੋਮੈਟਿਕ ਡਾਊਨਲੋਡ ਕਰਨ, ਸਾਰੀਆਂ ਸਹਾਇਕ ਫਾਈਲਾਂ ਨੂੰ ਅਨਜ਼ਿਪ ਕਰਨ ਅਤੇ ਸਕ੍ਰਿਪਟ ਦੇ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਨੂੰ ਚਲਾਉਣ ਲਈ ਇਸ ਵਨ-ਲਾਈਨਰ ਦੀ ਵਰਤੋਂ ਕਰੋ।```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

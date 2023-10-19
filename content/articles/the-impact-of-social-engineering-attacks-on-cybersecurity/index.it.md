@@ -27,15 +27,15 @@ La difesa dagli attacchi di social engineering richiede una combinazione di misu
 
 ### 1. Educazione e consapevolezza
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sono la prima linea di difesa contro gli attacchi di social engineering. Le persone devono essere addestrate a riconoscere i segnali di un attacco di social engineering e a intraprendere le azioni appropriate. Tra queste, diffidare delle richieste di informazioni non richieste, verificare l'identità delle persone prima di divulgare informazioni sensibili e segnalare qualsiasi attività sospetta al personale IT o di sicurezza.
+[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sono la prima linea di difesa contro gli attacchi di social engineering. Le persone devono essere addestrate a riconoscere i segnali di un attacco di social engineering e a intraprendere le azioni appropriate. Tra queste, diffidare delle richieste di informazioni non richieste, verificare l'identità delle persone prima di divulgare informazioni sensibili e segnalare qualsiasi attività sospetta al personale IT o di sicurezza.
 
 ### 2. Password forti e autenticazione a più fattori
 
-Utilizzo di [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) e l'implementazione dell'autenticazione a più fattori** può aiutare a prevenire gli attacchi di social engineering che si basano sull'indovinare la password o su attacchi a forza bruta. Le password forti dovrebbero essere lunghe almeno 12 caratteri e includere un mix di lettere maiuscole e minuscole, numeri e caratteri speciali. L'autenticazione multifattoriale aggiunge un ulteriore livello di sicurezza, richiedendo agli utenti di fornire una prova di identità aggiuntiva rispetto alla semplice password.
+Utilizzo di [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) e l'implementazione dell'autenticazione a più fattori** può aiutare a prevenire gli attacchi di social engineering che si basano sull'indovinare la password o su attacchi a forza bruta. Le password forti dovrebbero essere lunghe almeno 12 caratteri e includere un mix di lettere maiuscole e minuscole, numeri e caratteri speciali. L'autenticazione multifattoriale aggiunge un ulteriore livello di sicurezza, richiedendo agli utenti di fornire una prova di identità aggiuntiva rispetto alla semplice password.
 
 ### 3. Email e navigazione web sicure
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) può aiutare a prevenire gli attacchi di social engineering che si basano su truffe di phishing o altre forme di contenuto dannoso. Per esempio, utilizzando i filtri antispam per bloccare le e-mail non richieste, evitando di cliccare su link o scaricare allegati da fonti sconosciute e utilizzando i filtri web per bloccare l'accesso a siti web noti come dannosi.
+[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) può aiutare a prevenire gli attacchi di social engineering che si basano su truffe di phishing o altre forme di contenuto dannoso. Per esempio, utilizzando i filtri antispam per bloccare le e-mail non richieste, evitando di cliccare su link o scaricare allegati da fonti sconosciute e utilizzando i filtri web per bloccare l'accesso a siti web noti come dannosi.
 
 ### 4. Aggiornamenti e patch di sicurezza regolari
 

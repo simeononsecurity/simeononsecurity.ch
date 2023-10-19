@@ -23,7 +23,7 @@ coverCaption: ""
 
 ### Dockerのインストール
 
-学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Docker Containerをインストールします：
 端末に貼り付ける前に、メール、パスワード、端末名で文字列を修正する。
@@ -42,5 +42,5 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 
 結論として、Honey Gainはインターネット接続を共有することで受動的な収入を得ることができる魅力的な機会を提供しています。ハニーゲインのネットワークの一員となることで、未使用の帯域幅を収益化し、安定した収入源にすることができます。しかし、このサービスの利用を決定する前に、支払いプロセスの複雑さを理解し、詳細を慎重に評価することが重要です。ハニーゲインを始めるには、提供されたインストールとセットアップの指示に従って、楽に受動的な収入を得るための旅を始めてください。
 
-完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 

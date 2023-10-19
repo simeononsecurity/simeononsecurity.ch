@@ -27,7 +27,7 @@ Automate-Sysmon 有两种使用方式：
 
 要使用自动安装，只需在 PowerShell 中运行以下命令：
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/sosautomatesysmon.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/sosautomatesysmon.ps1'|iex
 ```
 
 This will automatically download and run the Automate-Sysmon script.

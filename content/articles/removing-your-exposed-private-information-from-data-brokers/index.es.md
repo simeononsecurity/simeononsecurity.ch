@@ -24,6 +24,6 @@ Es importante tener en cuenta que **eliminar su información de un corredor de d
 
 _________________________
 
-En conclusión, **eliminar su información de los intermediarios de datos en línea** es un paso fundamental para garantizar su privacidad y seguridad en línea. Al tomar el control de la información que está disponible sobre usted en Internet, puede minimizar el riesgo de robo de identidad, acoso y otros problemas relacionados con la privacidad. Para obtener información más específica sobre cómo eliminar su información de los corredores de datos en línea, consulte los recursos disponibles en [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
+En conclusión, **eliminar su información de los intermediarios de datos en línea** es un paso fundamental para garantizar su privacidad y seguridad en línea. Al tomar el control de la información que está disponible sobre usted en Internet, puede minimizar el riesgo de robo de identidad, acoso y otros problemas relacionados con la privacidad. Para obtener información más específica sobre cómo eliminar su información de los corredores de datos en línea, consulte los recursos disponibles en [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
 
 

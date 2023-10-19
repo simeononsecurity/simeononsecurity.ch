@@ -11,11 +11,11 @@ coverCaption: "Share your expertise and insights with our community through gues
 
 Thank you for your interest in contributing to our website! We welcome guest blog submissions that align with our content focus. To submit an article for consideration, please follow these steps:
 
-1. Contact us through the webform at [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) to express your interest in guest blogging.
+1. Contact us through the webform at [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) to express your interest in guest blogging.
 
 2. Prepare your article in either Markdown (md) or HTML format.
 
-3. Submit a pull request on our GitHub repository at [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors).
+3. Submit a pull request on our GitHub repository at [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors).
 
 4. Ensure your article includes valid frontmatter (metadata) with all the required variables, as shown in the example below:
 
@@ -122,7 +122,7 @@ Guest blogging is a mutually beneficial arrangement where writers have the oppor
 
 - We appreciate your understanding and cooperation in following these guidelines to maintain the quality and relevance of content on SimeonOnSecurity.
 
-We look forward to receiving your valuable contributions and helping you reach a wider audience with your insights. If you have any further questions or clarifications, please don't hesitate to contact us through the [webform](https://simeononsecurity.com/contactus/).
+We look forward to receiving your valuable contributions and helping you reach a wider audience with your insights. If you have any further questions or clarifications, please don't hesitate to contact us through the [webform](https://simeononsecurity.ch/contactus/).
 
 ***Happy writing!***
 

@@ -16,7 +16,7 @@ Ingineria socială este o formă de atac cibernetic care se bazează pe manipula
 
 ## Tipuri de atacuri de inginerie socială
 
-### [Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+### [Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
 
 Atacurile de tip phishing sunt cea mai comună formă de atacuri de inginerie socială. Acestea implică trimiterea de e-mailuri care par a fi din surse de renume pentru a păcăli oamenii să furnizeze informații sensibile sau să facă clic pe linkuri care instalează programe malware. E-mailurile pot folosi tactici de sperietură, solicitări urgente sau apeluri emoționale pentru a-i determina pe oameni să acționeze fără să se gândească.
 
@@ -42,25 +42,25 @@ Pentru a preveni atacurile quid pro quo, este important să **instruiți angaja�
 
 ## Strategii de prevenire a atacurilor de inginerie socială
 
-### [Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Una dintre cele mai eficiente strategii de prevenire a atacurilor de inginerie socială este [**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Angajații ar trebui să fie educați cu privire la diferitele tipuri de atacuri de inginerie socială și cum să le recunoască. De asemenea, ar trebui să fie învățați cum să răspundă solicitărilor suspecte și cum să le raporteze supervizorului sau departamentului IT.
+Una dintre cele mai eficiente strategii de prevenire a atacurilor de inginerie socială este [**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Angajații ar trebui să fie educați cu privire la diferitele tipuri de atacuri de inginerie socială și cum să le recunoască. De asemenea, ar trebui să fie învățați cum să răspundă solicitărilor suspecte și cum să le raporteze supervizorului sau departamentului IT.
 
 Instruirea ar trebui să fie efectuată în mod regulat și ar trebui să fie adaptată nevoilor specifice ale organizației. Este important să subliniem importanța securității și să ne asigurăm că angajații înțeleg consecințele nerespectării protocoalelor de securitate.
 
-### [Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+### [Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Politicile de securitate sunt o altă strategie importantă pentru prevenirea atacurilor de inginerie socială. Organizațiile ar trebui să aibă politici clare privind modul de gestionare a informațiilor sensibile și ce acțiuni sunt permise sau interzise. Politicile ar trebui să fie revizuite și actualizate în mod regulat pentru a se asigura că sunt eficiente și actualizate.
 
 Organizațiile ar trebui să aibă, de asemenea, politici privind modul de răspuns la incidentele de securitate. Angajații ar trebui să fie instruiți cu privire la ce trebuie să facă în cazul unei breșe de securitate și ar trebui să existe proceduri clare pentru raportarea incidentelor și atenuarea daunelor.
 
-### [Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+### [Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 Autentificarea cu mai mulți factori (MFA) este o caracteristică de securitate care solicită utilizatorilor să furnizeze mai multe forme de autentificare, cum ar fi o parolă și o amprentă sau un smart card, pentru a accesa un sistem. MFA poate ajuta la prevenirea atacurilor de inginerie socială făcând mai greu pentru atacatori accesul la informații sensibile.
 
 Organizațiile ar trebui să ia în considerare implementarea MFA pentru toate sistemele care conțin informații sensibile sau infrastructură critică. Este important să alegeți soluții MFA care sunt ușor de utilizat și gestionat și care oferă un nivel ridicat de securitate.
 
-### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 Software-ul antivirus și anti-malware poate ajuta la prevenirea atacurilor de inginerie socială prin detectarea și blocarea software-ului rău intenționat înainte ca acesta să provoace daune. Organizațiile ar trebui să aibă software antivirus și anti-malware actualizat instalat pe toate sistemele și dispozitivele care se conectează la rețeaua lor.
 

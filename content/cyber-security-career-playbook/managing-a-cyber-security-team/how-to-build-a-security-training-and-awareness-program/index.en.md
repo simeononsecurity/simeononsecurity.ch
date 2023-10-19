@@ -36,7 +36,7 @@ Implementing a security awareness training program offers several benefits:
 
 5. **Addressing insider threats:** Security awareness training helps employees recognize and report insider threats, such as malicious actions by employees or contractors. This ensures the organization remains vigilant against internal risks.
 
-6. **Improving password security:** Training employees on best practices for creating and managing [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) enhances the overall password security posture of the organization, reducing the risk of unauthorized access.
+6. **Improving password security:** Training employees on best practices for creating and managing [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) enhances the overall password security posture of the organization, reducing the risk of unauthorized access.
 
 7. **Mitigating phishing and social engineering attacks:** Security awareness training equips employees with the knowledge to identify and report phishing emails and social engineering attempts, protecting the organization from these common attack vectors.
 

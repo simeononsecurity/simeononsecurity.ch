@@ -6,7 +6,7 @@ tags: ["privacy policy", "information collection", "data usage", "visitor consen
 description: "Learn how SimeonOnSecurity collects, uses, and protects visitor information through its comprehensive Privacy Policy, ensuring consent and online privacy."
 ---
 
-At SimeonOnSecurity, accessible from https://simeononsecurity.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by SimeonOnSecurity and how we use it.
+At SimeonOnSecurity, accessible from https://simeononsecurity.ch, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by SimeonOnSecurity and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 

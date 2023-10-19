@@ -68,19 +68,19 @@ ______
 
 リモート・アクセス・トロイの木馬**に関連するリスクを軽減するために、個人や組織は強固なセキュリティ対策を実施する必要があります。ここでは、いくつかの重要なステップを紹介します：
 
-1. [**Keep software up to date:**](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)攻撃者が悪用する可能性のある既知の脆弱性にパッチを当てるため、オペレーティング・システムやソフトウェア・アプリケーションを定期的にアップデートする。例えば、マイクロソフトは、自社製品の脆弱性に対処するため、定期的にセキュリティ・アップデートをリリースしています。
+1. [**Keep software up to date:**](https://simeononsecurity.ch/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)攻撃者が悪用する可能性のある既知の脆弱性にパッチを当てるため、オペレーティング・システムやソフトウェア・アプリケーションを定期的にアップデートする。例えば、マイクロソフトは、自社製品の脆弱性に対処するため、定期的にセキュリティ・アップデートをリリースしています。
 
-2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create unique and complex passwords for all accounts and consider implementing **multi-factor authentication (MFA)を使用してセキュリティを強化します。Google Authenticator**や**Microsoft Authenticator**のようなサービスは、追加の保護レイヤーを提供します。
+2. [**Use strong passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Create unique and complex passwords for all accounts and consider implementing **multi-factor authentication (MFA)を使用してセキュリティを強化します。Google Authenticator**や**Microsoft Authenticator**のようなサービスは、追加の保護レイヤーを提供します。
 
-3. [**Exercise caution with email attachments and downloads:**](https://simeononsecurity.com/articles/how-to-identify-phishing/)電子メールの添付ファイルを開いたり、信頼できないソースからファイルをダウンロードしたりしないように注意してください。ファイルを実行する前に、**ウイルス対策ソフトウェア**でファイルをスキャンしてください。Malwarebytes**や**Norton Antivirus**のようなツールは、悪意のあるファイルを検出して削除するのに役立ちます。
+3. [**Exercise caution with email attachments and downloads:**](https://simeononsecurity.ch/articles/how-to-identify-phishing/)電子メールの添付ファイルを開いたり、信頼できないソースからファイルをダウンロードしたりしないように注意してください。ファイルを実行する前に、**ウイルス対策ソフトウェア**でファイルをスキャンしてください。Malwarebytes**や**Norton Antivirus**のようなツールは、悪意のあるファイルを検出して削除するのに役立ちます。
 
-4. [**Enable firewalls and intrusion detection systems:**](https://simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/) These network security measures can help detect and prevent unauthorized access attempts. **Windows Firewall** and **Intrusion Detection Systems (IDS)Snort**などがネットワーク保護によく使われている。
+4. [**Enable firewalls and intrusion detection systems:**](https://simeononsecurity.ch/articles/seven-essential-network-security-measures-to-protect-your-business/) These network security measures can help detect and prevent unauthorized access attempts. **Windows Firewall** and **Intrusion Detection Systems (IDS)Snort**などがネットワーク保護によく使われている。
 
-5. [**Educate users:**](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)サイバーセキュリティに関する意識向上**を促進し、フィッシングメールや不審なリンク、RAT攻撃に使用されるその他のソーシャルエンジニアリング技術を認識するためのトレーニングを提供する。組織は多くの場合、**セキュリティ意識向上トレーニング**を実施し、ベストプラクティスについて従業員を教育する。
+5. [**Educate users:**](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)サイバーセキュリティに関する意識向上**を促進し、フィッシングメールや不審なリンク、RAT攻撃に使用されるその他のソーシャルエンジニアリング技術を認識するためのトレーニングを提供する。組織は多くの場合、**セキュリティ意識向上トレーニング**を実施し、ベストプラクティスについて従業員を教育する。
 
-6. [**Implement endpoint protection:**](https://simeononsecurity.com/recommendations/anti-virus)リモートアクセス型トロイの木馬を検出してブロックできる信頼性の高い**アンチウイルス**および**アンチマルウェアソリューション**を活用してください。McAfee Endpoint Security**や**Kaspersky Total Security**のような製品は、様々なタイプのマルウェアから包括的に保護します。
+6. [**Implement endpoint protection:**](https://simeononsecurity.ch/recommendations/anti-virus)リモートアクセス型トロイの木馬を検出してブロックできる信頼性の高い**アンチウイルス**および**アンチマルウェアソリューション**を活用してください。McAfee Endpoint Security**や**Kaspersky Total Security**のような製品は、様々なタイプのマルウェアから包括的に保護します。
 
-7. [**Regularly backup data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)重要なデータの安全なバックアップを維持することで、RAT攻撃が成功した場合のデータ損失の影響を最小限に抑えることができます。Google Drive**や**Microsoft OneDrive**のようなクラウドストレージサービスは、重要なファイルを安全にバックアップするための便利なオプションを提供しています。
+7. [**Regularly backup data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)重要なデータの安全なバックアップを維持することで、RAT攻撃が成功した場合のデータ損失の影響を最小限に抑えることができます。Google Drive**や**Microsoft OneDrive**のようなクラウドストレージサービスは、重要なファイルを安全にバックアップするための便利なオプションを提供しています。
 
 これらの予防策に従い、積極的なセキュリティ姿勢を採用することで、個人や組織はリモート・アクセス・トロイの木馬の被害に遭うリスクを大幅に減らすことができます。
 

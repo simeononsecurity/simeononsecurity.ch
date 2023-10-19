@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 ## Install Traff Monetizer: Share Your Internet Connection and Make Money Online
 
-Looking for a way to monetize your internet connection? Look no further than Traff Monetizer. Similar to [EarnApp](https://simeononsecurity.com/other/install-earnapp-easily-using-docker/) and [HoneyGain](https://simeononsecurity.com/other/install-honeygain-easily-using-docker/), Traff Monetizer offers you the opportunity to earn money by sharing your internet. With an average monthly earning of about $2 per node per IP, Traff Monetizer provides a potential income stream. However, it's important to note that payouts are only offered in BTC.
+Looking for a way to monetize your internet connection? Look no further than Traff Monetizer. Similar to [EarnApp](https://simeononsecurity.ch/other/install-earnapp-easily-using-docker/) and [HoneyGain](https://simeononsecurity.ch/other/install-honeygain-easily-using-docker/), Traff Monetizer offers you the opportunity to earn money by sharing your internet. With an average monthly earning of about $2 per node per IP, Traff Monetizer provides a potential income stream. However, it's important to note that payouts are only offered in BTC.
 
 {{< youtube id="8hJgITEz3bA" >}}
 
@@ -21,7 +21,7 @@ To get started, create an account at [traffmonetizer.com](https://traffmonetizer
 ### Install the Docker Container
 Follow these steps to install the Traff Monetizer Docker container:
 
-0. Learn [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker).
+0. Learn [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker).
 
 1. Copy the following string and append your token obtained from the dashboard:
 ```bash
@@ -35,7 +35,7 @@ For more detailed instructions, refer to the [Traff Monetizer documentation](htt
 
 By installing Traff Monetizer and sharing your internet, you have the opportunity to earn money online. With an average monthly earning of about $2 per node per IP, it presents a potential source of income. Keep in mind that payouts are only available in BTC. Start monetizing your internet connection today!
 
-Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 

@@ -22,13 +22,13 @@ ______
 
 ## 社会工程
 
-**社会工程**是一种网络攻击，它依靠人际互动和心理操纵，诱使个人泄露敏感信息或执行某些操作。网络犯罪分子使用各种策略，例如 [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/)借口、诱饵和交换条件，以获得受害者的信任并获取机密信息。
+**社会工程**是一种网络攻击，它依靠人际互动和心理操纵，诱使个人泄露敏感信息或执行某些操作。网络犯罪分子使用各种策略，例如 [phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/)借口、诱饵和交换条件，以获得受害者的信任并获取机密信息。
 
 为了降低社会工程学攻击的风险，个人和组织可以采取以下步骤：
 
-- 提供 [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)向员工传授如何识别和避免社交工程攻击。
+- 提供 [**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)向员工传授如何识别和避免社交工程攻击。
 - 使用**垃圾邮件过滤器**和电子邮件验证协议（如**SPF**、**DKIM**和**DMARC**）来检测和阻止网络钓鱼电子邮件。
-- 实施 [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)为登录凭证添加额外的安全层。
+- 实施 [**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)为登录凭证添加额外的安全层。
 - 定期审查和更新**安全策略**，以应对新的威胁和漏洞。
 
 ______
@@ -39,7 +39,7 @@ ______
 
 为了降低恶意软件攻击的风险，个人和组织可以采取以下步骤：
 
-- 安装并定期更新 [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus)所有设备上。
+- 安装并定期更新 [**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus)所有设备上。
 - 使用**防火墙**阻止未经授权访问计算机系统和网络。
 - 避免从不可信任的来源下载软件或文件。
 - 定期**备份**重要数据，以防受到恶意软件攻击时丢失数据。
@@ -67,9 +67,9 @@ ______
 为降低密码攻击的风险，个人和组织可采取以下步骤：
 
 - 使用包含字母、数字和符号组合的强大而独特的密码。
-- 实施 [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)要求定期更改密码，禁止使用普通或容易猜到的密码。
-- 使用方法 [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)可生成和存储复杂密码。
-- 实施 [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)为登录凭据添加额外的安全层。
+- 实施 [**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)要求定期更改密码，禁止使用普通或容易猜到的密码。
+- 使用方法 [**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)可生成和存储复杂密码。
+- 实施 [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)为登录凭据添加额外的安全层。
 
 ______
 
@@ -81,7 +81,7 @@ ______
 
 - 使用**网络应用程序防火墙**来检测和阻止恶意流量。
 - 定期扫描网络应用程序的漏洞，并及时实施修补和更新。
-- 使用 [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/)以防止常见的网络应用程序漏洞。
+- 使用 [**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/)以防止常见的网络应用程序漏洞。
 - 实施**用户输入验证**，防止 SQL 注入和其他基于输入的攻击。
 
 ______

@@ -21,7 +21,7 @@ coverCaption: ""
 
 #### 安装 Docker
 
-学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 安装 Mysterium Docker 容器
 
@@ -50,7 +50,7 @@ ufw allow 59850:60000/tcp
 
 Mysterium 提供去中心化的 VPN 和网络搜刮服务，让你在维护隐私和安全的同时赚取收入。每个 IP 节点的潜在月收入从 1 美元到 20 美元不等，它为用户提供了创收机会。现在就开始使用 Mysterium 并利用其功能吧！
 
-完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考资料
 

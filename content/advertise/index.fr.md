@@ -12,7 +12,7 @@ Nous vous remercions de l'intérêt que vous portez à la publicité sur SimeonO
 
 Les images doivent être fournies dans l'un ou l'autre des formats suivants `.png` ou `.webp` afin de garantir des performances et une qualité optimales pour vos publicités.
 
-Pour faire de la publicité avec nous, veuillez envoyer un message via notre formulaire de contact à l'adresse suivante [Contact Us](https://simeononsecurity.com/contactus/) Nous vous contacterons rapidement pour discuter des options publicitaires disponibles et des prix.
+Pour faire de la publicité avec nous, veuillez envoyer un message via notre formulaire de contact à l'adresse suivante [Contact Us](https://simeononsecurity.ch/contactus/) Nous vous contacterons rapidement pour discuter des options publicitaires disponibles et des prix.
 
 Nous sommes impatients de travailler avec vous pour promouvoir votre marque et atteindre notre public de passionnés et de professionnels de la sécurité !
 

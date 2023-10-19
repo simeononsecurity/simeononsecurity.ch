@@ -56,9 +56,9 @@ ______
 
 Ecco alcuni **consigli** aggiuntivi per migliorare la vostra privacy e sicurezza sui social media:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create password forti per i vostri account sui social media ed evitate di riutilizzarle su più piattaforme. Considerate l'utilizzo di un gestore di password per archiviare e generare password complesse in modo sicuro.
+1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Create password forti per i vostri account sui social media ed evitate di riutilizzarle su più piattaforme. Considerate l'utilizzo di un gestore di password per archiviare e generare password complesse in modo sicuro.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) ogni volta che è possibile. Questo aggiunge un ulteriore livello di sicurezza richiedendo un codice di verifica oltre alla password al momento dell'accesso.
+2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) ogni volta che è possibile. Questo aggiunge un ulteriore livello di sicurezza richiedendo un codice di verifica oltre alla password al momento dell'accesso.
 
 3. **Rivedere regolarmente gli amici e i follower**: Rivedete periodicamente il vostro elenco di amici e follower per assicurarvi di essere connessi solo con persone che conoscete e di cui vi fidate.
 

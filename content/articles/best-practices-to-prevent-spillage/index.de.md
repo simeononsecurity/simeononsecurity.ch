@@ -30,14 +30,14 @@ Zum Schutz sensibler oder klassifizierter Informationen sollten Unternehmen eine
 Die Kontrolle des Zugriffs auf Informationen ist von entscheidender Bedeutung, um ein unbefugtes Übergreifen zu verhindern. Implementieren Sie die folgenden Maßnahmen:
 
 - **Rollenbasierte Zugriffskontrolle**: Vergeben Sie Zugriffsrechte auf der Grundlage von Aufgaben und Zuständigkeiten, um sicherzustellen, dass nur autorisierte Personen Zugang zu sensiblen Informationen haben.
-- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Erfordern Sie mehrere Authentifizierungsfaktoren, wie Passwörter und biometrische Daten, um die Sicherheit der Zugangsdaten zu erhöhen.
+- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Erfordern Sie mehrere Authentifizierungsfaktoren, wie Passwörter und biometrische Daten, um die Sicherheit der Zugangsdaten zu erhöhen.
 - **Regelmäßige Überprüfung des Zugangs**: Führen Sie regelmäßige Überprüfungen durch, um sicherzustellen, dass die Zugangsberechtigungen auf dem neuesten Stand sind, und entziehen Sie Personen, die sie nicht mehr benötigen, umgehend den Zugang.
 
 ### 2. Verschlüsselung sensibler Informationen
 
 Die Verschlüsselung bietet eine zusätzliche Sicherheitsebene, um sensible Daten vor unbefugtem Zugriff zu schützen. Beachten Sie die folgenden Praktiken:
 
-- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Implementierung von Verschlüsselungsmechanismen, die Informationen während ihres gesamten Lebenszyklus schützen, von der Speicherung bis zur Übertragung.
+- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Implementierung von Verschlüsselungsmechanismen, die Informationen während ihres gesamten Lebenszyklus schützen, von der Speicherung bis zur Übertragung.
 - **Datenklassifizierung**: Klassifizierung von Informationen auf der Grundlage ihrer Sensibilitätsstufe und Anwendung entsprechender Verschlüsselungsmaßnahmen.
 - **Schlüsselverwaltung**: Führen Sie eine solide Schlüsselverwaltung ein, um sicherzustellen, dass die Verschlüsselungsschlüssel ordnungsgemäß gespeichert, geschützt und regelmäßig ausgetauscht werden.
 
@@ -45,8 +45,8 @@ Die Verschlüsselung bietet eine zusätzliche Sicherheitsebene, um sensible Date
 
 Investitionen in die Schulung und Sensibilisierung der Mitarbeiter sind von entscheidender Bedeutung, um den Verlust von Informationen zu verhindern. Hier ist, was Sie tun können:
 
-- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Durchführung regelmäßiger Schulungen, um die Mitarbeiter über die besten Praktiken im Bereich der Informationssicherheit zu informieren, einschließlich der Risiken eines Informationsverlustes.
-- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Schulung der Mitarbeiter in der Erkennung und Meldung von Phishing-Versuchen, die häufig dazu benutzt werden, sich unbefugt Zugang zu vertraulichen Informationen zu verschaffen.
+- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Durchführung regelmäßiger Schulungen, um die Mitarbeiter über die besten Praktiken im Bereich der Informationssicherheit zu informieren, einschließlich der Risiken eines Informationsverlustes.
+- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Schulung der Mitarbeiter in der Erkennung und Meldung von Phishing-Versuchen, die häufig dazu benutzt werden, sich unbefugt Zugang zu vertraulichen Informationen zu verschaffen.
 - **Meldeverfahren**: Legen Sie klare Verfahren für die Meldung potenzieller Sicherheitsvorfälle oder verdächtiger Aktivitäten an die zuständigen Behörden fest.
 
 ### 4. Implementierung von Lösungen zur Verhinderung von Datenverlusten (DLP)
@@ -80,7 +80,7 @@ Zusammenfassend lässt sich sagen, dass die Verhinderung der Weitergabe von Info
 ## Referenzen
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

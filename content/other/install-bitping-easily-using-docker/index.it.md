@@ -22,7 +22,7 @@ Per iniziare a lavorare con Bitping, è necessario creare un account su [Bitping
 
 ### Installazione di Docker
 
-Imparare [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Imparare [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Installare il contenitore Docker
 
@@ -64,7 +64,7 @@ Congratulazioni! Avete installato e configurato con successo Bitping sul vostro 
 
 Per ulteriori informazioni e documentazione dettagliata, visitare il sito [Bitping website](https://bitping.com) e fare riferimento alle loro risorse ufficiali.
 
-Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 **Riferimenti:**
 

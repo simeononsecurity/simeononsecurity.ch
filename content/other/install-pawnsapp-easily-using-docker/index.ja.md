@@ -27,7 +27,7 @@ PawnsAppのアカウントを作成するには、以下のサイトにアクセ
 
 #### 2.Dockerのインストール
 
-学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 3.アカウントの作成が完了したら、以下の手順でPawnsAppのDockerコンテナをインストールします：
 
@@ -55,7 +55,7 @@ PawnsApp は、インターネット接続を共有し、アンケートに回�
 
 今日からPawnsAppで旅を始め、楽にお金を稼ぐ可能性を解き放ちましょう！
 
-インストールが完了したら [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+インストールが完了したら [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### リファレンス
 - [PawnsApp](https://pawns.app/?r=2092882)

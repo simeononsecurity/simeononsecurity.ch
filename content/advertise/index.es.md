@@ -12,7 +12,7 @@ Gracias por su interés en anunciarse en SimeonOnSecurity. Ofrecemos varios tama
 
 Las imágenes deben ser proporcionados en cualquiera de `.png` o `.webp` para garantizar un rendimiento y una calidad óptimos de sus anuncios.
 
-Para anunciarse con nosotros, envíe un mensaje a través de nuestro formulario de contacto en [Contact Us](https://simeononsecurity.com/contactus/) Nos pondremos en contacto con usted lo antes posible para hablar de las opciones publicitarias disponibles y de los precios.
+Para anunciarse con nosotros, envíe un mensaje a través de nuestro formulario de contacto en [Contact Us](https://simeononsecurity.ch/contactus/) Nos pondremos en contacto con usted lo antes posible para hablar de las opciones publicitarias disponibles y de los precios.
 
 Estamos deseando trabajar con usted para promocionar su marca y llegar a nuestro público de entusiastas y profesionales de la seguridad.
 

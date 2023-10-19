@@ -30,14 +30,14 @@ Para salvaguardar la información sensible o clasificada, las organizaciones deb
 Controlar el acceso a la información es crucial para evitar filtraciones no autorizadas. Implemente las siguientes medidas:
 
 - Control de acceso basado en funciones**: Asigne derechos de acceso basados en funciones y responsabilidades laborales para garantizar que sólo las personas autorizadas tengan acceso a la información sensible.
-- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Exigir múltiples factores de autenticación, como contraseñas y datos biométricos, para aumentar la seguridad de las credenciales de acceso.
+- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Exigir múltiples factores de autenticación, como contraseñas y datos biométricos, para aumentar la seguridad de las credenciales de acceso.
 - Revisiones periódicas del acceso**: Realice revisiones periódicas para asegurarse de que los privilegios de acceso están actualizados y revoque rápidamente el acceso a las personas que ya no lo necesiten.
 
 ### 2. Cifrar la información sensible
 
 La encriptación proporciona una capa adicional de seguridad para proteger los datos sensibles de accesos no autorizados. Tenga en cuenta las siguientes prácticas:
 
-- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Aplicar mecanismos de cifrado que protejan la información a lo largo de todo su ciclo de vida, desde el almacenamiento hasta la transmisión.
+- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Aplicar mecanismos de cifrado que protejan la información a lo largo de todo su ciclo de vida, desde el almacenamiento hasta la transmisión.
 - Clasificación de los datos**: Clasificar la información en función de su nivel de sensibilidad y aplicar en consecuencia las medidas de cifrado adecuadas.
 - Gestión de claves**: Establecer prácticas sólidas de gestión de claves para garantizar que las claves de cifrado se almacenan, protegen y rotan periódicamente de forma adecuada.
 
@@ -45,8 +45,8 @@ La encriptación proporciona una capa adicional de seguridad para proteger los d
 
 Invertir en la formación y concienciación de los empleados es crucial para prevenir la fuga de información. Esto es lo que puede hacer:
 
-- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Realice sesiones de formación periódicas para educar a los empleados sobre las mejores prácticas de seguridad de la información, incluidos los riesgos de la fuga de información.
-- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Formar a los empleados para que reconozcan y denuncien los intentos de phishing, que suelen utilizarse como medio para obtener acceso no autorizado a información confidencial.
+- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Realice sesiones de formación periódicas para educar a los empleados sobre las mejores prácticas de seguridad de la información, incluidos los riesgos de la fuga de información.
+- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Formar a los empleados para que reconozcan y denuncien los intentos de phishing, que suelen utilizarse como medio para obtener acceso no autorizado a información confidencial.
 - Procedimientos de información**: Establezca procedimientos claros para notificar posibles incidentes de seguridad o actividades sospechosas a las autoridades competentes.
 
 ### 4. Implantar soluciones de prevención de pérdida de datos (DLP)
@@ -80,7 +80,7 @@ En conclusión, la prevención de la divulgación de información o clasificada 
 ## Referencias
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

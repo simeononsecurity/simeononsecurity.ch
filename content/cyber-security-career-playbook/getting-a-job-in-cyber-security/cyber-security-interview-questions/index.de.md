@@ -63,7 +63,7 @@ ______
 
 Die Cybersicherheit ist ein sich ständig weiterentwickelnder Bereich, und es ist für Fachleute in diesem Bereich von entscheidender Bedeutung, über die neuesten Trends und Bedrohungen auf dem Laufenden zu bleiben. Hier sind einige Möglichkeiten, um informiert zu bleiben:
 
-- **Blogs und Websites**: Folgen Sie seriösen Cybersicherheitsblogs und -webseiten wie [simeononsecurity.com](https://www.simeononsecurity.com/) die aufschlussreiche Artikel und Analysen zu aktuellen Cyber-Bedrohungen und -Trends enthalten.
+- **Blogs und Websites**: Folgen Sie seriösen Cybersicherheitsblogs und -webseiten wie [simeononsecurity.ch](https://www.simeononsecurity.ch/) die aufschlussreiche Artikel und Analysen zu aktuellen Cyber-Bedrohungen und -Trends enthalten.
 - **Branchenkonferenzen und Veranstaltungen**: Besuchen Sie Konferenzen und Veranstaltungen zur Cybersicherheit, um von Branchenexperten zu lernen und sich mit Gleichgesinnten zu vernetzen.
 - **Berufsverbände**: Treten Sie Berufsverbänden und -gemeinschaften wie der Information Systems Security Association (ISSA) oder dem International Information System Security Certification Consortium (ISC)² bei, die Ressourcen, Zertifizierungen und Networking-Möglichkeiten bieten.
 - **Kontinuierliches Lernen**: Lernen Sie kontinuierlich durch Online-Kurse, Webinare und Zertifizierungsprogramme, um Ihre Kenntnisse und Fähigkeiten zu erweitern.
@@ -109,6 +109,6 @@ ______
 
 ## Referenzen:
 
-1. [simeononsecurity.com - Cybersecurity Blog](https://www.simeononsecurity.com/)
+1. [simeononsecurity.ch - Cybersecurity Blog](https://www.simeononsecurity.ch/)
 2. [Information Systems Security Association (ISSA)](https://www.issa.org/)
 3. [International Information System Security Certification Consortium (ISC)²](https://www.isc2.org/)

@@ -37,7 +37,7 @@ __________
 
 La formazione deve essere fornita a tutti i nuovi assunti e deve essere ripetuta regolarmente per i dipendenti esistenti. In questo modo si garantisce che i dipendenti siano aggiornati sulle ultime minacce e sappiano come reagire. Inoltre, le organizzazioni dovrebbero fornire una formazione mirata ai dipendenti con accesso privilegiato a dati e sistemi sensibili.
 
-[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) La formazione può assumere diverse forme, tra cui corsi online, formazione di persona e attacchi di phishing simulati. Le organizzazioni devono scegliere il formato più adatto ai propri dipendenti e monitorare il completamento della formazione per garantire che tutti i dipendenti abbiano ricevuto la formazione necessaria.
+[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) La formazione può assumere diverse forme, tra cui corsi online, formazione di persona e attacchi di phishing simulati. Le organizzazioni devono scegliere il formato più adatto ai propri dipendenti e monitorare il completamento della formazione per garantire che tutti i dipendenti abbiano ricevuto la formazione necessaria.
 
 __________
 

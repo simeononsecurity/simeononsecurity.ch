@@ -24,6 +24,6 @@ Una volta **identificati gli intermediari di dati in possesso delle vostre infor
 
 _________________________
 
-In conclusione, **eliminare le vostre informazioni dagli intermediari di dati online** è un passo fondamentale per garantire la vostra privacy e sicurezza online. Prendendo il controllo delle informazioni disponibili su di voi online, potete ridurre al minimo il rischio di furto d'identità, stalking e altri problemi legati alla privacy. Per indicazioni più specifiche sulla rimozione delle vostre informazioni dagli intermediari di dati online, consultate le risorse disponibili all'indirizzo[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
+In conclusione, **eliminare le vostre informazioni dagli intermediari di dati online** è un passo fondamentale per garantire la vostra privacy e sicurezza online. Prendendo il controllo delle informazioni disponibili su di voi online, potete ridurre al minimo il rischio di furto d'identità, stalking e altri problemi legati alla privacy. Per indicazioni più specifiche sulla rimozione delle vostre informazioni dagli intermediari di dati online, consultate le risorse disponibili all'indirizzo[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
 
 

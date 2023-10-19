@@ -8,7 +8,7 @@ tags: ["COTS ONT", "BGW-320", "Azores", "fiber", "network", "XGS-PON", "Ethernet
 cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
 coverAlt: "A cartoon technician holding a COTS ONT with a fiber cable in the background."
 coverCaption: ""
-canonical: "https://simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/"
+canonical: "https://simeononsecurity.ch/guides/bypassing-the-bgw320-att-fiber-modem-router/"
 ---
 
 ## How to Bypass the BGW-320 and Using an Azores WAG-D20

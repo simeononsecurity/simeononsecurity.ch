@@ -19,7 +19,7 @@ A windows hardening script that makes it difficult and more annoying to compromi
 - Disables SMB v2
 - Disables TCP Timestamps
 - Disables WSMAN and PSRemoting
-- [Enables AppLocker with NSA Recommended Policies](https://simeononsecurity.com/github/applocker-hardening/)
+- [Enables AppLocker with NSA Recommended Policies](https://simeononsecurity.ch/github/applocker-hardening/)
 - Enables Best practice Windows Logging and Security Controls
 - Enables DEP
 - Enables EMET Configurations (Only applies to systems with EMET installed)

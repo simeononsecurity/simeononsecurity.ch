@@ -84,7 +84,7 @@ Los sistemas autónomos son algunos de los más difíciles y molestos de protege
 ### Instalación automatizada:
 El script puede ser lanzado desde la descarga extraída de GitHub así:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.com/scripts/standalonewindows.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://simeononsecurity.ch/scripts/standalonewindows.ps1'))
 ```
 
 ### Instalación manual:

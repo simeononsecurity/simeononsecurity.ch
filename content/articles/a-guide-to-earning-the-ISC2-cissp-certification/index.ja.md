@@ -51,7 +51,7 @@ CISSP試験は、250問の多肢選択式問題からなるコンピュータベ
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
 
 ### ステップ4：模擬試験で練習する
 

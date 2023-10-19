@@ -93,9 +93,9 @@ ______
 Выполняя эти действия, вы снижаете доступность своей личной информации и усложняете задачу ее использования. Не забывайте регулярно контролировать свое присутствие в Интернете, чтобы обеспечить безопасность и защиту своей информации.
 
 #### Дополнительная литература к шагу 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ ______
 
 #### a. Пересмотрите и обновите настройки конфиденциальности.
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) учетных записей в Интернете и убедитесь, что они настроены на максимальный уровень защиты. Ограничьте доступ к личной информации и сообщениям только для доверенных друзей и знакомых. Например, на таких платформах социальных сетей, как Facebook, перейдите к настройкам конфиденциальности и определите, кто может просматривать ваш профиль, сообщения и личную информацию.
+[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) учетных записей в Интернете и убедитесь, что они настроены на максимальный уровень защиты. Ограничьте доступ к личной информации и сообщениям только для доверенных друзей и знакомых. Например, на таких платформах социальных сетей, как Facebook, перейдите к настройкам конфиденциальности и определите, кто может просматривать ваш профиль, сообщения и личную информацию.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) на всех своих учетных записях в Интернете, когда это возможно. 2FA обеспечивает дополнительный уровень безопасности, поскольку для доступа к учетным записям требуется дополнительная проверка, обычно с помощью мобильного устройства. Такие сервисы, как Google, Facebook и Twitter, предлагают опции 2FA. Включите ее, следуя инструкциям, предоставленным соответствующими платформами.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) на всех своих учетных записях в Интернете, когда это возможно. 2FA обеспечивает дополнительный уровень безопасности, поскольку для доступа к учетным записям требуется дополнительная проверка, обычно с помощью мобильного устройства. Такие сервисы, как Google, Facebook и Twitter, предлагают опции 2FA. Включите ее, следуя инструкциям, предоставленным соответствующими платформами.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Создать [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) для каждой из ваших учетных записей в Интернете. **Избегайте использования общих паролей или повторного применения паролей на различных платформах. Рассмотрите возможность использования **менеджера паролей** для безопасного хранения и управления паролями. Такие менеджеры паролей, как LastPass, Dashlane или 1Password, сами генерируют и хранят сложные пароли.
+Создать [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) для каждой из ваших учетных записей в Интернете. **Избегайте использования общих паролей или повторного применения паролей на различных платформах. Рассмотрите возможность использования **менеджера паролей** для безопасного хранения и управления паролями. Такие менеджеры паролей, как LastPass, Dashlane или 1Password, сами генерируют и хранят сложные пароли.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) на публичных площадках или с незнакомыми людьми. **Будьте осторожны** при заполнении онлайн-форм или общении с незнакомыми людьми. Проверяйте легитимность и безопасность сайтов или платформ, прежде чем предоставлять какие-либо личные данные. Например, **не сообщайте свой полный адрес или номер телефона** на публичных форумах или в сетевых сообществах.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) на публичных площадках или с незнакомыми людьми. **Будьте осторожны** при заполнении онлайн-форм или общении с незнакомыми людьми. Проверяйте легитимность и безопасность сайтов или платформ, прежде чем предоставлять какие-либо личные данные. Например, **не сообщайте свой полный адрес или номер телефона** на публичных форумах или в сетевых сообществах.
 
 #### e. Регулярно обновляйте программное обеспечение и используйте антивирусную защиту.
 

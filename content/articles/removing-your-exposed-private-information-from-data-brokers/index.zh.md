@@ -24,6 +24,6 @@ coverCaption: ""
 
 _________________________
 
-总之，**从在线数据经纪商那里删除你的信息**是确保你的在线隐私和安全的关键一步。通过控制网上关于你的信息，你可以将身份盗窃、跟踪和其他隐私相关问题的风险降到最低。有关从在线数据经纪商处删除您的信息的更多具体指导，请参阅以下网站提供的资源 [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
+总之，**从在线数据经纪商那里删除你的信息**是确保你的在线隐私和安全的关键一步。通过控制网上关于你的信息，你可以将身份盗窃、跟踪和其他隐私相关问题的风险降到最低。有关从在线数据经纪商处删除您的信息的更多具体指导，请参阅以下网站提供的资源 [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
 
 

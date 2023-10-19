@@ -56,9 +56,9 @@ ______
 
 Oto kilka dodatkowych **wskazówek** mających na celu zwiększenie prywatności i bezpieczeństwa w mediach społecznościowych:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Twórz silne hasła do swoich kont w mediach społecznościowych i unikaj ich ponownego wykorzystywania na wielu platformach. Rozważ użycie menedżera haseł do bezpiecznego przechowywania i generowania złożonych haseł.
+1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Twórz silne hasła do swoich kont w mediach społecznościowych i unikaj ich ponownego wykorzystywania na wielu platformach. Rozważ użycie menedżera haseł do bezpiecznego przechowywania i generowania złożonych haseł.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) gdy tylko jest to możliwe. Dodaje to dodatkową warstwę bezpieczeństwa, wymagając kodu weryfikacyjnego oprócz hasła podczas logowania.
+2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) gdy tylko jest to możliwe. Dodaje to dodatkową warstwę bezpieczeństwa, wymagając kodu weryfikacyjnego oprócz hasła podczas logowania.
 
 3. **Regularnie przeglądaj swoich znajomych i obserwujących**: Okresowo przeglądaj listę znajomych i obserwujących, aby upewnić się, że łączysz się tylko z osobami, które znasz i którym ufasz.
 

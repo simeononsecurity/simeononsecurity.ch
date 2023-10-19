@@ -13,7 +13,7 @@ coverCaption: ""
 **Windows** is the most widely used operating system in the world, making it a popular target for cyber criminals. To protect your data and privacy, it's crucial to implement security measures to **harden and debloat** your system. This guide will explain the importance of windows hardening and debloating, and how it can improve your overall security and privacy.
 
 ## What is Windows Hardening?
-Windows hardening refers to the process of securing a Windows operating system by reducing its attack surface and vulnerabilities. This is accomplished by **disabling or removing unneeded features and services**, applying security updates, and implementing [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and authentication mechanisms.
+Windows hardening refers to the process of securing a Windows operating system by reducing its attack surface and vulnerabilities. This is accomplished by **disabling or removing unneeded features and services**, applying security updates, and implementing [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and authentication mechanisms.
 
 ## Why is Windows Hardening Important?
 Windows hardening helps protect against cyber attacks by **reducing the number of potential attack vectors**. Cyber criminals often exploit vulnerabilities in the operating system or applications to gain access to a system or steal sensitive data. By hardening the system, you can **minimize these attack surfaces**, making it more difficult for attackers to compromise your data or privacy.

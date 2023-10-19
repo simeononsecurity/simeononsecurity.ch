@@ -175,7 +175,7 @@ tags: ["विंडोज अनुकूलन", "विंडोज सख्
 ### जीयूआई - निर्देशित स्थापना:
 
 नवीनतम रिलीज डाउनलोड करें[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)अपने इच्छित विकल्प चुनें और निष्पादित करें। <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Windows-Optimize-Harden-Debloat GUI आधारित निर्देशित इंस्टाल का उदाहरण"> ### स्वचालित स्थापना: स्वचालित रूप से डाउनलोड करने, सभी सहायक फ़ाइलों को अनज़िप करने और स्क्रिप्ट के नवीनतम संस्करण को चलाने के लिए इस एक-लाइनर का उपयोग करें।```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

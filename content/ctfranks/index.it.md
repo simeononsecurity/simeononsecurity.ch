@@ -25,7 +25,7 @@ coverCaption: ""
 		- 2020/10/23 - 2020/10/25
 		- Piazzamento complessivo: 134° / 6010
 		- Piazzamento Oro: 126° / 680
-	- Squadra (simeononsecurity.com)
+	- Squadra (simeononsecurity.ch)
 		- 2020/11/06 - 2020/11/08
 		- Piazzamento generale: 31° / 957
 		- Piazzamento Oro: 28° / 121

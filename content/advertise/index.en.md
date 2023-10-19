@@ -12,7 +12,7 @@ Thank you for your interest in advertising with SimeonOnSecurity! We offer vario
 
 Images should be provided in either `.png` or `.webp` format to ensure optimal performance and quality for your advertisements.
 
-To advertise with us, please send a message through our contact form on [Contact Us](https://simeononsecurity.com/contactus/). We will get back to you promptly to discuss the available advertising options and pricing.
+To advertise with us, please send a message through our contact form on [Contact Us](https://simeononsecurity.ch/contactus/). We will get back to you promptly to discuss the available advertising options and pricing.
 
 We look forward to working with you to promote your brand and reach our engaged audience of security enthusiasts and professionals!
 

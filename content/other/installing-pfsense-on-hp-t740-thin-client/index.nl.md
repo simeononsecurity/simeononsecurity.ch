@@ -8,7 +8,7 @@ tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "dunne cliënt", "homese
 cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
 coverAlt: "Een cartoon van een tovenaar die een spreuk uitspreekt om een bevroren computer te repareren, met een tekstballon die zegt Probleem opgelost"
 coverCaption: ""
-canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"
+canonical: "https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/"
 ---
  pfSense, OPNsense of HardenedBSD op de HP t740 Thin Client**.
 

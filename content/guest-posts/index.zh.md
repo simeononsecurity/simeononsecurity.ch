@@ -11,11 +11,11 @@ coverCaption: "通过客座博客与我们的社区分享您的专业知识和�
 
 感谢您有兴趣为我们的网站投稿！我们欢迎符合我们内容重点的特邀博客投稿。请按照以下步骤提交文章以供考虑：
 
-1.通过以下网站表格联系我们 [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/)来表达您对客座博客的兴趣。
+1.通过以下网站表格联系我们 [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/)来表达您对客座博客的兴趣。
 
 2.以 Markdown (md) 或 HTML 格式准备文章。
 
-3.在我们的 GitHub 仓库中提交拉取请求，网址为 [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
+3.在我们的 GitHub 仓库中提交拉取请求，网址为 [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
 
 4.确保您的文章包含有效的 frontmatter（元数据）和所有必需的变量，如下例所示：
 
@@ -122,7 +122,7 @@ coverCaption: "Caption for your cover image."
 
 - 我们感谢您的理解和合作，请遵守这些准则，以保持 SimeonOnSecurity 上内容的质量和相关性。
 
-我们期待收到您的宝贵意见，并帮助您将自己的见解传播给更多的受众。如果您有任何进一步的问题或说明，请随时通过以下方式联系我们 [webform](https://simeononsecurity.com/contactus/)
+我们期待收到您的宝贵意见，并帮助您将自己的见解传播给更多的受众。如果您有任何进一步的问题或说明，请随时通过以下方式联系我们 [webform](https://simeononsecurity.ch/contactus/)
 
 ***写作愉快！***
 

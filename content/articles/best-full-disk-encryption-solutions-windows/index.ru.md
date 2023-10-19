@@ -74,7 +74,7 @@ ______
 3. Запустите VeraCrypt и выберите диск или раздел, который необходимо зашифровать.
 4. Следуйте инструкциям VeraCrypt для создания зашифрованного тома.
 
-Следует помнить, что безопасность VeraCrypt зависит от надежности пароля. Обязательно используйте [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) для достижения максимальной эффективности шифрования.
+Следует помнить, что безопасность VeraCrypt зависит от надежности пароля. Обязательно используйте [long and secure password](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) для достижения максимальной эффективности шифрования.
 
 ______
 {{< inarticle-dark >}}

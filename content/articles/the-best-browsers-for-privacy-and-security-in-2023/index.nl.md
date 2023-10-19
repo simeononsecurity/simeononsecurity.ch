@@ -83,6 +83,6 @@ ______
 
 Het kiezen van de juiste browser voor privacy en beveiliging is cruciaal voor het beschermen van uw online activiteiten. Brave, Firefox en Tor Browser bieden allemaal robuuste oplossingen die inspelen op verschillende gebruikersvoorkeuren en eisen. Door een veilige browser te combineren met aanvullende privacytools zoals VPN's, wachtwoordbeheerders en hardwaresleutels, kunt u uw online veiligheid en privacy verder verbeteren.
 
-Voor meer informatie over online privacy en beveiliging kunt u onze[collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) over het onderwerp en blijf op de hoogte van het laatste nieuws en trends.
+Voor meer informatie over online privacy en beveiliging kunt u onze[collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) over het onderwerp en blijf op de hoogte van het laatste nieuws en trends.
 
 

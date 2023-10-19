@@ -124,7 +124,7 @@ Realizing the full potential of ground-based GPS base stations necessitates coll
 
 In conclusion, as we navigate the complexities of **cybersecurity in space**, the utilization of ground-based GPS base stations emerges as a promising solution to fortify security and resilience. By integrating verified time and positioning data from ground sources, we effectively minimize potential vulnerabilities associated with unsecured space-based GPS signals. This, in turn, ensures the unwavering reliability of critical systems and applications.
 
-Learn more about [How to Set up a GPS Base Station](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
+Learn more about [How to Set up a GPS Base Station](https://simeononsecurity.ch/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
 
 ## Conclusion: **Securing Space-Based GPS Signals: A Vital Imperative**
 

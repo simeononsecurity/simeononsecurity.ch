@@ -10,7 +10,7 @@ coverAlt: "eine Cartoon-Tresortür, die mit einem Schlüssel aufgeschlossen wird
 coverCaption: ""
 ---
 
-Eine umfassende Anleitung zum Lösen der "Bank Heist" Krypto-Herausforderung auf HackTheBox. Die Herausforderung beinhaltet die Entschlüsselung einer [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) Text mit Decode.fr und einen atbash-Chiffretext mit CyberChef, um die Flagge zu enthüllen. Eine Pflichtlektüre für angehende Cybersicherheitsexperten und alle, die ihre Kryptografiekenntnisse verbessern möchten.
+Eine umfassende Anleitung zum Lösen der "Bank Heist" Krypto-Herausforderung auf HackTheBox. Die Herausforderung beinhaltet die Entschlüsselung einer [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) Text mit Decode.fr und einen atbash-Chiffretext mit CyberChef, um die Flagge zu enthüllen. Eine Pflichtlektüre für angehende Cybersicherheitsexperten und alle, die ihre Kryptografiekenntnisse verbessern möchten.
 
 ## Bereitgestellte Dateien:
 

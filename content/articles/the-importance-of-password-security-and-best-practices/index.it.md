@@ -12,25 +12,25 @@ coverCaption: ""
 
 **L'importanza della sicurezza delle password e le migliori pratiche per la gestione delle password**
 
-[**Passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) are the keys to our online lives. [**Password security**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) è di fondamentale importanza perché le password proteggono le nostre informazioni personali e sensibili da accessi non autorizzati. La gestione delle password è quindi un aspetto essenziale della sicurezza online. In questo articolo discuteremo dell'importanza della sicurezza delle password e delle migliori pratiche per la loro gestione.
+[**Passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) are the keys to our online lives. [**Password security**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) è di fondamentale importanza perché le password proteggono le nostre informazioni personali e sensibili da accessi non autorizzati. La gestione delle password è quindi un aspetto essenziale della sicurezza online. In questo articolo discuteremo dell'importanza della sicurezza delle password e delle migliori pratiche per la loro gestione.
 
 ## Perché la sicurezza delle password è importante?
 
-Uno dei motivi principali per cui[**password security**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) è importante prevenire l'accesso non autorizzato ai vostri account. I criminali informatici possono accedere ai vostri dati personali, alle informazioni finanziarie e persino alla vostra identità se ottengono le vostre password. Possono anche utilizzare i vostri account per inviare spam, e-mail di **phishing** e condurre altre attività dannose. La sicurezza delle password è fondamentale per salvaguardare la vostra presenza online e proteggervi dalle **minacce informatiche**.
+Uno dei motivi principali per cui[**password security**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) è importante prevenire l'accesso non autorizzato ai vostri account. I criminali informatici possono accedere ai vostri dati personali, alle informazioni finanziarie e persino alla vostra identità se ottengono le vostre password. Possono anche utilizzare i vostri account per inviare spam, e-mail di **phishing** e condurre altre attività dannose. La sicurezza delle password è fondamentale per salvaguardare la vostra presenza online e proteggervi dalle **minacce informatiche**.
 
 ## Migliori pratiche per la gestione delle password
 
 ### Utilizzare password forti
 
-[A strong password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) è una combinazione di lettere maiuscole e minuscole, numeri e simboli. Non deve contenere informazioni facilmente intuibili, come il nome o la data di nascita. Una password forte deve essere lunga almeno 12 caratteri. Evitate di riutilizzare le password per più account, perché questo aumenta il rischio che un hacker possa accedere a tutti i vostri account.
+[A strong password](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) è una combinazione di lettere maiuscole e minuscole, numeri e simboli. Non deve contenere informazioni facilmente intuibili, come il nome o la data di nascita. Una password forte deve essere lunga almeno 12 caratteri. Evitate di riutilizzare le password per più account, perché questo aumenta il rischio che un hacker possa accedere a tutti i vostri account.
 
 ### Abilitare l'autenticazione a due fattori
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) (2FA) is an additional layer of security that requires you to enter a code or use a physical key in addition to your password. This prevents unauthorized access even if someone has your password. Many online services, including [Google](https://www.google.com/landing/2step/), [Facebook](https://www.facebook.com/help/148233965247823), and [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication) offrire 2FA.
+[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) (2FA) is an additional layer of security that requires you to enter a code or use a physical key in addition to your password. This prevents unauthorized access even if someone has your password. Many online services, including [Google](https://www.google.com/landing/2step/), [Facebook](https://www.facebook.com/help/148233965247823), and [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication) offrire 2FA.
 
 ### Utilizzare un gestore di password
 
-A[**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) is a software application that stores all of your passwords in an encrypted database. It allows you to create strong and unique passwords for each of your accounts without the need to remember them. Some popular password managers include [LastPass](https://www.lastpass.com/), [Dashlane](https://www.dashlane.com/), and [1Password](https://1password.com/)
+A[**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) is a software application that stores all of your passwords in an encrypted database. It allows you to create strong and unique passwords for each of your accounts without the need to remember them. Some popular password managers include [LastPass](https://www.lastpass.com/), [Dashlane](https://www.dashlane.com/), and [1Password](https://1password.com/)
 
 ### Aggiornare regolarmente le password
 
@@ -38,11 +38,11 @@ Aggiornare regolarmente le password è una buona pratica per impedire agli hacke
 
 ### Attenzione alle truffe di phishing
 
-[**Phishing scams** ](https://simeononsecurity.com/articles/how-to-identify-phishing/) un modo comune per gli hacker di ottenere le password. In genere si tratta di un'e-mail o di un messaggio che sembra provenire da una fonte legittima, come una banca o un sito di social media, che vi chiede di cliccare su un link e di inserire la vostra password. Prestate sempre attenzione a questo tipo di messaggi ed evitate di cliccare sui link in essi contenuti.
+[**Phishing scams** ](https://simeononsecurity.ch/articles/how-to-identify-phishing/) un modo comune per gli hacker di ottenere le password. In genere si tratta di un'e-mail o di un messaggio che sembra provenire da una fonte legittima, come una banca o un sito di social media, che vi chiede di cliccare su un link e di inserire la vostra password. Prestate sempre attenzione a questo tipo di messaggi ed evitate di cliccare sui link in essi contenuti.
 
 ### Evitare le reti Wi-Fi pubbliche
 
-[Public Wi-Fi networks](https://simeononsecurity.com/articles/how-to-secure-your-wireless-network-against-hacking/) non sono sicure e gli hacker possono facilmente intercettare il vostro traffico Internet, comprese le vostre password. Evitate di utilizzare le reti Wi-Fi pubbliche per accedere ai vostri account, soprattutto per attività sensibili come l'online banking o lo shopping.
+[Public Wi-Fi networks](https://simeononsecurity.ch/articles/how-to-secure-your-wireless-network-against-hacking/) non sono sicure e gli hacker possono facilmente intercettare il vostro traffico Internet, comprese le vostre password. Evitate di utilizzare le reti Wi-Fi pubbliche per accedere ai vostri account, soprattutto per attività sensibili come l'online banking o lo shopping.
 
 ______
 

@@ -27,7 +27,7 @@ Creați un cont PawnsApp vizitând [https://pawns.app](https://pawns.app/?r=2092
 
 #### 2. Instalați Docker
 
-Învățați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Învățați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 3. După ce ați creat un cont, urmați instrucțiunile de mai jos pentru a instala containerul Docker pentru PawnsApp:
 
@@ -55,7 +55,7 @@ PawnsApp oferă o oportunitate excelentă de a câștiga venituri pasive prin pa
 
 Începeți astăzi călătoria cu PawnsApp și deblocați potențialul de a câștiga bani fără efort!
 
-După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### Referință
 - [PawnsApp](https://pawns.app/?r=2092882)

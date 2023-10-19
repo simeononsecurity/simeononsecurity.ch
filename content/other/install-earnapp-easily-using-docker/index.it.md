@@ -26,7 +26,7 @@ Seguire la procedura [installation instructions](https://help.earnapp.com/hc/en-
 
 ### Installare Docker
 
-Imparare [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Imparare [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Installare il contenitore Docker
 Per installare l'applicazione Earn utilizzando Docker, seguire i seguenti passaggi:
@@ -53,7 +53,7 @@ Guardate questo video tutorial che vi guiderà nel processo di installazione di 
 
 In conclusione, Earn App rappresenta un'eccellente opportunità per monetizzare i vostri dispositivi inattivi e guadagnare ricompense condividendo il vostro internet come servizio VPN. Sfruttando le risorse inutilizzate del vostro dispositivo, potete generare un reddito passivo con un IP residenziale, con una media di 5 dollari al mese per nodo. Per iniziare, create un account su Earn App, seguite le istruzioni di installazione e iniziate a guadagnare ricompense oggi stesso. Sfruttate al massimo i vostri dispositivi inattivi e trasformateli in una preziosa fonte di reddito senza alcuno sforzo.
 
-Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Riferimenti:
 

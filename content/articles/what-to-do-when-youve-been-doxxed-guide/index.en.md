@@ -93,9 +93,9 @@ Additionally, if you have any **professional profiles** on platforms like Linked
 By taking these steps, you reduce the accessibility of your personal information and make it more challenging for individuals to exploit it. Remember to regularly monitor your online presence to ensure that your information remains secure and protected.
 
 #### Additional Reading For Step 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ Enhancing your **online privacy** and **security** measures is crucial to preven
 
 #### a. Review and update privacy settings
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) of your online accounts and ensure they are set to the highest level of protection. Limit the visibility of personal information and posts to trusted friends or connections only. For example, on social media platforms like Facebook, navigate to the privacy settings and customize who can view your profile, posts, and personal information.
+[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) of your online accounts and ensure they are set to the highest level of protection. Limit the visibility of personal information and posts to trusted friends or connections only. For example, on social media platforms like Facebook, navigate to the privacy settings and customize who can view your profile, posts, and personal information.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) on all your online accounts whenever possible. 2FA adds an extra layer of security by requiring an additional verification step, usually through a mobile device, to access your accounts. Services like Google, Facebook, and Twitter offer 2FA options. Enable it by following the instructions provided by the respective platforms.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) on all your online accounts whenever possible. 2FA adds an extra layer of security by requiring an additional verification step, usually through a mobile device, to access your accounts. Services like Google, Facebook, and Twitter offer 2FA options. Enable it by following the instructions provided by the respective platforms.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Create [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for each of your online accounts. **Avoid using common passwords or reusing passwords across multiple platforms.** Consider using a **password manager** to securely store and manage your passwords. Password managers like LastPass, Dashlane, or 1Password generate and store complex passwords for you.
+Create [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for each of your online accounts. **Avoid using common passwords or reusing passwords across multiple platforms.** Consider using a **password manager** to securely store and manage your passwords. Password managers like LastPass, Dashlane, or 1Password generate and store complex passwords for you.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) on public platforms or with unknown individuals. **Be cautious** when filling out online forms or engaging in conversations with strangers. Verify the legitimacy and security of websites or platforms before providing any personal details. For example, **avoid sharing your full address or phone number** in public forums or online communities.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) on public platforms or with unknown individuals. **Be cautious** when filling out online forms or engaging in conversations with strangers. Verify the legitimacy and security of websites or platforms before providing any personal details. For example, **avoid sharing your full address or phone number** in public forums or online communities.
 
 #### e. Regularly update software and use antivirus protection
 

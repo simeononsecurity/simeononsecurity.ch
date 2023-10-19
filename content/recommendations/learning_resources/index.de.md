@@ -27,7 +27,7 @@ Für diejenigen, die sich für Cybersicherheit interessieren, gibt es mehrere Re
 - [**INE**](https://ine.com/) INE bietet sowohl kostenlose als auch kostenpflichtige hochqualitative Cybersicherheitslabore und Schulungen an.
 - [**Immersive Labs**](https://www.immersivelabs.com/) Diese Plattform bietet kostenlose Cybersicherheitslabore an, wobei auch kostenpflichtige Angebote verfügbar sind. Kostenlos für aktive Studenten.
 - [**Mosse Cyber Security Institute**](https://platform.mosse-institute.com/#/) Diese Plattform bietet kostenlose Cyber Security Labs, aber auch kostenpflichtige Angebote.
-- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.com/tags/pentesterlab/) Auch kostenpflichtige Angebote sind verfügbar.
+- [**PenTesterLab**](https://pentesterlab.com/) This platform offers hands-on [Pentesting Labs](https://simeononsecurity.ch/tags/pentesterlab/) Auch kostenpflichtige Angebote sind verfügbar.
 - [**TryHackMe**](https://tryhackme.com/signup?referrer=5f651e437af6815dfbc2ab56) Diese Plattform bietet geführte CTF-Herausforderungen mit der Option einer kostenpflichtigen Mitgliedschaft.
 
 ## Networking:

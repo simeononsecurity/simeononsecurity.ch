@@ -97,7 +97,7 @@ Se recomandă să păstrați UAC activat și setat la un nivel care asigură un 
 
 Prin configurarea setărilor UAC, îmbunătățiți securitatea sistemului dumneavoastră Windows 10, asigurându-vă că sunt necesare privilegii administrative pentru modificările critice ale sistemului, reducând riscul de acces neautorizat și de infectare cu programe malware.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 Utilizarea unor parole puternice este esențială pentru menținerea securității sistemului Windows 10 și pentru protejarea împotriva accesului neautorizat. Parolele slabe sau ușor de ghicit pot face ca sistemul dvs. să fie vulnerabil la atacuri, cum ar fi atacurile de forță brută sau spargerea parolelor.
 
 Pentru a vă asigura că toate conturile de utilizator de pe sistemul dvs. Windows 10 au parole puternice, urmați aceste bune practici privind parolele:
@@ -116,7 +116,7 @@ Pentru a vă asigura că toate conturile de utilizator de pe sistemul dvs. Windo
 
 Prin implementarea unor practici solide privind parolele, îmbunătățiți semnificativ securitatea sistemului Windows 10 și reduceți riscul de acces neautorizat sau de încălcare a datelor. Educați în mod regulat utilizatorii cu privire la securitatea parolelor și oferiți resurse, cum ar fi contoare de rezistență a parolelor sau ghiduri de creare a parolelor, pentru a-i ajuta să creeze parole puternice.
 
-Pentru informații mai detaliate despre crearea de parole puternice și cele mai bune practici, puteți consulta acest document [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Acesta oferă îndrumări cuprinzătoare privind securitatea parolelor și oferă sfaturi pentru crearea de parole puternice și memorabile.
+Pentru informații mai detaliate despre crearea de parole puternice și cele mai bune practici, puteți consulta acest document [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Acesta oferă îndrumări cuprinzătoare privind securitatea parolelor și oferă sfaturi pentru crearea de parole puternice și memorabile.
 
 Nu uitați că utilizarea unor parole puternice este un aspect fundamental al securității sistemului și trebuie să fie prioritară pentru a proteja datele sensibile și a asigura integritatea mediului Windows 10.
 
@@ -200,7 +200,7 @@ Pentru informații mai detaliate despre implementarea politicilor AppLocker, put
 
 Nu uitați să revizuiți și să actualizați periodic politicile AppLocker pentru a vă adapta la cerințele în schimbare ale aplicațiilor și la amenințările de securitate emergente. AppLocker este un instrument valoros în apărarea dvs. împotriva aplicațiilor neautorizate și potențial dăunătoare pe sistemul dvs. Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Salvarea regulată a datelor este o practică esențială pentru a vă proteja împotriva pierderilor de date cauzate de incidente de securitate, defecțiuni hardware sau alte evenimente neașteptate. Prin crearea de copii de rezervă regulate și verificarea integrității acestora, vă puteți asigura că datele dvs. importante rămân în siguranță și pot fi restaurate în cazul unui dezastru.
 
 Urmați acești pași pentru a face în mod regulat o copie de rezervă a datelor dvs. pe un sistem Windows 10:
@@ -221,7 +221,7 @@ Urmați acești pași pentru a face în mod regulat o copie de rezervă a datelo
 
 Urmând acești pași și aderând la o rutină de backup regulată, puteți minimiza impactul pierderii de date și menține disponibilitatea informațiilor dvs. importante. Nu uitați să vă păstrați copiile de rezervă în siguranță, departe de datele originale, și luați în considerare implementarea regulii de rezervă **3-2-1**, având cel puțin trei copii ale datelor dumneavoastră, stocate pe două medii de stocare diferite, cu o copie stocată în afara site-ului.
 
-Pentru informații mai detaliate despre cele mai bune practici de backup și regula **3-2-1 backup**, puteți consulta articolul de pe [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Acesta oferă informații și recomandări valoroase pentru implementarea unei strategii de backup eficiente.
+Pentru informații mai detaliate despre cele mai bune practici de backup și regula **3-2-1 backup**, puteți consulta articolul de pe [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Acesta oferă informații și recomandări valoroase pentru implementarea unei strategii de backup eficiente.
 
 Nu uitați că backup-urile regulate sunt esențiale pentru a vă proteja datele și pentru a asigura disponibilitatea acestora în caz de evenimente neprevăzute. Faceți din backup-ul datelor o parte integrantă a eforturilor dvs. de întărire a Windows 10 pentru a vă proteja informațiile valoroase.
 

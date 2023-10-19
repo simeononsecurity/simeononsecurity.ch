@@ -32,7 +32,7 @@ Atunci când faceți achiziții online, este esențial să vă protejați inform
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) este un alt serviciu de încredere care vă permite să generați carduri de debit virtuale pentru achiziții online. Cu Privacy.com, puteți crea numere de card unice pentru fiecare tranzacție, asigurându-vă că informațiile reale ale cardului dumneavoastră de credit rămân în siguranță. Acest serviciu vă permite, de asemenea, să stabiliți limite de cheltuieli și să controlați abonamentele, oferindu-vă un control mai bun asupra tranzacțiilor dvs. online.
 
-Aflați mai multe despre [recommended privacy services](https://simeononsecurity.com/recommendations/services)
+Aflați mai multe despre [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ Rămâneți la platforme de comerț electronic de încredere și bine cunoscute 
 
 Actualizați-vă periodic sistemul de operare, browserul web și software-ul antivirus pentru a vă asigura că dispuneți de cele mai recente patch-uri de securitate și de protecție împotriva programelor malware și a amenințărilor cibernetice. Activați actualizările automate ori de câte ori este posibil.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) e-mailuri, mesaje text sau apeluri telefonice care încearcă să vă păcălească pentru a vă dezvălui informații personale sau credențiale de conectare. Evitați să dați click pe linkuri suspecte și verificați autenticitatea oricărei comunicări din partea vânzătorilor online înainte de a împărtăși orice date sensibile.
+[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) e-mailuri, mesaje text sau apeluri telefonice care încearcă să vă păcălească pentru a vă dezvălui informații personale sau credențiale de conectare. Evitați să dați click pe linkuri suspecte și verificați autenticitatea oricărei comunicări din partea vânzătorilor online înainte de a împărtăși orice date sensibile.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru conturile dvs. de cumpărături online. Evitați să refolosiți parolele pe mai multe platforme. Luați în considerare utilizarea unui manager de parole, cum ar fi **LastPass** sau **Dashlane**, pentru a stoca în siguranță și a genera parole complexe.
+[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pentru conturile dvs. de cumpărături online. Evitați să refolosiți parolele pe mai multe platforme. Luați în considerare utilizarea unui manager de parole, cum ar fi **LastPass** sau **Dashlane**, pentru a stoca în siguranță și a genera parole complexe.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) adaugă un nivel suplimentar de securitate, solicitând o a doua formă de verificare, cum ar fi un cod unic trimis pe dispozitivul mobil, pe lângă parolă. Activați 2FA ori de câte ori este posibil pentru a vă proteja conturile de cumpărături online.
+[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) adaugă un nivel suplimentar de securitate, solicitând o a doua formă de verificare, cum ar fi un cod unic trimis pe dispozitivul mobil, pe lângă parolă. Activați 2FA ori de câte ori este posibil pentru a vă proteja conturile de cumpărături online.
 
 ### 6. Examinați evaluările și recenziile vânzătorului
 
 Înainte de a face o achiziție de la un vânzător nou, verificați ratingurile și recenziile acestora de la alți clienți. Aceste informații vă pot ajuta să evaluați credibilitatea și fiabilitatea vânzătorului.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
 
 Evitați să faceți cumpărături online atunci când sunteți conectat la rețele Wi-Fi publice, deoarece acestea sunt adesea nesecurizate și predispuse la ascultări. În schimb, utilizați o conexiune de internet sigură și privată, cum ar fi rețeaua de acasă sau un serviciu VPN (Virtual Private Network) de încredere.
 

@@ -22,13 +22,13 @@ Când vine vorba de spargerea parolelor, fiecare secundă contează. Aici este m
 
 NVIDIA RTX 3090 este o placă grafică puternică, concepută pentru jocuri și aplicații profesionale precum învățarea automată și simulările științifice. Se bazează pe arhitectura Ampere și dispune de 10496 nuclee CUDA, 328 nuclee Tensor și 112 nuclee RT. De asemenea, are 24 GB de memorie GDDR6X și o lățime de bandă de memorie de 936 GB/s.
 
-În cadrul unor teste de referință de spargere a parolelor efectuate de simeononsecurity.com, RTX 3090 a reușit să spargă o parolă simplă de opt caractere în 120 de secunde și o parolă complexă de opt caractere în 1200 de secunde. Pentru o parolă simplă de douăsprezece caractere, timpul a crescut la 12000 de secunde, iar pentru o parolă complexă de douăsprezece caractere, a crescut și mai mult la 120000 de secunde.
+În cadrul unor teste de referință de spargere a parolelor efectuate de simeononsecurity.ch, RTX 3090 a reușit să spargă o parolă simplă de opt caractere în 120 de secunde și o parolă complexă de opt caractere în 1200 de secunde. Pentru o parolă simplă de douăsprezece caractere, timpul a crescut la 12000 de secunde, iar pentru o parolă complexă de douăsprezece caractere, a crescut și mai mult la 120000 de secunde.
 
 ## NVIDIA RTX 4090
 
 NVIDIA RTX 4090 este succesorul lui RTX 3090 și este în prezent cea mai puternică placă grafică disponibilă. Dispune de aceeași arhitectură Ampere ca RTX 3090, dar cu o performanță brută de aproape două ori mai mare decât cea a modelului 3090.
 
-În testele de referință pentru spargerea parolelor efectuate de simeononsecurity.com, RTX 4090 a reușit să spargă o parolă simplă de opt caractere în 60 de secunde și o parolă complexă de opt caractere în 600 de secunde. Pentru o parolă simplă de douăsprezece caractere, timpul a crescut la 6000 de secunde, iar pentru o parolă complexă de douăsprezece caractere, a crescut și mai mult, ajungând la 60000 de secunde.
+În testele de referință pentru spargerea parolelor efectuate de simeononsecurity.ch, RTX 4090 a reușit să spargă o parolă simplă de opt caractere în 60 de secunde și o parolă complexă de opt caractere în 600 de secunde. Pentru o parolă simplă de douăsprezece caractere, timpul a crescut la 6000 de secunde, iar pentru o parolă complexă de douăsprezece caractere, a crescut și mai mult, ajungând la 60000 de secunde.
 
 ## Puncte de referință
 
@@ -49,7 +49,7 @@ Lungime parolă | Complexitate | RTX 3090 (secunde) | RTX 4090 (secunde)
 
 Rezultatele testelor noastre de referință arată că **RTX 4090** este un instrument puternic pentru spargerea parolelor. Acest lucru înseamnă că atacatorii pot sparge parolele mult mai repede decât până acum.
 
-Acest lucru reprezintă o preocupare serioasă în materie de securitate, deoarece înseamnă că atacatorii pot obține acum acces la conturi și sisteme mult mai ușor. Pentru a vă proteja împotriva atacurilor de spargere a parolelor, ar trebui să utilizați [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pentru a vă ajuta să generați și să stocați parole puternice.
+Acest lucru reprezintă o preocupare serioasă în materie de securitate, deoarece înseamnă că atacatorii pot obține acum acces la conturi și sisteme mult mai ușor. Pentru a vă proteja împotriva atacurilor de spargere a parolelor, ar trebui să utilizați [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) pentru a vă ajuta să generați și să stocați parole puternice.
 
 ## Concluzie
 

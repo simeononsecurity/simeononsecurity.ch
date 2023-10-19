@@ -20,15 +20,15 @@ Zanim zagłębimy się we wskazówki, ważne jest, aby zrozumieć, dlaczego bezp
 
 #### Ryzyko bycia online
 
-Za każdym razem, gdy korzystasz z Internetu, istnieje ryzyko, że padniesz ofiarą oszustw internetowych, naruszenia bezpieczeństwa danych lub innych cyberzagrożeń. Niektóre z zagrożeń obejmują **nieświadome pobieranie złośliwego oprogramowania, udostępnianie danych osobowych hakerom, angażowanie się w nieuczciwe strony internetowe** i wiele innych. Niestety, ryzyko nie ogranicza się do osób dorosłych; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Dlatego tak ważne stało się, aby wiedzieć, jak chronić siebie i swoich bliskich podczas korzystania z usług online.
+Za każdym razem, gdy korzystasz z Internetu, istnieje ryzyko, że padniesz ofiarą oszustw internetowych, naruszenia bezpieczeństwa danych lub innych cyberzagrożeń. Niektóre z zagrożeń obejmują **nieświadome pobieranie złośliwego oprogramowania, udostępnianie danych osobowych hakerom, angażowanie się w nieuczciwe strony internetowe** i wiele innych. Niestety, ryzyko nie ogranicza się do osób dorosłych; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Dlatego tak ważne stało się, aby wiedzieć, jak chronić siebie i swoich bliskich podczas korzystania z usług online.
 
 Jednym ze sposobów ochrony przed oszustwami internetowymi jest zachowanie ostrożności podczas otwierania **wiadomości e-mail od nieznanych nadawców**. Wiadomości te mogą zawierać linki phishingowe, które mogą wykraść dane osobowe. Ważne jest również, aby zachować ostrożność podczas pobierania oprogramowania z Internetu. Niektóre programy mogą zawierać złośliwe oprogramowanie, które może uszkodzić urządzenie lub wykraść dane.
 
-Innym ryzykiem związanym z korzystaniem z Internetu jest [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Cyberprzemoc może mieć poważny wpływ na zdrowie psychiczne i samopoczucie danej osoby. Ważne jest, aby rozmawiać z dziećmi o zagrożeniach związanych z cyberprzemocą i o tym, jak je zgłaszać.
+Innym ryzykiem związanym z korzystaniem z Internetu jest [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Cyberprzemoc może mieć poważny wpływ na zdrowie psychiczne i samopoczucie danej osoby. Ważne jest, aby rozmawiać z dziećmi o zagrożeniach związanych z cyberprzemocą i o tym, jak je zgłaszać.
 
 #### Ochrona danych osobowych
 
-Twoje dane osobowe są cenne i muszą być chronione. Należy wyrobić w sobie nawyk korzystania z [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) i zachowaj ostrożność podczas udostępniania informacji online. Unikaj udostępniania wrażliwych danych, takich jak **numer ubezpieczenia społecznego, numery kart kredytowych i adresy domowe**. Korzystaj z legalnych stron internetowych, które posiadają **certyfikaty SSL** w celu zapewnienia, że twoje dane są szyfrowane przed transmisją.
+Twoje dane osobowe są cenne i muszą być chronione. Należy wyrobić w sobie nawyk korzystania z [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) i zachowaj ostrożność podczas udostępniania informacji online. Unikaj udostępniania wrażliwych danych, takich jak **numer ubezpieczenia społecznego, numery kart kredytowych i adresy domowe**. Korzystaj z legalnych stron internetowych, które posiadają **certyfikaty SSL** w celu zapewnienia, że twoje dane są szyfrowane przed transmisją.
 
 Ważne jest również, aby **aktualizować oprogramowanie i urządzenia**. Aktualizacje oprogramowania często zawierają poprawki bezpieczeństwa, które mogą chronić urządzenie przed cyberatakami. Ponadto należy zachować ostrożność podczas korzystania z publicznych sieci Wi-Fi. Publiczne sieci Wi-Fi są często niezabezpieczone, co oznacza, że dane mogą zostać przechwycone przez cyberprzestępców.
 
@@ -48,13 +48,13 @@ Nieaktualne oprogramowanie jest jednym z najczęstszych sposobów, w jaki hakerz
 
 #### Używaj silnych haseł i uwierzytelniania dwuskładnikowego.
 
-Utwórz [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) używając kombinacji wielkich i małych liter, cyfr i symboli. Należy dążyć do wprowadzenia co najmniej 12 znaków. Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę ochrony, prosząc o podanie dodatkowego kodu otrzymanego SMS-em lub e-mailem przed uzyskaniem dostępu do konta.
+Utwórz [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) używając kombinacji wielkich i małych liter, cyfr i symboli. Należy dążyć do wprowadzenia co najmniej 12 znaków. Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę ochrony, prosząc o podanie dodatkowego kodu otrzymanego SMS-em lub e-mailem przed uzyskaniem dostępu do konta.
 
 Używanie słabych haseł jest jednym z najłatwiejszych sposobów uzyskania przez hakerów dostępu do kont i danych osobowych. Tworząc silne hasła i włączając uwierzytelnianie dwuskładnikowe, możesz znacznie zmniejszyć ryzyko włamania na twoje konta.
 
 #### Zabezpiecz swoją sieć Wi-Fi
 
-Używaj [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) aby zabezpieczyć sieć Wi-Fi przed nieautoryzowanym dostępem do urządzeń i danych. Nie używaj domyślnych haseł, ponieważ są one łatwe do złamania.
+Używaj [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) aby zabezpieczyć sieć Wi-Fi przed nieautoryzowanym dostępem do urządzeń i danych. Nie używaj domyślnych haseł, ponieważ są one łatwe do złamania.
 
 Sieć Wi-Fi jest bramą do urządzeń i danych. Zabezpieczając sieć Wi-Fi silnym hasłem, możesz zapobiec nieautoryzowanemu dostępowi do sieci i chronić swoje urządzenia i dane przed **zagrożeniami cybernetycznymi**.
 
@@ -70,11 +70,11 @@ Monitorując aktywność w sieci, można szybko zidentyfikować wszelkie **niety
 
 W dzisiejszej erze cyfrowej e-maile i wiadomości stały się powszechnym sposobem komunikacji. Ważne jest jednak, aby zachować ostrożność podczas udostępniania danych osobowych za pośrednictwem tych mediów. **Cyberprzestępcy** zawsze szukają sposobów na kradzież danych osobowych, a e-maile i wiadomości są dla nich jednym z najłatwiejszych sposobów.
 
-[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) są powszechnym sposobem pozyskiwania danych osobowych przez cyberprzestępców. Oszustwa te sprawiają, że użytkownik myśli, że komunikuje się z legalnym kontaktem lub organizacją i prosi o podanie poufnych informacji. E-maile lub wiadomości mogą wyglądać na autentyczne, ale ich celem jest kradzież danych osobowych. Dlatego ważne jest, aby uważać na takie oszustwa i nie udostępniać żadnych danych osobowych za pośrednictwem poczty elektronicznej lub wiadomości.
+[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) są powszechnym sposobem pozyskiwania danych osobowych przez cyberprzestępców. Oszustwa te sprawiają, że użytkownik myśli, że komunikuje się z legalnym kontaktem lub organizacją i prosi o podanie poufnych informacji. E-maile lub wiadomości mogą wyglądać na autentyczne, ale ich celem jest kradzież danych osobowych. Dlatego ważne jest, aby uważać na takie oszustwa i nie udostępniać żadnych danych osobowych za pośrednictwem poczty elektronicznej lub wiadomości.
 
-#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) mogą być trudne do zidentyfikowania, ale jest kilka rzeczy, które możesz zrobić, aby się chronić. Po pierwsze, sprawdź adres e-mail nadawcy. Jeśli wygląda on **podejrzanie lub nieznanie**, nie odpowiadaj na wiadomość. Po drugie, **przejrzyj wszystkie linki** w wiadomości e-mail, aby zobaczyć, dokąd prowadzą przed kliknięciem. Jeśli link wygląda podejrzanie, nie klikaj go. Wreszcie, jeśli nie masz pewności co do legalności wiadomości e-mail lub wiadomości, skontaktuj się bezpośrednio z organizacją lub osobą, aby potwierdzić, czy wysłała wiadomość e-mail.
+[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) mogą być trudne do zidentyfikowania, ale jest kilka rzeczy, które możesz zrobić, aby się chronić. Po pierwsze, sprawdź adres e-mail nadawcy. Jeśli wygląda on **podejrzanie lub nieznanie**, nie odpowiadaj na wiadomość. Po drugie, **przejrzyj wszystkie linki** w wiadomości e-mail, aby zobaczyć, dokąd prowadzą przed kliknięciem. Jeśli link wygląda podejrzanie, nie klikaj go. Wreszcie, jeśli nie masz pewności co do legalności wiadomości e-mail lub wiadomości, skontaktuj się bezpośrednio z organizacją lub osobą, aby potwierdzić, czy wysłała wiadomość e-mail.
 
 #### Unikaj klikania podejrzanych linków
 
@@ -120,11 +120,11 @@ Nawet jeśli robisz zakupy na bezpiecznych stronach internetowych, zawsze istnie
 
 Większość banków i firm obsługujących karty kredytowe posiada **systemy wykrywania oszustw**, które mogą ostrzegać o podejrzanych działaniach. Jednak nadal ważne jest, aby mieć oko na swoje wyciągi i zgłaszać wszelkie nieautoryzowane transakcje tak szybko, jak to możliwe.
 
-#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Innym sposobem ochrony informacji finansowych jest użycie [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Unikaj używania tego samego hasła do wielu kont i nie używaj łatwych do odgadnięcia haseł, takich jak "123456" lub "hasło". Zamiast tego używaj kombinacji liter, cyfr i symboli, aby utworzyć silne, unikalne hasło dla każdego konta.
+Innym sposobem ochrony informacji finansowych jest użycie [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Unikaj używania tego samego hasła do wielu kont i nie używaj łatwych do odgadnięcia haseł, takich jak "123456" lub "hasło". Zamiast tego używaj kombinacji liter, cyfr i symboli, aby utworzyć silne, unikalne hasło dla każdego konta.
 
-Rozważ użycie [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) aby pomóc w tworzeniu i przechowywaniu silnych haseł. Menedżery haseł mogą generować losowe hasła i bezpiecznie je przechowywać, dzięki czemu nie trzeba ich zapamiętywać.
+Rozważ użycie [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) aby pomóc w tworzeniu i przechowywaniu silnych haseł. Menedżery haseł mogą generować losowe hasła i bezpiecznie je przechowywać, dzięki czemu nie trzeba ich zapamiętywać.
 
 #### Podsumowanie
 
@@ -140,13 +140,13 @@ Oto kilka wskazówek, które pomogą ci zachować bezpieczeństwo:
 * Włącz **dwuskładnikowe uwierzytelnianie**, gdy tylko jest to możliwe.
 * Zachowaj ostrożność wobec **podejrzanych wiadomości e-mail, linków i załączników**.
 * Dbaj o **aktualizację oprogramowania i systemu operacyjnego**.
-* Używaj [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) i **firewall**
+* Używaj [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) i **firewall**
 
 #### Bądź na bieżąco z zagrożeniami online
 
 Ważne jest, aby być na bieżąco z najnowszymi **zagrożeniami bezpieczeństwa** i lukami w zabezpieczeniach, aby chronić siebie i swoją rodzinę. Cyberprzestępcy nieustannie wymyślają nowe taktyki kradzieży danych osobowych, infekowania urządzeń **złośliwym oprogramowaniem** i wyłudzania pieniędzy.
 
-Możesz być na bieżąco, śledząc renomowane **blogi o bezpieczeństwie** i serwisy informacyjne, a także subskrybując alerty bezpieczeństwa od swojego [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
+Możesz być na bieżąco, śledząc renomowane **blogi o bezpieczeństwie** i serwisy informacyjne, a także subskrybując alerty bezpieczeństwa od swojego [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/)
 
 #### Uczy dzieci bezpieczeństwa w Internecie
 
@@ -163,23 +163,23 @@ Postępując zgodnie z tymi wskazówkami, możesz pomóc chronić siebie i swoj�
 
 ### Używaj niezawodnego oprogramowania zabezpieczającego
 
-Zainstaluj [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) w celu ochrony sieci i zapobiegania nieautoryzowanemu dostępowi do danych.
+Zainstaluj [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) w celu ochrony sieci i zapobiegania nieautoryzowanemu dostępowi do danych.
 
-Przy stale rosnącej liczbie **zagrożeń cybernetycznych** ważne jest, aby zapewnić ochronę urządzeń za pomocą niezawodnego oprogramowania zabezpieczającego. Instalacja [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) i **oprogramowanie antywirusowe** na urządzeniach jest kluczowym krokiem w ochronie danych osobowych i poufnych informacji. Programy te mają na celu wykrywanie, zapobieganie i usuwanie złośliwego oprogramowania, które może uszkodzić komputer i wykraść dane.
+Przy stale rosnącej liczbie **zagrożeń cybernetycznych** ważne jest, aby zapewnić ochronę urządzeń za pomocą niezawodnego oprogramowania zabezpieczającego. Instalacja [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/) i **oprogramowanie antywirusowe** na urządzeniach jest kluczowym krokiem w ochronie danych osobowych i poufnych informacji. Programy te mają na celu wykrywanie, zapobieganie i usuwanie złośliwego oprogramowania, które może uszkodzić komputer i wykraść dane.
 
-**Zapory sieciowe** i [**VPN services**](https://simeononsecurity.com/recommendations/vpns) są również niezbędnymi narzędziami do zabezpieczenia sieci. Zapory sieciowe działają jak bariera między urządzeniem a Internetem, blokując niepożądany ruch i uniemożliwiając hakerom dostęp do sieci. Z kolei usługi VPN tworzą bezpieczne, szyfrowane połączenie między urządzeniem a Internetem, zapewniając dodatkową warstwę ochrony przed cyberzagrożeniami.
+**Zapory sieciowe** i [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) są również niezbędnymi narzędziami do zabezpieczenia sieci. Zapory sieciowe działają jak bariera między urządzeniem a Internetem, blokując niepożądany ruch i uniemożliwiając hakerom dostęp do sieci. Z kolei usługi VPN tworzą bezpieczne, szyfrowane połączenie między urządzeniem a Internetem, zapewniając dodatkową warstwę ochrony przed cyberzagrożeniami.
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
 
-Użycie [antivirus](https://simeononsecurity.com/recommendations/anti-virus/) i oprogramowanie chroniące przed złośliwym oprogramowaniem w celu ochrony komputera przed **wirusami, złośliwym oprogramowaniem** i innymi zagrożeniami cybernetycznymi. Programy te mogą wykrywać i usuwać złośliwe oprogramowanie, które może uszkodzić komputer i narazić dane na szwank. Ważne jest, aby utrzymywać te programy **aktualne** i przeprowadzać regularne skanowanie, aby zapewnić ochronę urządzenia.
+Użycie [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/) i oprogramowanie chroniące przed złośliwym oprogramowaniem w celu ochrony komputera przed **wirusami, złośliwym oprogramowaniem** i innymi zagrożeniami cybernetycznymi. Programy te mogą wykrywać i usuwać złośliwe oprogramowanie, które może uszkodzić komputer i narazić dane na szwank. Ważne jest, aby utrzymywać te programy **aktualne** i przeprowadzać regularne skanowanie, aby zapewnić ochronę urządzenia.
 
 Niektóre popularne programy antywirusowe i chroniące przed złośliwym oprogramowaniem to **Norton, McAfee i Avast**. Programy te oferują **ochronę w czasie rzeczywistym** przed cyberzagrożeniami, **automatyczne aktualizacje** i inne funkcje, które mogą pomóc w zapewnieniu bezpieczeństwa urządzenia.
 
 #### Zapora sieciowa i usługi VPN
 
-Zapora sieciowa** i [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns) chronić swoją sieć przed złośliwym oprogramowaniem i nieautoryzowanym dostępem, konfigurując bezpieczną, prywatną sieć w sieci publicznej. Zapory sieciowe monitorują i kontrolują przychodzący i wychodzący ruch sieciowy, podczas gdy sieci VPN szyfrują połączenie internetowe i ukrywają adres IP, utrudniając hakerom przechwycenie danych.
+Zapora sieciowa** i [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns) chronić swoją sieć przed złośliwym oprogramowaniem i nieautoryzowanym dostępem, konfigurując bezpieczną, prywatną sieć w sieci publicznej. Zapory sieciowe monitorują i kontrolują przychodzący i wychodzący ruch sieciowy, podczas gdy sieci VPN szyfrują połączenie internetowe i ukrywają adres IP, utrudniając hakerom przechwycenie danych.
 
-Istnieje wiele **zapór ogniowych** i [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
+Istnieje wiele **zapór ogniowych** i [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns)
 
 Korzystając z **niezawodnego oprogramowania zabezpieczającego**, możesz chronić swoje urządzenia i sieci przed cyberzagrożeniami i zapewnić, że twoje osobiste i poufne informacje pozostaną bezpieczne.
 
@@ -195,11 +195,11 @@ Dlatego ważne jest, aby **unikać logowania się do usług osobistych** w nieza
 
 Ponadto ważne jest, aby zachować ostrożność podczas korzystania z komputerów publicznych do poufnych transakcji. Komputery te mogą mieć zainstalowane **keyloggery** lub inne złośliwe oprogramowanie, które może przechwytywać naciśnięcia klawiszy i kraść dane osobowe.
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
 
 **VPN**, czyli **wirtualna sieć prywatna**, to narzędzie bezpieczeństwa, które szyfruje połączenie internetowe i ukrywa adres IP. Utrudnia to hakerom przechwycenie danych i chroni urządzenie przed potencjalnymi atakami.
 
-Podczas korzystania z publicznych sieci Wi-Fi zaleca się używanie [**VPN service**](https://simeononsecurity.com/recommendations/vpns) do szyfrowania danych. Zapewni to bezpieczeństwo danych osobowych, nawet jeśli sieć jest niezabezpieczona. Wiele usług VPN jest dostępnych za darmo lub za niewielką opłatą i są one łatwe do zainstalowania i używania na urządzeniu.
+Podczas korzystania z publicznych sieci Wi-Fi zaleca się używanie [**VPN service**](https://simeononsecurity.ch/recommendations/vpns) do szyfrowania danych. Zapewni to bezpieczeństwo danych osobowych, nawet jeśli sieć jest niezabezpieczona. Wiele usług VPN jest dostępnych za darmo lub za niewielką opłatą i są one łatwe do zainstalowania i używania na urządzeniu.
 
 Ogólnie rzecz biorąc, ważne jest, aby zachować ostrożność podczas korzystania z publicznej sieci Wi-Fi i podjąć niezbędne środki ostrożności w celu ochrony swoich danych. Korzystając z **usługi VPN** i unikając niezabezpieczonych sieci, możesz pozostać w kontakcie, zachowując bezpieczeństwo swoich danych osobowych.
 

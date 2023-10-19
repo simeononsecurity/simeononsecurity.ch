@@ -10,7 +10,7 @@ coverAlt: "a cartoon vault door being unlocked with a key revealing a treasure c
 coverCaption: ""
 ---
 
-A comprehensive guide to solving the "Bank Heist" Crypto challenge on HackTheBox. The challenge involves decoding a [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) text using Decode.fr and an atbash cipher text using CyberChef to reveal the flag. A must-read for aspiring cyber security professionals and anyone looking to enhance their skills in cryptography.
+A comprehensive guide to solving the "Bank Heist" Crypto challenge on HackTheBox. The challenge involves decoding a [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) text using Decode.fr and an atbash cipher text using CyberChef to reveal the flag. A must-read for aspiring cyber security professionals and anyone looking to enhance their skills in cryptography.
 
 ## Provided Files:
 

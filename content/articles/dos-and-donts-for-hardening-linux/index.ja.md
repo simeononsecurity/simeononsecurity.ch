@@ -17,7 +17,7 @@ Linuxは、個人でも企業でもよく使われるオペレーティングシ
 
 ### システムを常にアップデートしておく
 
-システムを常に最新の状態に保つ [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/)システムのセキュリティを維持するためには、システムを最新にすることが重要です。定期的なアップデートは、セキュリティの脆弱性やバグを修正するのに役立ち、潜在的な攻撃に対してシステムの安全性を維持することを保証します。ここでは、**apt-get** または **yum** パッケージマネージャを使用して Linux システムを更新する方法の例をいくつか紹介します：
+システムを常に最新の状態に保つ [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)システムのセキュリティを維持するためには、システムを最新にすることが重要です。定期的なアップデートは、セキュリティの脆弱性やバグを修正するのに役立ち、潜在的な攻撃に対してシステムの安全性を維持することを保証します。ここでは、**apt-get** または **yum** パッケージマネージャを使用して Linux システムを更新する方法の例をいくつか紹介します：
 
 #### apt-get を使用した Ubuntu のアップデート
 
@@ -296,7 +296,7 @@ ______
 
 脆弱なパスワードを使用することは、Linux システムを攻撃されやすい状態にする一般的な間違いです。攻撃者は、一般的な単語、名前、または日付に基づいたパスワードを推測するツールを使用することができます。簡単に推測できない、強力でユニークなパスワードを使用することが重要です。
 
-大文字、小文字、数字、特殊文字を組み合わせて使用することで、強力なパスワードを作成することができます。を使用するのもよい習慣です。 [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)は、パスワードを覚えて、複数のアカウントで同じパスワードを使用しないようにするのにも役立ちます。
+大文字、小文字、数字、特殊文字を組み合わせて使用することで、強力なパスワードを作成することができます。を使用するのもよい習慣です。 [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)は、パスワードを覚えて、複数のアカウントで同じパスワードを使用しないようにするのにも役立ちます。
 
 ### rootのSSHアクセスを許可する
 

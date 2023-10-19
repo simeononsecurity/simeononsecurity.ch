@@ -10,7 +10,7 @@ coverAlt: "een cartoonachtige kluisdeur die wordt ontgrendeld met een sleutel di
 coverCaption: ""
 ---
 
-Een uitgebreide handleiding voor het oplossen van de Crypto-uitdaging "Bank Heist" op HackTheBox. De uitdaging bestaat uit het decoderen van een [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) tekst met Decode.fr en een atbash-cryptekst met CyberChef om de vlag te onthullen. Een must voor aspirant cyberbeveiligingsprofessionals en iedereen die zijn vaardigheden in cryptografie wil verbeteren.
+Een uitgebreide handleiding voor het oplossen van de Crypto-uitdaging "Bank Heist" op HackTheBox. De uitdaging bestaat uit het decoderen van een [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) tekst met Decode.fr en een atbash-cryptekst met CyberChef om de vlag te onthullen. Een must voor aspirant cyberbeveiligingsprofessionals en iedereen die zijn vaardigheden in cryptografie wil verbeteren.
 
 ## Meegeleverde bestanden:
 

@@ -30,14 +30,14 @@ Aby chronić wrażliwe lub niejawne informacje, organizacje powinny wdrożyć ko
 Kontrola dostępu do informacji ma kluczowe znaczenie dla zapobiegania nieautoryzowanemu wyciekowi. Należy wdrożyć następujące środki:
 
 - **Kontrola dostępu oparta na rolach**: Przypisuj prawa dostępu w oparciu o role i obowiązki zawodowe, aby zapewnić, że tylko upoważnione osoby mają dostęp do poufnych informacji.
-- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Wymaganie wielu czynników uwierzytelniania, takich jak hasła i dane biometryczne, w celu zwiększenia bezpieczeństwa poświadczeń dostępu.
+- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Wymaganie wielu czynników uwierzytelniania, takich jak hasła i dane biometryczne, w celu zwiększenia bezpieczeństwa poświadczeń dostępu.
 - **Regularne przeglądy dostępu**: Przeprowadzaj okresowe przeglądy, aby upewnić się, że uprawnienia dostępu są aktualne i niezwłocznie odbieraj dostęp osobom, które już go nie potrzebują.
 
 ### 2. Szyfrowanie wrażliwych informacji
 
 Szyfrowanie zapewnia dodatkową warstwę bezpieczeństwa w celu ochrony wrażliwych danych przed nieautoryzowanym dostępem. Rozważ następujące praktyki:
 
-- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Wdrożenie mechanizmów szyfrowania, które chronią informacje przez cały cykl ich życia, od przechowywania do transmisji.
+- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/) Wdrożenie mechanizmów szyfrowania, które chronią informacje przez cały cykl ich życia, od przechowywania do transmisji.
 - **Klasyfikacja danych**: Klasyfikacja informacji w oparciu o ich poziom wrażliwości i zastosowanie odpowiednich środków szyfrowania.
 - **Zarządzanie kluczami**: Ustanowienie solidnych praktyk zarządzania kluczami w celu zapewnienia właściwego przechowywania, ochrony i regularnej rotacji kluczy szyfrujących.
 
@@ -45,8 +45,8 @@ Szyfrowanie zapewnia dodatkową warstwę bezpieczeństwa w celu ochrony wrażliw
 
 Inwestowanie w szkolenia i świadomość pracowników ma kluczowe znaczenie dla zapobiegania wyciekom informacji. Oto, co możesz zrobić:
 
-- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Prowadzenie regularnych sesji szkoleniowych w celu informowania pracowników o najlepszych praktykach w zakresie bezpieczeństwa informacji, w tym o zagrożeniach związanych z wyciekiem informacji.
-- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/) Szkolenie pracowników w zakresie rozpoznawania i zgłaszania prób phishingu, które są często wykorzystywane jako sposób na uzyskanie nieautoryzowanego dostępu do poufnych informacji.
+- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Prowadzenie regularnych sesji szkoleniowych w celu informowania pracowników o najlepszych praktykach w zakresie bezpieczeństwa informacji, w tym o zagrożeniach związanych z wyciekiem informacji.
+- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/) Szkolenie pracowników w zakresie rozpoznawania i zgłaszania prób phishingu, które są często wykorzystywane jako sposób na uzyskanie nieautoryzowanego dostępu do poufnych informacji.
 - Procedury zgłaszania**: Ustanowienie jasnych procedur zgłaszania potencjalnych incydentów bezpieczeństwa lub podejrzanych działań odpowiednim organom.
 
 ### 4. Wdrożenie rozwiązań zapobiegających utracie danych (DLP)
@@ -80,7 +80,7 @@ Podsumowując, zapobieganie wyciekom informacji lub informacji niejawnych wymaga
 ## Referencje
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

@@ -108,6 +108,6 @@ ______
 | - Waterfox：Firefox 的高性能分叉版
 
 
-要了解有关网络隐私和安全的更多信息，请访问我们的 [collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security)并随时了解最新消息和趋势。
+要了解有关网络隐私和安全的更多信息，请访问我们的 [collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security)并随时了解最新消息和趋势。
 
 

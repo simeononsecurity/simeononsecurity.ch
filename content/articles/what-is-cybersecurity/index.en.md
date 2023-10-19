@@ -46,7 +46,7 @@ ______
 
 To improve cybersecurity, individuals can take several steps, including:
 
-- **Use [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and update them regularly**
+- **Use [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and update them regularly**
 - **Keep software and security systems up to date**
 - **Be cautious when opening emails or clicking on links from unknown sources**
 - **Use anti-virus and anti-malware software**

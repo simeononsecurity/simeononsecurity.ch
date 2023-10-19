@@ -12,7 +12,7 @@ coverCaption: "利用我们的广告机会接触更多受众。"
 
 提供的图片应为 `.png`或 `.webp`格式，以确保广告的最佳性能和质量。
 
-如需刊登广告，请通过以下网站的联系表格发送信息 [Contact Us](https://simeononsecurity.com/contactus/)我们将及时与您联系，讨论可用的广告选项和价格。
+如需刊登广告，请通过以下网站的联系表格发送信息 [Contact Us](https://simeononsecurity.ch/contactus/)我们将及时与您联系，讨论可用的广告选项和价格。
 
 我们期待与您合作，推广您的品牌，让我们的安全爱好者和专业人士受众了解您的品牌！
 

@@ -22,13 +22,13 @@ ______
 
 ## Ingeniería social
 
-**La ingeniería social** es un tipo de ciberataque que se basa en la interacción humana y la manipulación psicológica para engañar a las personas para que divulguen información confidencial o realicen determinadas acciones. Los ciberdelincuentes utilizan diversas tácticas, tales como [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) pretextos, cebos y quid pro quo, para ganarse la confianza de sus víctimas y obtener información confidencial.
+**La ingeniería social** es un tipo de ciberataque que se basa en la interacción humana y la manipulación psicológica para engañar a las personas para que divulguen información confidencial o realicen determinadas acciones. Los ciberdelincuentes utilizan diversas tácticas, tales como [phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) pretextos, cebos y quid pro quo, para ganarse la confianza de sus víctimas y obtener información confidencial.
 
 Para mitigar el riesgo de ataques de ingeniería social, los particulares y las organizaciones pueden adoptar las siguientes medidas:
 
-- Proporcionar [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) a los empleados para enseñarles a identificar y evitar los ataques de ingeniería social.
+- Proporcionar [**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) a los empleados para enseñarles a identificar y evitar los ataques de ingeniería social.
 - Utilice **filtros de spam** y protocolos de autenticación de correo electrónico, como **SPF**, **DKIM** y **DMARC**, para detectar y bloquear los correos electrónicos de phishing.
-- Poner en práctica [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
+- Poner en práctica [**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
 - Revise y actualice periódicamente las **políticas de seguridad** para hacer frente a las nuevas amenazas y vulnerabilidades.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 Para mitigar el riesgo de ataques de malware, los particulares y las organizaciones pueden tomar las siguientes medidas:
 
-- Instalar y actualizar periódicamente [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) en todos los dispositivos.
+- Instalar y actualizar periódicamente [**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) en todos los dispositivos.
 - Utilice **cortafuegos** para bloquear el acceso no autorizado a sistemas y redes informáticos.
 - Evite descargar programas o archivos de fuentes no fiables.
 - Realice **copias de seguridad** periódicas de los datos importantes para evitar su pérdida en caso de ataque de malware.
@@ -67,9 +67,9 @@ sistemas informáticos o redes adivinando, descifrando o robando contraseñas. L
 Para mitigar el riesgo de ataques con contraseña, los particulares y las organizaciones pueden tomar las siguientes medidas:
 
 - Utilice contraseñas seguras y únicas que contengan una combinación de letras, números y símbolos.
-- Implemente un [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) que exija cambios periódicos de contraseña y prohíba el uso de contraseñas comunes o fáciles de adivinar.
-- Utilice [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) que pueda generar y almacenar contraseñas complejas.
-- Poner en práctica [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
+- Implemente un [**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) que exija cambios periódicos de contraseña y prohíba el uso de contraseñas comunes o fáciles de adivinar.
+- Utilice [**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) que pueda generar y almacenar contraseñas complejas.
+- Poner en práctica [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para añadir una capa adicional de seguridad a las credenciales de inicio de sesión.
 
 ______
 
@@ -81,7 +81,7 @@ Para mitigar el riesgo de ataques a aplicaciones web, los particulares y las org
 
 - Utilizar **cortafuegos de aplicaciones web** para detectar y bloquear el tráfico malicioso.
 - Analizar periódicamente las aplicaciones web en busca de vulnerabilidades y aplicar rápidamente parches y actualizaciones.
-- Utilizar [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) para prevenir las vulnerabilidades más comunes de las aplicaciones web.
+- Utilizar [**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) para prevenir las vulnerabilidades más comunes de las aplicaciones web.
 - Implemente la **validación de entradas de usuario** para evitar la inyección SQL y otros ataques basados en entradas.
 
 ______

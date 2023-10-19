@@ -51,8 +51,8 @@ Există diverse materiale de studiu la dispoziția candidaților, cum ar fi manu
   - {{< youtube id="_nyZhYnCNLA" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
+- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
 
 ### Pasul 4: Exersează cu examene practice
 
@@ -61,7 +61,7 @@ Examenele de practică sunt o modalitate excelentă de a vă evalua cunoștințe
 Este important să dați mai multe examene de practică pentru a vă familiariza cu tipurile de întrebări care pot fi puse și pentru a vă dezvolta abilitățile de gestionare a timpului.
 
 - [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
+- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.ch/cissp-practice-test)
 
 ### Pasul 5: Înscrieți-vă la examen
 

@@ -97,7 +97,7 @@ It is recommended to keep UAC enabled and set to a level that provides an approp
 
 By configuring UAC settings, you enhance the security of your Windows 10 system by ensuring that administrative privileges are required for critical system changes, reducing the risk of unauthorized access and malware infections.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 Using strong passwords is essential for maintaining the security of your Windows 10 system and protecting against unauthorized access. Weak or easily guessable passwords can make your system vulnerable to attacks, such as brute-force attacks or password cracking.
 
 To ensure that all user accounts on your Windows 10 system have strong passwords, follow these password best practices:
@@ -116,7 +116,7 @@ To ensure that all user accounts on your Windows 10 system have strong passwords
 
 By implementing strong password practices, you significantly enhance the security of your Windows 10 system and reduce the risk of unauthorized access or data breaches. Regularly educate users about password security and provide resources, such as password strength meters or password creation guidelines, to assist them in creating strong passwords.
 
-For more detailed information on creating strong passwords and best practices, you can refer to this [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/). It provides comprehensive guidance on password security and offers tips for creating strong and memorable passwords.
+For more detailed information on creating strong passwords and best practices, you can refer to this [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/). It provides comprehensive guidance on password security and offers tips for creating strong and memorable passwords.
 
 Remember, using strong passwords is a fundamental aspect of system security and should be prioritized to protect sensitive data and ensure the integrity of your Windows 10 environment.
 
@@ -180,7 +180,7 @@ For more detailed information on configuring firewall rules in Windows 10, you c
 Remember, a well-configured firewall is an essential component of a comprehensive security strategy, but it should be used in conjunction with other security measures to provide robust protection for your system.
 
 #### 8. [**Use AppLocker**](https://github.com/simeononsecurity/AppLocker)
-[AppLocker](https://simeononsecurity.com/github/applocker-hardening/) is a powerful feature in Windows 10 that enables you to control which applications can run on your system. By implementing AppLocker policies, you can restrict the execution of unauthorized or potentially malicious applications, enhancing the security of your Windows 10 environment.
+[AppLocker](https://simeononsecurity.ch/github/applocker-hardening/) is a powerful feature in Windows 10 that enables you to control which applications can run on your system. By implementing AppLocker policies, you can restrict the execution of unauthorized or potentially malicious applications, enhancing the security of your Windows 10 environment.
 
 Follow these steps to use AppLocker on your Windows 10 system:
 
@@ -200,7 +200,7 @@ For more detailed information on implementing AppLocker policies, you can refer 
 
 Remember to regularly review and update your AppLocker policies to adapt to changing application requirements and emerging security threats. AppLocker is a valuable tool in your defense against unauthorized and potentially harmful applications on your Windows 10 system.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Regularly backing up your data is an essential practice to protect against data loss caused by security incidents, hardware failures, or other unexpected events. By creating regular backups and verifying their integrity, you can ensure that your important data remains safe and can be restored in the event of a disaster.
 
 Follow these steps to regularly backup your data on a Windows 10 system:
@@ -221,7 +221,7 @@ Follow these steps to regularly backup your data on a Windows 10 system:
 
 By following these steps and adhering to a regular backup routine, you can minimize the impact of data loss and maintain the availability of your important information. Remember to store your backups securely, away from the original data, and consider implementing the **3-2-1 backup rule** by having at least three copies of your data, stored on two different storage media, with one copy stored off-site.
 
-For more detailed information on backup best practices and the **3-2-1 backup rule**, you can refer to the article on [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/). It provides valuable insights and recommendations for implementing an effective backup strategy.
+For more detailed information on backup best practices and the **3-2-1 backup rule**, you can refer to the article on [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/). It provides valuable insights and recommendations for implementing an effective backup strategy.
 
 Remember, regular backups are crucial in safeguarding your data and ensuring its availability in case of unforeseen events. Make data backup an integral part of your Windows 10 hardening efforts to protect your valuable information.
 

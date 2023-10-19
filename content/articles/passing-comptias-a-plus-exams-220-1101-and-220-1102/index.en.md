@@ -92,7 +92,7 @@ One of the best ways to prepare for the CompTIA A+ exams is to take practice exa
 
 There are a variety of online resources available that offer practice exams for the CompTIA A+ exams. Some popular options include:
 
-- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.com/a-plus-practice-test)
+- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.ch/a-plus-practice-test)
 - [**CertMaster Practice from CompTIA**](https://www.comptia.org/training/certmaster-practice/a): CertMaster Practice offers a range of practice exams and quizzes that are designed to help you prepare for the actual exam.
 - [**ExamCompass**](https://www.examcompass.com/): ExamCompass offers a range of free practice exams for the CompTIA A+ exams, as well as other IT certifications.
 - [**Udemy**](https://www.udemy.com/): Udemy offers a variety of paid courses and practice exams for the CompTIA A+ exams.

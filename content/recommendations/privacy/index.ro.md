@@ -33,9 +33,9 @@ Bunele practici de securitate digitală și de igienă sunt esențiale pentru a 
 
 Dacă bănuiți că viața dumneavoastră privată a fost încălcată, este esențial să raportați incidentul. Puteți raporta un copil dispărut, abuzat sau exploatat sexual la adresa [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) pentru infracțiuni cibernetice, piraterie informatică, furturi digitale și multe altele.
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-Dacă aveți nevoie de ajutor suplimentar pentru a vă proteja confidențialitatea, luați în considerare utilizarea [privacy services](https://simeononsecurity.com/recommendations/services/) pentru a vă șterge înregistrările de la marii brokeri de date. Printre serviciile recomandate se numără:
+Dacă aveți nevoie de ajutor suplimentar pentru a vă proteja confidențialitatea, luați în considerare utilizarea [privacy services](https://simeononsecurity.ch/recommendations/services/) pentru a vă șterge înregistrările de la marii brokeri de date. Printre serviciile recomandate se numără:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Acest serviciu preferat vă poate ajuta să vă ștergeți înregistrările de la principalii brokeri de date.
 - [OneRep](https://onerep.com) Acest serviciu alternativ vă poate ajuta să vă ștergeți înregistrările de la principalii brokeri de date.

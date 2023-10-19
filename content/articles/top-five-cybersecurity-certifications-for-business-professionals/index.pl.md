@@ -67,4 +67,4 @@ ______
 - CIPM - Certyfikowany menedżer ds. prywatności informacji: [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - certyfikowany menedżer ds. bezpieczeństwa informacji: [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - Certified Information Privacy Professional/United States (Certyfikowany specjalista ds. prywatności informacji/Stany Zjednoczone): [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
-- SimeonOnSecurity - Najlepsze certyfikaty cyberbezpieczeństwa dla specjalistów rządowych i wojskowych [https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
+- SimeonOnSecurity - Najlepsze certyfikaty cyberbezpieczeństwa dla specjalistów rządowych i wojskowych [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)

@@ -50,17 +50,17 @@ Il convient de noter que le potentiel du dark web à des fins journalistiques et
 
 Pour se protéger du dark web et de la cybercriminalité, il faut prendre des mesures proactives afin d'atténuer les risques. Voici quelques mesures essentielles pour vous protéger :
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Faites preuve de prudence lorsque vous communiquez des informations personnelles en ligne, en vous abstenant de fournir des détails sensibles à des sources inconnues ou non fiables. Protégez vos nom, adresse, numéro de sécurité sociale et autres identifiants personnels.
+[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Faites preuve de prudence lorsque vous communiquez des informations personnelles en ligne, en vous abstenant de fournir des détails sensibles à des sources inconnues ou non fiables. Protégez vos nom, adresse, numéro de sécurité sociale et autres identifiants personnels.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilisez des mots de passe forts et uniques pour tous vos comptes en ligne. Évitez de réutiliser vos mots de passe sur plusieurs plateformes afin d'empêcher tout accès non autorisé en cas de violation de données.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Utilisez des mots de passe forts et uniques pour tous vos comptes en ligne. Évitez de réutiliser vos mots de passe sur plusieurs plateformes afin d'empêcher tout accès non autorisé en cas de violation de données.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Mettez régulièrement à jour vos logiciels, y compris les systèmes d'exploitation, les navigateurs web et les programmes antivirus. Ces mises à jour contiennent souvent des correctifs de sécurité qui corrigent les vulnérabilités et protègent contre les nouvelles cybermenaces.
+[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Mettez régulièrement à jour vos logiciels, y compris les systèmes d'exploitation, les navigateurs web et les programmes antivirus. Ces mises à jour contiennent souvent des correctifs de sécurité qui corrigent les vulnérabilités et protègent contre les nouvelles cybermenaces.
 
 **4. Adoptez des habitudes de navigation sûres:** Faites preuve de discernement quant aux sites web que vous visitez, en évitant de cliquer sur des liens figurant dans des courriels ou sur des sites web inconnus. Tenez-vous en à des sources dignes de confiance et vérifiez la légitimité des sites web avant de communiquer des informations personnelles ou financières.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilisez des pare-feu pour contrôler le trafic réseau entrant et sortant et déployez un logiciel antivirus fiable pour détecter et supprimer les logiciels malveillants ou les activités suspectes de vos appareils.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Utilisez des pare-feu pour contrôler le trafic réseau entrant et sortant et déployez un logiciel antivirus fiable pour détecter et supprimer les logiciels malveillants ou les activités suspectes de vos appareils.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Créez des sauvegardes régulières de vos données et fichiers importants. Ainsi, même si votre ordinateur est compromis ou si vos données sont volées, vous pourrez restaurer vos informations et minimiser l'impact d'éventuelles cyberattaques.
+[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Créez des sauvegardes régulières de vos données et fichiers importants. Ainsi, même si votre ordinateur est compromis ou si vos données sont volées, vous pourrez restaurer vos informations et minimiser l'impact d'éventuelles cyberattaques.
 
 ## Réglementations et initiatives gouvernementales
 

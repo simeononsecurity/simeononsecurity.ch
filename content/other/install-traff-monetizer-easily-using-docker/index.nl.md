@@ -22,7 +22,7 @@ Om te beginnen, maak een account aan bij [traffmonetizer.com](https://traffmonet
 ### Installeer de Docker Container
 Volg deze stappen om de Traff Monetizer Docker-container te installeren:
 
-0. Leer [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Leer [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Kopieer de volgende string en voeg uw van het dashboard verkregen token toe:
 ```bash
@@ -36,7 +36,7 @@ Zie voor meer gedetailleerde instructies de [Traff Monetizer documentation](http
 
 Door Traff Monetizer te installeren en je internet te delen, heb je de mogelijkheid om online geld te verdienen. Met een gemiddelde maandelijkse verdienste van ongeveer $2 per node per IP is het een potentiële bron van inkomsten. Houd er rekening mee dat uitbetalingen alleen beschikbaar zijn in BTC. Begin vandaag nog met het te gelde maken van uw internetverbinding!
 
-Zodra je klaar bent, zou je [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Zodra je klaar bent, zou je [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 

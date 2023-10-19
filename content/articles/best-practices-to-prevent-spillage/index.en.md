@@ -30,14 +30,14 @@ To safeguard sensitive or classified information, organizations should implement
 Controlling access to information is crucial in preventing unauthorized spillage. Implement the following measures:
 
 - **Role-based access control**: Assign access rights based on job roles and responsibilities to ensure only authorized individuals have access to sensitive information.
-- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Require multiple authentication factors, such as passwords and biometrics, to enhance the security of access credentials.
+- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Require multiple authentication factors, such as passwords and biometrics, to enhance the security of access credentials.
 - **Regular access reviews**: Conduct periodic reviews to ensure access privileges are up to date and promptly revoke access for individuals who no longer require it.
 
 ### 2. Encrypt Sensitive Information
 
 Encryption provides an additional layer of security to protect sensitive data from unauthorized access. Consider the following practices:
 
-- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/): Implement encryption mechanisms that protect information throughout its lifecycle, from storage to transmission.
+- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/): Implement encryption mechanisms that protect information throughout its lifecycle, from storage to transmission.
 - **Data classification**: Classify information based on its sensitivity level and apply appropriate encryption measures accordingly.
 - **Key management**: Establish robust key management practices to ensure encryption keys are properly stored, protected, and regularly rotated.
 
@@ -45,8 +45,8 @@ Encryption provides an additional layer of security to protect sensitive data fr
 
 Investing in employee training and awareness is crucial in preventing information spillage. Here's what you can do:
 
-- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/): Conduct regular training sessions to educate employees about information security best practices, including the risks of information spillage.
-- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/): Train employees to recognize and report phishing attempts, which are often used as a means to gain unauthorized access to sensitive information.
+- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/): Conduct regular training sessions to educate employees about information security best practices, including the risks of information spillage.
+- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/): Train employees to recognize and report phishing attempts, which are often used as a means to gain unauthorized access to sensitive information.
 - **Reporting procedures**: Establish clear procedures for reporting potential security incidents or suspicious activities to the appropriate authorities.
 
 ### 4. Implement Data Loss Prevention (DLP) Solutions
@@ -80,7 +80,7 @@ In conclusion, preventing information or classified spillage requires a combinat
 ## References
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

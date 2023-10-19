@@ -24,29 +24,29 @@ Ervan uitgaande dat elk apparaat gecompromitteerd is, dwingt u tot een uitgebrei
 
 ### Veilig browsen
 
-1. [**Avoid visiting sketchy websites**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Kwaadaardige websites kunnen uw apparaat infecteren met malware of uw persoonlijke gegevens stelen. Blijf bij vertrouwde en gerenommeerde websites om het risico van besmetting tot een minimum te beperken.
+1. [**Avoid visiting sketchy websites**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Kwaadaardige websites kunnen uw apparaat infecteren met malware of uw persoonlijke gegevens stelen. Blijf bij vertrouwde en gerenommeerde websites om het risico van besmetting tot een minimum te beperken.
 
-2. [**Always verify website authenticity**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Controleer de legitimiteit van de website voordat u inloggegevens invoert of gevoelige informatie deelt. Controleer op HTTPS-protocol, zoek naar vertrouwensindicatoren en pas op voor phishingpogingen.
+2. [**Always verify website authenticity**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Controleer de legitimiteit van de website voordat u inloggegevens invoert of gevoelige informatie deelt. Controleer op HTTPS-protocol, zoek naar vertrouwensindicatoren en pas op voor phishingpogingen.
 
 ### Bescherming van persoonlijke gegevens
 
-1. [**Refrain from sharing personal details**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Wees voorzichtig met het online delen van gevoelige persoonlijke informatie. Identiteitsdiefstal is een belangrijk punt van zorg, en het minimaliseren van de blootstelling van persoonlijke gegevens vermindert de kans op ongeoorloofde toegang.
+1. [**Refrain from sharing personal details**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Wees voorzichtig met het online delen van gevoelige persoonlijke informatie. Identiteitsdiefstal is een belangrijk punt van zorg, en het minimaliseren van de blootstelling van persoonlijke gegevens vermindert de kans op ongeoorloofde toegang.
 
 2. **Wees voorzichtig met intieme inhoud**: Wissel online nooit expliciete foto's of video's uit. Deze kunnen worden gebruikt voor chantage of wraak, wat kan leiden tot ernstig emotioneel leed en mogelijke compromissen.
 
 ### Sterke authenticatie en wachtwoordpraktijken
 
-1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize 2FA whenever possible to add an extra layer of security. It combines something you know (password) with something you have (a mobile device or security key) het risico van ongeoorloofde toegang aanzienlijk verminderen.
+1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize 2FA whenever possible to add an extra layer of security. It combines something you know (password) with something you have (a mobile device or security key) het risico van ongeoorloofde toegang aanzienlijk verminderen.
 
-2. [**Use randomly generated passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Gebruik sterke en unieke wachtwoorden voor al uw accounts. Overweeg het gebruik van een wachtwoordmanager om complexe wachtwoorden te genereren en veilig op te slaan.
+2. [**Use randomly generated passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Gebruik sterke en unieke wachtwoorden voor al uw accounts. Overweeg het gebruik van een wachtwoordmanager om complexe wachtwoorden te genereren en veilig op te slaan.
 
-### [Social Media Privacy](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+### [Social Media Privacy](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
-1. [**Minimize social media usage**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Beperk uw aanwezigheid op sociale mediaplatforms om de blootstelling van persoonlijke informatie te beperken. Configureer privacy-instellingen om de toegang tot uw berichten en profiel te beperken.
+1. [**Minimize social media usage**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Beperk uw aanwezigheid op sociale mediaplatforms om de blootstelling van persoonlijke informatie te beperken. Configureer privacy-instellingen om de toegang tot uw berichten en profiel te beperken.
 
 ### Beveiligde communicatie
 
-1. [**Utilize secure communication apps**](https://simeononsecurity.com/recommendations/messengers): Opt for secure communication apps such as [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) die end-to-end encryptie gebruiken, zodat uw berichten vertrouwelijk blijven.
+1. [**Utilize secure communication apps**](https://simeononsecurity.ch/recommendations/messengers): Opt for secure communication apps such as [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) die end-to-end encryptie gebruiken, zodat uw berichten vertrouwelijk blijven.
 
 ### Apparaathygiëne
 
@@ -56,7 +56,7 @@ Ervan uitgaande dat elk apparaat gecompromitteerd is, dwingt u tot een uitgebrei
 
 ### Back-up van gegevens
 
-1. [**Maintain backups**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Create and maintain regular backups of your important data. Follow the [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) waarbij u drie kopieën van uw gegevens heeft, twee op verschillende dragers, en één off-site opgeslagen.
+1. [**Maintain backups**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Create and maintain regular backups of your important data. Follow the [3-2-1 backup strategy](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) waarbij u drie kopieën van uw gegevens heeft, twee op verschillende dragers, en één off-site opgeslagen.
 
 ______
 

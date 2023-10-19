@@ -175,7 +175,7 @@ Windows 10 和 Windows 11 是开箱即用的侵入性和不安全的操作系统
 ### GUI - 引导式安装：
 
 下载最新版本[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)选择你想要的选项并点击执行。 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="基于 Windows-Optimize-Harden-Debloat GUI 的引导式安装示例"> ### 自动安装：使用这一行自动下载、解压缩所有支持文件，并运行最新版本的脚本。```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

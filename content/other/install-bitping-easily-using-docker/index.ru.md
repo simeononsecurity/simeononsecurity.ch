@@ -22,7 +22,7 @@ coverCaption: ""
 
 ### Установка Docker
 
-Изучить [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Изучить [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Установите контейнер Docker
 
@@ -64,7 +64,7 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 Для получения дополнительной информации и подробной документации посетите сайт [Bitping website](https://bitping.com) и обращаться к их официальным ресурсам.
 
-По окончании работы следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+По окончании работы следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 **Ссылки:**
 

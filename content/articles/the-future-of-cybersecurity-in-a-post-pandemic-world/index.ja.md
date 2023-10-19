@@ -34,13 +34,13 @@ ______
 
 1.**ソフトウェアを最新の状態に保つ**：攻撃者は、脆弱性を突くために、古いソフトウェアを利用することがよくあります。ソフトウェアのアップデートには、脆弱性を修正するためのセキュリティパッチが含まれていることが多いです。更新プログラムが提供されたら、すぐにインストールするようにしてください。
 
-2.[**Use strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)パスワードは、サイバー攻撃に対する最初の防御手段であることが多いものです。アカウントごとに強力でユニークなパスワードを使用し、それを管理するためにパスワードマネージャーを使用することを検討してください。パスワードマネージャーは、すべてのアカウントの強力なパスワードを生成し、保存するのに役立ちます。
+2.[**Use strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)パスワードは、サイバー攻撃に対する最初の防御手段であることが多いものです。アカウントごとに強力でユニークなパスワードを使用し、それを管理するためにパスワードマネージャーを使用することを検討してください。パスワードマネージャーは、すべてのアカウントの強力なパスワードを生成し、保存するのに役立ちます。
 
-3.[**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)二要素認証は、お客様のアカウントにさらなるセキュリティ層を追加します。可能な限り有効にしてください。二要素認証では、パスワードに加えて、指紋や携帯電話に送信されるワンタイムコードなど、2つ目の認証形式が必要です。
+3.[**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)二要素認証は、お客様のアカウントにさらなるセキュリティ層を追加します。可能な限り有効にしてください。二要素認証では、パスワードに加えて、指紋や携帯電話に送信されるワンタイムコードなど、2つ目の認証形式が必要です。
 
-4.[**Educate yourself and your employees**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)サイバー攻撃を防ぐには、教育が重要です。一般的な脅威とそれを回避する方法について、自分自身と従業員を教育することを忘れないようにしましょう。これには、定期的なトレーニングセッション、フィッシングシミュレーション、サイバーセキュリティのベストプラクティスが含まれます。
+4.[**Educate yourself and your employees**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)サイバー攻撃を防ぐには、教育が重要です。一般的な脅威とそれを回避する方法について、自分自身と従業員を教育することを忘れないようにしましょう。これには、定期的なトレーニングセッション、フィッシングシミュレーション、サイバーセキュリティのベストプラクティスが含まれます。
 
-5.[**Use a VPN**](https://simeononsecurity.com/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN)を使用して、インターネット接続を暗号化し、データを保護します。VPNは、お使いのデバイスとインターネットとの間に安全な接続を作成し、第三者によるデータの傍受を防止します。
+5.[**Use a VPN**](https://simeononsecurity.ch/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN)を使用して、インターネット接続を暗号化し、データを保護します。VPNは、お使いのデバイスとインターネットとの間に安全な接続を作成し、第三者によるデータの傍受を防止します。
 
 6.**IoTデバイスの安全性を高める**：スマートサーモスタットや防犯カメラなどのモノのインターネット（IoT）デバイスは、サイバー攻撃に対して脆弱である可能性があります。IoTデバイスのデフォルトパスワードを変更し、最新のファームウェアに更新しておくようにしましょう。また、これらの機器と共有する個人情報の量を制限するのもよい方法です。
 

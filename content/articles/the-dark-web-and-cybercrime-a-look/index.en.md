@@ -50,17 +50,17 @@ It is worth noting that the dark web's potential for journalistic and whistleblo
 
 Safeguarding against the dark web and cybercrime requires proactive measures to mitigate risks. Here are some essential steps to protect yourself:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Exercise caution when sharing personal information online, refraining from providing sensitive details to unfamiliar or untrusted sources. Safeguard your name, address, Social Security number, and other personal identifiers.
+[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Exercise caution when sharing personal information online, refraining from providing sensitive details to unfamiliar or untrusted sources. Safeguard your name, address, Social Security number, and other personal identifiers.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Employ strong and unique passwords for all your online accounts. Avoid reusing passwords across multiple platforms to prevent unauthorized access in case of a data breach.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Employ strong and unique passwords for all your online accounts. Avoid reusing passwords across multiple platforms to prevent unauthorized access in case of a data breach.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Regularly update your software, including operating systems, web browsers, and antivirus programs. These updates often contain security patches that address vulnerabilities and protect against emerging cyber threats.
+[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Regularly update your software, including operating systems, web browsers, and antivirus programs. These updates often contain security patches that address vulnerabilities and protect against emerging cyber threats.
 
 **4. Practice safe browsing habits:** Be discerning about the websites you visit, refraining from clicking on links in emails or unfamiliar websites. Stick to reputable sources and verify the legitimacy of websites before sharing any personal or financial information.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilize firewalls to control inbound and outbound network traffic and deploy reliable antivirus software to detect and remove malware or suspicious activities from your devices.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Utilize firewalls to control inbound and outbound network traffic and deploy reliable antivirus software to detect and remove malware or suspicious activities from your devices.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Create regular backups of your important data and files. This ensures that even if your computer is compromised or your data is stolen, you can restore your information and minimize the impact of potential cyber attacks.
+[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Create regular backups of your important data and files. This ensures that even if your computer is compromised or your data is stolen, you can restore your information and minimize the impact of potential cyber attacks.
 
 ## Government Regulations and Initiatives
 

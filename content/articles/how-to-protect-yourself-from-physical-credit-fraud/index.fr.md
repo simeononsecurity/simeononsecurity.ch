@@ -9,7 +9,7 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---
-simeononsecurity.com
+simeononsecurity.ch
  **Comment vous protéger contre la fraude physique par carte de crédit**
  
  Les cartes de crédit sont devenues un élément essentiel de notre vie quotidienne. Avec la commodité qu'ils offrent, cependant, vient le risque de fraude. Les criminels ont développé diverses techniques pour voler les informations de carte de crédit, telles que l'écrémage, le phishing et le piratage. Dans cet article, nous verrons comment vous pouvez vous protéger contre la fraude physique par carte de crédit.

@@ -28,11 +28,11 @@ coverCaption: ""
 
 ### 清除
 
-清除是用一系列二进制值覆盖设备上数据的过程。这种方法不如物理销毁方法安全，但仍能有效清除大多数可移动媒体。NIST 800-88 Revision 1 建议使用符合国防部 (DoD) 标准的软件工具。 [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/)规格。
+清除是用一系列二进制值覆盖设备上数据的过程。这种方法不如物理销毁方法安全，但仍能有效清除大多数可移动媒体。NIST 800-88 Revision 1 建议使用符合国防部 (DoD) 标准的软件工具。 [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/)规格。
 
 ### 清除
 
-清除是用二进制值模式多次覆盖设备上数据的过程。这种方法比清除更安全，建议用于清除敏感数据。NIST 800-88 Revision 1 建议使用符合 NIST 800-88 Revision 1 标准的软件工具。 [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/)规格。
+清除是用二进制值模式多次覆盖设备上数据的过程。这种方法比清除更安全，建议用于清除敏感数据。NIST 800-88 Revision 1 建议使用符合 NIST 800-88 Revision 1 标准的软件工具。 [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/)规格。
 
 __________________________________________
 {{< inarticle-dark >}}

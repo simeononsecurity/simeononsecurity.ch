@@ -30,14 +30,14 @@ coverCaption: ""
 控制对信息的访问对于防止未经授权的泄漏至关重要。实施以下措施：
 
 - 基于角色的访问控制**：根据工作角色和职责分配访问权限，确保只有经过授权的人才能访问敏感信息。
-- [**Multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)要求多种认证因素，如密码和生物识别技术，以提高访问凭证的安全性。
+- [**Multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)要求多种认证因素，如密码和生物识别技术，以提高访问凭证的安全性。
 - 定期审查访问权限**：进行定期审查，确保访问权限是最新的，并及时撤销不再需要访问权限的个人的访问权限。
 
 ### 2.加密敏感信息
 
 加密为保护敏感数据免遭未经授权的访问提供了额外的安全保障。请考虑以下做法：
 
-- [**End-to-end encryption**](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)实施加密机制，在从存储到传输的整个生命周期内保护信息。
+- [**End-to-end encryption**](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)实施加密机制，在从存储到传输的整个生命周期内保护信息。
 - 数据分类**：根据敏感程度对信息进行分类，并相应采取适当的加密措施。
 - 密钥管理**：建立健全的密钥管理措施，确保加密密钥得到妥善存储、保护和定期轮换。
 
@@ -45,8 +45,8 @@ coverCaption: ""
 
 投资于员工培训和提高认识对于防止信息泄漏至关重要。你可以这样做
 
-- [**Security awareness programs**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)定期举办培训班，教育员工了解信息安全最佳做法，包括信息泄漏的风险。
-- [**Phishing awareness training**](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)培训员工识别和报告网络钓鱼企图，网络钓鱼通常被用作未经授权访问敏感信息的一种手段。
+- [**Security awareness programs**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)定期举办培训班，教育员工了解信息安全最佳做法，包括信息泄漏的风险。
+- [**Phishing awareness training**](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)培训员工识别和报告网络钓鱼企图，网络钓鱼通常被用作未经授权访问敏感信息的一种手段。
 - 报告程序**：制定明确的程序，以便向有关部门报告潜在的安全事件或可疑活动。
 
 ### 4.实施数据丢失防护 (DLP) 解决方案
@@ -80,7 +80,7 @@ ______
 ## 参考文献
 
 1. [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
-4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/)
-5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+2. [SimeonOnSecurity - What Are the Different Kinds of Factors in MFA?](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+3. [SimeonOnSecurity - How to Build and Manage an Effective Cybersecurity Awareness Training Program](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+4. [SimeonOnSecurity - Understanding Tactics Used by Phishing Scammers](https://simeononsecurity.ch/articles/understanding-tactics-used-by-phising-scammers/)
+5. [SimeonOnSecurity - A Beginner's Guide to Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)

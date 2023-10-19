@@ -31,11 +31,11 @@ Un **máster** en ciberseguridad ofrece conocimientos avanzados y especializaci�
 ### Certificaciones
 Además de la educación formal, la obtención de certificaciones relevantes puede mejorar significativamente su credibilidad y comerciabilidad en el campo de la ciberseguridad. He aquí algunas certificaciones ampliamente reconocidas:
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) Esta certificación reconocida a nivel mundial valida su experiencia en el diseño, implementación y gestión de un programa de ciberseguridad a nivel empresarial.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Esta certificación demuestra su conocimiento de las técnicas de hacking y ayuda a las organizaciones a identificar vulnerabilidades en sus sistemas.
-- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Esta certificación de nivel básico abarca los conocimientos y habilidades básicos necesarios para proteger redes y sistemas.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) Esta certificación reconocida a nivel mundial valida su experiencia en el diseño, implementación y gestión de un programa de ciberseguridad a nivel empresarial.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Esta certificación demuestra su conocimiento de las técnicas de hacking y ayuda a las organizaciones a identificar vulnerabilidades en sus sistemas.
+- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Esta certificación de nivel básico abarca los conocimientos y habilidades básicos necesarios para proteger redes y sistemas.
 
-Más información [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
+Más información [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
 
 ______
 

@@ -59,9 +59,9 @@ Ricordate che la forza di una passphrase non sta solo nella sua lunghezza, ma an
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-Con l'aumentare del numero di account online, diventa difficile ricordare password uniche e forti per ciascuno di essi. È qui che i gestori di password come [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) sono utili. Un gestore di password è una cassaforte digitale sicura che memorizza tutte le password in formato crittografato. Permette di generare password forti e uniche per ogni account e le compila automaticamente quando necessario. Ecco come i gestori di password possono aiutarvi:
+Con l'aumentare del numero di account online, diventa difficile ricordare password uniche e forti per ciascuno di essi. È qui che i gestori di password come [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) sono utili. Un gestore di password è una cassaforte digitale sicura che memorizza tutte le password in formato crittografato. Permette di generare password forti e uniche per ogni account e le compila automaticamente quando necessario. Ecco come i gestori di password possono aiutarvi:
 
 - **Convenienza**: Con un gestore di password, è sufficiente ricordare un'unica password principale per accedere a tutte le password memorizzate. Questo elimina la necessità di memorizzare più password complesse.
 - **Password forti e uniche**: I gestori di password possono generare password forti utilizzando una combinazione di caratteri, assicurando che ogni account abbia una password unica e sicura.
@@ -78,7 +78,7 @@ Sebbene i gestori di password offrano vantaggi significativi, è essenziale segu
 
 - **Scegliere un gestore di password affidabile**: Scegliere un gestore di password consolidato e affidabile come **Bitwarden** o altri raccomandati da fonti di sicurezza informatica affidabili.
 - Creare una password principale forte**: La password principale è la chiave del caveau del vostro password manager, quindi assicuratevi che sia forte e unica. Seguite le linee guida menzionate in precedenza per creare una password principale solida.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'autenticazione a due fattori aggiunge un ulteriore livello di sicurezza richiedendo una seconda forma di verifica, come un'impronta digitale o un codice da un'app di autenticazione, oltre alla password principale.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'autenticazione a due fattori aggiunge un ulteriore livello di sicurezza richiedendo una seconda forma di verifica, come un'impronta digitale o un codice da un'app di autenticazione, oltre alla password principale.
 - Aggiornate regolarmente il vostro gestore di password**: Mantenete aggiornato il vostro gestore di password per assicurarvi di avere le ultime patch e funzioni di sicurezza.
 - Eseguire il backup del caveau delle password**: Eseguite regolarmente il backup del caveau del vostro password manager per evitare la perdita di dati in caso di guasto del dispositivo o di altre circostanze impreviste.
 - Attenzione agli attacchi di phishing**: Siate vigili ed evitate di cliccare su link sospetti o di fornire i dati del vostro password manager su siti web non attendibili.

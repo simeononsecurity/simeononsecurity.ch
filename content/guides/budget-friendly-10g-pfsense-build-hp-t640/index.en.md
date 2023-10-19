@@ -67,7 +67,7 @@ To achieve 10 Gigabit Ethernet capabilities, you'll need to add 10g NICs to your
 
 2. Create a bootable USB drive with the pfSense installer using tools like **Rufus** (Windows) or **dd** (Linux).
 
-3. Insert the USB drive into the HP t640, and follow the instructions from our guide on [installing pfSense on the HP t640](https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/) . 
+3. Insert the USB drive into the HP t640, and follow the instructions from our guide on [installing pfSense on the HP t640](https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/) . 
    1. It's a bit different than the standard install. Please read the guide.
 
 ### **Configuring pfSense**

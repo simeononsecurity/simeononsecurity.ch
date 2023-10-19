@@ -48,7 +48,7 @@ To implement the DoD 5220.22-M specification, organizations can use various meth
 
 Organizations can choose from a range of **commercial data sanitization software** that adhere to the DoD 5220.22-M specification. These software solutions often offer user-friendly interfaces, support for different types of storage media, and advanced features to ensure data security.
 
-It's important to note that the DoD 5220.22-M specification is just one of several recognized data sanitization standards. Other widely adopted standards include [**NIST SP 800-88**](https://simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/) and **ATA Secure Erase**. Organizations should assess their specific requirements and compliance obligations to determine the most appropriate data sanitization standard to follow.
+It's important to note that the DoD 5220.22-M specification is just one of several recognized data sanitization standards. Other widely adopted standards include [**NIST SP 800-88**](https://simeononsecurity.ch/articles/nist-800-88-ways-of-sanitizing-removable-media/) and **ATA Secure Erase**. Organizations should assess their specific requirements and compliance obligations to determine the most appropriate data sanitization standard to follow.
 
 ______
 

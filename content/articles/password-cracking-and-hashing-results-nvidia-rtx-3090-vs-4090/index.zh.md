@@ -22,13 +22,13 @@ coverCaption: ""
 
 英伟达™（NVIDIA®）RTX 3090 是一款功能强大的显卡，专为游戏以及机器学习和科学模拟等专业应用而设计。它基于 Ampere 架构，拥有 10496 个 CUDA 内核、328 个 Tensor 内核和 112 个 RT 内核。它还拥有 24 GB GDDR6X 显存和 936 GB/s 的显存带宽。
 
-在 simeononsecurity.com 进行的密码破解基准测试中，RTX 3090 能够在 120 秒内破解 8 个字符的简单密码，在 1200 秒内破解 8 个字符的复杂密码。对于 12 个字符的简单密码，时间增加到 12000 秒，对于 12 个字符的复杂密码，时间进一步增加到 120000 秒。
+在 simeononsecurity.ch 进行的密码破解基准测试中，RTX 3090 能够在 120 秒内破解 8 个字符的简单密码，在 1200 秒内破解 8 个字符的复杂密码。对于 12 个字符的简单密码，时间增加到 12000 秒，对于 12 个字符的复杂密码，时间进一步增加到 120000 秒。
 
 ## nvidia rtx 4090
 
 英伟达™（NVIDIA®）RTX 4090 是 RTX 3090 的后续产品，也是目前最强大的显卡。它采用与 RTX 3090 相同的安培架构，但原始性能几乎是 3090 的两倍。
 
-在 simeononsecurity.com 进行的密码破解基准测试中，RTX 4090 能够在 60 秒内破解 8 个字符的简单密码，在 600 秒内破解 8 个字符的复杂密码。对于 12 个字符的简单密码，时间增加到 6000 秒，对于 12 个字符的复杂密码，时间进一步增加到 60000 秒。
+在 simeononsecurity.ch 进行的密码破解基准测试中，RTX 4090 能够在 60 秒内破解 8 个字符的简单密码，在 600 秒内破解 8 个字符的复杂密码。对于 12 个字符的简单密码，时间增加到 6000 秒，对于 12 个字符的复杂密码，时间进一步增加到 60000 秒。
 
 ##基准
 
@@ -49,7 +49,7 @@ coverCaption: ""
 
 我们的基准测试结果表明，**RTX 4090** 是一款强大的密码破解工具。这意味着攻击者现在可以比以往更快地破解密码。
 
-这是一个严重的安全问题，因为这意味着攻击者现在可以更容易地访问账户和系统。为了保护自己免受密码破解攻击，您应该使用 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)帮助您生成和存储强大的密码。
+这是一个严重的安全问题，因为这意味着攻击者现在可以更容易地访问账户和系统。为了保护自己免受密码破解攻击，您应该使用 [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)帮助您生成和存储强大的密码。
 
 ## 结论
 

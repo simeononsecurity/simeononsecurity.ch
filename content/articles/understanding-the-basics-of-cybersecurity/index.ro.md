@@ -89,7 +89,7 @@ Odată cu creșterea tehnologiei digitale, securitatea cibernetică a devenit o 
 
 Iată câteva dintre cele mai bune practici cheie pe care trebuie să le urmați pentru a vă asigura că sunteți protejat împotriva amenințărilor cibernetice:
 
-#### [Creating Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### [Creating Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
 **Parolele puternice** sunt esențiale pentru a preveni atacurile cu parole. Parolele trebuie să fie **lungi, complexe și unice** pentru fiecare cont. O parolă puternică ar trebui să conțină o combinație de **literă minusculă și majusculă, numere și simboluri**. Evitați să folosiți cuvinte sau fraze comune, precum și informații personale, cum ar fi numele sau data nașterii.
 
@@ -101,7 +101,7 @@ De asemenea, se recomandă utilizarea unui **gestionar de parole**, care poate g
 
 De asemenea, se recomandă să activați **actualizările automate** ori de câte ori este posibil, pentru a vă asigura că executați întotdeauna cea mai recentă versiune de software.
 
-#### [Implementing Multi-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### [Implementing Multi-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 **Autentificarea cu factori multipli** adaugă un nivel suplimentar de securitate, solicitând utilizatorilor să introducă nu numai o parolă, ci și o a doua formă de identificare, cum ar fi o amprentă digitală sau un simbol de securitate. Acest lucru poate ajuta la prevenirea accesului neautorizat la conturile dvs., chiar dacă parola dvs. este compromisă.
 
@@ -109,7 +109,7 @@ Multe servicii online, cum ar fi furnizorii de e-mail și platformele de sociali
 
 #### Obiceiuri de navigare în siguranță
 
-A fi precaut cu privire la site-urile web vizitate, la legăturile pe care se face clic și la informațiile partajate online poate ajuta la prevenirea [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) sau **site-uri web false** pentru a păcăli utilizatorii să dezvăluie informații sensibile sau să descarce programe malware.
+A fi precaut cu privire la site-urile web vizitate, la legăturile pe care se face clic și la informațiile partajate online poate ajuta la prevenirea [**social engineering attacks**](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) sau **site-uri web false** pentru a păcăli utilizatorii să dezvăluie informații sensibile sau să descarce programe malware.
 
 Se recomandă să vizitați numai site-uri web de încredere, să evitați să dați clic pe linkuri suspecte sau pe ferestre pop-up și să nu partajați niciodată informații personale sau financiare online decât dacă sunteți sigur că site-ul web este legitim.
 
@@ -119,7 +119,7 @@ Urmând aceste bune practici, vă puteți reduce semnificativ riscul de a deveni
 
 **Criptarea** joacă un rol esențial în securitatea cibernetică, protejând datele sensibile de accesul neautorizat. Criptarea este procesul de convertire a datelor într-un cod care poate fi descifrat numai cu ajutorul cheii sau parolei corecte.
 
-#### [What is Encryption?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+#### [What is Encryption?](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
 
 **Criptarea** este o tehnică de comunicare securizată care presupune transformarea datelor în text clar în text cifrat cu ajutorul unui algoritm și al unei chei.
 
@@ -151,7 +151,7 @@ Criptarea este, de asemenea, utilizată în armată și în guvern pentru a prot
 
 Elaborarea unui **plan de securitate cibernetică** este esențială pentru identificarea și atenuarea **riscurilor cibernetice**. Acest plan ar trebui să includă politici și proceduri pentru **protecția datelor**, **răspunsul la incidente** și **formarea angajaților**.
 
-#### [Employee Training and Awareness](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
+#### [Employee Training and Awareness](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
 
 Instruirea angajaților cu privire la **cele mai bune practici în materie de securitate cibernetică** este esențială pentru a reduce riscul de **eroare umană** și pentru a se asigura că toată lumea din organizație este pe aceeași lungime de undă atunci când vine vorba de securitatea cibernetică.
 
@@ -159,7 +159,7 @@ Instruirea angajaților cu privire la **cele mai bune practici în materie de se
 
 Auditurile regulate de **securitate** sunt importante pentru a identifica vulnerabilitățile și pentru a se asigura că măsurile de securitate cibernetică ale organizației sunt eficiente. Aceste audituri ar trebui să fie efectuate de către o **parte terță** externă.
 
-### [The Future of Cybersecurity](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
+### [The Future of Cybersecurity](https://simeononsecurity.ch/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
 
 Lumea securității cibernetice evoluează în mod constant, iar pentru a vă proteja împotriva celor mai recente amenințări este esențial să fiți la curent cu noile amenințări.
 
@@ -167,11 +167,11 @@ Lumea securității cibernetice evoluează în mod constant, iar pentru a vă pr
 
 Noile tehnologii, cum ar fi **Internetul lucrurilor (IoT)** și **inteligența artificială (AI)**, creează noi oportunități pentru **atacuri cibernetice**. Este esențial să rămâneți la curent cu **amenințările și tehnologiile emergente** pentru a vă proteja împotriva acestora.
 
-#### [The Role of Artificial Intelligence](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
+#### [The Role of Artificial Intelligence](https://simeononsecurity.ch/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
 
 **Inteligența artificială** poate fi utilizată atât pentru a ataca, cât și pentru a se apăra împotriva **amenințărilor cibernetice**. Sistemele de detectare și răspuns bazate pe inteligență artificială pot ajuta la identificarea și atenuarea amenințărilor în timp real.
 
-#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
+#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.ch/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
 
 **Amenințările cibernetice** sunt de natură globală și necesită cooperare internațională pentru a fi combătute. O **securitate cibernetică** eficientă necesită **colaborare** și **schimb de informații** între guverne, întreprinderi și persoane fizice.
 

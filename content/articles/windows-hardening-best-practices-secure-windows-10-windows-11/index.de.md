@@ -97,7 +97,7 @@ Es wird empfohlen, die Benutzerkontensteuerung zu aktivieren und auf eine Stufe 
 
 Durch die Konfiguration der UAC-Einstellungen erhöhen Sie die Sicherheit Ihres Windows 10-Systems, indem Sie sicherstellen, dass für kritische Systemänderungen Administratorrechte erforderlich sind, wodurch das Risiko eines unbefugten Zugriffs und einer Malware-Infektion verringert wird.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 Die Verwendung sicherer Kennwörter ist für die Sicherheit Ihres Windows 10-Systems und den Schutz vor unbefugtem Zugriff unerlässlich. Schwache oder leicht zu erratende Passwörter können Ihr System anfällig für Angriffe machen, wie z. B. Brute-Force-Angriffe oder Passwort-Cracking.
 
 Um sicherzustellen, dass alle Benutzerkonten auf Ihrem Windows 10-System über sichere Kennwörter verfügen, befolgen Sie diese bewährten Kennwortpraktiken:
@@ -116,7 +116,7 @@ Um sicherzustellen, dass alle Benutzerkonten auf Ihrem Windows 10-System über s
 
 Durch die Einführung sicherer Kennwortpraktiken erhöhen Sie die Sicherheit Ihres Windows 10-Systems erheblich und verringern das Risiko eines unbefugten Zugriffs oder von Datenverletzungen. Informieren Sie die Benutzer regelmäßig über die Sicherheit von Passwörtern und stellen Sie ihnen Ressourcen zur Verfügung, z. B. Messgeräte für die Passwortstärke oder Richtlinien zur Erstellung von Passwörtern, um sie bei der Erstellung sicherer Passwörter zu unterstützen.
 
-Ausführlichere Informationen über die Erstellung sicherer Kennwörter und bewährte Verfahren finden Sie in diesem [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Es bietet eine umfassende Anleitung zur Passwortsicherheit und gibt Tipps zur Erstellung sicherer und einprägsamer Passwörter.
+Ausführlichere Informationen über die Erstellung sicherer Kennwörter und bewährte Verfahren finden Sie in diesem [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Es bietet eine umfassende Anleitung zur Passwortsicherheit und gibt Tipps zur Erstellung sicherer und einprägsamer Passwörter.
 
 Denken Sie daran, dass die Verwendung sicherer Passwörter ein grundlegender Aspekt der Systemsicherheit ist und Priorität haben sollte, um sensible Daten zu schützen und die Integrität Ihrer Windows 10-Umgebung zu gewährleisten.
 
@@ -200,7 +200,7 @@ Ausführlichere Informationen zur Implementierung von AppLocker-Richtlinien find
 
 Denken Sie daran, Ihre AppLocker-Richtlinien regelmäßig zu überprüfen und zu aktualisieren, um sie an sich ändernde Anwendungsanforderungen und neue Sicherheitsbedrohungen anzupassen. AppLocker ist ein wertvolles Werkzeug für Ihre Verteidigung gegen nicht autorisierte und potenziell schädliche Anwendungen auf Ihrem Windows 10-System.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Regelmäßige Datensicherungen sind eine wichtige Maßnahme zum Schutz vor Datenverlusten aufgrund von Sicherheitsvorfällen, Hardwareausfällen oder anderen unerwarteten Ereignissen. Durch die Erstellung regelmäßiger Backups und die Überprüfung ihrer Integrität können Sie sicherstellen, dass Ihre wichtigen Daten sicher bleiben und im Falle einer Katastrophe wiederhergestellt werden können.
 
 Befolgen Sie diese Schritte, um Ihre Daten auf einem Windows 10-System regelmäßig zu sichern:
@@ -221,7 +221,7 @@ Befolgen Sie diese Schritte, um Ihre Daten auf einem Windows 10-System regelmä�
 
 Wenn Sie diese Schritte befolgen und sich an eine regelmäßige Backup-Routine halten, können Sie die Auswirkungen von Datenverlusten minimieren und die Verfügbarkeit Ihrer wichtigen Informationen aufrechterhalten. Denken Sie daran, Ihre Backups sicher und getrennt von den Originaldaten aufzubewahren, und ziehen Sie die **3-2-1-Backup-Regel** in Betracht, d. h. mindestens drei Kopien Ihrer Daten auf zwei verschiedenen Speichermedien und eine Kopie außerhalb des Unternehmens.
 
-Ausführlichere Informationen über bewährte Verfahren zur Datensicherung und die **3-2-1-Backup-Regel** finden Sie in dem Artikel auf [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Er bietet wertvolle Einblicke und Empfehlungen für die Umsetzung einer effektiven Sicherungsstrategie.
+Ausführlichere Informationen über bewährte Verfahren zur Datensicherung und die **3-2-1-Backup-Regel** finden Sie in dem Artikel auf [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Er bietet wertvolle Einblicke und Empfehlungen für die Umsetzung einer effektiven Sicherungsstrategie.
 
 Denken Sie daran, dass regelmäßige Backups entscheidend sind, um Ihre Daten zu schützen und ihre Verfügbarkeit im Falle unvorhergesehener Ereignisse zu gewährleisten. Machen Sie die Datensicherung zu einem festen Bestandteil Ihrer Windows 10-Härtungsmaßnahmen, um Ihre wertvollen Informationen zu schützen.
 

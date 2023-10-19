@@ -25,7 +25,7 @@ coverCaption: ""
 		- 2020/10/23 - 2020/10/25
 		- Placed Overall: 134th / 6010
 		- Placed Gold: 126th / 680
-	- Team (simeononsecurity.com)
+	- Team (simeononsecurity.ch)
 		- 2020/11/06 - 2020/11/08
 		- Placed Overall: 31st / 957
 		- Placed Gold: 28th / 121

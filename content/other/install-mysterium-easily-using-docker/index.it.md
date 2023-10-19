@@ -21,7 +21,7 @@ Per installare Mysterium usando il contenitore Docker, seguite i seguenti passi:
 
 #### Installare Docker
 
-Imparare [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Imparare [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### Installare il contenitore Docker Mysterium
 
@@ -50,7 +50,7 @@ Per istruzioni sul port forwarding, potete consultare le seguenti risorse:
 
 Mysterium fornisce un servizio di VPN e web scraping decentralizzato che consente di guadagnare denaro mantenendo privacy e sicurezza. Con potenziali guadagni mensili che vanno da 1 a 20 dollari per nodo e per IP, Mysterium offre un'opportunità di guadagno agli utenti. Iniziate a usare Mysterium e sfruttate le sue caratteristiche oggi stesso!
 
-Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Riferimento
 

@@ -50,17 +50,17 @@ De mogelijkheden van het dark web voor journalistieke en klokkenluidersdoeleinde
 
 Bescherming tegen het dark web en cybercriminaliteit vereist proactieve maatregelen om de risico's te beperken. Hier zijn enkele essentiële stappen om uzelf te beschermen:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Wees voorzichtig bij het online delen van persoonlijke informatie en geef geen gevoelige gegevens door aan onbekende of niet-vertrouwde bronnen. Bescherm uw naam, adres, burgerservicenummer en andere persoonlijke gegevens.
+[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Wees voorzichtig bij het online delen van persoonlijke informatie en geef geen gevoelige gegevens door aan onbekende of niet-vertrouwde bronnen. Bescherm uw naam, adres, burgerservicenummer en andere persoonlijke gegevens.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Gebruik sterke en unieke wachtwoorden voor al uw online accounts. Vermijd hergebruik van wachtwoorden op meerdere platforms om onbevoegde toegang te voorkomen in geval van een datalek.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Gebruik sterke en unieke wachtwoorden voor al uw online accounts. Vermijd hergebruik van wachtwoorden op meerdere platforms om onbevoegde toegang te voorkomen in geval van een datalek.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Werk uw software, waaronder besturingssystemen, webbrowsers en antivirusprogramma's, regelmatig bij. Deze updates bevatten vaak beveiligingspatches die kwetsbaarheden verhelpen en bescherming bieden tegen nieuwe cyberdreigingen.
+[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Werk uw software, waaronder besturingssystemen, webbrowsers en antivirusprogramma's, regelmatig bij. Deze updates bevatten vaak beveiligingspatches die kwetsbaarheden verhelpen en bescherming bieden tegen nieuwe cyberdreigingen.
 
 **4. Wees kritisch over de websites die u bezoekt en klik niet op links in e-mails of op onbekende websites. Blijf bij gerenommeerde bronnen en controleer de legitimiteit van websites voordat u persoonlijke of financiële informatie deelt.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Gebruik firewalls om inkomend en uitgaand netwerkverkeer te controleren en zet betrouwbare antivirussoftware in om malware of verdachte activiteiten van uw apparaten te detecteren en te verwijderen.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Gebruik firewalls om inkomend en uitgaand netwerkverkeer te controleren en zet betrouwbare antivirussoftware in om malware of verdachte activiteiten van uw apparaten te detecteren en te verwijderen.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Maak regelmatig back-ups van uw belangrijke gegevens en bestanden. Dit zorgt ervoor dat u, zelfs als uw computer wordt aangetast of uw gegevens worden gestolen, uw informatie kunt herstellen en de gevolgen van mogelijke cyberaanvallen tot een minimum kunt beperken.
+[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Maak regelmatig back-ups van uw belangrijke gegevens en bestanden. Dit zorgt ervoor dat u, zelfs als uw computer wordt aangetast of uw gegevens worden gestolen, uw informatie kunt herstellen en de gevolgen van mogelijke cyberaanvallen tot een minimum kunt beperken.
 
 ## Overheidsvoorschriften en -initiatieven
 

@@ -16,7 +16,7 @@ L'ingénierie sociale est une forme de cyberattaque qui consiste à manipuler le
 
 ## Types d'attaques d'ingénierie sociale
 
-###[Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+###[Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
 
 Les attaques par hameçonnage sont la forme la plus courante d'attaques par ingénierie sociale. Elles consistent à envoyer des courriels qui semblent provenir de sources fiables pour inciter les gens à fournir des informations sensibles ou à cliquer sur des liens qui installent des logiciels malveillants. Les courriels peuvent utiliser des tactiques de peur, des demandes urgentes ou des appels émotionnels pour inciter les gens à agir sans réfléchir.
 
@@ -42,25 +42,25 @@ Pour prévenir les attaques de type "quid pro quo", il est important de **former
 
 ## Stratégies de prévention des attaques par ingénierie sociale
 
-###[Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+###[Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-L'une des stratégies les plus efficaces pour prévenir les attaques d'ingénierie sociale consiste à[**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Les employés doivent être informés des différents types d'attaques d'ingénierie sociale et de la manière de les reconnaître. Ils doivent également apprendre à répondre aux demandes suspectes et à les signaler à leur supérieur ou au service informatique.
+L'une des stratégies les plus efficaces pour prévenir les attaques d'ingénierie sociale consiste à[**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Les employés doivent être informés des différents types d'attaques d'ingénierie sociale et de la manière de les reconnaître. Ils doivent également apprendre à répondre aux demandes suspectes et à les signaler à leur supérieur ou au service informatique.
 
 La formation doit être régulière et adaptée aux besoins spécifiques de l'organisation. Il est important de souligner l'importance de la sécurité et de s'assurer que les employés comprennent les conséquences du non-respect des protocoles de sécurité.
 
-###[Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+###[Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Les politiques de sécurité constituent une autre stratégie importante pour prévenir les attaques d'ingénierie sociale. Les organisations devraient disposer de politiques claires sur la manière de traiter les informations sensibles et sur les actions autorisées ou interdites. Les politiques doivent être régulièrement révisées et mises à jour afin de garantir leur efficacité et leur actualité.
 
 Les organisations devraient également disposer de politiques sur la manière de répondre aux incidents de sécurité. Les employés doivent être formés à ce qu'il faut faire en cas de violation de la sécurité, et il doit exister des procédures claires pour signaler les incidents et atténuer les dommages.
 
-###[Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+###[Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 L'authentification multifactorielle (AMF) est une fonction de sécurité qui exige des utilisateurs qu'ils fournissent plusieurs formes d'authentification, telles qu'un mot de passe et une empreinte digitale ou une carte à puce, pour accéder à un système. L'AMF peut contribuer à prévenir les attaques d'ingénierie sociale en rendant plus difficile l'accès des pirates aux informations sensibles.
 
 Les organisations devraient envisager de mettre en œuvre l'AMF pour tous les systèmes qui contiennent des informations sensibles ou des infrastructures critiques. Il est important de choisir des solutions MFA faciles à utiliser et à gérer, et qui offrent un niveau de sécurité élevé.
 
-###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 Les logiciels antivirus et anti-malware peuvent aider à prévenir les attaques d'ingénierie sociale en détectant et en bloquant les logiciels malveillants avant qu'ils ne causent des dommages. Les organisations devraient installer des logiciels antivirus et anti logiciels malveillants à jour sur tous les systèmes et appareils qui se connectent à leur réseau.
 

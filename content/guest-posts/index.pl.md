@@ -11,11 +11,11 @@ coverCaption: "Podziel się swoją wiedzą i spostrzeżeniami z naszą społeczn
 
 Dziękujemy za zainteresowanie współtworzeniem naszej witryny! Czekamy na zgłoszenia gościnnych blogów, które są zgodne z naszą treścią. Aby przesłać artykuł do rozpatrzenia, wykonaj następujące kroki:
 
-1. Skontaktuj się z nami za pośrednictwem formularza internetowego pod adresem [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) aby wyrazić zainteresowanie gościnnym blogowaniem.
+1. Skontaktuj się z nami za pośrednictwem formularza internetowego pod adresem [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) aby wyrazić zainteresowanie gościnnym blogowaniem.
 
 2. Przygotuj artykuł w formacie Markdown (md) lub HTML.
 
-3. Prześlij pull request do naszego repozytorium GitHub pod adresem [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
+3. Prześlij pull request do naszego repozytorium GitHub pod adresem [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
 
 4. Upewnij się, że artykuł zawiera prawidłowy frontmatter (metadane) ze wszystkimi wymaganymi zmiennymi, jak pokazano w poniższym przykładzie:
 
@@ -122,7 +122,7 @@ Blogowanie gościnne jest obustronnie korzystnym porozumieniem, w którym autorz
 
 - Dziękujemy za zrozumienie i współpracę w przestrzeganiu tych wytycznych w celu utrzymania jakości i trafności treści na SimeonOnSecurity.
 
-Z niecierpliwością czekamy na Twój cenny wkład i pomoc w dotarciu z Twoimi spostrzeżeniami do szerszego grona odbiorców. W razie jakichkolwiek dalszych pytań lub wyjaśnień, prosimy o kontakt za pośrednictwem strony internetowej [webform](https://simeononsecurity.com/contactus/)
+Z niecierpliwością czekamy na Twój cenny wkład i pomoc w dotarciu z Twoimi spostrzeżeniami do szerszego grona odbiorców. W razie jakichkolwiek dalszych pytań lub wyjaśnień, prosimy o kontakt za pośrednictwem strony internetowej [webform](https://simeononsecurity.ch/contactus/)
 
 ***Happy writing!***
 

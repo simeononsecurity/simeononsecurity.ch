@@ -23,7 +23,7 @@ Maak een account aan op [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 ### Docker installeren
 
-Leer [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Leer [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Installeer de Docker Container:
 Wijzig de string met de voor de hand liggende e-mail, wachtwoord en apparaatnaam voordat u deze in de terminal plakt.
@@ -42,5 +42,5 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 
 Kortom, Honey Gain biedt een aantrekkelijke mogelijkheid om passief inkomen te verdienen door uw internetverbinding te delen. Door deel uit te maken van hun netwerk kunt u uw ongebruikte bandbreedte te gelde maken en omzetten in een consistente bron van inkomsten. Het is echter belangrijk om de complexiteit van het uitbetalingsproces te begrijpen en de details zorgvuldig te evalueren voordat u besluit om deze dienst te gebruiken. Om te beginnen met Honey Gain, volgt u de meegeleverde installatie- en instellingsinstructies en begint u uw reis naar het moeiteloos verdienen van passief inkomen.
 
-Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 

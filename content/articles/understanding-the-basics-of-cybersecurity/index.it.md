@@ -89,7 +89,7 @@ Con l'avvento della tecnologia digitale, la sicurezza informatica è diventata u
 
 Ecco alcune best practice fondamentali da seguire per assicurarsi di essere protetti dalle minacce informatiche:
 
-#### [Creating Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### [Creating Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
 Le **password forti** sono essenziali per prevenire gli attacchi alle password. Le password devono essere **lunghe, complesse e uniche** per ogni account. Una password forte deve contenere una combinazione di **lettere maiuscole e minuscole, numeri e simboli**. Evitate di usare parole o frasi comuni, nonché informazioni personali come il vostro nome o la vostra data di nascita.
 
@@ -101,7 +101,7 @@ Si consiglia inoltre di utilizzare un **gestore di password**, che può generare
 
 Si consiglia inoltre di attivare gli **aggiornamenti automatici** ogni volta che è possibile per assicurarsi di avere sempre la versione più recente del software.
 
-#### [Implementing Multi-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### [Implementing Multi-Factor Authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 **L'autenticazione a più fattori** aggiunge un ulteriore livello di sicurezza, richiedendo agli utenti non solo di inserire una password ma anche di fornire una seconda forma di identificazione, come un'impronta digitale o un token di sicurezza. Questo può aiutare a prevenire l'accesso non autorizzato ai vostri account, anche se la vostra password è stata compromessa.
 
@@ -109,7 +109,7 @@ Molti servizi online, come i provider di e-mail e le piattaforme di social media
 
 #### Abitudini di navigazione sicura
 
-Prestare attenzione ai siti web visitati, ai collegamenti cliccati e alle informazioni condivise online può aiutare a prevenire [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) o **siti web falsi** per indurre gli utenti a rivelare informazioni sensibili o a scaricare malware.
+Prestare attenzione ai siti web visitati, ai collegamenti cliccati e alle informazioni condivise online può aiutare a prevenire [**social engineering attacks**](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) o **siti web falsi** per indurre gli utenti a rivelare informazioni sensibili o a scaricare malware.
 
 Si raccomanda di visitare solo siti web affidabili, di evitare di cliccare su link o pop-up sospetti e di non condividere mai informazioni personali o finanziarie online a meno che non si sia certi che il sito sia legittimo.
 
@@ -119,7 +119,7 @@ Seguendo queste buone pratiche, è possibile ridurre significativamente il risch
 
 La **crittografia** svolge un ruolo essenziale nella sicurezza informatica proteggendo i dati sensibili da accessi non autorizzati. La crittografia è il processo di conversione dei dati in un codice che può essere decifrato solo con la chiave o la password corretta.
 
-#### [What is Encryption?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+#### [What is Encryption?](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
 
 La **crittografia** è una tecnica di comunicazione sicura che prevede la conversione di dati in chiaro in testo cifrato utilizzando un algoritmo e una chiave.
 
@@ -151,7 +151,7 @@ Le **aziende** devono prendere sul serio la cybersecurity per proteggere i loro 
 
 Lo sviluppo di un **piano di sicurezza informatica** è essenziale per identificare e mitigare i **rischi informatici**. Questo piano deve includere politiche e procedure per la **protezione dei dati**, la **risposta agli incidenti** e la **formazione dei dipendenti**.
 
-#### [Employee Training and Awareness](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
+#### [Employee Training and Awareness](https://simeononsecurity.ch/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
 
 La formazione dei dipendenti sulle **migliori pratiche di cybersecurity** è essenziale per ridurre il rischio di **errore umano** e garantire che tutti nell'organizzazione siano sulla stessa lunghezza d'onda quando si tratta di cybersecurity.
 
@@ -159,7 +159,7 @@ La formazione dei dipendenti sulle **migliori pratiche di cybersecurity** è ess
 
 Regolari **verifiche di sicurezza** sono importanti per identificare le vulnerabilità e garantire l'efficacia delle misure di cybersecurity dell'organizzazione. Questi audit dovrebbero essere condotti da una **terza parte** esterna.
 
-### [The Future of Cybersecurity](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
+### [The Future of Cybersecurity](https://simeononsecurity.ch/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
 
 Il mondo della sicurezza informatica è in continua evoluzione e rimanere al passo con i tempi è essenziale per proteggersi dalle minacce più recenti.
 
@@ -167,11 +167,11 @@ Il mondo della sicurezza informatica è in continua evoluzione e rimanere al pas
 
 Nuove tecnologie come l'**Internet delle cose (IoT)** e l'**intelligenza artificiale (AI)** stanno creando nuove opportunità per gli **attacchi informatici**. È essenziale rimanere aggiornati sulle **minacce emergenti** e sulle tecnologie per proteggersi da esse.
 
-#### [The Role of Artificial Intelligence](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
+#### [The Role of Artificial Intelligence](https://simeononsecurity.ch/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
 
 **L'intelligenza artificiale può essere utilizzata sia per attaccare che per difendersi dalle minacce informatiche. I sistemi di rilevamento e risposta basati sull'intelligenza artificiale possono aiutare a identificare e mitigare le minacce in tempo reale.
 
-#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
+#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.ch/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
 
 Le **minacce informatiche** sono di natura globale e richiedono una cooperazione internazionale per essere combattute. Un'efficace **sicurezza informatica** richiede la **collaborazione** e la **condivisione di informazioni** tra governi, aziende e individui.
 

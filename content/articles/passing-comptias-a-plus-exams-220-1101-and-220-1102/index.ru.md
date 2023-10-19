@@ -92,7 +92,7 @@ coverCaption: ""
 
 Существует множество онлайн-ресурсов, предлагающих пробные экзамены по CompTIA A+. Среди них можно выделить следующие:
 
-- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.com/a-plus-practice-test)
+- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.ch/a-plus-practice-test)
 - [**CertMaster Practice from CompTIA**](https://www.comptia.org/training/certmaster-practice/a) CertMaster Practice предлагает ряд практических экзаменов и тестов, которые призваны помочь вам подготовиться к реальному экзамену.
 - [**ExamCompass**](https://www.examcompass.com/) ExamCompass предлагает ряд бесплатных тренировочных экзаменов по экзаменам CompTIA A+, а также по другим ИТ-сертификациям.
 - [**Udemy**](https://www.udemy.com/) Udemy предлагает различные платные курсы и тренировочные экзамены по экзаменам CompTIA A+.

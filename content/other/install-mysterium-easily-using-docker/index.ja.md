@@ -21,7 +21,7 @@ Dockerコンテナを使用してMysteriumをインストールする場合は�
 
 #### Dockerをインストールする
 
-学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### Mysterium Docker Containerのインストール
 
@@ -50,7 +50,7 @@ ufw allow 59850:60000/tcp
 
 Mysteriumは、プライバシーとセキュリティを維持しながら収入を得ることができる、分散型VPNとウェブスクレイピングサービスを提供します。IPごとのノードあたり1ドルから20ドルの潜在的な月間収益があり、ユーザーに収入の機会を提供します。Mysteriumの使用を開始し、その機能を今すぐ利用しましょう！
 
-ご利用が完了しましたら [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+ご利用が完了しましたら [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
 

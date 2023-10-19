@@ -8,7 +8,7 @@ tags: ["pfSense", "OPNsense", "تصلب", "طابعة HP t740", "عميل رفي
 cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
 coverAlt: "رسم كاريكاتوري لمعالج يلقي تعويذة لإصلاح جهاز كمبيوتر مجمّد ، مع فقاعة كلام تقول تم حل المشكلة"
 coverCaption: ""
-canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"
+canonical: "https://simeononsecurity.ch/guides/installing-pfsense-on-hp-t740-thin-client/"
 ---
  pfSense أو OPNsense أو HardenedBSD على جهاز HP t740 Thin Client **
 

@@ -33,9 +33,9 @@ Dobre praktyki w zakresie bezpieczeństwa cyfrowego i higieny mają kluczowe zna
 
 Jeśli podejrzewasz, że Twoja prywatność została naruszona, koniecznie zgłoś ten incydent. Zaginięcie, nadużycie lub wykorzystywanie seksualne dziecka można zgłosić pod adresem [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) za cyberprzestępstwa, włamania, kradzieże cyfrowe i nie tylko.
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-Jeśli potrzebujesz dodatkowej pomocy w ochronie swojej prywatności, rozważ skorzystanie z usługi [privacy services](https://simeononsecurity.com/recommendations/services/) aby usunąć swoje rekordy z głównych brokerów danych. Niektóre zalecane usługi obejmują:
+Jeśli potrzebujesz dodatkowej pomocy w ochronie swojej prywatności, rozważ skorzystanie z usługi [privacy services](https://simeononsecurity.ch/recommendations/services/) aby usunąć swoje rekordy z głównych brokerów danych. Niektóre zalecane usługi obejmują:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Ta preferowana usługa może pomóc w usunięciu rekordów z głównych brokerów danych.
 - [OneRep](https://onerep.com) Ta alternatywna usługa może pomóc w usunięciu rekordów z głównych brokerów danych.

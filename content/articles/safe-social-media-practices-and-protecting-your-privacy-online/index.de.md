@@ -56,9 +56,9 @@ ______
 
 Hier sind einige zusätzliche **Tipps**, um Ihre Privatsphäre und Sicherheit in den sozialen Medien zu verbessern:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Erstellen Sie sichere Passwörter für Ihre Konten in sozialen Medien und vermeiden Sie die Wiederverwendung auf mehreren Plattformen. Erwägen Sie die Verwendung eines Passwortmanagers, um komplexe Passwörter sicher zu speichern und zu generieren.
+1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Erstellen Sie sichere Passwörter für Ihre Konten in sozialen Medien und vermeiden Sie die Wiederverwendung auf mehreren Plattformen. Erwägen Sie die Verwendung eines Passwortmanagers, um komplexe Passwörter sicher zu speichern und zu generieren.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) wann immer möglich. Dadurch wird eine zusätzliche Sicherheitsebene geschaffen, da bei der Anmeldung zusätzlich zu Ihrem Passwort ein Verifizierungscode erforderlich ist.
+2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) wann immer möglich. Dadurch wird eine zusätzliche Sicherheitsebene geschaffen, da bei der Anmeldung zusätzlich zu Ihrem Passwort ein Verifizierungscode erforderlich ist.
 
 3. **Regelmäßige Überprüfung Ihrer Freunde und Follower**: Überprüfen Sie regelmäßig Ihre Freundes- und Followerliste, um sicherzustellen, dass Sie nur mit Personen verbunden sind, die Sie kennen und denen Sie vertrauen.
 

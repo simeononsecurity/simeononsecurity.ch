@@ -48,5 +48,5 @@ Get-ChildItem -Recurse *.ps1 | Unblock-File
 ### Geautomatiseerde installatie:
 Gebruik deze one-liner om automatisch alle ondersteunende bestanden te downloaden, uit te pakken en de laatste versie van het script uit te voeren.
 ```
-iwr -useb 'https://simeononsecurity.com/scripts/sosdotnet.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/sosdotnet.ps1'|iex
 ```

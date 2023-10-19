@@ -56,9 +56,9 @@ ______
 
 ソーシャルメディアにおけるプライバシーとセキュリティを強化するための追加のヒント**をいくつかご紹介します：
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)ソーシャルメディアのアカウントには強力なパスワードを作成し、複数のプラットフォームで再利用することは避けましょう。複雑なパスワードを安全に保存し、生成するために、パスワードマネージャーの利用を検討する。
+1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)ソーシャルメディアのアカウントには強力なパスワードを作成し、複数のプラットフォームで再利用することは避けましょう。複雑なパスワードを安全に保存し、生成するために、パスワードマネージャーの利用を検討する。
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA)を可能な限り使用します。これは、ログイン時にパスワードに加えて認証コードを要求することで、セキュリティのレイヤーを追加するものです。
+2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA)を可能な限り使用します。これは、ログイン時にパスワードに加えて認証コードを要求することで、セキュリティのレイヤーを追加するものです。
 
 3.**友達とフォロワーを定期的に確認する：友人やフォロワーリストを定期的に見直し、あなたが知っていて信頼できる個人としかつながっていないことを確認します。
 

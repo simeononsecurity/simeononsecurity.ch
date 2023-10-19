@@ -27,7 +27,7 @@ Maak een PawnsApp account aan door naar [https://pawns.app](https://pawns.app/?r
 
 #### 2. Docker installeren
 
-Leer [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Leer [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 3. Zodra u een account hebt aangemaakt, volgt u de onderstaande instructies om de Docker-container voor PawnsApp te installeren:
 
@@ -55,7 +55,7 @@ PawnsApp biedt een uitstekende mogelijkheid om passief inkomen te verdienen door
 
 Begin uw reis met PawnsApp vandaag nog en ontgrendel het potentieel van moeiteloos geld verdienen!
 
-Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### Referentie
 - [PawnsApp](https://pawns.app/?r=2092882)

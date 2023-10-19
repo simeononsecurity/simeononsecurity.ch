@@ -40,6 +40,6 @@ ______
 
 选择与您的职业目标和兴趣相一致的认证至关重要。无论您是想建立强大的网络安全基础知识，还是想专攻该领域的某个特定领域，这些认证都能帮助您的职业生涯更上一层楼。
 
-需要注意的是，本文列出的认证只是众多认证中的一小部分。研究并选择适合您的认证可以帮助您实现职业目标，并向潜在雇主展示您的知识和技能。如需了解更多建议，请查看我们的 [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/)
+需要注意的是，本文列出的认证只是众多认证中的一小部分。研究并选择适合您的认证可以帮助您实现职业目标，并向潜在雇主展示您的知识和技能。如需了解更多建议，请查看我们的 [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/)
 
 **今天就通过这些顶级认证之一**，开始您的卓越网络安全之旅。

@@ -33,9 +33,9 @@ Le buone pratiche di sicurezza e igiene digitale sono fondamentali per protegger
 
 Se si sospetta che la propria privacy sia stata violata, è fondamentale segnalare l'accaduto. È possibile denunciare la scomparsa, l'abuso o lo sfruttamento sessuale di un bambino all'indirizzo [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) per crimini informatici, hacking, furti digitali e altro ancora.
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-Se avete bisogno di ulteriore aiuto per proteggere la vostra privacy, considerate l'utilizzo di [privacy services](https://simeononsecurity.com/recommendations/services/) per cancellare i vostri dati dai principali broker di dati. Alcuni servizi consigliati sono:
+Se avete bisogno di ulteriore aiuto per proteggere la vostra privacy, considerate l'utilizzo di [privacy services](https://simeononsecurity.ch/recommendations/services/) per cancellare i vostri dati dai principali broker di dati. Alcuni servizi consigliati sono:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Questo servizio preferenziale può aiutarvi a cancellare i vostri dati dai principali broker di dati.
 - [OneRep](https://onerep.com) Questo servizio alternativo può aiutarvi a cancellare i vostri dati dai principali broker di dati.

@@ -33,12 +33,12 @@ Good digital security and hygiene practices are critical for protecting your pri
 
 If you suspect that your privacy has been violated, it is crucial to report the incident. You can report a missing, abused, or sexually exploited child at [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) for cyber crimes, hacks, digital theft, and more.
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-If you need additional help protecting your privacy, consider using [privacy services](https://simeononsecurity.com/recommendations/services/) to delete your records from major data brokers. Some recommended services include:
+If you need additional help protecting your privacy, consider using [privacy services](https://simeononsecurity.ch/recommendations/services/) to delete your records from major data brokers. Some recommended services include:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4): This preferred service can help you delete your records from major data brokers.
-- [OneRep](https://onerep.com): [Onerep](https://simeononsecurity.com/articles/onerep-data-removal-privacy-service/) is an alternate service can help you delete your records from major data brokers.
+- [OneRep](https://onerep.com): [Onerep](https://simeononsecurity.ch/articles/onerep-data-removal-privacy-service/) is an alternate service can help you delete your records from major data brokers.
 - [Privacy Duck](https://www.privacyduck.com/): This alternate service can also help you delete your records from major data brokers.
 
 You can also mask your information with services like [Abine Blur](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) and [Privacy.com](https://privacy.com/join/SU86Y). Abine Blur provides a password manager, identity masking, and one-time-use debit cards. Privacy.com, on the other hand, generates one-time-use debit cards, which can help prevent fraud.

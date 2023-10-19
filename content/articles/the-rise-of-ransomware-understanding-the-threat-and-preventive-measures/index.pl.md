@@ -36,17 +36,17 @@ W 2017 r.[WannaCry ransomware attack](https://www.cisa.gov/wannacry) dotknął p
 
 Środki zapobiegawcze mogą pomóc osobom i organizacjom w ochronie przed atakami ransomware. Poniżej przedstawiono kilka środków zapobiegawczych, które należy rozważyć:
 
--[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regularne tworzenie kopii zapasowych danych może pomóc w przywróceniu danych w przypadku ataku ransomware.
+-[**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regularne tworzenie kopii zapasowych danych może pomóc w przywróceniu danych w przypadku ataku ransomware.
 
--[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Aktualizuj całe oprogramowanie, w tym systemy operacyjne i aplikacje, za pomocą najnowszych poprawek bezpieczeństwa.
+-[**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Aktualizuj całe oprogramowanie, w tym systemy operacyjne i aplikacje, za pomocą najnowszych poprawek bezpieczeństwa.
 
--[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Zainstaluj i używaj oprogramowania antywirusowego do wykrywania i zapobiegania atakom ransomware.
+-[**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Zainstaluj i używaj oprogramowania antywirusowego do wykrywania i zapobiegania atakom ransomware.
 
--[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Szkolenie pracowników w zakresie rozpoznawania i unikania e-maili phishingowych oraz innych rodzajów ataków socjotechnicznych.
+-[**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Szkolenie pracowników w zakresie rozpoznawania i unikania e-maili phishingowych oraz innych rodzajów ataków socjotechnicznych.
 
--[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) aby zapobiec nieautoryzowanemu dostępowi do kont.
+-[**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) aby zapobiec nieautoryzowanemu dostępowi do kont.
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Użyj VPN do szyfrowania ruchu internetowego i ochrony przed atakami sieciowymi.
+-[**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Użyj VPN do szyfrowania ruchu internetowego i ochrony przed atakami sieciowymi.
 
 ## Wnioski.
 

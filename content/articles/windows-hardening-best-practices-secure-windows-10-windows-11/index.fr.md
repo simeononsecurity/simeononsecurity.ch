@@ -97,7 +97,7 @@ Il est recommandé de laisser l'UAC activé et de le régler à un niveau qui of
 
 En configurant les paramètres de l'UAC, vous renforcez la sécurité de votre système Windows 10 en veillant à ce que des privilèges administratifs soient requis pour les modifications critiques du système, ce qui réduit le risque d'accès non autorisé et d'infections par des logiciels malveillants.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 L'utilisation de mots de passe forts est essentielle pour maintenir la sécurité de votre système Windows 10 et le protéger contre les accès non autorisés. Des mots de passe faibles ou faciles à deviner peuvent rendre votre système vulnérable aux attaques, telles que les attaques par force brute ou le craquage de mots de passe.
 
 Pour vous assurer que tous les comptes d'utilisateur de votre système Windows 10 disposent de mots de passe forts, suivez ces bonnes pratiques en matière de mots de passe :
@@ -116,7 +116,7 @@ Pour vous assurer que tous les comptes d'utilisateur de votre système Windows 1
 
 En mettant en œuvre des pratiques strictes en matière de mots de passe, vous renforcez considérablement la sécurité de votre système Windows 10 et réduisez le risque d'accès non autorisé ou d'atteinte à la protection des données. Sensibilisez régulièrement les utilisateurs à la sécurité des mots de passe et fournissez-leur des ressources, telles que des indicateurs de force de mot de passe ou des directives de création de mot de passe, pour les aider à créer des mots de passe forts.
 
-Pour obtenir des informations plus détaillées sur la création de mots de passe forts et les meilleures pratiques, vous pouvez consulter le document suivant [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Il fournit des conseils complets sur la sécurité des mots de passe et propose des astuces pour créer des mots de passe forts et mémorables.
+Pour obtenir des informations plus détaillées sur la création de mots de passe forts et les meilleures pratiques, vous pouvez consulter le document suivant [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Il fournit des conseils complets sur la sécurité des mots de passe et propose des astuces pour créer des mots de passe forts et mémorables.
 
 N'oubliez pas que l'utilisation de mots de passe forts est un aspect fondamental de la sécurité du système et qu'il faut en faire une priorité pour protéger les données sensibles et garantir l'intégrité de votre environnement Windows 10.
 
@@ -200,7 +200,7 @@ Pour obtenir des informations plus détaillées sur la mise en œuvre des politi
 
 N'oubliez pas de revoir et de mettre à jour régulièrement vos politiques AppLocker pour vous adapter aux exigences changeantes des applications et aux menaces de sécurité émergentes. AppLocker est un outil précieux dans votre défense contre les applications non autorisées et potentiellement nuisibles sur votre système Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 La sauvegarde régulière de vos données est une pratique essentielle pour vous protéger contre la perte de données causée par des incidents de sécurité, des pannes de matériel ou d'autres événements inattendus. En créant des sauvegardes régulières et en vérifiant leur intégrité, vous pouvez vous assurer que vos données importantes restent en sécurité et peuvent être restaurées en cas de sinistre.
 
 Suivez ces étapes pour sauvegarder régulièrement vos données sur un système Windows 10 :
@@ -221,7 +221,7 @@ Suivez ces étapes pour sauvegarder régulièrement vos données sur un système
 
 En suivant ces étapes et en adhérant à une routine de sauvegarde régulière, vous pouvez minimiser l'impact de la perte de données et maintenir la disponibilité de vos informations importantes. N'oubliez pas de stocker vos sauvegardes en toute sécurité, à l'écart des données d'origine, et envisagez de mettre en œuvre la règle de sauvegarde **3-2-1** en disposant d'au moins trois copies de vos données, stockées sur deux supports de stockage différents, avec une copie stockée hors site.
 
-Pour des informations plus détaillées sur les meilleures pratiques en matière de sauvegarde et la règle **3-2-1**, vous pouvez consulter l'article sur le site suivant [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Il fournit des informations et des recommandations précieuses pour la mise en œuvre d'une stratégie de sauvegarde efficace.
+Pour des informations plus détaillées sur les meilleures pratiques en matière de sauvegarde et la règle **3-2-1**, vous pouvez consulter l'article sur le site suivant [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Il fournit des informations et des recommandations précieuses pour la mise en œuvre d'une stratégie de sauvegarde efficace.
 
 N'oubliez pas que des sauvegardes régulières sont essentielles pour sauvegarder vos données et garantir leur disponibilité en cas d'événements imprévus. Faites de la sauvegarde des données une partie intégrante de vos efforts de durcissement de Windows 10 pour protéger vos informations précieuses.
 

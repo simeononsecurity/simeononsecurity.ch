@@ -101,8 +101,8 @@ ______
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
 - [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.ch/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

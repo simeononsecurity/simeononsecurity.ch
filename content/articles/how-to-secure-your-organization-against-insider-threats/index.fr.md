@@ -37,7 +37,7 @@ __________
 
 La formation doit être dispensée à tous les nouveaux employés et doit être répétée régulièrement pour les employés existants. Cela permet de s'assurer que les employés sont au courant des dernières menaces et qu'ils savent comment y répondre. En outre, les organisations devraient fournir une formation ciblée aux employés ayant un accès privilégié aux données et systèmes sensibles.
 
-[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) peut prendre de nombreuses formes, y compris des cours en ligne, des formations en personne et des simulations d'attaques de phishing. Les organisations doivent choisir le format qui convient le mieux à leurs employés et suivre l'achèvement de la formation pour s'assurer que tous les employés ont reçu la formation nécessaire.
+[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) peut prendre de nombreuses formes, y compris des cours en ligne, des formations en personne et des simulations d'attaques de phishing. Les organisations doivent choisir le format qui convient le mieux à leurs employés et suivre l'achèvement de la formation pour s'assurer que tous les employés ont reçu la formation nécessaire.
 
 __________
 

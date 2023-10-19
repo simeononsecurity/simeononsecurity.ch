@@ -31,11 +31,11 @@ A **master's degree** in cyber security offers advanced knowledge and specializa
 ### Certifications
 In addition to formal education, obtaining relevant certifications can significantly enhance your credibility and marketability in the field of cyber security. Here are some widely recognized certifications:
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/): This globally recognized certification validates your expertise in designing, implementing, and managing an enterprise-level cyber security program.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/): This certification demonstrates your knowledge of hacking techniques and helps organizations identify vulnerabilities in their systems.
-- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/): This entry-level certification covers the foundational knowledge and skills required to secure networks and systems.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/): This globally recognized certification validates your expertise in designing, implementing, and managing an enterprise-level cyber security program.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/): This certification demonstrates your knowledge of hacking techniques and helps organizations identify vulnerabilities in their systems.
+- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/): This entry-level certification covers the foundational knowledge and skills required to secure networks and systems.
 
-Learn more about [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/).
+Learn more about [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/).
 
 ______
 

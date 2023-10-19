@@ -23,7 +23,7 @@ coverCaption: ""
 
 ### Установите Docker
 
-Изучить [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Изучить [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Установите контейнер Docker:
 Перед вставкой в терминал измените строку, указав очевидные email, пароль и имя устройства
@@ -42,5 +42,5 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 
 В заключение можно сказать, что Honey Gain предлагает привлекательную возможность получения пассивного дохода за счет совместного использования своего Интернет-соединения. Став частью их сети, вы сможете монетизировать свою неиспользуемую пропускную способность и превратить ее в постоянный источник дохода. Однако важно понимать сложность процесса выплат и внимательно изучить все детали, прежде чем принимать решение об использовании этой услуги. Чтобы начать работу с Honey Gain, следуйте прилагаемым инструкциям по установке и настройке и начните свой путь к получению пассивного дохода без особых усилий.
 
-По окончании работы вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+По окончании работы вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 

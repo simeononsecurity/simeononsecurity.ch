@@ -22,13 +22,13 @@ ______
 
 ## Social Engineering
 
-**Social Engineering** ist eine Art von Cyberangriff, der auf menschlicher Interaktion und psychologischer Manipulation beruht, um Personen dazu zu bringen, vertrauliche Informationen preiszugeben oder bestimmte Aktionen auszuführen. Cyberkriminelle verwenden verschiedene Taktiken, wie z. B. [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) Vorwände, Köder und Gegenleistungen, um das Vertrauen ihrer Opfer zu gewinnen und vertrauliche Informationen zu erhalten.
+**Social Engineering** ist eine Art von Cyberangriff, der auf menschlicher Interaktion und psychologischer Manipulation beruht, um Personen dazu zu bringen, vertrauliche Informationen preiszugeben oder bestimmte Aktionen auszuführen. Cyberkriminelle verwenden verschiedene Taktiken, wie z. B. [phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) Vorwände, Köder und Gegenleistungen, um das Vertrauen ihrer Opfer zu gewinnen und vertrauliche Informationen zu erhalten.
 
 Um das Risiko von Social-Engineering-Angriffen zu verringern, können Einzelpersonen und Organisationen die folgenden Schritte unternehmen:
 
-- Bereitstellen [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) an die Mitarbeiter, um ihnen beizubringen, wie sie Social-Engineering-Angriffe erkennen und vermeiden können.
+- Bereitstellen [**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) an die Mitarbeiter, um ihnen beizubringen, wie sie Social-Engineering-Angriffe erkennen und vermeiden können.
 - Verwenden Sie **Spamfilter** und E-Mail-Authentifizierungsprotokolle wie **SPF**, **DKIM** und **DMARC**, um Phishing-E-Mails zu erkennen und zu blockieren.
-- Implementieren [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
+- Implementieren [**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
 - Überprüfen und aktualisieren Sie regelmäßig **Sicherheitsrichtlinien**, um neuen Bedrohungen und Schwachstellen zu begegnen.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 Um das Risiko von Malware-Angriffen zu verringern, können Einzelpersonen und Unternehmen die folgenden Schritte unternehmen:
 
-- Installieren und aktualisieren Sie regelmäßig [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) auf allen Geräten.
+- Installieren und aktualisieren Sie regelmäßig [**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) auf allen Geräten.
 - Verwenden Sie **Firewalls**, um unbefugten Zugang zu Computersystemen und Netzwerken zu blockieren.
 - Vermeiden Sie das Herunterladen von Software oder Dateien aus nicht vertrauenswürdigen Quellen.
 - Erstellen Sie regelmäßig **Sicherungskopien** wichtiger Daten, um einen Datenverlust im Falle eines Malware-Angriffs zu verhindern.
@@ -67,9 +67,9 @@ Systemen oder Netzwerken zu erlangen, indem Passwörter erraten, geknackt oder g
 Um das Risiko von Kennwortangriffen zu verringern, können Einzelpersonen und Organisationen die folgenden Schritte unternehmen:
 
 - Verwenden Sie sichere und eindeutige Passwörter, die eine Kombination aus Buchstaben, Zahlen und Symbolen enthalten.
-- Implementieren Sie eine [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) die eine regelmäßige Änderung der Passwörter erfordert und die Verwendung von gängigen oder leicht zu erratenden Passwörtern verbietet.
-- Verwendung [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) die komplexe Kennwörter erzeugen und speichern können.
-- Implementieren [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
+- Implementieren Sie eine [**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) die eine regelmäßige Änderung der Passwörter erfordert und die Verwendung von gängigen oder leicht zu erratenden Passwörtern verbietet.
+- Verwendung [**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) die komplexe Kennwörter erzeugen und speichern können.
+- Implementieren [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) um eine zusätzliche Sicherheitsebene für die Anmeldedaten zu schaffen.
 
 ______
 
@@ -81,7 +81,7 @@ Um das Risiko von Web-Anwendungsangriffen zu verringern, können Einzelpersonen 
 
 - Verwenden Sie **Web Application Firewalls**, um bösartigen Datenverkehr zu erkennen und zu blockieren.
 - Scannen Sie Webanwendungen regelmäßig auf Schwachstellen und implementieren Sie umgehend Patches und Updates.
-- Verwenden Sie [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) um häufige Schwachstellen in Webanwendungen zu verhindern.
+- Verwenden Sie [**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) um häufige Schwachstellen in Webanwendungen zu verhindern.
 - Implementieren Sie **Benutzereingabevalidierung**, um SQL-Injection und andere eingabebasierte Angriffe zu verhindern.
 
 ______

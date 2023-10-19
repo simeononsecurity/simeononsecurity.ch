@@ -57,8 +57,8 @@ Atunci când alegeți materialele de studiu, acordați prioritate resurselor car
   - {{< youtube id="maO8_0cA7W8" >}}
 - [PluralSight (Preferred)](https://www.pluralsight.com/)
 - [Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
+- [More Learning Resources](https://simeononsecurity.ch/recommendations/learning_resources)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
 
 ### Concentrează-te pe zonele slabe
 
@@ -90,7 +90,7 @@ Susținerea regulată a examenelor de practică nu numai că vă îmbunătățe�
 
 Așadar, asigurați-vă că explorați site-ul web al **EC-Council** și alte **platforme online de renume** pentru a accesa o varietate de **examene practice CEH** care vă vor ridica nivelul de pregătire pentru examen și vor contribui la succesul dumneavoastră.
 
-- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.com/ceh-practice-test)
+- [**SimeonOnSecurity's CEH Practice Test**](https://simeononsecurity.ch/ceh-practice-test)
 
 ### Alăturați-vă grupurilor de studiu
 

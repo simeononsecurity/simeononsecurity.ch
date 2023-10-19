@@ -83,6 +83,6 @@ ______
 
 Le choix du bon navigateur pour la protection de la vie privée et de la sécurité est crucial pour protéger votre activité en ligne. Brave, Firefox et Tor Browser offrent tous des solutions robustes qui répondent aux différentes préférences et exigences des utilisateurs. En combinant un navigateur sécurisé avec des outils de protection de la vie privée supplémentaires tels que les VPN, les gestionnaires de mots de passe et les clés matérielles, vous pouvez encore améliorer votre sécurité et votre confidentialité en ligne.
 
-Pour en savoir plus sur la protection de la vie privée et la sécurité en ligne, consultez notre section [collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) sur le sujet et se tenir au courant des dernières nouvelles et tendances.
+Pour en savoir plus sur la protection de la vie privée et la sécurité en ligne, consultez notre section [collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) sur le sujet et se tenir au courant des dernières nouvelles et tendances.
 
 

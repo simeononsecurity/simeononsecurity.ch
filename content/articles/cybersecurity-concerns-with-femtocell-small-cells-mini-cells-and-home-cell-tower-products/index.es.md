@@ -36,9 +36,9 @@ Los usuarios finales pueden tomar varias medidas para protegerse contra los ataq
 
 3. **Vigila la actividad de tu dispositivo móvil**: Comprueba regularmente la actividad de tu dispositivo móvil y revisa tus extractos de facturación para identificar cualquier actividad sospechosa.
 
-4. **Contacte con su proveedor de telefonía móvil**: Si sospecha que su dispositivo móvil o su red se han visto comprometidos, póngase en contacto con su proveedor de telefonía móvil inmediatamente para informar del problema y solicitar ayuda. Tenemos algunas orientaciones adicionales sobre qué hacer si sospecha que está en peligro[here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+4. **Contacte con su proveedor de telefonía móvil**: Si sospecha que su dispositivo móvil o su red se han visto comprometidos, póngase en contacto con su proveedor de telefonía móvil inmediatamente para informar del problema y solicitar ayuda. Tenemos algunas orientaciones adicionales sobre qué hacer si sospecha que está en peligro[here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
-5. **Utiliza mensajeros seguros y aplicaciones de voz**: Si es posible, deberías usar aplicaciones como Signal, Wickr o Wire. Hablamos de esto con más detalle[here](https://simeononsecurity.com/recommendations/messengers/)
+5. **Utiliza mensajeros seguros y aplicaciones de voz**: Si es posible, deberías usar aplicaciones como Signal, Wickr o Wire. Hablamos de esto con más detalle[here](https://simeononsecurity.ch/recommendations/messengers/)
 
 ## Conclusión
 

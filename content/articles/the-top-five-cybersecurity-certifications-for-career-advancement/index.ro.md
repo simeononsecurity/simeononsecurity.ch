@@ -40,6 +40,6 @@ ______
 
 Este esențial să alegeți o certificare care se aliniază cu obiectivele și interesele dumneavoastră profesionale. Fie că doriți să vă stabiliți cunoștințe de bază solide în domeniul securității cibernetice sau să vă specializați într-o anumită zonă a domeniului, aceste certificări vă pot ajuta să vă duceți cariera la următorul nivel.
 
-Este important să rețineți că certificările enumerate în acest articol sunt doar câteva dintre numeroasele disponibile. Cercetarea și selectarea certificării potrivite pentru dvs. vă poate ajuta să vă atingeți obiectivele profesionale și să vă demonstrați cunoștințele și abilitățile în fața potențialilor angajatori. Pentru mai multe recomandări, puteți consulta pagina noastră [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/)
+Este important să rețineți că certificările enumerate în acest articol sunt doar câteva dintre numeroasele disponibile. Cercetarea și selectarea certificării potrivite pentru dvs. vă poate ajuta să vă atingeți obiectivele profesionale și să vă demonstrați cunoștințele și abilitățile în fața potențialilor angajatori. Pentru mai multe recomandări, puteți consulta pagina noastră [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/)
 
 **Începeți astăzi călătoria spre excelență în domeniul securității cibernetice urmărind una dintre aceste certificări de top.**

@@ -68,8 +68,8 @@ Oltre alle certificazioni sopra elencate, ci sono diverse altre certificazioni c
 
 Per prepararsi a queste certificazioni, è importante avere accesso a risorse di apprendimento di qualità. SimeonOnSecurity consiglia le seguenti:
 
-- [Books](https://simeononsecurity.com/recommendations/books/) Questa pagina contiene un elenco di libri consigliati per l'apprendimento di vari argomenti nei settori Cyber e IT.
-- [Training](https://simeononsecurity.com/recommendations/learning_resources/) Questa pagina contiene un elenco di corsi di formazione e bootcamp consigliati che possono aiutare a prepararsi alle certificazioni.
+- [Books](https://simeononsecurity.ch/recommendations/books/) Questa pagina contiene un elenco di libri consigliati per l'apprendimento di vari argomenti nei settori Cyber e IT.
+- [Training](https://simeononsecurity.ch/recommendations/learning_resources/) Questa pagina contiene un elenco di corsi di formazione e bootcamp consigliati che possono aiutare a prepararsi alle certificazioni.
 
 ## Visualizza
 

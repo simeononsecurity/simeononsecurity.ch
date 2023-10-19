@@ -16,7 +16,7 @@ Además de la página actualizada, SimeonOnSecurity también descubrió algunos 
 Otros dos recursos están relacionados con la conversión de datos JSON en PowerShell. La documentación de Microsoft proporciona información sobre los cmdlets ConvertFrom-Json y ConvertTo-Json. Estos cmdlets permiten convertir datos JSON en y desde objetos PowerShell, lo que facilita la manipulación y el análisis de los datos.
 
 ## Páginas actualizadas:
-- [HackTheBox - Invite Challenge (Windows/Linux)](https://simeononsecurity.com/writeups/hackthebox-invite-challenge/)
+- [HackTheBox - Invite Challenge (Windows/Linux)](https://simeononsecurity.ch/writeups/hackthebox-invite-challenge/)
 
 ## Recursos de Aprendizaje:
 - [Cameron Nokes - Working with JSON in bash using jq](https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/)

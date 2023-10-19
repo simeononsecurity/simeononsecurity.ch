@@ -68,8 +68,8 @@ Zusätzlich zu den oben aufgeführten Zertifizierungen gibt es noch einige ander
 
 Um sich auf diese Zertifizierungen vorzubereiten, ist es wichtig, Zugang zu hochwertigen Lernressourcen zu haben. SimeonOnSecurity empfiehlt die folgenden:
 
-- [Books](https://simeononsecurity.com/recommendations/books/) Diese Seite enthält eine Liste empfohlener Bücher, um sich über verschiedene Themen im Bereich Cyber und IT zu informieren.
-- [Training](https://simeononsecurity.com/recommendations/learning_resources/) Auf dieser Seite finden Sie eine Liste empfohlener Schulungskurse und Bootcamps, die Sie bei der Vorbereitung auf Zertifizierungen unterstützen können.
+- [Books](https://simeononsecurity.ch/recommendations/books/) Diese Seite enthält eine Liste empfohlener Bücher, um sich über verschiedene Themen im Bereich Cyber und IT zu informieren.
+- [Training](https://simeononsecurity.ch/recommendations/learning_resources/) Auf dieser Seite finden Sie eine Liste empfohlener Schulungskurse und Bootcamps, die Sie bei der Vorbereitung auf Zertifizierungen unterstützen können.
 
 ## Visualisieren
 

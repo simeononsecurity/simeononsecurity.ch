@@ -83,6 +83,6 @@ ______
 
 Die Wahl des richtigen Browsers für Datenschutz und Sicherheit ist entscheidend für den Schutz Ihrer Online-Aktivitäten. Brave, Firefox und Tor Browser bieten allesamt robuste Lösungen, die auf unterschiedliche Benutzerpräferenzen und Anforderungen eingehen. Durch die Kombination eines sicheren Browsers mit zusätzlichen Datenschutz-Tools wie VPNs, Passwort-Managern und Hardware-Schlüsseln können Sie Ihre Online-Sicherheit und Ihren Datenschutz weiter verbessern.
 
-Wenn Sie mehr über Online-Datenschutz und Sicherheit erfahren möchten, lesen Sie unsere [collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) zu diesem Thema und halten Sie sich über die neuesten Nachrichten und Trends auf dem Laufenden.
+Wenn Sie mehr über Online-Datenschutz und Sicherheit erfahren möchten, lesen Sie unsere [collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) zu diesem Thema und halten Sie sich über die neuesten Nachrichten und Trends auf dem Laufenden.
 
 

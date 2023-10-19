@@ -24,29 +24,29 @@ L'ipotesi che ogni dispositivo sia compromesso obbliga ad adottare un approccio 
 
 ### Abitudini di navigazione sicura
 
-1. [**Avoid visiting sketchy websites**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) I siti web dannosi possono infettare il vostro dispositivo con malware o rubare le vostre informazioni personali. Per ridurre al minimo il rischio di compromissione, attenetevi a siti web affidabili e di buona reputazione.
+1. [**Avoid visiting sketchy websites**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) I siti web dannosi possono infettare il vostro dispositivo con malware o rubare le vostre informazioni personali. Per ridurre al minimo il rischio di compromissione, attenetevi a siti web affidabili e di buona reputazione.
 
-2. [**Always verify website authenticity**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Prima di inserire le credenziali di accesso o condividere informazioni sensibili, verificate la legittimità del sito web. Verificate la presenza del protocollo HTTPS, cercate gli indicatori di fiducia e fate attenzione ai tentativi di phishing.
+2. [**Always verify website authenticity**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Prima di inserire le credenziali di accesso o condividere informazioni sensibili, verificate la legittimità del sito web. Verificate la presenza del protocollo HTTPS, cercate gli indicatori di fiducia e fate attenzione ai tentativi di phishing.
 
 ### Protezione dei dati personali
 
-1. [**Refrain from sharing personal details**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Siate cauti nel condividere informazioni personali sensibili online. Il furto di identità è un problema importante e ridurre al minimo l'esposizione dei dati personali riduce le possibilità di accesso non autorizzato.
+1. [**Refrain from sharing personal details**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Siate cauti nel condividere informazioni personali sensibili online. Il furto di identità è un problema importante e ridurre al minimo l'esposizione dei dati personali riduce le possibilità di accesso non autorizzato.
 
 2. **Esercitare cautela con i contenuti intimi**: Non scambiate mai foto o video espliciti online. Questi possono essere utilizzati per ricatti o vendette, con conseguente grave disagio emotivo e potenziale compromissione.
 
 ### Pratiche di autenticazione forte e password
 
-1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize 2FA whenever possible to add an extra layer of security. It combines something you know (password) with something you have (a mobile device or security key) riducendo in modo significativo il rischio di accesso non autorizzato.
+1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize 2FA whenever possible to add an extra layer of security. It combines something you know (password) with something you have (a mobile device or security key) riducendo in modo significativo il rischio di accesso non autorizzato.
 
-2. [**Use randomly generated passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Implementate password forti e uniche per tutti i vostri account. Considerate l'utilizzo di un gestore di password per generare e memorizzare in modo sicuro password complesse.
+2. [**Use randomly generated passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Implementate password forti e uniche per tutti i vostri account. Considerate l'utilizzo di un gestore di password per generare e memorizzare in modo sicuro password complesse.
 
-### [Social Media Privacy](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+### [Social Media Privacy](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
-1. [**Minimize social media usage**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Limitate la vostra presenza sulle piattaforme di social media per ridurre l'esposizione di informazioni personali. Configurate le impostazioni sulla privacy per limitare l'accesso ai vostri post e al vostro profilo.
+1. [**Minimize social media usage**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Limitate la vostra presenza sulle piattaforme di social media per ridurre l'esposizione di informazioni personali. Configurate le impostazioni sulla privacy per limitare l'accesso ai vostri post e al vostro profilo.
 
 ### Comunicazione sicura
 
-1. [**Utilize secure communication apps**](https://simeononsecurity.com/recommendations/messengers): Opt for secure communication apps such as [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) che utilizzano la crittografia end-to-end, garantendo la riservatezza dei vostri messaggi.
+1. [**Utilize secure communication apps**](https://simeononsecurity.ch/recommendations/messengers): Opt for secure communication apps such as [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) che utilizzano la crittografia end-to-end, garantendo la riservatezza dei vostri messaggi.
 
 ### Igiene del dispositivo
 
@@ -56,7 +56,7 @@ L'ipotesi che ogni dispositivo sia compromesso obbliga ad adottare un approccio 
 
 ### Backup dei dati
 
-1. [**Maintain backups**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Create and maintain regular backups of your important data. Follow the [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) che prevede tre copie dei dati, due su supporti diversi e una conservata fuori sede.
+1. [**Maintain backups**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Create and maintain regular backups of your important data. Follow the [3-2-1 backup strategy](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) che prevede tre copie dei dati, due su supporti diversi e una conservata fuori sede.
 
 ______
 

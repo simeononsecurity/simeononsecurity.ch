@@ -24,15 +24,15 @@ Negli ultimi anni, la cybersecurity è diventata un aspetto critico della nostra
 
 Prima di tuffarsi nel mondo della cybersecurity, è importante creare una solida base di conoscenze. Ecco alcune aree essenziali su cui concentrarsi:
 
-1. **Rete**: Comprendere i fondamenti del networking è fondamentale per la cybersecurity. Familiarizzate con i protocolli di rete, l'indirizzamento IP, l'instradamento e i protocolli di rete. [subnetting](https://simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/) Considerate la possibilità di ottenere una certificazione come CompTIA Network+ per convalidare le vostre conoscenze di networking.
+1. **Rete**: Comprendere i fondamenti del networking è fondamentale per la cybersecurity. Familiarizzate con i protocolli di rete, l'indirizzamento IP, l'instradamento e i protocolli di rete. [subnetting](https://simeononsecurity.ch/articles/how-to-perform-network-segmentation-for-improved-security/) Considerate la possibilità di ottenere una certificazione come CompTIA Network+ per convalidare le vostre conoscenze di networking.
 
 2. **Sistemi operativi**: Acquisire competenze sui sistemi operativi Linux e Windows. Imparate a navigare nella riga di comando, a configurare le impostazioni di sistema e a gestire gli account utente. Le certificazioni CompTIA A+ e Linux+ sono ottimi punti di partenza per migliorare la comprensione dei sistemi operativi.
 
 3. **Concetti di base di informatica**: Acquisire una conoscenza di base dei principi dell'informatica, compresi algoritmi, strutture di dati e linguaggi di programmazione. Queste conoscenze vi aiuteranno ad analizzare le vulnerabilità e a sviluppare applicazioni software sicure.
 
-4. **Competenze di codifica**: [Learning a programming language](https://simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/) like [Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) is highly valuable in cybersecurity. [Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) is versatile, widely used, and offers powerful libraries for security-related tasks. Additionally, knowledge of scripting languages like [PowerShell](https://simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/) può essere vantaggioso per automatizzare le attività di sicurezza.
+4. **Competenze di codifica**: [Learning a programming language](https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/) like [Python](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) is highly valuable in cybersecurity. [Python](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) is versatile, widely used, and offers powerful libraries for security-related tasks. Additionally, knowledge of scripting languages like [PowerShell](https://simeononsecurity.ch/articles/learning-powershell-scripting-for-beginners/) può essere vantaggioso per automatizzare le attività di sicurezza.
 
-5. **Amministrazione di sistemi aziendali**: L'esperienza nell'amministrazione di sistemi aziendali vi fornirà informazioni sulla gestione di infrastrutture IT complesse. Acquisire dimestichezza con Active Directory, Group Policy e [system hardening techniques](https://simeononsecurity.com/github/windows-optimize-harden-debloat/)
+5. **Amministrazione di sistemi aziendali**: L'esperienza nell'amministrazione di sistemi aziendali vi fornirà informazioni sulla gestione di infrastrutture IT complesse. Acquisire dimestichezza con Active Directory, Group Policy e [system hardening techniques](https://simeononsecurity.ch/github/windows-optimize-harden-debloat/)
 
 ### Esplorazione dei domini della sicurezza informatica
 
@@ -40,7 +40,7 @@ La cybersecurity comprende vari domini, ognuno dei quali ha un proprio obiettivo
 
 1. **Blue Team**: I professionisti del Blue Team si concentrano sulla difesa dei sistemi e delle reti dalle minacce informatiche. Progettano e implementano misure di sicurezza, monitorano il traffico di rete e rispondono agli incidenti. Acquisiscono la conoscenza degli strumenti di sicurezza, delle tecnologie e delle best practice per una difesa efficace.
 
-2. **Red Team**: I professionisti del Red Team, noti anche come hacker etici, sono specializzati nella valutazione delle vulnerabilità dei sistemi attraverso attacchi simulati. Identificano i punti deboli dei sistemi di sicurezza, conducono test di penetrazione e aiutano le organizzazioni a rafforzare le loro difese. Sviluppate competenze pratiche nelle tecniche di hacking etico e familiarizzate con strumenti quali [Metasploit](https://simeononsecurity.com/articles/what-is-metasploit/) and [Burp Suite](https://simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/)
+2. **Red Team**: I professionisti del Red Team, noti anche come hacker etici, sono specializzati nella valutazione delle vulnerabilità dei sistemi attraverso attacchi simulati. Identificano i punti deboli dei sistemi di sicurezza, conducono test di penetrazione e aiutano le organizzazioni a rafforzare le loro difese. Sviluppate competenze pratiche nelle tecniche di hacking etico e familiarizzate con strumenti quali [Metasploit](https://simeononsecurity.ch/articles/what-is-metasploit/) and [Burp Suite](https://simeononsecurity.ch/articles/the-role-of-penetration-testing-in-cybersecurity/)
 
 3. **Squadra viola**: Il team viola combina elementi dei team blu e rossi. Collaborano per migliorare la sicurezza generale simulando scenari di attacco realistici, valutando le difese e condividendo le intuizioni. Questo ruolo richiede la conoscenza di tecniche sia difensive che offensive.
 
@@ -48,9 +48,9 @@ La cybersecurity comprende vari domini, ognuno dei quali ha un proprio obiettivo
 
 Anche se le certificazioni non sono obbligatorie, possono migliorare significativamente la vostra occupabilità e dimostrare il vostro impegno nel settore. Considerate la possibilità di conseguire le seguenti certificazioni:
 
-- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Questa certificazione entry-level convalida la comprensione dei concetti di sicurezza, sicurezza di rete e pratiche di sicurezza.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Questa certificazione si concentra sulle tecniche e sulle metodologie di ethical hacking, consentendo di valutare e mitigare le vulnerabilità.
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) Il CISSP è una certificazione riconosciuta a livello mondiale che convalida le vostre competenze in vari settori della sicurezza.
+- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Questa certificazione entry-level convalida la comprensione dei concetti di sicurezza, sicurezza di rete e pratiche di sicurezza.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Questa certificazione si concentra sulle tecniche e sulle metodologie di ethical hacking, consentendo di valutare e mitigare le vulnerabilità.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) Il CISSP è una certificazione riconosciuta a livello mondiale che convalida le vostre competenze in vari settori della sicurezza.
 
 L'apprendimento continuo e l'aggiornamento sulle ultime tendenze, strumenti e tecniche è fondamentale per la sicurezza informatica. Seguite i blog di settore, partecipate alle comunità online e frequentate le conferenze sulla sicurezza informatica per ampliare le vostre conoscenze e fare rete con i professionisti.
 

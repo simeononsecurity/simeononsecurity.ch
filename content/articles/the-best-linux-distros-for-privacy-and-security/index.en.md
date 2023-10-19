@@ -18,7 +18,7 @@ ______
 
 ## What to Look for in a Privacy and Security-Focused Linux Distro
 
-Before diving into the list of the [best Linux distros](https://simeononsecurity.com/articles/the-best-linux-distros-for-windows-users/) for privacy and security, it is crucial to understand the key factors that make a distribution reliable in this regard. Here are some important aspects to consider:
+Before diving into the list of the [best Linux distros](https://simeononsecurity.ch/articles/the-best-linux-distros-for-windows-users/) for privacy and security, it is crucial to understand the key factors that make a distribution reliable in this regard. Here are some important aspects to consider:
 
 1. **Privacy-Centric Features**: Look for distributions that prioritize privacy-enhancing features, such as built-in encryption tools, secure browsing options, and strong default privacy settings.
 

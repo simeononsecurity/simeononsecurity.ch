@@ -31,11 +31,11 @@ Un **master** in sicurezza informatica offre conoscenze avanzate e specializzazi
 ### Certificazioni
 Oltre all'istruzione formale, l'ottenimento di certificazioni pertinenti può migliorare significativamente la vostra credibilità e commerciabilità nel campo della sicurezza informatica. Ecco alcune certificazioni ampiamente riconosciute:
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) Questa certificazione, riconosciuta a livello mondiale, convalida le vostre competenze nella progettazione, implementazione e gestione di un programma di sicurezza informatica a livello aziendale.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Questa certificazione dimostra la conoscenza delle tecniche di hacking e aiuta le organizzazioni a identificare le vulnerabilità nei loro sistemi.
-- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Questa certificazione entry-level copre le conoscenze e le competenze fondamentali necessarie per proteggere reti e sistemi.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) Questa certificazione, riconosciuta a livello mondiale, convalida le vostre competenze nella progettazione, implementazione e gestione di un programma di sicurezza informatica a livello aziendale.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Questa certificazione dimostra la conoscenza delle tecniche di hacking e aiuta le organizzazioni a identificare le vulnerabilità nei loro sistemi.
+- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Questa certificazione entry-level copre le conoscenze e le competenze fondamentali necessarie per proteggere reti e sistemi.
 
-Per saperne di più [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
+Per saperne di più [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
 
 ______
 

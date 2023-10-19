@@ -37,15 +37,15 @@ coverCaption: "保护您的数字生活：拥抱安全，保护隐私"
 
 在浏览互联网时，养成安全的习惯对保护自己免受网络威胁至关重要。以下是一些应遵循的关键做法：
 
-1. [**Avoid visiting sketchy websites**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/): Malicious websites can infect your device with malware or steal your personal information. It is crucial to stick to trusted and reputable websites to minimize the risk of compromise. For example, when shopping online, stick to well-known e-commerce platforms like [Amazon](https://www.amazon.com/) or [eBay](https://www.ebay.com/)这些网站拥有强大的安全措施。避免点击可能会将您重定向到可疑网站的可疑链接或广告。
+1. [**Avoid visiting sketchy websites**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/): Malicious websites can infect your device with malware or steal your personal information. It is crucial to stick to trusted and reputable websites to minimize the risk of compromise. For example, when shopping online, stick to well-known e-commerce platforms like [Amazon](https://www.amazon.com/) or [eBay](https://www.ebay.com/)这些网站拥有强大的安全措施。避免点击可能会将您重定向到可疑网站的可疑链接或广告。
 
-2. [**Always verify website authenticity**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/)在网站上输入登录凭证或共享敏感信息之前，验证网站的合法性至关重要。这可以帮助你避免成为网络钓鱼企图或访问欺诈网站的受害者。需要采取的一些步骤包括
+2. [**Always verify website authenticity**](https://simeononsecurity.ch/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/)在网站上输入登录凭证或共享敏感信息之前，验证网站的合法性至关重要。这可以帮助你避免成为网络钓鱼企图或访问欺诈网站的受害者。需要采取的一些步骤包括
 
    - 检查 HTTPS 协议**：查看网站 URL 中的挂锁图标和 "https://"。https "中的 "s "表示连接已加密，提供了更高的安全级别。例如，访问网上银行网站时，请确保 URL 以 "https://"开头，以确保连接安全。
    
    - 查看信任指标**：许多浏览器都会显示信任指示符，如绿色挂锁图标或安全徽章，以表明网站已通过验证，是安全的。在输入任何敏感信息之前，请注意这些指标。例如，流行的网络浏览器如 [Google Chrome](https://www.google.com/chrome/) and [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)提供视觉提示，帮助用户识别安全网站。
 
-   - [**Beware of phishing attempts**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/): Be cautious of phishing emails or messages that mimic legitimate websites to trick you into sharing personal information. Avoid clicking on links in unsolicited emails or messages, and manually type the website URL in your browser instead. Organizations like the [Anti-Phishing Working Group](https://apwg.org/)提供资源和信息，帮助个人识别和报告网络钓鱼企图。
+   - [**Beware of phishing attempts**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/): Be cautious of phishing emails or messages that mimic legitimate websites to trick you into sharing personal information. Avoid clicking on links in unsolicited emails or messages, and manually type the website URL in your browser instead. Organizations like the [Anti-Phishing Working Group](https://apwg.org/)提供资源和信息，帮助个人识别和报告网络钓鱼企图。
 
 通过遵循这些安全浏览习惯，您可以大大降低设备受损或成为网络诈骗受害者的风险。
 
@@ -53,7 +53,7 @@ coverCaption: "保护您的数字生活：拥抱安全，保护隐私"
 
 保护个人数据在数字时代**重要。通过采取安全的做法，您可以最大限度地降低**身份盗窃**和未经授权访问您敏感信息的风险。以下是一些需要遵循的重要步骤：
 
-1. [**Refrain from sharing personal details**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/): Be cautious when it comes to **sharing personal information online**. Avoid disclosing sensitive details such as your **full name, address, phone number, or financial information** on public platforms or to unknown individuals. Identity theft is a significant concern, and minimizing the exposure of personal data reduces the chances of unauthorized access. For example, refrain from sharing your home address on social media platforms like [Facebook](https://www.facebook.com/) or [Twitter](https://twitter.com/)
+1. [**Refrain from sharing personal details**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/): Be cautious when it comes to **sharing personal information online**. Avoid disclosing sensitive details such as your **full name, address, phone number, or financial information** on public platforms or to unknown individuals. Identity theft is a significant concern, and minimizing the exposure of personal data reduces the chances of unauthorized access. For example, refrain from sharing your home address on social media platforms like [Facebook](https://www.facebook.com/) or [Twitter](https://twitter.com/)
 
 **谨慎对待私密内容**：在网上分享**亲密内容**时，必须注意相关风险。切勿交换**露骨的照片或视频**，因为这些内容可能被用于**勒索或报复**，导致严重的精神痛苦和潜在的危害。请记住，一旦分享了此类内容，就很难控制其传播或防止其被滥用。保护自己的隐私要谨慎，尊重自己和他人的底线。
 
@@ -62,19 +62,19 @@ coverCaption: "保护您的数字生活：拥抱安全，保护隐私"
 
 采用**强的身份验证和密码做法**可为您的在线账户增加一层额外的安全保护。请遵循以下指导原则：
 
-1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication provides an additional layer of security by requiring something you know (password) and something you have (a mobile device or security key) to access your accounts. Enable 2FA whenever possible, as it significantly reduces the risk of unauthorized access. Major online services like [Google](https://www.google.com/landing/2step/) and [Microsoft](https://www.microsoft.com/en-us/account/security/)提供启用 2FA 的选项。
+1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication provides an additional layer of security by requiring something you know (password) and something you have (a mobile device or security key) to access your accounts. Enable 2FA whenever possible, as it significantly reduces the risk of unauthorized access. Major online services like [Google](https://www.google.com/landing/2step/) and [Microsoft](https://www.microsoft.com/en-us/account/security/)提供启用 2FA 的选项。
 
-2. [**Use randomly generated passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): It is crucial to create **strong and unique passwords** for all your accounts. Avoid using easily guessable information like your name or birthdate. Instead, consider using a [password manager](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)生成和安全存储复杂密码。
+2. [**Use randomly generated passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/): It is crucial to create **strong and unique passwords** for all your accounts. Avoid using easily guessable information like your name or birthdate. Instead, consider using a [password manager](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)生成和安全存储复杂密码。
 
 通过遵循这些做法，你可以加强个人数据保护，降低未经授权访问敏感信息的风险。
-### [Social Media Privacy](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+### [Social Media Privacy](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
-1. [**Minimize social media usage**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)限制您在社交媒体平台上的**，以减少个人信息的暴露，这一点非常重要。通过尽量减少在社交媒体上分享的信息，可以降低未经授权访问您的数据的风险。配置**隐私设置**，限制对您的帖子和个人资料的访问，确保只有受信任的人才能查看您的内容。
+1. [**Minimize social media usage**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)限制您在社交媒体平台上的**，以减少个人信息的暴露，这一点非常重要。通过尽量减少在社交媒体上分享的信息，可以降低未经授权访问您的数据的风险。配置**隐私设置**，限制对您的帖子和个人资料的访问，确保只有受信任的人才能查看您的内容。
 
 例如，在以下平台上 [Facebook](https://www.facebook.com/) and [Twitter](https://twitter.com/)您可以调整您的隐私设置，控制谁能看到您的帖子、照片和个人信息。通过仔细管理你的社交媒体，你可以保护你的隐私和个人数据。
 ###安全交流
 
-1. [**Utilize secure communication apps**](https://simeononsecurity.com/recommendations/messengers)在与他人沟通时，优先考虑信息的安全性和保密性至关重要。选择采用**端到端加密**的**安全通信应用程序，以确保您的信息保持**机密**，并防止未经授权的访问。
+1. [**Utilize secure communication apps**](https://simeononsecurity.ch/recommendations/messengers)在与他人沟通时，优先考虑信息的安全性和保密性至关重要。选择采用**端到端加密**的**安全通信应用程序，以确保您的信息保持**机密**，并防止未经授权的访问。
 
 例如 [Signal](https://www.signal.org/) and [Wire](https://wire.com/en/)是流行的信息应用程序，以其强大的安全功能而闻名。这些应用程序会对信息进行加密，只有指定的收件人才能访问和破译这些信息，从而提供高度的隐私性和安全性。
 
@@ -92,7 +92,7 @@ coverCaption: "保护您的数字生活：拥抱安全，保护隐私"
 
 定期备份数据对于防止因硬件故障、恶意软件攻击或其他意外事件造成的数据丢失至关重要。请遵循以下指导原则，确保重要数据的安全：
 
-1. [**Maintain backups**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): It is essential to **create and maintain regular backups** of your important data. By following the [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/), you can ensure the availability and recoverability of your data in the event of a disaster. This strategy involves having **three copies** of your data, with **two copies stored on different mediums** (such as an external hard drive and cloud storage) and **one copy stored off-site** (e.g., in a secure location or using a remote backup service)这种方法可最大限度地降低数据丢失的风险，并为您的关键信息提供冗余。
+1. [**Maintain backups**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): It is essential to **create and maintain regular backups** of your important data. By following the [3-2-1 backup strategy](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/), you can ensure the availability and recoverability of your data in the event of a disaster. This strategy involves having **three copies** of your data, with **two copies stored on different mediums** (such as an external hard drive and cloud storage) and **one copy stored off-site** (e.g., in a secure location or using a remote backup service)这种方法可最大限度地降低数据丢失的风险，并为您的关键信息提供冗余。
 
 通过实施稳健的数据备份策略，您可以保护宝贵的数据，并在发生突发事件或数据损坏时恢复数据。
 
@@ -114,7 +114,7 @@ ______
 
 6.**保持设备卫生**：尽量减少已安装应用程序和软件的数量，以降低攻击面。定期对设备进行**出厂重置**，以消除潜在的恶意软件或漏洞。
 
-7.**维护数据备份**：按照 [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)通过创建和维护重要数据的定期备份。这一策略可提供冗余，有助于防止数据丢失。
+7.**维护数据备份**：按照 [3-2-1 backup strategy](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)通过创建和维护重要数据的定期备份。这一策略可提供冗余，有助于防止数据丢失。
 
 通过采取这些安全措施和了解最新的安全实践，您可以加强数字安全，保护自己免受网络威胁。切记要保持积极主动，并根据新威胁的出现调整安全措施。
 

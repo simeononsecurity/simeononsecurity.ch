@@ -16,7 +16,7 @@ Inżynieria społeczna to forma cyberataku, która polega na manipulowaniu ludź
 
 ## Rodzaje ataków socjotechnicznych
 
-###[Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+###[Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
 
 Ataki phishingowe to najczęstsza forma ataków socjotechnicznych. Polegają one na wysyłaniu wiadomości e-mail, które wydają się pochodzić z renomowanych źródeł, w celu nakłonienia ludzi do podania poufnych informacji lub kliknięcia linków instalujących złośliwe oprogramowanie. Wiadomości te mogą wykorzystywać taktykę straszenia, pilne prośby lub emocjonalne apele, aby skłonić ludzi do działania bez zastanowienia.
 
@@ -42,25 +42,25 @@ Aby zapobiec atakom quid pro quo, ważne jest, aby **przeszkolić pracowników**
 
 ## Strategie zapobiegania atakom socjotechnicznym
 
-###[Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+###[Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Jedną z najskuteczniejszych strategii zapobiegania atakom inżynierii społecznej jest[**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Pracownicy powinni zostać przeszkoleni w zakresie różnych typów ataków socjotechnicznych i sposobów ich rozpoznawania. Należy ich również nauczyć, jak reagować na podejrzane prośby i jak zgłaszać je swojemu przełożonemu lub działowi IT.
+Jedną z najskuteczniejszych strategii zapobiegania atakom inżynierii społecznej jest[**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Pracownicy powinni zostać przeszkoleni w zakresie różnych typów ataków socjotechnicznych i sposobów ich rozpoznawania. Należy ich również nauczyć, jak reagować na podejrzane prośby i jak zgłaszać je swojemu przełożonemu lub działowi IT.
 
 Szkolenia powinny być prowadzone regularnie i powinny być dostosowane do konkretnych potrzeb organizacji. Ważne jest, aby podkreślić znaczenie bezpieczeństwa i upewnić się, że pracownicy rozumieją konsekwencje nieprzestrzegania protokołów bezpieczeństwa.
 
-###[Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+###[Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Polityka bezpieczeństwa to kolejna ważna strategia zapobiegania atakom inżynierii społecznej. Organizacje powinny mieć jasne polityki dotyczące sposobu postępowania z wrażliwymi informacjami oraz tego, jakie działania są dozwolone lub zabronione. Polityki powinny być regularnie przeglądane i aktualizowane, aby zapewnić, że są skuteczne i aktualne.
 
 Organizacje powinny również posiadać zasady dotyczące reagowania na incydenty bezpieczeństwa. Pracownicy powinni zostać przeszkoleni w zakresie postępowania w przypadku naruszenia bezpieczeństwa, a także powinny istnieć jasne procedury zgłaszania incydentów i łagodzenia szkód.
 
-###[Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+###[Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 Uwierzytelnianie wieloczynnikowe (MFA) to funkcja zabezpieczeń, która wymaga od użytkowników podania wielu form uwierzytelniania, takich jak hasło i odcisk palca lub karta inteligentna, aby uzyskać dostęp do systemu. MFA może pomóc w zapobieganiu atakom socjotechnicznym, utrudniając napastnikom uzyskanie dostępu do wrażliwych informacji.
 
 Organizacje powinny rozważyć wdrożenie MFA dla wszystkich systemów, które zawierają wrażliwe informacje lub infrastrukturę krytyczną. Ważne jest, aby wybrać rozwiązania MFA, które są łatwe w użyciu i zarządzaniu oraz zapewniają wysoki poziom bezpieczeństwa.
 
-###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 Oprogramowanie antywirusowe i anty-malware może pomóc w zapobieganiu atakom socjotechnicznym poprzez wykrywanie i blokowanie złośliwego oprogramowania, zanim zdoła ono wyrządzić szkody. Organizacje powinny mieć zainstalowane aktualne oprogramowanie antywirusowe i anty-malware na wszystkich systemach i urządzeniach, które łączą się z ich siecią.
 

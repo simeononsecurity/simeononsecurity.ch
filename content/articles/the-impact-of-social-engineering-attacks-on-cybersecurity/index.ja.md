@@ -27,15 +27,15 @@ ______
 
 ### 1.教育・啓発
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)は、ソーシャル・エンジニアリング攻撃に対する最初の防御線となる。ソーシャル・エンジニアリング攻撃の兆候を認識し、適切な行動をとるよう訓練する必要があります。これには、未承諾の情報要求に注意すること、機密情報を提供する前に個人の身元を確認すること、疑わしい行為があればIT担当者やセキュリティ担当者に報告することが含まれます。
+[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)は、ソーシャル・エンジニアリング攻撃に対する最初の防御線となる。ソーシャル・エンジニアリング攻撃の兆候を認識し、適切な行動をとるよう訓練する必要があります。これには、未承諾の情報要求に注意すること、機密情報を提供する前に個人の身元を確認すること、疑わしい行為があればIT担当者やセキュリティ担当者に報告することが含まれます。
 
 ### 2.強力なパスワードと多要素認証
 
-使用方法 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)多要素認証**を導入することで、パスワードの推測やブルートフォース攻撃に依存するソーシャルエンジニアリング攻撃を防ぐことができます。強力なパスワードは、少なくとも12文字で、大文字、小文字、数字、特殊文字が混在している必要があります。多要素認証は、パスワードだけでなく、本人であることを示す追加の証明書の提出をユーザーに要求することで、セキュリティのレイヤーをさらに増やします。
+使用方法 [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)多要素認証**を導入することで、パスワードの推測やブルートフォース攻撃に依存するソーシャルエンジニアリング攻撃を防ぐことができます。強力なパスワードは、少なくとも12文字で、大文字、小文字、数字、特殊文字が混在している必要があります。多要素認証は、パスワードだけでなく、本人であることを示す追加の証明書の提出をユーザーに要求することで、セキュリティのレイヤーをさらに増やします。
 
 ### 3.電子メールとウェブブラウジングの安全性
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email)フィッシング詐欺やその他の悪意のあるコンテンツに依存するソーシャルエンジニアリング攻撃を防ぐために、スパムフィルターを使用することができます。これには、スパムフィルターを使用して迷惑メールをブロックする、未知のソースからのリンクをクリックしたり添付ファイルをダウンロードしたりしない、Webフィルターを使用して既知の悪意のあるWebサイトへのアクセスをブロックする、などが含まれます。
+[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email)フィッシング詐欺やその他の悪意のあるコンテンツに依存するソーシャルエンジニアリング攻撃を防ぐために、スパムフィルターを使用することができます。これには、スパムフィルターを使用して迷惑メールをブロックする、未知のソースからのリンクをクリックしたり添付ファイルをダウンロードしたりしない、Webフィルターを使用して既知の悪意のあるWebサイトへのアクセスをブロックする、などが含まれます。
 
 ### 4.定期的なセキュリティアップデートとパッチの適用
 

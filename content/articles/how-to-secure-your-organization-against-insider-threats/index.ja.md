@@ -37,7 +37,7 @@ __________
 
 トレーニングは、新規採用者全員に実施し、既存の従業員には定期的に繰り返す必要があります。これにより、従業員は最新の脅威を把握し、その対応策を知ることができる。さらに、組織は、機密データやシステムにアクセスできる特権を持つ従業員に対して、的を絞ったトレーニングを提供する必要があります。
 
-[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)トレーニングは、オンラインコース、対面式トレーニング、フィッシング攻撃のシミュレーションなど、さまざまな形態で実施することができます。組織は、従業員にとって最適な形式を選択し、トレーニングの完了状況を追跡して、すべての従業員が必要なトレーニングを受けたかどうかを確認する必要があります。
+[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)トレーニングは、オンラインコース、対面式トレーニング、フィッシング攻撃のシミュレーションなど、さまざまな形態で実施することができます。組織は、従業員にとって最適な形式を選択し、トレーニングの完了状況を追跡して、すべての従業員が必要なトレーニングを受けたかどうかを確認する必要があります。
 
 __________
 

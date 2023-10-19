@@ -17,7 +17,7 @@ Linux is een populair besturingssysteem dat zowel door particulieren als bedrijv
 
 ### Houd je systeem bijgewerkt
 
-Uw [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/) Het up-to-date houden van uw systeem is cruciaal voor de veiligheid ervan. Regelmatige updates helpen beveiligingslekken en bugs te verhelpen en zorgen ervoor dat je systeem veilig blijft tegen mogelijke aanvallen. Hier zijn enkele voorbeelden van hoe u uw Linux-systeem kunt bijwerken met de **apt-get** of **yum** pakketbeheerder:
+Uw [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) Het up-to-date houden van uw systeem is cruciaal voor de veiligheid ervan. Regelmatige updates helpen beveiligingslekken en bugs te verhelpen en zorgen ervoor dat je systeem veilig blijft tegen mogelijke aanvallen. Hier zijn enkele voorbeelden van hoe u uw Linux-systeem kunt bijwerken met de **apt-get** of **yum** pakketbeheerder:
 
 #### Ubuntu updaten met apt-get
 
@@ -296,7 +296,7 @@ ______
 
 Het gebruik van zwakke wachtwoorden is een veelgemaakte fout die je Linux-systeem kwetsbaar kan maken voor aanvallen. Aanvallers kunnen tools gebruiken om wachtwoorden te raden die gebaseerd zijn op gewone woorden, namen of datums. Het is belangrijk om sterke en unieke wachtwoorden te gebruiken die niet gemakkelijk te raden zijn.
 
-Je kunt sterke wachtwoorden maken door een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens te gebruiken. Het is ook een goed gebruik om een [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) kan je ook helpen om je wachtwoorden te onthouden en te voorkomen dat je hetzelfde wachtwoord voor meerdere accounts gebruikt.
+Je kunt sterke wachtwoorden maken door een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens te gebruiken. Het is ook een goed gebruik om een [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) kan je ook helpen om je wachtwoorden te onthouden en te voorkomen dat je hetzelfde wachtwoord voor meerdere accounts gebruikt.
 
 ### SSH-toegang voor root toestaan
 

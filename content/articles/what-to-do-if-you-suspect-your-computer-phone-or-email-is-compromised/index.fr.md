@@ -28,20 +28,20 @@ La première chose à faire lorsque vous pensez que votre messagerie, votre ordi
 
 Il est important de prendre note de tout signe de compromission afin de pouvoir prendre les mesures nécessaires pour protéger votre appareil et vos données. Si vous n'êtes pas certain que votre appareil a été compromis, il est toujours préférable de faire preuve de prudence.
 
-Apprenez à identifier [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+Apprenez à identifier [phishing and suspicious emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
 
 ______
 
-## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-- [**Change your passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour tous vos comptes immédiatement si vous soupçonnez que votre appareil a été compromis
+- [**Change your passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pour tous vos comptes immédiatement si vous soupçonnez que votre appareil a été compromis
 
 Si vous pensez que votre messagerie, votre ordinateur ou votre téléphone a été compromis, l'étape suivante consiste à modifier immédiatement les mots de passe de tous vos comptes. Cela peut prendre un certain temps, alors donnez la priorité aux comptes importants comme vos courriels, vos comptes bancaires, vos comptes de médias sociaux, etc.
 
 - Donnez la priorité aux comptes importants** comme vos courriels, vos comptes bancaires, vos comptes de médias sociaux, etc.
 
-- [**Choose strong, unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour chacun de vos comptes et **évitez d'utiliser le même mot de passe** pour plusieurs comptes
-- A [**strong password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) doit comporter au moins **12 caractères** et un **mélange de lettres majuscules et minuscules, de chiffres et de symboles**.
+- [**Choose strong, unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pour chacun de vos comptes et **évitez d'utiliser le même mot de passe** pour plusieurs comptes
+- A [**strong password**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) doit comporter au moins **12 caractères** et un **mélange de lettres majuscules et minuscules, de chiffres et de symboles**.
 
 Choisissez des mots de passe forts et uniques pour chacun de vos comptes et évitez d'utiliser le même mot de passe pour plusieurs comptes. Un mot de passe fort doit comporter au moins 12 caractères et un mélange de lettres majuscules et minuscules, de chiffres et de symboles. Évitez d'utiliser des mots ou des phrases courants et n'incluez pas d'informations personnelles telles que votre nom, votre date de naissance ou votre adresse.
 
@@ -61,7 +61,7 @@ Choisissez des mots de passe forts et uniques pour chacun de vos comptes et évi
 - elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
 ```
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour un niveau de sécurité supplémentaire
+- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour un niveau de sécurité supplémentaire
 
 Il est également conseillé d'activer l'authentification à deux facteurs, qui ajoute un niveau de sécurité supplémentaire à vos comptes. L'authentification à deux facteurs requiert une deuxième méthode de vérification, comme un code envoyé à votre téléphone ou à votre courrier électronique, en plus de votre mot de passe.
 
@@ -116,7 +116,7 @@ Pour rechercher des logiciels malveillants sur votre appareil, utilisez un logic
 
 Il est également conseillé d'analyser tous les périphériques externes, tels que les clés USB, que vous avez utilisés avec l'appareil compromis. Les périphériques externes peuvent souvent contenir des logiciels malveillants susceptibles d'infecter votre appareil ; il est donc important de les analyser avant de les utiliser avec votre appareil.
 
-Voir quelques [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.com/recommendations/anti-virus)
+Voir quelques [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 ______
 
@@ -138,7 +138,7 @@ Une fois que vous avez vérifié que vos fichiers importants sont sécurisés, v
 
 N'oubliez pas que l'effacement de votre appareil efface toutes les données qu'il contient. Il est donc important de sauvegarder tous les fichiers importants avant d'effacer votre appareil.
 
-En savoir plus sur les [3-2-1 Backup Rule](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+En savoir plus sur les [3-2-1 Backup Rule](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 
 ______
 

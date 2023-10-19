@@ -27,7 +27,7 @@ Hi ha dues maneres d'utilitzar Automate-Sysmon:
 
 Per utilitzar la instal·lació automatitzada, només cal que executeu l'ordre següent a PowerShell:
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/sosautomatesysmon.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/sosautomatesysmon.ps1'|iex
 ```
 
 This will automatically download and run the Automate-Sysmon script.

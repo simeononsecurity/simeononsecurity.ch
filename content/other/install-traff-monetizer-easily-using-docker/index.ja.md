@@ -22,7 +22,7 @@ coverCaption: ""
 ### Dockerコンテナのインストール
 以下の手順で、Traff Monetizer Dockerコンテナをインストールします：
 
-0.学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0.学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1.以下の文字列をコピーして、ダッシュボードから取得したトークンを追加します：
 ```bash
@@ -36,7 +36,7 @@ docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOU
 
 Traff Monetizerをインストールし、インターネットを共有することで、オンラインでお金を稼ぐ機会があります。IPごとにノードあたり約2ドルの平均月収で、それは収入の潜在的な源を提示します。ペイアウトはBTCでのみ利用可能であることに留意してください。今日からあなたのインターネット接続をマネタイズしましょう！
 
-完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+完了したら、次のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## リファレンス
 

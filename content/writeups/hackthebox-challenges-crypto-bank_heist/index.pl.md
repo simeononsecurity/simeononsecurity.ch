@@ -10,7 +10,7 @@ coverAlt: "kreskówkowe drzwi skarbca otwierane kluczem, odsłaniające skrzyni�
 coverCaption: ""
 ---
 
-Kompleksowy przewodnik po rozwiązaniu wyzwania kryptograficznego "Napad na bank" w HackTheBox. Wyzwanie polega na zdekodowaniu [T9](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.com/articles/introduction-to-t9-cipher/) przy użyciu Decode.fr i szyfrogramu atbash przy użyciu CyberChef w celu ujawnienia flagi. Lektura obowiązkowa dla aspirujących specjalistów ds. cyberbezpieczeństwa i każdego, kto chce podnieść swoje umiejętności w zakresie kryptografii.
+Kompleksowy przewodnik po rozwiązaniu wyzwania kryptograficznego "Napad na bank" w HackTheBox. Wyzwanie polega na zdekodowaniu [T9](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) or [Multitap cipher](https://simeononsecurity.ch/articles/introduction-to-t9-cipher/) przy użyciu Decode.fr i szyfrogramu atbash przy użyciu CyberChef w celu ujawnienia flagi. Lektura obowiązkowa dla aspirujących specjalistów ds. cyberbezpieczeństwa i każdego, kto chce podnieść swoje umiejętności w zakresie kryptografii.
 
 ## Dostarczone pliki:
 

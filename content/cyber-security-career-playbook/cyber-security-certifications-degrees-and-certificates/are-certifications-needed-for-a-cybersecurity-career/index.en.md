@@ -51,9 +51,9 @@ ______
 
 When pursuing certifications, it is important to consider your career goals, interests, and the specific requirements of your desired job roles. Here are some popular certifications in the cybersecurity field:
 
-1. [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/): A foundational certification covering essential security concepts and best practices.
-2. [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/): A globally recognized certification for experienced cybersecurity professionals.
-3. [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/): Focuses on ethical hacking techniques to identify and address vulnerabilities.
+1. [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/): A foundational certification covering essential security concepts and best practices.
+2. [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/): A globally recognized certification for experienced cybersecurity professionals.
+3. [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/): Focuses on ethical hacking techniques to identify and address vulnerabilities.
 4. **Certified Information Security Manager (CISM)**: Designed for individuals managing, designing, and overseeing an enterprise's information security program.
 5. **Certified Information Systems Auditor (CISA)**: Focuses on auditing, control, and security of information systems.
 

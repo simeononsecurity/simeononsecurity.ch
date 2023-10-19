@@ -36,9 +36,9 @@ coverCaption: ""
 
 3.**モバイルデバイスのアクティビティを監視する**：定期的にモバイルデバイスのアクティビティを確認し、請求書を見て、疑わしいアクティビティを特定しましょう。
 
-4.**携帯電話会社に連絡する**：モバイル機器やネットワークが侵害されたと思われる場合、直ちに携帯電話会社に連絡し、問題を報告し、支援を求めてください。情報漏えいが疑われる場合の対処法について、さらに詳しいガイダンスがあります。[here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+4.**携帯電話会社に連絡する**：モバイル機器やネットワークが侵害されたと思われる場合、直ちに携帯電話会社に連絡し、問題を報告し、支援を求めてください。情報漏えいが疑われる場合の対処法について、さらに詳しいガイダンスがあります。[here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
-5.**安全なメッセンジャーと音声アプリケーションを使用する：可能であれば、Signal、Wickr、Wireのようなアプリケーションを使用する必要があります。この点については、さらに詳しく説明します。[here](https://simeononsecurity.com/recommendations/messengers/)
+5.**安全なメッセンジャーと音声アプリケーションを使用する：可能であれば、Signal、Wickr、Wireのようなアプリケーションを使用する必要があります。この点については、さらに詳しく説明します。[here](https://simeononsecurity.ch/recommendations/messengers/)
 
 ## 結論
 

@@ -50,7 +50,7 @@ Aby skonfigurować bezpieczną i odporną sieć VPN dla pracowników zdalnych, w
 
 1. **Wybierz rozwiązanie VPN**: W oparciu o czynniki wymienione wcześniej, wybierz rozwiązanie VPN, które najlepiej odpowiada potrzebom Twojej organizacji.
 2. **Konfiguracja serwera VPN**: Skonfiguruj dedykowany serwer VPN w swojej organizacji lub zdecyduj się na rozwiązanie oparte na chmurze. Skonfiguruj serwer zgodnie z polityką bezpieczeństwa i wymaganiami firmy.
-3. **Ustaw uwierzytelnianie**: Zaimplementuj silną metodę uwierzytelniania, taką jak [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aby zapewnić, że tylko autoryzowani pracownicy mogą uzyskać dostęp do VPN.
+3. **Ustaw uwierzytelnianie**: Zaimplementuj silną metodę uwierzytelniania, taką jak [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aby zapewnić, że tylko autoryzowani pracownicy mogą uzyskać dostęp do VPN.
 4. **Dystrybucja oprogramowania klienckiego VPN**: Zapewnij swoim pracownikom zdalnym niezbędne oprogramowanie klienckie VPN i pliki konfiguracyjne, aby uzyskać dostęp do VPN.
 
 ______
@@ -81,7 +81,7 @@ ______
 Aby zapewnić pomyślne wdrożenie rozwiązania VPN, należy zapewnić pracownikom zdalnym niezbędne szkolenia i wsparcie, aby pomóc im zrozumieć, jak skutecznie i bezpiecznie korzystać z VPN. Niektóre ważne tematy do omówienia obejmują:
 
 - **Jak skonfigurować i połączyć się z VPN**: Zapewnienie jasnych instrukcji dotyczących instalowania oprogramowania klienckiego VPN, konfigurowania ustawień i łączenia się z VPN.
-- **Najlepsze praktyki bezpieczeństwa**: Poinformuj swoich pracowników o tym, jak ważne jest używanie silnych, unikalnych haseł, włączanie [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) i dbanie o bezpieczeństwo swoich urządzeń.
+- **Najlepsze praktyki bezpieczeństwa**: Poinformuj swoich pracowników o tym, jak ważne jest używanie silnych, unikalnych haseł, włączanie [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) i dbanie o bezpieczeństwo swoich urządzeń.
 - **Rozwiązywanie problemów**: Oferowanie wskazówek dotyczących rozwiązywania typowych problemów z połączeniem VPN i osób, z którymi należy się kontaktować w celu uzyskania pomocy technicznej.
 
 ______

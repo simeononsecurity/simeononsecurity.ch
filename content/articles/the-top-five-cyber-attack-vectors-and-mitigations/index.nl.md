@@ -22,13 +22,13 @@ ______
 
 ## Social Engineering
 
-**Social engineering** is een type cyberaanval waarbij gebruik wordt gemaakt van menselijke interactie en psychologische manipulatie om mensen ertoe te bewegen gevoelige informatie vrij te geven of bepaalde acties uit te voeren. Cybercriminelen gebruiken verschillende tactieken, zoals[phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) voorwendsels, lokkertjes en tegenprestaties om het vertrouwen van hun slachtoffers te winnen en vertrouwelijke informatie te verkrijgen.
+**Social engineering** is een type cyberaanval waarbij gebruik wordt gemaakt van menselijke interactie en psychologische manipulatie om mensen ertoe te bewegen gevoelige informatie vrij te geven of bepaalde acties uit te voeren. Cybercriminelen gebruiken verschillende tactieken, zoals[phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) voorwendsels, lokkertjes en tegenprestaties om het vertrouwen van hun slachtoffers te winnen en vertrouwelijke informatie te verkrijgen.
 
 Om het risico van social engineering-aanvallen te beperken, kunnen individuen en organisaties de volgende stappen nemen:
 
-- Zorg voor[**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) om werknemers te leren hoe ze social engineering-aanvallen kunnen herkennen en vermijden.
+- Zorg voor[**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) om werknemers te leren hoe ze social engineering-aanvallen kunnen herkennen en vermijden.
 - Gebruik **spamfilters** en e-mailverificatieprotocollen, zoals **SPF**, **DKIM** en **DMARC**, om phishing e-mails te detecteren en te blokkeren.
-- Implementeren[**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) om een extra beveiligingslaag toe te voegen aan inloggegevens.
+- Implementeren[**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) om een extra beveiligingslaag toe te voegen aan inloggegevens.
 - Het **veiligheidsbeleid** regelmatig herzien en bijwerken om nieuwe bedreigingen en kwetsbaarheden aan te pakken.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 Om het risico van malware-aanvallen te beperken, kunnen individuen en organisaties de volgende stappen nemen:
 
-- Installeer en update regelmatig[**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) op alle apparaten.
+- Installeer en update regelmatig[**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) op alle apparaten.
 - Gebruik **firewalls** om ongeautoriseerde toegang tot computersystemen en netwerken te blokkeren.
 - Vermijd het downloaden van software of bestanden van niet-vertrouwde bronnen.
 - Maak regelmatig een back-up** van belangrijke gegevens om gegevensverlies te voorkomen in geval van een malware-aanval.
@@ -67,9 +67,9 @@ systemen of netwerken door wachtwoorden te raden, te kraken of te stelen. Wachtw
 Om het risico van wachtwoordaanvallen te beperken, kunnen individuen en organisaties de volgende stappen nemen:
 
 - Gebruik sterke en unieke wachtwoorden die een combinatie van letters, cijfers en symbolen bevatten.
-- Implementeer een[**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) die vereist dat wachtwoorden regelmatig worden gewijzigd en die het gebruik van gewone of gemakkelijk te raden wachtwoorden verbiedt.
-- Gebruik[**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) die complexe wachtwoorden kan genereren en opslaan.
-- Implementeren[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) om een extra beveiligingslaag toe te voegen aan inloggegevens.
+- Implementeer een[**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) die vereist dat wachtwoorden regelmatig worden gewijzigd en die het gebruik van gewone of gemakkelijk te raden wachtwoorden verbiedt.
+- Gebruik[**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) die complexe wachtwoorden kan genereren en opslaan.
+- Implementeren[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) om een extra beveiligingslaag toe te voegen aan inloggegevens.
 
 ______
 
@@ -81,7 +81,7 @@ Om het risico van aanvallen op webtoepassingen te beperken, kunnen individuen en
 
 - Gebruik **webtoepassingsfirewalls** om kwaadaardig verkeer te detecteren en te blokkeren.
 - Scan webtoepassingen regelmatig op kwetsbaarheden en implementeer patches en updates onmiddellijk.
-- Gebruik[**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) om veelvoorkomende kwetsbaarheden in webapplicaties te voorkomen.
+- Gebruik[**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) om veelvoorkomende kwetsbaarheden in webapplicaties te voorkomen.
 - Implementeer **user input validation** om SQL injectie en andere input-gebaseerde aanvallen te voorkomen.
 
 ______

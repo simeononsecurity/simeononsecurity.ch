@@ -30,9 +30,9 @@ Na stronie[**CISSP certification**](https://www.isc2.org/Certifications/CISSP) t
 
 Na stronie[**CEH certification** ](https://cert.eccouncil.org/certified-ethical-hacker.html) popularna certyfikacja, która skupia się na etycznym hackingu i testach penetracyjnych. Obejmuje różne tematy, takie jak footprinting i rekonesans, skanowanie sieci, enumeracja, włamanie do systemu, trojany i backdoory, wirusy i robaki, sniffery, inżynieria społeczna, odmowa usługi, porwanie sesji, włamanie na serwery internetowe i inne. Egzamin certyfikacyjny składa się ze 125 pytań wielokrotnego wyboru i wymaga co najmniej dwóch lat doświadczenia związanego z bezpieczeństwem informacji.
 
-### 3.[CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+### 3.[CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
-Na stronie[**CompTIA Security+ certification** ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) to podstawowy certyfikat z zakresu cyberbezpieczeństwa, który obejmuje różne tematy związane z cyberbezpieczeństwem, takie jak zagrożenia, ataki i podatności, technologie i narzędzia, architektura i projektowanie, zarządzanie tożsamością i dostępem, zarządzanie ryzykiem i kryptografia. Egzamin certyfikacyjny składa się z 90 pytań wielokrotnego wyboru i wymaga co najmniej dwuletniego doświadczenia w administracji IT z naciskiem na bezpieczeństwo.
+Na stronie[**CompTIA Security+ certification** ](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) to podstawowy certyfikat z zakresu cyberbezpieczeństwa, który obejmuje różne tematy związane z cyberbezpieczeństwem, takie jak zagrożenia, ataki i podatności, technologie i narzędzia, architektura i projektowanie, zarządzanie tożsamością i dostępem, zarządzanie ryzykiem i kryptografia. Egzamin certyfikacyjny składa się z 90 pytań wielokrotnego wyboru i wymaga co najmniej dwuletniego doświadczenia w administracji IT z naciskiem na bezpieczeństwo.
 
 ### 4.[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 

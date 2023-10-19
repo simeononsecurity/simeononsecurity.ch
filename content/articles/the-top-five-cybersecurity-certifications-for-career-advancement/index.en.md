@@ -40,6 +40,6 @@ In conclusion, obtaining a cybersecurity certification can help you demonstrate 
 
 It's essential to choose a certification that aligns with your career goals and interests. Whether you're looking to establish a strong foundational knowledge of cybersecurity or specialize in a specific area of the field, these certifications can help you take your career to the next level.
 
-It's important to note that the certifications listed in this article are just a few of the many available. Researching and selecting the right certification for you can help you achieve your career goals and demonstrate your knowledge and skills to potential employers. For more recommendations, you can check out our [**certification recommendations page**](https://simeononsecurity.com/recommendations/certifications/).
+It's important to note that the certifications listed in this article are just a few of the many available. Researching and selecting the right certification for you can help you achieve your career goals and demonstrate your knowledge and skills to potential employers. For more recommendations, you can check out our [**certification recommendations page**](https://simeononsecurity.ch/recommendations/certifications/).
 
 **Start your journey to cybersecurity excellence today by pursuing one of these top certifications.**

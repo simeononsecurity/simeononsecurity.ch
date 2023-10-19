@@ -52,7 +52,7 @@ CompTIA Linux+ XK0-005 試験に備える最善の方法の 1 つは、Linux シ
 
 - **Cloud Services**：Amazon Web Services (AWS) や Microsoft Azure などのクラウドサービスを利用して、Linux を実行する仮想マシンやコンテナを作成することもできます。物理的なラボ環境を構築するリソースがない場合には、便利なオプションとなります。
 
-- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/)リソースがあれば、自宅に物理的なラボ環境を構築することができます。この環境には、Linuxが動作する1台以上の物理的なサーバーやワークステーション、スイッチやルーターなどのネットワーキング機器が含まれます。
+- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/)リソースがあれば、自宅に物理的なラボ環境を構築することができます。この環境には、Linuxが動作する1台以上の物理的なサーバーやワークステーション、スイッチやルーターなどのネットワーキング機器が含まれます。
 
 Linuxシステムを実際に使ってみることで、Linuxシステムの設定、監視、トラブルシューティングの実践的な経験を積むことができます。これは、CompTIA Linux+ XK0-005試験の準備に役立つだけでなく、プロの現場で使える貴重なスキルも身につけることができます。
 
@@ -100,7 +100,7 @@ CompTIA Linux+ XK0-005 試験のためのオンラインリソースの例とし
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp)Linux関連の様々なトピックに関するビデオチュートリアルを提供する多くのYouTubeチャンネルがあり、特にLinux+認定に焦点を当てたものもあります。 {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/)このガイドでは、DebianとRHELベースの両方のLinuxの変種を学ぶためのヒントを含む、Linuxを始める方法の概要を説明します。
+- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/)このガイドでは、DebianとRHELベースの両方のLinuxの変種を学ぶためのヒントを含む、Linuxを始める方法の概要を説明します。
 
 オンラインリソースを利用することで、さまざまな学習教材にアクセスし、試験の目的やサブトピックについてより深く理解することができます。さらに、多くのオンラインリソースには、フォーラムやチャットルームなどのインタラクティブな要素があり、他のLinuxプロフェッショナルに質問したり助けを求めたりすることができます。
 

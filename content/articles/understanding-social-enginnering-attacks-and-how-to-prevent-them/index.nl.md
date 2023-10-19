@@ -16,7 +16,7 @@ Social engineering is een vorm van cyberaanval waarbij mensen worden gemanipulee
 
 ## Soorten social engineering-aanvallen
 
-###[Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+###[Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
 
 Phishing-aanvallen zijn de meest voorkomende vorm van social engineering-aanvallen. Hierbij worden e-mails verstuurd die van betrouwbare bronnen afkomstig lijken te zijn om mensen te verleiden gevoelige informatie te verstrekken of te klikken op links waarmee malware wordt geïnstalleerd. In de e-mails kunnen schriktactieken, dringende verzoeken of emotionele oproepen worden gebruikt om mensen over te halen zonder na te denken.
 
@@ -42,25 +42,25 @@ Om quid pro quo aanvallen te voorkomen, is het belangrijk **medewerkers** te ler
 
 ## Strategieën om Social Engineering-aanvallen te voorkomen
 
-###[Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+###[Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Een van de meest doeltreffende strategieën om social engineering-aanvallen te voorkomen is[**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Werknemers moeten worden voorgelicht over de verschillende soorten social engineering-aanvallen en hoe ze deze kunnen herkennen. Ze moeten ook leren hoe ze moeten reageren op verdachte verzoeken en hoe ze deze moeten melden aan hun supervisor of IT-afdeling.
+Een van de meest doeltreffende strategieën om social engineering-aanvallen te voorkomen is[**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Werknemers moeten worden voorgelicht over de verschillende soorten social engineering-aanvallen en hoe ze deze kunnen herkennen. Ze moeten ook leren hoe ze moeten reageren op verdachte verzoeken en hoe ze deze moeten melden aan hun supervisor of IT-afdeling.
 
 De training moet regelmatig worden gegeven en moet worden afgestemd op de specifieke behoeften van de organisatie. Het is belangrijk om het belang van beveiliging te benadrukken en ervoor te zorgen dat werknemers de gevolgen begrijpen van het niet volgen van beveiligingsprotocollen.
 
-###[Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+###[Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Beveiligingsbeleid is een andere belangrijke strategie om social engineering-aanvallen te voorkomen. Organisaties moeten een duidelijk beleid hebben over hoe ze met gevoelige informatie moeten omgaan en welke acties zijn toegestaan of verboden. Het beleid moet regelmatig worden herzien en bijgewerkt om ervoor te zorgen dat het effectief en actueel is.
 
 Organisaties moeten ook beleid hebben over hoe te reageren op beveiligingsincidenten. Werknemers moeten worden opgeleid in wat zij moeten doen in geval van een inbreuk op de beveiliging, en er moeten duidelijke procedures zijn voor het melden van incidenten en het beperken van de schade.
 
-###[Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+###[Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 Multi-factor authenticatie (MFA) is een beveiligingsfunctie waarbij gebruikers meerdere vormen van authenticatie moeten opgeven, zoals een wachtwoord en een vingerafdruk of een smartcard, om toegang te krijgen tot een systeem. MFA kan social engineering-aanvallen helpen voorkomen door het moeilijker te maken voor aanvallers om toegang te krijgen tot gevoelige informatie.
 
 Organisaties moeten overwegen MFA te implementeren voor alle systemen die gevoelige informatie of kritieke infrastructuur bevatten. Het is belangrijk MFA-oplossingen te kiezen die gemakkelijk te gebruiken en te beheren zijn en die een hoog beveiligingsniveau bieden.
 
-###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 Anti-virus- en anti-malwaresoftware kan social engineering-aanvallen helpen voorkomen door kwaadaardige software te detecteren en te blokkeren voordat deze schade kan aanrichten. Organisaties moeten actuele antivirus- en antimalwaresoftware hebben geïnstalleerd op alle systemen en apparaten die verbinding maken met hun netwerk.
 

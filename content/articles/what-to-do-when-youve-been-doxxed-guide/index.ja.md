@@ -93,9 +93,9 @@ ______
 このような措置を講じることで、個人情報へのアクセスを減らし、個人による悪用をより困難にすることができます。あなたの情報が安全に保護されていることを確認するために、定期的にオンラインプレゼンスを監視することを忘れないでください。
 
 #### ステップ3の追加情報
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ ______
 
 #### a. プライバシー設定を見直し、更新する。
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)オンライン・アカウントの保護レベルを最高レベルに設定する。個人情報や投稿の閲覧を、信頼できる友人や関係者のみに制限する。例えば、Facebookのようなソーシャルメディア・プラットフォームでは、プライバシー設定に移動し、自分のプロフィール、投稿、個人情報を閲覧できる人をカスタマイズする。
+[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)オンライン・アカウントの保護レベルを最高レベルに設定する。個人情報や投稿の閲覧を、信頼できる友人や関係者のみに制限する。例えば、Facebookのようなソーシャルメディア・プラットフォームでは、プライバシー設定に移動し、自分のプロフィール、投稿、個人情報を閲覧できる人をカスタマイズする。
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を、可能な限りすべてのオンライン・アカウントに適用してください。2FAは、あなたのアカウントにアクセスするために、通常はモバイルデバイスを介して、追加の認証ステップを必要とすることにより、セキュリティの追加レイヤーを追加します。Google、Facebook、Twitterなどのサービスでは、2FAオプションを提供しています。各プラットフォームが提供する指示に従って、2FAを有効にしてください。
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を、可能な限りすべてのオンライン・アカウントに適用してください。2FAは、あなたのアカウントにアクセスするために、通常はモバイルデバイスを介して、追加の認証ステップを必要とすることにより、セキュリティの追加レイヤーを追加します。Google、Facebook、Twitterなどのサービスでは、2FAオプションを提供しています。各プラットフォームが提供する指示に従って、2FAを有効にしてください。
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-作成 [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)各オンライン・アカウントのパスワード**パスワードを安全に保存・管理するために、**パスワードマネージャー**の利用を検討しましょう。LastPass、Dashlane、1Passwordのようなパスワード管理ツールは、複雑なパスワードを生成して保存してくれます。
+作成 [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)各オンライン・アカウントのパスワード**パスワードを安全に保存・管理するために、**パスワードマネージャー**の利用を検討しましょう。LastPass、Dashlane、1Passwordのようなパスワード管理ツールは、複雑なパスワードを生成して保存してくれます。
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)公共のプラットフォームや見知らぬ人との会話ではオンライン・フォームに記入したり、見知らぬ人と会話したりするときは、**慎重にしてください**。個人情報を提供する前に、ウェブサイトやプラットフォームの正当性と安全性を確認してください。例えば、**パブリック・フォーラムやオンライン・コミュニティでは、**完全な住所や電話番号**を共有しないようにしましょう。
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)公共のプラットフォームや見知らぬ人との会話ではオンライン・フォームに記入したり、見知らぬ人と会話したりするときは、**慎重にしてください**。個人情報を提供する前に、ウェブサイトやプラットフォームの正当性と安全性を確認してください。例えば、**パブリック・フォーラムやオンライン・コミュニティでは、**完全な住所や電話番号**を共有しないようにしましょう。
 
 #### e. 定期的にソフトウェアをアップデートし、ウイルス対策を行う。
 

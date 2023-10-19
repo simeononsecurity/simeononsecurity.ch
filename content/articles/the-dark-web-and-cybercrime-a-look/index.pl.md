@@ -50,17 +50,17 @@ Warto zauważyć, że potencjał ciemnej sieci do celów dziennikarskich i infor
 
 Ochrona przed dark webem i cyberprzestępczością wymaga proaktywnych środków w celu ograniczenia ryzyka. Oto kilka podstawowych kroków, aby się chronić:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Zachowaj ostrożność podczas udostępniania danych osobowych online, powstrzymując się od podawania poufnych informacji nieznanym lub niezaufanym źródłom. Chroń swoje imię i nazwisko, adres, numer ubezpieczenia społecznego i inne dane osobowe.
+[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/) Zachowaj ostrożność podczas udostępniania danych osobowych online, powstrzymując się od podawania poufnych informacji nieznanym lub niezaufanym źródłom. Chroń swoje imię i nazwisko, adres, numer ubezpieczenia społecznego i inne dane osobowe.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Stosuj silne i unikalne hasła do wszystkich swoich kont online. Unikaj ponownego używania haseł na wielu platformach, aby zapobiec nieautoryzowanemu dostępowi w przypadku naruszenia danych.
+[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Stosuj silne i unikalne hasła do wszystkich swoich kont online. Unikaj ponownego używania haseł na wielu platformach, aby zapobiec nieautoryzowanemu dostępowi w przypadku naruszenia danych.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Regularnie aktualizuj oprogramowanie, w tym systemy operacyjne, przeglądarki internetowe i programy antywirusowe. Aktualizacje te często zawierają poprawki bezpieczeństwa, które usuwają luki w zabezpieczeniach i chronią przed pojawiającymi się zagrożeniami cybernetycznymi.
+[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/) Regularnie aktualizuj oprogramowanie, w tym systemy operacyjne, przeglądarki internetowe i programy antywirusowe. Aktualizacje te często zawierają poprawki bezpieczeństwa, które usuwają luki w zabezpieczeniach i chronią przed pojawiającymi się zagrożeniami cybernetycznymi.
 
 **4. Praktykuj bezpieczne nawyki przeglądania:** Bądź wymagający w stosunku do odwiedzanych stron internetowych, powstrzymując się od klikania linków w wiadomościach e-mail lub nieznanych witrynach. Trzymaj się renomowanych źródeł i weryfikuj legalność stron internetowych przed udostępnieniem jakichkolwiek danych osobowych lub finansowych.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Wykorzystaj zapory sieciowe do kontrolowania przychodzącego i wychodzącego ruchu sieciowego i wdróż niezawodne oprogramowanie antywirusowe do wykrywania i usuwania złośliwego oprogramowania lub podejrzanych działań z urządzeń.
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/) Wykorzystaj zapory sieciowe do kontrolowania przychodzącego i wychodzącego ruchu sieciowego i wdróż niezawodne oprogramowanie antywirusowe do wykrywania i usuwania złośliwego oprogramowania lub podejrzanych działań z urządzeń.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regularnie twórz kopie zapasowe ważnych danych i plików. Gwarantuje to, że nawet w przypadku naruszenia bezpieczeństwa komputera lub kradzieży danych można przywrócić informacje i zminimalizować skutki potencjalnych cyberataków.
+[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Regularnie twórz kopie zapasowe ważnych danych i plików. Gwarantuje to, że nawet w przypadku naruszenia bezpieczeństwa komputera lub kradzieży danych można przywrócić informacje i zminimalizować skutki potencjalnych cyberataków.
 
 ## Regulacje i inicjatywy rządowe
 

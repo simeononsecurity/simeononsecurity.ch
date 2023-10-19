@@ -28,20 +28,20 @@ Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon komp
 
 Es ist wichtig, alle Anzeichen einer Kompromittierung zu beachten, damit Sie geeignete Maßnahmen zum Schutz Ihres Geräts und Ihrer Daten ergreifen können. Wenn Sie sich nicht sicher sind, ob Ihr Gerät kompromittiert wurde, ist es immer besser, auf Nummer sicher zu gehen.
 
-Erfahren Sie, wie Sie Folgendes erkennen können [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+Erfahren Sie, wie Sie Folgendes erkennen können [phishing and suspicious emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.ch/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
 
 ______
 
-## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-- [**Change your passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für alle Ihre Konten sofort, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde
+- [**Change your passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) für alle Ihre Konten sofort, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde
 
 Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, müssen Sie als Nächstes sofort die Kennwörter für alle Ihre Konten ändern. Dies wird einige Zeit in Anspruch nehmen. Priorisieren Sie daher wichtige Konten wie Ihre E-Mails, Bankkonten, Konten in sozialen Medien usw.
 
 - **Priorisieren Sie wichtige Konten** wie Ihre E-Mails, Bankkonten, Konten in sozialen Medien usw.
 
-- [**Choose strong, unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für jedes Ihrer Konten und **vermeiden Sie die Verwendung des gleichen Passworts** für mehrere Konten
-- A [**strong password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) sollte mindestens **12 Zeichen lang** sein und eine **Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen** enthalten
+- [**Choose strong, unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) für jedes Ihrer Konten und **vermeiden Sie die Verwendung des gleichen Passworts** für mehrere Konten
+- A [**strong password**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) sollte mindestens **12 Zeichen lang** sein und eine **Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen** enthalten
 
 Wählen Sie sichere, eindeutige Passwörter für jedes Ihrer Konten und vermeiden Sie die Verwendung desselben Passworts für mehrere Konten. Ein sicheres Passwort sollte mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen enthalten. Vermeiden Sie gebräuchliche Wörter oder Phrasen, und geben Sie keine persönlichen Daten wie Ihren Namen, Ihr Geburtsdatum oder Ihre Adresse an.
 
@@ -61,7 +61,7 @@ Wählen Sie sichere, eindeutige Passwörter für jedes Ihrer Konten und vermeide
 - elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
 ```
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für eine zusätzliche Ebene der Sicherheit
+- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für eine zusätzliche Ebene der Sicherheit
 
 Es ist auch eine gute Idee, die Zwei-Faktor-Authentifizierung zu aktivieren, die eine zusätzliche Sicherheitsebene für Ihre Konten bietet. Die Zwei-Faktor-Authentifizierung erfordert eine zweite Verifizierungsmethode, z. B. einen Code, der an Ihr Telefon oder Ihre E-Mail gesendet wird, zusätzlich zu Ihrem Passwort.
 
@@ -116,7 +116,7 @@ Verwenden Sie zum Scannen Ihres Geräts auf Malware eine vertrauenswürdige und 
 
 Es ist auch eine gute Idee, alle externen Geräte, wie z. B. USB-Laufwerke, zu scannen, die Sie mit dem gefährdeten Gerät verwendet haben. Externe Geräte können oft Malware enthalten, die Ihr Gerät infizieren kann, daher ist es wichtig, sie zu scannen, bevor Sie sie mit Ihrem Gerät verwenden.
 
-Siehe einige [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.com/recommendations/anti-virus)
+Siehe einige [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 ______
 
@@ -138,7 +138,7 @@ Sobald Sie sich vergewissert haben, dass Ihre wichtigen Dateien sicher sind, sol
 
 Denken Sie daran, dass beim Löschen Ihres Geräts alle Daten auf dem Gerät gelöscht werden. Es ist daher wichtig, dass Sie alle wichtigen Dateien sichern, bevor Sie Ihr Gerät löschen.
 
-Erfahren Sie mehr über die wichtigen [3-2-1 Backup Rule](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+Erfahren Sie mehr über die wichtigen [3-2-1 Backup Rule](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 
 ______
 

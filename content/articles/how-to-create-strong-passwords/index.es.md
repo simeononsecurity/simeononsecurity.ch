@@ -59,9 +59,9 @@ Recuerda que la fuerza de una frase de contraseña no sólo reside en su longitu
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-A medida que aumenta el número de cuentas que tenemos en Internet, resulta difícil recordar contraseñas únicas y seguras para cada una de ellas. Aquí es donde los gestores de contraseñas como [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) son muy útiles. Un gestor de contraseñas es una bóveda digital segura que almacena todas tus contraseñas en un formato cifrado. Te permite generar contraseñas fuertes y únicas para cada cuenta y las rellena automáticamente cuando es necesario. A continuación te explicamos cómo pueden ayudarte los gestores de contraseñas:
+A medida que aumenta el número de cuentas que tenemos en Internet, resulta difícil recordar contraseñas únicas y seguras para cada una de ellas. Aquí es donde los gestores de contraseñas como [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) son muy útiles. Un gestor de contraseñas es una bóveda digital segura que almacena todas tus contraseñas en un formato cifrado. Te permite generar contraseñas fuertes y únicas para cada cuenta y las rellena automáticamente cuando es necesario. A continuación te explicamos cómo pueden ayudarte los gestores de contraseñas:
 
 - Comodidad**: Con un gestor de contraseñas, sólo tienes que recordar una única contraseña maestra para acceder a todas las contraseñas almacenadas. Esto elimina la necesidad de memorizar varias contraseñas complejas.
 - Contraseñas únicas y seguras**: Los gestores de contraseñas pueden generar contraseñas seguras utilizando una combinación de caracteres, lo que garantiza que cada una de tus cuentas tenga una contraseña única y segura.
@@ -78,7 +78,7 @@ Aunque los gestores de contraseñas ofrecen importantes ventajas, es esencial se
 
 - **Elige un gestor de contraseñas de confianza**: Seleccione un gestor de contraseñas bien establecido y de confianza, como **Bitwarden** u otros recomendados por fuentes de ciberseguridad acreditadas.
 - Crea una contraseña maestra segura**: La contraseña maestra es la clave de la bóveda de tu gestor de contraseñas, así que asegúrate de que sea fuerte y única. Siga las pautas mencionadas anteriormente para crear una contraseña maestra sólida.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) La autenticación de dos factores añade una capa adicional de seguridad al requerir una segunda forma de verificación, como una huella dactilar o un código de una aplicación de autenticación, además de la contraseña maestra.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) La autenticación de dos factores añade una capa adicional de seguridad al requerir una segunda forma de verificación, como una huella dactilar o un código de una aplicación de autenticación, además de la contraseña maestra.
 - Actualice periódicamente su gestor de contraseñas**: Mantenga actualizado su gestor de contraseñas para asegurarse de que dispone de los últimos parches y funciones de seguridad.
 - Haz copias de seguridad de tu almacén de contraseñas**: Realice periódicamente copias de seguridad del almacén de su gestor de contraseñas para evitar la pérdida de datos en caso de fallo del dispositivo u otras circunstancias imprevistas.
 - Tenga cuidado con los ataques de phishing**: Mantente alerta y evita hacer clic en enlaces sospechosos o proporcionar la información de tu gestor de contraseñas en sitios web que no sean de confianza.

@@ -48,19 +48,19 @@ coverCaption: ""
 
 特に差出人が不明なメールの添付ファイルには注意してください。フィッシングメールには、悪意のあるソフトウェアやウイルスを含む添付ファイルが含まれている場合があります。予期していなかったり、送信元を確認したりしない限り、添付ファイルを開くことは避けてください。
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Tips for Staying Safe Online**](https://simeononsecurity.ch/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 フィッシングの一般的な指標をご理解いただいた上で、オンラインで安全に過ごすためのヒントをいくつかご紹介します：
 
 - ソフトウェアを常に最新の状態に保つ：オペレーティングシステム、アンチウイルスソフトウェア、その他のアプリケーションを定期的に更新し、既知の脆弱性から保護する。
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)二要素認証は、モバイルデバイスに送信される固有のコードなどの追加認証を必要とすることで、オンラインアカウントのセキュリティをさらに強化するものです。
+- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)二要素認証は、モバイルデバイスに送信される固有のコードなどの追加認証を必要とすることで、オンラインアカウントのセキュリティをさらに強化するものです。
 
 - 自分自身を教育する**：最新のフィッシング技術や詐欺について常に情報を得る。一般的な指標をよく理解し、新しい脅威に関する最新情報を信頼できる情報源で定期的に確認しましょう。
 
 - 個人情報の取り扱いに注意する：個人情報の取り扱いに注意する**：利用するウェブサイトやサービスの正当性や安全性に確信が持てない限り、オンラインで機密情報を共有することは避けましょう。
 
-- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)不正アクセスのリスクを最小限に抑えるため、アカウントごとに強力でユニークなパスワードを作成します。
+- [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)不正アクセスのリスクを最小限に抑えるため、アカウントごとに強力でユニークなパスワードを作成します。
 
 ______
 
@@ -70,7 +70,7 @@ ______
 
 常に情報を入手し、最新のフィッシング技術を学び、オンラインセキュリティのベストプラクティスに従うことを忘れないでください。これらのヒントを実践し、慎重に行動することで、オンラインの安全性を高め、フィッシングの被害に遭うリスクを最小限に抑えることができます。
 
-学ぶ [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+学ぶ [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

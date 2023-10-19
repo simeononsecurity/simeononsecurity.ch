@@ -26,7 +26,7 @@ coverCaption: "利用盈利应用程序为闲置设备赚钱"
 
 ### 安装 Docker
 
-学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### 安装 Docker 容器
 要使用 Docker 安装小赚应用程序，请按照以下步骤操作：
@@ -53,7 +53,7 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 
 总之，"赚App "为您提供了一个绝佳的机会，让您可以将闲置设备货币化，并通过共享互联网作为 VPN 服务赚取奖励。通过利用您设备的闲置资源，您可以通过住宅 IP 获得被动收入，平均每个节点每月 5 美元。要开始使用，请在 Earn App 创建一个账户，按照安装说明操作，今天就开始赚取奖励。充分利用您的闲置设备，毫不费力地将它们转化为宝贵的收入来源。
 
-完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考文献：
 

@@ -36,9 +36,9 @@ Les utilisateurs finaux peuvent prendre plusieurs mesures pour se protéger cont
 
 3. **Surveillez l'activité de votre appareil mobile** : Vérifiez régulièrement l'activité de votre appareil mobile et examinez vos relevés de facturation pour détecter toute activité suspecte.
 
-4. **Contactez votre fournisseur de téléphonie mobile** : Si vous pensez que votre appareil mobile ou votre réseau a été compromis, contactez immédiatement votre fournisseur de téléphonie mobile pour signaler le problème et demander de l'aide. Nous vous donnons quelques conseils supplémentaires sur ce que vous devez faire si vous soupçonnez que votre sécurité a été compromise.[here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+4. **Contactez votre fournisseur de téléphonie mobile** : Si vous pensez que votre appareil mobile ou votre réseau a été compromis, contactez immédiatement votre fournisseur de téléphonie mobile pour signaler le problème et demander de l'aide. Nous vous donnons quelques conseils supplémentaires sur ce que vous devez faire si vous soupçonnez que votre sécurité a été compromise.[here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
-5. **Utilisez des messageries et des applications vocales sécurisées** : Dans la mesure du possible, vous devriez utiliser des applications telles que Signal, Wickr ou Wire. Nous en parlons plus en détail[here](https://simeononsecurity.com/recommendations/messengers/)
+5. **Utilisez des messageries et des applications vocales sécurisées** : Dans la mesure du possible, vous devriez utiliser des applications telles que Signal, Wickr ou Wire. Nous en parlons plus en détail[here](https://simeononsecurity.ch/recommendations/messengers/)
 
 ## Conclusion
 

@@ -24,6 +24,6 @@ Este important să rețineți că **eliminarea informațiilor dvs. de la un brok
 
 _________________________
 
-În concluzie, **eliminarea informațiilor dvs. de la brokerii de date online** este un pas esențial pentru a vă asigura confidențialitatea și securitatea online. Preluând controlul asupra informațiilor disponibile despre dvs. online, puteți minimiza riscul de furt de identitate, hărțuire și alte probleme legate de confidențialitate. Pentru mai multe îndrumări specifice privind eliminarea informațiilor dvs. de la brokerii de date online, vă rugăm să consultați resursele disponibile la adresa [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
+În concluzie, **eliminarea informațiilor dvs. de la brokerii de date online** este un pas esențial pentru a vă asigura confidențialitatea și securitatea online. Preluând controlul asupra informațiilor disponibile despre dvs. online, puteți minimiza riscul de furt de identitate, hărțuire și alte probleme legate de confidențialitate. Pentru mai multe îndrumări specifice privind eliminarea informațiilor dvs. de la brokerii de date online, vă rugăm să consultați resursele disponibile la adresa [https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
 
 

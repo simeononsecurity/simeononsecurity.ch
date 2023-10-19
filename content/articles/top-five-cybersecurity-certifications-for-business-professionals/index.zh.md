@@ -123,4 +123,4 @@ ______
 - CIPM - 注册信息隐私管理员： [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - 注册信息安全经理： [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - 美国注册信息隐私专业人员： [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
-- SimeonOnSecurity - 面向政府和军队专业人员的顶级网络安全认证 [https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
+- SimeonOnSecurity - 面向政府和军队专业人员的顶级网络安全认证 [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)

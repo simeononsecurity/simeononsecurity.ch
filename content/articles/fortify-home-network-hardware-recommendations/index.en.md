@@ -34,8 +34,8 @@ Secure and reliable **access points** are essential for seamless connectivity ac
 - [**NETGEAR Nighthawk Whole Home Mesh WiFi 6 System (MK62)**](https://amzn.to/3qizl7R): Available on [Amazon](https://amzn.to/3qizl7R), this mesh Wi-Fi system not only ensures high-speed connectivity but also offers advanced security features. It's designed to eliminate dead zones and provide a secure Wi-Fi environment. {{< figure src="NETGEAR.jpg" alt="NETGEAR Nighthawk Whole Home Mesh WiFi 6 System" link="https://amzn.to/3qizl7R" >}}
 
 For more access point options and in-depth comparisons, you can refer to articles such as:
-- [Best WiFi Mesh System for Consumers](https://simeononsecurity.com/articles/best-wifi-mesh-system-for-consumers/)
-- [The Ideal Ubiquiti UniFi Networking Setup: Both Simple and Advanced](https://simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/)
+- [Best WiFi Mesh System for Consumers](https://simeononsecurity.ch/articles/best-wifi-mesh-system-for-consumers/)
+- [The Ideal Ubiquiti UniFi Networking Setup: Both Simple and Advanced](https://simeononsecurity.ch/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/)
 
 ### Network Monitoring: Vigilance and Insights
 
@@ -66,7 +66,7 @@ Regularly updating the firmware and software of your network components is cruci
 
 ### Strong, Unique Passwords: A Fundamental Defense
 
-While hardware components play a pivotal role in securing your home network, **password hygiene** remains a fundamental defense mechanism. [**Set strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for your router, firewall, and other network devices to prevent unauthorized access. Consider using a [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) to generate and store complex passwords securely.
+While hardware components play a pivotal role in securing your home network, **password hygiene** remains a fundamental defense mechanism. [**Set strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for your router, firewall, and other network devices to prevent unauthorized access. Consider using a [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) to generate and store complex passwords securely.
 
 ______
 

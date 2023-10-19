@@ -22,13 +22,13 @@ Voordat we in de vergelijking duiken, is het essentieel om enkele basisprincipes
 
 De NVIDIA RTX 3090 is een krachtige grafische kaart die is ontworpen voor gaming en professionele toepassingen zoals machine learning en wetenschappelijke simulaties. Hij is gebaseerd op de Ampere-architectuur en beschikt over 10496 CUDA-kernen, 328 Tensor-kernen en 112 RT-kernen. Het heeft ook 24 GB GDDR6X-geheugen en een geheugenbandbreedte van 936 GB/s.
 
-In benchmarks voor het kraken van wachtwoorden, uitgevoerd door simeononsecurity.com, kon de RTX 3090 een eenvoudig wachtwoord van acht tekens kraken in 120 seconden en een complex wachtwoord van acht tekens in 1200 seconden. Voor een eenvoudig wachtwoord van twaalf tekens nam de tijd toe tot 12000 seconden, en voor een complex wachtwoord van twaalf tekens tot 120000 seconden.
+In benchmarks voor het kraken van wachtwoorden, uitgevoerd door simeononsecurity.ch, kon de RTX 3090 een eenvoudig wachtwoord van acht tekens kraken in 120 seconden en een complex wachtwoord van acht tekens in 1200 seconden. Voor een eenvoudig wachtwoord van twaalf tekens nam de tijd toe tot 12000 seconden, en voor een complex wachtwoord van twaalf tekens tot 120000 seconden.
 
 ## NVIDIA RTX 4090
 
 De NVIDIA RTX 4090 is de opvolger van de RTX 3090 en is momenteel de krachtigste grafische kaart die beschikbaar is. Hij beschikt over dezelfde Ampere-architectuur als de RTX 3090, maar met bijna twee keer zoveel ruwe prestaties als de 3090.
 
-In benchmarks voor het kraken van wachtwoorden, uitgevoerd door simeononsecurity.com, kon de RTX 4090 een eenvoudig wachtwoord van acht tekens kraken in 60 seconden en een complex wachtwoord van acht tekens in 600 seconden. Voor een eenvoudig wachtwoord van twaalf tekens nam de tijd toe tot 6000 seconden, en voor een complex wachtwoord van twaalf tekens tot 60000 seconden.
+In benchmarks voor het kraken van wachtwoorden, uitgevoerd door simeononsecurity.ch, kon de RTX 4090 een eenvoudig wachtwoord van acht tekens kraken in 60 seconden en een complex wachtwoord van acht tekens in 600 seconden. Voor een eenvoudig wachtwoord van twaalf tekens nam de tijd toe tot 6000 seconden, en voor een complex wachtwoord van twaalf tekens tot 60000 seconden.
 
 ## Benchmarks
 
@@ -49,7 +49,7 @@ Wachtwoordlengte | Complexiteit | RTX 3090 (Seconden) | RTX 4090 (Seconden)
 
 De resultaten van onze benchmarks laten zien dat de **RTX 4090** een krachtig hulpmiddel is voor het kraken van wachtwoorden. Dit betekent dat het voor aanvallers nu mogelijk is om wachtwoorden veel sneller te kraken dan ooit tevoren.
 
-Dit is een ernstig beveiligingsprobleem, omdat het betekent dat aanvallers nu veel gemakkelijker toegang kunnen krijgen tot accounts en systemen. Om uzelf te beschermen tegen aanvallen voor het kraken van wachtwoorden, moet u gebruik maken van [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) om u te helpen sterke wachtwoorden te genereren en op te slaan.
+Dit is een ernstig beveiligingsprobleem, omdat het betekent dat aanvallers nu veel gemakkelijker toegang kunnen krijgen tot accounts en systemen. Om uzelf te beschermen tegen aanvallen voor het kraken van wachtwoorden, moet u gebruik maken van [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) om u te helpen sterke wachtwoorden te genereren en op te slaan.
 
 ## Conclusie
 

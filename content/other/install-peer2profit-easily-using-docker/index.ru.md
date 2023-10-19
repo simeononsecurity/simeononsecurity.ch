@@ -22,7 +22,7 @@ coverCaption: ""
 ### Установка контейнера Docker:
 Выполните следующие шаги для установки Docker-контейнера Peer 2 Profit:
 
-0. Узнать [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Узнать [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Откройте терминал и введите следующую команду, заменив "your_email_without_quotes" на ваш реальный адрес электронной почты:
 ```bash
@@ -41,7 +41,7 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 ## Заключение
 Установив Peer 2 Profit и поделившись своим интернетом, вы получаете возможность получать пассивный доход без особых усилий. Благодаря удобному интерфейсу и множеству вариантов выплат Peer 2 Profit предлагает удобный способ монетизации вашего Интернет-соединения. Приступайте к работе сегодня и начните зарабатывать!
 
-По окончании работы вы должны [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+По окончании работы вы должны [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 - [Peer 2 Profit](https://peer2profit.com/)

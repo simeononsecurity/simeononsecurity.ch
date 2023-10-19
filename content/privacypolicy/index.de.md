@@ -3,7 +3,7 @@ title: "Datenschutzrichtlinien: Sammlung von Informationen, Nutzung und Zustimmu
 date: 2020-08-08
 ---
 
-Bei SimeonOnSecurity, erreichbar unter https://simeononsecurity.com, ist eine unserer Hauptprioritäten der Schutz der Privatsphäre unserer Besucher. Diese Datenschutzrichtlinie enthält die Arten von Informationen, die von SimeonOnSecurity gesammelt und aufgezeichnet werden, und wie wir sie verwenden.
+Bei SimeonOnSecurity, erreichbar unter https://simeononsecurity.ch, ist eine unserer Hauptprioritäten der Schutz der Privatsphäre unserer Besucher. Diese Datenschutzrichtlinie enthält die Arten von Informationen, die von SimeonOnSecurity gesammelt und aufgezeichnet werden, und wie wir sie verwenden.
 
 Wenn Sie weitere Fragen haben oder mehr Informationen über unsere Datenschutzpolitik benötigen, zögern Sie nicht, uns zu kontaktieren.
 

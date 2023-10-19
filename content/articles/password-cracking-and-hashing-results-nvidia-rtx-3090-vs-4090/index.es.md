@@ -22,13 +22,13 @@ Antes de entrar de lleno en la comparación, es esencial comprender algunos aspe
 
 La NVIDIA RTX 3090 es una potente tarjeta gráfica diseñada para juegos y aplicaciones profesionales como el aprendizaje automático y las simulaciones científicas. Está basada en la arquitectura Ampere y cuenta con 10496 núcleos CUDA, 328 núcleos Tensor y 112 núcleos RT. También tiene 24 GB de memoria GDDR6X y un ancho de banda de memoria de 936 GB/s.
 
-En las pruebas de descifrado de contraseñas realizadas por simeononsecurity.com, la RTX 3090 fue capaz de descifrar una contraseña simple de ocho caracteres en 120 segundos y una contraseña compleja de ocho caracteres en 1200 segundos. Para una contraseña simple de doce caracteres, el tiempo aumentó a 12.000 segundos, y para una contraseña compleja de doce caracteres, a 12.000 segundos.
+En las pruebas de descifrado de contraseñas realizadas por simeononsecurity.ch, la RTX 3090 fue capaz de descifrar una contraseña simple de ocho caracteres en 120 segundos y una contraseña compleja de ocho caracteres en 1200 segundos. Para una contraseña simple de doce caracteres, el tiempo aumentó a 12.000 segundos, y para una contraseña compleja de doce caracteres, a 12.000 segundos.
 
 ## NVIDIA RTX 4090
 
 La NVIDIA RTX 4090 es la sucesora de la RTX 3090 y actualmente es la tarjeta gráfica más potente disponible. Cuenta con la misma arquitectura Ampere que la RTX 3090, pero con casi el doble de rendimiento bruto que la 3090.
 
-En las pruebas de descifrado de contraseñas realizadas por simeononsecurity.com, la RTX 4090 fue capaz de descifrar una contraseña simple de ocho caracteres en 60 segundos y una contraseña compleja de ocho caracteres en 600 segundos. Para una contraseña simple de doce caracteres, el tiempo aumentó hasta los 6.000 segundos, y para una contraseña compleja de doce caracteres, aumentó aún más hasta los 6.000 segundos.
+En las pruebas de descifrado de contraseñas realizadas por simeononsecurity.ch, la RTX 4090 fue capaz de descifrar una contraseña simple de ocho caracteres en 60 segundos y una contraseña compleja de ocho caracteres en 600 segundos. Para una contraseña simple de doce caracteres, el tiempo aumentó hasta los 6.000 segundos, y para una contraseña compleja de doce caracteres, aumentó aún más hasta los 6.000 segundos.
 
 ## Puntos de referencia
 
@@ -49,7 +49,7 @@ Longitud de la contraseña | Complejidad | RTX 3090 (Segundos) | RTX 4090 (Segun
 
 Los resultados de nuestras pruebas demuestran que el **RTX 4090** es una potente herramienta para descifrar contraseñas. Esto significa que ahora los atacantes pueden descifrar contraseñas mucho más rápido que antes.
 
-Esto supone un grave problema de seguridad, ya que significa que ahora los atacantes pueden acceder a cuentas y sistemas con mucha más facilidad. Para protegerte de los ataques de descifrado de contraseñas, debes utilizar [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para ayudarte a generar y almacenar contraseñas seguras.
+Esto supone un grave problema de seguridad, ya que significa que ahora los atacantes pueden acceder a cuentas y sistemas con mucha más facilidad. Para protegerte de los ataques de descifrado de contraseñas, debes utilizar [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) para ayudarte a generar y almacenar contraseñas seguras.
 
 ## Conclusión
 

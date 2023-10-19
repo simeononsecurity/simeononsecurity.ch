@@ -22,13 +22,13 @@ Avant de plonger dans la comparaison, il est essentiel de comprendre quelques pr
 
 La NVIDIA RTX 3090 est une carte graphique puissante conçue pour les jeux et les applications professionnelles telles que l'apprentissage automatique et les simulations scientifiques. Elle est basée sur l'architecture Ampere et dispose de 10496 cœurs CUDA, 328 cœurs Tensor et 112 cœurs RT. Elle dispose également de 24 Go de mémoire GDDR6X et d'une bande passante de 936 Go/s.
 
-Dans les tests de craquage de mots de passe réalisés par simeononsecurity.com, la RTX 3090 a été capable de craquer un mot de passe simple de huit caractères en 120 secondes et un mot de passe complexe de huit caractères en 1 200 secondes. Pour un mot de passe simple de douze caractères, le temps est passé à 12000 secondes, et pour un mot de passe complexe de douze caractères, il est passé à 120000 secondes.
+Dans les tests de craquage de mots de passe réalisés par simeononsecurity.ch, la RTX 3090 a été capable de craquer un mot de passe simple de huit caractères en 120 secondes et un mot de passe complexe de huit caractères en 1 200 secondes. Pour un mot de passe simple de douze caractères, le temps est passé à 12000 secondes, et pour un mot de passe complexe de douze caractères, il est passé à 120000 secondes.
 
 ## NVIDIA RTX 4090
 
 La NVIDIA RTX 4090 est le successeur de la RTX 3090 et est actuellement la carte graphique la plus puissante disponible. Elle est dotée de la même architecture Ampere que la RTX 3090, mais ses performances brutes sont presque deux fois supérieures à celles de la 3090.
 
-Lors de tests de craquage de mots de passe effectués par simeononsecurity.com, la RTX 4090 a été capable de craquer un mot de passe simple de huit caractères en 60 secondes et un mot de passe complexe de huit caractères en 600 secondes. Pour un mot de passe simple de douze caractères, le temps est passé à 6000 secondes, et pour un mot de passe complexe de douze caractères, il est passé à 60000 secondes.
+Lors de tests de craquage de mots de passe effectués par simeononsecurity.ch, la RTX 4090 a été capable de craquer un mot de passe simple de huit caractères en 60 secondes et un mot de passe complexe de huit caractères en 600 secondes. Pour un mot de passe simple de douze caractères, le temps est passé à 6000 secondes, et pour un mot de passe complexe de douze caractères, il est passé à 60000 secondes.
 
 ## Repères
 
@@ -49,7 +49,7 @@ Longueur du mot de passe | Complexité | RTX 3090 (secondes) | RTX 4090 (seconde
 
 Les résultats de nos benchmarks montrent que la **RTX 4090** est un outil puissant pour craquer les mots de passe. Cela signifie qu'il est désormais possible pour les attaquants de déchiffrer les mots de passe beaucoup plus rapidement qu'auparavant.
 
-Il s'agit là d'un grave problème de sécurité, car cela signifie que les attaquants peuvent désormais accéder aux comptes et aux systèmes beaucoup plus facilement. Pour vous protéger contre les attaques par craquage de mot de passe, vous devez utiliser [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pour vous aider à générer et à conserver des mots de passe forts.
+Il s'agit là d'un grave problème de sécurité, car cela signifie que les attaquants peuvent désormais accéder aux comptes et aux systèmes beaucoup plus facilement. Pour vous protéger contre les attaques par craquage de mot de passe, vous devez utiliser [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) pour vous aider à générer et à conserver des mots de passe forts.
 
 ## Conclusion
 

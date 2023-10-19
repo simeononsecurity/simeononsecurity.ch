@@ -93,9 +93,9 @@ Además, si tienes algún **perfil profesional** en plataformas como LinkedIn, r
 Tomando estas medidas, reducirás la accesibilidad de tu información personal y harás más difícil que alguien pueda aprovecharse de ella. Recuerde vigilar regularmente su presencia en línea para asegurarse de que su información permanece segura y protegida.
 
 #### Lecturas adicionales para el paso 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ Reforzar tus medidas de **privacidad en línea** y **seguridad** es crucial para
 
 #### a. Revisar y actualizar la configuración de privacidad
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) de sus cuentas en línea y asegúrese de que están configuradas con el máximo nivel de protección. Limita la visibilidad de la información personal y las publicaciones únicamente a los amigos o contactos de confianza. Por ejemplo, en plataformas de redes sociales como Facebook, ve a la configuración de privacidad y personaliza quién puede ver tu perfil, tus publicaciones y tu información personal.
+[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) de sus cuentas en línea y asegúrese de que están configuradas con el máximo nivel de protección. Limita la visibilidad de la información personal y las publicaciones únicamente a los amigos o contactos de confianza. Por ejemplo, en plataformas de redes sociales como Facebook, ve a la configuración de privacidad y personaliza quién puede ver tu perfil, tus publicaciones y tu información personal.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) en todas tus cuentas online siempre que sea posible. La 2FA añade una capa extra de seguridad al requerir un paso adicional de verificación, normalmente a través de un dispositivo móvil, para acceder a tus cuentas. Servicios como Google, Facebook y Twitter ofrecen opciones de 2FA. Habilítala siguiendo las instrucciones proporcionadas por las respectivas plataformas.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) en todas tus cuentas online siempre que sea posible. La 2FA añade una capa extra de seguridad al requerir un paso adicional de verificación, normalmente a través de un dispositivo móvil, para acceder a tus cuentas. Servicios como Google, Facebook y Twitter ofrecen opciones de 2FA. Habilítala siguiendo las instrucciones proporcionadas por las respectivas plataformas.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Cree [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para cada una de sus cuentas en línea. **Evite utilizar contraseñas comunes o reutilizar contraseñas en varias plataformas.** Considere la posibilidad de utilizar un **gestor de contraseñas** para almacenar y gestionar sus contraseñas de forma segura. Los gestores de contraseñas como LastPass, Dashlane o 1Password generan y almacenan contraseñas complejas.
+Cree [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) para cada una de sus cuentas en línea. **Evite utilizar contraseñas comunes o reutilizar contraseñas en varias plataformas.** Considere la posibilidad de utilizar un **gestor de contraseñas** para almacenar y gestionar sus contraseñas de forma segura. Los gestores de contraseñas como LastPass, Dashlane o 1Password generan y almacenan contraseñas complejas.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) en plataformas públicas o con desconocidos. **Sea precavido** al rellenar formularios en línea o entablar conversaciones con desconocidos. Verifique la legitimidad y seguridad de los sitios web o plataformas antes de facilitar cualquier dato personal. Por ejemplo, **evite compartir su dirección completa o su número de teléfono** en foros públicos o comunidades en línea.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) en plataformas públicas o con desconocidos. **Sea precavido** al rellenar formularios en línea o entablar conversaciones con desconocidos. Verifique la legitimidad y seguridad de los sitios web o plataformas antes de facilitar cualquier dato personal. Por ejemplo, **evite compartir su dirección completa o su número de teléfono** en foros públicos o comunidades en línea.
 
 #### e. Actualice regularmente el software y utilice protección antivirus
 

@@ -11,11 +11,11 @@ coverCaption: "Împărtășiți expertiza și cunoștințele dvs. cu comunitatea
 
 Vă mulțumim pentru interesul dumneavoastră de a contribui la site-ul nostru! Primim cu plăcere propuneri de bloguri invitate care se aliniază cu obiectivul nostru de conținut. Pentru a trimite un articol pentru examinare, vă rugăm să urmați acești pași:
 
-1. Contactați-ne prin intermediul formularului web de la adresa [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) pentru a vă exprima interesul de a fi guest blogging.
+1. Contactați-ne prin intermediul formularului web de la adresa [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) pentru a vă exprima interesul de a fi guest blogging.
 
 2. Pregătiți articolul în format Markdown (md) sau HTML.
 
-3. Trimiteți o cerere de tip pull request pe depozitul nostru GitHub la adresa [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
+3. Trimiteți o cerere de tip pull request pe depozitul nostru GitHub la adresa [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
 
 4. Asigurați-vă că articolul dvs. include un frontmatter (metadate) valid, cu toate variabilele necesare, așa cum se arată în exemplul de mai jos:
 
@@ -122,7 +122,7 @@ Blogul invitat este un aranjament reciproc avantajos în care scriitorii au ocaz
 
 - Apreciem înțelegerea și cooperarea dvs. în respectarea acestor linii directoare pentru a menține calitatea și relevanța conținutului pe SimeonOnSecurity.
 
-Așteptăm cu nerăbdare să primim contribuțiile dvs. valoroase și să vă ajutăm să ajungeți la un public mai larg cu cunoștințele dvs. Dacă aveți întrebări sau clarificări suplimentare, nu ezitați să ne contactați prin intermediul [webform](https://simeononsecurity.com/contactus/)
+Așteptăm cu nerăbdare să primim contribuțiile dvs. valoroase și să vă ajutăm să ajungeți la un public mai larg cu cunoștințele dvs. Dacă aveți întrebări sau clarificări suplimentare, nu ezitați să ne contactați prin intermediul [webform](https://simeononsecurity.ch/contactus/)
 
 ***Scriere fericită!
 

@@ -22,13 +22,13 @@ ______
 
 ## Ingénierie sociale
 
-**L'ingénierie sociale est un type de cyberattaque qui s'appuie sur l'interaction humaine et la manipulation psychologique pour inciter les individus à divulguer des informations sensibles ou à effectuer certaines actions. Les cybercriminels utilisent diverses tactiques, telles que [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) les prétextes, les appâts et les contreparties pour gagner la confiance de leurs victimes et obtenir des informations confidentielles.
+**L'ingénierie sociale est un type de cyberattaque qui s'appuie sur l'interaction humaine et la manipulation psychologique pour inciter les individus à divulguer des informations sensibles ou à effectuer certaines actions. Les cybercriminels utilisent diverses tactiques, telles que [phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) les prétextes, les appâts et les contreparties pour gagner la confiance de leurs victimes et obtenir des informations confidentielles.
 
 Pour réduire le risque d'attaques par ingénierie sociale, les individus et les organisations peuvent prendre les mesures suivantes :
 
-- Fournir [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) aux employés pour leur apprendre à identifier et à éviter les attaques d'ingénierie sociale.
+- Fournir [**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) aux employés pour leur apprendre à identifier et à éviter les attaques d'ingénierie sociale.
 - Utiliser des **filtres anti-spam** et des protocoles d'authentification du courrier électronique, tels que **SPF**, **DKIM** et **DMARC**, pour détecter et bloquer les courriels d'hameçonnage.
-- Mettre en œuvre [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour ajouter une couche de sécurité supplémentaire aux identifiants de connexion.
+- Mettre en œuvre [**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour ajouter une couche de sécurité supplémentaire aux identifiants de connexion.
 - Réviser et mettre à jour régulièrement les **politiques de sécurité** pour faire face aux nouvelles menaces et vulnérabilités.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 Pour réduire le risque d'attaques par des logiciels malveillants, les particuliers et les organisations peuvent prendre les mesures suivantes :
 
-- Installer et mettre à jour régulièrement [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) sur tous les appareils.
+- Installer et mettre à jour régulièrement [**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) sur tous les appareils.
 - Utiliser des **firewalls** pour bloquer l'accès non autorisé aux systèmes et réseaux informatiques.
 - Évitez de télécharger des logiciels ou des fichiers à partir de sources non fiables.
 - Sauvegardez régulièrement vos données importantes pour éviter toute perte de données en cas d'attaque par un logiciel malveillant.
@@ -67,9 +67,9 @@ systèmes ou réseaux informatiques en devinant, craquant ou volant des mots de 
 Pour réduire le risque d'attaques par mot de passe, les individus et les organisations peuvent prendre les mesures suivantes :
 
 - Utiliser des mots de passe forts et uniques qui contiennent une combinaison de lettres, de chiffres et de symboles.
-- Mettre en place un [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) qui exige des changements réguliers de mot de passe et interdit l'utilisation de mots de passe courants ou faciles à deviner.
-- Utiliser [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) qui peuvent générer et stocker des mots de passe complexes.
-- Mettre en œuvre [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour ajouter une couche de sécurité supplémentaire aux identifiants de connexion.
+- Mettre en place un [**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) qui exige des changements réguliers de mot de passe et interdit l'utilisation de mots de passe courants ou faciles à deviner.
+- Utiliser [**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) qui peuvent générer et stocker des mots de passe complexes.
+- Mettre en œuvre [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour ajouter une couche de sécurité supplémentaire aux identifiants de connexion.
 
 ______
 
@@ -81,7 +81,7 @@ Pour réduire le risque d'attaques d'applications web, les individus et les orga
 
 - Utiliser des **pare-feu d'application web** pour détecter et bloquer le trafic malveillant.
 - Rechercher régulièrement les vulnérabilités des applications web et appliquer rapidement les correctifs et les mises à jour.
-- Utiliser [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) pour prévenir les vulnérabilités courantes des applications web.
+- Utiliser [**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) pour prévenir les vulnérabilités courantes des applications web.
 - Mettre en œuvre la **validation des entrées de l'utilisateur** pour prévenir l'injection SQL et d'autres attaques basées sur les entrées.
 
 ______

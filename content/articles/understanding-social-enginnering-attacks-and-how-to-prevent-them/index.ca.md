@@ -16,7 +16,7 @@ L'enginyeria social és una forma d'atac cibernètic que es basa en manipular le
 
 ## Tipus d'atacs d'enginyeria social
 
-### [Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+### [Phishing Attacks](https://simeononsecurity.ch/articles/how-to-identify-phishing/)
 
 Els atacs de phishing són la forma més comuna d'atacs d'enginyeria social. Implica enviar correus electrònics que semblen provenir de fonts de bona reputació per enganyar la gent perquè proporcioni informació confidencial o fent clic als enllaços que instal·len programari maliciós. Els correus electrònics poden utilitzar tàctiques de por, peticions urgents o apel·lacions emocionals per fer que la gent actuï sense pensar.
 
@@ -42,25 +42,25 @@ Per evitar atacs contra quid pro quo, és important **formar els empleats** perq
 
 ## Estratègies per prevenir els atacs d'enginyeria social
 
-### [Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Employee Training](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-Una de les estratègies més efectives per prevenir atacs d'enginyeria social és [**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Els empleats haurien de ser educats sobre els diferents tipus d'atacs d'enginyeria social i com reconèixer-los. També se'ls ha d'ensenyar com respondre a sol·licituds sospitoses i com informar-les al seu supervisor o departament informàtic.
+Una de les estratègies més efectives per prevenir atacs d'enginyeria social és [**employee training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Els empleats haurien de ser educats sobre els diferents tipus d'atacs d'enginyeria social i com reconèixer-los. També se'ls ha d'ensenyar com respondre a sol·licituds sospitoses i com informar-les al seu supervisor o departament informàtic.
 
 La formació s'ha de dur a terme amb regularitat i s'ha d'adaptar a les necessitats específiques de l'organització. És important emfatitzar la importància de la seguretat i assegurar-se que els empleats entenguin les conseqüències de no seguir els protocols de seguretat.
 
-### [Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+### [Security Policies](https://simeononsecurity.ch/articles/how-to-secure-your-organization-against-insider-threats/)
 
 Les polítiques de seguretat són una altra estratègia important per prevenir atacs d'enginyeria social. Les organitzacions han de tenir polítiques clares sobre com gestionar la informació sensible i quines accions estan permeses o prohibides. Les polítiques s'han de revisar i actualitzar periòdicament per garantir que siguin efectives i actualitzades.
 
 Les organitzacions també haurien de tenir polítiques sobre com respondre als incidents de seguretat. Els empleats haurien d'estar entrenats sobre què fer en cas d'incompliment de la seguretat i hi hauria d'haver procediments clars per informar d'incidències i mitigar els danys.
 
-### [Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+### [Multi-Factor Authentication](https://simeononsecurity.ch/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 L'autenticació multifactor (MFA) és una característica de seguretat que requereix que els usuaris proporcionin múltiples formes d'autenticació, com ara una contrasenya i una empremta digital o una targeta intel·ligent, per accedir a un sistema. L'MFA pot ajudar a prevenir atacs d'enginyeria social fent que sigui més difícil que els atacants tinguin accés a informació sensible.
 
 Les organitzacions haurien de considerar la implementació de MFA per a tots els sistemes que continguin informació sensible o infraestructura crítica. És important triar solucions d'MFA que siguin fàcils d'utilitzar i gestionar, i que proporcionin un alt nivell de seguretat.
 
-### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+### [Anti-Virus and Anti-Malware Software](https://simeononsecurity.ch/recommendations/anti-virus)
 
 El programari antivirus i antiprogramari maliciós pot ajudar a prevenir atacs d'enginyeria social detectant i bloquejant programari maliciós abans que pugui causar danys. Les organitzacions haurien de tenir instal·lat un programari antivirus i programari maliciós actualitzat a tots els sistemes i dispositius que es connecten a la seva xarxa.
 

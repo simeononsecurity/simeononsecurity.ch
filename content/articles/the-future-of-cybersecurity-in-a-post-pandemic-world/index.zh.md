@@ -34,13 +34,13 @@ ______
 
 1.**保持软件更新**：攻击者经常利用过时的软件来利用漏洞。软件更新通常包括可以修复漏洞的安全补丁。确保一有更新就立即安装。
 
-2. [**Use strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)密码通常是抵御网络攻击的第一道防线。请为您的每个账户使用强大、唯一的密码，并考虑使用密码管理器来跟踪密码。密码管理器可帮助您为所有账户生成并存储强大的密码。
+2. [**Use strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)密码通常是抵御网络攻击的第一道防线。请为您的每个账户使用强大、唯一的密码，并考虑使用密码管理器来跟踪密码。密码管理器可帮助您为所有账户生成并存储强大的密码。
 
-3. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)双因素身份验证为您的账户增加了一层额外的安全保护。确保尽可能启用它。双因素身份验证除了密码外，还需要第二种验证方式，如指纹或发送到手机上的一次性代码。
+3. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)双因素身份验证为您的账户增加了一层额外的安全保护。确保尽可能启用它。双因素身份验证除了密码外，还需要第二种验证方式，如指纹或发送到手机上的一次性代码。
 
-4. [**Educate yourself and your employees**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)教育是预防网络攻击的关键。一定要让自己和员工了解常见的威胁以及如何避免这些威胁。这可以包括定期培训课程、网络钓鱼模拟和网络安全最佳实践。
+4. [**Educate yourself and your employees**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)教育是预防网络攻击的关键。一定要让自己和员工了解常见的威胁以及如何避免这些威胁。这可以包括定期培训课程、网络钓鱼模拟和网络安全最佳实践。
 
-5. [**Use a VPN**](https://simeononsecurity.com/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN)来加密你的互联网连接并保护你的数据。VPN 可在您的设备和互联网之间建立安全连接，防止第三方截获您的数据。
+5. [**Use a VPN**](https://simeononsecurity.ch/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN)来加密你的互联网连接并保护你的数据。VPN 可在您的设备和互联网之间建立安全连接，防止第三方截获您的数据。
 
 6.**保护您的物联网设备**：智能恒温器和安全摄像头等物联网（IoT）设备很容易受到网络攻击。确保更改物联网设备的默认密码，并使用最新固件对其进行更新。限制与这些设备共享个人信息的数量也是一个好主意。
 

@@ -26,11 +26,11 @@ National Institute of Standards and Technology (NIST) opublikował wytyczne doty
 
 ### Czyszczenie
 
-Czyszczenie to proces nadpisywania danych na urządzeniu serią wartości binarnych. Metoda ta jest mniej bezpieczna niż fizyczne niszczenie, ale nadal jest skuteczna w oczyszczaniu większości nośników wymiennych. NIST 800-88 Rev. 1 zaleca korzystanie z oprogramowania, które spełnia standardy określone przez Departament Obrony (DoD) [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specyfikacja.
+Czyszczenie to proces nadpisywania danych na urządzeniu serią wartości binarnych. Metoda ta jest mniej bezpieczna niż fizyczne niszczenie, ale nadal jest skuteczna w oczyszczaniu większości nośników wymiennych. NIST 800-88 Rev. 1 zaleca korzystanie z oprogramowania, które spełnia standardy określone przez Departament Obrony (DoD) [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specyfikacja.
 
 ### Czyszczenie
 
-Czyszczenie to proces wielokrotnego nadpisywania danych na urządzeniu wzorcem wartości binarnych. Metoda ta jest bezpieczniejsza niż czyszczenie i jest zalecana do oczyszczania wrażliwych danych. NIST 800-88 Rev. 1 zaleca użycie narzędzia programowego, które spełnia standardy określone przez [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specyfikacja.
+Czyszczenie to proces wielokrotnego nadpisywania danych na urządzeniu wzorcem wartości binarnych. Metoda ta jest bezpieczniejsza niż czyszczenie i jest zalecana do oczyszczania wrażliwych danych. NIST 800-88 Rev. 1 zaleca użycie narzędzia programowego, które spełnia standardy określone przez [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specyfikacja.
 
 __________________________________________
 

@@ -20,7 +20,7 @@ coverCaption: ""
 ### 安装 Docker 容器
 按照以下步骤安装 Repocket Docker 容器：
 
-0.学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0.学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1.打开终端，输入以下命令，用实际电子邮件和 API 密钥替换 "your@email.com "和 "yourapikey"：
 ```bash
@@ -36,7 +36,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 ## 结论
 Repocket 提供了一个通过共享闲置互联网连接赚钱的机会。Repocket 的最低付费额为 20 美元，每个节点每个月可获得约 1 美元的收入，是一种宝贵的被动收入来源。不过，在决定使用该服务之前，务必要彻底了解支付系统并进行自己的研究。
 
-完成研究后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+完成研究后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考资料
 - [Repocket](https://link.repocket.co/raqc)

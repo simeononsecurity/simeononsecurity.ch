@@ -27,15 +27,15 @@ Die Abwehr von Social-Engineering-Angriffen erfordert eine Kombination aus techn
 
 ### 1. Bildung und Sensibilisierung
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sind die erste Verteidigungslinie gegen Social-Engineering-Angriffe. Die Mitarbeiter sollten darin geschult werden, die Anzeichen eines Social-Engineering-Angriffs zu erkennen und entsprechende Maßnahmen zu ergreifen. Dazu gehört, dass man unaufgeforderten Informationsanfragen mit Vorsicht begegnet, die Identität von Personen überprüft, bevor man sensible Informationen preisgibt, und verdächtige Aktivitäten dem IT- oder Sicherheitspersonal meldet.
+[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sind die erste Verteidigungslinie gegen Social-Engineering-Angriffe. Die Mitarbeiter sollten darin geschult werden, die Anzeichen eines Social-Engineering-Angriffs zu erkennen und entsprechende Maßnahmen zu ergreifen. Dazu gehört, dass man unaufgeforderten Informationsanfragen mit Vorsicht begegnet, die Identität von Personen überprüft, bevor man sensible Informationen preisgibt, und verdächtige Aktivitäten dem IT- oder Sicherheitspersonal meldet.
 
 ### 2. Sichere Passwörter und Multifaktor-Authentifizierung
 
-Verwendung von [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) und die Implementierung der **Multifaktor-Authentifizierung** kann dazu beitragen, Social-Engineering-Angriffe zu verhindern, die auf dem Erraten von Passwörtern oder Brute-Force-Angriffen beruhen. Sichere Passwörter sollten mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten. Die Multifaktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene, indem sie von den Benutzern neben dem Passwort einen weiteren Identitätsnachweis verlangt.
+Verwendung von [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) und die Implementierung der **Multifaktor-Authentifizierung** kann dazu beitragen, Social-Engineering-Angriffe zu verhindern, die auf dem Erraten von Passwörtern oder Brute-Force-Angriffen beruhen. Sichere Passwörter sollten mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten. Die Multifaktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene, indem sie von den Benutzern neben dem Passwort einen weiteren Identitätsnachweis verlangt.
 
 ### 3. Sichere E-Mail und sicheres Surfen im Internet
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) können helfen, Social-Engineering-Angriffe zu verhindern, die auf Phishing-Betrug oder andere Formen bösartiger Inhalte beruhen. Dazu gehören die Verwendung von Spam-Filtern zum Blockieren unerwünschter E-Mails, das Vermeiden des Anklickens von Links oder des Herunterladens von Anhängen aus unbekannten Quellen und die Verwendung von Webfiltern zum Blockieren des Zugriffs auf bekannte bösartige Websites.
+[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email) können helfen, Social-Engineering-Angriffe zu verhindern, die auf Phishing-Betrug oder andere Formen bösartiger Inhalte beruhen. Dazu gehören die Verwendung von Spam-Filtern zum Blockieren unerwünschter E-Mails, das Vermeiden des Anklickens von Links oder des Herunterladens von Anhängen aus unbekannten Quellen und die Verwendung von Webfiltern zum Blockieren des Zugriffs auf bekannte bösartige Websites.
 
 ### 4. Regelmäßige Sicherheitsupdates und Patches
 

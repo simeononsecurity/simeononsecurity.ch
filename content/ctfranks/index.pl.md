@@ -25,7 +25,7 @@ coverCaption: ""
 		- 2020/10/23 - 2020/10/25
 		- Miejsce w klasyfikacji generalnej: 134 miejsce / 6010
 		- Złota pozycja: 126 miejsce / 680
-	- Drużyna (simeononsecurity.com)
+	- Drużyna (simeononsecurity.ch)
 		- 2020/11/06 - 2020/11/08
 		- Miejsce ogólne: 31 / 957
 		- Złote miejsce: 28 / 121

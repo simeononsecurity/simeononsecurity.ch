@@ -17,15 +17,15 @@ coverCaption: "Eliberează-ți potențialul: Cele mai bune certificări pentru o
 
 ______
 
-## [CompTIA A+](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
+## [CompTIA A+](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
 
 The [**CompTIA A+ certification**](https://www.comptia.org/certifications/a) este un excelent punct de plecare pentru persoanele interesate să urmeze o carieră în domeniul securității cibernetice. Este o certificare neutră din punct de vedere al furnizorului, care validează competențele și cunoștințele de bază în domenii precum hardware, software, rețele și depanare. Punând accentul pe abilitățile practice și practice, această certificare îi echipează pe începători cu competențele necesare pentru a intra în industria IT.
 
 Pentru a obține certificarea CompTIA A+, candidații trebuie să promoveze două examene: **Core 1 (220-1001)** și **Core 2 (220-1002)**. Aceste examene acoperă subiecte cum ar fi depanarea hardware și de rețea, sisteme de operare, dispozitive mobile, virtualizare, cloud computing și noțiuni fundamentale de securitate. Prin obținerea certificării CompTIA A+, începătorii își demonstrează capacitatea de a instala, configura și securiza sistemele informatice, care sunt competențe esențiale în domeniul securității cibernetice.
 
-Pentru teste practice și resurse suplimentare care să vă ajute să vă pregătiți pentru examenele CompTIA A+, puteți vizita [this link](https://simeononsecurity.com/a-plus-practice-test) Această resursă oferă întrebări practice și îndrumări valoroase pentru a vă îmbunătăți pregătirea pentru examen.
+Pentru teste practice și resurse suplimentare care să vă ajute să vă pregătiți pentru examenele CompTIA A+, puteți vizita [this link](https://simeononsecurity.ch/a-plus-practice-test) Această resursă oferă întrebări practice și îndrumări valoroase pentru a vă îmbunătăți pregătirea pentru examen.
 
-Dacă sunteți în căutare de mai multe informații despre cum să treceți examenele CompTIA A+ (220-1001 și 220-1002), puteți consulta pagina noastră [CompTIA A+ Guide](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/) 
+Dacă sunteți în căutare de mai multe informații despre cum să treceți examenele CompTIA A+ (220-1001 și 220-1002), puteți consulta pagina noastră [CompTIA A+ Guide](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/) 
 
 ______
 
@@ -35,7 +35,7 @@ The [**CompTIA Network+ certification**](https://www.comptia.org/certifications/
 
 Prin obținerea certificării CompTIA Network+, persoanele își demonstrează competența în **proiectarea și implementarea rețelelor funcționale, identificarea și atenuarea vulnerabilităților rețelei** și asigurarea **disponibilității, integrității și confidențialității rețelei**. Această certificare este foarte apreciată în industrie și este recunoscută de angajatori ca o validare a cunoștințelor și abilităților de rețea ale candidatului.
 
-Pentru a vă îmbunătăți pregătirea pentru certificarea CompTIA Network+, puteți accesa [this link](https://simeononsecurity.com/network-plus-practice-test) pentru **teste practice** și resurse suplimentare. Această resursă oferă întrebări practice și materiale care să vă ajute să vă consolidați înțelegerea conceptelor de rețea și să vă măriți șansele de succes la examen.
+Pentru a vă îmbunătăți pregătirea pentru certificarea CompTIA Network+, puteți accesa [this link](https://simeononsecurity.ch/network-plus-practice-test) pentru **teste practice** și resurse suplimentare. Această resursă oferă întrebări practice și materiale care să vă ajute să vă consolidați înțelegerea conceptelor de rețea și să vă măriți șansele de succes la examen.
 
 ______
 
@@ -47,7 +47,7 @@ The [**CompTIA Security+ certification**](https://www.comptia.org/certifications
 
 Prin obținerea certificării CompTIA Security+, începătorii își demonstrează înțelegerea conceptelor de securitate și a celor mai bune practici, precum și capacitatea de a evalua și de a reduce riscurile de securitate. Această certificare servește ca o bază solidă pentru avansarea ulterioară în carieră în **securitate cibernetică** și este adesea o condiție prealabilă pentru certificări mai avansate în domeniu.
 
-Pentru a vă îmbunătăți pregătirea pentru certificarea CompTIA Security+, puteți accesa [this link](https://simeononsecurity.com/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/) pentru mai multe informații despre examen și despre ceea ce trebuie să știți pentru a vă pregăti eficient.
+Pentru a vă îmbunătăți pregătirea pentru certificarea CompTIA Security+, puteți accesa [this link](https://simeononsecurity.ch/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/) pentru mai multe informații despre examen și despre ceea ce trebuie să știți pentru a vă pregăti eficient.
 
 ______
 
@@ -67,9 +67,9 @@ The [**Certified Ethical Hacker (CEH)**](https://www.eccouncil.org/programs/cert
 
 Certificarea CEH abordează subiecte precum **imprimare și recunoaștere, scanarea rețelelor, enumerare, hacking de sistem, amenințări malware, inginerie socială** și multe altele. Acesta îi echipează pe începători cu abilitățile necesare pentru a efectua atacuri simulate autorizate pentru a evalua eficacitatea măsurilor de securitate și a identifica domeniile de îmbunătățire.
 
-Dacă sunteți interesat să vă pregătiți pentru examenul de certificare Certified Ethical Hacker (CEH), puteți găsi resurse valoroase și teste practice la adresa [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Această resursă oferă îndrumări cu privire la modul de pregătire pentru examenul de certificare CEH și oferă sfaturi și materiale de studiu pentru a vă ajuta să reușiți.
+Dacă sunteți interesat să vă pregătiți pentru examenul de certificare Certified Ethical Hacker (CEH), puteți găsi resurse valoroase și teste practice la adresa [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Această resursă oferă îndrumări cu privire la modul de pregătire pentru examenul de certificare CEH și oferă sfaturi și materiale de studiu pentru a vă ajuta să reușiți.
 
-În plus, puteți vizita [this link](https://simeononsecurity.com/ceh-practice-test) pentru a accesa un test practic CEH, care vă permite să vă testați cunoștințele și să vă familiarizați cu formatul examenului.
+În plus, puteți vizita [this link](https://simeononsecurity.ch/ceh-practice-test) pentru a accesa un test practic CEH, care vă permite să vă testați cunoștințele și să vă familiarizați cu formatul examenului.
 
 ______
 
@@ -89,7 +89,7 @@ După obținerea unei certificări în domeniul securității cibernetice, înce
 
 Este important ca începătorii să dobândească experiență practică și să continue să învețe pentru a avansa în cariera lor în domeniul securității cibernetice. Este esențial să te ții la curent cu cele mai recente tendințe, tehnologii și reglementări din industrie pentru a rămâne în frunte în acest domeniu care evoluează rapid.
 
-Pentru mai multe informații despre locurile de muncă în domeniul securității cibernetice pentru începători și despre cum să vă pregătiți pentru ele, puteți vizita [this link](https://simeononsecurity.com/cyber-security-career-playbook-start) Această resursă oferă informații despre competențele și calificările necesare pentru posturile de începători și oferă sfaturi despre cum să te remarci pe piața muncii.
+Pentru mai multe informații despre locurile de muncă în domeniul securității cibernetice pentru începători și despre cum să vă pregătiți pentru ele, puteți vizita [this link](https://simeononsecurity.ch/cyber-security-career-playbook-start) Această resursă oferă informații despre competențele și calificările necesare pentru posturile de începători și oferă sfaturi despre cum să te remarci pe piața muncii.
 ______
 
 {{< inarticle-dark >}}

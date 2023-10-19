@@ -14,7 +14,7 @@ coverCaption: "Secure your Python code and data with these best practices."
 
 ## Introduction
 
-Python is a powerful and versatile programming language that is widely used for various purposes, including web development, data analysis, and machine learning. However, like any other software, Python applications are susceptible to security vulnerabilities. In this article, we will discuss [**best practices for Python security**](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) to help you protect your code and data from potential threats.
+Python is a powerful and versatile programming language that is widely used for various purposes, including web development, data analysis, and machine learning. However, like any other software, Python applications are susceptible to security vulnerabilities. In this article, we will discuss [**best practices for Python security**](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) to help you protect your code and data from potential threats.
 
 ______
 
@@ -35,7 +35,7 @@ ______
 
 {{< inarticle-dark >}}
 
-## [Python Security Best Practices](https://simeononsecurity.com/articles/secure-coding-standards-for-python/)
+## [Python Security Best Practices](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/)
 
 To enhance the security of your Python applications, it is essential to follow these best practices:
 

@@ -93,9 +93,9 @@ ______
 通过采取这些步骤，您可以减少个人信息的可访问性，并使个人利用这些信息的难度加大。切记定期监控您的在线状态，确保您的信息安全无虞。
 
 #### 第 3 步的补充阅读
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ ______
 
 #### a. 查看并更新隐私设置
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)您的在线账户，并确保将其设置为最高级别的保护。限制个人信息和帖子的可见度，仅限于信任的朋友或关系人。例如，在 Facebook 等社交媒体平台上，导航至隐私设置，自定义谁可以查看您的个人资料、帖子和个人信息。
+[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)您的在线账户，并确保将其设置为最高级别的保护。限制个人信息和帖子的可见度，仅限于信任的朋友或关系人。例如，在 Facebook 等社交媒体平台上，导航至隐私设置，自定义谁可以查看您的个人资料、帖子和个人信息。
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)尽可能在您的所有在线账户上使用 2FA。2FA 通过要求额外的验证步骤（通常通过移动设备）来访问您的账户，从而增加了一层额外的安全性。谷歌、Facebook 和 Twitter 等服务都提供 2FA 选项。请按照相应平台提供的说明启用它。
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)尽可能在您的所有在线账户上使用 2FA。2FA 通过要求额外的验证步骤（通常通过移动设备）来访问您的账户，从而增加了一层额外的安全性。谷歌、Facebook 和 Twitter 等服务都提供 2FA 选项。请按照相应平台提供的说明启用它。
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-创建 [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的每个在线账户设置密码。**避免使用通用密码或在多个平台上重复使用密码。**考虑使用**密码管理器**来安全地存储和管理你的密码。LastPass、Dashlane 或 1Password 等密码管理器可为您生成和存储复杂的密码。
+创建 [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)为您的每个在线账户设置密码。**避免使用通用密码或在多个平台上重复使用密码。**考虑使用**密码管理器**来安全地存储和管理你的密码。LastPass、Dashlane 或 1Password 等密码管理器可为您生成和存储复杂的密码。
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)在公共平台上或与陌生人交谈。在填写在线表格或与陌生人交谈时，**要谨慎**。在提供任何个人信息之前，请核实网站或平台的合法性和安全性。例如，**避免在公共论坛或在线社区**您的完整地址或电话号码。
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)在公共平台上或与陌生人交谈。在填写在线表格或与陌生人交谈时，**要谨慎**。在提供任何个人信息之前，请核实网站或平台的合法性和安全性。例如，**避免在公共论坛或在线社区**您的完整地址或电话号码。
 
 #### e. 定期更新软件并使用杀毒软件
 

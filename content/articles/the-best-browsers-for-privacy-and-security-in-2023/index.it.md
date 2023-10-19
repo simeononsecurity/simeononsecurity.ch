@@ -83,6 +83,6 @@ ______
 
 La scelta del browser giusto per la privacy e la sicurezza è fondamentale per proteggere la propria attività online. Brave, Firefox e Tor Browser offrono tutti soluzioni robuste che soddisfano le diverse preferenze ed esigenze degli utenti. Combinando un browser sicuro con strumenti aggiuntivi per la privacy come VPN, gestori di password e chiavi hardware, è possibile migliorare ulteriormente la sicurezza e la privacy online.
 
-Per saperne di più sulla privacy e la sicurezza online, esplorate il nostro sito[collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) sull'argomento e rimanere aggiornati sulle ultime novità e tendenze.
+Per saperne di più sulla privacy e la sicurezza online, esplorate il nostro sito[collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) sull'argomento e rimanere aggiornati sulle ultime novità e tendenze.
 
 

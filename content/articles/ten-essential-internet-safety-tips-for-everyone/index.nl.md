@@ -20,15 +20,15 @@ Voordat we ingaan op de tips, is het cruciaal om te begrijpen waarom internetvei
 
 #### De risico's van online zijn
 
-Telkens als je online gaat, loop je het risico om het slachtoffer te worden van online oplichting, datalekken of andere cyberbedreigingen. Enkele van de risico's zijn **onbewust kwaadaardige software downloaden, je persoonlijke gegevens aan hackers geven, je inlaten met frauduleuze websites**, en nog veel meer. Helaas zijn de risico's niet beperkt tot volwassenen; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Daarom is het cruciaal om te weten hoe je jezelf en je dierbaren kunt beschermen als je online diensten gebruikt.
+Telkens als je online gaat, loop je het risico om het slachtoffer te worden van online oplichting, datalekken of andere cyberbedreigingen. Enkele van de risico's zijn **onbewust kwaadaardige software downloaden, je persoonlijke gegevens aan hackers geven, je inlaten met frauduleuze websites**, en nog veel meer. Helaas zijn de risico's niet beperkt tot volwassenen; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Daarom is het cruciaal om te weten hoe je jezelf en je dierbaren kunt beschermen als je online diensten gebruikt.
 
 Eén manier om jezelf te beschermen tegen online oplichting is om voorzichtig te zijn bij het openen van **emails van onbekende afzenders**. Deze e-mails kunnen phishing-links bevatten waarmee je persoonlijke gegevens gestolen kunnen worden. Het is ook belangrijk om voorzichtig te zijn met het downloaden van software van het internet. Sommige software kan malware bevatten die je apparaat kan beschadigen of je gegevens kan stelen.
 
-Een ander risico van online zijn is [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Cyberpesten kan ernstige gevolgen hebben voor iemands geestelijke gezondheid en welzijn. Het is essentieel om met je kinderen te praten over de gevaren van cyberpesten en hoe je dit kunt melden.
+Een ander risico van online zijn is [**cyberbullying**](https://simeononsecurity.ch/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Cyberpesten kan ernstige gevolgen hebben voor iemands geestelijke gezondheid en welzijn. Het is essentieel om met je kinderen te praten over de gevaren van cyberpesten en hoe je dit kunt melden.
 
 #### Uw persoonlijke gegevens beschermen
 
-Uw persoonlijke gegevens zijn waardevol en moeten worden beschermd. Maak er een gewoonte van om [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) en wees voorzichtig met het delen van uw informatie online. Vermijd het delen van gevoelige gegevens, zoals uw **Sociale zekerheidsnummer, creditcardnummers en huisadressen**. Gebruik legitieme websites met **SSL-certificaten** om ervoor te zorgen dat uw gegevens worden versleuteld voordat ze worden verzonden.
+Uw persoonlijke gegevens zijn waardevol en moeten worden beschermd. Maak er een gewoonte van om [**strong passwords, enable two-factor authentication**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) en wees voorzichtig met het delen van uw informatie online. Vermijd het delen van gevoelige gegevens, zoals uw **Sociale zekerheidsnummer, creditcardnummers en huisadressen**. Gebruik legitieme websites met **SSL-certificaten** om ervoor te zorgen dat uw gegevens worden versleuteld voordat ze worden verzonden.
 
 Het is ook belangrijk om **uw software en apparaten up-to-date te houden**. Software-updates bevatten vaak beveiligingspatches die uw apparaat kunnen beschermen tegen cyberaanvallen. Wees daarnaast voorzichtig met het gebruik van openbare Wi-Fi-netwerken. Openbare Wi-Fi-netwerken zijn vaak onbeveiligd, wat betekent dat je gegevens kunnen worden onderschept door cybercriminelen.
 
@@ -48,13 +48,13 @@ Verouderde software is een van de meest voorkomende manieren waarop hackers toeg
 
 #### Gebruik sterke wachtwoorden en twee-factor authenticatie
 
-Maak [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Gebruik een mix van hoofdletters, kleine letters, cijfers en symbolen. Probeer minstens 12 tekens te gebruiken. Tweefactorauthenticatie voegt een extra beschermingslaag toe door je te vragen een extra code op te geven die je via sms of e-mail ontvangt voordat je toegang krijgt tot je account.
+Maak [**unique, strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Gebruik een mix van hoofdletters, kleine letters, cijfers en symbolen. Probeer minstens 12 tekens te gebruiken. Tweefactorauthenticatie voegt een extra beschermingslaag toe door je te vragen een extra code op te geven die je via sms of e-mail ontvangt voordat je toegang krijgt tot je account.
 
 Het gebruik van zwakke wachtwoorden is een van de makkelijkste manieren voor hackers om toegang te krijgen tot je accounts en persoonlijke gegevens. Door sterke wachtwoorden te maken en tweefactorauthenticatie in te schakelen, kun je het risico dat je accounts worden gehackt aanzienlijk verkleinen.
 
 #### Beveilig uw Wi-Fi-netwerk
 
-Gebruik [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) om je Wi-Fi-netwerk te beveiligen om ongeautoriseerde toegang tot je apparaten en gegevens te voorkomen. Gebruik geen standaardwachtwoorden, aangezien deze gemakkelijk te hacken zijn.
+Gebruik [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) om je Wi-Fi-netwerk te beveiligen om ongeautoriseerde toegang tot je apparaten en gegevens te voorkomen. Gebruik geen standaardwachtwoorden, aangezien deze gemakkelijk te hacken zijn.
 
 Je Wi-Fi-netwerk is de toegangspoort tot je apparaten en gegevens. Door je Wi-Fi-netwerk te beveiligen met een sterk wachtwoord voorkom je onbevoegde toegang tot je netwerk en bescherm je je apparaten en gegevens tegen **cyberbedreigingen**.
 
@@ -70,11 +70,11 @@ Door de activiteit op je netwerk te monitoren, kun je snel **ongebruikelijke act
 
 In het huidige digitale tijdperk zijn e-mails en berichten een veelgebruikte manier van communicatie geworden. Het is echter belangrijk om voorzichtig te zijn met het delen van persoonlijke gegevens via deze media. **Cybercriminelen** zijn altijd op zoek naar manieren om persoonlijke informatie te stelen en e-mails en berichten zijn een van de makkelijkste manieren om dat te doen.
 
-[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) zijn een veelgebruikte manier voor cybercriminelen om persoonlijke informatie te verkrijgen. Deze zwendelpraktijken laten je denken dat je communiceert met een legitiem contact of een legitieme organisatie en vragen je om gevoelige informatie te verstrekken. De e-mails of berichten zien er misschien echt uit, maar ze zijn ontworpen om je persoonlijke gegevens te stelen. Daarom is het belangrijk om op je hoede te zijn voor dergelijke zwendelpraktijken en geen persoonlijke informatie te delen via e-mails of berichten.
+[**Phishing scams**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) zijn een veelgebruikte manier voor cybercriminelen om persoonlijke informatie te verkrijgen. Deze zwendelpraktijken laten je denken dat je communiceert met een legitiem contact of een legitieme organisatie en vragen je om gevoelige informatie te verstrekken. De e-mails of berichten zien er misschien echt uit, maar ze zijn ontworpen om je persoonlijke gegevens te stelen. Daarom is het belangrijk om op je hoede te zijn voor dergelijke zwendelpraktijken en geen persoonlijke informatie te delen via e-mails of berichten.
 
-#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [Identifying Phishing Scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) kunnen lastig te herkennen zijn, maar er zijn een paar dingen die je kunt doen om jezelf te beschermen. Controleer ten eerste het e-mailadres van de afzender. Als het er **verdacht of onbekend** uitziet, reageer dan niet op de e-mail. Ten tweede, **beweeg over alle links** in de e-mail om te zien waar ze naartoe leiden voordat u erop klikt. Als de link er verdacht uitziet, klik er dan niet op. Ten slotte, als u niet zeker bent over de legitimiteit van een e-mail of bericht, neem dan rechtstreeks contact op met de organisatie of persoon om te bevestigen of zij de e-mail hebben verzonden.
+[Phishing scams](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) kunnen lastig te herkennen zijn, maar er zijn een paar dingen die je kunt doen om jezelf te beschermen. Controleer ten eerste het e-mailadres van de afzender. Als het er **verdacht of onbekend** uitziet, reageer dan niet op de e-mail. Ten tweede, **beweeg over alle links** in de e-mail om te zien waar ze naartoe leiden voordat u erop klikt. Als de link er verdacht uitziet, klik er dan niet op. Ten slotte, als u niet zeker bent over de legitimiteit van een e-mail of bericht, neem dan rechtstreeks contact op met de organisatie of persoon om te bevestigen of zij de e-mail hebben verzonden.
 
 #### Vermijd het klikken op verdachte koppelingen
 
@@ -120,11 +120,11 @@ Zelfs als u op veilige websites winkelt, bestaat er altijd een risico op fraude.
 
 De meeste banken en creditcardmaatschappijen hebben **fraudedetectiesystemen** die u kunnen waarschuwen bij verdachte activiteiten. Het blijft echter belangrijk om uw afschriften in de gaten te houden en ongeautoriseerde transacties zo snel mogelijk te melden.
 
-#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### [Use Strong Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Een andere manier om je financiële informatie te beschermen is het gebruik van [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Gebruik niet hetzelfde wachtwoord voor meerdere accounts en gebruik geen makkelijk te raden wachtwoorden zoals "123456" of "wachtwoord". Gebruik in plaats daarvan een combinatie van letters, cijfers en symbolen om een sterk, uniek wachtwoord te maken voor elke account.
+Een andere manier om je financiële informatie te beschermen is het gebruik van [**strong passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Gebruik niet hetzelfde wachtwoord voor meerdere accounts en gebruik geen makkelijk te raden wachtwoorden zoals "123456" of "wachtwoord". Gebruik in plaats daarvan een combinatie van letters, cijfers en symbolen om een sterk, uniek wachtwoord te maken voor elke account.
 
-Overweeg het gebruik van een [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) om je te helpen sterke wachtwoorden te maken en op te slaan. Wachtwoordbeheerders kunnen willekeurige wachtwoorden voor je genereren en ze veilig opslaan zodat je ze niet hoeft te onthouden.
+Overweeg het gebruik van een [**password manager**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/) om je te helpen sterke wachtwoorden te maken en op te slaan. Wachtwoordbeheerders kunnen willekeurige wachtwoorden voor je genereren en ze veilig opslaan zodat je ze niet hoeft te onthouden.
 
 #### Conclusie
 
@@ -140,13 +140,13 @@ Hier zijn enkele tips om u te helpen veilig te blijven:
 * Schakel waar mogelijk **twee-factor authenticatie** in
 * Wees voorzichtig met **verdachte e-mails, links en bijlagen**.
 * Houd uw software en besturingssysteem **up-to-date**.
-* Gebruik [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) en een **firewall**
+* Gebruik [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) en een **firewall**
 
 #### Blijf op de hoogte van online bedreigingen
 
 Het is belangrijk om op de hoogte te blijven van de nieuwste **veiligheidsbedreigingen** en kwetsbaarheden om uzelf en uw gezin te beschermen. Cybercriminelen bedenken voortdurend nieuwe tactieken om persoonlijke informatie te stelen, apparaten te infecteren met **malware** en mensen op te lichten.
 
-U kunt op de hoogte blijven door gerenommeerde **beveiligingsblogs** en nieuwsberichten te volgen en door u te abonneren op beveiligingswaarschuwingen van uw [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
+U kunt op de hoogte blijven door gerenommeerde **beveiligingsblogs** en nieuwsberichten te volgen en door u te abonneren op beveiligingswaarschuwingen van uw [**antivirus software provider**](https://simeononsecurity.ch/recommendations/anti-virus/)
 
 #### Kinderen leren over internetveiligheid
 
@@ -163,23 +163,23 @@ Door deze tips te volgen, kunt u uzelf en uw gezin beschermen tegen online bedre
 
 ### Gebruik betrouwbare beveiligingssoftware
 
-Installeer [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) om uw netwerk te beveiligen en ongeautoriseerde toegang tot uw gegevens te voorkomen.
+Installeer [**reliable anti-virus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) om uw netwerk te beveiligen en ongeautoriseerde toegang tot uw gegevens te voorkomen.
 
-Met de steeds toenemende hoeveelheid **cyberbedreigingen** is het belangrijk om ervoor te zorgen dat je apparaten beschermd zijn met betrouwbare beveiligingssoftware. installeren [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) en **anti-malware software** op je apparaten is een cruciale stap in het beschermen van je persoonlijke en gevoelige informatie. Deze softwareprogramma's zijn ontworpen om schadelijke software die je computer kan beschadigen en je gegevens kan stelen, te detecteren, voorkomen en verwijderen.
+Met de steeds toenemende hoeveelheid **cyberbedreigingen** is het belangrijk om ervoor te zorgen dat je apparaten beschermd zijn met betrouwbare beveiligingssoftware. installeren [**antivirus**](https://simeononsecurity.ch/recommendations/anti-virus/) en **anti-malware software** op je apparaten is een cruciale stap in het beschermen van je persoonlijke en gevoelige informatie. Deze softwareprogramma's zijn ontworpen om schadelijke software die je computer kan beschadigen en je gegevens kan stelen, te detecteren, voorkomen en verwijderen.
 
-**Firewalls** en [**VPN services**](https://simeononsecurity.com/recommendations/vpns) zijn ook essentiële hulpmiddelen bij het beveiligen van je netwerk. Firewalls fungeren als een barrière tussen je apparaat en het internet, blokkeren ongewenst verkeer en voorkomen dat hackers toegang krijgen tot je netwerk. VPN-diensten daarentegen creëren een veilige, versleutelde verbinding tussen je apparaat en het internet, en bieden zo een extra beschermingslaag tegen cyberbedreigingen.
+**Firewalls** en [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) zijn ook essentiële hulpmiddelen bij het beveiligen van je netwerk. Firewalls fungeren als een barrière tussen je apparaat en het internet, blokkeren ongewenst verkeer en voorkomen dat hackers toegang krijgen tot je netwerk. VPN-diensten daarentegen creëren een veilige, versleutelde verbinding tussen je apparaat en het internet, en bieden zo een extra beschermingslaag tegen cyberbedreigingen.
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
+#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.ch/recommendations/anti-virus/)
 
-Gebruik [antivirus](https://simeononsecurity.com/recommendations/anti-virus/) en anti-malware software om je computer te beschermen tegen **virussen, malware** en andere cyberbedreigingen. Deze softwareprogramma's kunnen kwaadaardige software detecteren en verwijderen die je computer kan beschadigen en je gegevens in gevaar kan brengen. Het is belangrijk om deze programma's **up-to-date** te houden en regelmatig scans uit te voeren om ervoor te zorgen dat je apparaat beschermd is.
+Gebruik [antivirus](https://simeononsecurity.ch/recommendations/anti-virus/) en anti-malware software om je computer te beschermen tegen **virussen, malware** en andere cyberbedreigingen. Deze softwareprogramma's kunnen kwaadaardige software detecteren en verwijderen die je computer kan beschadigen en je gegevens in gevaar kan brengen. Het is belangrijk om deze programma's **up-to-date** te houden en regelmatig scans uit te voeren om ervoor te zorgen dat je apparaat beschermd is.
 
 Enkele populaire antivirus- en antimalwaresoftwareprogramma's zijn **Norton, McAfee en Avast**. Deze programma's bieden **real-time bescherming** tegen cyberbedreigingen, **automatische updates** en andere functies die kunnen helpen om je apparaat veilig te houden.
 
 #### Firewall- en VPN-services
 
-Een **firewall** en [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns) Bescherm je netwerk tegen malware en ongeautoriseerde toegang door een veilig privénetwerk op te zetten binnen een openbaar netwerk. Firewalls bewaken en controleren inkomend en uitgaand netwerkverkeer, terwijl VPN's je internetverbinding versleutelen en je IP-adres verbergen, waardoor het voor hackers moeilijk wordt om je gegevens te onderscheppen.
+Een **firewall** en [**VPN (Virtual Private Network)**](https://simeononsecurity.ch/recommendations/vpns) Bescherm je netwerk tegen malware en ongeautoriseerde toegang door een veilig privénetwerk op te zetten binnen een openbaar netwerk. Firewalls bewaken en controleren inkomend en uitgaand netwerkverkeer, terwijl VPN's je internetverbinding versleutelen en je IP-adres verbergen, waardoor het voor hackers moeilijk wordt om je gegevens te onderscheppen.
 
-Er zijn veel **firewall** en [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
+Er zijn veel **firewall** en [**VPN services**](https://simeononsecurity.ch/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.ch/recommendations/vpns)
 
 Door **betrouwbare beveiligingssoftware** te gebruiken, kun je je apparaten en netwerken beschermen tegen cyberbedreigingen en ervoor zorgen dat je persoonlijke en gevoelige informatie veilig blijft.
 
@@ -195,11 +195,11 @@ Daarom is het belangrijk om **het inloggen op persoonlijke diensten** op onbevei
 
 Daarnaast is het belangrijk om voorzichtig te zijn met het gebruik van openbare computers voor gevoelige transacties. Op deze computers kunnen **keyloggers** of andere malware geïnstalleerd zijn, die je toetsaanslagen kunnen vastleggen en je persoonlijke gegevens kunnen stelen.
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
+#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.ch/recommendations/vpns)
 
 Een **VPN**, of **virtual private network**, is een beveiligingshulpmiddel dat je internetverbinding versleutelt en je IP-adres verbergt. Dit maakt het hackers moeilijk om je gegevens te onderscheppen en beschermt je apparaat tegen mogelijke aanvallen.
 
-Wanneer je openbare Wi-Fi gebruikt, is het sterk aanbevolen om een [**VPN service**](https://simeononsecurity.com/recommendations/vpns) om je gegevens te versleutelen. Dit zorgt ervoor dat je persoonlijke gegevens veilig blijven, zelfs als het netwerk onbeveiligd is. Veel VPN-diensten zijn gratis of tegen een kleine vergoeding beschikbaar en ze zijn eenvoudig te installeren en te gebruiken op je apparaat.
+Wanneer je openbare Wi-Fi gebruikt, is het sterk aanbevolen om een [**VPN service**](https://simeononsecurity.ch/recommendations/vpns) om je gegevens te versleutelen. Dit zorgt ervoor dat je persoonlijke gegevens veilig blijven, zelfs als het netwerk onbeveiligd is. Veel VPN-diensten zijn gratis of tegen een kleine vergoeding beschikbaar en ze zijn eenvoudig te installeren en te gebruiken op je apparaat.
 
 In het algemeen is het belangrijk om voorzichtig te zijn wanneer je openbare Wi-Fi gebruikt en de nodige voorzorgsmaatregelen te nemen om je gegevens te beschermen. Door een **VPN-service** te gebruiken en onbeveiligde netwerken te vermijden, kun je verbonden blijven terwijl je persoonlijke gegevens veilig zijn.
 

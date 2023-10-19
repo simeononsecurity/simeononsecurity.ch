@@ -22,7 +22,7 @@ Bitpingを始めるには、以下のページでアカウントを作成する�
 
 ### Dockerのインストール
 
-学ぶ [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+学ぶ [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 ### Dockerコンテナをインストールする
 
@@ -64,7 +64,7 @@ docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitpin
 
 詳細な情報および詳細なドキュメントについては、以下のサイトをご覧ください。 [Bitping website](https://bitping.com)と、その公式リソースを参照することができます。
 
-一度、以下のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+一度、以下のことを行ってください。 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 **参考文献：**1
 

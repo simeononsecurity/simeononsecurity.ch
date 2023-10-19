@@ -67,4 +67,4 @@ ______
 - CIPM - Certified Information Privacy Manager： [https://iapp.org/certify/cipm/](https://iapp.org/certify/cipm/)
 - CISM - Certified Information Security Managerの略： [https://www.isaca.org/credentialing/cism](https://www.isaca.org/credentialing/cism)
 - CIPP/US - Certified Information Privacy Professional/United States（米国）： [https://iapp.org/certify/cipp/united-states/](https://iapp.org/certify/cipp/united-states/)
-- SimeonOnSecurity - 政府・軍関係者向けのサイバーセキュリティのトップ認定資格 [https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.com/articles/cybersecurity-certifications-for-government-and-military-profesionals/)
+- SimeonOnSecurity - 政府・軍関係者向けのサイバーセキュリティのトップ認定資格 [https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/](https://simeononsecurity.ch/articles/cybersecurity-certifications-for-government-and-military-profesionals/)

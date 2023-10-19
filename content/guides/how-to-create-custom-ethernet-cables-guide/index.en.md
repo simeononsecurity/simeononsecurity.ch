@@ -253,4 +253,4 @@ ______
 
 Creating custom Ethernet cables is a rewarding DIY project, and it allows you to have full control over your network setup. Whether you're a tech enthusiast or need cables for specific applications, this guide will walk you through the process step by step. Don't hesitate to explore the world of custom Ethernet cables and enhance your networking capabilities.
 
-Lastly, if you've made it this far, you might be interested in reading our guide on [Setting up a Ubiquiti Unifi Home Network](https://simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/).
+Lastly, if you've made it this far, you might be interested in reading our guide on [Setting up a Ubiquiti Unifi Home Network](https://simeononsecurity.ch/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/).

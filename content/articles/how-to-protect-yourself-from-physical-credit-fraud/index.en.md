@@ -44,7 +44,7 @@ To protect yourself from this type of fraud:
 
 ### Additional Tip: Consider RFID Blocking Wallets
 
-To protect yourself, get an actual **RFID blocking wallet**. [Silent pocket](https://amzn.to/421J6o6) is the only brand recommended. Most "RFID Blocking" wallets are a complete scam. simeononsecurity.com personally tested hundreds of wallets and supposed rfid blocking devices. Silent pocket is legit.
+To protect yourself, get an actual **RFID blocking wallet**. [Silent pocket](https://amzn.to/421J6o6) is the only brand recommended. Most "RFID Blocking" wallets are a complete scam. simeononsecurity.ch personally tested hundreds of wallets and supposed rfid blocking devices. Silent pocket is legit.
 
 ## Chip Technology
 

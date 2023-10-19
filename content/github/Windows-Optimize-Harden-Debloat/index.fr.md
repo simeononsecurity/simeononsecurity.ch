@@ -175,7 +175,7 @@ Si vous avez besoin de modifier ou de changer un paramètre, ils sont très prob
 ### GUI - Installation guidée :
 
 Téléchargez la dernière version[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)choisissez les options que vous voulez et appuyez sur exécuter. <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Exemple d&#39;installation guidée basée sur l&#39;interface graphique Windows-Optimize-Harden-Debloat"> ### Installation automatisée : utilisez cette ligne pour télécharger automatiquement, décompressez tous les fichiers de prise en charge et exécutez la dernière version du script.```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

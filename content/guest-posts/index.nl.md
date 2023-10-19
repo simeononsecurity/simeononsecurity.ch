@@ -11,11 +11,11 @@ coverCaption: "Deel je expertise en inzichten met onze community door te gastblo
 
 Bedankt voor je interesse om bij te dragen aan onze website! We verwelkomen gastblogs die aansluiten bij onze inhoudelijke focus. Volg deze stappen om een artikel in te dienen:
 
-1. Neem contact met ons op via het webformulier op [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) om je interesse in gastbloggen te tonen.
+1. Neem contact met ons op via het webformulier op [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) om je interesse in gastbloggen te tonen.
 
 2. Bereid je artikel voor in Markdown (md) of HTML-formaat.
 
-3. Dien een pull request in op onze GitHub repository op [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
+3. Dien een pull request in op onze GitHub repository op [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
 
 4. Zorg ervoor dat je artikel geldige frontmatter (metadata) bevat met alle vereiste variabelen, zoals in het onderstaande voorbeeld:
 
@@ -122,7 +122,7 @@ Gastbloggen is een wederzijds voordelige regeling waarbij schrijvers de kans kri
 
 - Wij waarderen uw begrip en medewerking bij het volgen van deze richtlijnen om de kwaliteit en relevantie van de inhoud op SimeonOnSecurity te behouden.
 
-We kijken ernaar uit om uw waardevolle bijdragen te ontvangen en u te helpen een breder publiek te bereiken met uw inzichten. Als u nog vragen of verduidelijkingen heeft, aarzel dan niet om contact met ons op te nemen via de [webform](https://simeononsecurity.com/contactus/)
+We kijken ernaar uit om uw waardevolle bijdragen te ontvangen en u te helpen een breder publiek te bereiken met uw inzichten. Als u nog vragen of verduidelijkingen heeft, aarzel dan niet om contact met ons op te nemen via de [webform](https://simeononsecurity.ch/contactus/)
 
 ***Veel schrijfplezier!
 

@@ -50,17 +50,17 @@ coverCaption: ""
 
 ダークウェブやサイバー犯罪から身を守るには、リスクを軽減するための積極的な対策が必要です。ここでは、自分自身を守るために必要ないくつかのステップを紹介します：
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)個人情報をオンラインで共有する場合は、慎重に行い、見慣れない、または信頼できない情報源に機密情報を提供することは控える。氏名、住所、社会保障番号、その他の個人を特定できる情報を保護する。
+[**1. Be cautious with personal information:**](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)個人情報をオンラインで共有する場合は、慎重に行い、見慣れない、または信頼できない情報源に機密情報を提供することは控える。氏名、住所、社会保障番号、その他の個人を特定できる情報を保護する。
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)すべてのオンラインアカウントに、強力でユニークなパスワードを使用する。万が一の情報漏えいを防ぐため、複数のプラットフォームでパスワードを再利用しないようにしましょう。
+[**2. Use strong and unique passwords:**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)すべてのオンラインアカウントに、強力でユニークなパスワードを使用する。万が一の情報漏えいを防ぐため、複数のプラットフォームでパスワードを再利用しないようにしましょう。
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)オペレーティングシステム、ウェブブラウザ、アンチウイルスプログラムなどのソフトウェアを定期的に更新する。これらのアップデートには、脆弱性に対処し、新たなサイバー脅威から保護するためのセキュリティパッチが含まれていることが多い。
+[**3. Keep software up to date:**](https://simeononsecurity.ch/articles/best-practices-for-installing-security-patches-on-windows/)オペレーティングシステム、ウェブブラウザ、アンチウイルスプログラムなどのソフトウェアを定期的に更新する。これらのアップデートには、脆弱性に対処し、新たなサイバー脅威から保護するためのセキュリティパッチが含まれていることが多い。
 
 **4.安全なブラウジングを実践する：** 訪問するウェブサイトを見極め、電子メールや見知らぬウェブサイトのリンクをクリックすることは控える。個人情報や金銭的な情報を共有する前に、信頼できる情報源に固執し、ウェブサイトの正当性を確認する。
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/)ファイアウォールを利用してネットワークの入出力を制御し、信頼性の高いアンチウイルスソフトウェアを導入して、デバイスからマルウェアや疑わしい活動を検出・除去します。
+[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus/)ファイアウォールを利用してネットワークの入出力を制御し、信頼性の高いアンチウイルスソフトウェアを導入して、デバイスからマルウェアや疑わしい活動を検出・除去します。
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)重要なデータやファイルのバックアップを定期的に作成しましょう。これにより、コンピュータが危険にさらされたり、データが盗まれたりしても、情報を復元することができ、潜在的なサイバー攻撃の影響を最小限に抑えることができます。
+[**6. Regularly back up your data:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)重要なデータやファイルのバックアップを定期的に作成しましょう。これにより、コンピュータが危険にさらされたり、データが盗まれたりしても、情報を復元することができ、潜在的なサイバー攻撃の影響を最小限に抑えることができます。
 
 ## 政府の規制と取り組み
 

@@ -24,6 +24,6 @@ Het is belangrijk om in gedachten te houden dat **het verwijderen van uw informa
 
 _________________________
 
-Kortom, **het verwijderen van uw informatie van online gegevensmakelaars** is een belangrijke stap in het waarborgen van uw online privacy en veiligheid. Door zelf te bepalen welke informatie over u online beschikbaar is, kunt u het risico van identiteitsdiefstal, stalking en andere privacy-gerelateerde problemen tot een minimum beperken. Voor meer specifieke begeleiding bij het verwijderen van uw informatie van online gegevensmakelaars, kunt u de beschikbare bronnen raadplegen op[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.com/recommendations/privacy/](https://simeononsecurity.com/recommendations/privacy/)
+Kortom, **het verwijderen van uw informatie van online gegevensmakelaars** is een belangrijke stap in het waarborgen van uw online privacy en veiligheid. Door zelf te bepalen welke informatie over u online beschikbaar is, kunt u het risico van identiteitsdiefstal, stalking en andere privacy-gerelateerde problemen tot een minimum beperken. Voor meer specifieke begeleiding bij het verwijderen van uw informatie van online gegevensmakelaars, kunt u de beschikbare bronnen raadplegen op[https://inteltechniques.com/data/workbook.pdf](https://inteltechniques.com/data/workbook.pdf) and [https://simeononsecurity.ch/recommendations/privacy/](https://simeononsecurity.ch/recommendations/privacy/)
 
 

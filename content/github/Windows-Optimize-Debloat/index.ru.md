@@ -59,7 +59,7 @@ Windows 10 и 11 - это инвазивные и небезопасные оп�
 ### Автоматическая установка:
 Скрипт может быть запущен из распакованной загрузки с GitHub следующим образом:
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeanddebloat.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
 ### Установка вручную:
 При ручной загрузке скрипт должен быть запущен из административного powershell в директории, содержащей все файлы из файла [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Debloat)

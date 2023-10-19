@@ -22,7 +22,7 @@ Pentru a începe, creați-vă un cont la [traffmonetizer.com](https://traffmonet
 ### Instalați containerul Docker
 Urmați acești pași pentru a instala containerul Docker Traff Monetizer:
 
-0. Aflați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Aflați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Copiați următorul șir de caractere și adăugați token-ul obținut din tabloul de bord:
 ```bash
@@ -36,7 +36,7 @@ Pentru instrucțiuni mai detaliate, consultați [Traff Monetizer documentation](
 
 Prin instalarea Traff Monetizer și partajarea internetului, aveți posibilitatea de a câștiga bani online. Cu un câștig mediu lunar de aproximativ 2 dolari pe nodul per IP, acesta prezintă o sursă potențială de venit. Rețineți că plățile sunt disponibile doar în BTC. Începeți să vă monetizați conexiunea la internet chiar astăzi!
 
-Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referință
 

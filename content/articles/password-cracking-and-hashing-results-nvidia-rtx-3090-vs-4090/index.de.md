@@ -22,13 +22,13 @@ Bevor wir uns dem Vergleich widmen, ist es wichtig, einige Grundlagen des Passwo
 
 Die NVIDIA RTX 3090 ist eine leistungsstarke Grafikkarte, die für Spiele und professionelle Anwendungen wie maschinelles Lernen und wissenschaftliche Simulationen entwickelt wurde. Sie basiert auf der Ampere-Architektur und verfügt über 10496 CUDA-Kerne, 328 Tensor-Kerne und 112 RT-Kerne. Außerdem verfügt sie über 24 GB GDDR6X-Speicher und eine Speicherbandbreite von 936 GB/s.
 
-In Benchmarks zum Knacken von Passwörtern, die von simeononsecurity.com durchgeführt wurden, konnte der RTX 3090 ein einfaches Passwort mit acht Zeichen in 120 Sekunden und ein komplexes Passwort mit acht Zeichen in 1200 Sekunden knacken. Für ein einfaches Passwort mit zwölf Zeichen stieg die Zeit auf 12000 Sekunden und für ein komplexes Passwort mit zwölf Zeichen weiter auf 120000 Sekunden.
+In Benchmarks zum Knacken von Passwörtern, die von simeononsecurity.ch durchgeführt wurden, konnte der RTX 3090 ein einfaches Passwort mit acht Zeichen in 120 Sekunden und ein komplexes Passwort mit acht Zeichen in 1200 Sekunden knacken. Für ein einfaches Passwort mit zwölf Zeichen stieg die Zeit auf 12000 Sekunden und für ein komplexes Passwort mit zwölf Zeichen weiter auf 120000 Sekunden.
 
 ## NVIDIA RTX 4090
 
 Die NVIDIA RTX 4090 ist der Nachfolger der RTX 3090 und die derzeit leistungsstärkste Grafikkarte auf dem Markt. Sie verfügt über dieselbe Ampere-Architektur wie die RTX 3090, bietet aber fast doppelt so viel Rohleistung wie die 3090.
 
-In Benchmarks zum Knacken von Passwörtern, die von simeononsecurity.com durchgeführt wurden, konnte die RTX 4090 ein einfaches Passwort mit acht Zeichen in 60 Sekunden und ein komplexes Passwort mit acht Zeichen in 600 Sekunden knacken. Für ein einfaches Passwort mit zwölf Zeichen stieg die Zeit auf 6000 Sekunden und für ein komplexes Passwort mit zwölf Zeichen weiter auf 60000 Sekunden.
+In Benchmarks zum Knacken von Passwörtern, die von simeononsecurity.ch durchgeführt wurden, konnte die RTX 4090 ein einfaches Passwort mit acht Zeichen in 60 Sekunden und ein komplexes Passwort mit acht Zeichen in 600 Sekunden knacken. Für ein einfaches Passwort mit zwölf Zeichen stieg die Zeit auf 6000 Sekunden und für ein komplexes Passwort mit zwölf Zeichen weiter auf 60000 Sekunden.
 
 ## Benchmarks
 
@@ -49,7 +49,7 @@ Passwortlänge | Komplexität | RTX 3090 (Sekunden) | RTX 4090 (Sekunden)
 
 Die Ergebnisse unserer Benchmarks zeigen, dass der **RTX 4090** ein leistungsstarkes Werkzeug zum Knacken von Passwörtern ist. Dies bedeutet, dass es Angreifern nun möglich ist, Passwörter viel schneller als je zuvor zu knacken.
 
-Dies ist ein ernsthaftes Sicherheitsproblem, da es bedeutet, dass Angreifer nun viel leichter Zugang zu Konten und Systemen erhalten können. Um sich vor Angriffen zum Knacken von Passwörtern zu schützen, sollten Sie Folgendes verwenden [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) um Sie bei der Erstellung und Speicherung sicherer Kennwörter zu unterstützen.
+Dies ist ein ernsthaftes Sicherheitsproblem, da es bedeutet, dass Angreifer nun viel leichter Zugang zu Konten und Systemen erhalten können. Um sich vor Angriffen zum Knacken von Passwörtern zu schützen, sollten Sie Folgendes verwenden [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) um Sie bei der Erstellung und Speicherung sicherer Kennwörter zu unterstützen.
 
 ## Fazit
 

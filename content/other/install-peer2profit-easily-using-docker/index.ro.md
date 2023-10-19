@@ -22,7 +22,7 @@ Pentru a începe, creați un cont la [peer2profit.com](https://peer2profit.com/)
 ### Instalați containerul Docker:
 Urmați acești pași pentru a instala containerul Docker Peer 2 Profit:
 
-0. Aflați [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Aflați [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Deschideți terminalul și introduceți următoarea comandă, înlocuind "your_email_without_quotes" cu adresa dvs. de e-mail reală:
 ```bash
@@ -41,7 +41,7 @@ Pentru un ghid vizual, puteți viziona următorul tutorial video:
 ## Concluzie
 Prin instalarea Peer 2 Profit și partajarea internetului, aveți posibilitatea de a câștiga venituri pasive fără efort. Cu interfața sa prietenoasă și multiplele opțiuni de plată, Peer 2 Profit oferă o modalitate convenabilă de a vă monetiza conexiunea la internet. Începeți astăzi și începeți să câștigați!
 
-După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Referință
 - [Peer 2 Profit](https://peer2profit.com/)

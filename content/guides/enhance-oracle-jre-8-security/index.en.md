@@ -121,7 +121,7 @@ An **accepted sites list** limits software execution to authorized sources, mini
 2. Add each authorized site on a new line.
     ```ini
     https://example.com
-    https://simeononsecurity.com
+    https://simeononsecurity.ch
     ```
 
 See an example of a known [working configuration for `exception.sites`](https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Script/blob/master/Files/exception.sites).

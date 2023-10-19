@@ -42,15 +42,15 @@ The script will perform the following actions:
 
 - Copy the necessary files and modules to the appropriate locations on your system.
 - Unblock the new PowerShell modules and DLLs.
-- [Import the Active Directory module](https://simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/) and DLLs using the `Import-Module` command.
+- [Import the Active Directory module](https://simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/) and DLLs using the `Import-Module` command.
 - Once the script execution is complete, you will have the Active Directory PowerShell module installed on your Windows 10 machine.
 
 **Verifying the Installation**
 
-To verify that the [Active Directory PowerShell module](https://simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/) is installed correctly, follow these steps:
+To verify that the [Active Directory PowerShell module](https://simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/) is installed correctly, follow these steps:
 
 1. Open a PowerShell terminal.
-2. Run the command [`Import-Module ActiveDirectory`](https://simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/).
+2. Run the command [`Import-Module ActiveDirectory`](https://simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/).
 3. If no errors are displayed, the module is successfully installed.
 
 **Conclusion**

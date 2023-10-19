@@ -57,4 +57,4 @@ GitHub 上的“Awesome Selfhosted”列表是另一个引起 SimeonOnSecurity �
 
 ## nikitavoloboev/尊重隐私：
 -[https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- 大量尊重隐私的服务和软件。我已经[recommend](https://simeononsecurity.com/recommendations) 一些链接的项目。我打算继续阅读列表中的项目。
+- 大量尊重隐私的服务和软件。我已经[recommend](https://simeononsecurity.ch/recommendations) 一些链接的项目。我打算继续阅读列表中的项目。

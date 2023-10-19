@@ -32,7 +32,7 @@ Lorsque vous effectuez des achats en ligne, il est essentiel de protéger vos in
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) est un autre service fiable qui vous permet de générer des cartes de débit virtuelles pour les achats en ligne. Avec Privacy.com, vous pouvez créer des numéros de carte uniques pour chaque transaction, en veillant à ce que les informations relatives à votre véritable carte de crédit restent sécurisées. Ce service vous permet également de fixer des limites de dépenses et de contrôler les abonnements, ce qui vous donne un meilleur contrôle sur vos transactions en ligne.
 
-En savoir plus sur notre [recommended privacy services](https://simeononsecurity.com/recommendations/services)
+En savoir plus sur notre [recommended privacy services](https://simeononsecurity.ch/recommendations/services)
 
 ______
 
@@ -58,23 +58,23 @@ Lorsque vous effectuez des achats en ligne, tenez-vous en à des plates-formes d
 
 Mettez régulièrement à jour votre système d'exploitation, votre navigateur web et votre logiciel antivirus pour vous assurer que vous disposez des derniers correctifs de sécurité et d'une protection contre les logiciels malveillants et les cybermenaces. Activez les mises à jour automatiques dans la mesure du possible.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) les courriels, les messages textuels ou les appels téléphoniques qui tentent de vous inciter à révéler des informations personnelles ou des identifiants de connexion. Évitez de cliquer sur des liens suspects et vérifiez l'authenticité de toute communication émanant de vendeurs en ligne avant de communiquer des données sensibles.
+[**Beware of phishing**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/) les courriels, les messages textuels ou les appels téléphoniques qui tentent de vous inciter à révéler des informations personnelles ou des identifiants de connexion. Évitez de cliquer sur des liens suspects et vérifiez l'authenticité de toute communication émanant de vendeurs en ligne avant de communiquer des données sensibles.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+### 4. [Use Strong, Unique Passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour vos comptes d'achats en ligne. Évitez de réutiliser vos mots de passe sur plusieurs plateformes. Envisagez d'utiliser un gestionnaire de mots de passe, tel que **LastPass** ou **Dashlane**, pour stocker et générer des mots de passe complexes en toute sécurité.
+[**Create strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) pour vos comptes d'achats en ligne. Évitez de réutiliser vos mots de passe sur plusieurs plateformes. Envisagez d'utiliser un gestionnaire de mots de passe, tel que **LastPass** ou **Dashlane**, pour stocker et générer des mots de passe complexes en toute sécurité.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ajoute une couche supplémentaire de sécurité en exigeant une deuxième forme de vérification, comme un code unique envoyé à votre appareil mobile, en plus de votre mot de passe. Activez la fonction 2FA chaque fois que possible pour protéger vos comptes d'achat en ligne.
+[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ajoute une couche supplémentaire de sécurité en exigeant une deuxième forme de vérification, comme un code unique envoyé à votre appareil mobile, en plus de votre mot de passe. Activez la fonction 2FA chaque fois que possible pour protéger vos comptes d'achat en ligne.
 
 ### 6. Examinez les évaluations et les avis des vendeurs
 
 Avant d'effectuer un achat auprès d'un nouveau vendeur, vérifiez les évaluations et les avis d'autres clients. Ces informations peuvent vous aider à évaluer la crédibilité et la fiabilité du vendeur.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.ch/articles/how-to-create-a-secure-wifi-network/)
 
 Évitez de faire des achats en ligne lorsque vous êtes connecté à des réseaux Wi-Fi publics, car ils sont souvent non sécurisés et susceptibles d'être écoutés. Utilisez plutôt une connexion internet sécurisée et privée, comme votre réseau domestique ou un service VPN (Virtual Private Network) de confiance.
 

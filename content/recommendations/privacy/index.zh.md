@@ -33,9 +33,9 @@ tags: ["推荐的隐私资源", "隐私权", "身份盗窃保护", "数字安全
 
 如果您怀疑自己的隐私受到了侵犯，报告该事件至关重要。您可以通过以下网址报告儿童失踪、受虐待或性剥削事件 [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?)网络犯罪、黑客攻击、数字盗窃等。
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-如果您需要额外的隐私保护帮助，请考虑使用 [privacy services](https://simeononsecurity.com/recommendations/services/)从主要数据经纪商那里删除您的记录。推荐的一些服务包括
+如果您需要额外的隐私保护帮助，请考虑使用 [privacy services](https://simeononsecurity.ch/recommendations/services/)从主要数据经纪商那里删除您的记录。推荐的一些服务包括
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4)这项首选服务可帮助您删除主要数据经纪商的记录。
 - [OneRep](https://onerep.com)这项备用服务可帮助您删除主要数据经纪商的记录。

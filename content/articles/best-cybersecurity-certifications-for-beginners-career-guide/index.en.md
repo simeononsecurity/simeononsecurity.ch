@@ -17,15 +17,15 @@ coverCaption: "Unleash Your Potential: Best Certifications for a Thriving Cybers
 
 ______
 
-## [CompTIA A+](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
+## [CompTIA A+](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/)
 
 The [**CompTIA A+ certification**](https://www.comptia.org/certifications/a) is an excellent starting point for individuals interested in pursuing a career in cybersecurity. It is a vendor-neutral certification that validates foundational skills and knowledge in areas such as hardware, software, networking, and troubleshooting. With a focus on practical, hands-on skills, this certification equips beginners with the necessary competencies to enter the IT industry.
 
 To earn the CompTIA A+ certification, candidates need to pass two exams: **Core 1 (220-1001)** and **Core 2 (220-1002)**. These exams cover topics such as hardware and network troubleshooting, operating systems, mobile devices, virtualization, cloud computing, and security fundamentals. By obtaining the CompTIA A+ certification, beginners demonstrate their ability to install, configure, and secure computer systems, which are essential skills in the cybersecurity field.
 
-For practice tests and additional resources to help you prepare for the CompTIA A+ exams, you can visit [this link](https://simeononsecurity.com/a-plus-practice-test). This resource provides valuable practice questions and guidance to enhance your exam readiness.
+For practice tests and additional resources to help you prepare for the CompTIA A+ exams, you can visit [this link](https://simeononsecurity.ch/a-plus-practice-test). This resource provides valuable practice questions and guidance to enhance your exam readiness.
 
-If you're looking for more information on passing the CompTIA A+ exams (220-1001 and 220-1002), you can check out our [CompTIA A+ Guide](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/). 
+If you're looking for more information on passing the CompTIA A+ exams (220-1001 and 220-1002), you can check out our [CompTIA A+ Guide](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/passing-comptias-a-plus-exams-220-1101-and-220-1102/). 
 
 ______
 
@@ -35,7 +35,7 @@ The [**CompTIA Network+ certification**](https://www.comptia.org/certifications/
 
 By earning the CompTIA Network+ certification, individuals demonstrate their proficiency in **designing and implementing functional networks, identifying and mitigating network vulnerabilities**, and ensuring **network availability, integrity, and confidentiality**. This certification is highly regarded in the industry and is recognized by employers as a validation of the candidate's networking knowledge and skills.
 
-To enhance your preparation for the CompTIA Network+ certification, you can access [this link](https://simeononsecurity.com/network-plus-practice-test) for **practice tests** and additional resources. This resource offers practice questions and materials to help you solidify your understanding of networking concepts and increase your chances of success in the exam.
+To enhance your preparation for the CompTIA Network+ certification, you can access [this link](https://simeononsecurity.ch/network-plus-practice-test) for **practice tests** and additional resources. This resource offers practice questions and materials to help you solidify your understanding of networking concepts and increase your chances of success in the exam.
 
 ______
 
@@ -47,7 +47,7 @@ The [**CompTIA Security+ certification**](https://www.comptia.org/certifications
 
 By obtaining the CompTIA Security+ certification, beginners demonstrate their understanding of security concepts and best practices, as well as their ability to assess and mitigate security risks. This certification serves as a solid foundation for further career advancement in **cybersecurity** and is often a prerequisite for more advanced certifications in the field.
 
-To enhance your preparation for the CompTIA Security+ certification, you can access [this link](https://simeononsecurity.com/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/) for more information about the exam and what you need to know to prepare effectively.
+To enhance your preparation for the CompTIA Security+ certification, you can access [this link](https://simeononsecurity.ch/security-plus-practice-test) for **practice tests** and additional resources. This resource provides practice questions and materials to help you strengthen your knowledge of security concepts and increase your chances of success in the exam. You can also refer to [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/comptias-security-plus-sy0-601-what-do-you-need-to-know/) for more information about the exam and what you need to know to prepare effectively.
 
 ______
 
@@ -67,9 +67,9 @@ The [**Certified Ethical Hacker (CEH)**](https://www.eccouncil.org/programs/cert
 
 The CEH certification covers topics such as **footprinting and reconnaissance, scanning networks, enumeration, system hacking, malware threats, social engineering**, and more. It equips beginners with the skills to conduct authorized simulated attacks to assess the effectiveness of security measures and identify areas for improvement.
 
-If you are interested in preparing for the Certified Ethical Hacker (CEH) certification exam, you can find valuable resources and practice tests at [this link](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/). This resource provides guidance on how to prepare for the CEH certification exam and offers tips and study materials to help you succeed.
+If you are interested in preparing for the Certified Ethical Hacker (CEH) certification exam, you can find valuable resources and practice tests at [this link](https://simeononsecurity.ch/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/). This resource provides guidance on how to prepare for the CEH certification exam and offers tips and study materials to help you succeed.
 
-Additionally, you can visit [this link](https://simeononsecurity.com/ceh-practice-test) to access a CEH practice test, which allows you to test your knowledge and familiarize yourself with the exam format.
+Additionally, you can visit [this link](https://simeononsecurity.ch/ceh-practice-test) to access a CEH practice test, which allows you to test your knowledge and familiarize yourself with the exam format.
 
 ______
 
@@ -89,7 +89,7 @@ After obtaining a cybersecurity certification, beginners can explore various ent
 
 It's important for beginners to gain practical experience and continue learning to advance in their cybersecurity careers. Keeping up with the latest industry trends, technologies, and regulations is crucial to stay ahead in this rapidly evolving field.
 
-For more information on entry-level cybersecurity jobs and how to prepare for them, you can visit [this link](https://simeononsecurity.com/cyber-security-career-playbook-start). This resource provides insights into the skills and qualifications required for entry-level positions and offers tips on how to stand out in the job market.
+For more information on entry-level cybersecurity jobs and how to prepare for them, you can visit [this link](https://simeononsecurity.ch/cyber-security-career-playbook-start). This resource provides insights into the skills and qualifications required for entry-level positions and offers tips on how to stand out in the job market.
 ______
 
 {{< inarticle-dark >}}

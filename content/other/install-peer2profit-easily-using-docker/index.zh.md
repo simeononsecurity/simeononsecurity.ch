@@ -22,7 +22,7 @@ coverCaption: ""
 #### 安装 Docker 容器：
 按照以下步骤安装 Peer 2 Profit Docker 容器：
 
-0.学习 [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0.学习 [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1.打开终端，输入以下命令，用实际电子邮件地址替换 "your_email_without_quotes"：
 ```bash
@@ -41,7 +41,7 @@ docker rm -f peer2profit || true && docker run -td --restart always \
 ## 结论
 通过安装 Peer 2 Profit 并共享您的互联网，您就有机会毫不费力地赚取被动收入。Peer 2 Profit 拥有友好的用户界面和多种支付方式，为您的互联网连接盈利提供了便捷途径。今天就开始使用，赚取收入吧！
 
-完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+完成后，您应该 [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## 参考资料
 - [Peer 2 Profit](https://peer2profit.com/)

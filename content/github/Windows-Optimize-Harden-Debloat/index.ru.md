@@ -175,7 +175,7 @@ Windows 10 и Windows 11 являются инвазивными и небезо
 ### Графический интерфейс — пошаговая установка:
 
 Загрузите последнюю версию[here](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat-GUI/releases/)выберите нужные параметры и нажмите «Выполнить». <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/WOHD-GUI.gif" alt="Пример пошаговой установки на основе графического интерфейса Windows-Optimize-Harden-Debloat"> ### Автоматическая установка: Используйте эту однострочную строку для автоматической загрузки, распаковки всех вспомогательных файлов и запуска последней версии скрипта.```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeandharden.ps1'|iex
 ```
 
 <img src="https://raw.githubusercontent.com/simeononsecurity/Windows-Optimize-Harden-Debloat/master/.github/images/w10automatic.gif" alt="Example of 

@@ -12,25 +12,25 @@ coverCaption: ""
 
 **Важность безопасности паролей и лучшие практики управления паролями**.
 
-[**Passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) are the keys to our online lives. [**Password security**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) имеет первостепенное значение, поскольку пароли защищают нашу личную и конфиденциальную информацию от несанкционированного доступа. Поэтому управление паролями является одним из важнейших аспектов безопасности в Интернете. В этой статье мы рассмотрим важность защиты паролей и лучшие методы управления паролями.
+[**Passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) are the keys to our online lives. [**Password security**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) имеет первостепенное значение, поскольку пароли защищают нашу личную и конфиденциальную информацию от несанкционированного доступа. Поэтому управление паролями является одним из важнейших аспектов безопасности в Интернете. В этой статье мы рассмотрим важность защиты паролей и лучшие методы управления паролями.
 
 ## Почему важна безопасность паролей?
 
-Одна из основных причин, по которой [**password security**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) важно предотвратить несанкционированный доступ к вашим учетным записям. Злоумышленники могут получить доступ к вашим персональным данным, финансовой информации и даже к вашей личности, если узнают ваши пароли. Они также могут использовать ваши учетные записи для рассылки спама, **фишинговых** писем и других вредоносных действий. Защита паролями является жизненно важной для обеспечения вашего присутствия в Интернете и защиты от **киберугроз**.
+Одна из основных причин, по которой [**password security**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) важно предотвратить несанкционированный доступ к вашим учетным записям. Злоумышленники могут получить доступ к вашим персональным данным, финансовой информации и даже к вашей личности, если узнают ваши пароли. Они также могут использовать ваши учетные записи для рассылки спама, **фишинговых** писем и других вредоносных действий. Защита паролями является жизненно важной для обеспечения вашего присутствия в Интернете и защиты от **киберугроз**.
 
 ## Лучшие практики управления паролями
 
 ### Используйте надежные пароли
 
-[A strong password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) представляет собой комбинацию заглавных и строчных букв, цифр и символов. Он не должен содержать легко угадываемой информации, например, имени или даты рождения. Длина надежного пароля должна составлять не менее 12 символов. Не используйте пароли для нескольких учетных записей, так как это повышает риск получения хакером доступа ко всем вашим учетным записям.
+[A strong password](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) представляет собой комбинацию заглавных и строчных букв, цифр и символов. Он не должен содержать легко угадываемой информации, например, имени или даты рождения. Длина надежного пароля должна составлять не менее 12 символов. Не используйте пароли для нескольких учетных записей, так как это повышает риск получения хакером доступа ко всем вашим учетным записям.
 
 ### Включите двухфакторную аутентификацию
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) (2FA) is an additional layer of security that requires you to enter a code or use a physical key in addition to your password. This prevents unauthorized access even if someone has your password. Many online services, including [Google](https://www.google.com/landing/2step/), [Facebook](https://www.facebook.com/help/148233965247823), and [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication) предложить 2FA.
+[**Two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) (2FA) is an additional layer of security that requires you to enter a code or use a physical key in addition to your password. This prevents unauthorized access even if someone has your password. Many online services, including [Google](https://www.google.com/landing/2step/), [Facebook](https://www.facebook.com/help/148233965247823), and [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication) предложить 2FA.
 
 ### Используйте менеджер паролей
 
-A [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) is a software application that stores all of your passwords in an encrypted database. It allows you to create strong and unique passwords for each of your accounts without the need to remember them. Some popular password managers include [LastPass](https://www.lastpass.com/), [Dashlane](https://www.dashlane.com/), and [1Password](https://1password.com/)
+A [**password manager**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) is a software application that stores all of your passwords in an encrypted database. It allows you to create strong and unique passwords for each of your accounts without the need to remember them. Some popular password managers include [LastPass](https://www.lastpass.com/), [Dashlane](https://www.dashlane.com/), and [1Password](https://1password.com/)
 
 ### Регулярно обновляйте пароли
 
@@ -38,11 +38,11 @@ A [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-kee
 
 ### Будьте осторожны с фишинговыми аферами
 
-[**Phishing scams** ](https://simeononsecurity.com/articles/how-to-identify-phishing/) распространенный способ получения паролей хакерами. Как правило, это электронное письмо или сообщение, исходящее от законного источника, например, банка или сайта социальной сети, в котором предлагается перейти по ссылке и ввести пароль. Всегда с осторожностью относитесь к такого рода сообщениям и не переходите по ссылкам в них.
+[**Phishing scams** ](https://simeononsecurity.ch/articles/how-to-identify-phishing/) распространенный способ получения паролей хакерами. Как правило, это электронное письмо или сообщение, исходящее от законного источника, например, банка или сайта социальной сети, в котором предлагается перейти по ссылке и ввести пароль. Всегда с осторожностью относитесь к такого рода сообщениям и не переходите по ссылкам в них.
 
 ### Избегайте общественных сетей Wi-Fi
 
-[Public Wi-Fi networks](https://simeononsecurity.com/articles/how-to-secure-your-wireless-network-against-hacking/) не являются безопасными, и хакеры могут легко перехватить ваш интернет-трафик, в том числе и ваши пароли. Избегайте использования публичных сетей Wi-Fi для доступа к своим учетным записям, особенно для таких конфиденциальных операций, как интернет-банкинг или покупки.
+[Public Wi-Fi networks](https://simeononsecurity.ch/articles/how-to-secure-your-wireless-network-against-hacking/) не являются безопасными, и хакеры могут легко перехватить ваш интернет-трафик, в том числе и ваши пароли. Избегайте использования публичных сетей Wi-Fi для доступа к своим учетным записям, особенно для таких конфиденциальных операций, как интернет-банкинг или покупки.
 
 ______
 

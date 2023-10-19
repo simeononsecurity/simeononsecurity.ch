@@ -22,13 +22,13 @@ ______
 
 ## Ingegneria sociale
 
-**L'ingegneria sociale** è un tipo di attacco informatico che si basa sull'interazione umana e sulla manipolazione psicologica per indurre le persone a divulgare informazioni sensibili o a eseguire determinate azioni. I criminali informatici utilizzano diverse tattiche, come ad esempio[phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) pretesti, adescamenti e contropartite, per guadagnare la fiducia delle loro vittime e ottenere informazioni riservate.
+**L'ingegneria sociale** è un tipo di attacco informatico che si basa sull'interazione umana e sulla manipolazione psicologica per indurre le persone a divulgare informazioni sensibili o a eseguire determinate azioni. I criminali informatici utilizzano diverse tattiche, come ad esempio[phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) pretesti, adescamenti e contropartite, per guadagnare la fiducia delle loro vittime e ottenere informazioni riservate.
 
 Per ridurre il rischio di attacchi di social engineering, i singoli e le organizzazioni possono adottare le seguenti misure:
 
-- Fornire[**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) ai dipendenti per insegnare loro come identificare ed evitare gli attacchi di social engineering.
+- Fornire[**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) ai dipendenti per insegnare loro come identificare ed evitare gli attacchi di social engineering.
 - Utilizzare i **filtri antispam** e i protocolli di autenticazione delle e-mail, come **SPF**, **DKIM** e **DMARC**, per rilevare e bloccare le e-mail di phishing.
-- Implementare[**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) per aggiungere un ulteriore livello di sicurezza alle credenziali di accesso.
+- Implementare[**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) per aggiungere un ulteriore livello di sicurezza alle credenziali di accesso.
 - Rivedere e aggiornare regolarmente le **politiche di sicurezza** per affrontare le nuove minacce e vulnerabilità.
 
 ______
@@ -39,7 +39,7 @@ Il **Malware** è un tipo di software progettato per infiltrarsi e danneggiare i
 
 Per ridurre il rischio di attacchi malware, i singoli e le organizzazioni possono adottare le seguenti misure:
 
-- Installare e aggiornare regolarmente[**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) su tutti i dispositivi.
+- Installare e aggiornare regolarmente[**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) su tutti i dispositivi.
 - Utilizzate i **firewall** per bloccare l'accesso non autorizzato ai sistemi e alle reti informatiche.
 - Evitare di scaricare software o file da fonti non attendibili.
 - Effettuare regolarmente il **back up** dei dati importanti per evitare la perdita di dati in caso di attacco malware.
@@ -67,9 +67,9 @@ sistemi o reti informatiche indovinando, craccando o rubando le password. Gli at
 Per ridurre il rischio di attacchi alle password, i singoli e le organizzazioni possono adottare le seguenti misure:
 
 - Utilizzare password forti e uniche che contengano una combinazione di lettere, numeri e simboli.
-- Implementare una[**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) che richiede il cambio regolare della password e vieta l'uso di password comuni o facilmente indovinabili.
-- Utilizzo[**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) in grado di generare e memorizzare password complesse.
-- Implementare[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) per aggiungere un ulteriore livello di sicurezza alle credenziali di accesso.
+- Implementare una[**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) che richiede il cambio regolare della password e vieta l'uso di password comuni o facilmente indovinabili.
+- Utilizzo[**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) in grado di generare e memorizzare password complesse.
+- Implementare[**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) per aggiungere un ulteriore livello di sicurezza alle credenziali di accesso.
 
 ______
 
@@ -81,7 +81,7 @@ Per ridurre il rischio di attacchi alle applicazioni Web, i singoli e le organiz
 
 - Utilizzare **web application firewall** per rilevare e bloccare il traffico dannoso.
 - Eseguire regolarmente una scansione delle applicazioni Web per individuare eventuali vulnerabilità e implementare tempestivamente patch e aggiornamenti.
-- Utilizzare[**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) per prevenire le vulnerabilità comuni delle applicazioni web.
+- Utilizzare[**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) per prevenire le vulnerabilità comuni delle applicazioni web.
 - Implementare la **convalida dell'input dell'utente** per prevenire l'iniezione di SQL e altri attacchi basati sull'input.
 
 ______

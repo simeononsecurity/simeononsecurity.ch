@@ -33,9 +33,9 @@ Gute digitale Sicherheits- und Hygienepraktiken sind entscheidend für den Schut
 
 Wenn Sie den Verdacht haben, dass Ihre Privatsphäre verletzt wurde, ist es wichtig, den Vorfall zu melden. Sie können ein vermisstes, missbrauchtes oder sexuell ausgebeutetes Kind melden unter [Report a Missing, Abused or Sexually Exploited Child](http://www.missingkids.com/Report). For cyber-related complaints such as identity theft, spam, online scams, and more, file a complaint with the Federal Trade Commission (FTC) at [File a cyber-related complaint with the Federal Trade Commission (FTC)](https://www.ftccomplaintassistant.gov/#&panel1-1). You can also file a complaint with the Internet Crime Complaint Center (IC3) at [File a complaint with the Internet Crime Complaint Center (IC3)](https://complaint.ic3.gov/default.aspx?) für Cyberkriminalität, Hacks, digitalen Diebstahl und mehr.
 
-### [Services](https://simeononsecurity.com/recommendations/services/)
+### [Services](https://simeononsecurity.ch/recommendations/services/)
 
-Wenn Sie zusätzliche Hilfe zum Schutz Ihrer Privatsphäre benötigen, sollten Sie Folgendes in Betracht ziehen [privacy services](https://simeononsecurity.com/recommendations/services/) um Ihre Einträge bei großen Datenmaklern zu löschen. Einige empfohlene Dienste sind:
+Wenn Sie zusätzliche Hilfe zum Schutz Ihrer Privatsphäre benötigen, sollten Sie Folgendes in Betracht ziehen [privacy services](https://simeononsecurity.ch/recommendations/services/) um Ihre Einträge bei großen Datenmaklern zu löschen. Einige empfohlene Dienste sind:
 
 - [Abine DeleteMe](https://joindeleteme.com/refer?coupon=RFR-40867-7DWHR4) Dieser bevorzugte Dienst kann Ihnen dabei helfen, Ihre Einträge bei den großen Datenmaklern zu löschen.
 - [OneRep](https://onerep.com) Dieser alternative Dienst kann Ihnen dabei helfen, Ihre Einträge bei den großen Datenmaklern zu löschen.

@@ -121,7 +121,7 @@ Implement logging and monitoring mechanisms to detect and respond to security in
 Harden the environment by applying security policies and configurations to the operating system, network devices, and applications. This helps to reduce the attack surface and prevent unauthorized access. For example, developers and administrators can:
 
 - **Disable unnecessary services and protocols to reduce the attack surface**
-- [**Enforce strong passwords and password policies to prevent unauthorized access**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+- [**Enforce strong passwords and password policies to prevent unauthorized access**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 - **Configure firewalls and intrusion detection systems to prevent and detect attacks**
 - **Implement software updates and patches to fix known security vulnerabilities**
 

@@ -68,8 +68,8 @@ Oprócz certyfikatów wymienionych powyżej, istnieje kilka innych certyfikatów
 
 Aby przygotować się do tych certyfikatów, ważne jest, aby mieć dostęp do wysokiej jakości zasobów edukacyjnych. SimeonOnSecurity zaleca następujące:
 
-- [Books](https://simeononsecurity.com/recommendations/books/) Ta strona zawiera listę polecanych książek do nauki na różne tematy w dziedzinie cyberbezpieczeństwa i IT.
-- [Training](https://simeononsecurity.com/recommendations/learning_resources/) Ta strona zawiera listę zalecanych kursów szkoleniowych i bootcampów, które mogą pomóc w przygotowaniu się do certyfikacji.
+- [Books](https://simeononsecurity.ch/recommendations/books/) Ta strona zawiera listę polecanych książek do nauki na różne tematy w dziedzinie cyberbezpieczeństwa i IT.
+- [Training](https://simeononsecurity.ch/recommendations/learning_resources/) Ta strona zawiera listę zalecanych kursów szkoleniowych i bootcampów, które mogą pomóc w przygotowaniu się do certyfikacji.
 
 ## Visualize
 

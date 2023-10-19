@@ -24,7 +24,7 @@ One of the primary benefits of **PowerShell** is its ability to automate routine
 
 ### Enhanced Visibility and Control:
 
-Another advantage of **PowerShell** is its ability to provide increased visibility and control over systems and networks. With PowerShell, administrators can easily monitor and manage devices and systems from a centralized location, helping to identify and mitigate security threats. The ability to automate and manage security-related tasks through PowerShell scripts can also help organizations stay compliant with industry regulations and standards, such as the Department of Defense [STIG/SRG](https://simeononsecurity.com/github/stiging-standalone-windows-servers/) requirements and NSA Cybersecurity guidance.
+Another advantage of **PowerShell** is its ability to provide increased visibility and control over systems and networks. With PowerShell, administrators can easily monitor and manage devices and systems from a centralized location, helping to identify and mitigate security threats. The ability to automate and manage security-related tasks through PowerShell scripts can also help organizations stay compliant with industry regulations and standards, such as the Department of Defense [STIG/SRG](https://simeononsecurity.ch/github/stiging-standalone-windows-servers/) requirements and NSA Cybersecurity guidance.
 
 ### Integration with Other Tools:
 

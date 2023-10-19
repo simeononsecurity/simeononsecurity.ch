@@ -26,11 +26,11 @@ The National Institute of Standards and Technology (NIST) has published a guidel
 
 ### Clearing
 
-Clearing is the process of overwriting the data on a device with a series of binary values. This method is less secure than physical destruction but is still effective in sanitizing most removable media. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the Department of Defense (DoD) [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
+Clearing is the process of overwriting the data on a device with a series of binary values. This method is less secure than physical destruction but is still effective in sanitizing most removable media. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the Department of Defense (DoD) [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
 
 ### Purging
 
-Purging is the process of overwriting the data on a device multiple times with a pattern of binary values. This method is more secure than clearing and is recommended for sanitizing sensitive data. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
+Purging is the process of overwriting the data on a device multiple times with a pattern of binary values. This method is more secure than clearing and is recommended for sanitizing sensitive data. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
 
 __________________________________________
 

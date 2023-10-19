@@ -11,11 +11,11 @@ coverCaption: "Comparta su experiencia y conocimientos con nuestra comunidad a t
 
 Gracias por su interés en contribuir a nuestro sitio web. Recibimos con agrado artículos de blogs invitados que se ajusten a nuestro enfoque de contenidos. Para enviar un artículo, siga estos pasos:
 
-1. Póngase en contacto con nosotros a través del formulario web en [https://simeononsecurity.com/contactus/](https://simeononsecurity.com/contactus/) para expresar su interés en participar como blogger invitado.
+1. Póngase en contacto con nosotros a través del formulario web en [https://simeononsecurity.ch/contactus/](https://simeononsecurity.ch/contactus/) para expresar su interés en participar como blogger invitado.
 
 2. Prepare su artículo en formato Markdown (md) o HTML.
 
-3. Envíe una solicitud de extracción (pull request) a nuestro repositorio de GitHub en [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors)
+3. Envíe una solicitud de extracción (pull request) a nuestro repositorio de GitHub en [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors)
 
 4. Asegúrese de que su artículo incluye un frontmatter (metadatos) válido con todas las variables requeridas, como se muestra en el siguiente ejemplo:
 
@@ -122,7 +122,7 @@ Se trata de un acuerdo mutuamente beneficioso en el que los autores tienen la op
 
 - Agradecemos su comprensión y cooperación en el seguimiento de estas directrices para mantener la calidad y relevancia de los contenidos en SimeonOnSecurity.
 
-Esperamos recibir sus valiosas contribuciones y ayudarle a llegar a un público más amplio con sus ideas. Si tiene alguna pregunta o aclaración, no dude en ponerse en contacto con nosotros a través de la dirección de correo electrónico [webform](https://simeononsecurity.com/contactus/)
+Esperamos recibir sus valiosas contribuciones y ayudarle a llegar a un público más amplio con sus ideas. Si tiene alguna pregunta o aclaración, no dude en ponerse en contacto con nosotros a través de la dirección de correo electrónico [webform](https://simeononsecurity.ch/contactus/)
 
 ***¡Feliz escritura!
 

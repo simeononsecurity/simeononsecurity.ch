@@ -68,8 +68,8 @@ SimeonOnSecurityでは、その分野の専門家になるために、以下の�
 
 これらの資格に備えるには、質の高い学習リソースにアクセスすることが重要です。SimeonOnSecurityでは、以下を推奨しています：
 
-- [Books](https://simeononsecurity.com/recommendations/books/)このページでは、サイバー・IT分野の様々なトピックを学ぶためのおすすめ書籍の一覧を掲載しています。
-- [Training](https://simeononsecurity.com/recommendations/learning_resources/)このページでは、資格取得の準備に役立つ、おすすめのトレーニングコースやブートキャンプを紹介しています。
+- [Books](https://simeononsecurity.ch/recommendations/books/)このページでは、サイバー・IT分野の様々なトピックを学ぶためのおすすめ書籍の一覧を掲載しています。
+- [Training](https://simeononsecurity.ch/recommendations/learning_resources/)このページでは、資格取得の準備に役立つ、おすすめのトレーニングコースやブートキャンプを紹介しています。
 
 ## ビジュアライズ
 

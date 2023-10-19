@@ -11,10 +11,10 @@ sitemap:
 
 **Are you looking to enhance your skills in the dynamic field of cybersecurity? Look no further!** We offer a wide range of **courses and career playbooks** tailored specifically for individuals interested in **CompTIA, Cisco, EC-Council, (ISC)² exams, and cybersecurity careers**. Whether you're a **beginner seeking foundational knowledge** or an **experienced professional aiming to advance your expertise**, our offerings are designed to meet your unique learning goals. With our **high-quality content, expert instructors, and hands-on practical exercises**, you'll gain the necessary skills and knowledge to excel in the ever-evolving cybersecurity landscape. **Get ready to embark on an exciting journey towards a rewarding career in cybersecurity!**
 
-***Note***: *These courses and playbooks take significant time and effort to create. We need your help! [Please let us know what you'd like us to prioritize](https://simeononsecurity.com/contactus/)*
+***Note***: *These courses and playbooks take significant time and effort to create. We need your help! [Please let us know what you'd like us to prioritize](https://simeononsecurity.ch/contactus/)*
 
 ## Career Playbooks
-- #### [Cybersecurity Career Playbook](https://simeononsecurity.com/cyber-security-career-playbook-start)
+- #### [Cybersecurity Career Playbook](https://simeononsecurity.ch/cyber-security-career-playbook-start)
 ### Coming Soon
 - Information Technology Career Playbook
 - Software Development Career Playbook

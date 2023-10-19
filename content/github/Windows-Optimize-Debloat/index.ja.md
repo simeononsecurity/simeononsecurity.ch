@@ -59,7 +59,7 @@ Windows 10 と 11 は、箱から出したままでは侵略的で安全でな�
 ### 自動インストール：
 自動インストール：GitHubからダウンロードしたスクリプトを、以下のように起動します：
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeanddebloat.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
 ### 手動でインストールします：
 手動でダウンロードした場合、スクリプトは、管理用パワーシェルから、以下のすべてのファイルが含まれるディレクトリで起動する必要があります。 [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Debloat)

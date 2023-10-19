@@ -59,7 +59,7 @@ Als u deze diensten toch wilt gebruiken, zie dan de volgende issue tickets voor 
 ### Geautomatiseerde installatie:
 Het script kan vanaf de uitgepakte GitHub-download als volgt worden gestart:
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeanddebloat.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
 ### Handmatige installatie:
 Indien handmatig gedownload, moet het script worden gestart vanuit een administratieve powershell in de directory die alle bestanden van de [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Debloat)

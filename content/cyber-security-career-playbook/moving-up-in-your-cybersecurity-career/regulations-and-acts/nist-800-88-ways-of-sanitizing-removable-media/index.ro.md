@@ -28,11 +28,11 @@ Institutul Național de Standarde și Tehnologie (NIST) a publicat un ghid de ig
 
 ### Clearing
 
-Curățarea este procesul de suprascriere a datelor de pe un dispozitiv cu o serie de valori binare. Această metodă este mai puțin sigură decât distrugerea fizică, dar este totuși eficientă pentru igienizarea majorității suporturilor detașabile. NIST 800-88 Revizia 1 recomandă utilizarea unui instrument software care respectă standardele stabilite de Departamentul Apărării (DoD) [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specificații.
+Curățarea este procesul de suprascriere a datelor de pe un dispozitiv cu o serie de valori binare. Această metodă este mai puțin sigură decât distrugerea fizică, dar este totuși eficientă pentru igienizarea majorității suporturilor detașabile. NIST 800-88 Revizia 1 recomandă utilizarea unui instrument software care respectă standardele stabilite de Departamentul Apărării (DoD) [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specificații.
 
 ### Purgare
 
-Purjarea este procesul de suprascriere de mai multe ori a datelor de pe un dispozitiv cu un model de valori binare. Această metodă este mai sigură decât ștergerea și este recomandată pentru curățarea datelor sensibile. NIST 800-88 Revizia 1 recomandă utilizarea unui instrument software care să respecte standardele stabilite de către [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specificații.
+Purjarea este procesul de suprascriere de mai multe ori a datelor de pe un dispozitiv cu un model de valori binare. Această metodă este mai sigură decât ștergerea și este recomandată pentru curățarea datelor sensibile. NIST 800-88 Revizia 1 recomandă utilizarea unui instrument software care să respecte standardele stabilite de către [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specificații.
 
 __________________________________________
 {{< inarticle-dark >}}

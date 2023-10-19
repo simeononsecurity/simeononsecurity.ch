@@ -17,7 +17,7 @@ Linux ist ein beliebtes Betriebssystem, das von Privatpersonen und Unternehmen g
 
 ### Halten Sie Ihr System auf dem neuesten Stand
 
-Halten Sie Ihr [Linux](https://simeononsecurity.com/articles/how-do-i-learn-linux/) System auf dem neuesten Stand zu halten, ist entscheidend für die Aufrechterhaltung seiner Sicherheit. Regelmäßige Aktualisierungen helfen dabei, Sicherheitslücken und Fehler zu beheben, und sorgen dafür, dass Ihr System gegen mögliche Angriffe geschützt bleibt. Im Folgenden finden Sie einige Beispiele, wie Sie Ihr Linux-System mit dem Paketmanager **apt-get** oder **yum** aktualisieren können:
+Halten Sie Ihr [Linux](https://simeononsecurity.ch/articles/how-do-i-learn-linux/) System auf dem neuesten Stand zu halten, ist entscheidend für die Aufrechterhaltung seiner Sicherheit. Regelmäßige Aktualisierungen helfen dabei, Sicherheitslücken und Fehler zu beheben, und sorgen dafür, dass Ihr System gegen mögliche Angriffe geschützt bleibt. Im Folgenden finden Sie einige Beispiele, wie Sie Ihr Linux-System mit dem Paketmanager **apt-get** oder **yum** aktualisieren können:
 
 #### Aktualisierung von Ubuntu mit apt-get
 
@@ -296,7 +296,7 @@ ______
 
 Die Verwendung schwacher Passwörter ist ein häufiger Fehler, der Ihr Linux-System anfällig für Angriffe machen kann. Angreifer können Tools verwenden, um Passwörter zu erraten, die auf allgemeinen Wörtern, Namen oder Daten basieren. Es ist wichtig, starke und eindeutige Passwörter zu verwenden, die nicht leicht zu erraten sind.
 
-Sie können sichere Kennwörter erstellen, indem Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen verwenden. Es ist auch eine gute Praxis, ein [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) kann Ihnen auch dabei helfen, sich Ihre Passwörter zu merken und zu vermeiden, dass Sie das gleiche Passwort für mehrere Konten verwenden.
+Sie können sichere Kennwörter erstellen, indem Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen verwenden. Es ist auch eine gute Praxis, ein [password manager](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) kann Ihnen auch dabei helfen, sich Ihre Passwörter zu merken und zu vermeiden, dass Sie das gleiche Passwort für mehrere Konten verwenden.
 
 ### SSH-Zugang für root zulassen
 

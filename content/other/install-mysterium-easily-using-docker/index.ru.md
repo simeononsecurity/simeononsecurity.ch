@@ -21,7 +21,7 @@ coverCaption: ""
 
 #### Установить Docker
 
-Изучить [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Изучить [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### Установка Docker-контейнера Mysterium
 
@@ -50,7 +50,7 @@ ufw allow 59850:60000/tcp
 
 Mysterium - это децентрализованный VPN-сервис и служба веб-скреппинга, позволяющая зарабатывать деньги, сохраняя конфиденциальность и безопасность. Потенциальный ежемесячный доход составляет от 1 до 20 долл. за узел на IP, что открывает перед пользователями возможность заработка. Начните использовать Mysterium и воспользуйтесь его возможностями уже сегодня!
 
-По окончании работы вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+По окончании работы вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 

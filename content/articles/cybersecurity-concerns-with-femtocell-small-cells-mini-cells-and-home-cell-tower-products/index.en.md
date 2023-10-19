@@ -36,9 +36,9 @@ There are several steps that end-users can take to protect themselves against fe
 
 3. **Monitor your mobile device activity**: Regularly check your mobile device's activity and review your billing statements to identify any suspicious activity.
 
-4. **Contact your cellular provider**: If you suspect that your mobile device or network has been compromised, contact your cellular provider immediately to report the issue and seek assistance. We have some additional guidance on what to do if you suspect you're compromised [here](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/).
+4. **Contact your cellular provider**: If you suspect that your mobile device or network has been compromised, contact your cellular provider immediately to report the issue and seek assistance. We have some additional guidance on what to do if you suspect you're compromised [here](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/).
 
-5. **Use Secure Messengers and Voice Applications**: If possible, you should be using applications like Signal, Wickr, or Wire. We discuss this more in detail [here](https://simeononsecurity.com/recommendations/messengers/).
+5. **Use Secure Messengers and Voice Applications**: If possible, you should be using applications like Signal, Wickr, or Wire. We discuss this more in detail [here](https://simeononsecurity.ch/recommendations/messengers/).
 
 ## Conclusion
 

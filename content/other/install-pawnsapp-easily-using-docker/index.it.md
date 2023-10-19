@@ -27,7 +27,7 @@ Creare un account PawnsApp visitando [https://pawns.app](https://pawns.app/?r=20
 
 #### 2. Installare Docker
 
-Imparare [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+Imparare [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 #### 3. Una volta creato un account, seguite le istruzioni seguenti per installare il contenitore Docker di PawnsApp:
 
@@ -55,7 +55,7 @@ PawnsApp offre un'eccellente opportunità di guadagno passivo condividendo la pr
 
 Iniziate oggi stesso il vostro viaggio con PawnsApp e sbloccate il potenziale di guadagno senza sforzo!
 
-Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+Una volta terminato, dovreste [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 #### Riferimento
 - [PawnsApp](https://pawns.app/?r=2092882)

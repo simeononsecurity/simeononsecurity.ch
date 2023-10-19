@@ -57,4 +57,4 @@ tags: []
 
 ## निकितावोलोबोएव/गोपनीयता का सम्मान:
 -[https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- सेवाओं और सॉफ्टवेयर का सम्मान करने वाली गोपनीयता की एक बड़ी सूची। मैं पहले से ही[recommend](https://simeononsecurity.com/recommendations) कुछ जुड़े आइटम। मैं सूची में आइटमों को पढ़ना जारी रखने की योजना बना रहा हूं।
+- सेवाओं और सॉफ्टवेयर का सम्मान करने वाली गोपनीयता की एक बड़ी सूची। मैं पहले से ही[recommend](https://simeononsecurity.ch/recommendations) कुछ जुड़े आइटम। मैं सूची में आइटमों को पढ़ना जारी रखने की योजना बना रहा हूं।

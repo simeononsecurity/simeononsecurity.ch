@@ -27,6 +27,6 @@ This script is a Windows PowerShell script that downloads and applies the "Steve
 #### Automated install:
 Run the latest version of the script automatically:
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/soswindowsadblocker.ps1' | iex
+iwr -useb 'https://simeononsecurity.ch/scripts/soswindowsadblocker.ps1' | iex
 ```
 

@@ -59,9 +59,9 @@ Pamiętaj, że siła hasła leży nie tylko w jego długości, ale także w jego
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [The Role of Password Managers](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
-Wraz ze wzrostem liczby posiadanych przez nas kont online, zapamiętanie unikalnych i silnych haseł dla każdego z nich staje się wyzwaniem. To właśnie tutaj menedżery haseł, takie jak [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) się przydać. Menedżer haseł to bezpieczny cyfrowy skarbiec, który przechowuje wszystkie hasła w zaszyfrowanym formacie. Umożliwia generowanie silnych, unikalnych haseł dla każdego konta i automatycznie wypełnia je w razie potrzeby. Oto jak menedżery haseł mogą ci pomóc:
+Wraz ze wzrostem liczby posiadanych przez nas kont online, zapamiętanie unikalnych i silnych haseł dla każdego z nich staje się wyzwaniem. To właśnie tutaj menedżery haseł, takie jak [**Bitwarden**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) się przydać. Menedżer haseł to bezpieczny cyfrowy skarbiec, który przechowuje wszystkie hasła w zaszyfrowanym formacie. Umożliwia generowanie silnych, unikalnych haseł dla każdego konta i automatycznie wypełnia je w razie potrzeby. Oto jak menedżery haseł mogą ci pomóc:
 
 - **Wygoda**: Dzięki menedżerowi haseł wystarczy zapamiętać tylko jedno hasło główne, aby uzyskać dostęp do wszystkich przechowywanych haseł. Eliminuje to potrzebę zapamiętywania wielu złożonych haseł.
 - Silne, unikalne hasła**: Menedżery haseł mogą generować silne hasła przy użyciu kombinacji znaków, zapewniając, że każde z kont ma unikalne i bezpieczne hasło.
@@ -78,7 +78,7 @@ Chociaż menedżery haseł zapewniają znaczące korzyści, ważne jest przestrz
 
 - **Wybierz renomowanego menedżera haseł**: Wybierz dobrze znany i godny zaufania menedżer haseł, taki jak **Bitwarden** lub inne polecane przez renomowane źródła cyberbezpieczeństwa.
 - **Stwórz silne hasło główne**: Hasło główne jest kluczem do skarbca menedżera haseł, więc upewnij się, że jest ono silne i unikalne. Postępuj zgodnie z wcześniej wspomnianymi wskazówkami, aby utworzyć silne hasło główne.
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę zabezpieczeń, wymagając drugiej formy weryfikacji, takiej jak odcisk palca lub kod z aplikacji uwierzytelniającej, oprócz hasła głównego.
+- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę zabezpieczeń, wymagając drugiej formy weryfikacji, takiej jak odcisk palca lub kod z aplikacji uwierzytelniającej, oprócz hasła głównego.
 - **Regularnie aktualizuj swojego menedżera haseł**: Aktualizuj swojego menedżera haseł, aby mieć pewność, że posiadasz najnowsze poprawki zabezpieczeń i funkcje.
 - **Zrób kopię zapasową swojego magazynu haseł**: Regularnie twórz kopie zapasowe magazynu menedżera haseł, aby zapobiec utracie danych w przypadku awarii urządzenia lub innych nieprzewidzianych okoliczności.
 - Uważaj na ataki phishingowe**: Zachowaj czujność i unikaj klikania podejrzanych linków lub podawania informacji o menedżerze haseł na niezaufanych stronach internetowych.

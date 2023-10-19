@@ -20,7 +20,7 @@ coverCaption: ""
 ### Установка контейнера Docker
 Выполните следующие шаги для установки Docker-контейнера Repocket:
 
-0. Узнать [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
+0. Узнать [how to install docker](https://simeononsecurity.ch/other/creating-profitable-low-powered-crypto-miners/#installing-docker)
 
 1. Откройте терминал и введите следующую команду, заменив "your@email.com" и "yourapikey" на ваш реальный email и API-ключ:
 ```bash
@@ -36,7 +36,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 ## Заключение
 Repocket предлагает возможность зарабатывать деньги, предоставляя в пользование неиспользуемое подключение к Интернету. При минимальной выплате в 20 долл. и потенциальном заработке около 1 долл. за узел на ящик в месяц Repocket может стать ценным источником пассивного дохода. Однако перед тем как принять решение об использовании сервиса, необходимо тщательно разобраться в системе выплат и провести собственное исследование.
 
-После этого вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
+После этого вам следует [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.ch/other/how-to-secure-internet-sharing-applications/)
 
 ## Reference
 - [Repocket](https://link.repocket.co/raqc)

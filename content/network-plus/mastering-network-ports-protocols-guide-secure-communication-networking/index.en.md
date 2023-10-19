@@ -15,7 +15,7 @@ coverCaption: "Secure communication and efficient networking for enhanced produc
 
 ## Introduction
 
-In the world of computer networks, ports, protocols, and network services play a crucial role in enabling communication between devices. Understanding these concepts is essential for network administrators, IT professionals, and anyone interested in the workings of computer networks. This article will explain common ports and protocols, their applications, and introduce encrypted alternatives for secure communication. We will also delve into IP protocol types and explore the difference between connection-oriented and [connectionless protocols](https://simeononsecurity.com/articles/difference-connection-oriented-connectionless-communication/).
+In the world of computer networks, ports, protocols, and network services play a crucial role in enabling communication between devices. Understanding these concepts is essential for network administrators, IT professionals, and anyone interested in the workings of computer networks. This article will explain common ports and protocols, their applications, and introduce encrypted alternatives for secure communication. We will also delve into IP protocol types and explore the difference between connection-oriented and [connectionless protocols](https://simeononsecurity.ch/articles/difference-connection-oriented-connectionless-communication/).
 
 ## Explaining Common Ports and Protocols
 

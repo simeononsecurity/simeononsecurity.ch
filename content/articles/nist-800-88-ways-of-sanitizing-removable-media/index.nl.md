@@ -26,11 +26,11 @@ Het National Institute of Standards and Technology (NIST) heeft een richtlijn ge
 
 ### Schoonmaken
 
-Clearing is het proces waarbij de gegevens op een apparaat overschreven worden met een reeks binaire waarden. Deze methode is minder veilig dan fysieke vernietiging, maar is nog steeds effectief in het opschonen van de meeste verwijderbare media. NIST 800-88 Revisie 1 raadt aan een softwaretool te gebruiken dat voldoet aan de standaarden van het Ministerie van Defensie (DoD). [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specificatie.
+Clearing is het proces waarbij de gegevens op een apparaat overschreven worden met een reeks binaire waarden. Deze methode is minder veilig dan fysieke vernietiging, maar is nog steeds effectief in het opschonen van de meeste verwijderbare media. NIST 800-88 Revisie 1 raadt aan een softwaretool te gebruiken dat voldoet aan de standaarden van het Ministerie van Defensie (DoD). [5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specificatie.
 
 ### Zuivering
 
-Zuiveren is het proces waarbij de gegevens op een apparaat meerdere keren worden overschreven met een patroon van binaire waarden. Deze methode is veiliger dan wissen en wordt aanbevolen voor het opschonen van gevoelige gegevens. NIST 800-88 Revisie 1 raadt aan om een softwaretool te gebruiken dat voldoet aan de normen van de [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specificatie.
+Zuiveren is het proces waarbij de gegevens op een apparaat meerdere keren worden overschreven met een patroon van binaire waarden. Deze methode is veiliger dan wissen en wordt aanbevolen voor het opschonen van gevoelige gegevens. NIST 800-88 Revisie 1 raadt aan om een softwaretool te gebruiken dat voldoet aan de normen van de [DoD 5220.22-M](https://simeononsecurity.ch/articles/dod-5220.22-m-data-sanitization-summarized/) specificatie.
 
 __________________________________________
 

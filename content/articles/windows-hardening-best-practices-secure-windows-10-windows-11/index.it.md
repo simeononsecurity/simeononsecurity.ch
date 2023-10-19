@@ -97,7 +97,7 @@ Si consiglia di mantenere l'UAC abilitato e di impostarlo a un livello che garan
 
 Configurando le impostazioni UAC, si migliora la sicurezza del sistema Windows 10 assicurando che i privilegi amministrativi siano richiesti per le modifiche critiche del sistema, riducendo il rischio di accesso non autorizzato e di infezioni da malware.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 L'uso di password forti è essenziale per mantenere la sicurezza del sistema Windows 10 e per proteggersi da accessi non autorizzati. Le password deboli o facilmente indovinabili possono rendere il sistema vulnerabile agli attacchi, come gli attacchi brute-force o il cracking delle password.
 
 Per garantire che tutti gli account utente del sistema Windows 10 abbiano password forti, seguite queste best practice per le password:
@@ -116,7 +116,7 @@ Per garantire che tutti gli account utente del sistema Windows 10 abbiano passwo
 
 L'implementazione di pratiche di password solide migliora significativamente la sicurezza del sistema Windows 10 e riduce il rischio di accesso non autorizzato o di violazione dei dati. Istruite regolarmente gli utenti sulla sicurezza delle password e fornite risorse, come i misuratori di forza delle password o le linee guida per la loro creazione, per aiutarli a creare password forti.
 
-Per informazioni più dettagliate sulla creazione di password forti e sulle migliori pratiche, potete consultare questo articolo [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Fornisce una guida completa sulla sicurezza delle password e offre suggerimenti per la creazione di password forti e memorabili.
+Per informazioni più dettagliate sulla creazione di password forti e sulle migliori pratiche, potete consultare questo articolo [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Fornisce una guida completa sulla sicurezza delle password e offre suggerimenti per la creazione di password forti e memorabili.
 
 Ricordate che l'utilizzo di password forti è un aspetto fondamentale della sicurezza del sistema e deve essere considerato prioritario per proteggere i dati sensibili e garantire l'integrità dell'ambiente Windows 10.
 
@@ -200,7 +200,7 @@ Per informazioni più dettagliate sull'implementazione dei criteri di AppLocker,
 
 Ricordate di rivedere e aggiornare regolarmente i criteri di AppLocker per adattarli ai mutevoli requisiti delle applicazioni e alle nuove minacce alla sicurezza. AppLocker è uno strumento prezioso per difendersi dalle applicazioni non autorizzate e potenzialmente dannose sul sistema Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Eseguire regolarmente il backup dei dati è una pratica essenziale per proteggersi dalla perdita di dati causata da incidenti di sicurezza, guasti hardware o altri eventi imprevisti. Creando backup regolari e verificandone l'integrità, è possibile garantire che i dati importanti rimangano al sicuro e possano essere ripristinati in caso di disastro.
 
 Seguite questi passaggi per eseguire regolarmente il backup dei vostri dati su un sistema Windows 10:
@@ -221,7 +221,7 @@ Seguite questi passaggi per eseguire regolarmente il backup dei vostri dati su u
 
 Seguendo questi passaggi e attenendosi a una routine di backup regolare, è possibile ridurre al minimo l'impatto della perdita di dati e mantenere la disponibilità delle informazioni importanti. Ricordate di conservare i backup in modo sicuro, lontano dai dati originali, e prendete in considerazione l'implementazione della regola del **3-2-1 backup**, che prevede almeno tre copie dei vostri dati, archiviate su due diversi supporti di memorizzazione, con una copia conservata fuori sede.
 
-Per informazioni più dettagliate sulle migliori pratiche di backup e sulla regola del **3-2-1 backup**, potete consultare l'articolo su [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Fornisce indicazioni e raccomandazioni preziose per l'implementazione di una strategia di backup efficace.
+Per informazioni più dettagliate sulle migliori pratiche di backup e sulla regola del **3-2-1 backup**, potete consultare l'articolo su [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Fornisce indicazioni e raccomandazioni preziose per l'implementazione di una strategia di backup efficace.
 
 Ricordate che i backup regolari sono fondamentali per salvaguardare i vostri dati e garantirne la disponibilità in caso di eventi imprevisti. Fate in modo che il backup dei dati sia parte integrante dei vostri sforzi di hardening di Windows 10 per proteggere le vostre preziose informazioni.
 

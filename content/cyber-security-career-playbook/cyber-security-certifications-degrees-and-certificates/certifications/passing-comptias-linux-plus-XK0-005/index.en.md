@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 **Tips and Tricks for Passing CompTIA's Linux+ XK0-005**
 
-CompTIA Linux+ certification is one of the most sought-after certifications in the field of IT. This certification is designed to validate the skills of IT professionals in working with Linux operating systems. The Linux+ certification exam [XK0-005](https://simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/) is the latest version of this exam and validates the skills and knowledge required to configure, monitor, and troubleshoot Linux systems. Here are some tips and tricks to help you pass the [CompTIA Linux+ XK0-005](https://simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/) exam.
+CompTIA Linux+ certification is one of the most sought-after certifications in the field of IT. This certification is designed to validate the skills of IT professionals in working with Linux operating systems. The Linux+ certification exam [XK0-005](https://simeononsecurity.ch/articles/passing-comptias-linux-plus-xk0-005/) is the latest version of this exam and validates the skills and knowledge required to configure, monitor, and troubleshoot Linux systems. Here are some tips and tricks to help you pass the [CompTIA Linux+ XK0-005](https://simeononsecurity.ch/articles/passing-comptias-linux-plus-xk0-005/) exam.
 
 ## [Home](/cyber-security-career-playbook-start/)
 
@@ -54,7 +54,7 @@ To gain hands-on experience, you can set up a lab environment where you can prac
 
 - **Cloud Services**: You can also use cloud services such as Amazon Web Services (AWS) or Microsoft Azure to create virtual machines or containers running Linux. This can be a convenient option if you don't have the resources to set up a physical lab environment.
 
-- [**Home Lab**](https://simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/): If you have the resources, you can set up a physical lab environment at home. This can include one or more physical servers or workstations running Linux, as well as networking equipment such as switches and routers.
+- [**Home Lab**](https://simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/): If you have the resources, you can set up a physical lab environment at home. This can include one or more physical servers or workstations running Linux, as well as networking equipment such as switches and routers.
 
 By getting hands-on experience with Linux systems, you'll gain practical experience in configuring, monitoring, and troubleshooting Linux systems. This will help you prepare for the CompTIA Linux+ XK0-005 exam and also give you valuable skills that can be used in a professional setting.
 
@@ -103,7 +103,7 @@ Some examples of online resources for the CompTIA Linux+ XK0-005 exam include:
 
 - [**YouTube Tutorials**](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp): There are many YouTube channels that provide video tutorials on various Linux-related topics, including some focused specifically on the Linux+ certification. {{< youtube id="YOomKJdLLEo" >}}
 
-- [**Our Guide on Learning Linux**](https://simeononsecurity.com/articles/how-do-i-learn-linux/): This guide provides an overview of how to get started with Linux, including tips for learning both Debian and RHEL-based variants of Linux.
+- [**Our Guide on Learning Linux**](https://simeononsecurity.ch/articles/how-do-i-learn-linux/): This guide provides an overview of how to get started with Linux, including tips for learning both Debian and RHEL-based variants of Linux.
 
 By using online resources, you can access a wide range of study materials and get a better understanding of the exam objectives and sub-topics. Additionally, many online resources offer interactive elements such as forums or chat rooms where you can ask questions and get help from other Linux professionals.
 
@@ -113,7 +113,7 @@ Practice exams are a great way to prepare for the CompTIA Linux+ XK0-005 exam. T
 
 Some examples of practice exams for the CompTIA Linux+ XK0-005 exam include:
 
-- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.com/linux-plus-practice-test)
+- [**SimeonOnSecurity's Linux Plus Practice Test**](https://simeononsecurity.ch/linux-plus-practice-test)
 
 - [**CompTIA Linux+ Certification Practice Exams**](https://www.comptia.org/training/certmaster-practice/linux): This book includes four complete practice exams that are designed to simulate the format and difficulty of the actual exam.
 

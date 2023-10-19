@@ -52,7 +52,7 @@ Moreover, it's essential to download software and updates only from **trusted so
 
 #### Using Strong and Unique Passwords
 
-Using **weak or easily guessable passwords** is a significant security risk. It's essential to use [**unique, complex passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for each account and change them frequently. You can use a **password manager** to safely store and generate [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for all your accounts.
+Using **weak or easily guessable passwords** is a significant security risk. It's essential to use [**unique, complex passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for each account and change them frequently. You can use a **password manager** to safely store and generate [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) for all your accounts.
 
 Additionally, it's crucial to avoid using personal information such as your name, date of birth, or address as part of your password. Cybercriminals can easily guess such information, leaving your accounts vulnerable to attack.
 

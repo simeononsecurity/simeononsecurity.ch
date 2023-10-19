@@ -108,6 +108,6 @@ Alegerea browserului potrivit pentru confidențialitate și securitate este cruc
 | Waterfox: Furculiță de înaltă performanță a Firefox |
 
 
-Pentru a afla mai multe despre confidențialitatea și securitatea online, explorați site-ul nostru [collection of articles](https://simeononsecurity.com/search/?q=privacy+and+security) pe această temă și rămâneți la curent cu cele mai recente știri și tendințe.
+Pentru a afla mai multe despre confidențialitatea și securitatea online, explorați site-ul nostru [collection of articles](https://simeononsecurity.ch/search/?q=privacy+and+security) pe această temă și rămâneți la curent cu cele mai recente știri și tendințe.
 
 

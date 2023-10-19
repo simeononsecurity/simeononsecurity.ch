@@ -93,9 +93,9 @@ Ponadto, jeśli masz jakiekolwiek **profesjonalne profile** na platformach takic
 Podejmując te kroki, zmniejszasz dostępność swoich danych osobowych i sprawiasz, że trudniej jest je wykorzystać. Pamiętaj, aby regularnie monitorować swoją obecność w Internecie, aby upewnić się, że Twoje informacje pozostają bezpieczne i chronione.
 
 #### Dodatkowa lektura dla kroku 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Recommended Privacy Services](https://simeononsecurity.ch/recommendations/services/)
+- [Removing your information from Data Brokers](https://simeononsecurity.ch/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Safe Social Media Practices](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -105,19 +105,19 @@ Wzmocnienie **prywatności online** i **środków bezpieczeństwa** ma kluczowe 
 
 #### a. Przejrzyj i zaktualizuj ustawienia prywatności
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) swoich kont internetowych i upewnić się, że są one ustawione na najwyższy poziom ochrony. Ogranicz widoczność osobistych informacji i postów tylko do zaufanych znajomych lub kontaktów. Na przykład na platformach społecznościowych, takich jak Facebook, przejdź do ustawień prywatności i dostosuj, kto może wyświetlać Twój profil, posty i dane osobowe.
+[**Review the privacy settings**](https://simeononsecurity.ch/articles/safe-social-media-practices-and-protecting-your-privacy-online/) swoich kont internetowych i upewnić się, że są one ustawione na najwyższy poziom ochrony. Ogranicz widoczność osobistych informacji i postów tylko do zaufanych znajomych lub kontaktów. Na przykład na platformach społecznościowych, takich jak Facebook, przejdź do ustawień prywatności i dostosuj, kto może wyświetlać Twój profil, posty i dane osobowe.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) na wszystkich kontach online, gdy tylko jest to możliwe. 2FA dodaje dodatkową warstwę bezpieczeństwa, wymagając dodatkowego kroku weryfikacji, zwykle za pośrednictwem urządzenia mobilnego, aby uzyskać dostęp do kont. Usługi takie jak Google, Facebook i Twitter oferują opcje 2FA. Włącz je, postępując zgodnie z instrukcjami dostarczonymi przez odpowiednie platformy.
+[**Enable two-factor authentication (2FA)**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) na wszystkich kontach online, gdy tylko jest to możliwe. 2FA dodaje dodatkową warstwę bezpieczeństwa, wymagając dodatkowego kroku weryfikacji, zwykle za pośrednictwem urządzenia mobilnego, aby uzyskać dostęp do kont. Usługi takie jak Google, Facebook i Twitter oferują opcje 2FA. Włącz je, postępując zgodnie z instrukcjami dostarczonymi przez odpowiednie platformy.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Use strong, unique passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
-Utwórz [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) dla każdego konta online. **Unikaj używania wspólnych haseł lub ponownego używania haseł na wielu platformach. Rozważ użycie **menedżera haseł** do bezpiecznego przechowywania i zarządzania hasłami. Menedżery haseł, takie jak LastPass, Dashlane lub 1Password, generują i przechowują złożone hasła.
+Utwórz [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) dla każdego konta online. **Unikaj używania wspólnych haseł lub ponownego używania haseł na wielu platformach. Rozważ użycie **menedżera haseł** do bezpiecznego przechowywania i zarządzania hasłami. Menedżery haseł, takie jak LastPass, Dashlane lub 1Password, generują i przechowują złożone hasła.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Be cautious with sharing personal information online](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) na platformach publicznych lub z nieznanymi osobami. **Zachowaj ostrożność** podczas wypełniania formularzy online lub angażowania się w rozmowy z nieznajomymi. Weryfikuj legalność i bezpieczeństwo stron internetowych lub platform przed podaniem jakichkolwiek danych osobowych. Na przykład, **unikanie udostępniania pełnego adresu lub numeru telefonu** na forach publicznych lub w społecznościach internetowych.
+[**Avoid sharing sensitive personal information**](https://simeononsecurity.ch/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) na platformach publicznych lub z nieznanymi osobami. **Zachowaj ostrożność** podczas wypełniania formularzy online lub angażowania się w rozmowy z nieznajomymi. Weryfikuj legalność i bezpieczeństwo stron internetowych lub platform przed podaniem jakichkolwiek danych osobowych. Na przykład, **unikanie udostępniania pełnego adresu lub numeru telefonu** na forach publicznych lub w społecznościach internetowych.
 
 #### e. Regularnie aktualizuj oprogramowanie i korzystaj z ochrony antywirusowej
 

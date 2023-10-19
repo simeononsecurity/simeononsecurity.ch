@@ -97,7 +97,7 @@ Het wordt aanbevolen om UAC ingeschakeld te laten en in te stellen op een niveau
 
 Door UAC-instellingen te configureren, verbeter je de beveiliging van je Windows 10-systeem door ervoor te zorgen dat beheerdersrechten vereist zijn voor kritieke systeemwijzigingen, waardoor het risico op ongeoorloofde toegang en malware-infecties afneemt.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 Het gebruik van sterke wachtwoorden is essentieel voor het handhaven van de beveiliging van je Windows 10-systeem en de bescherming tegen onbevoegde toegang. Zwakke of gemakkelijk te raden wachtwoorden kunnen je systeem kwetsbaar maken voor aanvallen, zoals brute-force aanvallen of het kraken van wachtwoorden.
 
 Volg deze best practices voor wachtwoorden om ervoor te zorgen dat alle gebruikersaccounts op je Windows 10-systeem sterke wachtwoorden hebben:
@@ -116,7 +116,7 @@ Volg deze best practices voor wachtwoorden om ervoor te zorgen dat alle gebruike
 
 Door sterke wachtwoordpraktijken te implementeren, verbetert u de beveiliging van uw Windows 10-systeem aanzienlijk en verlaagt u het risico op onbevoegde toegang of inbreuken op gegevens. Informeer gebruikers regelmatig over wachtwoordbeveiliging en bied hulpmiddelen, zoals wachtwoordsterktemeters of richtlijnen voor het maken van wachtwoorden, om hen te helpen bij het maken van sterke wachtwoorden.
 
-Voor meer gedetailleerde informatie over het maken van sterke wachtwoorden en best practices, kunt u dit raadplegen [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Het biedt uitgebreide richtlijnen voor het beveiligen van wachtwoorden en tips voor het maken van sterke en memorabele wachtwoorden.
+Voor meer gedetailleerde informatie over het maken van sterke wachtwoorden en best practices, kunt u dit raadplegen [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Het biedt uitgebreide richtlijnen voor het beveiligen van wachtwoorden en tips voor het maken van sterke en memorabele wachtwoorden.
 
 Onthoud dat het gebruik van sterke wachtwoorden een fundamenteel aspect van systeembeveiliging is en prioriteit moet krijgen om gevoelige gegevens te beschermen en de integriteit van je Windows 10-omgeving te waarborgen.
 
@@ -200,7 +200,7 @@ Voor meer gedetailleerde informatie over het implementeren van AppLocker-beleids
 
 Vergeet niet om je AppLocker beleid regelmatig te herzien en bij te werken om je aan te passen aan veranderende applicatie-eisen en nieuwe beveiligingsrisico's. AppLocker is een waardevol hulpmiddel in je verdediging tegen ongeautoriseerde en mogelijk schadelijke toepassingen op je Windows 10-systeem.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Het regelmatig maken van back-ups van je gegevens is essentieel om je te beschermen tegen gegevensverlies door beveiligingsincidenten, hardwarestoringen of andere onverwachte gebeurtenissen. Door regelmatig back-ups te maken en de integriteit ervan te controleren, kun je ervoor zorgen dat je belangrijke gegevens veilig blijven en kunnen worden hersteld in het geval van een ramp.
 
 Volg deze stappen om regelmatig een back-up te maken van je gegevens op een Windows 10-systeem:
@@ -221,7 +221,7 @@ Volg deze stappen om regelmatig een back-up te maken van je gegevens op een Wind
 
 Door deze stappen te volgen en een regelmatige back-uproutine aan te houden, kunt u de impact van gegevensverlies minimaliseren en de beschikbaarheid van uw belangrijke informatie behouden. Vergeet niet om uw back-ups veilig op te slaan, niet in de buurt van de oorspronkelijke gegevens, en overweeg om de **3-2-1 back-upregel** toe te passen door ten minste drie kopieën van uw gegevens te bewaren op twee verschillende opslagmedia, met één kopie op een andere locatie.
 
-Voor meer gedetailleerde informatie over best practices voor back-ups en de **3-2-1 back-upregel** kunt u het artikel op [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Het biedt waardevolle inzichten en aanbevelingen voor het implementeren van een effectieve back-upstrategie.
+Voor meer gedetailleerde informatie over best practices voor back-ups en de **3-2-1 back-upregel** kunt u het artikel op [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Het biedt waardevolle inzichten en aanbevelingen voor het implementeren van een effectieve back-upstrategie.
 
 Vergeet niet dat regelmatige back-ups cruciaal zijn om je gegevens te beschermen en de beschikbaarheid ervan te garanderen in geval van onvoorziene gebeurtenissen. Maak het maken van back-ups een integraal onderdeel van je Windows 10 hardening inspanningen om je waardevolle informatie te beschermen.
 

@@ -50,7 +50,7 @@ Para configurar una VPN segura y resistente para sus trabajadores remotos corpor
 
 1. **Seleccione una solución VPN**: Basándose en los factores mencionados anteriormente, elija la solución VPN que mejor se adapte a las necesidades de su organización.
 2. **Configurar el servidor VPN**: Configure un servidor VPN dedicado dentro de su organización u opte por una solución basada en la nube. Configura el servidor según las políticas y requisitos de seguridad de tu empresa.
-3. **Configurar la autenticación**: Implemente un método de autenticación fuerte, como [multi-factor authentication (MFA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para garantizar que sólo los empleados autorizados puedan acceder a la VPN.
+3. **Configurar la autenticación**: Implemente un método de autenticación fuerte, como [multi-factor authentication (MFA)](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para garantizar que sólo los empleados autorizados puedan acceder a la VPN.
 4. **Distribuya el software cliente VPN**: Proporcione a sus trabajadores remotos el software cliente VPN y los archivos de configuración necesarios para acceder a la VPN.
 
 ______
@@ -81,7 +81,7 @@ ______
 Para garantizar el éxito de la implantación de su solución VPN, proporcione a sus empleados remotos la formación y el apoyo necesarios para ayudarles a comprender cómo utilizar la VPN de forma eficaz y segura. Algunos temas importantes a cubrir incluyen:
 
 - **Cómo configurar y conectarse a la VPN**: Proporcionar instrucciones claras sobre la instalación del software cliente VPN, la configuración de los ajustes y la conexión a la VPN.
-- Mejores prácticas de seguridad**: Eduque a sus empleados sobre la importancia de utilizar contraseñas seguras y únicas, habilitar [multi-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) y mantener sus dispositivos seguros.
+- Mejores prácticas de seguridad**: Eduque a sus empleados sobre la importancia de utilizar contraseñas seguras y únicas, habilitar [multi-factor authentication](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) y mantener sus dispositivos seguros.
 - Solución de problemas**: Ofrecer orientación sobre cómo resolver problemas comunes de conexión VPN y con quién ponerse en contacto para obtener asistencia técnica.
 
 ______

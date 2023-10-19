@@ -15,7 +15,7 @@ ref: ["/articles/how-to-build-docker-containers-from-scratch","/articles/how-to-
  
 **Optimizing Docker Images for Efficiency, Performance, and Security**
 
-In the realm of containerization, [**Docker**](https://simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/) reigns supreme. **Docker images** serve as the foundation of containerized applications, encapsulating every element required for seamless operation, from code to essential libraries and dependencies. However, as applications expand and evolve, [**Docker images**](https://simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/) can bloat, resulting in inefficient and resource-intensive containers. In this comprehensive guide, we delve into expert techniques to meticulously optimize **Docker images**, enhancing efficiency, boosting performance, and fortifying security.
+In the realm of containerization, [**Docker**](https://simeononsecurity.ch/articles/how-to-build-docker-containers-from-scratch/) reigns supreme. **Docker images** serve as the foundation of containerized applications, encapsulating every element required for seamless operation, from code to essential libraries and dependencies. However, as applications expand and evolve, [**Docker images**](https://simeononsecurity.ch/articles/how-to-secure-your-docker-and-kubernetes-environment/) can bloat, resulting in inefficient and resource-intensive containers. In this comprehensive guide, we delve into expert techniques to meticulously optimize **Docker images**, enhancing efficiency, boosting performance, and fortifying security.
 
 ## **Introduction**
 
@@ -24,7 +24,7 @@ In the realm of containerization, [**Docker**](https://simeononsecurity.com/arti
 In the world of containerization, **Docker** has become a household name. **Docker images** are the building blocks of containerized applications. They encapsulate everything an application needs to run, from code to libraries and dependencies. However, as your application grows and evolves, so do your **Docker images**, often leading to bloated and inefficient containers. In this article, we'll explore techniques to optimize **Docker images** for efficiency, performance, and security.
 
 ______
-Explore more about [Docker optimization](https://simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/) and [container security](https://simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/) in these informative articles:
+Explore more about [Docker optimization](https://simeononsecurity.ch/articles/how-to-build-docker-containers-from-scratch/) and [container security](https://simeononsecurity.ch/articles/how-to-secure-your-docker-and-kubernetes-environment/) in these informative articles:
 
 - [How to Build Docker Containers from Scratch](/articles/how-to-build-docker-containers-from-scratch/)
 - [How to Secure Your Docker and Kubernetes Environment](/articles/how-to-secure-your-docker-and-kubernetes-environment/)

@@ -40,7 +40,7 @@ Efficient documentation and collaboration are essential. **Microsoft Office 365*
 
 ### Programming and Scripting
 
-IT professionals often require programming and scripting tools. [**Python**](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) and [**PowerShell**](https://simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/) are indispensable for automating tasks and managing systems efficiently.
+IT professionals often require programming and scripting tools. [**Python**](https://simeononsecurity.ch/articles/secure-coding-standards-for-python/) and [**PowerShell**](https://simeononsecurity.ch/articles/learning-powershell-scripting-for-beginners/) are indispensable for automating tasks and managing systems efficiently.
 
 ______
 

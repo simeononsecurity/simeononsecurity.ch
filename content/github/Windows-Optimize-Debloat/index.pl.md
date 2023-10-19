@@ -59,7 +59,7 @@ Jeśli jednak nadal chcesz korzystać z tych usług, zapoznaj się z poniższymi
 ### Automatyczna instalacja:
 Skrypt można uruchomić z wyodrębnionego pliku do pobrania z GitHub w następujący sposób:
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeanddebloat.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
 ### Instalacja ręczna:
 W przypadku ręcznego pobrania skrypt należy uruchomić z poziomu administracyjnego powershell w katalogu zawierającym wszystkie pliki z pliku [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Debloat)

@@ -16,7 +16,7 @@ SimeonOnSecurity обновил страницу на своем сайте и �
 Еще два ресурса связаны с преобразованием JSON-данных в PowerShell. В документации Microsoft содержится информация о командах ConvertFrom-Json и ConvertTo-Json. Эти команды позволяют преобразовывать JSON-данные в объекты PowerShell и из них, что упрощает манипулирование и анализ данных.
 
 ## Обновленные страницы:
-- [HackTheBox - Invite Challenge (Windows/Linux)](https://simeononsecurity.com/writeups/hackthebox-invite-challenge/)
+- [HackTheBox - Invite Challenge (Windows/Linux)](https://simeononsecurity.ch/writeups/hackthebox-invite-challenge/)
 
 ## Учебные ресурсы:
 - [Cameron Nokes - Working with JSON in bash using jq](https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/)

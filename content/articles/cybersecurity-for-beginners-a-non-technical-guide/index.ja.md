@@ -86,10 +86,10 @@ coverAlt: "デジタル機器をサイバー脅威から守るシールドの漫
 
 オンライン・セキュリティ**を強化するために、以下のようないくつかの実践的なヒントがあります：
 
-- を使用する [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/)
-- イネーブル [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)あなたのすべてのアカウントで
+- を使用する [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-choose-a-password-manager/)
+- イネーブル [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)あなたのすべてのアカウントで
 - オンラインで共有する**個人情報**の量を制限すること
-- であること [**cautious**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)知らないところから来たメールやリンクを開くと
+- であること [**cautious**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)知らないところから来たメールやリンクを開くと
 
 これらのヒントに従うことで、**サイバー脅威**の被害者になるリスクを**低減することができます。
 
@@ -102,7 +102,7 @@ coverAlt: "デジタル機器をサイバー脅威から守るシールドの漫
 堅牢なサイバーセキュリティ戦略**には、以下のようないくつかの重要な要素が含まれます：
 
 - デバイスやソフトウェアの定期的なアップデートとセキュリティパッチ**。
-- [**Strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [**Strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) and [**multi-factor authentication techniques**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 - ファイアウォールやセキュアVPNなど、**ネットワークのセキュリティ対策**。
 - オンラインで共有する個人情報**の量の制限
 
@@ -113,11 +113,11 @@ coverAlt: "デジタル機器をサイバー脅威から守るシールドの漫
 サイバーセキュリティのベストプラクティス**に関しては、初心者の方が取るべき重要なステップがいくつか存在します：
 
 - 定期的にデバイスやソフトウェアを最新の**セキュリティパッチ**でアップデートする。
-- 使用方法 [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)と**多要素認証技術**を活用する。
+- 使用方法 [**strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)と**多要素認証技術**を活用する。
 - オンラインで共有する**個人情報**の量を制限すること
-- 開封時に注意する [**emails or links from unknown sources**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+- 開封時に注意する [**emails or links from unknown sources**](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-さらに、評判の良い商品への投資も検討しましょう。 [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.com/recommendations/vpns/)
+さらに、評判の良い商品への投資も検討しましょう。 [**antivirus software**](https://simeononsecurity.ch/recommendations/anti-virus/) and network security measures, such as **firewalls** and [**secure VPNs**](https://simeononsecurity.ch/recommendations/vpns/)
 
 ### **デジタルランドスケープをナビゲートする：サイバーセキュリティの初心者向けガイド**」。
 

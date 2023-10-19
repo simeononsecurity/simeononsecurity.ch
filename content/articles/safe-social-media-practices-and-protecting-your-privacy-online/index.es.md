@@ -56,9 +56,9 @@ ______
 
 Aquí tienes algunos **consejos** adicionales para mejorar tu privacidad y seguridad en las redes sociales:
 
-1. [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Crea contraseñas seguras para tus cuentas de redes sociales y evita reutilizarlas en varias plataformas. Considera la posibilidad de utilizar un gestor de contraseñas para almacenar y generar contraseñas complejas de forma segura.
+1. [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Crea contraseñas seguras para tus cuentas de redes sociales y evita reutilizarlas en varias plataformas. Considera la posibilidad de utilizar un gestor de contraseñas para almacenar y generar contraseñas complejas de forma segura.
 
-2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) siempre que sea posible. Esto añade una capa adicional de seguridad al requerir un código de verificación además de su contraseña al iniciar sesión.
+2. [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize two-factor authentication (2FA) siempre que sea posible. Esto añade una capa adicional de seguridad al requerir un código de verificación además de su contraseña al iniciar sesión.
 
 3. **Revise periódicamente su lista de amigos y seguidores: Revisa periódicamente tu lista de amigos y seguidores para asegurarte de que sólo estás conectado con personas que conoces y en las que confías.
 

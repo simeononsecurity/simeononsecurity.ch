@@ -36,17 +36,17 @@ En 2017, la[WannaCry ransomware attack](https://www.cisa.gov/wannacry) afectó a
 
 Las medidas preventivas pueden ayudar a particulares y organizaciones a protegerse contra los ataques de ransomware. A continuación se indican algunas medidas preventivas a tener en cuenta:
 
--[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Las copias de seguridad periódicas pueden ayudar a restaurar los datos si se produce un ataque de ransomware.
+-[**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Las copias de seguridad periódicas pueden ayudar a restaurar los datos si se produce un ataque de ransomware.
 
--[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Mantenga todo el software, incluidos los sistemas operativos y las aplicaciones, actualizado con los últimos parches de seguridad.
+-[**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Mantenga todo el software, incluidos los sistemas operativos y las aplicaciones, actualizado con los últimos parches de seguridad.
 
--[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Instale y utilice software antivirus para detectar y prevenir ataques de ransomware.
+-[**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Instale y utilice software antivirus para detectar y prevenir ataques de ransomware.
 
--[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Eduque a los empleados sobre cómo reconocer y evitar los correos electrónicos de phishing y otros tipos de ataques de ingeniería social.
+-[**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Eduque a los empleados sobre cómo reconocer y evitar los correos electrónicos de phishing y otros tipos de ataques de ingeniería social.
 
--[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) para evitar el acceso no autorizado a las cuentas.
+-[**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) para evitar el acceso no autorizado a las cuentas.
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Utilice una VPN para cifrar el tráfico de Internet y protegerse de los ataques basados en la red.
+-[**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Utilice una VPN para cifrar el tráfico de Internet y protegerse de los ataques basados en la red.
 
 ## Conclusión
 

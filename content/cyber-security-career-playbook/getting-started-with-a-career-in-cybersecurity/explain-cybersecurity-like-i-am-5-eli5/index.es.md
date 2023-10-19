@@ -24,23 +24,23 @@ Imagine despertarse un día y descubrir que todos sus mensajes, fotos y archivos
 
 Los profesionales de la ciberseguridad son como los superhéroes del mundo digital. Tienen habilidades especiales para proteger nuestra información digital de los malos. Pero no todos los profesionales de la ciberseguridad hacen lo mismo. Es como los médicos: todos tienen una formación común, pero luego se especializan en distintas áreas. Algunos profesionales de la ciberseguridad se convierten en expertos en encontrar y corregir vulnerabilidades en los sistemas informáticos, mientras que otros se centran en crear defensas sólidas para mantener alejados a los malos. Trabajan en equipo y aprenden y mejoran constantemente sus habilidades para ir por delante de los malos.
 
-## [Personal Security Hygiene](https://simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
+## [Personal Security Hygiene](https://simeononsecurity.ch/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
 
 Aunque no te conviertas en un profesional de la ciberseguridad, puedes hacer algunas cosas para protegerte a ti y a tu familia de los malos de Internet. Conozcamos algunas prácticas básicas de higiene de seguridad personal que pueden ayudarle a mantenerse a salvo:
 
-### [Phishing: Don't Get Hooked](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### [Phishing: Don't Get Hooked](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
 Phishing es cuando los malos intentan engañarte para que les des tu información personal, como contraseñas o números de tarjetas de crédito. Pueden enviarle correos electrónicos o mensajes que parecen reales, pero que en realidad son falsos. Quieren que hagas clic en enlaces que te llevan a sitios web falsos donde pueden robar tu información. Así que tenga cuidado y no haga clic en ningún enlace sospechoso. Si algo parece extraño o demasiado bueno para ser verdad, probablemente sea un malhechor intentando engañarte.
 
-### [Software Updates: Stay Updated and Protected](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
+### [Software Updates: Stay Updated and Protected](https://simeononsecurity.ch/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
 
 Al igual que los juguetes o la ropa, los dispositivos, como el teléfono o el ordenador, también necesitan actualizaciones. Estas actualizaciones ayudan a solucionar cualquier problema o fallo de seguridad que los malos puedan utilizar para entrar en tus dispositivos. Así que asegúrate de instalar las actualizaciones cuando te lo pidan. Es como poner una cerradura en la puerta de tu habitación para evitar que entren los malos.
 
-### [Strong Passwords: Secret Codes for Safety](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+### [Strong Passwords: Secret Codes for Safety](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 
 Una contraseña segura es como un código secreto que sólo tú conoces. Debe ser larga y compleja, con una mezcla de letras, números y caracteres especiales. Evite utilizar palabras comunes o información personal que alguien pueda adivinar fácilmente. También es importante utilizar contraseñas distintas para sitios web o cuentas diferentes. De este modo, si piratean una contraseña, los delincuentes no podrán acceder al resto de tus cuentas. Si recordar todas esas contraseñas te resulta difícil, puedes utilizar un gestor de contraseñas para almacenarlas y gestionarlas de forma segura.
 
-### [Multi-Factor Authentication: Double Locks for Extra Security](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Multi-Factor Authentication: Double Locks for Extra Security](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 La autenticación multifactor (AMF) añade una capa adicional de seguridad a sus cuentas en línea. Es como tener doble cerradura en la puerta. Con la AMF, para acceder a tu cuenta tienes que proporcionar información adicional, como un código especial enviado a tu teléfono, junto con tu contraseña. Esto hace que sea mucho más difícil para los malos entrar, incluso si conocen tu contraseña. Así que, siempre que un sitio web o una aplicación ofrezca MFA, asegúrate de activarlo para una mayor protección.
 
@@ -52,8 +52,8 @@ La ciberseguridad es como un superhéroe que protege nuestro mundo digital de lo
 
 1. [Stay Safe Online: Software Updates](https://www.staysafeonline.org/stay-safe-online/keep-a-clean-machine/software-updates/)
 2. [Creating a Strong Password](https://www.us-cert.gov/ncas/tips/ST04-002)
-3. [A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
-4. [Streamline Windows Package Management with Chocolatey: Simplify Updates and Enhance Security](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
-5. [Creating Strong Passwords: A Guide to Security and Password Management](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
-6. [Recognizing Phishing Attempts: Common Indicators and Safety Tips](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
-7. [Assume Every Device Is Already Compromised: Strengthening Digital Security in an Interconnected World](https://simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/)
+3. [A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+4. [Streamline Windows Package Management with Chocolatey: Simplify Updates and Enhance Security](https://simeononsecurity.ch/articles/why-you-should-be-using-chocolatey-for-windows-package-management/)
+5. [Creating Strong Passwords: A Guide to Security and Password Management](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
+6. [Recognizing Phishing Attempts: Common Indicators and Safety Tips](https://simeononsecurity.ch/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+7. [Assume Every Device Is Already Compromised: Strengthening Digital Security in an Interconnected World](https://simeononsecurity.ch/articles/why-you-should-assume-every-device-you-touch-is-compromised/)

@@ -92,7 +92,7 @@ CompTIA CertMaster 官方在线学习平台是学习 CompTIA A+ 考试的最佳�
 
 有多种在线资源提供 CompTIA A+ 考试的模拟考试。其中比较受欢迎的包括
 
-- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.com/a-plus-practice-test)
+- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.ch/a-plus-practice-test)
 - [**CertMaster Practice from CompTIA**](https://www.comptia.org/training/certmaster-practice/a)CertMaster Practice 提供一系列练习考试和测验，旨在帮助您为实际考试做好准备。
 - [**ExamCompass**](https://www.examcompass.com/)ExamCompass 提供一系列 CompTIA A+ 考试及其他 IT 认证的免费模拟考试。
 - [**Udemy**](https://www.udemy.com/)Udemy 为 CompTIA A+ 考试提供各种付费课程和模拟考试。

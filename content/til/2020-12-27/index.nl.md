@@ -57,4 +57,4 @@ Tot slot is SimeonOnSecurity vandaag verschillende interessante bronnen tegengek
 
 ## nikitavoloboev/privacy-respecting:
 - [https://github.com/nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting)
-- Een geweldige lijst met privacy respecterende diensten en software. Ik heb al [recommend](https://simeononsecurity.com/recommendations) sommige van de gelinkte items. Ik ben van plan om verder te lezen in de items van de lijst.
+- Een geweldige lijst met privacy respecterende diensten en software. Ik heb al [recommend](https://simeononsecurity.ch/recommendations) sommige van de gelinkte items. Ik ben van plan om verder te lezen in de items van de lijst.

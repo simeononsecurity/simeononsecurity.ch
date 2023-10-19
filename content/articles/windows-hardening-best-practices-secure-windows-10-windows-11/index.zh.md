@@ -97,7 +97,7 @@ Windows Defender 是 Windows 10 附带的**强大的杀毒解决方案。它提�
 
 通过配置 UAC 设置，您可以确保关键的系统更改需要管理员权限，从而增强 Windows 10 系统的安全性，降低未经授权的访问和恶意软件感染的风险。
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### 4. [**Use Strong Passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)
 使用强大的密码对于维护 Windows 10 系统安全和防止未经授权的访问至关重要。弱密码或容易猜到的密码会使您的系统容易受到攻击，如暴力破解攻击或密码破解。
 
 要确保 Windows 10 系统上的所有用户帐户都有强大的密码，请遵循以下密码最佳实践：
@@ -116,7 +116,7 @@ Windows Defender 是 Windows 10 附带的**强大的杀毒解决方案。它提�
 
 通过实施强大的密码操作，可以大大提高 Windows 10 系统的安全性，降低未经授权访问或数据泄露的风险。定期对用户进行密码安全教育，并提供密码强度表或密码创建指南等资源，帮助他们创建强大的密码。
 
-有关创建强密码和最佳实践的更多详细信息，请参阅以下内容 [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)它提供了密码安全方面的全面指导，并提供了创建强大、易记密码的技巧。
+有关创建强密码和最佳实践的更多详细信息，请参阅以下内容 [article](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/)它提供了密码安全方面的全面指导，并提供了创建强大、易记密码的技巧。
 
 请记住，使用强密码是系统安全的一个基本方面，应优先保护敏感数据并确保 Windows 10 环境的完整性。
 
@@ -200,7 +200,7 @@ AppLocker 可提供对应用程序执行的细粒度控制，帮助您防止未�
 
 请记住定期检查和更新您的 AppLocker 策略，以适应不断变化的应用程序要求和新出现的安全威胁。AppLocker 是您抵御 Windows 10 系统上未经授权和潜在有害应用程序的重要工具。
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 定期备份数据是防止因安全事故、硬件故障或其他意外事件造成数据丢失的必要做法。通过创建定期备份并验证其完整性，您可以确保重要数据的安全，并在发生灾难时能够恢复。
 
 请按照以下步骤在 Windows 10 系统上定期备份数据：
@@ -221,7 +221,7 @@ AppLocker 可提供对应用程序执行的细粒度控制，帮助您防止未�
 
 通过遵循这些步骤并坚持定期备份，您可以将数据丢失的影响降至最低，并保持重要信息的可用性。切记安全存储备份，远离原始数据，并考虑实施**3-2-1 备份规则**，即至少有三份数据副本，存储在两个不同的存储介质上，其中一份存储在异地。
 
-有关备份最佳实践和**3-2-1 备份规则**的更多详细信息，请参阅以下文章 [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)它为实施有效的备份战略提供了宝贵的见解和建议。
+有关备份最佳实践和**3-2-1 备份规则**的更多详细信息，请参阅以下文章 [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)它为实施有效的备份战略提供了宝贵的见解和建议。
 
 请记住，定期备份对于保护数据和确保数据在意外事件发生时的可用性至关重要。将数据备份作为 Windows 10 加固工作不可分割的一部分，以保护您的宝贵信息。
 

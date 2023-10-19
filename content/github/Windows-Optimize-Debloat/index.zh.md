@@ -59,7 +59,7 @@ tags: ["视窗-优化-去毛刺", "Windows 优化", "浮动窗口", "加速 Wind
 #### 自动安装：
 可以像这样从 GitHub 下载的提取文件中启动脚本：
 ```powershell
-iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeanddebloat.ps1'|iex
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
 #### 手动安装：
 如果是手动下载，则必须在包含来自 [GitHub Repository](https://github.com/simeononsecurity/Windows-Optimize-Debloat)

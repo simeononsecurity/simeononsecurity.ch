@@ -27,15 +27,15 @@ ______
 
 ### 1.教育和认识
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)是抵御社会工程学攻击的第一道防线。应培训个人识别社交工程攻击的迹象并采取适当行动。这包括警惕不请自来的信息请求，在泄露敏感信息前核实个人身份，以及向 IT 或安全人员报告任何可疑活动。
+[**Education and awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)是抵御社会工程学攻击的第一道防线。应培训个人识别社交工程攻击的迹象并采取适当行动。这包括警惕不请自来的信息请求，在泄露敏感信息前核实个人身份，以及向 IT 或安全人员报告任何可疑活动。
 
 ### 2.强密码和多因素身份验证
 
-使用 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)实施**多因素身份验证**有助于防止依赖密码猜测或暴力攻击的社交工程攻击。强密码的长度至少应为 12 个字符，并包含大小写字母、数字和特殊字符。多因素身份验证要求用户提供密码以外的其他身份证明，从而增加了一层额外的安全性。
+使用 [**strong passwords**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/)实施**多因素身份验证**有助于防止依赖密码猜测或暴力攻击的社交工程攻击。强密码的长度至少应为 12 个字符，并包含大小写字母、数字和特殊字符。多因素身份验证要求用户提供密码以外的其他身份证明，从而增加了一层额外的安全性。
 
 ### 3.安全电子邮件和网页浏览
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email)可以帮助防止依靠网络钓鱼诈骗或其他形式恶意内容的社交工程攻击。这包括使用垃圾邮件过滤器阻止未经请求的电子邮件，避免点击链接或下载不明来源的附件，以及使用网络过滤器阻止访问已知的恶意网站。
+[**Secure email and web browsing**](https://simeononsecurity.ch/recommendations/email)可以帮助防止依靠网络钓鱼诈骗或其他形式恶意内容的社交工程攻击。这包括使用垃圾邮件过滤器阻止未经请求的电子邮件，避免点击链接或下载不明来源的附件，以及使用网络过滤器阻止访问已知的恶意网站。
 
 ### 4.定期安全更新和补丁
 

@@ -15,7 +15,7 @@ coverCaption: "Secure your PowerShell scripts with effective security practices.
 
 PowerShell is a powerful scripting language and automation framework developed by Microsoft. It provides administrators and developers with a wide range of capabilities for managing and automating Windows environments. However, as with any powerful tool, it is crucial to follow **best practices for PowerShell security** to prevent unauthorized access, protect sensitive information, and minimize the risk of security breaches.
 
-In this article, we will explore [**PowerShell security best practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-powershell/), focusing on script and password security. By implementing these practices, you can ensure that your PowerShell scripts and passwords remain secure, reducing the potential for malicious activity and data breaches.
+In this article, we will explore [**PowerShell security best practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-powershell/), focusing on script and password security. By implementing these practices, you can ensure that your PowerShell scripts and passwords remain secure, reducing the potential for malicious activity and data breaches.
 
 ## Understanding PowerShell Security
 

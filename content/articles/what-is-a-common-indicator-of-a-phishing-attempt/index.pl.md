@@ -48,19 +48,19 @@ Próby phishingu zazwyczaj wymagają podania danych osobowych, takich jak hasła
 
 Zachowaj ostrożność w przypadku nieoczekiwanych załączników do wiadomości e-mail, zwłaszcza jeśli pochodzą one od nieznanych nadawców. Wiadomości phishingowe mogą zawierać załączniki zawierające złośliwe oprogramowanie lub wirusy. Unikaj otwierania załączników, chyba że się ich spodziewasz i zweryfikowałeś źródło.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Tips for Staying Safe Online**](https://simeononsecurity.ch/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Teraz, gdy znasz już typowe wskaźniki prób phishingu, oto kilka wskazówek, które pomogą Ci zachować bezpieczeństwo w Internecie:
 
 - **Dbaj o aktualność oprogramowania**: Regularnie aktualizuj system operacyjny, oprogramowanie antywirusowe i inne aplikacje w celu ochrony przed znanymi lukami w zabezpieczeniach.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę zabezpieczeń do kont online, wymagając dodatkowej weryfikacji, takiej jak unikalny kod wysyłany na urządzenie mobilne.
+- [**Enable two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę zabezpieczeń do kont online, wymagając dodatkowej weryfikacji, takiej jak unikalny kod wysyłany na urządzenie mobilne.
 
 - **Edukacja**: Bądź na bieżąco z najnowszymi technikami phishingu i oszustwami. Zapoznaj się z typowymi wskaźnikami i regularnie sprawdzaj zaufane źródła w celu uzyskania aktualizacji na temat nowych zagrożeń.
 
 - Bądź ostrożny z danymi osobowymi**: Unikaj udostępniania poufnych informacji online, chyba że masz pewność co do legalności i bezpieczeństwa witryny lub usługi, z której korzystasz.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utwórz silne i unikalne hasła dla każdego ze swoich kont, aby zminimalizować ryzyko nieautoryzowanego dostępu.
+- [**Use strong and unique passwords**](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/) Utwórz silne i unikalne hasła dla każdego ze swoich kont, aby zminimalizować ryzyko nieautoryzowanego dostępu.
 
 ______
 
@@ -70,7 +70,7 @@ Rozpoznawanie wskaźników próby phishingu jest niezbędne do ochrony danych os
 
 Pamiętaj, aby być na bieżąco, zapoznawać się z najnowszymi technikami phishingu i przestrzegać najlepszych praktyk w zakresie bezpieczeństwa online. Wdrażając te wskazówki i zachowując ostrożność, możesz zwiększyć swoje bezpieczeństwo online i zminimalizować ryzyko padnięcia ofiarą prób phishingu.
 
-Dowiedz się [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Dowiedz się [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.ch/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

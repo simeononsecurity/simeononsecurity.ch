@@ -48,7 +48,7 @@ Machine learning algorithms rely on vast amounts of data to identify patterns an
 
 ### Train Your Employees
 
-Even with the most advanced cybersecurity solutions in place, your organization is only as secure as its weakest link. That's why it's essential to train your employees on best practices for cybersecurity. This includes training on how to identify and avoid phishing scams, how to create [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), and how to handle sensitive data securely. By educating your employees, you can reduce the risk of human error and ensure that everyone in your organization is taking an active role in maintaining security.
+Even with the most advanced cybersecurity solutions in place, your organization is only as secure as its weakest link. That's why it's essential to train your employees on best practices for cybersecurity. This includes training on how to identify and avoid phishing scams, how to create [strong passwords](https://simeononsecurity.ch/articles/how-to-create-strong-passwords/), and how to handle sensitive data securely. By educating your employees, you can reduce the risk of human error and ensure that everyone in your organization is taking an active role in maintaining security.
 
 ### Monitor and Evaluate Machine Learning Algorithms
 

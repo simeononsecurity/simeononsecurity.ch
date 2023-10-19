@@ -36,17 +36,17 @@ Atacurile de tip ransomware au afectat persoane fizice, întreprinderi și guver
 
 Măsurile preventive pot ajuta persoanele și organizațiile să se protejeze împotriva atacurilor ransomware. Următoarele sunt câteva măsuri preventive de luat în considerare:
 
-- [**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Copiile de rezervă regulate pot ajuta la restaurarea datelor în cazul unui atac ransomware.
+- [**Backup data regularly:**](https://simeononsecurity.ch/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Copiile de rezervă regulate pot ajuta la restaurarea datelor în cazul unui atac ransomware.
 
-- [**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Păstrați toate programele software, inclusiv sistemele de operare și aplicațiile, la zi cu cele mai recente patch-uri de securitate.
+- [**Keep software up to date:**](https://simeononsecurity.ch/articles/implementing-patches-for-systems-with-vulnerabilities/) Păstrați toate programele software, inclusiv sistemele de operare și aplicațiile, la zi cu cele mai recente patch-uri de securitate.
 
-- [**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Instalați și utilizați un software antivirus pentru a detecta și preveni atacurile ransomware.
+- [**Use antivirus software:**](https://simeononsecurity.ch/recommendations/anti-virus) Instalați și utilizați un software antivirus pentru a detecta și preveni atacurile ransomware.
 
-- [**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Educați angajații cu privire la modul în care pot recunoaște și evita e-mailurile de phishing și alte tipuri de atacuri de inginerie socială.
+- [**Educate employees:**](https://simeononsecurity.ch/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Educați angajații cu privire la modul în care pot recunoaște și evita e-mailurile de phishing și alte tipuri de atacuri de inginerie socială.
 
-- [**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) pentru a preveni accesul neautorizat la conturi.
+- [**Use multi-factor authentication:**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) pentru a preveni accesul neautorizat la conturi.
 
-- [**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Utilizați un VPN pentru a cripta traficul de internet și pentru a vă proteja împotriva atacurilor bazate pe rețea.
+- [**Use a virtual private network (VPN):**](https://simeononsecurity.ch/recommendations/vpns/) Utilizați un VPN pentru a cripta traficul de internet și pentru a vă proteja împotriva atacurilor bazate pe rețea.
 
 ## Concluzie
 

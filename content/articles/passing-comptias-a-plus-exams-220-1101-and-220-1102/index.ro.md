@@ -92,7 +92,7 @@ Una dintre cele mai bune modalități de a vă pregăti pentru examenele CompTIA
 
 Există o varietate de resurse online disponibile care oferă examene practice pentru examenele CompTIA A+. Unele opțiuni populare includ:
 
-- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.com/a-plus-practice-test)
+- [**SimeonOnSecurity's A Plus Practice Test**](https://simeononsecurity.ch/a-plus-practice-test)
 - [**CertMaster Practice from CompTIA**](https://www.comptia.org/training/certmaster-practice/a) CertMaster Practice oferă o serie de examene practice și teste care sunt concepute pentru a vă ajuta să vă pregătiți pentru examenul real.
 - [**ExamCompass**](https://www.examcompass.com/) ExamCompass oferă o serie de examene practice gratuite pentru examenele CompTIA A+, precum și pentru alte certificări IT.
 - [**Udemy**](https://www.udemy.com/) Udemy oferă o varietate de cursuri plătite și examene practice pentru examenele CompTIA A+.

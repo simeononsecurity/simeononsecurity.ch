@@ -63,7 +63,7 @@ ______
 
 [**Udemy**](https://www.udemy.com/) is a popular online marketplace for learning, offering a wide range of cybersecurity courses created by both industry professionals and independent instructors. Udemy's vast selection of courses covers various cybersecurity domains, allowing learners to choose courses based on their interests and skill levels.
 
-Learn about more [online training platforms](https://simeononsecurity.com/recommendations/learning_resources).
+Learn about more [online training platforms](https://simeononsecurity.ch/recommendations/learning_resources).
 
 ## Recommended Books for Cybersecurity Training
 
@@ -83,7 +83,7 @@ In addition to online programs and video courses, books are an excellent resourc
 
 These books offer in-depth knowledge and practical insights into cybersecurity topics. They can serve as valuable resources to complement online training and expand your understanding of the field.
 
-Learn about more [SimeonOnSecurity's Recommended Books](https://simeononsecurity.com/recommendations/books).
+Learn about more [SimeonOnSecurity's Recommended Books](https://simeononsecurity.ch/recommendations/books).
 
 ______
 

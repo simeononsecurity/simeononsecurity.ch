@@ -31,11 +31,11 @@ Ein **Master-Abschluss** in Cybersicherheit bietet fortgeschrittenes Wissen und 
 ### Zertifizierungen
 Zusätzlich zur formalen Ausbildung kann der Erwerb einschlägiger Zertifizierungen Ihre Glaubwürdigkeit und Marktfähigkeit auf dem Gebiet der Cybersicherheit erheblich steigern. Hier sind einige weithin anerkannte Zertifizierungen:
 
-- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/) Diese weltweit anerkannte Zertifizierung bestätigt Ihre Kompetenz bei der Entwicklung, Implementierung und Verwaltung eines Cybersicherheitsprogramms auf Unternehmensebene.
-- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Diese Zertifizierung weist Ihr Wissen über Hacking-Techniken nach und hilft Unternehmen, Schwachstellen in ihren Systemen zu erkennen.
-- [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Diese Einstiegszertifizierung umfasst die grundlegenden Kenntnisse und Fähigkeiten, die zur Sicherung von Netzwerken und Systemen erforderlich sind.
+- [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.ch/articles/a-guide-to-earning-the-isc2-cissp-certification/) Diese weltweit anerkannte Zertifizierung bestätigt Ihre Kompetenz bei der Entwicklung, Implementierung und Verwaltung eines Cybersicherheitsprogramms auf Unternehmensebene.
+- [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) Diese Zertifizierung weist Ihr Wissen über Hacking-Techniken nach und hilft Unternehmen, Schwachstellen in ihren Systemen zu erkennen.
+- [**CompTIA Security+**](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) Diese Einstiegszertifizierung umfasst die grundlegenden Kenntnisse und Fähigkeiten, die zur Sicherung von Netzwerken und Systemen erforderlich sind.
 
-Erfahren Sie mehr über [recommended cybersecurity certifications](https://simeononsecurity.com/recommendations/certifications/)
+Erfahren Sie mehr über [recommended cybersecurity certifications](https://simeononsecurity.ch/recommendations/certifications/)
 
 ______
 

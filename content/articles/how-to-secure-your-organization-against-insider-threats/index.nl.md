@@ -37,7 +37,7 @@ __________
 
 De training moet worden aangeboden aan alle nieuwe werknemers en moet regelmatig worden herhaald voor bestaande werknemers. Dit zorgt ervoor dat werknemers op de hoogte zijn van de nieuwste bedreigingen en weten hoe ze hierop moeten reageren. Daarnaast moeten organisaties gerichte training geven aan werknemers met bevoorrechte toegang tot gevoelige gegevens en systemen.
 
-[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Training kan vele vormen aannemen, waaronder online cursussen, persoonlijke training en gesimuleerde phishingaanvallen. Organisaties moeten de vorm kiezen die het beste werkt voor hun werknemers en moeten de voltooiing van de training bijhouden om er zeker van te zijn dat alle werknemers de benodigde training hebben ontvangen.
+[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Training kan vele vormen aannemen, waaronder online cursussen, persoonlijke training en gesimuleerde phishingaanvallen. Organisaties moeten de vorm kiezen die het beste werkt voor hun werknemers en moeten de voltooiing van de training bijhouden om er zeker van te zijn dat alle werknemers de benodigde training hebben ontvangen.
 
 __________
 

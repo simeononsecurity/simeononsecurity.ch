@@ -37,7 +37,7 @@ __________
 
 Training should be provided to all new hires and should be repeated regularly for existing employees. This ensures that employees are up to date on the latest threats and know how to respond to them. In addition, organizations should provide targeted training to employees with privileged access to sensitive data and systems.
 
-[**Security awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) training can take many forms, including online courses, in-person training, and simulated phishing attacks. Organizations should choose the format that works best for their employees and should track training completion to ensure that all employees have received the necessary training.
+[**Security awareness**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) training can take many forms, including online courses, in-person training, and simulated phishing attacks. Organizations should choose the format that works best for their employees and should track training completion to ensure that all employees have received the necessary training.
 
 __________
 

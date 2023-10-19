@@ -3,7 +3,7 @@ title: "Polityka prywatności: Gromadzenie informacji, wykorzystanie i zgoda | S
 date: 2020-08-08
 ---
 
-W SimeonOnSecurity, dostępnym pod adresem https://simeononsecurity.com, jednym z naszych głównych priorytetów jest prywatność odwiedzających. Niniejsza Polityka prywatności zawiera rodzaje informacji, które są gromadzone i rejestrowane przez SimeonOnSecurity oraz sposób, w jaki je wykorzystujemy.
+W SimeonOnSecurity, dostępnym pod adresem https://simeononsecurity.ch, jednym z naszych głównych priorytetów jest prywatność odwiedzających. Niniejsza Polityka prywatności zawiera rodzaje informacji, które są gromadzone i rejestrowane przez SimeonOnSecurity oraz sposób, w jaki je wykorzystujemy.
 
 Jeśli masz dodatkowe pytania lub potrzebujesz więcej informacji na temat naszej Polityki prywatności, nie wahaj się z nami skontaktować.
 

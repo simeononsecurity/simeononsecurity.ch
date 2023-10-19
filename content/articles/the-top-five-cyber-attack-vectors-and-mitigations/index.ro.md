@@ -22,13 +22,13 @@ ______
 
 ## Inginerie socială
 
-**Inginerie socială** este un tip de atac cibernetic care se bazează pe interacțiunea umană și pe manipularea psihologică pentru a păcăli persoanele să divulge informații sensibile sau să efectueze anumite acțiuni. Infractorii cibernetici utilizează diverse tactici, cum ar fi [phishing emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) pretextul, momeala și quid pro quo, pentru a câștiga încrederea victimelor lor și a obține informații confidențiale.
+**Inginerie socială** este un tip de atac cibernetic care se bazează pe interacțiunea umană și pe manipularea psihologică pentru a păcăli persoanele să divulge informații sensibile sau să efectueze anumite acțiuni. Infractorii cibernetici utilizează diverse tactici, cum ar fi [phishing emails](https://simeononsecurity.ch/articles/how-to-identify-phishing/) pretextul, momeala și quid pro quo, pentru a câștiga încrederea victimelor lor și a obține informații confidențiale.
 
 Pentru a reduce riscul atacurilor de inginerie socială, persoanele și organizațiile pot lua următoarele măsuri:
 
-- Furnizați [**security awareness training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) angajaților pentru a-i învăța cum să identifice și să evite atacurile de inginerie socială.
+- Furnizați [**security awareness training**](https://simeononsecurity.ch/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) angajaților pentru a-i învăța cum să identifice și să evite atacurile de inginerie socială.
 - Utilizați **filtrele de spam** și protocoalele de autentificare a e-mailurilor, cum ar fi **SPF**, **DKIM** și **DMARC**, pentru a detecta și bloca e-mailurile de phishing.
-- Implementați [**multi-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate la acreditările de conectare.
+- Implementați [**multi-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate la acreditările de conectare.
 - Revizuiți și actualizați în mod regulat **politicile de securitate** pentru a aborda noile amenințări și vulnerabilități.
 
 ______
@@ -39,7 +39,7 @@ ______
 
 Pentru a reduce riscul de atacuri malware, persoanele și organizațiile pot lua următoarele măsuri:
 
-- Instalați și actualizați în mod regulat [**antivirus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus) pe toate dispozitivele.
+- Instalați și actualizați în mod regulat [**antivirus and anti-malware software**](https://simeononsecurity.ch/recommendations/anti-virus) pe toate dispozitivele.
 - Utilizați **firewall-uri** pentru a bloca accesul neautorizat la sistemele și rețelele de calculatoare.
 - Evitați să descărcați software sau fișiere din surse nesigure.
 - Efectuați în mod regulat **back-up** de date importante pentru a preveni pierderea datelor în cazul unui atac malware.
@@ -67,9 +67,9 @@ sisteme sau rețele prin ghicirea, spargerea sau furtul parolelor. Atacurile cu 
 Pentru a reduce riscul atacurilor cu parole, persoanele și organizațiile pot lua următoarele măsuri:
 
 - Folosiți parole puternice și unice, care să conțină o combinație de litere, numere și simboluri.
-- Implementați o [**password policy**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) care impune schimbarea regulată a parolelor și interzice utilizarea de parole comune sau ușor de ghicit.
-- Utilizați [**password managers**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) care poate genera și stoca parole complexe.
-- Implementarea [**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate la acreditările de conectare.
+- Implementați o [**password policy**](https://simeononsecurity.ch/articles/the-importance-of-password-security-and-best-practices/) care impune schimbarea regulată a parolelor și interzice utilizarea de parole comune sau ușor de ghicit.
+- Utilizați [**password managers**](https://simeononsecurity.ch/articles/bitwarden-and-keepassxc-vs-the-rest/) care poate genera și stoca parole complexe.
+- Implementarea [**two-factor authentication**](https://simeononsecurity.ch/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pentru a adăuga un nivel suplimentar de securitate la acreditările de conectare.
 
 ______
 
@@ -81,7 +81,7 @@ Pentru a reduce riscul de atacuri asupra aplicațiilor web, persoanele și organ
 
 - Folosiți **firewall-uri pentru aplicații web** pentru a detecta și bloca traficul malițios.
 - Scanați în mod regulat aplicațiile web pentru a detecta vulnerabilitățile și implementați cu promptitudine patch-uri și actualizări.
-- Utilizați [**secure coding practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) pentru a preveni vulnerabilitățile comune ale aplicațiilor web.
+- Utilizați [**secure coding practices**](https://simeononsecurity.ch/articles/secure-coding-standards-for-c-sharp/) pentru a preveni vulnerabilitățile comune ale aplicațiilor web.
 - Implementați **validarea intrărilor utilizatorilor** pentru a preveni injectarea SQL și alte atacuri bazate pe intrări.
 
 ______

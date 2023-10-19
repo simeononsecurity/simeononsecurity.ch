@@ -30,9 +30,9 @@ coverCaption: ""
 
 のことです。[**CEH certification** ](https://cert.eccouncil.org/certified-ethical-hacker.html)は、倫理的なハッキングと侵入テストに焦点を当てた人気のある資格です。フットプリンティングと偵察、ネットワークのスキャン、列挙、システムハッキング、トロイの木馬とバックドア、ウイルスとワーム、スニッファー、ソーシャルエンジニアリング、サービス拒否、セッションハイジャック、Webサーバーのハッキングなど、さまざまなトピックをカバーしています。認定試験は125問の選択式問題で構成され、情報セキュリティ関連の経験が2年以上必要です。
 
-### 3.[CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
+### 3.[CompTIA Security+](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)
 
-のことです。[**CompTIA Security+ certification** ](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)は、脅威、攻撃、脆弱性、技術とツール、アーキテクチャと設計、アイデンティティとアクセス管理、リスク管理、暗号など、さまざまなサイバーセキュリティのトピックをカバーする初級サイバーセキュリティ資格です。認定試験は90問の選択式問題で構成され、セキュリティに重点を置いたIT管理の経験が2年以上あることが必要です。
+のことです。[**CompTIA Security+ certification** ](https://simeononsecurity.ch/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)は、脅威、攻撃、脆弱性、技術とツール、アーキテクチャと設計、アイデンティティとアクセス管理、リスク管理、暗号など、さまざまなサイバーセキュリティのトピックをカバーする初級サイバーセキュリティ資格です。認定試験は90問の選択式問題で構成され、セキュリティに重点を置いたIT管理の経験が2年以上あることが必要です。
 
 ### 4.[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 

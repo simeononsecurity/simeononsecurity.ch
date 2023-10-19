@@ -68,8 +68,8 @@ tags: ["网络和 IT 认证", "CompTIA", "思科", "安全理事会", "ISC2", "�
 
 要准备这些认证，获得优质的学习资源非常重要。SimeonOnSecurity 推荐以下资源：
 
-- [Books](https://simeononsecurity.com/recommendations/books/)本页包含学习网络和 IT 领域各种主题的推荐书目。
-- [Training](https://simeononsecurity.com/recommendations/learning_resources/)本页包含可帮助您准备认证的推荐培训课程和训练营列表。
+- [Books](https://simeononsecurity.ch/recommendations/books/)本页包含学习网络和 IT 领域各种主题的推荐书目。
+- [Training](https://simeononsecurity.ch/recommendations/learning_resources/)本页包含可帮助您准备认证的推荐培训课程和训练营列表。
 
 ## 视觉
 

@@ -63,7 +63,7 @@ ______
 
 [**Udemy**](https://www.udemy.com/) to popularny internetowy rynek edukacyjny, oferujący szeroką gamę kursów z zakresu cyberbezpieczeństwa stworzonych zarówno przez profesjonalistów z branży, jak i niezależnych instruktorów. Szeroki wybór kursów Udemy obejmuje różne dziedziny cyberbezpieczeństwa, umożliwiając uczestnikom wybór kursów w oparciu o ich zainteresowania i poziom umiejętności.
 
-Dowiedz się więcej [online training platforms](https://simeononsecurity.com/recommendations/learning_resources)
+Dowiedz się więcej [online training platforms](https://simeononsecurity.ch/recommendations/learning_resources)
 
 ## Zalecane książki do szkolenia w zakresie cyberbezpieczeństwa
 
@@ -83,7 +83,7 @@ Oprócz programów online i kursów wideo, książki są doskonałym źródłem 
 
 Książki te oferują dogłębną wiedzę i praktyczne spojrzenie na tematy związane z cyberbezpieczeństwem. Mogą one służyć jako cenne zasoby uzupełniające szkolenia online i poszerzające wiedzę w tej dziedzinie.
 
-Dowiedz się więcej [SimeonOnSecurity's Recommended Books](https://simeononsecurity.com/recommendations/books)
+Dowiedz się więcej [SimeonOnSecurity's Recommended Books](https://simeononsecurity.ch/recommendations/books)
 
 ______
 
