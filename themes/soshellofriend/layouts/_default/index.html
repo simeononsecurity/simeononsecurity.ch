@@ -142,12 +142,20 @@
                 </a>
               {{ end }}
               {{ if .Params.tags }}
-                <span class="post-tags">
-                  {{ $tags := .Params.tags | first 10 }}
-                  {{ range $tags }}
-                    <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" title="{{ . }}" hreflang="{{ $languageCode }}">#{{ . }}</a>&nbsp;
+                {{ $filteredTags := slice }}
+                {{ range .Params.tags }}
+                  {{ if ge ($.Site.Taxonomies.tags.Count .) 2 }}
+                    {{ $filteredTags = $filteredTags | append . }}
                   {{ end }}
-                </span>
+                {{ end }}
+                {{ with $filteredTags }}
+                  {{/*  <h2>Tags</h2>  */}}
+                  <span class="post-tags">
+                    {{ range . }}
+                      <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+                    {{ end }}
+                  </span>
+                {{ end }}
               {{ end }}
               {{ if not .Params.hideReadMore }}
                 <div><a class="read-more button" href="{{.RelPermalink}}" title="read more" hreflang="{{ $languageCode }}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
