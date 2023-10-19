@@ -125,6 +125,13 @@ disableDate = true
 disableLatLong = true
 includeFields = ''
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  genre = 'genre'
+  author = 'author'
+  date = 'date'
+
 [outputs]
 home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news", "smartnews", "rssall"]
 section = ["HTML"]
