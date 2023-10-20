@@ -1,6 +1,7 @@
 name: Branch Build Hugo - EN_alt
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master

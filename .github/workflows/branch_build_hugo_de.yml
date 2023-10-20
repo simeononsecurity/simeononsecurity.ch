@@ -1,6 +1,7 @@
 name: Branch Build Hugo - de
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master

@@ -1,6 +1,7 @@
 name: Branch Build Hugo - ar
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -11,6 +12,7 @@ on:
       - "contents/**/*.ar.md" # Include only *.ar.md files within the content folder
       - "index.ar.md"
       - "**/index.ar.md"
+
 
 jobs:
   build:
