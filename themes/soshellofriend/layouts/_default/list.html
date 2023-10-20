@@ -78,15 +78,19 @@
         {{ end }}
         {{ if .Params.tags }}
           {{ $filteredTags := slice }}
-          {{ range .Params.tags }}
-            {{ if ge ($.Site.Taxonomies.tags.Count .) 2 }}
-              {{ $filteredTags = $filteredTags | append . }}
+
+          {{ range .GetTerms "tags" }}
+            {{ $count := .Pages.Len }}
+            {{ $name := .Name }}
+            {{ if ge $count 4 }}
+              {{ $filteredTags = $filteredTags | append $name }}
             {{ end }}
           {{ end }}
+      
           {{ with $filteredTags }}
-            {{/*  <h2>Tags</h2>  */}}
+            {{/* <h2>Tags</h2> */}}
             <span class="post-tags">
-              {{ range . }}
+              {{ range first 10 . }}
                 <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
               {{ end }}
             </span>

@@ -59,23 +59,6 @@
       {{ end }}
     </div>
 
-    {{ if .Params.tags }}
-      {{ $filteredTags := slice }}
-      {{ range .Params.tags }}
-        {{ if ge ($.Site.Taxonomies.tags.Count .) 2 }}
-          {{ $filteredTags = $filteredTags | append . }}
-        {{ end }}
-      {{ end }}
-      {{ with $filteredTags }}
-        {{/*  <h2>Tags</h2>  */}}
-        <span class="post-tags">
-          {{ range . }}
-            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
-          {{ end }}
-        </span>
-      {{ end }}
-    {{ end }}
-
     {{ if .Params.Cover }}
       {{ partialCached "postcover.html" (dict "context" . "imgloading" $imgloading) .Page }}
     {{ end }}
@@ -131,5 +114,47 @@
     <br>
     {{ partialCached "share-buttons.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     {{ partialCached "comments.html" . .Page .Page.Page }}
+    <br>
+    {{ if .Params.genre }}
+      {{ $filteredgenre := slice }}
+
+      {{ range .GetTerms "genre" }}
+        {{ $count := .Pages.Len }}
+        {{ $name := .Name }}
+        {{ if ge $count 4 }}
+          {{ $filteredgenre = $filteredgenre | append $name }}
+        {{ end }}
+      {{ end }}
+
+      {{ with $filteredgenre }}
+        <h2>Genres</h2>
+        <span class="post-tags">
+          {{ range . }}
+            <a href="{{ (urlize (printf "genre/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      {{ end }}
+    {{ end }}
+    <br>
+    {{ if .Params.tags }}
+      {{ $filteredTags := slice }}
+
+      {{ range .GetTerms "tags" }}
+        {{ $count := .Pages.Len }}
+        {{ $name := .Name }}
+        {{ if ge $count 4 }}
+          {{ $filteredTags = $filteredTags | append $name }}
+        {{ end }}
+      {{ end }}
+
+      {{ with $filteredTags }}
+        <h2>Tags</h2>
+        <span class="post-tags">
+          {{ range . }}
+            <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      {{ end }}
+    {{ end }}
   </article>
 {{ end }}
