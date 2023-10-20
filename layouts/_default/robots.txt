@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /admin
 Disallow: /404/
-Disallow: /tags/
 
 User-agent: ia_archiver
 User-agent: archive.org_bot
@@ -90,9 +89,9 @@ User-agent: yoozBot
 User-agent: YoudaoBot
 Allow: /
 
-Sitemap: https://simeononsecurity.ch/sitemap-index.xml
+Sitemap: https://simeononsecurity.com/sitemap-index.xml
 
-Sitemap: https://simeononsecurity.ch/sitemap.xml
+Sitemap: https://simeononsecurity.com/sitemap.xml
 Sitemap: https://fr.simeononsecurity.com/sitemap.xml
 Sitemap: https://es.simeononsecurity.com/sitemap.xml
 Sitemap: https://de.simeononsecurity.com/sitemap.xml
