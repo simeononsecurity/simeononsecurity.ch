@@ -13,12 +13,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Scan files
-        uses: crazy-max/ghaction-virustotal@v3
+        uses: crazy-max/ghaction-virustotal@v4
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           files: |
-            .*\.html$
-            .*\.ps1$
+            *.html
+            *.ps1
             
 
       - name: Calculate SHA-256 Hashes
