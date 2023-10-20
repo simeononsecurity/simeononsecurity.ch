@@ -150,7 +150,7 @@
       {{ with $filteredTags }}
         <h2>Tags</h2>
         <span class="post-tags">
-          {{ range . }}
+          {{ range first 5 . }}
             <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
           {{ end }}
         </span>
