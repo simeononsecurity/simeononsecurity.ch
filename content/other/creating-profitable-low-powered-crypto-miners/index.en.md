@@ -340,4 +340,238 @@ done
 iptables -A INPUT -m set --match-set tor src -j DROP
 ```
 
+
+#### Docker Compose:
+To run all of these in one go, assuming you have all of your accounts and ids notated, you can update the following [`docker-compose.yml`](https://github.com/OlivierGaland/CashFactory/blob/main/docker-compose.yml):
+```yaml
+version: '3.5'
+
+services:
+    #Start of Portainer section :
+    # Container management and monitoring : connect to your device port 9000 (Portainer)
+    Portainer:
+        image: portainer/portainer-ce:latest
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - portainer_data:/data
+        ports:
+            - 8000:8000
+            - 9000:9000
+            - 9443:9443
+        restart: always
+        networks:
+            default:
+                ipv4_address: 172.106.0.11
+    #End of Portainer + Webserver section
+    
+    mysterium:
+    image: mysteriumnetwork/myst:latest
+    container_name: mysterium
+    restart: unless-stopped
+    cpus: 1
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+      - 1.1.1.1
+      - 1.0.0.1
+      - 9.9.9.9
+    hostname: myst
+    cap_add:
+      - NET_ADMIN
+    network_mode: host
+    ports:
+      - "4449:4449"
+      - "59850-60000:59850-60000"
+    volumes:
+      - myst_data:/var/lib/mysterium-node
+    command: --udp.ports=59850:60000 service --agreed-terms-and-conditions
+
+    #Start of Earnapp section (remove this if Earnapp not wanted)
+    # variables to define in .env file :
+    # EARNAPP_DEVICE_ID : Your node id : sdk-node-<md5sum>
+    #                     <md5sum> is a 32 char string containing a-z and 0-9 range : 
+    #                       ex : Easy way to generate one :  echo "random string" | md5sum 
+    #                            This will print 9f33ffbb8a9dcedb28ea909775a6b0d3  -
+    #                            In that case use : sdk-node-9f33ffbb8a9dcedb28ea909775a6b0d3
+    Earnapp:
+        depends_on:
+            - Portainer
+
+        image: fazalfarhan01/earnapp:lite
+        volumes:
+            - earnapp-data:/etc/earnapp
+        restart: always
+        environment:
+            - EARNAPP_UUID=$EARNAPP_DEVICE_ID
+        networks:
+            default:
+                ipv4_address: 172.106.0.20
+    #End of Earnapp section
+
+    #Start of HoneyGain section (remove this if HoneyGain not wanted)
+    # variables to define in .env file :
+    # HONEYGAIN_EMAIL : Your Honeygain account email
+    # HONEYGAIN_PASSWD : Your Honeygain account password 
+    # DEVICE_NAME : This computer name (for display on dashboard)
+    Honeygain:
+        depends_on:
+            - Portainer
+        image: honeygain/honeygain
+        command: -tou-accept -email $HONEYGAIN_EMAIL -pass '$HONEYGAIN_PASSWD' -device $DEVICE_NAME
+        restart: always
+        networks:
+            default:
+                ipv4_address: 172.106.0.30
+    #End of HoneyGain section
+
+    #Start of IproyalPawns section (remove this if IproyalPawns not wanted)
+    # variables to define in .env file :
+    # IPROYALPAWNS_EMAIL : Your IproyalPawns account email
+    # IPROYALPAWNS_PASSWD : Your IproyalPawns account password 
+    # DEVICE_NAME : This computer name (for display on dashboard)
+    IproyalPawns:
+        depends_on:
+            - Portainer
+        image: iproyal/pawns-cli:latest
+        command: -email=$IPROYALPAWNS_EMAIL -password='$IPROYALPAWNS_PASSWD' -device-name=$DEVICE_NAME -accept-tos
+        restart: always
+        networks:
+            default:
+                ipv4_address: 172.106.0.40
+    #End of IproyalPawns section
+
+    #Start of Peer2profit section (remove this if Peer2profit not wanted)
+    # variables to define in .env file :
+    # PEER2PROFIT_EMAIL : Your Peer2profit account email
+    Peer2profit:
+        depends_on:
+            - Portainer
+        image: lyenliang/peer2profit_x86_64:latest
+        restart: always
+        environment:
+            - P2P_EMAIL=$PEER2PROFIT_EMAIL
+        networks:
+            default:
+                ipv4_address: 172.106.0.50
+    #End of Peer2profit section
+
+    #Start of Packetstream section (remove this if Packetstream not wanted)
+    # variables to define in .env file :
+    # PACKETSTREAM_CID : Your Packetstream CID (available in packetstream dashboard)
+    Packetstream_PsClient:
+        depends_on:
+            - Portainer
+        image: packetstream/psclient:latest
+        restart: always
+        environment:
+            - CID=$PACKETSTREAM_CID
+        networks:
+            default:
+                ipv4_address: 172.106.0.60
+    Packetstream_Watchtower:
+        depends_on:
+            - Portainer
+            - Packetstream_PsClient
+        image: containrrr/watchtower
+        command: --cleanup --include-stopped --revive-stopped --interval 60 ${_COMPOSE_PROJECT_NAME}_Packetstream_PsClient_${_COMPOSE_PROJECT_STACK_ID}
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+        restart: always
+        networks:
+            default:
+                ipv4_address: 172.106.0.61
+    #End of Packetstream section
+    
+    #Start of Bitping section (remove this if Bitping not wanted)
+    Bitping:
+        depends_on:
+            - Portainer
+        image: bitping/bitping-node:latest
+        restart: always
+        volumes:
+            - ./data/bitping:/root/.bitping
+        networks:
+            default:
+                ipv4_address: 172.106.0.70
+    #End of Bitping section     
+
+    #Start of TraffMonetizer section (remove this if TraffMonetizer not wanted)
+    # variables to define in .env file :
+    # TRAFFMONETIZER_TOKEN : Your application token (available in TraffMonetizer dashboard)
+    TraffMonetizer:
+        depends_on:
+            - Portainer
+        image: traffmonetizer/cli_v2:latest
+        restart: always
+        command: start accept --token ${TRAFFMONETIZER_TOKEN}
+        networks:
+            default:
+                ipv4_address: 172.106.0.80
+    #End of Packetstream section   
+    
+    #Start of Repocket section (remove this if Repocket not wanted)
+    # variables to define in .env file :
+    # RP_EMAIL : Your application mail 
+    # RP_API_KEY : Your application api key (available in repocket dashboard)
+    Repocket:
+        depends_on:
+            - Portainer
+        image: repocket/repocket:latest
+        restart: always
+        environment:
+          - RP_EMAIL
+          - RP_API_KEY
+        networks:
+            default:
+                ipv4_address: 172.106.0.90
+    #End of Repocket section    
+
+    #Start of Proxylite section (remove this if Proxylite not wanted)
+    # variables to define in .env file :
+    # PROXYLITE_USER_ID : Your application use id (available in proxylite dashboard)
+    Proxylite:
+        depends_on:
+            - Portainer
+
+        image: proxylite/proxyservice:latest
+        restart: always
+        environment:
+          - USER_ID=$PROXYLITE_USER_ID
+        networks:
+            default:
+                ipv4_address: 172.106.0.100
+    #End of Proxylite section 
+
+    #Start of Proxyrack section (remove this if Proxyrack not wanted)
+    # variables to define in .env file :
+    # PROXYRACK_API_KEY : Your application api key (available in proxyrack dashboard -> profile -> generate API key (keep same for all devices))
+    Proxyrack:
+        depends_on:
+            - Portainer
+
+        image: proxyrack/pop:latest
+        restart: always
+        environment:
+          - api_key=$PROXYRACK_API_KEY
+          - device_name=$DEVICE_NAME
+        networks:
+            default:
+                ipv4_address: 172.106.0.110
+    #End of Proxyrack section 
+
+
+volumes:
+    portainer_data:
+    earnapp-data:
+    myst_data:
+
+networks:
+    default:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.106.0.0/16  
+```
+
 ## Profit?
