@@ -13,7 +13,7 @@ Welcome to the SimeonOnSecurity website! Here, we provide the latest information
 
 ## Badges
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/190394fe-722e-4aa2-bc39-ff81985b2960/deploy-status)](https://app.netlify.com/sites/simeononsecurity/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/920d9bff-3d07-4c34-849b-f4f9100adb87/deploy-status)](https://app.netlify.com/sites/simeononsecurity/deploys)
 [![Test Hugo Latest Version](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/hugo.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/hugo.yml)
 ![Greetings](https://github.com/simeononsecurity/simeononsecurityweb/workflows/Greetings/badge.svg)
 [![VirusTotal Scan](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml)
