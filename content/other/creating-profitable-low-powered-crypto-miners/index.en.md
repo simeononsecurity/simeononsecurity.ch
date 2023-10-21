@@ -342,7 +342,7 @@ iptables -A INPUT -m set --match-set tor src -j DROP
 
 
 #### Docker Compose:
-To run all of these in one go, assuming you have all of your accounts and ids notated, you can update the following [`docker-compose.yml`](https://github.com/OlivierGaland/CashFactory/blob/main/docker-compose.yml):
+To run all of these containers in one go, assuming you have all of your accounts and ids notated, you can update the following [`docker-compose.yml`](https://github.com/OlivierGaland/CashFactory/blob/main/docker-compose.yml):
 ```yaml
 version: '3.5'
 
