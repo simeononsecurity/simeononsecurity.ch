@@ -63,6 +63,11 @@ We won't go into the technical details of how to install an operating system her
 
 ## Setup Instructions
 
+Functionally wingbits and defli both operate in the same space but how you connect to them is different.
+
+`readsb` -> `vector` -> `wingbits`
+`readsb` -> `mongodb connector` - `DEFLI`
+
 ### **Section 1: Installing WingBits**
 Installing WingBits is the first step in your dual mining journey. To get started, follow these steps:
 
