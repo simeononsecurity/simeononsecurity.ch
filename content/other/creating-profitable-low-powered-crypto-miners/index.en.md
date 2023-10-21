@@ -134,8 +134,6 @@ Modify the string before pasting into your terminal. You need to specify your ea
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
-#### Video Tutorial:
-{{< youtube id="tt499o0OjGU" >}}
 
 ### [Install Honey Gain](https://simeononsecurity.com/other/install-honeygain-easily-using-docker/):
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
@@ -154,8 +152,6 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 #### Alternate instructions for Raspberry Pi
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
 
-#### Video Tutorial:
-{{< youtube id="Wd11M0nSy1k" >}}
 
 ### [Install PawnsApp](https://simeononsecurity.com/other/install-pawnsapp-easily-using-docker/):
 [*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
@@ -174,8 +170,6 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
-
-
 ### [Install Repocket](https://simeononsecurity.com/other/install-repocket-easily-using-docker/):
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
@@ -188,8 +182,6 @@ Modify the following line with your email and api key before pasting into your t
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
-#### Video Tutorial:
-{{< youtube id="171gWknfAbY" >}}
 
 ### [Install Traff Monetizer](https://simeononsecurity.com/other/install-traff-monetizer-easily-using-docker/):
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
@@ -206,6 +198,55 @@ Copy the following string and append your token that you got from the dashboard 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
 ```
+
+### Install ProxyLite:
+[*Monetizing your Internet traffic by giving verified organizations the use of your Internet bandwidth*](https://proxylite.ru/?r=6AN2RKWB&utm_source=dockerguide)
+
+Similar to EarnApp and HoneyGain, ProxyLite pays you to share your internet. Averages about $3 a month per node per IP. Offers payouts in BTC/PayPal/QIWI/Payeer.
+
+#### Create your Traff Monetizer Account:
+Create your account at [https://proxylite.ru](https://proxylite.ru/?r=6AN2RKWB&utm_source=dockerguide)
+Once you get into the dashboard, make note of your userid.
+
+#### Install the Docker Container:
+Copy the following string and replace `$PROXYLITE_USER_ID` with your USERID that you got from the dashboard before pasting into your terminal.
+
+```bash
+docker rm -f proxylite && docker run -de "USER_ID=$PROXYLITE_USER_ID" --restart unless-stopped  --name proxylite proxylite/proxyservice
+```
+
+### Install ProxyRack:
+
+Similar to EarnApp, HoneyGain, and Proxylite, [ProxyRack](https://peer.proxyrack.com/ref/8lergbeafzcdwki144r5gdxqv1wepkox6tfcqigu) pays you to share your internet. Averages about $1 a month per node per IP. Payout methods vary.
+
+#### Create your Traff Monetizer Account:
+Create your account at [https://proxyrack.com](https://peer.proxyrack.com/ref/8lergbeafzcdwki144r5gdxqv1wepkox6tfcqigu)
+Once you get into the dashboard, make note of your userid.
+
+#### Install the Docker Container:
+Copy the following string and replace `$PROXYLITE_USER_ID` with your `USERID` that you got from the dashboard before pasting into your terminal.
+
+1. First, Generate a Device ID You can run this command to generate a device ID that you will need to copy and save to use in the future.
+
+```bash
+cat /dev/urandom | LC_ALL=C tr -dc 'A-F0-9' | dd bs=1 count=64 2>/dev/null
+```
+
+Example output `393889FD3A7AB796A3846423B1AC3AD73100508ADD9375AA24489A1D7C6AD713`
+
+2. Run Proxyrack, edit Insert your Device ID after UUID. You can use this example command:
+
+```bash
+sudo docker run -td --name proxyrack --restart always -e UUID="" --restart unless-stopped  proxyrack/pop
+```
+
+3. Add this Device ID to your device list in your Peer account
+
+Wait 5-10 minutes after running the Docker container with the UUID
+
+Using the string you just generated above add this to your devices [https://peer.proxyrack.com/devices](https://peer.proxyrack.com/devices) You can add a "friendly" name to help you remember what this Device ID is associated with
+
+
 
 ### [Install Mysterium](https://simeononsecurity.com/other/install-mysterium-easily-using-docker/):
 [Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
