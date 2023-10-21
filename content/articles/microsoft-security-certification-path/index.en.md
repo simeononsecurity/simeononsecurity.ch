@@ -174,7 +174,7 @@ By achieving this certification, you position yourself as a knowledgeable and ca
 
 ______
 
-## Microsoft Certified: Security Operations Analyst Associate
+### Microsoft Certified: Security Operations Analyst Associate
 
 [Learn more about Microsoft Certified: Security Operations Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/)
 
@@ -206,7 +206,7 @@ By earning this certification, you demonstrate your ability to protect organizat
 
 ______
 
-## Microsoft Certified: Identity and Access Administrator Associate
+### Microsoft Certified: Identity and Access Administrator Associate
 
 [Learn more about Microsoft Certified: Identity and Access Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/)
 
@@ -238,7 +238,7 @@ By obtaining this certification, you demonstrate your ability to manage identity
 
 ______
 
-## Microsoft Certified: Windows Server Hybrid Administrator Associate
+### Microsoft Certified: Windows Server Hybrid Administrator Associate
 
 [Learn more about Microsoft Certified: Windows Server Hybrid Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/)
 
@@ -270,7 +270,7 @@ By achieving this certification, you demonstrate your ability to manage the comp
 
 ______
 
-## Microsoft Certified: Cybersecurity Architect Expert
+### Microsoft Certified: Cybersecurity Architect Expert
 
 [Learn more about Microsoft Certified: Cybersecurity Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/))
 
