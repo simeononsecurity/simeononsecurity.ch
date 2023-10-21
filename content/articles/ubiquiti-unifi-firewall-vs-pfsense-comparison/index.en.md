@@ -47,7 +47,7 @@ ______
 UniFi Firewall is an ideal choice for those seeking an **integrated**, **user-friendly**, and **effective network security solution**. It proves valuable for small businesses and individuals looking for a straightforward yet robust firewall system.
 
 ### [Ubiquiti UniFi Firewall](https://www.ui.com/)
-
+### [Purchase a UniFi Firewall](https://amzn.to/3S2AI66)
 ______
 
 ## pfSense
@@ -73,6 +73,7 @@ ______
 pfSense shines in scenarios where you demand **advanced**, **highly customizable** firewall and routing solutions. It finds its sweet spot in businesses that operate **complex network infrastructures**.
 
 ### [Download pfSense](https://www.pfsense.org/download/)
+### [Purchase a pfSense FireWall](https://amzn.to/3S6YJsE)
 ______
 
 ## Which One to Choose?
