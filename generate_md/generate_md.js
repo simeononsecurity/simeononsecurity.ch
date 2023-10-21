@@ -24,7 +24,7 @@ function generateMarkdown(items) {
 }
 
 async function run() {
-  const rssUrl = 'https://simeononsecurity.ch/index.xml';
+  const rssUrl = 'https://simeononsecurity.com/index.xml';
   const rssXml = await fetchRssFeed(rssUrl);
   const parsedItems = await parseRssFeed(rssXml);
   generateMarkdown(parsedItems);
