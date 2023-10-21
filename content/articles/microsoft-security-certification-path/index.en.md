@@ -136,42 +136,6 @@ The **Microsoft Certified: Information Protection and Compliance Administrator A
 - **Monitoring and protecting sensitive data**: Learn how to proactively monitor and protect sensitive data against internal and external threats. This is vital for maintaining the integrity and security of confidential information within the organization.
 
 By attaining this certification, you establish yourself as a trusted professional capable of upholding the highest standards of information protection and compliance, a critical role in today's data-driven world.
-
-
-______
-
-### Microsoft Certified: Security, Compliance, and Identity Fundamentals
-
-For more information, visit the [Microsoft Certified: Security, Compliance, and Identity Fundamentals page](https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/).
-
-
-{{< figure src="microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals" link="https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/" >}}
-
-
-#### What is it?
-
-The **Microsoft Certified: Security, Compliance, and Identity Fundamentals** certification is designed for security administrators responsible for overseeing security and compliance solutions within Microsoft 365 and Azure environments. It equips professionals with the foundational knowledge and skills to excel in these vital roles.
-
-#### Who Should Pursue it?
-
-This certification is particularly relevant for two key groups:
-
-- **Security administrators**: If you're a security administrator tasked with managing the security and compliance aspects of Microsoft 365 and Azure, this certification is tailored to your needs. It ensures you have the expertise to maintain a robust security posture.
-
-- **IT professionals responsible for security in Microsoft 365 and Azure**: IT professionals with security responsibilities in Microsoft 365 and Azure will also benefit from this certification. It provides a fundamental understanding of security principles in these environments.
-
-#### Key Topics:
-
-The **Microsoft Certified: Security, Compliance, and Identity Fundamentals** certification covers essential topics related to security and compliance in Microsoft 365 and Azure:
-
-- **Managing security and compliance in Microsoft 365**: Learn how to configure and manage security settings, compliance features, and policies to safeguard Microsoft 365 services and data.
-
-- **Implementing threat protection**: Gain insights into deploying threat protection measures to defend against a wide range of security threats, such as malware and phishing attacks.
-
-- **Managing identity and access**: Understand the intricacies of managing identities, controlling access, and securing user identities in Microsoft 365 and Azure.
-
-By achieving this certification, you position yourself as a knowledgeable and capable professional, equipped to ensure the security and compliance of Microsoft 365 and Azure environments. This is invaluable in an era where digital security is paramount.
-
 ______
 
 ### Microsoft Certified: Security Operations Analyst Associate
