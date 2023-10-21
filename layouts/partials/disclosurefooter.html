@@ -1,6 +1,3 @@
-{{ $disabledURLs := slice "/about/" "/jobs/" "/contact/" "/tags/" "/terms/" "/privacy/" "/advertise/" "/guest-posts/" "/affiliate/" }}
-{{ $currentPath := .Permalink }}
-
 {{ $affiliateURLs := slice
   "amazon.com"
   "amzn.to"
@@ -38,26 +35,22 @@
   "traffmonetizer.com/?aff="
   "https://www.unmineable.com/?ref="
   "geni.us"
+  "/ref/"
 }}
 
 {{ $isaffiliateURL := false }}
 
 {{ range $affiliateURL := $affiliateURLs }}
-  {{ if strings.Contains $.Content $affiliateURL }}
-    <h2>Disclosure and Affiliate Statement:</h2>
-    {{ $disableDisclosure := false }}
-    {{ range $disabledURLs }}
-      {{ if (in $currentPath .) }}
-        {{ $disableDisclosure = true }}
-      {{ end }}
-    {{ end }}
-    {{ if not $disableDisclosure }}
-      <div class="affiliate-disclosure" style="text-align: center; max-width: 800px; margin: 0 auto; word-wrap: break-word;">
-        <p>
-          <strong>{{ i18n "affiliatedisclosure"}}:</strong> {{ i18n "affiliatestatement"}} <a href="/affiliate" title="{{ i18n "affiliatedisclosure"}}">{{ i18n "affiliatedisclosurecta"}}</a>
-        </p>
-      </div>
-    {{ end }}
+  {{ if or (strings.Contains $.Page.Content $affiliateURL) (in . $.Page.Content) }}
+  {{ $isaffiliateURL = true }}
   {{ end }}
 {{ end }}
 
+{{ if $isaffiliateURL }}
+  <h2>Disclosure and Affiliate Statement:</h2>
+  <div class="affiliate-disclosure" style="text-align: center; max-width: 800px; margin: 0 auto; word-wrap: break-word;">
+    <p>
+      <strong>{{ i18n "affiliatedisclosure"}}:</strong> {{ i18n "affiliatestatement"}} <a href="/affiliate" title="{{ i18n "affiliatedisclosure"}}">{{ i18n "affiliatedisclosurecta"}}</a>
+    </p>
+  </div>
+{{ end }}
