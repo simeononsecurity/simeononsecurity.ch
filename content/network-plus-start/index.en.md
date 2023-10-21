@@ -21,6 +21,8 @@ coverCaption: "Empower Your Networking Career"
 
 ## Objective 1: Networking Fundamentals
 
+{{< figure src="networking-fundamentals-osi-model.png" alt="An informative graphic displaying interconnected network nodes, illustrating the OSI model layers and their functions. Each layer is color-coded and labeled, creating a visual guide for understanding the layers and their interactions." caption="Navigating the Network Layers: A Visual Guide to OSI Model Fundamentals." >}}
+
 ### [Introduction to Networking Fundamentals](/network-plus/networking-fundamentals-osi-model-topologies-network-types/)
 
 - Introduction to the importance of Networking Fundamentals
@@ -71,6 +73,8 @@ coverCaption: "Empower Your Networking Career"
 
 ## Objective 2: Network Implementations
 
+{{< figure src="network-devices-management.png" alt="An image depicting a network technician managing a control panel with various networking devices, such as routers, switches, and access points. The technician is connecting cables, configuring settings, and optimizing network performance. The devices are labeled and color-coded for clarity." caption="Mastering the Network: Efficient Management of Networking Devices." >}}
+
 ### [Introduction to Networking Devices](/network-plus/introduction-to-networking-devices-roles-features-comparison/)
 
 - Overview of networking devices and their roles
@@ -116,6 +120,8 @@ coverCaption: "Empower Your Networking Career"
 -----
 
 ## Objective 3: Network Operations
+
+{{< figure src="network-performance-monitoring.png" alt="An image showcasing a network operations center (NOC) with multiple screens displaying real-time performance metrics, logs, and environmental sensor data. Technicians are monitoring and managing the network's performance and addressing any issues. The NOC is well-organized and equipped with advanced monitoring tools." caption="Optimizing Network Performance: Inside the Network Operations Center (NOC)." >}}
 
 ### [Performance Monitoring and Management](/network-plus/network-plus-course-performance-monitoring-management/)
 - Introduction to performance metrics and sensors
@@ -172,6 +178,8 @@ coverCaption: "Empower Your Networking Career"
 {{< inarticle-dark >}}
 ## Objective 4: Network Network Security
 
+{{< figure src="network-security-administration.png" alt="An image illustrating a network administrator configuring a network firewall, implementing access control lists (ACLs), and managing patch and firmware updates on network devices. The administrator is working diligently to enhance network security and protect against vulnerabilities." caption="Strengthening Network Security: Administrator's Vigilance in Action." >}}
+
 ### [Network Hardening Techniques](/network-plus/network-plus-course-network-hardening-techniques/)
 - Introduction to network hardening
 - Best practices for network hardening
@@ -219,6 +227,8 @@ coverCaption: "Empower Your Networking Career"
 -----
 
 ## Objective 5: Network Troubleshooting
+
+{{< figure src="network-troubleshooting-technician.png" alt="An image showcasing a network technician using diagnostic tools, such as a cable tester and a laptop with network software tools, to troubleshoot and resolve network connectivity issues. The technician is surrounded by a network rack and cables." caption="Network Troubleshooting in Action: Technician Resolving Connectivity Issues." >}}
 
 ### [Network Troubleshooting Methodology](/network-plus/network-troubleshooting-methodology/)
 

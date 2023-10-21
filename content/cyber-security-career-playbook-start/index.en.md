@@ -25,6 +25,8 @@ So, let's dive in and discover the knowledge and skills required, the certificat
 
 Welcome to the world of cybersecurity! In today's digital age, protecting sensitive information and securing networks and systems is of utmost importance. Whether you're just starting out or looking to advance in your cybersecurity career, this guide will provide you with the knowledge and resources you need to excel.
 
+{{< figure src="cybersecurity-career-education.png" alt="An animated image with a friendly cybersecurity expert guiding a young child in a playful and educational manner, explaining the basics of cybersecurity. The child looks curious, and the expert is holding a cybersecurity shield." caption="Unlock the Cybersecurity World. Start Young, Learn Strong." >}}
+
 ### About the CyberSecurity Career
 
 #### [Explain Cybersecurity Like I'm 5 (ELI5)](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
@@ -72,12 +74,11 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 #### [What Does a Cybersecurity Expert Do?](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/)
 - Explore the roles and responsibilities of cybersecurity experts.
 
-
-{{< inarticle-dark >}}
-
 ## Cyber Security Degrees, Certifications, and Bootcamps
 
 When pursuing a career in cybersecurity, one important consideration is obtaining the right education and certifications. In this section, you'll find valuable information about degrees, certifications, courses, and training programs that can enhance your skills and help you stand out in the field.
+
+{{< figure src="cybersecurity-education-certifications.png" alt="An image featuring a graduation cap on top of a computer keyboard, with a diploma next to it. The cap symbolizes education, and the keyboard represents the tech aspect of cybersecurity. The diploma signifies certification." caption="Empower Your Journey: Degrees, Certifications, and Beyond in Cybersecurity." >}}
 
 ### Degrees
 
@@ -145,6 +146,8 @@ We've included a few tips and tricks for these certifications below:
 
 Securing a job in cybersecurity requires a combination of knowledge, experience, and preparation. In this section, you'll discover valuable resources and insights to help you navigate the job market, prepare for interviews, and increase your chances of landing an entry-level or remote cybersecurity position.
 
+{{< figure src="cybersecurity-job-transition.png" alt="An animated image of a job seeker confidently crossing a bridge into the world of cybersecurity. The bridge represents the transition, and the cybersecurity landscape is depicted on the other side with computer screens, locks, and keys to symbolize the industry." caption="Step into Cybersecurity with Confidence and Conquer the Career Bridge." >}}
+
 - [Navigating Early Career Job Market: Overcoming Challenges and Securing Opportunities](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/addressing-the-challenges-in-the-early-career-job-market/)
   - Discover strategies to overcome challenges in the early career job market, acquire valuable skills, and secure desirable opportunities for success.
 
@@ -204,9 +207,13 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 
 {{< inarticle-dark >}}
 
+
+
 ## Moving up in your Cyber Security Career
 
 As a cybersecurity professional, continuous learning and growth are key to advancing your career. This section focuses on strategies for earning certifications, learning new skills, staying updated on emerging threats and vulnerabilities, and education on the regulations that define and regulate what you do, enabling you to progress and excel in your cybersecurity journey.
+
+{{< figure src="cyber-career-advancement.png" alt="An image with a futuristic, cyber-themed cityscape. It depicts a professional ascending a virtual staircase, symbolizing career growth. In the cityscape, there are holographic certifications, skills, and regulations floating in the digital atmosphere." caption="Climb to New Heights: Advancing Your Cybersecurity Career in the Digital World." >}}
 
 ### New Skills and Certifications
 #### [Earning Certifications and Learning New Skills as a Cyber Security Professional](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/earning-certifications-and-learning-new-skills-as-a-cyber-security-professional/)
@@ -242,7 +249,10 @@ Learn about the [Federal Information Security Management Act (FISMA)](https://si
 
 {{< inarticle-dark >}}
 
+
 ## Managing a Cyber Security Team
+
+{{< figure src="cyber-security-team-management.png" alt="An image of a cybersecurity team working together in a high-tech, futuristic command center. The team is diverse and engaged, with digital screens displaying security analytics and charts. The background shows a cityscape protected by a digital shield, symbolizing the team's protective role." caption="Lead, Empower, Protect: Managing Your Cyber Security Team to Success." >}}
 
 This section provides valuable resources and insights on managing a cyber security team, including tips for **building and managing a cybersecurity team** and best practices for **managing a cyber security team**.
 
