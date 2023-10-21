@@ -19,6 +19,8 @@ In today's interconnected world, a robust and reliable Wi-Fi network is essentia
 ## Introduction
 Ubiquiti UniFi is a comprehensive networking platform that offers a range of products, including access points, switches, and security gateways. It is designed for various environments, from small businesses to large enterprises. While it's primarily marketed for businesses, it has found its way into many households. Let's explore the key aspects of Ubiquiti UniFi's home use.
 
+{{< youtube id="bWJNZvXXgf8" >}}
+
 ### Key Features of Ubiquiti UniFi
 Ubiquiti UniFi comes with several features that make it a compelling choice for home users:
 
