@@ -37,7 +37,7 @@ Let's dive into the various certification levels and paths within **Microsoft's 
 
 ______
 
-### The Microsoft Security Engineer Certification Path
+## The Microsoft Security Engineer Certification Path
 
 ### Microsoft Certified: Security, Compliance, and Identity Fundamentals
 
