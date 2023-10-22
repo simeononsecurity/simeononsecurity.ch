@@ -44,7 +44,7 @@
             {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
             {{ with $featured }}{{ (printf "<img src=\"%s\">" $featured.RelPermalink) | safeHTML }}{{ end }}
         {{ end }}
-        {{ .Content | safeHTML }}
+        {{ .Content | first 500 | safeHTML }}
         {{ (printf "<a href=\"%s\">Read More at %s</a>" .Permalink $.Site.BaseURL) | safeHTML }}
                             
         {{ if gt (len .Translations) 1 }}
