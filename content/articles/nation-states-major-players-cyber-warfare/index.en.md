@@ -1,5 +1,5 @@
 ---
-title: "Nation-States in Cyber Warfare: Major Players Unveiled"
+title: "Nation-States in Cyber Warfare"
 date: 2023-12-19
 toc: true
 draft: false
