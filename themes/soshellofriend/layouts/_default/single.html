@@ -65,7 +65,7 @@
 
     {{ partialCached "share-buttons.html" . .Page .Page.Page }} 
     {{ partial "editbuttons.html" .}} 
-    
+
     <div class="post-content" itemprop="articleBody">
       {{ if or .Params.Toc $.Site.Params.Toc }}
         {{ if ne .Params.Toc false }}
@@ -105,6 +105,8 @@
         </div>
       {{ end }}
     {{ end }}
+    <br>
+    {{ partialCached "mailerlite.html" . }}
     <br>
     {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     <br>
