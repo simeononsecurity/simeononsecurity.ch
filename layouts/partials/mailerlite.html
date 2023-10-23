@@ -1,3 +1,18 @@
+{{ $enabledURLs := slice "/articles/" "/github/" "/recommendations/" "/writeups/" "/other/" "/blog/" "/guides/" "/checklists/" "/til/" "/network-plus/" "/cyber-security-career-playbook/"}}
+{{ $currentPath := .Permalink }}
+{{ $enablenewsletters := false }}
+
+{{ range $enabledURLs }}
+  {{ if (in $currentPath .) }}
+    {{ $enablenewsletters = true }}
+  {{ end }}
+{{ end }}
+
+{{ if (eq .Params.newsletters.enable true) }}
+  {{ $enablenewsletters = true }}
+{{ end }}
+
+{{ if $enablenewsletters }}
 <style type="text/css">
     /* LOADER */
     .ml-form-embedSubmitLoad {
@@ -1050,3 +1065,4 @@
 <script>
     fetch("https://assets.mailerlite.com/jsonp/337756/forms/102788552233846445/takel")
 </script>
+{{ end }}
