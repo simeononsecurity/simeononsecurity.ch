@@ -106,7 +106,7 @@
       {{ end }}
     {{ end }}
     <br>
-    {{ partialCached "mailerlite.html" . }}
+    {{ partialCached "mailerlite.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang}}
     <br>
     {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     <br>

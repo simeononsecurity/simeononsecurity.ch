@@ -1,18 +1,12 @@
-{{ $enabledURLs := slice "/articles/" "/github/" "/recommendations/" "/writeups/" "/other/" "/blog/" "/guides/" "/checklists/" "/til/" "/network-plus/" "/cyber-security-career-playbook/"}}
-{{ $currentPath := .Permalink }}
-{{ $enablenewsletters := false }}
-
-{{ range $enabledURLs }}
+{{ $disabledURLs := slice "/about/" "/tools/" "/jobs/" "/contact/" "/tags/" "/terms/" "/privacy/" "/advertise/" "/guest-posts/" "/affiliate/" }}
+{{ $currentPath := .Page.Permalink }}
+{{ $disableNewsLetter := false }}
+{{ range $disabledURLs }}
   {{ if (in $currentPath .) }}
-    {{ $enablenewsletters = true }}
+    {{ $disableNewsLetter = true }}
   {{ end }}
 {{ end }}
-
-{{ if (eq .Page.Params.newsletters.enable true) }}
-  {{ $enablenewsletters = true }}
-{{ end }}
-
-{{ if $enablenewsletters }}
+{{ if not $disableNewsLetter }}
 <style type="text/css">
     /* LOADER */
     .ml-form-embedSubmitLoad {
