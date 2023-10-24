@@ -1,11 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .Name "-" " " | title }"
+description: "{{ .Summary }}"
 date: {{ .Date }}
-draft: false
-tags: ['1', '2']
+genre: ['cybersecurity', 'automation', 'information technology']
+tags: ['cybersecurity', 'automation', 'information technology']
 toc: true
-#<!--- images :
-#- site-feature-image.jpg --->
-#series: "series"
+draft: false
+author: "simeononsecurity"
 ---
-

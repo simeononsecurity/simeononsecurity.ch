@@ -129,8 +129,6 @@ includeFields = ''
   category = 'categories'
   tag = 'tags'
   genre = 'genre'
-  author = 'author'
-  date = 'date'
 
 [outputs]
 home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news", "smartnews", "rssall"]
