@@ -1,6 +1,12 @@
 <script>
 // Define a function to load the Lite YouTube script
 function loadLiteYouTubeScript() {
+  // Check if the script is already loaded
+  if (document.querySelector('script[src^="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; // Do nothing if it's already loaded
+  }
+
   // Create a new script element with the specified attributes
   var scriptTag = document.createElement('script');
   scriptTag.src = 'https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
