@@ -55,16 +55,20 @@ A Software-Defined Radio (SDR) is a radio communication system that uses softwar
 
 Some popular SDR tools for hardware hacking are:
 
-- [HackRF](https://greatscottgadgets.com/hackrf/)
-- [RTL-SDR](https://www.rtl-sdr.com/)
+- [HackRF](https://amzn.to/40aBO1F)
+- [RTL-SDR](https://amzn.to/3Mh9HrP)
 
 ### 5. Soldering Iron and Accessories
 
-Soldering is an essential skill for hardware hackers as it allows them to modify or repair electronic circuits. A soldering iron is used to heat and melt solder, creating electrical connections between components. Additional accessories such as solder wire, flux, and desoldering tools are also necessary for hardware hacking projects.
+Soldering is an essential skill for hardware hackers as it allows them to modify or repair electronic circuits. A soldering iron is used to heat and melt solder, creating electrical connections between components. Additional accessories such as [solder wire](https://amzn.to/46FrAZu), [flux](https://amzn.to/3FucA4H), and [desoldering tools](https://amzn.to/3Sejnau) are also necessary for hardware hacking projects.
+
+The two soldering irons we can recommend are
+- [Merece Digital Soldering Station](https://amzn.to/46zZVct)
+- [PINECIL – Smart Mini Portable Soldering Iron](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/)
 
 ### 6. Microcontrollers and Development Boards
 
-Microcontrollers are small programmable devices that hackers can use to create their own hardware hacking tools or modify existing devices. They provide a flexible platform for experimenting with various hardware hacking techniques. Some popular microcontrollers and development boards used by hardware hackers are Arduino, Raspberry Pi, and ESP8266.
+Microcontrollers are small programmable devices that hackers can use to create their own hardware hacking tools or modify existing devices. They provide a flexible platform for experimenting with various hardware hacking techniques. Some popular microcontrollers and development boards used by hardware hackers are [Arduino](https://amzn.to/476dh03), [Raspberry Pi](https://amzn.to/3Fw1Ann), [ESP8266](https://amzn.to/3s86pAn), and [ESP32](https://amzn.to/3Ftyxkz).
 
 {{< inarticle-dark >}}
 
