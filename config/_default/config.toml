@@ -128,13 +128,13 @@ changefreq = "daily"
 filename = "sitemap.xml"
 priority = 1
 [sitemap.categories]
-priority = 3
+priority = 0.5
 [sitemap.tags]
-priority = 3
+priority = 0.5
 [sitemap.dates]
-priority = 5
+priority = 0.3
 [sitemap.authors]
-priority = 5
+priority = 0.3
 
 [security]
 enableInlineShortcodes = true
