@@ -49,7 +49,7 @@
     {{ end }}
     {{ $currentPageDir := path.Dir $path }}
     {{ $currentPageBaseName := path.Base $path }}
-    {{ $ignore := or (hasPrefix .RelPermalink "/tags") (hasPrefix .RelPermalink "/categories") }}
+    {{ $ignore := or (hasPrefix .RelPermalink "/tags/") (hasPrefix .RelPermalink "/genre/") (hasPrefix .RelPermalink "/date/") (hasPrefix .RelPermalink "/categories/") }}
     {{ $ignore = or $ignore (.Params.sitemap_ignore | default false) }}
     {{ if not $ignore }}
     <url>
