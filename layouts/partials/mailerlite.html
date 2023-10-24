@@ -7,6 +7,7 @@
 {{ end }}
 {{ end }}
 {{ if not $disableNewsLetter }}
+{{ if eq .Site.Language.Lang "en" }}
 <style type="text/css">
     /* LOADER */
     .ml-form-embedSubmitLoad {
@@ -1018,4 +1019,5 @@
         }, "background");
     });
 </script>
+{{ end }}
 {{ end }}
