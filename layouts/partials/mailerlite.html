@@ -2,9 +2,9 @@
 {{ $currentPath := .Page.Permalink }}
 {{ $disableNewsLetter := false }}
 {{ range $disabledURLs }}
-  {{ if (in $currentPath .) }}
-    {{ $disableNewsLetter = true }}
-  {{ end }}
+{{ if (in $currentPath .) }}
+{{ $disableNewsLetter = true }}
+{{ end }}
 {{ end }}
 {{ if not $disableNewsLetter }}
 <style type="text/css">
@@ -906,84 +906,29 @@
 <div id="mlb2-8738881" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-8738881">
     <div class="ml-form-align-center ">
         <div class="ml-form-embedWrapper embedForm">
-
-
-
-
             <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-
                 <div class="ml-form-embedContent" style=" ">
-
                     <h4>Newsletter</h4>
-
                     <p>Signup to our subscriber list to stay up to date with the latest on SimeonOnSecurity.com</p>
-
-
                 </div>
-
                 <form class="ml-block-form"
                     action="https://assets.mailerlite.com/jsonp/337756/forms/102788552233846445/subscribe" data-code=""
                     method="post" target="_blank">
                     <div class="ml-form-formContent">
-
-
-
                         <div class="ml-form-fieldRow ml-last-item">
                             <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-
-
-
-
                                 <!-- input -->
                                 <input aria-label="email" aria-required="true" type="email" class="form-control"
                                     data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
-                                <!-- /input -->
-
-                                <!-- textarea -->
-
-                                <!-- /textarea -->
-
-                                <!-- select -->
-
-                                <!-- /select -->
-
-                                <!-- checkboxes -->
-
-                                <!-- /checkboxes -->
-
-                                <!-- radio -->
-
-                                <!-- /radio -->
-
-                                <!-- countries -->
-
-                                <!-- /countries -->
-
-
-
-
-
                             </div>
                         </div>
-
                     </div>
-
-
-
                     <!-- Privacy policy -->
                     <div class="ml-form-embedPermissions" style="">
                         <div class="ml-form-embedPermissionsContent default privacy-policy">
-
-
-
-
                             <p>You can unsubscribe anytime. For more details, review our Privacy Policy.</p>
-
-
-
                         </div>
                     </div>
-
                     <div class="ml-form-recaptcha ml-validate-required" style="float: left;">
                         <style type="text/css">
                             .ml-form-recaptcha {
@@ -1007,56 +952,70 @@
                                 }
                             }
                         </style>
-                        <script src="https://www.google.com/recaptcha/api.js"></script>
                         <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                     </div>
-
-
-
                     <input type="hidden" name="ml-submit" value="1">
-
                     <div class="ml-form-embedSubmit">
-
                         <button type="submit" class="primary">Subscribe</button>
-
                         <button disabled="disabled" style="display: none;" type="button" class="loading">
                             <div class="ml-form-embedSubmitLoad"></div>
                             <span class="sr-only">Loading...</span>
                         </button>
                     </div>
-
-
                     <input type="hidden" name="anticsrf" value="true">
                 </form>
             </div>
-
             <div class="ml-form-successBody row-success" style="display: none">
-
                 <div class="ml-form-successContent">
-
                     <h4>Thank you!</h4>
-
                     <p>You have successfully joined our subscriber list.</p>
-
-
                 </div>
-
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    function ml_webform_success_8738881() {
-        var $ = ml_jQuery || jQuery;
-        $('.ml-subscribe-form-8738881 .row-success').show();
-        $('.ml-subscribe-form-8738881 .row-form').hide();
+    function loadGoogleReCAPTCHAScript() {
+        // Create a new script tag
+        var scriptTag = document.createElement('script');
+        scriptTag.src = 'https://www.google.com/recaptcha/api.js';
+        scriptTag.setAttribute('defer', '');
+        scriptTag.setAttribute('crossorigin', 'anonymous');
+        scriptTag.setAttribute('fetchpriority', 'low');
+        document.body.appendChild(scriptTag);
     }
-</script>
 
-<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v1f25ee4b05f240a833e02c19975434a4"
-    type="text/javascript"></script>
-<script>
-    fetch("https://assets.mailerlite.com/jsonp/337756/forms/102788552233846445/takel")
+    function ml_webform_success_8738881() {
+        yieldToMain(function () {
+            var $ = ml_jQuery || jQuery;
+            $('.ml-subscribe-form-8738881 .row-success').show();
+            $('.ml-subscribe-form-8738881 .row-form').hide();
+        }, "user-visible");
+    }
+
+    function loadMailerLiteWebformsScript() {
+        var scriptTag = document.createElement('script');
+        scriptTag.src = 'https://groot.mailerlite.com/js/w/webforms.min.js?v1f25ee4b05f240a833e02c19975434a4';
+        scriptTag.type = 'text/javascript';
+        scriptTag.setAttribute('defer', '');
+        scriptTag.setAttribute('crossorigin', 'anonymous');
+        scriptTag.setAttribute('fetchpriority', 'low');
+        document.body.appendChild(scriptTag);
+    }
+
+    function fetchMailerLiteScript() {
+        fetch("https://assets.mailerlite.com/jsonp/337756/forms/102788552233846445/takel");
+    }
+
+    // Use yieldToMain() with DOMContentLoaded event
+    document.addEventListener('DOMContentLoaded', function () {
+        yieldToMain(function () {
+            loadGoogleReCAPTCHAScript();
+            handleMailerLiteSuccess();
+            loadMailerLiteWebformsScript();
+            fetchMailerLiteScript();
+        }, "background");
+    });
 </script>
 {{ end }}
