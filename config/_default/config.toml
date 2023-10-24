@@ -73,12 +73,37 @@ twitterSite = "@simeonsecurity"
 
 # Structured data elements
 socialProfiles = [
-  "https://twitter.com/simeonsecurity",
-  "https://github.com/simeononsecurity",
-  "https://mastodon.world/@simeononsecurity",
+  "https://forum.arduino.cc/u/simeononsecurity",
+  "https://galaxy.ansible.com/ui/namespaces/simeononsecurity/",
+  "https://dev.azure.com/simeononsecurity/SimeonOnSecurity",
+  "https://dev.to/simeononsecurity",
   "https://discord.gg/FGQmksA4MA",
-  "https://cybersentinels.org/",
-  "https://discord.gg/CYVe2CyrXk"
+  "https://hub.docker.com/u/simeononsecurity",
+  "https://dochub.com/simeononsecurity",
+  "https://addons.mozilla.org/en-US/firefox/user/18064722/",
+  "https://github.com/simeononsecurity",
+  "https://g.dev/simeononsecurity",
+  "https://grabcad.com/simeon.onsecurity-1",
+  "https://hackaday.io/SimeonOnSecurity",
+  "https://www.hackster.io/simeononsecurity/",
+  "https://simeononsecurity.hashnode.dev",
+  "https://www.instructables.com/member/SimeonOnSecurity/",
+  "https://linktr.ee/simeononsecurity",
+  "https://infosec.exchange/@simeononsecurity",
+  "https://medium.com/@simeononsecurity",
+  "https://answers.microsoft.com/en-us/profile/a4fafd59-9d3e-4488-95b3-dc0e6d8154b2?activeViewTab=Profile&updated=1",
+  "https://learn.microsoft.com/en-us/users/SimeonOnSecurity",
+  "https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/2079929#profile",
+  "https://www.minds.com/simeononsecurity",
+  "https://www.npmjs.com/~simeononsecurity",
+  "https://www.powershellgallery.com/profiles/SimeonOnSecurity",
+  "https://pypi.org/user/SimeonOnSecurity/",
+  "https://www.reddit.com/user/simeonsecurity",
+  "https://stackoverflow.com/users/22727019/simeononsecurity",
+  "https://substack.com/@simeononsecurity",
+  "https://tryhackme.com/p/simeononsecurity",
+  "https://twitter.com/SimeonSecurity",
+  "https://www.youtube.com/@SimeonOnSecurity",
 ]
 
 github = "https://github.com/simeononsecurity"
@@ -101,6 +126,8 @@ logoHomeLink = "/"
 [sitemap]
 changefreq = "daily"
 filename = "sitemap.xml"
+priority = 1
+[sitemap.categories]
 priority = 1
 
 [security]
