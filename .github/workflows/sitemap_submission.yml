@@ -18,7 +18,7 @@ jobs:
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}
-          count: 20
+          count: 10
           bing-token: ${{ secrets.BING_TOKEN }}
 
       - name: Run Search Engines URLs Push action (Google)
