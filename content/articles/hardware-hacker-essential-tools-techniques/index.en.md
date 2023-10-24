@@ -27,6 +27,8 @@ While software vulnerabilities can be patched relatively easily, hardware vulner
 
 A JTAG (Joint Test Action Group) debugger is a hardware tool used by hackers to access and manipulate the digital circuits of electronic devices. It provides a standardized interface for testing and debugging integrated circuits, making it a powerful tool for hardware hacking. Hackers can use a JTAG debugger to bypass security measures, extract firmware, or modify the device's behavior.
 
+{{< youtube id="_FSM_10JXsM" >}}
+
 Some popular JTAG debuggers include:
 
 - [OpenOCD](https://github.com/sysprogs/openocd)
@@ -35,6 +37,8 @@ Some popular JTAG debuggers include:
 ### 2. Logic Analyzer
 
 A logic analyzer is a tool used to capture and analyze digital signals in electronic systems. It allows hackers to observe and understand the behavior of a device's digital circuits, identify vulnerabilities, and reverse engineer the hardware. By analyzing the signals, hackers can extract encryption keys, identify communication protocols, and discover backdoors in the system.
+
+{{< youtube id="u1DYs2I-_lU" >}}
 
 Popular logic analyzers used by hardware hackers include:
 
@@ -47,11 +51,15 @@ Popular logic analyzers used by hardware hackers include:
 
 The Bus Pirate is a versatile tool that enables hackers to interface with various electronic communication buses, such as I2C, SPI, UART, and more. It acts as a bridge between a computer and the target device, allowing hackers to read and write data directly from the device's communication bus. The Bus Pirate is a valuable tool for sniffing communication, injecting data, or probing the device's internals.
 
+{{< youtube id="lP8vMvBu3Bg" >}}
+
 The official website for the Bus Pirate is [here](http://dangerousprototypes.com/docs/Bus_Pirate).
 
 ### 4. Software-Defined Radio (SDR)
 
 A Software-Defined Radio (SDR) is a radio communication system that uses software to define its functionalities instead of relying on traditional hardware components. SDRs can be used by hackers to intercept, analyze, and manipulate wireless communications. They are particularly useful for hacking radio-controlled devices, wireless key systems, and other wireless protocols.
+
+{{< youtube id="nB6XQSEFwVA" >}}
 
 Some popular SDR tools for hardware hacking are:
 
@@ -62,6 +70,8 @@ Some popular SDR tools for hardware hacking are:
 
 Soldering is an essential skill for hardware hackers as it allows them to modify or repair electronic circuits. A soldering iron is used to heat and melt solder, creating electrical connections between components. Additional accessories such as [solder wire](https://amzn.to/46FrAZu), [flux](https://amzn.to/3FucA4H), and [desoldering tools](https://amzn.to/3Sejnau) are also necessary for hardware hacking projects.
 
+{{< youtube id="R2sPDQeGlj8" >}}
+
 The two soldering irons we can recommend are
 - [Merece Digital Soldering Station](https://amzn.to/46zZVct)
 - [PINECIL – Smart Mini Portable Soldering Iron](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/)
@@ -69,6 +79,8 @@ The two soldering irons we can recommend are
 ### 6. Microcontrollers and Development Boards
 
 Microcontrollers are small programmable devices that hackers can use to create their own hardware hacking tools or modify existing devices. They provide a flexible platform for experimenting with various hardware hacking techniques. Some popular microcontrollers and development boards used by hardware hackers are [Arduino](https://amzn.to/476dh03), [Raspberry Pi](https://amzn.to/3Fw1Ann), [ESP8266](https://amzn.to/3s86pAn), and [ESP32](https://amzn.to/3Ftyxkz).
+
+{{< youtube id="RmD7UgKvUnY" >}}
 
 {{< inarticle-dark >}}
 
