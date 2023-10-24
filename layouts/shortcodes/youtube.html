@@ -1,4 +1,25 @@
-<script defer type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+<script>
+// Define a function to load the Lite YouTube script
+function loadLiteYouTubeScript() {
+  // Create a new script element with the specified attributes
+  var scriptTag = document.createElement('script');
+  scriptTag.src = 'https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  // Append the script to the document body
+  document.body.appendChild(scriptTag);
+}
+
+// Use yieldToMain with DOMContentLoaded event
+document.addEventListener('DOMContentLoaded', function () {
+  // First yieldToMain call for the Lite YouTube script
+  yieldToMain(function () {
+      loadLiteYouTubeScript();
+  }, "user-visible");
+});
+</script>
 <style scoped>
   .lite-youtube-fallback {
     aspect-ratio: 16 / 9; /* matches YouTube player */
