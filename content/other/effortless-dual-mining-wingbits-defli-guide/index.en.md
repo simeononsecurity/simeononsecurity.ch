@@ -42,14 +42,21 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 #### ADSB Receivers
 - (**Preferred**)[Nooelec RTL-SDR v5](https://amzn.to/3s4trrR)
 - [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)
-#### ADSB Antennas:
+#### ADSB Antennas
 - (**Preferred**)[AirNav RadarBox ADS-B Antenna](https://amzn.to/496LcHN)
 - [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/3FsGaaY)
 - [1090MHz 978MHz Dual Band ADS-B Antenna](https://amzn.to/3QsOrlA)
-#### Optional Extras:
+#### Optional Extras
+- [Nooelec SAWbird+ ADS-B: Premium, Dual-Channel, Cascaded Ultra-Low Noise Amplifier (LNA) & Filter Module for Airplane Tracking Applications. ](https://amzn.to/4737k3T)
+##### Band Pass and SAW Filters
+- (**Preferred**)[ADSBexchange.com 1090 Mhz Saw Filter ](https://amzn.to/3MewiFB)
 - [1090MHz Band Pass Filter, Saw Band Pass Filter](https://amzn.to/3McmZFQ)
-- [Nooelec Lana - Ultra Low-Noise Amplifier (LNA)](https://amzn.to/3FsEAWv)
+##### Low Noise Amplifiers
+- (**Preferred**)[Nooelec Lana - Ultra Low-Noise Amplifier (LNA)](https://amzn.to/3FsEAWv)
 - [Low Noise Amplifier 20dB High Gain](https://amzn.to/3FpF27S)
+##### SMA Pigtails
+- [2 Pack 6inch SMA to SMA Adapter Cable](https://amzn.to/3QcUHwa)
+- [5pcs RF Coaxial Coax SMA Male to SMA Male](https://amzn.to/494WOeh)
 
 ## OS Installation:
 We won't go into the technical details of how to install an operating system here. However here are some great resources to get you started.
