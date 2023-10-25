@@ -1002,7 +1002,6 @@
     // Use yieldToMain() with DOMContentLoaded event
     document.addEventListener('DOMContentLoaded', function () {
         yieldToMain(function () {
-            handleMailerLiteSuccess();
             loadMailerLiteWebformsScript();
             fetchMailerLiteScript();
         }, "background");
