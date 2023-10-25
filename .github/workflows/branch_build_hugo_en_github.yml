@@ -9,10 +9,7 @@ on:
       - "!contents/**" # Exclude the contents folder
       - "!github/**" # Exclude the .github folder
       - "!git/**" # Exclude the .git folder
-      - "contents/**/*.en.md"
       - "index.en.md"
-      - "**/index.en.md" # Include only *.en.md files within the content folder
-
 jobs:
   build:
     runs-on: ubuntu-latest
