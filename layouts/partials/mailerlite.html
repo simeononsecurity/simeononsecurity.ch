@@ -92,7 +92,6 @@
     }
 
     #mlb2-8738881.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
-        max-width: 400px;
         width: 100%;
     }
 
@@ -953,6 +952,7 @@
                                 }
                             }
                         </style>
+                        <script defer src="https://www.google.com/recaptcha/api.js" crossorigin="anonymous" fetchpriority="low"></script>
                         <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                     </div>
                     <input type="hidden" name="ml-submit" value="1">
@@ -977,16 +977,6 @@
 </div>
 
 <script>
-    function loadGoogleReCAPTCHAScript() {
-        // Create a new script tag
-        var scriptTag = document.createElement('script');
-        scriptTag.src = 'https://www.google.com/recaptcha/api.js';
-        scriptTag.setAttribute('defer', '');
-        scriptTag.setAttribute('crossorigin', 'anonymous');
-        scriptTag.setAttribute('fetchpriority', 'low');
-        document.body.appendChild(scriptTag);
-    }
-
     function ml_webform_success_8738881() {
         yieldToMain(function () {
             var $ = ml_jQuery || jQuery;
@@ -1012,7 +1002,6 @@
     // Use yieldToMain() with DOMContentLoaded event
     document.addEventListener('DOMContentLoaded', function () {
         yieldToMain(function () {
-            loadGoogleReCAPTCHAScript();
             handleMailerLiteSuccess();
             loadMailerLiteWebformsScript();
             fetchMailerLiteScript();
