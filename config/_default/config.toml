@@ -159,6 +159,7 @@ disableLatLong = true
 includeFields = ''
 
 [taxonomies]
+  author = 'authors'
   category = 'categories'
   tag = 'tags'
   genre = 'genre'
