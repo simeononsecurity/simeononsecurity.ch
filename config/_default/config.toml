@@ -454,6 +454,11 @@ logoHomeLink = "/"
 identifier = "Search"
 name = "Search"
 url = "/search"
+weight = 21
+[[languages.en.menu.main]]
+identifier = "Downloads"
+name = "Downloads"
+url = "/downloads"
 weight = 20
 [[languages.en.menu.main]]
 identifier = "Images"
