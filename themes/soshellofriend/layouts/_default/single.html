@@ -20,7 +20,7 @@
         {{ end }}
       {{ end }}
       
-      {{ $excludePaths := slice "/about" "/contact" "/terms" "/privacy" "/authors" "/tools" "/practice-tests" "/advertise" "/guest-posts" }}
+      {{ $excludePaths := slice "/about" "/authors/" "/jobs/" "/contact" "/terms" "/privacy" "/authors" "/tools" "/practice-tests" "/advertise" "/guest-posts" }}
       {{ $currentPath := .Permalink }}
       {{ if not (in $currentPath $excludePaths) }}
       {{ $authorURL := "" }}
@@ -107,6 +107,8 @@
     {{ end }}
     <br>
     {{ partialCached "mailerlite.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang}}
+    <br>
+    {{ partialCached "authorblock.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang}}
     <br>
     {{ partialCached "disclosurefooter.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     <br>
