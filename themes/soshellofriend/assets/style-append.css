@@ -1293,21 +1293,30 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
 }
 @media (min-width: 384px) {
   img.post-cover {
-      width: 240px;
-      height: 135px;
- }
+    width: auto;
+    height: auto;
+    max-width: 240px;
+    max-height: 135px;
+    min-height: 135px;
+  }
 }
 @media (min-width: 780px) {
   img.post-cover {
-      width: 480px;
-      height: 269px;
- }
+    width: auto;
+    height: auto;
+    max-width: 480px;
+    max-height: 269px;
+    min-height: 269px;
+  }
 }
 @media (min-width: 2560px) {
   img.post-cover {
-      width: 731px;
-      height: 410px;
- }
+    width: auto;
+    height: auto;
+    max-width: 731px;
+    max-height: 410px;
+    min-height: 410px;
+  }
 }
 
 /* Center elements with class "IL_BASE" INFOLINKS*/

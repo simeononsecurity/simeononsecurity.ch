@@ -505,12 +505,16 @@ ul {
 .post-cover {
   margin: 40px -50px;
   max-width: 860px;
-  width: 860px;
+  max-height: 860px;
+  width: auto;
+  height: auto;
+
 }
 .post-cover img {
   border-radius: 8px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
+  max-height: 600px;
   max-width: 85%;
   height: auto;
   width: auto;
@@ -519,7 +523,10 @@ ul {
 @media (max-width: 899px) {
   .post-cover {
     margin: 20px 0;
-    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+    width: auto;
+    height: auto;
   }
 }
 .button {
@@ -573,20 +580,29 @@ svg {
 }
 @media (min-width: 384px) {
   img.post-cover {
-    width: 240px;
-    height: 135px;
+    width: auto;
+    height: auto;
+    max-width: 240px;
+    max-height: 135px;
+    min-height: 135px;
   }
 }
 @media (min-width: 780px) {
   img.post-cover {
-    width: 480px;
-    height: 269px;
+    width: auto;
+    height: auto;
+    max-width: 480px;
+    max-height: 269px;
+    min-height: 269px;
   }
 }
 @media (min-width: 2560px) {
   img.post-cover {
-    width: 731px;
-    height: 410px;
+    width: auto;
+    height: auto;
+    max-width: 731px;
+    max-height: 410px;
+    min-height: 410px;
   }
 }
 .language-selector {
