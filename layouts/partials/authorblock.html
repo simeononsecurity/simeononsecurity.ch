@@ -1,5 +1,5 @@
 {{ $languageCode := $.Site.LanguageCode }}
-{{ $excludePaths := slice "/about" "/authors/" "/jobs/" "/contact" "/terms" "/privacy" "/authors" "/tools" "/practice-tests" "/advertise" "/guest-posts" }}
+{{ $excludePaths := slice "/about" "/authors/" "/jobs/" "/contact/" "/terms/" "/privacy/" "/authors/" "/tools/" "/practice-tests/" "/advertise/" "/guest-posts/" "/press/" "/downloads/" }}
 {{ $currentPath := .Permalink }}
 {{ if not (in $currentPath $excludePaths) }}
 {{ $authorURL := "" }}
