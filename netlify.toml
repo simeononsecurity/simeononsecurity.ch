@@ -300,12 +300,10 @@ from = "/ru/*"
 to = "https://ru.simeononsecurity.com/:splat"
 status = 301
 
-# [[redirects]]
-# from = "/*"
-# to = "/:splat"
-# status = 200
-# force = true
-# conditions = { Language = ["en"] }
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
 
 # [[redirects]]
 # from = "/*"
