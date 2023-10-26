@@ -69,8 +69,10 @@
     <div class="post-content" itemprop="articleBody">
       {{ if or .Params.Toc $.Site.Params.Toc }}
         {{ if ne .Params.Toc false }}
-        <h2>Table of Contents</h2>
-        <aside class="table-of-contents">{{ .TableOfContents }}</aside>
+        <div style="background: var(--background-secondary); padding: 5px; margin: 0 auto; border-radius: 1%">
+          <h2 style="padding-left: 10px;">Table of Contents</h2>
+          <aside class="table-of-contents" style="padding-left: 10px;">{{ .TableOfContents }}</aside>  
+        </div>
         {{ end }}
       {{ end }}
       {{ .Content }}
