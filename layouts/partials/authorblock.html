@@ -14,7 +14,7 @@
 {{ with .Params.Author }}
 <span itemscope itemtype="https://schema.org/author">
     <span class="post-author" itemscope itemtype="https://schema.org/Person">
-        {{ $authorPage := $.Site.GetPage "/authors/" . }}
+        {{ $authorPage := $.Site.GetPage (printf "/authors/%s" (lower $.Params.Author)) }}
         {{ with $authorPage }}
         <div style="background: var(--background-secondary); border: 1px solid var(--color); padding: 10px; text-align: center; margin: 0 auto; border-radius: 1%">
             <a href="{{ (printf "/authors/%s" (lower $.Params.Author) | absURL) }}">
