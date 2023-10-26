@@ -28,7 +28,7 @@
                             style="max-height: 48px; max-width: 48px; border-radius: 50%; margin: 0 auto; display: block;"
                             loading="lazy">
                         <p style="margin-top: 10px; font-weight: bold;" itemprop="name">{{ $.Params.Author }}</p>
-                        <p style="font-style: italic;">{{ .Params.description | first 300 }}</p>
+                        <p style="font-style: italic;">{{ .Params.description | first 500 }}</p>
                     </a>
                     <div class="social-media-links">
                         {{ if .Params.twitter }}
@@ -83,7 +83,7 @@
                         style="max-height: 48px; max-width: 48px; border-radius: 50%; margin: 0 auto; display: block;"
                         loading="lazy">
                     <p style="margin-top: 10px; font-weight: bold;" itemprop="name">SimeonOnSecurity</p>
-                    <p style="font-style: italic;">{{ .Params.description | first 300 }}</p>
+                    <p style="font-style: italic;">{{ .Params.description | first 500 }}</p>
                 </a>
                 <div class="social-media-links">
                     {{ if .Params.twitter }}
