@@ -2,7 +2,6 @@
 author: "SimeonOnSecurity"
 title: "SimeonOnSecurity"
 description: "Simeon is a highly skilled Systems Administrator with a passion for Cybersecurity and Privacy. By day, he brings extensive technical knowledge and experience to his role. By night, he indulges in his hobbies as a tinkerer, hobbyist, and self-proclaimed geek and nerd."
-bios: "Simeon is a highly skilled Systems Administrator with a passion for Cybersecurity and Privacy."
 cover: "/img/avatar.png"
 twitter: "https://twitter.com/SimeonSecurity"
 github: "https://twitter.com/SimeonSecurity"
