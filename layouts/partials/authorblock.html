@@ -1,124 +1,130 @@
 {{ $languageCode := $.Site.LanguageCode }}
-{{ $excludePaths := slice "/about" "/authors/" "/jobs/" "/contact/" "/terms/" "/privacy/" "/authors/" "/tools/" "/practice-tests/" "/advertise/" "/guest-posts/" "/press/" "/downloads/" }}
-{{ $currentPath := .Permalink }}
-{{ if not (in $currentPath $excludePaths) }}
+{{ $excludePaths := slice "/about/" "/jobs/" "/contactus/" "/terms/" "/privacy/" "/authors/" "/tools/" "/practice-tests/" "/advertise/" "/guest-posts/" "/press/" "/downloads/" }}
+{{ $currentPath := .Page.Permalink }}
+{{ $disableAuthorblock := false }}
+{{ range $excludePaths }}
+    {{ if (in $currentPath .) }}
+        {{ $disableAuthorblock = true }}
+    {{ end }}
+{{ end }}
+{{ if not $disableAuthorblock }}
 {{ $authorURL := "" }}
-{{ if .Params.Author }}
-{{ with .Params.Author }}
-{{ $authorURL = printf "/authors/%s" (lower $.Params.Author) | absURL }}
-{{ else }}
-{{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
-{{ end }}
-{{ end }}
-{{ if .Params.Author }}
-{{ with .Params.Author }}
-<span itemscope itemtype="https://schema.org/author">
-    <span class="post-author" itemscope itemtype="https://schema.org/Person">
-        {{ $authorPage := $.Site.GetPage (printf "/authors/%s" (lower $.Params.Author)) }}
-        {{ with $authorPage }}
-        <div style="background: var(--background-secondary); border: 1px solid var(--color); padding: 10px; text-align: center; margin: 0 auto; border-radius: 1%">
-            <a href="{{ (printf "/authors/%s" (lower $.Params.Author) | absURL) }}">
-                <img src="{{ .Params.cover | absURL }}" alt="Author's Image" height="48px" width="48px"
-                    style="max-height: 48px; max-width: 48px; border-radius: 50%; margin: 0 auto; display: block;"
-                    loading="lazy">
-                <p style="margin-top: 10px; font-weight: bold;" itemprop="name">{{ $.Params.Author }}</p>
-                <p style="font-style: italic;">{{ .Params.description | first 300 }}</p>
-            </a>
-            <div class="social-media-links">
-                {{ if .Params.twitter }}
-                <a href="{{ .Params.twitter }}" target="_blank" rel="noopener">
-                    <i class="fab fa-github"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.github }}
-                <a href="{{ .Params.github }}" target="_blank" rel="noopener">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.mastodon }}
-                <a href="{{ .Params.mastodon }}" target="_blank" rel="noopener">
-                    <i class="fab fa-mastodon"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.discord }}
-                <a href="{{ .Params.discord}}" target="_blank" rel="noopener">
-                    <i class="fab fa-discord"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.youtube }}
-                <a href="{{ .Params.youtube }}" target="_blank" rel="noopener">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.linkedin }}
-                <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.website }}
-                <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
-                    <i class="fab fa-globe"></i>
-                </a>
-                {{ end }}
-            </div>
-        </div>
+    {{ if .Params.Author }}
+        {{ with .Params.Author }}
+        {{ $authorURL = printf "/authors/%s" (lower $.Params.Author) | absURL }}
+        {{ else }}
+        {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
         {{ end }}
-    </span>
-</span>
-{{ end }}
-{{ else }}
-<span itemscope itemtype="https://schema.org/author">
-    <span class="post-author" itemscope itemtype="https://schema.org/Person">
-        {{ $authorPage := $.Site.GetPage "/authors/simeononsecurity" }}
-        {{ with $authorPage }}
-        <div style="background: var(--background-secondary); border: 1px solid var(--color); padding: 10px; text-align: center; margin: 0 auto; border-radius: 1%">
-            <a href="{{ ("/authors/simeononsecurity"| absURL) }}">
-                <img src="{{ .Params.cover | absURL }}" alt="Author's Image" height="48px" width="48px"
-                    style="max-height: 48px; max-width: 48px; border-radius: 50%; margin: 0 auto; display: block;"
-                    loading="lazy">
-                <p style="margin-top: 10px; font-weight: bold;" itemprop="name">SimeonOnSecurity</p>
-                <p style="font-style: italic;">{{ .Params.description | first 300 }}</p>
-            </a>
-            <div class="social-media-links">
-                {{ if .Params.twitter }}
-                <a href="{{ .Params.twitter }}" target="_blank" rel="noopener">
-                    <i class="fab fa-github"></i>
-                </a>
+    {{ end }}
+    {{ if .Params.Author }}
+        {{ with .Params.Author }}
+        <span itemscope itemtype="https://schema.org/author">
+            <span class="post-author" itemscope itemtype="https://schema.org/Person">
+                {{ $authorPage := $.Site.GetPage (printf "/authors/%s" (lower $.Params.Author)) }}
+                {{ with $authorPage }}
+                <div style="background: var(--background-secondary); border: 1px solid var(--color); padding: 10px; text-align: center; margin: 0 auto; border-radius: 1%">
+                    <a href="{{ (printf "/authors/%s" (lower $.Params.Author) | absURL) }}">
+                        <img src="{{ .Params.cover | absURL }}" alt="Author's Image" height="48px" width="48px"
+                            style="max-height: 48px; max-width: 48px; border-radius: 50%; margin: 0 auto; display: block;"
+                            loading="lazy">
+                        <p style="margin-top: 10px; font-weight: bold;" itemprop="name">{{ $.Params.Author }}</p>
+                        <p style="font-style: italic;">{{ .Params.description | first 300 }}</p>
+                    </a>
+                    <div class="social-media-links">
+                        {{ if .Params.twitter }}
+                        <a href="{{ .Params.twitter }}" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.github }}
+                        <a href="{{ .Params.github }}" target="_blank" rel="noopener">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.mastodon }}
+                        <a href="{{ .Params.mastodon }}" target="_blank" rel="noopener">
+                            <i class="fab fa-mastodon"></i>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.discord }}
+                        <a href="{{ .Params.discord}}" target="_blank" rel="noopener">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.youtube }}
+                        <a href="{{ .Params.youtube }}" target="_blank" rel="noopener">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.linkedin }}
+                        <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.website }}
+                        <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
+                            <i class="fab fa-globe"></i>
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
                 {{ end }}
-                {{ if .Params.github }}
-                <a href="{{ .Params.github }}" target="_blank" rel="noopener">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.mastodon }}
-                <a href="{{ .Params.mastodon }}" target="_blank" rel="noopener">
-                    <i class="fab fa-mastodon"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.discord }}
-                <a href="{{ .Params.discord}}" target="_blank" rel="noopener">
-                    <i class="fab fa-discord"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.youtube }}
-                <a href="{{ .Params.youtube }}" target="_blank" rel="noopener">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.linkedin }}
-                <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                {{ end }}
-                {{ if .Params.website }}
-                <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
-                    <i class="fab fa-globe"></i>
-                </a>
-                {{ end }}
-            </div>
-        </div>
+            </span>
+        </span>
         {{ end }}
+    {{ else }}
+    <span itemscope itemtype="https://schema.org/author">
+        <span class="post-author" itemscope itemtype="https://schema.org/Person">
+            {{ $authorPage := $.Site.GetPage "/authors/simeononsecurity" }}
+            {{ with $authorPage }}
+            <div style="background: var(--background-secondary); border: 1px solid var(--color); padding: 10px; text-align: center; margin: 0 auto; border-radius: 1%">
+                <a href="{{ ("/authors/simeononsecurity"| absURL) }}">
+                    <img src="{{ .Params.cover | absURL }}" alt="Author's Image" height="48px" width="48px"
+                        style="max-height: 48px; max-width: 48px; border-radius: 50%; margin: 0 auto; display: block;"
+                        loading="lazy">
+                    <p style="margin-top: 10px; font-weight: bold;" itemprop="name">SimeonOnSecurity</p>
+                    <p style="font-style: italic;">{{ .Params.description | first 300 }}</p>
+                </a>
+                <div class="social-media-links">
+                    {{ if .Params.twitter }}
+                    <a href="{{ .Params.twitter }}" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {{ end }}
+                    {{ if .Params.github }}
+                    <a href="{{ .Params.github }}" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    {{ end }}
+                    {{ if .Params.mastodon }}
+                    <a href="{{ .Params.mastodon }}" target="_blank" rel="noopener">
+                        <i class="fab fa-mastodon"></i>
+                    </a>
+                    {{ end }}
+                    {{ if .Params.discord }}
+                    <a href="{{ .Params.discord}}" target="_blank" rel="noopener">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    {{ end }}
+                    {{ if .Params.youtube }}
+                    <a href="{{ .Params.youtube }}" target="_blank" rel="noopener">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    {{ end }}
+                    {{ if .Params.linkedin }}
+                    <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    {{ end }}
+                    {{ if .Params.website }}
+                    <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">
+                        <i class="fab fa-globe"></i>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </span>
     </span>
-</span>
-{{ end }}
+    {{ end }}
 {{ end }}
