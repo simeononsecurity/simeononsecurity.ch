@@ -391,11 +391,11 @@ status = 301
 # status = 301
 # conditions = { Language = ["ro"] }
 
-[[redirects]]
-from = "/*"
-to = "https://ru.simeononsecurity.com/:splat"
-status = 301
-conditions = { Language = ["ru"] }
+# [[redirects]]
+# from = "/*"
+# to = "https://ru.simeononsecurity.com/:splat"
+# status = 301
+# conditions = { Language = ["ru"] }
 
 # [[redirects]]
 # from = "/*"
