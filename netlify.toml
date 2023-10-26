@@ -229,81 +229,96 @@ Cache-Control = "no-cache, no-store, must-revalidate"
 from = "/fr/*"
 to = "https://fr.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/es/*"
 to = "https://es.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/de/*"
 to = "https://de.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/hi/*"
 to = "https://hi.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/ar/*"
 to = "https://ar.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/ca/*"
 to = "https://ca.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/it/*"
 to = "https://it.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/ja/*"
 to = "https://ja.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/nl/*"
 to = "https://nl.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/ro/*"
 to = "https://ro.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/zh/*"
 to = "https://zh.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/pa/*"
 to = "https://pa.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/pl/*"
 to = "https://pl.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/pt/*"
 to = "https://pt.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/ru/*"
 to = "https://ru.simeononsecurity.com/:splat"
 status = 301
+force = true
 
 [[redirects]]
-  from = "/*"
-  to = "/:splat"
-  status = 200
+from = "/*"
+to = "/:splat"
+status = 200
 
 # [[redirects]]
 # from = "/*"
