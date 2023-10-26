@@ -1,9 +1,9 @@
 <center>
-    <figure align="center" {{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    <figure align="center" style="text-align: center; margin: 0 auto;" {{ with .Get "class" }} class="{{ . }}"{{ end }}>
         {{- if .Get "link" -}}
             <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
         {{- end }}
-        <img align="center" style="max-width: 80%; max-height: 600px; min-width: 100px; min-height: 100px; height: auto; width: auto;" src="{{ .Get "src" }}"
+        <img align="center" style="text-align: center; margin: 0 auto; max-width: 80%; max-height: 600px; min-width: 100px; min-height: 100px; height: auto; width: auto;" src="{{ (.Get "src") | absURL }}"
              {{- if or (.Get "alt") (.Get "caption") }}
              alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
              {{- end -}}
@@ -14,7 +14,7 @@
         /> <!-- Closing img tag -->
         {{- if .Get "link" }}</a>{{ end -}}
         {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-            <figcaption>
+            <figcaption align="center" style="text-align: center; margin: 0 auto;">
                 {{ with (.Get "title") -}}
                     <h4>{{ . }}</h4>
                 {{- end -}}
