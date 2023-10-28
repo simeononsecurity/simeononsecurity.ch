@@ -69,6 +69,11 @@ https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 301!
 # /home / 301!
 # redirect sitemap.xml to index.xml
 /rss.xml /index.xml 301!
+
+## PROXY CYBERCHEF
+/CyberChef/* https://gchq.github.io/CyberChef/:splat 200
+
+# BUG FIX
 /* /:splat 200
 
 # # cloudflare pages
