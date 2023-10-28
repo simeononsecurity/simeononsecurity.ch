@@ -72,6 +72,7 @@ https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 301!
 
 ## PROXY CYBERCHEF
 /CyberChef/* https://gchq.github.io/CyberChef/:splat 200
+/cyberchef/* https://gchq.github.io/CyberChef/:splat 200
 
 # BUG FIX
 /* /:splat 200
