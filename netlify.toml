@@ -316,6 +316,11 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/CyberChef/*"
+to = "https://gchq.github.io/CyberChef/:splat"
+status = 200
+
+[[redirects]]
 from = "/*"
 to = "/:splat"
 status = 200
