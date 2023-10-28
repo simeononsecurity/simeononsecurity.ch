@@ -319,6 +319,7 @@ force = true
 from = "/CyberChef/*"
 to = "https://gchq.github.io/CyberChef/:splat"
 status = 200
+force = true
 
 [[redirects]]
 from = "/*"
