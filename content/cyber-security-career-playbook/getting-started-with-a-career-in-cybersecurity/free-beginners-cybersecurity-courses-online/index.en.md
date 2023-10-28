@@ -107,3 +107,7 @@ ______
 - [Code.org](https://studio.code.org/courses)
 - [Codecademy](https://www.codecademy.com/)
 - [Python Institute](https://pythoninstitute.org/free-python-courses/)
+
+## License
+[Free Beginners Cybersecurity Courses: Top Platforms and Training](https://creativecommons.org/choose/results-one?field_attribute_to_url=https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/free-beginners-cybersecurity-courses-online/) © 2023 by [SimeonOnSecurity](https://simeononsecurity.com/) is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=simeononsecurity.com)
+
