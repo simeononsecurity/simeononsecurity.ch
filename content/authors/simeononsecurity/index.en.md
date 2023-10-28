@@ -77,7 +77,6 @@ In addition to their professional accomplishments, SimeonOnSecurity's passion fo
 - [Start.me](https://start.me/p/nRmEDb/startpage)
 - [Substack](https://substack.com/@simeononsecurity)
 - [Ted](https://www.ted.com/profiles/41673943)
-- [Tinkercad](https://www.tinkercad.com/users/b5EFFDVTS3f)
 - [TryHackMe](https://tryhackme.com/p/simeononsecurity)
 - [Tumblr (Blog)](https://www.tumblr.com/blog/simeonsecurity)
 - [Twitch](https://www.twitch.tv/simeononsecurity)
