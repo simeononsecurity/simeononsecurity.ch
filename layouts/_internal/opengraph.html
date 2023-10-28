@@ -123,7 +123,7 @@
 {{- with .Params.tags }}{{ range first 6 . }}
 <meta property="article:tag" content="{{ . }}" />{{ end }}{{ end }}
 {{- end }}{{ end }}
-<base href="{{ $.Site.BaseURL}}">
+<base href="{{ .Permalink }}">
 
 {{ if isset .Params "canonical" }}
   <link rel="canonical" href="{{ .Params.canonical }}" />
