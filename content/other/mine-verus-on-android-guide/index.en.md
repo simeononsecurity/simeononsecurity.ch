@@ -187,8 +187,8 @@ This requires some experience with linux command line and is only suggested for 
 
 4. **Compile the Miner**: Execute `./build.sh` to compile the miner. Wait for the compilation process to finish.
 
-5. **Start Mining**: Issue the command `./ccminer -a minername -o stratum+tcp://pool.verus.io:9998 -u walletaddress -p c=VRSC -t 8` to start mining VerusCoin.
-   1. Adjust the values for `-a`, `-o`, `-u`, and `-t` to your minername, pool address, walletaddress, and core count respectively.
+5. **Start Mining**: Issue the command `./ccminer -a verus -o stratum+tcp://pool.verus.io:9998 -u walletaddress.workername -p c=VRSC -t 8` to start mining VerusCoin.
+   1. Adjust the values for `-o`, `-u`, and `-t` to your pool address, walletaddress, and core count respectively.
 
 ### Option 2 **(Preferred)**: Verus Mining Software Build Script with **_Optimized ARM CCMiner_**
 
