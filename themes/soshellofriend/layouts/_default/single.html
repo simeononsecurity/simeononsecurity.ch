@@ -134,9 +134,9 @@
 
       {{ with $filteredgenre }}
         <h2>Genres</h2>
-        <span class="post-tags">
+        <span class="post-tags" itemscope itemtype="https://schema.org/Thing">
           {{ range . }}
-            <a href="{{ (urlize (printf "genre/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+            <a href="{{ (urlize (printf "genre/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}" itemprop="url"><span itemprop="name">#{{ . }}</span></a>&nbsp;
           {{ end }}
         </span>
       {{ end }}

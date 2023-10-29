@@ -11,9 +11,9 @@
           {{ $count := .Count }}
           {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
             <li class="terms__term" itemprop="about" itemscope itemtype="https://schema.org/Thing">
-              <a title="{{ .Title | markdownify }} | Articles with this tag" href="{{ .Permalink }}" hreflang="{{ $languageCode }}"
-                ><span itemprop="name">#{{ .Name }}</span> <span class="terms__term-count">{{ $count }}</span></a
-              >
+              <a title="{{ .Title | markdownify }} | Articles with this tag" href="{{ .Permalink }}" hreflang="{{ $languageCode }}" itemprop="url">
+                <span itemprop="name">#{{ .Name }}</span> <span class="terms__term-count">{{ $count }}</span>
+              </a>
             </li>
             {{ $counter = add $counter 1 }}
           {{ end }}

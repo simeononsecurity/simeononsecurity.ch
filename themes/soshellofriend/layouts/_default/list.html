@@ -89,16 +89,16 @@
       
           {{ with $filteredTags }}
             {{/* <h2>Tags</h2> */}}
-            <span class="post-tags">
+            <span class="post-tags" itemscope itemtype="https://schema.org/Thing">
               {{ range first 5 . }}
-                <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}">#{{ . }}</a>&nbsp;
+                <a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}" itemprop="url"><span itemprop="name">#{{ . }}</span></a>&nbsp;
               {{ end }}
             </span>
           {{ end }}
         {{ end }}
         {{ if not .Params.hideReadMore }}
           <div>
-            <a class="read-more button" title="read more" href="{{ .RelPermalink }}" hreflang="{{ $languageCode }}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a>
+            <a class="read-more button" title="read more" href="{{ .RelPermalink }}" hreflang="{{ $languageCode }}" itemprop="url">{{ $.Site.Params.ReadMore | default "Read more" }} →</a>
           </div>
         {{ end }}
       </article>

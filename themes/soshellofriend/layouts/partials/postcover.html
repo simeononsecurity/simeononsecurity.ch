@@ -1,9 +1,9 @@
 {{ $authorURL := ""}}
 {{ if .context.Params.Author }}
   {{ with .context.Params.Author }}
-      {{ $authorURL =  ("/authors/({{ . | lower }})"| absURL) }}
+      {{ $authorURL =  ("/authors/({{ . | lower }})" | absURL) }}
   {{ else }}
-      {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
+      {{ $authorURL =  ("/authors/simeononsecurity" | absURL) }}
   {{ end }}
 {{ end }}
 {{ if and (not (or (eq .context.Params.Cover "") (eq .context.Params.Cover " ") (eq .context.Params.Cover "/img/cover/" ))) (not (strings.HasSuffix .context.Params.Cover "/")) (not (fileExists .context.Params.Cover))}} 
