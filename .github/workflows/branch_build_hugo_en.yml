@@ -9,6 +9,7 @@ on:
       - "!contents/**" # Exclude the contents folder
       - "!github/**" # Exclude the .github folder
       - "!git/**" # Exclude the .git folder
+      - "bump.md"
 
 env:
   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

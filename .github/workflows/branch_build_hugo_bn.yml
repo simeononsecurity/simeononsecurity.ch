@@ -12,6 +12,7 @@ on:
       - "contents/**/*.bn.md"
       - "index.bn.md"
       - "**/index.bn.md" # Include only *.bn.md files within the content folder
+      - "bump.md"
 
 jobs:
   build:

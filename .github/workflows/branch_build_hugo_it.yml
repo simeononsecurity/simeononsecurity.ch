@@ -12,6 +12,7 @@ on:
       - "contents/**/*.it.md"
       - "index.it.md"
       - "**/index.it.md" # Include only *.it.md files within the content folder
+      - "bump.md"
 
 jobs:
   build:

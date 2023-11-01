@@ -10,6 +10,8 @@ on:
       - "!github/**" # Exclude the .github folder
       - "!git/**" # Exclude the .git folder
       - "index.en.md"
+      - "bump.md"
+
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -12,6 +12,7 @@ on:
       - "contents/**/*.ca.md"
       - "index.ca.md"
       - "**/index.ca.md" # Include only *.ca.md files within the content folder
+      - "bump.md"
 
 jobs:
   build:

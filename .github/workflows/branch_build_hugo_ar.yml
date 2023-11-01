@@ -12,6 +12,7 @@ on:
       - "contents/**/*.ar.md" # Include only *.ar.md files within the content folder
       - "index.ar.md"
       - "**/index.ar.md"
+      - "bump.md"
 
 
 jobs:

@@ -12,6 +12,7 @@ on:
       - "contents/**/*.pa.md"
       - "index.pa.md"
       - "**/index.pa.md" # Include only *.pa.md files within the content folder
+      - "bump.md"
 
 jobs:
   build:

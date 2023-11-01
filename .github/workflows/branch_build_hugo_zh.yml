@@ -12,6 +12,7 @@ on:
       - "contents/**/*.zh.md"
       - "index.zh.md"
       - "**/index.zh.md" # Include only *.zh.md files within the content folder
+      - "bump.md"
 
 jobs:
   build:

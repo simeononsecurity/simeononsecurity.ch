@@ -19,6 +19,7 @@ on:
       - "**/index.en.md" # Include only *.en.md files within the content folder
       - "index.en.html"
       - "**/index.en.html"
+      - "bump.md"
 
 jobs:
   build:
