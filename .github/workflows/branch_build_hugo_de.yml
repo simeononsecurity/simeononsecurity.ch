@@ -37,7 +37,7 @@ jobs:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-de
           restore-keys: |
-            ${{ runner.os }}-hugomod
+            ${{ runner.os }}-hugomod-de
 
       - name: Build Hugo site
         run: hugo --cleanDestinationDir -D -E -F --gc  --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/de/config.toml

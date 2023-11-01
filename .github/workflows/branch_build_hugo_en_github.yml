@@ -33,9 +33,9 @@ jobs:
         uses: actions/cache@v3
         with:
           path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-en
+          key: ${{ runner.os }}-hugomod-github
           restore-keys: |
-            ${{ runner.os }}-hugomod
+            ${{ runner.os }}-hugomod-en
 
       - name: Build Hugo site
         run: hugo --cleanDestinationDir -D --gc  --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config_github.toml
