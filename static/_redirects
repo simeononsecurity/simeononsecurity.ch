@@ -60,8 +60,8 @@
 
 # Other:
 # Redirect domain aliases to primary domain
-# https://simeononsecurity.ch/* # https://simeononsecurity.com/:splat 301!
-# # https://simeononsecurity.ch/* # https://simeononsecurity.com/:splat 301
+https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 301!
+# https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 301
 # redirect /posts to /github
 # moved /posts to /github to create /blog in order to separate content
 # /posts/* /github/:splat 301!
@@ -71,66 +71,10 @@
 /rss.xml /index.xml 301!
 
 ## PROXY CYBERCHEF
-/CyberChef/* # https://gchq.github.io/CyberChef/:splat 200
-/cyberchef/* # https://gchq.github.io/CyberChef/:splat 200
+/CyberChef/* https://gchq.github.io/CyberChef/:splat 200
+/cyberchef/* https://gchq.github.io/CyberChef/:splat 200
 
 # # cloudflare pages
 
 # # redirect sitemap.xml to index.xml
-# /rss.xml /index.xml 301
-
-# # French
-# /fr/* # https://fr.simeononsecurity.com/:splat 301
-# # https://fr.simeononsecurity.ch/* # https://fr.simeononsecurity.com/:splat 301
-
-# # Spanish
-# /es/* # https://es.simeononsecurity.com/:splat 301
-# # https://es.simeononsecurity.ch/* # https://es.simeononsecurity.com/:splat 301
-
-# # German
-# /de/* # https://de.simeononsecurity.com/:splat 301
-# # https://de.simeononsecurity.ch/* # https://de.simeononsecurity.com/:splat 301
-
-# # Hindi
-# /hi/* # https://hi.simeononsecurity.com/:splat 301
-# # https://di.simeononsecurity.ch/* # https://hi.simeononsecurity.com/:splat 301
-
-# # Arabic
-# /ar/* # https://ar.simeononsecurity.com/:splat 301
-# # https://ar.simeononsecurity.ch/* # https://ar.simeononsecurity.com/:splat 301
-
-# # Catalan
-# /ca/* # https://ca.simeononsecurity.com/:splat 301
-# # https://ca.simeononsecurity.ch/* # https://ca.simeononsecurity.com/:splat 301
-
-# # Italian
-# /it/* # https://it.simeononsecurity.com/:splat 301
-# # https://it.simeononsecurity.ch/* # https://it.simeononsecurity.com/:splat 301
-
-# # Japanese
-# /ja/* # https://ja.simeononsecurity.com/:splat 301
-# # https://ja.simeononsecurity.ch/* # https://ja.simeononsecurity.com/:splat 301
-
-# # Dutch
-# /nl/* # https://nl.simeononsecurity.com/:splat 301
-# # https://nl.simeononsecurity.ch/* # https://nl.simeononsecurity.com/:splat 301
-
-# # Romanian
-# /ro/* # https://ro.simeononsecurity.com/:splat 301
-# # https://ro.simeononsecurity.ch/* # https://ro.simeononsecurity.com/:splat 301
-
-# # Chinese
-# /zh/* # https://zh.simeononsecurity.com/:splat 301
-# # https://zh.simeononsecurity.ch/* # https://zh.simeononsecurity.com/:splat 301
-
-# # Punjabi
-# /pa/* # https://pa.simeononsecurity.com/:splat 301
-# # https://pa.simeononsecurity.ch/* # https://pa.simeononsecurity.com/:splat 301
-
-# # Portuguese
-# /pt/* # https://pt.simeononsecurity.com/:splat 301
-# # https://pt.simeononsecurity.ch/* # https://pt.simeononsecurity.com/:splat 301
-
-# # Russian
-# /ru/* # https://ru.simeononsecurity.com/:splat 301
-# # https://ru.simeononsecurity.ch/* # https://ru.simeononsecurity.com/:splat 301
+/rss.xml /index.xml 301
