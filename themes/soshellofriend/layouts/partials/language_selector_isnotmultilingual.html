@@ -112,7 +112,7 @@
                             {{ $localizedURL = printf "%s%s" $baseURL $.Page.RelPermalink }}
                             {{ if or $.IsHome $.IsSection (in $.Type "section") }}
                                 <li itemscope itemtype="https://schema.org/Language">
-                                    <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
+                                    <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL | absURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
                                         <span itemprop="name">{{ $sitelang }}</span>
                                     </a>
                                 </li>
@@ -127,7 +127,7 @@
                                 {{ $localizedFileExists4 := fileExists $localizedFilePath4 }}
                                 {{ if or (eq $baseURL "https://simeononsecurity.com") $localizedFileExists $localizedFileExists2 $localizedFileExists3 $localizedFileExists4 }}
                                     <li itemscope itemtype="https://schema.org/Language">
-                                        <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
+                                        <a itemprop="url" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL | absURL }}" hreflang="{{ $hreflang }}" aria-label="{{ $currentPageTitle }} in {{ $sitelang }}">
                                             <span itemprop="name">{{ $sitelang }}</span>
                                         </a>
                                     </li>
