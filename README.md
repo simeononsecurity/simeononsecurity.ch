@@ -56,11 +56,11 @@ This source code has been used to build the following domains:
 | [https://ca.simeononsecurity.com](https://ca.simeononsecurity.com) | Catalan | [Sitemap](https://ca.simeononsecurity.com/sitemap.xml) | [RSS](https://ca.simeononsecurity.com/index.xml) |
 | [https://de.simeononsecurity.com](https://de.simeononsecurity.com) | German | [Sitemap](https://de.simeononsecurity.com/sitemap.xml) | [RSS](https://de.simeononsecurity.com/index.xml) |
 | [https://es.simeononsecurity.com](https://es.simeononsecurity.com) | Spanish | [Sitemap](https://es.simeononsecurity.com/sitemap.xml) | [RSS](https://es.simeononsecurity.com/index.xml) |
-| [https://fr.simeononsecurity.com](https://fr.simeononsecurity.com) | Fre.com | [Sitemap](https://fr.simeononsecurity.com/sitemap.xml) | [RSS](https://fr.simeononsecurity.com/index.xml) |
+| [https://fr.simeononsecurity.com](https://fr.simeononsecurity.com) | French | [Sitemap](https://fr.simeononsecurity.com/sitemap.xml) | [RSS](https://fr.simeononsecurity.com/index.xml) |
 | [https://hi.simeononsecurity.com](https://hi.simeononsecurity.com) | Hindi | [Sitemap](https://hi.simeononsecurity.com/sitemap.xml) | [RSS](https://hi.simeononsecurity.com/index.xml) |
 | [https://it.simeononsecurity.com](https://it.simeononsecurity.com) | Italian | [Sitemap](https://it.simeononsecurity.com/sitemap.xml) | [RSS](https://it.simeononsecurity.com/index.xml) |
 | [https://ja.simeononsecurity.com](https://ja.simeononsecurity.com) | Japanese | [Sitemap](https://ja.simeononsecurity.com/sitemap.xml) | [RSS](https://ja.simeononsecurity.com/index.xml) |
-| [https://nl.simeononsecurity.com](https://nl.simeononsecurity.com) | Du.com | [Sitemap](https://nl.simeononsecurity.com/sitemap.xml) | [RSS](https://nl.simeononsecurity.com/index.xml) |
+| [https://nl.simeononsecurity.com](https://nl.simeononsecurity.com) | Dutch | [Sitemap](https://nl.simeononsecurity.com/sitemap.xml) | [RSS](https://nl.simeononsecurity.com/index.xml) |
 | [https://pa.simeononsecurity.com](https://pa.simeononsecurity.com) | Punjabi | [Sitemap](https://pa.simeononsecurity.com/sitemap.xml) | [RSS](https://pa.simeononsecurity.com/index.xml) |
 | [https://pl.simeononsecurity.com](https://pl.simeononsecurity.com) | Polish | [Sitemap](https://pl.simeononsecurity.com/sitemap.xml) | [RSS](https://pl.simeononsecurity.com/index.xml) |
 | [https://pt.simeononsecurity.com](https://pt.simeononsecurity.com) | Portuguese | [Sitemap](https://pt.simeononsecurity.com/sitemap.xml) | [RSS](https://pt.simeononsecurity.com/index.xml) |
