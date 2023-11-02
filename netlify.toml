@@ -51,7 +51,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 [[headers]]
 for = "/tags/*"
 [headers.values]
-X-Robots-Tag = "noindex, nofollow"
+X-Robots-Tag = "noindex, follow"
 
 [[headers]]
 for = "/admin/*"
