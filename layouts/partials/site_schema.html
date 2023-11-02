@@ -14,8 +14,8 @@
     "name": "{{ .Site.Title }}{{ if ne .Site.LanguageCode "en" }} in {{ .Site.LanguageCode | upper }}{{ end }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
-    "sameAs": ["{{ .Site.Params.twitter }}", "{{ .Site.Params.github }}"],
-    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+    "sameAs": [{{ .Site.Params.socialProfiles }}],
+    "thumbnailUrl": "{{ ( or .Site.Params.Logo .Site.Params.organizationLogo .Page.Params.Cover ) | absURL }}",
     "license": "{{ .Site.Params.copyright }}",
     "potentialAction": {
       "@type": "SearchAction",
@@ -83,10 +83,11 @@
       "publisher":{
           "@type":"Organization",
           "name": "{{ $org_name }}",
-          "url": "{{ .Site.BaseURL }}",          
+          "url": "{{ .Site.BaseURL }}",   
+          "sameAs": [{{ .Site.Params.socialProfiles }}],       
           "logo": {
               "@type": "ImageObject",
-              "url": "{{ .Site.Params.logo | absURL }}",
+              "url": "{{ ( or .Site.Params.Logo .Site.Params.organizationLogo .Page.Params.Cover ) | absURL }}",
               "width":"32",
               "height":"32"
           }
@@ -154,7 +155,8 @@
       "@type": "Person",
       "name": "{{ $author }}",
       "additionalName": "{{ $author }}",
-      "url": "{{ .Site.BaseURL }}"
+      "url": "{{ .Site.BaseURL }}",
+      "sameAs": [{{ .Site.Params.socialProfiles }}]
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -164,9 +166,10 @@
       "@type": "Organization",
       "name": "{{ $org_name }}",
       "url": "{{ .Site.BaseURL }}",
+      "sameAs": [{{ .Site.Params.socialProfiles }}],
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Site.Params.logo | absURL }}",
+        "url": "{{ ( or .Site.Params.Logo .Site.Params.organizationLogo .Page.Params.Cover ) | absURL }}",
         "width": "32",
         "height": "32"
       }
@@ -182,7 +185,8 @@
       "creator": {
         "@type": "Person",
         "name": "{{ $author }} ",
-        "url": "{{ $authorURL }}"
+        "url": "{{ $authorURL }}",
+        "sameAs": [{{ .Site.Params.socialProfiles }}]
       },
       "copyrightNotice": "SimeonOnSecurity"
     },
