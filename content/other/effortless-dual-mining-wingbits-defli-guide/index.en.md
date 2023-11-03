@@ -93,7 +93,7 @@ sudo readsb-set-location 50.12344 10.23429
 ```
 
 ### **Section 3: Optimizing Gain Levels**
-Now, it's time to optimize your receiver's gain levels. Follow the [data connector instructions](https://defli.network/data-connector) found on the DeFli website using these commands:
+Now, it's time to optimize your receiver's gain levels. Run the following command, if it fails, come back to this step after completing the instructions below.
 
 ```bash
 sudo bash -c "$(curl -L -o - https://github.com/wiedehopf/adsb-scripts/raw/master/autogain-install.sh)" hash -r
@@ -101,7 +101,7 @@ sudo autogain1090
 ```
 
 ### **Section 4: DeFli Data Connector Setup**
-Setting up the DeFli Data Connector is a crucial part of the process. Follow these steps:
+Setting up the [DeFli Data Connector](https://defli.network/data-connector) is a crucial part of the process. Follow these steps:
 
 1. Begin the DeFli Data Connector Setup
 ```bash
@@ -111,6 +111,10 @@ sudo pip3 install aiohttp motor pymongo python-dateutil dnspython
 cd adsb-data-collector-mongodb
 cp config_template.py config.py
 sudo nano config.py 
+```
+If the pip installation fails, try the following
+```bash
+sudo apt update && sudo apt install -y python3-aiohttp python3-motor python3-pymongo python3-dateutil python3-dnspython
 ```
 
 2. Delete the file contents and instead paste the below text **Note**: *You must paste without formatting.*
