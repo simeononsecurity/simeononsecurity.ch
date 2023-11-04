@@ -75,6 +75,7 @@ We won't go into the technical details of how to install an operating system her
 Functionally wingbits and defli both operate in the same space but how you connect to them is different.
 
 `readsb` -> `vector` -> `wingbits`
+
 `readsb` -> `mongodb connector` -> `DEFLI`
 
 ### **Section 1: Installing WingBits**
@@ -98,6 +99,8 @@ Now, it's time to optimize your receiver's gain levels. Run the following comman
 ```bash
 sudo bash -c "$(curl -L -o - https://github.com/wiedehopf/adsb-scripts/raw/master/autogain-install.sh)" hash -r
 sudo autogain1090
+# Run ever 2 minutes, in the background, for an hour to optimize gain even further
+sudo for i in {0..30}; do sudo autogain1090; sleep 120; done &
 ```
 
 ### **Section 4: DeFli Data Connector Setup**
