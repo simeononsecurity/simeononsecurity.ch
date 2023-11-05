@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### মধু লাভ ইনস্টল করুন:
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 হানি গেইন আপনাকে আশ্চর্যজনক পরিমাণ পুরষ্কারের জন্য একটি VPN পরিষেবা হিসাবে আপনার ইন্টারনেট ভাগ করতে দেয়৷ আবাসিক আইপি প্রতি নোড প্রতি গড় প্রায় $5 মাস। পেআউট জটিল হতে পারে. এই ধারকটি ব্যবহার করার সিদ্ধান্ত নেওয়ার আগে এটি আরও পড়ুন
 
 #### একটি মধু লাভ অ্যাকাউন্ট তৈরি করুন:
-এ একটি অ্যাকাউন্ট তৈরি করুন [honeygain.com](https://r.honeygain.me/DAVID07A75)
+এ একটি অ্যাকাউন্ট তৈরি করুন [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### ডকার কন্টেইনার ইনস্টল করুন:
 টার্মিনালে আটকানোর আগে স্পষ্ট ইমেল, পাসওয়ার্ড এবং ডিভাইসের নাম দিয়ে স্ট্রিংটি পরিবর্তন করুন

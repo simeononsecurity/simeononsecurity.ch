@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### Instalați Honey Gain:
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 Honey Gain vă permite să vă împărtășiți internetul ca serviciu VPN pentru o sumă surprinzătoare de recompense. În medie, aproximativ 5 USD pe nod per IP rezidențial. Plățile pot fi complicate. Citiți mai departe înainte de a vă decide să utilizați acest recipient
 
 #### Creați un cont Honey Gain:
-Creează un cont la [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Creează un cont la [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### Instalați containerul Docker:
 Modificați șirul cu e-mailul evident, parola și numele dispozitivului înainte de a lipi în terminal

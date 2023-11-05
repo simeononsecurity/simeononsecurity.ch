@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### تثبيت Honey Gain:
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 يتيح لك Honey Gain مشاركة الإنترنت الخاص بك كخدمة VPN للحصول على قدر مذهل من المكافآت. متوسطات حوالي 5 دولارات شهريًا لكل عقدة لكل IP سكني. يمكن أن تكون المدفوعات معقدة. اقرأ المزيد قبل أن تقرر استخدام هذه الحاوية
 
 #### إنشاء حساب كسب العسل:
-قم بإنشاء حساب على [honeygain.com](https://r.honeygain.me/DAVID07A75)
+قم بإنشاء حساب على [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### تثبيت Docker Container:
 قم بتعديل السلسلة بالبريد الإلكتروني الواضح وكلمة المرور واسم الجهاز قبل اللصق في الجهاز

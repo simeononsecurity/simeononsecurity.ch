@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### 安装蜂蜜增益：
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 Honey Gain 让您可以将您的互联网作为 VPN 服务共享，以获得惊人的奖励。每个住宅 IP 每个节点平均每月约 5 美元。支出可能很复杂。在决定使用这个容器之前进一步阅读它
 
 #### 创建蜂蜜增益帐户：
-创建一个帐户 [honeygain.com](https://r.honeygain.me/DAVID07A75)
+创建一个帐户 [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### 安装 Docker 容器：
 在粘贴到终端之前用明显的电子邮件、密码和设备名称修改字符串

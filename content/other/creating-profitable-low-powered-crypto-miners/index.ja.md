@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### ハニーゲインをインストールします。
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 Honey Gain を使用すると、VPN サービスとしてインターネットを共有して、驚くほどの報酬を得ることができます。住宅用 IP ごとにノードごとに月平均約 5 ドルかかります。支払いは複雑になる場合があります。このコンテナの使用を決定する前に、さらに読んでください。
 
 #### ハニーゲインアカウントを作成します:
-でアカウントを作成してください [honeygain.com](https://r.honeygain.me/DAVID07A75)
+でアカウントを作成してください [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### Docker コンテナをインストールします。
 端末に貼り付ける前に、明らかな電子メール、パスワード、デバイス名で文字列を変更します。

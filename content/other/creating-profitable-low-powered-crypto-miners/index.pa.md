@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### ਹਨੀ ਗੇਨ ਇੰਸਟਾਲ ਕਰੋ:
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 ਹਨੀ ਗੇਨ ਤੁਹਾਨੂੰ ਇਨਾਮਾਂ ਦੀ ਹੈਰਾਨੀਜਨਕ ਰਕਮ ਲਈ ਇੱਕ VPN ਸੇਵਾ ਦੇ ਤੌਰ 'ਤੇ ਤੁਹਾਡੇ ਇੰਟਰਨੈਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਦਿੰਦਾ ਹੈ। ਪ੍ਰਤੀ ਰਿਹਾਇਸ਼ੀ IP ਪ੍ਰਤੀ ਨੋਡ ਲਗਭਗ $5 ਮਹੀਨਾ। ਅਦਾਇਗੀਆਂ ਗੁੰਝਲਦਾਰ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਇਸ ਕੰਟੇਨਰ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਨੂੰ ਹੋਰ ਪੜ੍ਹੋ
 
 #### ਹਨੀ ਗੇਨ ਖਾਤਾ ਬਣਾਓ:
-'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [honeygain.com](https://r.honeygain.me/DAVID07A75)
+'ਤੇ ਇੱਕ ਖਾਤਾ ਬਣਾਓ [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### ਡੌਕਰ ਕੰਟੇਨਰ ਸਥਾਪਿਤ ਕਰੋ:
 ਟਰਮੀਨਲ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਪੱਸ਼ਟ ਈਮੇਲ, ਪਾਸਵਰਡ ਅਤੇ ਡਿਵਾਈਸ ਨਾਮ ਨਾਲ ਸਤਰ ਨੂੰ ਸੋਧੋ

@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### हनी गेन स्थापित करें:
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 हनी गेन आपको आश्चर्यजनक पुरस्कार के लिए अपने इंटरनेट को वीपीएन सेवा के रूप में साझा करने देता है। औसतन लगभग $5 माह प्रति नोड प्रति आवासीय IP। भुगतान जटिल हो सकता है। इस कंटेनर का उपयोग करने का निर्णय लेने से पहले इसे और पढ़ें
 
 #### हनी गेन अकाउंट बनाएं:
-पर अकाउंट बनाएं [honeygain.com](https://r.honeygain.me/DAVID07A75)
+पर अकाउंट बनाएं [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### डॉकटर कंटेनर स्थापित करें:
 टर्मिनल में चिपकाने से पहले स्ट्रिंग को स्पष्ट ईमेल, पासवर्ड और डिवाइस नाम से संशोधित करें

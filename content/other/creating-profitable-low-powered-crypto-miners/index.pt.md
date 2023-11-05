@@ -136,12 +136,12 @@ docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -
 {{< youtube id="tt499o0OjGU" >}}
 
 ### Instale o Honey Gain:
-[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/DAVID07A75)
+[*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
 
 O Honey Gain permite que você compartilhe sua internet como um serviço VPN por uma quantidade surpreendente de recompensas. Média de cerca de US$ 5 por mês por nó por IP residencial. Os pagamentos podem ser complicados. Leia mais antes de decidir usar este contêiner
 
 #### Crie uma conta Honey Gain:
-Crie uma conta em [honeygain.com](https://r.honeygain.me/DAVID07A75)
+Crie uma conta em [honeygain.com](https://r.honeygain.me/HONEY9149D)
 
 #### Instale o Docker Container:
 Modifique a string com o e-mail, senha e nome do dispositivo óbvios antes de colar no terminal
