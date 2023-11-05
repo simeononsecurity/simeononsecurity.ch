@@ -5,66 +5,82 @@ https://simeononsecurity.netlify.com/* https://simeononsecurity.com/:splat 301!
 # French
 /fr/* https://fr.simeononsecurity.com/:splat 308!
 https://fr.simeononsecurity.ch/* https://fr.simeononsecurity.com/:splat 308!
+http://fr.simeononsecurity.ch/* https://fr.simeononsecurity.com/:splat 308!
 
 # Spanish
 /es/* https://es.simeononsecurity.com/:splat 308!
 https://es.simeononsecurity.ch/* https://es.simeononsecurity.com/:splat 308!
+http://es.simeononsecurity.ch/* https://es.simeononsecurity.com/:splat 308!
 
 # German
 /de/* https://de.simeononsecurity.com/:splat 308!
 https://de.simeononsecurity.ch/* https://de.simeononsecurity.com/:splat 308!
+http://de.simeononsecurity.ch/* https://de.simeononsecurity.com/:splat 308!
 
 # BN
 /bn/* https://bn.simeononsecurity.com/:splat 308!
 https://bn.simeononsecurity.ch/* https://bn.simeononsecurity.com/:splat 308!
+http://bn.simeononsecurity.ch/* https://bn.simeononsecurity.com/:splat 308!
 
 # hindi
 /hi/* https://hi.simeononsecurity.com/:splat 308!
 https://hi.simeononsecurity.ch/* https://hi.simeononsecurity.com/:splat 308!
+http://hi.simeononsecurity.ch/* https://hi.simeononsecurity.com/:splat 308!
 
 # Arabic
 /ar/* https://ar.simeononsecurity.com/:splat 308!
 https://ar.simeononsecurity.ch/* https://ar.simeononsecurity.com/:splat 308!
+http://ar.simeononsecurity.ch/* https://ar.simeononsecurity.com/:splat 308!
 
 # Catalan
 /ca/* https://ca.simeononsecurity.com/:splat 308!
 https://ca.simeononsecurity.ch/* https://ca.simeononsecurity.com/:splat 308!
+http://ca.simeononsecurity.ch/* https://ca.simeononsecurity.com/:splat 308!
 
 # Italian
 /it/* https://it.simeononsecurity.com/:splat 308!
 https://it.simeononsecurity.ch/* https://it.simeononsecurity.com/:splat 308!
+http://it.simeononsecurity.ch/* https://it.simeononsecurity.com/:splat 308!
 
 # Japanese
 /ja/* https://ja.simeononsecurity.com/:splat 308!
 https://ja.simeononsecurity.ch/* https://ja.simeononsecurity.com/:splat 308!
+http://ja.simeononsecurity.ch/* https://ja.simeononsecurity.com/:splat 308!
 
 # Dutch
 /nl/* https://nl.simeononsecurity.com/:splat 308!
 https://nl.simeononsecurity.ch/* https://nl.simeononsecurity.com/:splat 308!
+http://nl.simeononsecurity.ch/* https://nl.simeononsecurity.com/:splat 308!
 
 # Romanian
 /ro/* https://ro.simeononsecurity.com/:splat 308!
 https://ro.simeononsecurity.ch/* https://ro.simeononsecurity.com/:splat 308!
+http://ro.simeononsecurity.ch/* https://ro.simeononsecurity.com/:splat 308!
 
 # Chinese
 /zh/* https://zh.simeononsecurity.com/:splat 308!
 https://zh.simeononsecurity.ch/* https://zh.simeononsecurity.com/:splat 308!
+http://zh.simeononsecurity.ch/* https://zh.simeononsecurity.com/:splat 308!
 
 # Punjabi
 /pa/* https://pa.simeononsecurity.com/:splat 308!
 https://pa.simeononsecurity.ch/* https://pa.simeononsecurity.com/:splat 308!
+http://pa.simeononsecurity.ch/* https://pa.simeononsecurity.com/:splat 308!
 
 # Portuguese
 /pt/* https://pt.simeononsecurity.com/:splat 308!
 https://pt.simeononsecurity.ch/* https://pt.simeononsecurity.com/:splat 308!
+http://pt.simeononsecurity.ch/* https://pt.simeononsecurity.com/:splat 308!
 
 # Russian
 /ru/* https://ru.simeononsecurity.com/:splat 308!
 https://ru.simeononsecurity.ch/* https://ru.simeononsecurity.com/:splat 308!
+http://ru.simeononsecurity.ch/* https://ru.simeononsecurity.com/:splat 308!
 
 # Other:
 # Redirect domain aliases to primary domain
 https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
+http://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 # https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 301
 # redirect /posts to /github
 # moved /posts to /github to create /blog in order to separate content
