@@ -476,11 +476,11 @@ identifier = "Articles"
 name = "Articles"
 url = "/articles"
 weight = 10
-[[languages.en.menu.main]]
-identifier = "Blog"
-name = "Blog"
-url = "/blog"
-weight = 12 
+# [[languages.en.menu.main]]
+# identifier = "Blog"
+# name = "Blog"
+# url = "/blog"
+# weight = 12 
 [[languages.en.menu.main]]
 identifier = "CTF Rankings"
 name = "CTF Rankings"
