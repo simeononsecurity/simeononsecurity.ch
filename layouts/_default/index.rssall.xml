@@ -100,11 +100,11 @@
         {{ end }}
         <category>
           {{ if .Params.genre }}
-            {{ range $index, $genre := .Params.genre }}
+            {{ range $index, $genre := .Params.genre | first 5 }}
               {{ if $index }}, {{ end }}"{{ $genre }}"
             {{ end }}
           {{ else if .Params.tags }}
-            {{ range $index, $tag := .Params.tags }}
+            {{ range $index, $tag := .Params.tags | first 5 }}
               {{ if $index }}, {{ end }}"{{ $tag }}"
             {{ end }}
           {{ else }}
