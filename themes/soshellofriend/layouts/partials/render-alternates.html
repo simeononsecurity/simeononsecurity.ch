@@ -135,7 +135,11 @@
   {{ if or $.IsHome $.IsSection (in $.Type "section") }}
       <link rel="alternate" title="{{ $currentPageTitle }} in {{ $sitelang }}" href="{{ $localizedURL }}" hreflang="{{ $hreflang }}" />
       <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Feed in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/index.xml" />
+      <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS All Feed in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/rssall.xml" />
+      <link rel="feed" type="application/xml" title="{{ $.Site.Title }} RSS Full Text Feed in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/fulltext.xml" />
       <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap.xml" />
+      <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Sitemap Index in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/sitemap-index.xml" />
+      <link rel="sitemap" type="application/xml" title="{{ $.Site.Title }} Images Sitemap in {{ $sitelang }}" hreflang="{{ $hreflang }}" href="{{ $baseURL }}/imagessitemap.xml" />
       <link rel="preconnect" href="{{ $baseURL }}" >
       <link rel="dns-prefetch" href="{{ $baseURL }}" >
   {{ else }}
