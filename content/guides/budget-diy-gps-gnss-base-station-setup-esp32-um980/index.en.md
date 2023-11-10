@@ -132,6 +132,9 @@ Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives a
 ### 4. Employ the Enclosure Kit
 For environmental protection, consider using the [qBoxMini DIY IOT Enclosure Kit](https://amzn.to/3PIvwl7). It offers waterproof protection and includes connectors and a prototyping PCB for easy integration.
 
+{{< figure src="esp32-in-project-box.png" alt="ESP32 Devboard in a Project Box" >}}
+
+
 ### 5. Choose the GNSS Receiver
 Depending on your project needs, timeline, and budget, select the appropriate [GNSS receiver board](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex). 
 Follow the wiring diagram above for implementation.

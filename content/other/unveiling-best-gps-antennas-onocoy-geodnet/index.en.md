@@ -24,6 +24,8 @@ Navigating the sea of GPS/GNSS antennas in the ever-evolving landscape of [Onoco
 
 - [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html)
 
+   {{< figure src="gnssstoreantenna.jpeg" alt="GNSS.STORE Surveying Antenna" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+
 Please read below to learn why...
 
 ____
