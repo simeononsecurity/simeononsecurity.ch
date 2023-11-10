@@ -97,9 +97,12 @@ There are a variety of online resources available that offer practice exams for 
 - [**ExamCompass**](https://www.examcompass.com/): ExamCompass offers a range of free practice exams for the CompTIA A+ exams, as well as other IT certifications.
 - [**Udemy**](https://www.udemy.com/): Udemy offers a variety of paid courses and practice exams for the CompTIA A+ exams.
 
-When taking practice exams, be sure to time yourself and simulate the testing environment as closely as possible. This will help to build test-taking skills and prepare you
+When taking practice exams, be sure to time yourself and simulate the testing environment as closely as possible. This will help to build test-taking skills and prepare you for the tricky CompTIA questions.
 
-5. **Time Management**
+We also have A+ video quizzes on our [YouTube Channel](http://www.youtube.com/@SimeonOnSecurity). 
+{{< youtube id="6XqYB1J1vQY" playlistid="PLBQ_gEkQNRZLSWCk7Z0PnwGVBhiKRBugw" >}}
+
+1. **Time Management**
 
 The CompTIA A+ exams are timed, and it is important to manage time effectively during the exams. Use the practice exams to develop a time management strategy that works for you. 
 
