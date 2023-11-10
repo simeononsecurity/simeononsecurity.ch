@@ -282,6 +282,8 @@ If you would like to reset the device configuration, you should also download:
 
 ### 7. Profit?
 
+{{< figure src="esp32-um920.jpeg" alt="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" caption="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" link="https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex" >}}
+
 ### 8. Extras
    1. **Full Reset**: In case you encounter any problems and are unable to connect to the device, simply hold the `BOOT` button for 5 seconds, and the ESP32 will be reset to its default configuration.
 
