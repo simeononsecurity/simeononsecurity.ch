@@ -10,7 +10,7 @@ cover: "/img/cover/Budget_DIY_GPS_GNSS_Base_Station_Setup.png"
 coverAlt: "An illustration of an ESP32 board connected to various accessories."
 coverCaption: "ESP32 for all the things!"
 canonical: ""
-ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget"]
+ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/other/onocoy-supported-rtcm-messages"]
 ---
 
 **Best Budget DIY GPS/GNSS Base Station using the UM980 and a ESP32**
