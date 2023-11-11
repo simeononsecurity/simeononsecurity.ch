@@ -38,21 +38,21 @@
           {{ end }}
             {{ if .Params.Author }}
               {{ with .Params.Author }}
-                <span itemscope itemtype="https://schema.org/author">
+                <span class="h-card" itemscope itemtype="https://schema.org/author">
                   <span class="post-author" itemscope itemtype="https://schema.org/Person">
                     — {{ $.Site.Params.WrittenBy | default "Written by" }} 
-                    <a href="{{ $authorURL }}" hreflang="{{ $languageCode }}" itemprop="url">
-                      <span itemprop="name">{{ . }}</span>
+                    <a class="p-org u-url" href="{{ $authorURL }}" hreflang="{{ $languageCode }}" itemprop="url">
+                      <span class="p-name" itemprop="name">{{ . }}</span>
                     </a>
                   </span>
                 </span>
               {{ end }}
             {{ else }}
-              <span itemscope itemtype="https://schema.org/author">
+              <span class="h-card" itemscope itemtype="https://schema.org/author">
                 <span class="post-author" itemscope itemtype="https://schema.org/Person">
                   — {{ $.Site.Params.WrittenBy | default "Written by" }} 
-                  <a href="{{ ("/authors/simeononsecurity" | absURL) }}" hreflang="{{ $languageCode }}" itemprop="url">
-                    <span itemprop="name">SimeonOnSecurity</span>
+                  <a class="p-org u-url" href="{{ ("/authors/simeononsecurity" | absURL) }}" hreflang="{{ $languageCode }}" itemprop="url">
+                    <span class="p-name" itemprop="name">SimeonOnSecurity</span>
                   </a>
                 </span>
               </span>
