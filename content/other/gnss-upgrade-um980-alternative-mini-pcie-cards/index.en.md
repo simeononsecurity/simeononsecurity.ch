@@ -50,6 +50,12 @@ While our testing was basic and of limited scope, we remain committed to staying
 
 It's crucial to emphasize that this issue is not attributed to the manufacturers of the Mini PCIe cards. This is likely an **anti-competitive issue** associated with the **Geodnet/Hyfix products**.
 
+To an extent, we can confirm this based on their LC29H Based Module Schematics, which also includes the UM980 Pinout.
+
+{{< figure src="MCM_MINI-PCIE_SCH.jpeg" alt="Hyfix LC29H Rover mPCIe Card Schematics" caption="Hyfix LC29H Rover mPCIe Card Schematics" link="https://github.com/HYFIX/rtk_rover/blob/main/schematic/MCM_MINI-PCIE_SCH.pdf" >}}
+
+We're not an expert on reading schematics like these. But, if we interpreted it correctly, the UART TX and RX pins are essentially passed directly through the mPCIe connector. Take this suggestion here with a grain of salt. If you can help us interpret this more accurately please let us know.
+
 In conclusion, the GNSS technology landscape is continually evolving, and the quest for innovative solutions remains paramount. As the industry advances, we may unearth novel methods to augment the capabilities of MobileCM base stations, and we are committed to sharing these insights with the GNSS community.
 
 ______
