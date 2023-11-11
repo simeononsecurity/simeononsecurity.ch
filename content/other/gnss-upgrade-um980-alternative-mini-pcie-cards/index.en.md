@@ -22,7 +22,7 @@ The [UM980 upgrade card from Hyfix](https://hyfix.ai/products/mobilecm-triple-ba
 
 ### Assessing Alternative GNSS Mini-PCIe Cards
 
-To evaluate the practicality of this upgrade, we embarked on a journey to explore various options and subjected them to rigorous testing. The products we procured or received for review include:
+To evaluate the practicality of this upgrade, we embarked on a journey to explore various options and subjected them to testing. The products we procured or received for review include:
 
 - **[GNSS.STORE UM980 Mini PCIe Receiver ELT0226](https://gnss.store/unicore-gnss-modules/251-elt0226.html)**
 - **[GNSS.STORE UM982 Mini PCIe Receiver ELT0216](https://gnss.store/um982-gnss-modules/243-elt0216.html)**
@@ -34,7 +34,11 @@ The product page for the **simpleRTK3b** even explicitly claims support as an up
 
 Our testing involved comprehensive trials of these alternative GNSS Mini-PCIe cards in both the [MobileCM Base Station](https://hyfix.ai/products/mobilecm-space-weather-station) and the [EVK USB-C Rover Kit](https://hyfix.ai/products/evk-usb-c-rover-kit). Regrettably, the results were unexpected. These cards were neither recognized nor operating as intended within these setups.
 
+{{< figure src="rtkrover-mpcie-test.jpeg" alt="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" Caption="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" >}}
+
 However, when we tested the same cards in well-established USB over mPCIe systems and adapters, they performed admirably. When testing the Hyfix upgrade card in the same systems, it did not work. This disparity in performance left us with a puzzling conclusion.
+
+{{< figure src="mpcie-adapter-test.jpeg" alt="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" Caption="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" >}}
 
 ### USB Over mPCIe Standard
 
