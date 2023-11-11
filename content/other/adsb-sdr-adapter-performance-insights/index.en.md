@@ -20,24 +20,24 @@ In the dynamic world of Software-Defined Radio (SDR), enthusiasts and tech afici
 
 - [**AirNav RadarBox FlightStick**](https://amzn.to/3FSSql1): One of the specific adapters consistently outperforming others. Also the highest performing in our testing.
 
-{{< figure src="adsbreceiver-1.png" alt="AirNav RadarBox FlightStick" link="https://amzn.to/3FSSql1" >}}
+{{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick" link="https://amzn.to/3FSSql1" >}}
 
 ### The Key Players
 
 Our study scrutinizes a range of SDR adapters, each with its unique features and specifications, to unearth the truth about their performance:
 
 **Nooelec Products:**
-- [**Nooelec RTL-SDR v5**](https://amzn.to/40ApW9d) [Link](https://amzn.to/40ApW9d): A key focus of our evaluation.
-- [**NESDR SMArTee XTR**](https://amzn.to/3uf51g8) [Link](https://amzn.to/3uf51g8): Noteworthy only for utilizing the older and arguably worse E4000 tuner.
+- [**Nooelec RTL-SDR v5**](https://amzn.to/40ApW9d): A key focus of our evaluation.
+- [**NESDR SMArTee XTR**](https://amzn.to/3uf51g8): Noteworthy only for utilizing the older and arguably worse E4000 tuner.
 
 **Original RTL-SDR Products:**
-- [**RTL-SDR v3**](https://amzn.to/3MDcNq9) [Link](https://amzn.to/3MDcNq9): A widely used SDR adapter in the community, equipped with the R820T2 tuner.
+- [**RTL-SDR v3**](https://amzn.to/3MDcNq9): A widely used SDR adapter in the community, equipped with the R820T2 tuner.
 
 **ADSB Specific Adapters:**
 These all have ADSB filters and LNA built in.
-- [**AirNav RadarBox FlightStick**](https://amzn.to/3FSSql1) [Link](https://amzn.to/3FSSql1): One of the specific adapters consistently outperforming others. Also the highest performing in our testing.
-- [**ADSBexchange.com Blue**](https://amzn.to/40vnv85) [Link](https://amzn.to/40vnv85): A specialized adapter excelling in our comparative study.
-- [**FlightAware Pro Stick Plus**](https://flightaware.store/products/pro-stick-plus) [FlightAware Store](https://flightaware.store/products/pro-stick-plus): Another high-performing ADS-B-specific adapter.
+- [**AirNav RadarBox FlightStick**](https://amzn.to/3FSSql1): One of the specific adapters consistently outperforming others. Also the highest performing in our testing.
+- [**ADSBexchange.com Blue**](https://amzn.to/40vnv85): A specialized adapter excelling in our comparative study.
+- [**FlightAware Pro Stick Plus**](https://flightaware.store/products/pro-stick-plus): Another high-performing ADS-B-specific adapter.
 
 ### Testing Methodology: Unveiling the Truth
 
@@ -73,7 +73,7 @@ Our testing methodology was accompanied by graphical representations to provide 
 
 **Noise Levels**: Charts displaying noise levels for each adapter, highlighting their ability to minimize interference and improve signal quality.
 
-{{< figure src="adsbdata.jpeg" alt="Example of graphs1090 data received." caption="Example of graphs1090 data received. Image and data pictured is not from of our tests.">}}
+{{< figure src="adsbdata.jpeg" alt="Example of graphs1090 data received." caption="Example of graphs1090 data received. Image and data pictured are not from of our tests.">}}
 
 ______
 
@@ -117,7 +117,7 @@ Here's why we chose the AirNav RadarBox FlightStick as the most outstanding adap
 
 - **Build Quality**: The quality of its internal components and design played a pivotal role in its outstanding performance. Its build and optimized firmware contributed to its excellence.
 
-In summary, the AirNav RadarBox FlightStick's remarkable consistency in performance, impressive signal reception, noise reduction, and robust build make it our top choice as the most outstanding SDR adapter in our testing. It sets the standard for ADS-B reception and delivers exceptional results for radio enthusiasts and professionals alike.
+In summary, the [AirNav RadarBox FlightStick's](https://amzn.to/3FSSql1) remarkable consistency in performance, impressive signal reception, noise reduction, and robust build make it our top choice as the most outstanding SDR adapter in our testing. It sets the standard for ADS-B reception and delivers exceptional results for radio enthusiasts and professionals alike.
 ______
 
 ## References
