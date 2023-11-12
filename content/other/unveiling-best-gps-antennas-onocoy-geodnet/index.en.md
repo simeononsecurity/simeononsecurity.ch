@@ -88,8 +88,9 @@ ______
 ______
 
 ## Conclusion: Geodnet Takes the Lead
-   - **Discovery:** **Geodnet** offered the best value antenna from the start.
-   - **Top Performers:** Multi-frequency High Precision Survey Antenna by **Hyfix** and **HARXON CSX627A**.
+   - **Discovery:** [**Geodnet / Hyfix**](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) offered the best value antenna from the start.
+   - **Top Value Performers:** Multi-frequency High Precision Survey Antenna by [**Hyfix**](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) and [**HARXON CSX627A**](https://www.gns-electronics.de/product/harxon-csx627a/).
+   - **Top Performers:** [**Ardusimple**](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) and [**GNSS.STORE**](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html).
    - **Implication:** Highlights the importance of hands-on testing and challenges assumptions about cost and quality.
 
 ______
