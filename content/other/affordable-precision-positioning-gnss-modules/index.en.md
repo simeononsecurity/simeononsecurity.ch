@@ -64,9 +64,13 @@ ______
 
 ### **A Cost-Effective GNSS Solution**
 
-The UM980 and UM982 modules from Unicore Communications offer an impressive blend of high performance and a budget-friendly price tag. Below, we've linked a few different product offerings from [gnss.store](https://gnss.store/) sorted by UM980 vs UM982 and with the different form factors and interfaces listed in tables.
+The UM980 and UM982 modules from Unicore Communications offer an impressive blend of high performance and a budget-friendly price tag. 
 
-> > **Note:** *Use discount code `SIMEONSECURITY_GNSS` for a 5% discount.*
+{{< figure src="um980-um982-products.jpeg" alt="GNSS.STORE UM980 and UM982 Based Products" link="https://gnss.store/59-unicore-gnss-modules" >}}
+
+Below, we've linked a few different product offerings from [gnss.store](https://gnss.store/) sorted by UM980 vs UM982 and with the different form factors and interfaces listed in tables.
+
+> **Note:** *Use discount code `SIMEONSECURITY_GNSS` for a 5% discount.*
 
 #### GNSS.STORE UM980 Product Feature Table:
 | Product Code | Model | GPIO | USB C | USB A | GH Breakout | Solder Only | M.2 Interface | Smart Antenna | mPCIe Interface |
