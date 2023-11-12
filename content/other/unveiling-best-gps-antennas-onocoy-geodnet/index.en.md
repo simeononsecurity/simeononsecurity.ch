@@ -69,7 +69,7 @@ ______
    - **Antennas:**
       - [Calibrated Survey GNSS Quadband Antenna](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
       - [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) - $205
-      - > **Note:** *Use discount code `SIMEONSECURITY_GNSS` for a 5% discount on **GNSS.STORE***
+      > **Note:** *Use discount code `SIMEONSECURITY_GNSS` for a 5% discount on **GNSS.STORE***
    - **Performance:** Achieved 1-2 extra satellites but did not translate to increased **Onocoy or Geodnet earnings**.
    - **Value:** Suited for surveying or calibration needs.
 
