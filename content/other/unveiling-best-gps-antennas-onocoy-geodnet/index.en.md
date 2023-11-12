@@ -9,10 +9,10 @@ tags: ["GPS Antennas", "Satellite Connectivity", "Geodnet", "Onocoy", "Surveying
 cover: "/img/cover/best_gps_antennas_optimized.png"
 coverAlt: "An illustration showcasing GPS antennas optimizing satellite connectivity for Onocoy and Geodnet."
 coverCaption: "Navigate success with precision: Unleash the power of top GPS antennas!"
-ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages"]
+ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages", "/other/affordable-precision-positioning-gnss-modules"]
 ---
 
-# Unveiling the Best GPS/GNSS Antennas for Onocoy and Geodnet: A Comprehensive Analysis
+**Unveiling the Best GPS/GNSS Antennas for Onocoy and Geodnet: A Comprehensive Analysis**
 
 ______
 
@@ -52,6 +52,9 @@ Our testing methodology ensured that our results were based on comprehensive dat
 ______
 
 ## The Beitian Challenge
+
+{{< figure src="BT-800D.jpeg" alt="Beitian BT-800D High Gain High Precision GPS/GNSS Antenna" link="https://amzn.to/47MWdxa" >}}
+
    - **Antenna:** [Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
    - **Challenges:** Faced issues in L5 bands, limiting satellite acquisition.
    - **Performance:** Functionally acceptable but fell short compared to equivalents.
@@ -60,15 +63,22 @@ ______
 ______
 
 ## Surveying Antennas: Overkill for Onocoy?
+
+{{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+
    - **Antennas:**
       - [Calibrated Survey GNSS Quadband Antenna](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
       - [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) - $205
+      - > **Note:** *Use discount code `SIMEONSECURITY_GNSS` for a 5% discount on **GNSS.STORE***
    - **Performance:** Achieved 1-2 extra satellites but did not translate to increased **Onocoy or Geodnet earnings**.
    - **Value:** Suited for surveying or calibration needs.
 
 ______
 
 ## Best Overall: Hyfix and CSX627A
+
+{{< figure src="HARXON CSX627A.jpeg" alt="HARXON CSX627A GPS GNSS Antenna" link="https://www.gns-electronics.de/product/harxon-csx627a/" >}}
+
    - **Antennas:**
       - [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
       - [HARXON CSX627A](https://www.gns-electronics.de/product/harxon-csx627a/) - $135
