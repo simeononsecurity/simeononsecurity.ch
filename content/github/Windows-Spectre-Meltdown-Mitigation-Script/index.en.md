@@ -11,7 +11,7 @@ tags: ["Windows Spectre Meltdown Mitigation Script", "Speculative Execution Side
 
 Microsoft is aware of a new publicly disclosed class of vulnerabilities that are called “speculative execution side-channel attacks” and that affect many modern processors including Intel, AMD, VIA, and ARM. 
 
-**Note:** This issue also affects other operating systems, such as Android, Chrome, iOS, and macOS. Therefore, we advise customers to seek guidance from those vendors.
+> **Note:** This issue also affects other operating systems, such as Android, Chrome, iOS, and macOS. Therefore, we advise customers to seek guidance from those vendors.
 
 We have released several updates to help mitigate these vulnerabilities. We have also taken action to secure our cloud services. See the following sections for more details.
 

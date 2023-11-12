@@ -5,7 +5,7 @@ date: 2020-11-14
 
 O colecție de module PowerShell pentru interacțiunea cu API-ul Shodan
 
-**Note:**
+> **Note:**
 - Veți avea nevoie de cheia API Shodan, care poate fi găsită pe contul dvs. [Shodan Account](https://account.shodan.io/)
 - Exemple de API-uri utilizate în module pot fi găsite pe site-ul [Shodan Developers Page](https://developer.shodan.io/api)
 - Anumite module pot utiliza credite de scanare sau de interogare Creditele de interogare sunt utilizate atunci când descărcați date prin intermediul site-ului web, CLI sau API (ceea ce fac aceste scripturi).

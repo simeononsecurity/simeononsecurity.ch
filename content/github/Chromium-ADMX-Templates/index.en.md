@@ -23,9 +23,9 @@ With that in mind, we've modified the Google Chrome ADMX templates to reflect th
 Modified Google Chrome Policy Definitions according to:
 [Chromium Policy Templates](https://www.chromium.org/administrators/policy-templates)
 
-**Note:** Replaced "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" with "HKEY_LOCAL_MACHINE\Software\Policies\Chromium\"
+> **Note:** Replaced "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" with "HKEY_LOCAL_MACHINE\Software\Policies\Chromium\"
 
-**Note:** Do not install SOS'es Chromium and Brave Browser ADMX templates at the same time.
+> **Note:** Do not install SOS'es Chromium and Brave Browser ADMX templates at the same time.
 
 ## How to install
 

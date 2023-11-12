@@ -9,7 +9,7 @@ tags: ["books", "cybersecurity", "automation", "programming", "IT", "coding and 
 
 Reading is one of the most effective ways to expand your knowledge and skills in the field of Cybersecurity, Automation, Programming, and IT. There are plenty of books available on these subjects that can help you understand the concepts and apply them to real-world scenarios. However, with so many options to choose from, it can be difficult to know where to start. That's why we've compiled a list of recommended books that cover various topics, including Cybersecurity, Automation, Programming, and IT. Whether you're a beginner or an expert, these books have something for everyone.
 
-**Note:** Read most of these books for free with a two month trial of [Amazon Kindle Unlimited](https://amzn.to/3rulzJW).
+> **Note:** Read most of these books for free with a two month trial of [Amazon Kindle Unlimited](https://amzn.to/3rulzJW).
 
 ## Educational:
 ### Coding and Scripting and Automation:

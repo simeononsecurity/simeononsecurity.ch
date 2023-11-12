@@ -5,7 +5,7 @@ date: 2020-11-14
 
 Una raccolta di moduli PowerShell per l'interazione con l'API di Shodan
 
-**Note:**
+> **Note:**
 - È necessario disporre della chiave API di Shodan, che può essere trovata nella cartella [Shodan Account](https://account.shodan.io/)
 - Esempi delle API utilizzate nei moduli possono essere consultati sul sito web [Shodan Developers Page](https://developer.shodan.io/api)
 - Alcuni moduli possono utilizzare crediti di scansione o di query I crediti di query vengono utilizzati quando si scaricano i dati tramite il sito web, la CLI o l'API (ciò che fanno questi script).

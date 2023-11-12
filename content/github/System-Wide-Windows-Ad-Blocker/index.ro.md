@@ -10,7 +10,7 @@ tags: ["Windows 10", "blocant de anunțuri", "blocarea telemetriei", "Script Pow
 ## Descriere:
 Acest script blochează domeniile legate de telemetrie prin fișierul hosts și IP-urile aferente prin Windows Firewall.
 
-**Note:**
+> **Note:**
 - Adăugarea acestor domenii poate distruge anumite programe precum iTunes sau Skype
 - S-a raportat că intrările legate de Akamai cauzează probleme cu Widevine DRM
 

@@ -19,9 +19,9 @@ C'est pourquoi nous avons modifié les modèles ADMX de Google Chrome pour qu'il
 Définitions des règles de Google Chrome modifiées conformément à :
 [Brave Group Policy](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)
 
-**Note:** Remplacer "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" par "HKEY_LOCAL_MACHINE\Software\Policies\Brave\Brave".
+> **Note:** Remplacer "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" par "HKEY_LOCAL_MACHINE\Software\Policies\Brave\Brave".
 
-**Note:** N'installez pas les modèles ADMX de SOS's Chromium et Brave Browser en même temps.
+> **Note:** N'installez pas les modèles ADMX de SOS's Chromium et Brave Browser en même temps.
 
 ## Comment installer
 

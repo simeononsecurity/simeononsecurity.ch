@@ -8,7 +8,7 @@ tags: ["Module PowerShell", "PowerShell", "Automatizare", "VirusTotal", "Scanăr
 ---
  colecție de module PowerShell pentru interacțiunea cu API-ul VirusTotal
 
-**Note:**
+> **Note:**
 - Veți avea nevoie de cheia dvs. API VirusTotal, care poate fi găsită pe dvs[Shodan Account](https://www.virustotal.com/gui/)
 - Exemple de API-uri utilizate în module pot fi găsite pe[VirusTotal Developers Page](https://developers.virustotal.com/reference#getting-started)
 

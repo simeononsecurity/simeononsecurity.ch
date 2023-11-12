@@ -20,9 +20,9 @@ C'est pourquoi nous avons modifié les modèles ADMX de Google Chrome afin de re
 Définitions des règles de Google Chrome modifiées conformément à :
 [Chromium Policy Templates](https://www.chromium.org/administrators/policy-templates)
 
-**Note:** Remplacer "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" par "HKEY_LOCAL_MACHINE\Software\Policies\Chromium".
+> **Note:** Remplacer "HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome" par "HKEY_LOCAL_MACHINE\Software\Policies\Chromium".
 
-**Note:** N'installez pas les modèles ADMX de SOS's Chromium et Brave Browser en même temps.
+> **Note:** N'installez pas les modèles ADMX de SOS's Chromium et Brave Browser en même temps.
 
 ## Comment installer
 

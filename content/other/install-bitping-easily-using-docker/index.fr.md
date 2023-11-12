@@ -60,7 +60,7 @@ Cette commande démarre le conteneur Bitping en arrière-plan, ce qui permet de 
 
 Félicitations ! Vous avez installé et configuré Bitping avec succès sur votre système. Vous pouvez maintenant surveiller les performances de vos sites web et recevoir des informations en temps réel sur les temps d'arrêt ou la dégradation des performances.
 
-**Note:** Bitping offre la possibilité de gagner des paiements en Solana pour avoir fourni un nœud pour les entreprises afin d'exécuter des tests de réseau légers à partir de votre réseau. Bien que le paiement ne soit pas substantiel, il a le potentiel de générer des revenus facilement.
+> **Note:** Bitping offre la possibilité de gagner des paiements en Solana pour avoir fourni un nœud pour les entreprises afin d'exécuter des tests de réseau légers à partir de votre réseau. Bien que le paiement ne soit pas substantiel, il a le potentiel de générer des revenus facilement.
 
 Pour plus d'informations et une documentation détaillée, visitez le site [Bitping website](https://bitping.com) et se référer à leurs ressources officielles.
 

@@ -28,7 +28,7 @@ If you need some help, check out the following resources to create a ubuntu VPS 
 
 ## Setting up the Helium Blockchain "Cache":
 ### Installing the Required Software:
-***Note:*** Anywhere where you see "xxx.xxx.xxx.xxx" replace it with your helium miner's public IPv4 address.
+*> **Note:*** Anywhere where you see "xxx.xxx.xxx.xxx" replace it with your helium miner's public IPv4 address.
 Run the following commands to install docker and install the docker, the helium docker container, and watchtower for automatic updates:
 ```bash
 #Install Docker

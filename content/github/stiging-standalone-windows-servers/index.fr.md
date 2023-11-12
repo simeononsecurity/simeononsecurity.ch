@@ -5,7 +5,7 @@ date: 2020-09-09
 
 **Téléchargez tous les fichiers nécessaires à partir du site web [GitHub Repository](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)
 
-**Note:** Ce script devrait fonctionner sans problème sur la plupart des systèmes, si ce n'est sur tous. Tout en [@SimeonOnSecurity](https://github.com/simeononsecurity) creates, reviews, and tests each repo intensively, we can not test every possible configuration nor does [@SimeonOnSecurity](https://github.com/simeononsecurity) take any responsibility for breaking your system. If something goes wrong, be prepared to submit an [issue](../../issues) N'exécutez pas ce script si vous ne comprenez pas ce qu'il fait. Il est de votre responsabilité de revoir et de tester le script avant de l'exécuter.
+> **Note:** Ce script devrait fonctionner sans problème sur la plupart des systèmes, si ce n'est sur tous. Tout en [@SimeonOnSecurity](https://github.com/simeononsecurity) creates, reviews, and tests each repo intensively, we can not test every possible configuration nor does [@SimeonOnSecurity](https://github.com/simeononsecurity) take any responsibility for breaking your system. If something goes wrong, be prepared to submit an [issue](../../issues) N'exécutez pas ce script si vous ne comprenez pas ce qu'il fait. Il est de votre responsabilité de revoir et de tester le script avant de l'exécuter.
 
 ## Ansible :
 Nous proposons désormais une collection de playbooks pour ce script. Veuillez consulter ce qui suit :

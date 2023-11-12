@@ -26,4 +26,4 @@ Like Mullvad, ProtonVPN is also very user-friendly, with apps for all major plat
 
 ---
 
-*Note: Some of the links in this article are affiliate links, which means that SimeonOnSecurity may earn a commission if you sign up for a service using one of these links. This in no way affects our recommendations, as we only recommend VPN providers that we believe are top-quality and truly prioritize your privacy and security.* 
+> **Note:** *Some of the links in this article are affiliate links, which means that SimeonOnSecurity may earn a commission if you sign up for a service using one of these links. This in no way affects our recommendations, as we only recommend VPN providers that we believe are top-quality and truly prioritize your privacy and security.* 

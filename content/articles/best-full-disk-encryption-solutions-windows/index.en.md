@@ -40,7 +40,7 @@ One of the key advantages of BitLocker is its **central management** capability.
 
 ### Enabling Bitlocker on Windows
 
-**Note:** It's important to note that BitLocker is not available on home editions of Windows. It is exclusive to professional and enterprise editions.
+> **Note:** It's important to note that BitLocker is not available on home editions of Windows. It is exclusive to professional and enterprise editions.
 
 To enable BitLocker on a Windows system, follow these steps:
 

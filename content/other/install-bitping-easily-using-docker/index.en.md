@@ -60,7 +60,7 @@ This command will start the Bitping container in the background, ensuring it run
 
 Congratulations! You have successfully installed and set up Bitping on your system. Now, you can monitor the performance of your websites and receive real-time feedback on any downtime or degraded performance.
 
-**Note:** Bitping offers the ability to earn payouts in Solana for providing a node for businesses to run lightweight network tests from your network. While the payout may not be substantial, it has the potential to generate earnings with ease.
+> **Note:** Bitping offers the ability to earn payouts in Solana for providing a node for businesses to run lightweight network tests from your network. While the payout may not be substantial, it has the potential to generate earnings with ease.
 
 For more information and detailed documentation, visit the [Bitping website](https://bitping.com) and refer to their official resources.
 

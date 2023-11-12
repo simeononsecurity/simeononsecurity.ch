@@ -8,7 +8,7 @@ tags: ["livres", "cybersécurité", "meilleurs livres sur la cybersécurité", "
 
 La lecture est l'un des moyens les plus efficaces d'élargir vos connaissances et vos compétences dans les domaines de la cybersécurité, de l'automatisation, de la programmation et de l'informatique. Il existe de nombreux ouvrages sur ces sujets qui peuvent vous aider à comprendre les concepts et à les appliquer à des scénarios réels. Cependant, avec un tel choix, il peut être difficile de savoir par où commencer. C'est pourquoi nous avons compilé une liste de livres recommandés qui couvrent différents sujets, notamment la cybersécurité, l'automatisation, la programmation et l'informatique. Que vous soyez débutant ou expert, ces livres ont quelque chose à offrir à chacun.
 
-**Note:**Lisez la plupart de ces livres gratuitement avec une période d'essai de deux mois de [Amazon Kindle Unlimited](https://amzn.to/3rulzJW)
+> **Note:**Lisez la plupart de ces livres gratuitement avec une période d'essai de deux mois de [Amazon Kindle Unlimited](https://amzn.to/3rulzJW)
 
 ## Educatif :
 ### Codage, écriture de scripts et automatisation :

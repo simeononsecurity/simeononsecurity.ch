@@ -12,7 +12,7 @@ coverCaption: "Effortless Dual Mining"
 ref: ["/other/creating-profitable-low-powered-crypto-miners"]
 ---
 
-**Note**: *This article does not entail an endorsement of either wingbits or defli nor does it contain any financial advice. Please do your own research*
+> **Note**: *This article does not entail an endorsement of either wingbits or defli nor does it contain any financial advice. Please do your own research*
 
 **Effortless Dual Mining: WingBits and DeFli Setup Guide**
 
@@ -85,7 +85,7 @@ Installing WingBits is the first step in your dual mining journey. To get starte
 ```bash
 curl -sL https://gitlab.com/wingbits/config/-/raw/master/download.sh | sudo bash
 ```
-*Note: Make sure you have your device ID, which you can find in your original WingBits email or on the [dashboard](https://beta.wingbits.com) once it goes public.*
+> **Note**: *Make sure you have your device ID, which you can find in your original WingBits email or on the [dashboard](https://beta.wingbits.com) once it goes public.*
 
 ### **Section 2: Setting Up Your Location**
 Setting your mining location is crucial. Use tools like [LatLong.net](https://www.latlong.net/convert-address-to-lat-long.html) to find the coordinates for your installation site. Replace the example coordinates with your own:
@@ -120,7 +120,8 @@ If the pip installation fails, try the following
 sudo apt update && sudo apt install -y python3-aiohttp python3-motor python3-pymongo python3-dateutil python3-dnspython
 ```
 
-2. Delete the file contents and instead paste the below text **Note**: *You must paste without formatting.*
+2. Delete the file contents and instead paste the below text 
+> **Note**: *You must paste without formatting.*
 
 ```py
 # Make a copy of this file as config.py and update the required values below.
@@ -234,7 +235,7 @@ To ensure everything is set up correctly, run the ADSB Data Collector with the f
 python3 adsb-data-collector.py  
 ```
 
-**Note**: *If installed correctly you should not get any output.*
+> **Note**: *If installed correctly you should not get any output.*
 
 
 ### **Section 6: Running on Boot**

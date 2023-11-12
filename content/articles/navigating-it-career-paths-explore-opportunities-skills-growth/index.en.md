@@ -217,7 +217,7 @@ Apart from formal education and certifications, continuous skill development is 
 
 Remember, in addition to technical skills, **soft skills** such as **communication**, **problem-solving**, and **collaboration** are highly valued in the IT industry. Developing these skills can greatly enhance your career prospects and make you a well-rounded IT professional.
 
-*Note: To explore more about qualifications, certifications, and skill development in IT careers, you can refer to resources provided by **universities**, **industry associations**, and **certification providers**. Online learning platforms like **Coursera**, **edX**, and **LinkedIn Learning** also offer a wide range of IT-related courses.*
+> **Note:** *To explore more about qualifications, certifications, and skill development in IT careers, you can refer to resources provided by **universities**, **industry associations**, and **certification providers**. Online learning platforms like **Coursera**, **edX**, and **LinkedIn Learning** also offer a wide range of IT-related courses.*
 
 - [Recommended Certifications](https://simeononsecurity.com/recommendations/certifications)
 - [Recommended Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
@@ -250,7 +250,7 @@ To stay updated with the latest industry trends and growth opportunities, it is 
 
 Remember, the IT industry is dynamic, and staying adaptable and proactive in acquiring new skills will ensure your long-term success. By keeping a pulse on industry trends and embracing continuous learning, you can position yourself for growth and thrive in the evolving IT landscape.
 
-*Note: To explore more about growth opportunities and future trends in the IT industry, you can refer to industry reports, technology blogs, and resources provided by professional organizations like the **International Data Corporation (IDC)** and the **World Economic Forum (WEF)**.*
+> **Note:** *To explore more about growth opportunities and future trends in the IT industry, you can refer to industry reports, technology blogs, and resources provided by professional organizations like the **International Data Corporation (IDC)** and the **World Economic Forum (WEF)**.*
 
 ______
 
