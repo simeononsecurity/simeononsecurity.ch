@@ -26,9 +26,6 @@ To evaluate the practicality of this upgrade, we embarked on a journey to explor
 
 - **[GNSS.STORE UM980 Mini PCIe Receiver ELT0226](https://gnss.store/unicore-gnss-modules/251-elt0226.html)**
 - **[GNSS.STORE UM982 Mini PCIe Receiver ELT0216](https://gnss.store/um982-gnss-modules/243-elt0216.html)**
-- **[simpleRTK3b mPCIe Receiver AS-RTK3B-MPCIE](https://www.ardusimple.com/product/simplertk3b-mpcie-septentrio-mosaic/)**
-
-The product page for the **simpleRTK3b** even explicitly claims support as an upgrade card for the MobileCM Base-Station. However, after extensive testing, it became evident that these alternatives did not function as expected in the Hyfix MobileCM Base Station or the Hyfix EVK USB-C Rover Kit.
 
 ### The Challenges Encountered
 
@@ -54,7 +51,7 @@ To an extent, we can confirm this based on their LC29H Based Module Schematics, 
 
 {{< figure src="MCM_MINI-PCIE_SCH.jpeg" alt="Hyfix LC29H Rover mPCIe Card Schematics" caption="Hyfix LC29H Rover mPCIe Card Schematics" link="https://github.com/HYFIX/rtk_rover/blob/main/schematic/MCM_MINI-PCIE_SCH.pdf" >}}
 
-We're not an expert on reading schematics like these. But, if we interpreted it correctly, the UART TX and RX pins are essentially passed directly through the mPCIe connector. Take this suggestion here with a grain of salt. If you can help us interpret this more accurately please let us know.
+> **Update**: *We received confirmation from gnss.store that the MobileCM Upgrade Card itself is using a non-standard pinout that utilizes the mPCIe form factor.*
 
 In conclusion, the GNSS technology landscape is continually evolving, and the quest for innovative solutions remains paramount. As the industry advances, we may unearth novel methods to augment the capabilities of MobileCM base stations, and we are committed to sharing these insights with the GNSS community.
 
