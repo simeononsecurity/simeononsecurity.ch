@@ -51,7 +51,7 @@ To an extent, we can confirm this based on their LC29H Based Module Schematics, 
 
 {{< figure src="MCM_MINI-PCIE_SCH.jpeg" alt="Hyfix LC29H Rover mPCIe Card Schematics" caption="Hyfix LC29H Rover mPCIe Card Schematics" link="https://github.com/HYFIX/rtk_rover/blob/main/schematic/MCM_MINI-PCIE_SCH.pdf" >}}
 
-> **Update**: *We received confirmation from gnss.store that the MobileCM Upgrade Card itself is using a non-standard pinout that utilizes the mPCIe form factor.*
+> **Update**: *We received confirmation from gnss.store that the Hyfix MobileCM Upgrade Card itself is using a non-standard pinout that utilizes the mPCIe form factor.*
 
 In conclusion, the GNSS technology landscape is continually evolving, and the quest for innovative solutions remains paramount. As the industry advances, we may unearth novel methods to augment the capabilities of MobileCM base stations, and we are committed to sharing these insights with the GNSS community.
 
