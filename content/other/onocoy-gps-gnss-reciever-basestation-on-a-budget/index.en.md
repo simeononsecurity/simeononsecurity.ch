@@ -373,9 +373,29 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```bash
     sudo systemctl status rtklib.service
     ```   
-### **Windows Only (SNIP)** 
+### **Windows Option 1: STRSVR** 
 
-On windows, our options are limited. The only one we were able to test for functionality is [Snip](https://www.use-snip.com/). While there is a trial available, you'll need to purchase the software long term if you plan on ever using it for more than an hour at any given time.
+On windows, one of our best options and arguably our best free option is [STRSVR](https://github.com/Aceinna/rtklib_aceinna/releases), which is based on RTKLIB.
+
+1. Download and save [`STRSVR.exe`](https://github.com/Aceinna/rtklib_aceinna/releases) from the [github releases page](https://github.com/Aceinna/rtklib_aceinna/releases). Be sure to save it to a good location that you can easily find again later.
+
+2. Execute `STRSVR.exe`, select `Serial` as your input device, and configure the correct **COM Port** for your serial reciever.
+
+  {{< figure src="strsvr-serial.jpeg" alt="STRSVR Serial Configuration" caption="STRSVR Serial Configuration" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
+
+  > **Note**: *Your com port will be different on your device. Consult your manufactures documentation and the Windows **Device Manager** on to identify the correct com port* 
+
+3. Select `NTRIP Server` as one of your output devices and configure it using the credentials and settings you got from the [onocoy console](https://console.onocoy.com).
+
+{{< figure src="strsvr-ntrip-server.jpeg" alt="STRSVR NTRIP Server Configuration" caption="STRSVR NTRIP Server Configuration" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
+
+4. Hit the `Start Button`
+
+{{< figure src="strsvr-demo.jpeg" alt="STRSVR DEMO" caption="STRSVR DEMO" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
+
+### **Windows Option 2: SNIP** 
+
+On windows, our options are limited. One of the NTRIP communities favorite options for Windows is [Snip](https://www.use-snip.com/). While there is a trial available, you'll need to purchase the software long term if you plan on ever using it for more than an hour at any given time.
 
 1. Download and install Snip from the [download page](https://www.use-snip.com/download/).
 
