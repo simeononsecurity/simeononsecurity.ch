@@ -66,6 +66,9 @@ ______
 
 ## Hardware Requirements:
 One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of flash-based storage** (for longevity of the SSD). For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**. 
+
+{{< figure src="compute.jpeg" alt="Onocoy DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
+
 ### Raspberry Pi and Pi Clones:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
 - [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
@@ -88,9 +91,11 @@ If you're interested in a lower power and/or low budget setup, read our guide on
 Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
 
 ## Recommended GPS Receivers for DIY Onocoy Deployments
-There are many recievers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
+There are many receivers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
-- **U-Blox Based Recievers**
+{{< figure src="basic-receivers.jpeg" alt="Basic GPS Receivers for Onocoy" >}}
+
+- **U-Blox Based Receivers**
   - [NEO-M8P RTK GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8p-gnss-modules/90-elt0078.html) - $150
     - Single-Band (L1 only), 72 Channels, supports USB; I2C; and UART, Accurate within 6 feet, 10hz pull rate. Rewards will be limited, 8-10% only.
     - Shows up as `/dev/ttyACM0` instead of `/dev/ttyUSB0` in the instructions below. Same goes for all U-BLOX based devices.
@@ -115,6 +120,8 @@ Requires [FTDI Drivers](https://ftdichip.com/drivers/vcp-drivers/).
 ### Advanced Receivers for DIY Onocoy Deployments
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They likely won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
 If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at most 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) and [Unicorecomm UM982](https://en.unicorecomm.com/products/detail/24) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
+
+{{< figure src="advanced-receivers.jpeg" alt="Basic GPS Receivers for Onocoy" >}}
 
 - **Unicorecomm UM980**
 Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
@@ -150,7 +157,15 @@ Capable of up to 100% of the Onocoy rewards. Requires already available [firmwar
     - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
 
 ## Recommended Antennas for Onocoy
+
+We've covered this in a more in depth guide about the [Best GPS Base Station Antennas](https://simeononsecurity.com/other/unveiling-best-gps-antennas-onocoy-geodnet/).
+
+
+
 ### Basic Antennas for Onocoy
+
+{{< figure src="BT-800D.jpeg" alt="Beitian BT-800D High Gain High Precision GPS/GNSS Antenna" link="https://amzn.to/47MWdxa" >}}
+
 We can only recommend using these on the basic U-Blox based receivers we recommended earlier.
 - [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
   - Basic, simple, not the best, but it works.
@@ -160,6 +175,9 @@ We can only recommend using these on the basic U-Blox based receivers we recomme
   - This is only recommended for those who can not properly install the antennas below. It will underperform against the others. 
 
 ### Advanced Antennas for Onocoy
+
+{{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+
 For all other recommended Receivers above we recommend the antennas below. 
 - (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
   - High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands.. 
