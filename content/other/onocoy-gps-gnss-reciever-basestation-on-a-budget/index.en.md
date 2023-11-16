@@ -373,7 +373,34 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```bash
     sudo systemctl status rtklib.service
     ```   
-## Troubleshooting and Verifying GPS Connectivity
+### **Windows Only (SNIP)** 
+
+On windows, our options are limited. The only one we were able to test for functionality is [Snip](https://www.use-snip.com/). While there is a trial available, you'll need to purchase the software long term if you plan on ever using it for more than an hour at any given time.
+
+1. Download and install Snip from the [download page](https://www.use-snip.com/download/).
+
+{{< figure src="snipdownload.jpeg" alt="Snip Download Page" caption="Snip Download Page" link="https://www.use-snip.com/download/" >}}
+
+  > *You'll have to give them an email and get the download link in your email. Use a service like [10minutemail](https:/10minutemail.com) to avoid getting spam in your email.*
+
+2. Once installed, go to the [**relay streams tab**](https://www.use-snip.com/kb/knowledge-base/the-relay-streams-tab/#:~:text=The%20Relay%20Stream%20tab%20is,their%20overall%20operational%20up%20time.) tab and delete all options from that page.
+
+  {{< figure src="relaystreams.jpeg" alt="Snip Relay Streams Menu" caption="Snip Relay Streams Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-relay-streams-tab/#:~:text=The%20Relay%20Stream%20tab%20is,their%20overall%20operational%20up%20time." >}}
+
+3. Under the [**Serial Streams Tab**](https://www.use-snip.com/kb/knowledge-base/the-serial-streams-tab/) add your COM device and create a serial stream device.
+
+  {{< figure src="serialstreams.jpeg" alt="Snip Serial Streams Menu" caption="Snip Serial Streams Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-serial-streams-tab/" >}}
+
+  > [Learn more about how to add a serial stream source device on Snip](https://www.use-snip.com/kb/knowledge-base/adding-serial-uart-data-streams/)
+
+4. On the [**Pushed-Out Data Tab**](https://www.use-snip.com/kb/knowledge-base/the-pushed-out-streams-tab-output-data/) manually add the Ntrip server information from the [onocoy console](https://console.onocoy.com).
+
+  {{< figure src="pushoutdata.jpeg" alt="Snip Pushed-Out Data Menu" caption="Snip Pushed-Out Data Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-pushed-out-streams-tab-output-data/" >}}
+
+  > [Learn more on how to add pushed-out data streams on snip](https://www.use-snip.com/kb/knowledge-base/sending-pushed-out-data/)
+
+
+## Troubleshooting and Verifying GPS Connectivity on Linux
 1. Stop the ntripserver service
   ```bash
     sudo systemctl stop ntripserver.service
