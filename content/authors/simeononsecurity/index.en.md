@@ -102,5 +102,3 @@ In addition to their professional accomplishments, SimeonOnSecurity's passion fo
 - [Soundcloud](https://soundcloud.com/simeononsecurity)
 - [Spotify](https://open.spotify.com/show/71SImIvd9odhyw347ylaoM)
 - [Spotify for Podcasters](https://podcasters.spotify.com/pod/show/simeononsecurity)
-
-
