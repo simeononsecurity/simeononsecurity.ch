@@ -92,6 +92,7 @@ http://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 
 # Well known work around
 /.well_known/*  /well_known/:splat 200!
+/.well-known/*  /well-known/:splat 200!
 
 ## PROXY CYBERCHEF
 /CyberChef/* https://gchq.github.io/CyberChef/:splat 200
