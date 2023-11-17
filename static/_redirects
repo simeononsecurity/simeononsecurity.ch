@@ -90,6 +90,9 @@ http://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 # redirect sitemap.xml to index.xml
 /rss.xml /index.xml 301!
 
+# Well known work around
+/.well_known/*  /well_known/:splat 200!
+
 ## PROXY CYBERCHEF
 /CyberChef/* https://gchq.github.io/CyberChef/:splat 200
 /cyberchef/* https://gchq.github.io/CyberChef/:splat 200
