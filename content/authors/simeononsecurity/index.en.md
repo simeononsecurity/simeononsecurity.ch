@@ -88,6 +88,7 @@ In addition to their professional accomplishments, SimeonOnSecurity's passion fo
 - [Flipboard](https://flipboard.com/@simeonsecurity)
 - [Gravatar](https://gravatar.com/simeononsecurity)
 - [Keybase](https://keybase.io/simeononsecurity)
+- [HackMD](https://hackmd.io/@simeononsecurity)
 - [Kickstarter](https://www.kickstarter.com/profile/simeononsecurity)
 - [Ko-fi](https://ko-fi.com/simeononsecurity)
 - [Leetcode](https://leetcode.com/SimeonOnSecurity/)
