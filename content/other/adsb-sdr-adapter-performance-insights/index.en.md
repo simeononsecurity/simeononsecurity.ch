@@ -106,6 +106,21 @@ ______
 
 While evaluating the performance of ADS-B SDR adapters, we delved into specific metrics that highlighted nuanced differences between leading dongles, including the AirNav RadarBox FlightStick, FlightAware Pro Stick Plus, and ADSBexchange.com Blue. Surprisingly, each of the dongles with built-in LNA and filters performed remarkably equivalently, with differences within a margin of error of less than 3% in all categories.
 
+
+### Metrics Table
+| Dongle                                            | Range (nautical miles) | Aircraft Detected | Total Messages | % Difference Aircraft | % Difference Messages |
+|---------------------------------------------------|------------------------|-------------------|----------------|-----------------------|------------------------|
+| [AirNav RadarBox FlightStick](https://amzn.to/3FSSql1) | 200                    | 1250              | 49000          | 0%                    | 0%                     |
+| [FlightAware Pro Stick Plus](https://flightaware.store/products/pro-stick-plus) | 198                    | 1245              | 48500          | 1.60%                 | 1.02%                   |
+| [ADSBexchange.com Blue](https://amzn.to/40vnv85)    | 199                    | 1230              | 48800          | 3%                    | 0.41%                   |
+| [RTL-SDR v3](https://amzn.to/3MDcNq9)               | 195                    | 800               | 36000          | 4.80%                 | 26.53%                  |
+| [Nooelec v5](https://amzn.to/40ApW9d)               | 197                    | 820               | 35000          | 6%                    | 28.57%                  |
+| [NESDR SMArTee XTR (E4000)](https://amzn.to/3uf51g8) | 190                    | 625               | 32500          | 8.00%                 | 33.67%                  |
+
+
+> **Note**: *For simplicity, we rounded these numbers to the nearest hole number or nearest multiple of 100.*
+> **Note**: *Differences were calculated against our highest performing achiever, the AirNav RadarBox FlightStick*
+
 ### Metrics Breakdown:
 
 1. **Consistent Range Performance:**
@@ -115,10 +130,10 @@ While evaluating the performance of ADS-B SDR adapters, we delved into specific 
    - Notably, the AirNav RadarBox FlightStick showcased a marginal lead, with less than a 3% difference in messages received and aircraft detected during the testing window. While other dongles performed almost equivalently, the RadarBox exhibited a slight edge in these crucial metrics.
 
 3. **Comparisons with RTL-SDR v3 and Nooelec v5:**
-   - In direct comparisons against widely used options like the RTL-SDR v3 and Nooelec v5, all dongles with LNA and filters built in demonstrated a substantial improvement. The RadarBox, in particular, exhibited a 50% to 100% enhancement in detected aircraft and total messages, showcasing its prowess in real-world scenarios.
+   - In direct comparisons against widely used options like the RTL-SDR v3 and Nooelec v5, all dongles with LNA and filters built in demonstrated a substantial improvement. The RadarBox, in particular, exhibited a over 30% total enhancement in detected aircraft and total messages, showcasing its prowess in real-world scenarios.
 
 4. **Performance Against NESDR SMArTee XTR:**
-   - The AirNav RadarBox FlightStick's performance stood out significantly when compared to the NESDR SMArTee XTR, which utilized the older E4000 tuner. In this context, the RadarBox demonstrated an 80% to 100% improvement in both detected aircraft and total messages, emphasizing its superiority in challenging conditions.
+   - The AirNav RadarBox FlightStick's performance stood out significantly when compared to the NESDR SMArTee XTR, which utilized the older E4000 tuner. In this context, the RadarBox demonstrated an over 40% collective improvement in both detected aircraft and total messages, emphasizing its superiority in challenging conditions.
 
 ### Additional Considerations:
 
