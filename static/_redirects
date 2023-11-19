@@ -77,6 +77,12 @@ http://pt.simeononsecurity.ch/* https://pt.simeononsecurity.com/:splat 308!
 https://ru.simeononsecurity.ch/* https://ru.simeononsecurity.com/:splat 308!
 http://ru.simeononsecurity.ch/* https://ru.simeononsecurity.com/:splat 308!
 
+# PL
+/pl/* https://pl.simeononsecurity.com/:splat 308!
+https://pl.simeononsecurity.ch/* https://pl.simeononsecurity.com/:splat 308!
+http://pl.simeononsecurity.ch/* https://pl.simeononsecurity.com/:splat 308!
+
+
 # Other:
 # Redirect domain aliases to primary domain
 https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
