@@ -9,7 +9,7 @@ tags: ["DIY technology", "GPS precision", "RTKDirect setup", "Global navigation"
 cover: "/img/cover/diy_rtkdirect_setup.png"
 coverAlt: "A symbolic representation of a DIY RTKDirect setup, showcasing precise satellite navigation."
 coverCaption: "Precision Unleashed: Your DIY RTKDirect Journey Begins Now!"
-ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget"]
+ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/other/diy-rtkdirect-reference-station-guide", "/other/creating-profitable-low-powered-crypto-miners"]
 ---
 
 **RTKDirect DIY Reference Station Setup Guide**
@@ -296,13 +296,13 @@ The RTKDirect Dashboard has a few minutes of delay. For best results, you should
 
 ______
 
-# Conclusion
+## Conclusion
 
 In conclusion, establishing your DIY RTKDirect reference station opens up a world of possibilities for precise positioning and navigation. The benefits include cost-effectiveness, customization, and active participation in a global network. By following the steps outlined in this guide, you can contribute to the advancement of GNSS technology while reaping the rewards of your data contributions.
 
 ______
 
-# References
+## References
 
 1. [RTKDirect Official Website](https://rtkdirect.com/)
 2. [RTKDirect About Page](https://rtkdirect.com/the-team/)

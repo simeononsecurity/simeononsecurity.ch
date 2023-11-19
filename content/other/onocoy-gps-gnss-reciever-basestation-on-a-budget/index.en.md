@@ -9,7 +9,7 @@ tags: ["Onocoy", "Geodnet", "Reference Station", "ntrip", "GNSS", "GPS", "DIY GP
 cover: "/img/cover/gps-satellite-setup.png"
 coverAlt: "A symbolic image showcasing a GPS satellite in orbit."
 coverCaption: "Unlock Ultimate Precision with DIY Onocoy Servers."
-ref: ["/other/creating-profitable-low-powered-crypto-miners","/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages"]
+ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/diy-rtkdirect-reference-station-guide", "/other/creating-profitable-low-powered-crypto-miners","/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages"]
 
 ---
 **DIY Onocoy Reference Station Setup Guide**
