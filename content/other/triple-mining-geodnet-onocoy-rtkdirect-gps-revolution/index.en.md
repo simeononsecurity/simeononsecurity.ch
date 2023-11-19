@@ -195,7 +195,7 @@ sudo systemctl stop rtkbase_web
 
   - Under `-out` be sure to specify the port number the dashboard gives you.
 
-1. **Test Set Up NTRIPv1 for Onocoy**
+3. **Test Set Up NTRIPv1 for Onocoy**
 
   You'll need the Mountpoint Username and Password from the [Onocoy Console](https://console.onocoy.com/)
 
@@ -212,95 +212,95 @@ sudo systemctl stop rtkbase_web
   - Under `-out` be sure to specify the password and username number the onocoy console gives you.
 
 
-1. **Set Up STR2STR SYSTMCTL Services**
+4. **Set Up STR2STR SYSTMCTL Services**
 
   To make sure that it starts up on boot, we need to create a service.
 
 
   Using the commands we created earlier, you're going to create two services. Use the commands and template below to do that.
 
-  **Set Up TCP Server Service**
+  - **Set Up TCP Server Service**
 
-  ```bash
-  sudo nano /etc/systemd/system/rtkdirect-str2str1.service
-  ```
+      ```bash
+      sudo nano /etc/systemd/system/rtkdirect-str2str1.service
+      ```
 
-  ```toml
+      ```toml
 
-  [Unit]
-  Description=STR2STR Service 1
-  After=network.target
-  Wants=network-online.target
-  After=network-online.target
+      [Unit]
+      Description=STR2STR Service 1
+      After=network.target
+      Wants=network-online.target
+      After=network-online.target
 
-  [Service]
-  ExecStart=str2str -in serial://ttyUSB0:921600:8:n:1#rtcm3 -out tcpsvr://:5015 -b 1 -t 0
-  Restart=always
-  RestartSec=30
-  StartLimitBurst=10
-  StartLimitInterval=5min
-  TimeoutStartSec=600
-  User=root
+      [Service]
+      ExecStart=str2str -in serial://ttyUSB0:921600:8:n:1#rtcm3 -out tcpsvr://:5015 -b 1 -t 0
+      Restart=always
+      RestartSec=30
+      StartLimitBurst=10
+      StartLimitInterval=5min
+      TimeoutStartSec=600
+      User=root
 
-  [Install]
-  WantedBy=default.target
-  ```
-  **Set Up RTK Direct TCP CLient Service**
-  ```bash
-  sudo nano /etc/systemd/system/rtkdirect-str2str2.service
-  ```
-  ```toml
+      [Install]
+      WantedBy=default.target
+      ```
+  - **Set Up RTK Direct TCP CLient Service**
+      ```bash
+      sudo nano /etc/systemd/system/rtkdirect-str2str2.service
+      ```
+      ```toml
 
-  [Unit]
-  Description=STR2STR Service 2
-  After=network.target
-  Wants=network-online.target
-  After=network-online.target
+      [Unit]
+      Description=STR2STR Service 2
+      After=network.target
+      Wants=network-online.target
+      After=network-online.target
 
-  [Service]
-  ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
-  Restart=always
-  RestartSec=30
-  StartLimitBurst=10
-  StartLimitInterval=5min
-  TimeoutStartSec=600
-  User=root
+      [Service]
+      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+      Restart=always
+      RestartSec=30
+      StartLimitBurst=10
+      StartLimitInterval=5min
+      TimeoutStartSec=600
+      User=root
 
-  [Install]
-  WantedBy=default.target
-  ```
-  **Set Up Onocoy NTRIP v1 Service**
-  ```bash
-  sudo nano /etc/systemd/system/rtkdirect-str2str3.service
-  ```
-  ```toml
+      [Install]
+      WantedBy=default.target
+      ```
+  - **Set Up Onocoy NTRIP v1 Service**
+      ```bash
+      sudo nano /etc/systemd/system/rtkdirect-str2str3.service
+      ```
+      ```toml
 
-  [Unit]
-  Description=STR2STR Service 3
-  After=network.target
-  Wants=network-online.target
-  After=network-online.target
+      [Unit]
+      Description=STR2STR Service 3
+      After=network.target
+      Wants=network-online.target
+      After=network-online.target
 
-  [Service]
-  ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GNSS.STORE ELT0123" -t 0
-  Restart=always
-  RestartSec=30
-  StartLimitBurst=10
-  StartLimitInterval=5min
-  TimeoutStartSec=600
-  User=root
+      [Service]
+      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GNSS.STORE ELT0123" -t 0
+      Restart=always
+      RestartSec=30
+      StartLimitBurst=10
+      StartLimitInterval=5min
+      TimeoutStartSec=600
+      User=root
 
-  [Install]
-  WantedBy=default.target
-  ```
+      [Install]
+      WantedBy=default.target
+      ```
 
-  **Enable and start the services.**
+      **Enable and start the services.**
 
-  ```bash
-  sudo systemctl daemon-reload
-  sudo systemctl enable rtkdirect-str2str1 rtkdirect-str2str2 rtkdirect-str2str3
-  sudo systemctl start rtkdirect-str2str1 rtkdirect-str2str2 rtkdirect-str2str3
-  ```
+      ```bash
+      sudo systemctl daemon-reload
+      sudo systemctl enable rtkdirect-str2str1 rtkdirect-str2str2 rtkdirect-str2str3
+      sudo systemctl start rtkdirect-str2str1 rtkdirect-str2str2 rtkdirect-str2str3
+      ```
 
 ### Windows
 
