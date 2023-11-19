@@ -104,7 +104,7 @@
 <span itemscope itemtype="https://schema.org/WebPage">
     <meta itemprop="name" content="{{ $contentname }}">
     <meta itemprop="url" content="{{ $url }}">
-    <a href="{{.}}" title="{{ $title }}"
+    <a href="{{ $url }}" title="{{ $title }}"
         {{ with $target }} target="{{.}}" {{ end }}
         class="markdown-btn{{ $class }}"
         {{ if or (not (strings.Contains $url "http")) $isBaseURL }}
