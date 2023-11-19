@@ -215,12 +215,15 @@ sudo systemctl stop rtkbase_web
   str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
   ```
 
-  > **Notes**: 
-    - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
-    - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
-    - Under `-out` be sure to specify the port number the dashboard gives you.
+   **Notes**: 
 
-3. **Set Up RTKDirect STR2STR SYSTMCTL Service**
+     - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
+  
+     - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
+  
+     - Under `-out` be sure to specify the port number the dashboard gives you.
+
+1. **Set Up RTKDirect STR2STR SYSTMCTL Service**
 
   To make sure that it starts up on boot, we need to create a service.
 

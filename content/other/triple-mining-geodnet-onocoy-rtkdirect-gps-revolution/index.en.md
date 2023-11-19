@@ -185,12 +185,15 @@ sudo systemctl stop rtkbase_web
   str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
   ```
 
-  > **Notes**: 
-    - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
-    - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
-    - Under `-out` be sure to specify the port number the rtkdirect dashboard gives you.
+   **Notes**: 
 
-3. **Test Set Up NTRIPv1 for Onocoy**
+  - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
+
+  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
+
+  - Under `-out` be sure to specify the port number the dashboard gives you.
+
+1. **Test Set Up NTRIPv1 for Onocoy**
 
   You'll need the Mountpoint Username and Password from the [Onocoy Console](https://console.onocoy.com/)
 
@@ -198,13 +201,16 @@ sudo systemctl stop rtkbase_web
   str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GNSS.STORE ELT0123" -t 0
   ```
 
-  > **Notes**: 
-    - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
-    - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
-    - Under `-out` be sure to specify the password and username number the onocoy console gives you.
+  **Notes**: 
+  
+  - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
+
+  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
+
+  - Under `-out` be sure to specify the password and username number the onocoy console gives you.
 
 
-4. **Set Up STR2STR SYSTMCTL Services**
+1. **Set Up STR2STR SYSTMCTL Services**
 
   To make sure that it starts up on boot, we need to create a service.
 
