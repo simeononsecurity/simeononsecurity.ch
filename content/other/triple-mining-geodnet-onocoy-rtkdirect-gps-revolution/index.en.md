@@ -141,6 +141,8 @@ ______
 You'll take the [Power Blocking GPS Splitter](https://www.gns-electronics.de/product/11359) and split your [antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) connection going between the [Geodnet MobileCM Miner](https://hyfix.ai/products/mobilecm-triple-band-gnss-base-station) and whatever [GPS Receiver](https://gnss.store/unicore-gnss-modules/247-elt0222.html) you have connected to your [Linux system](https://amzn.to/45IW4ZD).
 
 `Geodnet MobileCM Miner` <-----> `Power Blocking GPS Splitter` <-----> `Antenna`
+
+
 `Linux System` <---> `GPS Receiver` <-----> `Power Blocking GPS Splitter`
 
 ### Linux
