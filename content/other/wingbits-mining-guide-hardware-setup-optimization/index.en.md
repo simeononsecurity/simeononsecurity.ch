@@ -45,7 +45,7 @@ We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Reciev
 - [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/3FsGaaY)
 - [1090MHz 978MHz Dual Band ADS-B Antenna](https://amzn.to/3QsOrlA)
 #### Optional Extras
-*The ADSB recievers linked above have LNA and Filters built in. Only consider using a LNA or Filters if you have a non specific SDR*
+*The ADSB receivers linked above have LNA and Filters built in. Only consider using a LNA or Filters if you have a non specific SDR*
 - [Nooelec SAWbird+ ADS-B: Premium, Dual-Channel, Cascaded Ultra-Low Noise Amplifier (LNA) & Filter Module for Airplane Tracking Applications. ](https://amzn.to/4737k3T)
 ##### Band Pass and SAW Filters
 - (**Preferred**)[ADSBexchange.com 1090 Mhz Saw Filter ](https://amzn.to/3MewiFB)
