@@ -181,7 +181,7 @@ sudo systemctl stop rtkbase_web
 
 2. **Test Set Up TCP Forwarding to RTKDirect**
 
-  You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots)
+  You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots).
 
   ```bash
   str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
@@ -191,11 +191,14 @@ sudo systemctl stop rtkbase_web
 
   - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
 
-  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
+  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, omit this information from the command.
+    - Elevation relative to sea level in meters. 
+    - Use tools like [gps-coordinates.net](https://www.gps-coordinates.net/) to get your coordinates and [FreeMapTools](https://www.freemaptools.com/elevation-finder.htm) to get your elevation.
 
   - Under `-out` be sure to specify the port number the dashboard gives you.
+    - The IP provided in the dashboard, at least for now, is the same as `ntrip.rtkdirect.com`. They point to the same space.
 
-3. **Test Set Up NTRIPv1 for Onocoy**
+1. **Test Set Up NTRIPv1 for Onocoy**
 
   You'll need the Mountpoint Username and Password from the [Onocoy Console](https://console.onocoy.com/)
 
@@ -207,10 +210,11 @@ sudo systemctl stop rtkbase_web
   
   - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
 
-  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
+  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, omit this information from the command.
+    - Elevation relative to sea level in meters. 
+    - Use tools like [gps-coordinates.net](https://www.gps-coordinates.net/) to get your coordinates and [FreeMapTools](https://www.freemaptools.com/elevation-finder.htm) to get your elevation.
 
   - Under `-out` be sure to specify the password and username number the onocoy console gives you.
-
 
 4. **Set Up STR2STR SYSTMCTL Services**
 

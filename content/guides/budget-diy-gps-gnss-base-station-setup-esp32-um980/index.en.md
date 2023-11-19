@@ -368,3 +368,20 @@ This is where you'll unplug the ESP32 from your desktop and Plug the [CanaKit Ra
 Testing is going to depend on multiple factors. This part is up to you. 
 I suggest using [Onocoy](https://console.onocoy.com/explorer) and using their service to test your configuration if you're setting up an NTRIP Server.
 
+
+## Conclusion
+
+Congratulations on completing the setup of your budget DIY GPS/GNSS base station using the ESP32 and the Unicorecomm UM980 module! This comprehensive guide has covered everything from selecting hardware components to flashing firmware and configuring the system.
+
+By choosing the Unicorecomm UM980 module, you've opted for a GNSS solution that offers enhanced performance in challenging conditions, provides valuable heading information, and ensures seamless compatibility and integration. The UM980's advantages over the U-Blox F9P make it a compelling choice for applications requiring precision and reliability.
+
+Additionally, the guide includes recommended antennas for both basic and advanced use cases, ensuring you can optimize your GNSS system for specific scenarios.
+
+The step-by-step setup instructions, detailed hardware connections, firmware flashing process, and configuration steps ensure that you have a robust foundation for your DIY project. The inclusion of alternative instructions for Linux and Raspberry Pi users, as well as specific configuration scripts for Unicorecomm UM980 and UM982 devices, adds flexibility to the guide.
+
+Remember to test your setup thoroughly, especially if you're planning to use the Onocoy NTRIP service for real-world applications. If you encounter any issues during testing, the guide provides troubleshooting tips and a full reset procedure to help you address potential problems.
+
+This DIY GPS/GNSS base station offers an affordable yet powerful solution for various applications, and your investment in the Unicorecomm UM980 module adds a significant advantage in terms of performance and reliability. Happy experimenting and exploring the possibilities of your DIY GNSS system!
+
+
+{{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}Read our guide on Triple Mining Geodnet, Onocoy, and RTKDirect{{< /centerbutton >}}

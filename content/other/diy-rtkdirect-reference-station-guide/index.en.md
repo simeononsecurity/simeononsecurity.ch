@@ -82,7 +82,10 @@ One of the following is **required**. We basically just need any **efficient and
 {{< figure src="compute.jpeg" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
 ### Raspberry Pi and Pi Clones:
-Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
+Hard to get ahold of these days but they are super low power and are quite customizable. 
+
+{{< centerbutton href="https://amzn.to/45IW4ZD" >}}Get the Orange Pi 5 Today!{{< /centerbutton >}}
+
 - [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
 - [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
@@ -112,9 +115,14 @@ Requires [FTDI Drivers](https://ftdichip.com/drivers/vcp-drivers/).
   - (**Preferred**)[UM980 RTK GNSS USB Dongle](https://gnss.store/unicore-gnss-modules/247-elt0222.html) - $225
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
     - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
+
+    {{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}Get the UM980 RTK GNSS USB DongleToday!{{< /centerbutton >}}
+
   - (**Preferred**)[UM982 Dual Channel RTK GNSS USB Dongle](https://gnss.store/um982-gnss-modules/239-elt0212.html) - $235
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
     - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
+
+    {{< centerbutton href="https://gnss.store/um982-gnss-modules/239-elt0212.html" >}}Get the UM982 RTK GNSS USB DongleToday!{{< /centerbutton >}}
 
   - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3tptGOk) + [GH1.25 to Dupont2.54 Pre-Crimped Cables](https://amzn.to/3tptGOk)- $180 - $220
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
@@ -150,6 +158,8 @@ Capable of up to 100% of the Onocoy rewards. Requires already available [firmwar
 We've covered this in a more in depth guide about the [Best GPS Base Station Antennas](https://simeononsecurity.com/other/unveiling-best-gps-antennas-onocoy-geodnet/).
 
 {{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+
+{{< centerbutton href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}Calibrated Survey GNSS Tripleband Antenna{{< /centerbutton >}}
 
 - (**Preferred**)[Calibrated Survey GNSS Tripleband + L-band antenna (IP67)](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
   - Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands
@@ -219,11 +229,15 @@ sudo systemctl stop rtkbase_web
 
      - Be sure to replace the message numbers if you know you don't use [MSMv7 RTCM3 messages](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/). Otherwise, don't touch them.
   
-     - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, obmit this information from the command.
-  
-     - Under `-out` be sure to specify the port number the dashboard gives you.
+  - Be sure to replace the values for -p, -i, and -a with your, geo cords, receiver model and your antenna if applicable. If you don't know them, omit this information from the command.
+    - Elevation relative to sea level in meters. 
+    - Use tools like [gps-coordinates.net](https://www.gps-coordinates.net/) to get your coordinates and [FreeMapTools](https://www.freemaptools.com/elevation-finder.htm) to get your elevation.
+    - 
 
-3. **Set Up RTKDirect STR2STR SYSTMCTL Service**
+     - Under `-out` be sure to specify the port number the dashboard gives you.
+       - The IP provided in the dashboard, at least for now, is the same as `ntrip.rtkdirect.com`. They point to the same space.
+
+1. **Set Up RTKDirect STR2STR SYSTMCTL Service**
 
   To make sure that it starts up on boot, we need to create a service.
 
@@ -302,6 +316,8 @@ ______
 ## Conclusion
 
 In conclusion, establishing your DIY RTKDirect reference station opens up a world of possibilities for precise positioning and navigation. The benefits include cost-effectiveness, customization, and active participation in a global network. By following the steps outlined in this guide, you can contribute to the advancement of GNSS technology while reaping the rewards of your data contributions.
+
+{{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}Read our guide on Triple Mining Geodnet, Onocoy, and RTKDirect{{< /centerbutton >}}
 
 ______
 

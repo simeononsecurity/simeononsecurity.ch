@@ -22,7 +22,10 @@ Cryptocurrency mining continues to evolve, and the WingBits technology stack off
 ### System Requirements:
 One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
 #### Raspberry Pi:
-Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
+Hard to get ahold of these days but they are super low power and are quite customizable. 
+
+{{< centerbutton href="https://amzn.to/3x72kv0" >}}Get your Raspberry Pi 4B today! {{< /centerbutton >}}
+
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
 - [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
 - [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
@@ -38,6 +41,9 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 ### ADSB Specific Equipment:
 #### ADSB Receivers
 We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Recievers](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/)
+
+{{< centerbutton href="https://amzn.to/3QIRhBV" >}}Get your AirNav Radarbox Flightstick today! {{< /centerbutton >}}
+
 - (**Preferred**)[AirNav Radarbox Flightstick](https://amzn.to/3QIRhBV)
 - [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)
 #### ADSB Antennas

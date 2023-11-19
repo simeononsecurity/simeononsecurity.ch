@@ -573,6 +573,8 @@ Stay inspired, stay innovative, and keep pushing the **boundaries of what's poss
 
 Lastly, check out our article on more [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/).
 
+{{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}Read our guide on Triple Mining Geodnet, Onocoy, and RTKDirect{{< /centerbutton >}}
+
 ## References
 
 - [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
