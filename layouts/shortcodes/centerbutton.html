@@ -102,26 +102,28 @@
 {{ end }}
 
 <span itemscope itemtype="https://schema.org/WebPage">
-    <meta itemprop="name" content="{{ $contentname }}">
-    <meta itemprop="url" content="{{ $url }}">
-    <a href="{{.}}" title="{{ $title }}"
-        {{ with $target }} target="{{.}}" {{ end }}
-        class="markdown-btn{{ $class }}"
-        {{ if or (not (strings.Contains $url "http")) $isBaseURL }}
-            rel="follow" alt="{{ $title }}"
-        {{ else if strings.HasPrefix $url "http" }}
-            {{ if not $isBaseURL }}
-                {{ if $isaffiliateURL }}
-                    rel="nofollow noopener external sponsored" alt="Affiliate Link" 
-                {{ else }}
-                    rel="noopener external" alt="{{ $title }}"
+    <center>
+        <meta itemprop="name" content="{{ $contentname }}">
+        <meta itemprop="url" content="{{ $url }}">
+        <a href="{{.}}" title="{{ $title }}"
+            {{ with $target }} target="{{.}}" {{ end }}
+            class="markdown-btn{{ $class }}"
+            {{ if or (not (strings.Contains $url "http")) $isBaseURL }}
+                rel="follow" alt="{{ $title }}"
+            {{ else if strings.HasPrefix $url "http" }}
+                {{ if not $isBaseURL }}
+                    {{ if $isaffiliateURL }}
+                        rel="nofollow noopener external sponsored" alt="Affiliate Link" 
+                    {{ else }}
+                        rel="noopener external" alt="{{ $title }}"
+                    {{ end }}
                 {{ end }}
-            {{ end }}
-        {{ end }}>
-        <button class="markdown-button">
-            {{- .Inner | safeHTML -}}
-        </button>
-    </a>
-    <p>{{ $description }}</p>
+            {{ end }}>
+            <button class="markdown-button">
+                {{- .Inner | safeHTML -}}
+            </button>
+        </a>
+        <p>{{ $description }}</p>
+    </center>
 </span>
 
