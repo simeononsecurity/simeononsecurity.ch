@@ -51,6 +51,15 @@
   min-width: 200px;
   padding: 14px 24px;
 }
+.markdown-button {
+  background-color: #fe5186;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.markdown-button:hover {
+  background-color: var(--background-secondary);
+}
 a.read-more, a.read-more:active, a.read-more:hover {
   background: none;
   box-shadow: none;
