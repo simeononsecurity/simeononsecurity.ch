@@ -190,7 +190,7 @@ sudo systemctl disable rtkbase_web
 sudo systemctl stop rtkbase_web
 ```
 
-#### Set up STR2STR
+#### 2. Set up STR2STR
 
 1. **Set up USB to local TCP server**
   > **Note:** When setting up USB to a local TCP server using the `str2str` command, ensure you specify your serial settings correctly. In the provided example:
@@ -223,7 +223,7 @@ sudo systemctl stop rtkbase_web
   
      - Under `-out` be sure to specify the port number the dashboard gives you.
 
-1. **Set Up RTKDirect STR2STR SYSTMCTL Service**
+3. **Set Up RTKDirect STR2STR SYSTMCTL Service**
 
   To make sure that it starts up on boot, we need to create a service.
 
