@@ -8,6 +8,7 @@ tags: ["Linux distros", "NVIDIA graphics card support", "Ubuntu", "Fedora", "Man
 cover: "/img/cover/An_image_showing_a_computer_screen_displaying_a_Linux_distro.png"
 coverAlt: "An image showing a computer screen displaying a Linux distro logo with an NVIDIA graphics card and colorful graphics in the background, representing the seamless support and performance optimization for NVIDIA GPUs in Linux distros."
 coverCaption: ""
+ref: ["/articles/a-beginners-guide-to-using-the-linux-command-line"]
 ---
 
 **Best Linux distros for NVIDIA graphics card support**
@@ -88,6 +89,7 @@ In conclusion, when it comes to choosing a Linux distro for **NVIDIA graphics ca
 |              | - Comprehensive documentation and strong community support system                                                           |
 
 
+{{< centerbutton href="https://simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/" >}}Read our guide on the Linux command line!{{< /centerbutton >}}
 ______
 
 ## References
