@@ -56,6 +56,8 @@ ______
 ### The Best Android Phones for Mining Verus
 Currently there are standout devices in the world of Android Verus Mining in terms of profitability, ROI, durability, and availability.
 
+{{< centerbutton href="https://amzn.to/3saKyYR" >}}Get the Best Phone to Mine Verus On, the A03S, Today!{{< /centerbutton >}}
+
 1. (**Preferred**)[**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
    - The A03s is an amazing deal that nets you up to 3.5Mhs and can be regularly had for around $50 brand new. It also has the suggested Li-Po battery.
    1. [Tracfone Samsung Galaxy A03s](https://amzn.to/3saKyYR) - $49
@@ -71,6 +73,8 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 
 ### The Best USB C Chargers for Mining Verus
 
+{{< centerbutton href="https://amzn.to/3RCdOCo" >}}Get Anker 6 Port Charging Station Today!{{< /centerbutton >}}
+
 1. [Anker Charger, 60W 6 Port USB Charging Station](https://amzn.to/3RCdOCo)
    1. With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or less devices.
 2. [PD USB-C Charging Station, COSOOS 81W 6-Port USB Charging Station](https://amzn.to/47uEBpt)
@@ -82,12 +86,16 @@ Currently there are standout devices in the world of Android Verus Mining in ter
 
 When mining Verus we typically like packs of high quality USB A to USB C charging cables. Here are a few suggestions
 
+{{< centerbutton href="https://amzn.to/3qv1RTQ" >}}Get a 6 Pack of USB C Charging Cables Today!{{< /centerbutton >}}
+
 1. [6 inch Short USB C Cord Fast Charge 5 Pack Durable USB A to USB Type C ](https://amzn.to/3qv1RTQ)
 2. [USB Type-C Cable 5pack 6ft](https://amzn.to/3qwx5Kj)
 3. [Anker USB C Charger Cable 2 Pack6ft](https://amzn.to/45rR1N0)
 4. [Terasako Magnetic Charging Cable 5-Pack](https://amzn.to/45sa0qO)
 
 ### Optional Extras for Mining Verus
+
+{{< centerbutton href="https://amzn.to/3RympGb" >}}Get the AC Infinity 120mm USB Fans Today!{{< /centerbutton >}}
 
 1. [40x40x11mm Heat Syncs](https://amzn.to/3PVL5Y3)
    1. These increase the surface area of the phone. Use these to improve both the passive and active cooling ability of the device
@@ -134,6 +142,7 @@ These steps guide you through the process of mining VerusCoin on your Android de
 ## Basic Install for Verus Mining on Android
 
 {{< youtube id="zBbtdeKZl8w" >}}
+{{< centerbutton href="https://amzn.to/3saKyYR" >}}Get the Best Phone to Mine Verus On, the A03S, Today!{{< /centerbutton >}}
 
 1. Open the [Verus Miner application](https://pangz-lab.github.io/verusminer/#downloads)
    {{< figure src="verusminer.webp" alt="A screenshot of the verus miner application home menu." >}}
@@ -169,6 +178,7 @@ ______
 ## Advanced Install for Verus Mining On Android
 
 This requires some experience with linux command line and is only suggested for advanced users.
+{{< centerbutton href="https://amzn.to/3saKyYR" >}}Get the Best Phone to Mine Verus On, the A03S, Today!{{< /centerbutton >}}
 
 ### Installing Linux Environment to Mine Verus on Android
 
@@ -275,6 +285,8 @@ To maximize your mining efficiency, ensure your Android device is equipped with 
 Remember, embarking on any mining venture requires a balance between the potential rewards and the associated costs, both in terms of energy consumption and hardware wear. By staying informed and proactive, you can make the most of this exciting opportunity to mine VerusCoin using your Android smartphone.
 
 Feel the pulse of the VerusCoin community and stay updated on the latest developments by exploring platforms like **VerusCoin subreddit** [r/veruscoin](https://www.reddit.com/r/veruscoin/) and official documentation resources. As the landscape continues to evolve, staying connected and informed will be your ally in the world of Android-based cryptocurrency mining.
+
+{{< centerbutton href="https://amzn.to/3saKyYR" >}}Get the Best Phone to Mine Verus On, the A03S, Today!{{< /centerbutton >}}
 
 ______
 
