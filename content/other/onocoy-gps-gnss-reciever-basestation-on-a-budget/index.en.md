@@ -69,6 +69,8 @@ One of the following is **required**. We basically just need any **efficient and
 
 {{< figure src="compute.jpeg" alt="Onocoy DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
+{{< centerbutton href="https://amzn.to/45IW4ZD" >}}Get the Orange Pi 5 Today!{{< /centerbutton >}}
+
 ### Raspberry Pi and Pi Clones:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
 - [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
@@ -85,7 +87,8 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 - [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ### Ultra Low Power / Low Budget
-If you're interested in a lower power and/or low budget setup, read our guide on [How to Set Up a GPS/GNSS Bases Station on an ESP32](https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/).
+
+{{< centerbutton href="https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/" >}}How to Set Up a GPS/GNSS Bases Station on an ESP32{{< /centerbutton >}}
 
 ### Compute Notable Mentions
 Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
@@ -94,6 +97,9 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 There are many receivers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
 {{< figure src="basic-receivers.jpeg" alt="Basic GPS Receivers for Onocoy" >}}
+
+{{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}Get your GNSS.STORE UM980 RTK GNSS USB Dongle Today!{{< /centerbutton >}}
+
 
 - **U-Blox Based Receivers**
   - [NEO-M8P RTK GPS GNSS receiver board with SMA and mini USB for UAV, Robots](https://gnss.store/neo-m8p-gnss-modules/90-elt0078.html) - $150
@@ -122,6 +128,8 @@ These are all going to be devices that are Triple-Band, High Pull Rate, Extreme 
 If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at most 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) and [Unicorecomm UM982](https://en.unicorecomm.com/products/detail/24) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
 
 {{< figure src="advanced-receivers.jpeg" alt="Basic GPS Receivers for Onocoy" >}}
+
+{{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}Get the GNSS.STORE Triple Band Survey Antenna Today!{{< /centerbutton >}}
 
 - **Unicorecomm UM980**
 Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.

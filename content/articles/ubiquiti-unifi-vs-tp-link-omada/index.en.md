@@ -32,7 +32,12 @@ Whether it's deploying access points to extend Wi-Fi coverage, integrating switc
 
 To learn more about Ubiquiti's Unifi products and their features, please read below or, visit the [**Ubiquiti website**](https://www.ui.com/products/#default) for detailed documentation and product specifications.
 
+{{< centerbutton href="https://simeononsecurity.com/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/" >}}Read our Guide on the Ideal Ubiquiti Unifi Network Setups!{{< /centerbutton >}}
+
+______
 {{< inarticle-dark >}}
+______
+
 ### Features
 
 The **Unifi system** offers a wide range of features, including:
@@ -83,7 +88,10 @@ The Omada system is known for its competitive pricing, offering **great value fo
 
 While the Omada system offers a range of features and benefits, it's worth noting that, similar to the Unifi system, it may have a **learning curve** when it comes to setup and configuration, especially for users who are not well-versed in networking technology. However, TP-Link provides **documentation**, **user guides**, and **support resources** to assist users in the setup process, ensuring that you can maximize the potential of the Omada system.
 
+________
 {{< inarticle-dark >}}
+________
+
 ## Unifi and Omada: What Sets Them Apart?
 
 When comparing the **Unifi** and **Omada** systems, it's important to consider the key differences that set them apart. Here are some factors to take into account:
@@ -128,10 +136,15 @@ While TP-Link's Omada system offers robust networking features, it currently lac
 | Support          | Extensive documentation and vibrant online community                       | Reliable support with available resources                   |
 | Additional Offerings | Unifi Protect (video surveillance system), Unifi Access (access control), Unifi ID (identity management) | N/A                                                     |
 
+________
 {{< inarticle-dark >}}
+________
 
 ## Conclusion
 Overall, both the [Ubiquiti Unifi](https://www.ui.com/) and [TP-Link Omada](https://www.tp-link.com/us/omada-sdn/) systems offer reliable and high-performance networking solutions. Choosing between the two systems will depend on your specific needs and preferences. If you need advanced features and more control over your network, the Unifi system may be the better option. However, if you prefer a simpler interface and more streamlined management, the Omada system may be the better choice. In any case, both systems offer good value for the money and are worth considering for your networking needs.
+
+{{< centerbutton href="https://simeononsecurity.com/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/" >}}Read our Guide on the Ideal Ubiquiti Unifi Network Setups!{{< /centerbutton >}}
+
 
 ### References
 - [Ubiquiti Unifi](https://www.ui.com/products/#default)

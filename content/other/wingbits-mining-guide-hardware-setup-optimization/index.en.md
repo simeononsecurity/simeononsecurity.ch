@@ -42,7 +42,7 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 #### ADSB Receivers
 We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Recievers](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/)
 
-{{< centerbutton href="https://amzn.to/3QIRhBV" >}}Get your AirNav Radarbox Flightstick today! {{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3QIRhBV" >}}Get your AirNav Radarbox Flightstick today!{{< /centerbutton >}}
 
 - (**Preferred**)[AirNav Radarbox Flightstick](https://amzn.to/3QIRhBV)
 - [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)

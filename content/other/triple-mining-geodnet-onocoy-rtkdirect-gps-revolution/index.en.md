@@ -30,6 +30,9 @@ For this project we need a few things.
 
 {{< figure src="compute.jpeg" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
+{{< centerbutton href="https://amzn.to/45IW4ZD" >}}Get the Orange Pi 5 Today!{{< /centerbutton >}}
+
+
 ### Raspberry Pi and Pi Clones:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
 - [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
@@ -43,7 +46,9 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 - [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 
 ### Ultra Low Power / Low Budget
-If you're interested in a lower power and/or low budget setup, read our guide on [How to Set Up a GPS/GNSS Bases Station on an ESP32](https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/).
+
+{{< centerbutton href="https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/" >}}How to Set Up a GPS/GNSS Bases Station on an ESP32{{< /centerbutton >}}
+
 
 ### Compute Notable Mentions
 Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
@@ -54,6 +59,8 @@ There are many receivers on the market but at a bare minimum it must support [**
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. Most won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. THey will allow you to be capable of at most of the RTKDirect rewards. While you'll be able to use the same software we mention below, the instructions we've provided may not exactly line up. Be advised that things like COM ports and the dongle specific instructions may be different for you.
 
 {{< figure src="advanced-receivers.jpeg" alt="The Best GPS Receivers" >}}
+
+{{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}Get your GNSS.STORE UM980 RTK GNSS USB Dongle Today!{{< /centerbutton >}}
 
 - **Unicorecomm UM980/UM982 Based USB Receivers**
 The preferred option overall and by far for almost every setup.
@@ -100,6 +107,8 @@ We've covered this in a more in depth guide about the [Best GPS Base Station Ant
 
 {{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
 
+{{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}Get the GNSS.STORE Triple Band Survey Antenna Today!{{< /centerbutton >}}
+
 - (**Preferred**)[Calibrated Survey GNSS Tripleband + L-band antenna (IP67)](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
   - Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands
 - [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
@@ -113,12 +122,18 @@ We've covered this in a more in depth guide about the [Best GPS Base Station Ant
 
 When choosing antenna splitters for your setup, it's crucial to avoid options that may harm your radios, such as the one linked [here](https://amzn.to/3QryASQ). This type of splitter can potentially damage your equipment.
 
-Instead, consider opting for antenna splitters that intelligently split the signal without affecting the DC power. Here are two recommended options:
+Instead, consider opting for antenna splitters that intelligently split the signal without affecting the DC power. 
+
+{{< centerbutton href="https://www.gns-electronics.de/product/11359" >}}Get your GPS Antenna Splitter Today!{{< /centerbutton >}}
+
+Here are two recommended options:
 
 - [GNS Electronics Antenna Signal Splitter](https://www.gns-electronics.de/product/11359)
 - [ArduSimple GPS/GNSS Antenna Signal Splitter](https://www.ardusimple.com/product/gps-gnss-antenna-signal-splitter/)
 
 These alternatives provide a reliable solution for signal splitting without the risk of damaging your equipment.
+
+
 
 ______
 
