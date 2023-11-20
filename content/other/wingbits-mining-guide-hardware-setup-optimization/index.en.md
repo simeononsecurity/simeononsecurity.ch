@@ -126,7 +126,7 @@ To get started is simple, just follow these steps:
 ```bash
 curl -sL https://gitlab.com/wingbits/config/-/raw/master/download.sh | sudo bash
 ```
-> **Note**: *Make sure you have your device ID, which you can find in your original WingBits email or on the [WingBits dashboard](https://wingbits.com).*
+> **Note**: *Make sure you have your `device ID`/`antenna name`, which you can find in your original WingBits email or on the [WingBits dashboard](https://wingbits.com).*
 
 ### **2: Setting Up Your Location**
 Setting your mining location is crucial. Use tools like [LatLong.net](https://www.latlong.net/convert-address-to-lat-long.html) to find the coordinates for your installation site. Replace the example coordinates with your own:
@@ -144,6 +144,8 @@ sudo autogain1090
 sudo for i in {0..30}; do sudo autogain1090; sleep 120; done &
 ```
 
+> **Note**: Read the Troubleshooting and Helpful Commands section below on how to set the gain levels more optimally.
+
 ### **4. Profit?**
 
 At this point you're done. Sit back and relax.
@@ -152,6 +154,86 @@ However if you discover you are running into issues, or you'd like to learn more
 ______
 
 ## Troubleshooting and Helpful Commands
+
+### Tuning ADS-B Gain for Optimal Performance
+
+Understanding how to adjust the gain on your ADS-B receiver is crucial for optimizing performance and ensuring accurate data reception. Here's a step-by-step guide on tuning the gain for your system.
+
+#### **Overview of Gain and its Analogy**
+
+Gain, analogous to volume in audio terms, plays a pivotal role in receiving ADS-B signals. Similar to turning up the volume, increasing gain amplifies signals, but at a certain point, it can lead to distortion and signal loss.
+
+#### **Avoiding Autotune and Checking Current Gain**
+
+**Autotune is not recommended** for quick and precise gain adjustments. To view your current gain, check the "Misc" section in the graphs1090 interface. The gain value is displayed here.
+
+#### **Changing Gain Manually**
+
+Adjusting gain is straightforward and can be done using the Terminal. Enter the following command, replacing "xx.x" with your desired gain:
+
+```bash
+sudo readsb-gain xx.x
+```
+
+Available gain settings are limited to specific values. If you input a different value, it will snap to the nearest valid gain from the following list:
+
+```python
+0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4
+28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6 -10
+```
+
+#### **Real-Time Gain Read and Verification**
+
+For a real-time gain read over a specific time period since `readsb` started, use the following command:
+
+```bash
+grep -sh /run/{dump1090,dump1090-fa,readsb}/stats.json -e '' | jq '.total.local | ((.accepted | add), .strong_signals, .signal, .noise)' | xargs -n4 echo | awk '{printf "\nPercentage of strong messages: %.3f\nSignal: %.1f\nNoise: %.1f\n", $(2) * 100 / $(1), $(3), $(4)}'
+```
+
+This command provides crucial information such as the percentage of strong messages, signal strength, and noise level.
+
+In the command you can change `.total.local` to any of the options below to get more recent data, if needed.
+
+- `last1min `
+- `last5min `
+- `last15min`
+
+#### **Verifying Gain Impact on Range**
+
+To ensure your adjusted gain doesn't compromise range, utilize the ADS-B Range graph on the `x.x.x.x/graphs1090` page. Confirm that you're still receiving an adequate range even as you modify the gain.
+
+{{< figure src="adsb-range.webp" alt="graphs1090 ADS-B Range Graph" caption="The number you should care about is Avg Max Range" >}}
+
+#### **ADS-B Analysis with Dirk Beer**
+
+For more detailed analysis, Dirk Beer's Python script can assess your range by assuming that aircraft will transmit again. Running Dirk's scripts helps evaluate the impact of gain adjustments on reception range.
+
+The script provides easy to understand graphs to help you determine your maximum reliable range.
+
+{{< figure src="adsb-range-graph.webp" alt="DirkBeer ADSB Script for tar1090 ADS-B Range Graph" caption="Average ADS-B Receiver Performance Graph for Indoor Setups." >}}
+
+It is based on the theory that probability of detection P(D) of an aircraft's message in the current 8-second measurement interval, given that that the aircraft's message was received in the previous interval.
+
+**Note**: Specific goals for ADS-B reception may vary, and striking a balance between maximum range, minimal "too hot" messages, and maximum aircraft reception is recommended.
+
+**Setup Script**
+```bash
+curl -sSL https://raw.githubusercontent.com/dirkbeer/adsb-analysis/main/setup.sh | sudo bash
+```
+**Analysis Script**
+```bash
+sudo ~/adsb-analysis/run_analysis.sh
+```
+
+{{< figure src="adsb-range-graph-script-output.webp" alt="DirkBeer ADSB Script for tar1090 ADS-B Example Output" caption="Example Script Output" >}}
+
+##### **Further Exploration with Dirk Beer's Scripts**
+
+For an in-depth ADS-B analysis, Dirk Beer's scripts, available on his [GitHub](https://github.com/dirkbeer/adsb-analysis), provide additional insights into your system's range and reception capabilities. Running these scripts can complement the information obtained from other Python scripts.
+
+Optimizing ADS-B gain involves continuous adjustment and monitoring, allowing you to tailor your setup for optimal performance based on your specific preferences and goals. Experimenting with gain levels and analyzing the impact on reception metrics is key to achieving the best results.
+
+______
 
 ### Configuring Location in readsb for ADS-B Reception
 
@@ -245,6 +327,15 @@ Debugging is an essential aspect of maintaining an ADS-B setup on a Raspberry Pi
   ```
 
 ---
+#### readsb Debug Command:
+
+- View dump1090-fa logs:
+  ```bash
+  sudo journalctl --no-pager -u readsb
+  ```
+
+---
+
 
 #### dump1090-fa Debug Command:
 
@@ -261,59 +352,6 @@ To test the RTL-SDR receiver, run the following command:
   ```bash
   sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/wiedehopf/adsb-scripts/master/rtl_test.sh)"
   ```
-
----
-
-### Optimizing Gain for ADS-B Reception with readsb
-
-**Introduction:**
-
-Receiving and decoding ADS-B signals on a Raspberry Pi using readsb involves optimizing the gain settings to achieve optimal performance. This article provides a detailed guide for both automatic and manual gain optimization methods.
-
----
-
-#### Automatic Method:
-
-1. **Check Percentage of Strong Messages:**
-   Use the following command to obtain the percentage of strong messages:
-   ```bash
-   grep -sh /run/{dump1090,dump1090-fa,readsb}/stats.json -e '' | jq '.total.local | ((.accepted | add), .strong_signals, .signal, .noise)' | xargs -n4 echo | awk '{printf "\nPercentage of strong messages: %.3f\nSignal: %.1f\nNoise: %.1f\n", $(2) * 100 / $(1), $(3), $(4)}'
-   ```
-
-2. **Adjust Gain Based on Percentage:**
-   - Percentages from 0.5% to 5% are recommended.
-   - Experiment until an optimal value is found.
-   - If using graphs1090, adjust gain so the weakest signal is between -25 to -30 dBFS.
-
----
-
-#### Manual Method:
-
-1. **Check Percentage After Waiting:**
-   After waiting at least 5 minutes, check the percentage using the command mentioned in the automatic method.
-
-2. **Adjust Gain:**
-   - If the percentage is too high, reduce the gain.
-   - If too low, increase it. Aim for around 2% if unsure.
-
-3. **Available Gain Settings:**
-   ```
-   0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4
-   28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6
-   -10
-   ```
-
-4. **Using AGC (Automatic Gain Control):**
-   - A gain of -10 turns on AGC, resulting in the maximum possible gain for ADS-B.
-   - Repeat the process until a suitable gain value is found.
-
-5. **Caution on Maximum Range:**
-   - If aiming for maximum range, be cautious about setting the gain too high.
-   - Amplifying noise may not result in extra range.
-
-6. **Check Back After a Day or Two:**
-   - After adjustments, check back after a day or two to get a more precise percentage.
-   - The percentage is only reset when dump1090 is restarted.
 
 ---
 
@@ -447,7 +485,7 @@ If you've made it this far, you might like to know you can actually dual mine [W
 
 ______
 
-### **References**
+## **References**
 Here are some helpful links for reference:
 - [WingBits](https://wingbits.com/#alpha)
 - [DeFli](https://defli.network/maclinux)
@@ -457,3 +495,5 @@ Here are some helpful links for reference:
 - [ADS-B Reception on Raspberry Pi](https://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/)
 - [RTL-SDR Bias Tee Activation](https://www.rtl-sdr.com/getting-the-v3-bias-tee-to-activate-on-piaware-ads-b-images/)
 - [RTL-SDR Receiver Test](https://github.com/wiedehopf/adsb-scripts/blob/master/rtl_test.sh)
+- [dirkbeer/adsb-analysi](https://github.com/dirkbeer/adsb-analysis)
+- [Graphs1090 ADSB Optimization Guide](https://gristleking.com/wingbits-optimization-graphs1090-plus/)
