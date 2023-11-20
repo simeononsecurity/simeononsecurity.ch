@@ -86,6 +86,7 @@ In addition to their professional accomplishments, SimeonOnSecurity's passion fo
 - [Feedly](https://feedly.com/i/subscription/feed/https://simeononsecurity.com/index.xml)
 - [Flickr](https://www.flickr.com/photos/simeononsecurity/)
 - [Flipboard](https://flipboard.com/@simeonsecurity)
+- [GitBook](https://simeononsecurity.gitbook.io/home/)
 - [Gravatar](https://gravatar.com/simeononsecurity)
 - [Keybase](https://keybase.io/simeononsecurity)
 - [HackMD](https://hackmd.io/@simeononsecurity)
