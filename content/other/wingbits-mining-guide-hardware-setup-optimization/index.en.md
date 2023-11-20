@@ -144,6 +144,13 @@ sudo autogain1090
 sudo for i in {0..30}; do sudo autogain1090; sleep 120; done &
 ```
 
+### **4. Profit?**
+
+At this point you're done. Sit back and relax.
+However if you discover you are running into issues, or you'd like to learn more, read below.
+
+______
+
 ## Troubleshooting and Helpful Commands
 
 ### Configuring Location in readsb for ADS-B Reception
