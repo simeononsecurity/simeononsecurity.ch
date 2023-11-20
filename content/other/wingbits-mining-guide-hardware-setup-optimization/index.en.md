@@ -65,6 +65,8 @@ One of the following is required. We basically just need any efficient and low p
 #### Raspberry Pi:
 Hard to get ahold of these days but they are super low power and are quite customizable. 
 
+{{< figure src="compute.jpeg" alt="Wingbits Compute Hardware" link="https://amzn.to/45IW4ZD" >}}
+
 {{< centerbutton href="https://amzn.to/3x72kv0" >}}Get your Raspberry Pi 4B today! {{< /centerbutton >}}
 
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
@@ -83,7 +85,9 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 #### ADSB Receivers
 We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Recievers](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/)
 
-{{< centerbutton href="https://amzn.to/3QIRhBV" >}}Get your AirNav Radarbox Flightstick today!{{< /centerbutton >}}
+{{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick Best ADSB Receiver for Wingbits" link="https://amzn.to/3FSSql1" >}}
+
+{{< centerbutton href="https://amzn.to/3FSSql1" >}}Get the AirNav RadarBox FlightStick Today!{{< /centerbutton >}}
 
 - (**Preferred**)[AirNav Radarbox Flightstick](https://amzn.to/3QIRhBV)
 - [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)
