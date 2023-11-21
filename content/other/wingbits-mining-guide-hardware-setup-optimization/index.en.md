@@ -124,6 +124,8 @@ We won't go into the technical details of how to install an operating system her
 
 ## Setup Instructions for Installing WingBits
 
+{{< figure src="wingbits-website.webp" alt="Wingbits Home Page" caption="Wingbits Home Page" link="https://wingbits.com/" >}}
+
 Wingbits technology stack currently operates like this.
 
  `readsb` -> `vector` -> `wingbits`
@@ -496,6 +498,11 @@ ______
 ## **References**
 Here are some helpful links for reference:
 - [WingBits](https://wingbits.com/#alpha)
+- [WingBits Litepaper](https://wingbits.com/litepaper)
+- [WingBits Map](https://wingbits.com/map)
+- [WingBits Discord](https://discord.gg/zAt9m3aSm6)
+- [WingBits Twitter](https://twitter.com/wingbits)
+- [WingBits Documentation](https://medium.com/@wingbits)
 - [DeFli](https://defli.network/maclinux)
 - [readsB GitHub](https://github.com/wiedehopf/adsb-scripts)
 - [graphs1090 Documentation](https://github.com/wiedehopf/graphs1090)
