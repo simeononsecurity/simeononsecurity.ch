@@ -12,7 +12,7 @@ coverCaption: "Effortless Dual Mining"
 ref: ["/other/effortless-dual-mining-wingbits-defli-guide", "/other/creating-profitable-low-powered-crypto-miners", "/other/adsb-sdr-adapter-performance-insights" ]
 ---
 
-> **Note**: *This article does not entail an endorsement of wingbits nor does it contain any financial advice. Please do your own research. This article is for educational purposes only.*
+> **Note**: *This article does not contain or entail an endorsement of wingbits nor does it contain any financial advice. Please do your own research. This article is for educational purposes only.*
 
 ## Introduction
 
@@ -22,21 +22,25 @@ Cryptocurrency mining continues to evolve, and the WingBits technology stack off
 
 Flight tracking involves the use of small computers, typically Raspberry Pi, connected to a software-defined radio (SDR) USB stick operating at 1090 MHz. This setup, known as a feeder or ADS-B receiver, captures aircraft positions transmitted on 1090 MHz, primarily through Automatic Dependent Surveillance–Broadcast (ADS-B). The essential components for building such a device are detailed below.
 
+{{< figure src="ADS-B_graphic.jpg" alt="Simplified ADS-B Network Example" caption="Simplified ADS-B Network Example - southwestantennas.com" link="https://www.southwestantennas.com/articles/introduction-to-ads-b-technology" >}}
+
 ### Unique Identifiers and Aircraft History
 
 Each aircraft transmitting its position on 1090 MHz is assigned a unique hexadecimal identifier, such as ABA7D9. This identifier remains constant, allowing users to track the historical data for a specific airframe. For example, the US-registered aircraft N850FD corresponds to the hex ID ABA7D9. The [aircraft history](https://tar1090.adsbexchange.com/?icao=aba7d9) for N850FD includes details such as its current callsign (e.g., FDX5235), which may be associated with a city pair for certain airlines.
 
-### Detailed Aircraft Information
+#### Detailed Aircraft Information
 
 By selecting an aircraft on the [ADS-B Exchange map](https://tar1090.adsbexchange.com/), users can access detailed information on the left side of the page. Tooltips are available to explain various displayed elements. Additionally, users can explore the aircraft's history by clicking on the history tab, revealing a colored line indicating its flight path. Timestamps, speed in knots, altitude in feet, and other details are displayed, providing a comprehensive overview of the aircraft's journey.
 
-### Data Contribution and Real-Time Display
+#### Data Contribution and Real-Time Display
 
 All the data presented on the ADS-B Exchange website is sourced from volunteers who have set up receivers, contributing real-time data. This data is collected and displayed on the online map, offering a collaborative and dynamic representation of aircraft movements globally.
 
-### ADS-B Aircraft Categories
+#### ADS-B Aircraft Categories
 
-Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Broadcast) equipped aircraft based on specific characteristics. These categories provide insights into the type and size of the aircraft, aiding in the identification and classification of air traffic. Here are the defined ADS-B aircraft categories:
+{{< figure src="aircraft_types_illustration.png" alt="A vibrant cartoon illustration showcasing diverse aircraft types in flight." caption="Soar to New Heights with Varied Aircraft Types!" >}}
+
+Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Broadcast) equipped aircraft based on specific characteristics. These categories provide insights into the type and size of the aircraft, aiding in the identification and classification of air traffic. Here are the [defined ADS-B aircraft categories](https://mode-s.org/decode/content/ads-b/2-identification.html):
 
 - **A-**: Unspecified powered aircraft
 - **A1**: Light (< 15,500 lbs.)
@@ -59,7 +63,7 @@ Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Bro
 - **C2**: Surface Vehicle - Service Vehicle
 - **C3**: Fixed Ground or Tethered Obstruction
 
-## Hardware Requirements:
+## WingBits Hardware Requirements:
 ### System Requirements:
 One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
 #### Raspberry Pi:
@@ -501,3 +505,4 @@ Here are some helpful links for reference:
 - [RTL-SDR Receiver Test](https://github.com/wiedehopf/adsb-scripts/blob/master/rtl_test.sh)
 - [dirkbeer/adsb-analysi](https://github.com/dirkbeer/adsb-analysis)
 - [Graphs1090 ADSB Optimization Guide](https://gristleking.com/wingbits-optimization-graphs1090-plus/)
+- [ADS-B Identification](https://mode-s.org/decode/content/ads-b/2-identification.html)
