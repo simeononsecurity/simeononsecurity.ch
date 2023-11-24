@@ -49,6 +49,18 @@ Cache-Control = "Public, max-age=31536000"
 Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
+for = "/*.xml"
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"
+Access-Control-Allow-Origin = "*"
+
+[[headers]]
+for = "/*.json"
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"
+Access-Control-Allow-Origin = "*"
+
+[[headers]]
 for = "/tags/*"
 [headers.values]
 X-Robots-Tag = "noindex, follow"
