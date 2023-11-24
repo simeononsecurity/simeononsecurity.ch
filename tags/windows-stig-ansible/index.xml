@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows STIG Ansible on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/windows-stig-ansible//img/banner.png</url><title>Windows STIG Ansible on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/windows-stig-ansible/</link></image><link>https://dev.simeononsecurity.ch/tags/windows-stig-ansible/</link><description>Recent content in Windows STIG Ansible on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/windows-stig-ansible/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned more Powershell and Ansible Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "PowerShell"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned about Windows STIG Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.
+New/Updated Repos: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Learning Resources: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.windows.psexec win_psexec</description></item></channel></rss>

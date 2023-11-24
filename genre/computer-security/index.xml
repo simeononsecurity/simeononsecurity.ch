@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer Security on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/computer-security//img/banner.png</url><title>Computer Security on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/computer-security/</link></image><link>https://dev.simeononsecurity.ch/genre/computer-security/</link><description>Recent content in Computer Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/computer-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Windows Registry: Command Line Tips for Efficient Configuration</title><link>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows"
+, "Command Line"
+, "Registry"
+, "System Configuration"
+, "Computer Security"
+, "Tech How-To"
+, "Windows Tips"
+, "IT Solutions"
+, "Software Tweaks"</category><guid>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows Registry with expert command line techniques. Learn to query, modify, and secure your system settings.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/Windows_Registry_Wizard.png" length="1989003" type="image/png"/></item><item><title>What are the Best Full Disk Encryption Solutions for Windows?</title><link>https://dev.simeononsecurity.ch/articles/best-full-disk-encryption-solutions-windows/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Data Security"
+, "Cybersecurity"
+, "Windows Encryption"
+, "Disk Encryption"
+, "Data Protection"
+, "Encryption Software"
+, "Security Solutions"
+, "Windows Security"
+, "Data Privacy"
+, "Computer Security"</category><guid>https://dev.simeononsecurity.ch/articles/best-full-disk-encryption-solutions-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top full disk encryption solutions for Windows that provide robust security and protect your sensitive data from unauthorized access.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png" length="1206564" type="image/png"/></item><item><title>Understanding Remote Access Trojans: Risks, Prevention, and Protection</title><link>https://dev.simeononsecurity.ch/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Malicious Software"
+, "Computer Security"
+, "Digital Threats"
+, "Remote Access Trojans"
+, "Data Protection"
+, "Privacy"
+, "Cybercrime"
+, "Network Security"
+, "Information Security"</category><guid>https://dev.simeononsecurity.ch/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the risks posed by remote access trojans (RATs) and learn effective prevention and protection measures to safeguard your computer systems and data.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png"/></item><item><title>Today I Learned about CVE-2020-17049 and Windows Token-Based Activation</title><link>https://dev.simeononsecurity.ch/til/2020-12-28/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Computer Security"
+, "Kerberos Vulnerability"
+, "Windows Activation"
+, "Active Directory Compromise"
+, "Network Security"
+, "Cybersecurity Exploits"
+, "Microsoft Security"
+, "Token-Based Authentication"</category><guid>https://dev.simeononsecurity.ch/til/2020-12-28/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity recently learned about two topics in the field of computer security: CVE-2020-17049, also known as the Kerberos Bronze Bit Attack, and Windows Token-Based Activation.
+The Kerberos Bronze Bit Attack, as explained in a series of blog posts by Netspi and in a post by Trimarcsecurity, is a vulnerability in the Kerberos authentication protocol. This vulnerability could potentially allow an attacker to compromise an Active Directory, which is a central repository for information about an organization&amp;rsquo;s users, computers, and other resources.</description></item></channel></rss>

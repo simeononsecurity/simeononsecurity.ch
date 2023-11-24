@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Optimization on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/windows-optimization//img/banner.png</url><title>Windows Optimization on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/windows-optimization/</link></image><link>https://dev.simeononsecurity.ch/genre/windows-optimization/</link><description>Recent content in Windows Optimization on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/windows-optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Custom Windows Image Creation</title><link>https://dev.simeononsecurity.ch/til/2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Image Management"
+, "Customization"
+, "Windows Deployment"
+, "Sysprep"
+, "Generalization"
+, "Windows 10"
+, "Windows 11"
+, "Image Capture"
+, "Image Deployment"
+, "NTLite"
+, "Windows Optimization"</category><guid>https://dev.simeononsecurity.ch/til/2023-01-30/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned about Custom Windows Image Creation, Sysprep, and Generalizing</description></item><item><title>Today I Learned about NTFS Tweaks and Optimizations</title><link>https://dev.simeononsecurity.ch/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows File System"
+, "NTFS Tweaks"
+, "NTFS Optimization"
+, "File System Performance"
+, "Windows Performance"
+, "Windows Reliability"
+, "Windows File System Management"
+, "Windows Security"
+, "Windows Scripting"
+, "Windows Repository Updates"
+, "Windows Optimization"
+, "Windows Hardening"
+, "Windows Debloating"
+, "Information Security Videos"
+, "Security Tools"
+, "Security Techniques"</category><guid>https://dev.simeononsecurity.ch/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.
+In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.</description></item></channel></rss>

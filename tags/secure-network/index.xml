@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>secure network on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/secure-network//img/banner.png</url><title>secure network on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/secure-network/</link></image><link>https://dev.simeononsecurity.ch/tags/secure-network/</link><description>Recent content in secure network on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/secure-network/index.xml" rel="self" type="application/rss+xml"/><item><title>Defending Data: PCI-DSS Explained for Secure Card Transactions</title><link>https://dev.simeononsecurity.ch/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Payment Card Security"
+, "Data Protection"
+, "Compliance"
+, "Information Security"
+, "Technology"
+, "Business"
+, "Risk Management"
+, "Regulations"
+, "E-commerce"</category><guid>https://dev.simeononsecurity.ch/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about PCI-DSS, its components, compliance, and benefits for safeguarding payment card data.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/pci-dss-security-vault.png" length="1232234" type="image/png"/></item><item><title>Secure Your Home Network: Telework Safely with Peace of Mind</title><link>https://dev.simeononsecurity.ch/articles/secure-home-network-teleworking/</link><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Teleworking"
+, "Network Security"
+, "Home Wireless"
+, "Remote Work"
+, "Cybersecurity"
+, "Work from Home"
+, "Internet Safety"
+, "Data Protection"
+, "Digital Security"
+, "Online Privacy"</category><guid>https://dev.simeononsecurity.ch/articles/secure-home-network-teleworking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Telework securely and protect your data. Follow these steps to secure your home wireless network for a safe remote work experience.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/secure-home-network-cartoon.png" length="1105821" type="image/png"/></item><item><title>Secure Your Home Network: Essential Tips and Tools for Device Protection</title><link>https://dev.simeononsecurity.ch/articles/building-a-secure-home-network/</link><pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Home Network Security"
+, "Cybersecurity"
+, "Device Protection"
+, "Internet Safety"
+, "Smart Home Security"
+, "Network Privacy"
+, "Online Threats"
+, "Internet Security Tips"
+, "Digital Privacy"
+, "Cyber Defense"</category><guid>https://dev.simeononsecurity.ch/articles/building-a-secure-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to safeguard your home network and connected devices against cyber threats with these essential tips and tools.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_shield_protecting_a_house_with.png" length="118027" type="image/png"/></item><item><title>Ubiquiti Unifi vs TP-Link Omada: Which Network System is Right for You?</title><link>https://dev.simeononsecurity.ch/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Networking Systems"
+, "Network Management"
+, "Hardware Comparison"
+, "Web-Based Network Management"
+, "Scalable Networking Solutions"
+, "Network Security Features"
+, "Reliable Network Hardware"
+, "Competitive Pricing for Networking"
+, "Customer Support"
+, "Additional Product Offerings"</category><guid>https://dev.simeononsecurity.ch/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Ubiquiti Unifi and TP-Link Omada networking systems to choose the right one for your needs in terms of management, hardware, support, features, and pricing."</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_split-screen_illustration_of_a_complex_network.png" length="516405" type="image/png"/></item></channel></rss>

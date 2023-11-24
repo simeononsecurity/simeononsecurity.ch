@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ethical hacking on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/ethical-hacking//img/banner.png</url><title>Ethical hacking on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/ethical-hacking/</link></image><link>https://dev.simeononsecurity.ch/genre/ethical-hacking/</link><description>Recent content in Ethical hacking on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/ethical-hacking/index.xml" rel="self" type="application/rss+xml"/><item><title>Hack The Box: Empowering Beginners in Cybersecurity</title><link>https://dev.simeononsecurity.ch/articles/hack-the-box-good-for-beginners-cybersecurity/</link><pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Hands-On Learning"
+, "Beginner-Friendly"
+, "Online Platforms"
+, "Hack The Box Academy"
+, "TryHackMe"
+, "Learning Resources"
+, "Community Support"</category><guid>https://dev.simeononsecurity.ch/articles/hack-the-box-good-for-beginners-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover whether Hack The Box is the right choice for beginners in cybersecurity and explore better alternatives like Hack The Box Academy and TryHackMe.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/hack_the_box_beginner_cybersecurity.png" length="1494435" type="image/png"/></item><item><title>Boost Your Cybersecurity Career: Best Certifications for Beginners</title><link>https://dev.simeononsecurity.ch/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity Certifications"
+, "Beginner's Guide"
+, "IT Careers"
+, "Information Security"
+, "Network Security"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Entry-Level Jobs"</category><guid>https://dev.simeononsecurity.ch/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top cybersecurity certifications for beginners to kickstart your career and gain the necessary skills to excel in the field.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_representing_a_lock_an.png" length="1139844" type="image/png"/></item><item><title>Bug Bounty Programs: Enhancing Cybersecurity through Crowdsourced Testing</title><link>https://dev.simeononsecurity.ch/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Bug Bounty Programs"
+, "Crowdsourced Testing"
+, "Vulnerability Management"
+, "Digital Security"
+, "Ethical Hacking"
+, "Cyber Threats"
+, "Security Testing"
+, "Cyber Defense"
+, "Software Vulnerabilities"</category><guid>https://dev.simeononsecurity.ch/articles/bug-bounty-programs-engaging-the-crowd-in-security-testing/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how bug bounty programs engage skilled individuals worldwide to identify and report vulnerabilities, enhancing cybersecurity posture and fostering innovation.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_of_a_group_of_diverse_individuals_wit.png" length="164462" type="image/png"/></item><item><title>Unleashing Cybersecurity Skills: A Review of TryHackMe</title><link>https://dev.simeononsecurity.ch/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Online Learning"
+, "Ethical Hacking"
+, "Network Security"
+, "Virtual Labs"
+, "Certifications"
+, "Learning Paths"
+, "Hands-on Experience"
+, "TryHackMe Review"</category><guid>https://dev.simeononsecurity.ch/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of TryHackMe: features, pricing, certifications, network services, and more, empowering you to master cybersecurity skills.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png" length="1541792" type="image/png"/></item><item><title>Mastering Penetration Testing: Advanced Techniques and Real-World Examples for Cybersecurity Professionals</title><link>https://dev.simeononsecurity.ch/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Penetration Testing"
+, "Ethical Hacking"
+, "Network Security"
+, "Web Application Security"
+, "Wireless Security"
+, "Social Engineering"
+, "Mobile Application Security"
+, "Cloud Security"
+, "Career Development"</category><guid>https://dev.simeononsecurity.ch/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore advanced techniques, tools, and real-world examples in mastering penetration testing to enhance your cybersecurity skills and career.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.png" length="447807" type="image/png"/></item><item><title>CEH Certification Exam Study Plan: Tips and Strategies</title><link>https://dev.simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Information Security"
+, "Professional Development"
+, "IT Certification"
+, "Network Security"
+, "Ethical Hacking"
+, "Exam Preparation"
+, "Study Plan"
+, "Time Management"
+, "Career Advancement"</category><guid>https://dev.simeononsecurity.ch/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to create an effective study plan for passing the CEH certification exam with tips and strategies for success.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png" length="145841" type="image/png"/></item><item><title>HackTheBox vs. TryHackMe: Which is Best for Learning Junior Penetration Testing?</title><link>https://dev.simeononsecurity.ch/articles/hackthebox-vs-tryhackme-what-is-best/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Penetration Testing"
+, "Ethical Hacking"
+, "Information Security"
+, "Digital Forensics"
+, "Network Security"
+, "Cyber Defense"
+, "Web Application Security"
+, "Cyber Threats"</category><guid>https://dev.simeononsecurity.ch/articles/hackthebox-vs-tryhackme-what-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparing the strengths and weaknesses of HackTheBox and TryHackMe to determine the best platform for junior penetration testing.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.png" length="191193" type="image/png"/></item><item><title>CEH Practice Test - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/ceh-practice-test/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"CEH"
+, "practice test"
+, "ethical hacking"
+, "penetration testing"
+, "network security"
+, "vulnerability assessment"</category><guid>https://dev.simeononsecurity.ch/ceh-practice-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Get ready for the EC-Council CEH exam with our comprehensive practice test. Test your skills in ethical hacking, penetration testing, network security, and vulnerability assessment.</description></item><item><title>Courses and Career Playbooks for CompTIA, Cisco, EC-Council, ISC2 Exams, and Cybersecurity Careers - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/courses-and-playbooks/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"CompTIA courses"
+, "Cisco courses"
+, "EC-Council courses"
+, "ISC2 exams"
+, "Cybersecurity careers"
+, "Certification preparation"
+, "Networking fundamentals"
+, "Network security"
+, "Ethical hacking"
+, "Information security management"</category><guid>https://dev.simeononsecurity.ch/courses-and-playbooks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore our comprehensive courses and career playbooks for CompTIA, Cisco, EC-Council, ISC2 exams, and cybersecurity careers. Prepare for industry-leading certifications and gain valuable insights for a successful career in cybersecurity.</description></item><item><title>Cybersecurity Practice Tests - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/practice-tests/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "practice tests"
+, "network security"
+, "ethical hacking"
+, "information security"</category><guid>https://dev.simeononsecurity.ch/practice-tests/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore our collection of cybersecurity practice tests designed to enhance your knowledge and prepare you for various certification exams. Test your skills in areas such as network security, ethical hacking, information security, and more.</description></item></channel></rss>

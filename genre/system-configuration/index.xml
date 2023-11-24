@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Configuration on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/system-configuration//img/banner.png</url><title>System Configuration on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/system-configuration/</link></image><link>https://dev.simeononsecurity.ch/genre/system-configuration/</link><description>Recent content in System Configuration on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/system-configuration/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Registry vs. Linux Config Files: Cybersecurity Showdown</title><link>https://dev.simeononsecurity.ch/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</link><pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Operating Systems"
+, "Security Management"
+, "Computer Technology"
+, "Data Protection"
+, "System Configuration"
+, "IT Security"
+, "Network Security"
+, "Tech Comparisons"
+, "Information Security"</category><guid>https://dev.simeononsecurity.ch/articles/windows-registry-vs-linux-config-files-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the effortless ways to secure your system with Windows Registry and Linux Config Files, ensuring top-notch cybersecurity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-linux-security.png" length="1194990" type="image/png"/></item><item><title>Mastering Windows Registry: Command Line Tips for Efficient Configuration</title><link>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows"
+, "Command Line"
+, "Registry"
+, "System Configuration"
+, "Computer Security"
+, "Tech How-To"
+, "Windows Tips"
+, "IT Solutions"
+, "Software Tweaks"</category><guid>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows Registry with expert command line techniques. Learn to query, modify, and secure your system settings.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/Windows_Registry_Wizard.png" length="1989003" type="image/png"/></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://dev.simeononsecurity.ch/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://dev.simeononsecurity.ch/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.
+In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool.</description></item></channel></rss>

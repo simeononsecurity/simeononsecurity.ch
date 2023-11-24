@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal Use Environments on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/personal-use-environments//img/banner.png</url><title>Personal Use Environments on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/personal-use-environments/</link></image><link>https://dev.simeononsecurity.ch/tags/personal-use-environments/</link><description>Recent content in Personal Use Environments on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 22 Jul 2020 20:15:14 -0500</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/personal-use-environments/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimize, Harden, and Secure Windows 10 Deployments with Automated Configuration Changes</title><link>https://dev.simeononsecurity.ch/github/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows 10 Security"
+, "Automated Configuration Changes"
+, "PrivacyTools.io"
+, "Microsoft"
+, "Cyber.mil"
+, "Department of Defense"
+, "National Security Agency"
+, "Telemetry Blocking"
+, "Macro Blocking"
+, "Bloatware Removal"
+, "Physical Attack Prevention"
+, "Personal Use Environments"
+, "Enterprise Environments"
+, "Bitlocker Suspension"
+, "Hardware Requirements"
+, "System Guard Secure Launch"
+, "Windows Defender Application Guard"
+, "Windows Defender Credential Guard"
+, "STIGS/SRGs"
+, "Security Compliance"</category><guid>https://dev.simeononsecurity.ch/github/optimizing-and-hardening-windows10-deployments/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimize, harden, and secure your Windows 10 deployment with automated configuration changes using this script from various security organizations.</description></item></channel></rss>

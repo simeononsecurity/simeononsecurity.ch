@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>malicious code on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/malicious-code//img/banner.png</url><title>malicious code on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/malicious-code/</link></image><link>https://dev.simeononsecurity.ch/tags/malicious-code/</link><description>Recent content in malicious code on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/malicious-code/index.xml" rel="self" type="application/rss+xml"/><item><title>The Art of Reverse Engineering: Uncovering IoT Network Security Vulnerabilities</title><link>https://dev.simeononsecurity.ch/articles/the-art-of-reverse-engineering/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"reverse engineering"
+, "IoT security"
+, "vulnerabilities"
+, "security protocols"
+, "device analysis"
+, "IoT networks"
+, "inner workings"
+, "malicious code"
+, "encryption measures"
+, "authentication measures"
+, "firewalls"
+, "software update"</category><guid>https://dev.simeononsecurity.ch/articles/the-art-of-reverse-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of reverse engineering to uncover IoT network security flaws and improve overall system security.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png" length="511556" type="image/png"/></item></channel></rss>

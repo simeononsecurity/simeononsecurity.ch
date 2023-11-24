@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Guidelines on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/security-guidelines//img/banner.png</url><title>Security Guidelines on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/security-guidelines/</link></image><link>https://dev.simeononsecurity.ch/genre/security-guidelines/</link><description>Recent content in Security Guidelines on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/security-guidelines/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering .NET Framework 4.0 Security: Best Practices &amp; Automation</title><link>https://dev.simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</link><pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Software Development"
+, "Cybersecurity"
+, "Programming"
+, "Windows Systems"
+, "Application Security"
+, ".NET Framework"
+, "Automation"
+, "Best Practices"
+, "Security Guidelines"</category><guid>https://dev.simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential security practices for Microsoft .NET Framework 4.0, backed by automation scripts, to safeguard your applications and data integrity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/mastering-dotnet-security.png" length="1358887" type="image/png"/></item><item><title>Web Application Firewall (WAF) Configuration Checklist</title><link>https://dev.simeononsecurity.ch/checklists/web-application-security-checklist/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Web Application Security"
+, "Web Application Firewall"
+, "WAF Configuration"
+, "Web Security Best Practices"
+, "Application Protection"
+, "Cybersecurity"
+, "Web Application Defense"
+, "Security Guidelines"
+, "Web Application Attacks"
+, "WAF Deployment"</category><guid>https://dev.simeononsecurity.ch/checklists/web-application-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover best practices for configuring and deploying a web application firewall (WAF) to protect against common web attacks, ensuring robust security for your web applications.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/web-application-firewall-security.png" length="1469719" type="image/png"/></item><item><title>Password Security Checklist: Strengthening Your Accounts and Protecting Sensitive Information</title><link>https://dev.simeononsecurity.ch/checklists/password-security-checklist/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Password Security"
+, "Account Protection"
+, "Sensitive Information"
+, "Password Management"
+, "Multi-Factor Authentication"
+, "Security Guidelines"
+, "Strong Passwords"
+, "Password Managers"
+, "Secure Storage"
+, "Password Confidentiality"</category><guid>https://dev.simeononsecurity.ch/checklists/password-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential guidelines for creating strong passwords, tips for effective password management, and instructions for setting up multi-factor authentication to enhance the security of your accounts.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_depicting_a_lock_with_a_shield_.png" length="866119" type="image/png"/></item></channel></rss>

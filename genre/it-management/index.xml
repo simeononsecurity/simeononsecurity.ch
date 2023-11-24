@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT Management on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/it-management//img/banner.png</url><title>IT Management on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/it-management/</link></image><link>https://dev.simeononsecurity.ch/genre/it-management/</link><description>Recent content in IT Management on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/it-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Cybersecurity Showdown: Windows Task Scheduler vs Linux Cron Jobs</title><link>https://dev.simeononsecurity.ch/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Operating Systems"
+, "System Automation"
+, "Security Tools"
+, "Computer Technology"
+, "Task Scheduling"
+, "Network Security"
+, "System Administration"
+, "Cyber Defense"
+, "IT Management"</category><guid>https://dev.simeononsecurity.ch/articles/windows-task-scheduler-vs-linux-cron-jobs-cybersecurity-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the effortless way to secure your systems with Windows Task Scheduler and Linux Cron Jobs comparison.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/cybersecurity_system_shield.png" length="1471242" type="image/png"/></item><item><title>Mastering Advanced Windows CMD Scripting for Enhanced Efficiency</title><link>https://dev.simeononsecurity.ch/guides/mastering-windows-cmd-scripting-advanced-ideas/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "IT Management"
+, "Cybersecurity"
+, "Scripting"
+, "Windows CMD"
+, "System Administration"
+, "Automation"
+, "Troubleshooting"
+, "Resource Management"
+, "Process Monitoring"</category><guid>https://dev.simeononsecurity.ch/guides/mastering-windows-cmd-scripting-advanced-ideas/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows CMD scripting with advanced ideas like tasklist, background execution, and disowning processes to streamline IT management and boost cybersecurity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-cmd-processes-visualization.png" length="1474632" type="image/png"/></item><item><title>Enhancing Oracle JRE 8 Security: Best Practices, STIGs, and Configuration Examples</title><link>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Software Development"
+, "Computer Science"
+, "Programming"
+, "Security"
+, "Java Programming"
+, "Software Security"
+, "IT Management"
+, "System Administration"</category><guid>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover key practices for securing Oracle JRE 8 with code examples and best practices. Strengthen your system's defense against vulnerabilities.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/enhanced-jre-security.png" length="1038249" type="image/png"/></item><item><title>Building a Resilient SOC: Proactive Cybersecurity for Modern Threats</title><link>https://dev.simeononsecurity.ch/articles/establishing-security-operations-center-best-practices/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Technology"
+, "Business"
+, "Data Protection"
+, "Incident Response"
+, "IT Management"
+, "Network Security"
+, "Threat Detection"
+, "Information Security"
+, "Risk Management"</category><guid>https://dev.simeononsecurity.ch/articles/establishing-security-operations-center-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Establish a robust Security Operations Center (SOC) to defend against evolving cyber threats, detect incidents, and safeguard your organization's assets.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/SOC-Security-Analysts-Collaboration.png" length="1509826" type="image/png"/></item><item><title>Mastering Windows Batch Scripting: Automate Tasks and Boost Efficiency</title><link>https://dev.simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Programming"
+, "Automation"
+, "Cybersecurity"
+, "IT Management"
+, "Productivity"
+, "Scripting"
+, "Windows OS"
+, "Coding"
+, "Software Development"</category><guid>https://dev.simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of Windows batch scripting to automate tasks efficiently. Learn variables, loops, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-batch-scripting-automation.png" length="1545436" type="image/png"/></item><item><title>Mastering Windows System Info &amp; Management: Boost Efficiency &amp; Control</title><link>https://dev.simeononsecurity.ch/guides/windows-system-info-management-guide/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Computer Administration"
+, "Windows OS"
+, "System Information"
+, "Service Management"
+, "Shutdown Commands"
+, "IT Management"
+, "Cybersecurity"
+, "Computer Maintenance"
+, "Digital Operations"</category><guid>https://dev.simeononsecurity.ch/guides/windows-system-info-management-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore Windows System Info retrieval, service management, and shutdown techniques for efficient computer control.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-system-management-gears.png" length="1197450" type="image/png"/></item><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://dev.simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://dev.simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Unlock Shodan API: Boost Your Ansible Automation with Powerful Modules</title><link>https://dev.simeononsecurity.ch/github/shodan-api-ansible-automation-guide/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Networking"
+, "Cybersecurity"
+, "Automation"
+, "API"
+, "Ansible"
+, "IT Management"
+, "Development"
+, "Programming"
+, "Digital Innovation"</category><guid>https://dev.simeononsecurity.ch/github/shodan-api-ansible-automation-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Supercharge Ansible with Shodan API integration using specialized modules for enhanced automation.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/shodan-api-ansible-automation.png" length="1467277" type="image/png"/></item><item><title>Patch Management Checklist: Enhancing Security and Stability</title><link>https://dev.simeononsecurity.ch/checklists/patch-management-checklist/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Patch Management"
+, "Security Strategies"
+, "IT Management"
+, "Software Updates"
+, "System Maintenance"
+, "Cybersecurity Best Practices"
+, "Vulnerability Management"
+, "Compliance"
+, "Automation"
+, "Network Security"</category><guid>https://dev.simeononsecurity.ch/checklists/patch-management-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to develop a robust patch management strategy, test and deploy security patches effectively, and automate patch management for improved system security and stability.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_depicting_a_shield_with_patches_repre.png" length="1693082" type="image/png"/></item><item><title>Mastering PowerCLI: A Comprehensive Guide on How to Use PowerCLI for Efficient vSphere Management</title><link>https://dev.simeononsecurity.ch/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Virtualization"
+, "VMware"
+, "IT Management"
+, "Automation"
+, "Command-Line Interface"
+, "Scripting"
+, "System Administration"
+, "Cloud Computing"
+, "Datacenter Management"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of PowerCLI and learn how to effectively use it for managing your VMware vSphere environment, automating tasks, and maximizing productivity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.png" length="1409787" type="image/png"/></item><item><title>Network Plus Course: Plans, Procedures, and Policies - Maintaining Stability and Security in Network Operations</title><link>https://dev.simeononsecurity.ch/network-plus/network-plus-course-plans-procedures-policies/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Network Operations"
+, "IT Management"
+, "Network Security"
+, "Change Management"
+, "Incident Response"
+, "Disaster Recovery"
+, "Business Continuity"
+, "System Life Cycle"
+, "Standard Operating Procedures"
+, "Network Management"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-plus-course-plans-procedures-policies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the importance of plans, procedures, and policies in network operations, including change management, incident response, and business continuity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_art_style_image_illustrating_networ.png" length="1832319" type="image/png"/></item></channel></rss>

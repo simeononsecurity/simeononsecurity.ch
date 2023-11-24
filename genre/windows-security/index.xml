@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Security on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/windows-security//img/banner.png</url><title>Windows Security on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/windows-security/</link></image><link>https://dev.simeononsecurity.ch/genre/windows-security/</link><description>Recent content in Windows Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/windows-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Windows Hardening Best Practices for Secure Windows 10 and Windows 11</title><link>https://dev.simeononsecurity.ch/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows hardening"
+, "Windows security"
+, "Windows 10 hardening"
+, "Windows 11 hardening"
+, "Windows security best practices"
+, "Windows security tips"
+, "Windows security guidelines"
+, "Securing Windows operating systems"
+, "Windows system hardening"
+, "Windows security measures"</category><guid>https://dev.simeononsecurity.ch/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover effective strategies for enhancing the security of your Windows 10 and Windows 11 systems through comprehensive hardening techniques and best practices.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>What are the Best Full Disk Encryption Solutions for Windows?</title><link>https://dev.simeononsecurity.ch/articles/best-full-disk-encryption-solutions-windows/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Data Security"
+, "Cybersecurity"
+, "Windows Encryption"
+, "Disk Encryption"
+, "Data Protection"
+, "Encryption Software"
+, "Security Solutions"
+, "Windows Security"
+, "Data Privacy"
+, "Computer Security"</category><guid>https://dev.simeononsecurity.ch/articles/best-full-disk-encryption-solutions-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top full disk encryption solutions for Windows that provide robust security and protect your sensitive data from unauthorized access.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png" length="1206564" type="image/png"/></item><item><title>Today I Learned more about WDAC Policy Creation and Implementation</title><link>https://dev.simeononsecurity.ch/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Windows Security"
+, "Application Control"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Threat Protection"
+, "Windows Server 2019"
+, "Enterprise Security"
+, "Policy Management"
+, "Security Best Practices"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned more Powershell and Ansible Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "PowerShell"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned about Windows STIG Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.
+New/Updated Repos: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Learning Resources: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.windows.psexec win_psexec</description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "Security Compliance"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned and discovered several interesting things today related to Windows security and automation using Ansible.
+First, two new and updated repositories were identified. The Windows_STIG_Ansible repository provides a complete solution for configuring Windows systems to meet Security Technical Implementation Guide (STIG) requirements, using the Ansible automation platform. The windows_stigs repository is a collection of Ansible roles for configuring Windows systems to meet STIG requirements, and it is available on Ansible Galaxy, a central repository for sharing Ansible content.</description></item><item><title>Today I Learned about Auditpol, Sysmon, and Sysmon Configurations</title><link>https://dev.simeononsecurity.ch/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"PowerShell"
+, "Automation"
+, "Sysmon"
+, "Configurations"
+, "Windows Security"
+, "Event Monitoring"
+, "Windows Administration"
+, "Security Auditing"
+, "Threat Hunting"
+, "Malware Analysis"</category><guid>https://dev.simeononsecurity.ch/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned and discovered several interesting things today related to Windows security and event monitoring.
+First, two new and updated repositories were identified. The Automate-Sysmon repository provides a solution for automating the installation, configuration, and management of Sysmon, a popular tool for monitoring and logging system activity on Windows systems. The Windows-Audit-Policy repository provides a solution for automating the configuration of Windows audit policies, which control the auditing of various security-related events on Windows systems.</description></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://dev.simeononsecurity.ch/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://dev.simeononsecurity.ch/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.
+In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool.</description></item><item><title>Today I Learned about NTFS Tweaks and Optimizations</title><link>https://dev.simeononsecurity.ch/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows File System"
+, "NTFS Tweaks"
+, "NTFS Optimization"
+, "File System Performance"
+, "Windows Performance"
+, "Windows Reliability"
+, "Windows File System Management"
+, "Windows Security"
+, "Windows Scripting"
+, "Windows Repository Updates"
+, "Windows Optimization"
+, "Windows Hardening"
+, "Windows Debloating"
+, "Information Security Videos"
+, "Security Tools"
+, "Security Techniques"</category><guid>https://dev.simeononsecurity.ch/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.
+In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.</description></item><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://dev.simeononsecurity.ch/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://dev.simeononsecurity.ch/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control WDAC policies. WDAC is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.
+Auditing and Enforcing Windows Defender Application Control WDAC Policies: # Microsoft - Audit Windows Defender Application Control Policies Microsoft - Deploy Windows Defender Application Control policies by using Group Policy Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune Microsoft - Enforce Windows Defencer Application Control Policies Updated Repos: # SimeonOnSecurity - Windows-Defender-Application-Control-Hardening Videos of Interest: # Disrupt - Earth&amp;rsquo;s Deadliest Computer Virus John Hammond - How to move FAST in the Linux Terminal Microsoft 365 - Microsoft Defender Application Control ShortCircuit - My Dongle is HUGE!</description></item></channel></rss>

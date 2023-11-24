@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>home network security on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/home-network-security//img/banner.png</url><title>home network security on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/home-network-security/</link></image><link>https://dev.simeononsecurity.ch/tags/home-network-security/</link><description>Recent content in home network security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/home-network-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Home Network Security with Firewalla</title><link>https://dev.simeononsecurity.ch/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Home Network"
+, "Network Security"
+, "IoT Security"
+, "Online Safety"
+, "Home Labs"
+, "Digital Protection"
+, "Intrusion Detection"
+, "Content Filtering"</category><guid>https://dev.simeononsecurity.ch/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how Firewalla improves home network security. Explore its benefits, suitability for home labs, and user-friendly features.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/firewalla-home-network-security.png" length="1081996" type="image/png"/></item><item><title>Secure Your Home Network: Essential Tips and Tools for Device Protection</title><link>https://dev.simeononsecurity.ch/articles/building-a-secure-home-network/</link><pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Home Network Security"
+, "Cybersecurity"
+, "Device Protection"
+, "Internet Safety"
+, "Smart Home Security"
+, "Network Privacy"
+, "Online Threats"
+, "Internet Security Tips"
+, "Digital Privacy"
+, "Cyber Defense"</category><guid>https://dev.simeononsecurity.ch/articles/building-a-secure-home-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to safeguard your home network and connected devices against cyber threats with these essential tips and tools.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_shield_protecting_a_house_with.png" length="118027" type="image/png"/></item><item><title>Protect Your Devices from Malware: Essential Tips and Strategies</title><link>https://dev.simeononsecurity.ch/articles/how-to-protect-your-devices-from-malware/</link><pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"malware protection"
+, "device security"
+, "cybersecurity tips"
+, "antivirus software"
+, "safe browsing habits"
+, "password security"
+, "two-factor authentication"
+, "social engineering awareness"
+, "home network security"
+, "software security"
+, "data backup"
+, "cybersecurity news"
+, "operating system updates"
+, "email security"
+, "phishing prevention"
+, "internet safety"
+, "cyber threats"
+, "digital security"
+, "online privacy"
+, "cyber defense"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-protect-your-devices-from-malware/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn effective strategies and practical tips to protect your devices from malware and keep your sensitive information secure.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_animated_shield_guarding_devices_against_malware_threats.png" length="276775" type="image/png"/></item><item><title>Today I Learned about New Security Tools, Static Code Analyzers, and Self-Hosted Service Options</title><link>https://dev.simeononsecurity.ch/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity Tools"
+, "Static Code Analysis"
+, "Privacy and Security"
+, "Self-Hosted Services"
+, "GitHub Resources"
+, "Security Recommendations"
+, "Code Quality Assurance"
+, "Personal Security"
+, "Home Lab Setup"
+, "Privacy-Respecting Services"</category><guid>https://dev.simeononsecurity.ch/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity is a person who has a keen interest in security and privacy and has come across several resources today that they found interesting and would like to share with others.
+One of the resources that caught their attention is the &amp;ldquo;Awesome Security&amp;rdquo; list on GitHub. This list contains an extensive collection of awesome security tools and SimeonOnSecurity plans to continue exploring and learning about the items on this list.</description></item></channel></rss>

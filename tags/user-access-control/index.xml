@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>user access control on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/user-access-control//img/banner.png</url><title>user access control on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/user-access-control/</link></image><link>https://dev.simeononsecurity.ch/tags/user-access-control/</link><description>Recent content in user access control on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/user-access-control/index.xml" rel="self" type="application/rss+xml"/><item><title>Top 5 Linux Security and Hardening Techniques: Boost System Defense Today!</title><link>https://dev.simeononsecurity.ch/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Linux"
+, "System Security"
+, "Open-source"
+, "Hardening"
+, "IT"
+, "Data Protection"
+, "Network Security"
+, "Computer Science"</category><guid>https://dev.simeononsecurity.ch/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top 5 Linux security techniques to fortify your system against threats. Improve system integrity and safeguard sensitive data with expert hardening measures.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/linux-security-penguin-warrior.png" length="1644016" type="image/png"/></item><item><title>Mastering Windows User Accounts: Secure Access for Better Control</title><link>https://dev.simeononsecurity.ch/guides/windows-user-accounts-permissions-guide/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "System Administration"
+, "Windows Management"
+, "User Access Control"
+, "Permission Management"
+, "IT Security"
+, "Command-line Tools"
+, "User Authentication"
+, "File Permissions"
+, "Elevated Privileges"</category><guid>https://dev.simeononsecurity.ch/guides/windows-user-accounts-permissions-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to manage user accounts and permissions on Windows for enhanced cybersecurity and system control. Explore user management commands, file permissions, and running commands with elevated privileges.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/Windows_User_Accounts_Permissions_Juggling.png" length="1349291" type="image/png"/></item><item><title>How to Audit Permissions for a vCenter with PowerCLI</title><link>https://dev.simeononsecurity.ch/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"vCenter permissions audit"
+, "PowerCLI automation"
+, "VMware security"
+, "Virtual infrastructure management"
+, "Permission assignments"
+, "User access control"
+, "Security vulnerabilities"
+, "PowerShell automation"
+, "vSphere environment management"
+, "User permissions review"</category><guid>https://dev.simeononsecurity.ch/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to effectively audit permissions for a vCenter using PowerCLI, ensuring a secure virtual infrastructure.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png"/></item><item><title>10 Essential PowerShell Security Best Practices for Safeguarding Your Scripts</title><link>https://dev.simeononsecurity.ch/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"PowerShell security best practices"
+, "Scripting security"
+, "Password security"
+, "IT security"
+, "Cybersecurity"
+, "Windows administration"
+, "Automation"
+, "Secure coding"
+, "Network security"
+, "Data protection"</category><guid>https://dev.simeononsecurity.ch/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the top 10 essential PowerShell security best practices for safeguarding your scripts, passwords, and sensitive information. Enhance the security of your PowerShell environment and protect against unauthorized access and potential security breaches.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item></channel></rss>

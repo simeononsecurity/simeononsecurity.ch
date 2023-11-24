@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Offline Compatibility on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/offline-compatibility//img/banner.png</url><title>Offline Compatibility on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/offline-compatibility/</link></image><link>https://dev.simeononsecurity.ch/tags/offline-compatibility/</link><description>Recent content in Offline Compatibility on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/offline-compatibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate Windows Compliance with Ansible STIG Playbooks</title><link>https://dev.simeononsecurity.ch/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Windows Compliance"
+, "Ansible STIG Playbooks"
+, "Windows Hardening"
+, "STIG Scripts"
+, "STIG Compliance"
+, "Ansible Galaxy"
+, "PowerShell"
+, "PowerShell Script"
+, "Windows Server"
+, "Windows Defender"
+, ".NET"
+, "FireFox"
+, "Oracle JRE 8"
+, "Adobe Reader DC"
+, "Internet Connectivity"
+, "Offline Compatibility"
+, "Security Hardening"
+, "Windows Security"</category><guid>https://dev.simeononsecurity.ch/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Streamline your security compliance with Ansible STIG Playbooks for Windows systems.</description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtual infrastructure on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/virtual-infrastructure//img/banner.png</url><title>virtual infrastructure on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/virtual-infrastructure/</link></image><link>https://dev.simeononsecurity.ch/tags/virtual-infrastructure/</link><description>Recent content in virtual infrastructure on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/virtual-infrastructure/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Audit Permissions for a vCenter with PowerCLI</title><link>https://dev.simeononsecurity.ch/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"vCenter permissions audit"
+, "PowerCLI automation"
+, "VMware security"
+, "Virtual infrastructure management"
+, "Permission assignments"
+, "User access control"
+, "Security vulnerabilities"
+, "PowerShell automation"
+, "vSphere environment management"
+, "User permissions review"</category><guid>https://dev.simeononsecurity.ch/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to effectively audit permissions for a vCenter using PowerCLI, ensuring a secure virtual infrastructure.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png"/></item></channel></rss>

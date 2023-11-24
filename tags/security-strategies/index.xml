@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>security strategies on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/security-strategies//img/banner.png</url><title>security strategies on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/security-strategies/</link></image><link>https://dev.simeononsecurity.ch/tags/security-strategies/</link><description>Recent content in security strategies on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 29 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/security-strategies/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Oracle JRE 8 Security: Best Practices, STIGs, and Configuration Examples</title><link>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Software Development"
+, "Computer Science"
+, "Programming"
+, "Security"
+, "Java Programming"
+, "Software Security"
+, "IT Management"
+, "System Administration"</category><guid>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover key practices for securing Oracle JRE 8 with code examples and best practices. Strengthen your system's defense against vulnerabilities.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/enhanced-jre-security.png" length="1038249" type="image/png"/></item><item><title>Patch Management Checklist: Enhancing Security and Stability</title><link>https://dev.simeononsecurity.ch/checklists/patch-management-checklist/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Patch Management"
+, "Security Strategies"
+, "IT Management"
+, "Software Updates"
+, "System Maintenance"
+, "Cybersecurity Best Practices"
+, "Vulnerability Management"
+, "Compliance"
+, "Automation"
+, "Network Security"</category><guid>https://dev.simeononsecurity.ch/checklists/patch-management-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to develop a robust patch management strategy, test and deploy security patches effectively, and automate patch management for improved system security and stability.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_depicting_a_shield_with_patches_repre.png" length="1693082" type="image/png"/></item></channel></rss>

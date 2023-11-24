@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Access Control Measures on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/access-control-measures//img/banner.png</url><title>Access Control Measures on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/access-control-measures/</link></image><link>https://dev.simeononsecurity.ch/tags/access-control-measures/</link><description>Recent content in Access Control Measures on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/access-control-measures/index.xml" rel="self" type="application/rss+xml"/><item><title>Defending Data: PCI-DSS Explained for Secure Card Transactions</title><link>https://dev.simeononsecurity.ch/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Payment Card Security"
+, "Data Protection"
+, "Compliance"
+, "Information Security"
+, "Technology"
+, "Business"
+, "Risk Management"
+, "Regulations"
+, "E-commerce"</category><guid>https://dev.simeononsecurity.ch/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about PCI-DSS, its components, compliance, and benefits for safeguarding payment card data.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/pci-dss-security-vault.png" length="1232234" type="image/png"/></item></channel></rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Documentation on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/windows-documentation//img/banner.png</url><title>Windows Documentation on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/windows-documentation/</link></image><link>https://dev.simeononsecurity.ch/tags/windows-documentation/</link><description>Recent content in Windows Documentation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/windows-documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://dev.simeononsecurity.ch/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://dev.simeononsecurity.ch/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control WDAC policies. WDAC is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.
+Auditing and Enforcing Windows Defender Application Control WDAC Policies: # Microsoft - Audit Windows Defender Application Control Policies Microsoft - Deploy Windows Defender Application Control policies by using Group Policy Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune Microsoft - Enforce Windows Defencer Application Control Policies Updated Repos: # SimeonOnSecurity - Windows-Defender-Application-Control-Hardening Videos of Interest: # Disrupt - Earth&amp;rsquo;s Deadliest Computer Virus John Hammond - How to move FAST in the Linux Terminal Microsoft 365 - Microsoft Defender Application Control ShortCircuit - My Dongle is HUGE!</description></item><item><title>Today I Learned about CVE-2020-17049 and Windows Token-Based Activation</title><link>https://dev.simeononsecurity.ch/til/2020-12-28/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Computer Security"
+, "Kerberos Vulnerability"
+, "Windows Activation"
+, "Active Directory Compromise"
+, "Network Security"
+, "Cybersecurity Exploits"
+, "Microsoft Security"
+, "Token-Based Authentication"</category><guid>https://dev.simeononsecurity.ch/til/2020-12-28/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity recently learned about two topics in the field of computer security: CVE-2020-17049, also known as the Kerberos Bronze Bit Attack, and Windows Token-Based Activation.
+The Kerberos Bronze Bit Attack, as explained in a series of blog posts by Netspi and in a post by Trimarcsecurity, is a vulnerability in the Kerberos authentication protocol. This vulnerability could potentially allow an attacker to compromise an Active Directory, which is a central repository for information about an organization&amp;rsquo;s users, computers, and other resources.</description></item></channel></rss>

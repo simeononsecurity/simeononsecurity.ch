@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Disaster Recovery on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/disaster-recovery//img/banner.png</url><title>Disaster Recovery on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/disaster-recovery/</link></image><link>https://dev.simeononsecurity.ch/genre/disaster-recovery/</link><description>Recent content in Disaster Recovery on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/disaster-recovery/index.xml" rel="self" type="application/rss+xml"/><item><title>Secure Data: Robocopy Backup and Restore Guide</title><link>https://dev.simeononsecurity.ch/guides/secure-data-robocopy-backup-restore-guide/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Data Management"
+, "Backup Strategies"
+, "Data Protection"
+, "Windows Tools"
+, "File Copying"
+, "Data Backup"
+, "Disaster Recovery"
+, "File Restore"
+, "Command-Line Tools"</category><guid>https://dev.simeononsecurity.ch/guides/secure-data-robocopy-backup-restore-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to securely back up and restore files using Robocopy, a powerful tool for data protection and peace of mind.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/data-protection-robocopy-shield.png" length="1307144" type="image/png"/></item><item><title>Secure Your Future: Essential Emergency Tech Gadgets</title><link>https://dev.simeononsecurity.ch/articles/emergency-tech-preparedness-gadgets/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Security"
+, "Emergency Preparedness"
+, "Survival"
+, "Gadgets"
+, "Communication"
+, "Safety"
+, "Disaster Recovery"
+, "Resilience"
+, "Connectivity"</category><guid>https://dev.simeononsecurity.ch/articles/emergency-tech-preparedness-gadgets/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover top survival gadgets for security and emergency preparedness, including solar chargers, satellite messengers, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/emergency-preparedness-solar-gadgets.png" length="1747765" type="image/png"/></item><item><title>Ultimate Data Backup and Recovery Checklist: Ensure Secure and Reliable Data Protection</title><link>https://dev.simeononsecurity.ch/checklists/data-backup-recovery-checklist/</link><pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Data Management"
+, "Backup Strategies"
+, "Data Protection"
+, "Disaster Recovery"
+, "IT Infrastructure"
+, "Cloud Storage"
+, "Business Continuity"
+, "Technology Best Practices"
+, "Data Security"
+, "Data Governance"</category><guid>https://dev.simeononsecurity.ch/checklists/data-backup-recovery-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover a comprehensive checklist for data backup and recovery, including backup frequency, storage options, testing procedures, and off-site solutions for secure data protection.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_image_representing_a_locked_safe.png" length="1838107" type="image/png"/></item><item><title>Ultimate Cloud Security Checklist: Safeguard Your Data and Achieve Peace of Mind</title><link>https://dev.simeononsecurity.ch/checklists/cloud-security-checklist/</link><pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cloud Security"
+, "Data Protection"
+, "Cybersecurity"
+, "Cloud Services"
+, "User Access Management"
+, "Compliance"
+, "Incident Response"
+, "Vendor Risk Management"
+, "Data Privacy"
+, "Disaster Recovery"</category><guid>https://dev.simeononsecurity.ch/checklists/cloud-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the ultimate cloud security checklist to protect your data and achieve peace of mind. Learn the essential steps to secure your cloud storage and services, manage user access, monitor activity, ensure compliance, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_shield_protecting_a_cloud_server_from_cyber.png" length="1574475" type="image/png"/></item><item><title>Network Plus Course: Backup and Restore for Network Stability and Resilience</title><link>https://dev.simeononsecurity.ch/network-plus/network-plus-course-backup-restore-network-stability-resilience/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"IT Certification"
+, "Networking"
+, "Network Infrastructure"
+, "Backup and Restore"
+, "Disaster Recovery"
+, "High Availability"
+, "Data Protection"
+, "IT Resilience"
+, "Network Management"
+, "IT Operations"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-plus-course-backup-restore-network-stability-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the importance of network device backup and restore, strategies for backing up and restoring device state and configuration, recovery sites, redundancy and high availability mechanisms, and essential metrics in network operations.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_of_network_devices_pro.png" length="948568" type="image/png"/></item><item><title>Network Plus Course: Enhancing Network Availability and Resilience</title><link>https://dev.simeononsecurity.ch/network-plus/network-availability-resilience-enhancement/</link><pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"IT Certification"
+, "Networking Technology"
+, "Network Resilience"
+, "IT Training"
+, "Disaster Recovery"
+, "High Availability"
+, "Load Balancing"
+, "Network Redundancy"
+, "Infrastructure Support"
+, "IT Resilience"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-availability-resilience-enhancement/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about high availability, disaster recovery, load balancing, NIC teaming, and more to improve network uptime.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_animated_illustration_of_interconnected_ser.png" length="1833596" type="image/png"/></item><item><title>Network Plus Course: Plans, Procedures, and Policies - Maintaining Stability and Security in Network Operations</title><link>https://dev.simeononsecurity.ch/network-plus/network-plus-course-plans-procedures-policies/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Network Operations"
+, "IT Management"
+, "Network Security"
+, "Change Management"
+, "Incident Response"
+, "Disaster Recovery"
+, "Business Continuity"
+, "System Life Cycle"
+, "Standard Operating Procedures"
+, "Network Management"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-plus-course-plans-procedures-policies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the importance of plans, procedures, and policies in network operations, including change management, incident response, and business continuity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_art_style_image_illustrating_networ.png" length="1832319" type="image/png"/></item><item><title>Network Plus Course: Environmental Factors and Sensors in Network Monitoring</title><link>https://dev.simeononsecurity.ch/network-plus/environmental-factors-sensors-network-monitoring/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"CompTIA Network Plus Certification"
+, "Network Monitoring"
+, "Environmental Monitoring"
+, "Flooding Impact"
+, "Baselines in Network Monitoring"
+, "NetFlow Data Analysis"
+, "Network Uptime Tracking"
+, "Network Downtime Tracking"
+, "Network Performance"
+, "Disaster Recovery"</category><guid>https://dev.simeononsecurity.ch/network-plus/environmental-factors-sensors-network-monitoring/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the importance of monitoring environmental factors, such as temperature and humidity, the impact of flooding on networks, the significance of baselines in network monitoring, an overview of NetFlow data analysis, and techniques for tracking network uptime and downtime with the Network Plus Course.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_cartoon_illustration_of_a_network_s.png" length="1097783" type="image/png"/></item></channel></rss>

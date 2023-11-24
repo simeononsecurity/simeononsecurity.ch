@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/linux//img/banner.png</url><title>Linux on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/linux/</link></image><link>https://dev.simeononsecurity.ch/genre/linux/</link><description>Recent content in Linux on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Securing Windows and Linux: PowerShell vs. Python - Cybersecurity Comparison</title><link>https://dev.simeononsecurity.ch/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Scripting Languages"
+, "System Security"
+, "Windows"
+, "Linux"
+, "Government Regulations"
+, "Cyber Threats"
+, "Secure Scripting"
+, "Compliance"
+, "Programming"</category><guid>https://dev.simeononsecurity.ch/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover effortless ways to enhance system security with PowerShell and Python in this comprehensive cybersecurity analysis.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/cybersecurity_superheroes_defending_servers.png" length="1702655" type="image/png"/></item><item><title>Top 5 Linux Security and Hardening Techniques: Boost System Defense Today!</title><link>https://dev.simeononsecurity.ch/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Linux"
+, "System Security"
+, "Open-source"
+, "Hardening"
+, "IT"
+, "Data Protection"
+, "Network Security"
+, "Computer Science"</category><guid>https://dev.simeononsecurity.ch/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top 5 Linux security techniques to fortify your system against threats. Improve system integrity and safeguard sensitive data with expert hardening measures.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/linux-security-penguin-warrior.png" length="1644016" type="image/png"/></item><item><title>Recommended Anti-Virus</title><link>https://dev.simeononsecurity.ch/recommendations/anti-virus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Recommended Anti-Virus"
+, "AV"
+, "Anti-Virus"
+, "AntiVirus"
+, "Home Use"
+, "Business Use"
+, "Windows"
+, "Linux"
+, "MacOS"
+, "Cybersecurity"</category><guid>https://dev.simeononsecurity.ch/recommendations/anti-virus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+This article provides a list of recommended anti-virus products for home and business use, as ranked by SimeonOnSecurity. The rankings are based on professional opinion and testing against malicious samples, and only cover anti-virus capabilities, detection, user experience, and performance. Windows users can choose from both paid and free options, while Linux and MacOS users have limited options, with paid options only available for Linux. Note that AV is not required on Linux or MacOS and using any VPN or password manager provided with the AV suite is not recommended. The article also provides recommendations for VPN providers. Business use recommendations are currently being worked on.</description></item></channel></rss>

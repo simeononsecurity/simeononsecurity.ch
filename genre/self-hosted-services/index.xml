@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Self-Hosted Services on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/self-hosted-services//img/banner.png</url><title>Self-Hosted Services on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/self-hosted-services/</link></image><link>https://dev.simeononsecurity.ch/genre/self-hosted-services/</link><description>Recent content in Self-Hosted Services on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/self-hosted-services/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about New Security Tools, Static Code Analyzers, and Self-Hosted Service Options</title><link>https://dev.simeononsecurity.ch/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity Tools"
+, "Static Code Analysis"
+, "Privacy and Security"
+, "Self-Hosted Services"
+, "GitHub Resources"
+, "Security Recommendations"
+, "Code Quality Assurance"
+, "Personal Security"
+, "Home Lab Setup"
+, "Privacy-Respecting Services"</category><guid>https://dev.simeononsecurity.ch/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity is a person who has a keen interest in security and privacy and has come across several resources today that they found interesting and would like to share with others.
+One of the resources that caught their attention is the &amp;ldquo;Awesome Security&amp;rdquo; list on GitHub. This list contains an extensive collection of awesome security tools and SimeonOnSecurity plans to continue exploring and learning about the items on this list.</description></item></channel></rss>

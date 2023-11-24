@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Application Security on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/web-application-security//img/banner.png</url><title>Web Application Security on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/web-application-security/</link></image><link>https://dev.simeononsecurity.ch/genre/web-application-security/</link><description>Recent content in Web Application Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/web-application-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Application Firewall (WAF) Configuration Checklist</title><link>https://dev.simeononsecurity.ch/checklists/web-application-security-checklist/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Web Application Security"
+, "Web Application Firewall"
+, "WAF Configuration"
+, "Web Security Best Practices"
+, "Application Protection"
+, "Cybersecurity"
+, "Web Application Defense"
+, "Security Guidelines"
+, "Web Application Attacks"
+, "WAF Deployment"</category><guid>https://dev.simeononsecurity.ch/checklists/web-application-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover best practices for configuring and deploying a web application firewall (WAF) to protect against common web attacks, ensuring robust security for your web applications.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/web-application-firewall-security.png" length="1469719" type="image/png"/></item><item><title>Mastering Penetration Testing: Advanced Techniques and Real-World Examples for Cybersecurity Professionals</title><link>https://dev.simeononsecurity.ch/articles/mastering-penetration-testing-advanced-techniques/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Penetration Testing"
+, "Ethical Hacking"
+, "Network Security"
+, "Web Application Security"
+, "Wireless Security"
+, "Social Engineering"
+, "Mobile Application Security"
+, "Cloud Security"
+, "Career Development"</category><guid>https://dev.simeononsecurity.ch/articles/mastering-penetration-testing-advanced-techniques/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore advanced techniques, tools, and real-world examples in mastering penetration testing to enhance your cybersecurity skills and career.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_of_a_hacker_wearing_a_hoodie_sittin.png" length="447807" type="image/png"/></item><item><title>HackTheBox vs. TryHackMe: Which is Best for Learning Junior Penetration Testing?</title><link>https://dev.simeononsecurity.ch/articles/hackthebox-vs-tryhackme-what-is-best/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Penetration Testing"
+, "Ethical Hacking"
+, "Information Security"
+, "Digital Forensics"
+, "Network Security"
+, "Cyber Defense"
+, "Web Application Security"
+, "Cyber Threats"</category><guid>https://dev.simeononsecurity.ch/articles/hackthebox-vs-tryhackme-what-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparing the strengths and weaknesses of HackTheBox and TryHackMe to determine the best platform for junior penetration testing.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_hacker_in_a_lab_coat_standing_between_two_doors.png" length="191193" type="image/png"/></item></channel></rss>

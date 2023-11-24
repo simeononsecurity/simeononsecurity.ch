@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>automated investigation on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/automated-investigation//img/banner.png</url><title>automated investigation on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/automated-investigation/</link></image><link>https://dev.simeononsecurity.ch/tags/automated-investigation/</link><description>Recent content in automated investigation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/automated-investigation/index.xml" rel="self" type="application/rss+xml"/><item><title>Threat Hunting: Proactive Defense Against Cyber Attack</title><link>https://dev.simeononsecurity.ch/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</link><pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"threat hunting"
+, "cybersecurity"
+, "proactive defense"
+, "cyber attacks"
+, "network security"
+, "endpoint security"
+, "log analysis"
+, "behavioral analysis"
+, "threat intelligence"
+, "manual investigation"
+, "automated investigation"
+, "risk reduction"
+, "false positives"
+, "skillset requirements"
+, "resource requirements"
+, "faster response time"
+, "improved detection"
+, "reduced risk"
+, "financial institutions"
+, "healthcare providers"</category><guid>https://dev.simeononsecurity.ch/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how threat hunting can prevent cyber attacks and the benefits and challenges of implementing it as a proactive cybersecurity measure.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png" length="280290" type="image/png"/></item></channel></rss>

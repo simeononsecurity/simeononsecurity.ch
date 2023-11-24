@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ownership on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/ownership//img/banner.png</url><title>ownership on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/ownership/</link></image><link>https://dev.simeononsecurity.ch/tags/ownership/</link><description>Recent content in ownership on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/ownership/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux File Permissions: A Comprehensive Guide</title><link>https://dev.simeononsecurity.ch/articles/mastering-linux-file-permissions/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Linux file permissions"
+, "secure file system"
+, "access control"
+, "ownership"
+, "file permissions guide"
+, "Linux security"
+, "file system security"
+, "chmod command"
+, "chown command"
+, "auditing file permissions"
+, "Principle of Least Privilege"
+, "regulatory compliance"
+, "GDPR"
+, "HIPAA"
+, "file permissions audit"
+, "documenting regulations"
+, "system security"
+, "network security"
+, "encryption"
+, "user management"</category><guid>https://dev.simeononsecurity.ch/articles/mastering-linux-file-permissions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Linux file permissions to ensure a secure file system with this comprehensive guide covering ownership, access control, and best practices.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png" length="175268" type="image/png"/></item></channel></rss>

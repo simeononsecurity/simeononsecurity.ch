@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Process Status on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/process-status//img/banner.png</url><title>Process Status on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/process-status/</link></image><link>https://dev.simeononsecurity.ch/tags/process-status/</link><description>Recent content in Process Status on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/process-status/index.xml" rel="self" type="application/rss+xml"/><item><title>Beginner's Guide: Using Linux Command Line for Cybersecurity</title><link>https://dev.simeononsecurity.ch/articles/a-beginners-guide-to-using-the-linux-command-line/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Linux"
+, "Command Line"
+, "Cybersecurity"
+, "Beginner's Guide"
+, "Network Scanning"
+, "Vulnerability Testing"
+, "Malware Analysis"
+, "Permissions"
+, "Network Traffic"
+, "Process Status"
+, "Network Statistics"
+, "File Search"
+, "Wireshark"
+, "TCPDump"
+, "Nmap"
+, "Linux CLI"
+, "Security"
+, "Penetration Testing"
+, "Digital Forensics"</category><guid>https://dev.simeononsecurity.ch/articles/a-beginners-guide-to-using-the-linux-command-line/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use Linux command line for cybersecurity with basic and advanced commands.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png" length="362807" type="image/png"/></item></channel></rss>

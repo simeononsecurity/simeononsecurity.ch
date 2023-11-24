@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAVA STIG on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/java-stig//img/banner.png</url><title>JAVA STIG on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/java-stig/</link></image><link>https://dev.simeononsecurity.ch/tags/java-stig/</link><description>Recent content in JAVA STIG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 05 Aug 2020 21:54:53 -0500</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/java-stig/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate Oracle JRE 8 STIG Compliance with Powershell Script</title><link>https://dev.simeononsecurity.ch/github/oracle-jre-8-stig/</link><pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Oracle JRE 8 STIG"
+, "JAVA STIG"
+, "JRE"
+, "JRE8"
+, "JRE STIG"
+, "Compliance"
+, "Automation"
+, "Powershell"
+, "Script"
+, "JAVA Configuration"
+, "Java Documentation"
+, "Group Policy"
+, "IT Security"
+, "System Administration"
+, "Configuration Management"
+, "Windows"
+, "Cybersecurity"
+, "STIG Compliance"
+, "Information Technology"
+, "Software Configuration"</category><guid>https://dev.simeononsecurity.ch/github/oracle-jre-8-stig/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Simplify the process of configuring Oracle JRE 8 STIG compliance with an automated Powershell script, eliminating the need for manual research and configuration.</description></item></channel></rss>

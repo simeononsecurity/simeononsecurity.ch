@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>image processing on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/image-processing//img/banner.png</url><title>image processing on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/image-processing/</link></image><link>https://dev.simeononsecurity.ch/tags/image-processing/</link><description>Recent content in image processing on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/image-processing/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing Images with Python: Boost Performance and Enhance User Experience</title><link>https://dev.simeononsecurity.ch/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Web Development"
+, "Python Programming"
+, "Image Optimization"
+, "SEO"
+, "Web Performance"
+, "User Experience"
+, "Software Development"
+, "Automation"
+, "Programming"</category><guid>https://dev.simeononsecurity.ch/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to optimize images with Python, reduce file sizes, and improve website performance and user experience with efficient techniques like compression, resizing, and format conversion.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_of_a_Python_script_optimizing.png" length="1613571" type="image/png"/></item><item><title>Today I Learned about Android Debloating and a New Privacy Technique</title><link>https://dev.simeononsecurity.ch/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Android Security"
+, "Privacy Tools"
+, "Mobile Device Optimization"
+, "Android Debloating"
+, "Security Enhancements"
+, "Privacy Techniques"
+, "Mobile App Management"
+, "Image Anonymization"
+, "Data Privacy"
+, "Mobile Device Privacy"</category><guid>https://dev.simeononsecurity.ch/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+Today, SimeonOnSecurity came across two interesting and useful security and privacy related tools: Universal Android Debloater and DeepPrivacy.
+The Universal Android Debloater is a bash script using ADB (Android Debug Bridge) to debloat non-rooted Android devices. This tool can help to improve privacy, security and battery life of your device by removing unwanted apps and bloatware. You can find the Universal Android Debloater at https://gitlab.</description></item></channel></rss>

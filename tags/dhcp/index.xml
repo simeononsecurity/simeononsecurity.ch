@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DHCP on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/dhcp//img/banner.png</url><title>DHCP on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/dhcp/</link></image><link>https://dev.simeononsecurity.ch/tags/dhcp/</link><description>Recent content in DHCP on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/dhcp/index.xml" rel="self" type="application/rss+xml"/><item><title>Networking Basics: What is an IP Address &amp; IPv4 vs IPv6</title><link>https://dev.simeononsecurity.ch/articles/networking-basics-what-is-an-ip-address/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Networking"
+, "IP Addresses"
+, "Internet Protocols"
+, "IPv4"
+, "IPv6"
+, "Network Communication"
+, "Internet Connectivity"
+, "Technology"
+, "Network Infrastructure"
+, "Internet Security"</category><guid>https://dev.simeononsecurity.ch/articles/networking-basics-what-is-an-ip-address/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the basics of IP addresses, including the difference between IPv4 and IPv6, their significance, and the importance of IPv6 adoption.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_image_of_two_devices_with_speech_bub.png" length="201976" type="image/png"/></item><item><title>Network Plus Course: Exploring Network Services, Connectivity Options, and Architecture</title><link>https://dev.simeononsecurity.ch/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Networking"
+, "Connectivity"
+, "Data Exchange"
+, "Network Architecture"
+, "Cloud Computing"
+, "Network Services"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the functionalities of DHCP, DNS, and NTP services, understand corporate and datacenter network architecture, and explore cloud concepts and connectivity options for seamless communication and data management.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_showcasing_various_networks.png" length="1960971" type="image/png"/></item><item><title>Network Plus Course: Mastering Network Ports and Protocols</title><link>https://dev.simeononsecurity.ch/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Networking"
+, "Network Security"
+, "Protocols"
+, "Ports"
+, "IP Protocols"
+, "Secure Communication"
+, "Computer Networks"
+, "IT"
+, "Network Administration"
+, "Technology"</category><guid>https://dev.simeononsecurity.ch/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore common network ports and protocols, their secure alternatives, and the importance of IP protocol types. Enhance network security and optimize communication.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_animated_illustration_showcasing_interconnted.png" length="1043842" type="image/png"/></item></channel></rss>

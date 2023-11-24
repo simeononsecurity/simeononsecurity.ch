@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WMI Query Language on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/wmi-query-language//img/banner.png</url><title>WMI Query Language on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/wmi-query-language/</link></image><link>https://dev.simeononsecurity.ch/tags/wmi-query-language/</link><description>Recent content in WMI Query Language on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/wmi-query-language/index.xml" rel="self" type="application/rss+xml"/><item><title>Demystifying WMI Filtering: Maximizing GPO Control with Effective Techniques</title><link>https://dev.simeononsecurity.ch/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Management"
+, "Group Policy"
+, "System Administration"
+, "Network Management"
+, "IT Infrastructure"
+, "Policy Management"
+, "IT Governance"
+, "IT Automation"
+, "Active Directory"
+, "Security Compliance"</category><guid>https://dev.simeononsecurity.ch/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uncover the secrets of WMI filtering and learn how to harness its power to enhance Group Policy Object (GPO) control, with practical examples and best practices.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_of_a_magnifying_glass_focusing.png" length="893008" type="image/png"/></item></channel></rss>

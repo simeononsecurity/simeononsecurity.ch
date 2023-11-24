@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DoD Compliance on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/dod-compliance//img/banner.png</url><title>DoD Compliance on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/dod-compliance/</link></image><link>https://dev.simeononsecurity.ch/tags/dod-compliance/</link><description>Recent content in DoD Compliance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2020 22:14:22 -0500</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/dod-compliance/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate .NET STIG Compliance with PowerShell Script</title><link>https://dev.simeononsecurity.ch/github/dot-net-stig-script/</link><pubDate>Thu, 20 Aug 2020 22:14:22 -0500</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+".NET STIG Script"
+, ".NET Framework"
+, "STIG Compliance"
+, "Powershell Automation"
+, "FIPS"
+, "Windows Server"
+, "Microsoft"
+, "Administrative Powershell"
+, "Code Access Security Policy Tool"
+, "Machine.config"
+, "DoD Compliance"
+, "Cybersecurity"
+, "Information Assurance"
+, "GitHub Repository"
+, "XML"
+, "Windows 7"
+, "IIS"
+, "Configuration Management"
+, "Security Hardening"
+, "Automation"</category><guid>https://dev.simeononsecurity.ch/github/dot-net-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Easily implement the .NET Framework STIG with this PowerShell script, modifying the machine.config file and applying required registry changes for FIPS and other controls.</description></item></channel></rss>

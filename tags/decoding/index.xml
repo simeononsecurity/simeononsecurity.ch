@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>decoding on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/decoding//img/banner.png</url><title>decoding on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/decoding/</link></image><link>https://dev.simeononsecurity.ch/tags/decoding/</link><description>Recent content in decoding on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><atom:link href="https://dev.simeononsecurity.ch/tags/decoding/index.xml" rel="self" type="application/rss+xml"/><item><title>Base64 Encoder/Decoder - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/base64_encode_decode/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"data encoding"
+, "Base64"
+, "data transmission"
+, "data storage"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/base64_encode_decode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+An online tool to encode or decode text or files using Base64 encoding. Convert data for data transmission and storage.</description></item></channel></rss>

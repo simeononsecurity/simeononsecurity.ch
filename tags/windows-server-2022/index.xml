@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Server 2022 on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/windows-server-2022//img/banner.png</url><title>Windows Server 2022 on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/windows-server-2022/</link></image><link>https://dev.simeononsecurity.ch/tags/windows-server-2022/</link><description>Recent content in Windows Server 2022 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/windows-server-2022/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://dev.simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://dev.simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Why Your Business Should Upgrade to Windows Server 2022</title><link>https://dev.simeononsecurity.ch/articles/switching-to-server-2022-over-server-2019/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Server 2022"
+, "Upgrade"
+, "Business"
+, "Security"
+, "Management"
+, "Automation"
+, "Performance"
+, "Scalability"
+, "Windows Server 2019"</category><guid>https://dev.simeononsecurity.ch/articles/switching-to-server-2022-over-server-2019/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the improved security features, management and automation capabilities, and performance and scalability of Windows Server 2022, making it the best choice for businesses looking to upgrade from Windows Server 2019.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png" length="436657" type="image/png"/></item></channel></rss>

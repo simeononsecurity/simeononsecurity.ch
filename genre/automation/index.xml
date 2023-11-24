@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>automation on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/automation//img/banner.png</url><title>automation on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/automation/</link></image><link>https://dev.simeononsecurity.ch/genre/automation/</link><description>Recent content in automation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Advanced Windows CMD Scripting for Enhanced Efficiency</title><link>https://dev.simeononsecurity.ch/guides/mastering-windows-cmd-scripting-advanced-ideas/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "IT Management"
+, "Cybersecurity"
+, "Scripting"
+, "Windows CMD"
+, "System Administration"
+, "Automation"
+, "Troubleshooting"
+, "Resource Management"
+, "Process Monitoring"</category><guid>https://dev.simeononsecurity.ch/guides/mastering-windows-cmd-scripting-advanced-ideas/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows CMD scripting with advanced ideas like tasklist, background execution, and disowning processes to streamline IT management and boost cybersecurity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-cmd-processes-visualization.png" length="1474632" type="image/png"/></item><item><title>Mastering .NET Framework 4.0 Security: Best Practices &amp; Automation</title><link>https://dev.simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</link><pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Software Development"
+, "Cybersecurity"
+, "Programming"
+, "Windows Systems"
+, "Application Security"
+, ".NET Framework"
+, "Automation"
+, "Best Practices"
+, "Security Guidelines"</category><guid>https://dev.simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential security practices for Microsoft .NET Framework 4.0, backed by automation scripts, to safeguard your applications and data integrity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/mastering-dotnet-security.png" length="1358887" type="image/png"/></item><item><title>Mastering Windows Command Line: PowerShell, WSL, and Productivity Boost</title><link>https://dev.simeononsecurity.ch/guides/windows-command-line-powershell-wsl-guide/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Command Line"
+, "Windows Tools"
+, "PowerShell Scripting"
+, "Windows Subsystem for Linux"
+, "Automation"
+, "System Administration"
+, "Efficiency"
+, "Productivity"
+, "Linux Integration"</category><guid>https://dev.simeononsecurity.ch/guides/windows-command-line-powershell-wsl-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the Power of Windows Command Line with PowerShell and WSL. Enhance Productivity and Bridge Windows-Linux Gap.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-linux-collaboration.png" length="908459" type="image/png"/></item><item><title>Mastering Windows Batch Scripting: Automate Tasks and Boost Efficiency</title><link>https://dev.simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Programming"
+, "Automation"
+, "Cybersecurity"
+, "IT Management"
+, "Productivity"
+, "Scripting"
+, "Windows OS"
+, "Coding"
+, "Software Development"</category><guid>https://dev.simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of Windows batch scripting to automate tasks efficiently. Learn variables, loops, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-batch-scripting-automation.png" length="1545436" type="image/png"/></item><item><title>Empower Your Expertise: Essential Books for Cybersecurity &amp; IT Pros</title><link>https://dev.simeononsecurity.ch/articles/essential-books-cybersecurity-it-professionals/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Education"
+, "Books"
+, "Cybersecurity"
+, "Programming"
+, "IT"
+, "Automation"
+, "Professional Development"
+, "Career Growth"
+, "Learning"</category><guid>https://dev.simeononsecurity.ch/articles/essential-books-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Boost your skills with top Cybersecurity, Automation, Programming, and IT books.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/coding_conqueror.png" length="1188766" type="image/png"/></item><item><title>Automate Windows 11 Installation: Bypass TPM, Secure Boot, and RAM Checks</title><link>https://dev.simeononsecurity.ch/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows 11"
+, "Installation"
+, "Virtualization"
+, "Automation"
+, "Registry Keys"
+, "TPM Bypass"
+, "Secure Boot Bypass"
+, "RAM Bypass"
+, "vTPM"</category><guid>https://dev.simeononsecurity.ch/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Streamline Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://dev.simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://dev.simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Unlock Shodan API: Boost Your Ansible Automation with Powerful Modules</title><link>https://dev.simeononsecurity.ch/github/shodan-api-ansible-automation-guide/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Networking"
+, "Cybersecurity"
+, "Automation"
+, "API"
+, "Ansible"
+, "IT Management"
+, "Development"
+, "Programming"
+, "Digital Innovation"</category><guid>https://dev.simeononsecurity.ch/github/shodan-api-ansible-automation-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Supercharge Ansible with Shodan API integration using specialized modules for enhanced automation.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/shodan-api-ansible-automation.png" length="1467277" type="image/png"/></item><item><title>Patch Management Checklist: Enhancing Security and Stability</title><link>https://dev.simeononsecurity.ch/checklists/patch-management-checklist/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Patch Management"
+, "Security Strategies"
+, "IT Management"
+, "Software Updates"
+, "System Maintenance"
+, "Cybersecurity Best Practices"
+, "Vulnerability Management"
+, "Compliance"
+, "Automation"
+, "Network Security"</category><guid>https://dev.simeononsecurity.ch/checklists/patch-management-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to develop a robust patch management strategy, test and deploy security patches effectively, and automate patch management for improved system security and stability.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_depicting_a_shield_with_patches_repre.png" length="1693082" type="image/png"/></item><item><title>Mastering VMware Security: How to Use PowerCLI to Run the VMware STIGs</title><link>https://dev.simeononsecurity.ch/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Virtualization"
+, "IT Infrastructure"
+, "Automation"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliance"
+, "Scripting"
+, "Datacenter"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to leverage PowerCLI to effectively run the VMware STIGs and secure your VMware environment in this comprehensive guide.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_depicting_a_computer_server_sh.png" length="863912" type="image/png"/></item><item><title>Mastering PowerCLI: A Comprehensive Guide on How to Use PowerCLI for Efficient vSphere Management</title><link>https://dev.simeononsecurity.ch/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Virtualization"
+, "VMware"
+, "IT Management"
+, "Automation"
+, "Command-Line Interface"
+, "Scripting"
+, "System Administration"
+, "Cloud Computing"
+, "Datacenter Management"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of PowerCLI and learn how to effectively use it for managing your VMware vSphere environment, automating tasks, and maximizing productivity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.png" length="1409787" type="image/png"/></item><item><title>10 Essential PowerShell Security Best Practices for Safeguarding Your Scripts</title><link>https://dev.simeononsecurity.ch/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"PowerShell security best practices"
+, "Scripting security"
+, "Password security"
+, "IT security"
+, "Cybersecurity"
+, "Windows administration"
+, "Automation"
+, "Secure coding"
+, "Network security"
+, "Data protection"</category><guid>https://dev.simeononsecurity.ch/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the top 10 essential PowerShell security best practices for safeguarding your scripts, passwords, and sensitive information. Enhance the security of your PowerShell environment and protect against unauthorized access and potential security breaches.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Enhancing Security: The Power of Vulnerability Management Systems</title><link>https://dev.simeononsecurity.ch/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "IT Infrastructure"
+, "Risk Mitigation"
+, "Compliance"
+, "Data Security"
+, "Vulnerability Assessment"
+, "Security Posture"
+, "Automation"
+, "Integration"
+, "Reporting"</category><guid>https://dev.simeononsecurity.ch/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strengthen your organization's security and mitigate risks with vulnerability management systems. Learn about their benefits and importance in today's digital landscape.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item><item><title>Mastering Active Directory Administration with PowerShell: Installation and Usage Guide</title><link>https://dev.simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administration"
+, "Scripting"
+, "IT"
+, "Automation"
+, "Windows Server"
+, "Microsoft"</category><guid>https://dev.simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effectively install and utilize the Active Directory module for PowerShell to streamline your Windows Active Directory administration tasks.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Optimizing Images with Python: Boost Performance and Enhance User Experience</title><link>https://dev.simeononsecurity.ch/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Web Development"
+, "Python Programming"
+, "Image Optimization"
+, "SEO"
+, "Web Performance"
+, "User Experience"
+, "Software Development"
+, "Automation"
+, "Programming"</category><guid>https://dev.simeononsecurity.ch/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to optimize images with Python, reduce file sizes, and improve website performance and user experience with efficient techniques like compression, resizing, and format conversion.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_of_a_Python_script_optimizing.png" length="1613571" type="image/png"/></item><item><title>Ansible Automation: From Plain Ansible to Ansible Tower and Semaphore</title><link>https://dev.simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Infrastructure Management"
+, "Configuration Management"
+, "DevOps"
+, "IT Operations"
+, "Open Source"
+, "Workflow Management"
+, "Scalability"
+, "Collaboration"
+, "Ansible Tools"</category><guid>https://dev.simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Ansible automation with a comparison of plain Ansible, Ansible Tower, and Ansible Semaphore, and choose the right tool for efficient infrastructure management.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>CheckMK: A Comprehensive Monitoring Solution for Efficient IT Infrastructure Management</title><link>https://dev.simeononsecurity.ch/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "IT Infrastructure"
+, "Network Monitoring"
+, "Application Monitoring"
+, "IT Operations"
+, "Performance Analytics"
+, "Automation"
+, "Event Management"
+, "Scalability"
+, "Flexibility"</category><guid>https://dev.simeononsecurity.ch/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the features, benefits, and use cases of CheckMK, a comprehensive monitoring solution for proactive IT infrastructure management.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>PowerShell Scripting: A Step-by-Step Guide for Beginners to Automate Tasks</title><link>https://dev.simeononsecurity.ch/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Programming"
+, "Automation"
+, "Windows"
+, "Scripting"
+, "IT"
+, "Administrative Tasks"
+, "Computer Management"
+, "Software Development"
+, "Coding"</category><guid>https://dev.simeononsecurity.ch/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the basics of PowerShell scripting and automate tasks with this step-by-step guide for beginners, covering cmdlets, loops, functions, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Creating a Home Lab: A Guide for IT Professionals, Students, and Hobbyists</title><link>https://dev.simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Home Lab"
+, "IT Professionals"
+, "Students"
+, "Hobbyists"
+, "Networking"
+, "Virtualization"
+, "Automation"
+, "Hardware"
+, "Software"
+, "Best Practices"</category><guid>https://dev.simeononsecurity.ch/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of your Home Lab with this comprehensive guide, designed for IT professionals, students, and hobbyists, covering setup, components, advanced topics, and best practices.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png"/></item><item><title>Should You Learn Programming for IT and Cyber Security?</title><link>https://dev.simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://dev.simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item><item><title>Today I Learned how to Create Chocolatey Packages</title><link>https://dev.simeononsecurity.ch/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Windows Package Management"
+, "Package Creation"
+, "Package Management"
+, "Infrastructure as Code (IaC)"
+, "Windows Software Deployment"
+, "Software Packaging"
+, "Windows Automation"
+, "Package Repositories"
+, "Windows Tools"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned more about WDAC Policy Creation and Implementation</title><link>https://dev.simeononsecurity.ch/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Windows Security"
+, "Application Control"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Threat Protection"
+, "Windows Server 2019"
+, "Enterprise Security"
+, "Policy Management"
+, "Security Best Practices"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned more about Ansible conditionals and variable management</title><link>https://dev.simeononsecurity.ch/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Ansible"
+, "Configuration Management"
+, "IT Infrastructure"
+, "DevOps"
+, "Playbook Development"
+, "Variable Management"
+, "Conditional Execution"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned more Powershell and Ansible Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "PowerShell"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned about Windows STIG Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.
+New/Updated Repos: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Learning Resources: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.windows.psexec win_psexec</description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "Security Compliance"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned and discovered several interesting things today related to Windows security and automation using Ansible.
+First, two new and updated repositories were identified. The Windows_STIG_Ansible repository provides a complete solution for configuring Windows systems to meet Security Technical Implementation Guide (STIG) requirements, using the Ansible automation platform. The windows_stigs repository is a collection of Ansible roles for configuring Windows systems to meet STIG requirements, and it is available on Ansible Galaxy, a central repository for sharing Ansible content.</description></item></channel></rss>

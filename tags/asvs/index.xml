@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ASVS on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/asvs//img/banner.png</url><title>ASVS on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/asvs/</link></image><link>https://dev.simeononsecurity.ch/tags/asvs/</link><description>Recent content in ASVS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/asvs/index.xml" rel="self" type="application/rss+xml"/><item><title>Securing Your Web Applications with OWASP ASVS</title><link>https://dev.simeononsecurity.ch/articles/how-to-secure-your-web-applications-owasp-asvs/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"web application security"
+, "OWASP"
+, "ASVS"
+, "application security"
+, "security standards"
+, "cybersecurity"
+, "vulnerability management"
+, "secure coding"
+, "penetration testing"
+, "threat modeling"
+, "security controls"
+, "security assessment"
+, "automated security testing"
+, "manual security testing"
+, "secure development lifecycle"
+, "security best practices"
+, "data security"
+, "risk management"
+, "compliance"
+, "information security"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-secure-your-web-applications-owasp-asvs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to secure your web applications using the OWASP Application Security Verification Standard (ASVS) to meet the most rigorous security measures and protect against common vulnerabilities.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png"/></item></channel></rss>

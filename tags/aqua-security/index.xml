@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aqua Security on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/aqua-security//img/banner.png</url><title>Aqua Security on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/aqua-security/</link></image><link>https://dev.simeononsecurity.ch/tags/aqua-security/</link><description>Recent content in Aqua Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/aqua-security/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Secure Your Docker and Kubernetes Environment</title><link>https://dev.simeononsecurity.ch/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Docker"
+, "Kubernetes"
+, "Security"
+, "Containers"
+, "Network Security"
+, "RBAC"
+, "API Server"
+, "Vulnerabilities"
+, "Monitoring"
+, "Logging"
+, "Firewalls"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Security"
+, "ELK Stack"
+, "Splunk"
+, "Prometheus"
+, "Cybersecurity"
+, "Best Practices"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn best practices for securing your Docker and Kubernetes environment, including using official images, limiting permissions, and implementing network security.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png"/></item></channel></rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network Performance on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/network-performance//img/banner.png</url><title>Network Performance on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/network-performance/</link></image><link>https://dev.simeononsecurity.ch/genre/network-performance/</link><description>Recent content in Network Performance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/network-performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Network Plus Course: Troubleshooting General Networking Issues</title><link>https://dev.simeononsecurity.ch/network-plus/network-plus-course-troubleshooting-general-networking-issues/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Online Education"
+, "IT Certification"
+, "Network Troubleshooting"
+, "Networking Concepts"
+, "Security Solutions"
+, "Network Performance"
+, "DNS and NTP"
+, "BYOD Challenges"
+, "Licensed Feature Issues"
+, "Troubleshooting Techniques"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-plus-course-troubleshooting-general-networking-issues/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive online course covering troubleshooting techniques and common issues related to general networking, including collisions, broadcast storms, duplicate MAC/IP addresses, asymmetrical routing, firewall settings, DNS resolution failures, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_image_depicting_interconnected_network.png" length="1452806" type="image/png"/></item><item><title>Networking Basics: Subnetting, VLANs, and Efficient Network Management</title><link>https://dev.simeononsecurity.ch/articles/networking-basics-what-are-subnets-and-vlans/</link><pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Networking Basics"
+, "Subnetting"
+, "VLANs"
+, "Network Management"
+, "Network Security"
+, "IP Addressing"
+, "Network Segmentation"
+, "Efficient Resource Utilization"
+, "Network Performance"
+, "IPv4"</category><guid>https://dev.simeononsecurity.ch/articles/networking-basics-what-are-subnets-and-vlans/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the essentials of subnets, subnetting, and VLANs for efficient network management and enhanced security</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_of_interconnected_comp.png" length="421453" type="image/png"/></item><item><title>Network Plus Course: Environmental Factors and Sensors in Network Monitoring</title><link>https://dev.simeononsecurity.ch/network-plus/environmental-factors-sensors-network-monitoring/</link><pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"CompTIA Network Plus Certification"
+, "Network Monitoring"
+, "Environmental Monitoring"
+, "Flooding Impact"
+, "Baselines in Network Monitoring"
+, "NetFlow Data Analysis"
+, "Network Uptime Tracking"
+, "Network Downtime Tracking"
+, "Network Performance"
+, "Disaster Recovery"</category><guid>https://dev.simeononsecurity.ch/network-plus/environmental-factors-sensors-network-monitoring/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the importance of monitoring environmental factors, such as temperature and humidity, the impact of flooding on networks, the significance of baselines in network monitoring, an overview of NetFlow data analysis, and techniques for tracking network uptime and downtime with the Network Plus Course.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_cartoon_illustration_of_a_network_s.png" length="1097783" type="image/png"/></item><item><title>Network Plus Course: Performance Monitoring and Management</title><link>https://dev.simeononsecurity.ch/network-plus/network-plus-course-performance-monitoring-management/</link><pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"CompTIA Network Plus Exam"
+, "Performance Monitoring"
+, "Performance Management"
+, "Network Metrics"
+, "SNMP"
+, "Network Infrastructure"
+, "IT Certifications"
+, "Network Monitoring Tools"
+, "Performance Metrics"
+, "Network Performance"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-plus-course-performance-monitoring-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the essentials of performance monitoring and management for CompTIA's Network+ Certification Exam, including device/chassis metrics, network metrics, and the use of SNMP.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_image_depicting_a_network_infrastru.png" length="1033677" type="image/png"/></item><item><title>Network Plus Course: Bandwidth Management and QoS</title><link>https://dev.simeononsecurity.ch/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Networking"
+, "IT Certifications"
+, "Network Management"
+, "Bandwidth Management"
+, "QoS"
+, "Traffic Shaping"
+, "Ethernet Switching"
+, "Network Performance"
+, "Network Optimization"</category><guid>https://dev.simeononsecurity.ch/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about bandwidth management, quality of service (QoS), and techniques for prioritizing network traffic in this comprehensive guide for CompTIA's Network+ Certification Exam.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_showing_a_network_with_differe.png" length="1340768" type="image/png"/></item><item><title>Network Security Appliances: Fortinet vs. Cisco - A Comprehensive Comparison</title><link>https://dev.simeononsecurity.ch/articles/fortinet-vs-cisco-comparing-network-security-applicances/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Network Security Appliances"
+, "Fortinet"
+, "Cisco"
+, "Cybersecurity"
+, "Firewalls"
+, "Intrusion Prevention Systems"
+, "Virtual Private Networks"
+, "Web Filtering"
+, "Advanced Threat Protection"
+, "Network Performance"</category><guid>https://dev.simeononsecurity.ch/articles/fortinet-vs-cisco-comparing-network-security-applicances/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare and choose the best network security appliance for your organization: Fortinet vs. Cisco, a detailed analysis of features, performance, and pricing.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon_illustration_showing_a_strong_shield_protecting_a.png" length="492875" type="image/png"/></item></channel></rss>

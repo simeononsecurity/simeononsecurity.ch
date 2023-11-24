@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cybersecurity tools on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/cybersecurity-tools//img/banner.png</url><title>cybersecurity tools on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/cybersecurity-tools/</link></image><link>https://dev.simeononsecurity.ch/genre/cybersecurity-tools/</link><description>Recent content in cybersecurity tools on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/cybersecurity-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about New Security Tools, Static Code Analyzers, and Self-Hosted Service Options</title><link>https://dev.simeononsecurity.ch/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity Tools"
+, "Static Code Analysis"
+, "Privacy and Security"
+, "Self-Hosted Services"
+, "GitHub Resources"
+, "Security Recommendations"
+, "Code Quality Assurance"
+, "Personal Security"
+, "Home Lab Setup"
+, "Privacy-Respecting Services"</category><guid>https://dev.simeononsecurity.ch/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity is a person who has a keen interest in security and privacy and has come across several resources today that they found interesting and would like to share with others.
+One of the resources that caught their attention is the &amp;ldquo;Awesome Security&amp;rdquo; list on GitHub. This list contains an extensive collection of awesome security tools and SimeonOnSecurity plans to continue exploring and learning about the items on this list.</description></item><item><title>Hash Calculator - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/hash-calculator/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"cybersecurity tools"
+, "client-side JavaScript"
+, "hash calculator"
+, "file integrity verification"
+, "MD5 hash"
+, "SHA-1 hash"
+, "SHA-256 hash"
+, "JavaScript security"
+, "browser-based tools"
+, "client-side security"</category><guid>https://dev.simeononsecurity.ch/hash-calculator/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity.</description></item><item><title>Recommended Hacker Hardware</title><link>https://dev.simeononsecurity.ch/recommendations/hacker_hardware/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Recommended Hacker Hardware"
+, "RFID NFC Hacking Tools"
+, "WiFi Hacking Devices"
+, "Wireless Hacking Equipment"
+, "Hacker Hardware Recommendations"
+, "Cybersecurity Tools"
+, "RFID NFC Signal Cloning"
+, "WiFi Deauthentication"
+, "Wireless Signal Sniffing"
+, "GPS-based WiFi Geolocation"
+, "Software-Defined Radio Platforms"
+, "Mini PC Firewall"
+, "Security Key Authentication"</category><guid>https://dev.simeononsecurity.ch/recommendations/hacker_hardware/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover SimeonOnSecurity's Recommended Hacker Hardware, including tools for RFID, NFC, WiFi hacking, wireless hacking, and more. Shop top products from brands like Hak5, Chameleon Tiny, Alfa, and more. Find the perfect tool for your needs with SimeonOnSecurity's comprehensive and professional recommendations.</description></item></channel></rss>

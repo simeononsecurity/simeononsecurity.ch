@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT Solutions on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/it-solutions//img/banner.png</url><title>IT Solutions on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/it-solutions/</link></image><link>https://dev.simeononsecurity.ch/tags/it-solutions/</link><description>Recent content in IT Solutions on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/it-solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Budget-Friendly 10g pfSense Build with HP t640 for Effortless Networking</title><link>https://dev.simeononsecurity.ch/guides/budget-friendly-10g-pfsense-build-hp-t640/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Networking"
+, "Cybersecurity"
+, "Hardware"
+, "DIY"
+, "Open-Source"
+, "Small Business"
+, "Home Network"
+, "Technology"
+, "IT Solutions"
+, "Network Security"</category><guid>https://dev.simeononsecurity.ch/guides/budget-friendly-10g-pfsense-build-hp-t640/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effortlessly build a 10 gigabit capable pfSense router and firewall on a budget using the HP t640, ensuring high-performance networking for your needs.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/budget-friendly-10g-pfsense-build.png" length="1180412" type="image/png"/></item><item><title>Secure Data: Robocopy Backup and Restore Guide</title><link>https://dev.simeononsecurity.ch/guides/secure-data-robocopy-backup-restore-guide/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Data Management"
+, "Backup Strategies"
+, "Data Protection"
+, "Windows Tools"
+, "File Copying"
+, "Data Backup"
+, "Disaster Recovery"
+, "File Restore"
+, "Command-Line Tools"</category><guid>https://dev.simeononsecurity.ch/guides/secure-data-robocopy-backup-restore-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to securely back up and restore files using Robocopy, a powerful tool for data protection and peace of mind.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/data-protection-robocopy-shield.png" length="1307144" type="image/png"/></item><item><title>Mastering Windows Registry: Command Line Tips for Efficient Configuration</title><link>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows"
+, "Command Line"
+, "Registry"
+, "System Configuration"
+, "Computer Security"
+, "Tech How-To"
+, "Windows Tips"
+, "IT Solutions"
+, "Software Tweaks"</category><guid>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows Registry with expert command line techniques. Learn to query, modify, and secure your system settings.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/Windows_Registry_Wizard.png" length="1989003" type="image/png"/></item><item><title>Mastering Windows Batch Scripting: Automate Tasks and Boost Efficiency</title><link>https://dev.simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Programming"
+, "Automation"
+, "Cybersecurity"
+, "IT Management"
+, "Productivity"
+, "Scripting"
+, "Windows OS"
+, "Coding"
+, "Software Development"</category><guid>https://dev.simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of Windows batch scripting to automate tasks efficiently. Learn variables, loops, and more.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-batch-scripting-automation.png" length="1545436" type="image/png"/></item><item><title>Mastering Windows Networking: Boosting Connectivity and Collaboration</title><link>https://dev.simeononsecurity.ch/guides/windows-networking-internet-tools-guide/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Networking"
+, "Windows Tools"
+, "Remote Desktop"
+, "Internet Tools"
+, "Network Troubleshooting"
+, "File Downloads"
+, "IT Skills"
+, "Computer Networking"
+, "Digital Connectivity"</category><guid>https://dev.simeononsecurity.ch/guides/windows-networking-internet-tools-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of Windows networking tools for seamless connections and efficient downloads.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows-networking-cartoon-connectivity.png" length="1506842" type="image/png"/></item><item><title>Windows GVLKs: Unlocking the Power of Licensing Keys for Enhanced Performance</title><link>https://dev.simeononsecurity.ch/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Software"
+, "Productivity"
+, "Operating Systems"
+, "Microsoft"
+, "Windows"
+, "Licensing"
+, "Key Management"
+, "IT Solutions"
+, "Enhancement"</category><guid>https://dev.simeononsecurity.ch/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how Windows GVLKs revolutionize performance! Explore the best licensing keys and boost your system's productivity effortlessly.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png"/></item><item><title>NAS OS Comparison: Finding the Best Storage Solution for Your Data Needs</title><link>https://dev.simeononsecurity.ch/articles/nas-os-comparison-best-storage-solution/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Data Storage"
+, "Network-Attached Storage"
+, "Operating Systems"
+, "Data Management"
+, "IT Solutions"
+, "File Sharing"
+, "Data Security"
+, "Cloud Storage"
+, "Backup Solutions"</category><guid>https://dev.simeononsecurity.ch/articles/nas-os-comparison-best-storage-solution/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the top NAS operating systems in this comprehensive comparison to discover the perfect solution for your data storage requirements.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/nas-os-comparison-symbolic-servers.png" length="1531503" type="image/png"/></item></channel></rss>

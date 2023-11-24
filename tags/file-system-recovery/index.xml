@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>File System Recovery on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/file-system-recovery//img/banner.png</url><title>File System Recovery on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/file-system-recovery/</link></image><link>https://dev.simeononsecurity.ch/tags/file-system-recovery/</link><description>Recent content in File System Recovery on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/file-system-recovery/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about XFS Data Management and Recovery</title><link>https://dev.simeononsecurity.ch/til/2021-01-09/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"XFS File System"
+, "Data Management"
+, "Data Recovery"
+, "Backup and Restore"
+, "Red Hat"
+, "File System Best Practices"
+, "Shodan_PS Repository"
+, "Internet-connected Devices"
+, "GitHub Updates"
+, "Windows Compression Format"
+, "Linux Apps"
+, "PHP 8 Features"
+, "Technology Videos"</category><guid>https://dev.simeononsecurity.ch/til/2021-01-09/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity has been keeping up with the latest developments in the tech world. Today, he learned about XFS and its capabilities for backing up and restoring file systems. He found an informative article on the Red Hat website detailing the process and best practices for using XFS.
+SimeonOnSecurity also updated his Shodan_PS repository on GitHub, which contains useful scripts for using the popular search engine for Internet-connected devices.</description></item></channel></rss>

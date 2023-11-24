@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine Images on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/machine-images//img/banner.png</url><title>Machine Images on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/machine-images/</link></image><link>https://dev.simeononsecurity.ch/tags/machine-images/</link><description>Recent content in Machine Images on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/machine-images/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Packer for Infrastructure as Code: Best Practices and Benefits</title><link>https://dev.simeononsecurity.ch/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Packer"
+, "Infrastructure as Code"
+, "DevOps"
+, "Automation"
+, "Security"
+, "Repeatability"
+, "Scalability"
+, "Multi-Platform"
+, "Version Control"
+, "Cloud Computing"
+, "Machine Images"
+, "Virtualization"
+, "Configuration Management"
+, "Continuous Integration"
+, "Continuous Delivery"
+, "Software Development"
+, "Best Practices"
+, "Testing"
+, "Open Source"
+, "Multi-Cloud"</category><guid>https://dev.simeononsecurity.ch/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use Packer for creating machine images that are easy to maintain and secure.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>secure Python applications on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/secure-python-applications//img/banner.png</url><title>secure Python applications on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/secure-python-applications/</link></image><link>https://dev.simeononsecurity.ch/tags/secure-python-applications/</link><description>Recent content in secure Python applications on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/secure-python-applications/index.xml" rel="self" type="application/rss+xml"/><item><title>Secure Python Coding: Avoiding Unsafe Functions for Robust Applications</title><link>https://dev.simeononsecurity.ch/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Programming"
+, "Cybersecurity"
+, "Software Development"
+, "Python"
+, "Coding"
+, "Web Development"
+, "Secure Coding"
+, "Technology"
+, "Computer Science"
+, "Data Security"</category><guid>https://dev.simeononsecurity.ch/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to write secure Python code by avoiding unsafe functions and adopting best practices for robust and reliable applications.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/secure-python-coding-wall.png" length="1321382" type="image/png"/></item></channel></rss>

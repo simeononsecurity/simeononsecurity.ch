@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>up-to-date images on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/up-to-date-images//img/banner.png</url><title>up-to-date images on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/up-to-date-images/</link></image><link>https://dev.simeononsecurity.ch/tags/up-to-date-images/</link><description>Recent content in up-to-date images on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/up-to-date-images/index.xml" rel="self" type="application/rss+xml"/><item><title>Building Efficient and Secure Docker Containers: A Guide for Beginners</title><link>https://dev.simeononsecurity.ch/articles/how-to-build-docker-containers-from-scratch/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"docker"
+, "containers"
+, "containerization"
+, "devops"
+, "deployment"
+, "portability"
+, "efficiency"
+, "security"
+, "best practices"
+, "Dockerfile"
+, "base images"
+, "environment variables"
+, "volume mounts"
+, "root user"
+, "up-to-date images"
+, "software development"
+, "container images"
+, "Docker Hub"
+, "container orchestration"
+, "Kubernetes"</category><guid>https://dev.simeononsecurity.ch/articles/how-to-build-docker-containers-from-scratch/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to create efficient and secure Docker containers using best practices, tips, and step-by-step instructions in this comprehensive guide.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png"/></item></channel></rss>

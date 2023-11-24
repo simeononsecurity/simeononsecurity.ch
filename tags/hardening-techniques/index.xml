@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardening Techniques on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/hardening-techniques//img/banner.png</url><title>Hardening Techniques on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/hardening-techniques/</link></image><link>https://dev.simeononsecurity.ch/tags/hardening-techniques/</link><description>Recent content in Hardening Techniques on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/hardening-techniques/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Active Directory Security: Shield Your Network with Expert Strategies</title><link>https://dev.simeononsecurity.ch/articles/active-directory-security-best-practices/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Network Management"
+, "Information Technology"
+, "Data Protection"
+, "Enterprise Security"
+, "Digital Infrastructure"
+, "Access Control"
+, "User Authentication"
+, "IT Best Practices"
+, "Security Awareness"</category><guid>https://dev.simeononsecurity.ch/articles/active-directory-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover vital techniques for securing Active Directory, safeguarding data, and thwarting breaches in your network infrastructure.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/ActiveDirectory_Fortress_Security.png" length="1363354" type="image/png"/></item><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://dev.simeononsecurity.ch/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://dev.simeononsecurity.ch/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control WDAC policies. WDAC is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.
+Auditing and Enforcing Windows Defender Application Control WDAC Policies: # Microsoft - Audit Windows Defender Application Control Policies Microsoft - Deploy Windows Defender Application Control policies by using Group Policy Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune Microsoft - Enforce Windows Defencer Application Control Policies Updated Repos: # SimeonOnSecurity - Windows-Defender-Application-Control-Hardening Videos of Interest: # Disrupt - Earth&amp;rsquo;s Deadliest Computer Virus John Hammond - How to move FAST in the Linux Terminal Microsoft 365 - Microsoft Defender Application Control ShortCircuit - My Dongle is HUGE!</description></item></channel></rss>

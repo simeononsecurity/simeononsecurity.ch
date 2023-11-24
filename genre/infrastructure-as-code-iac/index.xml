@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure as Code (IaC) on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/infrastructure-as-code-iac//img/banner.png</url><title>Infrastructure as Code (IaC) on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/infrastructure-as-code-iac/</link></image><link>https://dev.simeononsecurity.ch/genre/infrastructure-as-code-iac/</link><description>Recent content in Infrastructure as Code (IaC) on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/infrastructure-as-code-iac/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned how to Create Chocolatey Packages</title><link>https://dev.simeononsecurity.ch/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Windows Package Management"
+, "Package Creation"
+, "Package Management"
+, "Infrastructure as Code (IaC)"
+, "Windows Software Deployment"
+, "Software Packaging"
+, "Windows Automation"
+, "Package Repositories"
+, "Windows Tools"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item></channel></rss>

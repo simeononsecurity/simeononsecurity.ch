@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptography on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/cryptography//img/banner.png</url><title>Cryptography on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/cryptography/</link></image><link>https://dev.simeononsecurity.ch/genre/cryptography/</link><description>Recent content in Cryptography on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/cryptography/index.xml" rel="self" type="application/rss+xml"/><item><title>Unsafe and Insecure C# Functions: Secure Coding Practices and Alternatives for Stronger Software</title><link>https://dev.simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Software Development"
+, "C Sharp Programming"
+, "Cybersecurity"
+, "Code Security"
+, "Secure Coding"
+, "Programming Best Practices"
+, "Software Vulnerabilities"
+, "Cryptography"
+, "Web Development"
+, "Application Security"</category><guid>https://dev.simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the risks of unsafe C sharp functions and learn secure alternatives.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/secure-coding-shield.png" length="1516443" type="image/png"/></item><item><title>CISSP Practice Test - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/cissp-practice-test/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"CISSP"
+, "practice test"
+, "information security"
+, "security and risk management"
+, "asset security"
+, "cryptography"</category><guid>https://dev.simeononsecurity.ch/cissp-practice-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prepare for the ISC2 CISSP exam with our comprehensive practice test. Test your knowledge of information security concepts, principles, and practices in domains such as security and risk management, asset security, and cryptography.</description></item></channel></rss>

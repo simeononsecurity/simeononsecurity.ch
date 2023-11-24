@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>online tools on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/online-tools//img/banner.png</url><title>online tools on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/online-tools/</link></image><link>https://dev.simeononsecurity.ch/tags/online-tools/</link><description>Recent content in online tools on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><atom:link href="https://dev.simeononsecurity.ch/tags/online-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Base64 Encoder/Decoder - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/base64_encode_decode/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"data encoding"
+, "Base64"
+, "data transmission"
+, "data storage"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/base64_encode_decode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+An online tool to encode or decode text or files using Base64 encoding. Convert data for data transmission and storage.</description></item><item><title>Binary/Decimal/Hexadecimal Converter - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/binary_decimal_converter/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"number converter"
+, "binary"
+, "decimal"
+, "hexadecimal"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/binary_decimal_converter/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+An online tool to convert numbers between binary, decimal, and hexadecimal representations. Easily perform number system conversions.</description></item><item><title>chmod Command Generator - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/chmod/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"file permissions"
+, "security"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/chmod/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A menu-based tool that generates chmod commands based on user input for modifying file permissions.</description></item><item><title>EXIF Viewer - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/exif-viewer/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"image analysis"
+, "EXIF viewer"
+, "metadata extraction"
+, "camera information"
+, "image properties"
+, "EXIF data"
+, "image metadata"
+, "photography tools"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/exif-viewer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+An online tool to view EXIF information of an image. Extract metadata such as camera model, exposure settings, and GPS coordinates.</description></item><item><title>Nmap Command Generator - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/nmap/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"network scanning"
+, "security"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/nmap/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.</description></item><item><title>Security Headers Check - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/securityheaders/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"security"
+, "web development"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/securityheaders/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Check the security headers of your website for enhanced protection. An online tool to analyze Content Security Policy (CSP) and Strict-Transport-Security (HSTS) headers.</description></item><item><title>Shodan IP Lookup - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/shodan_ip/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"IP lookup"
+, "network security"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/shodan_ip/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+An online tool to perform a Shodan IP lookup. Retrieve information such as hostnames, open ports, tags, CPEs, and vulnerabilities associated with an IP address.</description></item></channel></rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VIA on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/via//img/banner.png</url><title>VIA on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/via/</link></image><link>https://dev.simeononsecurity.ch/tags/via/</link><description>Recent content in VIA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/via/index.xml" rel="self" type="application/rss+xml"/><item><title>Protect Windows from Speculative Execution Side-Channel Attacks</title><link>https://dev.simeononsecurity.ch/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows Spectre Meltdown Mitigation Script"
+, "Speculative Execution Side-Channel Attacks"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "Android"
+, "Chrome"
+, "iOS"
+, "macOS"
+, "Branch Target Injection"
+, "Bounds Check Bypass"
+, "Rogue Data Cache Load"
+, "Speculative Store Bypass"
+, "Microarchitectural Data Sampling"
+, "CVEs"
+, "Firmware Updates"
+, "GitHub Repository"
+, "PowerShell"</category><guid>https://dev.simeononsecurity.ch/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to safeguard your Windows system against speculative execution side-channel attacks with Microsoft's mitigation script and firmware updates</description></item></channel></rss>

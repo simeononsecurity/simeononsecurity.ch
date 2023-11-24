@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNS Service on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/dns-service//img/banner.png</url><title>DNS Service on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/dns-service/</link></image><link>https://dev.simeononsecurity.ch/tags/dns-service/</link><description>Recent content in DNS Service on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/dns-service/index.xml" rel="self" type="application/rss+xml"/><item><title>Next DNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: A Secure DNS Showdown</title><link>https://dev.simeononsecurity.ch/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "DNS Comparison"
+, "Privacy Protection"
+, "Ad Blocking"
+, "Network Security"
+, "Internet Security"
+, "DNS Resolver"
+, "Online Privacy"
+, "Web Security"
+, "DNS Filtering"</category><guid>https://dev.simeononsecurity.ch/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best DNS service for your security and privacy needs with our comprehensive comparison of Next DNS, AdGuard DNS, Quad9, Cloudflare DNS, and Pi-hole.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/dns_security_shield.png" length="1832752" type="image/png"/></item><item><title>Resolve Windows DNS Server Vulnerability with KB4569509 - Critical RCE Fix</title><link>https://dev.simeononsecurity.ch/github/cve-2020-1350_kb4569509_dns_server_vulnerability/</link><pubDate>Sat, 25 Jul 2020 21:09:37 -0500</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"KB4569509"
+, "DNS Server Vulnerability"
+, "CVE-2020-1350"
+, "Windows Server"
+, "Remote Code Execution (RCE)"
+, "Microsoft"
+, "Security Update"
+, "Workaround"
+, "TCP-based DNS"
+, "Registry Change"
+, "DNS Service"
+, "Elevated Command Prompt"
+, "Diagnostic Logging"
+, "DNS Logging and Diagnostics"
+, "Server Security"
+, "Cybersecurity"
+, "IT Security"
+, "Network Security"
+, "System Administration"
+, "Vulnerability Patching"</category><guid>https://dev.simeononsecurity.ch/github/cve-2020-1350_kb4569509_dns_server_vulnerability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows servers running the DNS Server role with the guidance on KB4569509."</description></item></channel></rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secure Coding on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/secure-coding//img/banner.png</url><title>Secure Coding on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/secure-coding/</link></image><link>https://dev.simeononsecurity.ch/genre/secure-coding/</link><description>Recent content in Secure Coding on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/secure-coding/index.xml" rel="self" type="application/rss+xml"/><item><title>Secure Python Coding: Avoiding Unsafe Functions for Robust Applications</title><link>https://dev.simeononsecurity.ch/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Programming"
+, "Cybersecurity"
+, "Software Development"
+, "Python"
+, "Coding"
+, "Web Development"
+, "Secure Coding"
+, "Technology"
+, "Computer Science"
+, "Data Security"</category><guid>https://dev.simeononsecurity.ch/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to write secure Python code by avoiding unsafe functions and adopting best practices for robust and reliable applications.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/secure-python-coding-wall.png" length="1321382" type="image/png"/></item><item><title>Unsafe and Insecure C# Functions: Secure Coding Practices and Alternatives for Stronger Software</title><link>https://dev.simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Software Development"
+, "C Sharp Programming"
+, "Cybersecurity"
+, "Code Security"
+, "Secure Coding"
+, "Programming Best Practices"
+, "Software Vulnerabilities"
+, "Cryptography"
+, "Web Development"
+, "Application Security"</category><guid>https://dev.simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the risks of unsafe C sharp functions and learn secure alternatives.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/secure-coding-shield.png" length="1516443" type="image/png"/></item><item><title>Python Security Best Practices: Protecting Your Code and Data</title><link>https://dev.simeononsecurity.ch/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Python Security"
+, "Code Security"
+, "Data Protection"
+, "Software Development"
+, "Cybersecurity"
+, "Secure Coding"
+, "Web Development"
+, "Data Privacy"
+, "Application Security"
+, "IT Security"</category><guid>https://dev.simeononsecurity.ch/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the essential Python security best practices to safeguard your code and data from potential threats, ensuring data protection, system integrity, and building trust.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>10 Essential PowerShell Security Best Practices for Safeguarding Your Scripts</title><link>https://dev.simeononsecurity.ch/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"PowerShell security best practices"
+, "Scripting security"
+, "Password security"
+, "IT security"
+, "Cybersecurity"
+, "Windows administration"
+, "Automation"
+, "Secure coding"
+, "Network security"
+, "Data protection"</category><guid>https://dev.simeononsecurity.ch/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the top 10 essential PowerShell security best practices for safeguarding your scripts, passwords, and sensitive information. Enhance the security of your PowerShell environment and protect against unauthorized access and potential security breaches.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Secure Coding in Python: Best Practices for Robust Application Security</title><link>https://dev.simeononsecurity.ch/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Programming"
+, "Application Security"
+, "Python Development"
+, "Secure Coding"
+, "Web Development"
+, "Data Analysis"
+, "Artificial Intelligence"
+, "Software Development"
+, "Cybersecurity"
+, "Programming Languages"</category><guid>https://dev.simeononsecurity.ch/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the best practices for secure coding in Python to ensure robust application security and protect against vulnerabilities like SQL injection and cross-site scripting.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png"/></item></channel></rss>

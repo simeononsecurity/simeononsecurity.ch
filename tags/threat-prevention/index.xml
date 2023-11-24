@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Threat prevention on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/threat-prevention//img/banner.png</url><title>Threat prevention on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/threat-prevention/</link></image><link>https://dev.simeononsecurity.ch/tags/threat-prevention/</link><description>Recent content in Threat prevention on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/threat-prevention/index.xml" rel="self" type="application/rss+xml"/><item><title>Ultimate Applocker Hardening Configuration Script: Boost Windows Security</title><link>https://dev.simeononsecurity.ch/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Windows security"
+, "Applocker"
+, "Configuration script"
+, "Cybersecurity"
+, "Malware protection"
+, "Threat prevention"
+, "PowerShell script"
+, "Microsoft recommended block rules"
+, "Compliance"
+, "NSA Cyber Bitlocker Guidance"
+, "Application control"
+, "Hardening Windows"
+, "Cyber threats"
+, "Computer protection"
+, "Cyber defense"
+, "Secure Windows"
+, "Ultimate Applocker ByPass List"
+, "Windows Defender"
+, "System lockdown"
+, "sos-applockerhardening.ps1"</category><guid>https://dev.simeononsecurity.ch/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protect your Windows system against malicious attacks by using the Ultimate Applocker Hardening Configuration Script.</description></item></channel></rss>

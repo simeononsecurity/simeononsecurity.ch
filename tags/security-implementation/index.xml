@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Implementation on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/security-implementation//img/banner.png</url><title>Security Implementation on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/security-implementation/</link></image><link>https://dev.simeononsecurity.ch/tags/security-implementation/</link><description>Recent content in Security Implementation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/security-implementation/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering .NET Framework 4.0 Security: Best Practices &amp; Automation</title><link>https://dev.simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</link><pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Software Development"
+, "Cybersecurity"
+, "Programming"
+, "Windows Systems"
+, "Application Security"
+, ".NET Framework"
+, "Automation"
+, "Best Practices"
+, "Security Guidelines"</category><guid>https://dev.simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential security practices for Microsoft .NET Framework 4.0, backed by automation scripts, to safeguard your applications and data integrity.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/mastering-dotnet-security.png" length="1358887" type="image/png"/></item><item><title>Enhancing Oracle JRE 8 Security: Best Practices, STIGs, and Configuration Examples</title><link>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Software Development"
+, "Computer Science"
+, "Programming"
+, "Security"
+, "Java Programming"
+, "Software Security"
+, "IT Management"
+, "System Administration"</category><guid>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover key practices for securing Oracle JRE 8 with code examples and best practices. Strengthen your system's defense against vulnerabilities.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/enhanced-jre-security.png" length="1038249" type="image/png"/></item><item><title>Mastering Least Privilege: Secure Access Control Strategies for Linux Systems</title><link>https://dev.simeononsecurity.ch/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Linux Security"
+, "Access Control"
+, "IT Security"
+, "Network Security"
+, "Information Protection"
+, "Data Privacy"
+, "Cyber Threats"
+, "Risk Management"
+, "Security Best Practices"</category><guid>https://dev.simeononsecurity.ch/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance cybersecurity with least privilege access control on Linux. Learn implementation steps, best practices, and troubleshooting tips.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/secure-access-control-linux.png" length="1356352" type="image/png"/></item></channel></rss>

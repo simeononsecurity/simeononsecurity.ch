@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>command generator on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/command-generator//img/banner.png</url><title>command generator on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/command-generator/</link></image><link>https://dev.simeononsecurity.ch/tags/command-generator/</link><description>Recent content in command generator on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><atom:link href="https://dev.simeononsecurity.ch/tags/command-generator/index.xml" rel="self" type="application/rss+xml"/><item><title>chmod Command Generator - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/chmod/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"file permissions"
+, "security"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/chmod/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A menu-based tool that generates chmod commands based on user input for modifying file permissions.</description></item><item><title>Nmap Command Generator - SimeonOnSecurity</title><link>https://dev.simeononsecurity.ch/nmap/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"network scanning"
+, "security"
+, "online tools"</category><guid>https://dev.simeononsecurity.ch/nmap/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A menu-based tool that generates Nmap commands based on user input for scanning IP addresses, domains, or IP ranges.</description></item></channel></rss>

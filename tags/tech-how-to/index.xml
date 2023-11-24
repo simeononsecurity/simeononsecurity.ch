@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech How-To on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/tech-how-to//img/banner.png</url><title>Tech How-To on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/tech-how-to/</link></image><link>https://dev.simeononsecurity.ch/tags/tech-how-to/</link><description>Recent content in Tech How-To on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/tech-how-to/index.xml" rel="self" type="application/rss+xml"/><item><title>Secure Data: Robocopy Backup and Restore Guide</title><link>https://dev.simeononsecurity.ch/guides/secure-data-robocopy-backup-restore-guide/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Cybersecurity"
+, "Data Management"
+, "Backup Strategies"
+, "Data Protection"
+, "Windows Tools"
+, "File Copying"
+, "Data Backup"
+, "Disaster Recovery"
+, "File Restore"
+, "Command-Line Tools"</category><guid>https://dev.simeononsecurity.ch/guides/secure-data-robocopy-backup-restore-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to securely back up and restore files using Robocopy, a powerful tool for data protection and peace of mind.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/data-protection-robocopy-shield.png" length="1307144" type="image/png"/></item><item><title>Mastering Windows Registry: Command Line Tips for Efficient Configuration</title><link>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows"
+, "Command Line"
+, "Registry"
+, "System Configuration"
+, "Computer Security"
+, "Tech How-To"
+, "Windows Tips"
+, "IT Solutions"
+, "Software Tweaks"</category><guid>https://dev.simeononsecurity.ch/guides/windows-registry-command-line-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows Registry with expert command line techniques. Learn to query, modify, and secure your system settings.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/Windows_Registry_Wizard.png" length="1989003" type="image/png"/></item><item><title>Automate Windows 11 Installation: Bypass TPM, Secure Boot, and RAM Checks</title><link>https://dev.simeononsecurity.ch/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Windows 11"
+, "Installation"
+, "Virtualization"
+, "Automation"
+, "Registry Keys"
+, "TPM Bypass"
+, "Secure Boot Bypass"
+, "RAM Bypass"
+, "vTPM"</category><guid>https://dev.simeononsecurity.ch/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Streamline Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item></channel></rss>

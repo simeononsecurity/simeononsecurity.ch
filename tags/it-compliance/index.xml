@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT compliance on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/it-compliance//img/banner.png</url><title>IT compliance on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/it-compliance/</link></image><link>https://dev.simeononsecurity.ch/tags/it-compliance/</link><description>Recent content in IT compliance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 29 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/it-compliance/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Oracle JRE 8 Security: Best Practices, STIGs, and Configuration Examples</title><link>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technology"
+, "Cybersecurity"
+, "Software Development"
+, "Computer Science"
+, "Programming"
+, "Security"
+, "Java Programming"
+, "Software Security"
+, "IT Management"
+, "System Administration"</category><guid>https://dev.simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover key practices for securing Oracle JRE 8 with code examples and best practices. Strengthen your system's defense against vulnerabilities.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/enhanced-jre-security.png" length="1038249" type="image/png"/></item><item><title>Networking Basics: Understanding Switches, Routers, Gateways, Subnets, Firewalls &amp; DMZs</title><link>https://dev.simeononsecurity.ch/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Networking"
+, "IT Infrastructure"
+, "Network Security"
+, "Network Architecture"
+, "Cybersecurity"
+, "Data Communication"
+, "Information Technology"
+, "IT Fundamentals"
+, "Network Management"
+, "Internet Connectivity"</category><guid>https://dev.simeononsecurity.ch/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the fundamentals of networking components and their significance in building reliable and secure networks, including switches, routers, gateways, subnets, firewalls, and DMZs.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_interconnected.png" length="294316" type="image/png"/></item></channel></rss>

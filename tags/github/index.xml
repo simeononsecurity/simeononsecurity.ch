@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/github//img/banner.png</url><title>GitHub on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/github/</link></image><link>https://dev.simeononsecurity.ch/tags/github/</link><description>Recent content in GitHub on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned more Powershell and Ansible Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "PowerShell"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned about Windows STIG Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.
+New/Updated Repos: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Learning Resources: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.windows.psexec win_psexec</description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://dev.simeononsecurity.ch/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "Security Compliance"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://dev.simeononsecurity.ch/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned and discovered several interesting things today related to Windows security and automation using Ansible.
+First, two new and updated repositories were identified. The Windows_STIG_Ansible repository provides a complete solution for configuring Windows systems to meet Security Technical Implementation Guide (STIG) requirements, using the Ansible automation platform. The windows_stigs repository is a collection of Ansible roles for configuring Windows systems to meet STIG requirements, and it is available on Ansible Galaxy, a central repository for sharing Ansible content.</description></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://dev.simeononsecurity.ch/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://dev.simeononsecurity.ch/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.
+In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool.</description></item><item><title>FireFox Privacy Script: Automate Enhanced Security &amp; Privacy</title><link>https://dev.simeononsecurity.ch/github/firefox-privacy-script/</link><pubDate>Mon, 17 Aug 2020 03:32:03 -0500</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"FireFox"
+, "Privacy"
+, "Security"
+, "Automation"
+, "Powershell"
+, "Configuration"
+, "PrivacyTools.io"
+, "ffprofile"
+, "Windows"
+, "Extensions"
+, "Telemetry"
+, "Cookies"
+, "Trackers"
+, "Blocking"
+, "Enhancement"
+, "Script"
+, "GitHub"
+, "Online Privacy"
+, "Online Security"
+, "Browser Privacy"</category><guid>https://dev.simeononsecurity.ch/github/firefox-privacy-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance the security and privacy of your FireFox browser with this automated script based on suggestions from PrivacyTools.io and ffprofile.</description></item><item><title>Contact Details for SimeonOnSecurity: Connect Safely for Business Inquiries and Security Concerns</title><link>https://dev.simeononsecurity.ch/contactus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Contact Details"
+, "Secure Communication"
+, "Business Inquiries"
+, "Security Concerns"
+, "Social Media"
+, "Contact Form"
+, "Privacy"
+, "SimeonOnSecurity"
+, "Secure Connect"
+, "Secure Communication Platform"
+, "RSS Feed"
+, "GitHub"
+, "Twitter"
+, "Mastodon"
+, "Reddit"
+, "Medium"
+, "Substack"
+, "Discord"
+, "Connect Safely"
+, "Secure Messaging"
+, "Online Privacy"
+, "Data Protection"
+, "Secure Contact Form"
+, "Business Contact"
+, "Secure Connection"
+, "Online Security"
+, "Cybersecurity"
+, "Digital Privacy"
+, "Secure Platform"
+, "Secure Communication Channel"</category><guid>https://dev.simeononsecurity.ch/contactus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ensure secure communication with SimeonOnSecurity by using our contact form for business inquiries or security concerns, while staying connected through various social media platforms.</description></item><item><title>Recommended Security Content Creators</title><link>https://dev.simeononsecurity.ch/recommendations/creators/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Recommended Security Content Creators"
+, "Top Security Content Creators"
+, "Best Cybersecurity Influencers"
+, "Expert Security Creators"
+, "Top-notch Security Creators"
+, "SimeonOnSecurity Recommendations"
+, "ippSec and Other Security Creators"
+, "John Hammond and Other Influential Creators"
+, "LiveOverflow and Other Notable Creators"
+, "NahamSec and Other Trusted Security Creators"</category><guid>https://dev.simeononsecurity.ch/recommendations/creators/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover top-notch security content creators handpicked by SimeonOnSecurity. From ippSec to John Hammond, LiveOverflow, NahamSec, Rob Fuller, and TheBlindHacker, these experts bring you the latest in the field through their various platforms including YouTube, Twitch, Twitter, GitHub, and websites. Stay up-to-date and deepen your knowledge with the best in the industry.</description></item></channel></rss>

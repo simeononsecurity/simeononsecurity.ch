@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A record on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/a-record//img/banner.png</url><title>A record on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/a-record/</link></image><link>https://dev.simeononsecurity.ch/tags/a-record/</link><description>Recent content in A record on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/a-record/index.xml" rel="self" type="application/rss+xml"/><item><title>Understanding DNS and Root DNS: How They Work, Their Importance, and Troubleshooting Guidance</title><link>https://dev.simeononsecurity.ch/articles/how-does-dns-work/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"DNS basics"
+, "Root DNS"
+, "Domain Name System"
+, "DNS resolution"
+, "DNS hierarchy"
+, "DNS caching"
+, "DNS troubleshooting"
+, "DNS records"
+, "DNS management"
+, "DNS commands"</category><guid>https://dev.simeononsecurity.ch/articles/how-does-dns-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the working principles of DNS and Root DNS, their hierarchical structure, resolution process, caching mechanisms, and troubleshooting tips.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/An_image_depicting_interconnected_computer_ne.png" length="319295" type="image/png"/></item></channel></rss>

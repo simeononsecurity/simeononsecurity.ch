@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Threat Hunting on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/genre/threat-hunting//img/banner.png</url><title>Threat Hunting on simeononsecurity</title><link>https://dev.simeononsecurity.ch/genre/threat-hunting/</link></image><link>https://dev.simeononsecurity.ch/genre/threat-hunting/</link><description>Recent content in Threat Hunting on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/genre/threat-hunting/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Auditpol, Sysmon, and Sysmon Configurations</title><link>https://dev.simeononsecurity.ch/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"PowerShell"
+, "Automation"
+, "Sysmon"
+, "Configurations"
+, "Windows Security"
+, "Event Monitoring"
+, "Windows Administration"
+, "Security Auditing"
+, "Threat Hunting"
+, "Malware Analysis"</category><guid>https://dev.simeononsecurity.ch/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+What SimeonOnSecurity learned about and found interesting today
+SimeonOnSecurity learned and discovered several interesting things today related to Windows security and event monitoring.
+First, two new and updated repositories were identified. The Automate-Sysmon repository provides a solution for automating the installation, configuration, and management of Sysmon, a popular tool for monitoring and logging system activity on Windows systems. The Windows-Audit-Policy repository provides a solution for automating the configuration of Windows audit policies, which control the auditing of various security-related events on Windows systems.</description></item></channel></rss>

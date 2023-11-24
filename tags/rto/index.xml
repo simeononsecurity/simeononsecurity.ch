@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTO on simeononsecurity</title><image><url>https://dev.simeononsecurity.ch/tags/rto//img/banner.png</url><title>RTO on simeononsecurity</title><link>https://dev.simeononsecurity.ch/tags/rto/</link></image><link>https://dev.simeononsecurity.ch/tags/rto/</link><description>Recent content in RTO on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.simeononsecurity.ch/tags/rto/index.xml" rel="self" type="application/rss+xml"/><item><title>Network Plus Course: Backup and Restore for Network Stability and Resilience</title><link>https://dev.simeononsecurity.ch/network-plus/network-plus-course-backup-restore-network-stability-resilience/</link><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"IT Certification"
+, "Networking"
+, "Network Infrastructure"
+, "Backup and Restore"
+, "Disaster Recovery"
+, "High Availability"
+, "Data Protection"
+, "IT Resilience"
+, "Network Management"
+, "IT Operations"</category><guid>https://dev.simeononsecurity.ch/network-plus/network-plus-course-backup-restore-network-stability-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the importance of network device backup and restore, strategies for backing up and restoring device state and configuration, recovery sites, redundancy and high availability mechanisms, and essential metrics in network operations.</description><enclosure url="https://dev.simeononsecurity.ch/img/cover/A_symbolic_illustration_of_network_devices_pro.png" length="948568" type="image/png"/></item></channel></rss>
