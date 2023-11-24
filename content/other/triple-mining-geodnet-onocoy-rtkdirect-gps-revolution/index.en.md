@@ -189,7 +189,7 @@ sudo apt install -y rtklib
   str2str -in serial://ttyUSB0:921600:8:n:1#rtcm3 -out tcpsvr://:5015 -b 1 -t 0
   ```
    - **ttyUSB0**: Specifies the USB port. Adjust this based on your system configuration.
-   - **921600**: Represents the baud rate. Modify this value if your device requires a different baud rate. Another common baud rate is `115200`.
+   - **921600**: Represents the baud rate. Modify this value if your device requires a different baud rate. Another common baud rate for GPS receivers is `115200`.
    - **8**: Indicates the data bits.
    - **n**: Represents no parity.
    - **1**: Indicates one stop bit.
