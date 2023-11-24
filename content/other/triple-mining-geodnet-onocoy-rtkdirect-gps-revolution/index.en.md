@@ -24,7 +24,7 @@ For this project we need a few things.
 
 1. [Geodnet Miner](https://hyfix.ai/products/mobilecm-triple-band-gnss-base-station)
 2. Any [system running linux](https://amzn.to/45IW4ZD)
-3. A [UM980](https://gnss.store/unicore-gnss-modules/247-elt0222.html) or [Mosaic-X5](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) Based GPS Reciever
+3. A [UM980](https://gnss.store/unicore-gnss-modules/247-elt0222.html) or [Mosaic-X5](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) Based GPS Receiver
 4. A [GPS Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) (You can use the one that came with your geodnet device)
 5. A really good [Power Blocking Antenna Splitter](https://www.gns-electronics.de/product/11359)
 
