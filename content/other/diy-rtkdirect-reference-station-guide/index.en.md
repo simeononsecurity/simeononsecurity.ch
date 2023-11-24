@@ -200,6 +200,12 @@ sudo systemctl disable rtkbase_web
 sudo systemctl stop rtkbase_web
 ```
 
+or if you're on Ubuntu specifically
+
+```bash
+sudo apt install -y rtklib
+```
+
 #### 2. Set up STR2STR
 
 1. **Set up USB to local TCP server**
@@ -222,7 +228,7 @@ sudo systemctl stop rtkbase_web
   You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots)
 
   ```bash
-  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107,1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
   ```
 
    **Notes**: 
@@ -279,7 +285,7 @@ sudo systemctl stop rtkbase_web
   After=network-online.target
 
   [Service]
-  ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+  ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107,1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
   Restart=always
   RestartSec=30
   StartLimitBurst=10
