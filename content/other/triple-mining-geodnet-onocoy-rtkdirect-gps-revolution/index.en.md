@@ -174,6 +174,11 @@ sudo ./install.sh --all release #must not be run as root
 sudo systemctl disable rtkbase_web 
 sudo systemctl stop rtkbase_web
 ```
+or if you're on Ubuntu specifically
+
+```bash
+sudo apt install -y rtklib
+```
 
 #### 2. Set up STR2STR
 
@@ -184,14 +189,14 @@ sudo systemctl stop rtkbase_web
   str2str -in serial://ttyUSB0:921600:8:n:1#rtcm3 -out tcpsvr://:5015 -b 1 -t 0
   ```
    - **ttyUSB0**: Specifies the USB port. Adjust this based on your system configuration.
-   - **921600**: Represents the baud rate. Modify this value if your device requires a different baud rate.
+   - **921600**: Represents the baud rate. Modify this value if your device requires a different baud rate. Another common baud rate is `115200`.
    - **8**: Indicates the data bits.
    - **n**: Represents no parity.
    - **1**: Indicates one stop bit.
 
   Make sure to customize these settings according to your specific hardware and communication requirements.
 
-  > *For those who aren't following my guide exactly and are using a standalone NTRIP device or have followed our ESP32 guide, you'll end up doing something like the following `str2str -in ntrip://your-ntrip-source-here#rtcm3 -out tcpsvr://:5015#rtcm3` Play around with the `--help`. You goal should be to take NTRIP in and do local TCP out.*
+  > *For those who aren't following my guide exactly and are using a standalone NTRIP device, like the NTRIP-X or Ardusimple Devices with the Wifi Master, or have followed our ESP32 guide, you'll end up doing something like the following `str2str -in ntrip://your-ntrip-source-here#rtcm3 -out tcpsvr://:5015#rtcm3`  in combination with a service like [Emlid Caster](https://emlid.com/ntrip-caster/). Play around with the `--help`. You goal should be to take NTRIP in and do local TCP out. Unfortunately the two software packages available for Linux don't let you take in NTRIP in as a caster directly, so we have to go through a middle man and access it as a NTRIP client.*
 
 
 2. **Test Set Up TCP Forwarding to RTKDirect**
@@ -199,7 +204,7 @@ sudo systemctl stop rtkbase_web
   You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots).
 
   ```bash
-  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
   ```
 
    **Notes**: 
@@ -274,7 +279,7 @@ sudo systemctl stop rtkbase_web
       After=network-online.target
 
       [Service]
-      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
       Restart=always
       RestartSec=30
       StartLimitBurst=10
