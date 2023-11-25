@@ -18,6 +18,16 @@ tags: ["Ansible", "Python", "PowerShell", "Chocolatey", "NPM", "FireFox", "STIG"
 - [**simeononsecurity/system_update**](https://galaxy.ansible.com/ui/standalone/roles/simeononsecurity/system_update/): An Ansible role for system update tasks for both Windows and Linux.
 - [**simeononsecurity/windows_update**](https://galaxy.ansible.com/ui/standalone/roles/simeononsecurity/windows_update/): An Ansible role for updating Windows systems.
 
+## Browser Extensions
+
+### Chrome
+
+- [**Search SimeonOnSecurity**](https://chromewebstore.google.com/detail/search-simeononsecurity/ggglhpkijcikcjmhlbakphhcgjgbdmel): A Chrome extension that enhances search capabilities and features related to security and technology by allowing you to search SimeonOnSecurity directly within your web browser.
+
+### FireFox
+
+- [**Search SimeonOnSecurity**](https://addons.mozilla.org/en-US/firefox/addon/search-simeononsecurity/): A Firefox extension that enhances search capabilities and features related to security and technology by allowing you to search SimeonOnSecurity directly within your web browser.
+
 
 ## Chocolatey Packages
 
@@ -27,9 +37,6 @@ tags: ["Ansible", "Python", "PowerShell", "Chocolatey", "NPM", "FireFox", "STIG"
 - [**vscode-remote-development**](https://community.chocolatey.org/packages/vscode-remote-development): A Chocolatey package for remote development features in Visual Studio Code.
 - [**vscode-remote-ssh**](https://community.chocolatey.org/packages/vscode-remote-ssh): A Chocolatey package for enabling remote SSH connections in Visual Studio Code.
 
-## FireFox Extensions
-
-- [**Search SimeonOnSecurity**](https://addons.mozilla.org/en-US/firefox/addon/search-simeononsecurity/): A Firefox extension that enhances search capabilities and features related to security and technology by allowing you to search SimeonOnSecurity directly within your web browser.
 
 ## NPM Packages
 
