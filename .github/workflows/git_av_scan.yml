@@ -19,4 +19,3 @@ jobs:
       uses: djdefi/gitavscan@main
       with:
         full: '--full'
-        options: '--max-filesize=1M'
