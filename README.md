@@ -17,8 +17,9 @@ Welcome to the SimeonOnSecurity website! Here, we provide the latest information
 [![Test Hugo Latest Version](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/hugo.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/hugo.yml)
 ![Greetings](https://github.com/simeononsecurity/simeononsecurityweb/workflows/Greetings/badge.svg)
 [![VirusTotal Scan](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/virustotal.yml)
+[![ClamAV Scan](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/git_av_scan.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/git_av_scan.yml)
 [![HTML Validation](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/html_verify_built.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/html_verify_built.yml)
-[![Push Sitemap to Bing Indexnow and Google Indexing Api](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/sitemap_submission.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/sitemap_submission.yml)
+[![Push Sitemap to Bing IndexNow and Google Indexing API](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/sitemap_submission.yml/badge.svg)](https://github.com/simeononsecurity/simeononsecurity.ch/actions/workflows/sitemap_submission.yml)
 
 ## Technologies Used
 
