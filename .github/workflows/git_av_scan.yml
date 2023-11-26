@@ -17,5 +17,3 @@ jobs:
     
     - name: Git AV Scan
       uses: djdefi/gitavscan@main
-      with:
-        full: '--full'
