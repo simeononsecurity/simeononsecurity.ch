@@ -304,6 +304,8 @@ To enable all the bands and base station mode on the Unicorecomm devices you'll 
 
 5. `saveconfig`: This command saves the configured settings, ensuring that they persist and are applied whenever the reference station is operational.
 
+{{< centerbutton href="https://simeononsecurity.com/other/onocoy-supported-rtcm-messages/" >}}Read our guide RTCM3 Messages!{{< /centerbutton >}}
+
 ### Unicorecomm UM980 and UM982 Configuration Script
 ```bash
 # Set up automatic base configuration with automatic gps location 
@@ -371,6 +373,8 @@ I suggest using [Onocoy](https://console.onocoy.com/explorer) and using their se
 
 ## Conclusion
 
+{{< figure src="esp32 complete build in larger case.webp" alt="Internals of a Completed ESP32 and UM982 Based GPS Base Station Inside of a Project Box" caption="Completed Internals of ESP32 Based Base Station" >}}
+      
 Congratulations on completing the setup of your budget DIY GPS/GNSS base station using the ESP32 and the Unicorecomm UM980 module! This comprehensive guide has covered everything from selecting hardware components to flashing firmware and configuring the system.
 
 By choosing the Unicorecomm UM980 module, you've opted for a GNSS solution that offers enhanced performance in challenging conditions, provides valuable heading information, and ensures seamless compatibility and integration. The UM980's advantages over the U-Blox F9P make it a compelling choice for applications requiring precision and reliability.
