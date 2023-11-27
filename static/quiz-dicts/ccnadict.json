@@ -826,7 +826,7 @@
             "C": "/22",
             "D": "/23"
         },
-        "correctanswer": "A"
+        "correctanswer": "B"
     },
     {
         "question": "What is BGP and what is its role in Internet routing?",
