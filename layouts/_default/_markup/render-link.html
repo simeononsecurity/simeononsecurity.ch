@@ -58,8 +58,14 @@
     "geni.us"
 }}
 
+{{ $untrustedURLs := slice
+    "wholovesburrito.com"
+}}
+
+
 {{ $isBaseURL := false }}
 {{ $isaffiliateURL := false }}
+{{ $isUntrustedURL := false }}
 
 {{ range $baseURL := $baseURLs }}
     {{ if strings.Contains $.Destination $baseURL }}
@@ -75,18 +81,29 @@
     {{ end }}
 {{ end }}
 
+{{ range $untrustedURL := $untrustedURLs }}
+    {{ if strings.Contains $.Destination $untrustedURL }}
+        {{ $isUntrustedURL = true }}
+        {{ break }}
+    {{ end }}
+{{ end }}
+
 <span itemscope itemtype="https://schema.org/WebPage">
     <meta itemprop="name" content="{{ .Text }}">
     <meta itemprop="url" content="{{ .Destination | safeURL }}">
     <a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}" alt="{{ . }}"{{ end }}
     {{ if or (not (strings.Contains $.Destination "http")) $isBaseURL }}
-        rel="follow"
+        rel="follow me"
     {{ else if strings.HasPrefix $.Destination "http" }}
         {{ if not $isBaseURL }}
             {{ if $isaffiliateURL }}
                 rel="nofollow noopener external sponsored" alt="Affiliate Link"
             {{ else }}
-                rel="noopener external"
+                {{ if $isUntrustedURL }}
+                    rel="nofollow noreferrer noopener external"
+                {{ else }}
+                    rel="noopener external"
+                {{ end }}
             {{ end }}
         {{ end }}
     {{ end }}>{{ .Text | safeHTML }}</a>
