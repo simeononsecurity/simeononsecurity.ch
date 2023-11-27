@@ -109,7 +109,7 @@
 {{ end }}
 
 <center>
-    <figure align="center" style="text-align: center; margin: 0 auto;" {{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    <figure align="center" style="text-align: center; margin: 0 auto;" {{ with .Get "class" }} class="{{ . }}"{{ end }} itemscope itemtype="http://schema.org/ImageObject">
         {{- if .Get "link" -}}
             <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }} alt="{{ or $alt (.Get "alt") (.Get "caption") }}" rel="{{ $rel }}" {{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
         {{- end }}
@@ -127,12 +127,13 @@
              {{- with .Get "height" }} height="{{ . }}"{{ end -}}
              loading="lazy"
              fetchpriority="low"
+             itemprop="contentUrl"
         /> <!-- Closing img tag -->
         {{- if .Get "link" }}</a>{{ end -}}
         {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-            <figcaption align="center" style="text-align: center; margin: 0 auto;">
+            <figcaption align="center" style="text-align: center; margin: 0 auto;" itemprop="caption description">
                 {{ with (.Get "title") -}}
-                    <h4>{{ . }}</h4>
+                    <h4 itemprop="name">{{ . }}</h4>
                 {{- end -}}
                 {{- if or (.Get "caption") (.Get "attr") -}}<p>
                     {{- .Get "caption" | markdownify -}}
