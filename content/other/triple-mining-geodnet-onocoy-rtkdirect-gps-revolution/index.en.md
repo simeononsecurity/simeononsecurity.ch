@@ -160,7 +160,71 @@ You'll take the [Power Blocking GPS Splitter](https://www.gns-electronics.de/pro
 
 `Linux System` <---> `GPS Receiver` <-----> `Power Blocking GPS Splitter`
 
-### Linux
+### Linux - Docker Container 
+
+#### 1. Install Docker
+
+Consult the following guides for more information on how to install docker
+
+- https://www.digitalocean.com/community/tutorial-collections/how-to-install-and-use-docker
+- https://docs.docker.com/engine/install/
+- https://docs.docker.com/engine/install/ubuntu/
+
+#### 2. Run the Docker Container
+
+  Run our [Docker container](https://github.com/simeononsecurity/docker-rtklib-onocoy-rtkdirect), ensuring that you provide the necessary environment variables and parameters:
+
+    > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
+
+   ```bash
+   docker run \
+     -td \
+     --restart unless-stopped \
+     --name sosrtk \
+     --device=/dev/<YOUR_USB_PORT> \
+     -e USB_PORT=<YOUR_USB_PORT> \
+     -e BAUD_RATE=<YOUR_SERIAL_BAUD_RATE> \
+     -e DATA_BITS=<YOUR_SERIAL_DATA_BITS> \
+     -e PARITY=<YOUR_SERIAL_PARITY> \
+     -e STOP_BITS=<YOUR_SERIAL_STOP_BITS> \
+     -e ONOCOY_USERNAME=<YOUR_ONOCOY_MOUNTPOINT_USERNAME> \
+     -e PASSWORD=<YOUR_ONOCOY_MOUNTPOINT_PASSWORD> \
+     -e PORT_NUMBER=<YOUR_RTKLIB_PORT_NUMBER> \
+     -e LAT=<OPTIONAL_YOUR_LATITUDE> \
+     -e LONG=<OPTIONAL_YOUR_LONGITUDE> \
+     -e ELEVATION=<OPTIONAL_YOUR_ELEVATION_FROM_SEA_LEVEL_IN_METERS> \
+     -e INSTRUMENT=<OPTIONAL_YOUR_GPS_RECEIVER_DESCRIPTION> \
+     -e ANTENNA=<OPTIONAL_YOUR_ANTENNA_DESCRIPTION> \
+     simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
+   ```
+
+   Ensure you replace the placeholder values (`<...>`) with your specific configuration.
+
+   Ex.
+   ```bash
+   docker run \
+    -td \
+    --restart unless-stopped \
+    --name sosrtk \
+    --device=/dev/ttyUSB0 \
+    -e USB_PORT=ttyUSB0 \
+    -e BAUD_RATE=921600 \
+    -e DATA_BITS=8 \
+    -e PARITY=n \
+    -e STOP_BITS=1 \
+    -e ONOCOY_USERNAME=your_onocoy_mountpoint_username \
+    -e PASSWORD=your_onocoy_mountpoint_password \
+    -e PORT_NUMBER=32377 \
+    -e LAT=37.7749 \
+    -e LONG=-122.4194 \
+    -e ELEVATION=50 \
+    -e INSTRUMENT="Your GPS Receiver" \
+    -e ANTENNA="Your Antenna" \
+    simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
+   ```
+
+
+### Linux - Manually
 
 
 #### 1. Install RTKBase
