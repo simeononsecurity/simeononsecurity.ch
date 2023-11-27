@@ -108,8 +108,54 @@
     {{ end }}
 {{ end }}
 
+{{ $authorURL := ""}}
+{{ if .Params.Author }}
+  {{ with .Params.Author }}
+      {{ $authorURL =  ("/authors/({{ . | lower }})" | absURL) }}
+  {{ else }}
+      {{ $authorURL =  ("/authors/simeononsecurity" | absURL) }}
+  {{ end }}
+{{ end }}
+
+{{ $articleDate := .Params.date | default now }}
+{{ $articleYear := $articleDate.Year }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "{{ ($.Get "link") | absURL }}",
+    "caption": "{{ or $alt (.Get "alt") (.Get "caption") | default "" }}",
+    "license": "https://simeononsecurity.com/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.com/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
+    "@type": "Person",
+    "name": "SimeonOnSecurity"
+    },
+    "copyrightNotice": "SimeonOnSecurity",
+    "associatedArticle": {
+    "@type": "NewsArticle",
+    "headline": "{{ .Page.Title }}",
+    "url": "{{ .Page.Permalink }}",
+    "datePublished": "{{ $articleDate | default $articleYear }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ .Page.Params.Author | default "SimeonOnSecurity" }}",
+        "url": "{{ $authorURL | default ("/authors/simeononsecurity" | absURL )}}"
+    }
+    }
+}
+</script> 
+
+
 <center>
     <figure align="center" style="text-align: center; margin: 0 auto;" {{ with .Get "class" }} class="{{ . }}"{{ end }} itemscope itemtype="http://schema.org/ImageObject">
+        <meta property="article:published_time" content="{{ $articleDate | default $articleYear }}">
+        <meta property="article:author" content="{{ .Page.Params.Author | default "SimeonOnSecurity" }}">
+        <meta property="article:author:url" content="{{ $authorURL | default ("/authors/simeononsecurity" | absURL) }}">
+        <meta property="og:license" content="https://simeononsecurity.com/termsandconditions/">
+        <meta property="og:see_also" content="https://simeononsecurity.com/contactus/">
+        <meta property="og:copyright" content="SimeonOnSecurity">
         {{- if .Get "link" -}}
             <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }} alt="{{ or $alt (.Get "alt") (.Get "caption") }}" rel="{{ $rel }}" {{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
         {{- end }}
