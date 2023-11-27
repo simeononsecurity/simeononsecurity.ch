@@ -204,7 +204,7 @@ sudo apt install -y rtklib
   You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots).
 
   ```bash
-  str2str -in tcpcli://localhost:5015#rtcm3 -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB  DIY" -a "GEODNET ANTENNA" -t 0
+  str2str -in tcpcli://localhost:5015#rtcm3 -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB  DIY" -a "GEODNET ANTENNA" -t 0
   ```
 
    **Notes**: 
@@ -279,7 +279,7 @@ sudo apt install -y rtklib
       After=network-online.target
 
       [Service]
-      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB  DIY" -a "GEODNET ANTENNA" -t 0
+      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB  DIY" -a "GEODNET ANTENNA" -t 0
       Restart=always
       RestartSec=30
       StartLimitBurst=10
