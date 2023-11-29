@@ -9,6 +9,7 @@ tags: ["Retrieve system details", "Control services", "Smooth system shutdown", 
 cover: "/img/cover/windows-system-management-gears.png"
 coverAlt: "Symbolic representation of a computer tower with gears inside, illustrating efficient Windows system management."
 coverCaption: "Empower Your System, Master Windows Management."
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 ## Windows System Information and Management
