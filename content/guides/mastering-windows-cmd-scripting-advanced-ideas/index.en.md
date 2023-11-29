@@ -9,6 +9,7 @@ tags: ["advanced CMD concepts", "efficient resource management", "process monito
 cover: "/img/cover/windows-cmd-processes-visualization.png"
 coverAlt: "Windows CMD processes visualization."
 coverCaption: "Empower your IT journey with advanced CMD scripting techniques."
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 **Windows CMD Line and Scripting: Tasklist, Background (&), and Disown**
