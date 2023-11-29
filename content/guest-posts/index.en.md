@@ -15,7 +15,7 @@ Thank you for your interest in contributing to our website! We welcome guest blo
 
 2. Prepare your article in either Markdown (md) or HTML format.
 
-3. Submit a pull request on our GitHub repository at [https://github.com/simeononsecurity/simeononsecurity.com](https://github.com/simeononsecurity/simeononsecurity.com). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.com/tree/master/content/authors).
+3. Submit a pull request on our GitHub repository at [https://github.com/simeononsecurity/simeononsecurity.ch](https://github.com/simeononsecurity/simeononsecurity.ch). If you don't have an author page already, create one following the example in [our author directory](https://github.com/simeononsecurity/simeononsecurity.ch/tree/master/content/authors).
 
 4. Ensure your article includes valid frontmatter (metadata) with all the required variables, as shown in the example below:
 

@@ -14,10 +14,10 @@ coverCaption: "Empower Your Networking Career"
 ## Resources
 
 - [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
-- [Network+ Practice Test](/network-plus-practice-test)
-- [Network+ Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-network-n10-008-exam-objectives-(2-0))
-- [Professor Messer's Network Plus Videos](https://www.youtube.com/watch?v=As6g6IXcVa4&list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
-- [Additional Learning Resources](/recommendations/learning_resources)
+- [Network+ Practice Test](/network-plus-practice-test/)
+- [Network+ Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-network-n10-008-exam-objectives-(2-0/)/)
+- [Professor Messer's Network Plus Videos](https://www.youtube.com/watch?v=As6g6IXcVa4&list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G/)
+- [Additional Learning Resources](/recommendations/learning_resources/)
 
 ## Objective 1: Networking Fundamentals
 
@@ -90,7 +90,7 @@ coverCaption: "Empower Your Networking Career"
 ### [Bandwidth Management and QoS](/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/)
 
 - Introduction to bandwidth management and traffic shaping
-- Explaining quality of service (QoS) principles and techniques
+- Explaining quality of service (QoS/) principles and techniques
 - Implementation of QoS for prioritizing network traffic
 
 ### [Ethernet Switching Features and Configurations](/network-plus/ethernet-switching-vlans-port-configurations-security/)
@@ -99,10 +99,10 @@ coverCaption: "Empower Your Networking Career"
 - Explaining port configurations, tagging, and aggregation
 - Implementation of port security, mirroring, and jumbo frames
 
-### [Address Resolution Protocol (ARP) and Neighbor Discovery Protocol](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/)
+### [Address Resolution Protocol (ARP/) and Neighbor Discovery Protocol](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/)
 
 - Understanding ARP and its role in resolving IP addresses to MAC addresses
-- Explaining Neighbor Discovery Protocol (NDP) in IPv6 networks
+- Explaining Neighbor Discovery Protocol (NDP/) in IPv6 networks
 - Troubleshooting common issues related to ARP and NDP
 
 ### [Wireless Standards and Technologies](/network-plus/network-plus-course-wireless-standards-technologies/)
@@ -128,7 +128,7 @@ coverCaption: "Empower Your Networking Career"
 - Understanding device/chassis performance metrics
 - Monitoring temperature, CPU usage, and memory
 - Network metrics: bandwidth, latency, and jitter
-- Overview of SNMP (Simple Network Management Protocol)
+- Overview of SNMP (Simple Network Management Protocol/)
 - Using traps, OIDs, and MIBs for monitoring
 
 ### [Network Logs and Logging](/network-plus/network-plus-course-understanding-importance-network-logs-logging/)
@@ -151,7 +151,7 @@ coverCaption: "Empower Your Networking Career"
 - Change management and its role in maintaining network stability
 - Incident response plan, disaster recovery plan, and business continuity plan
 - System life cycle and its impact on network operations
-- Standard operating procedures (SOPs) for network management
+- Standard operating procedures (SOPs/) for network management
 
 ### [Documentation and Policies](/network-plus/network-plus-course-documentation-policies-network-management/)
 - Importance of organizational documents and policies
@@ -161,17 +161,17 @@ coverCaption: "Empower Your Networking Career"
 - Understanding common agreements: NDA, SLA, MOU
 
 ### [Network Availability and Resilience](/network-plus/network-availability-resilience-enhancement/)
-- Explaining high availability (HA) and disaster recovery (DR) concepts
+- Explaining high availability (HA/) and disaster recovery (DR/) concepts
 - Load balancing and its role in ensuring network availability
 - Multipathing and NIC teaming for redundancy
 - Redundant hardware and clustering for improved network resilience
 - Facilities and infrastructure support for network uptime
 
-### [Backup and Restore](/network-plus/network-plus-course-backup-restore-network-stability-resilience)
+### [Backup and Restore](/network-plus/network-plus-course-backup-restore-network-stability-resilience/)
 - Importance of network device backup and restore
 - Backing up and restoring device state and configuration
 - Understanding the different recovery sites: cold, warm, hot, and cloud
-- Implementing redundancy and high availability (HA) mechanisms
+- Implementing redundancy and high availability (HA/) mechanisms
 - MTTR, MTBF, RTO, and RPO in network operations
 
 -----
@@ -183,8 +183,8 @@ coverCaption: "Empower Your Networking Career"
 ### [Network Hardening Techniques](/network-plus/network-plus-course-network-hardening-techniques/)
 - Introduction to network hardening
 - Best practices for network hardening
-- Securing SNMP (Simple Network Management Protocol)
-- Implementing Router Advertisement (RA) Guard
+- Securing SNMP (Simple Network Management Protocol/)
+- Implementing Router Advertisement (RA/) Guard
 - Configuring port security and dynamic ARP inspection
 - Control plane policing and private VLANs
 
@@ -206,7 +206,7 @@ coverCaption: "Empower Your Networking Career"
 - Implementing MAC filtering and proper antenna placement
 - Setting appropriate power levels for wireless networks
 - Configuring wireless client isolation and guest network isolation
-- Understanding preshared keys (PSKs) and EAP (Extensible Authentication Protocol)
+- Understanding preshared keys (PSKs/) and EAP (Extensible Authentication Protocol/)
 - Exploring geofencing and captive portal for enhanced wireless security
 - Considerations for IoT access and securing IoT devices
 

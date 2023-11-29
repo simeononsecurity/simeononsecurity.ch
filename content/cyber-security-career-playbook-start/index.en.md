@@ -29,7 +29,7 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 
 ### About the CyberSecurity Career
 
-#### [Explain Cybersecurity Like I'm 5 (ELI5)](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
+#### [Explain Cybersecurity Like I'm 5 (ELI5/)](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/)
 - Simplified explanations of cybersecurity concepts for beginners.
 
 #### [Is Cybersecurity a Good Career?](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/is-cybersecurity-a-good-career/)
@@ -94,11 +94,11 @@ When pursuing a career in cybersecurity, one important consideration is obtainin
 #### [Are Certifications Needed for a Cybersecurity Career?](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/are-certifications-needed-for-a-cybersecurity-career/)
 - Explore the importance of certifications in the cybersecurity field and their impact on career opportunities.
 
-#### [Performance-Based Questions (PBQs) and Cybersecurity Certifications](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/)
-- Learn about performance-based questions (PBQs) in cybersecurity certifications and how to prepare for them.
+#### [Performance-Based Questions (PBQs/) and Cybersecurity Certifications](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/)
+- Learn about performance-based questions (PBQs/) in cybersecurity certifications and how to prepare for them.
 
 #### [CEUs in Cybersecurity: What They Are and Why You Need Them](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/ceus-in-cybersecurity-what-they-are-and-why-you-need-them/)
-- Understand the concept of Continuing Education Units (CEUs) in cybersecurity and their importance for professional development.
+- Understand the concept of Continuing Education Units (CEUs/) in cybersecurity and their importance for professional development.
 
 #### Certification Guides and Tips
 
@@ -114,30 +114,30 @@ We've included a few tips and tricks for these certifications below:
 
 | CompTIA Certification Practice Tests          | Description                       |
 |----------------------------------------------|------------------------|
-| [CompTIA's A Plus - Practice Test](/a-plus-practice-test)        |  Practice test for ComTIA's A Plus certification. |
-| [CompTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for ComTIA's Network Plus certification. |
-| [CompTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for ComTIA's Security Plus certification. |
-| [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for ComTIA's Linux Plus certification. |
+| [CompTIA's A Plus - Practice Test](/a-plus-practice-test/)        |  Practice test for ComTIA's A Plus certification. |
+| [CompTIA's Network Plus - Practice Test](/network-plus-practice-test/) |  Practice test for ComTIA's Network Plus certification. |
+| [CompTIA's Security Plus - Practice Test](/security-plus-practice-test/) |  Practice test for ComTIA's Security Plus certification. |
+| [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test/)   |  Practice test for ComTIA's Linux Plus certification. |
 
 | Cisco Certification Practice Tests           | Description                       |
 |----------------------------------------------|------------------------|
-| [Cisco's CCNA - Practice Test](/ccna-practice-test)             |  Practice test for Cisco's CCNA certification. |
+| [Cisco's CCNA - Practice Test](/ccna-practice-test/)             |  Practice test for Cisco's CCNA certification. |
 
 | EC-Council Certification Practice Tests      |  Description                      |
 |----------------------------------------------|------------------------|
-| [EC-Council's Certified Ethical Hacker (CEH) - Practice Test](/ceh-practice-test) | Practice test for EC-Council's CEH certification. |
+| [EC-Council's Certified Ethical Hacker (CEH/) - Practice Test](/ceh-practice-test/) | Practice test for EC-Council's CEH certification. |
 
 | ISC2 Certification Practice Tests            | Description                       |
 |----------------------------------------------|------------------------|
-| [ISC2's CISSP - Practice Test](/cissp-practice-test)           |  Practice test for ISC2's CISSP certification. |
+| [ISC2's CISSP - Practice Test](/cissp-practice-test/)           |  Practice test for ISC2's CISSP certification. |
 
 ### Bootcamps
 
-#### [Are Cybersecurity Bootcamps Worth it?](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/are-bootcamps-worth-it)           
+#### [Are Cybersecurity Bootcamps Worth it?](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/are-bootcamps-worth-it/)           
 
 ### Other Training Types
 
-#### [Army Cybersecurity Awareness Training: What You Need to Know](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/army-cybersecurity-awareness-training-what-you-need-to-know)
+#### [Army Cybersecurity Awareness Training: What You Need to Know](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/army-cybersecurity-awareness-training-what-you-need-to-know/)
 - Get insights into the cybersecurity awareness training provided by the army and its relevance in today's digital landscape.
 
 {{< inarticle-dark >}}
@@ -182,11 +182,11 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 
 ### Best Locations for Cybersecurity Jobs
 #### The 7 Top Locations for Cyber Security Jobs in the US 2023: Best Cities for Professionals
-- [The 7 Top Locations for Cyber Security Jobs in the US 2023: Best Cities for Professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states)
+- [The 7 Top Locations for Cyber Security Jobs in the US 2023: Best Cities for Professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states/)
   - Discover the best locations for cybersecurity jobs in the United States in 2023, from Washington, D.C. to San Francisco, with abundant opportunities and industry growth.
 
 #### The Top 5 Locations Worldwide for Cybersecurity Jobs in 2023: Best Cities for Professionals
-- [The Top 5 Locations Worldwide for Cybersecurity Jobs in 2023: Best Cities for Professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide)
+- [The Top 5 Locations Worldwide for Cybersecurity Jobs in 2023: Best Cities for Professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide/)
   - Discover the best locations worldwide for cybersecurity jobs in 2023, from London to Singapore, with abundant opportunities and industry growth.
 
 ### Cybersecurity Internships
@@ -229,19 +229,19 @@ As a cybersecurity professional, continuous learning and growth are key to advan
 
 ### Understanding Regulations, Acts, and Guidelines
 
-#### [Federal Information Security Management Act (FISMA) Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/)
-Learn about the [Federal Information Security Management Act (FISMA)](https://simeononsecurity.com/articles/fisma-summarized/), a U.S. federal law that establishes cybersecurity requirements for government agencies.
+#### [Federal Information Security Management Act (FISMA/) Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/)
+Learn about the [Federal Information Security Management Act (FISMA/)](https://simeononsecurity.com/articles/fisma-summarized/), a U.S. federal law that establishes cybersecurity requirements for government agencies.
 
 #### [NIST SP 800-181 - Cyber Security Workforce Framework Overview and Comparison with the DCWF](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/)
 - Discover the comprehensive evaluation and development frameworks for cybersecurity workforce: NICE and DoD DCWF, empowering organizations with skilled professionals.
 
 #### [DoD 8140-03 - Cyberspace Workforce Qualifications and Management Program - Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program/)
-- Discover the key aspects of the Department of Defense (DoD) 8140-03 manual, which outlines qualifications and management for the cyberspace workforce.
+- Discover the key aspects of the Department of Defense (DoD/) 8140-03 manual, which outlines qualifications and management for the cyberspace workforce.
 
 #### [Navigating Workforce Frameworks: Implications for Cybersecurity Pros](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/workforce-frameworks-and-the-challenges/)
 - Explore the impact of changing workforce frameworks on cybersecurity professionals and the challenges they face in meeting new requirements.
 
-#### [DoD 5220.22-m - Data Sanitization - Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-5220.22-m-data-sanitization-summarized)
+#### [DoD 5220.22-m - Data Sanitization - Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-5220.22-m-data-sanitization-summarized/)
 - Explore the summary of [DoD 5220.22-m](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/), a directive that provides guidance on data sanitization.
 
 #### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)

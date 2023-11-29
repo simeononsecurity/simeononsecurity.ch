@@ -14,7 +14,7 @@ sitemap:
 ***Note***: *These courses and playbooks take significant time and effort to create. We need your help! [Please let us know what you'd like us to prioritize](https://simeononsecurity.com/contactus/)*
 
 ## Career Playbooks
-- #### [Cybersecurity Career Playbook](https://simeononsecurity.com/cyber-security-career-playbook-start)
+- #### [Cybersecurity Career Playbook](https://simeononsecurity.com/cyber-security-career-playbook-start/)
 ### Coming Soon
 - Information Technology Career Playbook
 - Software Development Career Playbook
@@ -22,7 +22,7 @@ sitemap:
 ## Certification Playbooks
 
 ### CompTIA Courses
-- [CompTIA Network+ Course](/network-plus-start)
+- [CompTIA Network+ Course](/network-plus-start/)
 ### Coming Soon
 #### CompTIA Courses
 - CompTIA A+ Course

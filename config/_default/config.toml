@@ -246,23 +246,23 @@ logoHomeLink = "/"
 [[languages.ar.menu.main]]
 identifier = "Articles"
 name = "المقالات"
-url = "/articles"
+url = "/articles/"
 [[languages.ar.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.ar.menu.main]]
 identifier = "TIL"
 name = "ما تعلمته اليوم"
-url = "/til"
+url = "/til/"
 [[languages.ar.menu.main]]
 identifier = "Writeups"
 name = "كتابات"
-url = "/writeups"
+url = "/writeups/"
 [[languages.ar.menu.main]]
 identifier = "Recommendations"
 name = "التوصيات"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.bn]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.bn.xml" }]
@@ -296,23 +296,23 @@ logoHomeLink = "/"
 [[languages.bn.menu.main]]
 identifier = "পোস্ট"
 name = "পোস্ট"
-url = "/articles"
+url = "/articles/"
 [[languages.bn.menu.main]]
 identifier = "GitHub"
 name = "গিটহাব"
-url = "/github"
+url = "/github/"
 [[languages.bn.menu.main]]
 identifier = "টিআইএল"
 name = "আজ শিখলাম"
-url = "/til"
+url = "/til/"
 [[languages.bn.menu.main]]
 identifier = "লিখন"
 name = "লিখন"
-url = "/writeups"
+url = "/writeups/"
 [[languages.bn.menu.main]]
 identifier = "সুপারিশ"
 name = "সুপারিশ"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.fr]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
@@ -347,23 +347,23 @@ logoHomeLink = "/"
 [[languages.fr.menu.main]]
 identifier = "Articles"
 name = "Articles"
-url = "/articles"
+url = "/articles/"
 [[languages.fr.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.fr.menu.main]]
 identifier = "TIL"
 name = "Aujourd'hui J'ai Appris"
-url = "/til"
+url = "/til/"
 [[languages.fr.menu.main]]
 identifier = "Writeups"
 name = "Writeups"
-url = "/writeups"
+url = "/writeups/"
 [[languages.fr.menu.main]]
 identifier = "Recommandations"
 name = "Recommandations"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.de]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }]
@@ -398,23 +398,23 @@ logoHomeLink = "/"
 [[languages.de.menu.main]]
 identifier = "Artikel"
 name = "Artikel"
-url = "/articles"
+url = "/articles/"
 [[languages.de.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.de.menu.main]]
 identifier = "TIL"
 name = "Heute gelernt"
-url = "/til"
+url = "/til/"
 [[languages.de.menu.main]]
 identifier = "Writeups"
 name = "Writeups"
-url = "/writeups"
+url = "/writeups/"
 [[languages.de.menu.main]]
 identifier = "Empfehlungen"
 name = "Empfehlungen"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.en]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }]
@@ -454,27 +454,27 @@ logoHomeLink = "/"
 [[languages.en.menu.main]]
 identifier = "Search"
 name = "Search"
-url = "/search"
+url = "/search/"
 weight = 21
 [[languages.en.menu.main]]
 identifier = "Downloads"
 name = "Downloads"
-url = "/downloads"
+url = "/downloads/"
 weight = 20
 [[languages.en.menu.main]]
 identifier = "Images"
 name = "Images"
-url = "/carousel"
+url = "/carousel/"
 weight = 19
 [[languages.en.menu.main]]
 identifier = "Checklists"
 name = "Checklists"
-url = "/checklists"
+url = "/checklists/"
 weight = 18
 [[languages.en.menu.main]]
 identifier = "Articles"
 name = "Articles"
-url = "/articles"
+url = "/articles/"
 weight = 10
 # [[languages.en.menu.main]]
 # identifier = "Blog"
@@ -489,47 +489,47 @@ weight = 10
 [[languages.en.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 weight = 9
 [[languages.en.menu.main]]
 identifier = "Guides"
 name = "Guides"
-url = "/guides"
+url = "/guides/"
 weight = 8
 [[languages.en.menu.main]]
 identifier = "TIL"
 name = "Today I Learned"
-url = "/til"
+url = "/til/"
 weight = 7
 [[languages.en.menu.main]]
 identifier = "Writeups"
 name = "Writeups"
-url = "/writeups"
+url = "/writeups/"
 weight = 5
 [[languages.en.menu.main]]
 identifier = "Recommendations"
 name = "Recommendations"
-url = "/recommendhome"
+url = "/recommendhome/"
 weight = 8
 [[languages.en.menu.main]]
 identifier = "About"
 name = "About"
-url = "/about"
+url = "/about/"
 weight = 5
 [[languages.en.menu.main]]
 identifier = "courses"
 name = "Courses"
-url = "/courses-and-playbooks"
+url = "/courses-and-playbooks/"
 weight = 3
 [[languages.en.menu.main]]
 identifier = "practicetests"
 name = "Practice Tests"
-url = "/practice-tests"
+url = "/practice-tests/"
 weight = 2
 [[languages.en.menu.main]]
 identifier = "Tools"
 name = "Tools"
-url = "/tools"
+url = "/tools/"
 weight = 1
 
 [languages.es]
@@ -565,23 +565,23 @@ logoHomeLink = "/"
 [[languages.es.menu.main]]
 identifier = "Artículos"
 name = "Artículos"
-url = "/articles"
+url = "/articles/"
 [[languages.es.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.es.menu.main]]
 identifier = "TIL"
 name = "Hoy Aprendí"
-url = "/til"
+url = "/til/"
 [[languages.es.menu.main]]
 identifier = "Writeups"
 name = "Writeups"
-url = "/writeups"
+url = "/writeups/"
 [[languages.es.menu.main]]
 identifier = "Recomendaciones"
 name = "Recomendaciones"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.hi]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }]
@@ -616,23 +616,23 @@ logoHomeLink = "/"
 [[languages.hi.menu.main]]
 identifier = "Articles"
 name = "लेख"
-url = "/articles"
+url = "/articles/"
 [[languages.hi.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.hi.menu.main]]
 identifier = "TIL"
 name = "आज मैंने सीखा"
-url = "/til"
+url = "/til/"
 [[languages.hi.menu.main]]
 identifier = "Writeups"
 name = "व्राइटअप्स"
-url = "/writeups"
+url = "/writeups/"
 [[languages.hi.menu.main]]
 identifier = "Recommendations"
 name = "सिफारिशें"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.it]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.it.xml" }]
@@ -666,23 +666,23 @@ logoHomeLink = "/"
 [[languages.it.menu.main]]
 identifier = "Articoli"
 name = "Articoli"
-url = "/articles"
+url = "/articles/"
 [[languages.it.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.it.menu.main]]
 identifier = "TIL"
 name = "Oggi ho imparato"
-url = "/til"
+url = "/til/"
 [[languages.it.menu.main]]
 identifier = "Scrittura"
 name = "Scrittura"
-url = "/writeups"
+url = "/writeups/"
 [[languages.it.menu.main]]
 identifier = "Raccomandazioni"
 name = "Raccomandazioni"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.ja]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ja.xml" }]
@@ -716,23 +716,23 @@ logoHomeLink = "/"
 [[languages.ja.menu.main]]
 identifier = "Articles"
 name = "記事"
-url = "/articles"
+url = "/articles/"
 [[languages.ja.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.ja.menu.main]]
 identifier = "TIL"
 name = "Today I Learned"
-url = "/til"
+url = "/til/"
 [[languages.ja.menu.main]]
 identifier = "Writing"
 name = "執筆"
-url = "/writeups"
+url = "/writeups/"
 [[languages.ja.menu.main]]
 identifier = "Recommendations"
 name = "おすすめ"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.nl]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.nl.xml" }]
@@ -766,23 +766,23 @@ logoHomeLink = "/"
 [[languages.nl.menu.main]]
 identifier = "Artikelen"
 name = "Artikelen"
-url = "/articles"
+url = "/articles/"
 [[languages.nl.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.nl.menu.main]]
 identifier = "TIL"
 name = "Vandaag geleerd"
-url = "/til"
+url = "/til/"
 [[languages.nl.menu.main]]
 identifier = "Schrijven"
 name = "Schrijven"
-url = "/writeups"
+url = "/writeups/"
 [[languages.nl.menu.main]]
 identifier = "Aanbevelingen"
 name = "Aanbevelingen"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.pa]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
@@ -817,23 +817,23 @@ logoHomeLink = "/"
 [[languages.pa.menu.main]]
 identifier = "Articles"
 name = "ਲੇਖ"
-url = "/articles"
+url = "/articles/"
 [[languages.pa.menu.main]]
 identifier = "GitHub"
 name = "ਜੀਟਹਬ"
-url = "/github"
+url = "/github/"
 [[languages.pa.menu.main]]
 identifier = "TIL"
 name = "ਅੱਜ ਸਿੱਖਿਆ"
-url = "/til"
+url = "/til/"
 [[languages.pa.menu.main]]
 identifier = "Writing"
 name = "ਲਿਖਣਾ"
-url = "/writeups"
+url = "/writeups/"
 [[languages.pa.menu.main]]
 identifier = "ਸਿਫਾਰਿਸ਼ਾਂ"
 name = "ਸਿਫਾਰਿਸ਼ਾਂ"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.pt]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pt.xml" }]
@@ -867,19 +867,19 @@ logoHomeLink = "/"
 [[languages.pt.menu.main]]
 identifier = "Artigos"
 name = "Artigos"
-url = "/articles"
+url = "/articles/"
 [[languages.pt.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.pt.menu.main]]
 identifier = "TIL"
 name = "Hoje aprendi"
-url = "/til"
+url = "/til/"
 [[languages.pt.menu.main]]
 identifier = "Escrita"
 name = "Escrita"
-url = "/writeups"
+url = "/writeups/"
 [[languages.pt.menu.main]]
 identifier = "Recomendações"
 name = "Recomendações"
@@ -917,19 +917,19 @@ logoHomeLink = "/"
 [[languages.ro.menu.main]]
 identifier = "Articole"
 name = "Articole"
-url = "/articles"
+url = "/articles/"
 [[languages.ro.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.ro.menu.main]]
 identifier = "TIL"
 name = "Astăzi am învățat"
-url = "/til"
+url = "/til/"
 [[languages.ro.menu.main]]
 identifier = "Scriere"
 name = "Scriere"
-url = "/writeups"
+url = "/writeups/"
 [[languages.ro.menu.main]]
 identifier = "Recomandări"
 name = "Recomandări"
@@ -967,23 +967,23 @@ logoHomeLink = "/"
 [[languages.ru.menu.main]]
 identifier = "Статьи"
 name = "Статьи"
-url = "/articles"
+url = "/articles/"
 [[languages.ru.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.ru.menu.main]]
 identifier = "TIL"
 name = "Сегодня я узнал"
-url = "/til"
+url = "/til/"
 [[languages.ru.menu.main]]
 identifier = "Письмо"
 name = "Письмо"
-url = "/writeups"
+url = "/writeups/"
 [[languages.ru.menu.main]]
 identifier = "Рекомендации"
 name = "Рекомендации"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.zh]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.zh.xml" }]
@@ -1017,23 +1017,23 @@ logoHomeLink = "/"
 [[languages.zh.menu.main]]
 identifier = "文章"
 name = "文章"
-url = "/articles"
+url = "/articles/"
 [[languages.zh.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.zh.menu.main]]
 identifier = "TIL"
 name = "今日所学"
-url = "/til"
+url = "/til/"
 [[languages.zh.menu.main]]
 identifier = "写作"
 name = "写作"
-url = "/writeups"
+url = "/writeups/"
 [[languages.zh.menu.main]]
 identifier = "推荐"
 name = "推荐"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.ca]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
@@ -1067,23 +1067,23 @@ logoHomeLink = "/"
 [[languages.ca.menu.main]]
 identifier = "Articles"
 name = "Articles"
-url = "/articles"
+url = "/articles/"
 [[languages.ca.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.ca.menu.main]]
 identifier = "TIL"
 name = "Avui he Après"
-url = "/til"
+url = "/til/"
 [[languages.ca.menu.main]]
 identifier = "Escriptura"
 name = "Escriptura"
-url = "/writeups"
+url = "/writeups/"
 [[languages.ca.menu.main]]
 identifier = "Recomanacions"
 name = "Recomanacions"
-url = "/recommendations"
+url = "/recommendations/"
 
 [languages.pl]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pl.xml" }]
@@ -1119,20 +1119,20 @@ logoHomeLink = "/"
 [[languages.pl.menu.main]]
 identifier = "Artykuły"
 name = "Artykuły"
-url = "/articles"
+url = "/articles/"
 [[languages.pl.menu.main]]
 identifier = "GitHub"
 name = "GitHub"
-url = "/github"
+url = "/github/"
 [[languages.pl.menu.main]]
 identifier = "Dziś Dowiedziałem Się"
 name = "Dziś Dowiedziałem Się"
-url = "/til"
+url = "/til/"
 [[languages.pl.menu.main]]
 identifier = "Writeupy"
 name = "Writeupy"
-url = "/writeups"
+url = "/writeups/"
 [[languages.pl.menu.main]]
 identifier = "Rekomendacje"
 name = "Rekomendacje"
-url = "/recommendations"
+url = "/recommendations/"
