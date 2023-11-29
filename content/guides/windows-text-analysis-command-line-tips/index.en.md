@@ -9,6 +9,7 @@ tags: ["efficient text editing", "searching text in files", "Windows text proces
 cover: "/img/cover/windows-text-analysis-cartoon-computer.png"
 coverAlt: "A cartoon character analyzing text on a computer screen."
 coverCaption: "Unveil Insights Through Command-Line Text Mastery."
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 **Windows Text Manipulation and Analysis with Command Line**
