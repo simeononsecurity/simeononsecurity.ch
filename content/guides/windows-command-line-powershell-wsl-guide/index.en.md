@@ -9,6 +9,7 @@ tags: ["Windows", "PowerShell", "WSL", "Command Line Tools", "Linux Utilities", 
 cover: "/img/cover/windows-linux-collaboration.png"
 coverAlt: "An animated illustration showcasing Windows and Linux collaboration."
 coverCaption: "Unleash the Power of Collaboration Between Windows and Linux!"
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 ## Windows Advanced Command Line Tools and Utilities
