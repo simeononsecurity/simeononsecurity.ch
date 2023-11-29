@@ -9,6 +9,7 @@ tags: ["Robocopy", "Backup and Restore", "Data Protection", "File Backup", "File
 cover: "/img/cover/data-protection-robocopy-shield.png"
 coverAlt: "A cartoon illustration showing files being safeguarded by a digital shield."
 coverCaption: "Keep Your Data Safe!"
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 ## Backup and Restore Operations: A Guide to Using Robocopy

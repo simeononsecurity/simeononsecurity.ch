@@ -9,6 +9,7 @@ tags: ["Windows Registry", "Command Line", "Registry Tweaks", "System Configurat
 cover: "/img/cover/Windows_Registry_Wizard.png"
 coverAlt: "A cartoon-style computer wizard working with a giant registry book."
 coverCaption: "Empower Your System Through Command Line Mastery."
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 ## Working with Registry via Command Line

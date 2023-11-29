@@ -7,8 +7,9 @@ description: "Learn how to manage user accounts and permissions on Windows for e
 genre: ["Cybersecurity", "System Administration", "Windows Management", "User Access Control", "Permission Management", "IT Security", "Command-line Tools", "User Authentication", "File Permissions", "Elevated Privileges"]
 tags: ["Managing user accounts in Windows", "Controlling file permissions in Windows", "Running commands with elevated privileges", "Effective user management techniques", "User access control best practices", "Enhancing Windows security", "Administering user accounts", "Securing sensitive files in Windows", "User authentication and permissions", "Windows permission management", "Windows user accounts", "Permission management", "User access control", "Cybersecurity", "System administration", "User management commands", "File permissions", "Elevated privileges", "IT security", "Windows command-line tools", "User authentication", "Access rights", "Security management", "Windows system", "User profiles", "Local groups", "Admin rights", "Windows permissions", "Command-line utilities", "Windows security", "Full control", "Password complexity", "Sensitive files", "User privileges", "Windows operating system", "Secure resource access", "User authentication guidelines", "System integrity", "User account security", "NIST guidelines"]
 cover: "/img/cover/Windows_User_Accounts_Permissions_Juggling.png"
-coverAlt: "A cartoon-style IT professional juggling Windows user accounts and permissions --aspect 16:9"
-coverCaption: "Unlocking Digital Gates: Empowering You with Windows User Managemen"
+coverAlt: "A cartoon-style IT professional juggling Windows user accounts and permissions."
+coverCaption: "Unlocking Digital Gates: Empowering You with Windows User Management"
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 **Windows Managing User Accounts and Permissions**
