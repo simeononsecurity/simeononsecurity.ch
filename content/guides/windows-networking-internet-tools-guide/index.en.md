@@ -9,6 +9,7 @@ tags: ["Windows networking", "networking commands", "remote desktop connection",
 cover: "/img/cover/windows-networking-cartoon-connectivity.png"
 coverAlt: "A cartoon-style illustration depicting a friendly computer exchanging data with other devices over a network."
 coverCaption: "Empower Your Digital Journey with Windows Networking Expertise."
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 **Windows Networking and Internet Tools**
