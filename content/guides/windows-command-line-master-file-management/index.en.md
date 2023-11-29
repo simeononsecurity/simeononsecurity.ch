@@ -10,6 +10,7 @@ tags: ["Windows File Management", "Command Line Tools", "File Copying", "File Mo
 cover: "/img/cover/windows-command-line-master-file-management.png"
 coverAlt: "A symbolic representation of a file explorer window with command-line elements, illustrating efficient file management."
 coverCaption: "Efficiency Unleashed: Mastering Windows Command Line for File Management."
+ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 
 ## Windows File Management with Command Line
