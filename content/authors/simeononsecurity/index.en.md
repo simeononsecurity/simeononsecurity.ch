@@ -31,6 +31,7 @@ In addition to their professional accomplishments, SimeonOnSecurity's passion fo
 
 ## Primary Social Media Links:
 - [Ansible Galaxy](https://galaxy.ansible.com/ui/namespaces/simeononsecurity/)
+- [BlueSky](https://bsky.app/profile/simeononsecurity.bsky.social)
 - [Devfolio](https://devfolio.co/@SimeonSecurity)
 - [Dev.to](https://dev.to/simeononsecurity)
 - [Devpost](https://devpost.com/simeononsecurity)
