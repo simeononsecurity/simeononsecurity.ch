@@ -17,25 +17,84 @@ ref: ["/other/effortless-dual-mining-wingbits-defli-guide", "/other/creating-pro
 
 Cryptocurrency mining continues to evolve, and the WingBits technology stack offers an accessible pathway for enthusiasts. In this guide, we'll explore the hardware requirements, ADSB-specific equipment, and step-by-step instructions for setting up your WingBits mining rig. Whether you're diving into mining for the first time or optimizing your current setup, this comprehensive guide will walk you through the process, from selecting the right hardware to fine-tuning gain levels. Let's embark on a journey to efficient and budget-friendly cryptocurrency mining with WingBits.
 
-## About Flight Tracking
+{{< centerbutton href="https://simeononsecurity.com/other/wingbits-mining-guide-hardware-setup-optimization/#wingbits-hardware-requirements" >}}WingBits Hardware Requirements{{< /centerbutton >}}
+{{< centerbutton href="https://simeononsecurity.com/other/wingbits-mining-guide-hardware-setup-optimization/#setup-instructions-for-installing-wingbits" >}}WingBits Setup Instructions{{< /centerbutton >}}
+
+______
+
+## The WingBits SkyHex: Revolutionizing ADS-B Data Coverage
+
+#### WingBits Core Values
+
+WingBits positions itself as a provider of flight tracking data feeds, catering to both live and historic flights. This valuable resource becomes instrumental for developers seeking real-time aircraft data integration into their applications. The clientele spans across various sectors, encompassing aviation companies, emergency services, and even aviation enthusiasts.
+
+#### WingBitsCoverage - SkyHex
+
+WingBits sets an ambitious target: global coverage. The innovative SkyHex system, inspired by air rights and leveraging Uber's h3 hex system, divides the global airspace into hexagons. This unique approach grants antennas exclusive rights to monitor specific sections of the sky, ensuring meticulous observation for enhanced air traffic management and safety.
+
+#### WingBits Details
+
+- **SkyHex NFT Ownership:** Antennas require a SkyHex NFT for rewards, aligning with an ownership model reminiscent of air rights.
+  
+- **Maximizing Coverage:** Multiple antennas within the same hex maximize coverage, with rewards based on unique data contributions.
+
+- **Limited Supply:** With a maximum supply of 123,486 SkyHex NFTs, exclusivity and scarcity are maintained.
+
+- **Reclaiming Inactivity:** Inactive antennas for 30 days face NFT reclamation, exceptions granted for technical issues.
+
+- **Transferability:** SkyHex NFTs can be sold or transferred after 30 days of use, introducing dynamism to the digital asset marketplace.
+
+- **Penalties for Delays:** Slow antennas facing delays over 1 minute incur a 25% reward reduction for each minute compared to other hex owners.
+
+Explore more about SkyHex [here](https://medium.com/@wingbits/%EF%B8%8Fa-world-of-hexes-4927fc304ba4).
+
+______
+
+### WingBits Rewards: The Fair and Transparent Model
+
+In the volunteer-driven landscape of ADS-B data collection, WingBits introduces a solution utilizing blockchain technology for transparent and equitable rewards.
+
+#### The WingBits SkyHex Coverage Model
+
+WingBits introduces a formula-based reward system. Each hexagon offers a fixed daily amount of Wings, calculated by the number of antennas providing data. The user rewards formula considers uptime, data contribution percentage, and hex rewards.
+
+- **Hex Rewards Formula:** `hex rewards = number of antennas * base rewards`
+
+- **User Rewards Formula:** `user rewards = uptime % * data provided in hex % * hex rewards * 1 Wing`
+
+______
+
+### Addressing WingBits Concerns: Ensuring Significance and Fairness
+
+WingBits proactively acknowledges and addresses concerns related to the [fairness of ADS-B data monetization](https://hackaday.com/2023/01/26/ads-b-exchange-sells-up-contributors-unhappy/).
+
+#### WingBits' Significance
+
+WingBits' significance lies in offering a decentralized model that fairly rewards contributors. This ensures the authenticity and timeliness of ADS-B data, contributing to the efficiency and safety of the aviation industry.
+
+#### WingBits' Fairness and Sufficiency
+
+WingBits implements fairness through penalties for slow antennas, promoting active and responsive participation. The sufficiency of the model is evident in the transparent and equitable distribution of Wings, fostering a collaborative ecosystem.
+
+### About Flight Tracking
 
 Flight tracking involves the use of small computers, typically Raspberry Pi, connected to a software-defined radio (SDR) USB stick operating at 1090 MHz. This setup, known as a feeder or ADS-B receiver, captures aircraft positions transmitted on 1090 MHz, primarily through Automatic Dependent Surveillance–Broadcast (ADS-B). The essential components for building such a device are detailed below.
 
 {{< figure src="ADS-B_graphic.jpg" alt="Simplified ADS-B Network Example" caption="Simplified ADS-B Network Example - southwestantennas.com" link="https://www.southwestantennas.com/articles/introduction-to-ads-b-technology" >}}
 
-### Unique Identifiers and Aircraft History
+#### Unique Identifiers and Aircraft History
 
 Each aircraft transmitting its position on 1090 MHz is assigned a unique hexadecimal identifier, such as ABA7D9. This identifier remains constant, allowing users to track the historical data for a specific airframe. For example, the US-registered aircraft N850FD corresponds to the hex ID ABA7D9. The [aircraft history](https://tar1090.adsbexchange.com/?icao=aba7d9) for N850FD includes details such as its current callsign (e.g., FDX5235), which may be associated with a city pair for certain airlines.
 
-#### Detailed Aircraft Information
+##### Detailed Aircraft Information
 
 By selecting an aircraft on the [ADS-B Exchange map](https://tar1090.adsbexchange.com/), users can access detailed information on the left side of the page. Tooltips are available to explain various displayed elements. Additionally, users can explore the aircraft's history by clicking on the history tab, revealing a colored line indicating its flight path. Timestamps, speed in knots, altitude in feet, and other details are displayed, providing a comprehensive overview of the aircraft's journey.
 
-#### Data Contribution and Real-Time Display
+##### Data Contribution and Real-Time Display
 
 All the data presented on the ADS-B Exchange website is sourced from volunteers who have set up receivers, contributing real-time data. This data is collected and displayed on the online map, offering a collaborative and dynamic representation of aircraft movements globally.
 
-#### ADS-B Aircraft Categories
+##### ADS-B Aircraft Categories
 
 {{< figure src="aircraft_types_illustration.png" alt="A vibrant cartoon illustration showcasing diverse aircraft types in flight." caption="Soar to New Heights with Varied Aircraft Types!" >}}
 
@@ -63,7 +122,7 @@ Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Bro
 - **C3**: Fixed Ground or Tethered Obstruction
 
 ## WingBits Hardware Requirements:
-### System Requirements:
+### WingBits System Requirements:
 One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
 #### Raspberry Pi:
 Hard to get ahold of these days but they are super low power and are quite customizable. 
@@ -85,7 +144,7 @@ For super low power Raspberry Pi equivalent but on x64 platform.
 - [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
 - [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 ### ADSB Specific Equipment:
-#### ADSB Receivers
+#### ADSB Receivers for WingBits
 We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Recievers](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/)
 
 {{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick Best ADSB Receiver for Wingbits" link="https://amzn.to/3FSSql1" >}}
@@ -94,20 +153,20 @@ We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Reciev
 
 - (**Preferred**)[AirNav Radarbox Flightstick](https://amzn.to/3QIRhBV)
 - [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)
-#### ADSB Antennas
+#### ADSB Antennas for WingBits
 - (**Preferred**)[AirNav RadarBox ADS-B Antenna](https://amzn.to/496LcHN)
 - [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/3FsGaaY)
 - [1090MHz 978MHz Dual Band ADS-B Antenna](https://amzn.to/3QsOrlA)
-#### Optional Extras
+#### Optional Extras for WingBits
 *The ADSB receivers linked above have LNA and Filters built in. Only consider using a LNA or Filters if you have a non specific SDR*
 - [Nooelec SAWbird+ ADS-B: Premium, Dual-Channel, Cascaded Ultra-Low Noise Amplifier (LNA) & Filter Module for Airplane Tracking Applications. ](https://amzn.to/4737k3T)
-##### Band Pass and SAW Filters
+##### Band Pass and SAW Filters for WingBits
 - (**Preferred**)[ADSBexchange.com 1090 Mhz Saw Filter ](https://amzn.to/3MewiFB)
 - [1090MHz Band Pass Filter, Saw Band Pass Filter](https://amzn.to/3McmZFQ)
-##### Low Noise Amplifiers
+##### Low Noise Amplifiers for WingBits
 - (**Preferred**)[Nooelec Lana - Ultra Low-Noise Amplifier (LNA)](https://amzn.to/3FsEAWv)
 - [Low Noise Amplifier 20dB High Gain](https://amzn.to/3FpF27S)
-##### SMA Pigtails
+##### SMA Pigtails for WingBits
 - [2 Pack 6inch SMA to SMA Adapter Cable](https://amzn.to/3QcUHwa)
 - [5pcs RF Coaxial Coax SMA Male to SMA Male](https://amzn.to/494WOeh)
 
@@ -162,9 +221,9 @@ However if you discover you are running into issues, or you'd like to learn more
 
 ______
 
-## Troubleshooting and Helpful Commands
+## Troubleshooting and Helpful Commands for WingBits
 
-### Tuning ADS-B Gain for Optimal Performance
+### Tuning ADS-B Gain for Optimal Performance for WingBits
 
 Understanding how to adjust the gain on your ADS-B receiver is crucial for optimizing performance and ensuring accurate data reception. Here's a step-by-step guide on tuning the gain for your system.
 
@@ -244,7 +303,7 @@ Optimizing ADS-B gain involves continuous adjustment and monitoring, allowing yo
 
 ______
 
-### Configuring Location in readsb for ADS-B Reception
+### Configuring Location in readsb for ADS-B Reception and for WingBits
 
 **Introduction:**
 
@@ -252,7 +311,7 @@ Properly configuring the location is essential for accurate ADS-B data reception
 
 ---
 
-#### Configure Location:
+#### Configure Location for WingBits:
 
 To set the location, use the following command with the specified latitude and longitude:
 
@@ -268,7 +327,7 @@ sudo /usr/local/bin/readsb-set-location 50.12344 10.23429
 
 ---
 
-#### Troubleshooting and Checking Logs:
+#### Troubleshooting and Checking Logs for WingBits:
 
 If any issues arise, check the readsb logs using the following command:
 
@@ -280,28 +339,28 @@ If problems persist, try rebooting and rerunning the install script.
 
 ---
 
-#### Reporting Issues:
+#### Reporting Issues with readsb:
 
 - If issues persist, consider opening a GitHub issue with the provided logs and install script output.
-- Alternatively, report issues via Discord by contacting wiedehopf [here](https://discord.gg/DxU4VG37JS).
+- Alternatively, report issues with `readsb` via Discord by contacting wiedehopf [here](https://discord.gg/DxU4VG37JS).
 
 ---
 
 #### Changing Configuration:
 
-To modify readsb configuration, use a text editor such as nano:
+To modify `readsb` configuration, use a text editor such as nano:
 
 ```bash
 sudo nano /etc/default/readsb
 ```
 
-Make the necessary changes, save with Ctrl-O and Enter, then exit with Ctrl-X. Afterward, restart the readsb service:
+Make the necessary changes, save with Ctrl-O and Enter, then exit with Ctrl-X. Afterward, restart the `readsb` service:
 
 ```bash
 sudo systemctl restart readsb
 ```
 
-For a comprehensive list of available options, refer to the readsb help command:
+For a comprehensive list of available options, refer to the `readsb` help command:
 
 ```bash
 readsb --help
@@ -315,7 +374,7 @@ Configuring the location is a critical step in optimizing ADS-B reception with r
 
 ______
 
-### Debug Commands for ADS-B Setup
+### Debug Commands for ADS-B Setup and for WingBits
 
 **Introduction:**
 
@@ -483,7 +542,7 @@ pingfail provides a simple yet effective solution for maintaining a stable inter
 ______
 
 
-## Conclusion
+## WingBits Install and Setup Guide Conclusion
 
 Congratulations on completing the setup of your WingBits mining system! By now, you've configured your hardware, fine-tuned your ADSB receiver, and optimized gain levels for maximum efficiency. Remember, cryptocurrency mining requires careful consideration of hardware, location, and market volatility. Always stay informed and adapt your strategy as needed. With your WingBits mining rig up and running, you're well-positioned to explore the exciting world of digital currency. Happy mining!
 
