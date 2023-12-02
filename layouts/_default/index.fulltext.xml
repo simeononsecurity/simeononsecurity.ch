@@ -44,7 +44,12 @@
             {{ $featured := $images.GetMatch "{*featured*,*cover*,*thumbnail*}" }}
             {{ with $featured }}{{ (printf "<img src=\"%s\">" $featured.RelPermalink) | safeHTML }}{{ end }}
         {{ end }}
+
+        {{ (printf "<br>") | safeHTML }}
+        {{ (printf "<a href=\"%s\">Read the full article at %s</a>" .Permalink $.Site.BaseURL) | safeHTML }}
+
         {{ .Content | first 2500 | safeHTML }}
+
         {{ (printf "<br>") | safeHTML }}
         {{ (printf "<a href=\"%s\">Read More at %s</a>" .Permalink $.Site.BaseURL) | safeHTML }}
                             
