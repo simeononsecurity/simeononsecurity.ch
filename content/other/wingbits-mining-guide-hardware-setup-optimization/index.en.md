@@ -1,5 +1,5 @@
 ---
-title: "WingBits Mining and Setup Guide: Low-Cost and Optimized Hardware Setup"
+title: "WingBits Install and Setup Guide"
 date: 2023-12-14
 toc: true
 draft: false
