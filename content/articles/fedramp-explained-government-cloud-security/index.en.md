@@ -19,7 +19,7 @@ In the world of cybersecurity, **FedRAMP** stands as a pivotal framework, ensuri
 
 Federal Risk and Authorization Management Program (**FedRAMP**) is a U.S. government-wide program designed to standardize the security assessment, authorization, and continuous monitoring processes for cloud products and services. With the increasing adoption of cloud technologies across federal agencies, ensuring the security and reliability of these systems is paramount.
 
-{{< youtube id="OdqIK7N0loE" >}}
+{{< youtube id="I_3YFkmGTt4" >}}
 ______
 
 ## Understanding FedRAMP: Streamlining Cloud Security for Government Agencies
