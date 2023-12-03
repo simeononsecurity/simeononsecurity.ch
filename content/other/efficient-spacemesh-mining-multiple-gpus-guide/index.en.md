@@ -28,40 +28,46 @@ To begin mining Spacemesh with multiple GPUs, follow these simple steps:
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Step 1: Configure Variables
+
+{{< youtube id="dHFNG7SyuqM" >}}
 
 Open a text editor or PowerShell script editor and set the configurable variables according to your requirements. 
 
 The provided script already includes some variables you can adjust, but the rest can be pulled from the json or key.bin file that you get when you start smeshing on the spacemech GUI application:
 
 - **Special Values**:
+  These values can be pulled from the `postdata_metadata.json` file in the folder when you used go-spacemesh or the gui application.
+
   These values can be pulled from the metadata.json file in the folder when you used go-spacemesh or the gui application. However we need to change their encoding. 
   1. Pull the base64 encoded values from the json file and go to this [base64 decoder](https://cryptii.com/pipes/text-to-base64).
   2. In the encoder, one at a time you'll convert the node and commitment ids from the metadata.json using text > base64 decode > bytes, hexadecimal, none. The output of this conversion is the value you need.
-     1. You can see the following [video to learn more](https://www.youtube.com/watch?v=dHFNG7SyuqM).
-  - `$commitmentAtxId`: Replace this with your commitment ATX ID, a unique identifier for your commitment to participate in the Spacemesh network.
 
-  - `$nodeId`: Replace this with your Node ID, Node ID is last 64 digits from key.bin.
+  > **Note**: *We now convert them for you in the windows version of the script. If you have the old version, the linux version, or would like to learn more, please see the video above.*
+
+  - `$commitmentAtxId`: Replace this with your commitment ATX ID, a unique identifier for your commitment to participate in the Spacemesh network. 
+  *Must be converted from your `postdata_metadata.json` file with the instruction above if using linux, otherwise please copy directly from the json file.*
+
+  - `$nodeId`: Replace this with your Node ID.
+  *Must be converted from your `postdata_metadata.json` file with the instruction above if using linux or using the last 64 characters in your `key.bin` file, otherwise please copy directly from the json file.*
 
 - **Standard Values**
-  These values can be changed manually to whatever you want. Use common sense. Select the number of gpus and copy and paste the values if they are different from the metadata.json file.
+  These values can be changed manually to whatever you want. Use common sense. Select the number of gpus and copy and paste the values if they are different from the `postdata_metadata.json` file.
 
   - `$numGpus`: Set the number of GPUs you want to utilize for mining. For instance, `2` for two GPUs.
 
-  - `$LabelsPerUnit`: Set the number of labels per storage unit. The default value is 4294967296.
+  - `$LabelsPerUnit`: Set the number of labels per storage unit. The default value is `4294967296`.
 
-  - `$MaxFileSize`: Set the maximum file size. The default value is 2147483648.
+  - `$MaxFileSize`: Set the maximum file size. The default value is `2147483648`.
 
-  - `$numUnits`: Set the number of storage units to mine. The default value is 16.
+  - `$numUnits`: Set the number of storage units to mine. The default value is `16`. Each `num` is equivalent to **64 GigaBytes** in plot space.
 
   - `$datadir`: Set the path to the data directory where your mining data will be stored.
 
+  - `$postcliPath`: Set the exact path to your `postcli.exe` executable.
+
 ______
 
-{{< inarticle-dark >}}
-______
 ### Step 2: Execute the Script
 
 Save the script with the defined variables and execute it in PowerShell. The script will automatically divide the mining workload among the specified GPUs, optimizing mining efficiency.
@@ -79,13 +85,47 @@ $LabelsPerUnit = 4294967296
 $MaxFileSize = 2147483648
 $numUnits = 16
 $datadir = "C:\root\post\data"
+$postcliPath = "S:\postcli.exe" #This should be the full path to the postcli.exe executable.
 
-## Script
+####################################
+# Convert data coppied from postdata_metadata.json. DO NOT MODIFY
+try{
+    # Decode Base64 to Bytes
+    $commitmentAtxIdBytes = [System.Convert]::FromBase64String($commitmentAtxId)
+    # Convert Bytes to Hex
+    $commitmentAtxIdHex = -join ($commitmentAtxIdBytes | ForEach-Object { $_.ToString("X2") })
+    # Take the first 64 characters (32 bytes)
+    $commitmentAtxId = $commitmentAtxIdHex.Substring(0, 64)
+    # Display the conversion results
+    Write-Output "CommitmentAtxId after conversion: $commitmentAtxId"
+}
+Catch{
+    Write-Output "Unable to convert CommitmentAtxId, trying to pass in as is..."
+    $commitmentAtxId = $commitmentAtxId
+}
+
+try{
+    # Convert NodeId from hexadecimal to bytes
+    $nodeIdBytes = [System.Convert]::FromBase64String($nodeId)
+    # Convert Bytes to Hex
+    $nodeIdHex = -join ($nodeIdBytes | ForEach-Object { $_.ToString("X2") })
+    # Take the first 64 characters (32 bytes)
+    $nodeId = $nodeIdHex.Substring(0, 64)
+    # Display the conversion results
+    Write-Output "NodeId after conversion: $nodeId"
+    ####################################
+}
+Catch{
+    Write-Output "Unable to convert nodeId, trying to pass in as is..."
+    $nodeId = $nodeId
+}
+
+
 foreach ($gpuIndex in 0..($numGpus - 1)) {
     $fromFile = $gpuIndex * ($numUnits * 32 / $numGpus)
     $toFile = ($gpuIndex + 1) * ($numUnits * 32 / $numGpus) - 1
-    
-    Start-Process -NoNewWindow -FilePath "postcli" -ArgumentList "-provider $gpuIndex", "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", $fromFile, "-toFile", $toFile
+
+    Start-Process -FilePath "$postcliPath" -ArgumentList "-provider $gpuIndex", "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", $fromFile, "-toFile", $toFile
 }
 ```
 
@@ -112,10 +152,8 @@ done
 ```
 
 ### Step 2.5: Optional Advanced - Execute the Script
-#### Advanced Linux
 
-##### Alternate
-Get a much better version of this at https://github.com/CryptoZanoryt/spacemesh/tree/main/generate-post
+#### Advanced Linux
 
 ##### Advanced Linux Script
 
