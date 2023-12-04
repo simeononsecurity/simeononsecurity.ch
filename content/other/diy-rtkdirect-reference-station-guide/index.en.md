@@ -16,7 +16,7 @@ ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/on
 
 In this comprehensive guide, we'll take you through the process of establishing your own GPS RTKDirect server using cost-effective hardware options and reliable GPS receivers. Whether you're interested in elevating the precision of your location-based applications, conducting accurate surveys, or delving into the world of **DIY technology**, this guide provides step-by-step instructions to assist you in creating your DIY RTKDirect reference station.
 
-> **Note:** This article does not contain financial advice nor does it condone any endorsement of the RTKDirect project.
+> **Note:** This article does not contain financial advice nor does it consist of any endorsement of the RTKDirect project.
 
 ______
 
@@ -81,77 +81,25 @@ One of the following is **required**. We basically just need any **efficient and
 
 {{< figure src="compute.jpeg" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
-### Raspberry Pi and Pi Clones:
-Hard to get ahold of these days but they are super low power and are quite customizable. 
-
-{{< centerbutton href="https://amzn.to/45IW4ZD" >}}Get the Orange Pi 5 Today!{{< /centerbutton >}}
-
-- [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
-- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
-- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
-- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
-
-### Any Mini PC with Intel N5100 or similar
-For super low power Raspberry Pi equivalent but on x64 platform. 
-- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
-- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
-
-### Ultra Low Power / Low Budget
-If you're interested in a lower power and/or low budget setup, read our guide on [How to Set Up a GPS/GNSS Bases Station on an ESP32](https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/).
-
-### Compute Notable Mentions
-Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models should be significantly more efficient and allow you do run multiple [low powered mining setups](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/) on a single device. This is why we recommend newer compute hardware.
+| Model                               | Description                                                    |
+|--------------------------------------|----------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/45IW4ZD" >}}Orange Pi 5 4GB{{< /centerbutton >}}     | **Preferred Option:** If available, the Orange Pi 5 is recommended for its super low power and high customizability.    |
+| {{< centerbutton href="https://amzn.to/3x72kv0" >}}Raspberry Pi 4B Model B DIY Kit{{< /centerbutton >}} | Consider this DIY kit for Raspberry Pi enthusiasts looking for a versatile and customizable computing solution.       |
+| {{< centerbutton href="https://amzn.to/3jG2g2k" >}}GeeekPi Raspberry Pi 4 4GB Starter Kit{{< /centerbutton >}} | A ready-to-go starter kit for Raspberry Pi 4, suitable for those who prefer a convenient setup with moderate power.     |
+| {{< centerbutton href="https://amzn.to/3DQisF6" >}}GeeekPi Raspberry Pi 4 8GB Starter Kit{{< /centerbutton >}} | Similar to the 4GB kit but with more RAM, ideal for users with higher performance requirements on the Raspberry Pi 4.    |
+| {{< centerbutton href="https://amzn.to/3YkFhcj" >}}Beelink U59 Mini PC{{< /centerbutton >}}   | For those seeking a Raspberry Pi equivalent on an x64 platform, the Beelink U59 Mini PC offers a low-power alternative. |
+| {{< centerbutton href="https://amzn.to/3XkbXkS" >}}TRIGKEY Mini Computer{{< /centerbutton >}} | Another option for an x64 platform, the TRIGKEY Mini Computer provides a compact and efficient computing solution.     |
 
 ## Recommended GPS Receivers DIY RTKDirect Deployments
 There are many receivers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
-These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. Most won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. THey will allow you to be capable of at most of the RTKDirect rewards. While you'll be able to use the same software we mention below, the instructions we've provided may not exactly line up. Be advised that things like COM ports and the dongle specific instructions may be different for you.
-
 {{< figure src="advanced-receivers.jpeg" alt="The Best GPS Receivers for RTKDirect" >}}
 
-- **Unicorecomm UM980/UM982 Based USB Receivers**
-The preferred option overall and by far for almost every setup.
-Requires [FTDI Drivers](https://ftdichip.com/drivers/vcp-drivers/).
-  - (**Preferred**)[UM980 RTK GNSS USB Dongle](https://gnss.store/unicore-gnss-modules/247-elt0222.html) - $225
-    - Unicorecomm UM980 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
-    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-
-    {{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}Get the UM980 RTK GNSS USB DongleToday!{{< /centerbutton >}}
-
-  - (**Preferred**)[UM982 Dual Channel RTK GNSS USB Dongle](https://gnss.store/um982-gnss-modules/239-elt0212.html) - $235
-    - Unicorecomm UM982 Based, Triple Band L1, L2 and L5, All-Constellation, High Precision, 1408 Channels, 20hz pull rate, 80% Rewards.
-    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-
-    {{< centerbutton href="https://gnss.store/um982-gnss-modules/239-elt0212.html" >}}Get the UM982 RTK GNSS USB DongleToday!{{< /centerbutton >}}
-
-  - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3tptGOk) + [GH1.25 to Dupont2.54 Pre-Crimped Cables](https://amzn.to/3tptGOk)- $180 - $220
-    - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
-    - For more details on how to install this, we recommend you read this article on [how to set up the I2C connection on the UM980](https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/)
-  - [UM980 M.2](https://gnss.store/unicore-gnss-modules/250-elt0225.html)
-    - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
-    - May not be recognized by all systems, it uses USB protocols over M.2
-    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-  - [UM980 mPCIe](https://gnss.store/unicore-gnss-modules/251-elt0226.html)
-    - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
-    - May not be recognized by all systems, it uses USB protocols over mPCIe
-    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-
-- **Unicorecomm UM982**
-  - [UM982 M.2](https://gnss.store/um982-gnss-modules/242-elt0215.html)
-    - Unicorecomm UM982 Based, Triple Band L1, L2 and L5. 
-    - May not be recognized by all systems, it uses USB protocols over M.2
-    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-  - [UM982 mPICe](https://gnss.store/um982-gnss-modules/243-elt0216.html)
-    - Unicorecomm UM982 Based, Triple Band L1, L2 and L5. 
-    - May not be recognized by all systems, it uses USB protocols over mPCIe
-    - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-
-- **Septentrio Mosaic X5**
-Capable of up to 100% of the Onocoy rewards. Requires already available [firmware update](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5).
-  - [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) - $645
-    - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
-  - (**Preferred**)[simpleRTK3B mPCIe](https://www.ardusimple.com/product/simplertk3b-mpcie-septentrio-mosaic/)
-    - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
+| Model                                                | Description                                                                                                               |
+|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}UM980 RTK GNSS USB Dongle{{< /centerbutton >}}   | **Preferred Option:** Unicorecomm UM980 Based, Triple Band L1, L2, and L5, High Precision, 1408 Channels, 20Hz pull rate. Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount. |
+| {{< centerbutton href="https://gnss.store/um982-gnss-modules/239-elt0212.html" >}}UM982 Dual Channel RTK GNSS USB Dongle{{< /centerbutton >}} | **Preferred Option:** Unicorecomm UM982 Based, Triple Band L1, L2, and L5, High Precision, 1408 Channels, 20Hz pull rate. Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount. |
+| {{< centerbutton href="https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit" >}}mosaic-go GNSS module receiver evaluation kit{{< /centerbutton >}} | Septentrio Mosaic X5 Based, 50-100Hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing. Firmware update required.      |
 
 ## Recommended Antennas for RTKDirect
 
@@ -159,16 +107,12 @@ We've covered this in a more in depth guide about the [Best GPS Base Station Ant
 
 {{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
 
-{{< centerbutton href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}Calibrated Survey GNSS Tripleband Antenna{{< /centerbutton >}}
-
-- (**Preferred**)[Calibrated Survey GNSS Tripleband + L-band antenna (IP67)](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
-  - Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands
-- [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
-  - Strong Antenna Signal, High Precision, Builtin Anti-interference.
-- [HARXON CSX627A](https://www.gns-electronics.de/product/harxon-csx627a/) - $135
-  - Calibrated Triple Band RTK Antenna, IP67, Supports All Bands
-- [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) - $205
-  - Supports Most Bands, IP67 Rated
+| Model                                                                                                       | Description                                                                                                                        |
+|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}Calibrated Survey GNSS Tripleband + L-band antenna (IP67){{< /centerbutton >}} | **Preferred Option:** Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands.                        |
+| {{< centerbutton href="https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna" >}}Multi-frequency High Precision Survey Antenna{{< /centerbutton >}}                 | Strong Antenna Signal, High Precision, Built-in Anti-interference.                                                                   |
+| {{< centerbutton href="https://www.gns-electronics.de/product/harxon-csx627a/" >}}HARXON CSX627A{{< /centerbutton >}}                                            | Calibrated Triple Band RTK Antenna, IP67, Supports All Bands.                                                                       |
+| {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna{{< /centerbutton >}} | Supports Most Bands, IP67 Rated.                                                                                                  |
 ______
 
 ## OS Installation:

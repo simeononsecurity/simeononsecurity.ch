@@ -52,57 +52,62 @@ These are only requirements if you choose to do the advanced configuration below
 2. (Optional) Install [TeamViewer Host](https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en_US&gl=US) or [DroidVNC](https://play.google.com/store/apps/details?id=net.christianbeier.droidvnc_ng&hl=en_US&gl=US) to keep remote access to your device.
 
 ______
-## Recommended Hardware for Mining Verus on Android
+
+## The Ideal Mining Setup for Mining Verus on Android
+
+The recommended setup combines the budget-friendly and efficient Samsung Galaxy A03s, offering excellent mining performance at an affordable price. Paired with the Anker Charger for optimal device charging, short USB C cords for convenience, and the AC Infinity 120mm USB Fan for effective cooling, this setup ensures a reliable and cost-effective mining experience. The carefully selected components create a well-balanced and efficient system for verus mining.
+
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3saKyYR" >}}Samsung Galaxy A03s{{< /centerbutton >}}                      | **Preferred Option:** The A03s is an amazing deal that nets you up to 3.5Mhs and can be regularly had for around $50 brand new. It also has the suggested Li-Po battery. |
+| {{< centerbutton href="https://amzn.to/3RCdOCo" >}}Anker Charger, 60W 6 Port USB Charging Station{{< /centerbutton >}} | With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or fewer devices. |
+| {{< centerbutton href="https://amzn.to/3qv1RTQ" >}}6 inch Short USB C Cord Fast Charge 5 Pack Durable USB A to USB Type C{{< /centerbutton >}} | A pack of 6-inch short USB C cords for fast charging. Durable construction from USB A to USB Type C. |
+| {{< centerbutton href="https://amzn.to/3RympGb" >}}AC Infinity 120mm USB Fan{{< /centerbutton >}}                   | Want something cool, sleek, and quiet? This is your best bet.                                       |
+
+While the suggested setup provides a balanced and cost-effective solution, we recognize that individual preferences, availability, and specific needs may vary. As such, we can also recommend alternative options below to cater to a diverse range of preferences and requirements. These alternatives encompass different budget considerations, power efficiency, and additional features, providing users with the flexibility to choose the setup that best aligns with their unique preferences and circumstances.
+
+## Other Recommended Hardware for Mining Verus on Android
+
 ### The Best Android Phones for Mining Verus
-Currently there are standout devices in the world of Android Verus Mining in terms of profitability, ROI, durability, and availability.
+Currently these are the standout and most recommended devices in the world of Android Verus Mining in terms of profitability, ROI, durability, and availability.
 
-{{< centerbutton href="https://amzn.to/3saKyYR" >}}Get the Best Phone to Mine Verus On, the A03S, Today!{{< /centerbutton >}}
-
-1. (**Preferred**)[**Samsung Galaxy A03s**](https://amzn.to/3saKyYR)
-   - The A03s is an amazing deal that nets you up to 3.5Mhs and can be regularly had for around $50 brand new. It also has the suggested Li-Po battery.
-   1. [Tracfone Samsung Galaxy A03s](https://amzn.to/3saKyYR) - $49
-   2. [Total by Verizon Samsung Galaxy A03s](https://amzn.to/3Ed2NzD) - $49
-2. [**Samsung Galaxy A13 5G**](https://amzn.to/3YEa8BC) - $90
-   - For less than 50% more cost than the A03s, you can get practically double the Mhs. 
-3. [**CAT PHONES S48c**](https://amzn.to/449Qizb) - $150
-   - Expensive sure... However these devices have a easily removable battery and much sturdier build. This results in lower temps and safer operation over time. If you're in for the long haul, this is the device if not at least the style of device you should go for.
-4. [**Tracfone Motorola moto g Stylus (2020)**](https://amzn.to/47vq90t) - $92
-   - 5.5Mhz for only $90
-5. [**Tracfone Alcatel TCL A3**](https://amzn.to/44f7Ry0) - $40
-   - 2.8 Mhs, not the best choice but is the cheapest we can recommend.
+| Model                                                                                           | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3saKyYR" >}}Samsung Galaxy A03s{{< /centerbutton >}}       | **Preferred Option:** The A03s is an amazing deal that nets you up to 3.5Mhs and can be regularly had for around $50 brand new. It also has the suggested Li-Po battery. |
+| 1. [Tracfone Samsung Galaxy A03s](https://amzn.to/3saKyYR) - $49                                |                                                                                                             |
+| 2. [Total by Verizon Samsung Galaxy A03s](https://amzn.to/3Ed2NzD) - $49                       |                                                                                                             |
+| {{< centerbutton href="https://amzn.to/3YEa8BC" >}}Samsung Galaxy A13 5G{{< /centerbutton >}}    | Twice the cost than the A03s but twice the MHz.                                                              |
+| {{< centerbutton href="https://amzn.to/449Qizb" >}}CAT PHONES S48c{{< /centerbutton >}}          | Expensive sure... However, these devices have a easily removable battery and much sturdier build. This results in lower temps and safer operation over time. If you're in for the long haul, this is the device if not at least the style of device you should go for. |
+| {{< centerbutton href="https://amzn.to/47vq90t" >}}Tracfone Motorola moto g Stylus (2020){{< /centerbutton >}} | 5.5Mhz for only $90                                                                                        |
+| {{< centerbutton href="https://amzn.to/44f7Ry0" >}}Tracfone Alcatel TCL A3{{< /centerbutton >}}  | 2.8 Mhs, not the best choice but is the cheapest we can recommend.                                           |
 
 ### The Best USB C Chargers for Mining Verus
 
-{{< centerbutton href="https://amzn.to/3RCdOCo" >}}Get Anker 6 Port Charging Station Today!{{< /centerbutton >}}
-
-1. [Anker Charger, 60W 6 Port USB Charging Station](https://amzn.to/3RCdOCo)
-   1. With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or less devices.
-2. [PD USB-C Charging Station, COSOOS 81W 6-Port USB Charging Station](https://amzn.to/47uEBpt)
-   1. This device also support up to 6 charging devices. Has PD support and communicates with your device to ensure safe charging capabilities. Also has an added bonus of a place to store your phones while mining
-3. [60W/12A 8-Port Desktop Charging Station Multiple USB](https://amzn.to/3t4cQV4)
-   1. This device supports up to 8 devices with 60w of power delivery. It's unique feature is the screen that lets you monitor power usage. This is great for tweaking power efficiency.
+| Model                                                                                                   | Description                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3RCdOCo" >}}Anker Charger, 60W 6 Port USB Charging Station{{< /centerbutton >}}           | With PowerIQ and 60w of charging capability, this charger is an amazing choice for up to 6 devices. PowerIQ safely charges your device and extends the battery life. Most phones only need 5-10w of power while mining anyways. So this device is perfect if you're using 6 or fewer devices. |
+| {{< centerbutton href="https://amzn.to/47uEBpt" >}}PD USB-C Charging Station, COSOOS 81W 6-Port USB Charging Station{{< /centerbutton >}} | This device also supports up to 6 charging devices. Has PD support and communicates with your device to ensure safe charging capabilities. Also has an added bonus of a place to store your phones while mining. |
+| {{< centerbutton href="https://amzn.to/3t4cQV4" >}}60W/12A 8-Port Desktop Charging Station Multiple USB{{< /centerbutton >}}    | This device supports up to 8 devices with 60w of power delivery. Its unique feature is the screen that lets you monitor power usage. This is great for tweaking power efficiency.                                       |
 
 ### Recommended USB C Cables for Mining Verus
 
 When mining Verus we typically like packs of high quality USB A to USB C charging cables. Here are a few suggestions
 
-{{< centerbutton href="https://amzn.to/3qv1RTQ" >}}Get a 6 Pack of USB C Charging Cables Today!{{< /centerbutton >}}
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3qv1RTQ" >}}6 inch Short USB C Cord Fast Charge 5 Pack Durable USB A to USB Type C{{< /centerbutton >}} | A pack of 6-inch short USB C cords for fast charging. Durable construction from USB A to USB Type C. |
+| {{< centerbutton href="https://amzn.to/3qwx5Kj" >}}USB Type-C Cable 5pack 6ft{{< /centerbutton >}}             | A set of 5 USB Type-C cables with a length of 6ft each.                                              |
+| {{< centerbutton href="https://amzn.to/45rR1N0" >}}Anker USB C Charger Cable 2 Pack6ft{{< /centerbutton >}}     | Anker's 2-pack USB C charger cables, each with a length of 6ft.                                       |
+| {{< centerbutton href="https://amzn.to/45sa0qO" >}}Terasako Magnetic Charging Cable 5-Pack{{< /centerbutton >}} | A set of 5 magnetic charging cables from Terasako.                                                  |
 
-1. [6 inch Short USB C Cord Fast Charge 5 Pack Durable USB A to USB Type C ](https://amzn.to/3qv1RTQ)
-2. [USB Type-C Cable 5pack 6ft](https://amzn.to/3qwx5Kj)
-3. [Anker USB C Charger Cable 2 Pack6ft](https://amzn.to/45rR1N0)
-4. [Terasako Magnetic Charging Cable 5-Pack](https://amzn.to/45sa0qO)
 
 ### Optional Extras for Mining Verus
 
-{{< centerbutton href="https://amzn.to/3RympGb" >}}Get the AC Infinity 120mm USB Fans Today!{{< /centerbutton >}}
-
-1. [40x40x11mm Heat Syncs](https://amzn.to/3PVL5Y3)
-   1. These increase the surface area of the phone. Use these to improve both the passive and active cooling ability of the device
-2. [Basic Desk Fan](https://amzn.to/3RDfFqu)
-   1. This basic desk fan uses only 20w of power and provides plenty of air flow for up to 12 devices depending on how they are layed out.
-3. [AC Infinity 120mm Usb Fam](https://amzn.to/3RympGb)
-   1. Want something cool, sleek, and quiet? This is your best bet.
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3PVL5Y3" >}}40x40x11mm Heat Syncs{{< /centerbutton >}}                      | These heat sinks increase the surface area of the phone, improving both passive and active cooling abilities of the device.                                   |
+| {{< centerbutton href="https://amzn.to/3RDfFqu" >}}Basic Desk Fan{{< /centerbutton >}}                               | This basic desk fan uses only 20w of power and provides plenty of airflow for up to 12 devices depending on how they are laid out.                               |
+| {{< centerbutton href="https://amzn.to/3RympGb" >}}AC Infinity 120mm USB Fan{{< /centerbutton >}}                   | Want something cool, sleek, and quiet? This is your best bet.                                       |
 ______
 
 ## Best Practices for Mining Verus on Android
@@ -269,10 +274,6 @@ adb shell settings put global background_limit 4
 # Always reboot when done
 adb reboot #(Reboot device Mandatory!)
 ```
-
-______
-{{< inarticle-dark >}}
-______
 
 ## Conclusion: Unlocking VerusCoin Mining Potential on Your Android Smartphone
 

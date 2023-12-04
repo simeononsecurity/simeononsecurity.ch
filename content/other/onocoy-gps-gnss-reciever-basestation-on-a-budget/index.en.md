@@ -60,31 +60,45 @@ ____
 Creating your own **DIY Onocoy reference station** offers several compelling advantages. Firstly, it provides a **cost-effective solution**, enabling you to save on setup expenses while achieving **high precision** in *location-based applications*. Secondly, the customization options allow you to tailor the **hardware and software** to your specific needs, enhancing **flexibility and adaptability**. Moreover, **DIY setup empowers you** with a deeper understanding of the technology, enabling you to **troubleshoot and innovate**. Lastly, contributing to the **Onocoy network** not only improves your own accuracy but also lets you play a vital role in advancing **global navigation systems** while **earning rewards** for your data contributions.
 
 ______
-{{< inarticle-dark >}}
-______
 
+## Ideal Setup Setup For Onocoy
 
-## Hardware Requirements:
+For Onocoy, we recommend the following components for an optimal setup. This combination ensures high precision, versatility, and reliable performance.
+
+| Name                                                                                          | Description                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3YkFhcj" >}}Beelink U59 Mini PC{{< /centerbutton >}}    | The Beelink U59 Mini PC offers a low-power alternative for those seeking a Raspberry Pi equivalent on an x64 platform. It provides a compact and efficient computing solution with the power of Intel N5100.                                                                                                                                                              |
+| {{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}UM980 RTK GNSS USB Dongle{{< /centerbutton >}} | Unicorecomm UM980 Based, Triple Band L1, L2, and L5, All-Constellation, High Precision, 1408 Channels, 20Hz pull rate, 80% Rewards. Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.                                                                                                                                               |
+| {{< centerbutton href="https://www.gns-electronics.de/product/harxon-csx627a/" >}}HARXON CSX627A Antenna{{< /centerbutton >}}              | Calibrated Triple Band RTK Antenna, IP67, Supports All Bands                                                                                                                                                                                                                                                   |
+
+This combination ensures a powerful computing platform with the Beelink U59 Mini PC, coupled with the high-precision positioning provided by the UM980 RTK GNSS USB Dongle and the reliable performance of the HARXON CSX627A Triple Band RTK Antenna. The recommended GNSS USB Dongle is our preferred choice for its exceptional precision and features, making it the ideal solution for Onocoy applications. 
+
+*Below we've included other alternatives.*
+
+## Recommended Hardware for Onocoy:
 One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of flash-based storage** (for longevity of the SSD). For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**. 
 
 {{< figure src="compute.jpeg" alt="Onocoy DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
-{{< centerbutton href="https://amzn.to/45IW4ZD" >}}Get the Orange Pi 5 Today!{{< /centerbutton >}}
-
 ### Raspberry Pi and Pi Clones:
-Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install raspian on your Raspberry PI 
-- [Orange Pi 5 4GB](https://amzn.to/45IW4ZD)
-- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
-- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
-- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
 
-### Any USFF/Tiny/Mini/Micro PC:
-- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
-- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
-### Any Mini PC with Intel N5100 or similar
-For super low power Raspberry Pi equivalent but on x64 platform. 
-- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
-- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install Raspbian on your Raspberry PI.
+
+| Name                                                                                          | Description                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/45IW4ZD" >}}Orange Pi 5 4GB{{< /centerbutton >}}       | The Orange Pi 5 is recommended for its super low power and high customizability. It provides up to 4GB of RAM and offers a cost-effective solution for various projects.                                                                                                                                   |
+| {{< centerbutton href="https://amzn.to/3x72kv0" >}}Raspberry Pi 4B Model B DIY Kit{{< /centerbutton >}} | **Preferred Option:** If available, the Raspberry Pi 4B Model B DIY Kit is recommended for Raspberry Pi enthusiasts. It offers a versatile and customizable computing solution, suitable for various applications and projects.                                                                                |
+| {{< centerbutton href="https://amzn.to/3jG2g2k" >}}GeeekPi Raspberry Pi 4 4GB Starter Kit{{< /centerbutton >}} | A ready-to-go starter kit for Raspberry Pi 4, suitable for those who prefer a convenient setup with moderate power. It includes essential components to kickstart your Raspberry Pi projects.                                                                                                                     |
+| {{< centerbutton href="https://amzn.to/3DQisF6" >}}GeeekPi Raspberry Pi 4 8GB Starter Kit{{< /centerbutton >}} | Another kit variant with 8GB of RAM, ideal for users with higher performance requirements on the Raspberry Pi 4. It provides additional memory for more demanding applications and projects.                                                                                                              |
+
+### Any Mini PC with Intel N5100 or similar:
+
+For super low power Raspberry Pi equivalent but on x64 platform.
+
+| Name                                                                                          | Description                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3YkFhcj" >}}Beelink U59 Mini PC{{< /centerbutton >}}    | The Beelink U59 Mini PC offers a low-power alternative for those seeking a Raspberry Pi equivalent on an x64 platform. It provides a compact and efficient computing solution with the power of Intel N5100.                                                                                             |
+| {{< centerbutton href="https://amzn.to/3XkbXkS" >}}TRIGKEY Mini Computer{{< /centerbutton >}} | Another option for an x64 platform, the TRIGKEY Mini Computer provides a compact and efficient computing solution. It is suitable for various applications and projects, offering versatility in a small form factor.                                                                                   |
 
 ### Ultra Low Power / Low Budget
 
@@ -168,37 +182,34 @@ Capable of up to 100% of the Onocoy rewards. Requires already available [firmwar
 
 We've covered this in a more in depth guide about the [Best GPS Base Station Antennas](https://simeononsecurity.com/other/unveiling-best-gps-antennas-onocoy-geodnet/).
 
-
-
 ### Basic Antennas for Onocoy
 
 {{< figure src="BT-800D.jpeg" alt="Beitian BT-800D High Gain High Precision GPS/GNSS Antenna" link="https://amzn.to/47MWdxa" >}}
 
-We can only recommend using these on the basic U-Blox based receivers we recommended earlier.
-- [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
-  - Basic, simple, not the best, but it works.
-- (**Preferred**)[Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
-  - Outdoor Rated, Cheap, Allows view of the Sky.
-- [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
-  - This is only recommended for those who can not properly install the antennas below. It will underperform against the others. 
+For U-Blox based receivers, we recommend the following antenna options to enhance GPS navigation accuracy.
+
+| Name                                                                                                              | Description                                                                                                                                                                       |
+|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna{{< /centerbutton >}}         | Basic, simple, and budget-friendly, the Bingfu GPS Navigation Antenna is a reliable choice for users looking for a functional solution at an affordable price of $9.                                                                              |
+| {{< centerbutton href="https://amzn.to/3PcSGki" >}}Preferred - Bingfu GPS Navigation External Antenna{{< /centerbutton >}} | Our preferred option, the Bingfu GPS Navigation External Antenna at $24, is outdoor-rated, cost-effective, and provides an unobstructed view of the sky, ensuring optimal GPS signal reception.                                                        |
+| {{< centerbutton href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit{{< /centerbutton >}}        | Priced at $85, the SparkFun GNSS-RTK Accessory Kit is recommended for users facing challenges in properly installing other antennas. Note that it may underperform compared to the preferred options and should be chosen as a last resort. |
 
 ### Advanced Antennas for Onocoy
 
 {{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
 
-For all other recommended Receivers above we recommend the antennas below. 
-- (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
-  - High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands.. 
-- (**Preferred**)[Calibrated Survey GNSS Tripleband + L-band antenna (IP67)](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
-  - Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands
-- [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
-  - Strong Antenna Signal, High Precision, Builtin Anti-interference.
-- [GNSS Surveying Antenna and Precise Navigation Antenna](https://amzn.to/47Mj4ZH) - $180
-  - High Antenna Gain, Extremely High Precision, IP67 Rated.
-- [HARXON CSX627A](https://www.gns-electronics.de/product/harxon-csx627a/) - $135
-  - Calibrated Triple Band RTK Antenna, IP67, Supports All Bands
-- [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) - $205
-  - Supports Most Bands, IP67 Rated
+### Antenna Options for Recommended GNSS Receivers:
+
+For optimal performance with the recommended GNSS receivers, we suggest the following antenna options to ensure accurate and reliable navigation.
+
+| Name                                                                                                              | Description                                                                                                                                                                                                                                                                                                             |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/47MWdxa" >}}Preferred - Beitian High Gain High Precision GPS/GNSS Antenna{{< /centerbutton >}}                   | Our top recommendation, the Beitian High Gain High Precision GPS/GNSS Antenna priced at $86, offers high antenna gain, precision, anti-interference features, IP67 rating, and wide band support. It's suitable for various applications with exceptional performance.                                                          |
+| {{< centerbutton href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}Preferred - Calibrated Survey GNSS Quad-Band Antenna{{< /centerbutton >}} | The Calibrated Survey GNSS Quad-Band Antenna, priced at $230, is another preferred option known for its extremely high precision, anti-interference capability, and support for all bands. It provides reliable performance and is suitable for surveying applications.                                                     |
+| {{< centerbutton href="https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna" >}}Multi-frequency High Precision Survey Antenna{{< /centerbutton >}}    | Priced at $95, the Multi-frequency High Precision Survey Antenna offers a strong signal, high precision, and built-in anti-interference features. It provides reliable performance and is suitable for various applications requiring accurate GNSS reception.                                                                     |
+| {{< centerbutton href="https://amzn.to/47Mj4ZH" >}}GNSS Surveying Antenna and Precise Navigation Antenna{{< /centerbutton >}}                             | Priced at $180, the GNSS Surveying Antenna and Precise Navigation Antenna features high antenna gain, extremely high precision, and an IP67 rating. It is designed for precise navigation applications, providing reliable performance in challenging environments.                                                             |
+| {{< centerbutton href="https://www.gns-electronics.de/product/harxon-csx627a/" >}}HARXON CSX627A{{< /centerbutton >}}                         | The HARXON CSX627A, priced at $135, is a calibrated triple-band RTK antenna with an IP67 rating. It supports all bands, making it a versatile option for various GNSS applications requiring precise navigation and reliability in different environmental conditions.                                                               |
+| {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna{{< /centerbutton >}}  | Priced at $205, this antenna supports a wide range of bands, including L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, and Galileo E1/E5/E6. With a 38dB gain, it is suitable for applications requiring support for multiple constellations and high precision.                                                                                  |
 ______
 
 ## OS Installation:
@@ -211,9 +222,6 @@ We won't go into the technical details of how to install an operating system her
 - [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
 - [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
-______
-{{< inarticle-dark >}}
-______
 
 ## Proper Onocoy Base Station Antenna Placement
 

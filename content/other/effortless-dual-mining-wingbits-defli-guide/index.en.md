@@ -18,50 +18,79 @@ ref: ["/other/creating-profitable-low-powered-crypto-miners"]
 
 Are you looking to maximize your cryptocurrency mining efforts without a hassle? In this comprehensive guide, we'll walk you through setting up dual mining with [**WingBits**](https://wingbits.com/#alpha) and [**DeFli**](https://defli.network/maclinux).
 
-## Hardware Requirements:
-### System Requirements:
-One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
-#### Raspberry Pi:
-Hard to get ahold of these days but they are super low power and are quite customizable. 
-{{< centerbutton href="https://amzn.to/3x72kv0" >}}Get a Raspberry Pi 4B Today!{{< /centerbutton >}}
+## Hardware Requirements and Recommendations for WingBits and DeFli:
 
-- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
-- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
-- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
-#### Intel Nuc:
-Wide variety of models out there. Feel Free to choose a newer one.
-- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
-- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
-- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
-#### Any Mini PC with Intel N5100 or similar
-For super low power Raspberry Pi equivalent but on x64 platform. 
-- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
-- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
+### Our Recommended WingBits and DeFli Hardware Configuration
+
+**Our Ideal Setup for WingBits Flight Tracking**
+
+For aviation enthusiasts or those keen on monitoring aircraft movements, we recommend an ideal setup that combines the versatility of the Raspberry Pi 4B Model B DIY Kit with specialized components for ADS-B reception. The Raspberry Pi DIY Kit is perfect for enthusiasts seeking a customizable computing solution. Paired with the AirNav Radarbox Flightstick and SIGNALPLUS 1090MHz ADS-B Antenna, this setup ensures optimal performance, features, and reliability for accurate and detailed flight tracking.
+
+| Model                                                                                                             | Description                                                                                         |
+|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3x72kv0" >}}Raspberry Pi 4B Model B DIY Kit{{< /centerbutton >}}           | Consider this DIY kit for Raspberry Pi enthusiasts looking for a versatile and customizable computing solution.                                                  |
+| {{< centerbutton href="https://amzn.to/3QIRhBV" >}}AirNav Radarbox Flightstick{{< /centerbutton >}}               | **Preferred Option:** With optimal performance and features, the AirNav Radarbox Flightstick is our top recommendation for ADS-B reception, ensuring reliable and accurate flight tracking.                                          |
+| {{< centerbutton href="https://amzn.to/3FsGaaY" >}}SIGNALPLUS 1090MHz ADS-B Antenna{{< /centerbutton >}}         | **Preferred Option:** The SIGNALPLUS 1090MHz ADS-B Antenna is our top recommendation, offering excellent performance and reliability for ADS-B reception, ensuring accurate and detailed flight tracking.   
+
+### System Requirements for WingBits and DeFli:
+One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
+
+### Raspberry Pi Options:
+
+| Name                                                                                                 | Description                                                                                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3x72kv0" >}}Raspberry Pi 4B Model B DIY Kit{{< /centerbutton >}}          | Consider this DIY kit for Raspberry Pi enthusiasts looking for a versatile and customizable computing solution.                                                                                                               |
+| {{< centerbutton href="https://amzn.to/3jG2g2k" >}}GeeekPi Raspberry Pi 4 4GB Starter Kit{{< /centerbutton >}}   | A ready-to-go starter kit for Raspberry Pi 4, suitable for those who prefer a convenient setup with moderate power.                                                                                                            |
+| {{< centerbutton href="https://amzn.to/3DQisF6" >}}GeeekPi Raspberry Pi 4 8GB Starter Kit{{< /centerbutton >}}   | Similar to the 4GB kit but with more RAM, ideal for users with higher performance requirements on the Raspberry Pi 4.                                                                                                         |
+
+### Mini PC Options with Intel N5100 or Similar:
+
+| Name                                                                                                 | Description                                                                                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3YkFhcj" >}}Beelink U59 Mini PC{{< /centerbutton >}}                    | For those seeking a Raspberry Pi equivalent on an x64 platform, the Beelink U59 Mini PC offers a low-power alternative.                                                                                                      |
+| {{< centerbutton href="https://amzn.to/3XkbXkS" >}}TRIGKEY Mini Computer{{< /centerbutton >}}                  | Another option for an x64 platform, the TRIGKEY Mini Computer provides a compact and efficient computing solution.                                                                                                          |
+
 ### ADSB Specific Equipment:
 #### ADSB Receivers
 We went into this in detail on our [Guide on Best ADSB Receiver for Wingbits](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/).
 
-{{< centerbutton href="https://amzn.to/3QIRhBV" >}}Get your AirNav Radarbox Flightstick today! {{< /centerbutton >}}
 
-- [Nooelec RTL-SDR v5](https://amzn.to/3s4trrR)
-- (**Preferred**)[AirNav Radarbox Flightstick](https://amzn.to/3QIRhBV)
-- [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)
-#### ADSB Antennas
-- (**Preferred**)[AirNav RadarBox ADS-B Antenna](https://amzn.to/496LcHN)
-- [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/3FsGaaY)
-- [1090MHz 978MHz Dual Band ADS-B Antenna](https://amzn.to/3QsOrlA)
+| Name                                                                                                 | Description                                                                                                                                                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3QIRhBV" >}}AirNav Radarbox Flightstick{{< /centerbutton >}}      | **Preferred Option:** With optimal performance and features, the AirNav Radarbox Flightstick is our top recommendation for ADS-B reception, ensuring reliable and accurate flight tracking.                                                                                                    |
+| {{< centerbutton href="https://amzn.to/3M7AwPd" >}}ADSBexchange.com Blue R820T2 RTL2832U{{< /centerbutton >}} | An alternative option for ADS-B reception, the ADSBexchange.com Blue R820T2 RTL2832U provides a reliable solution for tracking flights in your area.                                                                                                                                        |
+### ADS-B Antenna Options for WingBits and Defli:
+
+| Name                                                                                                 | Description                                                                                                                                                                                                                                                    |
+|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3FsGaaY" >}}SIGNALPLUS 1090MHz ADS-B Antenna{{< /centerbutton >}} | **Preferred Option:** The SIGNALPLUS 1090MHz ADS-B Antenna is our top recommendation for ADS-B reception. It offers excellent performance and reliability, ensuring accurate and detailed flight tracking.                                                          |
+| {{< centerbutton href="https://amzn.to/3QsOrlA" >}}1090MHz 978MHz Dual Band ADS-B Antenna{{< /centerbutton >}} | An alternative dual-band option, this antenna provides coverage for both 1090MHz and 978MHz frequencies, expanding your range of tracked flights. It is a reliable choice for comprehensive ADS-B reception.           
+                                  |
 #### Optional Extras
-*The ADSB recievers linked above have LNA and Filters built in. Only consider using a LNA or Filters if you have a non specific SDR*
-- [Nooelec SAWbird+ ADS-B: Premium, Dual-Channel, Cascaded Ultra-Low Noise Amplifier (LNA) & Filter Module for Airplane Tracking Applications. ](https://amzn.to/4737k3T)
-##### Band Pass and SAW Filters
-- (**Preferred**)[ADSBexchange.com 1090 Mhz Saw Filter ](https://amzn.to/3MewiFB)
-- [1090MHz Band Pass Filter, Saw Band Pass Filter](https://amzn.to/3McmZFQ)
-##### Low Noise Amplifiers
-- (**Preferred**)[Nooelec Lana - Ultra Low-Noise Amplifier (LNA)](https://amzn.to/3FsEAWv)
-- [Low Noise Amplifier 20dB High Gain](https://amzn.to/3FpF27S)
-##### SMA Pigtails
-- [2 Pack 6inch SMA to SMA Adapter Cable](https://amzn.to/3QcUHwa)
-- [5pcs RF Coaxial Coax SMA Male to SMA Male](https://amzn.to/494WOeh)
+*The ADSB receivers linked above have LNA and Filters built in. Only consider using a LNA or Filters if you have a non specific SDR*
+
+##### SAWbird+ ADS-B: Premium LNA & Filter Module
+| Name                                                                                                              | Description                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/4737k3T" >}}Nooelec SAWbird+ ADS-B Module{{< /centerbutton >}}             | Premium, dual-channel, cascaded ultra-low noise amplifier (LNA) and filter module designed for airplane tracking applications. It enhances ADS-B reception, providing clear and accurate data.                                                                                                                            |
+
+##### Band Pass and SAW Filters:
+| Name                                                                                                              | Description                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3MewiFB" >}}ADSBexchange.com 1090 Mhz Saw Filter{{< /centerbutton >}}       | **Preferred Option:** Specifically designed for 1090MHz, this saw filter ensures optimal performance in ADS-B reception, improving signal quality and reducing interference.                                                                                                                                             |
+| {{< centerbutton href="https://amzn.to/3McmZFQ" >}}1090MHz Band Pass Filter, Saw Band Pass Filter{{< /centerbutton >}} | An alternative band pass filter suitable for 1090MHz applications. It helps filter out unwanted signals, contributing to a cleaner and more reliable ADS-B signal.                                                                                                                                                      |
+
+##### Low Noise Amplifiers:
+| Name                                                                                                              | Description                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3FsEAWv" >}}Nooelec Lana - Ultra Low-Noise Amplifier (LNA){{< /centerbutton >}} | **Preferred Option:** The Nooelec Lana is an ultra low-noise amplifier with 20dB high gain, designed to improve signal strength and sensitivity in ADS-B reception. It enhances the performance of your setup for more accurate tracking.                                                                                |
+| {{< centerbutton href="https://amzn.to/3FpF27S" >}}Low Noise Amplifier 20dB High Gain{{< /centerbutton >}}         | An alternative low noise amplifier with 20dB high gain. While it provides similar functionality, the choice between this and the Nooelec Lana depends on specific preferences and requirements for your ADS-B reception setup.                                                                                    |
+
+##### SMA Pigtails:
+| Name                                                                                                              | Description                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3QcUHwa" >}}2 Pack 6inch SMA to SMA Adapter Cable{{< /centerbutton >}}     | A pack of two 6-inch SMA to SMA adapter cables, useful for connecting various components in your ADS-B setup. These cables provide flexibility in connecting antennas, filters, and other hardware components.                                                                                                           |
+| {{< centerbutton href="https://amzn.to/494WOeh" >}}5pcs RF Coaxial Coax SMA Male to SMA Male{{< /centerbutton >}} | A set of five RF coaxial coax SMA male to SMA male cables. These cables are suitable for connecting SMA-compatible devices in your ADS-B reception system, offering versatility and reliable connections.                                                                                                           |
 
 ## OS Installation:
 We won't go into the technical details of how to install an operating system here. However here are some great resources to get you started.

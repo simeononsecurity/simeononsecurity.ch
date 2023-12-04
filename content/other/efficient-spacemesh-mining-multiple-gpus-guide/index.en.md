@@ -129,6 +129,39 @@ foreach ($gpuIndex in 0..($numGpus - 1)) {
 }
 ```
 
+##### Manual Windows Spacemesh Script Modification
+
+If you all want to calculate the ranges manually to troubleshoot and get more visibility.
+
+You can add this into the script and comment out the `foreach` block that starts the processes
+
+```powershell
+$countBy = ($numUnits * 32) / $numGpus
+$rangeCount = $numGpus
+Write-Output "If done manually, you can do the following ranges"
+
+for ($i = 1; $i -le $rangeCount; $i++) `
+{
+    $rangeStart = ($i - 1) * $countBy
+    $rangeEnd = $rangeStart + $countBy - 1
+
+    Write-Output "Range $i fromFile = $rangeStart, toFile = $rangeEnd"
+}
+```
+
+Which should get you something like:
+
+```txt
+If done manually, you can do the following ranges                                                         
+Range 1 fromFile = 0, toFile = 511                                                                        
+Range 2 fromFile = 512, toFile = 1023                                                                     
+```   
+
+Then you can take the start-process command in foreach loop and cut it out of the for each block, 
+manually set the `provider` number and `fromFile` and `toFile` values needed and paste them manually into different terminals.
+This also lets you plot one plot on multiple systems if you take advantage of network storage.
+
+
 #### Linux
 ```bash
 #!/bin/bash

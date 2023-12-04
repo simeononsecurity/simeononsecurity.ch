@@ -76,99 +76,73 @@ WingBits' significance lies in offering a decentralized model that fairly reward
 
 WingBits implements fairness through penalties for slow antennas, promoting active and responsive participation. The sufficiency of the model is evident in the transparent and equitable distribution of Wings, fostering a collaborative ecosystem.
 
-### About Flight Tracking
-
-Flight tracking involves the use of small computers, typically Raspberry Pi, connected to a software-defined radio (SDR) USB stick operating at 1090 MHz. This setup, known as a feeder or ADS-B receiver, captures aircraft positions transmitted on 1090 MHz, primarily through Automatic Dependent Surveillance–Broadcast (ADS-B). The essential components for building such a device are detailed below.
-
-{{< figure src="ADS-B_graphic.jpg" alt="Simplified ADS-B Network Example" caption="Simplified ADS-B Network Example - southwestantennas.com" link="https://www.southwestantennas.com/articles/introduction-to-ads-b-technology" >}}
-
-#### Unique Identifiers and Aircraft History
-
-Each aircraft transmitting its position on 1090 MHz is assigned a unique hexadecimal identifier, such as ABA7D9. This identifier remains constant, allowing users to track the historical data for a specific airframe. For example, the US-registered aircraft N850FD corresponds to the hex ID ABA7D9. The [aircraft history](https://tar1090.adsbexchange.com/?icao=aba7d9) for N850FD includes details such as its current callsign (e.g., FDX5235), which may be associated with a city pair for certain airlines.
-
-##### Detailed Aircraft Information
-
-By selecting an aircraft on the [ADS-B Exchange map](https://tar1090.adsbexchange.com/), users can access detailed information on the left side of the page. Tooltips are available to explain various displayed elements. Additionally, users can explore the aircraft's history by clicking on the history tab, revealing a colored line indicating its flight path. Timestamps, speed in knots, altitude in feet, and other details are displayed, providing a comprehensive overview of the aircraft's journey.
-
-##### Data Contribution and Real-Time Display
-
-All the data presented on the ADS-B Exchange website is sourced from volunteers who have set up receivers, contributing real-time data. This data is collected and displayed on the online map, offering a collaborative and dynamic representation of aircraft movements globally.
-
-##### ADS-B Aircraft Categories
-
-{{< figure src="aircraft_types_illustration.png" alt="A vibrant cartoon illustration showcasing diverse aircraft types in flight." caption="Soar to New Heights with Varied Aircraft Types!" >}}
-
-Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Broadcast) equipped aircraft based on specific characteristics. These categories provide insights into the type and size of the aircraft, aiding in the identification and classification of air traffic. Here are the [defined ADS-B aircraft categories](https://mode-s.org/decode/content/ads-b/2-identification.html):
-
-- **A-**: Unspecified powered aircraft
-- **A1**: Light (< 15,500 lbs.)
-- **A2**: Small (15,500 to 75,000 lbs.)
-- **A3**: Large (75,000 to 300,000 lbs.)
-- **A4**: High Vortex Large (e.g., B-757)
-- **A5**: Heavy (> 300,000 lbs.)
-- **A6**: High Performance (> 5g acceleration and > 400kts)
-- **A7**: Rotorcraft
-- **B-**: Unspecified unpowered aircraft, UAV, or spacecraft
-- **B1**: Glider/sailplane
-- **B2**: Lighter-than-Air
-- **B3**: Parachutist/Skydiver
-- **B4**: Ultralight/hang-glider/paraglider
-- **B5**: Reserved
-- **B6**: Unmanned Aerial Vehicle (UAV)
-- **B7**: Space/Trans-atmospheric vehicle
-- **C-**: Unspecified ground installation or vehicle
-- **C1**: Surface Vehicle - Emergency Vehicle
-- **C2**: Surface Vehicle - Service Vehicle
-- **C3**: Fixed Ground or Tethered Obstruction
-
 ## WingBits Hardware Requirements:
-### WingBits System Requirements:
+
+### Our Recommended WingBits Hardware Configuration
+
+**Our Ideal Setup for WingBits Flight Tracking**
+
+For aviation enthusiasts or those keen on monitoring aircraft movements, we recommend an ideal setup that combines the versatility of the Raspberry Pi 4B Model B DIY Kit with specialized components for ADS-B reception. The Raspberry Pi DIY Kit is perfect for enthusiasts seeking a customizable computing solution. Paired with the AirNav Radarbox Flightstick and SIGNALPLUS 1090MHz ADS-B Antenna, this setup ensures optimal performance, features, and reliability for accurate and detailed flight tracking.
+
+| Model                                                                                                             | Description                                                                                         |
+|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3x72kv0" >}}Raspberry Pi 4B Model B DIY Kit{{< /centerbutton >}}           | Consider this DIY kit for Raspberry Pi enthusiasts looking for a versatile and customizable computing solution.                                                  |
+| {{< centerbutton href="https://amzn.to/3QIRhBV" >}}AirNav Radarbox Flightstick{{< /centerbutton >}}               | **Preferred Option:** With optimal performance and features, the AirNav Radarbox Flightstick is our top recommendation for ADS-B reception, ensuring reliable and accurate flight tracking.                                          |
+| {{< centerbutton href="https://amzn.to/3FsGaaY" >}}SIGNALPLUS 1090MHz ADS-B Antenna{{< /centerbutton >}}         | **Preferred Option:** The SIGNALPLUS 1090MHz ADS-B Antenna is our top recommendation, offering excellent performance and reliability for ADS-B reception, ensuring accurate and detailed flight tracking.                              |
+
+### WingBits System Requirements and Recommendations:
 One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
-#### Raspberry Pi:
-Hard to get ahold of these days but they are super low power and are quite customizable. 
 
 {{< figure src="compute.jpeg" alt="Wingbits Compute Hardware" link="https://amzn.to/45IW4ZD" >}}
 
-{{< centerbutton href="https://amzn.to/3x72kv0" >}}Get your Raspberry Pi 4B today! {{< /centerbutton >}}
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3x72kv0" >}}Raspberry Pi 4B Model B DIY Kit{{< /centerbutton >}}            | Consider this DIY kit for Raspberry Pi enthusiasts looking for a versatile and customizable computing solution.                                               |
+| {{< centerbutton href="https://amzn.to/3jG2g2k" >}}GeeekPi Raspberry Pi 4 4GB Starter Kit{{< /centerbutton >}}     | A ready-to-go starter kit for Raspberry Pi 4, suitable for those who prefer a convenient setup with moderate power.                                               |
+| {{< centerbutton href="https://amzn.to/3DQisF6" >}}GeeekPi Raspberry Pi 4 8GB Starter Kit{{< /centerbutton >}}     | Similar to the 4GB kit but with more RAM, ideal for users with higher performance requirements on the Raspberry Pi 4.                                              |
+| {{< centerbutton href="https://amzn.to/3YkFhcj" >}}Beelink U59 Mini PC{{< /centerbutton >}}                      | For those seeking a Raspberry Pi equivalent on an x64 platform, the Beelink U59 Mini PC offers a low-power alternative.                                             |
+| {{< centerbutton href="https://amzn.to/3XkbXkS" >}}TRIGKEY Mini Computer{{< /centerbutton >}}                    | Another option for an x64 platform, the TRIGKEY Mini Computer provides a compact and efficient computing solution.                                                |
 
-- [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
-- [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
-- [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
-#### Intel Nuc:
-Wide variety of models out there. Feel Free to choose a newer one.
-- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
-- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
-- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
-#### Any Mini PC with Intel N5100 or similar
-For super low power Raspberry Pi equivalent but on x64 platform. 
-- [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
-- [TRIGKEY Mini Computer](https://amzn.to/3XkbXkS)
 ### ADSB Specific Equipment:
 #### ADSB Receivers for WingBits
 We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Recievers](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/)
 
 {{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick Best ADSB Receiver for Wingbits" link="https://amzn.to/3FSSql1" >}}
 
-{{< centerbutton href="https://amzn.to/3FSSql1" >}}Get the AirNav RadarBox FlightStick Today!{{< /centerbutton >}}
-
-- (**Preferred**)[AirNav Radarbox Flightstick](https://amzn.to/3QIRhBV)
-- [ADSBexchange.com Blue R820T2 RTL2832U](https://amzn.to/3M7AwPd)
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3QIRhBV" >}}AirNav Radarbox Flightstick{{< /centerbutton >}}            | **Preferred Option:** With optimal performance and features, the AirNav Radarbox Flightstick is our top recommendation for ADS-B reception, ensuring reliable and accurate flight tracking.                                               |
+| {{< centerbutton href="https://amzn.to/3M7AwPd" >}}ADSBexchange.com Blue R820T2 RTL2832U{{< /centerbutton >}}  | An alternative option for ADS-B reception, the ADSBexchange.com Blue R820T2 RTL2832U provides an affordable solution for flight tracking.                                              |
 #### ADSB Antennas for WingBits
-- (**Preferred**)[AirNav RadarBox ADS-B Antenna](https://amzn.to/496LcHN)
-- [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/3FsGaaY)
-- [1090MHz 978MHz Dual Band ADS-B Antenna](https://amzn.to/3QsOrlA)
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/496LcHN" >}}AirNav RadarBox ADS-B Antenna{{< /centerbutton >}}          | A reliable option for ADS-B reception, the AirNav RadarBox ADS-B Antenna provides solid performance for flight tracking applications.                                               |
+| {{< centerbutton href="https://amzn.to/3FsGaaY" >}}SIGNALPLUS 1090MHz ADS-B Antenna{{< /centerbutton >}}      | **Preferred Option:** The SIGNALPLUS 1090MHz ADS-B Antenna is our top recommendation, offering excellent performance and reliability for ADS-B reception, ensuring accurate and detailed flight tracking.                                              |
+| {{< centerbutton href="https://amzn.to/3QsOrlA" >}}1090MHz 978MHz Dual Band ADS-B Antenna{{< /centerbutton >}} | A dual-band option for ADS-B reception, the 1090MHz 978MHz Dual Band ADS-B Antenna provides flexibility for users interested in both frequency bands for flight tracking.                                                |
 #### Optional Extras for WingBits
 *The ADSB receivers linked above have LNA and Filters built in. Only consider using a LNA or Filters if you have a non specific SDR*
-- [Nooelec SAWbird+ ADS-B: Premium, Dual-Channel, Cascaded Ultra-Low Noise Amplifier (LNA) & Filter Module for Airplane Tracking Applications. ](https://amzn.to/4737k3T)
+##### Nooelec SAWbird+ ADS-B
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/4737k3T" >}}Nooelec SAWbird+ ADS-B{{< /centerbutton >}}                 | A premium, dual-channel, cascaded ultra-low noise amplifier (LNA) and filter module designed for airplane tracking applications.                                             |
+
 ##### Band Pass and SAW Filters for WingBits
-- (**Preferred**)[ADSBexchange.com 1090 Mhz Saw Filter ](https://amzn.to/3MewiFB)
-- [1090MHz Band Pass Filter, Saw Band Pass Filter](https://amzn.to/3McmZFQ)
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3MewiFB" >}}ADSBexchange.com 1090 Mhz Saw Filter{{< /centerbutton >}}   | **Preferred Option:** The ADSBexchange.com 1090 Mhz Saw Filter is our top recommendation, providing optimal filtering for ADS-B reception in WingBits setups.                                              |
+| {{< centerbutton href="https://amzn.to/3McmZFQ" >}}1090MHz Band Pass Filter{{< /centerbutton >}}               | A band pass filter designed for 1090MHz, the 1090MHz Band Pass Filter is suitable for WingBits applications requiring precise frequency filtering.                          |
+
 ##### Low Noise Amplifiers for WingBits
-- (**Preferred**)[Nooelec Lana - Ultra Low-Noise Amplifier (LNA)](https://amzn.to/3FsEAWv)
-- [Low Noise Amplifier 20dB High Gain](https://amzn.to/3FpF27S)
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3FsEAWv" >}}Nooelec Lana - Ultra Low-Noise Amplifier (LNA){{< /centerbutton >}} | **Preferred Option:** The Nooelec Lana LNA is our top recommendation for WingBits setups, offering ultra-low noise and high gain for enhanced ADS-B reception.                          |
+| {{< centerbutton href="https://amzn.to/3FpF27S" >}}Low Noise Amplifier 20dB High Gain{{< /centerbutton >}}       | A high-gain low noise amplifier suitable for WingBits setups, providing improved signal reception for ADS-B tracking.                                              |
+
 ##### SMA Pigtails for WingBits
-- [2 Pack 6inch SMA to SMA Adapter Cable](https://amzn.to/3QcUHwa)
-- [5pcs RF Coaxial Coax SMA Male to SMA Male](https://amzn.to/494WOeh)
+| Model                                                                                                              | Description                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3QcUHwa" >}}2 Pack 6inch SMA to SMA Adapter Cable{{< /centerbutton >}} | A set of two 6-inch SMA to SMA adapter cables, facilitating connectivity in WingBits configurations.                                                        |
+| {{< centerbutton href="https://amzn.to/494WOeh" >}}5pcs RF Coaxial Coax SMA Male to SMA Male{{< /centerbutton >}}| A pack of five RF coaxial SMA male to SMA male cables, providing versatility and flexibility for SMA connections in WingBits setups.                                 |
 
 ## OS Installation:
 We won't go into the technical details of how to install an operating system here. However here are some great resources to get you started.
@@ -538,6 +512,53 @@ sudo systemctl disable --now pingfail
 **Conclusion:**
 
 pingfail provides a simple yet effective solution for maintaining a stable internet connection for ADS-B setups. By automatically rebooting the computer in the event of extended internet unavailability, users can ensure continuous data reception and minimize downtime.
+
+______
+
+## About Flight Tracking
+
+For those interested, **Flight Tracking** involves the use of small computers, typically a Raspberry Pi, connected to a **software-defined radio (SDR)** USB stick operating at **1090 MHz**. This setup, known as a feeder or ADS-B receiver, captures aircraft positions transmitted on 1090 MHz, primarily through Automatic Dependent Surveillance–Broadcast (ADS-B). The essential components for building such a device are detailed below.
+
+{{< figure src="ADS-B_graphic.jpg" alt="Simplified ADS-B Network Example" caption="Simplified ADS-B Network Example - southwestantennas.com" link="https://www.southwestantennas.com/articles/introduction-to-ads-b-technology" >}}
+
+### Unique Identifiers and Aircraft History
+
+Each aircraft transmitting its position on 1090 MHz is assigned a unique hexadecimal identifier, such as ABA7D9. This identifier remains constant, allowing users to track the historical data for a specific airframe. For example, the US-registered aircraft N850FD corresponds to the hex ID ABA7D9. The [aircraft history](https://tar1090.adsbexchange.com/?icao=aba7d9) for N850FD includes details such as its current callsign (e.g., FDX5235), which may be associated with a city pair for certain airlines.
+
+### Detailed Aircraft Information
+
+By selecting an aircraft on the [ADS-B Exchange map](https://tar1090.adsbexchange.com/), users can access detailed information on the left side of the page. Tooltips are available to explain various displayed elements. Additionally, users can explore the aircraft's history by clicking on the history tab, revealing a colored line indicating its flight path. Timestamps, speed in knots, altitude in feet, and other details are displayed, providing a comprehensive overview of the aircraft's journey.
+
+##### Data Contribution and Real-Time Display
+
+All the data presented on the ADS-B Exchange website is sourced from volunteers who have set up receivers, contributing real-time data. This data is collected and displayed on the online map, offering a collaborative and dynamic representation of aircraft movements globally.
+
+##### ADS-B Aircraft Categories
+
+{{< figure src="aircraft_types_illustration.png" alt="A vibrant cartoon illustration showcasing diverse aircraft types in flight." caption="Soar to New Heights with Varied Aircraft Types!" >}}
+
+Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Broadcast) equipped aircraft based on specific characteristics. These categories provide insights into the type and size of the aircraft, aiding in the identification and classification of air traffic. Here are the [defined ADS-B aircraft categories](https://mode-s.org/decode/content/ads-b/2-identification.html):
+
+- **A-**: Unspecified powered aircraft
+- **A1**: Light (< 15,500 lbs.)
+- **A2**: Small (15,500 to 75,000 lbs.)
+- **A3**: Large (75,000 to 300,000 lbs.)
+- **A4**: High Vortex Large (e.g., B-757)
+- **A5**: Heavy (> 300,000 lbs.)
+- **A6**: High Performance (> 5g acceleration and > 400kts)
+- **A7**: Rotorcraft
+- **B-**: Unspecified unpowered aircraft, UAV, or spacecraft
+- **B1**: Glider/sailplane
+- **B2**: Lighter-than-Air
+- **B3**: Parachutist/Skydiver
+- **B4**: Ultralight/hang-glider/paraglider
+- **B5**: Reserved
+- **B6**: Unmanned Aerial Vehicle (UAV)
+- **B7**: Space/Trans-atmospheric vehicle
+- **C-**: Unspecified ground installation or vehicle
+- **C1**: Surface Vehicle - Emergency Vehicle
+- **C2**: Surface Vehicle - Service Vehicle
+- **C3**: Fixed Ground or Tethered Obstruction
 
 ______
 
