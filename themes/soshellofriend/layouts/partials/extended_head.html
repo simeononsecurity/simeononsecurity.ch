@@ -1,5 +1,5 @@
 <!-- render alternate links - RSS, Sitemaps, Index, DNS Prefetch -->
-{{ partial "render-alternates.html" .}}
+{{ partialCached "render-alternates.html" .}}
 
 <!-- add a <link> tag to all the pages for manifest.json  -->
 <link rel="manifest" href="{{ ("manifest.json" | absURL) }}">
