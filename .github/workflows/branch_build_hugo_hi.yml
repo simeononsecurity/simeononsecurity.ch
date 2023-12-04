@@ -40,7 +40,7 @@ jobs:
             ${{ runner.os }}-hugomod-hi
 
       - name: Build Hugo site
-        run: hugo --cleanDestinationDir -D -E -F --gc  --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/hi/config.toml
+        run: hugo --cleanDestinationDir -D -E -F  --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/hi/config.toml
 
       - name: Delete non-public folders and files
         run: |
