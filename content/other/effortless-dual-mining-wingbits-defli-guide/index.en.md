@@ -34,6 +34,8 @@ For aviation enthusiasts or those keen on monitoring aircraft movements, we reco
 
 ### System Requirements for WingBits and DeFli:
 One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
+ 
+{{< figure src="compute.jpeg" alt="Wingbits Compute Hardware" link="https://amzn.to/45IW4ZD" >}}
 
 ### Raspberry Pi Options:
 
@@ -52,6 +54,9 @@ One of the following is required. We basically just need any efficient and low p
 
 ### ADSB Specific Equipment:
 #### ADSB Receivers
+
+{{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick Best ADSB Receiver for Wingbits" link="https://amzn.to/3FSSql1" >}}
+
 We went into this in detail on our [Guide on Best ADSB Receiver for Wingbits](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/).
 
 
