@@ -20,3 +20,7 @@ disableLanguages = [
     'pl',
     'pl',
 ]
+
+[params]
+  [params.images]
+    disableCompression = true
