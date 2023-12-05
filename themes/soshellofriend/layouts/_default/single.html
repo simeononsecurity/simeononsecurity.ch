@@ -120,28 +120,6 @@
     <br>
     {{ partialCached "share-buttons.html" . .Page .Page.Page .Lang .Language.Lang .Site.Language.Lang }}
     {{ partialCached "comments.html" . .Page .Page.Page }}
-    <br>
-    {{ if .Params.genre }}
-      {{ $filteredgenre := slice }}
-
-      {{ range .GetTerms "genre" }}
-        {{ $count := .Pages.Len }}
-        {{ $name := .Name }}
-        {{ if ge $count 4 }}
-          {{ $filteredgenre = $filteredgenre | append $name }}
-        {{ end }}
-      {{ end }}
-
-      {{ with $filteredgenre }}
-        <h2>Genres</h2>
-        <span class="post-tags" itemscope itemtype="https://schema.org/Thing">
-          {{ range . }}
-            <a href="{{ (urlize (printf "genre/%s" .)) | absLangURL }}/" hreflang="{{ $languageCode }}" title="{{ . }}" itemprop="url"><span itemprop="name">#{{ . }}</span></a>&nbsp;
-          {{ end }}
-        </span>
-      {{ end }}
-    {{ end }}
-    <br>
     {{ if .Params.tags }}
       {{ $filteredTags := slice }}
 
