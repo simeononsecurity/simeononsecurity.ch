@@ -3,8 +3,7 @@ name: Branch Build Hugo - EN_github
 on:
   workflow_dispatch:
   push:
-    branches:
-      - master
+    branches: [$default-branch]
     paths:
       - "!contents/**" # Exclude the contents folder
       - "!github/**" # Exclude the .github folder
