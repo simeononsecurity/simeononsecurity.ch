@@ -9,18 +9,55 @@ tags: ["Spacemesh", "Mining", "GPUs", "Proof of Space-Time", "Cryptocurrency", "
 cover: "/img/cover/spacemesh-mining-gpus.png"
 coverAlt: "A cartoon-style illustration showing multiple GPUs working together to mine Spacemesh."
 coverCaption: "Mine Smarter, Mine Greener!"
+ref: ["/other/spacemesh-mining-eco-friendly-decentralized-rewards"]
 ---
+
 ## Introduction
 
 Spacemesh is a groundbreaking cryptocurrency platform that employs an energy-efficient consensus algorithm known as "Proof of Space-Time" (PoST) for mining, presenting an eco-friendly alternative to traditional Proof of Work (PoW) cryptocurrencies like Bitcoin. If you have multiple GPUs and an interest in mining Spacemesh, this comprehensive guide will walk you through the process of maximizing your mining potential using the powerful postcli application.
+
+{{< youtube id="_-OLJi3-038" >}}
+
+## SpaceMesh Mining Phases & Their Requirements
+
+### SpaceMesh's First Mining Phase: Plotting the Storage
+
+*Initiating the Spacemesh mining journey begins with plotting the storage, a critical first step.*
+
+- *Requirements:* A **high-performance GPU** is essential for optimal plotting, with the GTX 4090 being the fastest option. **Note** that it typically takes approximately **2 days to plot 1TB**. While multi-GPU plotting is not natively supported, innovative community scripts have enabled this capability.
+
+### SpaceMesh's Second Mining Phase: Finding Proof within Existing Storage
+
+*Every 14 days, smeshers have an opportunity to uncover proof within existing storage, a process requiring meticulous attention to specific hardware aspects.*
+
+- *Process Overview:* The disk is read, and the CPU must locate proof within the storage to qualify for participation and subsequent rewards in the upcoming period. Critical factors include **CPU assignment** and **disk read speeds**.
+
+- *Optimal Hardware:* Utilizing a recent **Ryzen core** allows for efficient handling of this process, achieving a minimum proof of **256GB** within one hour. The full window permits 12 x 256GB per CPU core. It's crucial to ensure that your system boasts adequate **write speeds**.
+
+- *Performance Expectations:* In an 8-core Ryzen system, anticipate the ability to submit **12TB in 12 hours** for a streamlined mining experience.
+
 
 ## Prerequisites
 
 Before diving into the mining process, ensure you have the following prerequisites in place:
 
-1. **Multiple GPUs:** Make sure you have at least two GPUs capable of handling Spacemesh mining effectively.
+1. **Multiple GPUs:** Make sure you have at least two GPUs capable of handling Spacemesh mining effectively. Ideally, all of the gpus you use will match. Using odd numbers of gpus is only supported when running the scripts below manually.
 
-2. **postcli Application:** Download the postcli application from [here](https://github.com/spacemeshos/post/) and ensure it is correctly installed and available in your system's environment path.
+| Name                                                    | Description                                                             |
+|---------------------------------------------------------|-------------------------------------------------------------------------|
+| {{< centerbutton href="https://amzn.to/3NgmefN" >}}NVIDIA GeForce RTX 3060 Ti{{< /centerbutton >}} | Powerful mid-range GPU with excellent performance for its price.  6 days per TB     |
+| {{< centerbutton href="https://amzn.to/3R6FM7k" >}}NVIDIA GeForce RTX 3080 Ti{{< /centerbutton >}} | High-end GPU with top-tier performance, ideal for gaming enthusiasts. 3,5 days per TB |
+| {{< centerbutton href="https://amzn.to/3GvHYR1" >}}NVIDIA GeForce RTX 3090{{< /centerbutton >}}    | Flagship GPU offering unparalleled performance for gaming and tasks.   3 days TB |
+| {{< centerbutton href="https://amzn.to/3ReYzxe" >}}NVIDIA GeForce RTX 4060 Ti{{< /centerbutton >}} | Latest GPU providing approximately 20% better performance than RTX 3060 Ti, offering great value. 5 days per TB |
+
+2. **Storage:** 
+
+- [USB 3.0 SATA Drives](https://amzn.to/41aZlzY) (100Mb/Sec)
+- [SATA Drives Internal](https://amzn.to/3uNSAbj) (200Mb/Sec)
+- [SSD Drives](https://amzn.to/47NSVcu) (500Mb/Sec)
+- [NVME SSD Drives](https://amzn.to/3Nh5WTY) (3000-7000Mb/sec)
+
+4. **postcli Application:** Download the postcli application from [here](https://github.com/spacemeshos/post/) and ensure it is correctly installed and available in your system's environment path.
 
 ## Mining Spacemesh with Multiple GPUs
 
@@ -120,22 +157,6 @@ Catch{
     $nodeId = $nodeId
 }
 
-
-foreach ($gpuIndex in 0..($numGpus - 1)) {
-    $fromFile = $gpuIndex * ($numUnits * 32 / $numGpus)
-    $toFile = ($gpuIndex + 1) * ($numUnits * 32 / $numGpus) - 1
-
-    Start-Process -FilePath "$postcliPath" -ArgumentList "-provider $gpuIndex", "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", $fromFile, "-toFile", $toFile
-}
-```
-
-##### Manual Windows Spacemesh Script Modification
-
-If you all want to calculate the ranges manually to troubleshoot and get more visibility.
-
-You can add this into the script and comment out the `foreach` block that starts the processes
-
-```powershell
 $countBy = ($numUnits * 32) / $numGpus
 $rangeCount = $numGpus
 Write-Output "If done manually, you can do the following ranges"
@@ -147,7 +168,19 @@ for ($i = 1; $i -le $rangeCount; $i++) `
 
     Write-Output "Range $i fromFile = $rangeStart, toFile = $rangeEnd"
 }
+
+foreach ($gpuIndex in 0..($numGpus - 1)) {
+    # Calculate the range of files for each GPU with the completed offset
+    $fromFile = [int][math]::floor(($gpuIndex * ($numUnits * 32 / $numGpus)) + $completedOffset)
+    $toFile = [int][math]::floor((($gpuIndex + 1) * ($numUnits * 32 / $numGpus)) - 1 + $completedOffset)
+
+    Start-Process -FilePath "$postcliPath" -ArgumentList "-provider $gpuIndex", "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", $fromFile, "-toFile", $toFile
+}
 ```
+
+##### Manual Windows Spacemesh Script Modification
+
+If you all want to calculate the ranges manually to troubleshoot and get more visibility you can comment out or remove the foreach loop in the script above and it'll just print the ranges for you to run the above script manually.
 
 Which should get you something like:
 
@@ -160,6 +193,11 @@ Range 2 fromFile = 512, toFile = 1023
 Then you can take the start-process command in foreach loop and cut it out of the for each block, 
 manually set the `provider` number and `fromFile` and `toFile` values needed and paste them manually into different terminals.
 This also lets you plot one plot on multiple systems if you take advantage of network storage.
+
+```bash
+Start-Process -FilePath "$postcliPath" -ArgumentList "-provider 0", "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", 0, "-toFile", 511
+Start-Process -FilePath "$postcliPath" -ArgumentList "-provider 1", "-commitmentAtxId", $commitmentAtxId, "-id", $nodeId, "-labelsPerUnit", $LabelsPerUnit, "-maxFileSize", $MaxFileSize , "-numUnits", $numUnits, "-datadir", $datadir, "-fromFile", 512, "-toFile", 1023
+```
 
 
 #### Linux
@@ -224,6 +262,15 @@ Once the script is running, you can monitor the mining progress. The postcli app
 
 ______
 
+## Spacemesh Calculator: Optimizing Your Mining Potential
+
+{{< figure src="sos-spacemesh-calculator.webp" alt="A image of the website spacemeshcalculator.com" link="https://www.spacemeshcalculator.com/" >}}
+
+
+The [**Spacemesh Calculator**](https://www.spacemeshcalculator.com/) serves as an indispensable tool for individuals venturing into Spacemesh (SMH) mining. Designed to streamline the mining experience, this calculator enables users to input their chosen disk space and receive detailed estimates of potential monthly and daily earnings in SMH. By factoring in crucial data such as current Netspace, Smesher ranking, and Coinbases, the calculator provides insights into the competitive landscape of Spacemesh mining. Notably, it considers hardware specifications, offering recommendations on GPU choices and plotting times. This dynamic tool plays a pivotal role in preparing prospective miners for the evolving landscape of decentralized cryptocurrencies, providing valuable insights into potential earnings within the Spacemesh network.
+
+______
+
 ## Conclusion
 
 Mining Spacemesh with multiple GPUs is an efficient way to contribute to the network while maximizing your hardware potential. By employing the provided PowerShell script alongside the postcli application, you can seamlessly mine Spacemesh using the PoST algorithm without the energy-intensive computations required by PoW-based cryptocurrencies.
@@ -235,3 +282,6 @@ Always remember to keep your postcli application up to date and stay informed ab
 1. [Spacemesh Official Website](https://spacemesh.io/)
 2. [Spacemesh GitHub Repository](https://github.com/spacemeshos/)
 3. [Spacemesh POST CLI Application](https://github.com/spacemeshos/post)
+4. [Spacemesh Start](https://spacemesh.io/start/)
+5. [Spacemesh FAQ](https://spacemesh.io/faq/)
+6. [SpaceMeshOS GPU Post](https://github.com/spacemeshos/gpu-post)

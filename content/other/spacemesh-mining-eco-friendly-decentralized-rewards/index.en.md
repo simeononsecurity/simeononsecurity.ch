@@ -9,13 +9,16 @@ tags: ["Spacemesh Mining", "Proof-of-Space-Time", "Eco-Friendly", "Decentralizat
 cover: "/img/cover/spacemesh-mining-rocket.png"
 coverAlt: "An eye-catching cartoon illustration of a rocket-powered spaceship mining cryptocurrencies in outer space, symbolizing the eco-friendly and innovative Spacemesh mining process."
 coverCaption: "Mining to the Stars! Spacemesh's Eco-Friendly Rewards Await."
+ref: ["/other/efficient-spacemesh-mining-multiple-gpus-guide"]
 ---
 
 **Spacemesh Mining: An Overview**
 
-## Introduction
+## Introduction 
 
 [Spacemesh](https://www.spacemesh.io/) is a novel and innovative cryptocurrency that employs a unique mining approach known as [**Spacemesh mining**](https://simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/). Unlike traditional proof-of-work (PoW) or proof-of-stake (PoS) mechanisms, [Spacemesh](https://simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/) utilizes a **proof-of-space-time (PoST)** consensus algorithm. This groundbreaking concept aims to be more environmentally friendly and decentralized while ensuring network security and efficiency.
+
+{{< youtube id="_-OLJi3-038" >}}
 
 In this article, we will explore the ins and outs of Spacemesh mining, understand how it works, and discuss its advantages and potential challenges. Whether you are a seasoned crypto enthusiast or a newcomer to the world of cryptocurrencies, this guide will provide you with valuable insights into the fascinating world of Spacemesh mining.
 
