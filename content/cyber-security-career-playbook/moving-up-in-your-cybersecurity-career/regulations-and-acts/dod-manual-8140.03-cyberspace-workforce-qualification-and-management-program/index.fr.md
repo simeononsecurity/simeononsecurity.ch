@@ -23,8 +23,6 @@ L'objectif de ce manuel est de mettre en œuvre une politique, d'attribuer des r
 ## Applicabilité
 
 Le manuel s'applique à l'ensemble du personnel du ministère de la Défense affecté à des postes nécessitant l'exécution de travaux dans le cyberespace, tels que définis dans la norme DoDI 8140.02. Il s'applique également à l'OSD, aux départements militaires, au bureau du CJCS et à l'état-major interarmées, aux commandements de combat, au bureau de l'inspecteur général du ministère de la défense, aux agences de défense, aux activités de terrain du ministère de la défense et à toutes les autres entités organisationnelles au sein du ministère de la défense.
-
-{{< inarticle-dark >}}
 ## Responsabilités
 
 La section 2 du manuel décrit les responsabilités des différentes entités dans la gestion des effectifs du cyberespace. Voici quelques-unes des responsabilités mises en évidence :
@@ -83,8 +81,6 @@ Les domaines de qualification résidents sont spécifiques à un rôle professio
 
 Le DoD doit connaître les besoins en personnel du cyberespace et fournir un personnel qualifié et prêt à gérer le personnel du cyberespace de manière efficace et efficiente. Les systèmes existants en matière d'effectifs et de personnel doivent être utilisés pour satisfaire aux exigences en matière de rapports et d'effectifs.
 
-
-{{< inarticle-dark >}}
 ## Conclusion
 
 Le programme de qualification et de gestion de la main-d'œuvre du DoD dans le domaine du cyberespace est conçu pour développer et maintenir une main-d'œuvre compétente et qualifiée dans le domaine du cyberespace, capable de travailler en coordination avec les combattants, les entreprises et les propriétaires de systèmes de mission. Ce programme décrit les qualifications requises pour chaque rôle professionnel du DCWF jusqu'à trois niveaux de compétence.

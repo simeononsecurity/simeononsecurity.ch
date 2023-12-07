@@ -58,8 +58,6 @@ The CompTIA A+ Exam 220-1102 covers topics related to operating systems, securit
 
 Examples of questions in this exam include identifying potential malware symptoms, troubleshooting boot process errors, identifying the appropriate networking tools for different situations, and determining the best strategy for operating system upgrades.
 
-{{< inarticle-dark >}}
-
 ## Tips for Passing the Exams
 
 1. **Study the Exam Objectives**
@@ -111,7 +109,5 @@ During the actual exams, read each question carefully and allocate time based on
 
 Keep in mind that there are both multiple-choice and performance-based questions on the exams, and some questions may require more time than others. It is important to stay focused and manage time effectively to ensure that all questions are answered within the allotted time. 
 
-
-{{< inarticle-dark >}}
 ## Conclusion
 In conclusion, the CompTIA A+ certification is an important and highly-respected certification in the IT industry. Passing the CompTIA A+ Exams 220-1101 and 220-1102 requires a combination of practical experience, study, and test-taking skills. By studying the exam objectives, using multiple study resources, gaining hands-on experience, taking practice exams, and managing time effectively, test-takers can increase their knowledge and skill set in IT support and gain a valuable certification that can help advance their careers. We hope that the tips and strategies outlined in this article will help you to pass the CompTIA A+ exams and achieve your IT career goals.

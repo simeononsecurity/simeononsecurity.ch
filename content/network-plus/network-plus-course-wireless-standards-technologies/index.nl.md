@@ -17,8 +17,6 @@ Draadloze netwerken spelen een cruciale rol in onze onderling verbonden wereld e
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Verschillende 802.11 standaarden onderzoeken
 
 De 802.11 standaarden, beter bekend als Wi-Fi, definiëren de specificaties voor draadloze lokale netwerken (WLAN's).
@@ -54,8 +52,6 @@ Draadloze netwerken zijn onderverdeeld in kanalen en de beschikbare kanalen kunn
 **Kanaalbinding**: Channel bonding maakt het mogelijk om meerdere kanalen samen te voegen om de totale bandbreedte die beschikbaar is voor datatransmissie te vergroten. Het verbetert de netwerkprestaties door hogere gegevenssnelheden mogelijk te maken.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Overzicht van antennetypen, coderingsstandaarden en SSID-configuraties
 

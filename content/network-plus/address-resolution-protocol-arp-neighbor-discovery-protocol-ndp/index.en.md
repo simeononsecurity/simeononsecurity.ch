@@ -47,8 +47,6 @@ For more detailed information and examples, you can refer to the [Address Resolu
 
 Understanding how ARP works is essential for network administrators and engineers, enabling them to troubleshoot network connectivity issues and implement appropriate security measures.
 
-{{< inarticle-dark >}}
-
 ## Explaining NDP in IPv6 Networks
 
 In IPv6 networks, the Neighbor Discovery Protocol (NDP) is used to perform functions similar to ARP in IPv4 networks. NDP provides address resolution, router discovery, neighbor unreachability detection, and duplicate address detection in IPv6 networks.
@@ -100,8 +98,6 @@ NDP plays a vital role in the Stateless Address Autoconfiguration (SLAAC) proces
 For more in-depth information on the Neighbor Discovery Protocol and its role in IPv6 networks, you can refer to the [IPv6 Neighbor Discovery Protocol Specification](https://tools.ietf.org/html/rfc4861) provided by the Internet Engineering Task Force (IETF).
 
 Understanding the mechanisms of NDP and its relationship with ARP in IPv4 networks is essential for network administrators and engineers, enabling them to ensure efficient and secure network communication.
-
-{{< inarticle-dark >}}
 
 ## Troubleshooting ARP and NDP Issues
 

@@ -27,8 +27,6 @@ Durante questa fase, è essenziale documentare le informazioni raccolte, compres
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Stabilire una teoria della causa probabile
 
 Una volta raccolte le informazioni necessarie, il passo successivo è quello di **stabilire una teoria della causa probabile**. Ciò comporta la considerazione di più approcci e l'utilizzo del **modelloOSI** come quadro di riferimento per la risoluzione dei problemi.
@@ -56,8 +54,6 @@ Una volta confermata la teoria della causa, il passo successivo è quello di **s
 In alcuni casi, la soluzione può comportare modifiche alla configurazione, la sostituzione dell'hardware difettoso o l'aggiornamento del firmware o del software. È fondamentale seguire le **migliori pratiche** e aderire a qualsiasi **regolamento governativo** o **standard industriale** pertinente durante il processo di risoluzione dei problemi. La conformità a normative quali **PCI DSS**, **HIPAA** o **GDPR** garantisce la sicurezza e l'integrità della rete.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Attuare la soluzione o risolvere il problema
 

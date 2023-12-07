@@ -30,8 +30,6 @@ In addition to the factory reset, wiping configurations involves removing any re
 By performing a factory reset and wiping configurations, organizations can prevent unauthorized access to sensitive information and ensure that devices are ready for safe disposal.
 
 ______
-
-{{< inarticle-dark >}}
 ## **Sanitizing Devices for Secure Disposal**
 
 Before network assets are disposed of, it is crucial to sanitize the devices to ensure data security. Sanitization involves the complete removal of any data remnants that may still exist on the storage media. This process goes beyond a factory reset and wiping configurations and ensures that the devices are ready to be reused or safely discarded.
@@ -43,8 +41,6 @@ For solid-state drives (SSDs), the process is slightly different due to their di
 It is important to note that the sanitization process should also include any removable storage media, such as USB drives or memory cards, that were used with the network assets. These devices should be properly formatted or physically destroyed to prevent any potential data leakage.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## **Proper Methods for Disposing of Network Assets Securely**
 

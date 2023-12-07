@@ -54,8 +54,6 @@ Pentru îndrumări privind implementarea BitLocker în cel mai sigur mod, puteț
 Utilizând BitLocker, utilizatorii Windows pot beneficia de capacitățile sale puternice de criptare și de integrarea perfectă cu sistemul de operare pentru a asigura securitatea datelor lor sensibile.
 ______
 
-{{< inarticle-dark >}}
-
 ## [VeraCrypt](https://veracrypt.fr/en/Home.html)
 
 [**VeraCrypt**](https://veracrypt.fr/en/Home.html) este una dintre cele mai bune soluții de criptare completă a discului pentru Windows, Linux și macOS. Acest software popular de criptare a discurilor cu sursă deschisă, bazat pe proiectul TrueCrypt, care a fost abandonat, oferă caracteristici de securitate și flexibilitate îmbunătățite.
@@ -77,8 +75,6 @@ Pentru a cripta un disc utilizând VeraCrypt, urmați acești pași:
 Rețineți că securitatea VeraCrypt se bazează pe puterea parolei dumneavoastră. Asigurați-vă că utilizați o [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru a maximiza eficiența criptării.
 
 ______
-{{< inarticle-dark >}}
-
 ## [Symantec Endpoint Encryption](https://www.broadcom.com/products/cybersecurity/endpoint/end-user)
 
 [**Symantec Endpoint Encryption**](https://www.broadcom.com/products/cybersecurity/endpoint/end-user) este o soluție de criptare a datelor la nivel de întreprindere care oferă o protecție completă pentru criptarea completă a discului, a suporturilor amovibile și a fișierelor individuale. Concepută pentru organizații, aceasta oferă capacități de gestionare centralizată și de raportare, ceea ce o face o alegere de top pentru întreprinderile cu un număr mare de puncte finale.

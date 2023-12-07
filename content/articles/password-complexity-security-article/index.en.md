@@ -71,9 +71,7 @@ Organizations should invest in educating users about the importance of strong pa
 
 Phishing remains a prevalent threat. Users need to be aware of social engineering tactics used by attackers to trick them into revealing sensitive information.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

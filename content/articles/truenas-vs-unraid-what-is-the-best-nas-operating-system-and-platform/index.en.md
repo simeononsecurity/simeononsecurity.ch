@@ -44,8 +44,6 @@ In contrast, **Unraid** is not free but uses a fair pricing model with no subscr
 [^6]: [Unraid Pro Plan](https://unraid.net/pricing/pro)
 ______
 
-{{< inarticle-dark >}}
-
 ## User-Friendliness
 
 When it comes to **user-friendliness**, **Unraid** excels with its emphasis on **ease of use and flexibility**[^1]. It offers a unique storage management system that allows users to **mix and match different disk sizes and types**[^2]. Adding or removing disks can be done without any interruption to the system[^2]. Unraid's **straightforward and simple user interface** makes it accessible even for non-technical users[^3].
@@ -73,8 +71,6 @@ The Linux-based platform of **Unraid** allows for **virtual machine configuratio
 [^1]: [TrueNas Documentation - Features](https://www.truenas.com/docs/hub/intro/features/)
 [^2]: [Unraid Features](https://unraid.net/product/features)
 ______
-
-{{< inarticle-dark >}}
 
 ## Documentation and Community
 

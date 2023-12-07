@@ -15,8 +15,6 @@ In dit artikel zullen we de **geldige "guest_os_type"** waarden voor vSphere Pac
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Inleiding tot VMware vSphere Packer Builder
@@ -139,8 +137,6 @@ ______
 Concluderend is de waarde **"guest_os_type"** een kritieke parameter bij het gebruik van Packer met VMware vSphere. Het definieert het gastbesturingssysteem dat wordt geïnstalleerd op de VM en beïnvloedt de configuraties die worden toegepast door vSphere. Door de lijst met geldige waarden in dit artikel te raadplegen, kunnen gebruikers weloverwogen beslissingen nemen bij het maken van VM-images voor verschillende gebruikssituaties.
 
 Vergeet niet om het juiste OS-type te selecteren op basis van de specifieke versie, architectuur en gebruikssituatie van uw VM. Dit zorgt voor de beste prestaties, compatibiliteit en functionaliteit voor uw gevirtualiseerde omgevingen.
-
-{{< inarticle-dark >}}
 
 ______
 

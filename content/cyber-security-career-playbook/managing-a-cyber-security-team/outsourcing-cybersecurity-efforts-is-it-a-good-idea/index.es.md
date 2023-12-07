@@ -29,9 +29,7 @@ Tradicionalmente, muchas empresas recurrían a servicios internos de ciberseguri
 
 Decidir si externalizar la ciberseguridad depende de varios factores, como el **tamaño de la empresa**, las **amenazas a la seguridad a las que se enfrenta**, el **presupuesto**, el **modelo de negocio** y el **grupo de talento existente**. Para tomar una decisión con conocimiento de causa, es esencial considerar a fondo estos factores.
 
-______
-{{< inarticle-dark >}}
-### Factores a tener en cuenta antes de externalizar
+______### Factores a tener en cuenta antes de externalizar
 
 #### 1. El tipo de amenazas a la seguridad y las necesidades de ciberseguridad
 
@@ -120,9 +118,7 @@ Aunque la externalización de la ciberseguridad tiene numerosas ventajas, tambi�
 5. **Riesgo de interrupciones del servicio**: Depender de un único proveedor de externalización para los servicios críticos de ciberseguridad introduce el riesgo de interrupciones del servicio. Si la empresa subcontratada experimenta problemas técnicos, de personal o interrupciones en sus operaciones, puede afectar a la capacidad de la organización para responder a los incidentes de seguridad con eficacia. Mitigar este riesgo implica considerar planes de respaldo, redundancias y garantías contractuales para la disponibilidad del servicio.
 
 En general, la externalización de la ciberseguridad puede aportar beneficios significativos a las organizaciones en términos de experiencia, rentabilidad y seguridad.
-______
-{{< inarticle-dark >}}
-### Mejores prácticas para una externalización eficaz
+______### Mejores prácticas para una externalización eficaz
 
 Para garantizar el éxito de la externalización de la ciberseguridad, tenga en cuenta las siguientes prácticas recomendadas:
 

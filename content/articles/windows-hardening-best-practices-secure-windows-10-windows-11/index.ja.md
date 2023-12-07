@@ -227,8 +227,6 @@ AppLockerポリシーの実装に関するより詳細な情報については�
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Windowsの自動メンテナンスを有効にすると、ソフトウェアの�
 Windows自動メンテナンスとその設定オプションの詳細については、公式の [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## 結論
 

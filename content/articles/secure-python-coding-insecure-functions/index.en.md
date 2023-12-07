@@ -19,9 +19,7 @@ Python, a versatile and widely adopted programming language, grants developers a
 
 In the sprawling landscape of programming languages, Python's allure stems from its expansive library and intuitive syntax. However, beneath this veil of simplicity lie certain functions that, if mishandled, can unravel the very fabric of security and reliability that developers strive to weave. Our voyage into this realm is not one of alarm but of enlightenment. By acclimating ourselves to these potential pitfalls and embracing alternative methodologies, we empower ourselves to construct code that stands resolute against adversity.
 
-_____
-{{< inarticle-dark >}}
-______
+___________
 
 
 ## **Unsafe Python Functions and Their Risks**
@@ -267,9 +265,7 @@ token = secrets.token_hex(16)
 print("Secure Token:", token)
 ```
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

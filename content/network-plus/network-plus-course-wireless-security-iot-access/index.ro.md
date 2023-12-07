@@ -21,8 +21,6 @@ Un aspect fundamental al **securității fără fir** este implementarea **filtr
 
 Pe lângă filtrarea MAC, amplasarea corectă a antenei este esențială pentru optimizarea acoperirii și securității unei rețele fără fir. Prin poziționarea strategică a antenelor și prin evitarea obstacolelor, puteți minimiza scurgerile de semnal și accesul neautorizat.
 
-{{< inarticle-dark >}}
-
 ## Stabilirea unor niveluri de putere adecvate pentru rețelele fără fir
 
 Stabilirea unor niveluri de putere adecvate pentru rețelele fără fir este esențială pentru menținerea securității. Dacă nivelul de putere este setat prea ridicat, semnalul se poate extinde dincolo de zona de acoperire dorită, crescând riscul de acces neautorizat. În schimb, dacă se setează un nivel de putere prea scăzut, se poate obține o performanță slabă a rețelei și o acoperire limitată.
@@ -46,8 +44,6 @@ Pe de altă parte, EAP este un cadru de autentificare care oferă un mecanism de
 Geofencing și portalul captiv sunt tehnici avansate care pot îmbunătăți și mai mult securitatea wireless. Geofencing presupune definirea unor limite virtuale și restricționarea accesului la rețea pe baza locației geografice a dispozitivelor. Acest lucru este deosebit de util în scenariile în care rețeaua ar trebui să fie accesibilă doar într-o anumită zonă fizică.
 
 Portalul captiv, pe de altă parte, este o pagină web care le cere utilizatorilor să se autentifice sau să accepte termenii și condițiile înainte de a accesa rețeaua. Acesta oferă un nivel suplimentar de securitate și control, asigurând că numai utilizatorii autorizați se pot conecta la rețeaua fără fir.
-
-{{< inarticle-dark >}}
 
 ## Considerații pentru accesul IoT și securizarea dispozitivelor IoT
 

@@ -45,8 +45,6 @@ Keeping network devices up to date with the latest security patches is vital for
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Securing SNMP (Simple Network Management Protocol)
 
 **Simple Network Management Protocol (SNMP)** is widely used for network management and monitoring. However, if not properly secured, it can become a vulnerability. Here are some techniques to enhance the security of SNMP:
@@ -92,8 +90,6 @@ ______
 **Dynamic ARP Inspection (DAI)** validates ARP (Address Resolution Protocol) requests and responses to prevent ARP spoofing attacks. DAI inspects ARP packets and verifies the IP-to-MAC address bindings, protecting against malicious ARP activities.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Control Plane Policing and Private VLANs
 

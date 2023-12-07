@@ -94,9 +94,7 @@ Apart from RTCM3-MSM messages, Onocoy also extends support to these RTCM message
 - **1230**: Glonass Biases, particularly vital when sending Glonass MSM messages like 1084 or 1087.
 - **1033**: Antenna/Receiver description.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

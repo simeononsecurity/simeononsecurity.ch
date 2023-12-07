@@ -45,8 +45,6 @@ Once traffic is classified, QoS mechanisms prioritize traffic based on its impor
 
 QoS techniques also incorporate **congestion avoidance** mechanisms to prevent network congestion from occurring in the first place. These mechanisms proactively monitor network conditions and adjust the flow of traffic to prevent bottlenecks. In addition, **traffic policing** is used to enforce bandwidth limits on specific traffic flows, ensuring that they adhere to predefined policies.
 
-{{< inarticle-dark >}}
-
 ## Implementation of QoS for Prioritizing Network Traffic
 
 {{< youtube id="uEKDZqI5osA" >}}
@@ -100,8 +98,6 @@ Ethernet switches offer a range of additional features that contribute to QoS im
 QoS implementation also involves protocols that support address resolution and neighbor discovery. **Address Resolution Protocol (ARP)** resolves IP addresses to MAC addresses, enabling communication between devices within a network. **Neighbor Discovery Protocol** (NDP) is an IPv6 protocol that performs similar functions to ARP.
 
 ______
-
-{{< inarticle-dark >}}
 
 As network administrators strive to optimize network performance, bandwidth management and QoS play vital roles in ensuring efficient resource allocation and prioritizing critical traffic. By implementing the appropriate QoS techniques and leveraging common Ethernet switching features, organizations can enhance the performance, reliability, and responsiveness of their networks.
 

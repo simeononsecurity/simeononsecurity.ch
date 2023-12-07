@@ -42,9 +42,7 @@ ______
 
 Ces cadres devant être mis en œuvre dans les années à venir, les professionnels de la cybersécurité en herbe disposent d'un temps limité pour se préparer. Il est essentiel de se familiariser avec les cadres, tels que le **DoD DCWF**, et d'examiner attentivement les exigences énoncées. En acquérant une compréhension approfondie des qualifications requises pour les fonctions qu'ils souhaitent occuper, les individus peuvent adapter leurs études et leurs parcours de certification en conséquence.
 
-______
-{{< inarticle-dark >}}
-## Conclusion
+______## Conclusion
 
 L'évolution du paysage des cadres de travail, illustrée par le **DoD DCWF** et les lignes directrices connexes, présente à la fois des opportunités et des défis pour les professionnels de la cybersécurité. Si ces cadres s'efforcent d'établir des exigences normalisées et d'améliorer la qualité globale de la main-d'œuvre, ils rendent également plus difficile pour les individus de combler le fossé entre les différents domaines ou de trouver leur premier emploi. L'importance accrue accordée aux certifications, à l'expérience directe et à l'élimination des options de dispense nécessite une préparation proactive et un développement professionnel continu. En restant informés et en planifiant stratégiquement leur parcours professionnel, les professionnels en herbe peuvent naviguer avec succès dans ces changements et prospérer dans le secteur compétitif de la cybersécurité.
 

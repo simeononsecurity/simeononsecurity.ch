@@ -35,8 +35,6 @@ Si ya eres cliente de T-Mobile, su servicio de Internet para el hogar se integra
 
 ______
 
-{{< inarticle-dark >}}
-
 ## **Disponibilidad de Internet en casa de T-Mobile**
 
 El servicio de Internet en casa de T-Mobile está ampliando su cobertura en todo el país. Utiliza las robustas redes 4G y 5G de T-Mobile para ofrecer conectividad a Internet en zonas donde las conexiones tradicionales por cable pueden ser limitadas. Para comprobar si el internet en casa de T-Mobile está disponible en tu zona, puedes visitar su página web [website](https://www.t-mobile.com/coverage/coverage-map) or contact their [customer support](https://www.t-mobile.com/customers/customer-care)
@@ -90,8 +88,6 @@ T-Mobile proporciona recursos y asistencia para ayudar a los clientes a mejorar 
 T-Mobile se compromete a mantener la seguridad de su infraestructura de red y de su servicio de Internet residencial. Supervisan regularmente sus sistemas en busca de posibles vulnerabilidades y aplican las actualizaciones y los parches necesarios para garantizar el máximo nivel de seguridad para sus clientes.
 
 ______
-
-{{< inarticle-dark >}}
 ## **Las normativas gubernamentales y T-Mobile Home Internet**
 
 Como proveedor responsable, T-Mobile cumple con las normas gubernamentales para garantizar la protección del consumidor, la privacidad y las prácticas justas. Estas son algunas normas gubernamentales importantes relacionadas con los servicios de Internet residencial:

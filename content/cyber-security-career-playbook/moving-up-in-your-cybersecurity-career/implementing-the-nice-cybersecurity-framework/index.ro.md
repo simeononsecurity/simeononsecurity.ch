@@ -39,8 +39,6 @@ Cadrul NICE definește șapte categorii de nivel înalt care cuprind diferitele 
 - **Analyze**: Această categorie se concentrează pe analiza datelor și informațiilor privind securitatea cibernetică pentru a identifica și înțelege amenințările, vulnerabilitățile și riscurile.
 - **Colectarea și operarea**: Această categorie implică colectarea și gestionarea datelor legate de securitatea cibernetică și operarea sistemelor și infrastructurii de securitate cibernetică.
 - **Investigații**: Această categorie cuprinde activități legate de investigarea și răspunsul la incidentele de securitate cibernetică, inclusiv detectarea, analiza și recuperarea incidentelor.
-
-{{< inarticle-dark >}}
 #### 2. Domenii de specialitate
 
 În cadrul fiecărei categorii, cadrul NICE împarte în continuare rolurile și responsabilitățile în domenii de specialitate. Aceste domenii de specialitate oferă o înțelegere mai granulară a sarcinilor și competențelor specifice necesare pentru a îndeplini obiectivele de securitate cibernetică din cadrul fiecărei categorii. Câteva exemple de domenii de specialitate includ:
@@ -83,9 +81,7 @@ Pentru mai multe informații despre Cadrul de securitate cibernetică NICE și b
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Punerea în aplicare a Cadrului de securitate cibernetică NICE
+______## Punerea în aplicare a Cadrului de securitate cibernetică NICE
 
 Acum, că am înțeles importanța și beneficiile Cadrului de securitate cibernetică NICE, să ne adâncim în pașii practici pentru a-l implementa eficient în cadrul unei organizații:
 

@@ -41,8 +41,6 @@ Atunci când un dispozitiv obține o adresă IP de la un server DHCP, o face pen
 
 În rețelele mai mari, agenții releu DHCP sau adresele IP helper sunt utilizate pentru a redirecționa cererile și răspunsurile DHCP între clienții DHCP și serverele situate în subrețele diferite. Acest lucru permite centralizarea serviciilor DHCP și asigură o alocare eficientă a adreselor IP pe mai multe segmente de rețea.
 
-{{< inarticle-dark >}}
-
 ## DNS: Traducerea numelor în adrese IP
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP funcționează pe baza unui model ierarhic numit stratum. Stratul 0 reprezin
 ### Clienți și servere
 
 Într-o infrastructură NTP, clienții interoghează serverele NTP pentru a obține informații precise despre timp. Serverele NTP mențin referințe temporale precise și furnizează servicii de sincronizare clienților.
-
-{{< inarticle-dark >}}
 
 ## Arhitectura de rețea corporativă și de centru de date
 

@@ -34,8 +34,6 @@ Politicile și procedurile de securitate cibernetică oferă un cadru pentru ca 
 4. **Prezervarea continuității activității**: O politică de securitate cibernetică bine definită asigură reziliența sistemelor și a datelor împotriva incidentelor cibernetice, reducând la minimum timpii de nefuncționare și întreruperea operațiunilor de afaceri. Planurile de răspuns la incidente, strategiile de backup al datelor și procedurile de recuperare în caz de dezastru sunt componente esențiale pentru menținerea continuității afacerii.
 
 Prin dezvoltarea și implementarea unor politici și proceduri eficiente de securitate cibernetică, organizațiile își pot îmbunătăți poziția de securitate, pot insufla încredere clienților și partenerilor și pot reduce potențialele riscuri financiare și de reputație.
-
-{{< inarticle-dark >}}
 ## Elemente cheie ale unei politici de securitate cibernetică
 
 O politică cuprinzătoare de securitate cibernetică ar trebui să cuprindă mai multe elemente-cheie pentru a aborda diverse aspecte ale gestionării securității. Să explorăm aceste elemente în detaliu:
@@ -145,8 +143,6 @@ Exemplu: United States Computer Emergency Readiness Team (US-CERT) oferă o vari
 
 Investind în programe de conștientizare și de formare în domeniul securității, organizațiile pot crea o cultură a conștientizării securității cibernetice, pot împuternici angajații să devină prima linie de apărare și pot reduce probabilitatea unor atacuri cibernetice de succes.
 
-
-{{< inarticle-dark >}}
 ## Concluzie
 
 În concluzie, elaborarea unei **politici robuste de securitate cibernetică** este crucială pentru ca organizațiile să își protejeze activele digitale, să protejeze informațiile sensibile și să mențină conformitatea cu reglementările. Urmând cele mai bune practici și standarde din industrie, cum ar fi **Risk Management Framework (RMF)**, **NIST Standards**, **PCI-DSS**, **HIPAA** și **FISMA**, organizațiile pot stabili o bază solidă pentru politicile și procedurile lor de securitate cibernetică.

@@ -28,8 +28,6 @@ Per iniziare il mining di Spacemesh con più GPU, seguite questi semplici passag
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Passo 1: Configurazione delle variabili
 
 Aprire un editor di testo o un editor di script PowerShell e impostare le variabili configurabili in base alle proprie esigenze.
@@ -48,8 +46,6 @@ Lo script fornito include già alcune variabili che si possono regolare, ma il r
 - `$numUnits` Impostare il numero di unità di archiviazione da estrarre. Il valore predefinito è 16.
 
 - `$datadir` Impostare il percorso della directory dei dati in cui saranno memorizzati i dati di mining.
-
-{{< inarticle-dark >}}
 
 ### Passo 2: Esecuzione dello script
 

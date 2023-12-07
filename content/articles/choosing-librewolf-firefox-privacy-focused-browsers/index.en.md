@@ -14,9 +14,7 @@ coverCaption: "Unlock Your Privacy: Exploring LibreWolf and Firefox Browsers"
 
 In today's digital landscape, **privacy** and **security** have become paramount concerns for internet users. With the increasing prevalence of data breaches and surveillance, many individuals are seeking alternative web browsers that prioritize their **online privacy**. As individuals become more conscious of their digital footprints, the demand for **privacy-focused browsers** has grown significantly. In this article, we will delve into the world of **privacy-focused browsers** by comparing two popular options: **LibreWolf** and **Firefox**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Introduction to LibreWolf and Firefox
 
@@ -107,8 +105,6 @@ ______
 **LibreWolf** and **Firefox** each present compelling options for users seeking enhanced privacy and security in their browsing experience. The decision between the two hinges on individual priorities and preferences. If users value deep customizability and a strong emphasis on user freedom
 
 ______
-
-{{< inarticle-dark >}}
 
 ## References
 

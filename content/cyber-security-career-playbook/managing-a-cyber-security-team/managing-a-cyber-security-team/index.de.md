@@ -38,8 +38,6 @@ Die Leitung eines Cybersicherheitsteams erfordert eine Mischung aus technischen 
 4. **Finanzierung und Verwaltung**: Die Verantwortlichen für Cybersicherheit müssen Sicherheitsbudgets erstellen und verteilen, indem sie die spezifischen Kosten für die Informationssicherheit ermitteln und jedem Ziel ein bestimmtes Budget zuweisen. Dies trägt dazu bei, die Wirksamkeit der Sicherheitsstrategie zu maximieren und das Risiko der Ressourcenverschwendung zu minimieren.
 
 5. **Kenntnis des Rechts der Informationssicherheit**: CISOs und andere für die Cybersicherheit verantwortliche Personen müssen mit den an ihrem Standort geltenden Gesetzen zur Informationssicherheit, zur Einhaltung von Vorschriften und zu regulatorischen Anforderungen vertraut sein. Dazu gehören Vorschriften wie **HIPAA**, **GDPR**, **CCPA**, der **Homeland Security Act** und andere.
-
-{{< inarticle-dark >}}
 #### Nicht-technische Fähigkeiten für die Leitung eines Informationssicherheitsteams
 
 1. **Führungsqualitäten und Projektmanagement**: Starke Führungs- und Projektmanagementfähigkeiten sind für die Überwachung der Arbeit von IT- und Cybersicherheitsexperten unerlässlich. Eine wirksame Führung trägt durch strategisches Denken und effizientes Delegieren zum Erfolg der Informationssicherheitsinfrastruktur des Unternehmens bei.

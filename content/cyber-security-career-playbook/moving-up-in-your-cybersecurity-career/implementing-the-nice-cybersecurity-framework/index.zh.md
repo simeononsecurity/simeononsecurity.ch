@@ -39,8 +39,6 @@ NICE 框架定义了七个高级类别，涵盖了组织内与网络安全相关
 - 分析***：该类别侧重于分析网络安全数据和信息，以识别和了解威胁、漏洞和风险。
 - 收集和操作**：这一类别涉及网络安全相关数据的收集和管理以及网络安全系统和基础设施的运行。
 - 调查**：该类别包括与调查和应对网络安全事件有关的活动，包括事件检测、分析和恢复。
-
-{{< inarticle-dark >}}
 #### 2.专业领域
 
 在每个类别中，NICE 框架将角色和责任进一步细分为专业领域。这些专业领域提供了对实现每个类别中的网络安全目标所需的具体任务和技能的更细致的了解。专业领域的一些示例包括
@@ -83,9 +81,7 @@ NICE 框架定义了具体的工作角色，反映了与网络安全职位相关
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## 实施 NICE 网络安全框架
+______## 实施 NICE 网络安全框架
 
 既然我们已经了解了 NICE 网络安全框架的重要性和益处，下面就让我们深入探讨在组织内部有效实施该框架的实际步骤：
 

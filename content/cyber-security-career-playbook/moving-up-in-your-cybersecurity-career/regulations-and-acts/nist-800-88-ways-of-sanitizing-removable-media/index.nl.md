@@ -34,9 +34,7 @@ Clearing is het proces waarbij de gegevens op een apparaat overschreven worden m
 
 Zuiveren is het proces waarbij de gegevens op een apparaat meerdere keren worden overschreven met een patroon van binaire waarden. Deze methode is veiliger dan wissen en wordt aanbevolen voor het opschonen van gevoelige gegevens. NIST 800-88 Revisie 1 raadt aan om een softwaretool te gebruiken dat voldoet aan de normen van de [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specificatie.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Conclusie
+__________________________________________## Conclusie
 
 Concluderend, **sanering van verwijderbare media is cruciaal om ervoor te zorgen dat gevoelige gegevens die zijn opgeslagen op deze apparaten niet uitlekken of toegankelijk zijn voor onbevoegden.** NIST 800-88 Revisie 1 biedt richtlijnen voor het saneren van alle soorten verwijderbare media, waaronder harde schijven, SSD's, USB flash drives, CD's, DVD's en Blu-ray disks, inclusief fysieke vernietiging, wissen en opschonen. **Fysieke vernietiging is de meest veilige methode voor het opschonen van verwijderbare media, maar opschonen en zuiveren zijn ook effectieve methoden die een hoog beveiligingsniveau bieden.**
 

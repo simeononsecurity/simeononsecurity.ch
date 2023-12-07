@@ -63,9 +63,7 @@ In addition to LinkedIn, there are several online platforms and forums specifica
 
 3. **OWASP**: The [Open Web Application Security Project (OWASP)](https://owasp.org/) is a non-profit organization that focuses on improving software security. Get involved in OWASP projects, attend local chapter meetings, and connect with other professionals passionate about application security.
 
-______
-{{< inarticle-dark >}}
-## Engage in Cybersecurity Communities
+______## Engage in Cybersecurity Communities
 
 Getting involved in cybersecurity communities is an excellent way to expand your network and stay up to date with industry trends. Here are some ways to engage in cybersecurity communities:
 

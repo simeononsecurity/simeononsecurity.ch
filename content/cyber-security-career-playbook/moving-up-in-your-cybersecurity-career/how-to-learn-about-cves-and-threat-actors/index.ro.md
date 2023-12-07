@@ -17,8 +17,6 @@ coverCaption: "Apărați-vă și descoperiți: Împuternicește-te cu cunoștin�
 ### Introducere
 
 În peisajul actual al securității cibernetice, care evoluează rapid, este esențial să rămâneți informat cu privire la cele mai recente **CVE-uri** și **actori de amenințări** pentru a menține securitatea activelor dumneavoastră digitale. Acest articol oferă informații și strategii valoroase pentru a afla în mod eficient despre cele mai recente CVE-uri și actori de amenințare, dându-vă posibilitatea de a vă proteja în mod proactiv sistemele.
-
-{{< inarticle-dark >}}
 ## Înțelegerea CVE-urilor
 
 {{< youtube id="mNPuGhie6B4" >}}
@@ -58,8 +56,6 @@ Pentru a afla în mod eficient despre cele mai recente CVE-uri și actori de ame
 3. **Colaborare cu colegii din industrie**: Stabiliți relații cu colegii din industrie și participați la forumuri relevante **specifice industriei** pentru schimbul de cunoștințe și detectarea timpurie a amenințărilor emergente. Schimbul de informații și experiențe cu colegii de încredere vă poate ajuta să fiți în fața potențialelor vulnerabilități și a activităților actorilor de amenințare.
 
 4. **Avize și notificări de securitate**: Urmăriți îndeaproape avizele și notificările de securitate furnizate de **organisme guvernamentale** și **autorități de reglementare** relevante. Aceste organizații publică adesea alerte și orientări legate de CVE-uri emergente și de actori de amenințare. Printre exemplele de astfel de autorități se numără [**National Institute of Standards and Technology (NIST)**](https://www.nist.gov) and the [**Cybersecurity and Infrastructure Security Agency (CISA)**](https://www.cisa.gov)
-
-{{< inarticle-dark >}}
 ## Concluzie
 
 În peisajul în continuă schimbare al securității cibernetice, este esențial să rămâneți informați cu privire la cele mai recente CVE-uri și actori de amenințare pentru a vă proteja eficient activele digitale. Prin utilizarea bazelor de date CVE, a platformelor de informații despre amenințări, a avizelor de securitate și prin colaborarea cu colegii din industrie, puteți atenua în mod proactiv vulnerabilitățile și răspunde la amenințările emergente. Automatizarea scanării vulnerabilităților, explorarea informațiilor din surse deschise și monitorizarea fluxurilor de informații despre amenințări oferă o înțelegere cuprinzătoare a peisajului de securitate cibernetică. Adoptați o abordare proactivă și colaborativă pentru a vă îmbunătăți apărarea și pentru a fi în fața potențialelor amenințări.

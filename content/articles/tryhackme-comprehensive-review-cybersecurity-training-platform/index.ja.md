@@ -42,8 +42,6 @@ TryHackMe には、無料プランとプレミアム購読プランがありま�
 
 TryHackMe のプレミアム サブスクリプションの月額費用は以下のとおりです。 `$10.99`膨大なコンテンツ、認定資格、志を同じくする人々の活発なコミュニティへのアクセスを提供することで、価格に見合った価値を提供している。
 
-{{< inarticle-dark >}}
-
 ### TryHackMe 証明書
 
 TryHackMeでは、特定の部屋や学習パスを修了すると修了証が発行されます。これらの修了証は達成の証明となり、プロフィールに追加したり、潜在的な雇用者と共有したりすることができます。TryHackMe の修了証を取得することで、実践的なサイバーセキュリティ スキルを証明し、キャリアの展望を広げることができます。
@@ -63,8 +61,6 @@ TryHackMe VPNを使用することで、ユーザーは、自分の活動やデ�
 | [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | Windowsオペレーティングシステムの入門書。                       |
 | [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | Active Directoryの構造、ドメインコントローラー、ユーザーアカウント、グループポリシー、セキュリティの脆弱性など、Active Directoryの基本を深く掘り下げます。                    |
 
-
-{{< inarticle-dark >}}
 
 ## 結論
 

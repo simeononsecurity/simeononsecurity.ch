@@ -42,9 +42,7 @@ ______
 
 Poiché l'implementazione di questi framework è prevista per i prossimi anni, gli aspiranti professionisti della cybersecurity hanno a disposizione un periodo di tempo limitato per prepararsi. Familiarizzare con i framework, come il **DoD DCWF**, e rivedere attentamente i requisiti delineati è essenziale. Comprendendo a fondo le qualifiche necessarie per i ruoli desiderati, gli individui possono adattare i loro percorsi formativi e di certificazione di conseguenza.
 
-______
-{{< inarticle-dark >}}
-## Conclusione
+______## Conclusione
 
 Il panorama in evoluzione dei quadri di riferimento per la forza lavoro, esemplificato dal **DoD DCWF** e dalle relative linee guida, presenta sia opportunità che sfide per i professionisti della cybersecurity. Se da un lato questi framework si sforzano di stabilire requisiti standardizzati e di migliorare la qualità complessiva della forza lavoro, dall'altro rendono più difficile per gli individui colmare il divario tra diversi settori o assicurarsi il primo lavoro. La maggiore attenzione alle certificazioni, all'esperienza diretta e all'eliminazione delle opzioni di esonero richiedono una preparazione proattiva e uno sviluppo professionale continuo. Rimanendo informati e pianificando strategicamente il proprio percorso di carriera, gli aspiranti professionisti possono affrontare con successo questi cambiamenti e prosperare nel competitivo settore della cybersecurity.
 

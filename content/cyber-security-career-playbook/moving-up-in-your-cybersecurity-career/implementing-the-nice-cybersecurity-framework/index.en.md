@@ -39,8 +39,6 @@ The NICE framework defines seven high-level categories that encompass the variou
 - **Analyze**: This category focuses on analyzing cybersecurity data and information to identify and understand threats, vulnerabilities, and risks.
 - **Collect and Operate**: This category involves the collection and management of cybersecurity-related data and the operation of cybersecurity systems and infrastructure.
 - **Investigate**: This category encompasses activities related to the investigation and response to cybersecurity incidents, including incident detection, analysis, and recovery.
-
-{{< inarticle-dark >}}
 #### 2. Specialty Areas
 
 Within each category, the NICE framework further breaks down the roles and responsibilities into specialty areas. These specialty areas provide a more granular understanding of the specific tasks and skills required to fulfill the cybersecurity objectives within each category. Some examples of specialty areas include:
@@ -83,9 +81,7 @@ For more information on the NICE Cybersecurity Framework and its benefits, you c
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Implementing the NICE Cybersecurity Framework
+______## Implementing the NICE Cybersecurity Framework
 
 Now that we understand the importance and benefits of the NICE Cybersecurity Framework, let's delve into practical steps to implement it effectively within an organization:
 

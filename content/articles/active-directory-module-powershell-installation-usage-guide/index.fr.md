@@ -91,8 +91,6 @@ Pour gérer efficacement un environnement Active Directory (AD), il est essentie
 
 En utilisant ces puissantes cmdlets, vous pouvez facilement récupérer des informations spécifiques sur les utilisateurs, les groupes et les OU d'AD, ce qui permet une administration et une gestion efficaces de votre environnement Active Directory.
 
-{{< inarticle-dark >}}
-
 
 Ces cmdlets vous permettent de récupérer des attributs spécifiques, de filtrer les résultats et d'effectuer des requêtes avancées pour obtenir les informations souhaitées.
 
@@ -126,8 +124,6 @@ Lorsque vous travaillez avec Active Directory (AD), le module Active Directory d
 
 Grâce à ces cmdlets, vous pouvez facilement créer de nouveaux utilisateurs, groupes et OU AD avec les propriétés et configurations souhaitées, ce qui permet une gestion efficace de votre environnement Active Directory.
 
-{{< inarticle-dark >}}
-
 
 ### Modifier les objets Active Directory
 
@@ -158,8 +154,6 @@ Lorsqu'il s'agit de modifier les propriétés et les attributs d'objets Active D
   Cette commande met à jour la description de l'OU spécifiée dans la hiérarchie Active Directory.
 
 En utilisant ces cmdlets, vous pouvez facilement modifier les propriétés et les attributs des objets AD, en effectuant les mises à jour et les ajustements nécessaires pour répondre aux besoins de votre organisation.
-
-{{< inarticle-dark >}}
 
 
 ### Gestion de la sécurité d'Active Directory
@@ -227,8 +221,6 @@ Avec le module Active Directory, vous pouvez effectuer un large éventail d'opé
 En tirant parti de **PowerShell** et du **Module Active Directory**, vous pouvez renforcer vos capacités d'administration AD et améliorer l'efficacité des processus de gestion AD. Que vous soyez administrateur système, professionnel de l'informatique ou responsable Active Directory, le module Active Directory vous fournit les outils nécessaires pour gérer efficacement votre infrastructure AD.
 
 Profitez de la puissance de **PowerShell** et du **module Active Directory** pour rationaliser vos tâches d'administration AD, augmenter votre productivité et maintenir un environnement Active Directory sécurisé et bien organisé.
-
-{{< inarticle-dark >}}
 
 ## Références
 

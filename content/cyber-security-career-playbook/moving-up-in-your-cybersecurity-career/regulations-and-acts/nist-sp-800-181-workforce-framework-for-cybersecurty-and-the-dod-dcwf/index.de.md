@@ -52,9 +52,7 @@ Das Workforce Framework for Cybersecurity definiert **Arbeitsrollen**, die die s
 
 Zu den im Rahmenwerk genannten allgemeinen Arbeitsrollen gehören **Sicherheitsanalytiker**, **Sicherheitsingenieur**, **Netzwerkarchitekt**, **Penetrationstester**, **Sicherheitsprüfer** und **Cybersicherheitsberater**. Diese Arbeitsrollen dienen als wertvolle Ressource für Unternehmen bei der Definition von Stellenbeschreibungen, der Ermittlung von Qualifikationsanforderungen und der Unterstützung der Personalplanung und -entwicklung.
 
-______
-{{< inarticle-dark >}}
-### KSAs: Schlüsselkompetenzen für den Erfolg
+______### KSAs: Schlüsselkompetenzen für den Erfolg
 
 Um im Bereich der Cybersicherheit erfolgreich zu sein, müssen Fachleute über bestimmte **Kenntnisse**, **Fähigkeiten** und **Fertigkeiten** (KSAs) verfügen. Das Workforce Framework for Cybersecurity enthält eine umfassende Liste von KSAs, die für verschiedene Arbeitsaufgaben im Bereich der Cybersicherheit entscheidend sind.
 

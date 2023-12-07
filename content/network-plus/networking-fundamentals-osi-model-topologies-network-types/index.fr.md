@@ -37,8 +37,6 @@ Le modèle **OSI (Open Systems Interconnection)** est un cadre conceptuel qui d�
 
 7. **Couche 7 - Application** : La couche application représente les applications et les services réseau réels utilisés par les utilisateurs finaux. Elle fournit des services tels que **le courrier électronique**, **le transfert de fichiers**, **la navigation sur le web** et **l'accès à distance**.
 
-{{< inarticle-dark >}}
-
 ### Encapsulation et décapsulation des données dans le contexte du modèle OSI
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ Dans le contexte du modèle OSI, les éléments suivants contribuent à l'encaps
 - Charge utile** : Les données utiles sont les données réelles qui sont transmises, telles qu'une page web, un message électronique ou un fichier multimédia.
 
 - **Maximum Transmission Unit (MTU)** : Le MTU représente la taille maximale d'un paquet de données qui peut être transmis sur un réseau sans fragmentation.
-
-{{< inarticle-dark >}}
 
 ## Explorer les topologies de réseau et leurs caractéristiques
 
@@ -140,8 +136,6 @@ Un **réseau de stockage (SAN)** est un réseau spécialisé conçu à des fins 
 ### Encapsulation de routage générique multipoint (mGRE)
 
 **L'encapsulation générique multipoint (mGRE)** est une technique utilisée pour créer des réseaux privés virtuels (VPN) en encapsulant des paquets de données et en les envoyant sur un réseau multipoint. Elle permet une communication efficace entre plusieurs sites ou points d'extrémité.
-
-{{< inarticle-dark >}}
 
 ## Concepts de réseaux virtuels
 

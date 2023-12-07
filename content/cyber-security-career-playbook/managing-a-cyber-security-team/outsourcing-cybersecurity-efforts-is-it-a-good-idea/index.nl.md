@@ -29,9 +29,7 @@ Traditioneel vertrouwden veel bedrijven op interne cyberbeveiligingsdiensten. In
 
 De beslissing om cyberbeveiliging al dan niet uit te besteden hangt af van verschillende factoren, zoals **bedrijfsgrootte**, **veiligheidsbedreigingen**, **budget**, **bedrijfsmodel** en **bestaande talentenpool**. Om een weloverwogen beslissing te nemen, is het essentieel om deze factoren grondig te overwegen.
 
-______
-{{< inarticle-dark >}}
-### Factoren om te overwegen voordat u gaat uitbesteden
+______### Factoren om te overwegen voordat u gaat uitbesteden
 
 #### 1. Het type beveiligingsbedreigingen en cyberbeveiligingsbehoeften
 
@@ -120,9 +118,7 @@ Hoewel er veel voordelen zitten aan het uitbesteden van cyberbeveiliging, is het
 5. **Risico op onderbrekingen van de dienstverlening**: Afhankelijk zijn van één enkele outsourcingprovider voor kritieke cyberbeveiligingsdiensten introduceert het risico van dienstonderbrekingen. Als het uitbestedende bedrijf technische problemen, personeelsproblemen of onderbrekingen in hun activiteiten ondervindt, kan dit gevolgen hebben voor het vermogen van de organisatie om effectief te reageren op beveiligingsincidenten. Om dit risico te beperken, moet er worden nagedacht over back-upplannen, redundantie en contractuele garanties voor de beschikbaarheid van diensten.
 
 Over het geheel genomen kan het uitbesteden van cyberbeveiliging organisaties aanzienlijke voordelen opleveren in termen van expertise, kosteneffectiviteit en beschikbaarheid.
-______
-{{< inarticle-dark >}}
-### Best Practices voor effectieve uitbesteding
+______### Best Practices voor effectieve uitbesteding
 
 Overweeg de volgende best practices om cyberbeveiliging succesvol uit te besteden:
 

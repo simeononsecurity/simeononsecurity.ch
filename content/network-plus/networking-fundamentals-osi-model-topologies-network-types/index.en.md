@@ -37,8 +37,6 @@ The **OSI (Open Systems Interconnection) model** is a conceptual framework that 
 
 7. **Layer 7 - Application**: The application layer represents the actual network applications and services used by end-users. It provides services such as **email**, **file transfer**, **web browsing**, and **remote access**.
 
-{{< inarticle-dark >}}
-
 ### Data Encapsulation and Decapsulation within the OSI Model Context
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ Within the OSI model context, the following elements contribute to data encapsul
 - **Payload**: The payload is the actual data that is being transmitted, such as a web page, email message, or media file.
 
 - **Maximum Transmission Unit (MTU)**: MTU represents the maximum size of a data packet that can be transmitted over a network without fragmentation.
-
-{{< inarticle-dark >}}
 
 ## Exploring Network Topologies and Their Characteristics
 
@@ -140,8 +136,6 @@ A **storage area network (SAN)** is a specialized network designed for storage p
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
 **Multipoint Generic Routing Encapsulation (mGRE)** is a technique used to create virtual private networks (VPNs) by encapsulating data packets and sending them over a multipoint network. It enables efficient communication between multiple sites or endpoints.
-
-{{< inarticle-dark >}}
 
 ## Virtual Network Concepts
 

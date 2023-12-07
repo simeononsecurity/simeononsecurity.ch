@@ -21,8 +21,6 @@ In diesem Artikel werden wir die **Best Practices für die PowerShell-Sicherheit
 
 Die PowerShell-Sicherheit umfasst den Schutz Ihrer Skripts, die Verwaltung der Zugriffssteuerung und den Schutz sensibler Informationen, wie Kennwörter und Anmeldeinformationen. Die bewährten PowerShell-Sicherheitspraktiken umfassen mehrere Schlüsselbereiche, darunter **Skriptausführung**, **Codesignierung**, **Benutzerzugriffskontrolle** und **Kennwortverwaltung**.
 
-{{< inarticle-dark >}}
-
 ## Bewährte Praktiken für die Skriptausführung
 
 Für die **Skriptausführung** gibt es einige bewährte Verfahren, die Sie beachten sollten:
@@ -72,8 +70,6 @@ Kennwörter sind ein kritischer Aspekt der PowerShell-Sicherheit, insbesondere w
 Wenn Sie diese bewährten Verfahren für die Kennwortsicherheit befolgen, können Sie die Sicherheit Ihrer PowerShell-Umgebung stärken und sich vor unberechtigtem Zugriff und Datenverletzungen schützen.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Schlussfolgerung
 

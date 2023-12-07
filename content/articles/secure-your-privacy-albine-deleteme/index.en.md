@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## The Need for Data Privacy Solutions
@@ -76,8 +74,6 @@ Removing personal data from public databases can be especially beneficial for in
 Knowing that a reliable service like [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) is actively safeguarding their data provides users with peace of mind. They can browse the internet and engage in online activities with reduced concerns about their data being misused.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

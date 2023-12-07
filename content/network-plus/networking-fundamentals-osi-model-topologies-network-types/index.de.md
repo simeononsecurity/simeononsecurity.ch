@@ -37,8 +37,6 @@ Das **OSI (Open Systems Interconnection)-Modell** ist ein konzeptioneller Rahmen
 
 7. **Schicht 7 - Anwendung**: Die Anwendungsschicht stellt die eigentlichen Netzanwendungen und -dienste dar, die von den Endnutzern verwendet werden. Sie bietet Dienste wie **E-Mail**, **Dateitransfer**, **Browsing im Internet** und **Fernzugriff**.
 
-{{< inarticle-dark >}}
-
 ### Datenkapselung und -entkapselung im Kontext des OSI-Modells
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ Im Kontext des OSI-Modells tragen die folgenden Elemente zur Datenkapselung und 
 - **Nutzlast**: Die Nutzdaten sind die eigentlichen Daten, die übertragen werden, z. B. eine Webseite, eine E-Mail-Nachricht oder eine Mediendatei.
 
 - **Maximale Übertragungseinheit (MTU)**: Die MTU gibt die maximale Größe eines Datenpakets an, das ohne Fragmentierung über ein Netzwerk übertragen werden kann.
-
-{{< inarticle-dark >}}
 
 ## Untersuchung von Netztopologien und ihren Merkmalen
 
@@ -140,8 +136,6 @@ Ein **Storage Area Network (SAN)** ist ein spezielles Netzwerk für Speicherzwec
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
 **Multipoint Generic Routing Encapsulation (mGRE)** ist eine Technik zur Schaffung virtueller privater Netze (VPNs), bei der Datenpakete eingekapselt und über ein Mehrpunktnetz gesendet werden. Sie ermöglicht eine effiziente Kommunikation zwischen mehreren Standorten oder Endpunkten.
-
-{{< inarticle-dark >}}
 
 ## Virtuelle Netzwerkkonzepte
 

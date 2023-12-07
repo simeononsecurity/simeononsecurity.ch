@@ -38,8 +38,6 @@ Gestionarea unei echipe de securitate cibernetică necesită un amestec de compe
 4. **Finanțare și administrare**: Liderii în domeniul securității cibernetice trebuie să creeze și să distribuie bugete de securitate prin identificarea costurilor specifice de securitate a informațiilor și alocarea unui buget definit pentru fiecare obiectiv. Acest lucru ajută la maximizarea eficienței strategiei de securitate și la minimizarea riscului de risipire a resurselor.
 
 5. **Cunoașterea legislației privind securitatea informațiilor**: CISO și alți lideri în domeniul securității cibernetice trebuie să fie familiarizați cu legile privind securitatea informațiilor, conformitatea și cerințele de reglementare aplicabile în locația lor. Aceasta include reglementări precum **HIPAA**, **GDPR**, **CCPA**, **Homeland Security Act** și altele.
-
-{{< inarticle-dark >}}
 #### Abilități non-tehnice pentru gestionarea unei echipe de securitate a informațiilor
 
 1. **Liderat și gestionarea proiectelor**: Abilitățile solide de conducere și de gestionare a proiectelor sunt vitale pentru a supraveghea activitatea profesioniștilor din domeniul IT și al securității cibernetice. O conducere eficientă contribuie la succesul infrastructurii de securitate a informațiilor a organizației prin gândire strategică și delegare eficientă.

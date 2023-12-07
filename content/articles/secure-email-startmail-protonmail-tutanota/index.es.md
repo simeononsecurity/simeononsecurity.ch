@@ -23,9 +23,7 @@ Los correos electrónicos contienen información sensible, incluidos datos perso
 
 Al utilizar servicios como [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) puedes mantener tus conversaciones de correo electrónico seguras y a salvo de posibles ciberamenazas. Estos **proveedores de correo electrónico seguro** utilizan un **cifrado de última generación** para proteger tus valiosos datos y garantizar que solo los destinatarios previstos puedan acceder al contenido.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Seguro y orientado al usuario
 

@@ -23,8 +23,6 @@ W miarę jak organizacje nadal wdrażają technologie wirtualizacji, zarządzani
 
 Przyjrzyjmy się procesowi audytu uprawnień dla vCenter przy użyciu PowerCLI.
 
-{{< inarticle-dark >}}
-
 ## Przygotowanie środowiska
 Przed rozpoczęciem procesu audytu należy skonfigurować niezbędne środowisko. Oto kroki, które należy wykonać, aby rozpocząć:
 
@@ -101,8 +99,6 @@ Teraz, gdy PowerCLI jest już zainstalowane i połączone z serwerem vCenter, pr
       # Convert permissions to a CSV file
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
-
-{{< inarticle-dark >}}
 
 ## Podsumowanie
 Audyt uprawnień dla środowiska vCenter jest **kluczowym krokiem** w utrzymaniu **bezpiecznej infrastruktury wirtualnej**. Wykorzystując **PowerCLI**, można **zautomatyzować proces audytu** i efektywnie przeglądać **role i uprawnienia użytkowników**. Regularne przeprowadzanie audytów uprawnień pomaga **identyfikować luki w zabezpieczeniach** i zapewnia, że użytkownicy mają **odpowiednie poziomy dostępu** w oparciu o ich obowiązki.

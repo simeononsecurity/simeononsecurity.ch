@@ -48,9 +48,7 @@ From a practical standpoint, hacking back involves a myriad of technical challen
 ### Collateral Damage
 There is also the risk of causing collateral damage when hacking back. Disrupting an attacker's infrastructure may affect unrelated parties or innocent victims who share the same hosting or infrastructure services. This raises questions about the ethical implications of collateral damage.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Legalization of Hacking Back - Pros and Cons
 
@@ -78,9 +76,7 @@ ______
 - **Digital Vigilantism**: Hacking back may encourage a culture of digital vigilantism, where individuals and organizations take the law into their own hands.
 - **Retaliation Cycle**: Retaliatory actions can lead to a never-ending cycle of cyber retaliation and conflict.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

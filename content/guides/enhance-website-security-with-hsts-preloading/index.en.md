@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Submission Requirements**
@@ -85,8 +83,6 @@ Inclusion in the preload list is a **permanent decision** that cannot be easily 
 
 Ensure that you have carefully evaluated the implications before making this significant decision.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

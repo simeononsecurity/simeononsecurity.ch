@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## 数据隐私解决方案的必要性
@@ -76,8 +74,6 @@ ______
 知道有像 [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt)积极保护自己的数据，让用户放心。他们可以放心地浏览互联网和参与在线活动，减少对数据被滥用的担忧。
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

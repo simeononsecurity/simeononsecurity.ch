@@ -42,9 +42,7 @@ ______
 
 Întrucât aceste cadre urmează să fie puse în aplicare în anii următori, aspiranții la statutul de profesioniști în domeniul securității cibernetice au la dispoziție un interval de timp limitat pentru a se pregăti. Este esențial să se familiarizeze cu cadrele, cum ar fi **DoD DCWF**, și să analizeze cu atenție cerințele prezentate. Prin obținerea unei înțelegeri aprofundate a calificărilor necesare pentru rolurile dorite, persoanele își pot adapta în mod corespunzător demersurile educaționale și căile de certificare.
 
-______
-{{< inarticle-dark >}}
-## Concluzie
+______## Concluzie
 
 Peisajul în evoluție al cadrelor privind forța de muncă, exemplificat de **DoD DCWF** și orientările aferente, prezintă atât oportunități, cât și provocări pentru profesioniștii în domeniul securității cibernetice. În timp ce aceste cadre se străduiesc să stabilească cerințe standardizate și să îmbunătățească calitatea generală a forței de muncă, ele îngreunează, de asemenea, sarcina persoanelor de a face legătura între diferite domenii sau de a-și asigura primul loc de muncă. Accentul sporit pus pe certificări, experiența directă și eliminarea opțiunilor de renunțare necesită o pregătire proactivă și o dezvoltare profesională continuă. Prin menținerea informată și planificarea strategică a parcursului lor profesional, profesioniștii aspiranți pot naviga cu succes prin aceste schimbări și pot prospera în industria competitivă a securității cibernetice.
 

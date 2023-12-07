@@ -38,9 +38,7 @@ Przed przystąpieniem do dodawania modułu vTPM do maszyny wirtualnej należy up
    - Operacje kryptograficzne.migracja
    - Operacje kryptograficzne.Zarejestruj maszynę wirtualną
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Dodanie wirtualnego modułu Trusted Platform Module (vTPM)
 
@@ -68,9 +66,7 @@ Włączenie modułu vTPM dla maszyny wirtualnej oferuje kilka istotnych korzyśc
 
 3. **Obsługa szyfrowania BitLocker:** Jeśli korzystasz z systemu operacyjnego gościa Windows, włączenie vTPM jest warunkiem wstępnym korzystania z szyfrowania BitLocker na dyskach maszyn wirtualnych. Dodaje to dodatkową warstwę ochrony danych.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Wnioski
 

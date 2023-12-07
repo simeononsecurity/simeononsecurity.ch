@@ -23,8 +23,6 @@ Het doel van het handboek is om beleid uit te voeren, verantwoordelijkheden toe 
 ## Toepasselijkheid
 
 Het handboek is van toepassing op alle personeelsleden van het DoD die zijn aangesteld voor functies waarbij cyberspacewerk moet worden verricht, zoals geïdentificeerd in DoDI 8140.02. De handleiding is ook van toepassing op OSD, de Militaire Departementen, het Bureau van de CJCS en de Gezamenlijke Staf, de Combatant Commands, het Office of Inspector General van het Ministerie van Defensie, de Defensieagentschappen, de DoD Field Activities en alle andere organisatorische entiteiten binnen het DoD.
-
-{{< inarticle-dark >}}
 ## Verantwoordelijkheden
 
 Sectie 2 van het handboek schetst de verantwoordelijkheden van verschillende entiteiten bij het beheren van het cyberspace-personeel. Hieronder volgen enkele van de uitgelichte verantwoordelijkheden:
@@ -83,8 +81,6 @@ De interne kwalificatiegebieden zijn specifiek voor een werkrol en de opleiding 
 
 Het DoD moet op de hoogte zijn van de vereisten voor de positie van hun cyberspace-personeel en gekwalificeerd en gereed personeel leveren om het cyberspace-personeel effectief en efficiënt te beheren. Bestaande personeels- en personeelssystemen moeten worden gebruikt om te voldoen aan rapportage- en personeelsvereisten.
 
-
-{{< inarticle-dark >}}
 ## Conclusie
 
 Het DoD Cyberspace Workforce Qualification and Management Program is ontworpen om een geschoold en gekwalificeerd cyberspace workforce te ontwikkelen en te onderhouden die kan opereren in coördinatie met warfighters, bedrijven en eigenaren van missiesystemen. Dit programma beschrijft de kwalificaties die vereist zijn voor elke DCWF-werkrol tot drie niveaus van bekwaamheid.

@@ -41,8 +41,6 @@ Cuando un dispositivo obtiene una dirección IP de un servidor DHCP, lo hace por
 
 En redes más grandes, los agentes de retransmisión DHCP o las direcciones IP helper se utilizan para reenviar peticiones y respuestas DHCP entre clientes y servidores DHCP ubicados en diferentes subredes. Esto permite centralizar los servicios DHCP y proporciona una asignación eficiente de direcciones IP a través de múltiples segmentos de red.
 
-{{< inarticle-dark >}}
-
 ## DNS: Traducción de nombres a direcciones IP
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP opera basado en un modelo jerárquico llamado estrato. El estrato 0 represen
 ### Clientes y servidores
 
 En una infraestructura NTP, los clientes consultan a los servidores NTP para obtener información horaria precisa. Los servidores NTP mantienen referencias horarias precisas y proporcionan servicios de sincronización a los clientes.
-
-{{< inarticle-dark >}}
 
 ## Arquitectura de redes corporativas y de centros de datos
 

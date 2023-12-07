@@ -66,8 +66,6 @@ Par exemple, si l'adresse de votre domicile a été révélée, réfléchissez a
 N'oubliez pas que l'objectif est de réagir de manière **calme et calculée**, en veillant à ce que vos actions soient efficaces pour atténuer l'impact de l'incident de doxxing.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Documenter les preuves du doxxing
 
 Il est essentiel de **recueillir des preuves** de l'incident de doxxing pour pouvoir s'y référer ultérieurement. Faites des **captures d'écran** ou enregistrez des copies de tous les messages ou sites web qui contiennent vos informations exposées. Ces preuves seront précieuses si vous décidez de **rapporter l'incident** aux autorités chargées de l'application de la loi ou d'intenter une action en justice contre l'auteur du doxxing.
@@ -181,8 +179,6 @@ En comprenant et en tirant parti de ces réglementations, vous pouvez **renforce
 N'oubliez pas qu'un recours juridique peut nécessiter du temps, des efforts et éventuellement des ressources financières. Évaluez votre situation et consultez des professionnels pour prendre une décision éclairée quant à la poursuite d'une action en justice.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

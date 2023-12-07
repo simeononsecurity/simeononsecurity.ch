@@ -28,9 +28,7 @@ Die Spezifikation DoD 5220.22-M ist wichtig, weil sie dazu beiträgt, sensible I
 
 Die Spezifikation DoD 5220.22-M hilft, diese Art von Szenarien zu verhindern, indem sie einen Standard für das sichere Löschen sensibler Informationen von digitalen Speichermedien bereitstellt. Dadurch wird sichergestellt, dass die Informationen nicht von Unbefugten wiederhergestellt und nicht für böswillige Zwecke verwendet werden können.
 
-______
-{{< inarticle-dark >}}
-## Wie wird die DoD 5220.22-M Spezifikation verwendet?
+______## Wie wird die DoD 5220.22-M Spezifikation verwendet?
 
 Die Spezifikation DoD 5220.22-M wird vom US-Militär und anderen Regierungsorganisationen verwendet, um sicherzustellen, dass sensible Informationen sicher von digitalen Speichermedien gelöscht werden, bevor diese entsorgt oder wiederverwendet werden. Die Spezifikation wird von Organisationen verwendet, um Daten von digitalen Speichermedien zu säubern, die ausgemustert oder aus dem Verkehr gezogen werden.
 

@@ -47,8 +47,6 @@ If you prioritize **data privacy** and desire full control over your synchroniza
 
 Ready to give SyncThing a try? [Download SyncThing here](https://syncthing.net/downloads/).
 
-{{< inarticle-dark >}}
-
 ## FreeFileSync: A Robust Windows Synchronization Tool
 
 {{< youtube id="811ujCTbUAQ" >}}
@@ -75,9 +73,7 @@ If you're a Windows user and favor a **user-friendly**, **visual approach** to s
 
 Ready to experience the benefits of FreeFileSync? [Download FreeFileSync here](https://www.freefilesync.org/download.php).
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Comparison: SyncThing vs FreeFileSync
 
@@ -115,9 +111,7 @@ Now, let's conduct a head-to-head comparison of these two robust file synchroniz
 
 **FreeFileSync**: FreeFileSync aligns with the same cost-efficiency, making it a free option for personal use.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

@@ -21,8 +21,6 @@ Een fundamenteel aspect van **draadloze beveiliging** is het implementeren van *
 
 Naast MAC-filtering is de juiste plaatsing van antennes essentieel voor het optimaliseren van het bereik en de beveiliging van een draadloos netwerk. Door antennes strategisch te plaatsen en obstructies te vermijden, kan je signaallekkage en ongeoorloofde toegang minimaliseren.
 
-{{< inarticle-dark >}}
-
 ## De juiste vermogensniveaus instellen voor draadloze netwerken
 
 Het instellen van de juiste vermogensniveaus voor draadloze netwerken is cruciaal voor het handhaven van de beveiliging. Als het energieniveau te hoog is ingesteld, kan het signaal zich buiten het gewenste dekkingsgebied uitstrekken, waardoor het risico op onbevoegde toegang toeneemt. Omgekeerd kan een te laag energieniveau resulteren in slechte netwerkprestaties en een beperkte dekking.
@@ -46,8 +44,6 @@ Aan de andere kant is EAP een authenticatieraamwerk dat een robuuster en schaalb
 Geofencing en Captive Portal zijn geavanceerde technieken die de draadloze beveiliging verder kunnen verbeteren. Geofencing omvat het definiëren van virtuele grenzen en het beperken van netwerktoegang op basis van de geografische locatie van apparaten. Dit is vooral nuttig in scenario's waar het netwerk alleen toegankelijk mag zijn binnen een specifiek fysiek gebied.
 
 Captive portal daarentegen is een webpagina die gebruikers vraagt om zich te authenticeren of om akkoord te gaan met de voorwaarden voordat ze toegang krijgen tot het netwerk. Het biedt een extra laag beveiliging en controle, en zorgt ervoor dat alleen bevoegde gebruikers verbinding kunnen maken met het draadloze netwerk.
-
-{{< inarticle-dark >}}
 
 ## Overwegingen voor IoT-toegang en beveiliging van IoT-apparaten
 

@@ -227,8 +227,6 @@ Remember, regular backups are crucial in safeguarding your data and ensuring its
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Enabling Windows Automatic Maintenance ensures that your system stays optimized 
 For more detailed information on Windows Automatic Maintenance and its configuration options, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence).
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

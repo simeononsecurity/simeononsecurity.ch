@@ -29,9 +29,7 @@ Tradizionalmente, molte aziende si affidavano a servizi di cybersecurity interni
 
 Decidere se esternalizzare la cybersecurity dipende da vari fattori, quali **dimensioni dell'azienda**, **minacce alla sicurezza affrontate**, **budget**, **modello aziendale** e **gruppo di talenti esistente**. Per prendere una decisione informata, è essenziale considerare a fondo questi fattori.
 
-______
-{{< inarticle-dark >}}
-### Fattori da considerare prima dell'outsourcing
+______### Fattori da considerare prima dell'outsourcing
 
 #### 1. Il tipo di minacce alla sicurezza e le esigenze di cybersecurity
 
@@ -120,9 +118,7 @@ Sebbene i vantaggi dell'outsourcing della sicurezza informatica siano numerosi, 
 5. **Rischio di interruzione del servizio**: Dipendere da un unico fornitore di outsourcing per i servizi critici di cybersecurity comporta il rischio di interruzioni del servizio. Se l'azienda di outsourcing riscontra problemi tecnici, di personale o di interruzione delle operazioni, può avere un impatto sulla capacità dell'organizzazione di rispondere efficacemente agli incidenti di sicurezza. Per mitigare questo rischio è necessario considerare piani di backup, ridondanze e garanzie contrattuali sulla disponibilità del servizio.
 
 Nel complesso, l'esternalizzazione della cybersecurity può portare alle organizzazioni vantaggi significativi in termini di competenza, economicità e
-______
-{{< inarticle-dark >}}
-### Migliori pratiche per un outsourcing efficace
+______### Migliori pratiche per un outsourcing efficace
 
 Per garantire il successo dell'outsourcing della cybersecurity, considerate le seguenti best practice:
 

@@ -37,8 +37,6 @@ El **modelo OSI (Interconexión de Sistemas Abiertos)** es un marco conceptual q
 
 7. **Capa 7 - Aplicación**: La capa de aplicación representa las aplicaciones y servicios de red reales utilizados por los usuarios finales. Proporciona servicios como **correo electrónico**, **transferencia de archivos**, **navegación web** y **acceso remoto**.
 
-{{< inarticle-dark >}}
-
 ### Encapsulación y desencapsulación de datos en el contexto del modelo OSI
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ En el contexto del modelo OSI, los siguientes elementos contribuyen a la encapsu
 - Carga útil**: La carga útil son los datos reales que se transmiten, como una página web, un mensaje de correo electrónico o un archivo multimedia.
 
 - Unidad Máxima de Transmisión (MTU)**: La MTU representa el tamaño máximo de un paquete de datos que puede transmitirse a través de una red sin fragmentación.
-
-{{< inarticle-dark >}}
 
 ## Explorar las topologías de red y sus características
 
@@ -140,8 +136,6 @@ Una **red de área de almacenamiento (SAN)** es una red especializada diseñada 
 ### Encapsulación de enrutamiento genérico multipunto (mGRE)
 
 **La encapsulación de enrutamiento genérico multipunto (mGRE)** es una técnica utilizada para crear redes privadas virtuales (VPN) encapsulando paquetes de datos y enviándolos a través de una red multipunto. Permite una comunicación eficaz entre varios sitios o puntos finales.
-
-{{< inarticle-dark >}}
 
 ## Conceptos de red virtual
 

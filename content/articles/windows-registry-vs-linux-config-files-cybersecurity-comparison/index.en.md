@@ -37,8 +37,6 @@ The **Windows Registry** serves as a centralized repository for housing configur
 
 However, it is imperative to recognize that despite the presence of these built-in security mechanisms, the Windows Registry remains susceptible to **security vulnerabilities and exploits** over time. This underscores the critical importance of **proactive monitoring** and the implementation of **robust security measures**.
 
-{{< inarticle-dark >}}
-
 
 ### **Hardening and Lockdown**
 
@@ -53,8 +51,6 @@ To fortify the security of the Windows Registry and reduce its vulnerability to 
 By diligently following these steps, you can enhance the security posture of the Windows Registry, making it more resilient against potential threats.
 
 ______
-
-{{< inarticle-dark >}}
 ______
 
 ## Linux Configuration Files
@@ -84,9 +80,7 @@ When it comes to **hardening Linux** for robust security, the focus is on securi
 3. **Firewall Rules**: A critical step in Linux hardening is configuring firewall rules that control network access to services based on their configuration. For instance, you can use the **`iptables`** utility to set up firewall rules that restrict incoming and outgoing network traffic, enhancing overall system security.
 
 By adhering to these Linux hardening practices, you can bolster the security of your system and reduce vulnerabilities effectively.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Conclusion**
 

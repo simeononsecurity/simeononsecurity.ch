@@ -45,8 +45,6 @@ A **community cloud** is a shared infrastructure that serves multiple organizati
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Service Models
 
 {{< youtube id="xoZs8YUMbI8" >}}
@@ -92,8 +90,6 @@ A **Virtual Private Network (VPN)** provides a secure and encrypted connection b
 Some cloud providers offer a **private-direct connection** service, also known as Direct Connect or ExpressRoute. It enables organizations to establish a dedicated and private connection between their on-premises infrastructure and the cloud provider's data center. This connection bypasses the public internet, offering higher bandwidth, lower latency, and improved security for data transfer.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Security Implications
 

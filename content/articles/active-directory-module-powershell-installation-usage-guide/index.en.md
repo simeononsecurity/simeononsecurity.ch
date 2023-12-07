@@ -91,8 +91,6 @@ To effectively manage an Active Directory (AD) environment, it is crucial to ret
 
 By utilizing these powerful cmdlets, you can easily retrieve specific information about AD users, groups, and OUs, enabling efficient administration and management of your Active Directory environment.
 
-{{< inarticle-dark >}}
-
 
 These cmdlets allow you to retrieve specific attributes, filter results, and perform advanced queries to fetch the desired information.
 
@@ -126,8 +124,6 @@ When working with Active Directory (AD), the Active Directory module in PowerShe
 
 By leveraging these cmdlets, you can easily create new AD users, groups, and OUs with the desired properties and configurations, enabling efficient management of your Active Directory environment.
 
-{{< inarticle-dark >}}
-
 
 ### Modifying Active Directory Objects
 
@@ -158,8 +154,6 @@ When it comes to modifying the properties and attributes of existing Active Dire
   This command will update the description of the specified OU in the Active Directory hierarchy.
 
 By utilizing these cmdlets, you can easily modify the properties and attributes of AD objects, making necessary updates and adjustments to meet your organization's requirements.
-
-{{< inarticle-dark >}}
 
 
 ### Managing Active Directory Security
@@ -227,8 +221,6 @@ With the Active Directory module, you can perform a wide range of operations suc
 By leveraging **PowerShell** and the **Active Directory module**, you can enhance your AD administration capabilities and improve the efficiency of AD management processes. Whether you are a system administrator, IT professional, or Active Directory manager, the Active Directory module equips you with the necessary tools to effectively manage your AD infrastructure.
 
 Embrace the power of **PowerShell** and the **Active Directory module** to streamline your AD administration tasks, increase productivity, and maintain a secure and well-organized Active Directory environment.
-
-{{< inarticle-dark >}}
 
 ## References
 

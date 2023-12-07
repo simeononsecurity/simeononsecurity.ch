@@ -58,8 +58,6 @@ Let's compare some of the key features and roles of various networking devices:
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Conclusion
 
 In this article, we have provided an introduction to various networking devices and their roles in a network environment. Understanding these devices is essential for network administrators and individuals interested in networking. By knowing the functions and features of different devices, one can make informed decisions when designing, implementing, and managing computer networks.

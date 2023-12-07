@@ -41,9 +41,7 @@ ______
 [**Threema**](https://threema.ch/) is a Swiss-based messaging app that emphasizes **privacy** and **security**. It offers **end-to-end encryption** for messages, voice calls, and file transfers, ensuring that only the intended recipients can access the content. Additionally, [**Threema**](https://threema.ch/)与众不同的是，它允许用户**注册，而无需链接电话号码或电子邮件地址**，从而提供了额外的匿名性和保护。
 
 现在让我们来详细比较一下这四种信息服务。
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **安全功能：比较分析**
 
@@ -110,9 +108,7 @@ ______
 **Threema支持安卓和iOS设备**，以及**Windows和macOS**。它与 Linux 的兼容性目前正在开发中。虽然 Threema 在多个平台上的可用性正在不断扩大，但对于严重依赖基于 Linux 系统的用户来说，这可能是一个必要的考虑因素。
 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **政府法规与合规性**
 

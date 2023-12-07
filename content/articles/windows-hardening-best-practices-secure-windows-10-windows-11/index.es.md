@@ -227,8 +227,6 @@ Recuerde que las copias de seguridad periódicas son cruciales para salvaguardar
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Activar el Mantenimiento Automático de Windows asegura que tu sistema se mantie
 Para obtener información más detallada sobre el Mantenimiento automático de Windows y sus opciones de configuración, consulte la página oficial [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusión
 

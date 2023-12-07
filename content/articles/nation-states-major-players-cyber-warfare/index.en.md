@@ -106,8 +106,6 @@ In a world where digital technology is pervasive, nation-states have established
 5. [Cryptocurrency and State-Sponsored Cyberattacks](https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents)
 
 ______
-
-{{< inarticle-dark >}}
 ______
 
 In the realm of cybersecurity, understanding the dynamics of nation-state cyber warfare is crucial. These powerful entities have a significant impact on the digital world, and their actions have far-reaching consequences. By delving into their motivations, tactics, and the global implications of their operations, we can better prepare for the challenges posed by nation-states in the digital age.

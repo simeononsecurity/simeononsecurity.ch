@@ -91,9 +91,7 @@ Building connections within the homelab community amplifies your learning and sh
 ### 4. Social Media Engagement
    - Follow homelab content creators on platforms like Twitter, where they share insights, updates, and engage with their audience.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 
 ## Conclusion

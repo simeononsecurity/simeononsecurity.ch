@@ -17,8 +17,6 @@ Le reti wireless svolgono un ruolo cruciale nel nostro mondo interconnesso, cons
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Esplorazione dei diversi standard 802.11
 
 Gli standard 802.11, comunemente noti come Wi-Fi, definiscono le specifiche per le reti locali wireless (WLAN).
@@ -54,8 +52,6 @@ Le reti wireless sono suddivise in canali e i canali disponibili possono variare
 **Channel Bonding**: Il channel bonding consente l'aggregazione di più canali per aumentare la larghezza di banda complessiva disponibile per la trasmissione dei dati. Migliora le prestazioni della rete consentendo velocità di trasmissione dati più elevate.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Panoramica dei tipi di antenna, degli standard di crittografia e delle configurazioni SSID
 

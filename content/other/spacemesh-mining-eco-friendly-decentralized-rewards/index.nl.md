@@ -19,9 +19,7 @@ Spacemesh is een nieuwe en innovatieve cryptocurrency die gebruik maakt van een 
 
 In dit artikel verkennen we de ins en outs van Spacemesh mining, begrijpen we hoe het werkt en bespreken we de voordelen en mogelijke uitdagingen. Of je nu een doorgewinterde cryptoliefhebber bent of een nieuwkomer in de wereld van cryptocurrencies, deze gids zal je waardevolle inzichten geven in de fascinerende wereld van Spacemesh mining.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Wat is Spacemesh Mijnbouw?
 
@@ -81,9 +79,7 @@ Het dynamische maasproces, hoewel essentieel voor decentralisatie, kan uitdaging
 
 Naarmate meer deelnemers deelnemen aan het Spacemesh netwerk, kan de concurrentie om beloningen toenemen. Meshers moeten de kosten van opslag, elektriciteit en hardware zorgvuldig afwegen tegen potentiële inkomsten om ervoor te zorgen dat mijnbouw winstgevend blijft.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusie
 

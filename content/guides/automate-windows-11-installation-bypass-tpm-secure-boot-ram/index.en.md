@@ -89,9 +89,7 @@ For automated installations in virtualized environments, an **autounattend.xml**
 
 The need for TPM 2.0 and Secure Boot for Windows 11 installation is based on Microsoft's stated system requirements. In some cases, such as in government or regulated environments, bypassing these checks may not be compliant with specific regulations or security standards. Organizations should carefully consider their requirements and consult applicable regulations, such as those from government agencies like the **National Institute of Standards and Technology (NIST)**, to ensure compliance.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Conclusion**
 

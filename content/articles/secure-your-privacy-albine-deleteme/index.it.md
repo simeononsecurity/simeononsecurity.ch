@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## La necessità di soluzioni per la privacy dei dati
@@ -76,8 +74,6 @@ La rimozione dei dati personali dai database pubblici può essere particolarment
 Sapere che un servizio affidabile come [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) è la salvaguardia attiva dei propri dati, offre agli utenti la massima tranquillità. Gli utenti possono navigare in Internet e svolgere attività online con una minore preoccupazione per l'uso improprio dei loro dati.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

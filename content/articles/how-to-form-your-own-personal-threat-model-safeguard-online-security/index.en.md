@@ -23,8 +23,6 @@ ______
 
 **Personal threat modeling** involves systematically analyzing the potential risks and vulnerabilities you may encounter in various aspects of your life, both online and offline. It allows you to **tailor your security measures** to your specific circumstances. By following the steps outlined below, you can **create an effective personal threat model**.
 
-{{< inarticle-dark >}}
-
 ## Free Personal Threat Model Checklist
 
 Use the following checklist to assess and enhance your personal threat model:
@@ -159,8 +157,6 @@ To ensure the continued effectiveness of your **Personal Threat Model**, it is e
 By **regularly reviewing and updating** your Personal Threat Model, you can stay ahead of evolving threats and ensure your security measures are up to date. Remember, cybersecurity is an ongoing process, and maintaining vigilance is key to safeguarding your personal and professional digital assets.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

@@ -29,9 +29,7 @@ Wybierając prywatny hosting, użytkownicy mogą skorzystać z:
 - **Anonimową rejestrację domeny** w celu **ochrony swojej tożsamości**.
 - Szyfrowanie** i inne **środki bezpieczeństwa** w celu **ochrony poufnych informacji**.
 - Wolność słowa** i **treści bez strachu przed cenzurą**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 Podobnie jak w przypadku OrangeWebsite, **1984 działa zgodnie z islandzkimi ramami prawnymi**, które sprzyjają **ochronie prywatności i wolności słowa**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

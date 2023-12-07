@@ -28,8 +28,6 @@ Pentru a începe să mineriți Spacemesh cu mai multe GPU-uri, urmează acești 
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Pasul 1: Configurarea variabilelor
 
 Deschideți un editor de text sau un editor de script PowerShell și setați variabilele configurabile în funcție de cerințele dumneavoastră.
@@ -48,8 +46,6 @@ Scriptul furnizat include deja unele variabile pe care le puteți ajusta, dar re
 - `$numUnits` Setați numărul de unități de stocare care urmează să fie exploatate. Valoarea implicită este 16.
 
 - `$datadir` Setați calea către directorul de date în care vor fi stocate datele de minerit.
-
-{{< inarticle-dark >}}
 
 ### Pasul 2: Executarea scriptului
 

@@ -21,8 +21,6 @@ W tym artykule omówimy **najlepsze praktyki bezpieczeństwa PowerShell**, konce
 
 Bezpieczeństwo PowerShell obejmuje ochronę skryptów, zarządzanie kontrolą dostępu i zabezpieczanie poufnych informacji, takich jak hasła i dane uwierzytelniające. Najlepsze praktyki bezpieczeństwa PowerShell obejmują kilka kluczowych obszarów, w tym **wykonywanie skryptów**, **podpisywanie kodu**, **kontrolę dostępu użytkowników** i **zarządzanie hasłami**.
 
-{{< inarticle-dark >}}
-
 ## Najlepsze praktyki wykonywania skryptów
 
 Jeśli chodzi o **wykonywanie skryptów**, istnieje kilka najlepszych praktyk, których należy przestrzegać:
@@ -72,8 +70,6 @@ Hasła są krytycznym aspektem bezpieczeństwa PowerShell, szczególnie w przypa
 Postępując zgodnie z tymi najlepszymi praktykami dotyczącymi bezpieczeństwa haseł, można wzmocnić bezpieczeństwo środowiska PowerShell i chronić przed nieautoryzowanym dostępem i naruszeniami danych.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Wnioski
 

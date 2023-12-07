@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Nevoia de soluții privind confidențialitatea datelor
@@ -76,8 +74,6 @@ Eliminarea datelor cu caracter personal din bazele de date publice poate fi deos
 Știind că un serviciu de încredere precum [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) își protejează în mod activ datele oferă utilizatorilor liniște sufletească. Aceștia pot să navigheze pe internet și să se angajeze în activități online fără a se teme că datele lor vor fi utilizate în mod abuziv.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

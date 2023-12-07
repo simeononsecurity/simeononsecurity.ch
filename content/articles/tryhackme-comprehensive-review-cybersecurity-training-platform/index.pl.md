@@ -42,8 +42,6 @@ TryHackMe oferuje zarówno darmowe, jak i premium plany subskrypcji. Darmowy pla
 
 Subskrypcja premium TryHackMe wiąże się z miesięcznym kosztem w wysokości `$10.99` Oferuje stosunek jakości do ceny, zapewniając dostęp do ogromnej biblioteki treści, certyfikatów i aktywnej społeczności osób o podobnych poglądach.
 
-{{< inarticle-dark >}}
-
 ### Certyfikaty TryHackMe
 
 TryHackMe oferuje certyfikaty po ukończeniu określonych pokojów lub ścieżek nauki. Certyfikaty te służą jako dowód osiągnięć i mogą być dodawane do profilu zawodowego lub udostępniane potencjalnym pracodawcom. Zdobywając certyfikaty od TryHackMe, osoby mogą wykazać się praktycznymi umiejętnościami w zakresie cyberbezpieczeństwa i zwiększyć swoje perspektywy zawodowe.
@@ -63,8 +61,6 @@ Korzystając z TryHackMe VPN, użytkownicy mogą śmiało łączyć się z platf
 | [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | Wprowadzenie do systemów operacyjnych Windows, obejmujące podstawowe pojęcia i istotne kwestie bezpieczeństwa.                       |
 | [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | Zagłębienie się w podstawy Active Directory, obejmujące strukturę Active Directory, kontrolery domeny, konta użytkowników, zasady grupy i luki w zabezpieczeniach.                    |
 
-
-{{< inarticle-dark >}}
 
 ## Wnioski
 

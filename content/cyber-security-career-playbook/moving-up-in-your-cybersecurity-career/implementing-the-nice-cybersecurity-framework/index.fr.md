@@ -39,8 +39,6 @@ Le cadre NICE définit sept catégories de haut niveau qui englobent les différ
 - Analyser** : Cette catégorie concerne l'analyse des données et des informations relatives à la cybersécurité afin d'identifier et de comprendre les menaces, les vulnérabilités et les risques.
 - Collecter et exploiter** : Cette catégorie comprend la collecte et la gestion de données liées à la cybersécurité et l'exploitation de systèmes et d'infrastructures de cybersécurité.
 - Enquêter** : Cette catégorie englobe les activités liées à l'investigation et à la réponse aux incidents de cybersécurité, y compris la détection, l'analyse et la récupération des incidents.
-
-{{< inarticle-dark >}}
 #### 2. Domaines de spécialisation
 
 Dans chaque catégorie, le cadre NICE décompose les rôles et les responsabilités en domaines spécialisés. Ces domaines de spécialité permettent de mieux comprendre les tâches et les compétences spécifiques requises pour atteindre les objectifs de cybersécurité dans chaque catégorie. Voici quelques exemples de domaines de spécialité
@@ -83,9 +81,7 @@ Pour plus d'informations sur le NICE Cybersecurity Framework et ses avantages, v
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Mise en œuvre du cadre de cybersécurité de NICE
+______## Mise en œuvre du cadre de cybersécurité de NICE
 
 Maintenant que nous comprenons l'importance et les avantages du NICE Cybersecurity Framework, examinons les étapes pratiques pour le mettre en œuvre efficacement au sein d'une organisation :
 

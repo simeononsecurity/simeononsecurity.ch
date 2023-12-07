@@ -55,8 +55,6 @@ I protocolli di instradamento a vettore di distanza, come il RIP, utilizzano una
 
 I protocolli di routing ibridi, come EIGRP, combinano le caratteristiche di entrambi i protocolli link state e distance vector. Mantengono una tabella topologica simile a quella dei protocolli a stato di collegamento, ma utilizzano algoritmi vettoriali a distanza per calcolare le rotte. I protocolli ibridi offrono i vantaggi di una convergenza più rapida e di un overhead ridotto.
 
-{{< inarticle-dark >}}
-
 ## Routing statico e rotte predefinite
 
 Il routing statico prevede la configurazione manuale della tabella di routing sui router, specificando i percorsi per raggiungere reti specifiche. È tipicamente utilizzato in scenari in cui i cambiamenti della topologia di rete sono minimi o prevedibili. Le rotte statiche sono facili da configurare e possono essere utili per piccole reti o segmenti di rete specifici.
@@ -90,8 +88,6 @@ Il traffic shaping è una tecnica utilizzata per controllare la velocità di tra
 ### Qualità del servizio (QoS)
 
 La qualità del servizio (QoS) si riferisce alla capacità di una rete di assegnare priorità e risorse a diversi tipi di traffico in base alla loro importanza e ai loro requisiti. I meccanismi QoS, come la prioritizzazione del traffico, l'allocazione della larghezza di banda e la gestione della congestione, contribuiscono a garantire prestazioni ottimali per le applicazioni in tempo reale come voce e video.
-
-{{< inarticle-dark >}}
 
 ## Confronto e posizionamento dei dispositivi
 

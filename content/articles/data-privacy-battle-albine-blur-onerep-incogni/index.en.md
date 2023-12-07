@@ -19,8 +19,6 @@ In today's digital age, **privacy** and **data protection** have become paramoun
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## [Albine DeleteMe - Protecting Your Privacy with Automated Data Removal](https://dnt.abine.com/#/ref_register/pC8ZbvQtt)
@@ -141,8 +139,6 @@ Now, let's dive deeper into the comparison of **Albine DeleteMe**, **OneRep**, a
 - **Incogni**: Demonstrates reliability in data removal from various data brokers. Users can trust Incogni to ensure their data remains safeguarded.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

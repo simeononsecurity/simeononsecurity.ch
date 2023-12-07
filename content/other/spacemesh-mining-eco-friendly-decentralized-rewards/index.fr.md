@@ -19,9 +19,7 @@ Spacemesh est une crypto-monnaie nouvelle et innovante qui utilise une approche 
 
 Dans cet article, nous allons explorer les tenants et les aboutissants du minage Spacemesh, comprendre son fonctionnement et discuter de ses avantages et de ses défis potentiels. Que vous soyez un passionné de crypto-monnaies chevronné ou un nouveau venu dans le monde des crypto-monnaies, ce guide vous fournira des informations précieuses sur le monde fascinant de l'exploitation minière de Spacemesh.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Qu'est-ce que le Spacemesh Mining ?
 
@@ -81,9 +79,7 @@ Le processus de maillage dynamique, bien qu'essentiel pour la décentralisation,
 
 Au fur et à mesure que les participants rejoignent le réseau Spacemesh, la concurrence pour les récompenses peut s'intensifier. Les maillageurs doivent soigneusement évaluer le coût du stockage, de l'électricité et du matériel par rapport aux gains potentiels afin de s'assurer que l'exploitation minière reste rentable.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

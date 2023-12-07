@@ -23,8 +23,6 @@ Le Federal Information Security Modernization Act (FISMA) est une loi américain
 ## Qu'est-ce que FISMA ?
 
 La FISMA est un ensemble de normes et de lignes directrices en matière de sécurité de l'information qui s'appliquent aux agences fédérales et à leurs sous-traitants. L'objectif de la FISMA est de garantir que les informations sensibles sont protégées contre l'accès, l'utilisation, la divulgation, la perturbation, la modification ou la destruction non autorisés. La FISMA exige que les agences fédérales mettent en œuvre une approche de la sécurité de l'information fondée sur les risques, ce qui implique d'identifier et d'évaluer les risques potentiels pour la sécurité, de mettre en œuvre des contrôles de sécurité pour atténuer ces risques et de surveiller en permanence l'efficacité de ces contrôles.
-
-{{< inarticle-dark >}}
 ## Composants clés de FISMA
 
 La FISMA comporte plusieurs éléments clés, notamment
@@ -93,8 +91,6 @@ Les agences fédérales doivent obtenir l'autorisation de l'autorité compétent
 
 5. **Ré-accréditation** : Les agences fédérales doivent régulièrement évaluer et réaccréditer leurs systèmes d'information afin de s'assurer qu'ils continuent à répondre aux normes de sécurité nécessaires et d'identifier les domaines susceptibles d'être améliorés.
 
-{{< inarticle-dark >}}
-
 ## Avantages de FISMA
 
 La FISMA présente plusieurs avantages, notamment
@@ -114,8 +110,6 @@ La FISMA exige des agences fédérales qu'elles rendent compte de leurs programm
 ### Renforcement de la collaboration
 
 La FISMA contribue également à renforcer la collaboration et la coordination entre les agences fédérales, leurs sous-traitants et les autres parties prenantes en les obligeant à respecter les mêmes normes de sécurité de l'information. Cela permet de s'assurer que tout le monde travaille ensemble pour protéger les informations sensibles et que les risques liés à la sécurité de l'information sont gérés efficacement à tous les niveaux du gouvernement fédéral.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

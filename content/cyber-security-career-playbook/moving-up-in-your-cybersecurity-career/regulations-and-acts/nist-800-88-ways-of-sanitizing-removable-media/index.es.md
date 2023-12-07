@@ -34,9 +34,7 @@ El borrado es el proceso de sobrescribir los datos de un dispositivo con una ser
 
 La purga es el proceso de sobrescribir los datos de un dispositivo varias veces con un patrón de valores binarios. Este método es más seguro que el borrado y se recomienda para sanear datos sensibles. El NIST 800-88 Revisión 1 recomienda utilizar una herramienta de software que cumpla las normas establecidas por el [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) especificación.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Conclusión
+__________________________________________## Conclusión
 
 En conclusión, **desinfectar los soportes extraíbles es crucial para garantizar que los datos confidenciales almacenados en estos dispositivos no se filtren o que personas no autorizadas accedan a ellos.** NIST 800-88 Revisión 1 proporciona directrices para desinfectar todo tipo de soportes extraíbles, incluidos discos duros, unidades SSD, unidades flash USB, CD, DVD y discos Blu-ray, incluyendo la destrucción física, la limpieza y la purga. **La destrucción física es el método más seguro de desinfección de soportes extraíbles, pero la limpieza y la purga también son métodos eficaces que proporcionan un alto nivel de seguridad.
 

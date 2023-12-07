@@ -24,9 +24,7 @@ In the realm of digital currencies, **mining** involves verifying transactions a
 ### Why Mine VerusCoin on Android?
 
 Mining VerusCoin on Android has garnered significant attention due to the ever-increasing computational power of contemporary smartphones. Unlike traditional mining rigs, which demand substantial investments in hardware and energy, mining VerusCoin on Android capitalizes on the devices' existing capabilities. By harnessing your smartphone's potential, you can potentially earn VerusCoin rewards while contributing to the cryptocurrency network's maintenance.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Getting Started Mining Verus on Android
 
@@ -116,9 +114,7 @@ ______
 
 - **Battery Impact**: Keep in mind that **mining can impact your battery life significantly**. Consider this when deciding to mine on your smartphone. For safety reasons this **could even mean removing the battery from your device** and **exclusively using usb power** to power the device. 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 
 

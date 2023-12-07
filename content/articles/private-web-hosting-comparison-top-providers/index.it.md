@@ -29,9 +29,7 @@ Scegliendo l'hosting web privato, gli utenti possono beneficiare di:
 - **registrazione anonima del dominio** per **proteggere la propria identità**.
 - **Crittografia** e altre **misure di sicurezza** per **proteggere le informazioni sensibili**.
 - **Libertà di parola** e **contenuti senza timore di censura**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 Come OrangeWebsite, **1984 opera in base al quadro giuridico islandese**, che favorisce la **protezione della privacy e la libertà di espressione**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

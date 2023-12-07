@@ -52,8 +52,6 @@ Laten we bijvoorbeeld de stappen doorlopen om aan de slag te gaan met Hackthebox
 
 Door deze eenvoudige stappen te volgen, krijgt u **volledige toegang** tot de **bronnen** en **trainingsmaterialen** die worden aangeboden door Hackthebox Academy. Begin vandaag nog aan uw **cybersecurity-leerreis**!
 
-{{< inarticle-dark >}}
-
 ______
 
 ## De functies van Hackthebox Academy verkennen
@@ -119,8 +117,6 @@ De prijzen voor het premium abonnement kunnen variëren afhankelijk van de abonn
 Het is belangrijk op te merken dat de prijzen en plannen die worden aangeboden door Hackthebox Academy aan verandering onderhevig zijn. Het is daarom aan te raden om de officiële website te bezoeken voor de meest nauwkeurige en actuele informatie over de beschikbare prijsopties.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusie
 

@@ -91,8 +91,6 @@ Import-Module ActiveDirectory
 
 通过使用这些功能强大的 cmdlet，您可以轻松检索有关 AD 用户、组和 OU 的特定信息，从而实现 Active Directory 环境的高效管理。
 
-{{< inarticle-dark >}}
-
 
 通过这些 cmdlet，您可以检索特定属性、过滤结果并执行高级查询，以获取所需的信息。
 
@@ -126,8 +124,6 @@ Import-Module ActiveDirectory
 
 利用这些 cmdlet，您可以轻松创建具有所需属性和配置的新 AD 用户、组和 OU，从而实现对 Active Directory 环境的高效管理。
 
-{{< inarticle-dark >}}
-
 
 ### 修改活动目录对象
 
@@ -158,8 +154,6 @@ Import-Module ActiveDirectory
   此命令将更新 Active Directory 层次结构中指定 OU 的描述。
 
 利用这些 cmdlet，您可以轻松修改 AD 对象的属性和属性，进行必要的更新和调整，以满足组织的要求。
-
-{{< inarticle-dark >}}
 
 
 ### 管理活动目录安全
@@ -227,8 +221,6 @@ Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -
 利用**PowerShell**和**活动目录模块**，您可以增强您的活动目录管理能力，提高活动目录管理流程的效率。无论您是系统管理员、IT 专业人员还是活动目录经理，活动目录模块都能为您提供有效管理活动目录基础架构的必要工具。
 
 利用**PowerShell**和**活动目录模块**的强大功能，简化您的活动目录管理任务，提高工作效率，并维护一个安全、有序的活动目录环境。
-
-{{< inarticle-dark >}}
 
 ## 参考文献
 

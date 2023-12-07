@@ -21,8 +21,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Voraussetzungen für die Einreichung**
@@ -83,8 +81,6 @@ Die Aufnahme in die Preload-Liste ist eine **permanente Entscheidung**, die nich
 
 Vergewissern Sie sich, dass Sie die Auswirkungen sorgfältig geprüft haben, bevor Sie diese wichtige Entscheidung treffen.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

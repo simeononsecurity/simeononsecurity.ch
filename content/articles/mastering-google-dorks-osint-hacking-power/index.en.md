@@ -61,9 +61,7 @@ Before diving into how Google Dorks are used, let's understand some fundamental 
 **OSINT plays a crucial role in researching threat actors and cybercriminals**. Analysts can use Google Dorks to find online forums, chat logs, and other sources where hackers may discuss their activities. This can aid law enforcement and cybersecurity professionals in identifying and mitigating threats.
 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

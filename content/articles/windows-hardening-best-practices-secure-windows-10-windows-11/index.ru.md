@@ -227,8 +227,6 @@ AppLocker обеспечивает детальный контроль над в
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Controlled Folder Access - это мощная функция безопасно
 Более подробную информацию об автоматическом обслуживании Windows и его настройках можно найти в официальном документе [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Заключение
 

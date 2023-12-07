@@ -21,8 +21,6 @@ Un aspetto fondamentale della **sicurezza wireless** è l'implementazione del **
 
 Oltre al filtraggio MAC, un corretto posizionamento dell'antenna è essenziale per ottimizzare la copertura e la sicurezza di una rete wireless. Posizionando le antenne in modo strategico ed evitando le ostruzioni, è possibile ridurre al minimo le perdite di segnale e gli accessi non autorizzati.
 
-{{< inarticle-dark >}}
-
 ## Impostazione di livelli di potenza adeguati per le reti wireless
 
 L'impostazione di livelli di potenza adeguati per le reti wireless è fondamentale per mantenere la sicurezza. Se il livello di potenza è troppo alto, il segnale può estendersi oltre l'area di copertura desiderata, aumentando il rischio di accesso non autorizzato. Al contrario, se il livello di potenza è troppo basso, le prestazioni della rete possono essere scarse e la copertura limitata.
@@ -46,8 +44,6 @@ D'altra parte, EAP è un framework di autenticazione che fornisce un meccanismo 
 Il geofencing e il captive portal sono tecniche avanzate che possono migliorare ulteriormente la sicurezza wireless. Il geofencing consiste nel definire confini virtuali e limitare l'accesso alla rete in base alla posizione geografica dei dispositivi. Questo è particolarmente utile negli scenari in cui la rete deve essere accessibile solo all'interno di una specifica area fisica.
 
 Il Captive portal, invece, è una pagina web che richiede agli utenti di autenticarsi o di accettare termini e condizioni prima di accedere alla rete. Fornisce un ulteriore livello di sicurezza e controllo, garantendo che solo gli utenti autorizzati possano connettersi alla rete wireless.
-
-{{< inarticle-dark >}}
 
 ## Considerazioni sull'accesso all'IoT e sulla sicurezza dei dispositivi IoT
 

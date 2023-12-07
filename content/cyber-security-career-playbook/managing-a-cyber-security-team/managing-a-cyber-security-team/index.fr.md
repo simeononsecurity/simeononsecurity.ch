@@ -38,8 +38,6 @@ La gestion d'une équipe de cybersécurité requiert un mélange de compétences
 4. **Financement et administration** : Les responsables de la cybersécurité doivent créer et distribuer des budgets de sécurité en identifiant les coûts spécifiques de la sécurité de l'information et en allouant un budget défini à chaque objectif. Cela permet de maximiser l'efficacité de la stratégie de sécurité et de minimiser le risque de gaspillage des ressources.
 
 5. **Connaissance du droit de la sécurité de l'information** : Les RSSI et autres responsables de la cybersécurité doivent connaître les lois sur la sécurité de l'information, la conformité et les exigences réglementaires applicables dans leur région. Cela inclut des réglementations telles que **HIPAA**, **GDPR**, **CCPA**, **Homeland Security Act**, et d'autres.
-
-{{< inarticle-dark >}}
 #### Compétences non techniques pour la gestion d'une équipe de sécurité de l'information
 
 1. **Leadership et gestion de projet** : De solides compétences en matière de leadership et de gestion de projet sont essentielles pour superviser le travail des professionnels de l'informatique et de la cybersécurité. Un leadership efficace contribue au succès de l'infrastructure de sécurité de l'information de l'organisation grâce à une réflexion stratégique et à une délégation efficace.

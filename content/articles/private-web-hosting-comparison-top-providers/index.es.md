@@ -29,9 +29,7 @@ Al elegir alojamiento web privado, los usuarios pueden beneficiarse de:
 - Registro anónimo de dominios para proteger su identidad.
 - Encriptación** y otras **medidas de seguridad** para **proteger la información sensible**.
 - Libertad de expresión** y **contenidos sin miedo a la censura**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 Al igual que OrangeWebsite, **1984 opera bajo el marco legal de Islandia**, que favorece la **protección de la privacidad y la libertad de expresión**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

@@ -35,9 +35,7 @@ The **California Consumer Privacy Act (CCPA)** empowers **consumers** with a ran
 
 These rights, represented by the CCPA's provisions, epitomize a paradigm shift in data privacy. They shift the narrative from businesses holding all the cards to a more equitable relationship where consumers are empowered to determine the fate of their personal information.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **How Does the CCPA Work?**
 
@@ -73,9 +71,7 @@ The CCPA's reverberations have evoked a rapid and strategic response from the bu
 
 In essence, CCPA's ripple effect has triggered a domino of change, catalyzing not only business practices but also stimulating vital conversations about the fundamental right to digital privacy in the modern age.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

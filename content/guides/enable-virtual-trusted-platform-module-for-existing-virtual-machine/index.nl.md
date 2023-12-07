@@ -38,9 +38,7 @@ Voordat u verder gaat met het toevoegen van een vTPM aan uw virtuele machine, mo
    - Cryptografische bewerkingen.Migreren
    - Cryptografische bewerkingen.VM registreren
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Virtuele vertrouwensplatformmodule (vTPM) toevoegen
 
@@ -68,9 +66,7 @@ Het inschakelen van een vTPM voor je virtuele machine biedt een aantal belangrij
 
 3. **BitLocker-coderingsondersteuning:** Als je een Windows gastbesturingssysteem draait, is het inschakelen van vTPM een voorwaarde voor het gebruik van BitLocker-codering op schijven van virtuele machines. Dit voegt een extra laag van gegevensbescherming toe.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusie
 

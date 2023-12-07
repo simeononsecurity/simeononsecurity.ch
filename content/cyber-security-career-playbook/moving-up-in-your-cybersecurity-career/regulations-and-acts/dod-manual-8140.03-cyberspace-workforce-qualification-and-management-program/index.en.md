@@ -23,8 +23,6 @@ The purpose of the manual is to implement policy, assign responsibilities, and p
 ## Applicability
 
 The manual applies to all DoD personnel assigned to positions requiring the performance of cyberspace work as identified in DoDI 8140.02. The manual is also applicable to OSD, the Military Departments, the Office of the CJCS and the Joint Staff, the Combatant Commands, the Office of Inspector General of the Department of Defense, the Defense Agencies, the DoD Field Activities, and all other organizational entities within the DoD.
-
-{{< inarticle-dark >}}
 ## Responsibilities
 
 Section 2 of the manual outlines the responsibilities of various entities in managing the cyberspace workforce. The following are some of the highlighted responsibilities:
@@ -83,8 +81,6 @@ The resident qualification areas are specific to a work role, and the training p
 
 The DoD must have knowledge of their cyberspace workforce position requirements and provide qualified and ready personnel to manage the cyberspace workforce effectively and efficiently. Existing manpower and personnel systems should be used to satisfy reporting and workforce
 
-
-{{< inarticle-dark >}}
 ## Conclusion
 
 The DoD Cyberspace Workforce Qualification and Management Program is designed to develop and maintain a skilled and qualified cyberspace workforce that can operate in coordination with warfighters, businesses, and mission system owners. This program outlines the qualifications required for each DCWF work role up to three levels of proficiency. 

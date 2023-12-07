@@ -23,9 +23,7 @@ Wiadomości e-mail zawierają poufne informacje, w tym dane osobowe, szczegóły
 
 Korzystając z usług takich jak [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) możesz zabezpieczyć swoje konwersacje e-mail przed potencjalnymi zagrożeniami cybernetycznymi. Ci **bezpieczni dostawcy poczty e-mail** wykorzystują **najnowocześniejsze szyfrowanie** w celu ochrony cennych danych i zapewnienia, że tylko zamierzeni odbiorcy mogą uzyskać dostęp do treści.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Bezpieczny i zorientowany na użytkownika
 

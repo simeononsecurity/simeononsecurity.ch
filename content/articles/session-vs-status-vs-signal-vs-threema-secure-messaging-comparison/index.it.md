@@ -41,9 +41,7 @@ Prima di entrare nello specifico, presentiamo brevemente ciascuno dei quattro se
 [**Threema**](https://threema.ch/) is a Swiss-based messaging app that emphasizes **privacy** and **security**. It offers **end-to-end encryption** for messages, voice calls, and file transfers, ensuring that only the intended recipients can access the content. Additionally, [**Threema**](https://threema.ch/) si distingue per la possibilità di **registrarsi senza collegare il proprio numero di telefono o indirizzo e-mail**, offrendo un ulteriore livello di anonimato e protezione.
 
 Procediamo ora a esplorare il confronto dettagliato di questi quattro servizi di messaggistica.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Caratteristiche di sicurezza: Un'analisi comparativa**
 
@@ -110,9 +108,7 @@ La disponibilità dei servizi di messaggistica su diverse piattaforme ha un impa
 **Threema supporta dispositivi Android e iOS**, nonché **Windows e macOS**. La compatibilità con Linux è attualmente in fase di sviluppo. Sebbene la disponibilità di Threema su più piattaforme sia in espansione, potrebbe essere una considerazione essenziale per gli utenti che fanno molto affidamento su sistemi basati su Linux.
 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Regolamenti e conformità governativa**
 

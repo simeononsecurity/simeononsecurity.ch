@@ -21,8 +21,6 @@ In dit artikel verkennen we de **best practices voor PowerShell-beveiliging**, w
 
 PowerShell-beveiliging omvat het beschermen van uw scripts, het beheren van toegangscontrole en het beveiligen van gevoelige informatie, zoals wachtwoorden en referenties. De best practices voor PowerShell-beveiliging omvatten verschillende belangrijke gebieden, waaronder **scriptuitvoering**, **code ondertekenen**, **toegangsbeheer** en **wachtwoordbeheer**.
 
-{{< inarticle-dark >}}
-
 ## Beste werkwijzen voor het uitvoeren van scripts
 
 Als het aankomt op **scriptuitvoering**, zijn er verschillende best practices die u moet volgen:
@@ -72,8 +70,6 @@ Wachtwoorden zijn een kritisch aspect van PowerShell-beveiliging, vooral als het
 Door deze best practices voor wachtwoordbeveiliging te volgen, kunt u de beveiliging van uw PowerShell-omgeving versterken en beschermen tegen onbevoegde toegang en inbreuken op gegevens.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusie
 

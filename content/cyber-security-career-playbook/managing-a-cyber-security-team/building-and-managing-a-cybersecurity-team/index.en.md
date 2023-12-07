@@ -49,9 +49,7 @@ In addition to technical competencies, the NICE framework emphasizes the importa
 
 4. **Adaptability and Continuous Learning**: The cybersecurity landscape is constantly evolving, requiring professionals to adapt quickly and continuously update their skills to stay ahead of emerging threats.
 
-______
-{{< inarticle-dark >}}
-## Steps to Build a Cybersecurity Team Based on the NICE Framework:
+______## Steps to Build a Cybersecurity Team Based on the NICE Framework:
 
 1. **Assess Current Skill Gaps**: Conduct a comprehensive assessment of the organization's existing cybersecurity workforce against the NICE framework. Identify areas where skills are lacking or need further development.
 

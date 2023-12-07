@@ -24,8 +24,6 @@ In today's digital landscape, cybersecurity threats continue to grow in complexi
 
 PBQs serve as a vital component of cybersecurity certifications, ensuring that certified professionals possess the practical skills necessary to address real-world scenarios. Rather than relying solely on theoretical concepts, PBQs simulate practical environments and prompt examinees to apply their knowledge to resolve complex challenges. By incorporating PBQs into certification exams, employers can have confidence that certified individuals have demonstrated their ability to handle cybersecurity issues effectively.
 
-{{< inarticle-dark >}}
-
 ## Benefits of PBQs
 
 ### 1. Real-World Simulation
@@ -75,8 +73,6 @@ Review sample PBQs and become familiar with the format and requirements of the c
 ### 4. Time Management
 
 During the exam, manage your time wisely. If you encounter a challenging PBQ, it is advisable to skip it temporarily and return to it later. However, in the case of virtual PBQs, complete them as soon as they appear since you cannot return to them.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

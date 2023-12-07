@@ -35,8 +35,6 @@ T-Mobile 的家庭互联网计划可根据您的具体需求提供灵活性和�
 
 ______
 
-{{< inarticle-dark >}}
-
 ## **T-Mobile家庭互联网的可用性**
 
 T-Mobile 的家庭互联网服务正在全国范围内扩大覆盖面。它利用 T-Mobile 强大的 4G 和 5G 网络，为传统有线连接可能受限的地区提供互联网连接。要查看您所在地区是否提供 T-Mobile 家庭互联网服务，请访问他们的 [website](https://www.t-mobile.com/coverage/coverage-map) or contact their [customer support](https://www.t-mobile.com/customers/customer-care)
@@ -90,8 +88,6 @@ T-Mobile 提供资源和支持，以帮助客户加强安全状况。他们在�
 T-Mobile 致力于维护其网络基础设施和家庭互联网服务的安全。他们定期监控系统的潜在漏洞，并应用必要的更新和补丁，以确保为客户提供最高级别的安全服务。
 
 ______
-
-{{< inarticle-dark >}}
 ## **政府法规和 T-Mobile 家庭互联网**
 
 作为一个负责任的供应商，T-Mobile 遵守政府法规，以确保消费者保护、隐私和公平的做法。以下是一些与家庭互联网服务相关的重要政府法规：

@@ -35,8 +35,6 @@ Dacă ești deja client T-Mobile, serviciul lor de internet pentru acasă se int
 
 ______
 
-{{< inarticle-dark >}}
-
 ## **Disponibilitatea T-Mobile Home Internet**
 
 Serviciul de internet de acasă T-Mobile își extinde acoperirea în toată țara. Acesta utilizează rețelele robuste 4G și 5G ale T-Mobile pentru a oferi conectivitate la internet în zone în care conexiunile tradiționale prin cablu pot fi limitate. Pentru a verifica dacă serviciul de internet la domiciliu T-Mobile este disponibil în zona ta, poți vizita site-ul lor [website](https://www.t-mobile.com/coverage/coverage-map) or contact their [customer support](https://www.t-mobile.com/customers/customer-care)
@@ -90,8 +88,6 @@ T-Mobile oferă resurse și asistență pentru a ajuta clienții să își îmbu
 T-Mobile se angajează să mențină securitatea infrastructurii de rețea și a serviciului de internet la domiciliu. Aceștia își monitorizează în mod regulat sistemele pentru a detecta potențiale vulnerabilități și aplică actualizările și patch-urile necesare pentru a asigura cel mai înalt nivel de securitate pentru clienții lor.
 
 ______
-
-{{< inarticle-dark >}}
 ## **Reglementări guvernamentale și T-Mobile Home Internet**
 
 În calitate de furnizor responsabil, T-Mobile aderă la reglementările guvernamentale pentru a asigura protecția consumatorilor, confidențialitatea și practicile corecte. Iată câteva reglementări guvernamentale importante legate de serviciile de internet la domiciliu:

@@ -46,8 +46,6 @@ For more access point options and in-depth comparisons, you can refer to article
 By incorporating these hardware recommendations into your home network setup, you'll establish a more resilient and secure digital environment.
 
 ______
-
-{{< inarticle-dark >}}
 ______
 
 ## Strengthening Your Home Network: A Holistic Approach

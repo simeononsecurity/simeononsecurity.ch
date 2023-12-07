@@ -23,8 +23,6 @@ ______
 ## Importance of Cybersecurity Awareness Training
 
 Cybersecurity awareness training is an essential component of the Army's efforts to maintain a secure and resilient cyber environment. The training aims to equip Army personnel with the knowledge and skills necessary to identify and mitigate cyber threats, safeguard sensitive information, and adhere to cybersecurity best practices. By promoting a culture of cybersecurity awareness, the Army can enhance its overall cybersecurity posture and defend against evolving cyber threats.
-
-{{< inarticle-dark >}}
 ## Objectives of Army Cybersecurity Awareness Training
 
 The primary objectives of Army Cybersecurity Awareness Training are as follows:

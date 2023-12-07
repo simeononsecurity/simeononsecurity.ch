@@ -52,9 +52,7 @@ Le cadre pour les effectifs en cybersécurité définit des **rôles professionn
 
 Parmi les rôles professionnels courants définis dans le cadre, citons **analyste de sécurité**, **ingénieur de sécurité**, **architecte de réseau**, **testeur de pénétration**, **auditeur de sécurité** et **conseiller en cybersécurité**. Ces rôles professionnels constituent une ressource précieuse pour les organisations lorsqu'il s'agit de définir des descriptions de postes, d'identifier les compétences requises et de soutenir la planification et le développement des effectifs.
 
-______
-{{< inarticle-dark >}}
-### KSAs : Compétences clés pour réussir
+______### KSAs : Compétences clés pour réussir
 
 Pour exceller dans la cybersécurité, les professionnels doivent posséder des **connaissances**, **compétences** et **aptitudes** (KSA) spécifiques. Le cadre de référence pour les effectifs dans le domaine de la cybersécurité dresse une liste exhaustive des compétences clés essentielles pour les différentes fonctions exercées dans le domaine de la cybersécurité.
 

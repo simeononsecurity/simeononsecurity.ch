@@ -31,8 +31,6 @@ HA and DR strategies involve redundancy and fault tolerance to minimize single p
 
 A load balancer monitors the health and performance of servers and intelligently distributes traffic based on predefined algorithms. This enables efficient handling of requests, improves response times, and ensures that no single server becomes overwhelmed. Common load balancing algorithms include round-robin, least connections, and IP hash.
 
-{{< inarticle-dark >}}
-
 ## Multipathing and NIC Teaming for Redundancy
 
 Multipathing and network interface card (NIC) teaming are techniques used to create redundant network connections and enhance network availability. **Multipathing** involves the use of multiple physical or logical paths between devices to ensure data can still flow even if one path fails. It improves both fault tolerance and load balancing.
@@ -50,8 +48,6 @@ To further enhance network resilience, organizations employ redundant hardware a
 Network availability heavily relies on the underlying facilities and infrastructure. A robust network infrastructure includes redundant power sources, cooling systems, and network connectivity. Redundant power sources, such as **uninterruptible power supply (UPS)** systems and backup generators, ensure continuous power supply during electrical outages. Redundant cooling systems prevent overheating and maintain optimal operating conditions for network equipment.
 
 Furthermore, organizations can implement diverse network connectivity using multiple internet service providers (ISPs) or **multi-homed** network architectures. This approach reduces the risk of network downtime due to ISP failures or network disruptions. Network redundancy can also be achieved through technologies like **Virtual Router Redundancy Protocol (VRRP)** and **Spanning Tree Protocol (STP)**.
-
-{{< inarticle-dark >}}
 
 ______
 

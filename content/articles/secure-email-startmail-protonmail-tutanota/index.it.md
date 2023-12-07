@@ -23,9 +23,7 @@ Le e-mail contengono informazioni sensibili, tra cui dati personali, dettagli fi
 
 Utilizzando servizi come [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) è possibile mantenere le conversazioni via e-mail sicure e protette da potenziali minacce informatiche. Questi **fornitori di e-mail sicure** utilizzano una **crittografia all'avanguardia** per proteggere i vostri dati preziosi e garantire che solo i destinatari possano accedere al contenuto.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Sicuro e incentrato sull'utente
 

@@ -29,8 +29,6 @@ coverCaption: "Расширяйте свои возможности, побеж�
 - [Cybersecurity Training: Online Programs and Video Courses for Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
 - [SimeonOnSecurity's Recommended Books](/recommendations/books)
 - [SimeonOnSecurity's Recommended Learning Resources](/recommendations/learning_resources)
-
-{{< inarticle-dark >}}
 ## Популярные сертификаты по кибербезопасности:
 
 Получение **сертификатов по кибербезопасности** может значительно повысить авторитет специалиста и продемонстрировать его компетентность в конкретных областях кибербезопасности. Вот несколько популярных сертификатов, которые высоко ценятся в отрасли:

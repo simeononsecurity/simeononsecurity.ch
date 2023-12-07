@@ -22,8 +22,6 @@ The [CISSP certification](https://www.isc2.org/Certifications/CISSP) is an advan
 
 To earn the [CISSP certification](https://www.isc2.org/Certifications/CISSP), candidates must pass an exam that covers eight domains of information security. These domains include **security and risk management**, **asset security**, **security engineering**, **communication and network security**, **identity and access management**, **security assessment and testing**, **security operations**, and **software development security**.
 
-
-{{< inarticle-dark >}}
 ## Why earn a CISSP certification?
 
 There are many reasons why professionals in the field of information security may choose to earn a [CISSP certification.](https://www.isc2.org/Certifications/CISSP) For one, it demonstrates a high level of expertise in the field and can help to increase credibility and marketability to potential employers. Additionally, many organizations require their information security professionals to hold a CISSP certification as a condition of employment.
@@ -71,8 +69,6 @@ It is important to take multiple practice exams to become familiar with the type
 Once you have met the eligibility requirements and prepared for the exam, it is time to register. The CISSP exam can be scheduled through (ISC)² or Pearson VUE.
 
 Candidates should ensure they have all the necessary documentation and identification before scheduling the exam.
-
-{{< inarticle-dark >}}
 ## Conclusion
 
 Earning a [CISSP certification](https://www.isc2.org/Certifications/CISSP) is a significant accomplishment and can open doors to new career opportunities in the field of information security. It requires dedication, commitment, and hard work to prepare for and pass the exam. By following the steps outlined in this guide, candidates can increase their chances of success and become certified CISSP professionals.

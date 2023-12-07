@@ -27,8 +27,6 @@ To **get started with PowerCLI**, you need to **install** it on your machine. Th
 
 3. **Complete** the **installation** by clicking the "Finish" button. Once the installation is finished, you are ready to start using PowerCLI.
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Connecting to vCenter with PowerCLI
@@ -48,8 +46,6 @@ Replace `<vCenter IP or hostname>` with the **actual IP address or hostname** of
 3. **Provide** the necessary **credentials** when prompted. Enter the **username and password** of a user account with **sufficient privileges** to manage the vCenter server.
 
 4. **Verify** the connection by running a simple command, such as **Get-VMHost**. If you see a list of your ESXi hosts, it means you have successfully connected to vCenter using PowerCLI.
-
-{{< inarticle-dark >}}
 
 
 ______
@@ -123,8 +119,6 @@ PowerCLI enables you to perform various management tasks on **virtual machines a
 - **Managing host resources**: You can use PowerCLI to **manage host resources** like CPU and memory allocation, network configurations, and storage settings. The **[Set-VMHost](https://vdc-repo.vmware.com/vmwb-repository/dcr-public/e7c1a32c-a3c6-4d7c-91bb-18a86a38daf7/12353298-ce6e-4d3f-bd8d-ab9f5ab044cc/doc/Set-VMHost.html)** cmdlet allows you to modify host-level configurations such as networking and storage.
 
 These are just a few examples of what you can achieve with PowerCLI for **vSphere management**. The extensive set of cmdlets gives you the flexibility to automate and streamline various administrative tasks.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

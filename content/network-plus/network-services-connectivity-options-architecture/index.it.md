@@ -41,8 +41,6 @@ Quando un dispositivo ottiene un indirizzo IP da un server DHCP, lo fa per un pe
 
 Nelle reti più grandi, gli agenti relay DHCP o gli indirizzi IP helper vengono utilizzati per inoltrare le richieste e le risposte DHCP tra client e server DHCP situati in sottoreti diverse. Ciò consente di centralizzare i servizi DHCP e di allocare in modo efficiente gli indirizzi IP su più segmenti di rete.
 
-{{< inarticle-dark >}}
-
 ## DNS: Tradurre i nomi in indirizzi IP
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ L'NTP funziona in base a un modello gerarchico chiamato stratum. Lo strato 0 rap
 ### Clienti e server
 
 In un'infrastruttura NTP, i client interrogano i server NTP per ottenere informazioni precise sull'ora. I server NTP mantengono riferimenti temporali accurati e forniscono servizi di sincronizzazione ai client.
-
-{{< inarticle-dark >}}
 
 ## Architettura di rete aziendale e dei data center
 

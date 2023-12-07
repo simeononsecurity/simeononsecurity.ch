@@ -28,8 +28,6 @@ Pour commencer à exploiter Spacemesh avec plusieurs GPU, suivez ces étapes sim
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Étape 1 : Configuration des variables
 
 Ouvrez un éditeur de texte ou un éditeur de script PowerShell et définissez les variables configurables en fonction de vos besoins.
@@ -48,8 +46,6 @@ Le script fourni comprend déjà quelques variables que vous pouvez ajuster, mai
 - `$numUnits` Définir le nombre d'unités de stockage à exploiter. La valeur par défaut est 16.
 
 - `$datadir` Définissez le chemin d'accès au répertoire de données dans lequel vos données minières seront stockées.
-
-{{< inarticle-dark >}}
 
 ### Étape 2 : Exécuter le script
 

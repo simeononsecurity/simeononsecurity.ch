@@ -37,8 +37,6 @@ Change management in **cyber security** encompasses several key components:
 
 5. **Training and Awareness:** Organizations should provide **training and awareness programs** to employees regarding the importance of change management and their roles in maintaining a secure environment. This helps in fostering a **security-conscious culture** and reduces the likelihood of human errors during change implementations. For instance, conducting **cybersecurity awareness training** can educate employees about the risks associated with unauthorized changes or the importance of following proper change management procedures.
 
-{{< inarticle-dark >}}
-
 ### Benefits of Change Management in Cyber Security
 
 Implementing effective change management practices in **cyber security** offers numerous benefits, including:
@@ -142,8 +140,6 @@ By emphasizing effective communication and collaboration, organizations can crea
 5. **Continuous Improvement:** Leverage the insights gained from reviewing the change log to drive **continuous improvement** in change management processes. Identify areas where efficiency can be enhanced, controls can be strengthened, or communication can be improved. Implement appropriate corrective actions and refine the change management framework based on the lessons learned.
 
 By documenting and reviewing changes, organizations can maintain **accountability**, identify areas for improvement, and foster a culture of continuous learning and enhancement in change management practices.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

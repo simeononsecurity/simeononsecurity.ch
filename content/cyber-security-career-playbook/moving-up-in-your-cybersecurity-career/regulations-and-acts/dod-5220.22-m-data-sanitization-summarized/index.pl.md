@@ -28,9 +28,7 @@ Specyfikacja DoD 5220.22-M jest ważna, ponieważ pomaga chronić poufne informa
 
 Specyfikacja DoD 5220.22-M pomaga zapobiegać tego typu scenariuszom, zapewniając standard bezpiecznego usuwania poufnych informacji z cyfrowych nośników pamięci. Zapewnia to, że informacje nie są możliwe do odzyskania przez osoby nieupoważnione i nie mogą być wykorzystywane do złośliwych celów.
 
-______
-{{< inarticle-dark >}}
-## Jak wykorzystywana jest specyfikacja DoD 5220.22-M?
+______## Jak wykorzystywana jest specyfikacja DoD 5220.22-M?
 
 Specyfikacja DoD 5220.22-M jest używana przez wojsko USA i inne organizacje rządowe w celu zapewnienia, że poufne informacje są bezpiecznie usuwane z cyfrowych nośników pamięci przed ich usunięciem lub ponownym użyciem. Specyfikacja jest wykorzystywana przez organizacje do oczyszczania danych z cyfrowych nośników pamięci, które są wycofywane lub wycofywane z eksploatacji.
 

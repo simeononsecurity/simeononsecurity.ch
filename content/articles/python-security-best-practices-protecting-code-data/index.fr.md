@@ -33,8 +33,6 @@ La mise en œuvre de mesures de sécurité robustes dans vos applications Python
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Meilleures pratiques de sécurité Python
 
 Pour renforcer la sécurité de vos applications Python, il est essentiel de suivre ces bonnes pratiques :
@@ -100,8 +98,6 @@ En appliquant des techniques de cryptage pour protéger les données sensibles, 
 Pour en savoir plus sur le chiffrement en Python et sur la manière de le mettre en œuvre efficacement, vous pouvez vous référer aux bibliothèques et à la documentation pertinentes, telles que la bibliothèque **Python Cryptography** et le document officiel [TLS RFC](https://tools.ietf.org/html/rfc5246) pour comprendre le protocole TLS.
 
 N'oubliez pas que le chiffrement n'est qu'un aspect de la protection des données sensibles. Il est tout aussi important de mettre en œuvre des pratiques de **stockage sécurisé**, de **contrôle d'accès** et de **gestion sécurisée des clés** pour garantir une protection complète des données.
-
-{{< inarticle-dark >}}
 
 ### 5. Accès sécurisé à la base de données
 
@@ -174,8 +170,6 @@ En investissant dans l'éducation et la formation des développeurs, vous créez
 N'oubliez pas que **la sécurité est un processus continu**, et qu'une formation continue est nécessaire pour rester à la pointe des menaces en constante évolution et maintenir les normes de sécurité les plus élevées dans vos projets de développement Python.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Aide-mémoire sur les meilleures pratiques de sécurité en Python
 

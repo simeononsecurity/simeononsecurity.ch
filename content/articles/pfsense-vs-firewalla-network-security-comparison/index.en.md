@@ -19,9 +19,7 @@ In the realm of cybersecurity and network management, choosing the right firewal
 
 Firewalls are essential components of any network, acting as barriers between your internal network and potential threats from the internet. **pfSense** and **Firewalla** are both firewall solutions that offer unique approaches to network security. Let's explore the features of each and how they compare.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## pfSense: Power and Flexibility
 
@@ -69,9 +67,7 @@ If granular control and customization are priorities, [**pfSense**](https://sime
 
 [**pfSense**](https://www.pfsense.org/) is open-source and free to use, but it may involve higher setup and maintenance costs due to the technical expertise required. **Firewalla** comes in different models, each with its own pricing, but generally offers a more straightforward and affordable option.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

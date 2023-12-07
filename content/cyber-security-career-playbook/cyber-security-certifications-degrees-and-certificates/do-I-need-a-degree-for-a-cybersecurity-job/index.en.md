@@ -28,8 +28,6 @@ The field of cybersecurity offers a wide range of career opportunities, includin
 
 Moreover, many organizations prefer candidates with a degree in cybersecurity or a related field as it demonstrates a commitment to the profession and a solid understanding of core concepts. A degree can enhance job prospects and increase the chances of securing higher-level positions with better compensation.
 
-{{< inarticle-dark >}}
-
 ## Relevant Majors for Cybersecurity
 
 While a degree specifically in cybersecurity is beneficial, there are several other majors that can provide a solid foundation for a career in cybersecurity. Some of the relevant majors include:
@@ -59,8 +57,6 @@ While a degree can be beneficial, it is not the only path to a cybersecurity car
 4. **Internships and Entry-Level Positions**: Gaining practical experience through internships or entry-level positions in IT or security departments can provide valuable hands-on experience and exposure to real-world cybersecurity challenges. This can be an effective way to kickstart a career in cybersecurity.
 
 ______
-
-{{< inarticle-dark >}}
 ## Conclusion
 
 While a degree in cybersecurity or a relevant major can provide a solid foundation for a career in cybersecurity, it is not always a strict requirement. The field values practical skills, industry certifications, and a continuous learning mindset. Aspiring professionals can choose different paths to enter the cybersecurity field, including alternative majors, certifications, self-study, bootcamps, and practical experience. Ultimately, what matters most is acquiring the necessary knowledge and skills to excel in the field of cybersecurity.

@@ -89,9 +89,7 @@ Voor geautomatiseerde installaties in gevirtualiseerde omgevingen kan een **auto
 
 De noodzaak van TPM 2.0 en Secure Boot voor de installatie van Windows 11 is gebaseerd op de door Microsoft opgegeven systeemvereisten. In sommige gevallen, zoals in overheids- of gereguleerde omgevingen, is het omzeilen van deze controles mogelijk niet in overeenstemming met specifieke voorschriften of beveiligingsstandaarden. Organisaties moeten zorgvuldig hun vereisten overwegen en toepasselijke voorschriften raadplegen, zoals die van overheidsinstellingen zoals het **National Institute of Standards and Technology (NIST)**, om naleving te garanderen.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 **Conclusie**
 

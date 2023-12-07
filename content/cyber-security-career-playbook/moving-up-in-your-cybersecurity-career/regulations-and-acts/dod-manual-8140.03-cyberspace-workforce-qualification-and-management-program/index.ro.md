@@ -23,8 +23,6 @@ Scopul manualului este de a pune în aplicare politica, de a atribui responsabil
 ## Aplicabilitate
 
 Manualul se aplică tuturor membrilor personalului DoD repartizat pe posturi care necesită efectuarea de activități în spațiul cibernetic, astfel cum sunt identificate în DoDI 8140.02. Manualul se aplică, de asemenea, OSD, departamentelor militare, Biroului CJCS și Statului Major Întrunit, comandamentelor combatante, Biroului Inspectorului General al Departamentului Apărării, agențiilor de apărare, activităților de teren ale DoD și tuturor celorlalte entități organizaționale din cadrul DoD.
-
-{{< inarticle-dark >}}
 ## Responsabilități
 
 Secțiunea 2 a manualului prezintă responsabilitățile diferitelor entități în ceea ce privește gestionarea forței de muncă din spațiul cibernetic. În continuare sunt prezentate câteva dintre responsabilitățile evidențiate:
@@ -83,8 +81,6 @@ Domeniile de calificare rezidentă sunt specifice unui rol de lucru, iar formare
 
 Ministerul Apărării trebuie să cunoască cerințele privind posturile forței de muncă din spațiul cibernetic și să furnizeze personal calificat și pregătit pentru a gestiona în mod eficace și eficient forța de muncă din spațiul cibernetic. Sistemele existente de resurse umane și de personal trebuie utilizate pentru a satisface cerințele de raportare și de forță de muncă
 
-
-{{< inarticle-dark >}}
 ## Concluzie
 
 Programul de calificare și gestionare a forței de muncă în domeniul spațiului cibernetic al DoD este conceput pentru a dezvolta și a menține o forță de muncă calificată și competentă în domeniul spațiului cibernetic, care poate opera în coordonare cu luptătorii, întreprinderile și proprietarii de sisteme de misiune. Acest program descrie calificările necesare pentru fiecare rol de lucru al DCWF până la trei niveluri de competență.

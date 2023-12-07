@@ -89,9 +89,7 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\Setup\LabConfig" -Name "BypassRAMCheck" -Va
 
 Windows 11 安装对 TPM 2.0 和安全启动的需求是基于 Microsoft 规定的系统要求。在某些情况下，例如在政府或监管环境中，绕过这些检查可能不符合特定的法规或安全标准。各组织应仔细考虑其要求，并咨询适用的法规，如**国家标准与技术研究院 (NIST)** 等政府机构的法规，以确保合规性。
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **结论**
 

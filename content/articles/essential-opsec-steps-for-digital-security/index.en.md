@@ -160,9 +160,7 @@ Remember, in the ever-evolving landscape of digital security, staying informed a
 
 By continuously elevating security awareness, you're arming yourself with the knowledge and skills needed to safeguard your digital realm effectively.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

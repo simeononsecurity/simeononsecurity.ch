@@ -21,8 +21,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Wymagania dotyczące zgłoszenia**
@@ -83,8 +81,6 @@ Włączenie do listy wstępnego ładowania jest **stałą decyzją**, której ni
 
 Przed podjęciem tej ważnej decyzji upewnij się, że dokładnie przeanalizowałeś jej konsekwencje.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

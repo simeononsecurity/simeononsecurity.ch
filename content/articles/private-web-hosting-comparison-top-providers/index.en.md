@@ -29,9 +29,7 @@ By choosing private web hosting, users can benefit from:
 - **Anonymous domain registration** to **shield their identity**.
 - **Encryption** and other **security measures** to **safeguard sensitive information**.
 - **Freedom of speech** and **content without fear of censorship**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 As with OrangeWebsite, **1984 operates under Iceland's legal framework**, which is conducive to **privacy protection and freedom of expression**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

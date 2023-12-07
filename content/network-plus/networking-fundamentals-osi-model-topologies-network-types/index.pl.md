@@ -37,8 +37,6 @@ Model **OSI (Open Systems Interconnection)** to ramy koncepcyjne, które definiu
 
 7. **Warstwa 7 - Aplikacja**: Warstwa aplikacji reprezentuje rzeczywiste aplikacje i usługi sieciowe używane przez użytkowników końcowych. Zapewnia usługi takie jak **mail**, **transfer plików**, **przeglądanie stron internetowych** i **zdalny dostęp**.
 
-{{< inarticle-dark >}}
-
 ### Enkapsulacja i dekapsulacja danych w kontekście modelu OSI
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ W kontekście modelu OSI następujące elementy przyczyniają się do enkapsulac
 - **Ładunek**: Ładunek to rzeczywiste dane, które są przesyłane, takie jak strona internetowa, wiadomość e-mail lub plik multimedialny.
 
 - **Maximum Transmission Unit (MTU)**: MTU reprezentuje maksymalny rozmiar pakietu danych, który może być przesyłany przez sieć bez fragmentacji.
-
-{{< inarticle-dark >}}
 
 ## Badanie topologii sieci i ich charakterystyki
 
@@ -140,8 +136,6 @@ Sieć SAN (Storage Area Network) jest wyspecjalizowaną siecią przeznaczoną do
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
 **Multipoint Generic Routing Encapsulation (mGRE)** to technika wykorzystywana do tworzenia wirtualnych sieci prywatnych (VPN) poprzez enkapsulację pakietów danych i wysyłanie ich przez sieć wielopunktową. Umożliwia ona wydajną komunikację między wieloma lokalizacjami lub punktami końcowymi.
-
-{{< inarticle-dark >}}
 
 ## Koncepcje sieci wirtualnych
 

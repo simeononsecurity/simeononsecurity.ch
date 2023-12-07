@@ -17,8 +17,6 @@ Les réseaux sans fil jouent un rôle crucial dans notre monde interconnecté, e
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Exploration des différentes normes 802.11
 
 Les normes 802.11, communément appelées Wi-Fi, définissent les spécifications des réseaux locaux sans fil (WLAN).
@@ -54,8 +52,6 @@ Les réseaux sans fil sont divisés en canaux, et les canaux disponibles peuvent
 **Channel Bonding** : La liaison de canaux permet l'agrégation de plusieurs canaux afin d'augmenter la largeur de bande globale disponible pour la transmission de données. Il améliore les performances du réseau en permettant des débits de données plus élevés.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Aperçu des types d'antennes, des normes de cryptage et des configurations SSID
 

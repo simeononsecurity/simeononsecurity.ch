@@ -89,9 +89,7 @@ Pentru instalări automate în medii virtualizate, se poate utiliza un fișier *
 
 Nevoia de TPM 2.0 și Secure Boot pentru instalarea Windows 11 se bazează pe cerințele de sistem declarate de Microsoft. În unele cazuri, cum ar fi în mediile guvernamentale sau reglementate, este posibil ca ocolirea acestor verificări să nu fie conformă cu reglementările sau standardele de securitate specifice. Organizațiile ar trebui să analizeze cu atenție cerințele lor și să consulte reglementările aplicabile, cum ar fi cele ale agențiilor guvernamentale precum **National Institute of Standards and Technology (NIST)**, pentru a asigura conformitatea.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Concluzie**
 

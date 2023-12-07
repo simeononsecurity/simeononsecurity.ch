@@ -28,9 +28,7 @@ De DoD 5220.22-M specificatie is belangrijk omdat het helpt bij het beschermen v
 
 De DoD 5220.22-M specificatie helpt dit soort scenario's te voorkomen door een standaard te bieden voor het veilig wissen van gevoelige informatie van digitale opslagmedia. Dit zorgt ervoor dat de informatie niet kan worden hersteld door onbevoegde personen en niet kan worden gebruikt voor kwaadaardige doeleinden.
 
-______
-{{< inarticle-dark >}}
-## Hoe wordt de DoD 5220.22-M Specificatie gebruikt?
+______## Hoe wordt de DoD 5220.22-M Specificatie gebruikt?
 
 De DoD 5220.22-M specificatie wordt gebruikt door het Amerikaanse leger en andere overheidsorganisaties om ervoor te zorgen dat gevoelige informatie veilig wordt gewist van digitale opslagmedia voordat ze worden weggegooid of hergebruikt. De specificatie wordt door organisaties gebruikt om gegevens te zuiveren van digitale opslagmedia die met pensioen gaan of buiten gebruik worden gesteld.
 

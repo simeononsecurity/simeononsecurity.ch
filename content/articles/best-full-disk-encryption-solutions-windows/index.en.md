@@ -54,8 +54,6 @@ For guidance on implementing BitLocker in the most secure manner, you can refer 
 By utilizing BitLocker, Windows users can benefit from its strong encryption capabilities and seamless integration with the operating system to ensure the security of their sensitive data.
 ______
 
-{{< inarticle-dark >}}
-
 ## [VeraCrypt](https://veracrypt.fr/en/Home.html)
 
 [**VeraCrypt**](https://veracrypt.fr/en/Home.html) is one of the best full disk encryption solutions for Windows, Linux, and macOS. This popular open-source disk encryption software, based on the discontinued TrueCrypt project, provides enhanced security features and flexibility.
@@ -77,8 +75,6 @@ To encrypt a disk using VeraCrypt, follow these steps:
 Keep in mind that the security of VeraCrypt relies on the strength of your password. Make sure to use a [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) to maximize the effectiveness of the encryption.
 
 ______
-{{< inarticle-dark >}}
-
 ## [Symantec Endpoint Encryption](https://www.broadcom.com/products/cybersecurity/endpoint/end-user)
 
 [**Symantec Endpoint Encryption**](https://www.broadcom.com/products/cybersecurity/endpoint/end-user) is an enterprise-grade data encryption solution that provides comprehensive protection for full disk encryption, removable media, and individual files. Designed for organizations, it offers centralized management and reporting capabilities, making it a top choice for businesses with a large number of endpoints.

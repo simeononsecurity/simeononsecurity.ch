@@ -38,8 +38,6 @@ Het managen van een cyberbeveiligingsteam vereist een mix van technische en niet
 4. **Financiering en administratie**: Cyberbeveiligingsleiders moeten beveiligingsbudgetten opstellen en verdelen door specifieke kosten voor informatiebeveiliging vast te stellen en aan elk doel een bepaald budget toe te wijzen. Dit helpt de effectiviteit van de beveiligingsstrategie te maximaliseren en het risico van verspilling van middelen te minimaliseren.
 
 5. **Kennis van informatiebeveiligingswetgeving**: CISO's en andere leiders op het gebied van cyberbeveiliging moeten bekend zijn met wetten voor informatiebeveiliging, compliance en regelgevende vereisten die van toepassing zijn op hun locatie. Dit omvat regelgeving zoals **HIPAA**, **GDPR**, **CCPA**, de **Homeland Security Act** en andere.
-
-{{< inarticle-dark >}}
 #### Niet-technische vaardigheden voor het managen van een informatiebeveiligingsteam
 
 1. **Leiderschap en projectmanagement**: Sterke leiderschaps- en projectmanagementvaardigheden zijn van vitaal belang voor het toezicht houden op het werk van IT- en cyberbeveiligingsprofessionals. Effectief leiderschap draagt bij aan het succes van de informatiebeveiligingsinfrastructuur van de organisatie door strategisch denken en efficiënt delegeren.

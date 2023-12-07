@@ -31,8 +31,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Image Optimization Techniques
 
 ### **1. Image Compression**
@@ -83,8 +81,6 @@ image = Image.open("input_image.jpg")
 image.save("output_image.webp")
 ```
 
-{{< inarticle-dark >}}
-
 ## Automating Image Optimization with Python
 
 
@@ -106,8 +102,6 @@ tinify.key = "YOUR_API_KEY"
 source = tinify.from_file("input_image.jpg")
 source.to_file("compressed_image.jpg")
 ```
-
-{{< inarticle-dark >}}
 
 ### Python Script Example: Optimizing Images in a Folder
 

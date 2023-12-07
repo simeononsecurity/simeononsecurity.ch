@@ -38,9 +38,7 @@ Prima di procedere con l'aggiunta di un vTPM alla macchina virtuale, assicurarsi
    - Operazioni crittografiche.Migrare
    - Operazioni crittografiche.Registra VM
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Aggiunta del modulo di piattaforma attendibile virtuale (vTPM)
 
@@ -68,9 +66,7 @@ L'abilitazione di un vTPM per la macchina virtuale offre diversi vantaggi signif
 
 3. **Se si esegue un sistema operativo guest Windows, l'abilitazione della vTPM è un prerequisito per l'utilizzo della crittografia BitLocker sui dischi della macchina virtuale. Questo aggiunge un ulteriore livello di protezione dei dati.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusione
 

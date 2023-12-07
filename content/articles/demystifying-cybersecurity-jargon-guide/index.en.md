@@ -74,9 +74,7 @@ The [**National Institute of Standards and Technology (NIST)** Cybersecurity Fra
 In Canada, the **Personal Information Protection and Electronic Documents Act (PIPEDA)** governs the collection, use, and disclosure of personal information by private-sector organizations. It emphasizes the importance of consent and safeguards for data handling. Get details on PIPEDA from the [Government of Canada website](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/).
 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion: Unlocking Cybersecurity Success
 

@@ -39,8 +39,6 @@ Pentru a vă îmbunătăți pregătirea pentru certificarea CompTIA Network+, pu
 
 ______
 
-{{< inarticle-dark >}}
-
 ## [CompTIA Security+](https://www.comptia.org/certifications/security)
 
 The [**CompTIA Security+ certification**](https://www.comptia.org/certifications/security) este o certificare la nivel de intrare recunoscută pe scară largă, care se concentrează pe principiile esențiale ale **securității cibernetice**. Aceasta validează competențele de bază necesare pentru a îndeplini funcțiile de securitate de bază și pentru a urma o carieră în domeniul securității informațiilor. Această certificare acoperă subiecte precum **amenințări, vulnerabilități, criptografie, controlul accesului, gestionarea identității** și **tehnologii și instrumente de securitate**.
@@ -91,8 +89,6 @@ Este important ca începătorii să dobândească experiență practică și să
 
 Pentru mai multe informații despre locurile de muncă în domeniul securității cibernetice pentru începători și despre cum să vă pregătiți pentru ele, puteți vizita [this link](https://simeononsecurity.com/cyber-security-career-playbook-start) Această resursă oferă informații despre competențele și calificările necesare pentru posturile de începători și oferă sfaturi despre cum să te remarci pe piața muncii.
 ______
-
-{{< inarticle-dark >}}
 
 ## Concluzie
 

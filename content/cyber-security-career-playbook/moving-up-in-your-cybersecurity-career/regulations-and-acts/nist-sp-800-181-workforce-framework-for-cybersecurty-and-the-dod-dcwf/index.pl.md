@@ -52,9 +52,7 @@ Workforce Framework for Cybersecurity definiuje **role zawodowe**, które obejmu
 
 Niektóre typowe role zawodowe określone w ramach obejmują **analityka bezpieczeństwa**, **inżyniera bezpieczeństwa**, **architekta sieci**, **testera penetracyjnego**, **audytora bezpieczeństwa** i **konsultanta ds. cyberbezpieczeństwa**. Te role zawodowe służą jako cenne źródło informacji dla organizacji przy definiowaniu opisów stanowisk, określaniu wymagań dotyczących umiejętności oraz wspieraniu planowania i rozwoju siły roboczej.
 
-______
-{{< inarticle-dark >}}
-### KSA: Kluczowe kompetencje dla osiągnięcia sukcesu
+______### KSA: Kluczowe kompetencje dla osiągnięcia sukcesu
 
 Aby wyróżniać się na stanowiskach związanych z cyberbezpieczeństwem, specjaliści muszą posiadać określoną **wiedzę**, **umiejętności** i **zdolności** (KSA). Workforce Framework for Cybersecurity przedstawia kompleksową listę KSA, które są krytyczne dla różnych ról zawodowych w domenie cyberbezpieczeństwa.
 

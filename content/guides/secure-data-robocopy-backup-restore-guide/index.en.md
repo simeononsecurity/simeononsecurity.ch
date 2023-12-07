@@ -77,10 +77,6 @@ While Robocopy is a powerful tool, there are alternative options you can explore
 
 Ensuring the safety of your data through effective backup and restore operations is paramount. **Robocopy** provides a versatile and powerful means of backing up and restoring files and directories. By following the steps outlined in this guide, you can establish a robust data protection strategy and gain peace of mind in a digital world where data is king.
 
-{{< inarticle-dark >}}
-
-{{< inarticle-dark >}}
-
 ## References
 
 - [EU General Data Protection Regulation (GDPR)](https://gdpr.eu/)

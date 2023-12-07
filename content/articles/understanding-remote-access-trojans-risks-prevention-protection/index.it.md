@@ -60,8 +60,6 @@ Le vittime di attacchi RAT possono essere inconsapevolmente vittime di **sorvegl
 ### 3. Interruzione e danni al sistema
 
 Gli aggressori possono sfruttare i trojan di accesso remoto per **interrompere il normale funzionamento** di un sistema o di una rete. Possono eliminare o modificare file critici, rendendo il sistema instabile o inutilizzabile. Inoltre, i RAT possono fungere da gateway per ulteriori **infezioni malware**, causando ulteriori danni o facilitando attacchi diffusi all'interno dell'infrastruttura di un'organizzazione. Un esempio significativo è l'attacco ransomware **NotPetya**, che ha utilizzato un RAT per propagarsi attraverso le reti e ha causato interruzioni significative in varie organizzazioni.
-
-{{< inarticle-dark >}}
 ______
 
 ## Protezione contro i trojan di accesso remoto
@@ -84,8 +82,6 @@ Per ridurre i rischi associati ai **trojan di accesso remoto**, i singoli e le o
 
 Seguendo queste misure preventive e adottando un atteggiamento proattivo in materia di sicurezza, i singoli e le organizzazioni possono ridurre significativamente il rischio di cadere vittime di trojan di accesso remoto.
 
-
-{{< inarticle-dark >}}
 
 ______
 

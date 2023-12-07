@@ -58,8 +58,6 @@ In summary, the **Google Career Certificates**, including the **Google Cybersecu
 ______
 
 
-{{< inarticle-dark >}}
-
 ## Are Google Career Certificates Worth It?
 
 The question of whether **Google Career Certificates** are worth pursuing depends on several factors, including your career goals, current skill set, and the specific certificate you are considering. Let's explore some key points to help you make an informed decision.
@@ -95,8 +93,6 @@ By gaining specialized skills through a Google Career Certificate, you position 
 In conclusion, Google Career Certificates offer a valuable pathway to acquiring industry-relevant skills, enhancing career prospects, and pursuing exciting opportunities in the technology field. By completing a Google Career Certificate, you demonstrate your dedication to professional development and position yourself for success in a competitive job market.
 ______
 
-
-{{< inarticle-dark >}}
 
 ## Google Cybersecurity Certificate vs. CompTIA Security+
 
@@ -142,8 +138,6 @@ The Google Cybersecurity Certificate curriculum blends theoretical knowledge wit
 
 ______
 
-
-{{< inarticle-dark >}}
 
 
 ## Conclusion

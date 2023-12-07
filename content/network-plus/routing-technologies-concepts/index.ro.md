@@ -55,8 +55,6 @@ Protocoalele de rutare cu vector de distanță, cum ar fi RIP, utilizează o met
 
 Protocoalele de rutare hibride, cum ar fi EIGRP, combină caracteristicile atât ale protocoalelor de tip link state, cât și ale celor de tip distance vector. Acestea mențin o tabelă topologică similară cu cea a protocoalelor de tip link state, dar utilizează algoritmi de tip distance vector pentru calcularea rutelor. Protocoalele hibride oferă avantajele unei convergențe mai rapide și ale unui overhead redus.
 
-{{< inarticle-dark >}}
-
 ## Rutarea statică și rutele implicite
 
 Rutarea statică presupune configurarea manuală a tabelei de rutare pe routere, specificând căile de acces la anumite rețele. Se utilizează de obicei în scenarii în care modificările topologiei rețelei sunt minime sau previzibile. Rutele statice sunt ușor de configurat și pot fi utile pentru rețele mici sau segmente de rețea specifice.
@@ -90,8 +88,6 @@ Traffic shaping este o tehnică utilizată pentru a controla rata de transmisie 
 ### Calitatea serviciului (QoS)
 
 Calitatea serviciului (QoS) se referă la capacitatea unei rețele de a prioritiza și de a aloca resurse pentru diferite tipuri de trafic în funcție de importanța și cerințele acestora. Mecanismele QoS, cum ar fi prioritizarea traficului, alocarea lățimii de bandă și gestionarea congestiei, ajută la asigurarea unei performanțe optime pentru aplicații în timp real, cum ar fi cele de voce și video.
-
-{{< inarticle-dark >}}
 
 ## Compararea și plasarea dispozitivelor
 

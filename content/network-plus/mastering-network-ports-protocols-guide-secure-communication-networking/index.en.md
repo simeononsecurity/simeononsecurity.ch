@@ -46,8 +46,6 @@ In the world of computer networks, ports, protocols, and network services play a
 
 ______
 
-{{< inarticle-dark >}}
-
 ## IP Protocol Types
 
 {{< youtube id="NAI-gE51VXg" >}}
@@ -90,8 +88,6 @@ Connection-oriented protocols, like TCP, establish a connection before data tran
 Understanding the differences between connectionless and connection-oriented protocols is essential for designing and optimizing network applications based on specific requirements.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

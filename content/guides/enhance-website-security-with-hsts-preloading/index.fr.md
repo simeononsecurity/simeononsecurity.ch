@@ -21,8 +21,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Exigences de soumission**
@@ -83,8 +81,6 @@ L'inclusion dans la liste de préchargement est une **décision permanente** qui
 
 Assurez-vous d'avoir soigneusement évalué les implications avant de prendre cette décision importante.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

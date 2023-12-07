@@ -29,9 +29,7 @@ Traditionnellement, de nombreuses entreprises s'appuyaient sur des services de c
 
 La décision d'externaliser ou non la cybersécurité dépend de divers facteurs tels que **la taille de l'entreprise**, **les menaces de sécurité auxquelles elle est confrontée**, **le budget**, **le modèle d'entreprise** et **le vivier de talents existant**. Pour prendre une décision éclairée, il est essentiel d'examiner ces facteurs de manière approfondie.
 
-______
-{{< inarticle-dark >}}
-### Facteurs à prendre en compte avant l'externalisation
+______### Facteurs à prendre en compte avant l'externalisation
 
 #### 1. Le type de menaces de sécurité et les besoins en matière de cybersécurité
 
@@ -120,9 +118,7 @@ Si l'externalisation de la cybersécurité présente de nombreux avantages, il e
 5. **Risque d'interruption de service** : Le fait de dépendre d'un seul prestataire pour les services de cybersécurité critiques introduit un risque d'interruption de service. Si la société d'externalisation rencontre des problèmes techniques, des problèmes de personnel ou des perturbations dans ses opérations, cela peut avoir une incidence sur la capacité de l'organisation à répondre efficacement aux incidents de sécurité. Pour atténuer ce risque, il faut envisager des plans de secours, des redondances et des garanties contractuelles de disponibilité des services.
 
 Dans l'ensemble, l'externalisation de la cybersécurité peut apporter des avantages significatifs aux organisations en termes d'expertise, de rentabilité et d'efficacité.
-______
-{{< inarticle-dark >}}
-### Meilleures pratiques pour une externalisation efficace
+______### Meilleures pratiques pour une externalisation efficace
 
 Pour garantir une externalisation réussie de la cybersécurité, il convient de tenir compte des meilleures pratiques suivantes :
 

@@ -34,9 +34,7 @@ Czyszczenie to proces nadpisywania danych na urządzeniu serią wartości binarn
 
 Czyszczenie to proces wielokrotnego nadpisywania danych na urządzeniu wzorcem wartości binarnych. Metoda ta jest bezpieczniejsza niż czyszczenie i jest zalecana do oczyszczania wrażliwych danych. NIST 800-88 Rev. 1 zaleca użycie narzędzia programowego, które spełnia standardy określone przez [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specyfikacja.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Wnioski
+__________________________________________## Wnioski
 
 Podsumowując, **odkażanie nośników wymiennych ma kluczowe znaczenie dla zapewnienia, że poufne dane przechowywane na tych urządzeniach nie wyciekną lub nie zostaną udostępnione osobom nieupoważnionym**. NIST 800-88 Rev. 1 zawiera wytyczne dotyczące odkażania wszystkich typów nośników wymiennych, w tym dysków twardych, dysków SSD, pamięci flash USB, płyt CD, DVD i Blu-ray, w tym fizycznego niszczenia, czyszczenia i oczyszczania. **Fizyczne niszczenie jest najbezpieczniejszą metodą sanityzacji nośników wymiennych, ale czyszczenie i oczyszczanie są również skutecznymi metodami, które zapewniają wysoki poziom bezpieczeństwa.
 

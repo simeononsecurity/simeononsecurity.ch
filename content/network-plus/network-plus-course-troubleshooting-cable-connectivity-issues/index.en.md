@@ -65,8 +65,6 @@ Understanding the specific requirements for different installation environments 
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Exploring Cable Applications: Rollover/Console Cables, Crossover Cables, and Power over Ethernet
 
 Cables serve various purposes in networking. Understanding their applications and correct usage is essential for troubleshooting cable connectivity issues effectively.
@@ -130,8 +128,6 @@ When cables are terminated incorrectly, the transmit and receive wires may be re
 Contaminants on optical cables can affect signal quality and cause connectivity issues. Cleaning optical connectors and inspecting cables for dirt or debris can resolve these issues. Proper cleaning techniques and tools are necessary to avoid further damage.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Essential Tools for Cable Troubleshooting: Cable Crimper, Punchdown Tool, Tone Generator, Cable Tester, and More
 

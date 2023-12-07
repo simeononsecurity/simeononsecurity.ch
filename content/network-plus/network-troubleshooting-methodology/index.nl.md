@@ -27,8 +27,6 @@ Tijdens deze stap is het essentieel om de verzamelde informatie te documenteren,
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Stel een theorie van waarschijnlijke oorzaak vast
 
 Als u de benodigde informatie hebt verzameld, is de volgende stap het **vaststellen van een theorie over de waarschijnlijke oorzaak**. Hierbij worden meerdere benaderingen overwogen en wordt het **OSI-model** gebruikt als raamwerk voor probleemoplossing.
@@ -56,8 +54,6 @@ Met een bevestigde theorie over de oorzaak is de volgende stap het **vaststellen
 In sommige gevallen kan de oplossing bestaan uit het wijzigen van de configuratie, het vervangen van defecte hardware of het updaten van firmware of software. Het is van cruciaal belang om **best practices** te volgen en te voldoen aan alle relevante **overheidsvoorschriften** of **industrienormen** tijdens het oplossen van problemen. Naleving van voorschriften zoals **PCI DSS**, **HIPAA** of **GDPR** garandeert de veiligheid en integriteit van het netwerk.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## De oplossing implementeren of escaleren
 

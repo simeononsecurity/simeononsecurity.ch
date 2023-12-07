@@ -39,8 +39,6 @@ To enhance your preparation for the CompTIA Network+ certification, you can acce
 
 ______
 
-{{< inarticle-dark >}}
-
 ## [CompTIA Security+](https://www.comptia.org/certifications/security)
 
 The [**CompTIA Security+ certification**](https://www.comptia.org/certifications/security) is a widely recognized entry-level certification that focuses on the essential principles of **cybersecurity**. It validates the baseline skills required to perform core security functions and pursue an information security career. This certification covers topics such as **threats, vulnerabilities, cryptography, access control, identity management**, and **security technologies and tools**.
@@ -91,8 +89,6 @@ It's important for beginners to gain practical experience and continue learning 
 
 For more information on entry-level cybersecurity jobs and how to prepare for them, you can visit [this link](https://simeononsecurity.com/cyber-security-career-playbook-start). This resource provides insights into the skills and qualifications required for entry-level positions and offers tips on how to stand out in the job market.
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

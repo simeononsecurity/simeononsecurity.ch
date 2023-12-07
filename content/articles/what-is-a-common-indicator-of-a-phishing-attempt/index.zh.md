@@ -35,8 +35,6 @@ coverCaption: "保持警惕，确保安全。"
 
 网络钓鱼是一种恶意网络攻击技术，犯罪分子利用这种技术诱骗个人泄露密码、信用卡号或社会安全号等敏感信息。攻击者通常使用与合法组织非常相似的欺骗性电子邮件、短信或网站，目的是欺骗毫无戒心的受害者。这些网络钓鱼企图可能造成严重后果，包括**身份盗窃**、**财务损失**和**未经授权访问**个人账户。要保护自己免受这些诈骗，必须保持**警惕，并**熟悉**网络钓鱼企图的常见迹象。
 
-{{< inarticle-dark >}}
-
 ## **网络钓鱼企图的常见迹象**
 
 ### **1.可疑的发件人电子邮件地址**
@@ -118,8 +116,6 @@ coverCaption: "保持警惕，确保安全。"
 请记住，只需一次点击就有可能危及您的安全。因此，在打开任何意想不到的电子邮件附件之前，务必谨慎行事并验证其可信度。
 
 有关如何保持上网安全和保护自己免受网络钓鱼企图侵害的更多信息，请参考信誉良好的资料来源，如 [**National Cyber Security Centre**](https://www.ncsc.gov.uk/guidance/phishing) or [**Stay Smart Online**](https://www.staysmartonline.gov.au/protect-yourself/recover-hacked-email-account)
-
-{{< inarticle-dark >}}
 
 ## 保持在线安全的技巧
 

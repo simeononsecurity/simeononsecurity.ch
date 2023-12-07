@@ -66,8 +66,6 @@ Oceń, jakie **informacje** zostały **ujawnione** i w jaki sposób mogą one po
 Pamiętaj, że celem jest reagowanie w **spokojny i wyrachowany** sposób, zapewniając, że twoje działania są skuteczne w łagodzeniu wpływu incydentu doxxingu.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Udokumentuj dowody doxxingu
 
 Ważne jest, aby **zbierać dowody** incydentu doxxingu do wykorzystania w przyszłości. Zrób **zrzuty ekranu** lub zapisz kopie wszystkich postów, wiadomości lub stron internetowych, które zawierają ujawnione informacje. Dowody te będą cenne, jeśli zdecydujesz się **zgłosić incydent** organom ścigania lub podjąć kroki prawne przeciwko doxxerowi.
@@ -181,8 +179,6 @@ Rozumiejąc i wykorzystując te przepisy, możesz **wzmocnić swoją pozycję pr
 Pamiętaj, że poszukiwanie środków prawnych może wymagać czasu, wysiłku i potencjalnie środków finansowych. Oceń swoją sytuację i skonsultuj się z profesjonalistami, aby podjąć świadomą decyzję o podjęciu działań prawnych.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Wnioski
 

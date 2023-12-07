@@ -18,9 +18,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 In the world of cybersecurity and system administration, **user accounts** and **permissions** play a pivotal role in upholding the security and integrity of a Windows operating system. Effectively managing user accounts and permissions ensures that only authorized individuals have access to critical resources and functionalities. In this article, we'll delve into essential concepts and practical techniques related to user account management and permissions on Windows systems.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## User Account Management Commands: net user and net localgroup
 
@@ -95,9 +93,7 @@ runas /user:Administrator "cmd.exe"
 ```
 
 Replace `Administrator` with the desired username. This command prompts for the corresponding user's password and opens a Command Prompt with elevated privileges.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

@@ -22,9 +22,7 @@ Batch scripting involves writing a series of commands in a plain text file with 
 
 Batch scripting is especially relevant in the context of **cybersecurity** and **IT administration**, as it provides a consistent and repeatable way to manage systems and perform routine operations securely.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Getting Started with Batch Scripts
 
@@ -128,9 +126,7 @@ net localgroup Users %new_username% /add
 
 This script adds a new user and adds them to the "Users" group.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

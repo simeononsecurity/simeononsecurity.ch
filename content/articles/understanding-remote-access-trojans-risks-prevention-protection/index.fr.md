@@ -60,8 +60,6 @@ Les victimes d'attaques de RAT peuvent, sans le savoir, être victimes d'une **s
 ### 3. Perturbation et endommagement du système
 
 Les attaquants peuvent utiliser les chevaux de Troie d'accès à distance pour **interrompre le fonctionnement normal** d'un système ou d'un réseau. Ils peuvent supprimer ou modifier des fichiers critiques, rendant le système instable ou inutilisable. En outre, les RAT peuvent servir de passerelle pour d'autres **infections de logiciels malveillants**, causant des dommages supplémentaires ou facilitant des attaques généralisées au sein de l'infrastructure d'une organisation. Un exemple notable est l'attaque du ransomware **NotPetya**, qui a utilisé un RAT pour se propager à travers les réseaux et a causé des perturbations importantes dans diverses organisations.
-
-{{< inarticle-dark >}}
 ______
 
 ## Protection contre les chevaux de Troie d'accès à distance
@@ -84,8 +82,6 @@ Pour atténuer les risques associés aux chevaux de Troie d'accès à distance**
 
 En suivant ces mesures préventives et en adoptant une attitude proactive en matière de sécurité, les particuliers et les organisations peuvent réduire considérablement le risque d'être victimes de chevaux de Troie d'accès à distance.
 
-
-{{< inarticle-dark >}}
 
 ______
 

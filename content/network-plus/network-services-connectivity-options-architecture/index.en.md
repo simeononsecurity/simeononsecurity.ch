@@ -41,8 +41,6 @@ When a device obtains an IP address from a DHCP server, it does so for a specifi
 
 In larger networks, DHCP relay agents or IP helper addresses are used to forward DHCP requests and responses between DHCP clients and servers located in different subnets. This enables DHCP services to be centralized and provides efficient IP address allocation across multiple network segments.
 
-{{< inarticle-dark >}}
-
 ## DNS: Translating Names into IP Addresses
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP operates based on a hierarchical model called stratum. Stratum 0 represents 
 ### Clients and Servers
 
 In an NTP infrastructure, clients query NTP servers to obtain accurate time information. NTP servers maintain accurate time references and provide synchronization services to clients.
-
-{{< inarticle-dark >}}
 
 ## Corporate and Datacenter Network Architecture
 

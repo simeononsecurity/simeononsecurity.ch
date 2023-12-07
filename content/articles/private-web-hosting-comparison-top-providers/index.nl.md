@@ -29,9 +29,7 @@ Door te kiezen voor private webhosting kunnen gebruikers profiteren van:
 - **Anonieme domeinregistratie** om **hun identiteit af te schermen**.
 - Encryptie** en andere **veiligheidsmaatregelen** om **gevoelige informatie** te beveiligen.
 - Vrijheid van meningsuiting** en **inhoud zonder angst voor censuur**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 Net als OrangeWebsite opereert **1984 binnen het wettelijke kader van IJsland**, dat bevorderlijk is voor **privacybescherming en vrijheid van meningsuiting**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

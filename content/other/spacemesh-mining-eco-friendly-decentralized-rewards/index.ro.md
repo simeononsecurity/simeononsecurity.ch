@@ -19,9 +19,7 @@ Spacemesh este o criptomonedă nouă și inovatoare care folosește o abordare m
 
 În acest articol, vom explora detaliile miniere Spacemesh, vom înțelege cum funcționează și vom discuta despre avantajele și potențialele provocări ale acestuia. Fie că sunteți un pasionat experimentat de criptomonede sau un nou-venit în lumea criptomonedelor, acest ghid vă va oferi informații valoroase despre lumea fascinantă a mineritului Spacemesh.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Ce este Spacemesh Mining?
 
@@ -81,9 +79,7 @@ Procesul dinamic de plasare a ochiurilor, deși esențial pentru descentralizare
 
 Pe măsură ce mai mulți participanți se alătură rețelei Spacemesh, concurența pentru recompense se poate intensifica. Mesherii trebuie să evalueze cu atenție costul de stocare, electricitate și hardware în raport cu câștigurile potențiale pentru a se asigura că mineritul rămâne profitabil.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Concluzie
 

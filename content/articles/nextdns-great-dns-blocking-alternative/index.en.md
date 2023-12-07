@@ -45,8 +45,6 @@ In conclusion, [**NextDNS**](https://nextdns.io/?from=jyfq92sk) is an **effectiv
 ______
 
 
-{{< inarticle-dark >}}
-
 ______
 
 ## The Advantages of Using NextDNS
@@ -94,9 +92,7 @@ NextDNS allows users to manage their **blocklists and allowlists**, giving them 
 For example, if you want to **block access** to specific social media platforms during work hours to enhance productivity, you can easily add those sites to your blocklist.
 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## How NextDNS Stands Out From Self-Hosting
 
@@ -126,8 +122,6 @@ By leveraging the knowledge and insights of cybersecurity professionals, NextDNS
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Government Regulations and DNS Blocking
@@ -146,9 +140,7 @@ For example, [**NextDNS**](https://nextdns.io/?from=jyfq92sk) does not store any
 
 By being aware of government regulations and choosing reputable DNS blocking services like [**NextDNS**](https://nextdns.io/?from=jyfq92sk), users can make informed decisions about their internet security and privacy.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

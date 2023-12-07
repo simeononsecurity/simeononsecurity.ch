@@ -29,9 +29,7 @@ En choisissant l'hébergement privé, les utilisateurs peuvent bénéficier de :
 - **Enregistrement anonyme du domaine** pour **protéger leur identité**.
 - **Cryptage** et autres **mesures de sécurité** pour **sauvegarder les informations sensibles**.
 - Liberté d'expression** et **contenu sans crainte de censure**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 Comme pour OrangeWebsite, **1984 opère dans le cadre juridique islandais**, qui est propice à **la protection de la vie privée et à la liberté d'expression**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

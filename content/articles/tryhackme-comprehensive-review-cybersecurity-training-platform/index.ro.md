@@ -42,8 +42,6 @@ TryHackMe oferă atât planuri de abonament gratuite, cât și premium. Planul g
 
 Abonamentul premium al TryHackMe vine cu un cost lunar de `$10.99` Oferă un raport calitate-preț, oferind acces la o bibliotecă vastă de conținut, certificări și o comunitate activă de persoane cu aceleași preocupări.
 
-{{< inarticle-dark >}}
-
 ### TryHackMe Certificate
 
 TryHackMe oferă certificate la finalizarea anumitor camere sau căi de învățare. Aceste certificate servesc drept dovadă a realizărilor și pot fi adăugate la profilul profesional al cuiva sau pot fi împărtășite cu potențiali angajatori. Prin obținerea de certificate de la TryHackMe, persoanele își pot demonstra abilitățile practice în domeniul securității cibernetice și își pot îmbunătăți perspectivele profesionale.
@@ -63,8 +61,6 @@ Prin utilizarea VPN-ului TryHackMe, utilizatorii se pot conecta cu încredere la
 | [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | O introducere în sistemele de operare Windows, acoperind concepte fundamentale și considerații esențiale de securitate.                       |
 | [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | Aprofundați elementele de bază ale Active Directory, acoperind structura Active Directory, controlorii de domeniu, conturile de utilizator, politicile de grup și vulnerabilitățile de securitate.                    |
 
-
-{{< inarticle-dark >}}
 
 ## Concluzie
 

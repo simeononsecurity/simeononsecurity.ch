@@ -39,8 +39,6 @@ Het NICE raamwerk definieert zeven categorieën op hoog niveau die de verschille
 - **Analyseren**: Deze categorie richt zich op het analyseren van cyberbeveiligingsgegevens en -informatie om bedreigingen, kwetsbaarheden en risico's te identificeren en te begrijpen.
 - Verzamelen en beheren**: Deze categorie omvat het verzamelen en beheren van cyberbeveiligingsgegevens en de werking van cyberbeveiligingssystemen en -infrastructuur.
 - **Onderzoek**: Deze categorie omvat activiteiten met betrekking tot het onderzoeken van en reageren op cyberbeveiligingsincidenten, waaronder incidentdetectie, -analyse en -herstel.
-
-{{< inarticle-dark >}}
 #### 2. Gespecialiseerde gebieden
 
 Binnen elke categorie splitst het NICE-raamwerk de rollen en verantwoordelijkheden verder op in specialistische gebieden. Deze specialistische gebieden bieden een meer gedetailleerd begrip van de specifieke taken en vaardigheden die nodig zijn om de cyberbeveiligingsdoelstellingen binnen elke categorie te vervullen. Enkele voorbeelden van specialistische gebieden zijn:
@@ -83,9 +81,7 @@ Voor meer informatie over het NICE Cybersecurity Framework en de voordelen ervan
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Het NICE Cybersecurity Framework implementeren
+______## Het NICE Cybersecurity Framework implementeren
 
 Nu we het belang en de voordelen van het NICE Cybersecurity Framework begrijpen, laten we ons eens verdiepen in praktische stappen om het effectief te implementeren binnen een organisatie:
 

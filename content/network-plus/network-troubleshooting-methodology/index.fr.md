@@ -27,8 +27,6 @@ Au cours de cette étape, il est essentiel de documenter les informations recuei
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Établir une théorie de la cause probable
 
 Une fois que vous avez rassemblé les informations nécessaires, l'étape suivante consiste à **établir une théorie de la cause probable**. Cela implique d'envisager plusieurs approches et d'utiliser le modèle **OSI** comme cadre de dépannage.
@@ -56,8 +54,6 @@ La théorie de la cause étant confirmée, l'étape suivante consiste à **étab
 Dans certains cas, la résolution peut impliquer des changements de configuration, le remplacement de matériel défectueux ou la mise à jour de micrologiciels ou de logiciels. Il est essentiel de suivre les **meilleures pratiques** et d'adhérer à toutes les **réglementations gouvernementales** ou **normes industrielles** pertinentes au cours du processus de dépannage. La conformité à des réglementations telles que **PCI DSS**, **HIPAA** ou **GDPR** garantit la sécurité et l'intégrité du réseau.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Mettre en œuvre la solution ou passer à l'échelon supérieur
 

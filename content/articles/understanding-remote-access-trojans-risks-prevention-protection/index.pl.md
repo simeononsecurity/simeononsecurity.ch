@@ -60,8 +60,6 @@ Ofiary ataków RAT mogą nieświadomie paść ofiarą **nieautoryzowanego nadzor
 ### 3. Zakłócenia i uszkodzenia systemu
 
 Atakujący mogą wykorzystywać trojany zdalnego dostępu do **zakłócania normalnego funkcjonowania** systemu lub sieci. Mogą usuwać lub modyfikować krytyczne pliki, czyniąc system niestabilnym lub bezużytecznym. Ponadto, RAT mogą służyć jako brama dla dalszych **infekcji złośliwym oprogramowaniem**, powodując dodatkowe szkody lub ułatwiając szeroko zakrojone ataki w infrastrukturze organizacji. Godnym uwagi przykładem jest atak ransomware **NotPetya**, który wykorzystał RAT do rozprzestrzeniania się w sieciach i spowodował znaczące zakłócenia w różnych organizacjach.
-
-{{< inarticle-dark >}}
 ______
 
 ## Ochrona przed trojanami zdalnego dostępu
@@ -84,8 +82,6 @@ Aby ograniczyć ryzyko związane z **trojanami zdalnego dostępu**, osoby i orga
 
 Przestrzegając tych środków zapobiegawczych i przyjmując proaktywną postawę w zakresie bezpieczeństwa, osoby i organizacje mogą znacznie zmniejszyć ryzyko padnięcia ofiarą trojanów zdalnego dostępu.
 
-
-{{< inarticle-dark >}}
 
 ______
 

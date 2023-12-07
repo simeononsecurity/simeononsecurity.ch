@@ -81,8 +81,6 @@ When embarking on your biometric security journey on Amazon, a prudent approach 
 
 **Biometric access control** remains a dynamic field, characterized by ongoing technological advancements and widespread adoption. As you navigate the realm of fingerprint scanners and facial recognition devices, keep security, privacy, and regulatory compliance at the forefront of your decision-making process.
 
-{{< inarticle-dark >}}
-
 ## Conclusion
 
 The landscape of access control has been transformed by the emergence of biometric security, with fingerprint and facial recognition technologies leading the charge. These technologies not only elevate security measures but also simplify the authentication experience through their unique identifiers. In a rapidly evolving technological landscape, staying informed about the latest developments empowers individuals and organizations to make well-informed choices aligned with their security objectives.

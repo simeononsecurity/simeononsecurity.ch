@@ -23,8 +23,6 @@ coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCente
 
 让我们深入了解使用 PowerCLI 审核 vCenter 权限的过程。
 
-{{< inarticle-dark >}}
-
 ## 准备环境
 在进入审计流程之前，您需要建立必要的环境。以下是开始的步骤：
 
@@ -101,8 +99,6 @@ coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCente
       # Convert permissions to a CSV file
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
-
-{{< inarticle-dark >}}
 
 ## 结论
 审核 vCenter 环境的权限是维护**安全虚拟基础架构**的**关键步骤。利用**PowerCLI**，您可以**自动化审核流程**，并有效地审查**用户角色和权限**。定期进行权限审核有助于**识别安全漏洞**，并确保用户根据其职责拥有**适当的访问级别**。

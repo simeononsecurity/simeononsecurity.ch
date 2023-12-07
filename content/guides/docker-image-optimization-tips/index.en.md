@@ -257,9 +257,7 @@ It's imperative to exercise caution when using `docker-slim`. Thorough testing a
 
 For detailed instructions on implementing `docker-slim` and optimizing your Docker images, refer to the [docker-slim documentation](https://github.com/docker-slim/docker-slim).
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion: Mastering Docker Image Optimization
 

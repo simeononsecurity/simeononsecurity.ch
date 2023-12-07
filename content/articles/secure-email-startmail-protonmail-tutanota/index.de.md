@@ -23,9 +23,7 @@ E-Mails enthalten sensible Informationen, darunter persönliche Daten, finanziel
 
 Durch die Nutzung von Diensten wie [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) können Sie Ihre E-Mail-Konversationen sicher und vor potenziellen Cyber-Bedrohungen geschützt halten. Diese **sicheren E-Mail-Anbieter** nutzen **moderne Verschlüsselung**, um Ihre wertvollen Daten zu schützen und sicherzustellen, dass nur die vorgesehenen Empfänger auf die Inhalte zugreifen können.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Sicher und benutzerorientiert
 

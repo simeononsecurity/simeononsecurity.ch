@@ -16,9 +16,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 In today's interconnected world, understanding the fundamentals of **Windows networking** is crucial for both personal and professional use. Whether you're troubleshooting network issues, establishing remote connections, or downloading files from the web, having a grasp of essential networking commands and tools is invaluable. In this article, we'll explore some of the key commands and techniques that every Windows user should be familiar with.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Introducing Essential Networking Commands
 
@@ -88,9 +86,7 @@ bitsadmin /transfer myDownloadJob /download /priority normal https://www.example
 
 This initiates a background download, allowing you to efficiently manage your network resources.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

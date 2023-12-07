@@ -50,8 +50,6 @@ To configure VLANs and Voice VLANs on an Ethernet switch, the following steps ca
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Port Configurations, Tagging, and Aggregation
 
 ### Port Configurations
@@ -72,8 +70,6 @@ VLAN tagging is the process of adding additional information (VLAN ID) to Ethern
 Link Aggregation, or **EtherChannel**, combines multiple physical links into a single logical link. This technique improves bandwidth utilization, provides redundancy, and enhances network performance. Link Aggregation Control Protocol (LACP) is commonly used to negotiate and manage the formation of EtherChannel groups.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Port Security, Mirroring, and Jumbo Frames
 

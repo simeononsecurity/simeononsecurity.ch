@@ -23,9 +23,7 @@ Emails contain sensitive information, including personal data, financial details
 
 By using services like [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/), you can keep your email conversations secure and safeguarded from potential cyber threats. These **secure email providers** utilize **state-of-the-art encryption** to protect your valuable data and ensure that only intended recipients can access the content.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Secure and User-Focused
 

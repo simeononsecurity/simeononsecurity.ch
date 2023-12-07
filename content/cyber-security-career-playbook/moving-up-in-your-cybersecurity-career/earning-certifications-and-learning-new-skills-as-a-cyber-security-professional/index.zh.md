@@ -29,8 +29,6 @@ coverCaption: "增强自身能力，战胜网络威胁！"
 - [Cybersecurity Training: Online Programs and Video Courses for Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
 - [SimeonOnSecurity's Recommended Books](/recommendations/books)
 - [SimeonOnSecurity's Recommended Learning Resources](/recommendations/learning_resources)
-
-{{< inarticle-dark >}}
 ##热门网络安全认证：
 
 获得**网络安全认证**可以大大提高专业人员的资历，并证明他们在特定网络安全领域的专业知识。以下是一些在业内备受推崇的热门认证：

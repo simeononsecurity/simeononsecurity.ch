@@ -66,8 +66,6 @@ Evaluați ce **informații** au fost **dezvăluite** și cum vă pot **vătăma*
 Nu uitați, scopul este să răspundeți într-un mod **calm și calculat**, asigurându-vă că acțiunile dvs. sunt eficiente pentru a atenua impactul incidentului de doxxing.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Documentați dovezile de doxxing
 
 Este crucial să **colectăm dovezi** ale incidentului de doxxing pentru referințe viitoare. Faceți **capturi de ecran** sau salvați copii ale tuturor postărilor, mesajelor sau site-urilor web care conțin informațiile dvs. expuse. Aceste dovezi vor fi valoroase dacă decideți să **raportați incidentul** autorităților de aplicare a legii sau să luați măsuri legale împotriva doxxerului.
@@ -181,8 +179,6 @@ De exemplu, în conformitate cu GDPR, persoanele fizice din Uniunea Europeană a
 Nu uitați, căutarea unui recurs legal poate implica timp, efort și, eventual, resurse financiare. Evaluați-vă situația și consultați-vă cu profesioniști pentru a lua o decizie în cunoștință de cauză cu privire la inițierea unei acțiuni în justiție.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Concluzie
 

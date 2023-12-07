@@ -39,8 +39,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ## [CompTIA Security+](https://www.comptia.org/certifications/security)
 
 "(《世界人权宣言》) [**CompTIA Security+ certification**](https://www.comptia.org/certifications/security)是一项广受认可的入门级认证，重点关注**网络安全**的基本原则。它验证了执行核心安全功能和从事信息安全职业所需的基本技能。该认证涵盖的主题包括**威胁、漏洞、密码学、访问控制、身份管理**以及**安全技术和工具**。
@@ -91,8 +89,6 @@ ______
 
 有关初级网络安全工作的更多信息以及如何做好准备，请访问 [this link](https://simeononsecurity.com/cyber-security-career-playbook-start)本资料深入介绍了初级职位所需的技能和资格，并就如何在就业市场脱颖而出提供了建议。
 ______
-
-{{< inarticle-dark >}}
 
 ## 结论
 

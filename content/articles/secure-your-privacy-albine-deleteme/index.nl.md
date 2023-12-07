@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## De noodzaak van oplossingen voor gegevensprivacy
@@ -76,8 +74,6 @@ Het verwijderen van persoonlijke gegevens uit openbare databases kan vooral voor
 Wetende dat een betrouwbare service zoals [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) actief hun gegevens beschermt, geeft gebruikers gemoedsrust. Ze kunnen op het internet surfen en online activiteiten ondernemen zonder zich zorgen te hoeven maken over misbruik van hun gegevens.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

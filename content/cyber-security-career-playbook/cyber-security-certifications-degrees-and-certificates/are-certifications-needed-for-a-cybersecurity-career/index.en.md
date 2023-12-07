@@ -39,8 +39,6 @@ One of the key advantages of certifications is the opportunity to validate your 
 4. **Continual Learning**: Maintaining certifications requires ongoing education and renewal, which encourages professionals to stay up-to-date with emerging threats, technologies, and trends in the cybersecurity landscape.
 
 ______
-
-{{< inarticle-dark >}}
 ## Government Regulations and Certifications
 
 Government regulations, including those of the DoD, play a crucial role in shaping the cybersecurity landscape. Certain regulations, such as the **National Institute of Standards and Technology (NIST)** guidelines or the **General Data Protection Regulation (GDPR)** in the European Union, require organizations to maintain a certain level of cybersecurity measures. **Certifications**, such as **ISO 27001** for information security management systems or **Cybersecurity Maturity Model Certification (CMMC)** for DoD contractors, can help organizations demonstrate compliance with these regulations.
@@ -62,8 +60,6 @@ When pursuing certifications, it is important to consider your career goals, int
 This graph, made by [Paul Jerimy](https://pauljerimy.com/), outlines Cyber Security and IT Career certifications based on their covered Domains of Knowledge.
 {{< figure src="cybersecuritycertificationroadmap.webp" alt="Cyber Security Certification Roadmap" link="https://pauljerimy.com/security-certification-roadmap/" >}}
 ______
-
-{{< inarticle-dark >}}
 ______
 ## Conclusion
 

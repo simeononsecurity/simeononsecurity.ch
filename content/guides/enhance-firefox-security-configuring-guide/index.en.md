@@ -23,8 +23,6 @@ In the digital age, browser security is crucial, especially in sensitive environ
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Implementing Hardening Configuration for Firefox
@@ -144,8 +142,6 @@ echo "Firefox installation and update complete."
 ```
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### Finding ID: V-251567 - Protecting Against Fingerprinting
@@ -168,8 +164,6 @@ For diagnostics, it's essential to maintain data when the browser closes. This p
 lockPref("browser.sessionstore.privacy_level", 0);
 ```
 ______
-
-{{< inarticle-dark >}}
 
 ______
 
@@ -236,8 +230,6 @@ lockPref("extensions.pocket.enabled", false);
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Secure Browsing Practices and User Privacy
@@ -290,8 +282,6 @@ lockPref("plugin.disable_full_page_plugin_for_types", "application/pdf,applicati
 ```
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

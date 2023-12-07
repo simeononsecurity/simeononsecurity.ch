@@ -23,8 +23,6 @@ Zweck dieses Handbuchs ist die Umsetzung von Grundsätzen, die Zuweisung von Zus
 ## Anwendbarkeit
 
 Das Handbuch gilt für das gesamte DoD-Personal, das mit Positionen betraut ist, die die Durchführung von Cyberspace-Arbeiten gemäß DoDI 8140.02 erfordern. Das Handbuch gilt auch für den OSD, die Militärabteilungen, das Büro des CJCS und den Gemeinsamen Stab, die Kampfkommandos, das Büro des Generalinspekteurs des Verteidigungsministeriums, die Verteidigungsagenturen, die DoD-Außenstellen und alle anderen Organisationseinheiten innerhalb des DoD.
-
-{{< inarticle-dark >}}
 ## Zuständigkeiten
 
 In Abschnitt 2 des Handbuchs werden die Zuständigkeiten der verschiedenen Stellen bei der Verwaltung der Cyberspace-Mitarbeiter beschrieben. Im Folgenden werden einige der Zuständigkeiten hervorgehoben:
@@ -83,8 +81,6 @@ Die residenten Qualifikationsbereiche sind spezifisch für eine Arbeitsrolle, un
 
 Das Verteidigungsministerium muss den Bedarf an Cyberspace-Personal kennen und qualifiziertes und einsatzbereites Personal bereitstellen, um das Cyberspace-Personal effektiv und effizient zu verwalten. Vorhandene Personal- und Personalsysteme sollten genutzt werden, um die Anforderungen an das Berichtswesen und den Personalbestand zu erfüllen.
 
-
-{{< inarticle-dark >}}
 ## Schlussfolgerung
 
 Das DoD Cyberspace Workforce Qualification and Management Program (DoD-Cyberspace-Personalqualifizierungs- und -Managementprogramm) dient der Entwicklung und Aufrechterhaltung eines qualifizierten Cyberspace-Personals, das in Abstimmung mit den Streitkräften, Unternehmen und den Eigentümern von Missionssystemen arbeiten kann. Dieses Programm umreißt die Qualifikationen, die für jede DCWF-Arbeitsrolle erforderlich sind, bis hin zu drei Leistungsniveaus.

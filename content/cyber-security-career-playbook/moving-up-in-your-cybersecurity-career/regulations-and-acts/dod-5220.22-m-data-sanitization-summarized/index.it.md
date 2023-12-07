@@ -28,9 +28,7 @@ La specifica DoD 5220.22-M è importante perché aiuta a proteggere le informazi
 
 La specifica DoD 5220.22-M aiuta a prevenire questo tipo di scenari fornendo uno standard per cancellare in modo sicuro le informazioni sensibili dai supporti di memorizzazione digitale. In questo modo si garantisce che le informazioni non siano recuperabili da persone non autorizzate e non possano essere utilizzate per scopi malevoli.
 
-______
-{{< inarticle-dark >}}
-## Come viene utilizzata la specifica DoD 5220.22-M?
+______## Come viene utilizzata la specifica DoD 5220.22-M?
 
 La specifica DoD 5220.22-M viene utilizzata dalle forze armate statunitensi e da altre organizzazioni governative per garantire che le informazioni sensibili vengano cancellate in modo sicuro dai supporti di memorizzazione digitale prima di essere smaltite o riutilizzate. La specifica viene utilizzata dalle organizzazioni per sanificare i dati dai supporti di memorizzazione digitale che vengono ritirati o dismessi.
 

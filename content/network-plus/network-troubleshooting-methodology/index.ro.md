@@ -27,8 +27,6 @@ Primul pas în depanarea rețelei este **identificarea problemei**. Acest lucru 
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Stabilirea unei teorii a cauzei probabile
 
 Odată ce ați adunat informațiile necesare, următorul pas este să **stabiliți o teorie a cauzei probabile**. Acest lucru implică luarea în considerare a mai multor abordări și utilizarea modelului **OSI** ca un cadru pentru depanare.
@@ -56,8 +54,6 @@ Cu o teorie confirmată a cauzei, următorul pas este să **stabiliți un plan d
 În unele cazuri, rezolvarea poate implica efectuarea unor modificări de configurare, înlocuirea hardware-ului defect sau actualizarea firmware-ului sau a software-ului. Este esențial să urmați **cele mai bune practici** și să respectați orice **reglementări guvernamentale** sau **standarde industriale** relevante în timpul procesului de depanare. Respectarea unor reglementări precum **PCI DSS**, **HIPAA** sau **GDPR** asigură securitatea și integritatea rețelei.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Implementați soluția sau escaladați
 

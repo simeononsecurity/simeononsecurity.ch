@@ -227,8 +227,6 @@ AppLocker 可提供对应用程序执行的细粒度控制，帮助您防止未�
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Windows 11 包含一项名为 "自动维护 "的便捷功能，可通过执行�
 有关 Windows 自动维护及其配置选项的更多详细信息，请参阅官方的 [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## 结论
 

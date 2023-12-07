@@ -33,8 +33,6 @@ Implementar medidas de seguridad sólidas en sus aplicaciones Python ayuda a mit
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Buenas prácticas de seguridad en Python
 
 Para mejorar la seguridad de sus aplicaciones Python, es esencial seguir estas mejores prácticas:
@@ -100,8 +98,6 @@ Al aplicar técnicas de encriptación para proteger datos sensibles, añades una
 Para aprender más sobre la encriptación en Python y cómo implementarla de forma efectiva, puedes consultar las librerías y documentación relevantes, como la librería **Python Cryptography** y el manual oficial [TLS RFC](https://tools.ietf.org/html/rfc5246) para comprender el protocolo TLS.
 
 Recuerde que el cifrado es sólo un aspecto de la protección de datos sensibles. Es igualmente importante implementar prácticas de **almacenamiento seguro**, **control de acceso** y **gestión segura de claves** para garantizar una protección de datos completa.
-
-{{< inarticle-dark >}}
 
 ### 5. Acceso seguro a la base de datos
 
@@ -174,8 +170,6 @@ Al invertir en la educación y formación de los desarrolladores, creas una base
 Recuerda, **la seguridad es un proceso continuo**, y la educación y formación continuas son necesarias para adelantarse a las amenazas en evolución y mantener los más altos estándares de seguridad en tus proyectos de desarrollo Python.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Hoja de trucos sobre buenas prácticas de seguridad en Python
 

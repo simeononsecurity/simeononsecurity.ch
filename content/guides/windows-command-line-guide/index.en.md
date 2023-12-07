@@ -23,9 +23,7 @@ The **Windows Command Prompt (CMD)** is a powerful tool that allows users to int
 
 To open the **Command Prompt**, press the `Windows` key on your keyboard, type "**cmd**", and press `Enter`. Alternatively, you can use the `Run` dialog by pressing `Windows + R` and then entering "**cmd**". This will launch the Command Prompt application.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 
 ## Navigating Through Directories
@@ -106,9 +104,7 @@ If you decide you no longer need the "Documents" directory:
 cd ..
 rmdir Documents
 ```
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

@@ -93,9 +93,7 @@ ______
  - [Blackhat on Amazon Prime Video](https://amzn.to/48FyNu3)
  - [Blackhat on IMDb](https://www.imdb.com/title/tt2717822/)
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

@@ -17,8 +17,6 @@ Las redes inalámbricas juegan un papel crucial en nuestro mundo interconectado,
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Exploración de diferentes estándares 802.11
 
 Los estándares 802.11, comúnmente conocidos como Wi-Fi, definen las especificaciones de las redes de área local inalámbricas (WLAN).
@@ -54,8 +52,6 @@ Las redes inalámbricas se dividen en canales, y los canales disponibles pueden 
 **Vinculación de canales**: La vinculación de canales permite la agregación de varios canales para aumentar el ancho de banda total disponible para la transmisión de datos. Mejora el rendimiento de la red al permitir mayores velocidades de transmisión de datos.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Resumen de tipos de antena, estándares de encriptación y configuraciones SSID
 

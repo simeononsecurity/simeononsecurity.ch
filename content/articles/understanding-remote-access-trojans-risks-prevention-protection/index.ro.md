@@ -60,8 +60,6 @@ Victimele atacurilor RAT pot cădea, fără să știe, victime ale **supravegher
 ### 3. Perturbarea și deteriorarea sistemului
 
 Atacatorii pot profita de troienii de acces de la distanță pentru a **întrerupe funcționarea normală** a unui sistem sau a unei rețele. Aceștia pot șterge sau modifica fișiere critice, făcând sistemul instabil sau inutilizabil. În plus, RAT-urile pot servi drept poartă de acces pentru alte **infecții malware**, provocând daune suplimentare sau facilitând atacuri pe scară largă în cadrul infrastructurii unei organizații. Un exemplu notabil este atacul ransomware **NotPetya**, care a folosit un RAT pentru a se propaga în rețele și a provocat perturbări semnificative în diverse organizații.
-
-{{< inarticle-dark >}}
 ______
 
 ## Protejarea împotriva troienilor de acces la distanță
@@ -84,8 +82,6 @@ Pentru a reduce riscurile asociate cu **troienii de acces la distanță**, perso
 
 Urmând aceste măsuri preventive și adoptând o atitudine proactivă în materie de securitate, persoanele și organizațiile pot reduce semnificativ riscul de a deveni victime ale troienilor de acces la distanță.
 
-
-{{< inarticle-dark >}}
 
 ______
 

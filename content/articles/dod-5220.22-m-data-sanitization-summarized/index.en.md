@@ -20,8 +20,6 @@ The DoD 5220.22-M specification requires the use of a **multi-pass data sanitiza
 
 The DoD 5220.22-M specification is widely recognized and implemented by various organizations, including government agencies, military entities, and businesses that handle sensitive information. Adhering to this specification helps ensure compliance with security regulations and safeguards against data breaches or unauthorized access to sensitive data.
 
-{{< inarticle-dark >}}
-
 ## Why is the DoD 5220.22-M Specification Important?
 
 The DoD 5220.22-M specification is important because it helps to protect sensitive information that is stored on digital storage media. The U.S. military and other government organizations often handle sensitive information that needs to be protected, such as **classified intelligence, personal information, and confidential financial data**. If this information were to fall into the wrong hands, it could have serious consequences, including national security threats, financial fraud, and identity theft.
@@ -77,8 +75,6 @@ When it comes to choosing data sanitization software that complies with the DoD 
 These software solutions provide the necessary features and functionality to ensure that data is securely erased in compliance with the DoD 5220.22-M specification. Make sure to evaluate your specific requirements and choose the software that best suits your needs.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Compliance with the DoD 5220.22-M Specification
 

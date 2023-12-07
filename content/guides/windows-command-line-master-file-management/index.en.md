@@ -17,9 +17,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 In the world of Windows operating systems, efficient **file management** is crucial for organizing your data, optimizing storage, and streamlining your workflow. While graphical interfaces provide user-friendly ways to manage files, the command line offers a powerful and flexible alternative. In this article, we will delve into various command-line techniques for **copying**, **moving**, **renaming**, and **deleting** files, along with exploring more advanced file manipulation using the `xcopy` command and the usage of wildcards.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Copying Files with Command Line
 
@@ -106,9 +104,7 @@ For a more sweeping approach, wildcards can be used to delete multiple files at 
 del *.log
 ```
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ### Conclusion
 

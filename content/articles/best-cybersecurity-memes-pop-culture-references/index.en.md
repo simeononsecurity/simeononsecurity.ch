@@ -86,9 +86,7 @@ The concept of the [dark web](https://simeononsecurity.com/articles/the-dark-web
 The "I Have No Idea What I'm Doing" dog meme perfectly captures the feeling of being overwhelmed by cybersecurity jargon and technical details. It's important to break down complex topics into digestible pieces and provide resources for individuals looking to [learn more about cybersecurity](https://simeononsecurity.com/cyber-security-career-playbook-start).
 
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

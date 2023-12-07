@@ -21,9 +21,7 @@ The Microsoft .NET Framework 4.0 is a versatile platform for developing and exec
 
 **SimeonOnSecurity** has developed an [automated PowerShell script for implementing the .NET Framework STIG](https://github.com/simeononsecurity/.NET-STIG-Script/tree/master). 
 Check it out at the link above.
-______
-{{< inarticle-dark >}}
-_____
+___________
 
 ### CAS and Policy Configuration Backup (V-225227 APPNET0055 SV-225227r615940_rule)
 
@@ -501,9 +499,7 @@ ______
 
 For .NET applications invoking NetFx40_LegacySecurityPolicy, adherence to previous .NET STIG guidance is essential. CAS policy, though disabled by default in .NET 4, can be re-enabled using this setting. Aligning with established **security policies and practices** helps maintain a secure application environment.
 
-______
-{{< inarticle-dark >}}
-_____
+___________
 
 
 ## Conclusion

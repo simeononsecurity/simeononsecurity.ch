@@ -29,9 +29,7 @@ Moreover, cybersecurity internships allow you to build valuable networks within 
 
 Furthermore, a cybersecurity internship can potentially lead to a permanent role within the same organization. Employers often prefer to hire their best interns, as they are already familiar with the company's cybersecurity policies and procedures. By proving your skills, knowledge, and abilities during the internship, you increase your chances of securing a job offer.
 
-______
-{{< inarticle-dark >}}
-## Responsibilities of a Cybersecurity Intern
+______## Responsibilities of a Cybersecurity Intern
 
 As a cybersecurity intern, your day-to-day responsibilities will vary depending on the type of internship, your skill set, specialization, and the organization you are working for. However, here are some common duties you can expect:
 
@@ -94,9 +92,7 @@ Externships involve shadowing a cybersecurity professional to gain insights into
 ### Internships for Credits
 Some academic institutions offer internships for credits, allowing students to earn academic credits while gaining real-world experience. These internships align with the curriculum requirements of the educational institution, providing a structured learning experience.
 
-______
-{{< inarticle-dark >}}
-## Where to Find Cybersecurity Internships
+______## Where to Find Cybersecurity Internships
 
 Finding cybersecurity internships requires proactive searching and utilizing various resources. Here are some avenues to explore:
 

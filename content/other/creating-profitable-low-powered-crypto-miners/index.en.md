@@ -51,8 +51,6 @@ This is going to be a longer section. We are going to set up docker and then thr
 
 *For this section we assume some basic technical experience and that you have installed your operating system already as well as know how to get into the terminal.*
 
-{{< inarticle-dark >}}
-
 ### Installing Updates:
 We first want to be sure that we have our system fully up to date:
 ```bash
@@ -159,8 +157,6 @@ Pawns app, again similar to the others listed here offer to pay you for sharing 
 
 #### Create a PawnsApp Account:
 Create an account at [https://pawns.app](https://pawns.app/?r=2092882)
-
-{{< inarticle-dark >}}
 
 #### Install the Docker Container:
 
@@ -282,8 +278,6 @@ We can not describe how to port forward for everyone's specific hardware. Here a
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
-
-{{< inarticle-dark >}}
 
 ### Optional Configurations:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)

@@ -28,9 +28,7 @@ La especificación DoD 5220.22-M es importante porque ayuda a proteger la inform
 
 La especificación DoD 5220.22-M ayuda a prevenir este tipo de situaciones proporcionando una norma para borrar de forma segura la información confidencial de los medios de almacenamiento digital. De este modo se garantiza que la información no pueda ser recuperada por personas no autorizadas y que no pueda utilizarse con fines malintencionados.
 
-______
-{{< inarticle-dark >}}
-## ¿Cómo se utiliza la especificación DoD 5220.22-M?
+______## ¿Cómo se utiliza la especificación DoD 5220.22-M?
 
 La especificación DoD 5220.22-M es utilizada por el ejército de EE.UU. y otras organizaciones gubernamentales para garantizar que la información confidencial se borra de forma segura de los medios de almacenamiento digital antes de su eliminación o reutilización. Las organizaciones utilizan esta especificación para desinfectar los datos de los soportes de almacenamiento digital que se van a retirar o dar de baja.
 

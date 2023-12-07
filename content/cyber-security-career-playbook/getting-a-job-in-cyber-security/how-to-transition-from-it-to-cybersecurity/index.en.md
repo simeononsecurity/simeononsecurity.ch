@@ -39,8 +39,6 @@ Employers look for specific **technical** and **non-technical** skills in cybers
 ### Certification Requirements
 
 Certifications play a significant role in validating your skills in the cybersecurity field. [CompTIA Security+](https://www.comptia.org/certifications/security) is a recommended certification for those transitioning from IT to cybersecurity. There are also specialized certifications available based on your chosen specialization in cybersecurity. Obtaining relevant certifications can enhance your credibility and increase your chances of being hired.
-
-{{< inarticle-dark >}}
 ## How to Transition From IT to Cybersecurity – Step-by-Step Guide
 
 Transitioning from IT to cybersecurity requires a strategic approach. Follow these steps to successfully make the switch:

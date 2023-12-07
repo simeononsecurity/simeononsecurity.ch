@@ -23,8 +23,6 @@ Lo scopo del manuale è quello di implementare la politica, assegnare le respons
 ## Applicabilità
 
 Il manuale si applica a tutto il personale DoD assegnato a posizioni che richiedono l'esecuzione di lavori nel cyberspazio, come identificato nella DoDI 8140.02. Il manuale si applica anche all'OSD. Il manuale si applica anche all'OSD, ai Dipartimenti militari, all'Ufficio del CJCS e allo Stato Maggiore, ai Comandi di Combattimento, all'Ufficio dell'Ispettore Generale del Dipartimento della Difesa, alle Agenzie della Difesa, alle Attività sul campo del DoD e a tutte le altre entità organizzative del DoD.
-
-{{< inarticle-dark >}}
 ## Responsabilità
 
 La sezione 2 del manuale delinea le responsabilità delle varie entità nella gestione della forza lavoro del cyberspazio. Di seguito sono riportate alcune delle responsabilità evidenziate:
@@ -83,8 +81,6 @@ Le aree di qualificazione residenti sono specifiche di un ruolo lavorativo e la 
 
 Il Dipartimento della Difesa deve conoscere i requisiti di posizione della propria forza lavoro nel cyberspazio e fornire personale qualificato e pronto a gestire la forza lavoro nel cyberspazio in modo efficace ed efficiente. I sistemi di gestione della manodopera e del personale esistenti devono essere utilizzati per soddisfare i requisiti di reporting e di forza lavoro.
 
-
-{{< inarticle-dark >}}
 ## Conclusione
 
 Il DoD Cyberspace Workforce Qualification and Management Program è progettato per sviluppare e mantenere una forza lavoro competente e qualificata nel cyberspazio, in grado di operare in coordinamento con i combattenti, le aziende e i proprietari dei sistemi di missione. Il programma delinea le qualifiche richieste per ogni ruolo lavorativo DCWF fino a tre livelli di competenza.

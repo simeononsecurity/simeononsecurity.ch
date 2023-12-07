@@ -34,9 +34,7 @@ Curățarea este procesul de suprascriere a datelor de pe un dispozitiv cu o ser
 
 Purjarea este procesul de suprascriere de mai multe ori a datelor de pe un dispozitiv cu un model de valori binare. Această metodă este mai sigură decât ștergerea și este recomandată pentru curățarea datelor sensibile. NIST 800-88 Revizia 1 recomandă utilizarea unui instrument software care să respecte standardele stabilite de către [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specificații.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Concluzie
+__________________________________________## Concluzie
 
 În concluzie, **sanitizarea mediilor amovibile este crucială pentru a se asigura că datele sensibile stocate pe aceste dispozitive nu sunt divulgate sau accesate de persoane neautorizate.** NIST 800-88 Revizia 1 oferă orientări pentru igienizarea tuturor tipurilor de medii amovibile, inclusiv a hard disk-urilor, SSD-urilor, unităților flash USB, CD-urilor, DVD-urilor și discurilor Blu-ray, inclusiv distrugerea fizică, curățarea și epurarea. **Distrugerea fizică este cea mai sigură metodă de asanare a mediilor amovibile, dar ștergerea și curățarea sunt, de asemenea, metode eficiente care oferă un nivel ridicat de securitate.**
 

@@ -52,9 +52,7 @@ El Marco de la Fuerza Laboral para la Ciberseguridad define **los roles laborale
 
 Algunas de las funciones laborales más comunes identificadas en el marco son las siguientes: **analista de seguridad**, **ingeniero de seguridad**, **arquitecto de redes**, **probador de penetración**, **auditor de seguridad** y **consultor de ciberseguridad**. Estas funciones laborales constituyen un valioso recurso para las organizaciones a la hora de definir las descripciones de los puestos de trabajo, identificar los requisitos de cualificación y apoyar la planificación y el desarrollo de la mano de obra.
 
-______
-{{< inarticle-dark >}}
-### KSAs: Competencias clave para el éxito
+______### KSAs: Competencias clave para el éxito
 
 Para sobresalir en funciones de ciberseguridad, los profesionales deben poseer **conocimientos**, **habilidades** y **capacidades** (KSA, por sus siglas en inglés) específicos. El Workforce Framework for Cybersecurity esboza una lista exhaustiva de KSA que son fundamentales para las distintas funciones laborales en el ámbito de la ciberseguridad.
 

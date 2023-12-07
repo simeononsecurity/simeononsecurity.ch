@@ -23,9 +23,7 @@ coverCaption: "选择你的监护人安全电子邮件探索！"
 
 使用以下服务 [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/)您可以确保您的电子邮件对话安全，免受潜在的网络威胁。这些**安全电子邮件提供商**采用**先进的加密技术**保护您的宝贵数据，确保只有目标收件人才能访问内容。
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail：安全且以用户为中心
 

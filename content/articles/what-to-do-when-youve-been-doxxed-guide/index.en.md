@@ -66,8 +66,6 @@ Assess what **information** has been **leaked** and how it may potentially **har
 Remember, the goal is to respond in a **calm and calculated** manner, ensuring your actions are effective in mitigating the impact of the doxxing incident.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Document the doxxing evidence
 
 It's crucial to **collect evidence** of the doxxing incident for future reference. Take **screenshots** or save copies of any posts, messages, or websites that contain your exposed information. This evidence will be valuable if you decide to **report the incident** to law enforcement authorities or take legal action against the doxxer.
@@ -181,8 +179,6 @@ By understanding and leveraging these regulations, you can **strengthen your leg
 Remember, seeking legal recourse may involve time, effort, and potentially financial resources. Assess your situation and consult with professionals to make an informed decision about pursuing legal action.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

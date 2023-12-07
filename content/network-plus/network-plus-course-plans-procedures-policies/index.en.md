@@ -31,8 +31,6 @@ The key elements of change management include **change control**, **change autho
 
 By following change management best practices, organizations can minimize the risk of **downtime** and **service disruptions**, ensuring a stable network environment. CompTIA Network+ professionals are well-versed in change management principles and can effectively contribute to maintaining network stability.
 
-{{< inarticle-dark >}}
-
 ## Incident Response Plan, Disaster Recovery Plan, and Business Continuity Plan
 
 Preparing for potential network incidents, disasters, and disruptions is crucial for organizations. Three key plans that aid in this preparedness are the **incident response plan**, **disaster recovery plan**, and **business continuity plan**.
@@ -54,8 +52,6 @@ During the planning and design stages, network architects consider factors such 
 Once the network is operational, regular monitoring and maintenance activities are performed to **optimize performance**, **detect issues**, and **apply security updates**. These activities help sustain network functionality and prevent potential problems.
 
 Understanding the system life cycle is essential for network professionals, as it enables them to make informed decisions throughout the various stages of network operations. The CompTIA Network+ Certification Exam provides candidates with a solid understanding of the system life cycle and its implications for network management.
-
-{{< inarticle-dark >}}
 
 ## Standard Operating Procedures (SOPs) for Network Management
 

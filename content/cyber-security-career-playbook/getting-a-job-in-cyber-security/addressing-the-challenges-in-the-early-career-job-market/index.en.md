@@ -30,8 +30,6 @@ Many early career professionals fall victim to misleading marketing claims and m
 
 It is crucial to **question these claims** and consider the long-term implications before making career decisions. Instead of solely focusing on quick outcomes, early career professionals should prioritize acquiring **valuable skills** that are in demand and recognized by employers. Gaining practical experience through internships, volunteering, or joining professional organizations can significantly enhance one's chances of securing desirable employment.
 
-{{< inarticle-dark >}}
-
 ## Working Smart and Acquiring Valuable Skills
 
 In today's job market, working smart and acquiring valuable skills are essential for early career professionals to stand out from the competition. Employers increasingly value candidates with a diverse skill set, including both technical and soft skills. Therefore, it is crucial for students and young professionals to identify and develop skills that are relevant to their desired career paths.
@@ -67,8 +65,6 @@ While the early career job market may seem daunting, there are practical steps t
 3. **Prepare for interviews**: Practice common interview questions and conduct mock interviews to improve your confidence and communication skills. Research the company thoroughly before the interview to demonstrate your interest and knowledge.
 
 4. **Seek mentorship**: Find mentors in your desired field who can provide guidance and support. Mentors can offer valuable insights into the industry, share their experiences, and help you make informed career decisions.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

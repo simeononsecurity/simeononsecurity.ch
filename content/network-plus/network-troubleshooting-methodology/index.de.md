@@ -27,8 +27,6 @@ Während dieses Schritts ist es wichtig, die gesammelten Informationen zu dokume
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Eine Theorie der wahrscheinlichen Ursache aufstellen
 
 Sobald Sie die notwendigen Informationen gesammelt haben, besteht der nächste Schritt darin, eine **Theorie der wahrscheinlichen Ursache** aufzustellen. Dazu müssen Sie mehrere Ansätze in Betracht ziehen und das **OSI-Modell** als Rahmen für die Fehlersuche verwenden.
@@ -56,8 +54,6 @@ Nach der Bestätigung der Theorie über die Ursache besteht der nächste Schritt
 In einigen Fällen kann die Lösung Konfigurationsänderungen, den Austausch fehlerhafter Hardware oder die Aktualisierung von Firmware oder Software erfordern. Es ist von entscheidender Bedeutung, während des Fehlerbehebungsprozesses **beste Praktiken** zu befolgen und alle relevanten **Regierungsvorschriften** oder **Industriestandards** einzuhalten. Die Einhaltung von Vorschriften wie **PCI DSS**, **HIPAA** oder **GDPR** gewährleistet die Sicherheit und Integrität des Netzwerks.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Lösung umsetzen oder eskalieren
 

@@ -38,8 +38,6 @@ Zarządzanie zespołem ds. cyberbezpieczeństwa wymaga połączenia umiejętnoś
 4. **Finansowanie i administracja**: Liderzy cyberbezpieczeństwa muszą tworzyć i rozdzielać budżety bezpieczeństwa, identyfikując konkretne koszty bezpieczeństwa informacji i przydzielając określony budżet na każdy cel. Pomaga to zmaksymalizować skuteczność strategii bezpieczeństwa i zminimalizować ryzyko marnotrawstwa zasobów.
 
 5. **Znajomość prawa dotyczącego bezpieczeństwa informacji**: CISO i inni liderzy cyberbezpieczeństwa muszą być zaznajomieni z przepisami dotyczącymi bezpieczeństwa informacji, zgodności i wymogami regulacyjnymi obowiązującymi w ich lokalizacji. Obejmuje to przepisy takie jak **HIPAA**, **GDPR**, **CCPA**, **Homeland Security Act** i inne.
-
-{{< inarticle-dark >}}
 #### Nietechniczne umiejętności zarządzania zespołem ds. bezpieczeństwa informacji
 
 1. **Przywództwo i zarządzanie projektami**: Silne umiejętności przywódcze i zarządzania projektami są niezbędne do nadzorowania pracy specjalistów IT i cyberbezpieczeństwa. Skuteczne przywództwo przyczynia się do sukcesu infrastruktury bezpieczeństwa informacji organizacji poprzez strategiczne myślenie i efektywne delegowanie zadań.

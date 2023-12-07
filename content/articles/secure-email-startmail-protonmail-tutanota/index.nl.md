@@ -23,9 +23,7 @@ E-mails bevatten gevoelige informatie, zoals persoonlijke gegevens, financiële 
 
 Door services zoals [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) kunt u uw e-mailconversaties veilig houden en beschermen tegen potentiële cyberbedreigingen. Deze **veilige e-mailproviders** maken gebruik van **state-of-the-art encryptie** om uw waardevolle gegevens te beschermen en ervoor te zorgen dat alleen de beoogde ontvangers toegang hebben tot de inhoud.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Veilig en gebruikersgericht
 

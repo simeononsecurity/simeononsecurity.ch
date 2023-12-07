@@ -38,9 +38,7 @@ ______
    - Operațiuni criptografice.Migrare
    - Operațiuni criptografice.Register VM
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Adăugarea modulului virtual Trusted Platform Module (vTPM)
 
@@ -68,9 +66,7 @@ Activarea unui vTPM pentru mașina dvs. virtuală oferă mai multe beneficii sem
 
 3. **Suport pentru criptare BitLocker:** Dacă rulați un sistem de operare invitat Windows, activarea vTPM este o condiție prealabilă pentru utilizarea criptării BitLocker pe discurile mașinii virtuale. Acest lucru adaugă un nivel suplimentar de protecție a datelor.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Concluzie
 

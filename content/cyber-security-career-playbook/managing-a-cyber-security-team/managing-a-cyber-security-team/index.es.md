@@ -38,8 +38,6 @@ La gestión de un equipo de ciberseguridad requiere una combinación de competen
 4. **Financiación y administración**: Los responsables de la ciberseguridad deben crear y distribuir presupuestos de seguridad identificando los costes específicos de la seguridad de la información y asignando un presupuesto definido a cada objetivo. Esto ayuda a maximizar la eficacia de la estrategia de seguridad y a minimizar el riesgo de despilfarro de recursos.
 
 5. **Conocimiento de la Ley de Seguridad de la Información**: Los CISO y otros líderes de ciberseguridad deben estar familiarizados con las leyes de seguridad de la información, el cumplimiento y los requisitos reglamentarios aplicables en su ubicación. Esto incluye regulaciones como **HIPAA**, **GDPR**, **CCPA**, la **Homeland Security Act**, y otras.
-
-{{< inarticle-dark >}}
 #### Habilidades no técnicas para gestionar un equipo de seguridad de la información
 
 1. **Liderazgo y gestión de proyectos**: Unas sólidas aptitudes de liderazgo y gestión de proyectos son vitales para supervisar el trabajo de los profesionales de TI y ciberseguridad. Un liderazgo eficaz contribuye al éxito de la infraestructura de seguridad de la información de la organización mediante el pensamiento estratégico y la delegación eficiente.

@@ -21,8 +21,6 @@ PowerShell este un limbaj de scripting puternic și un cadru de automatizare dez
 
 Securitatea PowerShell implică protejarea scripturilor dumneavoastră, gestionarea controlului accesului și securizarea informațiilor sensibile, cum ar fi parolele și acreditările. Cele mai bune practici de securitate PowerShell cuprind mai multe domenii cheie, inclusiv **executarea scripturilor**, **semnarea codurilor**, **controlul accesului utilizatorilor** și **gestionarea parolelor**.
 
-{{< inarticle-dark >}}
-
 ## Cele mai bune practici pentru execuția scripturilor
 
 Când vine vorba de **executarea scripturilor**, există câteva bune practici pe care ar trebui să le urmați:
@@ -72,8 +70,6 @@ Parolele reprezintă un aspect critic al securității PowerShell, în special a
 Urmând aceste bune practici pentru securitatea parolelor, puteți consolida securitatea mediului PowerShell și vă puteți proteja împotriva accesului neautorizat și a încălcărilor de date.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Concluzie
 

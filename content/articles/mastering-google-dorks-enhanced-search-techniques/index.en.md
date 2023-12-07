@@ -47,8 +47,6 @@ To perform even more precise searches, you can combine multiple operators in a s
 Google Dorks also allow you to exclude specific terms from your search results using the minus ("-") operator. **If you're interested in travel tips but want to exclude results related to air travel, you can use the query `travel tips -air`**. This will filter out any pages containing the term "air" from your results.
 
 ______
-
-{{< inarticle-dark >}}
 ______
 
 ## Conclusion

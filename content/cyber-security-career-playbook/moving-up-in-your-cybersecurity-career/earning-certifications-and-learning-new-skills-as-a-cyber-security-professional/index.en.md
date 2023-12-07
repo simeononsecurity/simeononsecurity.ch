@@ -29,8 +29,6 @@ To learn more about learning resources and training platforms, please see the fo
 - [Cybersecurity Training: Online Programs and Video Courses for Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
 - [SimeonOnSecurity's Recommended Books](/recommendations/books)
 - [SimeonOnSecurity's Recommended Learning Resources](/recommendations/learning_resources)
-
-{{< inarticle-dark >}}
 ## Popular Cybersecurity Certifications:
 
 Obtaining **cybersecurity certifications** can significantly boost a professional's credentials and demonstrate their expertise in specific areas of cybersecurity. Here are some popular certifications that are highly regarded in the industry:

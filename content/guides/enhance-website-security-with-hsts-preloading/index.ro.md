@@ -21,8 +21,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Cerințe de prezentare**
@@ -83,8 +81,6 @@ Includerea în lista de preîncărcare este o **decizie permanentă** care nu po
 
 Asigurați-vă că ați evaluat cu atenție implicațiile înainte de a lua această decizie importantă.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

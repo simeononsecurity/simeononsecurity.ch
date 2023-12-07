@@ -17,8 +17,6 @@ Rețelele fără fir joacă un rol crucial în lumea noastră interconectată, p
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Explorarea diferitelor standarde 802.11
 
 Standardele 802.11, cunoscute sub numele de Wi-Fi, definesc specificațiile pentru rețelele locale fără fir (WLAN).
@@ -54,8 +52,6 @@ Rețelele wireless sunt împărțite în canale, iar canalele disponibile pot va
 **Channel Bonding**: Channel bonding permite agregarea mai multor canale pentru a crește lățimea de bandă totală disponibilă pentru transmiterea de date. Îmbunătățește performanța rețelei prin permiterea unor viteze de transfer de date mai mari.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Prezentare generală a tipurilor de antene, a standardelor de criptare și a configurațiilor SSID
 

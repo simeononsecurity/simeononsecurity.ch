@@ -23,8 +23,6 @@ El propósito del manual es implementar políticas, asignar responsabilidades y 
 ## Aplicabilidad
 
 El manual se aplica a todo el personal del DoD asignado a puestos que requieren el desempeño de trabajo ciberespacial como se identifica en DoDI 8140.02. El manual también es aplicable a OSD, los Departamentos Militares, la Oficina del CJCS y el Estado Mayor Conjunto, los Comandos Combatientes, la Oficina del Inspector General del Departamento de Defensa, las Agencias de Defensa, las Actividades de Campo del DoD, y todas las demás entidades organizativas dentro del DoD.
-
-{{< inarticle-dark >}}
 ## Responsabilidades
 
 En la Sección 2 del manual se describen las responsabilidades de diversas entidades en la gestión de la fuerza de trabajo del ciberespacio. Las siguientes son algunas de las responsabilidades destacadas:
@@ -83,8 +81,6 @@ Las áreas de cualificación de residentes son específicas de un rol de trabajo
 
 El DoD debe tener conocimiento de sus requisitos de posición de la fuerza de trabajo del ciberespacio y proporcionar personal cualificado y listo para gestionar la fuerza de trabajo del ciberespacio con eficacia y eficiencia. Deben utilizarse los sistemas existentes de recursos humanos y de personal para satisfacer las necesidades de información y de personal.
 
-
-{{< inarticle-dark >}}
 ## Conclusión
 
 El Programa de cualificación y gestión de la fuerza de trabajo del ciberespacio del DoD está diseñado para desarrollar y mantener una fuerza de trabajo del ciberespacio cualificada y capacitada que pueda operar en coordinación con los combatientes, las empresas y los propietarios de sistemas de misión. Este programa describe las cualificaciones requeridas para cada rol de trabajo DCWF hasta tres niveles de competencia.

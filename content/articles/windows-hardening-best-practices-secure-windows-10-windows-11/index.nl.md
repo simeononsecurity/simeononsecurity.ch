@@ -227,8 +227,6 @@ Vergeet niet dat regelmatige back-ups cruciaal zijn om je gegevens te beschermen
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Het inschakelen van Windows Automatisch Onderhoud zorgt ervoor dat uw systeem ge
 Raadpleeg voor meer gedetailleerde informatie over Windows automatisch onderhoud en de configuratieopties de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusie
 

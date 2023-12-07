@@ -27,8 +27,6 @@ Explore SimeonOnSecurity's expert recommendations for various security and priva
 - ### [VPN Providers](/recommendations/vpns)
 - ### [Webcams](/recommendations/webcams)
 
-{{< inarticle-dark >}}
-
 ## Resource Recommendations
 - ### [Books](/recommendations/books)
 - ### [Certifications](/recommendations/certifications)

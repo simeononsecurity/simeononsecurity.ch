@@ -227,8 +227,6 @@ Ricordate che i backup regolari sono fondamentali per salvaguardare i vostri dat
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ L'attivazione della Manutenzione automatica di Windows garantisce che il sistema
 Per informazioni più dettagliate sulla Manutenzione automatica di Windows e sulle sue opzioni di configurazione, consultare il sito ufficiale di Windows. [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusione
 

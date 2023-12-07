@@ -94,8 +94,6 @@ When transferring virtual card numbers to physical cards, it's essential to main
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Conclusion
 
 Privacy.com virtual card numbers offer robust security for online transactions. However, having the option to convert these virtual numbers to physical cards provides added flexibility and convenience, especially when dealing with merchants that don't accept virtual cards. By following the simple process outlined above, you can enjoy the best of both worlds: online security and in-person convenience.

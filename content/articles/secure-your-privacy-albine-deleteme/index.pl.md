@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Potrzeba rozwiązań w zakresie prywatności danych
@@ -76,8 +74,6 @@ Usunięcie danych osobowych z publicznych baz danych może być szczególnie kor
 Świadomość, że niezawodna usługa, taka jak [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) aktywnie chroni ich dane, zapewniając użytkownikom spokój ducha. Mogą oni przeglądać Internet i angażować się w działania online bez obaw, że ich dane zostaną niewłaściwie wykorzystane.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

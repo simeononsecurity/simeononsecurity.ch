@@ -28,8 +28,6 @@ Aby rozpocząć wydobywanie Spacemesh za pomocą wielu procesorów graficznych, 
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Krok 1: Konfiguracja zmiennych
 
 Otwórz edytor tekstu lub edytor skryptów PowerShell i ustaw konfigurowalne zmienne zgodnie ze swoimi wymaganiami.
@@ -48,8 +46,6 @@ Dostarczony skrypt zawiera już kilka zmiennych, które można dostosować, ale 
 - `$numUnits` Ustaw liczbę jednostek pamięci do wydobycia. Domyślną wartością jest 16.
 
 - `$datadir` Ustaw ścieżkę do katalogu danych, w którym będą przechowywane dane wydobywcze.
-
-{{< inarticle-dark >}}
 
 ### Krok 2: Wykonanie skryptu
 

@@ -21,8 +21,6 @@ Il **preloading HSTS** è il processo di **sottoposizione del dominio del vostro
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Requisiti di presentazione**
@@ -83,8 +81,6 @@ L'inclusione nell'elenco di precaricamento è una **decisione permanente** che n
 
 Assicuratevi di aver valutato attentamente le implicazioni prima di prendere questa importante decisione.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

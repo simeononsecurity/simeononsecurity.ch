@@ -66,8 +66,6 @@ Beurteilen Sie, welche **Informationen** weitergegeben wurden und wie sie Ihnen 
 Denken Sie daran, dass es das Ziel ist, **ruhig und überlegt** zu reagieren und sicherzustellen, dass Ihre Maßnahmen die Auswirkungen des Doxxing-Vorfalls wirksam abmildern.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Dokumentieren Sie die Doxxing-Beweise
 
 Es ist von entscheidender Bedeutung, **Beweise** für den Doxxing-Vorfall für spätere Referenzen zu sammeln. Machen Sie **Screenshots** oder speichern Sie Kopien von allen Beiträgen, Nachrichten oder Websites, die die von Ihnen veröffentlichten Informationen enthalten. Diese Beweise werden wertvoll sein, wenn Sie beschließen, den Vorfall **den Strafverfolgungsbehörden zu melden** oder rechtliche Schritte gegen den Doxxer einzuleiten.
@@ -181,8 +179,6 @@ Indem Sie diese Vorschriften verstehen und nutzen, können Sie Ihre **Rechtsposi
 Denken Sie daran, dass die Suche nach Rechtsmitteln Zeit, Mühe und möglicherweise auch finanzielle Mittel erfordert. Beurteilen Sie Ihre Situation und lassen Sie sich von Fachleuten beraten, um eine fundierte Entscheidung über die Einleitung rechtlicher Schritte zu treffen.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Schlussfolgerung
 

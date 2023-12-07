@@ -102,8 +102,6 @@ Utilize the built-in monitoring tools and logs in pfSense to keep an eye on netw
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Conclusion

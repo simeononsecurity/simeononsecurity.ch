@@ -91,8 +91,6 @@ Pentru a gestiona eficient un mediu Active Directory (AD), este esențial să re
 
 Prin utilizarea acestor cmdlet-uri puternice, puteți prelua cu ușurință informații specifice despre utilizatorii, grupurile și OU-urile AD, permițând administrarea și gestionarea eficientă a mediului Active Directory.
 
-{{< inarticle-dark >}}
-
 
 Aceste cmdlet-uri vă permit să preluați atribute specifice, să filtrați rezultatele și să efectuați interogări avansate pentru a obține informațiile dorite.
 
@@ -126,8 +124,6 @@ Atunci când lucrați cu Active Directory (AD), modulul Active Directory din Pow
 
 Prin utilizarea acestor cmdlet-uri, puteți crea cu ușurință noi utilizatori, grupuri și OU-uri AD cu proprietățile și configurațiile dorite, permițând gestionarea eficientă a mediului Active Directory.
 
-{{< inarticle-dark >}}
-
 
 ### Modificarea obiectelor Active Directory
 
@@ -158,8 +154,6 @@ Când vine vorba de modificarea proprietăților și atributelor obiectelor Acti
   Această comandă va actualiza descrierea OU specificată în ierarhia Active Directory.
 
 Prin utilizarea acestor cmdlet-uri, puteți modifica cu ușurință proprietățile și atributele obiectelor AD, efectuând actualizările și ajustările necesare pentru a satisface cerințele organizației dumneavoastră.
-
-{{< inarticle-dark >}}
 
 
 ### Gestionarea securității Active Directory
@@ -227,8 +221,6 @@ Cu ajutorul modulului Active Directory, puteți efectua o gamă largă de opera�
 Prin utilizarea **PowerShell** și a **Modul Active Directory**, vă puteți spori capacitățile de administrare AD și puteți îmbunătăți eficiența proceselor de gestionare AD. Indiferent dacă sunteți administrator de sistem, profesionist IT sau manager Active Directory, modulul Active Directory vă echipează cu instrumentele necesare pentru a vă administra eficient infrastructura AD.
 
 Profitați de puterea **PowerShell** și a **Modul Active Directory** pentru a vă eficientiza sarcinile de administrare AD, pentru a crește productivitatea și pentru a menține un mediu Active Directory sigur și bine organizat.
-
-{{< inarticle-dark >}}
 
 ## Referințe
 

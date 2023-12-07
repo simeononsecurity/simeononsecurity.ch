@@ -29,9 +29,7 @@ Wenn Sie sich für privates Webhosting entscheiden, können Sie von folgenden Vo
 - **Anonyme Domainregistrierung** zum **Schutz der eigenen Identität**.
 - **Verschlüsselung** und andere **Sicherheitsmaßnahmen** zum **Schutz sensibler Informationen**.
 - **Sprachfreiheit** und **Inhalte ohne Angst vor Zensur**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 Wie auch OrangeWebsite unterliegt **1984 dem isländischen Rechtsrahmen**, der dem **Schutz der Privatsphäre und der freien Meinungsäußerung** förderlich ist.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

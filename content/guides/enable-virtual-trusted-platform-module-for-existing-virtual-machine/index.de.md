@@ -38,9 +38,7 @@ Bevor Sie mit dem Hinzufügen eines vTPM zu Ihrer virtuellen Maschine fortfahren
    - Kryptografische Vorgänge.Migrieren
    - Verschlüsselungsvorgänge.VM registrieren
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Hinzufügen des virtuellen vertrauenswürdigen Plattformmoduls (vTPM)
 
@@ -68,9 +66,7 @@ Die Aktivierung eines vTPM für Ihre virtuelle Maschine bietet mehrere bedeutend
 
 3. **Unterstützung der BitLocker-Verschlüsselung:** Wenn Sie ein Windows-Gastbetriebssystem ausführen, ist die Aktivierung von vTPM eine Voraussetzung für die Verwendung der BitLocker-Verschlüsselung auf den Festplatten der virtuellen Maschine. Dadurch wird eine zusätzliche Ebene des Datenschutzes geschaffen.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Schlussfolgerung
 

@@ -38,8 +38,6 @@ La gestione di un team di cybersecurity richiede un mix di competenze tecniche e
 4. **Finanziamento e amministrazione**: I responsabili della sicurezza informatica devono creare e distribuire i budget per la sicurezza, identificando i costi specifici della sicurezza informatica e assegnando un budget definito a ciascun obiettivo. Questo aiuta a massimizzare l'efficacia della strategia di sicurezza e a minimizzare il rischio di spreco di risorse.
 
 5. **Conoscenza della legge sulla sicurezza informatica**: I CISO e gli altri leader della cybersecurity devono conoscere le leggi, la conformità e i requisiti normativi in materia di sicurezza delle informazioni applicabili nella loro sede. Ciò include regolamenti quali **HIPAA**, **GDPR**, **CCPA**, **Homeland Security Act** e altri.
-
-{{< inarticle-dark >}}
 #### Competenze non tecniche per la gestione di un team di sicurezza informatica
 
 1. **Leadership e gestione dei progetti**: Forti capacità di leadership e di gestione dei progetti sono fondamentali per supervisionare il lavoro dei professionisti dell'IT e della cybersecurity. Una leadership efficace contribuisce al successo dell'infrastruttura di sicurezza informatica dell'organizzazione attraverso un pensiero strategico e una delega efficiente.

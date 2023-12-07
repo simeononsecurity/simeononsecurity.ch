@@ -55,8 +55,6 @@ Los protocolos de enrutamiento vectorial de distancia, como RIP, utilizan una m�
 
 Los protocolos de enrutamiento híbridos, como EIGRP, combinan las características de los protocolos de estado de enlace y vector distancia. Mantienen una tabla de topología similar a la de los protocolos de estado de enlace, pero utilizan algoritmos de vector distancia para calcular las rutas. Los protocolos híbridos ofrecen las ventajas de una convergencia más rápida y una sobrecarga reducida.
 
-{{< inarticle-dark >}}
-
 ## Enrutamiento estático y rutas por defecto
 
 El enrutamiento estático implica la configuración manual de la tabla de enrutamiento en los routers, especificando las rutas para llegar a redes específicas. Se suele utilizar en escenarios en los que los cambios en la topología de la red son mínimos o predecibles. Las rutas estáticas son fáciles de configurar y pueden ser útiles para redes pequeñas o segmentos de red específicos.
@@ -90,8 +88,6 @@ La conformación del tráfico es una técnica utilizada para controlar la veloci
 ### Calidad de servicio (QoS)
 
 La calidad de servicio (QoS) se refiere a la capacidad de una red para priorizar y asignar recursos a diferentes tipos de tráfico en función de su importancia y requisitos. Los mecanismos de QoS, como la priorización del tráfico, la asignación de ancho de banda y la gestión de la congestión, ayudan a garantizar un rendimiento óptimo para aplicaciones en tiempo real como voz y vídeo.
-
-{{< inarticle-dark >}}
 
 ## Comparación y colocación de dispositivos
 

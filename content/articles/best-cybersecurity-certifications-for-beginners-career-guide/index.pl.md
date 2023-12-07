@@ -39,8 +39,6 @@ Aby zwiększyć swoje przygotowanie do certyfikacji CompTIA Network+, możesz uz
 
 ______
 
-{{< inarticle-dark >}}
-
 ## [CompTIA Security+](https://www.comptia.org/certifications/security)
 
 The [**CompTIA Security+ certification**](https://www.comptia.org/certifications/security) to powszechnie uznawany certyfikat na poziomie podstawowym, który koncentruje się na podstawowych zasadach **cybersecurity**. Potwierdza podstawowe umiejętności wymagane do wykonywania podstawowych funkcji bezpieczeństwa i kontynuowania kariery w zakresie bezpieczeństwa informacji. Certyfikacja ta obejmuje takie tematy, jak **zagrożenia, podatności, kryptografia, kontrola dostępu, zarządzanie tożsamością** oraz **technologie i narzędzia bezpieczeństwa**.
@@ -91,8 +89,6 @@ Dla początkujących ważne jest, aby zdobyć praktyczne doświadczenie i kontyn
 
 Aby uzyskać więcej informacji na temat podstawowych stanowisk związanych z cyberbezpieczeństwem i jak się do nich przygotować, odwiedź stronę [this link](https://simeononsecurity.com/cyber-security-career-playbook-start) Ten zasób zapewnia wgląd w umiejętności i kwalifikacje wymagane na stanowiskach podstawowych i oferuje wskazówki, jak wyróżnić się na rynku pracy.
 ______
-
-{{< inarticle-dark >}}
 
 ## Wnioski
 

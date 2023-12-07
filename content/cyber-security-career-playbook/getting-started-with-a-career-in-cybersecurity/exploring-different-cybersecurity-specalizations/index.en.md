@@ -53,9 +53,7 @@ Key skills for cloud security specialists include:
 
 Relevant regulation: [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
 
-______
-{{< inarticle-dark >}}
-## Application Security
+______## Application Security
 
 **Application security** focuses on securing software applications throughout their lifecycle, from development to deployment. This specialization aims to identify and mitigate vulnerabilities in software code, protecting against potential exploitation. Application security professionals employ various techniques such as **secure coding practices**, **penetration testing**, and **code review** to ensure the integrity of applications.
 
@@ -234,8 +232,6 @@ Key skills for cybersecurity education and training specialists include:
 Relevant regulation: [Family Educational Rights and Privacy Act (FERPA)](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 
 ______
-
-{{< inarticle-dark >}}
 ## Conclusion
 
 In conclusion, the field of cybersecurity offers a diverse range of specializations, each requiring specific skills and expertise. Whether you are interested in network security, cloud security, application security, data privacy and compliance, incident response and digital forensics, or other specializations, there are ample opportunities to pursue a rewarding career in cybersecurity. By acquiring the necessary skills and staying updated with the latest trends and regulations, you can make a valuable contribution in safeguarding digital assets and protecting organizations from cyber threats.

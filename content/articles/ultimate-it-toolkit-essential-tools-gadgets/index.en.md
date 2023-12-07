@@ -119,6 +119,4 @@ ______
 13. [Sony WH-1000XM4](https://amzn.to/3FqtGRf)
 14. [Fluke Networks CableIQ](https://amzn.to/3rI2zxz)
 
-{{< inarticle-dark >}}
-
 As IT professionals continue to play a pivotal role in shaping the digital landscape, equipping themselves with the right tools and gadgets ensures they are always prepared to meet the challenges of the modern IT world.

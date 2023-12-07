@@ -66,8 +66,6 @@ Evalúe qué **información** ha sido **filtrada** y cómo puede **perjudicarle*
 Recuerda, el objetivo es responder de una manera **calmada y calculada**, asegurándote de que tus acciones son efectivas para mitigar el impacto del incidente de doxxing.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Documentar las pruebas del doxxing
 
 Es crucial **recopilar pruebas** del incidente de doxxing para futuras referencias. Haz **capturas de pantalla** o guarda copias de cualquier publicación, mensaje o sitio web que contenga tu información expuesta. Estas pruebas serán valiosas si decides **denunciar el incidente** a las autoridades policiales o emprender acciones legales contra el autor del doxxing.
@@ -181,8 +179,6 @@ Si conoce y aprovecha esta normativa, podrá **fortalecer su posición jurídica
 Recuerde que buscar un recurso legal puede implicar tiempo, esfuerzo y, potencialmente, recursos financieros. Evalúe su situación y consulte con profesionales para tomar una decisión informada sobre la posibilidad de emprender acciones legales.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusión
 

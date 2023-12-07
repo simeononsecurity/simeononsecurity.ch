@@ -41,8 +41,6 @@ Gdy urządzenie uzyskuje adres IP z serwera DHCP, robi to na określony czas zwa
 
 W większych sieciach agenci przekazywania DHCP lub adresy pomocnicze IP są używane do przekazywania żądań i odpowiedzi DHCP między klientami DHCP a serwerami znajdującymi się w różnych podsieciach. Umożliwia to centralizację usług DHCP i zapewnia wydajną alokację adresów IP w wielu segmentach sieci.
 
-{{< inarticle-dark >}}
-
 ## DNS: Tłumaczenie nazw na adresy IP
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP działa w oparciu o hierarchiczny model zwany warstwą. Warstwa 0 reprezentu
 ### Klienci i serwery
 
 W infrastrukturze NTP klienci wysyłają zapytania do serwerów NTP w celu uzyskania dokładnych informacji o czasie. Serwery NTP utrzymują dokładne odniesienia czasowe i świadczą usługi synchronizacji dla klientów.
-
-{{< inarticle-dark >}}
 
 ## Architektura sieci korporacyjnych i centrów danych
 

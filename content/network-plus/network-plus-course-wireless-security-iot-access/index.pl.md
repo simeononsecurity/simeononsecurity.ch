@@ -21,8 +21,6 @@ Jednym z podstawowych aspektów **bezpieczeństwa sieci bezprzewodowych** jest w
 
 Oprócz filtrowania adresów MAC, właściwe rozmieszczenie anten jest niezbędne do optymalizacji zasięgu i bezpieczeństwa sieci bezprzewodowej. Umieszczając anteny strategicznie i unikając przeszkód, można zminimalizować wyciek sygnału i nieautoryzowany dostęp.
 
-{{< inarticle-dark >}}
-
 ## Ustawianie odpowiednich poziomów mocy dla sieci bezprzewodowych
 
 Ustawienie odpowiednich poziomów mocy dla sieci bezprzewodowych ma kluczowe znaczenie dla zachowania bezpieczeństwa. Jeśli poziom mocy jest ustawiony zbyt wysoko, sygnał może wykraczać poza pożądany obszar zasięgu, zwiększając ryzyko nieautoryzowanego dostępu. Z kolei ustawienie zbyt niskiego poziomu mocy może skutkować słabą wydajnością sieci i ograniczonym zasięgiem.
@@ -46,8 +44,6 @@ Z drugiej strony, EAP jest strukturą uwierzytelniania, która zapewnia bardziej
 Geofencing i captive portal to zaawansowane techniki, które mogą dodatkowo zwiększyć bezpieczeństwo sieci bezprzewodowej. Geofencing obejmuje definiowanie wirtualnych granic i ograniczanie dostępu do sieci w oparciu o lokalizację geograficzną urządzeń. Jest to szczególnie przydatne w scenariuszach, w których sieć powinna być dostępna tylko w określonym obszarze fizycznym.
 
 Z drugiej strony, Captive Portal to strona internetowa, która prosi użytkowników o uwierzytelnienie lub wyrażenie zgody na warunki przed uzyskaniem dostępu do sieci. Zapewnia dodatkową warstwę bezpieczeństwa i kontroli, zapewniając, że tylko autoryzowani użytkownicy mogą łączyć się z siecią bezprzewodową.
-
-{{< inarticle-dark >}}
 
 ## Rozważania dotyczące dostępu do IoT i zabezpieczania urządzeń IoT
 

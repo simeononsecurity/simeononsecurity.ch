@@ -41,8 +41,6 @@ Lorsqu'un appareil obtient une adresse IP d'un serveur DHCP, il le fait pour une
 
 Dans les grands réseaux, les agents de relais DHCP ou les adresses IP Helper sont utilisés pour transmettre les demandes et les réponses DHCP entre les clients et les serveurs DHCP situés dans des sous-réseaux différents. Cela permet de centraliser les services DHCP et d'assurer une attribution efficace des adresses IP sur plusieurs segments du réseau.
 
-{{< inarticle-dark >}}
-
 ## DNS : Traduire les noms en adresses IP
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP fonctionne sur la base d'un modèle hiérarchique appelé strate. La strate 
 ### Clients et serveurs
 
 Dans une infrastructure NTP, les clients interrogent les serveurs NTP pour obtenir des informations temporelles précises. Les serveurs NTP conservent des références temporelles précises et fournissent des services de synchronisation aux clients.
-
-{{< inarticle-dark >}}
 
 ## Architecture des réseaux d'entreprise et des centres de données
 

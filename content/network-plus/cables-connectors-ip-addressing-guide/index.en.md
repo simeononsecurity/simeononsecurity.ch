@@ -106,8 +106,6 @@ IP addressing is a fundamental aspect of network communication, enabling devices
 - **Stateless Address Autoconfiguration (SLAAC)** is an IPv6 feature that enables devices to configure their addresses automatically without the need for manual configuration.
 
 ______
-
-{{< inarticle-dark >}}
 ## Configuring Subnets and Understanding IP Addressing Schemes
 
 Subnets and IP addressing schemes are fundamental concepts in networking. Configuring subnets allows for efficient use of IP addresses and helps in network management. Here's an overview of subnet configuration and IP addressing schemes:
@@ -139,8 +137,6 @@ To configure a subnet, you need to determine the network address, subnet mask, a
 {{< youtube id="ZxAwQB8TZsM" >}}
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

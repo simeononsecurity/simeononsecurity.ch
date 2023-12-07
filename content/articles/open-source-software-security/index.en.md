@@ -83,9 +83,7 @@ ______
 In the ever-evolving landscape of cybersecurity, the importance of **trust** cannot be overstated. Open source software, with its core principles of transparency, active collaboration, and a global community dedicated to safeguarding against potential threats, cultivates trust among users. In contrast, while proprietary software frequently exhibits reliability, it may face challenges in responding to vulnerabilities with the same urgency.
 
 This underscores the critical role trust plays in the cybersecurity ecosystem.
-______
-{{< inarticle-dark >}}
-______
+
 
 
 ## Conclusion

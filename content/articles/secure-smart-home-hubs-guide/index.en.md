@@ -20,9 +20,7 @@ In an era where home automation is becoming ubiquitous, the importance of safegu
 
 The allure of home automation lies in its ability to grant homeowners remote control and unprecedented convenience. However, this newfound control brings forth valid concerns about the security of our connected devices. **Prioritizing the security of your smart home ecosystem** is not just advisable, but necessary to thwart unauthorized access, data breaches, and potential misuse of your personal information.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Handpicked Secure Smart Home Hubs and Controllers
 
@@ -109,9 +107,7 @@ Benefits:
 - Advanced security framework to guarantee the confidentiality of your data
 - Mesh network architecture for expanded coverage and unswerving reliabilit
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## In Conclusion
 

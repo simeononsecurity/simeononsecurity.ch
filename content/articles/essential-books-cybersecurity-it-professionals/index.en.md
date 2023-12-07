@@ -15,9 +15,7 @@ coverCaption: "Unlock Brilliance: Master Cybersecurity, Code, and Automation wit
 
 In the rapidly evolving realms of Cybersecurity, Automation, Programming, and IT, continuous learning is not just an advantage – it's a necessity. As technology advances, staying updated with the latest trends, techniques, and best practices is crucial for professionals in these fields. One of the most effective ways to acquire in-depth knowledge and skills is through reading. In this article, we've meticulously curated a selection of **must-read books** tailored to the needs of Cybersecurity and IT professionals. Whether you're looking to sharpen your cybersecurity strategies, delve into programming languages, or master automation techniques, this list has you covered.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Navigating Cybersecurity Waters
 
@@ -72,9 +70,7 @@ ______
 ### ["Open Source Intelligence Techniques" by Michael Bazzell](https://amzn.to/39zbWlV)
 Develop your Open-Source Intelligence (OSINT) skills and learn how to gather critical information for cybersecurity purposes. This book is a valuable asset for professionals seeking to harness the power of OSINT.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion: Your Path to Expertise
 

@@ -39,8 +39,6 @@ El marco NICE define siete categorías de alto nivel que abarcan las diversas fu
 - Analizar**: Esta categoría se centra en el análisis de datos e información de ciberseguridad para identificar y comprender amenazas, vulnerabilidades y riesgos.
 - Recopilar y gestionar: Esta categoría implica la recopilación y gestión de datos relacionados con la ciberseguridad y el funcionamiento de sistemas e infraestructuras de ciberseguridad.
 - Investigar**: Esta categoría abarca las actividades relacionadas con la investigación y la respuesta a incidentes de ciberseguridad, incluida la detección, el análisis y la recuperación de incidentes.
-
-{{< inarticle-dark >}}
 #### 2. Áreas de especialidad
 
 Dentro de cada categoría, el marco NICE desglosa aún más las funciones y responsabilidades en áreas de especialidad. Estas áreas de especialidad proporcionan una comprensión más detallada de las tareas y habilidades específicas necesarias para cumplir los objetivos de ciberseguridad dentro de cada categoría. Algunos ejemplos de áreas de especialidad incluyen:
@@ -83,9 +81,7 @@ Para obtener más información sobre el Marco de Ciberseguridad de NICE y sus be
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Implantación del Marco de Ciberseguridad NICE
+______## Implantación del Marco de Ciberseguridad NICE
 
 Ahora que entendemos la importancia y los beneficios del Marco de Ciberseguridad de NICE, vamos a profundizar en los pasos prácticos para implementarlo eficazmente dentro de una organización:
 

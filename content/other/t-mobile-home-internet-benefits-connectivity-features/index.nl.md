@@ -35,8 +35,6 @@ Als je al klant bent bij T-Mobile, integreert hun internetdienst voor thuisgebru
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Beschikbaarheid van T-Mobile internet voor thuisgebruik**
 
 T-Mobile's service voor thuisinternet breidt zijn dekking over het hele land uit. Het maakt gebruik van T-Mobile's robuuste 4G- en 5G-netwerken om internetconnectiviteit te bieden in gebieden waar traditionele bekabelde verbindingen mogelijk beperkt zijn. Om te controleren of T-Mobile thuisinternet beschikbaar is in jouw regio, kun je naar hun [website](https://www.t-mobile.com/coverage/coverage-map) or contact their [customer support](https://www.t-mobile.com/customers/customer-care)
@@ -90,8 +88,6 @@ T-Mobile biedt hulpmiddelen en ondersteuning om klanten te helpen hun beveiligin
 T-Mobile doet er alles aan om de veiligheid van hun netwerkinfrastructuur en internetdienst voor thuisgebruik te handhaven. Ze controleren hun systemen regelmatig op mogelijke kwetsbaarheden en passen de nodige updates en patches toe om het hoogste beveiligingsniveau voor hun klanten te garanderen.
 
 ______
-
-{{< inarticle-dark >}}
 ## **Overheidsregels en T-Mobile internet voor thuisgebruik**
 
 Als verantwoordelijke provider houdt T-Mobile zich aan overheidsvoorschriften om consumentenbescherming, privacy en eerlijke praktijken te waarborgen. Hier volgen enkele belangrijke overheidsvoorschriften met betrekking tot thuisinternetdiensten:

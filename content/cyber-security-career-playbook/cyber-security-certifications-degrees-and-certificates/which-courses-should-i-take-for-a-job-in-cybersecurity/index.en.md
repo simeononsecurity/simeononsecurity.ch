@@ -30,8 +30,6 @@ Before diving into the specialized realm of cybersecurity, it is crucial to esta
 
 5. **Business Enablement:** Understand how IT systems positively contribute to the operations of businesses, enabling you to connect IT concepts to real-world organizational needs.
 
-{{< inarticle-dark >}}
-
 ## Cybersecurity Foundations: Mapping the Field
 
 Once you have a solid understanding of IT, you can move on to specialized knowledge in cybersecurity. The Cybersecurity Foundations course provides a comprehensive overview of the field, giving you a roadmap to further your studies and build a successful career. Here are the key areas covered in this course:
@@ -72,8 +70,6 @@ In the dynamic field of cybersecurity, it is essential to stay updated with the 
 - **Common Vulnerabilities and Exposures (CVE) Series**: These courses focus on securing virtual environments and protecting them against critical vulnerabilities. You'll practice identifying and mitigating common security flaws.
 
 Continuously updating your knowledge and skills through these resources will keep you at the forefront of cybersecurity and make you a valuable asset to organizations.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

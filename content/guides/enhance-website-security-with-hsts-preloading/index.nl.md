@@ -21,8 +21,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 **Inzendvereisten**
@@ -83,8 +81,6 @@ Opname in de preloadlijst is een **permanente beslissing** die niet gemakkelijk 
 
 Zorg ervoor dat je de implicaties zorgvuldig hebt geëvalueerd voordat je deze belangrijke beslissing neemt.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

@@ -47,8 +47,6 @@ In conclusion, **documentation** is of utmost importance in an organizational co
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Common Documentation in Network Management
 
 Let's now explore some common types of documentation that are essential for effective network management:
@@ -88,8 +86,6 @@ A **Memorandum of Understanding** (MOU) is a document that outlines the broad te
 These agreements play a vital role in network management by ensuring **confidentiality**, defining service **performance** expectations, and establishing cooperative relationships. By adhering to these agreements, organizations can protect their sensitive information, maintain high-quality services, and foster effective collaboration.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

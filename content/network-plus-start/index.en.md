@@ -69,8 +69,6 @@ coverCaption: "Empower Your Networking Career"
 
 -----
 
-{{< inarticle-dark >}}
-
 ## Objective 2: Network Implementations
 
 {{< figure src="network-devices-management.png" alt="An image depicting a network technician managing a control panel with various networking devices, such as routers, switches, and access points. The technician is connecting cables, configuring settings, and optimizing network performance. The devices are labeled and color-coded for clarity." caption="Mastering the Network: Efficient Management of Networking Devices." >}}
@@ -174,9 +172,7 @@ coverCaption: "Empower Your Networking Career"
 - Implementing redundancy and high availability (HA/) mechanisms
 - MTTR, MTBF, RTO, and RPO in network operations
 
------
-{{< inarticle-dark >}}
-## Objective 4: Network Network Security
+-----## Objective 4: Network Network Security
 
 {{< figure src="network-security-administration.png" alt="An image illustrating a network administrator configuring a network firewall, implementing access control lists (ACLs), and managing patch and firmware updates on network devices. The administrator is working diligently to enhance network security and protect against vulnerabilities." caption="Strengthening Network Security: Administrator's Vigilance in Action." >}}
 

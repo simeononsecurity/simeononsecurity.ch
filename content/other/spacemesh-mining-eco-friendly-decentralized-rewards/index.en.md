@@ -22,9 +22,7 @@ ref: ["/other/efficient-spacemesh-mining-multiple-gpus-guide"]
 
 In this article, we will explore the ins and outs of Spacemesh mining, understand how it works, and discuss its advantages and potential challenges. Whether you are a seasoned crypto enthusiast or a newcomer to the world of cryptocurrencies, this guide will provide you with valuable insights into the fascinating world of Spacemesh mining.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## What is Spacemesh Mining?
 
@@ -84,9 +82,7 @@ The dynamic meshing process, while essential for decentralization, can introduce
 
 As more participants join the Spacemesh network, the competition for rewards may intensify. Meshers must carefully evaluate the cost of storage, electricity, and hardware against potential earnings to ensure mining remains profitable.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

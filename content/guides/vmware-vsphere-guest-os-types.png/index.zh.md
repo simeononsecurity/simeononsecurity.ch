@@ -15,8 +15,6 @@ cover: "/img/cover/vmware-vsphere-guest-os-types.png"
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## VMware vSphere Packer Builder 简介
@@ -139,8 +137,6 @@ ______
 总之，在将 Packer 与 VMware vSphere 结合使用时，**"guest_os_type "** 值是一个关键参数。它定义了要安装在虚拟机上的客户操作系统，并影响 vSphere 应用的配置。通过参考本文提供的有效值列表，用户可以在为各种用例创建虚拟机映像时做出明智的决定。
 
 请记住，要根据虚拟机的特定版本、体系结构和使用情况选择适当的操作系统类型。这样可以确保虚拟化环境获得最佳性能、兼容性和功能。
-
-{{< inarticle-dark >}}
 
 ______
 

@@ -43,8 +43,6 @@ To learn more about creating WMI filters and constructing WMI queries, you can r
 
 By utilizing WMI filtering in GPOs, administrators can effectively tailor the application of GPOs to specific computers or users based on dynamic conditions, enhancing the overall management and control of their IT environments.
 
-{{< inarticle-dark >}}
-
 ##  Creating WMI Filters for GPOs
 
 To create a WMI filter for a GPO, follow these steps:
@@ -94,8 +92,6 @@ WMI filtering in GPOs provides practical solutions for targeted policy applicati
 3. **Selective Policy Application Based on Disk Space**: To avoid applying resource-intensive policies on computers with limited disk space, you can create a WMI filter that checks available disk space. For example, using a query like `"SELECT * FROM Win32_LogicalDisk WHERE FreeSpace > 10737418240"`, you can exclude computers with less than 10 GB of free disk space from receiving certain policies.
 
 These examples illustrate the flexibility and power of **WMI filtering** in GPOs, allowing administrators to target policy application based on specific criteria.
-
-{{< inarticle-dark >}}
 
 ##  Conclusion
 

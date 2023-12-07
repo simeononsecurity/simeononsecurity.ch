@@ -29,9 +29,7 @@ Externalizarea în domeniul securității cibernetice se referă la practica de 
 
 Decizia de a externaliza sau nu securitatea cibernetică depinde de diverși factori, cum ar fi **dimensiunea companiei**, **amenințările de securitate cu care se confruntă**, **bugetul**, **modelul de afaceri** și **rezervajul de talente existent**. Pentru a lua o decizie în cunoștință de cauză, este esențial să luați în considerare acești factori în detaliu.
 
-______
-{{< inarticle-dark >}}
-### Factori de luat în considerare înainte de externalizare
+______### Factori de luat în considerare înainte de externalizare
 
 #### 1. Tipul de amenințări la adresa securității și nevoile de securitate cibernetică
 
@@ -120,9 +118,7 @@ Deși există numeroase avantaje ale externalizării securității cibernetice, 
 5. **Risc de întrerupere a serviciilor**: Dependența de un singur furnizor externalizat pentru serviciile critice de securitate cibernetică introduce riscul de întrerupere a serviciilor. În cazul în care compania de externalizare se confruntă cu probleme tehnice, probleme de personal sau întreruperi ale operațiunilor sale, acest lucru poate avea un impact asupra capacității organizației de a răspunde eficient la incidentele de securitate. Atenuarea acestui risc implică luarea în considerare a planurilor de rezervă, a redundanțelor și a garanțiilor contractuale privind disponibilitatea serviciilor.
 
 În general, externalizarea securității cibernetice poate aduce beneficii semnificative pentru organizații în ceea ce privește expertiza, rentabilitatea și
-______
-{{< inarticle-dark >}}
-### Cele mai bune practici pentru o externalizare eficientă
+______### Cele mai bune practici pentru o externalizare eficientă
 
 Pentru a asigura externalizarea cu succes a securității cibernetice, luați în considerare următoarele bune practici:
 

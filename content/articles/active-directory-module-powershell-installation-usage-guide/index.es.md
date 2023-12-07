@@ -91,8 +91,6 @@ Para administrar eficazmente un entorno de Active Directory (AD), es crucial rec
 
 Utilizando estos potentes cmdlets, puede recuperar fácilmente información específica sobre usuarios, grupos y OUs de AD, permitiendo una administración y gestión eficientes de su entorno de Active Directory.
 
-{{< inarticle-dark >}}
-
 
 Estos cmdlets permiten recuperar atributos específicos, filtrar resultados y realizar consultas avanzadas para obtener la información deseada.
 
@@ -126,8 +124,6 @@ Al trabajar con Active Directory (AD), el módulo Active Directory en PowerShell
 
 Aprovechando estos cmdlets, puede crear fácilmente nuevos usuarios, grupos y OUs de AD con las propiedades y configuraciones deseadas, permitiendo una gestión eficiente de su entorno de Active Directory.
 
-{{< inarticle-dark >}}
-
 
 ### Modificación de objetos de Active Directory
 
@@ -158,8 +154,6 @@ Cuando se trata de modificar las propiedades y atributos de objetos existentes d
   Este comando actualizará la descripción de la OU especificada en la jerarquía de Active Directory.
 
 Utilizando estos cmdlets, puede modificar fácilmente las propiedades y atributos de los objetos de AD, realizando las actualizaciones y ajustes necesarios para satisfacer los requisitos de su organización.
-
-{{< inarticle-dark >}}
 
 
 ### Managing Active Directory Security
@@ -227,8 +221,6 @@ Con el módulo Active Directory, puede realizar una amplia gama de operaciones, 
 Al aprovechar **PowerShell** y el módulo **Active Directory**, puede mejorar sus capacidades de administración de AD y mejorar la eficiencia de los procesos de administración de AD. Tanto si es administrador de sistemas, profesional de TI o gestor de Active Directory, el módulo Active Directory le proporciona las herramientas necesarias para gestionar eficazmente su infraestructura de AD.
 
 Aproveche la potencia de **PowerShell** y el **módulo Active Directory** para agilizar sus tareas de administración de AD, aumentar la productividad y mantener un entorno Active Directory seguro y bien organizado.
-
-{{< inarticle-dark >}}
 
 ## Referencias
 

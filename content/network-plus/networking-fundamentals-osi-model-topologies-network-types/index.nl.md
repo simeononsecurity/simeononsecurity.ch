@@ -37,8 +37,6 @@ Het **OSI (Open Systems Interconnection) model** is een conceptueel raamwerk dat
 
 7. **Laag 7 - Toepassing**: De applicatielaag vertegenwoordigt de eigenlijke netwerktoepassingen en -diensten die door eindgebruikers worden gebruikt. Deze laag biedt diensten zoals **email**, **bestandsoverdracht**, **webbrowsing** en **toegang op afstand**.
 
-{{< inarticle-dark >}}
-
 ### Gegevensinkapseling en -decapsulatie binnen de context van het OSI-model
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ Binnen de context van het OSI-model dragen de volgende elementen bij aan het ink
 - **Payload**: De payload zijn de gegevens die worden verzonden, zoals een webpagina, e-mailbericht of mediabestand.
 
 - Maximale transmissie-eenheid (MTU)**: MTU staat voor de maximale grootte van een gegevenspakket dat zonder fragmentatie over een netwerk kan worden verzonden.
-
-{{< inarticle-dark >}}
 
 ## Netwerk topologieën en hun kenmerken onderzoeken
 
@@ -140,8 +136,6 @@ Een **storage area network (SAN)** is een gespecialiseerd netwerk dat ontworpen 
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
 **Multipoint Generic Routing Encapsulation (mGRE)** is een techniek die wordt gebruikt om virtuele privénetwerken (VPN's) te maken door gegevenspakketten in te kapselen en ze over een multipuntsnetwerk te verzenden. Het maakt efficiënte communicatie mogelijk tussen meerdere sites of eindpunten.
-
-{{< inarticle-dark >}}
 
 ## Virtuele netwerkconcepten
 

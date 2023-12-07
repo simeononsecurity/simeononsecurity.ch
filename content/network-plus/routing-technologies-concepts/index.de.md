@@ -55,8 +55,6 @@ Distanzvektor-Routing-Protokolle wie RIP verwenden eine einfache Metrik (z. B. H
 
 Hybride Routing-Protokolle wie EIGRP vereinen die Eigenschaften von Link-State- und Distance-Vector-Protokollen. Sie führen eine Topologietabelle ähnlich wie Link-State-Protokolle, verwenden aber Distanzvektor-Algorithmen für die Berechnung von Routen. Hybridprotokolle bieten die Vorteile einer schnelleren Konvergenz und eines geringeren Overheads.
 
-{{< inarticle-dark >}}
-
 ## Statisches Routing und Standard-Routen
 
 Beim statischen Routing wird die Routing-Tabelle auf den Routern manuell konfiguriert, wobei die Pfade zum Erreichen bestimmter Netze festgelegt werden. Es wird typischerweise in Szenarien verwendet, in denen Änderungen der Netzwerktopologie minimal oder vorhersehbar sind. Statische Routen sind einfach zu konfigurieren und können für kleine Netzwerke oder bestimmte Netzwerksegmente nützlich sein.
@@ -90,8 +88,6 @@ Traffic Shaping ist eine Technik zur Steuerung der Datenübertragungsrate in ein
 ### Quality of Service (QoS)
 
 Quality of Service (QoS) bezieht sich auf die Fähigkeit eines Netzwerks, Prioritäten zu setzen und Ressourcen für verschiedene Arten von Datenverkehr auf der Grundlage ihrer Bedeutung und Anforderungen zuzuweisen. QoS-Mechanismen wie Verkehrspriorisierung, Bandbreitenzuweisung und Staumanagement tragen dazu bei, eine optimale Leistung für Echtzeitanwendungen wie Sprache und Video zu gewährleisten.
-
-{{< inarticle-dark >}}
 
 ## Gerätevergleich und Platzierung
 

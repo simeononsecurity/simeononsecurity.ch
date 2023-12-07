@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Le besoin de solutions en matière de confidentialité des données
@@ -76,8 +74,6 @@ Le retrait des données personnelles des bases de données publiques peut être 
 Savoir qu'un service fiable comme [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) protège activement ses données permet aux utilisateurs d'avoir l'esprit tranquille. Ils peuvent naviguer sur l'internet et s'adonner à des activités en ligne sans craindre que leurs données soient utilisées à mauvais escient.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

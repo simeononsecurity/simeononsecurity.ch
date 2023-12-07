@@ -16,9 +16,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 In today's digital age, text manipulation and analysis play a crucial role in various fields, including cybersecurity, data processing, and system administration. The Windows command line provides a powerful toolkit for performing text-related tasks efficiently. In this article, we will explore essential command-line techniques for creating, editing, and analyzing text files on Windows systems.
 
-_______
-{{< inarticle-dark >}}
-_______
+__
 
 ## Introduction
 
@@ -84,9 +82,7 @@ The `more` command is useful when you want to view the contents of a text file p
 more long_text.txt
 ```
 
-_______
-{{< inarticle-dark >}}
-_______
+__
 
 ## Conclusion
 

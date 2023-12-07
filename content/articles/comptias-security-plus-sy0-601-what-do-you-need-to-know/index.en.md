@@ -83,8 +83,6 @@ The CompTIA Security+ SY0-601 exam consists of a maximum of 90 questions, which 
 
 Performance-based questions require candidates to perform a task or solve a problem in a simulated environment, and are designed to test practical, real-world skills. These questions may require candidates to configure a firewall, analyze logs, or identify vulnerabilities.
 
-{{< inarticle-dark >}}
-
 ## Exam Objectives
 The Security+ SY0-601 exam covers a range of topics related to information security, including:
 

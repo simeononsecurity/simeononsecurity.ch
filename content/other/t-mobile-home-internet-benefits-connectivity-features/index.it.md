@@ -35,8 +35,6 @@ Se siete già clienti T-Mobile, il servizio Internet domestico si integra perfet
 
 ______
 
-{{< inarticle-dark >}}
-
 ## **Disponibilità di T-Mobile Home Internet**
 
 Il servizio Internet domestico di T-Mobile sta espandendo la sua copertura in tutto il Paese. Utilizza le solide reti 4G e 5G di T-Mobile per fornire la connettività Internet nelle aree in cui le connessioni cablate tradizionali possono essere limitate. Per verificare se l'Internet domestico di T-Mobile è disponibile nella vostra zona, potete visitare il sito web [website](https://www.t-mobile.com/coverage/coverage-map) or contact their [customer support](https://www.t-mobile.com/customers/customer-care)
@@ -90,8 +88,6 @@ T-Mobile fornisce risorse e supporto per aiutare i clienti a migliorare la loro 
 T-Mobile si impegna a mantenere la sicurezza della propria infrastruttura di rete e del servizio Internet domestico. Controlla regolarmente i propri sistemi per individuare potenziali vulnerabilità e applica gli aggiornamenti e le patch necessarie per garantire il massimo livello di sicurezza ai propri clienti.
 
 ______
-
-{{< inarticle-dark >}}
 ## **Norme governative e T-Mobile Home Internet**
 
 In qualità di fornitore responsabile, T-Mobile aderisce alle normative governative per garantire la protezione dei consumatori, la privacy e le pratiche corrette. Ecco alcune importanti normative governative relative ai servizi Internet domestici:

@@ -41,8 +41,6 @@ Wanneer een apparaat een IP-adres van een DHCP-server krijgt, doet het dit voor 
 
 In grotere netwerken worden DHCP relay agents of IP helper adressen gebruikt om DHCP verzoeken en antwoorden door te sturen tussen DHCP clients en servers die zich in verschillende subnetten bevinden. Hierdoor kunnen DHCP-diensten worden gecentraliseerd en kunnen IP-adressen efficiënt over meerdere netwerksegmenten worden toegewezen.
 
-{{< inarticle-dark >}}
-
 ## DNS: Namen vertalen naar IP-adressen
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP werkt op basis van een hiërarchisch model dat stratum heet. Stratum 0 verte
 ### Clients en servers
 
 In een NTP-infrastructuur vragen cliënten NTP-servers om accurate tijdinformatie. NTP servers onderhouden nauwkeurige tijdreferenties en bieden synchronisatiediensten aan cliënten.
-
-{{< inarticle-dark >}}
 
 ## Netwerkarchitectuur voor bedrijven en datacenters
 

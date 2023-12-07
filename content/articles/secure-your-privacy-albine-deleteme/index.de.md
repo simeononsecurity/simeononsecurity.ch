@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Der Bedarf an Lösungen für den Datenschutz
@@ -76,8 +74,6 @@ Die Entfernung personenbezogener Daten aus öffentlichen Datenbanken kann insbes
 Die Gewissheit, dass ein zuverlässiger Dienst wie [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) aktiv ihre Daten schützt, können die Nutzer beruhigt sein. Sie können im Internet surfen und an Online-Aktivitäten teilnehmen, ohne sich Sorgen machen zu müssen, dass ihre Daten missbraucht werden.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

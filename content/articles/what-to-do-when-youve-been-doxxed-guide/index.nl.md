@@ -66,8 +66,6 @@ Beoordeel welke **informatie** is **gelekt** en hoe deze u mogelijk **schaadt**.
 Onthoud dat het doel is om **kalm en berekend** te reageren en ervoor te zorgen dat je acties effectief zijn om de impact van het doxxing-incident te beperken.
 ______
 
-{{< inarticle-dark >}}
-
 ### 2. Documenteer het bewijs van doxxing
 
 Het is cruciaal om **bewijsmateriaal** van het doxxing-incident te verzamelen voor toekomstig gebruik. Maak **screenshots** of bewaar kopieën van alle berichten, berichten of websites die uw blootgestelde informatie bevatten. Dit bewijs zal waardevol zijn als je besluit om **het incident aan te geven** bij wetshandhavingsinstanties of juridische stappen te ondernemen tegen de doxxer.
@@ -181,8 +179,6 @@ Door deze regelgeving te begrijpen en te gebruiken, kunt u **uw juridische posit
 Vergeet niet dat het zoeken naar juridische stappen tijd, moeite en mogelijk financiële middelen kan kosten. Beoordeel je situatie en raadpleeg professionals om een weloverwogen beslissing te nemen over het ondernemen van juridische stappen.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusie
 

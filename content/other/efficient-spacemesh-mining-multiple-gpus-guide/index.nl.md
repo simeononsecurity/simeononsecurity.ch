@@ -28,8 +28,6 @@ Volg deze eenvoudige stappen om te beginnen met het delven van Spacemesh met mee
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Stap 1: Variabelen configureren
 
 Open een teksteditor of PowerShell scripteditor en stel de configureerbare variabelen in volgens je vereisten.
@@ -48,8 +46,6 @@ Het meegeleverde script bevat al enkele variabelen die je kunt aanpassen, maar d
 - `$numUnits` Stel het aantal opslageenheden in om te ontginnen. De standaardwaarde is 16.
 
 - `$datadir` Stel het pad in naar de datamap waar je mijnbouwgegevens worden opgeslagen.
-
-{{< inarticle-dark >}}
 
 ### Stap 2: Het script uitvoeren
 

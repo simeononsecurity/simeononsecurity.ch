@@ -41,8 +41,6 @@ Wenn ein Gerät eine IP-Adresse von einem DHCP-Server abruft, geschieht dies fü
 
 In größeren Netzwerken werden DHCP-Relay-Agenten oder IP-Helper-Adressen verwendet, um DHCP-Anfragen und -Antworten zwischen DHCP-Clients und -Servern, die sich in verschiedenen Subnetzen befinden, weiterzuleiten. Dies ermöglicht die Zentralisierung von DHCP-Diensten und eine effiziente IP-Adressenzuweisung über mehrere Netzsegmente hinweg.
 
-{{< inarticle-dark >}}
-
 ## DNS: Namen in IP-Adressen übersetzen
 
 {{< youtube id="mpQZVYPuDGU" >}}
@@ -90,8 +88,6 @@ NTP arbeitet auf der Grundlage eines hierarchischen Modells, das Stratum genannt
 ### Clients und Server
 
 In einer NTP-Infrastruktur fragen die Clients NTP-Server ab, um genaue Zeitinformationen zu erhalten. NTP-Server halten genaue Zeitreferenzen aufrecht und bieten den Clients Synchronisierungsdienste an.
-
-{{< inarticle-dark >}}
 
 ## Netzwerkarchitektur für Unternehmen und Rechenzentren
 

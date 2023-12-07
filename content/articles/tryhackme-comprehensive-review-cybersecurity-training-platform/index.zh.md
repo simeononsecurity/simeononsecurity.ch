@@ -42,8 +42,6 @@ TryHackMe 提供免费和高级订阅计划。免费计划提供有限的房间�
 
 TryHackMe 的高级套餐每月费用为 `$10.99`通过访问庞大的内容库、认证和一个由志同道合者组成的活跃社区，它提供了物有所值的服务。
 
-{{< inarticle-dark >}}
-
 ### TryHackMe 证书
 
 TryHackMe 在完成特定房间或学习路径后提供证书。这些证书可作为成就证明，并可添加到个人职业档案或与潜在雇主分享。通过获得 TryHackMe 证书，个人可以展示其实用的网络安全技能，并提升其职业前景。
@@ -63,8 +61,6 @@ TryHackMe 提供内置 VPN（虚拟专用网）服务，确保安全访问虚拟
 | [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | 介绍 Windows 操作系统，涵盖基本概念和必要的安全注意事项。                       |
 | [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | 深入学习 Active Directory 基础知识，内容包括 Active Directory 结构、域控制器、用户账户、组策略和安全漏洞。                    |
 
-
-{{< inarticle-dark >}}
 
 ## 结论
 

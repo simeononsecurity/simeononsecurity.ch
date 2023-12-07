@@ -17,8 +17,6 @@ Sieci bezprzewodowe odgrywają kluczową rolę w naszym połączonym świecie, u
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Badanie różnych standardów 802.11
 
 Standardy 802.11, powszechnie znane jako Wi-Fi, definiują specyfikacje bezprzewodowych sieci lokalnych (WLAN).
@@ -54,8 +52,6 @@ Sieci bezprzewodowe są podzielone na kanały, a dostępne kanały mogą się r�
 **Channel Bonding**: Łączenie kanałów pozwala na agregację wielu kanałów w celu zwiększenia ogólnej przepustowości dostępnej dla transmisji danych. Poprawia to wydajność sieci, umożliwiając przesyłanie większej ilości danych.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Przegląd typów anten, standardów szyfrowania i konfiguracji SSID
 

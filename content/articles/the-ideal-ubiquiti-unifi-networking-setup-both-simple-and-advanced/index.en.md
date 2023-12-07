@@ -79,9 +79,7 @@ Any good setup requires a few pieces of equipment. With Unifi you need at least 
 
 {{< centerbutton href="https://amzn.to/3N8PZzh" >}}Get the Unifi Switch Pro 24 Today!{{< /centerbutton >}}
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ### Ethernet Cables and Patch Panel
 To establish a reliable and high-speed network infrastructure, it is crucial to use quality Ethernet cables and a patch panel. We recommend the following products:
@@ -132,9 +130,7 @@ To centralize and protect your networking equipment, a network server cabinet is
 
 By investing in a network server cabinet and the necessary accessories, you can ensure proper organization, cooling, and protection for your networking equipment.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Additional Components for both the Simple and Advanced Setups
 To enhance and expand the capabilities of your setup, we recommend considering the following UniFi products:

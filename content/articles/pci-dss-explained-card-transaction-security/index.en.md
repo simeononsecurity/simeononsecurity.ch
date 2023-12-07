@@ -19,9 +19,7 @@ In the realm of cybersecurity, safeguarding sensitive payment card data is param
 
 In an era where digital transactions have become ubiquitous, the security of payment card data is a pressing concern. The **PCI Security Standards Council** - a collaborative entity formed by major credit card companies - developed the **PCI-DSS** as a set of security requirements to ensure the protection of payment card data during storage, transmission, and processing.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Understanding PCI-DSS
 
@@ -81,9 +79,7 @@ Beyond the immediate security advantages, the pursuit and maintenance of PCI-DSS
 
 - **Risk Mitigation**: By adhering to the rigorous guidelines of PCI-DSS, organizations effectively **minimize the risk of data breaches**. The security measures put in place significantly reduce the likelihood of unauthorized access to payment card data, consequently mitigating the financial and reputational repercussions associated with data breaches.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

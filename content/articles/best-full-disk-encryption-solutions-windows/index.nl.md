@@ -54,8 +54,6 @@ Voor begeleiding bij het implementeren van BitLocker op de meest veilige manier,
 Door BitLocker te gebruiken, kunnen Windows-gebruikers profiteren van de sterke versleutelingsmogelijkheden en naadloze integratie met het besturingssysteem om de veiligheid van hun gevoelige gegevens te garanderen.
 ______
 
-{{< inarticle-dark >}}
-
 ## [VeraCrypt](https://veracrypt.fr/en/Home.html)
 
 [**VeraCrypt**](https://veracrypt.fr/en/Home.html) is een van de beste oplossingen voor volledige schijfversleuteling voor Windows, Linux en macOS. Deze populaire open-source software voor schijfversleuteling, gebaseerd op het stopgezette TrueCrypt-project, biedt verbeterde beveiligingsfuncties en flexibiliteit.
@@ -77,8 +75,6 @@ Volg deze stappen om een schijf te versleutelen met VeraCrypt:
 Houd er rekening mee dat de beveiliging van VeraCrypt afhankelijk is van de sterkte van je wachtwoord. Zorg ervoor dat je een [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) om de effectiviteit van de versleuteling te maximaliseren.
 
 ______
-{{< inarticle-dark >}}
-
 ## [Symantec Endpoint Encryption](https://www.broadcom.com/products/cybersecurity/endpoint/end-user)
 
 [**Symantec Endpoint Encryption**](https://www.broadcom.com/products/cybersecurity/endpoint/end-user) is een gegevensversleutelingsoplossing op bedrijfsniveau die uitgebreide bescherming biedt voor volledige schijfversleuteling, verwisselbare media en afzonderlijke bestanden. Het is ontworpen voor organisaties en biedt gecentraliseerd beheer en rapportagemogelijkheden, waardoor het een topkeuze is voor bedrijven met een groot aantal eindpunten.

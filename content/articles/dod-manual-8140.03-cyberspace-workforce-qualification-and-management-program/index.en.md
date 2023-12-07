@@ -28,8 +28,6 @@ Overall, the **DoD Manual 8140.03** plays a vital role in establishing a qualifi
 
 For more detailed information on the purpose and implementation of the **DoD Manual 8140.03**, you can refer to the manual itself or visit the official DoD website for additional resources and documentation.
 
-{{< inarticle-dark >}}
-
 ## Applicability
 
 The **DoD Manual 8140.03** is applicable to a wide range of entities within the Department of Defense (DoD) and outlines the qualifications and requirements for personnel assigned to positions requiring the performance of **cyberspace work**. The manual's applicability extends to various DoD components and organizational entities, including:
@@ -86,8 +84,6 @@ Some of the highlighted objectives and procedures of the Qualification Program i
 By implementing these objectives and procedures, the DoD ensures that its cyberspace workforce is equipped with the required knowledge and skills to support its mission. The Qualification Program promotes continuous learning, adherence to standards, and a coordinated approach to workforce development within the cyberspace domain.
 
 For more detailed information on the Qualification Program objectives and procedures, refer to **Section X** of the **DoD Manual 8140.03**.
-
-{{< inarticle-dark >}}
 
 
 ## Qualification Areas

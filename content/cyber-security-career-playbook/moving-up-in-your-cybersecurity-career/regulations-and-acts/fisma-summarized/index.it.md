@@ -23,8 +23,6 @@ Il Federal Information Security Modernization Act (FISMA) è una legge statunite
 ## Che cos'è il FISMA?
 
 Il FISMA è un insieme di standard e linee guida per la sicurezza delle informazioni che si applicano alle agenzie federali e ai loro appaltatori. Lo scopo del FISMA è garantire che le informazioni sensibili siano protette da accesso, uso, divulgazione, interruzione, modifica o distruzione non autorizzati. Il FISMA richiede che le agenzie federali implementino un approccio alla sicurezza delle informazioni basato sul rischio, che prevede l'identificazione e la valutazione dei potenziali rischi per la sicurezza, l'implementazione di controlli di sicurezza per mitigare tali rischi e il monitoraggio continuo dell'efficacia di tali controlli.
-
-{{< inarticle-dark >}}
 ## Componenti chiave del FISMA
 
 Esistono diversi componenti chiave del FISMA, tra cui:
@@ -93,8 +91,6 @@ Le agenzie federali devono ottenere l'autorizzazione dall'autorità competente p
 
 5. **Riaccreditamento**: Le agenzie federali devono valutare e riaccreditare regolarmente i propri sistemi informativi per garantire che continuino a soddisfare i necessari standard di sicurezza e per identificare eventuali aree da migliorare.
 
-{{< inarticle-dark >}}
-
 ## Benefici del FISMA
 
 I vantaggi del FISMA sono molteplici, tra cui:
@@ -114,8 +110,6 @@ Il FISMA impone alle agenzie federali di riferire sui propri programmi di sicure
 ### Collaborazione rafforzata
 
 Il FISMA contribuisce anche a rafforzare la collaborazione e il coordinamento tra le agenzie federali, i loro appaltatori e le altre parti interessate, imponendo loro di seguire gli stessi standard di sicurezza delle informazioni. Ciò contribuisce a garantire che tutti lavorino insieme per proteggere le informazioni sensibili e che i rischi per la sicurezza delle informazioni siano gestiti in modo efficace a tutti i livelli del governo federale.
-
-{{< inarticle-dark >}}
 
 ## Conclusione
 

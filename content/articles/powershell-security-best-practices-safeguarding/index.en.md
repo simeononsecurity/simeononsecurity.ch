@@ -21,8 +21,6 @@ In this article, we will explore [**PowerShell security best practices**](https:
 
 PowerShell security involves protecting your scripts, managing access control, and securing sensitive information, such as passwords and credentials. PowerShell security best practices encompass several key areas, including **script execution**, **code signing**, **user access control**, and **password management**.
 
-{{< inarticle-dark >}}
-
 ## Best Practices for Script Execution
 
 When it comes to **script execution**, there are several best practices you should follow:
@@ -72,8 +70,6 @@ Passwords are a critical aspect of PowerShell security, especially when dealing 
 By following these best practices for password security, you can strengthen the security of your PowerShell environment and protect against unauthorized access and data breaches.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

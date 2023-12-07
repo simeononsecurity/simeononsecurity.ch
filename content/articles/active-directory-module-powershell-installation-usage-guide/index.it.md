@@ -91,8 +91,6 @@ Per gestire efficacemente un ambiente Active Directory (AD), è fondamentale rec
 
 Utilizzando queste potenti cmdlet, è possibile recuperare facilmente informazioni specifiche su utenti, gruppi e OU di AD, consentendo un'amministrazione e una gestione efficienti dell'ambiente Active Directory.
 
-{{< inarticle-dark >}}
-
 
 Queste cmdlet consentono di recuperare attributi specifici, filtrare i risultati ed eseguire query avanzate per ottenere le informazioni desiderate.
 
@@ -126,8 +124,6 @@ Quando si lavora con Active Directory (AD), il modulo Active Directory di PowerS
 
 Sfruttando queste cmdlet, è possibile creare facilmente nuovi utenti, gruppi e OU di AD con le proprietà e le configurazioni desiderate, consentendo una gestione efficiente dell'ambiente Active Directory.
 
-{{< inarticle-dark >}}
-
 
 ### Modifica degli oggetti di Active Directory
 
@@ -158,8 +154,6 @@ Quando si tratta di modificare le proprietà e gli attributi degli oggetti Activ
   Questo comando aggiorna la descrizione della OU specificata nella gerarchia di Active Directory.
 
 Utilizzando queste cmdlet, è possibile modificare facilmente le proprietà e gli attributi degli oggetti AD, apportando gli aggiornamenti e le regolazioni necessarie per soddisfare i requisiti dell'organizzazione.
-
-{{< inarticle-dark >}}
 
 
 ### Gestione della sicurezza di Active Directory
@@ -227,8 +221,6 @@ Con il modulo Active Directory è possibile eseguire un'ampia gamma di operazion
 Sfruttando **PowerShell** e il modulo **Active Directory**, è possibile potenziare le capacità di amministrazione di AD e migliorare l'efficienza dei processi di gestione di AD. Che siate amministratori di sistema, professionisti IT o manager di Active Directory, il modulo Active Directory vi fornisce gli strumenti necessari per gestire efficacemente la vostra infrastruttura AD.
 
 Sfruttate la potenza di **PowerShell** e del modulo **Active Directory** per semplificare le vostre attività di amministrazione AD, aumentare la produttività e mantenere un ambiente Active Directory sicuro e ben organizzato.
-
-{{< inarticle-dark >}}
 
 ## Riferimenti
 

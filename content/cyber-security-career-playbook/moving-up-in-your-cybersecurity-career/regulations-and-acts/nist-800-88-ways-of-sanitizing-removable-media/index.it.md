@@ -34,9 +34,7 @@ La cancellazione è il processo di sovrascrittura dei dati su un dispositivo con
 
 L'epurazione è il processo di sovrascrittura dei dati su un dispositivo più volte con uno schema di valori binari. Questo metodo è più sicuro della cancellazione ed è consigliato per la sanificazione dei dati sensibili. Il NIST 800-88 Revisione 1 raccomanda l'utilizzo di uno strumento software che soddisfi gli standard stabiliti dall'Agenzia per la Sicurezza Nazionale (NIST). [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Conclusione
+__________________________________________## Conclusione
 
 In conclusione, la **sanitizzazione dei supporti rimovibili è fondamentale per garantire che i dati sensibili memorizzati su questi dispositivi non vengano divulgati o accessibili a persone non autorizzate.** Il NIST 800-88 Revisione 1 fornisce le linee guida per la sanitizzazione di tutti i tipi di supporti rimovibili, tra cui dischi rigidi, SSD, unità flash USB, CD, DVD e dischi Blu-ray, tra cui la distruzione fisica, la cancellazione e l'epurazione. **La distruzione fisica è il metodo più sicuro per la sanificazione dei supporti rimovibili, ma anche la cancellazione e l'epurazione sono metodi efficaci che garantiscono un elevato livello di sicurezza.**
 

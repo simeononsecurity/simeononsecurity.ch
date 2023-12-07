@@ -35,8 +35,6 @@ Fiind vigilent și recunoscând acești indicatori comuni ai încercărilor de p
 
 Phishing-ul este o tehnică malițioasă de atac cibernetic folosită de infractori pentru a păcăli persoanele să dezvăluie informații sensibile, cum ar fi parole, numere de card de credit sau numere de asigurări sociale. Atacatorii folosesc, de obicei, e-mailuri, mesaje text sau site-uri web înșelătoare care seamănă foarte mult cu organizații legitime, cu scopul de a înșela victimele neștiutoare. Aceste încercări de phishing pot avea consecințe grave, inclusiv **furt de identitate**, **pierderi financiare** și **acces neautorizat** la conturi personale. Pentru a vă proteja de aceste escrocherii, este esențial să rămâneți **vigilenți** și să vă **familiarizați** cu indicatorii comuni ai unei tentative de phishing.
 
-{{< inarticle-dark >}}
-
 ## **Indicatori comuni ai unei încercări de phishing**
 
 ### **1. Adresa de e-mail suspectă a expeditorului**
@@ -118,8 +116,6 @@ Pentru a vă proteja de astfel de riscuri, rețineți următoarele orientări:
 Nu uitați că este suficient un singur clic pentru a vă compromite potențial securitatea. Prin urmare, este esențial să dați dovadă de prudență și să verificați fiabilitatea oricăror atașamente de e-mail neașteptate înainte de a le deschide.
 
 Pentru mai multe informații despre cum să rămâneți în siguranță online și să vă protejați de tentativele de phishing, consultați surse de încredere precum [**National Cyber Security Centre**](https://www.ncsc.gov.uk/guidance/phishing) or [**Stay Smart Online**](https://www.staysmartonline.gov.au/protect-yourself/recover-hacked-email-account)
-
-{{< inarticle-dark >}}
 
 ## Sfaturi pentru a fi în siguranță online
 

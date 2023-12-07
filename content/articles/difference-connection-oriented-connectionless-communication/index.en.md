@@ -39,8 +39,6 @@ Connection-oriented communication offers several advantages:
 
 5. **Congestion Control**: TCP adjusts the rate of data transmission to prevent congestion and maintain network stability.
 
-{{< inarticle-dark >}}
-
 ## Connectionless Communication
 
 In contrast to connection-oriented communication, connectionless communication does not establish a dedicated connection before data transmission. Instead, each packet is treated as an independent unit and is routed independently through the network. A well-known example of a connectionless protocol is the **User Datagram Protocol (UDP)**.

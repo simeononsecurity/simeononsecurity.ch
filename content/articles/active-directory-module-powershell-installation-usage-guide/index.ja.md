@@ -91,8 +91,6 @@ Active Directory (AD) 環境を効果的に管理するには、ユーザー、�
 
 これらの強力なコマンドレットを使用することで、ADユーザー、グループ、OUに関する特定の情報を簡単に取得することができ、Active Directory環境の効率的な管理・運用が可能になります。
 
-{{< inarticle-dark >}}
-
 
 これらのコマンドレットを使用すると、特定の属性を取得したり、結果をフィルタリングしたり、必要な情報を取得するための高度なクエリを実行したりすることができます。
 
@@ -126,8 +124,6 @@ Active Directory (AD) を使用する場合、PowerShell の Active Directory �
 
 これらのコマンドレットを活用することで、必要なプロパティや設定を持つ新しいADユーザー、グループ、OUを簡単に作成することができ、Active Directory環境の効率的な管理が可能になります。
 
-{{< inarticle-dark >}}
-
 
 ### Active Directoryオブジェクトの変更
 
@@ -158,8 +154,6 @@ Active Directory (AD) を使用する場合、PowerShell の Active Directory �
   このコマンドは、Active Directory階層内の指定されたOUの説明を更新します。
 
 これらのコマンドレットを使用することで、ADオブジェクトのプロパティや属性を簡単に変更し、組織の要件に合わせて必要な更新や調整を行うことができます。
-
-{{< inarticle-dark >}}
 
 
 ### Active Directoryセキュリティの管理
@@ -227,8 +221,6 @@ Active Directoryモジュールを使用すると、ADオブジェクトに関�
 PowerShell**と**Active Directoryモジュール**を活用することで、AD管理能力を強化し、AD管理プロセスの効率を向上させることができます。システム管理者、ITプロフェッショナル、Active Directory管理者のいずれであっても、Active DirectoryモジュールはADインフラストラクチャを効果的に管理するために必要なツールを提供します。
 
 PowerShell**と**Active Directoryモジュール**のパワーで、AD管理作業を効率化し、生産性を向上させ、安全で整ったActive Directory環境を維持しましょう。
-
-{{< inarticle-dark >}}
 
 ## 参考文献
 

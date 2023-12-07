@@ -227,8 +227,6 @@ N'oubliez pas que des sauvegardes régulières sont essentielles pour sauvegarde
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ L'activation de la maintenance automatique de Windows garantit que votre systèm
 Pour plus d'informations sur la maintenance automatique de Windows et ses options de configuration, reportez-vous à la documentation officielle sur la maintenance automatique de Windows. [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

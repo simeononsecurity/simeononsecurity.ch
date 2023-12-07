@@ -35,8 +35,6 @@ Phishing attempts pose significant risks such as **identity theft**, **financial
 
 Phishing is a malicious cyber attack technique used by criminals to trick individuals into revealing sensitive information such as passwords, credit card numbers, or social security numbers. Attackers typically employ deceptive emails, text messages, or websites that closely resemble legitimate organizations, aiming to deceive unsuspecting victims. These phishing attempts can have severe consequences, including **identity theft**, **financial loss**, and **unauthorized access** to personal accounts. To protect yourself from these scams, it is essential to stay **vigilant** and **familiarize yourself** with common indicators of a phishing attempt.
 
-{{< inarticle-dark >}}
-
 ## **Common Indicators of a Phishing Attempt**
 
 ### **1. Suspicious Sender Email Address**
@@ -118,8 +116,6 @@ To protect yourself from such risks, remember the following guidelines:
 Remember, it only takes a single click to potentially compromise your security. Therefore, it is crucial to exercise caution and verify the trustworthiness of any unexpected email attachments before opening them.
 
 For more information on how to stay safe online and protect yourself from phishing attempts, refer to reputable sources like the [**National Cyber Security Centre**](https://www.ncsc.gov.uk/guidance/phishing) or [**Stay Smart Online**](https://www.staysmartonline.gov.au/protect-yourself/recover-hacked-email-account).
-
-{{< inarticle-dark >}}
 
 ## Tips for Staying Safe Online
 

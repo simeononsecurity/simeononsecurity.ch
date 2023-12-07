@@ -21,8 +21,6 @@ In questo articolo esploreremo le **migliori pratiche di sicurezza di PowerShell
 
 La sicurezza di PowerShell implica la protezione degli script, la gestione del controllo degli accessi e la protezione delle informazioni sensibili, come le password e le credenziali. Le migliori pratiche di sicurezza di PowerShell comprendono diverse aree chiave, tra cui **esecuzione di script**, **firma del codice**, **controllo dell'accesso degli utenti** e **gestione delle password**.
 
-{{< inarticle-dark >}}
-
 ## Migliori pratiche per l'esecuzione degli script
 
 Quando si parla di **esecuzione di script**, ci sono diverse best practice da seguire:
@@ -72,8 +70,6 @@ Le password sono un aspetto critico della sicurezza di PowerShell, soprattutto q
 Seguendo queste best practice per la sicurezza delle password, è possibile rafforzare la sicurezza dell'ambiente PowerShell e proteggersi da accessi non autorizzati e violazioni dei dati.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusione
 

@@ -23,8 +23,6 @@ Nu organisaties steeds meer virtualisatietechnologieën gaan gebruiken, wordt he
 
 Laten we eens duiken in het proces van het auditen van machtigingen voor een vCenter met behulp van PowerCLI.
 
-{{< inarticle-dark >}}
-
 ## De omgeving voorbereiden
 Voordat u in het auditproces duikt, moet u de benodigde omgeving opzetten. Hier zijn de stappen om te beginnen:
 
@@ -101,8 +99,6 @@ Nu PowerCLI is geïnstalleerd en verbonden met je vCenter-server, gaan we het pr
       # Convert permissions to a CSV file
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
-
-{{< inarticle-dark >}}
 
 ## Conclusie
 Het auditen van permissies voor een vCenter-omgeving is een **cruciale stap** in het onderhouden van een **veilige virtuele infrastructuur**. Door gebruik te maken van **PowerCLI**, kunt u het auditproces** automatiseren en efficiënt gebruikersrollen en -rechten** controleren. Het regelmatig uitvoeren van controles op machtigingen helpt bij het **opsporen van beveiligingslekken** en zorgt ervoor dat gebruikers **de juiste toegangsniveaus** hebben op basis van hun verantwoordelijkheden.

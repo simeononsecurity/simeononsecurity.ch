@@ -34,9 +34,7 @@ Beim Löschen werden die Daten auf einem Gerät mit einer Reihe von Binärwerten
 
 Beim Bereinigen werden die Daten auf einem Gerät mehrfach mit einem Muster binärer Werte überschrieben. Diese Methode ist sicherer als das Löschen und wird für die Säuberung sensibler Daten empfohlen. NIST 800-88 Revision 1 empfiehlt die Verwendung eines Softwaretools, das die von der NIST festgelegten Standards erfüllt. [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Schlussfolgerung
+__________________________________________## Schlussfolgerung
 
 Zusammenfassend lässt sich sagen, dass **die Bereinigung von Wechseldatenträgern von entscheidender Bedeutung ist, um sicherzustellen, dass sensible Daten, die auf diesen Geräten gespeichert sind, nicht nach außen dringen oder Unbefugten zugänglich sind.** NIST 800-88 Revision 1 enthält Richtlinien für die Bereinigung aller Arten von Wechseldatenträgern, einschließlich Festplatten, SSDs, USB-Flash-Laufwerken, CDs, DVDs und Blu-ray-Disks, einschließlich der physischen Zerstörung, des Löschens und des Bereinigens. **Die physische Zerstörung ist die sicherste Methode zur Bereinigung von Wechseldatenträgern, aber auch das Löschen und Bereinigen sind wirksame Methoden, die ein hohes Maß an Sicherheit bieten.**
 

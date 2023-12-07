@@ -39,8 +39,6 @@ Om je voorbereiding op de CompTIA Network+ certificering te verbeteren, heb je t
 
 ______
 
-{{< inarticle-dark >}}
-
 ## [CompTIA Security+](https://www.comptia.org/certifications/security)
 
 De [**CompTIA Security+ certification**](https://www.comptia.org/certifications/security) is een algemeen erkende certificering op instapniveau die zich richt op de essentiële principes van **cyberbeveiliging**. Het valideert de basisvaardigheden die nodig zijn om de belangrijkste beveiligingsfuncties uit te voeren en een carrière in informatiebeveiliging na te streven. Deze certificering behandelt onderwerpen zoals **bedreigingen, kwetsbaarheden, cryptografie, toegangscontrole, identiteitsbeheer**, en **beveiligingstechnologieën en -tools**.
@@ -91,8 +89,6 @@ Het is belangrijk voor beginners om praktijkervaring op te doen en te blijven le
 
 Voor meer informatie over banen op instapniveau in cyberbeveiliging en hoe u zich hierop kunt voorbereiden, kunt u terecht op [this link](https://simeononsecurity.com/cyber-security-career-playbook-start) Deze informatiebron biedt inzicht in de vaardigheden en kwalificaties die vereist zijn voor functies op instapniveau en geeft tips over hoe je je kunt onderscheiden op de arbeidsmarkt.
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusie
 

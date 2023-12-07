@@ -39,8 +39,6 @@ Das NICE-Rahmenwerk definiert sieben übergeordnete Kategorien, die die verschie
 - **Analysieren**: In dieser Kategorie geht es um die Analyse von Cybersicherheitsdaten und -informationen, um Bedrohungen, Schwachstellen und Risiken zu erkennen und zu verstehen.
 - **Erfassen und Betreiben**: Diese Kategorie umfasst die Erfassung und Verwaltung von sicherheitsrelevanten Daten und den Betrieb von Systemen und Infrastrukturen im Bereich der Cybersicherheit.
 - **Untersuchen**: Diese Kategorie umfasst Aktivitäten im Zusammenhang mit der Untersuchung von und Reaktion auf Cybersicherheitsvorfälle, einschließlich der Erkennung, Analyse und Wiederherstellung von Vorfällen.
-
-{{< inarticle-dark >}}
 #### 2. Fachgebiete
 
 Innerhalb jeder Kategorie unterteilt der NICE-Rahmen die Rollen und Verantwortlichkeiten weiter in Spezialgebiete. Diese Spezialgebiete bieten ein detaillierteres Verständnis der spezifischen Aufgaben und Fähigkeiten, die zur Erfüllung der Cybersicherheitsziele innerhalb jeder Kategorie erforderlich sind. Einige Beispiele für Spezialgebiete sind:
@@ -83,9 +81,7 @@ Weitere Informationen über das NICE Cybersecurity Framework und seine Vorteile 
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Implementierung des NICE Cybersecurity Framework
+______## Implementierung des NICE Cybersecurity Framework
 
 Nachdem wir nun die Bedeutung und die Vorteile des NICE Cybersecurity Frameworks verstanden haben, wollen wir uns nun mit den praktischen Schritten zur effektiven Implementierung innerhalb einer Organisation beschäftigen:
 

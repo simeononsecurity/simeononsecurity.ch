@@ -227,8 +227,6 @@ Nu uitați că backup-urile regulate sunt esențiale pentru a vă proteja datele
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Activarea întreținerii automate a Windows asigură faptul că sistemul dvs. r�
 Pentru informații mai detaliate despre Întreținerea automată a Windows și opțiunile de configurare a acesteia, consultați pagina oficială [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Concluzie
 

@@ -33,8 +33,6 @@ Implementing robust security measures in your Python applications helps mitigate
 
 ______
 
-{{< inarticle-dark >}}
-
 ## [Python Security Best Practices](https://simeononsecurity.com/articles/secure-coding-standards-for-python/)
 
 To enhance the security of your Python applications, it is essential to follow these best practices:
@@ -100,8 +98,6 @@ By applying encryption techniques to protect sensitive data, you add an extra la
 To learn more about encryption in Python and how to implement it effectively, you can refer to relevant libraries and documentation, such as the **Python Cryptography** library and the official [TLS RFC](https://tools.ietf.org/html/rfc5246) for understanding the TLS protocol.
 
 Remember that encryption is just one aspect of protecting sensitive data. It is equally important to implement **secure storage**, **access controls**, and **secure key management** practices to ensure comprehensive data protection.
-
-{{< inarticle-dark >}}
 
 ### 5. Secure Database Access
 
@@ -174,8 +170,6 @@ By investing in developer education and training, you create a strong foundation
 Remember, **security is a continuous process**, and ongoing education and training are necessary to stay ahead of evolving threats and maintain the highest standards of security in your Python development projects.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Python Security Best Practices Cheat Sheet
 

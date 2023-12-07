@@ -55,8 +55,6 @@ Protokoły routingu wektora odległości, takie jak RIP, wykorzystują prostą m
 
 Hybrydowe protokoły routingu, takie jak EIGRP, łączą w sobie cechy zarówno protokołów stanu łącza, jak i wektora odległości. Utrzymują one tabelę topologii podobną do protokołów stanu łącza, ale wykorzystują algorytmy wektora odległości do obliczania tras. Protokoły hybrydowe oferują korzyści w postaci szybszej konwergencji i mniejszego narzutu.
 
-{{< inarticle-dark >}}
-
 ## Routing statyczny i trasy domyślne
 
 Routing statyczny polega na ręcznym konfigurowaniu tablicy routingu na routerach, określając ścieżki dostępu do określonych sieci. Jest on zwykle używany w scenariuszach, w których zmiany topologii sieci są minimalne lub przewidywalne. Trasy statyczne są łatwe w konfiguracji i mogą być przydatne w przypadku małych sieci lub określonych segmentów sieci.
@@ -90,8 +88,6 @@ Kształtowanie ruchu to technika wykorzystywana do kontrolowania szybkości tran
 ### Jakość usług (QoS)
 
 Quality of Service (QoS) odnosi się do zdolności sieci do nadawania priorytetów i przydzielania zasobów różnym typom ruchu w oparciu o ich znaczenie i wymagania. Mechanizmy QoS, takie jak priorytetyzacja ruchu, alokacja przepustowości i zarządzanie przeciążeniami, pomagają zapewnić optymalną wydajność dla aplikacji działających w czasie rzeczywistym, takich jak głos i wideo.
-
-{{< inarticle-dark >}}
 
 ## Porównanie i rozmieszczenie urządzeń
 

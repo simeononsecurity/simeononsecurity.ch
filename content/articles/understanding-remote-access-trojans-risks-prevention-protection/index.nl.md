@@ -60,8 +60,6 @@ Slachtoffers van RAT-aanvallen kunnen onbewust het slachtoffer worden van **onbe
 ### 3. Systeemverstoring en -schade
 
 Aanvallers kunnen trojans voor toegang op afstand gebruiken om de normale werking** van een systeem of netwerk te verstoren. Ze kunnen kritieke bestanden verwijderen of wijzigen, waardoor het systeem onstabiel of onbruikbaar wordt. Daarnaast kunnen RAT's dienen als toegangspoort voor verdere **malware infecties**, waardoor extra schade wordt aangericht of wijdverspreide aanvallen binnen de infrastructuur van een organisatie worden gefaciliteerd. Een opmerkelijk voorbeeld is de **NotPetya** ransomware-aanval, die een RAT gebruikte om zich over netwerken te verspreiden en aanzienlijke verstoringen veroorzaakte in verschillende organisaties.
-
-{{< inarticle-dark >}}
 ______
 
 ## Bescherming tegen Trojaanse paarden voor externe toegang
@@ -84,8 +82,6 @@ Om de risico's van Trojaanse paarden voor externe toegang** te beperken, moeten 
 
 Door deze preventieve maatregelen te nemen en een proactieve beveiligingshouding aan te nemen, kunnen individuen en organisaties het risico om slachtoffer te worden van remote access trojans aanzienlijk verkleinen.
 
-
-{{< inarticle-dark >}}
 
 ______
 

@@ -91,8 +91,6 @@ Om een Active Directory (AD) omgeving effectief te beheren, is het cruciaal om i
 
 Door deze krachtige cmdlets te gebruiken, kunt u eenvoudig specifieke informatie ophalen over AD-gebruikers, groepen en OU's, zodat u uw Active Directory-omgeving efficiënt kunt beheren.
 
-{{< inarticle-dark >}}
-
 
 Met deze cmdlets kun je specifieke attributen ophalen, resultaten filteren en geavanceerde query's uitvoeren om de gewenste informatie op te halen.
 
@@ -126,8 +124,6 @@ Wanneer u met Active Directory (AD) werkt, biedt de Active Directory-module in P
 
 Door gebruik te maken van deze cmdlets kun je eenvoudig nieuwe AD gebruikers, groepen en OU's maken met de gewenste eigenschappen en configuraties, waardoor je je Active Directory omgeving efficiënt kunt beheren.
 
-{{< inarticle-dark >}}
-
 
 ### Active Directory-objecten wijzigen
 
@@ -158,8 +154,6 @@ Als het gaat om het wijzigen van de eigenschappen en kenmerken van bestaande Act
   Met deze opdracht wordt de beschrijving van de opgegeven OU in de Active Directory-hiërarchie bijgewerkt.
 
 Door deze cmdlets te gebruiken, kunt u eenvoudig de eigenschappen en kenmerken van AD-objecten wijzigen en de nodige updates en aanpassingen maken om te voldoen aan de vereisten van uw organisatie.
-
-{{< inarticle-dark >}}
 
 
 ### Beveiliging van Active Directory beheren
@@ -227,8 +221,6 @@ Met de Active Directory module kunt u een breed scala aan bewerkingen uitvoeren,
 Door gebruik te maken van **PowerShell** en de **Active Directory module**, kunt u uw AD beheermogelijkheden uitbreiden en de efficiëntie van AD beheerprocessen verbeteren. Of u nu een systeembeheerder, IT professional of Active Directory manager bent, de Active Directory module voorziet u van de benodigde tools om uw AD infrastructuur effectief te beheren.
 
 Gebruik de kracht van **PowerShell** en de **Active Directory module** om uw AD beheertaken te stroomlijnen, uw productiviteit te verhogen en een veilige en goed georganiseerde Active Directory omgeving te onderhouden.
-
-{{< inarticle-dark >}}
 
 ## Referenties
 

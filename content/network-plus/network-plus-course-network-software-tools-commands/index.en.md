@@ -37,8 +37,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Command Line Tools
 
 | Tool/Command | Description |
@@ -69,8 +67,6 @@ In addition to the command line tools mentioned earlier, network administrators 
 | **show route** | The show route command shows the routing table of a network device. It displays the routes learned by the device and the associated next-hop routers. Network administrators rely on this command to verify routing information, troubleshoot routing issues, and ensure proper packet forwarding. |
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Considerations when using Network Software Tools and Commands
 

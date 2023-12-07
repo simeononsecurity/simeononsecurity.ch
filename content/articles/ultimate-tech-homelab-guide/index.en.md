@@ -28,8 +28,6 @@ A homelab is not just a hobby; it's a powerful tool for learning and professiona
 
 Now that we understand the benefits of having a homelab, let's explore the best hardware options that can help you build a powerful and budget-friendly setup.
 _______
-{{< inarticle-dark >}}
-
 ## Choosing the Right Hardware for Your Homelab
 
 When it comes to homelab hardware, there are several factors to consider, including processing power, storage capacity, networking capabilities, and power efficiency. Depending on your requirements and budget, you can choose from a variety of hardware options. Let's delve into the details of each component and explore the best choices available.
@@ -88,8 +86,6 @@ As your homelab grows, managing and maintaining it becomes more challenging. Inf
 - [**Ansible**](https://simeononsecurity.com/articles/ansible-for-beginners/) : Ansible is a powerful infrastructure automation tool that allows you to automate repetitive tasks, deploy servers, and manage configurations. It's highly versatile and can manage both Linux and Windows servers. Ansible integrates well with version control and CI/CD tools like Azure DevOps, making it a valuable asset for DevOps enthusiasts.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

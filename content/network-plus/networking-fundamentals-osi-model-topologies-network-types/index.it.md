@@ -37,8 +37,6 @@ Il **modello OSI (Open Systems Interconnection)** è un quadro concettuale che d
 
 7. **Livello 7 - Applicazione**: Il livello applicativo rappresenta le applicazioni e i servizi di rete utilizzati dagli utenti finali. Fornisce servizi quali **email**, **trasferimento di file**, **navigazione web** e **accesso remoto**.
 
-{{< inarticle-dark >}}
-
 ### Incapsulamento e decapsulamento dei dati nel contesto del modello OSI
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ Nel contesto del modello OSI, i seguenti elementi contribuiscono all'incapsulame
 - **Carico utile**: Il payload è il dato effettivo che viene trasmesso, come una pagina web, un messaggio di posta elettronica o un file multimediale.
 
 - **Unità massima di trasmissione (MTU)**: L'MTU rappresenta la dimensione massima di un pacchetto di dati che può essere trasmesso su una rete senza frammentazione.
-
-{{< inarticle-dark >}}
 
 ## Esplorazione delle topologie di rete e delle loro caratteristiche
 
@@ -140,8 +136,6 @@ La **Software-Defined Wide Area Network (SDWAN)** è una tecnologia che semplifi
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
 Il **Multipoint Generic Routing Encapsulation (mGRE)** è una tecnica utilizzata per creare reti private virtuali (VPN) incapsulando i pacchetti di dati e inviandoli su una rete multipunto. Consente una comunicazione efficiente tra più siti o endpoint.
-
-{{< inarticle-dark >}}
 
 ## Concetti di rete virtuale
 

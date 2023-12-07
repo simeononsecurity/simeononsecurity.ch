@@ -39,8 +39,6 @@ Ramy NICE definiują siedem kategorii wysokiego poziomu, które obejmują różn
 - Analizuj**: Ta kategoria koncentruje się na analizowaniu danych i informacji dotyczących cyberbezpieczeństwa w celu zidentyfikowania i zrozumienia zagrożeń, słabych punktów i ryzyka.
 - **Zbieranie i obsługa**: Ta kategoria obejmuje gromadzenie danych związanych z cyberbezpieczeństwem i zarządzanie nimi oraz obsługę systemów i infrastruktury cyberbezpieczeństwa.
 - **Investigate**: Ta kategoria obejmuje działania związane z badaniem i reagowaniem na incydenty cyberbezpieczeństwa, w tym wykrywanie, analizę i odzyskiwanie danych.
-
-{{< inarticle-dark >}}
 #### 2. Obszary Specjalności
 
 W ramach każdej kategorii ramy NICE dokonują dalszego podziału ról i obowiązków na obszary specjalistyczne. Te obszary specjalizacji zapewniają bardziej szczegółowe zrozumienie konkretnych zadań i umiejętności wymaganych do realizacji celów cyberbezpieczeństwa w ramach każdej kategorii. Niektóre przykłady obszarów specjalistycznych obejmują:
@@ -83,9 +81,7 @@ Więcej informacji na temat NICE Cybersecurity Framework i jego zalet można zna
 - [NIST Cybersecurity Framework documentation](https://www.nist.gov/cyberframework)
 - [Cybersecurity Maturity Model Certification (CMMC) website](https://dodcio.defense.gov/CMMC/)
 
-______
-{{< inarticle-dark >}}
-## Wdrażanie ram bezpieczeństwa cybernetycznego NICE
+______## Wdrażanie ram bezpieczeństwa cybernetycznego NICE
 
 Teraz, gdy rozumiemy znaczenie i korzyści płynące z NICE Cybersecurity Framework, przejdźmy do praktycznych kroków, aby skutecznie wdrożyć go w organizacji:
 

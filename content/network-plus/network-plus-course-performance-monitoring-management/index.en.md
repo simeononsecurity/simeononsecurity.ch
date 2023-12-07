@@ -29,8 +29,6 @@ Device or chassis performance metrics refer to the measurements related to the h
 
 - **Memory Utilization**: Memory utilization metrics help administrators understand the memory usage patterns of devices. High memory usage can impact device performance and lead to stability issues.
 
-{{< inarticle-dark >}}
-
 ## Monitoring Network Metrics
 
 Apart from device metrics, monitoring network-specific metrics is essential to ensure efficient data transmission and network performance. Some key network metrics include:
@@ -60,8 +58,6 @@ To effectively monitor network devices using SNMP, administrators need to config
 OIDs are used to retrieve specific performance metrics from network devices. Administrators can query devices using OIDs to collect information about CPU usage, memory utilization, temperature, and other parameters. This data can then be analyzed and used to identify performance trends, troubleshoot issues, and plan for capacity upgrades.
 
 MIBs provide a hierarchical structure for organizing performance data. They define the types of information available and the relationships between different variables. Administrators can refer to MIBs to understand the structure and meaning of performance metrics exposed by network devices.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

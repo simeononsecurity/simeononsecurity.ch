@@ -227,8 +227,6 @@ Denken Sie daran, dass regelmäßige Backups entscheidend sind, um Ihre Daten zu
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Durch die Aktivierung der automatischen Windows-Wartung wird sichergestellt, das
 Ausführlichere Informationen über die automatische Windows-Wartung und ihre Konfigurationsoptionen finden Sie in der offiziellen [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Schlussfolgerung
 

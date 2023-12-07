@@ -22,9 +22,7 @@ ______
 ## The Importance of Cybersecurity Training:
 In an increasingly connected world, the need for **cybersecurity knowledge and skills** has never been more crucial. Acquiring a strong foundation in cybersecurity is essential to protect individuals, organizations, and sensitive data from cyber threats. By investing time in cybersecurity training, beginners can develop the necessary skills to contribute to a safer digital environment.
 
-______
-{{< inarticle-dark >}}
-## Top Free Beginners Cybersecurity Platforms and Courses:
+______## Top Free Beginners Cybersecurity Platforms and Courses:
 
 ### 1. Cybrary:
 - Cybrary is a widely recognized platform that offers a variety of free cybersecurity courses for beginners. Their comprehensive course library covers topics such as ethical hacking, network security, and incident response.
@@ -86,9 +84,7 @@ ______
 - **Comprehensive Knowledge**: Beginners can gain a broad understanding of various cybersecurity domains, including network security, ethical hacking, and secure coding.
 - **Hands-on Experience**: Many of these platforms offer practical exercises, labs, and challenges to develop real-world cybersecurity skills.
 
-______
-{{< inarticle-dark >}}
-## Conclusion:
+______## Conclusion:
 With the availability of free online platforms and courses, beginners can now access high-quality cybersecurity training without financial barriers. By taking advantage of these resources, aspiring cybersecurity professionals can acquire the fundamental knowledge and skills necessary to start their journey in this exciting field.
 
 ______

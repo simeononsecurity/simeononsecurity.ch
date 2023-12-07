@@ -34,8 +34,6 @@ Furthermore, log reviews contribute to **forensic investigations**. In the event
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Types of Logs
 Network logs can be classified into several categories based on their purpose and the type of information they capture. The most common types of network logs include:
 
@@ -74,8 +72,6 @@ Interface statistics provide information about factors such as **transmitted and
 Interpreting interface statistics involves comparing current values with baseline or expected values. For example, a sudden increase in packet errors or collisions may indicate a problem with the physical cabling or network interface. By monitoring these statistics and promptly investigating abnormalities, network administrators can proactively address issues and ensure optimal network performance.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Monitoring Interface Errors or Alerts
 Network devices often generate **interface errors** or **alerts** when specific conditions or thresholds are met. These errors can indicate potential problems, such as excessive collisions, CRC errors, or interface resets. Monitoring and responding to these alerts promptly is crucial for maintaining network reliability and performance.

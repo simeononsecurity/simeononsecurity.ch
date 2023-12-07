@@ -20,9 +20,7 @@ An attack surface refers to the sum total of all the points in a system where an
 
 **Reducing the attack surface** minimizes the number of potential vulnerabilities, making it harder for attackers to compromise the system. By implementing effective security configurations using **Windows Group Policy settings**, organizations can significantly enhance their **resilience against cyber threats**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ### Definition of Attack Surface
 
@@ -132,9 +130,7 @@ Using Group Policy, the small business can enforce strong account policies, such
 
 Additionally, by configuring Windows Firewall settings through Group Policy, the small business can block inbound connections to vulnerable services, limit access to internal network resources, and enhance the overall security of the network environment.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

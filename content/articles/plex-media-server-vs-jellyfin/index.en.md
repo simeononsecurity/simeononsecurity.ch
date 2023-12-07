@@ -50,8 +50,6 @@ In summary, both **Plex Media Server** and **Jellyfin** provide powerful feature
 | Community Support         | **Yes**                                     | **Yes**                                 |
 | Platform Availability     | Wide range of devices and operating systems  | Wide range of devices and operating systems |
 
-{{< inarticle-dark >}}
-
 ## Ease of Use:
 
 When it comes to ease of use, both **Plex Media Server** and **Jellyfin** strive to provide a user-friendly experience, although there are some differences in their approach.
@@ -113,9 +111,7 @@ Jellyfin also marches alongside Plex by supporting **hardware transcoding**. Thi
 
 **In essence**, both Plex and Jellyfin offer **client apps** to access your media trove, wield robust **media server software** for organization and streaming, and embrace **hardware transcoding** to elevate playback quality. Plex takes the lead with a wider selection of official apps and integrated streaming services. Conversely, Jellyfin's open-source philosophy fosters community-driven enhancements and self-reliant media management.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion:
 

@@ -21,8 +21,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ### **Requisitos de presentación**
@@ -83,8 +81,6 @@ La inclusión en la lista de precarga es una **decisión permanente** que no pue
 
 Asegúrate de haber evaluado cuidadosamente las implicaciones antes de tomar esta importante decisión.
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

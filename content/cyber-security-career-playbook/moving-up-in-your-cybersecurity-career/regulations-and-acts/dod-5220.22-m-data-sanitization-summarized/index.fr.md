@@ -28,9 +28,7 @@ La spécification DoD 5220.22-M est importante car elle permet de protéger les 
 
 La spécification DoD 5220.22-M aide à prévenir ces types de scénarios en fournissant une norme pour effacer en toute sécurité les informations sensibles des supports de stockage numériques. Cela garantit que les informations ne peuvent pas être récupérées par des personnes non autorisées et ne peuvent pas être utilisées à des fins malveillantes.
 
-______
-{{< inarticle-dark >}}
-## Comment la spécification DoD 5220.22-M est-elle utilisée ?
+______## Comment la spécification DoD 5220.22-M est-elle utilisée ?
 
 La spécification DoD 5220.22-M est utilisée par l'armée américaine et d'autres organisations gouvernementales pour s'assurer que les informations sensibles sont effacées en toute sécurité des supports de stockage numériques avant qu'ils ne soient éliminés ou réutilisés. La spécification est utilisée par les organisations pour assainir les données des supports de stockage numériques qui sont retirés ou mis hors service.
 

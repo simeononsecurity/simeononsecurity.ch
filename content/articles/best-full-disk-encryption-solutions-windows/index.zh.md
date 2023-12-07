@@ -54,8 +54,6 @@ BitLocker 的主要优势之一是其**集中管理**功能。它可以通过**�
 通过使用 BitLocker，Windows 用户可以受益于其强大的加密功能以及与操作系统的无缝集成，从而确保敏感数据的安全。
 ______
 
-{{< inarticle-dark >}}
-
 ## [VeraCrypt](https://veracrypt.fr/en/Home.html)
 
 [**VeraCrypt**](https://veracrypt.fr/en/Home.html)是 Windows、Linux 和 macOS 的最佳全磁盘加密解决方案之一。这款流行的开源磁盘加密软件基于已停产的 TrueCrypt 项目，具有更强的安全功能和灵活性。
@@ -77,8 +75,6 @@ ______
 请记住，VeraCrypt 的安全性取决于密码的强度。请确保使用 [long and secure password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)以最大限度地提高加密效果。
 
 ______
-{{< inarticle-dark >}}
-
 ## [Symantec Endpoint Encryption](https://www.broadcom.com/products/cybersecurity/endpoint/end-user)
 
 [**Symantec Endpoint Encryption**](https://www.broadcom.com/products/cybersecurity/endpoint/end-user)是一款企业级数据加密解决方案，可为全磁盘加密、可移动媒体和单个文件提供全面保护。它专为企业设计，提供集中管理和报告功能，是拥有大量终端的企业的首选。

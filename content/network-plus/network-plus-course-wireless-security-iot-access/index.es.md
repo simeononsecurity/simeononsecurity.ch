@@ -21,8 +21,6 @@ Un aspecto fundamental de la **seguridad inalámbrica** es implementar el **filt
 
 Además del filtrado MAC, la colocación adecuada de la antena es esencial para optimizar la cobertura y la seguridad de una red inalámbrica. Colocando las antenas estratégicamente y evitando obstrucciones, puede minimizar las fugas de señal y los accesos no autorizados.
 
-{{< inarticle-dark >}}
-
 ## Establecer niveles de potencia adecuados para redes inalámbricas
 
 Establecer niveles de potencia adecuados para las redes inalámbricas es crucial para mantener la seguridad. Si el nivel de potencia es demasiado alto, la señal puede extenderse más allá del área de cobertura deseada, aumentando el riesgo de acceso no autorizado. Por el contrario, un nivel de potencia demasiado bajo puede provocar un rendimiento deficiente de la red y una cobertura limitada.
@@ -46,8 +44,6 @@ Por otro lado, EAP es un marco de autenticación que proporciona un mecanismo de
 Geofencing y Captive Portal son técnicas avanzadas que pueden mejorar aún más la seguridad inalámbrica. La geovalla consiste en definir límites virtuales y restringir el acceso a la red en función de la ubicación geográfica de los dispositivos. Esto es particularmente útil en escenarios en los que la red sólo debe ser accesible dentro de un área física específica.
 
 El portal cautivo, por su parte, es una página web que pide a los usuarios que se autentiquen o acepten los términos y condiciones antes de acceder a la red. Proporciona una capa adicional de seguridad y control, garantizando que sólo los usuarios autorizados puedan conectarse a la red inalámbrica.
-
-{{< inarticle-dark >}}
 
 ## Consideraciones para el acceso al IoT y la seguridad de los dispositivos IoT
 

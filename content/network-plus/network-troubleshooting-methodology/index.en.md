@@ -27,8 +27,6 @@ During this step, it's essential to document the information you gather, includi
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Establish a Theory of Probable Cause
 
 Once you have gathered the necessary information, the next step is to **establish a theory of probable cause**. This involves considering multiple approaches and using the **OSI model** as a framework for troubleshooting.
@@ -56,8 +54,6 @@ With a confirmed theory of the cause, the next step is to **establish a plan of 
 In some cases, the resolution may involve making configuration changes, replacing faulty hardware, or updating firmware or software. It's crucial to follow **best practices** and adhere to any relevant **government regulations** or **industry standards** during the troubleshooting process. Compliance with regulations such as **PCI DSS**, **HIPAA**, or **GDPR** ensures the security and integrity of the network.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Implement the Solution or Escalate
 

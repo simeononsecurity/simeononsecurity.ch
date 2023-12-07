@@ -23,8 +23,6 @@ The [Federal Information Security Modernization Act (FISMA)](https://simeononsec
 ## [What is FISMA?](https://simeononsecurity.com/articles/fisma-summarized/)
 
 [FISMA](https://simeononsecurity.com/articles/fisma-summarized/) is a set of standards and guidelines for information security that apply to federal agencies and their contractors. The purpose of FISMA is to ensure that sensitive information is protected from unauthorized access, use, disclosure, disruption, modification, or destruction. FISMA requires that federal agencies implement a risk-based approach to information security, which involves identifying and assessing potential security risks, implementing security controls to mitigate those risks, and continuously monitoring the effectiveness of those controls.
-
-{{< inarticle-dark >}}
 ## Key Components of FISMA
 
 There are several key components of FISMA, including:
@@ -93,8 +91,6 @@ Federal agencies must obtain authorization from the appropriate authority to ope
 
 5. **Re-accreditation**: Federal agencies must regularly assess and re-accredit their information systems to ensure that they continue to meet the necessary security standards and to identify any areas for improvement.
 
-{{< inarticle-dark >}}
-
 ## Benefits of FISMA
 
 There are several benefits of FISMA, including:
@@ -114,8 +110,6 @@ FISMA requires federal agencies to report on their information security programs
 ### Strengthened Collaboration
 
 FISMA also helps strengthen collaboration and coordination among federal agencies and their contractors and other stakeholders by requiring them to follow the same information security standards. This helps ensure that everyone is working together to protect sensitive information and that information security risks are managed effectively across all levels of the federal government.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

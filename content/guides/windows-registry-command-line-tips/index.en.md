@@ -22,9 +22,7 @@ The Windows Registry serves as a hierarchical database that contains settings an
 
 To open a command prompt with administrative privileges, press **Win + X** and choose **Command Prompt (Admin)**. Alternatively, you can use **Win + R**, type **cmd**, and press **Ctrl + Shift + Enter**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 
 ## Querying the Registry
@@ -101,9 +99,7 @@ Windows telemetry gathers usage and performance data. To disable it, navigate to
 
 Create a DWORD value named **AllowTelemetry** and set its data to **0**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

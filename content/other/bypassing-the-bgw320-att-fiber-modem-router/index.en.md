@@ -26,8 +26,6 @@ The [Azores WAG-D20](https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/A
 The default IP address of the device is 192.168.1.1 and its Gateway address has a factory typo using a public IP address i.e. it shows 192.162.1.1 instead of 192.168.1.1.
 
 Once it boots, you need to hit enter to get a login prompt on the TTL serial interface (115200 8N1). This device has an A/B image system with an overlay partition holding any files you customize.
-
-{{< inarticle-dark >}}
  
 ### Credentials
 
@@ -93,8 +91,6 @@ After customizing, reboot the ONT and enjoy true IP passthrough.
 ### Troubleshooting and Additional Steps
 For more information on this topic, please check out the [8311 discord](https://discord.gg/8311-886329492438671420) or the notes provided on [google docs](https://docs.google.com/document/d/13gucfDOf8X9ptkj5BOg12V0xcqqDZDnvROJpW5CIpJ4/).
 
-
-{{< inarticle-dark >}}
 ### Conclusion
 
 By following these steps one can successfully bypass the BGW-320 and use COTS ONT made by Azores to connect to their ISP's network. However, be careful while entering commands and make sure to replace 'x' with your device values correctly otherwise, you may face compatibility issues which may result in connection failures.

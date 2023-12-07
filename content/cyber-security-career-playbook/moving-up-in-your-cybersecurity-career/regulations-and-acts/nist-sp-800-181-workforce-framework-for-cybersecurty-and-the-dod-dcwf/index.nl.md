@@ -52,9 +52,7 @@ Het Workforce Framework voor cyberbeveiliging definieert **werkrollen** die de s
 
 Enkele veelvoorkomende werkrollen die in het raamwerk worden geïdentificeerd zijn **beveiligingsanalist**, **beveiligingsingenieur**, **netwerkarchitect**, **penetratietester**, **beveiligingsauditor** en **cyberbeveiligingsconsultant**. Deze werkrollen dienen als een waardevolle bron voor organisaties bij het definiëren van functiebeschrijvingen, het vaststellen van vaardigheidseisen en het ondersteunen van personeelsplanning en -ontwikkeling.
 
-______
-{{< inarticle-dark >}}
-### KSA's: Sleutelcompetenties voor succes
+______### KSA's: Sleutelcompetenties voor succes
 
 Om uit te blinken in cyberbeveiligingsrollen moeten professionals beschikken over specifieke **kennis**, **vaardigheden** en **vaardigheden** (KSA's). Het Workforce Framework voor cyberbeveiliging bevat een uitgebreide lijst met KSA's die essentieel zijn voor verschillende functies binnen het cyberbeveiligingsdomein.
 

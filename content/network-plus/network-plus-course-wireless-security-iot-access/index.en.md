@@ -21,8 +21,6 @@ One fundamental aspect of **wireless security** is implementing **MAC filtering*
 
 In addition to MAC filtering, proper antenna placement is essential for optimizing the coverage and security of a wireless network. By positioning antennas strategically and avoiding obstructions, you can minimize signal leakage and unauthorized access.
 
-{{< inarticle-dark >}}
-
 ## Setting Appropriate Power Levels for Wireless Networks
 
 Setting appropriate power levels for wireless networks is crucial for maintaining security. If the power level is set too high, the signal can extend beyond the desired coverage area, increasing the risk of unauthorized access. Conversely, setting the power level too low may result in poor network performance and limited coverage.
@@ -46,8 +44,6 @@ On the other hand, EAP is an authentication framework that provides a more robus
 Geofencing and captive portal are advanced techniques that can further enhance wireless security. Geofencing involves defining virtual boundaries and restricting network access based on the geographic location of devices. This is particularly useful in scenarios where the network should only be accessible within a specific physical area.
 
 Captive portal, on the other hand, is a web page that prompts users to authenticate or agree to terms and conditions before accessing the network. It provides an additional layer of security and control, ensuring that only authorized users can connect to the wireless network.
-
-{{< inarticle-dark >}}
 
 ## Considerations for IoT Access and Securing IoT Devices
 

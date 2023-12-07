@@ -38,9 +38,7 @@ The act requires adherence to **security standards and guidelines** set by the N
 #### 3. Continuous Monitoring
 FISMA promotes the concept of **continuous monitoring**. Instead of treating cybersecurity as a one-time effort, federal agencies are required to continuously monitor their systems, promptly detect anomalies, and respond to emerging threats.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## The FISMA Process: Ensuring Robust Information System Security
 
@@ -90,9 +88,7 @@ Another significant entity intertwined with FISMA is the **Federal Risk and Auth
 
 FISMA's significance is deeply rooted in its ability to establish a unified and systematic approach to cybersecurity practices across various federal agencies. By setting a common framework and **standardizing security measures**, FISMA empowers agencies to defend against **emerging cyber threats**. This proactive stance helps shield sensitive data and crucial information systems from unauthorized access, data breaches, and other security vulnerabilities.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Conclusion**: Empowering Federal Cybersecurity
 

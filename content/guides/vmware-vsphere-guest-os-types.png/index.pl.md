@@ -15,8 +15,6 @@ W tym artykule zbadamy **ważne wartości "guest_os_type "** dla vSphere Packer 
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Wprowadzenie do VMware vSphere Packer Builder
@@ -139,8 +137,6 @@ ______
 Podsumowując, wartość **"guest_os_type "** jest krytycznym parametrem podczas korzystania z Packera z VMware vSphere. Określa ona system operacyjny gościa, który ma zostać zainstalowany na maszynie wirtualnej i wpływa na konfiguracje stosowane przez vSphere. Odnosząc się do listy prawidłowych wartości podanych w tym artykule, użytkownicy mogą podejmować świadome decyzje podczas tworzenia obrazów maszyn wirtualnych dla różnych przypadków użycia.
 
 Należy pamiętać, aby wybrać odpowiedni typ systemu operacyjnego w oparciu o konkretną wersję, architekturę i przypadek użycia maszyny wirtualnej. Zapewni to najlepszą wydajność, kompatybilność i funkcjonalność dla środowisk zwirtualizowanych.
-
-{{< inarticle-dark >}}
 
 ______
 

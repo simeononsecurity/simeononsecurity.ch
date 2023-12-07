@@ -21,8 +21,6 @@ As the complexity and scale of networks continue to grow, it becomes increasingl
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Camera-Based Detection and Motion Detection
 
 **Camera-based detection** is a powerful tool for network security, providing real-time monitoring and surveillance capabilities. By deploying security cameras strategically, organizations can visually monitor their premises and identify any suspicious activities or unauthorized access attempts. Additionally, video footage can serve as valuable evidence in the event of a security incident.
@@ -46,8 +44,6 @@ ______
 Training programs should cover a wide range of topics, including password hygiene, phishing awareness, data classification, and incident reporting procedures. Furthermore, regular training sessions and updates should be conducted to keep employees informed about the evolving threat landscape and emerging security trends.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Access Control Hardware: Badge Readers and Biometrics
 

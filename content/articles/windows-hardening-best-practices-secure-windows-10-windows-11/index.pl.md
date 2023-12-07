@@ -227,8 +227,6 @@ Należy pamiętać, że regularne tworzenie kopii zapasowych ma kluczowe znaczen
 
 ______
 
-{{< inarticle-dark >}}
-
 
 ### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
@@ -416,8 +414,6 @@ Włączenie automatycznej konserwacji systemu Windows zapewnia optymalizację i 
 Więcej szczegółowych informacji na temat Automatycznej Konserwacji Windows i jej opcji konfiguracyjnych można znaleźć w oficjalnym dokumencie [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Wnioski
 

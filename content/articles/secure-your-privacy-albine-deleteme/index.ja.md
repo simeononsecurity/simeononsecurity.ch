@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## データ・プライバシー・ソリューションの必要性
@@ -76,8 +74,6 @@ Albineのサービスを利用することで [**Albine DeleteMe**](https://dnt.
 信頼できる [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt)が積極的にデータを保護することで、ユーザーは安心感を得ることができる。データが悪用される心配を減らしながら、インターネットを閲覧し、オンライン活動を行うことができる。
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

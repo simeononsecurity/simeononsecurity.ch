@@ -44,8 +44,6 @@ Before proceeding with the automation, it is important to consider the following
 - **All ESXi hosts and guests tied to vCenter need to be STIG'ed.**
 - **Troubleshooting skills are necessary to address any issues that may arise during the process.**
 
-{{< inarticle-dark >}}
-
 ### Script: VMware VCSA STIG Automation
 
 The following PowerCLI script can be used to automate the implementation of selected STIG controls for VCSAs:
@@ -204,8 +202,6 @@ Let's break down the script and understand its functionalities:
 - **Please note that this script serves as an example and should be customized to meet the specific requirements of your environment. It demonstrates the capabilities of PowerCLI in automating STIG implementation.**
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Automating VMware VM STIG
 In addition to securing ESXi hosts, it is essential to apply STIG controls to virtual machines (VMs) running on the VMware infrastructure. PowerCLI can help automate the process of configuring VMs according to STIG guidelines.

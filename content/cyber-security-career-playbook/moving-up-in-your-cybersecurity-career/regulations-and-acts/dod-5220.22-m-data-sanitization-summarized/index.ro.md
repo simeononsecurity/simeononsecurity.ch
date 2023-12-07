@@ -28,9 +28,7 @@ Specificația DoD 5220.22-M este importantă pentru că ajută la protejarea inf
 
 Specificația DoD 5220.22-M contribuie la prevenirea acestor tipuri de scenarii prin furnizarea unui standard pentru ștergerea în siguranță a informațiilor sensibile de pe suporturile de stocare digitală. Acest lucru asigură faptul că informațiile nu pot fi recuperate de persoane neautorizate și nu pot fi utilizate în scopuri rău intenționate.
 
-______
-{{< inarticle-dark >}}
-## Cum se utilizează specificația DoD 5220.22-M?
+______## Cum se utilizează specificația DoD 5220.22-M?
 
 Specificația DoD 5220.22-M este utilizată de armata americană și de alte organizații guvernamentale pentru a se asigura că informațiile sensibile sunt șterse în siguranță de pe mediile de stocare digitală înainte de a fi eliminate sau reutilizate. Specificația este utilizată de organizații pentru a curăța datele de pe mediile de stocare digitală care sunt retrase sau scoase din uz.
 

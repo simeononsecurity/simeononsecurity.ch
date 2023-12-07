@@ -52,8 +52,6 @@ Par exemple, voici les étapes à suivre pour démarrer avec Hackthebox Academy 
 
 En suivant ces étapes simples, vous pouvez obtenir **un accès complet** aux **ressources** et **matériels de formation** proposés par Hackthebox Academy. Commencez votre **apprentissage de la cybersécurité** dès aujourd'hui !
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Explorer les fonctionnalités de Hackthebox Academy
@@ -119,8 +117,6 @@ Le prix de l'abonnement premium peut varier en fonction de la durée de l'abonne
 Il est important de noter que les prix et les plans proposés par Hackthebox Academy sont susceptibles d'être modifiés. Il est donc recommandé de visiter le site officiel pour obtenir les informations les plus précises et les plus récentes sur les options tarifaires disponibles.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

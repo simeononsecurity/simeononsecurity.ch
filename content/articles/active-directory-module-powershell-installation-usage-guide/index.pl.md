@@ -91,8 +91,6 @@ Aby efektywnie zarządzać środowiskiem Active Directory (AD), kluczowe jest po
 
 Korzystając z tych zaawansowanych poleceń cmdlet, można łatwo pobrać określone informacje o użytkownikach, grupach i jednostkach OU usługi AD, umożliwiając wydajną administrację i zarządzanie środowiskiem Active Directory.
 
-{{< inarticle-dark >}}
-
 
 Te polecenia cmdlet umożliwiają pobieranie określonych atrybutów, filtrowanie wyników i wykonywanie zaawansowanych zapytań w celu pobrania żądanych informacji.
 
@@ -126,8 +124,6 @@ Podczas pracy z Active Directory (AD), moduł Active Directory w PowerShell ofer
 
 Korzystając z tych poleceń cmdlet, można łatwo tworzyć nowych użytkowników, grupy i jednostki organizacyjne AD z żądanymi właściwościami i konfiguracjami, umożliwiając wydajne zarządzanie środowiskiem Active Directory.
 
-{{< inarticle-dark >}}
-
 
 ### Modyfikowanie obiektów usługi Active Directory
 
@@ -158,8 +154,6 @@ Jeśli chodzi o modyfikowanie właściwości i atrybutów istniejących obiektó
   To polecenie zaktualizuje opis określonej jednostki organizacyjnej w hierarchii usługi Active Directory.
 
 Korzystając z tych poleceń cmdlet, można łatwo modyfikować właściwości i atrybuty obiektów AD, dokonując niezbędnych aktualizacji i dostosowań w celu spełnienia wymagań organizacji.
-
-{{< inarticle-dark >}}
 
 
 ### Zarządzanie bezpieczeństwem Active Directory
@@ -227,8 +221,6 @@ Za pomocą modułu Active Directory można wykonywać szeroki zakres operacji, t
 Wykorzystując **PowerShell** i **moduł Active Directory**, można zwiększyć swoje możliwości administracyjne AD i poprawić wydajność procesów zarządzania AD. Niezależnie od tego, czy jesteś administratorem systemu, specjalistą IT, czy menedżerem Active Directory, moduł Active Directory wyposaża Cię w niezbędne narzędzia do efektywnego zarządzania infrastrukturą AD.
 
 Wykorzystaj moc **PowerShell** i **modułu Active Directory**, aby usprawnić zadania administracyjne AD, zwiększyć produktywność oraz utrzymać bezpieczne i dobrze zorganizowane środowisko Active Directory.
-
-{{< inarticle-dark >}}
 
 ## Referencje
 

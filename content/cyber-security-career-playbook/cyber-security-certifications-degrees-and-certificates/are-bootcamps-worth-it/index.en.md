@@ -34,8 +34,6 @@ For example, a full-time, immersive bootcamp might cost around $2,000 to $15,000
 
 In summary, bootcamps offer the advantage of rapid skill acquisition, hands-on learning experiences, and cost-effectiveness, making them an attractive option for individuals seeking quick career transitions or new skill development.
 
-{{< inarticle-dark >}}
-
 ## Cons of Bootcamps
 
 While bootcamps offer many benefits, there are also some drawbacks that you should be aware of. One of the **biggest concerns** is that bootcamps may not provide a **comprehensive education**. Since bootcamps are designed to be fast-paced and intensive, they may not cover every aspect of a particular subject. This can be a disadvantage for individuals who prefer a more in-depth understanding of a topic.

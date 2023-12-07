@@ -42,8 +42,6 @@ TryHackMe bietet sowohl kostenlose als auch Premium-Abonnements an. Der kostenlo
 
 Für das Premium-Abonnement von TryHackMe fallen monatliche Kosten in Höhe von `$10.99` Es bietet ein gutes Preis-Leistungs-Verhältnis, da es Zugang zu einer umfangreichen Bibliothek von Inhalten, Zertifizierungen und einer aktiven Gemeinschaft von Gleichgesinnten bietet.
 
-{{< inarticle-dark >}}
-
 ### TryHackMe-Zertifikate
 
 TryHackMe bietet Zertifikate für den Abschluss bestimmter Räume oder Lernpfade an. Diese Zertifikate dienen als Leistungsnachweis und können dem eigenen beruflichen Profil hinzugefügt oder mit potenziellen Arbeitgebern geteilt werden. Durch den Erwerb von Zertifikaten von TryHackMe können Einzelpersonen ihre praktischen Cybersecurity-Fähigkeiten nachweisen und ihre Karriereaussichten verbessern.
@@ -63,8 +61,6 @@ Durch die Verwendung des TryHackMe VPN können sich die Benutzer vertrauensvoll 
 | [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | Eine Einführung in Windows-Betriebssysteme, die grundlegende Konzepte und wichtige Sicherheitsaspekte behandelt.                       |
 | [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | Vertiefung der Active Directory-Grundlagen: Active Directory-Struktur, Domänencontroller, Benutzerkonten, Gruppenrichtlinien und Sicherheitsschwachstellen.                    |
 
-
-{{< inarticle-dark >}}
 
 ## Schlussfolgerung
 

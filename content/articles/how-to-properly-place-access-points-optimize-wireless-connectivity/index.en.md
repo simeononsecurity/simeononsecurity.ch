@@ -21,8 +21,6 @@ In today's digital era, a strong and stable wireless network is essential for bo
 
 {{< youtube id="_NMS4bs8_II" >}}
 
-{{< inarticle-dark >}}
-
 ## Understanding Wireless Interference
 
 Before we delve into the details of access point placement, let's first explore the different kinds of **wireless interference** that can affect network performance. By understanding these interference sources, we can strategically position access points to minimize their impact. Here are some common types of wireless interference:
@@ -91,8 +89,6 @@ By considering these best practices, you can select the right wireless radios fo
 
 Remember, the choice of wireless radios should align with your network goals and the characteristics of your space. This will ensure that you **optimize performance, coverage, and connectivity** for your wireless network.
 
-
-{{< inarticle-dark >}}
 
 
 ## Guidelines for Access Point Placement

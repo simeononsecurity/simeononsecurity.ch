@@ -23,9 +23,7 @@ Les courriels contiennent des informations sensibles, notamment des données per
 
 En utilisant des services tels que [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) vous pouvez sécuriser vos conversations électroniques et les protéger contre les cybermenaces potentielles. Ces **fournisseurs de messagerie sécurisée** utilisent **un cryptage de pointe** pour protéger vos données précieuses et s'assurer que seuls les destinataires prévus peuvent accéder au contenu.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail : Sécurisé et centré sur l'utilisateur
 

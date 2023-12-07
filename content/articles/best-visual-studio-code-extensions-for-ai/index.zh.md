@@ -49,8 +49,6 @@ Jupyter 笔记本已成为人工智能实验和原型开发的热门选择。Vis
 
 你可以从 Visual Studio Code 官方市场下载 IntelliCode 扩展： [IntelliCode extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-{{< inarticle-dark >}}
-
 ### 5.装载机
 
 Docker 广泛用于人工智能工作流程中的容器化。Visual Studio Code 的**Docker 扩展**简化了编辑器中对 Docker 容器和映像的管理。它为构建、运行和调试容器提供了一个图形界面，使开发人员能够专注于他们的人工智能模型，而不是处理复杂的 Docker 命令。
@@ -83,8 +81,6 @@ Visual Studio Code 的**数据预览扩展**可帮助人工智能开发人员直
 
 这些扩展是对现有扩展的补充，增强了 Visual Studio Code 中的人工智能开发体验，使其成为人工智能工作流程中更强大的工具。
 ______
-
-{{< inarticle-dark >}}
 
 ## 结论
 

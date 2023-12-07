@@ -29,8 +29,6 @@ Pentru a afla mai multe despre resursele de învățare și platformele de forma
 - [Cybersecurity Training: Online Programs and Video Courses for Skill Development](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/)
 - [SimeonOnSecurity's Recommended Books](/recommendations/books)
 - [SimeonOnSecurity's Recommended Learning Resources](/recommendations/learning_resources)
-
-{{< inarticle-dark >}}
 ## Certificări populare de securitate cibernetică:
 
 Obținerea de **certificații de securitate cibernetică** poate crește în mod semnificativ acreditările unui profesionist și poate demonstra expertiza acestuia în domenii specifice de securitate cibernetică. Iată câteva certificări populare care sunt foarte apreciate în industrie:

@@ -33,8 +33,6 @@ Implementarea unor măsuri de securitate solide în aplicațiile dumneavoastră 
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Cele mai bune practici de securitate Python
 
 Pentru a spori securitatea aplicațiilor Python, este esențial să urmați aceste bune practici:
@@ -100,8 +98,6 @@ Prin aplicarea tehnicilor de criptare pentru a proteja datele sensibile, adăuga
 Pentru a afla mai multe despre criptarea în Python și despre cum să o implementați în mod eficient, puteți consulta bibliotecile și documentația relevante, cum ar fi biblioteca **Python Cryptography** și manualul oficial [TLS RFC](https://tools.ietf.org/html/rfc5246) pentru înțelegerea protocolului TLS.
 
 Nu uitați că criptarea este doar un aspect al protecției datelor sensibile. Este la fel de important să se implementeze practici de **stocare securizată**, **controale de acces** și **gestionare securizată a cheilor** pentru a asigura o protecție completă a datelor.
-
-{{< inarticle-dark >}}
 
 ### 5. Acces securizat la baza de date
 
@@ -174,8 +170,6 @@ Investind în educația și formarea dezvoltatorilor, creați o bază solidă pe
 Nu uitați, **securitatea este un proces continuu**, iar educația și formarea continuă sunt necesare pentru a fi în fața amenințărilor în evoluție și pentru a menține cele mai înalte standarde de securitate în proiectele dumneavoastră de dezvoltare Python.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Fișa de trucuri pentru cele mai bune practici de securitate Python
 

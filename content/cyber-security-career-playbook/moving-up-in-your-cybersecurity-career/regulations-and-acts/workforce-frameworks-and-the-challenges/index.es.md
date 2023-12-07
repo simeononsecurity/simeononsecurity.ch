@@ -42,9 +42,7 @@ ______
 
 Dado que estos marcos se aplicarán en los próximos años, los aspirantes a profesionales de la ciberseguridad disponen de un tiempo limitado para prepararse. Es esencial familiarizarse con los marcos, como el **DoD DCWF**, y revisar detenidamente los requisitos descritos. Al conocer en profundidad las cualificaciones necesarias para las funciones que desean desempeñar, las personas pueden adaptar en consecuencia sus estudios y vías de certificación.
 
-______
-{{< inarticle-dark >}}
-## Conclusión
+______## Conclusión
 
 El panorama en evolución de los marcos de la fuerza laboral, ejemplificado por el **DoD DCWF** y las directrices relacionadas, presenta tanto oportunidades como retos para los profesionales de la ciberseguridad. Si bien estos marcos se esfuerzan por establecer requisitos estandarizados y mejorar la calidad general de la mano de obra, también hacen que sea más difícil para las personas salvar la brecha entre diferentes campos o asegurar sus primeros puestos de trabajo. El mayor énfasis en las certificaciones, la experiencia directa y la eliminación de las opciones de exención requieren una preparación proactiva y un desarrollo profesional continuo. Si se mantienen informados y planifican estratégicamente sus trayectorias profesionales, los aspirantes a profesionales pueden sortear estos cambios con éxito y prosperar en el competitivo sector de la ciberseguridad.
 

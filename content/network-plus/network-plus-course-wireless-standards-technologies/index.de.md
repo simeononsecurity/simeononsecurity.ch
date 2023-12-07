@@ -17,8 +17,6 @@ Drahtlose Netzwerke spielen in unserer vernetzten Welt eine entscheidende Rolle,
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Verschiedene 802.11-Standards erforschen
 
 Die 802.11-Standards, gemeinhin als Wi-Fi bekannt, definieren die Spezifikationen für drahtlose lokale Netzwerke (WLANs).
@@ -54,8 +52,6 @@ Drahtlose Netzwerke sind in Kanäle unterteilt, und die verfügbaren Kanäle kö
 **Kanalbündelung**: Die Kanalbündelung ermöglicht die Zusammenlegung mehrerer Kanäle, um die für die Datenübertragung verfügbare Gesamtbandbreite zu erhöhen. Es verbessert die Netzleistung, indem es höhere Datenraten ermöglicht.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Übersicht der Antennentypen, Verschlüsselungsstandards und SSID-Konfigurationen
 

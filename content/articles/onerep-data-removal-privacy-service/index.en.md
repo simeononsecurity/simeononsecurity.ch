@@ -25,8 +25,6 @@ In the age of information, our **personal data is constantly being collected, st
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## **What is OneRep?**
@@ -64,8 +62,6 @@ ______
 - **Complying with Regulations:** **OneRep adheres to relevant government regulations**, such as the **General Data Protection Regulation (GDPR)** and the **California Consumer Privacy Act (CCPA)**. These regulations emphasize data protection and individual privacy rights.
 
 ______
-
-{{< inarticle-dark >}}
 ______
 
 ## **The Importance of Data Removal Services in the Modern World**

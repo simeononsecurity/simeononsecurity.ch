@@ -52,9 +52,7 @@ Cadrul pentru forța de muncă în domeniul securității cibernetice definește
 
 Unele roluri de muncă comune identificate în cadrul includ **analist de securitate**, **inginer de securitate**, **arhitect de rețea**, **tester de penetrare**, **auditor de securitate** și **consultant în domeniul securității cibernetice**. Aceste roluri de muncă servesc drept resursă valoroasă pentru organizații în definirea descrierilor posturilor, identificarea cerințelor de competențe și sprijinirea planificării și dezvoltării forței de muncă.
 
-______
-{{< inarticle-dark >}}
-### KSAs: Competențe cheie pentru succes
+______### KSAs: Competențe cheie pentru succes
 
 Pentru a excela în rolurile din domeniul securității cibernetice, profesioniștii trebuie să posede **cunoștințe**, **abilități** și **abilități** (KSA) specifice. Workforce Framework for Cybersecurity (Cadrul forței de muncă pentru securitatea cibernetică) prezintă o listă cuprinzătoare de KSA-uri care sunt esențiale pentru diferite roluri de lucru în domeniul securității cibernetice.
 

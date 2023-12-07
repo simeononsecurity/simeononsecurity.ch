@@ -72,8 +72,6 @@ ______
 
 Kali Purple 2023.1 continues to expand its support for ARM devices, adding compatibility for new devices like the **Radxa Zero** and improving existing support for devices like the **LG V20**. This broad range of support ensures that Kali can be used on a variety of hardware, from small single-board computers to powerful smartphones.
 
-{{< inarticle-dark >}}
-
 ______
 
 ## Documentation and Community

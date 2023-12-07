@@ -230,9 +230,7 @@ Now that you have the required tools and materials, let's get into the nitty-gri
 - Label the custom cable for easy identification.
 - Organize your cables neatly to avoid tangling and potential damage.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

@@ -28,8 +28,6 @@ Um mit dem Mining von Spacemesh mit mehreren GPUs zu beginnen, folgen Sie diesen
 
 ______
 
-{{< inarticle-dark >}}
-
 ### Schritt 1: Variablen konfigurieren
 
 Öffnen Sie einen Texteditor oder einen PowerShell-Skripteditor und stellen Sie die konfigurierbaren Variablen entsprechend Ihren Anforderungen ein.
@@ -48,8 +46,6 @@ Das mitgelieferte Skript enthält bereits einige Variablen, die Sie anpassen kö
 - `$numUnits` Legen Sie die Anzahl der zu fördernden Speichereinheiten fest. Der Standardwert ist 16.
 
 - `$datadir` Legen Sie den Pfad zum Datenverzeichnis fest, in dem Ihre Mining-Daten gespeichert werden sollen.
-
-{{< inarticle-dark >}}
 
 ### Schritt 2: Ausführen des Skripts
 

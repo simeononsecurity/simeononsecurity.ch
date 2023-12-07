@@ -51,6 +51,4 @@ Decentralization remains a fundamental principle in blockchain technology, provi
 
 ______
 
-{{< inarticle-dark >}}
-
 ______

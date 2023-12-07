@@ -29,9 +29,7 @@ Traditionell verließen sich viele Unternehmen auf interne Cybersicherheitsdiens
 
 Die Entscheidung, ob Cybersicherheit ausgelagert werden soll, hängt von verschiedenen Faktoren wie **Unternehmensgröße**, **Sicherheitsbedrohungen**, **Budget**, **Geschäftsmodell** und **vorhandenem Talentpool** ab. Um eine fundierte Entscheidung zu treffen, ist es wichtig, diese Faktoren gründlich zu berücksichtigen.
 
-______
-{{< inarticle-dark >}}
-### Faktoren, die vor dem Outsourcing zu berücksichtigen sind
+______### Faktoren, die vor dem Outsourcing zu berücksichtigen sind
 
 #### 1. Die Art der Sicherheitsbedrohungen und Cybersicherheitsbedürfnisse
 
@@ -120,9 +118,7 @@ Neben den zahlreichen Vorteilen des Outsourcings von Cybersicherheit ist es wich
 5. **Risiko von Dienstunterbrechungen**: Die Abhängigkeit von einem einzigen Outsourcing-Anbieter für kritische Cybersicherheitsdienste birgt das Risiko von Dienstunterbrechungen. Wenn das auslagernde Unternehmen technische Probleme, Personalprobleme oder Unterbrechungen in seinen Abläufen hat, kann dies die Fähigkeit der Organisation beeinträchtigen, wirksam auf Sicherheitsvorfälle zu reagieren. Um dieses Risiko zu mindern, müssen Backup-Pläne, Redundanzen und vertragliche Garantien für die Verfügbarkeit der Dienste in Betracht gezogen werden.
 
 Insgesamt kann das Outsourcing der Cybersicherheit für Unternehmen erhebliche Vorteile in Bezug auf Fachwissen, Kosteneffizienz und
-______
-{{< inarticle-dark >}}
-### Bewährte Praktiken für effektives Outsourcing
+______### Bewährte Praktiken für effektives Outsourcing
 
 Um ein erfolgreiches Outsourcing der Cybersicherheit zu gewährleisten, sollten Sie die folgenden Best Practices beachten:
 

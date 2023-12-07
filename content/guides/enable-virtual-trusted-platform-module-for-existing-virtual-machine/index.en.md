@@ -38,9 +38,7 @@ Before proceeding with adding a vTPM to your virtual machine, ensure that you me
    - Cryptographic operations.Migrate
    - Cryptographic operations.Register VM
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Adding Virtual Trusted Platform Module (vTPM)
 
@@ -68,9 +66,7 @@ Enabling a vTPM for your virtual machine offers several significant benefits:
 
 3. **BitLocker Encryption Support:** If you are running a Windows guest OS, enabling vTPM is a prerequisite for using BitLocker encryption on virtual machine disks. This adds an additional layer of data protection.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusion
 

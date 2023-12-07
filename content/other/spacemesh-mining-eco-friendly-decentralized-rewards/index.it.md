@@ -19,9 +19,7 @@ Spacemesh è una criptovaluta nuova e innovativa che impiega un approccio di min
 
 In questo articolo esploreremo i dettagli del mining Spacemesh, capiremo come funziona e discuteremo i suoi vantaggi e le potenziali sfide. Che siate appassionati di criptovalute o neofiti, questa guida vi fornirà preziose informazioni sull'affascinante mondo del mining Spacemesh.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Che cos'è lo Spacemesh Mining?
 
@@ -81,9 +79,7 @@ Il processo di meshing dinamico, pur essendo essenziale per la decentralizzazion
 
 Man mano che un maggior numero di partecipanti si unisce alla rete Spacemesh, la competizione per le ricompense può intensificarsi. I meshers devono valutare attentamente il costo dello storage, dell'elettricità e dell'hardware rispetto ai potenziali guadagni per garantire che il mining rimanga redditizio.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusione
 

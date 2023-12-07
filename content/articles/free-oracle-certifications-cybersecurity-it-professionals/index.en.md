@@ -50,8 +50,6 @@ These **free Oracle certifications** offer an excellent opportunity for **cybers
 For more information about these **free Oracle certifications** and other certification options, you can visit the official **Oracle Certification** [website](https://education.oracle.com/oracle-certification-overview). Explore the available options and resources to find the certifications that align with your career goals and interests.
 ______
 
-{{< inarticle-dark >}}
-
 ## [**Oracle University and Its Offerings**](https://education.oracle.com/learn/oracle-cloud-infrastructure/pPillar_640)
 
 In the dynamic world of technology, continuous learning and professional development are paramount for staying ahead. Enter **Oracle University**, the esteemed training arm of **Oracle Corporation**. With its comprehensive education and certification programs, Oracle University empowers individuals and organizations to excel in the realm of Oracle technologies. Let's delve into the **key features** that make Oracle University a go-to resource for learners:
@@ -67,8 +65,6 @@ In the dynamic world of technology, continuous learning and professional develop
 Embrace the offerings of Oracle University to **empower your learning journey** and gain the knowledge and skills necessary for success in the ever-evolving landscape of Oracle technologies.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## [**Oracle Cloud Infrastructure (OCI)**](https://education.oracle.com/learn/oracle-cloud-infrastructure/pPillar_640)
 
@@ -102,8 +98,6 @@ Now that we have explored **free Oracle certifications** and the significance of
 4. **Increased Earning Potential**: Certified professionals often enjoy higher earning potential compared to their non-certified counterparts. Oracle certifications validate your expertise, making you a valuable asset to organizations seeking skilled professionals.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## **Conclusion**
 

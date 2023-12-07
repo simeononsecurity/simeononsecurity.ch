@@ -23,8 +23,6 @@ Celem podręcznika jest wdrożenie polityki, przypisanie obowiązków i określe
 ## Zastosowanie
 
 Podręcznik ma zastosowanie do całego personelu DoD przypisanego do stanowisk wymagających wykonywania pracy w cyberprzestrzeni zgodnie z DoDI 8140.02. Podręcznik ma również zastosowanie do OSD, Departamentów Wojskowych, Biura CJCS i Wspólnego Sztabu, Dowództw Bojowych, Biura Inspektora Generalnego Departamentu Obrony, Agencji Obrony, działań terenowych DoD i wszystkich innych jednostek organizacyjnych w ramach DoD.
-
-{{< inarticle-dark >}}
 ## Obowiązki
 
 W sekcji 2 podręcznika przedstawiono obowiązki różnych podmiotów w zakresie zarządzania pracownikami cyberprzestrzeni. Poniżej przedstawiono niektóre z wyróżnionych obowiązków:
@@ -83,8 +81,6 @@ Obszary kwalifikacji rezydenta są specyficzne dla roli zawodowej, a zapewnione 
 
 DoD musi posiadać wiedzę na temat wymagań dotyczących stanowisk pracowników cyberprzestrzeni oraz zapewnić wykwalifikowany i gotowy personel do skutecznego i wydajnego zarządzania pracownikami cyberprzestrzeni. Istniejące systemy kadrowe i personalne powinny być wykorzystywane do raportowania i zarządzania personelem.
 
-
-{{< inarticle-dark >}}
 ## Wnioski
 
 Program DoD Cyberspace Workforce Qualification and Management Program ma na celu rozwój i utrzymanie wykwalifikowanej i wykwalifikowanej siły roboczej w cyberprzestrzeni, która może działać w koordynacji z wojownikami, firmami i właścicielami systemów misji. Program ten określa kwalifikacje wymagane dla każdej roli roboczej DCWF do trzech poziomów biegłości.

@@ -34,9 +34,7 @@ L'effacement consiste à remplacer les données d'un appareil par une série de 
 
 La purge consiste à écraser plusieurs fois les données d'un dispositif avec un modèle de valeurs binaires. Cette méthode est plus sûre que l'effacement et est recommandée pour assainir les données sensibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par la [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
 
-__________________________________________
-{{< inarticle-dark >}}
-## Conclusion
+__________________________________________## Conclusion
 
 En conclusion, **la désinfection des supports amovibles est cruciale pour s'assurer que les données sensibles stockées sur ces appareils ne sont pas divulguées ou accessibles par des personnes non autorisées.** NIST 800-88 Revision 1 fournit des lignes directrices pour la désinfection de tous les types de supports amovibles, y compris les disques durs, les disques SSD, les clés USB, les CD, les DVD et les disques Blu-ray, y compris la destruction physique, l'effacement et la purge. **La destruction physique est la méthode la plus sûre pour assainir les supports amovibles, mais le nettoyage et la purge sont également des méthodes efficaces qui offrent un niveau de sécurité élevé.
 

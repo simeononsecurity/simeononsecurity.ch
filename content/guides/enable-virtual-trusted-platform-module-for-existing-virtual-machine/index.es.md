@@ -38,9 +38,7 @@ Antes de proceder a añadir un vTPM a su máquina virtual, asegúrese de que cum
    - Operaciones criptográficas.Migrate
    - Operaciones criptográficas.Register VM
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Añadir Módulo de Plataforma Virtual de Confianza (vTPM)
 
@@ -68,9 +66,7 @@ Habilitar un vTPM para su máquina virtual ofrece varios beneficios significativ
 
 3. **Si está ejecutando un sistema operativo invitado Windows, la activación de vTPM es un requisito previo para utilizar el cifrado BitLocker en los discos de la máquina virtual. Esto añade una capa adicional de protección de datos.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## Conclusión
 

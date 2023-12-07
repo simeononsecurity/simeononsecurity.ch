@@ -29,9 +29,7 @@ Alegând o găzduire web privată, utilizatorii pot beneficia de:
 - **Înregistrare anonimă a domeniului** pentru a-și **proteja identitatea**.
 - **Criptare** și alte **măsuri de securitate** pentru a **proteja informațiile sensibile**.
 - Libertatea de exprimare** și **contenit fără teama de cenzură**.
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Privex**](https://www.privex.io/)
 
@@ -93,9 +91,7 @@ ______
 
 La fel ca și OrangeWebsite, **1984 funcționează în conformitate cu cadrul legal islandez**, care este favorabil **protecției vieții private și libertății de exprimare**.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## [**Njalla**](https://njal.la/)
 

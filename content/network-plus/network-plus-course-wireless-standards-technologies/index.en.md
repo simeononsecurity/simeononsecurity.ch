@@ -17,8 +17,6 @@ Wireless networks play a crucial role in our interconnected world, allowing seam
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Exploring Different 802.11 Standards
 
 The 802.11 standards, commonly known as Wi-Fi, define the specifications for wireless local area networks (WLANs). 
@@ -54,8 +52,6 @@ Wireless networks are divided into channels, and the available channels may vary
 **Channel Bonding**: Channel bonding allows the aggregation of multiple channels to increase the overall bandwidth available for data transmission. It improves network performance by enabling higher data rates.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Overview of Antenna Types, Encryption Standards, and SSID Configurations
 

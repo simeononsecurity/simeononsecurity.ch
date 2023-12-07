@@ -89,9 +89,7 @@ Per le installazioni automatiche in ambienti virtualizzati, è possibile utilizz
 
 La necessità di TPM 2.0 e Secure Boot per l'installazione di Windows 11 si basa sui requisiti di sistema dichiarati da Microsoft. In alcuni casi, ad esempio in ambienti governativi o regolamentati, l'esclusione di questi controlli potrebbe non essere conforme a normative o standard di sicurezza specifici. Le organizzazioni devono considerare attentamente i propri requisiti e consultare le normative applicabili, come quelle di agenzie governative come il **National Institute of Standards and Technology (NIST)**, per garantire la conformità.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Conclusione**
 

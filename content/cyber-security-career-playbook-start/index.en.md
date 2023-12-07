@@ -61,8 +61,6 @@ Welcome to the world of cybersecurity! In today's digital age, protecting sensit
 #### [Joining Cyber Security Communities and Forums](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/joining-cybersecurity-communities-and-forums/)
 - Joining cybersecurity communities and forums can unlock a world of expertise, networking, and professional growth.
 
-{{< inarticle-dark >}}
-
 ### CyberSecurity Career Outlooks and Information
 
 #### [What Does a Cybersecurity Career Path Look Like?](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-career-path-look-like/)
@@ -140,8 +138,6 @@ We've included a few tips and tricks for these certifications below:
 #### [Army Cybersecurity Awareness Training: What You Need to Know](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/army-cybersecurity-awareness-training-what-you-need-to-know/)
 - Get insights into the cybersecurity awareness training provided by the army and its relevance in today's digital landscape.
 
-{{< inarticle-dark >}}
-
 ## Getting a Job in Cyber Security
 
 Securing a job in cybersecurity requires a combination of knowledge, experience, and preparation. In this section, you'll discover valuable resources and insights to help you navigate the job market, prepare for interviews, and increase your chances of landing an entry-level or remote cybersecurity position.
@@ -205,8 +201,6 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 - [How to Find and Get the Best Remote Cybersecurity Job](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-get-the-best-remote-cybersecurity-job/)
   - Explore strategies and resources to find and secure remote cybersecurity jobs that align with your career goals.
 
-{{< inarticle-dark >}}
-
 
 
 ## Moving up in your Cyber Security Career
@@ -247,8 +241,6 @@ Learn about the [Federal Information Security Management Act (FISMA/)](https://s
 #### [NIST 800-88 - Guidelines for Media Sanitization - Summarized](https://simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/)
 - Learn about the summarized guidelines outlined in NIST 800-88 for media sanitization.
 
-{{< inarticle-dark >}}
-
 
 ## Managing a Cyber Security Team
 
@@ -284,8 +276,6 @@ Developing robust cyber security plans and programs is essential for effective s
 
 - [How to Develop an Incident Response Program](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-an-incident-responce-program/): 
   - This resource provides guidance on building an effective incident response program, including planning, team roles, and incident handling best practices.
-
-{{< inarticle-dark >}}
 
 ## Conclusion
 

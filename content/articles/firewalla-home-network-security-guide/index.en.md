@@ -32,9 +32,7 @@ ______
 - **Intrusion Detection System (IDS):** The IDS functionality of Firewalla monitors network traffic for any suspicious or unauthorized activities, providing an extra layer of security.
 - **Family Protection:** For households with children, Firewalla offers content filtering and monitoring, allowing parents to control and track online activities.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Advantages for Home Labs**
 
@@ -72,9 +70,7 @@ While **Firewalla** offers a range of benefits, it's essential to acknowledge it
 - **Subscription Models:** Certain advanced features and services of Firewalla may require subscription fees, which users should consider when evaluating its cost-effectiveness.
 - **Single Point of Failure:** Relying solely on Firewalla for network security could create a single point of failure. It's advisable to have supplementary security measures in place.
 
-______
-{{< inarticle-dark >}}
-______
+
 
 ## **Conclusion**
 

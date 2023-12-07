@@ -25,8 +25,6 @@ Physical security forms the foundational layer of a comprehensive security frame
 
 ______
 
-{{< inarticle-dark >}}
-
 ## Implementing Best Practices for Physical Security
 
 To ensure robust physical security, organizations must adopt best practices that encompass a range of preventive and protective measures. Some essential practices include:
@@ -66,8 +64,6 @@ To secure switchports:
 3. **Enable BPDU Guard**: BPDU Guard prevents the unauthorized creation of switch loops, which could be used for malicious purposes.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## Changing Default Passwords and Enforcing Password Complexity
 

@@ -23,9 +23,7 @@ E-mailurile conțin informații sensibile, inclusiv date personale, detalii fina
 
 Prin utilizarea unor servicii precum [**StartMail**](https://www.startmail.com/), [**ProtonMail**](https://protonmail.com/), or [**Tutanota**](https://tutanota.com/) vă puteți păstra conversațiile prin e-mail în siguranță și protejați de potențiale amenințări cibernetice. Acești **furnizori de e-mail securizat** utilizează **criptare de ultimă generație** pentru a vă proteja datele valoroase și pentru a se asigura că numai destinatarii destinați pot accesa conținutul.
 
------
-{{< inarticle-dark >}}
------
+----------
 
 ## StartMail: Sigur și orientat către utilizator
 

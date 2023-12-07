@@ -52,9 +52,7 @@ Il Workforce Framework for Cybersecurity definisce i **ruoli lavorativi** che co
 
 Alcuni ruoli lavorativi comuni identificati nel framework includono **analista di sicurezza**, **ingegnere di sicurezza**, **architetto di rete**, **tester di penetrazione**, **revisore di sicurezza** e **consulente di sicurezza informatica**. Questi ruoli lavorativi sono una risorsa preziosa per le organizzazioni nella definizione delle descrizioni delle mansioni, nell'identificazione dei requisiti di competenza e nel supporto alla pianificazione e allo sviluppo della forza lavoro.
 
-______
-{{< inarticle-dark >}}
-### KSA: Competenze chiave per il successo
+______### KSA: Competenze chiave per il successo
 
 Per eccellere nei ruoli di cybersecurity, i professionisti devono possedere specifiche **conoscenze**, **competenze** e **abilità** (KSA). Il Workforce Framework for Cybersecurity delinea un elenco completo di KSA fondamentali per i diversi ruoli lavorativi nell'ambito della cybersecurity.
 

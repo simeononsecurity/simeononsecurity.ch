@@ -21,8 +21,6 @@ By participating in the MSFT Student Cert program, students can enhance their kn
 
 ______
 
-{{< inarticle-dark >}}
-
 ## The Certifications Available through MSFT Student Cert
 
 The MSFT Student Cert program offers several certifications in cloud computing and artificial intelligence. Let's take a closer look at some of the available certifications and what they entail:
@@ -125,8 +123,6 @@ Microsoft is committed to providing secure and compliant solutions to its custom
 To learn more about the Microsoft Security, Compliance, and Identity Fundamentals certification (SC-900), you can visit the official Microsoft documentation: [Microsoft Security, Compliance, and Identity Fundamentals (SC-900)](https://learn.microsoft.com/en-us/certifications/exams/sc-900/)
 
 ______
-
-{{< inarticle-dark >}}
 ## Benefits of MSFT Student Cert Program
 
 Obtaining **Microsoft certifications** can significantly enhance your career prospects. The Microsoft Student Cert program presents an incredible opportunity for students and recent graduates, offering a wide range of **free certifications** in high-demand areas like **cloud computing** and **artificial intelligence**. Let's delve into the benefits of this program, focusing on the topic of "Microsoft certifications free."
@@ -154,8 +150,6 @@ In conclusion, the Microsoft Student Cert program offers a multitude of benefits
 To explore the range of certifications available and get started with your Microsoft certifications for free, visit the [Microsoft Learn](https://learn.microsoft.com/) platform.
 
 ______
-
-{{< inarticle-dark >}}
 
 ## How to Get Started with MSFT Student Cert's Free Microsoft Certifications
 

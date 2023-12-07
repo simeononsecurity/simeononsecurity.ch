@@ -23,8 +23,6 @@ ______
 
 ______
 
-{{< inarticle-dark >}}
-
 ______
 
 ## La necesidad de soluciones para la protección de datos
@@ -76,8 +74,6 @@ Eliminar los datos personales de las bases de datos públicas puede ser especial
 Saber que un servicio fiable como [**Albine DeleteMe**](https://dnt.abine.com/#/ref_register/pC8ZbvQtt) protege activamente sus datos proporciona tranquilidad a los usuarios. Pueden navegar por Internet y participar en actividades en línea sin preocuparse por el uso indebido de sus datos.
 
 ______
-
-{{< inarticle-dark >}}
 
 ______
 

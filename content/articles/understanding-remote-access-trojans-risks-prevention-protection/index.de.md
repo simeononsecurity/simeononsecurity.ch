@@ -60,8 +60,6 @@ Opfer von RAT-Angriffen können unwissentlich Opfer einer **unautorisierten Übe
 ### 3. Systemunterbrechung und -schädigung
 
 Angreifer können Trojaner für den Fernzugriff einsetzen, um **den normalen Betrieb** eines Systems oder Netzwerks zu stören. Sie können kritische Dateien löschen oder verändern, wodurch das System instabil oder unbrauchbar wird. Darüber hinaus können RATs als Einfallstor für weitere **Malware-Infektionen** dienen, die zusätzlichen Schaden anrichten oder weit verbreitete Angriffe innerhalb der Infrastruktur eines Unternehmens ermöglichen. Ein bemerkenswertes Beispiel ist der Ransomware-Angriff **NotPetya**, bei dem ein RAT verwendet wurde, um sich in Netzwerken zu verbreiten, und der in verschiedenen Organisationen erhebliche Störungen verursachte.
-
-{{< inarticle-dark >}}
 ______
 
 ## Schutz vor Trojanern für den Fernzugriff
@@ -84,8 +82,6 @@ Um die mit **Remote-Access-Trojanern** verbundenen Risiken zu mindern, sollten E
 
 Durch die Befolgung dieser Präventivmaßnahmen und eine proaktive Sicherheitshaltung können Einzelpersonen und Organisationen das Risiko, Opfer von Remote-Access-Trojanern zu werden, erheblich verringern.
 
-
-{{< inarticle-dark >}}
 
 ______
 

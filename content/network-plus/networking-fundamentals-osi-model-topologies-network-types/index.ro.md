@@ -37,8 +37,6 @@ Modelul **OSI (Open Systems Interconnection)** este un cadru conceptual care def
 
 7. **Cercul 7 - Aplicație**: Stratul de aplicații reprezintă aplicațiile și serviciile de rețea reale utilizate de utilizatorii finali. Acesta furnizează servicii precum **curierul electronic**, **transferul de fișiere**, **navigarea pe internet** și **accesul la distanță**.
 
-{{< inarticle-dark >}}
-
 ### Încapsularea și decapsularea datelor în cadrul contextului modelului OSI
 
 {{< youtube id="_fPzeQ9PHhA" >}}
@@ -58,8 +56,6 @@ Modelul **OSI (Open Systems Interconnection)** este un cadru conceptual care def
 - **Payload**: Încărcătura utilă este reprezentată de datele efective care sunt transmise, cum ar fi o pagină web, un mesaj de e-mail sau un fișier media.
 
 - **Unitatea maximă de transmisie (MTU)**: MTU reprezintă dimensiunea maximă a unui pachet de date care poate fi transmis printr-o rețea fără fragmentare.
-
-{{< inarticle-dark >}}
 
 ## Explorarea topologiilor de rețea și a caracteristicilor acestora
 
@@ -140,8 +136,6 @@ O **rețea de stocare (SAN)** este o rețea specializată concepută în scopuri
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
 **Multipoint Generic Routing Encapsulation (mGRE)** este o tehnică utilizată pentru a crea rețele private virtuale (VPN) prin încapsularea pachetelor de date și trimiterea lor printr-o rețea multipunct. Aceasta permite o comunicare eficientă între mai multe site-uri sau puncte finale.
-
-{{< inarticle-dark >}}
 
 ## Concepte de rețea virtuală
 

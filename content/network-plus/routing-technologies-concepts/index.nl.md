@@ -55,8 +55,6 @@ Afstandvectorrouteringsprotocollen, zoals RIP, gebruiken een eenvoudige metriek 
 
 Hybride routeringsprotocollen, zoals EIGRP, combineren de eigenschappen van zowel link state- als afstandsvectorprotocollen. Ze onderhouden een topologietabel zoals link state protocollen, maar gebruiken distance vector algoritmen voor het berekenen van routes. Hybride protocollen bieden de voordelen van snellere convergentie en minder overhead.
 
-{{< inarticle-dark >}}
-
 ## Statische routing en standaard routes
 
 Statisch routeren houdt in dat de routeringstabel op routers handmatig geconfigureerd wordt, waarbij de paden om specifieke netwerken te bereiken gespecificeerd worden. Het wordt typisch gebruikt in scenario's waar de netwerktopologie minimaal of voorspelbaar verandert. Statische routes zijn eenvoudig te configureren en kunnen nuttig zijn voor kleine netwerken of specifieke netwerksegmenten.
@@ -90,8 +88,6 @@ Traffic shaping is een techniek die gebruikt wordt om de snelheid van gegevensov
 ### Quality of Service (QoS)
 
 Quality of Service (QoS) verwijst naar de mogelijkheid van een netwerk om voorrang te geven en middelen toe te wijzen aan verschillende soorten verkeer op basis van hun belang en vereisten. QoS-mechanismen, zoals verkeersprioritering, bandbreedtetoewijzing en congestiebeheer, helpen optimale prestaties te garanderen voor realtime toepassingen zoals spraak en video.
-
-{{< inarticle-dark >}}
 
 ## Vergelijking en plaatsing van apparaten
 
