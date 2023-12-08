@@ -164,7 +164,7 @@ includeFields = ''
   tag = 'tags'
   genre = 'genre'
 
-#disableKinds = ["genre"]
+disableKinds = ["genre"]
 
 [outputs]
 home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news", "smartnews", "rssall"]
