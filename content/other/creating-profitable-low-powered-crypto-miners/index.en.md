@@ -192,7 +192,7 @@ Once you get into the dashboard, make note of your application token.
 Copy the following string and append your token that you got from the dashboard before pasting into your terminal.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Install ProxyLite:
@@ -433,21 +433,6 @@ services:
             default:
                 ipv4_address: 172.106.0.40
     #End of IproyalPawns section
-
-    #Start of Peer2profit section (remove this if Peer2profit not wanted)
-    # variables to define in .env file :
-    # PEER2PROFIT_EMAIL : Your Peer2profit account email
-    Peer2profit:
-        depends_on:
-            - Portainer
-        image: lyenliang/peer2profit_x86_64:latest
-        restart: always
-        environment:
-            - P2P_EMAIL=$PEER2PROFIT_EMAIL
-        networks:
-            default:
-                ipv4_address: 172.106.0.50
-    #End of Peer2profit section
 
     #Start of Packetstream section (remove this if Packetstream not wanted)
     # variables to define in .env file :
