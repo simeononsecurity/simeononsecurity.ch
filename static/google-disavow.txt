@@ -1,3 +1,12 @@
+# exported from backlink tool
+# domains
+domain:bookmaker-bets.com
+domain:ehscloud.cn
+domain:jbetting.com
+domain:labves.ru
+domain:pinnacle-bets.com
+domain:solartek.ru
+domain:wohnkabinen-shop.de
 domain:000free.us
 domain:007angels.com
 domain:00author.com
@@ -154,7 +163,6 @@ domain:991mostfm.co.id
 domain:999webdesign.com
 domain:9icmzvn6.website
 domain:9med.net
-domain:DomainStatsBot
 domain:a.frcls.fr
 domain:a.pr-cy.ru
 domain:a14download.com
@@ -7102,3 +7110,23 @@ domain:zygophyceous.womanstars.site
 domain:zynax.ua
 domain:zytpirwai.net
 domain:zzbroya.com.ua
+domain:amazonki.net
+domain:concretesubmarine.activeboard.com
+domain:www.concretesubmarine.activeboard.com
+domain:github.innominds.com
+domain:kuaihuai.top
+domain:github.yutao.vip
+domain:springautum.work
+domain:www.springautum.work
+domain:trac.edgewall.org
+domain:elearning.ibj.org
+domain:jikininki.pages.dev
+domain:github.goldmelon.jp.eu.org
+domain:git.codeproxy.net
+domain:b1.freeku8.xyz
+domain:zonamkv.com
+domain:github.dijk.eu.org
+domain:aiset.top
+domain:p.rst.im
+
+# urls
