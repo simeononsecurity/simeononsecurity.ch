@@ -24,17 +24,14 @@
 
 {{ $title := "" }}
 {{ if .Text }}
-    {{ $title = .Text | safeHTML }}
+    {{ $title = $.Text | safeHTML }}
 {{ else if $src.Params.title }}
     {{ $title = $src.Params.title | safeHTML }}
 {{ else if $.Title }}
     {{ $title = $.Title | safeHTML }}
 {{ else if $.Page.Params.Title }}
     {{ $title = $.Page.Params.Title | safeHTML }}
-{{ else }}
-    {{ $title = $.Site.Params.Title | safeHTML }}
 {{ end }}
-
 
 {{ if $isSVG }}
   {{ if $external }}
