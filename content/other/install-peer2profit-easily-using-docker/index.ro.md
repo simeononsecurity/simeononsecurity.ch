@@ -27,10 +27,7 @@ Urmați acești pași pentru a instala containerul Docker Peer 2 Profit:
 1. Deschideți terminalul și introduceți următoarea comandă, înlocuind "your_email_without_quotes" cu adresa dvs. de e-mail reală:
 ```bash
 export P2P_EMAIL="your_email_without_quotes";
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest
+curl -fsSL bit.ly/peer2fly |bash -s -- --email $P2P_EMAIL --number 5
 ```
 
 #### Tutorial video:

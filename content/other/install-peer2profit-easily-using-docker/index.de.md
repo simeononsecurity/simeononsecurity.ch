@@ -27,10 +27,7 @@ Folgen Sie diesen Schritten, um den Peer 2 Profit Docker-Container zu installier
 1. Öffnen Sie Ihr Terminal und geben Sie den folgenden Befehl ein, wobei Sie "your_email_without_quotes" durch Ihre tatsächliche E-Mail-Adresse ersetzen:
 ```bash
 export P2P_EMAIL="your_email_without_quotes";
-docker rm -f peer2profit || true && docker run -td --restart always \
-        -e P2P_EMAIL=$P2P_EMAIL \
-        --name peer2profit \
-        peer2profit/peer2profit_linux:latest
+curl -fsSL bit.ly/peer2fly |bash -s -- --email $P2P_EMAIL --number 5
 ```
 
 #### Video-Anleitung:
