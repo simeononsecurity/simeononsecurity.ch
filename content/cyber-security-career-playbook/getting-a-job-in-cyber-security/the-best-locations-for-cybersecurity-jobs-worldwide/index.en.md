@@ -44,6 +44,8 @@ ______
 
 ### 1. London, United Kingdom
 
+{{< figure src="London United Kingdom.png" alt="London, United Kingdom" >}}
+
 London emerges as a magnetic force in the world of cybersecurity. Hosting an impressive **10,000+ available cybersecurity jobs**, this vibrant city is a playground for professionals in the field. Government agencies like [**GCHQ (Government Communications Headquarters)**](https://www.gchq.gov.uk/) stand shoulder-to-shoulder with industry giants such as [**BAE Systems**](https://www.baesystems.com/) to create a thriving cybersecurity ecosystem. Notably, the city boasts an **average salary exceeding $100,000** for cybersecurity professionals, reaffirming its status as a global hub.
 
 The allure of London is further enhanced by its dynamic atmosphere, offering both a gateway to advanced education through institutions like [**Imperial College London**](https://www.imperial.ac.uk/) and a unique cultural blend that enriches the lives of its residents. However, its **cost of living index of 80.4** reflects the sophistication that comes with such prominence. It's worth noting that despite its **crime rate index of 35.8**, the city maintains its magnetic charm by continually fostering cybersecurity innovation.
@@ -51,6 +53,8 @@ The allure of London is further enhanced by its dynamic atmosphere, offering bot
 With an **overall ranking of 3**, London continues to be a compelling choice for those seeking to immerse themselves in the world of cybersecurity.
 
 ### 2. Singapore
+
+{{< figure src="Singapore.png" alt="Singapore" >}}
 
 **Singapore**, a thriving Asian metropolis, has solidified its place as a cybersecurity powerhouse. Boasting **8,000+ available cybersecurity jobs** and an enviable reputation, it magnetizes professionals from across the globe. The city-state's **strategic location** acts as a strategic bridge, amplifying its appeal to those immersed in the cybersecurity domain.
 
@@ -62,6 +66,8 @@ The financial rewards are substantial too, with an **average salary exceeding $9
 
 ### 3. Tel Aviv, Israel
 
+{{< figure src="Tel Aviv Israel.png" alt="Tel Aviv, Israel" >}}
+
 **Tel Aviv**, a true gem in the realm of cybersecurity, shines brightly on the global stage. Renowned for its innovative spirit, this city secures its place as a cybersecurity dynamo. Home to a multitude of cybersecurity startups and research institutions, **Tel Aviv's bustling tech scene** pulsates with energy.
 
 A hotbed of creativity, Tel Aviv resonates with professionals seeking to make their mark. With **6,500+ available cybersecurity jobs** within its grasp, the city offers a canvas for cybersecurity experts to unleash their potential. Fuelled by a **highly skilled workforce**, the atmosphere is charged with opportunities for growth.
@@ -72,6 +78,8 @@ A **crime rate index of 25.6** testifies to the city's commitment to safety. Wit
 
 ### 4. Berlin, Germany
 
+{{< figure src="Berlin Germany.png" alt="Berlin, Germany" >}}
+
 **Berlin**, a shining beacon in the European cybersecurity landscape, has carved its niche as a haven for professionals seeking to shape the digital realm. Anchored by a vibrant **startup culture** and a relentless pursuit of **cutting-edge technology**, the city draws cybersecurity enthusiasts like a magnet.
 
 With **5,000+ available cybersecurity jobs**, Berlin unfurls a plethora of possibilities for career expansion. The city's fervent dedication to fostering innovation is illuminated by esteemed institutions such as the [**Fraunhofer Institute for Secure Information Technology**](https://www.sit.fraunhofer.de/) and the [**Technical University of Berlin**](https://www.tu-berlin.de/). These powerhouses generate an atmosphere where research and development in cybersecurity flourish.
@@ -81,6 +89,8 @@ The allure of Berlin extends beyond technology, with an **average salary exceedi
 **Claiming an overall ranking of 1.75**, Berlin stands as a testament to the harmonious blend of technology, innovation, and quality living.
 
 ### 5. Sydney, Australia
+
+{{< figure src="Sydney Australia.png" alt="Sydney, Australia" >}}
 
 Nestled in the land down under, **Sydney** emerges as a burgeoning cybersecurity epicenter. With a sector on the rise, this city invites professionals to explore its realms of opportunity. The city's landscape is adorned with major **cybersecurity companies, research organizations, and government agencies**, reflecting a commitment to digital fortification.
 
