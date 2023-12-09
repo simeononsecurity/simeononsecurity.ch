@@ -26,7 +26,7 @@ coverCaption: ""
 
 1.以下の文字列をコピーして、ダッシュボードから取得したトークンを追加します：
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token YOUR_TOKEN
 ```
 
 より詳細な操作方法については [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)

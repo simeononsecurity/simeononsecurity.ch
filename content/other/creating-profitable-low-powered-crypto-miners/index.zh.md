@@ -198,7 +198,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 复制以下字符串并附加您在粘贴到终端之前从仪表板获得的令牌。
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### 安装神秘：

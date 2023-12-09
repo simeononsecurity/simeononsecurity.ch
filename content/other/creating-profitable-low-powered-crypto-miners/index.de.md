@@ -199,7 +199,7 @@ Notieren Sie sich im Dashboard Ihren Anwendungstoken.
 Kopieren Sie die folgende Zeichenfolge und hängen Sie Ihr Token an, das Sie vom Dashboard erhalten haben, bevor Sie es in Ihr Terminal einfügen.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Mysterium installieren:

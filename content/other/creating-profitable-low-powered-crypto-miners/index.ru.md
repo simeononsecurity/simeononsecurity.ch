@@ -198,7 +198,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 Скопируйте следующую строку и добавьте свой токен, который вы получили с панели управления, прежде чем вставлять в свой терминал.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Установите Мистериум:

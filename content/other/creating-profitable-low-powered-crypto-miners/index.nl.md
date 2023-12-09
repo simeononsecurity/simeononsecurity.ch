@@ -198,7 +198,7 @@ Zodra u in het dashboard bent, noteert u uw aanvraag-token.
 Kopieer de volgende string en voeg uw token toe dat u van het dashboard hebt gekregen voordat u het in uw terminal plakt.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Installeer Mysterie:

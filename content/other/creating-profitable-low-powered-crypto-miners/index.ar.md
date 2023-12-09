@@ -198,7 +198,7 @@ docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapik
 انسخ السلسلة التالية وألحق الرمز الذي حصلت عليه من لوحة القيادة قبل اللصق في الجهاز الطرفي.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### تثبيت Mysterium:

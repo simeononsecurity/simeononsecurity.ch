@@ -199,7 +199,7 @@ Quan entreu al tauler, anoteu el vostre testimoni d'aplicació.
 Copieu la cadena següent i afegiu el testimoni que heu obtingut del tauler abans d'enganxar-lo al vostre terminal.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Instal·leu Mysterium:

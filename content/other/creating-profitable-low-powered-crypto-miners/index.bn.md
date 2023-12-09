@@ -199,7 +199,7 @@ EarnApp এবং HoneyGain এর মতো, TraffMonetizer আপনাকে 
 নিম্নলিখিত স্ট্রিংটি অনুলিপি করুন এবং আপনার টার্মিনালে আটকানোর আগে আপনার ড্যাশবোর্ড থেকে যে টোকেনটি পেয়েছেন তা যুক্ত করুন।
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### মিস্টেরিয়াম ইনস্টল করুন:

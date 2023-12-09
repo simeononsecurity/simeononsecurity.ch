@@ -198,7 +198,7 @@ Depois de entrar no painel, anote o token do aplicativo.
 Copie a string a seguir e anexe seu token que você obteve do painel antes de colar em seu terminal.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Instale o Mysterium:

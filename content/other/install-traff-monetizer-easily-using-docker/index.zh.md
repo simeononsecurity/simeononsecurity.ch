@@ -26,7 +26,7 @@ coverCaption: ""
 
 1.复制以下字符串并添加从仪表板获取的令牌：
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token YOUR_TOKEN
 ```
 
 有关更详细的说明，请参阅 [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)

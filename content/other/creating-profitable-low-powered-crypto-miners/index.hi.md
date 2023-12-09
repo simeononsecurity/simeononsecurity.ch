@@ -199,7 +199,7 @@ EarnApp और HoneyGain के समान, TraffMonetizer आपको अप
 निम्नलिखित स्ट्रिंग की प्रतिलिपि बनाएँ और अपने टोकन को अपने टर्मिनल में चिपकाने से पहले डैशबोर्ड से मिला हुआ संलग्न करें।
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### मिस्टीरियम स्थापित करें:

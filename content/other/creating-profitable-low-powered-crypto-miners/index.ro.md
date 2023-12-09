@@ -198,7 +198,7 @@ Odată ce intri în tabloul de bord, notează indicativul aplicației.
 Copiați următorul șir și adăugați simbolul pe care l-ați primit din tabloul de bord înainte de a lipi în terminal.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Instalați Mysterium:

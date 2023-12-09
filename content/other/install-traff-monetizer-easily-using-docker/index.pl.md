@@ -26,7 +26,7 @@ Wykonaj poniższe kroki, aby zainstalować kontener Docker Traff Monetizer:
 
 1. Skopiuj poniższy ciąg znaków i dołącz token uzyskany z pulpitu nawigacyjnego:
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token YOUR_TOKEN
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token YOUR_TOKEN
 ```
 
 Więcej szczegółowych instrukcji można znaleźć w sekcji [Traff Monetizer documentation](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)

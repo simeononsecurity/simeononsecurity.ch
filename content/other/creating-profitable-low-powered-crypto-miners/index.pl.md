@@ -198,7 +198,7 @@ Po wejściu do dashboardu zanotuj swój token aplikacji.
 Skopiuj następujący ciąg i dołącz swój token, który otrzymałeś z pulpitu nawigacyjnego przed wklejeniem do swojego terminala.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Install Mystery:

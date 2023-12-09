@@ -199,7 +199,7 @@ Une fois dans le tableau de bord, notez votre jeton d'application.
 Copiez la chaîne suivante et ajoutez votre jeton que vous avez obtenu du tableau de bord avant de le coller dans votre terminal.
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### Installez Mysterium :

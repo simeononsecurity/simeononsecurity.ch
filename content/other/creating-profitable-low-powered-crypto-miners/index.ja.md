@@ -198,7 +198,7 @@ EarnApp や HoneyGain と同様に、TraffMonetizer はインターネットの�
 次の文字列をコピーし、ターミナルに貼り付ける前に、ダッシュボードから取得したトークンを追加します。
 
 ```bash
-docker run -td --name traffmonetizer traffmonetizer/cli start accept --token
+docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
 ### ミステリウムをインストールします。
