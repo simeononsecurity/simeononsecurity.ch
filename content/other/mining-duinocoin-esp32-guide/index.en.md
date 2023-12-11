@@ -59,21 +59,21 @@ Follow the guide below to set up the **Arduino IDE** and upload the **DUCO miner
    - Paste the following link in the Additional Boards Manager URLs field: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
    - Save changes by clicking OK.
 
-   {{< figure src="https://duinocoin.com/assets/images/arduino_url.gif" alt="Duinocoin ESP32 Setup Page" link="https://duinocoin.com/getting-started.html" >}}
+   {{< figure src="arduino_url.gif" alt="Duinocoin ESP32 URL" link="https://duinocoin.com/getting-started.html" >}}
 
 3. **Install ESP32 Support for Arduino IDE:**
    - Click on Tools, hover on the Board: XXX field, and open the Boards Manager... window.
    - In the search box, type `esp32` - a package by Espressif Systems should come up. Select version 2.0.1 and click Install.
    - Click Close when the installation is complete.
 
-   {{< figure src="https://duinocoin.com/assets/images/esp32_install.gif" alt="Duinocoin ESP32 Setup Page" link="https://duinocoin.com/getting-started.html" >}}
+   {{< figure src="esp32_install.gif" alt="Duinocoin ESP32 Install" link="https://duinocoin.com/getting-started.html" >}}
 
 4. **Install ArduinoJson Library:**
    - Click on Sketch, hover on the Include Library field, and click Manage Libraries...
    - In the search box, type `ArduinoJson` - a package by Benoit Blanchon should come up. Install the newest version.
    - Click Close when the library installation is complete.
 
-   {{< figure src="https://duinocoin.com/assets/images/arduinojson.gif" alt="Duinocoin ESP32 Setup Page" link="https://duinocoin.com/getting-started.html" >}}
+   {{< figure src="arduinojson.gif" alt="Duinocoin ESP32 JSON" link="https://duinocoin.com/getting-started.html" >}}
 
 5. **Prepare Duino-Coin Miner Code:**
    - Go to the [Duino-Coin ESP32 Page Step 5](https://duinocoin.com/getting-started.html) and fill in the required fields to customize your Duino-Coin miner code. Use the button below to download a ready-to-use ESP32 code with your settings.
@@ -87,7 +87,7 @@ Follow the guide below to set up the **Arduino IDE** and upload the **DUCO miner
    - Select **a COM port** in `Tools` > `Port list`.
    - Click the upload button and wait for the process to finish.
 
-   {{< figure src="https://duinocoin.com/assets/images/esp32_upload.gif" alt="Duinocoin ESP32 Setup Page" link="https://duinocoin.com/getting-started.html" >}}
+   {{< figure src="esp32_upload.gif" alt="Duinocoin ESP32 Upload" link="https://duinocoin.com/getting-started.html" >}}
 
    > If you don't see your board in the COM port list or face any other problems, see [this troubleshooting guide](https://randomnerdtutorials.com/esp32-troubleshooting-guide/). 
 
@@ -114,6 +114,7 @@ To ensure your ESP32 is mining Duinocoin effectively, consider implementing a mo
 
 - **Temperature Monitoring:** Keep an eye on your ESP32's temperature to prevent overheating.
 - **Hashrate Tracking:** Use the [Duino-coin dashboard](https://wallet.duinocoin.com/) to keep track of your hashrate.
+   {{< figure src="esp32_in_wallet.png" alt="Duinocoin ESP32 in Wallet" link="https://duinocoin.com/getting-started.html" >}}
 
 ### Energy-Efficient Mining
 
