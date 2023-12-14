@@ -1,5 +1,5 @@
 ---
-title: "Top Linux Distro's voor NVIDIA grafische kaart ondersteuning in 2023"
+title: "Top Linux Distro's voor NVIDIA grafische kaart ondersteuning in 2024"
 draft: false
 toc: true
 date: 2023-05-31

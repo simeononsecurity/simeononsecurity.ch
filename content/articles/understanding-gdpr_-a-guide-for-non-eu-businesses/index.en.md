@@ -1,5 +1,5 @@
 ---
-title: "Mastering GDPR Compliance: A Cybersecurity Expert's Guide for Non-EU Businesses in 2023"
+title: "Mastering GDPR Compliance: A Cybersecurity Expert's Guide for Non-EU Businesses in 2024"
 date: 2024-01-31
 toc: true
 draft: false

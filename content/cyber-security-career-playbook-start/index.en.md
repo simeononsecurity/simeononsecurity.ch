@@ -179,11 +179,11 @@ Securing a job in cybersecurity requires a combination of knowledge, experience,
 ### Best Locations for Cybersecurity Jobs
 #### The 7 Top Locations for Cyber Security Jobs in the US 2024: Best Cities for Professionals
 - [The 7 Top Locations for Cyber Security Jobs in the US 2024: Best Cities for Professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states/)
-  - Discover the best locations for cybersecurity jobs in the United States in 2023, from Washington, D.C. to San Francisco, with abundant opportunities and industry growth.
+  - Discover the best locations for cybersecurity jobs in the United States in 2024, from Washington, D.C. to San Francisco, with abundant opportunities and industry growth.
 
 #### The Top 5 Locations Worldwide for Cybersecurity Jobs in 2024: Best Cities for Professionals
 - [The Top 5 Locations Worldwide for Cybersecurity Jobs in 2024: Best Cities for Professionals](https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide/)
-  - Discover the best locations worldwide for cybersecurity jobs in 2023, from London to Singapore, with abundant opportunities and industry growth.
+  - Discover the best locations worldwide for cybersecurity jobs in 2024, from London to Singapore, with abundant opportunities and industry growth.
 
 ### Cybersecurity Internships
 #### How to Find and Get Cybersecurity Internships
