@@ -1,5 +1,5 @@
 ---
-title: "2023 年支持英伟达™（NVIDIA®）显卡的顶级 Linux 发行版"
+title: "2024 年支持英伟达™（NVIDIA®）显卡的顶级 Linux 发行版"
 draft: false
 toc: true
 date: 2023-05-31

@@ -62,4 +62,4 @@ ______
 ## 参考文献
 
 1.IBM Research.(n.d.).Quantum Computing.2023年3月4日、https://www.research.ibm.com/quantum-computing/ から取得。
-2.米国国立標準技術研究所(National Institute of Standards and Technology).(n.d.)。ポスト量子暗号の標準化.2023 年 3 月 4 日、https://csrc.nist.gov/projects/post-quantum-cryptography から取得。
+2.米国国立標準技術研究所(National Institute of Standards and Technology).(n.d.)。ポスト量子暗号の標準化.2024 年 3 月 4 日、https://csrc.nist.gov/projects/post-quantum-cryptography から取得。

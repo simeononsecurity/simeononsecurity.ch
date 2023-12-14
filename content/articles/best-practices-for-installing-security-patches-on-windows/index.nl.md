@@ -122,15 +122,15 @@ Tot slot is het installeren van **cumulatieve beveiligingspatches** op Windows e
 
 ## Referenties:
 
-[1] Microsoft (2021, januari 12). Gids voor beveiligingsupdates. Op 22 maart 2023 ontleend aan https://msrc.microsoft.com/update-guide/
+[1] Microsoft (2021, januari 12). Gids voor beveiligingsupdates. Op 22 maart 2024 ontleend aan https://msrc.microsoft.com/update-guide/
 
-[2] Microsoft (2021, augustus 11). System Center Configuration Manager (SCCM). Opgehaald op 22 maart 2023 van https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
+[2] Microsoft (2021, augustus 11). System Center Configuration Manager (SCCM). Opgehaald op 22 maart 2024 van https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
 
-[3] Acronis. (2022). Acronis True Image. Opgehaald op 22 maart 2023 van https://www.acronis.com/en-us/products/true-image/
+[3] Acronis. (2022). Acronis True Image. Opgehaald op 22 maart 2024 van https://www.acronis.com/en-us/products/true-image/
 
-[4] EaseUS. (2022). Todo Backup. Opgehaald op 22 maart 2023 van https://www.easeus.com/backup-software/
+[4] EaseUS. (2022). Todo Backup. Opgehaald op 22 maart 2024 van https://www.easeus.com/backup-software/
 
-[5] National Institute of Standards and Technology. (2022, februari 10). Gids voor technologieën voor Enterprise Patch Management. Op 22 maart 2023 ontleend aan https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
+[5] National Institute of Standards and Technology. (2022, februari 10). Gids voor technologieën voor Enterprise Patch Management. Op 22 maart 2024 ontleend aan https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
 
-[6] Nationaal Cyber Security Centrum. (2021). 10 stappen naar cyberbeveiliging. Opgehaald op 22 maart 2023 van https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security
+[6] Nationaal Cyber Security Centrum. (2021). 10 stappen naar cyberbeveiliging. Opgehaald op 22 maart 2024 van https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security
 

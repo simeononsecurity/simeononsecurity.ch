@@ -124,7 +124,7 @@ In conclusione, l'installazione delle **patch di sicurezza cumulative** su Windo
 
 [1] Microsoft. (2021, 12 gennaio). Guida agli aggiornamenti di sicurezza. Recuperato il 22 marzo 2023, da https://msrc.microsoft.com/update-guide/.
 
-[2] Microsoft. (2021, 11 agosto). System Center Configuration Manager (SCCM). Recuperato il 22 marzo 2023 da https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction.
+[2] Microsoft. (2021, 11 agosto). System Center Configuration Manager (SCCM). Recuperato il 22 marzo 2024 da https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction.
 
 [3] Acronis. (2022). Acronis True Image. Recuperato il 22 marzo 2023, da https://www.acronis.com/en-us/products/true-image/.
 

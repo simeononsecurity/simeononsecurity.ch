@@ -75,4 +75,4 @@ ______
 
 ## 参考资料
 
-- OWASP Top Ten Project.(n.d.).2023 年 2 月 28 日，从 https://owasp.org/Top10/ 检索。
+- OWASP Top Ten Project.(n.d.).2024 年 2 月 28 日，从 https://owasp.org/Top10/ 检索。

@@ -62,4 +62,4 @@ Con la continua evoluzione dell'informatica quantistica, sarà importante rimane
 ## Riferimenti
 
 1. IBM Research. (n.d.). Informatica quantistica. Recuperato il 4 marzo 2023, da https://www.research.ibm.com/quantum-computing/.
-2. Istituto nazionale degli standard e della tecnologia. (n.d.). Standardizzazione della crittografia post-quantistica. Recuperato il 4 marzo 2023 da https://csrc.nist.gov/projects/post-quantum-cryptography.
+2. Istituto nazionale degli standard e della tecnologia. (n.d.). Standardizzazione della crittografia post-quantistica. Recuperato il 4 marzo 2024 da https://csrc.nist.gov/projects/post-quantum-cryptography.

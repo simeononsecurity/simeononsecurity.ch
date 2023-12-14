@@ -103,7 +103,7 @@ _____________
 
 - Bureau of Labor Statistics, U.S. Department of Labor, "Occupational Outlook Handbook: Information Security Analysts." [Link](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
 
-- Cybersecurity Ventures, "Cybersecurity Jobs Report 2023." [Link](https://cybersecurityventures.com/jobs/)
+- Cybersecurity Ventures, "Cybersecurity Jobs Report 2024." [Link](https://cybersecurityventures.com/jobs/)
 
 - SANS Institute, "Cybersecurity carrières." [Link](https://www.sans.org/careers/)
 

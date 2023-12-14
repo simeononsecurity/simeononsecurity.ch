@@ -1,5 +1,5 @@
 ---
-title: "The 7 Top Locations for Cyber Security Jobs in the US 2023: Best Cities for Professionals"
+title: "The 7 Top Locations for Cyber Security Jobs in the US 2024: Best Cities for Professionals"
 draft: false
 toc: true
 date: 2023-07-05

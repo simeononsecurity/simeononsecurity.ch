@@ -75,4 +75,4 @@ ______
 
 ## 参考文献
 
-- OWASP Top Ten Project.(n.d.).2023 年 2 月 28 日、https://owasp.org/Top10/ から取得した。
+- OWASP Top Ten Project.(n.d.).2024 年 2 月 28 日、https://owasp.org/Top10/ から取得した。

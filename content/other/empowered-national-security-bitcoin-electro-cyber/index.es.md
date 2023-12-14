@@ -13,7 +13,7 @@ coverCaption: "Liberar el poder de Bitcoin: asegurar nuestro futuro"
 
 ## **Introducción**
 
-**Bitcoin, la pionera criptomoneda, ha cautivado al mundo con su potencial para perturbar los sistemas financieros tradicionales. Sin embargo, una innovadora tesis de investigación publicada en 2023 pone en tela de juicio la concepción predominante de la tecnología de prueba de trabajo de Bitcoin y aboga por una nueva perspectiva. Esta tesis introduce la **"Teoría de la Proyección de Poder "**, proponiendo que Bitcoin puede servir como algo más que un medio de intercambio. Al explorar su papel como **tecnología de seguridad electrocibernética**, la investigación pretende mejorar la **seguridad nacional** y los esfuerzos políticos.
+**Bitcoin, la pionera criptomoneda, ha cautivado al mundo con su potencial para perturbar los sistemas financieros tradicionales. Sin embargo, una innovadora tesis de investigación publicada en 2024 pone en tela de juicio la concepción predominante de la tecnología de prueba de trabajo de Bitcoin y aboga por una nueva perspectiva. Esta tesis introduce la **"Teoría de la Proyección de Poder "**, proponiendo que Bitcoin puede servir como algo más que un medio de intercambio. Al explorar su papel como **tecnología de seguridad electrocibernética**, la investigación pretende mejorar la **seguridad nacional** y los esfuerzos políticos.
 
 ______
 

@@ -13,7 +13,7 @@ coverCaption: "Uwolnienie mocy Bitcoina: zabezpieczenie naszej przyszłości"
 
 **Wprowadzenie**
 
-**Bitcoin**, pionierska **kryptowaluta**, zachwyciła świat swoim potencjałem do zakłócenia tradycyjnych systemów finansowych. Jednak **przełomowa praca badawcza** opublikowana w **2023 roku** podważa dominujące rozumienie **technologii proof-of-work** Bitcoina, wzywając do nowego spojrzenia. Teza ta wprowadza **"Teorię Projekcji Mocy "**, proponując, że Bitcoin może służyć jako coś więcej niż tylko środek wymiany. Badając jego rolę jako **technologii bezpieczeństwa elektro-cybernetycznego**, badania mają na celu zwiększenie **bezpieczeństwa narodowego** i wysiłków w zakresie kształtowania polityki.
+**Bitcoin**, pionierska **kryptowaluta**, zachwyciła świat swoim potencjałem do zakłócenia tradycyjnych systemów finansowych. Jednak **przełomowa praca badawcza** opublikowana w **2024 roku** podważa dominujące rozumienie **technologii proof-of-work** Bitcoina, wzywając do nowego spojrzenia. Teza ta wprowadza **"Teorię Projekcji Mocy "**, proponując, że Bitcoin może służyć jako coś więcej niż tylko środek wymiany. Badając jego rolę jako **technologii bezpieczeństwa elektro-cybernetycznego**, badania mają na celu zwiększenie **bezpieczeństwa narodowego** i wysiłków w zakresie kształtowania polityki.
 
 ______
 

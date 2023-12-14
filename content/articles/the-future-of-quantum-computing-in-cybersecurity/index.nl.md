@@ -61,5 +61,5 @@ Aangezien kwantumcomputing zich blijft ontwikkelen, is het belangrijk op de hoog
 
 ## Referenties
 
-1. IBM Research. (n.d.). Quantum Computing. Op 4 maart 2023 ontleend aan https://www.research.ibm.com/quantum-computing/
-2. National Institute of Standards and Technology. (n.d.). Post-Quantum Cryptografie Standaardisatie. Op 4 maart 2023 ontleend aan https://csrc.nist.gov/projects/post-quantum-cryptography
+1. IBM Research. (n.d.). Quantum Computing. Op 4 maart 2024 ontleend aan https://www.research.ibm.com/quantum-computing/
+2. National Institute of Standards and Technology. (n.d.). Post-Quantum Cryptografie Standaardisatie. Op 4 maart 2024 ontleend aan https://csrc.nist.gov/projects/post-quantum-cryptography

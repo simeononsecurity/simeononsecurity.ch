@@ -1,5 +1,5 @@
 ---
-title: "Najlepsze dystrybucje Linuksa obsługujące karty graficzne NVIDIA w 2023 roku"
+title: "Najlepsze dystrybucje Linuksa obsługujące karty graficzne NVIDIA w 2024 roku"
 draft: false
 toc: true
 date: 2023-05-31

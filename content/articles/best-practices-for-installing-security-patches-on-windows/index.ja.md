@@ -122,15 +122,15 @@ ______
 
 ## 参考文献
 
-[1] Microsoft. (2021, January 12).セキュリティ更新ガイド.2023 年 3 月 22 日、https://msrc.microsoft.com/update-guide/ から取得した。
+[1] Microsoft. (2021, January 12).セキュリティ更新ガイド.2024 年 3 月 22 日、https://msrc.microsoft.com/update-guide/ から取得した。
 
-[2] マイクロソフト. (2021, 8月 11日).System Center Configuration Manager (SCCM).2023 年 3 月 22 日、https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction から取得。
+[2] マイクロソフト. (2021, 8月 11日).System Center Configuration Manager (SCCM).2024 年 3 月 22 日、https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction から取得。
 
-[3] アクロニス.(2022).Acronis True Image。2023 年 3 月 22 日、https://www.acronis.com/en-us/products/true-image/ から取得。
+[3] アクロニス.(2022).Acronis True Image。2024 年 3 月 22 日、https://www.acronis.com/en-us/products/true-image/ から取得。
 
-[4] EaseUS. (2022).Todo Backup。2023 年 3 月 22 日、https://www.easeus.com/backup-software/ から取得。
+[4] EaseUS. (2022).Todo Backup。2024 年 3 月 22 日、https://www.easeus.com/backup-software/ から取得。
 
-[5] 米国国立標準技術研究所（National Institute of Standards and Technology）.(2022 年、2 月 10 日).エンタープライズ・パッチ・マネジメント技術へのガイド.2023 年 3 月 22 日、https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf から取得した。
+[5] 米国国立標準技術研究所（National Institute of Standards and Technology）.(2022 年、2 月 10 日).エンタープライズ・パッチ・マネジメント技術へのガイド.2024 年 3 月 22 日、https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf から取得した。
 
-[6] ナショナル・サイバー・セキュリティ・センター.(2021).サイバーセキュリティへの10ステップ.2023 年 3 月 22 日、https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security から取得。
+[6] ナショナル・サイバー・セキュリティ・センター.(2021).サイバーセキュリティへの10ステップ.2024 年 3 月 22 日、https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security から取得。
 

@@ -98,6 +98,6 @@ No matter your chosen path—technical or non-technical—forge a bedrock of cyb
 
 ## References
 
-1. "Top 15 Best Cyber Security Jobs for 2023 & Beyond." Simplilearn. [Link](https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-jobs)
+1. "Top 15 Best Cyber Security Jobs for 2024 & Beyond." Simplilearn. [Link](https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-jobs)
 2. "The Most Important Soft Skills for Cybersecurity." LinkedIn Learning. [Link](https://www.linkedin.com/learning/cybersecurity-foundations-2/the-most-important-soft-skills-for-cybersecurity)
 3. "A Comprehensive Guide to Cybersecurity Careers." CyberDegrees.org. [Link](https://www.cyberdegrees.org/jobs/)

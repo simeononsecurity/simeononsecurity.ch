@@ -22,7 +22,7 @@ In der heutigen schnelllebigen Geschäftswelt sind **Organisationen immer auf de
 
 3. **Bessere Integration mit Azure**: Server 2019 ist so konzipiert, dass er nahtlos mit Azure zusammenarbeitet, wodurch es für Unternehmen einfacher wird, ihre lokalen Arbeitslasten in die Cloud zu verlagern. Diese Integration ermöglicht es Unternehmen, die **Skalierbarkeit und Kosteneffizienz von Azure** zu nutzen und gleichzeitig die Kontrolle über ihre lokale Infrastruktur zu behalten.
 
-4. **Langfristiger Support**: Server 2019 wird von Microsoft bis 2029 unterstützt, was bedeutet, dass Unternehmen über einen längeren Zeitraum Sicherheitsupdates und Fehlerbehebungen erhalten können. Im Vergleich dazu wird Server 2012 nur bis 2023 unterstützt, danach erhalten Unternehmen keine Sicherheitsupdates oder Fehlerbehebungen mehr.
+4. **Langfristiger Support**: Server 2019 wird von Microsoft bis 2029 unterstützt, was bedeutet, dass Unternehmen über einen längeren Zeitraum Sicherheitsupdates und Fehlerbehebungen erhalten können. Im Vergleich dazu wird Server 2012 nur bis 2024 unterstützt, danach erhalten Unternehmen keine Sicherheitsupdates oder Fehlerbehebungen mehr.
 
 ### Warum zu Azure wechseln?
 

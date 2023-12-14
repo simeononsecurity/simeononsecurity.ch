@@ -75,4 +75,4 @@ Kortom, beveiliging van webapplicaties is cruciaal, en als webontwikkelaar is he
 
 ## Referenties
 
-- OWASP Top Tien Project. (n.d.). Opgehaald op 28 februari 2023 van https://owasp.org/Top10/
+- OWASP Top Tien Project. (n.d.). Opgehaald op 28 februari 2024 van https://owasp.org/Top10/

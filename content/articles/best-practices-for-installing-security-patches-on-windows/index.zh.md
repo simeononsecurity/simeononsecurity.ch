@@ -122,15 +122,15 @@ ______
 
 ## 参考文献：
 
-[1] Microsoft. (2021 年 1 月 12 日)。Security Update Guide.2023 年 3 月 22 日，从 https://msrc.microsoft.com/update-guide/ 检索。
+[1] Microsoft. (2021 年 1 月 12 日)。Security Update Guide.2024 年 3 月 22 日，从 https://msrc.microsoft.com/update-guide/ 检索。
 
-[2] Microsoft。（2021 年 8 月 11 日）。系统中心配置管理器 (SCCM)。2023 年 3 月 22 日，从 https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction 检索。
+[2] Microsoft。（2021 年 8 月 11 日）。系统中心配置管理器 (SCCM)。2024 年 3 月 22 日，从 https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction 检索。
 
-[3] Acronis.(2022).Acronis True Image。于 2023 年 3 月 22 日从 https://www.acronis.com/en-us/products/true-image/ 检索。
+[3] Acronis.(2022).Acronis True Image。于 2024 年 3 月 22 日从 https://www.acronis.com/en-us/products/true-image/ 检索。
 
-(2022).Todo Backup.2023 年 3 月 22 日，从 https://www.easeus.com/backup-software/ 获取
+(2022).Todo Backup.2024 年 3 月 22 日，从 https://www.easeus.com/backup-software/ 获取
 
-[5] 美国国家标准与技术研究院。(2022, February 10).企业补丁管理技术指南》。2023 年 3 月 22 日，从 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf 检索。
+[5] 美国国家标准与技术研究院。(2022, February 10).企业补丁管理技术指南》。2024 年 3 月 22 日，从 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf 检索。
 
-[6] 国家网络安全中心。(2021).网络安全的 10 个步骤。2023 年 3 月 22 日，从 https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security 检索。
+[6] 国家网络安全中心。(2021).网络安全的 10 个步骤。2024 年 3 月 22 日，从 https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security 检索。
 

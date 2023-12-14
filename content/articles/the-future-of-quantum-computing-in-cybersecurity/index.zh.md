@@ -61,5 +61,5 @@ ______
 
 ## 参考文献
 
-1.IBM Research.(n.d.).量子计算。2023 年 3 月 4 日，从 https://www.research.ibm.com/quantum-computing/ 检索。
-2.美国国家标准与技术研究院。(n.d.).后量子加密标准化。2023 年 3 月 4 日从 https://csrc.nist.gov/projects/post-quantum-cryptography 检索。
+1.IBM Research.(n.d.).量子计算。2024 年 3 月 4 日，从 https://www.research.ibm.com/quantum-computing/ 检索。
+2.美国国家标准与技术研究院。(n.d.).后量子加密标准化。2024 年 3 月 4 日从 https://csrc.nist.gov/projects/post-quantum-cryptography 检索。

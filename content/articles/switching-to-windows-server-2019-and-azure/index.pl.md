@@ -22,7 +22,7 @@ W dzisiejszym szybko zmieniającym się środowisku biznesowym, **organizacje za
 
 3. **lepsza integracja z Azure**: Server 2019 został zaprojektowany do bezproblemowej współpracy z Azure, ułatwiając organizacjom przenoszenie obciążeń roboczych on-premise do chmury. Integracja ta pozwala organizacjom korzystać z **skalowalności i opłacalności Azure** przy jednoczesnym zachowaniu kontroli nad infrastrukturą on-premise.
 
-4. **Długoterminowe wsparcie**: Server 2019 otrzyma wsparcie od Microsoft do 2029 roku, co oznacza, że organizacje mogą nadal otrzymywać aktualizacje zabezpieczeń i poprawki błędów przez dłuższy czas. Dla porównania, Server 2012 otrzyma wsparcie tylko do 2023 roku, po czym organizacje nie będą już otrzymywać aktualizacji zabezpieczeń ani poprawek błędów.
+4. **Długoterminowe wsparcie**: Server 2019 otrzyma wsparcie od Microsoft do 2029 roku, co oznacza, że organizacje mogą nadal otrzymywać aktualizacje zabezpieczeń i poprawki błędów przez dłuższy czas. Dla porównania, Server 2012 otrzyma wsparcie tylko do 2024 roku, po czym organizacje nie będą już otrzymywać aktualizacji zabezpieczeń ani poprawek błędów.
 
 ### Dlaczego warto przejść na Azure?
 
