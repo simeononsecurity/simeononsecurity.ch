@@ -39,7 +39,6 @@ The VMware ESXi STIG provides guidelines for securing ESXi hosts. By automating 
 
 Before proceeding with the automation, it is important to consider the following points:
 
-- **The [DOD STIG VIB](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib) should be installed beforehand.**
 - **Ensure that no virtual machine or guest on the ESXi host or cluster requires CD, USB, or Floppy Disk functionality.**
 - **All ESXi hosts and guests tied to vCenter need to be STIG'ed.**
 - **Troubleshooting skills are necessary to address any issues that may arise during the process.**
@@ -292,6 +291,18 @@ Let's understand the script and its functionality:
 
 Again, this script is provided as an example, and you should modify it according to your specific environment and STIG requirements.
 
+_____
+
+## Extras
+
+- **The [DOD STIG VIB](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib) used to exist for 5.0-6.7 But is no longer available.**
+- [Ryan Lakey](https://core.vmware.com/users/ryan-lakey) has some great guidance on implementing the DoD VMWare STIGS, and we highly suggest you read them.
+    - [VMware vSphere 8 STIG](https://core.vmware.com/resource/vmware-vsphere-8-stig)
+    - [VMware vSphere 7 STIG](https://core.vmware.com/vsphere-7-stig)
+    - [VMware vSphere 6.7 STIG](https://core.vmware.com/vmware-vsphere-67-stig)
+    - [VMware STIG Powercli](https://github.com/rlakey/vmware-stig-powercli)
+        - [vmware-vcsa-6.7-stig-baseline](https://github.com/rlakey/vmware-vcsa-6.7-stig-baseline)
+        - [vmware-vm-6.7-stig-baseline](https://github.com/rlakey/vmware-vm-6.7-stig-baseline)
 _____
 
 ## Conclusion
