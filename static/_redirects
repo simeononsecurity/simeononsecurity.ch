@@ -87,6 +87,8 @@ http://pl.simeononsecurity.ch/* https://pl.simeononsecurity.com/:splat 308!
 # Redirect domain aliases to primary domain
 https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 http://simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
+https://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
+http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 # https://simeononsecurity.ch/* https://simeononsecurity.com/:splat 301
 # redirect /posts to /github
 # moved /posts to /github to create /blog in order to separate content
