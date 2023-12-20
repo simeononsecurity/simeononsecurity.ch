@@ -634,13 +634,69 @@ Next, follow these steps to set up UPrecise on a Windows PC within the same netw
 
 {{< figure src="uprecise.png" alt="unicorecom uprecise tcp window" caption="Unicorecomm Uprecise TCP Window - wholovesburrito.com" link="https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/" >}}
 
+______
+
+## Onocoy FAQ
+### **Onocoy Setup**
+
+**Q1: Which equipment can be used to set up a station?**
+   - A1: Any GNSS device capable of data transfer via NTRIP is recommended, with featured bundles listed on the [dedicated onocoy device page](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/1.-get-a-station) or recommended in this [article above](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#recommended-hardware-for-onocoy).
+
+**Q2: Where should the antenna be placed?**
+   - A2: Ideally, fix the antenna in a location with a full sky view, such as a roof, chimney, or open field. Ensure no obstructions exist above 10 degrees elevation angle, and secure the antenna against movement during adverse weather.
+
+**Q3: What is needed to connect the device, and is WiFi necessary?**
+   - A3: A stable internet connection is required, whether through WiFi or Ethernet, depending on the device.
+
+**Q4: What happens if I want to change the location of my station/antenna/receiver?**
+   - A4: Moving the device to another location is not a problem; you just need to successfully pass the data validation process again.
+
+### **Onocoy Devices & Streams**
+
+**Q5: Can streams be retrieved directly if my station only supports NTRIP caster and is exposed on the internet?**
+   - A5: No, due to complexities, it is not a reliable method. Contact your station manufacturer to add NTRIP server functionality.
+
+**Q6: What NTRIP Messages need to be enabled on my GNSS reference receivers for the best rewards?**
+   - A6: Enable **RTCM 3.0 MSM7 Messages for optimal rewards**, including messages for various constellations. Lower tier messages are supported, while certain message types are ignored.
+
+**Q7: What latency is tolerable from the GNSS receiver to the onocoy system?**
+   - A7: The **end-to-end latency should be below 1 second**; larger latencies result in reduced rewards and potential disconnection.
+
+**Q8: Do I have to set the receiver in a special Reference station mode to determine its accurate location?**
+   - A8: No, the onocoy system's validation procedures determine the precise location of your station.
+
+**Q9: How does onocoy prevent fraudulent correction streams?**
+   - A9: onocoy employs sophisticated methods, including regular data consistency checks, real-time supervision, and checks over long-term periods to detect fraudulent streams.
+
+**Q10: Can I provide data from a 3rd party service, such as public networks like IGS or other networks?**
+    - A10: Yes, with acceptance of terms and conditions, provided you have the rights. Multiple submissions from free networks may result in banning.
+
+**Q11: My station frequently disconnects. What can I do?**
+    - A11: Disconnections are observed due to updates but should not affect operations. No action is needed on the user's network side.
+
+### **Onocoy Rewards**
+
+**Q12: My wallet is not connecting. What can I do?**
+    - A12: Ensure you are using Chrome or Brave Browser on a Desktop device. Follow instructions on the page, and if issues persist, contact support through the [onocoy discord](https://discord.gg/CHKxSpPQ8p).
+
+**Q13: How is the location scale calculated?**
+    - A13: Factors include the number and distance of nearby stations, with the quality of neighboring stations influencing rewards.
+
+**Q14: How much will I earn streaming RTK correction data to onocoy?**
+    - A14: Earnings depend on factors like signals, satellites, and location. Specific numbers are yet to be decided, but users can earn tokens even before they are officially listed.
+
+**Q15: Why does onocoy use blockchain technology?**
+    - A15: onocoy uses blockchain to stabilize token prices, with mechanisms like required tokens for data access, constant burn, locked tokens for governance, a capped maximum supply, and a staking function.
+
+**Q16: How do I claim my rewards?**
+    - A16: Click the "Claim Rewards" button in your NTRIP server list in the Onocoy Dashboard. Rewards can be claimed anytime, and changes in the reward factor trigger automatic claiming. Review your current balance in the upper right corner of the validator.
 
 ______
 ## Conclusion
 
 Setting up your **own DIY GPS Onocoy server** doesn't have to be a daunting task. With the **right hardware choices**, **reliable GPS receivers**, and a clear understanding of the process, you can achieve **remarkable precision and accuracy** in your *location-based applications*.
 
-By following the **step-by-step instructions** outlined in this guide, you've unlocked the potential to **enhance your navigation, positioning, and surveying** endeavors. The **affordable hardware options**, such as *Raspberry Pi* and *Intel NUC*, coupled with **accurate GPS receivers**, pave the way for **effortless and efficient server setup**.
+By following the **step-by-step instructions** outlined in this guide, you've unlocked the potential to **enhance your navigation, positioning, and surveying** endeavors. The **affordable hardware options**, such as [*Raspberry Pi*](https://amzn.to/3x72kv0) and [*Intel NUC*](https://amzn.to/4avlJbr), coupled with **accurate GPS receivers**, pave the way for **effortless and efficient server setup**.
 
 So, **go ahead and set up your Onocoy Reference Station**, refine your skills, and enjoy the **results** that await you. Whether you're **navigating remote terrains**, conducting **surveys**, or exploring new possibilities, your **DIY Onocoy Reference Station** will be your **trusty companion** in the pursuit of **precision**.
 
@@ -650,6 +706,10 @@ Lastly, check out our article on more [low powered mining setups](https://simeon
 
 {{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}Read our guide on Triple Mining Geodnet, Onocoy, and RTKDirect{{< /centerbutton >}}
 
+or
+
+{{< centerbutton href="https://simeononsecurity.com/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/" >}}How to Set Up a GPS/GNSS Bases Station on an ESP32{{< /centerbutton >}}
+
 ## References
 
 - [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
@@ -657,6 +717,11 @@ Lastly, check out our article on more [low powered mining setups](https://simeon
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
 - [Onocoy - Get GNSS correction data](https://docs.onocoy.com/documentation/quick-start-guides/get-gnss-correction-data)
 - [Onocoy - Connect your station to onocoy](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy)
+- [Onocoy - Whitepaper](https://www.onocoy.com/s/20230825_whitepaper_onocoy_final.pdf)
+- [Onocoy - Linkedin](https://www.linkedin.com/company/onocoy/)
+- [Onocoy - Twitter](https://twitter.com/onocoyRTK)
+- [Onocoy - Discord](https://discord.gg/2NQJuuFTpV)
+- [Onocoy - YouTube](https://www.youtube.com/@onocoy)
 - [RTKLIB](https://github.com/rtklibexplorer/RTKLIB/releases)
 - [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
 - [Unicorecomm UPrecise](https://en.unicorecomm.com/download)
