@@ -8,6 +8,7 @@ tags: ["CISSP certification", "information security", "exam preparation", "study
 cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
 coverAlt: "A cartoon image of a person holding a CISSP certificate, with a thought bubble showing different information security topics like security architecture, access control, encryption, and network security."
 coverCaption: ""
+canonical: "https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/"
 ---
 
 **A Beginner's Guide to Earning a CISSP Certification: Preparing for the Certified Information Systems Security Professional Exam**
