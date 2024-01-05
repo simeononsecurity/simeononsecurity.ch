@@ -101,7 +101,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 </script>
 
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
-<a rel="stylesheet" href="{{ $style.Permalink }}"></a>
+<a rel="stylesheet" title="stylesheet" aria-label="stylesheet" href="{{ $style.Permalink }}"></a>
 
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}
@@ -116,24 +116,24 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
     {{ if not .IsHome }}
       <!-- Load Info Links -->
       {{ if not .IsSection }}
-        <!-- Ads JS Load -->
+        <!-- Ads JS Load
         {{ partialCached "googleadsload.html" . }}
         {{ partialCached "infolinks.html" . }}
+        -->
       {{ end }}
     {{ end }}
 {{ end }}
 
 {{ if .IsHome }}
-  <a href="https://www.blogarama.com/blogs/1427923" title="Blogarama.com - Follow me on Blogarama" target="_blank" rel="noopener nofollow external noreferrer"></a>
-  <a href="https://www.blogarama.com/blogs/1426778" title="Blogarama.com - Follow me on Blogarama" target="_blank" rel="noopener nofollow external noreferrer"></a>
-  <a href="http://www.wingee.com" title="RSS Feed Directory" target="_blank" rel="noopener nofollow external noreferrer"></a>
+  <a href="https://www.blogarama.com/blogs/1427923" title="Blogarama.com - Follow me on Blogarama" aria-label="Blogarama.com - Follow me on Blogarama" target="_blank" rel="noopener nofollow external noreferrer"></a>
+  <a href="https://www.blogarama.com/blogs/1426778" title="Blogarama.com - Follow me on Blogarama" aria-label="Blogarama.com - Follow me on Blogarama" target="_blank" rel="noopener nofollow external noreferrer"></a>
+  <a href="http://www.wingee.com" title="RSS Feed Directory" aria-label="RSS Feed Directory" target="_blank" rel="noopener nofollow external noreferrer"></a>
   <a href="https://www.ontoplist.com/web-development-companies/" target="_blank" rel="noopener nofollow external noreferrer"><img src="https://www.ontoplist.com/images/ontoplist31.png?id=653a6ce7b92f4" alt="Best Web Development Companies - OnToplist.com"></a>
-  <a href="https://viesearch.com/" target="_blank" title="Viesearch - The Human-curated Search Engine" rel="noopener nofollow external noreferrer"></a>
-  <a href="https://www.codeproject.com" title=">CodeProject" rel="noopener nofollow external noreferrer tag"></a>
+  <a href="https://viesearch.com/" target="_blank" title="Viesearch - The Human-curated Search Engine" aria-label="Viesearch - The Human-curated Search Engine" rel="noopener nofollow external noreferrer"></a>
+  <a href="https://www.codeproject.com" title=">CodeProject" aria-label="CodeProject" rel="noopener nofollow external noreferrer tag"></a>
 {{ end }}
 
-<a rel="me" href="https://infosec.exchange/@simeononsecurity" target="_blank"></a>
-
+<a rel="me" title="SimeonOnSecurity's Mastodon" aria-label="SimeonOnSecurity's Mastodon" href="https://infosec.exchange/@simeononsecurity" target="_blank"></a>
 
 <script type="application/ld+json">
   {

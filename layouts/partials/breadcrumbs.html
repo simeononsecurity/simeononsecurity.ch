@@ -98,7 +98,7 @@
     {{- range $index, $ancestor := .Ancestors.Reverse }}
     <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ $ancestor.RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
-      itemprop="item" itemid="{{ $ancestor.RelPermalink }}">
+      itemprop="item" itemid="{{ $ancestor.RelPermalink }}" title="{{ $ancestor.Title }}" aria-label="{{ $ancestor.Title }}">
         <span itemprop="name">{{ $ancestor.Title }}</span>
       </a>
       <meta itemprop="position" content="{{ $index }}" />
@@ -107,7 +107,7 @@
     {{- end }}
     <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ .RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
-      itemprop="item" itemid="{{ .RelPermalink }}">
+      itemprop="item" itemid="{{ .RelPermalink }}" title="{{ .Title }}" aria-label="{{ .Title }}">
         <span itemprop="name">{{ .Title }}</span>
       </a>
       <meta itemprop="position" content="{{ len .Ancestors }}" />

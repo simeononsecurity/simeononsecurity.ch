@@ -6,7 +6,7 @@
       {{ $article := site.GetPage (printf "%s" $ref) }}
       {{ with $article }}
         <li>
-          <a href="{{ .RelPermalink }}" alt="{{ .Title }}">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}" alt="{{ .Title }}" title="{{ .Title }}" aria-label="{{ .Title }}">{{ .Title }}</a>
           <p>{{ .Description }}</p>
         </li>
       {{ end }}

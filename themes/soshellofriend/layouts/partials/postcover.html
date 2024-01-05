@@ -74,6 +74,8 @@
             alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"
             class="post-cover"
             itemprop="contentUrl"
+            height="{{ $medium.Height }}"
+            width="{{ $medium.Width }}"
             {{ if eq .imgloading "eager" }}
               fetchpriority="high"
             {{ else }}

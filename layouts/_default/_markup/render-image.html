@@ -64,23 +64,19 @@
   {{ end }}
 {{ else if not $isSVG}}
   
-  {{ $lqipw := default "" }}
   {{ $smallw := default "" }}
   {{ $mediumw := default "" }}
   {{ $largew := default "" }}
   {{ if $isGIF }}
-    {{ $lqipw = default "20x q50" }}
     {{ $smallw = default "500x q80" }}
     {{ $mediumw = default "600x q80" }}
     {{ $largew = default "720x q80" }}
   {{ else if not $isGIF }}
-    {{ $lqipw = default "20x webp q50" }}
     {{ $smallw = default "500x webp q50" }}
     {{ $mediumw = default "600x webp q50" }}
     {{ $largew = default "720x webp q50" }}
   {{ end }}
 
-  {{ $lqip := $src.Resize $lqipw }}
   {{ $small := $src.Resize $smallw }}
   {{ $medium := $src.Resize $mediumw }}
   {{ $large := $src.Resize $largew }}
@@ -95,7 +91,7 @@
       <img
         src="{{ $src.Permalink }}"
         srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}'
-        data-src="{{ $lqip.RelPermalink }}"  
+        data-src="{{ $small.RelPermalink }}"  
         data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
         alt="{{ $title }}" 
         data-sizes="440w"
@@ -113,7 +109,7 @@
       <img
         src="{{ $src.RelPermalink }}"
         srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}'
-        data-src="{{ $lqip.RelPermalink }}" 
+        data-src="{{ $small.RelPermalink }}" 
         data-srcset='{{ with $small.RelPermalink }}{{.}} 500w{{ end }}{{ if ge $src.Width "600" }},{{ with $medium.RelPermalink }}{{.}} 600w{{ end }}{{ end }}{{ if ge $src.Width "720" }},{{ with $large.RelPermalink }}{{.}} 720w{{ end }}{{ end }}' 
         alt="{{ $title }}" 
         data-sizes="440w"

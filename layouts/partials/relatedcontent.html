@@ -29,11 +29,7 @@
                   {{ if .Params.Cover }}
                     {{ $cover := ""}}
                     {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ else }}{{ $cover = resources.Get (.Params.Cover) }}{{ end }}
-                    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
-                    {{ $micro := ($cover.Resize "20x webp q20") }}
-                      {{ $microfilename := printf "%s_%dx%d.%s" $permalink $micro.Width $micro.Height "webp" | urlize }}
-                      {{ $microrenamedimage := $micro | resources.Copy $microfilename }}
-                      {{ $optimizedmicro := $microrenamedimage.Permalink}}   
+                    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}  
                     {{ $tiny := ($cover.Resize "240x webp q50") }}
                       {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
                       {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
@@ -43,16 +39,16 @@
                       {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
                       {{ $optimizedsmall := $smallrenamedimage.Permalink}}   
                     <div class="related-image">
-                      <a href="{{ .RelPermalink }}">
+                      <a href="{{ .RelPermalink }}" title="{{ .Title }}" aria-label="{{ .Title }}">
                         <picture>
                           <source 
                             srcset="{{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
-                            sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
+                            sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, calc(80.53vw - 21px)"
                             media="(min-width: 200px)">
                           <img src="{{ $optimizedmicro }}"
                             alt="{{ .Params.CoverAlt | plainify | default .Title }}"
-                            height="731"
-                            width="480"
+                            height="{{ $small.Height }}"
+                            width="{{ $small.Width }}"
                             loading="lazy"
                           />
                         </picture>  
@@ -65,12 +61,12 @@
                         {{ $og_image = index $.Site.Params.images 0 | absURL }}
                       {{ end }}
                       <div class="related-image">
-                        <a href="{{ .RelPermalink }}">
+                        <a href="{{ .RelPermalink }}" title="{{ .Title }}" aria-label="{{ .Title }}">
                           <picture>
                             <img src="{{ $og_image }}"
                               alt="SimeonOnSecurity's Default Banner Image"
-                              height="731"
-                              width="480"
+                              height="{{ $small.Height }}"
+                              width="{{ $small.Width }}"
                               loading="lazy"
                             />
                           </picture>  
@@ -84,7 +80,7 @@
                     </time>
                   </div>
                   <div class="related-title">
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}" title="{{ .Title }}" aria-label="{{ .Title }}">{{ .Title }}</a>
                   </div>
                 </div>
               </div>
