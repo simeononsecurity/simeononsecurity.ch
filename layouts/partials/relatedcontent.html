@@ -43,7 +43,7 @@
                         <picture>
                           <source 
                             srcset="{{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
-                            sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
+                            sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, calc(80.53vw - 21px)"
                             media="(min-width: 200px)">
                           <img src="{{ $optimizesmall }}"
                             alt="{{ .Params.CoverAlt | plainify | default .Title }}"
