@@ -29,7 +29,7 @@
                   {{ if .Params.Cover }}
                     {{ $cover := ""}}
                     {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ else }}{{ $cover = resources.Get (.Params.Cover) }}{{ end }}
-                    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}  
+                    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
                     {{ $tiny := ($cover.Resize "240x webp q50") }}
                       {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
                       {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
@@ -43,12 +43,12 @@
                         <picture>
                           <source 
                             srcset="{{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
-                            sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, calc(80.53vw - 21px)"
+                            sizes="(min-width: 780px) 480px, (min-width: 384px) 240px, 20px, calc(80.53vw - 21px)"
                             media="(min-width: 200px)">
-                          <img src="{{ $optimizedsmall }}"
+                          <img src="{{ $optimizesmall }}"
                             alt="{{ .Params.CoverAlt | plainify | default .Title }}"
-                            height="{{ $small.Height }}"
-                            width="{{ $small.Width }}"
+                            height="731"
+                            width="480"
                             loading="lazy"
                           />
                         </picture>  
@@ -65,8 +65,8 @@
                           <picture>
                             <img src="{{ $og_image }}"
                               alt="SimeonOnSecurity's Default Banner Image"
-                              height="{{ $small.Height }}"
-                              width="{{ $small.Width }}"
+                              height="731"
+                              width="480"
                               loading="lazy"
                             />
                           </picture>  
