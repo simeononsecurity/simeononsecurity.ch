@@ -100,8 +100,11 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
   }
 </script>
 
-{{ $style := resources.Get "style-append.css" | resources.Minify }}
-<a rel="stylesheet" title="stylesheet" aria-label="stylesheet" href="{{ $style.Permalink }}"></a>
+{{ $style := resources.Get "style-append.css" | resources.Minify | resources.Fingerprint "md5" }}
+
+{{ with $style }}
+  <link rel="stylesheet" title="stylesheet" aria-label="stylesheet" href="{{ .Permalink }}" defer>
+{{ end }}
 
 <!-- Load Service Worker -->
 {{ partialCached "load_service_worker.html" . }}
