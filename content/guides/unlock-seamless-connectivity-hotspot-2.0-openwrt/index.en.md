@@ -13,13 +13,13 @@ coverCaption: "Empower Your Network: Hotspot 2.0 Unleashed on OpenWRT!"
 
 **Creating Hotspot 2.0 / Passpoint 2.0 Hotspots on OpenWRT**
 
-In today's connected world, providing seamless and secure Wi-Fi connectivity is essential for various industries and public spaces. One revolutionary technology that addresses this need is **Hotspot 2.0**, also known as **Passpoint 2.0**. In this article, we will explore how to set up Hotspot 2.0 on OpenWRT, a popular open-source router firmware.
+In today's connected world, providing seamless and secure Wi-Fi connectivity is essential for various industries and public spaces. One revolutionary technology that addresses this need is **Hotspot 2.0**, also known as **Passpoint 2.0**. In this article, we will explore how to set up Hotspot 2.0 on OpenWRT, a popular open-source router and access point firmware.
 
 ## Introduction
 
 **Hotspot 2.0** brings enhanced security and convenience to Wi-Fi connectivity by automating the connection process and ensuring a secure exchange of credentials. Before diving into the technical details, let's address the key questions: What is Hotspot 2.0, and why is it crucial for modern Wi-Fi networks?
 
-Hotspot 2.0, defined by the IEEE 802.11u standard, enables **seamless and secure Wi-Fi roaming** by allowing mobile devices to connect to Wi-Fi networks automatically. This technology eliminates the hassle of manually selecting and authenticating with each network, providing users with a more efficient and user-friendly experience.
+Hotspot 2.0, defined by the **IEEE 802.11u standard**, enables **seamless and secure Wi-Fi roaming** by allowing mobile devices to connect to Wi-Fi networks automatically. This technology eliminates the hassle of manually selecting and authenticating with each network, providing users with a more efficient and user-friendly experience.
 
 ______
 
@@ -54,7 +54,7 @@ Before configuring Passpoint on OpenWrt, ensure you have the following prerequis
     - Port numbers
     - Shared secrets
 
-> **Note:** This information can be obtained through an email or document through your provider. Or if you're using [Google Orion](https://orion.google/) like we are in our examples below, you'll be self hosting a [freeradius based radsec proxy](https://github.com/simeononsecurity/orion-radsec/tree/sos-dev). We won't be going into this in this article so please read your providers instructions carefully.
+> **Note:** This information can be obtained through an email or document through your provider. If you're using [Google Orion](https://orion.google/) like we are in our examples below, you'll be self hosting a [freeradius based radsec proxy](https://github.com/simeononsecurity/orion-radsec/tree/sos-dev). We won't be going into this in this article so **please read your providers instructions carefully**.
 
 #### Overview of Hotspot 2.0 on OpenWRT
 
@@ -94,7 +94,7 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 {{< centerbutton href="https://amzn.to/49knV4o" description="GL.iNet GL-MT3000 (Beryl AX) Pocket-Sized Wi-Fi 6 Wireless Travel Gigabit Router – OpenVPN, Wireguard, Connect to Public & Hotel Wi-Fi login Page, RV" >}}Get Your GL.iNet GL-MT3000 (Beryl AX) Today!{{< /centerbutton >}}
 
-- [GL.iNet GL-SFT1200 (Opal)](https://amzn.to/49knV4o)
+- [GL.iNet GL-SFT1200 (Opal)](https://amzn.to/3UkHVQ5)
 
 {{< centerbutton href="https://amzn.to/3UkHVQ5" description="GL.iNet GL-SFT1200 (Opal) Secure Travel WiFi Router – AC1200 Dual Band Gigabit Ethernet Wireless Internet | IPv6 USB 2.0 MU-MIMO DDR3 |128MB Ram Repeater Bridge Access Point Mode" >}}Get Your GL.iNet GL-SFT1200 (Opal) Today!{{< /centerbutton >}}
 
@@ -108,7 +108,7 @@ opkg --force-removal-of-dependent-packages remove iw wpad-basic gl-sdk4-repeater
 opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common wpad-openssl nano
 ```
 
-If you've purchased one of the GL.iNet devices we recommended above you'll also run the following command:
+If you've purchased one of the [GL.iNet devices](https://amzn.to/3UnfDEw) we recommended above you'll also run the following command:
 
 ```bash
 opkg --force-overwrite install kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211
@@ -130,7 +130,7 @@ config wifi-iface 'radio1_orion5g'
     option acct_server 'xxx.xxx.xxx.xxx'
     option auth_secret 'radsec'
     option auth_server 'xxx.xxx.xxx.xxx'
-    # Likely radio0 or radio1 if using built in  radios, if using a usb device it'll likely be radio 2
+    # Likely radio0 or radio1 if using built in radios, if using a usb device it'll likely be radio 2
     option device 'radio1'
     # Change between either wpa2-mixed or wpa3-mixed
     option encryption 'wpa3-mixed'
@@ -186,7 +186,6 @@ config wifi-iface 'radio1_orion5g'
     # List of operator icons, specifying width, height, language code, image format, and icon filename. (This doesn't need to be a valid path but must be specified on OpenWRT)
     list operator_icon '64:64:eng:image/png:operator_icon:operator_icon.png'
 
-
     #ProxyARP and 80211k are not supported on all devices, remove if you have issues.
     option proxy_arp '1'
     option ieee80211k '1'
@@ -208,9 +207,9 @@ config wifi-iface 'radio1_orion5g'
     list iw_domain_name 'openroaming.goog'
     list iw_domain_name 'wifi.fi.google.com'
     #AT&T Domain Names
-    list iw_domain_name 'attwifi.com'
-    list iw_domain_name 'att.com'
-    list iw_domain_name 'attwireless.com'
+    #list iw_domain_name 'attwifi.com'
+    #list iw_domain_name 'att.com'
+    #list iw_domain_name 'attwireless.com'
     #T-Mobile Domain Names
     #list iw_domain_name 't-mobile.com'
     #OpenRoaming / IronWiFi Domain Names
@@ -287,7 +286,7 @@ Afterwards we need to run two commands:
 
 #### Fixing 3GPP Bug for Hotspot 2.0 Support on OpenWRT
 
-OpenWRT doesn't configure `hostapd` directly. It uses a script at `/lib/netifd/hostapd.sh` to convert your config at `/etc/config/wireless` to the appropriate config. On some distros of OpenWRT there is a bug that prevents 3GPP configurations. 
+OpenWRT doesn't configure `hostapd` directly. It uses a script at `/lib/netifd/hostapd.sh` to convert your config at `/etc/config/wireless` to the appropriate `hostapd` config. On some distros of OpenWRT there is a bug that prevents 3GPP configurations. 
 
 Run the following command on your device to resolve it:
 
@@ -304,7 +303,7 @@ append_iw_anqp_3gpp_cell_net() {\
 
 > *Just one character is the issue. The script above is fine to run on all devices. It won't make any changes if the bug isn't there.*
 
-After configuring your interface and performing the 3gpp fix. You'll run the following command to reload your wireless config.
+After configuring your interface and performing the 3gpp fix, you'll run the following command to **reload your wireless config**.
 
 ```bash
 wifi
@@ -341,11 +340,13 @@ Ex:
 - `option iw_venue_type '7'`
 
 #### NAI Realm information
+
 One or more realm can be advertised. Each nai_realm line adds a new realm to the set. These parameters provide information for stations using Interworking network selection to allow automatic connection to a network based on credentials.
 
 > format: <encoding>,<NAI Realm(s)>[,<EAP Method 1>][,<EAP Method 2>][,...]
 
 ##### Encoding
+
 > 0 = Realm formatted in accordance with IETF RFC 4282
 > 1 = UTF-8 formatted character string that is not formatted in accordance with IETF RFC 4282
 
@@ -392,6 +393,7 @@ Ex: **EAP methods EAP-TLS with certificate and EAP-TTLS/MSCHAPv2 with username/p
 Ex. `option hs20_wan_metrics '01:8000:1000:80:240:3000'`
 
 #### IP Address Type Availability
+
 > format: <1-octet encoded value as hex str> 
 > (ipv4_type & 0x3f) << 2 | (ipv6_type & 0x3)
 
@@ -411,7 +413,7 @@ Ex. `option hs20_wan_metrics '01:8000:1000:80:240:3000'`
 > 1 = Address type available
 > 2 = Availability of the address type not known
 
-Ex: `option iw_ipaddr_type_availability '50'`
+Ex: `option iw_ipaddr_type_availability '11'`
 
 ### Troubleshooting OpenWRT and Best Practices for Hotspot 2.0
 
@@ -432,7 +434,6 @@ When encountering issues, it's beneficial to run Hostapd in debug mode to gather
 ```bash
 hostapd -dddd -B -P /var/run/hostapd-phyX.pid /var/run/hostapd-phyX.conf
 ```
-
 Examine the debug output for any error messages or warnings that might provide insights into the cause of the problem.
 
 #### Luci Configuration Page
@@ -444,9 +445,9 @@ If the wireless interface fails to start, the Luci configuration page offers a c
 3. Disable the `proxyarp` option, save the configuration changes.
 4. Click "Save & Apply"
 
-Check the system logs for any error messages during this reconfiguration phase.
+Check the system logs using `logread` for any error messages during this reconfiguration phase.
 
-> We understand that per spec that proxyarp should be left on if at all possible. However, we did have a number of OpenWRT devices have issues with this.
+> **Note:** *We understand that per spec that proxyarp should be left on if at all possible. However, we did have a number of OpenWRT devices have issues with this.*
 
 #### Channel and Power Level Settings
 
@@ -522,6 +523,8 @@ If nothing shows up, your wpad version doesn't support Hotspot 2.0, and you may 
 
 Yes, USB external WiFi cards can be used on OpenWRT for Hotspot 2.0 support. We recommend specific adapters with OpenWRT compatibility and 802.11 AX support for an optimal experience.
 
+{{< centerbutton href="https://amzn.to/3vYvHT4" description="ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz" >}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
+
 ### Q6: How do I troubleshoot issues with Hotspot 2.0 on OpenWRT?
 
 If you encounter issues, you can troubleshoot by checking the configuration files, verifying MAC addresses, and ensuring proper settings in the Luci configuration page. Additionally, for interface startup issues, disable and re-enable proxyarp in the Luci configuration.
@@ -531,6 +534,7 @@ ______
 
 Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-Fi connectivity. From improving user experience to addressing security concerns, this technology plays a pivotal role in modern wireless networks. By following the outlined steps and best practices, you can create a seamless and secure Hotspot 2.0-enabled environment.
 
+{{< centerbutton href="https://amzn.to/3UnfDEw" description="GL.iNet GL-MT6000(Flint 2) WiFi 6 Router | Gaming WiFi Router | 2 x 2.5G Multi-Gig Port+4 x 1G Ethernet Ports | Mass Device Connectivity | Rapid OpenVpn & WireGuard | 802.11ax | Long Range Coverage " >}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
 
 ## References
 - [802.11 Operating Classes](https://mentor.ieee.org/802.11/dcn/10/11-10-0564-00-0s1g-operating-classes.ppt)
