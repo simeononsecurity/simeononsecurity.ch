@@ -311,7 +311,7 @@ wifi
 ### OpenWRT Wireless Config Options Explained
 
 
-### Access Network Type
+#### Access Network Type
 
 Configure the Access Network Type using the following format:
 
@@ -625,7 +625,7 @@ ______
 
 Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-Fi connectivity. From improving user experience to addressing security concerns, this technology plays a pivotal role in modern wireless networks. By following the outlined steps and best practices, you can create a seamless and secure Hotspot 2.0-enabled environment.
 
-{{< centerbutton href="https://amzn.to/3UnfDEw" description="GL.iNet GL-MT6000(Flint 2) WiFi 6 Router | Gaming WiFi Router | 2 x 2.5G Multi-Gig Port+4 x 1G Ethernet Ports | Mass Device Connectivity | Rapid OpenVpn & WireGuard | 802.11ax | Long Range Coverage " >}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3UnfDEw">}}Get Your GL.iNet GL-MT6000 (Flint 2) Today!{{< /centerbutton >}}
 
 ## References
 - [802.11 Operating Classes](https://mentor.ieee.org/802.11/dcn/10/11-10-0564-00-0s1g-operating-classes.ppt)
