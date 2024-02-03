@@ -614,7 +614,7 @@ If nothing shows up, your wpad version doesn't support Hotspot 2.0, and you may 
 
 Yes, USB external WiFi cards can be used on OpenWRT for Hotspot 2.0 support. We recommend specific adapters with OpenWRT compatibility and 802.11 AX support for an optimal experience.
 
-{{< centerbutton href="https://amzn.to/3vYvHT4" description="ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz" >}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3vYvHT4">}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
 
 ### Q6: How do I troubleshoot issues with Hotspot 2.0 on OpenWRT?
 
