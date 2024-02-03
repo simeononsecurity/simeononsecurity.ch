@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the step-by-step guide to create Hotspot 2.0 on OpenWRT, ensuring seamless connections and enhanced security. Dive into the future of Wi-Fi effortlessly."
 genre: ["Technology", "Networking", "Wireless Solutions", "OpenWRT Configuration", "Passpoint Setup", "Cybersecurity", "WiFi Standards", "Router Enhancements", "Internet Connectivity", "Network Optimization"]
-tags: ["Hotspot 2.0", "OpenWRT", "Passpoint", "WiFi Configuration", "Wireless Networks", "Network Security", "Router Setup", "Internet Connectivity", "Tech Tutorials", "Cybersecurity Tips", "WiFi Standards", "Seamless Connection", "Wireless Solutions", "Network Optimization", "Router Enhancements", "Passpoint 2.0", "OpenWRT Tutorial", "WiFi Access Points", "RADIUS Server", "802.11 AX", "Troubleshooting Guide", "WiFi Adapters", "Network Management", "Network Infrastructure", "Tech How-To", "Secure WiFi", "WiFi Authentication", "WiFi Protocols", "WiFi Best Practices"]
+tags: ["Hotspot 2.0", "OpenWRT", "Passpoint", "WiFi Configuration", "Wireless Networks", "Network Security", "Router Setup", "Internet Connectivity", "Tech Tutorials", "Cybersecurity Tips", "WiFi Standards", "Seamless Connection", "Wireless Solutions", "Network Optimization", "Router Enhancements", "Passpoint 2.0", "OpenWRT Tutorial", "WiFi Access Points", "RADIUS Server", "802.11 AX", "Troubleshooting Guide", "WiFi Adapters", "Network Management", "Network Infrastructure", "Tech How-To", "Secure WiFi", "WiFi Authentication", "WiFi Protocols", "WiFi Best Practices", "802.11u", "802.11-2016"]
 cover: "/img/cover/hotspot2.0-openwrt-setup.png"
 coverAlt: "A vibrant illustration depicting interconnected WiFi signals forming a seamless network"
 coverCaption: "Empower Your Network: Hotspot 2.0 Unleashed on OpenWRT!"
@@ -17,6 +17,8 @@ In today's connected world, providing seamless and secure Wi-Fi connectivity is 
 
 ## Introduction
 
+{{< youtube id="bkryvh5QrkE" >}}
+
 **Hotspot 2.0** brings enhanced security and convenience to Wi-Fi connectivity by automating the connection process and ensuring a secure exchange of credentials. Before diving into the technical details, let's address the key questions: What is Hotspot 2.0, and why is it crucial for modern Wi-Fi networks?
 
 Hotspot 2.0, defined by the **IEEE 802.11u standard**, enables **seamless and secure Wi-Fi roaming** by allowing mobile devices to connect to Wi-Fi networks automatically. This technology eliminates the hassle of manually selecting and authenticating with each network, providing users with a more efficient and user-friendly experience.
@@ -24,6 +26,8 @@ Hotspot 2.0, defined by the **IEEE 802.11u standard**, enables **seamless and se
 ______
 
 ## The Significance of Hotspot 2.0 and Passpoint 2.0
+
+{{< youtube id="p4gDW6SJ150" >}}
 
 ### Enhancing User Experience
 
@@ -619,6 +623,52 @@ Yes, USB external WiFi cards can be used on OpenWRT for Hotspot 2.0 support. We 
 ### Q6: How do I troubleshoot issues with Hotspot 2.0 on OpenWRT?
 
 If you encounter issues, you can troubleshoot by checking the configuration files, verifying MAC addresses, and ensuring proper settings in the Luci configuration page. Additionally, for interface startup issues, disable and re-enable proxyarp in the Luci configuration.
+
+Certainly! Here are the additional questions and answers in markdown format:
+
+### Q7: Is Passpoint Secure?
+
+Securing Wi-Fi connections is a crucial aspect of networking, and Passpoint ensures security by mandating the use of Protected Management Frames for all connections. It leverages the EEE 802.11u specification, a version of 802.1x, and is restricted to access points and devices capable of WPA2 and WPA3 authentication, specifically using the EAP authentication protocol – the current industry standard for network security.
+
+### Q8: Does Passpoint support voice mobile data offload over Wi-Fi?
+
+Passpoint technologies play a key role in supporting mobile data offload, benefiting both mobile operators and internet service providers. Passpoint enables seamless connectivity and improved performance for voice and mobile data over Wi-Fi.
+
+### Q9: What does Passpoint bring to hospitality?
+
+For hospitality chains with multiple brands and a consolidated rewards program, Passpoint simplifies connectivity. Instead of adding the rewards program SSID at every hotel, Passpoint functions with a single profile identifying the rewards program. When users visit associated properties, their devices automatically identify the access points and connect.
+
+### Q10: How does Passpoint support service provider branding and customer relationships?
+
+Passpoint-enabled devices can choose networks based on preferred providers, specific services, or performance characteristics. For service providers offering a managed experience, seamless authentication is valuable, and Passpoint networks also support deployments where a click-through screen is essential for terms and conditions or branding acceptance.
+
+### Q11: How does Passpoint equipment support Wi-Fi roaming?
+
+Passpoint devices use industry-agreed mechanisms for discovering and creating secured connections to hotspots, ensuring seamless Wi-Fi connectivity globally for subscribers with roaming agreements. Passpoint is specified as a requirement for the Wireless Broadband Alliance’s industry work on Wi-Fi roaming.
+
+### Q12: What standards does Passpoint draw on?
+
+Passpoint utilizes elements of IEEE 802.1X, 802.11u, 802.11i, and WPA3™-Enterprise security, along with Wi-Fi Alliance-defined mechanisms, to enhance Wi-Fi connectivity.
+
+### Q13: Who created the Passpoint program?
+
+Members of the Wi-Fi Alliance, including service providers, mobile operators, fixed-line operators, and makers of mobile devices and infrastructure equipment, created the Passpoint program.
+
+### Q14: What does Passpoint mean for end users?
+
+Passpoint provides a superior Wi-Fi user experience for mobile users. Certified Passpoint devices offer streamlined network selection, secure connectivity at Passpoint-enabled hotspots, and operation based on user preferences.
+
+### Q15: Can existing equipment be upgraded for Passpoint?
+
+Most existing silicon is Passpoint capable, and the upgrade possibility depends on the hardware and software platform of a given device. Equipment that has undergone certification testing can be updated and resubmitted for Passpoint certification.
+
+### Q16: Can legacy clients join a network with Passpoint access points?
+
+Legacy mobile devices can connect to Passpoint access points configured for open system authentication but won't enjoy Passpoint features. Supporting both a Passpoint-certified network and a separate open network on the same access points allows Passpoint mobile devices to benefit while supporting legacy clients.
+
+### Q17: Does Passpoint support voice over Wi-Fi?
+
+Passpoint is application-agnostic and serves as a key enabler for various applications, including voice over Wi-Fi. The scope of Passpoint testing ensures correct implementation of mechanisms for seamless discovery and creation of a secured link.
 ______
 
 ## Conclusion
@@ -663,3 +713,9 @@ Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-
 - [hostap default config](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf)
 - [morrownr/USB-WiFi](https://github.com/morrownr/USB-WiFi)
 - [simeononsecurity/orion-radsec](https://github.com/simeononsecurity/orion-radsec/tree/sos-dev)
+- [IEEE 802.11u](https://en.wikipedia.org/wiki/IEEE_802.11u)
+- [IEEE 802.11-2016](https://standards.ieee.org/ieee/802.11/5536/)
+- [IEEE 802.11-2020](https://standards.ieee.org/ieee/802.11/7028/)
+- [Infographic - Wi-Fi CERTIFIED Passpoint®](https://www.wi-fi.org/file/infographic-wi-fi-certified-passpoint)
+- [Wi-Fi CERTIFIED Passpoint® Technology Overview (2019)](https://www.wi-fi.org/file/wi-fi-certified-passpoint-technology-overview-2019)
+- [Wi-Fi CERTIFIED Passpoint® Deployment Guidelines](https://www.wi-fi.org/file/wi-fi-certified-passpoint-deployment-guidelines)
