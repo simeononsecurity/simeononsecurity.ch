@@ -84,19 +84,19 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 - [GL.iNet GL-MT6000 (Flint 2) WiFi 6 Router](https://amzn.to/3UnfDEw)
 
-{{< centerbutton href="https://amzn.to/3UnfDEw" description="GL.iNet GL-MT6000(Flint 2) WiFi 6 Router | Gaming WiFi Router | 2 x 2.5G Multi-Gig Port+4 x 1G Ethernet Ports | Mass Device Connectivity | Rapid OpenVpn & WireGuard | 802.11ax | Long Range Coverage " >}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3UnfDEw">}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
 
 - [GL.iNet GL-AXT1800 (Slate AX)](https://amzn.to/48ZFYNn)
 
-{{< centerbutton href="https://amzn.to/48ZFYNn" description="GL.iNet GL-AXT1800 (Slate AX) Pocket-Sized Wi-Fi 6 Gigabit Travel Router, Extender/Repeater for Hotel&Public Network Storage, VPN Client&Server, OpenWrt, Adguard Home, USB 3.0, TF Card Slot" >}}Get Your GL.iNet GL-AXT1800 (Slate AX) Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/48ZFYNn">}}Get Your GL.iNet GL-AXT1800 (Slate AX) Today!{{< /centerbutton >}}
 
 - [GL.iNet GL-MT3000 (Beryl AX)](https://amzn.to/49knV4o)
 
-{{< centerbutton href="https://amzn.to/49knV4o" description="GL.iNet GL-MT3000 (Beryl AX) Pocket-Sized Wi-Fi 6 Wireless Travel Gigabit Router – OpenVPN, Wireguard, Connect to Public & Hotel Wi-Fi login Page, RV" >}}Get Your GL.iNet GL-MT3000 (Beryl AX) Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/49knV4o">}}Get Your GL.iNet GL-MT3000 (Beryl AX) Today!{{< /centerbutton >}}
 
 - [GL.iNet GL-SFT1200 (Opal)](https://amzn.to/3UkHVQ5)
 
-{{< centerbutton href="https://amzn.to/3UkHVQ5" description="GL.iNet GL-SFT1200 (Opal) Secure Travel WiFi Router – AC1200 Dual Band Gigabit Ethernet Wireless Internet | IPv6 USB 2.0 MU-MIMO DDR3 |128MB Ram Repeater Bridge Access Point Mode" >}}Get Your GL.iNet GL-SFT1200 (Opal) Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3UkHVQ5">}}Get Your GL.iNet GL-SFT1200 (Opal) Today!{{< /centerbutton >}}
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
 
@@ -310,110 +310,204 @@ wifi
 ```
 ### OpenWRT Wireless Config Options Explained
 
-#### Access Network Type
+Certainly! Here's the improved version with a table for better clarity:
 
-> 0 = Private network
-> 1 = Private network with guest access
-> 2 = Chargeable public network
-> 3 = Free public network
-> 4 = Personal device network
-> 5 = Emergency services only network
-> 14 = Test or experimental
-> 15 = Wildcard
+### Access Network Type
 
-Ex. `option iw_access_network_type '2'`
+Configure the Access Network Type using the following format:
 
-#### Venue Info (optional)
+| Access Network Type | Description                           |
+|---------------------|---------------------------------------|
+| 0                   | Private network                       |
+| 1                   | Private network with guest access     |
+| 2                   | Chargeable public network             |
+| 3                   | Free public network                   |
+| 4                   | Personal device network               |
+| 5                   | Emergency services only network       |
+| 14                  | Test or experimental                  |
+| 15                  | Wildcard                              |
 
-The available values are defined in IEEE Std 802.11u-2011, 7.3.1.34.
+**Explanation**:
 
-##### Example values (group,type):
+- The 'Access Network Type' specifies the nature of the network, helping devices categorize and interact appropriately.
+- Choose the appropriate number to define the desired network type.
 
-> 0,0 = Unspecified
-> 1,7 = Convention Center
-> 1,13 = Coffee Shop
-> 2,0 = Unspecified Business
-> 7,1  Private Residence
+##### Example Usage:
 
-Ex:
-- `option iw_venue_group '1'`
-- `option iw_venue_type '7'`
+To set the Access Network Type to 'Chargeable public network':
 
-#### NAI Realm information
+```bash
+option iw_access_network_type '2'
+```
 
-One or more realm can be advertised. Each nai_realm line adds a new realm to the set. These parameters provide information for stations using Interworking network selection to allow automatic connection to a network based on credentials.
+This example illustrates how to configure the Access Network Type. Adjust the value based on the characteristics of your network.
 
-> format: <encoding>,<NAI Realm(s)>[,<EAP Method 1>][,<EAP Method 2>][,...]
+Configuring the Access Network Type provides crucial information about the nature of the network, aiding devices in understanding the available services and connectivity options.
+
+#### Venue Info (Optional)
+
+Configure Venue Information using the following format:
+
+> **Group, Type**
+
+##### Values:
+
+|  Group  |  Type  |                Description               |
+|:-------:|:------:|:-----------------------------------------:|
+|    0    |    0   |                 Unspecified                |
+|    1    |    7   |             Convention Center             |
+|    1    |   13   |                Coffee Shop                 |
+|    2    |    0   |         Unspecified Business              |
+|    7    |    1   |           Private Residence               |
+
+**Explanation**:
+
+- Venue Information allows you to specify the group and type based on IEEE Std 802.11u-2011, 7.3.1.34.
+- The 'Group' parameter represents a broader category, while 'Type' specifies the specific venue type within that group.
+
+##### Example Usage:
+
+- To set the Venue Group to 'Convention Center':
+```plaintext
+option iw_venue_group '1'
+```
+- To set the Venue Type to 'Coffee Shop':
+```plaintext
+option iw_venue_type '13'
+```
+
+These examples demonstrate how to configure Venue Information. Adjust the values according to your specific venue details.
+
+This configuration provides additional information about the network, helping devices identify and connect based on the specified venue characteristics.
+
+#### NAI Realm Information
+
+One or more realms can be advertised, with each `nai_realm` line adding a new realm to the set. These parameters provide information for stations using Interworking network selection to facilitate automatic connection to a network based on credentials.
+
+> Format: `<Encoding>,<NAI Realm(s)>[,<EAP Method 1>][,<EAP Method 2>][,...]`
 
 ##### Encoding
 
-> 0 = Realm formatted in accordance with IETF RFC 4282
-> 1 = UTF-8 formatted character string that is not formatted in accordance with IETF RFC 4282
+Choose the encoding format for the realm. The following options are available:
+
+| Realm Format | Description                                               |
+|--------------|-----------------------------------------------------------|
+| 0            | Realm formatted in accordance with IETF RFC 4282           |
+| 1            | UTF-8 formatted character string not following RFC 4282  |
 
 **NAI Realm(s): Semi-colon delimited NAI Realm(s)**
 
-> EAP Method: <EAP Method>[:<[AuthParam1:Val1]>][<[AuthParam2:Val2]>][...]
+> EAP Method: `<EAP Method>[:<[AuthParam1:Val1]>][<[AuthParam2:Val2]>][...]`
 
-EAP Method types, see:
-[AuthParam (Table 8-188 in IEEE Std 802.11-2012)](http://www.iana.org/assignments/eap-numbers/eap-numbers.xhtml#eap-numbers-4):
+For EAP Method types, refer to [AuthParam (Table 8-188 in IEEE Std 802.11-2012)](http://www.iana.org/assignments/eap-numbers/eap-numbers.xhtml#eap-numbers-4).
 
-> ID 2 = Non-EAP Inner Authentication Type
->    1 = PAP, 2 = CHAP, 3 = MSCHAP, 4 = MSCHAPV2
-> ID 3 = Inner authentication EAP Method Type
-> ID 5 = Credential Type
->    1 = SIM, 2 = USIM, 3 = NFC Secure Element, 4 = Hardware Token,
->    5 = Softoken, 6 = Certificate, 7 = username/password, 9 = Anonymous,
->    10 = Vendor Specific
+**ID 2 = Non-EAP Inner Authentication Type**
 
-Ex. `list iw_nai_realm '0,example.com;example.net'`
+|  ID  |      Authentication Type     |
+|:----:|:-----------------------------:|
+|   1  |             PAP               |
+|   2  |             CHAP              |
+|   3  |            MSCHAP             |
+|   4  |           MSCHAPV2            |
 
-Ex: **EAP methods EAP-TLS with certificate and EAP-TTLS/MSCHAPv2 with username/password**
- - `list iw_nai_realm '0,example.org,13[5:6],21[2:4][5:7]'`
+**ID 3 = Inner Authentication EAP Method Type**
+
+*No specific values.*
+
+**ID 5 = Credential Type**
+
+|  ID  |         Credential Type          |
+|:----:|:--------------------------------:|
+|   1  |               SIM                |
+|   2  |              USIM                |
+|   3  | NFC Secure Element                |
+|   4  |          Hardware Token          |
+|   5  |            Softoken              |
+|   6  |            Certificate           |
+|   7  |      Username/Password           |
+|   9  |            Anonymous              |
+|  10  |       Vendor Specific             |
+
+**Examples:**
+
+- `list iw_nai_realm '0,example.com;example.net'`
+- `list iw_nai_realm '0,example.org,13[5:6],21[2:4][5:7]'`
+
+These examples demonstrate configuring EAP methods such as EAP-TLS with a certificate and EAP-TTLS/MSCHAPv2 with a username/password. Adjust the parameters based on your specific requirements.
 
 #### WAN Metrics (Optional)
 
-> format: <WAN Info>:<DL Speed>:<UL Speed>:<DL Load>:<UL Load>:<LMD>
+Configure WAN Metrics using the following format:
 
-**WAN Info**: B0-B1: Link Status, B2: Symmetric Link, B3: At Capabity (encoded as two hex digits)
+> `<WAN Info>:<DL Speed>:<UL Speed>:<DL Load>:<UL Load>:<LMD>`
 
-**Link Status**: 1 = Link up, 2 = Link down, 3 = Link in test state
+**WAN Info**: B0-B1: Link Status, B2: Symmetric Link, B3: Capability (encoded as two hex digits)
 
-**Downlink Speed**: Estimate of WAN backhaul link current downlink speed in kbps;
+- **Link Status**: 1 = Link up, 2 = Link down, 3 = Link in test state
 
-`1..4294967295; 0 = unknown`
+- **Downlink Speed**: Estimate of WAN backhaul link current downlink speed in kbps (1..4294967295; 0 = unknown)
 
-**Uplink Speed**: Estimate of WAN backhaul link current uplink speed in kbps
+- **Uplink Speed**: Estimate of WAN backhaul link current uplink speed in kbps (1..4294967295; 0 = unknown)
 
-`1..4294967295; 0 = unknown`
+- **Downlink Load**: Current load of downlink WAN connection (scaled to 255 = 100%)
 
-**Downlink Load**: Current load of downlink WAN connection (scaled to 255 = 100%)
-**Uplink Load**: Current load of uplink WAN connection (scaled to 255 = 100%)
-**Load Measurement Duration**: Duration for measuring downlink/uplink load in tenths of a second (1..65535); 0 if load cannot be determined
+- **Uplink Load**: Current load of uplink WAN connection (scaled to 255 = 100%)
 
-Ex. `option hs20_wan_metrics '01:8000:1000:80:240:3000'`
+- **Load Measurement Duration**: Duration for measuring downlink/uplink load in tenths of a second (1..65535); 0 if load cannot be determined
+
+**Example**: 
+
+```bash
+option hs20_wan_metrics '01:8000:1000:80:240:3000'
+```
+
+This example sets WAN Metrics with link status up, downlink speed of 8000 kbps, uplink speed of 1000 kbps, 80% downlink load, 24% uplink load, and a load measurement duration of 3000 tenths of a second. Adjust the values based on your specific WAN characteristics.
+
+#Certainly! Here's the improved version with added documentation and explanations:
 
 #### IP Address Type Availability
 
-> format: <1-octet encoded value as hex str> 
-> (ipv4_type & 0x3f) << 2 | (ipv6_type & 0x3)
+Configure IP Address Type Availability using the following format:
+
+> `<1-octet encoded value as hex str>` 
+`((ipv4_type & 0x3f) << 2) | (ipv6_type & 0x3)`
 
 ##### ipv4 type:
 
-> 0 = Address type not available
-> 1 = Public IPv4 address available
-> 2 = Port-restricted IPv4 address available
-> 3 = Single NATed private IPv4 address available
-> 4 = Double NATed private IPv4 address available
-> 5 = Port-restricted IPv4 address and single NATed IPv4 address available
-> 6 = Port-restricted IPv4 address and double NATed IPv4 address available
-> 7 = Availability of the address type is not known
+|  IPv4 Type  |             Description            |
+|:------------:|:----------------------------------:|
+|      0       |    Address type not available     |
+|      1       |    Public IPv4 address available  |
+|      2       | Port-restricted IPv4 address available  |
+|      3       | Single NATed private IPv4 address available |
+|      4       | Double NATed private IPv4 address available |
+|      5       | Port-restricted IPv4 address and single NATed IPv4 address available |
+|      6       | Port-restricted IPv4 address and double NATed IPv4 address available |
+|      7       | Availability of the address type is not known |
 
 ##### ipv6 type:
-> 0 = Address type not available
-> 1 = Address type available
-> 2 = Availability of the address type not known
 
-Ex: `option iw_ipaddr_type_availability '11'`
+|  IPv6 Type  |             Description            |
+|:------------:|:----------------------------------:|
+|      0       |    Address type not available     |
+|      1       |      Address type available       |
+|      2       | Availability of the address type not known |
+
+**Explanation**:
+
+- The configuration format involves a 1-octet encoded value as a hexadecimal string.
+- For IPv4 type, it combines bits using bitwise operations to represent the type of IPv4 address availability.
+- For IPv6 type, it represents the availability of the address type.
+
+**Example Usage**: 
+
+```bash
+option iw_ipaddr_type_availability '11'
+```
+
+This example sets IP Address Type Availability with IPv4 type available and IPv6 type available. Adjust the values based on your specific requirements.
+
+This configuration informs the system that both public IPv4 and available IPv6 addresses can be used. The '11' is a combination of the binary representation for IPv4 availability (01) and IPv6 availability (01).
 
 ### Troubleshooting OpenWRT and Best Practices for Hotspot 2.0
 
@@ -467,15 +561,15 @@ We recommend these adapters for their overall OpenWRT compatibility and 802.11 A
 
 - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://amzn.to/3vYvHT4)
 
-{{< centerbutton href="https://amzn.to/3vYvHT4" description="ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz" >}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3vYvHT4">}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
 
 - [ALFA AWUS036AXM WiFi 6E USB 3.0 USB Adapter, AXE3000 Tri-Band 6Ghz/5.8GHz/2.4GHz](https://amzn.to/3UrQVTG)
 
-{{< centerbutton href="https://amzn.to/3UrQVTG" description="ALFA AWUS036AXM WiFi 6E USB 3.0 USB Adapter, AXE3000 Tri-Band 6Ghz/5.8GHz/2.4GHz" >}}Get Your ALFA AWUS036AXM Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/3UrQVTG">}}Get Your ALFA AWUS036AXM Today!{{< /centerbutton >}}
 
 - [NETGEAR WiFi AC1200 USB 3.0 Adapter (A6210)](https://amzn.to/42m7EJZ)
 
-{{< centerbutton href="https://amzn.to/42m7EJZ" description="NETGEAR WiFi AC1200 USB 3.0 Adapter (A6210)" >}}Get Your NETGEAR A6210 Today!{{< /centerbutton >}}
+{{< centerbutton href="https://amzn.to/42m7EJZ">}}Get Your NETGEAR A6210 Today!{{< /centerbutton >}}
 
 > *For a list of other documented adapters that have support on Linux and OpenWRT See the [USB-WiFi Documentation Repo](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)*
 
