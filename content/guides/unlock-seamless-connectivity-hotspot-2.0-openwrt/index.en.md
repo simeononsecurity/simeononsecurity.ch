@@ -310,7 +310,6 @@ wifi
 ```
 ### OpenWRT Wireless Config Options Explained
 
-Certainly! Here's the improved version with a table for better clarity:
 
 ### Access Network Type
 
@@ -462,8 +461,6 @@ option hs20_wan_metrics '01:8000:1000:80:240:3000'
 ```
 
 This example sets WAN Metrics with link status up, downlink speed of 8000 kbps, uplink speed of 1000 kbps, 80% downlink load, 24% uplink load, and a load measurement duration of 3000 tenths of a second. Adjust the values based on your specific WAN characteristics.
-
-#Certainly! Here's the improved version with added documentation and explanations:
 
 #### IP Address Type Availability
 
