@@ -224,13 +224,19 @@ config wifi-iface 'radio1_orion5g'
     #list iw_domain_name 'ciscooneid.openroaming.net'
     # Orion / AT&T / OpenRoaming Default Consortium
     list iw_roaming_consortium 'f4f5e8f5f4'
-    #EDURoam Consortium
+    #OpenRoaming Consortium
+    #Baseline Participation: OpenRoaming for All Identities, settlement-free, no personal data requested, baseline QoS - includes, but is not limited to users in education and research
     #list iw_roaming_consortium '5a03ba0000'
+    #Education-Only Participation: OpenRoaming Visited Network Providers who want to signal that they specifically welcome educational and research (i.e. eduroam) visitors settlement-free, 
     #list iw_roaming_consortium '5a03ba0800'
     #IronWiFi Consortium
     #list iw_roaming_consortium 'AA146B0000'
     #list iw_roaming_consortium 'BAA2D00000'
     #list iw_roaming_consortium '5A03BA0000'
+    #Cisco OpenRoaming and Samsung OneUI Onboarding
+    #list iw_roaming_consortium '004096'
+    #EDURoam Consortium
+    #list iw_roaming_consortium '001BC50460'
     #Orion NAI Realm
     list iw_nai_realm '0,*.orion.area120.com,13[5:6],21[2:4][5:7],23[5:1][5:2],50[5:1][5:2],18[5:1][5:2]'
     #AT&T NAI Realm
@@ -719,3 +725,10 @@ Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-
 - [Infographic - Wi-Fi CERTIFIED Passpoint®](https://www.wi-fi.org/file/infographic-wi-fi-certified-passpoint)
 - [Wi-Fi CERTIFIED Passpoint® Technology Overview (2019)](https://www.wi-fi.org/file/wi-fi-certified-passpoint-technology-overview-2019)
 - [Wi-Fi CERTIFIED Passpoint® Deployment Guidelines](https://www.wi-fi.org/file/wi-fi-certified-passpoint-deployment-guidelines)
+- [geant.org - OpenRoaming ANPs](https://wiki.geant.org/pages/viewpage.action?pageId=133763844)
+- [WBA OpenRoaming™ Roaming Consortium Organization Identifiers (RCOI)](https://wireless-broadband-alliance.github.io/OR-rcoi-config/#)
+- [Testing eith eapol_test](https://wiki.geant.org/display/H2eduroam/Testing+with+eapol_test)
+- [T-MOBILE WI-FI PASSPOINT](https://howmobileworks.com/wp-content/uploads/2021/06/T-Mobile-Passpoint-Indoor-Coverage-Solution-Tech-Overview-012621.pdf)
+- [T-Mobile A GUIDE TO BUILDING YOUR OWN COVERAGE](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-acs-brochure-110520-spreads.pdf)
+- [T-Mobile Smart Buildings Plan for Wireless (BYOC STEP-BY-STEP)](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-one-pager-103020.pdf)
+- [The Benefits of In-Building Cellular Coverage](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-infographic-updated-logo-only-110520.pdf)
