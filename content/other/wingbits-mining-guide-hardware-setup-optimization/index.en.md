@@ -34,11 +34,11 @@ WingBits sets an ambitious target: global coverage. The innovative SkyHex system
 
 #### WingBits Details
 
-- **SkyHex NFT Ownership:** Antennas require a SkyHex NFT for rewards, aligning with an ownership model reminiscent of air rights.
-  
-- **Maximizing Coverage:** Multiple antennas within the same hex maximize coverage, with rewards based on unique data contributions.
+- **SkyHex NFT Ownership:** Antennas require a SkyHex NFT for full rewards, aligning with an ownership model reminiscent of air rights, while still rewarding, minimally, those without an NFT to promote redundant coverage.
 
-- **Limited Supply:** With a maximum supply of 123,486 SkyHex NFTs, exclusivity and scarcity are maintained.
+- **Maximizing Coverage:** Multiple antennas within the same hex maximize coverage, with most of the rewards ideally based on unique data contributions.
+
+- **Limited Supply:** With a maximum supply of [current maximum supply], exclusivity and scarcity are maintained.
 
 - **Reclaiming Inactivity:** Inactive antennas for 30 days face NFT reclamation, exceptions granted for technical issues.
 
@@ -50,17 +50,44 @@ Explore more about SkyHex [here](https://medium.com/@wingbits/%EF%B8%8Fa-world-o
 
 ______
 
-### WingBits Rewards: The Fair and Transparent Model
+### WingBits Rewards: An Overview of Participation Options
 
-In the volunteer-driven landscape of ADS-B data collection, WingBits introduces a solution utilizing blockchain technology for transparent and equitable rewards.
+Before deciding on Core Network participation, please review the details provided below.
 
-#### The WingBits SkyHex Coverage Model
+#### Supporter Network (default):
 
-WingBits introduces a formula-based reward system. Each hexagon offers a fixed daily amount of Wings, calculated by the number of antennas providing data. The user rewards formula considers uptime, data contribution percentage, and hex rewards.
+- **Open and Inclusive Participation:** The Supporter Network welcomes all participants without any associated charges. Every project member is automatically considered a Supporter.
 
-- **Hex Rewards Formula:** `hex rewards = number of antennas * base rewards`
+- **Reward Structure:** Supporters receive rewards based on the percentage of messages they contribute for each hex, fostering an inclusive environment where all participants are eligible for rewards based on their data contributions.
 
-- **User Rewards Formula:** `user rewards = uptime % * data provided in hex % * hex rewards * 1 Wing`
+#### Core Network (optional - $20/hex):
+
+- **Enhanced Rewards for Hex Owners:** Core participants, who are hex owners, receive additional rewards on top of the regular rewards. This additional pool compensates for their investment in hex ownership, maintenance, and adherence to contribution standards.
+
+- **Reward Calculation:** Core members are rewarded based on their message contribution percentage and system uptime for a hex. They also participate in Supporter network rewards, allowing them to benefit from both Core and Supporter reward pools for each hex they contribute data against.
+
+- **Participation Cap:** The Core network maintains a maximum limit of three owners per hex, aligning with current Skyhex ownership rules.
+
+- **Optimized Setups/Coverage:** Core participants are expected to play a crucial role in forming a robust project network. Their optimized setups and coverage contribute to the overall efficiency of the network, driven by the incentive of higher rewards and additional perks.
+
+#### Examples of Reward Distribution:
+
+*Note: Examples use a placeholder base rewards of 50 tokens. Exact base rewards have not been defined at this time. Examples assume all contributors provide equal data volume and equal uptime (for easier examples).*
+
+| Example | Description | Core Participant Wings | Supporter Wings |
+|---------|-------------|------------------------|-----------------|
+| 1       | One Supporter covering a hex | N/A | 50 Wings |
+| 2       | One Supporter and One Core participant covering a hex | 75 Wings (50 Core rewards + 25 Normal rewards) | 25 Wings |
+| 3       | Two Supporters and Two Core participants covering a hex | 62.5 Wings each (50 Core rewards + 12.5 Normal rewards) | 12.5 Wings each |
+| 4       | One Core participant covering a hex | 100 Wings (50 Core rewards + 50 Normal rewards) | N/A |
+
+For more details on the formulas used in the examples, please refer to the [Supporter & Core Network Participation documentation](https://docs.wingbits.com/introduction/supporter-and-core-network-participation).
+
+#### Additional Notes:
+
+- Core network membership offers additional perks beyond what is available to Supporter Network members.
+- Core network participants are expected to meet minimum standards in terms of uptime and data contribution for each hex they own.
+- Supporter and Core network participation aims to build a more robust and efficient network by encouraging high-quality data coverage and appropriately rewarding both casual contributors and dedicated hex owners.
 
 ______
 
@@ -592,3 +619,4 @@ Here are some helpful links for reference:
 - [dirkbeer/adsb-analysi](https://github.com/dirkbeer/adsb-analysis)
 - [Graphs1090 ADSB Optimization Guide](https://gristleking.com/wingbits-optimization-graphs1090-plus/)
 - [ADS-B Identification](https://mode-s.org/decode/content/ads-b/2-identification.html)
+- [WingBits Docs](https://docs.wingbits.com/introduction/what-is-wingbits)
