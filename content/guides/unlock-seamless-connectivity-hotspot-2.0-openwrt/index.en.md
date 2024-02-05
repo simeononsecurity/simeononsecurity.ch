@@ -732,3 +732,4 @@ Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-
 - [T-Mobile A GUIDE TO BUILDING YOUR OWN COVERAGE](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-acs-brochure-110520-spreads.pdf)
 - [T-Mobile Smart Buildings Plan for Wireless (BYOC STEP-BY-STEP)](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-one-pager-103020.pdf)
 - [The Benefits of In-Building Cellular Coverage](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-infographic-updated-logo-only-110520.pdf)
+- [Troubleshooting EAP-TLS with freeradius](https://blog.rchapman.org/posts/Troubleshooting_EAP-TLS_with_freeradius/)
