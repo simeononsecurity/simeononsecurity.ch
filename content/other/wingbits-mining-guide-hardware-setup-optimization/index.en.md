@@ -204,16 +204,19 @@ sudo readsb-set-location 50.12344 10.23429
 ```
 
 ### **3: Optimizing Gain Levels**
+
+> **Note**: Read the Troubleshooting and Helpful Commands section below on how to set the gain levels more optimally.
+> **Note**: **The WingBits community has specifically recommended to not use the autogain script**, mentioning issues with some receivers and issues with the script setting the gain too low. Read below for instructions on [how to set the readsb gain manually](https://simeononsecurity.com/other/wingbits-mining-guide-hardware-setup-optimization/#tuning-ads-b-gain-for-optimal-performance-for-wingbits).
+
 Now, it's time to optimize your receiver's gain levels. Run the following command, if it fails, come back to this step after a few minutes.
 
 ```bash
-sudo bash -c "$(curl -L -o - https://github.com/wiedehopf/adsb-scripts/raw/master/autogain-install.sh)" hash -r
-sudo autogain1090
+# sudo bash -c "$(curl -L -o - https://github.com/wiedehopf/adsb-scripts/raw/master/autogain-install.sh)" hash -r
+# sudo autogain1090
 # Run ever 2 minutes, in the background, for an hour to optimize gain even further
-sudo for i in {0..30}; do sudo autogain1090; sleep 120; done &
+# sudo for i in {0..30}; do sudo autogain1090; sleep 120; done &
 ```
 
-> **Note**: Read the Troubleshooting and Helpful Commands section below on how to set the gain levels more optimally.
 
 ### **4. Profit?**
 
@@ -597,7 +600,6 @@ Congratulations on completing the setup of your WingBits mining system! By now, 
 If you've made it this far, you might like to know you can actually dual mine [Wingbits](https://wingbits.com) and [Defli](https://defli.network/maclinux), read our [Guide on How to Dual Mine Wingbits and Defli](https://simeononsecurity.com/other/effortless-dual-mining-wingbits-defli-guide).
 
 {{< centerbutton href="https://simeononsecurity.com/other/effortless-dual-mining-wingbits-defli-guide" >}}Read our Guide on How to Dual Mine Wingbits and Defli{{< /centerbutton >}}
-
 
 ______
 
