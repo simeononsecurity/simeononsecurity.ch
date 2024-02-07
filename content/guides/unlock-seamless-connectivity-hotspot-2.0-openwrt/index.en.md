@@ -104,11 +104,16 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
 
-Before configuring Hotspot 2.0 on OpenWRT, ensure that your system is up to date. Use the following commands to update packages and install necessary components:
+> **Note:** ***Perform this section while hardwired into the device via ethernet, it will temporarily disable wifi.***
+
+> **Note:** *These commands may uninstall other packages that have these as dependencies. If this happens, reinstall them after finishing this section.*
+
+Before configuring Hotspot 2.0 on OpenWRT, ensure that your system has the required packages installed. 
+Use the following commands to install necessary components:
 
 ```bash
 opkg update
-opkg --force-removal-of-dependent-packages remove iw wpad-basic gl-sdk4-repeater hostapd-basic hostapd-openssl 
+opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic host-apdcommon hostapd-openssl wpad-openssl
 opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common wpad-openssl nano
 ```
 
