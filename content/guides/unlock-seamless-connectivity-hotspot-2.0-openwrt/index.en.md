@@ -335,7 +335,7 @@ iwinfo
 Example:
 
 ```bash
-phy0-ap0  ESSID: "Orion"
+phy0-ap0  ESSID: "OrionWiFi"
           Access Point: XX:XX:XX:XX:XX:XX
           Mode: Master  Channel: 6 (2.437 GHz)  HT Mode: HE20
           Center Channel 1: 6 2: unknown
@@ -349,7 +349,7 @@ phy0-ap0  ESSID: "Orion"
           Frequency offset: none
           Supports VAPs: yes  PHY name: phy0
 
-phy1-ap0  ESSID: "Orion"
+phy1-ap0  ESSID: "OrionWiFi"
           Access Point: XX:XX:XX:XX:XX:XX
           Mode: Master  Channel: 153 (5.765 GHz)  HT Mode: HE80
           Center Channel 1: 155 2: unknown
