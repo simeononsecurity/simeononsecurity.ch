@@ -851,3 +851,5 @@ Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-
 - [The Benefits of In-Building Cellular Coverage](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-infographic-updated-logo-only-110520.pdf)
 - [Troubleshooting EAP-TLS with freeradius](https://blog.rchapman.org/posts/Troubleshooting_EAP-TLS_with_freeradius/)
 - [Cisco - Chapter: Chapter 16 - Configuring Mobile Concierge -  Information About 802.11u](https://www.cisco.com/c/en/us/td/docs/wireless/controller/7-2/configuration/guide/cg/cg_hotspot_msap.html)
+- [ISO639-2 Language Codes](http://www.loc.gov/standards/iso639-2/php/code_list.php)
+- [Mobile Country Codes (MCC) and Mobile Network Codes (MNC)](https://www.mcc-mnc.com/)
