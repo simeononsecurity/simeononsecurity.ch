@@ -13,7 +13,7 @@ coverCaption: "Empower Your Network: Hotspot 2.0 Unleashed on OpenWRT!"
 
 **Creating Hotspot 2.0 / Passpoint 2.0 Hotspots on OpenWRT**
 
-In today's connected world, providing seamless and secure Wi-Fi connectivity is essential for various industries and public spaces. One revolutionary technology that addresses this need is **Hotspot 2.0**, also known as **Passpoint 2.0**. In this article, we will explore how to set up Hotspot 2.0 on OpenWRT, a popular open-source router and access point firmware.
+In today's connected world, providing seamless and secure Wi-Fi connectivity is essential for various industries and public spaces. One revolutionary technology that addresses this need is **Hotspot 2.0**, also known as **Passpoint 2.0**. In this guide, we will explore how to set up Hotspot 2.0 on OpenWRT, a popular open-source router and access point firmware.
 
 ## Introduction
 
@@ -101,6 +101,8 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 - [GL.iNet GL-SFT1200 (Opal)](https://amzn.to/3UkHVQ5)
 
 {{< centerbutton href="https://amzn.to/3UkHVQ5">}}Get Your GL.iNet GL-SFT1200 (Opal) Today!{{< /centerbutton >}}
+
+[hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and we have completed testing, in addition to the above, on other GL.iNet devices including the Mango, Slate and Beryl devices on both internal and external wireless interfaces.
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
 
@@ -318,13 +320,60 @@ append_iw_anqp_3gpp_cell_net() {\
 
 > *Just one character is the issue. The script above is fine to run on all devices. It won't make any changes if the bug isn't there.*
 
-After configuring your interface and performing the 3gpp fix, you'll run the following command to **reload your wireless config**.
+#### Testing Hotspot 2.0 Functionality on OpenWRT
+
+After configuring your interface and performing the 3gpp fix, you'll run the following command to **reload your wireless config**:
 
 ```bash
 wifi
 ```
-### OpenWRT Wireless Config Options Explained
+Then verify that the interface becomes available:
 
+```bash
+iwinfo
+```
+Example:
+
+```bash
+phy0-ap0  ESSID: "Orion"
+          Access Point: XX:XX:XX:XX:XX:XX
+          Mode: Master  Channel: 6 (2.437 GHz)  HT Mode: HE20
+          Center Channel 1: 6 2: unknown
+          Tx-Power: 30 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -91 dBm
+          Bit Rate: unknown
+          Encryption: WPA2 802.1X (CCMP)
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: embedded [MediaTek MT7986]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+phy1-ap0  ESSID: "Orion"
+          Access Point: XX:XX:XX:XX:XX:XX
+          Mode: Master  Channel: 153 (5.765 GHz)  HT Mode: HE80
+          Center Channel 1: 155 2: unknown
+          Tx-Power: 30 dBm  Link Quality: 54/70
+          Signal: -56 dBm  Noise: -92 dBm
+          Bit Rate: 689.1 MBit/s
+          Encryption: WPA2 802.1X (CCMP)
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: embedded [MediaTek MT7986]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+```
+
+##### Verifying Hotspot 2.0 Client Capability on Windows
+
+To see whether Passpoint is supported by your Wi-Fi device on Windows 10/11, verify if "ANQP Service Information Discovery" is "Supported", using the following command:
+
+```batch
+netsh wlan show wirelesscapabilities
+```
+
+
+### OpenWRT Wireless Config Options Explained
 
 #### Access Network Type
 
@@ -585,7 +634,7 @@ We recommend these adapters for their overall OpenWRT compatibility and 802.11 A
 
 > *For a list of other documented adapters that have support on Linux and OpenWRT See the [USB-WiFi Documentation Repo](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)*
 
-### Installing Drivers
+### Installing External USB WiFi Drivers on OpenWRT
 
 ```bash
 #Add any more drivers you may need. 
