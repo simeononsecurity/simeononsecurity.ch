@@ -102,7 +102,7 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 {{< centerbutton href="https://amzn.to/3UkHVQ5">}}Get Your GL.iNet GL-SFT1200 (Opal) Today!{{< /centerbutton >}}
 
-[hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and we have completed testing, in addition to the above, on other GL.iNet devices including the Mango, Slate and Beryl devices on both internal and external wireless interfaces.
+[hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and we have completed testing, in addition to the above, on other [GL.iNet devices](https://amzn.to/3HRuU97) including the [Mango](https://amzn.to/42x2kDr) (Has storage issues however), [Slate](https://amzn.to/3wbIP7x) and [Beryl](https://amzn.to/492qHeK) devices on both internal and external wireless interfaces.
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
 
@@ -176,6 +176,7 @@ config wifi-iface 'radio1_orion5g'
     # Set as CST, Feel free to customize or omit.
     # stdoffset[dst[offset][,start[/time],end[/time]]]
     # We've defaulted it to Central Standard Time (most of our US based readers are in CST/CDT.)
+    #This config is optional. You can safely omit it.
     option time_zone 'CST6CDT,M3.2.0,M11.1.0'
     # Specify the access network type as '2' (Chargeable public network).
     # Access Network Type (ANQP) is set to '2' indicating a Chargeable public network.
@@ -229,6 +230,7 @@ config wifi-iface 'radio1_orion5g'
     #list iw_domain_name 'apple.openroaming.net'
     #list iw_domain_name 'google.openroaming.net'
     #list iw_domain_name 'ciscooneid.openroaming.net'
+    # Anything more than 3 OUIs and the information won't be available until the client performs a GAS Request.
     # Orion / AT&T / OpenRoaming Default Consortium
     list iw_roaming_consortium 'f4f5e8f5f4'
     #OpenRoaming Consortium
@@ -415,17 +417,78 @@ Configure Venue Information using the following format:
 
 ##### Values:
 
-|  Group  |  Type  |                Description               |
-|:-------:|:------:|:-----------------------------------------:|
-|    0    |    0   |                 Unspecified                |
-|    1    |    7   |             Convention Center             |
-|    1    |   13   |                Coffee Shop                 |
-|    2    |    0   |         Unspecified Business              |
-|    7    |    1   |           Private Residence               |
+| Venue Group Name   | Value | Venue Type for Group                                                                                               |
+|--------------------|-------|--------------------------------------------------------------------------------------------------------------------|
+| UNSPECIFIED        | 0     |                                                                                                                    |
+| ASSEMBLY           | 1     | 0—UNSPECIFIED ASSEMBLY                                                                                                |
+|                    |       | 1—ARENA                                                                                                                |
+|                    |       | 2—STADIUM                                                                                                              |
+|                    |       | 3—PASSENGER TERMINAL (E.G., AIRPORT, BUS, FERRY, TRAIN STATION)                                                        |
+|                    |       | 4—AMPHITHEATER                                                                                                         |
+|                    |       | 5—AMUSEMENT PARK                                                                                                       |
+|                    |       | 6—PLACE OF WORSHIP                                                                                                     |
+|                    |       | 7—CONVENTION CENTER                                                                                                    |
+|                    |       | 8—LIBRARY                                                                                                              |
+|                    |       | 9—MUSEUM                                                                                                               |
+|                    |       | 10—RESTAURANT                                                                                                          |
+|                    |       | 11—THEATER                                                                                                             |
+|                    |       | 12—BAR                                                                                                                 |
+|                    |       | 13—COFFEE SHOP                                                                                                         |
+|                    |       | 14—ZOO OR AQUARIUM                                                                                                     |
+|                    |       | 15—EMERGENCY COORDINATION CENTER                                                                                        |
+| BUSINESS           | 2     | 0—UNSPECIFIED BUSINESS                                                                                                |
+|                    |       | 1—DOCTOR OR DENTIST OFFICE                                                                                            |
+|                    |       | 2—BANK                                                                                                                 |
+|                    |       | 3—FIRE STATION                                                                                                         |
+|                    |       | 4—POLICE STATION                                                                                                       |
+|                    |       | 6—POST OFFICE                                                                                                          |
+|                    |       | 7—PROFESSIONAL OFFICE                                                                                                  |
+|                    |       | 8—RESEARCH AND DEVELOPMENT FACILITY                                                                                    |
+|                    |       | 9—ATTORNEY OFFICE                                                                                                      |
+| EDUCATIONAL        | 3     | 0—UNSPECIFIED EDUCATIONAL                                                                                              |
+|                    |       | 1—SCHOOL, PRIMARY                                                                                                      |
+|                    |       | 2—SCHOOL, SECONDARY                                                                                                    |
+|                    |       | 3—UNIVERSITY OR COLLEGE                                                                                                |
+| FACTORY-INDUSTRIAL| 4     | 0—UNSPECIFIED FACTORY AND INDUSTRIAL                                                                                   |
+|                    |       | 1—FACTORY                                                                                                              |
+| INSTITUTIONAL      | 5     | 0—UNSPECIFIED INSTITUTIONAL                                                                                            |
+|                    |       | 1—HOSPITAL                                                                                                             |
+|                    |       | 2—LONG-TERM CARE FACILITY (E.G., NURSING HOME, HOSPICE, ETC.)                                                          |
+|                    |       | 3—ALCOHOL AND DRUG RE-HABILITATION CENTER                                                                              |
+|                    |       | 4—GROUP HOME                                                                                                           |
+|                    |       | 5—PRISON OR JAIL                                                                                                       |
+| MERCANTILE         | 6     | 0—UNSPECIFIED MERCANTILE                                                                                               |
+|                    |       | 1—RETAIL STORE                                                                                                         |
+|                    |       | 2—GROCERY MARKET                                                                                                       |
+|                    |       | 3—AUTOMOTIVE SERVICE STATION                                                                                           |
+|                    |       | 4—SHOPPING MALL                                                                                                        |
+|                    |       | 5—GAS STATION                                                                                                          |
+| RESIDENTIAL        | 7     | 0—UNSPECIFIED RESIDENTIAL                                                                                              |
+|                    |       | 1—PRIVATE RESIDENCE                                                                                                    |
+|                    |       | 2—HOTEL OR MOTEL                                                                                                       |
+|                    |       | 3—DORMITORY                                                                                                            |
+|                    |       | 4—BOARDING HOUSE                                                                                                       |
+| STORAGE            | 8     | UNSPECIFIED STORAGE                                                                                                    |
+| UTILITY-MISC       | 9     | 0—UNSPECIFIED UTILITY AND MISCELLANEOUS                                                                                |
+| VEHICULAR          | 10    | 0—UNSPECIFIED VEHICULAR                                                                                                |
+|                    |       | 1—AUTOMOBILE OR TRUCK                                                                                                  |
+|                    |       | 2—AIRPLANE                                                                                                             |
+|                    |       | 3—BUS                                                                                                                  |
+|                    |       | 4—FERRY                                                                                                                |
+|                    |       | 5—SHIP OR BOAT                                                                                                         |
+|                    |       | 6—TRAIN                                                                                                                |
+|                    |       | 7—MOTOR BIKE                                                                                                           |
+| OUTDOOR            | 11    | 0—UNSPECIFIED OUTDOOR                                                                                                  |
+|                    |       | 1—MUNI-MESH NETWORK                                                                                                   |
+|                    |       | 2—CITY PARK                                                                                                            |
+|                    |       | 3—REST AREA                                                                                                            |
+|                    |       | 4—TRAFFIC CONTROL                                                                                                      |
+|                    |       | 5—BUS STOP                                                                                                             |
+|                    |       | 6—KIOSK                                                                                                                |
 
 **Explanation**:
 
-- Venue Information allows you to specify the group and type based on IEEE Std 802.11u-2011, 7.3.1.34.
+- Venue Information allows you to specify the group and type based on [IEEE Std 802.11u-2011, 7.3.1.34](https://ieeexplore.ieee.org/iel5/5721906/5721907/05721908.pdf).
 - The 'Group' parameter represents a broader category, while 'Type' specifies the specific venue type within that group.
 
 ##### Example Usage:
@@ -787,3 +850,4 @@ Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-
 - [T-Mobile Smart Buildings Plan for Wireless (BYOC STEP-BY-STEP)](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-one-pager-103020.pdf)
 - [The Benefits of In-Building Cellular Coverage](https://howmobileworks.com/wp-content/uploads/2020/11/tmo-byoc-infographic-updated-logo-only-110520.pdf)
 - [Troubleshooting EAP-TLS with freeradius](https://blog.rchapman.org/posts/Troubleshooting_EAP-TLS_with_freeradius/)
+- [Cisco - Chapter: Chapter 16 - Configuring Mobile Concierge -  Information About 802.11u](https://www.cisco.com/c/en/us/td/docs/wireless/controller/7-2/configuration/guide/cg/cg_hotspot_msap.html)
