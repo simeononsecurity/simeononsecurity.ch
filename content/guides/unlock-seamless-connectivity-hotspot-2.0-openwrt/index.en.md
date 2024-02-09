@@ -415,76 +415,145 @@ Configure Venue Information using the following format:
 
 > **Group, Type**
 
-##### Values:
+##### IEEE Std 802.11u-2011 Venue Group and Type Values:
 
-| Venue Group Name   | Value | Venue Type for Group                                                                                               |
-|--------------------|-------|--------------------------------------------------------------------------------------------------------------------|
-| UNSPECIFIED        | 0     |                                                                                                                    |
-| ASSEMBLY           | 1     | 0—UNSPECIFIED ASSEMBLY                                                                                                |
-|                    |       | 1—ARENA                                                                                                                |
-|                    |       | 2—STADIUM                                                                                                              |
-|                    |       | 3—PASSENGER TERMINAL (E.G., AIRPORT, BUS, FERRY, TRAIN STATION)                                                        |
-|                    |       | 4—AMPHITHEATER                                                                                                         |
-|                    |       | 5—AMUSEMENT PARK                                                                                                       |
-|                    |       | 6—PLACE OF WORSHIP                                                                                                     |
-|                    |       | 7—CONVENTION CENTER                                                                                                    |
-|                    |       | 8—LIBRARY                                                                                                              |
-|                    |       | 9—MUSEUM                                                                                                               |
-|                    |       | 10—RESTAURANT                                                                                                          |
-|                    |       | 11—THEATER                                                                                                             |
-|                    |       | 12—BAR                                                                                                                 |
-|                    |       | 13—COFFEE SHOP                                                                                                         |
-|                    |       | 14—ZOO OR AQUARIUM                                                                                                     |
-|                    |       | 15—EMERGENCY COORDINATION CENTER                                                                                        |
-| BUSINESS           | 2     | 0—UNSPECIFIED BUSINESS                                                                                                |
-|                    |       | 1—DOCTOR OR DENTIST OFFICE                                                                                            |
-|                    |       | 2—BANK                                                                                                                 |
-|                    |       | 3—FIRE STATION                                                                                                         |
-|                    |       | 4—POLICE STATION                                                                                                       |
-|                    |       | 6—POST OFFICE                                                                                                          |
-|                    |       | 7—PROFESSIONAL OFFICE                                                                                                  |
-|                    |       | 8—RESEARCH AND DEVELOPMENT FACILITY                                                                                    |
-|                    |       | 9—ATTORNEY OFFICE                                                                                                      |
-| EDUCATIONAL        | 3     | 0—UNSPECIFIED EDUCATIONAL                                                                                              |
-|                    |       | 1—SCHOOL, PRIMARY                                                                                                      |
-|                    |       | 2—SCHOOL, SECONDARY                                                                                                    |
-|                    |       | 3—UNIVERSITY OR COLLEGE                                                                                                |
-| FACTORY-INDUSTRIAL| 4     | 0—UNSPECIFIED FACTORY AND INDUSTRIAL                                                                                   |
-|                    |       | 1—FACTORY                                                                                                              |
-| INSTITUTIONAL      | 5     | 0—UNSPECIFIED INSTITUTIONAL                                                                                            |
-|                    |       | 1—HOSPITAL                                                                                                             |
-|                    |       | 2—LONG-TERM CARE FACILITY (E.G., NURSING HOME, HOSPICE, ETC.)                                                          |
-|                    |       | 3—ALCOHOL AND DRUG RE-HABILITATION CENTER                                                                              |
-|                    |       | 4—GROUP HOME                                                                                                           |
-|                    |       | 5—PRISON OR JAIL                                                                                                       |
-| MERCANTILE         | 6     | 0—UNSPECIFIED MERCANTILE                                                                                               |
-|                    |       | 1—RETAIL STORE                                                                                                         |
-|                    |       | 2—GROCERY MARKET                                                                                                       |
-|                    |       | 3—AUTOMOTIVE SERVICE STATION                                                                                           |
-|                    |       | 4—SHOPPING MALL                                                                                                        |
-|                    |       | 5—GAS STATION                                                                                                          |
-| RESIDENTIAL        | 7     | 0—UNSPECIFIED RESIDENTIAL                                                                                              |
-|                    |       | 1—PRIVATE RESIDENCE                                                                                                    |
-|                    |       | 2—HOTEL OR MOTEL                                                                                                       |
-|                    |       | 3—DORMITORY                                                                                                            |
-|                    |       | 4—BOARDING HOUSE                                                                                                       |
-| STORAGE            | 8     | UNSPECIFIED STORAGE                                                                                                    |
-| UTILITY-MISC       | 9     | 0—UNSPECIFIED UTILITY AND MISCELLANEOUS                                                                                |
-| VEHICULAR          | 10    | 0—UNSPECIFIED VEHICULAR                                                                                                |
-|                    |       | 1—AUTOMOBILE OR TRUCK                                                                                                  |
-|                    |       | 2—AIRPLANE                                                                                                             |
-|                    |       | 3—BUS                                                                                                                  |
-|                    |       | 4—FERRY                                                                                                                |
-|                    |       | 5—SHIP OR BOAT                                                                                                         |
-|                    |       | 6—TRAIN                                                                                                                |
-|                    |       | 7—MOTOR BIKE                                                                                                           |
-| OUTDOOR            | 11    | 0—UNSPECIFIED OUTDOOR                                                                                                  |
-|                    |       | 1—MUNI-MESH NETWORK                                                                                                   |
-|                    |       | 2—CITY PARK                                                                                                            |
-|                    |       | 3—REST AREA                                                                                                            |
-|                    |       | 4—TRAFFIC CONTROL                                                                                                      |
-|                    |       | 5—BUS STOP                                                                                                             |
-|                    |       | 6—KIOSK                                                                                                                |
+Here are the individual tables for each the venue groups and venue types:
+
+**Venue Groups**
+
+| Venue Group Name   | Value |
+|--------------------|-------|
+| UNSPECIFIED        | 0     |
+| ASSEMBLY           | 1     |
+| BUSINESS           | 2     |
+| EDUCATIONAL        | 3     |
+| FACTORY-INDUSTRIAL| 4     |
+| INSTITUTIONAL      | 5     |
+| MERCANTILE         | 6     |
+| RESIDENTIAL        | 7     |
+| STORAGE            | 8     |
+| UTILITY-MISC       | 9     |
+| VEHICULAR          | 10    |
+| OUTDOOR            | 11    |
+
+**Venue Types for UNSPECIFIED ASSEMBLY (Group Value: 1)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED ASSEMBLY                            |
+| 1                | ARENA                                            |
+| 2                | STADIUM                                          |
+| 3                | PASSENGER TERMINAL (E.G., AIRPORT, BUS, FERRY, TRAIN STATION) |
+| 4                | AMPHITHEATER                                     |
+| 5                | AMUSEMENT PARK                                   |
+| 6                | PLACE OF WORSHIP                                 |
+| 7                | CONVENTION CENTER                                |
+| 8                | LIBRARY                                          |
+| 9                | MUSEUM                                           |
+| 10               | RESTAURANT                                       |
+| 11               | THEATER                                          |
+| 12               | BAR                                              |
+| 13               | COFFEE SHOP                                      |
+| 14               | ZOO OR AQUARIUM                                  |
+| 15               | EMERGENCY COORDINATION CENTER                    |
+
+**Venue Types for UNSPECIFIED BUSINESS (Group Value: 2)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED BUSINESS                            |
+| 1                | DOCTOR OR DENTIST OFFICE                        |
+| 2                | BANK                                             |
+| 3                | FIRE STATION                                     |
+| 4                | POLICE STATION                                   |
+| 6                | POST OFFICE                                      |
+| 7                | PROFESSIONAL OFFICE                             |
+| 8                | RESEARCH AND DEVELOPMENT FACILITY               |
+| 9                | ATTORNEY OFFICE                                 |
+
+**Venue Types for UNSPECIFIED EDUCATIONAL (Group Value: 3)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED EDUCATIONAL                         |
+| 1                | SCHOOL, PRIMARY                                  |
+| 2                | SCHOOL, SECONDARY                                |
+| 3                | UNIVERSITY OR COLLEGE                            |
+
+**Venue Types for UNSPECIFIED FACTORY AND INDUSTRIAL (Group Value: 4)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED FACTORY AND INDUSTRIAL              |
+| 1                | FACTORY                                          |
+
+**Venue Types for UNSPECIFIED INSTITUTIONAL (Group Value: 5)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED INSTITUTIONAL                        |
+| 1                | HOSPITAL                                         |
+| 2                | LONG-TERM CARE FACILITY (E.G., NURSING HOME, HOSPICE, ETC.) |
+| 3                | ALCOHOL AND DRUG RE-HABILITATION CENTER         |
+| 4                | GROUP HOME                                       |
+| 5                | PRISON OR JAIL                                   |
+
+**Venue Types for UNSPECIFIED MERCANTILE (Group Value: 6)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED MERCANTILE                          |
+| 1                | RETAIL STORE                                     |
+| 2                | GROCERY MARKET                                   |
+| 3                | AUTOMOTIVE SERVICE STATION                       |
+| 4                | SHOPPING MALL                                    |
+| 5                | GAS STATION                                      |
+
+**Venue Types for UNSPECIFIED RESIDENTIAL (Group Value: 7)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED RESIDENTIAL                          |
+| 1                | PRIVATE RESIDENCE                                |
+| 2                | HOTEL OR MOTEL                                   |
+| 3                | DORMITORY                                        |
+| 4                | BOARDING HOUSE                                   |
+
+**Venue Types for UNSPECIFIED STORAGE (Group Value: 8)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED STORAGE                             |
+
+**Venue Types for UNSPECIFIED UTILITY AND MISCELLANEOUS (Group Value: 9)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED UTILITY AND MISCELLANEOUS            |
+
+**Venue Types for UNSPECIFIED VEHICULAR (Group Value: 10)**
+
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED VEHICULAR                           |
+| 1                | AUTOMOBILE OR TRUCK                              |
+| 2                | AIRPLANE                                         |
+| 3                | BUS                                              |
+| 4                | FERRY                                            |
+| 5                | SHIP OR BOAT                                     |
+| 6                | TRAIN                                            |
+| 7                | MOTOR BIKE                                       |
+
+**Venue Types for UNSPECIFIED OUTDOOR (Group Value: 11)**
+| Venue Type Value | Venue Type Description                           |
+|------------------|--------------------------------------------------|
+| 0                | UNSPECIFIED OUTDOOR                             |
+| 1                | MUNI-MESH NETWORK                               |
+| 2                | CITY PARK                                        |
+| 3                | REST AREA                                        |
+| 4                | TRAFFIC CONTROL                                  |
+| 5                | BUS STOP                                         |
+| 6                | KIOSK                                            |
 
 **Explanation**:
 
