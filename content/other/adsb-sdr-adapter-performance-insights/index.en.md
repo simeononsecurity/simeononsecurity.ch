@@ -54,7 +54,7 @@ All SDR adapters were tested simultaneously in a controlled environment, ensurin
 **Minimizing External Factors:**
 - **Location**: We conducted the tests in a static location to eliminate any variation due to changing positions.
 - **Antennas**: Identical antennas were used for all adapters to ensure a level playing field.
-  - We specifically used [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/3Syot1d) throughout our testing. 
+  - We specifically used [SIGNALPLUS 1090MHz ADS-B Antenna](https://amzn.to/49g1f5O) throughout our testing. 
 - **Power Supply**: Each adapter received a stable and clean power supply to avoid power-related discrepancies.
 - **Temperature**: Crystal Oscillators have temperature variance, because of this we also controlled the temperature of the room and the devices themselves.
 
