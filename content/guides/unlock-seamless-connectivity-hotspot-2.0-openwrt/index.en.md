@@ -125,6 +125,39 @@ If you've purchased one of the [GL.iNet devices](https://amzn.to/3UnfDEw) we rec
 opkg --force-overwrite install kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211
 ```
 
+### Using USB External WiFi Cards on OpenWRT
+
+When it comes to enhancing your OpenWRT setup with external WiFi adapters, especially for HotSpot 2.0 support, choosing the right hardware is crucial. Below, we recommend some top-performing external WiFi adapters known for their OpenWRT compatibility and 802.11 AX support.
+
+#### Recommended External WiFi Adapters for HotSpot 2.0 Support on OpenWRT
+
+We recommend these adapters for their overall OpenWRT compatibility and 802.11 AX Support. Top down, best to worst.
+
+- [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://amzn.to/3vYvHT4)
+
+{{< centerbutton href="https://amzn.to/3vYvHT4">}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
+
+- [ALFA AWUS036AXM WiFi 6E USB 3.0 USB Adapter, AXE3000 Tri-Band 6Ghz/5.8GHz/2.4GHz](https://amzn.to/3UrQVTG)
+
+{{< centerbutton href="https://amzn.to/3UrQVTG">}}Get Your ALFA AWUS036AXM Today!{{< /centerbutton >}}
+
+- [NETGEAR WiFi AC1200 USB 3.0 Adapter (A6210)](https://amzn.to/42m7EJZ)
+
+{{< centerbutton href="https://amzn.to/42m7EJZ">}}Get Your NETGEAR A6210 Today!{{< /centerbutton >}}
+
+> *For a list of other documented adapters that have support on Linux and OpenWRT See the [USB-WiFi Documentation Repo](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)*
+
+#### Installing External USB WiFi Drivers on OpenWRT
+
+```bash
+#Add any more drivers you may need. 
+#The most popular WiFi 5 and WiFi 6 adapters, including our recommended should be covered below.
+#Command order and seperation matters.
+opkg --force-removal-of-dependent-packages remove kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u
+opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211
+opkg --force-overwrite install kmod-thermal kmod-cfg80211 kmod-mac80211 kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt7615-common kmod-mt7615-firmware kmod-mt7615e kmod-mt76x0-common kmod-mt76x02-common kmod-mt76x02-usb kmod-mt76x0u kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware
+```
+
 ### Configuring Wireless Interfaces for Hotspot 2.0 on OpenWRT
 
 In the `/etc/config/wireless` file, customize the settings for your Hotspot 2.0-enabled interface. Ensure the correct device, encryption type, and other parameters are set. Pay attention to the **WAN Metrics**, **NAI Realm**, and **Domain Names** sections to tailor them to your service provider. 
@@ -743,39 +776,6 @@ Some devices and radios may require specific channel and power level configurati
 Always consult the device documentation or specifications to determine the recommended channel and power level configurations. Adjust the settings accordingly in the wireless configuration file or luci interface.
 
 By meticulously examining these aspects and following the outlined steps, you can troubleshoot common issues associated with Hostapd and enhance the stability of your Hotspot 2.0 implementation.
-
-## Using USB External WiFi Cards on OpenWRT
-
-When it comes to enhancing your OpenWRT setup with external WiFi adapters, especially for HotSpot 2.0 support, choosing the right hardware is crucial. Below, we recommend some top-performing external WiFi adapters known for their OpenWRT compatibility and 802.11 AX support.
-
-### Recommended External WiFi Adapters for HotSpot 2.0 Support on OpenWRT
-
-We recommend these adapters for their overall OpenWRT compatibility and 802.11 AX Support. Top down, best to worst.
-
-- [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://amzn.to/3vYvHT4)
-
-{{< centerbutton href="https://amzn.to/3vYvHT4">}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
-
-- [ALFA AWUS036AXM WiFi 6E USB 3.0 USB Adapter, AXE3000 Tri-Band 6Ghz/5.8GHz/2.4GHz](https://amzn.to/3UrQVTG)
-
-{{< centerbutton href="https://amzn.to/3UrQVTG">}}Get Your ALFA AWUS036AXM Today!{{< /centerbutton >}}
-
-- [NETGEAR WiFi AC1200 USB 3.0 Adapter (A6210)](https://amzn.to/42m7EJZ)
-
-{{< centerbutton href="https://amzn.to/42m7EJZ">}}Get Your NETGEAR A6210 Today!{{< /centerbutton >}}
-
-> *For a list of other documented adapters that have support on Linux and OpenWRT See the [USB-WiFi Documentation Repo](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)*
-
-### Installing External USB WiFi Drivers on OpenWRT
-
-```bash
-#Add any more drivers you may need. 
-#The most popular WiFi 5 and WiFi 6 adapters, including our recommended should be covered below.
-#Command order and seperation matters.
-opkg --force-removal-of-dependent-packages remove kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u
-opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211
-opkg --force-overwrite install kmod-thermal kmod-cfg80211 kmod-mac80211 kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt7615-common kmod-mt7615-firmware kmod-mt7615e kmod-mt76x0-common kmod-mt76x02-common kmod-mt76x02-usb kmod-mt76x0u kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware
-```
 
 ## Q&A Section
 
