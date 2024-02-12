@@ -219,7 +219,7 @@ sudo apt install -y rtklib
   > **Note:** When setting up USB to a local TCP server using the `str2str` command, ensure you specify your serial settings correctly. In the provided example:
 
   ```bash
-  str2str -in serial://ttyUSB0:921600:8:n:1#rtcm3 -out tcpsvr://:5015 -b 1 -t 0
+  str2str -in serial://ttyUSB0:921600:8:n:1#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out tcpsvr://:5015 -b 1 -t 0
   ```
    - **ttyUSB0**: Specifies the USB port. Adjust this based on your system configuration.
    - **921600**: Represents the baud rate. Modify this value if your device requires a different baud rate. Another common baud rate for GPS receivers is `115200`.
@@ -237,7 +237,7 @@ sudo apt install -y rtklib
   You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots).
 
   ```bash
-  str2str -in tcpcli://localhost:5015#rtcm3 -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB DIY" -a "GEODNET ANTENNA" -t 0
+  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB DIY" -a "GEODNET ANTENNA" -t 0
   ```
 
    **Notes**: 
@@ -254,7 +254,7 @@ sudo apt install -y rtklib
   You'll need the Mountpoint Username and Password from the [Onocoy Console](https://console.onocoy.com/)
 
   ```bash
-  str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(30), 1033(30), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB DIY" -a "GEODNET ANTENNA" -t 0
+  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(30), 1033(30), 1077, 1087, 1097, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB DIY" -a "GEODNET ANTENNA" -t 0
   ```
 
   **Notes**: 
@@ -312,7 +312,7 @@ sudo apt install -y rtklib
       After=network-online.target
 
       [Service]
-      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB DIY" -a "GEODNET ANTENNA" -t 0
+      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(30), 1008(30), 1012(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "SimeonOnSecurity UM980 RTKLIB DIY" -a "GEODNET ANTENNA" -t 0
       Restart=always
       RestartSec=30
       StartLimitBurst=10
@@ -336,7 +336,7 @@ sudo apt install -y rtklib
       After=network-online.target
 
       [Service]
-      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GEODNET ANTENNA" -t 0
+      ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out ntrips://:password@servers.onocoy.com:2101/username#rtcm3 -msg "1006(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GEODNET ANTENNA" -t 0
       Restart=always
       RestartSec=30
       StartLimitBurst=10
