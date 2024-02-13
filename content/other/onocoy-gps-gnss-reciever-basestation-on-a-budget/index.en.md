@@ -285,7 +285,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
    1. Test the configuration.
 
       ```bash
-          ~/ntripserver/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m {{mountpointhere}} -n {{usernamehere}} -c {{passwordhere}}
+          ~/ntripserver/ntripserver -M 1 -i /dev/ttyUSB0 -b 921600 -O 1 -a servers.onocoy.com -p 2101 -m {{mountpointhere}} -n {{usernamehere}} -c {{passwordhere}}
       ```
 
    2. Now that you confirmed it works. We need to create a service to have it restart on boot.
@@ -302,7 +302,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
         After=network-online.target
 
         [Service]
-        ExecStart=/path/to/ntripserver -M 1 -i /dev/ttyUSB0 -b 19200 -O 1 -a servers.onocoy.com -p 2101 -m {{mountpointhere}} -n {{usernamehere}} -c {{passwordhere}}
+        ExecStart=/path/to/ntripserver -M 1 -i /dev/ttyUSB0 -b 921600 -O 1 -a servers.onocoy.com -p 2101 -m {{mountpointhere}} -n {{usernamehere}} -c {{passwordhere}}
         Restart=always
         RestartSec=120  # 2 minutes (in seconds)
         TimeoutStartSec=300 # Set a 5-minute timeout (adjust as needed)
@@ -322,7 +322,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
         ```
         ex.
         ```bash
-        ntripserver[815]: serial input: device = /dev/ttyUSB0, speed = 19200
+        ntripserver[815]: serial input: device = /dev/ttyUSB0, speed = 921600
         systemd[1]: Started NTRIP Server Service.
         ntripserver[815]: caster output: host = xxx.xxx.xxx.xxx, port = 2101, mountpoint = Mount1, mode = http
         ntripserver[815]: transfering data ...
@@ -359,7 +359,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
       ```toml
       [serial]
       port = /dev/ttyUSB0
-      bitrate = 19200
+      bitrate = 921600
       [ntrip]
       caster = servers.onocoy.com
       port = 2101
@@ -421,49 +421,57 @@ Consult the following guides for more information on how to install docker
 
   Run our [Docker container](https://github.com/simeononsecurity/docker-rtklib-onocoy-rtkdirect), ensuring that you provide the necessary environment variables and parameters:
 
+  > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
+
+  > If the environment variable `ONCOCOY_MOUNTPOINT` is specified, the docker container will use **NTRIPSERVER**, otherwise it'll use **RTKLIB** for the connection to Onocoy. The container will use RTKLIB for the splitting of the feed and connection to RTKDIRECT still however.
+
    ```bash
-   docker run \
-     -td \
-     --restart unless-stopped \
-     --name sosrtk \
-     --device=/dev/<YOUR_USB_PORT> \
-     -e USB_PORT=<YOUR_USB_PORT> \
-     -e BAUD_RATE=<YOUR_SERIAL_BAUD_RATE> \
-     -e DATA_BITS=<YOUR_SERIAL_DATA_BITS> \
-     -e PARITY=<YOUR_SERIAL_PARITY> \
-     -e STOP_BITS=<YOUR_SERIAL_STOP_BITS> \
-     -e ONOCOY_USERNAME=<YOUR_ONOCOY_MOUNTPOINT_USERNAME> \
-     -e PASSWORD=<YOUR_ONOCOY_MOUNTPOINT_PASSWORD> \
-     -e LAT=<OPTIONAL_YOUR_LATITUDE> \
-     -e LONG=<OPTIONAL_YOUR_LONGITUDE> \
-     -e ELEVATION=<OPTIONAL_YOUR_ELEVATION_FROM_SEA_LEVEL_IN_METERS> \
-     -e INSTRUMENT=<OPTIONAL_YOUR_GPS_RECEIVER_DESCRIPTION> \
-     -e ANTENNA=<OPTIONAL_YOUR_ANTENNA_DESCRIPTION> \
-     simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
+    docker run \
+      -td \
+      --restart unless-stopped \
+      --name sosrtk \
+      --device=/dev/<YOUR_USB_PORT> \
+      -e USB_PORT=<YOUR_USB_PORT> \
+      -e BAUD_RATE=<YOUR_SERIAL_BAUD_RATE> \
+      -e DATA_BITS=<YOUR_SERIAL_DATA_BITS> \
+      -e PARITY=<YOUR_SERIAL_PARITY> \
+      -e STOP_BITS=<YOUR_SERIAL_STOP_BITS> \
+      -e ONOCOY_MOUNTPOINT=<YOUR_ONOCOY_MOUNTPOINT> \
+      -e ONOCOY_USERNAME=<YOUR_ONOCOY_MOUNTPOINT_USERNAME> \
+      -e PASSWORD=<YOUR_ONOCOY_MOUNTPOINT_PASSWORD> \
+      -e PORT_NUMBER=<YOUR_RTKLIB_PORT_NUMBER> \
+      -e LAT=<OPTIONAL_YOUR_LATITUDE> \
+      -e LONG=<OPTIONAL_YOUR_LONGITUDE> \
+      -e ELEVATION=<OPTIONAL_YOUR_ELEVATION_FROM_SEA_LEVEL_IN_METERS> \
+      -e INSTRUMENT=<OPTIONAL_YOUR_GPS_RECEIVER_DESCRIPTION> \
+      -e ANTENNA=<OPTIONAL_YOUR_ANTENNA_DESCRIPTION> \
+      simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
    ```
 
    Ensure you replace the placeholder values (`<...>`) with your specific configuration.
 
    Ex.
    ```bash
-   docker run \
-    -td \
-    --restart unless-stopped \
-    --name sosrtk \
-    --device=/dev/ttyUSB0 \
-    -e USB_PORT=ttyUSB0 \
-    -e BAUD_RATE=921600 \
-    -e DATA_BITS=8 \
-    -e PARITY=n \
-    -e STOP_BITS=1 \
-    -e ONOCOY_USERNAME=your_onocoy_mountpoint_username \
-    -e PASSWORD=your_onocoy_mountpoint_password \
-    -e LAT=37.7749 \
-    -e LONG=-122.4194 \
-    -e ELEVATION=50 \
-    -e INSTRUMENT="Your GPS Receiver" \
-    -e ANTENNA="Your Antenna" \
-    simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
+    docker run \
+     -td \
+     --restart unless-stopped \
+     --name sosrtk \
+     --device=/dev/ttyUSB0 \
+     -e USB_PORT=ttyUSB0 \
+     -e BAUD_RATE=921600 \
+     -e DATA_BITS=8 \
+     -e PARITY=n \
+     -e STOP_BITS=1 \
+     -e ONOCOY_MOUNTPOINT=your_onocoy_mountpoint \
+     -e ONOCOY_USERNAME=your_onocoy_mountpoint_username \
+     -e PASSWORD=your_onocoy_mountpoint_password \
+     -e PORT_NUMBER=32377 \
+     -e LAT=37.7749 \
+     -e LONG=-122.4194 \
+     -e ELEVATION=50 \
+     -e INSTRUMENT="Your GPS Receiver" \
+     -e ANTENNA="Your Antenna" \
+     simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
    ```
 
 ### **Windows Option 1: STRSVR** 
