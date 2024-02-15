@@ -115,7 +115,7 @@ Use the following commands to install necessary components:
 
 ```bash
 opkg update
-opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic host-apdcommon hostapd-openssl wpad-openssl
+opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic hostpd-common hostapd-openssl wpad-openssl
 opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common wpad-openssl nano
 ```
 
