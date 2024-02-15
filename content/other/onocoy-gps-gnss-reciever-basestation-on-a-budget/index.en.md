@@ -588,6 +588,7 @@ gnrmc 1
 gpvtg 1
 gpzda 1
 gpgst 1
+rtkposa 1
 saveconfig
 
 #enable all bands
@@ -595,8 +596,11 @@ UNMASK GPS
 UNMASK BDS
 UNMASK GLO
 UNMASK GAL
+UNMASK QZSS
+UNMASK IRNSS
 UNMASK B1
 UNMASK E5A
+UNMASK ALL
 saveconfig
 
 #ONOCOY RTCM CONFIGURATION
