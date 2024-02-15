@@ -580,14 +580,18 @@ config RTCMB1CB2a enable
 
 # Enable All GPS Messages
 unlog
+gndhv 1
 gngga 1
+gnrmc 1
+gpggah 1
 gpgll 1
 gpgsa 1
+gpgst 1
 gpgsv 1
-gnrmc 1
+gpgsvh 1
+gprmch 1
 gpvtg 1
 gpzda 1
-gpgst 1
 rtkposa 1
 saveconfig
 
@@ -598,8 +602,6 @@ UNMASK GLO
 UNMASK GAL
 UNMASK QZSS
 UNMASK IRNSS
-UNMASK B1
-UNMASK E5A
 UNMASK ALL
 saveconfig
 
