@@ -282,6 +282,9 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```
 
 1. Now we get to configure the software
+
+> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit it from this section until after you initially get past that window. Then test it again.
+
    1. Test the configuration.
 
       ```bash
@@ -356,6 +359,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
       sudo nano ~/rtklib/rtkrcv.conf
       ```
     2. Conf File Contents
+    > **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit it from this section until after you initially get past that window. Then test it again.
       ```toml
       [serial]
       port = /dev/ttyUSB0
@@ -424,6 +428,8 @@ Consult the following guides for more information on how to install docker
   > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
 
   > If the environment variable `ONCOCOY_MOUNTPOINT` is specified, the docker container will use **NTRIPSERVER**, otherwise it'll use **RTKLIB** for the connection to Onocoy. The container will use RTKLIB for the splitting of the feed and connection to RTKDIRECT still however.
+
+> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit it from this section until after you initially get past that window. Then run the command again.
 
    ```bash
     docker run \
@@ -545,14 +551,20 @@ On windows, our options are limited. One of the NTRIP communities favorite optio
 While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
   - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
-- [RTKLIB](https://github.com/rtklibexplorer/RTKLIB/releases)
+- [RTKLIB STR2STR](https://github.com/rtklibexplorer/RTKLIB/releases)
   -  A more widely used Ntrip server. However it can be significantly more technically involved.
+-  [rtklibexplorer/RTKLIB](https://github.com/rtklibexplorer/RTKLIB)
+  - A version of RTKLIB optimized for single and dual frequency low cost GPS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3 and is kept reasonably closely synced to that branch.
+  - A fork of the original RTKLIB that is known to be more frequently updated and more optimized than the original RTKLIB.
+  - The variant of RTKLIB we use in our docker container.
 - [esp32-xbee](https://github.com/nebkat/esp32-xbee)
   -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive... 
 
 ## Additional Configuration For Unicorecomm UM980 and UM982 Devices
 
 To enable all the bands and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
+
+- [Alternate (More up to date) U-Precise Installer](http://www.eltehs.lv/UPrecise-V2.0.802.zip)
 
 The provided configuration adjustments are made to ensure the proper functionality of the reference station receiver, specifically tailored for the [Onocoy system](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).
 
@@ -567,7 +579,37 @@ The provided configuration adjustments are made to ensure the proper functionali
 5. `saveconfig`: This command saves the configured settings, ensuring that they persist and are applied whenever the reference station is operational.
 
 ### Unicorecomm UM980 and UM982 Configuration Script
+
+> **Note:** Not all of these commands will work on all UM980 or UM982 varients. Some commands are firmware specific. Not all commands are required. These are just what we determined to be "most optimal" for most situations for both Onocoy and for any other service you may use your UM98x with. If there is a feature missing that you want, contact your device manufacture for firmware update instructions.
+
 ```bash
+# Enable anti-jamming function
+CONFIG ANTIJAM FORCE
+
+# Maximum age of RTK data*, in seconds
+CONFIG RTK TIMEOUT 600
+
+# High reliability for RTK Positioning and ADR
+CONFIG RTK RELIABILITY 4 4
+
+# High threshold for CN0
+CONFIG RTK CN0THD 1
+
+# High threshold for multi-path mitigation
+CONFIG RTK MMPL 1
+
+# Enable multi-path mitigation
+CONFIG MMP ENABLE
+
+# RTCM Clock Offset Compensation
+CONFIG RTCMCLOCKOFFSET ENABLE
+
+# Doppler Position Prediction Configuration
+CONFIG PSREVELDRPOS ENABLE
+
+# AGNSS Configuration
+CONFIG AGNSS ENABLE
+
 # Set up automatic base configuration with automatic gps location 
 mode base time 60 2 2.5
 
@@ -578,7 +620,10 @@ config RTCMB1CB2a enable
 # ONLY IF MODULE IS UM982
 # CONFIG SIGNALGROUP 3 6
 
-# Enable All GPS Messages
+# UM982 with Dual Antennas Only
+# CONFIG PVTALG MULTI
+
+# Enable All Standard NEMA Messages
 unlog
 gndhv 1
 gngga 1
@@ -595,7 +640,7 @@ gpzda 1
 rtkposa 1
 saveconfig
 
-#enable all bands
+# Enable All bands
 UNMASK GPS
 UNMASK BDS
 UNMASK GLO
@@ -605,7 +650,7 @@ UNMASK IRNSS
 UNMASK ALL
 saveconfig
 
-#ONOCOY RTCM CONFIGURATION
+# ONOCOY RTCM CONFIGURATION
 rtcm1006 30
 rtcm1033 30
 rtcm1077 1
@@ -615,7 +660,31 @@ rtcm1117 1
 rtcm1127 1
 saveconfig
 
-# ONLY CHANGE IF YOU WANT TO IMPROVE THE BAUDRATE
+# Full RTCM 3.2 Configuration (Skip if only doing onocoy)
+rtcm1006 30
+rtcm1007 30
+rtcm1019 1
+rtcm1020 1
+rtcm1033 30
+rtcm1042 1
+rtcm1044 1
+rtcm1045 1
+rtcm1046 1
+rtcm1077 1
+rtcm1087 1
+rtcm1097 1
+rtcm1107 1
+rtcm1117 1
+rtcm1127 1
+rtcm1137 1
+saveconfig
+
+# Only configure if you know SBAS is available in your region
+# Onocoy ignores SBAS you do not need to enable this unless you know what you're doing or you're following our dual or triple mining guides.
+# CONFIG SBAS ENABLE Auto
+# CONFIG SBAS TIMEOUT 600
+
+# ONLY CHANGE IF YOU WANT TO IMPROVE THE BAUDRATE OR IF YOU RUN INTO STABILITY ISSUES
 # config com1 921600
 # saveconfig
 ```
