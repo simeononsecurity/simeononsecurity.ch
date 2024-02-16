@@ -146,11 +146,12 @@ If you don't know what that is or you aren't experienced, please use the options
 {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}Get the GNSS.STORE Triple Band Survey Antenna Today!{{< /centerbutton >}}
 
 - **Unicorecomm UM980**
-Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
+Capable of 80%-90% of the Onocoy rewards if installed correctly. 100% is possible after planned future firmware update. Fimware updates are dependent on the manufacture of the device providing them. Unicorecomm will not provide them to the public.
 
   - [UM980 module](https://www.aliexpress.us/item/3256805035445904.html) + [DSD TECH SH-U05A USB to I2C](https://amzn.to/3tptGOk) + [GH1.25 to Dupont2.54 Pre-Crimped Cables](https://amzn.to/3tptGOk)- $180 - $220
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5.
     - For more details on how to install this, we recommend you read this article on [how to set up the I2C connection on the UM980](https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/)
+    - ***Don't expect the aliexpress manufactures to be able to provide firmware updates.***
   - [UM980 M.2](https://gnss.store/unicore-gnss-modules/250-elt0225.html)
     - Unicorecomm UM980 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over M.2
@@ -161,7 +162,7 @@ Capable of up to 80% of the Onocoy rewards. 100% is possible after planned futur
     - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
 
 - **Unicorecomm UM982**
-Capable of up to 80% of the Onocoy rewards. 100% is possible after planned future firmware update.
+Capable of 80%-90% of the Onocoy rewards if installed correctly. 100% is possible after planned future firmware update. Fimware updates are dependent on the manufacture of the device providing them. Unicorecomm will not provide them to the public.
   - [UM982 M.2](https://gnss.store/um982-gnss-modules/242-elt0215.html)
     - Unicorecomm UM982 Based, Triple Band L1, L2 and L5. 
     - May not be recognized by all systems, it uses USB protocols over M.2
@@ -173,7 +174,7 @@ Capable of up to 80% of the Onocoy rewards. 100% is possible after planned futur
 
 - **Septentrio Mosaic X5**
 Capable of up to 100% of the Onocoy rewards. Requires already available [firmware update](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5).
-  - [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit) - $645
+  - [mosaic-go GNSS module receiver evaluation kit](https://shop.septentrio.com/en/shop/mosaic-go-gnss-module-receiver-evaluation-kit)
     - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
   - (**Preferred**)[simpleRTK3B mPCIe](https://www.ardusimple.com/product/simplertk3b-mpcie-septentrio-mosaic/)
     - Septentrio Mosaic X5 Based, 50-100hz Pull Rate, Anti-Interference, Anti-Jamming, Anti-Spoofing.
