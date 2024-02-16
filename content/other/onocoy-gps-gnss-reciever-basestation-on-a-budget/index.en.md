@@ -556,7 +556,7 @@ While reviewing this topic and discussing with the Onocoy team on their discord,
   - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
 - [RTKLIB STR2STR](https://github.com/rtklibexplorer/RTKLIB/releases)
   -  A more widely used Ntrip server. However it can be significantly more technically involved.
--  [rtklibexplorer/RTKLIB](https://github.com/rtklibexplorer/RTKLIB)
+- [rtklibexplorer/RTKLIB](https://github.com/rtklibexplorer/RTKLIB)
   - A version of RTKLIB optimized for single and dual frequency low cost GPS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3 and is kept reasonably closely synced to that branch.
   - A fork of the original RTKLIB that is known to be more frequently updated and more optimized than the original RTKLIB.
   - The variant of RTKLIB we use in our docker container.
