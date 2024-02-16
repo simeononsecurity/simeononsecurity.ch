@@ -726,56 +726,56 @@ ______
 ### **Onocoy Setup**
 
 **Q1: Which equipment can be used to set up a station?**
-   - A1: Any GNSS device capable of data transfer via NTRIP is recommended, with featured bundles listed on the [dedicated onocoy device page](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/1.-get-a-station) or recommended in this [article above](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#recommended-hardware-for-onocoy).
+  - A1: Any GNSS device capable of data transfer via NTRIP is recommended, with featured bundles listed on the [dedicated onocoy device page](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/1.-get-a-station) or recommended in this [article above](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#recommended-hardware-for-onocoy).
 
 **Q2: Where should the antenna be placed?**
-   - A2: Ideally, fix the antenna in a location with a full sky view, such as a roof, chimney, or open field. Ensure no obstructions exist above 10 degrees elevation angle, and secure the antenna against movement during adverse weather.
+  - A2: Ideally, fix the antenna in a location with a full sky view, such as a roof, chimney, or open field. Ensure no obstructions exist above 10 degrees elevation angle, and secure the antenna against movement during adverse weather.
 
 **Q3: What is needed to connect the device, and is WiFi necessary?**
-   - A3: A stable internet connection is required, whether through WiFi or Ethernet, depending on the device.
+  - A3: A stable internet connection is required, whether through WiFi or Ethernet, depending on the device.
 
 **Q4: What happens if I want to change the location of my station/antenna/receiver?**
-   - A4: Moving the device to another location is not a problem; you just need to successfully pass the data validation process again.
+  - A4: Moving the device to another location is not a problem; you just need to successfully pass the data validation process again.
 
 ### **Onocoy Devices & Streams**
 
 **Q5: Can streams be retrieved directly if my station only supports NTRIP caster and is exposed on the internet?**
-   - A5: No, due to complexities, it is not a reliable method. Contact your station manufacturer to add NTRIP server functionality.
+  - A5: No, due to complexities, it is not a reliable method. Contact your station manufacturer to add NTRIP server functionality.
 
 **Q6: What NTRIP Messages need to be enabled on my GNSS reference receivers for the best rewards?**
-   - A6: Enable **RTCM 3.0 MSM7 Messages for optimal rewards**, including messages for various constellations. Lower tier messages are supported, while certain message types are ignored.
+  - A6: Enable **RTCM 3.0 MSM7 Messages for optimal rewards**, including messages for various constellations. Lower tier messages are supported, while certain message types are ignored.
 
 **Q7: What latency is tolerable from the GNSS receiver to the onocoy system?**
-   - A7: The **end-to-end latency should be below 1 second**; larger latencies result in reduced rewards and potential disconnection.
+  - A7: The **end-to-end latency should be below 1 second**; larger latencies result in reduced rewards and potential disconnection.
 
 **Q8: Do I have to set the receiver in a special Reference station mode to determine its accurate location?**
-   - A8: No, the onocoy system's validation procedures determine the precise location of your station.
+  - A8: No, the onocoy system's validation procedures determine the precise location of your station.
 
 **Q9: How does onocoy prevent fraudulent correction streams?**
-   - A9: onocoy employs sophisticated methods, including regular data consistency checks, real-time supervision, and checks over long-term periods to detect fraudulent streams.
+  - A9: onocoy employs sophisticated methods, including regular data consistency checks, real-time supervision, and checks over long-term periods to detect fraudulent streams.
 
 **Q10: Can I provide data from a 3rd party service, such as public networks like IGS or other networks?**
-    - A10: Yes, with acceptance of terms and conditions, provided you have the rights. Multiple submissions from free networks may result in banning.
+  - A10: Yes, with acceptance of terms and conditions, provided you have the rights. Multiple submissions from free networks may result in banning.
 
 **Q11: My station frequently disconnects. What can I do?**
-    - A11: Disconnections are observed due to updates but should not affect operations. No action is needed on the user's network side.
+  - A11: Disconnections are observed due to updates but should not affect operations. No action is needed on the user's network side.
 
 ### **Onocoy Rewards**
 
 **Q12: My wallet is not connecting. What can I do?**
-    - A12: Ensure you are using Chrome or Brave Browser on a Desktop device. Follow instructions on the page, and if issues persist, contact support through the [onocoy discord](https://discord.gg/CHKxSpPQ8p).
+  - A12: Ensure you are using Chrome or Brave Browser on a Desktop device. Follow instructions on the page, and if issues persist, contact support through the [onocoy discord](https://discord.gg/CHKxSpPQ8p).
 
 **Q13: How is the location scale calculated?**
-    - A13: Factors include the number and distance of nearby stations, with the quality of neighboring stations influencing rewards.
+  - A13: Factors include the number and distance of nearby stations, with the quality of neighboring stations influencing rewards.
 
 **Q14: How much will I earn streaming RTK correction data to onocoy?**
-    - A14: Earnings depend on factors like signals, satellites, and location. Specific numbers are yet to be decided, but users can earn tokens even before they are officially listed.
+  - A14: Earnings depend on factors like signals, satellites, and location. Specific numbers are yet to be decided, but users can earn tokens even before they are officially listed.
 
 **Q15: Why does onocoy use blockchain technology?**
-    - A15: onocoy uses blockchain to stabilize token prices, with mechanisms like required tokens for data access, constant burn, locked tokens for governance, a capped maximum supply, and a staking function.
+  - A15: onocoy uses blockchain to stabilize token prices, with mechanisms like required tokens for data access, constant burn, locked tokens for governance, a capped maximum supply, and a staking function.
 
 **Q16: How do I claim my rewards?**
-    - A16: Click the "Claim Rewards" button in your NTRIP server list in the Onocoy Dashboard. Rewards can be claimed anytime, and changes in the reward factor trigger automatic claiming. Review your current balance in the upper right corner of the validator.
+  - A16: Click the "Claim Rewards" button in your NTRIP server list in the Onocoy Dashboard. Rewards can be claimed anytime, and changes in the reward factor trigger automatic claiming. Review your current balance in the upper right corner of the validator.
 
 ______
 ## Conclusion
