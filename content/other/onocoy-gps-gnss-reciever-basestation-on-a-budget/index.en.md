@@ -277,6 +277,8 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     ```bash
     ls /dev/ttyUSB*
     ```
+    
+    **Note:** Minicom is a tool used to view the serial output of devices. To use it, you'll need to read this [guide on using minicom](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom). If this sounds difficult to you, skip this step.
 
     ```bash
     sudo minicom -D /dev/ttyUSB0
@@ -284,7 +286,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 
 1. Now we get to configure the software
 
-> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit it from this section until after you initially get past that window. Then test it again.
+> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then test it again.
 
    1. Test the configuration.
 
@@ -360,7 +362,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
       sudo nano ~/rtklib/rtkrcv.conf
       ```
     2. Conf File Contents
-    > **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit it from this section until after you initially get past that window. Then test it again.
+    > **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then test it again.
       ```toml
       [serial]
       port = /dev/ttyUSB0
@@ -430,7 +432,7 @@ Consult the following guides for more information on how to install docker
 
   > If the environment variable `ONCOCOY_MOUNTPOINT` is specified, the docker container will use **NTRIPSERVER**, otherwise it'll use **RTKLIB** for the connection to Onocoy. The container will use RTKLIB for the splitting of the feed and connection to RTKDIRECT still however.
 
-> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit it from this section until after you initially get past that window. Then run the command again.
+> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then run the command again.
 
    ```bash
     docker run \
