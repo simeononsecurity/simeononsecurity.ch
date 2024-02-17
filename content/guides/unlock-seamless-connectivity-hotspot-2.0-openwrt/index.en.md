@@ -110,14 +110,17 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 > **Note:** *These commands may uninstall other packages that have these as dependencies. If this happens, reinstall them after finishing this section.*
 
+> **NoteL** *These packages are touchy on their install order. If you get an error on your device. Try uninstalling everything mentioned and installing the error package first. You can do this from the command line or the software page in the Luci admin page.*
+
 Before configuring Hotspot 2.0 on OpenWRT, ensure that your system has the required packages installed. 
+
 Use the following commands to install necessary components:
 
 ```bash
 opkg update
 opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic hostpd-common hostapd-openssl wpad-openssl
 opkg --force-overwrite --force-removal-of-dependent-packages install wpad-openssl nano kmod-mac80211 kmod-cfg80211
-opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common nano
+opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common
 ```
 
 If you've purchased one of the [GL.iNet devices](https://amzn.to/3UnfDEw) we recommended above you'll also run the following command:
