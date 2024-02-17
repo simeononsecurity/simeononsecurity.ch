@@ -119,8 +119,9 @@ Use the following commands to install necessary components:
 ```bash
 opkg update
 opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic hostpd-common hostapd-openssl wpad-openssl
-opkg --force-overwrite --force-removal-of-dependent-packages install wpad-openssl nano kmod-mac80211 kmod-cfg80211
-opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common
+opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install wpad-openssl nano 
+opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install iw-full hostapd-common 
+opkg --force-overwrite --force-removal-of-dependent-packages install kmod-mac80211 kmod-cfg80211
 ```
 
 If you've purchased one of the [GL.iNet devices](https://amzn.to/3UnfDEw) we recommended above you'll also run the following command:
