@@ -116,13 +116,14 @@ Use the following commands to install necessary components:
 ```bash
 opkg update
 opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic hostpd-common hostapd-openssl wpad-openssl
-opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common wpad-openssl nano
+opkg --force-overwrite --force-removal-of-dependent-packages install wpad-openssl nano kmod-mac80211 kmod-cfg80211
+opkg --force-overwrite --force-removal-of-dependent-packages install iw-full hostapd-common nano
 ```
 
 If you've purchased one of the [GL.iNet devices](https://amzn.to/3UnfDEw) we recommended above you'll also run the following command:
 
 ```bash
-opkg --force-overwrite install kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211
+opkg --force-overwrite install kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath
 ```
 
 ### Using USB External WiFi Cards on OpenWRT
