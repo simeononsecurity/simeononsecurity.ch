@@ -245,9 +245,12 @@ Using the string you just generated above add this to your devices [https://peer
 
 
 ### [Install Mysterium](https://simeononsecurity.com/other/install-mysterium-easily-using-docker/):
-[Mysterium](https://www.mysterium.network/) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
+[Mysterium](https://mystnodes.co/?referral_code=dZxIcDEWgjh8b5kviefiC7RFBInonroaPFHr2ztm) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
 Payments average anywhere from $1-$20 a month depending on multiple factors per node per IP. Costs $1.XX to setup a node for activation. Payouts in MYST token.
 
+#### Create an account at mystnodes.co
+
+First, create an account at [mystnodes.co](https://mystnodes.co/?referral_code=dZxIcDEWgjh8b5kviefiC7RFBInonroaPFHr2ztm). You'll use this to manage your mysterium node(s).
 
 #### Install the Docker Container:
 ```bash
@@ -258,7 +261,8 @@ ufw allow 59850:60000/tcp
 ```
 
 #### Setup the Docker Container:
-Go to http://"nodeip"/#/dashboard by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
+
+Go to `http://"nodeip":4449/#/dashboard` by replacing "nodeip" with the IP address of your node. You can find this by typing "ifconfig" in the terminal.
 
 Click “start node setup”.
 

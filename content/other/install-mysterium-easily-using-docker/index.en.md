@@ -19,6 +19,10 @@ Are you in search of a decentralized VPN and web scraping service? Look no furth
 ### Install the Docker Container
 To install Mysterium using the Docker container, follow these steps:
 
+#### Create an account at mystnodes.co
+
+First, create an account at [mystnodes.co](https://mystnodes.co/?referral_code=dZxIcDEWgjh8b5kviefiC7RFBInonroaPFHr2ztm)
+
 #### Install Docker
 
 Learn [how to install docker](https://simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/#installing-docker).
@@ -56,3 +60,4 @@ Once you're done, you should [Learn How to Secure Internet Sharing Applications]
 
 - [Mysterium](https://www.mysterium.network/)
 - [Mysterium Documentation - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
+- [mystnodes.co](https://mystnodes.co/?referral_code=dZxIcDEWgjh8b5kviefiC7RFBInonroaPFHr2ztm)

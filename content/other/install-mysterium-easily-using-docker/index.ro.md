@@ -56,3 +56,4 @@ Odată ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing App
 
 - [Mysterium](https://www.mysterium.network/)
 - [Mysterium Documentation - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
+- [mystnodes.co](https://mystnodes.co/?referral_code=dZxIcDEWgjh8b5kviefiC7RFBInonroaPFHr2ztm)
