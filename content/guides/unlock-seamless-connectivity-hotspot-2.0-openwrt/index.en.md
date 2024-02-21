@@ -102,7 +102,13 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 {{< centerbutton href="https://amzn.to/3UkHVQ5">}}Get Your GL.iNet GL-SFT1200 (Opal) Today!{{< /centerbutton >}}
 
-[hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and we have completed testing, in addition to the above, on other [GL.iNet devices](https://amzn.to/3HRuU97) including the [Mango](https://amzn.to/42x2kDr) (Has storage issues however), [Slate](https://amzn.to/3wbIP7x) and [Beryl](https://amzn.to/492qHeK) devices on both internal and external wireless interfaces.
+> [hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and I have completed testing, in addition to the above, on other [GL.iNet devices](https://amzn.to/3HRuU97) including the [Mango](https://amzn.to/42x2kDr) (Has storage issues however), [Slate](https://amzn.to/3wbIP7x) and [Beryl](https://amzn.to/492qHeK) devices on both internal and external wireless interfaces.
+
+If you're fine with having to install OpenWRT by flashing the firmware on the device, we can recommend the following two devices as well.
+
+- [Cudy WR3000](https://www.amazon.com/Cudy-802-11ax-Internet-Beamforming-WR3000/dp/B0BRK3CYY3)
+  - OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
+  - We Love it for the amazing performance. It's quite similar to GL.iNet's Flint and Flint 2 for less than half the cost.
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
 
