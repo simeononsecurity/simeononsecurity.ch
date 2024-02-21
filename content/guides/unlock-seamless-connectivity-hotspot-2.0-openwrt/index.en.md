@@ -107,7 +107,7 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 If you're fine with having to install OpenWRT by flashing the firmware on the device, we can recommend the following two devices as well.
 
 - [Cudy WR3000](https://www.amazon.com/Cudy-802-11ax-Internet-Beamforming-WR3000/dp/B0BRK3CYY3)
-  - OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
+  - [OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
   - We Love it for the amazing performance. It's quite similar to GL.iNet's Flint and Flint 2 for less than half the cost.
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
