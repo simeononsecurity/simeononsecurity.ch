@@ -110,7 +110,7 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
   - [OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
   - We Love it for the amazing performance. It's quite similar to GL.iNet's Flint and Flint 2 for less than half the cost.
   - Be sure to use Google Chrome when uploading firmware via the web gui.
-  - You'll need to install a couple different packages run the following command after running the commands in the section below `opkg --force-overwrite install mt7981-wo-firmware bridger` and `echo 'options mt7915e wed_enable=Y' >> /etc/modules.conf`
+  - You'll need to install a couple different packages run the following command after running the commands in the section below `opkg --force-overwrite install kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware mt7981-wo-firmware bridger` and `echo 'options mt7915e wed_enable=Y' >> /etc/modules.conf`
 - [TP-Link EAP225-Outdoor](https://amzn.to/3I3qKv7)
   - [OpenWRT flashing instructions for the EAP225](https://openwrt.org/toh/tp-link/eap225)
   - We love it because it is the only OpenWRT compatible outdoor unit we could find with replaceable antennas.
