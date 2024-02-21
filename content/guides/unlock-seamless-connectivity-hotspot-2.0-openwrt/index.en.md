@@ -122,7 +122,7 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
 
 > **Note:** *These commands may uninstall other packages that have these as dependencies. If this happens, reinstall them after finishing this section.*
 
-> **NoteL** *These packages are touchy on their install order. If you get an error on your device. Try uninstalling everything mentioned and installing the error package first. You can do this from the command line or the software page in the Luci admin page.*
+> **Note:** *These packages are touchy on their install order. If you get an error on your device. Try uninstalling everything mentioned and installing the error package first. You can do this from the command line or the software page in the Luci admin page.*
 
 Before configuring Hotspot 2.0 on OpenWRT, ensure that your system has the required packages installed. 
 
