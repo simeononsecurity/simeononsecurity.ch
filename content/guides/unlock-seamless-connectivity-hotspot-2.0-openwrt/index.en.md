@@ -247,6 +247,71 @@ config wifi-iface 'radio1_orion5g'
     list iw_venue_url '1:https://orionwifi.com'
     # List of operator icons, specifying width, height, language code, image format, and icon filename. (This doesn't need to be a valid path but must be specified on OpenWRT)
     list operator_icon '64:64:eng:image/png:operator_icon:operator_icon.png'
+    # Connection Capability
+    # This can be used to advertise what type of IP traffic can be sent through the
+    # hotspot (e.g., due to firewall allowing/blocking protocols/ports).
+    # format: <IP Protocol>:<Port Number>:<Status>
+    # IP Protocol: 1 = ICMP, 6 = TCP, 17 = UDP
+    # Port Number: 0..65535
+    # Status: 0 = Closed, 1 = Open, 2 = Unknown
+    # Each hs20_conn_capab line is added to the list of advertised tuples.
+    #list hs20_conn_capab=1:0:2
+    #list hs20_conn_capab=6:22:1
+    #list hs20_conn_capab=17:5060:0
+    # Set the airtime policy operating mode:
+    # 0 = disabled (default)
+    # 1 = static config
+    # 2 = per-BSS dynamic config
+    # 3 = per-BSS limit mode
+    #option airtime_mode=0
+    # Interval (in milliseconds) to poll the kernel for updated station activity in
+    # Static configuration of station weights (when airtime_mode=1). Kernel default
+    # weight is 256; set higher for larger airtime share, lower for smaller share.
+    # Each entry is a MAC address followed by a weight.
+    # Currently doesn't work leave commented out
+    #list airtime_sta_weight '02:01:02:03:04:05 256'
+    #list airtime_sta_weight '02:01:02:03:04:06 512'
+    # Per-BSS airtime weight. In multi-BSS mode, set for each BSS and hostapd will
+    # configure station weights to enforce the correct ratio between BSS weights
+    # depending on the number of active stations. The *ratios* between different
+    # BSSes is what's important, not the absolute numbers.
+    # Must be set for all BSSes if airtime_mode=2 or 3, has no effect otherwise.
+    #option airtime_bss_weight=1
+    # GAS Address 3 behavior
+    # 0 = P2P specification (Address3 = AP BSSID) workaround enabled by default
+    #     based on GAS request Address3
+    # 1 = IEEE 802.11 standard compliant regardless of GAS request Address3
+    # 2 = Force non-compliant behavior (Address3 = AP BSSID for all cases)
+    #option iw_gas_address3 '0'
+    # Whether the current BSS should be limited (when airtime_mode=3).
+    #
+    # If set, the BSS weight ratio will be applied in the case where the current BSS
+    # would exceed the share defined by the BSS weight ratio. E.g., if two BSSes are
+    # set to the same weights, and one is set to limited, the limited BSS will get
+    # no more than half the available airtime, but if the non-limited BSS has more
+    # stations active, that *will* be allowed to exceed its half of the available
+    # airtime.
+    #option airtime_bss_limit '1'
+    # Country code (ISO/IEC 3166-1). Used to set regulatory domain.
+    # Set as needed to indicate country in which device is operating.
+    # This can limit available channels and transmit power.
+    # These two octets are used as the first two octets of the Country String
+    # (dot11CountryString)w
+    option country 'US'
+    # The third octet of the Country String (dot11CountryString)
+    # This parameter is used to set the third octet of the country string.
+    # All environments of the current frequency band and country (default)
+    #option country3 '0x20'
+    # Outdoor environment only
+    #option country3 '0x4f'
+    # Indoor environment only
+    #option country3 '0x49'
+    # Noncountry entity (country_code=XX)
+    #option country3 '0x58'
+    # IEEE 802.11 standard Annex E table indication: 0x01 .. 0x1f
+    # Annex E, Table E-4 (Global operating classes)
+    #https://mentor.ieee.org/802.11/dcn/16/11-16-0822-00-000m-extension-of-mmwave-operating-class.docx
+    #option country3 '0x04'
 
     #ProxyARP and 80211k are not supported on all devices, remove if you have issues.
     option proxy_arp '1'
