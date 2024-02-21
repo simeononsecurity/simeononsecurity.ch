@@ -117,10 +117,10 @@ Before configuring Hotspot 2.0 on OpenWRT, ensure that your system has the requi
 Use the following commands to install necessary components:
 
 ```bash
-opkg update
-opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic hostpd-common hostapd-openssl wpad-openssl
-opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install wpad-openssl nano 
-opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install iw-full hostapd-common 
+opkg update && \
+opkg --force-removal-of-dependent-packages remove iw iw-full wpad-basic gl-sdk4-repeater hostapd-basic hostpd-common hostapd-openssl wpad-openssl wpad-basic-mbedtls && \
+opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install wpad-openssl nano && \
+opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install iw-full hostapd-common && \
 opkg --force-overwrite --force-removal-of-dependent-packages install kmod-mac80211 kmod-cfg80211
 ```
 
@@ -158,8 +158,8 @@ We recommend these adapters for their overall OpenWRT compatibility and 802.11 A
 #Add any more drivers you may need. 
 #The most popular WiFi 5 and WiFi 6 adapters, including our recommended should be covered below.
 #Command order and seperation matters.
-opkg --force-removal-of-dependent-packages remove kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u
-opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211
+opkg --force-removal-of-dependent-packages remove kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u && \
+opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-ath10k-smallbuffers kmod-ath9k kmod-ath9k-common kmod-ath kmod-mac80211 kmod-cfg80211 && \
 opkg --force-overwrite install kmod-thermal kmod-cfg80211 kmod-mac80211 kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt7615-common kmod-mt7615-firmware kmod-mt7615e kmod-mt76x0-common kmod-mt76x02-common kmod-mt76x02-usb kmod-mt76x0u kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware
 ```
 
