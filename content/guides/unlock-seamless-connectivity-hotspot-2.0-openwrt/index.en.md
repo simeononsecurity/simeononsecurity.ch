@@ -106,9 +106,14 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 If you're fine with having to install OpenWRT by flashing the firmware on the device, we can recommend the following two devices as well.
 
-- [Cudy WR3000](https://www.amazon.com/Cudy-802-11ax-Internet-Beamforming-WR3000/dp/B0BRK3CYY3)
+- [Cudy WR3000](https://amzn.to/48jQDS5)
   - [OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
   - We Love it for the amazing performance. It's quite similar to GL.iNet's Flint and Flint 2 for less than half the cost.
+  - Be sure to use Google Chrome when uploading firmware via the web gui.
+- [TP-Link EAP225-Outdoor](https://amzn.to/3I3qKv7)
+  - [OpenWRT flashing instructions for the EAP225](https://openwrt.org/toh/tp-link/eap225)
+  - We love it because it is the only OpenWRT compatible outdoor unit we could find with replaceable antennas.
+  - Only WiFi 5 however. If you find something better for this purpose, please let us know!
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
 
