@@ -95,6 +95,10 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 {{< centerbutton href="https://amzn.to/48ZFYNn">}}Get Your GL.iNet GL-AXT1800 (Slate AX) Today!{{< /centerbutton >}}
 
 - [GL.iNet GL-MT3000 (Beryl AX)](https://amzn.to/49knV4o)
+  - **Currently only possible to use external adapters on the [Official OpenWRT version for the GL-MT300](https://firmware-selector.openwrt.org/?version=23.05.2&target=mediatek%2Ffilogic&id=glinet_gl-mt3000)**
+  - For some reason GL.iNet left this device on kernal level 5.4 rather than 5.1.5 or 5.2 and OpenWRT base 21.xx.xx rather than 22.xx.xx or 23.xx.xx like their other supported devices.
+  - The GL.iNet latest image (Currently 4.5.0) is using a hacked driver for support for the mt7981 devices that prevent stable utilization of the features we need for HotSpot 2.0 support. 
+  - Be sure after running the config options we have below to run `opkg --force-overwrite install kmod-mt7915e kmod-mt7981-firmware mt7981-wo-firmware` to reinstall any wifi drivers that were uninstalled.
 
 {{< centerbutton href="https://amzn.to/49knV4o">}}Get Your GL.iNet GL-MT3000 (Beryl AX) Today!{{< /centerbutton >}}
 
