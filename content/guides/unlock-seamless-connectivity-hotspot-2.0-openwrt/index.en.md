@@ -152,19 +152,31 @@ When it comes to enhancing your OpenWRT setup with external WiFi adapters, espec
 
 #### Recommended External WiFi Adapters for HotSpot 2.0 Support on OpenWRT
 
-We recommend these adapters for their overall OpenWRT compatibility and 802.11 AX Support. Top down, best to worst.
-
-- [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://amzn.to/3vYvHT4)
+We recommend these adapters for their overall OpenWRT compatibility and 802.11 AX Support. Top down, best to worst in terms of OpenWRT compatibility.
 
 {{< centerbutton href="https://amzn.to/3vYvHT4">}}Get Your ALFA AWUS036AXML Today!{{< /centerbutton >}}
 
 - [ALFA AWUS036AXM WiFi 6E USB 3.0 USB Adapter, AXE3000 Tri-Band 6Ghz/5.8GHz/2.4GHz](https://amzn.to/3UrQVTG)
+    - We love it because it has external and replaceable antennas and it supports either 2.4Ghz/5Ghz on WiFi 6. Once OpenWRT adds support, the device will also support the 6 Ghz band in the future.
+    - Requires OpenWRT Kernel Level 5.15/5.2 at least. Verify with `uname -r`.
+    - Use the following command to install the appropriate drivers. `opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u`
 
 {{< centerbutton href="https://amzn.to/3UrQVTG">}}Get Your ALFA AWUS036AXM Today!{{< /centerbutton >}}
 
 - [NETGEAR WiFi AC1200 USB 3.0 Adapter (A6210)](https://amzn.to/42m7EJZ)
+    - We love it because it is cheap and it is the easiest to install out of any of the external adapters. Not to mention it is the easiest to get your hands on. It lacks external antennas however. 
+    - Requires OpenWRT Kernel Level 5.15/5.2 at least. Verify with `uname -r`.
+    - Use the following command to install the appropriate drivers. `opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u`
 
 {{< centerbutton href="https://amzn.to/42m7EJZ">}}Get Your NETGEAR A6210 Today!{{< /centerbutton >}}
+
+- [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://amzn.to/3vYvHT4)
+    - We love it because it has external and replaceable antennas and it has WiFi 7 and 6GHz support as soon as OpenWRT supports it.  Till then it is 2.4Ghz/5Ghz WiFi 6. 
+    - Requires Kernel Level 6.6 at least. Ideally, 6.7. Verify with `uname -r`.
+        - So far we can get it working on openwrt latest reguardless of the documented kernel requirements, it will not work on any GL.iNet device other than the Flint 1 and Flint 2 or if you can flash your device with OpenWRT 23.05.2. 
+    - Use the following command to install the appropriate drivers. `opkg --force-overwrite install kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware mt7981-wo-firmware`
+ 
+> The [AWUS036AXML](https://amzn.to/3vYvHT4) is definately the best USB based WiFi radio we could find. However it lacks support on many devices. As of the moment of this articles writing, it is possible, but it'll be technicially challenging to most. This is why we prefer to recommend the [AWUS036AXM](https://amzn.to/3UrQVTG) for most people.
 
 > *For a list of other documented adapters that have support on Linux and OpenWRT See the [USB-WiFi Documentation Repo](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)*
 
