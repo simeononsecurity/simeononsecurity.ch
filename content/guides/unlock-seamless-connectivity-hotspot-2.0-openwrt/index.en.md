@@ -90,6 +90,10 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 
 {{< centerbutton href="https://amzn.to/3UnfDEw">}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
 
+- [GL.iNet GL-AX1800(Flint) WiFi 6 Router](https://amzn.to/3OWKTa2)
+
+{{< centerbutton href="https://amzn.to/3OWKTa2">}}Get Your GL.iNet GL-AX1800(Flint) Today!{{< /centerbutton >}}
+
 - [GL.iNet GL-AXT1800 (Slate AX)](https://amzn.to/48ZFYNn)
 
 {{< centerbutton href="https://amzn.to/48ZFYNn">}}Get Your GL.iNet GL-AXT1800 (Slate AX) Today!{{< /centerbutton >}}
