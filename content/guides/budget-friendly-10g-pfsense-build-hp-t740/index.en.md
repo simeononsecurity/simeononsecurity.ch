@@ -9,6 +9,7 @@ tags: ["pfSense", "HP t740", "10g Router", "Network Security", "Budget-Friendly"
 cover: "/img/cover/budget-friendly-10g-pfsense-build.png"
 coverAlt: "A cartoon-style illustration of a smiling person easily connecting network cables to an HP t740 router"
 coverCaption: "Simplify Your Network with the HP t740 and pfSense"
+ref: ["/guides/installing-pfsense-on-hp-t740-thin-client"]
 ---
 **10 Gigabit Capable pfSense Build on a Budget with HP t740**
 
@@ -24,7 +25,7 @@ ______
 
 ### **HP t740 Thin Client: A Budget-Friendly Option**
 
-{{< figure src="t740.jpg" alt="HP t740 Thin Client" link="https://amzn.to/453xXnL" >}}
+{{< figure src="t740.jpg" alt="HP t740 Thin Client" link="https://amzn.to/3Td6xJE" >}}
 
 The [**HP t740 Thin Client**](https://support.hp.com/us-en/document/c06433828) is an often-overlooked piece of hardware that can be repurposed into a powerful pfSense router. It's cost-effective and can be had for $400 or less, energy-efficient uses 50w or less, and small in size about 1L in volume, making it ideal for home and small office use. The HP t740 comes with various hardware options, including an AMD Ryzen processor and support for multiple network interfaces through it's PCI expansion slot.
 
@@ -36,7 +37,7 @@ ______
 
 Before we begin, let's ensure you have all the necessary hardware components for your 10g capable pfSense build with the HP t740:
 
-- [**HP t740 Thin Client**](https://amzn.to/453xXnL) with an AMD Ryzen R1505G processor
+- [**HP t740 Thin Client**](https://amzn.to/3Td6xJE) with an AMD Ryzen R1505G processor
 - [**Network Interface Cards (NICs)**](https://amzn.to/48tAHhi) with 10 Gigabit Ethernet support
   - Optionally, opt for the 10g card later and start off with a cheaper [1gbe](https://amzn.to/48siP6u) or [2.5gbe](https://amzn.to/46jbRPu) card.
 - Adequate **RAM** 
@@ -57,7 +58,7 @@ This video will help you get there.
 
 ### **Adding 10g NICs**
 
-{{< figure src="internal.jpg" alt="HP t740 Internal PCI Slot" link="https://amzn.to/453xXnL" >}}
+{{< figure src="internal.jpg" alt="HP t740 Internal PCI Slot" link="https://amzn.to/3Td6xJE" >}}
 
 To achieve 10 Gigabit Ethernet capabilities, you'll need to add 10g NICs to your HP t740. Consult the [pfSense hardware compatibility list](https://docs.netgate.com/pfsense/en/latest/hardware/index.html) to ensure compatibility. Install the NICs and configure them in pfSense.
 
@@ -68,7 +69,7 @@ To achieve 10 Gigabit Ethernet capabilities, you'll need to add 10g NICs to your
 2. Create a bootable USB drive with the pfSense installer using tools like **Rufus** (Windows) or **dd** (Linux).
 
 3. Insert the USB drive into the HP t740, and follow the instructions from our guide on [installing pfSense on the HP t740](https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/) . 
-   1. It's a bit different than the standard install. Please read the guide.
+   1. It s a bit different than the standard install. **Please read the guide**.
 
 ### **Configuring pfSense**
 
