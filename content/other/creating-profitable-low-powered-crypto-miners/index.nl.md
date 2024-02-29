@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Installeer PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
 Pawns app, opnieuw vergelijkbaar met de anderen hier vermeld, biedt u aan te betalen voor het delen van uw internet. Minimum uitbetaling is $5. Gemiddelde uitbetaling is $0.50 per maand per node per IP.
 
 #### Maak een PawnsApp account aan:
-Maak een account aan op[https://pawns.app](https://pawns.app/?r=2092882)
+Maak een account aan op[https://pawns.app](https://pawns.app/?r=sos)
 
 #### Installeer de Docker Container:
 

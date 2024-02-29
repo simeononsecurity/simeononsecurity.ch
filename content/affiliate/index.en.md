@@ -23,7 +23,7 @@ Some of the links on this website are affiliate links, which means we may earn a
 - [HoneyGain](https://r.honeygain.me/HONEY9149D)
 - [NextDNS](https://nextdns.io/?from=jyfq92sk)
 - [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=12501_0_1_5)
-- [PawnsApp](https://pawns.app/?r=2092802)
+- [PawnsApp](https://pawns.app/?r=sos)
 - [Presearch](https://presearch.com/signup?rid=4754563)
 - [Repocket](https://link.repocket.co/raqc)
 - [StartMail](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined)

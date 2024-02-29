@@ -11,7 +11,7 @@ coverCaption: ""
 ---
  Maximizează-ți câștigurile cu PawnsApp
 
-Sunteți interesat să câștigați un venit pasiv din confortul propriei case? [PawnsApp](https://pawns.app/?r=2092882) oferă o oportunitate interesantă de a face bani online prin partajarea conexiunii la internet și completarea de sondaje. Acest ghid cuprinzător vă va ghida prin procesul de instalare și vă va oferi sfaturi valoroase pentru a vă maximiza câștigurile.
+Sunteți interesat să câștigați un venit pasiv din confortul propriei case? [PawnsApp](https://pawns.app/?r=sos) oferă o oportunitate interesantă de a face bani online prin partajarea conexiunii la internet și completarea de sondaje. Acest ghid cuprinzător vă va ghida prin procesul de instalare și vă va oferi sfaturi valoroase pentru a vă maximiza câștigurile.
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsApp este similar cu alte platforme care vă plătesc pentru partajarea cone
 
 #### 1. Creați un cont PawnsApp
 
-Creați un cont PawnsApp vizitând [https://pawns.app](https://pawns.app/?r=2092882) Înscrieți-vă folosind adresa dvs. de e-mail pentru a începe.
+Creați un cont PawnsApp vizitând [https://pawns.app](https://pawns.app/?r=sos) Înscrieți-vă folosind adresa dvs. de e-mail pentru a începe.
 
 #### 2. Instalați Docker
 
@@ -58,4 +58,4 @@ PawnsApp oferă o oportunitate excelentă de a câștiga venituri pasive prin pa
 După ce ați terminat, ar trebui să [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 #### Referință
-- [PawnsApp](https://pawns.app/?r=2092882)
+- [PawnsApp](https://pawns.app/?r=sos)

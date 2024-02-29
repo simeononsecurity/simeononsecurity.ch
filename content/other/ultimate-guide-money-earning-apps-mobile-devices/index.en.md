@@ -36,7 +36,7 @@ ______
 
 ## **PawnsApp**: Share and Earn
 
-Explore the innovative earning potential of [**PawnsApp**](https://pawns.app/?r=2092882), a platform that offers a distinctive opportunity to generate income using your mobile device. Through a combination of sharing your internet connection and engaging in surveys, you can kickstart your earnings with payouts starting at **$5**. **PawnsApp** not only offers a pathway to passive income but also allows you to voice your opinions and insights by participating in surveys.
+Explore the innovative earning potential of [**PawnsApp**](https://pawns.app/?r=sos), a platform that offers a distinctive opportunity to generate income using your mobile device. Through a combination of sharing your internet connection and engaging in surveys, you can kickstart your earnings with payouts starting at **$5**. **PawnsApp** not only offers a pathway to passive income but also allows you to voice your opinions and insights by participating in surveys.
 
 {{< youtube id="UKbkRuCfE34" >}}
 ______
@@ -98,6 +98,6 @@ ______
 
 1. [Earn App](https://earnapp.com/i/GCL9QzB5)
 2. [Honey Gain](https://r.honeygain.me/HONEY9149D)
-3. [PawnsApp](https://pawns.app/?r=2092882)
+3. [PawnsApp](https://pawns.app/?r=sos)
 4. [Repocket](https://link.repocket.co/raqc)
 5. [Traff Monetizer](https://traffmonetizer.com/?aff=1389828&utm_source=mobleappsguide)

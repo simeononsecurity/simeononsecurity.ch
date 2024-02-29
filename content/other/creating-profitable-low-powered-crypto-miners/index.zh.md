@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### 安装 PawnsApp：
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
 Pawns 应用程序，与此处列出的其他应用程序类似，提供向您支付共享互联网的费用。最低支出为 5 美元。每个节点每个 IP 的平均支出为每月 0.50 美元。
 
 #### 创建一个 PawnsApp 帐户：
-创建一个帐户 [https://pawns.app](https://pawns.app/?r=2092882)
+创建一个帐户 [https://pawns.app](https://pawns.app/?r=sos)
 
 #### 安装 Docker 容器：
 

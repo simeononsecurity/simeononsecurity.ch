@@ -11,7 +11,7 @@ coverCaption: ""
 ---
  Maximaliseer uw inkomsten met PawnsApp
 
-Bent u geïnteresseerd in het verdienen van passief inkomen vanuit uw eigen huis? [PawnsApp](https://pawns.app/?r=2092882) biedt een opwindende kans om online geld te verdienen door uw internetverbinding te delen en enquêtes in te vullen. Deze uitgebreide gids leidt u door het installatieproces en geeft waardevolle tips om uw inkomsten te maximaliseren.
+Bent u geïnteresseerd in het verdienen van passief inkomen vanuit uw eigen huis? [PawnsApp](https://pawns.app/?r=sos) biedt een opwindende kans om online geld te verdienen door uw internetverbinding te delen en enquêtes in te vullen. Deze uitgebreide gids leidt u door het installatieproces en geeft waardevolle tips om uw inkomsten te maximaliseren.
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsApp is vergelijkbaar met andere platforms die u betalen voor het delen van 
 
 #### 1. Maak een PawnsApp account aan
 
-Maak een PawnsApp account aan door naar [https://pawns.app](https://pawns.app/?r=2092882) Meld u aan met uw e-mailadres om te beginnen.
+Maak een PawnsApp account aan door naar [https://pawns.app](https://pawns.app/?r=sos) Meld u aan met uw e-mailadres om te beginnen.
 
 #### 2. Docker installeren
 
@@ -58,4 +58,4 @@ Begin uw reis met PawnsApp vandaag nog en ontgrendel het potentieel van moeitelo
 Zodra u klaar bent, moet u [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 #### Referentie
-- [PawnsApp](https://pawns.app/?r=2092882)
+- [PawnsApp](https://pawns.app/?r=sos)

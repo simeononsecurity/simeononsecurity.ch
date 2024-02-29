@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 ## Maximize Your Earnings with PawnsApp
 
-Are you interested in earning passive income from the comfort of your own home? [PawnsApp](https://pawns.app/?r=2092882) offers an exciting opportunity to make money online by sharing your internet connection and completing surveys. This comprehensive guide will walk you through the installation process and provide valuable tips to maximize your earnings.
+Are you interested in earning passive income from the comfort of your own home? [PawnsApp](https://pawns.app/?r=sos) offers an exciting opportunity to make money online by sharing your internet connection and completing surveys. This comprehensive guide will walk you through the installation process and provide valuable tips to maximize your earnings.
 
 {{< youtube id="rIr0ettIP70" >}}
 
@@ -23,7 +23,7 @@ PawnsApp is similar to other platforms that pay you for sharing your internet co
 
 #### 1. Create a PawnsApp account
 
-Create a PawnsApp account by visiting [https://pawns.app](https://pawns.app/?r=2092882). Sign up using your email address to get started.
+Create a PawnsApp account by visiting [https://pawns.app](https://pawns.app/?r=sos). Sign up using your email address to get started.
 
 #### 2. Install Docker
 
@@ -58,4 +58,4 @@ Start your journey with PawnsApp today and unlock the potential of earning money
 Once you're done, you should [Learn How to Secure Internet Sharing Applications](https://simeononsecurity.com/other/how-to-secure-internet-sharing-applications/)
 
 #### Reference
-- [PawnsApp](https://pawns.app/?r=2092882)
+- [PawnsApp](https://pawns.app/?r=sos)

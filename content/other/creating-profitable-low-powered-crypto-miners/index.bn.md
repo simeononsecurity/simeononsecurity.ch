@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### PawnsApp ইনস্টল করুন:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
 Pawns অ্যাপ, আবার এখানে তালিকাভুক্ত অন্যদের মতোই আপনার ইন্টারনেট শেয়ার করার জন্য আপনাকে অর্থ প্রদানের প্রস্তাব দেয়। সর্বনিম্ন পেআউট হল $5। আইপি প্রতি নোড প্রতি মাসে গড় পেআউট হল $0.50।
 
 #### একটি PawnsApp অ্যাকাউন্ট তৈরি করুন:
-এ একটি অ্যাকাউন্ট তৈরি করুন [https://pawns.app](https://pawns.app/?r=2092882)
+এ একটি অ্যাকাউন্ট তৈরি করুন [https://pawns.app](https://pawns.app/?r=sos)
 
 #### ডকার কন্টেইনার ইনস্টল করুন:
 

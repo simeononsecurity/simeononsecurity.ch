@@ -22,7 +22,7 @@ coverCaption: "アフィリエイトリンクを使用して当社をサポー�
 - [EarnApp](https://earnapp.com/i/GCL9QzB5)
 - [NextDNS](https://nextdns.io/?from=jyfq92sk)
 - [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=12501_0_1_5)
-- [PawnsApp](https://pawns.app/?r=2092802)
+- [PawnsApp](https://pawns.app/?r=sos)
 - [Presearch](https://presearch.com/signup?rid=4754563)
 - [StartMail](https://www.startmail.com/en/partner/?ref=sos&tap_s=3999900-469b6c&tm_undefined=undefined)
 - [TraffMonetizer](https://traffmonetizer.com/?aff=242022)

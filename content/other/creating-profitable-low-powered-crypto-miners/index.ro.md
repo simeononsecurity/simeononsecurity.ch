@@ -156,11 +156,11 @@ docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_E
 {{< youtube id="Wd11M0nSy1k" >}}
 
 ### Instalați PawnsApp:
-[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=2092882)
+[*Make passive money online by completing surveys and sharing your internet *](https://pawns.app/?r=sos)
 Aplicația Pawns, din nou similară cu celelalte enumerate aici, vă oferă să vă plătească pentru partajarea internetului. Plata minimă este de 5 USD. Plata medie este de 0,50 USD pe lună per nod per IP.
 
 #### Creați un cont PawnsApp:
-Creează un cont la [https://pawns.app](https://pawns.app/?r=2092882)
+Creează un cont la [https://pawns.app](https://pawns.app/?r=sos)
 
 #### Instalați containerul Docker:
 
