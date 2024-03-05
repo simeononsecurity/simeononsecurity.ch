@@ -92,7 +92,6 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
 {{< centerbutton href="https://amzn.to/3UnfDEw">}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
 
 - [GL.iNet GL-AX1800(Flint) WiFi 6 Router](https://amzn.to/3OWKTa2)
-  - **Currently Hotspot 2.0 is only available [Official OpenWRT version for the GL-MT300](https://firmware-selector.openwrt.org/?version=23.05.2&target=mediatek%2Ffilogic&id=glinet_gl-mt3000)**
   - For some reason GL.iNet left this device on OpenWRT base 21.xx.xx rather than 22.xx.xx or 23.xx.xx like their other supported devices.
       - It's also using Linux/OpenWRT Kernel 4.4.60 which is very unusual.  
   - The GL.iNet latest image (Currently 4.5.0) repo is missing critical packages needed for HS20 Support. Specifically it is missing the `iw-full` package.
