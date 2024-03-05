@@ -100,7 +100,7 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
       - [`iw-full`](https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk)
       - Fix this issue by running the following command `wget https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk && wget https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk && opkg install --force-overwrite libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk && opkg install --force-overwrite iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk`
   - We've made GL.iNet aware of the issue via Email on 2024/03/04. We've not received any updates yet. 
-  - Be sure after running the the config options we have below to run `opkg --force-overwrite install opkg --force-overwrite --force-removal-of-dependent-packages kmod-ath kmod-ath11k-ahb kmod-ath11k-pci kmod-ath11k-ahb` to reinstall any wifi drivers that were uninstalled.
+  - Be sure after running the the config options we have below to run `opkg --force-overwrite --force-removal-of-dependent-packages kmod-ath kmod-ath11k-ahb kmod-ath11k-pci kmod-ath11k-ahb` to reinstall any wifi drivers that were uninstalled.
 
 {{< centerbutton href="https://amzn.to/3OWKTa2">}}Get Your GL.iNet GL-AX1800(Flint) Today!{{< /centerbutton >}}
 
