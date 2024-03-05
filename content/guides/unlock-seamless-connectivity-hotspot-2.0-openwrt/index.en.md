@@ -98,15 +98,15 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
       - The workaround is to manually install the appropriate dependencies and the package manually.
       - [`libnl-tiny1`](https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk)
       - [`iw-full`](https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk)
-      - Fix this issue by running the following command `wget https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk && wget https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk && opkg install --force-overwrite libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk && opkg install --force-overwrite iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk && opkg update && opkg install kmod-ath11k kmod-ath kmod-mac80211 kmod-cfg80211`
-  - We've made GL.iNet aware of the issue on both via Email on 2024/03/04. We've not received any updates yet. 
-  - Be sure after running the the config options we have below to run `opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt7615-common kmod-mt7615-firmware kmod-mt7615e kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware kmod-mt7915e kmod-mt7981-firmware mt7981-wo-firmware` to reinstall any wifi drivers that were uninstalled.
+      - Fix this issue by running the following command `wget https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk && wget https://downloads.openwrt.org/releases/21.02.7/packages/arm_cortex-a7/base/iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk && opkg install --force-overwrite libnl-tiny1_2020-08-05-c291088f-2_arm_cortex-a7.ipk && opkg install --force-overwrite iw-full_5.9-8fab0c9e-3_arm_cortex-a7.ipk`
+  - We've made GL.iNet aware of the issue via Email on 2024/03/04. We've not received any updates yet. 
+  - Be sure after running the the config options we have below to run `opkg --force-overwrite install opkg --force-overwrite --force-removal-of-dependent-packages kmod-ath kmod-ath11k-ahb kmod-ath11k-pci kmod-ath11k-ahb` to reinstall any wifi drivers that were uninstalled.
 
 {{< centerbutton href="https://amzn.to/3OWKTa2">}}Get Your GL.iNet GL-AX1800(Flint) Today!{{< /centerbutton >}}
 
-- [GL.iNet GL-AXT1800 (Slate AX)](https://amzn.to/48ZFYNn)
+> [hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and I have completed testing, in addition to the above, on other [GL.iNet devices](https://amzn.to/3HRuU97) including the [Mango](https://amzn.to/42x2kDr) (Has storage issues however), [Slate](https://amzn.to/3wbIP7x) and [Beryl](https://amzn.to/492qHeK) devices on both internal and external wireless interfaces.
 
-{{< centerbutton href="https://amzn.to/48ZFYNn">}}Get Your GL.iNet GL-AXT1800 (Slate AX) Today!{{< /centerbutton >}}
+If you're fine with having to install OpenWRT by flashing the firmware on the device, we can recommend the following devices as well.
 
 - [GL.iNet GL-MT3000 (Beryl AX)](https://amzn.to/49knV4o)
   - **If you want to use the internal radios on the Beryl AX, you'll need to flash the [Latest Full OpenWRT version for the GL-MT300](https://firmware-selector.openwrt.org/?version=23.05.2&target=mediatek%2Ffilogic&id=glinet_gl-mt3000)**
@@ -114,13 +114,6 @@ Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Pas
   - The GL.iNet latest image (Currently 4.5.0) is using a hacked driver for support for the mt7981 devices that prevent stable utilization of the features we need for HotSpot 2.0 support.
     - We've made GL.iNet aware of the issue on both Twitter and via Email on 2024/02/25. They acknowledged the issue and said their technical team would reply. We've not received any updates yet. 
   - Be sure after running the flashing OpenWRT and the config options we have below to run `opkg --force-overwrite install kmod-mt7915e kmod-mt7981-firmware mt7981-wo-firmware` to reinstall any wifi drivers that were uninstalled.
-
-{{< centerbutton href="https://amzn.to/49knV4o">}}Get Your GL.iNet GL-MT3000 (Beryl AX) Today!{{< /centerbutton >}}
-
-> [hgot07](https://hgot07.hatenablog.com/entry/2022/03/21/231715) and I have completed testing, in addition to the above, on other [GL.iNet devices](https://amzn.to/3HRuU97) including the [Mango](https://amzn.to/42x2kDr) (Has storage issues however), [Slate](https://amzn.to/3wbIP7x) and [Beryl](https://amzn.to/492qHeK) devices on both internal and external wireless interfaces.
-
-If you're fine with having to install OpenWRT by flashing the firmware on the device, we can recommend the following two devices as well.
-
 - [Cudy WR3000](https://amzn.to/48jQDS5)
   - [OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
   - We Love it for the amazing performance. It's quite similar to GL.iNet's Flint and Flint 2 for less than half the cost.
@@ -146,7 +139,7 @@ Use the following commands to install necessary components:
 
 ```bash
 opkg update && \
-opkg --force-removal-of-dependent-packages remove iw iw-full gl-sdk4-repeater hostapd* wpad*  && \
+opkg --force-removal-of-dependent-packages remove iw gl-sdk4-repeater hostapd* wpad*  && \
 opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install wpad-openssl nano && \
 opkg --force-overwrite --force-downgrade --force-removal-of-dependent-packages install iw-full hostapd-common && \
 opkg --force-overwrite --force-removal-of-dependent-packages install kmod-mac80211 kmod-cfg80211
