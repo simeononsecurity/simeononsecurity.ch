@@ -123,6 +123,7 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
   - You'll need to install a couple different packages run the following command after running the commands in the section below `opkg --force-overwrite install kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware mt7981-wo-firmware bridger` and `echo 'options mt7915e wed_enable=Y' >> /etc/modules.conf`
 - [TP-Link EAP225-Outdoor](https://amzn.to/3I3qKv7)
   - [OpenWRT flashing instructions for the EAP225](https://openwrt.org/toh/tp-link/eap225)
+    - This is going to be an advanced openwrt install, high likelyhood of bricking your device. **DO NOT ATTEMPT IF NOT SKILLED** 
   - We love it because it is the only OpenWRT compatible outdoor unit we could find with replaceable antennas.
   - Only WiFi 5 however. If you find something better for this purpose, please let us know!
 
