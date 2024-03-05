@@ -121,8 +121,11 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
   - You'll need to install a couple different packages run the following command after running the commands in the section below `opkg --force-overwrite install kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware mt7981-wo-firmware bridger` and `echo 'options mt7915e wed_enable=Y' >> /etc/modules.conf`
 - [TP-Link EAP225-Outdoor](https://amzn.to/3I3qKv7)
   - [OpenWRT flashing instructions for the EAP225](https://openwrt.org/toh/tp-link/eap225)
-    - This is going to be an advanced openwrt install, high likelyhood of bricking your device. **DO NOT ATTEMPT IF NOT SKILLED** 
+    - This is going to be an advanced openwrt install, high likelyhood of bricking your device. **DO NOT ATTEMPT IF YOU'RE NOT SKILLED**
+      - No good way to guarentee hardware revision you'll receive. We ordered multiple and received a v3, v3.6, and v3.8 in various quantities.
+      - Do not update to TP-Link Firmware 5.1.0 or 5.1.1 if you can avoid it. If you're on those versions or anything newer, you'll need to browse the OpenWRT forums for a version that has a hotfix to bypass new image protections that were introduced on later TP-Link firmware versions.
   - We love it because it is the only OpenWRT compatible outdoor unit we could find with replaceable antennas.
+  - We've tested it with Clear LoS up to 1200 Feet or 400 meters with omnidirectional antennas. 
   - Only WiFi 5 however. If you find something better for this purpose, please let us know!
 
 ### Updating OpenWRT Packages for Hotspot 2.0 Support on OpenWRT
