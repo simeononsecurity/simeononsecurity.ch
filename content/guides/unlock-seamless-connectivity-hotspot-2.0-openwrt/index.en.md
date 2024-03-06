@@ -459,8 +459,21 @@ append_iw_anqp_3gpp_cell_net() {\
     fi\
 }' /lib/netifd/hostapd.sh
 ```
-
 > *Just one character is the issue. The script above is fine to run on all devices. It won't make any changes if the bug isn't there.*
+
+#### Setting Up Automatic Reboot
+
+We recommend setting up a nightly reboot to clear any issues that may pop up.
+
+The command below should work on most devices:
+
+```bash
+echo "30 4 * * * sleep 70 && touch /etc/banner && reboot" >> /etc/crontabs/root && /etc/init.d/cron restart
+```
+
+Otherwise, go to `System` > `Scheduled Tasks` and enter the following line in the Scheduled Tasks textbox.
+
+`30 4 * * * sleep 70 && touch /etc/banner && reboot`
 
 #### Testing Hotspot 2.0 Functionality on OpenWRT
 
