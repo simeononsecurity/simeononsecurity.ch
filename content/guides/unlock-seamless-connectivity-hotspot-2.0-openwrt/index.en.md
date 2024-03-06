@@ -86,7 +86,7 @@ By following these steps, you set up the necessary prerequisites and configurati
 
 Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Passpoint 2.0 support? Look no further! We've curated a list of highly recommended devices that seamlessly integrate these advanced features into your network. From the [GL-MT6000 (Flint 2)](https://amzn.to/3UnfDEw) with WiFi 6 capabilities to the pocket-sized [GL-AXT1800 (Slate AX)](https://amzn.to/48ZFYNn) offering gigabit travel convenience, explore the best options for enhanced connectivity and security. Upgrade your router experience with these top-notch devices tailored for Hotspot 2.0 enthusiasts and professionals alike.
 
-- (**Prefered**) [GL.iNet GL-MT6000 (Flint 2) WiFi 6 Router](https://amzn.to/3UnfDEw)
+- (**Preferred**) [GL.iNet GL-MT6000 (Flint 2) WiFi 6 Router](https://amzn.to/3UnfDEw)
   - Be sure after running the the config options we have below to run `opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt7615-common kmod-mt7615-firmware kmod-mt7615e kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware kmod-mt7986-firmware` to reinstall any wifi drivers that were uninstalled.
 
 {{< centerbutton href="https://amzn.to/3UnfDEw">}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
