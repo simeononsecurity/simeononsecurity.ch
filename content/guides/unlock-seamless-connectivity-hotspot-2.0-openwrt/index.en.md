@@ -518,6 +518,41 @@ phy1-ap0  ESSID: "OrionWiFi"
           Frequency offset: none
           Supports VAPs: yes  PHY name: phy1
 ```
+##### Testing using an Android or IOS Device
+
+If you're using Goole Orion and you have one of the supported Carriers, such as AT&T or Google Fi, you just need to forget any wifi access points you have saved that are in range. Your phone should automatically see and connect to the appropriate SSID. Otherwise, you'll need to install the [Google Orion Test Profile](https://get.orionwifi.com/web/orion-test-profile)
+
+If you are not a subscriber to the supported carriers, you’ll need to install the test profile on your device using Safari on IOS or Google Chrome on android. This will enable your device for testing and enable your device to be able to automatically see and connect to the OpenRoaming enabled network for testing.
+
+OpenRoaming Testing Profile Links:
+- [CLOUD4WI](https://c4wi.co/jk43W)
+- [GLOBALREACH](https://osu.odyssys.net/?qr)
+- [Google Orion](https://get.orionwifi.com/web/orion-test-profile)
+- [Intel](https://provision.connectionassist.com/intel/)
+- [IronWiFi](https://osu.ironwifi.com/onlinesignup)
+- [SingleDigits](https://provision.connectionassist.com/demo/)
+
+OpenRoaming Profile APPs:
+- Cisco OpenRoaming
+    - [App Store](https://apps.apple.com/us/app/openroaming/id1496830649)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.cisco.or&hl=en_US&gl=US)
+- EduRoam (Only available to some students)
+    - [App Store](https://apps.apple.com/no/app/geteduroam/id1504076137)
+    - [Google Play](https://play.google.com/store/apps/details?id=app.eduroam.geteduroam)
+    - [Windows](https://dl.eduroam.app/windows/x86_64/geteduroam.exe)
+- Global Ro.am
+    - [App Store](https://apps.apple.com/us/app/globalro-am/id6447584451)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.grtconnect)
+- MetaBlox
+    - [App Store](https://apps.apple.com/ca/app/metablox/id6443709000)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.dapp.metablox)
+- WAYRU
+    - [App Store](https://apps.apple.com/us/app/wayru-wifi/id6444692982)
+    - [Google Play](https://play.google.com/store/apps/details?id=io.wayru.wifi)
+ 
+For a full list of [OpenRoaming Profiles](https://wballiance.com/openroaming/profile-signup/) please check out the WBA Website.
+
+If you're interested in creating your own provisioning portal, check out the [WBA's Provisioning Portal Demo](https://prov.orportal.org/).
 
 ##### Verifying Hotspot 2.0 Client Capability on Windows
 
