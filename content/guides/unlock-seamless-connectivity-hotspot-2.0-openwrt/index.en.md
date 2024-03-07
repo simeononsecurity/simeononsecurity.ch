@@ -86,7 +86,7 @@ By following these steps, you set up the necessary prerequisites and configurati
 
 Are you searching for the perfect OpenWRT device with robust Hotspot 2.0 and Passpoint 2.0 support? Look no further! We've curated a list of highly recommended devices that seamlessly integrate these advanced features into your network. From the [GL-MT6000 (Flint 2)](https://amzn.to/3UnfDEw) with WiFi 6 capabilities to the pocket-sized [GL-AXT1800 (Slate AX)](https://amzn.to/48ZFYNn) offering gigabit travel convenience, explore the best options for enhanced connectivity and security. Upgrade your router experience with these top-notch devices tailored for Hotspot 2.0 enthusiasts and professionals alike.
 
-- (**Prefered**) [GL.iNet GL-MT6000 (Flint 2) WiFi 6 Router](https://amzn.to/3UnfDEw)
+- (**Preferred**) [GL.iNet GL-MT6000 (Flint 2) WiFi 6 Router](https://amzn.to/3UnfDEw)
   - Be sure after running the the config options we have below to run `opkg --force-overwrite install kmod-mt7921-common kmod-mt7921-firmware kmod-mt7921e kmod-mt7921s kmod-mt7921u kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt7615-common kmod-mt7615-firmware kmod-mt7615e kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware kmod-mt7986-firmware` to reinstall any wifi drivers that were uninstalled.
 
 {{< centerbutton href="https://amzn.to/3UnfDEw">}}Get Your GL.iNet GL-MT6000(Flint 2) Today!{{< /centerbutton >}}
@@ -121,9 +121,9 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
   - You'll need to install a couple different packages run the following command after running the commands in the section below `opkg --force-overwrite install kmod-mt76x2u kmod-mt76-connac kmod-mt76-core kmod-mt76-usb kmod-mt76x2-common kmod-mt76x2u kmod-mt7915e kmod-mt7916-firmware mt7981-wo-firmware bridger` and `echo 'options mt7915e wed_enable=Y' >> /etc/modules.conf`
 - [TP-Link EAP225-Outdoor](https://amzn.to/3I3qKv7)
   - [OpenWRT flashing instructions for the EAP225](https://openwrt.org/toh/tp-link/eap225)
-    - This is going to be an advanced openwrt install, high likelyhood of bricking your device, modern TP-Link Omada devices like this do not have a recovery mode easily accessable.
+    - This is going to be an advanced OpenWRT install, high likelihood of bricking your device, modern TP-Link Omada devices like this do not have a recovery mode easily accessible.
       - **DO NOT ATTEMPT IF YOU'RE NOT SKILLED**
-      - No good way to guarentee hardware revision you'll receive. We ordered multiple and received a v3, v3.6, and v3.8 in various quantities.
+      - No good way to guarantee hardware revision you'll receive. We ordered multiple and received a v3, v3.6, and v3.8 in various quantities.
       - Do not update to TP-Link Firmware 5.1.0 or 5.1.1 if you can avoid it. If you're on those versions or anything newer, you'll need to browse the OpenWRT forums for a version that has a hotfix to bypass new image protections that were introduced on later TP-Link firmware versions.
   - We love it because it is the only OpenWRT compatible outdoor unit we could find with replaceable antennas.
   - We've tested it with Clear LoS up to 1200 Feet or 400 meters with omnidirectional antennas. 
@@ -518,6 +518,41 @@ phy1-ap0  ESSID: "OrionWiFi"
           Frequency offset: none
           Supports VAPs: yes  PHY name: phy1
 ```
+##### Testing using an Android or IOS Device
+
+If you're using Goole Orion and you have one of the supported Carriers, such as AT&T or Google Fi, you just need to forget any wifi access points you have saved that are in range. Your phone should automatically see and connect to the appropriate SSID. Otherwise, you'll need to install the [Google Orion Test Profile](https://get.orionwifi.com/web/orion-test-profile)
+
+If you are not a subscriber to the supported carriers, you’ll need to install the test profile on your device using Safari on IOS or Google Chrome on android. This will enable your device for testing and enable your device to be able to automatically see and connect to the OpenRoaming enabled network for testing.
+
+OpenRoaming Testing Profile Links:
+- [CLOUD4WI](https://c4wi.co/jk43W)
+- [GLOBALREACH](https://osu.odyssys.net/?qr)
+- [Google Orion](https://get.orionwifi.com/web/orion-test-profile)
+- [Intel](https://provision.connectionassist.com/intel/)
+- [IronWiFi](https://osu.ironwifi.com/onlinesignup)
+- [SingleDigits](https://provision.connectionassist.com/demo/)
+
+OpenRoaming Profile APPs:
+- Cisco OpenRoaming
+    - [App Store](https://apps.apple.com/us/app/openroaming/id1496830649)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.cisco.or&hl=en_US&gl=US)
+- EduRoam (Only available to some students)
+    - [App Store](https://apps.apple.com/no/app/geteduroam/id1504076137)
+    - [Google Play](https://play.google.com/store/apps/details?id=app.eduroam.geteduroam)
+    - [Windows](https://dl.eduroam.app/windows/x86_64/geteduroam.exe)
+- Global Ro.am
+    - [App Store](https://apps.apple.com/us/app/globalro-am/id6447584451)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.grtconnect)
+- MetaBlox
+    - [App Store](https://apps.apple.com/ca/app/metablox/id6443709000)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.dapp.metablox)
+- WAYRU
+    - [App Store](https://apps.apple.com/us/app/wayru-wifi/id6444692982)
+    - [Google Play](https://play.google.com/store/apps/details?id=io.wayru.wifi)
+ 
+For a full list of [OpenRoaming Profiles](https://wballiance.com/openroaming/profile-signup/) please check out the WBA Website.
+
+If you're interested in creating your own provisioning portal, check out the [WBA's Provisioning Portal Demo](https://prov.orportal.org/).
 
 ##### Verifying Hotspot 2.0 Client Capability on Windows
 
