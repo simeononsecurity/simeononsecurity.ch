@@ -360,6 +360,23 @@ sudo apt install -y rtklib
 
 Please see the [Windows instructions for Onocoy instructions](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#windows-option-1-strsvr), use `STR2SRV` to output to one **NTRIPServer for onocoy** and one **tcpclient for RTKDirect**.
 
+#### Bonus: Quadruple Mining with FrysCrypto (Windows Required)
+
+> ***Note: We do not recommend doing anything with FrysCrypto. Don't invest anything you aren't willing to lose.***
+
+> **Note:** This section is not tested as far as we'd normally like. We had a few readers suggest this configuration. Your milage may very. We'll update this as we learn more and improve on it.
+
+This part gets a bit complicated. You'll likely need to install your UM980 using the Linux instructions. Then, you'll need to run the following instructions on Windows.
+
+1. First download and install the [Outdoor Sattlite Miner Alpha Download](https://www.fryfoundation.com/outdoor-satellite-miner-download) from the FryFoundation Website. This will install python, a python script, a batch script, and [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2). 
+   1. When you're setting it up, it'll ask for your algorand wallet's private key, please make sure you create a [dedicated algorand wallet](https://algorandwallet.com/) for this purpose. **Do not use your existing wallet.**
+2. Download and install [HW VSP3 - Virtual Serial Port](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port).
+   1. You only need the [single-port](https://www.hw-group.com/files/download/sw/version/hw-vsp3s_3-1-2.exe) version
+3. On the Virtual Serial Port Tab
+   1. {{< figure src="hw-vsp.png" alt="HW VSP3 - Virtual Serial Port" link="https://www.hw-group.com/software/hw-vsp3-virtual-serial-port" >}}
+   2. Specify the `COM PORT`, `IP` and `Port Number` of the RTKLIB or Docker Based TCP server and click `Create COM`
+4. Open [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2) and on the second tab you'll see an option to "Add Device". Click "Add Device" and select the com port you created on HW VSP3.
+5. Lastly, don't forget to register your [BYOD Outdoor Satellite Miner](https://www.fryfoundation.com/byod-outdoor-satellite-registration)
 ______
 
 ## Conclusion
