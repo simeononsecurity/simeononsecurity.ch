@@ -370,13 +370,14 @@ This part gets a bit complicated. You'll likely need to install your UM980 using
 
 1. First download and install the [Outdoor Sattlite Miner Alpha Download](https://www.fryfoundation.com/outdoor-satellite-miner-download) from the FryFoundation Website. This will install python, a python script, a batch script, and [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2). 
    1. When you're setting it up, it'll ask for your algorand wallet's private key, please make sure you create a [dedicated algorand wallet](https://algorandwallet.com/) for this purpose. **Do not use your existing wallet.**
-2. Download and install [HW VSP3 - Virtual Serial Port](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port).
-   1. You only need the [single-port](https://www.hw-group.com/files/download/sw/version/hw-vsp3s_3-1-2.exe) version
-3. On the Virtual Serial Port Tab
-   1. {{< figure src="hw-vsp.png" alt="HW VSP3 - Virtual Serial Port" link="https://www.hw-group.com/software/hw-vsp3-virtual-serial-port" >}}
-   2. Specify the `COM PORT`, `IP` and `Port Number` of the RTKLIB or Docker Based TCP server and click `Create COM`
-4. Open [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2) and on the second tab you'll see an option to "Add Device". Click "Add Device" and select the com port you created on HW VSP3.
-5. Lastly, don't forget to register your [BYOD Outdoor Satellite Miner](https://www.fryfoundation.com/byod-outdoor-satellite-registration)
+2. Download and install [`hup4com`](https://sourceforge.net/projects/com0com/files/hub4com/2.1.0.0/hub4com-2.1.0.0-386.zip/download) and [`com0com`](https://sourceforge.net/projects/com0com/) from the [Null-modem Emulator](https://sourceforge.net/projects/com0com/) project.
+   1. Use all the default options and hit next until the last page, then click "Open Setup" and next one last time. 
+      1. Remove all non COM devices.
+      2. Take note of the preconfigured COM device names. We got `COM4` and `COM5`
+   2.  Extract the zip files and place it in a safe and well known location. For our example we will be using `C:\temp\hub4com\`
+       1.  Open up a terminal in the folder above and run `.\multiplexer.bat --link-type tcp xxx.xxx.xxx.xxx:5015 COMX`
+4. Open [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2) and on the second tab you'll see an option to "Add Device". Click "Add Device" and select the com port you created during the com0com setup.
+4. Lastly, don't forget to register your [BYOD Outdoor Satellite Miner](https://www.fryfoundation.com/byod-outdoor-satellite-registration)
 ______
 
 ## Conclusion
