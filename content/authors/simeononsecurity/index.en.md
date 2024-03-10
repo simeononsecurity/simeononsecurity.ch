@@ -81,6 +81,7 @@ In addition to their professional accomplishments, SimeonOnSecurity's passion fo
 - [Code Academy](https://www.codecademy.com/profiles/SimeonOnSecurity)
 - [Codeberg](https://codeberg.org/simeononsecurity)
 - [Cybrary](https://app.cybrary.it/profile/SimeonOnSecurity)
+- [dscvr.one](https://dscvr.one/u/simeononsecurity)
 - [Feedburner RSS All](https://feeds.feedburner.com/simeononsecurity-all)
 - [Feedburner RSS Full Text](https://feeds.feedburner.com/simeononsecurity-fulltext/)
 - [Feedburner RSS](https://feeds.feedburner.com/simeononsecuritycom/)
