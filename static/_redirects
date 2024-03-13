@@ -110,10 +110,13 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 /p/recaptcha/api.js https://www.google.com/recaptcha/api.js 200!
 /p/g/collect https://stats.g.doubleclick.net/g/collect 200!
 /p/clarity.js https://www.clarity.ms/tag/iifc5gpk0z 200!
+/p/clarity/tag/* https://www.clarity.ms/tag/:splat 200!
 /p/show_ads_impl_with_ama.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202307180101/show_ads_impl_with_ama_fy2021.js 200!
+/p/analytics.js https://www.google-analytics.com/analytics.js 200!
 /p/lidar.js https://pagead2.googlesyndication.com/pagead/js/lidar.js?fcd=true 200!
 /p/fundingchoices.js https://fundingchoicesmessages.google.com/i/ca-pub-7261983457890123?ers=2 200!
 /p/infolinks_main.js https://resources.infolinks.com/js/infolinks_main.js 200!
 /p/cdnjs/* https://cdnjs.cloudflare.com/:splat 200!
 /p/jsdelivr/* https://cdn.jsdelivr.net/:splat 200!
 /p/utterances/client.js https://utteranc.es/client.js 200!
+/p/gtag/* https://www.googletagmanager.com/gtag/:splat 200!
