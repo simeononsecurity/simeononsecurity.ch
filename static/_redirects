@@ -105,3 +105,7 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 ## PROXY CYBERCHEF
 /CyberChef/* https://gchq.github.io/CyberChef/:splat 200
 /cyberchef/* https://gchq.github.io/CyberChef/:splat 200
+
+## Proxy Recaptcha
+/recaptcha/api.js https://www.google.com/recaptcha/api.js 200!
+/g/collect https://stats.g.doubleclick.net/g/collect 200!
