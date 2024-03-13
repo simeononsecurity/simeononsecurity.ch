@@ -42,7 +42,7 @@ canonical: "https://simeononsecurity.com/contactus/"
   </p>
 
   <h3>Contact Form</h3>
-  <form class="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+  <form class="contact-form" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
     <p class="hidden">
       <label>
         Don't fill this out if you're human: <input name="bot-field" />
@@ -72,6 +72,7 @@ canonical: "https://simeononsecurity.com/contactus/"
       <label for="message">Message</label>
       <textarea id="message" name="message" required></textarea>
     </div>
+    <div data-netlify-recaptcha="true"></div>
     <div class="contact-form__group">
       <button type="submit">Send</button>
     </div>
