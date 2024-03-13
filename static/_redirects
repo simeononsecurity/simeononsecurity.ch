@@ -106,6 +106,12 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 /CyberChef/* https://gchq.github.io/CyberChef/:splat 200
 /cyberchef/* https://gchq.github.io/CyberChef/:splat 200
 
-## Proxy Recaptcha
-/recaptcha/api.js https://www.google.com/recaptcha/api.js 200!
-/g/collect https://stats.g.doubleclick.net/g/collect 200!
+## Proxy third-party JavaScript
+/p/recaptcha/api.js https://www.google.com/recaptcha/api.js 200!
+/p/g/collect https://stats.g.doubleclick.net/g/collect 200!
+/p/clarity.js https://www.clarity.ms/tag/iifc5gpk0z 200!
+/p/adsbygoogle.js https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7261983457890123 200!
+/p/show_ads_impl_with_ama.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202307180101/show_ads_impl_with_ama_fy2021.js?client=ca-pub-7261983457890123&plah=simeononsecurity.com 200!
+/p/lidar.js https://pagead2.googlesyndication.com/pagead/js/lidar.js?fcd=true 200!
+/p/fundingchoices.js https://fundingchoicesmessages.google.com/i/ca-pub-7261983457890123?ers=2 200!
+/p/infolinks_main.js https://resources.infolinks.com/js/infolinks_main.js 200!
