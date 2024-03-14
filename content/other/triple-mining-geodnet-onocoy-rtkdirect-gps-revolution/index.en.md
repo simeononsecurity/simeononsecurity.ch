@@ -1,5 +1,5 @@
 ---
-title: "Triple Mining GPS Revolution: Geodnet, Onocoy, and RTKDirect Unleashed!"
+title: "Quadruple Mining DePin GPS Projects: Geodnet, Onocoy, RTKDirect, and FrysCrypto"
 date: 2024-01-01
 toc: true
 draft: false
@@ -15,6 +15,8 @@ ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/on
 ## Introduction
 
 Welcome to the forefront of GPS precision – a realm where innovation meets DIY enthusiasm. In this comprehensive guide, we'll delve into the exciting realm of triple mining, bringing together the powerful forces of Geodnet, Onocoy, and RTKDirect. Join us on a journey where technology meets customization, and global navigation takes a leap forward. Whether you're a DIY enthusiast or a tech-savvy navigator, this guide is your gateway to revolutionizing your GPS experience.
+
+> **Note:** This article doesn't contain nor should it be represented as an endorsement of any of the projects mentioned nor as financial advice. This article is for educational purposes only.
 
 ______
 
@@ -368,16 +370,22 @@ Please see the [Windows instructions for Onocoy instructions](https://simeononse
 
 This part gets a bit complicated. You'll likely need to install your UM980 using the Linux instructions. Then, you'll need to run the following instructions on Windows.
 
+his part gets a bit complicated. You'll likely need to install your UM980 using the Linux instructions. Then, you'll need to run the following instructions on Windows.
+
 1. First download and install the [Outdoor Sattlite Miner Alpha Download](https://www.fryfoundation.com/outdoor-satellite-miner-download) from the FryFoundation Website. This will install python, a python script, a batch script, and [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2). 
    1. When you're setting it up, it'll ask for your algorand wallet's private key, please make sure you create a [dedicated algorand wallet](https://algorandwallet.com/) for this purpose. **Do not use your existing wallet.**
-2. Download and install [`hup4com`](https://sourceforge.net/projects/com0com/files/hub4com/2.1.0.0/hub4com-2.1.0.0-386.zip/download) and [`com0com`](https://sourceforge.net/projects/com0com/) from the [Null-modem Emulator](https://sourceforge.net/projects/com0com/) project.
+2. Download and install [`com0com`](https://sourceforge.net/projects/com0com/) from the [Null-modem Emulator](https://sourceforge.net/projects/com0com/) project.
    1. Use all the default options and hit next until the last page, then click "Open Setup" and next one last time. 
       1. Remove all non COM devices.
       2. Take note of the preconfigured COM device names. We got `COM4` and `COM5`
-   2.  Extract the zip files and place it in a safe and well known location. For our example we will be using `C:\temp\hub4com\`
-       1.  Open up a terminal in the folder above and run `.\multiplexer.bat --link-type tcp xxx.xxx.xxx.xxx:5015 COMX`
+3. Download and install [HW VSP3 - Virtual Serial Port](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port).
+   1. You only need the [single-port](https://www.hw-group.com/files/download/sw/version/hw-vsp3s_3-1-2.exe) version
+   2. On the Virtual Serial Port Tab
+   3. {{< figure src="hw-vsp.png" alt="HW VSP3 - Virtual Serial Port" link="https://www.hw-group.com/software/hw-vsp3-virtual-serial-port" >}}
+   4. Specify the `COM PORT`, `IP` and `Port Number` of the RTKLIB or Docker Based TCP server and click `Create COM`
+
 4. Open [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2) and on the second tab you'll see an option to "Add Device". Click "Add Device" and select the com port you created during the com0com setup.
-4. Lastly, don't forget to register your [BYOD Outdoor Satellite Miner](https://www.fryfoundation.com/byod-outdoor-satellite-registration)
+5. Lastly, don't forget to register your [BYOD Outdoor Satellite Miner](https://www.fryfoundation.com/byod-outdoor-satellite-registration)
 ______
 
 ## Conclusion
