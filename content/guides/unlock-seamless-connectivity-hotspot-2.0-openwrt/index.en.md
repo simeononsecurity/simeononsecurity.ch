@@ -113,7 +113,7 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
   - For some reason GL.iNet left this device on OpenWRT base 21.xx.xx rather than 22.xx.xx or 23.xx.xx like their other supported devices.
   - The GL.iNet latest image (Currently 4.5.0) is using a hacked driver for support for the mt7981 devices that prevent stable utilization of the features we need for HotSpot 2.0 support.
     - We've made GL.iNet aware of the issue on both Twitter and via Email on 2024/02/25. They acknowledged the issue and said their technical team would reply. We've not received any updates yet. 
-  - Be sure after running the flashing OpenWRT and the config options we have below to run `opkg --force-overwrite install kmod-mt7915e kmod-mt7981-firmware mt7981-wo-firmware` to reinstall any wifi drivers that were uninstalled.
+  - Be sure after flashing OpenWRT and running the config options we have below to run `opkg --force-overwrite install kmod-mt7915e kmod-mt7981-firmware mt7981-wo-firmware` to reinstall any wifi drivers that were uninstalled.
 - [Cudy WR3000](https://amzn.to/48jQDS5)
   - [OpenWRT Flashing instructions for the Cudy WR3000](https://openwrt.org/toh/cudy/wr3000_v1)
   - We Love it for the amazing performance. It's quite similar to GL.iNet's Flint and Flint 2 for less than half the cost.
@@ -125,6 +125,7 @@ If you're fine with having to install OpenWRT by flashing the firmware on the de
       - **DO NOT ATTEMPT IF YOU'RE NOT SKILLED**
       - No good way to guarantee hardware revision you'll receive. We ordered multiple and received a v3, v3.6, and v3.8 in various quantities.
       - Do not update to TP-Link Firmware 5.1.0 or 5.1.1 if you can avoid it. If you're on those versions or anything newer, you'll need to browse the OpenWRT forums for a version that has a hotfix to bypass new image protections that were introduced on later TP-Link firmware versions.
+  - Be sure after the flashing OpenWRT and running the config options we have below to run `kmod-ath10k-ct kmod-ath9k kmod-ath9k-common kmod-ath` to reinstall any wifi drivers that were uninstalled.
   - We love it because it is the only OpenWRT compatible outdoor unit we could find with replaceable antennas.
   - We've tested it with Clear LoS up to 1200 Feet or 400 meters with omnidirectional antennas. 
   - Only WiFi 5 however. If you find something better for this purpose, please let us know!
