@@ -171,8 +171,7 @@ home = ["HTML", "RSS", "JSON", "fulltext", "imagessitemap", "news", "smartnews",
 section = ["HTML"]
 page = ["HTML"]
 sitemap = [ "Sitemap" ]
-[outputs.imageSizes]
-cover = [731, 1054, 1462]
+
 [outputFormats.SITEMAP]
     mediatype = "application/xml"
     baseName = "sitemap"
