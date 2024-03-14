@@ -110,7 +110,7 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 {{ partialCached "load_service_worker.html" . }}
 
 <!-- Load 3rd Party JS -->
-{{ if not $hugo.IsServer }}
+{{ if not $.hugo.IsServer }}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     {{ partial "google_tag_manager.html" . }}
 
