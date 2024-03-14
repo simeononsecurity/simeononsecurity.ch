@@ -80,7 +80,7 @@
   <script async src="{{ "js/search.js"| absURL }}"></script>
 
   <!-- Load 3rd Party JS -->
-  {{ if not $.Site.IsServer }}
+  {{ if not $hugo.IsServer }}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   {{ partial "google_tag_manager.html" . }}
 
