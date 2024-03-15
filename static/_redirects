@@ -118,5 +118,5 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 /p/infolinks_main.js https://resources.infolinks.com/js/infolinks_main.js 200!
 /p/cdnjs/* https://cdnjs.cloudflare.com/:splat 200!
 /p/jsdelivr/* https://cdn.jsdelivr.net/:splat 200!
-/p/utterances/client.js https://utteranc.es/client.js 200!
+# /p/utterances/client.js https://utteranc.es/client.js 200!
 /p/gtag/* https://www.googletagmanager.com/gtag/:splat 200!
