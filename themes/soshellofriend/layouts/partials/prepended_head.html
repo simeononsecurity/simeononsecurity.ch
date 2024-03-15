@@ -145,10 +145,7 @@
 {{ if not $disableComments }}
   {{ if not (eq .Params.Comments.enable false) }}
     {{ if and (not .IsHome) (not .IsSection) }}
-      <!-- 
       <link rel="preload" href="https://utteranc.es/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-      -->
-      <link rel="preload" href="/p/utterances/client.js" as="script" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
       {{ if (.IsPage) }}
       <!-- 
       <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
@@ -156,10 +153,7 @@
       <link rel="prefetch" href="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
       {{ end }}
     {{ else}}
-      <!-- 
       <link rel="prefetch" href="https://utteranc.es/client.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
-      -->
-      <link rel="prefetch" href="/p/utterances/client.js" type="text/javascript" fetchpriority="low" crossorigin="anonymous">
     {{ end }}
   {{ end }}
 {{ end }}
