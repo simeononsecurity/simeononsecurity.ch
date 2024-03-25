@@ -98,6 +98,18 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 # redirect sitemap.xml to index.xml
 /rss.xml /index.xml 301!
 
+# Redirect missing i18n pages
+/press https://simeononsecurity.com/press 301
+/press/ https://simeononsecurity.com/press/ 301
+/checklists https://simeononsecurity.com/checklists 301
+/checklists/ https://simeononsecurity.com/checklists/ 301
+/search https://simeononsecurity.com/search 301
+/search/ https://simeononsecurity.com/search/ 301
+/carousel https://simeononsecurity.com/carousel 301
+/carousel/ https://simeononsecurity.com/carousel/ 301
+/downloads https://simeononsecurity.com/downloads 301
+/carousel/ https://simeononsecurity.com/downloads/ 301
+
 # Well known work around
 /.well_known/*  /well_known/:splat 200!
 /.well-known/*  /well-known/:splat 200!
