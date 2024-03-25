@@ -4,7 +4,7 @@ title: "SimeonOnSecurity"
 description: "Simeon is a seasoned cybersecurity expert with a wealth of experience, certified in various IT domains. Proficient in compliance, automation, and network security. Known for sharing knowledge and mentoring, with a passion for ensuring privacy and data protection. A valuable contributor to open-source projects and a recognized professional in the field."
 cover: "/img/avatar.png"
 twitter: "https://twitter.com/SimeonSecurity"
-github: "https://github.com/SimeonSecurity"
+github: "https://github.com/simeononsecurity"
 ---
 
 ## Bio:

@@ -74,7 +74,7 @@ ______## Top Free Beginners Cybersecurity Platforms and Courses:
 
 ### 13. Python Institute:
 - The Python Institute provides free Python courses for beginners. Python is widely used in cybersecurity for tasks such as scripting, automation, and vulnerability analysis.
-- Link: [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- Link: [Python Institute](https://pythoninstitute.org/)
 
 ______
 
@@ -102,7 +102,7 @@ ______
 - [VMware Learning Zone](https://www.vmware.com/education-services/learning-zone.html)
 - [Code.org](https://studio.code.org/courses)
 - [Codecademy](https://www.codecademy.com/)
-- [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- [Python Institute](https://pythoninstitute.org/)
 
 ## License
 [Free Beginners Cybersecurity Courses: Top Platforms and Training](https://creativecommons.org/choose/results-one?field_attribute_to_url=https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/free-beginners-cybersecurity-courses-online/) © 2024 by [SimeonOnSecurity](https://simeononsecurity.com/) is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=simeononsecurity.com)

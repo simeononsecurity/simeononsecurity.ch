@@ -114,7 +114,7 @@ ______
 
 Les jetons matériels sont souvent considérés comme la méthode la plus sûre d'authentification multifactorielle (AMF). Cependant, certains défis liés à l'utilisation de jetons matériels doivent être pris en compte.
 
-L'une des principales préoccupations est la gestion des jetons matériels. Il est recommandé d'utiliser **un seul jeton matériel** pour tous vos comptes afin de maintenir la cohérence et la simplicité. Le stockage du jeton dans un endroit sûr, connu seulement de quelques personnes de confiance, ajoute une couche supplémentaire de sécurité. Des entreprises comme [Yubico](https://www.yubico.com/products/yubikey-hardware/) and [RSA Security](https://www.rsa.com/en-us/products/multi-factor-authentication) offrent des jetons matériels pour une authentification sécurisée.
+L'une des principales préoccupations est la gestion des jetons matériels. Il est recommandé d'utiliser **un seul jeton matériel** pour tous vos comptes afin de maintenir la cohérence et la simplicité. Le stockage du jeton dans un endroit sûr, connu seulement de quelques personnes de confiance, ajoute une couche supplémentaire de sécurité. Des entreprises comme [Yubico](https://www.yubico.com/products/yubikey-hardware/) and [RSA Security](https://www.rsa.com/multi-factor-authentication/what-is-mfa/) offrent des jetons matériels pour une authentification sécurisée.
 
 Toutefois, le fait de s'appuyer uniquement sur un jeton matériel peut présenter des difficultés dans certains scénarios. Par exemple, dans le cas malheureux d'une maladie grave ou d'un décès, vos proches pourraient avoir des difficultés à accéder à vos comptes si vous ne possédez qu'un seul jeton matériel.
 

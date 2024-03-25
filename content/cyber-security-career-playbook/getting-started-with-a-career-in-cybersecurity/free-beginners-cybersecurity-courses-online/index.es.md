@@ -76,7 +76,7 @@ ______
 
 ### 13. Instituto Python:
 - El Instituto Python ofrece cursos gratuitos de Python para principiantes. Python se utiliza ampliamente en ciberseguridad para tareas como scripting, automatización y análisis de vulnerabilidades.
-- Enlace: [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- Enlace: [Python Institute](https://pythoninstitute.org/)
 
 ______
 
@@ -106,4 +106,4 @@ ______
 - [VMware Learning Zone](https://www.vmware.com/education-services/learning-zone.html)
 - [Code.org](https://studio.code.org/courses)
 - [Codecademy](https://www.codecademy.com/)
-- [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- [Python Institute](https://pythoninstitute.org/)

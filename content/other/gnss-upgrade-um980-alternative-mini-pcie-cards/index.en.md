@@ -29,7 +29,7 @@ To evaluate the practicality of this upgrade, we embarked on a journey to explor
 
 ### The Challenges Encountered
 
-Our testing involved comprehensive trials of these alternative GNSS Mini-PCIe cards in both the [MobileCM Base Station](https://hyfix.ai/products/mobilecm-space-weather-station) and the [EVK USB-C Rover Kit](https://hyfix.ai/products/evk-usb-c-rover-kit). Regrettably, the results were unexpected. These cards were neither recognized nor operating as intended within these setups.
+Our testing involved comprehensive trials of these alternative GNSS Mini-PCIe cards in both the [MobileCM Base Station](https://hyfix.ai/products/mobilecm-triple-band-gnss-base-station) and the [EVK USB-C Rover Kit](https://hyfix.ai/products/evk-usb-c-rover-kit). Regrettably, the results were unexpected. These cards were neither recognized nor operating as intended within these setups.
 
 {{< figure src="rtkrover-mpcie-test.jpeg" alt="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" caption="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" >}}
 

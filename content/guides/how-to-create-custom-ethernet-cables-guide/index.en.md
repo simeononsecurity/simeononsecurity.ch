@@ -244,7 +244,7 @@ ______
 
 ## References
 
-- [Federal Communications Commission (FCC) Ethernet Cable Regulations](https://www.fcc.gov/general/ethernet-cable-regulations)
+
 - [Ethernet Cable Wiring Standards](https://www.intel.com/content/www/us/en/support/articles/000007187/ethernet-products.html#:~:text=Cables%20must%20comply%20with%20the%20IEEE%20802.3%2010BASE-T,a%20wire%20pair%20%28%2B%20and%20-%20signal%20polarities%29.)
 - [Ethernet Cable Categories](https://www.guru99.com/ethernet-cables-types.html)
 - [Ethernet Cable Crimping Guide](https://www.wikihow.com/Crimp-Rj45)

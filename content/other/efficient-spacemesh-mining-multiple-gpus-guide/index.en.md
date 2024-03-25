@@ -283,5 +283,5 @@ Always remember to keep your postcli application up to date and stay informed ab
 2. [Spacemesh GitHub Repository](https://github.com/spacemeshos/)
 3. [Spacemesh POST CLI Application](https://github.com/spacemeshos/post)
 4. [Spacemesh Start](https://spacemesh.io/start/)
-5. [Spacemesh FAQ](https://spacemesh.io/faq/)
+5. [Spacemesh FAQ](https://spacemesh.io/resources/)
 6. [SpaceMeshOS GPU Post](https://github.com/spacemeshos/gpu-post)

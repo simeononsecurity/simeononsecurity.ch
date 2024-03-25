@@ -76,7 +76,7 @@ ______
 
 ### 13.Python Institute（パイソンインスティテュート）です：
 - Python Institute は、初心者向けの Python コースを無料で提供しています。Pythonはサイバーセキュリティにおいて、スクリプト、自動化、脆弱性分析などのタスクに広く使用されています。
-- リンク [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- リンク [Python Institute](https://pythoninstitute.org/)
 
 ______
 
@@ -106,4 +106,4 @@ ______
 - [VMware Learning Zone](https://www.vmware.com/education-services/learning-zone.html)
 - [Code.org](https://studio.code.org/courses)
 - [Codecademy](https://www.codecademy.com/)
-- [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- [Python Institute](https://pythoninstitute.org/)

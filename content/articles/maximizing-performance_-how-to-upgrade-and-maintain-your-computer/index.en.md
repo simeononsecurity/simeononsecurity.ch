@@ -192,7 +192,7 @@ When it comes to optimizing computer performance, removing unnecessary software 
 
 ### Defragmenting Hard Drives
 
-Defragmenting hard drives is an essential maintenance task that can significantly [improve computer performance](https://utilitiesone.com/how-computer-hardware-engineers-improve-the-performance-of-computing-systems). **Fragmentation** occurs when files are stored in non-contiguous blocks on the hard drive, leading to slower read and write speeds. By defragmenting the hard drive, these fragmented files are rearranged and stored in contiguous blocks, allowing for faster access and improved overall performance.
+Defragmenting hard drives is an essential maintenance task that can significantly [improve computer performance](https://support.microsoft.com/en-us/windows/tips-to-improve-pc-performance-in-windows-b3b3ef5b-5953-fb6a-2528-4bbed82fba96). **Fragmentation** occurs when files are stored in non-contiguous blocks on the hard drive, leading to slower read and write speeds. By defragmenting the hard drive, these fragmented files are rearranged and stored in contiguous blocks, allowing for faster access and improved overall performance.
 
 ### Managing Temporary Files
 

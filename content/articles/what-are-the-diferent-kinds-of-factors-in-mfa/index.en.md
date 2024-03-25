@@ -114,7 +114,7 @@ ______
 
 Hardware tokens are often considered the most secure method of multi-factor authentication (MFA). However, there are certain challenges associated with using hardware tokens that need to be taken into account.
 
-One of the primary concerns is the management of hardware tokens. It is recommended to use **a single hardware token** for all your accounts to maintain consistency and simplicity. Storing the token in a secure location known only to a few trusted individuals adds an extra layer of security. Companies like [Yubico](https://www.yubico.com/products/yubikey-hardware/) and [RSA Security](https://www.rsa.com/en-us/products/multi-factor-authentication) offer hardware tokens for secure authentication.
+One of the primary concerns is the management of hardware tokens. It is recommended to use **a single hardware token** for all your accounts to maintain consistency and simplicity. Storing the token in a secure location known only to a few trusted individuals adds an extra layer of security. Companies like [Yubico](https://www.yubico.com/products/yubikey-hardware/) and [RSA Security](https://www.rsa.com/multi-factor-authentication/what-is-mfa/) offer hardware tokens for secure authentication.
 
 However, relying solely on a hardware token can present difficulties in certain scenarios. For instance, in the unfortunate event of critical illness or death, your loved ones may encounter challenges accessing your accounts if you possess only one hardware token.
 

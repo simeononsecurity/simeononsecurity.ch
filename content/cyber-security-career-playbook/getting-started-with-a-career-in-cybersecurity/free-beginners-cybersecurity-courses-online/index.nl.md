@@ -76,7 +76,7 @@ ______
 
 ### 13. Python Instituut:
 - Het Python Institute biedt gratis Python-cursussen voor beginners. Python wordt veel gebruikt in cyberbeveiliging voor taken als scripting, automatisering en kwetsbaarheidsanalyse.
-- Link: [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- Link: [Python Institute](https://pythoninstitute.org/)
 
 ______
 
@@ -106,4 +106,4 @@ ______
 - [VMware Learning Zone](https://www.vmware.com/education-services/learning-zone.html)
 - [Code.org](https://studio.code.org/courses)
 - [Codecademy](https://www.codecademy.com/)
-- [Python Institute](https://pythoninstitute.org/free-python-courses/)
+- [Python Institute](https://pythoninstitute.org/)
