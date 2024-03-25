@@ -28,13 +28,13 @@ Jeśli chodzi o rozwiązania antywirusowe dla systemu Windows, istnieje wiele op
 
 #### Płatne
 
-- [Bitdefender - INTERNET SECURITY](bitdefender.f9tmep.net/VmN5Ka)
+- [Bitdefender - INTERNET SECURITY](https://bitdefender.f9tmep.net/VmN5Ka)
 - [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro)
 - [Avast Premium Security](https://amzn.to/2MA7jR2)
 
 #### Free
 
-- [Bitdefender - Antivirus Free Edition](bitdefender.f9tmep.net/1r7NMa)
+- [Bitdefender - Antivirus Free Edition](https://bitdefender.f9tmep.net/1r7NMa)
 - [Avira - Free Antivirus for Windows](https://www.avira.com/en/free-antivirus-windows)
 - [Avast - Free Antivirus](https://www.avast.com/en-us/index)
 - [Microsoft - Windows Defender](https://www.microsoft.com/en-us/windows/comprehensive-security)
@@ -77,7 +77,7 @@ Oto niektóre z najlepszych rozwiązań antywirusowych dla firm:
 
 #### Płatne
 
-- [Bitdefender - GravityZone Business Security](bitdefender.f9tmep.net/ZQNAzQ)
+- [Bitdefender - GravityZone Business Security](https://bitdefender.f9tmep.net/ZQNAzQ)
 
 - [Kaspersky - Endpoint Security for Business](https://www.kaspersky.com/small-to-medium-business-security/endpoint-security)
 

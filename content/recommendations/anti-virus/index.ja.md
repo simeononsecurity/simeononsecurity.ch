@@ -28,13 +28,13 @@ Windows用のアンチウイルスソリューションに関しては、多く�
 
 #### 有料
 
-- [Bitdefender - INTERNET SECURITY](bitdefender.f9tmep.net/VmN5Ka)
+- [Bitdefender - INTERNET SECURITY](https://bitdefender.f9tmep.net/VmN5Ka)
 - [Avira - Antivirus Pro](https://www.avira.com/en/antivirus-pro)
 - [Avast Premium Security](https://amzn.to/2MA7jR2)
 
 #### 無料
 
-- [Bitdefender - Antivirus Free Edition](bitdefender.f9tmep.net/1r7NMa)
+- [Bitdefender - Antivirus Free Edition](https://bitdefender.f9tmep.net/1r7NMa)
 - [Avira - Free Antivirus for Windows](https://www.avira.com/en/free-antivirus-windows)
 - [Avast - Free Antivirus](https://www.avast.com/en-us/index)
 - [Microsoft - Windows Defender](https://www.microsoft.com/en-us/windows/comprehensive-security)
@@ -77,7 +77,7 @@ Linuxと同様、MacOSはWindowsよりも安全なオペレーティング・シ
 
 #### 有料
 
-- [Bitdefender - GravityZone Business Security](bitdefender.f9tmep.net/ZQNAzQ)
+- [Bitdefender - GravityZone Business Security](https://bitdefender.f9tmep.net/ZQNAzQ)
 
 - [Kaspersky - Endpoint Security for Business](https://www.kaspersky.com/small-to-medium-business-security/endpoint-security)
 
