@@ -28,7 +28,7 @@ body.dark-theme {
   @font-face {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 450;
     font-display: swap;
     src: local('Inter Regular'),
       url("/assets/fonts/Inter-Regular.woff2") format("woff2"),
@@ -36,7 +36,7 @@ body.dark-theme {
   @font-face {
     font-family: "Inter";
     font-style: italic;
-    font-weight: 400;
+    font-weight: 450;
     font-display: swap;
     src: local('Inter Italic'),
       url("/assets/fonts/Inter-Italic.woff2") format("woff2"),
