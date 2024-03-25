@@ -179,7 +179,7 @@
 <meta itemprop="keywords" content="simeononsecurity, blog, {{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ $count := 0 }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ if lt $count 20 }}{{ printf "%s," $term }}{{ end }}{{ $count = add $count 1 }}{{ end }}{{ end }}{{ end }}" />
 {{- end }}
 
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}/sitemap.xml" />
 {{ with .OutputFormats.Get "RSS" }}
 {{ end }}
 
