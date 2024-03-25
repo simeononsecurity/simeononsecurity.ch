@@ -6,82 +6,97 @@ https://simeononsecurity.netlify.com/* https://simeononsecurity.com/:splat 301!
 /fr/* https://fr.simeononsecurity.com/:splat 308!
 https://fr.simeononsecurity.ch/* https://fr.simeononsecurity.com/:splat 308!
 http://fr.simeononsecurity.ch/* https://fr.simeononsecurity.com/:splat 308!
+fr.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Spanish
 /es/* https://es.simeononsecurity.com/:splat 308!
 https://es.simeononsecurity.ch/* https://es.simeononsecurity.com/:splat 308!
 http://es.simeononsecurity.ch/* https://es.simeononsecurity.com/:splat 308!
+es.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # German
 /de/* https://de.simeononsecurity.com/:splat 308!
 https://de.simeononsecurity.ch/* https://de.simeononsecurity.com/:splat 308!
 http://de.simeononsecurity.ch/* https://de.simeononsecurity.com/:splat 308!
+ge.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # BN
 /bn/* https://bn.simeononsecurity.com/:splat 308!
 https://bn.simeononsecurity.ch/* https://bn.simeononsecurity.com/:splat 308!
 http://bn.simeononsecurity.ch/* https://bn.simeononsecurity.com/:splat 308!
+bn.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # hindi
 /hi/* https://hi.simeononsecurity.com/:splat 308!
 https://hi.simeononsecurity.ch/* https://hi.simeononsecurity.com/:splat 308!
 http://hi.simeononsecurity.ch/* https://hi.simeononsecurity.com/:splat 308!
+hi.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Arabic
 /ar/* https://ar.simeononsecurity.com/:splat 308!
 https://ar.simeononsecurity.ch/* https://ar.simeononsecurity.com/:splat 308!
 http://ar.simeononsecurity.ch/* https://ar.simeononsecurity.com/:splat 308!
+ar.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Catalan
 /ca/* https://ca.simeononsecurity.com/:splat 308!
 https://ca.simeononsecurity.ch/* https://ca.simeononsecurity.com/:splat 308!
 http://ca.simeononsecurity.ch/* https://ca.simeononsecurity.com/:splat 308!
+ca.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Italian
 /it/* https://it.simeononsecurity.com/:splat 308!
 https://it.simeononsecurity.ch/* https://it.simeononsecurity.com/:splat 308!
 http://it.simeononsecurity.ch/* https://it.simeononsecurity.com/:splat 308!
+it.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Japanese
 /ja/* https://ja.simeononsecurity.com/:splat 308!
 https://ja.simeononsecurity.ch/* https://ja.simeononsecurity.com/:splat 308!
 http://ja.simeononsecurity.ch/* https://ja.simeononsecurity.com/:splat 308!
+ja.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Dutch
 /nl/* https://nl.simeononsecurity.com/:splat 308!
 https://nl.simeononsecurity.ch/* https://nl.simeononsecurity.com/:splat 308!
 http://nl.simeononsecurity.ch/* https://nl.simeononsecurity.com/:splat 308!
+nl.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Romanian
 /ro/* https://ro.simeononsecurity.com/:splat 308!
 https://ro.simeononsecurity.ch/* https://ro.simeononsecurity.com/:splat 308!
 http://ro.simeononsecurity.ch/* https://ro.simeononsecurity.com/:splat 308!
+ro.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Chinese
 /zh/* https://zh.simeononsecurity.com/:splat 308!
 https://zh.simeononsecurity.ch/* https://zh.simeononsecurity.com/:splat 308!
 http://zh.simeononsecurity.ch/* https://zh.simeononsecurity.com/:splat 308!
+zh.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Punjabi
 /pa/* https://pa.simeononsecurity.com/:splat 308!
 https://pa.simeononsecurity.ch/* https://pa.simeononsecurity.com/:splat 308!
 http://pa.simeononsecurity.ch/* https://pa.simeononsecurity.com/:splat 308!
+pa.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Portuguese
 /pt/* https://pt.simeononsecurity.com/:splat 308!
 https://pt.simeononsecurity.ch/* https://pt.simeononsecurity.com/:splat 308!
 http://pt.simeononsecurity.ch/* https://pt.simeononsecurity.com/:splat 308!
+pt.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Russian
 /ru/* https://ru.simeononsecurity.com/:splat 308!
 https://ru.simeononsecurity.ch/* https://ru.simeononsecurity.com/:splat 308!
 http://ru.simeononsecurity.ch/* https://ru.simeononsecurity.com/:splat 308!
+ru.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # PL
 /pl/* https://pl.simeononsecurity.com/:splat 308!
 https://pl.simeononsecurity.ch/* https://pl.simeononsecurity.com/:splat 308!
 http://pl.simeononsecurity.ch/* https://pl.simeononsecurity.com/:splat 308!
-
+pl.simeononsecurity.ch/contactus/ https://simeononsecurity.com/contactus/ 308!
 
 # Other:
 # Redirect domain aliases to primary domain
@@ -108,7 +123,25 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 /carousel https://simeononsecurity.com/carousel 301
 /carousel/ https://simeononsecurity.com/carousel/ 301
 /downloads https://simeononsecurity.com/downloads 301
-/carousel/ https://simeononsecurity.com/downloads/ 301
+/downloads/ https://simeononsecurity.com/downloads/ 301
+/checklists https://simeononsecurity.com/downloads 301
+/checklists/ https://simeononsecurity.com/downloads/ 301
+/a-plus-practice-test https://simeononsecurity.com/a-plus-practice-test 301
+/a-plus-practice-test https://simeononsecurity.com/a-plus-practice-test/ 301
+/network-plus-practice-test https://simeononsecurity.com/network-plus-practice-test 301
+/network-plus-practice-test/ https://simeononsecurity.com/network-plus-practice-test/ 301
+/security-plus-practice-test https://simeononsecurity.com/security-plus-practice-test 301
+/security-plus-practice-test/ https://simeononsecurity.com/security-plus-practice-test/ 301
+/linux-plus-practice-test https://simeononsecurity.com/linux-plus-practice-test 301
+/linux-plus-practice-test/ https://simeononsecurity.com/linux-plus-practice-test/ 301
+/ccna-practice-test https://simeononsecurity.com/ccna-practice-test 301
+/ccna-practice-test/ https://simeononsecurity.com/ccna-practice-test/ 301
+/quiz https://simeononsecurity.com/quiz 301
+/quiz/ https://simeononsecurity.com/quiz/ 301
+/ceh-practice-test https://simeononsecurity.com/ceh-practice-test 301
+/ceh-practice-test/ https://simeononsecurity.com/ceh-practice-test/ 301
+/cissp-practice-test https://simeononsecurity.com/cissp-practice-test 301
+/cissp-practice-test/ https://simeononsecurity.com/cissp-practice-test/ 301
 
 # Well known work around
 /.well_known/*  /well_known/:splat 200!
