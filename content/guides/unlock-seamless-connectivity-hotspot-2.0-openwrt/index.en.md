@@ -1047,7 +1047,7 @@ Implementing Hotspot 2.0 on OpenWRT provides a robust solution for enhancing Wi-
 - [ISO639-2 Language Codes](http://www.loc.gov/standards/iso639-2/php/code_list.php)
 - [Infographic - Wi-Fi CERTIFIED Passpoint®](https://www.wi-fi.org/file/infographic-wi-fi-certified-passpoint)
 - [MikroTik - Configuration guide using native RadSec and Orion Wifi](https://help.mikrotik.com/docs/display/ROS/Interworking+Profiles#InterworkingProfiles-ConfigurationguideusingnativeRadSecandOrionWifi:)
-- [Mobile Country Code (MCC) and Mobile Network Code (MNC)](https://www.itu.int/en/ITU-T/inr/nnp/Pages/mcc-mnc.aspx)
+- [Mobile Country Code (MCC) and Mobile Network Code (MNC)](https://mcc-mnc.com/)
 - [Mobile Country Codes (MCC) and Mobile Network Codes (MNC)](https://www.mcc-mnc.com/)
 - [OpenWRT Documentation](https://openwrt.org/)
 - [OpenWrt - Passpoint configuration](https://www.ironwifi.com/help/openwrt-passpoint)

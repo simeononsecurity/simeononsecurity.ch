@@ -294,7 +294,7 @@ ______
 ## References
 
 1. [Duino-coin GitHub Repository](https://github.com/revoxhere/duino-coin)
-2. [Duinocoin Documentation](https://github.com/revoxhere/duino-coin/blob/master/ESP8266/README.md)
+2. [Duinocoin Documentation](https://github.com/revoxhere/duino-coin)
 3. [Hashrate.org](https://hashrate.org/)
 4. [Duinocoin Wallet](https://wallet.duinocoin.com/)
 5. [Duino Whitepaper](https://github.com/revoxhere/duino-coin/blob/gh-pages/assets/whitepaper.pdf)
