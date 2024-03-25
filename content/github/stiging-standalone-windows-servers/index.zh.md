@@ -15,7 +15,7 @@ date: 2020-09-09
 ＃＃ 介绍：
 
 Windows 10 是开箱即用的不安全操作系统，需要进行许多更改才能确保[FISMA](https://www.cisa.gov/federal-information-security-modernization-act) 遵守。
-组织喜欢[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) 建议并要求更改配置以锁定、强化和保护操作系统并确保政府合规。这些更改涵盖了广泛的缓解措施，包括阻止遥测、宏、删除过时软件以及防止对系统的许多物理攻击。
+组织喜欢[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) 建议并要求更改配置以锁定、强化和保护操作系统并确保政府合规。这些更改涵盖了广泛的缓解措施，包括阻止遥测、宏、删除过时软件以及防止对系统的许多物理攻击。
 
 独立系统是最难保护的系统之一。如果不是自动化的，它们需要手动更改每个 STIG/SRG。在典型部署中总共进行了 1000 多次配置更改，每次更改平均需要 5 分钟，相当于 3.5 天的工作量。该脚本旨在显着加快该过程。
 

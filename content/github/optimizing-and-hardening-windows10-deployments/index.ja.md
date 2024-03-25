@@ -10,7 +10,7 @@ Windows 10 のデプロイメントをハード化し、デブロートする**�
 
 ## はじめに
 Windows 10は、箱から出した状態では侵略的で安全でないオペレーティングシステムです。
-以下のような組織があります。 [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/)は、オペレーティングシステムをロックダウンし、強化し、保護するための設定変更を推奨しています。これらの変更は、テレメトリー、マクロのブロック、ブロートウェアの削除、システムに対する多くのデジタルおよび物理的な攻撃の防止など、幅広い緩和策をカバーしています。このスクリプトは、これらの組織が推奨する設定を自動化することを目的としています。
+以下のような組織があります。 [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/)は、オペレーティングシステムをロックダウンし、強化し、保護するための設定変更を推奨しています。これらの変更は、テレメトリー、マクロのブロック、ブロートウェアの削除、システムに対する多くのデジタルおよび物理的な攻撃の防止など、幅広い緩和策をカバーしています。このスクリプトは、これらの組織が推奨する設定を自動化することを目的としています。
 
 ## 注意事項
 - このスクリプトは、主に**Personal Use**環境での運用を想定して設計されています。このことを念頭に置いて、特定の企業向け構成設定は実装されていません。このスクリプトは、システムを100％準拠させるために設計されたものではありません。むしろ、スクリプトで変更可能な設定のほとんど（すべてではないにしても）を完了するための足がかりとして使用されるべきで、ブランディングやバナーなどの問題は、たとえハードなパーソナルユース環境であっても実装されるべきでないため、スキップされます。

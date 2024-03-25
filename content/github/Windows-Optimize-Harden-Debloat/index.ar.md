@@ -9,7 +9,7 @@ tags: ["تحسين Windows", "تصلب النوافذ", "الويندوز الم
  مقدمة:
 
 يعتبر نظاما التشغيل Windows 10 و Windows 11 نظام تشغيل غير آمن وغير آمن.
-منظمات مثل[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) تغييرات التكوين الموصى بها لإغلاق نظام التشغيل وتقويته وتأمينه. تغطي هذه التغييرات مجموعة واسعة من وسائل التخفيف بما في ذلك حظر القياس عن بعد ووحدات الماكرو وإزالة bloatware ومنع العديد من الهجمات الرقمية والمادية على النظام. يهدف هذا البرنامج النصي إلى أتمتة التكوينات الموصى بها من قبل تلك المؤسسات.
+منظمات مثل[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) تغييرات التكوين الموصى بها لإغلاق نظام التشغيل وتقويته وتأمينه. تغطي هذه التغييرات مجموعة واسعة من وسائل التخفيف بما في ذلك حظر القياس عن بعد ووحدات الماكرو وإزالة bloatware ومنع العديد من الهجمات الرقمية والمادية على النظام. يهدف هذا البرنامج النصي إلى أتمتة التكوينات الموصى بها من قبل تلك المؤسسات.
 
 ## ملاحظات وتحذيرات واعتبارات:
 

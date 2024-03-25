@@ -9,7 +9,7 @@ tags: ["Optimisation Windows", "Durcissement de Windows", "Dégonflement de Wind
  Introduction:
 
 Windows 10 et Windows 11 sont des systèmes d'exploitation invasifs et non sécurisés prêts à l'emploi.
-Des organisations comme[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) ont recommandé des changements de configuration pour verrouiller, renforcer et sécuriser le système d'exploitation. Ces modifications couvrent un large éventail de mesures d'atténuation, notamment le blocage de la télémétrie, des macros, la suppression des bloatwares et la prévention de nombreuses attaques numériques et physiques sur un système. Ce script vise à automatiser les configurations recommandées par ces organisations.
+Des organisations comme[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) ont recommandé des changements de configuration pour verrouiller, renforcer et sécuriser le système d'exploitation. Ces modifications couvrent un large éventail de mesures d'atténuation, notamment le blocage de la télémétrie, des macros, la suppression des bloatwares et la prévention de nombreuses attaques numériques et physiques sur un système. Ce script vise à automatiser les configurations recommandées par ces organisations.
 
 ## Remarques, avertissements et considérations :
 

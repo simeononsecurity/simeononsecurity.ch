@@ -9,7 +9,7 @@ tags: ["Optymalizacja systemu Windows", "Hartowanie systemu Windows", "Usuwanie 
  Wprowadzenie:
 
 Windows 10 i Windows 11 to inwazyjny i niezabezpieczony system operacyjny po wyjęciu z pudełka.
-Organizacje takie jak np.[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) zalecają zmiany w konfiguracji, aby zablokować, utwardzić i zabezpieczyć system operacyjny. Zmiany te obejmują szeroki zakres zabezpieczeń, w tym blokowanie telemetrii, makr, usuwanie bloatware'u oraz zapobieganie wielu cyfrowym i fizycznym atakom na system. Ten skrypt ma na celu zautomatyzowanie konfiguracji zalecanych przez te organizacje.
+Organizacje takie jak np.[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) zalecają zmiany w konfiguracji, aby zablokować, utwardzić i zabezpieczyć system operacyjny. Zmiany te obejmują szeroki zakres zabezpieczeń, w tym blokowanie telemetrii, makr, usuwanie bloatware'u oraz zapobieganie wielu cyfrowym i fizycznym atakom na system. Ten skrypt ma na celu zautomatyzowanie konfiguracji zalecanych przez te organizacje.
 
 ## Uwagi, ostrzeżenia i rozważania:
 

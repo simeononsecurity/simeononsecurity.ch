@@ -9,7 +9,7 @@ tags: ["Optimizare Windows", "Întărirea ferestrelor", "Windows se deblochează
  Introducere:
 
 Windows 10 și Windows 11 sunt sisteme de operare invazive și nesigure din cutie.
-Organizații ca[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) au recomandat modificări de configurare pentru blocarea, consolidarea și securizarea sistemului de operare. Aceste modificări acoperă o gamă largă de atenuări, inclusiv blocarea telemetriei, macrocomenzi, eliminarea bloatware-ului și prevenirea multor atacuri digitale și fizice asupra unui sistem. Acest script are ca scop automatizarea configurațiilor recomandate de acele organizații.
+Organizații ca[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) au recomandat modificări de configurare pentru blocarea, consolidarea și securizarea sistemului de operare. Aceste modificări acoperă o gamă largă de atenuări, inclusiv blocarea telemetriei, macrocomenzi, eliminarea bloatware-ului și prevenirea multor atacuri digitale și fizice asupra unui sistem. Acest script are ca scop automatizarea configurațiilor recomandate de acele organizații.
 
 ## Note, avertismente și considerații:
 

@@ -9,7 +9,7 @@ tags: ["Windowsの最適化", "Windowsの強化", "Windows の膨張", "Windows�
  序章：
 
 Windows 10 および Windows 11 は、そのままでは侵略的で安全ではないオペレーティング システムです。
-のような組織[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) オペレーティング システムをロックダウン、強化、セキュリティ保護するための構成変更を推奨しています。これらの変更は、テレメトリ、マクロのブロック、ブロートウェアの削除、システムに対する多くのデジタル攻撃や物理攻撃の防止など、幅広い緩和策をカバーしています。このスクリプトは、これらの組織が推奨する構成を自動化することを目的としています。
+のような組織[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) オペレーティング システムをロックダウン、強化、セキュリティ保護するための構成変更を推奨しています。これらの変更は、テレメトリ、マクロのブロック、ブロートウェアの削除、システムに対する多くのデジタル攻撃や物理攻撃の防止など、幅広い緩和策をカバーしています。このスクリプトは、これらの組織が推奨する構成を自動化することを目的としています。
 
 ## 注、警告、および考慮事項:
 

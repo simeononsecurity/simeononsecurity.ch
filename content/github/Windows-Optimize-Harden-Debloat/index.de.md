@@ -9,7 +9,7 @@ tags: ["Windows-Optimierung", "Windows-Härtung", "Windows debloiert", "Windows-
  Einführung:
 
 Windows 10 und Windows 11 sind standardmäßig invasive und unsichere Betriebssysteme.
-Organisationen mögen[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) Wir haben Konfigurationsänderungen empfohlen, um das Betriebssystem zu sperren, zu härten und zu sichern. Diese Änderungen decken ein breites Spektrum an Abhilfemaßnahmen ab, darunter das Blockieren von Telemetriedaten und Makros, das Entfernen von Bloatware und das Verhindern zahlreicher digitaler und physischer Angriffe auf ein System. Dieses Skript zielt darauf ab, die von diesen Organisationen empfohlenen Konfigurationen zu automatisieren.
+Organisationen mögen[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) Wir haben Konfigurationsänderungen empfohlen, um das Betriebssystem zu sperren, zu härten und zu sichern. Diese Änderungen decken ein breites Spektrum an Abhilfemaßnahmen ab, darunter das Blockieren von Telemetriedaten und Makros, das Entfernen von Bloatware und das Verhindern zahlreicher digitaler und physischer Angriffe auf ein System. Dieses Skript zielt darauf ab, die von diesen Organisationen empfohlenen Konfigurationen zu automatisieren.
 
 ## Hinweise, Warnungen und Überlegungen:
 

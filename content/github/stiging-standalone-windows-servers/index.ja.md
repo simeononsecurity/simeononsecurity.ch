@@ -15,7 +15,7 @@ date: 2020-09-09
 ＃＃ 序章：
 
 Windows 10 は、そのままでは安全ではないオペレーティング システムであり、安全性を確保するには多くの変更が必要です。[FISMA](https://www.cisa.gov/federal-information-security-modernization-act) コンプライアンス。
-のような組織[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) オペレーティング システムをロックダウン、強化、保護し、政府のコンプライアンスを確保するために、構成変更を推奨および要求しています。これらの変更は、テレメトリ、マクロのブロック、ブロートウェアの削除、システムに対する多くの物理攻撃の防止など、幅広い緩和策をカバーしています。
+のような組織[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) オペレーティング システムをロックダウン、強化、保護し、政府のコンプライアンスを確保するために、構成変更を推奨および要求しています。これらの変更は、テレメトリ、マクロのブロック、ブロートウェアの削除、システムに対する多くの物理攻撃の防止など、幅広い緩和策をカバーしています。
 
 スタンドアロン システムは、セキュリティを確保するのが最も困難で面倒なシステムの 1 つです。自動化されていない場合は、各 STIG/SRG を手動で変更する必要があります。一般的な展開では合計 1,000 件を超える構成変更があり、変更ごとに平均 5 分、つまり 3.5 日分の作業に相当します。このスクリプトは、そのプロセスを大幅に高速化することを目的としています。
 

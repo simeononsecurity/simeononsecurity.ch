@@ -9,7 +9,7 @@ tags: ["视窗优化", "Windows强化", "Windows 去肿", "Windows 安全", "Win
  介绍：
 
 Windows 10 和 Windows 11 是开箱即用的侵入性和不安全的操作系统。
-组织喜欢[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) 已建议更改配置以锁定、强化和保护操作系统。这些更改涵盖了广泛的缓解措施，包括阻止遥测、宏、删除过时软件以及防止对系统的许多数字和物理攻击。该脚本旨在自动化这些组织推荐的配置。
+组织喜欢[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) 已建议更改配置以锁定、强化和保护操作系统。这些更改涵盖了广泛的缓解措施，包括阻止遥测、宏、删除过时软件以及防止对系统的许多数字和物理攻击。该脚本旨在自动化这些组织推荐的配置。
 
 ## 注意、警告和注意事项：
 

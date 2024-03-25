@@ -15,7 +15,7 @@ Obecnie oferujemy kolekcję playbooków dla tego skryptu. Proszę zapoznać się
 ## Wprowadzenie:
 
 Windows 10 jest niezabezpieczonym systemem operacyjnym po wyjęciu z pudełka i wymaga wielu zmian, aby ubezpieczyć[FISMA](https://www.cisa.gov/federal-information-security-modernization-act) zgodność.
-Organizacje takie jak[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) mają zalecane i wymagane zmiany w konfiguracji w celu zablokowania, utwardzenia i zabezpieczenia systemu operacyjnego oraz zapewnienia zgodności z przepisami rządowymi. Zmiany te obejmują szeroki zakres środków zaradczych, w tym blokowanie telemetrii, makr, usuwanie bloatware i zapobieganie wielu fizycznym atakom na system.
+Organizacje takie jak[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) mają zalecane i wymagane zmiany w konfiguracji w celu zablokowania, utwardzenia i zabezpieczenia systemu operacyjnego oraz zapewnienia zgodności z przepisami rządowymi. Zmiany te obejmują szeroki zakres środków zaradczych, w tym blokowanie telemetrii, makr, usuwanie bloatware i zapobieganie wielu fizycznym atakom na system.
 
 Systemy autonomiczne są jednymi z najtrudniejszych i najbardziej irytujących systemów do zabezpieczenia. Jeśli nie są zautomatyzowane, wymagają ręcznych zmian w każdym STIG/SRG. W sumie ponad 1000 zmian konfiguracji w typowym wdrożeniu i średnio 5 minut na zmianę, co równa się 3,5 dnia pracy. Ten skrypt ma na celu znaczne przyspieszenie tego procesu.
 

@@ -10,7 +10,7 @@ date: 2020-07-22
 
 ## 简介：
 开箱即用的 Windows 10 是一款具有入侵性且不安全的操作系统。
-像 [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/)建议更改配置以锁定、加固和保护操作系统。这些更改涵盖了广泛的缓解措施，包括阻止遥测、宏、删除臃肿软件，以及防止对系统的许多数字和物理攻击。本脚本旨在自动执行这些组织推荐的配置。
+像 [PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/)建议更改配置以锁定、加固和保护操作系统。这些更改涵盖了广泛的缓解措施，包括阻止遥测、宏、删除臃肿软件，以及防止对系统的许多数字和物理攻击。本脚本旨在自动执行这些组织推荐的配置。
 
 ## 注意：
 - 本脚本主要针对**个人使用**环境而设计。考虑到这一点，某些企业配置设置并未实施。本脚本并非用于使系统达到 100% 合规性。相反，它应被用作完成大多数（如果不是全部的话）配置更改的垫脚石，同时跳过品牌和横幅等问题，因为即使在加固的个人使用环境中，也不应实施这些配置更改。

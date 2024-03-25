@@ -9,7 +9,7 @@ tags: ["optimización de Windows", "Endurecimiento de ventanas", "Deshinchamient
  Introducción:
 
 Windows 10 y Windows 11 son sistemas operativos invasivos e inseguros listos para usar.
-Organizaciones como[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) tienen cambios de configuración recomendados para bloquear, fortalecer y proteger el sistema operativo. Estos cambios cubren una amplia gama de mitigaciones, incluido el bloqueo de telemetría, macros, la eliminación de bloatware y la prevención de muchos ataques digitales y físicos en un sistema. Este script tiene como objetivo automatizar las configuraciones recomendadas por esas organizaciones.
+Organizaciones como[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) tienen cambios de configuración recomendados para bloquear, fortalecer y proteger el sistema operativo. Estos cambios cubren una amplia gama de mitigaciones, incluido el bloqueo de telemetría, macros, la eliminación de bloatware y la prevención de muchos ataques digitales y físicos en un sistema. Este script tiene como objetivo automatizar las configuraciones recomendadas por esas organizaciones.
 
 ## Notas, advertencias y consideraciones:
 

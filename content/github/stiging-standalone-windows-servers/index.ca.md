@@ -15,7 +15,7 @@ Ara oferim una col·lecció de llibres de jocs per a aquest guió. Si us plau, c
 ## Introducció:
 
 Windows 10 és un sistema operatiu insegur des de la caixa i requereix molts canvis per assegurar-lo[FISMA](https://www.cisa.gov/federal-information-security-modernization-act) compliment.
-Organitzacions com[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) han recomanat i requerit canvis de configuració per bloquejar, endurir i assegurar el sistema operatiu i garantir el compliment del govern. Aquests canvis cobreixen una àmplia gamma de mitigacions, com ara el bloqueig de la telemetria, les macros, l'eliminació de bloatware i la prevenció de molts atacs físics a un sistema.
+Organitzacions com[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) han recomanat i requerit canvis de configuració per bloquejar, endurir i assegurar el sistema operatiu i garantir el compliment del govern. Aquests canvis cobreixen una àmplia gamma de mitigacions, com ara el bloqueig de la telemetria, les macros, l'eliminació de bloatware i la prevenció de molts atacs físics a un sistema.
 
 Els sistemes autònoms són alguns dels sistemes més difícils i molestos de protegir. Quan no estan automatitzats, requereixen canvis manuals de cada STIG/SRG. En total, més de 1.000 canvis de configuració en una implementació típica i una mitjana de 5 minuts per canvi equivalent a 3,5 dies de treball. Aquest script pretén accelerar aquest procés de manera significativa.
 

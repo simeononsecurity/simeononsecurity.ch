@@ -9,7 +9,7 @@ tags: ["Windows optimalisatie", "Ramen verharden", "Windows debloating", "Window
  Inleiding:
 
 Windows 10 en Windows 11 zijn invasieve en onveilige besturingssystemen uit de doos.
-Organisaties zoals[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) hebben configuratiewijzigingen aanbevolen om het besturingssysteem te vergrendelen, te verharden en te beveiligen. Deze veranderingen bestrijken een breed scala aan mitigaties, waaronder het blokkeren van telemetrie, macro's, het verwijderen van bloatware, en het voorkomen van vele digitale en fysieke aanvallen op een systeem. Dit script is bedoeld om de door die organisaties aanbevolen configuraties te automatiseren.
+Organisaties zoals[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) hebben configuratiewijzigingen aanbevolen om het besturingssysteem te vergrendelen, te verharden en te beveiligen. Deze veranderingen bestrijken een breed scala aan mitigaties, waaronder het blokkeren van telemetrie, macro's, het verwijderen van bloatware, en het voorkomen van vele digitale en fysieke aanvallen op een systeem. Dit script is bedoeld om de door die organisaties aanbevolen configuraties te automatiseren.
 
 ## Opmerkingen, waarschuwingen en overwegingen:
 

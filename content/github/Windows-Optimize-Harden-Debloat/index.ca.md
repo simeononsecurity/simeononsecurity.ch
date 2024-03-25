@@ -9,7 +9,7 @@ tags: ["Optimització de Windows", "Enduriment de finestres", "Windows desinflat
  Introducció:
 
 Windows 10 i Windows 11 són sistemes operatius invasius i insegurs des de la caixa.
-Organitzacions com[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) han recomanat canvis de configuració per bloquejar, endurir i protegir el sistema operatiu. Aquests canvis cobreixen una àmplia gamma de mitigacions, com ara el bloqueig de la telemetria, les macros, l'eliminació de bloatware i la prevenció de molts atacs digitals i físics a un sistema. Aquest script pretén automatitzar les configuracions recomanades per aquestes organitzacions.
+Organitzacions com[PrivacyTools.io](https://PrivacyTools.io), [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) han recomanat canvis de configuració per bloquejar, endurir i protegir el sistema operatiu. Aquests canvis cobreixen una àmplia gamma de mitigacions, com ara el bloqueig de la telemetria, les macros, l'eliminació de bloatware i la prevenció de molts atacs digitals i físics a un sistema. Aquest script pretén automatitzar les configuracions recomanades per aquestes organitzacions.
 
 ## Notes, advertències i consideracions:
 

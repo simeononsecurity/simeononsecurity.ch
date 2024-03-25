@@ -15,7 +15,7 @@ Agora oferecemos uma coleção de manuais para este script. Consulte o seguinte:
 ## Introdução:
 
 O Windows 10 é um sistema operacional inseguro pronto para uso e requer muitas alterações para garantir[FISMA](https://www.cisa.gov/federal-information-security-modernization-act) conformidade.
-Organizações como[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) recomendaram e exigiram alterações de configuração para bloquear, fortalecer e proteger o sistema operacional e garantir a conformidade do governo. Essas alterações abrangem uma ampla gama de mitigações, incluindo bloqueio de telemetria, macros, remoção de bloatware e prevenção de muitos ataques físicos em um sistema.
+Organizações como[Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) recomendaram e exigiram alterações de configuração para bloquear, fortalecer e proteger o sistema operacional e garantir a conformidade do governo. Essas alterações abrangem uma ampla gama de mitigações, incluindo bloqueio de telemetria, macros, remoção de bloatware e prevenção de muitos ataques físicos em um sistema.
 
 Os sistemas autônomos são alguns dos sistemas mais difíceis e irritantes de proteger. Quando não automatizados, requerem alterações manuais de cada STIG/SRG. Totalizando mais de 1.000 alterações de configuração em uma implantação típica e uma média de 5 minutos por alteração, o que equivale a 3,5 dias de trabalho. Este script visa acelerar significativamente esse processo.
 

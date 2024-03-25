@@ -15,7 +15,7 @@ Ahora ofrecemos una colección de playbooks para este script. Consulte lo siguie
 ## Introducción:
 
 Windows 10 es inseguro sistema operativo fuera de la caja y requiere muchos cambios para asegurar [FISMA](https://www.cisa.gov/federal-information-security-modernization-act) cumplimiento.
-Organizaciones como [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://dod.gov), and the [National Security Agency](https://www.nsa.gov/) han recomendado y exigido cambios de configuración para bloquear, endurecer y asegurar el sistema operativo y garantizar el cumplimiento de la normativa gubernamental. Estos cambios abarcan una amplia gama de mitigaciones, como el bloqueo de la telemetría, las macros, la eliminación del bloatware y la prevención de muchos ataques físicos a un sistema.
+Organizaciones como [Microsoft](https://microsoft.com), [Cyber.mil](https://public.cyber.mil), the [Department of Defense](https://www.defense.gov/), and the [National Security Agency](https://www.nsa.gov/) han recomendado y exigido cambios de configuración para bloquear, endurecer y asegurar el sistema operativo y garantizar el cumplimiento de la normativa gubernamental. Estos cambios abarcan una amplia gama de mitigaciones, como el bloqueo de la telemetría, las macros, la eliminación del bloatware y la prevención de muchos ataques físicos a un sistema.
 
 Los sistemas autónomos son algunos de los más difíciles y molestos de proteger. Cuando no están automatizados, requieren cambios manuales de cada STIG/SRG. Un total de más de 1000 cambios de configuración en un despliegue típico y una media de 5 minutos por cambio equivalen a 3,5 días de trabajo. Este script pretende acelerar ese proceso significativamente.
 
