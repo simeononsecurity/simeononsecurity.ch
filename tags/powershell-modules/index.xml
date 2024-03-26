@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell-modules on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/powershell-modules//img/banner.png</url><title>PowerShell-modules on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/powershell-modules/</link></image><link>https://nl.simeononsecurity.com/tags/powershell-modules/</link><description>Recent content in PowerShell-modules on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/powershell-modules/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell Scripting: Een stap-voor-stap handleiding voor beginners om taken te automatiseren</title><link>https://nl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technologie"
+, "Programmeren"
+, "Automatisering"
+, "Windows"
+, "Scripting"
+, "IT"
+, "Administratieve taken"
+, "Computerbeheer"
+, "Software Ontwikkeling"
+, "Codering"</category><guid>https://nl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer de basis van PowerShell scripting en automatiseer taken met deze stap-voor-stap handleiding voor beginners, waarin cmdlets, loops, functies en meer aan bod komen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Vandaag heb ik meer Powershell en Ansible modules geleerd</title><link>https://nl.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "PowerShell"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity over geleerd en interessant gevonden vandaag**
+SimeonOnSecurity leerde over Windows STIG Ansible en werkte gerelateerde repo&amp;rsquo;s bij. Bestudeerde ook verschillende Microsoft en Ansible bronnen met betrekking tot powershell, remoting, en het uitvoeren van shell/powershell commando&amp;rsquo;s op Windows met behulp van modules zoals invoke-command, start-process, win_powershell, win_shell, psexec, en win_psexec.
+Nieuwe/bijgewerkte repo&amp;rsquo;s: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Leerbronnen: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.</description></item><item><title>Efficiënte virusscans met VirusTotal PowerShell-modules</title><link>https://nl.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"PowerShell modules"
+, "PowerShell"
+, "Automatisering"
+, "VirusTotal"
+, "Virusscans"
+, "Domeinscans"
+, "API sleutel"
+, "VirusTotal API"
+, "VirusTotal Ontwikkelaars Pagina"
+, "Systeembeheer"
+, "Beveiligingsworkflow"
+, "Efficiënte virusscans"
+, "Downloaden en installeren"
+, "GitHub archief"
+, "Voorbeelden van API-gebruik"</category><guid>https://nl.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Voer efficiënte virusscans uit met de VirusTotal PowerShell-modules door de interactie met de VirusTotal API te automatiseren en uw beveiligingsworkflow te stroomlijnen.</description></item></channel></rss>
