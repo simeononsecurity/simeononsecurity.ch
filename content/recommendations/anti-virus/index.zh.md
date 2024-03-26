@@ -79,7 +79,7 @@ tags: ["推荐的反病毒软件", "AV", "防病毒", "防病毒", "SimeonOnSecu
 
 - [Bitdefender - GravityZone Business Security](https://bitdefender.f9tmep.net/ZQNAzQ)
 
-- [Kaspersky - Endpoint Security for Business](https://www.kaspersky.com/small-to-medium-business-security/endpoint-security)
+- [Kaspersky - Endpoint Security for Business](https://usa.kaspersky.com/enterprise-security/endpoint)
 
 - [McAfee - Total Protection for Endpoint](https://www.mcafee.com/enterprise/en-us/products/total-protection-for-endpoint.html)
 
