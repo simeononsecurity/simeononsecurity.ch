@@ -1,0 +1,308 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PowerShell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/powershell//img/banner.png</url>
+      <title>PowerShell on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/powershell/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/powershell/</link>
+
+    <description>Recent content in PowerShell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Active Directory Administration with PowerShell: Руководство по установке и использованию</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows"
+            
+              , "PowerShell"
+            
+              , "Active Directory"
+            
+              , "Администрация"
+            
+              , "Скриптинг"
+            
+              , "IT"
+            
+              , "Автоматизация"
+            
+              , "Windows Server"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как эффективно установить и использовать модуль Active Directory для PowerShell, чтобы упростить задачи администрирования Windows Active Directory.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал больше о создании и реализации политики WDAC</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Безопасность Windows"
+            
+              , "Управление приложениями"
+            
+              , "Защитник Windows"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Защита от угроз"
+            
+              , "Windows Server 2019"
+            
+              , "Безопасность предприятия"
+            
+              , "Управление политикой"
+            
+              , "Лучшие практики безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал больше об условных сигналах Ansible и управлении переменными
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я изучил больше модулей Powershell и Ansible</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-03/</link>
+        
+        <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "PowerShell"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-03/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity узнал об этом и нашел интересным сегодня**.
+SimeonOnSecurity узнал о Windows STIG Ansible и обновил соответствующие репозитории. Также были изучены различные ресурсы Microsoft и Ansible, связанные с powershell, remoting и выполнением команд shell/powershell в Windows с помощью таких модулей, как invoke-command, start-process, win_powershell, win_shell, psexec и win_psexec.
+Новые/обновленные репозитории: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Учебные ресурсы: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал о Auditpol, Sysmon и конфигурациях Sysmon</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2021-05-11/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Sysmon"
+            
+              , "Конфигурации"
+            
+              , "Безопасность Windows"
+            
+              , "Мониторинг событий"
+            
+              , "Администрирование Windows"
+            
+              , "Аудит безопасности"
+            
+              , "Охота за угрозами"
+            
+              , "Анализ вредоносного ПО"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2021-05-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Что интересного узнал и нашел сегодня SimeonOnSecurity.
+Сегодня SimeonOnSecurity узнал и обнаружил несколько интересных вещей, связанных с безопасностью Windows и мониторингом событий.
+Во-первых, были обнаружены два новых и обновленных репозитория. Репозиторий Automate-Sysmon предоставляет решение для автоматизации установки, настройки и управления Sysmon, популярным инструментом для мониторинга и протоколирования системной активности в системах Windows. Репозиторий Windows-Audit-Policy предназначен для автоматизации настройки политик аудита Windows, которые управляют аудитом различных событий, связанных с безопасностью, в системах Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

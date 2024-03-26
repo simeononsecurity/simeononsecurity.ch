@@ -1,0 +1,172 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Решения по автоматизации ИТ on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8%D1%82//img/banner.png</url>
+      <title>Решения по автоматизации ИТ on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8%D1%82/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8%D1%82/</link>
+
+    <description>Recent content in Решения по автоматизации ИТ on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я изучил больше модулей Powershell и Ansible</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-03/</link>
+        
+        <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "PowerShell"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-03/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity узнал об этом и нашел интересным сегодня**.
+SimeonOnSecurity узнал о Windows STIG Ansible и обновил соответствующие репозитории. Также были изучены различные ресурсы Microsoft и Ansible, связанные с powershell, remoting и выполнением команд shell/powershell в Windows с помощью таких модулей, как invoke-command, start-process, win_powershell, win_shell, psexec и win_psexec.
+Новые/обновленные репозитории: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Учебные ресурсы: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Today I Learned about Ansible and Block/Rescue Modules</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-02/</link>
+        
+        <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "Соответствие требованиям безопасности"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-02/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity узнал об этом и нашел интересным сегодня**.
+Сегодня SimeonOnSecurity узнал и обнаружил несколько интересных вещей, связанных с безопасностью Windows и автоматизацией с помощью Ansible.
+Во-первых, были обнаружены два новых и обновленных репозитория. Репозиторий Windows_STIG_Ansible представляет собой комплексное решение для настройки Windows-систем на соответствие требованиям Security Technical Implementation Guide (STIG) с использованием платформы автоматизации Ansible. Репозиторий windows_stigs представляет собой набор ролей Ansible для настройки Windows-систем на соответствие требованиям STIG и доступен на Ansible Galaxy, центральном хранилище для обмена содержимым Ansible.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,431 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Плейбуки Ansible on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BB%D0%B5%D0%B9%D0%B1%D1%83%D0%BA%D0%B8-ansible//img/banner.png</url>
+      <title>Плейбуки Ansible on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BB%D0%B5%D0%B9%D0%B1%D1%83%D0%BA%D0%B8-ansible/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BB%D0%B5%D0%B9%D0%B1%D1%83%D0%BA%D0%B8-ansible/</link>
+
+    <description>Recent content in Плейбуки Ansible on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BB%D0%B5%D0%B9%D0%B1%D1%83%D0%BA%D0%B8-ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в Ansible: Автоматизация управления ИТ-инфраструктурой</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Провизионирование"
+            
+              , "Непрерывная поставка"
+            
+              , "Соблюдение требований безопасности"
+            
+              , "Оркестровка"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Передовые методы работы с Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Средство автоматизации ИТ-инфраструктуры"
+            
+              , "Учебное пособие по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы Ansible, инструмента автоматизации с открытым исходным кодом, который упрощает управление ИТ-инфраструктурой с помощью декларативного языка.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация соблюдения требований безопасности с помощью сценариев STIG</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Сценарии СТИГ"
+            
+              , "соблюдение требований безопасности"
+            
+              , "автоматизация"
+            
+              , "Windows"
+            
+              , "приложения"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Плейбуки Ansible"
+            
+              , "подготовка домена"
+            
+              , "Защитник Windows"
+            
+              , "кибербезопасность"
+            
+              , "скриптинг"
+            
+              , "Соответствие требованиям НТИГ"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-безопасность"
+            
+              , "управление исправлениями"
+            
+              , "системное администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию сценариев STIG для автоматизации соблюдения требований безопасности для Windows и популярных приложений, включая .NET, Adobe Reader DC и Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я изучил больше модулей Powershell и Ansible</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-03/</link>
+        
+        <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "PowerShell"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-03/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity узнал об этом и нашел интересным сегодня**.
+SimeonOnSecurity узнал о Windows STIG Ansible и обновил соответствующие репозитории. Также были изучены различные ресурсы Microsoft и Ansible, связанные с powershell, remoting и выполнением команд shell/powershell в Windows с помощью таких модулей, как invoke-command, start-process, win_powershell, win_shell, psexec и win_psexec.
+Новые/обновленные репозитории: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Учебные ресурсы: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Today I Learned about Ansible and Block/Rescue Modules</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-02/</link>
+        
+        <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "Соответствие требованиям безопасности"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-02/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity узнал об этом и нашел интересным сегодня**.
+Сегодня SimeonOnSecurity узнал и обнаружил несколько интересных вещей, связанных с безопасностью Windows и автоматизацией с помощью Ansible.
+Во-первых, были обнаружены два новых и обновленных репозитория. Репозиторий Windows_STIG_Ansible представляет собой комплексное решение для настройки Windows-систем на соответствие требованиям Security Technical Implementation Guide (STIG) с использованием платформы автоматизации Ansible. Репозиторий windows_stigs представляет собой набор ролей Ansible для настройки Windows-систем на соответствие требованиям STIG и доступен на Ansible Galaxy, центральном хранилище для обмена содержимым Ansible.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал, как манипулировать и анализировать JSON в PowerShell и Bash</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2021-02-17/</link>
+        
+        <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность Windows"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "ИТ-безопасность"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "Администрирование Windows"
+            
+              , "Конфигурация системы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2021-02-17/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Что интересного узнал и нашел сегодня SimeonOnSecurity.
+SimeonOnSecurity обновил страницу на своем сайте и узнал о нескольких интересных для него ресурсах. Обновленная страница - это обзор Invite Challenge на HackTheBox. На этой странице представлен подробный анализ процесса решения задачи на системах Windows и Linux.
+В дополнение к обновленной странице SimeonOnSecurity также обнаружил несколько полезных обучающих ресурсов. Одним из таких ресурсов является запись в блоге Кэмерона Нокса (Cameron Nokes), посвященная работе с JSON в bash с помощью инструмента jq.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>
