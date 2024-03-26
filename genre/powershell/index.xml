@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/powershell//img/banner.png</url><title>PowerShell on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/powershell/</link></image><link>https://it.simeononsecurity.com/genre/powershell/</link><description>Recent content in PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Padroneggiare l'amministrazione di Active Directory con PowerShell: Guida all'installazione e all'uso</title><link>https://it.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Tecnologia"
+, "Finestre"
+, "PowerShell"
+, "Active Directory"
+, "Amministrazione"
+, "Scripting"
+, "IT"
+, "Automazione"
+, "Server Windows"
+, "Microsoft"</category><guid>https://it.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite come installare e utilizzare efficacemente il modulo Active Directory per PowerShell per semplificare le attività di amministrazione di Windows Active Directory.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Oggi ho imparato di più sulla creazione e l'attuazione delle politiche WDAC</title><link>https://it.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automazione"
+, "Sicurezza di Windows"
+, "Controllo dell'applicazione"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protezione dalle minacce"
+, "Windows Server 2019"
+, "Sicurezza aziendale"
+, "Gestione delle politiche"
+, "Migliori pratiche di sicurezza"</category><guid>https://it.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item><item><title>Oggi ho imparato altri moduli Powershell e Ansible</title><link>https://it.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "PowerShell"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity ha appreso e trovato interessante oggi**
+SimeonOnSecurity ha imparato a conoscere Windows STIG Ansible e ha aggiornato i relativi repo. Inoltre, ha studiato varie risorse Microsoft e Ansible relative a powershell, remoting ed esecuzione di comandi shell/powershell su Windows utilizzando moduli come invoke-command, start-process, win_powershell, win_shell, psexec e win_psexec.
+Repository nuovi/aggiornati: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Risorse didattiche: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.</description></item></channel></rss>
