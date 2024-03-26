@@ -6,6 +6,7 @@
 </style>
 {{ $style := resources.Get "style-append.css" | resources.Minify }}
 <link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="prefetch" href="/p/cdnjs/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" fetchpriority="low">
 
 <!-- preload and prefetch first-party js -->
 <link rel="preload" href="{{ "assets/main.js" | absURL }}" fetchpriority="high" as="script" type="text/javascript">
@@ -24,7 +25,7 @@
     {{ end }}
   {{ end }}
 {{ end }}
-{{ if in (urlize .Permalink) "/search" }}
+{{ if or (in (urlize .Permalink) "/search") (and (strings.Contains .RelPermalink "/search") (eq .Section "search")) }}
   <link rel="preload" href="{{ "js/search.js"| absURL }}" fetchpriority="high" as="script" type="text/javascript">
 {{ end }}
 <link rel="prefetch" href="{{ "service-worker.js" | absURL }}" fetchpriority="low" type="text/javascript">
@@ -125,7 +126,7 @@
   {{ end }}
 {{ end }}
 
-{{ if and (strings.Contains .RelPermalink "/search") (eq .Section "search") }}
+{{ if or (in (urlize .Permalink) "/search") (and (strings.Contains .RelPermalink "/search") (eq .Section "search")) }}
   <!-- 
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" as="script" type="text/javascript" fetchpriority="high" crossorigin="anonymous">
@@ -163,5 +164,3 @@
 {{ if or .Section .IsHome }}
   {{ partial "schema/articlecarosel.html" . }}
 {{ end }}
-
-<link rel="prefetch" href="/p/cdnjs/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" fetchpriority="low">
