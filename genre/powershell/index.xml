@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/genre/powershell//img/banner.png</url><title>PowerShell on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/powershell/</link></image><link>https://fr.simeononsecurity.com/genre/powershell/</link><description>Recent content in PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Maîtriser l'administration d'Active Directory avec PowerShell : Guide d'installation et d'utilisation</title><link>https://fr.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technologie"
+, "Fenêtres"
+, "PowerShell"
+, "Active Directory"
+, "Administration"
+, "Scripting"
+, "IT"
+, "Automatisation"
+, "Serveur Windows"
+, "Microsoft"</category><guid>https://fr.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment installer et utiliser efficacement le module Active Directory pour PowerShell afin de rationaliser vos tâches d'administration de Windows Active Directory.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Aujourd'hui, j'en ai appris plus sur la création et la mise en œuvre de la politique de la WDAC</title><link>https://fr.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisation"
+, "Sécurité Windows"
+, "Contrôle de l'application"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protection contre les menaces"
+, "Windows Server 2019"
+, "Sécurité des entreprises"
+, "Gestion des politiques"
+, "Meilleures pratiques en matière de sécurité"</category><guid>https://fr.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aujourd'hui, j'en ai appris plus sur les conditionnelles et la gestion des variables d'Ansible</description></item><item><title>Aujourd'hui, j'ai appris plus de modules Powershell et Ansible</title><link>https://fr.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "PowerShell"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**
+SimeonOnSecurity a découvert Windows STIG Ansible et a mis à jour les dépôts correspondants. Il a également étudié diverses ressources Microsoft et Ansible relatives à powershell, au remoting et à l&amp;rsquo;exécution de commandes shell/powershell sur Windows à l&amp;rsquo;aide de modules tels que invoke-command, start-process, win_powershell, win_shell, psexec et win_psexec.
+New/Updated Repos : # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Ressources pédagogiques : # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.</description></item></channel></rss>
