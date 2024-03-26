@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/powershell//img/banner.png</url><title>PowerShell on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/powershell/</link></image><link>https://de.simeononsecurity.com/genre/powershell/</link><description>Recent content in PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Beherrschen der Active Directory-Verwaltung mit PowerShell: Handbuch zur Installation und Verwendung</title><link>https://de.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technologie"
+, "Windows"
+, "PowerShell"
+, "Aktives Verzeichnis"
+, "Verwaltung"
+, "Skripting"
+, "IT"
+, "Automatisierung"
+, "Windows-Server"
+, "Microsoft"</category><guid>https://de.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie das Active Directory-Modul für PowerShell effektiv installieren und verwenden, um Ihre Windows Active Directory-Verwaltungsaufgaben zu rationalisieren.</description><enclosure url="https://de.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Heute habe ich mehr über die Erstellung und Umsetzung von WDAC-Richtlinien gelernt</title><link>https://de.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisierung"
+, "Windows-Sicherheit"
+, "Kontrolle der Anwendung"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Schutz vor Bedrohungen"
+, "Windows Server 2019"
+, "Sicherheit für Unternehmen"
+, "Verwaltung der Politik"
+, "Bewährte Sicherheitspraktiken"</category><guid>https://de.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</description></item><item><title>Heute habe ich mehr Powershell und Ansible Module gelernt</title><link>https://de.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "Windows-Sicherheit"
+, "Windows-Verwaltung"
+, "PowerShell"
+, "IT-Automatisierung"
+, "Konfigurationsmanagement"</category><guid>https://de.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+die SimeonOnSecurity heute erfahren und interessant gefunden hat**
+SimeonOnSecurity hat sich über Windows STIG Ansible informiert und die entsprechenden Repos aktualisiert. Außerdem studierte er verschiedene Microsoft- und Ansible-Ressourcen im Zusammenhang mit Powershell, Remoting und der Ausführung von Shell-/Powershell-Befehlen unter Windows mit Modulen wie invoke-command, start-process, win_powershell, win_shell, psexec und win_psexec.
+Neue/aktualisierte Repos: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Lernressourcen: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.</description></item></channel></rss>
