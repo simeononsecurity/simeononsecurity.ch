@@ -1,5 +1,35 @@
 # exported from backlink tool
 # domains
+domain:asriponik.com
+domain:www.asriponik.com
+domain:github.yoyij.com
+domain:recherchoo.info
+domain:github.xecl.link
+domain:gh.mlsub.net
+domain:github.1git.de
+domain:github.xyzliang.com
+domain:655325fa56447.site123.me
+domain:simeononsecurity.carrd.co
+domain:wikizero.net
+domain:mymaleextrareview.com
+domain:leiladqifit.com
+domain:www.wikizero.net
+domain:losbestiasplayagandia.com
+domain:www.mymaleextrareview.com
+domain:northstarcreditsolutions.com
+domain:majiquemusic.com
+domain:git.tuu.cat
+domain:jayatogel4d.info
+domain:lemdro.id
+domain:en.chped.com
+domain:githubclone.com
+domain:www.githubclone.com
+domain:nishino-syokudou.com
+domain:old.monyet.cc
+domain:old.endlesstalk.org
+domain:deuda.info
+domain:old.lemmy.zip
+domain:old.lemdro.id
 domain:web3hacker.news
 domain:341066936952553553.apps.brevity.io
 domain:www.web3hacker.news
@@ -10,11 +40,11 @@ domain:paydayloansonline1.com
 domain:solid-hackernews-edge.netlify.app
 domain:hn.markojs.workers.dev
 domain:hackernews.ryansolid.workers.dev
+domain:solidjs-starter-hackernews.vercel.app
+domain:christianzhu.com
 domain:www.christianzhu.com
 domain:next-news.vercel.app
 domain:next-hackernews-olive.vercel.app
-domain:solidjs-starter-hackernews.vercel.app
-domain:christianzhu.com
 domain:danceinlens.com
 domain:solid-start-hn.netlify.app
 domain:qwikcity-hackernews.pages.dev
@@ -7414,10 +7444,11 @@ domain:zygophyceous.womanstars.site
 domain:zynax.ua
 domain:zytpirwai.net
 domain:zzbroya.com.ua
+domain:nu.lemdro.id
+domain:photon.lemmy.world
 domain:old.programming.dev
 
 # urls
 https://simeononsecurity.github.io/simeononsecurity/
-https://old.programming.dev/u/nevalem
 https://www.antionline.com/showthread.php?292689-Is-windows-defender-enough%2Fpage2
 https://legal.un.org/docs/doc_top.asp?Lang=Ef&path=..%2Filc%2Fdocumentation%2Fenglish%2Fa_cn4_13.pd&referer=https%3A%2F%2Fsimeononsecurity.com%2Ftools
