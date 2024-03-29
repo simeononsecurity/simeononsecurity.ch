@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Opdracht oproepen on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/opdracht-oproepen//img/banner.png</url><title>Opdracht oproepen on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/opdracht-oproepen/</link></image><link>https://nl.simeononsecurity.com/tags/opdracht-oproepen/</link><description>Recent content in Opdracht oproepen on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/opdracht-oproepen/index.xml" rel="self" type="application/rss+xml"/><item><title>Vandaag heb ik meer Powershell en Ansible modules geleerd</title><link>https://nl.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "PowerShell"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity over geleerd en interessant gevonden vandaag**
+SimeonOnSecurity leerde over Windows STIG Ansible en werkte gerelateerde repo&amp;rsquo;s bij. Bestudeerde ook verschillende Microsoft en Ansible bronnen met betrekking tot powershell, remoting, en het uitvoeren van shell/powershell commando&amp;rsquo;s op Windows met behulp van modules zoals invoke-command, start-process, win_powershell, win_shell, psexec, en win_psexec.
+Nieuwe/bijgewerkte repo&amp;rsquo;s: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Leerbronnen: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.</description></item></channel></rss>
