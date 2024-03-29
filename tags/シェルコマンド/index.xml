@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>シェルコマンド on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89//img/banner.png</url><title>シェルコマンド on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</link><description>Recent content in シェルコマンド on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/index.xml" rel="self" type="application/rss+xml"/><item><title>今日はPowershellとAnsibleのモジュールをさらに勉強しました。</title><link>https://ja.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"オートメーション"
+, "コンプライアンス"
+, "アンシブル"
+, "Ansible Playbooks（アンシブル プレイブック"
+, "Ansibleコレクション"
+, "Windowsのセキュリティ"
+, "ウィンドウズ・アドミニストレーション"
+, "パワーシェル"
+, "ITオートメーション"
+, "コンフィギュレーションマネジメント"</category><guid>https://ja.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurityが今日知って、面白いと思ったこと**。
+SimeonOnSecurityは、Windows STIG Ansibleについて学び、関連レポを更新しました。また、powershell、リモーティング、invoke-command、start-process、win_powershell、win_shell、psexec、win_psexecなどのモジュールを使ったWindows上でのシェル/powershellコマンドの実行に関するMicrosoftとAnsibleの各種リソースを勉強しました。
+新規/更新されたレポ # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs ラーニング・リソース # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.windows.psexec win_psexec</description></item></channel></rss>
