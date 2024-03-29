@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Invoca-Comando on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/invoca-comando//img/banner.png</url><title>Invoca-Comando on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/invoca-comando/</link></image><link>https://it.simeononsecurity.com/tags/invoca-comando/</link><description>Recent content in Invoca-Comando on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/invoca-comando/index.xml" rel="self" type="application/rss+xml"/><item><title>Oggi ho imparato altri moduli Powershell e Ansible</title><link>https://it.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "PowerShell"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity ha appreso e trovato interessante oggi**
+SimeonOnSecurity ha imparato a conoscere Windows STIG Ansible e ha aggiornato i relativi repo. Inoltre, ha studiato varie risorse Microsoft e Ansible relative a powershell, remoting ed esecuzione di comandi shell/powershell su Windows utilizzando moduli come invoke-command, start-process, win_powershell, win_shell, psexec e win_psexec.
+Repository nuovi/aggiornati: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Risorse didattiche: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.</description></item></channel></rss>
