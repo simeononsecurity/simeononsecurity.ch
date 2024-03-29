@@ -1,0 +1,2568 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ca.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ca</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Guia definitiva: actualitzacions fora de línia de Linux per a Ubuntu Debian i CentOS RHEL</title><link>https://ca.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid><description>Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Millors maneres de gestionar la instal·lació d&rsquo;actualitzacions de Linux fora de línia per a Ubuntu/Debian i CentOS/RHEL</strong></p>
+<p>Les actualitzacions de Linux són essencials per mantenir la seguretat i l&rsquo;estabilitat del vostre sistema. Tanmateix, en alguns escenaris, és possible que hàgiu de fer front a entorns fora de línia on la connectivitat a Internet és limitada o inexistent. En aquests casos, és crucial tenir una estratègia adequada per instal·lar actualitzacions fora de línia. Aquest article us guiarà a través de les <strong>millors maneres de gestionar la instal·lació d&rsquo;actualitzacions de Linux per a Ubuntu/Debian i CentOS/RHEL</strong> en entorns fora de línia, centrant-vos específicament en l&rsquo;ús d&rsquo;un dipòsit o memòria cau local.</p>
+<h2 id="configuració-dun-dipòsit-local">
+  Configuració d&rsquo;un dipòsit local
+  <a href="#configuraci%c3%b3-dun-dip%c3%b2sit-local" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Una de les maneres més efectives de gestionar les actualitzacions fora de línia és configurar un dipòsit local. Un repositori local conté tots els paquets de programari i les actualitzacions necessàries, que us permeten actualitzar el vostre sistema sense connexió a Internet. A continuació s&rsquo;explica com podeu configurar un dipòsit local tant per a distribucions basades en Debian com per a distribucions basades en Red Hat:</p>
+<h3 id="per-a-debianubuntu">
+  Per a Debian/Ubuntu
+  <a href="#per-a-debianubuntu" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ol>
+<li>Comenceu configurant una <strong>mirall del dipòsit de Debian</strong> en un servidor que tingui accés a Internet. Podeu utilitzar eines com 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="&lt;code&gt;apt-mirror&lt;/code&gt;">
+    <meta itemprop="url" content="https://manpages.debian.org/jessie/apt-mirror/apt-mirror.1.en.html">
+    <a href="https://manpages.debian.org/jessie/apt-mirror/apt-mirror.1.en.html"
+    
+        
+            
+                
+                    rel="noopener external"
+              
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Actualització del firmware fora de línia per a Ubiquiti Unifi UDM Pro i UDM SE mitjançant SSH de línia d'ordres</title><link>https://ca.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid><description>Obteniu informació sobre com actualitzar el microprogramari d'Ubiquiti Unifi UDM Pro i UDM SE fora de línia mitjançant SSH de línia d'ordres per obtenir un rendiment i una seguretat òptims.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Actualitzeu Ubiquiti Unifi UDM Pro i UDM SE fora de línia mitjançant SSH</strong></p>
+<p>En el món de les xarxes, <strong>Ubiquiti Networks</strong> ha guanyat el reconeixement per les seves solucions innovadores. <strong>Ubiquiti Unifi Dream Machine Pro (UDM Pro)</strong> i <strong>Unifi Dream Machine SE (UDM SE)</strong> són dos productes populars que ofereixen funcions de gestió de xarxa completes. L&rsquo;actualització del firmware d&rsquo;aquests dispositius és crucial per garantir un rendiment i una seguretat òptims. En aquest article, explorarem com actualitzar el microprogramari de l&rsquo;UDM Pro i l&rsquo;UDM SE <strong>fora de línia</strong> mitjançant SSH de línia d&rsquo;ordres.</p>
+<hr>
+<h2 id="per-què-actualitzar-el-firmware">
+  Per què actualitzar el firmware?
+  <a href="#per-qu%c3%a8-actualitzar-el-firmware" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Les actualitzacions de microprogramari són essencials per a qualsevol dispositiu de xarxa, ja que sovint contenen correccions d&rsquo;errors, millores de rendiment i pedaços de seguretat. Actualitzar regularment el microprogramari del vostre UDM Pro i UDM SE és crucial per garantir que la vostra xarxa es mantingui segura i funcioni sense problemes.</p>
+<hr>
+<h2 id="actualització-del-firmware-fora-de-línia">
+  Actualització del firmware fora de línia
+  <a href="#actualitzaci%c3%b3-del-firmware-fora-de-l%c3%adnia" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>L&rsquo;actualització del microprogramari de l&rsquo;UDM Pro i l&rsquo;UDM SE es pot fer a través del <strong>UniFi Dashboard</strong>. Tanmateix, en alguns escenaris, és possible que una connexió a Internet no estigui disponible o no sigui desitjable. En aquests casos, una actualització fora de línia mitjançant SSH de línia d&rsquo;ordres proporciona una solució alternativa.</p>
+<hr>
+<h2 id="preparant-se-per-a-lactualització-fora-de-línia">
+  Preparant-se per a l&rsquo;actualització fora de línia
+  <a href="#preparant-se-per-a-lactualitzaci%c3%b3-fora-de-l%c3%adnia" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Abans de continuar amb l&rsquo;actualització fora de línia, assegureu-vos que teniu els requisits previs següents:</p>
+<ol>
+<li>Un ordinador o dispositiu amb un client SSH instal·lat.</li>
+<li>El fitxer de microprogramari més recent per al vostre UDM Pro o UDM SE. Podeu obtenir el fitxer de microprogramari des de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Automatització de pedaços i actualitzacions de Linux amb Ansible: una guia completa</title><link>https://ca.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid><description>Obteniu informació sobre com automatitzar els pedaços i les actualitzacions de Linux mitjançant Ansible, que cobreix diverses distribucions i instruccions de configuració.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Automatització de pedaços i actualitzacions de Linux amb Ansible</strong></p>
+<p>En el món trepidant i conscient de la seguretat actual, <strong>automatitzar</strong> el pedaç i l&rsquo;actualització dels sistemes Linux és crucial per garantir l&rsquo;estabilitat del sistema i mitigar les vulnerabilitats. Amb la multitud de distribucions de Linux disponibles, pot ser difícil gestionar les actualitzacions a diferents plataformes de manera eficient. Afortunadament, <strong>Ansible</strong>, una potent eina d&rsquo;automatització, ofereix una solució unificada per automatitzar l&rsquo;aplicació de pedaços i les actualitzacions en diverses distribucions de Linux. En aquest article, explorarem com utilitzar Ansible per automatitzar el procés de pedaç i actualització per a distribucions <strong>basades en Debian, Ubuntu, RHEL, Alpine</strong> i altres distribucions. També proporcionarem un exemple detallat del llibre de jocs d&rsquo;Ansible que gestiona la instal·lació de pedaços i actualitzacions a diferents distribucions de Linux, juntament amb instruccions per configurar les credencials d&rsquo;Ansible i els fitxers d&rsquo;amfitrió per a tots els sistemes de destinació.</p>
+<h2 id="requisits-previs">
+  Requisits previs
+  <a href="#requisits-previs" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Abans de submergir-nos en el procés d&rsquo;automatització, assegurem-nos que tenim els requisits previs necessaris. Això inclou:</p>
+<ol>
+<li>
+<p><strong>Instal·lació d&rsquo;Ansible</strong>: per utilitzar Ansible, cal que l&rsquo;instal·leu al sistema des del qual executareu les tasques d&rsquo;automatització. Podeu seguir la documentació oficial d&rsquo;Ansible a 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="how to install Ansible">
+    <meta itemprop="url" content="https://docs.ansible.com/ansible/latest/installation_guide/index.html">
+    <a href="https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+   
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Automatització de les actualitzacions de Windows amb Ansible: una guia completa</title><link>https://ca.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><description>Racionalitzeu el procés d'actualització dels sistemes Windows mitjançant l'automatització amb Ansible: instruccions pas a pas i pràctiques recomanades incloses.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Automatització de les actualitzacions de Windows amb Ansible: una guia completa</strong></p>
+<p>Mantenir els sistemes Windows actualitzats és crucial per mantenir la seguretat i l&rsquo;estabilitat. Tanmateix, gestionar i instal·lar manualment les actualitzacions en diversos sistemes pot ser una tasca llarga i propensa a errors. Afortunadament, amb el poder d&rsquo;eines d&rsquo;automatització com Ansible, podeu agilitzar el procés i assegurar-vos que els vostres sistemes estiguin sempre actualitzats. En aquest article, explorarem com automatitzar les actualitzacions de Windows amb Ansible i proporcionarem instruccions pas a pas per configurar les credencials i els fitxers d&rsquo;amfitrió d&rsquo;Ansible per a tots els vostres sistemes de destinació.</p>
+<hr>
+<h2 id="per-què-automatitzar-les-actualitzacions-de-windows-amb-ansible">
+  Per què automatitzar les actualitzacions de Windows amb Ansible?
+  <a href="#per-qu%c3%a8-automatitzar-les-actualitzacions-de-windows-amb-ansible" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Automatitzar les actualitzacions de Windows amb Ansible ofereix diversos avantatges:</p>
+<ol>
+<li>
+<p><strong>Estalvi de temps</strong>: en lloc d&rsquo;actualitzar manualment cada sistema individualment, podeu automatitzar el procés i actualitzar diversos sistemes simultàniament, estalviant-vos temps i esforços valuosos.</p>
+</li>
+<li>
+<p><strong>Coherència</strong>: l&rsquo;automatització garanteix que tots els sistemes rebin les mateixes actualitzacions, reduint el risc de deriva de la configuració i mantenint un entorn coherent i segur.</p>
+</li>
+<li>
+<p><strong>Eficiència</strong>: Ansible us permet programar actualitzacions en moments concrets, garantint una interrupció mínima del vostre flux de treball i maximitzant la disponibilitat del sistema.</p>
+</li>
+<li>
+<p><strong>Escalabilitat</strong>: tant si teniu un grapat de sistemes com si teniu una gran infraestructura, Ansible s&rsquo;escala sense esforç, la qual cosa el converteix en una opció ideal per gestionar les actualitzacions en qualsevol nombre de sistemes Windows.</p>
+</li>
+</ol>
+<hr>
+<h2 id="configuració-de-credencials-i-fitxers-damfitrió-dansible">
+  Configuració de credencials i fitxers d&rsquo;amfitrió d&rsquo;Ansible
+  <a href="#configuraci%c3%b3-de-credencials-i-fitxers-damfitri%c3%b3-dansible" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Abans de submergir-nos en l&rsquo;automatització de les actualitzacions de Windo
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Helium Mobile Beta: revolucionant la connectivitat mòbil amb una xarxa descentralitzada</title><link>https://ca.simeononsecurity.com/other/helium-mobile-beta-explained/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/helium-mobile-beta-explained/</guid><description>Descobriu com Helium Mobile Beta està transformant la connectivitat mòbil amb la seva xarxa descentralitzada, garantint seguretat, fiabilitat i assequibilitat per als usuaris.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/helium-mobile-beta-explained/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <h2 id="helium-mobile-beta">
+  Helium Mobile Beta
+  <a href="#helium-mobile-beta" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Helium Mobile Beta és un operador mòbil innovador que es troba actualment en proves beta, amb l&rsquo;objectiu de revolucionar la indústria de les telecomunicacions. Impulsat per la xarxa descentralitzada Helium blockchain, Helium Mobile Beta ofereix seguretat, fiabilitat i assequibilitat millorades en comparació amb les xarxes cel·lulars tradicionals. En aquest article, explorarem les característiques i avantatges clau de Helium Mobile Beta, així com les seves limitacions i els passos per participar en el programa beta.</p>
+<h2 id="com-funciona-helium-mobile-beta">
+  Com funciona Helium Mobile Beta?
+  <a href="#com-funciona-helium-mobile-beta" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Helium Mobile Beta funciona en una xarxa sense fil descentralitzada que consta de dispositius petits i de baixa potència anomenats Helium Hotspots. Aquests punts d&rsquo;accés, desplegats per particulars i empreses, creen noves cèl·lules de xarxa sense fil. Els dispositius compatibles amb Helium Mobile Beta es poden connectar a aquests punts d&rsquo;accés per accedir a Internet.</p>
+<p>Quan un dispositiu es connecta a un punt d&rsquo;accés d&rsquo;helium, paga una petita tarifa en <strong>criptomoneda Helium</strong>. Aquesta criptomoneda es distribueix després als propietaris dels punts d&rsquo;accés, incentivant l&rsquo;expansió de la xarxa i garantint una connectivitat generalitzada.</p>
+<p>La naturalesa descentralitzada de la xarxa de Helium Mobile Beta ofereix diversos avantatges respecte a les xarxes cel·lulars tradicionals. A diferència de les xarxes centralitzades, que són susceptibles a la pirateria i propenses a les interrupcions, la xarxa descentralitzada de Helium Mobile Beta és més segura i té menys probabilitats de patir interrupcions, oferint un servei fiable i ininterromput.</p>
+<h2 id="beneficis-de-helium-mobile-beta">
+  Beneficis de Helium Mobile Beta
+  <a href="#beneficis-de-helium-mobile-beta" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<h3 id="seguretat-millorada">
+  Seguretat millorada
+  <a href="#seguretat-millorada" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Un dels avantatges principals de Helium Mobile Beta és la seva seguretat millorada. L&rsquo;arquitectura de xarxa descentralitzada, impulsada per la cadena de blocs Helium, garanteix la privadesa de les dades i la protecci�
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/helium-mobile-beta-explained/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Optimitza la gestió de paquets de Windows amb Chocolatey: simplifica les actualitzacions i millora la seguretat</title><link>https://ca.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link><pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid><description>Descobriu els avantatges d'utilitzar la gestió de paquets de Chocolatey per a Windows: automatitzeu les actualitzacions, estalvieu temps i garanteix la seguretat del sistema.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Per què hauríeu d&rsquo;utilitzar Chocolatey per a la gestió i les actualitzacions de paquets de Windows</strong></p>
+<p>La gestió i les actualitzacions de paquets de Windows tenen un paper crucial per mantenir un sistema operatiu estable i segur. El mètode tradicional de cercar i instal·lar manualment actualitzacions de programari pot ser llarg i ineficient. Afortunadament, hi ha una eina potent i fàcil d&rsquo;utilitzar disponible per a Windows anomenada <strong>Chocolatey</strong> que simplifica la gestió de paquets i automatitza el procés d&rsquo;actualització. En aquest article, explorarem per què hauríeu d&rsquo;utilitzar Chocolatey per a les vostres necessitats de gestió de paquets de Windows.</p>
+<hr>
+<h2 id="optimitza-la-gestió-de-paquets">
+  Optimitza la gestió de paquets
+  <a href="#optimitza-la-gesti%c3%b3-de-paquets" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Un dels avantatges clau d&rsquo;utilitzar Chocolatey és la seva capacitat per agilitzar la gestió de paquets a Windows. Chocolatey actua com a <strong>gestor de paquets</strong> que proporciona una interfície de línia d&rsquo;ordres per instal·lar, actualitzar i desinstal·lar paquets de programari sense esforç. Utilitza un dipòsit de paquets seleccionat, anomenat <strong>Chocolatey Community Repository</strong>, que allotja una gran col·lecció d&rsquo;aplicacions de programari populars.</p>
+<p>Amb Chocolatey, podeu gestionar paquets a diverses màquines de manera eficient. En lloc de descarregar i instal·lar programari manualment a cada màquina, podeu confiar en Chocolatey per automatitzar el procés. Això simplifica les instal·lacions de paquets i us estalvia un temps valuós.</p>
+<hr>
+<h2 id="interfície-de-línia-dordres-simplificada">
+  Interfície de línia d&rsquo;ordres simplificada
+  <a href="#interf%c3%adcie-de-l%c3%adnia-dordres-simplificada" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>La interfície de línia d&rsquo;ordres de Chocolatey està dissenyada per ser senzilla i intuïtiva. Mitjançant unes quantes ordres senzilles, podeu realitzar diverses tasques de gestió de paquets. A continuació es mostren algunes de les <strong>ordres essencials</strong> que podeu utilitzar amb Chocolatey:</p>
+<ul>
+<li><code>choco install</code> Instal·la un paquet.</li>
+<li><code>choco upgrade</code> Actualitza un paquet.</li>
+<li><code>choco uninstall</code> Desinstal·la un paquet.</li>
+<li><code>choco list</code> Llista els paquets i
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Bones pràctiques per a la gestió de fonts de temps en dominis de Windows i màquines autònomes</title><link>https://ca.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</guid><description>Apreneu a configurar i gestionar de manera eficaç les fonts de temps als dominis de Windows i a les màquines autònomes per garantir una sincronització horària precisa i evitar possibles problemes.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Com configurar i gestionar les fonts de temps en un domini de Windows i en màquines Windows autònomes</strong></p>
+<p>La sincronització de l&rsquo;hora és crucial per mantenir les marques de temps precises i garantir el bon funcionament dels sistemes en un domini Windows o màquines Windows autònomes. En aquest article, parlarem de les millors pràctiques per configurar i gestionar les fonts de temps en ambdós escenaris, destacant la importància que els membres del domini apuntin als controladors de domini. També explorarem diferents opcions per a les fonts de temps, posant èmfasi en l&rsquo;ús de grups NTP externs o servidors de temps basats en GPS per a una precisió òptima.</p>
+<hr>
+<h2 id="configuració-de-fonts-de-temps-en-un-domini-de-windows">
+  Configuració de fonts de temps en un domini de Windows
+  <a href="#configuraci%c3%b3-de-fonts-de-temps-en-un-domini-de-windows" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>En un domini de Windows, és essencial tenir una sincronització horària coherent entre tots els membres del domini. La millor pràctica és configurar els controladors de domini com a font de temps principal per als membres del domini. En fer-ho, us assegureu que tots els sistemes del domini tinguin l&rsquo;hora sincronitzada, la qual cosa és fonamental per a l&rsquo;autenticació, el registre i diverses operacions del domini.</p>
+<h3 id="opcions-de-font-de-temps-per-als-controladors-de-domini">
+  Opcions de font de temps per als controladors de domini
+  <a href="#opcions-de-font-de-temps-per-als-controladors-de-domini" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Els controladors de domini poden obtenir el seu temps de diferents fonts, inclòs el rellotge de la BIOS, VMware Tools (en entorns virtualitzats) o servidors de temps externs. Tot i que pot ser convenient utilitzar el rellotge de la BIOS o VMware Tools, es recomana utilitzar una font <strong>estrat 0 o 1</strong> com un grup NTP extern o un servidor de temps basat en GPS per obtenir una precisió millorada.</p>
+<h4 id="grups-ntp-externs">
+  Grups NTP externs
+  <a href="#grups-ntp-externs" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<p>Els grups NTP externs són fonts fiables i distribuïdes globalment per a la sincronització de l&rsquo;hora. Consten d&rsquo;un gran nombre de servidors NTP mantinguts per organitzacions i institucions d&rsquo;arreu del món. Si configureu els controladors de domini per sincronitzar-los amb grups NTP exter
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Evitar les estafes de pesca: tàctiques, prevenció i protecció</title><link>https://ca.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid><description>Obteniu informació sobre les tàctiques que fan servir els estafadors de pesca i descobriu estratègies efectives per protegir-vos de convertir-vos en una víctima.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Entendre les tàctiques que fan servir els estafadors de pesca i com evitar convertir-se en una víctima</strong></p>
+<p>Les estafes de pesca segueixen sent una amenaça predominant en el panorama digital actual. Els ciberdelinqüents utilitzen diverses tàctiques per enganyar les persones i enganyar-les perquè revelin informació sensible, com ara contrasenyes, dades de targetes de crèdit o números de seguretat social. Per protegir-vos de ser víctimes d&rsquo;aquestes estafes, és fonamental entendre les tàctiques que fan servir els estafadors de pesca i prendre les mesures adequades per salvaguardar la vostra informació personal.</p>
+<h2 id="lanatomia-duna-estafa-de-pesca">
+  L&rsquo;anatomia d&rsquo;una estafa de pesca
+  <a href="#lanatomia-duna-estafa-de-pesca" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p><strong>Phishing</strong> és una pràctica fraudulenta en què els estafadors suplanten entitats legítimes, com ara bancs, serveis en línia o agències governamentals, per enganyar persones perquè revelin informació sensible. Aquests estafadors sovint utilitzen tècniques d&rsquo;<strong>enginyeria social</strong> per manipular psicològicament les seves víctimes. Entendre l&rsquo;anatomia d&rsquo;una estafa de pesca us pot ajudar a identificar i evitar caure en les seves trampes.</p>
+<h3 id="falsificació-de-correu-electrònic-i-enllaços-enganyosos">
+  Falsificació de correu electrònic i enllaços enganyosos
+  <a href="#falsificaci%c3%b3-de-correu-electr%c3%b2nic-i-enlla%c3%a7os-enganyosos" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Una tàctica habitual que fan servir els estafadors de pesca és la <strong>suplantació de correu electrònic</strong>. Envien correus electrònics que semblen ser de fonts de bona reputació, com ara el vostre banc o una empresa coneguda, però el remitent real és un estafador. Aquests correus electrònics sovint contenen <strong>enllaços enganyosos</strong> que condueixen a llocs web maliciosos dissenyats per capturar la vostra informació personal.</p>
+<p>Per evitar ser víctimes de la falsificació de correus electrònics, heu de ser prudents quan feu clic als enllaços dels correus electrònics. Passeu el ratolí per sobre de l&rsquo;enllaç per comprovar l&rsquo;URL real al qual condueix. Si sembla sospitós o diferent del lloc web esperat, no hi feu clic. En lloc d&rsquo;això, obriu una pestanya nova del navegador i introduïu manualment l&rsquo;adreça del lloc web.</p>
+
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Optimització de l'antena cel·lular direccional: guia d'apuntament i orientació</title><link>https://ca.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</guid><description>Obteniu informació sobre com apuntar i apuntar la vostra antena cel·lular direccional per obtenir una intensitat i fiabilitat del senyal òptimes, inclosa la localització de torres cel·lulars i la comprensió de les zones de Fresnel.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Com apuntar i apuntar la vostra antena cel·lular direccional</strong></p>
+<p>Els reforçadors de telèfons mòbils i els mòdems mòbils poden millorar considerablement la força del senyal i la fiabilitat de la vostra connexió mòbil. Tanmateix, per maximitzar la seva eficàcia, és crucial apuntar i apuntar correctament l&rsquo;antena cel·lular direccional cap a les torres cel·lulars suportades més properes. En aquest article, us guiarem a través del procés per localitzar les vostres torres cel·lulars compatibles més properes, calcular la ràdio i la línia visual de visió i entendre la importància de les zones de Fresnel.</p>
+<hr>
+<h2 id="localització-de-les-vostres-torres-mòbils-compatibles-més-properes">
+  Localització de les vostres torres mòbils compatibles més properes
+  <a href="#localitzaci%c3%b3-de-les-vostres-torres-m%c3%b2bils-compatibles-m%c3%a9s-properes" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Abans d&rsquo;orientar la vostra antena cel·lular direccional, heu de determinar la ubicació de les torres cel·lulars compatibles més properes. Aquesta informació es pot obtenir mitjançant diferents mètodes:</p>
+<ol>
+<li>
+<p><strong>Ús de bases de dades de torres mòbils en línia</strong>: hi ha diversos llocs web i aplicacions mòbils que proporcionen informació sobre les ubicacions de les torres mòbils. Alguns recursos populars inclouen 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="&lt;strong&gt;CellMapper&lt;/strong&gt;">
+    <meta itemprop="url" content="https://www.cellmapper.net/map">
+    <a href="https://www.cellmapper.net/map"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+        
+    ><strong>CellMapper</strong></a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Guia definitiva: instal·lació de Graphene OS al vostre dispositiu Google Pixel</title><link>https://ca.simeononsecurity.com/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/how-to-install-graphine-os/</guid><description>Obteniu informació sobre com instal·lar Graphene OS al vostre dispositiu Google Pixel per millorar la privadesa i la seguretat.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-install-graphine-os/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Com instal·lar Graphene OS al vostre dispositiu Google Pixel</strong></p>
+<p>Graphene OS és un sistema operatiu de codi obert centrat en la privadesa basat en la plataforma Android. Ofereix funcions de seguretat millorades i proteccions de privadesa, la qual cosa la converteix en una opció excel·lent per a persones preocupades per la privadesa i la seguretat de les dades. Si teniu un dispositiu Google Pixel i voleu canviar a Graphene OS, aquest article us guiarà pas a pas pel procés d&rsquo;instal·lació.</p>
+<h2 id="requisits-previs">
+  Requisits previs
+  <a href="#requisits-previs" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Abans de començar el procés d&rsquo;instal·lació, hi ha uns quants requisits previs que heu de complir:</p>
+<ol>
+<li>
+<p><strong>Feu una còpia de seguretat de les vostres dades</strong>: la instal·lació de Graphene OS esborrarà totes les dades del vostre dispositiu. Assegureu-vos que heu fet una còpia de seguretat de tots els fitxers, fotos, contactes i altres dades importants en una ubicació segura.</p>
+</li>
+<li>
+<p><strong>Desbloquegeu el carregador d&rsquo;arrencada</strong>: el carregador d&rsquo;arrencada és un programari que inicialitza el sistema quan engegueu el dispositiu. Desbloquejar el carregador d&rsquo;arrencada us permet instal·lar programari personalitzat com ara Graphene OS. Cada dispositiu Google Pixel té un procés específic per desbloquejar el carregador d&rsquo;arrencada. Consulteu la documentació oficial del vostre model de dispositiu per saber com desbloquejar-lo.</p>
+</li>
+</ol>
+<ul>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Enabling OEM unlocking">
+    <meta itemprop="url" content="https://grapheneos.org/install/cli#enabling-oem-unlocking">
+    <a href="https://grapheneos.org/install/cli#enabling-oem-unlocking"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+        
+    >Enabling OEM unlocking</a>
+</span>
+</li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/how-to-install-graphine-os/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Consells d'experts per escriure un currículum potent</title><link>https://ca.simeononsecurity.com/other/tips-for-writing-a-great-resume/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/tips-for-writing-a-great-resume/</guid><description>Conegueu les millors pràctiques per crear un currículum eficaç, com ara l'ús de la font, els tipus de currículum, l'optimització de paraules clau, la gestió dels buits i l'optimització del disseny.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/tips-for-writing-a-great-resume/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Consells per escriure un currículum fantàstic</strong></p>
+<p>Un currículum ben escrit és crucial per captar l&rsquo;atenció dels possibles ocupadors i augmentar les vostres possibilitats d&rsquo;aconseguir una entrevista de feina. Seguint aquests consells, podeu crear un currículum professional i convincent que mostri de manera efectiva les vostres habilitats i experiències.</p>
+<h2 id="utilitzeu-una-sola-lletra-i-manteniu-un-estil-i-una-estructura-uniformes">
+  Utilitzeu una sola lletra i manteniu un estil i una estructura uniformes
+  <a href="#utilitzeu-una-sola-lletra-i-manteniu-un-estil-i-una-estructura-uniformes" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>La coherència en la selecció de tipus de lletra, l&rsquo;estil i l&rsquo;estructura és essencial per crear un currículum visualment atractiu i fàcil de llegir. <strong>L&rsquo;ús d&rsquo;un sol tipus de lletra</strong> al llarg del vostre currículum garanteix un aspecte cohesionat i professional. A més, assegureu-vos de mantenir un <strong>estil uniforme</strong> per als encapçalaments, subtítols i el cos del text per millorar la llegibilitat.</p>
+<h2 id="tipus-de-currículums-i-quan-utilitzar-los">
+  Tipus de currículums i quan utilitzar-los
+  <a href="#tipus-de-curr%c3%adculums-i-quan-utilitzar-los" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Hi ha diversos tipus de currículums, cadascun amb un propòsit específic. Entendre aquests tipus us ajudarà a triar el més adequat per a la vostra situació:</p>
+<ol>
+<li>
+<p>** Currículum cronològic**: aquest format mostra el vostre historial laboral en ordre cronològic invers, començant pel vostre treball més recent. Destaca la vostra progressió professional i és ideal per a persones amb un historial laboral estable.</p>
+</li>
+<li>
+<p><strong>Curriculum vitae funcional</strong>: un currículum funcional se centra en les teves habilitats i qualificacions més que en el teu historial laboral. És útil si teniu llacunes en la vostra feina o si esteu canviant de carrera.</p>
+</li>
+<li>
+<p>** Currículum combinat **: aquest format combina elements de currículums cronològics i funcionals. Emfatitza les teves habilitats i experiència alhora que ofereix una visió general cronològica del teu historial laboral. És versàtil i es pot utilitzar en diferents situacions.</p>
+</li>
+</ol>
+<p>Trieu el tipus de currículum que millor mostri les vostres qualificacions i s&rsquo;alinea amb els requisits del lloc de 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/tips-for-writing-a-great-resume/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Crankk vs Helium IoT: una comparació exhaustiva de xarxes IoT</title><link>https://ca.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid><description>Descobriu les diferències entre les xarxes IoT Crankk i Helium, els seus models de consens, el maquinari de mineria, les tarifes del gas i molt més.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/crankk-vs-helium-which-is-best/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Crankk vs Helium IoT</strong></p>
+<p>En el món de l&rsquo;Internet de les coses (IoT), la connectivitat és crucial. A mesura que la demanda de dispositius IoT continua creixent, també ho fa la necessitat de xarxes sense fil eficients i fiables. Dos jugadors destacats a l&rsquo;espai de connectivitat IoT són Crankk i Helium IoT. En aquest article, compararem aquestes dues plataformes i explorarem les seves característiques, avantatges i diferències.</p>
+<h2 id="introducció">
+  Introducció
+  <a href="#introducci%c3%b3" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<hr>
+<p><strong>Crankk</strong> i <strong>Helium IoT</strong> són xarxes sense fil descentralitzades que tenen com a objectiu proporcionar connectivitat per als dispositius IoT. Aquestes xarxes utilitzen tecnologies sense fil de baix consum i de llarg abast, com ara LoRaWAN, per permetre la comunicació de dispositius IoT a llargues distàncies. Tot i que comparteixen similituds pel que fa als seus protocols sense fil, hi ha diferències notables en els seus enfocaments i ofertes.</p>
+<h2 id="arquitectura-de-xarxa">
+  Arquitectura de xarxa
+  <a href="#arquitectura-de-xarxa" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<hr>
+<p><strong>Crankk</strong> opera a la xarxa Kadena, una plataforma de blockchain escalable i segura. Aprofita un grup de nodes de consens per a la validació de testimonis i utilitza Tercers de confiança (TTP) per garantir la integritat de la xarxa. Aquesta arquitectura millora la seguretat i redueix el risc de col·lusió entre els nodes de consens i els testimonis. L&rsquo;enfocament descentralitzat de Crankk permet una major transparència i elimina la necessitat d&rsquo;una autoritat central.</p>
+<p>D&rsquo;altra banda, <strong>Helium IoT</strong> utilitza una arquitectura peer-to-peer anomenada &ldquo;The People&rsquo;s Network&rdquo;. Es basa en una xarxa global de punts d&rsquo;accés, que són dispositius físics que proporcionen connectivitat als dispositius IoT. Aquests hotspots extreuen HNT (Helium Network Token) validant la cobertura sense fil i transmetent dades. L&rsquo;arquitectura peer-to-peer ofereix un enfocament descentralitzat i impulsat per la comunitat a la connectivitat IoT.</p>
+<h2 id="validació-i-seguretat-dels-testimonis">
+  Validació i seguretat dels testimonis
+  <a href="#validaci%c3%b3-i-seguretat-dels-testimonis" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<hr>
+<p>A Crankk, la validació de testimonis juga un paper cru
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/crankk-vs-helium-which-is-best/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prevenció del ciberassetjament: consells per mantenir-se segur en línia</title><link>https://ca.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</guid><description>Apreneu a protegir-vos del ciberassetjament i a mantenir-vos segur en línia amb aquests consells i tècniques.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Entendre i prevenir el ciberassetjament: consells i tècniques per mantenir-se segur en línia</strong></p>
+<p>L&rsquo;assetjament cibernètic és un delicte greu que pot causar angoixa emocional i dany físic important. És l&rsquo;ús d&rsquo;Internet, les xarxes socials, el correu electrònic o altres tecnologies digitals per perseguir, assetjar o amenaçar una persona. Els ciberstalkers poden ser anònims i poden apuntar a les seves víctimes des de qualsevol part del món. Aquest article ofereix una visió general del que és el ciberassetjament i ofereix consells i tècniques per mantenir-se segur en línia.</p>
+<h2 id="què-és-el-ciberstalking">
+  Què és el ciberstalking?
+  <a href="#qu%c3%a8-%c3%a9s-el-ciberstalking" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>El ciberassetjament és l&rsquo;ús d&rsquo;Internet, les xarxes socials, el correu electrònic o altres tecnologies digitals per assetjar, assetjar o amenaçar una persona. Els ciberstalkers poden ser anònims i poden apuntar a les seves víctimes des de qualsevol part del món. El ciberstalking pot adoptar moltes formes, com ara:</p>
+<ul>
+<li>Enviament de missatges d&rsquo;amenaça o assetjament per correu electrònic o xarxes socials</li>
+<li>Monitorització de l&rsquo;activitat en línia d&rsquo;una víctima</li>
+<li>Publicació d&rsquo;informació privada o fotos sense el consentiment de la víctima</li>
+<li>Creació de perfils falsos per assetjar o suplantar la víctima</li>
+<li>Realitzar falses acusacions contra la víctima en línia</li>
+</ul>
+<h2 id="com-identificar-el-ciberassetjament">
+  Com identificar el ciberassetjament
+  <a href="#com-identificar-el-ciberassetjament" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>L&rsquo;assetjament cibernètic pot ser difícil d&rsquo;identificar, especialment si l&rsquo;assetjador utilitza comptes o perfils anònims. Alguns signes que poden ser víctima del ciberassetjament inclouen:</p>
+<ul>
+<li>Rebre missatges d&rsquo;amenaça o assetjament per correu electrònic o xarxes socials</li>
+<li>Trobar publicacions o comentaris sobre tu a les xarxes socials o als fòrums en línia que siguin negatius, amenaçadors o assetjant</li>
+<li>Rebre regals o missatges no desitjats per correu o a casa teva</li>
+<li>Descobrir que algú ha estat supervisant la teva activitat en línia</li>
+<li>Trobar que la teva informació personal s&rsquo;ha publicat en línia sense el teu consentiment</li>
+</ul>
+<h2 id="consells-per-prevenir-el-cib
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prevenció d'atacs d'enginyeria social: estratègies i bones pràctiques</title><link>https://ca.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link><pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid><description>Obteniu informació sobre com prevenir atacs d'enginyeria social i protegir la informació confidencial de la vostra organització amb formació dels empleats, polítiques de seguretat i molt més.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Entendre els atacs d&rsquo;enginyeria social i com prevenir-los</strong></p>
+<p>L&rsquo;enginyeria social és una forma d&rsquo;atac cibernètic que es basa en manipular les persones perquè divulguin informació confidencial, instal·li programari maliciós o realitzi accions que perjudiquin la seguretat d&rsquo;una organització. Els atacants poden utilitzar una varietat de tècniques per guanyar-se la confiança de les seves víctimes, com ara correus electrònics de pesca, pretextos, esquers i esquemes de quid pro quo. En aquest article, parlarem de diferents tipus d&rsquo;atacs d&rsquo;enginyeria social i estratègies per prevenir-los.</p>
+<h2 id="tipus-datacs-denginyeria-social">
+  Tipus d&rsquo;atacs d&rsquo;enginyeria social
+  <a href="#tipus-datacs-denginyeria-social" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<h3 id="phishing-attackshttpssimeononsecuritycomarticleshow-to-identify-phishing">
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Phishing Attacks">
+    <meta itemprop="url" content="https://simeononsecurity.com/articles/how-to-identify-phishing/">
+    <a href="https://simeononsecurity.com/articles/how-to-identify-phishing/"
+    
+        rel="follow me"
+    >Phishing Attacks</a>
+</span>
+
+  <a href="#phishing-attackshttpssimeononsecuritycomarticleshow-to-identify-phishing" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Els atacs de phishing són la forma més comuna d&rsquo;atacs d&rsquo;enginyeria social. Implica enviar correus electrònics que semblen provenir de fonts de bona reputació per enganyar la gent perquè proporcioni informació confidencial o fent clic als enllaços que instal·len programari maliciós. Els correus electrònics poden utilitzar tàctiques de por, peticions urgents o apel·lacions emocionals per fer que la gent actuï sense pensar.</p>
+<p>Per evitar atacs de pesca, és important <strong>educar els empleats</strong> sobre els signes dels correus electrònics de pesca, com ara remitents sospitosos, errors ortogràfics i sol·licituds no sol·licitades. El <strong>programari anti-phishing</strong> també pot ajudar a identificar i bloquejar correus electrònics sospitosos abans que arribin als us
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Millors reforçadors de senyal de telèfon mòbil per a ús domèstic</title><link>https://ca.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</guid><description>Augmenteu el senyal del vostre telèfon mòbil a casa amb les nostres millors opcions per a una connectivitat fiable i una cobertura a tota la llar.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>El vostre senyal cel·lular en ubicacions remotes**</p>
+<p>Mantenir-se connectat s&rsquo;ha convertit en una necessitat per a la majoria de nosaltres, especialment durant la pandèmia. Tanmateix, en ubicacions remotes, obtenir un senyal cel·lular fiable pot ser un repte. Afortunadament, hi ha diverses opcions disponibles per augmentar el senyal del vostre mòbil. En aquest article, parlarem dels reforçadors de cèl·lules interiors com el T-Mobile Cell Spot, dels reforçadors d&rsquo;exteriors a interiors com els de WeBoost i Hiboost i les opcions de femtocell per a AT&amp;T, T-Mobile i Verizon.</p>
+<h2 id="t-mobile-cell-spothttpsamznto41cxppc">
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="T-Mobile Cell Spot">
+    <meta itemprop="url" content="https://amzn.to/41cXppc">
+    <a href="https://amzn.to/41cXppc"
+    
+        
+            
+                rel="nofollow noopener external sponsored" alt="Affiliate Link"
+            
+        
+    >T-Mobile Cell Spot</a>
+</span>
+
+  <a href="#t-mobile-cell-spothttpsamznto41cxppc" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https:\/\/ca.simeononsecurity.com",
+    "caption": "T-Mobile Cell Spot",
+    "license": "https://simeononsecurity.com/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.com/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
+    "@type": "Person",
+    "name": "SimeonOnSecurity"
+    },
+    "copyrightNotice": "SimeonOnSecurity",
+    "associatedArticle": {
+    "@type": "NewsArticle",
+    "headline": "Millors reforçadors de senyal de telèfon mòbil per a ús domèstic",
+    "url": "https:\/\/ca.simeononsecurity.com\/other\/cell-phone-signal-and-coverage-amplification\/",
+    "datePublished": "2024-03-29 08:33:22.337922767 \u002b0000 UTC m=\u002b0.956698935",
+    "author": {
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Ubiquiti Unifi vs TP-Link Omada: quin sistema de xarxa és adequat per a vostè?</title><link>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><description>Compareu els sistemes de xarxa Ubiquiti Unifi i TP-Link Omada per triar el més adequat per a les vostres necessitats.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>Unifi vs Tp-link Omada: una comparació**</p>
+<p>Quan es tracta de solucions de xarxa per a empreses i llars, hi ha dos noms 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="&lt;strong&gt;Ubiquiti&lt;/strong&gt;">
+    <meta itemprop="url" content="https://www.ui.com/">
+    <a href="https://www.ui.com/"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+        
+    ><strong>Ubiquiti</strong></a>
+</span>
+ and 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="&lt;strong&gt;TP-Link&lt;/strong&gt;">
+    <meta itemprop="url" content="https://www.tp-link.com/us/omada-sdn/">
+    <a href="https://www.tp-link.com/us/omada-sdn/"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+        
+    ><strong>TP-Link</strong></a>
+</span>
+ Les dues empreses ofereixen solucions fiables i d&rsquo;alt rendiment, però quina hauríeu de triar? En aquest article, compararem els dos sistemes i us ajudarem a decidir quin és l&rsquo;adequat per a les vostres necessitats.</p>
+<h2 id="ubiquiti-unifihttpswwwuicom">
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Ubiquiti Unifi">
+    <meta itemprop="url" content="https://www.ui.com/">
+    <a href="https://www.ui.com/"
+    
+        
+            
+              
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Evitar el BGW-320: ús d'un COTS ONT de les Açores: una guia pas a pas</title><link>https://ca.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><description>Apreneu a ometre el BGW-320 i utilitzar un COTS ONT fet per Açores per connectar-vos a la xarxa del vostre ISP amb aquesta guia fàcil de seguir.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <h2 id="com-evitar-el-bgw-320-i-utilitzar-un-açores-wag-d20">
+  Com evitar el BGW-320 i utilitzar un Açores WAG-D20
+  <a href="#com-evitar-el-bgw-320-i-utilitzar-un-a%c3%a7ores-wag-d20" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>La majoria de les persones amb fibra tenen dues maneres de connectar-se a Internet: fibra a una ONT, Ethernet a una passarel·la o fibra directament a la passarel·la. En aquest article, ens centrarem en com evitar el BGW-320 i utilitzar un COTS ONT fabricat per Açores.</p>
+<h3 id="aspectes-tècnics">
+  Aspectes tècnics
+  <a href="#aspectes-t%c3%a8cnics" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>El
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Azores WAG-D20">
+    <meta itemprop="url" content="https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153">
+    <a href="https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+        
+    >Azores WAG-D20</a>
+</span>
+ is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="here">
+    <meta itemprop="url" content="https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont">
+    <a href="https://www.balticnetworks.com/products/azores-1x-10gbe-1x-2-5gbe-intel-based-xgspon-ont"
+    
+        
+            
+                
+                    rel="noopener external"
+                
+            
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Execució de pfSense al client prim HP t740: consells i guia de resolució de problemes</title><link>https://ca.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</guid><description>Obteniu informació sobre com configurar pfSense a l'HP t740 Thin Client i com resoldre problemes potencials com ara la congelació i els problemes de detecció de SSD.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>pfSense, OPNsense o HardenedBSD al client prim HP t740**</p>
+<p>Si busqueu un dispositiu potent per executar pfSense, OPNsense o HardenedBSD, l&rsquo;HP t740 Thin Client pot ser una opció adequada per a vosaltres.</p>
+<h2 id="més-potència-i-servidor-domèstic-compacte">
+  Més potència i servidor domèstic compacte
+  <a href="#m%c3%a9s-pot%c3%a8ncia-i-servidor-dom%c3%a8stic-compacte" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>L&rsquo;HP t740 Thin Client és un dispositiu compacte que es pot utilitzar com a potent caixa pfSense o com a servidor domèstic compacte. Ofereix més potència que el t730 o el t620 Plus, cosa que el converteix en una opció adequada per executar PPPoE, sobretot si teniu Internet de fibra. També pot oferir una ruta d&rsquo;actualització a xarxes de 10 Gigabit.</p>
+<h2 id="ps2-es-congela">
+  PS/2 es congela
+  <a href="#ps2-es-congela" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Tanmateix, si teniu previst executar FreeBSD o els seus derivats com pfSense, OPNsense o HardenedBSD al nucli (a diferència d&rsquo;ESXi o Proxmox), és possible que us trobeu amb un problema en què el sistema es bloquegi a l&rsquo;arrencada amb el missatge <code>atkbd0: BLOC GEGANT]</code>. Afortunadament, aquest problema es pot resoldre introduint les ordres següents a l&rsquo;indicador d&rsquo;arrencada:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>unset hint.uart.0.at
+</span></span><span style="display:flex;"><span>unset hint.uart.1.at
+</span></span></code></pre></div><p><em>Note that you need to unset both, otherwise, it will still lock up at boot.</em></p>
+<p>After you install the OS, open a post-installation shell and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vi /boot/loader.conf.local
+</span></span></code></pre></div><p>Then, add these two lines:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hint.uart.0.disabled<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1&#34;</span>
+</span></
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Execució de pfSense al client prim HP t740: consells i guia de resolució de problemes</title><link>https://ca.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</guid><description>Obteniu informació sobre com configurar pfSense a l'HP t740 Thin Client i com resoldre problemes potencials com ara la congelació i els problemes de detecció de SSD.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>pfSense, OPNsense o HardenedBSD al client prim HP t740**</p>
+<p>Si busqueu un dispositiu potent per executar pfSense, OPNsense o HardenedBSD, l&rsquo;HP t740 Thin Client pot ser una opció adequada per a vosaltres.</p>
+<h2 id="més-potència-i-servidor-domèstic-compacte">
+  Més potència i servidor domèstic compacte
+  <a href="#m%c3%a9s-pot%c3%a8ncia-i-servidor-dom%c3%a8stic-compacte" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>L&rsquo;HP t740 Thin Client és un dispositiu compacte que es pot utilitzar com una potent caixa pfSense o un servidor domèstic compacte. Ofereix més potència que el t730 o el t620 Plus, cosa que el converteix en una opció adequada per executar PPPoE, especialment si teniu Internet de fibra. També pot oferir una ruta d&rsquo;actualització a xarxes de 10 Gigabit.</p>
+<h2 id="ps2-es-congela">
+  PS/2 es congela
+  <a href="#ps2-es-congela" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Tanmateix, si teniu previst executar FreeBSD o els seus derivats com pfSense, OPNsense o HardenedBSD al metall nu (a diferència de l&rsquo;interior d&rsquo;ESXi o Proxmox), és possible que us trobeu amb un problema en què el sistema es bloquegi a l&rsquo;arrencada amb el missatge. <code>atkbd0: [GIANT-LOCKED]</code> Afortunadament, aquest problema es pot resoldre introduint les ordres següents a l&rsquo;indicador d&rsquo;arrencada:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>unset hint.uart.0.at
+</span></span><span style="display:flex;"><span>unset hint.uart.1.at
+</span></span></code></pre></div><ul>
+<li>Tingueu en compte que heu de desactivar tots dos, en cas contrari, encara es bloquejarà a l&rsquo;arrencada.*</li>
+</ul>
+<p>Després d&rsquo;instal·lar el sistema operatiu, obriu un shell posterior a la instal·lació i executeu l&rsquo;ordre següent:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vi /boot/loader.conf.local
+</span></span></code></pre></div><p>A continuació, afegeix aquestes dues línies:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="dis
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Protegiu les vostres dades amb la regla de còpia de seguretat 3-2-1.</title><link>https://ca.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</link><pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</guid><description>Apreneu a protegir les vostres dades valuoses d'atacs cibernètics, desastres naturals i errors de maquinari.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>La regla de còpia de seguretat 3-2-1: protegeix les teves dades avui</strong></p>
+<p>Esteu prenent les mesures necessàries per protegir les vostres dades? Amb l&rsquo;amenaça creixent d&rsquo;atacs cibernètics, desastres naturals i fallades de maquinari, és més important que mai tenir una estratègia de còpia de seguretat sòlida. Una estratègia de còpia de seguretat que ha guanyat popularitat en els últims anys és la <strong>regla de còpia de seguretat 3-2-1</strong>. En aquest article, explorarem què és la regla de còpia de seguretat 3-2-1, com funciona i per què l&rsquo;heu d&rsquo;utilitzar per protegir les vostres dades valuoses.</p>
+<hr>
+<h2 id="entendre-la-regla-de-còpia-de-seguretat-3-2-1">
+  Entendre la regla de còpia de seguretat 3-2-1
+  <a href="#entendre-la-regla-de-c%c3%b2pia-de-seguretat-3-2-1" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>La regla de còpia de seguretat 3-2-1 és una estratègia de còpia de seguretat que garanteix que les vostres dades s&rsquo;emmagatzemen de forma segura en tres ubicacions diferents. Així és com funciona:</p>
+<ul>
+<li>Es creen <strong>3</strong> còpies de les vostres dades</li>
+<li><strong>S&rsquo;utilitzen 2</strong> tipus d&rsquo;emmagatzematge diferents</li>
+<li><strong>1</strong> còpia s&rsquo;emmagatzema fora del lloc</li>
+</ul>
+<p>En essència, teniu tres còpies de les vostres dades: la còpia original i dues còpies de seguretat. Aquestes còpies s&rsquo;emmagatzemen en dos tipus d&rsquo;emmagatzematge diferents, com ara un disc dur extern i un servei d&rsquo;emmagatzematge al núvol. A més, una de les còpies de seguretat s&rsquo;emmagatzema fora del lloc, proporcionant una capa addicional de protecció contra desastres físics com incendis o inundacions.</p>
+<hr>
+<h3 id="per-què-hauríeu-dutilitzar-la-regla-de-còpia-de-seguretat-3-2-1">
+  Per què hauríeu d&rsquo;utilitzar la regla de còpia de seguretat 3-2-1
+  <a href="#per-qu%c3%a8-haur%c3%adeu-dutilitzar-la-regla-de-c%c3%b2pia-de-seguretat-3-2-1" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Hi ha diversos motius pels quals hauríeu de considerar utilitzar la regla de còpia de seguretat 3-2-1 per protegir les vostres dades:</p>
+<ul>
+<li><strong>Protecció contra la pèrdua de dades</strong>: la pèrdua de dades es pot produir per diverses raons, com ara fallades de maquinari, atacs cibernètics i desastres naturals. Si tens tres còpies de les teves dades emmagatzemades en diverses ubicacions, p
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Una guia per a l'autenticació multifactor: tipus i bones pràctiques</title><link>https://ca.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</guid><description>Obteniu informació sobre els diferents tipus d'autenticació multifactor i com triar la millor per a les vostres necessitats de seguretat a la nostra guia definitiva.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>Amb l&rsquo;augment de les infraccions de seguretat en línia, s&rsquo;ha fet necessari utilitzar més que una contrasenya per assegurar l&rsquo;accés a la informació sensible. Aquí és on entra l&rsquo;<strong>autenticació multifactor</strong>, que proporciona una capa addicional de seguretat en requerir als usuaris que proporcionin dos o més factors d&rsquo;autenticació per accedir als seus comptes.</p>
+<h2 id="els-diferents-tipus-de-factors-a-lmfa">
+  Els diferents tipus de factors a l&rsquo;MFA
+  <a href="#els-diferents-tipus-de-factors-a-lmfa" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Hi ha diversos tipus de factors d&rsquo;autenticació utilitzats en l&rsquo;autenticació multifactor:</p>
+<ul>
+<li>
+<p><strong>Alguna cosa que saps:</strong> inclou informació que només coneix l&rsquo;usuari, com ara una contrasenya, un PIN o una resposta a una pregunta de seguretat. Un exemple d&rsquo;això és iniciar sessió a un compte de xarxes socials amb una contrasenya.</p>
+</li>
+<li>
+<p><strong>Alguna cosa que tens:</strong> Inclou un objecte físic que només posseeix l&rsquo;usuari, com ara una clau USB, una targeta intel·ligent o un telèfon mòbil. Un exemple d&rsquo;això és l&rsquo;ús d&rsquo;una targeta intel·ligent per accedir a una instal·lació governamental segura.</p>
+</li>
+<li>
+<p><strong>Alguna cosa que ets:</strong> Inclou informació biomètrica, com ara empremtes dactilars, reconeixement facial o exploracions de l&rsquo;iris. Un exemple d&rsquo;això és desbloquejar un telèfon intel·ligent mitjançant el reconeixement facial.</p>
+</li>
+<li>
+<p><strong>En algun lloc on et trobes:</strong> Inclou informació basada en la ubicació, com ara la ubicació GPS o l&rsquo;adreça IP de l&rsquo;usuari. Un exemple d&rsquo;això és un banc que requereix que un usuari autentiqui la seva ubicació abans de permetre l&rsquo;accés al seu compte.</p>
+</li>
+<li>
+<p><strong>Alguna cosa que feu:</strong> inclou dades biometriques del comportament, com ara la velocitat d&rsquo;escriptura de l&rsquo;usuari, els moviments del ratolí o els patrons de parla. Un exemple d&rsquo;això és un sistema que pot reconèixer la manera com escriu un usuari per autenticar la seva identitat.</p>
+</li>
+</ul>
+<p>Utilitzar diversos factors per autenticar la identitat d&rsquo;un usuari és més segur que utilitzar un sol factor, com ara una contrasenya. En utilitzar una combinació de factors d&rsquo;autenticació, és molt més difícil que els atacan
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Què són els Cyber Sentinels i per què hauríeu d'unir-vos-hi</title><link>https://ca.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</guid><description>Descobriu la missió i els principis dels Cyber Sentinels, una comunitat de ciberprofessionals i de TI compromesos a compartir coneixements i desenvolupar solucions innovadores per als reptes de la ciberseguretat.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/An_image_of_a_stylized_shield_or_emblem.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>Els Cyber Sentinels són una comunitat de professionals cibernètics i informàtics que es comprometen a compartir coneixements i col·laborar en noves idees, projectes i oportunitats d&rsquo;aprenentatge. La seva missió és proporcionar una plataforma on els membres puguin participar en debats significatius, explorar les tendències emergents del sector i desenvolupar solucions innovadores per als reptes de la ciberseguretat.</p>
+<p>Com a comunitat, els Cyber Sentinels estan oberts a qualsevol persona que comparteixi la seva passió per la ciberseguretat i la informàtica. Accepten professionals de tots els nivells, des de principiants fins a experts, i s&rsquo;esforcen per crear un entorn de suport i inclusiu on tothom pugui aprendre i créixer.</p>
+<p><strong>El que representen els Cyber Sentinels</strong></p>
+<p>En el seu nucli, els Cyber Sentinels representen uns quants principis clau que guien la seva missió i visió. Aquests principis inclouen:</p>
+<p><strong>1. Col·laboració</strong></p>
+<p>Els Cyber Sentinels creuen en el poder de la col·laboració per aconseguir grans coses. Treballant junts i compartint coneixements, poden desenvolupar solucions innovadores als reptes de ciberseguretat més complexos.</p>
+<p><strong>2. Compartir coneixement</strong></p>
+<p>Els Cyber Sentinels creuen que el coneixement és poder. En compartir la seva experiència i experiència, poden ajudar els altres a aprendre i créixer en el camp de la ciberseguretat.</p>
+<p><strong>3. Aprenentatge continu</strong></p>
+<p>La indústria de la ciberseguretat està en constant evolució i els Cyber Sentinels creuen en la importància de l&rsquo;aprenentatge continu per estar al dia de les últimes tendències i tecnologies.</p>
+<p><strong>4. Suport i inclusió</strong></p>
+<p>Els Cyber Sentinels s&rsquo;esforcen per crear un entorn de suport i inclusiu on tothom se senti benvingut i valorat. Creuen que la diversitat és una fortalesa i que tothom té alguna cosa per aportar a la comunitat.</p>
+<p><strong>5. Tenint un impacte positiu</strong></p>
+<p>Al final del dia, els Cyber Sentinels estan treballant per tenir un impacte positiu en la seguretat del món digital. Creuen que compartint coneixement, col·laborant en noves idees i desenvolupant solucions innovadores, poden ajudar a crear un paisatge digital més segur i segur per a tothom.</p>
+<h2 id="unint-se-als-cyber-sentinels">
+  Unint-se als Cyber Sentinels
+  <a href="#unint-se-als-cyber-sentinels" class="h-anchor" a
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Què fer si creieu que el vostre correu electrònic o telèfon està compromès</title><link>https://ca.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</guid><description>Apreneu els passos essencials a seguir si sospiteu que el vostre correu electrònic, escriptori o telèfon ha estat piratejat o compromès, com ara canviar les contrasenyes, buscar programari maliciós i netejar el vostre dispositiu.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>En aquesta era digital, els nostres dispositius contenen una gran quantitat d&rsquo;informació sensible, des de dades financeres i personals fins a documents de treball confidencials. Si sospiteu que el vostre correu electrònic, escriptori o telèfon s&rsquo;ha vist compromès, pot ser una experiència estressant i alarmant. Però no t&rsquo;espantis! Hi ha passos que podeu seguir per protegir les vostres dades i restaurar la seguretat del vostre dispositiu.</p>
+<h2 id="pas-1-avaluar-la-situació">
+  Pas 1: avaluar la situació
+  <a href="#pas-1-avaluar-la-situaci%c3%b3" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>El primer pas a fer quan sospiteu que el vostre correu electrònic, escriptori o telèfon ha estat compromès és avaluar la situació. Aquí hi ha algunes coses a buscar:</p>
+<ul>
+<li>
+<p><strong>Activitat inusual</strong>: comproveu si hi ha activitats inusuals al vostre dispositiu, com ara canvis en el fons de l&rsquo;escriptori o programes desconeguts que s&rsquo;executen en segon pla.</p>
+</li>
+<li>
+<p><strong>Fitxers desconeguts</strong>: cerqueu fitxers o programes desconeguts al vostre dispositiu, especialment a la carpeta Baixades o a l&rsquo;historial de descàrregues del vostre navegador.</p>
+</li>
+<li>
+<p><strong>Canvis a les credencials d&rsquo;inici de sessió</strong>: si sospiteu que el vostre correu electrònic s&rsquo;ha vist compromès, comproveu si hi ha correus electrònics que no heu enviat a la carpeta enviada i a la carpeta de la paperera si hi ha correus electrònics suprimits que no hàgiu suprimit. A més, cerqueu canvis a les vostres credencials d&rsquo;inici de sessió, com ara una nova adreça de correu electrònic o una contrasenya associada al vostre compte.</p>
+</li>
+<li>
+<p><strong>Correus electrònics desconeguts</strong>: si sospiteu que el vostre correu electrònic s&rsquo;ha vist compromès, cerqueu correus electrònics desconeguts a la vostra safata d&rsquo;entrada o a la carpeta de correu brossa.</p>
+</li>
+<li>
+<p><strong>Càrrecs inesperats</strong>: si sospiteu que el vostre telèfon s&rsquo;ha vist compromès, cerqueu qualsevol càrrec inesperat a la vostra factura telefònica o activitat inusual a l&rsquo;historial de trucades o missatges de text.</p>
+</li>
+</ul>
+<p>És important prendre nota de qualsevol signe de compromís perquè pugueu prendre les mesures adequades per protegir el vostre dispositiu i les vostres dades. Si no esteu segur de si el vostre dispositiu s&rsquo;ha vist comprom�
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Jocs a la xarxa d'heli: explotació de vulnerabilitats amb MiddleMan i el multiplexador de paquets Chirp Stack</title><link>https://ca.simeononsecurity.com/other/how-to-game-on-the-helium-network/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/how-to-game-on-the-helium-network/</guid><description>Apreneu a jugar a la xarxa Helium aprofitant les vulnerabilitats amb MiddleMan i Chirp Stack Packet Multiplexer, així com els riscos i les conseqüències de fer-ho.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/how-to-game-on-the-helium-network/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p><strong>Exempció de responsabilitat</strong>:
+És important tenir en compte que jugar a la xarxa Helium és una activitat il·legal i poc ètica que està fortament desaprovada per la comunitat Helium i la comunitat de criptomoneda i blockchain més àmplia. Jugar a la xarxa soscava la integritat de la xarxa i perjudica els amfitrions legítims que proporcionen una cobertura valuosa a la xarxa.</p>
+<p>A més, tot i que l&rsquo;ús de MiddleMan i Chirp Stack Packet Multiplexer per explotar vulnerabilitats a la xarxa Helium pot ser un motiu de preocupació, és important tenir en compte que Helium només pot solucionar aquests problemes mitjançant la introducció de passarel·les segures. Això requeriria la substitució de tots els punts d&rsquo;accés a la xarxa, que és una empresa important i pot ser que no sigui factible. Com a resultat, la comunitat Helium ha de mantenir-se vigilant i proactiva per abordar els reptes que plantegen els jocs a la xarxa.</p>
+<p>També val la pena assenyalar que l&rsquo;equip d&rsquo;Helium és conscient del problema des de fa temps i ha pres mesures per solucionar-lo, però calen més accions per resoldre el problema. La comunitat demana que es prenguin mesures reals per abordar aquestes vulnerabilitats i garantir que la xarxa pugui continuar escalant i creixent d&rsquo;una manera segura i fiable.</p>
+<p>En escriure aquest article, esperem conscienciar sobre el problema dels jocs a la xarxa Helium i l&rsquo;ús de MiddleMan i Chirp Stack Packet Multiplexer per explotar les vulnerabilitats del sistema. Creiem que fent llum sobre aquest problema i aportant-hi més publicitat, la comunitat Helium i la comunitat de blockchain i criptomoneda més àmplia poden unir-se per abordar el problema i treballar cap a una xarxa més segura i fiable.</p>
+<p>A més, destacant aquest problema, esperem animar l&rsquo;equip d&rsquo;Helium a prendre mesures més decisives per abordar les vulnerabilitats de la xarxa i a implementar mesures de seguretat més sòlides per prevenir els jocs en el futur. Creiem que és important que l&rsquo;equip d&rsquo;Helium sigui transparent sobre els seus esforços per abordar aquest problema i es comuniqui amb la comunitat sobre el seu progrés per solucionar aquestes vulnerabilitats.</p>
+<p>Finalment, fent més publicitat a aquest tema, esperem fomentar una major conscienciació i educació sobre els riscos i les conseqüències dels jocs a la xarxa Helium. És important que els usuaris entenguin la i
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/how-to-game-on-the-helium-network/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>El poder de les xarxes LoRa: explicant la integració d'heli</title><link>https://ca.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid><description>Descobriu els avantatges d'integrar la xarxa LoRa amb Helium per a dispositius IoT i indústries com les ciutats intel·ligents, l'agricultura i la logística.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/">Read the full article at https://ca.simeononsecurity.com</a>
+
+        <p>El poder de les xarxes LoRa: explicant la integració d&rsquo;heli**</p>
+<p>Amb la demanda creixent de dispositius connectats, <strong>la xarxa LoRa</strong> s&rsquo;ha convertit en una solució popular per a la comunicació de llarg abast entre dispositius IoT. La xarxa funciona amb poca potència, però pot transmetre dades durant diversos quilòmetres, la qual cosa la converteix en una solució ideal per a indústries com les ciutats intel·ligents, l&rsquo;agricultura, la logística i molt més.</p>
+<h2 id="què-és-la-xarxa-lora">
+  Què és la xarxa LoRa?
+  <a href="#qu%c3%a8-%c3%a9s-la-xarxa-lora" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p><strong>La xarxa LoRa</strong> és una xarxa d&rsquo;àrea àmplia de baixa potència (LPWAN) dissenyada específicament per a aplicacions IoT. Consta de tres components principals: nodes, passarel·les i el núvol. Els <strong>nodes</strong> són dispositius que transmeten dades al núvol, mentre que les <strong>gateways</strong> s&rsquo;encarreguen de rebre dades dels nodes i reenviar-les al núvol.</p>
+<p>La <strong>tecnologia LoRa</strong> utilitza una tècnica de modulació d&rsquo;espectre expandit que li permet transmetre dades a llargues distàncies mentre consumeix poca potència. La tecnologia funciona en un espectre sense llicència, el que significa que els usuaris no han de pagar per una llicència per utilitzar-la.</p>
+<hr>
+<h2 id="què-són-els-reenviadors-de-paquets-semtech">
+  Què són els reenviadors de paquets Semtech?
+  <a href="#qu%c3%a8-s%c3%b3n-els-reenviadors-de-paquets-semtech" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Els <strong>Semtech Packet Forwarders</strong> són aplicacions de programari que s&rsquo;executen a passarel·les per rebre dades dels nodes LoRa i reenviar-les al núvol. Aquestes aplicacions estan dissenyades per gestionar el protocol LoRaWAN, que és el protocol estàndard utilitzat per les xarxes LoRa.</p>
+<p>Els reenviadors de paquets Semtech converteixen les dades rebudes dels nodes LoRa en un format que es pot enviar al núvol. També gestionen la comunicació entre la passarel·la i el servidor del núvol. Hi ha dos tipus de reenviadors de paquets Semtech: <strong>bàsic</strong> i <strong>complet</strong>. Els reenviadors de paquets bàsics només proporcionen funcionalitats bàsiques, com ara rebre i reenviar paquets, mentre que els reenviadors de paquets complets ofereixen funcions addicionals, com ara seguretat, adaptació de la velocitat de
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/">Read More at https://ca.simeononsecurity.com</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
