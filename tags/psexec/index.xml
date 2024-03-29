@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>psexec on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/psexec//img/banner.png</url>
+      <title>psexec on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/psexec/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/psexec/</link>
+
+    <description>Recent content in psexec on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/psexec/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dzisiaj nauczyłem się więcej modułów Powershell i Ansible</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-03/</link>
+        
+        <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+              <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator>
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Administracja Windows"
+            
+              , "PowerShell"
+            
+              , "Automatyzacja IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-03/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity dowiedział się i znalazł dziś interesujące informacje**
+SimeonOnSecurity dowiedział się o Windows STIG Ansible i zaktualizował powiązane repozytoria. Przestudiował również różne zasoby Microsoft i Ansible związane z powershell, remotingiem i wykonywaniem poleceń powłoki/powershell w systemie Windows przy użyciu modułów takich jak invoke-command, start-process, win_powershell, win_shell, psexec i win_psexec.
+Nowe/zaktualizowane repozytoria: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Zasoby edukacyjne: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.windows.win_powershell ansible.windows.win_shell module community.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>
