@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Modules PowerShell on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/modules-powershell//img/banner.png</url><title>Modules PowerShell on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/modules-powershell/</link></image><link>https://fr.simeononsecurity.com/tags/modules-powershell/</link><description>Recent content in Modules PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/modules-powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell Scripting : Un guide pas à pas pour les débutants afin d'automatiser les tâches</title><link>https://fr.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Technologie"
+, "Programmation"
+, "Automatisation"
+, "Fenêtres"
+, "Scripting"
+, "IT"
+, "Tâches administratives"
+, "Gestion informatique"
+, "Développement de logiciels"
+, "Codage"</category><guid>https://fr.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez les bases de l'écriture de scripts PowerShell et automatisez des tâches grâce à ce guide pas à pas pour les débutants, qui couvre les cmdlets, les boucles, les fonctions et bien plus encore.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Aujourd'hui, j'ai appris plus de modules Powershell et Ansible</title><link>https://fr.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "PowerShell"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**
+SimeonOnSecurity a découvert Windows STIG Ansible et a mis à jour les dépôts correspondants. Il a également étudié diverses ressources Microsoft et Ansible relatives à powershell, au remoting et à l&amp;rsquo;exécution de commandes shell/powershell sur Windows à l&amp;rsquo;aide de modules tels que invoke-command, start-process, win_powershell, win_shell, psexec et win_psexec.
+New/Updated Repos : # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Ressources pédagogiques : # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.</description></item><item><title>Analyses de virus efficaces avec les modules PowerShell de VirusTotal</title><link>https://fr.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Modules PowerShell"
+, "PowerShell"
+, "Automatisation"
+, "VirusTotal"
+, "Analyse des virus"
+, "Balayage des domaines"
+, "Clé API"
+, "API de VirusTotal"
+, "Page des développeurs de VirusTotal"
+, "Administration des systèmes"
+, "Flux de travail en matière de sécurité"
+, "Analyse efficace des virus"
+, "Télécharger et installer"
+, "Dépôt GitHub"
+, "Exemples d'utilisation de l'API"</category><guid>https://fr.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Effectuez des analyses de virus efficaces avec les modules PowerShell de VirusTotal en automatisant l'interaction avec l'API de VirusTotal et en rationalisant votre flux de travail en matière de sécurité.</description></item></channel></rss>
