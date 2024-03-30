@@ -527,7 +527,7 @@ If you're using Goole Orion and you have one of the supported Carriers, such as 
 
 If you are not a subscriber to the supported carriers, you’ll need to install the test profile on your device using Safari on IOS or Google Chrome on android. This will enable your device for testing and enable your device to be able to automatically see and connect to the OpenRoaming enabled network for testing.
 
-OpenRoaming Testing Profile Links:
+OpenRoaming and PassPoint Testing Profile Links:
 - [AT&T](https://passpoint-profile.attwifi.com/) [Windows Only - Untested](ms-settings:wifi-provisioning?uri=https://passpoint-profile.attwifi.com/passpoint.xml)
 - [CLOUD4WI](https://c4wi.co/jk43W)
 - [GLOBALREACH](https://osu.odyssys.net/?qr)
@@ -535,6 +535,7 @@ OpenRoaming Testing Profile Links:
 - [Intel](https://provision.connectionassist.com/intel/)
 - [IronWiFi](https://osu.ironwifi.com/onlinesignup)
 - [SingleDigits](https://provision.connectionassist.com/demo/)
+- [XFinity](https://secureprofile.wifi.connected.xfinity.com/) (Only Available to XFinity Subscribers)
 
 OpenRoaming Profile APPs:
 - Cisco OpenRoaming
