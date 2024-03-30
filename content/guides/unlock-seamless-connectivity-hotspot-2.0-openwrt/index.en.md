@@ -345,11 +345,11 @@ config wifi-iface 'radio1_orion5g'
 
     # Comment out what you don't need and uncomment/modify what you do.
     #AT&T / Orion 3gpp
-    list iw_anqp_3gpp_cell_net '310,150'
-    list iw_anqp_3gpp_cell_net '310,280'
-    list iw_anqp_3gpp_cell_net '310,410'
-    list iw_anqp_3gpp_cell_net '313,100'
-    list iw_anqp_3gpp_cell_net '310,410'
+    list iw_anqp_3gpp_cell_net '311,180' #AT&T Wireless
+    list iw_anqp_3gpp_cell_net '313,100' #AT&T FirstNet
+    list iw_anqp_3gpp_cell_net '310,280' #AT&T Mobility
+    list iw_anqp_3gpp_cell_net '310,410' #AT&T Mobility
+    list iw_anqp_3gpp_cell_net '310,150' #Cricket Wireless
     #T-Mobile 3gpp 
     # list iw_anqp_3gpp_cell_net '310,240'
     # list iw_anqp_3gpp_cell_net '310,260'
