@@ -349,6 +349,7 @@ config wifi-iface 'radio1_orion5g'
     list iw_anqp_3gpp_cell_net '310,280'
     list iw_anqp_3gpp_cell_net '310,410'
     list iw_anqp_3gpp_cell_net '313,100'
+    list iw_anqp_3gpp_cell_net '310,410'
     #T-Mobile 3gpp 
     # list iw_anqp_3gpp_cell_net '310,240'
     # list iw_anqp_3gpp_cell_net '310,260'
@@ -357,11 +358,12 @@ config wifi-iface 'radio1_orion5g'
     list iw_domain_name 'orion.area120.com'
     list iw_domain_name 'orionwifi.com'
     list iw_domain_name 'dogwood120.net'
-    list iw_domain_name 'openroaming.goog'
     list iw_domain_name 'wifi.fi.google.com'
+    #breaks orion if specified here but is included as a domain to search for in the orion test profile
+    #list iw_domain_name 'openroaming.goog'
     #AT&T Domain Names
-    #list iw_domain_name 'attwifi.com'
     #list iw_domain_name 'att.com'
+    #list iw_domain_name 'attwifi.com'
     #list iw_domain_name 'attwireless.com'
     #T-Mobile Domain Names
     #list iw_domain_name 't-mobile.com'
@@ -372,7 +374,7 @@ config wifi-iface 'radio1_orion5g'
     #list iw_domain_name 'google.openroaming.net'
     #list iw_domain_name 'ciscooneid.openroaming.net'
     # Anything more than 3 OUIs and the information won't be available until the client performs a GAS Request.
-    # Orion / AT&T / OpenRoaming Default Consortium
+    # Orion Custom Default Consortium
     list iw_roaming_consortium 'f4f5e8f5f4'
     #OpenRoaming Consortium
     #Baseline Participation: OpenRoaming for All Identities, settlement-free, no personal data requested, baseline QoS - includes, but is not limited to users in education and research
