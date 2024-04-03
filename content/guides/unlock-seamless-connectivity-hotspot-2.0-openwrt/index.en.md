@@ -529,6 +529,7 @@ If you are not a subscriber to the supported carriers, you’ll need to install 
 
 OpenRoaming and PassPoint Testing Profile Links:
 - [AT&T](https://passpoint-profile.attwifi.com/) [Windows Only - Untested](ms-settings:wifi-provisioning?uri=https://passpoint-profile.attwifi.com/passpoint.xml)
+- [Boingo](https://passpoint.boingo.com/) (Only Available to Boingo Subscribers)
 - [CLOUD4WI](https://c4wi.co/jk43W)
 - [GLOBALREACH](https://osu.odyssys.net/?qr)
 - [Google Orion](https://get.orionwifi.com/web/orion-test-profile)
