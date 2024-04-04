@@ -102,6 +102,8 @@ In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compa
 
 ### 1. Assemble Your Workstation / Desktop / Laptop
 Ensure you have a computer with a USB port and internet access. You'll need this for downloading [firmware](https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update) and drivers.
+#### 1a. Configuring your UM980 (Optional but recommended)
+Connect to the device via a serial terminal. And run the following commands mentioned on our [Linux and Windows Guide](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script). Some are redundant due to firmware version differences, so if they error out you can ignore it. But it is a good practise to confirm with your manufacture that you have the latest firmware update.
 
 ### 2. Connect Hardware Components
 - If applicable, plug the ESP32 into the breakout board.
