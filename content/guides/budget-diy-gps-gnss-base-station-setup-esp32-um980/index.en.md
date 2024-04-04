@@ -50,7 +50,8 @@ Before we begin, let's take a look at the hardware components you'll need:
    - [Full Frequency Centimeter Level Low-power and High-precision UM980 Module RTK Differential Drone GPS Module GNSS Whole System](https://www.aliexpress.us/item/3256805781651631.html)
 
 6. **Firmware**: [ESP32-XBee Firmware](https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2)
-   6a. Alternative [Dual NTRIP Server Firmware Fork](https://github.com/incarvr6/esp32-ntrip) (Untested by us but suggested by the community.)
+
+6a. Alternative [Dual NTRIP Server Firmware Fork](https://github.com/incarvr6/esp32-ntrip) (Untested by us but suggested by the community.)
 
 ### **Why we Chose the Unicorecomm UM980: A Comparative Perspective**
 
