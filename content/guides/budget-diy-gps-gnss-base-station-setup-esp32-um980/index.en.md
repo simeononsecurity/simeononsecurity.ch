@@ -71,7 +71,6 @@ The **UM980**, particularly when based on [**ELT0214**](https://gnss.store/um982
 
 In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compared to the **U-Blox F9P**. Its ability to deliver exceptional performance in challenging environments, offer valuable **heading information**, ensure compatibility, and provide **dedicated support** make it the go-to GNSS module for those seeking the utmost in **precision** and **reliability**. Embrace the **Unicorecomm advantage** and elevate your GNSS applications to new heights with the **UM980**.
 
-
 ### Recommended Antennas
 ### Basic Antennas for RTK, ROVER, Window Situations
 - [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
@@ -82,7 +81,6 @@ In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compa
    - For RTK Clients. Ex. Drones or Robots.
 - [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
   - This is only recommended for those who can not properly install the antennas below. It will underperform against the others.
-
 
 ### Advanced Antennas for Base and Reciver Stations
 - (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
@@ -291,70 +289,75 @@ If you would like to reset the device configuration, you should also download:
 
       {{< figure src="esp32boot.webp" alt="ESP32 Boot Button" caption="ESP32 Boot Button - randomnerdtutorials.com" link="https://randomnerdtutorials.com/boot-button-1/" >}}
       
-      If this procedure does not work for any reason, an alternative method to perform a full reset is to follow the [Firmware Update](https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update) procedure, including the `wipe_config.bin` file as described.
-## Additional Configuration For Unicorecomm UM980 and UM982 Devices
+      If this procedure does not work for any reason, an alternative method to perform a full reset is to follow the [Firmware Update](https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update) procedure, including the `wipe_config.bin` file as described.Incorporating your feedback, let's refine the guide with a focus on the utilization of Serial(0) for communication with the UM980 or UM982 modules, include comprehensive commands for both modules, and suggest tests for each step to verify correct setup and functionality.
 
-To enable all the bands and base station mode on the Unicorecomm devices you'll need to serial into them using baud rate of `115200` and run the following commands. This can be done within terminal, putty, or the [Unicorecomm UPrecise](https://en.unicorecomm.com/download) software.
+---
 
-1. `mode base time 60 2 2.5`: This line configures the reference station's operation mode, which is set to "base". In this configuration the base station will figure out it's actual location after receiving traffic for 60 seconds. 
+### Understanding Serial(0) Usage on ESP32
 
-2. `CONFIG SIGNALGROUP 2`: This command appears to configure the signal group for the UM980/UM982 devices. This enables all bands and frequencies on the device.
+In typical ESP32 applications, Serial(0) pins (GPIO1 for TX and GPIO3 for RX) are reserved for programming the board and outputting debug messages. However, for this GNSS base station project, we're utilizing these pins for UART communication with the UM980 or UM982 module. 
 
-3. `rtcm1005 30 and rtcm1006 30`: These commands set the rate at which RTCM messages 1005 and 1006 are sent out from the reference station, respectively. The values "30" commands a 30-second interval.
+**Why Use Serial(0)?**
 
-4. `rtcm1033 1, rtcm1074 1, rtcm1077 1, rtcm1084 1, rtcm1087 1, rtcm1094 1, rtcm1097 1, and rtcm1117 1, rtcm1124 1 and rtcm1127 1`: These commands enable RTCM messages, ensuring that the reference station transmits these specific messages. The value "1" enables these messages to happen every second..
+- **Direct Connection**: Serial(0) offers a direct pathway for data communication between the ESP32 and the GNSS module, minimizing latency and potential interference from other processes.
+- **Resource Efficiency**: Leveraging Serial(0) allows us to conserve other serial ports (like Serial(1) and Serial(2)) for additional peripherals or functionalities you may want to integrate.
+- **Compatibility**: Most GNSS modules, including the UM980 and UM982, are designed to work seamlessly with the primary UART port, ensuring reliable data transmission.
 
-5. `saveconfig`: This command saves the configured settings, ensuring that they persist and are applied whenever the reference station is operational.
+**Addressing Concerns**: It's a common misconception that using Serial(0) for peripheral communication might interfere with programming and debugging. However, during normal operation (i.e., post-programming), these pins can be repurposed for UART communication without affecting the ability to upload new code or output debug information when needed. The ESP32 smartly manages these roles, ensuring seamless switching between programming/debugging and regular UART communication.
 
-{{< centerbutton href="https://simeononsecurity.com/other/onocoy-supported-rtcm-messages/" >}}Read our guide RTCM3 Messages!{{< /centerbutton >}}
+---
 
-### Unicorecomm UM980 and UM982 Configuration Script
-```bash
-# Set up automatic base configuration with automatic gps location 
-mode base time 60 2 2.5
+### Setting Up the UM980/UM982
 
-# Enable the Largest Signal Group
-config signalgroup 2
-config RTCMB1CB2a enable
+Before diving into configuration, performing a factory reset and checking the firmware version of your GNSS module ensures a clean setup and compatibility with the latest features and fixes.
 
-# ONLY IF MODULE IS UM982
-# CONFIG SIGNALGROUP 3 6
+1. **Factory Reset**:
+   - For both UM980 and UM982, you can initiate a factory reset via the command:
+     ```bash
+     UNLOG
+     FRESET
+     RESET ALL
+     ```
+   - This command reverts the module to its original factory settings.
 
-# Enable All GPS Messages
-unlog
-gngga 1
-gpgll 1
-gpgsa 1
-gpgsv 1
-gnrmc 1
-gpvtg 1
-gpzda 1
-gpgst 1
-saveconfig
+2. **Check Firmware Version**:
+   - To verify the firmware version, read the log output and look for a message that looks like:
+     ```bash
+     #VERSIONA,94,GPS,FINE,2190,117325000,0,0,18,160;"UM982","R4.10Build5251","HRPT0-S10C-P","-","ffff48ffff0fffff","2021/11/26"*e195b2
+     ```
+     - Where `R4.10Build52` would be your firmware version.
+     - Contact your device manufacture to verify that you're on the latest version.
+   - This step is crucial to ensure your module operates with the latest improvements and bug fixes.
 
-#enable all bands
-UNMASK GPS
-UNMASK BDS
-UNMASK GLO
-UNMASK GAL
-UNMASK B1
-UNMASK E5A
-saveconfig
+---
 
-#ONOCOY RTCM CONFIGURATION
-rtcm1006 30
-rtcm1033 30
-rtcm1077 1
-rtcm1087 1
-rtcm1097 1
-rtcm1117 1
-rtcm1127 1
-saveconfig
+### Configuration Commands for UM980/UM982
 
-# ONLY CHANGE IF YOU WANT TO IMPROVE THE BAUDRATE
-# config com1 921600
-# saveconfig
-```
+Proceed with configuring your GNSS module with the following commands. These instructions assume a connection via a serial terminal to the module at a baud rate of 115200.
+
+   > For a full configuration with maximum output, please see our [Linux and Windows Guide](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script).
+
+1. **Basic Configuration**:
+   - Start with the basic setup to ensure your module communicates correctly:
+     ```
+     mode base time 60 2 2.5
+     config signalgroup 2
+     saveconfig
+     ```
+
+2. **Enable RTCM Messages**:
+   - Configure RTCM messages for GNSS data output:
+     ```
+     rtcm1005 30
+     rtcm1006 30
+     rtcm1033 1
+     rtcm1077 1
+     rtcm1087 1
+     rtcm1097 1
+     rtcm1117 1
+     rtcm1127 1
+     saveconfig
+     ```
 
 *It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type.
 
@@ -363,15 +366,28 @@ For additional configuration guidance, consult the following documentation:
 - [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
 - [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
 
+---
 
-### 9. Testing
+### 9. Testing and Verification
 Once the firmware is successfully flashed, your ESP32 board is ready for testing. Begin developing and running IoT applications, making the most of the board's WiFi, Bluetooth, and GNSS capabilities.
 
 This is where you'll unplug the ESP32 from your desktop and Plug the [CanaKit Raspberry Pi 4 power supply](https://amzn.to/3ZOpDao) into a power source and connect it to the [ESP32 board](https://amzn.to/3rEMIjr) via USB-C.
 
-Testing is going to depend on multiple factors. This part is up to you. 
-I suggest using [Onocoy](https://console.onocoy.com/explorer) and using their service to test your configuration if you're setting up an NTRIP Server.
+Testing is going to depend on multiple factors. This part is up to you. But here are some suggestions:
 
+It's important to verify that the settings are correctly applied and the system operates as expected.
+
+1. **UART Traffic Indication**:
+   - Monitor the UART pins for activity. An LED indicator can be useful for visual confirmation of data transmission.
+   - Access the ESP32's `/log.html` URL to check for real-time data logs. Successful communication with the GNSS module should result in visible GNSS data streams or RTCM messages being logged.
+
+2. **Module Communication Test**:
+   - Send a simple command to the GNSS module, such as `saveconfig`, and verify the response. This ensures that your ESP32 and GNSS module communicate effectively over Serial(0).
+
+3. **GNSS Data Output**:
+   - Once the system is set up and running, use a GNSS data viewer or parser to verify the output. Ensure you're receiving valid data that matches your expectations in terms of fix status, satellite visibility, and other critical GNSS metrics. I suggest using [Onocoy](https://console.onocoy.com/explorer) and using their service to test your configuration if you're setting up an NTRIP Server.
+
+By carefully following these enhanced guidelines and conducting the suggested tests, you can ensure a successful setup of your DIY GNSS base station, leveraging the powerful capabilities of ESP32 and the precision of Unicorecomm's UM980 or UM982 modules.
 
 ## Conclusion
 
