@@ -699,6 +699,17 @@ For additional configuration guidance, consult the following documentation:
 - [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
 - [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
 
+### Symlinking Serial Devices to Hardcoded Path
+
+In order to make the device appear as ttyUM980 instead of ttyUSB0:
+
+`$ cat /etc/udev/rules.d/00-um980.rules`
+```bash
+KERNEL=="ttyUSB[0-9]", \
+ATTRS{idVendor}=="0403",ATTRS{idProduct}=="6015", \
+SYMLINK+="ttyUM980"
+```
+
 ### Maintaining UPrecise Access with Linux using Socat
 
 To ensure uninterrupted UPrecise access when using Linux, you can utilize the `socat` application to connect to the UM980's serial interface from a Windows machine.
