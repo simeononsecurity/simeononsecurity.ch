@@ -126,9 +126,19 @@ Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives a
   - Wiring
     - `UM980 UART VCC (Pin 1)` to `ESP32 3.3V` (or 3V3) for power.
     - `UM980 UART GND (Pin 2)` to `ESP32 GND` for ground.
-    - `UM980 UART TXD (Pin 3)` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`). Alternatively you can use `GPIO pin 1`.
-    - `UM980 UART RXD (Pin 4)` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`). Alternatively you can use `GPIO pin 3`.
+    - `UM980 UART TXD (Pin 3)` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`), this is UART 2. Alternatively you can use `GPIO pin 1`, this is UART 0.
+    - `UM980 UART RXD (Pin 4)` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`), this is UART 2. Alternatively you can use `GPIO pin 3`, this is UART 0.
     - {{< figure src="aliexpressum980.png" alt="Connecting the AliExpress UM980 Module to The ESP32 Devboard" caption="AliExpress UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
+   
+#### Understanding the ESP32 UART 
+
+For more information on [selecting pins on the esp32](https://circuits4you.com/2018/12/31/esp32-hardware-serial2-example/) click on the linked article or read the table below:
+
+| UART  | RX IO  | TX IO  | CTS    | RTS    |
+|-------|--------|--------|--------|--------|
+| UART0 | GPIO3  | GPIO1  | N/A    | N/A    |
+| UART1 | GPIO9  | GPIO10 | GPIO6  | GPIO11 |
+| UART2 | GPIO16 | GPIO17 | GPIO8  | GPIO7  |
 
 
 ### 4. Employ the Enclosure Kit
@@ -274,6 +284,7 @@ If you would like to reset the device configuration, you should also download:
       {{< figure src="xbeeesp32adminuserconfig.png" alt="XBee ESP32 Admin User Configuration Page" caption="XBee ESP32 Admin User Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
 
       > *Remember, if you're using onocoy, per their documentation for NTRIPv1 Server devices like this you should specify your `username` as the `mountpoint`, `username` empty, and `password` as password when configuring your NTRIP Server Settings.*
+      > Additionally, remember to select the correct [UART](https://circuits4you.com/2018/12/31/esp32-hardware-serial2-example/) based on the pins selected to wire to on the esp32.
 
 5. **Step 5: Improve Security Configuration**
 
