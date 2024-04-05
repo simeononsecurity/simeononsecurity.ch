@@ -119,15 +119,15 @@ Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives a
   - Wiring
     - `UM980 +5V` to `ESP32 5V` (or 3V3) for power.
     - `UM980 GND` to `ESP32 GND` for ground.
-    - `UM980 TXD2` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`).
-    - `UM980 RXD2` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`).
+    - `UM980 TXD2` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`). Alternatively you can use `GPIO pin 1`.
+    - `UM980 RXD2` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`). Alternatively you can use `GPIO pin 3`.
     - {{< figure src="gnssstoreum980.png" alt="Connecting the GNSS.store UM980 Module to The ESP32 Devboard" caption="GNSS.store UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
 - [Full Frequency Centimeter Level Low-power and High-precision UM980 Module RTK Differential Drone GPS Module GNSS Whole System](https://www.aliexpress.us/item/3256805781651631.html)
   - Wiring
     - `UM980 UART VCC (Pin 1)` to `ESP32 3.3V` (or 3V3) for power.
     - `UM980 UART GND (Pin 2)` to `ESP32 GND` for ground.
-    - `UM980 UART TXD (Pin 3)` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`).
-    - `UM980 UART RXD (Pin 4)` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`).
+    - `UM980 UART TXD (Pin 3)` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`). Alternatively you can use `GPIO pin 1`.
+    - `UM980 UART RXD (Pin 4)` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`). Alternatively you can use `GPIO pin 3`.
     - {{< figure src="aliexpressum980.png" alt="Connecting the AliExpress UM980 Module to The ESP32 Devboard" caption="AliExpress UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
 
 
@@ -135,7 +135,6 @@ Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives a
 For environmental protection, consider using the [qBoxMini DIY IOT Enclosure Kit](https://amzn.to/3PIvwl7). It offers waterproof protection and includes connectors and a prototyping PCB for easy integration.
 
 {{< figure src="esp32-in-project-box.png" alt="ESP32 Devboard in a Project Box" >}}
-
 
 ### 5. Choose the GNSS Receiver
 Depending on your project needs, timeline, and budget, select the appropriate [GNSS receiver board](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex). 
@@ -273,6 +272,8 @@ If you would like to reset the device configuration, you should also download:
       The new IP address will be the first address in the 3rd line as above, i.e. 192.168.43.100.
    
       {{< figure src="xbeeesp32adminuserconfig.png" alt="XBee ESP32 Admin User Configuration Page" caption="XBee ESP32 Admin User Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
+
+      > *Remember, if you're using onocoy, per their documentation for NTRIPv1 Server devices like this you should specify your `username` as the `mountpoint`, `username` empty, and `password` as password when configuring your NTRIP Server Settings.*
 
 5. **Step 5: Improve Security Configuration**
 
