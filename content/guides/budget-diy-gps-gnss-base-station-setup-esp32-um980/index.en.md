@@ -350,7 +350,9 @@ Before diving into configuration, performing a factory reset and checking the fi
 
 Proceed with configuring your GNSS module with the following commands. These instructions assume a connection via a serial terminal to the module at a baud rate of 115200.
 
-   > For a full configuration with maximum output, please see our [Linux and Windows Guide](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script).
+   > For a full configuration with maximum output, please see our [UM980 Configuration Script](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script).
+
+{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script" >}}See Our Full UM980 and UM982 Configuration Script{< /centerbutton >}}
 
 1. **Basic Configuration**:
    - Start with the basic setup to ensure your module communicates correctly:
@@ -364,7 +366,6 @@ Proceed with configuring your GNSS module with the following commands. These ins
    - Configure RTCM messages for GNSS data output:
      ```
      rtcm1005 30
-     rtcm1006 30
      rtcm1033 1
      rtcm1077 1
      rtcm1087 1
@@ -374,7 +375,9 @@ Proceed with configuring your GNSS module with the following commands. These ins
      saveconfig
      ```
 
-*It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type.
+> *It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type.
+
+> To understand all the messages Onocoy specifically supports, please see our article on [What RTCM Messages Onocoy Supports](https://simeononsecurity.com/other/onocoy-supported-rtcm-messages/).
 
 ### Unicorecomm UM980 and UM982 Commands Reference Manuals
 For additional configuration guidance, consult the following documentation:
