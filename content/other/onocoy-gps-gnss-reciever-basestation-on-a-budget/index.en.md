@@ -569,21 +569,11 @@ To enable all the bands and base station mode on the Unicorecomm devices you'll 
 
 - [Alternate (More up to date) U-Precise Installer](http://www.eltehs.lv/UPrecise-V2.0.802.zip)
 
-The provided configuration adjustments are made to ensure the proper functionality of the reference station receiver, specifically tailored for the [Onocoy system](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).
-
-1. `mode base time 60 2 2.5`: This line configures the reference station's operation mode, which is set to "base". In this configuration the base station will figure out it's actual location after receiving traffic for 60 seconds. 
-
-2. `CONFIG SIGNALGROUP 2`: This command appears to configure the signal group for the UM980/UM982 devices. This enables all bands and frequencies on the device.
-
-3. `rtcm1005 30 and rtcm1006 30`: These commands set the rate at which RTCM messages 1005 and 1006 are sent out from the reference station, respectively. The values "30" suggest a 30-second interval, which is optimized for [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).
-
-4. `rtcm1033 1, rtcm1074 1, rtcm1077 1, rtcm1084 1, rtcm1087 1, rtcm1094 1, rtcm1097 1, and rtcm1117 1, rtcm1124 1 and rtcm1127 1`: These commands enable RTCM messages per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy), ensuring that the reference station transmits these specific messages. The value "1" enables these messages to happen every second..
-
-5. `saveconfig`: This command saves the configured settings, ensuring that they persist and are applied whenever the reference station is operational.
+The provided configuration adjustments are made to ensure the proper functionality of the reference station receiver, specifically tailored for the [Onocoy system](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy). [Click here understand What RTCM Messages Onocoy supports](https://simeononsecurity.com/other/onocoy-supported-rtcm-messages/).
 
 ### Unicorecomm UM980 and UM982 Configuration Script
 
-> **Note:** Not all of these commands will work on all UM980 or UM982 varients. Some commands are firmware specific. Not all commands are required. These are just what we determined to be "most optimal" for most situations for both Onocoy and for any other service you may use your UM98x with. If there is a feature missing that you want, contact your device manufacture for firmware update instructions.
+> **Note:** Not all of these commands will work on all UM980 or UM982 varients. Some commands are firmware specific some are redundant. Not all commands are required. These are just what we determined to be "most optimal" for most situations for both Onocoy and for any other service you may use your UM98x with. If there is a feature missing that you want, contact your device manufacture for firmware update instructions.
 
 ```bash
 # Enable anti-jamming function
@@ -654,7 +644,7 @@ UNMASK ALL
 saveconfig
 
 # ONOCOY RTCM CONFIGURATION
-rtcm1006 30
+rtcm1005 30
 rtcm1033 30
 rtcm1077 1
 rtcm1087 1
