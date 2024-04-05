@@ -284,6 +284,7 @@ If you would like to reset the device configuration, you should also download:
       {{< figure src="xbeeesp32adminuserconfig.png" alt="XBee ESP32 Admin User Configuration Page" caption="XBee ESP32 Admin User Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
 
       > *Remember, if you're using onocoy, per their documentation for NTRIPv1 Server devices like this you should specify your `username` as the `mountpoint`, `username` empty, and `password` as password when configuring your NTRIP Server Settings.*
+      
       > Additionally, remember to select the correct [UART](https://circuits4you.com/2018/12/31/esp32-hardware-serial2-example/) based on the pins selected to wire to on the esp32.
 
 5. **Step 5: Improve Security Configuration**
