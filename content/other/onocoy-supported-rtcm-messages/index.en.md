@@ -107,3 +107,6 @@ Onocoy's support for RTCM messages is instrumental in ensuring the utmost accura
 3. [RTCM Standard 10403.3](https://rtcm.myshopify.com/)
 4. [Onocoy Documentation](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy)
 5. [RTCM3 Message List](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/)
+6. [RTCM messages v2.3](https://ge0mlib.com/papers/Protocols/RTCM_SC-104_v2.3.pdf)
+7. [RTCM messages v3.2](https://ge0mlib.com/papers/Protocols/RTCM_SC-104_v3.2.pdf)
+8. [GNSS (RTK) -- RTCM protocol's descriptions and standards](https://ge0mlib.com/papers.html#Standards)
