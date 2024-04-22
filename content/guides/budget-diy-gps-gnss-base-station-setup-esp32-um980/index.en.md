@@ -352,7 +352,7 @@ Proceed with configuring your GNSS module with the following commands. These ins
 
    > For a full configuration with maximum output, please see our [UM980 Configuration Script](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script).
 
-{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script" >}}See Our Full UM980 and UM982 Configuration Script{< /centerbutton >}}
+{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script" >}}See Our Full UM980 and UM982 Configuration Script {{< /centerbutton >}}
 
 1. **Basic Configuration**:
    - Start with the basic setup to ensure your module communicates correctly:
