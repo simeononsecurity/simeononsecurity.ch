@@ -13,7 +13,7 @@ ref: ["/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt"]
 ---
 **XNET Carrier Offload Guide**
 
->**Disclaimer:** As of writing this, I'm considered to be an XNET Insider. Nothing you read here should be considered financial advice or to be speculative on the token price. This article is of my own writing and is not to be considered to be "official" by any means.
+>**Disclaimer:** *As of writing this, I'm considered to be an XNET Insider. Nothing you read here should be considered financial advice or to be speculative on the token price. This article is of my own writing and is not to be considered to be "official" and isn't considered to be an endorsement by "XNET" by any means.*
 
 ## Introduction
 In the rapidly evolving world of telecommunications, **Wi-Fi offloading** is becoming increasingly crucial as a method to alleviate network congestion and improve user experience. This guide delves into the **XNET Carrier Offload system**, explaining how it integrates with existing cellular networks to provide seamless connectivity. By employing **Wi-Fi Passpoint technology**, XNET helps carriers manage data traffic more effectively, thus enhancing service quality and reducing operational costs.
@@ -140,7 +140,7 @@ Conversely, poor locations for XNET installations include isolated or low-traffi
 {{< figure src="xnet-clubhouse.png" alt="XNET XP6-Pro Install at a Clubhouse" link="" >}}
 
 #### XNET Installation Example 2 - Restaurant
-![alt text](image.png)
+
 {{< figure src="xnet-restaurant.png" alt="XNET XP6-Pro Install at Restaurant" link="" >}}
 
 #### XNET Installation Example 3 - Meeting SPace
