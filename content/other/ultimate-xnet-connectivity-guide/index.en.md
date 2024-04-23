@@ -68,8 +68,7 @@ Selecting the right Wi-Fi access point is crucial for optimizing network perform
 
 #### Comparison Table of XNET Wi-Fi Access Points
 
-```markdown
-| Feature           | [XT350 Outdoor WiFi AP ](https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921)                | [XR560 Wi-Fi Access Point ](https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921)           | [XP6-Pro Wi-Fi AP](https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921)                     |
+| Feature           | [XT350 Outdoor WiFi AP](https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921)                | [XR560 Wi-Fi Access Point ](https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921)           | [XP6-Pro Wi-Fi AP](https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921)                     |
 |-------------------|--------------------------------------|-------------------------------------|--------------------------------------|
 | **Ideal for**     | Outdoor and versatile environments    | Large indoor venues                 | Small to medium indoor venues        |
 | **Wi-Fi Standard**| Wi-Fi 6                              | Wi-Fi 6E                            | Wi-Fi 6                              |
@@ -80,7 +79,6 @@ Selecting the right Wi-Fi access point is crucial for optimizing network perform
 | **Deployment**    | Parks, patios, outdoor venues        | Conference centers, large offices   | Cafes, small restaurants             |
 | **Special Features**| Weather-resistant, versatile      | Tri-radio, advanced backhaul        | Compact, easy to deploy              |
 | **Power Over Ethernet (PoE)** | Supported                | Supported                           | Supported                            |
-```
 
 #### Key Differences and Suitability
 
