@@ -533,9 +533,10 @@ OpenRoaming and PassPoint Testing Profile Links:
 - [CLOUD4WI](https://c4wi.co/jk43W)
 - [GLOBALREACH](https://osu.odyssys.net/?qr)
 - [Google Orion](https://get.orionwifi.com/web/orion-test-profile)
-- [Intel](https://provision.connectionassist.com/intel/)
 - [IronWiFi](https://osu.ironwifi.com/onlinesignup)
-- [SingleDigits](https://provision.connectionassist.com/demo/)
+- [SingleDigits Demo](https://provision.connectionassist.com/demo/)
+- [SingleDigits Intel](https://provision.connectionassist.com/intel/)
+- [SingleDigits WBA](https://provision.connectionassist.com/wba/)
 - [XFinity](https://secureprofile.wifi.connected.xfinity.com/) (Only Available to XFinity Subscribers)
 
 OpenRoaming Profile APPs:
