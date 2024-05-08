@@ -18,7 +18,7 @@ ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/other/onocoy-
 ## Introduction
 The ESP32 is a versatile microcontroller renowned for its WiFi and Bluetooth capabilities. In this guide, we'll walk you through setting up the your **ESP32 development board** with the [**Unicorecomm UM980**](https://en.unicorecomm.com/products/detail/26) and various accessories. We'll also cover flashing the ESP32 with the desired firmware.
 
-{{< figure src="esp32pinout.jpg" alt="ESP32 Wroom DevKit Full Pinout" caption="ESP32 Wroom DevKit Full Pinout - mischianti.org" link="https://mischianti.org/2021/07/17/esp32-devkitc-v4-high-resolution-pinout-and-specs/" >}}
+{{< youtube id="Oc1LBFDj2MA" >}}
 
 ### Alternate Instructions
 **Want to use a linux distro or a raspberry pi?**
@@ -113,6 +113,9 @@ Connect to the device via a serial terminal. And run the following commands ment
 
 ### 3. Use Adapter Cables
 Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives as necessary to connect the [UM980](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) to your [ESP32 board](https://amzn.to/3rEMIjr). These cables offer compatibility with various connectors for expanding your project.
+
+
+{{< figure src="esp32pinout.jpg" alt="ESP32 Wroom DevKit Full Pinout" caption="ESP32 Wroom DevKit Full Pinout - mischianti.org" link="https://mischianti.org/2021/07/17/esp32-devkitc-v4-high-resolution-pinout-and-specs/" >}}
 
 - [UM980 RTK InCase PIN GNSS receiver board with USB C](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) 
   - If you choose this option, again, you'll need some [male to male dupont wires](https://amzn.to/3Q7VKyH)
