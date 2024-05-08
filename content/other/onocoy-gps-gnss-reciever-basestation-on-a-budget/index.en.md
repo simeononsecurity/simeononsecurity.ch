@@ -247,7 +247,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 
 2. Install some base dependencies.
       ```bash
-      sudo apt install -y gpsd gpsd-dbg gpsd-clients gpsbabel minicom socat git make build-essential
+      sudo apt install -y gpsd gpsd-clients minicom socat git make build-essential
       ```
 
 3. Follow one of the Options Below. Either **NTRIP Server** or **RTKLIB**
@@ -266,14 +266,14 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
     make
     ```
 2. Identify the USB Source
-
+    1. Idendify that linux recognizes the device is plugged in. 
     ```bash
     lsusb
     ```
     Ex. `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P` or `Bus xxx Device xxx: ID xxxx:xxxx U-Blox AG [u-blox 8]`
 
-    **Note**: *Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.*
-`
+   2. Identify the propper ttyUSB/ttyACM path.
+   **Note**: *Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.**
     ```bash
     ls /dev/ttyUSB*
     ```
