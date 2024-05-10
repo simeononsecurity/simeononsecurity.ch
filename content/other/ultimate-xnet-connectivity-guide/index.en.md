@@ -29,8 +29,8 @@ ______
 ______
 
 ## How Does XNET Carrier Offload Work?
-### Configuration and Partnership
-XNET configures wireless access points with **Passpoint technology** and brokers offloading deals with cellular carriers. This partnership allows for the automatic transfer of mobile data traffic to Wi-Fi networks, seamlessly integrating with users' mobile experiences.
+### Configurations and Alliances
+XNET configures wireless access points with **Passpoint technology** and brokers offloading deals with cellular carriers. This synergy allows for the automatic transfer of mobile data traffic to Wi-Fi networks, seamlessly integrating with users' mobile experiences.
 
 ### Authentication and Connectivity
 **Cellular carriers provide a certificate to XNET**, which is used to authenticate and announce to mobile devices that Wi-Fi offload is available. The seamless nature of this system means that users can connect to the internet without manual intervention, promoting a frictionless user experience.
