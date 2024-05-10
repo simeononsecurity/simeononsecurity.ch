@@ -254,7 +254,7 @@ ______
 Here's a quick Q&A to provide clarity on common inquiries regarding the XNET Carrier Offload system:
 
 - **Who uses XNET Mobile?**
-  - Customers from AT&T, AT&T FirstNet, Consumer Cellular, Cricket Wireless, Google-Fi, and other major carriers in the future.
+  - Customers from AT&T, AT&T FirstNet, Consumer Cellular, Cricket Wireless, Google-Fi, and other major carriers in the future. (Some are provided through a carrrier aggregation service.)
 
 - **What are the benefits of Wi-Fi offloading?**
   - **Reduced network congestion**: Offloads traffic to Wi-Fi to alleviate cellular network load.
