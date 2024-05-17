@@ -92,19 +92,21 @@
     <meta itemprop="name" content="{{ .Text }}">
     <meta itemprop="url" content="{{ .Destination | safeURL }}">
     <a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}" alt="{{ . }}"{{ end }}
-    {{ if or (not (strings.Contains $.Destination "http")) $isBaseURL }}
+    {{ if or (not (strings.Contains .Destination "http")) $isBaseURL }}
         rel="follow me"
-    {{ else if strings.HasPrefix $.Destination "http" }}
-        {{ if not $isBaseURL }}
+    {{ else if strings.HasPrefix .Destination "http" }}
+        {{ if not (strings.Contains .Destination $baseURL) }}
             {{ if $isaffiliateURL }}
-                rel="nofollow noopener external sponsored" alt="Affiliate Link"
+                rel="nofollow noopener external sponsored" alt="Affiliate Link" target="_blank"
             {{ else }}
                 {{ if $isUntrustedURL }}
-                    rel="nofollow noreferrer noopener external"
+                    rel="nofollow noreferrer noopener external" target="_blank"
                 {{ else }}
-                    rel="noopener external"
+                    rel="noopener external" target="_blank"
                 {{ end }}
             {{ end }}
+        {{ else }}
+            rel="follow me"
         {{ end }}
     {{ end }}>{{ .Text | safeHTML }}</a>
 </span>
