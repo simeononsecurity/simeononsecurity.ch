@@ -105,18 +105,17 @@
     <meta itemprop="name" content="{{ $contentname }}">
     <meta itemprop="url" content="{{ $url }}">
     <a href="{{ $url }}" title="{{ $title }}"
+        {{ with $target }} target="{{.}}" {{ end }}
         class="markdown-btn{{ $class }}"
         {{ if or (not (strings.Contains $url "http")) $isBaseURL }}
             rel="follow" alt="{{ $title }}"
         {{ else if strings.HasPrefix $url "http" }}
-            {{ if not (strings.Contains $url $baseURL) }}
+            {{ if not $isBaseURL }}
                 {{ if $isaffiliateURL }}
-                    rel="nofollow noopener external sponsored" alt="Affiliate Link" target="_blank"
+                    rel="nofollow noopener external sponsored" alt="Affiliate Link"  target="_blank"
                 {{ else }}
-                    rel="noopener external" alt="{{ $title }}" target="_blank"
+                    rel="noopener external" alt="{{ $title }}"  target="_blank"
                 {{ end }}
-            {{ else }}
-                rel="follow" alt="{{ $title }}"
             {{ end }}
         {{ end }}>
         <button class="markdown-button">
@@ -125,5 +124,4 @@
     </a>
     <p>{{ $description }}</p>
 </span>
-
 
