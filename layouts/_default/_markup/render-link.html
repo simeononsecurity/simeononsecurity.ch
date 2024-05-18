@@ -92,10 +92,10 @@
     <meta itemprop="name" content="{{ .Text }}">
     <meta itemprop="url" content="{{ .Destination | safeURL }}">
     <a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}" alt="{{ . }}"{{ end }}
-    {{ if or (not (strings.Contains .Destination "http")) $isBaseURL }}
+    {{ if or (not (strings.Contains $.Destination "http")) $isBaseURL }}
         rel="follow me"
-    {{ else if strings.HasPrefix .Destination "http" }}
-        {{ if not (strings.Contains .Destination $baseURL) }}
+    {{ else if strings.HasPrefix $.Destination "http" }}
+        {{ if not $isBaseURL }}
             {{ if $isaffiliateURL }}
                 rel="nofollow noopener external sponsored" alt="Affiliate Link" target="_blank"
             {{ else }}
@@ -105,8 +105,6 @@
                     rel="noopener external" target="_blank"
                 {{ end }}
             {{ end }}
-        {{ else }}
-            rel="follow me"
         {{ end }}
     {{ end }}>{{ .Text | safeHTML }}</a>
 </span>
