@@ -35,7 +35,7 @@ ______
 
 **Hotspot 2.0** is a Wi-Fi Alliance certification program that allows devices to automatically discover and connect to Wi-Fi networks that support HS 2.0. It provides enhanced security and seamless roaming capabilities across different Wi-Fi networks.
 
-{{< youtube id="4gDW6SJ150" >}}
+{{< youtube id="p4gDW6SJ150" >}}
 
 ### Benefits of Hotspot 2.0
 
@@ -221,10 +221,7 @@ The `hostapd` configuration is crucial for defining how your AP will handle Hots
     "
 }
 ```
-
-To understand all of the [hostapd configuration](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf) options may take a while. Many of the options may not be supported on Alta Labs devices, you'll need to experiment a bit. 
-
-[Please read the following to understand more about the hostapd configuration options](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf)
+We've made an example available of the [full configuration](https://gist.github.com/simeononsecurity/263512384ed5f70929651fc6d5e8a3db) in a github gist.
 
 **Key Parameters Explained:**
 
@@ -232,12 +229,25 @@ To understand all of the [hostapd configuration](https://w1.fi/cgit/hostap/plain
 - `internet=1`: Indicates internet access.
 - `interworking=1`: Enables interworking for seamless roaming.
 - `disable_dgaf=1`: Disables DGAF to prevent multicast traffic.
-- `oce=6`: Optimizes connectivity experience. For Carrier Offload this is a must!
+- `oce=6`: Optimizes connectivity experience. For Carrier Offload and Google Orion this is a must!
 - `ap_isolate=1`: Ensures layer 2 isolation for security.
 
 A little translation is required, but there are many more recommended configuration options that I've specified in my [Hotspot 2.0 Configuration for OpenWRT Devices article](https://simeononsecurity.com/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt/). Compare them to the exact line items you need in the [hostapd.conf example](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf) to understand how they need to be defined for alta labs devices.
 
-We've made an example available of the [full configuration](https://gist.github.com/simeononsecurity/263512384ed5f70929651fc6d5e8a3db) in a github gist.
+##### Suggested extra configurations
+
+- Setting a minimum rssi for connection and probe requests
+- Setting a QoS map
+- Setting a backup RADIUS server (if not using our radsec configuration)
+- For OpenRoaming, setting the Operator-Name attribute 126
+- Setting the Multi-Band Operation configuration
+- Configuring and optimizing WMM settings
+- Additional security flags and configurations such as `wpa_disable_eapol_key_retries=1` and `wnm_sleep_mode_no_keys=1`
+- Setting maximum supported clients
+- Disconnecting devices with low ack
+
+> To understand all of the [hostapd configuration](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf) options may take a while. Many of the options may not be supported on Alta Labs devices, you'll need to experiment a bit. 
+> [Please read the following to understand more about the hostapd configuration options](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf)
 
 ### Air-Time Efficiency
 
