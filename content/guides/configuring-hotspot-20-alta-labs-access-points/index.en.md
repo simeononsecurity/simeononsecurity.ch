@@ -45,7 +45,7 @@ ______
 
 ______
 
-## Prerequisites for Configuration of Hotspot 2.0 on Alta Labs Access POints
+## Prerequisites for Configuration of Hotspot 2.0 on Alta Labs Access Points
 
 Before diving into the configuration, ensure you have the following:
 
