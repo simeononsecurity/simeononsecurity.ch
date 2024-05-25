@@ -237,6 +237,8 @@ To understand all of the [hostapd configuration](https://w1.fi/cgit/hostap/plain
 
 A little translation is required, but there are many more recommended configuration options that I've specified in my [Hotspot 2.0 Configuration for OpenWRT Devices article](https://simeononsecurity.com/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt/). Compare them to the exact line items you need in the [hostapd.conf example](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf) to understand how they need to be defined for alta labs devices.
 
+We've made an example available of the [full configuration](https://gist.github.com/simeononsecurity/263512384ed5f70929651fc6d5e8a3db) in a github gist.
+
 ### Air-Time Efficiency
 
 {{< figure src="air-time-efficiency.webp" alt="A screenshot of the recommended alta labs configuration for Air-Time Efficiency" >}}
@@ -278,3 +280,4 @@ ______
 - [Alta Labs Documentation](https://help.alta.inc)
 - [OpenWRT Hotspot 2.0 Deployment Guide](https://simeononsecurity.com/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt)
 - [Hostapd.conf Example](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf)
+- [Alta Labs Hotspot 2.0 Configuration Example](https://gist.github.com/simeononsecurity/263512384ed5f70929651fc6d5e8a3db)
