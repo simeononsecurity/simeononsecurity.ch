@@ -234,7 +234,7 @@ We've made an example available of the [full configuration](https://gist.github.
 
 A little translation is required, but there are many more recommended configuration options that I've specified in my [Hotspot 2.0 Configuration for OpenWRT Devices article](https://simeononsecurity.com/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt/). Compare them to the exact line items you need in the [hostapd.conf example](https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf) to understand how they need to be defined for alta labs devices.
 
-##### Suggested extra configurations
+##### Suggested Extra Hostapd Configurations
 
 - Setting a minimum rssi for connection and probe requests
 - Setting a QoS map
