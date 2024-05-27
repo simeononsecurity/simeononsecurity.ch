@@ -23,29 +23,34 @@ The ESP32 is a versatile microcontroller renowned for its WiFi and Bluetooth cap
 ### Alternate Instructions
 **Want to use a linux distro or a raspberry pi?**
 
-Check out our guide on [**Setting up a NTRIP server on Linux**](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
+Check out our guide on {{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/" >}}**Setting up a NTRIP server on Linux**{{< /centerbutton >}}
 
-### Looking for how to use this with Onocoy?
+### Looking for how to use this with Onocoy on Linux or Windows??
 
-Check out our guide on [**DIY Onocoy Ntrip Server and Reference Station Setup**](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
+Check out our guide on {{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/" >}}**DIY Onocoy Ntrip Server and Reference Station Setup**{{< /centerbutton >}}
+
+### Want to learn how to set it up with Onocoy and RTKDirect to earn crypto rewards?
+
+Check out our guide on {{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}**Triple Mining: Geodnet, Onocoy, and RTKDirect**{{< /centerbutton >}}
+
 
 ### Recommended Hardware Components
 Before we begin, let's take a look at the hardware components you'll need:
 
 | Item                             | Description                                                                                                  |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **ESP32 Development Board**      | {{< button href="https://amzn.to/3rEMIjr" >}}AITRIP 2 Sets ESP-WROOM-32 ESP32{{< /button >}}                  |
-| **Power Supply**                 | {{< button href="https://amzn.to/3ZOpDao" >}}CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C){{< /button >}}  |
+| **ESP32 Development Board**      | {{< centerbutton href="https://amzn.to/3rEMIjr" >}}AITRIP 2 Sets ESP-WROOM-32 ESP32{{< /centerbutton >}}                  |
+| **Power Supply**                 | {{< centerbutton href="https://amzn.to/3ZOpDao" >}}CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C){{< /centerbutton >}}  |
 | **Adapter Cables**               | Choose one:                                                                                                  |
-|                                  | - {{< button href="https://amzn.to/3PGI5xc" >}}elechawk 9 PCS 1.25mm to Dupont 2.54mm Pitch Adapter Cables{{< /button >}}                     |
-|                                  | - {{< button href="https://amzn.to/3PUgiJY" >}}PB1.25 to Dupont 2.54mm Connectors and Cables Kit{{< /button >}}                               |
-|                                  | - {{< button href="https://www.aliexpress.us/item/3256805267757221.html" >}}2Pcs 1.25mm to 2.54mm dupont cable 1pin female{{< /button >}} - **Choose the 4P Option** |
-| **Enclosure Kit**                | {{< button href="https://amzn.to/3PIvwl7" >}}qBoxMini DIY IOT Enclosure Plus Kit (One SMA){{< /button >}}     |
+|                                  | - {{< centerbutton href="https://amzn.to/3PGI5xc" >}}elechawk 9 PCS 1.25mm to Dupont 2.54mm Pitch Adapter Cables{{< /centerbutton >}}                     |
+|                                  | - {{< centerbutton href="https://amzn.to/3PUgiJY" >}}PB1.25 to Dupont 2.54mm Connectors and Cables Kit{{< /centerbutton >}}                               |
+|                                  | - {{< centerbutton href="https://www.aliexpress.us/item/3256805267757221.html" >}}2Pcs 1.25mm to 2.54mm dupont cable 1pin female{{< /centerbutton >}} - **Choose the 4P Option** |
+| **Enclosure Kit**                | {{< centerbutton href="https://amzn.to/3PIvwl7" >}}qBoxMini DIY IOT Enclosure Plus Kit (One SMA){{< /centerbutton >}}     |
 | **GNSS Receiver Board**          | Choose one:                                                                                                  |
-|                                  | - {{< button href="https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex" >}} UM980 RTK InCase PIN GNSS receiver board with USB C{{< /button >}} **Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.** If you choose this option, you'll need some {{< button href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /button >}}. |
-|                                  | - {{< button href="https://www.aliexpress.us/item/3256805781651631.html" >}}Full Frequency Centimeter Level Low-power and High-precision UM980 Module{{< /button >}} |
-| **Firmware**                     | {{< button href="https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2" >}}ESP32-XBee Firmware{{< /button >}}                               |
-| **Alternative Firmware**         | {{< button href="https://github.com/incarvr6/esp32-ntrip" >}}Dual NTRIP Server Firmware Fork{{< /button >}} (Untested by us but suggested by the community) |
+|                                  | - {{< centerbutton href="https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex" >}} UM980 RTK InCase PIN GNSS receiver board with USB C{{< /centerbutton >}} **Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.** If you choose this option, you'll need some {{< centerbutton href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /centerbutton >}}. |
+|                                  | - {{< centerbutton href="https://www.aliexpress.us/item/3256805781651631.html" >}}Full Frequency Centimeter Level Low-power and High-precision UM980 Module{{< /centerbutton >}} |
+| **Firmware**                     | {{< centerbutton href="https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2" >}}ESP32-XBee Firmware{{< /centerbutton >}}                               |
+| **Alternative Firmware**         | {{< centerbutton href="https://github.com/incarvr6/esp32-ntrip" >}}Dual NTRIP Server Firmware Fork{{< /centerbutton >}} (Untested by us but suggested by the community) |
 
 ### **Why we Chose the Unicorecomm UM980: A Comparative Perspective**
 
@@ -71,21 +76,21 @@ In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compa
 ### Basic Antennas for RTK, ROVER, Window Situations
 | Item                             | Description                                                                                                  |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| {{< button href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna - $9{{< /button >}}        | Basic, simple, not the best, but it works.                                                                   |
-| {{< button href="https://amzn.to/3PcSGki" >}}Bingfu GPS Navigation External Antenna - $24{{< /button >}} | Outdoor Rated, Cheap, Allows view of the Sky.                                                                |
-| {{< button href="https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html" >}}High Performance GNSS L1 Active Quad Helix Antenna - $75{{< /button >}} | For RTK Clients. Ex. Drones or Robots.                                                                       |
-| {{< button href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit - $85{{< /button >}} | This is only recommended for those who cannot properly install the antennas below. It will underperform against the others. |
+| {{< centerbutton href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna - $9{{< /centerbutton >}}        | Basic, simple, not the best, but it works.                                                                   |
+| {{< centerbutton href="https://amzn.to/3PcSGki" >}}Bingfu GPS Navigation External Antenna - $24{{< /centerbutton >}} | Outdoor Rated, Cheap, Allows view of the Sky.                                                                |
+| {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html" >}}High Performance GNSS L1 Active Quad Helix Antenna - $75{{< /centerbutton >}} | For RTK Clients. Ex. Drones or Robots.                                                                       |
+| {{< centerbutton href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit - $85{{< /centerbutton >}} | This is only recommended for those who cannot properly install the antennas below. It will underperform against the others. |
 
 
 ### Advanced Antennas for Base and Reciver Stations
 | Item                             | Description                                                                                                  |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| {{< button href="https://amzn.to/47MWdxa" >}}**Preferred** Beitian High Gain High Precision GPS/GNSS Antenna - $86{{< /button >}} | High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands. |
-| {{< button href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}**Preferred** Calibrated Survey GNSS Tripleband + L-band antenna (IP67) - $230{{< /button >}} | Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands. |
-| {{< button href="https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna" >}}Multi-frequency High Precision Survey Antenna - $95{{< /button >}} | Strong Antenna Signal, High Precision, Builtin Anti-interference. |
-| {{< button href="https://amzn.to/47Mj4ZH" >}}GNSS Surveying Antenna and Precise Navigation Antenna - $180{{< /button >}} | High Antenna Gain, Extremely High Precision, IP67 Rated. |
-| {{< button href="https://www.gns-electronics.de/product/harxon-csx627a/" >}}HARXON CSX627A - $135{{< /button >}} | Calibrated Triple Band RTK Antenna, IP67, Supports All Bands. |
-| {{< button href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna - $205{{< /button >}} | Supports Most Bands, IP67 Rated. |
+| {{< centerbutton href="https://amzn.to/47MWdxa" >}}**Preferred** Beitian High Gain High Precision GPS/GNSS Antenna - $86{{< /centerbutton >}} | High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands. |
+| {{< centerbutton href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}**Preferred** Calibrated Survey GNSS Tripleband + L-band antenna (IP67) - $230{{< /centerbutton >}} | Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands. |
+| {{< centerbutton href="https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna" >}}Multi-frequency High Precision Survey Antenna - $95{{< /centerbutton >}} | Strong Antenna Signal, High Precision, Builtin Anti-interference. |
+| {{< centerbutton href="https://amzn.to/47Mj4ZH" >}}GNSS Surveying Antenna and Precise Navigation Antenna - $180{{< /centerbutton >}} | High Antenna Gain, Extremely High Precision, IP67 Rated. |
+| {{< centerbutton href="https://www.gns-electronics.de/product/harxon-csx627a/" >}}HARXON CSX627A - $135{{< /centerbutton >}} | Calibrated Triple Band RTK Antenna, IP67, Supports All Bands. |
+| {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna - $205{{< /centerbutton >}} | Supports Most Bands, IP67 Rated. |
 
 
 ## Step-by-Step Setup
@@ -167,8 +172,8 @@ If you would like to reset the device configuration, you should also download:
 
       - **Arch**: `sudo pacman -S esptool`
 3. Connect the ESP32 to your computer.
-   - While plugging into your computer, hold down the `BOOT` button to prepare the ESP32 for Flashing.
-     - {{< figure src="esp32boot.webp" alt="ESP32 Boot Button" caption="ESP32 Boot Button - randomnerdtutorials.com" link="https://randomnerdtutorials.com/boot-button-1/" >}}
+   - While plugging into your computer, hold down the `BOOT` centerbutton to prepare the ESP32 for Flashing.
+     - {{< figure src="esp32boot.webp" alt="ESP32 Boot Button" caption="ESP32 Boot centerbutton - randomnerdtutorials.com" link="https://randomnerdtutorials.com/boot-button-1/" >}}
 4. Flash the XBEE ESP32 Firmware
   *Note*: Your COM device location will be different than mine. You'll need to identify it first before continuing.
   - Windows
@@ -286,16 +291,16 @@ If you would like to reset the device configuration, you should also download:
 
       **Note**: *Do not enable all protocols at once. The ESP32 is not able to handle an unlimited amount of open sockets/connections, so only enable the protocols you are actually using.*
 
-      The small color selector beside each section's toggle button will determine the color of the RGB LED on the ESP32 XBee for that feature, so that you can keep track of its status. Setting the color to black will disable the LED for that feature. Typically, a fading LED means the feature is working correctly/connected, while a blinking LED or no LED means the feature is awaiting a connection or could not connect to its target.
+      The small color selector beside each section's toggle centerbutton will determine the color of the RGB LED on the ESP32 XBee for that feature, so that you can keep track of its status. Setting the color to black will disable the LED for that feature. Typically, a fading LED means the feature is working correctly/connected, while a blinking LED or no LED means the feature is awaiting a connection or could not connect to its target.
 
 ### 7. Profit?
 
 {{< figure src="esp32-um920.jpeg" alt="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" caption="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" link="https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex" >}}
 
 ### 8. Extras
-   1. **Full Reset**: In case you encounter any problems and are unable to connect to the device, simply hold the `BOOT` button for 5 seconds, and the ESP32 will be reset to its default configuration.
+   1. **Full Reset**: In case you encounter any problems and are unable to connect to the device, simply hold the `BOOT` centerbutton for 5 seconds, and the ESP32 will be reset to its default configuration.
 
-      {{< figure src="esp32boot.webp" alt="ESP32 Boot Button" caption="ESP32 Boot Button - randomnerdtutorials.com" link="https://randomnerdtutorials.com/boot-button-1/" >}}
+      {{< figure src="esp32boot.webp" alt="ESP32 Boot Button" caption="ESP32 Boot centerbutton - randomnerdtutorials.com" link="https://randomnerdtutorials.com/boot-button-1/" >}}
       
       If this procedure does not work for any reason, an alternative method to perform a full reset is to follow the [Firmware Update](https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update) procedure, including the `wipe_config.bin` file as described.Incorporating your feedback, let's refine the guide with a focus on the utilization of Serial(0) for communication with the UM980 or UM982 modules, include comprehensive commands for both modules, and suggest tests for each step to verify correct setup and functionality.
 
