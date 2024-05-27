@@ -32,26 +32,20 @@ Check out our guide on [**DIY Onocoy Ntrip Server and Reference Station Setup**]
 ### Recommended Hardware Components
 Before we begin, let's take a look at the hardware components you'll need:
 
-1. **ESP32 Development Board**: [AITRIP 2 Sets ESP-WROOM-32 ESP32](https://amzn.to/3rEMIjr)
-
-2. **Power Supply**: [CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C)](https://amzn.to/3ZOpDao)
-
-3. **Adapter Cables**: (Choose one):
-   - [elechawk 9 PCS 1.25mm to Dupont 2.54mm Pitch Adapter Cables](https://amzn.to/3PGI5xc)
-   - [PB1.25 to Dupont 2.54mm Connectors and Cables Kit Compatible with Molex PicoBlade 1.25mm Pitch Connectors 20cm Wires](https://amzn.to/3PUgiJY)
-   - [2Pcs 1.25mm to 2.54mm dupont cable 1pin female 2.54mm wire connector 1.25mm 2/3/4/5/6P wire harness 28AWG Length 20cm](https://www.aliexpress.us/item/3256805267757221.html) - **Choose the 4P Option**
-
-4. **Enclosure Kit**: [qBoxMini DIY IOT Enclosure Plus Kit (One SMA)](https://amzn.to/3PIvwl7)
-
-5. **GNSS Receiver Board** (Choose one):
-   - [UM980 RTK InCase PIN GNSS receiver board with USB C](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) 
-     - Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.
-     - If you choose this option, you'll need some [male to male dupont wires](https://amzn.to/3Q7VKyH). 
-   - [Full Frequency Centimeter Level Low-power and High-precision UM980 Module RTK Differential Drone GPS Module GNSS Whole System](https://www.aliexpress.us/item/3256805781651631.html)
-
-6. **Firmware**: [ESP32-XBee Firmware](https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2)
-
-6a. Alternative [Dual NTRIP Server Firmware Fork](https://github.com/incarvr6/esp32-ntrip) (Untested by us but suggested by the community.)
+| Item                             | Description                                                                                                  |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **ESP32 Development Board**      | {{< button href="https://amzn.to/3rEMIjr" >}}AITRIP 2 Sets ESP-WROOM-32 ESP32{{< /button >}}                  |
+| **Power Supply**                 | {{< button href="https://amzn.to/3ZOpDao" >}}CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C){{< /button >}}  |
+| **Adapter Cables**               | Choose one:                                                                                                  |
+|                                  | - {{< button href="https://amzn.to/3PGI5xc" >}}elechawk 9 PCS 1.25mm to Dupont 2.54mm Pitch Adapter Cables{{< /button >}}                     |
+|                                  | - {{< button href="https://amzn.to/3PUgiJY" >}}PB1.25 to Dupont 2.54mm Connectors and Cables Kit{{< /button >}}                               |
+|                                  | - {{< button href="https://www.aliexpress.us/item/3256805267757221.html" >}}2Pcs 1.25mm to 2.54mm dupont cable 1pin female{{< /button >}} - **Choose the 4P Option** |
+| **Enclosure Kit**                | {{< button href="https://amzn.to/3PIvwl7" >}}qBoxMini DIY IOT Enclosure Plus Kit (One SMA){{< /button >}}     |
+| **GNSS Receiver Board**          | Choose one:                                                                                                  |
+|                                  | - {{< button href="https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex" >}}UM980 RTK InCase PIN GNSS receiver board with USB C{{< /button >}} **Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.** If you choose this option, you'll need some {{< button href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /button >}}. |
+|                                  | - {{< button href="https://www.aliexpress.us/item/3256805781651631.html" >}}Full Frequency Centimeter Level Low-power and High-precision UM980 Module{{< /button >}} |
+| **Firmware**                     | {{< button href="https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2" >}}ESP32-XBee Firmware{{< /button >}}                               |
+| **Alternative Firmware**         | {{< button href="https://github.com/incarvr6/esp32-ntrip" >}}Dual NTRIP Server Firmware Fork{{< /button >}} (Untested by us but suggested by the community) |
 
 ### **Why we Chose the Unicorecomm UM980: A Comparative Perspective**
 
@@ -75,28 +69,24 @@ In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compa
 
 ### Recommended Antennas
 ### Basic Antennas for RTK, ROVER, Window Situations
-- [Bingfu GPS Navigation Antenna ](https://amzn.to/3qM9N36) - $9
-  - Basic, simple, not the best, but it works.
-- [Bingfu GPS Navigation External Antenna](https://amzn.to/3PcSGki) - $24
-  - Outdoor Rated, Cheap, Allows view of the Sky.
-- [High Performance GNSS L1 Active Quad Helix Antenna](https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html) - $75
-   - For RTK Clients. Ex. Drones or Robots.
-- [SparkFun GNSS-RTK Accessory Kit](https://amzn.to/3ORbgxc) - $85
-  - This is only recommended for those who can not properly install the antennas below. It will underperform against the others.
+| Item                             | Description                                                                                                  |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------|
+| {{< button href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna - $9{{< /button >}}        | Basic, simple, not the best, but it works.                                                                   |
+| {{< button href="https://amzn.to/3PcSGki" >}}Bingfu GPS Navigation External Antenna - $24{{< /button >}} | Outdoor Rated, Cheap, Allows view of the Sky.                                                                |
+| {{< button href="https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html" >}}High Performance GNSS L1 Active Quad Helix Antenna - $75{{< /button >}} | For RTK Clients. Ex. Drones or Robots.                                                                       |
+| {{< button href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit - $85{{< /button >}} | This is only recommended for those who cannot properly install the antennas below. It will underperform against the others. |
+
 
 ### Advanced Antennas for Base and Reciver Stations
-- (**Preferred**)[Beitian High Gain High Precision GPS/GNSS Antenna](https://amzn.to/47MWdxa) - $86
-  - High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands.. 
-- (**Preferred**)[Calibrated Survey GNSS Tripleband + L-band antenna (IP67)](https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/) - $230
-  - Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands
-- [Multi-frequency High Precision Survey Antenna](https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna) - $95
-  - Strong Antenna Signal, High Precision, Builtin Anti-interference.
-- [GNSS Surveying Antenna and Precise Navigation Antenna](https://amzn.to/47Mj4ZH) - $180
-  - High Antenna Gain, Extremely High Precision, IP67 Rated.
-- [HARXON CSX627A](https://www.gns-electronics.de/product/harxon-csx627a/) - $135
-  - Calibrated Triple Band RTK Antenna, IP67, Supports All Bands
-- [L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) - $205
-  - Supports Most Bands, IP67 Rated
+| Item                             | Description                                                                                                  |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------|
+| {{< button href="https://amzn.to/47MWdxa" >}}**Preferred** Beitian High Gain High Precision GPS/GNSS Antenna - $86{{< /button >}} | High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands. |
+| {{< button href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}}**Preferred** Calibrated Survey GNSS Tripleband + L-band antenna (IP67) - $230{{< /button >}} | Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands. |
+| {{< button href="https://hyfix.ai/products/multi-frequency-high-precision-survey-antenna" >}}Multi-frequency High Precision Survey Antenna - $95{{< /button >}} | Strong Antenna Signal, High Precision, Builtin Anti-interference. |
+| {{< button href="https://amzn.to/47Mj4ZH" >}}GNSS Surveying Antenna and Precise Navigation Antenna - $180{{< /button >}} | High Antenna Gain, Extremely High Precision, IP67 Rated. |
+| {{< button href="https://www.gns-electronics.de/product/harxon-csx627a/" >}}HARXON CSX627A - $135{{< /button >}} | Calibrated Triple Band RTK Antenna, IP67, Supports All Bands. |
+| {{< button href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}L1/L2/L5 GPS, G1/G2/G3 GLONASS, B1/B2/B3 BDS, Galileo E1/E5/E6 38dB Antenna - $205{{< /button >}} | Supports Most Bands, IP67 Rated. |
+
 
 ## Step-by-Step Setup
 
