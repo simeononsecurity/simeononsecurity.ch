@@ -53,7 +53,7 @@ Before we begin, let's take a look at the hardware components you'll need:
 | **Enclosure Kit**                | {{< centerbutton href="https://amzn.to/3PIvwl7" >}}qBoxMini DIY IOT Enclosure Plus Kit (One SMA){{< /centerbutton >}}     |
 | **GNSS Receiver Board**          | Choose one:                                                                                                  |
 |                                  | {{< centerbutton href="https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex" >}} UM980 RTK InCase PIN GNSS receiver board with USB C{{< /centerbutton >}} **Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.** 
-If you choose this option, you'll need some {{< centerbutton href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /centerbutton >}}. |
+|                                  | If you choose this option, you'll need some {{< centerbutton href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /centerbutton >}}. |
 |                                  | {{< centerbutton href="https://www.aliexpress.us/item/3256805781651631.html" >}}Full Frequency Centimeter Level Low-power and High-precision UM980 Module{{< /centerbutton >}} |
 | **Firmware**                     | {{< centerbutton href="https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2" >}}ESP32-XBee Firmware{{< /centerbutton >}}                               |
 | **Alternative Firmware**         | {{< centerbutton href="https://github.com/incarvr6/esp32-ntrip" >}}Dual NTRIP Server Firmware Fork{{< /centerbutton >}} (Untested by us but suggested by the community) |
