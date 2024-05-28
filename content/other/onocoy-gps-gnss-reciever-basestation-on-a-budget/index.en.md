@@ -426,11 +426,16 @@ Consult the following guides for more information on how to install docker
 
 #### 2. Run the Docker Container
 
-  Run our [Docker container](https://github.com/simeononsecurity/docker-rtklib-onocoy-rtkdirect), ensuring that you provide the necessary environment variables and parameters:
+   Run the Docker container, ensuring that you provide the necessary environment variables and parameters:
 
-  > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
+    > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
 
-  > If the environment variable `ONCOCOY_MOUNTPOINT` is specified, the docker container will use **NTRIPSERVER**, otherwise it'll use **RTKLIB** for the connection to Onocoy. The container will use RTKLIB for the splitting of the feed and connection to RTKDIRECT still however.
+   > If the environment variable `ONCOCOY_MOUNTPOINT` or `ONOCOY_USE_NTRIPSERVER` or `RTKDIRECT_USE_NTRIPSERVER` is specified, the docker container will use **NTRIPSERVER** for Onocoy or RTKDirect respectively, otherwise it'll use **RTKLIB** for the connection to Onocoy and/or RTKDirect. The container will still use RTKLIB for the splitting of the feed no matter what.
+   > `LAT`, `LONG`, `ELEVATION`, `INSTRAMENT`, and `ANTENNA` are all optional and are only used if RTKLIB is being used and NTRIPSERVER is not.
+
+   > You may specify `TCP_OUTPUT_PORT` to change the tcp server's output port if using docker's [host networking mode](https://docs.docker.com/network/#drivers). Otherwise use the appropriate docker [port mappings](https://docs.docker.com/network/#published-ports).
+
+   > You can host any RTKLIB or tcp server instance on another machine and retreive the data using our dockers tcp client mode by defining `TCP_INPUT_IP` and `TCP_INPUT_PORT`. In which you'll specify your tcp servers ip and port.
 
 > **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then run the command again.
 
@@ -447,8 +452,7 @@ Consult the following guides for more information on how to install docker
       -e STOP_BITS=<YOUR_SERIAL_STOP_BITS> \
       -e ONOCOY_MOUNTPOINT=<YOUR_ONOCOY_MOUNTPOINT> \
       -e ONOCOY_USERNAME=<YOUR_ONOCOY_MOUNTPOINT_USERNAME> \
-      -e PASSWORD=<YOUR_ONOCOY_MOUNTPOINT_PASSWORD> \
-      -e PORT_NUMBER=<YOUR_RTKLIB_PORT_NUMBER> \
+      -e ONOCOY_PASSWORD=<YOUR_ONOCOY_MOUNTPOINT_PASSWORD> \
       -e LAT=<OPTIONAL_YOUR_LATITUDE> \
       -e LONG=<OPTIONAL_YOUR_LONGITUDE> \
       -e ELEVATION=<OPTIONAL_YOUR_ELEVATION_FROM_SEA_LEVEL_IN_METERS> \
@@ -471,9 +475,9 @@ Consult the following guides for more information on how to install docker
      -e DATA_BITS=8 \
      -e PARITY=n \
      -e STOP_BITS=1 \
-     -e ONOCOY_MOUNTPOINT=your_onocoy_mountpoint \
-     -e ONOCOY_USERNAME=your_onocoy_mountpoint_username \
-     -e PASSWORD=your_onocoy_mountpoint_password \
+     -e ONOCOY_MOUNTPOINT=YOUR_ONOCOY_MOUNTPOINT \
+     -e ONOCOY_USERNAME=YOUR_ONOCOY_MOUNTPOINT_USERNAME \
+     -e ONOCOY_PASSWORD=YOUR_ONOCOY_MOUNTPOINT_PASSWORD \
      -e PORT_NUMBER=32377 \
      -e LAT=37.7749 \
      -e LONG=-122.4194 \
