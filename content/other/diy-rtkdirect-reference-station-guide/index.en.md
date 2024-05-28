@@ -143,6 +143,15 @@ Consult the following guides for more information on how to install docker
 
   Run our [Docker container](https://github.com/simeononsecurity/docker-rtklib-onocoy-rtkdirect), ensuring that you provide the necessary environment variables and parameters:
 
+  > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
+  
+  > If the environment variable `RTKDIRECT_USE_NTRIPSERVER` is set to `true`, the docker container will use **NTRIPSERVER** for RTKDirect, otherwise it'll use **RTKLIB** for the connection to  RTKDirect. The container will still use RTKLIB for the splitting of the feed no matter what.
+  > `LAT`, `LONG`, `ELEVATION`, `INSTRAMENT`, and `ANTENNA` are all optional and are only used if RTKLIB is being used and NTRIPSERVER is not.
+  
+  > You may specify `TCP_OUTPUT_PORT` to change the tcp server's output port if using docker's [host networking mode](https://docs.docker.com/network/#drivers). Otherwise use the appropriate docker [port mappings](https://docs.docker.com/network/#published-ports).
+  
+  > You can host any RTKLIB or tcp server instance on another machine and retreive the data using our dockers tcp client mode by defining `TCP_INPUT_IP` and `TCP_INPUT_PORT`. In which you'll specify your tcp servers ip and port.
+
    ```bash
    docker run \
      -td \
@@ -154,7 +163,9 @@ Consult the following guides for more information on how to install docker
      -e DATA_BITS=<YOUR_SERIAL_DATA_BITS> \
      -e PARITY=<YOUR_SERIAL_PARITY> \
      -e STOP_BITS=<YOUR_SERIAL_STOP_BITS> \
-     -e PORT_NUMBER=<YOUR_RTKLIB_PORT_NUMBER> \
+     -e RTKDIRECT_MOUNTPOINT=<YOUR_RTKDIRECT_MOUNTPOINT> \
+     -e RTKDIRECT_USERNAME=<YOUR_RTKDIRECT_MOUNTPOINT_USERNAME> \
+     -e RTKDIRECT_PASSWORD=<YOUR_RTKDIRECT_MOUNTPOINT_PASSWORD> \
      -e LAT=<OPTIONAL_YOUR_LATITUDE> \
      -e LONG=<OPTIONAL_YOUR_LONGITUDE> \
      -e ELEVATION=<OPTIONAL_YOUR_ELEVATION_FROM_SEA_LEVEL_IN_METERS> \
@@ -162,6 +173,8 @@ Consult the following guides for more information on how to install docker
      -e ANTENNA=<OPTIONAL_YOUR_ANTENNA_DESCRIPTION> \
      simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
    ```
+
+
 
    Ensure you replace the placeholder values (`<...>`) with your specific configuration.
 
@@ -177,7 +190,9 @@ Consult the following guides for more information on how to install docker
     -e DATA_BITS=8 \
     -e PARITY=n \
     -e STOP_BITS=1 \
-    -e PORT_NUMBER=32377 \
+    -e RTKDIRECT_MOUNTPOINT=YOUR_RTKDIRECT_MOUNTPOINT \
+    -e RTKDIRECT_USERNAME=YOUR_RTKDIRECT_MOUNTPOINT_USERNAME \
+    -e RTKDIRECT_PASSWORD=YOUR_RTKDIRECT_MOUNTPOINT_PASSWORD \
     -e LAT=37.7749 \
     -e LONG=-122.4194 \
     -e ELEVATION=50 \
@@ -224,12 +239,12 @@ sudo apt install -y rtklib
   Make sure to customize these settings according to your specific hardware and communication requirements.
 
 
-2. **Set Up TCP Forwarding to RTKDirect**
+2. **Set Up NTRIP to RTKDirect**
 
-  You'll need the IP and portnumber from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots)
+  You'll need the `USERNAME`, `PASSWORD`, and `MOUNTPOINT` from the [RTKDirect Console](https://cloud.rtkdirect.com/hotspots)
 
   ```bash
-  str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107,1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+  str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://username:password@ntrip.rtkdirect.com:2101/mountpoint#rtcm3 -msg "1006(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GEODNET ANTENNA" -t 0
   ```
 
    **Notes**: 
@@ -286,7 +301,7 @@ sudo apt install -y rtklib
   After=network-online.target
 
   [Service]
-  ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107,1117, 1127, 1137, 1230" -out tcpcli://ntrip.rtkdirect.com:portnumber#rtcm3 -msg "1006(10), 1033(10), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2 " -a "GNSS.STORE ELT0123" -t 0
+  ExecStart=str2str -in tcpcli://localhost:5015#rtcm3 -out ntrips://username:password@ntrip.rtkdirect.com:2101/mountpoint#rtcm3 -msg "1006(30), 1033(30), 1077, 1087, 1097, 1107, 1117, 1127, 1137, 1230" -p lat long elevation(m) -i "RTKBase UM980,2.4.2" -a "GEODNET ANTENNA" -t 0
   Restart=always
   RestartSec=30
   StartLimitBurst=10
