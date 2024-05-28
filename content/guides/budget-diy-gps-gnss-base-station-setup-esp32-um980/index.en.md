@@ -25,19 +25,19 @@ The ESP32 is a versatile microcontroller renowned for its WiFi and Bluetooth cap
 
 Check out our guide on [**Setting up a NTRIP server on Linux**](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
 
-{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/" >}}**Setting up a NTRIP server on Linux**{{< /centerbutton >}}
+{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/" >}}Setting up a NTRIP server on Linux{{< /centerbutton >}}
 
 ### Looking for how to use this with Onocoy on Linux or Windows??
 
 Check out our guide on [**DIY Onocoy Ntrip Server and Reference Station Setup**](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/)
 
-{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/" >}}**DIY Onocoy Ntrip Server and Reference Station Setup**{{< /centerbutton >}}
+{{< centerbutton href="https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/" >}}DIY Onocoy Ntrip Server and Reference Station Setup{{< /centerbutton >}}
 
 ### Want to learn how to set it up with Onocoy and RTKDirect to earn crypto rewards?
 
 Check out our guide on [**Triple Mining: Geodnet, Onocoy, and RTKDirect**](https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/)
 
-{{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}**Triple Mining: Geodnet, Onocoy, and RTKDirect**{{< /centerbutton >}}
+{{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}Triple Mining: Geodnet, Onocoy, and RTKDirect{{< /centerbutton >}}
 
 ### Recommended Hardware Components
 Before we begin, let's take a look at the hardware components you'll need:
