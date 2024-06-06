@@ -533,6 +533,7 @@ OpenRoaming and PassPoint Testing Profile Links:
 - [CLOUD4WI](https://c4wi.co/jk43W)
 - [GLOBALREACH](https://osu.odyssys.net/?qr)
 - [Google Orion](https://get.orionwifi.com/web/orion-test-profile)
+- [Guglielmo](https://profile.guglielmo.biz/openroaming) (iOS Only?)
 - [IronWiFi](https://osu.ironwifi.com/onlinesignup)
 - [SingleDigits Demo](https://provision.connectionassist.com/demo/)
 - [SingleDigits Intel](https://provision.connectionassist.com/intel/)
