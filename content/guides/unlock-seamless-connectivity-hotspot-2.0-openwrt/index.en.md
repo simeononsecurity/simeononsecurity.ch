@@ -535,6 +535,7 @@ OpenRoaming and PassPoint Testing Profile Links:
 - [Google Orion](https://get.orionwifi.com/web/orion-test-profile)
 - [Guglielmo](https://profile.guglielmo.biz/openroaming) (iOS Only?)
 - [IronWiFi](https://osu.ironwifi.com/onlinesignup)
+- [OpenRoaming OrPortal](https://openroamingconnect.orportal.org/)
 - [SingleDigits Demo](https://provision.connectionassist.com/demo/)
 - [SingleDigits Intel](https://provision.connectionassist.com/intel/)
 - [SingleDigits WBA](https://provision.connectionassist.com/wba/)
