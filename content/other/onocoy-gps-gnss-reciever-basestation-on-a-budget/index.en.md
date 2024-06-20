@@ -602,7 +602,7 @@ CONFIG MMP ENABLE
 CONFIG RTCMCLOCKOFFSET ENABLE
 
 # Doppler Position Prediction Configuration
-CONFIG PSREVELDRPOS ENABLE
+CONFIG PSRVELDRPOS ENABLE
 
 # AGNSS Configuration
 CONFIG AGNSS ENABLE
@@ -622,7 +622,6 @@ config RTCMB1CB2a enable
 
 # Enable All Standard NEMA Messages
 unlog
-gndhv 1
 gngga 1
 gnrmc 1
 gpggah 1
