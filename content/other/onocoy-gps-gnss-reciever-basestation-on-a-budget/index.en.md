@@ -580,8 +580,17 @@ The provided configuration adjustments are made to ensure the proper functionali
 > **Note:** Not all of these commands will work on all UM980 or UM982 varients. Some commands are firmware specific some are redundant. Not all commands are required. These are just what we determined to be "most optimal" for most situations for both Onocoy and for any other service you may use your UM98x with. If there is a feature missing that you want, contact your device manufacture for firmware update instructions.
 
 ```bash
+#RESET ALL SETTINGS TO FACTORY DEFAULTS
+#FReset
+
+#DISABLE ALL MESSAGE TYPES
+UNLOG
+UNILOGLIST
+saveconfig
+
 # Enable anti-jamming function
 CONFIG ANTIJAM FORCE
+saveconfig
 
 # Maximum age of RTK data*, in seconds
 CONFIG RTK TIMEOUT 600
@@ -590,50 +599,38 @@ CONFIG RTK TIMEOUT 600
 CONFIG RTK RELIABILITY 4 4
 
 # High threshold for CN0
-CONFIG RTK CN0THD 1
+#CONFIG RTK CN0THD 1
 
 # High threshold for multi-path mitigation
-CONFIG RTK MMPL 1
+#CONFIG RTK MMPL 1
 
 # Enable multi-path mitigation
 CONFIG MMP ENABLE
 
 # RTCM Clock Offset Compensation
 CONFIG RTCMCLOCKOFFSET ENABLE
+saveconfig
 
 # Doppler Position Prediction Configuration
 CONFIG PSRVELDRPOS ENABLE
-
-# AGNSS Configuration
-CONFIG AGNSS ENABLE
 
 # Set up automatic base configuration with automatic gps location 
 mode base time 60 2 2.5
 
 # Enable the Largest Signal Group
 config signalgroup 2
+saveconfig
 config RTCMB1CB2a enable
+saveconfig
 
 # ONLY IF MODULE IS UM982
 # CONFIG SIGNALGROUP 3 6
+# IF ABOVE COMMAND DOESN'T WORK TRY
+# CONFIG SIGNALGROUP 7 0
 
-# UM982 with Dual Antennas Only
-# CONFIG PVTALG MULTI
-
-# Enable All Standard NEMA Messages
-unlog
-gngga 1
-gnrmc 1
-gpggah 1
-gpgll 1
-gpgsa 1
-gpgst 1
-gpgsv 1
-gpgsvh 1
-gprmch 1
-gpvtg 1
-gpzda 1
-rtkposa 1
+#Disable Undulation Fixes per GNSS.STORE Recommended Configuration
+saveconfig
+CONFIG UNDULATION 0
 saveconfig
 
 # Enable All bands
@@ -679,6 +676,7 @@ saveconfig
 # Onocoy ignores SBAS you do not need to enable this unless you know what you're doing or you're following our dual or triple mining guides.
 # CONFIG SBAS ENABLE Auto
 # CONFIG SBAS TIMEOUT 600
+# saveconfig
 
 # ONLY CHANGE IF YOU WANT TO IMPROVE THE BAUDRATE OR IF YOU RUN INTO STABILITY ISSUES WITHOUT IT
 # config com1 921600
