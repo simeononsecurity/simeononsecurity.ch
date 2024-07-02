@@ -598,12 +598,6 @@ CONFIG RTK TIMEOUT 600
 # High reliability for RTK Positioning and ADR
 CONFIG RTK RELIABILITY 4 4
 
-# High threshold for CN0
-#CONFIG RTK CN0THD 1
-
-# High threshold for multi-path mitigation
-#CONFIG RTK MMPL 1
-
 # Enable multi-path mitigation
 CONFIG MMP ENABLE
 
@@ -631,6 +625,11 @@ saveconfig
 #Disable Undulation Fixes per GNSS.STORE Recommended Configuration
 saveconfig
 CONFIG UNDULATION 0
+saveconfig
+
+# Enable Automatic Gain Control
+AGCA 1
+AGCB 1
 saveconfig
 
 # Enable All bands
@@ -678,9 +677,11 @@ saveconfig
 # CONFIG SBAS TIMEOUT 600
 # saveconfig
 
+# Adjust Serial Output Settings
+CONFIG COM1 115200 8 n 1
 # ONLY CHANGE IF YOU WANT TO IMPROVE THE BAUDRATE OR IF YOU RUN INTO STABILITY ISSUES WITHOUT IT
-# config com1 921600
-# saveconfig
+# CONFIG COM1 921600 8 n 1
+saveconfig
 ```
 
 *It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type as required per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).*
