@@ -69,7 +69,7 @@ jobs:
 
           # Remove EXIF data from all images
           if hash exiftool 2>/dev/null; then
-            find ${PUBLIC_DIR} -type f -iregex ".*\.\(jpeg\|jpg\|png\|gif\|webp\)" -exec exiftool -all= {} \;
+            find ${PUBLIC_DIR} -type f -iregex ".*\.\(jpeg\|jpg\|png\)" -exec exiftool -all= {} \;
           else
             echo "Install perl-image-exiftool to optimize images"
           fi
