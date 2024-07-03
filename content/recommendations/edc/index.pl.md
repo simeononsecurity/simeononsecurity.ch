@@ -28,7 +28,7 @@ Poniżej polecę kilka w różnych przedziałach cenowych w swoich kategoriach z
 - [Olight S2 Cree XM-L2](https://amzn.to/3nT0XJM) - $49
 - [OLIGHT S2R II](https://amzn.to/3me6muz) - $55
 - [Olight Warrior](https://amzn.to/3q4w2MA) - $80
-# Zegarki:
+## Zegarki:
 - [AURSINC WiFi Deauther Wristband](https://amzn.to/3mamayD) - $50
 - [Timex Men's Expedition Scout 40](https://amzn.to/3fFEwVr) - $50
 - [Orient Bambino](https://amzn.to/3la0Wj4) - $100

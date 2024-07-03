@@ -10,7 +10,7 @@ coverAlt: "Imagen animada en 3D de la configuración de un laboratorio doméstic
 coverCaption: ""
 ---
 
-# Cómo construir un laboratorio casero rentable y seguro para probar y aprender
+**Cómo construir un laboratorio casero rentable y seguro para probar y aprender**
 
 ## Introducción
 

@@ -12,7 +12,7 @@ coverCaption: "Obtenez des certifications en cybersécurité et libérez votre p
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# L'essor des questions basées sur la performance (QBP) et des certifications en matière de cybersécurité
+## L'essor des questions basées sur la performance (QBP) et des certifications en matière de cybersécurité
 
 La cybersécurité est un domaine qui évolue rapidement et qui exige des professionnels hautement qualifiés capables de répondre efficacement aux menaces et aux défis du monde réel. Pour s'assurer que les individus possèdent les compétences et les connaissances pratiques nécessaires, les organismes de certification ont introduit des questions basées sur la performance (QBP) dans les examens de certification en cybersécurité. Ces questions vont au-delà des questions à choix multiples traditionnelles en simulant des environnements de travail réels et en évaluant la capacité des candidats à appliquer leurs connaissances dans des scénarios pratiques. Cet article explore l'essor des questions basées sur les performances et leur importance dans les certifications en cybersécurité.
 

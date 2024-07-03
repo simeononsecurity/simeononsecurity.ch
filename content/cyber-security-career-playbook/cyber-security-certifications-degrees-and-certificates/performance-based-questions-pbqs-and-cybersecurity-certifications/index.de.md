@@ -12,7 +12,7 @@ coverCaption: "Ermächtigen Sie sich selbst mit Cybersecurity-Zertifizierungen u
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Der Aufstieg der leistungsbasierten Fragen (PBQs) und Cybersecurity-Zertifizierungen
+**Der Aufstieg der leistungsbasierten Fragen (PBQs) und Cybersecurity-Zertifizierungen**
 
 Cybersicherheit ist ein sich schnell entwickelnder Bereich, der hochqualifizierte Fachleute erfordert, die effektiv auf reale Bedrohungen und Herausforderungen reagieren können. Um sicherzustellen, dass Einzelpersonen über die erforderlichen praktischen Fähigkeiten und Kenntnisse verfügen, haben Zertifizierungsstellen leistungsbezogene Fragen (Performance Based Questions, PBQs) in Cybersecurity-Zertifizierungsprüfungen eingeführt. PBQs gehen über die traditionellen Multiple-Choice-Fragen hinaus, indem sie reale Arbeitsumgebungen simulieren und die Fähigkeit der Prüflinge bewerten, ihr Wissen in praktischen Szenarien anzuwenden. Dieser Artikel befasst sich mit dem Aufkommen der PBQs und ihrer Bedeutung für Cybersecurity-Zertifizierungen.
 

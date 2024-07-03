@@ -25,7 +25,7 @@ Ten slotte hopen we door meer publiciteit te geven aan deze kwestie, een groter 
 
 Kortom, gaming op het Helium-netwerk wordt niet door de gemeenschap of door ons getolereerd, en we moedigen gebruikers aan om ethisch en legaal te handelen wanneer ze deelnemen aan het netwerk. Hoewel er kwetsbaarheden in het netwerk zijn die kunnen worden uitgebuit, is het belangrijk om waakzaam en proactief te blijven bij het aanpakken van deze problemen en te werken aan een veiliger en betrouwbaarder netwerk voor alle gebruikers.
 
-# Hoe het Helium Netwerk te bespelen met MiddleMan en Chirp Stack Packet Multiplexer
+## Hoe het Helium Netwerk te bespelen met MiddleMan en Chirp Stack Packet Multiplexer
 Het Helium-netwerk is een gedecentraliseerd LoRaWAN®-netwerk dat degenen die fysieke hotspots hosten beloont met Helium tokens, of $HNT. Dit systeem staat bekend als Proof-of-Coverage (PoC). Naarmate het netwerk is gegroeid en de bekendheid van dit project is toegenomen, zijn er steeds meer valsspelers die misbruik maken van het protocol en de beloningsmechanismen. In dit artikel bespreken we hoe je het Helium netwerk kunt bespelen met behulp van MiddleMan en Chirp Stack Packet Multiplexer.
 
 ## Inzicht in het Helium netwerkspelprobleem

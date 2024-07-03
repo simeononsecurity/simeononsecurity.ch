@@ -408,7 +408,7 @@ As we conclude our exploration into triple mining with Geodnet, Onocoy, and RTKD
 
 ______
 
-# References
+## References
 
 - [RTKDirect Official Website](https://rtkdirect.com/)
 - [RTKDirect About Page](https://rtkdirect.com/the-team/)

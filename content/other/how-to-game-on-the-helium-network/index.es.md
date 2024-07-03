@@ -25,7 +25,7 @@ Finalmente, al brindar más publicidad a este problema, esperamos fomentar una m
 
 En resumen, ni la comunidad ni nosotros aprobamos jugar en la red Helium, y alentamos a los usuarios a actuar de manera ética y legal cuando participen en la red. Si bien existen vulnerabilidades en la red que pueden explotarse, es importante mantenerse alerta y proactivo para abordar estos problemas y trabajar para lograr una red más segura y confiable para todos los usuarios.
 
-# Cómo jugar con la red Helium con MiddleMan y Chirp Stack Packet Multiplexer
+## Cómo jugar con la red Helium con MiddleMan y Chirp Stack Packet Multiplexer
 La red Helium es una red LoRaWAN® descentralizada que compensa a quienes alojan puntos de acceso físicos al recompensarlos con tokens Helium, o $HNT. Este sistema se conoce como Prueba de Cobertura (PoC). A medida que la red ha crecido y ha aumentado la conciencia de este proyecto, ha habido un número cada vez mayor de tramposos que explotan el protocolo y los mecanismos de recompensa. En este artículo, discutiremos cómo jugar con la red Helium utilizando MiddleMan y Chirp Stack Packet Multiplexer.
 
 ## Comprender el problema de los juegos en red de helio

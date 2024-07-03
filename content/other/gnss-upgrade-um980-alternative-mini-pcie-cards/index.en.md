@@ -12,7 +12,7 @@ coverCaption: "Unlock Precision - GNSS Revolution"
 ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget"]
 ---
 
-# Exploring Alternative Mini-PCIe GNSS Cards for MobileCM Base Stations
+**Exploring Alternative Mini-PCIe GNSS Cards for MobileCM Base Stations**
 
 In the world of Global Navigation Satellite Systems (GNSS) correction services, the Global Earth Observation Decentralized Network (GEODNET) has been a game-changer, offering precision and cost-efficiency to clients. To become a part of this network, you typically need a MobileCM GNSS Base Station, which not only serves as a space weather station but also provides GNSS correction data. However, if you initially purchased the Dual-Band base station, you might be missing out on some rewards and advantages. Hyfix presents a solution, the **UM980 MobileCM Triple-Band MiniPCIe Upgrade Card**, which promises a transition to triple-band support and additional bands and channels. 
 
@@ -57,13 +57,13 @@ In conclusion, the GNSS technology landscape is continually evolving, and the qu
 
 ______
 
-# Conclusion
+## Conclusion
 
 The quest for enhanced GNSS capabilities with MobileCM base stations leads us to explore the UM980 upgrade card from Hyfix and alternative Mini-PCIe cards. Our testing revealed a surprising lack of compatibility with certain Mini-PCIe cards, hinting at a potential deviation from industry standards. However, it's essential to note that this issue isn't due to the Mini PCIe card manufacturers but rather appears to be an anti-competitive matter related to the Geodnet/Hyfix products. The GNSS technology field continues to evolve, and solutions may emerge in the future. Stay updated for the latest developments in this ever-changing landscape.
 
 ______
 
-# References
+## References
 
 - [Hyfix UM980 MobileCM Triple-Band MiniPCIe Upgrade Card](https://hyfix.ai/products/mobilecm-triple-band-minipcie-upgrade-card)
 - [GNSS.STORE UM980 Mini PCIe Receiver](https://gnss.store/unicore-gnss-modules/251-elt0226.html)

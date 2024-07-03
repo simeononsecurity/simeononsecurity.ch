@@ -12,7 +12,7 @@ coverCaption: "Împuternicește-te, învinge amenințările cibernetice!"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Învățarea de noi abilități și obținerea de certificări în calitate de profesionist în domeniul securității cibernetice
+**Învățarea de noi abilități și obținerea de certificări în calitate de profesionist în domeniul securității cibernetice**
 
 ## Introducere:
 

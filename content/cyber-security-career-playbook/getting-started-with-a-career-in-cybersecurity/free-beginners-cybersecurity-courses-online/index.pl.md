@@ -80,7 +80,7 @@ ______
 
 ______
 
-# Korzyści z darmowych kursów cyberbezpieczeństwa dla początkujących:
+## Korzyści z darmowych kursów cyberbezpieczeństwa dla początkujących:
 - **Oszczędność**: Te bezpłatne kursy pozwalają początkującym odkrywać dziedzinę cyberbezpieczeństwa bez żadnych zobowiązań finansowych.
 - Elastyczna nauka**: Platformy online zapewniają elastyczność nauki we własnym tempie i harmonogramie.
 - **Wszechstronna wiedza**: Początkujący mogą zdobyć szeroką wiedzę na temat różnych dziedzin cyberbezpieczeństwa, w tym bezpieczeństwa sieci, etycznego hakowania i bezpiecznego kodowania.

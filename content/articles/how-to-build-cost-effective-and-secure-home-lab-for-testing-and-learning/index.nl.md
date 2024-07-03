@@ -10,7 +10,7 @@ coverAlt: "Een 3D geanimeerde afbeelding van een goed georganiseerd thuislab, in
 coverCaption: ""
 ---
 
-# Hoe bouw je een kosteneffectief en veilig thuislab om te testen en te leren?
+**Hoe bouw je een kosteneffectief en veilig thuislab om te testen en te leren?**
 
 ## Introductie
 

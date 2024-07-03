@@ -12,7 +12,7 @@ coverCaption: "¡Empodérate, conquista las ciberamenazas!"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Aprender nuevas habilidades y obtener certificaciones como profesional de la ciberseguridad
+**Aprender nuevas habilidades y obtener certificaciones como profesional de la ciberseguridad**
 
 ## Introducción:
 

@@ -73,7 +73,7 @@ Una volta ottenuti i file, è necessario copiarli in C:\Program Files\WindowsPow
 
 ![Open file explorer path C:\Program Files\WindowsPowerShell\Modules , copy dialog says access is denied, click on continue to copy the files](https://github.com/simeononsecurity/Shodan_PS/blob/main/demo/copyasadmin.png?raw=true)
 
-# Installa
+## Installa
 
 <a nome="Installa"></a>
 

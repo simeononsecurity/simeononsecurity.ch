@@ -10,7 +10,7 @@ coverAlt: "Un'immagine animata in 3D di un laboratorio domestico ben organizzato
 coverCaption: ""
 ---
 
-# Come costruire un laboratorio domestico economico e sicuro per i test e l'apprendimento
+**Come costruire un laboratorio domestico economico e sicuro per i test e l'apprendimento**
 
 ## Introduzione
 

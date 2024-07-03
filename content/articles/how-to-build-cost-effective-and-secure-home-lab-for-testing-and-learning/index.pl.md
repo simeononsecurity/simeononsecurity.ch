@@ -10,7 +10,7 @@ coverAlt: "Animowany obraz 3D przedstawiający dobrze zorganizowaną konfiguracj
 coverCaption: ""
 ---
 
-# Jak zbudować ekonomiczne i bezpieczne domowe laboratorium do testowania i nauki
+**Jak zbudować ekonomiczne i bezpieczne domowe laboratorium do testowania i nauki**
 
 ## Wprowadzenie
 

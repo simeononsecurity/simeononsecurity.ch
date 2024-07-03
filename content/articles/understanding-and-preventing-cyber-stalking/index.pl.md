@@ -24,7 +24,7 @@ Cyberstalking to wykorzystanie Internetu, mediów społecznościowych, poczty el
 - Tworzenie fałszywych profili w celu nękania lub podszywania się pod ofiarę
 - Rzucanie fałszywych oskarżeń przeciwko ofierze w Internecie
 
-# Jak rozpoznać cyberstalking
+## Jak rozpoznać cyberstalking
 
 Cyberstalking może być trudny do zidentyfikowania, zwłaszcza jeśli prześladowca używa anonimowych kont lub profili. Niektóre oznaki, że możesz być ofiarą cyberstalkingu to:
 

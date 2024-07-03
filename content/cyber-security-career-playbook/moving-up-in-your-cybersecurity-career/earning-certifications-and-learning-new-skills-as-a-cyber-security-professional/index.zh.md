@@ -12,7 +12,7 @@ coverCaption: "增强自身能力，战胜网络威胁！"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# 学习新技能，获得网络安全专业认证
+**学习新技能，获得网络安全专业认证**
 
 ## 简介：
 

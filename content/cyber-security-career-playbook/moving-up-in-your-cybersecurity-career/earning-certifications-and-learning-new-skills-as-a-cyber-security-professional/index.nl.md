@@ -12,7 +12,7 @@ coverCaption: "Stel jezelf in staat, overwin cyberbedreigingen!"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Nieuwe vaardigheden leren en certificaten verdienen als cyberbeveiligingsprofessional
+**Nieuwe vaardigheden leren en certificaten verdienen als cyberbeveiligingsprofessional**
 
 ## Inleiding:
 

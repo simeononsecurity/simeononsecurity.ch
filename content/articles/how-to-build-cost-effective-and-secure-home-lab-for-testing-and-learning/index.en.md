@@ -10,7 +10,7 @@ coverAlt: "A 3D animated image of a well-organized home lab setup, including a s
 coverCaption: ""
 ---
 
-# How to Build a Cost-effective and Secure Home Lab for Testing and Learning
+**How to Build a Cost-effective and Secure Home Lab for Testing and Learning**
 
 ## Introduction
 

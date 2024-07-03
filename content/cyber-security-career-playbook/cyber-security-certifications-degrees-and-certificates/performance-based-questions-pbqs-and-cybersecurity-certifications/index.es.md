@@ -12,7 +12,7 @@ coverCaption: "Hágase con las certificaciones de ciberseguridad y libere su pot
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# El auge de las preguntas basadas en el rendimiento (PBQ) y las certificaciones de ciberseguridad
+## El auge de las preguntas basadas en el rendimiento (PBQ) y las certificaciones de ciberseguridad
 
 La ciberseguridad es un campo en rápida evolución que exige profesionales altamente cualificados que puedan responder eficazmente a las amenazas y retos del mundo real. Para garantizar que las personas poseen las habilidades y los conocimientos prácticos necesarios, los organismos de certificación han introducido preguntas basadas en el rendimiento (PBQ) en los exámenes de certificación de ciberseguridad. Las PBQ van más allá de las tradicionales preguntas de opción múltiple, ya que simulan entornos de trabajo reales y evalúan la capacidad del examinando para aplicar sus conocimientos en escenarios prácticos. Este artículo explora el auge de las PBQ y su importancia en las certificaciones de ciberseguridad.
 

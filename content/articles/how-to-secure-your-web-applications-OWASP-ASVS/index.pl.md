@@ -28,7 +28,7 @@ ______
 
 ## Cztery poziomy weryfikacji
 
-# Poziom 1: Opportunistyczny
+### Poziom 1: Opportunistyczny
 
 Ten poziom jest przeznaczony dla aplikacji o niskim ryzyku i zapewnia podstawowe podstawy bezpieczeństwa. Obejmuje **automatyczne testowanie bezpieczeństwa** w celu zidentyfikowania i złagodzenia typowych podatności.
 

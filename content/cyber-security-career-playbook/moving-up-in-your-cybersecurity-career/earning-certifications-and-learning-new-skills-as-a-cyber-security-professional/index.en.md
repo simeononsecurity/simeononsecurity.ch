@@ -12,7 +12,7 @@ coverCaption: "Empower Yourself, Conquer Cyber Threats!"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Learning New Skills and Earning Certifications as a Cybersecurity Professional
+**Learning New Skills and Earning Certifications as a Cybersecurity Professional**
 
 ## Introduction:
 

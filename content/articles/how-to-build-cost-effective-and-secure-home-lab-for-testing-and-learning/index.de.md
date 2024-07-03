@@ -10,7 +10,7 @@ coverAlt: "Ein animiertes 3D-Bild eines gut organisierten Heimlabors mit einem S
 coverCaption: ""
 ---
 
-# Wie man ein kostengünstiges und sicheres Heimlabor zum Testen und Lernen einrichtet
+**Wie man ein kostengünstiges und sicheres Heimlabor zum Testen und Lernen einrichtet**
 
 ## Einleitung
 

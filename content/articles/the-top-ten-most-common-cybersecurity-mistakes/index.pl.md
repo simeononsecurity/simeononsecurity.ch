@@ -78,7 +78,7 @@ Aby uniknąć tego błędu, **regularnie twórz kopie zapasowe swoich danych** n
 ____
 
 
-# Błąd #8: Używanie publicznych komputerów do wrażliwych zadań
+## Błąd #8: Używanie publicznych komputerów do wrażliwych zadań
 
 Komputery publiczne, takie jak te znajdujące się w bibliotekach lub kafejkach internetowych, są często używane przez wiele osób i mogą nie być odpowiednio zabezpieczone. Używanie publicznych komputerów do wrażliwych zadań, takich jak bankowość internetowa lub zakupy, może narazić Twoje dane osobowe na ryzyko.
 
@@ -88,7 +88,7 @@ Aby uniknąć tego błędu, należy w miarę możliwości unikać korzystania z 
 ____
 
 
-# Błąd #9: Ignorowanie ostrzeżeń bezpieczeństwa
+## Błąd #9: Ignorowanie ostrzeżeń bezpieczeństwa
 
 Ostrzeżenia bezpieczeństwa mają na celu ostrzeganie o potencjalnych zagrożeniach bezpieczeństwa, takich jak strona internetowa z wygasłym certyfikatem SSL lub wiadomość e-mail od nieznanego nadawcy. Ignorowanie tych ostrzeżeń może sprawić, że będziesz narażony na cyberataki.
 

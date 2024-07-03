@@ -45,7 +45,7 @@ Kiedy już stworzysz harmonogram nauki, następnym krokiem jest wybór odpowiedn
 -[Official Study Guide and Practice Tests](https://amzn.to/42lr6pu)
 -[More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
 
-# Skup się na słabych obszarach
+## Skup się na słabych obszarach
 
 Rozpoczynając naukę, skup się na swoich słabych obszarach. Pomoże Ci to w pełni wykorzystać czas przeznaczony na naukę i poprawi Twoje ogólne wyniki na egzaminie. Wykorzystaj egzaminy praktyczne i inne zasoby do nauki, aby zidentyfikować obszary, w których musisz się poprawić.
 

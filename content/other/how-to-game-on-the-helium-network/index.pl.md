@@ -25,7 +25,7 @@ Mamy nadzieję, że dzięki nagłośnieniu tej sprawy, uda nam się zwiększyć 
 
 Podsumowując, hazard w sieci Helium nie jest akceptowany ani przez społeczność, ani przez nas, dlatego zachęcamy użytkowników do etycznego i legalnego działania w sieci. Chociaż w sieci istnieją luki, które mogą zostać wykorzystane, ważne jest, aby zachować czujność i proaktywność w rozwiązywaniu tych problemów i pracować nad bardziej bezpieczną i niezawodną siecią dla wszystkich użytkowników.
 
-# Jak oszukać sieć Helium za pomocą MiddleMana i multipleksera pakietów Chirp Stack
+## Jak oszukać sieć Helium za pomocą MiddleMana i multipleksera pakietów Chirp Stack
 Sieć Helium jest zdecentralizowaną siecią LoRaWAN®, która wynagradza tych, którzy są gospodarzami fizycznych hotspotów, nagradzając ich tokenami Helium, czyli $HNT. System ten znany jest jako Proof-of-Coverage (PoC). Wraz z rozwojem sieci i wzrostem świadomości tego projektu, pojawiła się coraz większa liczba oszustów, którzy wykorzystują protokół i mechanizmy nagradzania. W tym artykule omówimy, jak grać w sieci Helium przy użyciu MiddleMan i Chirp Stack Packet Multiplexer.
 
 ## Zrozumienie problemu hazardu w sieci Helium

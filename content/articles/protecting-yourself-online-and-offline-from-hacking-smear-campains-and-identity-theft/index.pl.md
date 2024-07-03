@@ -26,7 +26,7 @@ __________
 
 ## Łagodzenie ryzyka
 
-# Ogranicz swoją obecność w mediach społecznościowych
+## Ogranicz swoją obecność w mediach społecznościowych
 
 Jednym z najważniejszych kroków, jakie możesz podjąć w celu ochrony przed hakerstwem, kampaniami oszczerstw i kradzieżą tożsamości jest **ograniczenie swojej obecności w mediach społecznościowych**. Obejmuje to bycie ostrożnym w stosunku do tego, co udostępniasz online i unikanie nadmiernego dzielenia się informacjami osobistymi, takimi jak adres domowy, numer telefonu lub adres e-mail.
 

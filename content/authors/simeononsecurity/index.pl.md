@@ -5,7 +5,7 @@ description: "Simeon jest wysoko wykwalifikowanym administratorem systemów z pa
 cover: "/img/banner.png"
 ---
 
-# Bio:
+## Bio:
 Simeon jest wysoko wykwalifikowanym administratorem systemów z pasją do **bezpieczeństwa cybernetycznego** i **prywatności**. Za dnia wnosi do swojej roli rozległą wiedzę techniczną i doświadczenie. W nocy oddaje się swojemu hobby jako **pasjonat**, **hobbysta** i samozwańczy **geek** i **nerd**. Z historią wiedzy technicznej sięgającą jego wczesnych lat, Simeon rozpoczął swoją karierę w wieku 12 lat, rozwiązując problemy i naprawiając problemy na laptopie, który nie mógł nawet stabilnie uruchomić **Windows XP**. Dziś utrzymuje najnowocześniejsze centrum danych i laboratorium w domu, demonstrując swoje **niezłomne zaangażowanie** w tej dziedzinie i oferując możliwości obliczeniowe i pamięci masowej, które rywalizują z możliwościami wielu małych firm.
 
 ## Linki do mediów społecznościowych:

@@ -13,7 +13,7 @@ coverCaption: "Enhancing network availability and resilience for uninterrupted o
 
 #### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
-# Network Availability and Resilience
+**Network Availability and Resilience**
 
 ## Introduction
 

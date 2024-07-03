@@ -12,7 +12,7 @@ coverCaption: "Se donner les moyens d'agir, vaincre les cybermenaces !"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Apprendre de nouvelles compétences et obtenir des certifications en tant que professionnel de la cybersécurité
+**Apprendre de nouvelles compétences et obtenir des certifications en tant que professionnel de la cybersécurité**
 
 ## Introduction :
 

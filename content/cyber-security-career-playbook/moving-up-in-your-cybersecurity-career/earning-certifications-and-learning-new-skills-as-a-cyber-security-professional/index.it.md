@@ -12,7 +12,7 @@ coverCaption: "Potenziate voi stessi, sconfiggete le minacce informatiche!"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Apprendimento di nuove competenze e conseguimento di certificazioni come professionista della sicurezza informatica
+**Apprendimento di nuove competenze e conseguimento di certificazioni come professionista della sicurezza informatica**
 
 ## Introduzione:
 

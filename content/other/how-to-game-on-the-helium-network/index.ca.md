@@ -25,7 +25,7 @@ Finalment, fent més publicitat a aquest tema, esperem fomentar una major consci
 
 En resum, jugar a la xarxa Helium no està aprovat per la comunitat ni per nosaltres, i animem els usuaris a actuar de manera ètica i legal quan participin a la xarxa. Tot i que hi ha vulnerabilitats a la xarxa que es poden explotar, és important mantenir-se vigilant i proactiu per abordar aquests problemes i treballar per aconseguir una xarxa més segura i fiable per a tots els usuaris.
 
-# Com jugar a la xarxa d'heli amb MiddleMan i el multiplexador de paquets Chirp Stack
+## Com jugar a la xarxa d'heli amb MiddleMan i el multiplexador de paquets Chirp Stack
 La xarxa Helium és una xarxa LoRaWAN® descentralitzada que compensa els que allotgen punts d'accés físics recompensant-los amb fitxes Helium o $HNT. Aquest sistema es coneix com a prova de cobertura (PoC). A mesura que la xarxa ha anat creixent i ha augmentat la consciència d'aquest projecte, hi ha hagut un nombre cada cop més gran de tramposos que estan explotant el protocol i els mecanismes de recompensa. En aquest article, parlarem de com jugar a la xarxa Helium mitjançant MiddleMan i Chirp Stack Packet Multiplexer.
 
 ## Comprendre el problema dels jocs de xarxa d'heli

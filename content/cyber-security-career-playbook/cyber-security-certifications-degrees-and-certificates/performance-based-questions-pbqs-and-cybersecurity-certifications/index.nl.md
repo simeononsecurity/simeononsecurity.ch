@@ -12,7 +12,7 @@ coverCaption: "Versterk jezelf met cyberbeveiligingscertificaten en ontketen je 
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# De opkomst van prestatiegerichte vragen (PBQ's) en cyberbeveiligingscertificaten
+## De opkomst van prestatiegerichte vragen (PBQ's) en cyberbeveiligingscertificaten
 
 Cyberbeveiliging is een snel ontwikkelend vakgebied dat vraagt om hoogopgeleide professionals die effectief kunnen reageren op echte bedreigingen en uitdagingen. Om ervoor te zorgen dat mensen over de nodige praktische vaardigheden en kennis beschikken, hebben certificeringsinstanties op prestaties gebaseerde vragen (PBQ's) geïntroduceerd in certificeringsexamens voor cyberbeveiliging. PBQ's gaan verder dan de traditionele meerkeuzevragen door echte werkomgevingen te simuleren en het vermogen van een examinandus om zijn kennis toe te passen in praktische scenario's te beoordelen. Dit artikel onderzoekt de opkomst van PBQ's en hun betekenis in cyberbeveiligingscertificeringen.
 

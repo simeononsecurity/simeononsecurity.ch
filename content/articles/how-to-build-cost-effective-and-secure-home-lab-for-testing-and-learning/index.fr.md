@@ -10,7 +10,7 @@ coverAlt: "Image animée en 3D d'un laboratoire domestique bien organisé, compr
 coverCaption: ""
 ---
 
-# Comment construire un laboratoire domestique rentable et sécurisé pour tester et apprendre
+**Comment construire un laboratoire domestique rentable et sécurisé pour tester et apprendre**
 
 ## Introduction
 

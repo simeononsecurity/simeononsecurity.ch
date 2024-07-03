@@ -25,7 +25,7 @@ coverCaption: ""
 
 总而言之，社区或我们都不容忍在 Helium 网络上玩游戏，我们鼓励用户在参与网络时以道德和合法的方式行事。尽管网络中存在可被利用的漏洞，但重要的是要保持警惕并积极主动地解决这些问题，并努力为所有用户打造一个更安全、更可靠的网络。
 
-# 如何使用 MiddleMan 和 Chirp 堆栈数据包多路复用器来博弈 Helium 网络
+## 如何使用 MiddleMan 和 Chirp 堆栈数据包多路复用器来博弈 Helium 网络
 Helium 网络是一个去中心化的 LoRaWAN® 网络，通过奖励 Helium 代币或 $HNT 来补偿那些托管物理热点的人。该系统称为覆盖证明 (PoC)。随着网络的发展和对这个项目的认识的提高，越来越多的作弊者正在利用协议和奖励机制。在本文中，我们将讨论如何使用 MiddleMan 和 Chirp Stack Packet Multiplexer 来玩转 Helium 网络。
 
 ## 了解 Helium 网络游戏问题

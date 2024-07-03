@@ -12,7 +12,7 @@ coverCaption: "Befähigen Sie sich selbst, besiegen Sie Cyber-Bedrohungen!"
 
 ## [Home](/cyber-security-career-playbook-start/)
 
-# Neue Fähigkeiten erlernen und Zertifizierungen als Cybersecurity Professional erwerben
+**Neue Fähigkeiten erlernen und Zertifizierungen als Cybersecurity Professional erwerben**
 
 ## Einführung:
 
