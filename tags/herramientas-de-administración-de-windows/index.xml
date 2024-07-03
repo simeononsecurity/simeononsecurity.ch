@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Herramientas de administración de Windows on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/herramientas-de-administraci%C3%B3n-de-windows//img/banner.png</url><title>Herramientas de administración de Windows on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/herramientas-de-administraci%C3%B3n-de-windows/</link></image><link>https://es.simeononsecurity.com/tags/herramientas-de-administraci%C3%B3n-de-windows/</link><description>Recent content in Herramientas de administración de Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/herramientas-de-administraci%C3%B3n-de-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Hoy aprendí más módulos de Powershell y Ansible</title><link>https://es.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "PowerShell"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**
+SimeonOnSecurity aprendió sobre Windows STIG Ansible y actualizó los repos relacionados. Además, estudió varios recursos de Microsoft y Ansible relacionados con powershell, remoting y ejecución de comandos shell/powershell en Windows usando módulos como invoke-command, start-process, win_powershell, win_shell, psexec y win_psexec.
+Repos nuevos/actualizados: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Recursos de Aprendizaje: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.</description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://es.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "Cumplimiento de las normas de seguridad"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**
+SimeonOnSecurity aprendió y descubrió hoy varias cosas interesantes relacionadas con la seguridad en Windows y la automatización usando Ansible.
+En primer lugar, se identificaron dos repositorios nuevos y actualizados. El repositorio windows_STIG_Ansible proporciona una solución completa para configurar sistemas Windows para cumplir con los requisitos de la Guía de Implementación Técnica de Seguridad (STIG), utilizando la plataforma de automatización Ansible. El repositorio windows_stigs es una colección de roles de Ansible para configurar sistemas Windows que cumplan los requisitos de la STIG, y está disponible en Ansible Galaxy, un repositorio central para compartir contenido de Ansible.</description></item><item><title>Hoy he aprendido a manipular y analizar JSON en PowerShell y Bash</title><link>https://es.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatización"
+, "Conformidad"
+, "Seguridad de Windows"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad informática"
+, "Gestión de la configuración"
+, "DevOps"
+, "Administración de Windows"
+, "Configuración del sistema"</category><guid>https://es.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lo que SimeonOnSecurity ha descubierto y encontrado interesante hoy
+SimeonOnSecurity ha actualizado una página de su sitio web y se ha enterado de algunos recursos que le parecen interesantes. La página actualizada es el resumen del Invite Challenge en HackTheBox. Esta página ofrece un análisis en profundidad del proceso de resolución del desafío tanto en sistemas Windows como Linux.
+Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles.</description></item></channel></rss>

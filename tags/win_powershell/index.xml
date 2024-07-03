@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>win_powershell on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/win_powershell//img/banner.png</url><title>win_powershell on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/win_powershell/</link></image><link>https://es.simeononsecurity.com/tags/win_powershell/</link><description>Recent content in win_powershell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/win_powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Hoy aprendí más módulos de Powershell y Ansible</title><link>https://es.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">SimeonOnSecurity</dc:creator><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "PowerShell"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**
+SimeonOnSecurity aprendió sobre Windows STIG Ansible y actualizó los repos relacionados. Además, estudió varios recursos de Microsoft y Ansible relacionados con powershell, remoting y ejecución de comandos shell/powershell en Windows usando módulos como invoke-command, start-process, win_powershell, win_shell, psexec y win_psexec.
+Repos nuevos/actualizados: # simeononsecurity/Windows_STIG_Ansible simeononsecurity/windows_stigs Recursos de Aprendizaje: # microsoft - invoke-command microsoft - start-process microsoft - running remote commands ansible.</description></item></channel></rss>
