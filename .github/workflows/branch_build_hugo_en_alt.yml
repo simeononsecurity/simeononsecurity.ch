@@ -35,8 +35,10 @@ jobs:
           hugo-version: "0.122.0"
           extended: true
 
-      - name: Print PWD
-        run: pwd    
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick perl libimage-exiftool-perl jpegoptim optipng
 
       - name: Build Hugo site
         uses: actions/cache@v3
@@ -48,6 +50,35 @@ jobs:
 
       - name: Build Hugo site
         run: hugo --cleanDestinationDir -D -E -F  --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config_alt.toml
+
+      - name: Optimize images
+        run: |
+          MAXIMUM_JPG_SIZE=250
+          PNG_OPTIMIZATION_LEVEL=2
+
+          if hash exiftool 2>/dev/null; then
+            exiftool -all= public/images
+          else
+            echo "Install perl-image-exiftool to optimize images"
+          fi
+
+          if hash jpegoptim 2>/dev/null; then
+            for image in $(find public/images -regextype posix-extended -iregex ".*\.(jpeg|jpg)"); do
+              mogrify -resize '1400>' $image
+              jpegoptim --strip-all --size=$MAXIMUM_JPG_SIZE $image
+            done
+          else
+            echo "Install jpegoptim to optimize JPEG images"
+          fi
+
+          if hash optipng 2>/dev/null; then
+            for image in $(find public/images -regextype posix-extended -iregex ".*\.(png)"); do
+              mogrify -resize '1400>' $image
+              optipng -clobber -strip all -o $PNG_OPTIMIZATION_LEVEL $image
+            done
+          else
+            echo "Install optipng to optimize PNG images"
+          fi
 
       - name: Delete non-public folders and files
         run: |
