@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $languageCode := $.Site.LanguageCode }}
+  {{ $languageCode := $.Site.LanguageCode }}
   <div class="terms" itemscope itemtype="https://schema.org/WebPage">
     <h1 itemprop="headline">{{ .Title }}</h1>
     <ul class="terms__list">
@@ -9,10 +9,11 @@
         {{ if lt $counter 20 }}
           {{ $name := .Name }}
           {{ $count := .Count }}
-          {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+          {{ $page := $.Site.GetPage (printf "/%s/%s" $type $name) }}
+          {{ if $page }}
             <li class="terms__term" itemprop="about" itemscope itemtype="https://schema.org/Thing">
-              <a title="{{ .Title | markdownify }} | Articles with this tag" href="{{ .Permalink }}" hreflang="{{ $languageCode }}" itemprop="url">
-                <span itemprop="name">#{{ .Name }}</span> <span class="terms__term-count">{{ $count }}</span>
+              <a title="{{ $page.Title | markdownify }} | Articles with this tag" href="{{ $page.Permalink }}" hreflang="{{ $languageCode }}" itemprop="url">
+                <span itemprop="name">#{{ $name }}</span> <span class="terms__term-count">{{ $count }}</span>
               </a>
             </li>
             {{ $counter = add $counter 1 }}
