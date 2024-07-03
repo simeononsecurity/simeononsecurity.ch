@@ -91,9 +91,12 @@ jobs:
           optimize_png() {
             local image=$1
             resize_image "$image"
-            pngcrush -ow -rem allb -reduce "$image" &
-            wait
-            optipng -clobber -strip all -o $PNG_OPTIMIZATION_LEVEL "$image" &
+            pngcrush -ow -rem allb -reduce "$image"
+            if [ $? -eq 0 ]; then
+              optipng -clobber -strip all -o $PNG_OPTIMIZATION_LEVEL "$image"
+            else
+              echo "pngcrush failed on $image"
+            fi
           }
 
           export -f optimize_png
