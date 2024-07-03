@@ -67,7 +67,7 @@ Create a new card, configure it to your liking, and notate the information the v
 
 Either using the Blank Cards mentioned above or a repurposed visa gift card and the software that came with your writer write the privacy.com card information to the physical card. 
 
-{{< figure src="softwareimage.png" alt="MXR Card Writer Software" link="https://amzn.to/3tfq956" >}}
+{{< figure src="softwareimage.jpg" alt="MXR Card Writer Software" link="https://amzn.to/3tfq956" >}}
 
 You'll need to include a few extra details to the card like the name, address, and charge type and checksum information. We won't go into that here. But If you're determined enough to do this, the standards for this kind of information are public and available on wikipedia.
 
