@@ -100,7 +100,7 @@ jobs:
           optimize_gif() {
             local image=$1
             resize_image "$image"
-            gifsicle --batch --optimize=3 --resize-fit "${MAX_WIDTH}x" "$image" &
+            gifsicle --batch --optimize=3 --resize-fit "${MAX_WIDTH}x" --colors 256 "$image" &
           }
 
           export -f optimize_gif
