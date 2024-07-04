@@ -82,7 +82,7 @@ jobs:
           optimize_jpeg() {
             local image=$1
             resize_image "$image"
-            jpegoptim --strip-all --size=${MAXIMUM_JPG_SIZE}k "$image" &
+            jpegoptim --strip-all --size=${MAXIMUM_JPG_SIZE} $image &
           }
 
           export -f optimize_jpeg
