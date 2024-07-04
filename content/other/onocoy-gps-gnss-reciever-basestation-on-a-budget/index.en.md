@@ -708,6 +708,8 @@ To ensure uninterrupted UPrecise access when using Linux, you can utilize the `s
 
 Here's the command to achieve this:
 
+> **Note**: If you're using the [docker container option](#option-3-docker-container) above, you can skip this section and you can control the port you want to access the dongle by specifying the `TCP_OUTPUT_PORT` variable. It'll function the same as below.
+
 *Replace `{{portnumber}}` with a port number of your choosing*
 
 ```bash
