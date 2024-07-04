@@ -93,7 +93,7 @@ jobs:
             resize_image "$image"
             pngcrush -ow -reduce "$image"
             if [ $? -eq 0 ]; then
-              optipng -clobber -strip all -o $PNG_OPTIMIZATION_LEVEL "$image"
+              optipng -clobber -strip all -o $PNG_OPTIMIZATION_LEVEL "$image" &
             else
               echo "pngcrush failed on $image"
             fi
@@ -114,7 +114,7 @@ jobs:
           optimize_webp() {
             local image=$1
             resize_image "$image"
-            cwebp -q 80 "$image" -o "$image" &
+            cwebp -q 80 "$image" -o "${image%.png}.webp" &
           }
 
           export -f optimize_webp
@@ -151,7 +151,7 @@ jobs:
 
             # Optimize WebP images
             if hash cwebp 2>/dev/null; then
-              find ${PUBLIC_DIR} -type f -iregex ".*\.\(webp\)" -print0 | xargs -0 -n1 -P$NUM_PARALLEL_JOBS bash -c 'optimize_webp "$0"'
+              find ${PUBLIC_DIR} -type f -iregex ".*\.\(webp\|png\)" -print0 | xargs -0 -n1 -P$NUM_PARALLEL_JOBS bash -c 'optimize_webp "$0"'
             else
               echo "Install cwebp to optimize WebP images"
             fi
