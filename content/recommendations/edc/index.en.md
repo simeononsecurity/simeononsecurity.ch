@@ -12,7 +12,6 @@ SimeonOnSecurity's Recommended EDC is a comprehensive guide to the best and most
 The typical every day carry (EDC) consists of a few basic tools. Typically, those are a knife or blade, a flashlight, a watch, and a pen.
 I'll recommend a few in different price points within their categories with a few extras below.
 
-
 ## Knife/Blades:
 - [CRKT Squid Folding Pocket Knife](https://amzn.to/2J58ruG) - $15 
 - [Gerber EAB Pocket Knife](https://amzn.to/37aQwdN) - $18
