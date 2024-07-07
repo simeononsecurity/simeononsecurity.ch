@@ -843,23 +843,107 @@ saveconfig
 
 *It should be noted that the Unicorecomm device does not have the ability to transmit the `RTCM 1230` message type as required per [Onocoy system's requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/3.-connect-your-station-to-onocoy).*
 
+#### GNSS.STORE Suggested Base UM980 and UM982 Configurations
+
+For setting up the UM980 and UM982 devices, GNSS.STORE provides detailed configuration guides to ensure proper functionality and optimal performance. The configurations are documented in the following links:
+
+- **UM980 Configuration:**
+  [UM980_RTCM3_OUT.txt](https://github.com/GNSSOEM/UM980_RPI_Hat_RtkBase/blob/main/Install/UM980_RTCM3_OUT.txt)
+
+  This guide includes steps to configure the UM980 for outputting RTCM3 messages. It covers the necessary commands and settings to enable the device to send accurate positioning data, which is crucial for applications requiring real-time kinematic (RTK) corrections.
+
+- **UM982 Configuration:**
+  [UM982_RTCM3_OUT.txt](https://github.com/GNSSOEM/UM980_RPI_Hat_RtkBase/blob/main/Install/UM982_RTCM3_OUT.txt)
+
+  Similar to the UM980, this guide provides detailed instructions for configuring the UM982 device. It outlines the commands and parameters needed to set up the device for RTCM3 message output, ensuring it can deliver precise GNSS data for various applications.
+
 ### Unicorecomm UM980 and UM982 Commands Reference Manuals
 For additional configuration guidance, consult the following documentation:
 - [UM980 / UM982 Commands Reference Manual](https://en.unicorecomm.com/assets/upload/file/Unicore_Reference_Commands_Manual_For_N4_High_Precision_Products_V2_EN_R1_1.pdf)
 - [NebulasIV Commands Reference Manual](https://gnss.store/index.php?controller=attachment&id_attachment=255)
 
+Following these suggested configurations helps in achieving reliable and accurate GNSS data transmission, essential for high-precision navigation and surveying tasks.
+
 ### Symlinking Serial Devices to Hardcoded Path
 
-In order to make the device appear as ttyUM980 instead of ttyUSB0:
+When working with multiple serial devices, it's common to encounter challenges related to device naming. By default, Linux assigns device names like `ttyUSB0`, `ttyUSB1`, etc., based on the order in which devices are connected. This can lead to confusion and issues when a specific device needs to be accessed consistently by the same name. One way to resolve this is by creating a symlink that assigns a stable, custom name to a device based on its attributes, such as its vendor and product IDs.
 
-`$ cat /etc/udev/rules.d/00-um980.rules`
-```bash
-KERNEL=="ttyUSB[0-9]", \
-ATTRS{idVendor}=="0403",ATTRS{idProduct}=="6015", \
-SYMLINK+="ttyUM980"
-```
+For instance, if you want your device to consistently appear as `ttyUM980` instead of `ttyUSB0`, you can create a custom udev rule. Here's how you can do it:
 
-### Maintaining UPrecise Access with Linux using Socat
+1. **Create a udev Rule File:**
+
+    udev rules are stored in the `/etc/udev/rules.d/` directory. Each rule is defined in a separate file. In this example, we will create a file named `00-um980.rules`.
+
+    ```bash
+    $ sudo nano /etc/udev/rules.d/00-um980.rules
+    ```
+
+2. **Define the udev Rule:**
+
+    Add the following rule to the file:
+
+    ```bash
+    KERNEL=="ttyUSB[0-9]", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", SYMLINK+="ttyUM980"
+    ```
+
+    This rule does the following:
+
+    - **KERNEL=="ttyUSB[0-9]":** Matches any device named `ttyUSB` followed by a single digit.
+    - **ATTRS{idVendor}=="0403":** Matches devices with a vendor ID of `0403`. This ID is unique to the manufacturer of the device.
+    - **ATTRS{idProduct}=="6015":** Matches devices with a product ID of `6015`. This ID is unique to the specific product.
+    - **SYMLINK+="ttyUM980":** Creates a symbolic link named `ttyUM980` pointing to the matched device.
+
+3. **Identify Device Attributes:**
+
+    To create an appropriate udev rule, you need to identify the vendor ID and product ID of your device. You can use the `lsusb` command to list all USB devices and their attributes.
+
+    ```bash
+    $ lsusb
+    ```
+
+    This command will output a list of connected USB devices. Look for your device in the list. For example:
+
+    ```bash
+    Bus 002 Device 003: ID 0403:6015 Future Technology Devices International, Ltd FT231X USB UART
+    ```
+
+    In this example:
+    - The **vendor ID** is `0403`.
+    - The **product ID** is `6015`.
+
+    You can also use the `udevadm` command to get more detailed information:
+
+    ```bash
+    $ udevadm info --name=/dev/ttyUSB0 --attribute-walk
+    ```
+
+    This command walks through the device tree and prints all attributes of the device, helping you identify the correct values for your udev rule.
+
+4. **Apply the udev Rule:**
+
+    After saving the file, reload the udev rules to apply the changes:
+
+    ```bash
+    $ sudo udevadm control --reload-rules
+    ```
+
+5. **Verify the Symlink:**
+
+    Disconnect and reconnect your device. You should now see a new device named `ttyUM980` in the `/dev` directory, in addition to the usual `ttyUSB0`.
+
+    ```bash
+    $ ls -l /dev/ttyUM980
+    ```
+
+    This should show a symlink pointing to the actual device, for example:
+
+    ```bash
+    lrwxrwxrwx 1 root root 7 Jul  7 12:34 /dev/ttyUM980 -> ttyUSB0
+    ```
+
+By following these steps, you ensure that your device will always appear as `ttyUM980`, regardless of the order in which it's connected. This is particularly useful in scripts or applications where a consistent device name is required.
+
+### Maintaining UPrecise Access with Linux using Socat or our Docker Container
 
 To ensure uninterrupted UPrecise access when using Linux, you can utilize the `socat` application to connect to the UM980's serial interface from a Windows machine.
 
