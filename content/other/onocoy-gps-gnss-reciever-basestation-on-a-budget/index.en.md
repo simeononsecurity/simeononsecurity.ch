@@ -333,6 +333,22 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
         ntripserver[815]: caster output: host = xxx.xxx.xxx.xxx, port = 2101, mountpoint = Mount1, mode = http
         ntripserver[815]: transfering data ...
         ```
+
+#### Serial Connection Settings
+
+> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
+
+**Known Default Serial Settings for the Following GPS Receivers**
+
+| GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
+|-----------------|------------------|-----------|--------|-----------|
+| UM980           | 115200           | 8         | None   | 1         |
+| UM982           | 115200           | 8         | None   | 1         |
+| Bynav M20       | 115200           | 8         | None   | 1         |
+| Bynav M21       | 115200           | 8         | None   | 1         |
+| Ublox F9P       | 38400            | 8         | None   | 1         |
+| Ublox M8*       | 9600             | 8         | None   | 1         |
+
 ### Option 2: RTKLIB
 1. On your linux device install the [rtklib](https://rtklib.com/) software.
     ```bash
@@ -413,8 +429,24 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
   4. Verify the Service
     ```bash
     sudo systemctl status rtklib.service
-    ```   
-### Option 3: Docker Container
+    ```
+
+#### Serial Connection Settings
+
+> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
+
+**Known Default Serial Settings for the Following GPS Receivers**
+
+| GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
+|-----------------|------------------|-----------|--------|-----------|
+| UM980           | 115200           | 8         | None   | 1         |
+| UM982           | 115200           | 8         | None   | 1         |
+| Bynav M20       | 115200           | 8         | None   | 1         |
+| Bynav M21       | 115200           | 8         | None   | 1         |
+| Ublox F9P       | 38400            | 8         | None   | 1         |
+| Ublox M8*       | 9600             | 8         | None   | 1         |
+
+### Option 3 (The Easiest): Docker Container
 
 #### 1. Install Docker
 
@@ -438,6 +470,25 @@ Consult the following guides for more information on how to install docker
    > You can host any RTKLIB or tcp server instance on another machine and retreive the data using our dockers tcp client mode by defining `TCP_INPUT_IP` and `TCP_INPUT_PORT`. In which you'll specify your tcp servers ip and port.
 
 > **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then run the command again.
+
+
+##### Serial Connection Settings
+
+> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
+
+**Known Default Serial Settings for the Following GPS Receivers**
+
+| GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
+|-----------------|------------------|-----------|--------|-----------|
+| UM980           | 115200           | 8         | None   | 1         |
+| UM982           | 115200           | 8         | None   | 1         |
+| Bynav M20       | 115200           | 8         | None   | 1         |
+| Bynav M21       | 115200           | 8         | None   | 1         |
+| Ublox F9P       | 38400            | 8         | None   | 1         |
+| Ublox M8*       | 9600             | 8         | None   | 1         |
+
+
+##### Docker Config Examples
 
    ```bash
     docker run \
@@ -507,6 +558,22 @@ On windows, one of our best options and arguably our best free option is [STRSVR
 
 {{< figure src="strsvr-demo.jpeg" alt="STRSVR DEMO" caption="STRSVR DEMO" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
 
+
+#### Serial Connection Settings
+
+> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
+
+**Known Default Serial Settings for the Following GPS Receivers**
+
+| GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
+|-----------------|------------------|-----------|--------|-----------|
+| UM980           | 115200           | 8         | None   | 1         |
+| UM982           | 115200           | 8         | None   | 1         |
+| Bynav M20       | 115200           | 8         | None   | 1         |
+| Bynav M21       | 115200           | 8         | None   | 1         |
+| Ublox F9P       | 38400            | 8         | None   | 1         |
+| Ublox M8*       | 9600             | 8         | None   | 1         |
+
 ### **Windows Option 2: SNIP** 
 
 On windows, our options are limited. One of the NTRIP communities favorite options for Windows is [Snip](https://www.use-snip.com/). While there is a trial available, you'll need to purchase the software long term if you plan on ever using it for more than an hour at any given time.
@@ -534,6 +601,21 @@ On windows, our options are limited. One of the NTRIP communities favorite optio
   > [Learn more on how to add pushed-out data streams on snip](https://www.use-snip.com/kb/knowledge-base/sending-pushed-out-data/)
 
 
+#### Serial Connection Settings
+
+> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
+
+**Known Default Serial Settings for the Following GPS Receivers**
+
+| GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
+|-----------------|------------------|-----------|--------|-----------|
+| UM980           | 115200           | 8         | None   | 1         |
+| UM982           | 115200           | 8         | None   | 1         |
+| Bynav M20       | 115200           | 8         | None   | 1         |
+| Bynav M21       | 115200           | 8         | None   | 1         |
+| Ublox F9P       | 38400            | 8         | None   | 1         |
+| Ublox M8*       | 9600             | 8         | None   | 1         |
+
 ## Troubleshooting and Verifying GPS Connectivity on Linux
 1. Stop the ntripserver service
   ```bash
@@ -553,19 +635,80 @@ On windows, our options are limited. One of the NTRIP communities favorite optio
   ```bash
   sudo systemctl start ntripserver.service
   ```
+### Troubleshooting Serial Connection Issues
+
+### Troubleshooting Serial Connection Issues
+
+Failures occur for several reasons:
+
+#### 1. Limiting the Frequency of Buffer Amplifiers
+GNSS.store has TTL outputs on most boards. They come without buffer amplifiers and level shapers. The problem only exists on boards with RS232 output (and not just UART). There is a maximum of 230400 on RS232. Other boards support everything that the receiver can do. Many boards have USB with an FTDI chip, which supports up to 3 MHz.
+
+| Type   | Maximum Baud Rate (bps) | Notes                         |
+|--------|--------------------------|-------------------------------|
+| RS232  | 230400                   | Limited by buffer amplifiers  |
+| USB    | 3,000,000                | FTDI chip support             |
+
+#### 2. Clock Frequency
+If the receiver processor clock frequency is 16 MHz, then we can either use 883011 (divisor 19, deviation -4.2%) or 932067 (divisor 18, deviation +1%). What happens next depends on the computer's COM port. Some work at any frequency, others fail. This problem is twice as bad with 921600 as it is with 460800. This is important for both TTL and RS232.
+
+| Frequency    | Divisor | Deviation  |
+|--------------|---------|------------|
+| 883011 Hz    | 19      | -4.2%      |
+| 932067 Hz    | 18      | +1%        |
+
+#### 3. Poor Ground Connection Causes Echo
+A poor ground connection causes an echo. The echo from the transmitted signal mixes with the received one and causes reception errors. It is especially important for RS232, where it is better to have two ground wires: the signal ground and the shield ground from the connector body and the cable braid, which is connected first when the connector is plugged in. Good cables have two different grounds on the DB-9.
+
+| Connection Type | Ground Requirement           |
+|-----------------|-------------------------------|
+| RS232           | Signal ground and shield ground |
+
+#### 4. Signal Shape
+The signal shape depends on the receiver, computer, wires, and connectors. If there are errors, use an oscilloscope. Instead of rectangular pulses, there may be distorted signals.
+
+| Component    | Potential Issue          |
+|--------------|---------------------------|
+| Receiver     | Signal shape distortion   |
+| Computer     | Signal shape distortion   |
+| Wires        | Signal shape distortion   |
+| Connectors   | Signal shape distortion   |
+
+#### 5. Safest and Worst Configurations
+The safest configuration is a UART TTL to USB converter on the receiver board, built on an FTDI chip. The worst configuration is RS232 with DB-9 connectors.
+
+| Configuration                 | Reliability        |
+|-------------------------------|--------------------|
+| UART TTL -> USB (FTDI chip)   | High               |
+| RS232 with DB-9 connectors    | Low                |
+
+#### 6. System Components
+With the exception of USB, the system consists of a receiver, cable, connectors, and a computer. The error can be anywhere in this system.
+
+| System Component | Potential Error Source |
+|------------------|-------------------------|
+| Receiver         | Yes                     |
+| Cable            | Yes                     |
+| Connectors       | Yes                     |
+| Computer         | Yes                     |
+
+By understanding and addressing these common issues, you can improve the reliability of your serial connections for GPS receivers.
 
 ## Notible Mentions for Alternative Ntrip Server Software.
 While reviewing this topic and discussing with the Onocoy team on their discord, I came across the following. These may work better for you but we didn't cover them here. We may review them another time.
 - [Ntrip Server](https://software.rtcm-ntrip.org/browser/ntrip/trunk/ntripserver)
   - Seems to be a newer version of the software we used above. However it's more difficult to access. It is created and maintained by the [German Federal Agency for Cartography and Geodesy (BKG)](https://www.bkg.bund.de/EN/Home/home.html)
-- [RTKLIB STR2STR](https://github.com/rtklibexplorer/RTKLIB/releases)
-  -  A more widely used Ntrip server. However it can be significantly more technically involved.
+- [RTKLIB STR2STR]([https://github.com/rtklibexplorer/RTKLIB/releases](https://github.com/tomojitakasu/RTKLIB))
+  -  A more widely used NTRIP server. However it can be significantly more technically involved and only supports NTRIPv1.
+  -  Hasn't been updated in many years.
 - [rtklibexplorer/RTKLIB](https://github.com/rtklibexplorer/RTKLIB)
   - A version of RTKLIB optimized for single and dual frequency low cost GPS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3 and is kept reasonably closely synced to that branch.
   - A fork of the original RTKLIB that is known to be more frequently updated and more optimized than the original RTKLIB.
-  - The variant of RTKLIB we use in our docker container.
+  - **The variant of RTKLIB we use in our docker container.**
+  - Also only supports NTRIPv1.
 - [esp32-xbee](https://github.com/nebkat/esp32-xbee)
-  -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive... 
+  -  Exclusive to the ESP32, this software enables you to build even cheaper base stations. Or more expensive...
+  -  Only supports NTRIPv1 communications.
 
 ## Additional Configuration For Unicorecomm UM980 and UM982 Devices
 
@@ -618,8 +761,9 @@ config RTCMB1CB2a enable
 saveconfig
 
 # ONLY IF MODULE IS UM982
+# Dual Antennas on UM982
 # CONFIG SIGNALGROUP 3 6
-# IF ABOVE COMMAND DOESN'T WORK TRY
+# Single Antenna on UM982
 # CONFIG SIGNALGROUP 7 0
 
 #Disable Undulation Fixes per GNSS.STORE Recommended Configuration
@@ -631,6 +775,19 @@ saveconfig
 AGCA 1
 AGCB 1
 saveconfig
+
+#Enable NEMA Messages
+gngga 1
+gpgll 1
+gnrmc 1
+gpvtg 1
+gpggah 1
+gprmch 1
+gpgsvh 1
+gpgst 1
+gpzda 1
+gpgsv 1
+gpgsa 1
 
 # Enable All bands
 UNMASK GPS
