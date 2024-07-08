@@ -637,8 +637,6 @@ On windows, our options are limited. One of the NTRIP communities favorite optio
   ```
 ### Troubleshooting Serial Connection Issues
 
-### Troubleshooting Serial Connection Issues
-
 Failures occur for several reasons:
 
 #### 1. Limiting the Frequency of Buffer Amplifiers
