@@ -769,23 +769,18 @@ saveconfig
 CONFIG UNDULATION 0
 saveconfig
 
-# Enable Automatic Gain Control
-AGCA 1
-AGCB 1
-saveconfig
-
 #Enable NEMA Messages
-gngga 1
-gpgll 1
-gnrmc 1
-gpvtg 1
-gpggah 1
-gprmch 1
-gpgsvh 1
-gpgst 1
-gpzda 1
 gpgsv 1
 gpgsa 1
+gpggah 1
+gpgsvh 1
+gngga 1
+gnrmc 1
+#gpgll 1
+#gpvtg 1
+#gprmch 1
+#gpgst 1
+#gpzda 1
 
 # Enable All bands
 UNMASK GPS
@@ -797,7 +792,7 @@ UNMASK IRNSS
 UNMASK ALL
 saveconfig
 
-# ONOCOY RTCM CONFIGURATION
+# ONOCOY RTCM CONFIGURATION (If doing more than just onocoy, skip this section and continue to the next)
 rtcm1005 30
 rtcm1033 30
 rtcm1077 1
