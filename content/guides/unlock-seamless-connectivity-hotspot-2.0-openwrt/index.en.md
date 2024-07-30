@@ -531,6 +531,7 @@ If you're using Goole Orion and you have one of the supported Carriers, such as 
 If you are not a subscriber to the supported carriers, you’ll need to install the test profile on your device using Safari on IOS or Google Chrome on android. This will enable your device for testing and enable your device to be able to automatically see and connect to the OpenRoaming enabled network for testing.
 
 OpenRoaming and PassPoint Testing Profile Links:
+- [AnyRoam](https://anyroam.cloudpath.net/enroll/ANYROAM/Production/process)
 - [AT&T](https://passpoint-profile.attwifi.com/) [Windows Only - Untested](ms-settings:wifi-provisioning?uri=https://passpoint-profile.attwifi.com/passpoint.xml)
 - [Boingo](https://passpoint.boingo.com/) (Only Available to Boingo Subscribers)
 - [CLOUD4WI](https://c4wi.co/jk43W)
