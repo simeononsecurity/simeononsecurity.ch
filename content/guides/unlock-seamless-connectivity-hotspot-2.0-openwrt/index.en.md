@@ -575,11 +575,11 @@ EduRoam Profiles (Account Required Unless Specified):
 - [Forest Hills Public Schools Network](https://onboard5.cloudpath.net/enroll/ForestHillsPublicSchools/Production/process)
 - [Hertford College Network](https://eu1.cloudpath.net/enroll/HertfordCollege/WiFi/process)
 - [HLand](https://onboard.cloudpath.net/enroll/hland/enroll/process)
-- [International House University of Berkley](https://onboard5.cloudpath.net/enroll/InternationalHouseatBerkeley/Production/process?reloadTried=1)(No signup needed)
+- [International House University of Berkley](https://onboard5.cloudpath.net/enroll/InternationalHouseatBerkeley/Production/process?reloadTried=1) (No signup needed)
 - [SAITPolytechnic](https://onboard5.cloudpath.net/enroll/SAITPolytechnic/eduroam/process) (No signup needed)
 - [St Andrews College Wireless Network](https://onboard.cloudpath.net/enroll/StAndrewsCollege/Production/process)
 - [Saint Louis University Network](https://expressconnect.slu.edu/enroll/SaintLouisUniversity/guestwireless/process) (Requires phone number, email, or social media)
-- [The Norton Knatchbull School](https://onboard5.cloudpath.net/enroll/NKS/onboard/process)(No signup needed)
+- [The Norton Knatchbull School](https://onboard5.cloudpath.net/enroll/NKS/onboard/process) (No signup needed)
 - [Vanderbilt University Medical Center Network](https://na1.cloudpath.net/enroll/VUMC/Production/process) (No signup needed)
 
 CityRoam Apps (Japan Only):
