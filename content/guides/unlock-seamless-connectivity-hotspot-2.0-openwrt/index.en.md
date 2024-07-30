@@ -41,6 +41,8 @@ Hotspot 2.0 addresses security concerns by implementing robust authentication pr
 
 Passpoint profiles are not tied to specific SSIDs, allowing them to work across any WLAN with appropriate Passpoint configuration. This interoperability ensures a consistent and reliable connection experience, especially in environments with multiple access points.
 
+[Check out our Interactive Hotspot 2.0 Map](https://openroamingmap.simeononsecurity.com)
+
 ______
 
 ## Implementing Hotspot 2.0 on OpenWRT
@@ -351,7 +353,6 @@ config wifi-iface 'radio1_orion5g'
     list iw_anqp_3gpp_cell_net '310,410' #AT&T Mobility
     list iw_anqp_3gpp_cell_net '310,150' #Cricket Wireless
     #T-Mobile 3gpp 
-    # list iw_anqp_3gpp_cell_net '310,240'
     # list iw_anqp_3gpp_cell_net '310,260'
     # list iw_anqp_3gpp_cell_net '310,310'
     #Orion domain Names
@@ -367,28 +368,30 @@ config wifi-iface 'radio1_orion5g'
     #list iw_domain_name 'attwireless.com'
     #T-Mobile Domain Names
     #list iw_domain_name 't-mobile.com'
-    #OpenRoaming / IronWiFi Domain Names
-    #list iw_domain_name 'ironwifi.net'
+    #OpenRoaming
     #list iw_domain_name 'openroaming.org'
     #list iw_domain_name 'apple.openroaming.net'
     #list iw_domain_name 'google.openroaming.net'
     #list iw_domain_name 'ciscooneid.openroaming.net'
-    # Anything more than 3 OUIs and the information won't be available until the client performs a GAS Request.
+    #list iw_domain_name 'samsung.openroaming.net'
+    #OpenRoaming / IronWiFi Domain Names
+    #list iw_domain_name 'ironwifi.net'
+    # Anything more than 3 OUIs and the information won't be available until the client performs a GAS Request. Order them top down from most to least important.
     # Orion Custom Default Consortium
     list iw_roaming_consortium 'f4f5e8f5f4'
     #OpenRoaming Consortium
     #Baseline Participation: OpenRoaming for All Identities, settlement-free, no personal data requested, baseline QoS - includes, but is not limited to users in education and research
     #list iw_roaming_consortium '5a03ba0000'
+    #list iw_roaming_consortium '004096'
+    #Paid Participation: OpenRoaming for All Identities, require-settlement, no personal data requested, baseline QoS
+    #list iw_roaming_consortium 'baa2d00000'
+    #list iw_roaming_consortium '00500f'
     #Education-Only Participation: OpenRoaming Visited Network Providers who want to signal that they specifically welcome educational and research (i.e. eduroam) visitors settlement-free, 
     #list iw_roaming_consortium '5a03ba0800'
     #IronWiFi Consortium
-    #list iw_roaming_consortium 'AA146B0000'
-    #list iw_roaming_consortium 'BAA2D00000'
-    #list iw_roaming_consortium '5A03BA0000'
-    #Cisco OpenRoaming and Samsung OneUI Onboarding
-    #list iw_roaming_consortium '004096'
+    #list iw_roaming_consortium 'aa146b0000'
     #EDURoam Consortium
-    #list iw_roaming_consortium '001BC50460'
+    #list iw_roaming_consortium '001bc50460'
     #Orion NAI Realm
     list iw_nai_realm '0,*.orion.area120.com,13[5:6],21[2:4][5:7],23[5:1][5:2],50[5:1][5:2],18[5:1][5:2]'
     #AT&T NAI Realm
