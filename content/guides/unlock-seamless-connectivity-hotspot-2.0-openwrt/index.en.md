@@ -545,7 +545,7 @@ OpenRoaming and PassPoint Testing Profile Links:
 - [SingleDigits WBA](https://provision.connectionassist.com/wba/)
 - [XFinity](https://secureprofile.wifi.connected.xfinity.com/) (Only Available to XFinity Subscribers)
 
-OpenRoaming Profile APPs:
+OpenRoaming Profile Apps:
 - Cisco OpenRoaming
     - [App Store](https://apps.apple.com/us/app/openroaming/id1496830649)
     - [Google Play](https://play.google.com/store/apps/details?id=com.cisco.or&hl=en_US&gl=US)
@@ -566,6 +566,26 @@ OpenRoaming Profile APPs:
 For a full list of [OpenRoaming Profiles](https://wballiance.com/openroaming/profile-signup/) please check out the WBA Website.
 
 If you're interested in creating your own provisioning portal, check out the [WBA's Provisioning Portal Demo](https://prov.orportal.org/).
+ 
+EduRoam Profiles (Account Required Unless Specified):
+- [AnyRoam](https://anyroam.cloudpath.net/enroll/ANYROAM/Production/process) (Only requires phone number)
+- [Bufflo State University](https://cloudpathlb.buffalostate.edu/enroll/SUNYBuffaloState/WFP001/process) (Requires phone number or email)
+- [Chapel Hill-Carrboro City Schools Network](https://na1.cloudpath.net/enroll/ChapelHill-CarrboroCitySchools/Public/process) (Only requires phone number or email)
+- [Eastern Nazarene College Network](https://na1.cloudpath.net/enroll/EasternNazareneCollege/Production/process) (Requires phone number or email)
+- [Forest Hills Public Schools Network](https://onboard5.cloudpath.net/enroll/ForestHillsPublicSchools/Production/process)
+- [Hertford College Network](https://eu1.cloudpath.net/enroll/HertfordCollege/WiFi/process)
+- [HLand](https://onboard.cloudpath.net/enroll/hland/enroll/process)
+- [International House University of Berkley](https://onboard5.cloudpath.net/enroll/InternationalHouseatBerkeley/Production/process?reloadTried=1)(No signup needed)
+- [SAITPolytechnic](https://onboard5.cloudpath.net/enroll/SAITPolytechnic/eduroam/process) (No signup needed)
+- [St Andrews College Wireless Network](https://onboard.cloudpath.net/enroll/StAndrewsCollege/Production/process)
+- [Saint Louis University Network](https://expressconnect.slu.edu/enroll/SaintLouisUniversity/guestwireless/process) (Requires phone number, email, or social media)
+- [The Norton Knatchbull School](https://onboard5.cloudpath.net/enroll/NKS/onboard/process)(No signup needed)
+- [Vanderbilt University Medical Center Network](https://na1.cloudpath.net/enroll/VUMC/Production/process) (No signup needed)
+
+CityRoam Apps (Japan Only):
+- Japan Wi-Fi auto-connect
+    - [App Store](https://apps.apple.com/us/app/japan-wi-fi-auto-connect/id1461015351)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.nttbp.jw2&hl=en_US)
 
 ##### Verifying Hotspot 2.0 Client Capability on Windows
 
