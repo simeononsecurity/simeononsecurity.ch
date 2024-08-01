@@ -68,31 +68,39 @@ Selecting the right Wi-Fi access point is crucial for optimizing network perform
 
 #### Comparison Table of XNET Wi-Fi Access Points
 
-| Feature           | [XT350 Outdoor WiFi AP](https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921)                | [XR560 Wi-Fi Access Point ](https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921)           | [XP6-Pro Wi-Fi AP](https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921)                     |
-|-------------------|--------------------------------------|-------------------------------------|--------------------------------------|
-| **Ideal for**     | Outdoor and versatile environments    | Large indoor venues                 | Small to medium indoor venues        |
-| **Wi-Fi Standard**| Wi-Fi 6                              | Wi-Fi 6E                            | Wi-Fi 6                              |
-| **MU-MIMO**       | 2x2                                  | 4x4                                 | 4x4                                  |
-| **Max Throughput**| Up to 1.2 Gbps                       | Up to 4.7 Gbps                      | Up to 1.2 Gbps                       |
-| **Antenna Design**| External, robust                     | Internal, high-performance          | Internal, cost-effective             |
-| **Price Point**   | High                                 | High                                | Low (affordable)                     |
-| **Deployment**    | Parks, patios, outdoor venues        | Conference centers, large offices   | Cafes, small restaurants             |
-| **Special Features**| Weather-resistant, versatile      | Tri-radio, advanced backhaul        | Compact, easy to deploy              |
-| **Power Over Ethernet (PoE)** | Supported                | Supported                           | Supported                            |
+| Feature           | [XP6-Pro Wi-Fi AP](https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921)                     | [XPX6 Carrier-grade Outdoor Wi-Fi Access Point](https://shop.xnet.company/products/xpx6-carrier-grade-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921) | [XT350 Outdoor WiFi AP](https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921)                | [XR560 Wi-Fi Access Point ](https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921)           | [XV2-2T0 WiFi 6 Ultra Long Distance Omni Access Point](https://shop.xnet.company/products/xv2-rt0-wifi-6-ultra-long-distance-access-point?loref=loot65f4d23708ad20.41432921) |
+|-------------------|--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
+| **Ideal for**     | Small to medium indoor venues        | Outdoor commercial patios and restaurant seating | Outdoor and versatile environments    | Large indoor venues                 | Outdoor public and business locations, stadiums, parks |
+| **Wi-Fi Standard**| Wi-Fi 6                              | Wi-Fi 6                              | Wi-Fi 6                              | Wi-Fi 6E                            | Wi-Fi 6                              |
+| **MU-MIMO**       | 4x4                                  | 4x4                                  | 2x2                                  | 4x4                                 | 2x2                                  |
+| **Max Throughput**| Up to 1.2 Gbps                       | Up to 1.2 Gbps                       | Up to 1.2 Gbps                       | Up to 4.7 Gbps                      | 5 GHz: 1.2 Gbps, 2.4 GHz: 573.5 Mbps|
+| **Antenna Design**| Internal, cost-effective             | Advanced omnidirectional antenna     | External, robust                     | Internal, high-performance          | Advanced omnidirectional antenna     |
+| **Price Point**   | Low (affordable)                     | Low (affordable)                     | High                                 | High                                | High                                |
+| **Deployment**    | Cafes, small restaurants             | Outdoor commercial patios and restaurant seating | Parks, patios, outdoor venues        | Conference centers, large offices   | Outdoor public and business locations, stadiums, parks |
+| **Special Features**| Compact, easy to deploy            | Easy installation, IP68 rating, compact design | Weather-resistant, versatile      | Tri-radio, advanced backhaul        | Up to 3,000 feet range (practically 1 square mile), ultra long distance, IP67 rated, surge suppression, LTE co-existence filter |
+| **Power Over Ethernet (PoE)** | Supported                | Supported                            | Supported                            | Supported                           | Supported                            |
 
 #### Key Differences and Suitability
 
-{{< figure src="XT350.webp" alt="XNET XT350" link="https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921" >}}
+{{< figure src="https://shop.xnet.company/cdn/shop/files/RUCKUST350OutdoorAccessPoint_T350C_Top__hi-res.png?v=1710976099&width=2890" alt="XNET XT350" link="https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921" >}}
 
 - [**XT350 Outdoor WiFi AP**](https://shop.xnet.company/products/xt350-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921): With its Wi-Fi 6 capability and robust external antenna design, the XT350 is perfect for outdoor installations where durability and wide coverage are necessary. It's ideal for areas like parks or outdoor cafés that require reliable internet access in a variety of weather conditions.
 
-{{< figure src="XR560.webp" alt="XNET XR560" link="https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921" >}}
+{{< figure src="https://shop.xnet.company/cdn/shop/files/XR560IndoorAccessPoint.png?v=1701285335&width=2890" alt="XNET XR560" link="https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921" >}}
 
 - [**XR560 Wi-Fi Access Point**](https://shop.xnet.company/products/xr560-indoor-access-point?loref=loot65f4d23708ad20.41432921): This model is the powerhouse among the three, featuring Wi-Fi 6E technology for ultra-fast speeds and high capacity. The XR560's advanced features, such as tri-radio and high-performance internal antennas, make it suitable for high-density environments like large offices or conference centers where many devices connect simultaneously.
 
-{{< figure src="XP6-PRO.webp" alt="XNET XP6-Pro" link="https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921" >}}
+{{< figure src="https://shop.xnet.company/cdn/shop/files/ALTA-Labs-AP6.011.png?v=1706122777" alt="XNET XP6-Pro" link="https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921" >}}
 
 - [**XP6-Pro Wi-Fi AP**](https://shop.xnet.company/products/xp6-pro?loref=loot65f4d23708ad20.41432921): As the most cost-effective option, the XP6-Pro offers good performance at a lower price point, making it accessible for smaller venues such as cafes and small restaurants. Its compact design and ease of deployment are significant advantages for places that need a straightforward, effective Wi-Fi solution without the complexities of more advanced models.
+
+{{< figure src="https://shop.xnet.company/cdn/shop/files/AP6-Pro-Outdoor_Front.png?v=1715881149" alt="XNET XV2-2T0" link="https://shop.xnet.company/products/xv2-rt0-wifi-6-ultra-long-distance-access-point?loref=loot65f4d23708ad20.41432921" >}}
+
+- [**XV2-2T0 WiFi 6 Ultra Long Distance Omni Access Point**](https://shop.xnet.company/products/xv2-rt0-wifi-6-ultra-long-distance-access-point?loref=loot65f4d23708ad20.41432921): Designed for outdoor public and business locations, including stadiums and parks, the XV2-2T0 provides up to 3,000 feet of range, practically covering 1 square mile. It boasts dual-radio Wi-Fi 6 technology, an IP67 rated enclosure, and advanced antenna optimization, making it ideal for long-distance and harsh environments.
+
+{{< figure src="https://shop.xnet.company/cdn/shop/files/Cambium_XV2-2T0_Side.png?v=1719259466" alt="XNET XPX6" link="https://shop.xnet.company/products/xpx6-carrier-grade-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921" >}}
+
+- [**XPX6 Carrier-grade Outdoor Wi-Fi Access Point**](https://shop.xnet.company/products/xpx6-carrier-grade-outdoor-wifi-ap?loref=loot65f4d23708ad20.41432921): Perfect for outdoor commercial patios and restaurant seating, the XPX6 offers reliable Wi-Fi 6 performance with advanced omnidirectional 4x4 MIMO technology. Its compact, robust design with an IP68 rating ensures durability and performance in demanding outdoor conditions.
 
 Each of these models offers distinct advantages, making them suitable for different types of environments and user needs. When selecting an XNET Wi-Fi access point, consider the specific requirements of your venue to ensure optimal performance and user satisfaction.
 
