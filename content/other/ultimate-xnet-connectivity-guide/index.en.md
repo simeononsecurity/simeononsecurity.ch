@@ -143,15 +143,15 @@ Conversely, poor locations for XNET installations include isolated or low-traffi
 
 #### XNET Installation Example 1 - Clubhouse
 
-{{< figure src="xnet-clubhouse.png" alt="XNET XP6-Pro Install at a Clubhouse" link="" >}}
+{{< figure src="xnet-clubhouse.png" alt="XNET XP6-Pro Install at a Clubhouse" link="https://docs.google.com/spreadsheets/d/12bxgz1snvoaxDfy0Lg8002YhaWWtQKOyfQWo33lVDUA/edit?usp=sharing" >}}
 
 #### XNET Installation Example 2 - Restaurant
 
-{{< figure src="xnet-restaurant.png" alt="XNET XP6-Pro Install at Restaurant" link="" >}}
+{{< figure src="xnet-restaurant.png" alt="XNET XP6-Pro Install at Restaurant" link="https://docs.google.com/spreadsheets/d/12bxgz1snvoaxDfy0Lg8002YhaWWtQKOyfQWo33lVDUA/edit?usp=sharing" >}}
 
 #### XNET Installation Example 3 - Meeting SPace
 
-{{< figure src="xnet-meeting-space.png" alt="XNET XP6-Pro Install at a Meeting Space" link="" >}}
+{{< figure src="xnet-meeting-space.png" alt="XNET XP6-Pro Install at a Meeting Space" link="https://docs.google.com/spreadsheets/d/12bxgz1snvoaxDfy0Lg8002YhaWWtQKOyfQWo33lVDUA/edit?usp=sharing" >}}
 
 
 By strategically selecting the installation locations, XNET can maximize the utility and profitability of its Wi-Fi offloading service while enhancing connectivity for the largest number of users.
@@ -195,7 +195,7 @@ By adhering to these guidelines, installers and maintainers of the XNET system c
 
 ______
 
-### Real-Time Network Monitoring with XNET Dashboard Limitations
+### Real-Time Network Monitoring with XNET Limitations
 
 The XNET Dashboard provides useful insights and management tools for users but currently does not support the display of Wi-Fi devices connected to the network. This means that users seeking detailed, real-time metrics of their network activity will need an alternative solution.
 
@@ -203,6 +203,10 @@ The XNET Dashboard provides useful insights and management tools for users but c
 For users requiring real-time network monitoring, we recommend the [**GL.iNet GL-SFT1200 (Opal) Secure Travel WiFi Router**](https://amzn.to/3UqNc8d). This device is not only affordable but also offers comprehensive features for robust network management.
 
 The router can be integrated with [GoodCloud.xyz](https://goodcloud.xyz), a cloud management service, allowing for real-time and remote monitoring of network activities across your offload devices. For more information and to purchase, visit [Amazon](https://amzn.to/3UqNc8d).
+
+#### The XNET Token Ledger
+
+To see a history of your device's payouts, you can search for your devices serial number on the [XNET Token Ledger](https://docs.google.com/spreadsheets/d/12bxgz1snvoaxDfy0Lg8002YhaWWtQKOyfQWo33lVDUA/edit?usp=sharing)
 
 ______
 
@@ -262,7 +266,7 @@ ______
 Here's a quick Q&A to provide clarity on common inquiries regarding the XNET Carrier Offload system:
 
 - **Who uses XNET Mobile?**
-  - Customers from AT&T, AT&T FirstNet, Consumer Cellular, Cricket Wireless, Google-Fi, and other major carriers in the future. (Some are provided through a carrrier aggregation service.)
+  - XNET is Offloading Multiple carriers currently in a testing capasity. No deals or agreements have been announced at this time. 
 
 - **What are the benefits of Wi-Fi offloading?**
   - **Reduced network congestion**: Offloads traffic to Wi-Fi to alleviate cellular network load.
