@@ -583,9 +583,10 @@ EduRoam Profiles (Account Required Unless Specified):
 - [Vanderbilt University Medical Center Network](https://na1.cloudpath.net/enroll/VUMC/Production/process) (No signup needed)
 
 CityRoam Apps (Japan Only):
-- Japan Wi-Fi auto-connect
+- Japan Wi-Fi auto-connect App
     - [App Store](https://apps.apple.com/us/app/japan-wi-fi-auto-connect/id1461015351)
     - [Google Play](https://play.google.com/store/apps/details?id=com.nttbp.jw2&hl=en_US)
+- [tokyo.lg.jp](https://wi-fi.metro.tokyo.lg.jp/en/) (Requires social media login)
 
 ##### Verifying Hotspot 2.0 Client Capability on Windows
 
