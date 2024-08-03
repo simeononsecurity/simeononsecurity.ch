@@ -524,7 +524,7 @@ phy1-ap0  ESSID: "OrionWiFi"
           Frequency offset: none
           Supports VAPs: yes  PHY name: phy1
 ```
-##### Testing using an Android or IOS Device
+##### Testing using an Android, Windows, iOS, or MacOS Device
 
 If you're using Goole Orion and you have one of the supported Carriers, such as AT&T or Google Fi, you just need to forget any wifi access points you have saved that are in range. Your phone should automatically see and connect to the appropriate SSID. Otherwise, you'll need to install the [Google Orion Test Profile](https://get.orionwifi.com/web/orion-test-profile)
 
@@ -566,6 +566,8 @@ OpenRoaming Profile Apps:
 For a full list of [OpenRoaming Profiles](https://wballiance.com/openroaming/profile-signup/) please check out the WBA Website.
 
 If you're interested in creating your own provisioning portal, check out the [WBA's Provisioning Portal Demo](https://prov.orportal.org/).
+
+For the purposes of OpenRoaming, you may need (but likely won't) need to trust and install the [WBA root and intermediate certificates](https://wballiance.com/openroaming/pki-repository/) on your system.
  
 EduRoam Profiles (Account Required Unless Specified):
 - [AnyRoam](https://anyroam.cloudpath.net/enroll/ANYROAM/Production/process) (Only requires phone number)
