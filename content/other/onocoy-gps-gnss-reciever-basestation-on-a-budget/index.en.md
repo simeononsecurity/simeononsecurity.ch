@@ -349,194 +349,110 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
 | Ublox F9P       | 38400            | 8         | None   | 1         |
 | Ublox M8*       | 9600             | 8         | None   | 1         |
 
-### Option 2: RTKLIB
-1. On your linux device install the [rtklib](https://rtklib.com/) software.
-    ```bash
-    sudo apt-get update
-    sudo apt-get -y install rtklib
-    ```
-2. Identify the USB Source
+### Option 2: STR2STR
 
-    ```bash
-    lsusb
-    ```
-    Ex. `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P` or `Bus xxx Device xxx: ID xxxx:xxxx U-Blox AG [u-blox 8]`
+1. **Download and Install RTKLIB**
 
-    **Note**: *Some devices may show up as `ttyUSB0`, `ttyACM0`, etc. You'll have to look this up per your device.*
+   If RTKLIB is not already installed, you can download and compile it from the official repository:
 
-    ```bash
-    ls /dev/ttyUSB*
-    ```
+   ```bash
+   git clone https://github.com/tomojitakasu/RTKLIB.git
+   cd RTKLIB/app/str2str/gcc
+   make
+   ```
 
-    ```bash
-    sudo minicom -D /dev/ttyUSB0
-    ```
-3. Create a Rtkrcv.conf RTKLIB Configuration File
-    1. Create the paths and conf file
+2. **Identify the USB Source**
+   1. **Check if Linux Recognizes the Device**
+   ```bash
+   lsusb
+   ```
+   Example output: `Bus 00x Device 00x: ID xxxx:xxxx Prolific Technology, Inc. PL2303 Serial Port / Mobile Action MA-8910P` or `Bus xxx Device xxx: ID xxxx:xxxx U-Blox AG [u-blox 8]`.
+
+   2. **Determine the Proper ttyUSB/ttyACM Path**
+   ```bash
+   ls /dev/ttyUSB*
+   ```
+   **Note:** Some devices may appear as `ttyUSB0`, `ttyACM0`, etc., depending on your hardware.
+
+   **Optional:** If you want to view the serial output, you can use Minicom:
+
+   ```bash
+   sudo minicom -D /dev/ttyUSB0
+   ```
+   For more details, refer to the [guide on using Minicom](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom).
+
+3. **Configure str2str**
+
+   1. **Test the Configuration**
+
+      Replace placeholders with your specific values:
+      - `${USB_PORT}`: The detected USB port (e.g., `/dev/ttyUSB0`).
+      - `${BAUD_RATE}`: Baud rate specific to your device.
+      - `${DATA_BITS}`, `${PARITY}`, `${STOP_BITS}`: Serial port settings.
+      - `${ONOCOY_PASSWORD}`: Your password for the NTRIP server.
+      - `${ONOCOY_USERNAME}`: Your username for the NTRIP server.
+      - `${ONOCOY_USERNAME}`: Your mountpoint for the NTRIP server.
+      - `${RTCM_MSGS}`: RTCM messages you want to send. Ex. 1005(30),1006(30),1007(30),1019,1033(30),1042,1044,1045,1046,1077(1),1087(1),1097(1),1107(1),1117(1),1127(1),1137(1),1230(1)
+
       ```bash
-      sudo mkdir ~/rtklib/
-      sudo nano ~/rtklib/rtkrcv.conf
+      str2str -in serial://${USB_PORT}:${BAUD_RATE}:${DATA_BITS}:${PARITY}:${STOP_BITS} \
+              -out "ntrips://${ONOCOY_USERNAME}:${ONOCOY_PASSWORD}@servers.onocoy.com:2101/${ONOCOY_MOUNTPOINT}#rtcm3"" \
+              -msg "$RTCM_MSGS" -b 0 -t 5 -s 30000 -r 30000 -n 1
       ```
-    2. Conf File Contents
-    > **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then test it again.
-      ```toml
-      [serial]
-      port = /dev/ttyUSB0
-      bitrate = 921600
-      [ntrip]
-      caster = servers.onocoy.com
-      port = 2101
-      mountpoint = {{mountpointhere}} 
-      user = {{usernamehere}}
-      passwd = {{passwordhere}}
-      [output]  
-      format = rtcm3
-      path = /path/to/output/file.rtcm
-      ```
-    3. Test the RTKLIB config
-      ```bash
-        rtkrcv -s -o ~/rtklib/rtkrcv.conf
-      ```
-4. Create the RTKLIB Service
-  1. Create the Service Unit File
-    ```bash
-    sudo nano /etc/systemd/system/rtklib.service
-    ```
-  2. Add the Service Configuration
-    ```toml
-    [Unit]
-    Description=RTKLIB Service
-    After=network.target
-    Wants=network-online.target
-    After=network-online.target
 
-    [Service]
-    ExecStart=/path/to/rtkrcv -s -o /path/to/rtkrcv.conf
-    Restart=always
-    RestartSec=120  # 2 minutes (in seconds)
-    TimeoutStartSec=300 # Set a 5-minute timeout (adjust as needed)
-    User=root
+   2. **Create a Service to Restart on Boot**
 
-    [Install]
-    WantedBy=default.target
-    ```
-  3. Enable and Start The Service
-    ```bash
-    sudo systemctl daemon-reload
-    sudo systemctl enable rtklib.service
-    sudo systemctl start rtklib.service
-    ```
-  4. Verify the Service
-    ```bash
-    sudo systemctl status rtklib.service
-    ```
+      1. **Create a Service File**:
+         ```bash
+         sudo nano /etc/systemd/system/str2str.service
+         ```
+         Replace `/path/to/str2str` with the actual path to your `str2str` executable.
+
+         ```bash
+         [Unit]
+         Description=RTKLIB str2str Service
+         After=network.target
+         Wants=network-online.target
+         After=network-online.target
+
+         [Service]
+         ExecStart=/path/to/str2str -in serial://${USB_PORT}:${BAUD_RATE}:${DATA_BITS}:${PARITY}:${STOP_BITS} \
+                                    -out "ntrips://${ONOCOY_USERNAME}:${ONOCOY_PASSWORD}@servers.onocoy.com:2101/${ONOCOY_MOUNTPOINT}#rtcm3" \
+                                    -msg "$RTCM_MSGS" -b 0 -t 5 -s 30000 -r 30000 -n 1
+         Restart=always
+         RestartSec=120  # 2 minutes (in seconds)
+         TimeoutStartSec=300 # Set a 5-minute timeout (adjust as needed)
+         User=root
+
+         [Install]
+         WantedBy=default.target
+         ```
+
+      2. **Enable and Start the Service**:
+         ```bash
+         sudo systemctl enable str2str.service
+         sudo systemctl start str2str.service
+         ```
+
+      3. **Check the Service Status**:
+         ```bash
+         sudo systemctl status str2str.service
+         ```
 
 #### Serial Connection Settings
 
-> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
-
-**Known Default Serial Settings for the Following GPS Receivers**
+**Known Default Serial Settings for GPS Receivers**
 
 | GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
-|-----------------|------------------|-----------|--------|-----------|
-| UM980           | 115200           | 8         | None   | 1         |
-| UM982           | 115200           | 8         | None   | 1         |
-| Bynav M20       | 115200           | 8         | None   | 1         |
-| Bynav M21       | 115200           | 8         | None   | 1         |
-| Ublox F9P       | 38400            | 8         | None   | 1         |
-| Ublox M8*       | 9600             | 8         | None   | 1         |
+|-----------------|-----------------|-----------|--------|-----------|
+| UM980           | 115200          | 8         | None   | 1         |
+| UM982           | 115200          | 8         | None   | 1         |
+| Bynav M20       | 115200          | 8         | None   | 1         |
+| Bynav M21       | 115200          | 8         | None   | 1         |
+| Ublox F9P       | 38400           | 8         | None   | 1         |
+| Ublox M8*       | 9600            | 8         | None   | 1         |
 
-### Option 3 (The Easiest): Docker Container
-
-#### 1. Install Docker
-
-Consult the following guides for more information on how to install docker
-
-- https://www.digitalocean.com/community/tutorial-collections/how-to-install-and-use-docker
-- https://docs.docker.com/engine/install/
-- https://docs.docker.com/engine/install/ubuntu/
-
-#### 2. Run the Docker Container
-
-   Run the Docker container, ensuring that you provide the necessary environment variables and parameters:
-
-    > You don't have to specify both Onocoy and RTKDirect credentials. The backend script is smart and looks to see if they have been set. You can use one or both and this should function perfectly.
-
-   > If the environment variable `ONCOCOY_MOUNTPOINT` or `ONOCOY_USE_NTRIPSERVER` or `RTKDIRECT_USE_NTRIPSERVER` is specified, the docker container will use **NTRIPSERVER** for Onocoy or RTKDirect respectively, otherwise it'll use **RTKLIB** for the connection to Onocoy and/or RTKDirect. The container will still use RTKLIB for the splitting of the feed no matter what.
-   > `LAT`, `LONG`, `ELEVATION`, `INSTRAMENT`, and `ANTENNA` are all optional and are only used if RTKLIB is being used and NTRIPSERVER is not.
-
-   > You may specify `TCP_OUTPUT_PORT` to change the tcp server's output port if using docker's [host networking mode](https://docs.docker.com/network/#drivers). Otherwise use the appropriate docker [port mappings](https://docs.docker.com/network/#published-ports).
-
-   > You can host any RTKLIB or tcp server instance on another machine and retreive the data using our dockers tcp client mode by defining `TCP_INPUT_IP` and `TCP_INPUT_PORT`. In which you'll specify your tcp servers ip and port.
-
-> **Note:** The onocoy dashboard/explorer won't provide you with the mountpoint information until they verify you can send them data. Omit the mountpoint details from this section until after you initially get past that window. Then run the command again.
-
-
-##### Serial Connection Settings
-
-> **Note:** Always consult your receiver manufactures documentation to get the correct serial connection information such as `baud rate`, `data bits`, `partity`, and `stop bits`.
-
-**Known Default Serial Settings for the Following GPS Receivers**
-
-| GPS Receiver    | Baud Rate (bps) | Data Bits | Parity | Stop Bits |
-|-----------------|------------------|-----------|--------|-----------|
-| UM980           | 115200           | 8         | None   | 1         |
-| UM982           | 115200           | 8         | None   | 1         |
-| Bynav M20       | 115200           | 8         | None   | 1         |
-| Bynav M21       | 115200           | 8         | None   | 1         |
-| Ublox F9P       | 38400            | 8         | None   | 1         |
-| Ublox M8*       | 9600             | 8         | None   | 1         |
-
-
-##### Docker Config Examples
-
-   ```bash
-    docker run \
-      -td \
-      --restart unless-stopped \
-      --name sosrtk \
-      --device=/dev/<YOUR_USB_PORT> \
-      -e USB_PORT=<YOUR_USB_PORT> \
-      -e BAUD_RATE=<YOUR_SERIAL_BAUD_RATE> \
-      -e DATA_BITS=<YOUR_SERIAL_DATA_BITS> \
-      -e PARITY=<YOUR_SERIAL_PARITY> \
-      -e STOP_BITS=<YOUR_SERIAL_STOP_BITS> \
-      -e ONOCOY_MOUNTPOINT=<YOUR_ONOCOY_MOUNTPOINT> \
-      -e ONOCOY_USERNAME=<YOUR_ONOCOY_MOUNTPOINT_USERNAME> \
-      -e ONOCOY_PASSWORD=<YOUR_ONOCOY_MOUNTPOINT_PASSWORD> \
-      -e LAT=<OPTIONAL_YOUR_LATITUDE> \
-      -e LONG=<OPTIONAL_YOUR_LONGITUDE> \
-      -e ELEVATION=<OPTIONAL_YOUR_ELEVATION_FROM_SEA_LEVEL_IN_METERS> \
-      -e INSTRUMENT=<OPTIONAL_YOUR_GPS_RECEIVER_DESCRIPTION> \
-      -e ANTENNA=<OPTIONAL_YOUR_ANTENNA_DESCRIPTION> \
-      simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
-   ```
-
-   Ensure you replace the placeholder values (`<...>`) with your specific configuration.
-
-   Ex.
-   ```bash
-    docker run \
-     -td \
-     --restart unless-stopped \
-     --name sosrtk \
-     --device=/dev/ttyUSB0 \
-     -e USB_PORT=ttyUSB0 \
-     -e BAUD_RATE=921600 \
-     -e DATA_BITS=8 \
-     -e PARITY=n \
-     -e STOP_BITS=1 \
-     -e ONOCOY_MOUNTPOINT=YOUR_ONOCOY_MOUNTPOINT \
-     -e ONOCOY_USERNAME=YOUR_ONOCOY_MOUNTPOINT_USERNAME \
-     -e ONOCOY_PASSWORD=YOUR_ONOCOY_MOUNTPOINT_PASSWORD \
-     -e PORT_NUMBER=32377 \
-     -e LAT=37.7749 \
-     -e LONG=-122.4194 \
-     -e ELEVATION=50 \
-     -e INSTRUMENT="Your GPS Receiver" \
-     -e ANTENNA="Your Antenna" \
-     simeononsecurity/docker-rtklib-onocoy-rtkdirect:latest
-   ```
+Always consult your receiver manufacturer's documentation for the correct serial connection information.
 
 ### **Windows Option 1: STRSVR** 
 
