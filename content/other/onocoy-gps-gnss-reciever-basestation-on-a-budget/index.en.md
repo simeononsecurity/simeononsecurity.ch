@@ -392,7 +392,7 @@ Once you've set up your device and [properly placed your antenna](https://docs.o
       - `${ONOCOY_PASSWORD}`: Your password for the NTRIP server.
       - `${ONOCOY_USERNAME}`: Your username for the NTRIP server.
       - `${ONOCOY_USERNAME}`: Your mountpoint for the NTRIP server.
-      - `${RTCM_MSGS}`: RTCM messages you want to send. Ex. 1005(30),1006(30),1007(30),1019,1033(30),1042,1044,1045,1046,1077(1),1087(1),1097(1),1107(1),1117(1),1127(1),1137(1),1230(1)
+      - `${RTCM_MSGS}`: RTCM messages you want to send. Ex. `1005(30),1006(30),1007(30),1019,1033(30),1042,1044,1045,1046,1077(1),1087(1),1097(1),1107(1),1117(1),1127(1),1137(1),1230(1)`
 
       ```bash
       str2str -in serial://${USB_PORT}:${BAUD_RATE}:${DATA_BITS}:${PARITY}:${STOP_BITS} \
