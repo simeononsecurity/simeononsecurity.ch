@@ -543,6 +543,7 @@ OpenRoaming and PassPoint Testing Profile Links:
 - [SingleDigits Demo](https://provision.connectionassist.com/demo/)
 - [SingleDigits Intel](https://provision.connectionassist.com/intel/)
 - [SingleDigits WBA](https://provision.connectionassist.com/wba/)
+- [Uplink](https://explorer.uplink.xyz/subscriber) (Requires signup)
 - [XFinity](https://secureprofile.wifi.connected.xfinity.com/) (Only Available to XFinity Subscribers)
 
 OpenRoaming Profile Apps:
