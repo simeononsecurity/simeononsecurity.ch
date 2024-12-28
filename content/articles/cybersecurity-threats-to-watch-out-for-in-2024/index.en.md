@@ -1,6 +1,6 @@
 ---
 title: "2024 Cybersecurity Threats: Expert Insights and Recommendations"
-date: 2024 -02-20
+date: 2024-02-20
 toc: true
 draft: false
 description: "Discover the top cybersecurity threats of 2024 and learn how to stay safe with expert recommendations."
