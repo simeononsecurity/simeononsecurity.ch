@@ -186,7 +186,7 @@
 {{ if .IsPage }}{{ with .Params.news_keywords }}
 {{ end }}{{ end }}
 
-{{ if eq .Section "blog"}}
+{{ if and (eq .Section "blog") (.IsHome) }}
 
 <!-- Pagination meta tags for list pages only -->
 {{ $paginator := .Paginate (where .Pages "Section" "blog") }}
