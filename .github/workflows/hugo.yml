@@ -1,8 +1,9 @@
 name: Test Hugo Latest Version
 
 on:
-  pull_request:
+  workflow_dispatch:
   push:
+  pull_request:
 
 jobs:
   hugo:
