@@ -23,5 +23,5 @@ jobs:
         with:
           version: latest
           extended: true
-          args: --cleanDestinationDir --gc -D -E -F -v --stepAnalysis --templateMetrics  --ignoreCache --renderToMemory --minify --panicOnWarning --logLevel info --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
+          args: --cleanDestinationDir --gc -D -E -F -v --ignoreCache --renderToMemory --minify --panicOnWarning --logLevel info --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
 
