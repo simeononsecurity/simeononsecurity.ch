@@ -87,7 +87,7 @@
           "sameAs": [{{ .Site.Params.socialProfiles }}],       
           "logo": {
               "@type": "ImageObject",
-              "url": "{{ ( or .Site.Params.Logo .Site.Params.organizationLogo .Page.Params.Cover ) | absURL }}",
+              "url": "{{ ( or (string .Site.Params.Logo) (string .Site.Params.organizationLogo) (string .Page.Params.Cover) ) | absURL }}",
               "width":"32",
               "height":"32"
           }
