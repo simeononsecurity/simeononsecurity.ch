@@ -4,7 +4,7 @@
 function loadGoogleTagManager() {
   var gtagScript = document.createElement('script');
   gtagScript.async = true;
-  gtagScript.src = '/p/gtag/js?id=G-PXP72XKLLL';
+  gtagScript.src = '/p/gtag/js?id=G-';
   gtagScript.fetchpriority = "high";
   document.body.appendChild(gtagScript);
 }
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function gtag(){dataLayer.push(arguments);}
   function configureTracking(){
     gtag('js', new Date());
-    gtag('config', 'G-PXP72XKLLL', {
+    gtag('config', 'G-', {
       'anonymize_ip': true,
       'send_page_view': true,
       'currency': 'USD',
