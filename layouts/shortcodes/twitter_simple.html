@@ -2,7 +2,9 @@
 {{- $sc := .Page.Site.Config.Services.Twitter -}}
 {{- if not $pc.Disable -}}
 {{- $id := .Get 0 -}}
-{{- $json := getJSON "https://api.twitter.com/1/statuses/oembed.json?id=" $id "&omit_script=true" -}}
+{{- $url := printf "https://api.twitter.com/1/statuses/oembed.json?id=%s&omit_script=true" $id }}
+{{- $remoteData := resources.GetRemote $url }}
+{{- $json := $remoteData.Content | transform.Unmarshal }}
 {{- if not $sc.DisableInlineCSS -}}
 {{ template "__h_simple_twitter_css" $ }}
 {{- end -}}

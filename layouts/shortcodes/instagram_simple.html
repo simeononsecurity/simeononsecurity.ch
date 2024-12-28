@@ -2,7 +2,9 @@
 {{- $sc := .Page.Site.Config.Services.Instagram -}}
 {{- if not $pc.Disable -}}
 {{- $id := .Get 0 -}}
-{{- $item := getJSON "https://api.instagram.com/oembed/?url=https://www.instagram.com/p/" $id "/&amp;maxwidth=640&amp;omitscript=true" -}}
+{{- $url := printf "https://api.instagram.com/oembed/?url=https://www.instagram.com/p/%s/&amp;maxwidth=640&amp;omitscript=true" $id }}
+{{- $remoteData := resources.GetRemote $url }}
+{{- $item := $remoteData.Content | transform.Unmarshal }}
 {{- $class1 := "__h_instagram" -}}
 {{- $class2 := "s_instagram_simple" -}}
 {{- $hideCaption := (eq (.Get 1) "hidecaption") -}}
@@ -15,9 +17,9 @@
 	<div class="card-header">
     <a href="{{ $item.author_url | safeURL }}" class="card-link">{{ $item.author_name }}</a>
   </div>
-	<a href="{{ $mediaURL }}" rel="noopener" target="_blank"><img class="card-img-top img-fluid" src="{{ $item.thumbnail_url }}" width="{{ $item.thumbnail_width }}"  height="{{ $item.thumbnail_height }}" alt="Instagram Image"></a>
+	<a href="{{ $mediaURL }}" rel="noopener" target="_blank"><img class="card-img-top img-fluid" src="{{ $item.thumbnail_url }}" width="{{ $item.thumbnail_width }}" height="{{ $item.thumbnail_height }}" alt="Instagram Image"></a>
 	<div class="card-body">
-		{{ if not $hideCaption }}<p class="card-text"><a href="{{ $item.author_url | safeURL }}" class="card-link">{{ $item.author_name }}</a> {{ $item.title}}</p>{{ end }}
+		{{ if not $hideCaption }}<p class="card-text"><a href="{{ $item.author_url | safeURL }}" class="card-link">{{ $item.author_name }}</a> {{ $item.title }}</p>{{ end }}
 		<a href="{{ $item.author_url | safeURL }}" class="card-link">View More on Instagram</a>
 	</div>
 </div>

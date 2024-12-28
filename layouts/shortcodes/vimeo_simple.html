@@ -2,7 +2,9 @@
 {{- if not $pc.Disable -}}
 {{ $id := .Get "id" | default (.Get 0) }}
 {{ $dnt := cond (eq $pc.EnableDNT true) "?dnt=1" "" }}
-{{- $item := getJSON (print "https://vimeo.com/api/oembed.json?url=https://vimeo.com/" $id $dnt) -}}
+{{ $url := print "https://vimeo.com/api/oembed.json?url=https://vimeo.com/" $id $dnt }}
+{{ $remoteData := resources.GetRemote $url }}
+{{ $item := $remoteData.Content | transform.Unmarshal }}
 {{ $class := .Get "class" | default (.Get 1) }}
 {{ $hasClass := $class }}
 {{ $class := $class | default "__h_video" }}
