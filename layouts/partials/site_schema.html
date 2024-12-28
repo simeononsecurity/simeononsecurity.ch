@@ -15,7 +15,7 @@
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "sameAs": [{{ .Site.Params.socialProfiles }}],
-    "thumbnailUrl": "{{ ( or .Site.Params.Logo .Site.Params.organizationLogo .Page.Params.Cover ) | absURL }}",
+    "thumbnailUrl": "{{ ( or (string .Site.Params.Logo) (string .Site.Params.organizationLogo) (string .Page.Params.Cover) ) | absURL }}",
     "license": "{{ .Site.Params.copyright }}",
     "potentialAction": {
       "@type": "SearchAction",
