@@ -9,7 +9,8 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {{- range $index, $faq := (getJSON "static/quiz-dicts/netplusdict.json") }}
+        {{- $faqData := resources.Get "static/quiz-dicts/netplusdict.json" | transform.Unmarshal -}}
+        {{- range $index, $faq := $faqData }}
         {
           "@type": "Question",
           "name": "Question {{ add $index 1 }}: {{ $faq.question }}",
@@ -17,11 +18,11 @@
             "@type": "Answer",
             "text": "{{ $faq.reasoning }}"
           }
-        },
+        }{{ if lt (add $index 1) (len $faqData) }},{{ end }}
         {{- end }}
       ]
     }
-  </script>
+  </script>  
   {{ partialCached "breadcrumbs.html" . .Page}}
 
   <h1 class="post-title">
