@@ -54,28 +54,33 @@
     </script>
   {{ end }}
 {{ else if eq .Kind "page" }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ .Permalink }}"
-    },
-    "headline": "{{ .Title }}",
-    "url": "{{ .Permalink }}",
-    "datePublished": "{{ .Date.Format "2006-01-02" }}",
-    "author": {
-      "@type": "Person",
-      "name": "{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}",
-      "url": "{{ with .Params.Author }}{{ $.Site.BaseURL }}/authors/{{ . }}{{ else }}{{ "/authors/simeononsecurity" | absURL }}{{ end }}"
-    }{{ if .Params.Cover }},
-    "image": {
-      "@type": "ImageObject",
-      "url": "{{ with .Params.Cover }}{{ resources.Get . }}{{ else "" }}"
-    }{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}",
+    "url": "{{ with .Params.Author }}{{ $.Site.BaseURL }}/authors/{{ . }}{{ else }}{{ "/authors/simeononsecurity" | absURL }}{{ end }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ if .Params.Cover }}
+      "{{ resources.Get .Params.Cover }}"
+    {{ else }}
+      ""
+    {{ end }}
   }
-  </script>
+}
+</script>
+
 {{ else }}
   {{ errorf "Unhandled kind: %s for %s" .Kind .Permalink }}
 {{ end }}
