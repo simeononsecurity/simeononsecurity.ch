@@ -30,14 +30,6 @@
 [[related.indices]]
     applyFilter = false
     cardinalityThreshold = 0
-    name = 'tags'
-    pattern = ''
-    toLower = false
-    type = 'basic'
-    weight = 40
-[[related.indices]]
-    applyFilter = false
-    cardinalityThreshold = 0
     name = 'genre'
     pattern = ''
     toLower = false
