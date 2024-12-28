@@ -1,6 +1,6 @@
 ---
 title: "Automating Windows Server STIG Compliance with STIG Scripts"
-date: 2020-09-09-T11:59:03-05:00
+date: 2020-09-09
 toc: true
 draft: false
 description: "Learn how to automate STIGing Windows Server 2012, 2016, and 2019 with the Windows STIG Script, ensuring compliance with various organizations' recommendations and requirements."
