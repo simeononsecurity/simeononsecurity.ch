@@ -1,4 +1,4 @@
-{{ $detectedimage := "" }}
+f{{ $detectedimage := "" }}
 {{ $twitter_image := "" }}
 {{ if .Params.cover }}
   {{ $cover := resources.Get (.Params.Cover) }}
@@ -27,7 +27,7 @@
 {{ with .Site.Social.twitter -}}
 <meta name="twitter:site" content="@{{ . }}"/>
 {{ end -}}
-{{ range .Site.Authors }}
+{{ range .Site.Params.Author }}
 {{ with .twitter -}}
 <meta name="twitter:creator" content="@{{ . }}"/>
 {{ end -}}
