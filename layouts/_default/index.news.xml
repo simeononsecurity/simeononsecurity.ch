@@ -9,7 +9,7 @@
             <loc>{{ .Permalink }}</loc>
             <news:news>
                 <news:publication>
-                    <news:name>{{ or ($.Site.Author.Name) ($.Site.Title) }}</news:name>
+                    <news:name>{{ or ($.Site.Params.Author.Name) ($.Site.Title) }}</news:name>
                     <news:language>{{ $.Language.Lang }}</news:language>
                 </news:publication>
                 {{ if not .Lastmod.IsZero }}

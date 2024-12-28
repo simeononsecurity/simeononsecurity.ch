@@ -29,7 +29,7 @@
   }
 </script>
 {{ else if $enableBlogSchema }}
-{{ $author := or (.Params.author) (.Site.Author.name) }}
+{{ $author := or (.Params.author) (.Site.Params.Author.name) }}
 {{ $org_name := .Site.Title }}
 {{ $og_image := "" }}
 {{ if .Params.cover }}
@@ -108,12 +108,12 @@
   </script>
 {{ end }}
 {{ else if .IsPage }} 
-{{ $author := or ($.Page.Params.author) ($.Site.Author.name) }}
+{{ $author := or ($.Page.Params.author) ($.Site.Params.Author.name) }}
 {{ $authorURL := "" }}
 {{ if .Params.Author }}
   {{ with .Params.Author }}
       {{ $authorURL = printf "/authors/%s" (lower $.Params.Author) | absURL }}
-      {{ $author = or ($.Page.Params.author) ($.Site.Author.name) }}
+      {{ $author = or ($.Page.Params.author) ($.Site.Params.Author.name) }}
   {{ else }}
       {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
       {{ $author = "simeononsecurity" }}

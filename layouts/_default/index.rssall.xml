@@ -54,9 +54,9 @@
     {{end}}
     
 
-    {{ with .Site.Author.email }}
-      <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>
-      <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>
+    {{ with .Site.Params.Author.email }}
+      <managingEditor>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</managingEditor>
+      <webMaster>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</webMaster>
     {{ end }}
 
     {{ with .Site.Copyright }}
@@ -90,10 +90,10 @@
         {{ with $.Params.Author }}
           <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
         {{ else }}
-          {{ with .Site.Author.email }}
+          {{ with .Site.Params.Author.email }}
             <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
           {{ else }}
-            {{ with $.Site.Author.name }}
+            {{ with $.Site.Params.Author.name }}
               <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>
             {{ end }}
           {{ end }}
