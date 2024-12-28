@@ -65,7 +65,7 @@ ampElements = [
 # Google Analytics code
 
 # Adsense publisher code
-adsensePublisher = "ca-pub-7261983457890123"
+adsensePublisher = ""
 
 # Social sites for metatags
 facebookSite = ""
@@ -137,15 +137,15 @@ priority = 0.3
 priority = 0.3
 
 [security]
-enableInlineShortcodes = true
-[security.exec]
-allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
-osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
-[security.funcs]
-getenv = ['^HUGO_', '^WC_', 'babel']
-[security.http]
-methods = ['(?i)GET|POST']
-urls = ['.*']
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^WC_', 'babel']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
 
 [markup]
   [markup.goldmark]
