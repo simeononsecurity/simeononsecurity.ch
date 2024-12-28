@@ -15,7 +15,7 @@
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "sameAs": [{{ .Site.Params.socialProfiles }}],
-    "thumbnailUrl": "{{ ( or ($.Page.Params.Cover) ($.Site.Params.Logo) ($.Site.Params.organizationLogo) ) | absURL }}",
+    "thumbnailUrl": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ) | absURL }}",
     "license": "{{ .Site.Params.copyright }}",
     "potentialAction": {
       "@type": "SearchAction",
@@ -87,7 +87,7 @@
           "sameAs": [{{ .Site.Params.socialProfiles }}],       
           "logo": {
               "@type": "ImageObject",
-              "url": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ($.Site.Params.Logo) ) | absURL }}",
+              "url": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ) | absURL }}",
               "width":"32",
               "height":"32"
           }
@@ -169,7 +169,7 @@
       "sameAs": [{{ .Site.Params.socialProfiles }}],
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ($.Site.Params.Logo) ) | absURL }}",
+        "url": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ) | absURL }}",
         "width": "32",
         "height": "32"
       }
