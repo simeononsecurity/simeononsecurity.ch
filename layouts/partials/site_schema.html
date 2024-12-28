@@ -15,7 +15,7 @@
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "sameAs": [{{ .Site.Params.socialProfiles }}],
-    "thumbnailUrl": "{{ ( or (string .Site.Params.Logo) (string .Site.Params.organizationLogo) (string .Page.Params.Cover) ) | absURL }}",
+    "thumbnailUrl": "{{ ( or (string .Page.Params.Cover) (string .Site.Params.Logo) (string .Site.Params.organizationLogo) ) | absURL }}",
     "license": "{{ .Site.Params.copyright }}",
     "potentialAction": {
       "@type": "SearchAction",
@@ -87,7 +87,7 @@
           "sameAs": [{{ .Site.Params.socialProfiles }}],       
           "logo": {
               "@type": "ImageObject",
-              "url": "{{ ( or (string .Site.Params.Logo) (string .Site.Params.organizationLogo) (string .Page.Params.Cover) ) | absURL }}",
+              "url": "{{ ( or (string .Site.Params.organizationLogo) (string .Page.Params.Cover) (string .Site.Params.Logo) ) | absURL }}",
               "width":"32",
               "height":"32"
           }
@@ -169,7 +169,7 @@
       "sameAs": [{{ .Site.Params.socialProfiles }}],
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ ( or .Site.Params.Logo .Site.Params.organizationLogo .Page.Params.Cover ) | absURL }}",
+        "url": "{{ ( or (string .Site.Params.organizationLogo) (string .Page.Params.Cover) (string .Site.Params.Logo) ) | absURL }}",
         "width": "32",
         "height": "32"
       }
