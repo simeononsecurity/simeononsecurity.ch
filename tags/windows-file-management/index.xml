@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows File Management on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/windows-file-management//img/banner.png</url><title>Windows File Management on simeononsecurity</title><link>https://simeononsecurity.com/tags/windows-file-management/</link></image><link>https://simeononsecurity.com/tags/windows-file-management/</link><description>Recent content in Windows File Management on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/windows-file-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Command Line: Master File Management for Efficiency</title><link>https://simeononsecurity.com/guides/windows-command-line-master-file-management/</link><pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Productivity"
+, "Windows"
+, "File Management"
+, "Command Line"
+, "Data Organization"
+, "Workflow Optimization"
+, "Digital Efficiency"
+, "IT Skills"
+, "Computer Tips"</category><guid>https://simeononsecurity.com/guides/windows-command-line-master-file-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Windows file management with expert command-line techniques. Learn file copying, moving, renaming, and advanced methods for efficient organization and workflow.</description><enclosure url="https://simeononsecurity.com/img/cover/windows-command-line-master-file-management.png" length="1206004" type="image/png"/></item><item><title>Windows Directory Structure: A Comprehensive Guide</title><link>https://simeononsecurity.com/articles/windows-directory-structure-guide/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows directory structure"
+, "Windows file management"
+, "Navigating directories"
+, "File organization"
+, "Windows file paths"
+, "Windows system folders"
+, "User directory"
+, "Program Files directory"
+, "Windows root directory"
+, "Temporary files directory"</category><guid>https://simeononsecurity.com/articles/windows-directory-structure-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the Windows directory structure and learn how to efficiently manage files and navigate through the hierarchical system.</description><enclosure url="https://simeononsecurity.com/img/cover/An_image_depicting_a_tree-like_structure_repre.png" length="515007" type="image/png"/></item><item><title>Today I Learned about NTFS Tweaks and Optimizations</title><link>https://simeononsecurity.com/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows File System"
+, "NTFS Tweaks"
+, "NTFS Optimization"
+, "File System Performance"
+, "Windows Performance"
+, "Windows Reliability"
+, "Windows File System Management"
+, "Windows Security"
+, "Windows Scripting"
+, "Windows Repository Updates"
+, "Windows Optimization"
+, "Windows Hardening"
+, "Windows Debloating"
+, "Information Security Videos"
+, "Security Tools"
+, "Security Techniques"</category><guid>https://simeononsecurity.com/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.&lt;/p>
+&lt;p>In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.&lt;/p></description></item></channel></rss>

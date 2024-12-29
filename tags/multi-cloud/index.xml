@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multi-Cloud on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/multi-cloud//img/banner.png</url><title>Multi-Cloud on simeononsecurity</title><link>https://simeononsecurity.com/tags/multi-cloud/</link></image><link>https://simeononsecurity.com/tags/multi-cloud/</link><description>Recent content in Multi-Cloud on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/multi-cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Packer for Infrastructure as Code: Best Practices and Benefits</title><link>https://simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "Infrastructure as Code"
+, "DevOps"
+, "Automation"
+, "Security"
+, "Repeatability"
+, "Scalability"
+, "Multi-Platform"
+, "Version Control"
+, "Cloud Computing"
+, "Machine Images"
+, "Virtualization"
+, "Configuration Management"
+, "Continuous Integration"
+, "Continuous Delivery"
+, "Software Development"
+, "Best Practices"
+, "Testing"
+, "Open Source"
+, "Multi-Cloud"</category><guid>https://simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use Packer for creating machine images that are easy to maintain and secure.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item></channel></rss>

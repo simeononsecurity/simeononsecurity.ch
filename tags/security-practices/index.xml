@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Practices on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/security-practices//img/banner.png</url><title>Security Practices on simeononsecurity</title><link>https://simeononsecurity.com/tags/security-practices/</link></image><link>https://simeononsecurity.com/tags/security-practices/</link><description>Recent content in Security Practices on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 19 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/security-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Mitigating Insider Threats: Strategies for Proactive Security and Prevention</title><link>https://simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</link><pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Data Protection"
+, "Insider Threats"
+, "Information Security"
+, "Digital Security"
+, "Employee Behavior"
+, "Risk Management"
+, "Data Privacy"
+, "Corporate Security"
+, "Preventive Measures"</category><guid>https://simeononsecurity.com/articles/mitigating-insider-threats-strategies-prevention/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover effective strategies to prevent insider threats, safeguard sensitive data, and foster a culture of security in your organization.</description><enclosure url="https://simeononsecurity.com/img/cover/Security_Shield_Network_Protection.png" length="1142355" type="image/png"/></item><item><title>Defend Against Ransomware: Strategies for Protection and Resilience</title><link>https://simeononsecurity.com/articles/ransomware-protection-strategies/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technology"
+, "Digital Threats"
+, "Data Security"
+, "Online Safety"
+, "Cybercrime"
+, "IT Security"
+, "Malware"
+, "Internet Safety"
+, "Data Protection"</category><guid>https://simeononsecurity.com/articles/ransomware-protection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to safeguard against ransomware attacks, their mechanics, impact, and proactive measures for robust cybersecurity.</description><enclosure url="https://simeononsecurity.com/img/cover/ransomware-protection-shield.png" length="1291755" type="image/png"/></item><item><title>Mastering Cybersecurity: Your Guide to a Safer Digital World</title><link>https://simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Digital Security"
+, "Online Safety"
+, "Information Protection"
+, "Data Privacy"
+, "Digital Threats"
+, "Online Security Tips"
+, "Cyber Defense"
+, "Secure Computing"</category><guid>https://simeononsecurity.com/articles/cybersecurity-guide-importance-threats-best-practice/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential cybersecurity practices to safeguard your digital life and assets. Learn about threats, best practices, and stay secure online.</description><enclosure url="https://simeononsecurity.com/img/cover/Cybersecurity-Shield-Protection.png" length="1563324" type="image/png"/></item><item><title>Web Application Firewall (WAF) Configuration Checklist</title><link>https://simeononsecurity.com/checklists/web-application-security-checklist/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><category>
+"Web Application Security"
+, "Web Application Firewall"
+, "WAF Configuration"
+, "Web Security Best Practices"
+, "Application Protection"
+, "Cybersecurity"
+, "Web Application Defense"
+, "Security Guidelines"
+, "Web Application Attacks"
+, "WAF Deployment"</category><guid>https://simeononsecurity.com/checklists/web-application-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover best practices for configuring and deploying a web application firewall (WAF) to protect against common web attacks, ensuring robust security for your web applications.</description><enclosure url="https://simeononsecurity.com/img/cover/web-application-firewall-security.png" length="1469719" type="image/png"/></item><item><title>Today I Learned more about WDAC Policy Creation and Implementation</title><link>https://simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Windows Security"
+, "Application Control"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Threat Protection"
+, "Windows Server 2019"
+, "Enterprise Security"
+, "Policy Management"
+, "Security Best Practices"</category><guid>https://simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned about New Security Tools, Static Code Analyzers, and Self-Hosted Service Options</title><link>https://simeononsecurity.com/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"Cybersecurity Tools"
+, "Static Code Analysis"
+, "Privacy and Security"
+, "Self-Hosted Services"
+, "GitHub Resources"
+, "Security Recommendations"
+, "Code Quality Assurance"
+, "Personal Security"
+, "Home Lab Setup"
+, "Privacy-Respecting Services"</category><guid>https://simeononsecurity.com/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity is a person who has a keen interest in security and privacy and has come across several resources today that they found interesting and would like to share with others.&lt;/p>
+&lt;p>One of the resources that caught their attention is the &amp;ldquo;Awesome Security&amp;rdquo; list on GitHub. This list contains an extensive collection of awesome security tools and SimeonOnSecurity plans to continue exploring and learning about the items on this list.&lt;/p></description></item></channel></rss>

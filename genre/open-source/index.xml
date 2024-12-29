@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/open-source//img/banner.png</url><title>Open-Source on simeononsecurity</title><link>https://simeononsecurity.com/genre/open-source/</link></image><link>https://simeononsecurity.com/genre/open-source/</link><description>Recent content in Open-Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Why Open Source Software Outshines Proprietary Security</title><link>https://simeononsecurity.com/articles/open-source-software-security/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Open Source"
+, "Software Security"
+, "Government Regulations"
+, "Collaborative Development"
+, "Digital Protection"
+, "IT Security"
+, "Tech Trends"
+, "Online Safety"
+, "Data Privacy"</category><guid>https://simeononsecurity.com/articles/open-source-software-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover why 'Open Source Software is More Secure Than Proprietary Software' in this effortless guide, ensuring your digital assets stay protected.</description><enclosure url="https://simeononsecurity.com/img/cover/open-source-software-security.png" length="1075222" type="image/png"/></item><item><title>Budget-Friendly 10g pfSense Build with HP t740 for Effortless Networking</title><link>https://simeononsecurity.com/guides/budget-friendly-10g-pfsense-build-hp-t740/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Cybersecurity"
+, "Hardware"
+, "DIY"
+, "Open-Source"
+, "Small Business"
+, "Home Network"
+, "Technology"
+, "IT Solutions"
+, "Network Security"</category><guid>https://simeononsecurity.com/guides/budget-friendly-10g-pfsense-build-hp-t740/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effortlessly build a 10 gigabit capable pfSense router and firewall on a budget using the HP t740, ensuring high-performance networking for your needs.</description><enclosure url="https://simeononsecurity.com/img/cover/budget-friendly-10g-pfsense-build.png" length="1180412" type="image/png"/></item><item><title>LibreWolf vs Firefox: A Comprehensive Comparison of Privacy-Focused Browsers</title><link>https://simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Privacy"
+, "Web Browsers"
+, "Online Security"
+, "Open Source"
+, "Digital Privacy"
+, "Software"
+, "Comparison"
+, "Cybersecurity"
+, "Internet Privacy"</category><guid>https://simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the features of LibreWolf and Firefox, two privacy-focused browsers, to make an informed choice for enhanced online security and privacy.</description><enclosure url="https://simeononsecurity.com/img/cover/privacy-focused-browsers-comparison.png" length="1287292" type="image/png"/></item><item><title>Top 5 Linux Security and Hardening Techniques: Boost System Defense Today!</title><link>https://simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Linux"
+, "System Security"
+, "Open-source"
+, "Hardening"
+, "IT"
+, "Data Protection"
+, "Network Security"
+, "Computer Science"</category><guid>https://simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top 5 Linux security techniques to fortify your system against threats. Improve system integrity and safeguard sensitive data with expert hardening measures.</description><enclosure url="https://simeononsecurity.com/img/cover/linux-security-penguin-warrior.png" length="1644016" type="image/png"/></item><item><title>Best Privacy Browsers - LibreWolf vs. Brave vs. Firefox vs. Tor</title><link>https://simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Browsers"
+, "Privacy"
+, "Security"
+, "Internet"
+, "Technology"
+, "Digital Privacy"
+, "Online Safety"
+, "Open Source"
+, "Anonymity"
+, "Web Browsing"</category><guid>https://simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top privacy-focused browsers - LibreWolf, Brave, Firefox, and Tor - for a secure online experience.</description><enclosure url="https://simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png"/></item><item><title>Ansible Automation: From Plain Ansible to Ansible Tower and Semaphore</title><link>https://simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Infrastructure Management"
+, "Configuration Management"
+, "DevOps"
+, "IT Operations"
+, "Open Source"
+, "Workflow Management"
+, "Scalability"
+, "Collaboration"
+, "Ansible Tools"</category><guid>https://simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Ansible automation with a comparison of plain Ansible, Ansible Tower, and Ansible Semaphore, and choose the right tool for efficient infrastructure management.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Boost Productivity with Homebox: Open Source Inventory and Asset Management</title><link>https://simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Inventory Management"
+, "Asset Management"
+, "Open Source"
+, "Productivity"
+, "Small Business"
+, "Home Management"
+, "Self-hosted"
+, "Software"
+, "Organization"</category><guid>https://simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Homebox, an open-source software for efficient inventory and asset management, enhancing productivity for your home or small business.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png"/></item><item><title>Unraid vs TrueNas: Which NAS Operating System is Right for You?</title><link>https://simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Storage Systems"
+, "Network-Attached Storage"
+, "Data Management"
+, "NAS Operating Systems"
+, "Comparison"
+, "Data Protection"
+, "Home Storage"
+, "Enterprise Storage"
+, "Open-Source"</category><guid>https://simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive comparison of Unraid and TrueNas, including their user-friendliness, features, documentation, and community, to help users make an informed decision on which NAS operating system is best for their needs.</description><enclosure url="https://simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png"/></item></channel></rss>

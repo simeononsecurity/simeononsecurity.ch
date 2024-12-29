@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Auditing on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/windows-auditing//img/banner.png</url><title>Windows Auditing on simeononsecurity</title><link>https://simeononsecurity.com/tags/windows-auditing/</link></image><link>https://simeononsecurity.com/tags/windows-auditing/</link><description>Recent content in Windows Auditing on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/windows-auditing/index.xml" rel="self" type="application/rss+xml"/><item><title>Maximize Windows Auditing with Windows Audit Policy Script</title><link>https://simeononsecurity.com/github/windows-audit-policy/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><category>
+"Windows Audit Policy"
+, "Windows auditing"
+, "security"
+, "monitoring"
+, "auditpol"
+, "Windows commands"
+, "Windows security"
+, "audit configuration"
+, "security policies"
+, "event logs"
+, "system monitoring"
+, "Windows server"
+, "security best practices"
+, "cybersecurity"
+, "log analysis"
+, "security compliance"
+, "incident response"
+, "security monitoring tools"
+, "privileged access"
+, "Windows administration"
+, "scripting"
+, "system administration"
+, "information security"
+, "compliance auditing"
+, "Windows hardening"
+, "security controls"
+, "security automation"
+, "log management"
+, "Windows security settings"</category><guid>https://simeononsecurity.com/github/windows-audit-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to maximize Windows auditing by implementing the Windows Audit Policy script to enhance security and monitoring.</description></item><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://simeononsecurity.com/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://simeononsecurity.com/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+policies.
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.&lt;/p></description></item></channel></rss>

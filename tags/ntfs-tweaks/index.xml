@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NTFS Tweaks on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/ntfs-tweaks//img/banner.png</url><title>NTFS Tweaks on simeononsecurity</title><link>https://simeononsecurity.com/tags/ntfs-tweaks/</link></image><link>https://simeononsecurity.com/tags/ntfs-tweaks/</link><description>Recent content in NTFS Tweaks on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/ntfs-tweaks/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about NTFS Tweaks and Optimizations</title><link>https://simeononsecurity.com/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows File System"
+, "NTFS Tweaks"
+, "NTFS Optimization"
+, "File System Performance"
+, "Windows Performance"
+, "Windows Reliability"
+, "Windows File System Management"
+, "Windows Security"
+, "Windows Scripting"
+, "Windows Repository Updates"
+, "Windows Optimization"
+, "Windows Hardening"
+, "Windows Debloating"
+, "Information Security Videos"
+, "Security Tools"
+, "Security Techniques"</category><guid>https://simeononsecurity.com/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.&lt;/p>
+&lt;p>In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.&lt;/p></description></item></channel></rss>

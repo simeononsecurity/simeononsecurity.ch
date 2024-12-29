@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Custom Windows Images on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/custom-windows-images//img/banner.png</url><title>Custom Windows Images on simeononsecurity</title><link>https://simeononsecurity.com/tags/custom-windows-images/</link></image><link>https://simeononsecurity.com/tags/custom-windows-images/</link><description>Recent content in Custom Windows Images on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/custom-windows-images/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Custom Windows Image Creation</title><link>https://simeononsecurity.com/til/2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"Windows Image Management"
+, "Customization"
+, "Windows Deployment"
+, "Sysprep"
+, "Generalization"
+, "Windows 10"
+, "Windows 11"
+, "Image Capture"
+, "Image Deployment"
+, "NTLite"
+, "Windows Optimization"</category><guid>https://simeononsecurity.com/til/2023-01-30/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned about Custom Windows Image Creation, Sysprep, and Generalizing</description></item></channel></rss>
