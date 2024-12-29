@@ -1,4 +1,4 @@
-f{{ $detectedimage := "" }}
+{{ $detectedimage := "" }}
 {{ $twitter_image := "" }}
 {{ if .Params.cover }}
   {{ $cover := resources.Get (.Params.Cover) }}
