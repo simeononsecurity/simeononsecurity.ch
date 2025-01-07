@@ -374,8 +374,13 @@ config wifi-iface 'radio1_orion5g'
     #list iw_domain_name 'google.openroaming.net'
     #list iw_domain_name 'ciscooneid.openroaming.net'
     #list iw_domain_name 'samsung.openroaming.net'
-    #OpenRoaming / IronWiFi Domain Names
+    #IronWiFi Domain Names
     #list iw_domain_name 'ironwifi.net'
+    #Helium Domain Names
+    #list iw_domain_name 'hellohelium.com'
+    #list iw_domain_name 'freedomfi.com'
+    #Wayru Domain Names
+    #list iw_domain_name 'wayru.io'
     # Anything more than 3 OUIs and the information won't be available until the client performs a GAS Request. Order them top down from most to least important.
     # Orion Custom Default Consortium
     list iw_roaming_consortium 'f4f5e8f5f4'
