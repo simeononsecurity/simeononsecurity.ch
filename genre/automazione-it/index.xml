@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automazione IT on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/automazione-it//img/banner.png</url><title>Automazione IT on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/automazione-it/</link></image><link>https://it.simeononsecurity.com/genre/automazione-it/</link><description>Recent content in Automazione IT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/automazione-it/index.xml" rel="self" type="application/rss+xml"/><item><title>Oggi ho imparato altri moduli Powershell e Ansible</title><link>https://it.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "PowerShell"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity ha appreso e trovato interessante oggi**&lt;/p>
+&lt;p>SimeonOnSecurity ha imparato a conoscere Windows STIG Ansible e ha aggiornato i relativi repo. Inoltre, ha studiato varie risorse Microsoft e Ansible relative a powershell, remoting ed esecuzione di comandi shell/powershell su Windows utilizzando moduli come invoke-command, start-process, win_powershell, win_shell, psexec e win_psexec.&lt;/p>
+&lt;h2 id="repository-nuoviaggiornati">
+&lt;a href="#repository-nuoviaggiornati" title="Repository nuovi/aggiornati:">Repository nuovi/aggiornati:&lt;/a>
+&lt;a href="#repository-nuoviaggiornati" class="h-anchor" aria-hidden="true" title="Repository nuovi/aggiornati:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="risorse-didattiche">
+&lt;a href="#risorse-didattiche" title="Risorse didattiche:">Risorse didattiche:&lt;/a>
+&lt;a href="#risorse-didattiche" class="h-anchor" aria-hidden="true" title="Risorse didattiche:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://it.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "Conformità alla sicurezza"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity ha appreso e trovato interessante oggi**&lt;/p>
+&lt;p>Oggi SimeonOnSecurity ha imparato e scoperto diverse cose interessanti relative alla sicurezza di Windows e all&amp;rsquo;automazione con Ansible.&lt;/p>
+&lt;p>Innanzitutto, sono stati identificati due repository nuovi e aggiornati. Il repository Windows_STIG_Ansible fornisce una soluzione completa per la configurazione dei sistemi Windows per soddisfare i requisiti della Security Technical Implementation Guide (STIG), utilizzando la piattaforma di automazione Ansible. Il repository windows_stigs è una raccolta di ruoli Ansible per la configurazione dei sistemi Windows per soddisfare i requisiti STIG ed è disponibile su Ansible Galaxy, un repository centrale per la condivisione dei contenuti Ansible.&lt;/p></description></item></channel></rss>

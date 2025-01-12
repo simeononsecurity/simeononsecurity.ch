@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automazione on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/automazione//img/banner.png</url><title>Automazione on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/automazione/</link></image><link>https://it.simeononsecurity.com/genre/automazione/</link><description>Recent content in Automazione on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/automazione/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatizzare l'installazione di Windows 11: Bypassare i controlli TPM, Secure Boot e RAM</title><link>https://it.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Windows 11"
+, "Installazione"
+, "Virtualizzazione"
+, "Automazione"
+, "Chiavi di registro"
+, "Bypass del TPM"
+, "Bypass dell'avvio sicuro"
+, "Bypass della RAM"
+, "vTPM"</category><guid>https://it.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Semplificate l'installazione di Windows 11 negli ambienti virtualizzati aggirando i controlli TPM, Secure Boot e RAM utilizzando autounattend.xml e vTPM.</description><enclosure url="https://it.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>10 best practice essenziali per la sicurezza di PowerShell per salvaguardare gli script</title><link>https://it.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Le migliori pratiche di sicurezza di PowerShell"
+, "Sicurezza degli script"
+, "Sicurezza della password"
+, "Sicurezza informatica"
+, "Sicurezza informatica"
+, "Amministrazione di Windows"
+, "Automazione"
+, "Codifica sicura"
+, "Sicurezza di rete"
+, "Protezione dei dati"</category><guid>https://it.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le 10 migliori pratiche di sicurezza essenziali di PowerShell per salvaguardare gli script, le password e le informazioni sensibili. Migliorate la sicurezza del vostro ambiente PowerShell e proteggetevi da accessi non autorizzati e potenziali violazioni della sicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Migliorare la sicurezza: Il potere dei sistemi di gestione delle vulnerabilità</title><link>https://it.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Infrastruttura IT"
+, "Mitigazione del rischio"
+, "Compliance"
+, "Sicurezza dei dati"
+, "Valutazione della vulnerabilità"
+, "Posizione di sicurezza"
+, "Automazione"
+, "Integrazione"
+, "Segnalazione"</category><guid>https://it.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rafforzate la sicurezza della vostra organizzazione e mitigate i rischi con i sistemi di gestione delle vulnerabilità. Scoprite i loro vantaggi e la loro importanza nell'attuale panorama digitale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item><item><title>Padroneggiare l'amministrazione di Active Directory con PowerShell: Guida all'installazione e all'uso</title><link>https://it.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Finestre"
+, "PowerShell"
+, "Active Directory"
+, "Amministrazione"
+, "Scripting"
+, "IT"
+, "Automazione"
+, "Server Windows"
+, "Microsoft"</category><guid>https://it.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite come installare e utilizzare efficacemente il modulo Active Directory per PowerShell per semplificare le attività di amministrazione di Windows Active Directory.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Automazione Ansible: Da Ansible semplice ad Ansible Tower e Semaphore</title><link>https://it.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Gestione dell'infrastruttura"
+, "Gestione della configurazione"
+, "DevOps"
+, "Operazioni IT"
+, "Open Source"
+, "Gestione del flusso di lavoro"
+, "Scalability"
+, "Collaborazione"
+, "Strumenti Ansible"</category><guid>https://it.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza dell'automazione di Ansible con un confronto tra Ansible semplice, Ansible Tower e Ansible Semaphore e scegliete lo strumento giusto per una gestione efficiente dell'infrastruttura.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>CheckMK: una soluzione di monitoraggio completa per una gestione efficiente dell'infrastruttura IT</title><link>https://it.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Infrastruttura IT"
+, "Monitoraggio della rete"
+, "Monitoraggio delle applicazioni"
+, "Operazioni IT"
+, "Analisi delle prestazioni"
+, "Automazione"
+, "Gestione degli eventi"
+, "Scalability"
+, "Flessibilità"</category><guid>https://it.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le caratteristiche, i vantaggi e i casi d'uso di CheckMK, una soluzione di monitoraggio completa per la gestione proattiva dell'infrastruttura IT.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>PowerShell Scripting: Una guida passo a passo per i principianti per automatizzare le attività</title><link>https://it.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Programmazione"
+, "Automazione"
+, "Finestre"
+, "Scripting"
+, "IT"
+, "Compiti amministrativi"
+, "Gestione del computer"
+, "Sviluppo di software"
+, "Codifica"</category><guid>https://it.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Imparate le basi dello scripting PowerShell e automatizzate le attività con questa guida passo passo per principianti, che comprende cmdlet, loop, funzioni e altro ancora.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Oggi ho imparato a creare pacchetti di cioccolato</title><link>https://it.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Gestione dei pacchetti di Windows"
+, "Creazione di pacchetti"
+, "Gestione dei pacchetti"
+, "Infrastruttura come codice (IaC)"
+, "Distribuzione del software Windows"
+, "Imballaggio del software"
+, "Automazione di Windows"
+, "Repository di pacchetti"
+, "Strumenti di Windows"</category><guid>https://it.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item><item><title>Oggi ho imparato di più sulla creazione e l'attuazione delle politiche WDAC</title><link>https://it.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Sicurezza di Windows"
+, "Controllo dell'applicazione"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protezione dalle minacce"
+, "Windows Server 2019"
+, "Sicurezza aziendale"
+, "Gestione delle politiche"
+, "Migliori pratiche di sicurezza"</category><guid>https://it.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item><item><title>Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</title><link>https://it.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Ansible"
+, "Gestione della configurazione"
+, "Infrastruttura IT"
+, "DevOps"
+, "Sviluppo del Playbook"
+, "Gestione variabile"
+, "Esecuzione condizionale"</category><guid>https://it.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item><item><title>Oggi ho imparato altri moduli Powershell e Ansible</title><link>https://it.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "PowerShell"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity ha appreso e trovato interessante oggi**&lt;/p>
+&lt;p>SimeonOnSecurity ha imparato a conoscere Windows STIG Ansible e ha aggiornato i relativi repo. Inoltre, ha studiato varie risorse Microsoft e Ansible relative a powershell, remoting ed esecuzione di comandi shell/powershell su Windows utilizzando moduli come invoke-command, start-process, win_powershell, win_shell, psexec e win_psexec.&lt;/p>
+&lt;h2 id="repository-nuoviaggiornati">
+&lt;a href="#repository-nuoviaggiornati" title="Repository nuovi/aggiornati:">Repository nuovi/aggiornati:&lt;/a>
+&lt;a href="#repository-nuoviaggiornati" class="h-anchor" aria-hidden="true" title="Repository nuovi/aggiornati:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="risorse-didattiche">
+&lt;a href="#risorse-didattiche" title="Risorse didattiche:">Risorse didattiche:&lt;/a>
+&lt;a href="#risorse-didattiche" class="h-anchor" aria-hidden="true" title="Risorse didattiche:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://it.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "Conformità alla sicurezza"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity ha appreso e trovato interessante oggi**&lt;/p>
+&lt;p>Oggi SimeonOnSecurity ha imparato e scoperto diverse cose interessanti relative alla sicurezza di Windows e all&amp;rsquo;automazione con Ansible.&lt;/p>
+&lt;p>Innanzitutto, sono stati identificati due repository nuovi e aggiornati. Il repository Windows_STIG_Ansible fornisce una soluzione completa per la configurazione dei sistemi Windows per soddisfare i requisiti della Security Technical Implementation Guide (STIG), utilizzando la piattaforma di automazione Ansible. Il repository windows_stigs è una raccolta di ruoli Ansible per la configurazione dei sistemi Windows per soddisfare i requisiti STIG ed è disponibile su Ansible Galaxy, un repository centrale per la condivisione dei contenuti Ansible.&lt;/p></description></item><item><title>Oggi ho imparato a manipolare e analizzare JSON in PowerShell e Bash</title><link>https://it.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Sicurezza di Windows"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza informatica"
+, "Gestione della configurazione"
+, "DevOps"
+, "Amministrazione di Windows"
+, "Configurazione del sistema"</category><guid>https://it.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Quello che SimeonOnSecurity ha imparato e trovato interessante oggi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ha aggiornato una pagina del suo sito web e ha scoperto alcune risorse che trova interessanti. La pagina aggiornata è la descrizione della Invite Challenge su HackTheBox. Questa pagina fornisce un&amp;rsquo;analisi approfondita del processo di risoluzione della sfida su sistemi Windows e Linux.&lt;/p>
+&lt;p>Oltre alla pagina aggiornata, SimeonOnSecurity ha scoperto anche alcune utili risorse di apprendimento. Una di queste risorse è un post sul blog di Cameron Nokes che si concentra sul lavoro con JSON in bash utilizzando lo strumento jq. Lo strumento jq è un&amp;rsquo;utilità a riga di comando che semplifica l&amp;rsquo;analisi, il filtraggio e la manipolazione dei dati JSON.&lt;/p></description></item></channel></rss>

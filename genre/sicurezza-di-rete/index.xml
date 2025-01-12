@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicurezza Di Rete on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/sicurezza-di-rete//img/banner.png</url><title>Sicurezza Di Rete on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/sicurezza-di-rete/</link></image><link>https://it.simeononsecurity.com/genre/sicurezza-di-rete/</link><description>Recent content in Sicurezza Di Rete on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/sicurezza-di-rete/index.xml" rel="self" type="application/rss+xml"/><item><title>10 best practice essenziali per la sicurezza di PowerShell per salvaguardare gli script</title><link>https://it.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Le migliori pratiche di sicurezza di PowerShell"
+, "Sicurezza degli script"
+, "Sicurezza della password"
+, "Sicurezza informatica"
+, "Sicurezza informatica"
+, "Amministrazione di Windows"
+, "Automazione"
+, "Codifica sicura"
+, "Sicurezza di rete"
+, "Protezione dei dati"</category><guid>https://it.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le 10 migliori pratiche di sicurezza essenziali di PowerShell per salvaguardare gli script, le password e le informazioni sensibili. Migliorate la sicurezza del vostro ambiente PowerShell e proteggetevi da accessi non autorizzati e potenziali violazioni della sicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Conoscere i trojan per l'accesso remoto: Rischi, prevenzione e protezione</title><link>https://it.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Software dannoso"
+, "Sicurezza informatica"
+, "Minacce digitali"
+, "Trojan di accesso remoto"
+, "Protezione dei dati"
+, "Privacy"
+, "Crimine informatico"
+, "Sicurezza di rete"
+, "Sicurezza delle informazioni"</category><guid>https://it.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite i rischi posti dai trojan per l'accesso remoto (RAT) e imparate le misure di prevenzione e protezione efficaci per salvaguardare i vostri sistemi informatici e i vostri dati.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png"/></item><item><title>Corso Network Plus: Capire il modello OSI, le topologie e i tipi di rete</title><link>https://it.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Collegamento in rete"
+, "Infrastruttura IT"
+, "Architettura di rete"
+, "Informatica"
+, "Comunicazione dati"
+, "Tecnologia dell'informazione"
+, "Sicurezza di rete"
+, "Gestione della rete"
+, "Internet"</category><guid>https://it.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplorare l'importanza dei fondamenti di rete, tra cui il modello OSI, le topologie di rete e i vari tipi di rete, per costruire infrastrutture efficienti e affidabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png"/></item><item><title>Liberare le competenze di cybersicurezza: Una recensione di TryHackMe</title><link>https://it.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Sicurezza informatica"
+, "Apprendimento online"
+, "Hacking etico"
+, "Sicurezza di rete"
+, "Laboratori virtuali"
+, "Certificazioni"
+, "Percorsi di apprendimento"
+, "Esperienza pratica"
+, "Recensione di TryHackMe"</category><guid>https://it.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza di TryHackMe: caratteristiche, prezzi, certificazioni, servizi di rete e altro ancora, che vi permetteranno di padroneggiare le competenze di cybersecurity.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png" length="1541792" type="image/png"/></item><item><title>Padroneggiare le GPO: Una guida completa per una gestione efficace della rete</title><link>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestione della rete"
+, "Oggetti dei Criteri di gruppo"
+, "OPG"
+, "Amministrazione di Windows"
+, "Infrastruttura IT"
+, "Sicurezza di rete"
+, "Active Directory"
+, "Gestione della configurazione"
+, "Gestione dei criteri di gruppo"
+, "Ottimizzazione della rete"</category><guid>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza degli oggetti dei Criteri di gruppo (GPO) e imparate a gestire e ottimizzare in modo efficiente le impostazioni e i criteri di rete per migliorare la sicurezza e semplificare le operazioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item><item><title>Security+ vs SSCP: quale certificazione di sicurezza informatica regna sovrana?</title><link>https://it.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Sicurezza delle informazioni"
+, "Confronto tra le certificazioni"
+, "Carriere IT"
+, "Riconoscimento del settore"
+, "Opportunità di lavoro"
+, "Sicurezza di rete"
+, "Sicurezza dei sistemi"
+, "CompTIA"</category><guid>https://it.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto tra le certificazioni Security+ e SSCP per determinare la scelta migliore per i professionisti della sicurezza informatica in cerca di opportunità di lavoro, riconoscimento del settore e copertura completa delle conoscenze.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png" length="384328" type="image/png"/></item></channel></rss>

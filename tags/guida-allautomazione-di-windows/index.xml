@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guida All'automazione Di Windows on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/guida-allautomazione-di-windows//img/banner.png</url><title>Guida All'automazione Di Windows on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/guida-allautomazione-di-windows/</link></image><link>https://it.simeononsecurity.com/tags/guida-allautomazione-di-windows/</link><description>Recent content in Guida All'automazione Di Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/guida-allautomazione-di-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Oggi ho imparato a manipolare e analizzare JSON in PowerShell e Bash</title><link>https://it.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Sicurezza di Windows"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza informatica"
+, "Gestione della configurazione"
+, "DevOps"
+, "Amministrazione di Windows"
+, "Configurazione del sistema"</category><guid>https://it.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Quello che SimeonOnSecurity ha imparato e trovato interessante oggi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ha aggiornato una pagina del suo sito web e ha scoperto alcune risorse che trova interessanti. La pagina aggiornata è la descrizione della Invite Challenge su HackTheBox. Questa pagina fornisce un&amp;rsquo;analisi approfondita del processo di risoluzione della sfida su sistemi Windows e Linux.&lt;/p>
+&lt;p>Oltre alla pagina aggiornata, SimeonOnSecurity ha scoperto anche alcune utili risorse di apprendimento. Una di queste risorse è un post sul blog di Cameron Nokes che si concentra sul lavoro con JSON in bash utilizzando lo strumento jq. Lo strumento jq è un&amp;rsquo;utilità a riga di comando che semplifica l&amp;rsquo;analisi, il filtraggio e la manipolazione dei dati JSON.&lt;/p></description></item></channel></rss>

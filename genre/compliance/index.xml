@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compliance on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/compliance//img/banner.png</url><title>Compliance on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/compliance/</link></image><link>https://it.simeononsecurity.com/genre/compliance/</link><description>Recent content in Compliance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/compliance/index.xml" rel="self" type="application/rss+xml"/><item><title>Migliorare la sicurezza: Il potere dei sistemi di gestione delle vulnerabilità</title><link>https://it.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Infrastruttura IT"
+, "Mitigazione del rischio"
+, "Compliance"
+, "Sicurezza dei dati"
+, "Valutazione della vulnerabilità"
+, "Posizione di sicurezza"
+, "Automazione"
+, "Integrazione"
+, "Segnalazione"</category><guid>https://it.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rafforzate la sicurezza della vostra organizzazione e mitigate i rischi con i sistemi di gestione delle vulnerabilità. Scoprite i loro vantaggi e la loro importanza nell'attuale panorama digitale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item><item><title>Sviluppare una politica di sicurezza informatica: Migliori pratiche e procedure</title><link>https://it.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Sicurezza"
+, "Compliance"
+, "Gestione del rischio"
+, "Protezione dei dati"
+, "Governance dell'informazione"
+, "Risposta agli incidenti"
+, "Continuità aziendale"
+, "Minacce informatiche"
+, "Sviluppo della politica"</category><guid>https://it.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite come sviluppare una politica di cybersecurity completa che sia in linea con gli standard di settore e i requisiti normativi per proteggere le informazioni sensibili della vostra organizzazione e mitigare i rischi informatici.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png" length="474843" type="image/png"/></item><item><title>Semplificare la gestione del rischio: La potenza della risposta alle vulnerabilità di ServiceNow</title><link>https://it.simeononsecurity.com/articles/streamlining-risk-management-servicenow-vulnerability-response/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Gestione del rischio IT"
+, "Risposta alle vulnerabilità"
+, "ServiceNow"
+, "Automazione della sicurezza"
+, "Compliance"
+, "Informazioni sulle minacce"
+, "Gestione degli incidenti"
+, "Identificazione delle vulnerabilità"
+, "Strategie di riparazione"</category><guid>https://it.simeononsecurity.com/articles/streamlining-risk-management-servicenow-vulnerability-response/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite come ServiceNow Vulnerability Response ottimizza la gestione del rischio attraverso l'identificazione, la prioritizzazione e la correzione delle vulnerabilità.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting2.png" length="1122439" type="image/png"/></item><item><title>Soluzioni cloud sicure: AWS vs. Azure vs. Google Cloud Platform - Scegliere il meglio per la vostra azienda</title><link>https://it.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud Computing"
+, "Sicurezza in-the-cloud"
+, "AWS"
+, "Azzurro"
+, "Piattaforma cloud di Google"
+, "Sicurezza dei dati"
+, "Crittografia"
+, "Gestione dell'identità e dell'accesso"
+, "Compliance"
+, "Rilevamento delle minacce"</category><guid>https://it.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le principali caratteristiche di sicurezza del cloud e le certificazioni di AWS, Azure e Google Cloud Platform per scegliere la migliore soluzione cloud sicura per la vostra azienda.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png"/></item><item><title>Oggi ho imparato altri moduli Powershell e Ansible</title><link>https://it.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "PowerShell"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity ha appreso e trovato interessante oggi**&lt;/p>
+&lt;p>SimeonOnSecurity ha imparato a conoscere Windows STIG Ansible e ha aggiornato i relativi repo. Inoltre, ha studiato varie risorse Microsoft e Ansible relative a powershell, remoting ed esecuzione di comandi shell/powershell su Windows utilizzando moduli come invoke-command, start-process, win_powershell, win_shell, psexec e win_psexec.&lt;/p>
+&lt;h2 id="repository-nuoviaggiornati">
+&lt;a href="#repository-nuoviaggiornati" title="Repository nuovi/aggiornati:">Repository nuovi/aggiornati:&lt;/a>
+&lt;a href="#repository-nuoviaggiornati" class="h-anchor" aria-hidden="true" title="Repository nuovi/aggiornati:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="risorse-didattiche">
+&lt;a href="#risorse-didattiche" title="Risorse didattiche:">Risorse didattiche:&lt;/a>
+&lt;a href="#risorse-didattiche" class="h-anchor" aria-hidden="true" title="Risorse didattiche:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://it.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Ansible"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza di Windows"
+, "Amministrazione di Windows"
+, "Conformità alla sicurezza"
+, "Automazione IT"
+, "Gestione della configurazione"</category><guid>https://it.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity ha appreso e trovato interessante oggi**&lt;/p>
+&lt;p>Oggi SimeonOnSecurity ha imparato e scoperto diverse cose interessanti relative alla sicurezza di Windows e all&amp;rsquo;automazione con Ansible.&lt;/p>
+&lt;p>Innanzitutto, sono stati identificati due repository nuovi e aggiornati. Il repository Windows_STIG_Ansible fornisce una soluzione completa per la configurazione dei sistemi Windows per soddisfare i requisiti della Security Technical Implementation Guide (STIG), utilizzando la piattaforma di automazione Ansible. Il repository windows_stigs è una raccolta di ruoli Ansible per la configurazione dei sistemi Windows per soddisfare i requisiti STIG ed è disponibile su Ansible Galaxy, un repository centrale per la condivisione dei contenuti Ansible.&lt;/p></description></item><item><title>Oggi ho imparato a manipolare e analizzare JSON in PowerShell e Bash</title><link>https://it.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Compliance"
+, "Sicurezza di Windows"
+, "Playbook Ansible"
+, "Collezioni Ansible"
+, "Sicurezza informatica"
+, "Gestione della configurazione"
+, "DevOps"
+, "Amministrazione di Windows"
+, "Configurazione del sistema"</category><guid>https://it.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Quello che SimeonOnSecurity ha imparato e trovato interessante oggi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ha aggiornato una pagina del suo sito web e ha scoperto alcune risorse che trova interessanti. La pagina aggiornata è la descrizione della Invite Challenge su HackTheBox. Questa pagina fornisce un&amp;rsquo;analisi approfondita del processo di risoluzione della sfida su sistemi Windows e Linux.&lt;/p>
+&lt;p>Oltre alla pagina aggiornata, SimeonOnSecurity ha scoperto anche alcune utili risorse di apprendimento. Una di queste risorse è un post sul blog di Cameron Nokes che si concentra sul lavoro con JSON in bash utilizzando lo strumento jq. Lo strumento jq è un&amp;rsquo;utilità a riga di comando che semplifica l&amp;rsquo;analisi, il filtraggio e la manipolazione dei dati JSON.&lt;/p></description></item></channel></rss>

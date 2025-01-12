@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestione Del Repository on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/gestione-del-repository//img/banner.png</url><title>Gestione Del Repository on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/gestione-del-repository/</link></image><link>https://it.simeononsecurity.com/tags/gestione-del-repository/</link><description>Recent content in Gestione Del Repository on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/gestione-del-repository/index.xml" rel="self" type="application/rss+xml"/><item><title>Oggi ho imparato a creare pacchetti di cioccolato</title><link>https://it.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Gestione dei pacchetti di Windows"
+, "Creazione di pacchetti"
+, "Gestione dei pacchetti"
+, "Infrastruttura come codice (IaC)"
+, "Distribuzione del software Windows"
+, "Imballaggio del software"
+, "Automazione di Windows"
+, "Repository di pacchetti"
+, "Strumenti di Windows"</category><guid>https://it.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item><item><title>Repository e Documenti di SimeonOnSecurity su GitHub</title><link>https://it.simeononsecurity.com/github/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"repository GitHub"
+, "documenti di repository"
+, "progetti open-source"
+, "strumenti di sicurezza"
+, "approfondimenti sulla sicurezza informatica"
+, "approfondimenti sull'automazione"
+, "tutorial di codifica"
+, "contributi GitHub"
+, "ricerca sulla sicurezza"
+, "analisi del codice"
+, "documentazione del progetto"
+, "correzioni di bug"
+, "miglioramenti delle funzionalità"
+, "collaborazione della comunità"
+, "risorse per sviluppatori"
+, "revisioni del codice"
+, "controllo versione"
+, "integrazione continua"
+, "tracciamento degli errori"
+, "gestione del repository"</category><guid>https://it.simeononsecurity.com/github/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplora i nostri progetti open-source, strumenti di sicurezza e spiegazioni approfondite. Migliora le tue conoscenze e competenze in materia di sicurezza informatica e automazione con i nostri documenti di repository su GitHub.</description></item></channel></rss>

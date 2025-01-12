@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Accesso Controllato Alle Cartelle on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/accesso-controllato-alle-cartelle//img/banner.png</url><title>Accesso Controllato Alle Cartelle on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/accesso-controllato-alle-cartelle/</link></image><link>https://it.simeononsecurity.com/tags/accesso-controllato-alle-cartelle/</link><description>Recent content in Accesso Controllato Alle Cartelle on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/accesso-controllato-alle-cartelle/index.xml" rel="self" type="application/rss+xml"/><item><title>Migliori pratiche di base per l'irrobustimento di Windows per la sicurezza di Windows 10 e Windows 11</title><link>https://it.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Indurimento delle finestre"
+, "Sicurezza di Windows"
+, "Irrigidimento di Windows 10"
+, "Irrigidimento di Windows 11"
+, "Le migliori pratiche di sicurezza di Windows"
+, "Suggerimenti per la sicurezza di Windows"
+, "Linee guida per la sicurezza di Windows"
+, "Protezione dei sistemi operativi Windows"
+, "Irrigidimento del sistema Windows"
+, "Misure di sicurezza di Windows"</category><guid>https://it.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le strategie efficaci per migliorare la sicurezza dei vostri sistemi Windows 10 e Windows 11 attraverso tecniche di hardening complete e best practice.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>Miglioramento della sicurezza di Windows 10 con Defender Hardening Script</title><link>https://it.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Difensore di Windows"
+, "Windows 10"
+, "Sicurezza di Windows 10"
+, "Script di PowerShell"
+, "Indurimento"
+, "Indurimento del difensore"
+, "Automazione della sicurezza"
+, "Conformità"
+, "Accesso controllato alle cartelle"
+, "Sistema anti-intrusione"
+, "Controllo delle applicazioni"
+, "Riduzione della superficie di attacco"
+, "Protezioni dagli exploit"
+, "Protezioni fornite dal cloud"
+, "Protezioni di rete"
+, "Script di Windows Defender STIG"
+, "Windows Defender STIG"
+, "Windows Defender Antivirus STIG V2R1"
+, "WDAC"
+, "RSA"</category><guid>https://it.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come migliorare la sicurezza di Windows 10 con uno script PowerShell che rafforza Windows Defender Antivirus, implementando tutti i requisiti di Windows Defender Antivirus STIG V2R1.</description></item></channel></rss>

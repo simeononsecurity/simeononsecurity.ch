@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installazione Automatica Di Windows 11 on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/installazione-automatica-di-windows-11//img/banner.png</url><title>Installazione Automatica Di Windows 11 on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/installazione-automatica-di-windows-11/</link></image><link>https://it.simeononsecurity.com/tags/installazione-automatica-di-windows-11/</link><description>Recent content in Installazione Automatica Di Windows 11 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/installazione-automatica-di-windows-11/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatizzare l'installazione di Windows 11: Bypassare i controlli TPM, Secure Boot e RAM</title><link>https://it.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Windows 11"
+, "Installazione"
+, "Virtualizzazione"
+, "Automazione"
+, "Chiavi di registro"
+, "Bypass del TPM"
+, "Bypass dell'avvio sicuro"
+, "Bypass della RAM"
+, "vTPM"</category><guid>https://it.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Semplificate l'installazione di Windows 11 negli ambienti virtualizzati aggirando i controlli TPM, Secure Boot e RAM utilizzando autounattend.xml e vTPM.</description><enclosure url="https://it.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item></channel></rss>
