@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autounattend.xml on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/autounattend.xml//img/banner.png</url><title>Autounattend.xml on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/autounattend.xml/</link></image><link>https://nl.simeononsecurity.com/tags/autounattend.xml/</link><description>Recent content in Autounattend.xml on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/autounattend.xml/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 11-installatie automatiseren: TPM, Secure Boot en RAM-controles omzeilen</title><link>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows 11"
+, "Installatie"
+, "Virtualisatie"
+, "Automatisering"
+, "Registersleutels"
+, "TPM omleiding"
+, "Beveiligd opstarten omzeilen"
+, "RAM omleiding"
+, "vTPM"</category><guid>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn de installatie van Windows 11 in gevirtualiseerde omgevingen door TPM, Secure Boot en RAM-controles te omzeilen met autounattend.xml en vTPM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item></channel></rss>

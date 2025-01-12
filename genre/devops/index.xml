@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/genre/devops//img/banner.png</url><title>DevOps on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/devops/</link></image><link>https://nl.simeononsecurity.com/genre/devops/</link><description>Recent content in DevOps on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatisering Showdown: Ansible vs. Puppet vs. Chef - Een vergelijking van de belangrijkste automatiseringstools</title><link>https://nl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Automatiseringstools"
+, "Configuratiebeheer"
+, "IT-infrastructuur"
+, "DevOps"
+, "IT-werkzaamheden"
+, "Automatisering in de cloud"
+, "Uitrol van software"
+, "Beheer van infrastructuur"
+, "Open bronnen"</category><guid>https://nl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de verschillen tussen Ansible, Puppet en Chef om de juiste automatiseringstool te kiezen voor de behoeften van uw organisatie in deze uitgebreide vergelijking.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Automatisering met Ansible: Van gewone Ansible naar Ansible Tower en Semaphore</title><link>https://nl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Beheer van infrastructuur"
+, "Configuratiebeheer"
+, "DevOps"
+, "IT-werkzaamheden"
+, "Open Bron"
+, "Beheer van werkstromen"
+, "Schaalbaarheid"
+, "Samenwerking"
+, "Ansible Gereedschap"</category><guid>https://nl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van Ansible automatisering met een vergelijking van gewone Ansible, Ansible Tower en Ansible Semaphore, en kies de juiste tool voor efficiënt infrastructuurbeheer.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</title><link>https://nl.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Ansible"
+, "Configuratiebeheer"
+, "IT-infrastructuur"
+, "DevOps"
+, "Playbook ontwikkeling"
+, "Variabel beheer"
+, "Voorwaardelijke uitvoering"</category><guid>https://nl.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</description></item><item><title>Vandaag heb ik geleerd hoe je JSON kunt manipuleren en parsen in PowerShell en Bash</title><link>https://nl.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Windows Beveiliging"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "IT Beveiliging"
+, "Configuratiebeheer"
+, "DevOps"
+, "Windows-beheer"
+, "Systeemconfiguratie"</category><guid>https://nl.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Wat SimeonOnSecurity vandaag heeft geleerd en interessant vond&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity heeft een pagina op zijn website bijgewerkt en geleerd over een paar bronnen die hij interessant vindt. De bijgewerkte pagina is de writeup voor de Invite Challenge op HackTheBox. Deze pagina biedt een diepgaande analyse van het proces om de uitdaging op te lossen op zowel Windows- als Linux-systemen.&lt;/p>
+&lt;p>Naast de bijgewerkte pagina heeft SimeonOnSecurity ook een aantal nuttige leermiddelen ontdekt. Een van deze bronnen is een blogpost van Cameron Nokes die zich richt op het werken met JSON in bash met behulp van de jq tool. De jq tool is een commandoregelhulpprogramma waarmee je eenvoudig JSON-gegevens kunt parsen, filteren en manipuleren.&lt;/p></description></item></channel></rss>

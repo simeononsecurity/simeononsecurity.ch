@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT Beveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/genre/it-beveiliging//img/banner.png</url><title>IT Beveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/it-beveiliging/</link></image><link>https://nl.simeononsecurity.com/genre/it-beveiliging/</link><description>Recent content in IT Beveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/it-beveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Best practices voor Python-beveiliging: Uw code en gegevens beschermen</title><link>https://nl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python Beveiliging"
+, "Code Veiligheid"
+, "Gegevensbescherming"
+, "Software Ontwikkeling"
+, "Cyberbeveiliging"
+, "Veilig coderen"
+, "Webontwikkeling"
+, "Privacy van gegevens"
+, "Beveiliging van toepassingen"
+, "IT Beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer de essentiële best practices op het gebied van Python-beveiliging om je code en gegevens te beschermen tegen mogelijke bedreigingen, om gegevensbescherming en systeemintegriteit te garanderen en vertrouwen op te bouwen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>10 essentiële PowerShell-beveiligingsbest practices voor het beveiligen van uw scripts</title><link>https://nl.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Best practices voor PowerShell-beveiliging"
+, "Beveiliging tegen scripten"
+, "Wachtwoordbeveiliging"
+, "IT-beveiliging"
+, "Cyberbeveiliging"
+, "Windows-beheer"
+, "Automatisering"
+, "Veilig coderen"
+, "Netwerkbeveiliging"
+, "Gegevensbescherming"</category><guid>https://nl.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer de top 10 essentiële PowerShell-beveiligingsbest practices voor het beveiligen van uw scripts, wachtwoorden en gevoelige informatie. Verbeter de beveiliging van uw PowerShell-omgeving en bescherm u tegen onbevoegde toegang en potentiële beveiligingslekken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Vandaag heb ik geleerd hoe je JSON kunt manipuleren en parsen in PowerShell en Bash</title><link>https://nl.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Windows Beveiliging"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "IT Beveiliging"
+, "Configuratiebeheer"
+, "DevOps"
+, "Windows-beheer"
+, "Systeemconfiguratie"</category><guid>https://nl.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Wat SimeonOnSecurity vandaag heeft geleerd en interessant vond&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity heeft een pagina op zijn website bijgewerkt en geleerd over een paar bronnen die hij interessant vindt. De bijgewerkte pagina is de writeup voor de Invite Challenge op HackTheBox. Deze pagina biedt een diepgaande analyse van het proces om de uitdaging op te lossen op zowel Windows- als Linux-systemen.&lt;/p>
+&lt;p>Naast de bijgewerkte pagina heeft SimeonOnSecurity ook een aantal nuttige leermiddelen ontdekt. Een van deze bronnen is een blogpost van Cameron Nokes die zich richt op het werken met JSON in bash met behulp van de jq tool. De jq tool is een commandoregelhulpprogramma waarmee je eenvoudig JSON-gegevens kunt parsen, filteren en manipuleren.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Beveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/windows-beveiliging//img/banner.png</url><title>Windows Beveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/windows-beveiliging/</link></image><link>https://nl.simeononsecurity.com/tags/windows-beveiliging/</link><description>Recent content in Windows Beveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/windows-beveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 11-installatie automatiseren: TPM, Secure Boot en RAM-controles omzeilen</title><link>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows 11"
+, "Installatie"
+, "Virtualisatie"
+, "Automatisering"
+, "Registersleutels"
+, "TPM omleiding"
+, "Beveiligd opstarten omzeilen"
+, "RAM omleiding"
+, "vTPM"</category><guid>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn de installatie van Windows 11 in gevirtualiseerde omgevingen door TPM, Secure Boot en RAM-controles te omzeilen met autounattend.xml en vTPM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Basis Windows Hardening Best Practices voor veilige Windows 10 en Windows 11</title><link>https://nl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows hardening"
+, "Windows beveiliging"
+, "Windows 10 hardening"
+, "Windows 11 hardening"
+, "Best practices voor Windows-beveiliging"
+, "Beveiligingstips voor Windows"
+, "Windows beveiligingsrichtlijnen"
+, "Windows-besturingssystemen beveiligen"
+, "Windows systeem hardening"
+, "Beveiligingsmaatregelen voor Windows"</category><guid>https://nl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek effectieve strategieën om de beveiliging van uw Windows 10- en Windows 11-systemen te verbeteren met behulp van uitgebreide hardeningtechnieken en best practices.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>Wat zijn de beste oplossingen voor volledige schijfversleuteling voor Windows?</title><link>https://nl.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Gegevensbeveiliging"
+, "Cyberbeveiliging"
+, "Windows-codering"
+, "Schijfcodering"
+, "Gegevensbescherming"
+, "Encryptiesoftware"
+, "Beveiligingsoplossingen"
+, "Windows Beveiliging"
+, "Privacy van gegevens"
+, "Computerbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de beste oplossingen voor volledige schijfversleuteling voor Windows die robuuste beveiliging bieden en je gevoelige gegevens beschermen tegen ongeautoriseerde toegang.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png" length="1206564" type="image/png"/></item><item><title>De rol van programmeertalen in cyberbeveiliging: Het verkennen van belangrijke tools en toepassingen</title><link>https://nl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link><pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate><category>
+"programmeertalen"
+, "cyberbeveiliging"
+, "belangrijkste instrumenten"
+, "toepassingen"
+, "beveiligde systemen"
+, "netwerkbeveiliging"
+, "webtoepassingen"
+, "kwetsbaarheidsbeoordeling"
+, "penetratietesten"
+, "veilig coderen"
+, "systeemveiligheid"
+, "scripttalen"
+, "automatisering"
+, "veilige communicatie"
+, "gegevensanalyse"
+, "machinaal leren"
+, "reactie op incidenten"
+, "ontwikkeling van exploitaties"
+, "beveiligingskaders"
+, "systeemharding"
+, "logboekanalyse"
+, "Windows beveiliging"
+, "netwerkprotocollen"
+, "webontwikkeling"
+, "veilige codeerpraktijken"
+, "cryptografische diensten"
+, "zandbakken"
+, "toegangscontrole"
+, "reverse engineering"
+, "detectie van bedreigingen"
+, "veiligheidsmanagement"</category><guid>https://nl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de centrale rol van programmeertalen in cyberbeveiliging en verdiep u in hun toepassingen, tools en belang bij het beveiligen van digitale systemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png" length="329223" type="image/png"/></item><item><title>Windows-updates automatiseren met Ansible: Een uitgebreide gids</title><link>https://nl.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"het automatiseren van Windows updates"
+, "Ansible automatisering"
+, "systeembeheer"
+, "beveiligingspatches"
+, "IT-infrastructuur"
+, "netwerkautomatisering"
+, "configuratiebeheer"
+, "IT-werkzaamheden"
+, "DevOps"
+, "cyberbeveiliging"
+, "IT-automatisering"
+, "IT-efficiëntie"
+, "Ansible playbook"
+, "Windows beveiliging"
+, "updatebeheer"
+, "IT-productiviteit"
+, "IT-onderhoud"
+, "Ansible referenties"
+, "hostconfiguratie"
+, "systeemautomatisering"
+, "Windows updates"
+, "Windows systeembeheer"
+, "Windows beveiligingspatches"
+, "Windows IT-infrastructuur"
+, "Windows netwerk automatisering"
+, "Windows configuratiebeheer"
+, "Windows IT-operaties"
+, "Windows DevOps"
+, "Windows cyberveiligheid"
+, "Windows IT-automatisering"
+, "Windows IT-efficiëntie"</category><guid>https://nl.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn het proces van het bijwerken van Windows-systemen door automatisering met Ansible - stap-voor-stap instructies en best practices inbegrepen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png"/></item><item><title>Complete gids: Bestandshashes op Windows met PowerShell</title><link>https://nl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><category>
+"bestandshashes"
+, "PowerShell"
+, "SHA256 hash"
+, "MD5 hash"
+, "SHA1 hash"
+, "bestandsintegriteit"
+, "gegevensauthenticatie"
+, "bestandsverificatie"
+, "hashing-algoritmen"
+, "Windows-besturingssysteem"
+, "scripttaal"
+, "commandoregel"
+, "gegevensbeveiliging"
+, "digitaal forensisch onderzoek"
+, "cyberbeveiliging"
+, "hashberekening"
+, "geknoei met bestanden"
+, "gegevensintegriteit"
+, "authenticiteit van het bestand"
+, "Windows beveiliging"
+, "bestandsidentificatie"
+, "cyberdefensie"
+, "bestandsbeveiliging"
+, "gegevensbescherming"
+, "gegevenscontrole"
+, "bestandsvalidatie"
+, "Windows PowerShell"
+, "hash generatie"
+, "hash-algoritmen"
+, "hashfuncties"</category><guid>https://nl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u met PowerShell hashes van bestanden in Windows verkrijgt, waaronder SHA256, MD5 en SHA1, met stapsgewijze instructies en voorbeelden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png"/></item><item><title>De kracht van Cybersecurity: Hoe bouw je een compliant en veilig Windows-systeem met Standalone-Windows-STIG-Script?</title><link>https://nl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"STIG Script"
+, "Windows Beveiliging"
+, "Compatibel Windows-systeem"
+, "Systeemverharding"
+, "Windows STIG"
+, "Beveiligde ramen"
+, "Overeenstemming met Windows"
+, "Handmatige installatie"
+, "Windows Updates"
+, "Adobe Reader"
+, "Firefox"
+, "Chroom"
+, "Internet Explorer 11"
+, ".NET-kader"
+, "Kantoor"
+, "OneDrive"
+, "Java"
+, "Windows Defender"
+, "Windows Firewall"
+, "Mitigaties"
+, "Nessus PID"
+, "VMware Horizon"
+, "Optionele verharding"</category><guid>https://nl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek hoe u een veilig en compliant Windows-systeem kunt maken met het gebruiksvriendelijke Standalone-Windows-STIG-Script, een informatief artikel met stapsgewijze instructies en gedetailleerde uitleg over parameters.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png" length="225153" type="image/png"/></item><item><title>Vandaag heb ik meer geleerd over het maken en implementeren van WDAC-beleid</title><link>https://nl.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Windows Beveiliging"
+, "Toepassingscontrole"
+, "Windows Verdediger"
+, "WDAC"
+, "Powershell"
+, "Bescherming tegen bedreigingen"
+, "Windows Server 2019"
+, "Bedrijfsbeveiliging"
+, "Beleidsbeheer"
+, "Beste praktijken voor beveiliging"</category><guid>https://nl.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</description></item><item><title>Vandaag heb ik meer Powershell en Ansible modules geleerd</title><link>https://nl.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "PowerShell"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity over geleerd en interessant gevonden vandaag**&lt;/p>
+&lt;p>SimeonOnSecurity leerde over Windows STIG Ansible en werkte gerelateerde repo&amp;rsquo;s bij. Bestudeerde ook verschillende Microsoft en Ansible bronnen met betrekking tot powershell, remoting, en het uitvoeren van shell/powershell commando&amp;rsquo;s op Windows met behulp van modules zoals invoke-command, start-process, win_powershell, win_shell, psexec, en win_psexec.&lt;/p>
+&lt;h2 id="nieuwebijgewerkte-repos">
+&lt;a href="#nieuwebijgewerkte-repos" title="Nieuwe/bijgewerkte repo&amp;rsquo;s:">Nieuwe/bijgewerkte repo&amp;rsquo;s:&lt;/a>
+&lt;a href="#nieuwebijgewerkte-repos" class="h-anchor" aria-hidden="true" title="Nieuwe/bijgewerkte repo&amp;rsquo;s:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="leerbronnen">
+&lt;a href="#leerbronnen" title="Leerbronnen:">Leerbronnen:&lt;/a>
+&lt;a href="#leerbronnen" class="h-anchor" aria-hidden="true" title="Leerbronnen:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://nl.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "Naleving van beveiligingsvoorschriften"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity over geleerd en interessant gevonden vandaag**&lt;/p>
+&lt;p>SimeonOnSecurity heeft vandaag verschillende interessante dingen geleerd en ontdekt met betrekking tot Windows beveiliging en automatisering met behulp van Ansible.&lt;/p>
+&lt;p>Ten eerste werden twee nieuwe en bijgewerkte repositories geïdentificeerd. De Windows_STIG_Ansible repository biedt een complete oplossing voor het configureren van Windows systemen om te voldoen aan de Security Technical Implementation Guide (STIG) vereisten, met behulp van het Ansible automatiseringsplatform. De windows_stigs repository is een verzameling Ansible-rollen voor het configureren van Windows-systemen om te voldoen aan de STIG-vereisten en is beschikbaar op Ansible Galaxy, een centrale repository voor het delen van Ansible-inhoud.&lt;/p></description></item><item><title>Windows-compliance automatiseren met Ansible STIG Playbooks</title><link>https://nl.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Overeenstemming met Windows"
+, "Ansible STIG Playbooks"
+, "Windows Hardening"
+, "STIG Scripts"
+, "Naleving STIG"
+, "Ansible Melkweg"
+, "PowerShell"
+, "PowerShell Script"
+, "Windows Server"
+, "Windows Defender"
+, ".NET"
+, "FireFox"
+, "Oracle JRE 8"
+, "Adobe Reader DC"
+, "Internetverbinding"
+, "Offline compatibiliteit"
+, "Verbetering van de beveiliging"
+, "Windows Beveiliging"</category><guid>https://nl.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn uw beveiligingsnaleving met Ansible STIG Playbooks voor Windows-systemen.</description></item><item><title>Maximaliseer Windows Auditing met Windows Audit Policy Script</title><link>https://nl.simeononsecurity.com/github/windows-audit-policy/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><category>
+"Windows controlebeleid"
+, "Windows auditing"
+, "beveiliging"
+, "controle"
+, "auditpol"
+, "Windows commando's"
+, "Windows beveiliging"
+, "auditconfiguratie"
+, "veiligheidsbeleid"
+, "gebeurtenislogboeken"
+, "systeemcontrole"
+, "Windows server"
+, "beste beveiligingspraktijken"
+, "cyberbeveiliging"
+, "logboekanalyse"
+, "naleving van de veiligheidsvoorschriften"
+, "reactie op incidenten"
+, "tools voor veiligheidscontrole"
+, "geprivilegieerde toegang"
+, "Windows administratie"
+, "scripting"
+, "systeembeheer"
+, "informatiebeveiliging"
+, "nalevingscontrole"
+, "Ramen verharden"
+, "veiligheidscontroles"
+, "veiligheidsautomatisering"
+, "logboekbeheer"
+, "Windows beveiligingsinstellingen"</category><guid>https://nl.simeononsecurity.com/github/windows-audit-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u Windows auditing kunt maximaliseren door het Windows Audit Policy script te implementeren om de beveiliging en monitoring te verbeteren.</description></item><item><title>Vandaag heb ik geleerd hoe je JSON kunt manipuleren en parsen in PowerShell en Bash</title><link>https://nl.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Windows Beveiliging"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "IT Beveiliging"
+, "Configuratiebeheer"
+, "DevOps"
+, "Windows-beheer"
+, "Systeemconfiguratie"</category><guid>https://nl.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Wat SimeonOnSecurity vandaag heeft geleerd en interessant vond&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity heeft een pagina op zijn website bijgewerkt en geleerd over een paar bronnen die hij interessant vindt. De bijgewerkte pagina is de writeup voor de Invite Challenge op HackTheBox. Deze pagina biedt een diepgaande analyse van het proces om de uitdaging op te lossen op zowel Windows- als Linux-systemen.&lt;/p>
+&lt;p>Naast de bijgewerkte pagina heeft SimeonOnSecurity ook een aantal nuttige leermiddelen ontdekt. Een van deze bronnen is een blogpost van Cameron Nokes die zich richt op het werken met JSON in bash met behulp van de jq tool. De jq tool is een commandoregelhulpprogramma waarmee je eenvoudig JSON-gegevens kunt parsen, filteren en manipuleren.&lt;/p></description></item><item><title>Optimaliseer en verhard uw Windows systeem met het Windows-Optimize-Harden-Debloat Script</title><link>https://nl.simeononsecurity.com/github/windows-optimize-harden-debloat/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><category>
+"Windows optimalisatie"
+, "Ramen verharden"
+, "Windows debloating"
+, "Windows beveiliging"
+, "Windows prestaties"
+, "Windows privacy"
+, "Windows updates"
+, "Objecten voor groepsbeleid"
+, "Adobe Acrobat Reader"
+, "Firefox"
+, "Google Chrome"
+, "Internet Explorer"
+, "Microsoft Chromium Edge"
+, "Dot Net 4"
+, "Microsoft Office"
+, "Onedrive"
+, "Oracle Java JRE 8"
+, "Windows Firewall"
+, "Windows Defender"
+, "Applocker"</category><guid>https://nl.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Deze uitgebreide gids bevat stapsgewijze instructies voor het optimaliseren, harden en debloeden van uw Windows-systeem voor betere prestaties, beveiliging en privacy.</description></item><item><title>Ultimate Applocker Hardening Configuration Script: Verhoog de beveiliging van Windows</title><link>https://nl.simeononsecurity.com/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows beveiliging"
+, "Applocker"
+, "Configuratie script"
+, "Cyberbeveiliging"
+, "Bescherming tegen malware"
+, "Preventie van bedreigingen"
+, "PowerShell script"
+, "Door Microsoft aanbevolen blokkeringsregels"
+, "Naleving"
+, "NSA Cyber Bitlocker begeleiding"
+, "Toepassingscontrole"
+, "Hardening Windows"
+, "Cyberdreigingen"
+, "Bescherming van de computer"
+, "Cyberdefensie"
+, "Beveiligde ramen"
+, "Ultieme Applocker ByPass Lijst"
+, "Windows Defender"
+, "Vergrendeling van het systeem"
+, "sos-applockerhardening.ps1"</category><guid>https://nl.simeononsecurity.com/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bescherm uw Windows systeem tegen kwaadaardige aanvallen door het Ultimate Applocker Hardening Configuration Script te gebruiken.</description></item><item><title>Windows Defender-naleving automatiseren met PowerShell-script</title><link>https://nl.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "PowerShell Script"
+, "Automatisering"
+, "Naleving"
+, "Blue-Team"
+, "Windows Defender STIG Script"
+, "Windows Defender"
+, "Windows Defender Hardening"
+, "Windows Defender STIG"
+, "Verdediger STIG"
+, "Beveiliging"
+, "Cyberbeveiliging"
+, "STIG"
+, "Windows Beveiliging"
+, "Windows Antivirus"
+, "Windows Scripting"
+, "Windows Automatisering"
+, "Windows Hardening"
+, "Windows Defender-automatisering"
+, "Conformiteit met Windows Defender"</category><guid>https://nl.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter uw beveiliging met het Windows Defender STIG PowerShell-script, dat naleving van de Windows Defender Antivirus V1R9 STIG-richtlijnen automatiseert.</description></item><item><title>Windows Hardening CTF: Versterk de beveiliging van uw Windows-apparaat voor Capture the Flag-evenementen</title><link>https://nl.simeononsecurity.com/github/windows-hardening-ctf/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><category>
+"Ramen verharden"
+, "Windows beveiliging"
+, "script"
+, "Windows-apparaat"
+, "opdrachtprompt"
+, "LLMNR"
+, "PowerShell"
+, "SMB"
+, "TCP-tijdstempels"
+, "AppLocker"
+, "Windows logging"
+, "DEP"
+, "EMET-configuraties"
+, "PowerShell beperkte taalmodus"
+, "SMB encryptie"
+, "Spectre en Meltdown mitigaties"
+, "Windows Defender"
+, "Windows Firewall"
+, "PSWindowsUpdate"
+, "Windows updates"
+, "hardening script"
+, "NSA aanbevolen beleid"
+, "Windows Logging en beveiligingscontroles"
+, "Windows Defender Toepassingscontrole"
+, "Windows Defender Beperking van het aanvalsoppervlak"
+, "Windows Defender Cloud-gebaseerde Bescherming"
+, "Windows Defender Bescherming tegen Exploit"
+, "PSWindowsUpdate installatie"
+, "Verbetering van de beveiliging van Windows-apparaten"
+, "Hardening van Windows"
+, "de beveiliging van Windows versterken"</category><guid>https://nl.simeononsecurity.com/github/windows-hardening-ctf/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek een krachtig script dat de beveiliging van Windows verbetert door verschillende hardening-maatregelen toe te passen om compromissen te voorkomen.</description></item></channel></rss>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows-Beheer on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/windows-beheer//img/banner.png</url><title>Windows-Beheer on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/windows-beheer/</link></image><link>https://nl.simeononsecurity.com/tags/windows-beheer/</link><description>Recent content in Windows-Beheer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/windows-beheer/index.xml" rel="self" type="application/rss+xml"/><item><title>GPO's beheersen: Een uitgebreide gids voor effectief netwerkbeheer</title><link>https://nl.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Netwerkbeheer"
+, "Objecten voor groepsbeleid"
+, "GPO's"
+, "Windows-beheer"
+, "IT-infrastructuur"
+, "Netwerkbeveiliging"
+, "Active Directory"
+, "Configuratiebeheer"
+, "Beheer van groepsbeleid"
+, "Netwerkoptimalisatie"</category><guid>https://nl.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van Group Policy Objects (GPOs) en leer hoe u uw netwerkinstellingen en -beleid efficiënt kunt beheren en optimaliseren voor een betere beveiliging en gestroomlijnde activiteiten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item><item><title>Vandaag heb ik meer Powershell en Ansible modules geleerd</title><link>https://nl.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "PowerShell"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity over geleerd en interessant gevonden vandaag**&lt;/p>
+&lt;p>SimeonOnSecurity leerde over Windows STIG Ansible en werkte gerelateerde repo&amp;rsquo;s bij. Bestudeerde ook verschillende Microsoft en Ansible bronnen met betrekking tot powershell, remoting, en het uitvoeren van shell/powershell commando&amp;rsquo;s op Windows met behulp van modules zoals invoke-command, start-process, win_powershell, win_shell, psexec, en win_psexec.&lt;/p>
+&lt;h2 id="nieuwebijgewerkte-repos">
+&lt;a href="#nieuwebijgewerkte-repos" title="Nieuwe/bijgewerkte repo&amp;rsquo;s:">Nieuwe/bijgewerkte repo&amp;rsquo;s:&lt;/a>
+&lt;a href="#nieuwebijgewerkte-repos" class="h-anchor" aria-hidden="true" title="Nieuwe/bijgewerkte repo&amp;rsquo;s:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="leerbronnen">
+&lt;a href="#leerbronnen" title="Leerbronnen:">Leerbronnen:&lt;/a>
+&lt;a href="#leerbronnen" class="h-anchor" aria-hidden="true" title="Leerbronnen:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://nl.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "Naleving van beveiligingsvoorschriften"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity over geleerd en interessant gevonden vandaag**&lt;/p>
+&lt;p>SimeonOnSecurity heeft vandaag verschillende interessante dingen geleerd en ontdekt met betrekking tot Windows beveiliging en automatisering met behulp van Ansible.&lt;/p>
+&lt;p>Ten eerste werden twee nieuwe en bijgewerkte repositories geïdentificeerd. De Windows_STIG_Ansible repository biedt een complete oplossing voor het configureren van Windows systemen om te voldoen aan de Security Technical Implementation Guide (STIG) vereisten, met behulp van het Ansible automatiseringsplatform. De windows_stigs repository is een verzameling Ansible-rollen voor het configureren van Windows-systemen om te voldoen aan de STIG-vereisten en is beschikbaar op Ansible Galaxy, een centrale repository voor het delen van Ansible-inhoud.&lt;/p></description></item><item><title>Vandaag heb ik geleerd hoe je JSON kunt manipuleren en parsen in PowerShell en Bash</title><link>https://nl.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Windows Beveiliging"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "IT Beveiliging"
+, "Configuratiebeheer"
+, "DevOps"
+, "Windows-beheer"
+, "Systeemconfiguratie"</category><guid>https://nl.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Wat SimeonOnSecurity vandaag heeft geleerd en interessant vond&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity heeft een pagina op zijn website bijgewerkt en geleerd over een paar bronnen die hij interessant vindt. De bijgewerkte pagina is de writeup voor de Invite Challenge op HackTheBox. Deze pagina biedt een diepgaande analyse van het proces om de uitdaging op te lossen op zowel Windows- als Linux-systemen.&lt;/p>
+&lt;p>Naast de bijgewerkte pagina heeft SimeonOnSecurity ook een aantal nuttige leermiddelen ontdekt. Een van deze bronnen is een blogpost van Cameron Nokes die zich richt op het werken met JSON in bash met behulp van de jq tool. De jq tool is een commandoregelhulpprogramma waarmee je eenvoudig JSON-gegevens kunt parsen, filteren en manipuleren.&lt;/p></description></item></channel></rss>

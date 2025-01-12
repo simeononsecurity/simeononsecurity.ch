@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Broncontrole on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/broncontrole//img/banner.png</url><title>Broncontrole on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/broncontrole/</link></image><link>https://nl.simeononsecurity.com/tags/broncontrole/</link><description>Recent content in Broncontrole on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/broncontrole/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC: een startgids</title><link>https://nl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Configuratiebeheer"
+, "Automatisering"
+, "Windows"
+, "Systeembeheer"
+, "Beste praktijken"
+, "Naleving"
+, "Beveiliging"
+, "Infrastructuur"
+, "DevOps"
+, "Serverconfiguratie"
+, "Testen"
+, "Git"
+, "Broncontrole"
+, "Overheidsvoorschriften"
+, "NIST"
+, "CIS"
+, "Configuratie Drift"
+, "Aangepaste middelen"</category><guid>https://nl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van PowerShell Desired State Configuration (DSC) om systeemconfiguraties te automatiseren en te beheren voor een veilige en conforme omgeving.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item></channel></rss>

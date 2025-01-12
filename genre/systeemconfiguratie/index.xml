@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systeemconfiguratie on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/genre/systeemconfiguratie//img/banner.png</url><title>Systeemconfiguratie on simeononsecurity</title><link>https://nl.simeononsecurity.com/genre/systeemconfiguratie/</link></image><link>https://nl.simeononsecurity.com/genre/systeemconfiguratie/</link><description>Recent content in Systeemconfiguratie on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/genre/systeemconfiguratie/index.xml" rel="self" type="application/rss+xml"/><item><title>Vandaag heb ik geleerd hoe je JSON kunt manipuleren en parsen in PowerShell en Bash</title><link>https://nl.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Windows Beveiliging"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "IT Beveiliging"
+, "Configuratiebeheer"
+, "DevOps"
+, "Windows-beheer"
+, "Systeemconfiguratie"</category><guid>https://nl.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Wat SimeonOnSecurity vandaag heeft geleerd en interessant vond&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity heeft een pagina op zijn website bijgewerkt en geleerd over een paar bronnen die hij interessant vindt. De bijgewerkte pagina is de writeup voor de Invite Challenge op HackTheBox. Deze pagina biedt een diepgaande analyse van het proces om de uitdaging op te lossen op zowel Windows- als Linux-systemen.&lt;/p>
+&lt;p>Naast de bijgewerkte pagina heeft SimeonOnSecurity ook een aantal nuttige leermiddelen ontdekt. Een van deze bronnen is een blogpost van Cameron Nokes die zich richt op het werken met JSON in bash met behulp van de jq tool. De jq tool is een commandoregelhulpprogramma waarmee je eenvoudig JSON-gegevens kunt parsen, filteren en manipuleren.&lt;/p></description></item></channel></rss>

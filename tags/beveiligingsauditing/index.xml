@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Beveiligingsauditing on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/beveiligingsauditing//img/banner.png</url><title>Beveiligingsauditing on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/beveiligingsauditing/</link></image><link>https://nl.simeononsecurity.com/tags/beveiligingsauditing/</link><description>Recent content in Beveiligingsauditing on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/beveiligingsauditing/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://nl.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Naleving"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible verzamelingen"
+, "Windows Beveiliging"
+, "Windows-beheer"
+, "Naleving van beveiligingsvoorschriften"
+, "IT Automatisering"
+, "Configuratiebeheer"</category><guid>https://nl.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity over geleerd en interessant gevonden vandaag**&lt;/p>
+&lt;p>SimeonOnSecurity heeft vandaag verschillende interessante dingen geleerd en ontdekt met betrekking tot Windows beveiliging en automatisering met behulp van Ansible.&lt;/p>
+&lt;p>Ten eerste werden twee nieuwe en bijgewerkte repositories geïdentificeerd. De Windows_STIG_Ansible repository biedt een complete oplossing voor het configureren van Windows systemen om te voldoen aan de Security Technical Implementation Guide (STIG) vereisten, met behulp van het Ansible automatiseringsplatform. De windows_stigs repository is een verzameling Ansible-rollen voor het configureren van Windows-systemen om te voldoen aan de STIG-vereisten en is beschikbaar op Ansible Galaxy, een centrale repository voor het delen van Ansible-inhoud.&lt;/p></description></item></channel></rss>
