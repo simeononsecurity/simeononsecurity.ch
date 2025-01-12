@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>图像部署 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%83%8F%E9%83%A8%E7%BD%B2//img/banner.png</url><title>图像部署 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%83%8F%E9%83%A8%E7%BD%B2/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%83%8F%E9%83%A8%E7%BD%B2/</link><description>Recent content in 图像部署 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%83%8F%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>今天我学到了创建自定义 Windows 映像的知识</title><link>https://zh.simeononsecurity.com/til/2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"Windows 映像管理"
+, "定制"
+, "Windows 部署"
+, "Sysprep"
+, "一般化"
+, "Windows 10"
+, "视窗 11"
+, "图像捕捉"
+, "图像部署"
+, "NTLite"
+, "Windows 优化"</category><guid>https://zh.simeononsecurity.com/til/2023-01-30/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今天我学习了自定义 Windows 映像创建、Sysprep 和通用化</description></item></channel></rss>

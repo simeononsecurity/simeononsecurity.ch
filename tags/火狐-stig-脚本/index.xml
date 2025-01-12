@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>火狐 STIG 脚本 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E7%81%AB%E7%8B%90-stig-%E8%84%9A%E6%9C%AC//img/banner.png</url><title>火狐 STIG 脚本 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%81%AB%E7%8B%90-stig-%E8%84%9A%E6%9C%AC/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%81%AB%E7%8B%90-stig-%E8%84%9A%E6%9C%AC/</link><description>Recent content in 火狐 STIG 脚本 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%81%AB%E7%8B%90-stig-%E8%84%9A%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>自动化安全和加固：综合加固资源</title><link>https://zh.simeononsecurity.com/github/awesome-hardening/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"系统加固"
+, "应用硬化"
+, "符合 STIG 标准"
+, "Windows 优化"
+, "Windows Defender 强化"
+, "强化 Apache 网络服务器"
+, ".NET STIG 脚本"
+, "Adobe Reader DC STIG 脚本"
+, "火狐 STIG 脚本"
+, "Simeononsecurity"
+, "网络安全"
+, "自动化"
+, "网络安全"
+, "信息技术安全"
+, "系统安全"
+, "计算机安全"
+, "安全加固"
+, "安全自动化"
+, "窗口加固"
+, "网络服务器加固"</category><guid>https://zh.simeononsecurity.com/github/awesome-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解一系列脚本和配置，优化并加固系统，使其符合 STIG 标准并抵御黑客攻击。</description></item></channel></rss>

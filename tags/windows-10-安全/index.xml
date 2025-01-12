@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 10 安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/windows-10-%E5%AE%89%E5%85%A8//img/banner.png</url><title>Windows 10 安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/windows-10-%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/tags/windows-10-%E5%AE%89%E5%85%A8/</link><description>Recent content in Windows 10 安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/windows-10-%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 Defender 强化脚本增强 Windows 10 安全性</title><link>https://zh.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender的"
+, "视窗 10"
+, "Windows 10 安全"
+, "PowerShell 脚本"
+, "硬化"
+, "防御者强化"
+, "安全自动化"
+, "遵守"
+, "受控文件夹访问"
+, "入侵防御系统"
+, "应用控制"
+, "攻击面减少"
+, "利用保护"
+, "云提供的保护"
+, "网络保护"
+, "Windows Defender STIG 脚本"
+, "Windows Defender STIG"
+, "Windows Defender 防病毒软件 STIG V2R1"
+, "世界数据中心"
+, "自动识别率"</category><guid>https://zh.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用强化 Windows Defender 防病毒的 PowerShell 脚本增强 Windows 10 安全性，实现 Windows Defender 防病毒 STIG V2R1 的所有要求。</description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工作流程管理系统 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F//img/banner.png</url><title>工作流程管理系统 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link><description>Recent content in 工作流程管理系统 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible 自动化：从普通 Ansible 到 Ansible Tower 和 Semaphore</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"自动化"
+, "基础设施管理"
+, "配置管理"
+, "DevOps"
+, "IT 运营"
+, "开放源代码"
+, "工作流程管理"
+, "可扩展性"
+, "合作"
+, "Ansible 工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过对普通 Ansible、Ansible Tower 和 Ansible Semaphore 的比较，了解 Ansible 自动化的强大功能，并为高效的基础架构管理选择合适的工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item></channel></rss>

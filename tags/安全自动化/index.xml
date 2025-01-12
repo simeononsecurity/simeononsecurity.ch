@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全自动化 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E8%87%AA%E5%8A%A8%E5%8C%96//img/banner.png</url><title>安全自动化 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E8%87%AA%E5%8A%A8%E5%8C%96/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E8%87%AA%E5%8A%A8%E5%8C%96/</link><description>Recent content in 安全自动化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>自动化对决：Ansible vs. Puppet vs. Chef - 关键自动化工具比较</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "自动化工具"
+, "配置管理"
+, "信息技术基础设施"
+, "DevOps"
+, "IT 运营"
+, "云自动化"
+, "软件部署"
+, "基础设施管理"
+, "开源工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Ansible、Puppet 和 Chef 之间的区别，在本综合比较中选择适合您组织需求的自动化工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>自动化安全和加固：综合加固资源</title><link>https://zh.simeononsecurity.com/github/awesome-hardening/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"系统加固"
+, "应用硬化"
+, "符合 STIG 标准"
+, "Windows 优化"
+, "Windows Defender 强化"
+, "强化 Apache 网络服务器"
+, ".NET STIG 脚本"
+, "Adobe Reader DC STIG 脚本"
+, "火狐 STIG 脚本"
+, "Simeononsecurity"
+, "网络安全"
+, "自动化"
+, "网络安全"
+, "信息技术安全"
+, "系统安全"
+, "计算机安全"
+, "安全加固"
+, "安全自动化"
+, "窗口加固"
+, "网络服务器加固"</category><guid>https://zh.simeononsecurity.com/github/awesome-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解一系列脚本和配置，优化并加固系统，使其符合 STIG 标准并抵御黑客攻击。</description></item><item><title>使用 Ansible、Docker 和 Kubernetes 实现效率最大化：网络安全自动化指南</title><link>https://zh.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"Ansible"
+, "Docker"
+, "Kubernetes"
+, "网络安全自动化"
+, "脆弱性评估"
+, "补丁管理"
+, "容器协调"
+, "网络分割"
+, "基于角色的访问控制"
+, "秘密管理"
+, "安全扫描"
+, "图像签名"
+, "自动化工具"
+, "信息技术基础设施"
+, "防止数据泄露"
+, "提高效率"
+, "安全自动化"
+, "配置管理"
+, "应用程序部署"
+, "集装箱化"
+, "集装箱安全"
+, "可扩展系统"
+, "安全环境"
+, "网络安全"
+, "网络安全最佳做法"
+, "降低风险"
+, "安全管理"
+, "IT 运营"
+, "高效的工作流程"
+, "安全系统自动化"
+, "信息技术效率"</category><guid>https://zh.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Ansible、Docker 和 Kubernetes 在实现网络安全流程自动化和降低数据泄露风险方面的强大功能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://zh.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "合规性"
+, "Ansible"
+, "Ansible 操作手册"
+, "Ansible 套件"
+, "视窗安全"
+, "视窗管理"
+, "安全合规"
+, "IT 自动化"
+, "配置管理"</category><guid>https://zh.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity 今天了解到并觉得有趣**&lt;/p>
+&lt;p>SimeonOnSecurity 今天学习并发现了几件与 Windows 安全和使用 Ansible 进行自动化有关的有趣事情。&lt;/p>
+&lt;p>首先，我们发现了两个新的更新版本库。Windows_STIG_Ansible 资源库为使用 Ansible 自动化平台配置 Windows 系统以满足《安全技术实施指南》（STIG）要求提供了完整的解决方案。windows_stigs 资源库是用于配置 Windows 系统以满足 STIG 要求的 Ansible 角色的集合，可在 Ansible Galaxy（一个用于共享 Ansible 内容的中央资源库）上使用。&lt;/p>
+&lt;p>SimeonOnSecurity 还找到了几个与使用 Ansible 进行 Windows 自动化相关的学习资源。ansible.windows.win_copy 模块文档提供了如何使用 Ansible 在 Windows 系统上复制文件的信息。ansible blocks 文档提供了有关如何使用块的信息，这是 Ansible 的一项强大功能，允许您将多个任务组合在一起并应用条件执行。ansible galaxy 用户指南提供了如何使用 Ansible Galaxy 的信息，ansible installing content 文档提供了如何从 Ansible Galaxy 安装内容的信息。&lt;/p>
+&lt;h3 id="新的更新的-repos">
+&lt;a href="#%e6%96%b0%e7%9a%84%e6%9b%b4%e6%96%b0%e7%9a%84-repos" title="新的/更新的 Repos：">新的/更新的 Repos：&lt;/a>
+&lt;a href="#%e6%96%b0%e7%9a%84%e6%9b%b4%e6%96%b0%e7%9a%84-repos" class="h-anchor" aria-hidden="true" title="新的/更新的 Repos：">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_copy module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_copy module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible blocks">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+>ansible blocks&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible galaxy user guide">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+>ansible galaxy user guide&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible installing content">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html">
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+>ansible installing content&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>使用 Windows 审计策略脚本最大化 Windows 审计功能</title><link>https://zh.simeononsecurity.com/github/windows-audit-policy/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><category>
+"Windows 审计策略"
+, "视窗审计"
+, "安全"
+, "监测"
+, "审计警察"
+, "Windows 命令"
+, "视窗安全"
+, "审计配置"
+, "安全政策"
+, "事件日志"
+, "系统监控"
+, "Windows 服务器"
+, "安全最佳做法"
+, "网络安全"
+, "日志分析"
+, "安全合规性"
+, "事件响应"
+, "安全监控工具"
+, "特权访问"
+, "视窗管理"
+, "脚本"
+, "系统管理"
+, "信息安全"
+, "合规审计"
+, "窗口加固"
+, "安全控制"
+, "安全自动化"
+, "日志管理"
+, "Windows 安全设置"</category><guid>https://zh.simeononsecurity.com/github/windows-audit-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何通过实施 Windows 审核策略脚本最大限度地提高 Windows 审核的安全性和监控能力。</description></item><item><title>使用 Defender 强化脚本增强 Windows 10 安全性</title><link>https://zh.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender的"
+, "视窗 10"
+, "Windows 10 安全"
+, "PowerShell 脚本"
+, "硬化"
+, "防御者强化"
+, "安全自动化"
+, "遵守"
+, "受控文件夹访问"
+, "入侵防御系统"
+, "应用控制"
+, "攻击面减少"
+, "利用保护"
+, "云提供的保护"
+, "网络保护"
+, "Windows Defender STIG 脚本"
+, "Windows Defender STIG"
+, "Windows Defender 防病毒软件 STIG V2R1"
+, "世界数据中心"
+, "自动识别率"</category><guid>https://zh.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用强化 Windows Defender 防病毒的 PowerShell 脚本增强 Windows 10 安全性，实现 Windows Defender 防病毒 STIG V2R1 的所有要求。</description></item></channel></rss>

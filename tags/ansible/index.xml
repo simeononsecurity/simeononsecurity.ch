@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/ansible//img/banner.png</url><title>Ansible on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/ansible/</link></image><link>https://zh.simeononsecurity.com/tags/ansible/</link><description>Recent content in Ansible on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/ansible/index.xml" rel="self" type="application/rss+xml"/><item><title>自动化对决：Ansible vs. Puppet vs. Chef - 关键自动化工具比较</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "自动化工具"
+, "配置管理"
+, "信息技术基础设施"
+, "DevOps"
+, "IT 运营"
+, "云自动化"
+, "软件部署"
+, "基础设施管理"
+, "开源工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Ansible、Puppet 和 Chef 之间的区别，在本综合比较中选择适合您组织需求的自动化工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Ansible 自动化：从普通 Ansible 到 Ansible Tower 和 Semaphore</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"自动化"
+, "基础设施管理"
+, "配置管理"
+, "DevOps"
+, "IT 运营"
+, "开放源代码"
+, "工作流程管理"
+, "可扩展性"
+, "合作"
+, "Ansible 工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过对普通 Ansible、Ansible Tower 和 Ansible Semaphore 的比较，了解 Ansible 自动化的强大功能，并为高效的基础架构管理选择合适的工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Ansible 安全编码指南：最佳实践</title><link>https://zh.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><category>
+"安全编码"
+, "Ansible"
+, "配置管理"
+, "部署"
+, "最小特权原则"
+, "Ansible Vault"
+, "强密码"
+, "门禁控制"
+, "版本控制系统"
+, "安全通信协议"
+, "SSH"
+, "WinRM"
+, "TLS 证书"
+, "清除用户输入"
+, "输入验证"
+, "错误处理"
+, "安全编码实践"
+, "代码注入"
+, "安全编码指南"
+, "基础设施安全"
+, "Ansible 安全编码指南"
+, "使用 Ansible 编写安全代码的最佳实践"
+, "使用 Ansible 进行安全配置管理"
+, "使用 Ansible 安全部署实践"
+, "Ansible 中的最小权限原则"
+, "使用 Ansible Vault 获取安全代码"
+, "在 Ansible 中创建强密码"
+, "Ansible 中的访问控制"
+, "Ansible 管理程序的版本控制系统"
+, "Ansible 中的安全通信协议"
+, "Ansible 中的 SSH 安全性"
+, "Ansible 中的 WinRM 安全性"
+, "Ansible 中的 TLS 证书"
+, "在 Ansible 中净化用户输入"
+, "Ansible 中的输入验证"
+, "Ansible 中的错误处理"
+, "Ansible 中的安全编码实践"
+, "在 Ansible 中防止代码注入"
+, "Ansible 管理的基础设施的安全编码指南"
+, "确保 Ansible 基础设施的安全"</category><guid>https://zh.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解使用 Ansible 编写安全代码的最佳实践，Ansible 是一种用于配置管理和部署的流行工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png"/></item><item><title>你应该学习 IT 和网络安全编程吗？</title><link>https://zh.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"信息技术和网络安全"
+, "编程技能"
+, "职业发展"
+, "自动化"
+, "命令行"
+, "脚本"
+, "基础设施部署"
+, "数据分析"
+, "安全测试"
+, "专业发展"</category><guid>https://zh.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解为什么掌握编程技能会对您的 IT 和网络安全事业大有裨益，以及如何开始学习 PowerShell、Bash、Python、Ansible、Packer 和 Terraform。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item><item><title>使用 Ansible、Docker 和 Kubernetes 实现效率最大化：网络安全自动化指南</title><link>https://zh.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"Ansible"
+, "Docker"
+, "Kubernetes"
+, "网络安全自动化"
+, "脆弱性评估"
+, "补丁管理"
+, "容器协调"
+, "网络分割"
+, "基于角色的访问控制"
+, "秘密管理"
+, "安全扫描"
+, "图像签名"
+, "自动化工具"
+, "信息技术基础设施"
+, "防止数据泄露"
+, "提高效率"
+, "安全自动化"
+, "配置管理"
+, "应用程序部署"
+, "集装箱化"
+, "集装箱安全"
+, "可扩展系统"
+, "安全环境"
+, "网络安全"
+, "网络安全最佳做法"
+, "降低风险"
+, "安全管理"
+, "IT 运营"
+, "高效的工作流程"
+, "安全系统自动化"
+, "信息技术效率"</category><guid>https://zh.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Ansible、Docker 和 Kubernetes 在实现网络安全流程自动化和降低数据泄露风险方面的强大功能。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png"/></item><item><title>今天我学习了更多 Powershell 和 Ansible 模块</title><link>https://zh.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "合规性"
+, "Ansible"
+, "Ansible 操作手册"
+, "Ansible 套件"
+, "视窗安全"
+, "视窗管理"
+, "PowerShell"
+, "IT 自动化"
+, "配置管理"</category><guid>https://zh.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity 今天了解到并觉得有趣**&lt;/p>
+&lt;p>SimeonOnSecurity 学习了 Windows STIG Ansible 并更新了相关 repos。此外，还学习了与 powerhell、远程控制以及使用 invoke-command、start-process、win_powershell、win_shell、psexec 和 win_psexec 等模块在 Windows 上执行 shell/powershell 命令有关的各种 Microsoft 和 Ansible 资源。&lt;/p>
+&lt;h3 id="新增更新-repos">
+&lt;a href="#%e6%96%b0%e5%a2%9e%e6%9b%b4%e6%96%b0-repos" title="新增/更新 Repos：">新增/更新 Repos：&lt;/a>
+&lt;a href="#%e6%96%b0%e5%a2%9e%e6%9b%b4%e6%96%b0-repos" class="h-anchor" aria-hidden="true" title="新增/更新 Repos：">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://zh.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "合规性"
+, "Ansible"
+, "Ansible 操作手册"
+, "Ansible 套件"
+, "视窗安全"
+, "视窗管理"
+, "安全合规"
+, "IT 自动化"
+, "配置管理"</category><guid>https://zh.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity 今天了解到并觉得有趣**&lt;/p>
+&lt;p>SimeonOnSecurity 今天学习并发现了几件与 Windows 安全和使用 Ansible 进行自动化有关的有趣事情。&lt;/p>
+&lt;p>首先，我们发现了两个新的更新版本库。Windows_STIG_Ansible 资源库为使用 Ansible 自动化平台配置 Windows 系统以满足《安全技术实施指南》（STIG）要求提供了完整的解决方案。windows_stigs 资源库是用于配置 Windows 系统以满足 STIG 要求的 Ansible 角色的集合，可在 Ansible Galaxy（一个用于共享 Ansible 内容的中央资源库）上使用。&lt;/p>
+&lt;p>SimeonOnSecurity 还找到了几个与使用 Ansible 进行 Windows 自动化相关的学习资源。ansible.windows.win_copy 模块文档提供了如何使用 Ansible 在 Windows 系统上复制文件的信息。ansible blocks 文档提供了有关如何使用块的信息，这是 Ansible 的一项强大功能，允许您将多个任务组合在一起并应用条件执行。ansible galaxy 用户指南提供了如何使用 Ansible Galaxy 的信息，ansible installing content 文档提供了如何从 Ansible Galaxy 安装内容的信息。&lt;/p>
+&lt;h3 id="新的更新的-repos">
+&lt;a href="#%e6%96%b0%e7%9a%84%e6%9b%b4%e6%96%b0%e7%9a%84-repos" title="新的/更新的 Repos：">新的/更新的 Repos：&lt;/a>
+&lt;a href="#%e6%96%b0%e7%9a%84%e6%9b%b4%e6%96%b0%e7%9a%84-repos" class="h-anchor" aria-hidden="true" title="新的/更新的 Repos：">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_copy module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_copy module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible blocks">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+>ansible blocks&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible galaxy user guide">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+>ansible galaxy user guide&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible installing content">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html">
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+>ansible installing content&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>今天我学会了如何用 PowerShell 和 Bash 处理和解析 JSON</title><link>https://zh.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"自动化"
+, "合规性"
+, "视窗安全"
+, "Ansible 操作手册"
+, "Ansible 套件"
+, "信息技术安全"
+, "配置管理"
+, "DevOps"
+, "视窗管理"
+, "系统配置"</category><guid>https://zh.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity 今天了解到的有趣内容&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity 更新了他网站上的一个页面，并了解了一些他认为有趣的资源。更新的页面是 HackTheBox 上邀请挑战的文章。该页面深入分析了在 Windows 和 Linux 系统上解决挑战的过程。&lt;/p>
+&lt;p>除了更新页面，SimeonOnSecurity 还发现了一些有用的学习资源。其中一个资源是 Cameron Nokes 撰写的博文，重点介绍了如何使用 jq 工具在 bash 中处理 JSON。jq 工具是一个命令行工具，可以轻松解析、过滤和操作 JSON 数据。&lt;/p>
+&lt;p>另外两个资源与在 PowerShell 中转换 JSON 数据有关。Microsoft 文档提供了有关 ConvertFrom-Json 和 ConvertTo-Json cmdlets 的信息。通过这些 cmdlet，可以将 JSON 数据转换为 PowerShell 对象或从 PowerShell 对象转换为 JSON 数据，从而可以更轻松地操作和分析数据。&lt;/p>
+&lt;h2 id="已更新页面">
+&lt;a href="#%e5%b7%b2%e6%9b%b4%e6%96%b0%e9%a1%b5%e9%9d%a2" title="已更新页面：">已更新页面：&lt;/a>
+&lt;a href="#%e5%b7%b2%e6%9b%b4%e6%96%b0%e9%a1%b5%e9%9d%a2" class="h-anchor" aria-hidden="true" title="已更新页面：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="HackTheBox - Invite Challenge (Windows/Linux)">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/">
+&lt;a href="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/"
+rel="follow me"
+>HackTheBox - Invite Challenge (Windows/Linux)&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Cameron Nokes - Working with JSON in bash using jq">
+&lt;meta itemprop="url" content="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/">
+&lt;a href="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/"
+rel="noopener external" target="_blank"
+>Cameron Nokes - Working with JSON in bash using jq&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertFrom-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertFrom-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertTo-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertTo-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

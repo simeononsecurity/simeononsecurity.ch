@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python 3.5 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/python-3.5//img/banner.png</url><title>Python 3.5 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/python-3.5/</link></image><link>https://zh.simeononsecurity.com/tags/python-3.5/</link><description>Recent content in Python 3.5 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/python-3.5/index.xml" rel="self" type="application/rss+xml"/><item><title>在终端中使用 ChatGPT（Bash、PowerShell、Python）：面向开发人员的 ChatGPT CLI 工具简介</title><link>https://zh.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"聊天GPT"
+, "开放人工智能"
+, "命令行界面"
+, "命令行界面"
+, "文本生成"
+, "问答"
+, "开发工具包"
+, "pip 包管理器"
+, "Python 3.5"
+, "电源外壳"
+, "狂欢"</category><guid>https://zh.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何通过方便的命令行界面 (CLI) 使用 OpenAI 的 ChatGPT 模型轻松生成文本和回答问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.png" length="360421" type="image/png"/></item></channel></rss>

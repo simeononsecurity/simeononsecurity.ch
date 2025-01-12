@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Psexec on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/psexec//img/banner.png</url><title>Psexec on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/psexec/</link></image><link>https://zh.simeononsecurity.com/tags/psexec/</link><description>Recent content in Psexec on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/psexec/index.xml" rel="self" type="application/rss+xml"/><item><title>今天我学习了更多 Powershell 和 Ansible 模块</title><link>https://zh.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "合规性"
+, "Ansible"
+, "Ansible 操作手册"
+, "Ansible 套件"
+, "视窗安全"
+, "视窗管理"
+, "PowerShell"
+, "IT 自动化"
+, "配置管理"</category><guid>https://zh.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity 今天了解到并觉得有趣**&lt;/p>
+&lt;p>SimeonOnSecurity 学习了 Windows STIG Ansible 并更新了相关 repos。此外，还学习了与 powerhell、远程控制以及使用 invoke-command、start-process、win_powershell、win_shell、psexec 和 win_psexec 等模块在 Windows 上执行 shell/powershell 命令有关的各种 Microsoft 和 Ansible 资源。&lt;/p>
+&lt;h3 id="新增更新-repos">
+&lt;a href="#%e6%96%b0%e5%a2%9e%e6%9b%b4%e6%96%b0-repos" title="新增/更新 Repos：">新增/更新 Repos：&lt;/a>
+&lt;a href="#%e6%96%b0%e5%a2%9e%e6%9b%b4%e6%96%b0-repos" class="h-anchor" aria-hidden="true" title="新增/更新 Repos：">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

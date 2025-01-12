@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 杀毒软件 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/windows-%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6//img/banner.png</url><title>Windows 杀毒软件 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/windows-%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/</link></image><link>https://zh.simeononsecurity.com/tags/windows-%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/</link><description>Recent content in Windows 杀毒软件 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/windows-%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 PowerShell 脚本自动化 Windows Defender 合规性</title><link>https://zh.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"电源外壳"
+, "PowerShell 脚本"
+, "自动化"
+, "遵守"
+, "蓝队"
+, "Windows Defender STIG 脚本"
+, "Windows Defender的"
+, "Windows Defender 强化"
+, "Windows Defender STIG"
+, "后卫斯蒂格"
+, "安全"
+, "网络安全"
+, "STIG"
+, "Windows 安全"
+, "Windows 杀毒软件"
+, "Windows脚本"
+, "视窗自动化"
+, "Windows强化"
+, "Windows Defender 自动化"
+, "Windows Defender 合规性"</category><guid>https://zh.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 Windows Defender STIG PowerShell 脚本增强安全性，该脚本自动遵守 Windows Defender Antivirus V1R9 STIG 指南。</description></item></channel></rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 幽灵崩溃缓解脚本 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/windows-%E5%B9%BD%E7%81%B5%E5%B4%A9%E6%BA%83%E7%BC%93%E8%A7%A3%E8%84%9A%E6%9C%AC//img/banner.png</url><title>Windows 幽灵崩溃缓解脚本 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/windows-%E5%B9%BD%E7%81%B5%E5%B4%A9%E6%BA%83%E7%BC%93%E8%A7%A3%E8%84%9A%E6%9C%AC/</link></image><link>https://zh.simeononsecurity.com/tags/windows-%E5%B9%BD%E7%81%B5%E5%B4%A9%E6%BA%83%E7%BC%93%E8%A7%A3%E8%84%9A%E6%9C%AC/</link><description>Recent content in Windows 幽灵崩溃缓解脚本 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/windows-%E5%B9%BD%E7%81%B5%E5%B4%A9%E6%BA%83%E7%BC%93%E8%A7%A3%E8%84%9A%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>保护 Windows 免受推测执行边信道攻击</title><link>https://zh.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Windows 幽灵崩溃缓解脚本"
+, "推测执行侧通道攻击"
+, "微软"
+, "英特尔"
+, "超微"
+, "通过"
+, "手臂"
+, "安卓"
+, "铬合金"
+, "苹果系统"
+, "苹果系统"
+, "分支目标注入"
+, "边界检查绕过"
+, "流氓数据缓存加载"
+, "投机商店旁路"
+, "微架构数据采样"
+, "CVE"
+, "固件更新"
+, "GitHub 资料库"
+, "电源外壳"</category><guid>https://zh.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 Microsoft 的缓解脚本和固件更新来保护您的 Windows 系统免受推测执行边信道攻击</description></item></channel></rss>

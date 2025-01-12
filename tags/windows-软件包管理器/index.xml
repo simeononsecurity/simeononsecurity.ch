@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 软件包管理器 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/windows-%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8//img/banner.png</url><title>Windows 软件包管理器 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/windows-%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</link></image><link>https://zh.simeononsecurity.com/tags/windows-%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</link><description>Recent content in Windows 软件包管理器 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/windows-%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>今天我学会了如何制作巧克力包装</title><link>https://zh.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "Windows 软件包管理"
+, "软件包创建"
+, "软件包管理"
+, "基础设施即代码（IaC）"
+, "Windows 软件部署"
+, "软件包装"
+, "视窗自动化"
+, "软件包存储库"
+, "视窗工具"</category><guid>https://zh.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今天，我学到了更多有关 Ansible 条件和变量管理的知识</description></item></channel></rss>

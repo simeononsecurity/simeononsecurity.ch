@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全更新 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%9B%B4%E6%96%B0//img/banner.png</url><title>安全更新 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%9B%B4%E6%96%B0/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%9B%B4%E6%96%B0/</link><description>Recent content in 安全更新 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AE%89%E5%85%A8%E6%9B%B4%E6%96%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 中的安全编码：强大应用程序安全的最佳实践</title><link>https://zh.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"编程"
+, "应用安全"
+, "Python 开发"
+, "安全编码"
+, "网络开发"
+, "数据分析"
+, "人工智能"
+, "软件开发"
+, "网络安全"
+, "编程语言"</category><guid>https://zh.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习 Python 安全编码的最佳实践，以确保应用程序的稳健安全，并防止 SQL 注入和跨站脚本等漏洞。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png"/></item><item><title>抵御网络安全中的社交工程攻击</title><link>https://zh.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</link><pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "社会工程"
+, "网络钓鱼欺诈"
+, "多因素身份验证"
+, "安全更新"
+, "密码安全"
+, "网络安全"
+, "数据泄露"
+, "信息技术安全"
+, "身份盗窃"
+, "预防欺诈"
+, "防止间谍活动"
+, "技术安全"
+, "实体安保"
+, "信息安全"
+, "预防网络犯罪"
+, "入侵检测"
+, "安全补丁"
+, "员工培训"
+, "数据保护"</category><guid>https://zh.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在这篇内容丰富的文章中，您将了解如何抵御社交工程攻击，保护您的数据免受网络犯罪分子的侵害。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png" length="236265" type="image/png"/></item></channel></rss>

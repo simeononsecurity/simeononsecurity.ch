@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powershell on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/powershell//img/banner.png</url><title>Powershell on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/powershell/</link></image><link>https://zh.simeononsecurity.com/tags/powershell/</link><description>Recent content in Powershell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>如何使用 PowerCLI 审核 vCenter 的权限</title><link>https://zh.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"vCenter 权限审计"
+, "PowerCLI 自动化"
+, "VMware 安全"
+, "虚拟基础设施管理"
+, "许可任务"
+, "用户访问控制"
+, "安全漏洞"
+, "PowerShell 自动化"
+, "vSphere 环境管理"
+, "用户权限审查"</category><guid>https://zh.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 PowerCLI 有效审核 vCenter 的权限，确保虚拟基础架构的安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png"/></item><item><title>使用 Windows Defender PowerShell 命令提高系统安全性</title><link>https://zh.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "PowerShell 命令"
+, "系统安全"
+, "命令行控制"
+, "杀毒"
+, "视窗操作系统"
+, "恶意软件保护"
+, "高级安全设置"
+, "自动化安全操作"
+, "Windows PowerShell"</category><guid>https://zh.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Windows Defender PowerShell 命令的强大功能，学习如何通过命令行控制增强系统安全性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png"/></item><item><title>完整指南：使用 PowerShell 在 Windows 上编写文件哈希值</title><link>https://zh.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><category>
+"文件哈希值"
+, "PowerShell"
+, "SHA256 哈希值"
+, "MD5 哈希值"
+, "SHA1 哈希值"
+, "文件完整性"
+, "数据认证"
+, "文件验证"
+, "散列算法"
+, "Windows 操作系统"
+, "脚本语言"
+, "命令行 shell"
+, "数据安全"
+, "数字取证"
+, "网络安全"
+, "哈希计算"
+, "篡改文件"
+, "数据完整性"
+, "文件真实性"
+, "视窗安全"
+, "文件标识"
+, "网络防御"
+, "文件安全"
+, "数据保护"
+, "数据验证"
+, "文件验证"
+, "Windows PowerShell"
+, "哈希生成"
+, "散列算法"
+, "哈希函数"</category><guid>https://zh.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过分步说明和示例，了解如何使用 PowerShell 在 Windows 上获取文件哈希值，包括 SHA256、MD5 和 SHA1。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png"/></item><item><title>PowerShell DSC：入门指南</title><link>https://zh.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "配置管理"
+, "自动化"
+, "视窗"
+, "系统管理"
+, "最佳做法"
+, "合规性"
+, "安全"
+, "基础设施"
+, "DevOps"
+, "服务器配置"
+, "测试"
+, "Git"
+, "源控制"
+, "政府法规"
+, "NIST"
+, "独联体"
+, "配置漂移"
+, "定制资源"</category><guid>https://zh.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 PowerShell Desired State Configuration (DSC) 的强大功能，实现系统配置的自动化管理，打造安全、合规的环境。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item><item><title>PowerShell 安全编码最佳实践：指南</title><link>https://zh.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "安全编码"
+, "视窗系统"
+, "输入验证"
+, "密码学图书馆"
+, "最低特权"
+, "静态代码分析器"
+, "安全通信协议"
+, "记录和监控"
+, "漏洞扫描"
+, "教育"
+, "注入代码"
+, "权限升级"
+, "数据泄漏"
+, "硬化环境"
+, "安全政策"
+, "防火墙"
+, "入侵检测系统"
+, "漏洞管理"
+, "网络安全"
+, "PowerShell 编码最佳实践"
+, "确保 PowerShell 代码安全"
+, "视窗系统安全"
+, "PowerShell 中的输入验证"
+, "PowerShell 中的加密技术"
+, "最小特权原则"
+, "PowerShell 静态代码分析器"
+, "PowerShell 中的安全通信协议"
+, "PowerShell 中的日志和监控"
+, "PowerShell 中的漏洞扫描"
+, "PowerShell 安全教育"
+, "防止代码注入"
+, "权限升级缓解"
+, "用 PowerShell 防止数据泄漏"
+, "加固 PowerShell 环境"
+, "PowerShell 的安全策略"
+, "PowerShell 中的防火墙配置"
+, "PowerShell 的入侵检测系统"
+, "PowerShell 中的漏洞管理"
+, "PowerShell 中的网络安全"
+, "PowerShell 脚本的安全编码"
+, "在 PowerShell 中消毒输入和输出"
+, "PowerShell 的安全通信协议"
+, "PowerShell 脚本中的日志和监控"
+, "加固 PowerShell 环境"
+, "使用 PowerShell 执行漏洞扫描"
+, "对用户和管理员进行 PowerShell 安全教育"
+, "安全的 PowerShell 代码实践"
+, "安全、灵活的 PowerShell 代码"
+, "PowerShell 安全最佳实践"
+, "Powershell 安全最佳实践"</category><guid>https://zh.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习编写安全 PowerShell 代码的最佳实践，以保护基于 Windows 的系统免受安全漏洞的侵害。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png"/></item><item><title>你应该学习 IT 和网络安全编程吗？</title><link>https://zh.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"信息技术和网络安全"
+, "编程技能"
+, "职业发展"
+, "自动化"
+, "命令行"
+, "脚本"
+, "基础设施部署"
+, "数据分析"
+, "安全测试"
+, "专业发展"</category><guid>https://zh.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解为什么掌握编程技能会对您的 IT 和网络安全事业大有裨益，以及如何开始学习 PowerShell、Bash、Python、Ansible、Packer 和 Terraform。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item><item><title>PowerShell 在增强网络安全操作和合规性方面的强大功能</title><link>https://zh.simeononsecurity.com/articles/powershell-for-cybersecurity/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "网络安全"
+, "业务"
+, "合规性"
+, "自动化"
+, "STIG SRG 要求"
+, "NSACyber 指南"
+, "视窗系统"
+, "蓝队防守"
+, "脚本"
+, "工具"
+, "C Sharp 项目"</category><guid>https://zh.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 PowerShell 在增强网络安全操作方面的强大功能，并通过自动化和简化流程来实现符合行业标准。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png"/></item><item><title>今天我学会了如何制作巧克力包装</title><link>https://zh.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "Windows 软件包管理"
+, "软件包创建"
+, "软件包管理"
+, "基础设施即代码（IaC）"
+, "Windows 软件部署"
+, "软件包装"
+, "视窗自动化"
+, "软件包存储库"
+, "视窗工具"</category><guid>https://zh.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今天，我学到了更多有关 Ansible 条件和变量管理的知识</description></item><item><title>今天我学到了更多关于 WDAC 政策制定和实施的知识</title><link>https://zh.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "视窗安全"
+, "应用控制"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "威胁防护"
+, "Windows Server 2019"
+, "企业安全"
+, "政策管理"
+, "安全最佳做法"</category><guid>https://zh.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今天，我学到了更多有关 Ansible 条件和变量管理的知识</description></item><item><title>今天我学习了 Auditpol、Sysmon 和 Sysmon 配置</title><link>https://zh.simeononsecurity.com/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "自动化"
+, "Sysmon"
+, "配置"
+, "视窗安全"
+, "事件监测"
+, "视窗管理"
+, "安全审计"
+, "威胁猎杀"
+, "恶意软件分析"</category><guid>https://zh.simeononsecurity.com/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity 今天了解到的有趣内容&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity 今天学习并发现了几件与 Windows 安全和事件监控有关的有趣事情。&lt;/p>
+&lt;p>首先，我们发现了两个新的和更新的资源库。Automate-Sysmon 资源库为 Sysmon 的自动化安装、配置和管理提供了解决方案，Sysmon 是一种用于监控和记录 Windows 系统上系统活动的流行工具。Windows-Audit-Policy 资源库为 Windows 审计策略的自动化配置提供了解决方案，该策略可控制对 Windows 系统上各种安全相关事件的审计。&lt;/p>
+&lt;p>SimeonOnSecurity 还找到了一些与 Windows 安全和事件监控相关的学习资源。Sysmon 入门》一文全面介绍了 Sysmon，包括其功能、优点以及如何有效使用。Malware Archaeology Cheat Sheets 提供了与恶意软件分析和威胁猎取相关的各种主题的简明可行的信息。Microsoft Sysinternals - Sysmon 文档提供有关 Sysmon 功能和使用的信息。sysmon-config 资源库提供一组预配置的 Sysmon 规则，可用作自定义 Sysmon 配置的起点。&lt;/p>
+&lt;p>最后，SimeonOnSecurity 找到了几个与 Windows 审计策略命令行工具 (auditpol) 相关的资源。auditpol backup、auditpol clear、auditpol list 和 auditpol restore 文档提供了如何使用这些命令管理 Windows 审计策略的信息。auditpol 文档全面介绍了 auditpol 工具及其功能。最后，sysmon-modular 资源库提供了一种配置 Sysmon 的模块化方法，这对具有复杂安全需求的大型企业非常有用。&lt;/p>
+&lt;h2 id="新版本库更新版本库">
+&lt;a href="#%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93%e6%9b%b4%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93" title="新版本库/更新版本库：">新版本库/更新版本库：&lt;/a>
+&lt;a href="#%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93%e6%9b%b4%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93" class="h-anchor" aria-hidden="true" title="新版本库/更新版本库：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Automate-Sysmon">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Automate-Sysmon">
+&lt;a href="https://github.com/simeononsecurity/Automate-Sysmon"
+rel="noopener external" target="_blank"
+>simeononsecurity/Automate-Sysmon&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows-Audit-Policy">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows-Audit-Policy">
+&lt;a href="https://github.com/simeononsecurity/Windows-Audit-Policy"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows-Audit-Policy&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="BHIS - Getting Started With Sysmon">
+&lt;meta itemprop="url" content="https://www.blackhillsinfosec.com/getting-started-with-sysmon/">
+&lt;a href="https://www.blackhillsinfosec.com/getting-started-with-sysmon/"
+rel="noopener external" target="_blank"
+>BHIS - Getting Started With Sysmon&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Malware Archaeology Cheat Sheets">
+&lt;meta itemprop="url" content="https://www.malwarearchaeology.com/cheat-sheets">
+&lt;a href="https://www.malwarearchaeology.com/cheat-sheets"
+rel="noopener external" target="_blank"
+>Malware Archaeology Cheat Sheets&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft Sysinternals - Sysmon">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon">
+&lt;a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon"
+rel="noopener external" target="_blank"
+>Microsoft Sysinternals - Sysmon&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="SwiftOnSecurity/sysmon-config">
+&lt;meta itemprop="url" content="https://github.com/SwiftOnSecurity/sysmon-config">
+&lt;a href="https://github.com/SwiftOnSecurity/sysmon-config"
+rel="noopener external" target="_blank"
+>SwiftOnSecurity/sysmon-config&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol backup">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-backup">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-backup"
+rel="noopener external" target="_blank"
+>auditpol backup&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol clear">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-clear">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-clear"
+rel="noopener external" target="_blank"
+>auditpol clear&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol list">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-list">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-list"
+rel="noopener external" target="_blank"
+>auditpol list&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol restore">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-restore">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-restore"
+rel="noopener external" target="_blank"
+>auditpol restore&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol"
+rel="noopener external" target="_blank"
+>auditpol&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="olafhartong/sysmon-modular">
+&lt;meta itemprop="url" content="https://github.com/olafhartong/sysmon-modular">
+&lt;a href="https://github.com/olafhartong/sysmon-modular"
+rel="noopener external" target="_blank"
+>olafhartong/sysmon-modular&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Windows 加固 CTF：加强 Windows 设备在夺旗战活动中的安全性</title><link>https://zh.simeononsecurity.com/github/windows-hardening-ctf/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><category>
+"窗口加固"
+, "视窗安全"
+, "脚本"
+, "Windows 设备"
+, "命令提示符"
+, "LLMNR"
+, "PowerShell"
+, "中小型企业"
+, "TCP 时间戳"
+, "应用程序锁"
+, "视窗登录"
+, "环境保护部"
+, "EMET 配置"
+, "PowerShell 限制语言模式"
+, "SMB 加密"
+, "Spectre 和 Meltdown 缓解措施"
+, "Windows Defender"
+, "Windows 防火墙"
+, "PSWindowsUpdate"
+, "视窗更新"
+, "加固脚本"
+, "美国国家安全局建议的政策"
+, "Windows 日志和安全控制"
+, "Windows Defender 应用程序控制"
+, "Windows Defender 攻击面减少程序"
+, "Windows Defender 基于云的保护"
+, "Windows Defender 漏洞保护"
+, "安装 PSWindowsUpdate"
+, "Windows 设备安全增强"
+, "视窗加固措施"
+, "加强视窗安全"</category><guid>https://zh.simeononsecurity.com/github/windows-hardening-ctf/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索一个功能强大的脚本，该脚本可通过实施各种加固措施来增强 Windows 的安全性，从而阻止入侵。</description></item></channel></rss>

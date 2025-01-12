@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>威胁检测 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B//img/banner.png</url><title>威胁检测 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/</link><description>Recent content in 威胁检测 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%A8%81%E8%83%81%E6%A3%80%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>安全云解决方案：AWS vs. Azure vs. Google 云平台--选择最适合您企业的方案</title><link>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"云计算"
+, "云安全"
+, "AWS"
+, "天蓝色"
+, "谷歌云计算平台"
+, "数据安全"
+, "加密"
+, "身份和访问管理"
+, "合规性"
+, "威胁检测"</category><guid>https://zh.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 AWS、Azure 和 Google Cloud Platform 的顶级云安全功能和认证，为您的企业选择最佳的安全云解决方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png"/></item><item><title>机器学习对网络安全的影响</title><link>https://zh.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</link><pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate><category>
+"机器学习"
+, "网络安全"
+, "改编"
+, "人工智能"
+, "威胁检测"
+, "数据保护"
+, "实时"
+, "监督学习"
+, "无监督学习"
+, "强化学习"
+, "误报"
+, "假阴性"
+, "员工培训"
+, "安全解决方案"
+, "数据分析"
+, "网络安全"
+, "云安全"
+, "模式识别"
+, "异常检测"
+, "网络威胁"</category><guid>https://zh.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解机器学习对网络安全的影响以及如何适应。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_robot_standing_guard_in_front.png" length="190511" type="image/png"/></item><item><title>人工智能在威胁检测和响应中的力量</title><link>https://zh.simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/</link><pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "网络安全"
+, "威胁检测"
+, "威胁应对"
+, "机器学习"
+, "深度学习"
+, "自然语言处理"
+, "人工智能算法"
+, "网络安全"
+, "数据安全"
+, "网络防御"
+, "事件响应"
+, "内部威胁"
+, "安保团队"
+, "实时监控"
+, "基于规则的系统"
+, "网络犯罪"
+, "脆弱性"
+, "自适应安全"
+, "网络复原力"</category><guid>https://zh.simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解人工智能如何彻底改变威胁检测和响应领域，以及它带来的挑战和限制。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png" length="338686" type="image/png"/></item><item><title>为后大流行世界中的未来网络安全做准备</title><link>https://zh.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "大流行后"
+, "未来"
+, "远程工作"
+, "人工智能"
+, "机器学习"
+, "物联网"
+, "软件更新"
+, "密码"
+, "双因素认证"
+, "教育"
+, "虚拟专用网"
+, "固件更新"
+, "网络钓鱼"
+, "勒索软件"
+, "云安全"
+, "数据保护"
+, "网络安全"
+, "威胁检测"
+, "数字隐私"</category><guid>https://zh.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何在大流行后的世界中为未来的网络安全做好准备，并降低成为网络攻击受害者的风险。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png" length="200776" type="image/png"/></item><item><title>Automate-Sysmon：简化 Sysmon 部署和配置</title><link>https://zh.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"自动化 Sysmon"
+, "如何自动化 Sysmon"
+, "如何自动化 Sysmon 配置"
+, "如何安装 Sysmon"
+, "电源外壳"
+, "脚本"
+, "系统部署"
+, "系统配置"
+, "系统日志"
+, "威胁检测"
+, "恶意活动"
+, "SwiftOnSecurity 系统配置"
+, "微软系统内部"
+, "GitHub 资料库"
+, "BHIS"
+, "系统监控"
+, "安全研究"
+, "进程创建"
+, "网络连接"</category><guid>https://zh.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 Automate-Sysmon 脚本部署和配置 Sysmon 以提高系统的安全性，该脚本甚至可以为新手用户简化流程。</description></item><item><title>今天我学习了 Auditpol、Sysmon 和 Sysmon 配置</title><link>https://zh.simeononsecurity.com/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "自动化"
+, "Sysmon"
+, "配置"
+, "视窗安全"
+, "事件监测"
+, "视窗管理"
+, "安全审计"
+, "威胁猎杀"
+, "恶意软件分析"</category><guid>https://zh.simeononsecurity.com/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity 今天了解到的有趣内容&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity 今天学习并发现了几件与 Windows 安全和事件监控有关的有趣事情。&lt;/p>
+&lt;p>首先，我们发现了两个新的和更新的资源库。Automate-Sysmon 资源库为 Sysmon 的自动化安装、配置和管理提供了解决方案，Sysmon 是一种用于监控和记录 Windows 系统上系统活动的流行工具。Windows-Audit-Policy 资源库为 Windows 审计策略的自动化配置提供了解决方案，该策略可控制对 Windows 系统上各种安全相关事件的审计。&lt;/p>
+&lt;p>SimeonOnSecurity 还找到了一些与 Windows 安全和事件监控相关的学习资源。Sysmon 入门》一文全面介绍了 Sysmon，包括其功能、优点以及如何有效使用。Malware Archaeology Cheat Sheets 提供了与恶意软件分析和威胁猎取相关的各种主题的简明可行的信息。Microsoft Sysinternals - Sysmon 文档提供有关 Sysmon 功能和使用的信息。sysmon-config 资源库提供一组预配置的 Sysmon 规则，可用作自定义 Sysmon 配置的起点。&lt;/p>
+&lt;p>最后，SimeonOnSecurity 找到了几个与 Windows 审计策略命令行工具 (auditpol) 相关的资源。auditpol backup、auditpol clear、auditpol list 和 auditpol restore 文档提供了如何使用这些命令管理 Windows 审计策略的信息。auditpol 文档全面介绍了 auditpol 工具及其功能。最后，sysmon-modular 资源库提供了一种配置 Sysmon 的模块化方法，这对具有复杂安全需求的大型企业非常有用。&lt;/p>
+&lt;h2 id="新版本库更新版本库">
+&lt;a href="#%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93%e6%9b%b4%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93" title="新版本库/更新版本库：">新版本库/更新版本库：&lt;/a>
+&lt;a href="#%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93%e6%9b%b4%e6%96%b0%e7%89%88%e6%9c%ac%e5%ba%93" class="h-anchor" aria-hidden="true" title="新版本库/更新版本库：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Automate-Sysmon">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Automate-Sysmon">
+&lt;a href="https://github.com/simeononsecurity/Automate-Sysmon"
+rel="noopener external" target="_blank"
+>simeononsecurity/Automate-Sysmon&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows-Audit-Policy">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows-Audit-Policy">
+&lt;a href="https://github.com/simeononsecurity/Windows-Audit-Policy"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows-Audit-Policy&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习资源">
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" title="学习资源：">学习资源：&lt;/a>
+&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90" class="h-anchor" aria-hidden="true" title="学习资源：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="BHIS - Getting Started With Sysmon">
+&lt;meta itemprop="url" content="https://www.blackhillsinfosec.com/getting-started-with-sysmon/">
+&lt;a href="https://www.blackhillsinfosec.com/getting-started-with-sysmon/"
+rel="noopener external" target="_blank"
+>BHIS - Getting Started With Sysmon&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Malware Archaeology Cheat Sheets">
+&lt;meta itemprop="url" content="https://www.malwarearchaeology.com/cheat-sheets">
+&lt;a href="https://www.malwarearchaeology.com/cheat-sheets"
+rel="noopener external" target="_blank"
+>Malware Archaeology Cheat Sheets&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft Sysinternals - Sysmon">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon">
+&lt;a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon"
+rel="noopener external" target="_blank"
+>Microsoft Sysinternals - Sysmon&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="SwiftOnSecurity/sysmon-config">
+&lt;meta itemprop="url" content="https://github.com/SwiftOnSecurity/sysmon-config">
+&lt;a href="https://github.com/SwiftOnSecurity/sysmon-config"
+rel="noopener external" target="_blank"
+>SwiftOnSecurity/sysmon-config&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol backup">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-backup">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-backup"
+rel="noopener external" target="_blank"
+>auditpol backup&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol clear">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-clear">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-clear"
+rel="noopener external" target="_blank"
+>auditpol clear&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol list">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-list">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-list"
+rel="noopener external" target="_blank"
+>auditpol list&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol restore">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-restore">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-restore"
+rel="noopener external" target="_blank"
+>auditpol restore&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="auditpol">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol">
+&lt;a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol"
+rel="noopener external" target="_blank"
+>auditpol&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="olafhartong/sysmon-modular">
+&lt;meta itemprop="url" content="https://github.com/olafhartong/sysmon-modular">
+&lt;a href="https://github.com/olafhartong/sysmon-modular"
+rel="noopener external" target="_blank"
+>olafhartong/sysmon-modular&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

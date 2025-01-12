@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>禁用 PowerShell V2 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E7%A6%81%E7%94%A8-powershell-v2//img/banner.png</url><title>禁用 PowerShell V2 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%A6%81%E7%94%A8-powershell-v2/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%A6%81%E7%94%A8-powershell-v2/</link><description>Recent content in 禁用 PowerShell V2 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%A6%81%E7%94%A8-powershell-v2/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 命令提示符和 PowerShell 强化</title><link>https://zh.simeononsecurity.com/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><category>
+"电源外壳"
+, "硬化"
+, "Windows 命令提示符"
+, "安全"
+, "遵守"
+, "自动化"
+, "受限语言模式"
+, "PowerShell 日志记录"
+, "PowerShell 脚本"
+, "WSMAN"
+, "远程处理"
+, "企业安全"
+, "蓝队"
+, "网络安全"
+, "最佳实践"
+, "禁用命令提示符"
+, "禁用 PowerShell v2"
+, "GitHub 资料库"
+, "Windows Defender的"
+, "微软"</category><guid>https://zh.simeononsecurity.com/github/windows-terminal-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用我们全面的强化脚本和文档保护 Windows 命令提示符和 PowerShell，增强系统安全性和合规性。</description></item></channel></rss>
