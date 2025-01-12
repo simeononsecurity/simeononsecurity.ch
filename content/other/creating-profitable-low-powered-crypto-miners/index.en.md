@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 
 **Build a Profitable Passive Income Box with Low-Powered Hardware: A Guide**
-Many people these days are into crypto mining and low powered miners such as helium miners. These are great and all but they don't earn all that much anymore and they are focused on one kind of earning. Today we're going to be building a low powered passive income box that earns anywhere from $10-$20 a month per box and residential IP.
+Many people these days are into crypto mining and low powered miners such as helium miners. These are great and all but they don't earn all that much anymore and they are focused on one kind of earning. Today we're going to be building a low powered passive income box that earns anywhere from $15-$50 a month per box and residential IP.
 
 *If you have the ability to set this box up on a guest network or, even better, a segregated VLAN, do so. While this is a security blog, we can't assume everyone's security concerns and risk tolerance.*
 
@@ -22,14 +22,6 @@ Hard to get ahold of these days but they are super low power and are quite custo
 - [Raspberry Pi 4B Model B DIY Kit](https://amzn.to/3x72kv0)
 - [GeeekPi Raspberry Pi 4 4GB Starter Kit](https://amzn.to/3jG2g2k)
 - [GeeekPi Raspberry Pi 4 8GB Starter Kit](https://amzn.to/3DQisF6)
-### Intel Nuc:
-Wide variety of models out there. Feel Free to choose a newer one.
-- [Intel NUC 12 Pro](https://amzn.to/3JTzLc7)
-- [Intel NUC 8](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+8)
-- [Intel NUC 6](https://www.ebay.com/sch/i.html?_nkw=intel+nuc+6)
-### Any USFF/Tiny/Mini/Micro PC:
-- [Lenovo ThinkCentre M900 Tiny](https://www.ebay.com/itm/385116504642)
-- [Dell OptiPlex 7040 Micro USFF](https://www.ebay.com/itm/165504038978)
 ### Any Mini PC with Intel N5100, N100, N305 or similar
 For super low power Raspberry Pi equivalent but on x64 platform. 
 - [Beelink U59 Mini PC ](https://amzn.to/3YkFhcj)
@@ -136,6 +128,35 @@ mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
 _____________________
+
+### [Install EarnFM Client Using Docker](https://tinyurl.com/sosearnfm):  
+[*Earn passive income by sharing your resources with EarnFM*](https://tinyurl.com/sosearnfm)  
+
+This guide will help you set up the EarnFM client using Docker.
+
+---
+
+#### Prerequisites:  
+- **EarnFM Account & API Key**: Register at [earn.fm](https://tinyurl.com/sosearnfm) and copy your API key from the settings in your EarnFM dashboard.
+  - You have to download the Windows or Android app to create your account initially. Requires E-Mail confirmation.
+
+---
+
+#### Setup:  
+Run the following command to set up the EarnFM client and Watchtower in one step:  
+
+```bash
+sudo docker stop earnfm-client; sudo docker rm earnfm-client; sudo docker rmi earnfm/earnfm-client:latest; sudo docker run -td --restart=always --dns 8.8.8.8 --dns 8.8.4.4 --dns 1.1.1.1 --dns 1.0.0.1 --dns 9.9.9.9 -e EARNFM_TOKEN="YOUR_APIKEY_PLEASE_REPLACE_ME" --name earnfm-client earnfm/earnfm-client:latest
+```
+
+Replace `"YOUR_APIKEY_PLEASE_REPLACE_ME"` with your EarnFM API key. For example:  
+`"97f7414b-a0fb-4862-baba-e988d9a127fb"`
+
+#### Enjoy Earning:
+Get started and start earning passive income with EarnFM at scale!  
+Sign up and learn more at [earn.fm](https://tinyurl.com/sosearnfm).
+_____________________
+
 
 ### [Install Honey Gain](https://simeononsecurity.com/other/install-honeygain-easily-using-docker/):
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
