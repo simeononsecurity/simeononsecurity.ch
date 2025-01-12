@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cumplimiento De Las STIG on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/cumplimiento-de-las-stig//img/banner.png</url><title>Cumplimiento De Las STIG on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/cumplimiento-de-las-stig/</link></image><link>https://es.simeononsecurity.com/tags/cumplimiento-de-las-stig/</link><description>Recent content in Cumplimiento De Las STIG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/cumplimiento-de-las-stig/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatización del cumplimiento de las normas de seguridad con secuencias de comandos STIG</title><link>https://es.simeononsecurity.com/github/awesome-stigs/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"Guiones STIG"
+, "cumplimiento de las normas de seguridad"
+, "automatización"
+, "Windows"
+, "aplicaciones"
+, ".NET"
+, "Adobe Reader DC"
+, "Oracle JRE 8"
+, "FireFox"
+, "Manuales Ansible"
+, "preparación de dominios"
+, "Windows Defender"
+, "ciberseguridad"
+, "scripting"
+, "Cumplimiento de las STIG"
+, "gestión de la configuración"
+, "Seguridad informática"
+, "gestión de parches"
+, "administración del sistema"</category><guid>https://es.simeononsecurity.com/github/awesome-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra una colección de secuencias de comandos STIG para automatizar el cumplimiento de las normas de seguridad para Windows y aplicaciones populares, como .NET, Adobe Reader DC y Oracle JRE 8.</description></item><item><title>Hoy he aprendido a manipular y analizar JSON en PowerShell y Bash</title><link>https://es.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Seguridad de Windows"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad informática"
+, "Gestión de la configuración"
+, "DevOps"
+, "Administración de Windows"
+, "Configuración del sistema"</category><guid>https://es.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Lo que SimeonOnSecurity ha descubierto y encontrado interesante hoy&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ha actualizado una página de su sitio web y se ha enterado de algunos recursos que le parecen interesantes. La página actualizada es el resumen del Invite Challenge en HackTheBox. Esta página ofrece un análisis en profundidad del proceso de resolución del desafío tanto en sistemas Windows como Linux.&lt;/p>
+&lt;p>Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles. Uno de estos recursos es una entrada de blog de Cameron Nokes que se centra en el trabajo con JSON en bash utilizando la herramienta jq. La herramienta jq es una utilidad de línea de comandos que facilita el análisis, filtrado y manipulación de datos JSON.&lt;/p></description></item></channel></rss>

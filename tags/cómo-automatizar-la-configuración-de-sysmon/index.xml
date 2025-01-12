@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cómo Automatizar La Configuración De Sysmon on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/c%C3%B3mo-automatizar-la-configuraci%C3%B3n-de-sysmon//img/banner.png</url><title>Cómo Automatizar La Configuración De Sysmon on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/c%C3%B3mo-automatizar-la-configuraci%C3%B3n-de-sysmon/</link></image><link>https://es.simeononsecurity.com/tags/c%C3%B3mo-automatizar-la-configuraci%C3%B3n-de-sysmon/</link><description>Recent content in Cómo Automatizar La Configuración De Sysmon on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/c%C3%B3mo-automatizar-la-configuraci%C3%B3n-de-sysmon/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: Simplifique la implantación y configuración de Sysmon</title><link>https://es.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automatizar Sysmon"
+, "Cómo automatizar Sysmon"
+, "Cómo automatizar la configuración de Sysmon"
+, "Cómo instalar Sysmon"
+, "Powershell"
+, "Guión"
+, "Despliegue de Sysmon"
+, "Configuración de Sysmon"
+, "Registro Sysmon"
+, "Detección de amenazas"
+, "Actividad maliciosa"
+, "SwiftOnSecurity sysmon-config"
+, "Sysinternals de Microsoft"
+, "Repositorio GitHub"
+, "BHIS"
+, "Supervisión del sistema"
+, "Investigación sobre seguridad"
+, "Creación de procesos"
+, "Conexiones de red"</category><guid>https://es.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a desplegar y configurar Sysmon para mejorar la seguridad de su sistema con el script Automate-Sysmon, que simplifica el proceso incluso para usuarios novatos.</description></item></channel></rss>

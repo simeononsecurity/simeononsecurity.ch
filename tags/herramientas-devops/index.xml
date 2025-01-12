@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Herramientas DevOps on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/herramientas-devops//img/banner.png</url><title>Herramientas DevOps on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/herramientas-devops/</link></image><link>https://es.simeononsecurity.com/tags/herramientas-devops/</link><description>Recent content in Herramientas DevOps on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/herramientas-devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatización Ansible: De Ansible simple a Ansible Tower y Semaphore</title><link>https://es.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Gestión de infraestructuras"
+, "Gestión de la configuración"
+, "DevOps"
+, "Operaciones informáticas"
+, "Código abierto"
+, "Gestión del flujo de trabajo"
+, "Escalabilidad"
+, "Colaboración"
+, "Herramientas Ansible"</category><guid>https://es.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra la potencia de la automatización de Ansible con una comparación de Ansible simple, Ansible Tower y Ansible Semaphore, y elija la herramienta adecuada para una gestión eficaz de la infraestructura.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Hoy he aprendido más sobre los condicionales de Ansible y la gestión de variables</title><link>https://es.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Ansible"
+, "Gestión de la configuración"
+, "Infraestructura informática"
+, "DevOps"
+, "Desarrollo del libro de jugadas"
+, "Gestión variable"
+, "Ejecución condicional"</category><guid>https://es.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hoy he aprendido más sobre los condicionales de Ansible y la gestión de variables</description></item></channel></rss>

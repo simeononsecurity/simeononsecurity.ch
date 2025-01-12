@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestor De Paquetes De Chocolate on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/gestor-de-paquetes-de-chocolate//img/banner.png</url><title>Gestor De Paquetes De Chocolate on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/gestor-de-paquetes-de-chocolate/</link></image><link>https://es.simeononsecurity.com/tags/gestor-de-paquetes-de-chocolate/</link><description>Recent content in Gestor De Paquetes De Chocolate on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/gestor-de-paquetes-de-chocolate/index.xml" rel="self" type="application/rss+xml"/><item><title>Hoy he aprendido a crear paquetes de chocolate</title><link>https://es.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Gestión de paquetes de Windows"
+, "Creación de paquetes"
+, "Gestión de paquetes"
+, "Infraestructura como código (IaC)"
+, "Implantación de software Windows"
+, "Embalaje de software"
+, "Automatización de Windows"
+, "Repositorios de paquetes"
+, "Herramientas de Windows"</category><guid>https://es.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hoy he aprendido más sobre los condicionales de Ansible y la gestión de variables</description></item></channel></rss>

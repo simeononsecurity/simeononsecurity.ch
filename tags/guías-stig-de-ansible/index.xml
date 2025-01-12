@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guías STIG De Ansible on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/gu%C3%ADas-stig-de-ansible//img/banner.png</url><title>Guías STIG De Ansible on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/gu%C3%ADas-stig-de-ansible/</link></image><link>https://es.simeononsecurity.com/tags/gu%C3%ADas-stig-de-ansible/</link><description>Recent content in Guías STIG De Ansible on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/gu%C3%ADas-stig-de-ansible/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatice el cumplimiento de Windows con los Playbooks de Ansible STIG</title><link>https://es.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Cumplimiento de Windows"
+, "Guías STIG de Ansible"
+, "Endurecimiento de ventanas"
+, "Guiones STIG"
+, "Cumplimiento STIG"
+, "galaxia ansible"
+, "Potencia Shell"
+, "Guión de PowerShell"
+, "Servidor de windows"
+, "Defensor de Windows"
+, ".NETO"
+, "zorro de fuego"
+, "Oracle JRE 8"
+, "Adobe Reader CC"
+, "Conectividad a Internet"
+, "Compatibilidad sin conexión"
+, "Endurecimiento de la seguridad"
+, "Seguridad de Windows"</category><guid>https://es.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimice su cumplimiento de seguridad con Ansible STIG Playbooks para sistemas Windows.</description></item></channel></rss>

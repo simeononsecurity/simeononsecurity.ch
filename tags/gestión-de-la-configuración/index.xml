@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestión De La Configuración on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/gesti%C3%B3n-de-la-configuraci%C3%B3n//img/banner.png</url><title>Gestión De La Configuración on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/gesti%C3%B3n-de-la-configuraci%C3%B3n/</link></image><link>https://es.simeononsecurity.com/tags/gesti%C3%B3n-de-la-configuraci%C3%B3n/</link><description>Recent content in Gestión De La Configuración on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/gesti%C3%B3n-de-la-configuraci%C3%B3n/index.xml" rel="self" type="application/rss+xml"/><item><title>Enfrentamiento de automatización: Ansible vs. Puppet vs. Chef - Comparación de las principales herramientas de automatización</title><link>https://es.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Herramientas de automatización"
+, "Gestión de la configuración"
+, "Infraestructura informática"
+, "DevOps"
+, "Operaciones informáticas"
+, "Automatización en la nube"
+, "Implantación de software"
+, "Gestión de infraestructuras"
+, "Herramientas de código abierto"</category><guid>https://es.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra las diferencias entre Ansible, Puppet y Chef para elegir la herramienta de automatización adecuada a las necesidades de su organización en esta completa comparativa.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Automatización Ansible: De Ansible simple a Ansible Tower y Semaphore</title><link>https://es.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Gestión de infraestructuras"
+, "Gestión de la configuración"
+, "DevOps"
+, "Operaciones informáticas"
+, "Código abierto"
+, "Gestión del flujo de trabajo"
+, "Escalabilidad"
+, "Colaboración"
+, "Herramientas Ansible"</category><guid>https://es.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra la potencia de la automatización de Ansible con una comparación de Ansible simple, Ansible Tower y Ansible Semaphore, y elija la herramienta adecuada para una gestión eficaz de la infraestructura.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Dominio de los GPO: Guía completa para una gestión eficaz de la red</title><link>https://es.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestión de redes"
+, "Objetos de directiva de grupo"
+, "GPOs"
+, "Administración de Windows"
+, "Infraestructura informática"
+, "Seguridad de las redes"
+, "Directorio Activo"
+, "Gestión de la configuración"
+, "Gestión de directivas de grupo"
+, "Optimización de la red"</category><guid>https://es.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el poder de los objetos de directiva de grupo (GPO) y aprenda a gestionar y optimizar eficazmente la configuración y las directivas de su red para mejorar la seguridad y agilizar las operaciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item><item><title>CheckMK: una solución integral de supervisión para una gestión eficaz de la infraestructura informática</title><link>https://es.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Infraestructura informática"
+, "Supervisión de redes"
+, "Supervisión de aplicaciones"
+, "Operaciones informáticas"
+, "Análisis del rendimiento"
+, "Automatización"
+, "Gestión de eventos"
+, "Escalabilidad"
+, "Flexibilidad"</category><guid>https://es.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore las características, ventajas y casos de uso de CheckMK, una completa solución de supervisión para la gestión proactiva de la infraestructura de TI.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>Automatización de actualizaciones de Windows con Ansible: una guía completa</title><link>https://es.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"automatizar las actualizaciones de Windows"
+, "Automatización ansible"
+, "gestión del sistema"
+, "parches de seguridad"
+, "esa infraestructura"
+, "automatización de red"
+, "gestión de la configuración"
+, "operaciones de TI"
+, "DevOps"
+, "la seguridad cibernética"
+, "automatización de TI"
+, "eficiencia de TI"
+, "Libro de jugadas de Ansible"
+, "seguridad de windows"
+, "gestión de actualizaciones"
+, "productividad de TI"
+, "mantenimiento de TI"
+, "Credenciales de Ansible"
+, "configuración de host"
+, "automatización del sistema"
+, "actualizaciones de windows"
+, "Administración del sistema de Windows"
+, "Parches de seguridad de Windows"
+, "Infraestructura de TI de Windows"
+, "Automatización de red de Windows"
+, "Gestión de la configuración de Windows"
+, "Operaciones de TI de Windows"
+, "DevOps de Windows"
+, "Ciberseguridad de Windows"
+, "Automatización de TI de Windows"
+, "Eficiencia de TI de Windows"</category><guid>https://es.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimice el proceso de actualización de los sistemas Windows mediante la automatización con Ansible: se incluyen instrucciones paso a paso y mejores prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png"/></item><item><title>Primeros pasos con Terraform para la Infraestructura como Código</title><link>https://es.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Terraform"
+, "Infraestructura como código"
+, "IaC"
+, "Computación en nube"
+, "DevOps"
+, "Automatización"
+, "AWS"
+, "Azure"
+, "Nube de Google"
+, "Proveedores de nube"
+, "Gestión de la configuración"
+, "Despliegue"
+, "Aprovisionamiento"
+, "Gestión de recursos"
+, "Escalabilidad"
+, "Resiliencia"
+, "Seguridad"
+, "Conformidad"
+, "Buenas prácticas"</category><guid>https://es.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda los conceptos básicos de Terraform, una popular herramienta de infraestructura como código, y cómo utilizarla para gestionar la infraestructura de forma eficiente.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png"/></item><item><title>Uso de Packer para la Infraestructura como Código: Mejores prácticas y ventajas</title><link>https://es.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Empaquetador"
+, "Infraestructura como código"
+, "DevOps"
+, "Automatización"
+, "Seguridad"
+, "Repetibilidad"
+, "Escalabilidad"
+, "Multiplataforma"
+, "Control de versiones"
+, "Computación en nube"
+, "Imágenes de máquinas"
+, "Virtualización"
+, "Gestión de la configuración"
+, "Integración continua"
+, "Entrega continua"
+, "Desarrollo de software"
+, "Buenas prácticas"
+, "Pruebas"
+, "Código abierto"
+, "Múltiples nubes"</category><guid>https://es.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a utilizar Packer para crear imágenes de máquina fáciles de mantener y seguras.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item><item><title>PowerShell DSC: Guía de inicio</title><link>https://es.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Gestión de la configuración"
+, "Automatización"
+, "Windows"
+, "Administración del sistema"
+, "Buenas prácticas"
+, "Conformidad"
+, "Seguridad"
+, "Infraestructura"
+, "DevOps"
+, "Configuración del servidor"
+, "Pruebas"
+, "Git"
+, "Control de las fuentes"
+, "Normativa gubernamental"
+, "NIST"
+, "CIS"
+, "Deriva de configuración"
+, "Recursos personalizados"</category><guid>https://es.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore el poder de PowerShell Desired State Configuration (DSC) para automatizar y gestionar las configuraciones del sistema para un entorno seguro y conforme.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item><item><title>Directrices de codificación segura para Ansible: Buenas prácticas</title><link>https://es.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><category>
+"Codificación segura"
+, "Ansible"
+, "Gestión de la configuración"
+, "Despliegue"
+, "Principio del menor privilegio"
+, "Bóveda Ansible"
+, "Contraseñas seguras"
+, "Control de acceso"
+, "Sistema de control de versiones"
+, "Protocolos de comunicación seguros"
+, "SSH"
+, "WinRM"
+, "Certificados TLS"
+, "Sanear la entrada del usuario"
+, "Validación de las entradas"
+, "Tratamiento de errores"
+, "Prácticas de codificación seguras"
+, "Inyección de código"
+, "Directrices de codificación segura"
+, "Seguridad de las infraestructuras"
+, "Directrices de codificación segura para Ansible"
+, "Buenas prácticas para un código seguro con Ansible"
+, "Gestión segura de la configuración con Ansible"
+, "Prácticas de despliegue seguro con Ansible"
+, "Principio de mínimo privilegio en Ansible"
+, "Uso de Ansible Vault para un código seguro"
+, "Creación de contraseñas seguras en Ansible"
+, "Control de acceso en Ansible"
+, "Sistema de control de versiones para los playbooks de Ansible"
+, "Protocolos de comunicación segura en Ansible"
+, "Seguridad SSH en Ansible"
+, "Seguridad WinRM en Ansible"
+, "Certificados TLS en Ansible"
+, "Saneamiento de entradas de usuario en Ansible"
+, "Validación de entradas en Ansible"
+, "Gestión de errores en Ansible"
+, "Prácticas de codificación segura en Ansible"
+, "Prevención de la inyección de código en Ansible"
+, "Directrices de codificación segura para infraestructuras gestionadas por Ansible"
+, "Protección de la infraestructura de Ansible"</category><guid>https://es.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda las mejores prácticas para escribir código seguro con Ansible, una popular herramienta para la gestión de la configuración y el despliegue.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png"/></item><item><title>Introducción a Ansible: Automatización de la gestión de infraestructuras informáticas</title><link>https://es.simeononsecurity.com/articles/ansible-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Introducción a Ansible"
+, "Automatización de la gestión de infraestructuras informáticas"
+, "Conceptos básicos de Ansible"
+, "Automatización de infraestructuras informáticas"
+, "Gestión de la configuración"
+, "Despliegue de aplicaciones"
+, "Aprovisionamiento"
+, "Entrega continua"
+, "Cumplimiento de las normas de seguridad"
+, "Orquestación"
+, "YAML"
+, "Módulos Ansible"
+, "Funciones"
+, "Buenas prácticas"
+, "Control de versiones"
+, "Pruebas"
+, "Red Hat"
+, "Administradores de sistemas"
+, "Linux"
+, "macOS"
+, "Windows"
+, "Instalación de Ansible"
+, "Inventario Ansible"
+, "Manuales Ansible"
+, "Módulos Ansible"
+, "Funciones de Ansible"
+, "Mejores prácticas de Ansible"
+, "Pruebas de Ansible"
+, "Herramienta de automatización de infraestructuras informáticas"
+, "Tutorial de Ansible"
+, "Automatización de la gestión de infraestructuras"</category><guid>https://es.simeononsecurity.com/articles/ansible-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda los conceptos básicos de Ansible, una herramienta de automatización de código abierto que simplifica la gestión de la infraestructura de TI mediante un lenguaje declarativo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png"/></item><item><title>¿Debería aprender programación para informática y ciberseguridad?</title><link>https://es.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"Informática y ciberseguridad"
+, "Conocimientos de programación"
+, "Promoción profesional"
+, "Automatización"
+, "Línea de comandos"
+, "Scripting"
+, "Despliegue de infraestructuras"
+, "Análisis de datos"
+, "Pruebas de seguridad"
+, "Desarrollo profesional"</category><guid>https://es.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra por qué dominar las habilidades de programación puede beneficiar enormemente a su carrera en TI y ciberseguridad, y cómo empezar con PowerShell, Bash, Python, Ansible, Packer y Terraform.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item><item><title>Automatización del cumplimiento de las normas de seguridad con secuencias de comandos STIG</title><link>https://es.simeononsecurity.com/github/awesome-stigs/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"Guiones STIG"
+, "cumplimiento de las normas de seguridad"
+, "automatización"
+, "Windows"
+, "aplicaciones"
+, ".NET"
+, "Adobe Reader DC"
+, "Oracle JRE 8"
+, "FireFox"
+, "Manuales Ansible"
+, "preparación de dominios"
+, "Windows Defender"
+, "ciberseguridad"
+, "scripting"
+, "Cumplimiento de las STIG"
+, "gestión de la configuración"
+, "Seguridad informática"
+, "gestión de parches"
+, "administración del sistema"</category><guid>https://es.simeononsecurity.com/github/awesome-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra una colección de secuencias de comandos STIG para automatizar el cumplimiento de las normas de seguridad para Windows y aplicaciones populares, como .NET, Adobe Reader DC y Oracle JRE 8.</description></item><item><title>Maximizar la eficiencia con Ansible, Docker y Kubernetes: Una guía para la automatización de la ciberseguridad</title><link>https://es.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"Ansible"
+, "Docker"
+, "Kubernetes"
+, "Automatización de la ciberseguridad"
+, "Evaluaciones de vulnerabilidad"
+, "Gestión de parches"
+, "Orquestación de contenedores"
+, "Segmentación de la red"
+, "Control de acceso basado en funciones"
+, "Gestión secreta"
+, "Análisis de seguridad"
+, "Firma de imágenes"
+, "Herramientas de automatización"
+, "Infraestructura informática"
+, "Prevención de la violación de datos"
+, "Mejora de la eficiencia"
+, "Automatización de la seguridad"
+, "Gestión de la configuración"
+, "Despliegue de aplicaciones"
+, "Containerización"
+, "Seguridad de los contenedores"
+, "Sistemas escalables"
+, "Entornos seguros"
+, "Seguridad de las redes"
+, "Buenas prácticas de ciberseguridad"
+, "Reducción de riesgos"
+, "Gestión de la seguridad"
+, "Operaciones informáticas"
+, "Flujos de trabajo eficaces"
+, "Automatización de sistemas de seguridad"
+, "Eficiencia informática"</category><guid>https://es.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el poder de Ansible, Docker y Kubernetes para automatizar los procesos de ciberseguridad y reducir el riesgo de fugas de datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png"/></item><item><title>Hoy aprendí más módulos de Powershell y Ansible</title><link>https://es.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "PowerShell"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**&lt;/p>
+&lt;p>SimeonOnSecurity aprendió sobre Windows STIG Ansible y actualizó los repos relacionados. Además, estudió varios recursos de Microsoft y Ansible relacionados con powershell, remoting y ejecución de comandos shell/powershell en Windows usando módulos como invoke-command, start-process, win_powershell, win_shell, psexec y win_psexec.&lt;/p>
+&lt;h2 id="repos-nuevosactualizados">
+&lt;a href="#repos-nuevosactualizados" title="Repos nuevos/actualizados:">Repos nuevos/actualizados:&lt;/a>
+&lt;a href="#repos-nuevosactualizados" class="h-anchor" aria-hidden="true" title="Repos nuevos/actualizados:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="recursos-de-aprendizaje">
+&lt;a href="#recursos-de-aprendizaje" title="Recursos de Aprendizaje:">Recursos de Aprendizaje:&lt;/a>
+&lt;a href="#recursos-de-aprendizaje" class="h-anchor" aria-hidden="true" title="Recursos de Aprendizaje:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://es.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "Cumplimiento de las normas de seguridad"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**&lt;/p>
+&lt;p>SimeonOnSecurity aprendió y descubrió hoy varias cosas interesantes relacionadas con la seguridad en Windows y la automatización usando Ansible.&lt;/p>
+&lt;p>En primer lugar, se identificaron dos repositorios nuevos y actualizados. El repositorio windows_STIG_Ansible proporciona una solución completa para configurar sistemas Windows para cumplir con los requisitos de la Guía de Implementación Técnica de Seguridad (STIG), utilizando la plataforma de automatización Ansible. El repositorio windows_stigs es una colección de roles de Ansible para configurar sistemas Windows que cumplan los requisitos de la STIG, y está disponible en Ansible Galaxy, un repositorio central para compartir contenido de Ansible.&lt;/p></description></item><item><title>Hoy he aprendido a manipular y analizar JSON en PowerShell y Bash</title><link>https://es.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Seguridad de Windows"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad informática"
+, "Gestión de la configuración"
+, "DevOps"
+, "Administración de Windows"
+, "Configuración del sistema"</category><guid>https://es.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Lo que SimeonOnSecurity ha descubierto y encontrado interesante hoy&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ha actualizado una página de su sitio web y se ha enterado de algunos recursos que le parecen interesantes. La página actualizada es el resumen del Invite Challenge en HackTheBox. Esta página ofrece un análisis en profundidad del proceso de resolución del desafío tanto en sistemas Windows como Linux.&lt;/p>
+&lt;p>Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles. Uno de estos recursos es una entrada de blog de Cameron Nokes que se centra en el trabajo con JSON en bash utilizando la herramienta jq. La herramienta jq es una utilidad de línea de comandos que facilita el análisis, filtrado y manipulación de datos JSON.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VTPM on simeononsecurity</title><image><url>https://es.simeononsecurity.com/genre/vtpm//img/banner.png</url><title>VTPM on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/vtpm/</link></image><link>https://es.simeononsecurity.com/genre/vtpm/</link><description>Recent content in VTPM on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/vtpm/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatice la instalación de Windows 11: Eludir TPM, Secure Boot y comprobaciones de RAM</title><link>https://es.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Windows 11"
+, "Instalación"
+, "Virtualización"
+, "Automatización"
+, "Claves de registro"
+, "Bypass TPM"
+, "Anulación del arranque seguro"
+, "Bypass de RAM"
+, "vTPM"</category><guid>https://es.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Agilice la instalación de Windows 11 en entornos virtualizados evitando las comprobaciones de TPM, Secure Boot y RAM mediante autounattend.xml y vTPM.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Aumente la seguridad de las máquinas virtuales con vTPM: Guía paso a paso</title><link>https://es.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Virtualización"
+, "VMware"
+, "vSphere"
+, "Seguridad"
+, "Módulo de plataforma de confianza"
+, "vTPM"
+, "Invitado OS"
+, "Cifrado"
+, "Plataforma de certificación"</category><guid>https://es.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mejore la seguridad de las máquinas virtuales utilizando vTPM con nuestra completa guía paso a paso, que proporciona atestación de la plataforma y compatibilidad con el cifrado BitLocker.</description><enclosure url="https://es.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item></channel></rss>

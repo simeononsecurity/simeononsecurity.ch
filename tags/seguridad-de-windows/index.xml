@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguridad De Windows on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/seguridad-de-windows//img/banner.png</url><title>Seguridad De Windows on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/seguridad-de-windows/</link></image><link>https://es.simeononsecurity.com/tags/seguridad-de-windows/</link><description>Recent content in Seguridad De Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/seguridad-de-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatice la instalación de Windows 11: Eludir TPM, Secure Boot y comprobaciones de RAM</title><link>https://es.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Windows 11"
+, "Instalación"
+, "Virtualización"
+, "Automatización"
+, "Claves de registro"
+, "Bypass TPM"
+, "Anulación del arranque seguro"
+, "Bypass de RAM"
+, "vTPM"</category><guid>https://es.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Agilice la instalación de Windows 11 en entornos virtualizados evitando las comprobaciones de TPM, Secure Boot y RAM mediante autounattend.xml y vTPM.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Buenas prácticas básicas de Windows Hardening para asegurar Windows 10 y Windows 11</title><link>https://es.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Endurecimiento de Windows"
+, "Seguridad de Windows"
+, "Endurecimiento de Windows 10"
+, "Endurecimiento de Windows 11"
+, "Buenas prácticas de seguridad en Windows"
+, "Consejos de seguridad para Windows"
+, "Directrices de seguridad de Windows"
+, "Protección de los sistemas operativos Windows"
+, "Refuerzo del sistema Windows"
+, "Medidas de seguridad de Windows"</category><guid>https://es.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra estrategias eficaces para mejorar la seguridad de sus sistemas Windows 10 y Windows 11 mediante técnicas de refuerzo completas y prácticas recomendadas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>El papel de los lenguajes de programación en la ciberseguridad: Exploración de herramientas y aplicaciones clave</title><link>https://es.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link><pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate><category>
+"lenguajes de programación"
+, "ciberseguridad"
+, "herramientas clave"
+, "aplicaciones"
+, "sistemas seguros"
+, "seguridad de la red"
+, "aplicaciones web"
+, "evaluación de la vulnerabilidad"
+, "pruebas de penetración"
+, "codificación segura"
+, "seguridad del sistema"
+, "lenguajes de programación"
+, "automatización"
+, "comunicación segura"
+, "análisis de datos"
+, "aprendizaje automático"
+, "respuesta a incidentes"
+, "desarrollo de exploits"
+, "marcos de seguridad"
+, "endurecimiento del sistema"
+, "análisis de registros"
+, "Seguridad de Windows"
+, "protocolos de red"
+, "desarrollo web"
+, "prácticas de codificación seguras"
+, "servicios criptográficos"
+, "sandboxing"
+, "control de acceso"
+, "ingeniería inversa"
+, "detección de amenazas"
+, "gestión de la seguridad"</category><guid>https://es.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el papel fundamental de los lenguajes de programación en la ciberseguridad y profundice en sus aplicaciones, herramientas e importancia para la seguridad de los sistemas digitales.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png" length="329223" type="image/png"/></item><item><title>Automatización de actualizaciones de Windows con Ansible: una guía completa</title><link>https://es.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"automatizar las actualizaciones de Windows"
+, "Automatización ansible"
+, "gestión del sistema"
+, "parches de seguridad"
+, "esa infraestructura"
+, "automatización de red"
+, "gestión de la configuración"
+, "operaciones de TI"
+, "DevOps"
+, "la seguridad cibernética"
+, "automatización de TI"
+, "eficiencia de TI"
+, "Libro de jugadas de Ansible"
+, "seguridad de windows"
+, "gestión de actualizaciones"
+, "productividad de TI"
+, "mantenimiento de TI"
+, "Credenciales de Ansible"
+, "configuración de host"
+, "automatización del sistema"
+, "actualizaciones de windows"
+, "Administración del sistema de Windows"
+, "Parches de seguridad de Windows"
+, "Infraestructura de TI de Windows"
+, "Automatización de red de Windows"
+, "Gestión de la configuración de Windows"
+, "Operaciones de TI de Windows"
+, "DevOps de Windows"
+, "Ciberseguridad de Windows"
+, "Automatización de TI de Windows"
+, "Eficiencia de TI de Windows"</category><guid>https://es.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimice el proceso de actualización de los sistemas Windows mediante la automatización con Ansible: se incluyen instrucciones paso a paso y mejores prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png"/></item><item><title>Guía completa: Hashes de Archivos en Windows usando PowerShell</title><link>https://es.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><category>
+"hash de archivos"
+, "PowerShell"
+, "hash SHA256"
+, "hash MD5"
+, "hash SHA1"
+, "integridad de los archivos"
+, "autenticación de datos"
+, "verificación de archivos"
+, "algoritmos hash"
+, "Sistema operativo Windows"
+, "lenguaje de programación"
+, "shell de línea de comandos"
+, "seguridad de los datos"
+, "informática forense"
+, "ciberseguridad"
+, "cálculo de hash"
+, "manipulación de archivos"
+, "integridad de los datos"
+, "autenticidad del expediente"
+, "Seguridad de Windows"
+, "identificación de ficheros"
+, "ciberdefensa"
+, "seguridad de archivos"
+, "protección de datos"
+, "verificación de datos"
+, "validación de archivos"
+, "Windows PowerShell"
+, "generación de hash"
+, "algoritmos hash"
+, "funciones hash"</category><guid>https://es.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a obtener hashes de archivos en Windows mediante PowerShell, incluidos SHA256, MD5 y SHA1, con instrucciones paso a paso y ejemplos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png"/></item><item><title>El poder de la ciberseguridad: cómo crear un sistema Windows conforme y seguro con Standalone-Windows-STIG-Script</title><link>https://es.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"Guión STIG"
+, "Seguridad de Windows"
+, "Sistema Windows compatible"
+, "Endurecimiento del sistema"
+, "Windows STIG"
+, "Ventanas seguras"
+, "Cumplimiento de Windows"
+, "Instalación manual"
+, "Actualizaciones de Windows"
+, "Adobe Reader"
+, "Firefox"
+, "Cromo"
+, "Internet Explorer 11"
+, "Marco .NET"
+, "Oficina"
+, "OneDrive"
+, "Java"
+, "Windows Defender"
+, "Cortafuegos de Windows"
+, "Mitigación"
+, "Nessus PID"
+, "Horizonte VMware"
+, "Endurecimiento opcional"</category><guid>https://es.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo crear un sistema Windows seguro y conforme a las normas con el sencillo Standalone-Windows-STIG-Script, un artículo informativo con instrucciones paso a paso y explicaciones detalladas de los parámetros.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png" length="225153" type="image/png"/></item><item><title>Hoy he aprendido más sobre la creación y aplicación de políticas del WDAC</title><link>https://es.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Seguridad de Windows"
+, "Control de aplicaciones"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protección frente a amenazas"
+, "Windows Server 2019"
+, "Seguridad de las empresas"
+, "Gestión de políticas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hoy he aprendido más sobre los condicionales de Ansible y la gestión de variables</description></item><item><title>Hoy aprendí más módulos de Powershell y Ansible</title><link>https://es.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "PowerShell"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**&lt;/p>
+&lt;p>SimeonOnSecurity aprendió sobre Windows STIG Ansible y actualizó los repos relacionados. Además, estudió varios recursos de Microsoft y Ansible relacionados con powershell, remoting y ejecución de comandos shell/powershell en Windows usando módulos como invoke-command, start-process, win_powershell, win_shell, psexec y win_psexec.&lt;/p>
+&lt;h2 id="repos-nuevosactualizados">
+&lt;a href="#repos-nuevosactualizados" title="Repos nuevos/actualizados:">Repos nuevos/actualizados:&lt;/a>
+&lt;a href="#repos-nuevosactualizados" class="h-anchor" aria-hidden="true" title="Repos nuevos/actualizados:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="recursos-de-aprendizaje">
+&lt;a href="#recursos-de-aprendizaje" title="Recursos de Aprendizaje:">Recursos de Aprendizaje:&lt;/a>
+&lt;a href="#recursos-de-aprendizaje" class="h-anchor" aria-hidden="true" title="Recursos de Aprendizaje:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://es.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "Cumplimiento de las normas de seguridad"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**&lt;/p>
+&lt;p>SimeonOnSecurity aprendió y descubrió hoy varias cosas interesantes relacionadas con la seguridad en Windows y la automatización usando Ansible.&lt;/p>
+&lt;p>En primer lugar, se identificaron dos repositorios nuevos y actualizados. El repositorio windows_STIG_Ansible proporciona una solución completa para configurar sistemas Windows para cumplir con los requisitos de la Guía de Implementación Técnica de Seguridad (STIG), utilizando la plataforma de automatización Ansible. El repositorio windows_stigs es una colección de roles de Ansible para configurar sistemas Windows que cumplan los requisitos de la STIG, y está disponible en Ansible Galaxy, un repositorio central para compartir contenido de Ansible.&lt;/p></description></item><item><title>Automatice el cumplimiento de Windows con los Playbooks de Ansible STIG</title><link>https://es.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Cumplimiento de Windows"
+, "Guías STIG de Ansible"
+, "Endurecimiento de ventanas"
+, "Guiones STIG"
+, "Cumplimiento STIG"
+, "galaxia ansible"
+, "Potencia Shell"
+, "Guión de PowerShell"
+, "Servidor de windows"
+, "Defensor de Windows"
+, ".NETO"
+, "zorro de fuego"
+, "Oracle JRE 8"
+, "Adobe Reader CC"
+, "Conectividad a Internet"
+, "Compatibilidad sin conexión"
+, "Endurecimiento de la seguridad"
+, "Seguridad de Windows"</category><guid>https://es.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimice su cumplimiento de seguridad con Ansible STIG Playbooks para sistemas Windows.</description></item><item><title>Maximice la Auditoría de Windows con el Script de Políticas de Auditoría de Windows</title><link>https://es.simeononsecurity.com/github/windows-audit-policy/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><category>
+"Política de auditoría de Windows"
+, "Auditoría de Windows"
+, "seguridad"
+, "control"
+, "auditpol"
+, "Comandos de Windows"
+, "Seguridad de Windows"
+, "configuración de auditoría"
+, "políticas de seguridad"
+, "registros de eventos"
+, "supervisión del sistema"
+, "Servidor Windows"
+, "buenas prácticas de seguridad"
+, "ciberseguridad"
+, "análisis de registros"
+, "cumplimiento de las normas de seguridad"
+, "respuesta a incidentes"
+, "herramientas de supervisión de la seguridad"
+, "acceso privilegiado"
+, "Administración de Windows"
+, "scripting"
+, "administración del sistema"
+, "seguridad de la información"
+, "auditoría de conformidad"
+, "Endurecimiento de Windows"
+, "controles de seguridad"
+, "automatización de la seguridad"
+, "gestión de registros"
+, "Configuración de seguridad de Windows"</category><guid>https://es.simeononsecurity.com/github/windows-audit-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a maximizar la auditoría de Windows implementando la secuencia de comandos de la directiva de auditoría de Windows para mejorar la seguridad y la supervisión.</description></item><item><title>Hoy he aprendido a manipular y analizar JSON en PowerShell y Bash</title><link>https://es.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Seguridad de Windows"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad informática"
+, "Gestión de la configuración"
+, "DevOps"
+, "Administración de Windows"
+, "Configuración del sistema"</category><guid>https://es.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Lo que SimeonOnSecurity ha descubierto y encontrado interesante hoy&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ha actualizado una página de su sitio web y se ha enterado de algunos recursos que le parecen interesantes. La página actualizada es el resumen del Invite Challenge en HackTheBox. Esta página ofrece un análisis en profundidad del proceso de resolución del desafío tanto en sistemas Windows como Linux.&lt;/p>
+&lt;p>Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles. Uno de estos recursos es una entrada de blog de Cameron Nokes que se centra en el trabajo con JSON en bash utilizando la herramienta jq. La herramienta jq es una utilidad de línea de comandos que facilita el análisis, filtrado y manipulación de datos JSON.&lt;/p></description></item><item><title>Optimice y endurezca su sistema Windows con el script Windows-Optimize-Harden-Debloat</title><link>https://es.simeononsecurity.com/github/windows-optimize-harden-debloat/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><category>
+"optimización de Windows"
+, "Endurecimiento de ventanas"
+, "Deshinchamiento de Windows"
+, "seguridad de windows"
+, "Rendimiento de Windows"
+, "Privacidad de Windows"
+, "actualizaciones de windows"
+, "Objetos de directiva de grupo"
+, "lector Adobe Acrobat"
+, "Firefox"
+, "Google Chrome"
+, "explorador de Internet"
+, "Borde de cromo de Microsoft"
+, "red de puntos 4"
+, "oficina de microsoft"
+, "Onedrive"
+, "Oracle Java JRE 8"
+, "firewall de Windows"
+, "Defensor de Windows"
+, "bloqueador de aplicaciones"</category><guid>https://es.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esta completa guía brinda instrucciones paso a paso sobre cómo optimizar, fortalecer y eliminar la carga de su sistema Windows para mejorar el rendimiento, la seguridad y la privacidad.</description></item><item><title>Automatice el cumplimiento de Windows Defender con PowerShell Script</title><link>https://es.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Potencia Shell"
+, "Guión de PowerShell"
+, "Automatización"
+, "Cumplimiento"
+, "Equipo azul"
+, "Secuencia de comandos STIG de Windows Defender"
+, "Defensor de Windows"
+, "Endurecimiento de Windows Defender"
+, "STIG de Windows Defender"
+, "Defensor STIG"
+, "Seguridad"
+, "La seguridad cibernética"
+, "STIG"
+, "Seguridad de Windows"
+, "antivirus de windows"
+, "Secuencias de comandos de Windows"
+, "Automatización de Windows"
+, "Endurecimiento de ventanas"
+, "Automatización de Windows Defender"
+, "Cumplimiento de Windows Defender"</category><guid>https://es.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mejore su seguridad con el script STIG PowerShell de Windows Defender, que automatiza el cumplimiento de las pautas STIG de Windows Defender Antivirus V1R9.</description></item><item><title>Windows Hardening CTF: Refuerce la seguridad de su dispositivo Windows para eventos de Captura de la Bandera</title><link>https://es.simeononsecurity.com/github/windows-hardening-ctf/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><category>
+"Endurecimiento de Windows"
+, "Seguridad de Windows"
+, "script"
+, "Dispositivo Windows"
+, "símbolo del sistema"
+, "LLMNR"
+, "PowerShell"
+, "PYME"
+, "Marcas de tiempo TCP"
+, "AppLocker"
+, "Registro de Windows"
+, "DEP"
+, "Configuraciones EMET"
+, "Modo de lenguaje restringido de PowerShell"
+, "Cifrado SMB"
+, "Mitigación de Spectre y Meltdown"
+, "Windows Defender"
+, "Cortafuegos de Windows"
+, "PSWindowsUpdate"
+, "Actualizaciones de Windows"
+, "script de endurecimiento"
+, "Políticas recomendadas por la ANS"
+, "Registro y controles de seguridad de Windows"
+, "Control de aplicaciones de Windows Defender"
+, "Procedimientos de reducción de la superficie de ataque de Windows Defender"
+, "Protecciones basadas en la nube de Windows Defender"
+, "Protecciones contra exploits de Windows Defender"
+, "Instalación de PSWindowsUpdate"
+, "Mejora de la seguridad de los dispositivos Windows"
+, "Medidas de protección de Windows"
+, "reforzar la seguridad de Windows"</category><guid>https://es.simeononsecurity.com/github/windows-hardening-ctf/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra una potente secuencia de comandos que mejora la seguridad de Windows mediante la aplicación de varias medidas de refuerzo para impedir el compromiso.</description></item></channel></rss>

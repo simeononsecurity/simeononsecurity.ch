@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control De Las Fuentes on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/control-de-las-fuentes//img/banner.png</url><title>Control De Las Fuentes on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/control-de-las-fuentes/</link></image><link>https://es.simeononsecurity.com/tags/control-de-las-fuentes/</link><description>Recent content in Control De Las Fuentes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/control-de-las-fuentes/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC: Guía de inicio</title><link>https://es.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Gestión de la configuración"
+, "Automatización"
+, "Windows"
+, "Administración del sistema"
+, "Buenas prácticas"
+, "Conformidad"
+, "Seguridad"
+, "Infraestructura"
+, "DevOps"
+, "Configuración del servidor"
+, "Pruebas"
+, "Git"
+, "Control de las fuentes"
+, "Normativa gubernamental"
+, "NIST"
+, "CIS"
+, "Deriva de configuración"
+, "Recursos personalizados"</category><guid>https://es.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore el poder de PowerShell Desired State Configuration (DSC) para automatizar y gestionar las configuraciones del sistema para un entorno seguro y conforme.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item></channel></rss>

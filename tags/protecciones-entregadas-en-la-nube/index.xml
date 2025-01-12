@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protecciones Entregadas en La Nube on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/protecciones-entregadas-en-la-nube//img/banner.png</url><title>Protecciones Entregadas en La Nube on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/protecciones-entregadas-en-la-nube/</link></image><link>https://es.simeononsecurity.com/tags/protecciones-entregadas-en-la-nube/</link><description>Recent content in Protecciones Entregadas en La Nube on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/protecciones-entregadas-en-la-nube/index.xml" rel="self" type="application/rss+xml"/><item><title>Mejora de la seguridad de Windows 10 con Defender Hardening Script</title><link>https://es.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Defensor de Windows"
+, "ventanas 10"
+, "Seguridad de Windows 10"
+, "Guión de PowerShell"
+, "Endurecimiento"
+, "Endurecimiento del defensor"
+, "Automatización de seguridad"
+, "Cumplimiento"
+, "Acceso controlado a carpetas"
+, "Sistema de Prevención de Intrusión"
+, "Control de aplicaciones"
+, "Reducción de superficie de ataque"
+, "Protecciones contra exploits"
+, "Protecciones entregadas en la nube"
+, "Protecciones de red"
+, "Secuencia de comandos STIG de Windows Defender"
+, "STIG de Windows Defender"
+, "Antivirus de Windows Defender STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://es.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a mejorar la seguridad de Windows 10 con un script de PowerShell que fortalece Windows Defender Antivirus, implementando todos los requisitos de Windows Defender Antivirus STIG V2R1.</description></item></channel></rss>
