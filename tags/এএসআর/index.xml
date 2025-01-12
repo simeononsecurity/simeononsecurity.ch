@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>এএসআর on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%8F%E0%A6%B8%E0%A6%86%E0%A6%B0//img/banner.png</url><title>এএসআর on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%8F%E0%A6%B8%E0%A6%86%E0%A6%B0/</link></image><link>https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%8F%E0%A6%B8%E0%A6%86%E0%A6%B0/</link><description>Recent content in এএসআর on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/%E0%A6%8F%E0%A6%8F%E0%A6%B8%E0%A6%86%E0%A6%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>ডিফেন্ডার হার্ডেনিং স্ক্রিপ্ট সহ উইন্ডোজ 10 সুরক্ষা উন্নত করা</title><link>https://bn.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"উইন্ডোজ ডিফেন্ডার"
+, "উইন্ডোজ 10"
+, "উইন্ডোজ 10 নিরাপত্তা"
+, "পাওয়ারশেল স্ক্রিপ্ট"
+, "শক্ত করা"
+, "ডিফেন্ডার হার্ডেনিং"
+, "নিরাপত্তা অটোমেশন"
+, "সম্মতি"
+, "নিয়ন্ত্রিত ফোল্ডার অ্যাক্সেস"
+, "অনুপ্রবেশের প্রতিরোধ সিস্টেম"
+, "অ্যাপ্লিকেশন নিয়ন্ত্রণ"
+, "আক্রমণ সারফেস হ্রাস"
+, "শোষণ সুরক্ষা"
+, "ক্লাউড-ডেলিভারড সুরক্ষা"
+, "নেটওয়ার্ক সুরক্ষা"
+, "উইন্ডোজ ডিফেন্ডার STIG স্ক্রিপ্ট"
+, "উইন্ডোজ ডিফেন্ডার STIG"
+, "উইন্ডোজ ডিফেন্ডার অ্যান্টিভাইরাস STIG V2R1"
+, "WDAC"
+, "এএসআর"</category><guid>https://bn.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+উইন্ডোজ ডিফেন্ডার অ্যান্টিভাইরাস STIG V2R1-এর সমস্ত প্রয়োজনীয়তা বাস্তবায়ন করে, Windows Defender অ্যান্টিভাইরাসকে শক্ত করে এমন PowerShell স্ক্রিপ্টের সাহায্যে কীভাবে Windows 10 নিরাপত্তা বাড়ানো যায় তা শিখুন।</description></item></channel></rss>
