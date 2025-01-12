@@ -195,6 +195,36 @@ Copy the following string and append your token that you got from the dashboard 
 docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
 
+### [Install Packetshare](https://www.packetshare.io/?code=2B1151EF76417143):
+[*Share your internet connection and make money online*](https://www.packetshare.io/?code=2B1151EF76417143)
+
+Similar to other bandwidth-sharing platforms, Packetshare pays you for sharing your internet connection. Ensure you comply with their Terms of Use to avoid account suspension.
+
+#### Create your Packetshare Account:
+Create your account at [https://www.packetshare.io](https://www.packetshare.io/?code=2B1151EF76417143).  
+Once you register, make note of your credentials (username and password) for setting up the service.
+
+#### Review the Terms of Service:
+Before running the Packetshare Docker image, you must read and accept the Terms of Use. To get the current Terms of Service, run the following command in your terminal:
+
+```bash
+docker run packetshare/packetshare -show-tos
+```
+
+#### Install the Docker Container:
+Copy and paste the following command into your terminal, replacing `USERNAME` and `PASSWORD` with your Packetshare account credentials:
+
+```bash
+docker run --restart unless-stopped packetshare/packetshare -accept-tos -email=USERNAME -password=PASSWORD
+```
+
+- Make sure to assign a different public IP address to each Docker container you set up.
+- After starting the application, your new device should appear in your Packetshare dashboard.
+
+#### Important Notes:
+- Packetshare CLI follows the same restrictions as regular applications (e.g., device limits per IP address, network type checks).  
+- Breaching Packetshare’s [Terms of Use](https://www.packetshare.io/ucenter.html?code=2B1151EF76417143) will result in account suspension.
+
 ### Install ProxyLite:
 [*Monetizing your Internet traffic by giving verified organizations the use of your Internet bandwidth*](https://proxylite.ru/?r=6AN2RKWB&utm_source=dockerguide)
 
@@ -339,7 +369,7 @@ iptables -A INPUT -m set --match-set tor src -j DROP
 ```
 
 
-#### Docker Compose:
+#### Docker Compose (Outdated):
 To run all of these containers in one go, assuming you have all of your accounts and ids notated, you can update the following [`docker-compose.yml`](https://github.com/OlivierGaland/CashFactory/blob/main/docker-compose.yml):
 ```yaml
 version: '3.5'
