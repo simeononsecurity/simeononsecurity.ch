@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STIG on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/stig//img/banner.png</url><title>STIG on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/stig/</link></image><link>https://ca.simeononsecurity.com/tags/stig/</link><description>Recent content in STIG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/stig/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatitzeu el compliment de Windows Defender amb PowerShell Script</title><link>https://ca.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Script de PowerShell"
+, "Automatització"
+, "Compliment"
+, "Blue-Equip"
+, "Windows Defender STIG Script"
+, "Windows Defender"
+, "Enduriment de Windows Defender"
+, "Windows Defender STIG"
+, "Defensor STIG"
+, "Seguretat"
+, "Seguretat cibernètica"
+, "STIG"
+, "Seguretat de Windows"
+, "Antivirus de Windows"
+, "Windows Scripting"
+, "Automatització de Windows"
+, "Enduriment de finestres"
+, "Automatització de Windows Defender"
+, "Compliment de Windows Defender"</category><guid>https://ca.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Milloreu la vostra seguretat amb l'script de Windows Defender STIG PowerShell, que automatitza el compliment de les directrius STIG de Windows Defender Antivirus V1R9.</description></item></channel></rss>

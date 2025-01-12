@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RsaCtfTool on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/rsactftool//img/banner.png</url><title>RsaCtfTool on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/rsactftool/</link></image><link>https://ca.simeononsecurity.com/tags/rsactftool/</link><description>Recent content in RsaCtfTool on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><atom:link href="https://ca.simeononsecurity.com/tags/rsactftool/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenge - Crypto - RSA feble</title><link>https://ca.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "Desafiaments"
+, "Cripto"
+, "RSA feble"
+, "RsaCtfTool"
+, "HTB Weak RSA Crypto"
+, "Repte fàcil"
+, "Xifrat RSA"
+, "flag.enc"
+, "key.pub"
+, "Paquet OpenSSL"
+, "eina automatitzada d'atac RSA"
+, "script python"
+, "RsaCtfTool"
+, "python3"
+, "clau pública"
+, "desxifrar fitxer"
+, "Exemple de bandera"</category><guid>https://ca.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a utilitzar una eina d'atac RSA automatitzada, RsaCtfTool, per resoldre fàcilment el repte HackTheBox Weak RSA Crypto.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item></channel></rss>

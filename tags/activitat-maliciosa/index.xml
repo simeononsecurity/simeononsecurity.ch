@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Activitat Maliciosa on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/activitat-maliciosa//img/banner.png</url><title>Activitat Maliciosa on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/activitat-maliciosa/</link></image><link>https://ca.simeononsecurity.com/tags/activitat-maliciosa/</link><description>Recent content in Activitat Maliciosa on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/activitat-maliciosa/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: simplifica el desplegament i la configuració de Sysmon</title><link>https://ca.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automatitzar Sysmon"
+, "Com automatitzar Sysmon"
+, "Com automatitzar la configuració de Sysmon"
+, "Com instal·lar Sysmon"
+, "Powershell"
+, "Guió"
+, "Desplegament de Sysmon"
+, "Configuració Sysmon"
+, "Registre de Sysmon"
+, "Detecció d'amenaces"
+, "Activitat maliciosa"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "Repositori GitHub"
+, "BHIS"
+, "Monitorització del sistema"
+, "Recerca de seguretat"
+, "Creació de processos"
+, "Connexions de xarxa"</category><guid>https://ca.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a implementar i configurar Sysmon per millorar la seguretat del vostre sistema amb l'script Automate-Sysmon, que simplifica el procés fins i tot per als usuaris novells.</description></item></channel></rss>
