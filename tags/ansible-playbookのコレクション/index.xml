@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible Playbookのコレクション on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/ansible-playbook%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3//img/banner.png</url><title>Ansible Playbookのコレクション on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/ansible-playbook%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link></image><link>https://ja.simeononsecurity.com/tags/ansible-playbook%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link><description>Recent content in Ansible Playbookのコレクション on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/ansible-playbook%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>今日はAnsibleの条件分岐と変数管理について詳しく学びました</title><link>https://ja.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "アンシブル"
+, "コンフィギュレーションマネジメント"
+, "ITインフラ"
+, "デブオプス"
+, "プレイブック開発"
+, "バリアブルマネジメント"
+, "条件付き実行"</category><guid>https://ja.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日はAnsibleの条件分岐と変数管理について詳しく学びました</description></item></channel></rss>

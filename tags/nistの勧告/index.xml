@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NISTの勧告 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/nist%E3%81%AE%E5%8B%A7%E5%91%8A//img/banner.png</url><title>NISTの勧告 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/nist%E3%81%AE%E5%8B%A7%E5%91%8A/</link></image><link>https://ja.simeononsecurity.com/tags/nist%E3%81%AE%E5%8B%A7%E5%91%8A/</link><description>Recent content in NISTの勧告 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/nist%E3%81%AE%E5%8B%A7%E5%91%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>ワークステーションの安全性を確保する：NISTの勧告に基づくガイド</title><link>https://ja.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"NISTの勧告"
+, "ワークステーションセキュリティ"
+, "サイバーセキュリティ"
+, "データあんごうか"
+, "ファイアウォールプロテクション"
+, "アンチウイルスソフト"
+, "アクセス制御"
+, "機密情報"
+, "サイバー攻撃"
+, "データバックアップ"</category><guid>https://ja.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この包括的なガイドでは、強力なアクセス制御の実装、ソフトウェアの最新状態の維持、ウイルス対策ソフトウェアの使用、ファイアウォール保護の有効化、データ暗号化の実装、データの定期的なバックアップなど、NISTの推奨事項に基づき、ワークステーションを保護し機密情報を保護する方法をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_their_workstation.png" length="285103" type="image/png"/></item></channel></rss>

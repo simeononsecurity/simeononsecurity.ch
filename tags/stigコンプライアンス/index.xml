@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STIGコンプライアンス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/stig%E3%82%B3%E3%83%B3%E3%83%97%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9//img/banner.png</url><title>STIGコンプライアンス on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/stig%E3%82%B3%E3%83%B3%E3%83%97%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/tags/stig%E3%82%B3%E3%83%B3%E3%83%97%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9/</link><description>Recent content in STIGコンプライアンス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/stig%E3%82%B3%E3%83%B3%E3%83%97%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>STIGスクリプトによるセキュリティ・コンプライアンスの自動化</title><link>https://ja.simeononsecurity.com/github/awesome-stigs/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"STIGスクリプト"
+, "セキュリティコンプライアンス"
+, "オートメーション"
+, "ウィンドウズ"
+, "アプリケーション"
+, ".NET"
+, "アドビリーダーDC"
+, "オラクル JRE 8"
+, "ファイヤーフォックス"
+, "Ansibleプレイブック"
+, "ドメイン準備"
+, "ウィンドウズ・ディフェンダー"
+, "サイバーセキュリティ"
+, "スクリプト"
+, "STIGコンプライアンス"
+, "構成管理"
+, "ITセキュリティ"
+, "パッチ管理"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/github/awesome-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows や、.NET、Adobe Reader DC、Oracle JRE 8 などの一般的なアプリケーションのセキュリティ・コンプライアンスを自動化する STIG スクリプトのコレクションをご覧ください。</description></item><item><title>今日はPowerShellとBashでJSONを操作してパースする方法を学びました。</title><link>https://ja.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "Windowsのセキュリティ"
+, "Ansible Playbooks（アンシブル プレイブック"
+, "Ansibleコレクション"
+, "ITセキュリティ"
+, "コンフィギュレーションマネジメント"
+, "デブオプス"
+, "ウィンドウズ・アドミニストレーション"
+, "システム構成"</category><guid>https://ja.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurityが今日知ったこと、興味を持ったこと&lt;/strong>。&lt;/p>
+&lt;p>SimeonOnSecurityは、彼のウェブサイトのページを更新し、彼が興味深いと思ういくつかのリソースについて学びました。更新されたページは、HackTheBoxのInvite Challengeの書き出しです。このページでは、WindowsとLinuxの両方のシステムで課題を解決するプロセスの詳細な分析が行われています。&lt;/p>
+&lt;p>SimeonOnSecurityは、更新されたページに加えて、いくつかの有用な学習リソースも発見しました。そのリソースの1つが、Cameron Nokes氏によるブログ記事で、jqツールを使ってbashでJSONを扱うことに焦点を当てています。jqツールは、JSONデータの解析、フィルタリング、操作を簡単に行うことができるコマンドラインユーティリティです。&lt;/p>
+&lt;p>もう2つのリソースは、PowerShellでのJSONデータの変換に関連するものです。Microsoftのドキュメントには、ConvertFrom-JsonおよびConvertTo-Jsonコマンドレットに関する情報が記載されています。これらのコマンドレットを使用すると、JSONデータをPowerShellオブジェクトに変換したり、PowerShellオブジェクトから変換したりすることができ、データの操作や分析が容易になります。&lt;/p>
+&lt;h2 id="updated-pages">
+&lt;a href="#updated-pages" title="Updated Pages：">Updated Pages：&lt;/a>
+&lt;a href="#updated-pages" class="h-anchor" aria-hidden="true" title="Updated Pages：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="HackTheBox - Invite Challenge (Windows/Linux)">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/">
+&lt;a href="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/"
+rel="follow me"
+>HackTheBox - Invite Challenge (Windows/Linux)&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ラーニングリソース">
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" title="ラーニング・リソース">ラーニング・リソース&lt;/a>
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" class="h-anchor" aria-hidden="true" title="ラーニング・リソース">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Cameron Nokes - Working with JSON in bash using jq">
+&lt;meta itemprop="url" content="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/">
+&lt;a href="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/"
+rel="noopener external" target="_blank"
+>Cameron Nokes - Working with JSON in bash using jq&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertFrom-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertFrom-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertTo-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertTo-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>パズルを解く on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%83%91%E3%82%BA%E3%83%AB%E3%82%92%E8%A7%A3%E3%81%8F//img/banner.png</url><title>パズルを解く on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%91%E3%82%BA%E3%83%AB%E3%82%92%E8%A7%A3%E3%81%8F/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%91%E3%82%BA%E3%83%AB%E3%82%92%E8%A7%A3%E3%81%8F/</link><description>Recent content in パズルを解く on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%91%E3%82%BA%E3%83%AB%E3%82%92%E8%A7%A3%E3%81%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - チャレンジ - 暗号化 - 通話</title><link>https://ja.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"ハックザボックス"
+, "クリプトチャレンジ"
+, "DTMF トーン"
+, "素数暗号"
+, "復号化"
+, "パズルを解く"
+, "暗号化"
+, "オーディオ変換"
+, "ダイヤルABC"
+, "デコード.fr"
+, "WAV"
+, "MP3"
+, "周波数"
+, "数学的特性"
+, "国旗"
+, "大胆さ"
+, "ソニックビジュアライザー"
+, "数字"
+, "現金自動預け払い機メニュー"
+, "公衆電話"</category><guid>https://ja.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+HackTheBox の Crypto - Call チャレンジを解決するために、素数暗号を使用して DTMF トーンを復号する方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png"/></item></channel></rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>侵入検知システム on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E4%BE%B5%E5%85%A5%E6%A4%9C%E7%9F%A5%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0//img/banner.png</url><title>侵入検知システム on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E4%BE%B5%E5%85%A5%E6%A4%9C%E7%9F%A5%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</link></image><link>https://ja.simeononsecurity.com/tags/%E4%BE%B5%E5%85%A5%E6%A4%9C%E7%9F%A5%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</link><description>Recent content in 侵入検知システム on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E4%BE%B5%E5%85%A5%E6%A4%9C%E7%9F%A5%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>セキュアなクラウドソリューションAWS vs. Azure vs. Google Cloud Platform - ビジネスに最適なクラウドソリューションの選択</title><link>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"クラウド・コンピューティング"
+, "クラウドセキュリティ"
+, "AWS"
+, "アジュール"
+, "グーグル・クラウド・プラットフォーム"
+, "データ・セキュリティ"
+, "暗号化"
+, "アイデンティティとアクセス管理"
+, "コンプライアンス"
+, "脅威の検出"</category><guid>https://ja.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AWS、Azure、Google Cloud Platformのトップクラスのクラウドセキュリティ機能と認定をご覧いただき、ビジネスに最適なセキュアなクラウドソリューションをお選びください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png"/></item><item><title>PowerShellでセキュアコーディングを行うためのベストプラクティス：ガイド</title><link>https://ja.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><category>
+"パワーシェル"
+, "セキュアコーディング"
+, "Windowsベースのシステム"
+, "入力バリデーション"
+, "暗号ライブラリ"
+, "最少特権"
+, "スタティックコードアナライザー"
+, "セキュアな通信プロトコル"
+, "ロギングとモニタリング"
+, "脆弱性スキャン"
+, "教育"
+, "インジェクションコード"
+, "特権のエスカレーション"
+, "データ漏えい"
+, "ハード化環境"
+, "セキュリティポリシー"
+, "ファイアウォール"
+, "侵入検知システム"
+, "脆弱性管理"
+, "ネットワークセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windowsベースのシステムをセキュリティの脆弱性から保護するために、安全なPowerShellコードを記述するためのベストプラクティスを学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png"/></item></channel></rss>

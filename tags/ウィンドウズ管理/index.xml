@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ウィンドウズ管理 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E7%AE%A1%E7%90%86//img/banner.png</url><title>ウィンドウズ管理 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E7%AE%A1%E7%90%86/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E7%AE%A1%E7%90%86/</link><description>Recent content in ウィンドウズ管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://ja.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "アンシブル"
+, "Ansible Playbooks"
+, "Ansibleコレクション"
+, "Windowsセキュリティ"
+, "ウィンドウズ管理"
+, "セキュリティ・コンプライアンス"
+, "ITオートメーション"
+, "コンフィギュレーション管理"</category><guid>https://ja.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurityが今日知り、面白いと思ったこと**。&lt;/p>
+&lt;p>SimeonOnSecurityは今日、WindowsのセキュリティとAnsibleを使った自動化に関するいくつかの興味深いことを学び、発見した。&lt;/p>
+&lt;p>まず、2つの新しく更新されたリポジトリが確認された。Windows_STIG_Ansible リポジトリは、Ansible 自動化プラットフォームを使用して、Windows システムをセキュリティ技術実装ガイド (STIG) 要件を満たすように構成するための完全なソリューションを提供します。windows_stigsリポジトリは、STIG要件を満たすためにWindowsシステムを構成するためのAnsibleロールのコレクションであり、Ansibleコンテンツを共有するための中央リポジトリであるAnsible Galaxyで利用できます。&lt;/p>
+&lt;p>SimeonOnSecurityは、AnsibleによるWindows自動化に関連する学習リソースもいくつか見つけました。ansible.windows.win_copyモジュールのドキュメントには、Ansibleを使用してWindowsシステム上でファイルをコピーする方法に関する情報が記載されています。ansible blocksドキュメントは、複数のタスクをグループ化し、条件付き実行を適用できるAnsibleの強力な機能であるブロックの使用方法に関する情報を提供します。ansible galaxy ユーザー・ガイド』には、Ansible Galaxy の使用方法に関する情報が記載されており、『ansible installing content』には、Ansible Galaxy からコンテンツをインストールする方法に関する情報が記載されています。&lt;/p>
+&lt;h2 id="新規更新レポ">
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" title="新規/更新レポ">新規/更新レポ&lt;/a>
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" class="h-anchor" aria-hidden="true" title="新規/更新レポ">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;p>#学習リソース&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_copy module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_copy module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible blocks">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+>ansible blocks&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible galaxy user guide">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+>ansible galaxy user guide&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible installing content">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html">
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+>ansible installing content&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

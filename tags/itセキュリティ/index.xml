@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITセキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/it%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3//img/banner.png</url><title>ITセキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/it%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/tags/it%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in ITセキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/it%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>サイバーセキュリティ認定資格におけるPBQの意義：理論と実践の架け橋</title><link>https://ja.simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><category>
+"PBQs"
+, "パフォーマンス・ベースド・クエスチョン"
+, "サイバーセキュリティ認定資格"
+, "実技"
+, "じつぶつのもんだいかいけつ"
+, "シミュレーションPBQ"
+, "バーチャルPBQ"
+, "試験対策"
+, "サイバーセキュリティプロフェッショナル"
+, "実地体験"
+, "検定試験"
+, "CompTIA"
+, "ITセキュリティ"
+, "サイバー脅威"
+, "批判的思考"
+, "きれあじ"
+, "業界関連性"
+, "サイバーセキュリティーの動向"
+, "業界標準"
+, "NIST Cybersecurity Framework"
+, "シーサ"
+, "全米標準技術協会"
+, "サイバーセキュリティ評価"
+, "サイバーセキュリティ教育"
+, "情報セキュリティ"
+, "セキュリティプロバイダ"
+, "サイバーセキュリティジョブマーケット"
+, "IT資格"
+, "サイバーセキュリティスキル"
+, "ネットワークセキュリティ"</category><guid>https://ja.simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/performance-based-questions-pbqs-and-cybersecurity-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティ資格におけるパフォーマンス・ベースド・クエスチョン（PBQ）の台頭と、実践的なスキルや現実の問題解決能力を評価する上でのその役割を探る。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png" length="245699" type="image/png"/></item><item><title>Security+とSSCP：どちらのサイバーセキュリティ認定資格が頂点に君臨するのか？</title><link>https://ja.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "情報セキュリティ"
+, "認証比較"
+, "ITキャリア"
+, "業界からの評価"
+, "求人情報"
+, "ネットワークセキュリティ"
+, "システムセキュリティ"
+, "CompTIA"</category><guid>https://ja.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Security+とSSCPの認定資格を比較し、就職の機会、業界での認知度、包括的な知識の網羅性を求めるサイバーセキュリティ専門家にとって最適な選択を決定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png" length="384328" type="image/png"/></item><item><title>効果的なアクセスコントロール：ITセキュリティのためのベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link><pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate><category>
+"アクセスコントロール"
+, "ITセキュリティ"
+, "サイバーセキュリティ"
+, "パスワード"
+, "バイオメトリクス認証"
+, "ロールベースのアクセスコントロール"
+, "多要素認証"
+, "データ保護"
+, "リスクアセスメント"
+, "社員教育"
+, "監査ツール"
+, "レポーティングツール"
+, "ペネトレーションテスト"
+, "脆弱性評価"
+, "物理的なアクセスコントロール"
+, "論理的なアクセス制御"
+, "コンプライアンス規制"
+, "ヒパア"
+, "GDPR"</category><guid>https://ja.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IT環境に効果的なアクセスコントロールを導入し、機密データやシステムを保護する方法をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.png" length="457237" type="image/png"/></item><item><title>サイバーセキュリティ保険の選び方：適切な保険への包括的なガイド</title><link>https://ja.simeononsecurity.com/articles/the-importance-of-cybersecurity-insurance-and-how-to-choose-the-right-policy/</link><pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ保険"
+, "データ保護"
+, "リスクマネージメント"
+, "サイバーセキュリティ政策"
+, "データ機密保護"
+, "サイバー攻撃"
+, "サイバー保険"
+, "ネットワークセキュリティ"
+, "事業継続性"
+, "保険適用"
+, "情報漏えい"
+, "保険証券"
+, "ITセキュリティ"
+, "インシデントレスポンス"
+, "リスクアセスメント"
+, "サイバー犯罪"
+, "金融保護"
+, "サイバー脅威"
+, "保険金請求"
+, "えいぎょうほけん"</category><guid>https://ja.simeononsecurity.com/articles/the-importance-of-cybersecurity-insurance-and-how-to-choose-the-right-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバー脅威からビジネスを守るために、最適なサイバーセキュリティ保険の選び方をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png" length="207857" type="image/png"/></item><item><title>Windowsへの累積セキュリティパッチのインストール：ベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link><pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate><category>
+"ウィンドウズ"
+, "セキュリティパッチ"
+, "サイバーセキュリティ"
+, "システムセキュリティ"
+, "マイクロソフト"
+, "累積パッチ"
+, "パッチマネジメント"
+, "データバックアップ"
+, "スペクター メルトダウン"
+, "暗号化"
+, "システムの脆弱性"
+, "システムアップデート"
+, "パッチ展開"
+, "非稼働環境"
+, "システムコンフィギュレーション"
+, "ITセキュリティ"
+, "パッチマネジメントシステム"
+, "脆弱性スキャン"
+, "リリースノート"
+, "システム保守"</category><guid>https://ja.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windowsに累積的なセキュリティパッチをインストールする方法を学び、サイバー攻撃からシステムを安全に保つためのベストプラクティスに従います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png"/></item><item><title>キャリアアップのためのサイバーセキュリティ認定資格トップ5</title><link>https://ja.simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/</link><pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "認定資格"
+, "CompTIA Security Plus"
+, "CISSP"
+, "オフェンス・セキュリティ OSCP"
+, "シスコCCNA"
+, "(シーシーエスピー"
+, "ITセキュリティ"
+, "ネットワークセキュリティ"
+, "クラウドセキュリティ"
+, "プロフェッショナル・ディベロップメント"
+, "キャリアアップ"
+, "スキルの有効性確認"
+, "情報セキュリティ"
+, "エシカルハッキング"
+, "ペネトレーションテスト"
+, "ネットワーク管理"
+, "クラウドコンピューティング"
+, "セキュリティマネジメント"
+, "脆弱性評価（Vulnerability Assessment"</category><guid>https://ja.simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+キャリアアップに役立つサイバーセキュリティ認定資格のトップ5をご覧いただき、急成長するサイバーセキュリティ分野での就職の可能性を高めてください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png" length="239636" type="image/png"/></item><item><title>NISTサイバーセキュリティフレームワークの導入</title><link>https://ja.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link><pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "NIST"
+, "フレームワーク"
+, "リスク管理"
+, "情報セキュリティ"
+, "サイバー脅威"
+, "インプリメンテーション"
+, "ベストプラクティス"
+, "ガイドライン"
+, "規格"
+, "サイバー攻撃"
+, "リスクアセスメント"
+, "サイバーセキュリティ・リスク"
+, "データ保護"
+, "コンプライアンス"
+, "ITセキュリティ"
+, "ネットワークセキュリティ"
+, "インシデントレスポンス"
+, "セキュリティ対策"
+, "サイバーセキュリティ計画"</category><guid>https://ja.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NISTサイバーセキュリティフレームワークを導入し、サイバー脅威から組織を保護する方法を、ステップバイステップのガイドでご覧ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png"/></item><item><title>サイバーセキュリティ・インシデント対応入門ガイド</title><link>https://ja.simeononsecurity.com/articles/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents/</link><pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate><category>
+"インシデントレスポンス"
+, "サイバーセキュリティ"
+, "ビギナーズガイド"
+, "データ保護"
+, "データ機密保護"
+, "ITセキュリティ"
+, "ネットワークセキュリティ"
+, "サイバー攻撃"
+, "情報セキュリティ"
+, "サイバー犯罪"
+, "デジタル・セキュリティ"
+, "ITインフラ"
+, "データ漏洩"
+, "サイバー脅威"
+, "サイバー防衛"
+, "インシデント管理"
+, "データ復旧"
+, "保安計画"
+, "リスク管理"
+, "サイバーセキュリティ戦略"</category><guid>https://ja.simeononsecurity.com/articles/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この初心者向けガイドで、インシデントレスポンスとサイバーセキュリティインシデント対応の基本を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png" length="380713" type="image/png"/></item><item><title>インサイダー脅威から組織を守る：ベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/</link><pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate><category>
+"内部脅威"
+, "サイバーセキュリティ"
+, "データ保護"
+, "社員教育"
+, "テクニカルコントロール"
+, "アクセス制御"
+, "政策展開"
+, "データ損失防止"
+, "インシデントレスポンス"
+, "ITセキュリティ"
+, "リスクマネージメント"
+, "特権的アクセス"
+, "セキュリティ意識"
+, "サイバー攻撃"
+, "ネットワークセキュリティ"
+, "情報セキュリティ"
+, "脅威検出"
+, "リスクアセスメント"
+, "安全保護方針"
+, "サイバー犯罪"</category><guid>https://ja.simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+機密データやシステムにアクセスできる従業員、請負業者、パートナーによるインサイダー脅威から組織を守るためのベストプラクティスを学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png" length="277593" type="image/png"/></item><item><title>サイバーセキュリティにおけるソーシャルエンジニアリング攻撃への対策</title><link>https://ja.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</link><pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "ソーシャルエンジニアリング"
+, "フィッシング詐欺"
+, "多要素認証"
+, "セキュリティアップデート"
+, "パスワードセキュリティ"
+, "ウェブセキュリティ"
+, "情報漏えい"
+, "ITセキュリティ"
+, "こじんじょうほうぬすみ"
+, "不正防止"
+, "スパイ防止"
+, "テクニカルセキュリティ"
+, "物理的安全保護"
+, "情報セキュリティ"
+, "サイバー犯罪防止"
+, "侵入検知"
+, "セキュリティパッチ"
+, "社員教育"
+, "データ保護"</category><guid>https://ja.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この記事では、ソーシャル・エンジニアリング攻撃から身を守り、サイバー犯罪者からデータを保護する方法についてご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png" length="236265" type="image/png"/></item><item><title>サイバーセキュリティの未来：成功のための必須スキル</title><link>https://ja.simeononsecurity.com/articles/the-future-of-cybersecurity-and-the-skills-needed-for-success/</link><pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "サイバーセキュリティの未来"
+, "せいこうぎじゅつ"
+, "批判的思考"
+, "コミュニケーション"
+, "ぎのう"
+, "リスクマネージメント"
+, "プロフェッショナル・ディベロップメント"
+, "サイバーセキュリティにおけるAI"
+, "クラウドセキュリティ"
+, "サイバー脅威"
+, "サイバー犯罪"
+, "情報セキュリティ"
+, "サイバーセキュリティプロフェッショナル"
+, "データプライバシー"
+, "技術"
+, "デジタルセキュリティ"
+, "サイバーディフェンス"
+, "サイバー攻撃"
+, "ITセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/the-future-of-cybersecurity-and-the-skills-needed-for-success/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+進化し続けるサイバーセキュリティの分野で成功するために必要な必須スキルを発見し、ハイテク産業におけるサイバーセキュリティの重要性の高まりについて学ぶことができます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png" length="335404" type="image/png"/></item><item><title>Linuxシステムのハードニングに欠かせない「やるべきこと」と「やってはいけないこと」。</title><link>https://ja.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"Linuxのセキュリティ"
+, "システムハードニング"
+, "ファイヤーウォール"
+, "セリナックス"
+, "AppArmor"
+, "パスワードポリシー"
+, "システムアップデート"
+, "システムログ"
+, "セキュリティモジュール"
+, "アクセスコントロールポリシー"
+, "サイバーセキュリティ"
+, "システムセキュリティ"
+, "ネットワークセキュリティ"
+, "脆弱性管理"
+, "セキュリティベストプラクティス"
+, "ITセキュリティ"
+, "情報セキュリティ"
+, "ソフトウェアアップデート"
+, "ルートアクセス"
+, "パスワードマネージャ"</category><guid>https://ja.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アップデート、ファイアウォールの使用、SELinuxやAppArmorの有効化、パスワードポリシーの設定、システムログの監視など、Linuxシステムの堅牢化に不可欠なDoとDonを学ぶことができます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png"/></item><item><title>脆弱なサーバーへのパッチの導入：ベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"サーバーのセキュリティ"
+, "脆弱性管理"
+, "パッチマネジメント"
+, "サイバーセキュリティ"
+, "サーバーのパッチング"
+, "脅威のランドスケープ"
+, "ペネトレーションテスト"
+, "セキュリティアップデート"
+, "ソフトウェアパッチ"
+, "ITセキュリティ"
+, "データ保護"
+, "システムセキュリティ"
+, "リスクマネジメント"
+, "セキュリティポリシー"
+, "ステージング環境"
+, "ソフトウェアの脆弱性"
+, "クリティカルパッチ"
+, "ベンダーのパッチ"
+, "セキュリティバレット"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+脆弱性のあるサーバーにベストプラクティスでセキュリティパッチを導入し、悪意のある攻撃を防ぐ方法を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png" length="246714" type="image/png"/></item><item><title>OWASPトップ10：重要なウェブアプリケーションセキュリティリスク</title><link>https://ja.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"ウェブアプリケーションセキュリティ"
+, "OWASPトップ10"
+, "インジェクション攻撃"
+, "オーセンティケーション"
+, "セッション管理"
+, "XSS攻撃"
+, "アクセスコントロール"
+, "セキュリティの誤設定"
+, "暗号化ストレージ"
+, "トランスポート層の保護"
+, "入力バリデーション"
+, "サードパーティコンポーネント"
+, "ロギングとモニタリング"
+, "ウェブ開発"
+, "サイバーセキュリティ"
+, "データ保護"
+, "ソフトウェア・セキュリティ"
+, "ITセキュリティ"
+, "セキュリティ対策"
+, "リスクマネジメント"</category><guid>https://ja.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OWASP Top 10による最も重要なWebアプリケーションセキュリティリスクとその対策について学ぶ</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item><item><title>STIGスクリプトによるセキュリティ・コンプライアンスの自動化</title><link>https://ja.simeononsecurity.com/github/awesome-stigs/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"STIGスクリプト"
+, "セキュリティコンプライアンス"
+, "オートメーション"
+, "ウィンドウズ"
+, "アプリケーション"
+, ".NET"
+, "アドビリーダーDC"
+, "オラクル JRE 8"
+, "ファイヤーフォックス"
+, "Ansibleプレイブック"
+, "ドメイン準備"
+, "ウィンドウズ・ディフェンダー"
+, "サイバーセキュリティ"
+, "スクリプト"
+, "STIGコンプライアンス"
+, "構成管理"
+, "ITセキュリティ"
+, "パッチ管理"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/github/awesome-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows や、.NET、Adobe Reader DC、Oracle JRE 8 などの一般的なアプリケーションのセキュリティ・コンプライアンスを自動化する STIG スクリプトのコレクションをご覧ください。</description></item><item><title>セキュリティとハードニングの自動化包括的なハードニングリソース</title><link>https://ja.simeononsecurity.com/github/awesome-hardening/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"システム・ハードニング"
+, "アプリケーション・ハードニング"
+, "STIG準拠"
+, "ウィンドウズの最適化"
+, "Windows Defenderの強化"
+, "アパッチ・ウェブ・サーバー・ハードニング"
+, ".NET STIGスクリプト"
+, "Adobe Reader DC STIGスクリプト"
+, "Firefox STIGスクリプト"
+, "シメオンセキュリティー"
+, "サイバーセキュリティ"
+, "オートメーション"
+, "ネットワークセキュリティ"
+, "ITセキュリティ"
+, "システムセキュリティ"
+, "コンピュータセキュリティ"
+, "セキュリティ・ハードニング"
+, "セキュリティ・オートメーション"
+, "ウィンドウズ強化"
+, "ウェブサーバー・ハードニング"</category><guid>https://ja.simeononsecurity.com/github/awesome-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+システムを最適化・強化し、STIG準拠とハッキング耐性を実現するスクリプトと設定のコレクションをご覧ください。</description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://ja.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "アンシブル"
+, "Ansible Playbooks"
+, "Ansibleコレクション"
+, "Windowsセキュリティ"
+, "ウィンドウズ管理"
+, "セキュリティ・コンプライアンス"
+, "ITオートメーション"
+, "コンフィギュレーション管理"</category><guid>https://ja.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurityが今日知り、面白いと思ったこと**。&lt;/p>
+&lt;p>SimeonOnSecurityは今日、WindowsのセキュリティとAnsibleを使った自動化に関するいくつかの興味深いことを学び、発見した。&lt;/p>
+&lt;p>まず、2つの新しく更新されたリポジトリが確認された。Windows_STIG_Ansible リポジトリは、Ansible 自動化プラットフォームを使用して、Windows システムをセキュリティ技術実装ガイド (STIG) 要件を満たすように構成するための完全なソリューションを提供します。windows_stigsリポジトリは、STIG要件を満たすためにWindowsシステムを構成するためのAnsibleロールのコレクションであり、Ansibleコンテンツを共有するための中央リポジトリであるAnsible Galaxyで利用できます。&lt;/p>
+&lt;p>SimeonOnSecurityは、AnsibleによるWindows自動化に関連する学習リソースもいくつか見つけました。ansible.windows.win_copyモジュールのドキュメントには、Ansibleを使用してWindowsシステム上でファイルをコピーする方法に関する情報が記載されています。ansible blocksドキュメントは、複数のタスクをグループ化し、条件付き実行を適用できるAnsibleの強力な機能であるブロックの使用方法に関する情報を提供します。ansible galaxy ユーザー・ガイド』には、Ansible Galaxy の使用方法に関する情報が記載されており、『ansible installing content』には、Ansible Galaxy からコンテンツをインストールする方法に関する情報が記載されています。&lt;/p>
+&lt;h2 id="新規更新レポ">
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" title="新規/更新レポ">新規/更新レポ&lt;/a>
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" class="h-anchor" aria-hidden="true" title="新規/更新レポ">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;p>#学習リソース&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_copy module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_copy module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible blocks">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+>ansible blocks&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible galaxy user guide">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+>ansible galaxy user guide&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible installing content">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html">
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+>ansible installing content&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>今日はPowerShellとBashでJSONを操作してパースする方法を学びました。</title><link>https://ja.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "Windowsのセキュリティ"
+, "Ansible Playbooks（アンシブル プレイブック"
+, "Ansibleコレクション"
+, "ITセキュリティ"
+, "コンフィギュレーションマネジメント"
+, "デブオプス"
+, "ウィンドウズ・アドミニストレーション"
+, "システム構成"</category><guid>https://ja.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurityが今日知ったこと、興味を持ったこと&lt;/strong>。&lt;/p>
+&lt;p>SimeonOnSecurityは、彼のウェブサイトのページを更新し、彼が興味深いと思ういくつかのリソースについて学びました。更新されたページは、HackTheBoxのInvite Challengeの書き出しです。このページでは、WindowsとLinuxの両方のシステムで課題を解決するプロセスの詳細な分析が行われています。&lt;/p>
+&lt;p>SimeonOnSecurityは、更新されたページに加えて、いくつかの有用な学習リソースも発見しました。そのリソースの1つが、Cameron Nokes氏によるブログ記事で、jqツールを使ってbashでJSONを扱うことに焦点を当てています。jqツールは、JSONデータの解析、フィルタリング、操作を簡単に行うことができるコマンドラインユーティリティです。&lt;/p>
+&lt;p>もう2つのリソースは、PowerShellでのJSONデータの変換に関連するものです。Microsoftのドキュメントには、ConvertFrom-JsonおよびConvertTo-Jsonコマンドレットに関する情報が記載されています。これらのコマンドレットを使用すると、JSONデータをPowerShellオブジェクトに変換したり、PowerShellオブジェクトから変換したりすることができ、データの操作や分析が容易になります。&lt;/p>
+&lt;h2 id="updated-pages">
+&lt;a href="#updated-pages" title="Updated Pages：">Updated Pages：&lt;/a>
+&lt;a href="#updated-pages" class="h-anchor" aria-hidden="true" title="Updated Pages：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="HackTheBox - Invite Challenge (Windows/Linux)">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/">
+&lt;a href="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/"
+rel="follow me"
+>HackTheBox - Invite Challenge (Windows/Linux)&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ラーニングリソース">
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" title="ラーニング・リソース">ラーニング・リソース&lt;/a>
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" class="h-anchor" aria-hidden="true" title="ラーニング・リソース">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Cameron Nokes - Working with JSON in bash using jq">
+&lt;meta itemprop="url" content="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/">
+&lt;a href="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/"
+rel="noopener external" target="_blank"
+>Cameron Nokes - Working with JSON in bash using jq&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertFrom-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertFrom-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertTo-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertTo-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>HackTheBox - Invite Challenge (Windows/Linux)</title><link>https://ja.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"ハックザボックス"
+, "チャレンジを招待する"
+, "侵入テスト"
+, "サイバーセキュリティ"
+, "ウィンドウズ"
+, "Linux"
+, "オンラインプラットフォーム"
+, "HTTPポスト"
+, "招待コード"
+, "Base64エンコード"
+, "パワーシェル"
+, "Linuxバッシュ"
+, "Base64 デコード"
+, "コード生成の招待"
+, "プログラミング"
+, "ウェブ開発"
+, "テクノロジー"
+, "ITセキュリティ"
+, "ITトレーニング"</category><guid>https://ja.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+招待コードを生成し、HackTheBox オンライン プラットフォームに参加して、Windows と Linux の両方で侵入テストとサイバーセキュリティのスキルをテストして向上させる方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png"/></item><item><title>SimeonOnSecurity のブログ</title><link>https://ja.simeononsecurity.com/blog/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"サイバーセキュリティのヒント"
+, "自動化技術"
+, "ネットワークセキュリティ"
+, "データプライバシー"
+, "ITセキュリティ"
+, "ハッキング防止"
+, "セキュアなコーディング"
+, "ネットワークインフラストラクチャ"
+, "デジタルフォレンジクス"
+, "クラウドセキュリティ"
+, "サイバーセキュリティ脅威情報"
+, "インシデント対応"
+, "脆弱性評価"
+, "ペネトレーションテスト"
+, "アイデンティティ管理"
+, "セキュリティ意識"
+, "マルウェア分析"
+, "データ暗号化"
+, "ファイアウォールの設定"
+, "セキュアなウェブ開発"
+, "ネットワーク監視"
+, "サイバーセキュリティフレームワーク"
+, "IoTセキュリティ"
+, "モバイルセキュリティ"
+, "フィッシング防止"
+, "サイバーセキュリティベストプラクティス"
+, "脅威ハンティング"
+, "ソーシャルエンジニアリング対策"
+, "アクセス制御"
+, "ネットワークセグメンテーション"</category><guid>https://ja.simeononsecurity.com/blog/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity の個人的な経験と専門家のヒントを探索してください。</description></item><item><title>SimeonOnSecurityの記事</title><link>https://ja.simeononsecurity.com/articles/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"サイバーセキュリティのヒント"
+, "自動化の技術"
+, "ネットワークセキュリティ"
+, "データプライバシー"
+, "ITセキュリティ"
+, "ハッキングの防止"
+, "セキュアコーディング"
+, "ネットワークインフラストラクチャ"
+, "デジタルフォレンジック"
+, "クラウドセキュリティ"
+, "サイバー脅威インテリジェンス"
+, "インシデント対応"
+, "脆弱性評価"
+, "ペネトレーションテスト"
+, "アイデンティティ管理"
+, "セキュリティ意識"
+, "マルウェア分析"
+, "データ暗号化"
+, "ファイアウォールの設定"
+, "セキュアなWeb開発"
+, "ネットワークモニタリング"
+, "サイバーセキュリティフレームワーク"
+, "IoTセキュリティ"
+, "モバイルセキュリティ"
+, "フィッシング防止"
+, "サイバーセキュリティのベストプラクティス"
+, "脅威ハンティング"
+, "ソーシャルエンジニアリング防御"
+, "アクセス制御"
+, "ネットワークセグメンテーション"</category><guid>https://ja.simeononsecurity.com/articles/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバーセキュリティ、情報技術、自動化に関するあなたの個人ガイド。洞察に富んだ記事、個人の経験、専門家のヒントを通じて、安全なデジタルワールドを探求しましょう。</description></item></channel></rss>

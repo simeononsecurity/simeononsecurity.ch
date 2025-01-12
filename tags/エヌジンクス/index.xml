@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>エヌジンクス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%A8%E3%83%8C%E3%82%B8%E3%83%B3%E3%82%AF%E3%82%B9//img/banner.png</url><title>エヌジンクス on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%A8%E3%83%8C%E3%82%B8%E3%83%B3%E3%82%AF%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%A8%E3%83%8C%E3%82%B8%E3%83%B3%E3%82%AF%E3%82%B9/</link><description>Recent content in エヌジンクス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%A8%E3%83%8C%E3%82%B8%E3%83%B3%E3%82%AF%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>SSLとTLS 1.2以下を無効にして、コンピュータのセキュリティを強化する</title><link>https://ja.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"コンピュータセキュリティの強化"
+, "SSLおよびTLSの無効化"
+, "データセキュリティ"
+, "ポードル"
+, "ビースト"
+, "ハートブリード"
+, "Windowsレジストリエディタ"
+, "LinuxのOpenSSL設定"
+, "アパッチ"
+, "エヌジンクス"</category><guid>https://ja.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+POODLE、BEAST、Heartbleedなどのサイバー脅威に弱い旧バージョンのSSLおよびTLSプロトコルをWindowsおよびLinuxシステムで無効化し、データセキュリティを向上する手順について説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png" length="310292" type="image/png"/></item></channel></rss>

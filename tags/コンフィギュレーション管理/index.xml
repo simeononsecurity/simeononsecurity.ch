@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンフィギュレーション管理 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86//img/banner.png</url><title>コンフィギュレーション管理 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/</link><description>Recent content in コンフィギュレーション管理 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>自動化対決：Ansible対Puppet対Chef - 主要自動化ツールの比較</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "オートメーションツール"
+, "コンフィギュレーション管理"
+, "ITインフラ"
+, "デブオプス"
+, "ITオペレーション"
+, "クラウド・オートメーション"
+, "ソフトウェアの展開"
+, "インフラ管理"
+, "オープンソースツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この包括的な比較で、Ansible、Puppet、Chefの違いを知り、組織のニーズに合った自動化ツールを選びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Ansibleの自動化：プレーンなAnsibleからAnsible TowerとSemaphoreまで</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "インフラ管理"
+, "コンフィギュレーション管理"
+, "デブオプス"
+, "ITオペレーション"
+, "オープンソース"
+, "ワークフロー管理"
+, "スケーラビリティ"
+, "コラボレーション"
+, "Ansibleツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プレーンなAnsible、Ansible Tower、Ansible Semaphoreを比較してAnsible自動化のパワーを発見し、効率的なインフラ管理のために適切なツールを選択しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Ansibleのセキュアコーディングガイドライン：ベスト・プラクティス</title><link>https://ja.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><category>
+"安全なコーディング"
+, "アンシブル"
+, "コンフィギュレーション管理"
+, "配備"
+, "最小特権の原則"
+, "Ansible Vault"
+, "強力なパスワード"
+, "アクセス制御"
+, "バージョン管理システム"
+, "安全な通信プロトコル"
+, "SSH"
+, "ウィンアールエム"
+, "TLS証明書"
+, "ユーザー入力のサニタイズ"
+, "入力検証"
+, "エラー処理"
+, "安全なコーディングの実践"
+, "コード注入"
+, "セキュア・コーディング・ガイドライン"
+, "インフラ・セキュリティ"
+, "Ansibleのセキュアコーディング・ガイドライン"
+, "Ansibleによる安全なコードのためのベストプラクティス"
+, "Ansibleによる安全な構成管理"
+, "Ansibleによる安全なデプロイの実践"
+, "Ansibleにおける最小特権の原則"
+, "Ansible Vaultを安全なコードに使用する"
+, "Ansibleで強力なパスワードを作成する"
+, "Ansibleでのアクセス制御"
+, "Ansibleプレイブックのバージョン管理システム"
+, "Ansibleにおける安全な通信プロトコル"
+, "AnsibleのSSHセキュリティ"
+, "AnsibleのWinRMセキュリティ"
+, "AnsibleのTLS証明書"
+, "Ansibleでユーザー入力をサニタイズする"
+, "Ansibleでの入力検証"
+, "Ansibleのエラー処理"
+, "Ansibleにおけるセキュアコーディングの実践"
+, "Ansibleでコードインジェクションを防ぐ"
+, "Ansibleで管理するインフラストラクチャのためのセキュアコーディングガイドライン"
+, "Ansibleインフラの保護"</category><guid>https://ja.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+構成管理とデプロイのための一般的なツールであるAnsibleを使って、安全なコードを書くためのベストプラクティスを学ぶ。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png"/></item><item><title>Ansible入門：ITインフラ管理の自動化</title><link>https://ja.simeononsecurity.com/articles/ansible-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Ansible入門"
+, "ITインフラ管理の自動化"
+, "Ansibleの基礎知識"
+, "ITインフラの自動化"
+, "コンフィギュレーション管理"
+, "アプリケーションの展開"
+, "プロビジョニング"
+, "継続的デリバリー"
+, "セキュリティコンプライアンス"
+, "オーケストレーション"
+, "ヤムル"
+, "Ansibleモジュール"
+, "役割分担"
+, "ベストプラクティス"
+, "バージョン管理"
+, "テスト"
+, "レッドハット"
+, "システム管理者"
+, "リナックス"
+, "マックオス"
+, "ウィンドウズ"
+, "Ansibleのインストール"
+, "Ansibleのインベントリ"
+, "Ansible playbooks（アンシブル・プレイブック"
+, "Ansibleモジュール"
+, "Ansibleの役割"
+, "Ansibleのベストプラクティス"
+, "Ansibleのテスト"
+, "ITインフラ自動化ツール"
+, "Ansibleチュートリアル"
+, "インフラ管理の自動化"</category><guid>https://ja.simeononsecurity.com/articles/ansible-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+宣言型言語によりITインフラ管理を簡素化するオープンソースの自動化ツール、Ansibleの基本を学ぶ。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://ja.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "アンシブル"
+, "Ansible Playbooks"
+, "Ansibleコレクション"
+, "Windowsセキュリティ"
+, "ウィンドウズ管理"
+, "セキュリティ・コンプライアンス"
+, "ITオートメーション"
+, "コンフィギュレーション管理"</category><guid>https://ja.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurityが今日知り、面白いと思ったこと**。&lt;/p>
+&lt;p>SimeonOnSecurityは今日、WindowsのセキュリティとAnsibleを使った自動化に関するいくつかの興味深いことを学び、発見した。&lt;/p>
+&lt;p>まず、2つの新しく更新されたリポジトリが確認された。Windows_STIG_Ansible リポジトリは、Ansible 自動化プラットフォームを使用して、Windows システムをセキュリティ技術実装ガイド (STIG) 要件を満たすように構成するための完全なソリューションを提供します。windows_stigsリポジトリは、STIG要件を満たすためにWindowsシステムを構成するためのAnsibleロールのコレクションであり、Ansibleコンテンツを共有するための中央リポジトリであるAnsible Galaxyで利用できます。&lt;/p>
+&lt;p>SimeonOnSecurityは、AnsibleによるWindows自動化に関連する学習リソースもいくつか見つけました。ansible.windows.win_copyモジュールのドキュメントには、Ansibleを使用してWindowsシステム上でファイルをコピーする方法に関する情報が記載されています。ansible blocksドキュメントは、複数のタスクをグループ化し、条件付き実行を適用できるAnsibleの強力な機能であるブロックの使用方法に関する情報を提供します。ansible galaxy ユーザー・ガイド』には、Ansible Galaxy の使用方法に関する情報が記載されており、『ansible installing content』には、Ansible Galaxy からコンテンツをインストールする方法に関する情報が記載されています。&lt;/p>
+&lt;h2 id="新規更新レポ">
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" title="新規/更新レポ">新規/更新レポ&lt;/a>
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%83%ac%e3%83%9d" class="h-anchor" aria-hidden="true" title="新規/更新レポ">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;p>#学習リソース&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_copy module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_copy_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_copy module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible blocks">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_blocks.html"
+rel="noopener external" target="_blank"
+>ansible blocks&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible galaxy user guide">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html"
+rel="noopener external" target="_blank"
+>ansible galaxy user guide&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible installing content">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/docs/using/installing.html">
+&lt;a href="https://galaxy.ansible.com/docs/using/installing.html"
+rel="noopener external" target="_blank"
+>ansible installing content&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

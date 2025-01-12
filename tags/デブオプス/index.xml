@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>デブオプス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%96%E3%82%AA%E3%83%97%E3%82%B9//img/banner.png</url><title>デブオプス on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%96%E3%82%AA%E3%83%97%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%96%E3%82%AA%E3%83%97%E3%82%B9/</link><description>Recent content in デブオプス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%87%E3%83%96%E3%82%AA%E3%83%97%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansibleの自動化：プレーンなAnsibleからAnsible TowerとSemaphoreまで</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "インフラ管理"
+, "コンフィギュレーション管理"
+, "デブオプス"
+, "ITオペレーション"
+, "オープンソース"
+, "ワークフロー管理"
+, "スケーラビリティ"
+, "コラボレーション"
+, "Ansibleツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プレーンなAnsible、Ansible Tower、Ansible Semaphoreを比較してAnsible自動化のパワーを発見し、効率的なインフラ管理のために適切なツールを選択しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>CI CDの威力：コラボレーション、品質、スピードを向上させる</title><link>https://ja.simeononsecurity.com/articles/the-benefits-of-ci-cd/</link><pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate><category>
+"継続的統合"
+, "連続展開"
+, "CI CD"
+, "ソフトウェア開発"
+, "コラボレーション"
+, "コミュニケーション"
+, "フィードバックループ"
+, "バグ検出"
+, "ソフトウェア品質"
+, "信頼性"
+, "タイムトゥマーケット"
+, "リスクマネージメント"
+, "スケーラビリティ"
+, "柔軟性"
+, "自動化試験"
+, "アジャイル開発"
+, "デブオプス"
+, "チーム生産性"
+, "ソフトウェアリリース"
+, "デプロイメントオートメーション"
+, "テストオートメーション"
+, "ラピッドソフトウェアデリバリー"
+, "アジャイルメソドロジー"
+, "リリース管理"
+, "ソフトウェアエンジニアリング"
+, "アジャイルチーム"
+, "継続的改善"
+, "ソフトウェアテスト"
+, "配備パイプライン"
+, "配備プロセス"
+, "ソフトウェア開発ライフサイクル"</category><guid>https://ja.simeononsecurity.com/articles/the-benefits-of-ci-cd/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ソフトウェア開発における継続的インテグレーションと継続的デプロイメント（CI CD）の利点を発見し、コラボレーション、品質、スピードを向上させることができます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png" length="159757" type="image/png"/></item><item><title>DevOps入門：開発と運用のギャップを埋めるために</title><link>https://ja.simeononsecurity.com/articles/introduction-to-devops/</link><pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate><category>
+"デブオプス"
+, "ソフトウェア開発"
+, "事業"
+, "コラボレーション"
+, "継続的統合"
+, "継続的デリバリー"
+, "インフラアズコード"
+, "モニタリング"
+, "フィードバックループ"
+, "タイムトゥマーケット"
+, "効率"
+, "クオリティ"
+, "信頼性"
+, "ヒパア"
+, "GDPR"
+, "コンプライアンス"
+, "セキュリティ"
+, "会計監査"
+, "トレーサビリティー"
+, "オートメーション"
+, "コミュニケーション"
+, "素早い"
+, "CICD"
+, "ソフトウェア配備"
+, "ソフトウェアライフサイクル"
+, "ソフトウエアシステム"
+, "ソフトウェア産業"
+, "データ機密保護"
+, "規則"
+, "ソフトウェアアップデート"
+, "競争優位"
+, "データプライバシー"
+, "データ保護"
+, "ソフトウェア産業発展"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-devops/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DevOpsがどのように開発と運用のギャップを埋め、ソフトウェアデリバリーを合理化し、効率を最大化するのかをご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.png" length="173119" type="image/png"/></item><item><title>Infrastructure as CodeのためのPackerの使用：ベストプラクティスとメリット</title><link>https://ja.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"パッカー"
+, "コードとしてのインフラ"
+, "デブオプス"
+, "オートメーション"
+, "セキュリティ"
+, "再現性"
+, "スケーラビリティ"
+, "マルチプラットフォーム"
+, "バージョン管理"
+, "クラウドコンピューティング"
+, "機械イメージ"
+, "仮想化"
+, "コンフィギュレーションマネジメント"
+, "継続的インテグレーション"
+, "継続的デリバリー"
+, "ソフトウェア開発"
+, "ベストプラクティス"
+, "テスト"
+, "オープンソース"
+, "マルチクラウド"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+メンテナンスが容易で安全なマシンイメージを作成するためのPackerの使い方をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item><item><title>Infrastructure as CodeのためのTerraformをはじめよう。</title><link>https://ja.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"テラフォーム"
+, "コードとしてのインフラ"
+, "アイエーシー"
+, "クラウドコンピューティング"
+, "デブオプス"
+, "オートメーション"
+, "エーダブリュエス"
+, "アズール"
+, "グーグルクラウド"
+, "クラウドプロバイダー"
+, "コンフィギュレーションマネジメント"
+, "デプロイメント"
+, "プロビジョニング"
+, "リソースマネジメント"
+, "スケーラビリティ"
+, "レジリエンス"
+, "セキュリティ"
+, "コンプライアンス"
+, "ベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Infrastructure as Codeの代表的なツールであるTerraformの基本を学び、インフラを効率的に管理するための使い方を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png"/></item><item><title>現代のDevOps環境におけるコンテナオーケストレーションの役割</title><link>https://ja.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><category>
+"コンテナオーケストレーション"
+, "デブオプス"
+, "クーベルネッツ"
+, "Docker Swarm（ドッカースワーム"
+, "アパッチメソス"
+, "スケーラビリティ"
+, "高可用性"
+, "ロードバランシング"
+, "セキュリティ"
+, "自動化されたアプリのデプロイメント"
+, "ヒパア"
+, "ソックス"
+, "GDPR"
+, "コンプライアンス"
+, "ソフトウェア開発"
+, "クラウドコンピューティング"
+, "コンテナリゼーション"
+, "技術"
+, "オートメーション"</category><guid>https://ja.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+現代のDevOpsにおけるコンテナオーケストレーションの意義やメリット、人気のコンテナオーケストレーションツール、コンテナ化に関連する政府規制などについてご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png"/></item><item><title>PowerShell DSC：スタートガイド</title><link>https://ja.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"パワーシェル"
+, "ディスクロージャー"
+, "コンフィギュレーションマネジメント"
+, "オートメーション"
+, "ウィンドウズ"
+, "システム管理"
+, "ベストプラクティス"
+, "コンプライアンス"
+, "セキュリティ"
+, "インフラストラクチャー"
+, "デブオプス"
+, "サーバー構成"
+, "テスト"
+, "ギット"
+, "ソースコントロール"
+, "政府規制"
+, "エヌアイエスティー"
+, "CIS"
+, "コンフィギュレーションドリフト"
+, "カスタムリソース"</category><guid>https://ja.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShell Desired State Configuration (DSC)を使用して、安全でコンプライアンスに準拠した環境のためのシステム構成を自動化および管理する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item><item><title>安全なDevOpsパイプラインの構築と維持：ベストプラクティスとケーススタディ</title><link>https://ja.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"デブオプス"
+, "セキュリティ"
+, "管路"
+, "継続的統合"
+, "継続的デリバリー"
+, "オートメーション"
+, "コンテナリゼーション"
+, "えんぎ"
+, "脆弱性スキャン"
+, "モニタリング"
+, "フィードバック"
+, "バージョン管理"
+, "アクセスコントロール"
+, "災害復旧"
+, "事業継続性"
+, "ケーススタディ"
+, "春"
+, "ジャンゴ"
+, "オワスプ"
+, "ネットフリックス"
+, "キャピタルワン"</category><guid>https://ja.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この包括的なガイドでは、ベストプラクティスと実例を使って、安全なDevOpsパイプラインを構築し、維持する方法を学ぶことができます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png"/></item><item><title>今日はPowerShellとBashでJSONを操作してパースする方法を学びました。</title><link>https://ja.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "Windowsのセキュリティ"
+, "Ansible Playbooks（アンシブル プレイブック"
+, "Ansibleコレクション"
+, "ITセキュリティ"
+, "コンフィギュレーションマネジメント"
+, "デブオプス"
+, "ウィンドウズ・アドミニストレーション"
+, "システム構成"</category><guid>https://ja.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurityが今日知ったこと、興味を持ったこと&lt;/strong>。&lt;/p>
+&lt;p>SimeonOnSecurityは、彼のウェブサイトのページを更新し、彼が興味深いと思ういくつかのリソースについて学びました。更新されたページは、HackTheBoxのInvite Challengeの書き出しです。このページでは、WindowsとLinuxの両方のシステムで課題を解決するプロセスの詳細な分析が行われています。&lt;/p>
+&lt;p>SimeonOnSecurityは、更新されたページに加えて、いくつかの有用な学習リソースも発見しました。そのリソースの1つが、Cameron Nokes氏によるブログ記事で、jqツールを使ってbashでJSONを扱うことに焦点を当てています。jqツールは、JSONデータの解析、フィルタリング、操作を簡単に行うことができるコマンドラインユーティリティです。&lt;/p>
+&lt;p>もう2つのリソースは、PowerShellでのJSONデータの変換に関連するものです。Microsoftのドキュメントには、ConvertFrom-JsonおよびConvertTo-Jsonコマンドレットに関する情報が記載されています。これらのコマンドレットを使用すると、JSONデータをPowerShellオブジェクトに変換したり、PowerShellオブジェクトから変換したりすることができ、データの操作や分析が容易になります。&lt;/p>
+&lt;h2 id="updated-pages">
+&lt;a href="#updated-pages" title="Updated Pages：">Updated Pages：&lt;/a>
+&lt;a href="#updated-pages" class="h-anchor" aria-hidden="true" title="Updated Pages：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="HackTheBox - Invite Challenge (Windows/Linux)">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/">
+&lt;a href="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/"
+rel="follow me"
+>HackTheBox - Invite Challenge (Windows/Linux)&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ラーニングリソース">
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" title="ラーニング・リソース">ラーニング・リソース&lt;/a>
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" class="h-anchor" aria-hidden="true" title="ラーニング・リソース">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Cameron Nokes - Working with JSON in bash using jq">
+&lt;meta itemprop="url" content="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/">
+&lt;a href="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/"
+rel="noopener external" target="_blank"
+>Cameron Nokes - Working with JSON in bash using jq&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertFrom-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertFrom-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertTo-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertTo-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

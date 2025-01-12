@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>機械イメージ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E6%A9%9F%E6%A2%B0%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8//img/banner.png</url><title>機械イメージ on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E6%A9%9F%E6%A2%B0%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8/</link></image><link>https://ja.simeononsecurity.com/tags/%E6%A9%9F%E6%A2%B0%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8/</link><description>Recent content in 機械イメージ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E6%A9%9F%E6%A2%B0%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>Infrastructure as CodeのためのPackerの使用：ベストプラクティスとメリット</title><link>https://ja.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"パッカー"
+, "コードとしてのインフラ"
+, "デブオプス"
+, "オートメーション"
+, "セキュリティ"
+, "再現性"
+, "スケーラビリティ"
+, "マルチプラットフォーム"
+, "バージョン管理"
+, "クラウドコンピューティング"
+, "機械イメージ"
+, "仮想化"
+, "コンフィギュレーションマネジメント"
+, "継続的インテグレーション"
+, "継続的デリバリー"
+, "ソフトウェア開発"
+, "ベストプラクティス"
+, "テスト"
+, "オープンソース"
+, "マルチクラウド"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+メンテナンスが容易で安全なマシンイメージを作成するためのPackerの使い方をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item></channel></rss>

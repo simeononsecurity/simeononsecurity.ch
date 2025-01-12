@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンフィギュレーションマネジメント on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88//img/banner.png</url><title>コンフィギュレーションマネジメント on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link><description>Recent content in コンフィギュレーションマネジメント on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>GPOを使いこなす：効果的なネットワーク管理のための包括的なガイド</title><link>https://ja.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"ネットワーク管理"
+, "グループポリシーオブジェクト"
+, "GPO"
+, "ウィンドウズ・アドミニストレーション"
+, "ITインフラ"
+, "ネットワークセキュリティ"
+, "アクティブディレクトリ"
+, "コンフィギュレーションマネジメント"
+, "グループポリシー管理"
+, "ネットワークの最適化"</category><guid>https://ja.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+グループポリシーオブジェクト（GPO）の威力を知り、ネットワーク設定やポリシーを効率的に管理・最適化し、セキュリティ強化と合理的な運用を実現する方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item><item><title>Infrastructure as CodeのためのPackerの使用：ベストプラクティスとメリット</title><link>https://ja.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"パッカー"
+, "コードとしてのインフラ"
+, "デブオプス"
+, "オートメーション"
+, "セキュリティ"
+, "再現性"
+, "スケーラビリティ"
+, "マルチプラットフォーム"
+, "バージョン管理"
+, "クラウドコンピューティング"
+, "機械イメージ"
+, "仮想化"
+, "コンフィギュレーションマネジメント"
+, "継続的インテグレーション"
+, "継続的デリバリー"
+, "ソフトウェア開発"
+, "ベストプラクティス"
+, "テスト"
+, "オープンソース"
+, "マルチクラウド"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+メンテナンスが容易で安全なマシンイメージを作成するためのPackerの使い方をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item><item><title>Infrastructure as CodeのためのTerraformをはじめよう。</title><link>https://ja.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"テラフォーム"
+, "コードとしてのインフラ"
+, "アイエーシー"
+, "クラウドコンピューティング"
+, "デブオプス"
+, "オートメーション"
+, "エーダブリュエス"
+, "アズール"
+, "グーグルクラウド"
+, "クラウドプロバイダー"
+, "コンフィギュレーションマネジメント"
+, "デプロイメント"
+, "プロビジョニング"
+, "リソースマネジメント"
+, "スケーラビリティ"
+, "レジリエンス"
+, "セキュリティ"
+, "コンプライアンス"
+, "ベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Infrastructure as Codeの代表的なツールであるTerraformの基本を学び、インフラを効率的に管理するための使い方を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png"/></item><item><title>PowerShell DSC：スタートガイド</title><link>https://ja.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"パワーシェル"
+, "ディスクロージャー"
+, "コンフィギュレーションマネジメント"
+, "オートメーション"
+, "ウィンドウズ"
+, "システム管理"
+, "ベストプラクティス"
+, "コンプライアンス"
+, "セキュリティ"
+, "インフラストラクチャー"
+, "デブオプス"
+, "サーバー構成"
+, "テスト"
+, "ギット"
+, "ソースコントロール"
+, "政府規制"
+, "エヌアイエスティー"
+, "CIS"
+, "コンフィギュレーションドリフト"
+, "カスタムリソース"</category><guid>https://ja.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShell Desired State Configuration (DSC)を使用して、安全でコンプライアンスに準拠した環境のためのシステム構成を自動化および管理する方法を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item><item><title>今日はPowershellとAnsibleのモジュールをさらに勉強しました。</title><link>https://ja.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "アンシブル"
+, "Ansible Playbooks（アンシブル プレイブック"
+, "Ansibleコレクション"
+, "Windowsのセキュリティ"
+, "ウィンドウズ・アドミニストレーション"
+, "パワーシェル"
+, "ITオートメーション"
+, "コンフィギュレーションマネジメント"</category><guid>https://ja.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurityが今日知って、面白いと思ったこと**。&lt;/p>
+&lt;p>SimeonOnSecurityは、Windows STIG Ansibleについて学び、関連レポを更新しました。また、powershell、リモーティング、invoke-command、start-process、win_powershell、win_shell、psexec、win_psexecなどのモジュールを使ったWindows上でのシェル/powershellコマンドの実行に関するMicrosoftとAnsibleの各種リソースを勉強しました。&lt;/p>
+&lt;h2 id="新規更新されたレポ">
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%81%95%e3%82%8c%e3%81%9f%e3%83%ac%e3%83%9d" title="新規/更新されたレポ">新規/更新されたレポ&lt;/a>
+&lt;a href="#%e6%96%b0%e8%a6%8f%e6%9b%b4%e6%96%b0%e3%81%95%e3%82%8c%e3%81%9f%e3%83%ac%e3%83%9d" class="h-anchor" aria-hidden="true" title="新規/更新されたレポ">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ラーニングリソース">
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" title="ラーニング・リソース">ラーニング・リソース&lt;/a>
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" class="h-anchor" aria-hidden="true" title="ラーニング・リソース">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>今日はPowerShellとBashでJSONを操作してパースする方法を学びました。</title><link>https://ja.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "コンプライアンス"
+, "Windowsのセキュリティ"
+, "Ansible Playbooks（アンシブル プレイブック"
+, "Ansibleコレクション"
+, "ITセキュリティ"
+, "コンフィギュレーションマネジメント"
+, "デブオプス"
+, "ウィンドウズ・アドミニストレーション"
+, "システム構成"</category><guid>https://ja.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurityが今日知ったこと、興味を持ったこと&lt;/strong>。&lt;/p>
+&lt;p>SimeonOnSecurityは、彼のウェブサイトのページを更新し、彼が興味深いと思ういくつかのリソースについて学びました。更新されたページは、HackTheBoxのInvite Challengeの書き出しです。このページでは、WindowsとLinuxの両方のシステムで課題を解決するプロセスの詳細な分析が行われています。&lt;/p>
+&lt;p>SimeonOnSecurityは、更新されたページに加えて、いくつかの有用な学習リソースも発見しました。そのリソースの1つが、Cameron Nokes氏によるブログ記事で、jqツールを使ってbashでJSONを扱うことに焦点を当てています。jqツールは、JSONデータの解析、フィルタリング、操作を簡単に行うことができるコマンドラインユーティリティです。&lt;/p>
+&lt;p>もう2つのリソースは、PowerShellでのJSONデータの変換に関連するものです。Microsoftのドキュメントには、ConvertFrom-JsonおよびConvertTo-Jsonコマンドレットに関する情報が記載されています。これらのコマンドレットを使用すると、JSONデータをPowerShellオブジェクトに変換したり、PowerShellオブジェクトから変換したりすることができ、データの操作や分析が容易になります。&lt;/p>
+&lt;h2 id="updated-pages">
+&lt;a href="#updated-pages" title="Updated Pages：">Updated Pages：&lt;/a>
+&lt;a href="#updated-pages" class="h-anchor" aria-hidden="true" title="Updated Pages：">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="HackTheBox - Invite Challenge (Windows/Linux)">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/">
+&lt;a href="https://simeononsecurity.com/writeups/hackthebox-invite-challenge/"
+rel="follow me"
+>HackTheBox - Invite Challenge (Windows/Linux)&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ラーニングリソース">
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" title="ラーニング・リソース">ラーニング・リソース&lt;/a>
+&lt;a href="#%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" class="h-anchor" aria-hidden="true" title="ラーニング・リソース">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Cameron Nokes - Working with JSON in bash using jq">
+&lt;meta itemprop="url" content="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/">
+&lt;a href="https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/"
+rel="noopener external" target="_blank"
+>Cameron Nokes - Working with JSON in bash using jq&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertFrom-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertFrom-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - ConvertTo-Json">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json?view=powershell-7.1"
+rel="noopener external" target="_blank"
+>Microsoft - ConvertTo-Json&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
