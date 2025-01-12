@@ -13,7 +13,7 @@ coverCaption: "Support us by using affiliate links and explore top-notch service
 
 Some of the links on this website are affiliate links, which means we may earn a small commission if you click on these links and make a purchase or sign up for a service. This is at no extra cost to you. We only recommend products and services that we believe in, have personally used, or thoroughly researched.
 
-*Data sharing apps should be used with caution. If you don't understand network segmentation, vlans, IDS/IPS, etc... you probable shouldn't even consider them.*
+*Data sharing apps should be used with caution. If you don't understand network segmentation, VLANs, IDS/IPS, etc... you probable shouldn't even consider them.*
 
 #### Here are the services for which we have affiliate links:
 
