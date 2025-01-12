@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Macros on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/macros//img/banner.png</url><title>Macros on simeononsecurity</title><link>https://simeononsecurity.ch/tags/macros/</link></image><link>https://simeononsecurity.ch/tags/macros/</link><description>Recent content in Macros on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/macros/index.xml" rel="self" type="application/rss+xml"/><item><title>Automating Windows Server STIG Compliance with STIG Scripts</title><link>https://simeononsecurity.ch/github/stiging-standalone-windows-servers/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><category>
+"Windows Server"
+, "STIG Compliance"
+, "Automation"
+, "Scripting"
+, "Enterprise Environments"
+, "Security"
+, "Windows Server 2012"
+, "Windows Server 2012 R2"
+, "Windows Server 2016"
+, "Windows Server 2019"</category><guid>https://simeononsecurity.ch/github/stiging-standalone-windows-servers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to automate STIGing Windows Server 2012, 2016, and 2019 with the Windows STIG Script, ensuring compliance with various organizations' recommendations and requirements.</description></item></channel></rss>

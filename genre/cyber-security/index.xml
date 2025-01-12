@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber Security on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/cyber-security//img/banner.png</url><title>Cyber Security on simeononsecurity</title><link>https://simeononsecurity.ch/genre/cyber-security/</link></image><link>https://simeononsecurity.ch/genre/cyber-security/</link><description>Recent content in Cyber Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/cyber-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Cyber Security Resilience: Change Management in an Evolving Landscape</title><link>https://simeononsecurity.ch/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Change Management"
+, "Resilience"
+, "IT Infrastructure"
+, "Risk Assessment"
+, "Compliance"
+, "Incident Response"
+, "Best Practices"
+, "ITIL"
+, "Security Controls"</category><guid>https://simeononsecurity.ch/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the importance of change management in cyber security and learn how to enhance resilience in today's evolving threat landscape.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_team_of_professionals_working_together_to_bu.png" length="357325" type="image/png"/></item><item><title>Today I Learned Cyber Security techniques</title><link>https://simeononsecurity.ch/til/2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Hands-On Labs"
+, "Informative Videos"
+, "Immersive Learning"
+, "Defensive Techniques"
+, "Offensive Techniques"
+, "Technology Insights"
+, "Software Security"
+, "Hyperloop"
+, "Virtual Machines"
+, "Digital Education"</category><guid>https://simeononsecurity.ch/til/2021-01-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned about and found interesting things on ImmersiveLabs, videos and some topics that would be of interest to others.&lt;/p>
+&lt;p>On ImmersiveLabs, SimeonOnSecurity completed multiple defensive and offensive labs, providing hands-on experience and improving security skills.&lt;/p>
+&lt;p>SimeonOnSecurity also found several videos that are of interest, including &amp;ldquo;How to steal free software (and do it badly)&amp;rdquo; by Gardiner Bryant, &amp;ldquo;What&amp;rsquo;s Happening (And Not Happening) With Hyperloop | Answers With Joe&amp;rdquo; by Joe Scott, &amp;ldquo;you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)&amp;rdquo; by NetworkChuck, and &amp;ldquo;Convince Your Dungeon Master to Buy a 3D Printer [with orcs]&amp;rdquo; by Zack Freedman. Each video provides unique insights and perspectives into technology, security and other topics that can be informative and entertaining.&lt;/p></description></item><item><title>Today I Learned Cyber Security techniques</title><link>https://simeononsecurity.ch/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Defensive Techniques"
+, "Offensive Techniques"
+, "UniFi Protect"
+, "Windows Product Activation"
+, "CPU Releases"
+, "YouTube Videos"
+, "Tech Reviews"
+, "Network Security"
+, "Data Protection"</category><guid>https://simeononsecurity.ch/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity completed multiple defensive and offensive labs on ImmersiveLabs. They also watched videos about the following topics:&lt;/p>
+&lt;p>UniFi Protect G3 Instant - Unboxing, review, and comparison (Crosstalk Solutions)
+Pirates, Crypto, and the Secret History of Windows Product Activation (Dave&amp;rsquo;s Garage)
+The release of a new CPU (LinusTechTips)
+Why someone moved to UniFi Protect (TechnoTim)&lt;/p>
+&lt;h2 id="immersivelabs">
+&lt;a href="#immersivelabs" title="ImmersiveLabs:">ImmersiveLabs:&lt;/a>
+&lt;a href="#immersivelabs" class="h-anchor" aria-hidden="true" title="ImmersiveLabs:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs">
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/">
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+>Completed multiple Defensive and Offensive Labs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="videos-of-interest">
+&lt;a href="#videos-of-interest" title="Videos of Interest:">Videos of Interest:&lt;/a>
+&lt;a href="#videos-of-interest" class="h-anchor" aria-hidden="true" title="Videos of Interest:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t">
+&lt;a href="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t"
+rel="noopener external" target="_blank"
+>Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=FpKNFCFABp0">
+&lt;a href="https://www.youtube.com/watch?v=FpKNFCFABp0"
+rel="noopener external" target="_blank"
+>Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=g2BEr6BCg_E">
+&lt;a href="https://www.youtube.com/watch?v=g2BEr6BCg_E"
+rel="noopener external" target="_blank"
+>LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="TechnoTim - Why I moved to UniFi Protect">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=W9XgDZAezkg">
+&lt;a href="https://www.youtube.com/watch?v=W9XgDZAezkg"
+rel="noopener external" target="_blank"
+>TechnoTim - Why I moved to UniFi Protect&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

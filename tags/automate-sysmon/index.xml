@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automate-Sysmon on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/automate-sysmon//img/banner.png</url><title>Automate-Sysmon on simeononsecurity</title><link>https://simeononsecurity.ch/tags/automate-sysmon/</link></image><link>https://simeononsecurity.ch/tags/automate-sysmon/</link><description>Recent content in Automate-Sysmon on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/automate-sysmon/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: Simplify Sysmon Deployment and Configuration</title><link>https://simeononsecurity.ch/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automate Sysmon"
+, "How To Automate Sysmon"
+, "How To Automate Sysmon Configuration"
+, "How To Install Sysmon"
+, "Powershell"
+, "Script"
+, "Sysmon Deployment"
+, "Sysmon Configuration"
+, "Sysmon Logging"
+, "Threat Detection"
+, "Malicious Activity"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "GitHub Repository"
+, "BHIS"
+, "System Monitoring"
+, "Security Research"
+, "Process Creation"
+, "Network Connections"</category><guid>https://simeononsecurity.ch/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to deploy and configure Sysmon to improve your system's security with the Automate-Sysmon script, which simplifies the process for even novice users.</description></item><item><title>Today I Learned about Auditpol, Sysmon, and Sysmon Configurations</title><link>https://simeononsecurity.ch/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Automation"
+, "Sysmon"
+, "Configurations"
+, "Windows Security"
+, "Event Monitoring"
+, "Windows Administration"
+, "Security Auditing"
+, "Threat Hunting"
+, "Malware Analysis"</category><guid>https://simeononsecurity.ch/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned and discovered several interesting things today related to Windows security and event monitoring.&lt;/p>
+&lt;p>First, two new and updated repositories were identified. The Automate-Sysmon repository provides a solution for automating the installation, configuration, and management of Sysmon, a popular tool for monitoring and logging system activity on Windows systems. The Windows-Audit-Policy repository provides a solution for automating the configuration of Windows audit policies, which control the auditing of various security-related events on Windows systems.&lt;/p></description></item></channel></rss>

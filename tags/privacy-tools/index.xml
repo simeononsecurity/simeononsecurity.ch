@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy Tools on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/privacy-tools//img/banner.png</url><title>Privacy Tools on simeononsecurity</title><link>https://simeononsecurity.ch/tags/privacy-tools/</link></image><link>https://simeononsecurity.ch/tags/privacy-tools/</link><description>Recent content in Privacy Tools on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/privacy-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Ultimate Guide to Mobile Security: Laptop Privacy, Webcam Covers &amp; More</title><link>https://simeononsecurity.ch/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Privacy"
+, "Remote Work"
+, "Mobile Computing"
+, "Digital Security"
+, "Productivity"
+, "Online Privacy"
+, "Data Protection"
+, "Tech Accessories"</category><guid>https://simeononsecurity.ch/articles/ultimate-guide-mobile-security-laptop-privacy-webcam-covers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance on-the-go computing security with laptop privacy screens, webcam covers, and portable encryption devices. Stay secure and productive!</description><enclosure url="https://simeononsecurity.ch/img/cover/mobile-security-illustration.png" length="982382" type="image/png"/></item><item><title>Secure Email Showdown: StartMail vs ProtonMail vs Tutanota</title><link>https://simeononsecurity.ch/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Data Privacy"
+, "Email Services"
+, "Online Security"
+, "Encryption"
+, "Internet Tools"
+, "Comparison"
+, "Digital Protection"
+, "Online Privacy"</category><guid>https://simeononsecurity.ch/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best secure email service! A detailed comparison of StartMail, ProtonMail, and Tutanota, ensuring your privacy online</description><enclosure url="https://simeononsecurity.ch/img/cover/secure-email-showdown.png" length="1329076" type="image/png"/></item><item><title>Today I Learned about New Security Tools, Static Code Analyzers, and Self-Hosted Service Options</title><link>https://simeononsecurity.ch/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"Cybersecurity Tools"
+, "Static Code Analysis"
+, "Privacy and Security"
+, "Self-Hosted Services"
+, "GitHub Resources"
+, "Security Recommendations"
+, "Code Quality Assurance"
+, "Personal Security"
+, "Home Lab Setup"
+, "Privacy-Respecting Services"</category><guid>https://simeononsecurity.ch/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity is a person who has a keen interest in security and privacy and has come across several resources today that they found interesting and would like to share with others.&lt;/p>
+&lt;p>One of the resources that caught their attention is the &amp;ldquo;Awesome Security&amp;rdquo; list on GitHub. This list contains an extensive collection of awesome security tools and SimeonOnSecurity plans to continue exploring and learning about the items on this list.&lt;/p></description></item><item><title>Today I Learned about Android Debloating and a New Privacy Technique</title><link>https://simeononsecurity.ch/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"Android Security"
+, "Privacy Tools"
+, "Mobile Device Optimization"
+, "Android Debloating"
+, "Security Enhancements"
+, "Privacy Techniques"
+, "Mobile App Management"
+, "Image Anonymization"
+, "Data Privacy"
+, "Mobile Device Privacy"</category><guid>https://simeononsecurity.ch/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity came across two interesting and useful security and privacy related tools: Universal Android Debloater and DeepPrivacy.&lt;/p>
+&lt;p>The Universal Android Debloater is a bash script using ADB (Android Debug Bridge) to debloat non-rooted Android devices. This tool can help to improve privacy, security and battery life of your device by removing unwanted apps and bloatware. You can find the Universal Android Debloater at
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+>https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a>
+&lt;/span>
+.&lt;/p></description></item><item><title>Recommended Privacy Resources</title><link>https://simeononsecurity.ch/recommendations/privacy/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Recommended Privacy Resources"
+, "Privacy Rights"
+, "Identity Theft Protection"
+, "Digital Security"
+, "Cyber Criminals"
+, "Mass Surveillance"
+, "Personal Data Protection"
+, "Family Privacy"
+, "Children's Privacy"
+, "Teens' Privacy"
+, "Digital Security Hygiene"
+, "Credit Report"
+, "Credit Freeze"
+, "Defensive Computing Checklist"
+, "Personal Data Removal"
+, "Fraud Reporting"
+, "Privacy Services"
+, "Information Masking"
+, "Account Management"
+, "GDPR Requests"
+, "Account Deletion"</category><guid>https://simeononsecurity.ch/recommendations/privacy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover recommended privacy resources for protecting your rights, family, and personal information, including identity theft protection, digital security, and privacy rights, to stay safe from cyber criminals and mass surveillance.</description></item></channel></rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weak RSA on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/weak-rsa//img/banner.png</url><title>Weak RSA on simeononsecurity</title><link>https://simeononsecurity.ch/tags/weak-rsa/</link></image><link>https://simeononsecurity.ch/tags/weak-rsa/</link><description>Recent content in Weak RSA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><atom:link href="https://simeononsecurity.ch/tags/weak-rsa/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Challenge - Crypto - Weak RSA</title><link>https://simeononsecurity.ch/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "Challenges"
+, "Crypto"
+, "Weak RSA"
+, "RsaCtfTool"
+, "HTB Weak RSA Crypto"
+, "Easy challenge"
+, "RSA cipher"
+, "flag.enc"
+, "key.pub"
+, "OpenSSL package"
+, "automated RSA attack tool"
+, "python script"
+, "RsaCtfTool"
+, "python3"
+, "public key"
+, "uncipherfile"
+, "Flag Example"</category><guid>https://simeononsecurity.ch/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use an automated RSA attack tool, RsaCtfTool, to easily solve the HackTheBox Weak RSA Crypto challenge.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item></channel></rss>

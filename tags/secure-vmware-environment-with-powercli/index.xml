@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secure VMware Environment With PowerCLI on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/secure-vmware-environment-with-powercli//img/banner.png</url><title>Secure VMware Environment With PowerCLI on simeononsecurity</title><link>https://simeononsecurity.ch/tags/secure-vmware-environment-with-powercli/</link></image><link>https://simeononsecurity.ch/tags/secure-vmware-environment-with-powercli/</link><description>Recent content in Secure VMware Environment With PowerCLI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/secure-vmware-environment-with-powercli/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering VMware Security: How to Use PowerCLI to Run the VMware STIGs</title><link>https://simeononsecurity.ch/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Virtualization"
+, "IT Infrastructure"
+, "Automation"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliance"
+, "Scripting"
+, "Datacenter"</category><guid>https://simeononsecurity.ch/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to leverage PowerCLI to effectively run the VMware STIGs and secure your VMware environment in this comprehensive guide.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_depicting_a_computer_server_sh.png" length="863912" type="image/png"/></item></channel></rss>

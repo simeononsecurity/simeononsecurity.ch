@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powershell on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/powershell//img/banner.png</url><title>Powershell on simeononsecurity</title><link>https://simeononsecurity.ch/genre/powershell/</link></image><link>https://simeononsecurity.ch/genre/powershell/</link><description>Recent content in Powershell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering VMware Security: How to Use PowerCLI to Run the VMware STIGs</title><link>https://simeononsecurity.ch/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Virtualization"
+, "IT Infrastructure"
+, "Automation"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliance"
+, "Scripting"
+, "Datacenter"</category><guid>https://simeononsecurity.ch/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to leverage PowerCLI to effectively run the VMware STIGs and secure your VMware environment in this comprehensive guide.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_depicting_a_computer_server_sh.png" length="863912" type="image/png"/></item><item><title>Mastering Active Directory Administration with PowerShell: Installation and Usage Guide</title><link>https://simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administration"
+, "Scripting"
+, "IT"
+, "Automation"
+, "Windows Server"
+, "Microsoft"</category><guid>https://simeononsecurity.ch/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effectively install and utilize the Active Directory module for PowerShell to streamline your Windows Active Directory administration tasks.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Today I Learned more about WDAC Policy Creation and Implementation</title><link>https://simeononsecurity.ch/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Windows Security"
+, "Application Control"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Threat Protection"
+, "Windows Server 2019"
+, "Enterprise Security"
+, "Policy Management"
+, "Security Best Practices"</category><guid>https://simeononsecurity.ch/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned more Powershell and Ansible Modules</title><link>https://simeononsecurity.ch/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "PowerShell"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://simeononsecurity.ch/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned about
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Windows STIG">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/stiging-standalone-windows-servers/">
+&lt;a href="https://simeononsecurity.com/github/stiging-standalone-windows-servers/"
+rel="follow me"
+>Windows STIG&lt;/a>
+&lt;/span>
+Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.&lt;/p>
+&lt;h2 id="newupdated-repos">
+&lt;a href="#newupdated-repos" title="New/Updated Repos:">New/Updated Repos:&lt;/a>
+&lt;a href="#newupdated-repos" class="h-anchor" aria-hidden="true" title="New/Updated Repos:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-resources">
+&lt;a href="#learning-resources" title="Learning Resources:">Learning Resources:&lt;/a>
+&lt;a href="#learning-resources" class="h-anchor" aria-hidden="true" title="Learning Resources:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Auditpol, Sysmon, and Sysmon Configurations</title><link>https://simeononsecurity.ch/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Automation"
+, "Sysmon"
+, "Configurations"
+, "Windows Security"
+, "Event Monitoring"
+, "Windows Administration"
+, "Security Auditing"
+, "Threat Hunting"
+, "Malware Analysis"</category><guid>https://simeononsecurity.ch/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned and discovered several interesting things today related to Windows security and event monitoring.&lt;/p>
+&lt;p>First, two new and updated repositories were identified. The Automate-Sysmon repository provides a solution for automating the installation, configuration, and management of Sysmon, a popular tool for monitoring and logging system activity on Windows systems. The Windows-Audit-Policy repository provides a solution for automating the configuration of Windows audit policies, which control the auditing of various security-related events on Windows systems.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Security on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/web-security//img/banner.png</url><title>Web Security on simeononsecurity</title><link>https://simeononsecurity.ch/genre/web-security/</link></image><link>https://simeononsecurity.ch/genre/web-security/</link><description>Recent content in Web Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/web-security/index.xml" rel="self" type="application/rss+xml"/><item><title>SSL/TLS: A Guide to Secure Your Website Data and Navigate Future Cyber Challenges</title><link>https://simeononsecurity.ch/articles/decoding-ssl/tls_-securing-your-website-data/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Technology"
+, "Web Security"
+, "Data Encryption"
+, "Internet Protocols"
+, "Digital Privacy"
+, "Online Security"
+, "SSL/TLS Implementation"
+, "Cyber Threats"
+, "Future of Cybersecurity"</category><guid>https://simeononsecurity.ch/articles/decoding-ssl/tls_-securing-your-website-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the secrets of SSL/TLS to safeguard your website with robust encryption. Explore vulnerabilities, best practices, and the future of cybersecurity. Stay ahead and secure today!</description><enclosure url="https://simeononsecurity.ch/img/cover/TLS_%20Securing%20Your%20Website%20Data.jpeg" length="170236" type="image/jpeg"/></item><item><title>Next DNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: A Secure DNS Showdown</title><link>https://simeononsecurity.ch/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "DNS Comparison"
+, "Privacy Protection"
+, "Ad Blocking"
+, "Network Security"
+, "Internet Security"
+, "DNS Resolver"
+, "Online Privacy"
+, "Web Security"
+, "DNS Filtering"</category><guid>https://simeononsecurity.ch/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best DNS service for your security and privacy needs with our comprehensive comparison of Next DNS, AdGuard DNS, Quad9, Cloudflare DNS, and Pi-hole.</description><enclosure url="https://simeononsecurity.ch/img/cover/dns_security_shield.png" length="1832752" type="image/png"/></item><item><title>HSTS Preloading How to Enhance Website Security: A Step-by-Step Guide</title><link>https://simeononsecurity.ch/guides/enhance-website-security-with-hsts-preloading/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><category>
+"Web Security"
+, "HTTPS Implementation"
+, "Browser Security"
+, "Website Encryption"
+, "Internet Protection"
+, "SSL"
+, "TLS""
+, "Cybersecurity Guide"
+, "Online Privacy"
+, "Web Development"
+, "Internet Safety"</category><guid>https://simeononsecurity.ch/guides/enhance-website-security-with-hsts-preloading/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to improve website security and user trust by preloading HSTS settings on Chrome and Firefox. Follow our step-by-step guide for seamless implementation.</description><enclosure url="https://simeononsecurity.ch/img/cover/enhanced-website-security.png" length="1100381" type="image/png"/></item></channel></rss>

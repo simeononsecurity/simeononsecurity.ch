@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Hardening on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/security-hardening//img/banner.png</url><title>Security Hardening on simeononsecurity</title><link>https://simeononsecurity.ch/tags/security-hardening/</link></image><link>https://simeononsecurity.ch/tags/security-hardening/</link><description>Recent content in Security Hardening on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/security-hardening/index.xml" rel="self" type="application/rss+xml"/><item><title>Automating Security and Hardening: Comprehensive Hardening Resources</title><link>https://simeononsecurity.ch/github/awesome-hardening/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"system hardening"
+, "application hardening"
+, "STIG compliant"
+, "Windows optimization"
+, "Windows Defender hardening"
+, "Apache Web Server hardening"
+, ".NET STIG script"
+, "Adobe Reader DC STIG script"
+, "Firefox STIG script"
+, "Simeononsecurity"
+, "cybersecurity"
+, "automation"
+, "network security"
+, "IT security"
+, "system security"
+, "computer security"
+, "security hardening"
+, "security automation"
+, "Windows hardening"
+, "web server hardening"</category><guid>https://simeononsecurity.ch/github/awesome-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover a collection of scripts and configurations to optimize and harden your systems, making them STIG compliant and hacking resistant.</description></item><item><title>Automate Windows Compliance with Ansible STIG Playbooks</title><link>https://simeononsecurity.ch/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Windows Compliance"
+, "Ansible STIG Playbooks"
+, "Windows Hardening"
+, "STIG Scripts"
+, "STIG Compliance"
+, "Ansible Galaxy"
+, "PowerShell"
+, "PowerShell Script"
+, "Windows Server"
+, "Windows Defender"
+, ".NET"
+, "FireFox"
+, "Oracle JRE 8"
+, "Adobe Reader DC"
+, "Internet Connectivity"
+, "Offline Compatibility"
+, "Security Hardening"
+, "Windows Security"</category><guid>https://simeononsecurity.ch/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Streamline your security compliance with Ansible STIG Playbooks for Windows systems.</description></item><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://simeononsecurity.ch/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://simeononsecurity.ch/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+policies.
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.&lt;/p></description></item><item><title>Automate .NET STIG Compliance with PowerShell Script</title><link>https://simeononsecurity.ch/github/dot-net-stig-script/</link><pubDate>Thu, 20 Aug 2020 22:14:22 -0500</pubDate><category>
+".NET STIG Script"
+, ".NET Framework"
+, "STIG Compliance"
+, "Powershell Automation"
+, "FIPS"
+, "Windows Server"
+, "Microsoft"
+, "Administrative Powershell"
+, "Code Access Security Policy Tool"
+, "Machine.config"
+, "DoD Compliance"
+, "Cybersecurity"
+, "Information Assurance"
+, "GitHub Repository"
+, "XML"
+, "Windows 7"
+, "IIS"
+, "Configuration Management"
+, "Security Hardening"
+, "Automation"</category><guid>https://simeononsecurity.ch/github/dot-net-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Easily implement the .NET Framework STIG with this PowerShell script, modifying the machine.config file and applying required registry changes for FIPS and other controls.</description></item></channel></rss>

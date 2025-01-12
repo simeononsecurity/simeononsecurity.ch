@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript Security on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/javascript-security//img/banner.png</url><title>JavaScript Security on simeononsecurity</title><link>https://simeononsecurity.ch/tags/javascript-security/</link></image><link>https://simeononsecurity.ch/tags/javascript-security/</link><description>Recent content in JavaScript Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><atom:link href="https://simeononsecurity.ch/tags/javascript-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Hash Calculator - SimeonOnSecurity</title><link>https://simeononsecurity.ch/hash-calculator/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity tools"
+, "client-side JavaScript"
+, "hash calculator"
+, "file integrity verification"
+, "MD5 hash"
+, "SHA-1 hash"
+, "SHA-256 hash"
+, "JavaScript security"
+, "browser-based tools"
+, "client-side security"</category><guid>https://simeononsecurity.ch/hash-calculator/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity.</description></item></channel></rss>

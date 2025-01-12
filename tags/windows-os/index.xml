@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows OS on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/windows-os//img/banner.png</url><title>Windows OS on simeononsecurity</title><link>https://simeononsecurity.ch/tags/windows-os/</link></image><link>https://simeononsecurity.ch/tags/windows-os/</link><description>Recent content in Windows OS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/windows-os/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Windows Registry: Command Line Tips for Efficient Configuration</title><link>https://simeononsecurity.ch/guides/windows-registry-command-line-tips/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Windows"
+, "Command Line"
+, "Registry"
+, "System Configuration"
+, "Computer Security"
+, "Tech How-To"
+, "Windows Tips"
+, "IT Solutions"
+, "Software Tweaks"</category><guid>https://simeononsecurity.ch/guides/windows-registry-command-line-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows Registry with expert command line techniques. Learn to query, modify, and secure your system settings.</description><enclosure url="https://simeononsecurity.ch/img/cover/Windows_Registry_Wizard.png" length="1989003" type="image/png"/></item><item><title>Mastering Windows Batch Scripting: Automate Tasks and Boost Efficiency</title><link>https://simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Programming"
+, "Automation"
+, "Cybersecurity"
+, "IT Management"
+, "Productivity"
+, "Scripting"
+, "Windows OS"
+, "Coding"
+, "Software Development"</category><guid>https://simeononsecurity.ch/guides/windows-batch-scripting-automating-tasks-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of Windows batch scripting to automate tasks efficiently. Learn variables, loops, and more.</description><enclosure url="https://simeononsecurity.ch/img/cover/windows-batch-scripting-automation.png" length="1545436" type="image/png"/></item><item><title>Mastering Windows Networking: Boosting Connectivity and Collaboration</title><link>https://simeononsecurity.ch/guides/windows-networking-internet-tools-guide/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Networking"
+, "Windows Tools"
+, "Remote Desktop"
+, "Internet Tools"
+, "Network Troubleshooting"
+, "File Downloads"
+, "IT Skills"
+, "Computer Networking"
+, "Digital Connectivity"</category><guid>https://simeononsecurity.ch/guides/windows-networking-internet-tools-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of Windows networking tools for seamless connections and efficient downloads.</description><enclosure url="https://simeononsecurity.ch/img/cover/windows-networking-cartoon-connectivity.png" length="1506842" type="image/png"/></item><item><title>Windows Command Line: Master File Management for Efficiency</title><link>https://simeononsecurity.ch/guides/windows-command-line-master-file-management/</link><pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Productivity"
+, "Windows"
+, "File Management"
+, "Command Line"
+, "Data Organization"
+, "Workflow Optimization"
+, "Digital Efficiency"
+, "IT Skills"
+, "Computer Tips"</category><guid>https://simeononsecurity.ch/guides/windows-command-line-master-file-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Windows file management with expert command-line techniques. Learn file copying, moving, renaming, and advanced methods for efficient organization and workflow.</description><enclosure url="https://simeononsecurity.ch/img/cover/windows-command-line-master-file-management.png" length="1206004" type="image/png"/></item><item><title>Automate Windows 11 Installation: Bypass TPM, Secure Boot, and RAM Checks</title><link>https://simeononsecurity.ch/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Windows 11"
+, "Installation"
+, "Virtualization"
+, "Automation"
+, "Registry Keys"
+, "TPM Bypass"
+, "Secure Boot Bypass"
+, "RAM Bypass"
+, "vTPM"</category><guid>https://simeononsecurity.ch/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Streamline Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM.</description><enclosure url="https://simeononsecurity.ch/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Today I Learned about XFS Data Management and Recovery</title><link>https://simeononsecurity.ch/til/2021-01-09/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><category>
+"XFS File System"
+, "Data Management"
+, "Data Recovery"
+, "Backup and Restore"
+, "Red Hat"
+, "File System Best Practices"
+, "Shodan_PS Repository"
+, "Internet-connected Devices"
+, "GitHub Updates"
+, "Windows Compression Format"
+, "Linux Apps"
+, "PHP 8 Features"
+, "Technology Videos"</category><guid>https://simeononsecurity.ch/til/2021-01-09/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity has been keeping up with the latest developments in the tech world. Today, he learned about XFS and its capabilities for backing up and restoring file systems. He found an informative article on the Red Hat website detailing the process and best practices for using XFS.&lt;/p>
+&lt;p>SimeonOnSecurity also updated his Shodan_PS repository on GitHub, which contains useful scripts for using the popular search engine for Internet-connected devices.&lt;/p></description></item><item><title>Today I Learned about NTFS Tweaks and Optimizations</title><link>https://simeononsecurity.ch/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows File System"
+, "NTFS Tweaks"
+, "NTFS Optimization"
+, "File System Performance"
+, "Windows Performance"
+, "Windows Reliability"
+, "Windows File System Management"
+, "Windows Security"
+, "Windows Scripting"
+, "Windows Repository Updates"
+, "Windows Optimization"
+, "Windows Hardening"
+, "Windows Debloating"
+, "Information Security Videos"
+, "Security Tools"
+, "Security Techniques"</category><guid>https://simeononsecurity.ch/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.&lt;/p>
+&lt;p>In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.&lt;/p></description></item></channel></rss>

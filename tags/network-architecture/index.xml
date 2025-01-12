@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network Architecture on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/network-architecture//img/banner.png</url><title>Network Architecture on simeononsecurity</title><link>https://simeononsecurity.ch/tags/network-architecture/</link></image><link>https://simeononsecurity.ch/tags/network-architecture/</link><description>Recent content in Network Architecture on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/network-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Networking Basics: Understanding OSI Layers and TCP IP Model</title><link>https://simeononsecurity.ch/articles/networking-basics-osi-layers-tcp-ip-model/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"Networking Basics"
+, "OSI Layers"
+, "TCP IP Model"
+, "Network Protocols"
+, "Communication Models"
+, "Networking Fundamentals"
+, "Data Transmission"
+, "Network Troubleshooting"
+, "Network Architecture"
+, "Networking Concepts"</category><guid>https://simeononsecurity.ch/articles/networking-basics-osi-layers-tcp-ip-model/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gain a comprehensive understanding of the OSI layers and TCP IP model, essential frameworks in networking, to facilitate effective communication and troubleshooting.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_animated_illustration_showcasing_a_network.png" length="340153" type="image/png"/></item><item><title>Networking Basics: Understanding Switches, Routers, Gateways, Subnets, Firewalls &amp; DMZs</title><link>https://simeononsecurity.ch/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</link><pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate><category>
+"Networking"
+, "IT Infrastructure"
+, "Network Security"
+, "Network Architecture"
+, "Cybersecurity"
+, "Data Communication"
+, "Information Technology"
+, "IT Fundamentals"
+, "Network Management"
+, "Internet Connectivity"</category><guid>https://simeononsecurity.ch/articles/networking-basics-what-is-a-switch-router-gateway-subnet-firewall-and-dmz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the fundamentals of networking components and their significance in building reliable and secure networks, including switches, routers, gateways, subnets, firewalls, and DMZs.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_interconnected.png" length="294316" type="image/png"/></item><item><title>Network Plus Course: Enhancing Network Availability and Resilience</title><link>https://simeononsecurity.ch/network-plus/network-availability-resilience-enhancement/</link><pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate><category>
+"IT Certification"
+, "Networking Technology"
+, "Network Resilience"
+, "IT Training"
+, "Disaster Recovery"
+, "High Availability"
+, "Load Balancing"
+, "Network Redundancy"
+, "Infrastructure Support"
+, "IT Resilience"</category><guid>https://simeononsecurity.ch/network-plus/network-availability-resilience-enhancement/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about high availability, disaster recovery, load balancing, NIC teaming, and more to improve network uptime.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_animated_illustration_of_interconnected_ser.png" length="1833596" type="image/png"/></item><item><title>Network Plus Course: Routing Protocols, Concepts, and Optimization</title><link>https://simeononsecurity.ch/network-plus/routing-technologies-concepts/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Networking"
+, "Routing"
+, "Network Protocols"
+, "Network Management"
+, "Dynamic Routing"
+, "Static Routing"
+, "Bandwidth Management"
+, "Quality of Service"
+, "Network Devices"</category><guid>https://simeononsecurity.ch/network-plus/routing-technologies-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the world of routing technologies and concepts, from dynamic routing protocols like RIP, OSPF, EIGRP, and BGP to link state, distance vector, and hybrid routing protocols, as well as the configuration of static routing and default routes.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_of_interconnected_network_devi.png" length="935379" type="image/png"/></item><item><title>Ultimate Home Lab Project Ideas: Explore New Possibilities</title><link>https://simeononsecurity.ch/articles/home-lab-project-ideas/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><category>
+"home lab projects"
+, "virtualization environment"
+, "network security lab"
+, "home media server"
+, "home automation system"
+, "hands-on experience"
+, "IT skills"
+, "technology"
+, "software"
+, "hardware"
+, "experimentation"
+, "learning"
+, "network architecture"
+, "software configurations"
+, "cybersecurity"
+, "firewall"
+, "router"
+, "media streaming"
+, "home network"
+, "smart devices"
+, "automation"
+, "Raspberry Pi"
+, "Z-Wave"
+, "Zigbee"
+, "Plex"
+, "Kodi"
+, "Emby"
+, "VMware vSphere"
+, "Microsoft Hyper-V"
+, "Proxmox VE"
+, "build virtualization environment at home"
+, "create network security lab with pfSense"
+, "set up home media server with Plex"
+, "build home automation system with Raspberry Pi"</category><guid>https://simeononsecurity.ch/articles/home-lab-project-ideas/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover exciting and innovative home lab project ideas to expand your knowledge and enhance your IT skills.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_image_depicting_a_person_working.png" length="443787" type="image/png"/></item><item><title>Network Segmentation: How to Improve Security in Your Organization</title><link>https://simeononsecurity.ch/articles/how-to-perform-network-segmentation-for-improved-security/</link><pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate><category>
+"network segmentation"
+, "improve security"
+, "reduce risk"
+, "network performance"
+, "network management"
+, "security controls"
+, "firewalls"
+, "access controls"
+, "least privilege"
+, "authentication"
+, "testing"
+, "monitoring"
+, "cyber threats"
+, "data breaches"
+, "network architecture"
+, "comprehensive security"
+, "layered security"
+, "vulnerabilities"
+, "cyber attacks"
+, "employee training"</category><guid>https://simeononsecurity.ch/articles/how-to-perform-network-segmentation-for-improved-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A guide on how to perform network segmentation for improved security and reduced risk in your organization.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png" length="260076" type="image/png"/></item><item><title>IPv4 to IPv6 Transition Mechanisms: A Comprehensive Guide</title><link>https://simeononsecurity.ch/articles/ipv4-to-ipv6-transition-mechanisms/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"IPv4"
+, "IPv6"
+, "networking"
+, "transition mechanisms"
+, "dual stack"
+, "NAT64"
+, "DNS64"
+, "IPv6 tunneling"
+, "ISATAP"
+, "6to4"
+, "DS-lite"
+, "MAP-T"
+, "IPv6 migration"
+, "network protocols"
+, "internet protocol"
+, "network architecture"
+, "routing"
+, "subnetting"
+, "addressing"</category><guid>https://simeononsecurity.ch/articles/ipv4-to-ipv6-transition-mechanisms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about the different mechanisms used to transition from IPv4 to IPv6 in this comprehensive guide.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png" length="96662" type="image/png"/></item><item><title>Today I Learned Cyber Security techniques</title><link>https://simeononsecurity.ch/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Defensive Techniques"
+, "Offensive Techniques"
+, "UniFi Protect"
+, "Windows Product Activation"
+, "CPU Releases"
+, "YouTube Videos"
+, "Tech Reviews"
+, "Network Security"
+, "Data Protection"</category><guid>https://simeononsecurity.ch/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity completed multiple defensive and offensive labs on ImmersiveLabs. They also watched videos about the following topics:&lt;/p>
+&lt;p>UniFi Protect G3 Instant - Unboxing, review, and comparison (Crosstalk Solutions)
+Pirates, Crypto, and the Secret History of Windows Product Activation (Dave&amp;rsquo;s Garage)
+The release of a new CPU (LinusTechTips)
+Why someone moved to UniFi Protect (TechnoTim)&lt;/p>
+&lt;h2 id="immersivelabs">
+&lt;a href="#immersivelabs" title="ImmersiveLabs:">ImmersiveLabs:&lt;/a>
+&lt;a href="#immersivelabs" class="h-anchor" aria-hidden="true" title="ImmersiveLabs:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs">
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/">
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+>Completed multiple Defensive and Offensive Labs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="videos-of-interest">
+&lt;a href="#videos-of-interest" title="Videos of Interest:">Videos of Interest:&lt;/a>
+&lt;a href="#videos-of-interest" class="h-anchor" aria-hidden="true" title="Videos of Interest:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t">
+&lt;a href="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t"
+rel="noopener external" target="_blank"
+>Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=FpKNFCFABp0">
+&lt;a href="https://www.youtube.com/watch?v=FpKNFCFABp0"
+rel="noopener external" target="_blank"
+>Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=g2BEr6BCg_E">
+&lt;a href="https://www.youtube.com/watch?v=g2BEr6BCg_E"
+rel="noopener external" target="_blank"
+>LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="TechnoTim - Why I moved to UniFi Protect">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=W9XgDZAezkg">
+&lt;a href="https://www.youtube.com/watch?v=W9XgDZAezkg"
+rel="noopener external" target="_blank"
+>TechnoTim - Why I moved to UniFi Protect&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

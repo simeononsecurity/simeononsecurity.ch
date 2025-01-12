@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows STIG on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/windows-stig//img/banner.png</url><title>Windows STIG on simeononsecurity</title><link>https://simeononsecurity.ch/tags/windows-stig/</link></image><link>https://simeononsecurity.ch/tags/windows-stig/</link><description>Recent content in Windows STIG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/windows-stig/index.xml" rel="self" type="application/rss+xml"/><item><title>The Power of Cybersecurity: How to Build a Compliant &amp; Secure Windows System with Standalone-Windows-STIG-Script</title><link>https://simeononsecurity.ch/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"STIG Script"
+, "Windows Security"
+, "Compliant Windows System"
+, "System Hardening"
+, "Windows STIG"
+, "Secure Windows"
+, "Windows Compliance"
+, "Manual Install"
+, "Windows Updates"
+, "Adobe Reader"
+, "Firefox"
+, "Chrome"
+, "Internet Explorer 11"
+, ".NET Framework"
+, "Office"
+, "OneDrive"
+, "Java"
+, "Windows Defender"
+, "Windows Firewall"
+, "Mitigations"
+, "Nessus PID"
+, "VMware Horizon"
+, "Optional Hardening"</category><guid>https://simeononsecurity.ch/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to create a secure and compliant Windows system with the easy-to-use Standalone-Windows-STIG-Script, an informative article with step-by-step instructions and detailed parameter explanations.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png" length="225153" type="image/png"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://simeononsecurity.ch/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "Security Compliance"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://simeononsecurity.ch/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned and discovered several interesting things today related to Windows security and automation using Ansible.&lt;/p>
+&lt;p>First, two new and updated repositories were identified. The Windows_STIG_Ansible repository provides a complete solution for configuring Windows systems to meet Security Technical Implementation Guide (STIG) requirements, using the Ansible automation platform. The windows_stigs repository is a collection of Ansible roles for configuring Windows systems to meet STIG requirements, and it is available on Ansible Galaxy, a central repository for sharing Ansible content.&lt;/p></description></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://simeononsecurity.ch/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://simeononsecurity.ch/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.&lt;/p>
+&lt;p>In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool. The jq tool is a command-line utility that makes it easy to parse, filter, and manipulate JSON data.&lt;/p></description></item><item><title>Automating Windows Server STIG Compliance with STIG Scripts</title><link>https://simeononsecurity.ch/github/stiging-standalone-windows-servers/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><category>
+"Windows Server"
+, "STIG Compliance"
+, "Automation"
+, "Scripting"
+, "Enterprise Environments"
+, "Security"
+, "Windows Server 2012"
+, "Windows Server 2012 R2"
+, "Windows Server 2016"
+, "Windows Server 2019"</category><guid>https://simeononsecurity.ch/github/stiging-standalone-windows-servers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to automate STIGing Windows Server 2012, 2016, and 2019 with the Windows STIG Script, ensuring compliance with various organizations' recommendations and requirements.</description></item></channel></rss>

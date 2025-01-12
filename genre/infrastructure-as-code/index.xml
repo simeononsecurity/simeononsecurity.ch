@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure as Code on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/infrastructure-as-code//img/banner.png</url><title>Infrastructure as Code on simeononsecurity</title><link>https://simeononsecurity.ch/genre/infrastructure-as-code/</link></image><link>https://simeononsecurity.ch/genre/infrastructure-as-code/</link><description>Recent content in Infrastructure as Code on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/infrastructure-as-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Network Plus Course: Cloud Computing and Infrastructure Concepts</title><link>https://simeononsecurity.ch/network-plus/cloud-computing-infrastructure-concepts/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud Computing"
+, "Infrastructure Concepts"
+, "Deployment Models"
+, "Service Models"
+, "Infrastructure as Code"
+, "Security Implications"
+, "Elasticity"
+, "Scalability"
+, "Network Security"
+, "Connectivity Options"</category><guid>https://simeononsecurity.ch/network-plus/cloud-computing-infrastructure-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the different deployment and service models, infrastructure as code, and security implications in cloud computing. Gain insights into public, private, hybrid, and community clouds, SaaS, IaaS, PaaS, and DaaS, and harness the potential of automation, scalability, and network security measures.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_illustration_of_a_cloud_with_interc.png" length="1268940" type="image/png"/></item></channel></rss>

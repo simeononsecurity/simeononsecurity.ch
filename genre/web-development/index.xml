@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Development on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/web-development//img/banner.png</url><title>Web Development on simeononsecurity</title><link>https://simeononsecurity.ch/genre/web-development/</link></image><link>https://simeononsecurity.ch/genre/web-development/</link><description>Recent content in Web Development on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/web-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Secure Python Coding: Avoiding Unsafe Functions for Robust Applications</title><link>https://simeononsecurity.ch/articles/secure-python-coding-insecure-functions/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><category>
+"Programming"
+, "Cybersecurity"
+, "Software Development"
+, "Python"
+, "Coding"
+, "Web Development"
+, "Secure Coding"
+, "Technology"
+, "Computer Science"
+, "Data Security"</category><guid>https://simeononsecurity.ch/articles/secure-python-coding-insecure-functions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to write secure Python code by avoiding unsafe functions and adopting best practices for robust and reliable applications.</description><enclosure url="https://simeononsecurity.ch/img/cover/secure-python-coding-wall.png" length="1321382" type="image/png"/></item><item><title>Unsafe and Insecure C# Functions: Secure Coding Practices and Alternatives for Stronger Software</title><link>https://simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Software Development"
+, "C Sharp Programming"
+, "Cybersecurity"
+, "Code Security"
+, "Secure Coding"
+, "Programming Best Practices"
+, "Software Vulnerabilities"
+, "Cryptography"
+, "Web Development"
+, "Application Security"</category><guid>https://simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the risks of unsafe C sharp functions and learn secure alternatives.</description><enclosure url="https://simeononsecurity.ch/img/cover/secure-coding-shield.png" length="1516443" type="image/png"/></item><item><title>HSTS Preloading How to Enhance Website Security: A Step-by-Step Guide</title><link>https://simeononsecurity.ch/guides/enhance-website-security-with-hsts-preloading/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><category>
+"Web Security"
+, "HTTPS Implementation"
+, "Browser Security"
+, "Website Encryption"
+, "Internet Protection"
+, "SSL"
+, "TLS""
+, "Cybersecurity Guide"
+, "Online Privacy"
+, "Web Development"
+, "Internet Safety"</category><guid>https://simeononsecurity.ch/guides/enhance-website-security-with-hsts-preloading/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to improve website security and user trust by preloading HSTS settings on Chrome and Firefox. Follow our step-by-step guide for seamless implementation.</description><enclosure url="https://simeononsecurity.ch/img/cover/enhanced-website-security.png" length="1100381" type="image/png"/></item><item><title>Python Security Best Practices: Protecting Your Code and Data</title><link>https://simeononsecurity.ch/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python Security"
+, "Code Security"
+, "Data Protection"
+, "Software Development"
+, "Cybersecurity"
+, "Secure Coding"
+, "Web Development"
+, "Data Privacy"
+, "Application Security"
+, "IT Security"</category><guid>https://simeononsecurity.ch/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the essential Python security best practices to safeguard your code and data from potential threats, ensuring data protection, system integrity, and building trust.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>Optimizing Images with Python: Boost Performance and Enhance User Experience</title><link>https://simeononsecurity.ch/articles/optimizing-images-python-tips-tricks/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Web Development"
+, "Python Programming"
+, "Image Optimization"
+, "SEO"
+, "Web Performance"
+, "User Experience"
+, "Software Development"
+, "Automation"
+, "Programming"</category><guid>https://simeononsecurity.ch/articles/optimizing-images-python-tips-tricks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to optimize images with Python, reduce file sizes, and improve website performance and user experience with efficient techniques like compression, resizing, and format conversion.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_of_a_Python_script_optimizing.png" length="1613571" type="image/png"/></item><item><title>Secure Coding in Python: Best Practices for Robust Application Security</title><link>https://simeononsecurity.ch/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programming"
+, "Application Security"
+, "Python Development"
+, "Secure Coding"
+, "Web Development"
+, "Data Analysis"
+, "Artificial Intelligence"
+, "Software Development"
+, "Cybersecurity"
+, "Programming Languages"</category><guid>https://simeononsecurity.ch/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the best practices for secure coding in Python to ensure robust application security and protect against vulnerabilities like SQL injection and cross-site scripting.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png"/></item><item><title>Security Headers Check - SimeonOnSecurity</title><link>https://simeononsecurity.ch/securityheaders/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"security"
+, "web development"
+, "online tools"</category><guid>https://simeononsecurity.ch/securityheaders/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Check the security headers of your website for enhanced protection. An online tool to analyze Content Security Policy (CSP) and Strict-Transport-Security (HSTS) headers.</description></item></channel></rss>

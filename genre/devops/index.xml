@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/devops//img/banner.png</url><title>DevOps on simeononsecurity</title><link>https://simeononsecurity.ch/genre/devops/</link></image><link>https://simeononsecurity.ch/genre/devops/</link><description>Recent content in DevOps on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Effortless Docker Image Optimization: 8 Proven Tips for Efficiency</title><link>https://simeononsecurity.ch/guides/docker-image-optimization-tips/</link><pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate><category>
+"Docker Optimization"
+, "Containerization"
+, "DevOps"
+, "Software Efficiency"
+, "Image Size Reduction"
+, "Docker Best Practices"
+, "Container Security"
+, "Software Packaging"
+, "Development Speed"
+, "CI/CD"</category><guid>https://simeononsecurity.ch/guides/docker-image-optimization-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the secrets of Docker image optimization effortlessly with these 8 proven tips. Reduce size, boost efficiency, and cut costs now!</description><enclosure url="https://simeononsecurity.ch/img/cover/docker-container-optimizing-size.png" length="1414479" type="image/png"/></item><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Automation Showdown: Ansible vs. Puppet vs. Chef - A Comparison of Key Automation Tools</title><link>https://simeononsecurity.ch/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Automation Tools"
+, "Configuration Management"
+, "IT Infrastructure"
+, "DevOps"
+, "IT Operations"
+, "Cloud Automation"
+, "Software Deployment"
+, "Infrastructure Management"
+, "Open-Source Tools"</category><guid>https://simeononsecurity.ch/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the differences between Ansible, Puppet, and Chef to choose the right automation tool for your organization's needs in this comprehensive comparison.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Ansible Automation: From Plain Ansible to Ansible Tower and Semaphore</title><link>https://simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Infrastructure Management"
+, "Configuration Management"
+, "DevOps"
+, "IT Operations"
+, "Open Source"
+, "Workflow Management"
+, "Scalability"
+, "Collaboration"
+, "Ansible Tools"</category><guid>https://simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Ansible automation with a comparison of plain Ansible, Ansible Tower, and Ansible Semaphore, and choose the right tool for efficient infrastructure management.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Today I Learned more about Ansible conditionals and variable management</title><link>https://simeononsecurity.ch/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Ansible"
+, "Configuration Management"
+, "IT Infrastructure"
+, "DevOps"
+, "Playbook Development"
+, "Variable Management"
+, "Conditional Execution"</category><guid>https://simeononsecurity.ch/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://simeononsecurity.ch/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://simeononsecurity.ch/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.&lt;/p>
+&lt;p>In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool. The jq tool is a command-line utility that makes it easy to parse, filter, and manipulate JSON data.&lt;/p></description></item></channel></rss>

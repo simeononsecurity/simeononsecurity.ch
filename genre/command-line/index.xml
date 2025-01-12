@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Command Line on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/command-line//img/banner.png</url><title>Command Line on simeononsecurity</title><link>https://simeononsecurity.ch/genre/command-line/</link></image><link>https://simeononsecurity.ch/genre/command-line/</link><description>Recent content in Command Line on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 26 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/command-line/index.xml" rel="self" type="application/rss+xml"/><item><title>Boost PowerShell Performance: Harness Ngen for Effortless Speed</title><link>https://simeononsecurity.ch/guides/boost-powershell-performance-with-ngen/</link><pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Software Optimization"
+, "PowerShell Tips"
+, "Performance Improvement"
+, "Scripting"
+, "Native Image Generation"
+, "Command Line"
+, "IT Efficiency"
+, "Developer Tools"
+, "Coding Techniques"</category><guid>https://simeononsecurity.ch/guides/boost-powershell-performance-with-ngen/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to supercharge PowerShell startup and execution with Ngen, enhancing performance effortlessly.</description><enclosure url="https://simeononsecurity.ch/img/cover/boost-efficiency-rocket.png" length="775428" type="image/png"/></item><item><title>Mastering Windows Command Line: PowerShell, WSL, and Productivity Boost</title><link>https://simeononsecurity.ch/guides/windows-command-line-powershell-wsl-guide/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Command Line"
+, "Windows Tools"
+, "PowerShell Scripting"
+, "Windows Subsystem for Linux"
+, "Automation"
+, "System Administration"
+, "Efficiency"
+, "Productivity"
+, "Linux Integration"</category><guid>https://simeononsecurity.ch/guides/windows-command-line-powershell-wsl-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the Power of Windows Command Line with PowerShell and WSL. Enhance Productivity and Bridge Windows-Linux Gap.</description><enclosure url="https://simeononsecurity.ch/img/cover/windows-linux-collaboration.png" length="908459" type="image/png"/></item><item><title>Mastering Windows Registry: Command Line Tips for Efficient Configuration</title><link>https://simeononsecurity.ch/guides/windows-registry-command-line-tips/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Windows"
+, "Command Line"
+, "Registry"
+, "System Configuration"
+, "Computer Security"
+, "Tech How-To"
+, "Windows Tips"
+, "IT Solutions"
+, "Software Tweaks"</category><guid>https://simeononsecurity.ch/guides/windows-registry-command-line-tips/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the potential of Windows Registry with expert command line techniques. Learn to query, modify, and secure your system settings.</description><enclosure url="https://simeononsecurity.ch/img/cover/Windows_Registry_Wizard.png" length="1989003" type="image/png"/></item><item><title>Windows Command Line: Master File Management for Efficiency</title><link>https://simeononsecurity.ch/guides/windows-command-line-master-file-management/</link><pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Productivity"
+, "Windows"
+, "File Management"
+, "Command Line"
+, "Data Organization"
+, "Workflow Optimization"
+, "Digital Efficiency"
+, "IT Skills"
+, "Computer Tips"</category><guid>https://simeononsecurity.ch/guides/windows-command-line-master-file-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Windows file management with expert command-line techniques. Learn file copying, moving, renaming, and advanced methods for efficient organization and workflow.</description><enclosure url="https://simeononsecurity.ch/img/cover/windows-command-line-master-file-management.png" length="1206004" type="image/png"/></item><item><title>Mastering Windows Command Line: Your Gateway to Efficient System Management</title><link>https://simeononsecurity.ch/guides/windows-command-line-guide/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Computing"
+, "Operating Systems"
+, "Windows"
+, "Command Line"
+, "System Management"
+, "File Navigation"
+, "Directory Operations"
+, "Productivity"
+, "Software Tools"</category><guid>https://simeononsecurity.ch/guides/windows-command-line-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the essential Windows Command Prompt commands for efficient file and directory management, empowering your system interactions.</description><enclosure url="https://simeononsecurity.ch/img/cover/mastering-windows-command-line.png" length="1267546" type="image/png"/></item><item><title>Should You Learn Programming for IT and Cyber Security?</title><link>https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item></channel></rss>

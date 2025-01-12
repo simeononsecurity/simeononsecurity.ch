@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation Framework on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/automation-framework//img/banner.png</url><title>Automation Framework on simeononsecurity</title><link>https://simeononsecurity.ch/tags/automation-framework/</link></image><link>https://simeononsecurity.ch/tags/automation-framework/</link><description>Recent content in Automation Framework on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/automation-framework/index.xml" rel="self" type="application/rss+xml"/><item><title>CheckMK: A Comprehensive Monitoring Solution for Efficient IT Infrastructure Management</title><link>https://simeononsecurity.ch/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "IT Infrastructure"
+, "Network Monitoring"
+, "Application Monitoring"
+, "IT Operations"
+, "Performance Analytics"
+, "Automation"
+, "Event Management"
+, "Scalability"
+, "Flexibility"</category><guid>https://simeononsecurity.ch/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the features, benefits, and use cases of CheckMK, a comprehensive monitoring solution for proactive IT infrastructure management.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://simeononsecurity.ch/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://simeononsecurity.ch/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.&lt;/p>
+&lt;p>In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool. The jq tool is a command-line utility that makes it easy to parse, filter, and manipulate JSON data.&lt;/p></description></item></channel></rss>

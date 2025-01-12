@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenWRT on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/openwrt//img/banner.png</url><title>OpenWRT on simeononsecurity</title><link>https://simeononsecurity.ch/tags/openwrt/</link></image><link>https://simeononsecurity.ch/tags/openwrt/</link><description>Recent content in OpenWRT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/openwrt/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring Hotspot 2.0 / Passpoint 2.0 on OpenWRT</title><link>https://simeononsecurity.ch/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt/</link><pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Networking"
+, "Wireless Solutions"
+, "OpenWRT Configuration"
+, "Passpoint Setup"
+, "Cybersecurity"
+, "WiFi Standards"
+, "Router Enhancements"
+, "Internet Connectivity"
+, "Network Optimization"</category><guid>https://simeononsecurity.ch/guides/unlock-seamless-connectivity-hotspot-2.0-openwrt/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the step-by-step guide to create Hotspot 2.0 on OpenWRT, ensuring seamless connections and enhanced security. Dive into the future of Wi-Fi effortlessly.</description><enclosure url="https://simeononsecurity.ch/img/cover/hotspot2.0-openwrt-setup.png" length="1528217" type="image/png"/></item></channel></rss>

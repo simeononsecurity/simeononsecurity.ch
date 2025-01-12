@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Guidelines on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/security-guidelines//img/banner.png</url><title>Security Guidelines on simeononsecurity</title><link>https://simeononsecurity.ch/tags/security-guidelines/</link></image><link>https://simeononsecurity.ch/tags/security-guidelines/</link><description>Recent content in Security Guidelines on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 02 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/security-guidelines/index.xml" rel="self" type="application/rss+xml"/><item><title>Mozilla FireFox STIG and Hardening: Complete Guide for Configuring Safe Browsing</title><link>https://simeononsecurity.ch/guides/enhance-firefox-security-configuring-guide/</link><pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Internet"
+, "Browsers"
+, "Information Security"
+, "Web Safety"
+, "Digital Privacy"
+, "Network Security"
+, "IT Security"
+, "Web Browsing"</category><guid>https://simeononsecurity.ch/guides/enhance-firefox-security-configuring-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Boost security with comprehensive Firefox configurations for safe browsing, adhering to compliance standards.</description><enclosure url="https://simeononsecurity.ch/img/cover/Secure_Browsing_Lock_Symbol.png" length="925842" type="image/png"/></item><item><title>Enhancing Oracle JRE 8 Security: Best Practices, STIGs, and Configuration Examples</title><link>https://simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Software Development"
+, "Computer Science"
+, "Programming"
+, "Security"
+, "Java Programming"
+, "Software Security"
+, "IT Management"
+, "System Administration"</category><guid>https://simeononsecurity.ch/guides/enhance-oracle-jre-8-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover key practices for securing Oracle JRE 8 with code examples and best practices. Strengthen your system's defense against vulnerabilities.</description><enclosure url="https://simeononsecurity.ch/img/cover/enhanced-jre-security.png" length="1038249" type="image/png"/></item><item><title>Enhancing Cybersecurity: Reducing Attack Surface with Group Policy Settings</title><link>https://simeononsecurity.ch/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Windows Group Policy"
+, "Attack Surface Reduction"
+, "IT Security"
+, "Network Protection"
+, "Data Defense"
+, "Digital Resilience"
+, "System Hardening"
+, "Security Best Practices"
+, "Risk Mitigation"</category><guid>https://simeononsecurity.ch/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how Windows Group Policy settings bolster cybersecurity by minimizing attack surface vulnerabilities for stronger protection.</description><enclosure url="https://simeononsecurity.ch/img/cover/Cybersecurity_Shield_Defense.png" length="1528854" type="image/png"/></item><item><title>Mastering Least Privilege: Secure Access Control Strategies for Linux Systems</title><link>https://simeononsecurity.ch/articles/mastering-least-privilege-access-control-linux/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Linux Security"
+, "Access Control"
+, "IT Security"
+, "Network Security"
+, "Information Protection"
+, "Data Privacy"
+, "Cyber Threats"
+, "Risk Management"
+, "Security Best Practices"</category><guid>https://simeononsecurity.ch/articles/mastering-least-privilege-access-control-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance cybersecurity with least privilege access control on Linux. Learn implementation steps, best practices, and troubleshooting tips.</description><enclosure url="https://simeononsecurity.ch/img/cover/secure-access-control-linux.png" length="1356352" type="image/png"/></item><item><title>Web Application Firewall (WAF) Configuration Checklist</title><link>https://simeononsecurity.ch/checklists/web-application-security-checklist/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><category>
+"Web Application Security"
+, "Web Application Firewall"
+, "WAF Configuration"
+, "Web Security Best Practices"
+, "Application Protection"
+, "Cybersecurity"
+, "Web Application Defense"
+, "Security Guidelines"
+, "Web Application Attacks"
+, "WAF Deployment"</category><guid>https://simeononsecurity.ch/checklists/web-application-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover best practices for configuring and deploying a web application firewall (WAF) to protect against common web attacks, ensuring robust security for your web applications.</description><enclosure url="https://simeononsecurity.ch/img/cover/web-application-firewall-security.png" length="1469719" type="image/png"/></item><item><title>Password Security Checklist: Strengthening Your Accounts and Protecting Sensitive Information</title><link>https://simeononsecurity.ch/checklists/password-security-checklist/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><category>
+"Password Security"
+, "Account Protection"
+, "Sensitive Information"
+, "Password Management"
+, "Multi-Factor Authentication"
+, "Security Guidelines"
+, "Strong Passwords"
+, "Password Managers"
+, "Secure Storage"
+, "Password Confidentiality"</category><guid>https://simeononsecurity.ch/checklists/password-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential guidelines for creating strong passwords, tips for effective password management, and instructions for setting up multi-factor authentication to enhance the security of your accounts.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_depicting_a_lock_with_a_shield_.png" length="866119" type="image/png"/></item></channel></rss>

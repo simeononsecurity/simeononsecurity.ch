@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Group Policy on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/windows-group-policy//img/banner.png</url><title>Windows Group Policy on simeononsecurity</title><link>https://simeononsecurity.ch/tags/windows-group-policy/</link></image><link>https://simeononsecurity.ch/tags/windows-group-policy/</link><description>Recent content in Windows Group Policy on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 13 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/windows-group-policy/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Cybersecurity: Reducing Attack Surface with Group Policy Settings</title><link>https://simeononsecurity.ch/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Windows Group Policy"
+, "Attack Surface Reduction"
+, "IT Security"
+, "Network Protection"
+, "Data Defense"
+, "Digital Resilience"
+, "System Hardening"
+, "Security Best Practices"
+, "Risk Mitigation"</category><guid>https://simeononsecurity.ch/articles/enhance-cybersecurity-reduce-attack-surface-group-policy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how Windows Group Policy settings bolster cybersecurity by minimizing attack surface vulnerabilities for stronger protection.</description><enclosure url="https://simeononsecurity.ch/img/cover/Cybersecurity_Shield_Defense.png" length="1528854" type="image/png"/></item><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://simeononsecurity.ch/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://simeononsecurity.ch/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+policies.
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.&lt;/p></description></item></channel></rss>

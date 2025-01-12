@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Defender Antivirus STIG V2R1 on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/windows-defender-antivirus-stig-v2r1//img/banner.png</url><title>Windows Defender Antivirus STIG V2R1 on simeononsecurity</title><link>https://simeononsecurity.ch/tags/windows-defender-antivirus-stig-v2r1/</link></image><link>https://simeononsecurity.ch/tags/windows-defender-antivirus-stig-v2r1/</link><description>Recent content in Windows Defender Antivirus STIG V2R1 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/windows-defender-antivirus-stig-v2r1/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Windows 10 Security with Defender Hardening Script</title><link>https://simeononsecurity.ch/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Windows 10 Security"
+, "PowerShell Script"
+, "Hardening"
+, "Defender Hardening"
+, "Security Automation"
+, "Compliance"
+, "Controlled Folder Access"
+, "Intrusion Prevention System"
+, "Application Control"
+, "Attack Surface Reduction"
+, "Exploit Protections"
+, "Cloud-Delivered Protections"
+, "Network Protections"
+, "Windows Defender STIG Script"
+, "Windows Defender STIG"
+, "Windows Defender Antivirus STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://simeononsecurity.ch/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to enhance Windows 10 security with a PowerShell script that hardens Windows Defender Antivirus, implementing all the requirements of the Windows Defender Antivirus STIG V2R1.</description></item></channel></rss>
