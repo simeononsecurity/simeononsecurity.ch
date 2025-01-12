@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Defender on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/genre/windows-defender//img/banner.png</url><title>Windows Defender on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/windows-defender/</link></image><link>https://ro.simeononsecurity.com/genre/windows-defender/</link><description>Recent content in Windows Defender on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/windows-defender/index.xml" rel="self" type="application/rss+xml"/><item><title>Îmbunătățiți securitatea sistemului cu comenzile PowerShell Windows Defender</title><link>https://ro.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Comenzi PowerShell"
+, "securitatea sistemului"
+, "controlul liniei de comandă"
+, "antivirus"
+, "Sisteme de operare Windows"
+, "protecție împotriva malware-ului"
+, "setări avansate de securitate"
+, "automatizarea operațiunilor de securitate"
+, "Windows PowerShell"</category><guid>https://ro.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți puterea comenzilor Windows Defender PowerShell și învățați cum să vă îmbunătățiți securitatea sistemului cu ajutorul controlului prin linia de comandă.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png"/></item><item><title>Astăzi am învățat mai multe despre crearea și implementarea politicilor WDAC</title><link>https://ro.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Securitatea Windows"
+, "Controlul aplicațiilor"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protecția împotriva amenințărilor"
+, "Windows Server 2019"
+, "Securitatea întreprinderilor"
+, "Managementul politicilor"
+, "Cele mai bune practici de securitate"</category><guid>https://ro.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Astăzi am învățat mai multe despre Ansible condiționale și gestionarea variabilelor Ansible</description></item></channel></rss>

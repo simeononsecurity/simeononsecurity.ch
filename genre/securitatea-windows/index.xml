@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Securitatea Windows on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/genre/securitatea-windows//img/banner.png</url><title>Securitatea Windows on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/securitatea-windows/</link></image><link>https://ro.simeononsecurity.com/genre/securitatea-windows/</link><description>Recent content in Securitatea Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/securitatea-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Cele mai bune practici de bază de întărire a Windows pentru Windows 10 și Windows 11 securizate</title><link>https://ro.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Întărirea ferestrelor"
+, "Securitatea Windows"
+, "Întărirea Windows 10"
+, "Întărirea Windows 11"
+, "Cele mai bune practici de securitate Windows"
+, "Sfaturi de securitate pentru Windows"
+, "Instrucțiuni de securitate pentru Windows"
+, "Securizarea sistemelor de operare Windows"
+, "Întărirea sistemului Windows"
+, "Măsuri de securitate pentru Windows"</category><guid>https://ro.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți strategii eficiente pentru îmbunătățirea securității sistemelor Windows 10 și Windows 11 prin tehnici complete de întărire și bune practici.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>Care sunt cele mai bune soluții de criptare completă a discului pentru Windows?</title><link>https://ro.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Securitatea datelor"
+, "Securitatea cibernetică"
+, "Criptare Windows"
+, "Criptarea discurilor"
+, "Protecția datelor"
+, "Software de criptare"
+, "Soluții de securitate"
+, "Securitatea Windows"
+, "Confidențialitatea datelor"
+, "Securitate informatică"</category><guid>https://ro.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți cele mai bune soluții de criptare integrală a discului pentru Windows, care oferă o securitate robustă și vă protejează datele sensibile de accesul neautorizat.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png" length="1206564" type="image/png"/></item><item><title>Astăzi am învățat mai multe despre crearea și implementarea politicilor WDAC</title><link>https://ro.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Securitatea Windows"
+, "Controlul aplicațiilor"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protecția împotriva amenințărilor"
+, "Windows Server 2019"
+, "Securitatea întreprinderilor"
+, "Managementul politicilor"
+, "Cele mai bune practici de securitate"</category><guid>https://ro.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Astăzi am învățat mai multe despre Ansible condiționale și gestionarea variabilelor Ansible</description></item><item><title>Astăzi am învățat mai multe module Powershell și Ansible</title><link>https://ro.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Conformitate"
+, "Ansible"
+, "Ansible Playbooks"
+, "Colecții Ansible"
+, "Securitatea Windows"
+, "Administrare Windows"
+, "PowerShell"
+, "Automatizare IT"
+, "Managementul configurației"</category><guid>https://ro.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a aflat despre și a găsit interesant astăzi**&lt;/p>
+&lt;p>SimeonOnSecurity a aflat despre Windows STIG Ansible și a actualizat depozitele aferente. De asemenea, a studiat diverse resurse Microsoft și Ansible legate de powershell, remoting și executarea de comenzi shell/powershell pe Windows folosind module precum invoke-command, start-process, win_powershell, win_shell, psexec și win_psexec.&lt;/p>
+&lt;h2 id="repos-uri-noiactualizate">
+&lt;a href="#repos-uri-noiactualizate" title="Repos-uri noi/actualizate:">Repos-uri noi/actualizate:&lt;/a>
+&lt;a href="#repos-uri-noiactualizate" class="h-anchor" aria-hidden="true" title="Repos-uri noi/actualizate:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="resurse-de-învățare">
+&lt;a href="#resurse-de-%c3%aenv%c4%83%c8%9bare" title="Resurse de învățare:">Resurse de învățare:&lt;/a>
+&lt;a href="#resurse-de-%c3%aenv%c4%83%c8%9bare" class="h-anchor" aria-hidden="true" title="Resurse de învățare:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://ro.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Conformitate"
+, "Ansible"
+, "Ansible Playbooks"
+, "Colecții Ansible"
+, "Securitatea Windows"
+, "Administrare Windows"
+, "Conformitatea în materie de securitate"
+, "Automatizare IT"
+, "Managementul configurației"</category><guid>https://ro.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a aflat despre și a găsit interesant astăzi**&lt;/p>
+&lt;p>SimeonOnSecurity a învățat și a descoperit astăzi mai multe lucruri interesante legate de securitatea și automatizarea Windows folosind Ansible.&lt;/p>
+&lt;p>În primul rând, au fost identificate două depozite noi și actualizate. Depozitul Windows_STIG_Ansible oferă o soluție completă pentru configurarea sistemelor Windows pentru a îndeplini cerințele Ghidului de implementare tehnică a securității (STIG), utilizând platforma de automatizare Ansible. Depozitul windows_stigs este o colecție de roluri Ansible pentru configurarea sistemelor Windows pentru a îndeplini cerințele STIG și este disponibil pe Ansible Galaxy, un depozit central pentru partajarea conținutului Ansible.&lt;/p></description></item><item><title>Astăzi am învățat despre Auditpol, Sysmon, și configurații Sysmon</title><link>https://ro.simeononsecurity.com/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Automatizare"
+, "Sysmon"
+, "Configurații"
+, "Securitatea Windows"
+, "Monitorizarea evenimentelor"
+, "Administrare Windows"
+, "Auditul de securitate"
+, "Vânătoarea de amenințări"
+, "Analiza malware-ului"</category><guid>https://ro.simeononsecurity.com/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Ce a aflat SimeonOnSecurity despre și a găsit interesant astăzi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity a învățat și a descoperit astăzi mai multe lucruri interesante legate de securitatea Windows și monitorizarea evenimentelor.&lt;/p>
+&lt;p>În primul rând, au fost identificate două depozite noi și actualizate. Depozitul Automate-Sysmon oferă o soluție pentru automatizarea instalării, configurării și gestionării Sysmon, un instrument popular pentru monitorizarea și înregistrarea activității sistemului pe sistemele Windows. Depozitul Windows-Audit-Policy oferă o soluție pentru automatizarea configurării politicilor de audit Windows, care controlează auditarea diferitelor evenimente legate de securitate pe sistemele Windows.&lt;/p></description></item><item><title>Astăzi am învățat cum să manipulez și să analizez JSON în PowerShell și Bash</title><link>https://ro.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Conformitate"
+, "Securitatea Windows"
+, "Ansible Playbooks"
+, "Colecții Ansible"
+, "Securitate IT"
+, "Managementul configurației"
+, "DevOps"
+, "Administrare Windows"
+, "Configurația sistemului"</category><guid>https://ro.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Ce a aflat SimeonOnSecurity despre și a găsit interesant astăzi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity a actualizat o pagină de pe site-ul său și a aflat despre câteva resurse pe care le consideră interesante. Pagina actualizată este scrierea pentru Invite Challenge pe HackTheBox. Această pagină oferă o analiză în profunzime a procesului de rezolvare a provocării atât pe sisteme Windows cât și Linux.&lt;/p>
+&lt;p>Pe lângă pagina actualizată, SimeonOnSecurity a mai descoperit și câteva resurse de învățare utile. Una dintre aceste resurse este o postare pe blog a lui Cameron Nokes care se concentrează pe lucrul cu JSON în bash folosind instrumentul jq. Instrumentul jq este un utilitar de linie de comandă care facilitează analiza, filtrarea și manipularea datelor JSON.&lt;/p></description></item></channel></rss>

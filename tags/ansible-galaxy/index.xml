@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible Galaxy on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/ansible-galaxy//img/banner.png</url><title>Ansible Galaxy on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/ansible-galaxy/</link></image><link>https://ro.simeononsecurity.com/tags/ansible-galaxy/</link><description>Recent content in Ansible Galaxy on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/ansible-galaxy/index.xml" rel="self" type="application/rss+xml"/><item><title>Maximizați eficiența cloudului hibrid: Deblocarea întregului potențial al lui Ansible</title><link>https://ro.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link><pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate><category>
+"Ops"
+, "CICD"
+, "scalabilitate"
+, "performanță"
+, "securitate"
+, "conformitate"
+, "integrare"
+, "Servicii Web Amazon"
+, "Microsoft Azure"
+, "Google Cloud"
+, "Turnul Ansible"
+, "Ansible Galaxy"
+, "Ansible Vault"
+, "economii de costuri"
+, "Eficiența IT"</category><guid>https://ro.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți modul în care capacitățile de automatizare ale Ansible pot eficientiza, securiza și optimiza mediile cloud hibride pentru o productivitate îmbunătățită.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://ro.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Conformitate"
+, "Ansible"
+, "Ansible Playbooks"
+, "Colecții Ansible"
+, "Securitatea Windows"
+, "Administrare Windows"
+, "Conformitatea în materie de securitate"
+, "Automatizare IT"
+, "Managementul configurației"</category><guid>https://ro.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a aflat despre și a găsit interesant astăzi**&lt;/p>
+&lt;p>SimeonOnSecurity a învățat și a descoperit astăzi mai multe lucruri interesante legate de securitatea și automatizarea Windows folosind Ansible.&lt;/p>
+&lt;p>În primul rând, au fost identificate două depozite noi și actualizate. Depozitul Windows_STIG_Ansible oferă o soluție completă pentru configurarea sistemelor Windows pentru a îndeplini cerințele Ghidului de implementare tehnică a securității (STIG), utilizând platforma de automatizare Ansible. Depozitul windows_stigs este o colecție de roluri Ansible pentru configurarea sistemelor Windows pentru a îndeplini cerințele STIG și este disponibil pe Ansible Galaxy, un depozit central pentru partajarea conținutului Ansible.&lt;/p></description></item></channel></rss>

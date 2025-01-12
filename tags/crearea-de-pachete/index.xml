@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crearea De Pachete on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/crearea-de-pachete//img/banner.png</url><title>Crearea De Pachete on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/crearea-de-pachete/</link></image><link>https://ro.simeononsecurity.com/tags/crearea-de-pachete/</link><description>Recent content in Crearea De Pachete on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/crearea-de-pachete/index.xml" rel="self" type="application/rss+xml"/><item><title>Astăzi am învățat cum să creez pachete de ciocolată</title><link>https://ro.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Gestionarea pachetelor Windows"
+, "Crearea pachetului"
+, "Managementul pachetelor"
+, "Infrastructura ca și cod (IaC)"
+, "Implementarea de software pentru Windows"
+, "Ambalare software"
+, "Automatizare Windows"
+, "Depozite de pachete"
+, "Instrumente Windows"</category><guid>https://ro.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Astăzi am învățat mai multe despre Ansible condiționale și gestionarea variabilelor Ansible</description></item></channel></rss>

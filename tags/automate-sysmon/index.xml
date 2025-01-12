@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automate-Sysmon on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/automate-sysmon//img/banner.png</url><title>Automate-Sysmon on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/automate-sysmon/</link></image><link>https://ro.simeononsecurity.com/tags/automate-sysmon/</link><description>Recent content in Automate-Sysmon on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/automate-sysmon/index.xml" rel="self" type="application/rss+xml"/><item><title>Astăzi am învățat despre Auditpol, Sysmon, și configurații Sysmon</title><link>https://ro.simeononsecurity.com/til/2021-05-11/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Automatizare"
+, "Sysmon"
+, "Configurații"
+, "Securitatea Windows"
+, "Monitorizarea evenimentelor"
+, "Administrare Windows"
+, "Auditul de securitate"
+, "Vânătoarea de amenințări"
+, "Analiza malware-ului"</category><guid>https://ro.simeononsecurity.com/til/2021-05-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Ce a aflat SimeonOnSecurity despre și a găsit interesant astăzi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity a învățat și a descoperit astăzi mai multe lucruri interesante legate de securitatea Windows și monitorizarea evenimentelor.&lt;/p>
+&lt;p>În primul rând, au fost identificate două depozite noi și actualizate. Depozitul Automate-Sysmon oferă o soluție pentru automatizarea instalării, configurării și gestionării Sysmon, un instrument popular pentru monitorizarea și înregistrarea activității sistemului pe sistemele Windows. Depozitul Windows-Audit-Policy oferă o soluție pentru automatizarea configurării politicilor de audit Windows, care controlează auditarea diferitelor evenimente legate de securitate pe sistemele Windows.&lt;/p></description></item></channel></rss>

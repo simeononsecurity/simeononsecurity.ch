@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/genre/devops//img/banner.png</url><title>DevOps on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/devops/</link></image><link>https://ro.simeononsecurity.com/genre/devops/</link><description>Recent content in DevOps on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Confruntarea automatizărilor: Ansible vs. Puppet vs. Chef - O comparație între principalele instrumente de automatizare</title><link>https://ro.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Instrumente de automatizare"
+, "Managementul configurației"
+, "Infrastructura IT"
+, "DevOps"
+, "Operațiuni IT"
+, "Automatizare în cloud"
+, "Implementarea de software"
+, "Managementul infrastructurii"
+, "Instrumente Open-Source"</category><guid>https://ro.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți diferențele dintre Ansible, Puppet și Chef pentru a alege instrumentul de automatizare potrivit pentru nevoile organizației dvs. în această comparație cuprinzătoare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Automatizarea Ansible: De la Ansible simplu la Ansible Tower și Semaphore</title><link>https://ro.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Managementul infrastructurii"
+, "Managementul configurației"
+, "DevOps"
+, "Operațiuni IT"
+, "Sursă deschisă"
+, "Managementul fluxului de lucru"
+, "Scalabilitate"
+, "Colaborare"
+, "Instrumente Ansible"</category><guid>https://ro.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți puterea automatizării Ansible cu o comparație între Ansible simplu, Ansible Tower și Ansible Semaphore și alegeți instrumentul potrivit pentru o gestionare eficientă a infrastructurii.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Astăzi am învățat mai multe despre Ansible condiționale și gestionarea variabilelor Ansible</title><link>https://ro.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Ansible"
+, "Managementul configurației"
+, "Infrastructura IT"
+, "DevOps"
+, "Dezvoltarea Playbook-ului"
+, "Managementul variabilelor"
+, "Execuție condiționată"</category><guid>https://ro.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Astăzi am învățat mai multe despre Ansible condiționale și gestionarea variabilelor Ansible</description></item><item><title>Astăzi am învățat cum să manipulez și să analizez JSON în PowerShell și Bash</title><link>https://ro.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatizare"
+, "Conformitate"
+, "Securitatea Windows"
+, "Ansible Playbooks"
+, "Colecții Ansible"
+, "Securitate IT"
+, "Managementul configurației"
+, "DevOps"
+, "Administrare Windows"
+, "Configurația sistemului"</category><guid>https://ro.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Ce a aflat SimeonOnSecurity despre și a găsit interesant astăzi&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity a actualizat o pagină de pe site-ul său și a aflat despre câteva resurse pe care le consideră interesante. Pagina actualizată este scrierea pentru Invite Challenge pe HackTheBox. Această pagină oferă o analiză în profunzime a procesului de rezolvare a provocării atât pe sisteme Windows cât și Linux.&lt;/p>
+&lt;p>Pe lângă pagina actualizată, SimeonOnSecurity a mai descoperit și câteva resurse de învățare utile. Una dintre aceste resurse este o postare pe blog a lui Cameron Nokes care se concentrează pe lucrul cu JSON în bash folosind instrumentul jq. Instrumentul jq este un utilitar de linie de comandă care facilitează analiza, filtrarea și manipularea datelor JSON.&lt;/p></description></item></channel></rss>
