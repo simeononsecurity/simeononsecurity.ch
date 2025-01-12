@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible Galaxy on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/ansible-galaxy//img/banner.png</url><title>Ansible Galaxy on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/ansible-galaxy/</link></image><link>https://de.simeononsecurity.com/tags/ansible-galaxy/</link><description>Recent content in Ansible Galaxy on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/ansible-galaxy/index.xml" rel="self" type="application/rss+xml"/><item><title>Maximieren Sie die Effizienz der Hybrid Cloud: Das volle Potenzial von Ansible ausschöpfen</title><link>https://de.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link><pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate><category>
+"Ops"
+, "CICD"
+, "Skalierbarkeit"
+, "Leistung"
+, "Sicherheit"
+, "Compliance"
+, "Integration"
+, "Amazon Web Services"
+, "Microsoft Azure"
+, "Google Cloud"
+, "Ansible-Turm"
+, "Ansible Galaxy"
+, "Ansible Vault"
+, "Kosteneinsparungen"
+, "IT-Effizienz"</category><guid>https://de.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie, wie die Automatisierungsfunktionen von Ansible hybride Cloud-Umgebungen rationalisieren, sichern und optimieren können, um die Produktivität zu steigern.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png"/></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://de.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "Windows-Sicherheit"
+, "Windows-Verwaltung"
+, "Einhaltung der Sicherheitsvorschriften"
+, "IT-Automatisierung"
+, "Konfigurationsmanagement"</category><guid>https://de.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>die SimeonOnSecurity heute erfahren und interessant gefunden hat**&lt;/p>
+&lt;p>SimeonOnSecurity hat heute einige interessante Dinge im Zusammenhang mit Windows-Sicherheit und Automatisierung mit Ansible gelernt und entdeckt.&lt;/p>
+&lt;p>Zunächst wurden zwei neue und aktualisierte Repositories identifiziert. Das Windows_STIG_Ansible-Repository bietet eine vollständige Lösung für die Konfiguration von Windows-Systemen zur Erfüllung der Anforderungen des Security Technical Implementation Guide (STIG) unter Verwendung der Ansible-Automatisierungsplattform. Das windows_stigs-Repository ist eine Sammlung von Ansible-Rollen für die Konfiguration von Windows-Systemen zur Erfüllung der STIG-Anforderungen und ist auf Ansible Galaxy verfügbar, einem zentralen Repository für den Austausch von Ansible-Inhalten.&lt;/p></description></item><item><title>Automatisieren Sie die Windows-Compliance mit Ansible STIG Playbooks</title><link>https://de.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Windows-Konformität"
+, "Ansible STIG-Playbooks"
+, "Windows-Härtung"
+, "STIG-Skripte"
+, "STIG-Konformität"
+, "Ansible Galaxy"
+, "Power Shell"
+, "PowerShell-Skript"
+, "Windows Server"
+, "Windows Defender"
+, ".NETZ"
+, "Feuerfuchs"
+, "Oracle JRE 8"
+, "Adobe Reader DC"
+, "Internetverbindung"
+, "Offline-Kompatibilität"
+, "Sicherheitshärtung"
+, "Windows-Sicherheit"</category><guid>https://de.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimieren Sie Ihre Sicherheits-Compliance mit Ansible STIG Playbooks für Windows-Systeme.</description></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bewährte Windows-Sicherheitspraktiken on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/bew%C3%A4hrte-windows-sicherheitspraktiken//img/banner.png</url><title>Bewährte Windows-Sicherheitspraktiken on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/bew%C3%A4hrte-windows-sicherheitspraktiken/</link></image><link>https://de.simeononsecurity.com/tags/bew%C3%A4hrte-windows-sicherheitspraktiken/</link><description>Recent content in Bewährte Windows-Sicherheitspraktiken on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/bew%C3%A4hrte-windows-sicherheitspraktiken/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://de.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "Windows-Sicherheit"
+, "Windows-Verwaltung"
+, "Einhaltung der Sicherheitsvorschriften"
+, "IT-Automatisierung"
+, "Konfigurationsmanagement"</category><guid>https://de.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>die SimeonOnSecurity heute erfahren und interessant gefunden hat**&lt;/p>
+&lt;p>SimeonOnSecurity hat heute einige interessante Dinge im Zusammenhang mit Windows-Sicherheit und Automatisierung mit Ansible gelernt und entdeckt.&lt;/p>
+&lt;p>Zunächst wurden zwei neue und aktualisierte Repositories identifiziert. Das Windows_STIG_Ansible-Repository bietet eine vollständige Lösung für die Konfiguration von Windows-Systemen zur Erfüllung der Anforderungen des Security Technical Implementation Guide (STIG) unter Verwendung der Ansible-Automatisierungsplattform. Das windows_stigs-Repository ist eine Sammlung von Ansible-Rollen für die Konfiguration von Windows-Systemen zur Erfüllung der STIG-Anforderungen und ist auf Ansible Galaxy verfügbar, einem zentralen Repository für den Austausch von Ansible-Inhalten.&lt;/p></description></item><item><title>Heute habe ich gelernt, wie man JSON in PowerShell und Bash manipuliert und parst</title><link>https://de.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Windows-Sicherheit"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "IT-Sicherheit"
+, "Konfigurationsmanagement"
+, "DevOps"
+, "Windows-Verwaltung"
+, "System-Konfiguration"</category><guid>https://de.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Was SimeonOnSecurity heute erfahren und interessant gefunden hat&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity hat eine Seite auf seiner Website aktualisiert und sich über einige Ressourcen informiert, die er interessant findet. Bei der aktualisierten Seite handelt es sich um den Bericht über die Invite Challenge auf HackTheBox. Diese Seite bietet eine eingehende Analyse des Prozesses zur Lösung der Herausforderung sowohl auf Windows- als auch auf Linux-Systemen.&lt;/p>
+&lt;p>Zusätzlich zu der aktualisierten Seite hat SimeonOnSecurity auch einige nützliche Lernressourcen entdeckt. Eine dieser Ressourcen ist ein Blogbeitrag von Cameron Nokes, der sich auf die Arbeit mit JSON in Bash unter Verwendung des jq-Tools konzentriert. Das jq-Tool ist ein Befehlszeilendienstprogramm, mit dem sich JSON-Daten leicht analysieren, filtern und manipulieren lassen.&lt;/p></description></item></channel></rss>

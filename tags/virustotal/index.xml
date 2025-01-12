@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VirusTotal on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/virustotal//img/banner.png</url><title>VirusTotal on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/virustotal/</link></image><link>https://de.simeononsecurity.com/tags/virustotal/</link><description>Recent content in VirusTotal on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/virustotal/index.xml" rel="self" type="application/rss+xml"/><item><title>Effiziente Virenscans mit VirusTotal PowerShell-Modulen</title><link>https://de.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell-Module"
+, "PowerShell"
+, "Automatisierung"
+, "VirusTotal"
+, "Viren-Scans"
+, "Domänen-Scans"
+, "API-Schlüssel"
+, "VirusTotal API"
+, "VirusTotal-Entwickler-Seite"
+, "Systemverwaltung"
+, "Sicherheits-Workflow"
+, "Effiziente Virenscans"
+, "Herunterladen und Installieren"
+, "GitHub-Repository"
+, "API-Verwendungsbeispiele"</category><guid>https://de.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Führen Sie mit den VirusTotal PowerShell-Modulen effiziente Virenscans durch, indem Sie die Interaktion mit der VirusTotal-API automatisieren und Ihren Sicherheits-Workflow rationalisieren.</description></item><item><title>Empfohlenes Anti-Virus</title><link>https://de.simeononsecurity.com/recommendations/anti-virus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Empfohlenes Anti-Virus"
+, "AV"
+, "Antivirus"
+, "Antivirus"
+, "Heimgebrauch"
+, "Geschäftliche Nutzung"
+, "Windows"
+, "Linux"
+, "MacOS"
+, "Cybersecurity"</category><guid>https://de.simeononsecurity.com/recommendations/anti-virus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dieser Artikel enthält eine Liste der von SimeonOnSecurity empfohlenen Antiviren-Produkte für den privaten und geschäftlichen Einsatz. Die Rangliste basiert auf professionellen Meinungen und Tests mit bösartigen Mustern und umfasst nur Virenschutzfunktionen, Erkennung, Benutzerfreundlichkeit und Leistung. Windows-Benutzer können sowohl aus kostenpflichtigen als auch aus kostenlosen Optionen wählen, während Linux- und MacOS-Benutzer nur begrenzte Möglichkeiten haben, wobei kostenpflichtige Optionen nur für Linux verfügbar sind. Beachten Sie, dass AV unter Linux oder MacOS nicht erforderlich ist und die Verwendung von VPN oder Passwortmanagern, die mit der AV-Suite geliefert werden, nicht empfohlen wird. Der Artikel enthält auch Empfehlungen für VPN-Anbieter. An Empfehlungen für den geschäftlichen Einsatz wird derzeit gearbeitet.</description></item></channel></rss>

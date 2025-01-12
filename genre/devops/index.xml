@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/devops//img/banner.png</url><title>DevOps on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/devops/</link></image><link>https://de.simeononsecurity.com/genre/devops/</link><description>Recent content in DevOps on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatisierungs-Showdown: Ansible vs. Puppet vs. Chef - Ein Vergleich der wichtigsten Automatisierungswerkzeuge</title><link>https://de.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Automatisierungstools"
+, "Konfigurationsmanagement"
+, "IT-Infrastruktur"
+, "DevOps"
+, "IT-Betrieb"
+, "Cloud-Automatisierung"
+, "Software-Bereitstellung"
+, "Infrastructure Management"
+, "Open-Source-Tools"</category><guid>https://de.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie in diesem umfassenden Vergleich die Unterschiede zwischen Ansible, Puppet und Chef, um das richtige Automatisierungstool für die Anforderungen Ihres Unternehmens auszuwählen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Ansible-Automatisierung: Von einfachem Ansible zu Ansible Tower und Semaphore</title><link>https://de.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Infrastructure Management"
+, "Konfigurationsmanagement"
+, "DevOps"
+, "IT-Betrieb"
+, "Offene Quelle"
+, "Arbeitsablauf-Management"
+, "Skalierbarkeit"
+, "Zusammenarbeit"
+, "Ansible-Werkzeuge"</category><guid>https://de.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie die Leistungsfähigkeit der Ansible-Automatisierung mit einem Vergleich von Ansible, Ansible Tower und Ansible Semaphore, und wählen Sie das richtige Tool für ein effizientes Infrastrukturmanagement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</title><link>https://de.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Ansible"
+, "Konfigurationsmanagement"
+, "IT-Infrastruktur"
+, "DevOps"
+, "Playbook-Entwicklung"
+, "Variable Management"
+, "Bedingte Ausführung"</category><guid>https://de.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</description></item><item><title>Heute habe ich gelernt, wie man JSON in PowerShell und Bash manipuliert und parst</title><link>https://de.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Windows-Sicherheit"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "IT-Sicherheit"
+, "Konfigurationsmanagement"
+, "DevOps"
+, "Windows-Verwaltung"
+, "System-Konfiguration"</category><guid>https://de.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Was SimeonOnSecurity heute erfahren und interessant gefunden hat&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity hat eine Seite auf seiner Website aktualisiert und sich über einige Ressourcen informiert, die er interessant findet. Bei der aktualisierten Seite handelt es sich um den Bericht über die Invite Challenge auf HackTheBox. Diese Seite bietet eine eingehende Analyse des Prozesses zur Lösung der Herausforderung sowohl auf Windows- als auch auf Linux-Systemen.&lt;/p>
+&lt;p>Zusätzlich zu der aktualisierten Seite hat SimeonOnSecurity auch einige nützliche Lernressourcen entdeckt. Eine dieser Ressourcen ist ein Blogbeitrag von Cameron Nokes, der sich auf die Arbeit mit JSON in Bash unter Verwendung des jq-Tools konzentriert. Das jq-Tool ist ein Befehlszeilendienstprogramm, mit dem sich JSON-Daten leicht analysieren, filtern und manipulieren lassen.&lt;/p></description></item></channel></rss>

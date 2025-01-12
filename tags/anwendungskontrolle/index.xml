@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anwendungskontrolle on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/anwendungskontrolle//img/banner.png</url><title>Anwendungskontrolle on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/anwendungskontrolle/</link></image><link>https://de.simeononsecurity.com/tags/anwendungskontrolle/</link><description>Recent content in Anwendungskontrolle on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/anwendungskontrolle/index.xml" rel="self" type="application/rss+xml"/><item><title>Heute habe ich mehr über die Erstellung und Umsetzung von WDAC-Richtlinien gelernt</title><link>https://de.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Windows-Sicherheit"
+, "Kontrolle der Anwendung"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Schutz vor Bedrohungen"
+, "Windows Server 2019"
+, "Sicherheit für Unternehmen"
+, "Verwaltung der Politik"
+, "Bewährte Sicherheitspraktiken"</category><guid>https://de.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</description></item></channel></rss>

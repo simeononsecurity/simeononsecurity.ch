@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automatisierungsrahmen on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/automatisierungsrahmen//img/banner.png</url><title>Automatisierungsrahmen on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/automatisierungsrahmen/</link></image><link>https://de.simeononsecurity.com/tags/automatisierungsrahmen/</link><description>Recent content in Automatisierungsrahmen on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/automatisierungsrahmen/index.xml" rel="self" type="application/rss+xml"/><item><title>CheckMK: Umfassende Überwachungslösung für effizientes IT-Infrastrukturmanagement</title><link>https://de.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "IT-Infrastruktur"
+, "Netzwerk-Überwachung"
+, "Überwachung von Anwendungen"
+, "IT-Betrieb"
+, "Leistungsanalyse"
+, "Automatisierung"
+, "Event Management"
+, "Skalierbarkeit"
+, "Flexibilität"</category><guid>https://de.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die Funktionen, Vorteile und Anwendungsfälle von CheckMK kennen, einer umfassenden Überwachungslösung für proaktives IT-Infrastrukturmanagement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>Heute habe ich gelernt, wie man JSON in PowerShell und Bash manipuliert und parst</title><link>https://de.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Windows-Sicherheit"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "IT-Sicherheit"
+, "Konfigurationsmanagement"
+, "DevOps"
+, "Windows-Verwaltung"
+, "System-Konfiguration"</category><guid>https://de.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Was SimeonOnSecurity heute erfahren und interessant gefunden hat&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity hat eine Seite auf seiner Website aktualisiert und sich über einige Ressourcen informiert, die er interessant findet. Bei der aktualisierten Seite handelt es sich um den Bericht über die Invite Challenge auf HackTheBox. Diese Seite bietet eine eingehende Analyse des Prozesses zur Lösung der Herausforderung sowohl auf Windows- als auch auf Linux-Systemen.&lt;/p>
+&lt;p>Zusätzlich zu der aktualisierten Seite hat SimeonOnSecurity auch einige nützliche Lernressourcen entdeckt. Eine dieser Ressourcen ist ein Blogbeitrag von Cameron Nokes, der sich auf die Arbeit mit JSON in Bash unter Verwendung des jq-Tools konzentriert. Das jq-Tool ist ein Befehlszeilendienstprogramm, mit dem sich JSON-Daten leicht analysieren, filtern und manipulieren lassen.&lt;/p></description></item></channel></rss>

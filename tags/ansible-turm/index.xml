@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible-Turm on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/ansible-turm//img/banner.png</url><title>Ansible-Turm on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/ansible-turm/</link></image><link>https://de.simeononsecurity.com/tags/ansible-turm/</link><description>Recent content in Ansible-Turm on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/ansible-turm/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible-Automatisierung: Von einfachem Ansible zu Ansible Tower und Semaphore</title><link>https://de.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Infrastructure Management"
+, "Konfigurationsmanagement"
+, "DevOps"
+, "IT-Betrieb"
+, "Offene Quelle"
+, "Arbeitsablauf-Management"
+, "Skalierbarkeit"
+, "Zusammenarbeit"
+, "Ansible-Werkzeuge"</category><guid>https://de.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie die Leistungsfähigkeit der Ansible-Automatisierung mit einem Vergleich von Ansible, Ansible Tower und Ansible Semaphore, und wählen Sie das richtige Tool für ein effizientes Infrastrukturmanagement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Maximieren Sie die Effizienz der Hybrid Cloud: Das volle Potenzial von Ansible ausschöpfen</title><link>https://de.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link><pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate><category>
+"Ops"
+, "CICD"
+, "Skalierbarkeit"
+, "Leistung"
+, "Sicherheit"
+, "Compliance"
+, "Integration"
+, "Amazon Web Services"
+, "Microsoft Azure"
+, "Google Cloud"
+, "Ansible-Turm"
+, "Ansible Galaxy"
+, "Ansible Vault"
+, "Kosteneinsparungen"
+, "IT-Effizienz"</category><guid>https://de.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie, wie die Automatisierungsfunktionen von Ansible hybride Cloud-Umgebungen rationalisieren, sichern und optimieren können, um die Produktivität zu steigern.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png"/></item></channel></rss>

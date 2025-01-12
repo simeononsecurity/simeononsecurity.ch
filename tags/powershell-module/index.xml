@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell-Module on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/powershell-module//img/banner.png</url><title>PowerShell-Module on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/powershell-module/</link></image><link>https://de.simeononsecurity.com/tags/powershell-module/</link><description>Recent content in PowerShell-Module on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/powershell-module/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell-Skripterstellung: Eine Schritt-für-Schritt-Anleitung für Einsteiger zur Automatisierung von Aufgaben</title><link>https://de.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Programmierung"
+, "Automatisierung"
+, "Windows"
+, "Skripting"
+, "IT"
+, "Administrative Aufgaben"
+, "Computer-Management"
+, "Software-Entwicklung"
+, "Codierung"</category><guid>https://de.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die Grundlagen der PowerShell-Skripterstellung und automatisieren Sie Aufgaben mit diesem schrittweisen Leitfaden für Anfänger, der Cmdlets, Schleifen, Funktionen und mehr umfasst.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Heute habe ich mehr Powershell und Ansible Module gelernt</title><link>https://de.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Einhaltung der Vorschriften"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible-Sammlungen"
+, "Windows-Sicherheit"
+, "Windows-Verwaltung"
+, "PowerShell"
+, "IT-Automatisierung"
+, "Konfigurationsmanagement"</category><guid>https://de.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>die SimeonOnSecurity heute erfahren und interessant gefunden hat**&lt;/p>
+&lt;p>SimeonOnSecurity hat sich über Windows STIG Ansible informiert und die entsprechenden Repos aktualisiert. Außerdem studierte er verschiedene Microsoft- und Ansible-Ressourcen im Zusammenhang mit Powershell, Remoting und der Ausführung von Shell-/Powershell-Befehlen unter Windows mit Modulen wie invoke-command, start-process, win_powershell, win_shell, psexec und win_psexec.&lt;/p>
+&lt;h2 id="neueaktualisierte-repos">
+&lt;a href="#neueaktualisierte-repos" title="Neue/aktualisierte Repos:">Neue/aktualisierte Repos:&lt;/a>
+&lt;a href="#neueaktualisierte-repos" class="h-anchor" aria-hidden="true" title="Neue/aktualisierte Repos:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="lernressourcen">
+&lt;a href="#lernressourcen" title="Lernressourcen:">Lernressourcen:&lt;/a>
+&lt;a href="#lernressourcen" class="h-anchor" aria-hidden="true" title="Lernressourcen:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Offline Install RSAT ActiveDirectory PowerShell Module</title><link>https://de.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Remote Server Administration Toolkit"
+, "PowerShell RSAT ActiveDirectory Module"
+, "Windows 10"
+, "Offline Installer"
+, "PowerShell Script"
+, "PowerShell Module"
+, "ActiveDirectory"
+, "Windows"
+, "Offline"
+, "Install"
+, "Server"
+, "Administration"
+, "Toolkit"
+, "Scripting"
+, "Module"
+, "Windows Server"
+, "PowerShell Core"
+, "Windows PowerShell"
+, "Microsoft"
+, "IT Administration"</category><guid>https://de.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to install the RSAT ActiveDirectory PowerShell Module offline with a simple PowerShell script.</description></item><item><title>Effiziente Virenscans mit VirusTotal PowerShell-Modulen</title><link>https://de.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell-Module"
+, "PowerShell"
+, "Automatisierung"
+, "VirusTotal"
+, "Viren-Scans"
+, "Domänen-Scans"
+, "API-Schlüssel"
+, "VirusTotal API"
+, "VirusTotal-Entwickler-Seite"
+, "Systemverwaltung"
+, "Sicherheits-Workflow"
+, "Effiziente Virenscans"
+, "Herunterladen und Installieren"
+, "GitHub-Repository"
+, "API-Verwendungsbeispiele"</category><guid>https://de.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Führen Sie mit den VirusTotal PowerShell-Modulen effiziente Virenscans durch, indem Sie die Interaktion mit der VirusTotal-API automatisieren und Ihren Sicherheits-Workflow rationalisieren.</description></item></channel></rss>
