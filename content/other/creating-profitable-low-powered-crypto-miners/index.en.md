@@ -45,6 +45,7 @@ We won't go into the technical details of how to install an operating system her
 - [Ubuntu Server - Basic installation](https://ubuntu.com/server/docs/installation)
 - [Ubuntu Complete Beginner's Guide: Download & Installing Ubuntu](https://www.youtube.com/watch?v=W-RFY4LQ6oE)
 
+_____________________
 
 ## Software Installation:
 This is going to be a longer section. We are going to set up docker and then through docker we will set up automatic docker container updates and install multiple docker containers. We also assume you're using ubuntu server, however the commands for ubuntu server, ubuntu desktop, and raspbian should all be the same.
@@ -87,6 +88,7 @@ docker run -d \
     --schedule "0 0 2 * * *" \
     --cleanup 
 ```
+_____________________
 
 ### [Install Bitping](https://simeononsecurity.com/other/install-bitping-easily-using-docker/):
 [*Bitping is a website monitoring and performance optimization solution that provides real-time, real user monitoring and instant feedback on downtime or degraded performance, with stress testing and benchmarking capabilities, dynamic rerouting and reprovisioning powered by a distributed network intelligence layer, and integration with existing workflows through webhooks.*](https://bitping.com)
@@ -112,6 +114,7 @@ Step 2. Run this command to persist the container in the background
 docker run --net host --name bitping -td --mount type=bind,source="$HOME/.bitping/",target=/root/.bitping bitping/bitping-node:latest
 ```
 
+_____________________
 
 ### [Install Earn App](https://simeononsecurity.com/other/install-earnapp-easily-using-docker/):
 [*Take advantage of the time your devices are left idle by getting paid for your device’s unused resources*](https://earnapp.com/i/GCL9QzB5)
@@ -132,6 +135,7 @@ Modify the string before pasting into your terminal. You need to specify your ea
 mkdir $HOME/earnapp-data
 docker run -td --name earnapp --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp -e "EARNAPP_UUID"="" -e 'PUID'='99' -e 'PGID'='100' --name earnapp fazalfarhan01/earnapp:lite 
 ```
+_____________________
 
 ### [Install Honey Gain](https://simeononsecurity.com/other/install-honeygain-easily-using-docker/):
 [*Passive Income – Effortlessly with Honeygain, you can make money by simply sharing your Internet. Start earning now.*](https://r.honeygain.me/HONEY9149D)
@@ -146,6 +150,8 @@ Modify the string with the obvious email, password, and device name before pasti
 ```bash
 docker run --name honeygain -td honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
 ```
+
+_____________________
 
 #### Alternate instructions for Raspberry Pi
 - [How to install Honeygain on a Raspberry Pi with standard Raspberry Pi OS](https://www.reddit.com/r/Honeygain/comments/tj8vfa/how_to_install_honeygain_on_a_raspberry_pi_with/)
@@ -166,6 +172,8 @@ docker pull iproyal/pawns-cli:latest
 docker run -td --name pawnsapp --restart=on-failure:5 iproyal/pawns-cli:latest -email=email@example.com -password=change_me -device-name=raspberrypi -device-id=raspberrypi1 -accept-tos
 ```
 
+_____________________
+
 ### [Install Repocket](https://simeononsecurity.com/other/install-repocket-easily-using-docker/):
 [*Get Paid For Your Unused Internet*](https://link.repocket.co/raqc)
 
@@ -178,6 +186,8 @@ Modify the following line with your email and api key before pasting into your t
 ```bash
 docker run -td --name repocket -e RP_EMAIL=your@email.com -e RP_API_KEY=yourapikey -d --restart=always repocket/repocket
 ```
+_____________________
+
 
 ### [Install Traff Monetizer](https://simeononsecurity.com/other/install-traff-monetizer-easily-using-docker/):
 [*Share your internet connection and make money online*](https://traffmonetizer.com/?aff=1389828&utm_source=traffmonetizerdockerguide)
@@ -194,6 +204,8 @@ Copy the following string and append your token that you got from the dashboard 
 ```bash
 docker run -td --name traffmonetizer traffmonetizer/cli_v2 start accept --token
 ```
+_____________________
+
 
 ### [Install Packetshare](https://www.packetshare.io/?code=2B1151EF76417143):
 [*Share your internet connection and make money online*](https://www.packetshare.io/?code=2B1151EF76417143)
@@ -225,6 +237,8 @@ docker run --restart unless-stopped packetshare/packetshare -accept-tos -email=U
 - Packetshare CLI follows the same restrictions as regular applications (e.g., device limits per IP address, network type checks).  
 - Breaching Packetshare’s [Terms of Use](https://www.packetshare.io/ucenter.html?code=2B1151EF76417143) will result in account suspension.
 
+_____________________
+
 ### Install ProxyLite:
 [*Monetizing your Internet traffic by giving verified organizations the use of your Internet bandwidth*](https://proxylite.ru/?r=6AN2RKWB&utm_source=dockerguide)
 
@@ -240,6 +254,7 @@ Copy the following string and replace `$PROXYLITE_USER_ID` with your USERID that
 ```bash
 docker rm -f proxylite && docker run -de "USER_ID=$PROXYLITE_USER_ID" --restart unless-stopped  --name proxylite proxylite/proxyservice
 ```
+_____________________
 
 ### Install ProxyRack:
 
@@ -272,7 +287,7 @@ Wait 5-10 minutes after running the Docker container with the UUID
 
 Using the string you just generated above add this to your devices [https://peer.proxyrack.com/devices](https://peer.proxyrack.com/devices) You can add a "friendly" name to help you remember what this Device ID is associated with
 
-
+_____________________
 
 ### [Install Mysterium](https://simeononsecurity.com/other/install-mysterium-easily-using-docker/):
 [Mysterium](https://mystnodes.co/?referral_code=dZxIcDEWgjh8b5kviefiC7RFBInonroaPFHr2ztm) is a decentralized VPN and webscraping service built on the Etherium and Polygon blockchains. 
@@ -307,11 +322,14 @@ We can not describe how to port forward for everyone's specific hardware. Here a
 - [PortForward.com](https://portforward.com/)
 - [Mysterium - Port Forwarding](https://docs.mysterium.network/troubleshooting/port-forwarding)
 
+_____________________
 
 ### Auto Restart Docker Containers on Boot:
 ```bash
 sudo docker update --restart unless-stopped $(docker ps -q)
 ```
+
+_____________________
 
 ### Optional Configurations:
 - [Automatic Ubuntu Updates and Reboots](https://www.cyberciti.biz/faq/set-up-automatic-unattended-updates-for-ubuntu-20-04/)
@@ -368,6 +386,7 @@ done
 iptables -A INPUT -m set --match-set tor src -j DROP
 ```
 
+_____________________
 
 #### Docker Compose (Outdated):
 To run all of these containers in one go, assuming you have all of your accounts and ids notated, you can update the following [`docker-compose.yml`](https://github.com/OlivierGaland/CashFactory/blob/main/docker-compose.yml):
