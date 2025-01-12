@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jakość Usług on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/jako%C5%9B%C4%87-us%C5%82ug//img/banner.png</url>
+      <title>Jakość Usług on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/jako%C5%9B%C4%87-us%C5%82ug/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/jako%C5%9B%C4%87-us%C5%82ug/</link>
+
+    <description>Recent content in Jakość Usług on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/jako%C5%9B%C4%87-us%C5%82ug/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Protokoły routingu, koncepcje i optymalizacja</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</link>
+        
+        <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie sieci"
+            
+              , "Routing"
+            
+              , "Protokoły sieciowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Routing dynamiczny"
+            
+              , "Routing statyczny"
+            
+              , "Zarządzanie przepustowością"
+            
+              , "Jakość usług"
+            
+              , "Urządzenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat technologii i koncepcji routingu, od dynamicznych protokołów routingu, takich jak RIP, OSPF, EIGRP i BGP, po protokoły stanu łącza, wektora odległości i routingu hybrydowego, a także konfigurację routingu statycznego i tras domyślnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.png" length="935379" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

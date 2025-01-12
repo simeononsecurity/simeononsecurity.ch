@@ -1,0 +1,214 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usuwanie Skutków Awarii Systemu Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/usuwanie-skutk%C3%B3w-awarii-systemu-windows//img/banner.png</url>
+      <title>Usuwanie Skutków Awarii Systemu Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/usuwanie-skutk%C3%B3w-awarii-systemu-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/usuwanie-skutk%C3%B3w-awarii-systemu-windows/</link>
+
+    <description>Recent content in Usuwanie Skutków Awarii Systemu Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/usuwanie-skutk%C3%B3w-awarii-systemu-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalnie zwiększ bezpieczeństwo i prywatność: Hartowanie i usuwanie skutków awarii systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Utwardzanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Bezpieczeństwo systemu operacyjnego"
+            
+              , "System operacyjny Windows"
+            
+              , "Prywatność danych"
+            
+              , "Cyberprzestępca"
+            
+              , "Powierzchnia ataku"
+            
+              , "Podatności"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Mechanizmy uwierzytelniania"
+            
+              , "Niechciane oprogramowanie"
+            
+              , "Poprawa wydajności"
+            
+              , "Gromadzenie danych"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Oprogramowanie antywirusowe"
+            
+              , "Oprogramowanie Anti-Malware"
+            
+              , "Informacje wrażliwe"
+            
+              , "Kompleksowy przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bądź bezpieczny w sieci: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy...
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png" length="302341" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja i wzmocnienie systemu Windows za pomocą skryptu Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Wydajność systemu Windows"
+            
+              , "Prywatność systemu Windows"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Obiekty polityki grupowej"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Firefox"
+            
+              , "Google Chrome"
+            
+              , "Internet Explorer"
+            
+              , "Microsoft Chromium Edge"
+            
+              , "Dot Net 4"
+            
+              , "Microsoft Office"
+            
+              , "Onedrive"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Zapora systemu Windows"
+            
+              , "Windows Defender"
+            
+              , "Applocker"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten kompleksowy przewodnik zawiera instrukcje krok po kroku, jak zoptymalizować, utwardzić i usunąć z systemu Windows, aby zwiększyć jego wydajność, bezpieczeństwo i prywatność.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

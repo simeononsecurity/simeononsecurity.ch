@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antywirus Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/antywirus-windows//img/banner.png</url>
+      <title>Antywirus Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/antywirus-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/antywirus-windows/</link>
+
+    <description>Recent content in Antywirus Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/antywirus-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z Windows Defender za pomocą skryptu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Antywirus Windows"
+            
+              , "Skryptowanie w systemie Windows"
+            
+              , "Automatyka Windows"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Automatyzacja Windows Defender"
+            
+              , "Zgodność z programem Windows Defender"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje bezpieczeństwo dzięki skryptowi Windows Defender STIG PowerShell, który automatyzuje zgodność z wytycznymi Windows Defender Antivirus V1R9 STIG.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

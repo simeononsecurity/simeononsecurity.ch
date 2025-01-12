@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Własność on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/w%C5%82asno%C5%9B%C4%87//img/banner.png</url>
+      <title>Własność on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/w%C5%82asno%C5%9B%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/w%C5%82asno%C5%9B%C4%87/</link>
+
+    <description>Recent content in Własność on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/w%C5%82asno%C5%9B%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uprawnienia do plików w systemie Linux: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</link>
+        
+        <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Uprawnienia do plików w systemie Linux"
+            
+              , "bezpieczny system plików"
+            
+              , "kontrola dostępu"
+            
+              , "własność"
+            
+              , "przewodnik po uprawnieniach do plików"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "bezpieczeństwo systemu plików"
+            
+              , "polecenie chmod"
+            
+              , "polecenie chown"
+            
+              , "audyt uprawnień do plików"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "zgodność z przepisami"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "audyt uprawnień plików"
+            
+              , "dokumentowanie regulacji"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "zarządzanie użytkownikami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opanuj uprawnienia do plików w systemie Linux, aby zapewnić bezpieczny system plików dzięki temu kompleksowemu przewodnikowi obejmującemu własność, kontrolę dostępu i najlepsze praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png" length="175268" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

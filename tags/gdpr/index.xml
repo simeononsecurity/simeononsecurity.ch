@@ -1,0 +1,396 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GDPR on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/gdpr//img/banner.png</url>
+      <title>GDPR on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/gdpr/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/gdpr/</link>
+
+    <description>Recent content in GDPR on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/gdpr/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "orkiestracja kontenerów"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Rój Docker"
+            
+              , "Apache Mesos"
+            
+              , "skalowalność"
+            
+              , "wysoka dostępność"
+            
+              , "równoważenie obciążenia"
+            
+              , "bezpieczeństwo"
+            
+              , "zautomatyzowane wdrożenia aplikacji"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "zgodność"
+            
+              , "rozwój oprogramowania"
+            
+              , "chmura obliczeniowa"
+            
+              , "konteneryzacja"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania biometrycznego dla kontroli dostępu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie biometryczne"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "ochrona danych"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "fałszywe pozytywy"
+            
+              , "fałszywe negatywy"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "badanie systemu"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "efektywność"
+            
+              , "wygoda"
+            
+              , "unikalna tożsamość"
+            
+              , "usprawniony przepływ pracy"
+            
+              , "podatności"
+            
+              , "ograniczanie ryzyka"
+            
+              , "doświadczenie użytkownika"
+            
+              , "cybersecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach związanych z wykorzystaniem uwierzytelniania biometrycznego do kontroli dostępu, w tym o zwiększonym bezpieczeństwie, obawach dotyczących prywatności i najlepszych praktykach wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png" length="404237" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zero Trust Security: Korzyści i wyzwania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zero zaufania Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Ochrona danych"
+            
+              , "Model bezpieczeństwa"
+            
+              , "Uwierzytelnianie"
+            
+              , "Upoważnienie"
+            
+              , "Szyfrowanie"
+            
+              , "Zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Koszt"
+            
+              , "Złożoność"
+            
+              , "Wielowarstwowe bezpieczeństwo"
+            
+              , "Widoczność"
+            
+              , "Elastyczność"
+            
+              , "Naruszenia bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona danych pacjentów: Strategie bezpieczeństwa cybernetycznego w służbie zdrowia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "opieka zdrowotna"
+            
+              , "dane pacjentów"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "ataki phishingowe"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "naruszenia danych"
+            
+              , "telemedycyna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "naruszenia bezpieczeństwa"
+            
+              , "przepisy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wyzwania związane z cyberbezpieczeństwem, przed którymi stoi opieka zdrowotna i poznaj strategie ochrony i zgodności, aby chronić dane pacjentów i zapewnić zgodność z przepisami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png" length="427259" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

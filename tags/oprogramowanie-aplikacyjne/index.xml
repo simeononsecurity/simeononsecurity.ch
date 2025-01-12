@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oprogramowanie Aplikacyjne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/oprogramowanie-aplikacyjne//img/banner.png</url>
+      <title>Oprogramowanie Aplikacyjne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/oprogramowanie-aplikacyjne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/oprogramowanie-aplikacyjne/</link>
+
+    <description>Recent content in Oprogramowanie Aplikacyjne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/oprogramowanie-aplikacyjne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnić moc Dockera: Niezbędny przewodnik po transformacji przedsiębiorstwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-power-of-docker/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Transformacja przedsiębiorstwa"
+            
+              , "Przenośność aplikacji"
+            
+              , "Zwiększona wydajność"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Uproszczone opracowywanie i wdrażanie"
+            
+              , "Oprogramowanie Aplikacyjne"
+            
+              , "Pojemniki"
+            
+              , "Wydajność"
+            
+              , "Time-to-Market"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-power-of-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj potęgę Dockera i jego korzyści dla transformacji przedsiębiorstwa w tym kompleksowym przewodniku poprawiającym przenośność, bezpieczeństwo, wydajność i rozwój aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/a_blue_whale_giving_off_lighting.png" length="308672" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

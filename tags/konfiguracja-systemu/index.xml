@@ -1,0 +1,297 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konfiguracja Systemu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/konfiguracja-systemu//img/banner.png</url>
+      <title>Konfiguracja Systemu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/konfiguracja-systemu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/konfiguracja-systemu/</link>
+
+    <description>Recent content in Konfiguracja Systemu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/konfiguracja-systemu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych poprawek zabezpieczeń w systemie Windows: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "zbiorcze poprawki"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "uwagi do wydania"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dzisiaj dowiedziałem się, jak manipulować i analizować JSON w PowerShell i Bash</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2021-02-17/</link>
+        
+        <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Administracja Windows"
+            
+              , "Konfiguracja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2021-02-17/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;&lt;strong&gt;O czym SimeonOnSecurity dowiedział się dzisiaj i co uznał za interesujące&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity zaktualizował stronę w swojej witrynie i dowiedział się o kilku zasobach, które uważa za interesujące. Zaktualizowaną stroną jest opis Invite Challenge na HackTheBox. Strona ta zawiera dogłębną analizę procesu rozwiązywania wyzwania w systemach Windows i Linux.&lt;/p&gt;
+&lt;p&gt;Oprócz zaktualizowanej strony, SimeonOnSecurity odkrył również kilka przydatnych zasobów edukacyjnych. Jednym z tych zasobów jest wpis na blogu autorstwa Camerona Nokesa, który koncentruje się na pracy z JSON w bashu przy użyciu narzędzia jq. Narzędzie jq jest narzędziem wiersza poleceń, które ułatwia analizowanie, filtrowanie i manipulowanie danymi JSON.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodniki SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zaawansowane przewodniki"
+            
+              , "techniczne samouczki"
+            
+              , "kontrola wersji"
+            
+              , "aktualizacje Linuxa"
+            
+              , "zarządzanie serwerem"
+            
+              , "wiersz poleceń"
+            
+              , "techniki programowania"
+            
+              , "tworzenie oprogramowania"
+            
+              , "administracja siecią"
+            
+              , "praktyki związane z cyberbezpieczeństwem"
+            
+              , "aktualizacje systemu"
+            
+              , "zdalny dostęp"
+            
+              , "administracja Linuxem"
+            
+              , "konfiguracje zabezpieczeń"
+            
+              , "rozwiązywanie problemów"
+            
+              , "najlepsze praktyki kodowania"
+            
+              , "zarządzanie kodem źródłowym"
+            
+              , "konserwacja systemu"
+            
+              , "bezpieczeństwo sieciowe"
+            
+              , "aktualizacje firmware"
+            
+              , "konfiguracja systemu"
+            
+              , "infrastruktura IT"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "polecenia Linuxa"
+            
+              , "zarządzanie siecią"
+            
+              , "optymalizacja systemu"
+            
+              , "umiejętności programistyczne"
+            
+              , "automatyzacja"
+            
+              , "ochrona danych"
+            
+              , "konserwacja serwera"
+            
+              , "protokoły sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z zaawansowanymi technikami, praktycznymi samouczkami i eksperckimi spostrzeżeniami w obszarach takich jak kontrola wersji, administracja systemem, praktyki związane z cyberbezpieczeństwem, zarządzanie siecią i tworzenie oprogramowania. Zdobądź cenne umiejętności i rozwijaj się dzięki naszym szczegółowym przewodnikom.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

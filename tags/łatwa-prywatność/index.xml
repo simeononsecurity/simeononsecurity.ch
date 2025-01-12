@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Łatwa Prywatność on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/%C5%82atwa-prywatno%C5%9B%C4%87//img/banner.png</url>
+      <title>Łatwa Prywatność on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%82atwa-prywatno%C5%9B%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%82atwa-prywatno%C5%9B%C4%87/</link>
+
+    <description>Recent content in Łatwa Prywatność on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%82atwa-prywatno%C5%9B%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows 10 System-Wide Ad Blocker Script dla lepszej prywatności i bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link>
+        
+        <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows 10"
+            
+              , "ad-blocker"
+            
+              , "blokowanie telemetrii"
+            
+              , "Skrypt PowerShell"
+            
+              , "systemowe blokowanie reklam"
+            
+              , "prywatność"
+            
+              , "bezpieczeństwo"
+            
+              , "EasyList"
+            
+              , "Łatwa prywatność"
+            
+              , "Lista filtrów NoCoin"
+            
+              , "Filtr DNS AdGuard"
+            
+              , "Listy YoYo"
+            
+              , "Peter Lowe&#39;s ad tracking malware servers"
+            
+              , "Zapora systemu Windows"
+            
+              , "listy domen"
+            
+              , "zablokować trackery Windows"
+            
+              , "tropiciele bloków"
+            
+              , "blokować reklamy"
+            
+              , "śledzenie bloków"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Blokuj reklamy, trackery i telemetrię w systemie Windows 10 za pomocą tego potężnego skryptu PowerShell, który wykorzystuje plik hosts i zaporę systemu Windows do blokowania reklam w całym systemie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

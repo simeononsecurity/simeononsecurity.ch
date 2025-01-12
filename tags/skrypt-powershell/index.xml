@@ -1,0 +1,771 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skrypt PowerShell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/skrypt-powershell//img/banner.png</url>
+      <title>Skrypt PowerShell on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skrypt-powershell/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skrypt-powershell/</link>
+
+    <description>Recent content in Skrypt PowerShell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skrypt-powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z systemem Windows za pomocą Ansible STIG Playbooks</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka"
+            
+              , "Zgodność z systemem Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Skrypty STIG"
+            
+              , "Zgodność z STIG"
+            
+              , "Ansible Galaxy"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Windows Server"
+            
+              , "Windows Defender"
+            
+              , ".NET"
+            
+              , "FireFox"
+            
+              , "Oracle JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Łączność z Internetem"
+            
+              , "Kompatybilność w trybie offline"
+            
+              , "Hartowanie bezpieczeństwa"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij przestrzeganie zasad bezpieczeństwa dzięki Ansible STIG Playbooks dla systemów Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows 10 System-Wide Ad Blocker Script dla lepszej prywatności i bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link>
+        
+        <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows 10"
+            
+              , "ad-blocker"
+            
+              , "blokowanie telemetrii"
+            
+              , "Skrypt PowerShell"
+            
+              , "systemowe blokowanie reklam"
+            
+              , "prywatność"
+            
+              , "bezpieczeństwo"
+            
+              , "EasyList"
+            
+              , "Łatwa prywatność"
+            
+              , "Lista filtrów NoCoin"
+            
+              , "Filtr DNS AdGuard"
+            
+              , "Listy YoYo"
+            
+              , "Peter Lowe&#39;s ad tracking malware servers"
+            
+              , "Zapora systemu Windows"
+            
+              , "listy domen"
+            
+              , "zablokować trackery Windows"
+            
+              , "tropiciele bloków"
+            
+              , "blokować reklamy"
+            
+              , "śledzenie bloków"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Blokuj reklamy, trackery i telemetrię w systemie Windows 10 za pomocą tego potężnego skryptu PowerShell, który wykorzystuje plik hosts i zaporę systemu Windows do blokowania reklam w całym systemie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktywacji Windows KMS za pomocą skryptu GLVK</title>
+        
+          <link>https://pl.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktywacja systemu Windows"
+            
+              , "Klucze klienckie KMS"
+            
+              , "GLVK"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Zgodność"
+            
+              , "Skrypt Powershell"
+            
+              , "Usługa zarządzania kluczami"
+            
+              , "Licencjonowanie objętościowe"
+            
+              , "Aktywacja przedsiębiorstwa"
+            
+              , "Serwer zarządzania kluczami"
+            
+              , "Automatyka"
+            
+              , "Produkty Microsoft"
+            
+              , "System operacyjny"
+            
+              , "Oprogramowanie"
+            
+              , "Środowiska korporacyjne"
+            
+              , "Powershell administracyjny"
+            
+              , "Repozytorium GitHub"
+            
+              , "Skryptowanie"
+            
+              , "Cybersecurity"
+            
+              , "SimeonOnSecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uprość proces aktywacji Windows 10 KMS za pomocą skryptu GLVK Auto Install SimeonOnSecurity i dowiedz się więcej o kluczach klienckich KMS i GLVK z zalecanej lektury Microsoftu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalacja offline modułu PowerShell RSAT ActiveDirectory</title>
+        
+          <link>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zestaw narzędzi do zdalnego administrowania serwerem"
+            
+              , "PowerShell RSAT Moduł ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Instalator offline"
+            
+              , "Skrypt PowerShell"
+            
+              , "Moduł PowerShell"
+            
+              , "ActiveDirectory"
+            
+              , "Windows"
+            
+              , "Offline"
+            
+              , "Zainstaluj"
+            
+              , "Serwer"
+            
+              , "Administracja"
+            
+              , "Zestaw narzędzi"
+            
+              , "Skryptowanie"
+            
+              , "Moduł"
+            
+              , "Windows Server"
+            
+              , "PowerShell Core"
+            
+              , "Windows PowerShell"
+            
+              , "Microsoft"
+            
+              , "Administracja IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować moduł RSAT ActiveDirectory PowerShell Module w trybie offline za pomocą prostego skryptu PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny poradnik jak wzmocnić system Windows za pomocą Windows Defender Application Control WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-application-control-hardening/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender Application Control WDAC Hardening"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Windows Defender Exploit Protection WDEP"
+            
+              , "Windows Defender Attack Surface Reduction ASR"
+            
+              , "Windows Server 2016 2019"
+            
+              , "Windows Server Core"
+            
+              , "Zestaw narzędzi Microsoft WDAC"
+            
+              , "Odświeżenie polityki CI"
+            
+              , "Zalecane przez Microsoft zasady blokowania"
+            
+              , "Zalecane przez Microsoft zasady blokowania sterowników"
+            
+              , "Zasady XML"
+            
+              , "Polityka BIN"
+            
+              , "Polityka grupowa"
+            
+              , "Microsoft Intune"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-application-control-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Windows Defender Application Control WDAC do utwardzania systemu operacyjnego Windows za pomocą skryptów i narzędzi.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ultimate Applocker Hardening Configuration Script: Zwiększ bezpieczeństwo systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/applocker-hardening/</link>
+        
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Windows"
+            
+              , "Applocker"
+            
+              , "Skrypt konfiguracyjny"
+            
+              , "Cybersecurity"
+            
+              , "Ochrona przed złośliwym oprogramowaniem"
+            
+              , "Zapobieganie zagrożeniom"
+            
+              , "Skrypt PowerShell"
+            
+              , "Zalecane przez Microsoft zasady blokowania"
+            
+              , "Zgodność"
+            
+              , "NSA Cyber Bitlocker Guidance"
+            
+              , "Kontrola stosowania"
+            
+              , "Utwardzenie systemu Windows"
+            
+              , "Cyberzagrożenia"
+            
+              , "Ochrona komputera"
+            
+              , "Cyberobrona"
+            
+              , "Bezpieczne okna"
+            
+              , "Ultimate Applocker ByPass List"
+            
+              , "Windows Defender"
+            
+              , "Blokada systemu"
+            
+              , "sos-applockerhardening.ps1"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/applocker-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz swój system Windows przed złośliwymi atakami za pomocą Ultimate Applocker Hardening Configuration Script.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z Windows Defender za pomocą skryptu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Antywirus Windows"
+            
+              , "Skryptowanie w systemie Windows"
+            
+              , "Automatyka Windows"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Automatyzacja Windows Defender"
+            
+              , "Zgodność z programem Windows Defender"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje bezpieczeństwo dzięki skryptowi Windows Defender STIG PowerShell, który automatyzuje zgodność z wytycznymi Windows Defender Antivirus V1R9 STIG.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększanie bezpieczeństwa systemu Windows 10 za pomocą skryptu Defender Hardening Script</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-hardening/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Windows 10"
+            
+              , "Bezpieczeństwo systemu Windows 10"
+            
+              , "Skrypt PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Utwardzenie Defendera"
+            
+              , "Automatyka zabezpieczeniowa"
+            
+              , "Zgodność"
+            
+              , "Kontrolowany dostęp do folderów"
+            
+              , "System zapobiegania włamaniom"
+            
+              , "Kontrola stosowania"
+            
+              , "Redukcja powierzchni ataku"
+            
+              , "Zabezpieczenia przed exploitami"
+            
+              , "Zabezpieczenia dostarczane w chmurze"
+            
+              , "Zabezpieczenia sieci"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender STIG"
+            
+              , "Windows Defender Antivirus STIG V2R1"
+            
+              , "WDAC"
+            
+              , "ASR"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zwiększyć bezpieczeństwo systemu Windows 10 za pomocą skryptu PowerShell, który utwardza Windows Defender Antivirus, implementując wszystkie wymagania Windows Defender Antivirus STIG V2R1.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

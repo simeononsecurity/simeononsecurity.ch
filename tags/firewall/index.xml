@@ -1,0 +1,386 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firewall on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/firewall//img/banner.png</url>
+      <title>Firewall on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/firewall/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/firewall/</link>
+
+    <description>Recent content in Firewall on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/firewall/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć trojany zdalnego dostępu: Zagrożenia, zapobieganie i ochrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Złośliwe oprogramowanie"
+            
+              , "Bezpieczeństwo komputerowe"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Trojany zdalnego dostępu"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność"
+            
+              , "Cyberprzestępczość"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zagrożenia stwarzane przez trojany zdalnego dostępu (RAT) i poznaj skuteczne środki zapobiegania i ochrony, aby zabezpieczyć swoje systemy komputerowe i dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Endpoint Security Showdown: Symantec vs. McAfee - kompleksowe porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Antywirus"
+            
+              , "Firewall"
+            
+              , "Wykrywanie włamań"
+            
+              , "Zapobieganie utracie danych"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Rozwiązania bezpieczeństwa"
+            
+              , "Porównanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, które rozwiązanie zabezpieczające punkty końcowe, Symantec czy McAfee, najlepiej nadaje się do ochrony zasobów cyfrowych Twojej organizacji przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze pomysły na projekt domowego laboratorium: Odkryj nowe możliwości</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe projekty laboratoryjne"
+            
+              , "środowisko wirtualizacji"
+            
+              , "laboratorium bezpieczeństwa sieci"
+            
+              , "domowy serwer multimediów"
+            
+              , "system automatyki domowej"
+            
+              , "praktyczne doświadczenie"
+            
+              , "Umiejętności informatyczne"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "sprzęt"
+            
+              , "eksperymentowanie"
+            
+              , "nauka"
+            
+              , "architektura sieci"
+            
+              , "konfiguracje oprogramowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "firewall"
+            
+              , "router"
+            
+              , "streaming multimediów"
+            
+              , "sieć domowa"
+            
+              , "inteligentne urządzenia"
+            
+              , "automatyzacja"
+            
+              , "Raspberry Pi"
+            
+              , "Z-Wave"
+            
+              , "Zigbee"
+            
+              , "Plex"
+            
+              , "Kodi"
+            
+              , "Emby"
+            
+              , "VMware vSphere"
+            
+              , "Microsoft Hyper-V"
+            
+              , "Proxmox VE"
+            
+              , "Budowanie środowiska wirtualizacji w domu"
+            
+              , "Tworzenie laboratorium bezpieczeństwa sieci za pomocą pfSense"
+            
+              , "Konfiguracja domowego serwera multimediów z Plex"
+            
+              , "Zbuduj system automatyki domowej z Raspberry Pi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj ekscytujące i innowacyjne pomysły na projekty w domowym laboratorium, aby poszerzyć swoją wiedzę i rozwinąć umiejętności informatyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_person_working.png" length="443787" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Linux"
+            
+              , "utwardzanie systemu"
+            
+              , "firewall"
+            
+              , "SELinux"
+            
+              , "AppArmor"
+            
+              , "polityka haseł"
+            
+              , "aktualizacje systemu"
+            
+              , "logi systemowe"
+            
+              , "moduły bezpieczeństwa"
+            
+              , "zasady kontroli dostępu"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "dostęp roota"
+            
+              , "menedżer haseł"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

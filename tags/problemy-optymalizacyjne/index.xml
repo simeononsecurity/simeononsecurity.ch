@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problemy Optymalizacyjne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/problemy-optymalizacyjne//img/banner.png</url>
+      <title>Problemy Optymalizacyjne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/problemy-optymalizacyjne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/problemy-optymalizacyjne/</link>
+
+    <description>Recent content in Problemy Optymalizacyjne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/problemy-optymalizacyjne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przyszłość obliczeń kwantowych i bezpieczeństwa cybernetycznego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-future-of-quantum-computing-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Obliczenia kwantowe"
+            
+              , "Cybersecurity"
+            
+              , "Qubits"
+            
+              , "RSA"
+            
+              , "ECC"
+            
+              , "Kryptografia postkwantowa"
+            
+              , "Wyżarzanie kwantowe"
+            
+              , "Supremacja kwantowa"
+            
+              , "Superpozycja"
+            
+              , "Splątanie"
+            
+              , "Algorytmy kryptograficzne"
+            
+              , "Infrastruktura cyfrowa"
+            
+              , "Problemy optymalizacyjne"
+            
+              , "Giganci technologiczni"
+            
+              , "Badania i rozwój"
+            
+              , "Dekoherencja"
+            
+              , "Transakcje online"
+            
+              , "Bezpieczne przesyłanie wiadomości"
+            
+              , "Bankowość internetowa"
+            
+              , "Odkrycie leku"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-future-of-quantum-computing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj przyszłość obliczeń kwantowych i ich wpływ na cyberbezpieczeństwo, w tym kryptografię postkwantową i podatności klasycznych algorytmów kryptograficznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png" length="519938" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

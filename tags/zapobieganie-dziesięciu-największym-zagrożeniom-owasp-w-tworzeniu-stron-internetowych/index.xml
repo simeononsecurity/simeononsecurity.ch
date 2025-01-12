@@ -1,0 +1,191 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zapobieganie Dziesięciu Największym Zagrożeniom OWASP W Tworzeniu Stron Internetowych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zapobieganie-dziesi%C4%99ciu-najwi%C4%99kszym-zagro%C5%BCeniom-owasp-w-tworzeniu-stron-internetowych//img/banner.png</url>
+      <title>Zapobieganie Dziesięciu Największym Zagrożeniom OWASP W Tworzeniu Stron Internetowych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zapobieganie-dziesi%C4%99ciu-najwi%C4%99kszym-zagro%C5%BCeniom-owasp-w-tworzeniu-stron-internetowych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zapobieganie-dziesi%C4%99ciu-najwi%C4%99kszym-zagro%C5%BCeniom-owasp-w-tworzeniu-stron-internetowych/</link>
+
+    <description>Recent content in Zapobieganie Dziesięciu Największym Zagrożeniom OWASP W Tworzeniu Stron Internetowych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zapobieganie-dziesi%C4%99ciu-najwi%C4%99kszym-zagro%C5%BCeniom-owasp-w-tworzeniu-stron-internetowych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Praktyki bezpiecznego kodowania dla programistów internetowych: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-secure-coding-practices-for-web-development/</link>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Praktyki bezpiecznego kodowania"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Krajobraz cyberbezpieczeństwa"
+            
+              , "OWASP Top Ten"
+            
+              , "Ataki typu SQL Injection"
+            
+              , "XSS"
+            
+              , "CSRF"
+            
+              , "Bezpieczny cykl rozwoju"
+            
+              , "Walidacja danych wejściowych"
+            
+              , "Ucieczka wyjścia"
+            
+              , "Protokoły bezpiecznej komunikacji"
+            
+              , "Kontrola dostępu"
+            
+              , "Przechowywanie i obsługa danych"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Hashowanie haseł"
+            
+              , "Szyfrowanie danych"
+            
+              , "Przygotowane oświadczenia"
+            
+              , "Dane wrażliwe"
+            
+              , "Cyberataki"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Bezpieczne tworzenie stron internetowych"
+            
+              , "Najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "Tworzenie aplikacji internetowych"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania"
+            
+              , "Luki w zabezpieczeniach aplikacji internetowych"
+            
+              , "Zagrożenia bezpieczeństwa OWASP"
+            
+              , "Środki bezpieczeństwa strony internetowej"
+            
+              , "Ochrona aplikacji internetowych"
+            
+              , "Bezpieczne projektowanie stron internetowych"
+            
+              , "Wytyczne dotyczące tworzenia stron internetowych"
+            
+              , "Praktyki bezpiecznego kodowania na potrzeby tworzenia stron internetowych"
+            
+              , "Ograniczenie cyberataków w aplikacjach internetowych"
+            
+              , "Bezpieczny cykl rozwoju dla twórców stron internetowych"
+            
+              , "Techniki walidacji danych wejściowych dla bezpieczeństwa sieci"
+            
+              , "Metody ucieczki danych wyjściowych w celu zapobiegania atakom XSS"
+            
+              , "Protokoły bezpiecznej komunikacji dla aplikacji internetowych"
+            
+              , "Wdrażanie kontroli dostępu w tworzeniu stron internetowych"
+            
+              , "Bezpieczne przechowywanie i obsługa danych w aplikacjach internetowych"
+            
+              , "Hashowanie i szyfrowanie haseł w tworzeniu stron internetowych"
+            
+              , "Przygotowane instrukcje zapobiegające wstrzyknięciu kodu SQL"
+            
+              , "Zarządzanie wrażliwymi danymi w aplikacjach internetowych"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa aplikacji internetowych"
+            
+              , "Zapobieganie dziesięciu największym zagrożeniom OWASP w tworzeniu stron internetowych"
+            
+              , "Środki bezpieczeństwa sieciowego dla bezpiecznego kodowania"
+            
+              , "Zmniejszenie ryzyka cyberbezpieczeństwa podczas tworzenia stron internetowych"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania dla twórców stron internetowych"
+            
+              , "Zapobieganie lukom w zabezpieczeniach aplikacji internetowych"
+            
+              , "Wytyczne dotyczące bezpieczeństwa w sieci dla deweloperów"
+            
+              , "Zapewnienie ochrony aplikacji internetowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-secure-coding-practices-for-web-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe praktyki bezpiecznego kodowania w celu tworzenia bezpiecznych aplikacji internetowych i zmniejszenia ryzyka cyberataków.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_standing_confidently_in_front_of_a_shield.png" length="156047" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

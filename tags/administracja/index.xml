@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administracja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/administracja//img/banner.png</url>
+      <title>Administracja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/administracja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/administracja/</link>
+
+    <description>Recent content in Administracja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/administracja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalacja offline modułu PowerShell RSAT ActiveDirectory</title>
+        
+          <link>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zestaw narzędzi do zdalnego administrowania serwerem"
+            
+              , "PowerShell RSAT Moduł ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Instalator offline"
+            
+              , "Skrypt PowerShell"
+            
+              , "Moduł PowerShell"
+            
+              , "ActiveDirectory"
+            
+              , "Windows"
+            
+              , "Offline"
+            
+              , "Zainstaluj"
+            
+              , "Serwer"
+            
+              , "Administracja"
+            
+              , "Zestaw narzędzi"
+            
+              , "Skryptowanie"
+            
+              , "Moduł"
+            
+              , "Windows Server"
+            
+              , "PowerShell Core"
+            
+              , "Windows PowerShell"
+            
+              , "Microsoft"
+            
+              , "Administracja IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować moduł RSAT ActiveDirectory PowerShell Module w trybie offline za pomocą prostego skryptu PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

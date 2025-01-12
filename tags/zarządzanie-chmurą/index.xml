@@ -1,0 +1,125 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Chmurą on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-chmur%C4%85//img/banner.png</url>
+      <title>Zarządzanie Chmurą on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-chmur%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-chmur%C4%85/</link>
+
+    <description>Recent content in Zarządzanie Chmurą on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-chmur%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie bezpiecznego i zgodnego z przepisami jeziora danych w chmurze: Najlepsze praktyki ochrony przechowywanych danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "jezioro danych"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "przepisy dotyczące zgodności"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "monitoring"
+            
+              , "łatanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Rozwiązanie SIEM"
+            
+              , "Zespoły wsparcia IT"
+            
+              , "krajobraz zagrożeń"
+            
+              , "migracja do chmury"
+            
+              , "zarządzanie chmurą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się o najlepszych praktykach w zakresie bezpieczeństwa i zgodności podczas planowania, tworzenia i zarządzania jeziorami danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

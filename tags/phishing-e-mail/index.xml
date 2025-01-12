@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phishing E-Mail on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/phishing-e-mail//img/banner.png</url>
+      <title>Phishing E-Mail on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/phishing-e-mail/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/phishing-e-mail/</link>
+
+    <description>Recent content in Phishing E-Mail on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/phishing-e-mail/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoznawanie prób phishingu: Typowe wskaźniki i wskazówki dotyczące bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/</link>
+        
+        <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "próby phishingu"
+            
+              , "wspólne wskaźniki"
+            
+              , "oszustwa phishingowe"
+            
+              , "bezpieczeństwo online"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "podejrzane adresy e-mail"
+            
+              , "pilny język"
+            
+              , "błędy gramatyczne"
+            
+              , "błędy ortograficzne"
+            
+              , "podejrzane adresy URL"
+            
+              , "wnioski o udostępnienie danych osobowych"
+            
+              , "nieoczekiwane załączniki"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "oszustwa internetowe"
+            
+              , "techniki phishingu"
+            
+              , "cyberzagrożenia"
+            
+              , "świadomość phishingu"
+            
+              , "Rozpoznawanie phishingu"
+            
+              , "zapobieganie phishingowi"
+            
+              , "ochrona przed phishingiem"
+            
+              , "Wskazówki dotyczące świadomości phishingu"
+            
+              , "wykrywanie phishingu"
+            
+              , "Szkolenie uświadamiające w zakresie phishingu"
+            
+              , "phishing e-mail"
+            
+              , "kampania uświadamiająca na temat phishingu"
+            
+              , "edukacja w zakresie świadomości phishingu"
+            
+              , "Najlepsze praktyki w zakresie świadomości phishingu"
+            
+              , "Co jest typowym wskaźnikiem próby wyłudzenia danych?"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowy przewodnik na temat rozpoznawania typowych oznak prób phishingu i praktyczne wskazówki dotyczące zachowania bezpieczeństwa w Internecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png" length="292193" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

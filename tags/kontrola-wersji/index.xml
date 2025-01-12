@@ -1,0 +1,685 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontrola Wersji on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kontrola-wersji//img/banner.png</url>
+      <title>Kontrola Wersji on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kontrola-wersji/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kontrola-wersji/</link>
+
+    <description>Recent content in Kontrola Wersji on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kontrola-wersji/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code vs Visual Studio Community i Enterprise: Co jest najlepsze dla deweloperów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój oprogramowania"
+            
+              , "Zintegrowane środowisko programistyczne (IDE)"
+            
+              , "Narzędzia programistyczne Microsoft"
+            
+              , "Edytory kodu"
+            
+              , "Platformy programistyczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Języki programowania"
+            
+              , "Wspólny rozwój"
+            
+              , "Rozwój oprogramowania dla przedsiębiorstw"
+            
+              , "Debugowanie kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png" length="175368" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Git: Kompleksowy przewodnik po kontroli wersji</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/mastering-git-a-comprehensive-guide-for-version-control/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Git"
+            
+              , "kontrola wersji"
+            
+              , "Samouczki Git"
+            
+              , "Przewodnik Git"
+            
+              , "Podstawy Git"
+            
+              , "Polecenia Git"
+            
+              , "Instalacja Git"
+            
+              , "Konfiguracja Git"
+            
+              , "rozgałęzienia w Git"
+            
+              , "scalanie w Git"
+            
+              , "współpraca w Git"
+            
+              , "rozproszona kontrola wersji"
+            
+              , "wersjonowanie kodu"
+            
+              , "Przepływ pracy Git"
+            
+              , "Wskazówki Git"
+            
+              , "Najlepsze praktyki Git"
+            
+              , "Git dla początkujących"
+            
+              , "Git dla programistów"
+            
+              , "rozwój oprogramowania"
+            
+              , "kod współpracy"
+            
+              , "Git mastering"
+            
+              , "Kompleksowy przewodnik Git"
+            
+              , "Samouczek kontroli wersji Git"
+            
+              , "Rozgałęzianie i scalanie w Git"
+            
+              , "Wskazówki dotyczące współpracy Git"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/mastering-git-a-comprehensive-guide-for-version-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Stań się biegły w Git dzięki temu kompleksowemu przewodnikowi obejmującemu wszystko, od instalacji i konfiguracji po rozgałęzianie, scalanie i współpracę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png" length="102873" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i utrzymywanie bezpiecznego potoku DevOps: Najlepsze praktyki i studia przypadków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "rurociąg"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne kodowanie"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "monitoring"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Wiosna"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do Ansible: Automatyzacja zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Udostępnianie"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Najlepsze praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemu"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentaryzacja Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Najlepsze praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Ansible, narzędzia do automatyzacji o otwartym kodzie źródłowym, które upraszcza zarządzanie infrastrukturą IT za pomocą języka deklaratywnego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodniki SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zaawansowane przewodniki"
+            
+              , "techniczne samouczki"
+            
+              , "kontrola wersji"
+            
+              , "aktualizacje Linuxa"
+            
+              , "zarządzanie serwerem"
+            
+              , "wiersz poleceń"
+            
+              , "techniki programowania"
+            
+              , "tworzenie oprogramowania"
+            
+              , "administracja siecią"
+            
+              , "praktyki związane z cyberbezpieczeństwem"
+            
+              , "aktualizacje systemu"
+            
+              , "zdalny dostęp"
+            
+              , "administracja Linuxem"
+            
+              , "konfiguracje zabezpieczeń"
+            
+              , "rozwiązywanie problemów"
+            
+              , "najlepsze praktyki kodowania"
+            
+              , "zarządzanie kodem źródłowym"
+            
+              , "konserwacja systemu"
+            
+              , "bezpieczeństwo sieciowe"
+            
+              , "aktualizacje firmware"
+            
+              , "konfiguracja systemu"
+            
+              , "infrastruktura IT"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "polecenia Linuxa"
+            
+              , "zarządzanie siecią"
+            
+              , "optymalizacja systemu"
+            
+              , "umiejętności programistyczne"
+            
+              , "automatyzacja"
+            
+              , "ochrona danych"
+            
+              , "konserwacja serwera"
+            
+              , "protokoły sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z zaawansowanymi technikami, praktycznymi samouczkami i eksperckimi spostrzeżeniami w obszarach takich jak kontrola wersji, administracja systemem, praktyki związane z cyberbezpieczeństwem, zarządzanie siecią i tworzenie oprogramowania. Zdobądź cenne umiejętności i rozwijaj się dzięki naszym szczegółowym przewodnikom.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Repozytoria i opisy repozytoriów SimeonOnSecurity na GitHub</title>
+        
+          <link>https://pl.simeononsecurity.com/github/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "repozytoria GitHub"
+            
+              , "opisy repozytoriów"
+            
+              , "projekty open-source"
+            
+              , "narzędzia bezpieczeństwa"
+            
+              , "wgląd w cyberbezpieczeństwo"
+            
+              , "wgląd w automatyzację"
+            
+              , "poradniki programowania"
+            
+              , "wkłady do GitHub"
+            
+              , "badania z zakresu bezpieczeństwa"
+            
+              , "analiza kodu"
+            
+              , "dokumentacja projektów"
+            
+              , "poprawki błędów"
+            
+              , "usprawnienia funkcji"
+            
+              , "współpraca społecznościowa"
+            
+              , "zasoby dla programistów"
+            
+              , "recenzje kodu"
+            
+              , "kontrola wersji"
+            
+              , "ciągła integracja"
+            
+              , "śledzenie problemów"
+            
+              , "zarządzanie repozytoriami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przeglądaj nasze projekty open-source, narzędzia z zakresu bezpieczeństwa i szczegółowe wyjaśnienia. Poszerz swoją wiedzę i umiejętności z zakresu cyberbezpieczeństwa i automatyzacji dzięki opisom repozytoriów na GitHub.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

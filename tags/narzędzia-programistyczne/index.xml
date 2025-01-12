@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Narzędzia Programistyczne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/narz%C4%99dzia-programistyczne//img/banner.png</url>
+      <title>Narzędzia Programistyczne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/narz%C4%99dzia-programistyczne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/narz%C4%99dzia-programistyczne/</link>
+
+    <description>Recent content in Narzędzia Programistyczne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/narz%C4%99dzia-programistyczne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Dev Home i Dev Drive: Usprawnienie przepływu pracy programistycznej w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-microsoft-dev-home-and-dev-drive/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dev Home"
+            
+              , "Dev Drive"
+            
+              , "Rozwój systemu Windows"
+            
+              , "przepływ pracy deweloperskiej"
+            
+              , "konfigurowalne widżety"
+            
+              , "konfiguracja maszyny"
+            
+              , "Integracja z serwisem GitHub"
+            
+              , "zoptymalizowana pamięć masowa"
+            
+              , "Programiści Windows"
+            
+              , "usprawniony przepływ pracy"
+            
+              , "zarządzanie kodem"
+            
+              , "monitorowanie projektu"
+            
+              , "optymalizacja pamięci masowej"
+            
+              , "narzędzia programistyczne"
+            
+              , "produktywność deweloperów"
+            
+              , "Środowisko Windows"
+            
+              , "Format woluminu ReFS"
+            
+              , "optymalizacja wydajności"
+            
+              , "wydajność systemu plików"
+            
+              , "Repozytoria GitHub"
+            
+              , "rozwiązanie pamięci masowej"
+            
+              , "Windows 11"
+            
+              , "zarządzanie pamięcią masową"
+            
+              , "Efektywna współpraca"
+            
+              , "aktywa deweloperskie"
+            
+              , "narzędzia zwiększające produktywność"
+            
+              , "Dokumenty programistyczne Windows"
+            
+              , "efektywność rozwoju"
+            
+              , "optymalizacja przepływu pracy"
+            
+              , "Środowisko programistyczne Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-microsoft-dev-home-and-dev-drive/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak Dev Home i Dev Drive usprawniają pracę programistyczną w systemie Windows dzięki dostosowywanym widżetom, konfiguracji maszyn, integracji z GitHub i zoptymalizowanej pamięci masowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_developer_working.png" length="312223" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code vs Visual Studio Community i Enterprise: Co jest najlepsze dla deweloperów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój oprogramowania"
+            
+              , "Zintegrowane środowisko programistyczne (IDE)"
+            
+              , "Narzędzia programistyczne Microsoft"
+            
+              , "Edytory kodu"
+            
+              , "Platformy programistyczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Języki programowania"
+            
+              , "Wspólny rozwój"
+            
+              , "Rozwój oprogramowania dla przedsiębiorstw"
+            
+              , "Debugowanie kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png" length="175368" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

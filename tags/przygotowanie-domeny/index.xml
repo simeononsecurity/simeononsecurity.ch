@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Przygotowanie Domeny on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/przygotowanie-domeny//img/banner.png</url>
+      <title>Przygotowanie Domeny on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/przygotowanie-domeny/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/przygotowanie-domeny/</link>
+
+    <description>Recent content in Przygotowanie Domeny on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/przygotowanie-domeny/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z przepisami bezpieczeństwa za pomocą skryptów STIG</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypty STIG"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "automatyzacja"
+            
+              , "Windows"
+            
+              , "aplikacje"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Podręczniki Ansible"
+            
+              , "przygotowanie domeny"
+            
+              , "Windows Defender"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "skrypt"
+            
+              , "Zgodność z STIG"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "administracja systemem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów STIG do automatyzacji zgodności z zabezpieczeniami dla systemu Windows i popularnych aplikacji, w tym .NET, Adobe Reader DC i Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

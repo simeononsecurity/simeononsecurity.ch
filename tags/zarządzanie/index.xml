@@ -1,0 +1,109 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie//img/banner.png</url>
+      <title>Zarządzanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie/</link>
+
+    <description>Recent content in Zarządzanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego Twoja firma powinna zaktualizować system do Windows Server 2022</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Server 2022"
+            
+              , "Aktualizacja"
+            
+              , "Biznes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zarządzanie"
+            
+              , "Automatyka"
+            
+              , "Wydajność"
+            
+              , "Skalowalność"
+            
+              , "Windows Server 2019 r"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj ulepszone funkcje zabezpieczeń, możliwości zarządzania i automatyzacji oraz wydajność i skalowalność systemu Windows Server 2022, dzięki czemu jest to najlepszy wybór dla firm poszukujących uaktualnienia z systemu Windows Server 2019.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png" length="436657" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

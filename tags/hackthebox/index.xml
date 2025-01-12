@@ -1,0 +1,649 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HackTheBox on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/hackthebox//img/banner.png</url>
+      <title>HackTheBox on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/hackthebox/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/hackthebox/</link>
+
+    <description>Recent content in HackTheBox on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Darmowe kursy cyberbezpieczeństwa dla początkujących: Najlepsze platformy i szkolenia</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/free-beginners-cybersecurity-courses-online/</link>
+        
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "kursy cyberbezpieczeństwa"
+            
+              , "początkujący"
+            
+              , "bezpłatne kursy"
+            
+              , "platformy internetowe"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "zasoby edukacyjne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "etyczne hakowanie"
+            
+              , "bezpieczne kodowanie"
+            
+              , "umiejętności praktyczne"
+            
+              , "praktyczne doświadczenie"
+            
+              , "podstawy cyberbezpieczeństwa"
+            
+              , "Cybrary"
+            
+              , "SANS Cyber Aces Online"
+            
+              , "TryHackMe"
+            
+              , "HackTheBox"
+            
+              , "Immersive Labs"
+            
+              , "INE"
+            
+              , "Cisco Networking Academy"
+            
+              , "Portal edukacyjny Juniper"
+            
+              , "Microsoft Learn"
+            
+              , "Strefa edukacyjna VMware"
+            
+              , "Code.org"
+            
+              , "Codecademy"
+            
+              , "Instytut Pythona"
+            
+              , "opłacalna nauka"
+            
+              , "elastyczne uczenie się"
+            
+              , "kompleksowa wiedza"
+            
+              , "praktyczne doświadczenie w zakresie cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/free-beginners-cybersecurity-courses-online/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze darmowe kursy cyberbezpieczeństwa dla początkujących na najlepszych platformach i rozpocznij swoją podróż w tej krytycznej dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.png" length="362294" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Dekodowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Dekodowanie"
+            
+              , "Opis"
+            
+              , "Fernet Cipher"
+            
+              , "Szyfr Malboge"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kryptografia"
+            
+              , "Testy penetracyjne"
+            
+              , "Python"
+            
+              , "Bezpieczeństwo"
+            
+              , "Wyzwanie"
+            
+              , "CTF"
+            
+              , "Flaga"
+            
+              , "Szyfrowanie"
+            
+              , "Deszyfrowanie"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Napad na bank</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "hackthebox"
+            
+              , "kryptografia"
+            
+              , "Szyfr T9"
+            
+              , "szyfr multitap"
+            
+              , "szyfr atbash"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "dekodowanie"
+            
+              , "szyfrogram"
+            
+              , "wyzwanie"
+            
+              , "flaga"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "hakowanie"
+            
+              , "uczyć się"
+            
+              , "samouczek"
+            
+              , "dekodowanie szyfru"
+            
+              , "rozwiązywanie zagadek"
+            
+              , "łamanie kodów"
+            
+              , "wyzwanie kryptograficzne"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "nauka online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png" length="312120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Wezwanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Crypto Challenge"
+            
+              , "Sygnały DTMF"
+            
+              , "Szyfr liczb pierwszych"
+            
+              , "Odszyfrowanie"
+            
+              , "Rozwiązywanie zagadek"
+            
+              , "Kryptografia"
+            
+              , "Konwersja audio"
+            
+              , "DialABC"
+            
+              , "Decode.fr"
+            
+              , "WAV"
+            
+              , "MP3"
+            
+              , "Częstotliwość"
+            
+              , "Cecha matematyczna"
+            
+              , "Flaga"
+            
+              , "Audacity"
+            
+              , "Wizualizer dźwiękowy"
+            
+              , "Numery"
+            
+              , "Menu automatycznych kasjerów"
+            
+              , "Telefon płatny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak odszyfrować tony DTMF za pomocą szyfru liczb pierwszych, aby rozwiązać wyzwanie Crypto - Call na HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Invite Challenge (Windows/Linux)</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Zaproś do wyzwania"
+            
+              , "Testy penetracyjne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Platforma internetowa"
+            
+              , "HTTP POST"
+            
+              , "Kod zaproszenia"
+            
+              , "Kodowanie Base64"
+            
+              , "Powershell"
+            
+              , "Linux Bash"
+            
+              , "Dekodowanie Base64"
+            
+              , "Generowanie kodu zaproszenia"
+            
+              , "Programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Technologia"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Szkolenie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wygenerować kod zaproszenia i dołączyć do platformy online HackTheBox, aby przetestować i rozwinąć swoje umiejętności w zakresie testów penetracyjnych i cyberbezpieczeństwa w systemach Windows i Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwanie - Kryptowaluty - Słabe RSA</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Słabe RSA"
+            
+              , "RsaCtfTool"
+            
+              , "HTB Słabe kryptowaluty RSA"
+            
+              , "Łatwe wyzwanie"
+            
+              , "Szyfr RSA"
+            
+              , "flag.enc"
+            
+              , "key.pub"
+            
+              , "Pakiet OpenSSL"
+            
+              , "Zautomatyzowane narzędzie do ataków RSA"
+            
+              , "skrypt python"
+            
+              , "RsaCtfTool"
+            
+              , "python3"
+            
+              , "klucz publiczny"
+            
+              , "uncipherfile"
+            
+              , "Przykład flagi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać zautomatyzowanego narzędzia do ataku RSA, RsaCtfTool, aby łatwo rozwiązać wyzwanie HackTheBox Weak RSA Crypto.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane zasoby edukacyjne</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/learning_resources/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane zasoby edukacyjne"
+            
+              , "Nauka IT"
+            
+              , "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Kursy sieciowe"
+            
+              , "Edukacja w zakresie systemów operacyjnych"
+            
+              , "Zasoby dotyczące programowania i skryptów"
+            
+              , "Nauka online"
+            
+              , "Laboratoria cyberbezpieczeństwa"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie z systemów operacyjnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/learning_resources/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze zasoby edukacyjne z zakresu IT, cyberbezpieczeństwa, sieci, systemów operacyjnych oraz programowania i skryptów dzięki rekomendacjom SimeonOnSecurity. Od bezpłatnych platform online, takich jak Cybrary, Code.org i CodeAcademy, po płatne platformy, takie jak LinkedIn Learning, Pluralsight i TryHackMe, znajdziesz szeroką gamę opcji, które spełnią Twoje cele edukacyjne. Zwiększ swoje umiejętności w takich obszarach jak Cisco, Juniper, Windows, VMware i Red Hat dzięki bezpłatnym szkoleniom i certyfikatom. Przenieś swoją karierę na wyższy poziom dzięki najwyżej ocenianym zasobom edukacyjnym SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

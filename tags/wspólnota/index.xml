@@ -1,0 +1,482 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wspólnota on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/wsp%C3%B3lnota//img/banner.png</url>
+      <title>Wspólnota on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wsp%C3%B3lnota/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wsp%C3%B3lnota/</link>
+
+    <description>Recent content in Wspólnota on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wsp%C3%B3lnota/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po analizie zagrożeń dla cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Analiza zagrożeń"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Przewodnik dla początkujących"
+            
+              , "Taktyka"
+            
+              , "Techniki"
+            
+              , "Procedury"
+            
+              , "Analiza danych"
+            
+              , "Podatności"
+            
+              , "Operacje bezpieczeństwa"
+            
+              , "Uczenie maszynowe"
+            
+              , "Eksploracja danych"
+            
+              , "Podejmowanie decyzji"
+            
+              , "Automatyzacja"
+            
+              , "Wspólnota"
+            
+              , "Monitorowanie ciemnej sieci"
+            
+              , "Wewnętrzne dzienniki sieciowe"
+            
+              , "Reakcja na incydent"
+            
+              , "Kampanie phishingowe"
+            
+              , "Malware"
+            
+              , "Planowanie strategiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw swoją postawę w zakresie cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących na temat analizy zagrożeń i jej znaczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png" length="419383" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czym są Cyber Sentinels i dlaczego powinieneś do nich dołączyć</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "IT"
+            
+              , "wspólnota"
+            
+              , "dzielenie się wiedzą"
+            
+              , "współpraca"
+            
+              , "kształcenie ustawiczne"
+            
+              , "wsparcie"
+            
+              , "integracyjność"
+            
+              , "pozytywny wpływ"
+            
+              , "kanały tekstowe"
+            
+              , "kanały głosowe"
+            
+              , "porada zawodowa"
+            
+              , "możliwości zatrudnienia"
+            
+              , "zasoby edukacyjne"
+            
+              , "pojawiające się trendy"
+            
+              , "projekty"
+            
+              , "wydarzenia"
+            
+              , "konferencje"
+            
+              , "zdjęcia zwierząt"
+            
+              , "technologia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj misję i zasady działania Cyber Sentinels, społeczności profesjonalistów z branży cybernetycznej i IT, zaangażowanych w dzielenie się wiedzą i opracowywanie innowacyjnych rozwiązań dla wyzwań związanych z cyberbezpieczeństwem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_stylized_shield_or_emblem.png" length="393218" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unraid vs TrueNas: Który system operacyjny NAS jest odpowiedni dla Ciebie?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Unraid"
+            
+              , "TrueNAS"
+            
+              , "System operacyjny NAS"
+            
+              , "Porównanie"
+            
+              , "Przyjazność dla użytkownika"
+            
+              , "Cechy"
+            
+              , "Dokumentacja"
+            
+              , "Wspólnota"
+            
+              , "Open Source"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Ochrona danych"
+            
+              , "Wydajność"
+            
+              , "Elastyczność"
+            
+              , "Łatwy w użyciu"
+            
+              , "Aplikacje innych firm"
+            
+              , "Pamięć masowa podłączona do sieci"
+            
+              , "Technologia RAID"
+            
+              , "Zarządzanie pamięcią masową"
+            
+              , "OpenZFS"
+            
+              , "Użytkownicy domowi"
+            
+              , "Model cenowy"
+            
+              , "Przechowywanie w chmurze"
+            
+              , "Wirtualizacja"
+            
+              , "Dokumentacja koncentratora"
+            
+              , "Forum społeczności"
+            
+              , "Zaawansowana ochrona danych"
+            
+              , "Dojrzały system operacyjny NAS"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Unraid vs TrueNas"
+            
+              , "Porównanie systemów operacyjnych NAS"
+            
+              , "sieciowa pamięć masowa"
+            
+              , "Funkcje Unraid"
+            
+              , "Cechy TrueNas"
+            
+              , "Dokumentacja Unraid"
+            
+              , "Dokumentacja TrueNas"
+            
+              , "Społeczność Unraid"
+            
+              , "Społeczność TrueNas"
+            
+              , "Niewygórowane ceny"
+            
+              , "Koszt TrueNas"
+            
+              , "Niezwykła łatwość obsługi"
+            
+              , "Łatwość użytkowania TrueNas"
+            
+              , "Zarządzanie pamięcią masową Unraid"
+            
+              , "Zaawansowana ochrona danych TrueNas"
+            
+              , "Niewidoczne aplikacje innych firm"
+            
+              , "Pamięć masowa w chmurze TrueNas"
+            
+              , "Wirtualizacja Unraid"
+            
+              , "Rynek korporacyjny TrueNas"
+            
+              , "Technologia Unraid RAID"
+            
+              , "TrueNas OpenZFS"
+            
+              , "Użytkownicy domowi Unraid"
+            
+              , "Dojrzały system operacyjny NAS TrueNas"
+            
+              , "Nieograniczona wiedza techniczna"
+            
+              , "Specjaliści IT TrueNas"
+            
+              , "Niesamowita wydajność"
+            
+              , "Skalowalność TrueNas"
+            
+              , "Wsparcie Unraid"
+            
+              , "System plików TrueNas"
+            
+              , "Zarządzanie dyskami Unraid"
+            
+              , "Rozszerzenie pamięci masowej TrueNas"
+            
+              , "system operacyjny truenas"
+            
+              , "truenas vs freenas vs unraid"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie Unraid i TrueNas, w tym ich łatwości obsługi, funkcji, dokumentacji i społeczności, aby pomóc użytkownikom w podjęciu świadomej decyzji, który system operacyjny NAS jest najlepszy dla ich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

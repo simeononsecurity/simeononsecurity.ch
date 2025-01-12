@@ -1,0 +1,200 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rolnictwo on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/rolnictwo//img/banner.png</url>
+      <title>Rolnictwo on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rolnictwo/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rolnictwo/</link>
+
+    <description>Recent content in Rolnictwo on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rolnictwo/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzrost automatyzacji: Transformacja branż i możliwości zatrudnienia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-automation/</link>
+        
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia automatyzacji"
+            
+              , "Rewolucja przemysłowa"
+            
+              , "Postęp technologiczny"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Uczenie maszynowe"
+            
+              , "Produkcja"
+            
+              , "Opieka zdrowotna"
+            
+              , "Transport"
+            
+              , "Sprzedaż detaliczna"
+            
+              , "Rolnictwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-automation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj ewolucję technologii automatyzacji, branże, które ją wykorzystują, oraz jej wpływ na możliwości zatrudnienia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_depicting_various_industries_and_technolo.png" length="751680" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga sieci LoRa: Wyjaśnienie integracji helu</title>
+        
+          <link>https://pl.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieć LoRa"
+            
+              , "Integracja helu"
+            
+              , "Semtech Packet Forwarders"
+            
+              , "Aplikacje IoT"
+            
+              , "LPWAN"
+            
+              , "modulacja o rozłożonym spektrum"
+            
+              , "bramki"
+            
+              , "chmura"
+            
+              , "Protokół LoRaWAN"
+            
+              , "infrastruktura sieciowa"
+            
+              , "hotspoty"
+            
+              , "czujniki"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "geolokalizacja"
+            
+              , "mechanizm motywacyjny"
+            
+              , "inteligentne miasta"
+            
+              , "rolnictwo"
+            
+              , "logistyka"
+            
+              , "Rozwój IoT"
+            
+              , "łączność dalekiego zasięgu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści płynące z integracji sieci LoRa z Helium dla urządzeń IoT i branż takich jak inteligentne miasta, rolnictwo i logistyka.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png" length="409429" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

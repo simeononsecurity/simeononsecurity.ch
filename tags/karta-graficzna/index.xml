@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karta Graficzna on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/karta-graficzna//img/banner.png</url>
+      <title>Karta Graficzna on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/karta-graficzna/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/karta-graficzna/</link>
+
+    <description>Recent content in Karta Graficzna on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/karta-graficzna/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NVIDIA RTX 3090 vs RTX 4090: Porównanie wydajności łamania haseł</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "NVIDIA RTX 3090"
+            
+              , "NVIDIA RTX 4090"
+            
+              , "łamanie haseł"
+            
+              , "wydajność"
+            
+              , "bezpieczeństwo"
+            
+              , "ochrona hasłem"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "punkt odniesienia"
+            
+              , "GPU"
+            
+              , "menedżer haseł"
+            
+              , "silne hasła"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "regulacje rządowe"
+            
+              , "CISA"
+            
+              , "RODO"
+            
+              , "bezpieczeństwo danych"
+            
+              , "porównanie sprzętu"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "karta graficzna"
+            
+              , "siła hasła"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnicę w wydajności między NVIDIA RTX 3090 i RTX 4090 w łamaniu haseł, podkreślając konsekwencje dla bezpieczeństwa i środki ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png" length="346805" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

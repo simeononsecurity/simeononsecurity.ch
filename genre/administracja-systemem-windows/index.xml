@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administracja Systemem Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/administracja-systemem-windows//img/banner.png</url>
+      <title>Administracja Systemem Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/administracja-systemem-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/administracja-systemem-windows/</link>
+
+    <description>Recent content in Administracja Systemem Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/administracja-systemem-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 podstawowych najlepszych praktyk bezpieczeństwa PowerShell w zakresie ochrony skryptów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Najlepsze praktyki bezpieczeństwa PowerShell"
+            
+              , "Bezpieczeństwo skryptów"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja systemem Windows"
+            
+              , "Automatyzacja"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 10 najważniejszych najlepszych praktyk bezpieczeństwa PowerShell w celu ochrony skryptów, haseł i poufnych informacji. Zwiększ bezpieczeństwo swojego środowiska PowerShell i chroń się przed nieautoryzowanym dostępem i potencjalnymi naruszeniami bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

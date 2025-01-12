@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planowanie Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/planowanie-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Planowanie Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/planowanie-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/planowanie-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Planowanie Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/planowanie-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po reagowaniu na incydenty cybernetyczne</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents/</link>
+        
+        <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "reakcja na incydent"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "przewodnik dla początkujących"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "cyberataki"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberprzestępczość"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "Infrastruktura IT"
+            
+              , "naruszenia danych"
+            
+              , "cyberzagrożenia"
+            
+              , "cyberobrona"
+            
+              , "zarządzanie incydentami"
+            
+              , "odzyskiwanie danych"
+            
+              , "planowanie bezpieczeństwa"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "strategia cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy reagowania na incydenty i obsługi incydentów cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png" length="380713" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

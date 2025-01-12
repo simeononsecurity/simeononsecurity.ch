@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2FA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/2fa//img/banner.png</url>
+      <title>2FA on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/2fa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/2fa/</link>
+
+    <description>Recent content in 2FA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/2fa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wybór menedżera haseł: Kompleksowy przewodnik po zwiększonym bezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "menedżer haseł"
+            
+              , "wybór menedżera haseł"
+            
+              , "Bitwarden"
+            
+              , "KeePassXC"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "zarządzanie hasłami"
+            
+              , "silne hasła"
+            
+              , "unikalne hasła"
+            
+              , "naruszenia danych"
+            
+              , "szyfrowanie"
+            
+              , "Kompatybilność międzyplatformowa"
+            
+              , "synchronizacja hasła"
+            
+              , "kopia zapasowa"
+            
+              , "interfejs użytkownika"
+            
+              , "generator haseł"
+            
+              , "2FA"
+            
+              , "szyfrowanie typu end-to-end"
+            
+              , "Architektura o zerowej wiedzy"
+            
+              , "open-source"
+            
+              , "bezpieczne udostępnianie haseł"
+            
+              , "typ automatyczny"
+            
+              , "wsparcie mocowania"
+            
+              , "wtyczki"
+            
+              , "rekomendacje dotyczące menedżera haseł"
+            
+              , "Porównanie menedżerów haseł"
+            
+              , "wskazówki dotyczące bezpieczeństwa haseł"
+            
+              , "Funkcje menedżera haseł"
+            
+              , "zalety menedżera haseł"
+            
+              , "menedżer haseł do pobrania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze czynniki, które należy wziąć pod uwagę przy wyborze menedżera haseł i dowiedz się, dlaczego Bitwarden i KeePassXC są zalecanymi opcjami
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png" length="97482" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

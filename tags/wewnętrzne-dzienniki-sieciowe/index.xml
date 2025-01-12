@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wewnętrzne Dzienniki Sieciowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/wewn%C4%99trzne-dzienniki-sieciowe//img/banner.png</url>
+      <title>Wewnętrzne Dzienniki Sieciowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wewn%C4%99trzne-dzienniki-sieciowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wewn%C4%99trzne-dzienniki-sieciowe/</link>
+
+    <description>Recent content in Wewnętrzne Dzienniki Sieciowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wewn%C4%99trzne-dzienniki-sieciowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po analizie zagrożeń dla cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Analiza zagrożeń"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Przewodnik dla początkujących"
+            
+              , "Taktyka"
+            
+              , "Techniki"
+            
+              , "Procedury"
+            
+              , "Analiza danych"
+            
+              , "Podatności"
+            
+              , "Operacje bezpieczeństwa"
+            
+              , "Uczenie maszynowe"
+            
+              , "Eksploracja danych"
+            
+              , "Podejmowanie decyzji"
+            
+              , "Automatyzacja"
+            
+              , "Wspólnota"
+            
+              , "Monitorowanie ciemnej sieci"
+            
+              , "Wewnętrzne dzienniki sieciowe"
+            
+              , "Reakcja na incydent"
+            
+              , "Kampanie phishingowe"
+            
+              , "Malware"
+            
+              , "Planowanie strategiczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw swoją postawę w zakresie cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących na temat analizy zagrożeń i jej znaczenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png" length="419383" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

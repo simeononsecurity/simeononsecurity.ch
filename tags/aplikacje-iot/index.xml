@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aplikacje IoT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/aplikacje-iot//img/banner.png</url>
+      <title>Aplikacje IoT on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/aplikacje-iot/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/aplikacje-iot/</link>
+
+    <description>Recent content in Aplikacje IoT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/aplikacje-iot/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Crankk vs Helium IoT: Kompleksowe porównanie sieci IoT</title>
+        
+          <link>https://pl.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Crankk vs Helium IoT"
+            
+              , "Sieci IoT"
+            
+              , "modele konsensusu"
+            
+              , "sprzęt górniczy"
+            
+              , "opłaty za gaz"
+            
+              , "blockchain"
+            
+              , "LoRaWAN"
+            
+              , "Łączność IoT"
+            
+              , "komunikacja bezprzewodowa"
+            
+              , "Internet rzeczy"
+            
+              , "zdecentralizowane sieci"
+            
+              , "urządzenia o niskim poborze mocy"
+            
+              , "Rozwiązania IoT"
+            
+              , "inteligentne urządzenia"
+            
+              , "Aplikacje IoT"
+            
+              , "transmisja danych"
+            
+              , "rozwiązania w zakresie łączności"
+            
+              , "Technologia IoT"
+            
+              , "porównanie sieci"
+            
+              , "sieci bezprzewodowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnice między sieciami Crankk i Helium IoT, ich modelami konsensusu, sprzętem wydobywczym, opłatami za gaz i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png" length="221578" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga sieci LoRa: Wyjaśnienie integracji helu</title>
+        
+          <link>https://pl.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieć LoRa"
+            
+              , "Integracja helu"
+            
+              , "Semtech Packet Forwarders"
+            
+              , "Aplikacje IoT"
+            
+              , "LPWAN"
+            
+              , "modulacja o rozłożonym spektrum"
+            
+              , "bramki"
+            
+              , "chmura"
+            
+              , "Protokół LoRaWAN"
+            
+              , "infrastruktura sieciowa"
+            
+              , "hotspoty"
+            
+              , "czujniki"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "geolokalizacja"
+            
+              , "mechanizm motywacyjny"
+            
+              , "inteligentne miasta"
+            
+              , "rolnictwo"
+            
+              , "logistyka"
+            
+              , "Rozwój IoT"
+            
+              , "łączność dalekiego zasięgu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści płynące z integracji sieci LoRa z Helium dla urządzeń IoT i branż takich jak inteligentne miasta, rolnictwo i logistyka.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png" length="409429" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

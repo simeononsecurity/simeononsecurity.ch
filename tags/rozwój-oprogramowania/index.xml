@@ -1,0 +1,960 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rozwój Oprogramowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/rozw%C3%B3j-oprogramowania//img/banner.png</url>
+      <title>Rozwój Oprogramowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rozw%C3%B3j-oprogramowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rozw%C3%B3j-oprogramowania/</link>
+
+    <description>Recent content in Rozwój Oprogramowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rozw%C3%B3j-oprogramowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code vs Visual Studio Community i Enterprise: Co jest najlepsze dla deweloperów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój oprogramowania"
+            
+              , "Zintegrowane środowisko programistyczne (IDE)"
+            
+              , "Narzędzia programistyczne Microsoft"
+            
+              , "Edytory kodu"
+            
+              , "Platformy programistyczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Języki programowania"
+            
+              , "Wspólny rozwój"
+            
+              , "Rozwój oprogramowania dla przedsiębiorstw"
+            
+              , "Debugowanie kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png" length="175368" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Moc CI CD: Poprawa współpracy, jakości i szybkości działania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-ci-cd/</link>
+        
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ciągła integracja"
+            
+              , "ciągłe wdrażanie"
+            
+              , "CI CD"
+            
+              , "rozwój oprogramowania"
+            
+              , "współpraca"
+            
+              , "komunikacja"
+            
+              , "pętla sprzężenia zwrotnego"
+            
+              , "wykrywanie błędów"
+            
+              , "jakość oprogramowania"
+            
+              , "niezawodność"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "elastyczność"
+            
+              , "testowanie automatyczne"
+            
+              , "zwinny rozwój"
+            
+              , "DevOps"
+            
+              , "produktywność zespołu"
+            
+              , "wydania oprogramowania"
+            
+              , "automatyzacja wdrażania"
+            
+              , "automatyzacja testów"
+            
+              , "szybkie dostarczanie oprogramowania"
+            
+              , "metodyki zwinne"
+            
+              , "zarządzanie wydaniami"
+            
+              , "inżynieria oprogramowania"
+            
+              , "zwinne zespoły"
+            
+              , "ciągłe doskonalenie"
+            
+              , "testowanie oprogramowania"
+            
+              , "potoki wdrażania"
+            
+              , "proces wdrażania"
+            
+              , "cykl życia oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-ci-cd/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety ciągłej integracji i ciągłego wdrażania (CI CD) w tworzeniu oprogramowania, poprawiając współpracę, jakość i szybkość.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png" length="159757" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ręczne a automatyczne testowanie oprogramowania: Wybór właściwej strategii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</link>
+        
+        <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testowanie oprogramowania"
+            
+              , "testowanie ręczne"
+            
+              , "testowanie automatyczne"
+            
+              , "strategie testowania"
+            
+              , "rozwój oprogramowania"
+            
+              , "zapewnienie jakości"
+            
+              , "przypadki testowe"
+            
+              , "pokrycie testami"
+            
+              , "testy eksploracyjne"
+            
+              , "doświadczenie użytkownika"
+            
+              , "efektywność"
+            
+              , "możliwość ponownego użycia"
+            
+              , "zdolność adaptacji"
+            
+              , "błąd ludzki"
+            
+              , "fałszywe alarmy"
+            
+              , "Fałszywe negatywy"
+            
+              , "automatyzacja testów"
+            
+              , "testowanie hybrydowe"
+            
+              , "optymalizacja zasobów"
+            
+              , "praktyki testowania oprogramowania"
+            
+              , "Wybór właściwej strategii testowania oprogramowania"
+            
+              , "zalety testowania ręcznego"
+            
+              , "Wady testów automatycznych"
+            
+              , "łączenie testów manualnych i automatycznych"
+            
+              , "optymalizacja procesu testowania oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety i wady ręcznego i automatycznego testowania oprogramowania, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png" length="262222" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do DevOps: wypełnianie luki między rozwojem a operacjami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "rozwój oprogramowania"
+            
+              , "operacje"
+            
+              , "współpraca"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "infrastruktura jako kod"
+            
+              , "monitoring"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "efektywność"
+            
+              , "jakość"
+            
+              , "niezawodność"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo"
+            
+              , "audyt"
+            
+              , "identyfikowalność"
+            
+              , "automatyzacja"
+            
+              , "komunikacja"
+            
+              , "zwinny"
+            
+              , "CICD"
+            
+              , "wdrażanie oprogramowania"
+            
+              , "cykl życia oprogramowania"
+            
+              , "systemy oprogramowania"
+            
+              , "przemysł oprogramowania"
+            
+              , "bezpieczeństwo danych"
+            
+              , "przepisy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "przewaga konkurencyjna"
+            
+              , "prywatność danych"
+            
+              , "ochrona danych"
+            
+              , "Ewolucja branży oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak DevOps wypełnia lukę między rozwojem a operacjami, usprawniając dostarczanie oprogramowania i maksymalizując wydajność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.png" length="173119" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Git: Kompleksowy przewodnik po kontroli wersji</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/mastering-git-a-comprehensive-guide-for-version-control/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Git"
+            
+              , "kontrola wersji"
+            
+              , "Samouczki Git"
+            
+              , "Przewodnik Git"
+            
+              , "Podstawy Git"
+            
+              , "Polecenia Git"
+            
+              , "Instalacja Git"
+            
+              , "Konfiguracja Git"
+            
+              , "rozgałęzienia w Git"
+            
+              , "scalanie w Git"
+            
+              , "współpraca w Git"
+            
+              , "rozproszona kontrola wersji"
+            
+              , "wersjonowanie kodu"
+            
+              , "Przepływ pracy Git"
+            
+              , "Wskazówki Git"
+            
+              , "Najlepsze praktyki Git"
+            
+              , "Git dla początkujących"
+            
+              , "Git dla programistów"
+            
+              , "rozwój oprogramowania"
+            
+              , "kod współpracy"
+            
+              , "Git mastering"
+            
+              , "Kompleksowy przewodnik Git"
+            
+              , "Samouczek kontroli wersji Git"
+            
+              , "Rozgałęzianie i scalanie w Git"
+            
+              , "Wskazówki dotyczące współpracy Git"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/mastering-git-a-comprehensive-guide-for-version-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Stań się biegły w Git dzięki temu kompleksowemu przewodnikowi obejmującemu wszystko, od instalacji i konfiguracji po rozgałęzianie, scalanie i współpracę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png" length="102873" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wskazówki dotyczące pisania CV dla specjalistów ds. cyberbezpieczeństwa, rozwoju oprogramowania i IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/resume-writing-tips-for-cybersecurity-professionals/</link>
+        
+        <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wskazówki dotyczące pisania CV"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "rozwój oprogramowania"
+            
+              , "Specjaliści IT"
+            
+              , "poszukiwanie pracy"
+            
+              , "porady dotyczące kariery"
+            
+              , "umiejętności techniczne"
+            
+              , "najważniejsze informacje o projekcie"
+            
+              , "świadomość cyberbezpieczeństwa"
+            
+              , "umiejętności rozwiązywania problemów"
+            
+              , "trendy branżowe"
+            
+              , "rozwój zawodowy"
+            
+              , "Zgodność z RODO"
+            
+              , "Przepisy CCPA"
+            
+              , "rynek pracy"
+            
+              , "optymalizacja CV"
+            
+              , "podanie o pracę"
+            
+              , "wskazówki dotyczące CV"
+            
+              , "strategie poszukiwania pracy"
+            
+              , "rozwój kariery"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/resume-writing-tips-for-cybersecurity-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje szanse na zdobycie wymarzonej pracy dzięki tym eksperckim wskazówkom dotyczącym pisania CV dla specjalistów ds. cyberbezpieczeństwa, rozwoju oprogramowania i IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png" length="169771" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "orkiestracja kontenerów"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Rój Docker"
+            
+              , "Apache Mesos"
+            
+              , "skalowalność"
+            
+              , "wysoka dostępność"
+            
+              , "równoważenie obciążenia"
+            
+              , "bezpieczeństwo"
+            
+              , "zautomatyzowane wdrożenia aplikacji"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "zgodność"
+            
+              , "rozwój oprogramowania"
+            
+              , "chmura obliczeniowa"
+            
+              , "konteneryzacja"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "docker"
+            
+              , "pojemniki"
+            
+              , "konteneryzacja"
+            
+              , "devops"
+            
+              , "wdrożenie"
+            
+              , "przenośność"
+            
+              , "efektywność"
+            
+              , "bezpieczeństwo"
+            
+              , "najlepsze praktyki"
+            
+              , "Dockerfile"
+            
+              , "obrazy bazowe"
+            
+              , "zmienne środowiskowe"
+            
+              , "uchwyty na woluminy"
+            
+              , "użytkownik root"
+            
+              , "aktualne obrazy"
+            
+              , "rozwój oprogramowania"
+            
+              , "obrazy kontenerów"
+            
+              , "Docker Hub"
+            
+              , "orkiestracja kontenerów"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

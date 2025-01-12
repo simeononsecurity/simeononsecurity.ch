@@ -1,0 +1,194 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Koncepcje Sieciowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/koncepcje-sieciowe//img/banner.png</url>
+      <title>Koncepcje Sieciowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/koncepcje-sieciowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/koncepcje-sieciowe/</link>
+
+    <description>Recent content in Koncepcje Sieciowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/koncepcje-sieciowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy sieci: Zrozumienie warstw OSI i modelu TCP IP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-are-the-osi-layers/</link>
+        
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy pracy w sieci"
+            
+              , "Warstwy OSI"
+            
+              , "Model TCP IP"
+            
+              , "Protokoły sieciowe"
+            
+              , "Modele komunikacji"
+            
+              , "Podstawy pracy w sieci"
+            
+              , "Transmisja danych"
+            
+              , "Rozwiązywanie problemów z siecią"
+            
+              , "Architektura sieci"
+            
+              , "Koncepcje sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-are-the-osi-layers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uzyskaj kompleksowe zrozumienie warstw OSI i modelu TCP IP, podstawowych ram w sieciach, aby ułatwić skuteczną komunikację i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_network.png" length="340153" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zdawanie egzaminów CompTIA A&#43;: Porady i strategie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikacja CompTIA A&#43;"
+            
+              , "220-1101"
+            
+              , "220-1102"
+            
+              , "Przygotowanie do egzaminu"
+            
+              , "Certyfikacja IT"
+            
+              , "Kariera IT"
+            
+              , "Technologia informacyjna"
+            
+              , "Strategie rozwiązywania testów"
+            
+              , "Wskazówki do nauki"
+            
+              , "Umiejętności techniczne"
+            
+              , "Techniki rozwiązywania problemów"
+            
+              , "Komponenty sprzętowe"
+            
+              , "Instalacja oprogramowania"
+            
+              , "Koncepcje sieciowe"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Odzyskiwanie danych"
+            
+              , "Nauka online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wskazówki ekspertów i strategie zdawania egzaminów CompTIA A+, w tym najważniejsze akronimy, wiedzę o sprzęcie i typowe procedury rozwiązywania problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png" length="228520" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

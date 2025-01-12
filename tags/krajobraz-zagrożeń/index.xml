@@ -1,0 +1,392 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Krajobraz Zagrożeń on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/krajobraz-zagro%C5%BCe%C5%84//img/banner.png</url>
+      <title>Krajobraz Zagrożeń on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/krajobraz-zagro%C5%BCe%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/krajobraz-zagro%C5%BCe%C5%84/</link>
+
+    <description>Recent content in Krajobraz Zagrożeń on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/krajobraz-zagro%C5%BCe%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie bezpiecznego i zgodnego z przepisami jeziora danych w chmurze: Najlepsze praktyki ochrony przechowywanych danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "jezioro danych"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "przepisy dotyczące zgodności"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "monitoring"
+            
+              , "łatanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Rozwiązanie SIEM"
+            
+              , "Zespoły wsparcia IT"
+            
+              , "krajobraz zagrożeń"
+            
+              , "migracja do chmury"
+            
+              , "zarządzanie chmurą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się o najlepszych praktykach w zakresie bezpieczeństwa i zgodności podczas planowania, tworzenia i zarządzania jeziorami danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie urządzeń IoT: Wyzwania i rozwiązania w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "cybersecurity"
+            
+              , "bezpieczeństwo"
+            
+              , "Internet rzeczy"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "inteligentne urządzenia"
+            
+              , "najlepsze praktyki"
+            
+              , "Ryzyko związane z IoT"
+            
+              , "uwierzytelnianie"
+            
+              , "aktualizacje oprogramowania sprzętowego"
+            
+              , "monitorowanie"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "Wytyczne dotyczące bezpieczeństwa IoT"
+            
+              , "segmentacja sieci"
+            
+              , "krajobraz zagrożeń"
+            
+              , "podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wpływ IoT na cyberbezpieczeństwo i poznaj skuteczne strategie zabezpieczania podłączonych urządzeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Istotna rola Threat Intelligence w reagowaniu na incydenty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Threat Intelligence"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Cybersecurity"
+            
+              , "Łagodzenie skutków"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Analiza danych"
+            
+              , "Systemy informacyjne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ocena podatności"
+            
+              , "Zdolności wykrywania"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Wywiad strategiczny"
+            
+              , "Wywiad taktyczny"
+            
+              , "Wywiad operacyjny"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Pojawiające się trendy"
+            
+              , "Świadomość bezpieczeństwa"
+            
+              , "Informatyka śledcza"
+            
+              , "Cyberzagrożenia"
+            
+              , "Ciemna sieć"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wywiad o zagrożeniach zwiększa bezpieczeństwo cybernetyczne poprzez łagodzenie i reagowanie na cyberataki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png" length="509240" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie poprawek dla podatnych serwerów: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Łatanie serwera"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Testy penetracyjne"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Poprawki oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Środowiska przejściowe"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Krytyczne poprawki"
+            
+              , "Poprawki dostawcy"
+            
+              , "Biuletyny bezpieczeństwa"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png" length="246714" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,333 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/raspberry-pi//img/banner.png</url>
+      <title>Raspberry Pi on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/raspberry-pi/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/raspberry-pi/</link>
+
+    <description>Recent content in Raspberry Pi on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze pomysły na projekt domowego laboratorium: Odkryj nowe możliwości</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe projekty laboratoryjne"
+            
+              , "środowisko wirtualizacji"
+            
+              , "laboratorium bezpieczeństwa sieci"
+            
+              , "domowy serwer multimediów"
+            
+              , "system automatyki domowej"
+            
+              , "praktyczne doświadczenie"
+            
+              , "Umiejętności informatyczne"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "sprzęt"
+            
+              , "eksperymentowanie"
+            
+              , "nauka"
+            
+              , "architektura sieci"
+            
+              , "konfiguracje oprogramowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "firewall"
+            
+              , "router"
+            
+              , "streaming multimediów"
+            
+              , "sieć domowa"
+            
+              , "inteligentne urządzenia"
+            
+              , "automatyzacja"
+            
+              , "Raspberry Pi"
+            
+              , "Z-Wave"
+            
+              , "Zigbee"
+            
+              , "Plex"
+            
+              , "Kodi"
+            
+              , "Emby"
+            
+              , "VMware vSphere"
+            
+              , "Microsoft Hyper-V"
+            
+              , "Proxmox VE"
+            
+              , "Budowanie środowiska wirtualizacji w domu"
+            
+              , "Tworzenie laboratorium bezpieczeństwa sieci za pomocą pfSense"
+            
+              , "Konfiguracja domowego serwera multimediów z Plex"
+            
+              , "Zbuduj system automatyki domowej z Raspberry Pi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj ekscytujące i innowacyjne pomysły na projekty w domowym laboratorium, aby poszerzyć swoją wiedzę i rozwinąć umiejętności informatyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_person_working.png" length="443787" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj dochodową skrzynkę dochodu pasywnego za pomocą sprzętu o małej mocy: Poradnik</title>
+        
+          <link>https://pl.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</link>
+        
+        <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zbuduj dochodową skrzynkę dochodu pasywnego"
+            
+              , "Sprzęt o małej mocy"
+            
+              , "Dochód pasywny"
+            
+              , "Crypto Miner"
+            
+              , "Raspberry Pi"
+            
+              , "Intel NUC"
+            
+              , "Przewodnik"
+            
+              , "Wymagania sprzętowe"
+            
+              , "Instalacja systemu operacyjnego"
+            
+              , "Instalacja oprogramowania"
+            
+              , "Docker"
+            
+              , "Automatyczne aktualizacje kontenerów Docker"
+            
+              , "Ubuntu Server"
+            
+              , "Pulpit Ubuntu"
+            
+              , "Raspbian"
+            
+              , "Budżet"
+            
+              , "USFF"
+            
+              , "Tiny"
+            
+              , "Mini"
+            
+              , "Micro PC"
+            
+              , "Doświadczenie techniczne"
+            
+              , "EarnApp"
+            
+              , "MYST"
+            
+              , "Peer2Profit"
+            
+              , "HoneyGain"
+            
+              , "TraffMonitizer"
+            
+              , "Strażnica"
+            
+              , "Bitping"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować nisko zasilany pasywny dochód crypto miner przy użyciu Raspberry Pi lub Intel NUC, i zarabiać $10-$20 miesięcznie na pudełko z tym przewodnikiem
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png" length="405403" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wymiana karty SD Nebra Helium Miner: Przewodnik krok po kroku</title>
+        
+          <link>https://pl.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</link>
+        
+        <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Kryptowaluta"
+            
+              , "Sprzęt"
+            
+              , "Wydobycie helu"
+            
+              , "Rozwiązywanie problemów"
+            
+              , "Wymiana karty SD"
+            
+              , "Problemy z synchronizacją"
+            
+              , "Raspberry Pi"
+            
+              , "Balena Etcher"
+            
+              , "Nebra Helium Miner"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/replacing-nebra-outdoor-indoor-miner-emmc-key/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego przewodnika dowiesz się, jak wymienić lub przeflashować kartę SD Nebra Indoor i Outdoor, pierwszej i drugiej generacji, EMMC Key oraz naprawić problemy z synchronizacją Helium Miner.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.png" length="233242" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

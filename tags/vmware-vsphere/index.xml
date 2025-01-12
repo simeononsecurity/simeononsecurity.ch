@@ -1,0 +1,297 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware VSphere on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/vmware-vsphere//img/banner.png</url>
+      <title>VMware VSphere on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/vmware-vsphere/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/vmware-vsphere/</link>
+
+    <description>Recent content in VMware VSphere on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/vmware-vsphere/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja instalacji Windows 11: Obejście TPM, bezpiecznego rozruchu i kontroli pamięci RAM</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows 11"
+            
+              , "Instalacja"
+            
+              , "Wirtualizacja"
+            
+              , "Automatyzacja"
+            
+              , "Klucze rejestru"
+            
+              , "Obejście TPM"
+            
+              , "Bezpieczne obejście rozruchu"
+            
+              , "Obejście pamięci RAM"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij instalację Windows 11 w środowiskach zwirtualizowanych, omijając kontrole TPM, Secure Boot i pamięci RAM za pomocą autounattend.xml i vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo maszyn wirtualnych dzięki vTPM: Przewodnik krok po kroku</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Bezpieczeństwo"
+            
+              , "Moduł zaufanej platformy"
+            
+              , "vTPM"
+            
+              , "Gość OS"
+            
+              , "Szyfrowanie"
+            
+              , "Atest platformy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ bezpieczeństwo maszyn wirtualnych za pomocą vTPM dzięki naszemu kompleksowemu przewodnikowi krok po kroku, zapewniającemu poświadczenia platformy i obsługę szyfrowania BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze pomysły na projekt domowego laboratorium: Odkryj nowe możliwości</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe projekty laboratoryjne"
+            
+              , "środowisko wirtualizacji"
+            
+              , "laboratorium bezpieczeństwa sieci"
+            
+              , "domowy serwer multimediów"
+            
+              , "system automatyki domowej"
+            
+              , "praktyczne doświadczenie"
+            
+              , "Umiejętności informatyczne"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "sprzęt"
+            
+              , "eksperymentowanie"
+            
+              , "nauka"
+            
+              , "architektura sieci"
+            
+              , "konfiguracje oprogramowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "firewall"
+            
+              , "router"
+            
+              , "streaming multimediów"
+            
+              , "sieć domowa"
+            
+              , "inteligentne urządzenia"
+            
+              , "automatyzacja"
+            
+              , "Raspberry Pi"
+            
+              , "Z-Wave"
+            
+              , "Zigbee"
+            
+              , "Plex"
+            
+              , "Kodi"
+            
+              , "Emby"
+            
+              , "VMware vSphere"
+            
+              , "Microsoft Hyper-V"
+            
+              , "Proxmox VE"
+            
+              , "Budowanie środowiska wirtualizacji w domu"
+            
+              , "Tworzenie laboratorium bezpieczeństwa sieci za pomocą pfSense"
+            
+              , "Konfiguracja domowego serwera multimediów z Plex"
+            
+              , "Zbuduj system automatyki domowej z Raspberry Pi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/home-lab-project-ideas/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj ekscytujące i innowacyjne pomysły na projekty w domowym laboratorium, aby poszerzyć swoją wiedzę i rozwinąć umiejętności informatyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_person_working.png" length="443787" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

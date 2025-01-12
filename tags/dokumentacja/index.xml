@@ -1,0 +1,413 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dokumentacja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/dokumentacja//img/banner.png</url>
+      <title>Dokumentacja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dokumentacja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dokumentacja/</link>
+
+    <description>Recent content in Dokumentacja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dokumentacja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Porównanie frameworków front-endowych: React vs. Angular vs. Vue.js</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/react-vs-angular-vs-vue.js-front-end-web-development-framework-comparison/</link>
+        
+        <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "frameworki front-end"
+            
+              , "tworzenie stron internetowych"
+            
+              , "React"
+            
+              , "Kątowy"
+            
+              , "Vue.js"
+            
+              , "porównanie ram"
+            
+              , "interfejsy użytkownika"
+            
+              , "wydajność"
+            
+              , "popularność"
+            
+              , "wsparcie społeczności"
+            
+              , "krzywa uczenia się"
+            
+              , "ekosystem"
+            
+              , "przypadki użycia"
+            
+              , "JavaScript"
+            
+              , "wirtualny DOM"
+            
+              , "Architektura oparta na komponentach"
+            
+              , "zarządzanie państwem"
+            
+              , "skalowalność"
+            
+              , "dokumentacja"
+            
+              , "oprzyrządowanie"
+            
+              , "wymagania projektu"
+            
+              , "React vs Angular"
+            
+              , "React vs Vue.js"
+            
+              , "Angular vs Vue.js"
+            
+              , "rozwój front-endu"
+            
+              , "frameworki aplikacji internetowych"
+            
+              , "Rozwój interfejsu użytkownika"
+            
+              , "Struktury JavaScript"
+            
+              , "narzędzia do tworzenia stron internetowych"
+            
+              , "technologie tworzenia stron internetowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/react-vs-angular-vs-vue.js-front-end-web-development-framework-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między React, Angular i Vue.js, aby wybrać odpowiedni framework front-end dla swojego projektu tworzenia stron internetowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_three_interconnected_gears.png" length="76900" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Open-Source vs. komercyjne narzędzia bezpieczeństwa: Zalety i wady wyjaśnione</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</link>
+        
+        <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo o otwartym kodzie źródłowym"
+            
+              , "komercyjne narzędzia bezpieczeństwa"
+            
+              , "efektywność kosztowa"
+            
+              , "elastyczność"
+            
+              , "możliwość dostosowania do potrzeb"
+            
+              , "wsparcie społeczności"
+            
+              , "ograniczone wsparcie"
+            
+              , "dokumentacja"
+            
+              , "wyzwania związane z integracją"
+            
+              , "jakość i niezawodność"
+            
+              , "płynna integracja"
+            
+              , "uzależnienie od dostawcy"
+            
+              , "Zasoby informatyczne"
+            
+              , "infrastruktura bezpieczeństwa"
+            
+              , "rozwiązania w zakresie bezpieczeństwa"
+            
+              , "ograniczenia budżetowe"
+            
+              , "wyjątkowe wymagania"
+            
+              , "kompatybilność oprogramowania"
+            
+              , "cele bezpieczeństwa"
+            
+              , "podejmowanie decyzji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zalety i wady narzędzi bezpieczeństwa typu open-source i komercyjnych, pomagając w podejmowaniu świadomych decyzji dotyczących strategii bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png" length="173477" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unraid vs TrueNas: Który system operacyjny NAS jest odpowiedni dla Ciebie?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Unraid"
+            
+              , "TrueNAS"
+            
+              , "System operacyjny NAS"
+            
+              , "Porównanie"
+            
+              , "Przyjazność dla użytkownika"
+            
+              , "Cechy"
+            
+              , "Dokumentacja"
+            
+              , "Wspólnota"
+            
+              , "Open Source"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Ochrona danych"
+            
+              , "Wydajność"
+            
+              , "Elastyczność"
+            
+              , "Łatwy w użyciu"
+            
+              , "Aplikacje innych firm"
+            
+              , "Pamięć masowa podłączona do sieci"
+            
+              , "Technologia RAID"
+            
+              , "Zarządzanie pamięcią masową"
+            
+              , "OpenZFS"
+            
+              , "Użytkownicy domowi"
+            
+              , "Model cenowy"
+            
+              , "Przechowywanie w chmurze"
+            
+              , "Wirtualizacja"
+            
+              , "Dokumentacja koncentratora"
+            
+              , "Forum społeczności"
+            
+              , "Zaawansowana ochrona danych"
+            
+              , "Dojrzały system operacyjny NAS"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Unraid vs TrueNas"
+            
+              , "Porównanie systemów operacyjnych NAS"
+            
+              , "sieciowa pamięć masowa"
+            
+              , "Funkcje Unraid"
+            
+              , "Cechy TrueNas"
+            
+              , "Dokumentacja Unraid"
+            
+              , "Dokumentacja TrueNas"
+            
+              , "Społeczność Unraid"
+            
+              , "Społeczność TrueNas"
+            
+              , "Niewygórowane ceny"
+            
+              , "Koszt TrueNas"
+            
+              , "Niezwykła łatwość obsługi"
+            
+              , "Łatwość użytkowania TrueNas"
+            
+              , "Zarządzanie pamięcią masową Unraid"
+            
+              , "Zaawansowana ochrona danych TrueNas"
+            
+              , "Niewidoczne aplikacje innych firm"
+            
+              , "Pamięć masowa w chmurze TrueNas"
+            
+              , "Wirtualizacja Unraid"
+            
+              , "Rynek korporacyjny TrueNas"
+            
+              , "Technologia Unraid RAID"
+            
+              , "TrueNas OpenZFS"
+            
+              , "Użytkownicy domowi Unraid"
+            
+              , "Dojrzały system operacyjny NAS TrueNas"
+            
+              , "Nieograniczona wiedza techniczna"
+            
+              , "Specjaliści IT TrueNas"
+            
+              , "Niesamowita wydajność"
+            
+              , "Skalowalność TrueNas"
+            
+              , "Wsparcie Unraid"
+            
+              , "System plików TrueNas"
+            
+              , "Zarządzanie dyskami Unraid"
+            
+              , "Rozszerzenie pamięci masowej TrueNas"
+            
+              , "system operacyjny truenas"
+            
+              , "truenas vs freenas vs unraid"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie Unraid i TrueNas, w tym ich łatwości obsługi, funkcji, dokumentacji i społeczności, aby pomóc użytkownikom w podjęciu świadomej decyzji, który system operacyjny NAS jest najlepszy dla ich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

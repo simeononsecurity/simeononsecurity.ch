@@ -1,0 +1,257 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skrypty on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/skrypty//img/banner.png</url>
+      <title>Skrypty on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skrypty/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skrypty/</link>
+
+    <description>Recent content in Skrypty on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skrypty/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo swojego systemu dzięki poleceniom Windows Defender PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Polecenia PowerShell"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "kontrola wiersza poleceń"
+            
+              , "antywirus"
+            
+              , "Systemy operacyjne Windows"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "zaawansowane ustawienia zabezpieczeń"
+            
+              , "automatyzacja operacji bezpieczeństwa"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik krok po kroku po karierze w IT i cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/getting-started-in-it-and-cybersecurity/</link>
+        
+        <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Przewodnik po karierze"
+            
+              , "Certyfikaty CompTIA"
+            
+              , "MCSA"
+            
+              , "Linux&#43;"
+            
+              , "CCNA"
+            
+              , "Testy penetracyjne"
+            
+              , "Ethical Hacking"
+            
+              , "OSCP"
+            
+              , "Skrypty"
+            
+              , "Oferty pracy IT"
+            
+              , "Oferty pracy w obszarze cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/getting-started-in-it-and-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kroki, które należy podjąć, aby rozpocząć karierę w ekscytującej i stale rozwijającej się dziedzinie IT i cyberbezpieczeństwa dzięki temu kompleksowemu przewodnikowi
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga PowerShella dla usprawnienia operacji bezpieczeństwa cybernetycznego i zgodności z przepisami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Cybersecurity"
+            
+              , "Operacje"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "STIG SRG Wymagania"
+            
+              , "Wytyczne NSACyber"
+            
+              , "Systemy Windows"
+            
+              , "Obrona niebieskiej drużyny"
+            
+              , "Skrypty"
+            
+              , "Narzędzia"
+            
+              , "Projekty C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

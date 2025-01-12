@@ -1,0 +1,155 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UDM Pro on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/udm-pro//img/banner.png</url>
+      <title>UDM Pro on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/udm-pro/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/udm-pro/</link>
+
+    <description>Recent content in UDM Pro on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/udm-pro/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja firmware offline dla Ubiquiti Unifi UDM Pro i UDM SE przez SSH z wiersza poleceń</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacja oprogramowania układowego Ubiquiti"
+            
+              , "UDM Pro"
+            
+              , "UDM SE"
+            
+              , "aktualizacja oprogramowania sprzętowego offline"
+            
+              , "Wiersz poleceń SSH"
+            
+              , "zarządzanie siecią"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aktualizacja oprogramowania sprzętowego"
+            
+              , "Połączenie SSH"
+            
+              , "plik oprogramowania układowego"
+            
+              , "Kontroler sieci UniFi"
+            
+              , "poprawki błędów"
+            
+              , "poprawa wydajności"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "networking"
+            
+              , "urządzenia sieciowe"
+            
+              , "technologia"
+            
+              , "Zarządzanie IT"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego"
+            
+              , "optymalizacja sieci"
+            
+              , "Aktualizacja oprogramowania sprzętowego Ubiquiti Networks"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM Pro"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM SE"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego offline"
+            
+              , "Aktualizacja oprogramowania sprzętowego SSH"
+            
+              , "zarządzanie urządzeniami sieciowymi"
+            
+              , "aktualizacje zabezpieczeń sieci"
+            
+              , "strategie aktualizacji oprogramowania sprzętowego"
+            
+              , "Zarządzanie oprogramowaniem sprzętowym offline"
+            
+              , "optymalizacja wydajności sieci"
+            
+              , "zarządzanie poprawkami zabezpieczeń"
+            
+              , "aktualizacje technologii sieciowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zaktualizować oprogramowanie sprzętowe Ubiquiti Unifi UDM Pro i UDM SE w trybie offline za pomocą wiersza poleceń SSH, aby uzyskać optymalną wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

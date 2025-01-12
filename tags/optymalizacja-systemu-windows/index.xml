@@ -1,0 +1,366 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optymalizacja Systemu Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/optymalizacja-systemu-windows//img/banner.png</url>
+      <title>Optymalizacja Systemu Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/optymalizacja-systemu-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/optymalizacja-systemu-windows/</link>
+
+    <description>Recent content in Optymalizacja Systemu Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/optymalizacja-systemu-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zabezpieczeń i hartowania: Kompleksowe zasoby dotyczące zabezpieczeń</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "utwardzanie systemu"
+            
+              , "utwardzanie aplikacji"
+            
+              , "Zgodność ze standardem STIG"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Wzmocnienie Windows Defender"
+            
+              , "Wzmocnienie serwera WWW Apache"
+            
+              , "Skrypt .NET STIG"
+            
+              , "Skrypt Adobe Reader DC STIG"
+            
+              , "Skrypt STIG dla przeglądarki Firefox"
+            
+              , "Simeononsecurity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "automatyzacja"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "wzmocnienie zabezpieczeń"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Wzmocnienie serwera WWW"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów i konfiguracji, aby zoptymalizować i wzmocnić swoje systemy, czyniąc je zgodnymi z STIG i odpornymi na włamania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Optimize-Harden-Debloat GUI - instalacja z przewodnikiem</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Debiut systemu Windows 10"
+            
+              , "Usprawnienia systemu Windows 10"
+            
+              , "GUI"
+            
+              , "Ostrołęka"
+            
+              , "Powershell"
+            
+              , "Automatyka"
+            
+              , "Stabilność systemu"
+            
+              , "Administracja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Skrypt"
+            
+              , "Programowanie"
+            
+              , "Debloating"
+            
+              , "Dostosowanie systemu Windows 10"
+            
+              , "Wydajność systemu"
+            
+              , "Prywatność w Windows 10"
+            
+              , "Bezpieczeństwo"
+            
+              , "Konfiguracja Windows 10"
+            
+              , "Konserwacja systemu Windows 10"
+            
+              , "Zarządzanie Windows 10"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje doświadczenie z systemem Windows 10 z łatwością za pomocą automatycznego skryptu Windows-Optimize-Harden-Debloat GUI, który oferuje instalację z przewodnikiem, aby zminimalizować konfigurację systemu Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja i wzmocnienie systemu Windows za pomocą skryptu Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Wydajność systemu Windows"
+            
+              , "Prywatność systemu Windows"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Obiekty polityki grupowej"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Firefox"
+            
+              , "Google Chrome"
+            
+              , "Internet Explorer"
+            
+              , "Microsoft Chromium Edge"
+            
+              , "Dot Net 4"
+            
+              , "Microsoft Office"
+            
+              , "Onedrive"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Zapora systemu Windows"
+            
+              , "Windows Defender"
+            
+              , "Applocker"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten kompleksowy przewodnik zawiera instrukcje krok po kroku, jak zoptymalizować, utwardzić i usunąć z systemu Windows, aby zwiększyć jego wydajność, bezpieczeństwo i prywatność.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja komputera z systemem Windows za pomocą Windows-Optimize-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Debloating Windows"
+            
+              , "Przyspieszenie systemu Windows"
+            
+              , "Optymalizacja wydajności systemu Windows"
+            
+              , "Zwiększenie wydajności systemu Windows"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Microsoft"
+            
+              , "Prywatność"
+            
+              , "Usuwanie zbędnego oprogramowania"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Windows Defender"
+            
+              , "Windows Update"
+            
+              , "Cortona"
+            
+              , "Obiekty zasad grupy"
+            
+              , "Telemetria"
+            
+              , "Sklep Windows"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw wydajność i prywatność swojego systemu operacyjnego Windows za pomocą Windows-Optimize-Debloat, kompleksowego skryptu, który pomaga usunąć bloatware i zoptymalizować ustawienia systemowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

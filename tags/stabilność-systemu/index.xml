@@ -1,0 +1,272 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stabilność Systemu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/stabilno%C5%9B%C4%87-systemu//img/banner.png</url>
+      <title>Stabilność Systemu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/stabilno%C5%9B%C4%87-systemu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/stabilno%C5%9B%C4%87-systemu/</link>
+
+    <description>Recent content in Stabilność Systemu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/stabilno%C5%9B%C4%87-systemu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja łatania i aktualizacji systemu Linux za pomocą Ansible: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Łatanie systemu Linux"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Automatyzacja aktualizacji"
+            
+              , "konserwacja systemu"
+            
+              , "Automatyzacja IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "RHEL"
+            
+              , "Alpine"
+            
+              , "stabilność systemu"
+            
+              , "łagodzenie podatności na zagrożenia"
+            
+              , "Infrastruktura IT"
+            
+              , "narzędzie do automatyzacji"
+            
+              , "Podręcznik Ansible"
+            
+              , "konfiguracja hosta"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "Operacje IT"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zautomatyzować łatanie i aktualizacje systemu Linux za pomocą Ansible, obejmując różne dystrybucje i instrukcje konfiguracji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Optimize-Harden-Debloat GUI - instalacja z przewodnikiem</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Debiut systemu Windows 10"
+            
+              , "Usprawnienia systemu Windows 10"
+            
+              , "GUI"
+            
+              , "Ostrołęka"
+            
+              , "Powershell"
+            
+              , "Automatyka"
+            
+              , "Stabilność systemu"
+            
+              , "Administracja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Skrypt"
+            
+              , "Programowanie"
+            
+              , "Debloating"
+            
+              , "Dostosowanie systemu Windows 10"
+            
+              , "Wydajność systemu"
+            
+              , "Prywatność w Windows 10"
+            
+              , "Bezpieczeństwo"
+            
+              , "Konfiguracja Windows 10"
+            
+              , "Konserwacja systemu Windows 10"
+            
+              , "Zarządzanie Windows 10"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje doświadczenie z systemem Windows 10 z łatwością za pomocą automatycznego skryptu Windows-Optimize-Harden-Debloat GUI, który oferuje instalację z przewodnikiem, aby zminimalizować konfigurację systemu Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,564 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cache on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/cache//img/banner.png</url>
+      <title>Cache on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/cache/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/cache/</link>
+
+    <description>Recent content in Cache on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/cache/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa obsługujące karty graficzne NVIDIA w 2024 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-best-linux-distros-with-nvidia-support/</link>
+        
+        <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "Obsługa kart graficznych NVIDIA"
+            
+              , "Ubuntu"
+            
+              , "Fedora"
+            
+              , "Manjaro"
+            
+              , "Pop!_OS"
+            
+              , "OpenSUSE"
+            
+              , "kompatybilność sterowników"
+            
+              , "optymalizacja wydajności"
+            
+              , "Obsługa procesorów graficznych"
+            
+              , "Sterowniki GPU dla systemu Linux"
+            
+              , "Gry na Linuksa"
+            
+              , "Grafika w systemie Linux"
+            
+              , "Sterowniki NVIDIA"
+            
+              , "dystrybucje przyjazne dla użytkownika"
+            
+              , "Stabilność systemu Linux"
+            
+              , "Dokumentacja systemu Linux"
+            
+              , "Wsparcie społeczności Linux"
+            
+              , "Kompatybilność sprzętowa z systemem Linux"
+            
+              , "zwolnienie kroczące"
+            
+              , "Przełączanie GPU"
+            
+              , "zarządzanie energią"
+            
+              , "Wydajność GPU"
+            
+              , "Instalacja w systemie Linux"
+            
+              , "Rozwiązywanie problemów z systemem Linux"
+            
+              , "Doświadczenie użytkownika systemu Linux"
+            
+              , "Dostosowywanie systemu Linux"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-best-linux-distros-with-nvidia-support/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa zoptymalizowane pod kątem obsługi kart graficznych NVIDIA, zapewniające płynną wydajność i kompatybilność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_showing_a_computer_screen_displaying_a_Linux_distro.png" length="222634" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Aktualizacje offline dla Ubuntu, Debiana i CentOS RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png" length="379936" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja łatania i aktualizacji systemu Linux za pomocą Ansible: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Łatanie systemu Linux"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Automatyzacja aktualizacji"
+            
+              , "konserwacja systemu"
+            
+              , "Automatyzacja IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "RHEL"
+            
+              , "Alpine"
+            
+              , "stabilność systemu"
+            
+              , "łagodzenie podatności na zagrożenia"
+            
+              , "Infrastruktura IT"
+            
+              , "narzędzie do automatyzacji"
+            
+              , "Podręcznik Ansible"
+            
+              , "konfiguracja hosta"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "Operacje IT"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zautomatyzować łatanie i aktualizacje systemu Linux za pomocą Ansible, obejmując różne dystrybucje i instrukcje konfiguracji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wskazówki i porady dotyczące zdawania egzaminu CompTIA Linux&#43; XK0-005</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</link>
+        
+        <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj cenne wskazówki i triki, które pomogą Ci zdać egzamin CompTIA Linux+ XK0-005 i rozwinąć karierę profesjonalisty Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png" length="294776" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

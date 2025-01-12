@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Podatnością on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bci%C4%85//img/banner.png</url>
+      <title>Zarządzanie Podatnością on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bci%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bci%C4%85/</link>
+
+    <description>Recent content in Zarządzanie Podatnością on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-podatno%C5%9Bci%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "zarządzanie podatnością"
+            
+              , "bezpieczne kodowanie"
+            
+              , "test penetracyjny"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne badanie bezpieczeństwa"
+            
+              , "bezpieczny cykl rozwoju"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć swoje aplikacje internetowe za pomocą standardu OWASP Application Security Verification Standard (ASVS), aby spełnić najbardziej rygorystyczne środki bezpieczeństwa i chronić przed typowymi podatnościami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Outsourcing Cybersecurity: Korzyści i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</link>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "outsourcing"
+            
+              , "sprzedawcy zewnętrzni"
+            
+              , "naruszenie danych"
+            
+              , "wybór sprzedawcy"
+            
+              , "oszczędność kosztów"
+            
+              , "wiedza specjalistyczna"
+            
+              , "skalowalność"
+            
+              , "utrata kontroli"
+            
+              , "plan reagowania na incydenty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "outsourcing bezpieczeństwa"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnością"
+            
+              , "cyberobrona"
+            
+              , "ciągłość działania"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach wynikających z powierzenia cyberbezpieczeństwa zewnętrznym dostawcom oraz jak wybrać odpowiedniego dostawcę dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png" length="373043" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

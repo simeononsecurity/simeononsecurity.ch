@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CTF on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ctf//img/banner.png</url>
+      <title>CTF on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ctf/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ctf/</link>
+
+    <description>Recent content in CTF on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Dekodowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Dekodowanie"
+            
+              , "Opis"
+            
+              , "Fernet Cipher"
+            
+              , "Szyfr Malboge"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kryptografia"
+            
+              , "Testy penetracyjne"
+            
+              , "Python"
+            
+              , "Bezpieczeństwo"
+            
+              , "Wyzwanie"
+            
+              , "CTF"
+            
+              , "Flaga"
+            
+              , "Szyfrowanie"
+            
+              , "Deszyfrowanie"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/chrome//img/banner.png</url>
+      <title>Chrome on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/chrome/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/chrome/</link>
+
+    <description>Recent content in Chrome on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona systemu Windows przed atakami typu Speculative Execution Side-Channel.</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Spectre Meltdown Mitigation Script"
+            
+              , "Ataki typu Speculative Execution Side-Channel"
+            
+              , "Microsoft"
+            
+              , "Intel"
+            
+              , "AMD"
+            
+              , "VIA"
+            
+              , "ARM"
+            
+              , "Android"
+            
+              , "Chrome"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Branch Target Injection"
+            
+              , "Kontrola granic Obejście"
+            
+              , "Rogue Data Cache Load"
+            
+              , "Obejście sklepu spekulacyjnego"
+            
+              , "Mikroarchitektoniczne próbkowanie danych"
+            
+              , "CVEs"
+            
+              , "Aktualizacje oprogramowania sprzętowego"
+            
+              , "Repozytorium GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć system Windows przed atakami typu speculative execution side-channel za pomocą skryptu łagodzącego Microsoftu i aktualizacji oprogramowania sprzętowego
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

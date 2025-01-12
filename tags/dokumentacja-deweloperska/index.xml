@@ -1,0 +1,143 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dokumentacja Deweloperska on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/dokumentacja-deweloperska//img/banner.png</url>
+      <title>Dokumentacja Deweloperska on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dokumentacja-deweloperska/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dokumentacja-deweloperska/</link>
+
+    <description>Recent content in Dokumentacja Deweloperska on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dokumentacja-deweloperska/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Discord Cyber Scenario Bot: Wzmocnienie szkoleń i świadomości w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/github/discord-cyber-scenario-bot/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bot Discorda"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "świadomość cyberbezpieczeństwa"
+            
+              , "bot scenariusza"
+            
+              , "bot quizowy"
+            
+              , "tabela liderów"
+            
+              , "polecenia narzędzi"
+            
+              , "Docker"
+            
+              , "Python"
+            
+              , "testowanie automatyczne"
+            
+              , "Discord API"
+            
+              , "dokumentacja deweloperska"
+            
+              , "wnoszący wkład"
+            
+              , "Licencja MIT"
+            
+              , "CyberScenarioBot"
+            
+              , "CyberSentinels"
+            
+              , "usprawnienie szkolenia"
+            
+              , "program uświadamiający"
+            
+              , "scenariusze cyberbezpieczeństwa"
+            
+              , "środowisko serwera"
+            
+              , "niestandardowe polecenia"
+            
+              , "wdrażanie i zarządzanie"
+            
+              , "quizy i scenariusze"
+            
+              , "polecenia narzędzi"
+            
+              , "polecenia informacyjne"
+            
+              , "kwestie i wkład"
+            
+              , "Aplikacja deweloperska Discord"
+            
+              , "Dokumentacja Discord.py"
+            
+              , "współpraca z deweloperami"
+            
+              , "Społecznościowy serwer Discord"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/discord-cyber-scenario-bot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, w jaki sposób CyberScenarioBot może podnieść poziom szkolenia w zakresie cyberbezpieczeństwa i programu podnoszenia świadomości na Discordzie, oferując quizy, scenariusze, śledzenie w tabeli liderów i potężne polecenia narzędziowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

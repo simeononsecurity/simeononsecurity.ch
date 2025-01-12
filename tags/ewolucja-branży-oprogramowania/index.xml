@@ -1,0 +1,159 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ewolucja Branży Oprogramowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ewolucja-bran%C5%BCy-oprogramowania//img/banner.png</url>
+      <title>Ewolucja Branży Oprogramowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ewolucja-bran%C5%BCy-oprogramowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ewolucja-bran%C5%BCy-oprogramowania/</link>
+
+    <description>Recent content in Ewolucja Branży Oprogramowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ewolucja-bran%C5%BCy-oprogramowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do DevOps: wypełnianie luki między rozwojem a operacjami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "rozwój oprogramowania"
+            
+              , "operacje"
+            
+              , "współpraca"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "infrastruktura jako kod"
+            
+              , "monitoring"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "efektywność"
+            
+              , "jakość"
+            
+              , "niezawodność"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo"
+            
+              , "audyt"
+            
+              , "identyfikowalność"
+            
+              , "automatyzacja"
+            
+              , "komunikacja"
+            
+              , "zwinny"
+            
+              , "CICD"
+            
+              , "wdrażanie oprogramowania"
+            
+              , "cykl życia oprogramowania"
+            
+              , "systemy oprogramowania"
+            
+              , "przemysł oprogramowania"
+            
+              , "bezpieczeństwo danych"
+            
+              , "przepisy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "przewaga konkurencyjna"
+            
+              , "prywatność danych"
+            
+              , "ochrona danych"
+            
+              , "Ewolucja branży oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak DevOps wypełnia lukę między rozwojem a operacjami, usprawniając dostarczanie oprogramowania i maksymalizując wydajność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.png" length="173119" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

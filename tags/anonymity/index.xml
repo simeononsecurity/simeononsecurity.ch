@@ -1,0 +1,335 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anonymity on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/anonymity//img/banner.png</url>
+      <title>Anonymity on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/anonymity/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/anonymity/</link>
+
+    <description>Recent content in Anonymity on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/anonymity/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa dla prywatności i bezpieczeństwa: Ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "prywatność i bezpieczeństwo"
+            
+              , "Ogony"
+            
+              , "Qubes OS"
+            
+              , "Whonix"
+            
+              , "Parrot Security OS"
+            
+              , "Ubuntu Privacy Remix"
+            
+              , "OpenBSD"
+            
+              , "ochrona danych"
+            
+              , "bezpieczne przetwarzanie danych"
+            
+              , "anonimowe przeglądanie"
+            
+              , "wirtualizacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "analiza kryminalistyczna"
+            
+              , "testy penetracyjne"
+            
+              , "narzędzia szyfrujące"
+            
+              , "bezpieczne usuwanie"
+            
+              , "anonymity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "poprawność kodu"
+            
+              , "bezpieczeństwo online"
+            
+              , "ochrona danych użytkownika"
+            
+              , "poufność"
+            
+              , "odzyskiwanie danych"
+            
+              , "bankowość internetowa"
+            
+              , "prywatność online"
+            
+              , "bezpieczne środowisko"
+            
+              , "bezpieczne przeglądanie"
+            
+              , "Sieć Tor"
+            
+              , "środki bezpieczeństwa"
+            
+              , "domyślnie bezpieczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa zapewniające prywatność i bezpieczeństwo, zapewniając ochronę danych i bezpieczeństwo działań online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png" length="276702" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak utworzyć i uruchomić obraz Docker Tor Bridge w celu zwiększenia prywatności i anonimowości</title>
+        
+          <link>https://pl.simeononsecurity.com/github/docker-tor-bridge/</link>
+        
+        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker Tor Bridge"
+            
+              , "prywatność"
+            
+              , "anonymity"
+            
+              , "obraz docker"
+            
+              , "torrc.default"
+            
+              , "kompilacja docker"
+            
+              , "kontener docker"
+            
+              , "bieżący adres IP"
+            
+              , "tor socks proxy"
+            
+              , "bezpieczeństwo online"
+            
+              , "Zwiększona prywatność"
+            
+              , "networking"
+            
+              , "dokowanie"
+            
+              , "konteneryzacja"
+            
+              , "Samouczek Docker"
+            
+              , "Adres IP"
+            
+              , "prywatność sieci"
+            
+              , "serwer proxy"
+            
+              , "anonimowość sieci"
+            
+              , "Sieć Docker"
+            
+              , "Sieć Tor"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "anonimowe przeglądanie"
+            
+              , "Plik Docker"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona sieci"
+            
+              , "cyberobrona"
+            
+              , "Wdrożenie Docker"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/docker-tor-bridge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak utworzyć i uruchomić obraz Docker Tor Bridge, aby poprawić swoją prywatność i anonimowość w Internecie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsi dostawcy usług telefonii komórkowej dla prywatności i anonimowości: Mint Mobile and Visible</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/cell-phone-service-providers/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "operatorzy telefonii komórkowej"
+            
+              , "prywatność"
+            
+              , "anonymity"
+            
+              , "Mint Mobile"
+            
+              , "Widoczny"
+            
+              , "wirtualny operator sieci komórkowej"
+            
+              , "Weryfikacja KYC"
+            
+              , "karty podarunkowe"
+            
+              , "przystępne plany"
+            
+              , "konfigurowalne plany"
+            
+              , "roaming międzynarodowy"
+            
+              , "przełączanie pseudonimów telefonów komórkowych"
+            
+              , "przepisy rządowe"
+            
+              , "Ustawa o telekomunikacji z 1996 r"
+            
+              , "Przepisy FCC"
+            
+              , "prywatność danych"
+            
+              , "bezpieczeństwo danych"
+            
+              , "plany telefonii komórkowej"
+            
+              , "operatorzy telefonii komórkowej"
+            
+              , "sieci komórkowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/cell-phone-service-providers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepszych dostawców usług telefonii komórkowej, dla których priorytetem jest prywatność i anonimowość oraz dowiedz się, dlaczego Mint Mobile i Visible to świetne opcje
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

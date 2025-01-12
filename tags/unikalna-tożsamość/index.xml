@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unikalna Tożsamość on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/unikalna-to%C5%BCsamo%C5%9B%C4%87//img/banner.png</url>
+      <title>Unikalna Tożsamość on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/unikalna-to%C5%BCsamo%C5%9B%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/unikalna-to%C5%BCsamo%C5%9B%C4%87/</link>
+
+    <description>Recent content in Unikalna Tożsamość on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/unikalna-to%C5%BCsamo%C5%9B%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania biometrycznego dla kontroli dostępu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie biometryczne"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "ochrona danych"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "fałszywe pozytywy"
+            
+              , "fałszywe negatywy"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "badanie systemu"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "efektywność"
+            
+              , "wygoda"
+            
+              , "unikalna tożsamość"
+            
+              , "usprawniony przepływ pracy"
+            
+              , "podatności"
+            
+              , "ograniczanie ryzyka"
+            
+              , "doświadczenie użytkownika"
+            
+              , "cybersecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach związanych z wykorzystaniem uwierzytelniania biometrycznego do kontroli dostępu, w tym o zwiększonym bezpieczeństwie, obawach dotyczących prywatności i najlepszych praktykach wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png" length="404237" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

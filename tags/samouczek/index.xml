@@ -1,0 +1,279 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samouczek on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/samouczek//img/banner.png</url>
+      <title>Samouczek on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/samouczek/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/samouczek/</link>
+
+    <description>Recent content in Samouczek on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/samouczek/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poradnik dla początkujących Tworzenie stron internetowych: HTML, CSS i JavaScript</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/</link>
+        
+        <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "rozwój sieci"
+            
+              , "HTML"
+            
+              , "CSS"
+            
+              , "JavaScript"
+            
+              , "kodowanie"
+            
+              , "samouczek"
+            
+              , "nauka"
+            
+              , "początkujący"
+            
+              , "CodePen"
+            
+              , "W3Szkoły"
+            
+              , "najlepsze praktyki"
+            
+              , "zasoby"
+            
+              , "freeCodeCamp"
+            
+              , "Dokumenty internetowe MDN"
+            
+              , "Codecademy"
+            
+              , "Udacity"
+            
+              , "współpraca"
+            
+              , "debugowanie"
+            
+              , "projekty"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy tworzenia stron internetowych, w tym HTML, CSS i JavaScript, dzięki temu przyjaznemu dla początkujących przewodnikowi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png" length="360868" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś nauczyłam się tworzyć czekoladowe opakowania</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-23/</link>
+        
+        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie pakietami w systemie Windows"
+            
+              , "Tworzenie pakietów"
+            
+              , "Zarządzanie pakietami"
+            
+              , "Infrastruktura jako kod (IaC)"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "Pakowanie oprogramowania"
+            
+              , "Automatyzacja systemu Windows"
+            
+              , "Repozytoria pakietów"
+            
+              , "Narzędzia Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-23/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Napad na bank</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "hackthebox"
+            
+              , "kryptografia"
+            
+              , "Szyfr T9"
+            
+              , "szyfr multitap"
+            
+              , "szyfr atbash"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "dekodowanie"
+            
+              , "szyfrogram"
+            
+              , "wyzwanie"
+            
+              , "flaga"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "hakowanie"
+            
+              , "uczyć się"
+            
+              , "samouczek"
+            
+              , "dekodowanie szyfru"
+            
+              , "rozwiązywanie zagadek"
+            
+              , "łamanie kodów"
+            
+              , "wyzwanie kryptograficzne"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "nauka online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png" length="312120" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

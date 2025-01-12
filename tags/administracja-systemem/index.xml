@@ -1,0 +1,601 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administracja Systemem on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/administracja-systemem//img/banner.png</url>
+      <title>Administracja Systemem on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/administracja-systemem/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/administracja-systemem/</link>
+
+    <description>Recent content in Administracja Systemem on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/administracja-systemem/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Administracja systemem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Infrastruktura"
+            
+              , "DevOps"
+            
+              , "Konfiguracja serwera"
+            
+              , "Testowanie"
+            
+              , "Git"
+            
+              , "Kontrola źródła"
+            
+              , "Przepisy rządowe"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Dryft konfiguracji"
+            
+              , "Zasoby niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy naprawdę potrzebujesz dyplomu, aby dostać się do Cyberbezpieczeństwa i Administracji Systemów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-and-system-administration-do-you-really-need-a-degree/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "administracja systemem"
+            
+              , "stopień"
+            
+              , "certyfikaty"
+            
+              , "awans zawodowy"
+            
+              , "potencjał płacowy"
+            
+              , "czas i koszty"
+            
+              , "prace rządowe"
+            
+              , "samouk"
+            
+              , "szkolenie online"
+            
+              , "Certyfikaty CompTIA"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-and-system-administration-do-you-really-need-a-degree/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł bada korzyści i wady uzyskania stopnia w dziedzinach cyberbezpieczeństwa i administracji systemami, w tym możliwości zatrudnienia, certyfikaty, czas i rozważania dotyczące kosztów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png" length="200784" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z przepisami bezpieczeństwa za pomocą skryptów STIG</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypty STIG"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "automatyzacja"
+            
+              , "Windows"
+            
+              , "aplikacje"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Podręczniki Ansible"
+            
+              , "przygotowanie domeny"
+            
+              , "Windows Defender"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "skrypt"
+            
+              , "Zgodność z STIG"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "administracja systemem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów STIG do automatyzacji zgodności z zabezpieczeniami dla systemu Windows i popularnych aplikacji, w tym .NET, Adobe Reader DC i Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja audytu systemu Windows za pomocą skryptu zasad audytu systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zasady audytu systemu Windows"
+            
+              , "Audyt systemu Windows"
+            
+              , "bezpieczeństwo"
+            
+              , "monitoring"
+            
+              , "auditpol"
+            
+              , "Polecenia systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "konfiguracja audytu"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "dzienniki zdarzeń"
+            
+              , "monitorowanie systemu"
+            
+              , "Serwer Windows"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "analiza dziennika"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "reakcja na incydent"
+            
+              , "narzędzia do monitorowania bezpieczeństwa"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "Administracja systemem Windows"
+            
+              , "skrypt"
+            
+              , "administracja systemem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "audyt zgodności"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "zarządzanie logami"
+            
+              , "Ustawienia zabezpieczeń systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zmaksymalizować audyt systemu Windows, wdrażając skrypt zasad audytu systemu Windows w celu zwiększenia bezpieczeństwa i monitorowania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wydajne skanowanie wirusów dzięki modułom VirusTotal PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/virustotal-ps/</link>
+        
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Moduły PowerShell"
+            
+              , "PowerShell"
+            
+              , "Automatyka"
+            
+              , "VirusTotal"
+            
+              , "Skanowanie wirusów"
+            
+              , "Skanowanie domen"
+            
+              , "Klucz API"
+            
+              , "VirusTotal API"
+            
+              , "Strona programistów VirusTotal"
+            
+              , "Administracja systemem"
+            
+              , "Przepływ pracy w zakresie bezpieczeństwa"
+            
+              , "Skuteczne skanowanie wirusów"
+            
+              , "Pobierz i zainstaluj"
+            
+              , "Repozytorium GitHub"
+            
+              , "Przykłady użycia API"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/virustotal-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wykonuj wydajne skanowanie wirusów za pomocą VirusTotal PowerShell Modules poprzez automatyzację interakcji z VirusTotal API i usprawnienie przepływu pracy w zakresie bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane certyfikaty</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane certyfikaty"
+            
+              , "Najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT"
+            
+              , "Najlepsze certyfikaty dla osób poszukujących pracy"
+            
+              , "Zalecenia dotyczące certyfikacji SimeonOnSecurity"
+            
+              , "Certyfikaty CompTIA"
+            
+              , "Certyfikaty Cisco"
+            
+              , "Certyfikaty EC-Council"
+            
+              , "Certyfikaty ISC2"
+            
+              , "Certyfikaty Juniper"
+            
+              , "Certyfikaty Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity poleca najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT dla tych, którzy chcą wejść na rynek pracy. Lista obejmuje certyfikaty CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft i Offensive Security, na różnych poziomach zaawansowania - Entry, Associate, Professional i Expert. Wszystkie wymienione certyfikaty są bezpośrednio związane ze stanowiskami w cyberprzestrzeni i przyniosą kandydatom wiele korzyści. Sprawdź interaktywną mapę drogową certyfikacji, aby uzyskać wizualną reprezentację. Dostępne są również zasoby edukacyjne, takie jak książki i szkolenia.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

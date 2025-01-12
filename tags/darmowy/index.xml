@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Darmowy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/darmowy//img/banner.png</url>
+      <title>Darmowy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/darmowy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/darmowy/</link>
+
+    <description>Recent content in Darmowy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/darmowy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecany program antywirusowy</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecany program antywirusowy"
+            
+              , "AV"
+            
+              , "Antywirus"
+            
+              , "Antywirus"
+            
+              , "Użytkowanie domowe"
+            
+              , "Użytek biznesowy"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł zawiera listę zalecanych produktów antywirusowych do użytku domowego i biznesowego, według rankingu SimeonOnSecurity. Rankingi oparte są na profesjonalnej opinii i testach na złośliwych próbkach i obejmują jedynie możliwości antywirusowe, wykrywanie, wrażenia użytkownika i wydajność. Użytkownicy systemu Windows mogą wybierać zarówno spośród płatnych, jak i bezpłatnych opcji, podczas gdy użytkownicy systemów Linux i MacOS mają ograniczone opcje, przy czym płatne opcje są dostępne tylko dla systemu Linux. Należy pamiętać, że AV nie jest wymagany w systemach Linux lub MacOS, a korzystanie z VPN lub menedżera haseł dostarczanego z pakietem AV nie jest zalecane. Artykuł zawiera również rekomendacje dla dostawców VPN. Zalecenia dotyczące zastosowań biznesowych są obecnie opracowywane.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

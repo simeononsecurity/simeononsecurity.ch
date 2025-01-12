@@ -1,0 +1,451 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integracja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/integracja//img/banner.png</url>
+      <title>Integracja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/integracja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/integracja/</link>
+
+    <description>Recent content in Integracja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/integracja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększanie bezpieczeństwa: Potęga systemów zarządzania podatnościami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Postawa w zakresie bezpieczeństwa"
+            
+              , "Automatyzacja"
+            
+              , "Integracja"
+            
+              , "Raportowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swojej organizacji i ogranicz ryzyko dzięki systemom zarządzania podatnościami. Dowiedz się o ich zaletach i znaczeniu w dzisiejszym cyfrowym krajobrazie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Usprawnij zarządzanie pakietami Windows dzięki Chocolatey: uprość aktualizacje i zwiększ bezpieczeństwo</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie pakietami w systemie Windows"
+            
+              , "Czekoladowy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "menedżer pakietów"
+            
+              , "interfejs wiersza poleceń"
+            
+              , "automatyczne aktualizacje"
+            
+              , "zaplanowana konserwacja"
+            
+              , "bezpieczeństwo"
+            
+              , "stabilność"
+            
+              , "integracja"
+            
+              , "regulacje rządowe"
+            
+              , "zgodność"
+            
+              , "lalka"
+            
+              , "Szef"
+            
+              , "Ansible"
+            
+              , "Pakiety NuGet"
+            
+              , "DoD STIG"
+            
+              , "usprawnienie zarządzania pakietami"
+            
+              , "luki w oprogramowaniu"
+            
+              , "narzędzia wdrażania"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Aktualizacje pakietów systemu Windows"
+            
+              , "Zarządzanie oprogramowaniem Windows"
+            
+              , "Menedżer pakietów Windows"
+            
+              , "narzędzie do zarządzania pakietami"
+            
+              , "automatyczne aktualizacje pakietów"
+            
+              , "Aktualizacje zabezpieczeń systemu Windows"
+            
+              , "instalacja pakietu oprogramowania"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "system zarządzania pakietami"
+            
+              , "Repozytorium oprogramowania Windows"
+            
+              , "Pamięć podręczna oprogramowania Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj korzyści płynące z używania Chocolatey do zarządzania pakietami Windows: zautomatyzuj aktualizacje, oszczędzaj czas i zapewnij bezpieczeństwo systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "narzędzia bezpieczeństwa typu open source"
+            
+              , "cybersecurity"
+            
+              , "wsparcie społeczności"
+            
+              , "przejrzystość"
+            
+              , "oszczędność kosztów"
+            
+              , "elastyczność"
+            
+              , "narzędzia własne"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "zestaw umiejętności"
+            
+              , "opłaty za licencje na oprogramowanie"
+            
+              , "całkowity koszt posiadania"
+            
+              , "wsparcie handlowe"
+            
+              , "języki programowania"
+            
+              , "integracja"
+            
+              , "teswing bezpieczeństwa"
+            
+              , "audyty"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Krajowy Instytut Norm i Technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmaksymalizuj wydajność chmury hybrydowej: Uwolnienie pełnego potencjału Ansible</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link>
+        
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ops"
+            
+              , "CICD"
+            
+              , "skalowalność"
+            
+              , "wydajność"
+            
+              , "bezpieczeństwo"
+            
+              , "zgodność"
+            
+              , "integracja"
+            
+              , "Amazon Web Services"
+            
+              , "Microsoft Azure"
+            
+              , "Google Cloud"
+            
+              , "Wieża Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "oszczędność kosztów"
+            
+              , "Wydajność informatyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak możliwości automatyzacji Ansible mogą usprawnić, zabezpieczyć i zoptymalizować środowiska chmur hybrydowych w celu zwiększenia wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rekomendowani dostawcy usług VOIP</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/voip/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rekomendowani dostawcy usług VOIP"
+            
+              , "Rozwiązania komunikacyjne"
+            
+              , "VOIP.MS"
+            
+              , "MySudo"
+            
+              , "Google Hangouts"
+            
+              , "Voice Over IP"
+            
+              , "Komunikacja biznesowa"
+            
+              , "Bezpieczna komunikacja"
+            
+              , "Efektywna kosztowo komunikacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/voip/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepszych dostawców VOIP rekomendowanych przez SimeonOnSecurity. Uzyskaj niezawodne i bezpieczne rozwiązania komunikacyjne dla swoich osobistych lub biznesowych potrzeb dzięki VOIP.MS i MySudo, preferowanym wyborom. Dodatkowo, pozostań w kontakcie z przyjaciółmi i rodziną poprzez Google Hangouts.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

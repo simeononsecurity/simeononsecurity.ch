@@ -1,0 +1,216 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szkolenie Interaktywne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/szkolenie-interaktywne//img/banner.png</url>
+      <title>Szkolenie Interaktywne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/szkolenie-interaktywne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/szkolenie-interaktywne/</link>
+
+    <description>Recent content in Szkolenie Interaktywne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/szkolenie-interaktywne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne szkolenie w zakresie świadomości bezpieczeństwa dla pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "pracownicy zdalni"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "szkolenie"
+            
+              , "pracownicy zdalni"
+            
+              , "phishing"
+            
+              , "najlepsze praktyki"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "gamifikacja"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Świadomość bezpieczeństwa"
+            
+              , "Instytut Infosec"
+            
+              , "KnowBe4"
+            
+              , "kształcenie ustawiczne"
+            
+              , "scenariusze realne"
+            
+              , "szkolenie interaktywne"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "platformy szkoleniowe w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swoich pracowników zdalnych dzięki skutecznemu szkoleniu z zakresu świadomości bezpieczeństwa i dowiedz się, jak je skutecznie wdrożyć.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png" length="316114" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i zarządzanie skutecznym programem szkoleniowym w zakresie świadomości cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "szkolenie uświadamiające"
+            
+              , "ograniczanie ryzyka"
+            
+              , "ochrona danych"
+            
+              , "szkolenie pracowników"
+            
+              , "zagrożenia cyberbezpieczeństwa"
+            
+              , "zagrożenia dla cyberbezpieczeństwa"
+            
+              , "cele treningowe"
+            
+              , "grupa docelowa"
+            
+              , "realizacja szkoleń"
+            
+              , "szkolenie interaktywne"
+            
+              , "Przykłady z życia wzięte"
+            
+              , "symulacje"
+            
+              , "ćwiczenia praktyczne"
+            
+              , "treść szkolenia"
+            
+              , "NIST 800-50"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "kultura cyberbezpieczeństwa"
+            
+              , "nagrody i uznanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować i zarządzać skutecznym programem szkoleniowym w zakresie świadomości cyberbezpieczeństwa, który zmniejsza ryzyko cyberataków i chroni wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png" length="177983" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

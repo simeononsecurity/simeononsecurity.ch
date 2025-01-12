@@ -1,0 +1,171 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certyfikaty TLS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/certyfikaty-tls//img/banner.png</url>
+      <title>Certyfikaty TLS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/certyfikaty-tls/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/certyfikaty-tls/</link>
+
+    <description>Recent content in Certyfikaty TLS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/certyfikaty-tls/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wytyczne bezpiecznego kodowania dla Ansible: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Ansible"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "Ansible Vault"
+            
+              , "Silne hasła"
+            
+              , "Kontrola dostępu"
+            
+              , "System kontroli wersji"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "SSH"
+            
+              , "WinRM"
+            
+              , "Certyfikaty TLS"
+            
+              , "Sanityzacja danych wprowadzanych przez użytkownika"
+            
+              , "Sprawdzanie poprawności danych wejściowych"
+            
+              , "Obsługa błędów"
+            
+              , "Bezpieczne praktyki kodowania"
+            
+              , "Wstrzykiwanie kodu"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo infrastruktury"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania dla Ansible"
+            
+              , "Najlepsze praktyki dotyczące bezpiecznego kodu w Ansible"
+            
+              , "Bezpieczne zarządzanie konfiguracją za pomocą Ansible"
+            
+              , "Bezpieczne praktyki wdrażania z Ansible"
+            
+              , "Zasada najmniejszych uprawnień w Ansible"
+            
+              , "Korzystanie z Ansible Vault dla bezpiecznego kodu"
+            
+              , "Tworzenie silnych haseł w Ansible"
+            
+              , "Kontrola dostępu w Ansible"
+            
+              , "System kontroli wersji dla playbooków Ansible"
+            
+              , "Protokoły bezpiecznej komunikacji w Ansible"
+            
+              , "Bezpieczeństwo SSH w Ansible"
+            
+              , "Bezpieczeństwo WinRM w Ansible"
+            
+              , "Certyfikaty TLS w Ansible"
+            
+              , "Sanityzacja danych wejściowych użytkownika w Ansible"
+            
+              , "Walidacja danych wejściowych w Ansible"
+            
+              , "Obsługa błędów w Ansible"
+            
+              , "Praktyki bezpiecznego kodowania w Ansible"
+            
+              , "Zapobieganie wstrzykiwaniu kodu w Ansible"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania dla infrastruktury zarządzanej przez Ansible"
+            
+              , "Zabezpieczanie infrastruktury Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu za pomocą Ansible, popularnego narzędzia do zarządzania konfiguracją i wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

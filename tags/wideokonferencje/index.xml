@@ -1,0 +1,228 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wideokonferencje on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/wideokonferencje//img/banner.png</url>
+      <title>Wideokonferencje on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wideokonferencje/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wideokonferencje/</link>
+
+    <description>Recent content in Wideokonferencje on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wideokonferencje/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberbezpieczeństwo w pracy zdalnej: A Comprehensive Guide.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-era-of-remote-work/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "praca zdalna"
+            
+              , "naruszenia danych"
+            
+              , "VPN"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "środki bezpieczeństwa"
+            
+              , "bezpieczna komunikacja"
+            
+              , "cyberzagrożenia"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "wiadomości phishingowe"
+            
+              , "zarządzanie hasłami"
+            
+              , "praca w domu"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo pracowników"
+            
+              , "pracownicy zdalni"
+            
+              , "cyberprzestępcy"
+            
+              , "wideokonferencje"
+            
+              , "szyfrowane wiadomości"
+            
+              , "wirtualna sieć prywatna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-era-of-remote-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowy przewodnik dla organizacji, aby zapewnić swoim zdalnym pracownikom bezpieczeństwo w erze pracy zdalnej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png" length="253899" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rekomendacje SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ekspertowe rekomendacje"
+            
+              , "produkty z zakresu bezpieczeństwa"
+            
+              , "zasoby prywatności"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "materiały edukacyjne"
+            
+              , "wtyczki do przeglądarek"
+            
+              , "dostawcy usług telefonii komórkowej"
+            
+              , "certyfikacje zawodowe"
+            
+              , "dostawcy bezpiecznej poczty elektronicznej"
+            
+              , "codzienne przedmioty"
+            
+              , "narzędzia hakera"
+            
+              , "słuchawki"
+            
+              , "mikrofony"
+            
+              , "głośniki"
+            
+              , "zasoby edukacyjne"
+            
+              , "klienty komunikatorów"
+            
+              , "organizacje do wsparcia"
+            
+              , "twórcy bezpieczeństwa"
+            
+              , "dostawcy usług"
+            
+              , "dostawcy VPN"
+            
+              , "kamery internetowe"
+            
+              , "narzędzia poprawiające prywatność"
+            
+              , "produkty wysoko oceniane"
+            
+              , "bezpieczna komunikacja"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "sprzęt audio"
+            
+              , "wideokonferencje"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ekspertowe rekomendacje SimeonOnSecurity dotyczące produktów z zakresu bezpieczeństwa i prywatności. Znajdź wysoko ocenione oprogramowanie, książki, wtyczki, dostawców i wiele więcej.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

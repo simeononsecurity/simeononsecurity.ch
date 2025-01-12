@@ -1,0 +1,137 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet Explorer 11 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/internet-explorer-11//img/banner.png</url>
+      <title>Internet Explorer 11 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/internet-explorer-11/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/internet-explorer-11/</link>
+
+    <description>Recent content in Internet Explorer 11 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/internet-explorer-11/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga cyberbezpieczeństwa: Jak zbudować zgodny i bezpieczny system Windows za pomocą Standalone-Windows-STIG-Script</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypt STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "System Windows zgodny z przepisami"
+            
+              , "Hartowanie systemu"
+            
+              , "Windows STIG"
+            
+              , "Bezpieczne okna"
+            
+              , "Zgodność z systemem Windows"
+            
+              , "Instalacja ręczna"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Adobe Reader"
+            
+              , "Firefox"
+            
+              , "Chrom"
+            
+              , "Internet Explorer 11"
+            
+              , ".NET Framework"
+            
+              , "Biuro"
+            
+              , "OneDrive"
+            
+              , "Java"
+            
+              , "Windows Defender"
+            
+              , "Zapora systemu Windows"
+            
+              , "Środki zaradcze"
+            
+              , "Nessus PID"
+            
+              , "VMware Horizon"
+            
+              , "Opcjonalne hartowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak stworzyć bezpieczny i zgodny z przepisami system Windows za pomocą łatwego w użyciu skryptu Standalone-Windows-STIG-Script, informacyjnego artykułu z instrukcjami krok po kroku i szczegółowymi wyjaśnieniami parametrów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png" length="225153" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

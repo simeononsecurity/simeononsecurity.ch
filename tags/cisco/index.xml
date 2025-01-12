@@ -1,0 +1,162 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisco on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/cisco//img/banner.png</url>
+      <title>Cisco on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/cisco/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/cisco/</link>
+
+    <description>Recent content in Cisco on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane certyfikaty</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane certyfikaty"
+            
+              , "Najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT"
+            
+              , "Najlepsze certyfikaty dla osób poszukujących pracy"
+            
+              , "Zalecenia dotyczące certyfikacji SimeonOnSecurity"
+            
+              , "Certyfikaty CompTIA"
+            
+              , "Certyfikaty Cisco"
+            
+              , "Certyfikaty EC-Council"
+            
+              , "Certyfikaty ISC2"
+            
+              , "Certyfikaty Juniper"
+            
+              , "Certyfikaty Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity poleca najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT dla tych, którzy chcą wejść na rynek pracy. Lista obejmuje certyfikaty CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft i Offensive Security, na różnych poziomach zaawansowania - Entry, Associate, Professional i Expert. Wszystkie wymienione certyfikaty są bezpośrednio związane ze stanowiskami w cyberprzestrzeni i przyniosą kandydatom wiele korzyści. Sprawdź interaktywną mapę drogową certyfikacji, aby uzyskać wizualną reprezentację. Dostępne są również zasoby edukacyjne, takie jak książki i szkolenia.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane zasoby edukacyjne</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/learning_resources/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane zasoby edukacyjne"
+            
+              , "Nauka IT"
+            
+              , "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Kursy sieciowe"
+            
+              , "Edukacja w zakresie systemów operacyjnych"
+            
+              , "Zasoby dotyczące programowania i skryptów"
+            
+              , "Nauka online"
+            
+              , "Laboratoria cyberbezpieczeństwa"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie z systemów operacyjnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/learning_resources/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze zasoby edukacyjne z zakresu IT, cyberbezpieczeństwa, sieci, systemów operacyjnych oraz programowania i skryptów dzięki rekomendacjom SimeonOnSecurity. Od bezpłatnych platform online, takich jak Cybrary, Code.org i CodeAcademy, po płatne platformy, takie jak LinkedIn Learning, Pluralsight i TryHackMe, znajdziesz szeroką gamę opcji, które spełnią Twoje cele edukacyjne. Zwiększ swoje umiejętności w takich obszarach jak Cisco, Juniper, Windows, VMware i Red Hat dzięki bezpłatnym szkoleniom i certyfikatom. Przenieś swoją karierę na wyższy poziom dzięki najwyżej ocenianym zasobom edukacyjnym SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hunter Cat on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/hunter-cat//img/banner.png</url>
+      <title>Hunter Cat on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/hunter-cat/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/hunter-cat/</link>
+
+    <description>Recent content in Hunter Cat on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/hunter-cat/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecany sprzęt dla hakerów</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/hacker_hardware/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecany sprzęt dla hakerów"
+            
+              , "Narzędzia hakerskie RFID NFC"
+            
+              , "Urządzenia hakerskie WiFi"
+            
+              , "Bezprzewodowy sprzęt hakerski"
+            
+              , "Rekomendacje dotyczące sprzętu dla hakerów"
+            
+              , "Narzędzia cyberbezpieczeństwa"
+            
+              , "Klonowanie sygnału RFID NFC"
+            
+              , "Uwierzytelnianie WiFi"
+            
+              , "Sniffing sygnału bezprzewodowego"
+            
+              , "Geolokalizacja WiFi oparta na GPS"
+            
+              , "Platformy radiowe definiowane programowo"
+            
+              , "Mini PC Firewall"
+            
+              , "Uwierzytelnianie klucza bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/hacker_hardware/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj polecany przez SimeonOnSecurity sprzęt dla hakerów, w tym narzędzia do RFID, NFC, hakowania WiFi, hakowania bezprzewodowego i nie tylko. Kupuj najlepsze produkty takich marek jak Hak5, Chameleon Tiny, Alfa i nie tylko. Znajdź idealne narzędzie dla swoich potrzeb dzięki kompleksowym i profesjonalnym rekomendacjom SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

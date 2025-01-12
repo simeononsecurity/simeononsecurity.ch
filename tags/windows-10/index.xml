@@ -1,0 +1,692 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 10 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/windows-10//img/banner.png</url>
+      <title>Windows 10 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/windows-10/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/windows-10/</link>
+
+    <description>Recent content in Windows 10 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Odblokowywanie mocy kluczy licencyjnych w celu zwiększenia wydajności</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Wydajność"
+            
+              , "Systemy operacyjne"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Licencjonowanie"
+            
+              , "Zarządzanie kluczami"
+            
+              , "Rozwiązania IT"
+            
+              , "Ulepszenie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak klucze Windows GVLK rewolucjonizują wydajność! Poznaj najlepsze klucze licencyjne i bez wysiłku zwiększ wydajność swojego systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe najlepsze praktyki wzmacniania zabezpieczeń systemu Windows dla bezpiecznych systemów Windows 10 i Windows 11</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Hartowanie systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Uodparnianie systemu Windows 10"
+            
+              , "Uodparnianie systemu Windows 11"
+            
+              , "Najlepsze praktyki bezpieczeństwa systemu Windows"
+            
+              , "Wskazówki dotyczące bezpieczeństwa systemu Windows"
+            
+              , "Wytyczne dotyczące bezpieczeństwa systemu Windows"
+            
+              , "Zabezpieczanie systemów operacyjnych Windows"
+            
+              , "Wzmocnienie systemu Windows"
+            
+              , "Środki bezpieczeństwa systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj skuteczne strategie zwiększania bezpieczeństwa systemów Windows 10 i Windows 11 dzięki kompleksowym technikom wzmacniania zabezpieczeń i najlepszym praktykom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak pobrać czyste ISO systemu Windows i zainstalować go od podstaw</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-install-windows-10-and-windows-11-from-scratch/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Plik ISO"
+            
+              , "Czysta instalacja"
+            
+              , "Narzędzie do tworzenia mediów"
+            
+              , "Bootable USB"
+            
+              , "Media instalacyjne"
+            
+              , "BIOS"
+            
+              , "Oprogramowanie sprzętowe UEFI"
+            
+              , "Instalacja na zamówienie"
+            
+              , "Klucz do produktu"
+            
+              , "System 64-bitowy"
+            
+              , "System 32-bitowy"
+            
+              , "Rufus"
+            
+              , "ImgBurn"
+            
+              , "CDBurnerXP"
+            
+              , "HashCalc"
+            
+              , "MD5 &amp; SHA Checksum Utility"
+            
+              , "System type"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-install-windows-10-and-windows-11-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak pobrać czysty plik ISO systemu Windows i zainstalować system Windows od podstaw dzięki temu przewodnikowi krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png" length="185193" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows 10 System-Wide Ad Blocker Script dla lepszej prywatności i bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link>
+        
+        <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows 10"
+            
+              , "ad-blocker"
+            
+              , "blokowanie telemetrii"
+            
+              , "Skrypt PowerShell"
+            
+              , "systemowe blokowanie reklam"
+            
+              , "prywatność"
+            
+              , "bezpieczeństwo"
+            
+              , "EasyList"
+            
+              , "Łatwa prywatność"
+            
+              , "Lista filtrów NoCoin"
+            
+              , "Filtr DNS AdGuard"
+            
+              , "Listy YoYo"
+            
+              , "Peter Lowe&#39;s ad tracking malware servers"
+            
+              , "Zapora systemu Windows"
+            
+              , "listy domen"
+            
+              , "zablokować trackery Windows"
+            
+              , "tropiciele bloków"
+            
+              , "blokować reklamy"
+            
+              , "śledzenie bloków"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Blokuj reklamy, trackery i telemetrię w systemie Windows 10 za pomocą tego potężnego skryptu PowerShell, który wykorzystuje plik hosts i zaporę systemu Windows do blokowania reklam w całym systemie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja komputera z systemem Windows za pomocą Windows-Optimize-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Debloating Windows"
+            
+              , "Przyspieszenie systemu Windows"
+            
+              , "Optymalizacja wydajności systemu Windows"
+            
+              , "Zwiększenie wydajności systemu Windows"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Microsoft"
+            
+              , "Prywatność"
+            
+              , "Usuwanie zbędnego oprogramowania"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Windows Defender"
+            
+              , "Windows Update"
+            
+              , "Cortona"
+            
+              , "Obiekty zasad grupy"
+            
+              , "Telemetria"
+            
+              , "Sklep Windows"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw wydajność i prywatność swojego systemu operacyjnego Windows za pomocą Windows-Optimize-Debloat, kompleksowego skryptu, który pomaga usunąć bloatware i zoptymalizować ustawienia systemowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalacja offline modułu PowerShell RSAT ActiveDirectory</title>
+        
+          <link>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zestaw narzędzi do zdalnego administrowania serwerem"
+            
+              , "PowerShell RSAT Moduł ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Instalator offline"
+            
+              , "Skrypt PowerShell"
+            
+              , "Moduł PowerShell"
+            
+              , "ActiveDirectory"
+            
+              , "Windows"
+            
+              , "Offline"
+            
+              , "Zainstaluj"
+            
+              , "Serwer"
+            
+              , "Administracja"
+            
+              , "Zestaw narzędzi"
+            
+              , "Skryptowanie"
+            
+              , "Moduł"
+            
+              , "Windows Server"
+            
+              , "PowerShell Core"
+            
+              , "Windows PowerShell"
+            
+              , "Microsoft"
+            
+              , "Administracja IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować moduł RSAT ActiveDirectory PowerShell Module w trybie offline za pomocą prostego skryptu PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększanie bezpieczeństwa systemu Windows 10 za pomocą skryptu Defender Hardening Script</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-hardening/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Windows 10"
+            
+              , "Bezpieczeństwo systemu Windows 10"
+            
+              , "Skrypt PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Utwardzenie Defendera"
+            
+              , "Automatyka zabezpieczeniowa"
+            
+              , "Zgodność"
+            
+              , "Kontrolowany dostęp do folderów"
+            
+              , "System zapobiegania włamaniom"
+            
+              , "Kontrola stosowania"
+            
+              , "Redukcja powierzchni ataku"
+            
+              , "Zabezpieczenia przed exploitami"
+            
+              , "Zabezpieczenia dostarczane w chmurze"
+            
+              , "Zabezpieczenia sieci"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender STIG"
+            
+              , "Windows Defender Antivirus STIG V2R1"
+            
+              , "WDAC"
+            
+              , "ASR"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zwiększyć bezpieczeństwo systemu Windows 10 za pomocą skryptu PowerShell, który utwardza Windows Defender Antivirus, implementując wszystkie wymagania Windows Defender Antivirus STIG V2R1.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ulepszanie systemów Windows i serwerów: Przewodnik konfiguracji marki niestandardowej</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-branding-script/</link>
+        
+        <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Branding systemu Windows"
+            
+              , "Branding serwera"
+            
+              , "niestandardowy branding"
+            
+              , "dostosowanie systemu"
+            
+              , "konfiguracja marki"
+            
+              , "Windows 10"
+            
+              , "Server 2016"
+            
+              , "Serwer 2019"
+            
+              , "Serwer 2022"
+            
+              , "doświadczenie użytkownika"
+            
+              , "przewodnik dostosowywania systemu"
+            
+              , "personalizacja"
+            
+              , "branding systemu"
+            
+              , "Dostosowywanie systemu Windows"
+            
+              , "Dostosowywanie serwera"
+            
+              , "Logo OEM"
+            
+              , "obraz użytkownika"
+            
+              , "wizerunek gościa"
+            
+              , "skrypt brandingowy"
+            
+              , "Microsoft Security Compliance Toolkit"
+            
+              , "Konfiguracja marki Windows"
+            
+              , "Konfiguracja marki serwera"
+            
+              , "Niestandardowy przewodnik po marce"
+            
+              , "spersonalizowany branding"
+            
+              , "samouczek dostosowywania systemu"
+            
+              , "Dostosowywanie systemu Windows"
+            
+              , "Dostosowywanie systemu serwera"
+            
+              , "obrazy brandingowe"
+            
+              , "najlepsze praktyki brandingowe"
+            
+              , "Wskazówki dotyczące dostosowywania systemu Windows"
+            
+              , "Techniki dostosowywania serwera"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-branding-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Learn how to set up custom branding on Windows 10 and Server 2016/2019/2022 systems to personalize your user experience.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

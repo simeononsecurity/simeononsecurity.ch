@@ -1,0 +1,513 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poprawki Zabezpieczeń on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/poprawki-zabezpiecze%C5%84//img/banner.png</url>
+      <title>Poprawki Zabezpieczeń on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/poprawki-zabezpiecze%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/poprawki-zabezpiecze%C5%84/</link>
+
+    <description>Recent content in Poprawki Zabezpieczeń on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/poprawki-zabezpiecze%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 podstawowych wskazówek dotyczących bezpieczeństwa poczty e-mail: Chroń swoje dane i bądź bezpieczny</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo poczty e-mail"
+            
+              , "Ochrona danych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność online"
+            
+              , "Kradzież tożsamości"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Oszustwa phishingowe"
+            
+              , "Bezpieczeństwo w Internecie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 10 kluczowych wskazówek dotyczących bezpieczeństwa poczty e-mail, aby chronić swoje dane przed cyberzagrożeniami i naruszeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png" length="65775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja firmware offline dla Ubiquiti Unifi UDM Pro i UDM SE przez SSH z wiersza poleceń</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacja oprogramowania układowego Ubiquiti"
+            
+              , "UDM Pro"
+            
+              , "UDM SE"
+            
+              , "aktualizacja oprogramowania sprzętowego offline"
+            
+              , "Wiersz poleceń SSH"
+            
+              , "zarządzanie siecią"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aktualizacja oprogramowania sprzętowego"
+            
+              , "Połączenie SSH"
+            
+              , "plik oprogramowania układowego"
+            
+              , "Kontroler sieci UniFi"
+            
+              , "poprawki błędów"
+            
+              , "poprawa wydajności"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "networking"
+            
+              , "urządzenia sieciowe"
+            
+              , "technologia"
+            
+              , "Zarządzanie IT"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego"
+            
+              , "optymalizacja sieci"
+            
+              , "Aktualizacja oprogramowania sprzętowego Ubiquiti Networks"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM Pro"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM SE"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego offline"
+            
+              , "Aktualizacja oprogramowania sprzętowego SSH"
+            
+              , "zarządzanie urządzeniami sieciowymi"
+            
+              , "aktualizacje zabezpieczeń sieci"
+            
+              , "strategie aktualizacji oprogramowania sprzętowego"
+            
+              , "Zarządzanie oprogramowaniem sprzętowym offline"
+            
+              , "optymalizacja wydajności sieci"
+            
+              , "zarządzanie poprawkami zabezpieczeń"
+            
+              , "aktualizacje technologii sieciowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zaktualizować oprogramowanie sprzętowe Ubiquiti Unifi UDM Pro i UDM SE w trybie offline za pomocą wiersza poleceń SSH, aby uzyskać optymalną wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktualizacji systemu Windows za pomocą Ansible: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja aktualizacji systemu Windows"
+            
+              , "Automatyzacja Ansible"
+            
+              , "zarządzanie systemem"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "Infrastruktura IT"
+            
+              , "automatyzacja sieci"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Operacje IT"
+            
+              , "DevOps"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Automatyzacja IT"
+            
+              , "Wydajność IT"
+            
+              , "Podręcznik Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "zarządzanie aktualizacjami"
+            
+              , "Wydajność IT"
+            
+              , "Konserwacja IT"
+            
+              , "Poświadczenia Ansible"
+            
+              , "konfiguracja hosta"
+            
+              , "automatyzacja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Zarządzanie systemem Windows"
+            
+              , "Poprawki zabezpieczeń systemu Windows"
+            
+              , "Infrastruktura IT Windows"
+            
+              , "Automatyzacja sieci Windows"
+            
+              , "Zarządzanie konfiguracją systemu Windows"
+            
+              , "Operacje IT w systemie Windows"
+            
+              , "Windows DevOps"
+            
+              , "Cyberbezpieczeństwo systemu Windows"
+            
+              , "Automatyzacja IT w systemie Windows"
+            
+              , "Wydajność systemu Windows IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij proces aktualizacji systemów Windows poprzez automatyzację za pomocą Ansible - instrukcje krok po kroku i najlepsze praktyki w zestawie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych poprawek zabezpieczeń w systemie Windows: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "zbiorcze poprawki"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "uwagi do wydania"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Obrona przed atakami socjotechnicznymi w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</link>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "inżynieria społeczna"
+            
+              , "oszustwa phishingowe"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "aktualizacje zabezpieczeń"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "naruszenia danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "kradzież tożsamości"
+            
+              , "zapobieganie oszustwom"
+            
+              , "zapobieganie szpiegostwu"
+            
+              , "bezpieczeństwo techniczne"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "Zapobieganie cyberprzestępczości"
+            
+              , "wykrywanie włamań"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "szkolenie pracowników"
+            
+              , "ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego artykułu dowiesz się, jak bronić się przed atakami socjotechnicznymi i chronić swoje dane przed cyberprzestępcami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png" length="236265" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

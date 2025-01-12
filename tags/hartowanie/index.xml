@@ -1,0 +1,204 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hartowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/hartowanie//img/banner.png</url>
+      <title>Hartowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/hartowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/hartowanie/</link>
+
+    <description>Recent content in Hartowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/hartowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększanie bezpieczeństwa systemu Windows 10 za pomocą skryptu Defender Hardening Script</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-hardening/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Windows 10"
+            
+              , "Bezpieczeństwo systemu Windows 10"
+            
+              , "Skrypt PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Utwardzenie Defendera"
+            
+              , "Automatyka zabezpieczeniowa"
+            
+              , "Zgodność"
+            
+              , "Kontrolowany dostęp do folderów"
+            
+              , "System zapobiegania włamaniom"
+            
+              , "Kontrola stosowania"
+            
+              , "Redukcja powierzchni ataku"
+            
+              , "Zabezpieczenia przed exploitami"
+            
+              , "Zabezpieczenia dostarczane w chmurze"
+            
+              , "Zabezpieczenia sieci"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender STIG"
+            
+              , "Windows Defender Antivirus STIG V2R1"
+            
+              , "WDAC"
+            
+              , "ASR"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zwiększyć bezpieczeństwo systemu Windows 10 za pomocą skryptu PowerShell, który utwardza Windows Defender Antivirus, implementując wszystkie wymagania Windows Defender Antivirus STIG V2R1.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

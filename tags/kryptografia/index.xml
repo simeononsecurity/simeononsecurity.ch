@@ -1,0 +1,856 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kryptografia on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kryptografia//img/banner.png</url>
+      <title>Kryptografia on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kryptografia/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kryptografia/</link>
+
+    <description>Recent content in Kryptografia on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kryptografia/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnij swój potencjał cyberbezpieczeństwa dzięki Hackthebox Academy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</link>
+        
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Praktyczne laboratoria"
+            
+              , "Ćwiczenia praktyczne"
+            
+              , "Ścieżki kształcenia"
+            
+              , "Współpraca społeczności"
+            
+              , "Umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "Platforma internetowa"
+            
+              , "Rzeczywiste scenariusze"
+            
+              , "Samouczki i dokumentacja"
+            
+              , "Subskrypcja Premium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kompleksowe szkolenia i praktyczne wyzwania oferowane przez Hackthebox Academy, aby uwolnić swój potencjał w zakresie cyberbezpieczeństwa i zwiększyć swoje umiejętności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_individuals_working_togethe.png" length="1573173" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Demistyfikacja RSA: Zrozumienie algorytmu szyfru RSA</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-the-rsa-cipher-algorithm/</link>
+        
+        <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Szyfrowanie RSA"
+            
+              , "szyfrowanie asymetryczne"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "algorytm szyfrowania"
+            
+              , "Generowanie kluczy RSA"
+            
+              , "arytmetyka modułowa"
+            
+              , "Funkcja sumy Eulera"
+            
+              , "liczby pierwsze"
+            
+              , "modułowe potęgowanie"
+            
+              , "szyfrogram"
+            
+              , "zwykły tekst"
+            
+              , "Bezpieczeństwo RSA"
+            
+              , "bezpieczna komunikacja"
+            
+              , "podpisy cyfrowe"
+            
+              , "bezpieczne przeglądanie stron internetowych"
+            
+              , "Regulacje rządowe dotyczące RSA"
+            
+              , "Wytyczne NIST dotyczące RSA"
+            
+              , "Rozporządzenie eIDAS"
+            
+              , "standardy szyfrowania"
+            
+              , "ochrona danych"
+            
+              , "kryptografia"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "bezpieczne przesyłanie wiadomości"
+            
+              , "szyfrowana poczta e-mail"
+            
+              , "HTTPS"
+            
+              , "RSA w bezpiecznej komunikacji"
+            
+              , "RSA w podpisach cyfrowych"
+            
+              , "mocne strony RSA"
+            
+              , "słabości RSA"
+            
+              , "złożoność obliczeniowa RSA"
+            
+              , "długość klucza w RSA"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-the-rsa-cipher-algorithm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wewnętrzne działanie algorytmu szyfrującego RSA i jego znaczenie w bezpiecznej komunikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png" length="392254" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po szyfrowaniu w celu ochrony danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</link>
+        
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "szyfrowanie"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "technologia"
+            
+              , "bezpieczeństwo online"
+            
+              , "szyfrowanie symetryczne"
+            
+              , "szyfrowanie asymetryczne"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "kryptografia"
+            
+              , "szyfrowane wiadomości"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "prywatność danych"
+            
+              , "zaszyfrowane dane"
+            
+              , "oprogramowanie szyfrujące"
+            
+              , "szyfrowanie danych"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona hasłem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy szyfrowania i dowiedz się, jak używać go do zabezpieczania poufnych danych dzięki temu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png" length="156916" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standardy bezpiecznego kodowania dla programistów C#</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Ostry rozwój"
+            
+              , "Programowanie w języku C Sharp"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo C Sharp"
+            
+              , "Bezpieczeństwo ASP.NET"
+            
+              , "Bezpieczeństwo .NET Core"
+            
+              , "walidacja danych wejściowych"
+            
+              , "haszowanie haseł"
+            
+              , "kryptografia"
+            
+              , "najmniejszy przywilej"
+            
+              , "statyczny analizator kodu"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "Zapobieganie iniekcjom SQL"
+            
+              , "Zapobieganie atakom typu cross-site scripting"
+            
+              , "ochrona danych"
+            
+              , "kontrole stanu zdrowia"
+            
+              , "zarządzanie sesjami"
+            
+              , "Najlepsze praktyki OWASP"
+            
+              , "Standardy bezpiecznego kodowania C Sharp"
+            
+              , "C Wytyczne dotyczące bezpieczeństwa Sharp"
+            
+              , "wskazówki dotyczące bezpiecznego kodowania"
+            
+              , "bezpieczne tworzenie oprogramowania"
+            
+              , "bezpieczne ramy kodowania"
+            
+              , "techniki bezpiecznego kodowania"
+            
+              , "zalecenia dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczne programowanie w języku C Sharp"
+            
+              , "Luki w bezpiecznym kodowaniu"
+            
+              , "narzędzia do bezpiecznego kodowania"
+            
+              , "samouczki bezpiecznego kodowania"
+            
+              , "Najlepsze praktyki bezpiecznego kodowania w C Sharp"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania C Sharp"
+            
+              , "Standardy bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Ostre praktyki bezpiecznego kodowania"
+            
+              , "Jak wdrożyć bezpieczne kodowanie w C Sharp"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Bezpieczne kodowanie w aplikacjach internetowych C Sharp"
+            
+              , "Bezpieczne ramy kodowania w języku C Sharp"
+            
+              , "Techniki bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Narzędzia do bezpiecznego kodowania C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki bezpiecznego kodowania w języku C#, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png" length="487099" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox Academy vs TryHackMe: Co jest najlepsze dla początkujących?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "Akademia HackTheBox"
+            
+              , "TryHackMe"
+            
+              , "nauka"
+            
+              , "początkujący"
+            
+              , "interaktywne laboratoria"
+            
+              , "wyzwania"
+            
+              , "ćwiczenia"
+            
+              , "wytyczne"
+            
+              , "wsparcie"
+            
+              , "Rzeczywiste scenariusze"
+            
+              , "umiejętności"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "kryptografia"
+            
+              , "programowanie"
+            
+              , "społeczność"
+            
+              , "nauka online"
+            
+              , "ustrukturyzowana nauka"
+            
+              , "hackthebox vs tryhackme"
+            
+              , "platformy do testów penetracyjnych"
+            
+              , "nauka cyberbezpieczeństwa"
+            
+              , "młodszy tester penetracyjny"
+            
+              , "Wyzwania związane z maszynami wirtualnymi"
+            
+              , "umiejętności w zakresie bezpieczeństwa sieci"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "nauka kryptografii"
+            
+              , "programowanie dla cyberbezpieczeństwa"
+            
+              , "Platformy edukacyjne online"
+            
+              , "ustrukturyzowane doświadczenie edukacyjne"
+            
+              , "kreatywne myślenie w cyberbezpieczeństwie"
+            
+              , "cyberbezpieczeństwo dla początkujących"
+            
+              , "wsparcie społeczności"
+            
+              , "rzeczywiste scenariusze cyberbezpieczeństwa"
+            
+              , "rozwój umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "społeczność hackthebox"
+            
+              , "społeczność tryhackme"
+            
+              , "wyzwania związane z cyberbezpieczeństwem"
+            
+              , "nauka cyberbezpieczeństwa"
+            
+              , "umiejętności w zakresie testów penetracyjnych"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "praktyczna nauka cyberbezpieczeństwa"
+            
+              , "Nauka cyberbezpieczeństwa z przewodnikiem"
+            
+              , "wyzwania hackthebox"
+            
+              , "wyzwania tryhackme"
+            
+              , "stosowanie umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+              , "internetowe platformy cyberbezpieczeństwa"
+            
+              , "Subskrypcja hackthebox"
+            
+              , "Subskrypcja tryhackme"
+            
+              , "wsparcie hackthebox"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie mocnych i słabych stron HackTheBox Academy i TryHackMe, aby pomóc początkującym wybrać najlepszą platformę do nauki umiejętności cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_featuring_two_characters.png" length="294740" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Dekodowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Dekodowanie"
+            
+              , "Opis"
+            
+              , "Fernet Cipher"
+            
+              , "Szyfr Malboge"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kryptografia"
+            
+              , "Testy penetracyjne"
+            
+              , "Python"
+            
+              , "Bezpieczeństwo"
+            
+              , "Wyzwanie"
+            
+              , "CTF"
+            
+              , "Flaga"
+            
+              , "Szyfrowanie"
+            
+              , "Deszyfrowanie"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Napad na bank</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "hackthebox"
+            
+              , "kryptografia"
+            
+              , "Szyfr T9"
+            
+              , "szyfr multitap"
+            
+              , "szyfr atbash"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "dekodowanie"
+            
+              , "szyfrogram"
+            
+              , "wyzwanie"
+            
+              , "flaga"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "hakowanie"
+            
+              , "uczyć się"
+            
+              , "samouczek"
+            
+              , "dekodowanie szyfru"
+            
+              , "rozwiązywanie zagadek"
+            
+              , "łamanie kodów"
+            
+              , "wyzwanie kryptograficzne"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "nauka online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png" length="312120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Wezwanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Crypto Challenge"
+            
+              , "Sygnały DTMF"
+            
+              , "Szyfr liczb pierwszych"
+            
+              , "Odszyfrowanie"
+            
+              , "Rozwiązywanie zagadek"
+            
+              , "Kryptografia"
+            
+              , "Konwersja audio"
+            
+              , "DialABC"
+            
+              , "Decode.fr"
+            
+              , "WAV"
+            
+              , "MP3"
+            
+              , "Częstotliwość"
+            
+              , "Cecha matematyczna"
+            
+              , "Flaga"
+            
+              , "Audacity"
+            
+              , "Wizualizer dźwiękowy"
+            
+              , "Numery"
+            
+              , "Menu automatycznych kasjerów"
+            
+              , "Telefon płatny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak odszyfrować tony DTMF za pomocą szyfru liczb pierwszych, aby rozwiązać wyzwanie Crypto - Call na HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,315 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zdalny Dostęp on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zdalny-dost%C4%99p//img/banner.png</url>
+      <title>Zdalny Dostęp on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zdalny-dost%C4%99p/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zdalny-dost%C4%99p/</link>
+
+    <description>Recent content in Zdalny Dostęp on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zdalny-dost%C4%99p/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga SSH: bezpieczny zdalny dostęp i łatwe zarządzanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "zdalny dostęp"
+            
+              , "zdalne zarządzanie"
+            
+              , "szyfrowanie"
+            
+              , "uwierzytelnianie"
+            
+              , "integralność danych"
+            
+              , "przenośność"
+            
+              , "transfer plików"
+            
+              , "SCP"
+            
+              , "Klucze SSH"
+            
+              , "Konfiguracja SSH"
+            
+              , "protokół sieciowy"
+            
+              , "zdalne wykonywanie poleceń"
+            
+              , "OpenSSH"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Adres IP"
+            
+              , "nazwa domeny"
+            
+              , "terminal"
+            
+              , "wiersz polecenia"
+            
+              , "bezpieczeństwo"
+            
+              , "administratorzy systemu"
+            
+              , "deweloperzy"
+            
+              , "wszechstronność"
+            
+              , "metody uwierzytelniania"
+            
+              , "funkcje skrótu"
+            
+              , "tunelowanie"
+            
+              , "opcje niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png" length="185817" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zarządzanie flotą górników o małej mocy: Przewodnik po zdalnym dostępie i bezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/other/managing-low-powered-crypto-miners/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "górnicy o małej mocy"
+            
+              , "zdalny dostęp"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "openvpn"
+            
+              , "wireguard"
+            
+              , "snort"
+            
+              , "ngrok"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/managing-low-powered-crypto-miners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i narzędzia do zarządzania flotą górników o małej mocy, w tym remote.it, ngrok, OpenVPN, WireGuard i inne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png" length="236215" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodniki SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zaawansowane przewodniki"
+            
+              , "techniczne samouczki"
+            
+              , "kontrola wersji"
+            
+              , "aktualizacje Linuxa"
+            
+              , "zarządzanie serwerem"
+            
+              , "wiersz poleceń"
+            
+              , "techniki programowania"
+            
+              , "tworzenie oprogramowania"
+            
+              , "administracja siecią"
+            
+              , "praktyki związane z cyberbezpieczeństwem"
+            
+              , "aktualizacje systemu"
+            
+              , "zdalny dostęp"
+            
+              , "administracja Linuxem"
+            
+              , "konfiguracje zabezpieczeń"
+            
+              , "rozwiązywanie problemów"
+            
+              , "najlepsze praktyki kodowania"
+            
+              , "zarządzanie kodem źródłowym"
+            
+              , "konserwacja systemu"
+            
+              , "bezpieczeństwo sieciowe"
+            
+              , "aktualizacje firmware"
+            
+              , "konfiguracja systemu"
+            
+              , "infrastruktura IT"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "polecenia Linuxa"
+            
+              , "zarządzanie siecią"
+            
+              , "optymalizacja systemu"
+            
+              , "umiejętności programistyczne"
+            
+              , "automatyzacja"
+            
+              , "ochrona danych"
+            
+              , "konserwacja serwera"
+            
+              , "protokoły sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z zaawansowanymi technikami, praktycznymi samouczkami i eksperckimi spostrzeżeniami w obszarach takich jak kontrola wersji, administracja systemem, praktyki związane z cyberbezpieczeństwem, zarządzanie siecią i tworzenie oprogramowania. Zdobądź cenne umiejętności i rozwijaj się dzięki naszym szczegółowym przewodnikom.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

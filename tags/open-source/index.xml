@@ -1,0 +1,1050 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/open-source//img/banner.png</url>
+      <title>Open Source on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/open-source/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/open-source/</link>
+
+    <description>Recent content in Open Source on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wybór menedżera haseł: Kompleksowy przewodnik po zwiększonym bezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "menedżer haseł"
+            
+              , "wybór menedżera haseł"
+            
+              , "Bitwarden"
+            
+              , "KeePassXC"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "zarządzanie hasłami"
+            
+              , "silne hasła"
+            
+              , "unikalne hasła"
+            
+              , "naruszenia danych"
+            
+              , "szyfrowanie"
+            
+              , "Kompatybilność międzyplatformowa"
+            
+              , "synchronizacja hasła"
+            
+              , "kopia zapasowa"
+            
+              , "interfejs użytkownika"
+            
+              , "generator haseł"
+            
+              , "2FA"
+            
+              , "szyfrowanie typu end-to-end"
+            
+              , "Architektura o zerowej wiedzy"
+            
+              , "open-source"
+            
+              , "bezpieczne udostępnianie haseł"
+            
+              , "typ automatyczny"
+            
+              , "wsparcie mocowania"
+            
+              , "wtyczki"
+            
+              , "rekomendacje dotyczące menedżera haseł"
+            
+              , "Porównanie menedżerów haseł"
+            
+              , "wskazówki dotyczące bezpieczeństwa haseł"
+            
+              , "Funkcje menedżera haseł"
+            
+              , "zalety menedżera haseł"
+            
+              , "menedżer haseł do pobrania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze czynniki, które należy wziąć pod uwagę przy wyborze menedżera haseł i dowiedz się, dlaczego Bitwarden i KeePassXC są zalecanymi opcjami
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png" length="97482" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja Ansible: Od zwykłego Ansible do Ansible Tower i Semaphore</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Open Source"
+            
+              , "Zarządzanie przepływem pracy"
+            
+              , "Skalowalność"
+            
+              , "Współpraca"
+            
+              , "Narzędzia Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Exploring Metasploit: Kompleksowe ramy dla testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "po operacji"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png" length="199307" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie zapasami"
+            
+              , "Zarządzanie aktywami"
+            
+              , "Open Source"
+            
+              , "Wydajność"
+            
+              , "Mała firma"
+            
+              , "Zarządzanie domem"
+            
+              , "Self-hosted"
+            
+              , "Oprogramowanie"
+            
+              , "Organizacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa dla początkujących: Ubuntu, Zorin OS, Mint i Manjaro</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-linux-distros-for-beginners/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "Ubuntu"
+            
+              , "Zorin OS"
+            
+              , "Linux Mint"
+            
+              , "Manjaro"
+            
+              , "początkujący"
+            
+              , "Przyjazny dla użytkownika interfejs"
+            
+              , "kompatybilność sprzętowa"
+            
+              , "wsparcie społeczności"
+            
+              , "open-source"
+            
+              , "Oparte na Debianie"
+            
+              , "Interfejs przypominający Windows"
+            
+              , "zwolnienie kroczące"
+            
+              , "Środowisko graficzne Cinnamon"
+            
+              , "Środowisko graficzne Xfce"
+            
+              , "Środowisko graficzne KDE Plasma"
+            
+              , "Środowisko graficzne GNOME"
+            
+              , "repozytorium oprogramowania"
+            
+              , "Kompleksowa dokumentacja"
+            
+              , "preinstalowane oprogramowanie"
+            
+              , "najnowsze aktualizacje oprogramowania"
+            
+              , "pasek zadań"
+            
+              , "menu startowe"
+            
+              , "zasobnik systemowy"
+            
+              , "kodeki multimedialne"
+            
+              , "menedżer pakietów"
+            
+              , "wspierająca społeczność"
+            
+              , "regulacje rządowe"
+            
+              , "zgodność z prawem"
+            
+              , "doświadczenie w zakresie bezpiecznego przetwarzania danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-linux-distros-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa dla początkujących, w tym Ubuntu, Zorin OS, Linux Mint i Manjaro, zapewniające przyjazne dla użytkownika interfejsy i doskonałe wsparcie społeczności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png" length="170017" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Flipper Zero: wszechstronne urządzenie do hakowania i bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pinball Zero"
+            
+              , "urządzenie przenośne"
+            
+              , "hakowanie sprzętu"
+            
+              , "inżynieria odwrotna"
+            
+              , "analiza komunikacji bezprzewodowej"
+            
+              , "kontrola urządzenia"
+            
+              , "audyt bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "codzienny towarzysz technologiczny"
+            
+              , "open-source"
+            
+              , "Bluetooth"
+            
+              , "NFC"
+            
+              , "RFID"
+            
+              , "IR"
+            
+              , "emulacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "Kali Linux"
+            
+              , "Wyświetlacz e-papierowy"
+            
+              , "Kody QR"
+            
+              , "automatyka domowa"
+            
+              , "luki w zabezpieczeniach"
+            
+              , "protokoły bezprzewodowe"
+            
+              , "Ekstrakcja oprogramowania układowego"
+            
+              , "miganie"
+            
+              , "debugowanie"
+            
+              , "systemy fizycznej kontroli dostępu"
+            
+              , "inteligentne systemy automatyki domowej"
+            
+              , "emulacja urządzenia"
+            
+              , "luki w zabezpieczeniach systemów bezprzewodowych"
+            
+              , "środki zaradcze"
+            
+              , "kompaktowy gadżet"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnorodne zastosowania Flipper Zero, najlepszego podręcznego gadżetu do hakowania sprzętu, analizy komunikacji bezprzewodowej i codziennych potrzeb technicznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png" length="678280" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Instalacja Graphene OS na urządzeniu Google Pixel</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-install-graphine-os/</link>
+        
+        <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Grafenowy system operacyjny"
+            
+              , "Google Pixel"
+            
+              , "prywatność"
+            
+              , "bezpieczeństwo"
+            
+              , "Android"
+            
+              , "urządzenia mobilne"
+            
+              , "system operacyjny"
+            
+              , "instrukcja instalacji"
+            
+              , "niestandardowa pamięć ROM"
+            
+              , "zorientowany na prywatność"
+            
+              , "ochrona danych"
+            
+              , "bezpieczny system operacyjny"
+            
+              , "open-source"
+            
+              , "bezpieczeństwo urządzenia"
+            
+              , "funkcje prywatności"
+            
+              , "dane osobowe"
+            
+              , "prywatność mobilna"
+            
+              , "prywatność danych"
+            
+              , "dostosowanie urządzenia"
+            
+              , "technologia"
+            
+              , "Instalacja pikseli"
+            
+              , "system operacyjny zorientowany na prywatność"
+            
+              , "Instalacja Graphene OS"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "prywatność i bezpieczeństwo"
+            
+              , "Personalizacja urządzenia Pixel"
+            
+              , "ulepszenia prywatności"
+            
+              , "przewodnik po ochronie danych"
+            
+              , "bezpieczny system operacyjny"
+            
+              , "Funkcje prywatności pikseli"
+            
+              , "prywatność danych mobilnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-install-graphine-os/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować system Graphene OS na urządzeniu Google Pixel, aby zwiększyć prywatność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png" length="160595" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Top Secure Browsers for Privacy Protection: Brave, Firefox i Tor</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-best-browsers-for-privacy-and-security-in-2023/</link>
+        
+        <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczne przeglądarki"
+            
+              , "ochrona prywatności"
+            
+              , "Odważna przeglądarka"
+            
+              , "Firefox"
+            
+              , "Tor"
+            
+              , "bezpieczeństwo w sieci"
+            
+              , "prywatność internetowa"
+            
+              , "funkcje przeglądarki"
+            
+              , "ad-blocking"
+            
+              , "ochrona przed śledzeniem"
+            
+              , "open-source"
+            
+              , "cross-platform"
+            
+              , "Firefox Focus"
+            
+              , "Sieć Tor"
+            
+              , "alternatywne przeglądarki"
+            
+              , "Vivaldi"
+            
+              , "Epic"
+            
+              , "Puffin"
+            
+              , "Waterfox"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-best-browsers-for-privacy-and-security-in-2023/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze bezpieczne przeglądarki do ochrony prywatności, w tym Brave, Firefox i Tor, oraz dowiedz się o ich funkcjach i zaletach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png" length="316565" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unraid vs TrueNas: Który system operacyjny NAS jest odpowiedni dla Ciebie?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Unraid"
+            
+              , "TrueNAS"
+            
+              , "System operacyjny NAS"
+            
+              , "Porównanie"
+            
+              , "Przyjazność dla użytkownika"
+            
+              , "Cechy"
+            
+              , "Dokumentacja"
+            
+              , "Wspólnota"
+            
+              , "Open Source"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Ochrona danych"
+            
+              , "Wydajność"
+            
+              , "Elastyczność"
+            
+              , "Łatwy w użyciu"
+            
+              , "Aplikacje innych firm"
+            
+              , "Pamięć masowa podłączona do sieci"
+            
+              , "Technologia RAID"
+            
+              , "Zarządzanie pamięcią masową"
+            
+              , "OpenZFS"
+            
+              , "Użytkownicy domowi"
+            
+              , "Model cenowy"
+            
+              , "Przechowywanie w chmurze"
+            
+              , "Wirtualizacja"
+            
+              , "Dokumentacja koncentratora"
+            
+              , "Forum społeczności"
+            
+              , "Zaawansowana ochrona danych"
+            
+              , "Dojrzały system operacyjny NAS"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Unraid vs TrueNas"
+            
+              , "Porównanie systemów operacyjnych NAS"
+            
+              , "sieciowa pamięć masowa"
+            
+              , "Funkcje Unraid"
+            
+              , "Cechy TrueNas"
+            
+              , "Dokumentacja Unraid"
+            
+              , "Dokumentacja TrueNas"
+            
+              , "Społeczność Unraid"
+            
+              , "Społeczność TrueNas"
+            
+              , "Niewygórowane ceny"
+            
+              , "Koszt TrueNas"
+            
+              , "Niezwykła łatwość obsługi"
+            
+              , "Łatwość użytkowania TrueNas"
+            
+              , "Zarządzanie pamięcią masową Unraid"
+            
+              , "Zaawansowana ochrona danych TrueNas"
+            
+              , "Niewidoczne aplikacje innych firm"
+            
+              , "Pamięć masowa w chmurze TrueNas"
+            
+              , "Wirtualizacja Unraid"
+            
+              , "Rynek korporacyjny TrueNas"
+            
+              , "Technologia Unraid RAID"
+            
+              , "TrueNas OpenZFS"
+            
+              , "Użytkownicy domowi Unraid"
+            
+              , "Dojrzały system operacyjny NAS TrueNas"
+            
+              , "Nieograniczona wiedza techniczna"
+            
+              , "Specjaliści IT TrueNas"
+            
+              , "Niesamowita wydajność"
+            
+              , "Skalowalność TrueNas"
+            
+              , "Wsparcie Unraid"
+            
+              , "System plików TrueNas"
+            
+              , "Zarządzanie dyskami Unraid"
+            
+              , "Rozszerzenie pamięci masowej TrueNas"
+            
+              , "system operacyjny truenas"
+            
+              , "truenas vs freenas vs unraid"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie Unraid i TrueNas, w tym ich łatwości obsługi, funkcji, dokumentacji i społeczności, aby pomóc użytkownikom w podjęciu świadomej decyzji, który system operacyjny NAS jest najlepszy dla ich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecani posłańcy</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/messengers/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecani posłańcy"
+            
+              , "Klienci wiadomości"
+            
+              , "Bezpieczna komunikacja"
+            
+              , "Szyfrowanie od końca do końca"
+            
+              , "Aplikacje zorientowane na prywatność"
+            
+              , "Aplikacje open source"
+            
+              , "Samoniszczące się wiadomości"
+            
+              , "Bezpieczne udostępnianie plików"
+            
+              , "Narzędzia do współpracy"
+            
+              , "Aplikacje mobilne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/messengers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze komunikatory polecane przez SimeonOnSecurity. Zachowaj bezpieczeństwo i komunikuj się z łatwością za pomocą Signal, preferowanej opcji, Wire i Wickr Przejrzyj opcje i wybierz odpowiedni komunikator dla siebie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,856 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firewalle on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/firewalle//img/banner.png</url>
+      <title>Firewalle on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/firewalle/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/firewalle/</link>
+
+    <description>Recent content in Firewalle on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/firewalle/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Protokoły routingu, koncepcje i optymalizacja</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</link>
+        
+        <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie sieci"
+            
+              , "Routing"
+            
+              , "Protokoły sieciowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Routing dynamiczny"
+            
+              , "Routing statyczny"
+            
+              , "Zarządzanie przepustowością"
+            
+              , "Jakość usług"
+            
+              , "Urządzenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat technologii i koncepcji routingu, od dynamicznych protokołów routingu, takich jak RIP, OSPF, EIGRP i BGP, po protokoły stanu łącza, wektora odległości i routingu hybrydowego, a także konfigurację routingu statycznego i tras domyślnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.png" length="935379" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne rozwiązania chmurowe: AWS vs. Azure vs. Google Cloud Platform - wybór najlepszego rozwiązania dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 podstawowych środków bezpieczeństwa sieci w celu ochrony firmy przed cyberzagrożeniami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "środki bezpieczeństwa sieci"
+            
+              , "bezpieczeństwo sieci biznesowych"
+            
+              , "cyberzagrożenia"
+            
+              , "polityka bezpieczeństwa sieci"
+            
+              , "zapory sieciowe i systemy zapobiegania włamaniom"
+            
+              , "bezpieczeństwo sieci bezprzewodowej"
+            
+              , "aktualizacje oprogramowania i sprzętu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "monitorowanie aktywności sieciowej"
+            
+              , "reakcja na naruszenie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj siedem podstawowych środków bezpieczeństwa sieci, aby zabezpieczyć swoją firmę przed cyberzagrożeniami i zapewnić ochronę danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/7-essential-network-security-measures.png" length="99214" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak zabezpieczyć środowisko Docker i Kubernetes</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Pojemniki"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "RBAC"
+            
+              , "Serwer API"
+            
+              , "Podatności"
+            
+              , "Monitoring"
+            
+              , "Rejestrowanie"
+            
+              , "Firewalle"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometeusz"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczenie edukacji: Rola cyberbezpieczeństwa w ochronie danych uczniów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</link>
+        
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "edukacja"
+            
+              , "dane uczniów"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "FERPA"
+            
+              , "NIST"
+            
+              , "HEISC"
+            
+              , "Internet2"
+            
+              , "Instytut SANS"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "phishing"
+            
+              , "szkolenie uświadamiające"
+            
+              , "ocena ryzyka"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "szyfrowanie"
+            
+              , "reakcja na incydent"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczny dostęp"
+            
+              , "firewalle"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie cyberbezpieczeństwa w branży edukacyjnej i dowiedz się, jak chronić wrażliwe dane uczniów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png" length="211205" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Segmentacja sieci: Jak poprawić bezpieczeństwo w Twojej organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "segmentacja sieci"
+            
+              , "poprawić bezpieczeństwo"
+            
+              , "zmniejszyć ryzyko"
+            
+              , "wydajność sieci"
+            
+              , "zarządzanie siecią"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "firewalle"
+            
+              , "kontrole dostępu"
+            
+              , "najmniejszy przywilej"
+            
+              , "uwierzytelnianie"
+            
+              , "testowanie"
+            
+              , "monitorowanie"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "naruszenia danych"
+            
+              , "architektura sieci"
+            
+              , "kompleksowe bezpieczeństwo"
+            
+              , "bezpieczeństwo warstwowe"
+            
+              , "podatności"
+            
+              , "cyberataki"
+            
+              , "szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po tym, jak przeprowadzić segmentację sieci w celu poprawy bezpieczeństwa i zmniejszenia ryzyka w organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png" length="260076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łagodzenie 5 największych wektorów cyberataku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "cyberataki"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "denial-of-service"
+            
+              , "ataki na hasła"
+            
+              , "ataki na aplikacje internetowe"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "filtry antyspamowe"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "firewalle"
+            
+              , "botnety"
+            
+              , "CDN-y"
+            
+              , "usługi anty-DDoS"
+            
+              , "wydajność sieci"
+            
+              , "podatności"
+            
+              , "ochrona"
+            
+              , "ograniczanie ryzyka"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić siebie i swoją firmę przed najczęstszymi wektorami cyberataków, w tym socjotechniką, złośliwym oprogramowaniem, atakami typu denial-of-service, atakami na hasła i atakami na aplikacje internetowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png" length="288490" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Systemy oparte na Windowsie"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Skanowanie podatności"
+            
+              , "Edukacja"
+            
+              , "Kod wtrysku"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Wyciek danych"
+            
+              , "Środowisko utwardzania"
+            
+              , "Polityka bezpieczeństwa"
+            
+              , "Firewalle"
+            
+              , "Systemy wykrywania włamań"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie infrastruktury sieciowej przed atakami APT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo sieci"
+            
+              , "cybersecurity"
+            
+              , "zaawansowane trwałe zagrożenia"
+            
+              , "infrastruktura sieciowa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie danych"
+            
+              , "szkolenie pracowników"
+            
+              , "plan reagowania na incydenty"
+            
+              , "oceny podatności"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "monitorowanie ruchu sieciowego"
+            
+              , "ataki phishingowe"
+            
+              , "ochrona punktów końcowych"
+            
+              , "wykrywanie włamań"
+            
+              , "firewalle"
+            
+              , "SIEM"
+            
+              , "kopia zapasowa danych"
+            
+              , "segmentacja sieci"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe kroki, aby utwardzić infrastrukturę sieciową przed zaawansowanymi trwałymi zagrożeniami (APT) i chronić swoją organizację przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png" length="141474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sztuka inżynierii odwrotnej: Odkrywanie luk w bezpieczeństwie sieci IoT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "inżynieria odwrotna"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "podatności"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "analiza urządzenia"
+            
+              , "Sieci IoT"
+            
+              , "wewnętrzne funkcjonowanie"
+            
+              , "złośliwy kod"
+            
+              , "środki szyfrowania"
+            
+              , "środki uwierzytelniania"
+            
+              , "firewalle"
+            
+              , "aktualizacja oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc inżynierii wstecznej, aby odkryć błędy w zabezpieczeniach sieci IoT i poprawić ogólne bezpieczeństwo systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png" length="511556" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

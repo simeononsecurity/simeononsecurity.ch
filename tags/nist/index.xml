@@ -1,0 +1,1057 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NIST on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/nist//img/banner.png</url>
+      <title>NIST on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/nist/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/nist/</link>
+
+    <description>Recent content in NIST on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/nist/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnienie siły rozwoju siły roboczej: Ramy NICE i DoD DCWF</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "rozwój siły roboczej"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Ramy NICE"
+            
+              , "Struktura DCWF DoD"
+            
+              , "ocena umiejętności"
+            
+              , "rozwój zawodowy"
+            
+              , "pracownicy cyberbezpieczeństwa"
+            
+              , "ścieżki kariery"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+              , "dostosowanie siły roboczej"
+            
+              , "struktura zatrudnienia"
+            
+              , "NIST"
+            
+              , "regulacje rządowe"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "standardy branżowe"
+            
+              , "zarządzanie talentami"
+            
+              , "role związane z cyberbezpieczeństwem"
+            
+              , "kompetencje w zakresie cyberbezpieczeństwa"
+            
+              , "rozwój pracowników cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "planowanie siły roboczej"
+            
+              , "rekrutacja cyberbezpieczeństwo"
+            
+              , "odporność pracowników"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "strategia dotycząca siły roboczej"
+            
+              , "rynek pracy cyberbezpieczeństwa"
+            
+              , "rozwój kariery w dziedzinie cyberbezpieczeństwa"
+            
+              , "gotowość siły roboczej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kompleksowe ramy oceny i rozwoju pracowników cyberbezpieczeństwa: NICE i DoD DCWF, zapewniając organizacjom wykwalifikowanych specjalistów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png" length="470043" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanowanie cyberbezpieczeństwa: Poznawanie najnowszych CVE i aktorów zagrożeń</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "CVE"
+            
+              , "aktorzy zagrożeń"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "analiza zagrożeń"
+            
+              , "udostępnianie informacji"
+            
+              , "współpraca branżowa"
+            
+              , "zalecenia dotyczące bezpieczeństwa"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "ATT&amp;CK® bolster"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "pojawiające się zagrożenia"
+            
+              , "proaktywna obrona"
+            
+              , "automatyczne skanowanie luk w zabezpieczeniach"
+            
+              , "wywiad open source"
+            
+              , "Analiza zagrożeń w czasie rzeczywistym"
+            
+              , "taktyki i techniki podmiotów stanowiących zagrożenie"
+            
+              , "Techniczny OSINT"
+            
+              , "Bazy danych CVE"
+            
+              , "zalecenia dostawców dotyczące bezpieczeństwa"
+            
+              , "blogi o bezpieczeństwie"
+            
+              , "źródła informacji o zagrożeniach"
+            
+              , "społeczności wymiany informacji"
+            
+              , "regulacje rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wyprzedzaj cyberzagrożenia, poznając najnowsze CVE i podmioty stanowiące zagrożenie dzięki skutecznym strategiom i zasobom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ścieżki kariery w obszarze cyberbezpieczeństwa i perspektywy zatrudnienia: Rozwijająca się dziedzina</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cyber-security-career-paths-and-job-outlook/</link>
+        
+        <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "ścieżki kariery"
+            
+              , "Perspektywy zatrudnienia"
+            
+              , "analitycy bezpieczeństwa informacji"
+            
+              , "inżynierowie bezpieczeństwa"
+            
+              , "architekci bezpieczeństwa"
+            
+              , "testerzy bezpieczeństwa"
+            
+              , "analitycy kryminalistyczni"
+            
+              , "osoby reagujące na incydenty"
+            
+              , "konsultanci ds. bezpieczeństwa"
+            
+              , "cyberzagrożenia"
+            
+              , "technologia"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "rozwój zawodowy"
+            
+              , "certyfikaty"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "kariery w cyberbezpieczeństwie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cyber-security-career-paths-and-job-outlook/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różne ścieżki kariery w obszarze cyberbezpieczeństwa, perspektywy zatrudnienia i korzyści w tej szybko rozwijającej się dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cybersecurity_professional_protecting_digital_systems.png" length="425075" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "narzędzia bezpieczeństwa typu open source"
+            
+              , "cybersecurity"
+            
+              , "wsparcie społeczności"
+            
+              , "przejrzystość"
+            
+              , "oszczędność kosztów"
+            
+              , "elastyczność"
+            
+              , "narzędzia własne"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "zestaw umiejętności"
+            
+              , "opłaty za licencje na oprogramowanie"
+            
+              , "całkowity koszt posiadania"
+            
+              , "wsparcie handlowe"
+            
+              , "języki programowania"
+            
+              , "integracja"
+            
+              , "teswing bezpieczeństwa"
+            
+              , "audyty"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Krajowy Instytut Norm i Technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Administracja systemem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Infrastruktura"
+            
+              , "DevOps"
+            
+              , "Konfiguracja serwera"
+            
+              , "Testowanie"
+            
+              , "Git"
+            
+              , "Kontrola źródła"
+            
+              , "Przepisy rządowe"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Dryft konfiguracji"
+            
+              , "Zasoby niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne szkolenie w zakresie świadomości bezpieczeństwa dla pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "pracownicy zdalni"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "szkolenie"
+            
+              , "pracownicy zdalni"
+            
+              , "phishing"
+            
+              , "najlepsze praktyki"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "gamifikacja"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Świadomość bezpieczeństwa"
+            
+              , "Instytut Infosec"
+            
+              , "KnowBe4"
+            
+              , "kształcenie ustawiczne"
+            
+              , "scenariusze realne"
+            
+              , "szkolenie interaktywne"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "platformy szkoleniowe w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swoich pracowników zdalnych dzięki skutecznemu szkoleniu z zakresu świadomości bezpieczeństwa i dowiedz się, jak je skutecznie wdrożyć.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png" length="316114" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczenie edukacji: Rola cyberbezpieczeństwa w ochronie danych uczniów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</link>
+        
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "edukacja"
+            
+              , "dane uczniów"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "FERPA"
+            
+              , "NIST"
+            
+              , "HEISC"
+            
+              , "Internet2"
+            
+              , "Instytut SANS"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "phishing"
+            
+              , "szkolenie uświadamiające"
+            
+              , "ocena ryzyka"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "szyfrowanie"
+            
+              , "reakcja na incydent"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczny dostęp"
+            
+              , "firewalle"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie cyberbezpieczeństwa w branży edukacyjnej i dowiedz się, jak chronić wrażliwe dane uczniów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png" length="211205" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie ram bezpieczeństwa cybernetycznego NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "NIST"
+            
+              , "ramy"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberzagrożenia"
+            
+              , "wdrożenie"
+            
+              , "najlepsze praktyki"
+            
+              , "wytyczne"
+            
+              , "standardy"
+            
+              , "cyberataki"
+            
+              , "ocena ryzyka"
+            
+              , "ryzyko cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "reakcja na incydent"
+            
+              , "środki bezpieczeństwa"
+            
+              , "plan cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć NIST Cybersecurity Framework i chronić swoją organizację przed cyberzagrożeniami, korzystając z naszego przewodnika krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sztuka reagowania na incydenty: Najlepsze praktyki i przykłady z prawdziwego świata</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "reakcja na incydent"
+            
+              , "cybersecurity"
+            
+              , "NIST"
+            
+              , "najlepsze praktyki"
+            
+              , "wywiad o zagrożeniach"
+            
+              , "komunikacja"
+            
+              , "analiza powypadkowa"
+            
+              , "Equifax"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Rurociąg Colonial"
+            
+              , "Microsoft Exchange Server"
+            
+              , "podatności"
+            
+              , "wykrywanie włamań"
+            
+              , "izolacja"
+            
+              , "odzyskiwanie"
+            
+              , "przygotowanie"
+            
+              , "cyberataki"
+            
+              , "cyberprzestępczość"
+            
+              , "incydenty związane z bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki reagowania na incydenty zgodnie z NIST SP 800-61 Rev. 2 i odkryj rzeczywiste przykłady skutecznych strategii reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

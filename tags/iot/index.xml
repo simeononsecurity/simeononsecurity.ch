@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/iot//img/banner.png</url>
+      <title>IoT on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/iot/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/iot/</link>
+
+    <description>Recent content in IoT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie urządzeń IoT: Wyzwania i rozwiązania w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "cybersecurity"
+            
+              , "bezpieczeństwo"
+            
+              , "Internet rzeczy"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "inteligentne urządzenia"
+            
+              , "najlepsze praktyki"
+            
+              , "Ryzyko związane z IoT"
+            
+              , "uwierzytelnianie"
+            
+              , "aktualizacje oprogramowania sprzętowego"
+            
+              , "monitorowanie"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "Wytyczne dotyczące bezpieczeństwa IoT"
+            
+              , "segmentacja sieci"
+            
+              , "krajobraz zagrożeń"
+            
+              , "podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wpływ IoT na cyberbezpieczeństwo i poznaj skuteczne strategie zabezpieczania podłączonych urządzeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przygotowanie do przyszłości bezpieczeństwa cybernetycznego w świecie po pandemii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</link>
+        
+        <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "post-pandemiczny"
+            
+              , "przyszły"
+            
+              , "praca zdalna"
+            
+              , "AI"
+            
+              , "uczenie maszynowe"
+            
+              , "IoT"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "hasła"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "edukacja"
+            
+              , "VPN"
+            
+              , "aktualizacje oprogramowania sprzętowego"
+            
+              , "phishing"
+            
+              , "ransomware"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "prywatność cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak przygotować się na przyszłość cyberbezpieczeństwa w świecie post-pandemicznym i zmniejszyć ryzyko padnięcia ofiarą cyberataków.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png" length="200776" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

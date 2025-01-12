@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warstwa Prezentacji on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/warstwa-prezentacji//img/banner.png</url>
+      <title>Warstwa Prezentacji on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/warstwa-prezentacji/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/warstwa-prezentacji/</link>
+
+    <description>Recent content in Warstwa Prezentacji on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/warstwa-prezentacji/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy sieci: Zrozumienie warstw OSI i modelu TCP IP</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-are-the-osi-layers/</link>
+        
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Podstawy pracy w sieci"
+            
+              , "Warstwy OSI"
+            
+              , "Model TCP IP"
+            
+              , "Protokoły sieciowe"
+            
+              , "Modele komunikacji"
+            
+              , "Podstawy pracy w sieci"
+            
+              , "Transmisja danych"
+            
+              , "Rozwiązywanie problemów z siecią"
+            
+              , "Architektura sieci"
+            
+              , "Koncepcje sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-are-the-osi-layers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uzyskaj kompleksowe zrozumienie warstw OSI i modelu TCP IP, podstawowych ram w sieciach, aby ułatwić skuteczną komunikację i rozwiązywanie problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_network.png" length="340153" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
