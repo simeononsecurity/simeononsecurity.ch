@@ -1,0 +1,2857 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://pt.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>pt</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Guia Definitivo: Atualizações offline do Linux para Ubuntu Debian e CentOS RHEL</title><link>https://pt.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid><description>Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Melhores maneiras de lidar com a instalação de atualizações do Linux offline para Ubuntu/Debian e CentOS/RHEL</strong></p>
+<p>As atualizações do Linux são essenciais para manter a segurança e a estabilidade do seu sistema. No entanto, em alguns cenários, você pode ter que lidar com ambientes off-line em que a conectividade com a Internet é limitada ou inexistente. Nesses casos, torna-se crucial ter uma estratégia adequada para instalar atualizações offline. Este artigo irá guiá-lo pelas <strong>melhores maneiras de lidar com a instalação de atualizações do Linux para Ubuntu/Debian e CentOS/RHEL</strong> em ambientes offline, focando especificamente no uso de um repositório ou cache local.</p>
+<h2 id="configurando-um-repositório-local">
+  <a href="#configurando-um-reposit%c3%b3rio-local" title="Configurando um repositório local">Configurando um repositório local</a>
+  <a href="#configurando-um-reposit%c3%b3rio-local" class="h-anchor" aria-hidden="true" title="Configurando um repositório local">#</a>
+</h2>
+<p>Uma das maneiras mais eficazes de lidar com atualizações off-line é configurar um repositório local. Um repositório local contém todos os pacotes e atualizações de software necessários, permitindo que você atualize seu sistema sem uma conexão com a Internet. Veja como você pode configurar um repositório local para distribuições baseadas em Debian e Red Hat:</p>
+<h3 id="para-debianubuntu">
+  <a href="#para-debianubuntu" title="Para Debian/Ubuntu">Para Debian/Ubuntu</a>
+  <a href="#para-debianubuntu" class="h-anchor" aria-hidden="true" title="Para Debian/Ubuntu">#</a>
+</h3>
+<ol>
+<li>Comece configurando um <strong>espelho de repositório Debian</strong> em um servidor que tenha acesso à internet. Você pode usar ferramentas como 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="apt-mirror">
+    <meta itemprop="url" content="https://manpages.debian.org/jessie/apt-mirror/apt-mirror.1.en.html">
+    <a href="https://manpages.debian.org/jessie/apt-mirror/apt-mirror.1.en.html"
+    
+        
+            
+                
+           
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Atualização de firmware offline para Ubiquiti Unifi UDM Pro e UDM SE via linha de comando SSH</title><link>https://pt.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid><description>Aprenda como atualizar o firmware do Ubiquiti Unifi UDM Pro e UDM SE offline através da linha de comando SSH para desempenho e segurança ideais.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Atualize o Ubiquiti Unifi UDM Pro e UDM SE Offline através do SSH</strong></p>
+<p>No mundo das redes, a <strong>Ubiquiti Networks</strong> ganhou reconhecimento por suas soluções inovadoras. O <strong>Ubiquiti Unifi Dream Machine Pro (UDM Pro)</strong> e o <strong>Unifi Dream Machine SE (UDM SE)</strong> são dois produtos populares que oferecem recursos abrangentes de gerenciamento de rede. Atualizar o firmware desses dispositivos é crucial para garantir desempenho e segurança ideais. Neste artigo, exploraremos como atualizar o firmware do UDM Pro e UDM SE <strong>offline</strong> usando SSH de linha de comando.</p>
+<hr>
+<h2 id="por-que-atualizar-o-firmware">
+  <a href="#por-que-atualizar-o-firmware" title="Por que atualizar o firmware?">Por que atualizar o firmware?</a>
+  <a href="#por-que-atualizar-o-firmware" class="h-anchor" aria-hidden="true" title="Por que atualizar o firmware?">#</a>
+</h2>
+<p>As atualizações de firmware são essenciais para qualquer dispositivo de rede, pois geralmente contêm correções de bugs, melhorias de desempenho e patches de segurança. Atualizar regularmente o firmware do seu UDM Pro e UDM SE é crucial para garantir que sua rede permaneça segura e funcione sem problemas.</p>
+<hr>
+<h2 id="atualização-de-firmware-off-line">
+  <a href="#atualiza%c3%a7%c3%a3o-de-firmware-off-line" title="Atualização de firmware off-line">Atualização de firmware off-line</a>
+  <a href="#atualiza%c3%a7%c3%a3o-de-firmware-off-line" class="h-anchor" aria-hidden="true" title="Atualização de firmware off-line">#</a>
+</h2>
+<p>A atualização do firmware do UDM Pro e UDM SE pode ser feita através do <strong>UniFi Dashboard</strong>. No entanto, em alguns cenários, uma conexão com a Internet pode não estar disponível ou não ser desejável. Nesses casos, uma atualização offline usando SSH de linha de comando fornece uma solução alternativa.</p>
+<hr>
+<h2 id="preparando-se-para-a-atualização-offline">
+  <a href="#preparando-se-para-a-atualiza%c3%a7%c3%a3o-offline" title="Preparando-se para a atualização offline">Preparando-se para a atualização offline</a>
+  <a href="#preparando-se-para-a-atualiza%c3%a7%c3%a3o-offline" class="h-anchor" aria-hidden="true" title="Preparando-se para a atualização offline">#</a>
+</h2>
+<p>Antes de prosseguir com a atualização offline, verifique se você possui os seguintes pré-requisitos:</p>
+<ol>
+<li>Um computador ou dispositivo com um cliente SSH instalado.</li>
+<li>O arquivo
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Automatizando patches e atualizações do Linux com Ansible: um guia abrangente</title><link>https://pt.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid><description>Aprenda a automatizar patches e atualizações do Linux usando o Ansible, abrangendo várias distribuições e instruções de configuração.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Automação de patches e atualizações do Linux com Ansible</strong></p>
+<p>No mundo acelerado e preocupado com a segurança de hoje, <strong>automatizar</strong> a correção e a atualização dos sistemas Linux é crucial para garantir a estabilidade do sistema e atenuar as vulnerabilidades. Com a multiplicidade de distribuições Linux disponíveis, pode ser um desafio gerenciar atualizações em diferentes plataformas de forma eficiente. Felizmente, o <strong>Ansible</strong>, uma poderosa ferramenta de automação, oferece uma solução unificada para automatizar patches e atualizações em várias distribuições do Linux. Neste artigo, exploraremos como usar o Ansible para automatizar o processo de aplicação de patches e atualização para distribuições <strong>baseadas em Debian, baseadas em Ubuntu, baseadas em RHEL, baseadas em Alpine</strong> e outras. Também forneceremos um exemplo de playbook Ansible detalhado que lida com a instalação de patches e atualizações em diferentes distros do Linux, juntamente com instruções sobre como configurar credenciais Ansible e arquivos de host para todos os sistemas de destino.</p>
+<h2 id="pré-requisitos">
+  <a href="#pr%c3%a9-requisitos" title="Pré-requisitos">Pré-requisitos</a>
+  <a href="#pr%c3%a9-requisitos" class="h-anchor" aria-hidden="true" title="Pré-requisitos">#</a>
+</h2>
+<p>Antes de mergulhar no processo de automação, vamos garantir que temos os pré-requisitos necessários. Esses incluem:</p>
+<ol>
+<li>
+<p><strong>Instalação do Ansible</strong>: Para usar o Ansible, você precisa instalá-lo no sistema a partir do qual executará as tarefas de automação. Você pode seguir a documentação oficial do Ansible em 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="how to install Ansible">
+    <meta itemprop="url" content="https://docs.ansible.com/ansible/latest/installation_guide/index.html">
+    <a href="https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+               
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Automatizando atualizações do Windows com Ansible: um guia completo</title><link>https://pt.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><description>Simplifique o processo de atualização de sistemas Windows automatizando com Ansible - instruções passo a passo e práticas recomendadas incluídas.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Automação de atualizações do Windows com Ansible: um guia completo</strong></p>
+<p>Manter os sistemas Windows atualizados é crucial para manter a segurança e a estabilidade. No entanto, gerenciar e instalar atualizações manualmente em vários sistemas pode ser uma tarefa demorada e sujeita a erros. Felizmente, com o poder de ferramentas de automação como o Ansible, você pode agilizar o processo e garantir que seus sistemas estejam sempre atualizados. Neste artigo, exploraremos como automatizar as atualizações do Windows usando o Ansible e forneceremos instruções passo a passo sobre como configurar as credenciais do Ansible e os arquivos de host para todos os seus sistemas de destino.</p>
+<hr>
+<h2 id="por-que-automatizar-as-atualizações-do-windows-com-o-ansible">
+  <a href="#por-que-automatizar-as-atualiza%c3%a7%c3%b5es-do-windows-com-o-ansible" title="Por que automatizar as atualizações do Windows com o Ansible?">Por que automatizar as atualizações do Windows com o Ansible?</a>
+  <a href="#por-que-automatizar-as-atualiza%c3%a7%c3%b5es-do-windows-com-o-ansible" class="h-anchor" aria-hidden="true" title="Por que automatizar as atualizações do Windows com o Ansible?">#</a>
+</h2>
+<p>Automatizar as atualizações do Windows com o Ansible oferece vários benefícios:</p>
+<ol>
+<li>
+<p><strong>Economia de tempo</strong>: Em vez de atualizar manualmente cada sistema individualmente, você pode automatizar o processo e atualizar vários sistemas simultaneamente, economizando tempo e esforço valiosos.</p>
+</li>
+<li>
+<p><strong>Consistência</strong>: A automação garante que todos os sistemas recebam as mesmas atualizações, reduzindo o risco de desvio de configuração e mantendo um ambiente consistente e seguro.</p>
+</li>
+<li>
+<p><strong>Eficiência</strong>: Ansible permite que você agende atualizações em horários específicos, garantindo o mínimo de interrupção do seu fluxo de trabalho e maximizando a disponibilidade do sistema.</p>
+</li>
+<li>
+<p><strong>Escalabilidade</strong>: não importa se você tem poucos sistemas ou uma grande infraestrutura, o Ansible escala sem esforço, tornando-o a escolha ideal para gerenciar atualizações em qualquer número de sistemas Windows.</p>
+</li>
+</ol>
+<hr>
+<h2 id="configurando-credenciais-ansible-e-arquivos-de-host">
+  <a href="#configurando-credenciais-ansible-e-arquivos-de-host" title="Configurando credenciais Ansible e arquivos de host">Configurando credenciais Ansible e arqui
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Helium Mobile Beta: revolucionando a conectividade móvel com uma rede descentralizada</title><link>https://pt.simeononsecurity.com/other/helium-mobile-beta-explained/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/helium-mobile-beta-explained/</guid><description>Descubra como o Helium Mobile Beta está transformando a conectividade móvel com sua rede descentralizada, garantindo segurança, confiabilidade e acessibilidade para os usuários.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/helium-mobile-beta-explained/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <h2 id="helium-mobile-beta">
+  <a href="#helium-mobile-beta" title="Helium Mobile Beta">Helium Mobile Beta</a>
+  <a href="#helium-mobile-beta" class="h-anchor" aria-hidden="true" title="Helium Mobile Beta">#</a>
+</h2>
+<p>Helium Mobile Beta é uma operadora móvel inovadora que está atualmente em teste beta, com o objetivo de revolucionar a indústria de telecomunicações. Alimentado pela rede blockchain Helium descentralizada, o Helium Mobile Beta oferece maior segurança, confiabilidade e acessibilidade em comparação com as redes celulares tradicionais. Neste artigo, exploraremos os principais recursos e benefícios do Helium Mobile Beta, bem como suas limitações e as etapas para participar do programa beta.</p>
+<h2 id="como-funciona-o-helium-mobile-beta">
+  <a href="#como-funciona-o-helium-mobile-beta" title="Como funciona o Helium Mobile Beta?">Como funciona o Helium Mobile Beta?</a>
+  <a href="#como-funciona-o-helium-mobile-beta" class="h-anchor" aria-hidden="true" title="Como funciona o Helium Mobile Beta?">#</a>
+</h2>
+<p>O Helium Mobile Beta opera em uma rede sem fio descentralizada que consiste em pequenos dispositivos de baixa potência chamados Helium Hotspots. Esses Hotspots, implantados por indivíduos e empresas, criam novas células de rede sem fio. Dispositivos compatíveis com Helium Mobile Beta podem se conectar a esses Hotspots para acessar a internet.</p>
+<p>Quando um dispositivo se conecta a um Hotspot Helium, ele paga uma pequena taxa em <strong>criptomoeda Helium</strong>. Essa criptomoeda é então distribuída aos donos dos Hotspots, incentivando a expansão da rede e garantindo ampla conectividade.</p>
+<p>A natureza descentralizada da rede da Helium Mobile Beta oferece várias vantagens sobre as redes celulares tradicionais. Ao contrário das redes centralizadas, que são suscetíveis a hackers e propensas a interrupções, a rede descentralizada do Helium Mobile Beta é mais segura e menos propensa a sofrer interrupções, oferecendo um serviço confiável e ininterrupto.</p>
+<h2 id="benefícios-do-helium-mobile-beta">
+  <a href="#benef%c3%adcios-do-helium-mobile-beta" title="Benefícios do Helium Mobile Beta">Benefícios do Helium Mobile Beta</a>
+  <a href="#benef%c3%adcios-do-helium-mobile-beta" class="h-anchor" aria-hidden="true" title="Benefícios do Helium Mobile Beta">#</a>
+</h2>
+<h3 id="segurança-melhorada">
+  <a href="#seguran%c3%a7a-melhorada" title="Segurança melhorada">Segurança melhorada</a>
+  <a href="#seguran
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/helium-mobile-beta-explained/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Simplifique o gerenciamento de pacotes do Windows com o Chocolatey: simplifique as atualizações e melhore a segurança</title><link>https://pt.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link><pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid><description>Descubra os benefícios de usar o gerenciamento de pacotes do Chocolatey para Windows: automatize atualizações, economize tempo e garanta a segurança do sistema.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Por que você deve usar o Chocolatey para gerenciamento e atualizações de pacotes do Windows</strong></p>
+<p>O gerenciamento e as atualizações de pacotes do Windows desempenham um papel crucial na manutenção de um sistema operacional estável e seguro. O método tradicional de procurar manualmente e instalar atualizações de software pode ser demorado e ineficiente. Felizmente, existe uma ferramenta poderosa e fácil de usar disponível para Windows chamada <strong>Chocolatey</strong> que simplifica o gerenciamento de pacotes e automatiza o processo de atualização. Neste artigo, exploraremos por que você deve usar o Chocolatey para suas necessidades de gerenciamento de pacotes do Windows.</p>
+<hr>
+<h2 id="simplifique-o-gerenciamento-de-pacotes">
+  <a href="#simplifique-o-gerenciamento-de-pacotes" title="Simplifique o gerenciamento de pacotes">Simplifique o gerenciamento de pacotes</a>
+  <a href="#simplifique-o-gerenciamento-de-pacotes" class="h-anchor" aria-hidden="true" title="Simplifique o gerenciamento de pacotes">#</a>
+</h2>
+<p>Uma das principais vantagens de usar o Chocolatey é sua capacidade de simplificar o gerenciamento de pacotes no Windows. O Chocolatey atua como um <strong>gerenciador de pacotes</strong> que fornece uma interface de linha de comando para instalar, atualizar e desinstalar pacotes de software sem esforço. Ele utiliza um repositório de pacotes com curadoria, chamado <strong>Chocolatey Community Repository</strong>, que hospeda uma vasta coleção de aplicativos de software populares.</p>
+<p>Com o Chocolatey, você pode gerenciar pacotes em várias máquinas com eficiência. Em vez de baixar e instalar manualmente o software em cada máquina, você pode confiar no Chocolatey para automatizar o processo. Isso simplifica as instalações de pacotes e economiza um tempo valioso.</p>
+<hr>
+<h2 id="interface-de-linha-de-comando-simplificada">
+  <a href="#interface-de-linha-de-comando-simplificada" title="Interface de linha de comando simplificada">Interface de linha de comando simplificada</a>
+  <a href="#interface-de-linha-de-comando-simplificada" class="h-anchor" aria-hidden="true" title="Interface de linha de comando simplificada">#</a>
+</h2>
+<p>A interface de linha de comando do Chocolatey foi projetada para ser simples e intuitiva. Usando alguns comandos diretos, você pode executar várias tarefas de gerenciamento de pacotes. A seguir estão alguns dos <strong>comandos essenciais</strong> que você pode usar 
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Evitando golpes de phishing: táticas, prevenção e proteção</title><link>https://pt.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid><description>Aprenda sobre as táticas usadas pelos golpistas de phishing e descubra estratégias eficazes para se proteger de se tornar uma vítima.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Compreendendo as táticas usadas pelos golpistas de phishing e como evitar se tornar uma vítima</strong></p>
+<p>Os golpes de phishing continuam a ser uma ameaça predominante no cenário digital atual. Os cibercriminosos usam várias táticas para enganar os indivíduos e induzi-los a revelar informações confidenciais, como senhas, detalhes de cartão de crédito ou números de previdência social. Para se proteger de ser vítima desses golpes, é crucial entender as táticas empregadas pelos golpistas de phishing e tomar as medidas apropriadas para proteger suas informações pessoais.</p>
+<h2 id="a-anatomia-de-um-golpe-de-phishing">
+  <a href="#a-anatomia-de-um-golpe-de-phishing" title="A anatomia de um golpe de phishing">A anatomia de um golpe de phishing</a>
+  <a href="#a-anatomia-de-um-golpe-de-phishing" class="h-anchor" aria-hidden="true" title="A anatomia de um golpe de phishing">#</a>
+</h2>
+<p><strong>Phishing</strong> é uma prática fraudulenta em que os golpistas se fazem passar por entidades legítimas, como bancos, serviços online ou agências governamentais, para enganar os indivíduos e fazê-los divulgar informações confidenciais. Esses golpistas costumam usar técnicas de <strong>engenharia social</strong> para manipular psicologicamente suas vítimas. Compreender a anatomia de um golpe de phishing pode ajudá-lo a identificar e evitar cair em suas armadilhas.</p>
+<h3 id="falsificação-de-e-mail-e-links-enganosos">
+  <a href="#falsifica%c3%a7%c3%a3o-de-e-mail-e-links-enganosos" title="Falsificação de e-mail e links enganosos">Falsificação de e-mail e links enganosos</a>
+  <a href="#falsifica%c3%a7%c3%a3o-de-e-mail-e-links-enganosos" class="h-anchor" aria-hidden="true" title="Falsificação de e-mail e links enganosos">#</a>
+</h3>
+<p>Uma tática comum empregada por golpistas de phishing é a <strong>falsificação de e-mail</strong>. Eles enviam e-mails que parecem ser de fontes confiáveis, como seu banco ou uma empresa conhecida, mas o remetente real é um golpista. Esses e-mails geralmente contêm <strong>links enganosos</strong> que levam a sites maliciosos projetados para capturar suas informações pessoais.</p>
+<p>Para evitar ser vítima de falsificação de e-mail, você deve ter cuidado ao clicar em links em e-mails. Passe o mouse sobre o link para verificar o URL real ao qual ele leva. Se parecer suspeito ou diferente do site esperado, não clique nele. Em vez disso, abra uma nova guia do navegador e digite m
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Práticas recomendadas para gerenciamento de fonte de tempo em domínios Windows e máquinas autônomas</title><link>https://pt.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</guid><description>Aprenda como configurar e lidar com fontes de tempo de forma eficaz em domínios do Windows e máquinas autônomas para garantir a sincronização de tempo precisa e evitar possíveis problemas.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Como definir e lidar com fontes de tempo em um domínio Windows e em máquinas Windows autônomas</strong></p>
+<p>A sincronização de tempo é crucial para manter carimbos de data/hora precisos e garantir o funcionamento adequado dos sistemas em um domínio Windows ou em máquinas Windows independentes. Neste artigo, discutiremos as práticas recomendadas para definir e lidar com fontes de tempo em ambos os cenários, destacando a importância de membros de domínio apontarem para controladores de domínio. Também exploraremos diferentes opções para fontes de tempo, enfatizando o uso de pools NTP externos ou servidores de tempo baseados em GPS para uma precisão ideal.</p>
+<hr>
+<h2 id="definindo-fontes-de-tempo-em-um-domínio-do-windows">
+  <a href="#definindo-fontes-de-tempo-em-um-dom%c3%adnio-do-windows" title="Definindo fontes de tempo em um domínio do Windows">Definindo fontes de tempo em um domínio do Windows</a>
+  <a href="#definindo-fontes-de-tempo-em-um-dom%c3%adnio-do-windows" class="h-anchor" aria-hidden="true" title="Definindo fontes de tempo em um domínio do Windows">#</a>
+</h2>
+<p>Em um domínio do Windows, é essencial ter uma sincronização de horário consistente em todos os membros do domínio. A prática recomendada é configurar os controladores de domínio como a fonte de horário principal para os membros do domínio. Ao fazer isso, você garante que todos os sistemas dentro do domínio tenham tempo sincronizado, o que é crítico para autenticação, log e várias operações de domínio.</p>
+<h3 id="opções-de-fonte-de-tempo-para-controladores-de-domínio">
+  <a href="#op%c3%a7%c3%b5es-de-fonte-de-tempo-para-controladores-de-dom%c3%adnio" title="Opções de fonte de tempo para controladores de domínio">Opções de fonte de tempo para controladores de domínio</a>
+  <a href="#op%c3%a7%c3%b5es-de-fonte-de-tempo-para-controladores-de-dom%c3%adnio" class="h-anchor" aria-hidden="true" title="Opções de fonte de tempo para controladores de domínio">#</a>
+</h3>
+<p>Os controladores de domínio podem obter seu horário de diferentes fontes, incluindo o relógio do BIOS, VMware Tools (em ambientes virtualizados) ou servidores de horário externos. Embora o uso do relógio do BIOS ou do VMware Tools possa ser conveniente, é recomendável utilizar uma fonte <strong>stratum 0 ou 1</strong> como um pool NTP externo ou servidor de horário baseado em GPS para maior precisão.</p>
+<h4 id="pools-ntp-externos">
+  <a href="#pool
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Otimizando a Antena Celular Direcional: Guia de Apontamento e Mira</title><link>https://pt.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</guid><description>Aprenda como apontar e apontar sua antena celular direcional para obter força e confiabilidade de sinal ideais, incluindo a localização de torres de celular e a compreensão das zonas de Fresnel.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Como apontar e apontar sua antena celular direcional</strong></p>
+<p>Boosters de telefone celular e modems celulares podem melhorar muito a intensidade do sinal e a confiabilidade de sua conexão celular. No entanto, para maximizar sua eficácia, é crucial apontar e direcionar corretamente a antena celular direcional para as torres de celular suportadas mais próximas. Neste artigo, iremos guiá-lo através do processo de localização das torres de celular suportadas mais próximas, calculando o rádio e a linha de visão visual e compreendendo a importância das zonas de Fresnel.</p>
+<hr>
+<h2 id="localizando-as-torres-de-celular-compatíveis-mais-próximas">
+  <a href="#localizando-as-torres-de-celular-compat%c3%adveis-mais-pr%c3%b3ximas" title="Localizando as torres de celular compatíveis mais próximas">Localizando as torres de celular compatíveis mais próximas</a>
+  <a href="#localizando-as-torres-de-celular-compat%c3%adveis-mais-pr%c3%b3ximas" class="h-anchor" aria-hidden="true" title="Localizando as torres de celular compatíveis mais próximas">#</a>
+</h2>
+<p>Antes de apontar sua antena de celular direcional, você precisa determinar a localização das torres de celular suportadas mais próximas. Esta informação pode ser obtida através de vários métodos:</p>
+<ol>
+<li>
+<p><strong>Usando bancos de dados de torres de celular on-line</strong>: Existem vários sites e aplicativos móveis que fornecem informações sobre a localização das torres de celular. Alguns recursos populares incluem 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="CellMapper">
+    <meta itemprop="url" content="https://www.cellmapper.net/map">
+    <a href="https://www.cellmapper.net/map"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>CellMapper</strong></a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Guia Definitivo: Instalando o sistema operacional Graphene em seu dispositivo Google Pixel</title><link>https://pt.simeononsecurity.com/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/how-to-install-graphine-os/</guid><description>Saiba como instalar o Graphene OS em seu dispositivo Google Pixel para maior privacidade e segurança.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-install-graphine-os/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Como instalar o Graphene OS em seu dispositivo Google Pixel</strong></p>
+<p>O Graphene OS é um sistema operacional de código aberto e focado na privacidade baseado na plataforma Android. Ele oferece recursos de segurança aprimorados e proteções de privacidade, tornando-o uma excelente escolha para pessoas preocupadas com a privacidade e segurança dos dados. Se você possui um dispositivo Google Pixel e deseja mudar para o Graphene OS, este artigo o guiará passo a passo pelo processo de instalação.</p>
+<h2 id="pré-requisitos">
+  <a href="#pr%c3%a9-requisitos" title="Pré-requisitos">Pré-requisitos</a>
+  <a href="#pr%c3%a9-requisitos" class="h-anchor" aria-hidden="true" title="Pré-requisitos">#</a>
+</h2>
+<p>Antes de iniciar o processo de instalação, há alguns pré-requisitos que você precisa cumprir:</p>
+<ol>
+<li>
+<p><strong>Faça backup de seus dados</strong>: a instalação do Graphene OS apagará todos os dados do seu dispositivo. Certifique-se de ter feito backup de todos os arquivos, fotos, contatos e outros dados importantes em um local seguro.</p>
+</li>
+<li>
+<p><strong>Desbloqueie o gerenciador de inicialização</strong>: O gerenciador de inicialização é um software que inicializa o sistema quando você liga o dispositivo. Desbloquear o bootloader permite que você instale um software personalizado como o Graphene OS. Cada dispositivo Google Pixel tem um processo específico para desbloquear o bootloader. Consulte a documentação oficial do modelo do seu dispositivo para saber como desbloqueá-lo.</p>
+</li>
+</ol>
+<ul>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Enabling OEM unlocking">
+    <meta itemprop="url" content="https://grapheneos.org/install/cli#enabling-oem-unlocking">
+    <a href="https://grapheneos.org/install/cli#enabling-oem-unlocking"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Enabling OEM unlocking</a>
+</span>
+</li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/how-to-install-graphine-os/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Dicas de especialistas para escrever um currículo poderoso</title><link>https://pt.simeononsecurity.com/other/tips-for-writing-a-great-resume/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/tips-for-writing-a-great-resume/</guid><description>Aprenda as práticas recomendadas para criar um currículo eficaz, incluindo uso de fonte, tipos de currículo, otimização de palavras-chave, tratamento de lacunas e otimização de layout.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/tips-for-writing-a-great-resume/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Dicas para escrever um ótimo currículo</strong></p>
+<p>Um currículo bem escrito é crucial para chamar a atenção de potenciais empregadores e aumentar suas chances de conseguir uma entrevista de emprego. Seguindo essas dicas, você pode criar um currículo profissional e atraente que mostre efetivamente suas habilidades e experiências.</p>
+<h2 id="use-uma-única-fonte-e-mantenha-estilo-e-estrutura-uniformes">
+  <a href="#use-uma-%c3%banica-fonte-e-mantenha-estilo-e-estrutura-uniformes" title="Use uma única fonte e mantenha estilo e estrutura uniformes">Use uma única fonte e mantenha estilo e estrutura uniformes</a>
+  <a href="#use-uma-%c3%banica-fonte-e-mantenha-estilo-e-estrutura-uniformes" class="h-anchor" aria-hidden="true" title="Use uma única fonte e mantenha estilo e estrutura uniformes">#</a>
+</h2>
+<p>A consistência na seleção de fonte, estilo e estrutura é essencial para criar um currículo visualmente atraente e fácil de ler. <strong>Usar uma única fonte</strong> em todo o currículo garante uma aparência coesa e profissional. Além disso, certifique-se de manter um <strong>estilo uniforme</strong> para títulos, subtítulos e corpo do texto para melhorar a legibilidade.</p>
+<h2 id="tipos-de-currículos-e-quando-usá-los">
+  <a href="#tipos-de-curr%c3%adculos-e-quando-us%c3%a1-los" title="Tipos de currículos e quando usá-los">Tipos de currículos e quando usá-los</a>
+  <a href="#tipos-de-curr%c3%adculos-e-quando-us%c3%a1-los" class="h-anchor" aria-hidden="true" title="Tipos de currículos e quando usá-los">#</a>
+</h2>
+<p>Existem vários tipos de currículos, cada um servindo a um propósito específico. Entender esses tipos ajudará você a escolher o mais adequado para sua situação:</p>
+<ol>
+<li>
+<p><strong>Currículo Cronológico</strong>: Este formato lista seu histórico de trabalho em ordem cronológica inversa, começando com seu trabalho mais recente. Ele destaca sua progressão na carreira e é ideal para indivíduos com um histórico de emprego estável.</p>
+</li>
+<li>
+<p><strong>Currículo Funcional</strong>: Um currículo funcional se concentra em suas habilidades e qualificações, e não em seu histórico de trabalho. É útil se você tiver lacunas em seu emprego ou se estiver mudando de carreira.</p>
+</li>
+<li>
+<p><strong>Currículo Combinado</strong>: Este formato combina elementos de currículos cronológicos e funcionais. Ele enfatiza suas habilidades e experiência, além de fornecer uma visão c
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/tips-for-writing-a-great-resume/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Crankk vs Helium IoT: uma comparação abrangente de redes IoT</title><link>https://pt.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid><description>Descubra as diferenças entre as redes Crankk e Helium IoT, seus modelos de consenso, hardware de mineração, taxas de gás e muito mais.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/crankk-vs-helium-which-is-best/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Crankk vs Hélio IoT</strong></p>
+<p>No mundo da Internet das Coisas (IoT), a conectividade é crucial. À medida que a demanda por dispositivos IoT continua a crescer, também aumenta a necessidade de redes sem fio eficientes e confiáveis. Dois jogadores proeminentes no espaço de conectividade IoT são Crankk e Helium IoT. Neste artigo, compararemos essas duas plataformas e exploraremos seus recursos, benefícios e diferenças.</p>
+<h2 id="introdução">
+  <a href="#introdu%c3%a7%c3%a3o" title="Introdução">Introdução</a>
+  <a href="#introdu%c3%a7%c3%a3o" class="h-anchor" aria-hidden="true" title="Introdução">#</a>
+</h2>
+<hr>
+<p><strong>Crankk</strong> e <strong>Helium IoT</strong> são redes sem fio descentralizadas que visam fornecer conectividade para dispositivos IoT. Essas redes utilizam tecnologias sem fio de baixo consumo e longo alcance, como LoRaWAN, para permitir a comunicação de dispositivos IoT em longas distâncias. Embora compartilhem semelhanças em termos de protocolos sem fio, existem diferenças notáveis em suas abordagens e ofertas.</p>
+<h2 id="arquitetura-de-rede">
+  <a href="#arquitetura-de-rede" title="Arquitetura de rede">Arquitetura de rede</a>
+  <a href="#arquitetura-de-rede" class="h-anchor" aria-hidden="true" title="Arquitetura de rede">#</a>
+</h2>
+<hr>
+<p><strong>Crankk</strong> opera na Rede Kadena, uma plataforma blockchain escalável e segura. Ele aproveita um grupo de consenso de nós para validação de testemunha e emprega terceiros confiáveis (TTPs) para garantir a integridade da rede. Essa arquitetura aumenta a segurança e reduz o risco de conluio entre nós de consenso e testemunhas. A abordagem descentralizada de Crankk permite maior transparência e elimina a necessidade de uma autoridade central.</p>
+<p>Por outro lado, <strong>Helium IoT</strong> usa uma arquitetura peer-to-peer chamada &ldquo;The People&rsquo;s Network&rdquo;. Ele conta com uma rede global de hotspots, que são dispositivos físicos que fornecem conectividade a dispositivos IoT. Esses pontos de acesso extraem HNT (Helium Network Token) validando a cobertura sem fio e retransmitindo dados. A arquitetura peer-to-peer oferece uma abordagem descentralizada e orientada para a comunidade para a conectividade IoT.</p>
+<h2 id="validação-e-segurança-de-testemunhas">
+  <a href="#valida%c3%a7%c3%a3o-e-seguran%c3%a7a-de-testemunhas" title="Validação e segurança de testemunhas">Validação e segurança de testemunhas</a>
+  <a href="
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/crankk-vs-helium-which-is-best/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prevenção do cyberstalking: dicas para se manter seguro online</title><link>https://pt.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</guid><description>Aprenda como se proteger do cyberstalking e se manter seguro online com essas dicas e técnicas.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Entendendo e prevenindo o cyberstalking: dicas e técnicas para se manter seguro online</strong></p>
+<p>Cyberstalking é um crime grave que pode causar sofrimento emocional significativo e danos físicos. É o uso da internet, mídia social, e-mail ou outras tecnologias digitais para perseguir, assediar ou ameaçar um indivíduo. Os cyberstalkers podem ser anônimos e podem atingir suas vítimas de qualquer lugar do mundo. Este artigo fornece uma visão geral do que é cyberstalking e oferece dicas e técnicas para se manter seguro online.</p>
+<h2 id="o-que-é-cyberstalking">
+  <a href="#o-que-%c3%a9-cyberstalking" title="O que é Cyberstalking?">O que é Cyberstalking?</a>
+  <a href="#o-que-%c3%a9-cyberstalking" class="h-anchor" aria-hidden="true" title="O que é Cyberstalking?">#</a>
+</h2>
+<p>Cyberstalking é o uso da internet, mídia social, e-mail ou outras tecnologias digitais para perseguir, assediar ou ameaçar um indivíduo. Os cyberstalkers podem ser anônimos e podem atingir suas vítimas de qualquer lugar do mundo. O cyberstalking pode assumir várias formas, incluindo:</p>
+<ul>
+<li>Enviar mensagens ameaçadoras ou de assédio por e-mail ou mídia social</li>
+<li>Monitoramento da atividade online da vítima</li>
+<li>Postar informações privadas ou fotos sem o consentimento da vítima</li>
+<li>Criação de perfis falsos para assediar ou se passar pela vítima</li>
+<li>Fazer falsas acusações contra a vítima online</li>
+</ul>
+<h2 id="como-identificar-o-cyberstalking">
+  <a href="#como-identificar-o-cyberstalking" title="Como Identificar o Cyberstalking">Como Identificar o Cyberstalking</a>
+  <a href="#como-identificar-o-cyberstalking" class="h-anchor" aria-hidden="true" title="Como Identificar o Cyberstalking">#</a>
+</h2>
+<p>O cyberstalking pode ser difícil de identificar, especialmente se o perseguidor estiver usando contas ou perfis anônimos. Alguns sinais de que você pode ser vítima de cyberstalking incluem:</p>
+<ul>
+<li>Receber mensagens ameaçadoras ou de assédio por e-mail ou mídia social</li>
+<li>Encontrar postagens ou comentários sobre você em mídias sociais ou fóruns online que sejam negativos, ameaçadores ou assediadores</li>
+<li>Receber presentes ou mensagens indesejados pelo correio ou em sua casa</li>
+<li>Descobrir que alguém está monitorando sua atividade online</li>
+<li>Descobrir que suas informações pessoais foram postadas online sem o seu consentimento</li>
+</ul>
+<h2 id="dicas-para-prevenir-o-cyberstal
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Prevenção de ataques de engenharia social: estratégias e práticas recomendadas</title><link>https://pt.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link><pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid><description>Saiba como evitar ataques de engenharia social e proteger as informações confidenciais de sua organização com treinamento de funcionários, políticas de segurança e muito mais.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Compreendendo os ataques de engenharia social e como evitá-los</strong></p>
+<p>A engenharia social é uma forma de ataque cibernético que se baseia na manipulação de pessoas para que divulguem informações confidenciais, instalem malware ou executem ações que prejudiquem a segurança de uma organização. Os invasores podem usar uma variedade de técnicas para ganhar a confiança de suas vítimas, incluindo e-mails de phishing, pretextos, iscas e esquemas de quid pro quo. Neste artigo, discutiremos diferentes tipos de ataques de engenharia social e estratégias para evitá-los.</p>
+<h2 id="tipos-de-ataques-de-engenharia-social">
+  <a href="#tipos-de-ataques-de-engenharia-social" title="Tipos de ataques de engenharia social">Tipos de ataques de engenharia social</a>
+  <a href="#tipos-de-ataques-de-engenharia-social" class="h-anchor" aria-hidden="true" title="Tipos de ataques de engenharia social">#</a>
+</h2>
+<h3 id="phishing-attackshttpssimeononsecuritycomarticleshow-to-identify-phishing">
+  <a href="#phishing-attackshttpssimeononsecuritycomarticleshow-to-identify-phishing" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    Phishing Attacks
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Phishing Attacks">
+    <meta itemprop="url" content="https://simeononsecurity.com/articles/how-to-identify-phishing/">
+    <a href="https://simeononsecurity.com/articles/how-to-identify-phishing/"
+    
+        rel="follow me"
+    >Phishing Attacks</a>
+</span>
+</a>
+  <a href="#phishing-attackshttpssimeononsecuritycomarticleshow-to-identify-phishing" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    Phishing Attacks
+
+">#</a>
+</h3>
+<p>Os ataques de phishing são a 
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Melhores amplificadores de sinal de celular para uso doméstico</title><link>https://pt.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</guid><description>Aumente o sinal do seu celular em casa com nossas principais opções para conectividade confiável e cobertura em toda a casa.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>Seu sinal de celular em locais remotos**</p>
+<p>Ficar conectado se tornou uma necessidade para a maioria de nós, principalmente durante a pandemia. No entanto, em locais remotos, obter um sinal de celular confiável pode ser um desafio. Felizmente, existem várias opções disponíveis para aumentar o sinal do celular. Neste artigo, discutiremos boosters de células internas como o T-Mobile Cell Spot, boosters externos para internos como os da WeBoost e Hiboost e opções de femtocell para AT&amp;T, T-Mobile e Verizon.</p>
+<h2 id="t-mobile-cell-spothttpsamznto41cxppc">
+  <a href="#t-mobile-cell-spothttpsamznto41cxppc" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+
+    
+    
+    T-Mobile Cell Spot
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="T-Mobile Cell Spot">
+    <meta itemprop="url" content="https://amzn.to/41cXppc">
+    <a href="https://amzn.to/41cXppc"
+    
+        
+            
+                rel="nofollow noopener external sponsored" alt="Affiliate Link" target="_blank"
+            
+        
+    >T-Mobile Cell Spot</a>
+</span>
+</a>
+  <a href="#t-mobile-cell-spothttpsamznto41cxppc" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+
+    
+    
+    T-Mobile Cell Spot
+
+">#</a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https:\/\/pt.simeononsecurity.com\/",
+    "caption": "T-Mobile Cell Spot",
+    "license": "https://simeononsecurity.com/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.com/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
+    "@type": "Person",
+    "name": "SimeonOnSecurity"
+  
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Ubiquiti Unifi vs TP-Link Omada: Qual sistema de rede é ideal para você?</title><link>https://pt.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><description>Compare os sistemas de rede Ubiquiti Unifi e TP-Link Omada para escolher o ideal para suas necessidades.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>Unifi vs Tp-link Omada: uma comparação**</p>
+<p>Quando se trata de soluções de rede para empresas e residências, dois nomes que surgem são 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Ubiquiti">
+    <meta itemprop="url" content="https://www.ui.com/">
+    <a href="https://www.ui.com/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Ubiquiti</strong></a>
+</span>
+ and 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="TP-Link">
+    <meta itemprop="url" content="https://www.tp-link.com/us/omada-sdn/">
+    <a href="https://www.tp-link.com/us/omada-sdn/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>TP-Link</strong></a>
+</span>
+ Ambas as empresas oferecem soluções confiáveis e de alto desempenho, mas qual você deve escolher? Neste artigo, compararemos os dois sistemas e ajudaremos você a decidir qual é o mais adequado para suas necessidades.</p>
+<h2 id="ubiquiti-unifihttpswwwuicom">
+  <a href="#ubiquiti-unifihttpswwwuicom" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    Ubiquiti Unifi
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Ignorando o BGW-320: Usando um Azores COTS ONT - Um Guia Passo a Passo</title><link>https://pt.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><description>Aprenda como contornar o BGW-320 e usar um COTS ONT feito pelos Açores para se conectar à rede do seu ISP com este guia fácil de seguir.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <h2 id="como-contornar-o-bgw-320-e-usar-um-wag-d20-da-azores">
+  <a href="#como-contornar-o-bgw-320-e-usar-um-wag-d20-da-azores" title="Como contornar o BGW-320 e usar um WAG-D20 da Azores">Como contornar o BGW-320 e usar um WAG-D20 da Azores</a>
+  <a href="#como-contornar-o-bgw-320-e-usar-um-wag-d20-da-azores" class="h-anchor" aria-hidden="true" title="Como contornar o BGW-320 e usar um WAG-D20 da Azores">#</a>
+</h2>
+<p>A maioria das pessoas com fibra tem duas maneiras de se conectar à Internet - fibra para um ONT, Ethernet para um gateway ou fibra diretamente para o gateway. Neste artigo, vamos focar-nos em como contornar o BGW-320 e usar um COTS ONT made by Azores.</p>
+<h3 id="aspectos-tecnicos">
+  <a href="#aspectos-tecnicos" title="Aspectos tecnicos">Aspectos tecnicos</a>
+  <a href="#aspectos-tecnicos" class="h-anchor" aria-hidden="true" title="Aspectos tecnicos">#</a>
+</h3>
+<p>O
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Azores WAG-D20">
+    <meta itemprop="url" content="https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153">
+    <a href="https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Azores WAG-D20</a>
+</span>
+ is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="here">
+    <meta itemprop="url" content="https://www.balticnetworks.com/products/azores-1
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Executando o pfSense no HP t740 Thin Client: dicas e guia de solução de problemas</title><link>https://pt.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</guid><description>Aprenda como configurar o pfSense no HP t740 Thin Client e como solucionar possíveis problemas como congelamento e problemas de detecção de SSD.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>pfSense, OPNsense ou HardenedBSD no HP t740 Thin Client**</p>
+<p>Se você está procurando um dispositivo poderoso para executar pfSense, OPNsense ou HardenedBSD, o HP t740 Thin Client pode ser uma escolha adequada para você.</p>
+<h2 id="mais-potência-e-servidor-doméstico-compacto">
+  <a href="#mais-pot%c3%aancia-e-servidor-dom%c3%a9stico-compacto" title="Mais Potência e Servidor Doméstico Compacto">Mais Potência e Servidor Doméstico Compacto</a>
+  <a href="#mais-pot%c3%aancia-e-servidor-dom%c3%a9stico-compacto" class="h-anchor" aria-hidden="true" title="Mais Potência e Servidor Doméstico Compacto">#</a>
+</h2>
+<p>O HP t740 Thin Client é um dispositivo compacto que pode ser usado como uma poderosa caixa pfSense ou um servidor doméstico compacto. Ele oferece mais potência do que o t730 ou t620 Plus, o que o torna uma escolha adequada para executar PPPoE, especialmente se você tiver internet de fibra. Ele também pode oferecer um caminho de atualização para redes de 10 Gigabit.</p>
+<h2 id="ps2-congela">
+  <a href="#ps2-congela" title="PS/2 Congela">PS/2 Congela</a>
+  <a href="#ps2-congela" class="h-anchor" aria-hidden="true" title="PS/2 Congela">#</a>
+</h2>
+<p>No entanto, se você planeja executar o FreeBSD ou seus derivados como pfSense, OPNsense ou HardenedBSD no bare metal (ao contrário de dentro do ESXi ou Proxmox), você pode encontrar um problema em que o sistema congela na inicialização com a mensagem <code>atkbd0: [ GIANT-LOCKED]</code>. Felizmente, esse problema pode ser resolvido digitando os seguintes comandos no prompt de inicialização:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>unset hint.uart.0.at
+</span></span><span style="display:flex;"><span>unset hint.uart.1.at
+</span></span></code></pre></div><p><em>Note that you need to unset both, otherwise, it will still lock up at boot.</em></p>
+<p>After you install the OS, open a post-installation shell and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vi /boot/loader.conf.local
+</span></span></code></pre></div><p>Then, add these two lines:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Executando o pfSense no HP t740 Thin Client: dicas e guia de solução de problemas</title><link>https://pt.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</guid><description>Aprenda como configurar o pfSense no HP t740 Thin Client e como solucionar possíveis problemas como congelamento e problemas de detecção de SSD.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>pfSense, OPNsense ou HardenedBSD no HP t740 Thin Client**</p>
+<p>Se você está procurando um dispositivo poderoso para executar pfSense, OPNsense ou HardenedBSD, o HP t740 Thin Client pode ser uma escolha adequada para você.</p>
+<h2 id="mais-potência-e-servidor-doméstico-compacto">
+  <a href="#mais-pot%c3%aancia-e-servidor-dom%c3%a9stico-compacto" title="Mais Potência e Servidor Doméstico Compacto">Mais Potência e Servidor Doméstico Compacto</a>
+  <a href="#mais-pot%c3%aancia-e-servidor-dom%c3%a9stico-compacto" class="h-anchor" aria-hidden="true" title="Mais Potência e Servidor Doméstico Compacto">#</a>
+</h2>
+<p>O HP t740 Thin Client é um dispositivo compacto que pode ser usado como uma poderosa caixa pfSense ou um servidor doméstico compacto. Ele oferece mais potência do que o t730 ou t620 Plus, o que o torna uma escolha adequada para executar PPPoE, especialmente se você tiver internet de fibra. Ele também pode oferecer um caminho de atualização para redes de 10 Gigabit.</p>
+<h2 id="ps2-congela">
+  <a href="#ps2-congela" title="PS/2 Congela">PS/2 Congela</a>
+  <a href="#ps2-congela" class="h-anchor" aria-hidden="true" title="PS/2 Congela">#</a>
+</h2>
+<p>No entanto, se você planeja executar o FreeBSD ou seus derivados como pfSense, OPNsense ou HardenedBSD no bare metal (ao contrário de dentro do ESXi ou Proxmox), você pode encontrar um problema em que o sistema congela na inicialização com a mensagem <code>atkbd0: [GIANT-LOCKED]</code> Felizmente, esse problema pode ser resolvido digitando os seguintes comandos no prompt de inicialização:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>unset hint.uart.0.at
+</span></span><span style="display:flex;"><span>unset hint.uart.1.at
+</span></span></code></pre></div><p><em>Observe que você precisa desativar ambos, caso contrário, ele ainda será bloqueado na inicialização.</em></p>
+<p>Depois de instalar o sistema operacional, abra um shell de pós-instalação e execute o seguinte comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vi /boot/loader.conf.local
+</span></span></code></pre></div><p>Em seguida, adicione estas duas linhas:</p>
+<div class="highlig
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proteja seus dados com a regra de backup 3-2-1.</title><link>https://pt.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</link><pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</guid><description>Saiba como proteger seus dados valiosos contra ataques cibernéticos, desastres naturais e falhas de hardware.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>A regra de backup 3-2-1: proteja seus dados hoje</strong></p>
+<p>Você está tomando as medidas necessárias para proteger seus dados? Com a crescente ameaça de ataques cibernéticos, desastres naturais e falhas de hardware, é mais importante do que nunca ter uma estratégia sólida de backup em vigor. Uma estratégia de backup que ganhou popularidade nos últimos anos é a <strong>regra de backup 3-2-1</strong>. Neste artigo, exploraremos o que é a regra de backup 3-2-1, como ela funciona e por que você deve usá-la para proteger seus dados valiosos.</p>
+<hr>
+<h2 id="compreendendo-a-regra-de-backup-3-2-1">
+  <a href="#compreendendo-a-regra-de-backup-3-2-1" title="Compreendendo a regra de backup 3-2-1">Compreendendo a regra de backup 3-2-1</a>
+  <a href="#compreendendo-a-regra-de-backup-3-2-1" class="h-anchor" aria-hidden="true" title="Compreendendo a regra de backup 3-2-1">#</a>
+</h2>
+<p>A regra de backup 3-2-1 é uma estratégia de backup que garante que seus dados sejam armazenados com segurança em três locais separados. Veja como funciona:</p>
+<ul>
+<li><strong>3</strong> cópias de seus dados são criadas</li>
+<li><strong>2</strong> diferentes tipos de armazenamento são usados</li>
+<li><strong>1</strong> cópia é armazenada externamente</li>
+</ul>
+<p>Em essência, você tem três cópias de seus dados: a cópia original e dois backups. Essas cópias são armazenadas em dois tipos diferentes de armazenamento, como um disco rígido externo e um serviço de armazenamento em nuvem. Além disso, uma das cópias de backup é armazenada externamente, fornecendo uma camada adicional de proteção contra desastres físicos, como incêndios ou inundações.</p>
+<hr>
+<h3 id="por-que-você-deve-usar-a-regra-de-backup-3-2-1">
+  <a href="#por-que-voc%c3%aa-deve-usar-a-regra-de-backup-3-2-1" title="Por que você deve usar a regra de backup 3-2-1">Por que você deve usar a regra de backup 3-2-1</a>
+  <a href="#por-que-voc%c3%aa-deve-usar-a-regra-de-backup-3-2-1" class="h-anchor" aria-hidden="true" title="Por que você deve usar a regra de backup 3-2-1">#</a>
+</h3>
+<p>Existem várias razões pelas quais você deve considerar o uso da regra de backup 3-2-1 para proteger seus dados:</p>
+<ul>
+<li><strong>Proteção contra perda de dados</strong>: a perda de dados pode ocorrer por vários motivos, incluindo falha de hardware, ataques cibernéticos e desastres naturais. Ao ter três cópias de seus dados armazenados em vários locais, você pode reduzir o
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Um guia para autenticação multifator: tipos e práticas recomendadas</title><link>https://pt.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</guid><description>Aprenda sobre os diferentes tipos de autenticação multifator e como escolher o melhor para suas necessidades de segurança em nosso guia definitivo.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>Com o aumento das violações de segurança online, tornou-se necessário usar mais do que apenas uma senha para proteger o acesso a informações confidenciais. É aí que entra a <strong>autenticação multifator</strong>, que fornece uma camada adicional de segurança ao exigir que os usuários forneçam dois ou mais fatores de autenticação para obter acesso às suas contas.</p>
+<h2 id="os-diferentes-tipos-de-fatores-no-mfa">
+  <a href="#os-diferentes-tipos-de-fatores-no-mfa" title="Os diferentes tipos de fatores no MFA">Os diferentes tipos de fatores no MFA</a>
+  <a href="#os-diferentes-tipos-de-fatores-no-mfa" class="h-anchor" aria-hidden="true" title="Os diferentes tipos de fatores no MFA">#</a>
+</h2>
+<p>Existem vários tipos de fatores de autenticação usados na autenticação multifator:</p>
+<ul>
+<li>
+<p><strong>Algo que você sabe:</strong> inclui informações que apenas o usuário conhece, como senha, PIN ou resposta a uma pergunta de segurança. Um exemplo disso é fazer login em uma conta de mídia social usando uma senha.</p>
+</li>
+<li>
+<p><strong>Algo que você tem:</strong> inclui um objeto físico que apenas o usuário possui, como uma chave USB, cartão inteligente ou telefone celular. Um exemplo disso é usar um cartão inteligente para acessar uma instalação segura do governo.</p>
+</li>
+<li>
+<p><strong>Algo que você é:</strong> inclui informações biométricas, como impressões digitais, reconhecimento facial ou varreduras de íris. Um exemplo disso é desbloquear um smartphone usando o reconhecimento facial.</p>
+</li>
+<li>
+<p><strong>Em algum lugar onde você está:</strong> inclui informações baseadas em localização, como a localização GPS ou o endereço IP do usuário. Um exemplo disso é um banco que exige que um usuário autentique sua localização antes de permitir o acesso à sua conta.</p>
+</li>
+<li>
+<p><strong>Algo que você faz:</strong> inclui biometria comportamental, como velocidade de digitação do usuário, movimentos do mouse ou padrões de fala. Um exemplo disso é um sistema que pode reconhecer a maneira como um usuário digita para autenticar sua identidade.</p>
+</li>
+</ul>
+<p>Usar vários fatores para autenticar a identidade de um usuário é mais seguro do que usar um único fator, como uma senha. Ao usar uma combinação de fatores de autenticação, torna-se muito mais difícil para os invasores obter acesso não autorizado a informações confidenciais.</p>
+<h3 id="os-prós-e-contras-de-cada-fa
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>O que são os Cyber Sentinels e por que você deve participar</title><link>https://pt.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</guid><description>Descubra a missão e os princípios do Cyber Sentinels, uma comunidade de profissionais cibernéticos e de TI comprometidos em compartilhar conhecimento e desenvolver soluções inovadoras para os desafios de segurança cibernética.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/An_image_of_a_stylized_shield_or_emblem.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>Os Cyber Sentinels são uma comunidade de profissionais cibernéticos e de TI comprometidos em compartilhar conhecimento e colaborar em novas ideias, projetos e oportunidades de aprendizado. Sua missão é fornecer uma plataforma onde os membros possam se envolver em discussões significativas, explorar tendências emergentes no setor e desenvolver soluções inovadoras para os desafios de segurança cibernética.</p>
+<p>Como comunidade, os Cyber Sentinels estão abertos a qualquer pessoa que compartilhe sua paixão por segurança cibernética e TI. Eles recebem profissionais de todos os níveis, de iniciantes a especialistas, e se esforçam para criar um ambiente solidário e inclusivo onde todos possam aprender e crescer.</p>
+<p><strong>O que os Sentinelas Cibernéticos representam</strong></p>
+<p>Em sua essência, os Cyber Sentinels representam alguns princípios-chave que orientam sua missão e visão. Esses princípios incluem:</p>
+<p><strong>1. Colaboração</strong></p>
+<p>Os Cyber Sentinels acreditam no poder da colaboração para alcançar grandes feitos. Trabalhando juntos e compartilhando conhecimento, eles podem desenvolver soluções inovadoras para os mais complexos desafios de segurança cibernética.</p>
+<p><strong>2. Compartilhamento de conhecimento</strong></p>
+<p>Os Cyber Sentinels acreditam que conhecimento é poder. Ao compartilhar seus conhecimentos e experiências, eles podem ajudar outras pessoas a aprender e crescer no campo da segurança cibernética.</p>
+<p><strong>3. Aprendizado contínuo</strong></p>
+<p>A indústria de segurança cibernética está em constante evolução, e os Cyber Sentinels acreditam na importância do aprendizado contínuo para se manter atualizado com as últimas tendências e tecnologias.</p>
+<p><strong>4. Suporte e inclusão</strong></p>
+<p>Os Cyber Sentinels se esforçam para criar um ambiente solidário e inclusivo onde todos se sintam bem-vindos e valorizados. Eles acreditam que a diversidade é uma força e que todos têm algo a contribuir para a comunidade.</p>
+<p><strong>5. Causando um impacto positivo</strong></p>
+<p>No final das contas, os Cyber Sentinels estão trabalhando para causar um impacto positivo na segurança do mundo digital. Eles acreditam que, ao compartilhar conhecimento, colaborar com novas ideias e desenvolver soluções inovadoras, podem ajudar a criar um cenário digital mais seguro para todos.</p>
+<h2 id="juntando-se-aos-sentinelas-cibernéticos">
+  <a href="#juntando-se-aos
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>O que fazer se você acha que seu e-mail ou telefone está comprometido</title><link>https://pt.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</guid><description>Aprenda as etapas essenciais a serem seguidas se você suspeitar que seu e-mail, área de trabalho ou telefone foi invadido ou comprometido, incluindo alteração de senhas, verificação de malware e limpeza do dispositivo.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>Nesta era digital, nossos dispositivos contêm uma grande quantidade de informações confidenciais, desde dados financeiros e pessoais até documentos de trabalho confidenciais. Se você suspeitar que seu e-mail, área de trabalho ou telefone foi comprometido, pode ser uma experiência estressante e alarmante. Mas não entre em pânico! Existem etapas que você pode seguir para proteger seus dados e restaurar a segurança do seu dispositivo.</p>
+<h2 id="passo-1-avalie-a-situação">
+  <a href="#passo-1-avalie-a-situa%c3%a7%c3%a3o" title="Passo 1: Avalie a Situação">Passo 1: Avalie a Situação</a>
+  <a href="#passo-1-avalie-a-situa%c3%a7%c3%a3o" class="h-anchor" aria-hidden="true" title="Passo 1: Avalie a Situação">#</a>
+</h2>
+<p>A primeira etapa a ser tomada quando você suspeitar que seu e-mail, área de trabalho ou telefone foi comprometido é avaliar a situação. Aqui estão algumas coisas para procurar:</p>
+<ul>
+<li>
+<p><strong>Atividade incomum</strong>: verifique se há alguma atividade incomum em seu dispositivo, como alterações no plano de fundo da área de trabalho ou programas desconhecidos em execução em segundo plano.</p>
+</li>
+<li>
+<p><strong>Arquivos desconhecidos</strong>: procure arquivos ou programas desconhecidos em seu dispositivo, especialmente na pasta Downloads ou no histórico de downloads do navegador.</p>
+</li>
+<li>
+<p><strong>Mudanças nas credenciais de login</strong>: Se você suspeitar que seu e-mail foi comprometido, verifique se há e-mails que você não enviou na pasta de envio e se há e-mails excluídos que você não excluiu na pasta de lixo. Além disso, procure alterações em suas credenciais de login, como um novo endereço de e-mail ou senha associada à sua conta.</p>
+</li>
+<li>
+<p><strong>E-mails desconhecidos</strong>: Se você suspeitar que seu e-mail foi comprometido, procure por e-mails desconhecidos em sua caixa de entrada ou pasta de spam.</p>
+</li>
+<li>
+<p><strong>Cobranças inesperadas</strong>: se você suspeitar que seu telefone foi comprometido, procure por cobranças inesperadas em sua conta telefônica ou atividades incomuns em seu histórico de chamadas ou mensagens de texto.</p>
+</li>
+</ul>
+<p>É importante observar quaisquer sinais de comprometimento para que você possa tomar as medidas adequadas para proteger seu dispositivo e seus dados. Se você não tem certeza se seu dispositivo foi comprometido, é sempre melhor errar no</p>
+<hr>
+<h2 id="etapa-2-altere-suas-senhas-e-verifique-a
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Jogando na rede Helium: explorando vulnerabilidades com MiddleMan e Chirp Stack Packet Multiplexer</title><link>https://pt.simeononsecurity.com/other/how-to-game-on-the-helium-network/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/how-to-game-on-the-helium-network/</guid><description>Aprenda a manipular a rede Helium explorando vulnerabilidades com MiddleMan e Chirp Stack Packet Multiplexer, bem como os riscos e consequências de fazê-lo.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/how-to-game-on-the-helium-network/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p><strong>Isenção de responsabilidade</strong>:
+É importante observar que jogar na rede Helium é uma atividade ilegal e antiética fortemente desaprovada pela comunidade Helium e pela comunidade mais ampla de criptomoedas e blockchain. Jogar na rede prejudica a integridade da rede e prejudica os hosts legítimos que fornecem uma cobertura valiosa para a rede.</p>
+<p>Além disso, embora o uso de MiddleMan e Chirp Stack Packet Multiplexer para explorar vulnerabilidades na rede Helium possa ser motivo de preocupação, é importante observar que esses problemas só podem ser corrigidos pelo Helium com a introdução de gateways seguros. Isso exigiria a substituição de todos os pontos de acesso na rede, o que é um empreendimento significativo e pode não ser viável. Como resultado, a comunidade Helium precisa permanecer vigilante e proativa ao enfrentar os desafios impostos pelos jogos na rede.</p>
+<p>Também é importante notar que a equipe da Helium está ciente do problema há algum tempo e tomou medidas para resolvê-lo, mas mais ações são necessárias para resolver o problema. A comunidade está pedindo que ações reais sejam tomadas para lidar com essas vulnerabilidades e garantir que a rede possa continuar a escalar e crescer de maneira segura e confiável.</p>
+<p>Ao escrever este artigo, esperamos aumentar a conscientização sobre a questão dos jogos na rede Helium e o uso de MiddleMan e Chirp Stack Packet Multiplexer para explorar vulnerabilidades no sistema. Acreditamos que, ao esclarecer esse problema e trazer mais publicidade a ele, a comunidade Helium e a comunidade mais ampla de blockchain e criptomoeda podem se unir para resolver o problema e trabalhar para uma rede mais segura e confiável.</p>
+<p>Além disso, ao destacar esse problema, esperamos encorajar a equipe da Helium a tomar medidas mais decisivas para lidar com as vulnerabilidades da rede e implementar medidas de segurança mais robustas para evitar jogos no futuro. Acreditamos que é importante para a equipe Helium ser transparente sobre seus esforços para resolver esse problema e se comunicar com a comunidade sobre seu progresso na correção dessas vulnerabilidades.</p>
+<p>Finalmente, ao trazer mais publicidade para esta questão, esperamos encorajar uma maior conscientização e educação sobre os riscos e consequências dos jogos na rede Helium. É importante que os usuários entendam a importância do comportamento ético na rede e os danos potenciais que podem s
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/how-to-game-on-the-helium-network/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>O poder das redes LoRa: explicando a integração do hélio</title><link>https://pt.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><guid>https://pt.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid><description>Descubra os benefícios de integrar a rede LoRa com Helium para dispositivos IoT e setores como cidades inteligentes, agricultura e logística.</description><content:encoded><![CDATA[
+        
+            <img src="https://pt.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png">
+            
+        
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/">Read the full article at https://pt.simeononsecurity.com/</a>
+
+        <p>Poder das redes LoRa: explicando a integração do hélio**</p>
+<p>Com a demanda cada vez maior por dispositivos conectados, a <strong>rede LoRa</strong> surgiu como uma solução popular para comunicação de longo alcance entre dispositivos IoT. A rede opera com baixo consumo de energia, mas pode transmitir dados por vários quilômetros, tornando-a uma solução ideal para setores como cidades inteligentes, agricultura, logística e muito mais.</p>
+<h2 id="o-que-é-a-rede-lora">
+  <a href="#o-que-%c3%a9-a-rede-lora" title="O que é a Rede LoRa?">O que é a Rede LoRa?</a>
+  <a href="#o-que-%c3%a9-a-rede-lora" class="h-anchor" aria-hidden="true" title="O que é a Rede LoRa?">#</a>
+</h2>
+<p><strong>A rede LoRa</strong> é uma rede de área ampla de baixa potência (LPWAN) projetada especificamente para aplicativos de IoT. Consiste em três componentes principais: nós, gateways e a nuvem. <strong>Nodes</strong> são dispositivos que transmitem dados para a nuvem, enquanto <strong>gateways</strong> são responsáveis por receber dados dos nós e encaminhá-los para a nuvem.</p>
+<p><strong>A tecnologia LoRa</strong> usa uma técnica de modulação de espectro espalhado que permite transmitir dados por longas distâncias com baixo consumo de energia. A tecnologia opera em um espectro não licenciado, o que significa que os usuários não precisam pagar por uma licença para usá-la.</p>
+<hr>
+<h2 id="o-que-são-encaminhadores-de-pacotes-semtech">
+  <a href="#o-que-s%c3%a3o-encaminhadores-de-pacotes-semtech" title="O que são encaminhadores de pacotes Semtech?">O que são encaminhadores de pacotes Semtech?</a>
+  <a href="#o-que-s%c3%a3o-encaminhadores-de-pacotes-semtech" class="h-anchor" aria-hidden="true" title="O que são encaminhadores de pacotes Semtech?">#</a>
+</h2>
+<p><strong>Semtech Packet Forwarders</strong> são aplicativos de software executados em gateways para receber dados de nós LoRa e encaminhá-los para a nuvem. Esses aplicativos são projetados para lidar com o protocolo LoRaWAN, que é o protocolo padrão usado pelas redes LoRa.</p>
+<p>Os Semtech Packet Forwarders convertem os dados recebidos dos nós LoRa em um formato que pode ser enviado para a nuvem. Eles também gerenciam a comunicação entre o gateway e o servidor em nuvem. Existem dois tipos de Semtech Packet Forwarders: <strong>básico</strong> e <strong>completo</strong>. Os encaminhadores de pacotes básicos fornecem apenas funcionalidades básicas, como receber e encaminhar pac
+
+        <br>
+        <a href="https://pt.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/">Read More at https://pt.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

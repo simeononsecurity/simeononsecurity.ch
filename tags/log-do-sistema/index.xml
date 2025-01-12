@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Log Do Sistema on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/log-do-sistema//img/banner.png</url><title>Log Do Sistema on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/log-do-sistema/</link></image><link>https://pt.simeononsecurity.com/tags/log-do-sistema/</link><description>Recent content in Log Do Sistema on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/log-do-sistema/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: Simplifique a implantação e a configuração do Sysmon</title><link>https://pt.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automatizar Sysmon"
+, "Como Automatizar o Sysmon"
+, "Como automatizar a configuração do Symon"
+, "Como instalar o Symon"
+, "Powershell"
+, "Roteiro"
+, "Implantação do Sysmon"
+, "Configuração do Symon"
+, "Log do sistema"
+, "Detecção de Ameaças"
+, "Atividade Maliciosa"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "Repositório GitHub"
+, "BHIS"
+, "Monitoramento do sistema"
+, "Pesquisa de segurança"
+, "Criação de processo"
+, "Conexões de rede"</category><guid>https://pt.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como implantar e configurar o Sysmon para melhorar a segurança do seu sistema com o script Automate-Sysmon, que simplifica o processo até mesmo para usuários novatos.</description></item></channel></rss>

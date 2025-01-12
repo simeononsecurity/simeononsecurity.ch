@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conformidade Do Windows Defender on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/conformidade-do-windows-defender//img/banner.png</url><title>Conformidade Do Windows Defender on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/conformidade-do-windows-defender/</link></image><link>https://pt.simeononsecurity.com/tags/conformidade-do-windows-defender/</link><description>Recent content in Conformidade Do Windows Defender on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/conformidade-do-windows-defender/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatize a conformidade do Windows Defender com o script PowerShell</title><link>https://pt.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Script do PowerShell"
+, "Automação"
+, "Conformidade"
+, "Time azul"
+, "Script STIG do Windows Defender"
+, "Windows Defender"
+, "Endurecimento do Windows Defender"
+, "Windows Defender STIG"
+, "Defensor STIG"
+, "Segurança"
+, "Cíber segurança"
+, "STIG"
+, "Segurança do Windows"
+, "Windows Antivírus"
+, "Scripts do Windows"
+, "Automação do Windows"
+, "Endurecimento do Windows"
+, "Automação do Windows Defender"
+, "Conformidade do Windows Defender"</category><guid>https://pt.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aumente sua segurança com o script do Windows Defender STIG PowerShell, que automatiza a conformidade com as diretrizes do Windows Defender Antivirus V1R9 STIG.</description></item></channel></rss>

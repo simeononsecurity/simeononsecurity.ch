@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desafio on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/desafio//img/banner.png</url><title>Desafio on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/desafio/</link></image><link>https://pt.simeononsecurity.com/tags/desafio/</link><description>Recent content in Desafio on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/desafio/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Desafios - Criptografia - Decodificação</title><link>https://pt.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"HackTheBox"
+, "desafios"
+, "Criptografia"
+, "Decodificar"
+, "Escrever"
+, "Cifra Fernet"
+, "Cifra Malboge"
+, "Criptografia Simétrica"
+, "Cíber segurança"
+, "Criptografia"
+, "Teste de penetração"
+, "Pitão"
+, "Segurança"
+, "Desafio"
+, "CTF"
+, "Bandeira"
+, "Criptografia"
+, "Descriptografia"
+, "Base64"</category><guid>https://pt.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a decodificar as cifras de Fernet e Malboge para resolver o HackTheBox Crypto Challenge e descobrir a bandeira oculta.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png"/></item></channel></rss>

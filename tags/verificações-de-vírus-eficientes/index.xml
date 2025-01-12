@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Verificações De Vírus Eficientes on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/verifica%C3%A7%C3%B5es-de-v%C3%ADrus-eficientes//img/banner.png</url><title>Verificações De Vírus Eficientes on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/verifica%C3%A7%C3%B5es-de-v%C3%ADrus-eficientes/</link></image><link>https://pt.simeononsecurity.com/tags/verifica%C3%A7%C3%B5es-de-v%C3%ADrus-eficientes/</link><description>Recent content in Verificações De Vírus Eficientes on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/verifica%C3%A7%C3%B5es-de-v%C3%ADrus-eficientes/index.xml" rel="self" type="application/rss+xml"/><item><title>Varreduras de vírus eficientes com módulos VirusTotal PowerShell</title><link>https://pt.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"Módulos do PowerShell"
+, "PowerShell"
+, "Automação"
+, "VirusTotal"
+, "Verificações de vírus"
+, "Verificações de domínio"
+, "Chave API"
+, "API VirusTotal"
+, "Página de desenvolvedores do VirusTotal"
+, "Administração do Sistema"
+, "Fluxo de trabalho de segurança"
+, "Verificações de vírus eficientes"
+, "Baixar e instalar"
+, "Repositório GitHub"
+, "Exemplos de uso da API"</category><guid>https://pt.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Realize varreduras de vírus eficientes com os módulos VirusTotal PowerShell, automatizando a interação com a API VirusTotal e simplificando seu fluxo de trabalho de segurança.</description></item></channel></rss>
