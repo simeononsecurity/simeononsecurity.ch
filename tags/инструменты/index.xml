@@ -1,0 +1,204 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Инструменты on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B//img/banner.png</url>
+      <title>Инструменты on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/</link>
+
+    <description>Recent content in Инструменты on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 31 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исчерпывающее руководство для начинающих по инструментам и методам тестирования на проникновение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "инструменты"
+            
+              , "методики"
+            
+              , "руководство для начинающих"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Набор для отрыжки"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "тестирование безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "безопасность сети"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными инструментами и методами тестирования на проникновение, методологиями и сертификатами, чтобы начать свою карьеру в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_balaclava.png" length="403619" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Возможности PowerShell для повышения эффективности операций по обеспечению кибербезопасности и соответствия нормативным требованиям</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Кибербезопасность"
+            
+              , "Операции"
+            
+              , "Соответствие требованиям"
+            
+              , "Автоматизация"
+            
+              , "Требования STIG SRG"
+            
+              , "Руководство NSACyber"
+            
+              , "Системы Windows"
+            
+              , "Защита синей команды"
+            
+              , "Скрипты"
+            
+              , "Инструменты"
+            
+              , "Проекты на языке C Sharp"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о возможностях PowerShell для повышения эффективности операций по обеспечению кибербезопасности и достижения соответствия отраслевым стандартам за счет автоматизации и оптимизации процессов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

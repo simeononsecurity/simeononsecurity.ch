@@ -1,0 +1,1565 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Соответствие on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5//img/banner.png</url>
+      <title>Соответствие on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5/</link>
+
+    <description>Recent content in Соответствие on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести аудит разрешений для vCenter с помощью PowerCLI</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аудит разрешений vCenter"
+            
+              , "Автоматизация PowerCLI"
+            
+              , "Безопасность VMware"
+            
+              , "Управление виртуальной инфраструктурой"
+            
+              , "Разрешительные задания"
+            
+              , "Управление доступом пользователей"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Автоматизация с помощью PowerShell"
+            
+              , "Управление средой vSphere"
+            
+              , "Анализ прав доступа пользователей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня безопасности: Возможности систем управления уязвимостями</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Снижение рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность данных"
+            
+              , "Оценка уязвимости"
+            
+              , "Позиция в области безопасности"
+            
+              , "Автоматизация"
+            
+              , "Интеграция"
+            
+              , "Отчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепление безопасности организации и снижение рисков с помощью систем управления уязвимостями. Узнайте об их преимуществах и важности в современном цифровом ландшафте.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание значения классификационных справочников безопасности в защите информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-security-classification-guides/</link>
+        
+        <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "справочники по классификации средств защиты"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "постановления правительства"
+            
+              , "снижение рисков"
+            
+              , "контроль доступа"
+            
+              , "информационная безопасность"
+            
+              , "процедуры маркировки"
+            
+              , "процедуры обработки"
+            
+              , "национальная безопасность"
+            
+              , "соответствие"
+            
+              , "внутренние угрозы"
+            
+              , "обмен информацией"
+            
+              , "интеллектуальная собственность"
+            
+              , "принятие решений"
+            
+              , "юридические обязательства"
+            
+              , "этические обязательства"
+            
+              , "международное сотрудничество"
+            
+              , "ISO 27001"
+            
+              , "НИСПОМ"
+            
+              , "Исполнительный приказ 13526"
+            
+              , "классификация информации"
+            
+              , "защита информации"
+            
+              , "обработка информации"
+            
+              , "контролируемое совместное использование"
+            
+              , "конфиденциальность информации"
+            
+              , "целостность информации"
+            
+              , "культура информационной безопасности"
+            
+              , "рекомендации по информационной безопасности"
+            
+              , "методы обеспечения информационной безопасности"
+            
+              , "информированность в области информационной безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-security-classification-guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить важность классификационных справочников для защиты секретной информации и обеспечения соответствия нормативным требованиям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png" length="184573" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание ключевых компонентов процесса OPSEC для эффективной защиты информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Процесс OPSEC"
+            
+              , "оперативная безопасность"
+            
+              , "защита информации"
+            
+              , "меры безопасности"
+            
+              , "постановления правительства"
+            
+              , "важная информация"
+            
+              , "оценка угроз"
+            
+              , "оценка уязвимости"
+            
+              , "анализ рисков"
+            
+              , "меры противодействия"
+            
+              , "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "целостность"
+            
+              , "наличие"
+            
+              , "кибербезопасность"
+            
+              , "секретная информация"
+            
+              , "соответствие"
+            
+              , "НИСПОМ"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "конфиденциальность данных"
+            
+              , "управление рисками"
+            
+              , "уровень безопасности"
+            
+              , "информационные активы"
+            
+              , "средства контроля безопасности"
+            
+              , "снижение рисков"
+            
+              , "политики безопасности"
+            
+              , "информированность о безопасности"
+            
+              , "предотвращение утечки данных"
+            
+              , "классификация информации"
+            
+              , "Что из перечисленного ниже является составными частями процесса opsec"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите критические компоненты процесса OPSEC и научитесь эффективно защищать конфиденциальную информацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание распространенных угроз кибербезопасности: Защита физических и юридических лиц</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Угрозы кибербезопасности"
+            
+              , "Важность кибербезопасности"
+            
+              , "Виды угроз"
+            
+              , "Влияние угроз"
+            
+              , "Защита от угроз"
+            
+              , "Роль государства в обеспечении кибербезопасности"
+            
+              , "Роль промышленности в обеспечении кибербезопасности"
+            
+              , "Нормативно-правовое регулирование и соблюдение требований"
+            
+              , "Государственно-частное партнерство"
+            
+              , "Исследования и разработки в области кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить распространенные угрозы кибербезопасности, их влияние на частных лиц и предприятия, а также эффективные способы защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/understanding-common-cybersecurity-threats.png" length="73745" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понятие чувствительной закрытой информации (SCI) для национальной безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информационная безопасность"
+            
+              , "Национальная безопасность"
+            
+              , "Разведка"
+            
+              , "Классифицированная информация"
+            
+              , "Государственное регулирование"
+            
+              , "Контроль доступа"
+            
+              , "Допуски к работам в области безопасности"
+            
+              , "Разведывательное сообщество"
+            
+              , "Оборонная промышленность"
+            
+              , "Разведывательные операции"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить значение, уровни классификации, порядок обращения и правила использования чувствительной закрытой информации (SCI) в целях обеспечения национальной безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_representing_sci.png" length="163372" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила тестирования на проникновение в кибербезопасности: Методы, инструменты и лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "соответствие"
+            
+              , "реагирование на инциденты"
+            
+              , "доверие клиентов"
+            
+              , "тестирование черного ящика"
+            
+              , "тестирование белого ящика"
+            
+              , "тестирование серого ящика"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Набор для отрыжки"
+            
+              , "Wireshark"
+            
+              , "сканирование сети"
+            
+              , "безопасность веб-приложений"
+            
+              , "защита информации"
+            
+              , "предотвращение киберугроз"
+            
+              , "оценка цифровой безопасности"
+            
+              , "повышение уровня безопасности"
+            
+              , "анализатор сетевых протоколов"
+            
+              , "стратегия кибербезопасности"
+            
+              , "уязвимости системы"
+            
+              , "укрепление обороноспособности"
+            
+              , "защита цифровых активов"
+            
+              , "преимущества тестирования на проникновение"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение нормативных требований"
+            
+              , "безопасность данных клиентов"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важнейшую роль тестирования на проникновение в кибербезопасности, узнайте об эффективных методах, основных инструментах и лучших практиках.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png" length="227089" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение производительности с помощью Homebox: Управление запасами и активами с открытым исходным кодом</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Управление запасами"
+            
+              , "Управление активами"
+            
+              , "Открытый исходный код"
+            
+              , "Производительность"
+            
+              , "Малый бизнес"
+            
+              , "Управление домом"
+            
+              , "Самостоятельное размещение"
+            
+              , "Программное обеспечение"
+            
+              , "Организация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Homebox, программного обеспечения с открытым исходным кодом для эффективного управления запасами и активами, повышающего производительность вашего дома или малого предприятия.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Топ-5 нетехнических сертификатов по кибербезопасности для бизнес-профессионалов</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "сертификаты по кибербезопасности"
+            
+              , "нетехнические сертификаты"
+            
+              , "профессионалы бизнеса"
+            
+              , "информационная безопасность"
+            
+              , "управление конфиденциальностью"
+            
+              , "навыки в области кибербезопасности"
+            
+              , "защита информации"
+            
+              , "сертификационные программы"
+            
+              , "CISSP"
+            
+              , "CIPP E"
+            
+              , "CIPM"
+            
+              , "CISM"
+            
+              , "CIPP США"
+            
+              , "управление безопасностью"
+            
+              , "положения о конфиденциальности"
+            
+              , "соответствие"
+            
+              , "управление рисками"
+            
+              , "конфиденциальность информации"
+            
+              , "безопасность бизнеса"
+            
+              , "конфиденциальность данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/top-five-cybersecurity-certifications-for-business-professionals/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие сертификаты для профессионалов бизнеса, позволяющие повысить уровень кибербезопасности и защитить конфиденциальные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png" length="277082" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих по сертификации CISSP: Советы по подготовке к экзаменам</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сертификация CISSP"
+            
+              , "информационная безопасность"
+            
+              , "подготовка к экзаменам"
+            
+              , "план исследования"
+            
+              , "практические экзамены"
+            
+              , "кибербезопасность"
+            
+              , "профессиональное развитие"
+            
+              , "сертификационный экзамен"
+            
+              , "ISC2"
+            
+              , "возможности карьерного роста"
+            
+              , "архитектура безопасности"
+            
+              , "безопасность сети"
+            
+              , "контроль доступа"
+            
+              , "управление рисками"
+            
+              , "шифрование"
+            
+              , "операции по обеспечению безопасности"
+            
+              , "физическая безопасность"
+            
+              , "непрерывность бизнеса"
+            
+              , "аварийное восстановление"
+            
+              , "соответствие"
+            
+              , "Советы по сдаче экзамена CISSP"
+            
+              , "Учебные материалы CISSP"
+            
+              , "Соответствие требованиям CISSP"
+            
+              , "Формат экзамена CISSP"
+            
+              , "Практические экзамены CISSP"
+            
+              , "Регистрация CISSP"
+            
+              , "сертификация по информационной безопасности"
+            
+              , "сертификация специалистов по безопасности"
+            
+              , "управление безопасностью"
+            
+              , "оценка безопасности"
+            
+              , "безопасность программного обеспечения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как подготовиться и сдать экзамен CISSP - престижный сертификат для специалистов по информационной безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png" length="213177" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Роль контейнерной оркестровки в современных средах DevOps</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "оркестровка контейнеров"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Docker Swarm"
+            
+              , "Apache Mesos"
+            
+              , "масштабируемость"
+            
+              , "высокая доступность"
+            
+              , "балансировка нагрузки"
+            
+              , "безопасность"
+            
+              , "автоматическое развертывание приложений"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "соответствие"
+            
+              , "разработка программного обеспечения"
+            
+              , "облачные вычисления"
+            
+              , "контейнеризация"
+            
+              , "технология"
+            
+              , "автоматизация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о значении и преимуществах оркестровки контейнеров в современном DevOps, а также о популярных инструментах оркестровки контейнеров и государственных нормативных актах, касающихся контейнеризации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение эффективности гибридного облака: Раскрытие полного потенциала Ansible</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link>
+        
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оперативная информация"
+            
+              , "CICD"
+            
+              , "масштабируемость"
+            
+              , "производительность"
+            
+              , "безопасность"
+            
+              , "соответствие"
+            
+              , "интеграция"
+            
+              , "Amazon Web Services"
+            
+              , "Microsoft Azure"
+            
+              , "Облако Google"
+            
+              , "Ansible Tower"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "экономия средств"
+            
+              , "Эффективность ИТ"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как возможности автоматизации Ansible позволяют оптимизировать, защитить и оптимизировать гибридные облачные среды для повышения производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Внедрение системы кибербезопасности NIST Cybersecurity Framework</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "NIST"
+            
+              , "основа"
+            
+              , "управление рисками"
+            
+              , "информационная безопасность"
+            
+              , "киберугрозы"
+            
+              , "реализация"
+            
+              , "передовой опыт"
+            
+              , "руководство"
+            
+              , "стандарты"
+            
+              , "кибернетические атаки"
+            
+              , "оценка рисков"
+            
+              , "риск кибербезопасности"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "ИТ-безопасность"
+            
+              , "безопасность сети"
+            
+              , "реагирование на инциденты"
+            
+              , "меры безопасности"
+            
+              , "план обеспечения кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как внедрить NIST Cybersecurity Framework и защитить свою организацию от киберугроз с помощью нашего пошагового руководства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание эффективной программы управления рисками в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-risk-management-in-cybersecurity/</link>
+        
+        <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "управление рисками"
+            
+              , "уровень безопасности"
+            
+              , "оценка рисков"
+            
+              , "снижение рисков"
+            
+              , "мониторинг рисков"
+            
+              , "угрозы"
+            
+              , "уязвимости"
+            
+              , "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "кибернетические атаки"
+            
+              , "принятие решений"
+            
+              , "снижение затрат"
+            
+              , "непрерывность бизнеса"
+            
+              , "анализ рисков"
+            
+              , "идентификация рисков"
+            
+              , "контроль рисков"
+            
+              , "лечение рисков"
+            
+              , "постоянное совершенствование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-risk-management-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о важности управления рисками в области кибербезопасности и о том, как создать программу, подходящую для вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png" length="408147" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проблемы и возможности политики BYOD</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</link>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Политика BYOD"
+            
+              , "bring-your-own-device"
+            
+              , "управление мобильными устройствами"
+            
+              , "производительность"
+            
+              , "риски безопасности"
+            
+              , "экономия средств"
+            
+              , "обучение сотрудников"
+            
+              , "протоколы безопасности"
+            
+              , "шифрование данных"
+            
+              , "техническая поддержка"
+            
+              , "производственные задачи"
+            
+              , "удовлетворенность работой"
+            
+              , "политика компании"
+            
+              , "удаленное стирание"
+            
+              , "Программное обеспечение MDM"
+            
+              , "устройства для сотрудников"
+            
+              , "меры безопасности"
+            
+              , "использование устройства"
+            
+              , "соответствие"
+            
+              , "надлежащее использование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах, проблемах и лучших практиках внедрения политики BYOD в вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png" length="165621" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Важность соблюдения требований и профессионализма в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "хозяйственная деятельность"
+            
+              , "безопасность сети"
+            
+              , "конфиденциальная информация"
+            
+              , "кибератаки"
+            
+              , "технология"
+            
+              , "программное обеспечение"
+            
+              , "профессионализм"
+            
+              , "соответствие"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "передовой опыт"
+            
+              , "приоритет"
+            
+              , "культура безопасности"
+            
+              , "утечки данных"
+            
+              , "интеллектуальная собственность"
+            
+              , "проактивный подход"
+            
+              , "низкий приоритет"
+            
+              , "нехватка ресурсов"
+            
+              , "обучение"
+            
+              , "приверженность принципам безопасности"
+            
+              , "офицеры по информационной безопасности (ISSO)"
+            
+              , "системы управления информационной безопасностью (СУИБ)"
+            
+              , "обучение и опыт"
+            
+              , "угрозы безопасности"
+            
+              , "100% успешное прохождение аудита на соответствие требованиям"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "Серия NIST 800"
+            
+              , "политическая игра"
+            
+              , "доверие"
+            
+              , "честность"
+            
+              , "сотрудничество"
+            
+              , "papertrail"
+            
+              , "прозрачность"
+            
+              , "подотчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Кибербезопасность является одним из важнейших аспектов деятельности современного бизнеса и требует комплексного подхода, включающего в себя наличие необходимых систем, протоколов и персонала для эффективного управления защитой от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png" length="418583" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

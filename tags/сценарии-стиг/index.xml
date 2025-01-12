@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сценарии СТИГ on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B8-%D1%81%D1%82%D0%B8%D0%B3//img/banner.png</url>
+      <title>Сценарии СТИГ on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B8-%D1%81%D1%82%D0%B8%D0%B3/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B8-%D1%81%D1%82%D0%B8%D0%B3/</link>
+
+    <description>Recent content in Сценарии СТИГ on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B8-%D1%81%D1%82%D0%B8%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация соблюдения требований безопасности с помощью сценариев STIG</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарии СТИГ"
+            
+              , "соблюдение требований безопасности"
+            
+              , "автоматизация"
+            
+              , "Windows"
+            
+              , "приложения"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Плейбуки Ansible"
+            
+              , "подготовка домена"
+            
+              , "Защитник Windows"
+            
+              , "кибербезопасность"
+            
+              , "скриптинг"
+            
+              , "Соответствие требованиям НТИГ"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-безопасность"
+            
+              , "управление исправлениями"
+            
+              , "системное администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию сценариев STIG для автоматизации соблюдения требований безопасности для Windows и популярных приложений, включая .NET, Adobe Reader DC и Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

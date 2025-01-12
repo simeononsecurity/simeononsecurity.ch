@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base64 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/base64//img/banner.png</url>
+      <title>Base64 on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/base64/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/base64/</link>
+
+    <description>Recent content in Base64 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/base64/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Испытания - Крипто - Расшифровка</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Проблемы"
+            
+              , "Крипто"
+            
+              , "Расшифровать"
+            
+              , "Записать"
+            
+              , "Шифр Фернета"
+            
+              , "Шифр Мальбога"
+            
+              , "Симметричное шифрование"
+            
+              , "Информационная безопасность"
+            
+              , "Криптография"
+            
+              , "Проверка на проницаемость"
+            
+              , "питон"
+            
+              , "Безопасность"
+            
+              , "Испытание"
+            
+              , "CTF"
+            
+              , "Флаг"
+            
+              , "Шифрование"
+            
+              , "Расшифровка"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как расшифровать шифры Фернета и Мальбоге, чтобы решить задачу HackTheBox Crypto Challenge и раскрыть скрытый флаг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

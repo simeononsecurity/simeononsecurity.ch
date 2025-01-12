@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Риск Кибербезопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8//img/banner.png</url>
+      <title>Риск Кибербезопасности on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Риск Кибербезопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Внедрение системы кибербезопасности NIST Cybersecurity Framework</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "NIST"
+            
+              , "основа"
+            
+              , "управление рисками"
+            
+              , "информационная безопасность"
+            
+              , "киберугрозы"
+            
+              , "реализация"
+            
+              , "передовой опыт"
+            
+              , "руководство"
+            
+              , "стандарты"
+            
+              , "кибернетические атаки"
+            
+              , "оценка рисков"
+            
+              , "риск кибербезопасности"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "ИТ-безопасность"
+            
+              , "безопасность сети"
+            
+              , "реагирование на инциденты"
+            
+              , "меры безопасности"
+            
+              , "план обеспечения кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как внедрить NIST Cybersecurity Framework и защитить свою организацию от киберугроз с помощью нашего пошагового руководства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

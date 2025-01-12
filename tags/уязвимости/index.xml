@@ -1,0 +1,1154 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Уязвимости on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8//img/banner.png</url>
+      <title>Уязвимости on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Уязвимости on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание основ кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-the-basics-of-cybersecurity/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Понимание основ кибербезопасности"
+            
+              , "Важность кибербезопасности"
+            
+              , "Защита персональной информации"
+            
+              , "Защита деловой информации"
+            
+              , "Вопросы национальной безопасности"
+            
+              , "Ключевая терминология в области кибербезопасности"
+            
+              , "Виды кибер-атак"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Роль шифрования в обеспечении кибербезопасности"
+            
+              , "Кибербезопасность для бизнеса"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-the-basics-of-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важность кибербезопасности и узнайте, как защитить личную, деловую и национальную безопасность от развивающихся киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/understanding-the-basics-of-cybersecurity.png" length="63882" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила тестирования на проникновение в кибербезопасности: Методы, инструменты и лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "соответствие"
+            
+              , "реагирование на инциденты"
+            
+              , "доверие клиентов"
+            
+              , "тестирование черного ящика"
+            
+              , "тестирование белого ящика"
+            
+              , "тестирование серого ящика"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Набор для отрыжки"
+            
+              , "Wireshark"
+            
+              , "сканирование сети"
+            
+              , "безопасность веб-приложений"
+            
+              , "защита информации"
+            
+              , "предотвращение киберугроз"
+            
+              , "оценка цифровой безопасности"
+            
+              , "повышение уровня безопасности"
+            
+              , "анализатор сетевых протоколов"
+            
+              , "стратегия кибербезопасности"
+            
+              , "уязвимости системы"
+            
+              , "укрепление обороноспособности"
+            
+              , "защита цифровых активов"
+            
+              , "преимущества тестирования на проникновение"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение нормативных требований"
+            
+              , "безопасность данных клиентов"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важнейшую роль тестирования на проникновение в кибербезопасности, узнайте об эффективных методах, основных инструментах и лучших практиках.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png" length="227089" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: решение проблем и использование возможностей.</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "информационная безопасность"
+            
+              , "тестирование безопасности"
+            
+              , "гибкие методологии"
+            
+              , "сотрудничество"
+            
+              , "постановления правительства"
+            
+              , "автоматизация"
+            
+              , "разработка приложений"
+            
+              , "масштабируемость"
+            
+              , "непрерывный контроль"
+            
+              , "Рекомендации NIST"
+            
+              , "контуры обратной связи"
+            
+              , "модульность"
+            
+              , "уязвимости"
+            
+              , "обеспечение качества"
+            
+              , "кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "средства разработки программного обеспечения"
+            
+              , "управление рисками"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье рассматриваются проблемы и возможности DevSecOps в организациях, включая улучшение совместной работы, повышение масштабируемости, интеграцию с государственными нормативными актами и многое другое.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Плюсы и минусы биометрической аутентификации для контроля доступа</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "биометрическая аутентификация"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "конфиденциальность"
+            
+              , "защита информации"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "ложные срабатывания"
+            
+              , "ложноотрицательные результаты"
+            
+              , "многофакторная аутентификация"
+            
+              , "тестирование системы"
+            
+              , "политики безопасности"
+            
+              , "эффективность"
+            
+              , "удобство"
+            
+              , "уникальная идентичность"
+            
+              , "оптимизированные рабочие процессы"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "пользовательский опыт"
+            
+              , "кибербезопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах и рисках использования биометрической аутентификации для контроля доступа, включая повышенную безопасность, проблемы конфиденциальности и лучшие практики внедрения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png" length="404237" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обеспечение безопасности устройств IoT: Проблемы и решения в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "кибербезопасность"
+            
+              , "безопасность"
+            
+              , "Интернет вещей"
+            
+              , "IoT-устройства"
+            
+              , "безопасность сети"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "интеллектуальные устройства"
+            
+              , "передовой опыт"
+            
+              , "IoT-риски"
+            
+              , "аутентификация"
+            
+              , "обновления прошивки"
+            
+              , "мониторинг"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "Рекомендации по обеспечению безопасности IoT"
+            
+              , "сегментация сети"
+            
+              , "картина угроз"
+            
+              , "уязвимости"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о влиянии IoT на кибербезопасность и изучите эффективные стратегии защиты подключенных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих по анализу угроз для обеспечения кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Анализ угроз"
+            
+              , "Кибербезопасность"
+            
+              , "Руководство для начинающих"
+            
+              , "Тактика"
+            
+              , "Техника"
+            
+              , "Процедуры"
+            
+              , "Анализ данных"
+            
+              , "Уязвимости"
+            
+              , "Операции по обеспечению безопасности"
+            
+              , "Машинное обучение"
+            
+              , "Добыча данных"
+            
+              , "Принятие решений"
+            
+              , "Автоматизация"
+            
+              , "Сообщество"
+            
+              , "Мониторинг темной паутины"
+            
+              , "Внутренние сетевые журналы"
+            
+              , "Реагирование на инциденты"
+            
+              , "Фишинговые кампании"
+            
+              , "Вредоносные программы"
+            
+              , "Стратегическое планирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повысьте уровень своей кибербезопасности с помощью этого руководства для начинающих, посвященного анализу угроз и его значению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png" length="419383" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание эффективной программы управления рисками в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-risk-management-in-cybersecurity/</link>
+        
+        <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "управление рисками"
+            
+              , "уровень безопасности"
+            
+              , "оценка рисков"
+            
+              , "снижение рисков"
+            
+              , "мониторинг рисков"
+            
+              , "угрозы"
+            
+              , "уязвимости"
+            
+              , "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "кибернетические атаки"
+            
+              , "принятие решений"
+            
+              , "снижение затрат"
+            
+              , "непрерывность бизнеса"
+            
+              , "анализ рисков"
+            
+              , "идентификация рисков"
+            
+              , "контроль рисков"
+            
+              , "лечение рисков"
+            
+              , "постоянное совершенствование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-risk-management-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о важности управления рисками в области кибербезопасности и о том, как создать программу, подходящую для вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png" length="408147" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Возможности искусственного интеллекта в области обнаружения и реагирования на угрозы</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Кибербезопасность"
+            
+              , "Обнаружение угроз"
+            
+              , "Реагирование на угрозы"
+            
+              , "Машинное обучение"
+            
+              , "Глубокое обучение"
+            
+              , "Обработка естественного языка"
+            
+              , "Алгоритмы искусственного интеллекта"
+            
+              , "Сетевая безопасность"
+            
+              , "Безопасность данных"
+            
+              , "Киберзащита"
+            
+              , "Реагирование на инциденты"
+            
+              , "Инсайдерские угрозы"
+            
+              , "Группы безопасности"
+            
+              , "Мониторинг в режиме реального времени"
+            
+              , "Системы, основанные на правилах"
+            
+              , "Киберпреступность"
+            
+              , "Уязвимости"
+            
+              , "Адаптивная безопасность"
+            
+              , "Киберустойчивость"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как искусственный интеллект революционизирует сферу обнаружения и реагирования на угрозы, а также о проблемах и ограничениях, которые он создает.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png" length="338686" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита от 5 основных векторов кибератак</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "кибернетические атаки"
+            
+              , "социальная инженерия"
+            
+              , "вредоносное ПО"
+            
+              , "отказ в обслуживании"
+            
+              , "парольные атаки"
+            
+              , "атаки на веб-приложения"
+            
+              , "информированность о безопасности"
+            
+              , "спам-фильтры"
+            
+              , "многофакторная аутентификация"
+            
+              , "антивирусное программное обеспечение"
+            
+              , "межсетевые экраны"
+            
+              , "ботнеты"
+            
+              , "CDN"
+            
+              , "услуги по борьбе с DDoS"
+            
+              , "производительность сети"
+            
+              , "уязвимости"
+            
+              , "защита"
+            
+              , "снижение рисков"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить себя и свой бизнес от наиболее распространенных векторов кибернетических атак, включая социальную инженерию, вредоносное ПО, атаки типа отказ в обслуживании, парольные атаки и атаки на веб-приложения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png" length="288490" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стандарты безопасного кодирования на Python: Лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасное кодирование"
+            
+              , "Python"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасность кода на языке Python"
+            
+              , "Обзор кода"
+            
+              , "Средства статического анализа"
+            
+              , "Безопасная веб-разработка"
+            
+              , "Практика безопасного кодирования"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Лучшие практики обеспечения безопасности кода"
+            
+              , "Шифрование данных"
+            
+              , "Принцип наименьших привилегий"
+            
+              , "Анализ кода"
+            
+              , "Веб-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство реагирования на инциденты: Лучшие практики и примеры из реальной жизни</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "реагирование на инциденты"
+            
+              , "кибербезопасность"
+            
+              , "NIST"
+            
+              , "передовой опыт"
+            
+              , "разведка угроз"
+            
+              , "связь"
+            
+              , "анализ после инцидента"
+            
+              , "Эквифакс"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Колониальный трубопровод"
+            
+              , "Microsoft Exchange Server"
+            
+              , "уязвимости"
+            
+              , "обнаружение вторжений"
+            
+              , "защитная оболочка"
+            
+              , "восстановление"
+            
+              , "подготовка"
+            
+              , "кибератаки"
+            
+              , "киберпреступность"
+            
+              , "инциденты безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках реагирования на инциденты в соответствии с NIST SP 800-61 Rev. 2 и познакомьтесь с реальными примерами эффективных стратегий реагирования на инциденты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство обратного инжиниринга: Раскрытие уязвимостей сетевой безопасности IoT</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "обратное проектирование"
+            
+              , "Безопасность IoT"
+            
+              , "уязвимости"
+            
+              , "протоколы безопасности"
+            
+              , "анализ устройств"
+            
+              , "Сети IoT"
+            
+              , "внутреннее устройство"
+            
+              , "вредоносный код"
+            
+              , "меры по шифрованию"
+            
+              , "меры аутентификации"
+            
+              , "межсетевые экраны"
+            
+              , "обновление программного обеспечения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности обратного проектирования для выявления недостатков в защите сетей IoT и повышения общей безопасности системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png" length="511556" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

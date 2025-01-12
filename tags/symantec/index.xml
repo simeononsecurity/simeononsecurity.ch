@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Symantec on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/symantec//img/banner.png</url>
+      <title>Symantec on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/symantec/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/symantec/</link>
+
+    <description>Recent content in Symantec on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/symantec/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение систем безопасности конечных точек: Symantec против McAfee - комплексное сравнение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность конечных точек"
+            
+              , "Антивирус"
+            
+              , "Межсетевой экран"
+            
+              , "Обнаружение вторжений"
+            
+              , "Предотвращение потери данных"
+            
+              , "Защита от угроз"
+            
+              , "Решения в области безопасности"
+            
+              , "Сравнение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое решение для защиты конечных точек, Symantec или McAfee, лучше всего подходит для защиты цифровых активов вашей организации от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

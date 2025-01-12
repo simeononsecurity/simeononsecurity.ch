@@ -1,0 +1,358 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Скриптинг on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%BD%D0%B3//img/banner.png</url>
+      <title>Скриптинг on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%BD%D0%B3/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%BD%D0%B3/</link>
+
+    <description>Recent content in Скриптинг on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности системы с помощью команд Windows Defender PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Команды PowerShell"
+            
+              , "безопасность системы"
+            
+              , "управление из командной строки"
+            
+              , "антивирус"
+            
+              , "Операционные системы Windows"
+            
+              , "защита от вредоносного ПО"
+            
+              , "расширенные настройки безопасности"
+            
+              , "автоматизация операций по обеспечению безопасности"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стоит ли изучать программирование для ИТ и кибербезопасности?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ИТ и кибербезопасность"
+            
+              , "Навыки программирования"
+            
+              , "Карьерный рост"
+            
+              , "Автоматизация"
+            
+              , "Командная строка"
+            
+              , "Скриптинг"
+            
+              , "Развертывание инфраструктуры"
+            
+              , "Анализ данных"
+            
+              , "Тестирование безопасности"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему овладение навыками программирования может принести значительную пользу вашей карьере в области ИТ и кибербезопасности, и как начать работу с PowerShell, Bash, Python, Ansible, Packer и Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация соблюдения требований безопасности с помощью сценариев STIG</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарии СТИГ"
+            
+              , "соблюдение требований безопасности"
+            
+              , "автоматизация"
+            
+              , "Windows"
+            
+              , "приложения"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Плейбуки Ansible"
+            
+              , "подготовка домена"
+            
+              , "Защитник Windows"
+            
+              , "кибербезопасность"
+            
+              , "скриптинг"
+            
+              , "Соответствие требованиям НТИГ"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-безопасность"
+            
+              , "управление исправлениями"
+            
+              , "системное администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию сценариев STIG для автоматизации соблюдения требований безопасности для Windows и популярных приложений, включая .NET, Adobe Reader DC и Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимально эффективный аудит Windows с помощью сценария политики аудита Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Политика аудита Windows"
+            
+              , "Аудит Windows"
+            
+              , "безопасность"
+            
+              , "мониторинг"
+            
+              , "auditpol"
+            
+              , "Команды Windows"
+            
+              , "Безопасность Windows"
+            
+              , "конфигурация аудита"
+            
+              , "политики безопасности"
+            
+              , "журналы событий"
+            
+              , "мониторинг системы"
+            
+              , "Сервер Windows"
+            
+              , "передовые методы обеспечения безопасности"
+            
+              , "кибербезопасность"
+            
+              , "анализ журнала"
+            
+              , "соблюдение требований безопасности"
+            
+              , "реагирование на инциденты"
+            
+              , "средства мониторинга безопасности"
+            
+              , "привилегированный доступ"
+            
+              , "Администрирование Windows"
+            
+              , "скриптинг"
+            
+              , "системное администрирование"
+            
+              , "информационная безопасность"
+            
+              , "аудит соответствия"
+            
+              , "Усиление защиты Windows"
+            
+              , "средства контроля безопасности"
+            
+              , "автоматизация системы безопасности"
+            
+              , "управление журналом"
+            
+              , "Параметры безопасности Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как максимально эффективно использовать аудит Windows путем применения сценария политики аудита Windows для повышения уровня безопасности и контроля.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

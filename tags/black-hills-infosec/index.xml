@@ -1,0 +1,143 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Black Hills InfoSec on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/black-hills-infosec//img/banner.png</url>
+      <title>Black Hills InfoSec on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/black-hills-infosec/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/black-hills-infosec/</link>
+
+    <description>Recent content in Black Hills InfoSec on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/black-hills-infosec/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Discord Backdoors and Breaches Bot: A Turn-Based Strategy Game Companion</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/discord-backdoors-and-breaches/</link>
+        
+        <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Discord бот"
+            
+              , "Бэкдоры и взломы"
+            
+              , "пошаговая стратегическая игра"
+            
+              , "игровой компаньон"
+            
+              , "игровые команды"
+            
+              , "стратегический игровой бот"
+            
+              , "BHIS"
+            
+              , "Black Hills InfoSec"
+            
+              , "мастер инцидента"
+            
+              , "Команда C2"
+            
+              , "этапы игры"
+            
+              , "настройка игры"
+            
+              , "инструкции по игре"
+            
+              , "игровой канал"
+            
+              , "Python-бот"
+            
+              , "Docker-бот"
+            
+              , "автоматизация игр"
+            
+              , "игровое сотрудничество"
+            
+              , "координация игры"
+            
+              , "игра по кибербезопасности"
+            
+              , "информационная безопасность"
+            
+              , "разработка игр"
+            
+              , "советы по геймплею"
+            
+              , "многопользовательская игра"
+            
+              , "игровые роли"
+            
+              , "игровые задачи"
+            
+              , "этапы игры"
+            
+              , "настройка игрового окружения"
+            
+              , "докеризованный бот"
+            
+              , "Зависимости Python"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/discord-backdoors-and-breaches/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Улучшите свой опыт игры в Backdoors and Breaches с помощью этого пре-альфа Discord-бота, предоставляющего команды для облегчения игрового процесса и взаимодействия.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

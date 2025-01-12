@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Команды PowerShell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powershell//img/banner.png</url>
+      <title>Команды PowerShell on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powershell/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powershell/</link>
+
+    <description>Recent content in Команды PowerShell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности системы с помощью команд Windows Defender PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Команды PowerShell"
+            
+              , "безопасность системы"
+            
+              , "управление из командной строки"
+            
+              , "антивирус"
+            
+              , "Операционные системы Windows"
+            
+              , "защита от вредоносного ПО"
+            
+              , "расширенные настройки безопасности"
+            
+              , "автоматизация операций по обеспечению безопасности"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

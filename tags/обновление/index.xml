@@ -1,0 +1,109 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обновление on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5//img/banner.png</url>
+      <title>Обновление on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+
+    <description>Recent content in Обновление on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Почему вашему предприятию следует перейти на Windows Server 2022</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Server 2022"
+            
+              , "Обновление"
+            
+              , "Бизнес"
+            
+              , "Безопасность"
+            
+              , "Управление"
+            
+              , "Автоматизация"
+            
+              , "Производительность"
+            
+              , "Масштабируемость"
+            
+              , "Windows Server 2019"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя улучшенные функции безопасности, управления и автоматизации, а также производительность и масштабируемость Windows Server 2022, что делает его лучшим выбором для предприятий, желающих перейти с Windows Server 2019.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png" length="436657" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

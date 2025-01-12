@@ -1,0 +1,109 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Дергаться on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B4%D0%B5%D1%80%D0%B3%D0%B0%D1%82%D1%8C%D1%81%D1%8F//img/banner.png</url>
+      <title>Дергаться on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B4%D0%B5%D1%80%D0%B3%D0%B0%D1%82%D1%8C%D1%81%D1%8F/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B4%D0%B5%D1%80%D0%B3%D0%B0%D1%82%D1%8C%D1%81%D1%8F/</link>
+
+    <description>Recent content in Дергаться on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B4%D0%B5%D1%80%D0%B3%D0%B0%D1%82%D1%8C%D1%81%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые создатели содержимого безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/creators/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендации"
+            
+              , "Создатели контента безопасности"
+            
+              , "СимеонОнСекьюрити"
+            
+              , "ipSec"
+            
+              , "Джон Хаммонд"
+            
+              , "LiveOverflow"
+            
+              , "НахамСек"
+            
+              , "Роб Фуллер"
+            
+              , "TheBlindHacker"
+            
+              , "YouTube"
+            
+              , "Твиттер"
+            
+              , "дергаться"
+            
+              , "Гитхаб"
+            
+              , "Веб-сайт"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/creators/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя первоклассных создателей контента по безопасности, отобранных SimeonOnSecurity. От ippSec до Джона Хаммонда, LiveOverflow, NahamSec, Роба Фуллера и TheBlindHacker — эти эксперты расскажут вам последние новости на своих различных платформах, включая YouTube, Twitch, Twitter, GitHub и веб-сайты. Будьте в курсе событий и углубляйте свои знания с лучшими в отрасли.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

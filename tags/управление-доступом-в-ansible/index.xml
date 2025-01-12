@@ -1,0 +1,171 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Управление Доступом В Ansible on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC-%D0%B2-ansible//img/banner.png</url>
+      <title>Управление Доступом В Ansible on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC-%D0%B2-ansible/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC-%D0%B2-ansible/</link>
+
+    <description>Recent content in Управление Доступом В Ansible on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC-%D0%B2-ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по безопасному кодированию для Ansible: Лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасное кодирование"
+            
+              , "Ansible"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание"
+            
+              , "Принцип наименьших привилегий"
+            
+              , "Ansible Vault"
+            
+              , "Надежные пароли"
+            
+              , "Контроль доступа"
+            
+              , "Система контроля версий"
+            
+              , "Защищенные протоколы связи"
+            
+              , "SSH"
+            
+              , "WinRM"
+            
+              , "Сертификаты TLS"
+            
+              , "Дезинфекция пользовательского ввода"
+            
+              , "Валидация ввода"
+            
+              , "Обработка ошибок"
+            
+              , "Практика безопасного кодирования"
+            
+              , "Инъекция кода"
+            
+              , "Рекомендации по безопасному кодированию"
+            
+              , "Инфраструктурная безопасность"
+            
+              , "Рекомендации по безопасному кодированию для Ansible"
+            
+              , "Лучшие практики обеспечения безопасности кода с помощью Ansible"
+            
+              , "Безопасное управление конфигурацией с помощью Ansible"
+            
+              , "Практика безопасного развертывания с помощью Ansible"
+            
+              , "Принцип наименьших привилегий в Ansible"
+            
+              , "Использование Ansible Vault для обеспечения безопасности кода"
+            
+              , "Создание надежных паролей в Ansible"
+            
+              , "Управление доступом в Ansible"
+            
+              , "Система контроля версий для плейбуков Ansible"
+            
+              , "Протоколы безопасного взаимодействия в Ansible"
+            
+              , "Безопасность SSH в Ansible"
+            
+              , "Безопасность WinRM в Ansible"
+            
+              , "Сертификаты TLS в Ansible"
+            
+              , "Санация пользовательского ввода в Ansible"
+            
+              , "Валидация ввода в Ansible"
+            
+              , "Обработка ошибок в Ansible"
+            
+              , "Практика безопасного кодирования в Ansible"
+            
+              , "Предотвращение инъекций кода в Ansible"
+            
+              , "Руководство по безопасному кодированию для инфраструктуры, управляемой Ansible"
+            
+              , "Обеспечение безопасности инфраструктуры Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках написания безопасного кода с помощью Ansible, популярного инструмента для управления конфигурациями и развертывания.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

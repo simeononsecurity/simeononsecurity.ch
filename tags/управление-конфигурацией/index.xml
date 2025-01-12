@@ -1,0 +1,2495 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Управление Конфигурацией on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B5%D0%B9//img/banner.png</url>
+      <title>Управление Конфигурацией on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B5%D0%B9/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B5%D0%B9/</link>
+
+    <description>Recent content in Управление Конфигурацией on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B5%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automation Showdown: Ansible vs. Puppet vs. Chef - сравнение основных средств автоматизации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Средства автоматизации"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-инфраструктура"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Облачная автоматизация"
+            
+              , "Развертывание программного обеспечения"
+            
+              , "Управление инфраструктурой"
+            
+              , "Инструменты с открытым исходным кодом"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном сравнении вы узнаете о различиях между Ansible, Puppet и Chef, чтобы выбрать подходящее средство автоматизации для нужд вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация Ansible: От простого Ansible к Ansible Tower и Semaphore</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Управление инфраструктурой"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Открытый исходный код"
+            
+              , "Управление рабочими процессами"
+            
+              , "Масштабируемость"
+            
+              , "Сотрудничество"
+            
+              , "Инструменты Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности автоматизации с помощью Ansible, сравнив обычную Ansible, Ansible Tower и Ansible Semaphore, и выберите подходящий инструмент для эффективного управления инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering GPOs: Исчерпывающее руководство по эффективному управлению сетью</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление сетью"
+            
+              , "Объекты групповой политики"
+            
+              , "GPO"
+            
+              , "Администрирование Windows"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевая безопасность"
+            
+              , "Active Directory"
+            
+              , "Управление конфигурацией"
+            
+              , "Управление групповыми политиками"
+            
+              , "Оптимизация сети"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности объектов групповой политики (GPO) и узнайте, как эффективно управлять и оптимизировать сетевые настройки и политики для повышения безопасности и оптимизации работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: комплексное решение по мониторингу для эффективного управления ИТ-инфраструктурой</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Мониторинг сети"
+            
+              , "Мониторинг приложений"
+            
+              , "ИТ-операции"
+            
+              , "Аналитика производительности"
+            
+              , "Автоматизация"
+            
+              , "Управление событиями"
+            
+              , "Масштабируемость"
+            
+              , "Гибкость"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с возможностями, преимуществами и вариантами использования CheckMK, комплексного решения для проактивного управления ИТ-инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация обновлений Windows с помощью Ansible: подробное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "автоматизация обновлений Windows"
+            
+              , "Ансибл автоматизация"
+            
+              , "управление системой"
+            
+              , "исправления безопасности"
+            
+              , "ИТ-инфраструктура"
+            
+              , "сетевая автоматизация"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-операции"
+            
+              , "DevOps"
+            
+              , "информационная безопасность"
+            
+              , "ИТ-автоматизация"
+            
+              , "ИТ-эффективность"
+            
+              , "Ansible playbook"
+            
+              , "Безопасность Windows"
+            
+              , "управление обновлениями"
+            
+              , "ИТ-производительность"
+            
+              , "ИТ-обслуживание"
+            
+              , "Учетные данные Ansible"
+            
+              , "конфигурация хоста"
+            
+              , "системная автоматизация"
+            
+              , "обновления Windows"
+            
+              , "Управление системой Windows"
+            
+              , "Патчи безопасности Windows"
+            
+              , "ИТ-инфраструктура Windows"
+            
+              , "Автоматизация сети Windows"
+            
+              , "Управление конфигурацией Windows"
+            
+              , "ИТ-операции Windows"
+            
+              , "Windows DevOps"
+            
+              , "Кибербезопасность Windows"
+            
+              , "ИТ-автоматизация Windows"
+            
+              , "ИТ-эффективность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте процесс обновления систем Windows, автоматизировав его с помощью Ansible — включены пошаговые инструкции и рекомендации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: начальное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Управление конфигурацией"
+            
+              , "Автоматизация"
+            
+              , "Windows"
+            
+              , "Системное администрирование"
+            
+              , "Лучшие практики"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность"
+            
+              , "Инфраструктура"
+            
+              , "DevOps"
+            
+              , "Конфигурация сервера"
+            
+              , "Тестирование"
+            
+              , "Git"
+            
+              , "Контроль источников"
+            
+              , "Государственное регулирование"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Дрейф конфигурации"
+            
+              , "Пользовательские ресурсы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с возможностями PowerShell Desired State Configuration (DSC) для автоматизации и управления конфигурациями системы в целях обеспечения безопасности и соответствия требованиям среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство по безопасному кодированию для Ansible: Лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасное кодирование"
+            
+              , "Ansible"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание"
+            
+              , "Принцип наименьших привилегий"
+            
+              , "Ansible Vault"
+            
+              , "Надежные пароли"
+            
+              , "Контроль доступа"
+            
+              , "Система контроля версий"
+            
+              , "Защищенные протоколы связи"
+            
+              , "SSH"
+            
+              , "WinRM"
+            
+              , "Сертификаты TLS"
+            
+              , "Дезинфекция пользовательского ввода"
+            
+              , "Валидация ввода"
+            
+              , "Обработка ошибок"
+            
+              , "Практика безопасного кодирования"
+            
+              , "Инъекция кода"
+            
+              , "Рекомендации по безопасному кодированию"
+            
+              , "Инфраструктурная безопасность"
+            
+              , "Рекомендации по безопасному кодированию для Ansible"
+            
+              , "Лучшие практики обеспечения безопасности кода с помощью Ansible"
+            
+              , "Безопасное управление конфигурацией с помощью Ansible"
+            
+              , "Практика безопасного развертывания с помощью Ansible"
+            
+              , "Принцип наименьших привилегий в Ansible"
+            
+              , "Использование Ansible Vault для обеспечения безопасности кода"
+            
+              , "Создание надежных паролей в Ansible"
+            
+              , "Управление доступом в Ansible"
+            
+              , "Система контроля версий для плейбуков Ansible"
+            
+              , "Протоколы безопасного взаимодействия в Ansible"
+            
+              , "Безопасность SSH в Ansible"
+            
+              , "Безопасность WinRM в Ansible"
+            
+              , "Сертификаты TLS в Ansible"
+            
+              , "Санация пользовательского ввода в Ansible"
+            
+              , "Валидация ввода в Ansible"
+            
+              , "Обработка ошибок в Ansible"
+            
+              , "Практика безопасного кодирования в Ansible"
+            
+              , "Предотвращение инъекций кода в Ansible"
+            
+              , "Руководство по безопасному кодированию для инфраструктуры, управляемой Ansible"
+            
+              , "Обеспечение безопасности инфраструктуры Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках написания безопасного кода с помощью Ansible, популярного инструмента для управления конфигурациями и развертывания.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в Ansible: Автоматизация управления ИТ-инфраструктурой</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Провизионирование"
+            
+              , "Непрерывная поставка"
+            
+              , "Соблюдение требований безопасности"
+            
+              , "Оркестровка"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Передовые методы работы с Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Средство автоматизации ИТ-инфраструктуры"
+            
+              , "Учебное пособие по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы Ansible, инструмента автоматизации с открытым исходным кодом, который упрощает управление ИТ-инфраструктурой с помощью декларативного языка.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стоит ли изучать программирование для ИТ и кибербезопасности?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ИТ и кибербезопасность"
+            
+              , "Навыки программирования"
+            
+              , "Карьерный рост"
+            
+              , "Автоматизация"
+            
+              , "Командная строка"
+            
+              , "Скриптинг"
+            
+              , "Развертывание инфраструктуры"
+            
+              , "Анализ данных"
+            
+              , "Тестирование безопасности"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему овладение навыками программирования может принести значительную пользу вашей карьере в области ИТ и кибербезопасности, и как начать работу с PowerShell, Bash, Python, Ansible, Packer и Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация соблюдения требований безопасности с помощью сценариев STIG</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарии СТИГ"
+            
+              , "соблюдение требований безопасности"
+            
+              , "автоматизация"
+            
+              , "Windows"
+            
+              , "приложения"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Плейбуки Ansible"
+            
+              , "подготовка домена"
+            
+              , "Защитник Windows"
+            
+              , "кибербезопасность"
+            
+              , "скриптинг"
+            
+              , "Соответствие требованиям НТИГ"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-безопасность"
+            
+              , "управление исправлениями"
+            
+              , "системное администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию сценариев STIG для автоматизации соблюдения требований безопасности для Windows и популярных приложений, включая .NET, Adobe Reader DC и Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное повышение эффективности с помощью Ansible, Docker и Kubernetes: Руководство по автоматизации кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Автоматизация кибербезопасности"
+            
+              , "Оценка уязвимости"
+            
+              , "Управление исправлениями"
+            
+              , "Оркестровка контейнеров"
+            
+              , "Сегментация сети"
+            
+              , "Управление доступом на основе ролей"
+            
+              , "Секретное управление"
+            
+              , "Сканирование системы безопасности"
+            
+              , "Подписание изображений"
+            
+              , "Средства автоматизации"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Повышение эффективности"
+            
+              , "Автоматизация систем безопасности"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Контейнеризация"
+            
+              , "Безопасность контейнеров"
+            
+              , "Масштабируемые системы"
+            
+              , "Безопасные среды"
+            
+              , "Сетевая безопасность"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Снижение рисков"
+            
+              , "Управление безопасностью"
+            
+              , "ИТ-операции"
+            
+              , "Эффективные рабочие процессы"
+            
+              , "Автоматизация систем безопасности"
+            
+              , "Эффективность ИТ"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Ansible, Docker и Kubernetes для автоматизации процессов кибербезопасности и снижения риска утечки данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я изучил больше модулей Powershell и Ansible</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-03/</link>
+        
+        <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "PowerShell"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-03/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;SimeonOnSecurity узнал об этом и нашел интересным сегодня**.&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity узнал о Windows STIG Ansible и обновил соответствующие репозитории. Также были изучены различные ресурсы Microsoft и Ansible, связанные с powershell, remoting и выполнением команд shell/powershell в Windows с помощью таких модулей, как invoke-command, start-process, win_powershell, win_shell, psexec и win_psexec.&lt;/p&gt;
+&lt;h2 id=&#34;новыеобновленные-репозитории&#34;&gt;
+  &lt;a href=&#34;#%d0%bd%d0%be%d0%b2%d1%8b%d0%b5%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%b8&#34; title=&#34;Новые/обновленные репозитории:&#34;&gt;Новые/обновленные репозитории:&lt;/a&gt;
+  &lt;a href=&#34;#%d0%bd%d0%be%d0%b2%d1%8b%d0%b5%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%b8&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34; title=&#34;Новые/обновленные репозитории:&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;simeononsecurity/Windows_STIG_Ansible&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://github.com/simeononsecurity/Windows_STIG_Ansible&#34;&gt;
+    &lt;a href=&#34;https://github.com/simeononsecurity/Windows_STIG_Ansible&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;simeononsecurity/Windows_STIG_Ansible&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;simeononsecurity/windows_stigs&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://galaxy.ansible.com/simeononsecurity/windows_stigs&#34;&gt;
+    &lt;a href=&#34;https://galaxy.ansible.com/simeononsecurity/windows_stigs&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;simeononsecurity/windows_stigs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;учебные-ресурсы&#34;&gt;
+  &lt;a href=&#34;#%d1%83%d1%87%d0%b5%d0%b1%d0%bd%d1%8b%d0%b5-%d1%80%d0%b5%d1%81%d1%83%d1%80%d1%81%d1%8b&#34; title=&#34;Учебные ресурсы:&#34;&gt;Учебные ресурсы:&lt;/a&gt;
+  &lt;a href=&#34;#%d1%83%d1%87%d0%b5%d0%b1%d0%bd%d1%8b%d0%b5-%d1%80%d0%b5%d1%81%d1%83%d1%80%d1%81%d1%8b&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34; title=&#34;Учебные ресурсы:&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;microsoft - invoke-command&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2&#34;&gt;
+    &lt;a href=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;microsoft - invoke-command&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;microsoft - start-process&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2&#34;&gt;
+    &lt;a href=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;microsoft - start-process&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;microsoft - running remote commands&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2&#34;&gt;
+    &lt;a href=&#34;https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;microsoft - running remote commands&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;ansible.windows.win_powershell&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;ansible.windows.win_powershell&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;ansible.windows.win_shell module&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;ansible.windows.win_shell module&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;community.windows.psexec&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;community.windows.psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;win_psexec&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;win_psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Today I Learned about Ansible and Block/Rescue Modules</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-02/</link>
+        
+        <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "Безопасность Windows"
+            
+              , "Администрирование Windows"
+            
+              , "Соответствие требованиям безопасности"
+            
+              , "Автоматизация ИТ"
+            
+              , "Управление конфигурацией"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-02/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;SimeonOnSecurity узнал об этом и нашел интересным сегодня**.&lt;/p&gt;
+&lt;p&gt;Сегодня SimeonOnSecurity узнал и обнаружил несколько интересных вещей, связанных с безопасностью Windows и автоматизацией с помощью Ansible.&lt;/p&gt;
+&lt;p&gt;Во-первых, были обнаружены два новых и обновленных репозитория. Репозиторий Windows_STIG_Ansible представляет собой комплексное решение для настройки Windows-систем на соответствие требованиям Security Technical Implementation Guide (STIG) с использованием платформы автоматизации Ansible. Репозиторий windows_stigs представляет собой набор ролей Ansible для настройки Windows-систем на соответствие требованиям STIG и доступен на Ansible Galaxy, центральном хранилище для обмена содержимым Ansible.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал, как манипулировать и анализировать JSON в PowerShell и Bash</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2021-02-17/</link>
+        
+        <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность Windows"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "ИТ-безопасность"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "Администрирование Windows"
+            
+              , "Конфигурация системы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2021-02-17/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;&lt;strong&gt;Что интересного узнал и нашел сегодня SimeonOnSecurity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity обновил страницу на своем сайте и узнал о нескольких интересных для него ресурсах. Обновленная страница - это обзор Invite Challenge на HackTheBox. На этой странице представлен подробный анализ процесса решения задачи на системах Windows и Linux.&lt;/p&gt;
+&lt;p&gt;В дополнение к обновленной странице SimeonOnSecurity также обнаружил несколько полезных обучающих ресурсов. Одним из таких ресурсов является запись в блоге Кэмерона Нокса (Cameron Nokes), посвященная работе с JSON в bash с помощью инструмента jq. Инструмент jq - это утилита командной строки, которая позволяет легко анализировать, фильтровать и манипулировать данными JSON.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

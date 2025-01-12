@@ -1,0 +1,305 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Скрипт on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82//img/banner.png</url>
+      <title>Скрипт on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82/</link>
+
+    <description>Recent content in Скрипт on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Графический интерфейс Windows Optimize-Harden-Debloat — управляемая установка</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Разблокировка Windows 10"
+            
+              , "Настройки Windows 10"
+            
+              , "графический интерфейс"
+            
+              , "до-диез"
+            
+              , "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Стабильность системы"
+            
+              , "Системное администрирование"
+            
+              , "обновления Windows"
+            
+              , "Скрипт"
+            
+              , "Программирование"
+            
+              , "Раздувание"
+            
+              , "Настройка Windows 10"
+            
+              , "Производительность системы"
+            
+              , "Конфиденциальность Windows 10"
+            
+              , "Безопасность"
+            
+              , "установка виндовс 10"
+            
+              , "обслуживание виндовс 10"
+            
+              , "управление виндовс 10"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расширьте возможности Windows 10 с легкостью, используя автоматизированный сценарий Windows-Optimize-Harden-Debloat с графическим интерфейсом, который предлагает пошаговую установку, чтобы свести к минимуму установку Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: упрощение развертывания и настройки Sysmon</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизировать Сисмон"
+            
+              , "Как автоматизировать Sysmon"
+            
+              , "Как автоматизировать настройку Sysmon"
+            
+              , "Как установить Сисмон"
+            
+              , "PowerShell"
+            
+              , "Скрипт"
+            
+              , "Развертывание Sysmon"
+            
+              , "Конфигурация сисмона"
+            
+              , "Системное ведение журнала"
+            
+              , "Обнаружение угроз"
+            
+              , "Вредоносная активность"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Репозиторий GitHub"
+            
+              , "BHIS"
+            
+              , "Мониторинг системы"
+            
+              , "Исследование безопасности"
+            
+              , "Создание процесса"
+            
+              , "Сетевые соединения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как развернуть и настроить Sysmon для повышения безопасности вашей системы с помощью сценария Automate-Sysmon, который упрощает процесс даже для начинающих пользователей.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Hardening CTF: усиление безопасности устройств Windows для участия в соревнованиях Capture the Flag</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-hardening-ctf/</link>
+        
+        <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "скрипт"
+            
+              , "Устройство Windows"
+            
+              , "командная строка"
+            
+              , "LLMNR"
+            
+              , "PowerShell"
+            
+              , "SMB"
+            
+              , "Временные метки TCP"
+            
+              , "AppLocker"
+            
+              , "Журналирование в Windows"
+            
+              , "DEP"
+            
+              , "Конфигурации EMET"
+            
+              , "Режим ограниченного языка PowerShell"
+            
+              , "Шифрование SMB"
+            
+              , "Меры по защите от Spectre и Meltdown"
+            
+              , "Защитник Windows"
+            
+              , "Брандмауэр Windows"
+            
+              , "PSWindowsUpdate"
+            
+              , "Обновления Windows"
+            
+              , "сценарий упрочнения"
+            
+              , "Рекомендуемые политики АНБ"
+            
+              , "Ведение журналов Windows и контроль безопасности"
+            
+              , "Контроль приложений Windows Defender"
+            
+              , "Функции уменьшения поверхности атак Windows Defender"
+            
+              , "Облачные средства защиты Windows Defender"
+            
+              , "Защита от эксплойтов в Windows Defender"
+            
+              , "Установка PSWindowsUpdate"
+            
+              , "Повышение уровня безопасности устройств Windows"
+            
+              , "Меры по усилению защиты Windows"
+            
+              , "укрепление безопасности Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-hardening-ctf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя мощный скрипт, повышающий безопасность Windows за счет применения различных мер защиты от компрометации.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

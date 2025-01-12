@@ -1,0 +1,2031 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Кибербезопасность on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C//img/banner.png</url>
+      <title>Кибербезопасность on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+
+    <description>Recent content in Кибербезопасность on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасный сервис электронной почты: Повышение уровня конфиденциальности с помощью StartMail</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-email-service-startmail/</link>
+        
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Услуги электронной почты"
+            
+              , "Безопасность в Интернете"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Шифрование"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность электронной почты"
+            
+              , "Защита личности"
+            
+              , "Конфиденциальность в Интернете"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-email-service-startmail/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя StartMail - безопасный почтовый сервис с усовершенствованной системой шифрования и маскировки электронной почты, обеспечивающий максимальную конфиденциальность и защиту от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure_email_guard.png" length="1073957" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности виртуальных машин с помощью vTPM: Пошаговое руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Безопасность"
+            
+              , "Модуль доверенной платформы"
+            
+              , "vTPM"
+            
+              , "Гостевая ОС"
+            
+              , "Шифрование"
+            
+              , "Аттестация платформы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение безопасности виртуальных машин с использованием vTPM с помощью нашего исчерпывающего пошагового руководства, обеспечивающего аттестацию платформы и поддержку шифрования BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сессия vs Статус vs Сигнал vs Трема: Комплексное сравнение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</link>
+        
+        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасный обмен сообщениями"
+            
+              , "Коммуникации, ориентированные на конфиденциальность"
+            
+              , "Сравнение приложений для обмена сообщениями"
+            
+              , "Протоколы шифрования"
+            
+              , "Кибербезопасность"
+            
+              , "Частное общение"
+            
+              , "Службы обмена сообщениями"
+            
+              , "Конфиденциальность данных"
+            
+              , "Комплексное шифрование"
+            
+              , "Анализ платформ обмена сообщениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном сравнении служб безопасного обмена сообщениями вы узнаете о ключевых различиях и достоинствах Session, Status, Signal и Threema.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure-messaging-comparison.png" length="1600384" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение защищенной электронной почты: StartMail vs ProtonMail vs Tutanota</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link>
+        
+        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "Услуги электронной почты"
+            
+              , "Безопасность в Интернете"
+            
+              , "Шифрование"
+            
+              , "Интернет-инструменты"
+            
+              , "Сравнение"
+            
+              , "Цифровая защита"
+            
+              , "Конфиденциальность в Интернете"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучший безопасный почтовый сервис! Подробное сравнение StartMail, ProtonMail и Tutanota, обеспечивающих вашу конфиденциальность в Интернете
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure-email-showdown.png" length="1329076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие браузеры для обеспечения конфиденциальности - LibreWolf vs. Brave vs. Firefox vs. Tor</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность"
+            
+              , "Интернет"
+            
+              , "Технология"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в Интернете"
+            
+              , "Открытый исходный код"
+            
+              , "Анонимность"
+            
+              , "Веб-браузинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие браузеры, ориентированные на конфиденциальность - LibreWolf, Brave, Firefox и Tor - для безопасной работы в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите свою конфиденциальность с помощью Albine DeleteMe - защита вашего цифрового присутствия</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</link>
+        
+        <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность данных"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита персональной информации"
+            
+              , "Предотвращение хищений персональных данных"
+            
+              , "Управление цифровым следом"
+            
+              , "Кибербезопасность"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Удаление данных"
+            
+              , "Соответствие требованиям GDPR"
+            
+              , "CCPA"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Albine DeleteMe - службы защиты данных, которая позволяет защитить вашу личную информацию, обеспечивая безопасность и спокойствие в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure_privacy_cartoon.png" length="1576319" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие практики безопасности Python: Защита кода и данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Python"
+            
+              , "Кодовая безопасность"
+            
+              , "Защита информации"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Конфиденциальность данных"
+            
+              , "Безопасность приложений"
+            
+              , "ИТ-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с передовыми методами обеспечения безопасности на языке Python, которые позволят защитить код и данные от потенциальных угроз, обеспечить защиту данных, целостность системы и доверие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности системы с помощью команд Windows Defender PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Команды PowerShell"
+            
+              , "безопасность системы"
+            
+              , "управление из командной строки"
+            
+              , "антивирус"
+            
+              , "Операционные системы Windows"
+            
+              , "защита от вредоносного ПО"
+            
+              , "расширенные настройки безопасности"
+            
+              , "автоматизация операций по обеспечению безопасности"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Каковы лучшие решения для шифрования полного диска в Windows?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность данных"
+            
+              , "Кибербезопасность"
+            
+              , "Шифрование в Windows"
+            
+              , "Шифрование дисков"
+            
+              , "Защита информации"
+            
+              , "Программное обеспечение для шифрования"
+            
+              , "Решения в области безопасности"
+            
+              , "Безопасность Windows"
+            
+              , "Конфиденциальность данных"
+            
+              , "Компьютерная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие решения для шифрования полного диска для Windows, которые обеспечивают надежную безопасность и защищают конфиденциальные данные от несанкционированного доступа.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png" length="1206564" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня безопасности: Возможности систем управления уязвимостями</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Снижение рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность данных"
+            
+              , "Оценка уязвимости"
+            
+              , "Позиция в области безопасности"
+            
+              , "Автоматизация"
+            
+              , "Интеграция"
+            
+              , "Отчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепление безопасности организации и снижение рисков с помощью систем управления уязвимостями. Узнайте об их преимуществах и важности в современном цифровом ландшафте.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание троянских программ удаленного доступа: Риски, профилактика и защита</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Вредоносное программное обеспечение"
+            
+              , "Компьютерная безопасность"
+            
+              , "Цифровые угрозы"
+            
+              , "Троянские программы удаленного доступа"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность"
+            
+              , "Киберпреступность"
+            
+              , "Сетевая безопасность"
+            
+              , "Информационная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о рисках, связанных с троянскими программами удаленного доступа (RAT), и научитесь эффективным мерам профилактики и защиты, позволяющим обезопасить ваши компьютерные системы и данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Безопасность беспроводных сетей и доступ к IoT</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</link>
+        
+        <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сертификационный экзамен CompTIA Network Plus"
+            
+              , "Беспроводная безопасность"
+            
+              , "Доступ к IoT"
+            
+              , "Фильтрация MAC-адресов"
+            
+              , "Размещение антенны"
+            
+              , "Уровни мощности"
+            
+              , "Изоляция заказчика"
+            
+              , "Изоляция гостевой сети"
+            
+              , "Предварительно распределенные ключи"
+            
+              , "EAP"
+            
+              , "Геозондирование"
+            
+              , "Портал неволи"
+            
+              , "Безопасность IoT"
+            
+              , "Беспроводные сети"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-сертификация"
+            
+              , "Основы сетевых технологий"
+            
+              , "Информационные технологии"
+            
+              , "Онлайн-обучение"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расширьте свои знания в области безопасности беспроводных сетей и доступа к IoT с помощью этого комплексного курса Network+. Узнайте о фильтрации MAC-адресов, размещении антенн, настройке уровня мощности, распределенных ключах, EAP, геозонировании и безопасности устройств IoT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.png" length="562788" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение систем безопасности конечных точек: Symantec против McAfee - комплексное сравнение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность конечных точек"
+            
+              , "Антивирус"
+            
+              , "Межсетевой экран"
+            
+              , "Обнаружение вторжений"
+            
+              , "Предотвращение потери данных"
+            
+              , "Защита от угроз"
+            
+              , "Решения в области безопасности"
+            
+              , "Сравнение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое решение для защиты конечных точек, Symantec или McAfee, лучше всего подходит для защиты цифровых активов вашей организации от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита промышленных систем управления (ICS): Проблемы, лучшие практики и будущие тенденции</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/securing-industrial-control-systems/</link>
+        
+        <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Промышленные системы управления"
+            
+              , "Кибербезопасность"
+            
+              , "Проблемы безопасности ИКС"
+            
+              , "Лучшие практики для ICS"
+            
+              , "Компоненты ИКС"
+            
+              , "Наследные системы"
+            
+              , "Обучение сотрудников"
+            
+              , "Уязвимости цепей поставок"
+            
+              , "Инсайдерские угрозы"
+            
+              , "Внедрение систем безопасности ИКС"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/securing-industrial-control-systems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о проблемах, лучших практиках и будущих тенденциях в области защиты промышленных систем управления (ICS) от киберугроз и обеспечения бесперебойной работы критически важной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_concept_of_s.png" length="358287" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Использование возможностей развития трудовых ресурсов: Системы NICE и DoD DCWF</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "развитие трудовых ресурсов"
+            
+              , "кибербезопасность"
+            
+              , "Система NICE"
+            
+              , "Система DCWF Министерства обороны"
+            
+              , "оценка навыков"
+            
+              , "профессиональное развитие"
+            
+              , "кадры для кибербезопасности"
+            
+              , "карьерные траектории"
+            
+              , "образование в области кибербезопасности"
+            
+              , "согласование кадрового состава"
+            
+              , "кадровая структура"
+            
+              , "NIST"
+            
+              , "постановления правительства"
+            
+              , "сертификаты по кибербезопасности"
+            
+              , "отраслевые стандарты"
+            
+              , "управление талантами"
+            
+              , "роли в области кибербезопасности"
+            
+              , "компетенции в области кибербезопасности"
+            
+              , "развитие кадрового потенциала в области кибербезопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "навыки в области кибербезопасности"
+            
+              , "кадровое планирование"
+            
+              , "подбор персонала в области кибербезопасности"
+            
+              , "устойчивость трудовых ресурсов"
+            
+              , "обучение кибербезопасности"
+            
+              , "кадровая стратегия"
+            
+              , "Рынок труда в сфере кибербезопасности"
+            
+              , "карьерный рост в области кибербезопасности"
+            
+              , "готовность рабочей силы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя комплексную систему оценки и развития персонала в области кибербезопасности: NICE и DoD DCWF, позволяющие обеспечить организации квалифицированными специалистами.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png" length="470043" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освоение кибербезопасности: Изучение новейших CVE и действующих лиц угроз</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "CVEs"
+            
+              , "субъекты угроз"
+            
+              , "сканирование уязвимостей"
+            
+              , "разведка угроз"
+            
+              , "обмен информацией"
+            
+              , "отраслевое сотрудничество"
+            
+              , "рекомендации по безопасности"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "Болтер ATT&amp;CK®"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "возникающие угрозы"
+            
+              , "проактивная защита"
+            
+              , "автоматизированное сканирование уязвимостей"
+            
+              , "разведка из открытых источников"
+            
+              , "Анализ угроз в режиме реального времени"
+            
+              , "тактика и техника действий субъектов угроз"
+            
+              , "Технический OSINT"
+            
+              , "Базы данных CVE"
+            
+              , "рекомендации поставщиков средств защиты"
+            
+              , "блоги по безопасности"
+            
+              , "информационные потоки об угрозах"
+            
+              , "сообщества по обмену информацией"
+            
+              , "постановления правительства"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Опережайте киберугрозы, узнавая о последних CVE и действующих лицах с помощью эффективных стратегий и ресурсов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предполагать, что каждое устройство уже скомпрометировано: Укрепление цифровой безопасности во взаимосвязанном мире</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита персональных данных"
+            
+              , "Строгая аутентификация и пароли"
+            
+              , "Конфиденциальность в социальных сетях"
+            
+              , "Безопасная связь"
+            
+              , "Гигиена устройства"
+            
+              , "Резервное копирование данных"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Советы по обеспечению безопасности в Интернете"
+            
+              , "Защита чувствительной информации"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему важно считать, что каждое устройство уже скомпрометировано, и изучите практические меры по повышению уровня цифровой безопасности в современном взаимосвязанном мире.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png" length="177946" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита частной жизни в Интернете: Безопасные методы работы в социальных сетях</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "конфиденциальность"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "социальные сети"
+            
+              , "безопасные методы"
+            
+              , "настройки конфиденциальности"
+            
+              , "LinkedIn"
+            
+              , "Facebook"
+            
+              , "Twitter"
+            
+              , "Instagram"
+            
+              , "запросы друзей"
+            
+              , "случайные ссылки"
+            
+              , "опросы"
+            
+              , "постановления правительства"
+            
+              , "GDPR"
+            
+              , "CCPA"
+            
+              , "кибербезопасность"
+            
+              , "защита информации"
+            
+              , "персональные данные"
+            
+              , "нарушение конфиденциальности"
+            
+              , "цифровая безопасность"
+            
+              , "риски для конфиденциальности"
+            
+              , "законы о конфиденциальности"
+            
+              , "положения о конфиденциальности"
+            
+              , "конфиденциальность данных"
+            
+              , "безопасность в Интернете"
+            
+              , "защита конфиденциальности"
+            
+              , "конфиденциальность в социальных сетях"
+            
+              , "советы по конфиденциальности"
+            
+              , "правила конфиденциальности в интернете"
+            
+              , "защита персональных данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важные советы по безопасной работе в социальных сетях, чтобы защитить свою конфиденциальность в Интернете, и узнайте о настройках конфиденциальности на таких популярных платформах, как LinkedIn, Facebook, Twitter и Instagram.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png" length="166973" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение утечки информации: Лучшие практики и стратегии повышения безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "утечка информации"
+            
+              , "стратегии профилактики"
+            
+              , "передовой опыт"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "обучение сотрудников"
+            
+              , "кибербезопасность"
+            
+              , "предотвращение потери данных"
+            
+              , "оценки безопасности"
+            
+              , "постановления правительства"
+            
+              , "NIST"
+            
+              , "внутренние угрозы"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "человеческий фактор"
+            
+              , "информационные программы"
+            
+              , "информированность о фишинге"
+            
+              , "DLP-решения"
+            
+              , "управление доступом на основе ролей"
+            
+              , "многофакторная аутентификация"
+            
+              , "управление ключами шифрования"
+            
+              , "защита конечных точек"
+            
+              , "проверка содержания"
+            
+              , "аудиты безопасности"
+            
+              , "тестирование на проникновение"
+            
+              , "планирование мер реагирования на инциденты"
+            
+              , "протоколы безопасности"
+            
+              , "защита информации"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших методах и стратегиях предотвращения утечки информации и защиты конфиденциальных данных, обеспечивающих повышенную безопасность и защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Распознавание попыток фишинга: Общие признаки и советы по безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/</link>
+        
+        <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информированность о фишинге"
+            
+              , "Безопасность в Интернете"
+            
+              , "Кибербезопасность"
+            
+              , "Хищение персональных данных"
+            
+              , "Интернет-мошенничество"
+            
+              , "Цифровая безопасность"
+            
+              , "Киберугрозы"
+            
+              , "Защита данных"
+            
+              , "Предотвращение фишинга"
+            
+              , "Онлайн-мошенничество"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как распознать общие признаки попыток фишинга и защитить себя в Интернете с помощью практических советов по повышению уровня кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png" length="292193" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 основных мер сетевой безопасности для защиты бизнеса от киберугроз</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "меры по обеспечению безопасности сети"
+            
+              , "безопасность бизнес-сети"
+            
+              , "киберугрозы"
+            
+              , "политика сетевой безопасности"
+            
+              , "межсетевые экраны и системы предотвращения вторжений"
+            
+              , "безопасность беспроводных сетей"
+            
+              , "обновление программного и аппаратного обеспечения"
+            
+              , "многофакторная аутентификация"
+            
+              , "мониторинг сетевой активности"
+            
+              , "реагирование на нарушения безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с семью основными мерами сетевой безопасности, которые позволят обезопасить ваш бизнес от киберугроз и обеспечить защиту данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/7-essential-network-security-measures.png" length="99214" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасность мобильных устройств: Эффективные советы по сохранению данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Мобильная безопасность"
+            
+              , "Защита информации"
+            
+              , "Безопасность в Интернете"
+            
+              , "Конфиденциальность"
+            
+              , "Фишинговые атаки"
+            
+              , "Вредоносные программы"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Защита паролей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-your-mobile-device-tips-for-keeping-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как обезопасить свое мобильное устройство и защитить данные от киберугроз с помощью этих эффективных советов по обеспечению безопасности мобильных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure-your-mobile-device.png" length="160759" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание ключевых компонентов процесса OPSEC для эффективной защиты информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Процесс OPSEC"
+            
+              , "оперативная безопасность"
+            
+              , "защита информации"
+            
+              , "меры безопасности"
+            
+              , "постановления правительства"
+            
+              , "важная информация"
+            
+              , "оценка угроз"
+            
+              , "оценка уязвимости"
+            
+              , "анализ рисков"
+            
+              , "меры противодействия"
+            
+              , "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "целостность"
+            
+              , "наличие"
+            
+              , "кибербезопасность"
+            
+              , "секретная информация"
+            
+              , "соответствие"
+            
+              , "НИСПОМ"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "конфиденциальность данных"
+            
+              , "управление рисками"
+            
+              , "уровень безопасности"
+            
+              , "информационные активы"
+            
+              , "средства контроля безопасности"
+            
+              , "снижение рисков"
+            
+              , "политики безопасности"
+            
+              , "информированность о безопасности"
+            
+              , "предотвращение утечки данных"
+            
+              , "классификация информации"
+            
+              , "Что из перечисленного ниже является составными частями процесса opsec"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите критические компоненты процесса OPSEC и научитесь эффективно защищать конфиденциальную информацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 важных советов по обеспечению безопасности электронной почты: Защитите свои данные и оставайтесь в безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность электронной почты"
+            
+              , "Защита информации"
+            
+              , "Кибербезопасность"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Хищение персональных данных"
+            
+              , "Защита паролей"
+            
+              , "Фишинговые аферы"
+            
+              , "Безопасность в Интернете"
+            
+              , "Цифровая безопасность"
+            
+              , "Обучение сотрудников"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с 10 важнейшими советами по обеспечению безопасности электронной почты, которые помогут сохранить ваши данные в безопасности и защитить их от киберугроз и взломов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png" length="65775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Nmap: Исчерпывающее руководство по сканированию сети и оценке безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-nmap/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "nmap"
+            
+              , "сканирование сети"
+            
+              , "оценка безопасности"
+            
+              , "сканирование портов"
+            
+              , "обнаружение услуг"
+            
+              , "обнаружение операционной системы"
+            
+              , "Сценарий Nmap Scripting Engine"
+            
+              , "этический хакерский подход"
+            
+              , "безопасность сети"
+            
+              , "сетевая инфраструктура"
+            
+              , "обнаружение уязвимостей"
+            
+              , "ping scan"
+            
+              , "Сканирование TCP SYN"
+            
+              , "разрешение"
+            
+              , "законность"
+            
+              , "влияние на сеть"
+            
+              , "целенаправленное сканирование"
+            
+              , "защита информации"
+            
+              , "CFAA"
+            
+              , "GDPR"
+            
+              , "картирование сети"
+            
+              , "распознавание сетей"
+            
+              , "средства сетевой безопасности"
+            
+              , "кибербезопасность"
+            
+              , "инструмент с открытым исходным кодом"
+            
+              , "инструмент командной строки"
+            
+              , "обнаружение хоста"
+            
+              , "сетевая разведка"
+            
+              , "сбор информации"
+            
+              , "сетевые уязвимости"
+            
+              , "безопасная сетевая среда"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-nmap/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как эффективно использовать Nmap для сканирования сети, сканирования портов, обнаружения сервисов и идентификации операционных систем для оценки безопасности сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png" length="365940" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

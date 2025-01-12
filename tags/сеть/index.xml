@@ -1,0 +1,543 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сеть on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C//img/banner.png</url>
+      <title>Сеть on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C/</link>
+
+    <description>Recent content in Сеть on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D0%B5%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автономное обновление прошивки для Ubiquiti Unifi UDM Pro и UDM SE через командную строку SSH</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обновление прошивки Ubiquiti"
+            
+              , "УДМ Про"
+            
+              , "УДМ ЮВ"
+            
+              , "автономное обновление прошивки"
+            
+              , "командная строка SSH"
+            
+              , "управление сетью"
+            
+              , "сетевая безопасность"
+            
+              , "Обновление прошивки"
+            
+              , "SSH-соединение"
+            
+              , "файл прошивки"
+            
+              , "Сетевой контроллер UniFi"
+            
+              , "исправление ошибок"
+            
+              , "улучшения производительности"
+            
+              , "исправления безопасности"
+            
+              , "сеть"
+            
+              , "сетевые устройства"
+            
+              , "технологии"
+            
+              , "ИТ-управление"
+            
+              , "процесс обновления прошивки"
+            
+              , "оптимизация сети"
+            
+              , "Обновление прошивки Ubiquiti Networks"
+            
+              , "Обновление прошивки УДМ Про"
+            
+              , "Обновление прошивки УДМ SE"
+            
+              , "автономный процесс обновления прошивки"
+            
+              , "Обновление прошивки SSH"
+            
+              , "управление сетевыми устройствами"
+            
+              , "обновления безопасности сети"
+            
+              , "стратегии обновления прошивки"
+            
+              , "автономное управление прошивкой"
+            
+              , "оптимизация производительности сети"
+            
+              , "управление исправлениями безопасности"
+            
+              , "обновления сетевых технологий"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как обновить прошивку Ubiquiti Unifi UDM Pro и UDM SE в автономном режиме через командную строку SSH для обеспечения оптимальной производительности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi против TP-Link Omada: какая сетевая система подходит именно вам?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Убикити"
+            
+              , "ТП-Линк"
+            
+              , "сеть"
+            
+              , "Унифи"
+            
+              , "Омада"
+            
+              , "управление"
+            
+              , "аппаратное обеспечение"
+            
+              , "поддерживать"
+            
+              , "нормативно-правовые акты"
+            
+              , "функции"
+            
+              , "контроль"
+            
+              , "интерфейс"
+            
+              , "ценить"
+            
+              , "надежность"
+            
+              , "производительность"
+            
+              , "масштабируемость"
+            
+              , "простое управление"
+            
+              , "безопасность"
+            
+              , "ценообразование"
+            
+              , "недостатки"
+            
+              , "Универсальный контроллер"
+            
+              , "Омада Контроллер"
+            
+              , "аппаратное сравнение"
+            
+              , "Служба поддержки"
+            
+              , "дополнительные предложения продуктов"
+            
+              , "Ubiquiti Unifi против TP-Link Omada"
+            
+              , "веб-управление сетью"
+            
+              , "масштабируемые сетевые решения"
+            
+              , "функции сетевой безопасности"
+            
+              , "надежное сетевое оборудование"
+            
+              , "конкурентоспособные цены на сетевое оборудование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните сетевые системы Ubiquiti Unifi и TP-Link Omada, чтобы выбрать ту, которая соответствует вашим потребностям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png" length="516405" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обход BGW-320: использование Azores COTS ONT — пошаговое руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link>
+        
+        <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "КОТ ОНТ"
+            
+              , "БГВ-320"
+            
+              , "Азорские острова"
+            
+              , "волокно"
+            
+              , "сеть"
+            
+              , "XGS-PON"
+            
+              , "Ethernet"
+            
+              , "Сквозной IP-адрес"
+            
+              , "настройка"
+            
+              , "Интернет-провайдер"
+            
+              , "идентификатор"
+            
+              , "MAC-адрес"
+            
+              , "идентификатор оборудования"
+            
+              , "версия изображения"
+            
+              , "аппаратная версия"
+            
+              , "телнет"
+            
+              , "CLI-приложение"
+            
+              , "веб-интерфейс"
+            
+              , "режим заводской конфигурации"
+            
+              , "проблемы совместимости"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Из этого простого руководства вы узнаете, как обойти BGW-320 и использовать COTS ONT производства Azores для подключения к сети вашего интернет-провайдера.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание домашней лаборатории: руководство для ИТ-специалистов, студентов и любителей</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "ИТ-специалисты"
+            
+              , "студенты"
+            
+              , "любители"
+            
+              , "сеть"
+            
+              , "виртуализация"
+            
+              , "автоматизация"
+            
+              , "аппаратное обеспечение"
+            
+              , "программное обеспечение"
+            
+              , "лучшие практики"
+            
+              , "гид"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве представлен подробный обзор того, что такое домашняя лаборатория, зачем ее создавать, какие компоненты необходимы, как ее настроить, расширенные темы для изучения и рекомендации, которым следует следовать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые книги</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/books/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "книги"
+            
+              , "информационная безопасность"
+            
+              , "лучшие книги по кибербезопасности"
+            
+              , "лучшие книги по автоматизации"
+            
+              , "книги по автоматизации"
+            
+              , "рекомендации по книгам по кибербезопасности"
+            
+              , "кибербезопасность для чайников"
+            
+              , "Кодирование и сценарии"
+            
+              , "Автоматизация"
+            
+              , "Windows PowerShell"
+            
+              , "Сисадмины"
+            
+              , "Ансибль"
+            
+              , "Сетевая автоматизация"
+            
+              , "питон"
+            
+              , "Виндовс Сервер 2019"
+            
+              , "Синяя команда"
+            
+              , "Создание безопасных и надежных систем"
+            
+              , "Хэш Крэк"
+            
+              , "ПТФМ"
+            
+              , "Полевое руководство фиолетовой команды"
+            
+              , "Справочник оператора"
+            
+              , "Полевое руководство красной команды"
+            
+              , "Инженерия безопасности"
+            
+              , "Искусство обмана"
+            
+              , "Искусство вторжения"
+            
+              , "Искусство невидимости"
+            
+              , "Хакерская книга"
+            
+              , "Справочник хакера веб-приложений"
+            
+              , "Племя хакеров"
+            
+              , "Сеть"
+            
+              , "Интеллект с открытым исходным кодом"
+            
+              , "Операционные системы"
+            
+              , "Программное обеспечение"
+            
+              , "Конфиденциальность"
+            
+              , "Экстремальная конфиденциальность"
+            
+              , "Создайте свой собственный живой траст"
+            
+              , "Другой"
+            
+              , "Эта книга была опубликована самостоятельно"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/books/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это коллекция рекомендуемых книг от SimeonOnSecurity. Книги охватывают различные темы, включая автоматизацию кодирования и сценариев, кибербезопасность, работу с сетями, разведку с открытым исходным кодом, операционные системы и программное обеспечение, конфиденциальность и другие связанные темы. С двухмесячной пробной версией Amazon Kindle Unlimited вы можете читать большинство этих книг бесплатно. Эта коллекция предлагает ряд книг как для начинающих, так и для экспертов, с такими названиями, как «Ускоренный курс Python» и «Искусство обмана». Если вы хотите улучшить свои навыки кодирования или лучше понять кибербезопасность, в этой коллекции каждый найдет что-то для себя.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Облачное Резервное Копирование on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B5-%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5//img/banner.png</url>
+      <title>Облачное Резервное Копирование on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B5-%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B5-%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+
+    <description>Recent content in Облачное Резервное Копирование on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B5-%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,392 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Кибератаки on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%B0%D0%BA%D0%B8//img/banner.png</url>
+      <title>Кибератаки on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%B0%D0%BA%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%B0%D0%BA%D0%B8/</link>
+
+    <description>Recent content in Кибератаки on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%B0%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня безопасности: Возможности систем управления уязвимостями</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Снижение рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность данных"
+            
+              , "Оценка уязвимости"
+            
+              , "Позиция в области безопасности"
+            
+              , "Автоматизация"
+            
+              , "Интеграция"
+            
+              , "Отчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепление безопасности организации и снижение рисков с помощью систем управления уязвимостями. Узнайте об их преимуществах и важности в современном цифровом ландшафте.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 основных правил безопасности паролей: Защита цифровой идентичности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Защита цифровой идентичности"
+            
+              , "Защита паролей"
+            
+              , "Безопасность в Интернете"
+            
+              , "Конфиденциальность данных"
+            
+              , "Советы по обеспечению безопасности в Интернете"
+            
+              , "Управление паролями"
+            
+              , "Двухфакторная аутентификация"
+            
+              , "Восстановление паролей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с 10 основными правилами безопасности паролей для защиты своей цифровой идентичности и персональных данных от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/ten-essential-password-security-guidelines-to-follow.png" length="114655" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство реагирования на инциденты: Лучшие практики и примеры из реальной жизни</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "реагирование на инциденты"
+            
+              , "кибербезопасность"
+            
+              , "NIST"
+            
+              , "передовой опыт"
+            
+              , "разведка угроз"
+            
+              , "связь"
+            
+              , "анализ после инцидента"
+            
+              , "Эквифакс"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Колониальный трубопровод"
+            
+              , "Microsoft Exchange Server"
+            
+              , "уязвимости"
+            
+              , "обнаружение вторжений"
+            
+              , "защитная оболочка"
+            
+              , "восстановление"
+            
+              , "подготовка"
+            
+              , "кибератаки"
+            
+              , "киберпреступность"
+            
+              , "инциденты безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках реагирования на инциденты в соответствии с NIST SP 800-61 Rev. 2 и познакомьтесь с реальными примерами эффективных стратегий реагирования на инциденты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Важность соблюдения требований и профессионализма в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "хозяйственная деятельность"
+            
+              , "безопасность сети"
+            
+              , "конфиденциальная информация"
+            
+              , "кибератаки"
+            
+              , "технология"
+            
+              , "программное обеспечение"
+            
+              , "профессионализм"
+            
+              , "соответствие"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "передовой опыт"
+            
+              , "приоритет"
+            
+              , "культура безопасности"
+            
+              , "утечки данных"
+            
+              , "интеллектуальная собственность"
+            
+              , "проактивный подход"
+            
+              , "низкий приоритет"
+            
+              , "нехватка ресурсов"
+            
+              , "обучение"
+            
+              , "приверженность принципам безопасности"
+            
+              , "офицеры по информационной безопасности (ISSO)"
+            
+              , "системы управления информационной безопасностью (СУИБ)"
+            
+              , "обучение и опыт"
+            
+              , "угрозы безопасности"
+            
+              , "100% успешное прохождение аудита на соответствие требованиям"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "Серия NIST 800"
+            
+              , "политическая игра"
+            
+              , "доверие"
+            
+              , "честность"
+            
+              , "сотрудничество"
+            
+              , "papertrail"
+            
+              , "прозрачность"
+            
+              , "подотчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Кибербезопасность является одним из важнейших аспектов деятельности современного бизнеса и требует комплексного подхода, включающего в себя наличие необходимых систем, протоколов и персонала для эффективного управления защитой от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png" length="418583" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

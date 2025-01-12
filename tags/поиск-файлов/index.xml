@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Поиск Файлов on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2//img/banner.png</url>
+      <title>Поиск Файлов on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2/</link>
+
+    <description>Recent content in Поиск Файлов on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих: Использование командной строки Linux для обеспечения кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</link>
+        
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Командная строка"
+            
+              , "Кибербезопасность"
+            
+              , "Руководство для начинающих"
+            
+              , "Сканирование сети"
+            
+              , "Тестирование уязвимостей"
+            
+              , "Анализ вредоносного ПО"
+            
+              , "Разрешения"
+            
+              , "Сетевой трафик"
+            
+              , "Состояние процесса"
+            
+              , "Сетевая статистика"
+            
+              , "Поиск файлов"
+            
+              , "Wireshark"
+            
+              , "TCPDump"
+            
+              , "Nmap"
+            
+              , "Linux CLI"
+            
+              , "Безопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Цифровая криминалистика"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать командную строку Linux для обеспечения кибербезопасности с помощью базовых и расширенных команд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png" length="362807" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

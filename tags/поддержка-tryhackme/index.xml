@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Поддержка TryHackMe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-tryhackme//img/banner.png</url>
+      <title>Поддержка TryHackMe on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-tryhackme/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-tryhackme/</link>
+
+    <description>Recent content in Поддержка TryHackMe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Развитие навыков кибербезопасности: Обзор TryHackMe</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Онлайн-обучение"
+            
+              , "Этический хакинг"
+            
+              , "Сетевая безопасность"
+            
+              , "Виртуальные лаборатории"
+            
+              , "Сертификаты"
+            
+              , "Пути обучения"
+            
+              , "Практический опыт"
+            
+              , "Обзор TryHackMe"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности TryHackMe: особенности, цены, сертификации, сетевые сервисы и многое другое, что позволит вам овладеть навыками кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png" length="1541792" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

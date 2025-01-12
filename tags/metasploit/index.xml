@@ -1,0 +1,349 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metasploit on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/metasploit//img/banner.png</url>
+      <title>Metasploit on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/metasploit/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/metasploit/</link>
+
+    <description>Recent content in Metasploit on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/metasploit/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Изучение Metasploit: Комплексная платформа для тестирования на проникновение и разработки эксплойтов</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "тестирование на проникновение"
+            
+              , "разработка эксплойтов"
+            
+              , "сканирование уязвимостей"
+            
+              , "формирование полезной нагрузки"
+            
+              , "после операции"
+            
+              , "этический хакерский подход"
+            
+              , "кибербезопасность"
+            
+              , "с открытым исходным кодом"
+            
+              , "система безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "социальная инженерия"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "компьютерная безопасность"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "решения по безопасности"
+            
+              , "постановления правительства"
+            
+              , "Закон о компьютерном мошенничестве и злоупотреблениях"
+            
+              , "CFAA"
+            
+              , "информированность о безопасности"
+            
+              , "инструменты взлома"
+            
+              , "средства кибербезопасности"
+            
+              , "сообщество кибербезопасности"
+            
+              , "ресурсы по кибербезопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение требований кибербезопасности"
+            
+              , "законы о кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Metasploit, фреймворка с открытым исходным кодом для тестирования на проникновение и разработки эксплойтов, обладающего широкими возможностями и большим сообществом.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png" length="199307" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила тестирования на проникновение в кибербезопасности: Методы, инструменты и лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "соответствие"
+            
+              , "реагирование на инциденты"
+            
+              , "доверие клиентов"
+            
+              , "тестирование черного ящика"
+            
+              , "тестирование белого ящика"
+            
+              , "тестирование серого ящика"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Набор для отрыжки"
+            
+              , "Wireshark"
+            
+              , "сканирование сети"
+            
+              , "безопасность веб-приложений"
+            
+              , "защита информации"
+            
+              , "предотвращение киберугроз"
+            
+              , "оценка цифровой безопасности"
+            
+              , "повышение уровня безопасности"
+            
+              , "анализатор сетевых протоколов"
+            
+              , "стратегия кибербезопасности"
+            
+              , "уязвимости системы"
+            
+              , "укрепление обороноспособности"
+            
+              , "защита цифровых активов"
+            
+              , "преимущества тестирования на проникновение"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение нормативных требований"
+            
+              , "безопасность данных клиентов"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важнейшую роль тестирования на проникновение в кибербезопасности, узнайте об эффективных методах, основных инструментах и лучших практиках.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png" length="227089" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исчерпывающее руководство для начинающих по инструментам и методам тестирования на проникновение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "инструменты"
+            
+              , "методики"
+            
+              , "руководство для начинающих"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Набор для отрыжки"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "тестирование безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "безопасность сети"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными инструментами и методами тестирования на проникновение, методологиями и сертификатами, чтобы начать свою карьеру в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_balaclava.png" length="403619" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

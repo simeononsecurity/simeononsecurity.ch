@@ -1,0 +1,277 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FireFox on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/firefox//img/banner.png</url>
+      <title>FireFox on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/firefox/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/firefox/</link>
+
+    <description>Recent content in FireFox on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие браузеры для обеспечения конфиденциальности - LibreWolf vs. Brave vs. Firefox vs. Tor</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность"
+            
+              , "Интернет"
+            
+              , "Технология"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в Интернете"
+            
+              , "Открытый исходный код"
+            
+              , "Анонимность"
+            
+              , "Веб-браузинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие браузеры, ориентированные на конфиденциальность - LibreWolf, Brave, Firefox и Tor - для безопасной работы в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие безопасные браузеры для защиты конфиденциальности: Brave, Firefox и Tor</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-best-browsers-for-privacy-and-security-in-2023/</link>
+        
+        <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "безопасные браузеры"
+            
+              , "защита конфиденциальности"
+            
+              , "Смелый браузер"
+            
+              , "Firefox"
+            
+              , "Тор"
+            
+              , "безопасность в Интернете"
+            
+              , "конфиденциальность в интернете"
+            
+              , "возможности браузера"
+            
+              , "блокировка рекламы"
+            
+              , "защита от слежения"
+            
+              , "с открытым исходным кодом"
+            
+              , "кросс-платформенный"
+            
+              , "Фокус Firefox"
+            
+              , "Сеть Tor"
+            
+              , "альтернативные браузеры"
+            
+              , "Вивальди"
+            
+              , "Epic"
+            
+              , "Puffin"
+            
+              , "Waterfox"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-best-browsers-for-privacy-and-security-in-2023/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие безопасные браузеры для защиты конфиденциальности, в том числе Brave, Firefox и Tor, и узнайте об их особенностях и преимуществах.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png" length="316565" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация соблюдения требований безопасности с помощью сценариев STIG</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарии СТИГ"
+            
+              , "соблюдение требований безопасности"
+            
+              , "автоматизация"
+            
+              , "Windows"
+            
+              , "приложения"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Плейбуки Ansible"
+            
+              , "подготовка домена"
+            
+              , "Защитник Windows"
+            
+              , "кибербезопасность"
+            
+              , "скриптинг"
+            
+              , "Соответствие требованиям НТИГ"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-безопасность"
+            
+              , "управление исправлениями"
+            
+              , "системное администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию сценариев STIG для автоматизации соблюдения требований безопасности для Windows и популярных приложений, включая .NET, Adobe Reader DC и Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

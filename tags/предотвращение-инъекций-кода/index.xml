@@ -1,0 +1,193 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Предотвращение Инъекций Кода on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D0%B9-%D0%BA%D0%BE%D0%B4%D0%B0//img/banner.png</url>
+      <title>Предотвращение Инъекций Кода on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D0%B9-%D0%BA%D0%BE%D0%B4%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D0%B9-%D0%BA%D0%BE%D0%B4%D0%B0/</link>
+
+    <description>Recent content in Предотвращение Инъекций Кода on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D0%B9-%D0%BA%D0%BE%D0%B4%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие практики безопасного кодирования в PowerShell: Руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Безопасное кодирование"
+            
+              , "Системы на базе Windows"
+            
+              , "Входная валидация"
+            
+              , "Библиотеки для криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Протоколы защищенной связи"
+            
+              , "Ведение журнала и мониторинг"
+            
+              , "Сканирование уязвимостей"
+            
+              , "Образование"
+            
+              , "Код инъекции"
+            
+              , "Повышение привилегий"
+            
+              , "Утечка данных"
+            
+              , "Упрочняющая среда"
+            
+              , "Политика безопасности"
+            
+              , "Межсетевые экраны"
+            
+              , "Системы обнаружения вторжений"
+            
+              , "Управление уязвимостями"
+            
+              , "Сетевая безопасность"
+            
+              , "Лучшие практики кодирования PowerShell"
+            
+              , "безопасный код PowerShell"
+            
+              , "Безопасность системы Windows"
+            
+              , "проверка правильности ввода в PowerShell"
+            
+              , "криптография в PowerShell"
+            
+              , "принцип наименьших привилегий"
+            
+              , "статический анализатор кода для PowerShell"
+            
+              , "безопасные протоколы связи в PowerShell"
+            
+              , "протоколирование и мониторинг в PowerShell"
+            
+              , "сканирование уязвимостей в PowerShell"
+            
+              , "Образование в области безопасности PowerShell"
+            
+              , "предотвращение инъекций кода"
+            
+              , "защита от повышения привилегий"
+            
+              , "предотвращение утечки данных в PowerShell"
+            
+              , "укрепление среды PowerShell"
+            
+              , "политики безопасности для PowerShell"
+            
+              , "настройка брандмауэра в PowerShell"
+            
+              , "системы обнаружения вторжений для PowerShell"
+            
+              , "управление уязвимостями в PowerShell"
+            
+              , "сетевая безопасность в PowerShell"
+            
+              , "безопасное кодирование сценариев PowerShell"
+            
+              , "дезинфекция входных и выходных данных в PowerShell"
+            
+              , "протоколы безопасного обмена данными для PowerShell"
+            
+              , "протоколирование и мониторинг в сценариях PowerShell"
+            
+              , "упрочнение среды PowerShell"
+            
+              , "выполнять сканирование уязвимостей в PowerShell"
+            
+              , "обучать пользователей и администраторов безопасности PowerShell"
+            
+              , "безопасные методы работы с кодом PowerShell"
+            
+              , "безопасный и устойчивый к внешним воздействиям код PowerShell"
+            
+              , "лучшие практики обеспечения безопасности PowerShell"
+            
+              , "Лучшие методы обеспечения безопасности powershell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках написания безопасного кода PowerShell для защиты систем на базе Windows от уязвимостей.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

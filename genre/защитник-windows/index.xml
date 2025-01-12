@@ -1,0 +1,174 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Защитник Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows//img/banner.png</url>
+      <title>Защитник Windows on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows/</link>
+
+    <description>Recent content in Защитник Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности системы с помощью команд Windows Defender PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Команды PowerShell"
+            
+              , "безопасность системы"
+            
+              , "управление из командной строки"
+            
+              , "антивирус"
+            
+              , "Операционные системы Windows"
+            
+              , "защита от вредоносного ПО"
+            
+              , "расширенные настройки безопасности"
+            
+              , "автоматизация операций по обеспечению безопасности"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал больше о создании и реализации политики WDAC</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Безопасность Windows"
+            
+              , "Управление приложениями"
+            
+              , "Защитник Windows"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Защита от угроз"
+            
+              , "Windows Server 2019"
+            
+              , "Безопасность предприятия"
+            
+              , "Управление политикой"
+            
+              , "Лучшие практики безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал больше об условных сигналах Ansible и управлении переменными
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,301 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Эффективность ИТ on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8%D1%82//img/banner.png</url>
+      <title>Эффективность ИТ on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8%D1%82/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8%D1%82/</link>
+
+    <description>Recent content in Эффективность ИТ on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: комплексное решение по мониторингу для эффективного управления ИТ-инфраструктурой</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Мониторинг сети"
+            
+              , "Мониторинг приложений"
+            
+              , "ИТ-операции"
+            
+              , "Аналитика производительности"
+            
+              , "Автоматизация"
+            
+              , "Управление событиями"
+            
+              , "Масштабируемость"
+            
+              , "Гибкость"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с возможностями, преимуществами и вариантами использования CheckMK, комплексного решения для проактивного управления ИТ-инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение эффективности гибридного облака: Раскрытие полного потенциала Ansible</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link>
+        
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оперативная информация"
+            
+              , "CICD"
+            
+              , "масштабируемость"
+            
+              , "производительность"
+            
+              , "безопасность"
+            
+              , "соответствие"
+            
+              , "интеграция"
+            
+              , "Amazon Web Services"
+            
+              , "Microsoft Azure"
+            
+              , "Облако Google"
+            
+              , "Ansible Tower"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "экономия средств"
+            
+              , "Эффективность ИТ"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как возможности автоматизации Ansible позволяют оптимизировать, защитить и оптимизировать гибридные облачные среды для повышения производительности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимальное повышение эффективности с помощью Ansible, Docker и Kubernetes: Руководство по автоматизации кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Автоматизация кибербезопасности"
+            
+              , "Оценка уязвимости"
+            
+              , "Управление исправлениями"
+            
+              , "Оркестровка контейнеров"
+            
+              , "Сегментация сети"
+            
+              , "Управление доступом на основе ролей"
+            
+              , "Секретное управление"
+            
+              , "Сканирование системы безопасности"
+            
+              , "Подписание изображений"
+            
+              , "Средства автоматизации"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Предотвращение утечек данных"
+            
+              , "Повышение эффективности"
+            
+              , "Автоматизация систем безопасности"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Контейнеризация"
+            
+              , "Безопасность контейнеров"
+            
+              , "Масштабируемые системы"
+            
+              , "Безопасные среды"
+            
+              , "Сетевая безопасность"
+            
+              , "Лучшие практики в области кибербезопасности"
+            
+              , "Снижение рисков"
+            
+              , "Управление безопасностью"
+            
+              , "ИТ-операции"
+            
+              , "Эффективные рабочие процессы"
+            
+              , "Автоматизация систем безопасности"
+            
+              , "Эффективность ИТ"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Ansible, Docker и Kubernetes для автоматизации процессов кибербезопасности и снижения риска утечки данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,222 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BHIS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/bhis//img/banner.png</url>
+      <title>BHIS on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/bhis/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/bhis/</link>
+
+    <description>Recent content in BHIS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/bhis/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Discord Backdoors and Breaches Bot: A Turn-Based Strategy Game Companion</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/discord-backdoors-and-breaches/</link>
+        
+        <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Discord бот"
+            
+              , "Бэкдоры и взломы"
+            
+              , "пошаговая стратегическая игра"
+            
+              , "игровой компаньон"
+            
+              , "игровые команды"
+            
+              , "стратегический игровой бот"
+            
+              , "BHIS"
+            
+              , "Black Hills InfoSec"
+            
+              , "мастер инцидента"
+            
+              , "Команда C2"
+            
+              , "этапы игры"
+            
+              , "настройка игры"
+            
+              , "инструкции по игре"
+            
+              , "игровой канал"
+            
+              , "Python-бот"
+            
+              , "Docker-бот"
+            
+              , "автоматизация игр"
+            
+              , "игровое сотрудничество"
+            
+              , "координация игры"
+            
+              , "игра по кибербезопасности"
+            
+              , "информационная безопасность"
+            
+              , "разработка игр"
+            
+              , "советы по геймплею"
+            
+              , "многопользовательская игра"
+            
+              , "игровые роли"
+            
+              , "игровые задачи"
+            
+              , "этапы игры"
+            
+              , "настройка игрового окружения"
+            
+              , "докеризованный бот"
+            
+              , "Зависимости Python"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/discord-backdoors-and-breaches/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Улучшите свой опыт игры в Backdoors and Breaches с помощью этого пре-альфа Discord-бота, предоставляющего команды для облегчения игрового процесса и взаимодействия.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: упрощение развертывания и настройки Sysmon</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизировать Сисмон"
+            
+              , "Как автоматизировать Sysmon"
+            
+              , "Как автоматизировать настройку Sysmon"
+            
+              , "Как установить Сисмон"
+            
+              , "PowerShell"
+            
+              , "Скрипт"
+            
+              , "Развертывание Sysmon"
+            
+              , "Конфигурация сисмона"
+            
+              , "Системное ведение журнала"
+            
+              , "Обнаружение угроз"
+            
+              , "Вредоносная активность"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Репозиторий GitHub"
+            
+              , "BHIS"
+            
+              , "Мониторинг системы"
+            
+              , "Исследование безопасности"
+            
+              , "Создание процесса"
+            
+              , "Сетевые соединения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как развернуть и настроить Sysmon для повышения безопасности вашей системы с помощью сценария Automate-Sysmon, который упрощает процесс даже для начинающих пользователей.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

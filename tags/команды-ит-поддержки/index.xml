@@ -1,0 +1,125 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Команды ИТ-Поддержки on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B8%D1%82-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8//img/banner.png</url>
+      <title>Команды ИТ-Поддержки on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B8%D1%82-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B8%D1%82-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8/</link>
+
+    <description>Recent content in Команды ИТ-Поддержки on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B8%D1%82-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание безопасного и совместимого облачного озера данных: Лучшие практики защиты хранимых данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "озеро данных"
+            
+              , "облачная безопасность"
+            
+              , "нормативные документы"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "мониторинг"
+            
+              , "патчи"
+            
+              , "кибербезопасность"
+            
+              , "SIEM-решение"
+            
+              , "Команды ИТ-поддержки"
+            
+              , "картина угроз"
+            
+              , "миграция в облако"
+            
+              , "управление облачными вычислениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном руководстве вы узнаете о лучших практиках обеспечения безопасности и соответствия нормативным требованиям при планировании, создании и управлении облачными озерами данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

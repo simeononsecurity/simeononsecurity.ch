@@ -1,0 +1,184 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Sysinternals on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/microsoft-sysinternals//img/banner.png</url>
+      <title>Microsoft Sysinternals on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/microsoft-sysinternals/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/microsoft-sysinternals/</link>
+
+    <description>Recent content in Microsoft Sysinternals on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/microsoft-sysinternals/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: упрощение развертывания и настройки Sysmon</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизировать Сисмон"
+            
+              , "Как автоматизировать Sysmon"
+            
+              , "Как автоматизировать настройку Sysmon"
+            
+              , "Как установить Сисмон"
+            
+              , "PowerShell"
+            
+              , "Скрипт"
+            
+              , "Развертывание Sysmon"
+            
+              , "Конфигурация сисмона"
+            
+              , "Системное ведение журнала"
+            
+              , "Обнаружение угроз"
+            
+              , "Вредоносная активность"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Репозиторий GitHub"
+            
+              , "BHIS"
+            
+              , "Мониторинг системы"
+            
+              , "Исследование безопасности"
+            
+              , "Создание процесса"
+            
+              , "Сетевые соединения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как развернуть и настроить Sysmon для повышения безопасности вашей системы с помощью сценария Automate-Sysmon, который упрощает процесс даже для начинающих пользователей.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал о Auditpol, Sysmon и конфигурациях Sysmon</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2021-05-11/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Sysmon"
+            
+              , "Конфигурации"
+            
+              , "Безопасность Windows"
+            
+              , "Мониторинг событий"
+            
+              , "Администрирование Windows"
+            
+              , "Аудит безопасности"
+            
+              , "Охота за угрозами"
+            
+              , "Анализ вредоносного ПО"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2021-05-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;&lt;strong&gt;Что интересного узнал и нашел сегодня SimeonOnSecurity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Сегодня SimeonOnSecurity узнал и обнаружил несколько интересных вещей, связанных с безопасностью Windows и мониторингом событий.&lt;/p&gt;
+&lt;p&gt;Во-первых, были обнаружены два новых и обновленных репозитория. Репозиторий Automate-Sysmon предоставляет решение для автоматизации установки, настройки и управления Sysmon, популярным инструментом для мониторинга и протоколирования системной активности в системах Windows. Репозиторий Windows-Audit-Policy предназначен для автоматизации настройки политик аудита Windows, которые управляют аудитом различных событий, связанных с безопасностью, в системах Windows.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Автоматизированный Перевод on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4//img/banner.png</url>
+      <title>Автоматизированный Перевод on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4/</link>
+
+    <description>Recent content in Автоматизированный Перевод on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Скрипт автоматизации перевода для Markdown-файлов Hugo - Glotta</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/glotta/</link>
+        
+        <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "автоматизация перевода"
+            
+              , "Hugo markdown"
+            
+              , "локализация"
+            
+              , "многоязычный контент"
+            
+              , "инструмент командной строки"
+            
+              , "языковой перевод"
+            
+              , "языковая локализация"
+            
+              , "сценарий автоматизации"
+            
+              , "перевод контента"
+            
+              , "многоязычный сайт"
+            
+              , "языковая поддержка"
+            
+              , "рабочий процесс локализации"
+            
+              , "процесс перевода"
+            
+              , "языковая интеграция"
+            
+              , "Генератор статических сайтов Hugo"
+            
+              , "Glotta"
+            
+              , "языковые файлы"
+            
+              , "API перевода"
+            
+              , "поставщики услуг перевода"
+            
+              , "услуга перевода"
+            
+              , "управление языком"
+            
+              , "многоязычное SEO"
+            
+              , "локализация контента"
+            
+              , "глобализация веб-сайтов"
+            
+              , "инструмент языковой поддержки"
+            
+              , "языковой документооборот"
+            
+              , "эффективность перевода"
+            
+              , "эффективность локализации"
+            
+              , "автоматизированный перевод"
+            
+              , "Многоязычная поддержка Hugo"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/glotta/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Glotta - это мощный инструмент командной строки, автоматизирующий перевод маркдаун-файлов Hugo на несколько языков, что значительно упрощает процесс локализации.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

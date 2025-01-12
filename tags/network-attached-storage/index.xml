@@ -1,0 +1,238 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Attached Storage on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/network-attached-storage//img/banner.png</url>
+      <title>Network Attached Storage on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/network-attached-storage/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/network-attached-storage/</link>
+
+    <description>Recent content in Network Attached Storage on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/network-attached-storage/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите свои данные с помощью правила резервного копирования 3-2-1.</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "стратегия резервного копирования"
+            
+              , "защита данных"
+            
+              , "информационная безопасность"
+            
+              , "избыточность данных"
+            
+              , "предотвращение потери данных"
+            
+              , "восстановление данных"
+            
+              , "согласие"
+            
+              , "внешние жесткие диски"
+            
+              , "услуги облачного хранилища"
+            
+              , "Network Attached Storage"
+            
+              , "программное обеспечение для резервного копирования"
+            
+              , "автоматическое резервное копирование"
+            
+              , "безопасность данных"
+            
+              , "аварийное восстановление"
+            
+              , "внешнее резервное копирование"
+            
+              , "избыточные резервные копии"
+            
+              , "лучшие практики резервного копирования"
+            
+              , "решения для резервного копирования"
+            
+              , "типы хранения"
+            
+              , "безопасность данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить ценные данные от кибератак, стихийных бедствий и сбоев оборудования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png" length="274502" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unraid против TrueNas: какая операционная система NAS подходит именно вам?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Unraid"
+            
+              , "TrueNAS"
+            
+              , "Операционная система NAS"
+            
+              , "Сравнение"
+            
+              , "Удобство для пользователя"
+            
+              , "Функции"
+            
+              , "Документация"
+            
+              , "Сообщество"
+            
+              , "Открытый источник"
+            
+              , "Предприятие"
+            
+              , "Защита данных"
+            
+              , "Производительность"
+            
+              , "Гибкость"
+            
+              , "Легко использовать"
+            
+              , "Сторонние приложения"
+            
+              , "Network Attached Storage"
+            
+              , "Технология RAID"
+            
+              , "Управление хранилищем"
+            
+              , "OpenZFS"
+            
+              , "Домашние пользователи"
+            
+              , "Модель ценообразования"
+            
+              , "Облачное хранилище"
+            
+              , "Виртуализация"
+            
+              , "Центр документации"
+            
+              , "форум сообщества"
+            
+              , "Расширенная защита данных"
+            
+              , "Зрелая ОС NAS"
+            
+              , "Техническая экспертиза"
+            
+              , "ИТ-специалисты"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Всестороннее сравнение Unraid и TrueNas, включая удобство использования, функции, документацию и сообщество, чтобы помочь пользователям принять обоснованное решение о том, какая операционная система NAS лучше всего соответствует их потребностям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

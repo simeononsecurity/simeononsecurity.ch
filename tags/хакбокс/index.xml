@@ -1,0 +1,390 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ХакБокс on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%85%D0%B0%D0%BA%D0%B1%D0%BE%D0%BA%D1%81//img/banner.png</url>
+      <title>ХакБокс on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%85%D0%B0%D0%BA%D0%B1%D0%BE%D0%BA%D1%81/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%85%D0%B0%D0%BA%D0%B1%D0%BE%D0%BA%D1%81/</link>
+
+    <description>Recent content in ХакБокс on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%85%D0%B0%D0%BA%D0%B1%D0%BE%D0%BA%D1%81/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Задания - Крипто - Звонок</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Крипто вызов"
+            
+              , "Тоны DTMF"
+            
+              , "Шифр простого числа"
+            
+              , "Расшифровка"
+            
+              , "Решение головоломок"
+            
+              , "Криптография"
+            
+              , "Преобразование аудио"
+            
+              , "DialABC"
+            
+              , "Декодировать.fr"
+            
+              , "WAV"
+            
+              , "MP3"
+            
+              , "Частота"
+            
+              , "Математическая черта"
+            
+              , "Флаг"
+            
+              , "Мужество"
+            
+              , "Звуковой визуализатор"
+            
+              , "Числа"
+            
+              , "Меню банкомата"
+            
+              , "платный телефон"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как расшифровывать тональные сигналы DTMF с помощью шифра простых чисел, чтобы решить задачу Crypto — Call на HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Испытания - Крипто - Расшифровка</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Проблемы"
+            
+              , "Крипто"
+            
+              , "Расшифровать"
+            
+              , "Записать"
+            
+              , "Шифр Фернета"
+            
+              , "Шифр Мальбога"
+            
+              , "Симметричное шифрование"
+            
+              , "Информационная безопасность"
+            
+              , "Криптография"
+            
+              , "Проверка на проницаемость"
+            
+              , "питон"
+            
+              , "Безопасность"
+            
+              , "Испытание"
+            
+              , "CTF"
+            
+              , "Флаг"
+            
+              , "Шифрование"
+            
+              , "Расшифровка"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как расшифровать шифры Фернета и Мальбоге, чтобы решить задачу HackTheBox Crypto Challenge и раскрыть скрытый флаг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Invite Challenge (Windows/Linux)</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Пригласить вызов"
+            
+              , "Проверка на проницаемость"
+            
+              , "Информационная безопасность"
+            
+              , "Окна"
+            
+              , "линукс"
+            
+              , "Онлайн-платформа"
+            
+              , "HTTP-ПОСТ"
+            
+              , "Код приглашения"
+            
+              , "Кодировка Base64"
+            
+              , "PowerShell"
+            
+              , "Линукс Баш"
+            
+              , "Декодирование Base64"
+            
+              , "Генерация кода приглашения"
+            
+              , "Программирование"
+            
+              , "Веб-разработка"
+            
+              , "Технологии"
+            
+              , "ИТ-безопасность"
+            
+              , "ИТ-обучение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как сгенерировать код приглашения и присоединиться к онлайн-платформе HackTheBox, чтобы проверить и усовершенствовать свои навыки в области тестирования на проникновение и кибербезопасности как в Windows, так и в Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox — Проблема — Крипто — Слабый RSA</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Проблемы"
+            
+              , "Крипто"
+            
+              , "Слабый RSA"
+            
+              , "RsaCtfTool"
+            
+              , "HTB Слабая RSA Crypto"
+            
+              , "Легкий вызов"
+            
+              , "шифр RSA"
+            
+              , "flag.enc"
+            
+              , "key.pub"
+            
+              , "Пакет OpenSSL"
+            
+              , "автоматизированный инструмент для RSA-атак"
+            
+              , "скрипт питона"
+            
+              , "RsaCtfTool"
+            
+              , "питон3"
+            
+              , "открытый ключ"
+            
+              , "расшифровать файл"
+            
+              , "Пример флага"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать автоматизированный инструмент RSA-атаки RsaCtfTool, чтобы легко решить проблему HackTheBox Weak RSA Crypto.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

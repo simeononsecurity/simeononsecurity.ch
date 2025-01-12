@@ -1,0 +1,155 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Командная Строка SSH on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-ssh//img/banner.png</url>
+      <title>Командная Строка SSH on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-ssh/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-ssh/</link>
+
+    <description>Recent content in Командная Строка SSH on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автономное обновление прошивки для Ubiquiti Unifi UDM Pro и UDM SE через командную строку SSH</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обновление прошивки Ubiquiti"
+            
+              , "УДМ Про"
+            
+              , "УДМ ЮВ"
+            
+              , "автономное обновление прошивки"
+            
+              , "командная строка SSH"
+            
+              , "управление сетью"
+            
+              , "сетевая безопасность"
+            
+              , "Обновление прошивки"
+            
+              , "SSH-соединение"
+            
+              , "файл прошивки"
+            
+              , "Сетевой контроллер UniFi"
+            
+              , "исправление ошибок"
+            
+              , "улучшения производительности"
+            
+              , "исправления безопасности"
+            
+              , "сеть"
+            
+              , "сетевые устройства"
+            
+              , "технологии"
+            
+              , "ИТ-управление"
+            
+              , "процесс обновления прошивки"
+            
+              , "оптимизация сети"
+            
+              , "Обновление прошивки Ubiquiti Networks"
+            
+              , "Обновление прошивки УДМ Про"
+            
+              , "Обновление прошивки УДМ SE"
+            
+              , "автономный процесс обновления прошивки"
+            
+              , "Обновление прошивки SSH"
+            
+              , "управление сетевыми устройствами"
+            
+              , "обновления безопасности сети"
+            
+              , "стратегии обновления прошивки"
+            
+              , "автономное управление прошивкой"
+            
+              , "оптимизация производительности сети"
+            
+              , "управление исправлениями безопасности"
+            
+              , "обновления сетевых технологий"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как обновить прошивку Ubiquiti Unifi UDM Pro и UDM SE в автономном режиме через командную строку SSH для обеспечения оптимальной производительности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

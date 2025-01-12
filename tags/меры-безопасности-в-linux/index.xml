@@ -1,0 +1,157 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Меры Безопасности В Linux on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-linux//img/banner.png</url>
+      <title>Меры Безопасности В Linux on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-linux/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-linux/</link>
+
+    <description>Recent content in Меры Безопасности В Linux on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%80%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Linux File Hashes: Руководство по получению хэшей SHA256, MD5 и SHA1 с помощью встроенных средств</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Хеширование файлов в Linux"
+            
+              , "хэш SHA256"
+            
+              , "MD5-хэш"
+            
+              , "SHA1-хэш"
+            
+              , "Командная строка Linux"
+            
+              , "целостность файлов"
+            
+              , "проверка данных"
+            
+              , "Безопасность Linux"
+            
+              , "встроенные инструменты"
+            
+              , "проверка файлов"
+            
+              , "достоверность данных"
+            
+              , "алгоритмы хеширования файлов"
+            
+              , "Системное администрирование Linux"
+            
+              , "инструменты командной строки"
+            
+              , "контрольные суммы файлов"
+            
+              , "Утилиты Linux"
+            
+              , "проверка целостности файлов"
+            
+              , "проверка целостности данных"
+            
+              , "примеры хеширования файлов"
+            
+              , "Команды хеширования в Linux"
+            
+              , "методы хеширования файлов"
+            
+              , "Меры безопасности в Linux"
+            
+              , "Защита данных в Linux"
+            
+              , "Управление файлами в Linux"
+            
+              , "Проверка файлов в Linux"
+            
+              , "Целостность файлов в Linux"
+            
+              , "безопасность данных"
+            
+              , "Валидация данных в Linux"
+            
+              , "Безопасность системы Linux"
+            
+              , "методы хеширования файлов"
+            
+              , "обеспечение целостности файлов"
+            
+              , "безопасная проверка файлов"
+            
+              , "Целостность данных в Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью встроенных средств получить SHA256, MD5 и SHA1 хэши файлов в Linux, обеспечив целостность данных и подлинность файлов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_digital_representation_of_file_hashes_being_calculated.png" length="322591" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

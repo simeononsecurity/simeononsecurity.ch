@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Решение Головоломок on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BA//img/banner.png</url>
+      <title>Решение Головоломок on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BA/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BA/</link>
+
+    <description>Recent content in Решение Головоломок on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Задания - Крипто - Звонок</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Крипто вызов"
+            
+              , "Тоны DTMF"
+            
+              , "Шифр простого числа"
+            
+              , "Расшифровка"
+            
+              , "Решение головоломок"
+            
+              , "Криптография"
+            
+              , "Преобразование аудио"
+            
+              , "DialABC"
+            
+              , "Декодировать.fr"
+            
+              , "WAV"
+            
+              , "MP3"
+            
+              , "Частота"
+            
+              , "Математическая черта"
+            
+              , "Флаг"
+            
+              , "Мужество"
+            
+              , "Звуковой визуализатор"
+            
+              , "Числа"
+            
+              , "Меню банкомата"
+            
+              , "платный телефон"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как расшифровывать тональные сигналы DTMF с помощью шифра простых чисел, чтобы решить задачу Crypto — Call на HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Задачи - Криптовалюты - Ограбление банка</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "hackthebox"
+            
+              , "криптография"
+            
+              , "Шифр T9"
+            
+              , "многошаговый шифр"
+            
+              , "шифр атбаш"
+            
+              , "кибербезопасность"
+            
+              , "декодировать"
+            
+              , "шифротекст"
+            
+              , "вызов"
+            
+              , "флаг"
+            
+              , "кибербезопасность"
+            
+              , "взлом"
+            
+              , "изучить"
+            
+              , "учебное пособие"
+            
+              , "расшифровка шифра"
+            
+              , "решение головоломок"
+            
+              , "взлом кодов"
+            
+              , "криптографическая задача"
+            
+              , "навыки в области кибербезопасности"
+            
+              , "онлайн-обучение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png" length="312120" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

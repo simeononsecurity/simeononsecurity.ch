@@ -1,0 +1,572 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/devops//img/banner.png</url>
+      <title>DevOps on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/devops/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/devops/</link>
+
+    <description>Recent content in DevOps on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация Ansible: От простого Ansible к Ansible Tower и Semaphore</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Управление инфраструктурой"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Открытый исходный код"
+            
+              , "Управление рабочими процессами"
+            
+              , "Масштабируемость"
+            
+              , "Сотрудничество"
+            
+              , "Инструменты Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности автоматизации с помощью Ansible, сравнив обычную Ansible, Ansible Tower и Ansible Semaphore, и выберите подходящий инструмент для эффективного управления инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила CI CD: Повышение эффективности совместной работы, качества и скорости</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-of-ci-cd/</link>
+        
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "непрерывная интеграция"
+            
+              , "непрерывное развертывание"
+            
+              , "CI CD"
+            
+              , "разработка программного обеспечения"
+            
+              , "сотрудничество"
+            
+              , "связь"
+            
+              , "контур обратной связи"
+            
+              , "обнаружение ошибок"
+            
+              , "качество программного обеспечения"
+            
+              , "надежность"
+            
+              , "время выхода на рынок"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "гибкость"
+            
+              , "автоматизированное тестирование"
+            
+              , "гибкая разработка"
+            
+              , "DevOps"
+            
+              , "производительность коллектива"
+            
+              , "выпуски программного обеспечения"
+            
+              , "автоматизация развертывания"
+            
+              , "автоматизация тестирования"
+            
+              , "быстрая поставка программного обеспечения"
+            
+              , "гибкие методологии"
+            
+              , "управление выпуском"
+            
+              , "разработка программного обеспечения"
+            
+              , "гибкие команды"
+            
+              , "постоянное совершенствование"
+            
+              , "тестирование программного обеспечения"
+            
+              , "конвейеры развертывания"
+            
+              , "процесс развертывания"
+            
+              , "жизненный цикл разработки программного обеспечения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-of-ci-cd/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах непрерывной интеграции и непрерывного развертывания (CI CD) при разработке программного обеспечения, повышающих эффективность совместной работы, качество и скорость.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png" length="159757" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация обновлений Windows с помощью Ansible: подробное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "автоматизация обновлений Windows"
+            
+              , "Ансибл автоматизация"
+            
+              , "управление системой"
+            
+              , "исправления безопасности"
+            
+              , "ИТ-инфраструктура"
+            
+              , "сетевая автоматизация"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-операции"
+            
+              , "DevOps"
+            
+              , "информационная безопасность"
+            
+              , "ИТ-автоматизация"
+            
+              , "ИТ-эффективность"
+            
+              , "Ansible playbook"
+            
+              , "Безопасность Windows"
+            
+              , "управление обновлениями"
+            
+              , "ИТ-производительность"
+            
+              , "ИТ-обслуживание"
+            
+              , "Учетные данные Ansible"
+            
+              , "конфигурация хоста"
+            
+              , "системная автоматизация"
+            
+              , "обновления Windows"
+            
+              , "Управление системой Windows"
+            
+              , "Патчи безопасности Windows"
+            
+              , "ИТ-инфраструктура Windows"
+            
+              , "Автоматизация сети Windows"
+            
+              , "Управление конфигурацией Windows"
+            
+              , "ИТ-операции Windows"
+            
+              , "Windows DevOps"
+            
+              , "Кибербезопасность Windows"
+            
+              , "ИТ-автоматизация Windows"
+            
+              , "ИТ-эффективность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте процесс обновления систем Windows, автоматизировав его с помощью Ansible — включены пошаговые инструкции и рекомендации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Роль контейнерной оркестровки в современных средах DevOps</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "оркестровка контейнеров"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Docker Swarm"
+            
+              , "Apache Mesos"
+            
+              , "масштабируемость"
+            
+              , "высокая доступность"
+            
+              , "балансировка нагрузки"
+            
+              , "безопасность"
+            
+              , "автоматическое развертывание приложений"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "соответствие"
+            
+              , "разработка программного обеспечения"
+            
+              , "облачные вычисления"
+            
+              , "контейнеризация"
+            
+              , "технология"
+            
+              , "автоматизация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о значении и преимуществах оркестровки контейнеров в современном DevOps, а также о популярных инструментах оркестровки контейнеров и государственных нормативных актах, касающихся контейнеризации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: начальное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Управление конфигурацией"
+            
+              , "Автоматизация"
+            
+              , "Windows"
+            
+              , "Системное администрирование"
+            
+              , "Лучшие практики"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность"
+            
+              , "Инфраструктура"
+            
+              , "DevOps"
+            
+              , "Конфигурация сервера"
+            
+              , "Тестирование"
+            
+              , "Git"
+            
+              , "Контроль источников"
+            
+              , "Государственное регулирование"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Дрейф конфигурации"
+            
+              , "Пользовательские ресурсы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с возможностями PowerShell Desired State Configuration (DSC) для автоматизации и управления конфигурациями системы в целях обеспечения безопасности и соответствия требованиям среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал, как манипулировать и анализировать JSON в PowerShell и Bash</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2021-02-17/</link>
+        
+        <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность Windows"
+            
+              , "Плейбуки Ansible"
+            
+              , "Коллекции Ansible"
+            
+              , "ИТ-безопасность"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "Администрирование Windows"
+            
+              , "Конфигурация системы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2021-02-17/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;&lt;strong&gt;Что интересного узнал и нашел сегодня SimeonOnSecurity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity обновил страницу на своем сайте и узнал о нескольких интересных для него ресурсах. Обновленная страница - это обзор Invite Challenge на HackTheBox. На этой странице представлен подробный анализ процесса решения задачи на системах Windows и Linux.&lt;/p&gt;
+&lt;p&gt;В дополнение к обновленной странице SimeonOnSecurity также обнаружил несколько полезных обучающих ресурсов. Одним из таких ресурсов является запись в блоге Кэмерона Нокса (Cameron Nokes), посвященная работе с JSON в bash с помощью инструмента jq. Инструмент jq - это утилита командной строки, которая позволяет легко анализировать, фильтровать и манипулировать данными JSON.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

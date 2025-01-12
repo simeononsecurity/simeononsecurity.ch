@@ -1,0 +1,240 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Методы Безопасного Кодирования on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F//img/banner.png</url>
+      <title>Методы Безопасного Кодирования on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Методы Безопасного Кодирования on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное кодирование на Python: Лучшие практики для обеспечения надежной безопасности приложений</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Программирование"
+            
+              , "Безопасность приложений"
+            
+              , "Разработка на языке Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Анализ данных"
+            
+              , "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Языки программирования"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python для обеспечения надежной безопасности приложений и защиты от таких уязвимостей, как SQL-инъекции и межсайтовый скриптинг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стандарты безопасного кодирования для разработчиков на C#</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасное кодирование"
+            
+              , "Острая разработка"
+            
+              , "Программирование на языке C Sharp"
+            
+              , "методы безопасного кодирования"
+            
+              , "Безопасность C Sharp"
+            
+              , "Безопасность ASP.NET"
+            
+              , "Безопасность .NET Core"
+            
+              , "проверка ввода"
+            
+              , "хеширование паролей"
+            
+              , "криптография"
+            
+              , "наименьшая привилегия"
+            
+              , "статический анализатор кода"
+            
+              , "безопасность веб-приложений"
+            
+              , "Предотвращение SQL-инъекций"
+            
+              , "защита от межсайтовых сценариев"
+            
+              , "защита информации"
+            
+              , "медицинские осмотры"
+            
+              , "управление сеансами"
+            
+              , "Передовые методы OWASP"
+            
+              , "Стандарты безопасного кодирования C Sharp"
+            
+              , "Руководство по безопасности C Sharp"
+            
+              , "советы по безопасному кодированию"
+            
+              , "разработка безопасного программного обеспечения"
+            
+              , "фреймворки безопасного кодирования"
+            
+              , "методы безопасного кодирования"
+            
+              , "рекомендации по безопасному кодированию"
+            
+              , "Безопасное программирование на языке C Sharp"
+            
+              , "уязвимости безопасного кодирования"
+            
+              , "средства безопасного кодирования"
+            
+              , "Учебники по безопасному кодированию"
+            
+              , "Лучшие практики безопасного кодирования на языке C Sharp"
+            
+              , "Руководство по безопасному кодированию C Sharp"
+            
+              , "Стандарты безопасного кодирования для разработчиков на языке C Sharp"
+            
+              , "C Острые методы безопасного кодирования"
+            
+              , "Как реализовать безопасное кодирование в C Sharp"
+            
+              , "Советы по безопасному кодированию для программистов на C Sharp"
+            
+              , "Безопасное кодирование веб-приложений на языке C Sharp"
+            
+              , "Основы безопасного кодирования на языке C Sharp"
+            
+              , "Приемы безопасного кодирования для разработчиков на языке C Sharp"
+            
+              , "Средства безопасного кодирования на языке C Sharp"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке C#, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png" length="487099" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

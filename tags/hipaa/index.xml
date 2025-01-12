@@ -1,0 +1,1115 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HIPAA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/hipaa//img/banner.png</url>
+      <title>HIPAA on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/hipaa/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/hipaa/</link>
+
+    <description>Recent content in HIPAA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/hipaa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести аудит разрешений для vCenter с помощью PowerCLI</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аудит разрешений vCenter"
+            
+              , "Автоматизация PowerCLI"
+            
+              , "Безопасность VMware"
+            
+              , "Управление виртуальной инфраструктурой"
+            
+              , "Разрешительные задания"
+            
+              , "Управление доступом пользователей"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Автоматизация с помощью PowerShell"
+            
+              , "Управление средой vSphere"
+            
+              , "Анализ прав доступа пользователей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Методология поиска и устранения неисправностей в сети</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT-образование"
+            
+              , "Поиск и устранение неисправностей в сети"
+            
+              , "Сетевая сертификация"
+            
+              , "Обучение в области информационных технологий"
+            
+              , "Компьютерные сети"
+            
+              , "Навыки работы с информационными технологиями"
+            
+              , "Технические знания"
+            
+              , "ИТ-специалисты"
+            
+              , "Сетевые концепции"
+            
+              , "Поддержка сети"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исчерпывающее руководство по методологии поиска и устранения неисправностей в сети, включающее этапы, инструменты и лучшие практики для эффективного и результативного решения сетевых проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня безопасности: Возможности систем управления уязвимостями</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Снижение рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность данных"
+            
+              , "Оценка уязвимости"
+            
+              , "Позиция в области безопасности"
+            
+              , "Автоматизация"
+            
+              , "Интеграция"
+            
+              , "Отчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепление безопасности организации и снижение рисков с помощью систем управления уязвимостями. Узнайте об их преимуществах и важности в современном цифровом ландшафте.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Разработка политики кибербезопасности: Лучшие практики и процедуры</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Безопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Управление рисками"
+            
+              , "Защита информации"
+            
+              , "Информационное управление"
+            
+              , "Реагирование на инциденты"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Разработка политики"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как разработать комплексную политику кибербезопасности, соответствующую отраслевым стандартам и нормативным требованиям, для защиты конфиденциальной информации организации и снижения киберрисков.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png" length="474843" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасные облачные решения: AWS vs. Azure vs. Google Cloud Platform - выбор лучшего для вашего бизнеса</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Облачные вычисления"
+            
+              , "Облачная безопасность"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "Облачная платформа Google"
+            
+              , "Безопасность данных"
+            
+              , "Шифрование"
+            
+              , "Управление идентификацией и доступом"
+            
+              , "Соответствие требованиям"
+            
+              , "Обнаружение угроз"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными функциями облачной безопасности и сертификатами AWS, Azure и Google Cloud Platform, чтобы выбрать наиболее безопасное облачное решение для вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание ключевых компонентов процесса OPSEC для эффективной защиты информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Процесс OPSEC"
+            
+              , "оперативная безопасность"
+            
+              , "защита информации"
+            
+              , "меры безопасности"
+            
+              , "постановления правительства"
+            
+              , "важная информация"
+            
+              , "оценка угроз"
+            
+              , "оценка уязвимости"
+            
+              , "анализ рисков"
+            
+              , "меры противодействия"
+            
+              , "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "целостность"
+            
+              , "наличие"
+            
+              , "кибербезопасность"
+            
+              , "секретная информация"
+            
+              , "соответствие"
+            
+              , "НИСПОМ"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "конфиденциальность данных"
+            
+              , "управление рисками"
+            
+              , "уровень безопасности"
+            
+              , "информационные активы"
+            
+              , "средства контроля безопасности"
+            
+              , "снижение рисков"
+            
+              , "политики безопасности"
+            
+              , "информированность о безопасности"
+            
+              , "предотвращение утечки данных"
+            
+              , "классификация информации"
+            
+              , "Что из перечисленного ниже является составными частями процесса opsec"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите критические компоненты процесса OPSEC и научитесь эффективно защищать конфиденциальную информацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение атак социальной инженерии: стратегии и лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "социальная инженерия"
+            
+              , "информационная безопасность"
+            
+              , "профилактика"
+            
+              , "обучение персонала"
+            
+              , "политики безопасности"
+            
+              , "многофакторная аутентификация"
+            
+              , "антивирус"
+            
+              , "физическая охрана"
+            
+              , "правительственные постановления"
+            
+              , "ФИСМА"
+            
+              , "HIPAA"
+            
+              , "защита данных"
+            
+              , "киберугрозы"
+            
+              , "сетевая безопасность"
+            
+              , "информационная безопасность"
+            
+              , "конфиденциальная информация"
+            
+              , "киберпреступность"
+            
+              , "согласие"
+            
+              , "стратегия кибербезопасности"
+            
+              , "безопасность данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как предотвратить атаки социальной инженерии и защитить конфиденциальную информацию вашей организации с помощью обучения сотрудников, политик безопасности и многого другого.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание безопасного и совместимого облачного озера данных: Лучшие практики защиты хранимых данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "озеро данных"
+            
+              , "облачная безопасность"
+            
+              , "нормативные документы"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "мониторинг"
+            
+              , "патчи"
+            
+              , "кибербезопасность"
+            
+              , "SIEM-решение"
+            
+              , "Команды ИТ-поддержки"
+            
+              , "картина угроз"
+            
+              , "миграция в облако"
+            
+              , "управление облачными вычислениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном руководстве вы узнаете о лучших практиках обеспечения безопасности и соответствия нормативным требованиям при планировании, создании и управлении облачными озерами данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Роль контейнерной оркестровки в современных средах DevOps</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "оркестровка контейнеров"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Docker Swarm"
+            
+              , "Apache Mesos"
+            
+              , "масштабируемость"
+            
+              , "высокая доступность"
+            
+              , "балансировка нагрузки"
+            
+              , "безопасность"
+            
+              , "автоматическое развертывание приложений"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "соответствие"
+            
+              , "разработка программного обеспечения"
+            
+              , "облачные вычисления"
+            
+              , "контейнеризация"
+            
+              , "технология"
+            
+              , "автоматизация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о значении и преимуществах оркестровки контейнеров в современном DevOps, а также о популярных инструментах оркестровки контейнеров и государственных нормативных актах, касающихся контейнеризации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Плюсы и минусы биометрической аутентификации для контроля доступа</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "биометрическая аутентификация"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "конфиденциальность"
+            
+              , "защита информации"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "ложные срабатывания"
+            
+              , "ложноотрицательные результаты"
+            
+              , "многофакторная аутентификация"
+            
+              , "тестирование системы"
+            
+              , "политики безопасности"
+            
+              , "эффективность"
+            
+              , "удобство"
+            
+              , "уникальная идентичность"
+            
+              , "оптимизированные рабочие процессы"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "пользовательский опыт"
+            
+              , "кибербезопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах и рисках использования биометрической аутентификации для контроля доступа, включая повышенную безопасность, проблемы конфиденциальности и лучшие практики внедрения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png" length="404237" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасность с нулевым доверием: Преимущества и проблемы</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность с нулевым доверием"
+            
+              , "Кибербезопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Облачная безопасность"
+            
+              , "Защита информации"
+            
+              , "Модель безопасности"
+            
+              , "Аутентификация"
+            
+              , "Авторизация"
+            
+              , "Шифрование"
+            
+              , "Соответствие требованиям"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Пользовательский опыт"
+            
+              , "Стоимость"
+            
+              , "Комплексность"
+            
+              , "Многоуровневая безопасность"
+            
+              , "Видимость"
+            
+              , "Гибкость"
+            
+              , "Нарушения безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите преимущества и проблемы перехода на модель безопасности Zero Trust в современную цифровую эпоху.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Плюсы и минусы многофакторной аутентификации для обеспечения безопасности бизнеса</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "многофакторная аутентификация"
+            
+              , "МИД"
+            
+              , "безопасность бизнеса"
+            
+              , "кибербезопасность"
+            
+              , "защита информации"
+            
+              , "соблюдение нормативных требований"
+            
+              , "пользовательский опыт"
+            
+              , "фишинг"
+            
+              , "атаки методом грубой силы"
+            
+              , "техническая сложность"
+            
+              , "сопротивление пользователя"
+            
+              , "смартфоны"
+            
+              , "токен"
+            
+              , "смарт-карта"
+            
+              , "отпечаток пальца"
+            
+              , "распознавание лиц"
+            
+              , "распознавание голоса"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "утечка данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с преимуществами и недостатками многофакторной аутентификации (MFA) и узнайте, как выбрать правильное решение для обеспечения безопасности вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

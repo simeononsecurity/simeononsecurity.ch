@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Злоумышленники on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B7%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8//img/banner.png</url>
+      <title>Злоумышленники on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B7%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B7%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8/</link>
+
+    <description>Recent content in Злоумышленники on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B7%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Игра в сети Helium: использование уязвимостей с помощью MiddleMan и мультиплексора пакетов Chirp Stack</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/how-to-game-on-the-helium-network/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Гелиевая сеть"
+            
+              , "Доказательство покрытия"
+            
+              , "Посредник"
+            
+              , "Мультиплексор пакетов Chirp Stack"
+            
+              , "игры"
+            
+              , "использование уязвимостей"
+            
+              , "Сеть LoRaWAN"
+            
+              , "криптовалюта"
+            
+              , "блокчейн"
+            
+              , "децентрализованная сеть"
+            
+              , "горячие точки"
+            
+              , "подделка"
+            
+              , "мошенничество"
+            
+              , "незаконная деятельность"
+            
+              , "штрафы"
+            
+              , "целостность сети"
+            
+              , "награды"
+            
+              , "злоумышленники"
+            
+              , "сетевая безопасность"
+            
+              , "законные хосты"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/how-to-game-on-the-helium-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как обмануть сеть Helium, используя уязвимости с помощью MiddleMan и Chirp Stack Packet Multiplexer, а также о рисках и последствиях этого.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png" length="275420" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

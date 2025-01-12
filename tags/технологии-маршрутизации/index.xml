@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Технологии Маршрутизации on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8//img/banner.png</url>
+      <title>Технологии Маршрутизации on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8/</link>
+
+    <description>Recent content in Технологии Маршрутизации on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Протоколы, концепции и оптимизация маршрутизации</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/routing-technologies-concepts/</link>
+        
+        <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "Маршрутизация"
+            
+              , "Сетевые протоколы"
+            
+              , "Управление сетью"
+            
+              , "Динамическая маршрутизация"
+            
+              , "Статическая маршрутизация"
+            
+              , "Управление пропускной способностью"
+            
+              , "Качество обслуживания"
+            
+              , "Сетевые устройства"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите мир технологий и концепций маршрутизации, начиная с протоколов динамической маршрутизации RIP, OSPF, EIGRP и BGP и заканчивая протоколами состояния связей, вектора расстояния и гибридными протоколами маршрутизации, а также настройкой статической маршрутизации и маршрутов по умолчанию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.png" length="935379" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

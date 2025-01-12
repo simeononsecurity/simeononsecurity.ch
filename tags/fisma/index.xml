@@ -1,0 +1,378 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FISMA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/fisma//img/banner.png</url>
+      <title>FISMA on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/fisma/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/fisma/</link>
+
+    <description>Recent content in FISMA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/fisma/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Разработка политики кибербезопасности: Лучшие практики и процедуры</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Безопасность"
+            
+              , "Соответствие требованиям"
+            
+              , "Управление рисками"
+            
+              , "Защита информации"
+            
+              , "Информационное управление"
+            
+              , "Реагирование на инциденты"
+            
+              , "Непрерывность бизнеса"
+            
+              , "Киберугрозы"
+            
+              , "Разработка политики"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как разработать комплексную политику кибербезопасности, соответствующую отраслевым стандартам и нормативным требованиям, для защиты конфиденциальной информации организации и снижения киберрисков.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png" length="474843" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасные облачные решения: AWS vs. Azure vs. Google Cloud Platform - выбор лучшего для вашего бизнеса</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Облачные вычисления"
+            
+              , "Облачная безопасность"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "Облачная платформа Google"
+            
+              , "Безопасность данных"
+            
+              , "Шифрование"
+            
+              , "Управление идентификацией и доступом"
+            
+              , "Соответствие требованиям"
+            
+              , "Обнаружение угроз"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными функциями облачной безопасности и сертификатами AWS, Azure и Google Cloud Platform, чтобы выбрать наиболее безопасное облачное решение для вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>FISMA 101: обзор Федерального закона о модернизации системы информационной безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "FISMA"
+            
+              , "Федеральная служба информационной безопасности"
+            
+              , "Информационная безопасность"
+            
+              , "Управление рисками"
+            
+              , "Оценка средств контроля безопасности"
+            
+              , "Непрерывный мониторинг"
+            
+              , "Реагирование на инциденты"
+            
+              , "Авторизация и аккредитация"
+            
+              , "Повышение уровня информационной безопасности"
+            
+              , "Более эффективное управление рисками"
+            
+              , "Повышение прозрачности"
+            
+              , "Укрепление сотрудничества"
+            
+              , "Законодательство США"
+            
+              , "Федеральные агентства"
+            
+              , "Программы информационной безопасности"
+            
+              , "Средства контроля безопасности"
+            
+              , "Оценки рисков"
+            
+              , "Непрерывный мониторинг"
+            
+              , "Инциденты безопасности"
+            
+              , "Прозрачность и подотчетность"
+            
+              , "Обзор Федерального закона о модернизации информационной безопасности"
+            
+              , "Преимущества применения FISMA в федеральных агентствах"
+            
+              , "Управление рисками в федеральной информационной безопасности"
+            
+              , "Непрерывный мониторинг в рамках FISMA"
+            
+              , "Реагирование на инциденты в федеральных агентствах"
+            
+              , "Процесс авторизации и аккредитации"
+            
+              , "Повышение уровня информационной безопасности в федеральных органах власти"
+            
+              , "Сотрудничество в области федеральной информационной безопасности"
+            
+              , "Прозрачность в обеспечении соответствия требованиям FISMA"
+            
+              , "Стандарты информационной безопасности для федеральных агентств"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/fisma-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          FISMA 101 содержит исчерпывающий обзор Федерального закона о модернизации информационной безопасности, включая его основные компоненты, преимущества и требования к федеральным агентствам.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png" length="475841" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

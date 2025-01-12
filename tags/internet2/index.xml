@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet2 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/internet2//img/banner.png</url>
+      <title>Internet2 on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/internet2/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/internet2/</link>
+
+    <description>Recent content in Internet2 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/internet2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обеспечение безопасности образования: Роль кибербезопасности в защите данных учащихся</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</link>
+        
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "образование"
+            
+              , "данные о студентах"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "FERPA"
+            
+              , "NIST"
+            
+              , "HEISC"
+            
+              , "Internet2"
+            
+              , "Институт SANS"
+            
+              , "политики безопасности"
+            
+              , "фишинг"
+            
+              , "повышение осведомленности"
+            
+              , "оценка рисков"
+            
+              , "многофакторная аутентификация"
+            
+              , "шифрование"
+            
+              , "реагирование на инциденты"
+            
+              , "безопасность сети"
+            
+              , "безопасный доступ"
+            
+              , "межсетевые экраны"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важность кибербезопасности в образовательной отрасли и узнайте, как защитить конфиденциальные данные студентов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png" length="211205" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

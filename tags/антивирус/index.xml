@@ -1,0 +1,597 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Антивирус on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BD%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D1%83%D1%81//img/banner.png</url>
+      <title>Антивирус on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BD%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D1%83%D1%81/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BD%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D1%83%D1%81/</link>
+
+    <description>Recent content in Антивирус on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BD%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D1%83%D1%81/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности системы с помощью команд Windows Defender PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Команды PowerShell"
+            
+              , "безопасность системы"
+            
+              , "управление из командной строки"
+            
+              , "антивирус"
+            
+              , "Операционные системы Windows"
+            
+              , "защита от вредоносного ПО"
+            
+              , "расширенные настройки безопасности"
+            
+              , "автоматизация операций по обеспечению безопасности"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение систем безопасности конечных точек: Symantec против McAfee - комплексное сравнение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность конечных точек"
+            
+              , "Антивирус"
+            
+              , "Межсетевой экран"
+            
+              , "Обнаружение вторжений"
+            
+              , "Предотвращение потери данных"
+            
+              , "Защита от угроз"
+            
+              , "Решения в области безопасности"
+            
+              , "Сравнение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое решение для защиты конечных точек, Symantec или McAfee, лучше всего подходит для защиты цифровых активов вашей организации от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание угроз Ransomware: Меры по предотвращению</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ransomware"
+            
+              , "кибербезопасность"
+            
+              , "профилактика"
+            
+              , "резервное копирование"
+            
+              , "антивирус"
+            
+              , "VPN"
+            
+              , "многофакторная аутентификация"
+            
+              , "постановления правительства"
+            
+              , "фишинг"
+            
+              , "социальная инженерия"
+            
+              , "вредоносное ПО"
+            
+              , "киберпреступность"
+            
+              , "безопасность данных"
+            
+              , "безопасность сети"
+            
+              , "Кибератака"
+            
+              , "шифрование"
+            
+              , "кибергигиена"
+            
+              , "реагирование на инциденты"
+            
+              , "защита информации"
+            
+              , "кибернетическая осведомленность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, связанных с вымогательством, и о превентивных мерах, которые можно предпринять для защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.png" length="197701" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение атак социальной инженерии: стратегии и лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "социальная инженерия"
+            
+              , "информационная безопасность"
+            
+              , "профилактика"
+            
+              , "обучение персонала"
+            
+              , "политики безопасности"
+            
+              , "многофакторная аутентификация"
+            
+              , "антивирус"
+            
+              , "физическая охрана"
+            
+              , "правительственные постановления"
+            
+              , "ФИСМА"
+            
+              , "HIPAA"
+            
+              , "защита данных"
+            
+              , "киберугрозы"
+            
+              , "сетевая безопасность"
+            
+              , "информационная безопасность"
+            
+              , "конфиденциальная информация"
+            
+              , "киберпреступность"
+            
+              , "согласие"
+            
+              , "стратегия кибербезопасности"
+            
+              , "безопасность данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как предотвратить атаки социальной инженерии и защитить конфиденциальную информацию вашей организации с помощью обучения сотрудников, политик безопасности и многого другого.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 распространенных ошибок в области кибербезопасности и как их избежать</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-top-ten-most-common-cybersecurity-mistakes/</link>
+        
+        <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "безопасность в Интернете"
+            
+              , "киберугрозы"
+            
+              , "взлом"
+            
+              , "фишинг"
+            
+              , "вредоносное ПО"
+            
+              , "пароли"
+            
+              , "общественный Wi-Fi"
+            
+              , "антивирус"
+            
+              , "социальные сети"
+            
+              , "резервное копирование данных"
+            
+              , "предупреждения о безопасности"
+            
+              , "общественные зарядные станции"
+            
+              , "компьютерная безопасность"
+            
+              , "предотвращение киберпреступлений"
+            
+              , "хищение персональных данных"
+            
+              , "цифровая конфиденциальность"
+            
+              , "безопасность сети"
+            
+              , "обновления программного обеспечения"
+            
+              , "безопасность в Интернете"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-top-ten-most-common-cybersecurity-mistakes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить себя от киберугроз, избегая этих 10 распространенных ошибок в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png" length="159724" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендации экспертов SimeonOnSecurity по продуктам и ресурсам для обеспечения безопасности и конфиденциальности</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendhome/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "рекомендации по безопасности"
+            
+              , "продукты конфиденциальности"
+            
+              , "инструменты кибербезопасности"
+            
+              , "защита данных"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "антивирус"
+            
+              , "книги"
+            
+              , "плагины для браузера"
+            
+              , "сертификаты"
+            
+              , "провайдеры электронной почты"
+            
+              , "каждый день носить"
+            
+              , "хакерский инструментарий"
+            
+              , "наушники"
+            
+              , "микрофоны"
+            
+              , "динамики"
+            
+              , "образовательные ресурсы"
+            
+              , "клиенты мессенджера"
+            
+              , "организации для поддержки"
+            
+              , "ресурсы конфиденциальности"
+            
+              , "SIP DID VOIP провайдеры"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendhome/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с рекомендациями экспертов SimeonOnSecurity по надежным и высоко оцененным продуктам и ресурсам, связанным с безопасностью и конфиденциальностью.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png" length="288609" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемый антивирус</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемый антивирус"
+            
+              , "AV"
+            
+              , "Антивирус"
+            
+              , "Антивирус"
+            
+              , "Домашнее использование"
+            
+              , "Использование в бизнесе"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "MacOS"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье представлен список рекомендуемых антивирусных продуктов для домашнего и корпоративного использования, составленный компанией SimeonOnSecurity. Рейтинг составлен на основе профессионального мнения и тестирования на вредоносных образцах и учитывает только возможности антивируса, его обнаружение, удобство использования и производительность. Пользователи Windows могут выбирать как платные, так и бесплатные варианты, в то время как пользователи Linux и MacOS ограничены в выборе, причем платные варианты доступны только для Linux. Отметим, что использование антивируса в Linux и MacOS не является обязательным, а использование VPN или менеджера паролей, поставляемых вместе с антивирусным пакетом, не рекомендуется. В статье также даны рекомендации по VPN-провайдерам. Рекомендации по использованию в бизнесе находятся в стадии разработки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

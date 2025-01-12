@@ -1,0 +1,109 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LastPass on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/lastpass//img/banner.png</url>
+      <title>LastPass on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/lastpass/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/lastpass/</link>
+
+    <description>Recent content in LastPass on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/lastpass/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые услуги по защите конфиденциальности</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/services/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые услуги по защите конфиденциальности"
+            
+              , "Маскирование информации"
+            
+              , "Онлайновые менеджеры паролей"
+            
+              , "Удаление брокера данных"
+            
+              , "Abine DeleteMe"
+            
+              , "OneRep"
+            
+              , "Optery"
+            
+              , "Abine Blur"
+            
+              , "Privacy.com"
+            
+              , "Bitwarden"
+            
+              , "LastPass"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита личности"
+            
+              , "Защита информации"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/services/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с рекомендуемыми SimeonOnSecurity услугами по обеспечению конфиденциальности для защиты ваших персональных данных и безопасности в Интернете. Узнайте об услугах по удалению личной информации у брокеров данных, маскировке информации и управлению паролями. Найдите надежные варианты обеспечения конфиденциальности в Интернете и уменьшите риск кражи личных данных и утечки информации.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>
