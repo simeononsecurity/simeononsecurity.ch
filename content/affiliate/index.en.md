@@ -5,13 +5,15 @@ toc: false
 draft: false
 description: "Learn about our affiliate disclosure policy and explore top-notch services like Amazon, Audible, StartMail, and more."
 genre: ["Affiliate Disclosure", "Online Services", "Product Recommendations", "Digital Products", "Affiliate Marketing", "Online Earnings", "Website Monetization", "Earning Online", "Internet Marketing", "Transparency"]
-tags: ["affiliate disclosure", "Amazon", "Audible", "StartMail", "Bitdefender", "DeleteMe", "NextDNS", "PawnsApp", "TraffMonetizer", "EarnApp", "Presearch", "OrangeWebsite", "earning online", "product recommendations", "digital products", "online services", "monetization", "website revenue", "affiliates", "online income", "transparency", "internet marketing", "online business", "earnings disclosure", "affiliate links", "supporting us", "earning potential", "financial support", "business partnerships", "trustworthy recommendations", "empowering readers"]
+tags: ["affiliate disclosure", "Amazon", "Audible", "StartMail", "Bitdefender", "DeleteMe", "NextDNS", "PawnsApp", "PacketShare", "TraffMonetizer", "EarnApp", "Presearch", "OrangeWebsite", "earning online", "product recommendations", "digital products", "online services", "monetization", "website revenue", "affiliates", "online income", "transparency", "internet marketing", "online business", "earnings disclosure", "affiliate links", "supporting us", "earning potential", "financial support", "business partnerships", "trustworthy recommendations", "empowering readers"]
 coverCaption: "Support us by using affiliate links and explore top-notch services for your online ventures."
 ---
 
 ## **Affiliate Disclosure:**
 
-Some of the links on this website are affiliate links, which means we may earn a small commission if you click on these links and make a purchase or sign up for a service. This is at no extra cost to you. We only recommend products and services that we believe in and have personally used or thoroughly researched.
+Some of the links on this website are affiliate links, which means we may earn a small commission if you click on these links and make a purchase or sign up for a service. This is at no extra cost to you. We only recommend products and services that we believe in, have personally used, or thoroughly researched.
+
+*Data sharing apps should be used with caution. If you don't understand network segmentation, vlans, IDS/IPS, etc... you probable shouldn't even consider them.*
 
 #### Here are the services for which we have affiliate links:
 
@@ -23,6 +25,7 @@ Some of the links on this website are affiliate links, which means we may earn a
 - [HoneyGain](https://r.honeygain.me/HONEY9149D)
 - [NextDNS](https://nextdns.io/?from=jyfq92sk)
 - [OrangeWebsite](https://affiliate.orangewebsite.com/idevaffiliate.php?id=12501_0_1_5)
+- [PacketShare](https://www.packetshare.io/?code=2B1151EF76417143)
 - [PawnsApp](https://pawns.app/?r=sos)
 - [Presearch](https://presearch.com/signup?rid=4754563)
 - [Repocket](https://link.repocket.co/raqc)
