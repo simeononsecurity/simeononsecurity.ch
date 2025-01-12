@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible STIG Playbooks on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/tags/ansible-stig-playbooks//img/banner.png</url><title>Ansible STIG Playbooks on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/ansible-stig-playbooks/</link></image><link>https://ar.simeononsecurity.com/tags/ansible-stig-playbooks/</link><description>Recent content in Ansible STIG Playbooks on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/ansible-stig-playbooks/index.xml" rel="self" type="application/rss+xml"/><item><title>أتمتة توافق Windows مع Ansible STIG Playbooks</title><link>https://ar.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"أتمتة"
+, "التوافق مع Windows"
+, "Ansible STIG Playbooks"
+, "تصلب النوافذ"
+, "مخطوطات STIG"
+, "الامتثال STIG"
+, "مجرة أنسبل"
+, "بوويرشيل"
+, "برنامج PowerShell النصي"
+, "مشغل برامج وندوز"
+, "ويندوز ديفندر"
+, ".شبكة"
+, "ثعلب النار"
+, "أوراكل JRE 8"
+, "برنامج Adobe Reader DC"
+, "الاتصال بشبكة الإنترنت"
+, "التوافق دون اتصال"
+, "تصلب الأمن"
+, "أمن Windows"</category><guid>https://ar.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قم بتبسيط امتثالك الأمني مع Ansible STIG Playbooks لأنظمة Windows.</description></item></channel></rss>

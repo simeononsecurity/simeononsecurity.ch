@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://ar.simeononsecurity.com//img/banner.png</url><title>simeononsecurity</title><link>https://ar.simeononsecurity.com/</link></image><link>https://ar.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>الدليل النهائي: تحديثات Linux دون اتصال لـ Ubuntu Debian و CentOS RHEL</title><link>https://ar.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><category>
+"تحديثات Linux"
+, "أوبونتو"
+, "ديبيان"
+, "CentOS"
+, "RHEL"</category><guid>https://ar.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png" length="379936" type="image/png"/></item><item><title>أتمتة تصحيح وتحديثات Linux باستخدام Ansible: دليل شامل</title><link>https://ar.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><category>
+"ترقيع لينكس"
+, "أتمتة أنسبل"
+, "أتمتة التحديثات"
+, "صيانة النظام"
+, "أتمتة تكنولوجيا المعلومات"</category><guid>https://ar.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية أتمتة تصحيح وتحديثات Linux باستخدام Ansible ، والتي تغطي التوزيعات المختلفة وإرشادات الإعداد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png"/></item><item><title>تحديث البرامج الثابتة دون اتصال لـ Ubiquiti Unifi UDM Pro و UDM SE عبر سطر الأوامر SSH</title><link>https://ar.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><category>
+"تحديث البرامج الثابتة Ubiquiti"
+, "UDM Pro"
+, "UDM SE"
+, "تحديث البرامج الثابتة في وضع عدم الاتصال"
+, "سطر الأوامر SSH"</category><guid>https://ar.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية تحديث البرنامج الثابت لـ Ubiquiti Unifi UDM Pro و UDM SE دون اتصال بالإنترنت من خلال سطر الأوامر SSH للحصول على أفضل أداء وأمان.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png"/></item><item><title>أتمتة تحديثات Windows مع Ansible: دليل شامل</title><link>https://ar.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"أتمتة تحديثات Windows"
+, "أتمتة أنسبل"
+, "ادارة النظام"
+, "تصحيحات الأمان"
+, "البنية التحتية لتكنولوجيا المعلومات"</category><guid>https://ar.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تبسيط عملية تحديث أنظمة Windows من خلال التشغيل الآلي باستخدام Ansible - تم تضمين الإرشادات خطوة بخطوة وأفضل الممارسات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png"/></item><item><title>هيليوم موبايل بيتا: إحداث ثورة في اتصال الهاتف المحمول من خلال شبكة لامركزية</title><link>https://ar.simeononsecurity.com/other/helium-mobile-beta-explained/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><category>
+"الهليوم موبايل بيتا"
+, "شبكة لامركزية"
+, "اتصال المحمول"
+, "يؤمن"
+, "موثوق"</category><guid>https://ar.simeononsecurity.com/other/helium-mobile-beta-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف كيف يقوم Helium Mobile Beta بتحويل اتصال المحمول من خلال شبكته اللامركزية ، مما يضمن الأمان والموثوقية والقدرة على تحمل التكاليف للمستخدمين.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png" length="251043" type="image/png"/></item><item><title>تبسيط إدارة حزمة Windows باستخدام Chocolatey: تبسيط التحديثات وتعزيز الأمان</title><link>https://ar.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link><pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate><category>
+"إدارة حزم Windows"
+, "شوكولاتي"
+, "تحديثات البرنامج"
+, "مدير مجموعة"
+, "واجهة خط الأوامر"</category><guid>https://ar.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف فوائد استخدام Chocolatey لإدارة حزم Windows: أتمتة التحديثات وتوفير الوقت وضمان أمان النظام.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png"/></item><item><title>أفضل الممارسات لإدارة مصادر الوقت في مجالات Windows والأجهزة المستقلة</title><link>https://ar.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><category>
+"مصادر الوقت"
+, "مجال Windows"
+, "آلات قائمة بذاتها"
+, "مزامنة الوقت"
+, "ضبط الوقت بدقة"</category><guid>https://ar.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية تعيين مصادر الوقت والتعامل معها بشكل فعال في مجالات Windows والأجهزة المستقلة لضمان التزامن الدقيق للوقت وتجنب المشكلات المحتملة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.png" length="276853" type="image/png"/></item><item><title>تجنب عمليات التصيد الاحتيالي: التكتيكات والوقاية والحماية</title><link>https://ar.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><category>
+"حيل الخداع"
+, "الأمن الإلكتروني"
+, "التهديدات عبر الإنترنت"
+, "انتحال البريد الإلكتروني"
+, "هندسة اجتماعية"</category><guid>https://ar.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على الأساليب التي يستخدمها محتالو التصيد الاحتيالي واكتشف استراتيجيات فعالة لحماية نفسك من أن تصبح ضحية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png" length="190330" type="image/png"/></item><item><title>تحسين الهوائي الخلوي الاتجاهي: دليل التوجيه والتوجيه</title><link>https://ar.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><category>
+"هوائي خلوي"
+, "هوائي اتجاهي"
+, "تقوية الهاتف الخليوي"
+, "مودم خلوي"
+, "قوة الاشارة"</category><guid>https://ar.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية توجيه الهوائي الخلوي الاتجاهي وتوجيهه للحصول على أفضل قوة إشارة وموثوقية ، بما في ذلك تحديد موقع الأبراج الخلوية وفهم مناطق فريسنل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png" length="346431" type="image/png"/></item><item><title>الدليل النهائي: تثبيت نظام تشغيل Graphene على جهاز Google Pixel</title><link>https://ar.simeononsecurity.com/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><category>
+"نظام تشغيل الجرافين"
+, "جوجل بيكسل"
+, "خصوصية"
+, "حماية"
+, "ذكري المظهر"</category><guid>https://ar.simeononsecurity.com/guides/how-to-install-graphine-os/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية تثبيت نظام تشغيل Graphene OS على جهاز Google Pixel لتحسين الخصوصية والأمان.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png" length="160595" type="image/png"/></item><item><title>نصائح الخبراء لكتابة سيرة ذاتية قوية</title><link>https://ar.simeononsecurity.com/other/tips-for-writing-a-great-resume/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><category>
+"استئناف الكتابة"
+, "نصائح استئناف"
+, "استخدام الخط"
+, "استئناف الهيكل"
+, "أنواع السيرة الذاتية"</category><guid>https://ar.simeononsecurity.com/other/tips-for-writing-a-great-resume/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على أفضل الممارسات لإنشاء سيرة ذاتية فعالة ، بما في ذلك استخدام الخط وأنواع السيرة الذاتية وتحسين الكلمات الرئيسية ومعالجة الفجوات وتحسين التخطيط.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png" length="126237" type="image/png"/></item><item><title>Crankk vs Helium IoT: مقارنة شاملة لشبكات إنترنت الأشياء</title><link>https://ar.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><category>
+"كرنك مقابل هيليوم إنترنت الأشياء"
+, "شبكات إنترنت الأشياء"
+, "نماذج الإجماع"
+, "أجهزة التعدين"
+, "رسوم الغاز"</category><guid>https://ar.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف الاختلافات بين شبكات Crankk و Helium IoT ونماذج الإجماع وأجهزة التعدين ورسوم الغاز والمزيد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png" length="221578" type="image/png"/></item><item><title>منع المطاردة عبر الإنترنت: نصائح للبقاء آمنًا على الإنترنت</title><link>https://ar.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><category>
+"المطاردة عبر الإنترنت"
+, "السلامة على الإنترنت"
+, "أمن الإنترنت"
+, "منع المطاردة"
+, "السلامة الشخصية"</category><guid>https://ar.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية حماية نفسك من المطاردة عبر الإنترنت والحفاظ على سلامتك عبر الإنترنت باستخدام هذه النصائح والتقنيات.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png" length="302241" type="image/png"/></item><item><title>منع هجمات الهندسة الاجتماعية: الاستراتيجيات وأفضل الممارسات</title><link>https://ar.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link><pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate><category>
+"هندسة اجتماعية"
+, "الأمن الإلكتروني"
+, "وقاية"
+, "تدريب الموظفين"
+, "السياسات الأمنية"</category><guid>https://ar.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية منع هجمات الهندسة الاجتماعية وحماية المعلومات الحساسة لمؤسستك من خلال تدريب الموظفين وسياسات الأمان والمزيد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png"/></item><item><title>أفضل معززات إشارة الهاتف الخليوي للاستخدام المنزلي</title><link>https://ar.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><category>
+"معززات إشارة الهاتف الخليوي"
+, "Weboost"
+, "هيبووست"
+, "اتصال المنزل"
+, "تغطية الهاتف الخليوي"</category><guid>https://ar.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+عزز إشارة هاتفك الخلوي في المنزل من خلال أفضل اختياراتنا للاتصال الموثوق به والتغطية المنزلية بالكامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png" length="81652" type="image/png"/></item><item><title>Ubiquiti Unifi vs TP-Link Omada: ما هو نظام الشبكة المناسب لك؟</title><link>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><category>
+"أوبيكويتي"
+, "تي بي لينك"
+, "الشبكات"
+, "Unifi"
+, "أومادا"</category><guid>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين أنظمة شبكات Ubiquiti Unifi و TP-Link Omada لاختيار النظام المناسب لاحتياجاتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png" length="516405" type="image/png"/></item><item><title>تجاوز BGW-320: استخدام Azores COTS ONT - دليل خطوة بخطوة</title><link>https://ar.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "جزر الأزور"
+, "الفيبر"
+, "شبكة"</category><guid>https://ar.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية تجاوز BGW-320 واستخدام COTS ONT من صنع Azores للاتصال بشبكة مزود خدمة الإنترنت الخاص بك باستخدام هذا الدليل السهل المتابعة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png"/></item><item><title>تشغيل pfSense على جهاز HP t740 Thin Client: تلميحات ودليل استكشاف الأخطاء وإصلاحها</title><link>https://ar.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><category>
+"pfSense"
+, "OPNsense"
+, "تصلب"
+, "طابعة HP t740"
+, "عميل رفيع"</category><guid>https://ar.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية إعداد pfSense على جهاز HP t740 Thin Client ، وكيفية استكشاف المشكلات المحتملة وإصلاحها مثل التجميد ومشاكل اكتشاف SSD.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png" length="411431" type="image/png"/></item><item><title>تشغيل pfSense على جهاز HP t740 Thin Client: تلميحات ودليل استكشاف الأخطاء وإصلاحها</title><link>https://ar.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><category>
+"pfSense"
+, "OPNsense"
+, "تصلب"
+, "طابعة HP t740"
+, "عميل رفيع"</category><guid>https://ar.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية إعداد pfSense على جهاز HP t740 Thin Client ، وكيفية استكشاف المشكلات المحتملة وإصلاحها مثل التجميد ومشاكل اكتشاف SSD.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png" length="411431" type="image/png"/></item><item><title>Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks</title><link>https://ar.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><category>
+"RFID skimming"
+, "credit card protection"
+, "RFID blocking wallets"
+, "chip credit cards"
+, "phishing"</category><guid>https://ar.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to protect yourself from RFID skimming and keep your credit card information secure with these simple tips.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png" length="222155" type="image/png"/></item><item><title>Overcoming Challenges and Embracing Opportunities of DevSecOps Implementation</title><link>https://ar.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><category>
+"DevSecOps"
+, "information security"
+, "security testing"
+, "agile methodologies"
+, "collaboration"</category><guid>https://ar.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+This article explores the challenges and opportunities of DevSecOps in organizations, including better collaboration, improved scalability, integration with government regulations, and more.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png"/></item><item><title>Azure Security Center: Comprehensive Guide to Safeguard Your Cloud Environment</title><link>https://ar.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><category>
+"Azure"
+, "Security Center"
+, "cloud security"
+, "Azure Sentinel"
+, "Azure Defender"</category><guid>https://ar.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to secure your cloud environment using Azure Security Center, with best practices and real-world examples.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png" length="308057" type="image/png"/></item><item><title>لعب شبكة الهليوم: استغلال الثغرات الأمنية مع MiddleMan و Chirp Stack Packet Multiplexer</title><link>https://ar.simeononsecurity.com/other/how-to-game-on-the-helium-network/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"شبكة الهليوم"
+, "إثبات التغطية"
+, "الرجل الأوسط"
+, "Chirp Stack Packet Multiplexer"
+, "الألعاب"</category><guid>https://ar.simeononsecurity.com/other/how-to-game-on-the-helium-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية التلاعب بشبكة Helium من خلال استغلال الثغرات الأمنية مع MiddleMan و Chirp Stack Packet Multiplexer ، بالإضافة إلى مخاطر وعواقب القيام بذلك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png" length="275420" type="image/png"/></item><item><title>قوة شبكات LoRa: شرح تكامل الهيليوم</title><link>https://ar.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"شبكة لورا"
+, "تكامل الهيليوم"
+, "وكلاء حزم Semtech"
+, "تطبيقات إنترنت الأشياء"
+, "LPWAN"</category><guid>https://ar.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف فوائد دمج شبكة LoRa مع أجهزة وصناعات هيليوم لإنترنت الأشياء مثل المدن الذكية والزراعة والخدمات اللوجستية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png" length="409429" type="image/png"/></item><item><title>إدارة أسطول من عمال المناجم منخفضي الطاقة: دليل للوصول عن بُعد والأمان</title><link>https://ar.simeononsecurity.com/other/managing-low-powered-crypto-miners/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"عمال المناجم منخفضة الطاقة"
+, "الوصول عن بعد"
+, "أمن الشبكة"
+, "openvpn"
+, "واقي الأسلاك"</category><guid>https://ar.simeononsecurity.com/other/managing-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+استكشف أفضل الممارسات والأدوات لإدارة أسطول من عمال المناجم منخفضي الطاقة ، بما في ذلك remote.it و ngrok و OpenVPN و WireGuard والمزيد.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png" length="236215" type="image/png"/></item><item><title>قم ببناء صندوق دخل سلبي مربح باستخدام أجهزة منخفضة الطاقة: دليل</title><link>https://ar.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"قم ببناء صندوق دخل سلبي مربح"
+, "أجهزة منخفضة الطاقة"
+, "الدخل السلبي"
+, "عامل منجم التشفير"
+, "فطيرة التوت"</category><guid>https://ar.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية إعداد عامل منجم للعملات المشفرة منخفض الدخل باستخدام Raspberry Pi أو Intel NUC ، واكسب من 10 إلى 20 دولارًا شهريًا لكل صندوق باستخدام هذا الدليل</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png" length="405403" type="image/png"/></item><item><title>Windows Optimize-Harden-Debloat GUI - التثبيت الإرشادي</title><link>https://ar.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"تحسين Windows"
+, "Windows 10 debloat"
+, "تعديلات Windows 10"
+, "واجهة المستخدم الرسومية"
+, "ج حاد"</category><guid>https://ar.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+عزز تجربة Windows 10 الخاصة بك بسهولة باستخدام البرنامج النصي التلقائي لـ Windows-Optimize-Harden-Debloat GUI الذي يوفر تثبيتًا إرشاديًا لتقليل إعداد Windows 10.</description></item><item><title>أتمتة توافق Windows مع Ansible STIG Playbooks</title><link>https://ar.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"أتمتة"
+, "التوافق مع Windows"
+, "Ansible STIG Playbooks"
+, "تصلب النوافذ"
+, "مخطوطات STIG"</category><guid>https://ar.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قم بتبسيط امتثالك الأمني مع Ansible STIG Playbooks لأنظمة Windows.</description></item><item><title>اليوم تعلمت تقنيات الأمن السيبراني</title><link>https://ar.simeononsecurity.com/til/2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2021-01-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>تعلمت SimeonOnSecurity وعثرت على أشياء مثيرة للاهتمام في ImmersiveLabs ومقاطع فيديو وبعض الموضوعات التي قد تهم الآخرين.&lt;/p>
+&lt;p>في ImmersiveLabs ، أكملت SimeonOnSecurity العديد من المعامل الدفاعية والهجومية ، مما وفر خبرة عملية وتحسين المهارات الأمنية.&lt;/p>
+&lt;p>عثرت SimeonOnSecurity أيضًا على العديد من مقاطع الفيديو ذات الاهتمام ، بما في ذلك &amp;ldquo;كيفية سرقة البرامج المجانية (والقيام بذلك بشكل سيئ)&amp;rdquo; بقلم جاردينر براينت ، &amp;ldquo;ما يحدث (ولا يحدث) مع Hyperloop | إجابات جو&amp;rdquo; بواسطة جو سكوت ، &amp;ldquo;تحتاج لتعلم الأجهزة الافتراضية الآن !! (Kali Linux VM ، Ubuntu ، Windows) &amp;ldquo;بواسطة NetworkChuck ، و&amp;rdquo; إقناع سيد الزنزانة بشراء طابعة ثلاثية الأبعاد [مع العفاريت] &amp;ldquo;بواسطة Zack Freedman. يوفر كل مقطع فيديو رؤى ووجهات نظر فريدة حول التكنولوجيا والأمان والموضوعات الأخرى التي يمكن أن تكون مفيدة ومسلية.&lt;/p></description></item><item><title>اليوم تعلمت تقنيات الأمن السيبراني</title><link>https://ar.simeononsecurity.com/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>اليوم ، أكملت SimeonOnSecurity العديد من المعامل الدفاعية والهجومية في ImmersiveLabs. كما شاهدوا مقاطع فيديو حول المواضيع التالية:&lt;/p>
+&lt;p>UniFi Protect G3 Instant - Unboxing والمراجعة والمقارنة (Crosstalk Solutions)
+القراصنة والتشفير والتاريخ السري لتنشيط منتج Windows (Dave&amp;rsquo;s Garage)
+إصدار وحدة المعالجة المركزية الجديدة (LinusTechTips)
+لماذا انتقل شخص ما إلى UniFi Protect (TechnoTim)&lt;/p>
+&lt;h2 id="مختبرات-غامرة">
+&lt;a href="#%d9%85%d8%ae%d8%aa%d8%a8%d8%b1%d8%a7%d8%aa-%d8%ba%d8%a7%d9%85%d8%b1%d8%a9" title="مختبرات غامرة:">مختبرات غامرة:&lt;/a>
+&lt;a href="#%d9%85%d8%ae%d8%aa%d8%a8%d8%b1%d8%a7%d8%aa-%d8%ba%d8%a7%d9%85%d8%b1%d8%a9" class="h-anchor" aria-hidden="true" title="مختبرات غامرة:">#&lt;/a>
+&lt;/h2>
+&lt;p>-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs">
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/">
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+>Completed multiple Defensive and Offensive Labs&lt;/a>
+&lt;/span>
+&lt;/p></description></item><item><title>لقد تعلمت اليوم عن إدارة واستعادة بيانات XFS</title><link>https://ar.simeononsecurity.com/til/2021-01-09/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2021-01-09/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>تواكب SimeonOnSecurity أحدث التطورات في عالم التكنولوجيا. اليوم ، تعرف على XFS وقدراته على النسخ الاحتياطي واستعادة أنظمة الملفات. وجد مقالة إعلامية على موقع Red Hat على الإنترنت توضح بالتفصيل العملية وأفضل الممارسات لاستخدام XFS.&lt;/p>
+&lt;p>قام SimeonOnSecurity أيضًا بتحديث مستودع Shodan_PS الخاص به على GitHub ، والذي يحتوي على نصوص مفيدة لاستخدام محرك البحث الشهير للأجهزة المتصلة بالإنترنت.&lt;/p>
+&lt;p>فيما يتعلق بمحتوى الفيديو ، شاهد SimeonOnSecurity العديد من مقاطع الفيديو التي أثارت اهتمامه. يتعمق الفيديو الأول ، &amp;ldquo;The Secret History of Windows ZIPFolders&amp;rdquo; بواسطة Dave&amp;rsquo;s Garage ، في تاريخ وتطور تنسيق الضغط في أنظمة تشغيل Windows. يسلط مقطع فيديو آخر ، &amp;ldquo;تطبيقات Linux الـ 12 التي يجب على الجميع معرفتها&amp;rdquo; بواسطة DistroTube ، الضوء على بعض التطبيقات الأكثر فائدة وتنوعًا المتاحة لمستخدمي Linux.&lt;/p></description></item><item><title>اليوم تعلمت عن تعديلات وتحسينات NTFS</title><link>https://ar.simeononsecurity.com/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>اليوم ، علمت SimeonOnSecurity ووجدت موضوعات مثيرة للاهتمام تتعلق بتعديلات NTFS وتحديثات المستودعات المختلفة.&lt;/p>
+&lt;p>في عالم أنظمة الملفات ، يعد NTFS نظام ملفات شائع الاستخدام لنظام Windows. لتعزيز أدائها وموثوقيتها ، وجدت SimeonOnSecurity موردًا رائعًا على PonderWorthy لمناقشة تعديلات NTFS باستخدام fsutil. تقدم المقالة نظرة ثاقبة حول كيفية تحسين نظام ملفات NTFS لتحسين الأداء والاستقرار.&lt;/p>
+&lt;p>قامت SimeonOnSecurity أيضًا بتحديث مستودعات متعددة ، بما في ذلك البرامج النصية للإعداد و Windows-Optimize-Harden-Debloat و Windows-Optimize-Debloat. تحتوي هذه المستودعات على نصوص وأدوات لتحسين أنظمة Windows وتقويتها وإزالتها.&lt;/p></description></item><item><title>لقد تعلمت اليوم عن فرض سياسات التحكم في تطبيق Windows Defender (WDAC)</title><link>https://ar.simeononsecurity.com/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>اليوم ، بحثت SimeonOnSecurity في موضوع التدقيق وفرض سياسات التحكم في تطبيق Windows Defender (WDAC). WDAC هي ميزة في Windows تساعد على منع تشغيل البرامج غير المصرح بها أو غير الموثوق بها على الجهاز. يوفر وسيلة للتحكم في التطبيقات التي يمكن تشغيلها على الجهاز ، مما يساعد على تحسين الأمان العام للجهاز.&lt;/p>
+&lt;h2 id="تدقيق-وإنفاذ-سياسات-التحكم-في-تطبيق-windows-defender-wdac">
+&lt;a href="#%d8%aa%d8%af%d9%82%d9%8a%d9%82-%d9%88%d8%a5%d9%86%d9%81%d8%a7%d8%b0-%d8%b3%d9%8a%d8%a7%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d9%83%d9%85-%d9%81%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-windows-defender-wdac" title="تدقيق وإنفاذ سياسات التحكم في تطبيق Windows Defender (WDAC):">تدقيق وإنفاذ سياسات التحكم في تطبيق Windows Defender (WDAC):&lt;/a>
+&lt;a href="#%d8%aa%d8%af%d9%82%d9%8a%d9%82-%d9%88%d8%a5%d9%86%d9%81%d8%a7%d8%b0-%d8%b3%d9%8a%d8%a7%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d9%83%d9%85-%d9%81%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-windows-defender-wdac" class="h-anchor" aria-hidden="true" title="تدقيق وإنفاذ سياسات التحكم في تطبيق Windows Defender (WDAC):">#&lt;/a>
+&lt;/h2>
+&lt;p>-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - Audit Windows Defender Application Control Policies">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies">
+&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies"
+rel="noopener external" target="_blank"
+>Microsoft - Audit Windows Defender Application Control Policies&lt;/a>
+&lt;/span>
+-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - Deploy Windows Defender Application Control policies by using Group Policy">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy">
+&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy"
+rel="noopener external" target="_blank"
+>Microsoft - Deploy Windows Defender Application Control policies by using Group Policy&lt;/a>
+&lt;/span>
+-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune">
+&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune"
+rel="noopener external" target="_blank"
+>Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune&lt;/a>
+&lt;/span>
+-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft - Enforce Windows Defencer Application Control Policies">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies">
+&lt;a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies"
+rel="noopener external" target="_blank"
+>Microsoft - Enforce Windows Defencer Application Control Policies&lt;/a>
+&lt;/span>
+&lt;/p></description></item><item><title>قم بتحسين وتقوية نظام Windows الخاص بك باستخدام البرنامج النصي Windows-Optimize-Harden-Debloat</title><link>https://ar.simeononsecurity.com/github/windows-optimize-harden-debloat/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><category>
+"تحسين Windows"
+, "تصلب النوافذ"
+, "الويندوز المنفلتة"
+, "أمن Windows"
+, "أداء Windows"</category><guid>https://ar.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+يوفر هذا الدليل الشامل إرشادات خطوة بخطوة حول كيفية تحسين نظام Windows وتقويته وإزالته من أجل تحسين الأداء والأمان والخصوصية.</description></item><item><title>تعرفت اليوم على CVE-2020-17049 والتنشيط المستند إلى Windows Token</title><link>https://ar.simeononsecurity.com/til/2020-12-28/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2020-12-28/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>علمت SimeonOnSecurity مؤخرًا عن موضوعين في مجال أمان الكمبيوتر: CVE-2020-17049 ، المعروف أيضًا باسم Kerberos Bronze Bit Attack ، والتنشيط المستند إلى Windows Token.&lt;/p>
+&lt;p>إن هجوم Kerberos Bronze Bit ، كما هو موضح في سلسلة من مشاركات المدونة بواسطة Netspi وفي منشور بواسطة Trimarcsecurity ، هو ثغرة أمنية في بروتوكول مصادقة Kerberos. قد تسمح هذه الثغرة الأمنية للمهاجمين بخرق Active Directory ، وهو مستودع مركزي للمعلومات حول مستخدمي المؤسسة وأجهزة الكمبيوتر والموارد الأخرى. تمت مناقشة نشر تغييرات Kerberos S4U لمعالجة مشكلة عدم الحصانة هذه في مقالة دعم Microsoft.&lt;/p></description></item><item><title>لقد تعلمت اليوم عن أدوات الأمان الجديدة ، ومحللات الكود الثابت ، وخيارات الخدمة ذاتية الاستضافة</title><link>https://ar.simeononsecurity.com/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>SimeonOnSecurity هو شخص لديه اهتمام كبير بالأمن والخصوصية وقد صادف العديد من الموارد اليوم التي وجدوها مثيرة للاهتمام ويرغبون في مشاركتها مع الآخرين.&lt;/p>
+&lt;p>من الموارد التي لفتت انتباههم قائمة &amp;ldquo;Awesome Security&amp;rdquo; على GitHub. تحتوي هذه القائمة على مجموعة واسعة من أدوات الأمان الرائعة وخطط SimeonOnSecurity لمواصلة استكشاف العناصر الموجودة في هذه القائمة والتعرف عليها.&lt;/p>
+&lt;p>مصدر آخر وجدوه مثيرًا للاهتمام هو &amp;ldquo;PSScriptAnalyzer&amp;rdquo;. هذا مدقق رمز ثابت لوحدات PowerShell والبرامج النصية ، وتخطط SimeonOnSecurity لدمجها في سير العمل لتطوير الوحدات والبرامج النصية.&lt;/p></description></item><item><title>تعرفت اليوم على Android Debloating وتقنية جديدة للخصوصية</title><link>https://ar.simeononsecurity.com/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ما علمه SimeonOnSecurity ووجده مثيرًا للاهتمام اليوم **&lt;/p>
+&lt;p>اليوم ، صادفت SimeonOnSecurity اثنين من الأدوات المفيدة والمفيدة المتعلقة بالأمان والخصوصية: Universal Android Debloater و DeepPrivacy.&lt;/p>
+&lt;p>Universal Android Debloater هو برنامج نصي يستخدم ADB (Android Debug Bridge) لإزالة تعويم أجهزة Android التي لا تحتوي على جذر. يمكن أن تساعد هذه الأداة في تحسين الخصوصية والأمان وعمر بطارية جهازك عن طريق إزالة التطبيقات غير المرغوب فيها وبرامج bloatware. يمكنك العثور على Universal Android Debloater على
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+>https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a>
+&lt;/span>
+.&lt;/p></description></item><item><title>Complete Guide to Harden Windows with Windows Defender Application Control (WDAC)</title><link>https://ar.simeononsecurity.com/github/windows-defender-application-control-hardening/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender Application Control (WDAC) Hardening"
+, "PowerShell"
+, "PowerShell Script"
+, "Automation"
+, "Compliance"</category><guid>https://ar.simeononsecurity.com/github/windows-defender-application-control-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use Windows Defender Application Control (WDAC) to harden your Windows operating system with scripts and tools.</description></item><item><title>Offline Install RSAT ActiveDirectory PowerShell Module</title><link>https://ar.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Remote Server Administration Toolkit"
+, "PowerShell RSAT ActiveDirectory Module"
+, "Windows 10"
+, "Offline Installer"
+, "PowerShell Script"</category><guid>https://ar.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to install the RSAT ActiveDirectory PowerShell Module offline with a simple PowerShell script.</description></item><item><title>Ultimate Applocker Hardening Configuration Script: Boost Windows Security</title><link>https://ar.simeononsecurity.com/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows security"
+, "Applocker"
+, "Configuration script"
+, "Cybersecurity"
+, "Malware protection"</category><guid>https://ar.simeononsecurity.com/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Protect your Windows system against malicious attacks by using the Ultimate Applocker Hardening Configuration Script.</description></item><item><title>موجه أوامر Windows وتقوية PowerShell</title><link>https://ar.simeononsecurity.com/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><category>
+"بوويرشيل"
+, "تصلب"
+, "موجه أوامر Windows"
+, "حماية"
+, "امتثال"</category><guid>https://ar.simeononsecurity.com/github/windows-terminal-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قم بتأمين موجه أوامر Windows و PowerShell من خلال البرنامج النصي والتوثيق الشامل الخاص بنا ، مما يعزز أمان النظام والامتثال.</description></item><item><title>أتمتة توافق Windows Defender مع PowerShell Script</title><link>https://ar.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"بوويرشيل"
+, "برنامج PowerShell النصي"
+, "أتمتة"
+, "امتثال"
+, "فريق أزرق"</category><guid>https://ar.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+عزز أمانك باستخدام البرنامج النصي Windows Defender STIG PowerShell ، الذي يعمل تلقائيًا على الامتثال لإرشادات Windows Defender Antivirus V1R9 STIG.</description></item><item><title>تعزيز أمان Windows 10 باستخدام برنامج Defender Hardening Script</title><link>https://ar.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"ويندوز ديفندر"
+, "نظام التشغيل Windows 10"
+, "أمان Windows 10"
+, "برنامج PowerShell النصي"
+, "تصلب"</category><guid>https://ar.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية تحسين أمان Windows 10 باستخدام برنامج PowerShell النصي الذي يقوي برنامج Windows Defender Antivirus ، وينفذ جميع متطلبات برنامج الحماية من الفيروسات لـ Windows Defender STIG V2R1.</description></item><item><title>HackTheBox - التحديات - التشفير - الاتصال</title><link>https://ar.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"هاكذا بوكس"
+, "تحدي التشفير"
+, "نغمات DTMF"
+, "عدد الشفرات الأولية"
+, "فك التشفير"</category><guid>https://ar.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية فك تشفير نغمات DTMF باستخدام تشفير الأرقام الأولية لحل تحدي Crypto - Call على HackTheBox.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png"/></item><item><title>HackTheBox - التحديات - التشفير - فك الشفرة</title><link>https://ar.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"هاكذا بوكس"
+, "التحديات"
+, "تشفير"
+, "فك تشفير"
+, "اكتب"</category><guid>https://ar.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية فك شيفرات Fernet و Malboge لحل تحدي تشفير HackTheBox وكشف العلم المخفي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png"/></item><item><title>عوامل تصفية WMI لعمليات النشر الفعالة لنهج مجموعة Windows - قم بالتنزيل من GitHub</title><link>https://ar.simeononsecurity.com/github/wmi-filters/</link><pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/github/wmi-filters/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>مجموعة من عوامل تصفية WMI للمساعدة في عمليات نشر نهج المجموعة في Windows&lt;/p>
+&lt;p>عند نشر كائنات نهج المجموعة ، توصي Microsoft باستخدام عوامل تصفية WMI لتسريع العملية وعزل السياسات في المجالات الكبيرة.
+تسمح لك عوامل تصفية WMI بتحديد كائنات نهج المجموعة (GPOs) وصولاً إلى جزء معين من البرنامج أو إصدار Windows مع إمكانية أن تصبح أكثر تعقيدًا بشكل ملحوظ.
+يتضمن مستودع GitHub المرتبط بعضًا من أكثر عوامل تصفية WMI شيوعًا حتى لا تضطر إلى إنشائها.&lt;/p></description></item><item><title>حماية Windows من عمليات التنفيذ التخمينية لهجمات القناة الجانبية</title><link>https://ar.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"برنامج Windows Specter Meltdown Mitigation Script"
+, "الهجمات التخمينية للقناة الجانبية"
+, "مايكروسوفت"
+, "شركة انتل"
+, "AMD"</category><guid>https://ar.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية حماية نظام Windows الخاص بك من هجمات القناة الجانبية للتنفيذ التخميني باستخدام البرنامج النصي للتخفيف وتحديثات البرامج الثابتة من Microsoft</description></item><item><title/><link>https://ar.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": [
+{
+"@type": "WebApplication",
+"name": "KeePassXC",
+"url": "https://keepassxc.org/"
+},
+{
+"@type": "WebApplication",
+"name": "Bitwarden",
+"url": "https://bitwarden.com/"
+},
+{
+"@type": "WebApplication",
+"name": "Dashlane",
+"url": "https://www.dashlane.com/"
+},
+{
+"@type": "WebApplication",
+"name": "LastPass",
+"url": "https://www.lastpass.com/"
+},
+{
+"@type": "WebApplication",
+"name": "1Password",
+"url": "https://1password.com/"
+}
+],
+"reviewRating": [
+{
+"@type": "Rating",
+"ratingValue": "5",
+"bestRating": "5",
+"worstRating": "1",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"reviewAspect": "Recommended",
+"reviewBody": "I highly recommend using KeePassXC and Bitwarden for their excellent security, customizable features, and offline functionality."
+},
+{
+"@type": "Rating",
+"ratingValue": "4",
+"bestRating": "5",
+"worstRating": "1",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"reviewAspect": "Recommended",
+"reviewBody": "Dashlane is a solid mid-tier option with its user-friendly interface and sync capabilities."
+},
+{
+"@type": "Rating",
+"ratingValue": "2",
+"bestRating": "5",
+"worstRating": "1",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"reviewAspect": "Not Recommended",
+"reviewBody": "LastPass and 1Password are lower-ranked choices due to certain limitations and pricing structures."
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "ItemList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Router",
+"link": "https://amzn.to/43HmkCQ"
+}
+},
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Machine Pro (UDM-Pro)",
+"link": "https://amzn.to/3WR0w5A"
+}
+},
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Machine (UDM)",
+"link": "https://amzn.to/43KtI09"
+}
+},
+{
+"@type": "ListItem",
+"position": 4,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Machine SE (UDM-SE)",
+"link": "https://amzn.to/43rao8r"
+}
+},
+{
+"@type": "ListItem",
+"position": 5,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 Lite Wi-Fi 6 Dual Band Wireless Access Point (U6-LITE)",
+"link": "https://amzn.to/3oJ8T6H"
+}
+},
+{
+"@type": "ListItem",
+"position": 6,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 Long-Range Wi-Fi 6 Access Point (U6-LR)",
+"link": "https://amzn.to/42lVAa1"
+}
+},
+{
+"@type": "ListItem",
+"position": 7,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 In-Wall Wi-Fi 6 Access Point (U6-IW)",
+"link": "https://amzn.to/3J1FzyZ"
+}
+},
+{
+"@type": "ListItem",
+"position": 8,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 Mesh Wi-Fi 6 System (U6-Mesh)",
+"link": "https://amzn.to/3oJ8T6H"
+}
+},
+{
+"@type": "ListItem",
+"position": 9,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 24 PoE (USW-24-Poe)",
+"link": "https://amzn.to/3oSwL7R"
+}
+},
+{
+"@type": "ListItem",
+"position": 10,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 24 (USW-24)",
+"link": "https://amzn.to/43pYZ93"
+}
+},
+{
+"@type": "ListItem",
+"position": 11,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 48 PoE (USW-48-Poe)",
+"link": "https://amzn.to/3Chf198"
+}
+},
+{
+"@type": "ListItem",
+"position": 12,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 48 (USW-48)",
+"link": "https://amzn.to/3z3Oh85"
+}
+},
+{
+"@type": "ListItem",
+"position": 13,
+"item": {
+"@type": "Product",
+"name": "UniFi Protect Network Video Recorder (UNVR)",
+"link": "https://amzn.to/3qym8Y8"
+}
+},
+{
+"@type": "ListItem",
+"position": 14,
+"item": {
+"@type": "Product",
+"name": "UniFi Protect G4 Pro Camera (UVC-G4-PRO)",
+"link": "https://amzn.to/43qe6zg"
+}
+},
+{
+"@type": "ListItem",
+"position": 15,
+"item": {
+"@type": "Product",
+"name": "Cable Matters 10Gbps UL Listed in-Wall (cm) Bare Copper Shielded Cat 6A Cable",
+"link": "https://amzn.to/3ChqNQQ"
+}
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/authors/simeononsecurity/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/authors/simeononsecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>��-�-�-�
+�
+�a�u�t�h�o�r�:� �&amp;quot;�S�i�m�e�o�n�O�n�S�e�c�u�r�i�t�y�&amp;quot;�
+�
+�t�i�t�l�e�:� �&amp;quot;�S�i�m�e�o�n�O�n�S�e�c�u�r�i�t�y�&amp;quot;�
+�
+�d�e�s�c�r�i�p�t�i�o�n�:� �&amp;quot;�3JEJHF �GH �E3$HD �#F8E) �E&amp;rsquo;G1 �(4:A �D#E&amp;rsquo;F �&amp;rsquo;DE9DHE&amp;rsquo;&lt;em> �H&amp;rsquo;D.5H5J).� �AJ �&amp;rsquo;DFG&amp;rsquo;1  �J,D( �E91A&lt;/em>G �&amp;rsquo;D&lt;em>BFJ) �H.(1&lt;/em>G �&amp;rsquo;DH&amp;rsquo;39) �%DI �/H1G.� �HAJ �&amp;rsquo;DDJD  �J3&lt;em>E&lt;/em>9 �(&lt;em>5DJ- �&amp;rsquo;D#4J&amp;rsquo;! �HJ9&lt;/em>(1 �FA3G �EGHH3K&amp;rsquo; �H9(B1JK&amp;rsquo;.� �J(/# �3JEJHF �&lt;em>&amp;rsquo;1J. �.(1&lt;/em>G �&amp;rsquo;D&lt;em>BFJ) �EF0 �5:1G  �-J+ �(/# �AJ �3F �1�2� �(-D �&amp;rsquo;DE4&amp;rsquo;CD �H%5D&amp;rsquo;- �&amp;rsquo;D#97&amp;rsquo;D �9DI �,G&amp;rsquo;2 �CE(JH&lt;/em>1 �E-EHD �D&amp;rsquo; �JECF �#F �J9ED �(+(&amp;rsquo;&lt;em> �E9 �F8&amp;rsquo;E �HJF/H2 �%C3 �(J.� �&amp;rsquo;DJHE  �J-&lt;/em>A8 �(E1C2 �(J&amp;rsquo;F&amp;rsquo;&lt;em> �HE.&lt;/em>(1 �-/J+ �AJ �EF2DG  �EE&amp;rsquo; �J/D �9DI �&amp;rsquo;D&lt;em>2&amp;rsquo;EG �&amp;rsquo;D+&amp;rsquo;(&lt;/em> �(E,&amp;rsquo;D �&amp;rsquo;D9ED �H916 �%EC&amp;rsquo;FJ&amp;rsquo;&lt;em> �&amp;rsquo;D-H3() �H&amp;rsquo;D&lt;/em>.2JF �&amp;rsquo;D&lt;em>J �&lt;/em>F&amp;rsquo;A3 �&lt;em>DC �&amp;rsquo;D&lt;/em>J �D/JG&amp;rsquo; �&amp;rsquo;D9/J/ �EF �&amp;rsquo;D41C&amp;rsquo;&lt;em> �&amp;rsquo;D5:J1).�&amp;quot;�
+�
+�c�o�v�e�r�:� �&amp;quot;�/�i�m�g�/�b�a�n�n�e�r�.�p�n�g�&amp;quot;�
+�
+�-�-�-�
+�
+�
+�
+�#�#� �B�i�o�:�
+�
+�3JEJHF �GH �E3$HD �#F8E) �E&amp;rsquo;G1 �(4:A �D@ �&lt;/em>�&lt;em>�#E&amp;rsquo;F �&amp;rsquo;DE9DHE&amp;rsquo;&lt;/em>&lt;em>�&lt;/em>� �H �&lt;em>�&lt;/em>�&amp;rsquo;D.5H5J)&lt;em>�&lt;/em>�.� �AJ �&amp;rsquo;DFG&amp;rsquo;1  �J,D( �E91A&lt;em>G �&amp;rsquo;D&lt;/em>BFJ) �H.(1&lt;em>G �&amp;rsquo;DH&amp;rsquo;39) �%DI �/H1G.� �HAJ �&amp;rsquo;DDJD  �J3&lt;/em>E&lt;em>9 �(&lt;/em>5DJ- �&amp;rsquo;D#4J&amp;rsquo;! �HJ9&lt;em>(1 �FA3G �&lt;/em>�&lt;em>�EGHH3K&amp;rsquo;&lt;/em>�&lt;em>� �H �&lt;/em>�&lt;em>�9(B1JK&amp;rsquo;&lt;/em>�&lt;em>�.� �J(/# �3JEJHF �&lt;/em>&amp;rsquo;1J. �.(1&lt;em>G �&amp;rsquo;D&lt;/em>BFJ) �EF0 �5:1G  �-J+ �(/# �AJ �3F �1�2� �(-D �&amp;rsquo;DE4&amp;rsquo;CD �H%5D&amp;rsquo;- �&amp;rsquo;D#97&amp;rsquo;D �9DI �,G&amp;rsquo;2 �CE(JH&lt;em>1 �E-EHD �D&amp;rsquo; �JECF �#F �J9ED �(+(&amp;rsquo;&lt;/em> �E9 �&lt;em>�&lt;/em>�F8&amp;rsquo;E �HJF/H2 �%C3 �(J&lt;em>�&lt;/em>�.� �&amp;rsquo;DJHE  �J-&lt;em>A8 �(E1C2 �(J&amp;rsquo;F&amp;rsquo;&lt;/em> �HE.&lt;em>(1 �-/J+ �AJ �EF2DG  �EE&amp;rsquo; �J/D �9DI �&lt;/em>�&lt;em>�&amp;rsquo;D&lt;/em>2&amp;rsquo;EG �&amp;rsquo;D+&amp;rsquo;(&lt;em>&lt;/em>�&lt;em>� �(E,&amp;rsquo;D �&amp;rsquo;D9ED �H916 �%EC&amp;rsquo;FJ&amp;rsquo;&lt;/em> �&amp;rsquo;D-H3() �H&amp;rsquo;D&lt;em>.2JF �&amp;rsquo;D&lt;/em>J �&lt;em>F&amp;rsquo;A3 �&lt;/em>DC �&amp;rsquo;D&lt;em>J �D/JG&amp;rsquo; �&amp;rsquo;D9/J/ �EF �&amp;rsquo;D41C&amp;rsquo;&lt;/em> �&amp;rsquo;D5:J1).�
+�
+�
+�
+�#�#� �S�o�c�i�a�l� �M�e�d�i�a� �L�i�n�k�s�:�
+�
+�-� �[�G�i�t�H�u�b�]�(�h�t�t�p�s�:�/�/�g�i�t�h�u�b�.�c�o�m�/�s�i�m�e�o�n�o�n�s�e�c�u�r�i�t�y�)�
+�
+�-� �[�T�w�i�t�t�e�r�]�(�h�t�t�p�s�:�/�/�t�w�i�t�t�e�r�.�c�o�m�/�S�i�m�e�o�n�S�e�c�u�r�i�t�y�)�
+�
+�&lt;/p></description></item><item><title/><link>https://ar.simeononsecurity.com/cyber-security-career-playbook-start/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/cyber-security-career-playbook-start/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Course",
+"name": "Cyber Security Career Playbook - Launching a Successful Cyber Security Career",
+"description": "Discover valuable insights, practical tips, and resources to embark on a successful cybersecurity career and make an impact in the ever-changing digital landscape.",
+"provider": {
+"@type": "Organization",
+"name": "SimeonOnSecurity"
+},
+"instructor": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"duration": "PT400M",
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.5",
+"bestRating": "5",
+"ratingCount": "100"
+},
+"url": "https://simeononsecurity.com/cyber-security-career-playbook-start",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "Explain Cybersecurity Like I'm 5 (ELI5)",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Simplified explanations of cybersecurity concepts for beginners.",
+"url": "https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/"
+}
+},
+{
+"@type": "Question",
+"name": "What is cybersecurity?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Cybersecurity is the practice of protecting computers, servers, networks, and data from digital attacks or unauthorized access.",
+"url": "https://simeononsecurity.com/articles/what-is-cybersecurity/"
+}
+},
+{
+"@type": "Question",
+"name": "What are some common cybersecurity threats?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Common cybersecurity threats include viruses, malware, phishing attacks, ransomware, and social engineering. These threats can compromise the security of systems, steal data, or cause other harmful effects.",
+"url": "https://simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/"
+}
+},
+{
+"@type": "Question",
+"name": "How can I protect myself from cybersecurity threats?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "To protect yourself from cybersecurity threats, you can follow best practices such as using strong and unique passwords, enabling two-factor authentication, keeping your software up to date, being cautious of suspicious emails or links, and using antivirus software.",
+"url": "https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/"
+}
+},
+{
+"@type": "Question",
+"name": "What is a cybersecurity career?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "A cybersecurity career involves working to protect computer systems, networks, and data from cyber threats. It includes roles such as cybersecurity analyst, penetration tester, incident responder, and security architect.",
+"url": "https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-career-path-look-like/"
+}
+},
+{
+"@type": "Question",
+"name": "How can I start a career in cybersecurity?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "To start a career in cybersecurity, you can pursue education and certifications in the field, gain practical experience through internships or entry-level positions, participate in cybersecurity competitions and challenges, and stay updated with the latest industry trends and technologies.",
+"url": "https://simeononsecurity.com/cyber-security-career-playbook-start/"
+}
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Number of Cybersecurity Jobs",
+"description": "Ranking of cities in the United States based on the number of available cybersecurity jobs in 2024.",
+"tableCaption": "Ranking of Cities by Number of Cybersecurity Jobs",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": "1",
+"name": "Washington, D.C.",
+"description": "City with the highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "1"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Washington, D.C."
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "12,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "2",
+"name": "San Francisco",
+"description": "City with the second-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "2"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "San Francisco"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "10,500"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "3",
+"name": "Austin, Texas",
+"description": "City with the third-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "3"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Austin, Texas"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "9,200"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "4",
+"name": "Boston, Massachusetts",
+"description": "City with the fourth-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "4"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Boston, Massachusetts"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "7,800"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "5",
+"name": "Seattle, Washington",
+"description": "City with the fifth-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "5"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Seattle, Washington"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "6,500"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "6",
+"name": "Huntsville, Alabama",
+"description": "City with the sixth-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "6"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Huntsville, Alabama"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "4,500"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "7",
+"name": "Raleigh, North Carolina",
+"description": "City with the seventh-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "7"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Raleigh, North Carolina"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "3,800"
+}
+]
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Average Salary for Cybersecurity Positions",
+"description": "Ranking of cities in the United States based on the average salary for cybersecurity positions in 2024.",
+"tableCaption": "Ranking of Cities by Average Salary for Cybersecurity Positions",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": "1",
+"name": "San Francisco",
+"description": "City with the highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "1"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "San Francisco"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$120,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "2",
+"name": "Washington, D.C.",
+"description": "City with the second-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "2"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Washington, D.C."
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$110,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "3",
+"name": "Seattle, Washington",
+"description": "City with the third-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "3"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Seattle, Washington"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$105,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "4",
+"name": "Boston, Massachusetts",
+"description": "City with the fourth-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "4"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Boston, Massachusetts"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$100,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "5",
+"name": "Austin, Texas",
+"description": "City with the fifth-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "5"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Austin, Texas"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$95,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "6",
+"name": "Huntsville, Alabama",
+"description": "City with the sixth-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "6"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Huntsville, Alabama"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$90,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "7",
+"name": "Raleigh, North Carolina",
+"description": "City with the seventh-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "7"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Raleigh, North Carolina"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$85,000"
+}
+]
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Table",
+"name": "Ranking of Cities by Cost of Living Index (Best to Worst)",
+"description": "A table listing the ranking of cities based on their cost of living index.",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Huntsville, Alabama",
+"costOfLivingIndex": 88
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Raleigh, North Carolina",
+"costOfLivingIndex": 92
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Austin, Texas",
+"costOfLivingIndex": 130
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Seattle, Washington",
+"costOfLivingIndex": 172
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Boston, Massachusetts",
+"costOfLivingIndex": 170
+},
+{
+"@type": "TableRow",
+"position": 6,
+"name": "Washington, D.C.",
+"costOfLivingIndex": 158
+},
+{
+"@type": "TableRow",
+"position": 7,
+"name": "San Francisco",
+"costOfLivingIndex": 280
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Table",
+"name": "Ranking of Cities by Crime Rate Index (Best to Worst)",
+"description": "A table listing the ranking of cities based on their crime rate index.",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Huntsville, Alabama",
+"crimeRateIndex": 88
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Raleigh, North Carolina",
+"crimeRateIndex": 92
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Austin, Texas",
+"crimeRateIndex": 95
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Seattle, Washington",
+"crimeRateIndex": 102
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Boston, Massachusetts",
+"crimeRateIndex": 106
+},
+{
+"@type": "TableRow",
+"position": 6,
+"name": "Washington, D.C.",
+"crimeRateIndex": 108
+},
+{
+"@type": "TableRow",
+"position": 7,
+"name": "San Francisco",
+"crimeRateIndex": 116
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Table",
+"name": "Ranking of Cities by Average Overall Ranking (Best to Worst)",
+"description": "A table listing the ranking of cities based on various factors such as jobs available, average salary, cost of living index, and crime rate index.",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Huntsville, Alabama",
+"approxJobsAvailable": 4500,
+"averageSalary": "$90,000",
+"costOfLivingIndex": 88,
+"crimeRateIndex": 88
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Raleigh, North Carolina",
+"approxJobsAvailable": 3800,
+"averageSalary": "$85,000",
+"costOfLivingIndex": 92,
+"crimeRateIndex": 92
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Austin, Texas",
+"approxJobsAvailable": 9200,
+"averageSalary": "$95,000",
+"costOfLivingIndex": 130,
+"crimeRateIndex": 95
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Seattle, Washington",
+"approxJobsAvailable": 6500,
+"averageSalary": "$105,000",
+"costOfLivingIndex": 172,
+"crimeRateIndex": 102
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Boston, Massachusetts",
+"approxJobsAvailable": 7800,
+"averageSalary": "$100,000",
+"costOfLivingIndex": 170,
+"crimeRateIndex": 106
+},
+{
+"@type": "TableRow",
+"position": 6,
+"name": "Washington, D.C.",
+"approxJobsAvailable": 12000,
+"averageSalary": "$110,000",
+"costOfLivingIndex": 158,
+"crimeRateIndex": 108
+},
+{
+"@type": "TableRow",
+"position": 7,
+"name": "San Francisco",
+"approxJobsAvailable": 10500,
+"averageSalary": "$120,000",
+"costOfLivingIndex": 280,
+"crimeRateIndex": 116
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Software Developer",
+"description": "A professional involved in the development of software applications.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 50000,
+"maxValue": 120000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cybersecurity Professional",
+"description": "A professional specializing in cybersecurity.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"value": 120000,
+"unitText": "year"
+}
+}
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Number of Cybersecurity Jobs",
+"description": "Ranking of cities based on the number of available cybersecurity jobs.",
+"tableCaption": "Ranking of Cities by Number of Cybersecurity Jobs",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "London, UK",
+"jobsAvailable": "10,000+"
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Singapore",
+"jobsAvailable": "8,000+"
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Tel Aviv, Israel",
+"jobsAvailable": "6,500+"
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Berlin, Germany",
+"jobsAvailable": "5,000+"
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Sydney, Australia",
+"jobsAvailable": "4,500+"
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Average Salaries for Cybersecurity Professionals",
+"description": "Ranking of cities based on the average salaries for cybersecurity professionals.",
+"tableCaption": "Average Salaries for Cybersecurity Professionals",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "London, UK",
+"averageSalary": "$100,000+"
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Singapore",
+"averageSalary": "$90,000+"
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Tel Aviv, Israel",
+"averageSalary": "$85,000+"
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Berlin, Germany",
+"averageSalary": "$80,000+"
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Sydney, Australia",
+"averageSalary": "$75,000+"
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Cost of Living Index",
+"description": "Ranking of cities based on the cost of living index.",
+"tableCaption": "Ranking of Cities by Cost of Living Index",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Berlin, Germany",
+"costOfLivingIndex": 70.2
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Sydney, Australia",
+"costOfLivingIndex": 75.7
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "London, UK",
+"costOfLivingIndex": 80.4
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Tel Aviv, Israel",
+"costOfLivingIndex": 85.5
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Singapore",
+"costOfLivingIndex": 90.2
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Crime Rate Index",
+"description": "Ranking of cities based on the crime rate index.",
+"tableCaption": "Ranking of Cities by Crime Rate Index",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Singapore",
+"crimeRateIndex": 18.2
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Tel Aviv, Israel",
+"crimeRateIndex": 25.6
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Berlin, Germany",
+"crimeRateIndex": 27.4
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Sydney, Australia",
+"crimeRateIndex": 30.1
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "London, UK",
+"crimeRateIndex": 35.8
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Average Overall Ranking",
+"description": "Ranking of cities based on the average overall ranking.",
+"tableCaption": "Ranking of Cities by Average Overall Ranking",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Berlin, Germany",
+"overallRanking": 1.75
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Singapore",
+"overallRanking": 2.5
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "London, UK",
+"overallRanking": 3
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Tel Aviv, Israel",
+"overallRanking": 3.75
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Sydney, Australia",
+"overallRanking": 4
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-analyst-salaries-entry-level-to-pro/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-analyst-salaries-entry-level-to-pro/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Entry-Level Cybersecurity Analyst",
+"description": "An entry-level cybersecurity analyst responsible for assisting more experienced analysts in monitoring network security, analyzing threats, and implementing basic security measures.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 50000,
+"maxValue": 70000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Mid-Level Cybersecurity Analyst",
+"description": "A mid-level cybersecurity analyst responsible for conducting security assessments, implementing security controls, and responding to security incidents under minimal supervision.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 70000,
+"maxValue": 100000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Senior-Level Cybersecurity Analyst",
+"description": "A senior-level cybersecurity analyst responsible for overseeing security operations, developing security strategies, and collaborating with other teams to ensure comprehensive protection against cyber threats.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 100000,
+"unitText": "year"
+}
+}
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Network Security Specialist",
+"description": "A network security specialist responsible for protecting computer networks from unauthorized access and securing data transmission within them.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 60000,
+"maxValue": 90000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cloud Security Specialist",
+"description": "A cloud security specialist responsible for safeguarding data stored and processed in cloud environments and ensuring the privacy and security of cloud-based systems.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 70000,
+"maxValue": 110000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Application Security Specialist",
+"description": "An application security specialist responsible for securing software applications throughout their lifecycle, identifying and mitigating vulnerabilities in software code.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 65000,
+"maxValue": 95000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Data Privacy and Compliance Specialist",
+"description": "A data privacy and compliance specialist responsible for ensuring organizations comply with relevant regulations and protect sensitive data from unauthorized access.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 60000,
+"maxValue": 90000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Incident Response and Digital Forensics Specialist",
+"description": "An incident response and digital forensics specialist responsible for mitigating the impact of cybersecurity incidents, investigating the root cause, and assisting in legal proceedings.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 70000,
+"maxValue": 100000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cybersecurity Education and Training Specialist",
+"description": "A cybersecurity education and training specialist responsible for educating individuals and organizations about cybersecurity best practices and policies.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 55000,
+"maxValue": 80000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cybersecurity Consultant",
+"description": "A cybersecurity consultant responsible for providing expert advice and guidance to organizations on improving their cybersecurity posture and ensuring compliance with relevant regulations.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 80000,
+"maxValue": 120000,
+"unitText": "year"
+}
+}
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/jobs/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/jobs/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "ItemList",
+"name": "Job Postings",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@type": "JobPosting",
+"title": "Video Creator and Editor (Unpaid Intern Position)",
+"description": "We are looking for a creative and talented Video Creator and Editor to join our team...",
+"occupationalCategory": ["Art, Design, Entertainment, Sports and Media"],
+"applicantLocationRequirements": {
+"@type": "Country",
+"name": "USA"
+},
+"jobLocationType": "TELECOMMUTE",
+"responsibilities": [
+"Produce high-quality and captivating videos for YouTube and YouTube shorts",
+"Edit videos to match the tone and style of our brand",
+"Collaborate with the content team to brainstorm and execute video ideas",
+"Optimize videos for different platforms and formats (horizontal and vertical video editing)",
+"Stay updated with industry trends and best practices in video creation and editing"
+],
+"qualifications": [
+"Proficiency in video editing software (e.g., Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve)",
+"Creativity and a keen eye for visual storytelling",
+"Familiarity with YouTube content creation best practices",
+"Ability to meet deadlines and work independently",
+"Strong communication and teamwork skills"
+],
+"employmentType": "Internship",
+"jobBenefits": "Software subscriptions, image licensing, opportunity to earn up to 75% of video's ad revenue and up to 25% of affiliate/sponsorship revenue",
+"hiringOrganization": {
+"@type": "Organization",
+"name": "SimeonOnSecurity",
+"url": "https://simeononsecurity.com",
+"logo": "https://simeononsecurity.com/img/banner.png"
+},
+"datePosted": "2023-08-01",
+"validThrough": "2024-09-01",
+"url": "https://simeononsecurity.com/jobs#video-creator-editor",
+"directApply": "true"
+}
+},
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@type": "JobPosting",
+"title": "Social Media Manager (Unpaid Intern Position)",
+"description": "We are seeking a motivated and enthusiastic Social Media Manager to join our team...",
+"occupationalCategory": ["Marketing"],
+"applicantLocationRequirements": {
+"@type": "Country",
+"name": "USA"
+},
+"jobLocationType": "TELECOMMUTE",
+"responsibilities": [
+"Create and curate engaging content for our social media channels",
+"Develop and implement social media strategies to increase brand awareness and reach",
+"Monitor and respond to comments, messages, and mentions",
+"Analyze social media metrics and adjust strategies accordingly",
+"Collaborate with the content team to align social media efforts with overall marketing goals"
+],
+"qualifications": [
+"Proven experience in managing social media accounts (personal or professional)",
+"Familiarity with social media platforms and their respective best practices",
+"Strong written and verbal communication skills",
+"Ability to think creatively and generate engaging content ideas",
+"Passion for social media and staying up-to-date with industry trends"
+],
+"employmentType": "Internship",
+"jobBenefits": "Opportunity to gain practical experience in social media management",
+"hiringOrganization": {
+"@type": "Organization",
+"name": "SimeonOnSecurity",
+"url": "https://simeononsecurity.com",
+"logo": "https://simeononsecurity.com/img/banner.png"
+},
+"datePosted": "2023-08-01",
+"validThrough": "2024-09-01",
+"url": "https://simeononsecurity.com/jobs#social-media-manager",
+"directApply": "true"
+}
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://ar.simeononsecurity.com/recommendhome/pageshema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/recommendhome/pageshema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Recommendation",
+"name": "SimeonOnSecurity's Expert Recommendations for Security and Privacy Products and Resources",
+"description": "Explore SimeonOnSecurity's expert recommendations for trusted and highly rated security and privacy-related products and resources.",
+"genre": ["Cybersecurity", "Privacy Protection", "Product Recommendations", "Resource Recommendations", "Security Tools", "Privacy Tools", "Data Protection", "Internet Privacy"],
+"keywords": ["security recommendations", "privacy products", "cybersecurity tools", "data protection", "internet privacy", "anti-virus", "books", "browser plugins", "certifications", "email providers", "every day carry", "hackers toolkit", "headphones", "microphones", "speakers", "learning resources", "messenger clients", "organizations to support", "privacy resources", "SIP DID VOIP providers", "security creators", "service providers", "VPN providers", "webcams"],
+"image": "https://simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png",
+"mainEntity": {
+"@type": "ItemList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"url": "https://simeononsecurity.com/recommendations/anti-virus"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"url": "https://simeononsecurity.com/recommendations/books"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"url": "https://simeononsecurity.com/recommendations/browser_plugins"
+},
+{
+"@type": "ListItem",
+"position": 4,
+"url": "https://simeononsecurity.com/recommendations/cell-phone-service-providers"
+},
+{
+"@type": "ListItem",
+"position": 5,
+"url": "https://simeononsecurity.com/recommendations/certifications"
+},
+{
+"@type": "ListItem",
+"position": 6,
+"url": "https://simeononsecurity.com/recommendations/email"
+},
+{
+"@type": "ListItem",
+"position": 7,
+"url": "https://simeononsecurity.com/recommendations/edc"
+},
+{
+"@type": "ListItem",
+"position": 8,
+"url": "https://simeononsecurity.com/recommendations/hacker_hardware"
+},
+{
+"@type": "ListItem",
+"position": 9,
+"url": "https://simeononsecurity.com/recommendations/audio"
+},
+{
+"@type": "ListItem",
+"position": 10,
+"url": "https://simeononsecurity.com/recommendations/learning_resources"
+},
+{
+"@type": "ListItem",
+"position": 11,
+"url": "https://simeononsecurity.com/recommendations/messengers"
+},
+{
+"@type": "ListItem",
+"position": 12,
+"url": "https://simeononsecurity.com/recommendations/organizations"
+},
+{
+"@type": "ListItem",
+"position": 13,
+"url": "https://simeononsecurity.com/recommendations/privacy"
+},
+{
+"@type": "ListItem",
+"position": 14,
+"url": "https://simeononsecurity.com/recommendations/voip"
+},
+{
+"@type": "ListItem",
+"position": 15,
+"url": "https://simeononsecurity.com/recommendations/creators"
+},
+{
+"@type": "ListItem",
+"position": 16,
+"url": "https://simeononsecurity.com/recommendations/services"
+},
+{
+"@type": "ListItem",
+"position": 17,
+"url": "https://simeononsecurity.com/recommendations/vpns"
+},
+{
+"@type": "ListItem",
+"position": 18,
+"url": "https://simeononsecurity.com/recommendations/webcams"
+}
+]
+}
+}
+&lt;/script></description></item><item><title>About</title><link>https://ar.simeononsecurity.com/about/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/about/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;h3>What is SimeonOnSecurity?&lt;/h3>
+&lt;p>
+SimeonOnSecurity (SOS) is a leading source of information in the realm of
+security, automation, best practices, crypto, and more. Our goal is to provide
+unique and insightful technical content to our readers that goes beyond the surface level
+information typically found online. This blog serves as a showcase of our
+expertise and passion for the industry, offering a comprehensive view of the
+inner workings of this dynamic field.
+&lt;/p></description></item><item><title>Admin Page</title><link>https://ar.simeononsecurity.com/admin/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ar.simeononsecurity.com/admin/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;img src="https://canarytokens.com/terms/5lffhbrwnqn2ktpv2fkrcagbj/1x1.png" />
+&lt;a>You're not supposed to know about this page&lt;/a>
+&lt;a>Really? You tried to hack a static website? XD&lt;/a></description></item><item><title>Contact Details for SimeonOnSecurity: Connect Safely for Business Inquiries and Security Concerns</title><link>https://ar.simeononsecurity.com/contactus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Contact Details"
+, "Secure Communication"
+, "Business Inquiries"
+, "Security Concerns"
+, "Social Media"</category><guid>https://ar.simeononsecurity.com/contactus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ensure secure communication with SimeonOnSecurity by using our contact form for business inquiries or security concerns, while staying connected through various social media platforms.</description></item><item><title>HackTheBox - Invite Challenge (Windows/Linux)</title><link>https://ar.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"هاكذا بوكس"
+, "دعوة التحدي"
+, "اختبار الاختراق"
+, "الأمن الإلكتروني"
+, "شبابيك"</category><guid>https://ar.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية إنشاء رمز دعوة والانضمام إلى منصة HackTheBox عبر الإنترنت لاختبار مهاراتك وتطويرها في اختبار الاختراق والأمن السيبراني على كل من Windows و Linux.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png"/></item><item><title>HackTheBox - التحدي - التشفير - ضعف RSA</title><link>https://ar.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"هاكذا بوكس"
+, "التحديات"
+, "تشفير"
+, "ضعف RSA"
+, "RsaCtfTool"</category><guid>https://ar.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية استخدام أداة هجوم RSA آلية ، RsaCtfTool ، لحل تحدي HackTheBox Weak RSA Crypto بسهولة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item></channel></rss>
