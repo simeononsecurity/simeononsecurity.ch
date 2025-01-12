@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://pa.simeononsecurity.com//img/banner.png</url><title>simeononsecurity</title><link>https://pa.simeononsecurity.com/</link></image><link>https://pa.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>ਅੰਤਮ ਗਾਈਡ: ਉਬੰਟੂ ਡੇਬੀਅਨ ਅਤੇ CentOS RHEL ਲਈ ਔਫਲਾਈਨ ਲੀਨਕਸ ਅਪਡੇਟਸ</title><link>https://pa.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><category>
+"ਲੀਨਕਸ ਅੱਪਡੇਟ"
+, "ਉਬੰਟੂ"
+, "ਡੇਬੀਅਨ"
+, "CentOS"
+, "RHEL"</category><guid>https://pa.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png" length="379936" type="image/png"/></item><item><title>Ubiquiti Unifi UDM Pro ਅਤੇ UDM SE ਲਈ ਕਮਾਂਡ ਲਾਈਨ SSH ਦੁਆਰਾ ਔਫਲਾਈਨ ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ</title><link>https://pa.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><category>
+"Ubiquiti ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ"
+, "UDM ਪ੍ਰੋ"
+, "UDM SE"
+, "ਔਫਲਾਈਨ ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ"
+, "ਕਮਾਂਡਲਾਈਨ SSH"</category><guid>https://pa.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਰਵੋਤਮ ਪ੍ਰਦਰਸ਼ਨ ਅਤੇ ਸੁਰੱਖਿਆ ਲਈ ਕਮਾਂਡ ਲਾਈਨ SSH ਦੁਆਰਾ Ubiquiti Unifi UDM Pro ਅਤੇ UDM SE ਔਫਲਾਈਨ ਦੇ ਫਰਮਵੇਅਰ ਨੂੰ ਕਿਵੇਂ ਅਪਡੇਟ ਕਰਨਾ ਹੈ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png"/></item><item><title>ਜਵਾਬਦੇਹ ਨਾਲ ਲੀਨਕਸ ਪੈਚਿੰਗ ਅਤੇ ਅਪਡੇਟਾਂ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਨਾ: ਇੱਕ ਵਿਆਪਕ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><category>
+"ਲੀਨਕਸ ਪੈਚਿੰਗ"
+, "ਜਵਾਬਦੇਹ ਆਟੋਮੇਸ਼ਨ"
+, "ਆਟੋਮੈਟਿਕ ਅੱਪਡੇਟ"
+, "ਸਿਸਟਮ ਦੀ ਸੰਭਾਲ"
+, "ਆਈਟੀ ਆਟੋਮੇਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵੱਖ-ਵੱਖ ਡਿਸਟਰੀਬਿਊਸ਼ਨਾਂ ਅਤੇ ਸੈੱਟਅੱਪ ਨਿਰਦੇਸ਼ਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਦੇ ਹੋਏ, ਜਵਾਬਦੇਹ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਲੀਨਕਸ ਪੈਚਿੰਗ ਅਤੇ ਅੱਪਡੇਟ ਨੂੰ ਸਵੈਚਲਿਤ ਕਰਨਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png"/></item><item><title>ਜਵਾਬਦੇਹ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਅਪਡੇਟਾਂ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਨਾ: ਇੱਕ ਵਿਆਪਕ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਅਪਡੇਟਾਂ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰਨਾ"
+, "ਜਵਾਬਦੇਹ ਆਟੋਮੇਸ਼ਨ"
+, "ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ"
+, "ਸੁਰੱਖਿਆ ਪੈਚ"
+, "ਆਈਟੀ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"</category><guid>https://pa.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਵਾਬਦੇਹ - ਕਦਮ-ਦਰ-ਕਦਮ ਹਿਦਾਇਤਾਂ ਅਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਅਭਿਆਸਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਕੇ ਆਟੋਮੈਟਿਕ ਦੁਆਰਾ ਵਿੰਡੋਜ਼ ਸਿਸਟਮਾਂ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png"/></item><item><title>ਹੀਲੀਅਮ ਮੋਬਾਈਲ ਬੀਟਾ: ਇੱਕ ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ ਨੈੱਟਵਰਕ ਦੇ ਨਾਲ ਮੋਬਾਈਲ ਕਨੈਕਟੀਵਿਟੀ ਵਿੱਚ ਕ੍ਰਾਂਤੀ ਲਿਆਉਣਾ</title><link>https://pa.simeononsecurity.com/other/helium-mobile-beta-explained/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><category>
+"ਹੀਲੀਅਮ ਮੋਬਾਈਲ ਬੀਟਾ"
+, "ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ ਨੈੱਟਵਰਕ"
+, "ਮੋਬਾਈਲ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਸੁਰੱਖਿਅਤ"
+, "ਭਰੋਸੇਯੋਗ"</category><guid>https://pa.simeononsecurity.com/other/helium-mobile-beta-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਖੋਜ ਕਰੋ ਕਿ ਕਿਵੇਂ ਹੀਲੀਅਮ ਮੋਬਾਈਲ ਬੀਟਾ ਆਪਣੇ ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ ਨੈੱਟਵਰਕ ਨਾਲ ਮੋਬਾਈਲ ਕਨੈਕਟੀਵਿਟੀ ਨੂੰ ਬਦਲ ਰਿਹਾ ਹੈ, ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਸੁਰੱਖਿਆ, ਭਰੋਸੇਯੋਗਤਾ ਅਤੇ ਸਮਰੱਥਾ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਂਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png" length="251043" type="image/png"/></item><item><title>ਚਾਕਲੇਟ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਪੈਕੇਜ ਪ੍ਰਬੰਧਨ ਨੂੰ ਸਟ੍ਰੀਮਲਾਈਨ ਕਰੋ: ਅਪਡੇਟਾਂ ਨੂੰ ਸਰਲ ਬਣਾਓ ਅਤੇ ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਓ</title><link>https://pa.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link><pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਪੈਕੇਜ ਪ੍ਰਬੰਧਨ"
+, "ਚਾਕਲੇਟ"
+, "ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ"
+, "ਪੈਕੇਜ ਮੈਨੇਜਰ"
+, "ਕਮਾਂਡ-ਲਾਈਨ ਇੰਟਰਫੇਸ"</category><guid>https://pa.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਿੰਡੋਜ਼ ਪੈਕੇਜ ਪ੍ਰਬੰਧਨ ਲਈ ਚਾਕਲੇਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੇ ਲਾਭਾਂ ਦੀ ਖੋਜ ਕਰੋ: ਆਟੋਮੈਟਿਕ ਅਪਡੇਟਸ, ਸਮਾਂ ਬਚਾਓ, ਅਤੇ ਸਿਸਟਮ ਸੁਰੱਖਿਆ ਨੂੰ ਯਕੀਨੀ ਬਣਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png"/></item><item><title>ਫਿਸ਼ਿੰਗ ਘੁਟਾਲਿਆਂ ਤੋਂ ਬਚਣਾ: ਰਣਨੀਤੀਆਂ, ਰੋਕਥਾਮ, ਅਤੇ ਸੁਰੱਖਿਆ</title><link>https://pa.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><category>
+"ਫਿਸ਼ਿੰਗ ਘੁਟਾਲੇ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਔਨਲਾਈਨ ਧਮਕੀਆਂ"
+, "ਈਮੇਲ ਸਪੂਫਿੰਗ"
+, "ਸਮਾਜਿਕ ਇੰਜੀਨੀਅਰਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਫਿਸ਼ਿੰਗ ਸਕੈਮਰਾਂ ਦੁਆਰਾ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਚਾਲਾਂ ਬਾਰੇ ਜਾਣੋ ਅਤੇ ਆਪਣੇ ਆਪ ਨੂੰ ਸ਼ਿਕਾਰ ਬਣਨ ਤੋਂ ਬਚਾਉਣ ਲਈ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਰਣਨੀਤੀਆਂ ਖੋਜੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png" length="190330" type="image/png"/></item><item><title>ਵਿੰਡੋਜ਼ ਡੋਮੇਨ ਅਤੇ ਸਟੈਂਡਅਲੋਨ ਮਸ਼ੀਨਾਂ ਵਿੱਚ ਸਮਾਂ ਸਰੋਤ ਪ੍ਰਬੰਧਨ ਲਈ ਵਧੀਆ ਅਭਿਆਸ</title><link>https://pa.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><category>
+"ਸਮੇਂ ਦੇ ਸਰੋਤ"
+, "ਵਿੰਡੋਜ਼ ਡੋਮੇਨ"
+, "ਇਕੱਲੀਆਂ ਮਸ਼ੀਨਾਂ"
+, "ਸਮਾਂ ਸਮਕਾਲੀਕਰਨ"
+, "ਸਹੀ ਸਮਾਂ ਸੰਭਾਲ"</category><guid>https://pa.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਹੀ ਸਮਾਂ ਸਮਕਾਲੀਕਰਨ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਣ ਅਤੇ ਸੰਭਾਵੀ ਸਮੱਸਿਆਵਾਂ ਤੋਂ ਬਚਣ ਲਈ ਵਿੰਡੋਜ਼ ਡੋਮੇਨਾਂ ਅਤੇ ਸਟੈਂਡਅਲੋਨ ਮਸ਼ੀਨਾਂ ਵਿੱਚ ਸਮਾਂ ਸਰੋਤਾਂ ਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਸੈੱਟ ਅਤੇ ਹੈਂਡਲ ਕਰਨ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.png" length="276853" type="image/png"/></item><item><title>ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ ਸੈਲੂਲਰ ਐਂਟੀਨਾ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਣਾ: ਪੁਆਇੰਟਿੰਗ ਅਤੇ ਟੀਚਾ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><category>
+"ਸੈਲੂਲਰ antenna"
+, "ਦਿਸ਼ਾਤਮਕ ਐਂਟੀਨਾ"
+, "ਸੈੱਲ ਫੋਨ ਬੂਸਟਰ"
+, "ਸੈਲੂਲਰ ਮਾਡਮ"
+, "ਸਿਗਨਲ ਤਾਕਤ"</category><guid>https://pa.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸੈਲ ਟਾਵਰਾਂ ਦਾ ਪਤਾ ਲਗਾਉਣਾ ਅਤੇ ਫਰੈਸਨੇਲ ਜ਼ੋਨਾਂ ਨੂੰ ਸਮਝਣਾ ਸਮੇਤ, ਅਨੁਕੂਲ ਸਿਗਨਲ ਤਾਕਤ ਅਤੇ ਭਰੋਸੇਯੋਗਤਾ ਲਈ ਆਪਣੇ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ ਸੈਲੂਲਰ ਐਂਟੀਨਾ ਨੂੰ ਕਿਵੇਂ ਨਿਸ਼ਾਨਾ ਬਣਾਉਣਾ ਅਤੇ ਨਿਸ਼ਾਨਾ ਬਣਾਉਣਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png" length="346431" type="image/png"/></item><item><title>ਅੰਤਮ ਗਾਈਡ: ਤੁਹਾਡੇ Google Pixel ਡਿਵਾਈਸ 'ਤੇ Graphene OS ਨੂੰ ਸਥਾਪਿਤ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><category>
+"ਗ੍ਰਾਫੀਨ ਓ.ਐਸ"
+, "ਗੂਗਲ ਪਿਕਸਲ"
+, "ਗੋਪਨੀਯਤਾ"
+, "ਸੁਰੱਖਿਆ"
+, "ਐਂਡਰਾਇਡ"</category><guid>https://pa.simeononsecurity.com/guides/how-to-install-graphine-os/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਧੀ ਹੋਈ ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਲਈ ਆਪਣੇ Google Pixel ਡੀਵਾਈਸ 'ਤੇ Graphene OS ਨੂੰ ਕਿਵੇਂ ਸਥਾਪਤ ਕਰਨਾ ਹੈ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png" length="160595" type="image/png"/></item><item><title>ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਰੈਜ਼ਿਊਮੇ ਲਿਖਣ ਲਈ ਮਾਹਰ ਸੁਝਾਅ</title><link>https://pa.simeononsecurity.com/other/tips-for-writing-a-great-resume/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><category>
+"ਲਿਖਣਾ ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ"
+, "ਸੁਝਾਅ ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ"
+, "ਫੌਂਟ ਦੀ ਵਰਤੋਂ"
+, "ਮੁੜ ਸ਼ੁਰੂ ਬਣਤਰ"
+, "ਰੈਜ਼ਿਊਮੇ ਦੀਆਂ ਕਿਸਮਾਂ"</category><guid>https://pa.simeononsecurity.com/other/tips-for-writing-a-great-resume/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਫੌਂਟ ਦੀ ਵਰਤੋਂ, ਰੈਜ਼ਿਊਮੇ ਦੀਆਂ ਕਿਸਮਾਂ, ਕੀਵਰਡ ਓਪਟੀਮਾਈਜੇਸ਼ਨ, ਗੈਪਾਂ ਨੂੰ ਸੰਭਾਲਣਾ, ਅਤੇ ਲੇਆਉਟ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਣ ਸਮੇਤ ਇੱਕ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਰੈਜ਼ਿਊਮੇ ਬਣਾਉਣ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਅਭਿਆਸ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png" length="126237" type="image/png"/></item><item><title>ਕ੍ਰੈਂਕ ਬਨਾਮ ਹੀਲੀਅਮ ਆਈਓਟੀ: ਆਈਓਟੀ ਨੈਟਵਰਕਸ ਦੀ ਇੱਕ ਵਿਆਪਕ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰੈਂਕ ਬਨਾਮ ਹੀਲੀਅਮ ਆਈਓਟੀ"
+, "IoT ਨੈੱਟਵਰਕ"
+, "ਸਹਿਮਤੀ ਮਾਡਲ"
+, "ਮਾਈਨਿੰਗ ਹਾਰਡਵੇਅਰ"
+, "ਗੈਸ ਫੀਸ"</category><guid>https://pa.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crankk ਅਤੇ Helium IoT ਨੈੱਟਵਰਕਾਂ, ਉਹਨਾਂ ਦੇ ਸਹਿਮਤੀ ਵਾਲੇ ਮਾਡਲਾਂ, ਮਾਈਨਿੰਗ ਹਾਰਡਵੇਅਰ, ਗੈਸ ਫੀਸਾਂ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਵਿਚਕਾਰ ਅੰਤਰ ਖੋਜੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png" length="221578" type="image/png"/></item><item><title>ਸਾਈਬਰਸਟਾਕਿੰਗ ਨੂੰ ਰੋਕਣਾ: ਔਨਲਾਈਨ ਸੁਰੱਖਿਅਤ ਰਹਿਣ ਲਈ ਸੁਝਾਅ</title><link>https://pa.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><category>
+"cyberstalking"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਸੁਰੱਖਿਆ"
+, "ਪਿੱਛਾ ਦੀ ਰੋਕਥਾਮ"
+, "ਨਿੱਜੀ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਹਨਾਂ ਨੁਕਤਿਆਂ ਅਤੇ ਤਕਨੀਕਾਂ ਨਾਲ ਆਪਣੇ ਆਪ ਨੂੰ ਸਾਈਬਰਸਟਾਕਿੰਗ ਤੋਂ ਕਿਵੇਂ ਬਚਾਉਣਾ ਹੈ ਅਤੇ ਆਪਣੇ ਆਪ ਨੂੰ ਔਨਲਾਈਨ ਸੁਰੱਖਿਅਤ ਰੱਖਣਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png" length="302241" type="image/png"/></item><item><title>ਸੋਸ਼ਲ ਇੰਜਨੀਅਰਿੰਗ ਹਮਲਿਆਂ ਨੂੰ ਰੋਕਣਾ: ਰਣਨੀਤੀਆਂ ਅਤੇ ਵਧੀਆ ਅਭਿਆਸ</title><link>https://pa.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link><pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate><category>
+"ਸਮਾਜਿਕ ਇੰਜੀਨੀਅਰਿੰਗ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਰੋਕਥਾਮ"
+, "ਕਰਮਚਾਰੀ ਦੀ ਸਿਖਲਾਈ"
+, "ਸੁਰੱਖਿਆ ਨੀਤੀਆਂ"</category><guid>https://pa.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿੱਖੋ ਕਿ ਸੋਸ਼ਲ ਇੰਜਨੀਅਰਿੰਗ ਹਮਲਿਆਂ ਨੂੰ ਕਿਵੇਂ ਰੋਕਣਾ ਹੈ ਅਤੇ ਕਰਮਚਾਰੀ ਸਿਖਲਾਈ, ਸੁਰੱਖਿਆ ਨੀਤੀਆਂ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਨਾਲ ਆਪਣੀ ਸੰਸਥਾ ਦੀ ਸੰਵੇਦਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਨੂੰ ਕਿਵੇਂ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png"/></item><item><title>ਘਰੇਲੂ ਵਰਤੋਂ ਲਈ ਵਧੀਆ ਸੈਲ ਫ਼ੋਨ ਸਿਗਨਲ ਬੂਸਟਰ</title><link>https://pa.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><category>
+"ਸੈਲ ਫ਼ੋਨ ਸਿਗਨਲ ਬੂਸਟਰ"
+, "ਵੈਬੂਸਟ"
+, "ਹਾਈਬੂਸਟ"
+, "ਹੋਮ ਕਨੈਕਟੀਵਿਟੀ"
+, "ਸੈਲ ਫ਼ੋਨ ਕਵਰੇਜ"</category><guid>https://pa.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਭਰੋਸੇਮੰਦ ਕਨੈਕਟੀਵਿਟੀ ਅਤੇ ਪੂਰੇ ਘਰ ਦੇ ਕਵਰੇਜ ਲਈ ਸਾਡੀਆਂ ਪ੍ਰਮੁੱਖ ਚੋਣਾਂ ਦੇ ਨਾਲ ਘਰ ਵਿੱਚ ਆਪਣੇ ਸੈਲ ਫ਼ੋਨ ਸਿਗਨਲ ਨੂੰ ਵਧਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png" length="81652" type="image/png"/></item><item><title>Ubiquiti Unifi ਬਨਾਮ TP-Link ਓਮਾਡਾ: ਤੁਹਾਡੇ ਲਈ ਕਿਹੜਾ ਨੈੱਟਵਰਕ ਸਿਸਟਮ ਸਹੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><category>
+"Ubiquiti"
+, "TP-ਲਿੰਕ"
+, "ਨੈੱਟਵਰਕਿੰਗ"
+, "ਯੂਨੀਫਾਈ"
+, "ਓਮਾਦਾ"</category><guid>https://pa.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੀਆਂ ਲੋੜਾਂ ਲਈ ਸਹੀ ਚੋਣ ਕਰਨ ਲਈ Ubiquiti Unifi ਅਤੇ TP-Link Omada ਨੈੱਟਵਰਕਿੰਗ ਪ੍ਰਣਾਲੀਆਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png" length="516405" type="image/png"/></item><item><title>BGW-320 ਨੂੰ ਬਾਈਪਾਸ ਕਰਨਾ: ਅਜ਼ੋਰਸ COTS ONT ਦੀ ਵਰਤੋਂ ਕਰਨਾ - ਇੱਕ ਕਦਮ-ਦਰ-ਕਦਮ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "ਅਜ਼ੋਰਸ"
+, "ਫਾਈਬਰ"
+, "ਨੈੱਟਵਰਕ"</category><guid>https://pa.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿੱਖੋ ਕਿ BGW-320 ਨੂੰ ਕਿਵੇਂ ਬਾਈਪਾਸ ਕਰਨਾ ਹੈ ਅਤੇ ਇਸ ਆਸਾਨ-ਅਧਾਰਿਤ ਗਾਈਡ ਨਾਲ ਆਪਣੇ ISP ਦੇ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜਨ ਲਈ Azores ਦੁਆਰਾ ਬਣਾਏ COTS ONT ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png"/></item><item><title>HP t740 ਥਿਨ ਕਲਾਇੰਟ 'ਤੇ pfSense ਚੱਲ ਰਿਹਾ ਹੈ: ਸੁਝਾਅ ਅਤੇ ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><category>
+"pfSense"
+, "OPNsense"
+, "ਸਖ਼ਤ ਬੀ.ਐੱਸ.ਡੀ"
+, "HP t740"
+, "ਪਤਲਾ ਗਾਹਕ"</category><guid>https://pa.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ HP t740 ਥਿਨ ਕਲਾਇੰਟ 'ਤੇ pfSense ਨੂੰ ਕਿਵੇਂ ਸੈੱਟ ਕਰਨਾ ਹੈ, ਅਤੇ ਸੰਭਾਵੀ ਸਮੱਸਿਆਵਾਂ ਜਿਵੇਂ ਕਿ ਫ੍ਰੀਜ਼ਿੰਗ ਅਤੇ SSD ਖੋਜ ਸਮੱਸਿਆਵਾਂ ਦਾ ਨਿਪਟਾਰਾ ਕਿਵੇਂ ਕਰਨਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png" length="411431" type="image/png"/></item><item><title>HP t740 ਥਿਨ ਕਲਾਇੰਟ 'ਤੇ pfSense ਚੱਲ ਰਿਹਾ ਹੈ: ਸੁਝਾਅ ਅਤੇ ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><category>
+"pfSense"
+, "OPNsense"
+, "ਸਖ਼ਤ ਬੀ.ਐੱਸ.ਡੀ"
+, "HP t740"
+, "ਪਤਲਾ ਗਾਹਕ"</category><guid>https://pa.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜਾਣੋ ਕਿ HP t740 ਥਿਨ ਕਲਾਇੰਟ 'ਤੇ pfSense ਨੂੰ ਕਿਵੇਂ ਸੈੱਟ ਕਰਨਾ ਹੈ, ਅਤੇ ਸੰਭਾਵੀ ਸਮੱਸਿਆਵਾਂ ਜਿਵੇਂ ਕਿ ਫ੍ਰੀਜ਼ਿੰਗ ਅਤੇ SSD ਖੋਜ ਸਮੱਸਿਆਵਾਂ ਦਾ ਨਿਪਟਾਰਾ ਕਿਵੇਂ ਕਰਨਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png" length="411431" type="image/png"/></item><item><title>3-2-1 ਬੈਕਅੱਪ ਨਿਯਮ ਨਾਲ ਆਪਣੇ ਡੇਟਾ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ।</title><link>https://pa.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</link><pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate><category>
+"ਬੈਕਅੱਪ ਰਣਨੀਤੀ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਰਿਡੰਡੈਂਸੀ"
+, "ਡਾਟਾ ਨੁਕਸਾਨ ਦੀ ਰੋਕਥਾਮ"</category><guid>https://pa.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਹਮਲਿਆਂ, ਕੁਦਰਤੀ ਆਫ਼ਤਾਂ, ਅਤੇ ਹਾਰਡਵੇਅਰ ਅਸਫਲਤਾਵਾਂ ਤੋਂ ਆਪਣੇ ਕੀਮਤੀ ਡੇਟਾ ਨੂੰ ਕਿਵੇਂ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਹੈ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png" length="274502" type="image/png"/></item><item><title>ਮਲਟੀ-ਫੈਕਟਰ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਇੱਕ ਗਾਈਡ: ਕਿਸਮ ਅਤੇ ਵਧੀਆ ਅਭਿਆਸ</title><link>https://pa.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><category>
+"ਮਲਟੀ-ਫੈਕਟਰ ਪ੍ਰਮਾਣਿਕਤਾ"
+, "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਪਾਸਵਰਡ ਸੁਰੱਖਿਆ"
+, "ਪ੍ਰਮਾਣਿਕਤਾ ਕਾਰਕ"
+, "ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਡੀ ਅੰਤਮ ਗਾਈਡ ਵਿੱਚ ਵੱਖ-ਵੱਖ ਕਿਸਮਾਂ ਦੇ ਮਲਟੀ-ਫੈਕਟਰ ਪ੍ਰਮਾਣੀਕਰਨ ਅਤੇ ਤੁਹਾਡੀਆਂ ਸੁਰੱਖਿਆ ਲੋੜਾਂ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਨੂੰ ਕਿਵੇਂ ਚੁਣਨਾ ਹੈ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png" length="311504" type="image/png"/></item><item><title>ਸਾਈਬਰ ਸੈਂਟੀਨਲ ਕੀ ਹਨ ਅਤੇ ਤੁਹਾਨੂੰ ਕਿਉਂ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਆਈ.ਟੀ"
+, "ਭਾਈਚਾਰਾ"
+, "ਗਿਆਨ ਸਾਂਝਾ ਕਰਨਾ"
+, "ਸਹਿਯੋਗ"</category><guid>https://pa.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਚੁਣੌਤੀਆਂ ਲਈ ਗਿਆਨ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਅਤੇ ਨਵੀਨਤਾਕਾਰੀ ਹੱਲ ਵਿਕਸਿਤ ਕਰਨ ਲਈ ਵਚਨਬੱਧ ਸਾਈਬਰ ਅਤੇ ਆਈਟੀ ਪੇਸ਼ੇਵਰਾਂ ਦਾ ਇੱਕ ਭਾਈਚਾਰਾ, ਸਾਈਬਰ ਸੈਂਟੀਨੇਲਜ਼ ਦੇ ਮਿਸ਼ਨ ਅਤੇ ਸਿਧਾਂਤਾਂ ਦੀ ਖੋਜ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_image_of_a_stylized_shield_or_emblem.png" length="393218" type="image/png"/></item><item><title>ਜੇਕਰ ਤੁਹਾਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਤੁਹਾਡੀ ਈਮੇਲ ਜਾਂ ਫ਼ੋਨ ਨਾਲ ਸਮਝੌਤਾ ਹੋਇਆ ਹੈ ਤਾਂ ਕੀ ਕਰਨਾ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਡਿਵਾਈਸ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਸਮਝੌਤਾ ਕੀਤਾ ਜੰਤਰ"
+, "ਹੈਕ ਕੀਤੀ ਈਮੇਲ"
+, "ਹੈਕ ਕੀਤਾ ਫ਼ੋਨ"</category><guid>https://pa.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਜੇਕਰ ਤੁਹਾਨੂੰ ਸ਼ੱਕ ਹੈ ਕਿ ਤੁਹਾਡਾ ਈਮੇਲ, ਡੈਸਕਟਾਪ, ਜਾਂ ਫ਼ੋਨ ਹੈਕ ਕੀਤਾ ਗਿਆ ਹੈ ਜਾਂ ਸਮਝੌਤਾ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ ਪਾਸਵਰਡ ਬਦਲਣਾ, ਮਾਲਵੇਅਰ ਲਈ ਸਕੈਨ ਕਰਨਾ, ਅਤੇ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਨੂੰ ਸਾਫ਼ ਕਰਨਾ ਸ਼ਾਮਲ ਹੈ, ਲੈਣ ਲਈ ਜ਼ਰੂਰੀ ਕਦਮ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png" length="282035" type="image/png"/></item><item><title>ਹੀਲੀਅਮ ਨੈੱਟਵਰਕ ਗੇਮਿੰਗ: ਮਿਡਲਮੈਨ ਅਤੇ ਚਿਰਪ ਸਟੈਕ ਪੈਕੇਟ ਮਲਟੀਪਲੈਕਸਰ ਨਾਲ ਕਮਜ਼ੋਰੀਆਂ ਦਾ ਸ਼ੋਸ਼ਣ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/other/how-to-game-on-the-helium-network/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਹੀਲੀਅਮ ਨੈੱਟਵਰਕ"
+, "ਕਵਰੇਜ ਦਾ ਸਬੂਤ"
+, "ਮਿਡਲਮੈਨ"
+, "ਚਿਰਪ ਸਟੈਕ ਪੈਕੇਟ ਮਲਟੀਪਲੈਕਸਰ"
+, "ਗੇਮਿੰਗ"</category><guid>https://pa.simeononsecurity.com/other/how-to-game-on-the-helium-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਿਡਲਮੈਨ ਅਤੇ ਚਿਰਪ ਸਟੈਕ ਪੈਕੇਟ ਮਲਟੀਪਲੈਕਸਰ ਨਾਲ ਕਮਜ਼ੋਰੀਆਂ ਦਾ ਸ਼ੋਸ਼ਣ ਕਰਕੇ ਹੀਲੀਅਮ ਨੈੱਟਵਰਕ ਨੂੰ ਕਿਵੇਂ ਖੇਡਣਾ ਹੈ, ਨਾਲ ਹੀ ਅਜਿਹਾ ਕਰਨ ਦੇ ਜੋਖਮਾਂ ਅਤੇ ਨਤੀਜਿਆਂ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png" length="275420" type="image/png"/></item><item><title>ਲੋਰਾ ਨੈਟਵਰਕਸ ਦੀ ਸ਼ਕਤੀ: ਹੀਲੀਅਮ ਏਕੀਕਰਣ ਦੀ ਵਿਆਖਿਆ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"LoRa ਨੈੱਟਵਰਕ"
+, "ਹੀਲੀਅਮ ਏਕੀਕਰਣ"
+, "ਸੇਮਟੇਕ ਪੈਕੇਟ ਫਾਰਵਰਡਰ"
+, "IoT ਐਪਲੀਕੇਸ਼ਨ"
+, "LPWAN"</category><guid>https://pa.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+IoT ਡਿਵਾਈਸਾਂ ਅਤੇ ਉਦਯੋਗਾਂ ਜਿਵੇਂ ਕਿ ਸਮਾਰਟ ਸ਼ਹਿਰਾਂ, ਖੇਤੀਬਾੜੀ ਅਤੇ ਲੌਜਿਸਟਿਕਸ ਲਈ LoRa ਨੈੱਟਵਰਕ ਨੂੰ Helium ਨਾਲ ਏਕੀਕ੍ਰਿਤ ਕਰਨ ਦੇ ਲਾਭਾਂ ਦੀ ਖੋਜ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png" length="409429" type="image/png"/></item><item><title>Unraid ਬਨਾਮ TrueNas: ਕਿਹੜਾ NAS ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਤੁਹਾਡੇ ਲਈ ਸਹੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਅਨਰੇਡ"
+, "TrueNAS"
+, "NAS ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ"
+, "ਤੁਲਨਾ"
+, "ਉਪਭੋਗਤਾ-ਮਿੱਤਰਤਾ"</category><guid>https://pa.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unraid ਅਤੇ TrueNas ਦੀ ਇੱਕ ਵਿਆਪਕ ਤੁਲਨਾ, ਉਹਨਾਂ ਦੀ ਉਪਭੋਗਤਾ-ਮਿੱਤਰਤਾ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਦਸਤਾਵੇਜ਼ਾਂ, ਅਤੇ ਕਮਿਊਨਿਟੀ ਸਮੇਤ, ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਇੱਕ ਸੂਚਿਤ ਫੈਸਲਾ ਲੈਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਕਿ NAS ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਉਹਨਾਂ ਦੀਆਂ ਲੋੜਾਂ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png"/></item><item><title>ਇੱਕ ਹੋਮ ਲੈਬ ਬਣਾਉਣਾ: IT ਪੇਸ਼ੇਵਰਾਂ, ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਸ਼ੌਕੀਨਾਂ ਲਈ ਇੱਕ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਹੋਮ ਲੈਬ"
+, "ਆਈਟੀ ਪੇਸ਼ੇਵਰ"
+, "ਵਿਦਿਆਰਥੀ"
+, "ਸ਼ੌਕ ਰੱਖਣ ਵਾਲੇ"
+, "ਨੈੱਟਵਰਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਹ ਵਿਸਤ੍ਰਿਤ ਗਾਈਡ ਹੋਮ ਲੈਬ ਕੀ ਹੈ, ਇਸਨੂੰ ਕਿਉਂ ਬਣਾਉਣਾ ਹੈ, ਕਿਹੜੇ ਭਾਗਾਂ ਦੀ ਲੋੜ ਹੈ, ਇਸਨੂੰ ਕਿਵੇਂ ਸੈਟ ਅਪ ਕਰਨਾ ਹੈ, ਪੜਚੋਲ ਕਰਨ ਲਈ ਉੱਨਤ ਵਿਸ਼ਿਆਂ, ਅਤੇ ਪਾਲਣਾ ਕਰਨ ਲਈ ਵਧੀਆ ਅਭਿਆਸਾਂ ਦੀ ਵਿਸਤ੍ਰਿਤ ਸੰਖੇਪ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png"/></item><item><title>ਘੱਟ ਪਾਵਰ ਵਾਲੇ ਮਾਈਨਰਾਂ ਦੀ ਫਲੀਟ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨਾ: ਰਿਮੋਟ ਐਕਸੈਸ ਅਤੇ ਸੁਰੱਖਿਆ ਲਈ ਇੱਕ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/other/managing-low-powered-crypto-miners/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਘੱਟ ਪਾਵਰ ਵਾਲੇ ਮਾਈਨਰ"
+, "ਰਿਮੋਟ ਪਹੁੰਚ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "openvpn"
+, "ਵਾਇਰਗਾਰਡ"</category><guid>https://pa.simeononsecurity.com/other/managing-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+remote.it, ngrok, OpenVPN, WireGuard, ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਸਮੇਤ ਘੱਟ-ਪਾਵਰ ਵਾਲੇ ਮਾਈਨਰਾਂ ਦੇ ਫਲੀਟ ਦੇ ਪ੍ਰਬੰਧਨ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਅਭਿਆਸਾਂ ਅਤੇ ਸਾਧਨਾਂ ਦੀ ਪੜਚੋਲ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png" length="236215" type="image/png"/></item><item><title>ਐਕਸਚੇਂਜਾਂ 'ਤੇ ਕ੍ਰਿਪਟੋ ਸਟੋਰ ਕਰਨ ਦੇ ਖ਼ਤਰੇ: ਇੱਕ ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ ਸੁਰੱਖਿਅਤ ਕਿਉਂ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/why-storing-money-in-exchanges-is-not-a-good-idea/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਪਟੋਕਰੰਸੀ ਸਟੋਰੇਜ"
+, "ਐਕਸਚੇਂਜ ਜੋਖਮ"
+, "ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਕ੍ਰਿਪਟੋ ਵਿੱਚ ਨਿਵੇਸ਼ ਕਰਨਾ"</category><guid>https://pa.simeononsecurity.com/articles/why-storing-money-in-exchanges-is-not-a-good-idea/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਹ ਲੇਖ ਐਕਸਚੇਂਜਾਂ 'ਤੇ ਕ੍ਰਿਪਟੋਕੁਰੰਸੀ ਨੂੰ ਸਟੋਰ ਕਰਨ ਦੇ ਖ਼ਤਰਿਆਂ ਦੀ ਚਰਚਾ ਕਰਦਾ ਹੈ, ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਇਹ ਇੱਕ ਗੱਦੇ ਵਿੱਚ ਪੈਸੇ ਨੂੰ ਸਟੋਰ ਕਰਨ ਦੇ ਬਰਾਬਰ ਕਿਉਂ ਹੈ, ਅਤੇ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਲਈ ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੇ ਲਾਭਾਂ ਨੂੰ ਉਜਾਗਰ ਕਰਦਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png" length="259171" type="image/png"/></item><item><title>ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਕੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/what-is-cybersecurity/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਧਮਕੀਆਂ"
+, "ਔਨਲਾਈਨ ਸੁਰੱਖਿਆ"
+, "ਡਾਟਾ ਦੀ ਰੱਖਿਆ"
+, "ਵਾਇਰਸ"</category><guid>https://pa.simeononsecurity.com/articles/what-is-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀਆਂ ਮੂਲ ਗੱਲਾਂ ਸਿੱਖੋ, ਜਿਸ ਵਿੱਚ ਸਾਈਬਰ ਖਤਰਿਆਂ ਦੀਆਂ ਕਿਸਮਾਂ, ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀ ਮਹੱਤਤਾ, ਅਤੇ ਔਨਲਾਈਨ ਸੁਰੱਖਿਆ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਕਦਮ ਸ਼ਾਮਲ ਹਨ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png" length="426902" type="image/png"/></item><item><title>ਆਪਣੇ ਟਰਮੀਨਲ ਵਿੱਚ ਚੈਟਜੀਪੀਟੀ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਬੈਸ਼, ਪਾਵਰਸ਼ੇਲ, ਪਾਈਥਨ): ਡਿਵੈਲਪਰਾਂ ਲਈ ਚੈਟਜੀਪੀਟੀ ਸੀਐਲਆਈ ਟੂਲ ਦੀ ਇੱਕ ਜਾਣ-ਪਛਾਣ</title><link>https://pa.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਚੈਟਜੀਪੀਟੀ"
+, "OpenAI"
+, "ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ"
+, "ਸੀ.ਐਲ.ਆਈ"
+, "ਟੈਕਸਟ ਪੀੜ੍ਹੀ"</category><guid>https://pa.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਪਾਠ ਬਣਾਉਣ ਅਤੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਲਈ ਸੁਵਿਧਾਜਨਕ ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ (CLI) ਦੁਆਰਾ OpenAI ਦੇ ChatGPT ਮਾਡਲ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਬਾਰੇ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.png" length="360421" type="image/png"/></item><item><title>ਘੱਟ ਪਾਵਰ ਵਾਲੇ ਹਾਰਡਵੇਅਰ ਨਾਲ ਇੱਕ ਲਾਭਦਾਇਕ ਪੈਸਿਵ ਇਨਕਮ ਬਾਕਸ ਬਣਾਓ: ਇੱਕ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"ਇੱਕ ਲਾਭਦਾਇਕ ਪੈਸਿਵ ਇਨਕਮ ਬਾਕਸ ਬਣਾਓ"
+, "ਘੱਟ ਪਾਵਰ ਵਾਲਾ ਹਾਰਡਵੇਅਰ"
+, "ਪੈਸਿਵ ਇਨਕਮ"
+, "ਕ੍ਰਿਪਟੋ ਮਾਈਨਰ"
+, "ਰਸਬੇਰੀ ਪੀ"</category><guid>https://pa.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Raspberry Pi ਜਾਂ Intel NUC ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਘੱਟ-ਪਾਵਰ ਵਾਲੇ ਪੈਸਿਵ ਇਨਕਮ ਕ੍ਰਿਪਟੋ ਮਾਈਨਰ ਨੂੰ ਕਿਵੇਂ ਸੈਟ ਅਪ ਕਰਨਾ ਹੈ, ਅਤੇ ਇਸ ਗਾਈਡ ਨਾਲ ਪ੍ਰਤੀ ਬਾਕਸ $10-$20 ਪ੍ਰਤੀ ਮਹੀਨਾ ਕਮਾਓ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png" length="405403" type="image/png"/></item><item><title>ਵਿੰਡੋਜ਼ ਆਪਟੀਮਾਈਜ਼-ਹਾਰਡਨ-ਡੈਬਲੋਟ ਜੀਯੂਆਈ - ਗਾਈਡਡ ਇੰਸਟੌਲ</title><link>https://pa.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਓਪਟੀਮਾਈਜੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼ 10 ਡੀਬਲੋਟ"
+, "ਵਿੰਡੋਜ਼ 10 ਟਵੀਕਸ"
+, "GUI"
+, "ਸੀ ਤਿੱਖਾ"</category><guid>https://pa.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows-Optimize-Harden-Debloat GUI ਆਟੋਮੇਟਿਡ ਸਕ੍ਰਿਪਟ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਆਸਾਨੀ ਨਾਲ ਆਪਣੇ Windows 10 ਅਨੁਭਵ ਨੂੰ ਵਧਾਓ ਜੋ ਤੁਹਾਡੇ Windows 10 ਸੈੱਟਅੱਪ ਨੂੰ ਘੱਟ ਤੋਂ ਘੱਟ ਕਰਨ ਲਈ ਇੱਕ ਗਾਈਡਡ ਇੰਸਟੌਲ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦੀ ਹੈ।</description></item><item><title>ਜਵਾਬਦੇਹ STIG ਪਲੇਬੁੱਕ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਦੀ ਪਾਲਣਾ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"ਆਟੋਮੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼ ਦੀ ਪਾਲਣਾ"
+, "ਜਵਾਬਦੇਹ STIG ਪਲੇਬੁੱਕਸ"
+, "ਵਿੰਡੋਜ਼ ਹਾਰਡਨਿੰਗ"
+, "STIG ਸਕ੍ਰਿਪਟਾਂ"</category><guid>https://pa.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਿੰਡੋਜ਼ ਸਿਸਟਮਾਂ ਲਈ ਜਵਾਬਦੇਹ STIG ਪਲੇਬੁੱਕਸ ਦੇ ਨਾਲ ਆਪਣੀ ਸੁਰੱਖਿਆ ਦੀ ਪਾਲਣਾ ਨੂੰ ਸਟ੍ਰੀਮਲਾਈਨ ਕਰੋ।</description></item><item><title>ਆਟੋਮੇਟ-ਸਿਸਮੋਨ: ਸਿਸਮੋਨ ਡਿਪਲਾਇਮੈਂਟ ਅਤੇ ਕੌਂਫਿਗਰੇਸ਼ਨ ਨੂੰ ਸਰਲ ਬਣਾਓ</title><link>https://pa.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"ਸਿਸਮੋਨ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ"
+, "ਸਿਸਮੋਨ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਿਵੇਂ ਕਰੀਏ"
+, "ਸਿਸਮੋਨ ਕੌਂਫਿਗਰੇਸ਼ਨ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਿਵੇਂ ਕਰੀਏ"
+, "ਸਿਸਮੋਨ ਨੂੰ ਕਿਵੇਂ ਇੰਸਟਾਲ ਕਰਨਾ ਹੈ"
+, "ਪਾਵਰਸ਼ੇਲ"</category><guid>https://pa.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਟੋਮੇਟ-ਸਿਸਮੋਨ ਸਕ੍ਰਿਪਟ ਦੇ ਨਾਲ ਤੁਹਾਡੇ ਸਿਸਟਮ ਦੀ ਸੁਰੱਖਿਆ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਸਿਸਮੋਨ ਨੂੰ ਕਿਵੇਂ ਤੈਨਾਤ ਅਤੇ ਸੰਰਚਿਤ ਕਰਨਾ ਹੈ, ਬਾਰੇ ਜਾਣੋ, ਜੋ ਕਿ ਨਵੇਂ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਵੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸਰਲ ਬਣਾਉਂਦਾ ਹੈ।</description></item><item><title>ਬਿਹਤਰ ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਲਈ Windows 10 ਸਿਸਟਮ-ਵਾਈਡ ਐਡ ਬਲੌਕਰ ਸਕ੍ਰਿਪਟ</title><link>https://pa.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ 10"
+, "ਵਿਗਿਆਪਨ ਬਲੌਕਰ"
+, "ਟੈਲੀਮੈਟਰੀ ਬਲਾਕਿੰਗ"
+, "PowerShell ਸਕ੍ਰਿਪਟ"
+, "ਸਿਸਟਮ-ਵਿਆਪੀ ਵਿਗਿਆਪਨ-ਬਲੌਕਿੰਗ"</category><guid>https://pa.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਸ ਸ਼ਕਤੀਸ਼ਾਲੀ PowerShell ਸਕ੍ਰਿਪਟ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ Windows 10 'ਤੇ ਵਿਗਿਆਪਨਾਂ, ਟਰੈਕਰਾਂ ਅਤੇ ਟੈਲੀਮੈਟਰੀ ਨੂੰ ਬਲਾਕ ਕਰੋ ਜੋ ਸਿਸਟਮ-ਵਿਆਪਕ ਵਿਗਿਆਪਨ-ਬਲੌਕਿੰਗ ਲਈ ਹੋਸਟ ਫਾਈਲ ਅਤੇ ਵਿੰਡੋਜ਼ ਫਾਇਰਵਾਲ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ।</description></item><item><title>ਅੱਜ ਮੈਂ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਤਕਨੀਕਾਂ ਸਿੱਖੀਆਂ</title><link>https://pa.simeononsecurity.com/til/2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2021-01-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ਨੇ ImmersiveLabs, ਵੀਡੀਓ ਅਤੇ ਕੁਝ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਦਿਲਚਸਪ ਚੀਜ਼ਾਂ ਬਾਰੇ ਸਿੱਖਿਆ ਅਤੇ ਲੱਭਿਆ ਜੋ ਦੂਜਿਆਂ ਲਈ ਦਿਲਚਸਪੀ ਦੇ ਹੋਣਗੇ।&lt;/p>
+&lt;p>ImmersiveLabs &amp;lsquo;ਤੇ, SimeonOnSecurity ਨੇ ਕਈ ਰੱਖਿਆਤਮਕ ਅਤੇ ਅਪਮਾਨਜਨਕ ਲੈਬਾਂ ਨੂੰ ਪੂਰਾ ਕੀਤਾ, ਹੈਂਡ-ਆਨ ਅਨੁਭਵ ਪ੍ਰਦਾਨ ਕੀਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਹੁਨਰਾਂ ਨੂੰ ਬਿਹਤਰ ਬਣਾਇਆ।&lt;/p>
+&lt;p>SimeonOnSecurity ਨੇ ਕਈ ਵਿਡੀਓਜ਼ ਵੀ ਲੱਭੇ ਜੋ ਦਿਲਚਸਪੀ ਵਾਲੇ ਹਨ, ਜਿਸ ਵਿੱਚ ਗਾਰਡੀਨਰ ਬ੍ਰਾਇਨਟ ਦੁਆਰਾ &amp;ldquo;ਮੁਫ਼ਤ ਸੌਫਟਵੇਅਰ ਕਿਵੇਂ ਚੋਰੀ ਕਰਨਾ ਹੈ (ਅਤੇ ਇਸ ਨੂੰ ਬੁਰੀ ਤਰ੍ਹਾਂ ਕਰਨਾ)&amp;rdquo; ਸ਼ਾਮਲ ਹੈ, &amp;ldquo;ਹਾਈਪਰਲੂਪ ਨਾਲ ਕੀ ਹੋ ਰਿਹਾ ਹੈ (ਅਤੇ ਨਹੀਂ ਹੋ ਰਿਹਾ) | ਜੋਅ ਸਕਾਟ ਦੁਆਰਾ ਜੋਅ ਨਾਲ ਜਵਾਬ, &amp;ldquo;ਤੁਹਾਨੂੰ ਲੋੜ ਹੈ ਵਰਚੁਅਲ ਮਸ਼ੀਨਾਂ ਨੂੰ ਹੁਣੇ ਸਿੱਖਣ ਲਈ!! (ਕਾਲੀ ਲੀਨਕਸ VM, ਉਬੰਟੂ, ਵਿੰਡੋਜ਼)&amp;rdquo; ਨੈੱਟਵਰਕਚੱਕ ਦੁਆਰਾ, ਅਤੇ ਜ਼ੈਕ ਫ੍ਰੀਡਮੈਨ ਦੁਆਰਾ &amp;ldquo;ਆਪਣੇ ਡੰਜੀਅਨ ਮਾਸਟਰ ਨੂੰ ਇੱਕ 3D ਪ੍ਰਿੰਟਰ [orcs ਦੇ ਨਾਲ] ਖਰੀਦਣ ਲਈ ਮਨਾਓ&amp;rdquo;। ਹਰੇਕ ਵੀਡੀਓ ਤਕਨਾਲੋਜੀ, ਸੁਰੱਖਿਆ ਅਤੇ ਹੋਰ ਵਿਸ਼ਿਆਂ ਵਿੱਚ ਵਿਲੱਖਣ ਸਮਝ ਅਤੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ ਜੋ ਜਾਣਕਾਰੀ ਭਰਪੂਰ ਅਤੇ ਮਨੋਰੰਜਕ ਹੋ ਸਕਦੇ ਹਨ।&lt;/p></description></item><item><title>ਅੱਜ ਮੈਂ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਤਕਨੀਕਾਂ ਸਿੱਖੀਆਂ</title><link>https://pa.simeononsecurity.com/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>ਅੱਜ, SimeonOnSecurity ਨੇ ImmersiveLabs &amp;lsquo;ਤੇ ਮਲਟੀਪਲ ਰੱਖਿਆਤਮਕ ਅਤੇ ਅਪਮਾਨਜਨਕ ਲੈਬਾਂ ਨੂੰ ਪੂਰਾ ਕੀਤਾ। ਉਹਨਾਂ ਨੇ ਹੇਠਾਂ ਦਿੱਤੇ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਵੀਡੀਓ ਵੀ ਦੇਖੇ:&lt;/p>
+&lt;p>UniFi Protect G3 Instant - ਅਨਬਾਕਸਿੰਗ, ਸਮੀਖਿਆ ਅਤੇ ਤੁਲਨਾ (ਕਰਾਸਸਟਾਲਕ ਹੱਲ)
+ਪਾਇਰੇਟਸ, ਕ੍ਰਿਪਟੋ, ਅਤੇ ਵਿੰਡੋਜ਼ ਉਤਪਾਦ ਐਕਟੀਵੇਸ਼ਨ ਦਾ ਗੁਪਤ ਇਤਿਹਾਸ (ਡੇਵਜ਼ ਗੈਰੇਜ)
+ਇੱਕ ਨਵੇਂ CPU (LinusTechTips) ਦੀ ਰਿਲੀਜ਼
+ਕਿਉਂ ਕੋਈ ਯੂਨੀਫਾਈ ਪ੍ਰੋਟੈਕਟ (ਟੈਕਨੋਟਿਮ) ਵਿੱਚ ਚਲਾ ਗਿਆ&lt;/p>
+&lt;h2 id="ਇਮਰਸਵ-ਲਬਸ">
+&lt;a href="#%e0%a8%87%e0%a8%ae%e0%a8%b0%e0%a8%b8%e0%a8%b5-%e0%a8%b2%e0%a8%ac%e0%a8%b8" title="ਇਮਰਸਿਵ ਲੈਬਸ:">ਇਮਰਸਿਵ ਲੈਬਸ:&lt;/a>
+&lt;a href="#%e0%a8%87%e0%a8%ae%e0%a8%b0%e0%a8%b8%e0%a8%b5-%e0%a8%b2%e0%a8%ac%e0%a8%b8" class="h-anchor" aria-hidden="true" title="ਇਮਰਸਿਵ ਲੈਬਸ:">#&lt;/a>
+&lt;/h2>
+&lt;p>-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs">
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/">
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+>Completed multiple Defensive and Offensive Labs&lt;/a>
+&lt;/span>
+&lt;/p></description></item><item><title>ਅੱਜ ਮੈਂ XFS ਡੇਟਾ ਪ੍ਰਬੰਧਨ ਅਤੇ ਰਿਕਵਰੀ ਬਾਰੇ ਸਿੱਖਿਆ</title><link>https://pa.simeononsecurity.com/til/2021-01-09/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2021-01-09/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ਤਕਨੀਕੀ ਜਗਤ ਵਿੱਚ ਨਵੀਨਤਮ ਵਿਕਾਸ ਨਾਲ ਜੁੜੀ ਹੋਈ ਹੈ। ਅੱਜ, ਉਸਨੇ XFS ਅਤੇ ਫਾਈਲ ਸਿਸਟਮਾਂ ਦਾ ਬੈਕਅੱਪ ਲੈਣ ਅਤੇ ਰੀਸਟੋਰ ਕਰਨ ਲਈ ਇਸ ਦੀਆਂ ਸਮਰੱਥਾਵਾਂ ਬਾਰੇ ਸਿੱਖਿਆ। ਉਸਨੇ Red Hat ਵੈੱਬਸਾਈਟ &amp;lsquo;ਤੇ XFS ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਪ੍ਰਕਿਰਿਆ ਅਤੇ ਵਧੀਆ ਅਭਿਆਸਾਂ ਦਾ ਵੇਰਵਾ ਦੇਣ ਵਾਲਾ ਇੱਕ ਜਾਣਕਾਰੀ ਭਰਪੂਰ ਲੇਖ ਪਾਇਆ।&lt;/p>
+&lt;p>SimeonOnSecurity ਨੇ GitHub &amp;lsquo;ਤੇ ਆਪਣੀ Shodan_PS ਰਿਪੋਜ਼ਟਰੀ ਨੂੰ ਵੀ ਅੱਪਡੇਟ ਕੀਤਾ, ਜਿਸ ਵਿੱਚ ਇੰਟਰਨੈੱਟ ਨਾਲ ਜੁੜੀਆਂ ਡਿਵਾਈਸਾਂ ਲਈ ਪ੍ਰਸਿੱਧ ਖੋਜ ਇੰਜਣ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਉਪਯੋਗੀ ਸਕ੍ਰਿਪਟਾਂ ਸ਼ਾਮਲ ਹਨ।&lt;/p></description></item><item><title>ਅੱਜ ਮੈਂ NTFS ਟਵੀਕਸ ਅਤੇ ਓਪਟੀਮਾਈਜੇਸ਼ਨ ਬਾਰੇ ਸਿੱਖਿਆ</title><link>https://pa.simeononsecurity.com/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>ਅੱਜ, SimeonOnSecurity ਨੇ NTFS ਟਵੀਕਸ ਅਤੇ ਵੱਖ-ਵੱਖ ਰਿਪੋਜ਼ਟਰੀ ਅਪਡੇਟਾਂ ਨਾਲ ਸਬੰਧਤ ਦਿਲਚਸਪ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਸਿੱਖਿਆ ਅਤੇ ਲੱਭਿਆ।&lt;/p>
+&lt;p>ਫਾਈਲ ਸਿਸਟਮਾਂ ਦੀ ਦੁਨੀਆ ਵਿੱਚ, NTFS ਵਿੰਡੋਜ਼ ਲਈ ਇੱਕ ਆਮ ਤੌਰ &amp;lsquo;ਤੇ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਫਾਈਲ ਸਿਸਟਮ ਹੈ। ਇਸਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਭਰੋਸੇਯੋਗਤਾ ਨੂੰ ਵਧਾਉਣ ਲਈ, SimeonOnSecurity ਨੂੰ PonderWorthy &amp;lsquo;ਤੇ fsutil ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ NTFS ਟਵੀਕਸ ਦੀ ਚਰਚਾ ਕਰਨ ਲਈ ਇੱਕ ਵਧੀਆ ਸਰੋਤ ਮਿਲਿਆ। ਲੇਖ ਬਿਹਤਰ ਪ੍ਰਦਰਸ਼ਨ ਅਤੇ ਸਥਿਰਤਾ ਲਈ NTFS ਫਾਈਲ ਸਿਸਟਮ ਨੂੰ ਕਿਵੇਂ ਅਨੁਕੂਲ ਬਣਾਉਣਾ ਹੈ ਬਾਰੇ ਸਮਝ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ।&lt;/p></description></item><item><title>ਅੱਜ ਮੈਂ ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਐਪਲੀਕੇਸ਼ਨ ਕੰਟਰੋਲ (WDAC) ਨੀਤੀਆਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਬਾਰੇ ਸਿੱਖਿਆ ਹੈ</title><link>https://pa.simeononsecurity.com/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>ਅੱਜ, SimeonOnSecurity ਨੇ ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਐਪਲੀਕੇਸ਼ਨ ਕੰਟਰੋਲ (WDAC) ਨੀਤੀਆਂ ਨੂੰ ਆਡਿਟ ਕਰਨ ਅਤੇ ਲਾਗੂ ਕਰਨ ਦੇ ਵਿਸ਼ੇ ਵਿੱਚ ਖੋਜ ਕੀਤੀ। WDAC ਵਿੰਡੋਜ਼ ਵਿੱਚ ਇੱਕ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ ਜੋ ਅਣਅਧਿਕਾਰਤ ਜਾਂ ਗੈਰ-ਭਰੋਸੇਯੋਗ ਸੌਫਟਵੇਅਰ ਨੂੰ ਡਿਵਾਈਸ ਤੇ ਚੱਲਣ ਤੋਂ ਰੋਕਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ। ਇਹ ਨਿਯੰਤਰਿਤ ਕਰਨ ਦਾ ਇੱਕ ਸਾਧਨ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ ਕਿ ਕਿਹੜੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਇੱਕ ਡਿਵਾਈਸ ਤੇ ਚੱਲ ਸਕਦੀਆਂ ਹਨ, ਜਿਸ ਨਾਲ ਡਿਵਾਈਸ ਦੀ ਸਮੁੱਚੀ ਸੁਰੱਖਿਆ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਮਿਲਦੀ ਹੈ।&lt;/p></description></item><item><title>ਵਿੰਡੋਜ਼-ਓਪਟੀਮਾਈਜ਼-ਹਾਰਡਨ-ਡੈਬਲੋਟ ਸਕ੍ਰਿਪਟ ਨਾਲ ਆਪਣੇ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਨੂੰ ਅਨੁਕੂਲਿਤ ਅਤੇ ਸਖ਼ਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/windows-optimize-harden-debloat/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਓਪਟੀਮਾਈਜੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼ ਨੂੰ ਸਖਤ ਕਰਨਾ"
+, "ਵਿੰਡੋਜ਼ ਡੀਬਲੋਟਿੰਗ"
+, "ਵਿੰਡੋਜ਼ ਸੁਰੱਖਿਆ"
+, "ਵਿੰਡੋਜ਼ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ"</category><guid>https://pa.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਹ ਵਿਆਪਕ ਗਾਈਡ ਬਿਹਤਰ ਪ੍ਰਦਰਸ਼ਨ, ਸੁਰੱਖਿਆ, ਅਤੇ ਗੋਪਨੀਯਤਾ ਲਈ ਤੁਹਾਡੇ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਨੂੰ ਕਿਵੇਂ ਅਨੁਕੂਲ ਬਣਾਉਣ, ਸਖ਼ਤ ਅਤੇ ਡੀਬਲੋਟ ਕਰਨ ਬਾਰੇ ਕਦਮ-ਦਰ-ਕਦਮ ਨਿਰਦੇਸ਼ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ।</description></item><item><title>ਅੱਜ ਮੈਂ CVE-2020-17049 ਅਤੇ ਵਿੰਡੋਜ਼ ਟੋਕਨ-ਅਧਾਰਿਤ ਐਕਟੀਵੇਸ਼ਨ ਬਾਰੇ ਸਿੱਖਿਆ</title><link>https://pa.simeononsecurity.com/til/2020-12-28/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2020-12-28/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ਨੇ ਹਾਲ ਹੀ ਵਿੱਚ ਕੰਪਿਊਟਰ ਸੁਰੱਖਿਆ ਦੇ ਖੇਤਰ ਵਿੱਚ ਦੋ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਸਿੱਖਿਆ ਹੈ: CVE-2020-17049, ਜਿਸਨੂੰ ਕਰਬਰੋਸ ਬ੍ਰਾਂਜ਼ ਬਿਟ ਅਟੈਕ ਵੀ ਕਿਹਾ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਵਿੰਡੋਜ਼ ਟੋਕਨ-ਆਧਾਰਿਤ ਐਕਟੀਵੇਸ਼ਨ।&lt;/p>
+&lt;p>Kerberos Bronze Bit Attack, ਜਿਵੇਂ ਕਿ Netspi ਦੁਆਰਾ ਬਲੌਗ ਪੋਸਟਾਂ ਦੀ ਇੱਕ ਲੜੀ ਵਿੱਚ ਅਤੇ Trimarcsecurity ਦੁਆਰਾ ਇੱਕ ਪੋਸਟ ਵਿੱਚ ਦੱਸਿਆ ਗਿਆ ਹੈ, Kerberos ਪ੍ਰਮਾਣੀਕਰਨ ਪ੍ਰੋਟੋਕੋਲ ਵਿੱਚ ਇੱਕ ਕਮਜ਼ੋਰੀ ਹੈ। ਇਹ ਕਮਜ਼ੋਰੀ ਸੰਭਾਵੀ ਤੌਰ &amp;lsquo;ਤੇ ਹਮਲਾਵਰ ਨੂੰ ਇੱਕ ਐਕਟਿਵ ਡਾਇਰੈਕਟਰੀ ਨਾਲ ਸਮਝੌਤਾ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦੇ ਸਕਦੀ ਹੈ, ਜੋ ਕਿ ਇੱਕ ਸੰਗਠਨ ਦੇ ਉਪਭੋਗਤਾਵਾਂ, ਕੰਪਿਊਟਰਾਂ ਅਤੇ ਹੋਰ ਸਰੋਤਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਇੱਕ ਕੇਂਦਰੀ ਭੰਡਾਰ ਹੈ। ਇਸ ਕਮਜ਼ੋਰੀ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ Kerberos S4U ਤਬਦੀਲੀਆਂ ਦੀ ਤੈਨਾਤੀ ਬਾਰੇ Microsoft ਸਹਾਇਤਾ ਲੇਖ ਵਿੱਚ ਚਰਚਾ ਕੀਤੀ ਗਈ ਹੈ।&lt;/p></description></item><item><title>ਅੱਜ ਮੈਂ ਨਵੇਂ ਸੁਰੱਖਿਆ ਟੂਲਸ, ਸਟੈਟਿਕ ਕੋਡ ਐਨਾਲਾਈਜ਼ਰ, ਅਤੇ ਸਵੈ-ਹੋਸਟਡ ਸੇਵਾ ਵਿਕਲਪਾਂ ਬਾਰੇ ਸਿੱਖਿਆ</title><link>https://pa.simeononsecurity.com/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity ਇੱਕ ਵਿਅਕਤੀ ਹੈ ਜੋ ਸੁਰੱਖਿਆ ਅਤੇ ਗੋਪਨੀਯਤਾ ਵਿੱਚ ਡੂੰਘੀ ਦਿਲਚਸਪੀ ਰੱਖਦਾ ਹੈ ਅਤੇ ਅੱਜ ਕਈ ਸਰੋਤਾਂ ਵਿੱਚ ਆਇਆ ਹੈ ਜੋ ਉਹਨਾਂ ਨੂੰ ਦਿਲਚਸਪ ਲੱਗਿਆ ਅਤੇ ਉਹ ਦੂਜਿਆਂ ਨਾਲ ਸਾਂਝਾ ਕਰਨਾ ਚਾਹੇਗਾ।&lt;/p>
+&lt;p>ਉਹਨਾਂ ਦਾ ਧਿਆਨ ਖਿੱਚਣ ਵਾਲੇ ਸਰੋਤਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ GitHub &amp;lsquo;ਤੇ &amp;ldquo;Awesome Security&amp;rdquo; ਸੂਚੀ। ਇਸ ਸੂਚੀ ਵਿੱਚ ਸ਼ਾਨਦਾਰ ਸੁਰੱਖਿਆ ਸਾਧਨਾਂ ਦਾ ਇੱਕ ਵਿਸ਼ਾਲ ਸੰਗ੍ਰਹਿ ਹੈ ਅਤੇ ਇਸ ਸੂਚੀ ਵਿੱਚ ਆਈਟਮਾਂ ਬਾਰੇ ਖੋਜ ਕਰਨਾ ਅਤੇ ਸਿੱਖਣਾ ਜਾਰੀ ਰੱਖਣ ਲਈ SimeonOnSecurity ਯੋਜਨਾਵਾਂ ਹਨ।&lt;/p></description></item><item><title>ਅੱਜ ਮੈਂ Android Debloating ਅਤੇ ਇੱਕ ਨਵੀਂ ਗੋਪਨੀਯਤਾ ਤਕਨੀਕ ਬਾਰੇ ਸਿੱਖਿਆ</title><link>https://pa.simeononsecurity.com/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>SimeonOnSecurity ਨੇ ਅੱਜ ਇਸ ਬਾਰੇ ਕੀ ਸਿੱਖਿਆ ਅਤੇ ਦਿਲਚਸਪ ਪਾਇਆ&lt;/strong>&lt;/p>
+&lt;p>ਅੱਜ, SimeonOnSecurity ਨੂੰ ਦੋ ਦਿਲਚਸਪ ਅਤੇ ਲਾਭਦਾਇਕ ਸੁਰੱਖਿਆ ਅਤੇ ਗੋਪਨੀਯਤਾ ਨਾਲ ਸਬੰਧਤ ਟੂਲ ਮਿਲੇ: ਯੂਨੀਵਰਸਲ Android Debloater ਅਤੇ DeepPrivacy।&lt;/p>
+&lt;p>ਯੂਨੀਵਰਸਲ ਐਂਡਰੌਇਡ ਡੀਬਲੋਟਰ ਗੈਰ-ਰੂਟਡ ਐਂਡਰੌਇਡ ਡਿਵਾਈਸਾਂ ਨੂੰ ਡੀਬਲੋਟ ਕਰਨ ਲਈ ADB (Android ਡੀਬੱਗ ਬ੍ਰਿਜ) ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੀ ਇੱਕ ਬੈਸ਼ ਸਕ੍ਰਿਪਟ ਹੈ। ਇਹ ਟੂਲ ਅਣਚਾਹੇ ਐਪਸ ਅਤੇ ਬਲੋਟਵੇਅਰ ਨੂੰ ਹਟਾ ਕੇ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਦੀ ਗੋਪਨੀਯਤਾ, ਸੁਰੱਖਿਆ ਅਤੇ ਬੈਟਰੀ ਲਾਈਫ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ। ਤੁਸੀਂ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+>https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a>
+&lt;/span>
+&amp;lsquo;ਤੇ ਯੂਨੀਵਰਸਲ ਐਂਡਰਾਇਡ ਡੀਬਲੋਟਰ ਲੱਭ ਸਕਦੇ ਹੋ।&lt;/p></description></item><item><title>GLVK ਸਕ੍ਰਿਪਟ ਨਾਲ ਵਿੰਡੋਜ਼ KMS ਐਕਟੀਵੇਸ਼ਨ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/kms-auto-ps/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਐਕਟੀਵੇਸ਼ਨ"
+, "KMS ਕਲਾਇੰਟ ਕੁੰਜੀਆਂ"
+, "ਜੀ.ਐਲ.ਵੀ.ਕੇ"
+, "ਵਿੰਡੋਜ਼ ਅੱਪਡੇਟ"
+, "ਪਾਲਣਾ"</category><guid>https://pa.simeononsecurity.com/github/kms-auto-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity ਦੀ GLVK ਆਟੋ ਇੰਸਟੌਲ ਸਕ੍ਰਿਪਟ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ Windows 10 KMS ਐਕਟੀਵੇਸ਼ਨ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਸਰਲ ਬਣਾਓ, ਅਤੇ Microsoft ਦੀ ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤੀ ਰੀਡਿੰਗ ਤੋਂ KMS ਅਤੇ GLVK ਕਲਾਇੰਟ ਕੁੰਜੀਆਂ ਬਾਰੇ ਹੋਰ ਜਾਣੋ।</description></item><item><title>RSAT ActiveDirectory PowerShell ਮੋਡੀਊਲ ਨੂੰ ਔਫਲਾਈਨ ਇੰਸਟਾਲ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"ਰਿਮੋਟ ਸਰਵਰ ਐਡਮਿਨਿਸਟ੍ਰੇਸ਼ਨ ਟੂਲਕਿੱਟ"
+, "PowerShell RSAT ਐਕਟਿਵ ਡਾਇਰੈਕਟਰੀ ਮੋਡੀਊਲ"
+, "ਵਿੰਡੋਜ਼ 10"
+, "ਔਫਲਾਈਨ ਇੰਸਟਾਲਰ"
+, "PowerShell ਸਕ੍ਰਿਪਟ"</category><guid>https://pa.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇੱਕ ਸਧਾਰਨ PowerShell ਸਕ੍ਰਿਪਟ ਨਾਲ RSAT ActiveDirectory PowerShell ਮੋਡੀਊਲ ਨੂੰ ਔਫਲਾਈਨ ਕਿਵੇਂ ਸਥਾਪਿਤ ਕਰਨਾ ਹੈ ਬਾਰੇ ਸਿੱਖੋ।</description></item><item><title>ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਐਪਲੀਕੇਸ਼ਨ ਕੰਟਰੋਲ ਡਬਲਯੂਡੀਏਸੀ ਨਾਲ ਵਿੰਡੋਜ਼ ਨੂੰ ਸਖ਼ਤ ਕਰਨ ਲਈ ਪੂਰੀ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/github/windows-defender-application-control-hardening/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਐਪਲੀਕੇਸ਼ਨ ਕੰਟਰੋਲ WDAC ਹਾਰਡਨਿੰਗ"
+, "ਪਾਵਰਸ਼ੇਲ"
+, "PowerShell ਸਕ੍ਰਿਪਟ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਪਾਲਣਾ"</category><guid>https://pa.simeononsecurity.com/github/windows-defender-application-control-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੇ ਵਿੰਡੋਜ਼ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਨੂੰ ਸਕ੍ਰਿਪਟਾਂ ਅਤੇ ਟੂਲਸ ਨਾਲ ਸਖ਼ਤ ਕਰਨ ਲਈ ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਐਪਲੀਕੇਸ਼ਨ ਕੰਟਰੋਲ WDAC ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਬਾਰੇ ਜਾਣੋ।</description></item><item><title>SolarWinds Orion ਸਪਲਾਈ ਚੇਨ ਅਟੈਕ: C2, ਮਿਟੀਗੇਸ਼ਨ, ਅਤੇ ਮਾਹਰ ਮਾਰਗਦਰਸ਼ਨ</title><link>https://pa.simeononsecurity.com/github/solarwinds-orion-mitigations/</link><pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate><category>
+"ਸੋਲਰਵਿੰਡਸ"
+, "ਆਪੂਰਤੀ ਲੜੀ"
+, "C2"
+, "ਕਮਾਂਡ ਅਤੇ ਕੰਟਰੋਲ"
+, "ਮਿਟੀਗੇਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/github/solarwinds-orion-mitigations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SolarWinds Orion ਸਪਲਾਈ ਚੇਨ ਅਟੈਕ ਬਾਰੇ ਜਾਣੋ, ਜਿਸ ਵਿੱਚ C2 ਮਾਲਵੇਅਰ, ਮਿਟੀਗੇਸ਼ਨ, ਅਤੇ DHS ਅਤੇ FireEye ਵਰਗੀਆਂ ਸੰਸਥਾਵਾਂ ਤੋਂ ਮਾਹਰ ਮਾਰਗਦਰਸ਼ਨ ਸ਼ਾਮਲ ਹਨ।</description></item><item><title>VirusTotal PowerShell ਮੋਡੀਊਲ ਨਾਲ ਕੁਸ਼ਲ ਵਾਇਰਸ ਸਕੈਨ</title><link>https://pa.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell ਮੋਡੀਊਲ"
+, "ਪਾਵਰਸ਼ੇਲ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਵਾਇਰਸ ਕੁੱਲ"
+, "ਵਾਇਰਸ ਸਕੈਨ"</category><guid>https://pa.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VirusTotal API ਨਾਲ ਆਪਸੀ ਤਾਲਮੇਲ ਨੂੰ ਸਵੈਚਲਿਤ ਕਰਕੇ ਅਤੇ ਆਪਣੇ ਸੁਰੱਖਿਆ ਵਰਕਫਲੋ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾ ਕੇ VirusTotal PowerShell ਮੋਡੀਊਲ ਨਾਲ ਕੁਸ਼ਲ ਵਾਇਰਸ ਸਕੈਨ ਕਰੋ।</description></item><item><title>ਅਲਟੀਮੇਟ ਐਪਲੌਕਰ ਹਾਰਡਨਿੰਗ ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਕ੍ਰਿਪਟ: ਵਿੰਡੋਜ਼ ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਓ</title><link>https://pa.simeononsecurity.com/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਸੁਰੱਖਿਆ"
+, "ਅਪਲੋਕਰ"
+, "ਸੰਰਚਨਾ ਸਕ੍ਰਿਪਟ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਮਾਲਵੇਅਰ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਲਟੀਮੇਟ ਐਪਲੌਕਰ ਹਾਰਡਨਿੰਗ ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਪਣੇ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਨੂੰ ਖਤਰਨਾਕ ਹਮਲਿਆਂ ਤੋਂ ਬਚਾਓ।</description></item><item><title>ਵਿੰਡੋਜ਼ ਕਮਾਂਡ ਪ੍ਰੋਂਪਟ ਅਤੇ ਪਾਵਰਸ਼ੇਲ ਹਾਰਡਨਿੰਗ</title><link>https://pa.simeononsecurity.com/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><category>
+"ਪਾਵਰਸ਼ੇਲ"
+, "ਸਖਤ ਕਰਨਾ"
+, "ਵਿੰਡੋਜ਼ ਕਮਾਂਡ ਪ੍ਰੋਂਪਟ"
+, "ਸੁਰੱਖਿਆ"
+, "ਪਾਲਣਾ"</category><guid>https://pa.simeononsecurity.com/github/windows-terminal-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਿੰਡੋਜ਼ ਕਮਾਂਡ ਪ੍ਰੋਂਪਟ ਅਤੇ ਪਾਵਰਸ਼ੇਲ ਨੂੰ ਸਾਡੀ ਵਿਆਪਕ ਹਾਰਡਨਿੰਗ ਸਕ੍ਰਿਪਟ ਅਤੇ ਦਸਤਾਵੇਜ਼ਾਂ ਨਾਲ ਸੁਰੱਖਿਅਤ ਕਰੋ, ਸਿਸਟਮ ਸੁਰੱਖਿਆ ਅਤੇ ਪਾਲਣਾ ਨੂੰ ਵਧਾਓ।</description></item><item><title>PowerShell ਸਕ੍ਰਿਪਟ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਦੀ ਪਾਲਣਾ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"ਪਾਵਰਸ਼ੇਲ"
+, "PowerShell ਸਕ੍ਰਿਪਟ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਪਾਲਣਾ"
+, "ਬਲੂ-ਟੀਮ"</category><guid>https://pa.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Defender STIG PowerShell ਸਕ੍ਰਿਪਟ ਨਾਲ ਆਪਣੀ ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਓ, ਜੋ Windows Defender Antivirus V1R9 STIG ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਦੀ ਹੈ।</description></item><item><title>ਡਿਫੈਂਡਰ ਹਾਰਡਨਿੰਗ ਸਕ੍ਰਿਪਟ ਨਾਲ ਵਿੰਡੋਜ਼ 10 ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਉਣਾ</title><link>https://pa.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ"
+, "ਵਿੰਡੋਜ਼ 10"
+, "ਵਿੰਡੋਜ਼ 10 ਸੁਰੱਖਿਆ"
+, "PowerShell ਸਕ੍ਰਿਪਟ"
+, "ਸਖਤ ਕਰਨਾ"</category><guid>https://pa.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਐਂਟੀਵਾਇਰਸ STIG V2R1 ਦੀਆਂ ਸਾਰੀਆਂ ਜ਼ਰੂਰਤਾਂ ਨੂੰ ਲਾਗੂ ਕਰਦੇ ਹੋਏ, ਇੱਕ PowerShell ਸਕ੍ਰਿਪਟ ਨਾਲ Windows 10 ਸੁਰੱਖਿਆ ਨੂੰ ਕਿਵੇਂ ਵਧਾਉਣਾ ਹੈ ਬਾਰੇ ਜਾਣੋ ਜੋ Windows Defender ਐਂਟੀਵਾਇਰਸ ਨੂੰ ਸਖ਼ਤ ਬਣਾਉਂਦੀ ਹੈ।</description></item><item><title>ਹੈਕਬੌਕਸ - ਚੁਣੌਤੀਆਂ - ਕ੍ਰਿਪਟੋ - ਕਾਲ</title><link>https://pa.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"HackTheBox"
+, "ਕ੍ਰਿਪਟੋ ਚੈਲੇਂਜ"
+, "DTMF ਟੋਨਸ"
+, "ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ"
+, "ਡਿਕ੍ਰਿਪਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+HackTheBox 'ਤੇ Crypto - Call ਚੁਣੌਤੀ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ DTMF ਟੋਨਾਂ ਨੂੰ ਡੀਕ੍ਰਿਪਟ ਕਰਨਾ ਸਿੱਖੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png"/></item><item><title>ਹੈਕਬੌਕਸ - ਚੁਣੌਤੀਆਂ - ਕ੍ਰਿਪਟੋ - ਡੀਕੋਡ</title><link>https://pa.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"HackTheBox"
+, "ਚੁਣੌਤੀਆਂ"
+, "ਕ੍ਰਿਪਟੋ"
+, "ਡੀਕੋਡ ਕਰੋ"
+, "ਲਿਖੋ"</category><guid>https://pa.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿੱਖੋ ਕਿ ਹੈਕਦਬੌਕਸ ਕ੍ਰਿਪਟੋ ਚੈਲੇਂਜ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਫਰਨੇਟ ਅਤੇ ਮਾਲਬੋਜ ਸਿਫਰਾਂ ਨੂੰ ਕਿਵੇਂ ਡੀਕੋਡ ਕਰਨਾ ਹੈ ਅਤੇ ਲੁਕਵੇਂ ਫਲੈਗ ਨੂੰ ਬੇਪਰਦ ਕਰਨਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png"/></item><item><title>STIG ਸਕ੍ਰਿਪਟਾਂ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਸਰਵਰ STIG ਪਾਲਣਾ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/github/stiging-standalone-windows-servers/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/stiging-standalone-windows-servers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ਤੋਂ ਸਾਰੀਆਂ ਲੋੜੀਂਦੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="GitHub Repository">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script">
+&lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script"
+rel="noopener external" target="_blank"
+>GitHub Repository&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;p>&lt;strong>ਨੋਟ:&lt;/strong> ਇਹ ਸਕ੍ਰਿਪਟ ਜ਼ਿਆਦਾਤਰ, ਜੇਕਰ ਸਾਰੇ ਨਹੀਂ, ਬਿਨਾਂ ਕਿਸੇ ਸਮੱਸਿਆ ਦੇ ਸਿਸਟਮਾਂ ਲਈ ਕੰਮ ਕਰੇਗੀ। ਜਦਕਿ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="@SimeonOnSecurity">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity">
+&lt;a href="https://github.com/simeononsecurity"
+rel="noopener external" target="_blank"
+>@SimeonOnSecurity&lt;/a>
+&lt;/span>
+creates, reviews, and tests each repo intensively, we can not test every possible configuration nor does
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="@SimeonOnSecurity">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity">
+&lt;a href="https://github.com/simeononsecurity"
+rel="noopener external" target="_blank"
+>@SimeonOnSecurity&lt;/a>
+&lt;/span>
+take any responsibility for breaking your system. If something goes wrong, be prepared to submit an
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="issue">
+&lt;meta itemprop="url" content="../../issues">
+&lt;a href="../../issues"
+rel="follow me"
+>issue&lt;/a>
+&lt;/span>
+ਇਸ ਸਕ੍ਰਿਪਟ ਨੂੰ ਨਾ ਚਲਾਓ ਜੇਕਰ ਤੁਸੀਂ ਇਹ ਨਹੀਂ ਸਮਝਦੇ ਕਿ ਇਹ ਕੀ ਕਰਦੀ ਹੈ। ਇਸ ਨੂੰ ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਸਕ੍ਰਿਪਟ ਦੀ ਸਮੀਖਿਆ ਅਤੇ ਜਾਂਚ ਕਰਨਾ ਤੁਹਾਡੀ ਜ਼ਿੰਮੇਵਾਰੀ ਹੈ।&lt;/p></description></item><item><title>STIG ਅਨੁਕੂਲ GPOs ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਡੋਮੇਨ ਦੀ ਪਾਲਣਾ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/stig-compliant-domain-prep/</link><pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/stig-compliant-domain-prep/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਤੁਹਾਡੇ ਡੋਮੇਨ ਨੂੰ ਸਾਰੇ ਲਾਗੂ STIGs ਅਤੇ SRGs ਨਾਲ ਅਨੁਕੂਲ ਬਣਾਉਣ ਵਿੱਚ ਸਹਾਇਤਾ ਲਈ SimeonOnSecurity ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੇ ਗਏ ਸਾਰੇ GPOs ਨੂੰ ਆਯਾਤ ਕਰੋ।&lt;/p>
+&lt;h2 id="ਨਟ">
+&lt;a href="#%e0%a8%a8%e0%a8%9f" title="ਨੋਟ:">ਨੋਟ:&lt;/a>
+&lt;a href="#%e0%a8%a8%e0%a8%9f" class="h-anchor" aria-hidden="true" title="ਨੋਟ:">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;strong>ਇਹ ਸਕ੍ਰਿਪਟ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਵਾਤਾਵਰਨ ਵਿੱਚ ਵਰਤਣ ਲਈ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ&lt;/strong>&lt;/p>
+&lt;h2 id="stigssrgs-ਲਗ">
+&lt;a href="#stigssrgs-%e0%a8%b2%e0%a8%97" title="STIGS/SRGs ਲਾਗੂ:">STIGS/SRGs ਲਾਗੂ:&lt;/a>
+&lt;a href="#stigssrgs-%e0%a8%b2%e0%a8%97" class="h-anchor" aria-hidden="true" title="STIGS/SRGs ਲਾਗੂ:">#&lt;/a>
+&lt;/h2>
+&lt;p>-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Windows 10 V1R23">
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip">
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip"
+rel="noopener external" target="_blank"
+>Windows 10 V1R23&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;p>-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Windows Defender Antivirus V1R9">
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip">
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip"
+rel="noopener external" target="_blank"
+>Windows Defender Antivirus V1R9&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;p>-
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Windows Firewall V1R7">
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip">
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip"
+rel="noopener external" target="_blank"
+>Windows Firewall V1R7&lt;/a>
+&lt;/span>
+&lt;/p></description></item><item><title>Powershell ਸਕ੍ਰਿਪਟ ਦੇ ਨਾਲ Windows 10 STIG ਪਾਲਣਾ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਨਾ</title><link>https://pa.simeononsecurity.com/github/stiging-standalone-windows-systems/</link><pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/stiging-standalone-windows-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>** ਤੋਂ ਸਾਰੀਆਂ ਲੋੜੀਂਦੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="GitHub Repository">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script">
+&lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script"
+rel="noopener external" target="_blank"
+>GitHub Repository&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;p>**ਅਸੀਂ ਨਿਮਨਲਿਖਤ ਲਈ ਮਦਦ ਮੰਗ ਰਹੇ ਹਾਂ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content=".Net issue">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3">
+&lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3"
+rel="noopener external" target="_blank"
+>.Net issue&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;h2 id="ਜਣ-ਪਛਣ">
+&lt;a href="#%e0%a8%9c%e0%a8%a3-%e0%a8%aa%e0%a8%9b%e0%a8%a3" title="ਜਾਣ-ਪਛਾਣ:">ਜਾਣ-ਪਛਾਣ:&lt;/a>
+&lt;a href="#%e0%a8%9c%e0%a8%a3-%e0%a8%aa%e0%a8%9b%e0%a8%a3" class="h-anchor" aria-hidden="true" title="ਜਾਣ-ਪਛਾਣ:">#&lt;/a>
+&lt;/h2>
+&lt;p>Windows 10 ਬਾਕਸ ਤੋਂ ਬਾਹਰ ਅਸੁਰੱਖਿਅਤ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਹੈ ਅਤੇ ਬੀਮੇ ਲਈ ਬਹੁਤ ਸਾਰੇ ਬਦਲਾਅ ਦੀ ਲੋੜ ਹੈ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="FISMA">
+&lt;meta itemprop="url" content="https://www.cisa.gov/federal-information-security-modernization-act">
+&lt;a href="https://www.cisa.gov/federal-information-security-modernization-act"
+rel="noopener external" target="_blank"
+>FISMA&lt;/a>
+&lt;/span>
+ਪਾਲਣਾ
+ਵਰਗੀਆਂ ਸੰਸਥਾਵਾਂ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Microsoft">
+&lt;meta itemprop="url" content="https://microsoft.com">
+&lt;a href="https://microsoft.com"
+rel="noopener external" target="_blank"
+>Microsoft&lt;/a>
+&lt;/span>
+,
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Cyber.mil">
+&lt;meta itemprop="url" content="https://public.cyber.mil">
+&lt;a href="https://public.cyber.mil"
+rel="noopener external" target="_blank"
+>Cyber.mil&lt;/a>
+&lt;/span>
+, the
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Department of Defense">
+&lt;meta itemprop="url" content="https://www.defense.gov/">
+&lt;a href="https://www.defense.gov/"
+rel="noopener external" target="_blank"
+>Department of Defense&lt;/a>
+&lt;/span>
+, and the
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="National Security Agency">
+&lt;meta itemprop="url" content="https://www.nsa.gov/">
+&lt;a href="https://www.nsa.gov/"
+rel="noopener external" target="_blank"
+>National Security Agency&lt;/a>
+&lt;/span>
+ਨੇ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਨੂੰ ਲਾਕਡਾਊਨ, ਸਖ਼ਤ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰਨ ਅਤੇ ਸਰਕਾਰੀ ਪਾਲਣਾ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਸੰਰਚਨਾ ਤਬਦੀਲੀਆਂ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਹੈ ਅਤੇ ਲੋੜੀਂਦਾ ਹੈ। ਇਹ ਤਬਦੀਲੀਆਂ ਟੈਲੀਮੈਟਰੀ ਨੂੰ ਰੋਕਣਾ, ਮੈਕਰੋਜ਼ ਨੂੰ ਰੋਕਣਾ, ਬਲੋਟਵੇਅਰ ਨੂੰ ਹਟਾਉਣਾ, ਅਤੇ ਸਿਸਟਮ ਉੱਤੇ ਬਹੁਤ ਸਾਰੇ ਭੌਤਿਕ ਹਮਲਿਆਂ ਨੂੰ ਰੋਕਣਾ ਸਮੇਤ ਬਹੁਤ ਸਾਰੀਆਂ ਕਮੀਆਂ ਨੂੰ ਕਵਰ ਕਰਦਾ ਹੈ।&lt;/p></description></item><item><title>PowerShell ਸਕ੍ਰਿਪਟ ਦੇ ਨਾਲ .NET STIG ਪਾਲਣਾ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/dot-net-stig-script/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/dot-net-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>.NET ਫਰੇਮਵਰਕ STIG&lt;/p>
+&lt;p>.NET STIG ਨੂੰ ਲਾਗੂ ਕਰਨਾ ਯਕੀਨੀ ਤੌਰ &amp;lsquo;ਤੇ ਸਿੱਧਾ ਨਹੀਂ ਹੈ। ਬਹੁਤ ਸਾਰੇ ਪ੍ਰਸ਼ਾਸਕਾਂ ਲਈ ਇੱਕ ਸਿੰਗਲ ਸਿਸਟਮ &amp;lsquo;ਤੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਲਾਗੂ ਕਰਨ ਵਿੱਚ ਘੰਟੇ ਲੱਗ ਸਕਦੇ ਹਨ। ਇਹ ਸਕ੍ਰਿਪਟ ਲੋੜੀਂਦੀਆਂ ਰਜਿਸਟਰੀ ਤਬਦੀਲੀਆਂ ਨੂੰ ਲਾਗੂ ਕਰਦੀ ਹੈ ਅਤੇ ਲੋੜ ਅਨੁਸਾਰ FIPS ਅਤੇ ਹੋਰ ਨਿਯੰਤਰਣਾਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ machine.config ਫਾਈਲ ਨੂੰ ਸੋਧਦੀ ਹੈ।&lt;/p>
+&lt;h2 id="ਨਟ">
+&lt;a href="#%e0%a8%a8%e0%a8%9f" title="ਨੋਟ:">ਨੋਟ:&lt;/a>
+&lt;a href="#%e0%a8%a8%e0%a8%9f" class="h-anchor" aria-hidden="true" title="ਨੋਟ:">#&lt;/a>
+&lt;/h2>
+&lt;p>ਇਹ ਸਕ੍ਰਿਪਟ 100% ਅਨੁਪਾਲਨ ਲਈ .NET ਸਟੈਗ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦੀ ਹੈ ਅਤੇ ਨਾ ਹੀ ਕਰੇਗੀ। ਇਸ ਸਮੇਂ, ਜਿਵੇਂ ਕਿ, ਇਹ ਲਗਭਗ 75% ਚੈਕਾਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਖੜ੍ਹਾ ਹੈ ਅਤੇ ਵਾਪਸ ਜਾ ਕੇ ਸਾਰੇ ਪਿਛਲੇ .NET ਸੰਸਕਰਣਾਂ &amp;lsquo;ਤੇ ਲਾਗੂ ਜਾਂਚਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ।&lt;/p></description></item><item><title>ਫਾਇਰਫਾਕਸ ਗੋਪਨੀਯਤਾ ਸਕ੍ਰਿਪਟ: ਵਿਸਤ੍ਰਿਤ ਸੁਰੱਖਿਆ ਅਤੇ ਗੋਪਨੀਯਤਾ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/firefox-privacy-script/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/firefox-privacy-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਫਾਇਰਫਾਕਸ ਗੋਪਨੀਯਤਾ ਸਕ੍ਰਿਪਟ&lt;/p>
+&lt;p>ਵਰਗੀਆਂ ਸੰਸਥਾਵਾਂ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="PrivacyTools.io">
+&lt;meta itemprop="url" content="https://www.privacytools.io/browsers/#about_config">
+&lt;a href="https://www.privacytools.io/browsers/#about_config"
+rel="noopener external" target="_blank"
+>PrivacyTools.io&lt;/a>
+&lt;/span>
+and
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ffprofile">
+&lt;meta itemprop="url" content="https://ffprofile.com/">
+&lt;a href="https://ffprofile.com/"
+rel="noopener external" target="_blank"
+>ffprofile&lt;/a>
+&lt;/span>
+ਨੇ ਫਾਇਰਫਾਕਸ ਨੂੰ ਵਧੇਰੇ ਸੁਰੱਖਿਅਤ ਅਤੇ ਨਿੱਜੀ ਬਣਾਉਣ ਲਈ ਤਬਦੀਲੀਆਂ ਦਾ ਸੁਝਾਅ ਦਿੱਤਾ ਹੈ।
+ਇਹ ਤਬਦੀਲੀਆਂ ਸੁਝਾਏ ਗਏ ਬ੍ਰਾਊਜ਼ਰ ਐਕਸਟੈਂਸ਼ਨਾਂ, ਟੈਲੀਮੈਟਰੀ ਨੂੰ ਬਲੌਕ ਕਰਨ, ਤੀਜੀ-ਧਿਰ ਦੀਆਂ ਕੂਕੀਜ਼ ਨੂੰ ਅਯੋਗ ਕਰਨ, ਟਰੈਕਰਾਂ ਨੂੰ ਅਯੋਗ ਕਰਨ ਆਦਿ ਨੂੰ ਕਵਰ ਕਰਦੀਆਂ ਹਨ।&lt;/p>
+&lt;p>ਇਹ ਸਕ੍ਰਿਪਟ ਪਹਿਲਾਂ ਤੋਂ ਤਿਆਰ ਫਾਇਰਫਾਕਸ ਸੰਰਚਨਾ ਫਾਈਲਾਂ ਨੂੰ ਲੈ ਲਵੇਗੀ ਅਤੇ ਉਹਨਾਂ ਨੂੰ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਉੱਤੇ ਸਹੀ ਡਾਇਰੈਕਟਰੀਆਂ ਵਿੱਚ ਸਥਾਪਿਤ ਕਰੇਗੀ।&lt;/p></description></item><item><title>PowerShell ਸਕ੍ਰਿਪਟਾਂ ਦੇ ਨਾਲ ਫਾਇਰਫਾਕਸ STIG ਪਾਲਣਾ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/firefox-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਫਾਇਰਫਾਕਸ STIG ਸਕ੍ਰਿਪਟ&lt;/p>
+&lt;p>ਦ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Firefox V4R29">
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip">
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip"
+rel="noopener external" target="_blank"
+>Firefox V4R29&lt;/a>
+&lt;/span>
+STIGs ਨੂੰ ਲਾਗੂ ਕਰਨਾ ਸਭ ਤੋਂ ਆਸਾਨ ਨਹੀਂ ਹੈ।
+ਇਹ ਸਕ੍ਰਿਪਟ ਜ਼ਿਆਦਾਤਰ ਲੋੜੀਂਦੀਆਂ ਫਾਇਰਫਾਕਸ ਨੀਤੀਆਂ ਨੂੰ ਲਾਗੂ ਕਰੇਗੀ। ਭਵਿੱਖ ਵਿੱਚ, ਫਾਇਰਫਾਕਸ ADMX ਟੈਂਪਲੇਟਸ ਅਤੇ ਜੀਪੀਓਜ਼ ਇਸ ਸਕ੍ਰਿਪਟ ਵਿੱਚ ਲਾਗੂ ਕੀਤੇ ਜਾਣਗੇ।&lt;/p>
+&lt;p>&lt;strong>ਕੰਮ ਚੱਲ ਰਿਹਾ ਹੈ&lt;/strong>&lt;/p>
+&lt;h2 id="ਲੜਦਆ-ਫਈਲ-ਨ-ਡਉਨਲਡ-ਕਰ">
+&lt;a href="#%e0%a8%b2%e0%a9%9c%e0%a8%a6%e0%a8%86-%e0%a8%ab%e0%a8%88%e0%a8%b2-%e0%a8%a8-%e0%a8%a1%e0%a8%89%e0%a8%a8%e0%a8%b2%e0%a8%a1-%e0%a8%95%e0%a8%b0" title="ਲੋੜੀਂਦੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰੋ">ਲੋੜੀਂਦੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰੋ&lt;/a>
+&lt;a href="#%e0%a8%b2%e0%a9%9c%e0%a8%a6%e0%a8%86-%e0%a8%ab%e0%a8%88%e0%a8%b2-%e0%a8%a8-%e0%a8%a1%e0%a8%89%e0%a8%a8%e0%a8%b2%e0%a8%a1-%e0%a8%95%e0%a8%b0" class="h-anchor" aria-hidden="true" title="ਲੋੜੀਂਦੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰੋ">#&lt;/a>
+&lt;/h2>
+&lt;p>ਤੋਂ ਲੋੜੀਂਦੀਆਂ ਫਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕਰੋ
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="GitHub Repository">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/FireFox-STIG-Script">
+&lt;a href="https://github.com/simeononsecurity/FireFox-STIG-Script"
+rel="noopener external" target="_blank"
+>GitHub Repository&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;h2 id="ਸਕਰਪਟ-ਨ-ਕਵ-ਚਲਉਣ-ਹ">
+&lt;a href="#%e0%a8%b8%e0%a8%95%e0%a8%b0%e0%a8%aa%e0%a8%9f-%e0%a8%a8-%e0%a8%95%e0%a8%b5-%e0%a8%9a%e0%a8%b2%e0%a8%89%e0%a8%a3-%e0%a8%b9" title="ਸਕ੍ਰਿਪਟ ਨੂੰ ਕਿਵੇਂ ਚਲਾਉਣਾ ਹੈ">ਸਕ੍ਰਿਪਟ ਨੂੰ ਕਿਵੇਂ ਚਲਾਉਣਾ ਹੈ&lt;/a>
+&lt;a href="#%e0%a8%b8%e0%a8%95%e0%a8%b0%e0%a8%aa%e0%a8%9f-%e0%a8%a8-%e0%a8%95%e0%a8%b5-%e0%a8%9a%e0%a8%b2%e0%a8%89%e0%a8%a3-%e0%a8%b9" class="h-anchor" aria-hidden="true" title="ਸਕ੍ਰਿਪਟ ਨੂੰ ਕਿਵੇਂ ਚਲਾਉਣਾ ਹੈ">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;strong>ਸਕ੍ਰਿਪਟ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਐਕਸਟਰੈਕਟ ਕੀਤੇ GitHub ਡਾਊਨਲੋਡ ਤੋਂ ਲਾਂਚ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ:&lt;/strong>&lt;/p></description></item><item><title>ਵਿੰਡੋਜ਼ ਸਿਸਟਮਾਂ ਲਈ ਸਵੈਚਲਿਤ ਬ੍ਰਾਂਡਿੰਗ - ਡੈਸਕਟੌਪ, ਲੌਕ ਸਕ੍ਰੀਨ, ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਕੰਟਰੋਲ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/windows-10-branding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਬਹੁਤ ਸਾਰੀਆਂ ਸੰਸਥਾਵਾਂ ਨੂੰ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਦੀ ਬ੍ਰਾਂਡਿੰਗ ਨੂੰ ਨਿਯੰਤਰਿਤ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੁੰਦੀ ਹੈ ਜਾਂ ਚਾਹੁੰਦੇ ਹਨ।
+ਇਸ ਵਿੱਚ ਡੈਸਕਟੌਪ ਵਾਲਪੇਪਰ, ਉਪਭੋਗਤਾ ਅਵਤਾਰ, ਵਿੰਡੋਜ਼ ਲੌਕ ਸਕ੍ਰੀਨ, ਅਤੇ ਕਈ ਵਾਰ OEM ਲੋਗੋ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ।
+ਵਿੰਡੋਜ਼ 10, ਵਿੰਡੋਜ਼ ਸਰਵਰ 2016, ਅਤੇ ਵਿੰਡੋਜ਼ ਸਰਵਰ 2019 ਵਿੱਚ ਇਹ ਖਾਸ ਤੌਰ &amp;lsquo;ਤੇ ਆਸਾਨ ਨਹੀਂ ਹੈ।
+ਪਰ, ਲਿੰਕਡ ਸਕ੍ਰਿਪਟ ਦੀ ਸਹਾਇਤਾ ਨਾਲ, ਅਸੀਂ ਇਸਨੂੰ ਅੰਸ਼ਕ ਤੌਰ &amp;lsquo;ਤੇ ਸਵੈਚਲਿਤ ਕਰ ਸਕਦੇ ਹਾਂ ਅਤੇ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਬਹੁਤ ਸੌਖਾ ਬਣਾ ਸਕਦੇ ਹਾਂ।&lt;/p></description></item><item><title>ਕੁਸ਼ਲ ਵਿੰਡੋਜ਼ ਗਰੁੱਪ ਪਾਲਿਸੀ ਡਿਪਲਾਇਮੈਂਟ ਲਈ WMI ਫਿਲਟਰ - GitHub ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/wmi-filters/</link><pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/wmi-filters/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਵਿੰਡੋਜ਼ ਗਰੁੱਪ ਪਾਲਿਸੀ ਤੈਨਾਤੀਆਂ ਵਿੱਚ ਸਹਾਇਤਾ ਲਈ WMI ਫਿਲਟਰਾਂ ਦਾ ਸੰਗ੍ਰਹਿ&lt;/p>
+&lt;p>GPOs ਨੂੰ ਤੈਨਾਤ ਕਰਦੇ ਸਮੇਂ, ਮਾਈਕਰੋਸਾਫਟ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਤੇਜ਼ ਕਰਨ ਅਤੇ ਵੱਡੇ ਡੋਮੇਨਾਂ ਵਿੱਚ ਪਾਲਿਸੀਆਂ ਨੂੰ ਅਲੱਗ ਕਰਨ ਲਈ WMI ਫਿਲਟਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦਾ ਹੈ।
+WMI ਫਿਲਟਰ ਤੁਹਾਨੂੰ GPOs ਨੂੰ ਸਾਫਟਵੇਅਰ ਦੇ ਇੱਕ ਖਾਸ ਟੁਕੜੇ ਜਾਂ ਵਿੰਡੋਜ਼ ਸੰਸਕਰਣ ਲਈ ਨਿਰਧਾਰਤ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹਨ ਜਿਸ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਤੌਰ &amp;lsquo;ਤੇ ਵਧੇਰੇ ਗੁੰਝਲਦਾਰ ਹੋਣ ਦੀ ਸੰਭਾਵਨਾ ਹੈ।
+ਲਿੰਕ ਕੀਤੇ GitHub ਰਿਪੋਜ਼ਟਰੀ ਵਿੱਚ ਸਭ ਤੋਂ ਵੱਧ ਵਰਤੇ ਜਾਣ ਵਾਲੇ WMI ਫਿਲਟਰ ਸ਼ਾਮਲ ਹਨ ਤਾਂ ਜੋ ਤੁਹਾਨੂੰ ਉਹਨਾਂ ਨੂੰ ਬਣਾਉਣ ਦੀ ਲੋੜ ਨਾ ਪਵੇ।&lt;/p></description></item><item><title>ਸੁਰੱਖਿਅਤ ਅਪਾਚੇ ਵੈੱਬ ਸਰਵਰ: ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕਾਂ ਲਈ ਇੱਕ ਵਿਆਪਕ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/github/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/hardening-apache/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਅਪਾਚੇ ਵੈੱਬ ਸਰਵਰਾਂ ਨੂੰ ਸਖ਼ਤ ਕਰਨ ਵਿੱਚ ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕਾਂ ਦੀ ਸਹਾਇਤਾ ਲਈ ਉਦਾਹਰਨ ਸੰਰਚਨਾਵਾਂ ਅਤੇ ਸਕ੍ਰਿਪਟਾਂ ਦਾ ਸੰਗ੍ਰਹਿ।&lt;/p>
+&lt;p>ਅਪਾਚੇ, ਬਾਕਸ ਤੋਂ ਬਾਹਰ, ਹੈਰਾਨੀਜਨਕ ਤੌਰ &amp;lsquo;ਤੇ ਅਸੁਰੱਖਿਅਤ ਹੈ. ਉਤਪਾਦਨ ਵਾਤਾਵਰਣ ਵਿੱਚ ਅਪਾਚੇ ਨੂੰ ਰੋਲ ਆਊਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਬਹੁਤ ਸਾਰੇ ਵਧੀਆ ਅਭਿਆਸਾਂ ਅਤੇ ਸੁਰੱਖਿਆ ਸੰਰਚਨਾਵਾਂ ਨੂੰ ਹੱਥੀਂ ਸੰਰਚਿਤ ਕਰਨਾ ਪੈਂਦਾ ਹੈ। ਤੁਸੀਂ ਇਸ GitHub ਰਿਪੋਜ਼ਟਰੀ ਨੂੰ ਆਪਣੇ ਅਪਾਚੇ ਉਦਾਹਰਨਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਵਜੋਂ ਵਰਤ ਸਕਦੇ ਹੋ।&lt;/p>
+&lt;h2 id="owasp-ਕਰ-ਨਯਮ-ਸਟ-ਦ-ਨਲ-ਮਡਸਕਓਰਟ-ਨ-ਸਥਪਤ-ਕਰਨ">
+&lt;a href="#owasp-%e0%a8%95%e0%a8%b0-%e0%a8%a8%e0%a8%af%e0%a8%ae-%e0%a8%b8%e0%a8%9f-%e0%a8%a6-%e0%a8%a8%e0%a8%b2-%e0%a8%ae%e0%a8%a1%e0%a8%b8%e0%a8%95%e0%a8%93%e0%a8%b0%e0%a8%9f-%e0%a8%a8-%e0%a8%b8%e0%a8%a5%e0%a8%aa%e0%a8%a4-%e0%a8%95%e0%a8%b0%e0%a8%a8" title="OWASP ਕੋਰ ਨਿਯਮ ਸੈੱਟ ਦੇ ਨਾਲ ਮੋਡਸਿਕਿਓਰਿਟੀ ਨੂੰ ਸਥਾਪਿਤ ਕਰਨਾ">OWASP ਕੋਰ ਨਿਯਮ ਸੈੱਟ ਦੇ ਨਾਲ ਮੋਡਸਿਕਿਓਰਿਟੀ ਨੂੰ ਸਥਾਪਿਤ ਕਰਨਾ&lt;/a>
+&lt;a href="#owasp-%e0%a8%95%e0%a8%b0-%e0%a8%a8%e0%a8%af%e0%a8%ae-%e0%a8%b8%e0%a8%9f-%e0%a8%a6-%e0%a8%a8%e0%a8%b2-%e0%a8%ae%e0%a8%a1%e0%a8%b8%e0%a8%95%e0%a8%93%e0%a8%b0%e0%a8%9f-%e0%a8%a8-%e0%a8%b8%e0%a8%a5%e0%a8%aa%e0%a8%a4-%e0%a8%95%e0%a8%b0%e0%a8%a8" class="h-anchor" aria-hidden="true" title="OWASP ਕੋਰ ਨਿਯਮ ਸੈੱਟ ਦੇ ਨਾਲ ਮੋਡਸਿਕਿਓਰਿਟੀ ਨੂੰ ਸਥਾਪਿਤ ਕਰਨਾ">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="ਕਦਮ-1-ਰਪਜਟਰਆ-ਨ-ਅਪਡਟ-ਕਰ">
+&lt;a href="#%e0%a8%95%e0%a8%a6%e0%a8%ae-1-%e0%a8%b0%e0%a8%aa%e0%a8%9c%e0%a8%9f%e0%a8%b0%e0%a8%86-%e0%a8%a8-%e0%a8%85%e0%a8%aa%e0%a8%a1%e0%a8%9f-%e0%a8%95%e0%a8%b0" title="ਕਦਮ 1: ਰਿਪੋਜ਼ਟਰੀਆਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ">ਕਦਮ 1: ਰਿਪੋਜ਼ਟਰੀਆਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ&lt;/a>
+&lt;a href="#%e0%a8%95%e0%a8%a6%e0%a8%ae-1-%e0%a8%b0%e0%a8%aa%e0%a8%9c%e0%a8%9f%e0%a8%b0%e0%a8%86-%e0%a8%a8-%e0%a8%85%e0%a8%aa%e0%a8%a1%e0%a8%9f-%e0%a8%95%e0%a8%b0" class="h-anchor" aria-hidden="true" title="ਕਦਮ 1: ਰਿਪੋਜ਼ਟਰੀਆਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;strong>ਉਬੰਟੂ/ਡੇਬੀਅਨ &amp;lsquo;ਤੇ:&lt;/strong>&lt;/p></description></item><item><title>BraveADMX - ਸੰਸ਼ੋਧਿਤ ADMX ਟੈਂਪਲੇਟਸ ਨਾਲ ਬਹਾਦਰ ਬ੍ਰਾਊਜ਼ਰ ਨੀਤੀਆਂ ਦਾ ਨਿਯੰਤਰਣ ਲਓ</title><link>https://pa.simeononsecurity.com/github/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/brave-admx-templates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>ਬ੍ਰੇਵ, ਇੱਕ ਕੰਪਨੀ ਦੇ ਰੂਪ ਵਿੱਚ, ਸਿਰਫ਼ ਸਮਰਥਿਤ ਵਿਕਲਪ ਵਜੋਂ ਸ਼ੁੱਧ ਰਜਿਸਟਰੀਆਂ ਨੂੰ ਅੱਗੇ ਵਧਾਉਣ ਵਾਲੇ ਬਹਾਦਰ ਬ੍ਰਾਊਜ਼ਰ ਸਾਈਟਿੰਗ ਲਈ ADMX ਟੈਂਪਲੇਟਾਂ ਨੂੰ ਜਾਰੀ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ ਹੈ।
+ਜਿਵੇਂ ਕਿ ਬ੍ਰੇਵ ਬ੍ਰਾਊਜ਼ਰ ਕ੍ਰੋਮੀਅਮ ਤੋਂ ਬਣਿਆ ਹੋਇਆ ਹੈ, ਇਸ ਨੂੰ ਕ੍ਰੋਮੀਅਮ ਅਤੇ ਗੂਗਲ ਕਰੋਮ ADMX ਟੈਂਪਲੇਟਸ ਦੀਆਂ ਸਭ ਤੋਂ ਵੱਧ, ਜੇ ਸਾਰੀਆਂ ਨਹੀਂ, ਤਾਂ ਇੱਕੋ ਜਿਹੀਆਂ ਨੀਤੀਆਂ ਦਾ ਸਮਰਥਨ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
+ਇਸ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖਦੇ ਹੋਏ, ਅਸੀਂ ਬ੍ਰੇਵ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਰਜਿਸਟਰੀ ਮਾਰਗ ਨੂੰ ਦਰਸਾਉਣ ਲਈ Google Chrome ADMX ਟੈਂਪਲੇਟਸ ਨੂੰ ਸੰਸ਼ੋਧਿਤ ਕੀਤਾ ਹੈ। ਕੁਝ ਸ਼ੁਰੂਆਤੀ ਸਮੱਸਿਆ-ਨਿਪਟਾਰਾ ਅਤੇ ਟੈਸਟਿੰਗ ਤੋਂ ਬਾਅਦ, ਟੈਂਪਲੇਟਸ ਕੰਮ ਕਰਦੇ ਜਾਪਦੇ ਹਨ।&lt;/p></description></item><item><title>Chocolatey, PSWindowsUpdate, ਅਤੇ ਸਟਾਰਟਅਪ ਸਕ੍ਰਿਪਟਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਆਟੋਮੇਸ਼ਨ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਅਪਡੇਟਾਂ ਨੂੰ ਸਟ੍ਰੀਮਲਾਈਨ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/github/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>Chocolatey, PSWindowsUpdate, ਅਤੇ ਸਟਾਰਟਅੱਪ ਸਕ੍ਰਿਪਟਾਂ ਨਾਲ ਵਿੰਡੋਜ਼ ਅੱਪਡੇਟ**&lt;/p>
+&lt;p>ਅੱਜ ਦੇ ਤੇਜ਼ ਰਫ਼ਤਾਰ ਕਾਰੋਬਾਰੀ ਮਾਹੌਲ ਵਿੱਚ, ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕਾਂ ਲਈ ਸਮਾਂ ਜ਼ਰੂਰੀ ਹੈ। ਵਿੰਡੋਜ਼ ਮਸ਼ੀਨਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨਾ, ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ ਦਾ ਇੱਕ ਨਾਜ਼ੁਕ ਪਹਿਲੂ, ਇੱਕ ਬਹੁਤ ਸਮਾਂ ਬਰਬਾਦ ਕਰਨ ਵਾਲਾ ਕੰਮ ਹੋ ਸਕਦਾ ਹੈ ਜਿਸ ਵਿੱਚ ਇੱਕ ਹਫ਼ਤੇ ਤੱਕ ਦਾ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ, ਕਾਫ਼ੀ ਸਿਸਟਮ ਦਿੱਤੇ ਗਏ ਹਨ। ਹਾਲਾਂਕਿ, Chocolatey, PSWindowsUpdates, ਅਤੇ ਸਟਾਰਟਅਪ ਸਕ੍ਰਿਪਟਾਂ ਦੀ ਕੁਝ ਸਹਾਇਤਾ ਨਾਲ, ਹੁਣ ਹਰੇਕ ਮਸ਼ੀਨ ਦੇ ਇੱਕ ਸਿੰਗਲ ਰੀਬੂਟ ਦੇ ਨਾਲ ਅਪਡੇਟਸ ਨੂੰ ਰੋਲ ਆਊਟ ਕਰਨਾ ਸੰਭਵ ਹੈ, ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਲੋੜੀਂਦੇ ਸਮੇਂ ਦੀ ਮਾਤਰਾ ਨੂੰ ਮਹੱਤਵਪੂਰਣ ਰੂਪ ਵਿੱਚ ਘਟਾਉਂਦਾ ਹੈ।&lt;/p></description></item><item><title>ਵਿੰਡੋਜ਼ ਨੂੰ ਸੱਟੇਬਾਜ਼ੀ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਸਾਈਡ-ਚੈਨਲ ਹਮਲਿਆਂ ਤੋਂ ਬਚਾਓ</title><link>https://pa.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਸਪੈਕਟਰ ਮੈਲਡਾਊਨ ਮਿਟੀਗੇਸ਼ਨ ਸਕ੍ਰਿਪਟ"
+, "ਸੱਟੇਬਾਜ਼ੀ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਸਾਈਡ-ਚੈਨਲ ਹਮਲੇ"
+, "ਮਾਈਕ੍ਰੋਸਾਫਟ"
+, "Intel"
+, "AMD"</category><guid>https://pa.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਈਕਰੋਸਾਫਟ ਦੀ ਮਿਟੀਗੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਅਤੇ ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ ਨਾਲ ਆਪਣੇ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਨੂੰ ਸੱਟੇਬਾਜ਼ੀ ਦੇ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਸਾਈਡ-ਚੈਨਲ ਹਮਲਿਆਂ ਤੋਂ ਕਿਵੇਂ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਹੈ ਸਿੱਖੋ</description></item><item><title/><link>https://pa.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": [
+{
+"@type": "WebApplication",
+"name": "KeePassXC",
+"url": "https://keepassxc.org/"
+},
+{
+"@type": "WebApplication",
+"name": "Bitwarden",
+"url": "https://bitwarden.com/"
+},
+{
+"@type": "WebApplication",
+"name": "Dashlane",
+"url": "https://www.dashlane.com/"
+},
+{
+"@type": "WebApplication",
+"name": "LastPass",
+"url": "https://www.lastpass.com/"
+},
+{
+"@type": "WebApplication",
+"name": "1Password",
+"url": "https://1password.com/"
+}
+],
+"reviewRating": [
+{
+"@type": "Rating",
+"ratingValue": "5",
+"bestRating": "5",
+"worstRating": "1",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"reviewAspect": "Recommended",
+"reviewBody": "I highly recommend using KeePassXC and Bitwarden for their excellent security, customizable features, and offline functionality."
+},
+{
+"@type": "Rating",
+"ratingValue": "4",
+"bestRating": "5",
+"worstRating": "1",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"reviewAspect": "Recommended",
+"reviewBody": "Dashlane is a solid mid-tier option with its user-friendly interface and sync capabilities."
+},
+{
+"@type": "Rating",
+"ratingValue": "2",
+"bestRating": "5",
+"worstRating": "1",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"reviewAspect": "Not Recommended",
+"reviewBody": "LastPass and 1Password are lower-ranked choices due to certain limitations and pricing structures."
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "ItemList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Router",
+"link": "https://amzn.to/43HmkCQ"
+}
+},
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Machine Pro (UDM-Pro)",
+"link": "https://amzn.to/3WR0w5A"
+}
+},
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Machine (UDM)",
+"link": "https://amzn.to/43KtI09"
+}
+},
+{
+"@type": "ListItem",
+"position": 4,
+"item": {
+"@type": "Product",
+"name": "UniFi Dream Machine SE (UDM-SE)",
+"link": "https://amzn.to/43rao8r"
+}
+},
+{
+"@type": "ListItem",
+"position": 5,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 Lite Wi-Fi 6 Dual Band Wireless Access Point (U6-LITE)",
+"link": "https://amzn.to/3oJ8T6H"
+}
+},
+{
+"@type": "ListItem",
+"position": 6,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 Long-Range Wi-Fi 6 Access Point (U6-LR)",
+"link": "https://amzn.to/42lVAa1"
+}
+},
+{
+"@type": "ListItem",
+"position": 7,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 In-Wall Wi-Fi 6 Access Point (U6-IW)",
+"link": "https://amzn.to/3J1FzyZ"
+}
+},
+{
+"@type": "ListItem",
+"position": 8,
+"item": {
+"@type": "Product",
+"name": "UniFi 6 Mesh Wi-Fi 6 System (U6-Mesh)",
+"link": "https://amzn.to/3oJ8T6H"
+}
+},
+{
+"@type": "ListItem",
+"position": 9,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 24 PoE (USW-24-Poe)",
+"link": "https://amzn.to/3oSwL7R"
+}
+},
+{
+"@type": "ListItem",
+"position": 10,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 24 (USW-24)",
+"link": "https://amzn.to/43pYZ93"
+}
+},
+{
+"@type": "ListItem",
+"position": 11,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 48 PoE (USW-48-Poe)",
+"link": "https://amzn.to/3Chf198"
+}
+},
+{
+"@type": "ListItem",
+"position": 12,
+"item": {
+"@type": "Product",
+"name": "UniFi Switch Pro 48 (USW-48)",
+"link": "https://amzn.to/3z3Oh85"
+}
+},
+{
+"@type": "ListItem",
+"position": 13,
+"item": {
+"@type": "Product",
+"name": "UniFi Protect Network Video Recorder (UNVR)",
+"link": "https://amzn.to/3qym8Y8"
+}
+},
+{
+"@type": "ListItem",
+"position": 14,
+"item": {
+"@type": "Product",
+"name": "UniFi Protect G4 Pro Camera (UVC-G4-PRO)",
+"link": "https://amzn.to/43qe6zg"
+}
+},
+{
+"@type": "ListItem",
+"position": 15,
+"item": {
+"@type": "Product",
+"name": "Cable Matters 10Gbps UL Listed in-Wall (cm) Bare Copper Shielded Cat 6A Cable",
+"link": "https://amzn.to/3ChqNQQ"
+}
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/authors/simeononsecurity/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/authors/simeononsecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>��-�-�-�
+�
+�a�u�t�h�o�r�:� �&amp;quot;�S�i�m�e�o�n�O�n�S�e�c�u�r�i�t�y�&amp;quot;�
+�
+�t�i�t�l�e�:� �&amp;quot;�S�i�m�e�o�n�O�n�S�e�c�u�r�i�t�y�&amp;quot;�
+�
+�d�e�s�c�r�i�p�t�i�o�n�:� �&amp;quot;�8
+?
+.
+@
+
+(
+�
+q
+
+�8
+?
+,
+0
+�8
+A
+0
+q
+
+?
+
+�
+$
+G
+�(
+?
+q
+
+@
+$&lt;/p>
+&lt;blockquote>
+&lt;/blockquote>
+&lt;p>�5
+?
+q
+
+�0
+A
+
+@
+�0
+q
+&lt;/p>
+&lt;h1 id="heading">
+&lt;a href="#heading" title="">&lt;/a>
+&lt;a href="#heading" class="h-anchor" aria-hidden="true" title="">#&lt;/a>
+&lt;/h1>
+&lt;p>�5&lt;/p>
+&lt;blockquote>
+&lt;/blockquote>
+&lt;p>2&lt;/p>
+&lt;blockquote>
+&lt;/blockquote>
+&lt;p>�
+q
+
+�
+q
+
+-�*
+M
+0&lt;/p>
+&lt;blockquote>
+&lt;/blockquote>
+&lt;p>8
+p
+
+?
+
+�8
+?
+8
+
+.
+�
+!
+.
+?
+(
+?
+8
+
+0
+G
+
+0
+�9
+H
+d �&amp;amp;
+?
+(
+�-
+0
+�5
+?
+q
+
+,� �
+9
+�
+*&lt;/p></description></item><item><title/><link>https://pa.simeononsecurity.com/cyber-security-career-playbook-start/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/cyber-security-career-playbook-start/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Course",
+"name": "Cyber Security Career Playbook - Launching a Successful Cyber Security Career",
+"description": "Discover valuable insights, practical tips, and resources to embark on a successful cybersecurity career and make an impact in the ever-changing digital landscape.",
+"provider": {
+"@type": "Organization",
+"name": "SimeonOnSecurity"
+},
+"instructor": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+},
+"duration": "PT400M",
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.5",
+"bestRating": "5",
+"ratingCount": "100"
+},
+"url": "https://simeononsecurity.com/cyber-security-career-playbook-start",
+"author": {
+"@type": "Person",
+"name": "SimeonOnSecurity"
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "Explain Cybersecurity Like I'm 5 (ELI5)",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Simplified explanations of cybersecurity concepts for beginners.",
+"url": "https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/"
+}
+},
+{
+"@type": "Question",
+"name": "What is cybersecurity?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Cybersecurity is the practice of protecting computers, servers, networks, and data from digital attacks or unauthorized access.",
+"url": "https://simeononsecurity.com/articles/what-is-cybersecurity/"
+}
+},
+{
+"@type": "Question",
+"name": "What are some common cybersecurity threats?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Common cybersecurity threats include viruses, malware, phishing attacks, ransomware, and social engineering. These threats can compromise the security of systems, steal data, or cause other harmful effects.",
+"url": "https://simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/"
+}
+},
+{
+"@type": "Question",
+"name": "How can I protect myself from cybersecurity threats?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "To protect yourself from cybersecurity threats, you can follow best practices such as using strong and unique passwords, enabling two-factor authentication, keeping your software up to date, being cautious of suspicious emails or links, and using antivirus software.",
+"url": "https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/"
+}
+},
+{
+"@type": "Question",
+"name": "What is a cybersecurity career?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "A cybersecurity career involves working to protect computer systems, networks, and data from cyber threats. It includes roles such as cybersecurity analyst, penetration tester, incident responder, and security architect.",
+"url": "https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-career-path-look-like/"
+}
+},
+{
+"@type": "Question",
+"name": "How can I start a career in cybersecurity?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "To start a career in cybersecurity, you can pursue education and certifications in the field, gain practical experience through internships or entry-level positions, participate in cybersecurity competitions and challenges, and stay updated with the latest industry trends and technologies.",
+"url": "https://simeononsecurity.com/cyber-security-career-playbook-start/"
+}
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Number of Cybersecurity Jobs",
+"description": "Ranking of cities in the United States based on the number of available cybersecurity jobs in 2024.",
+"tableCaption": "Ranking of Cities by Number of Cybersecurity Jobs",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": "1",
+"name": "Washington, D.C.",
+"description": "City with the highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "1"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Washington, D.C."
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "12,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "2",
+"name": "San Francisco",
+"description": "City with the second-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "2"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "San Francisco"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "10,500"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "3",
+"name": "Austin, Texas",
+"description": "City with the third-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "3"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Austin, Texas"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "9,200"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "4",
+"name": "Boston, Massachusetts",
+"description": "City with the fourth-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "4"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Boston, Massachusetts"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "7,800"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "5",
+"name": "Seattle, Washington",
+"description": "City with the fifth-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "5"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Seattle, Washington"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "6,500"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "6",
+"name": "Huntsville, Alabama",
+"description": "City with the sixth-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "6"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Huntsville, Alabama"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "4,500"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "7",
+"name": "Raleigh, North Carolina",
+"description": "City with the seventh-highest number of cybersecurity jobs available",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "7"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Raleigh, North Carolina"
+},
+{
+"@type": "TableCell",
+"name": "Approx. Jobs Available",
+"value": "3,800"
+}
+]
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Average Salary for Cybersecurity Positions",
+"description": "Ranking of cities in the United States based on the average salary for cybersecurity positions in 2024.",
+"tableCaption": "Ranking of Cities by Average Salary for Cybersecurity Positions",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": "1",
+"name": "San Francisco",
+"description": "City with the highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "1"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "San Francisco"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$120,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "2",
+"name": "Washington, D.C.",
+"description": "City with the second-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "2"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Washington, D.C."
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$110,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "3",
+"name": "Seattle, Washington",
+"description": "City with the third-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "3"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Seattle, Washington"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$105,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "4",
+"name": "Boston, Massachusetts",
+"description": "City with the fourth-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "4"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Boston, Massachusetts"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$100,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "5",
+"name": "Austin, Texas",
+"description": "City with the fifth-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "5"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Austin, Texas"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$95,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "6",
+"name": "Huntsville, Alabama",
+"description": "City with the sixth-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "6"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Huntsville, Alabama"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$90,000"
+}
+]
+},
+{
+"@type": "TableRow",
+"position": "7",
+"name": "Raleigh, North Carolina",
+"description": "City with the seventh-highest average salary for cybersecurity positions",
+"cell": [
+{
+"@type": "TableCell",
+"name": "Rank",
+"value": "7"
+},
+{
+"@type": "TableCell",
+"name": "City",
+"value": "Raleigh, North Carolina"
+},
+{
+"@type": "TableCell",
+"name": "Average Salary",
+"value": "$85,000"
+}
+]
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Table",
+"name": "Ranking of Cities by Cost of Living Index (Best to Worst)",
+"description": "A table listing the ranking of cities based on their cost of living index.",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Huntsville, Alabama",
+"costOfLivingIndex": 88
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Raleigh, North Carolina",
+"costOfLivingIndex": 92
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Austin, Texas",
+"costOfLivingIndex": 130
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Seattle, Washington",
+"costOfLivingIndex": 172
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Boston, Massachusetts",
+"costOfLivingIndex": 170
+},
+{
+"@type": "TableRow",
+"position": 6,
+"name": "Washington, D.C.",
+"costOfLivingIndex": 158
+},
+{
+"@type": "TableRow",
+"position": 7,
+"name": "San Francisco",
+"costOfLivingIndex": 280
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Table",
+"name": "Ranking of Cities by Crime Rate Index (Best to Worst)",
+"description": "A table listing the ranking of cities based on their crime rate index.",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Huntsville, Alabama",
+"crimeRateIndex": 88
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Raleigh, North Carolina",
+"crimeRateIndex": 92
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Austin, Texas",
+"crimeRateIndex": 95
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Seattle, Washington",
+"crimeRateIndex": 102
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Boston, Massachusetts",
+"crimeRateIndex": 106
+},
+{
+"@type": "TableRow",
+"position": 6,
+"name": "Washington, D.C.",
+"crimeRateIndex": 108
+},
+{
+"@type": "TableRow",
+"position": 7,
+"name": "San Francisco",
+"crimeRateIndex": 116
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Table",
+"name": "Ranking of Cities by Average Overall Ranking (Best to Worst)",
+"description": "A table listing the ranking of cities based on various factors such as jobs available, average salary, cost of living index, and crime rate index.",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Huntsville, Alabama",
+"approxJobsAvailable": 4500,
+"averageSalary": "$90,000",
+"costOfLivingIndex": 88,
+"crimeRateIndex": 88
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Raleigh, North Carolina",
+"approxJobsAvailable": 3800,
+"averageSalary": "$85,000",
+"costOfLivingIndex": 92,
+"crimeRateIndex": 92
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Austin, Texas",
+"approxJobsAvailable": 9200,
+"averageSalary": "$95,000",
+"costOfLivingIndex": 130,
+"crimeRateIndex": 95
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Seattle, Washington",
+"approxJobsAvailable": 6500,
+"averageSalary": "$105,000",
+"costOfLivingIndex": 172,
+"crimeRateIndex": 102
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Boston, Massachusetts",
+"approxJobsAvailable": 7800,
+"averageSalary": "$100,000",
+"costOfLivingIndex": 170,
+"crimeRateIndex": 106
+},
+{
+"@type": "TableRow",
+"position": 6,
+"name": "Washington, D.C.",
+"approxJobsAvailable": 12000,
+"averageSalary": "$110,000",
+"costOfLivingIndex": 158,
+"crimeRateIndex": 108
+},
+{
+"@type": "TableRow",
+"position": 7,
+"name": "San Francisco",
+"approxJobsAvailable": 10500,
+"averageSalary": "$120,000",
+"costOfLivingIndex": 280,
+"crimeRateIndex": 116
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Software Developer",
+"description": "A professional involved in the development of software applications.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 50000,
+"maxValue": 120000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cybersecurity Professional",
+"description": "A professional specializing in cybersecurity.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"value": 120000,
+"unitText": "year"
+}
+}
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-worldwide/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Number of Cybersecurity Jobs",
+"description": "Ranking of cities based on the number of available cybersecurity jobs.",
+"tableCaption": "Ranking of Cities by Number of Cybersecurity Jobs",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "London, UK",
+"jobsAvailable": "10,000+"
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Singapore",
+"jobsAvailable": "8,000+"
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Tel Aviv, Israel",
+"jobsAvailable": "6,500+"
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Berlin, Germany",
+"jobsAvailable": "5,000+"
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Sydney, Australia",
+"jobsAvailable": "4,500+"
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Average Salaries for Cybersecurity Professionals",
+"description": "Ranking of cities based on the average salaries for cybersecurity professionals.",
+"tableCaption": "Average Salaries for Cybersecurity Professionals",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "London, UK",
+"averageSalary": "$100,000+"
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Singapore",
+"averageSalary": "$90,000+"
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Tel Aviv, Israel",
+"averageSalary": "$85,000+"
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Berlin, Germany",
+"averageSalary": "$80,000+"
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Sydney, Australia",
+"averageSalary": "$75,000+"
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Cost of Living Index",
+"description": "Ranking of cities based on the cost of living index.",
+"tableCaption": "Ranking of Cities by Cost of Living Index",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Berlin, Germany",
+"costOfLivingIndex": 70.2
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Sydney, Australia",
+"costOfLivingIndex": 75.7
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "London, UK",
+"costOfLivingIndex": 80.4
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Tel Aviv, Israel",
+"costOfLivingIndex": 85.5
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Singapore",
+"costOfLivingIndex": 90.2
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Crime Rate Index",
+"description": "Ranking of cities based on the crime rate index.",
+"tableCaption": "Ranking of Cities by Crime Rate Index",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Singapore",
+"crimeRateIndex": 18.2
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Tel Aviv, Israel",
+"crimeRateIndex": 25.6
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "Berlin, Germany",
+"crimeRateIndex": 27.4
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Sydney, Australia",
+"crimeRateIndex": 30.1
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "London, UK",
+"crimeRateIndex": 35.8
+}
+]
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Table",
+"name": "Ranking of Cities by Average Overall Ranking",
+"description": "Ranking of cities based on the average overall ranking.",
+"tableCaption": "Ranking of Cities by Average Overall Ranking",
+"tableRow": [
+{
+"@type": "TableRow",
+"position": 1,
+"name": "Berlin, Germany",
+"overallRanking": 1.75
+},
+{
+"@type": "TableRow",
+"position": 2,
+"name": "Singapore",
+"overallRanking": 2.5
+},
+{
+"@type": "TableRow",
+"position": 3,
+"name": "London, UK",
+"overallRanking": 3
+},
+{
+"@type": "TableRow",
+"position": 4,
+"name": "Tel Aviv, Israel",
+"overallRanking": 3.75
+},
+{
+"@type": "TableRow",
+"position": 5,
+"name": "Sydney, Australia",
+"overallRanking": 4
+}
+]
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-analyst-salaries-entry-level-to-pro/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-analyst-salaries-entry-level-to-pro/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Entry-Level Cybersecurity Analyst",
+"description": "An entry-level cybersecurity analyst responsible for assisting more experienced analysts in monitoring network security, analyzing threats, and implementing basic security measures.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 50000,
+"maxValue": 70000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Mid-Level Cybersecurity Analyst",
+"description": "A mid-level cybersecurity analyst responsible for conducting security assessments, implementing security controls, and responding to security incidents under minimal supervision.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 70000,
+"maxValue": 100000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Senior-Level Cybersecurity Analyst",
+"description": "A senior-level cybersecurity analyst responsible for overseeing security operations, developing security strategies, and collaborating with other teams to ensure comprehensive protection against cyber threats.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 100000,
+"unitText": "year"
+}
+}
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/exploring-different-cybersecurity-specalizations/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Network Security Specialist",
+"description": "A network security specialist responsible for protecting computer networks from unauthorized access and securing data transmission within them.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 60000,
+"maxValue": 90000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cloud Security Specialist",
+"description": "A cloud security specialist responsible for safeguarding data stored and processed in cloud environments and ensuring the privacy and security of cloud-based systems.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 70000,
+"maxValue": 110000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Application Security Specialist",
+"description": "An application security specialist responsible for securing software applications throughout their lifecycle, identifying and mitigating vulnerabilities in software code.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 65000,
+"maxValue": 95000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Data Privacy and Compliance Specialist",
+"description": "A data privacy and compliance specialist responsible for ensuring organizations comply with relevant regulations and protect sensitive data from unauthorized access.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 60000,
+"maxValue": 90000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Incident Response and Digital Forensics Specialist",
+"description": "An incident response and digital forensics specialist responsible for mitigating the impact of cybersecurity incidents, investigating the root cause, and assisting in legal proceedings.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 70000,
+"maxValue": 100000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cybersecurity Education and Training Specialist",
+"description": "A cybersecurity education and training specialist responsible for educating individuals and organizations about cybersecurity best practices and policies.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 55000,
+"maxValue": 80000,
+"unitText": "year"
+}
+}
+}
+&lt;/script>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Occupation",
+"name": "Cybersecurity Consultant",
+"description": "A cybersecurity consultant responsible for providing expert advice and guidance to organizations on improving their cybersecurity posture and ensuring compliance with relevant regulations.",
+"estimatedSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": 80000,
+"maxValue": 120000,
+"unitText": "year"
+}
+}
+}
+&lt;/script></description></item><item><title/><link>https://pa.simeononsecurity.com/jobs/pageschema/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/jobs/pageschema/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "ItemList",
+"name": "Job Postings",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@type": "JobPosting",
+"title": "Video Creator and Editor (Unpaid Intern Position)",
+"description": "We are looking for a creative and talented Video Creator and Editor to join our team...",
+"occupationalCategory": ["Art, Design, Entertainment, Sports and Media"],
+"applicantLocationRequirements": {
+"@type": "Country",
+"name": "USA"
+},
+"jobLocationType": "TELECOMMUTE",
+"responsibilities": [
+"Produce high-quality and captivating videos for YouTube and YouTube shorts",
+"Edit videos to match the tone and style of our brand",
+"Collaborate with the content team to brainstorm and execute video ideas",
+"Optimize videos for different platforms and formats (horizontal and vertical video editing)",
+"Stay updated with industry trends and best practices in video creation and editing"
+],
+"qualifications": [
+"Proficiency in video editing software (e.g., Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve)",
+"Creativity and a keen eye for visual storytelling",
+"Familiarity with YouTube content creation best practices",
+"Ability to meet deadlines and work independently",
+"Strong communication and teamwork skills"
+],
+"employmentType": "Internship",
+"jobBenefits": "Software subscriptions, image licensing, opportunity to earn up to 75% of video's ad revenue and up to 25% of affiliate/sponsorship revenue",
+"hiringOrganization": {
+"@type": "Organization",
+"name": "SimeonOnSecurity",
+"url": "https://simeononsecurity.com",
+"logo": "https://simeononsecurity.com/img/banner.png"
+},
+"datePosted": "2023-08-01",
+"validThrough": "2024-09-01",
+"url": "https://simeononsecurity.com/jobs#video-creator-editor",
+"directApply": "true"
+}
+},
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@type": "JobPosting",
+"title": "Social Media Manager (Unpaid Intern Position)",
+"description": "We are seeking a motivated and enthusiastic Social Media Manager to join our team...",
+"occupationalCategory": ["Marketing"],
+"applicantLocationRequirements": {
+"@type": "Country",
+"name": "USA"
+},
+"jobLocationType": "TELECOMMUTE",
+"responsibilities": [
+"Create and curate engaging content for our social media channels",
+"Develop and implement social media strategies to increase brand awareness and reach",
+"Monitor and respond to comments, messages, and mentions",
+"Analyze social media metrics and adjust strategies accordingly",
+"Collaborate with the content team to align social media efforts with overall marketing goals"
+],
+"qualifications": [
+"Proven experience in managing social media accounts (personal or professional)",
+"Familiarity with social media platforms and their respective best practices",
+"Strong written and verbal communication skills",
+"Ability to think creatively and generate engaging content ideas",
+"Passion for social media and staying up-to-date with industry trends"
+],
+"employmentType": "Internship",
+"jobBenefits": "Opportunity to gain practical experience in social media management",
+"hiringOrganization": {
+"@type": "Organization",
+"name": "SimeonOnSecurity",
+"url": "https://simeononsecurity.com",
+"logo": "https://simeononsecurity.com/img/banner.png"
+},
+"datePosted": "2023-08-01",
+"validThrough": "2024-09-01",
+"url": "https://simeononsecurity.com/jobs#social-media-manager",
+"directApply": "true"
+}
+}
+]
+}
+&lt;/script></description></item><item><title>About</title><link>https://pa.simeononsecurity.com/about/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/about/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;h3>What is SimeonOnSecurity?&lt;/h3>
+&lt;p>
+SimeonOnSecurity (SOS) is a leading source of information in the realm of
+security, automation, best practices, crypto, and more. Our goal is to provide
+unique and insightful technical content to our readers that goes beyond the surface level
+information typically found online. This blog serves as a showcase of our
+expertise and passion for the industry, offering a comprehensive view of the
+inner workings of this dynamic field.
+&lt;/p></description></item><item><title>Admin Page</title><link>https://pa.simeononsecurity.com/admin/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://pa.simeononsecurity.com/admin/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;img src="https://canarytokens.com/terms/5lffhbrwnqn2ktpv2fkrcagbj/1x1.png" />
+&lt;a>You're not supposed to know about this page&lt;/a>
+&lt;a>Really? You tried to hack a static website? XD&lt;/a></description></item><item><title>Contact Details for SimeonOnSecurity: Connect Safely for Business Inquiries and Security Concerns</title><link>https://pa.simeononsecurity.com/contactus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Contact Details"
+, "Secure Communication"
+, "Business Inquiries"
+, "Security Concerns"
+, "Social Media"</category><guid>https://pa.simeononsecurity.com/contactus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ensure secure communication with SimeonOnSecurity by using our contact form for business inquiries or security concerns, while staying connected through various social media platforms.</description></item><item><title>HackTheBox - Invite Challenge (Windows/Linux)</title><link>https://pa.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "ਚੁਣੌਤੀ ਨੂੰ ਸੱਦਾ ਦਿਓ"
+, "ਪ੍ਰਵੇਸ਼ ਟੈਸਟਿੰਗ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਵਿੰਡੋਜ਼"</category><guid>https://pa.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿੱਖੋ ਕਿ ਕਿਵੇਂ ਇੱਕ ਸੱਦਾ ਕੋਡ ਤਿਆਰ ਕਰਨਾ ਹੈ ਅਤੇ ਵਿੰਡੋਜ਼ ਅਤੇ ਲੀਨਕਸ ਦੋਵਾਂ 'ਤੇ ਪ੍ਰਵੇਸ਼ ਟੈਸਟਿੰਗ ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਆਪਣੇ ਹੁਨਰਾਂ ਨੂੰ ਪਰਖਣ ਅਤੇ ਅੱਗੇ ਵਧਾਉਣ ਲਈ HackTheBox ਔਨਲਾਈਨ ਪਲੇਟਫਾਰਮ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png"/></item><item><title>HackTheBox - ਚੁਣੌਤੀ - ਕ੍ਰਿਪਟੋ - ਕਮਜ਼ੋਰ RSA</title><link>https://pa.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "ਚੁਣੌਤੀਆਂ"
+, "ਕ੍ਰਿਪਟੋ"
+, "ਕਮਜ਼ੋਰ RSA"
+, "RsaCtfTool"</category><guid>https://pa.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+HackTheBox ਕਮਜ਼ੋਰ RSA ਕ੍ਰਿਪਟੋ ਚੁਣੌਤੀ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਹੱਲ ਕਰਨ ਲਈ ਇੱਕ ਸਵੈਚਲਿਤ RSA ਅਟੈਕ ਟੂਲ, RsaCtfTool ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਬਾਰੇ ਜਾਣੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item><item><title>SimeonOnSecurity ਦਾ CTF ਦਰਜਾਬੰਦੀ ਲੌਗ</title><link>https://pa.simeononsecurity.com/ctfranks/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"CTF ਦਰਜਾਬੰਦੀ"
+, "ਝੰਡਾ ਕੈਪਚਰ ਕਰੋ"
+, "ਮੁਕਾਬਲਾ"
+, "ਚੁਣੌਤੀਆਂ"
+, "ਲੌਕਹੀਡ ਮਾਰਟਿਨ ਸਾਈਬਰ ਗ੍ਰੈਂਡ ਚੈਲੇਂਜ"</category><guid>https://pa.simeononsecurity.com/ctfranks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity ਦੇ CTF ਰੈਂਕਿੰਗ ਲੌਗ ਦੇ ਨਾਲ CTFs ਦੀ ਦੁਨੀਆ ਵਿੱਚ ਨਵੀਨਤਮ ਦਰਜਾਬੰਦੀ ਅਤੇ ਚੁਣੌਤੀਆਂ ਦੇ ਨਾਲ ਅੱਪ-ਟੂ-ਡੇਟ ਰਹੋ</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png" length="236561" type="image/png"/></item><item><title>ਸਿਫ਼ਾਰਸ਼ੀ ਸੁਰੱਖਿਆ ਸਮੱਗਰੀ ਨਿਰਮਾਤਾ</title><link>https://pa.simeononsecurity.com/recommendations/creators/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"ਸਿਫ਼ਾਰਿਸ਼ਾਂ"
+, "ਸੁਰੱਖਿਆ ਸਮੱਗਰੀ ਨਿਰਮਾਤਾ"
+, "SimeonOnSecurity"
+, "ippSec"
+, "ਜੌਹਨ ਹੈਮੰਡ"</category><guid>https://pa.simeononsecurity.com/recommendations/creators/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity ਦੁਆਰਾ ਚੁਣੇ ਗਏ ਉੱਚ ਪੱਧਰੀ ਸੁਰੱਖਿਆ ਸਮੱਗਰੀ ਨਿਰਮਾਤਾਵਾਂ ਦੀ ਖੋਜ ਕਰੋ। ippSec ਤੋਂ John Hammond, LiveOverflow, NahamSec, Rob Fuller, ਅਤੇ TheBlindHacker ਤੱਕ, ਇਹ ਮਾਹਰ ਤੁਹਾਡੇ ਲਈ YouTube, Twitch, Twitter, GitHub, ਅਤੇ ਵੈੱਬਸਾਈਟਾਂ ਸਮੇਤ ਆਪਣੇ ਵੱਖ-ਵੱਖ ਪਲੇਟਫਾਰਮਾਂ ਰਾਹੀਂ ਖੇਤਰ ਵਿੱਚ ਨਵੀਨਤਮ ਲੈ ਕੇ ਆਉਂਦੇ ਹਨ। ਅੱਪ-ਟੂ-ਡੇਟ ਰਹੋ ਅਤੇ ਉਦਯੋਗ ਵਿੱਚ ਸਭ ਤੋਂ ਵਧੀਆ ਨਾਲ ਆਪਣੇ ਗਿਆਨ ਨੂੰ ਡੂੰਘਾ ਕਰੋ।</description></item><item><title>ਸਿਫਾਰਸ਼ੀ ਕਿਤਾਬਾਂ</title><link>https://pa.simeononsecurity.com/recommendations/books/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"ਕਿਤਾਬਾਂ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਲਈ ਵਧੀਆ ਕਿਤਾਬਾਂ"
+, "ਆਟੋਮੇਸ਼ਨ ਲਈ ਵਧੀਆ ਕਿਤਾਬਾਂ"
+, "ਆਟੋਮੇਸ਼ਨ ਬੁੱਕ"</category><guid>https://pa.simeononsecurity.com/recommendations/books/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਇਹ SimeonOnSecurity ਤੋਂ ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤੀਆਂ ਕਿਤਾਬਾਂ ਦਾ ਸੰਗ੍ਰਹਿ ਹੈ। ਕਿਤਾਬਾਂ ਕੋਡਿੰਗ ਅਤੇ ਸਕ੍ਰਿਪਟਿੰਗ ਆਟੋਮੇਸ਼ਨ, ਸਾਈਬਰ ਸੁਰੱਖਿਆ, ਨੈੱਟਵਰਕਿੰਗ, ਓਪਨ-ਸੋਰਸ ਇੰਟੈਲੀਜੈਂਸ, ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਅਤੇ ਸੌਫਟਵੇਅਰ, ਗੋਪਨੀਯਤਾ ਅਤੇ ਹੋਰ ਸਬੰਧਤ ਵਿਸ਼ਿਆਂ ਸਮੇਤ ਵੱਖ-ਵੱਖ ਵਿਸ਼ਿਆਂ ਨੂੰ ਕਵਰ ਕਰਦੀਆਂ ਹਨ। Amazon Kindle Unlimited ਦੇ ਦੋ-ਮਹੀਨੇ ਦੇ ਅਜ਼ਮਾਇਸ਼ ਦੇ ਨਾਲ, ਤੁਸੀਂ ਇਹਨਾਂ ਵਿੱਚੋਂ ਜ਼ਿਆਦਾਤਰ ਕਿਤਾਬਾਂ ਨੂੰ ਮੁਫਤ ਵਿੱਚ ਪੜ੍ਹ ਸਕਦੇ ਹੋ। ਇਹ ਸੰਗ੍ਰਹਿ ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਅਤੇ ਮਾਹਰਾਂ ਦੋਵਾਂ ਲਈ ਪਾਇਥਨ ਕਰੈਸ਼ ਕੋਰਸ ਅਤੇ ਦ ਆਰਟ ਆਫ਼ ਡਿਸੈਪਸ਼ਨ ਵਰਗੇ ਸਿਰਲੇਖਾਂ ਦੇ ਨਾਲ ਕਿਤਾਬਾਂ ਦੀ ਇੱਕ ਸੀਮਾ ਪੇਸ਼ ਕਰਦਾ ਹੈ। ਭਾਵੇਂ ਤੁਸੀਂ ਆਪਣੇ ਕੋਡਿੰਗ ਹੁਨਰ ਨੂੰ ਸੁਧਾਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੀ ਬਿਹਤਰ ਸਮਝ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਇਸ ਸੰਗ੍ਰਹਿ ਵਿੱਚ ਹਰ ਕਿਸੇ ਲਈ ਕੁਝ ਨਾ ਕੁਝ ਹੈ।</description></item><item><title>ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤੇ ਬਰਾਊਜ਼ਰ ਪਲੱਗਇਨ</title><link>https://pa.simeononsecurity.com/recommendations/browser_plugins/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"U-ਬਲਾਕ ਮੂਲ"
+, "ਹਰ ਥਾਂ HTTPS"
+, "ਡੀਸੈਂਟਰੇਲੀਜ਼"
+, "ClearURLs"
+, "ਕੈਨਵਸ ਬਲੌਕਰ"</category><guid>https://pa.simeononsecurity.com/recommendations/browser_plugins/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੇ ਬ੍ਰਾਊਜ਼ਿੰਗ ਅਨੁਭਵ ਨੂੰ ਵਧਾਉਣ ਲਈ SimeonOnSecurity ਦੇ ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤੇ ਬ੍ਰਾਊਜ਼ਰ ਪਲੱਗਇਨਾਂ ਦੀ ਖੋਜ ਕਰੋ। ਫਾਇਰਫਾਕਸ ਰੋਜ਼ਾਨਾ-ਡਰਾਈਵਰ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਗਈ ਹੈ, ਪਰ ਬਿਹਤਰ ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਲਈ, ਤੁਸੀਂ TOR ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਵਰਤੋਂ ਕਰਨ 'ਤੇ ਵੀ ਵਿਚਾਰ ਕਰ ਸਕਦੇ ਹੋ। ਸਿਫ਼ਾਰਸ਼ ਕੀਤੇ ਪਲੱਗਇਨਾਂ ਵਿੱਚ ਐਡ ਬਲਾਕਿੰਗ ਲਈ U-Block Origin, ਸੁਰੱਖਿਅਤ ਬ੍ਰਾਊਜ਼ਿੰਗ ਲਈ HTTPS Everywhere, ਸਥਾਨਕ CDN ਇਮੂਲੇਸ਼ਨ ਲਈ Decentraleyes, ਟੈਗ ਹਟਾਉਣ ਲਈ ClearURLs, JavaScript ਫਿੰਗਰਪ੍ਰਿੰਟ ਰੋਕਥਾਮ ਲਈ CanvasBlocker, ਅਲੱਗ-ਥਲੱਗ ਬ੍ਰਾਊਜ਼ਿੰਗ ਸੈਸ਼ਨਾਂ ਲਈ ਮਲਟੀ ਅਕਾਊਂਟ ਕੰਟੇਨਰ, ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ, Did's ਸ਼ਾਮਲ ਹਨ। t ਸੂਚਿਤ ToS, ਸੁਰੱਖਿਅਤ ਪਾਸਵਰਡ ਪ੍ਰਬੰਧਨ ਲਈ ਬਿਟਵਾਰਡਨ, ਅਤੇ ਟਰੈਕਰਾਂ ਨੂੰ ਬਲਾਕ ਕਰਨ ਲਈ ਗੋਪਨੀਯਤਾ ਬੈਜਰ ਪੜ੍ਹੋ। ਇਹਨਾਂ ਸਿਖਰ-ਦਰਜਾ ਵਾਲੇ ਬ੍ਰਾਊਜ਼ਰ ਪਲੱਗਇਨਾਂ ਨਾਲ ਆਪਣੀ ਔਨਲਾਈਨ ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਓ।</description></item><item><title>ਸੁਰੱਖਿਆ ਅਤੇ ਗੋਪਨੀਯਤਾ ਉਤਪਾਦਾਂ ਅਤੇ ਸਰੋਤਾਂ ਲਈ SimeonOnSecurity ਦੇ ਮਾਹਰ ਸਿਫ਼ਾਰਿਸ਼ਾਂ</title><link>https://pa.simeononsecurity.com/recommendhome/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"ਸੁਰੱਖਿਆ ਸਿਫਾਰਸ਼ਾਂ"
+, "ਗੋਪਨੀਯਤਾ ਉਤਪਾਦ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਸਾਧਨ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਇੰਟਰਨੈੱਟ ਗੋਪਨੀਯਤਾ"</category><guid>https://pa.simeononsecurity.com/recommendhome/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਭਰੋਸੇਮੰਦ ਅਤੇ ਉੱਚ ਦਰਜਾ ਪ੍ਰਾਪਤ ਸੁਰੱਖਿਆ ਅਤੇ ਗੋਪਨੀਯਤਾ-ਸੰਬੰਧੀ ਉਤਪਾਦਾਂ ਅਤੇ ਸਰੋਤਾਂ ਲਈ SimeonOnSecurity ਦੀਆਂ ਮਾਹਰ ਸਿਫ਼ਾਰਸ਼ਾਂ ਦੀ ਪੜਚੋਲ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png" length="288609" type="image/png"/></item><item><title>ਗੋਪਨੀਯਤਾ ਅਤੇ ਅਗਿਆਤਤਾ ਲਈ ਸਰਵੋਤਮ ਸੈਲ ਫ਼ੋਨ ਪ੍ਰਦਾਤਾ: ਮਿੰਟ ਮੋਬਾਈਲ ਅਤੇ ਦ੍ਰਿਸ਼ਮਾਨ</title><link>https://pa.simeononsecurity.com/recommendations/cell-phone-service-providers/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"ਸੈੱਲ ਫੋਨ ਪ੍ਰਦਾਤਾ"
+, "ਗੋਪਨੀਯਤਾ"
+, "ਗੁਮਨਾਮਤਾ"
+, "ਪੁਦੀਨੇ ਮੋਬਾਈਲ"
+, "ਦਿਸਦਾ ਹੈ"</category><guid>https://pa.simeononsecurity.com/recommendations/cell-phone-service-providers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਗੋਪਨੀਯਤਾ ਅਤੇ ਅਗਿਆਤਤਾ ਨੂੰ ਤਰਜੀਹ ਦੇਣ ਵਾਲੇ ਚੋਟੀ ਦੇ ਸੈਲ ਫ਼ੋਨ ਪ੍ਰਦਾਤਾਵਾਂ ਦੀ ਖੋਜ ਕਰੋ ਅਤੇ ਜਾਣੋ ਕਿ Mint Mobile ਅਤੇ Visible ਵਧੀਆ ਵਿਕਲਪ ਕਿਉਂ ਹਨ</description></item></channel></rss>
