@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Script Windows on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/script-windows//img/banner.png</url><title>Script Windows on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/script-windows/</link></image><link>https://fr.simeononsecurity.com/tags/script-windows/</link><description>Recent content in Script Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/script-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatisez la conformité de Windows Defender avec PowerShell Script</title><link>https://fr.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Script PowerShell"
+, "Automatisation"
+, "Conformité"
+, "L'équipe bleue"
+, "Script STIG Windows Defender"
+, "Windows Defender"
+, "Renforcement de Windows Defender"
+, "Windows Defender STIG"
+, "Défenseur STIG"
+, "Sécurité"
+, "La cyber-sécurité"
+, "STIG"
+, "Sécurité Windows"
+, "Antivirus Windows"
+, "Script Windows"
+, "Automatisation Windows"
+, "Durcissement de Windows"
+, "Automatisation de Windows Defender"
+, "Conformité Windows Defender"</category><guid>https://fr.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Améliorez votre sécurité avec le script Windows Defender STIG PowerShell, qui automatise la conformité aux directives Windows Defender Antivirus V1R9 STIG.</description></item></channel></rss>

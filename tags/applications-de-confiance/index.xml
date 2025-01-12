@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Applications De Confiance on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/applications-de-confiance//img/banner.png</url><title>Applications De Confiance on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/applications-de-confiance/</link></image><link>https://fr.simeononsecurity.com/tags/applications-de-confiance/</link><description>Recent content in Applications De Confiance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/applications-de-confiance/index.xml" rel="self" type="application/rss+xml"/><item><title>Aujourd'hui, j'en ai appris plus sur la création et la mise en œuvre de la politique de la WDAC</title><link>https://fr.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Sécurité Windows"
+, "Contrôle de l'application"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protection contre les menaces"
+, "Windows Server 2019"
+, "Sécurité des entreprises"
+, "Gestion des politiques"
+, "Meilleures pratiques en matière de sécurité"</category><guid>https://fr.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aujourd'hui, j'en ai appris plus sur les conditionnelles et la gestion des variables d'Ansible</description></item></channel></rss>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Modules PowerShell on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/modules-powershell//img/banner.png</url><title>Modules PowerShell on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/modules-powershell/</link></image><link>https://fr.simeononsecurity.com/tags/modules-powershell/</link><description>Recent content in Modules PowerShell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/modules-powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell Scripting : Un guide pas à pas pour les débutants afin d'automatiser les tâches</title><link>https://fr.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Programmation"
+, "Automatisation"
+, "Fenêtres"
+, "Scripting"
+, "IT"
+, "Tâches administratives"
+, "Gestion informatique"
+, "Développement de logiciels"
+, "Codage"</category><guid>https://fr.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez les bases de l'écriture de scripts PowerShell et automatisez des tâches grâce à ce guide pas à pas pour les débutants, qui couvre les cmdlets, les boucles, les fonctions et bien plus encore.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Aujourd'hui, j'ai appris plus de modules Powershell et Ansible</title><link>https://fr.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "PowerShell"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**&lt;/p>
+&lt;p>SimeonOnSecurity a découvert Windows STIG Ansible et a mis à jour les dépôts correspondants. Il a également étudié diverses ressources Microsoft et Ansible relatives à powershell, au remoting et à l&amp;rsquo;exécution de commandes shell/powershell sur Windows à l&amp;rsquo;aide de modules tels que invoke-command, start-process, win_powershell, win_shell, psexec et win_psexec.&lt;/p>
+&lt;h2 id="newupdated-repos-">
+&lt;a href="#newupdated-repos-" title="New/Updated Repos :">New/Updated Repos :&lt;/a>
+&lt;a href="#newupdated-repos-" class="h-anchor" aria-hidden="true" title="New/Updated Repos :">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ressources-pédagogiques-">
+&lt;a href="#ressources-p%c3%a9dagogiques-" title="Ressources pédagogiques :">Ressources pédagogiques :&lt;/a>
+&lt;a href="#ressources-p%c3%a9dagogiques-" class="h-anchor" aria-hidden="true" title="Ressources pédagogiques :">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Analyses de virus efficaces avec les modules PowerShell de VirusTotal</title><link>https://fr.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"Modules PowerShell"
+, "PowerShell"
+, "Automatisation"
+, "VirusTotal"
+, "Analyse des virus"
+, "Balayage des domaines"
+, "Clé API"
+, "API de VirusTotal"
+, "Page des développeurs de VirusTotal"
+, "Administration des systèmes"
+, "Flux de travail en matière de sécurité"
+, "Analyse efficace des virus"
+, "Télécharger et installer"
+, "Dépôt GitHub"
+, "Exemples d'utilisation de l'API"</category><guid>https://fr.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Effectuez des analyses de virus efficaces avec les modules PowerShell de VirusTotal en automatisant l'interaction avec l'API de VirusTotal et en rationalisant votre flux de travail en matière de sécurité.</description></item></channel></rss>

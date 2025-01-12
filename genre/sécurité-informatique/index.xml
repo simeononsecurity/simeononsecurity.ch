@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité Informatique on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-informatique//img/banner.png</url><title>Sécurité Informatique on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-informatique/</link></image><link>https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-informatique/</link><description>Recent content in Sécurité Informatique on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/s%C3%A9curit%C3%A9-informatique/index.xml" rel="self" type="application/rss+xml"/><item><title>Meilleures pratiques de sécurité Python : Protéger votre code et vos données</title><link>https://fr.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Sécurité Python"
+, "Sécurité du code"
+, "Protection des données"
+, "Développement de logiciels"
+, "Cybersécurité"
+, "Codage sécurisé"
+, "Développement Web"
+, "Protection des données"
+, "Sécurité des applications"
+, "Sécurité informatique"</category><guid>https://fr.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez les meilleures pratiques essentielles de sécurité Python pour protéger votre code et vos données des menaces potentielles, en assurant la protection des données, l'intégrité du système et la construction de la confiance.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>10 bonnes pratiques essentielles de sécurité PowerShell pour protéger vos scripts</title><link>https://fr.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Meilleures pratiques en matière de sécurité PowerShell"
+, "Sécurité des scripts"
+, "Sécurité du mot de passe"
+, "Sécurité informatique"
+, "Cybersécurité"
+, "Administration de Windows"
+, "Automatisation"
+, "Codage sécurisé"
+, "Sécurité des réseaux"
+, "Protection des données"</category><guid>https://fr.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les 10 meilleures pratiques de sécurité PowerShell essentielles pour protéger vos scripts, vos mots de passe et vos informations sensibles. Renforcez la sécurité de votre environnement PowerShell et protégez-vous contre les accès non autorisés et les failles de sécurité potentielles.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Comprendre les chevaux de Troie d'accès à distance : Risques, prévention et protection</title><link>https://fr.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersécurité"
+, "Logiciels malveillants"
+, "Sécurité informatique"
+, "Menaces numériques"
+, "Trojans d'accès à distance"
+, "Protection des données"
+, "Vie privée"
+, "Cybercriminalité"
+, "Sécurité des réseaux"
+, "Sécurité de l'information"</category><guid>https://fr.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez les risques posés par les chevaux de Troie d'accès à distance (RAT) et apprenez des mesures de prévention et de protection efficaces pour protéger vos systèmes informatiques et vos données.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png"/></item><item><title>Aujourd'hui, j'ai appris à manipuler et analyser JSON avec PowerShell et Bash</title><link>https://fr.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Sécurité Windows"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité informatique"
+, "Gestion de la configuration"
+, "DevOps"
+, "Administration Windows"
+, "Configuration du système"</category><guid>https://fr.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Ce que SimeonOnSecurity a appris et trouvé intéressant aujourd&amp;rsquo;hui&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity a mis à jour une page de son site web et a pris connaissance de quelques ressources qu&amp;rsquo;il trouve intéressantes. La page mise à jour est le compte-rendu du Invite Challenge sur HackTheBox. Cette page fournit une analyse approfondie du processus de résolution du défi sur les systèmes Windows et Linux.&lt;/p>
+&lt;p>Outre la page mise à jour, SimeonOnSecurity a également découvert quelques ressources d&amp;rsquo;apprentissage utiles. L&amp;rsquo;une de ces ressources est un article de blog de Cameron Nokes qui se concentre sur le travail avec JSON dans bash en utilisant l&amp;rsquo;outil jq. L&amp;rsquo;outil jq est un utilitaire de ligne de commande qui facilite l&amp;rsquo;analyse, le filtrage et la manipulation des données JSON.&lt;/p></description></item></channel></rss>

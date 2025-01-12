@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Modules Ansible on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/modules-ansible//img/banner.png</url><title>Modules Ansible on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/modules-ansible/</link></image><link>https://fr.simeononsecurity.com/tags/modules-ansible/</link><description>Recent content in Modules Ansible on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/modules-ansible/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction à Ansible : Automatiser la gestion de l'infrastructure informatique</title><link>https://fr.simeononsecurity.com/articles/ansible-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Introduction à Ansible"
+, "Automatiser la gestion de l'infrastructure informatique"
+, "Les bases d'Ansible"
+, "Automatisation de l'infrastructure informatique"
+, "Gestion de la configuration"
+, "Déploiement de l'application"
+, "Provisionnement"
+, "Livraison continue"
+, "Conformité en matière de sécurité"
+, "Orchestration"
+, "YAML"
+, "Modules Ansible"
+, "Rôles"
+, "Meilleures pratiques"
+, "Contrôle des versions"
+, "Essais"
+, "Red Hat"
+, "Administrateurs de systèmes"
+, "Linux"
+, "macOS"
+, "Fenêtres"
+, "Installation d'Ansible"
+, "Inventaire Ansible"
+, "Manuels Ansible"
+, "Modules Ansible"
+, "Rôles Ansible"
+, "Meilleures pratiques Ansible"
+, "Tests Ansible"
+, "Outil d'automatisation de l'infrastructure informatique"
+, "Tutoriel Ansible"
+, "Infrastructure management automation"</category><guid>https://fr.simeononsecurity.com/articles/ansible-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez les bases d'Ansible, un outil d'automatisation open-source qui simplifie la gestion de l'infrastructure informatique grâce à un langage déclaratif.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png"/></item><item><title>Aujourd'hui, j'ai appris plus de modules Powershell et Ansible</title><link>https://fr.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "PowerShell"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**&lt;/p>
+&lt;p>SimeonOnSecurity a découvert Windows STIG Ansible et a mis à jour les dépôts correspondants. Il a également étudié diverses ressources Microsoft et Ansible relatives à powershell, au remoting et à l&amp;rsquo;exécution de commandes shell/powershell sur Windows à l&amp;rsquo;aide de modules tels que invoke-command, start-process, win_powershell, win_shell, psexec et win_psexec.&lt;/p>
+&lt;h2 id="newupdated-repos-">
+&lt;a href="#newupdated-repos-" title="New/Updated Repos :">New/Updated Repos :&lt;/a>
+&lt;a href="#newupdated-repos-" class="h-anchor" aria-hidden="true" title="New/Updated Repos :">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ressources-pédagogiques-">
+&lt;a href="#ressources-p%c3%a9dagogiques-" title="Ressources pédagogiques :">Ressources pédagogiques :&lt;/a>
+&lt;a href="#ressources-p%c3%a9dagogiques-" class="h-anchor" aria-hidden="true" title="Ressources pédagogiques :">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://fr.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "Conformité en matière de sécurité"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**&lt;/p>
+&lt;p>SimeonOnSecurity a appris et découvert aujourd&amp;rsquo;hui plusieurs choses intéressantes liées à la sécurité Windows et à l&amp;rsquo;automatisation à l&amp;rsquo;aide d&amp;rsquo;Ansible.&lt;/p>
+&lt;p>Tout d&amp;rsquo;abord, deux référentiels nouveaux et mis à jour ont été identifiés. Le dépôt Windows_STIG_Ansible fournit une solution complète pour configurer les systèmes Windows afin de répondre aux exigences du Guide de mise en œuvre technique de la sécurité (STIG), en utilisant la plateforme d&amp;rsquo;automatisation Ansible. Le référentiel windows_stigs est une collection de rôles Ansible pour configurer les systèmes Windows afin de répondre aux exigences du STIG, et il est disponible sur Ansible Galaxy, un référentiel central pour le partage du contenu Ansible.&lt;/p></description></item><item><title>Aujourd'hui, j'ai appris à manipuler et analyser JSON avec PowerShell et Bash</title><link>https://fr.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Sécurité Windows"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité informatique"
+, "Gestion de la configuration"
+, "DevOps"
+, "Administration Windows"
+, "Configuration du système"</category><guid>https://fr.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>Ce que SimeonOnSecurity a appris et trouvé intéressant aujourd&amp;rsquo;hui&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity a mis à jour une page de son site web et a pris connaissance de quelques ressources qu&amp;rsquo;il trouve intéressantes. La page mise à jour est le compte-rendu du Invite Challenge sur HackTheBox. Cette page fournit une analyse approfondie du processus de résolution du défi sur les systèmes Windows et Linux.&lt;/p>
+&lt;p>Outre la page mise à jour, SimeonOnSecurity a également découvert quelques ressources d&amp;rsquo;apprentissage utiles. L&amp;rsquo;une de ces ressources est un article de blog de Cameron Nokes qui se concentre sur le travail avec JSON dans bash en utilisant l&amp;rsquo;outil jq. L&amp;rsquo;outil jq est un utilitaire de ligne de commande qui facilite l&amp;rsquo;analyse, le filtrage et la manipulation des données JSON.&lt;/p></description></item></channel></rss>

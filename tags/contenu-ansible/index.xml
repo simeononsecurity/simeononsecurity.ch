@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contenu Ansible on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/contenu-ansible//img/banner.png</url><title>Contenu Ansible on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/contenu-ansible/</link></image><link>https://fr.simeononsecurity.com/tags/contenu-ansible/</link><description>Recent content in Contenu Ansible on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/contenu-ansible/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://fr.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "Conformité en matière de sécurité"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**&lt;/p>
+&lt;p>SimeonOnSecurity a appris et découvert aujourd&amp;rsquo;hui plusieurs choses intéressantes liées à la sécurité Windows et à l&amp;rsquo;automatisation à l&amp;rsquo;aide d&amp;rsquo;Ansible.&lt;/p>
+&lt;p>Tout d&amp;rsquo;abord, deux référentiels nouveaux et mis à jour ont été identifiés. Le dépôt Windows_STIG_Ansible fournit une solution complète pour configurer les systèmes Windows afin de répondre aux exigences du Guide de mise en œuvre technique de la sécurité (STIG), en utilisant la plateforme d&amp;rsquo;automatisation Ansible. Le référentiel windows_stigs est une collection de rôles Ansible pour configurer les systèmes Windows afin de répondre aux exigences du STIG, et il est disponible sur Ansible Galaxy, un référentiel central pour le partage du contenu Ansible.&lt;/p></description></item></channel></rss>

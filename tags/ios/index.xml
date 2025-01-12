@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IOS on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/ios//img/banner.png</url><title>IOS on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/ios/</link></image><link>https://fr.simeononsecurity.com/tags/ios/</link><description>Recent content in IOS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>Protéger Windows contre les attaques par canal latéral de l'exécution spéculative</title><link>https://fr.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Script d'atténuation des effets de Spectre et de Meltdown sur Windows"
+, "Attaques par canal latéral de l'exécution spéculative"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "Android"
+, "Chrome"
+, "iOS"
+, "macOS"
+, "Injection de la cible de la branche"
+, "Contrôle des limites Contournement"
+, "Rogue Data Cache Load"
+, "Contournement des magasins spéculatifs"
+, "Échantillonnage des données microarchitecturales"
+, "CVE"
+, "Mises à jour des microprogrammes"
+, "Dépôt GitHub"
+, "PowerShell"</category><guid>https://fr.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à protéger votre système Windows contre les attaques par canal latéral de l'exécution spéculative grâce au script d'atténuation et aux mises à jour du micrologiciel de Microsoft.</description></item></channel></rss>

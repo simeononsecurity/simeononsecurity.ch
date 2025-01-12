@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le Scénario on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/le-sc%C3%A9nario//img/banner.png</url><title>Le Scénario on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/le-sc%C3%A9nario/</link></image><link>https://fr.simeononsecurity.com/tags/le-sc%C3%A9nario/</link><description>Recent content in Le Scénario on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/le-sc%C3%A9nario/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon : Simplifier le déploiement et la configuration de Sysmon</title><link>https://fr.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automate Sysmon"
+, "Comment automatiser Sysmon"
+, "Comment automatiser la configuration de Sysmon"
+, "Comment installer Sysmon"
+, "Powershell"
+, "Le scénario"
+, "Déploiement de Sysmon"
+, "Configuration de Sysmon"
+, "Enregistrement Sysmon"
+, "Détection des menaces"
+, "Activité malveillante"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "Dépôt GitHub"
+, "BHIS"
+, "Surveillance du système"
+, "Recherche sur la sécurité"
+, "Création de processus"
+, "Connexions réseau"</category><guid>https://fr.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à déployer et à configurer Sysmon pour améliorer la sécurité de votre système grâce au script Automate-Sysmon, qui simplifie le processus pour les utilisateurs novices.</description></item></channel></rss>

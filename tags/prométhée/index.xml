@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prométhée on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/prom%C3%A9th%C3%A9e//img/banner.png</url><title>Prométhée on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/prom%C3%A9th%C3%A9e/</link></image><link>https://fr.simeononsecurity.com/tags/prom%C3%A9th%C3%A9e/</link><description>Recent content in Prométhée on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/prom%C3%A9th%C3%A9e/index.xml" rel="self" type="application/rss+xml"/><item><title>Comment sécuriser votre environnement Docker et Kubernetes ?</title><link>https://fr.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "Sécurité"
+, "Conteneurs"
+, "Sécurité des réseaux"
+, "RBAC"
+, "API Server"
+, "Vulnérabilités"
+, "Contrôle"
+, "Enregistrement"
+, "Pare-feu"
+, "TLS"
+, "Ancre"
+, "Clair"
+, "Aqua Security"
+, "Pile ELK"
+, "Splunk"
+, "Prométhée"
+, "Cybersécurité"
+, "Meilleures pratiques"</category><guid>https://fr.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez les meilleures pratiques pour sécuriser votre environnement Docker et Kubernetes, notamment en utilisant des images officielles, en limitant les autorisations et en mettant en œuvre la sécurité du réseau.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png"/></item></channel></rss>
