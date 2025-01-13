@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy Techniques on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/privacy-techniques//img/banner.png</url><title>Privacy Techniques on simeononsecurity</title><link>https://simeononsecurity.com/tags/privacy-techniques/</link></image><link>https://simeononsecurity.com/tags/privacy-techniques/</link><description>Recent content in Privacy Techniques on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/privacy-techniques/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Android Debloating and a New Privacy Technique</title><link>https://simeononsecurity.com/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"Android Security"
+, "Privacy Tools"
+, "Mobile Device Optimization"
+, "Android Debloating"
+, "Security Enhancements"
+, "Privacy Techniques"
+, "Mobile App Management"
+, "Image Anonymization"
+, "Data Privacy"
+, "Mobile Device Privacy"</category><guid>https://simeononsecurity.com/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity came across two interesting and useful security and privacy related tools: Universal Android Debloater and DeepPrivacy.&lt;/p>
+&lt;p>The Universal Android Debloater is a bash script using ADB (Android Debug Bridge) to debloat non-rooted Android devices. This tool can help to improve privacy, security and battery life of your device by removing unwanted apps and bloatware. You can find the Universal Android Debloater at
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+>https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a>
+&lt;/span>
+.&lt;/p></description></item></channel></rss>

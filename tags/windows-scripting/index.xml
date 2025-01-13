@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Scripting on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/windows-scripting//img/banner.png</url><title>Windows Scripting on simeononsecurity</title><link>https://simeononsecurity.com/tags/windows-scripting/</link></image><link>https://simeononsecurity.com/tags/windows-scripting/</link><description>Recent content in Windows Scripting on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/windows-scripting/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell Scripting: A Step-by-Step Guide for Beginners to Automate Tasks</title><link>https://simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Programming"
+, "Automation"
+, "Windows"
+, "Scripting"
+, "IT"
+, "Administrative Tasks"
+, "Computer Management"
+, "Software Development"
+, "Coding"</category><guid>https://simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the basics of PowerShell scripting and automate tasks with this step-by-step guide for beginners, covering cmdlets, loops, functions, and more.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Today I Learned about NTFS Tweaks and Optimizations</title><link>https://simeononsecurity.com/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows File System"
+, "NTFS Tweaks"
+, "NTFS Optimization"
+, "File System Performance"
+, "Windows Performance"
+, "Windows Reliability"
+, "Windows File System Management"
+, "Windows Security"
+, "Windows Scripting"
+, "Windows Repository Updates"
+, "Windows Optimization"
+, "Windows Hardening"
+, "Windows Debloating"
+, "Information Security Videos"
+, "Security Tools"
+, "Security Techniques"</category><guid>https://simeononsecurity.com/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity learned about and found interesting topics related to NTFS tweaks and various repository updates.&lt;/p>
+&lt;p>In the world of file systems, NTFS is a commonly used file system for Windows. To enhance its performance and reliability, SimeonOnSecurity found a great resource on PonderWorthy discussing NTFS tweaks using fsutil. The article offers insight into how to optimize the NTFS file system for better performance and stability.&lt;/p></description></item><item><title>Automate Windows Defender Compliance with PowerShell Script</title><link>https://simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "PowerShell Script"
+, "Automation"
+, "Compliance"
+, "Blue-Team"
+, "Windows Defender STIG Script"
+, "Windows Defender"
+, "Windows Defender Hardening"
+, "Windows Defender STIG"
+, "Defender STIG"
+, "Security"
+, "Cybersecurity"
+, "STIG"
+, "Windows Security"
+, "Windows Antivirus"
+, "Windows Scripting"
+, "Windows Automation"
+, "Windows Hardening"
+, "Windows Defender Automation"
+, "Windows Defender Compliance"</category><guid>https://simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance your security with the Windows Defender STIG PowerShell script, which automates compliance with the Windows Defender Antivirus V1R9 STIG guidelines.</description></item></channel></rss>

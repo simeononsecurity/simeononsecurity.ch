@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VirusTotal API on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/virustotal-api//img/banner.png</url><title>VirusTotal API on simeononsecurity</title><link>https://simeononsecurity.com/tags/virustotal-api/</link></image><link>https://simeononsecurity.com/tags/virustotal-api/</link><description>Recent content in VirusTotal API on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/virustotal-api/index.xml" rel="self" type="application/rss+xml"/><item><title>Efficient Virus Scans with VirusTotal PowerShell Modules</title><link>https://simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell Modules"
+, "PowerShell"
+, "Automation"
+, "VirusTotal"
+, "Virus Scans"
+, "Domain Scans"
+, "API Key"
+, "VirusTotal API"
+, "VirusTotal Developers Page"
+, "System Administration"
+, "Security Workflow"
+, "Efficient Virus Scans"
+, "Download and Install"
+, "GitHub Repository"
+, "API Usage Examples"</category><guid>https://simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Perform efficient virus scans with the VirusTotal PowerShell Modules by automating the interaction with VirusTotal API and streamlining your security workflow.</description></item></channel></rss>

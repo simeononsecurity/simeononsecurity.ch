@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compliance on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/compliance//img/banner.png</url><title>Compliance on simeononsecurity</title><link>https://simeononsecurity.com/genre/compliance/</link></image><link>https://simeononsecurity.com/genre/compliance/</link><description>Recent content in Compliance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/compliance/index.xml" rel="self" type="application/rss+xml"/><item><title>Why Regulatory Compliance Alone Doesn't Ensure Security</title><link>https://simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Compliance"
+, "Security Practices"
+, "Data Protection"
+, "Cyber Threats"
+, "Regulatory Standards"
+, "Information Security"
+, "Risk Management"
+, "Business Security"
+, "Digital Privacy"</category><guid>https://simeononsecurity.com/articles/regulatory-compliance-vs-true-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the critical link between regulatory compliance and true security, and why it's essential to go beyond compliance for comprehensive cybersecurity solutions in the digital age.</description><enclosure url="https://simeononsecurity.com/img/cover/compliance-security-shield.png" length="1544670" type="image/png"/></item><item><title>Securing Windows and Linux: PowerShell vs. Python - Cybersecurity Comparison</title><link>https://simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Scripting Languages"
+, "System Security"
+, "Windows"
+, "Linux"
+, "Government Regulations"
+, "Cyber Threats"
+, "Secure Scripting"
+, "Compliance"
+, "Programming"</category><guid>https://simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover effortless ways to enhance system security with PowerShell and Python in this comprehensive cybersecurity analysis.</description><enclosure url="https://simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.png" length="1702655" type="image/png"/></item><item><title>FedRAMP: Empowering Secure Cloud Solutions for Government</title><link>https://simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Government"
+, "Cloud Services"
+, "Compliance"
+, "Federal Regulations"
+, "Information Security"
+, "Risk Management"
+, "Cloud Computing"
+, "Data Protection"</category><guid>https://simeononsecurity.com/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of FedRAMP for robust, secure government cloud solutions.</description><enclosure url="https://simeononsecurity.com/img/cover/Secure-Cloud-Government-Shield.png" length="1075283" type="image/png"/></item><item><title>Defending Data: PCI-DSS Explained for Secure Card Transactions</title><link>https://simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Payment Card Security"
+, "Data Protection"
+, "Compliance"
+, "Information Security"
+, "Technology"
+, "Business"
+, "Risk Management"
+, "Regulations"
+, "E-commerce"</category><guid>https://simeononsecurity.com/articles/pci-dss-explained-card-transaction-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about PCI-DSS, its components, compliance, and benefits for safeguarding payment card data.</description><enclosure url="https://simeononsecurity.com/img/cover/pci-dss-security-vault.png" length="1232234" type="image/png"/></item><item><title>Demystifying GDPR: Your Guide to Data Privacy Regulations</title><link>https://simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Data Privacy"
+, "Regulations"
+, "Compliance"
+, "Technology"
+, "Business"
+, "EU Law"
+, "Online Privacy"
+, "Digital Rights"
+, "Data Protection"</category><guid>https://simeononsecurity.com/articles/what-is-gdpr-overview-explanation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the significance of GDPR in safeguarding personal data. Explore its principles, rights, and business impact.</description><enclosure url="https://simeononsecurity.com/img/cover/GDPR_Data_Vault_Security.png" length="922301" type="image/png"/></item><item><title>Safeguarding Controlled Unclassified Information: Protecting Sensitive Data</title><link>https://simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</link><pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate><category>
+"Data Security"
+, "Information Protection"
+, "Privacy Management"
+, "Sensitive Data Handling"
+, "Cybersecurity"
+, "Compliance"
+, "Risk Management"
+, "Information Governance"
+, "Data Confidentiality"
+, "Information Assurance"</category><guid>https://simeononsecurity.com/articles/safeguarding-controlled-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the importance of safeguarding Controlled Unclassified Information (CUI) and learn how to protect sensitive data effectively.</description><enclosure url="https://simeononsecurity.com/img/cover/CUI-Safeguarding-Sensitive-Data.png" length="1462825" type="image/png"/></item><item><title>Patch Management Checklist: Enhancing Security and Stability</title><link>https://simeononsecurity.com/checklists/patch-management-checklist/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><category>
+"Patch Management"
+, "Security Strategies"
+, "IT Management"
+, "Software Updates"
+, "System Maintenance"
+, "Cybersecurity Best Practices"
+, "Vulnerability Management"
+, "Compliance"
+, "Automation"
+, "Network Security"</category><guid>https://simeononsecurity.com/checklists/patch-management-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to develop a robust patch management strategy, test and deploy security patches effectively, and automate patch management for improved system security and stability.</description><enclosure url="https://simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_patches_repre.png" length="1693082" type="image/png"/></item><item><title>Ultimate Cloud Security Checklist: Safeguard Your Data and Achieve Peace of Mind</title><link>https://simeononsecurity.com/checklists/cloud-security-checklist/</link><pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Data Protection"
+, "Cybersecurity"
+, "Cloud Services"
+, "User Access Management"
+, "Compliance"
+, "Incident Response"
+, "Vendor Risk Management"
+, "Data Privacy"
+, "Disaster Recovery"</category><guid>https://simeononsecurity.com/checklists/cloud-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the ultimate cloud security checklist to protect your data and achieve peace of mind. Learn the essential steps to secure your cloud storage and services, manage user access, monitor activity, ensure compliance, and more.</description><enclosure url="https://simeononsecurity.com/img/cover/A_shield_protecting_a_cloud_server_from_cyber.png" length="1574475" type="image/png"/></item><item><title>Mastering VMware Security: How to Use PowerCLI to Run the VMware STIGs</title><link>https://simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Virtualization"
+, "IT Infrastructure"
+, "Automation"
+, "PowerShell"
+, "VMware"
+, "STIG"
+, "Compliance"
+, "Scripting"
+, "Datacenter"</category><guid>https://simeononsecurity.com/articles/how-to-use-powercli-to-run-the-vmware-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to leverage PowerCLI to effectively run the VMware STIGs and secure your VMware environment in this comprehensive guide.</description><enclosure url="https://simeononsecurity.com/img/cover/An_illustration_depicting_a_computer_server_sh.png" length="863912" type="image/png"/></item><item><title>Enhancing Cyber Security Resilience: Change Management in an Evolving Landscape</title><link>https://simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Change Management"
+, "Resilience"
+, "IT Infrastructure"
+, "Risk Assessment"
+, "Compliance"
+, "Incident Response"
+, "Best Practices"
+, "ITIL"
+, "Security Controls"</category><guid>https://simeononsecurity.com/articles/change-management-cyber-security-enhancing-resilience-evolving-landscape/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the importance of change management in cyber security and learn how to enhance resilience in today's evolving threat landscape.</description><enclosure url="https://simeononsecurity.com/img/cover/A_team_of_professionals_working_together_to_bu.png" length="357325" type="image/png"/></item><item><title>Enhancing Security: The Power of Vulnerability Management Systems</title><link>https://simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "IT Infrastructure"
+, "Risk Mitigation"
+, "Compliance"
+, "Data Security"
+, "Vulnerability Assessment"
+, "Security Posture"
+, "Automation"
+, "Integration"
+, "Reporting"</category><guid>https://simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strengthen your organization's security and mitigate risks with vulnerability management systems. Learn about their benefits and importance in today's digital landscape.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item><item><title>Network Plus Course: Understanding the Importance of Network Logs and Logging</title><link>https://simeononsecurity.com/network-plus/network-plus-course-understanding-importance-network-logs-logging/</link><pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate><category>
+"Network Management"
+, "Network Security"
+, "Log Analysis"
+, "Network Monitoring"
+, "Troubleshooting"
+, "Network Infrastructure"
+, "IT Certification"
+, "Cybersecurity"
+, "Data Analysis"
+, "Compliance"</category><guid>https://simeononsecurity.com/network-plus/network-plus-course-understanding-importance-network-logs-logging/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the significance of network device logs, log reviews, and different types of logs, and learn how to interpret interface statistics and monitor interface errors.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_image_representing_a_network_server.png" length="1430860" type="image/png"/></item><item><title>Building an Effective Security Awareness Training Program: A Step-by-Step Guide</title><link>https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Employee Training"
+, "Security Awareness"
+, "Risk Mitigation"
+, "Data Protection"
+, "Compliance"
+, "Cyber Threats"
+, "Insider Threats"
+, "Password Security"
+, "Phishing Awareness"</category><guid>https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to build a comprehensive security awareness training program to protect your organization from cyber threats and empower employees.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_group_of_diverse_employees_enga.png" length="275634" type="image/png"/></item><item><title>Developing a Cybersecurity Policy: Best Practices and Procedures</title><link>https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Security"
+, "Compliance"
+, "Risk Management"
+, "Data Protection"
+, "Information Governance"
+, "Incident Response"
+, "Business Continuity"
+, "Cyber Threats"
+, "Policy Development"</category><guid>https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to develop a comprehensive cybersecurity policy that aligns with industry standards and regulatory requirements to protect your organization's sensitive information and mitigate cyber risks.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png" length="474843" type="image/png"/></item><item><title>Secure Cloud Solutions: AWS vs. Azure vs. Google Cloud Platform - Choosing the Best for Your Business</title><link>https://simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud Computing"
+, "Cloud Security"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Data Security"
+, "Encryption"
+, "Identity and Access Management"
+, "Compliance"
+, "Threat Detection"</category><guid>https://simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top cloud security features and certifications of AWS, Azure, and Google Cloud Platform to choose the best secure cloud solution for your business.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png"/></item><item><title>Streamlining Risk Management: The Power of ServiceNow Vulnerability Response</title><link>https://simeononsecurity.com/articles/streamlining-risk-management-servicenow-vulnerability-response/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "IT Risk Management"
+, "Vulnerability Response"
+, "ServiceNow"
+, "Security Automation"
+, "Compliance"
+, "Threat Intelligence"
+, "Incident Management"
+, "Vulnerability Identification"
+, "Remediation Strategies"</category><guid>https://simeononsecurity.com/articles/streamlining-risk-management-servicenow-vulnerability-response/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how ServiceNow Vulnerability Response optimizes risk management through streamlined vulnerability identification, prioritization, and remediation.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting2.png" length="1122439" type="image/png"/></item><item><title>Choosing the Right Security Framework: NIST Cybersecurity Framework vs. ISO 27001</title><link>https://simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Information Security"
+, "Security Frameworks"
+, "Risk Management"
+, "Data Protection"
+, "Compliance"
+, "IT Governance"
+, "Cyber Threats"
+, "Cyber Defense"
+, "Cyber Risk"</category><guid>https://simeononsecurity.com/articles/nist-cybersecurity-framework-vs-iso-27001/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the differences between the NIST Cybersecurity Framework and ISO 27001 to make an informed decision on the right security framework for your organization.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.png" length="254430" type="image/png"/></item><item><title>Today I Learned more Powershell and Ansible Modules</title><link>https://simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "PowerShell"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned about
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Windows STIG">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/stiging-standalone-windows-servers/">
+&lt;a href="https://simeononsecurity.com/github/stiging-standalone-windows-servers/"
+rel="follow me"
+>Windows STIG&lt;/a>
+&lt;/span>
+Ansible and updated related repos. Also, studied various Microsoft and Ansible resources related to powershell, remoting, and executing shell/powershell commands on Windows using modules like invoke-command, start-process, win_powershell, win_shell, psexec, and win_psexec.&lt;/p>
+&lt;h2 id="newupdated-repos">
+&lt;a href="#newupdated-repos" title="New/Updated Repos:">New/Updated Repos:&lt;/a>
+&lt;a href="#newupdated-repos" class="h-anchor" aria-hidden="true" title="New/Updated Repos:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible">
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible">
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+>simeononsecurity/Windows_STIG_Ansible&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs">
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs">
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+>simeononsecurity/windows_stigs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-resources">
+&lt;a href="#learning-resources" title="Learning Resources:">Learning Resources:&lt;/a>
+&lt;a href="#learning-resources" class="h-anchor" aria-hidden="true" title="Learning Resources:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - invoke-command">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - invoke-command&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - start-process">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - start-process&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="microsoft - running remote commands">
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2">
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+>microsoft - running remote commands&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_powershell">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_powershell&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="ansible.windows.win_shell module">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+>ansible.windows.win_shell module&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="community.windows.psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+>community.windows.psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="win_psexec">
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html">
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+>win_psexec&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Ansible"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "Windows Security"
+, "Windows Administration"
+, "Security Compliance"
+, "IT Automation"
+, "Configuration Management"</category><guid>https://simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity learned and discovered several interesting things today related to Windows security and automation using Ansible.&lt;/p>
+&lt;p>First, two new and updated repositories were identified. The Windows_STIG_Ansible repository provides a complete solution for configuring Windows systems to meet Security Technical Implementation Guide (STIG) requirements, using the Ansible automation platform. The windows_stigs repository is a collection of Ansible roles for configuring Windows systems to meet STIG requirements, and it is available on Ansible Galaxy, a central repository for sharing Ansible content.&lt;/p></description></item><item><title>Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash</title><link>https://simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Compliance"
+, "Windows Security"
+, "Ansible Playbooks"
+, "Ansible Collections"
+, "IT Security"
+, "Configuration Management"
+, "DevOps"
+, "Windows Administration"
+, "System Configuration"</category><guid>https://simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>SimeonOnSecurity has updated a page on his website and learned about a few resources that he finds interesting. The updated page is the writeup for the Invite Challenge on HackTheBox. This page provides an in-depth analysis of the process of solving the challenge on both Windows and Linux systems.&lt;/p>
+&lt;p>In addition to the updated page, SimeonOnSecurity also discovered some useful learning resources. One of these resources is a blog post by Cameron Nokes that focuses on working with JSON in bash using the jq tool. The jq tool is a command-line utility that makes it easy to parse, filter, and manipulate JSON data.&lt;/p></description></item></channel></rss>

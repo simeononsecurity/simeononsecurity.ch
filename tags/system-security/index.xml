@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Security on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/system-security//img/banner.png</url><title>System Security on simeononsecurity</title><link>https://simeononsecurity.com/tags/system-security/</link></image><link>https://simeononsecurity.com/tags/system-security/</link><description>Recent content in System Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/system-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Securing Windows and Linux: PowerShell vs. Python - Cybersecurity Comparison</title><link>https://simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Scripting Languages"
+, "System Security"
+, "Windows"
+, "Linux"
+, "Government Regulations"
+, "Cyber Threats"
+, "Secure Scripting"
+, "Compliance"
+, "Programming"</category><guid>https://simeononsecurity.com/articles/powershell-vs-python-cybersecurity-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover effortless ways to enhance system security with PowerShell and Python in this comprehensive cybersecurity analysis.</description><enclosure url="https://simeononsecurity.com/img/cover/cybersecurity_superheroes_defending_servers.png" length="1702655" type="image/png"/></item><item><title>Boost Your System Security with Windows Defender PowerShell Commands</title><link>https://simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "PowerShell commands"
+, "system security"
+, "command-line control"
+, "antivirus"
+, "Windows operating systems"
+, "malware protection"
+, "advanced security settings"
+, "automate security operations"
+, "Windows PowerShell"</category><guid>https://simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Windows Defender PowerShell commands and learn how to enhance your system security with command-line control.</description><enclosure url="https://simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png"/></item><item><title>Preparing for Entry-Level Cybersecurity Jobs: Essential Steps and Resources</title><link>https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/preparation-and-resources-for-entry-level-cyber-security-jobs/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"entry-level cybersecurity jobs"
+, "cybersecurity career"
+, "job requirements"
+, "education in cybersecurity"
+, "cybersecurity skills"
+, "gaining experience"
+, "cybersecurity certifications"
+, "government cybersecurity jobs"
+, "private sector cybersecurity jobs"
+, "job search platforms"
+, "cybersecurity training programs"
+, "online courses"
+, "cybersecurity apprenticeships"
+, "cybersecurity internships"
+, "USAJOBS"
+, "Department of Homeland Security"
+, "FBI"
+, "Indeed"
+, "LinkedIn"
+, "Dice"
+, "cybersecurity industry"
+, "industry trends"
+, "protecting data"
+, "system security"
+, "cyber threats"
+, "career development"
+, "professional growth"
+, "industry regulations"
+, "cybersecurity resources"
+, "job opportunities"</category><guid>https://simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/preparation-and-resources-for-entry-level-cyber-security-jobs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the key requirements, preparations, and resources for entry-level cybersecurity jobs to kick-start your career in this high-demand field.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png" length="137167" type="image/png"/></item><item><title>The Role of Programming Languages in Cybersecurity: Exploring Key Tools and Applications</title><link>https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link><pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate><category>
+"programming languages"
+, "cybersecurity"
+, "key tools"
+, "applications"
+, "secure systems"
+, "network security"
+, "web applications"
+, "vulnerability assessment"
+, "penetration testing"
+, "secure coding"
+, "system security"
+, "scripting languages"
+, "automation"
+, "secure communication"
+, "data analysis"
+, "machine learning"
+, "incident response"
+, "exploit development"
+, "security frameworks"
+, "system hardening"
+, "log analysis"
+, "Windows security"
+, "network protocols"
+, "web development"
+, "secure coding practices"
+, "cryptographic services"
+, "sandboxing"
+, "access control"
+, "reverse engineering"
+, "threat detection"
+, "security management"</category><guid>https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the pivotal role of programming languages in cybersecurity and delve into their applications, tools, and importance in securing digital systems.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png" length="329223" type="image/png"/></item><item><title>Linux File Permissions: A Comprehensive Guide</title><link>https://simeononsecurity.com/articles/mastering-linux-file-permissions/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><category>
+"Linux file permissions"
+, "secure file system"
+, "access control"
+, "ownership"
+, "file permissions guide"
+, "Linux security"
+, "file system security"
+, "chmod command"
+, "chown command"
+, "auditing file permissions"
+, "Principle of Least Privilege"
+, "regulatory compliance"
+, "GDPR"
+, "HIPAA"
+, "file permissions audit"
+, "documenting regulations"
+, "system security"
+, "network security"
+, "encryption"
+, "user management"</category><guid>https://simeononsecurity.com/articles/mastering-linux-file-permissions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Linux file permissions to ensure a secure file system with this comprehensive guide covering ownership, access control, and best practices.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png" length="175268" type="image/png"/></item><item><title>Installing Cumulative Security Patches on Windows: Best Practices</title><link>https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link><pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate><category>
+"Windows"
+, "security patches"
+, "cybersecurity"
+, "system security"
+, "Microsoft"
+, "cumulative patches"
+, "patch management"
+, "data backup"
+, "Spectre Meltdown"
+, "encryption"
+, "system vulnerabilities"
+, "system updates"
+, "patch deployment"
+, "non-production environments"
+, "system configuration"
+, "IT security"
+, "patch management system"
+, "vulnerability scanning"
+, "release notes"
+, "system maintenance"</category><guid>https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to install cumulative security patches on Windows and follow best practices to keep your system secure from cyber attacks.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png"/></item><item><title>Essential Do's and Don'ts for Hardening Your Linux System</title><link>https://simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"Linux security"
+, "system hardening"
+, "firewall"
+, "SELinux"
+, "AppArmor"
+, "password policy"
+, "system updates"
+, "system logs"
+, "security modules"
+, "access control policies"
+, "cybersecurity"
+, "system security"
+, "network security"
+, "vulnerability management"
+, "security best practices"
+, "IT security"
+, "information security"
+, "software updates"
+, "root access"
+, "password manager"</category><guid>https://simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the essential dos and donts for hardening your Linux system, including updating, using firewalls, enabling SELinux or AppArmor, configuring password policies, and monitoring system logs.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png"/></item><item><title>Implementing Patches for Vulnerable Servers: Best Practices</title><link>https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Server security"
+, "Vulnerability management"
+, "Patch management"
+, "Cybersecurity"
+, "Server patching"
+, "Threat landscape"
+, "Penetration testing"
+, "Security updates"
+, "Software patches"
+, "IT security"
+, "Data protection"
+, "System security"
+, "Risk management"
+, "Security policies"
+, "Staging environments"
+, "Software vulnerabilities"
+, "Critical patches"
+, "Vendor patches"
+, "Security bulletins"
+, "Information security"</category><guid>https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to implement security patches for vulnerable servers with best practices and prevent malicious attacks.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png" length="246714" type="image/png"/></item><item><title>Automating Security and Hardening: Comprehensive Hardening Resources</title><link>https://simeononsecurity.com/github/awesome-hardening/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"system hardening"
+, "application hardening"
+, "STIG compliant"
+, "Windows optimization"
+, "Windows Defender hardening"
+, "Apache Web Server hardening"
+, ".NET STIG script"
+, "Adobe Reader DC STIG script"
+, "Firefox STIG script"
+, "Simeononsecurity"
+, "cybersecurity"
+, "automation"
+, "network security"
+, "IT security"
+, "system security"
+, "computer security"
+, "security hardening"
+, "security automation"
+, "Windows hardening"
+, "web server hardening"</category><guid>https://simeononsecurity.com/github/awesome-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover a collection of scripts and configurations to optimize and harden your systems, making them STIG compliant and hacking resistant.</description></item><item><title>Today I Learned Cyber Security techniques</title><link>https://simeononsecurity.com/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Defensive Techniques"
+, "Offensive Techniques"
+, "UniFi Protect"
+, "Windows Product Activation"
+, "CPU Releases"
+, "YouTube Videos"
+, "Tech Reviews"
+, "Network Security"
+, "Data Protection"</category><guid>https://simeononsecurity.com/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity completed multiple defensive and offensive labs on ImmersiveLabs. They also watched videos about the following topics:&lt;/p>
+&lt;p>UniFi Protect G3 Instant - Unboxing, review, and comparison (Crosstalk Solutions)
+Pirates, Crypto, and the Secret History of Windows Product Activation (Dave&amp;rsquo;s Garage)
+The release of a new CPU (LinusTechTips)
+Why someone moved to UniFi Protect (TechnoTim)&lt;/p>
+&lt;h2 id="immersivelabs">
+&lt;a href="#immersivelabs" title="ImmersiveLabs:">ImmersiveLabs:&lt;/a>
+&lt;a href="#immersivelabs" class="h-anchor" aria-hidden="true" title="ImmersiveLabs:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs">
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/">
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+>Completed multiple Defensive and Offensive Labs&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="videos-of-interest">
+&lt;a href="#videos-of-interest" title="Videos of Interest:">Videos of Interest:&lt;/a>
+&lt;a href="#videos-of-interest" class="h-anchor" aria-hidden="true" title="Videos of Interest:">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t">
+&lt;a href="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t"
+rel="noopener external" target="_blank"
+>Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=FpKNFCFABp0">
+&lt;a href="https://www.youtube.com/watch?v=FpKNFCFABp0"
+rel="noopener external" target="_blank"
+>Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=g2BEr6BCg_E">
+&lt;a href="https://www.youtube.com/watch?v=g2BEr6BCg_E"
+rel="noopener external" target="_blank"
+>LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;li>
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="TechnoTim - Why I moved to UniFi Protect">
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=W9XgDZAezkg">
+&lt;a href="https://www.youtube.com/watch?v=W9XgDZAezkg"
+rel="noopener external" target="_blank"
+>TechnoTim - Why I moved to UniFi Protect&lt;/a>
+&lt;/span>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

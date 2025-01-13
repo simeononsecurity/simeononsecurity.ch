@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bloatware Removal on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/bloatware-removal//img/banner.png</url><title>Bloatware Removal on simeononsecurity</title><link>https://simeononsecurity.com/tags/bloatware-removal/</link></image><link>https://simeononsecurity.com/tags/bloatware-removal/</link><description>Recent content in Bloatware Removal on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/bloatware-removal/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimize Your Windows PC with Windows-Optimize-Debloat</title><link>https://simeononsecurity.com/github/windows-optimize-debloat/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><category>
+"Windows-Optimize-Debloat"
+, "Windows Optimization"
+, "Debloating Windows"
+, "Speed up Windows"
+, "Optimize Windows Performance"
+, "Windows Performance Boost"
+, "Windows System Optimization"
+, "Microsoft"
+, "Privacy"
+, "Bloatware Removal"
+, "Windows 10"
+, "Windows 11"
+, "Windows Defender"
+, "Windows Update"
+, "Cortona"
+, "Group Policy Objects"
+, "Telemetry"
+, "Windows Store"
+, "Windows 10 Professional"
+, "Windows 10 Home"</category><guid>https://simeononsecurity.com/github/windows-optimize-debloat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Improve the performance and privacy of your Windows operating system with Windows-Optimize-Debloat, a comprehensive script that helps remove bloatware and optimize system settings.</description></item><item><title>Today I Learned about Android Debloating and a New Privacy Technique</title><link>https://simeononsecurity.com/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"Android Security"
+, "Privacy Tools"
+, "Mobile Device Optimization"
+, "Android Debloating"
+, "Security Enhancements"
+, "Privacy Techniques"
+, "Mobile App Management"
+, "Image Anonymization"
+, "Data Privacy"
+, "Mobile Device Privacy"</category><guid>https://simeononsecurity.com/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity came across two interesting and useful security and privacy related tools: Universal Android Debloater and DeepPrivacy.&lt;/p>
+&lt;p>The Universal Android Debloater is a bash script using ADB (Android Debug Bridge) to debloat non-rooted Android devices. This tool can help to improve privacy, security and battery life of your device by removing unwanted apps and bloatware. You can find the Universal Android Debloater at
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+>https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a>
+&lt;/span>
+.&lt;/p></description></item><item><title>Optimize, Harden, and Secure Windows 10 Deployments with Automated Configuration Changes</title><link>https://simeononsecurity.com/github/optimizing-and-hardening-windows10-deployments/</link><pubDate>Wed, 22 Jul 2020 20:15:14 -0500</pubDate><category>
+"Windows 10 Security"
+, "Automated Configuration Changes"
+, "PrivacyTools.io"
+, "Microsoft"
+, "Cyber.mil"
+, "Department of Defense"
+, "National Security Agency"
+, "Telemetry Blocking"
+, "Macro Blocking"
+, "Bloatware Removal"
+, "Physical Attack Prevention"
+, "Personal Use Environments"
+, "Enterprise Environments"
+, "Bitlocker Suspension"
+, "Hardware Requirements"
+, "System Guard Secure Launch"
+, "Windows Defender Application Guard"
+, "Windows Defender Credential Guard"
+, "STIGS/SRGs"
+, "Security Compliance"</category><guid>https://simeononsecurity.com/github/optimizing-and-hardening-windows10-deployments/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimize, harden, and secure your Windows 10 deployment with automated configuration changes using this script from various security organizations.</description></item></channel></rss>

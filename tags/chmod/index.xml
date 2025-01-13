@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chmod on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/chmod//img/banner.png</url><title>Chmod on simeononsecurity</title><link>https://simeononsecurity.com/tags/chmod/</link></image><link>https://simeononsecurity.com/tags/chmod/</link><description>Recent content in Chmod on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><atom:link href="https://simeononsecurity.com/tags/chmod/index.xml" rel="self" type="application/rss+xml"/><item><title>chmod Command Generator - SimeonOnSecurity</title><link>https://simeononsecurity.com/chmod/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"file permissions"
+, "security"
+, "online tools"</category><guid>https://simeononsecurity.com/chmod/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A menu-based tool that generates chmod commands based on user input for modifying file permissions.</description></item></channel></rss>

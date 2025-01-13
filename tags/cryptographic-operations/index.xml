@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptographic Operations on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/cryptographic-operations//img/banner.png</url><title>Cryptographic Operations on simeononsecurity</title><link>https://simeononsecurity.com/tags/cryptographic-operations/</link></image><link>https://simeononsecurity.com/tags/cryptographic-operations/</link><description>Recent content in Cryptographic Operations on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/cryptographic-operations/index.xml" rel="self" type="application/rss+xml"/><item><title>Boost VMWare Virtual Machine Security with vTPM: Step-by-Step Guide</title><link>https://simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Virtualization"
+, "VMware"
+, "vSphere"
+, "Security"
+, "Trusted Platform Module"
+, "vTPM"
+, "Guest OS"
+, "Encryption"
+, "Platform Attestation"</category><guid>https://simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance virtual machine security using vTPM with our comprehensive step-by-step guide, providing platform attestation and BitLocker encryption support.</description><enclosure url="https://simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding Standards on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/coding-standards//img/banner.png</url><title>Coding Standards on simeononsecurity</title><link>https://simeononsecurity.com/tags/coding-standards/</link></image><link>https://simeononsecurity.com/tags/coding-standards/</link><description>Recent content in Coding Standards on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/coding-standards/index.xml" rel="self" type="application/rss+xml"/><item><title>Unsafe and Insecure C# Functions: Secure Coding Practices and Alternatives for Stronger Software</title><link>https://simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Software Development"
+, "C Sharp Programming"
+, "Cybersecurity"
+, "Code Security"
+, "Secure Coding"
+, "Programming Best Practices"
+, "Software Vulnerabilities"
+, "Cryptography"
+, "Web Development"
+, "Application Security"</category><guid>https://simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the risks of unsafe C sharp functions and learn secure alternatives.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-coding-shield.png" length="1516443" type="image/png"/></item></channel></rss>

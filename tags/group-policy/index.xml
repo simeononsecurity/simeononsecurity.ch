@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Group Policy on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/group-policy//img/banner.png</url><title>Group Policy on simeononsecurity</title><link>https://simeononsecurity.com/tags/group-policy/</link></image><link>https://simeononsecurity.com/tags/group-policy/</link><description>Recent content in Group Policy on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/group-policy/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://simeononsecurity.com/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://simeononsecurity.com/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+policies.
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.&lt;/p></description></item><item><title>Complete Guide to Harden Windows with Windows Defender Application Control WDAC</title><link>https://simeononsecurity.com/github/windows-defender-application-control-hardening/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender Application Control WDAC Hardening"
+, "PowerShell"
+, "PowerShell Script"
+, "Automation"
+, "Compliance"
+, "Blue-Team"
+, "Windows Defender STIG Script"
+, "Windows Defender Hardening"
+, "Windows Defender STIG"
+, "Defender STIG"
+, "Windows Defender Exploit Protection WDEP"
+, "Windows Defender Attack Surface Reduction ASR"
+, "Windows Server 2016 2019"
+, "Windows Server Core"
+, "Microsoft WDAC-Toolkit"
+, "Refresh CI Policy"
+, "Microsoft Recommended block rules"
+, "Microsoft Recommended driver block rules"
+, "XML policies"
+, "BIN policies"
+, "Group Policy"
+, "Microsoft Intune"</category><guid>https://simeononsecurity.com/github/windows-defender-application-control-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use Windows Defender Application Control WDAC to harden your Windows operating system with scripts and tools.</description></item><item><title>WMI Filters for Efficient Windows Group Policy Deployments - Download from GitHub</title><link>https://simeononsecurity.com/github/wmi-filters/</link><pubDate>Tue, 11 Aug 2020 13:35:00 -0500</pubDate><category>
+"WMI"
+, "WMI Filters"
+, "Windows Management Instrumentation"
+, "Group Policy"
+, "GPO"
+, "Windows Group Policy Deployments"
+, "Microsoft"
+, "Efficient Deployments"
+, "GitHub Repository"
+, "Download"
+, "Installation"
+, "Usage Guides"
+, "Windows Version"
+, "Software"
+, "Isolate Policies"
+, "Large Domains"
+, "GPO Process"
+, "Targeted Settings"
+, "WMI Queries"
+, "Windows Firewall"</category><guid>https://simeononsecurity.com/github/wmi-filters/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance your Windows Group Policy deployments with WMI Filters - Download and Install from GitHub Repository for Faster and Efficient GPO Process.</description></item><item><title>Automate Oracle JRE 8 STIG Compliance with Powershell Script</title><link>https://simeononsecurity.com/github/oracle-jre-8-stig/</link><pubDate>Wed, 05 Aug 2020 21:54:53 -0500</pubDate><category>
+"Oracle JRE 8 STIG"
+, "JAVA STIG"
+, "JRE"
+, "JRE8"
+, "JRE STIG"
+, "Compliance"
+, "Automation"
+, "Powershell"
+, "Script"
+, "JAVA Configuration"
+, "Java Documentation"
+, "Group Policy"
+, "IT Security"
+, "System Administration"
+, "Configuration Management"
+, "Windows"
+, "Cybersecurity"
+, "STIG Compliance"
+, "Information Technology"
+, "Software Configuration"</category><guid>https://simeononsecurity.com/github/oracle-jre-8-stig/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Simplify the process of configuring Oracle JRE 8 STIG compliance with an automated Powershell script, eliminating the need for manual research and configuration.</description></item><item><title>Take Control of Brave Browser Policies with BraveADMX - Modified ADMX Templates</title><link>https://simeononsecurity.com/github/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:39 -0500</pubDate><category>
+"BraveADMX"
+, "ADMX Templates"
+, "Brave Browser"
+, "Group Policy"
+, "GPO"
+, "Google Chrome ADMX"
+, "Policy Definitions"
+, "Pre-Alpha"
+, "Testing Purposes"
+, "Registry Path"
+, "GitHub Repository"
+, "Chromium"
+, "Policy Management"
+, "Configuration Management"
+, "Windows Policies"
+, "Security Templates"
+, "Brave Browser Policies"
+, "Google Chrome Policies"
+, "Browser Policy Control"
+, "Corporate IT Management"</category><guid>https://simeononsecurity.com/github/brave-admx-templates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Get complete control over Brave Browser policies with our modified Google Chrome ADMX templates, BraveADMX, designed for Group Policy management.</description></item><item><title>ChromiumADMX: Proper ADMX Template for Chromium Browser</title><link>https://simeononsecurity.com/github/chromium-admx-templates/</link><pubDate>Sat, 25 Jul 2020 19:30:33 -0500</pubDate><category>
+"ADMX"
+, "ADMX Templates"
+, "Chromium Browser"
+, "Chromium"
+, "Group Policy"
+, "GPO"
+, "Google Chrome ADMX templates"
+, "ChromiumADMX"
+, "Policy Definitions"
+, "Registry Path"
+, "Complete Control"
+, "Testing Purposes"
+, "GitHub Repository"
+, "Software Policies"
+, "Brave Browser"
+, "Pre-Alpha State"
+, "Installation Instructions"
+, "Policy Management"
+, "IT Security"
+, "Enterprise"</category><guid>https://simeononsecurity.com/github/chromium-admx-templates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Get complete control over your Chromium Browser policies with ChromiumADMX's modified Google Chrome ADMX templates reflecting the Chromium Browser's registry path for use with Group Policy management.</description></item></channel></rss>

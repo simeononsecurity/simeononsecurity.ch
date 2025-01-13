@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Securing Sensitive Files in Windows on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/securing-sensitive-files-in-windows//img/banner.png</url><title>Securing Sensitive Files in Windows on simeononsecurity</title><link>https://simeononsecurity.com/tags/securing-sensitive-files-in-windows/</link></image><link>https://simeononsecurity.com/tags/securing-sensitive-files-in-windows/</link><description>Recent content in Securing Sensitive Files in Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/securing-sensitive-files-in-windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Windows User Accounts: Secure Access for Better Control</title><link>https://simeononsecurity.com/guides/windows-user-accounts-permissions-guide/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "System Administration"
+, "Windows Management"
+, "User Access Control"
+, "Permission Management"
+, "IT Security"
+, "Command-line Tools"
+, "User Authentication"
+, "File Permissions"
+, "Elevated Privileges"</category><guid>https://simeononsecurity.com/guides/windows-user-accounts-permissions-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to manage user accounts and permissions on Windows for enhanced cybersecurity and system control. Explore user management commands, file permissions, and running commands with elevated privileges.</description><enclosure url="https://simeononsecurity.com/img/cover/Windows_User_Accounts_Permissions_Juggling.png" length="1349291" type="image/png"/></item></channel></rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy Tools on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/privacy-tools//img/banner.png</url><title>Privacy Tools on simeononsecurity</title><link>https://simeononsecurity.com/genre/privacy-tools/</link></image><link>https://simeononsecurity.com/genre/privacy-tools/</link><description>Recent content in Privacy Tools on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/privacy-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned about Android Debloating and a New Privacy Technique</title><link>https://simeononsecurity.com/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"Android Security"
+, "Privacy Tools"
+, "Mobile Device Optimization"
+, "Android Debloating"
+, "Security Enhancements"
+, "Privacy Techniques"
+, "Mobile App Management"
+, "Image Anonymization"
+, "Data Privacy"
+, "Mobile Device Privacy"</category><guid>https://simeononsecurity.com/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity came across two interesting and useful security and privacy related tools: Universal Android Debloater and DeepPrivacy.&lt;/p>
+&lt;p>The Universal Android Debloater is a bash script using ADB (Android Debug Bridge) to debloat non-rooted Android devices. This tool can help to improve privacy, security and battery life of your device by removing unwanted apps and bloatware. You can find the Universal Android Debloater at
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater">
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+>https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a>
+&lt;/span>
+.&lt;/p></description></item><item><title>Online Tools - SimeonOnSecurity</title><link>https://simeononsecurity.com/tools/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"technology"
+, "cybersecurity"
+, "online tools"
+, "passwords"
+, "hash calculator"
+, "network tools"
+, "image tools"
+, "file permissions"
+, "data tools"
+, "privacy tools"
+, "online security"
+, "data protection"</category><guid>https://simeononsecurity.com/tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore a comprehensive collection of online tools, including a Password Strength Checker, Hash Calculator, Base64 Encoder, Shodan IP Lookup, and more. Optimize your cybersecurity and improve online privacy.</description></item><item><title>SimeonOnSecurity's Expert Recommendations for Security and Privacy Products and Resources</title><link>https://simeononsecurity.com/recommendhome/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Cybersecurity"
+, "Privacy Protection"
+, "Product Recommendations"
+, "Resource Recommendations"
+, "Security Tools"
+, "Privacy Tools"
+, "Data Protection"
+, "Internet Privacy"</category><guid>https://simeononsecurity.com/recommendhome/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore SimeonOnSecurity's expert recommendations for trusted and highly rated security and privacy-related products and resources.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png" length="288609" type="image/png"/></item></channel></rss>

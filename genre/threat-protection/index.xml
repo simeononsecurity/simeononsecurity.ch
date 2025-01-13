@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Threat Protection on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/threat-protection//img/banner.png</url><title>Threat Protection on simeononsecurity</title><link>https://simeononsecurity.com/genre/threat-protection/</link></image><link>https://simeononsecurity.com/genre/threat-protection/</link><description>Recent content in Threat Protection on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/threat-protection/index.xml" rel="self" type="application/rss+xml"/><item><title>Endpoint Security Showdown: Symantec vs. McAfee - A Comprehensive Comparison</title><link>https://simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Endpoint Security"
+, "Antivirus"
+, "Firewall"
+, "Intrusion Detection"
+, "Data Loss Prevention"
+, "Threat Protection"
+, "Security Solutions"
+, "Comparison"</category><guid>https://simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover which endpoint security solution, Symantec or McAfee, is best suited to protect your organization's digital assets against cyber threats.</description><enclosure url="https://simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png"/></item><item><title>Today I Learned more about WDAC Policy Creation and Implementation</title><link>https://simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Windows Security"
+, "Application Control"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Threat Protection"
+, "Windows Server 2019"
+, "Enterprise Security"
+, "Policy Management"
+, "Security Best Practices"</category><guid>https://simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item><item><title>Today I Learned about Enforcing Windows Defender Application Control (WDAC) Policies</title><link>https://simeononsecurity.com/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"Windows Security"
+, "Windows Defender Application Control"
+, "Device Security"
+, "Software Auditing"
+, "Policy Enforcement"
+, "Threat Protection"
+, "Group Policy"
+, "Microsoft Intune"
+, "Hardening Techniques"</category><guid>https://simeononsecurity.com/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p>&lt;strong>What SimeonOnSecurity learned about and found interesting today&lt;/strong>&lt;/p>
+&lt;p>Today, SimeonOnSecurity delved into the topic of auditing and enforcing Windows Defender Application Control
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+policies.
+&lt;span itemscope itemtype="https://schema.org/WebPage">
+&lt;meta itemprop="name" content="WDAC">
+&lt;meta itemprop="url" content="https://simeononsecurity.com/github/windows-defender-application-control-hardening/">
+&lt;a href="https://simeononsecurity.com/github/windows-defender-application-control-hardening/"
+rel="follow me"
+>WDAC&lt;/a>
+&lt;/span>
+is a feature in Windows that helps to prevent unauthorized or untrusted software from running on a device. It provides a means of controlling which applications can run on a device, thereby helping to improve the overall security of the device.&lt;/p></description></item></channel></rss>

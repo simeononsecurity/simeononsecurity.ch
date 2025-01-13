@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trusted Applications on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/trusted-applications//img/banner.png</url><title>Trusted Applications on simeononsecurity</title><link>https://simeononsecurity.com/tags/trusted-applications/</link></image><link>https://simeononsecurity.com/tags/trusted-applications/</link><description>Recent content in Trusted Applications on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/trusted-applications/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned more about WDAC Policy Creation and Implementation</title><link>https://simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Windows Security"
+, "Application Control"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Threat Protection"
+, "Windows Server 2019"
+, "Enterprise Security"
+, "Policy Management"
+, "Security Best Practices"</category><guid>https://simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Today I Learned more about Ansible conditionals and variable management</description></item></channel></rss>

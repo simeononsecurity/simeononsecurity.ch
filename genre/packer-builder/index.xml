@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Packer Builder on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/packer-builder//img/banner.png</url><title>Packer Builder on simeononsecurity</title><link>https://simeononsecurity.com/genre/packer-builder/</link></image><link>https://simeononsecurity.com/genre/packer-builder/</link><description>Recent content in Packer Builder on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/packer-builder/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item></channel></rss>

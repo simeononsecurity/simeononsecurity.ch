@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secure Configuration on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/secure-configuration//img/banner.png</url><title>Secure Configuration on simeononsecurity</title><link>https://simeononsecurity.com/tags/secure-configuration/</link></image><link>https://simeononsecurity.com/tags/secure-configuration/</link><description>Recent content in Secure Configuration on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 29 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/secure-configuration/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Oracle JRE 8 Security: Best Practices, STIGs, and Configuration Examples</title><link>https://simeononsecurity.com/guides/enhance-oracle-jre-8-security/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Software Development"
+, "Computer Science"
+, "Programming"
+, "Security"
+, "Java Programming"
+, "Software Security"
+, "IT Management"
+, "System Administration"</category><guid>https://simeononsecurity.com/guides/enhance-oracle-jre-8-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover key practices for securing Oracle JRE 8 with code examples and best practices. Strengthen your system's defense against vulnerabilities.</description><enclosure url="https://simeononsecurity.com/img/cover/enhanced-jre-security.png" length="1038249" type="image/png"/></item></channel></rss>
