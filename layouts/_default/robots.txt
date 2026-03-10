@@ -84,7 +84,7 @@ User-agent: WhatsApp
 Allow: /
 
 User-agent: Pinterest
-Crawl-delay: 1
+Crawl-delay: 5
 
 # News & Feed Aggregators
 User-agent: Feedly
