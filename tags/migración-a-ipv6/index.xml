@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Migración a IPv6 on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/migraci%C3%B3n-a-ipv6//img/banner.png</url><title>Migración a IPv6 on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/migraci%C3%B3n-a-ipv6/</link></image><link>https://es.simeononsecurity.com/tags/migraci%C3%B3n-a-ipv6/</link><description>Recent content in Migración a IPv6 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/migraci%C3%B3n-a-ipv6/index.xml" rel="self" type="application/rss+xml"/><item><title>Mecanismos de transición de IPv4 a IPv6: Guía completa</title><link>https://es.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"IPv4"
+, "IPv6"
+, "red"
+, "mecanismos de transición"
+, "doble pila"
+, "NAT64"
+, "DNS64"
+, "Túnel IPv6"
+, "ISATAP"
+, "6to4"
+, "DS-lite"
+, "MAP-T"
+, "Migración a IPv6"
+, "protocolos de red"
+, "protocolo de internet"
+, "arquitectura de red"
+, "enrutamiento"
+, "subredes"
+, "dirigiéndose a"</category><guid>https://es.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca los distintos mecanismos utilizados para la transición de IPv4 a IPv6 en esta completa guía.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png" length="96662" type="image/png"/></item></channel></rss>

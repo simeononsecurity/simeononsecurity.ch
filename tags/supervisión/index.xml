@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Supervisión on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/supervisi%C3%B3n//img/banner.png</url><title>Supervisión on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/supervisi%C3%B3n/</link></image><link>https://es.simeononsecurity.com/tags/supervisi%C3%B3n/</link><description>Recent content in Supervisión on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/supervisi%C3%B3n/index.xml" rel="self" type="application/rss+xml"/><item><title>Información confidencial (SCI) para la seguridad nacional</title><link>https://es.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"Seguridad de la información"
+, "Seguridad nacional"
+, "Inteligencia"
+, "Información clasificada"
+, "Normativa gubernamental"
+, "Controles de acceso"
+, "Autorizaciones de seguridad"
+, "Comunidad de Inteligencia"
+, "Industria de defensa"
+, "Operaciones de inteligencia"</category><guid>https://es.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore la importancia, los niveles de clasificación, el manejo y la normativa de la Información Sensible Compartimentada (SCI) con fines de seguridad nacional.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_image_representing_sci.png" length="163372" type="image/png"/></item><item><title>Cómo proteger su entorno Docker y Kubernetes</title><link>https://es.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "Seguridad"
+, "Contenedores"
+, "Seguridad de las redes"
+, "RBAC"
+, "Servidor API"
+, "Vulnerabilidades"
+, "Supervisión"
+, "Registro"
+, "Cortafuegos"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Seguridad Aqua"
+, "Pila ELK"
+, "Splunk"
+, "Prometeo"
+, "Ciberseguridad"
+, "Buenas prácticas"</category><guid>https://es.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca las mejores prácticas para proteger su entorno Docker y Kubernetes, incluido el uso de imágenes oficiales, la limitación de permisos y la implementación de la seguridad de red.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png"/></item></channel></rss>

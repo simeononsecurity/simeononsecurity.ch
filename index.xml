@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://es.simeononsecurity.com//img/banner.png</url><title>simeononsecurity</title><link>https://es.simeononsecurity.com/</link></image><link>https://es.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Servicio de correo electrónico seguro: Mejora de la privacidad con StartMail</title><link>https://es.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Privacidad"
+, "Servicios de correo electrónico"
+, "Seguridad en línea"
+, "Privacidad digital"
+, "Cifrado"
+, "Protección de datos"
+, "Privacidad del correo electrónico"
+, "Protección de la identidad"
+, "Privacidad en línea"</category><guid>https://es.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra StartMail, un servicio de correo electrónico seguro con cifrado avanzado y enmascaramiento del correo electrónico, que garantiza la máxima privacidad y protección frente a las ciberamenazas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure_email_guard.png" length="1073957" type="image/png"/></item><item><title>Windows GVLKs: Desbloquear el poder de las claves de licencia para mejorar el rendimiento</title><link>https://es.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Software"
+, "Productividad"
+, "Sistemas operativos"
+, "Microsoft"
+, "Windows"
+, "Licencias"
+, "Gestión de claves"
+, "Soluciones informáticas"
+, "Mejora"</category><guid>https://es.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo las GVLK de Windows revolucionan el rendimiento. Explore las mejores claves de licencia y aumente la productividad de su sistema sin esfuerzo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png"/></item><item><title>Automatice la instalación de Windows 11: Eludir TPM, Secure Boot y comprobaciones de RAM</title><link>https://es.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Windows 11"
+, "Instalación"
+, "Virtualización"
+, "Automatización"
+, "Claves de registro"
+, "Bypass TPM"
+, "Anulación del arranque seguro"
+, "Bypass de RAM"
+, "vTPM"</category><guid>https://es.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Agilice la instalación de Windows 11 en entornos virtualizados evitando las comprobaciones de TPM, Secure Boot y RAM mediante autounattend.xml y vTPM.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Minería Spacemesh: El camino ecológico hacia las recompensas descentralizadas</title><link>https://es.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><category>
+"Minería de criptomonedas"
+, "Prueba del espacio-tiempo"
+, "Recompensas descentralizadas"
+, "Minería ecológica"
+, "Tecnología Blockchain"
+, "Criptomoneda"
+, "Minería de criptomonedas"
+, "Prueba del espacio"
+, "Descentralización"
+, "Consenso Blockchain"</category><guid>https://es.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Consigue recompensas ecológicas a través de la minería Spacemesh, un enfoque descentralizado que utiliza el innovador algoritmo de consenso PoST.</description><enclosure url="https://es.simeononsecurity.com/img/cover/spacemesh-mining-rocket.png" length="1059166" type="image/png"/></item><item><title>Aumente la seguridad y la privacidad con las tarjetas virtuales de Privacy.com</title><link>https://es.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate><category>
+"Seguridad en línea"
+, "Privacidad digital"
+, "Tarjetas de débito virtuales"
+, "Protección financiera"
+, "Transacciones en línea"
+, "Prevención del fraude"
+, "Protección de datos"
+, "Financial Privacy"
+, "Ciberseguridad"
+, "Finanzas personales"</category><guid>https://es.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo las tarjetas de débito virtuales de Privacy.com pueden reforzar su seguridad en Internet y proteger su intimidad, a la vez que le ofrecen un fácil control de las transacciones y suscripciones.</description><enclosure url="https://es.simeononsecurity.com/img/cover/privacy_virtual_cards.png" length="1248460" type="image/png"/></item><item><title>Aumente la seguridad de las máquinas virtuales con vTPM: Guía paso a paso</title><link>https://es.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Virtualización"
+, "VMware"
+, "vSphere"
+, "Seguridad"
+, "Módulo de plataforma de confianza"
+, "vTPM"
+, "Invitado OS"
+, "Cifrado"
+, "Plataforma de certificación"</category><guid>https://es.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mejore la seguridad de las máquinas virtuales utilizando vTPM con nuestra completa guía paso a paso, que proporciona atestación de la plataforma y compatibilidad con el cifrado BitLocker.</description><enclosure url="https://es.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item><item><title>Dominio de VMware vSphere: Guía completa de valores guest_os_type</title><link>https://es.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://es.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra los valores de tipo de sistema operativo invitado válidos para vSphere Packer Builder, optimizando su proceso de creación de máquinas virtuales para VMware vSphere con facilidad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Divulgación de afiliación: Apóyenos y descubra servicios increíbles</title><link>https://es.simeononsecurity.com/affiliate/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Declaración de afiliación"
+, "Servicios en línea"
+, "Recomendaciones de productos"
+, "Productos digitales"
+, "Marketing de afiliación"
+, "Ganancias en línea"
+, "Monetización del sitio web"
+, "Ganar en línea"
+, "Marketing en Internet"
+, "Transparencia"</category><guid>https://es.simeononsecurity.com/affiliate/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Infórmate sobre nuestra política de divulgación de afiliación y explora servicios de primera categoría como Amazon, Audible, StartMail y muchos más.</description></item><item><title>Potenciar la seguridad nacional: El impacto electrocibernético de Bitcoin</title><link>https://es.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Criptomoneda"
+, "Ciberseguridad"
+, "Tecnología"
+, "Seguridad nacional"
+, "Investigación"
+, "Financial"
+, "Innovación"
+, "Moneda digital"
+, "Elaboración de políticas"
+, "Blockchain"</category><guid>https://es.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore la innovadora Teoría de la Proyección de Poder y sus implicaciones para la seguridad nacional, a medida que Bitcoin se transforma en una potente tecnología de seguridad electrocibernética.</description><enclosure url="https://es.simeononsecurity.com/img/cover/empowered-national-security.png" length="1771912" type="image/png"/></item><item><title>Alojamiento web privado: Proteja su presencia en línea con los mejores proveedores</title><link>https://es.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</link><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate><category>
+"Alojamiento web"
+, "Privacidad en línea"
+, "Seguridad de los datos"
+, "Alojamiento privado"
+, "Dominio anónimo"
+, "Servidores dedicados"
+, "Alojamiento VPS"
+, "Protección de datos"
+, "Libertad de expresión"
+, "Pagos con Bitcoin"</category><guid>https://es.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Encuentre el mejor servicio de alojamiento web privado para asegurar su presencia en línea. Compara Privex, OrangeWebsite, 1984 y Njalla para una privacidad y seguridad de primer nivel.</description><enclosure url="https://es.simeononsecurity.com/img/cover/privacy_hosting_security_shield.png" length="1480314" type="image/png"/></item><item><title>Alojamiento Web OrangeWebsite: Libere su éxito en línea con velocidad y seguridad</title><link>https://es.simeononsecurity.com/articles/orangwebsite-web-hosting/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Alojamiento web"
+, "Ciberseguridad"
+, "Empresas"
+, "Servicios digitales"
+, "Gestión de sitios web"
+, "Internet"
+, "Comercio electrónico"
+, "Alojamiento en la nube"
+, "Alojamiento de servidores"</category><guid>https://es.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el poder del alojamiento web de OrangeWebsite para sus proyectos en línea: soluciones rápidas, seguras y fiables para todas las necesidades de su sitio web.</description><enclosure url="https://es.simeononsecurity.com/img/cover/OrangeWebsite-rocket.png" length="937886" type="image/png"/></item><item><title>Sesión vs Estado vs Señal vs Treema: Una comparación exhaustiva</title><link>https://es.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate><category>
+"Mensajería segura"
+, "Comunicación centrada en la privacidad"
+, "Comparación de aplicaciones de mensajería"
+, "Protocolos de cifrado"
+, "Ciberseguridad"
+, "Comunicación privada"
+, "Servicios de mensajería"
+, "Protección de datos"
+, "Cifrado de extremo a extremo"
+, "Análisis de plataformas de mensajería"</category><guid>https://es.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra las principales diferencias y puntos fuertes de Session, Status, Signal y Threema en esta completa comparativa de servicios de mensajería segura.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-messaging-comparison.png" length="1600384" type="image/png"/></item><item><title>Enfrentamiento del correo electrónico seguro: StartMail vs ProtonMail vs Tutanota</title><link>https://es.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Ciberseguridad"
+, "Protección de datos"
+, "Servicios de correo electrónico"
+, "Seguridad en línea"
+, "Cifrado"
+, "Herramientas de Internet"
+, "Comparación"
+, "Protección digital"
+, "Privacidad en línea"</category><guid>https://es.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el mejor servicio de correo electrónico seguro Una comparación detallada de StartMail, ProtonMail y Tutanota, garantizando su privacidad en línea</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure-email-showdown.png" length="1329076" type="image/png"/></item><item><title>Proteja su privacidad con Albine DeleteMe - Salvaguardar su presencia digital</title><link>https://es.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate><category>
+"Protección de datos"
+, "Seguridad en línea"
+, "Protección de datos personales"
+, "Prevención del robo de identidad"
+, "Gestión de la huella digital"
+, "Ciberseguridad"
+, "Privacidad en Internet"
+, "Eliminación de datos"
+, "Cumplimiento del GDPR"
+, "CCPA"</category><guid>https://es.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el poder de Albine DeleteMe, un servicio de privacidad de datos que le permite proteger su información personal, garantizando la seguridad y tranquilidad en línea.</description><enclosure url="https://es.simeononsecurity.com/img/cover/secure_privacy_cartoon.png" length="1576319" type="image/png"/></item><item><title>Precarga HSTS Cómo mejorar la seguridad de los sitios web: Guía paso a paso</title><link>https://es.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://es.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a mejorar la seguridad de los sitios web y la confianza de los usuarios precargando la configuración HSTS en Chrome y Firefox. Sigue nuestra guía paso a paso para una implementación perfecta.</description><enclosure url="https://es.simeononsecurity.com/img/cover/enhanced-website-security.png" length="1100381" type="image/png"/></item><item><title>Minería Spacemesh eficiente con varias GPU: maximiza tu recompensa</title><link>https://es.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><category>
+"Criptomoneda"
+, "Blockchain"
+, "Minería"
+, "Tecnología"
+, "Descentralizado"
+, "Minería en la GPU"
+, "Prueba del espacio-tiempo"
+, "Ecológico"
+, "Consejos sobre criptomonedas"
+, "Activos digitales"</category><guid>https://es.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprende a optimizar tu minería Spacemesh usando múltiples GPUs con el algoritmo PoST ecológico y maximiza tus recompensas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/spacemesh-mining-gpus.png" length="1834896" type="image/png"/></item><item><title>Buenas prácticas de seguridad en Python: Proteja su código y sus datos</title><link>https://es.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Seguridad en Python"
+, "Código de seguridad"
+, "Protección de datos"
+, "Desarrollo de software"
+, "Ciberseguridad"
+, "Codificación segura"
+, "Desarrollo web"
+, "Protección de datos"
+, "Seguridad de las aplicaciones"
+, "Seguridad informática"</category><guid>https://es.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda las mejores prácticas de seguridad esenciales de Python para salvaguardar su código y sus datos de posibles amenazas, garantizando la protección de los datos, la integridad del sistema y la creación de confianza.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>Aumente la seguridad de su sistema con los comandos PowerShell de Windows Defender</title><link>https://es.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Comandos PowerShell"
+, "seguridad del sistema"
+, "control por línea de comandos"
+, "antivirus"
+, "Sistemas operativos Windows"
+, "protección antimalware"
+, "configuración de seguridad avanzada"
+, "automatizar las operaciones de seguridad"
+, "Windows PowerShell"</category><guid>https://es.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra el poder de los comandos PowerShell de Windows Defender y aprenda a mejorar la seguridad de su sistema con el control de la línea de comandos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png"/></item><item><title>Buenas prácticas básicas de Windows Hardening para asegurar Windows 10 y Windows 11</title><link>https://es.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Endurecimiento de Windows"
+, "Seguridad de Windows"
+, "Endurecimiento de Windows 10"
+, "Endurecimiento de Windows 11"
+, "Buenas prácticas de seguridad en Windows"
+, "Consejos de seguridad para Windows"
+, "Directrices de seguridad de Windows"
+, "Protección de los sistemas operativos Windows"
+, "Refuerzo del sistema Windows"
+, "Medidas de seguridad de Windows"</category><guid>https://es.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra estrategias eficaces para mejorar la seguridad de sus sistemas Windows 10 y Windows 11 mediante técnicas de refuerzo completas y prácticas recomendadas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>Curso Network Plus: Metodología de resolución de problemas de red</title><link>https://es.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Educación en TI"
+, "Solución de problemas de red"
+, "Certificación de redes"
+, "Formación en TI"
+, "Redes informáticas"
+, "Competencias informáticas"
+, "Conocimientos técnicos"
+, "Profesionales de TI"
+, "Conceptos de red"
+, "Soporte de red"</category><guid>https://es.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una guía completa sobre la metodología de solución de problemas de red, que incluye pasos, herramientas y mejores prácticas para resolver problemas de red de forma eficiente y eficaz.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png"/></item><item><title>Estructura de directorios de Windows: Una guía completa</title><link>https://es.simeononsecurity.com/articles/windows-directory-structure-guide/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Estructura de directorios de Windows"
+, "Gestión de archivos de Windows"
+, "Navegar por los directorios"
+, "Organización de archivos"
+, "Rutas de archivos de Windows"
+, "Carpetas del sistema Windows"
+, "Directorio de usuarios"
+, "Directorio Archivos de programa"
+, "Directorio raíz de Windows"
+, "Directorio de archivos temporales"</category><guid>https://es.simeononsecurity.com/articles/windows-directory-structure-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore la estructura de directorios de Windows y aprenda a gestionar eficazmente los archivos y a navegar por el sistema jerárquico.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_image_depicting_a_tree-like_structure_repre.png" length="515007" type="image/png"/></item><item><title>10 mejores prácticas de seguridad esenciales de PowerShell para proteger sus scripts</title><link>https://es.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Prácticas recomendadas de seguridad de PowerShell"
+, "Seguridad de las secuencias de comandos"
+, "Seguridad mediante contraseña"
+, "Seguridad informática"
+, "Ciberseguridad"
+, "Administración de Windows"
+, "Automatización"
+, "Codificación segura"
+, "Seguridad de la red"
+, "Protección de datos"</category><guid>https://es.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conozca las 10 mejores prácticas de seguridad esenciales de PowerShell para proteger sus scripts, contraseñas e información confidencial. Mejore la seguridad de su entorno PowerShell y protéjase frente a accesos no autorizados y posibles brechas de seguridad.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>Comprender los troyanos de acceso remoto: Riesgos, prevención y protección</title><link>https://es.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Software malicioso"
+, "Seguridad informática"
+, "Amenazas digitales"
+, "Troyanos de acceso remoto"
+, "Protección de datos"
+, "Privacidad"
+, "Ciberdelincuencia"
+, "Seguridad de las redes"
+, "Seguridad de la información"</category><guid>https://es.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra los riesgos que plantean los troyanos de acceso remoto (RAT) y aprenda medidas eficaces de prevención y protección para salvaguardar sus sistemas informáticos y sus datos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png"/></item><item><title>Dominio de la administración de Active Directory con PowerShell: Guía de instalación y uso</title><link>https://es.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Windows"
+, "PowerShell"
+, "Directorio Activo"
+, "Administración"
+, "Scripting"
+, "TI"
+, "Automatización"
+, "Servidor Windows"
+, "Microsoft"</category><guid>https://es.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo instalar y utilizar eficazmente el módulo Active Directory para PowerShell con el fin de agilizar las tareas de administración de Active Directory de Windows.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Mejora de la seguridad: El poder de los sistemas de gestión de vulnerabilidades</title><link>https://es.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Infraestructura informática"
+, "Mitigación de riesgos"
+, "Conformidad"
+, "Seguridad de los datos"
+, "Evaluación de la vulnerabilidad"
+, "Postura de seguridad"
+, "Automatización"
+, "Integración"
+, "Informes"</category><guid>https://es.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Refuerce la seguridad de su organización y mitigue los riesgos con sistemas de gestión de vulnerabilidades. Conozca sus ventajas y su importancia en el panorama digital actual.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item></channel></rss>

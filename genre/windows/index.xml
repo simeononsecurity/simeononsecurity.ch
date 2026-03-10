@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on simeononsecurity</title><image><url>https://es.simeononsecurity.com/genre/windows//img/banner.png</url><title>Windows on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/windows/</link></image><link>https://es.simeononsecurity.com/genre/windows/</link><description>Recent content in Windows on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows GVLKs: Desbloquear el poder de las claves de licencia para mejorar el rendimiento</title><link>https://es.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Software"
+, "Productividad"
+, "Sistemas operativos"
+, "Microsoft"
+, "Windows"
+, "Licencias"
+, "Gestión de claves"
+, "Soluciones informáticas"
+, "Mejora"</category><guid>https://es.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo las GVLK de Windows revolucionan el rendimiento. Explore las mejores claves de licencia y aumente la productividad de su sistema sin esfuerzo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png"/></item><item><title>Dominio de la administración de Active Directory con PowerShell: Guía de instalación y uso</title><link>https://es.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Windows"
+, "PowerShell"
+, "Directorio Activo"
+, "Administración"
+, "Scripting"
+, "TI"
+, "Automatización"
+, "Servidor Windows"
+, "Microsoft"</category><guid>https://es.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra cómo instalar y utilizar eficazmente el módulo Active Directory para PowerShell con el fin de agilizar las tareas de administración de Active Directory de Windows.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>PowerShell Scripting: Una guía paso a paso para principiantes para automatizar tareas</title><link>https://es.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Programación"
+, "Automatización"
+, "Windows"
+, "Scripting"
+, "TI"
+, "Tareas administrativas"
+, "Gestión informática"
+, "Desarrollo de software"
+, "Codificación"</category><guid>https://es.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda los conceptos básicos de las secuencias de comandos de PowerShell y automatice tareas con esta guía paso a paso para principiantes, que abarca cmdlets, bucles, funciones y mucho más.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>Antivirus recomendado</title><link>https://es.simeononsecurity.com/recommendations/anti-virus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Antivirus recomendado"
+, "AV"
+, "Antivirus"
+, "Antivirus"
+, "Uso doméstico"
+, "Uso comercial"
+, "Windows"
+, "Linux"
+, "MacOS"
+, "Ciberseguridad"</category><guid>https://es.simeononsecurity.com/recommendations/anti-virus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Este artículo proporciona una lista de productos antivirus recomendados para uso doméstico y empresarial, según la clasificación de SimeonOnSecurity. Las clasificaciones se basan en la opinión de profesionales y en pruebas con muestras maliciosas, y sólo cubren las capacidades antivirus, la detección, la experiencia del usuario y el rendimiento. Los usuarios de Windows pueden elegir entre opciones de pago y gratuitas, mientras que los de Linux y MacOS tienen opciones limitadas, con opciones de pago sólo disponibles para Linux. Tenga en cuenta que los antivirus no son necesarios en Linux o MacOS y que no se recomienda utilizar ninguna VPN o gestor de contraseñas proporcionado con el paquete antivirus. El artículo también ofrece recomendaciones sobre proveedores de VPN. Actualmente se está trabajando en las recomendaciones para uso empresarial.</description></item></channel></rss>
