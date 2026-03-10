@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSAT on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/rsat//img/banner.png</url><title>RSAT on simeononsecurity</title><link>https://simeononsecurity.ch/tags/rsat/</link></image><link>https://simeononsecurity.ch/tags/rsat/</link><description>Recent content in RSAT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 08 Sep 2020 15:13:17 -0500</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/rsat/index.xml" rel="self" type="application/rss+xml"/><item><title>Achieve STIG Compliance: Strengthen Domain Security and Ensure Regulatory Requirements</title><link>https://simeononsecurity.ch/github/stig-compliant-domain-prep/</link><pubDate>Tue, 08 Sep 2020 15:13:17 -0500</pubDate><category>
+"IT Security"
+, "STIG Compliance"
+, "Domain Security"
+, "Enterprise Security"
+, "Network Security"
+, "Cybersecurity"
+, "Configuration Management"
+, "Group Policy"
+, "System Hardening"
+, "Best Practices"</category><guid>https://simeononsecurity.ch/github/stig-compliant-domain-prep/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Make your Windows Domain compliant with STIGs and SRGs using SimeonOnSecurity's GPOs, and enhance security with NSACyber, Whonix, CERT, and Dirteam configurations.</description></item></channel></rss>

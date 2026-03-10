@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Access Security Policy Tool on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/code-access-security-policy-tool//img/banner.png</url><title>Code Access Security Policy Tool on simeononsecurity</title><link>https://simeononsecurity.ch/tags/code-access-security-policy-tool/</link></image><link>https://simeononsecurity.ch/tags/code-access-security-policy-tool/</link><description>Recent content in Code Access Security Policy Tool on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2020 22:14:22 -0500</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/code-access-security-policy-tool/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate .NET STIG Compliance with PowerShell Script</title><link>https://simeononsecurity.ch/github/dot-net-stig-script/</link><pubDate>Thu, 20 Aug 2020 22:14:22 -0500</pubDate><category>
+".NET STIG Script"
+, ".NET Framework"
+, "STIG Compliance"
+, "Powershell Automation"
+, "FIPS"
+, "Windows Server"
+, "Microsoft"
+, "Administrative Powershell"
+, "Code Access Security Policy Tool"
+, "Machine.config"
+, "DoD Compliance"
+, "Cybersecurity"
+, "Information Assurance"
+, "GitHub Repository"
+, "XML"
+, "Windows 7"
+, "IIS"
+, "Configuration Management"
+, "Security Hardening"
+, "Automation"</category><guid>https://simeononsecurity.ch/github/dot-net-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Easily implement the .NET Framework STIG with this PowerShell script, modifying the machine.config file and applying required registry changes for FIPS and other controls.</description></item></channel></rss>

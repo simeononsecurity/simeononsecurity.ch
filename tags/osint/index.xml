@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OSINT on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/osint//img/banner.png</url><title>OSINT on simeononsecurity</title><link>https://simeononsecurity.ch/tags/osint/</link></image><link>https://simeononsecurity.ch/tags/osint/</link><description>Recent content in OSINT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/osint/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Google Dorks: Unleash Effortless OSINT and Hacking Power</title><link>https://simeononsecurity.ch/articles/mastering-google-dorks-osint-hacking-power/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate><category>
+"SEO"
+, "Cybersecurity"
+, "Online Search"
+, "Google Dorks"
+, "Open Source Intelligence"
+, "Hacking Techniques"
+, "Digital Skills"
+, "Web Searching"
+, "Internet Security"
+, "Data Discovery"</category><guid>https://simeononsecurity.ch/articles/mastering-google-dorks-osint-hacking-power/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effortlessly enhance your online searches using Google Dorks, the ultimate search power tool, and find hidden treasures of information with ease. Uncover vulnerabilities, gather OSINT, and stay ahead of the game.</description><enclosure url="https://simeononsecurity.ch/img/cover/cartoon-magnifying-glass-uncovering-data.png" length="1593045" type="image/png"/></item><item><title>Automate OSINT with Shodan PowerShell Modules</title><link>https://simeononsecurity.ch/github/shodan-powershell/</link><pubDate>Sat, 14 Nov 2020 19:34:03 -0600</pubDate><category>
+"OSINT"
+, "automation"
+, "Shodan"
+, "PowerShell"
+, "API"
+, "enumeration"
+, "exploits"
+, "network scanning"
+, "cybersecurity"
+, "information gathering"
+, "cyber defense"
+, "cyber threat intelligence"
+, "pentesting"
+, "penetration testing"
+, "network security"
+, "threat hunting"
+, "Shodan API"
+, "Shodan PowerShell"
+, "PowerShell Modules"
+, "cyber reconnaissance"</category><guid>https://simeononsecurity.ch/github/shodan-powershell/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn to automate OSINT with the Shodan PowerShell Modules collection, which provides an interface to interact with the Shodan API for various functions such as hostname resolution, exploit searching, and more.</description></item></channel></rss>

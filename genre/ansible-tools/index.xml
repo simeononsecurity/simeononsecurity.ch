@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible Tools on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/ansible-tools//img/banner.png</url><title>Ansible Tools on simeononsecurity</title><link>https://simeononsecurity.ch/genre/ansible-tools/</link></image><link>https://simeononsecurity.ch/genre/ansible-tools/</link><description>Recent content in Ansible Tools on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/ansible-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible Automation: From Plain Ansible to Ansible Tower and Semaphore</title><link>https://simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Infrastructure Management"
+, "Configuration Management"
+, "DevOps"
+, "IT Operations"
+, "Open Source"
+, "Workflow Management"
+, "Scalability"
+, "Collaboration"
+, "Ansible Tools"</category><guid>https://simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Ansible automation with a comparison of plain Ansible, Ansible Tower, and Ansible Semaphore, and choose the right tool for efficient infrastructure management.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item></channel></rss>

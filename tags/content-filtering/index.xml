@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content Filtering on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/content-filtering//img/banner.png</url><title>Content Filtering on simeononsecurity</title><link>https://simeononsecurity.ch/tags/content-filtering/</link></image><link>https://simeononsecurity.ch/tags/content-filtering/</link><description>Recent content in Content Filtering on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/content-filtering/index.xml" rel="self" type="application/rss+xml"/><item><title>Budget-Friendly 10g pfSense Build with HP t740 for Effortless Networking</title><link>https://simeononsecurity.ch/guides/budget-friendly-10g-pfsense-build-hp-t740/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Cybersecurity"
+, "Hardware"
+, "DIY"
+, "Open-Source"
+, "Small Business"
+, "Home Network"
+, "Technology"
+, "IT Solutions"
+, "Network Security"</category><guid>https://simeononsecurity.ch/guides/budget-friendly-10g-pfsense-build-hp-t740/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effortlessly build a 10 gigabit capable pfSense router and firewall on a budget using the HP t740, ensuring high-performance networking for your needs.</description><enclosure url="https://simeononsecurity.ch/img/cover/budget-friendly-10g-pfsense-build.png" length="1180412" type="image/png"/></item><item><title>Choosing Between pfSense and Firewalla for Enhanced Network Security</title><link>https://simeononsecurity.ch/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Firewall Comparison"
+, "Cybersecurity Solutions"
+, "Network Management"
+, "Home Network"
+, "Enterprise Security"
+, "Firewall Features"
+, "Security Software"
+, "VPN Solutions"
+, "IoT Device Security"</category><guid>https://simeononsecurity.ch/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best firewall solution for your network security needs: a comprehensive comparison of pfSense and Firewalla.</description><enclosure url="https://simeononsecurity.ch/img/cover/Network-Security-Shield.png" length="1604896" type="image/png"/></item><item><title>Enhancing Home Network Security with Firewalla</title><link>https://simeononsecurity.ch/articles/firewalla-home-network-security-guide/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Home Network"
+, "Network Security"
+, "IoT Security"
+, "Online Safety"
+, "Home Labs"
+, "Digital Protection"
+, "Intrusion Detection"
+, "Content Filtering"</category><guid>https://simeononsecurity.ch/articles/firewalla-home-network-security-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how Firewalla improves home network security. Explore its benefits, suitability for home labs, and user-friendly features.</description><enclosure url="https://simeononsecurity.ch/img/cover/firewalla-home-network-security.png" length="1081996" type="image/png"/></item><item><title>NextDNS vs. AdGuard: Which DNS-Based Ad Blocker Wins?</title><link>https://simeononsecurity.ch/articles/nextdns-vs-adguard-ad-blocker-comparison/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Ad Blockers"
+, "DNS"
+, "Privacy"
+, "Internet Security"
+, "Online Protection"
+, "Digital Safety"
+, "Browsing Solutions"
+, "Online Privacy"</category><guid>https://simeononsecurity.ch/articles/nextdns-vs-adguard-ad-blocker-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparing NextDNS and AdGuard, the two powerful DNS-based ad blockers, to find the best fit for your browsing needs.</description><enclosure url="https://simeononsecurity.ch/img/cover/dns_adblocker_showdown.png" length="1362267" type="image/png"/></item><item><title>NextDNS: Effortless DNS Blocking for Enhanced Online Security</title><link>https://simeononsecurity.ch/articles/nextdns-great-dns-blocking-alternative/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "DNS Filtering"
+, "Internet Security"
+, "Cloud-Based Service"
+, "Online Protection"
+, "Web Filtering"
+, "Privacy Protection"
+, "DNS Blocking Alternative"
+, "Network Security"
+, "Internet Safety"</category><guid>https://simeononsecurity.ch/articles/nextdns-great-dns-blocking-alternative/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of NextDNS, a user-friendly DNS blocking service offering enhanced online security with automatic updates and customizable filtering policies.</description><enclosure url="https://simeononsecurity.ch/img/cover/nextdns_cybersecurity_shield.png" length="1496777" type="image/png"/></item></channel></rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CPU Releases on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/cpu-releases//img/banner.png</url><title>CPU Releases on simeononsecurity</title><link>https://simeononsecurity.ch/tags/cpu-releases/</link></image><link>https://simeononsecurity.ch/tags/cpu-releases/</link><description>Recent content in CPU Releases on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/cpu-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Today I Learned Cyber Security techniques</title><link>https://simeononsecurity.ch/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"Cyber Security"
+, "Defensive Techniques"
+, "Offensive Techniques"
+, "UniFi Protect"
+, "Windows Product Activation"
+, "CPU Releases"
+, "YouTube Videos"
+, "Tech Reviews"
+, "Network Security"
+, "Data Protection"</category><guid>https://simeononsecurity.ch/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;What SimeonOnSecurity learned about and found interesting today&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Today, SimeonOnSecurity completed multiple defensive and offensive labs on ImmersiveLabs. They also watched videos about the following topics:&lt;/p&gt;
+&lt;p&gt;UniFi Protect G3 Instant - Unboxing, review, and comparison (Crosstalk Solutions)
+Pirates, Crypto, and the Secret History of Windows Product Activation (Dave&amp;rsquo;s Garage)
+The release of a new CPU (LinusTechTips)
+Why someone moved to UniFi Protect (TechnoTim)&lt;/p&gt;
+&lt;h2 id="immersivelabs"&gt;
+&lt;a href="#immersivelabs" title="ImmersiveLabs:"&gt;ImmersiveLabs:&lt;/a&gt;
+&lt;a href="#immersivelabs" class="h-anchor" aria-hidden="true" title="ImmersiveLabs:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs"&gt;
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/"&gt;
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+&gt;Completed multiple Defensive and Offensive Labs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="videos-of-interest"&gt;
+&lt;a href="#videos-of-interest" title="Videos of Interest:"&gt;Videos of Interest:&lt;/a&gt;
+&lt;a href="#videos-of-interest" class="h-anchor" aria-hidden="true" title="Videos of Interest:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison"&gt;
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t"&gt;
+&lt;a href="https://www.youtube.com/watch?v=JmLqZ36aKJA&amp;amp;t"
+rel="noopener external" target="_blank"
+&gt;Crosstalk Solutions - UniFi Protect G3 Instant - Unboxing, review, and comparison&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation"&gt;
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=FpKNFCFABp0"&gt;
+&lt;a href="https://www.youtube.com/watch?v=FpKNFCFABp0"
+rel="noopener external" target="_blank"
+&gt;Dave&amp;rsquo;s Garage - Pirates, Crypto, and the Secret History of Windows Product Activation&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet"&gt;
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=g2BEr6BCg_E"&gt;
+&lt;a href="https://www.youtube.com/watch?v=g2BEr6BCg_E"
+rel="noopener external" target="_blank"
+&gt;LinusTechTips - You Can&amp;rsquo;t Buy This CPU&amp;hellip; Yet&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="TechnoTim - Why I moved to UniFi Protect"&gt;
+&lt;meta itemprop="url" content="https://www.youtube.com/watch?v=W9XgDZAezkg"&gt;
+&lt;a href="https://www.youtube.com/watch?v=W9XgDZAezkg"
+rel="noopener external" target="_blank"
+&gt;TechnoTim - Why I moved to UniFi Protect&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

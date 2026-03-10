@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Application Development on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/application-development//img/banner.png</url><title>Application Development on simeononsecurity</title><link>https://simeononsecurity.ch/tags/application-development/</link></image><link>https://simeononsecurity.ch/tags/application-development/</link><description>Recent content in Application Development on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/application-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Unsafe and Insecure C# Functions: Secure Coding Practices and Alternatives for Stronger Software</title><link>https://simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><category>
+"Software Development"
+, "C Sharp Programming"
+, "Cybersecurity"
+, "Code Security"
+, "Secure Coding"
+, "Programming Best Practices"
+, "Software Vulnerabilities"
+, "Cryptography"
+, "Web Development"
+, "Application Security"</category><guid>https://simeononsecurity.ch/articles/unsafe-c-sharp-functions-secure-coding-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the risks of unsafe C sharp functions and learn secure alternatives.</description><enclosure url="https://simeononsecurity.ch/img/cover/secure-coding-shield.png" length="1516443" type="image/png"/></item><item><title>Secure Coding in Python: Best Practices for Robust Application Security</title><link>https://simeononsecurity.ch/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"Programming"
+, "Application Security"
+, "Python Development"
+, "Secure Coding"
+, "Web Development"
+, "Data Analysis"
+, "Artificial Intelligence"
+, "Software Development"
+, "Cybersecurity"
+, "Programming Languages"</category><guid>https://simeononsecurity.ch/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the best practices for secure coding in Python to ensure robust application security and protect against vulnerabilities like SQL injection and cross-site scripting.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png"/></item><item><title>DevSecOps: Tackling Challenges, Seizing Opportunities.</title><link>https://simeononsecurity.ch/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><category>
+"DevSecOps"
+, "information security"
+, "security testing"
+, "agile methodologies"
+, "collaboration"
+, "government regulations"
+, "automation"
+, "application development"
+, "scalability"
+, "continuous monitoring"
+, "NIST guidelines"
+, "feedback loops"
+, "modularity"
+, "vulnerabilities"
+, "quality assurance"
+, "cybersecurity"
+, "IT infrastructure"
+, "software development tools"
+, "risk management"</category><guid>https://simeononsecurity.ch/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+This article explores the challenges and opportunities of DevSecOps in organizations, including better collaboration, improved scalability, integration with government regulations, and more.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png"/></item></channel></rss>

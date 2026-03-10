@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud Computing on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/cloud-computing//img/banner.png</url><title>Cloud Computing on simeononsecurity</title><link>https://simeononsecurity.ch/genre/cloud-computing/</link></image><link>https://simeononsecurity.ch/genre/cloud-computing/</link><description>Recent content in Cloud Computing on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/cloud-computing/index.xml" rel="self" type="application/rss+xml"/><item><title>Unlocking Virtualization: Boost IT Efficiency &amp; Scalability</title><link>https://simeononsecurity.ch/articles/understanding-virtualization_-concepts-and-applications/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"Virtualization Guide"
+, "IT Infrastructure"
+, "Tech Innovations"
+, "Cloud Computing"
+, "Data Center Management"
+, "Computing Efficiency"
+, "Network Solutions"
+, "Cybersecurity Insights"
+, "Software Progress"
+, "Hardware Optimization"</category><guid>https://simeononsecurity.ch/articles/understanding-virtualization_-concepts-and-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Virtualization for Peak IT Performance—Discover Types, Benefits &amp; Best Practices for Superior Infrastructure Management. Excited to Learn More?</description><enclosure url="https://simeononsecurity.ch/img/cover/understanding-virtualization_-concepts-and-applications.jpeg" length="132513" type="image/jpeg"/></item><item><title>Best Data Storage Solutions: HDD, SSD &amp; Cloud Explained</title><link>https://simeononsecurity.ch/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</link><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate><category>
+"Data Storage"
+, "Technology"
+, "Digital Solutions"
+, "HDD Guides"
+, "SSD Insights"
+, "Cloud Computing"
+, "IT Management"
+, "Hardware Reviews"
+, "Software Tips"
+, "Personal Computing"</category><guid>https://simeononsecurity.ch/articles/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover How to Choose Between HDD, SSD, and Cloud Storage. Which Is Right for You?</description><enclosure url="https://simeononsecurity.ch/img/cover/data-storage-solutions_-understanding-hdds-ssds-and-cloud-options.jpeg" length="136072" type="image/jpeg"/></item><item><title>Virtualization Showdown: VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE, XCP-NG</title><link>https://simeononsecurity.ch/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Virtualization"
+, "IT Infrastructure"
+, "Server Virtualization"
+, "Enterprise Software"
+, "Cloud Computing"
+, "Data Center Solutions"
+, "Open Source Virtualization"
+, "Virtual Machine Management"
+, "Virtualization Comparison"</category><guid>https://simeononsecurity.ch/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the effortless comparison of VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE, and XCP-NG and choose your ideal virtualization solution for business success.</description><enclosure url="https://simeononsecurity.ch/img/cover/virtualization-server-comparison.png" length="1077662" type="image/png"/></item><item><title>FedRAMP: Empowering Secure Cloud Solutions for Government</title><link>https://simeononsecurity.ch/articles/fedramp-explained-government-cloud-security/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Government"
+, "Cloud Services"
+, "Compliance"
+, "Federal Regulations"
+, "Information Security"
+, "Risk Management"
+, "Cloud Computing"
+, "Data Protection"</category><guid>https://simeononsecurity.ch/articles/fedramp-explained-government-cloud-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Unlock the power of FedRAMP for robust, secure government cloud solutions.</description><enclosure url="https://simeononsecurity.ch/img/cover/Secure-Cloud-Government-Shield.png" length="1075283" type="image/png"/></item><item><title>Unleash Your Potential with Azure for Students: Free Software &amp; More</title><link>https://simeononsecurity.ch/articles/unleash-potential-azure-students-free-software/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cloud Computing"
+, "Student Resources"
+, "Software Development"
+, "Microsoft Azure"
+, "Windows Server"
+, "Windows 10"
+, "Windows 11"
+, "Visual Studio"
+, "Learning Tools"</category><guid>https://simeononsecurity.ch/articles/unleash-potential-azure-students-free-software/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Microsoft Azure for Students - access free software like Windows Server, Windows 10, Windows 11 desktop, and Visual Studio to unlock your potential in technology and development.</description><enclosure url="https://simeononsecurity.ch/img/cover/azure_for_students_animated_cloud.png" length="1440662" type="image/png"/></item><item><title>Mastering VMware vSphere: Complete Guide to guest_os_type Values</title><link>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "VMware vSphere"
+, "Packer Builder"
+, "Guest OS Types"
+, "Automation"
+, "Infrastructure-as-Code"
+, "DevOps"
+, "System Administration"
+, "Cloud Computing"
+, "IT Management"</category><guid>https://simeononsecurity.ch/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the valid guest os type values for vSphere Packer Builder, optimizing your VM creation process for VMware vSphere with ease.</description><enclosure url="https://simeononsecurity.ch/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png"/></item><item><title>Mastering PowerCLI: A Comprehensive Guide on How to Use PowerCLI for Efficient vSphere Management</title><link>https://simeononsecurity.ch/articles/how-to-use-powercli-for-vsphere-management/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Virtualization"
+, "VMware"
+, "IT Management"
+, "Automation"
+, "Command-Line Interface"
+, "Scripting"
+, "System Administration"
+, "Cloud Computing"
+, "Datacenter Management"</category><guid>https://simeononsecurity.ch/articles/how-to-use-powercli-for-vsphere-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of PowerCLI and learn how to effectively use it for managing your VMware vSphere environment, automating tasks, and maximizing productivity.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.png" length="1409787" type="image/png"/></item><item><title>Unlock Your Career Potential with Free Oracle Certifications for Cybersecurity and IT Professionals</title><link>https://simeononsecurity.ch/articles/free-oracle-certifications-cybersecurity-it-professionals/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "IT Certifications"
+, "Professional Development"
+, "Oracle Certifications"
+, "Cloud Computing"
+, "Data Management"
+, "Career Advancement"
+, "Online Learning"
+, "Technology Education"</category><guid>https://simeononsecurity.ch/articles/free-oracle-certifications-cybersecurity-it-professionals/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the value of free Oracle certifications for cybersecurity and IT professionals, and explore the opportunities they offer for career advancement in Oracle Cloud Infrastructure (OCI).</description><enclosure url="https://simeononsecurity.ch/img/cover/An_animated_image_featuring_a_professional_cyb.png" length="1161985" type="image/png"/></item><item><title>Navigating IT Career Paths: Opportunities, Skills, Growth</title><link>https://simeononsecurity.ch/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><category>
+"IT careers"
+, "Career paths"
+, "Skills development"
+, "Qualifications"
+, "Growth opportunities"
+, "Technology industry"
+, "Cybersecurity"
+, "Software development"
+, "Data science"
+, "Cloud computing"</category><guid>https://simeononsecurity.ch/articles/navigating-it-career-paths-explore-opportunities-skills-growth/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover diverse IT career paths, acquire essential skills, and find growth opportunities to embark on a successful journey in the digital age.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_featuring_a_group_of_diverse_p.png" length="428594" type="image/png"/></item><item><title>Network Plus Course: Cloud Computing and Infrastructure Concepts</title><link>https://simeononsecurity.ch/network-plus/cloud-computing-infrastructure-concepts/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud Computing"
+, "Infrastructure Concepts"
+, "Deployment Models"
+, "Service Models"
+, "Infrastructure as Code"
+, "Security Implications"
+, "Elasticity"
+, "Scalability"
+, "Network Security"
+, "Connectivity Options"</category><guid>https://simeononsecurity.ch/network-plus/cloud-computing-infrastructure-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the different deployment and service models, infrastructure as code, and security implications in cloud computing. Gain insights into public, private, hybrid, and community clouds, SaaS, IaaS, PaaS, and DaaS, and harness the potential of automation, scalability, and network security measures.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_illustration_of_a_cloud_with_interc.png" length="1268940" type="image/png"/></item><item><title>Network Plus Course: Exploring Network Services, Connectivity Options, and Architecture</title><link>https://simeononsecurity.ch/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Networking"
+, "Connectivity"
+, "Data Exchange"
+, "Network Architecture"
+, "Cloud Computing"
+, "Network Services"
+, "DNS"
+, "DHCP"
+, "NTP"</category><guid>https://simeononsecurity.ch/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the functionalities of DHCP, DNS, and NTP services, understand corporate and datacenter network architecture, and explore cloud concepts and connectivity options for seamless communication and data management.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_illustration_showcasing_various_networks.png" length="1960971" type="image/png"/></item><item><title>Secure Cloud Solutions: AWS vs. Azure vs. Google Cloud Platform - Choosing the Best for Your Business</title><link>https://simeononsecurity.ch/articles/aws-vs-azure-vs-google-cloud-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cloud Computing"
+, "Cloud Security"
+, "AWS"
+, "Azure"
+, "Google Cloud Platform"
+, "Data Security"
+, "Encryption"
+, "Identity and Access Management"
+, "Compliance"
+, "Threat Detection"</category><guid>https://simeononsecurity.ch/articles/aws-vs-azure-vs-google-cloud-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the top cloud security features and certifications of AWS, Azure, and Google Cloud Platform to choose the best secure cloud solution for your business.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png"/></item><item><title>Key Skills for Effective Information Systems Managers</title><link>https://simeononsecurity.ch/articles/five-key-skills-every-information-systems-manager-should-have/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Business"
+, "Management"
+, "IT"
+, "Career Development"
+, "Digital Transformation"
+, "Data Analysis"
+, "Cloud Computing"
+, "Project Management"
+, "Leadership"</category><guid>https://simeononsecurity.ch/articles/five-key-skills-every-information-systems-manager-should-have/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the 5 key skills every manager of information systems should have to succeed in today's digital world.</description><enclosure url="https://simeononsecurity.ch/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png" length="356462" type="image/png"/></item></channel></rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure Management on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/infrastructure-management//img/banner.png</url><title>Infrastructure Management on simeononsecurity</title><link>https://simeononsecurity.ch/tags/infrastructure-management/</link></image><link>https://simeononsecurity.ch/tags/infrastructure-management/</link><description>Recent content in Infrastructure Management on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/infrastructure-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Automation Showdown: Ansible vs. Puppet vs. Chef - A Comparison of Key Automation Tools</title><link>https://simeononsecurity.ch/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Automation Tools"
+, "Configuration Management"
+, "IT Infrastructure"
+, "DevOps"
+, "IT Operations"
+, "Cloud Automation"
+, "Software Deployment"
+, "Infrastructure Management"
+, "Open-Source Tools"</category><guid>https://simeononsecurity.ch/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the differences between Ansible, Puppet, and Chef to choose the right automation tool for your organization's needs in this comprehensive comparison.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Ansible Automation: From Plain Ansible to Ansible Tower and Semaphore</title><link>https://simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automation"
+, "Infrastructure Management"
+, "Configuration Management"
+, "DevOps"
+, "IT Operations"
+, "Open Source"
+, "Workflow Management"
+, "Scalability"
+, "Collaboration"
+, "Ansible Tools"</category><guid>https://simeononsecurity.ch/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Ansible automation with a comparison of plain Ansible, Ansible Tower, and Ansible Semaphore, and choose the right tool for efficient infrastructure management.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>CheckMK: A Comprehensive Monitoring Solution for Efficient IT Infrastructure Management</title><link>https://simeononsecurity.ch/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "IT Infrastructure"
+, "Network Monitoring"
+, "Application Monitoring"
+, "IT Operations"
+, "Performance Analytics"
+, "Automation"
+, "Event Management"
+, "Scalability"
+, "Flexibility"</category><guid>https://simeononsecurity.ch/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the features, benefits, and use cases of CheckMK, a comprehensive monitoring solution for proactive IT infrastructure management.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item></channel></rss>

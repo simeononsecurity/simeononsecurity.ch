@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LetsEncrypt on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/letsencrypt//img/banner.png</url><title>LetsEncrypt on simeononsecurity</title><link>https://simeononsecurity.ch/tags/letsencrypt/</link></image><link>https://simeononsecurity.ch/tags/letsencrypt/</link><description>Recent content in LetsEncrypt on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Mon, 27 Jul 2020 10:15:03 -0700</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/letsencrypt/index.xml" rel="self" type="application/rss+xml"/><item><title>Secure Apache Web Server: A Comprehensive Guide for System Administrators</title><link>https://simeononsecurity.ch/github/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 10:15:03 -0700</pubDate><category>
+"Apache Web Server"
+, "Security"
+, "SSL Encryption"
+, "ModSecurity"
+, "OWASP Core Rule Set"
+, "Self-Signed Certificate"
+, "LetsEncrypt"
+, "Certbot"
+, "Firewall"
+, "Configuration"
+, "System Administration"
+, "Web Application Security"
+, "Best Practices"
+, "Common Attacks"
+, "HTTPS"
+, "Web Server Hardening"
+, "Ubuntu"
+, "Debian"
+, "CentOS"
+, "RHEL"</category><guid>https://simeononsecurity.ch/github/hardening-apache/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to harden your Apache web server and ensure maximum security with this comprehensive guide for system administrators.</description></item></channel></rss>

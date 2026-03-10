@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://simeononsecurity.ch/pt//img/banner.png</url><title>simeononsecurity</title><link>https://simeononsecurity.ch/pt/</link></image><link>https://simeononsecurity.ch/pt/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/pt/index.xml" rel="self" type="application/rss+xml"/><item><title>Guia Definitivo: Atualizações offline do Linux para Ubuntu Debian e CentOS RHEL</title><link>https://simeononsecurity.ch/pt/guides/how-to-handle-offline-network-linux-updates/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><category>
+"Atualizações do Linux"
+, "ubuntu"
+, "Debian"
+, "CentOS"
+, "RHEL"</category><guid>https://simeononsecurity.ch/pt/guides/how-to-handle-offline-network-linux-updates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png" length="379936" type="image/png"/></item><item><title>Atualização de firmware offline para Ubiquiti Unifi UDM Pro e UDM SE via linha de comando SSH</title><link>https://simeononsecurity.ch/pt/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><category>
+"Atualização de firmware Ubiquiti"
+, "UDM Pro"
+, "UDM SE"
+, "atualização de firmware off-line"
+, "linha de comando SSH"</category><guid>https://simeononsecurity.ch/pt/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como atualizar o firmware do Ubiquiti Unifi UDM Pro e UDM SE offline através da linha de comando SSH para desempenho e segurança ideais.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png"/></item><item><title>Automatizando patches e atualizações do Linux com Ansible: um guia abrangente</title><link>https://simeononsecurity.ch/pt/guides/automate-linux-patching-and-updates-with-ansible/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><category>
+"Correção do Linux"
+, "Automação Ansible"
+, "automatizando atualizações"
+, "Manutenção de sistema"
+, "automação de TI"</category><guid>https://simeononsecurity.ch/pt/guides/automate-linux-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a automatizar patches e atualizações do Linux usando o Ansible, abrangendo várias distribuições e instruções de configuração.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png"/></item><item><title>Automatizando atualizações do Windows com Ansible: um guia completo</title><link>https://simeononsecurity.ch/pt/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><category>
+"automatizando as atualizações do Windows"
+, "Automação Ansible"
+, "administração de sistema"
+, "patches de segurança"
+, "infraestrutura de TI"</category><guid>https://simeononsecurity.ch/pt/guides/automate-windows-patching-and-updates-with-ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Simplifique o processo de atualização de sistemas Windows automatizando com Ansible - instruções passo a passo e práticas recomendadas incluídas.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png"/></item><item><title>Helium Mobile Beta: revolucionando a conectividade móvel com uma rede descentralizada</title><link>https://simeononsecurity.ch/pt/other/helium-mobile-beta-explained/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><category>
+"Helium Mobile Beta"
+, "rede descentralizada"
+, "conectividade móvel"
+, "seguro"
+, "confiável"</category><guid>https://simeononsecurity.ch/pt/other/helium-mobile-beta-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra como o Helium Mobile Beta está transformando a conectividade móvel com sua rede descentralizada, garantindo segurança, confiabilidade e acessibilidade para os usuários.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png" length="251043" type="image/png"/></item><item><title>Simplifique o gerenciamento de pacotes do Windows com o Chocolatey: simplifique as atualizações e melhore a segurança</title><link>https://simeononsecurity.ch/pt/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link><pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate><category>
+"Gerenciamento de pacotes do Windows"
+, "achocolatado"
+, "atualizações de software"
+, "gerenciador de pacotes"
+, "interface da Linha de comando"</category><guid>https://simeononsecurity.ch/pt/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra os benefícios de usar o gerenciamento de pacotes do Chocolatey para Windows: automatize atualizações, economize tempo e garanta a segurança do sistema.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png"/></item><item><title>Evitando golpes de phishing: táticas, prevenção e proteção</title><link>https://simeononsecurity.ch/pt/articles/understanding-tactics-used-by-phising-scammers/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><category>
+"golpes de phishing"
+, "cíber segurança"
+, "ameaças online"
+, "falsificação de e-mail"
+, "Engenharia social"</category><guid>https://simeononsecurity.ch/pt/articles/understanding-tactics-used-by-phising-scammers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda sobre as táticas usadas pelos golpistas de phishing e descubra estratégias eficazes para se proteger de se tornar uma vítima.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png" length="190330" type="image/png"/></item><item><title>Práticas recomendadas para gerenciamento de fonte de tempo em domínios Windows e máquinas autônomas</title><link>https://simeononsecurity.ch/pt/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><category>
+"fontes de tempo"
+, "domínio do Windows"
+, "máquinas autônomas"
+, "sincronização de tempo"
+, "cronometragem precisa"</category><guid>https://simeononsecurity.ch/pt/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como configurar e lidar com fontes de tempo de forma eficaz em domínios do Windows e máquinas autônomas para garantir a sincronização de tempo precisa e evitar possíveis problemas.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.png" length="276853" type="image/png"/></item><item><title>Otimizando a Antena Celular Direcional: Guia de Apontamento e Mira</title><link>https://simeononsecurity.ch/pt/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><category>
+"antena de celular"
+, "antena direcional"
+, "reforço de telefone celular"
+, "modem celular"
+, "sinal de força"</category><guid>https://simeononsecurity.ch/pt/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como apontar e apontar sua antena celular direcional para obter força e confiabilidade de sinal ideais, incluindo a localização de torres de celular e a compreensão das zonas de Fresnel.</description><enclosure url="https://simeononsecurity.ch/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png" length="346431" type="image/png"/></item><item><title>Guia Definitivo: Instalando o sistema operacional Graphene em seu dispositivo Google Pixel</title><link>https://simeononsecurity.ch/pt/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><category>
+"Sistema operacional de grafeno"
+, "Google Pixel"
+, "privacidade"
+, "segurança"
+, "Android"</category><guid>https://simeononsecurity.ch/pt/guides/how-to-install-graphine-os/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como instalar o Graphene OS em seu dispositivo Google Pixel para maior privacidade e segurança.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png" length="160595" type="image/png"/></item><item><title>Dicas de especialistas para escrever um currículo poderoso</title><link>https://simeononsecurity.ch/pt/other/tips-for-writing-a-great-resume/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><category>
+"retomar a escrita"
+, "dicas de currículo"
+, "uso de fonte"
+, "estrutura de currículo"
+, "tipos de currículo"</category><guid>https://simeononsecurity.ch/pt/other/tips-for-writing-a-great-resume/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda as práticas recomendadas para criar um currículo eficaz, incluindo uso de fonte, tipos de currículo, otimização de palavras-chave, tratamento de lacunas e otimização de layout.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png" length="126237" type="image/png"/></item><item><title>Crankk vs Helium IoT: uma comparação abrangente de redes IoT</title><link>https://simeononsecurity.ch/pt/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><category>
+"Crankk x Hélio IoT"
+, "redes IoT"
+, "modelos de consenso"
+, "hardware de mineração"
+, "taxas de gás"</category><guid>https://simeononsecurity.ch/pt/other/crankk-vs-helium-which-is-best/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra as diferenças entre as redes Crankk e Helium IoT, seus modelos de consenso, hardware de mineração, taxas de gás e muito mais.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png" length="221578" type="image/png"/></item><item><title>Prevenção do cyberstalking: dicas para se manter seguro online</title><link>https://simeononsecurity.ch/pt/articles/understanding-and-preventing-cyber-stalking/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><category>
+"perseguição cibernética"
+, "segurança online"
+, "segurança da Internet"
+, "prevenção de perseguição"
+, "segurança pessoal"</category><guid>https://simeononsecurity.ch/pt/articles/understanding-and-preventing-cyber-stalking/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como se proteger do cyberstalking e se manter seguro online com essas dicas e técnicas.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png" length="302241" type="image/png"/></item><item><title>Prevenção de ataques de engenharia social: estratégias e práticas recomendadas</title><link>https://simeononsecurity.ch/pt/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link><pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate><category>
+"Engenharia social"
+, "cíber segurança"
+, "prevenção"
+, "treinamento de funcionário"
+, "políticas de segurança"</category><guid>https://simeononsecurity.ch/pt/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como evitar ataques de engenharia social e proteger as informações confidenciais de sua organização com treinamento de funcionários, políticas de segurança e muito mais.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png"/></item><item><title>Melhores amplificadores de sinal de celular para uso doméstico</title><link>https://simeononsecurity.ch/pt/other/cell-phone-signal-and-coverage-amplification/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><category>
+"Amplificadores de sinal de celular"
+, "Weboost"
+, "Hiboost"
+, "Conectividade doméstica"
+, "Cobertura de telefone celular"</category><guid>https://simeononsecurity.ch/pt/other/cell-phone-signal-and-coverage-amplification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aumente o sinal do seu celular em casa com nossas principais opções para conectividade confiável e cobertura em toda a casa.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png" length="81652" type="image/png"/></item><item><title>Ubiquiti Unifi vs TP-Link Omada: Qual sistema de rede é ideal para você?</title><link>https://simeononsecurity.ch/pt/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><category>
+"Ubiquiti"
+, "TP-Link"
+, "rede"
+, "unifi"
+, "Omada"</category><guid>https://simeononsecurity.ch/pt/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare os sistemas de rede Ubiquiti Unifi e TP-Link Omada para escolher o ideal para suas necessidades.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_split-screen_illustration_of_a_complex_network.png" length="516405" type="image/png"/></item><item><title>Ignorando o BGW-320: Usando um Azores COTS ONT - Um Guia Passo a Passo</title><link>https://simeononsecurity.ch/pt/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "Açores"
+, "fibra"
+, "rede"</category><guid>https://simeononsecurity.ch/pt/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como contornar o BGW-320 e usar um COTS ONT feito pelos Açores para se conectar à rede do seu ISP com este guia fácil de seguir.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png"/></item><item><title>Executando o pfSense no HP t740 Thin Client: dicas e guia de solução de problemas</title><link>https://simeononsecurity.ch/pt/guides/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><category>
+"pfSense"
+, "OPNsense"
+, "HardenedBSD"
+, "HP t740"
+, "cliente magro"</category><guid>https://simeononsecurity.ch/pt/guides/installing-pfsense-on-hp-t740-thin-client/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como configurar o pfSense no HP t740 Thin Client e como solucionar possíveis problemas como congelamento e problemas de detecção de SSD.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png" length="411431" type="image/png"/></item><item><title>Executando o pfSense no HP t740 Thin Client: dicas e guia de solução de problemas</title><link>https://simeononsecurity.ch/pt/other/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><category>
+"pfSense"
+, "OPNsense"
+, "HardenedBSD"
+, "HP t740"
+, "cliente magro"</category><guid>https://simeononsecurity.ch/pt/other/installing-pfsense-on-hp-t740-thin-client/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como configurar o pfSense no HP t740 Thin Client e como solucionar possíveis problemas como congelamento e problemas de detecção de SSD.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png" length="411431" type="image/png"/></item><item><title>Proteja seus dados com a regra de backup 3-2-1.</title><link>https://simeononsecurity.ch/pt/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</link><pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate><category>
+"estratégia de backup"
+, "Proteção de dados"
+, "cíber segurança"
+, "redundância de dados"
+, "prevenção de perda de dados"</category><guid>https://simeononsecurity.ch/pt/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como proteger seus dados valiosos contra ataques cibernéticos, desastres naturais e falhas de hardware.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png" length="274502" type="image/png"/></item><item><title>Um guia para autenticação multifator: tipos e práticas recomendadas</title><link>https://simeononsecurity.ch/pt/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><category>
+"autenticação multifator"
+, "segurança online"
+, "senha de segurança"
+, "fatores de autenticação"
+, "autenticação de dois fatores"</category><guid>https://simeononsecurity.ch/pt/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda sobre os diferentes tipos de autenticação multifator e como escolher o melhor para suas necessidades de segurança em nosso guia definitivo.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png" length="311504" type="image/png"/></item><item><title>O que são os Cyber Sentinels e por que você deve participar</title><link>https://simeononsecurity.ch/pt/articles/what-is-the-cyber-sentinels-club/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><category>
+"cíber segurança"
+, "ISTO"
+, "comunidade"
+, "compartilhamento de conhecimento"
+, "colaboração"</category><guid>https://simeononsecurity.ch/pt/articles/what-is-the-cyber-sentinels-club/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra a missão e os princípios do Cyber Sentinels, uma comunidade de profissionais cibernéticos e de TI comprometidos em compartilhar conhecimento e desenvolver soluções inovadoras para os desafios de segurança cibernética.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_image_of_a_stylized_shield_or_emblem.png" length="393218" type="image/png"/></item><item><title>O que fazer se você acha que seu e-mail ou telefone está comprometido</title><link>https://simeononsecurity.ch/pt/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><category>
+"segurança do dispositivo"
+, "Proteção de dados"
+, "dispositivo comprometido"
+, "e-mail hackeado"
+, "telefone hackeado"</category><guid>https://simeononsecurity.ch/pt/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda as etapas essenciais a serem seguidas se você suspeitar que seu e-mail, área de trabalho ou telefone foi invadido ou comprometido, incluindo alteração de senhas, verificação de malware e limpeza do dispositivo.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png" length="282035" type="image/png"/></item><item><title>Jogando na rede Helium: explorando vulnerabilidades com MiddleMan e Chirp Stack Packet Multiplexer</title><link>https://simeononsecurity.ch/pt/other/how-to-game-on-the-helium-network/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"rede de hélio"
+, "Comprovante de Cobertura"
+, "Intermediário"
+, "Multiplexador de pacote de pilha Chirp"
+, "jogos"</category><guid>https://simeononsecurity.ch/pt/other/how-to-game-on-the-helium-network/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a manipular a rede Helium explorando vulnerabilidades com MiddleMan e Chirp Stack Packet Multiplexer, bem como os riscos e consequências de fazê-lo.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png" length="275420" type="image/png"/></item><item><title>O poder das redes LoRa: explicando a integração do hélio</title><link>https://simeononsecurity.ch/pt/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"rede LoRa"
+, "integração de hélio"
+, "Encaminhadores de pacotes Semtech"
+, "aplicações IoT"
+, "LPWAN"</category><guid>https://simeononsecurity.ch/pt/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra os benefícios de integrar a rede LoRa com Helium para dispositivos IoT e setores como cidades inteligentes, agricultura e logística.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png" length="409429" type="image/png"/></item><item><title>Unraid vs TrueNas: qual sistema operacional NAS é ideal para você?</title><link>https://simeononsecurity.ch/pt/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate><category>
+"não atacado"
+, "TrueNAS"
+, "Sistema operacional NAS"
+, "Comparação"
+, "Facilidade de uso"</category><guid>https://simeononsecurity.ch/pt/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uma comparação abrangente de Unraid e TrueNas, incluindo sua facilidade de uso, recursos, documentação e comunidade, para ajudar os usuários a tomar uma decisão informada sobre qual sistema operacional NAS é melhor para suas necessidades.</description><enclosure url="https://simeononsecurity.ch/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png"/></item><item><title>Criando um laboratório doméstico: um guia para profissionais de TI, estudantes e amadores</title><link>https://simeononsecurity.ch/pt/articles/what-is-a-homelab-and-should-you-have-one/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"Laboratório doméstico"
+, "profissionais de TI"
+, "estudantes"
+, "amadores"
+, "rede"</category><guid>https://simeononsecurity.ch/pt/articles/what-is-a-homelab-and-should-you-have-one/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Este guia abrangente fornece uma visão geral detalhada do que é um Home Lab, por que criar um, quais componentes são necessários, como configurá-lo, tópicos avançados a serem explorados e práticas recomendadas a serem seguidas.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png"/></item><item><title>Gerenciando uma frota de mineradores de baixa potência: um guia para acesso remoto e segurança</title><link>https://simeononsecurity.ch/pt/other/managing-low-powered-crypto-miners/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"mineiros de baixa potência"
+, "acesso remoto"
+, "segurança de rede"
+, "openvpn"
+, "guarda-fios"</category><guid>https://simeononsecurity.ch/pt/other/managing-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore as melhores práticas e ferramentas para gerenciar uma frota de mineradores de baixa potência, incluindo remote.it, ngrok, OpenVPN, WireGuard e muito mais.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png" length="236215" type="image/png"/></item><item><title>O que é Cibersegurança?</title><link>https://simeononsecurity.ch/pt/articles/what-is-cybersecurity/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"Cíber segurança"
+, "Ameaças cibernéticas"
+, "segurança on-line"
+, "Protegendo dados"
+, "Vírus"</category><guid>https://simeononsecurity.ch/pt/articles/what-is-cybersecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda os fundamentos da segurança cibernética, incluindo tipos de ameaças cibernéticas, a importância da segurança cibernética e as etapas para melhorar a segurança online.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png" length="426902" type="image/png"/></item><item><title>Os perigos de armazenar criptomoedas em exchanges: por que uma carteira de hardware é mais segura</title><link>https://simeononsecurity.ch/pt/articles/why-storing-money-in-exchanges-is-not-a-good-idea/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"Armazenamento de criptomoeda"
+, "riscos cambiais"
+, "carteira de hardware"
+, "Cíber segurança"
+, "Investir em criptomoeda"</category><guid>https://simeononsecurity.ch/pt/articles/why-storing-money-in-exchanges-is-not-a-good-idea/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Este artigo discute os perigos de armazenar criptomoedas em bolsas, explicando por que é equivalente a armazenar dinheiro em um colchão e destaca os benefícios de usar uma carteira de hardware para armazenamento seguro.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png" length="259171" type="image/png"/></item><item><title>Crie uma caixa de renda passiva lucrativa com hardware de baixa potência: um guia</title><link>https://simeononsecurity.ch/pt/other/creating-profitable-low-powered-crypto-miners/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"Construa uma caixa de renda passiva lucrativa"
+, "Hardware de baixa potência"
+, "Renda passiva"
+, "Cripto Minerador"
+, "Raspberry Pi"</category><guid>https://simeononsecurity.ch/pt/other/creating-profitable-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a configurar um minerador de criptografia de renda passiva de baixa potência usando um Raspberry Pi ou Intel NUC e ganhe $ 10- $ 20 por mês por caixa com este guia</description><enclosure url="https://simeononsecurity.ch/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png" length="405403" type="image/png"/></item><item><title>Use ChatGPT em seu terminal (Bash, PowerShell, Python): uma introdução à ferramenta CLI ChatGPT para desenvolvedores</title><link>https://simeononsecurity.ch/pt/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"ChatGPT"
+, "OpenAI"
+, "Interface da Linha de comando"
+, "CLI"
+, "geração de texto"</category><guid>https://simeononsecurity.ch/pt/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o modelo ChatGPT da OpenAI por meio da conveniente interface de linha de comando (CLI) para geração de texto e resposta a perguntas com facilidade.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_developer_sitting_at_their_computer_typing.png" length="360421" type="image/png"/></item><item><title>GUI do Windows Optimize-Harden-Debloat - Instalação guiada</title><link>https://simeononsecurity.ch/pt/github/windows-optimize-harden-debloat-gui/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"Otimização do Windows"
+, "Desbloqueio do Windows 10"
+, "Ajustes do Windows 10"
+, "GUI"
+, "dó sustenido"</category><guid>https://simeononsecurity.ch/pt/github/windows-optimize-harden-debloat-gui/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprimore sua experiência com o Windows 10 com facilidade usando o script automatizado da GUI do Windows-Optimize-Harden-Debloat, que oferece uma instalação guiada para minimizar a configuração do Windows 10.</description></item><item><title>Automatize a conformidade do Windows com Playbooks Ansible STIG</title><link>https://simeononsecurity.ch/pt/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automação"
+, "Conformidade do Windows"
+, "Playbooks do Ansible STIG"
+, "Endurecimento do Windows"
+, "Scripts STIG"</category><guid>https://simeononsecurity.ch/pt/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Simplifique sua conformidade de segurança com os Ansible STIG Playbooks para sistemas Windows.</description></item><item><title>Automate-Sysmon: Simplifique a implantação e a configuração do Sysmon</title><link>https://simeononsecurity.ch/pt/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automatizar Sysmon"
+, "Como Automatizar o Sysmon"
+, "Como automatizar a configuração do Symon"
+, "Como instalar o Symon"
+, "Powershell"</category><guid>https://simeononsecurity.ch/pt/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como implantar e configurar o Sysmon para melhorar a segurança do seu sistema com o script Automate-Sysmon, que simplifica o processo até mesmo para usuários novatos.</description></item><item><title>Script do bloqueador de anúncios em todo o sistema do Windows 10 para melhor privacidade e segurança</title><link>https://simeononsecurity.ch/pt/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"Windows 10"
+, "bloqueador de anúncios"
+, "bloqueio de telemetria"
+, "script do PowerShell"
+, "bloqueio de anúncios em todo o sistema"</category><guid>https://simeononsecurity.ch/pt/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bloqueie anúncios, rastreadores e telemetria no Windows 10 usando este poderoso script do PowerShell que utiliza o arquivo hosts e o Firewall do Windows para bloqueio de anúncios em todo o sistema.</description></item><item><title>Hoje eu aprendi técnicas de segurança cibernética</title><link>https://simeononsecurity.ch/pt/til/2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2021-01-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity aprendeu e encontrou coisas interessantes no ImmersiveLabs, vídeos e alguns tópicos que seriam de interesse para outras pessoas.&lt;/p&gt;
+&lt;p&gt;No ImmersiveLabs, SimeonOnSecurity concluiu vários laboratórios defensivos e ofensivos, fornecendo experiência prática e aprimorando as habilidades de segurança.&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity também encontrou vários vídeos interessantes, incluindo &amp;ldquo;Como roubar software livre (e fazê-lo mal)&amp;rdquo; de Gardiner Bryant, &amp;ldquo;O que está acontecendo (e não está acontecendo) com o Hyperloop | Respostas com Joe&amp;rdquo; de Joe Scott, &amp;ldquo;você precisa para aprender Máquinas Virtuais AGORA!! (Kali Linux VM, Ubuntu, Windows)&amp;rdquo; por NetworkChuck, e &amp;ldquo;Convince Your Dungeon Master to Buy a 3D Printer [with orcs]&amp;rdquo; por Zack Freedman. Cada vídeo fornece informações e perspectivas exclusivas sobre tecnologia, segurança e outros tópicos que podem ser informativos e divertidos.&lt;/p&gt;</description></item><item><title>Hoje eu aprendi técnicas de segurança cibernética</title><link>https://simeononsecurity.ch/pt/til/2021-01-16/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2021-01-16/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hoje, SimeonOnSecurity concluiu vários laboratórios defensivos e ofensivos no ImmersiveLabs. Eles também assistiram a vídeos sobre os seguintes tópicos:&lt;/p&gt;
+&lt;p&gt;UniFi Protect G3 Instant - Unboxing, revisão e comparação (Crostalk Solutions)
+Piratas, Criptomoedas e a História Secreta da Ativação de Produtos Windows (Dave&amp;rsquo;s Garage)
+O lançamento de uma nova CPU (LinusTechTips)
+Por que alguém mudou para UniFi Protect (TechnoTim)&lt;/p&gt;
+&lt;h2 id="laboratórios-imersivos"&gt;
+&lt;a href="#laborat%c3%b3rios-imersivos" title="Laboratórios Imersivos:"&gt;Laboratórios Imersivos:&lt;/a&gt;
+&lt;a href="#laborat%c3%b3rios-imersivos" class="h-anchor" aria-hidden="true" title="Laboratórios Imersivos:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;-
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Completed multiple Defensive and Offensive Labs"&gt;
+&lt;meta itemprop="url" content="https://www.immersivelabs.com/"&gt;
+&lt;a href="https://www.immersivelabs.com/"
+rel="noopener external" target="_blank"
+&gt;Completed multiple Defensive and Offensive Labs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;</description></item><item><title>Hoje aprendi sobre gerenciamento e recuperação de dados XFS</title><link>https://simeononsecurity.ch/pt/til/2021-01-09/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2021-01-09/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity tem acompanhado os últimos desenvolvimentos no mundo da tecnologia. Hoje, ele aprendeu sobre o XFS e seus recursos para backup e restauração de sistemas de arquivos. Ele encontrou um artigo informativo no site da Red Hat detalhando o processo e as melhores práticas para usar o XFS.&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity também atualizou seu repositório Shodan_PS no GitHub, que contém scripts úteis para usar o popular mecanismo de pesquisa para dispositivos conectados à Internet.&lt;/p&gt;</description></item><item><title>Hoje aprendi sobre ajustes e otimizações do NTFS</title><link>https://simeononsecurity.ch/pt/til/2021-01-08/</link><pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2021-01-08/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hoje, SimeonOnSecurity aprendeu e encontrou tópicos interessantes relacionados a ajustes de NTFS e várias atualizações de repositório.&lt;/p&gt;
+&lt;p&gt;No mundo dos sistemas de arquivos, NTFS é um sistema de arquivos comumente usado para Windows. Para aprimorar seu desempenho e confiabilidade, SimeonOnSecurity encontrou um ótimo recurso em PonderWorthy para discutir os ajustes de NTFS usando fsutil. O artigo oferece informações sobre como otimizar o sistema de arquivos NTFS para melhor desempenho e estabilidade.&lt;/p&gt;</description></item><item><title>Hoje aprendi sobre a aplicação de políticas de controle de aplicativos do Windows Defender (WDAC)</title><link>https://simeononsecurity.ch/pt/til/2021-01-04/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2021-01-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hoje, a SimeonOnSecurity aprofundou-se no tópico de auditoria e aplicação de políticas do Windows Defender Application Control (WDAC). WDAC é um recurso do Windows que ajuda a impedir que softwares não autorizados ou não confiáveis sejam executados em um dispositivo. Ele fornece um meio de controlar quais aplicativos podem ser executados em um dispositivo, ajudando assim a melhorar a segurança geral do dispositivo.&lt;/p&gt;</description></item><item><title>Otimize e proteja seu sistema Windows com o script Windows-Optimize-Harden-Debloat</title><link>https://simeononsecurity.ch/pt/github/windows-optimize-harden-debloat/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><category>
+"Otimização do Windows"
+, "Endurecimento do Windows"
+, "Desinchaço do Windows"
+, "Segurança do Windows"
+, "Desempenho do Windows"</category><guid>https://simeononsecurity.ch/pt/github/windows-optimize-harden-debloat/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Este guia abrangente fornece instruções passo a passo sobre como otimizar, proteger e desinchar seu sistema Windows para melhorar o desempenho, a segurança e a privacidade.</description></item><item><title>Hoje aprendi sobre novas ferramentas de segurança, analisadores de código estático e opções de serviço auto-hospedado</title><link>https://simeononsecurity.ch/pt/til/2020-12-27/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2020-12-27/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity é uma pessoa que tem grande interesse em segurança e privacidade e encontrou vários recursos hoje que achou interessantes e gostaria de compartilhar com outras pessoas.&lt;/p&gt;
+&lt;p&gt;Um dos recursos que chamou a atenção deles é a lista &amp;ldquo;Awesome Security&amp;rdquo; no GitHub. Esta lista contém uma extensa coleção de ferramentas de segurança incríveis e a SimeonOnSecurity planeja continuar explorando e aprendendo sobre os itens desta lista.&lt;/p&gt;</description></item><item><title>Hoje aprendi sobre o CVE-2020-17049 e a ativação baseada em token do Windows</title><link>https://simeononsecurity.ch/pt/til/2020-12-28/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2020-12-28/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity aprendeu recentemente sobre dois tópicos no campo da segurança do computador: CVE-2020-17049, também conhecido como Kerberos Bronze Bit Attack e Windows Token-Based Activation.&lt;/p&gt;
+&lt;p&gt;O Kerberos Bronze Bit Attack, conforme explicado em uma série de postagens de blog da Netspi e em uma postagem da Trimarcsecurity, é uma vulnerabilidade no protocolo de autenticação Kerberos. Essa vulnerabilidade pode permitir que um invasor comprometa um Active Directory, que é um repositório central de informações sobre usuários, computadores e outros recursos de uma organização. A implantação das alterações do Kerberos S4U para lidar com essa vulnerabilidade é discutida em um artigo de suporte da Microsoft.&lt;/p&gt;</description></item><item><title>Hoje eu aprendi sobre Android Debloating e uma nova técnica de privacidade</title><link>https://simeononsecurity.ch/pt/til/2020-12-26/</link><pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/til/2020-12-26/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;O que SimeonOnSecurity aprendeu e achou interessante hoje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hoje, SimeonOnSecurity encontrou duas ferramentas interessantes e úteis relacionadas à segurança e privacidade: Universal Android Debloater e DeepPrivacy.&lt;/p&gt;
+&lt;p&gt;O Universal Android Debloater é um script bash usando ADB (Android Debug Bridge) para debloat dispositivos Android não enraizados. Esta ferramenta pode ajudar a melhorar a privacidade, segurança e duração da bateria do seu dispositivo, removendo aplicativos indesejados e bloatware. Você pode encontrar o Universal Android Debloater em
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="https://gitlab.com/W1nst0n/universal-android-debloater"&gt;
+&lt;meta itemprop="url" content="https://gitlab.com/W1nst0n/universal-android-debloater"&gt;
+&lt;a href="https://gitlab.com/W1nst0n/universal-android-debloater"
+rel="noopener external" target="_blank"
+&gt;https://gitlab.com/W1nst0n/universal-android-debloater&lt;/a&gt;
+&lt;/span&gt;
+.&lt;/p&gt;</description></item><item><title>Automatize a ativação do KMS do Windows com o script GLVK</title><link>https://simeononsecurity.ch/pt/github/kms-auto-ps/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><category>
+"Ativação do Windows"
+, "Chaves do Cliente KMS"
+, "GLVK"
+, "Atualizações do Windows"
+, "Conformidade"</category><guid>https://simeononsecurity.ch/pt/github/kms-auto-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Simule o processo de ativação do KMS do Windows 10 usando o script de instalação automática GLVK da SimeonOnSecurity e saiba mais sobre as chaves do cliente KMS e GLVK nas leituras recomendadas da Microsoft.</description></item><item><title>Guia completo para proteger o Windows com o Windows Defender Application Control WDAC</title><link>https://simeononsecurity.ch/pt/github/windows-defender-application-control-hardening/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Proteção de WDAC de controle de aplicativos do Windows Defender"
+, "PowerShell"
+, "Script do PowerShell"
+, "Automação"
+, "Conformidade"</category><guid>https://simeononsecurity.ch/pt/github/windows-defender-application-control-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar o Windows Defender Application Control WDAC para fortalecer seu sistema operacional Windows com scripts e ferramentas.</description></item><item><title>Instalação off-line do módulo RSAT ActiveDirectory PowerShell</title><link>https://simeononsecurity.ch/pt/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Kit de ferramentas de administração de servidor remoto"
+, "Módulo PowerShell RSAT ActiveDirectory"
+, "Windows 10"
+, "Instalador offline"
+, "Script do PowerShell"</category><guid>https://simeononsecurity.ch/pt/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a instalar o RSAT ActiveDirectory PowerShell Module offline com um script simples do PowerShell.</description></item><item><title>Ataque à cadeia de suprimentos SolarWinds Orion: C2, mitigações e orientação especializada</title><link>https://simeononsecurity.ch/pt/github/solarwinds-orion-mitigations/</link><pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate><category>
+"SolarWinds"
+, "Cadeia de mantimentos"
+, "C2"
+, "Comando e controle"
+, "Mitigações"</category><guid>https://simeononsecurity.ch/pt/github/solarwinds-orion-mitigations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba mais sobre o SolarWinds Orion Supply Chain Attack, incluindo o malware C2, mitigações e orientação especializada de organizações como DHS e FireEye.</description></item><item><title>Varreduras de vírus eficientes com módulos VirusTotal PowerShell</title><link>https://simeononsecurity.ch/pt/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"Módulos do PowerShell"
+, "PowerShell"
+, "Automação"
+, "VirusTotal"
+, "Verificações de vírus"</category><guid>https://simeononsecurity.ch/pt/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Realize varreduras de vírus eficientes com os módulos VirusTotal PowerShell, automatizando a interação com a API VirusTotal e simplificando seu fluxo de trabalho de segurança.</description></item><item><title>Script de configuração de reforço do Applocker final: Aumente a segurança do Windows</title><link>https://simeononsecurity.ch/pt/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"Segurança do Windows"
+, "AppLocker"
+, "Script de configuração"
+, "Cíber segurança"
+, "Proteção contra malware"</category><guid>https://simeononsecurity.ch/pt/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja seu sistema Windows contra ataques mal-intencionados usando o script de configuração de proteção do Ultimate Applocker.</description></item><item><title>Prompt de comando do Windows e fortalecimento do PowerShell</title><link>https://simeononsecurity.ch/pt/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Endurecimento"
+, "Prompt de Comando do Windows"
+, "Segurança"
+, "Conformidade"</category><guid>https://simeononsecurity.ch/pt/github/windows-terminal-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja o prompt de comando do Windows e o PowerShell com nosso script e documentação de proteção abrangentes, aprimorando a segurança e a conformidade do sistema.</description></item><item><title>Aprimorando a segurança do Windows 10 com o script Defender Hardening</title><link>https://simeononsecurity.ch/pt/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Segurança do Windows 10"
+, "Script do PowerShell"
+, "Endurecimento"</category><guid>https://simeononsecurity.ch/pt/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como aprimorar a segurança do Windows 10 com um script do PowerShell que protege o Windows Defender Antivirus, implementando todos os requisitos do Windows Defender Antivirus STIG V2R1.</description></item><item><title>Automatize a conformidade do Windows Defender com o script PowerShell</title><link>https://simeononsecurity.ch/pt/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Script do PowerShell"
+, "Automação"
+, "Conformidade"
+, "Time azul"</category><guid>https://simeononsecurity.ch/pt/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aumente sua segurança com o script do Windows Defender STIG PowerShell, que automatiza a conformidade com as diretrizes do Windows Defender Antivirus V1R9 STIG.</description></item><item><title>HackTheBox - Desafios - Criptografia - Chamada</title><link>https://simeononsecurity.ch/pt/writeups/hackthebox-challenges-crypto-call/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"HackTheBox"
+, "Desafio criptográfico"
+, "Tons DTMF"
+, "Cifra de número primo"
+, "Descriptografia"</category><guid>https://simeononsecurity.ch/pt/writeups/hackthebox-challenges-crypto-call/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda como descriptografar tons DTMF usando cifra de número primo para resolver o desafio Crypto - Call no HackTheBox.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png"/></item><item><title>HackTheBox - Desafios - Criptografia - Decodificação</title><link>https://simeononsecurity.ch/pt/writeups/hackthebox-challenges-crypto-decode/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"HackTheBox"
+, "desafios"
+, "Criptografia"
+, "Decodificar"
+, "Escrever"</category><guid>https://simeononsecurity.ch/pt/writeups/hackthebox-challenges-crypto-decode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a decodificar as cifras de Fernet e Malboge para resolver o HackTheBox Crypto Challenge e descobrir a bandeira oculta.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png"/></item><item><title>Automatizando a conformidade do Windows Server STIG com scripts STIG</title><link>https://simeononsecurity.ch/pt/github/stiging-standalone-windows-servers/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/stiging-standalone-windows-servers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;**Baixe todos os arquivos necessários do
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="GitHub Repository"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script"&gt;
+&lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script"
+rel="noopener external" target="_blank"
+&gt;GitHub Repository&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Observação:&lt;/strong&gt; Este script deve funcionar para a maioria, se não todos, os sistemas sem problemas. Enquanto
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="@SimeonOnSecurity"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity"&gt;
+&lt;a href="https://github.com/simeononsecurity"
+rel="noopener external" target="_blank"
+&gt;@SimeonOnSecurity&lt;/a&gt;
+&lt;/span&gt;
+creates, reviews, and tests each repo intensively, we can not test every possible configuration nor does
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="@SimeonOnSecurity"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity"&gt;
+&lt;a href="https://github.com/simeononsecurity"
+rel="noopener external" target="_blank"
+&gt;@SimeonOnSecurity&lt;/a&gt;
+&lt;/span&gt;
+take any responsibility for breaking your system. If something goes wrong, be prepared to submit an
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="issue"&gt;
+&lt;meta itemprop="url" content="../../issues"&gt;
+&lt;a href="../../issues"
+rel="follow me"
+&gt;issue&lt;/a&gt;
+&lt;/span&gt;
+Não execute este script se você não entender o que ele faz. É sua responsabilidade revisar e testar o script antes de executá-lo.&lt;/p&gt;</description></item><item><title>Automatize a conformidade do domínio do Windows com GPOs compatíveis com STIG</title><link>https://simeononsecurity.ch/pt/github/stig-compliant-domain-prep/</link><pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/stig-compliant-domain-prep/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Importe todos os GPOs fornecidos pelo SimeonOnSecurity para ajudar a tornar seu domínio compatível com todos os STIGs e SRGs aplicáveis.&lt;/p&gt;
+&lt;h2 id="notas"&gt;
+&lt;a href="#notas" title="Notas:"&gt;Notas:&lt;/a&gt;
+&lt;a href="#notas" class="h-anchor" aria-hidden="true" title="Notas:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Este script foi desenvolvido para uso em ambientes corporativos&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="stigssrgs-aplicados"&gt;
+&lt;a href="#stigssrgs-aplicados" title="STIGS/SRGs aplicados:"&gt;STIGS/SRGs aplicados:&lt;/a&gt;
+&lt;a href="#stigssrgs-aplicados" class="h-anchor" aria-hidden="true" title="STIGS/SRGs aplicados:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;-
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Windows 10 V1R23"&gt;
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip"&gt;
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_10_V1R23_STIG.zip"
+rel="noopener external" target="_blank"
+&gt;Windows 10 V1R23&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;-
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Windows Defender Antivirus V1R9"&gt;
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip"&gt;
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Defender_Antivirus_V1R9_STIG.zip"
+rel="noopener external" target="_blank"
+&gt;Windows Defender Antivirus V1R9&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;-
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Windows Firewall V1R7"&gt;
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip"&gt;
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Windows_Firewall_V1R7_STIG.zip"
+rel="noopener external" target="_blank"
+&gt;Windows Firewall V1R7&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;-
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Internet Explorer 11 V1R19"&gt;
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip"&gt;
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_IE11_V1R19_STIG.zip"
+rel="noopener external" target="_blank"
+&gt;Internet Explorer 11 V1R19&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;</description></item><item><title>Automatizando a conformidade do Windows 10 STIG com o script Powershell</title><link>https://simeononsecurity.ch/pt/github/stiging-standalone-windows-systems/</link><pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/stiging-standalone-windows-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;**Baixe todos os arquivos necessários do
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="GitHub Repository"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script"&gt;
+&lt;a href="https://github.com/simeononsecurity/Standalone-Windows-STIG-Script"
+rel="noopener external" target="_blank"
+&gt;GitHub Repository&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;**Estamos buscando ajuda com o seguinte
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content=".Net issue"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3"&gt;
+&lt;a href="https://github.com/simeononsecurity/W10-Optimize-and-Harden/issues/3"
+rel="noopener external" target="_blank"
+&gt;.Net issue&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 id="introdução"&gt;
+&lt;a href="#introdu%c3%a7%c3%a3o" title="Introdução:"&gt;Introdução:&lt;/a&gt;
+&lt;a href="#introdu%c3%a7%c3%a3o" class="h-anchor" aria-hidden="true" title="Introdução:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;O Windows 10 é um sistema operacional inseguro pronto para uso e requer muitas alterações para garantir
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="FISMA"&gt;
+&lt;meta itemprop="url" content="https://www.cisa.gov/federal-information-security-modernization-act"&gt;
+&lt;a href="https://www.cisa.gov/federal-information-security-modernization-act"
+rel="noopener external" target="_blank"
+&gt;FISMA&lt;/a&gt;
+&lt;/span&gt;
+conformidade.
+Organizações como
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Microsoft"&gt;
+&lt;meta itemprop="url" content="https://microsoft.com"&gt;
+&lt;a href="https://microsoft.com"
+rel="noopener external" target="_blank"
+&gt;Microsoft&lt;/a&gt;
+&lt;/span&gt;
+,
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Cyber.mil"&gt;
+&lt;meta itemprop="url" content="https://public.cyber.mil"&gt;
+&lt;a href="https://public.cyber.mil"
+rel="noopener external" target="_blank"
+&gt;Cyber.mil&lt;/a&gt;
+&lt;/span&gt;
+, the
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Department of Defense"&gt;
+&lt;meta itemprop="url" content="https://www.defense.gov/"&gt;
+&lt;a href="https://www.defense.gov/"
+rel="noopener external" target="_blank"
+&gt;Department of Defense&lt;/a&gt;
+&lt;/span&gt;
+, and the
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="National Security Agency"&gt;
+&lt;meta itemprop="url" content="https://www.nsa.gov/"&gt;
+&lt;a href="https://www.nsa.gov/"
+rel="noopener external" target="_blank"
+&gt;National Security Agency&lt;/a&gt;
+&lt;/span&gt;
+recomendaram e exigiram alterações de configuração para bloquear, fortalecer e proteger o sistema operacional e garantir a conformidade do governo. Essas alterações abrangem uma ampla gama de mitigações, incluindo bloqueio de telemetria, macros, remoção de bloatware e prevenção de muitos ataques físicos em um sistema.&lt;/p&gt;</description></item><item><title>Automatize a conformidade do .NET STIG com o script PowerShell</title><link>https://simeononsecurity.ch/pt/github/dot-net-stig-script/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/dot-net-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;o .NET Framework STIG&lt;/p&gt;
+&lt;p&gt;A aplicação do .NET STIG definitivamente não é simples. Para muitos administradores, pode levar horas para implementar totalmente em um único sistema. Este script aplica as alterações de registro necessárias e modifica o arquivo machine.config para implementar o FIPS e outros controles conforme necessário.&lt;/p&gt;
+&lt;h2 id="notas"&gt;
+&lt;a href="#notas" title="Notas:"&gt;Notas:&lt;/a&gt;
+&lt;a href="#notas" class="h-anchor" aria-hidden="true" title="Notas:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Este script não pode e nunca fará com que o .NET stig atinja 100% de conformidade. No momento, como está, ele deve concluir cerca de 75% das verificações e voltar e concluir as verificações aplicáveis em todas as versões anteriores do .NET.&lt;/p&gt;</description></item><item><title>Script de privacidade do FireFox: automatize segurança e privacidade aprimoradas</title><link>https://simeononsecurity.ch/pt/github/firefox-privacy-script/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/firefox-privacy-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Script de privacidade do FireFox&lt;/p&gt;
+&lt;p&gt;Organizações como
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="PrivacyTools.io"&gt;
+&lt;meta itemprop="url" content="https://www.privacytools.io/browsers/#about_config"&gt;
+&lt;a href="https://www.privacytools.io/browsers/#about_config"
+rel="noopener external" target="_blank"
+&gt;PrivacyTools.io&lt;/a&gt;
+&lt;/span&gt;
+and
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ffprofile"&gt;
+&lt;meta itemprop="url" content="https://ffprofile.com/"&gt;
+&lt;a href="https://ffprofile.com/"
+rel="noopener external" target="_blank"
+&gt;ffprofile&lt;/a&gt;
+&lt;/span&gt;
+sugeriram alterações para tornar o FireFox mais seguro e privado.
+Essas alterações abrangem extensões de navegador sugeridas, bloqueio de telemetria, desativação de cookies de terceiros, desativação de rastreadores etc.&lt;/p&gt;
+&lt;p&gt;Este script pegará os arquivos de configuração pré-gerados do FireFox e os instalará nos diretórios apropriados em um sistema Windows.&lt;/p&gt;
+&lt;h2 id="baixe-os-arquivos-necessários"&gt;
+&lt;a href="#baixe-os-arquivos-necess%c3%a1rios" title="Baixe os arquivos necessários"&gt;Baixe os arquivos necessários&lt;/a&gt;
+&lt;a href="#baixe-os-arquivos-necess%c3%a1rios" class="h-anchor" aria-hidden="true" title="Baixe os arquivos necessários"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Baixe os arquivos necessários do
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="GitHub Repository"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/FireFox-Privacy-Script"&gt;
+&lt;a href="https://github.com/simeononsecurity/FireFox-Privacy-Script"
+rel="noopener external" target="_blank"
+&gt;GitHub Repository&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;</description></item><item><title>Automatize a conformidade do FireFox STIG com scripts do PowerShell</title><link>https://simeononsecurity.ch/pt/github/firefox-stig-script/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/firefox-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Script FireFox STIG&lt;/p&gt;
+&lt;p&gt;O
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="Firefox V4R29"&gt;
+&lt;meta itemprop="url" content="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip"&gt;
+&lt;a href="https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip"
+rel="noopener external" target="_blank"
+&gt;Firefox V4R29&lt;/a&gt;
+&lt;/span&gt;
+não é o STIG mais fácil de aplicar.
+Este script implementará a maioria das políticas necessárias do FireFox. No futuro, os modelos FireFox ADMX e GPOs serão aplicados neste script.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Trabalho em progresso&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="baixe-os-arquivos-necessários"&gt;
+&lt;a href="#baixe-os-arquivos-necess%c3%a1rios" title="Baixe os arquivos necessários"&gt;Baixe os arquivos necessários&lt;/a&gt;
+&lt;a href="#baixe-os-arquivos-necess%c3%a1rios" class="h-anchor" aria-hidden="true" title="Baixe os arquivos necessários"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Baixe os arquivos necessários do
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="GitHub Repository"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/FireFox-STIG-Script"&gt;
+&lt;a href="https://github.com/simeononsecurity/FireFox-STIG-Script"
+rel="noopener external" target="_blank"
+&gt;GitHub Repository&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 id="como-executar-o-script"&gt;
+&lt;a href="#como-executar-o-script" title="Como executar o script"&gt;Como executar o script&lt;/a&gt;
+&lt;a href="#como-executar-o-script" class="h-anchor" aria-hidden="true" title="Como executar o script"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;O script pode ser iniciado a partir do download extraído do GitHub assim:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Branding automatizado para sistemas Windows - controle facilmente a área de trabalho, a tela de bloqueio e muito mais</title><link>https://simeononsecurity.ch/pt/github/windows-10-branding/</link><pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/windows-10-branding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Muitas organizações precisam ou desejam controlar a marca de um sistema Windows.
+Isso inclui o papel de parede da área de trabalho, o avatar do usuário, a tela de bloqueio do Windows e, às vezes, o logotipo do OEM.
+No Windows 10, Windows Server 2016 e Windows Server 2019, isso não é particularmente fácil.
+Mas, com o auxílio do script vinculado, podemos automatizá-lo parcialmente e tornar o processo muito mais fácil.&lt;/p&gt;</description></item><item><title>Filtros WMI para implantações eficientes de políticas de grupo do Windows - Baixe no GitHub</title><link>https://simeononsecurity.ch/pt/github/wmi-filters/</link><pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/wmi-filters/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Uma coleção de filtros WMI para auxiliar nas implantações da Política de Grupo do Windows&lt;/p&gt;
+&lt;p&gt;Ao implantar GPOs, a Microsoft recomenda usar filtros WMI para acelerar o processo e isolar políticas em grandes domínios.
+Os Filtros WMI permitem que você especifique GPOs para um software específico ou versão do Windows com o potencial de se tornar muito mais complexo.
+O Repositório GitHub vinculado inclui alguns dos filtros WMI mais usados para que você não precise criá-los.&lt;/p&gt;</description></item><item><title>Secure Apache Web Server: um guia abrangente para administradores de sistema</title><link>https://simeononsecurity.ch/pt/github/hardening-apache/</link><pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/hardening-apache/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Uma coleção de configurações e scripts de exemplo para ajudar os administradores de sistema a fortalecer os servidores da Web Apache.&lt;/p&gt;
+&lt;p&gt;O Apache, pronto para uso, é surpreendentemente inseguro. Muitas práticas recomendadas e configurações de segurança precisam ser configuradas manualmente antes da implantação do Apache em um ambiente de produção. Você pode usar este repositório GitHub como ponto de partida para proteger suas instâncias do Apache.&lt;/p&gt;
+&lt;h2 id="instalando-modsecurity-com-owasp-core-rule-set"&gt;
+&lt;a href="#instalando-modsecurity-com-owasp-core-rule-set" title="Instalando ModSecurity com OWASP Core Rule Set"&gt;Instalando ModSecurity com OWASP Core Rule Set&lt;/a&gt;
+&lt;a href="#instalando-modsecurity-com-owasp-core-rule-set" class="h-anchor" aria-hidden="true" title="Instalando ModSecurity com OWASP Core Rule Set"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="etapa-1-atualizar-repositórios"&gt;
+&lt;a href="#etapa-1-atualizar-reposit%c3%b3rios" title="Etapa 1: atualizar repositórios"&gt;Etapa 1: atualizar repositórios&lt;/a&gt;
+&lt;a href="#etapa-1-atualizar-reposit%c3%b3rios" class="h-anchor" aria-hidden="true" title="Etapa 1: atualizar repositórios"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;No Ubuntu/Debian:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Assuma o controle das políticas do navegador Brave com BraveADMX - Modelos ADMX modificados</title><link>https://simeononsecurity.ch/pt/github/brave-admx-templates/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/brave-admx-templates/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;A Brave, como empresa, falhou em lançar modelos ADMX para o site do navegador Brave, empurrando registros puros como a única opção suportada.
+Como o Brave Browser é baseado no Chromium, ele deve suportar a maioria, se não todas, as mesmas políticas dos modelos ADMX do Chromium e do Google Chrome.
+Com isso em mente, modificamos os modelos ADMX do Google Chrome para refletir o caminho de registro do navegador Brave. Após algumas soluções de problemas e testes iniciais, os modelos parecem funcionar.&lt;/p&gt;</description></item><item><title>Simplifique as atualizações do Windows com automação usando Chocolatey, PSWindowsUpdate e scripts de inicialização</title><link>https://simeononsecurity.ch/pt/github/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</link><pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/github/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;Atualizações do Windows com Chocolatey, PSWindowsUpdate e scripts de inicialização**&lt;/p&gt;
+&lt;p&gt;No ambiente de negócios acelerado de hoje, o tempo é essencial para os administradores de sistema. A atualização de máquinas Windows, um aspecto crítico da administração de sistemas, pode ser uma tarefa extremamente demorada que pode levar até uma semana, considerando sistemas suficientes. No entanto, com alguma ajuda de Chocolatey, PSWindowsUpdates e Scripts de inicialização, agora é possível distribuir atualizações com apenas uma única reinicialização de cada máquina, reduzindo significativamente o tempo necessário para executar atualizações.&lt;/p&gt;</description></item><item><title>Proteja o Windows contra ataques de canal lateral de execução especulativa</title><link>https://simeononsecurity.ch/pt/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Script de Mitigação do Windows Spectre Meltdown"
+, "Ataques de canal lateral de execução especulativa"
+, "Microsoft"
+, "Intel"
+, "AMD"</category><guid>https://simeononsecurity.ch/pt/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como proteger seu sistema Windows contra ataques de canal lateral de execução especulativa com script de mitigação e atualizações de firmware da Microsoft</description></item><item><title/><link>https://simeononsecurity.ch/pt/authors/simeononsecurity/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://simeononsecurity.ch/pt/authors/simeononsecurity/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;��-�-�-�
+�
+�a�u�t�h�o�r�:� �&amp;quot;�S�i�m�e�o�n�O�n�S�e�c�u�r�i�t�y�&amp;quot;�
+�
+�t�i�t�l�e�:� �&amp;quot;�S�i�m�e�o�n�O�n�S�e�c�u�r�i�t�y�&amp;quot;�
+�
+�d�e�s�c�r�i�p�t�i�o�n�:� �&amp;quot;�S�i�m�e�o�n� ��� �u�m� �A�d�m�i�n�i�s�t�r�a�d�o�r� �d�e� �S�i�s�t�e�m�a�s� �a�l�t�a�m�e�n�t�e� �q�u�a�l�i�f�i�c�a�d�o� �c�o�m� �p�a�i�x���o� �p�o�r� �C�i�b�e�r�s�e�g�u�r�a�n���a� �e� �P�r�i�v�a�c�i�d�a�d�e�.� �D�u�r�a�n�t�e� �o� �d�i�a�,� �e�l�e� �t�r�a�z� �u�m� �e�x�t�e�n�s�o� �c�o�n�h�e�c�i�m�e�n�t�o� �t���c�n�i�c�o� �e� �e�x�p�e�r�i���n�c�i�a� �p�a�r�a� �o� �s�e�u� �t�r�a�b�a�l�h�o�.� �D�u�r�a�n�t�e� �a� �n�o�i�t�e�,� �e�l�e� �s�e� �d�e�d�i�c�a� �a�o�s� �s�e�u�s� �h�o�b�b�i�e�s� �c�o�m�o� �u�m� �i�n�v�e�n�t�o�r�,� �e�n�t�u�s�i�a�s�t�a� �e� �a�u�t�o�p�r�o�c�l�a�m�a�d�o� �g�e�e�k� �e� �n�e�r�d�.� �C�o�m� �u�m�a� �h�i�s�t���r�i�a� �d�e� �e�x�p�e�r�i���n�c�i�a� �t���c�n�i�c�a� �d�e�s�d�e� �o�s� �p�r�i�m�e�i�r�o�s� �a�n�o�s�,� �S�i�m�e�o�n� �c�o�m�e���o�u� �a�o�s� �1�2� �a�n�o�s� �r�e�s�o�l�v�e�n�d�o� �p�r�o�b�l�e�m�a�s� �e� �c�o�r�r�i�g�i�n�d�o� �q�u�e�s�t���e�s� �e�m� �u�m� �l�a�p�t�o�p� �q�u�e� �n�e�m� �c�o�n�s�e�g�u�i�a� �r�o�d�a�r� �o� �W�i�n�d�o�w�s� �X�P� �d�e� �f�o�r�m�a� �e�s�t���v�e�l�.� �H�o�j�e�,� �e�l�e� �m�a�n�t���m� �e�m� �c�a�s�a� �u�m� �c�e�n�t�r�o� �d�e� �d�a�d�o�s� �e� �l�a�b�o�r�a�t���r�i�o� �d�e� ���l�t�i�m�a� �g�e�r�a�����o�,� �d�e�m�o�n�s�t�r�a�n�d�o� �s�e�u� �c�o�m�p�r�o�m�i�s�s�o� �i�n�a�b�a�l���v�e�l� �c�o�m� �o� �c�a�m�p�o� �e� �o�f�e�r�e�c�e�n�d�o� �c�a�p�a�c�i�d�a�d�e�s� �d�e� �c�o�m�p�u�t�a�����o� �e� �a�r�m�a�z�e�n�a�m�e�n�t�o� �q�u�e� �r�i�v�a�l�i�z�a�m� �c�o�m� �a�s� �d�e� �m�u�i�t�a�s� �p�e�q�u�e�n�a�s� �e�m�p�r�e�s�a�s�.�&amp;quot;�
+�
+�c�o�v�e�r�:� �&amp;quot;�/�i�m�g�/�b�a�n�n�e�r�.�p�n�g�&amp;quot;�
+�
+�-�-�-�
+�
+�
+�
+�#�#� �B�i�o�g�r�a�f�i�a�:�
+�
+�S�i�m�e�o�n� ��� �u�m� �A�d�m�i�n�i�s�t�r�a�d�o�r� �d�e� �S�i�s�t�e�m�a�s� �a�l�t�a�m�e�n�t�e� �q�u�a�l�i�f�i�c�a�d�o� �c�o�m� �p�a�i�x���o� �p�o�r� �&lt;em&gt;�&lt;/em&gt;�C�i�b�e�r�s�e�g�u�r�a�n���a�&lt;em&gt;�&lt;/em&gt;� �e� �&lt;em&gt;�&lt;/em&gt;�P�r�i�v�a�c�i�d�a�d�e�&lt;em&gt;�&lt;/em&gt;�.� �D�u�r�a�n�t�e� �o� �d�i�a�,� �e�l�e� �t�r�a�z� �u�m� �e�x�t�e�n�s�o� �c�o�n�h�e�c�i�m�e�n�t�o� �t���c�n�i�c�o� �e� �e�x�p�e�r�i���n�c�i�a� �p�a�r�a� �o� �s�e�u� �t�r�a�b�a�l�h�o�.� �D�u�r�a�n�t�e� �a� �n�o�i�t�e�,� �e�l�e� �s�e� �d�e�d�i�c�a� �a�o�s� �s�e�u�s� �h�o�b�b�i�e�s� �c�o�m�o� �i�n�v�e�n�t�o�r�,� �e�n�t�u�s�i�a�s�t�a� �e� �a�u�t�o�p�r�o�c�l�a�m�a�d�o� �&lt;em&gt;�&lt;/em&gt;�g�e�e�k�&lt;em&gt;�&lt;/em&gt;� �e� �&lt;em&gt;�&lt;/em&gt;�n�e�r�d�&lt;em&gt;�&lt;/em&gt;�.� �C�o�m� �u�m�a� �h�i�s�t���r�i�a� �d�e� �e�x�p�e�r�i���n�c�i�a� �t���c�n�i�c�a� �d�e�s�d�e� �o�s� �p�r�i�m�e�i�r�o�s� �a�n�o�s�,� �S�i�m�e�o�n� �c�o�m�e���o�u� �a�o�s� �1�2� �a�n�o�s� �r�e�s�o�l�v�e�n�d�o� �p�r�o�b�l�e�m�a�s� �e� �c�o�r�r�i�g�i�n�d�o� �q�u�e�s�t���e�s� �e�m� �u�m� �l�a�p�t�o�p� �q�u�e� �n�e�m� �c�o�n�s�e�g�u�i�a� �r�o�d�a�r� �o� �&lt;em&gt;�&lt;/em&gt;�W�i�n�d�o�w�s� �X�P�&lt;em&gt;�&lt;/em&gt;� �d�e� �f�o�r�m�a� �e�s�t���v�e�l�.� �H�o�j�e�,� �e�l�e� �m�a�n�t���m� �e�m� �c�a�s�a� �u�m� �c�e�n�t�r�o� �d�e� �d�a�d�o�s� �e� �l�a�b�o�r�a�t���r�i�o� �d�e� ���l�t�i�m�a� �g�e�r�a�����o�,� �d�e�m�o�n�s�t�r�a�n�d�o� �s�e�u� �c�o�m�p�r�o�m�i�s�s�o� �&lt;em&gt;�&lt;/em&gt;�i�n�a�b�a�l���v�e�l�&lt;em&gt;�&lt;/em&gt;� �c�o�m� �o� �c�a�m�p�o� �e� �o�f�e�r�e�c�e�n�d�o� �c�a�p�a�c�i�d�a�d�e�s� �d�e� �c�o�m�p�u�t�a�����o� �e� �a�r�m�a�z�e�n�a�m�e�n�t�o� �q�u�e� �r�i�v�a�l�i�z�a�m� �c�o�m� �a�s� �d�e� �m�u�i�t�a�s� �p�e�q�u�e�n�a�s� �e�m�p�r�e�s�a�s�.�
+�
+�
+�
+�#�#� �L�i�n�k�s� �d�e� �R�e�d�e�s� �S�o�c�i�a�i�s�:�
+�
+�-� �[�G�i�t�H�u�b�]�(�h�t�t�p�s�:�/�/�g�i�t�h�u�b�.�c�o�m�/�s�i�m�e�o�n�o�n�s�e�c�u�r�i�t�y�)�
+�
+�-� �[�T�w�i�t�t�e�r�]�(�h�t�t�p�s�:�/�/�t�w�i�t�t�e�r�.�c�o�m�/�S�i�m�e�o�n�S�e�c�u�r�i�t�y�)�
+�
+�&lt;/p&gt;</description></item><item><title>Criadores de conteúdo de segurança recomendados</title><link>https://simeononsecurity.ch/pt/recommendations/creators/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Recomendações"
+, "Criadores de conteúdo de segurança"
+, "SimeonOnSecurity"
+, "ippSec"
+, "John Hammond"</category><guid>https://simeononsecurity.ch/pt/recommendations/creators/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra criadores de conteúdo de segurança de alto nível escolhidos a dedo pela SimeonOnSecurity. De ippSec a John Hammond, LiveOverflow, NahamSec, Rob Fuller e TheBlindHacker, esses especialistas trazem a você o que há de mais recente na área por meio de suas várias plataformas, incluindo YouTube, Twitch, Twitter, GitHub e sites. Mantenha-se atualizado e aprofunde seus conhecimentos com os melhores do setor.</description></item><item><title>HackTheBox - Desafio - Criptografia - RSA fraco</title><link>https://simeononsecurity.ch/pt/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "desafios"
+, "Criptografia"
+, "RSA fraco"
+, "RsaCtfToolName"</category><guid>https://simeononsecurity.ch/pt/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar uma ferramenta automatizada de ataque RSA, RsaCtfTool, para resolver facilmente o desafio HackTheBox Weak RSA Crypto.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item><item><title>HackTheBox - Invite Challenge (Windows/Linux)</title><link>https://simeononsecurity.ch/pt/writeups/hackthebox-invite-challenge/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "Desafio de convite"
+, "Teste de penetração"
+, "Cíber segurança"
+, "janelas"</category><guid>https://simeononsecurity.ch/pt/writeups/hackthebox-invite-challenge/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a gerar um código de convite e ingressar na plataforma online HackTheBox para testar e aprimorar suas habilidades em testes de penetração e segurança cibernética no Windows e no Linux.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png"/></item><item><title>Livros recomendados</title><link>https://simeononsecurity.ch/pt/recommendations/books/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"livros"
+, "cíber segurança"
+, "melhores livros para segurança cibernética"
+, "melhores livros para automação"
+, "livros de automação"</category><guid>https://simeononsecurity.ch/pt/recommendations/books/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esta é uma coleção de livros recomendados da SimeonOnSecurity. Os livros abrangem vários tópicos, incluindo codificação e automação de scripts, segurança cibernética, redes, inteligência de código aberto, sistemas operacionais e software, privacidade e outros assuntos relacionados. Com uma avaliação de dois meses do Amazon Kindle Unlimited, você pode ler a maioria desses livros gratuitamente. Esta coleção oferece uma variedade de livros para iniciantes e especialistas, com títulos como Python Crash Course e The Art of Deception. Esteja você procurando melhorar suas habilidades de codificação ou entender melhor a segurança cibernética, esta coleção tem algo para todos.</description></item><item><title>Log de classificação CTF do SimeonOnSecurity</title><link>https://simeononsecurity.ch/pt/ctfranks/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Classificações CTF"
+, "Capturar a bandeira"
+, "Concorrência"
+, "desafios"
+, "LockHeed Martin Cyber Grand Challenge"</category><guid>https://simeononsecurity.ch/pt/ctfranks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Mantenha-se atualizado com as últimas classificações no mundo dos CTFs e desafios com o CTF Rankings Log da SimeonOnSecurity</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png" length="236561" type="image/png"/></item><item><title>Melhores provedores de celular para privacidade e anonimato: Mint Mobile e Visible</title><link>https://simeononsecurity.ch/pt/recommendations/cell-phone-service-providers/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"operadoras de celular"
+, "privacidade"
+, "anonimato"
+, "Mint Mobile"
+, "Visível"</category><guid>https://simeononsecurity.ch/pt/recommendations/cell-phone-service-providers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Conheça as principais operadoras de celular que priorizam a privacidade e o anonimato e saiba por que Mint Mobile e Visible são ótimas opções</description></item><item><title>Plug-ins de navegador recomendados</title><link>https://simeononsecurity.ch/pt/recommendations/browser_plugins/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Origem do Bloco U"
+, "HTTPS em todos os lugares"
+, "olhos descentralizados"
+, "ClearURLs"
+, "CanvasBlocker"</category><guid>https://simeononsecurity.ch/pt/recommendations/browser_plugins/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra os plug-ins de navegador recomendados pelo SimeonOnSecurity para aprimorar sua experiência de navegação. FireFox é o navegador de driver diário recomendado, mas para maior privacidade e segurança, você também pode considerar o uso do navegador TOR. Os plug-ins recomendados incluem U-Block Origin para bloqueio de anúncios, HTTPS Everywhere para navegação segura, Decentraleyes para emulação de CDN local, ClearURLs para remoção de tags de rastreamento, CanvasBlocker para prevenção de impressão digital JavaScript, Contêineres de várias contas para sessões de navegação isoladas, Termos de serviço, Didn' t Read para ToS informado, Bitwarden para gerenciamento seguro de senha e Privacy Badger para bloquear rastreadores. Melhore sua privacidade e segurança online com esses plug-ins de navegador de primeira linha.</description></item><item><title>Recomendações de especialistas da SimeonOnSecurity para produtos e recursos de segurança e privacidade</title><link>https://simeononsecurity.ch/pt/recommendhome/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"recomendações de segurança"
+, "produtos de privacidade"
+, "ferramentas de segurança cibernética"
+, "Proteção de dados"
+, "privacidade na internet"</category><guid>https://simeononsecurity.ch/pt/recommendhome/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore as recomendações de especialistas da SimeonOnSecurity para produtos e recursos confiáveis e altamente avaliados relacionados à privacidade e segurança.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png" length="288609" type="image/png"/></item></channel></rss>
