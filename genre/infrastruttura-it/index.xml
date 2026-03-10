@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastruttura IT on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/infrastruttura-it//img/banner.png</url><title>Infrastruttura IT on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/infrastruttura-it/</link></image><link>https://it.simeononsecurity.com/genre/infrastruttura-it/</link><description>Recent content in Infrastruttura IT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/infrastruttura-it/index.xml" rel="self" type="application/rss+xml"/><item><title>Migliorare la sicurezza: Il potere dei sistemi di gestione delle vulnerabilità</title><link>https://it.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Infrastruttura IT"
+, "Mitigazione del rischio"
+, "Compliance"
+, "Sicurezza dei dati"
+, "Valutazione della vulnerabilità"
+, "Posizione di sicurezza"
+, "Automazione"
+, "Integrazione"
+, "Segnalazione"</category><guid>https://it.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rafforzate la sicurezza della vostra organizzazione e mitigate i rischi con i sistemi di gestione delle vulnerabilità. Scoprite i loro vantaggi e la loro importanza nell'attuale panorama digitale.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item><item><title>Corso Network Plus: Capire il modello OSI, le topologie e i tipi di rete</title><link>https://it.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Collegamento in rete"
+, "Infrastruttura IT"
+, "Architettura di rete"
+, "Informatica"
+, "Comunicazione dati"
+, "Tecnologia dell'informazione"
+, "Sicurezza di rete"
+, "Gestione della rete"
+, "Internet"</category><guid>https://it.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplorare l'importanza dei fondamenti di rete, tra cui il modello OSI, le topologie di rete e i vari tipi di rete, per costruire infrastrutture efficienti e affidabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png"/></item><item><title>Prova di forza dell'automazione: Ansible vs. Puppet vs. Chef - Un confronto tra i principali strumenti di automazione</title><link>https://it.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Strumenti di automazione"
+, "Gestione della configurazione"
+, "Infrastruttura IT"
+, "DevOps"
+, "Operazioni IT"
+, "Automazione in-the-cloud"
+, "Distribuzione del software"
+, "Gestione dell'infrastruttura"
+, "Strumenti open source"</category><guid>https://it.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le differenze tra Ansible, Puppet e Chef per scegliere lo strumento di automazione più adatto alle esigenze della vostra organizzazione in questo confronto completo.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>Padroneggiare le GPO: Una guida completa per una gestione efficace della rete</title><link>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestione della rete"
+, "Oggetti dei Criteri di gruppo"
+, "OPG"
+, "Amministrazione di Windows"
+, "Infrastruttura IT"
+, "Sicurezza di rete"
+, "Active Directory"
+, "Gestione della configurazione"
+, "Gestione dei criteri di gruppo"
+, "Ottimizzazione della rete"</category><guid>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza degli oggetti dei Criteri di gruppo (GPO) e imparate a gestire e ottimizzare in modo efficiente le impostazioni e i criteri di rete per migliorare la sicurezza e semplificare le operazioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item><item><title>CheckMK: una soluzione di monitoraggio completa per una gestione efficiente dell'infrastruttura IT</title><link>https://it.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Infrastruttura IT"
+, "Monitoraggio della rete"
+, "Monitoraggio delle applicazioni"
+, "Operazioni IT"
+, "Analisi delle prestazioni"
+, "Automazione"
+, "Gestione degli eventi"
+, "Scalability"
+, "Flessibilità"</category><guid>https://it.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite le caratteristiche, i vantaggi e i casi d'uso di CheckMK, una soluzione di monitoraggio completa per la gestione proattiva dell'infrastruttura IT.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</title><link>https://it.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Ansible"
+, "Gestione della configurazione"
+, "Infrastruttura IT"
+, "DevOps"
+, "Sviluppo del Playbook"
+, "Gestione variabile"
+, "Esecuzione condizionale"</category><guid>https://it.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item></channel></rss>

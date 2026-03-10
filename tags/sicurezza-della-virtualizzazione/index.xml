@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sicurezza Della Virtualizzazione on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/sicurezza-della-virtualizzazione//img/banner.png</url><title>Sicurezza Della Virtualizzazione on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/sicurezza-della-virtualizzazione/</link></image><link>https://it.simeononsecurity.com/tags/sicurezza-della-virtualizzazione/</link><description>Recent content in Sicurezza Della Virtualizzazione on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/sicurezza-della-virtualizzazione/index.xml" rel="self" type="application/rss+xml"/><item><title>Aumentare la sicurezza delle macchine virtuali con vTPM: Guida passo-passo</title><link>https://it.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza informatica"
+, "Virtualizzazione"
+, "VMware"
+, "vSphere"
+, "Sicurezza"
+, "Modulo di piattaforma affidabile"
+, "vTPM"
+, "Ospite OS"
+, "Crittografia"
+, "Attestazione della piattaforma"</category><guid>https://it.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Migliorate la sicurezza delle macchine virtuali utilizzando vTPM con la nostra guida completa passo-passo, che fornisce l'attestazione della piattaforma e il supporto della crittografia BitLocker.</description><enclosure url="https://it.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item></channel></rss>

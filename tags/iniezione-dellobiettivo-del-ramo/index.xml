@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iniezione Dell'obiettivo Del Ramo on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/iniezione-dellobiettivo-del-ramo//img/banner.png</url><title>Iniezione Dell'obiettivo Del Ramo on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/iniezione-dellobiettivo-del-ramo/</link></image><link>https://it.simeononsecurity.com/tags/iniezione-dellobiettivo-del-ramo/</link><description>Recent content in Iniezione Dell'obiettivo Del Ramo on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/iniezione-dellobiettivo-del-ramo/index.xml" rel="self" type="application/rss+xml"/><item><title>Proteggere Windows dagli attacchi al canale laterale dell'esecuzione speculativa</title><link>https://it.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Script per la mitigazione di Spectre e Meltdown in Windows"
+, "Attacchi side channel all'esecuzione speculativa"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "BRACCIO"
+, "Android"
+, "Cromo"
+, "iOS"
+, "macOS"
+, "Iniezione dell'obiettivo del ramo"
+, "Bypass del controllo dei limiti"
+, "Carico della cache dei dati anomali"
+, "Bypass del negozio speculativo"
+, "Campionamento dei dati microarchitettonici"
+, "CVE"
+, "Aggiornamenti del firmware"
+, "GitHub Repository"
+, "PowerShell"</category><guid>https://it.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite come proteggere il vostro sistema Windows dagli attacchi side-channel di esecuzione speculativa con lo script di mitigazione e gli aggiornamenti del firmware di Microsoft.</description></item></channel></rss>

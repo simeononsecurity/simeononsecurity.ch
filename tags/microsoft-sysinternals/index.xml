@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microsoft Sysinternals on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/microsoft-sysinternals//img/banner.png</url><title>Microsoft Sysinternals on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/microsoft-sysinternals/</link></image><link>https://it.simeononsecurity.com/tags/microsoft-sysinternals/</link><description>Recent content in Microsoft Sysinternals on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/microsoft-sysinternals/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: semplifica la distribuzione e la configurazione di Sysmon</title><link>https://it.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automatizza Symon"
+, "Come automatizzare Sysmon"
+, "Come automatizzare la configurazione di Sysmon"
+, "Come installare Symon"
+, "PowerShell"
+, "Sceneggiatura"
+, "Distribuzione di Sysmon"
+, "Configurazione del sistema"
+, "Registrazione del sistema"
+, "Rilevamento delle minacce"
+, "Attività dannosa"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "Repository GitHub"
+, "BHIS"
+, "Monitoraggio del sistema"
+, "Ricerca sulla sicurezza"
+, "Creazione del processo"
+, "Le connessioni di rete"</category><guid>https://it.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri come distribuire e configurare Sysmon per migliorare la sicurezza del tuo sistema con lo script Automate-Sysmon, che semplifica il processo anche per gli utenti inesperti.</description></item></channel></rss>

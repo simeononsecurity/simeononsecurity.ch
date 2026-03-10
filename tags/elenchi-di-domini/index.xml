@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elenchi Di Domini on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/elenchi-di-domini//img/banner.png</url><title>Elenchi Di Domini on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/elenchi-di-domini/</link></image><link>https://it.simeononsecurity.com/tags/elenchi-di-domini/</link><description>Recent content in Elenchi Di Domini on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/elenchi-di-domini/index.xml" rel="self" type="application/rss+xml"/><item><title>Script di blocco degli annunci a livello di sistema di Windows 10 per una migliore privacy e sicurezza</title><link>https://it.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"Windows 10"
+, "blocco per annunci pubblicitari"
+, "blocco della telemetria"
+, "Script di PowerShell"
+, "blocco degli annunci a livello di sistema"
+, "intimità"
+, "sicurezza"
+, "EasyList"
+, "Segretezza facile"
+, "Elenco dei filtri NoCoin"
+, "Filtro DNS di AdGuard"
+, "Liste YoYo"
+, "I server del malware di tracciamento degli annunci di Peter Lowe"
+, "firewall di Windows"
+, "elenchi di domini"
+, "bloccare i tracker di Windows"
+, "tracker di blocco"
+, "bloccare gli annunci"
+, "tracciamento dei blocchi"</category><guid>https://it.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Blocca annunci, tracker e telemetria su Windows 10 utilizzando questo potente script di PowerShell che utilizza il file hosts e Windows Firewall per il blocco degli annunci a livello di sistema.</description></item></channel></rss>

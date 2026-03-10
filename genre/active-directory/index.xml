@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Directory on simeononsecurity</title><image><url>https://it.simeononsecurity.com/genre/active-directory//img/banner.png</url><title>Active Directory on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/active-directory/</link></image><link>https://it.simeononsecurity.com/genre/active-directory/</link><description>Recent content in Active Directory on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/active-directory/index.xml" rel="self" type="application/rss+xml"/><item><title>Padroneggiare l'amministrazione di Active Directory con PowerShell: Guida all'installazione e all'uso</title><link>https://it.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Finestre"
+, "PowerShell"
+, "Active Directory"
+, "Amministrazione"
+, "Scripting"
+, "IT"
+, "Automazione"
+, "Server Windows"
+, "Microsoft"</category><guid>https://it.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite come installare e utilizzare efficacemente il modulo Active Directory per PowerShell per semplificare le attività di amministrazione di Windows Active Directory.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Padroneggiare le GPO: Una guida completa per una gestione efficace della rete</title><link>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestione della rete"
+, "Oggetti dei Criteri di gruppo"
+, "OPG"
+, "Amministrazione di Windows"
+, "Infrastruttura IT"
+, "Sicurezza di rete"
+, "Active Directory"
+, "Gestione della configurazione"
+, "Gestione dei criteri di gruppo"
+, "Ottimizzazione della rete"</category><guid>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza degli oggetti dei Criteri di gruppo (GPO) e imparate a gestire e ottimizzare in modo efficiente le impostazioni e i criteri di rete per migliorare la sicurezza e semplificare le operazioni.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item></channel></rss>

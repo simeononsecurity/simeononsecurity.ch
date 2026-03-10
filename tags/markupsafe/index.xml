@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MarkupSafe on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/markupsafe//img/banner.png</url><title>MarkupSafe on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/markupsafe/</link></image><link>https://it.simeononsecurity.com/tags/markupsafe/</link><description>Recent content in MarkupSafe on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/markupsafe/index.xml" rel="self" type="application/rss+xml"/><item><title>Standard di codifica sicura per Python: Migliori pratiche</title><link>https://it.simeononsecurity.com/articles/secure-coding-standards-for-python/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><category>
+"Pitone"
+, "Codifica sicura"
+, "Rischi per la sicurezza"
+, "Convalida dell'ingresso"
+, "Librerie di crittografia"
+, "Privilegio minimo"
+, "Analizzatore di codice statico"
+, "Applicazioni web"
+, "Quadri Python"
+, "Django"
+, "Flash"
+, "Sistema di autenticazione"
+, "Hashing della password"
+, "Sistema di template"
+, "Gestione della sessione"
+, "MarkupSafe"
+, "WTForms"
+, "Lampeggiante"
+, "Protezione dei dati"
+, "Vulnerabilità"</category><guid>https://it.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Imparate le migliori pratiche di codifica sicura in Python per ridurre al minimo il rischio di violazioni della sicurezza e proteggere i dati sensibili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png"/></item></channel></rss>
