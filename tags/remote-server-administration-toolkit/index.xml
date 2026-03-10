@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Remote Server Administration Toolkit on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/tags/remote-server-administration-toolkit//img/banner.png</url><title>Remote Server Administration Toolkit on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/remote-server-administration-toolkit/</link></image><link>https://ar.simeononsecurity.com/tags/remote-server-administration-toolkit/</link><description>Recent content in Remote Server Administration Toolkit on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/remote-server-administration-toolkit/index.xml" rel="self" type="application/rss+xml"/><item><title>Offline Install RSAT ActiveDirectory PowerShell Module</title><link>https://ar.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Remote Server Administration Toolkit"
+, "PowerShell RSAT ActiveDirectory Module"
+, "Windows 10"
+, "Offline Installer"
+, "PowerShell Script"
+, "PowerShell Module"
+, "ActiveDirectory"
+, "Windows"
+, "Offline"
+, "Install"
+, "Server"
+, "Administration"
+, "Toolkit"
+, "Scripting"
+, "Module"
+, "Windows Server"
+, "PowerShell Core"
+, "Windows PowerShell"
+, "Microsoft"
+, "IT Administration"</category><guid>https://ar.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to install the RSAT ActiveDirectory PowerShell Module offline with a simple PowerShell script.</description></item></channel></rss>
