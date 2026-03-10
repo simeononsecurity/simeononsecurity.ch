@@ -11,6 +11,7 @@
   {{ if .context.Params.UseRelativeCover }}
     {{ $cover = resources.GetRemote (printf "%s%s" .context.Permalink .context.Params.Cover) }}
   {{ end }}
+  {{ if $cover }}
   {{ $caption := .context.Params.coverCaption }}
   {{ $articleDate := .context.Params.date | default now }}
   {{ $articleYear := $articleDate.Year }}
@@ -88,6 +89,9 @@
         <figcaption class="center" itemprop="caption">{{ .Params.CoverCaption | markdownify }}</figcaption>
       {{ end }}
   </figure>
+  {{ else }}
+  <figure class="post-cover"></figure>
+  {{ end }}
 {{ else }}
   <figure class="post-cover"></figure>
 {{ end }}

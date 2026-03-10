@@ -29,6 +29,7 @@
                   {{ if .Params.Cover }}
                     {{ $cover := ""}}
                     {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ else }}{{ $cover = resources.Get (.Params.Cover) }}{{ end }}
+                    {{ if $cover }}
                     {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
                     {{ $tiny := ($cover.Resize "240x webp q50") }}
                       {{ $tinyfilename := printf "%s_%dx%d.%s" $permalink $tiny.Width $tiny.Height "webp" | urlize }}
@@ -53,6 +54,26 @@
                           />
                         </picture>  
                       </a>
+                    {{ else }}
+                      {{ $og_image := "" }}  
+                      {{ if .Params.images }}
+                        {{ $og_image = index .Params.images 0 | absURL }}
+                      {{ else }}
+                        {{ $og_image = index $.Site.Params.images 0 | absURL }}
+                      {{ end }}
+                      <div class="related-image">
+                        <a href="{{ .RelPermalink }}" title="{{ .Title }}" aria-label="{{ .Title }}">
+                          <picture>
+                            <img src="{{ $og_image }}"
+                              alt="SimeonOnSecurity's Default Banner Image"
+                              height="731"
+                              width="480"
+                              loading="lazy"
+                            />
+                          </picture>  
+                        </a>
+                      </div>
+                    {{ end }}
                       {{ else }}
                       {{ $og_image := "" }}  
                       {{ if .Params.images }}
@@ -71,6 +92,7 @@
                             />
                           </picture>  
                         </a>
+                      </div>
                       {{ end }}
                 </div>
                 <div class="related-info">

@@ -27,7 +27,7 @@
         {{/*  Code  */}}
         {{ $url := printf "%s" .Permalink | absLangURL }}
         {{ $textBody := print .Title "\n\n" (.Summary | truncate 200) "\n\n" $url "\n" }}
-        {{ $encodedSummary := strings.TrimPrefix "=" (querify "" (.Summary | truncate 200))  }}
+        {{ $encodedSummary := urlquery (.Summary | truncate 200) }}
         {{ $imageUrl := "" }}
         {{ if .Params.cover}}
           {{ if in .Params.cover "http" }}

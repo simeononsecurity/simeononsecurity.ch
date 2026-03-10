@@ -60,7 +60,7 @@
   <br>
   
   {{ if eq $paginator.PageNumber 1 }}
-    {{ with .Site.Data.article_index.articles }}
+    {{ with hugo.Data.article_index.articles }}
     {{ $imgloading := "lazy" }}
       <div class="posts" itemscope itemtype="https://schema.org/Blog">
         <h2 class="post-title">Top Articles</h2>
