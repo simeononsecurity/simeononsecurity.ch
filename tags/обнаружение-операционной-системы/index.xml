@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обнаружение Операционной Системы on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B//img/banner.png</url>
+      <title>Обнаружение Операционной Системы on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/</link>
+
+    <description>Recent content in Обнаружение Операционной Системы on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Nmap: Исчерпывающее руководство по сканированию сети и оценке безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-nmap/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "nmap"
+            
+              , "сканирование сети"
+            
+              , "оценка безопасности"
+            
+              , "сканирование портов"
+            
+              , "обнаружение услуг"
+            
+              , "обнаружение операционной системы"
+            
+              , "Сценарий Nmap Scripting Engine"
+            
+              , "этический хакерский подход"
+            
+              , "безопасность сети"
+            
+              , "сетевая инфраструктура"
+            
+              , "обнаружение уязвимостей"
+            
+              , "ping scan"
+            
+              , "Сканирование TCP SYN"
+            
+              , "разрешение"
+            
+              , "законность"
+            
+              , "влияние на сеть"
+            
+              , "целенаправленное сканирование"
+            
+              , "защита информации"
+            
+              , "CFAA"
+            
+              , "GDPR"
+            
+              , "картирование сети"
+            
+              , "распознавание сетей"
+            
+              , "средства сетевой безопасности"
+            
+              , "кибербезопасность"
+            
+              , "инструмент с открытым исходным кодом"
+            
+              , "инструмент командной строки"
+            
+              , "обнаружение хоста"
+            
+              , "сетевая разведка"
+            
+              , "сбор информации"
+            
+              , "сетевые уязвимости"
+            
+              , "безопасная сетевая среда"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-nmap/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как эффективно использовать Nmap для сканирования сети, сканирования портов, обнаружения сервисов и идентификации операционных систем для оценки безопасности сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png" length="365940" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

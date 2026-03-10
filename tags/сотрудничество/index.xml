@@ -1,0 +1,679 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сотрудничество on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE//img/banner.png</url>
+      <title>Сотрудничество on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/</link>
+
+    <description>Recent content in Сотрудничество on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство по управлению командой специалистов по кибербезопасности: Навыки, лучшие практики и многое другое</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</link>
+        
+        <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление кибербезопасностью"
+            
+              , "Лидерство в области информационной безопасности"
+            
+              , "Управление командой"
+            
+              , "Лучшие практики"
+            
+              , "Развитие навыков"
+            
+              , "Управление киберрисками"
+            
+              , "Реагирование на инциденты"
+            
+              , "Связь"
+            
+              , "Сотрудничество"
+            
+              , "Непрерывное обучение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя основные навыки и лучшие практики эффективного управления командой специалистов по кибербезопасности в условиях меняющегося ландшафта угроз и удаленной работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_image_showing_a_team_of_cybersecurity_professio.png" length="227775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация Ansible: От простого Ansible к Ansible Tower и Semaphore</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Управление инфраструктурой"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Открытый исходный код"
+            
+              , "Управление рабочими процессами"
+            
+              , "Масштабируемость"
+            
+              , "Сотрудничество"
+            
+              , "Инструменты Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности автоматизации с помощью Ansible, сравнив обычную Ansible, Ansible Tower и Ansible Semaphore, и выберите подходящий инструмент для эффективного управления инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила CI CD: Повышение эффективности совместной работы, качества и скорости</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-of-ci-cd/</link>
+        
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "непрерывная интеграция"
+            
+              , "непрерывное развертывание"
+            
+              , "CI CD"
+            
+              , "разработка программного обеспечения"
+            
+              , "сотрудничество"
+            
+              , "связь"
+            
+              , "контур обратной связи"
+            
+              , "обнаружение ошибок"
+            
+              , "качество программного обеспечения"
+            
+              , "надежность"
+            
+              , "время выхода на рынок"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "гибкость"
+            
+              , "автоматизированное тестирование"
+            
+              , "гибкая разработка"
+            
+              , "DevOps"
+            
+              , "производительность коллектива"
+            
+              , "выпуски программного обеспечения"
+            
+              , "автоматизация развертывания"
+            
+              , "автоматизация тестирования"
+            
+              , "быстрая поставка программного обеспечения"
+            
+              , "гибкие методологии"
+            
+              , "управление выпуском"
+            
+              , "разработка программного обеспечения"
+            
+              , "гибкие команды"
+            
+              , "постоянное совершенствование"
+            
+              , "тестирование программного обеспечения"
+            
+              , "конвейеры развертывания"
+            
+              , "процесс развертывания"
+            
+              , "жизненный цикл разработки программного обеспечения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-of-ci-cd/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах непрерывной интеграции и непрерывного развертывания (CI CD) при разработке программного обеспечения, повышающих эффективность совместной работы, качество и скорость.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png" length="159757" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Deepfakes: Угрозы и вызовы синтетических медиа в цифровую эпоху</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-rise-of-deepfakes-the-threats-and-challenges-posed-by-synthetic-media/</link>
+        
+        <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "deepfakes"
+            
+              , "синтетические среды"
+            
+              , "Технология искусственного интеллекта"
+            
+              , "дезинформация"
+            
+              , "фальшивые новости"
+            
+              , "мошенничество"
+            
+              , "вторжение в частную жизнь"
+            
+              , "обнаружение подделок"
+            
+              , "нормативно-правовая база"
+            
+              , "образование"
+            
+              , "осведомленность"
+            
+              , "цифровой век"
+            
+              , "технология"
+            
+              , "общество"
+            
+              , "задачи"
+            
+              , "угрозы"
+            
+              , "борьба с фальшивками"
+            
+              , "подотчетность"
+            
+              , "сотрудничество"
+            
+              , "современные алгоритмы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-rise-of-deepfakes-the-threats-and-challenges-posed-by-synthetic-media/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить рост числа подделок, их угрозы, проблемы и меры регулирования в борьбе с синтетическими медиа-манипуляциями.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png" length="546232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: решение проблем и использование возможностей.</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "информационная безопасность"
+            
+              , "тестирование безопасности"
+            
+              , "гибкие методологии"
+            
+              , "сотрудничество"
+            
+              , "постановления правительства"
+            
+              , "автоматизация"
+            
+              , "разработка приложений"
+            
+              , "масштабируемость"
+            
+              , "непрерывный контроль"
+            
+              , "Рекомендации NIST"
+            
+              , "контуры обратной связи"
+            
+              , "модульность"
+            
+              , "уязвимости"
+            
+              , "обеспечение качества"
+            
+              , "кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "средства разработки программного обеспечения"
+            
+              , "управление рисками"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье рассматриваются проблемы и возможности DevSecOps в организациях, включая улучшение совместной работы, повышение масштабируемости, интеграцию с государственными нормативными актами и многое другое.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Что такое Cyber Sentinels и почему вы должны присоединиться</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "информационная безопасность"
+            
+              , "ЭТО"
+            
+              , "сообщество"
+            
+              , "Обмен знаниями"
+            
+              , "сотрудничество"
+            
+              , "непрерывное обучение"
+            
+              , "поддерживать"
+            
+              , "инклюзивность"
+            
+              , "положительное влияние"
+            
+              , "текстовые каналы"
+            
+              , "голосовые каналы"
+            
+              , "карьерный совет"
+            
+              , "предложения работы"
+            
+              , "образовательные ресурсы"
+            
+              , "новые тенденции"
+            
+              , "проекты"
+            
+              , "события"
+            
+              , "конференции"
+            
+              , "фотографии домашних животных"
+            
+              , "технологии"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о миссии и принципах Cyber Sentinels, сообщества кибер- и ИТ-специалистов, стремящихся делиться знаниями и разрабатывать инновационные решения для проблем кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_stylized_shield_or_emblem.png" length="393218" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Важность соблюдения требований и профессионализма в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "хозяйственная деятельность"
+            
+              , "безопасность сети"
+            
+              , "конфиденциальная информация"
+            
+              , "кибератаки"
+            
+              , "технология"
+            
+              , "программное обеспечение"
+            
+              , "профессионализм"
+            
+              , "соответствие"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "передовой опыт"
+            
+              , "приоритет"
+            
+              , "культура безопасности"
+            
+              , "утечки данных"
+            
+              , "интеллектуальная собственность"
+            
+              , "проактивный подход"
+            
+              , "низкий приоритет"
+            
+              , "нехватка ресурсов"
+            
+              , "обучение"
+            
+              , "приверженность принципам безопасности"
+            
+              , "офицеры по информационной безопасности (ISSO)"
+            
+              , "системы управления информационной безопасностью (СУИБ)"
+            
+              , "обучение и опыт"
+            
+              , "угрозы безопасности"
+            
+              , "100% успешное прохождение аудита на соответствие требованиям"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "Серия NIST 800"
+            
+              , "политическая игра"
+            
+              , "доверие"
+            
+              , "честность"
+            
+              , "сотрудничество"
+            
+              , "papertrail"
+            
+              , "прозрачность"
+            
+              , "подотчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Кибербезопасность является одним из важнейших аспектов деятельности современного бизнеса и требует комплексного подхода, включающего в себя наличие необходимых систем, протоколов и персонала для эффективного управления защитой от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png" length="418583" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

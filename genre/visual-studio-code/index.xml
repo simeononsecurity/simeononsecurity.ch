@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Studio Code on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/visual-studio-code//img/banner.png</url>
+      <title>Visual Studio Code on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/visual-studio-code/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/visual-studio-code/</link>
+
+    <description>Recent content in Visual Studio Code on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/visual-studio-code/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие расширения Visual Studio Code для ИИ: ускорьте разработку ИИ с помощью этих важнейших инструментов</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-ai/</link>
+        
+        <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Разработка искусственного интеллекта"
+            
+              , "Visual Studio Code"
+            
+              , "Редактор кода"
+            
+              , "Средства искусственного интеллекта"
+            
+              , "Производительность"
+            
+              , "Python"
+            
+              , "Юпитер"
+            
+              , "Git"
+            
+              , "Docker"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-ai/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие расширения Visual Studio Code для разработки ИИ, включая Python, Jupyter, Git, IntelliCode и Docker, чтобы повысить производительность и оптимизировать рабочий процесс.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_computer_screen_with_Visu.png" length="991012" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие расширения Visual Studio Code для разработки на C&#43;&#43;: Повышение производительности!</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</link>
+        
+        <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Программирование"
+            
+              , "Разработка программного обеспечения"
+            
+              , "C плюс плюс Разработка"
+            
+              , "Visual Studio Code"
+            
+              , "Редакторы кода"
+            
+              , "Производительность"
+            
+              , "Средства разработки"
+            
+              , "IDE"
+            
+              , "Оптимизация кода"
+            
+              , "Эффективность кода"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-visual-studio-code-extensions-for-cpp-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие расширения C++ для Visual Studio Code, которые улучшат ваши навыки кодирования и повысят производительность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_showing_a_developer_using_Visu.png" length="1316687" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

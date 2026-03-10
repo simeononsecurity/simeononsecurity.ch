@@ -1,0 +1,127 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SolarWinds.BusinessLayerHost.exe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/solarwinds.businesslayerhost.exe//img/banner.png</url>
+      <title>SolarWinds.BusinessLayerHost.exe on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/solarwinds.businesslayerhost.exe/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/solarwinds.businesslayerhost.exe/</link>
+
+    <description>Recent content in SolarWinds.BusinessLayerHost.exe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/solarwinds.businesslayerhost.exe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Атака на цепочку поставок SolarWinds Orion: C2, смягчение последствий и рекомендации экспертов</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/solarwinds-orion-mitigations/</link>
+        
+        <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Солнечные ветры"
+            
+              , "Цепочка поставок"
+            
+              , "С2"
+            
+              , "Командование и контроль"
+            
+              , "Смягчения"
+            
+              , "Руководство"
+            
+              , "Разведка угроз"
+            
+              , "МДС"
+            
+              , "Огненный глаз"
+            
+              , "МСЦ"
+            
+              , "Майкрософт"
+            
+              , "САНС"
+            
+              , "SolarWinds.Orion.Core.BusinessLayer.dll"
+            
+              , "SolarWinds.BusinessLayerHost.exe"
+            
+              , "ConfigurationWizard.exe"
+            
+              , "NetflowDatabaseMaintenance.exe"
+            
+              , "NetFlowService.exe"
+            
+              , "SolarWinds.Administration.exe"
+            
+              , "SolarWinds.Коллектор.Service.exe"
+            
+              , "DNS CNAME"
+            
+              , "Диапазоны IP-адресов"
+            
+              , "DNS-имена"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/solarwinds-orion-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об атаке на цепочку поставок SolarWinds Orion, в том числе о вредоносном ПО C2, мерах по смягчению последствий и рекомендациях экспертов от таких организаций, как DHS и FireEye.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

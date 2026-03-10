@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Активдиректори on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8//img/banner.png</url>
+      <title>Активдиректори on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8/</link>
+
+    <description>Recent content in Активдиректори on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автономная установка модуля RSAT ActiveDirectory PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструментарий удаленного администрирования сервера"
+            
+              , "Модуль PowerShell RSAT ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Автономный установщик"
+            
+              , "Сценарий PowerShell"
+            
+              , "Модуль PowerShell"
+            
+              , "Активдиректори"
+            
+              , "Окна"
+            
+              , "Не в сети"
+            
+              , "Установить"
+            
+              , "Сервер"
+            
+              , "Администрация"
+            
+              , "Инструментарий"
+            
+              , "Скрипты"
+            
+              , "Модуль"
+            
+              , "Windows-сервер"
+            
+              , "Ядро PowerShell"
+            
+              , "Windows PowerShell"
+            
+              , "Майкрософт"
+            
+              , "ИТ-администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как установить модуль PowerShell RSAT ActiveDirectory в автономном режиме с помощью простого сценария PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

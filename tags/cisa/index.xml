@@ -1,0 +1,485 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CISA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/cisa//img/banner.png</url>
+      <title>CISA on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/cisa/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/cisa/</link>
+
+    <description>Recent content in CISA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/cisa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освоение кибербезопасности: Изучение новейших CVE и действующих лиц угроз</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "CVEs"
+            
+              , "субъекты угроз"
+            
+              , "сканирование уязвимостей"
+            
+              , "разведка угроз"
+            
+              , "обмен информацией"
+            
+              , "отраслевое сотрудничество"
+            
+              , "рекомендации по безопасности"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "Болтер ATT&amp;CK®"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "возникающие угрозы"
+            
+              , "проактивная защита"
+            
+              , "автоматизированное сканирование уязвимостей"
+            
+              , "разведка из открытых источников"
+            
+              , "Анализ угроз в режиме реального времени"
+            
+              , "тактика и техника действий субъектов угроз"
+            
+              , "Технический OSINT"
+            
+              , "Базы данных CVE"
+            
+              , "рекомендации поставщиков средств защиты"
+            
+              , "блоги по безопасности"
+            
+              , "информационные потоки об угрозах"
+            
+              , "сообщества по обмену информацией"
+            
+              , "постановления правительства"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Опережайте киберугрозы, узнавая о последних CVE и действующих лицах с помощью эффективных стратегий и ресурсов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание распространенных угроз кибербезопасности: Защита физических и юридических лиц</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Угрозы кибербезопасности"
+            
+              , "Важность кибербезопасности"
+            
+              , "Виды угроз"
+            
+              , "Влияние угроз"
+            
+              , "Защита от угроз"
+            
+              , "Роль государства в обеспечении кибербезопасности"
+            
+              , "Роль промышленности в обеспечении кибербезопасности"
+            
+              , "Нормативно-правовое регулирование и соблюдение требований"
+            
+              , "Государственно-частное партнерство"
+            
+              , "Исследования и разработки в области кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить распространенные угрозы кибербезопасности, их влияние на частных лиц и предприятия, а также эффективные способы защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/understanding-common-cybersecurity-threats.png" length="73745" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NVIDIA RTX 3090 vs RTX 4090: Сравнение производительности при взломе паролей</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "NVIDIA RTX 3090"
+            
+              , "NVIDIA RTX 4090"
+            
+              , "взлом паролей"
+            
+              , "производительность"
+            
+              , "безопасность"
+            
+              , "защита паролем"
+            
+              , "кибербезопасность"
+            
+              , "эталон"
+            
+              , "GPU"
+            
+              , "менеджер паролей"
+            
+              , "надежные пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "постановления правительства"
+            
+              , "CISA"
+            
+              , "GDPR"
+            
+              , "безопасность данных"
+            
+              , "сравнение оборудования"
+            
+              , "защита паролем"
+            
+              , "графическая карта"
+            
+              , "надежность пароля"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обнаружен разрыв в производительности между NVIDIA RTX 3090 и RTX 4090 при взломе паролей, показаны последствия для безопасности и меры защиты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png" length="346805" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Преимущества и проблемы использования средств защиты с открытым исходным кодом в организациях</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "средства защиты с открытым исходным кодом"
+            
+              , "кибербезопасность"
+            
+              , "поддержка сообщества"
+            
+              , "прозрачность"
+            
+              , "экономия средств"
+            
+              , "гибкость"
+            
+              , "собственные инструменты"
+            
+              , "риски безопасности"
+            
+              , "набор навыков"
+            
+              , "лицензионные платежи за программное обеспечение"
+            
+              , "совокупная стоимость владения"
+            
+              , "коммерческая поддержка"
+            
+              , "языки программирования"
+            
+              , "интеграция"
+            
+              , "безопасность тесвинга"
+            
+              , "аудит"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Национальный институт стандартов и технологий"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите преимущества и проблемы использования средств защиты с открытым исходным кодом для повышения уровня безопасности вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективное обучение удаленных сотрудников мерам безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "удаленные сотрудники"
+            
+              , "информированность о безопасности"
+            
+              , "кибербезопасность"
+            
+              , "обучение"
+            
+              , "удаленная рабочая сила"
+            
+              , "фишинг"
+            
+              , "передовой опыт"
+            
+              , "культура безопасности"
+            
+              , "геймификация"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Security Awareness"
+            
+              , "Институт Инфосек"
+            
+              , "KnowBe4"
+            
+              , "непрерывное обучение"
+            
+              , "реальные сценарии"
+            
+              , "интерактивное обучение"
+            
+              , "киберугрозы"
+            
+              , "учебные платформы по безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Усилить безопасность удаленных сотрудников можно с помощью эффективного обучения по вопросам безопасности, а также узнать, как его успешно реализовать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png" length="316114" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

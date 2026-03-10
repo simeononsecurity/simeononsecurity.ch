@@ -1,0 +1,921 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Защитник Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows//img/banner.png</url>
+      <title>Защитник Windows on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows/</link>
+
+    <description>Recent content in Защитник Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основные приемы усиления Windows для обеспечения безопасности Windows 10 и Windows 11</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Упрочнение Windows 10"
+            
+              , "Упрочнение Windows 11"
+            
+              , "Передовые методы обеспечения безопасности Windows"
+            
+              , "Советы по безопасности в Windows"
+            
+              , "Рекомендации по обеспечению безопасности Windows"
+            
+              , "Обеспечение безопасности операционных систем Windows"
+            
+              , "Упрочнение системы Windows"
+            
+              , "Меры безопасности в Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя эффективные стратегии повышения безопасности систем Windows 10 и Windows 11 с помощью комплексных методов усиления защиты и лучших практик.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация соблюдения требований безопасности с помощью сценариев STIG</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарии СТИГ"
+            
+              , "соблюдение требований безопасности"
+            
+              , "автоматизация"
+            
+              , "Windows"
+            
+              , "приложения"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Плейбуки Ansible"
+            
+              , "подготовка домена"
+            
+              , "Защитник Windows"
+            
+              , "кибербезопасность"
+            
+              , "скриптинг"
+            
+              , "Соответствие требованиям НТИГ"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-безопасность"
+            
+              , "управление исправлениями"
+            
+              , "системное администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию сценариев STIG для автоматизации соблюдения требований безопасности для Windows и популярных приложений, включая .NET, Adobe Reader DC и Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал больше о создании и реализации политики WDAC</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Безопасность Windows"
+            
+              , "Управление приложениями"
+            
+              , "Защитник Windows"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Защита от угроз"
+            
+              , "Windows Server 2019"
+            
+              , "Безопасность предприятия"
+            
+              , "Управление политикой"
+            
+              , "Лучшие практики безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал больше об условных сигналах Ansible и управлении переменными
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие требованиям Windows с помощью Ansible STIG Playbooks</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Защита Windows"
+            
+              , "Скрипты СТИГ"
+            
+              , "Соответствие стандартам STIG"
+            
+              , "Ансибл Галактика"
+            
+              , "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Windows-сервер"
+            
+              , "Защитник Windows"
+            
+              , ".СЕТЬ"
+            
+              , "Fire Fox"
+            
+              , "Оракл JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Интернет-соединение"
+            
+              , "Автономная совместимость"
+            
+              , "Усиление безопасности"
+            
+              , "Безопасность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте соблюдение требований безопасности с помощью Ansible STIG Playbooks для систем Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация компьютера под управлением Windows с помощью программы Windows-Optimize-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Оптимизация Windows"
+            
+              , "Деблокирующие окна"
+            
+              , "Ускорение работы Windows"
+            
+              , "Оптимизация производительности Windows"
+            
+              , "Повышение производительности Windows"
+            
+              , "Оптимизация системы Windows"
+            
+              , "Microsoft"
+            
+              , "Конфиденциальность"
+            
+              , "Удаление вредоносного ПО"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Защитник Windows"
+            
+              , "Обновление Windows"
+            
+              , "Cortona"
+            
+              , "Объекты групповой политики"
+            
+              , "Телеметрия"
+            
+              , "Windows Store"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение производительности и конфиденциальности операционной системы Windows с помощью Windows-Optimize-Debloat - комплексного скрипта, позволяющего удалить раздутое ПО и оптимизировать системные настройки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизируйте и укрепите свою систему Windows с помощью сценария Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Укрепление Windows"
+            
+              , "Раздувание Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Производительность Windows"
+            
+              , "Конфиденциальность Windows"
+            
+              , "обновления Windows"
+            
+              , "Объекты групповой политики"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Fire Fox"
+            
+              , "Гугл Хром"
+            
+              , "Интернет-проводник"
+            
+              , "Край Майкрософт Хром"
+            
+              , "Дот-нет 4"
+            
+              , "Microsoft Office"
+            
+              , "Один диск"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Брандмауэр Windows"
+            
+              , "Защитник Windows"
+            
+              , "Блокировщик приложений"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это подробное руководство содержит пошаговые инструкции по оптимизации, усилению защиты и разгрузке системы Windows для повышения производительности, безопасности и конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Окончательный сценарий настройки защиты Applocker: повышение безопасности Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/applocker-hardening/</link>
+        
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Windows"
+            
+              , "Блокировщик приложений"
+            
+              , "Сценарий конфигурации"
+            
+              , "Информационная безопасность"
+            
+              , "Защита от вредоносных программ"
+            
+              , "Предотвращение угроз"
+            
+              , "Сценарий PowerShell"
+            
+              , "Рекомендуемые Microsoft правила блокировки"
+            
+              , "Согласие"
+            
+              , "Руководство NSA Cyber Bitlocker"
+            
+              , "Управление приложениями"
+            
+              , "Закалка окон"
+            
+              , "Киберугрозы"
+            
+              , "Защита компьютера"
+            
+              , "Киберзащита"
+            
+              , "Безопасные окна"
+            
+              , "Окончательный список обхода Applocker"
+            
+              , "Защитник Windows"
+            
+              , "Блокировка системы"
+            
+              , "sos-applockerhardening.ps1"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/applocker-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите свою систему Windows от злонамеренных атак с помощью сценария настройки Ultimate Applocker Hardening.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Командная строка Windows и защита PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Закалка"
+            
+              , "Командная строка Windows"
+            
+              , "Безопасность"
+            
+              , "Согласие"
+            
+              , "Автоматизация"
+            
+              , "Ограниченный языковой режим"
+            
+              , "Ведение журнала PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Безопасность предприятия"
+            
+              , "Синяя команда"
+            
+              , "Информационная безопасность"
+            
+              , "Лучшие практики"
+            
+              , "Отключить командную строку"
+            
+              , "Отключить PowerShell v2"
+            
+              , "Репозиторий GitHub"
+            
+              , "Защитник Windows"
+            
+              , "Майкрософт"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите командную строку Windows и PowerShell с помощью нашего всеобъемлющего скрипта и документации, повышающих безопасность системы и соответствие требованиям.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие Защитника Windows с помощью сценария PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Согласие"
+            
+              , "Синяя команда"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Защитник Windows"
+            
+              , "Усиление Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "Защитник СТИГ"
+            
+              , "Безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "СТИГ"
+            
+              , "Безопасность Windows"
+            
+              , "Антивирус Windows"
+            
+              , "Сценарии Windows"
+            
+              , "Автоматизация Windows"
+            
+              , "Защита Windows"
+            
+              , "Автоматизация Защитника Windows"
+            
+              , "Соответствие Защитнику Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повысьте свою безопасность с помощью сценария PowerShell для Защитника Windows STIG, который автоматизирует соблюдение рекомендаций STIG для антивирусной программы Защитник Windows V1R9.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности Windows 10 с помощью сценария усиления защиты защитника</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-hardening/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Windows 10"
+            
+              , "Безопасность Windows 10"
+            
+              , "Сценарий PowerShell"
+            
+              , "Закалка"
+            
+              , "Укрепление защитника"
+            
+              , "Автоматизация безопасности"
+            
+              , "Согласие"
+            
+              , "Контролируемый доступ к папкам"
+            
+              , "Система предотвращения вторжений"
+            
+              , "Управление приложениями"
+            
+              , "Снижение поверхности атаки"
+            
+              , "Защита от эксплойтов"
+            
+              , "Облачная защита"
+            
+              , "Защита сети"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "STIG V2R1"
+            
+              , "ВДАК"
+            
+              , "ASR"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как повысить безопасность Windows 10 с помощью сценария PowerShell, который усиливает защиту антивирусной программы Защитник Windows, реализуя все требования антивирусной программы Защитник Windows STIG V2R1.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Hardening CTF: усиление безопасности устройств Windows для участия в соревнованиях Capture the Flag</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-hardening-ctf/</link>
+        
+        <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "скрипт"
+            
+              , "Устройство Windows"
+            
+              , "командная строка"
+            
+              , "LLMNR"
+            
+              , "PowerShell"
+            
+              , "SMB"
+            
+              , "Временные метки TCP"
+            
+              , "AppLocker"
+            
+              , "Журналирование в Windows"
+            
+              , "DEP"
+            
+              , "Конфигурации EMET"
+            
+              , "Режим ограниченного языка PowerShell"
+            
+              , "Шифрование SMB"
+            
+              , "Меры по защите от Spectre и Meltdown"
+            
+              , "Защитник Windows"
+            
+              , "Брандмауэр Windows"
+            
+              , "PSWindowsUpdate"
+            
+              , "Обновления Windows"
+            
+              , "сценарий упрочнения"
+            
+              , "Рекомендуемые политики АНБ"
+            
+              , "Ведение журналов Windows и контроль безопасности"
+            
+              , "Контроль приложений Windows Defender"
+            
+              , "Функции уменьшения поверхности атак Windows Defender"
+            
+              , "Облачные средства защиты Windows Defender"
+            
+              , "Защита от эксплойтов в Windows Defender"
+            
+              , "Установка PSWindowsUpdate"
+            
+              , "Повышение уровня безопасности устройств Windows"
+            
+              , "Меры по усилению защиты Windows"
+            
+              , "укрепление безопасности Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-hardening-ctf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя мощный скрипт, повышающий безопасность Windows за счет применения различных мер защиты от компрометации.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

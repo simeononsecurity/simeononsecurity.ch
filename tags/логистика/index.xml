@@ -1,0 +1,200 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Логистика on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0//img/banner.png</url>
+      <title>Логистика on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Логистика on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BB%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскрытие потенциала технологии блокчейн: Исследование возможностей применения за пределами криптовалют</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/applications-for-blockchain-technologies-beyond-cryptocurrencies/</link>
+        
+        <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология блокчейн"
+            
+              , "Криптовалюта"
+            
+              , "Финансы"
+            
+              , "Управление цепями поставок"
+            
+              , "Здравоохранение"
+            
+              , "Энергия"
+            
+              , "Утилиты"
+            
+              , "Децентрализованное финансирование"
+            
+              , "Смарт-контракты"
+            
+              , "Трансграничные платежи"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/applications-for-blockchain-technologies-beyond-cryptocurrencies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя разнообразные области применения технологии blockchain, выходящие за рамки криптовалют и революционизирующие финансы, управление цепочками поставок, здравоохранение, энергетику и многое другое.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png" length="281296" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила сетей LoRa: объяснение интеграции гелия</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</link>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сеть LoRa"
+            
+              , "Интеграция гелия"
+            
+              , "Переадресаторы пакетов Semtech"
+            
+              , "IoT-приложения"
+            
+              , "LPWAN"
+            
+              , "модуляция с расширенным спектром"
+            
+              , "шлюзы"
+            
+              , "облако"
+            
+              , "Протокол LoRaWAN"
+            
+              , "сетевая инфраструктура"
+            
+              , "горячие точки"
+            
+              , "датчики"
+            
+              , "сетевая безопасность"
+            
+              , "геолокация"
+            
+              , "механизм стимулирования"
+            
+              , "умные города"
+            
+              , "сельское хозяйство"
+            
+              , "логистика"
+            
+              , "разработка Интернета вещей"
+            
+              , "дальняя связь"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/lora-networks-semtech-packet-forwarders-and-helium-how-does-it-all-work/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя преимущества интеграции сети LoRa с Helium для устройств IoT и таких отраслей, как умные города, сельское хозяйство и логистика.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png" length="409429" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

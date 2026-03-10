@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RHEL on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/rhel//img/banner.png</url>
+      <title>RHEL on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/rhel/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/rhel/</link>
+
+    <description>Recent content in RHEL on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/rhel/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Советы и рекомендации по сдаче экзамена CompTIA Linux&#43; XK0-005</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</link>
+        
+        <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обновления Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "автономные обновления"
+            
+              , "локальный репозиторий"
+            
+              , "кэш"
+            
+              , "настройка сервера"
+            
+              , "настройка клиента"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Обновление системы Linux"
+            
+              , "автономные обновления пакетов"
+            
+              , "автономные обновления программного обеспечения"
+            
+              , "локальный репозиторий пакетов"
+            
+              , "локальный кэш пакетов"
+            
+              , "автономные обновления Linux"
+            
+              , "обработка автономных обновлений"
+            
+              , "методы автономного обновления"
+            
+              , "обслуживание автономной системы"
+            
+              , "Обновление серверов Linux"
+            
+              , "Обновления для клиентов Linux"
+            
+              , "автономное управление программным обеспечением"
+            
+              , "автономное управление пакетами"
+            
+              , "стратегии обновления"
+            
+              , "Обновления безопасности Linux"
+            
+              , "Практический тест linux plus"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте ценные советы и рекомендации, которые помогут вам успешно сдать экзамен CompTIA Linux+ XK0-005 и продвинуться по карьерной лестнице в качестве специалиста по Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png" length="294776" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

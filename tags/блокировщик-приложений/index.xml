@@ -1,0 +1,204 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блокировщик Приложений on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9//img/banner.png</url>
+      <title>Блокировщик Приложений on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9/</link>
+
+    <description>Recent content in Блокировщик Приложений on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизируйте и укрепите свою систему Windows с помощью сценария Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Укрепление Windows"
+            
+              , "Раздувание Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Производительность Windows"
+            
+              , "Конфиденциальность Windows"
+            
+              , "обновления Windows"
+            
+              , "Объекты групповой политики"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Fire Fox"
+            
+              , "Гугл Хром"
+            
+              , "Интернет-проводник"
+            
+              , "Край Майкрософт Хром"
+            
+              , "Дот-нет 4"
+            
+              , "Microsoft Office"
+            
+              , "Один диск"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Брандмауэр Windows"
+            
+              , "Защитник Windows"
+            
+              , "Блокировщик приложений"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это подробное руководство содержит пошаговые инструкции по оптимизации, усилению защиты и разгрузке системы Windows для повышения производительности, безопасности и конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Окончательный сценарий настройки защиты Applocker: повышение безопасности Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/applocker-hardening/</link>
+        
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Windows"
+            
+              , "Блокировщик приложений"
+            
+              , "Сценарий конфигурации"
+            
+              , "Информационная безопасность"
+            
+              , "Защита от вредоносных программ"
+            
+              , "Предотвращение угроз"
+            
+              , "Сценарий PowerShell"
+            
+              , "Рекомендуемые Microsoft правила блокировки"
+            
+              , "Согласие"
+            
+              , "Руководство NSA Cyber Bitlocker"
+            
+              , "Управление приложениями"
+            
+              , "Закалка окон"
+            
+              , "Киберугрозы"
+            
+              , "Защита компьютера"
+            
+              , "Киберзащита"
+            
+              , "Безопасные окна"
+            
+              , "Окончательный список обхода Applocker"
+            
+              , "Защитник Windows"
+            
+              , "Блокировка системы"
+            
+              , "sos-applockerhardening.ps1"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/applocker-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите свою систему Windows от злонамеренных атак с помощью сценария настройки Ultimate Applocker Hardening.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Телеметрия on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F//img/banner.png</url>
+      <title>Телеметрия on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Телеметрия on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация компьютера под управлением Windows с помощью программы Windows-Optimize-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Оптимизация Windows"
+            
+              , "Деблокирующие окна"
+            
+              , "Ускорение работы Windows"
+            
+              , "Оптимизация производительности Windows"
+            
+              , "Повышение производительности Windows"
+            
+              , "Оптимизация системы Windows"
+            
+              , "Microsoft"
+            
+              , "Конфиденциальность"
+            
+              , "Удаление вредоносного ПО"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Защитник Windows"
+            
+              , "Обновление Windows"
+            
+              , "Cortona"
+            
+              , "Объекты групповой политики"
+            
+              , "Телеметрия"
+            
+              , "Windows Store"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение производительности и конфиденциальности операционной системы Windows с помощью Windows-Optimize-Debloat - комплексного скрипта, позволяющего удалить раздутое ПО и оптимизировать системные настройки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

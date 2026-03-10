@@ -1,0 +1,172 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TryHackMe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/tryhackme//img/banner.png</url>
+      <title>TryHackMe on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/tryhackme/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/tryhackme/</link>
+
+    <description>Recent content in TryHackMe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Развитие навыков кибербезопасности: Обзор TryHackMe</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Онлайн-обучение"
+            
+              , "Этический хакинг"
+            
+              , "Сетевая безопасность"
+            
+              , "Виртуальные лаборатории"
+            
+              , "Сертификаты"
+            
+              , "Пути обучения"
+            
+              , "Практический опыт"
+            
+              , "Обзор TryHackMe"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности TryHackMe: особенности, цены, сертификации, сетевые сервисы и многое другое, что позволит вам овладеть навыками кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png" length="1541792" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые учебные ресурсы</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/learning_resources/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые учебные ресурсы"
+            
+              , "Обучение информационным технологиям"
+            
+              , "Обучение кибербезопасности"
+            
+              , "Курсы по сетевым технологиям"
+            
+              , "Образование в области операционных систем"
+            
+              , "Ресурсы по программированию и сценариям"
+            
+              , "Онлайн-обучение"
+            
+              , "Лаборатории кибербезопасности"
+            
+              , "Сетевая сертификация"
+            
+              , "Обучение операционным системам"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/learning_resources/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          С помощью рекомендаций SimeonOnSecurity вы найдете лучшие ресурсы для обучения в области ИТ, кибербезопасности, сетевых технологий, операционных систем, программирования и скриптинга. От бесплатных онлайн-платформ Cybrary, Code.org и CodeAcademy до платных платформ LinkedIn Learning, Pluralsight и TryHackMe - вы найдете широкий спектр возможностей для достижения ваших целей обучения. Повысьте свои навыки в таких областях, как Cisco, Juniper, Windows, VMware и Red Hat, пройдя бесплатное обучение и получив сертификаты. Поднимите свою карьеру на новый уровень с помощью высококлассных учебных ресурсов SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

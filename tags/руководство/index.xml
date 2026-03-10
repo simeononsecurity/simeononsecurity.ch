@@ -1,0 +1,216 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Руководство on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE//img/banner.png</url>
+      <title>Руководство on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE/</link>
+
+    <description>Recent content in Руководство on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Внедрение системы кибербезопасности NIST Cybersecurity Framework</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "NIST"
+            
+              , "основа"
+            
+              , "управление рисками"
+            
+              , "информационная безопасность"
+            
+              , "киберугрозы"
+            
+              , "реализация"
+            
+              , "передовой опыт"
+            
+              , "руководство"
+            
+              , "стандарты"
+            
+              , "кибернетические атаки"
+            
+              , "оценка рисков"
+            
+              , "риск кибербезопасности"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "ИТ-безопасность"
+            
+              , "безопасность сети"
+            
+              , "реагирование на инциденты"
+            
+              , "меры безопасности"
+            
+              , "план обеспечения кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как внедрить NIST Cybersecurity Framework и защитить свою организацию от киберугроз с помощью нашего пошагового руководства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Атака на цепочку поставок SolarWinds Orion: C2, смягчение последствий и рекомендации экспертов</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/solarwinds-orion-mitigations/</link>
+        
+        <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Солнечные ветры"
+            
+              , "Цепочка поставок"
+            
+              , "С2"
+            
+              , "Командование и контроль"
+            
+              , "Смягчения"
+            
+              , "Руководство"
+            
+              , "Разведка угроз"
+            
+              , "МДС"
+            
+              , "Огненный глаз"
+            
+              , "МСЦ"
+            
+              , "Майкрософт"
+            
+              , "САНС"
+            
+              , "SolarWinds.Orion.Core.BusinessLayer.dll"
+            
+              , "SolarWinds.BusinessLayerHost.exe"
+            
+              , "ConfigurationWizard.exe"
+            
+              , "NetflowDatabaseMaintenance.exe"
+            
+              , "NetFlowService.exe"
+            
+              , "SolarWinds.Administration.exe"
+            
+              , "SolarWinds.Коллектор.Service.exe"
+            
+              , "DNS CNAME"
+            
+              , "Диапазоны IP-адресов"
+            
+              , "DNS-имена"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/solarwinds-orion-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об атаке на цепочку поставок SolarWinds Orion, в том числе о вредоносном ПО C2, мерах по смягчению последствий и рекомендациях экспертов от таких организаций, как DHS и FireEye.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

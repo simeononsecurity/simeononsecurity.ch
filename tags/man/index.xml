@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MAN on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/man//img/banner.png</url>
+      <title>MAN on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/man/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/man/</link>
+
+    <description>Recent content in MAN on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/man/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Понимание модели OSI, топологий и типов сетей</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевая архитектура"
+            
+              , "Информатика"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Сетевая безопасность"
+            
+              , "Управление сетью"
+            
+              , "Интернет"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить важность основ сетевых технологий, включая модель OSI, сетевые топологии и различные типы сетей, для построения эффективных и надежных инфраструктур.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

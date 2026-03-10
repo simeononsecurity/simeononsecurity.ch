@@ -1,0 +1,421 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Открытый Исходный Код on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%B4//img/banner.png</url>
+      <title>Открытый Исходный Код on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%B4/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%B4/</link>
+
+    <description>Recent content in Открытый Исходный Код on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие браузеры для обеспечения конфиденциальности - LibreWolf vs. Brave vs. Firefox vs. Tor</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность"
+            
+              , "Интернет"
+            
+              , "Технология"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в Интернете"
+            
+              , "Открытый исходный код"
+            
+              , "Анонимность"
+            
+              , "Веб-браузинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие браузеры, ориентированные на конфиденциальность - LibreWolf, Brave, Firefox и Tor - для безопасной работы в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация Ansible: От простого Ansible к Ansible Tower и Semaphore</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Управление инфраструктурой"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Открытый исходный код"
+            
+              , "Управление рабочими процессами"
+            
+              , "Масштабируемость"
+            
+              , "Сотрудничество"
+            
+              , "Инструменты Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности автоматизации с помощью Ansible, сравнив обычную Ansible, Ansible Tower и Ansible Semaphore, и выберите подходящий инструмент для эффективного управления инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение производительности с помощью Homebox: Управление запасами и активами с открытым исходным кодом</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Управление запасами"
+            
+              , "Управление активами"
+            
+              , "Открытый исходный код"
+            
+              , "Производительность"
+            
+              , "Малый бизнес"
+            
+              , "Управление домом"
+            
+              , "Самостоятельное размещение"
+            
+              , "Программное обеспечение"
+            
+              , "Организация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Homebox, программного обеспечения с открытым исходным кодом для эффективного управления запасами и активами, повышающего производительность вашего дома или малого предприятия.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство: установка ОС Graphene на ваше устройство Google Pixel</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/how-to-install-graphine-os/</link>
+        
+        <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Графеновая ОС"
+            
+              , "Google Пиксель"
+            
+              , "конфиденциальность"
+            
+              , "безопасность"
+            
+              , "Андроид"
+            
+              , "мобильные устройства"
+            
+              , "Операционная система"
+            
+              , "инструкция по установке"
+            
+              , "пользовательское ПЗУ"
+            
+              , "ориентированный на конфиденциальность"
+            
+              , "защита данных"
+            
+              , "безопасная ОС"
+            
+              , "Открытый исходный код"
+            
+              , "безопасность устройства"
+            
+              , "функции конфиденциальности"
+            
+              , "личные данные"
+            
+              , "мобильная конфиденциальность"
+            
+              , "конфиденциальность данных"
+            
+              , "настройка устройства"
+            
+              , "технологии"
+            
+              , "Пиксельная установка"
+            
+              , "операционная система, ориентированная на конфиденциальность"
+            
+              , "Установка графеновой ОС"
+            
+              , "Мобильная безопасность"
+            
+              , "конфиденциальность и безопасность"
+            
+              , "Настройка пиксельного устройства"
+            
+              , "улучшения конфиденциальности"
+            
+              , "руководство по защите данных"
+            
+              , "безопасная операционная система"
+            
+              , "Функции конфиденциальности пикселей"
+            
+              , "конфиденциальность мобильных данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/how-to-install-graphine-os/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как установить ОС Graphene на устройство Google Pixel для повышения конфиденциальности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png" length="160595" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые мессенджеры</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/messengers/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые мессенджеры"
+            
+              , "Клиенты обмена сообщениями"
+            
+              , "Безопасная связь"
+            
+              , "Комплексное шифрование"
+            
+              , "Приложения, ориентированные на конфиденциальность"
+            
+              , "Приложения с открытым исходным кодом"
+            
+              , "Самоуничтожающиеся сообщения"
+            
+              , "Безопасный совместный доступ к файлам"
+            
+              , "Средства совместной работы"
+            
+              , "Мобильные приложения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/messengers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие клиенты для обмена сообщениями, рекомендованные SimeonOnSecurity. Обеспечьте безопасность и легко общайтесь с помощью Signal - наиболее предпочтительного варианта, Wire и Wickr Просмотрите варианты и выберите подходящий для вас мессенджер.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

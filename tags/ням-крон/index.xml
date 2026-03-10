@@ -1,0 +1,465 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ням-Крон on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BD%D1%8F%D0%BC-%D0%BA%D1%80%D0%BE%D0%BD//img/banner.png</url>
+      <title>Ням-Крон on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BD%D1%8F%D0%BC-%D0%BA%D1%80%D0%BE%D0%BD/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BD%D1%8F%D0%BC-%D0%BA%D1%80%D0%BE%D0%BD/</link>
+
+    <description>Recent content in Ням-Крон on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BD%D1%8F%D0%BC-%D0%BA%D1%80%D0%BE%D0%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство: автономные обновления Linux для Ubuntu Debian и CentOS RHEL</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обновления Linux"
+            
+              , "Убунту"
+            
+              , "Дебиан"
+            
+              , "CentOS"
+            
+              , "РЕЛ"
+            
+              , "автономные обновления"
+            
+              , "локальный репозиторий"
+            
+              , "тайник"
+            
+              , "настройка сервера"
+            
+              , "настройка клиента"
+            
+              , "подходящее зеркало"
+            
+              , "debmirror"
+            
+              , "создать репозиторий"
+            
+              , "apt-cacher-нг"
+            
+              , "ням-крон"
+            
+              , "Обновления системы Linux"
+            
+              , "автономные обновления пакетов"
+            
+              , "автономные обновления программного обеспечения"
+            
+              , "локальный репозиторий пакетов"
+            
+              , "локальный кэш пакетов"
+            
+              , "автономные обновления Linux"
+            
+              , "обработка автономных обновлений"
+            
+              , "автономные способы обновления"
+            
+              , "автономное обслуживание системы"
+            
+              , "Обновления сервера Linux"
+            
+              , "Обновления клиента Linux"
+            
+              , "автономное управление программным обеспечением"
+            
+              , "автономное управление пакетами"
+            
+              , "обновить стратегии"
+            
+              , "Обновления безопасности Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png" length="379936" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки исправлений и обновлений Linux с помощью Ansible: подробное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исправление Linux"
+            
+              , "Ансибл автоматизация"
+            
+              , "автоматизация обновлений"
+            
+              , "обслуживание системы"
+            
+              , "ИТ-автоматизация"
+            
+              , "управление исправлениями"
+            
+              , "Безопасность Linux"
+            
+              , "Дебиан"
+            
+              , "Убунту"
+            
+              , "РЕЛ"
+            
+              , "Альпийский"
+            
+              , "стабильность системы"
+            
+              , "снижение уязвимости"
+            
+              , "ИТ-инфраструктура"
+            
+              , "инструмент автоматизации"
+            
+              , "Ansible playbook"
+            
+              , "конфигурация хоста"
+            
+              , "обновления программного обеспечения"
+            
+              , "соответствие требованиям безопасности"
+            
+              , "ИТ-операции"
+            
+              , "Обновления Linux"
+            
+              , "Убунту"
+            
+              , "Дебиан"
+            
+              , "CentOS"
+            
+              , "РЕЛ"
+            
+              , "автономные обновления"
+            
+              , "локальный репозиторий"
+            
+              , "тайник"
+            
+              , "настройка сервера"
+            
+              , "настройка клиента"
+            
+              , "подходящее зеркало"
+            
+              , "debmirror"
+            
+              , "создать репозиторий"
+            
+              , "apt-cacher-нг"
+            
+              , "ням-крон"
+            
+              , "Обновления системы Linux"
+            
+              , "автономные обновления пакетов"
+            
+              , "автономные обновления программного обеспечения"
+            
+              , "локальный репозиторий пакетов"
+            
+              , "локальный кэш пакетов"
+            
+              , "автономные обновления Linux"
+            
+              , "обработка автономных обновлений"
+            
+              , "автономные способы обновления"
+            
+              , "автономное обслуживание системы"
+            
+              , "Обновления сервера Linux"
+            
+              , "Обновления клиента Linux"
+            
+              , "автономное управление программным обеспечением"
+            
+              , "автономное управление пакетами"
+            
+              , "обновить стратегии"
+            
+              , "Обновления безопасности Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как автоматизировать установку исправлений и обновлений Linux с помощью Ansible, ознакомьтесь с различными дистрибутивами и инструкциями по установке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создайте прибыльную коробку пассивного дохода с помощью маломощного оборудования: руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</link>
+        
+        <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Создайте прибыльную коробку пассивного дохода"
+            
+              , "Маломощное оборудование"
+            
+              , "Пассивный доход"
+            
+              , "Крипто майнер"
+            
+              , "Raspberry Pi"
+            
+              , "Интел НУК"
+            
+              , "Гид"
+            
+              , "Требования к оборудованию"
+            
+              , "Установка ОС"
+            
+              , "Установка программы"
+            
+              , "Докер"
+            
+              , "Автоматические обновления контейнеров Docker"
+            
+              , "Сервер Ubuntu"
+            
+              , "Рабочий стол Ubuntu"
+            
+              , "малина"
+            
+              , "Бюджет"
+            
+              , "USFF"
+            
+              , "Крошечный"
+            
+              , "Мини"
+            
+              , "Микро ПК"
+            
+              , "Технический опыт"
+            
+              , "EarnApp"
+            
+              , "МИСТ"
+            
+              , "Peer2Прибыль"
+            
+              , "МедГейн"
+            
+              , "TraffMonitizer"
+            
+              , "Сторожевая башня"
+            
+              , "Битпинг"
+            
+              , "Обновления Linux"
+            
+              , "Убунту"
+            
+              , "Дебиан"
+            
+              , "CentOS"
+            
+              , "РЕЛ"
+            
+              , "автономные обновления"
+            
+              , "локальный репозиторий"
+            
+              , "тайник"
+            
+              , "настройка сервера"
+            
+              , "настройка клиента"
+            
+              , "подходящее зеркало"
+            
+              , "debmirror"
+            
+              , "создать репозиторий"
+            
+              , "apt-cacher-нг"
+            
+              , "ням-крон"
+            
+              , "Обновления системы Linux"
+            
+              , "автономные обновления пакетов"
+            
+              , "автономные обновления программного обеспечения"
+            
+              , "локальный репозиторий пакетов"
+            
+              , "локальный кэш пакетов"
+            
+              , "автономные обновления Linux"
+            
+              , "обработка автономных обновлений"
+            
+              , "автономные способы обновления"
+            
+              , "автономное обслуживание системы"
+            
+              , "Обновления сервера Linux"
+            
+              , "Обновления клиента Linux"
+            
+              , "автономное управление программным обеспечением"
+            
+              , "автономное управление пакетами"
+            
+              , "обновить стратегии"
+            
+              , "Обновления безопасности Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/creating-profitable-low-powered-crypto-miners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как настроить маломощный крипто-майнер с пассивным доходом, используя Raspberry Pi или Intel NUC, и зарабатывать от 10 до 20 долларов в месяц за коробку с помощью этого руководства
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png" length="405403" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

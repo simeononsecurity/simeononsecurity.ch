@@ -1,0 +1,413 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность Linux on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-linux//img/banner.png</url>
+      <title>Безопасность Linux on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-linux/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-linux/</link>
+
+    <description>Recent content in Безопасность Linux on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита приложений для совместного доступа в Интернет: Эффективные меры для усиления защиты</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/how-to-secure-internet-sharing-applications/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Linux"
+            
+              , "приложения для совместного использования интернета"
+            
+              , "защита от вредоносного ПО"
+            
+              , "блокировка трекера"
+            
+              , "Блокировка трафика Tor"
+            
+              , "предотвращение торрентов"
+            
+              , "безопасность сети"
+            
+              , "Snort"
+            
+              , "Securita"
+            
+              , "Защита DNS"
+            
+              , "расширенные правила межсетевого экрана"
+            
+              , "Обновления Ubuntu"
+            
+              , "автоматические обновления"
+            
+              , "мониторинг сети"
+            
+              , "кибербезопасность"
+            
+              , "Интернет-безопасность Linux"
+            
+              , "Безопасность приложений в Linux"
+            
+              , "блокировка вредоносных программ"
+            
+              , "Предотвращение трафика Tor"
+            
+              , "защита торрентов"
+            
+              , "сетевой брандмауэр"
+            
+              , "Сетевая безопасность Linux"
+            
+              , "безопасное совместное использование Интернета"
+            
+              , "Защита DNS в Linux"
+            
+              , "расширенная сетевая безопасность"
+            
+              , "Обновление системы Linux"
+            
+              , "средства мониторинга сети"
+            
+              , "Меры кибербезопасности в Linux"
+            
+              , "Методы обеспечения безопасности в Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/how-to-secure-internet-sharing-applications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить приложения для совместного доступа к Интернету в Linux с помощью передовых мер по блокированию вредоносного ПО, трекеров, трафика Tor и торрентов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png" length="340381" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки исправлений и обновлений Linux с помощью Ansible: подробное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исправление Linux"
+            
+              , "Ансибл автоматизация"
+            
+              , "автоматизация обновлений"
+            
+              , "обслуживание системы"
+            
+              , "ИТ-автоматизация"
+            
+              , "управление исправлениями"
+            
+              , "Безопасность Linux"
+            
+              , "Дебиан"
+            
+              , "Убунту"
+            
+              , "РЕЛ"
+            
+              , "Альпийский"
+            
+              , "стабильность системы"
+            
+              , "снижение уязвимости"
+            
+              , "ИТ-инфраструктура"
+            
+              , "инструмент автоматизации"
+            
+              , "Ansible playbook"
+            
+              , "конфигурация хоста"
+            
+              , "обновления программного обеспечения"
+            
+              , "соответствие требованиям безопасности"
+            
+              , "ИТ-операции"
+            
+              , "Обновления Linux"
+            
+              , "Убунту"
+            
+              , "Дебиан"
+            
+              , "CentOS"
+            
+              , "РЕЛ"
+            
+              , "автономные обновления"
+            
+              , "локальный репозиторий"
+            
+              , "тайник"
+            
+              , "настройка сервера"
+            
+              , "настройка клиента"
+            
+              , "подходящее зеркало"
+            
+              , "debmirror"
+            
+              , "создать репозиторий"
+            
+              , "apt-cacher-нг"
+            
+              , "ням-крон"
+            
+              , "Обновления системы Linux"
+            
+              , "автономные обновления пакетов"
+            
+              , "автономные обновления программного обеспечения"
+            
+              , "локальный репозиторий пакетов"
+            
+              , "локальный кэш пакетов"
+            
+              , "автономные обновления Linux"
+            
+              , "обработка автономных обновлений"
+            
+              , "автономные способы обновления"
+            
+              , "автономное обслуживание системы"
+            
+              , "Обновления сервера Linux"
+            
+              , "Обновления клиента Linux"
+            
+              , "автономное управление программным обеспечением"
+            
+              , "автономное управление пакетами"
+            
+              , "обновить стратегии"
+            
+              , "Обновления безопасности Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как автоматизировать установку исправлений и обновлений Linux с помощью Ansible, ознакомьтесь с различными дистрибутивами и инструкциями по установке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Linux File Hashes: Руководство по получению хэшей SHA256, MD5 и SHA1 с помощью встроенных средств</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Хеширование файлов в Linux"
+            
+              , "хэш SHA256"
+            
+              , "MD5-хэш"
+            
+              , "SHA1-хэш"
+            
+              , "Командная строка Linux"
+            
+              , "целостность файлов"
+            
+              , "проверка данных"
+            
+              , "Безопасность Linux"
+            
+              , "встроенные инструменты"
+            
+              , "проверка файлов"
+            
+              , "достоверность данных"
+            
+              , "алгоритмы хеширования файлов"
+            
+              , "Системное администрирование Linux"
+            
+              , "инструменты командной строки"
+            
+              , "контрольные суммы файлов"
+            
+              , "Утилиты Linux"
+            
+              , "проверка целостности файлов"
+            
+              , "проверка целостности данных"
+            
+              , "примеры хеширования файлов"
+            
+              , "Команды хеширования в Linux"
+            
+              , "методы хеширования файлов"
+            
+              , "Меры безопасности в Linux"
+            
+              , "Защита данных в Linux"
+            
+              , "Управление файлами в Linux"
+            
+              , "Проверка файлов в Linux"
+            
+              , "Целостность файлов в Linux"
+            
+              , "безопасность данных"
+            
+              , "Валидация данных в Linux"
+            
+              , "Безопасность системы Linux"
+            
+              , "методы хеширования файлов"
+            
+              , "обеспечение целостности файлов"
+            
+              , "безопасная проверка файлов"
+            
+              , "Целостность данных в Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью встроенных средств получить SHA256, MD5 и SHA1 хэши файлов в Linux, обеспечив целостность данных и подлинность файлов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_digital_representation_of_file_hashes_being_calculated.png" length="322591" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

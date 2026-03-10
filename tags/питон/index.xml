@@ -1,0 +1,246 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Питон on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%BE%D0%BD//img/banner.png</url>
+      <title>Питон on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%BE%D0%BD/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%BE%D0%BD/</link>
+
+    <description>Recent content in Питон on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B8%D1%82%D0%BE%D0%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Испытания - Крипто - Расшифровка</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ХакБокс"
+            
+              , "Проблемы"
+            
+              , "Крипто"
+            
+              , "Расшифровать"
+            
+              , "Записать"
+            
+              , "Шифр Фернета"
+            
+              , "Шифр Мальбога"
+            
+              , "Симметричное шифрование"
+            
+              , "Информационная безопасность"
+            
+              , "Криптография"
+            
+              , "Проверка на проницаемость"
+            
+              , "питон"
+            
+              , "Безопасность"
+            
+              , "Испытание"
+            
+              , "CTF"
+            
+              , "Флаг"
+            
+              , "Шифрование"
+            
+              , "Расшифровка"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как расшифровать шифры Фернета и Мальбоге, чтобы решить задачу HackTheBox Crypto Challenge и раскрыть скрытый флаг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые книги</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/books/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "книги"
+            
+              , "информационная безопасность"
+            
+              , "лучшие книги по кибербезопасности"
+            
+              , "лучшие книги по автоматизации"
+            
+              , "книги по автоматизации"
+            
+              , "рекомендации по книгам по кибербезопасности"
+            
+              , "кибербезопасность для чайников"
+            
+              , "Кодирование и сценарии"
+            
+              , "Автоматизация"
+            
+              , "Windows PowerShell"
+            
+              , "Сисадмины"
+            
+              , "Ансибль"
+            
+              , "Сетевая автоматизация"
+            
+              , "питон"
+            
+              , "Виндовс Сервер 2019"
+            
+              , "Синяя команда"
+            
+              , "Создание безопасных и надежных систем"
+            
+              , "Хэш Крэк"
+            
+              , "ПТФМ"
+            
+              , "Полевое руководство фиолетовой команды"
+            
+              , "Справочник оператора"
+            
+              , "Полевое руководство красной команды"
+            
+              , "Инженерия безопасности"
+            
+              , "Искусство обмана"
+            
+              , "Искусство вторжения"
+            
+              , "Искусство невидимости"
+            
+              , "Хакерская книга"
+            
+              , "Справочник хакера веб-приложений"
+            
+              , "Племя хакеров"
+            
+              , "Сеть"
+            
+              , "Интеллект с открытым исходным кодом"
+            
+              , "Операционные системы"
+            
+              , "Программное обеспечение"
+            
+              , "Конфиденциальность"
+            
+              , "Экстремальная конфиденциальность"
+            
+              , "Создайте свой собственный живой траст"
+            
+              , "Другой"
+            
+              , "Эта книга была опубликована самостоятельно"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/books/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это коллекция рекомендуемых книг от SimeonOnSecurity. Книги охватывают различные темы, включая автоматизацию кодирования и сценариев, кибербезопасность, работу с сетями, разведку с открытым исходным кодом, операционные системы и программное обеспечение, конфиденциальность и другие связанные темы. С двухмесячной пробной версией Amazon Kindle Unlimited вы можете читать большинство этих книг бесплатно. Эта коллекция предлагает ряд книг как для начинающих, так и для экспертов, с такими названиями, как «Ускоренный курс Python» и «Искусство обмана». Если вы хотите улучшить свои навыки кодирования или лучше понять кибербезопасность, в этой коллекции каждый найдет что-то для себя.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

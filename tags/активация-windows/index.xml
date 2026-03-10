@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Активация Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-windows//img/banner.png</url>
+      <title>Активация Windows on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-windows/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-windows/</link>
+
+    <description>Recent content in Активация Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте активацию Windows KMS с помощью сценария GLVK</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Активация Windows"
+            
+              , "Ключи клиента KMS"
+            
+              , "ГЛВК"
+            
+              , "Обновления Windows"
+            
+              , "Согласие"
+            
+              , "Сценарий PowerShell"
+            
+              , "Служба управления ключами"
+            
+              , "Корпоративное лицензирование"
+            
+              , "Корпоративная активация"
+            
+              , "Сервер управления ключами"
+            
+              , "Автоматизация"
+            
+              , "Продукты Майкрософт"
+            
+              , "Операционная система"
+            
+              , "Программное обеспечение"
+            
+              , "Корпоративные среды"
+            
+              , "Административный PowerShell"
+            
+              , "Репозиторий GitHub"
+            
+              , "Скрипты"
+            
+              , "Информационная безопасность"
+            
+              , "СимеонОнСекьюрити"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Упростите процесс активации Windows 10 KMS с помощью сценария автоматической установки GLVK от SimeonOnSecurity и узнайте больше о клиентских ключах KMS и GLVK из рекомендованной Microsoft литературы.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

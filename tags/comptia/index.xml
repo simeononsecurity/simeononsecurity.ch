@@ -1,0 +1,170 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CompTIA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/comptia//img/banner.png</url>
+      <title>CompTIA on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/comptia/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/comptia/</link>
+
+    <description>Recent content in CompTIA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/comptia/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Security&#43; vs SSCP: какая из сертификаций в области кибербезопасности лучше?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link>
+        
+        <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Информационная безопасность"
+            
+              , "Сравнение сертификации"
+            
+              , "Карьера в области информационных технологий"
+            
+              , "Отраслевое признание"
+            
+              , "Вакансии"
+            
+              , "Сетевая безопасность"
+            
+              , "Безопасность систем"
+            
+              , "CompTIA"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение сертификатов Security+ и SSCP позволяет определить лучший выбор для специалистов по кибербезопасности, стремящихся получить возможность трудоустройства, признание в отрасли и всесторонний охват знаний.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png" length="384328" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые сертификаты</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые сертификаты"
+            
+              , "Лучшие кибер- и ИТ-сертификаты"
+            
+              , "Лучшие сертификаты для тех, кто ищет работу"
+            
+              , "Рекомендации по сертификации SimeonOnSecurity"
+            
+              , "Сертификаты CompTIA"
+            
+              , "Сертификация Cisco"
+            
+              , "Сертификация EC-Council"
+            
+              , "Сертификация ISC2"
+            
+              , "Сертификация Juniper"
+            
+              , "Сертификация Microsoft"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity рекомендует лучшие кибер- и ИТ-сертификации для тех, кто собирается поступать на работу. В список включены сертификаты CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft и Offensive Security с различными уровнями квалификации - начальный, ассоциированный, профессиональный и экспертный. Все перечисленные сертификаты имеют прямое отношение к должностям в сфере кибербезопасности и принесут большую пользу кандидату. Ознакомьтесь с интерактивной дорожной картой сертификации, чтобы получить наглядное представление. Также доступны такие учебные ресурсы, как книги и тренинги.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

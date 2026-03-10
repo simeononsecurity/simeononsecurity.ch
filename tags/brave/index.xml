@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brave on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/brave//img/banner.png</url>
+      <title>Brave on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/brave/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/brave/</link>
+
+    <description>Recent content in Brave on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/brave/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие браузеры для обеспечения конфиденциальности - LibreWolf vs. Brave vs. Firefox vs. Tor</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность"
+            
+              , "Интернет"
+            
+              , "Технология"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в Интернете"
+            
+              , "Открытый исходный код"
+            
+              , "Анонимность"
+            
+              , "Веб-браузинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие браузеры, ориентированные на конфиденциальность - LibreWolf, Brave, Firefox и Tor - для безопасной работы в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

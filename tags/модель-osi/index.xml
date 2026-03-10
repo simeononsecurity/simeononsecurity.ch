@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Модель OSI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-osi//img/banner.png</url>
+      <title>Модель OSI on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-osi/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-osi/</link>
+
+    <description>Recent content in Модель OSI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-osi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Методология поиска и устранения неисправностей в сети</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT-образование"
+            
+              , "Поиск и устранение неисправностей в сети"
+            
+              , "Сетевая сертификация"
+            
+              , "Обучение в области информационных технологий"
+            
+              , "Компьютерные сети"
+            
+              , "Навыки работы с информационными технологиями"
+            
+              , "Технические знания"
+            
+              , "ИТ-специалисты"
+            
+              , "Сетевые концепции"
+            
+              , "Поддержка сети"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исчерпывающее руководство по методологии поиска и устранения неисправностей в сети, включающее этапы, инструменты и лучшие практики для эффективного и результативного решения сетевых проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть плюс: Понимание модели OSI, топологий и типов сетей</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Работа в сети"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевая архитектура"
+            
+              , "Информатика"
+            
+              , "Передача данных"
+            
+              , "Информационные технологии"
+            
+              , "Сетевая безопасность"
+            
+              , "Управление сетью"
+            
+              , "Интернет"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить важность основ сетевых технологий, включая модель OSI, сетевые топологии и различные типы сетей, для построения эффективных и надежных инфраструктур.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

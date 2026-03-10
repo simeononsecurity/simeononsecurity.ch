@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>СТИГ on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D1%82%D0%B8%D0%B3//img/banner.png</url>
+      <title>СТИГ on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%82%D0%B8%D0%B3/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%82%D0%B8%D0%B3/</link>
+
+    <description>Recent content in СТИГ on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D1%82%D0%B8%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие Защитника Windows с помощью сценария PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Согласие"
+            
+              , "Синяя команда"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Защитник Windows"
+            
+              , "Усиление Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "Защитник СТИГ"
+            
+              , "Безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "СТИГ"
+            
+              , "Безопасность Windows"
+            
+              , "Антивирус Windows"
+            
+              , "Сценарии Windows"
+            
+              , "Автоматизация Windows"
+            
+              , "Защита Windows"
+            
+              , "Автоматизация Защитника Windows"
+            
+              , "Соответствие Защитнику Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повысьте свою безопасность с помощью сценария PowerShell для Защитника Windows STIG, который автоматизирует соблюдение рекомендаций STIG для антивирусной программы Защитник Windows V1R9.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

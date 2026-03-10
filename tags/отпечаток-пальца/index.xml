@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Отпечаток Пальца on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BE%D0%BA-%D0%BF%D0%B0%D0%BB%D1%8C%D1%86%D0%B0//img/banner.png</url>
+      <title>Отпечаток Пальца on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BE%D0%BA-%D0%BF%D0%B0%D0%BB%D1%8C%D1%86%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BE%D0%BA-%D0%BF%D0%B0%D0%BB%D1%8C%D1%86%D0%B0/</link>
+
+    <description>Recent content in Отпечаток Пальца on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D1%82%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BE%D0%BA-%D0%BF%D0%B0%D0%BB%D1%8C%D1%86%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Плюсы и минусы многофакторной аутентификации для обеспечения безопасности бизнеса</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "многофакторная аутентификация"
+            
+              , "МИД"
+            
+              , "безопасность бизнеса"
+            
+              , "кибербезопасность"
+            
+              , "защита информации"
+            
+              , "соблюдение нормативных требований"
+            
+              , "пользовательский опыт"
+            
+              , "фишинг"
+            
+              , "атаки методом грубой силы"
+            
+              , "техническая сложность"
+            
+              , "сопротивление пользователя"
+            
+              , "смартфоны"
+            
+              , "токен"
+            
+              , "смарт-карта"
+            
+              , "отпечаток пальца"
+            
+              , "распознавание лиц"
+            
+              , "распознавание голоса"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "утечка данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с преимуществами и недостатками многофакторной аутентификации (MFA) и узнайте, как выбрать правильное решение для обеспечения безопасности вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,771 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сценарий PowerShell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-powershell//img/banner.png</url>
+      <title>Сценарий PowerShell on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-powershell/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-powershell/</link>
+
+    <description>Recent content in Сценарий PowerShell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие требованиям Windows с помощью Ansible STIG Playbooks</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Защита Windows"
+            
+              , "Скрипты СТИГ"
+            
+              , "Соответствие стандартам STIG"
+            
+              , "Ансибл Галактика"
+            
+              , "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Windows-сервер"
+            
+              , "Защитник Windows"
+            
+              , ".СЕТЬ"
+            
+              , "Fire Fox"
+            
+              , "Оракл JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Интернет-соединение"
+            
+              , "Автономная совместимость"
+            
+              , "Усиление безопасности"
+            
+              , "Безопасность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте соблюдение требований безопасности с помощью Ansible STIG Playbooks для систем Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Общесистемный скрипт блокировки рекламы Windows 10 для лучшей конфиденциальности и безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link>
+        
+        <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows 10"
+            
+              , "блокировщик рекламы"
+            
+              , "блокировка телеметрии"
+            
+              , "Сценарий PowerShell"
+            
+              , "общесистемная блокировка рекламы"
+            
+              , "конфиденциальность"
+            
+              , "безопасность"
+            
+              , "EasyList"
+            
+              , "Легкая конфиденциальность"
+            
+              , "Список фильтров NoCoin"
+            
+              , "DNS-фильтр AdGuard"
+            
+              , "YoYo списки"
+            
+              , "Серверы вредоносного ПО для отслеживания рекламы Питера Лоу"
+            
+              , "Брандмауэр Windows"
+            
+              , "списки доменов"
+            
+              , "блокировать трекеры Windows"
+            
+              , "Блок-трекеры"
+            
+              , "блокировать рекламу"
+            
+              , "блокировать отслеживание"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Блокируйте рекламу, трекеры и данные телеметрии в Windows 10 с помощью этого мощного сценария PowerShell, который использует файл hosts и брандмауэр Windows для общесистемной блокировки рекламы.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте активацию Windows KMS с помощью сценария GLVK</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Активация Windows"
+            
+              , "Ключи клиента KMS"
+            
+              , "ГЛВК"
+            
+              , "Обновления Windows"
+            
+              , "Согласие"
+            
+              , "Сценарий PowerShell"
+            
+              , "Служба управления ключами"
+            
+              , "Корпоративное лицензирование"
+            
+              , "Корпоративная активация"
+            
+              , "Сервер управления ключами"
+            
+              , "Автоматизация"
+            
+              , "Продукты Майкрософт"
+            
+              , "Операционная система"
+            
+              , "Программное обеспечение"
+            
+              , "Корпоративные среды"
+            
+              , "Административный PowerShell"
+            
+              , "Репозиторий GitHub"
+            
+              , "Скрипты"
+            
+              , "Информационная безопасность"
+            
+              , "СимеонОнСекьюрити"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Упростите процесс активации Windows 10 KMS с помощью сценария автоматической установки GLVK от SimeonOnSecurity и узнайте больше о клиентских ключах KMS и GLVK из рекомендованной Microsoft литературы.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автономная установка модуля RSAT ActiveDirectory PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструментарий удаленного администрирования сервера"
+            
+              , "Модуль PowerShell RSAT ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Автономный установщик"
+            
+              , "Сценарий PowerShell"
+            
+              , "Модуль PowerShell"
+            
+              , "Активдиректори"
+            
+              , "Окна"
+            
+              , "Не в сети"
+            
+              , "Установить"
+            
+              , "Сервер"
+            
+              , "Администрация"
+            
+              , "Инструментарий"
+            
+              , "Скрипты"
+            
+              , "Модуль"
+            
+              , "Windows-сервер"
+            
+              , "Ядро PowerShell"
+            
+              , "Windows PowerShell"
+            
+              , "Майкрософт"
+            
+              , "ИТ-администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как установить модуль PowerShell RSAT ActiveDirectory в автономном режиме с помощью простого сценария PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство по защите Windows с помощью Windows Defender Application Control WDAC</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-application-control-hardening/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита приложений WDAC в Защитнике Windows"
+            
+              , "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Согласие"
+            
+              , "Синяя команда"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Усиление Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "Защитник СТИГ"
+            
+              , "Защита от эксплойтов Защитника Windows WDEP"
+            
+              , "ASR для уменьшения поверхности атаки Защитника Windows"
+            
+              , "Виндовс сервер 2016 2019"
+            
+              , "Ядро сервера Windows"
+            
+              , "Набор инструментов Microsoft WDAC"
+            
+              , "Обновить политику CI"
+            
+              , "Рекомендуемые Microsoft правила блокировки"
+            
+              , "Рекомендуемые Microsoft правила блокировки драйверов"
+            
+              , "XML-политики"
+            
+              , "Политики БИН"
+            
+              , "Групповая политика"
+            
+              , "Майкрософт Интуне"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-application-control-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать Windows Defender Application Control WDAC для защиты операционной системы Windows с помощью сценариев и инструментов.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Окончательный сценарий настройки защиты Applocker: повышение безопасности Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/applocker-hardening/</link>
+        
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Windows"
+            
+              , "Блокировщик приложений"
+            
+              , "Сценарий конфигурации"
+            
+              , "Информационная безопасность"
+            
+              , "Защита от вредоносных программ"
+            
+              , "Предотвращение угроз"
+            
+              , "Сценарий PowerShell"
+            
+              , "Рекомендуемые Microsoft правила блокировки"
+            
+              , "Согласие"
+            
+              , "Руководство NSA Cyber Bitlocker"
+            
+              , "Управление приложениями"
+            
+              , "Закалка окон"
+            
+              , "Киберугрозы"
+            
+              , "Защита компьютера"
+            
+              , "Киберзащита"
+            
+              , "Безопасные окна"
+            
+              , "Окончательный список обхода Applocker"
+            
+              , "Защитник Windows"
+            
+              , "Блокировка системы"
+            
+              , "sos-applockerhardening.ps1"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/applocker-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите свою систему Windows от злонамеренных атак с помощью сценария настройки Ultimate Applocker Hardening.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Командная строка Windows и защита PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Закалка"
+            
+              , "Командная строка Windows"
+            
+              , "Безопасность"
+            
+              , "Согласие"
+            
+              , "Автоматизация"
+            
+              , "Ограниченный языковой режим"
+            
+              , "Ведение журнала PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Безопасность предприятия"
+            
+              , "Синяя команда"
+            
+              , "Информационная безопасность"
+            
+              , "Лучшие практики"
+            
+              , "Отключить командную строку"
+            
+              , "Отключить PowerShell v2"
+            
+              , "Репозиторий GitHub"
+            
+              , "Защитник Windows"
+            
+              , "Майкрософт"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите командную строку Windows и PowerShell с помощью нашего всеобъемлющего скрипта и документации, повышающих безопасность системы и соответствие требованиям.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие Защитника Windows с помощью сценария PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Согласие"
+            
+              , "Синяя команда"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Защитник Windows"
+            
+              , "Усиление Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "Защитник СТИГ"
+            
+              , "Безопасность"
+            
+              , "Информационная безопасность"
+            
+              , "СТИГ"
+            
+              , "Безопасность Windows"
+            
+              , "Антивирус Windows"
+            
+              , "Сценарии Windows"
+            
+              , "Автоматизация Windows"
+            
+              , "Защита Windows"
+            
+              , "Автоматизация Защитника Windows"
+            
+              , "Соответствие Защитнику Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повысьте свою безопасность с помощью сценария PowerShell для Защитника Windows STIG, который автоматизирует соблюдение рекомендаций STIG для антивирусной программы Защитник Windows V1R9.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности Windows 10 с помощью сценария усиления защиты защитника</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-hardening/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Windows 10"
+            
+              , "Безопасность Windows 10"
+            
+              , "Сценарий PowerShell"
+            
+              , "Закалка"
+            
+              , "Укрепление защитника"
+            
+              , "Автоматизация безопасности"
+            
+              , "Согласие"
+            
+              , "Контролируемый доступ к папкам"
+            
+              , "Система предотвращения вторжений"
+            
+              , "Управление приложениями"
+            
+              , "Снижение поверхности атаки"
+            
+              , "Защита от эксплойтов"
+            
+              , "Облачная защита"
+            
+              , "Защита сети"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "STIG V2R1"
+            
+              , "ВДАК"
+            
+              , "ASR"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как повысить безопасность Windows 10 с помощью сценария PowerShell, который усиливает защиту антивирусной программы Защитник Windows, реализуя все требования антивирусной программы Защитник Windows STIG V2R1.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

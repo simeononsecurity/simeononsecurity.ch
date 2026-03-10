@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/iot//img/banner.png</url>
+      <title>IoT on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/iot/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/iot/</link>
+
+    <description>Recent content in IoT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обеспечение безопасности устройств IoT: Проблемы и решения в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "кибербезопасность"
+            
+              , "безопасность"
+            
+              , "Интернет вещей"
+            
+              , "IoT-устройства"
+            
+              , "безопасность сети"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "интеллектуальные устройства"
+            
+              , "передовой опыт"
+            
+              , "IoT-риски"
+            
+              , "аутентификация"
+            
+              , "обновления прошивки"
+            
+              , "мониторинг"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "Рекомендации по обеспечению безопасности IoT"
+            
+              , "сегментация сети"
+            
+              , "картина угроз"
+            
+              , "уязвимости"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о влиянии IoT на кибербезопасность и изучите эффективные стратегии защиты подключенных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Подготовка к будущему кибербезопасности в условиях постпандемического мира</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</link>
+        
+        <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "постпандемический период"
+            
+              , "будущее"
+            
+              , "удалённая работа"
+            
+              , "AI"
+            
+              , "машинное обучение"
+            
+              , "IoT"
+            
+              , "обновления программного обеспечения"
+            
+              , "пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "образование"
+            
+              , "VPN"
+            
+              , "обновления прошивки"
+            
+              , "фишинг"
+            
+              , "ransomware"
+            
+              , "облачная безопасность"
+            
+              , "защита информации"
+            
+              , "безопасность сети"
+            
+              , "обнаружение угроз"
+            
+              , "цифровая конфиденциальность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как подготовиться к будущему кибербезопасности в условиях постпандемического мира и снизить риск стать жертвой кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png" length="200776" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

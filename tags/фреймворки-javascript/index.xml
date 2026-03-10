@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Фреймворки JavaScript on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8-javascript//img/banner.png</url>
+      <title>Фреймворки JavaScript on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8-javascript/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8-javascript/</link>
+
+    <description>Recent content in Фреймворки JavaScript on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8-javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение фронтальных фреймворков: React vs. Angular vs. Vue.js</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/react-vs-angular-vs-vue.js-front-end-web-development-framework-comparison/</link>
+        
+        <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "front-end фреймворки"
+            
+              , "разработка сайтов"
+            
+              , "React"
+            
+              , "Angular"
+            
+              , "Vue.js"
+            
+              , "сравнение рамок"
+            
+              , "пользовательские интерфейсы"
+            
+              , "производительность"
+            
+              , "популярность"
+            
+              , "поддержка сообщества"
+            
+              , "кривая обучения"
+            
+              , "экосистема"
+            
+              , "примеры использования"
+            
+              , "JavaScript"
+            
+              , "виртуальный DOM"
+            
+              , "компонентно-ориентированная архитектура"
+            
+              , "государственное управление"
+            
+              , "масштабируемость"
+            
+              , "документация"
+            
+              , "оснастка"
+            
+              , "требования к проекту"
+            
+              , "React против Angular"
+            
+              , "React против Vue.js"
+            
+              , "Angular vs Vue.js"
+            
+              , "внешняя разработка"
+            
+              , "фреймворки для веб-приложений"
+            
+              , "Разработка пользовательского интерфейса"
+            
+              , "Фреймворки JavaScript"
+            
+              , "средства веб-разработки"
+            
+              , "технологии веб-разработки"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/react-vs-angular-vs-vue.js-front-end-web-development-framework-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите различия между React, Angular и Vue.js, чтобы выбрать подходящий фронтенд-фреймворк для своего проекта веб-разработки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_three_interconnected_gears.png" length="76900" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

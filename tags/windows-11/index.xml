@@ -1,0 +1,433 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 11 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/windows-11//img/banner.png</url>
+      <title>Windows 11 on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/windows-11/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/windows-11/</link>
+
+    <description>Recent content in Windows 11 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/windows-11/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки Windows 11: Обход проверок TPM, безопасной загрузки и оперативной памяти</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows 11"
+            
+              , "Установка"
+            
+              , "Виртуализация"
+            
+              , "Автоматизация"
+            
+              , "Ключи реестра"
+            
+              , "Обходной путь TPM"
+            
+              , "Обход безопасной загрузки"
+            
+              , "Обход оперативной памяти"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизация установки Windows 11 в виртуальных средах за счет обхода проверок TPM, Secure Boot и оперативной памяти с помощью autounattend.xml и vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основные приемы усиления Windows для обеспечения безопасности Windows 10 и Windows 11</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Упрочнение Windows 10"
+            
+              , "Упрочнение Windows 11"
+            
+              , "Передовые методы обеспечения безопасности Windows"
+            
+              , "Советы по безопасности в Windows"
+            
+              , "Рекомендации по обеспечению безопасности Windows"
+            
+              , "Обеспечение безопасности операционных систем Windows"
+            
+              , "Упрочнение системы Windows"
+            
+              , "Меры безопасности в Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя эффективные стратегии повышения безопасности систем Windows 10 и Windows 11 с помощью комплексных методов усиления защиты и лучших практик.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Изучение Dev Home и Dev Drive: Оптимизация рабочего процесса разработки под Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-microsoft-dev-home-and-dev-drive/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dev Home"
+            
+              , "Dev Drive"
+            
+              , "Разработка под Windows"
+            
+              , "рабочий процесс разработки"
+            
+              , "настраиваемые виджеты"
+            
+              , "конфигурация машины"
+            
+              , "Интеграция с GitHub"
+            
+              , "оптимизированное хранение"
+            
+              , "Разработчики Windows"
+            
+              , "оптимизированный рабочий процесс"
+            
+              , "управление кодами"
+            
+              , "мониторинг проектов"
+            
+              , "оптимизация хранения"
+            
+              , "средства разработки"
+            
+              , "производительность труда разработчиков"
+            
+              , "Среда Windows"
+            
+              , "Формат тома ReFS"
+            
+              , "оптимизация производительности"
+            
+              , "производительность файловой системы"
+            
+              , "Репозитории GitHub"
+            
+              , "решение для хранения"
+            
+              , "Windows 11"
+            
+              , "управление хранением"
+            
+              , "эффективное сотрудничество"
+            
+              , "активы развития"
+            
+              , "инструменты повышения производительности"
+            
+              , "Документация для разработчиков Windows"
+            
+              , "эффективность развития"
+            
+              , "оптимизация рабочего процесса"
+            
+              , "Среда разработки Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-microsoft-dev-home-and-dev-drive/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как Dev Home и Dev Drive улучшают рабочий процесс разработки под Windows благодаря настраиваемым виджетам, конфигурации машины, интеграции с GitHub и оптимизированному хранению данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_developer_working.png" length="312223" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал о создании пользовательских образов Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2023-01-30/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление образами Windows"
+            
+              , "Персонализация"
+            
+              , "Развертывание Windows"
+            
+              , "Sysprep"
+            
+              , "Обобщение"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Захват изображения"
+            
+              , "Развертывание изображений"
+            
+              , "NTLite"
+            
+              , "Оптимизация Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2023-01-30/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал о создании пользовательских образов Windows, Sysprep и обобщении
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация компьютера под управлением Windows с помощью программы Windows-Optimize-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Оптимизация Windows"
+            
+              , "Деблокирующие окна"
+            
+              , "Ускорение работы Windows"
+            
+              , "Оптимизация производительности Windows"
+            
+              , "Повышение производительности Windows"
+            
+              , "Оптимизация системы Windows"
+            
+              , "Microsoft"
+            
+              , "Конфиденциальность"
+            
+              , "Удаление вредоносного ПО"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Защитник Windows"
+            
+              , "Обновление Windows"
+            
+              , "Cortona"
+            
+              , "Объекты групповой политики"
+            
+              , "Телеметрия"
+            
+              , "Windows Store"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение производительности и конфиденциальности операционной системы Windows с помощью Windows-Optimize-Debloat - комплексного скрипта, позволяющего удалить раздутое ПО и оптимизировать системные настройки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

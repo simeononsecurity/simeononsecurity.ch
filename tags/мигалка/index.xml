@@ -1,0 +1,193 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Мигалка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0//img/banner.png</url>
+      <title>Мигалка on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Мигалка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стандарты безопасного кодирования на Python: Лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасное кодирование"
+            
+              , "Python"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасность кода на языке Python"
+            
+              , "Обзор кода"
+            
+              , "Средства статического анализа"
+            
+              , "Безопасная веб-разработка"
+            
+              , "Практика безопасного кодирования"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Лучшие практики обеспечения безопасности кода"
+            
+              , "Шифрование данных"
+            
+              , "Принцип наименьших привилегий"
+            
+              , "Анализ кода"
+            
+              , "Веб-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

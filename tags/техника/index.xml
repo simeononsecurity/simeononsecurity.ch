@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Техника on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0//img/banner.png</url>
+      <title>Техника on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Техника on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих по анализу угроз для обеспечения кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Анализ угроз"
+            
+              , "Кибербезопасность"
+            
+              , "Руководство для начинающих"
+            
+              , "Тактика"
+            
+              , "Техника"
+            
+              , "Процедуры"
+            
+              , "Анализ данных"
+            
+              , "Уязвимости"
+            
+              , "Операции по обеспечению безопасности"
+            
+              , "Машинное обучение"
+            
+              , "Добыча данных"
+            
+              , "Принятие решений"
+            
+              , "Автоматизация"
+            
+              , "Сообщество"
+            
+              , "Мониторинг темной паутины"
+            
+              , "Внутренние сетевые журналы"
+            
+              , "Реагирование на инциденты"
+            
+              , "Фишинговые кампании"
+            
+              , "Вредоносные программы"
+            
+              , "Стратегическое планирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-threat-intelligence/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повысьте уровень своей кибербезопасности с помощью этого руководства для начинающих, посвященного анализу угроз и его значению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png" length="419383" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
