@@ -15,6 +15,9 @@ refLinksNotFoundURL = "simeononsecurity.com"
 #disqusShortname = "simeononsecurity"
 author = "SimeonOnSecurity"
 
+# Suppress raw HTML warnings
+ignoreLogs = ['warning-goldmark-raw-html']
+
 [Author]
 name = "SimeonOnSecurity"
 
