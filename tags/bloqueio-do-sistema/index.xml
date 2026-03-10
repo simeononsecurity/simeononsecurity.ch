@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bloqueio Do Sistema on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/bloqueio-do-sistema//img/banner.png</url><title>Bloqueio Do Sistema on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/bloqueio-do-sistema/</link></image><link>https://pt.simeononsecurity.com/tags/bloqueio-do-sistema/</link><description>Recent content in Bloqueio Do Sistema on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/bloqueio-do-sistema/index.xml" rel="self" type="application/rss+xml"/><item><title>Script de configuração de reforço do Applocker final: Aumente a segurança do Windows</title><link>https://pt.simeononsecurity.com/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"Segurança do Windows"
+, "AppLocker"
+, "Script de configuração"
+, "Cíber segurança"
+, "Proteção contra malware"
+, "Prevenção de ameaças"
+, "script do PowerShell"
+, "Regras de bloqueio recomendadas pela Microsoft"
+, "Conformidade"
+, "Orientação do NSA Cyber Bitlocker"
+, "Controle de aplicativos"
+, "Endurecimento de Janelas"
+, "Ameaças cibernéticas"
+, "proteção do computador"
+, "Defesa cibernética"
+, "Windows seguro"
+, "Lista definitiva de atalhos do Applocker"
+, "Windows Defender"
+, "Bloqueio do sistema"
+, "sos-applockerhardening.ps1"</category><guid>https://pt.simeononsecurity.com/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Proteja seu sistema Windows contra ataques mal-intencionados usando o script de configuração de proteção do Ultimate Applocker.</description></item></channel></rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Uncipherfile on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/uncipherfile//img/banner.png</url><title>Uncipherfile on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/uncipherfile/</link></image><link>https://pt.simeononsecurity.com/tags/uncipherfile/</link><description>Recent content in Uncipherfile on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><atom:link href="https://pt.simeononsecurity.com/tags/uncipherfile/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Desafio - Criptografia - RSA fraco</title><link>https://pt.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "desafios"
+, "Criptografia"
+, "RSA fraco"
+, "RsaCtfToolName"
+, "Criptografia RSA Fraca HTB"
+, "desafio fácil"
+, "cifra RSA"
+, "flag.enc"
+, "key.pub"
+, "pacote OpenSSL"
+, "ferramenta automatizada de ataque RSA"
+, "script python"
+, "RsaCtfToolName"
+, "python3"
+, "chave pública"
+, "uncipherfile"
+, "Exemplo de sinalizador"</category><guid>https://pt.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a usar uma ferramenta automatizada de ataque RSA, RsaCtfTool, para resolver facilmente o desafio HackTheBox Weak RSA Crypto.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item></channel></rss>
