@@ -12,7 +12,7 @@
                 <span class="menu__sub-inner-more-trigger-title"><a>{{ $.Site.Language.Lang }}</a></span>
             </span>
             <span class="language-selector" id="language-menu">
-                {{ if .Site.IsMultilingual }}
+                {{ if site.IsMultiLingual }}
                 <nav aria-label="Language switcher">
                     <ul>
                         {{ range site.Languages }}
