@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Commandes Shell on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/commandes-shell//img/banner.png</url><title>Commandes Shell on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/commandes-shell/</link></image><link>https://fr.simeononsecurity.com/tags/commandes-shell/</link><description>Recent content in Commandes Shell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/commandes-shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Aujourd'hui, j'ai appris plus de modules Powershell et Ansible</title><link>https://fr.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisation"
+, "Conformité"
+, "Ansible"
+, "Manuels Ansible"
+, "Collections Ansible"
+, "Sécurité Windows"
+, "Administration Windows"
+, "PowerShell"
+, "Automatisation des technologies de l'information"
+, "Gestion de la configuration"</category><guid>https://fr.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;SimeonOnSecurity a appris l&amp;rsquo;existence de ce site et l&amp;rsquo;a trouvé intéressant aujourd&amp;rsquo;hui**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity a découvert Windows STIG Ansible et a mis à jour les dépôts correspondants. Il a également étudié diverses ressources Microsoft et Ansible relatives à powershell, au remoting et à l&amp;rsquo;exécution de commandes shell/powershell sur Windows à l&amp;rsquo;aide de modules tels que invoke-command, start-process, win_powershell, win_shell, psexec et win_psexec.&lt;/p&gt;
+&lt;h2 id="newupdated-repos-"&gt;
+&lt;a href="#newupdated-repos-" title="New/Updated Repos :"&gt;New/Updated Repos :&lt;/a&gt;
+&lt;a href="#newupdated-repos-" class="h-anchor" aria-hidden="true" title="New/Updated Repos :"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/Windows_STIG_Ansible&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs"&gt;
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs"&gt;
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/windows_stigs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="ressources-pédagogiques-"&gt;
+&lt;a href="#ressources-p%c3%a9dagogiques-" title="Ressources pédagogiques :"&gt;Ressources pédagogiques :&lt;/a&gt;
+&lt;a href="#ressources-p%c3%a9dagogiques-" class="h-anchor" aria-hidden="true" title="Ressources pédagogiques :"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="microsoft - invoke-command"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+&gt;microsoft - invoke-command&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="microsoft - start-process"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+&gt;microsoft - start-process&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="microsoft - running remote commands"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+&gt;microsoft - running remote commands&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible.windows.win_powershell"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+&gt;ansible.windows.win_powershell&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible.windows.win_shell module"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+&gt;ansible.windows.win_shell module&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="community.windows.psexec"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+&gt;community.windows.psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="win_psexec"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+&gt;win_psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

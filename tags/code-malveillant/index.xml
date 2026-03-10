@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Malveillant on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/code-malveillant//img/banner.png</url><title>Code Malveillant on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/code-malveillant/</link></image><link>https://fr.simeononsecurity.com/tags/code-malveillant/</link><description>Recent content in Code Malveillant on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/code-malveillant/index.xml" rel="self" type="application/rss+xml"/><item><title>L'art de la rétro-ingénierie : Découvrir les vulnérabilités de la sécurité des réseaux IoT</title><link>https://fr.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><category>
+"ingénierie inverse"
+, "Sécurité de l'IdO"
+, "vulnérabilités"
+, "les protocoles de sécurité"
+, "analyse des dispositifs"
+, "Réseaux IdO"
+, "fonctionnement interne"
+, "code malveillant"
+, "mesures de cryptage"
+, "mesures d'authentification"
+, "pare-feu"
+, "mise à jour du logiciel"</category><guid>https://fr.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez la puissance de l'ingénierie inverse pour découvrir les failles de sécurité des réseaux IoT et améliorer la sécurité globale du système.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png" length="511556" type="image/png"/></item></channel></rss>

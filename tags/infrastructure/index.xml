@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/infrastructure//img/banner.png</url><title>Infrastructure on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/infrastructure/</link></image><link>https://fr.simeononsecurity.com/tags/infrastructure/</link><description>Recent content in Infrastructure on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/infrastructure/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC : Guide de démarrage</title><link>https://fr.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Gestion de la configuration"
+, "Automatisation"
+, "Fenêtres"
+, "Administration des systèmes"
+, "Meilleures pratiques"
+, "Conformité"
+, "Sécurité"
+, "Infrastructure"
+, "DevOps"
+, "Configuration du serveur"
+, "Essais"
+, "Git"
+, "Contrôle à la source"
+, "Réglementation gouvernementale"
+, "NIST"
+, "CEI"
+, "Dérive de la configuration"
+, "Ressources personnalisées"</category><guid>https://fr.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez la puissance de PowerShell Desired State Configuration (DSC) pour automatiser et gérer les configurations du système pour un environnement sécurisé et conforme.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item></channel></rss>

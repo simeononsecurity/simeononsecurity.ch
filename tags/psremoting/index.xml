@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PSRemoting on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/psremoting//img/banner.png</url><title>PSRemoting on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/psremoting/</link></image><link>https://fr.simeononsecurity.com/tags/psremoting/</link><description>Recent content in PSRemoting on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/psremoting/index.xml" rel="self" type="application/rss+xml"/><item><title>Renforcement de l'invite de commande Windows et de PowerShell</title><link>https://fr.simeononsecurity.com/github/windows-terminal-hardening/</link><pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Durcissement"
+, "Invite de commande Windows"
+, "Sécurité"
+, "Conformité"
+, "Automatisation"
+, "Mode linguistique contraint"
+, "Journalisation PowerShell"
+, "Script PowerShell"
+, "WSMAN"
+, "PSRemoting"
+, "Sécurité des entreprises"
+, "Équipe bleue"
+, "Cybersécurité"
+, "Meilleures pratiques"
+, "Désactiver l'invite de commande"
+, "Désactiver PowerShell v2"
+, "Dépôt GitHub"
+, "Windows Defender"
+, "Microsoft"</category><guid>https://fr.simeononsecurity.com/github/windows-terminal-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Sécurisez Windows Command Prompt et PowerShell grâce à notre script de durcissement complet et à notre documentation, afin d'améliorer la sécurité et la conformité du système.</description></item></channel></rss>

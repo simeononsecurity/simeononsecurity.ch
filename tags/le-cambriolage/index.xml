@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le Cambriolage on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/le-cambriolage//img/banner.png</url><title>Le Cambriolage on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/le-cambriolage/</link></image><link>https://fr.simeononsecurity.com/tags/le-cambriolage/</link><description>Recent content in Le Cambriolage on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/le-cambriolage/index.xml" rel="self" type="application/rss+xml"/><item><title>Faut-il apprendre la programmation pour l'informatique et la cybersécurité ?</title><link>https://fr.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technologies de l'information et cybersécurité"
+, "Compétences en programmation"
+, "Avancement de la carrière"
+, "Automatisation"
+, "Ligne de commande"
+, "Scripting"
+, "Déploiement de l'infrastructure"
+, "Analyse des données"
+, "Tests de sécurité"
+, "Développement professionnel"</category><guid>https://fr.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez pourquoi la maîtrise des compétences en programmation peut grandement bénéficier à votre carrière dans l'informatique et la cybersécurité, et comment commencer avec PowerShell, Bash, Python, Ansible, Packer et Terraform.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item><item><title>Utiliser ChatGPT dans votre terminal (Bash, PowerShell, Python) : Une introduction à l'outil CLI ChatGPT pour les développeurs</title><link>https://fr.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><category>
+"ChatGPT"
+, "OpenAI"
+, "Interface de ligne de commande"
+, "CLI"
+, "génération de textes"
+, "réponse aux questions"
+, "boîte à outils du développeur"
+, "gestionnaire de paquets pip"
+, "Python 3.5"
+, "PowerShell"
+, "Le cambriolage"</category><guid>https://fr.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apprenez à utiliser le modèle ChatGPT de l'OpenAI via l'interface de ligne de commande (CLI) pour générer du texte et répondre à des questions en toute simplicité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.png" length="360421" type="image/png"/></item></channel></rss>
