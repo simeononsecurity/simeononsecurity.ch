@@ -11,9 +11,9 @@ jobs:
     name: History AV Scan
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         fetch-depth: '0'
     
     - name: Git AV Scan
-      uses: djdefi/gitavscan@main
+      uses: djdefi/gitavscan@v23

@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout PR files
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         ref: ${{ github.event.pull_request.head.sha }}
 
@@ -24,7 +24,7 @@ jobs:
           ${{ toJson(github.event.pull_request.head.repo.files) }}
 
     - name: Add descriptions to PR
-      uses: actions/github-script@v3
+      uses: actions/github-script@v8
       with:
         script: |
           const prDescription = 'PR file descriptions:\n' + process.env.CHATGPT_RESPONSE

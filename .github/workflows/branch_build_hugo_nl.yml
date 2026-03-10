@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
@@ -32,7 +32,7 @@ jobs:
         run: pwd    
 
       - name: Build Hugo site
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-nl
