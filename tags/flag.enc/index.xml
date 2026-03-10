@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flag.enc on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/flag.enc//img/banner.png</url><title>Flag.enc on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/flag.enc/</link></image><link>https://ro.simeononsecurity.com/tags/flag.enc/</link><description>Recent content in Flag.enc on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><atom:link href="https://ro.simeononsecurity.com/tags/flag.enc/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Provocare - Crypto - RSA slab</title><link>https://ro.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"HackTheBox"
+, "Provocări"
+, "Cripto"
+, "RSA slab"
+, "RsaCtfTool"
+, "HTB Slab RSA Crypto"
+, "Provocare ușoară"
+, "Cifrul RSA"
+, "flag.enc"
+, "key.pub"
+, "Pachetul OpenSSL"
+, "instrument automat de atac RSA"
+, "script python"
+, "RsaCtfTool"
+, "python3"
+, "cheie publică"
+, "uncipherfile"
+, "Exemplu de steag"</category><guid>https://ro.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați cum să utilizați un instrument automat de atac RSA, RsaCtfTool, pentru a rezolva cu ușurință provocarea HackTheBox Weak RSA Crypto.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png"/></item></channel></rss>

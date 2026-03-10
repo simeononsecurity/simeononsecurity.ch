@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cum Se Instalează Sysmon on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/cum-se-instaleaz%C4%83-sysmon//img/banner.png</url><title>Cum Se Instalează Sysmon on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/cum-se-instaleaz%C4%83-sysmon/</link></image><link>https://ro.simeononsecurity.com/tags/cum-se-instaleaz%C4%83-sysmon/</link><description>Recent content in Cum Se Instalează Sysmon on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/cum-se-instaleaz%C4%83-sysmon/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: simplificați implementarea și configurarea Sysmon</title><link>https://ro.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automatizați Sysmon"
+, "Cum se automatizează Sysmon"
+, "Cum să automatizezi configurația Sysmon"
+, "Cum se instalează Sysmon"
+, "Powershell"
+, "Scenariul"
+, "Implementarea Sysmon"
+, "Configurare Sysmon"
+, "Înregistrare Sysmon"
+, "Detectarea amenințărilor"
+, "Activitate rău intenționată"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "Depozitul GitHub"
+, "BHIS"
+, "Monitorizarea sistemului"
+, "Cercetare de securitate"
+, "Crearea procesului"
+, "Conexiuni de retea"</category><guid>https://ro.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați cum să implementați și să configurați Sysmon pentru a îmbunătăți securitatea sistemului dvs. cu scriptul Automate-Sysmon, care simplifică procesul chiar și pentru utilizatorii începători.</description></item></channel></rss>

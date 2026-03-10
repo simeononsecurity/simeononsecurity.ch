@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automatizare De Securitate on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/automatizare-de-securitate//img/banner.png</url><title>Automatizare De Securitate on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/automatizare-de-securitate/</link></image><link>https://ro.simeononsecurity.com/tags/automatizare-de-securitate/</link><description>Recent content in Automatizare De Securitate on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/automatizare-de-securitate/index.xml" rel="self" type="application/rss+xml"/><item><title>Îmbunătățirea securității Windows 10 cu Defender Hardening Script</title><link>https://ro.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Securitate Windows 10"
+, "Script PowerShell"
+, "întărire"
+, "Defender Hardening"
+, "Automatizare de securitate"
+, "Conformitate"
+, "Acces controlat la foldere"
+, "Sistem de prevenire a intruziunilor"
+, "Controlul aplicației"
+, "Reducerea suprafeței de atac"
+, "Exploat Protections"
+, "Protecții furnizate în cloud"
+, "Protecții de rețea"
+, "Windows Defender STIG Script"
+, "Windows Defender STIG"
+, "Windows Defender Antivirus STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://ro.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați cum să îmbunătățiți securitatea Windows 10 cu un script PowerShell care întărește Windows Defender Antivirus, implementând toate cerințele Windows Defender Antivirus STIG V2R1.</description></item></channel></rss>

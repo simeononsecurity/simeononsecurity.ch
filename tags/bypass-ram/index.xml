@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bypass RAM on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/bypass-ram//img/banner.png</url><title>Bypass RAM on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/bypass-ram/</link></image><link>https://ro.simeononsecurity.com/tags/bypass-ram/</link><description>Recent content in Bypass RAM on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/bypass-ram/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatizarea instalării Windows 11: Ocoliți verificările TPM, Secure Boot și RAM</title><link>https://ro.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Windows 11"
+, "Instalare"
+, "Virtualizare"
+, "Automatizare"
+, "Chei de registru"
+, "Bypass TPM"
+, "Bypassarea Secure Boot"
+, "Bypass RAM"
+, "vTPM"</category><guid>https://ro.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Simplificați instalarea Windows 11 în mediile virtualizate prin ocolirea verificărilor TPM, Secure Boot și RAM folosind autounattend.xml și vTPM.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item></channel></rss>
