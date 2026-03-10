@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Directory on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/active-directory//img/banner.png</url><title>Active Directory on simeononsecurity</title><link>https://simeononsecurity.com/genre/active-directory/</link></image><link>https://simeononsecurity.com/genre/active-directory/</link><description>Recent content in Active Directory on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/active-directory/index.xml" rel="self" type="application/rss+xml"/><item><title>Demystifying WMI Filtering: Maximizing GPO Control with Effective Techniques</title><link>https://simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows Management"
+, "Group Policy"
+, "System Administration"
+, "Network Management"
+, "IT Infrastructure"
+, "Policy Management"
+, "IT Governance"
+, "IT Automation"
+, "Active Directory"
+, "Security Compliance"</category><guid>https://simeononsecurity.com/articles/demystifying-wmi-filtering-maximizing-gpo-control/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uncover the secrets of WMI filtering and learn how to harness its power to enhance Group Policy Object (GPO) control, with practical examples and best practices.</description><enclosure url="https://simeononsecurity.com/img/cover/An_illustration_of_a_magnifying_glass_focusing.png" length="893008" type="image/png"/></item><item><title>Mastering Active Directory Administration with PowerShell: Installation and Usage Guide</title><link>https://simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administration"
+, "Scripting"
+, "IT"
+, "Automation"
+, "Windows Server"
+, "Microsoft"</category><guid>https://simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover how to effectively install and utilize the Active Directory module for PowerShell to streamline your Windows Active Directory administration tasks.</description><enclosure url="https://simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Mastering GPOs: A Comprehensive Guide to Effective Network Management</title><link>https://simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Network Management"
+, "Group Policy Objects"
+, "GPOs"
+, "Windows Administration"
+, "IT Infrastructure"
+, "Network Security"
+, "Active Directory"
+, "Configuration Management"
+, "Group Policy Management"
+, "Network Optimization"</category><guid>https://simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Group Policy Objects (GPOs) and learn how to efficiently manage and optimize your network settings and policies for enhanced security and streamlined operations.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item></channel></rss>

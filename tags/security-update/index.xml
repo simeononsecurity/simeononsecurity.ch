@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Update on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/security-update//img/banner.png</url><title>Security Update on simeononsecurity</title><link>https://simeononsecurity.com/tags/security-update/</link></image><link>https://simeononsecurity.com/tags/security-update/</link><description>Recent content in Security Update on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 25 Jul 2020 21:09:37 -0500</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/security-update/index.xml" rel="self" type="application/rss+xml"/><item><title>Resolve Windows DNS Server Vulnerability with KB4569509 - Critical RCE Fix</title><link>https://simeononsecurity.com/github/cve-2020-1350_kb4569509_dns_server_vulnerability/</link><pubDate>Sat, 25 Jul 2020 21:09:37 -0500</pubDate><category>
+"KB4569509"
+, "DNS Server Vulnerability"
+, "CVE-2020-1350"
+, "Windows Server"
+, "Remote Code Execution (RCE)"
+, "Microsoft"
+, "Security Update"
+, "Workaround"
+, "TCP-based DNS"
+, "Registry Change"
+, "DNS Service"
+, "Elevated Command Prompt"
+, "Diagnostic Logging"
+, "DNS Logging and Diagnostics"
+, "Server Security"
+, "Cybersecurity"
+, "IT Security"
+, "Network Security"
+, "System Administration"
+, "Vulnerability Patching"</category><guid>https://simeononsecurity.com/github/cve-2020-1350_kb4569509_dns_server_vulnerability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows servers running the DNS Server role with the guidance on KB4569509."</description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Third-Party Components on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/third-party-components//img/banner.png</url><title>Third-Party Components on simeononsecurity</title><link>https://simeononsecurity.com/tags/third-party-components/</link></image><link>https://simeononsecurity.com/tags/third-party-components/</link><description>Recent content in Third-Party Components on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/third-party-components/index.xml" rel="self" type="application/rss+xml"/><item><title>OWASP Top 10: Critical Web Application Security Risks</title><link>https://simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Web Application Security Risks"
+, "OWASP Top 10"
+, "Injection Attacks"
+, "Authentication"
+, "Session Management"
+, "XSS Attacks"
+, "Access Control"
+, "Security Misconfiguration"
+, "Cryptographic Storage"
+, "Transport Layer Protection"</category><guid>https://simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about the most critical web application security risks with the OWASP Top 10 and how to protect against them</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item></channel></rss>

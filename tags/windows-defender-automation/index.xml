@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Defender Automation on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/windows-defender-automation//img/banner.png</url><title>Windows Defender Automation on simeononsecurity</title><link>https://simeononsecurity.com/tags/windows-defender-automation/</link></image><link>https://simeononsecurity.com/tags/windows-defender-automation/</link><description>Recent content in Windows Defender Automation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/windows-defender-automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate Windows Defender Compliance with PowerShell Script</title><link>https://simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "PowerShell Script"
+, "Automation"
+, "Compliance"
+, "Blue-Team"
+, "Windows Defender STIG Script"
+, "Windows Defender"
+, "Windows Defender Hardening"
+, "Windows Defender STIG"
+, "Defender STIG"
+, "Security"
+, "Cybersecurity"
+, "STIG"
+, "Windows Security"
+, "Windows Antivirus"
+, "Windows Scripting"
+, "Windows Automation"
+, "Windows Hardening"
+, "Windows Defender Automation"
+, "Windows Defender Compliance"</category><guid>https://simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance your security with the Windows Defender STIG PowerShell script, which automates compliance with the Windows Defender Antivirus V1R9 STIG guidelines.</description></item></channel></rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/installation//img/banner.png</url><title>Installation on simeononsecurity</title><link>https://simeononsecurity.com/tags/installation/</link></image><link>https://simeononsecurity.com/tags/installation/</link><description>Recent content in Installation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate Windows 11 Installation: Bypass TPM, Secure Boot, and RAM Checks</title><link>https://simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Windows 11"
+, "Installation"
+, "Virtualization"
+, "Automation"
+, "Registry Keys"
+, "TPM Bypass"
+, "Secure Boot Bypass"
+, "RAM Bypass"
+, "vTPM"</category><guid>https://simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Streamline Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM.</description><enclosure url="https://simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>WMI Filters for Efficient Windows Group Policy Deployments - Download from GitHub</title><link>https://simeononsecurity.com/github/wmi-filters/</link><pubDate>Tue, 11 Aug 2020 13:35:00 -0500</pubDate><category>
+"WMI"
+, "WMI Filters"
+, "Windows Management Instrumentation"
+, "Group Policy"
+, "GPO"
+, "Windows Group Policy Deployments"
+, "Microsoft"
+, "Efficient Deployments"
+, "GitHub Repository"
+, "Download"
+, "Installation"
+, "Usage Guides"
+, "Windows Version"
+, "Software"
+, "Isolate Policies"
+, "Large Domains"
+, "GPO Process"
+, "Targeted Settings"
+, "WMI Queries"
+, "Windows Firewall"</category><guid>https://simeononsecurity.com/github/wmi-filters/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Enhance your Windows Group Policy deployments with WMI Filters - Download and Install from GitHub Repository for Faster and Efficient GPO Process.</description></item></channel></rss>
