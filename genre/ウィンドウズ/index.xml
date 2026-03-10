@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ウィンドウズ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/genre/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA//img/banner.png</url><title>ウィンドウズ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA/</link><description>Recent content in ウィンドウズ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows GVLKs：パフォーマンス向上のためのライセンスキーのパワーを解き放つ</title><link>https://ja.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ソフトウェア"
+, "生産性"
+, "オペレーティング・システム"
+, "マイクロソフト"
+, "ウィンドウズ"
+, "ライセンス"
+, "キーマネージメント"
+, "ITソリューション"
+, "強化"</category><guid>https://ja.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows GVLKがどのようにパフォーマンスに革命を起こすかをご覧ください！最高のライセンシングキーを探求し、あなたのシステムの生産性を楽に向上させましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png"/></item><item><title>PowerShellでActive Directory管理をマスターする：インストールと使用ガイド</title><link>https://ja.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ウィンドウズ"
+, "パワーシェル"
+, "アクティブディレクトリ"
+, "管理部門"
+, "スクリプト"
+, "IT"
+, "オートメーション"
+, "Windowsサーバー"
+, "マイクロソフト"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShellのActive Directoryモジュールを効果的にインストールし、活用することで、Windows Active Directoryの管理タスクを効率化する方法をご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>PowerShellスクリプティング：タスクを自動化するための初心者のためのステップバイステップガイド</title><link>https://ja.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"技術情報"
+, "プログラミング"
+, "オートメーション"
+, "ウィンドウズ"
+, "スクリプト"
+, "インフォメーション"
+, "アドミニストレーティブタスク"
+, "コンピュータ管理"
+, "ソフトウェア開発"
+, "コーディング"</category><guid>https://ja.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShellスクリプトの基本を学び、タスクを自動化するための初心者向けステップバイステップガイドです。コマンドレット、ループ、関数などを網羅しています。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item><item><title>推奨アンチウイルス</title><link>https://ja.simeononsecurity.com/recommendations/anti-virus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"推奨アンチウイルス"
+, "AV"
+, "アンチウイルス"
+, "アンチウイルス"
+, "ホームユース"
+, "業務用"
+, "ウィンドウズ"
+, "リナックス"
+, "マックオス"
+, "サイバーセキュリティ"</category><guid>https://ja.simeononsecurity.com/recommendations/anti-virus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この記事では、SimeonOnSecurityがランク付けした、家庭用およびビジネス用の推奨アンチウイルス製品のリストを提供します。ランキングは専門家の意見と悪意のあるサンプルに対するテストに基づいており、アンチウイルスの機能、検出、ユーザーエクスペリエンス、パフォーマンスのみを対象としています。Windowsユーザーは有料と無料の両方から選ぶことができるが、LinuxとMacOSユーザーは選択肢が限られており、有料オプションはLinuxでのみ利用可能である。なお、LinuxやMacOSではAVは必須ではなく、AVスイートとともに提供されるVPNやパスワード・マネージャーの使用は推奨されない。この記事では、VPNプロバイダーに関する推奨事項も紹介している。ビジネス用途での推奨は現在検討中である。</description></item></channel></rss>

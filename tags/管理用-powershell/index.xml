@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>管理用 Powershell on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E7%AE%A1%E7%90%86%E7%94%A8-powershell//img/banner.png</url><title>管理用 Powershell on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E7%AE%A1%E7%90%86%E7%94%A8-powershell/</link></image><link>https://ja.simeononsecurity.com/tags/%E7%AE%A1%E7%90%86%E7%94%A8-powershell/</link><description>Recent content in 管理用 Powershell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E7%AE%A1%E7%90%86%E7%94%A8-powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>GLVK スクリプトを使用して Windows KMS ライセンス認証を自動化する</title><link>https://ja.simeononsecurity.com/github/kms-auto-ps/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><category>
+"Windowsのアクティベーション"
+, "KMS クライアントキー"
+, "GLVK"
+, "Windows アップデート"
+, "コンプライアンス"
+, "パワーシェルスクリプト"
+, "鍵管理サービス"
+, "ボリュームライセンス"
+, "エンタープライズアクティベーション"
+, "鍵管理サーバー"
+, "オートメーション"
+, "マイクロソフト製品"
+, "オペレーティング·システム"
+, "ソフトウェア"
+, "エンタープライズ環境"
+, "管理用 Powershell"
+, "GitHub リポジトリ"
+, "スクリプト作成"
+, "サイバーセキュリティ"
+, "SimeonOnセキュリティ"</category><guid>https://ja.simeononsecurity.com/github/kms-auto-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+SimeonOnSecurity の GLVK 自動インストール スクリプトを使用して Windows 10 KMS ライセンス認証プロセスを簡素化し、Microsoft の推奨資料から KMS および GLVK クライアント キーについて詳しく学習してください。</description></item></channel></rss>

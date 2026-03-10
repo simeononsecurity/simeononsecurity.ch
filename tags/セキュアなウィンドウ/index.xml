@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュアなウィンドウ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%82%A2%E3%81%AA%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6//img/banner.png</url><title>セキュアなウィンドウ on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%82%A2%E3%81%AA%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%82%A2%E3%81%AA%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/</link><description>Recent content in セキュアなウィンドウ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%82%A2%E3%81%AA%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>究極の Applocker 強化構成スクリプト: Windows セキュリティを強化</title><link>https://ja.simeononsecurity.com/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windowsのセキュリティ"
+, "アプリロッカー"
+, "設定スクリプト"
+, "サイバーセキュリティ"
+, "マルウェアからの保護"
+, "脅威の防止"
+, "PowerShell スクリプト"
+, "Microsoft が推奨するブロック ルール"
+, "コンプライアンス"
+, "NSA サイバー ビットロッカー ガイダンス"
+, "アプリケーション制御"
+, "ウィンドウの強化"
+, "サイバー脅威"
+, "コンピュータの保護"
+, "サイバー防御"
+, "セキュアなウィンドウ"
+, "究極の Applocker ByPass リスト"
+, "Windows ディフェンダー"
+, "システムのロックダウン"
+, "sos-applockerhardening.ps1"</category><guid>https://ja.simeononsecurity.com/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ultimate Applocker Hardening 構成スクリプトを使用して、Windows システムを悪意のある攻撃から保護します。</description></item></channel></rss>

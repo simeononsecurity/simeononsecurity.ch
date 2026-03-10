@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GUI on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/gui//img/banner.png</url><title>GUI on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/gui/</link></image><link>https://ja.simeononsecurity.com/tags/gui/</link><description>Recent content in GUI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/gui/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansibleの自動化：プレーンなAnsibleからAnsible TowerとSemaphoreまで</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "インフラ管理"
+, "コンフィギュレーション管理"
+, "デブオプス"
+, "ITオペレーション"
+, "オープンソース"
+, "ワークフロー管理"
+, "スケーラビリティ"
+, "コラボレーション"
+, "Ansibleツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プレーンなAnsible、Ansible Tower、Ansible Semaphoreを比較してAnsible自動化のパワーを発見し、効率的なインフラ管理のために適切なツールを選択しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Windows の最適化、強化、デブロート GUI - ガイド付きインストール</title><link>https://ja.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"Windowsの最適化"
+, "Windows 10 のデブロート"
+, "Windows 10の調整"
+, "GUI"
+, "Cシャープ"
+, "パワーシェル"
+, "オートメーション"
+, "システムの安定性"
+, "システム管理"
+, "Windows アップデート"
+, "脚本"
+, "プログラミング"
+, "むくむ"
+, "Windows 10のカスタマイズ"
+, "システムパフォーマンス"
+, "Windows 10 のプライバシー"
+, "安全"
+, "Windows 10のセットアップ"
+, "Windows10のメンテナンス"
+, "Windows 10の管理"</category><guid>https://ja.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows 10 のセットアップを最小限に抑えるガイド付きインストールを提供する Windows-Optimize-Harden-Debloat GUI 自動スクリプトを使用して、Windows 10 エクスペリエンスを簡単に強化します。</description></item></channel></rss>

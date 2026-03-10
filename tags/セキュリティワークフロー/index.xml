@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セキュリティワークフロー on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC//img/banner.png</url><title>セキュリティワークフロー on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</link><description>Recent content in セキュリティワークフロー on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>VirusTotal PowerShell モジュールを使用した効率的なウイルス スキャン</title><link>https://ja.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell モジュール"
+, "パワーシェル"
+, "オートメーション"
+, "ウイルス合計"
+, "ウイルススキャン"
+, "ドメインスキャン"
+, "APIキー"
+, "VirusTotal API"
+, "VirusTotal 開発者ページ"
+, "システム管理"
+, "セキュリティワークフロー"
+, "効率的なウイルススキャン"
+, "ダウンロードとインストール"
+, "GitHub リポジトリ"
+, "APIの使用例"</category><guid>https://ja.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+VirusTotal API との対話を自動化し、セキュリティ ワークフローを合理化することで、VirusTotal PowerShell モジュールを使用して効率的なウイルス スキャンを実行します。</description></item></channel></rss>

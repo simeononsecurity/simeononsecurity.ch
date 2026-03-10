@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ネットワーク・セキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3//img/banner.png</url><title>ネットワーク・セキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in ネットワーク・セキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>スクリプトを保護するために不可欠なPowerShellセキュリティのベストプラクティス10選</title><link>https://ja.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"PowerShellセキュリティのベストプラクティス"
+, "スクリプティング・セキュリティ"
+, "パスワード・セキュリティ"
+, "ITセキュリティ"
+, "サイバーセキュリティ"
+, "ウィンドウズ管理"
+, "オートメーション"
+, "安全なコーディング"
+, "ネットワーク・セキュリティ"
+, "データ保護"</category><guid>https://ja.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+スクリプト、パスワード、機密情報を保護するために不可欠なPowerShellセキュリティのベストプラクティスTOP10をご紹介します。PowerShell環境のセキュリティを強化し、不正アクセスや潜在的なセキュリティ侵害から保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item><item><title>リモート・アクセス・トロイの木馬を理解する：リスク、予防、保護</title><link>https://ja.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "悪意のあるソフトウェア"
+, "コンピュータ・セキュリティ"
+, "デジタルの脅威"
+, "リモート・アクセス・トロイの木馬"
+, "データ保護"
+, "プライバシー"
+, "サイバー犯罪"
+, "ネットワーク・セキュリティ"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+リモート・アクセス・トロイの木馬（RAT）がもたらすリスクを発見し、コンピュータ・システムとデータを保護するための効果的な予防策と保護策を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png"/></item><item><title>サイバーセキュリティのスキルを解き放つ：TryHackMeのレビュー</title><link>https://ja.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "オンライン学習"
+, "倫理的ハッキング"
+, "ネットワーク・セキュリティ"
+, "バーチャルラボ"
+, "認証"
+, "ラーニング・パス"
+, "実地体験"
+, "TryHackMeのレビュー"</category><guid>https://ja.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+TryHackMeの機能、価格、認定、ネットワークサービスなど、サイバーセキュリティスキルを習得するための力をご覧ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png" length="1541792" type="image/png"/></item><item><title>ネットワーク・プラス・コースOSIモデル、トポロジー、ネットワークタイプを理解する</title><link>https://ja.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーキング"
+, "ITインフラ"
+, "ネットワーク・アーキテクチャ"
+, "コンピューター・サイエンス"
+, "データ通信"
+, "情報技術"
+, "ネットワーク・セキュリティ"
+, "ネットワーク管理"
+, "インターネット"</category><guid>https://ja.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+効率的で信頼性の高いインフラを構築するために、OSIモデル、ネットワークトポロジー、様々な種類のネットワークなど、ネットワークの基礎の重要性を探求する。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png"/></item></channel></rss>
