@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>.NET on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/.net//img/banner.png</url><title>.NET on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/.net/</link></image><link>https://ca.simeononsecurity.com/tags/.net/</link><description>Recent content in .NET on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatitzeu el compliment de Windows amb Ansible STIG Playbooks</title><link>https://ca.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automatització"
+, "Compliment de Windows"
+, "Ansible STIG Playbooks"
+, "Enduriment de finestres"
+, "Scripts STIG"
+, "Compliment STIG"
+, "Galàxia Ansible"
+, "PowerShell"
+, "Script de PowerShell"
+, "Windows Server"
+, "Windows Defender"
+, ".NET"
+, "FireFox"
+, "Oracle JRE 8"
+, "Adobe Reader DC"
+, "Connectivitat a Internet"
+, "Compatibilitat fora de línia"
+, "Enduriment de seguretat"
+, "Seguretat de Windows"</category><guid>https://ca.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Racionalitzeu el vostre compliment de seguretat amb Ansible STIG Playbooks per a sistemes Windows.</description></item></channel></rss>

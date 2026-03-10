@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proteccions De Xarxa on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/proteccions-de-xarxa//img/banner.png</url><title>Proteccions De Xarxa on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/proteccions-de-xarxa/</link></image><link>https://ca.simeononsecurity.com/tags/proteccions-de-xarxa/</link><description>Recent content in Proteccions De Xarxa on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/proteccions-de-xarxa/index.xml" rel="self" type="application/rss+xml"/><item><title>Millora de la seguretat de Windows 10 amb Defender Hardening Script</title><link>https://ca.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Seguretat de Windows 10"
+, "Script de PowerShell"
+, "Enduriment"
+, "Enduriment del defensor"
+, "Automatització de seguretat"
+, "Compliment"
+, "Accés controlat a la carpeta"
+, "Sistema de prevenció d'intrusions"
+, "Control d'aplicacions"
+, "Reducció de superfície d'atac"
+, "Proteccions d'explotació"
+, "Proteccions al núvol"
+, "Proteccions de xarxa"
+, "Windows Defender STIG Script"
+, "Windows Defender STIG"
+, "Windows Defender Antivirus STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://ca.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a millorar la seguretat de Windows 10 amb un script de PowerShell que endurisca l'antivirus Windows Defender, implementant tots els requisits de l'antivirus Windows Defender STIG V2R1.</description></item></channel></rss>

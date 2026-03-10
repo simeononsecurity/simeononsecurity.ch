@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>COTS ONT on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/cots-ont//img/banner.png</url><title>COTS ONT on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/cots-ont/</link></image><link>https://ca.simeononsecurity.com/tags/cots-ont/</link><description>Recent content in COTS ONT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/cots-ont/index.xml" rel="self" type="application/rss+xml"/><item><title>Evitar el BGW-320: ús d'un COTS ONT de les Açores: una guia pas a pas</title><link>https://ca.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "Açores"
+, "fibra"
+, "xarxa"
+, "XGS-PON"
+, "Ethernet"
+, "Passthrough IP"
+, "personalització"
+, "ISP"
+, "ont ID"
+, "Adreça MAC"
+, "ID de l'equip"
+, "versió d'imatge"
+, "versió de maquinari"
+, "telnet"
+, "Aplicació CLI"
+, "GUI web"
+, "mode de configuració de fàbrica"
+, "problemes de compatibilitat"</category><guid>https://ca.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a ometre el BGW-320 i utilitzar un COTS ONT fet per Açores per connectar-vos a la xarxa del vostre ISP amb aquesta guia fàcil de seguir.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png"/></item></channel></rss>
